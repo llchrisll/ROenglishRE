@@ -1,0 +1,44 @@
+title_tbl = {
+	[1000] = "Junction of life",
+	[1001] = "Expert",
+	[1002] = "Dabster",
+	[1003] = "Master",
+	[1004] = "Grand Master",
+	[1005] = "Novice Adventurer",
+	[1006] = "Veteran Adventurer",
+	[1007] = "Master Adventurer",
+	[1008] = "of Dragon",
+	[1009] = "of Madness",
+	[1010] = "Steel Body",
+	[1011] = "The Yellow Flash",
+	[1012] = "Keen",
+	[1013] = "Thousand of Luck",
+	[1014] = "Incarnation of Love and Hate",
+	[1015] = "Maniac",
+	[1016] = "Reincarnated One",
+	[1017] = "Bloody Red",
+	[1018] = "Novice Teleporter",
+	[1019] = "목메여요",
+	[1020] = "Gambler",
+	[1021] = "Battle Manual Master",
+	[1022] = "Married Person",
+	[1023] = "Tenacious",
+	[1024] = "파워 노력가",
+	[1025] = "Poring Mania",
+	[1026] = "등짝을 열어본",
+	[1027] = "Animal Lover",
+	[1028] = "Devil Contractor",
+	[1029] = "Monster Girl",
+	[1030] = "Monster Boy",
+	[1031] = "남이 못보는 걸 보는",
+	[1032] = "Growing Bud",
+	[1033] = "Made a Family",
+	[1034] = "VIP"
+}
+
+GetTitleString = function(titleID)
+	if title_tbl[titleID] ~= nil then
+		return title_tbl[titleID]
+	end
+	return ""
+end

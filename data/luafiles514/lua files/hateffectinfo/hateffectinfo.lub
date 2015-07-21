@@ -1,0 +1,48 @@
+HatEFID = {
+	HAT_EF_Blossom_Fluttering = 1,
+	HAT_EF_DECORATION_OF_MUSIC = 2,
+	HAT_EF_GIFT_OF_SNOW = 3,
+	HAT_EF_LJOSALFAR = 4,
+	HAT_EF_MAPLE_FALLS = 5,
+	HAT_EF_TIME_ACCESSORY = 6,
+	HAT_EF_MERMAID_LONGING = 7,
+	HAT_EF_GLORIA = 8,
+	HAT_EF_BLACK_MAXMIZE = 9,
+	HAT_EF_MOONLIGHT1 = 10
+}
+hatEffectTable = {
+	[HatEFID.HAT_EF_Blossom_Fluttering] = { resourceFileName = "efst_blossom_fluttering\\sakura.str", hatEffectPos = -4 },
+	[HatEFID.HAT_EF_DECORATION_OF_MUSIC] = { resourceFileName = "efst_decoration_of_music\\fstone.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_GIFT_OF_SNOW] = { resourceFileName = "efst_gift_of_snow\\gift_of_snow.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_LJOSALFAR] = { resourceFileName = "efst_ljosalfar\\ljosalfar.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_MAPLE_FALLS] = { resourceFileName = "efst_maple_falls\\maple_falls.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_TIME_ACCESSORY] = { resourceFileName = "EFST_Time_ Accessory\\Time_ Accessory.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_MERMAID_LONGING] = { resourceFileName = "efst_mermaid_loging\\bubblebubble.str", hatEffectPos = -6 },
+	[HatEFID.HAT_EF_GLORIA] = { resourceFileName = "gloria.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_BLACK_MAXMIZE] = { resourceFileName = "black_maxmize.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_MOONLIGHT1] = { resourceFileName = "moonlight_1.str", hatEffectPos = 0 }
+}
+
+GetHatEfResName = function(index)
+	if hatEffectTable == nil then
+		return ""
+	else
+		local hatEfTbl = hatEffectTable[index]
+		if hatEfTbl ~= nil and hatEfTbl.resourceFileName ~= nil then
+			return hatEfTbl.resourceFileName
+		end
+		return ""
+	end
+end
+
+GetHatEfPos = function(index)
+	if hatEffectTable == nil then
+		return 0
+	else
+		local hatEfTbl = hatEffectTable[index]
+		if hatEfTbl ~= nil and hatEfTbl.hatEffectPos ~= nil then
+			return hatEfTbl.hatEffectPos
+		end
+		return 0
+	end
+end
