@@ -19,8 +19,7 @@ A potion made from grinded White Herbs that restores about ^000088325 HP^000000.
 Weight: ^77777715^000000
 #
 505#
-^000088HP Recovery Item^000000
-A potion made from grinded Blue Herbs that restores about ^00008860 SP^000000.
+A potion made from grinded Blue Herbs that restores ^000088SP^000000.
 ^FFFFFF_^000000
 Weight: ^77777715^000000
 #
@@ -4450,7 +4449,7 @@ A particularly modified Katar created for battles against Demihuman. It makes fo
 -------------------------
 STR +1, DEX +1, LUK +1
 -------------------------
-Increases damage against Demihuman monsters by 70%.
+Increases Physical damage against Demihuman monsters by 70%.
 -------------------------
 Ignores Physical Defense from Demihuman monsters by 20%.
 -------------------------
@@ -4469,7 +4468,7 @@ A particularly modified Katar created for battles against Demihuman. It can be u
 STR +1, DEX +1, LUK +1
 ASPD +5%
 -------------------------
-Increases damage against Demihuman monsters by 70%.
+Increases Physical damage against Demihuman monsters by 70%.
 -------------------------
 Increases Critical damage by 20%.
 -------------------------
@@ -4871,7 +4870,8 @@ An axe crafted by Orcish smiths for Orcish warriors.
 -------------------------
 Increases damage against small, medium, large size monsters by 70%.
 -------------------------
-[Equipped in Gold PC Cafe]ATK +10, MATK +10
+Equipped in Gold PC Cafe:
+ATK +10, MATK +10
 -------------------------
 Class: ^777777One-Handed Axe^000000
 Attack: ^777777110^000000
@@ -7617,7 +7617,7 @@ MATK +160
 -------------------------
 Increase SP Recovery Rate by 5%.
 -------------------------
-If equipped with Librarian Glove and Pocket Watch,
+If equipped with Librarian Glove and Pocket Watch:
 INT +5
 ASPD +5%
 MaxHP +700
@@ -9670,7 +9670,7 @@ An elegant and beautiful Red bow that looks like a flying falcon.
 -------------------------
 Adds 10% Damage to Focused Arrow Strike, Double Strafe and Arrow Repel skills.
 -------------------------
-Class:: ^777777Bow^000000
+Class: ^777777Bow^000000
 Attack: ^777777100^000000
 Weight: ^777777100^000000
 Weapon Level: ^7777773^000000
@@ -34488,11 +34488,12 @@ Jobs: ^777777All^000000
 #
 5433#
 A champion's wreath weaved from rare olive leaves.
+-------------------------
 Adds 4% bonus experience for each monster killed.
 When refined to +5 or +6, adds +5% or 6% respectively.
 When refined to +7 adds 8% bonus experience.
 When refined to +8 or higher, adds 10% bonus experience.
-Bring this to Frank in Geffen to have him change it to a Promethean Crown costume that will keep it's bonus EXP stat.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777770^000000
 Location: ^777777Upper^000000
@@ -34509,8 +34510,13 @@ Jobs: ^777777All^000000
 #
 5435#
 A jaunty red hat. Given by way of a thank you from Gravity to creative community members
-INT +1, MDEF +3, MaxSP +80
+-------------------------
+INT +1
+MDEF +3
+MaxSP +80
+-------------------------
 Refined to +6, every refine increase MDEF +1 and MaxSP +10.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777772^000000
 Location: ^777777Upper^000000
@@ -34520,7 +34526,10 @@ Jobs: ^777777All^000000
 #
 5436#
 A neatly made wedding corolla. A huge silk ribbon is attached to the back of it.
-LUK +3, MDEF +2
+-------------------------
+LUK +3
+MDEF +2
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Equip: ^777777Upper^000000
@@ -34529,8 +34538,12 @@ Jobs: ^777777All^000000
 #
 5437#
 A lotus flower which fairies wear on their heads.
-INT +1, MDEF +1
+-------------------------
+INT +1
+MDEF +1
+-------------------------
 Decreases damage from Insect monsters by 5%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777772^000000
 Equip: ^777777Upper^000000
@@ -34539,8 +34552,11 @@ Jobs: ^777777All^000000
 #
 5438#
 A small Green ribbon emphasizes one's cuteness while wearing this hairband.
+-------------------------
 MaxSP +20
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Equip: ^777777Upper^000000
@@ -34549,8 +34565,11 @@ Jobs: ^777777All except Novice^000000
 #
 5439#
 A small Red ribbon emphasizes one's cuteness while wearing this hairband.
+-------------------------
 MaxSP +20
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Equip: ^777777Upper^000000
@@ -34559,8 +34578,11 @@ Jobs: ^777777All except Novice^000000
 #
 5440#
 A small Blue ribbon emphasizes one's cuteness while wearing this hairband.
+-------------------------
 MaxSP +20
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Equip: ^777777Upper^000000
@@ -34569,8 +34591,11 @@ Jobs: ^777777All except Novice^000000
 #
 5441#
 A small White ribbon emphasizes one's cuteness while wearing this hairband.
+-------------------------
 MaxSP +20
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Equip: ^777777Upper^000000
@@ -34579,9 +34604,15 @@ Jobs: ^777777All except Novice^000000
 #
 5442#
 A salaryman's necktie worn as a headband.
+-------------------------
 VIT +1
-When equipped with [Blush], ASPD +3%, variable cast time reduced by 3%.
-HIT -5. Sp Consume increases by 5%.
+-------------------------
+When equipped with Blush:
+HIT -5
+ASPD +3%
+Reduce variable cast time by 3%.
+Decrease SP consumption by 5%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777776^000000
 Equip: ^777777Upper^000000
@@ -37194,7 +37225,7 @@ Jobs: ^777777All^000000
 #
 5674#
 A good place to store spare change. You never know when you might need zeny here or there for a potion.
-Allows the use of Level 2 Overcharge
+Enable Level 2 Overcharge skill.
 Class: ^777777Headgear^000000
 Defense: ^7777773^000000
 Location: ^777777Upper^000000
@@ -37203,7 +37234,15 @@ Required Level: ^77777710^000000
 Jobs: ^777777All^000000
 #
 5675#
-placeholder
+A love letter that sealed with a poring seal.
+Increase physical damage inflicted on Plant monster by 5%.
+Add a chance to drop Unripe Apple when killing a monster.
+Class: ^777777Headgear^000000
+Defense: ^7777770^000000
+Location: ^777777Lower^000000
+Weight: ^77777710^000000
+Required Level: ^77777710^000000
+Jobs: ^777777All^000000
 #
 5676#
 A magnificent crown created to pay tribute to the 8th sign of the zodiac, Scorpio the Scorpion. Attached to the crown is a Topaz gemstone, the birthstone for those born under this sign.
@@ -37233,8 +37272,8 @@ Required level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5678#
-...
-Indestructible (except in upgrade attempts).
+A headband with shape of 8 note.
+^702180Indestructible^000000
 Class: ^777777Headgear^000000
 Defense: ^7777775^000000
 Location: ^777777Upper^000000
@@ -37243,7 +37282,14 @@ Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5679#
-
+An old engineer cap.
+Increase physical damage inflicted on Formless monster by 10%.
+Class: ^777777Headgear^000000
+Defense: ^7777772^000000
+Location: ^777777Upper^000000
+Weight: ^77777720^000000
+Required Level: ^77777710^000000
+Jobs: ^777777All^000000
 #
 5680#
 This headgear makes you more sensitive and you could get high concentration.
@@ -37557,7 +37603,7 @@ When pure Str is 120, ATK +10, CRIT +3.
 Class: ^777777Headgear^000000
 Defense: ^77777712^000000
 Location: ^777777Upper^000000
-Weight:: ^77777710^000000
+Weight: ^77777710^000000
 Required Level: ^777777100^000000
 Jobs: ^777777Mechanic^000000
 #
@@ -39158,6 +39204,21 @@ Weight: ^777777300^000000
 Required Level: ^77777750^000000
 Jobs: ^777777All^000000
 #
+5974#
+A silver helmet named after the legendary Unicorn beast.
+Mdef +10
+Increase resistance against Shadow property attack by 15%.
+Enable use of Level 1 Grand Cross.
+Every level of Faith skill, increase damage received from Holy property attack by 2%.
+When refined to +7, enable use Grand Cross skill with level equal to upgrade level.
+When refined to +8, Increase resistance against Shadow property attack by 5%.
+Class: ^777777Headgear^000000
+Defense: ^77777716^000000
+Location: ^777777Upper^000000
+Weight: ^77777760^000000
+Required Level: ^77777760^000000
+Jobs: ^777777All^000000
+#
 6000#
 A dark ash imbued with mysterious magical power and darkness.
 ^FFFFFF_^000000
@@ -40565,7 +40626,7 @@ Thorn seed, vampire seed, bomb shaped mushroom plant cultivation.
 Thorn Seed: ^000088Thorn fruit 10^000000
 vampire seed: ^000088MenEater_Plant root 10^000000
 Bomb mushroom spore: ^000088mushroom spore 10, Poison mushroom spore 5, Gun Powder^000000
-Weight:: ^7777771^000000
+Weight: ^7777771^000000
 #
 6285#
 This is the manual book for producing Enriched White PotionZ, vitata500, Enriched cell juice.
@@ -49962,7 +50023,7 @@ Weight: ^7777770.1^000000
 11514#
 It has the same effect with a white slim potion. [Not to be sold.]
 ^FFFFFF_^000000
-Weight:: ^7777775^000000
+Weight: ^7777775^000000
 #
 11515#
 A tropical fruit with a hard shell. Drinking the juice of this fruit quenches thirst.
@@ -53005,15 +53066,15 @@ Weight: ^7777771^000000
 #
 12392#
 Restores a certain amount of HP to Magic Gear.
-Weight:: ^77777710^000000
+Weight: ^77777710^000000
 #
 12393#
 Restores a proper amount of HP to Magic Gear.
-Weight:: ^77777714^000000
+Weight: ^77777714^000000
 #
 12394#
 Restores HP to Magic Gear.
-Weight:: ^77777718^000000
+Weight: ^77777718^000000
 #
 12395#
 A bowl of Tantan Noodles that Green Maidens find hard to resist.
@@ -53095,7 +53156,7 @@ Weight: ^7777770^000000
 12409#
 Ignorance is delicious
 ^FFFFFF_^000000
-Weight:: ^7777770^000000
+Weight: ^7777770^000000
 #
 12410#
 Strengthens relationships with distant friends and family.
@@ -53115,7 +53176,7 @@ Weight: ^7777771^000000
 #
 12413#
 A well packed gift box. No one knows what is in it.
-Weight:: ^7777771^000000
+Weight: ^7777771^000000
 #
 12414#
 A candy made of guarana berries. Don't eat too much at once beacuse it increases concentration.
@@ -58755,7 +58816,7 @@ Slightly remodeled Cure Free enabled for throwing. Recovers several kinds of abn
 (Silence, Bleeding, Poison, Curse, Reverse Orcish, Change Undead)
 Class: ^777777Projectile^000000
 Attack: ^7777770^000000
-Weight:: ^7777775^000000
+Weight: ^7777775^000000
 Property: ^777777Neutral^000000
 #
 13273#
@@ -69470,7 +69531,7 @@ Reduces casting time by 3%.
 Increase the effect of the Heal that its wearer casts by 5%.
 Class: ^777777Armor^000000
 Defense: ^77777742^000000
-Weight:: ^77777740^000000
+Weight: ^77777740^000000
 Required Level: ^77777722^000000
 Jobs: ^777777All^000000
 #
@@ -69478,7 +69539,7 @@ Jobs: ^777777All^000000
 A suit for adventurers that maximizes defense while still fitting comfortably.
 Class: ^777777Armor^000000
 Defense: ^77777758^000000
-Weight:: ^777777280^000000
+Weight: ^777777280^000000
 Required Level: ^77777722^000000
 Jobs: ^777777All except Novice^000000
 #
@@ -69486,7 +69547,7 @@ Jobs: ^777777All except Novice^000000
 A armor made of a metal called Opcidium. The decoration of a black crystal looks profound.
 Class: ^777777Armor^000000
 Defense: ^77777793^000000
-Weight:: ^777777450^000000
+Weight: ^777777450^000000
 Required Level: ^777777100^000000
 Jobs: ^777777All third class^000000
 #
@@ -70946,6 +71007,26 @@ Weight: ^7777772000^000000
 Weapon Level: ^7777774^000000
 Required Level: ^777777110^000000
 Jobs: ^777777Super Novice^000000
+#
+16049#
+A Hammer imbued with the power of Thunder.
+(Incomplete desc)
+Class: ^777777Mace^000000
+Attack: ^777777130^000000
+Weight: ^777777200^000000
+Weapon Level: ^7777773^000000
+Required Level: ^77777750^000000
+Jobs: ^777777Novice, Swordman, Merchant and Acolyte classes^000000
+#
+16050#
+A replica of Thunderclap Hammer.
+(Incomplete desc)
+Class: ^777777Mace^000000
+Attack: ^777777130^000000
+Weight: ^7777770^000000
+Weapon Level: ^7777773^000000
+Required Level: ^77777750^000000
+Jobs: ^777777Novice, Swordman, Merchant and Acolyte classes^000000
 #
 16100#
 A box that contains 1 "Angry Mouth" inside.
@@ -78086,6 +78167,26 @@ Weapon Level: ^7777773^000000
 Required Level: ^77777770^000000
 Jobs: ^777777Archer, Thief and Rogue^000000
 #
+18133#
+A bow imbued with the power of thunder.
+(Incomplete desc)
+Class: ^777777Bow^000000
+Attack: ^777777120^000000
+Weight: ^777777150^000000
+Weapon Level: ^7777773^000000
+Required Level: ^77777750^000000
+Jobs: ^777777Archer, Thief and Rogue^000000
+#
+18134#
+A replica of Thunderclap Bow.
+(Incomplete desc)
+Class: ^777777Bow^000000
+Attack: ^777777120^000000
+Weight: ^7777770^000000
+Weapon Level: ^7777773^000000
+Required Level: ^77777750^000000
+Jobs: ^777777Archer, Thief and Rogue^000000
+#
 18500#
 ^000088Rental item^000000
 Passionate red scarf.
@@ -81347,7 +81448,7 @@ Pumpkin Helmet created by the Undead World. Sometimes, Attack becomes reduced to
 5% Damage Reduction from Demon and Demihuman.
 Class: ^777777Headgear^000000
 Defense: ^77777712^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^77777750^000000
 Required Level: ^7777771^000000
 Jobs: ^7777772nd Job^000000
@@ -84342,7 +84443,7 @@ Jobs: ^777777All^000000
 19586#
 Cute Pink Bunny Hair Band.
 Class: ^777777Costumes^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Class: ^7777772nd Job^000000
@@ -84905,7 +85006,7 @@ Jobs: ^777777All^000000
 19650#
 Decorations Made by Feathers of Five color to Celebrate 'RWC 2012'
 Class: ^777777Costumes Equipment
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Class: ^7777772nd Job^000000
@@ -84917,7 +85018,7 @@ Enables Level 5 Maximize Power.
 Deleted After the End of Competition.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Lower^000000
+Location: ^777777Lower^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84926,7 +85027,7 @@ Jobs: ^777777All^000000
 A hat worn by a well-known magician. Rabbit is peeping out, and we don't know what is going to pop out next.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84935,7 +85036,7 @@ Jobs: ^777777All^000000
 A hat which gives you a holy power and celestial melody in the rim of the ear.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84944,7 +85045,7 @@ Jobs: ^777777All^000000
 This old airship captain's hat would make you think: 'That white horn was only the part of the hat'
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84953,7 +85054,7 @@ Jobs: ^777777All^000000
 A long and big bonnet. It is not sure when it is used for.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84962,7 +85063,7 @@ Jobs: ^777777All^000000
 A useful and broad-brimmed hat providing a big shadow, and once worn by a famous minstrel.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84971,7 +85072,7 @@ Jobs: ^777777All^000000
 A captain's dignified hat with heavy color. It is famous for being worn by a vessel's leader.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84980,7 +85081,7 @@ Jobs: ^777777All^000000
 A hat just fit for summer vacation. It prevents face from tanning by the strong sunlight.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84989,7 +85090,7 @@ Jobs: ^777777All^000000
 A woolly hat made for warming heads, but it seems that some people wear it for fashion.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -84998,7 +85099,7 @@ Jobs: ^777777All^000000
 Marco's favorite hat. Inside you can find a short phrase Andrea had written, 'His memories to you...'.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -85007,7 +85108,7 @@ Jobs: ^777777All^000000
 A sweet bonnet.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -85017,7 +85118,7 @@ A hat worn by magicians. Rabbits are usually pulled out of this hat.
 Pretty stout, it won't be destroyed easily.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -85026,7 +85127,7 @@ Jobs: ^777777All^000000
 Light of desired dreams come true.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
-Location:: ^777777Upper^000000
+Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -90265,6 +90366,15 @@ Jobs: ^777777All^000000
 #
 20333#
 A costume represent the figure of family.
+Class: ^777777Costume^000000
+Defense: ^7777770^000000
+Location: ^777777Upper^000000
+Weight: ^7777770^000000
+Required Level: ^7777771^000000
+Jobs: ^777777All^000000
+#
+20347#
+A cute hat of Poring pirate.
 Class: ^777777Costume^000000
 Defense: ^7777770^000000
 Location: ^777777Upper^000000
@@ -96165,6 +96275,26 @@ Attack: ^777777105^000000
 Weight: ^777777105^000000
 Weapon Level: ^7777774^000000
 Required Level: ^777777160^000000
+Jobs: ^777777Novice, Swordman, Magician, Archer, Merchant, Thief, Ninja and Soul Linker^000000
+#
+28708#
+A dagger imbued with the power of Thunder.
+(Incomplete desc)
+Class: ^777777Dagger^000000
+Attack: ^777777150^000000
+Weight: ^777777100^000000
+Weapon Level: ^7777773^000000
+Required Level: ^77777750^000000
+Jobs: ^777777Novice, Swordman, Magician, Archer, Merchant, Thief, Ninja and Soul Linker^000000
+#
+28709#
+A replica of Thunderclap Sword.
+(Incomplete desc)
+Class: ^777777Dagger^000000
+Attack: ^777777150^000000
+Weight: ^7777770^000000
+Weapon Level: ^7777773^000000
+Required Level: ^77777750^000000
 Jobs: ^777777Novice, Swordman, Magician, Archer, Merchant, Thief, Ninja and Soul Linker^000000
 #
 28900#
