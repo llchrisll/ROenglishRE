@@ -1145,139 +1145,26 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[19088] = {
-		unidentifiedDisplayName = "안경",
-		unidentifiedResourceName = "글래스",
+	[19096] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "캡",
 		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "망원경",
-		identifiedResourceName = "망원경",
+		identifiedDisplayName = "스페셜 카프라 모자",
+		identifiedResourceName = "리리아인형모자",
 		identifiedDescriptionName = {
-			"압축한 유리를 이용해 멀리있는 것도 바로 코앞에 있는 것처럼 볼 수 있는 신기한 안경.",
-			"DEX + 1",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777중단 ^000000무게 : ^77777710^000000",
-			"요구 레벨 : ^77777750^000000",
-			"장착 : ^777777궁수 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 83
-	},
-	[19089] = {
-		unidentifiedDisplayName = "머리띠",
-		unidentifiedResourceName = "머리띠",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "눈가리개",
-		identifiedResourceName = "눈가리개",
-		identifiedDescriptionName = {
-			"눈을 가리게끔 만들어져 있는 천으로 무언가 보기 싫은게 있거나 불면증에 걸린 사람이 착용하기도 한다. 가끔 다른 목적으로 사용되어지기도 한다고 한다",
-			"암흑에 대한 내성 50%.",
+			"13주년 기념 한정 스페셜 카프라 인형 모자.",
+			"1제련 당 MHP+130, MSP+13 증가.",
+			"10제련 이상 시, ATK,MATK+3%.",
+			"(2015년 7월 29일 ~ 2015년 8월 26일 한정옵션)",
+			"ATK,MATK+13%.",
+			"몬스터를 죽였을 시 획득 경험치+13%.",
 			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777중단 ^000000무게 : ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 82
-	},
-	[19090] = {
-		unidentifiedDisplayName = "가면",
-		unidentifiedResourceName = "스마일",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "알람가면",
-		identifiedResourceName = "알람가면",
-		identifiedDescriptionName = {
-			"시계탑의 인기몬스터 알람의 얼굴부분만 떼어낸 것으로 상당히 단단하다.",
-			"암흑에 대한 내성 25%",
-			"계열 : ^777777방어 : ^7777772^000000",
-			"위치 : ^777777중하단 ^000000무게 : ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 170
-	},
-	[19091] = {
-		unidentifiedDisplayName = "투구",
-		unidentifiedResourceName = "오페라가면",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "오페라 유령 가면",
-		identifiedResourceName = "오페라유령가면",
-		identifiedDescriptionName = {
-			"어떤 이야기의 불운한 주인공이 썼다고 하는 가면. 가만히 들여다보고 있노라면 주인공의 아픔이 몸속까지 전해져 오는 듯 하다.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777중단 ^000000무게 : ^77777720^000000",
-			"요구 레벨 : ^77777720^000000",
-			"장착 : ^777777노비스를 제외한 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 128
-	},
-	[19092] = {
-		unidentifiedDisplayName = "안경",
-		unidentifiedResourceName = "글래스",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "하트파운데이션",
-		identifiedResourceName = "하트파운데이션",
-		identifiedDescriptionName = {
-			"돈많은 귀부인이 쓸 법한 형태의 선글래스지만 실제로는 특정한 몇몇 아주머님들이 애용한다고 하는데 이유는 알 수 없다",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777중단 ^000000무게 : ^77777710^000000",
-			"요구 레벨 : ^77777710^000000",
-			"장착 : ^777777노비스를 제외한 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 92
-	},
-	[19093] = {
-		unidentifiedDisplayName = "안경",
-		unidentifiedResourceName = "글래스",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "스핀 글래스",
-		identifiedResourceName = "스핀글래스",
-		identifiedDescriptionName = {
-			"쓰게 되면 눈이 빙글 빙글 도는 것처럼 보이는 신기한 안경. 그러나 정작 쓴사람 자신은 일반 안경으로 보는것과 별 차이를 느끼지 못한다. 이것을 쓰고 무언가를 힐끔 본다해도 절대로 알아차리지 못할 것 이다.",
-			"암흑에 대한 내성 8% 증가",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777중단 ^000000무게 : ^77777710^000000",
+			"위치 : ^777777상단 ^000000무게 : ^77777750^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
 		slotCount = 1,
-		ClassNum = 27
-	},
-	[19094] = {
-		unidentifiedDisplayName = "가면",
-		unidentifiedResourceName = "스마일",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "스마일",
-		identifiedResourceName = "스마일",
-		identifiedDescriptionName = {
-			"활짝 웃고있는 모습의 가면. 이러한 가면을 쓰고 있으면 안쪽에서는 어떤 표정을 짓고 있는지 알 수 없을 것이다.",
-			"계열 : ^777777방어 : ^7777771^000000",
-			"위치 : ^777777중하단 ^000000무게 : ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 65
-	},
-	[19095] = {
-		unidentifiedDisplayName = "액세서리",
-		unidentifiedResourceName = "풍선껌",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "해피 벌룬",
-		identifiedResourceName = "해피벌룬",
-		identifiedDescriptionName = {
-			"색색가지 풍선에 귀여운 포링이 그려져 있다. ",
-			"축제때 들고 다니면 행복한 기분이 될지도? ",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 10%. ",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1289
+		ClassNum = 581
 	},
 	[19852] = {
 		unidentifiedDisplayName = "모자",
@@ -1343,6 +1230,25 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 1358
+	},
+	[20371] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "캡",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스페셜 카프라 모자",
+		identifiedResourceName = "리리아인형모자",
+		identifiedDescriptionName = {
+			"13주년 기념 한정 스페셜 카프라 인형 모자.",
+			"(2015년 7월 29일 ~ 2015년 8월 26일 한정옵션)",
+			"All State +13.",
+			"몬스터를 죽였을 시 획득 경험치+13%.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 581
 	},
 	[22519] = {
 		unidentifiedDisplayName = "동작멈춤버프",
@@ -2640,6 +2546,36 @@ tbl = {
 			"Weight: ^7777770^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23021] = {
+		unidentifiedDisplayName = "13주년 기념 상자",
+		unidentifiedResourceName = "pro선물상자",
+		unidentifiedDescriptionName = {
+			"13주년을 기념하여 룬미드가츠 왕국에서 특별히 제작된 상자.",
+			"왕국 장인의 손길이 닿아있는듯 고풍스러운 분위기를 풍기고 있다.",
+			"황금인장카드 . 9제련권 , 의문의알 등을 포함한 다양한 아이템이 들어있다는 소문도 있다.",
+			"무게 : ^77777710^000000"
+		},
+		identifiedDisplayName = "13주년 기념 상자",
+		identifiedResourceName = "pro선물상자",
+		identifiedDescriptionName = {
+			"13주년을 기념하여 룬미드가츠 왕국에서 특별히 제작된 상자.",
+			"왕국 장인의 손길이 닿아있는듯 고풍스러운 분위기를 풍기고 있다.",
+			"황금인장카드 . 9제련권 , 의문의알 등을 포함한 다양한 아이템이 들어있다는 소문도 있다.",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23022] = {
+		unidentifiedDisplayName = "크로스 이벤트 상자",
+		unidentifiedResourceName = "선물상자_2",
+		unidentifiedDescriptionName = { "모바일 게임 크로스 이벤트 지원 상자.", "무게 : ^77777710^000000" },
+		identifiedDisplayName = "크로스 이벤트 상자",
+		identifiedResourceName = "선물상자_2",
+		identifiedDescriptionName = { "모바일 게임 크로스 이벤트 지원 상자.", "무게 : ^77777710^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
