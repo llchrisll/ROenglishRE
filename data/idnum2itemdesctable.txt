@@ -20604,8 +20604,9 @@ AGI +1, DEX +2
 ^99FF66Dark Knight Mask^000000
 ^99FF66Dark Knight Belt^000000
 ^99FF66Dark Knight Glove^000000
-MATK +15%, INT +5,
-10% of the damage is decreased when attacked by Angel monsters.
+Increase MaxHP by 15*Base Level.
+Increase MaxMP by 1.2*Base Level.
+ATK +3%.
 -------------------------
 Class: ^777777Accessory^000000
 Defense: ^7777771^000000
@@ -20622,8 +20623,9 @@ When attacked, has a chance of increasing MaxHP by 10% for 10 seconds.
 ^99FF66Dark Knight Mask^000000
 ^99FF66Dark Knight Belt^000000
 ^99FF66Dark Knight Glove^000000
-MATK +15%, INT +5,
-10% of the damage is decreased when attacked by angel-type monsters.
+Increase MaxHP by 15*Base Level.
+Increase MaxMP by 1.2*Base Level.
+ATK +3%.
 -------------------------
 Class: ^777777Accessory^000000
 Defense: ^7777771^000000
@@ -35052,8 +35054,9 @@ Jobs: ^777777All^000000
 #
 5472#
 A hat used during field day to distinguish groups. If you wear a hat differently, it will bring memories of past.
-If you defeat a humanlike monster, a Mojji will drop 
-with low probability
+-------------------------
+Add a chance to drop a Rice Cake when killing Demihuman monsters.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777770^000000
 Location: ^777777Upper^000000
@@ -35062,8 +35065,11 @@ Jobs: ^777777All^000000
 #
 5473#
 using the Crab claws to do a headgear. sure will a bit of smell.
+-------------------------
 When Physical Attack, has chance to autocast ^ff0000Level 1 Cold Bolt^000000.
-If defeat fish race, has a low chance to get Crystal Blue.
+-------------------------
+Add a chance to drop Crystal Blue when killing Fish monsters.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777778^000000
 Location: ^777777Upper^000000
@@ -35072,8 +35078,7 @@ Required Level: ^77777730^000000
 Jobs: ^777777All^000000
 #
 5474#
-A sign that says you are Away From your Keyboard.
-Whether or not you are telling the truth is another story.
+A sign that says you are Away From your Keyboard. Whether or not you are telling the truth is another story.
 Class: ^777777Headgear^000000
 Defense: ^7777772^000000
 Location: ^777777Upper^000000
@@ -35083,7 +35088,9 @@ Jobs: ^777777All^000000
 #
 5475#
 A mask that locked away the powers of Gozer and the Destructor.
+-------------------------
 All Stats +1.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777770^000000
 Location: ^777777Middle, Lower^000000
@@ -35093,8 +35100,11 @@ Jobs: ^777777All^000000
 #
 5476#
 An elaborate multi-colored headdress made from the feathers of a Grand Peco.
-Increases attack against Demihuman and Brute monsters 7%
-Has a low chance of adding the curse status to your target while physically melee attacking.
+-------------------------
+Increases attack against Demihuman and Brute monsters 7%.
+-------------------------
+Has a low chance of adding the curse status to your target while physically attacked.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777775^000000
 Location: ^777777Upper, Middle^000000
@@ -35103,27 +35113,36 @@ Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5477#
-A frog who loves items more than everything.
-Increase the drop rate.
+A hat with brazilian flag on it's top.
+-------------------------
+Enables use of Level 1 Bash.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777771^000000
+Defense: ^7777772^000000
 Location: ^777777Upper^000000
-Weight: ^7777770^000000
+Weight: ^77777710^000000
+Required Level: ^77777730^000000
 Jobs: ^777777All^000000
 #
 5478#
 A Classic hat.
-STR +2, MaxHP +300
+-------------------------
+STR +2
+MaxHP +300
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777774^000000
 Location: ^777777Upper^000000
 Weight: ^77777750^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5479#
 A hair ornament with pink feathers of a Shaman.
-MaxHP +50, MDEF +3,
+-------------------------
+MDEF +3
 Increase resistance against Neutral property attack by 5%.
+-------------------------
 ^FF0000Shaman Set^000000
 ^0000FFShaman Ring^000000
 ^0000FFShaman's Hair Ornament^000000
@@ -35131,76 +35150,102 @@ Increase resistance against Neutral property attack by 5%.
 MaxHP +300
 MATK +5%
 Increase resistance against Neutral property attack by 5%.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777771^000000
+Defense: ^7777772^000000
 Location: ^777777Upper^000000
 Weight: ^77777730^000000
-Required Level: ^77777730^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5480#
 A hat made to honor Bijofnil, the legendary bird that lives above the Yggdrasil tree.
-Adds the chance of auto casting level 3 Impositio Manus on its wearer when physically attacking.
+-------------------------
+All stats +2.
+-------------------------
+Increase resistance against all properties attack by 5%.
+-------------------------
+Every 10 seconds restore 2% of HP and 1% of SP.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^777777100^000000
-Required Level: ^77777730^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5481#
 A cap worn by a desert assassin who fought with incredible speed.
-ASPD +10%,
-ATK -20, MATK -10%.
+-------------------------
+ASPD +5%
+ATK +3%
+-------------------------
+When refined to +9, ATK +4%.
+When refined to +10, ATK +1%.
+-------------------------
 Class: ^777777Headgear^000000
+Defense: ^7777772^000000
 Location: ^777777Upper^000000
-Defense: ^7777771^000000
 Weight: ^777777100^000000
-Required Level: ^77777710^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5482#
 A mask worn by a knight that used dark magic to curse anyone who wore it but him.
-STR +3.
+-------------------------
+STR +3
+-------------------------
 ^99FF66Dark Knight Set^000000
 ^3CB371Dark Knight Mask^000000
 ^3CB371Dark Knight Belt^000000
 ^3CB371Dark Knight Glove^000000
-MATK +15%, INT +5,
-10% of the damage is decreased when attacked by angel-type monsters.
+Increase MaxHP by 15*Base Level.
+Increase MaxMP by 1.2*Base Level.
+ATK +3%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777775^000000
 Location: ^777777Upper, Middle, Lower^000000
 Weight: ^777777300^000000
-Required Level: ^77777780^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5483#
 A mask worn once worn by Odin during a fierce battle between the gods and humans.
-HIT -10,
-Increases damage to Demihuman monsters by 6%.
+-------------------------
+Reduce damage received from Boss class monsters by 2%.
+-------------------------
 Class: ^777777Headgear^000000
-Location: ^777777Middle, Lower^000000
 Defense: ^7777771^000000
+Location: ^777777Middle, Lower^000000
 Weight: ^77777710^000000
-Required Level: ^77777750^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All except Novice^000000
 #
 5484#
-Taiwan's soul!
-ALL STAT +5, Add a 5% resistance against ^FF0000Stun^000000.
+Taiwan's spirit!
+-------------------------
+All stats +5
+Add a 5% resistance against ^FF0000Stun^000000.
+-------------------------
+^FF0000Unrefineable^000000
+-------------------------
 [^000088Event Bonus, will NOT work outside of Event^000000]
-ALL STAT +1, Add a 5% resistance against ^FF0000Stun^000000.
+All stats +1, Add a 5% resistance against ^FF0000Stun^000000.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777774^000000
+Defense: ^7777778^000000
 Location: ^777777Upper^000000
 Weight: ^77777750^000000
 Jobs: ^777777All^000000
 #
 5485#
 Tigers Face.
-Decreases damage from Brute monster by 5%.
-Increase Physical and Magical Attack Strength against Brute Monster by 5%.
+-------------------------
+Decreases damage received from Brute monsters by 5%.
+-------------------------
+Increase Physical and Magical damage inflicted on Brute Monster by 5%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777773^000000
 Location: ^777777Upper, Middle, Lower^000000
@@ -35210,7 +35255,9 @@ Jobs: ^777777All^000000
 #
 5486#
 A hat made to celebrate the 6th Anniversary.
+-------------------------
 All stats +2
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777773^000000
 Location: ^777777Upper^000000
@@ -35218,9 +35265,10 @@ Weight: ^77777730^000000
 Jobs: ^777777All^000000
 #
 5487#
-...
-...
+A hat with Poring on the top of a cake. Just by wearing this hat will make you feels happy.
+-------------------------
 LUK +2
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Location: ^777777Upper^000000
@@ -35228,8 +35276,10 @@ Weight: ^77777750^000000
 Jobs: ^777777All^000000
 #
 5488#
-...
+An adorable Twin Pom Santa Hat.
+-------------------------
 LUK +1, MDEF +1
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Location: ^777777Upper^000000
@@ -35237,9 +35287,10 @@ Weight: ^77777710^000000
 Jobs: ^777777All^000000
 #
 5489#
-A yellow tredy hat has a "love daddy" logo.
-Thailand people wear it to admire king.
-DEX +2.
+A yellow tredy hat has a "love daddy" logo. Thailand people wear it to admire king.
+-------------------------
+DEX +2
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777770^000000
 Item Position: ^777777Upper^000000
@@ -35249,30 +35300,38 @@ Jobs: ^777777All^000000
 5490#
 This ceremonial headdress holds the likeness of Anubis, god of the underworld.
 It is rumored that it empowers the wearer against powerful divine beings.
-Reduce damage from MVPs by 10%.
-Increase effectiveness of healing and healing items by 10%.
+-------------------------
+Reduce damage received from Boss monsters by 10%.
+-------------------------
+Increase effectiveness of healing skills and healing items by 10%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777773^000000
 Location: ^777777Upper, Middle^000000
 Weight: ^7777770^000000
-Required Level: ^77777765^000000
+Required Level: ^77777770^000000
 Jobs: ^777777All^000000
 #
 5491#
 Not many people can stand a hot and steamy sand storm that is from far north Brazil. But these natives are well known for standing against heat and humidity with less water and food.
+-------------------------
 STR +2.
-Add 10 % resistance to ^FF0000Fire^000000 property attacks.
+-------------------------
+Add 10% resistance to ^FF0000Fire^000000 property attacks.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777780^000000
 Jobs: ^777777All^000000
 #
 5492#
 A black cap that is usually worn by boys attending schools that require uniforms.
-Increase damage on DemiHuman monster by 5%.
+-------------------------
+Reduce damage received from Demihuman monsters by 5%.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777775^000000
+Defense: ^77777710^000000
 Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Jobs: ^777777All except Novice^000000
@@ -36205,8 +36264,9 @@ DEX +3.
 ^3CB371Dark Knight Mask^000000
 ^3CB371Dark Knight Belt^000000
 ^3CB371Dark Knight Glove^000000
-MATK +15%, INT +5,
-10% of the damage is decreased when attacked by angel-type monsters.
+Increase MaxHP by 15*Base Level.
+Increase MaxMP by 1.2*Base Level.
+ATK +3%.
 Class: ^777777Headgear^000000
 Defense: ^7777775^000000
 Location: ^777777Upper, Middle, Lower^000000
@@ -43213,6 +43273,14 @@ In prontera and alberta pet exchange traders recognize this coupon.
 ^FFFFFF_^000000
 Weight: ^7777771^000000
 #
+6885#
+The spirit of dragon introduced on a zodiac piece.
+Weight: ^7777770^000000
+#
+6886#
+The spirit of strong dragon introduced on a zodiac piece.
+Weight: ^7777770^000000
+#
 6892#
 Some insect monsters dropped this.
 Judging by the text, map and the schematic, this is probably an Invasion plan. Let's learn what it meant.
@@ -43228,6 +43296,14 @@ Weight: ^7777771^000000
 A badge of office worn by an insectoid champion.
 ^FFFFFF_^000000
 Weight: ^7777771^000000
+#
+6895#
+Ancient stone created with the fusion of other ancient stones to make it a very powerful magical stone. It is the best way to collect them.
+Weight: ^7777770^000000
+#
+6896#
+Mystic stone created with the fusion of other mystic stones to make it a very powerful magical stone. It is the best way to collect them.
+Weight: ^7777770^000000
 #
 6897#
 The top Sea-living mammal.
@@ -69640,6 +69716,18 @@ Weight: ^7777771^000000
 14740#
 Edition limited sealed vesper Scroll.
 sealed vesper card, Safe to 9 Weapon Certificate, Safe to 9 Armor Certificate, Tempest Shadow Earring, Tempest Shadow Pendant, Magic Demihuman Shadow Weapon, Costume: Knit Cap Of Water,Infinite Giant Fly Wing Box and other rare items, only can get one of the items.
+Weight: ^7777771^000000
+#
+14758#
+Limited duration scroll. Contain 1 of:
+Safe to 11 Weapon Certificate,
+Safe to 11 Armor Certificate,
+Safe to 9 Weapon Certificate,
+Safe to 9 Armor Certificate,
+Attack Shadow Armor,
+Infinite Giant Fly Wing Box(5),
+Gold,
+and other rare items.
 Weight: ^7777771^000000
 #
 14766#

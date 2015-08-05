@@ -1,9 +1,9 @@
 tbl = {
 	[6849] = {
-		unidentifiedDisplayName = "의뢰 완료증",
+		unidentifiedDisplayName = "Quest Completion Certificate",
 		unidentifiedResourceName = "상인영수증",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "의뢰 완료증",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Quest Completion Certificate",
 		identifiedResourceName = "상인영수증",
 		identifiedDescriptionName = {
 			"의뢰 수행 완료 후 받을 수 있는 증서. 이것 자체만으로는 아무런 가치가 없지만 어딘가에 가져다 주면 혜택을 받을 수 있는듯 하다.",
@@ -13,10 +13,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6850] = {
-		unidentifiedDisplayName = "수상한 상자",
+		unidentifiedDisplayName = "Suspicious Box",
 		unidentifiedResourceName = "헐떡이는상자",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "수상한 상자",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Suspicious Box",
 		identifiedResourceName = "헐떡이는상자",
 		identifiedDescriptionName = {
 			"안에서 이상한 소리가 나는 수상한 상자. 귀 기울여 자세히 들어 보면 소름이 끼친다. 하아.. 어서 배달을 완료하고 싶다.. 보고싶어요, 엄마!!",
@@ -26,10 +26,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6851] = {
-		unidentifiedDisplayName = "수상한 문서",
+		unidentifiedDisplayName = "Suspicious Document",
 		unidentifiedResourceName = "주문서다발",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "수상한 문서",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Suspicious Document",
 		identifiedResourceName = "주문서다발",
 		identifiedDescriptionName = {
 			"아무렇게나 둘둘 말린 종이. 여러군데 얼룩이 진데다 글씨도 깨알같이 많이 적혀 있어 심하게 우글거린다. 사람의 손을 많이 탄 듯 하다.",
@@ -39,10 +39,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6852] = {
-		unidentifiedDisplayName = "초강력 중화제",
+		unidentifiedDisplayName = "Super Neutralizer",
 		unidentifiedResourceName = "안약",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "초강력 중화제",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Super Neutralizer",
 		identifiedResourceName = "안약",
 		identifiedDescriptionName = {
 			"약품으로 인해 부식이 된 돌에 사용하는 초강력 중화제. 소량으로도 굉장한 효과를 볼 수 있다.",
@@ -52,40 +52,40 @@ tbl = {
 		ClassNum = 0
 	},
 	[6853] = {
-		unidentifiedDisplayName = "감사의 꽃다발",
+		unidentifiedDisplayName = "Bouquet of Thanks",
 		unidentifiedResourceName = "꽃다발",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "감사의 꽃다발",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Bouquet of Thanks",
 		identifiedResourceName = "꽃다발",
 		identifiedDescriptionName = { "감사의 마음을 엮어 만든 화사한 꽃다발.", "Weight: ^7777770^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[6854] = {
-		unidentifiedDisplayName = "포획된 노버스",
+		unidentifiedDisplayName = "Captured Novus",
 		unidentifiedResourceName = "무속성알",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "포획된 노버스",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Captured Novus",
 		identifiedResourceName = "무속성알",
 		identifiedDescriptionName = { "포획된 노버스. 가끔 안에서 꿈틀거리는 것이 느껴진다.", "Weight: ^7777770^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[6855] = {
-		unidentifiedDisplayName = "포획된 따따초",
+		unidentifiedDisplayName = "Captured Tatacho",
 		unidentifiedResourceName = "지속성알",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "포획된 따따초",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Captured Tatacho",
 		identifiedResourceName = "지속성알",
 		identifiedDescriptionName = { "포획된 따따초. 가끔 안에서 꿈틀거리는 것이 느껴진다.", "Weight: ^7777770^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[6856] = {
-		unidentifiedDisplayName = "피고름으로 쓴 원고",
+		unidentifiedDisplayName = "Manuscript Written by Pilgrim",
 		unidentifiedResourceName = "원고용지",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "피고름으로 쓴 원고",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Manuscript Written by Pilgrim",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"인기 작가 테르미르가 7년 동안 집필 한 대하 소설의 원고. 원고 한장 한장마다 작가의 눈물과 한숨, 땀이 어려있다.",
@@ -95,10 +95,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6857] = {
-		unidentifiedDisplayName = "매우 단단한 돌",
+		unidentifiedDisplayName = "Very Hard Stone",
 		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "매우 단단한 돌",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Very Hard Stone",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"아름다운 무늬가 있는 매우 단단한 돌. 다루기도 제법 어려워 숙련된 석공만이 가공할 수 있다고 한다.",
@@ -108,20 +108,20 @@ tbl = {
 		ClassNum = 0
 	},
 	[6858] = {
-		unidentifiedDisplayName = "포획된 루드",
+		unidentifiedDisplayName = "Captured Lude",
 		unidentifiedResourceName = "수속성알",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "포획된 루드",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Captured Lude",
 		identifiedResourceName = "수속성알",
 		identifiedDescriptionName = { "포획된 루드. 가끔 안에서 깜빡거리는 빛이 비친다.", "Weight: ^7777770^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[6859] = {
-		unidentifiedDisplayName = "포획된 배회하는 자",
+		unidentifiedDisplayName = "Captured Wanderman",
 		unidentifiedResourceName = "풍속성알",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "포획된 배회하는 자",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Captured Wanderman",
 		identifiedResourceName = "풍속성알",
 		identifiedDescriptionName = {
 			"포획된 배회하는 자. 가끔 안에서 쾅쾅거리는 소리가 들린다. 설마 이러다 열리는건 아니겠지.",
@@ -130,63 +130,11 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[6885] = {
-		unidentifiedDisplayName = "용의 영혼 조각",
-		unidentifiedResourceName = "망자의한기",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "용의 영혼 조각",
-		identifiedResourceName = "망자의한기",
-		identifiedDescriptionName = { "12간지 중 용의 영혼이 깃든 모자.", "Weight: ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6886] = {
-		unidentifiedDisplayName = "강한 용의 영혼 조각",
-		unidentifiedResourceName = "망자의한기",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "강한 용의 영혼 조각",
-		identifiedResourceName = "망자의한기",
-		identifiedDescriptionName = { "12간지 중 용의 영혼이 깃든 모자.", "Weight: ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6895] = {
-		unidentifiedDisplayName = "가공한 고대의 룬",
-		unidentifiedResourceName = "어둠의룬",
-		unidentifiedDescriptionName = {
-			"고대의 룬 원석 여러 개를 융합 가공하여 룬의 마력이 하나로 응집되게 만들었다. 정수를 채취하기에 보다 좋은 형태다.",
-			"Weight: ^7777770^000000"
-		},
-		identifiedDisplayName = "가공한 고대의 룬",
-		identifiedResourceName = "어둠의룬",
-		identifiedDescriptionName = {
-			"고대의 룬 원석 여러 개를 융합 가공하여 룬의 마력이 하나로 응집되게 만들었다. 정수를 채취하기에 보다 좋은 형태다.",
-			"Weight: ^7777770^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6896] = {
-		unidentifiedDisplayName = "가공한 신비의 룬",
-		unidentifiedResourceName = "핏빛의룬",
-		unidentifiedDescriptionName = {
-			"신비의 룬 원석 여러 개를 융합 가공하여 룬의 마력이 하나로 응집되게 만들었다. 정수를 채취하기에 보다 좋은 형태다.",
-			"Weight: ^7777770^000000"
-		},
-		identifiedDisplayName = "가공한 신비의 룬",
-		identifiedResourceName = "핏빛의룬",
-		identifiedDescriptionName = {
-			"신비의 룬 원석 여러 개를 융합 가공하여 룬의 마력이 하나로 응집되게 만들었다. 정수를 채취하기에 보다 좋은 형태다.",
-			"Weight: ^7777770^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[6905] = {
-		unidentifiedDisplayName = "부서진 마법석",
+		unidentifiedDisplayName = "Shattered Magic Stone",
 		unidentifiedResourceName = "어스름한별빛",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "부서진 마법석",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Shattered Magic Stone",
 		identifiedResourceName = "어스름한별빛",
 		identifiedDescriptionName = {
 			"이전에 마법석의 형태를 가지고 있었을법한 결정조각. 일부 특별한 취향의 사람들이 필요로 하는 것 같다.",
@@ -196,10 +144,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6995] = {
-		unidentifiedDisplayName = "따뜻한 돌",
+		unidentifiedDisplayName = "Warm Stone",
 		unidentifiedResourceName = "프레임하트",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "따뜻한 돌",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Warm Stone",
 		identifiedResourceName = "프레임하트",
 		identifiedDescriptionName = {
 			"신기하게도 만지면 온기가 느껴지는 돌. 이것을 다룰 수 있는 사람에게 가져다 주면 굉장한 것을 만들 수 있을지도...",
@@ -211,10 +159,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6996] = {
-		unidentifiedDisplayName = "토끼 인형",
+		unidentifiedDisplayName = "Rabbit Doll",
 		unidentifiedResourceName = "봉제인형",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "토끼 인형",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Rabbit Doll",
 		identifiedResourceName = "봉제인형",
 		identifiedDescriptionName = {
 			"토끼의 모양을 본따 만든 인형. 아이들이 무척 좋아한다.",
@@ -226,10 +174,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6997] = {
-		unidentifiedDisplayName = "오래된 화살",
+		unidentifiedDisplayName = "Old Arrow",
 		unidentifiedResourceName = "녹슨화살",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "오래된 화살",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Old Arrow",
 		identifiedResourceName = "녹슨화살",
 		identifiedDescriptionName = {
 			"사용감이 제법 있는 화살. 몬스터의 침이 군데군데 묻어 있어 잘 닦아서 사용해야 한다.",
@@ -241,7 +189,7 @@ tbl = {
 		ClassNum = 0
 	},
 	[6999] = {
-		unidentifiedDisplayName = "HP흡수스톤(상단)",
+		unidentifiedDisplayName = "HPAbsorptionStone(Upper)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {
 			"HP를 흡수 할 수 있는 스톤. ",
@@ -249,7 +197,7 @@ tbl = {
 			"1% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000"
 		},
-		identifiedDisplayName = "HP흡수스톤(상단)",
+		identifiedDisplayName = "HPAbsorptionStone(Upper)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"HP를 흡수 할 수 있는 스톤. ",
@@ -257,24 +205,6 @@ tbl = {
 			"1% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^77777710^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[14758] = {
-		unidentifiedDisplayName = "안심제련 스크롤",
-		unidentifiedResourceName = "지혜스크롤",
-		unidentifiedDescriptionName = {
-			"기간 한정 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, 무기 9제련 보장권, 방어구 9제련 보장권, 어택 아머 쉐도우, 무한 파리의 날개 5일상자, 황금 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다."
-		},
-		identifiedDisplayName = "안심제련 스크롤",
-		identifiedResourceName = "지혜스크롤",
-		identifiedDescriptionName = {
-			"기간 한정 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, 무기 9제련 보장권, 방어구 9제련 보장권, 어택 아머 쉐도우, 무한 파리의 날개 5일상자, 황금 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"",
-			"Weight: ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -397,7 +327,7 @@ tbl = {
 		unidentifiedDisplayName = "삼명수 패키지 10세트Ⅳ",
 		unidentifiedResourceName = "응급처치상자",
 		unidentifiedDescriptionName = {
-			"감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다.",
+			"Unknown Item, can be identified by ^6A5ACDMagnifier^000000.",
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
 			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 봉인된 드라큐라 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
@@ -458,7 +388,7 @@ tbl = {
 	[17507] = {
 		unidentifiedDisplayName = "냥다래 4개 상자",
 		unidentifiedResourceName = "보물상자_",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "냥다래 4개 상자",
 		identifiedResourceName = "보물상자_",
 		identifiedDescriptionName = {
@@ -473,7 +403,7 @@ tbl = {
 	[17508] = {
 		unidentifiedDisplayName = "냥다래 10개 상자",
 		unidentifiedResourceName = "보물상자_",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "냥다래 10개 상자",
 		identifiedResourceName = "보물상자_",
 		identifiedDescriptionName = {
@@ -488,7 +418,7 @@ tbl = {
 	[17509] = {
 		unidentifiedDisplayName = "냥다래 40개 상자",
 		unidentifiedResourceName = "보물상자_",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "냥다래 40개 상자",
 		identifiedResourceName = "보물상자_",
 		identifiedDescriptionName = {
@@ -1148,7 +1078,7 @@ tbl = {
 	[19096] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "스페셜 카프라 모자",
 		identifiedResourceName = "리리아인형모자",
 		identifiedDescriptionName = {
@@ -1169,7 +1099,7 @@ tbl = {
 	[19852] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "의상 갈라파고의 모자",
 		identifiedResourceName = "오리모자",
 		identifiedDescriptionName = {
@@ -1185,7 +1115,7 @@ tbl = {
 	[19937] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "햇",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "의상 대지의 실크햇",
 		identifiedResourceName = "대지의실크햇",
 		identifiedDescriptionName = {
@@ -1201,7 +1131,7 @@ tbl = {
 	[20344] = {
 		unidentifiedDisplayName = "액세서리",
 		unidentifiedResourceName = "풍선껌",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "의상 해피 벌룬",
 		identifiedResourceName = "해피벌룬",
 		identifiedDescriptionName = {
@@ -1218,7 +1148,7 @@ tbl = {
 	[20349] = {
 		unidentifiedDisplayName = "악세사리",
 		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "의상 날고 있는 갈라파고",
 		identifiedResourceName = "날으는갈라파고",
 		identifiedDescriptionName = {
@@ -1234,7 +1164,7 @@ tbl = {
 	[20371] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "의상 스페셜 카프라 모자",
 		identifiedResourceName = "리리아인형모자",
 		identifiedDescriptionName = {
@@ -1283,7 +1213,7 @@ tbl = {
 	[22717] = {
 		unidentifiedDisplayName = "배자 볼",
 		unidentifiedResourceName = "알",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "배자 볼",
 		identifiedResourceName = "알",
 		identifiedDescriptionName = {
@@ -1296,7 +1226,7 @@ tbl = {
 	[22718] = {
 		unidentifiedDisplayName = "루드 볼",
 		unidentifiedResourceName = "알",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "루드 볼",
 		identifiedResourceName = "알",
 		identifiedDescriptionName = {
@@ -1309,7 +1239,7 @@ tbl = {
 	[22719] = {
 		unidentifiedDisplayName = "따따초 볼",
 		unidentifiedResourceName = "알",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "따따초 볼",
 		identifiedResourceName = "알",
 		identifiedDescriptionName = {
@@ -1322,7 +1252,7 @@ tbl = {
 	[22720] = {
 		unidentifiedDisplayName = "노버스 볼",
 		unidentifiedResourceName = "알",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "노버스 볼",
 		identifiedResourceName = "알",
 		identifiedDescriptionName = {
@@ -1505,7 +1435,7 @@ tbl = {
 	[22825] = {
 		unidentifiedDisplayName = "",
 		unidentifiedResourceName = "",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "",
 		identifiedResourceName = "",
 		identifiedDescriptionName = {},
@@ -3038,7 +2968,7 @@ tbl = {
 	[25038] = {
 		unidentifiedDisplayName = "부서진 트랩",
 		unidentifiedResourceName = "설치용트랩",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "부서진 트랩",
 		identifiedResourceName = "설치용트랩",
 		identifiedDescriptionName = {
@@ -3053,7 +2983,7 @@ tbl = {
 	[25039] = {
 		unidentifiedDisplayName = "포획용 트랩",
 		unidentifiedResourceName = "설치용트랩",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "포획용 트랩",
 		identifiedResourceName = "설치용트랩",
 		identifiedDescriptionName = {
