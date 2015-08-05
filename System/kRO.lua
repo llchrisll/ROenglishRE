@@ -2579,6 +2579,46 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23023] = {
+		unidentifiedDisplayName = "무한 거대한 파리의 날개",
+		unidentifiedResourceName = "거대한파리날개",
+		unidentifiedDescriptionName = {
+			"^000088임대 아이템^000000",
+			"고대에 생존한 거대한 날짐승의 날개를 잘라 주술을 걸어놓은 것. 여러 사람을 한번에 임의의 장소로 이동시킬 수 있다.",
+			"파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
+			"^ffffff_^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "무한 거대한 파리의 날개",
+		identifiedResourceName = "거대한파리날개",
+		identifiedDescriptionName = {
+			"^000088임대 아이템^000000",
+			"고대에 생존한 거대한 날짐승의 날개를 잘라 주술을 걸어놓은 것. 여러 사람을 한번에 임의의 장소로 이동시킬 수 있다.",
+			"파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
+			"^ffffff_^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23024] = {
+		unidentifiedDisplayName = "피아멧트 스크롤",
+		unidentifiedResourceName = "피아멧트스크롤",
+		unidentifiedDescriptionName = {
+			"기간 한정 피아멧트 스크롤. ",
+			"무기 11제련 보장권, 방어구 11제련 보장권, [비매품]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "피아멧트 스크롤",
+		identifiedResourceName = "피아멧트스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 피아멧트 스크롤. ",
+			"무기 11제련 보장권, 방어구 11제련 보장권, [비매품]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[25000] = {
 		unidentifiedDisplayName = "SP흡수스톤(상단)",
 		unidentifiedResourceName = "영혼의조각",
