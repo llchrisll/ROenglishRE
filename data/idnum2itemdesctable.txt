@@ -21450,9 +21450,9 @@ Jobs: ^777777All^000000
 2911#
 Agimat Tattoo with a plump lady pattern. It is told that the one who owns this tattoo will possess extreme power.
 -------------------------
-Increase Healing skill by 4%.
+Increase healing power by 4%.
 -------------------------
-Increase Healing received by 7%.
+Increase healing rate from skills and items by 7%.
 -------------------------
 Class: ^777777Accessory^000000
 Defense: ^7777770^000000
@@ -27972,7 +27972,7 @@ Compound on: ^777777Weapon^000000
 Weight: ^7777771^000000
 #
 4650#
-When received magical attack, give 100% chance to stun the attacker.
+When magically attacked, give 100% chance to stun the attacker.
 VIT +3
 Class: ^777777Card^000000
 Compound on: ^777777Headgear^000000
@@ -33673,7 +33673,7 @@ HP/SP Regeneration +10% for each upgrade.
 [Refine +8]
 Reduce damage taken from Demon monsters by 10% again.
 Increase damage inflicted on Demon monsters by 10% again.
-Increase experience received when you kill a Demon or Undead monster by 20%.
+Increase experience gained when you kill a Demon or Undead monster by 20%.
 -------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777772^000000
@@ -35942,32 +35942,42 @@ Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5536#
+^000088Rental item^000000
 This monster card has been rejected and deemed defective.
-Only the highest quality cards are allowed to possess a monster's abilities.
-Instead of letting it go to waste, the Kafra Staff has offered it as a decorative headgear.
-Wearing it gives a chance of receiving a Blank Card with each monster killed.
+-------------------------
+LUK +1
+Perfect Dodge +1
+-------------------------
+Add a chance of dropping 'Santa's Bag', 'Cookie Bag' or 'Old Purple Box' when killing a monster.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Location: ^777777Lower^000000
-Weight: ^7777771^000000
-Required Level: ^77777710^000000
+Weight: ^7777770^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5537#
 A Coati-shaped Hat with a cute thick tail. This hat comes with a fresh forest scent.
+-------------------------
 AGI +3
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777772^000000
 Location: ^777777Upper^000000
-Weight: ^77777720^000000
-Required Level: ^7777771^000000
+Weight: ^77777770^000000
+Required Level: ^77777745^000000
 Jobs: ^777777All^000000
 #
 5538#
 A bird from the Toucan family with a fabulous yellow colored beak. It has been seen eating sweet-flavored loop cereal.
+-------------------------
 DEX +3
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777772^000000
 Location: ^777777Upper, Middle^000000
@@ -35977,8 +35987,11 @@ Jobs: ^777777All^000000
 #
 5539#
 A mask of the king of the Amazon the Jaguar. According to rumor, those who wear this get blessings from nature.
-MDEF +2.
-Enables the use of Crazy Uproar skill.
+-------------------------
+MDEF +2
+-------------------------
+Enables use of Crazy Uproar skill.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777774^000000
 Location: ^777777Upper, Middle, Lower^000000
@@ -35987,9 +36000,11 @@ Required Level: ^77777725^000000
 Jobs: ^777777All^000000
 #
 5540#
-^000088Rental Item^000000
+^000088Rental item^000000
 A spiritual circlet granted by Freya. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr.
-STR +1, INT +1, DEX +1.
+-------------------------
+STR +1, INT +1, DEX +1
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777778^000000
 Location: ^777777Upper^000000
@@ -36000,7 +36015,9 @@ Jobs: ^777777All^000000
 5541#
 ^000088Rental Item^000000
 A spiritual circlet granted by Freya. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr.
-STR +1, INT +1, DEX +1.
+-------------------------
+STR +1, INT +1, DEX +1
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777778^000000
 Location: ^777777Upper^000000
@@ -36011,7 +36028,9 @@ Jobs: ^777777All^000000
 5542#
 ^000088Rental Item^000000
 A spiritual circlet granted by Freya. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr.
-STR +1, INT +1, DEX +1.
+-------------------------
+STR +1, INT +1, DEX +1
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777778^000000
 Location: ^777777Upper^000000
@@ -36022,7 +36041,9 @@ Jobs: ^777777All^000000
 5543#
 ^000088Rental Item^000000
 A spiritual circlet granted by Freya. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr.
-STR +1, INT +1, DEX +1.
+-------------------------
+STR +1, INT +1, DEX +1
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777778^000000
 Location: ^777777Upper^000000
@@ -36032,7 +36053,10 @@ Jobs: ^777777All^000000
 #
 5544#
 ...
-INT +2, MaxSP +50.
+-------------------------
+INT +2
+MaxSP +50
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777776^000000
 Location: ^777777Upper^000000
@@ -36042,11 +36066,14 @@ Jobs: ^777777All^000000
 #
 5545#
 A magnificent diadem created to pay tribute to the 1st sign of the zodiac, Aries the Ram.
-Attached to the crown is a Diamond gemstone, the birthstone for those born under this sign. Its power increases defense from Fire attacks.
-VIT +2, Increases resistance to ^FF0000Fire^000000 property by 5%.
-When refined to 7 or higher, DEF +2 and VIT +1.
+-------------------------
+VIT +1
+MaxHP +1%
+-------------------------
+When refined to +7 or higher, MaxHP +2%.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777772^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777740^000000
 Required Level: ^77777771^000000
@@ -36054,49 +36081,58 @@ Jobs: ^777777All^000000
 #
 5546#
 A magnificent crown created to pay tribute to the 1st sign of the zodiac, Aries the Ram.
-Attached to the crown is a Diamond gemstone, the birthstone for those born under this sign. Its power increases defense from Fire attacks.
-LUK +2, Increases resistance to ^FF0000Fire^000000 property by 5%.
-When refined to 7 or higher, perfect Flee +2 and LUK +1.
+-------------------------
+LUK +2
+-------------------------
+When refined to +7 or higher, CRIT +5 and increase critical damage by 5%.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777772^000000
+Defense: ^7777773^000000
 Location: ^777777Upper^000000
 Weight: ^77777740^000000
 Required Level: ^77777771^000000
 Jobs: ^777777All^000000
 #
 5547#
-A Katusa has small and slim flower.
-Increase 15% damage of EARTHSPIKE, HEAVENDRIVE.
-Reduce 25% casting time of these skills.
-Based on each of +1 refine lv, increase 1% damage of EARTHSPIKE, HEAVENDRIVE.
+A hairband with a small and pretty flower.
+-------------------------
+Increase 15% damage of Earthspike and Heavendrive.
+Reduce 25% variable casting time of these skills.
+-------------------------
+Each refine increase 1% damage of Earthspike and Heavendrive.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Location: ^777777Upper^000000
 Weight: ^77777720^000000
-Required Level: ^77777770^000000
+Required Level: ^77777771^000000
 Jobs: ^777777All^000000
 #
 5548#
 A crimson colored rose. Be sure to check for thorns before putting this in your mouth.
-LUK +1
-When killing a monster there is a chance of a Whitherless Rose dropping.
+-------------------------
+ATK +1%, MATK +1%, MaxSP +30
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777770^000000
 Location: ^777777Lower^000000
 Weight: ^77777710^000000
-Required Level: ^77777750^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5549#
 A magnificent diadem created to pay tribute to the 2nd sign of the zodiac, Taurus the Bull.
-Attached to the crown is an Emerald gemstone, the birthstone for those born under this sign.
-It has been known that those born under the sign of Pisces are most compatible with those born under the Capricorn and Virgo signs.
-DEX +2,
-Increases resistance to ^cc5500Earth^000000 property by 5%.
-When refined to 7 or higher,
-DEF +2, VIT +2.
+-------------------------
+DEX +2
+MATK +2%
+-------------------------
+Reduce after cast delay by 2%.
+-------------------------
+Add a low chance of inflicting Stun on enemy when physically attacking.
+Each refine increase the chance of inflicting Stun.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777730^000000
 Required Level: ^77777770^000000
@@ -36104,26 +36140,33 @@ Jobs: ^777777All^000000
 #
 5550#
 A magnificent crown created to pay tribute to the 2nd sign of the zodiac, Taurus the Bull.
-Attached to the crown is an Emerald gemstone, the birthstone for those born under this sign.
-DEX +2, VIT +2,
-When refined to 7 or higher,
-DEF +2,
-Increase resistance to ^cc5500Earth^000000 property by 5%.
+-------------------------
+AGI +2
+FLEE +10
+-------------------------
+Add a low chance of inflicting Stun on enemy when physically attacking.
+Each refine increase the chance of inflicting Stun.
+-------------------------
+When refined to +7, ATK +15, ASPD +5%.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777730^000000
 Required Level: ^77777770^000000
 Jobs: ^777777All^000000
 #
 5551#
-...
+A hat made from magical egg.
+-------------------------
 Add a chance of auto casting ^008800Level 1 Heal^000000 on the user when receives physical attack.
+-------------------------
 [^000088Event Bonus, will NOT work outside of Event^000000]
-Increase Movement Speed.
+Increase movement speed.
+-------------------------
 Class: ^777777Headgear^000000
+Defense: ^7777774^000000
 Location: ^777777Upper^000000
-Defense: ^7777772^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -36131,9 +36174,11 @@ Jobs: ^777777All^000000
 5552#
 ^000088Rental Item^000000
 Limited Promo! Summer Festival Grand Circlet! 4 weeks rental item.
+-------------------------
 STR +3, INT +3, MDEF +3.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777778^000000
+Defense: ^77777710^000000
 Location: ^777777Upper^000000
 Weight: ^7777770^000000
 Required Level: ^7777771^000000
@@ -36142,7 +36187,9 @@ Jobs: ^777777All^000000
 5553#
 ^000088Rental Item^000000
 Limited Promo! Summer Festival Bunny Band! 4 weeks rental item.
+-------------------------
 MDEF +4, Reduces damage from Demihuman monsters by 9%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^77777714^000000
 Location: ^777777Upper^000000
@@ -36152,23 +36199,22 @@ Jobs: ^777777All^000000
 #
 5554#
 Ridiculous Octopus with a gentleman's hat. It feels like it's making fun of me as I look at it.
-AGI +2, Low chance of autocast Level 5 [Provoke] when attacked physically.
-Indestructable.
+MDEF +3
+^702180Indestructible^000000
 Class: ^777777Headgear^000000
 Defense: ^7777773^000000
 Location: ^777777Upper^000000
 Weight: ^77777720^000000
-Required Level: ^77777720^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5555#
 A hat which resembles a cute Leaf Cat. The power to cure dwells within it.
+-------------------------
 AGI +2
+-------------------------
 Has a low chance of auto casting Level 3 Heal on the user when receiving physical melee attack.
-^ff0000Event stats from Jan 6th - Feb 3rd 2011^000000
-^0000ffWearing this gives you an extra option of hunting 300 Leaf Cats in Ayothaya.^000000
-^cc0000+5 or higher, gives special 30% bonus EXP for Leaf Cat hunting quest in Ayothaya.^000000
-^00cc00+7 or higher, gives 25% extra EXP for every monster killed and decreases attack of monsters in Ayothaya Dungeon by 30% except for Whispers.^000000
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777776^000000
 Location: ^777777Upper^000000
@@ -36178,19 +36224,27 @@ Jobs: ^777777All^000000
 #
 5556#
 Very warm hat which a monster 'Fur Seal' is wearing.
-INT +1, Low chance of autocast Level 1 [Frost Nova] when attacked physically.
+-------------------------
+ATK +5, MATK +5
+-------------------------
+Increase resistance against Water property attack by 7%.
+-------------------------
+Increase damage inflicted on Water property monster by 25%.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777775^000000
 Location: ^777777Upper, Middle, Lower^000000
 Weight: ^77777750^000000
-Required Level: ^77777755^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5557#
 A hat which resembles the wild cat, Wild Rose.
-AGI +3.
+-------------------------
+AGI +3
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777750^000000
 Required Level: ^77777720^000000
@@ -36198,9 +36252,11 @@ Jobs: ^777777All except Novice^000000
 #
 5558#
 This hat is a legend to the people from whild festival world.
-Low chance of dropping 'Blue Herb' when hunt a Plant monster.
+-------------------------
+Add a low chance of dropping 'Blue Herb' when killing a Plant monster.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777710^000000
 Required Level: ^77777730^000000
@@ -36216,32 +36272,47 @@ Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5560#
-An armored helmet created from melting down battle worn armors donated by powerful gladiators of times past. Only the most distinguished duelists can wear this helmet.
-Maximum HP+100 
-Low chance to reflect magical damage 
+An armored helmet created from melting down battle worn armors donated by powerful gladiators of times past.
+Only the most distinguished duelists can wear this helmet.
+-------------------------
+MaxHP +100
+-------------------------
+Cannot be knocked back.
+-------------------------
+Reduce resistance against physical and magical attack by 30%.
+-------------------------
 Class: ^777777Headgear^000000
-Location: ^777777Upper^000000
-Weight: ^77777780^000000
 Defense: ^7777776^000000
-Required Level: ^77777780^000000
+Location: ^777777Upper^000000
+Weight: ^777777300^000000
+Required Level: ^77777775^000000
 Jobs: ^777777All^000000
 #
 5561#
 A top hat modeled after a magician who became famous for making rabbits appear out of thin air.
+-------------------------
 INT +1, MaxSP +50.
+-------------------------
 Has a chance of casting Level 1 Heal on its wearer when being attacked physically.
+-------------------------
 Has a chance of casting Lighting Bolt, Fire Bolt or Cold Bolt between Level 1 to 3 while physically attacking a target.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Location: ^777777Upper^000000
-Weight: ^7777778^000000
+Weight: ^77777780^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5562#
 Only the couple which swears a truth one love will be able to use the veil of legend.
-Reduced Casting Time by 3%, Reduced SP consumption of all skills by 3%.
-MDEF +10.
+-------------------------
+MDEF +10
+-------------------------
+Reduced variable casting time by 3%
+-------------------------
+Reduced SP consumption of all skills by 3%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777770^000000
 Location: ^777777Upper, Middle^000000
@@ -36251,8 +36322,11 @@ Jobs: ^777777All^000000
 #
 5563#
 A Dolor of Thanatos laying on your head. It's rumored that the doll is trying to speak with his owner.
+-------------------------
 Randomly cast Lex Aeterna when you deal physical attacks.
+-------------------------
 ^702180Indestructible^000000
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777773^000000
 Location: ^777777Upper^000000
@@ -36261,24 +36335,20 @@ Jobs: ^777777All^000000
 #
 5564#
 A deceptive crown that was once used to summon monsters.
-INT +4, MDEF +10,
-Cast-time reduced by 10%.
-When refined to +7 or higher,
-Def +2, MATK +5%
-additional Cast-time reduced by 5%.
-When refined to +9 or higher,
-additional MDEF +5 and MATK +5%,
-additional Cast-time and after-cast delay reduced by 5%.
+-------------------------
+INT +4
+Reduce variable cast time by 10%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777773^000000
-Location: ^777777Upper, Middledle ^000000
+Location: ^777777Upper, Middle^000000
 Weight: ^77777730^000000
 Required Level: ^77777785^000000
 Jobs: ^777777All^000000
 #
 5565#
 ...
-Increase damage on DemiHuman monster by 10%.
+Increase damage on Player by 10%.
 Class: ^777777Headgear^000000
 Defense: ^7777775^000000
 Location: ^777777Upper, Middle, Lower^000000
@@ -36288,7 +36358,7 @@ Jobs: ^777777All^000000
 #
 5566#
 ...
-Increase damage on DemiHuman monster by 2%.
+Increase damage on Player by 2%.
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Location: ^777777Upper, Middle, Lower^000000
@@ -36298,17 +36368,25 @@ Jobs: ^777777All^000000
 #
 5567#
 A hat to commemorate the Sinulog Festival, you felt stronger while wearing it.
-STR +2, Increase ASPD (Decrease delay 2% after attack)
+-------------------------
+STR +1
+-------------------------
+When refined to +7, CRIT +10, HIT +10, add a chance of increasing ATK by 30 when physically attacking.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777770^000000
-Location: ^777777Lower^000000
-Weight: ^77777710^000000
+Defense: ^7777775^000000
+Location: ^777777Upper^000000
+Weight: ^77777730^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5568#
 A Bonnet looks like a cute rabbit that made by legendary hat maker. It looks so soft and weak but it might have extraordinary things inside of it.
-INT +2, Reduce casting delay by 3%.
+-------------------------
+INT +2
+-------------------------
+Reduce after cast delay by 3%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777774^000000
 Location: ^777777Upper, Middle^000000
@@ -36318,35 +36396,46 @@ Jobs: ^777777All^000000
 #
 5569#
 A magnificent Diadem created to pay tribute to the 3rd sign of the zodiac, Gemini the Twins. Attached to the crown is an Alexandrite gemstone, the birthstone for those born under this sign.
-MATK +2%,
-When refined to 7 or higher,
-MDEF +7, MATK +8%, and Increase resistance to ^7BCC70Wind^000000 property by 5%
+-------------------------
+DEX +2
+-------------------------
+Reduce after cast delay 2%.
+-------------------------
+Increase resistance against Wind property attack by 5%.
+-------------------------
+When refined to +7, DEX +1, MATK +30.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777774^000000
+Defense: ^7777773^000000
 Location: ^777777Upper^000000
 Weight: ^77777730^000000
-Required Level: ^77777770^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5570#
 A magnificent crown created to pay tribute to the 3rd sign of the zodiac, Gemini the Twins. Attached to the crown is an Alexandrite gemstone, the birthstone for those born under this sign.
-ATK +2, MDEF +5,
-When refined to 7 or higher,
-Def +1, Flee +10, ATK +15, and Increase resistance to ^7BCC70Wind^000000 property by 5%
+-------------------------
+AGI +2, FLEE +10
+-------------------------
+Increase resistance against Wind property attack by 5%.
+-------------------------
+When refined to +7, HIT +5, ATK +30.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777774^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777730^000000
-Required Level: ^77777770^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5571#
 Death Rock singer-style wig.
-...
+-------------------------
 [^000088Event Bonus, will NOT work outside of Event^000000]
 Add low chance of auto casting ^008800Level 5 Frost Joker^000000 on the user when receives physical attack.
+-------------------------
 Class: ^777777Headgear^000000
-Defense: ^7777771^000000
+Defense: ^7777772^000000
 Location: ^777777Upper^000000
 Weight: ^77777710^000000
 Required Level: ^7777771^000000
@@ -36354,8 +36443,13 @@ Jobs: ^777777All^000000
 #
 5572#
 The hat made according to the shape of Savage Babe.
-VIT +2.
-Have chance to inflict Stun to enemy during melee physical attack. Damage from Animal type monster +10%.
+-------------------------
+VIT +2
+-------------------------
+Add a chance of inflicting Stun to enemy during melee physical attack.
+-------------------------
+Increase damage taken from Brue monsters by 10%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777772^000000
 Location: ^777777Upper^000000
@@ -36365,16 +36459,25 @@ Jobs: ^777777All^000000
 #
 5573#
 Baby Dokkaebi's strong firm horn. Some say this brings you wealth.
-Drops jewelry when killing monsters with low chance, with physical attack activates mammonite Lv5 by certain chance.(Spends zeny when activating, not available without zeny.)
+-------------------------
+Add a chance of dropping 'Jewelry' when killing a monster.
+-------------------------
+When physically attacking add chance to autocast Level 5 Mammonite.(Consume zeny, but will not triggered when not enough zeny.)
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777710^000000
+Required Level: ^7777771^000000
 Jobs: ^777777All^000000
 #
 5574#
 A popular snack while taking tests. It makes one look more studious but, it's days may be numbered if it stays in somebody's mouth any longer.
-DEX +2, HIT +3%
+-------------------------
+HIT +3
+-------------------------
+When equipped with 'Model Training Hat', DEX +2, DEF +2.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777770^000000
 Location: ^777777Lower^000000
@@ -36384,17 +36487,18 @@ Jobs: ^777777All^000000
 #
 5575#
 Made with love, this onigiri is very tasty.
-Designed by Sheikh.
 Class: ^777777Headgear^000000
-Defense: ^7777773^000000
+Defense: ^7777776^000000
 Location: ^777777Upper^000000
 Weight: ^77777710^000000
 Required Level: ^77777730^000000
 Jobs: ^777777All^000000
 #
 5576#
-...
-Every time you kill a monster, small chance to drop Mastela Fruit Wine.
+A beautiful lacquerware red cup.
+-------------------------
+Every time you kill a monster, small chance to drop 'Mastela Fruit Wine'.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777770^000000
 Location: ^777777Lower^000000
@@ -36404,7 +36508,9 @@ Jobs: ^777777All^000000
 #
 5577#
 A mask worn by a knight that used dark magic to curse anyone who wore it but him.
+-------------------------
 DEX +3.
+-------------------------
 ^99FF66Dark Knight Set^000000
 ^3CB371Dark Knight Mask^000000
 ^3CB371Dark Knight Belt^000000
@@ -36412,6 +36518,7 @@ DEX +3.
 Increase MaxHP by 15*Base Level.
 Increase MaxMP by 1.2*Base Level.
 ATK +3%.
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777775^000000
 Location: ^777777Upper, Middle, Lower^000000
@@ -36421,7 +36528,9 @@ Jobs: ^777777All^000000
 #
 5578#
 A hat that is given to brave sailors.
-AGI +2.
+-------------------------
+AGI +2
+-------------------------
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Item Position: ^777777Upper^000000
@@ -36507,7 +36616,7 @@ Increase resistance against Neutral property attack by 3%.
 Add a low chance of recovering HP/SP when the user receives Physical Melee Damage.
 Class: ^777777Headgear^000000
 Defense: ^7777775^000000
-Location: ^777777Upper, Middledle ^000000
+Location: ^777777Upper, Middle^000000
 Weight: ^77777740^000000
 Required Level: ^7777771^000000
 Jobs: ^777777All^000000
@@ -37732,7 +37841,7 @@ Jobs: ^777777All^000000
 This is something that many sailors of Alberta wear when sailing through the seven seas. It helps prevent seasickness and its bright color makes it easier to see men who have fallen overboard.
 DEX +1.
 Provides 20% resistance to poison.
-Indestructable.
+^702180Indestructible^000000
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Location: ^777777Upper^000000
@@ -37744,7 +37853,7 @@ Jobs: ^777777All^000000
 This is a good companion to have when spending months sailing on a ship. Sailors of Alberta also believe that it is a good luck charm against bad luck and curses.
 DEX +1.
 20% resistance to Curse
-Indestructable.
+^702180Indestructible^000000
 Class: ^777777Headgear^000000
 Defense: ^7777771^000000
 Location: ^777777Upper^000000
@@ -39572,7 +39681,7 @@ If Steel Crow is learned increase Blizz Beat damage by 40%.
 If equipped with Galapago Card, increase Apple juice, Banana juice and Carrot Juice's healing amount by 1000%.
 If equipped with Gryphon Card, ASPD +3%, ASPD +1, ATK -5%.
 If equipped with Bow and refine value is +9 ASPD +1.
-If equipped with Condor Card, reduce received damage from all property by 5%.
+If equipped with Condor Card, reduce damage taken from all properties attack by 5%.
 If equipped with Cendrawasih Card, INT +1, Critical damage +5%. if equipped by archer class critical damage +15%.
 If equipped with Claw of Torikari, reduce damage of Blizz Beat damage by 200%.
 Class: ^777777Headgear^000000
@@ -70988,7 +71097,7 @@ Uninterruptable skill cast.
 ^3CB371Manteau of Crack^000000
 ^3CB371Shoes of Crack^000000
 MaxHP +1000
-Increase healing received efficiency by 5%,
+Increase healing rate from skills by 5%,
 and additional healing received increase depend on total sum of refine set. (up to +30 total refine level)
 Class: ^777777Armor^000000
 Defense: ^77777730^000000
@@ -72268,7 +72377,7 @@ A box that contains an Aries Crown Headgear.
 Weight: ^7777771^000000
 #
 16228#
-A box that contains 1 "RJC Katyusha Flower" inside.
+A box that contains 1 "RJC Flower Hairband" inside.
 ^FFFFFF_^000000
 Weight: ^7777771^000000
 #
