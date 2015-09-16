@@ -1075,6 +1075,24 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[18579] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "코로넷",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "9주년 기념 모자",
+		identifiedResourceName = "9주년기념모자",
+		identifiedDescriptionName = {
+			"세계탄생 9주년을 기념하여 만들어졌다.",
+			"재질이 매우 고급스러운 느낌이다.",
+			"MDEF + 9.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000무게 : ^7777779^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 745
+	},
 	[19096] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "캡",
