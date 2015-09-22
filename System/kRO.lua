@@ -209,6 +209,38 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[11603] = {
+		unidentifiedDisplayName = "[비매품]마스테라의 열매",
+		unidentifiedResourceName = "마스테라의열매",
+		unidentifiedDescriptionName = {
+			"마스테라나무에서 따온 잘익은 열매. 보라색의 탐스러운 빛을 뽐내는 상큼한 과일.^000088대량의 HP를 회복^000000 시켜준다.",
+			"무게 : ^7777773^000000"
+		},
+		identifiedDisplayName = "[비매품]마스테라의 열매",
+		identifiedResourceName = "마스테라의열매",
+		identifiedDescriptionName = {
+			"마스테라나무에서 따온 잘익은 열매. 보라색의 탐스러운 빛을 뽐내는 상큼한 과일.^000088대량의 HP를 회복^000000 시켜준다.",
+			"무게 : ^7777773^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[11604] = {
+		unidentifiedDisplayName = "[비매품]로얄제리",
+		unidentifiedResourceName = "로얄제리",
+		unidentifiedDescriptionName = {
+			"꿀벌에게서 나오는 젖과 같은 물질을 모아 만든것. 여왕벌의 먹이로써 몸에 매우 좋다고 한다. ^000088다양한 상태이상(독, 저주, 침묵, 혼란, 암흑) 회복^000000과 ^000088HP와 SP가 같이 회복^000000된다.",
+			"무게 : ^77777715^000000"
+		},
+		identifiedDisplayName = "[비매품]로얄제리",
+		identifiedResourceName = "로얄제리",
+		identifiedDescriptionName = {
+			"꿀벌에게서 나오는 젖과 같은 물질을 모아 만든것. 여왕벌의 먹이로써 몸에 매우 좋다고 한다. ^000088다양한 상태이상(독, 저주, 침묵, 혼란, 암흑) 회복^000000과 ^000088HP와 SP가 같이 회복^000000된다.",
+			"무게 : ^77777715^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[14765] = {
 		unidentifiedDisplayName = "JOB 전투교범 한정판",
 		unidentifiedResourceName = "전투교범",
@@ -1075,6 +1107,48 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[17616] = {
+		unidentifiedDisplayName = "삼명수 패키지VII",
+		unidentifiedResourceName = "응급처치상자",
+		unidentifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
+			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 인비지블 스크롤 1개도 얻을 수 있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
+		},
+		identifiedDisplayName = "삼명수 패키지VII",
+		identifiedResourceName = "응급처치상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
+			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 인비지블 스크롤 1개도 얻을 수 있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17617] = {
+		unidentifiedDisplayName = "삼명수 패키지 10세트VII",
+		unidentifiedResourceName = "응급처치상자",
+		unidentifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
+			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 인비지블 스크롤 11개도 얻을 수 있다. ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000"
+		},
+		identifiedDisplayName = "삼명수 패키지 10세트VII",
+		identifiedResourceName = "응급처치상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
+			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 인비지블 스크롤 11개도 얻을 수 있다. ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[18579] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "코로넷",
@@ -1103,9 +1177,6 @@ tbl = {
 			"13주년 기념 한정 스페셜 카프라 인형 모자.",
 			"1제련 당 MHP+130, MSP+13 증가.",
 			"10제련 이상 시, ATK,MATK+3%.",
-			"(2015년 7월 29일 ~ 2015년 8월 26일 한정옵션)",
-			"ATK,MATK+13%.",
-			"몬스터를 죽였을 시 획득 경험치+13%.",
 			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
 			"위치 : ^777777상단 ^000000무게 : ^77777750^000000",
 			"요구 레벨 : ^7777771^000000",
@@ -1146,6 +1217,57 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 1078
 	},
+	[20340] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스트레이트 포니 검은색",
+		identifiedResourceName = "스트레이트포니_검정",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"정수리 부근에서 곧게 뻗어나온 포니테일. ",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1371
+	},
+	[20341] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 삐침머리 검은색",
+		identifiedResourceName = "삐침머리_검정",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"뿅하고 튀어나온 챠밍한 삐침머리. ",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1372
+	},
+	[20342] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 루즈 웨이브 트윈 검은색",
+		identifiedResourceName = "루즈웨이브트윈_검정",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"부드러운 웨이브를 넣은 트윈테일. ",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1373
+	},
 	[20344] = {
 		unidentifiedDisplayName = "액세서리",
 		unidentifiedResourceName = "풍선껌",
@@ -1179,6 +1301,363 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 1358
 	},
+	[20350] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 삐침머리 노란색",
+		identifiedResourceName = "삐침머리_노랑",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"뿅하고 튀어나온 챠밍한 삐침머리.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1382
+	},
+	[20351] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 삐침머리 초록색",
+		identifiedResourceName = "삐침머리_녹색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"뿅하고 튀어나온 챠밍한 삐침머리.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1383
+	},
+	[20352] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 삐침머리 보라색",
+		identifiedResourceName = "삐침머리_보라",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"뿅하고 튀어나온 챠밍한 삐침머리.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1384
+	},
+	[20353] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 삐침머리 빨간색",
+		identifiedResourceName = "삐침머리_빨강",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"뿅하고 튀어나온 챠밍한 삐침머리.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1385
+	},
+	[20354] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 삐침머리 주홍색",
+		identifiedResourceName = "삐침머리_연갈색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"뿅하고 튀어나온 챠밍한 삐침머리.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1386
+	},
+	[20355] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 삐침머리 파란색",
+		identifiedResourceName = "삐침머리_파랑",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"뿅하고 튀어나온 챠밍한 삐침머리.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1387
+	},
+	[20356] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 삐침머리 하얀색",
+		identifiedResourceName = "삐침머리_흰색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"뿅하고 튀어나온 챠밍한 삐침머리.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1388
+	},
+	[20357] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스트레이트포니 노란색",
+		identifiedResourceName = "스트레이트포니_노랑",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락.",
+			"정수리 부근에서 곧게 뻗어나온 포니테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1389
+	},
+	[20358] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스트레이트포니 초록색",
+		identifiedResourceName = "스트레이트포니_녹색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락.",
+			"정수리 부근에서 곧게 뻗어나온 포니테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1390
+	},
+	[20359] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스트레이트포니 보라색",
+		identifiedResourceName = "스트레이트포니_보라",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락.",
+			"정수리 부근에서 곧게 뻗어나온 포니테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1391
+	},
+	[20360] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스트레이트포니 빨간색",
+		identifiedResourceName = "스트레이트포니_빨강",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락.",
+			"정수리 부근에서 곧게 뻗어나온 포니테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1392
+	},
+	[20361] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스트레이트포니 주홍색",
+		identifiedResourceName = "스트레이트포니_연갈색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락.",
+			"정수리 부근에서 곧게 뻗어나온 포니테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1393
+	},
+	[20362] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스트레이트포니 파란색",
+		identifiedResourceName = "스트레이트포니_파랑",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락.",
+			"정수리 부근에서 곧게 뻗어나온 포니테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1394
+	},
+	[20363] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 스트레이트포니 하얀색",
+		identifiedResourceName = "스트레이트포니_흰색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락.",
+			"정수리 부근에서 곧게 뻗어나온 포니테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1395
+	},
+	[20364] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 루즈웨이브트윈 노란색",
+		identifiedResourceName = "루즈웨이브트윈_노랑",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"부드러운 웨이브를 넣은 트윈테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1396
+	},
+	[20365] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 루즈웨이브트윈 초록색",
+		identifiedResourceName = "루즈웨이브트윈_녹색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"부드러운 웨이브를 넣은 트윈테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1397
+	},
+	[20366] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 루즈웨이브트윈 보라색",
+		identifiedResourceName = "루즈웨이브트윈_보라",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"부드러운 웨이브를 넣은 트윈테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1398
+	},
+	[20367] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 루즈웨이브트윈 빨간색",
+		identifiedResourceName = "루즈웨이브트윈_빨강",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"부드러운 웨이브를 넣은 트윈테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1399
+	},
+	[20368] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 루즈웨이브트윈 주홍색",
+		identifiedResourceName = "루즈웨이브트윈_연갈색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"부드러운 웨이브를 넣은 트윈테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1400
+	},
+	[20369] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 루즈웨이브트윈 파란색",
+		identifiedResourceName = "루즈웨이브트윈_파랑",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"부드러운 웨이브를 넣은 트윈테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1401
+	},
+	[20370] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 루즈웨이브트윈 하얀색",
+		identifiedResourceName = "루즈웨이브트윈_흰색",
+		identifiedDescriptionName = {
+			"머리에 달면, 평소와는 다른 헤어스타일을 즐길 수 있는 의상용 머리카락. ",
+			"부드러운 웨이브를 넣은 트윈테일.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1402
+	},
 	[20371] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "캡",
@@ -1187,8 +1666,6 @@ tbl = {
 		identifiedResourceName = "리리아인형모자",
 		identifiedDescriptionName = {
 			"13주년 기념 한정 스페셜 카프라 인형 모자.",
-			"(2015년 7월 29일 ~ 2015년 8월 26일 한정옵션)",
-			"All State +13.",
 			"몬스터를 죽였을 시 획득 경험치+13%.",
 			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
 			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
@@ -1197,6 +1674,40 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 581
+	},
+	[20504] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 큐피트의 분홍색 날개",
+		identifiedResourceName = "분홍큐피트날개",
+		identifiedDescriptionName = {
+			"사랑을 맺어주는 장난꾸러기 천사의 분홍색 날개.",
+			"계열 : ^777777의상장비^000000",
+			"위치 : ^777777걸칠것 ^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 14
+	},
+	[20506] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "인비지블 망토",
+		identifiedResourceName = "인비지블망토",
+		identifiedDescriptionName = {
+			"손으로 만져보면 망토 같은 느낌이 들지만.. 눈에는 보이지 않는다. ",
+			"계열 : ^777777의상장비^000000",
+			"위치 : ^777777걸칠것 ^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
 	},
 	[22519] = {
 		unidentifiedDisplayName = "동작멈춤버프",
@@ -2402,6 +2913,23 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[20302] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "캡",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 베르제브브의 왕관",
+		identifiedResourceName = "C베르제브브의왕관",
+		identifiedDescriptionName = {
+			"무명섬의 깊은곳에서 모습을 나타낸다는 베르제브브의 왕관을 모방해 만든 의상용 장비.",
+			"기품있는 분위기가 감도는 왕관이다.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1343
+	},
 	[23007] = {
 		unidentifiedDisplayName = "개선된 PC방 우든박스",
 		unidentifiedResourceName = "나무보물상자",
@@ -2563,6 +3091,434 @@ tbl = {
 			"기간 한정 피아멧트 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, [비매품]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23028] = {
+		unidentifiedDisplayName = "포획용 밧줄",
+		unidentifiedResourceName = "로프",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "포획용 밧줄",
+		identifiedResourceName = "로프",
+		identifiedDescriptionName = { "도망친 달토끼를 생포하기 위한 밧줄이다", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23029] = {
+		unidentifiedDisplayName = "삐침머리 선물상자",
+		unidentifiedResourceName = "선물상자_1",
+		unidentifiedDescriptionName = {
+			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 삐침머리가 들어있다.",
+			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "삐침머리 선물상자",
+		identifiedResourceName = "선물상자_1",
+		identifiedDescriptionName = {
+			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 삐침머리가 들어있다.",
+			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23030] = {
+		unidentifiedDisplayName = "스트레이트 포니 선물상자",
+		unidentifiedResourceName = "선물상자_2",
+		unidentifiedDescriptionName = {
+			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 스트레이트 포니가 들어있다.",
+			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "스트레이트 포니 선물상자",
+		identifiedResourceName = "선물상자_2",
+		identifiedDescriptionName = {
+			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 스트레이트 포니가 들어있다.",
+			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23031] = {
+		unidentifiedDisplayName = "루즈웨이브 트윈테일 선물상자",
+		unidentifiedResourceName = "선물상자_3",
+		unidentifiedDescriptionName = {
+			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 루즈웨이브 트윈테일이 들어있다.",
+			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "루즈웨이브 트윈테일 선물상자",
+		identifiedResourceName = "선물상자_3",
+		identifiedDescriptionName = {
+			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 루즈웨이브 트윈테일이 들어있다.",
+			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23032] = {
+		unidentifiedDisplayName = "스테이터스 감소 포션 상자",
+		unidentifiedResourceName = "벼락의상자",
+		unidentifiedDescriptionName = {
+			"아래의 스테이터스 감소 포션이 1개씩 들어있습니다.",
+			"――――――――――――― ",
+			"STR 감소 포션",
+			"AGI 감소 포션",
+			"VIT 감소 포션",
+			"INT 감소 포션",
+			"DEX 감소 포션",
+			"LUK 감소 포션",
+			"――――――――――――― ",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "스테이터스 감소 포션 상자",
+		identifiedResourceName = "벼락의상자",
+		identifiedDescriptionName = {
+			"아래의 스테이터스 감소 포션이 1개씩 들어있습니다.",
+			"――――――――――――― ",
+			"STR 감소 포션",
+			"AGI 감소 포션",
+			"VIT 감소 포션",
+			"INT 감소 포션",
+			"DEX 감소 포션",
+			"LUK 감소 포션",
+			"――――――――――――― ",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23033] = {
+		unidentifiedDisplayName = "인비지블 박스",
+		unidentifiedResourceName = "다이아보물상자",
+		unidentifiedDescriptionName = {
+			"인비지블 캡, 인비지블 선글라스, 인비지블 마스크, 인비지블 망토중 한 아이템이 들어있다.",
+			"열어보기 전에는 무엇이 들어있는지 알 수 없다.",
+			"무게 : 0"
+		},
+		identifiedDisplayName = "인비지블 박스",
+		identifiedResourceName = "다이아보물상자",
+		identifiedDescriptionName = {
+			"인비지블 캡, 인비지블 선글라스, 인비지블 마스크, 인비지블 망토중 한 아이템이 들어있다.",
+			"열어보기 전에는 무엇이 들어있는지 알 수 없다.",
+			"무게 : 0"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23034] = {
+		unidentifiedDisplayName = "인비지블 스크롤",
+		unidentifiedResourceName = "인비지블스크롤",
+		unidentifiedDescriptionName = {
+			"기간 한정 인비지블 스크롤. ",
+			"무기 11제련 보장권, 방어구 11제련 보장권, 인비지블 박스, 봉인된인장 카드등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "인비지블 스크롤",
+		identifiedResourceName = "인비지블스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 인비지블 스크롤. ",
+			"무기 11제련 보장권, 방어구 11제련 보장권, 인비지블 박스, 봉인된인장 카드등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23038] = {
+		unidentifiedDisplayName = "[비매품]화이트 슬림포션 상자",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {
+			"[비매품]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		identifiedDisplayName = "[비매품]화이트 슬림포션 상자",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"[비매품]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23039] = {
+		unidentifiedDisplayName = "[비매품]마스테라의 열매 상자",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {
+			"[비매품]마스테라의 열매가 200개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		identifiedDisplayName = "[비매품]마스테라의 열매 상자",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"[비매품]마스테라의 열매가 200개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23040] = {
+		unidentifiedDisplayName = "[비매품]하얀 포션 상자",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {
+			"[비매품]하얀 포션이 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		identifiedDisplayName = "[비매품]하얀 포션 상자",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"[비매품]하얀 포션이 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23041] = {
+		unidentifiedDisplayName = "[비매품]로얄제리 상자",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {
+			"[비매품]로얄제리가 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		identifiedDisplayName = "[비매품]로얄제리 상자",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"[비매품]로얄제리가 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23042] = {
+		unidentifiedDisplayName = "[비매품]이그드라실의 씨앗",
+		unidentifiedResourceName = "이그드라실씨앗",
+		unidentifiedDescriptionName = {
+			"이세계의 근원이 된 이그드라실 열매의 씨앗. 고소하고 달지않은 은은한 향에 원기가 솟음을 느낄 수 있다함.^000088사용자의 HP 와 SP의 절반을 회복^000000시켜줌",
+			"재사용 대기시간 :  ^7777773초^000000",
+			"무게 : ^77777730^000000"
+		},
+		identifiedDisplayName = "[비매품]이그드라실의 씨앗",
+		identifiedResourceName = "이그드라실씨앗",
+		identifiedDescriptionName = {
+			"이세계의 근원이 된 이그드라실 열매의 씨앗. 고소하고 달지않은 은은한 향에 원기가 솟음을 느낄 수 있다함.^000088사용자의 HP 와 SP의 절반을 회복^000000시켜줌",
+			"재사용 대기시간 :  ^7777773초^000000",
+			"무게 : ^77777730^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23043] = {
+		unidentifiedDisplayName = "[비매품]이그드라실 씨앗 상자",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {
+			"[비매품]이그드라실 씨앗이 30개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		identifiedDisplayName = "[비매품]이그드라실 씨앗 상자",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"[비매품]이그드라실 씨앗이 30개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24246] = {
+		unidentifiedDisplayName = "이어링 쉐도우",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "소드맨 이어링 쉐도우",
+		identifiedResourceName = "이어링쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 귀걸이. 착용자의 잠재적인 능력을 이끌어낸다.  ",
+			"배쉬 SP 소모량 20% 감소. ",
+			"제련도 1당 배쉬 SP 소모량 3% 추가 감소.",
+			"소드맨 이어링 쉐도우, 소드맨 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
+			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777이어링^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24247] = {
+		unidentifiedDisplayName = "이어링 쉐도우",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "머천트 이어링 쉐도우",
+		identifiedResourceName = "이어링쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 귀걸이. 착용자의 잠재적인 능력을 이끌어낸다.  ",
+			"매머나이트 데미지 20% 증가. ",
+			"제련도 1당 매머나이트 데미지 5% 추가 증가.",
+			"머쳔트 이어링 쉐도우, 머쳔트 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
+			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777이어링^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24248] = {
+		unidentifiedDisplayName = "이어링 쉐도우",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "어콜라이트 이어링 쉐도우",
+		identifiedResourceName = "이어링쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 귀걸이. 착용자의 잠재적인 능력을 이끌어낸다.  ",
+			"힐 SP 소모량 20% 감소.",
+			"제련도 1당 힐 SP 소모량 3% 추가 감소.",
+			"어콜라이트 이어링 쉐도우, 어콜라이트 펜던트 쉐도우 장착시 MATK +1%, MAXSP +1%.",
+			"제련도 합계가 10이상일 경우, MATK +2%, MAXSP +2% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777이어링^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24249] = {
+		unidentifiedDisplayName = "이어링 쉐도우",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "매지션 이어링 쉐도우",
+		identifiedResourceName = "이어링쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 귀걸이. 착용자의 잠재적인 능력을 이끌어낸다.  ",
+			"화이어 볼트, 콜드 볼트, 라이트닝 볼트의 변동 캐스팅 20% 감소.",
+			"제련도 1당 화이어 볼트, 콜드 볼트, 라이트닝 볼트의 변동 캐스팅 5% 추가 감소.",
+			"매지션 이어링 쉐도우, 매지션 펜던트 쉐도우 장착시 MATK +1%, MAXSP +1%.",
+			"제련도 합계가 10이상일 경우, MATK +2%, MAXSP +2% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777이어링^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24250] = {
+		unidentifiedDisplayName = "펜던트 쉐도우",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "소드맨 펜던트 쉐도우",
+		identifiedResourceName = "펜던트쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
+			"매그넘 브레이크 데미지 20% 증가.",
+			"제련도 1당 매그넘 브레이크 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777펜던트^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24251] = {
+		unidentifiedDisplayName = "펜던트 쉐도우",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "머천트 펜던트 쉐도우",
+		identifiedResourceName = "펜던트쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
+			"카트 레볼루션 데미지 20% 증가.",
+			"제련도 1당 카트 레볼루션 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777펜던트^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24252] = {
+		unidentifiedDisplayName = "펜던트 쉐도우",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "어콜라이트 펜던트 쉐도우",
+		identifiedResourceName = "펜던트쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
+			"홀리 라이트 데미지 50% 증가.",
+			"제련도 1당 홀리 라이트 데미지 10% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777펜던트^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24253] = {
+		unidentifiedDisplayName = "펜던트 쉐도우",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "씨프 펜던트 쉐도우",
+		identifiedResourceName = "펜던트쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
+			"인베넘 데미지 20% 증가.",
+			"제련도 1당 인베넘 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777펜던트^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24254] = {
+		unidentifiedDisplayName = "펜던트 쉐도우",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "매지션 펜던트 쉐도우",
+		identifiedResourceName = "펜던트쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
+			"화이어 월 데미지 20% 증가.",
+			"제련도 1당 화이어 월 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777펜던트^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24255] = {
+		unidentifiedDisplayName = "펜던트 쉐도우",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "아처 펜던트 쉐도우",
+		identifiedResourceName = "펜던트쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
+			"애로우 샤워 데미지 20% 증가.",
+			"제련도 1당 애로우 샤워 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777펜던트^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3336,6 +4292,114 @@ tbl = {
 			"기리에 엘레이손 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25083] = {
+		unidentifiedDisplayName = "달토끼의 부드러운 털",
+		unidentifiedResourceName = "부드러운털",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "달토끼의 부드러운 털",
+		identifiedResourceName = "부드러운털",
+		identifiedDescriptionName = {
+			"달토끼를 사로잡다 얻게 된 달토끼의 부드러운 털이다. 매우 부드러워서 모자의 재료로 사용 된다. 야생 동물 보호협회 사람들이 좋아한다.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25084] = {
+		unidentifiedDisplayName = "포획된 달토끼",
+		unidentifiedResourceName = "포획된달토끼",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "포획된 달토끼",
+		identifiedResourceName = "포획된달토끼",
+		identifiedDescriptionName = {
+			"도망쳤다가 포획된 달토끼.",
+			"아직 살아있으니 조심히 다루자.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25085] = {
+		unidentifiedDisplayName = "달토끼의 털",
+		unidentifiedResourceName = "솜털",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "달토끼의 털",
+		identifiedResourceName = "솜털",
+		identifiedDescriptionName = {
+			"달토끼를 사로잡다 얻게 된 달토끼의 털이다. 모자의 재료로 사용된다. 야생 동물 보호협회 사람들이 좋아한다.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25086] = {
+		unidentifiedDisplayName = "선물 포장용 리본",
+		unidentifiedResourceName = "왕리본",
+		unidentifiedDescriptionName = {
+			"루티에에서 선물을 포장할 때 사용하는 마법의 리본. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 묶어 준다는 듯하다."
+		},
+		identifiedDisplayName = "선물 포장용 리본",
+		identifiedResourceName = "왕리본",
+		identifiedDescriptionName = {
+			"루티에에서 선물을 포장할 때 사용하는 마법의 리본. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 묶어 준다는 듯하다.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25089] = {
+		unidentifiedDisplayName = "선물 장식용 날개",
+		unidentifiedResourceName = "브라기의날개귀",
+		unidentifiedDescriptionName = {
+			"루티에에서 선물을 장식할 때 사용하는 마법의 날개. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다."
+		},
+		identifiedDisplayName = "선물 장식용 날개",
+		identifiedResourceName = "브라기의날개귀",
+		identifiedDescriptionName = {
+			"루티에에서 선물을 장식할 때 사용하는 마법의 날개. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[28391] = {
+		unidentifiedDisplayName = "이어링 쉐도우",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "씨프 이어링 쉐도우",
+		identifiedResourceName = "이어링쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 귀걸이. 착용자의 잠재적인 능력을 이끌어낸다.  ",
+			"돌던지기 사용시, 20%의 확률로 5초간 ATK와 FLEE 30증가. 제련도 1당 ATK와 FLEE 10 추가 증가.",
+			"씨프 이어링 쉐도우, 씨프 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
+			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777이어링^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[28392] = {
+		unidentifiedDisplayName = "이어링 쉐도우",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "아처 이어링 쉐도우",
+		identifiedResourceName = "이어링쉐도우",
+		identifiedDescriptionName = {
+			"착용자를 수호한다고 전해지는 성스러운 귀걸이. 착용자의 잠재적인 능력을 이끌어낸다.  ",
+			"더블스트레이핑 사용시, 20%의 확률로 5초간 ATK와 HIT 30증가. 제련도 1당 ATK와 HIT 10 추가 증가.",
+			"아쳐 이어링 쉐도우, 아쳐 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
+			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777이어링^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
