@@ -8,7 +8,8 @@ HatEFID = {
 	HAT_EF_MERMAID_LONGING = 7,
 	HAT_EF_GLORIA = 8,
 	HAT_EF_BLACK_MAXMIZE = 9,
-	HAT_EF_MOONLIGHT1 = 10
+	HAT_EF_MOONLIGHT1 = 10,
+	HAT_EF_rl_banishing_buster = 11
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = { resourceFileName = "efst_blossom_fluttering\\sakura.str", hatEffectPos = -4 },
@@ -20,7 +21,8 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_MERMAID_LONGING] = { resourceFileName = "efst_mermaid_loging\\bubblebubble.str", hatEffectPos = -6 },
 	[HatEFID.HAT_EF_GLORIA] = { resourceFileName = "gloria.str", hatEffectPos = 0 },
 	[HatEFID.HAT_EF_BLACK_MAXMIZE] = { resourceFileName = "black_maxmize.str", hatEffectPos = 0 },
-	[HatEFID.HAT_EF_MOONLIGHT1] = { resourceFileName = "moonlight_1.str", hatEffectPos = 0 }
+	[HatEFID.HAT_EF_MOONLIGHT1] = { resourceFileName = "moonlight_1.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_rl_banishing_buster] = { resourceFileName = "rl_banishing_buster\\vanishing1.str", hatEffectPos = -10 }
 }
 
 GetHatEfResName = function(index)
