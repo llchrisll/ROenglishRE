@@ -1,151 +1,4 @@
 tbl = {
-	[1941] = {
-		unidentifiedDisplayName = "악기",
-		unidentifiedResourceName = "바이올린",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 바이올린",
-		identifiedResourceName = "결속의바이올린",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777악기^000000 공격 : ^77777776^000000",
-			"Weight: ^77777740^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777바드 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 13
-	},
-	[1997] = {
-		unidentifiedDisplayName = "채찍",
-		unidentifiedResourceName = "로프",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 채찍",
-		identifiedResourceName = "결속의채찍",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777채찍^000000 공격 : ^77777776^000000",
-			"Weight: ^77777740^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777댄서 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 14
-	},
-	[2030] = {
-		unidentifiedDisplayName = "지팡이",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 양손지팡이",
-		identifiedResourceName = "결속의양손지팡이",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"MATK +135.",
-			"(제련도*제련도*1.25) 만큼 MATK 추가 증가.",
-			"계열 : ^777777양손 지팡이^000000 공격 : ^77777795^000000",
-			"Weight: ^77777750^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777마법사 계열,소울링커^000000"
-		},
-		slotCount = 1,
-		ClassNum = 23
-	},
-	[5936] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "Celestial Dark Flame",
-		identifiedResourceName = "천상의어둠화염",
-		identifiedDescriptionName = {
-			"용의 숨결을 받아 날개의 형태로 가공한 귀걸이.",
-			"용에 대항하는 힘이 깃들어 있다.",
-			"마법공격시, 용족 몬스터에게 주는 데미지 + 4%",
-			"용족 몬스터로부터 받는 데미지 - 5%",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777중단 ^000000Weight: ^77777720^000000",
-			"요구 레벨 : ^77777710^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1008
-	},
-	[5944] = {
-		unidentifiedDisplayName = "모자",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도적의 두건",
-		identifiedResourceName = "도적두건",
-		identifiedDescriptionName = {
-			"부정하게 부를 축적한 부호로부터 훔친 금품을 가난한 사람들에게 나눠준 의적의 두건.",
-			"MDEF + 5.",
-			"근접물리공격으로 플레이어를 제외한 인간형 몬스터를 쓰러뜨릴 때마다 SP +5. ",
-			"근접물리공격으로 적을 쓰러뜨릴 때마다 HP +100.",
-			"5제련 이상 시, 플레이어를 제외한 인간형 몬스터로부터 받는 데미지 -5%.",
-			"7제련 이상 시, 플레이어를 제외한 인간형 몬스터로부터 받는 데미지 -5% 추가.",
-			"계열 : ^777777투구^000000 방어 : ^7777775^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777730^000000",
-			"요구 레벨 : ^77777720^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 776
-	},
-	[5979] = {
-		unidentifiedDisplayName = "악세사리",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 흩날리는 천사의 날개",
-		identifiedResourceName = "C흩날리는천사의날개",
-		identifiedDescriptionName = {
-			"하늘하늘 흩날리는 의상용 날개.",
-			"아름답게 흩날리는 날개로부터 하늘의 축복이 들리는것 같다.",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[5985] = {
-		unidentifiedDisplayName = "악세사리",
-		unidentifiedResourceName = "가면",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "귀족의 가면",
-		identifiedResourceName = "귀족의가면",
-		identifiedDescriptionName = {
-			"어떤 귀족이 사용했다고 하는 은색의 마스크",
-			"세크리파이스 스킬 데미지 Base LV * 2% 증가.",
-			"헌신의 변동 캐스팅 시간 2초 단축.",
-			"프레셔의 변동 캐스팅 시간 2초 단축.",
-			"MaxHP + 1%, 공격속도 + 1%.",
-			"Base Lv 100 이상 시, MaxHP + 1%, 공격속도 + 1% 추가.",
-			"Base Lv 150 이상 시, MaxHP + 1%, 공격속도 + 1% 추가.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777중단 ^000000Weight: ^77777720^000000",
-			"요구 레벨 : ^77777730^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1409
-	},
-	[6849] = {
-		unidentifiedDisplayName = "Quest Completion Certificate",
-		unidentifiedResourceName = "상인영수증",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "Quest Completion Certificate",
-		identifiedResourceName = "상인영수증",
-		identifiedDescriptionName = {
-			"의뢰 수행 완료 후 받을 수 있는 증서. 이것 자체만으로는 아무런 가치가 없지만 어딘가에 가져다 주면 혜택을 받을 수 있는듯 하다.",
-			"Weight: ^7777770^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[6850] = {
 		unidentifiedDisplayName = "Suspicious Box",
 		unidentifiedResourceName = "헐떡이는상자",
@@ -154,7 +7,7 @@ tbl = {
 		identifiedResourceName = "헐떡이는상자",
 		identifiedDescriptionName = {
 			"안에서 이상한 소리가 나는 수상한 상자. 귀 기울여 자세히 들어 보면 소름이 끼친다. 하아.. 어서 배달을 완료하고 싶다.. 보고싶어요, 엄마!!",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -167,7 +20,7 @@ tbl = {
 		identifiedResourceName = "주문서다발",
 		identifiedDescriptionName = {
 			"아무렇게나 둘둘 말린 종이. 여러군데 얼룩이 진데다 글씨도 깨알같이 많이 적혀 있어 심하게 우글거린다. 사람의 손을 많이 탄 듯 하다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -180,7 +33,7 @@ tbl = {
 		identifiedResourceName = "안약",
 		identifiedDescriptionName = {
 			"약품으로 인해 부식이 된 돌에 사용하는 초강력 중화제. 소량으로도 굉장한 효과를 볼 수 있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -191,7 +44,7 @@ tbl = {
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "Bouquet of Thanks",
 		identifiedResourceName = "꽃다발",
-		identifiedDescriptionName = { "감사의 마음을 엮어 만든 화사한 꽃다발.", "Weight: ^7777770^000000" },
+		identifiedDescriptionName = { "감사의 마음을 엮어 만든 화사한 꽃다발.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -201,7 +54,7 @@ tbl = {
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "Captured Novus",
 		identifiedResourceName = "무속성알",
-		identifiedDescriptionName = { "포획된 노버스. 가끔 안에서 꿈틀거리는 것이 느껴진다.", "Weight: ^7777770^000000" },
+		identifiedDescriptionName = { "포획된 노버스. 가끔 안에서 꿈틀거리는 것이 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -211,7 +64,7 @@ tbl = {
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "Captured Tatacho",
 		identifiedResourceName = "지속성알",
-		identifiedDescriptionName = { "포획된 따따초. 가끔 안에서 꿈틀거리는 것이 느껴진다.", "Weight: ^7777770^000000" },
+		identifiedDescriptionName = { "포획된 따따초. 가끔 안에서 꿈틀거리는 것이 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -223,7 +76,7 @@ tbl = {
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"인기 작가 테르미르가 7년 동안 집필 한 대하 소설의 원고. 원고 한장 한장마다 작가의 눈물과 한숨, 땀이 어려있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -236,30 +89,7 @@ tbl = {
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"아름다운 무늬가 있는 매우 단단한 돌. 다루기도 제법 어려워 숙련된 석공만이 가공할 수 있다고 한다.",
-			"Weight: ^7777770^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6858] = {
-		unidentifiedDisplayName = "Captured Lude",
-		unidentifiedResourceName = "수속성알",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "Captured Lude",
-		identifiedResourceName = "수속성알",
-		identifiedDescriptionName = { "포획된 루드. 가끔 안에서 깜빡거리는 빛이 비친다.", "Weight: ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6859] = {
-		unidentifiedDisplayName = "Captured Wanderman",
-		unidentifiedResourceName = "풍속성알",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "Captured Wanderman",
-		identifiedResourceName = "풍속성알",
-		identifiedDescriptionName = {
-			"포획된 배회하는 자. 가끔 안에서 쾅쾅거리는 소리가 들린다. 설마 이러다 열리는건 아니겠지.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -272,7 +102,7 @@ tbl = {
 		identifiedResourceName = "어스름한별빛",
 		identifiedDescriptionName = {
 			"이전에 마법석의 형태를 가지고 있었을법한 결정조각. 일부 특별한 취향의 사람들이 필요로 하는 것 같다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -287,7 +117,7 @@ tbl = {
 			"신기하게도 만지면 온기가 느껴지는 돌. 이것을 다룰 수 있는 사람에게 가져다 주면 굉장한 것을 만들 수 있을지도...",
 			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다)",
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -302,7 +132,7 @@ tbl = {
 			"토끼의 모양을 본따 만든 인형. 아이들이 무척 좋아한다.",
 			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다) ",
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -317,7 +147,7 @@ tbl = {
 			"사용감이 제법 있는 화살. 몬스터의 침이 군데군데 묻어 있어 잘 닦아서 사용해야 한다.",
 			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다) ",
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -338,281 +168,1348 @@ tbl = {
 			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
 			"1% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[11603] = {
-		unidentifiedDisplayName = "[비매품]마스테라의 열매",
+		unidentifiedDisplayName = "[not for sale]Mastella Fruit",
 		unidentifiedResourceName = "마스테라의열매",
 		unidentifiedDescriptionName = {
 			"마스테라나무에서 따온 잘익은 열매. 보라색의 탐스러운 빛을 뽐내는 상큼한 과일.^000088대량의 HP를 회복^000000 시켜준다.",
-			"Weight: ^7777773^000000"
+			"Weight: ^0EAA0B3^000000"
 		},
-		identifiedDisplayName = "[비매품]마스테라의 열매",
+		identifiedDisplayName = "[not for sale]Mastella Fruit",
 		identifiedResourceName = "마스테라의열매",
 		identifiedDescriptionName = {
 			"마스테라나무에서 따온 잘익은 열매. 보라색의 탐스러운 빛을 뽐내는 상큼한 과일.^000088대량의 HP를 회복^000000 시켜준다.",
-			"Weight: ^7777773^000000"
+			"Weight: ^0EAA0B3^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[11604] = {
-		unidentifiedDisplayName = "[비매품]로얄제리",
+		unidentifiedDisplayName = "[not for sale]Royal Jelly",
 		unidentifiedResourceName = "로얄제리",
 		unidentifiedDescriptionName = {
 			"꿀벌에게서 나오는 젖과 같은 물질을 모아 만든것. 여왕벌의 먹이로써 몸에 매우 좋다고 한다. ^000088다양한 상태이상(독, 저주, 침묵, 혼란, 암흑) 회복^000000과 ^000088HP와 SP가 같이 회복^000000된다.",
-			"Weight: ^77777715^000000"
+			"Weight: ^0EAA0B15^000000"
 		},
-		identifiedDisplayName = "[비매품]로얄제리",
+		identifiedDisplayName = "[not for sale]Royal Jelly",
 		identifiedResourceName = "로얄제리",
 		identifiedDescriptionName = {
 			"꿀벌에게서 나오는 젖과 같은 물질을 모아 만든것. 여왕벌의 먹이로써 몸에 매우 좋다고 한다. ^000088다양한 상태이상(독, 저주, 침묵, 혼란, 암흑) 회복^000000과 ^000088HP와 SP가 같이 회복^000000된다.",
-			"Weight: ^77777715^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[11605] = {
-		unidentifiedDisplayName = "쿠키뱃",
-		unidentifiedResourceName = "쿠키뱃",
-		unidentifiedDescriptionName = {
-			"버터향이 물씬 풍기는 바삭한 쿠키에 진하고 달콤한 초콜릿이 듬뿍 박혀 있다.",
-			"날아서 도망가버릴 수 있으니 보관에 주의하자.",
-			"Weight: ^7777775^000000"
-		},
-		identifiedDisplayName = "쿠키뱃",
-		identifiedResourceName = "쿠키뱃",
-		identifiedDescriptionName = {
-			"버터향이 물씬 풍기는 바삭한 쿠키에 진하고 달콤한 초콜릿이 듬뿍 박혀 있다.",
-			"날아서 도망가버릴 수 있으니 보관에 주의하자.",
-			"Weight: ^7777775^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[13129] = {
-		unidentifiedDisplayName = "리볼버",
-		unidentifiedResourceName = "식스슈터",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 리볼버",
-		identifiedResourceName = "결속의리볼버",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777권총^000000 공격 : ^77777795^000000",
-			"Weight: ^77777750^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777건너 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 17
-	},
-	[13329] = {
-		unidentifiedDisplayName = "풍마수리검",
-		unidentifiedResourceName = "풍마_편익",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 수리검",
-		identifiedResourceName = "결속의수리검",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777풍마 수리검^000000 공격 : ^77777795^000000",
-			"Weight: ^77777750^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777닌자 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 22
-	},
-	[13456] = {
-		unidentifiedDisplayName = "검",
-		unidentifiedResourceName = "소드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 검",
-		identifiedResourceName = "결속의검",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777검^000000 공격 : ^77777780^000000",
-			"Weight: ^77777742^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사 계열,노비스 계열,도둑 계열,상인 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 2
-	},
-	[13457] = {
-		unidentifiedDisplayName = "단검",
-		unidentifiedResourceName = "나이프",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 대거",
-		identifiedResourceName = "결속의대거",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777단검^000000 공격 : ^77777752^000000",
-			"Weight: ^77777727^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사 계열,노비스 계열,도둑 계열,상인 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 1
-	},
-	[14765] = {
-		unidentifiedDisplayName = "JOB 전투교범 한정판",
-		unidentifiedResourceName = "전투교범",
-		unidentifiedDescriptionName = {
-			"보다 효율적인 전투방법이 기록된 설명서 한정판!",
-			"시키는 대로 하면 왠지 빨리 성장할 것 같다.",
-			"^00008860분간 획득하는 잡 경험치가 35% 증가한다.^000000",
-			"전투교범과 중복 사용 가능"
-		},
-		identifiedDisplayName = "JOB 전투교범 한정판",
-		identifiedResourceName = "전투교범",
-		identifiedDescriptionName = {
-			"보다 효율적인 전투방법이 기록된 설명서 한정판!",
-			"시키는 대로 하면 왠지 빨리 성장할 것 같다.",
-			"^00008860분간 획득하는 잡 경험치가 35% 증가한다.^000000",
-			"전투교범과 중복 사용 가능",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B15^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[14780] = {
-		unidentifiedDisplayName = "영혼의 뚫어뻥 스크롤",
+		unidentifiedDisplayName = "Soul Plunger Scroll",
 		unidentifiedResourceName = "아리부타스크롤",
-		unidentifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"기간 한정 영혼의 뚫어뻥 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자II, 영혼의 뚫어뻥등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. "
-		},
-		identifiedDisplayName = "영혼의 뚫어뻥 스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Soul Plunger Scroll",
 		identifiedResourceName = "아리부타스크롤",
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"기간 한정 영혼의 뚫어뻥 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자II, 영혼의 뚫어뻥등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[14781] = {
-		unidentifiedDisplayName = "해피벌룬 스크롤",
+		unidentifiedDisplayName = "Happy Balloon Scroll",
 		unidentifiedResourceName = "하트스크롤",
 		unidentifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"기간 한정 해피벌룬 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, 해피벌룬, [비매품]섬광막대 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.  "
+			"무기 11제련 보장권, 방어구 11제련 보장권, 해피벌룬, [not for sale]섬광막대 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.  "
 		},
-		identifiedDisplayName = "해피벌룬 스크롤",
+		identifiedDisplayName = "Happy Balloon Scroll",
 		identifiedResourceName = "하트스크롤",
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"기간 한정 해피벌룬 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, 해피벌룬, [비매품]섬광막대 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000"
+			"무기 11제련 보장권, 방어구 11제련 보장권, 해피벌룬, [not for sale]섬광막대 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[15152] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "우든메일",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 메일",
-		identifiedResourceName = "결속의메일",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"BaseLV 100 이하 시, ",
-			"STR +2, 획득 경험치 +4%, 2제련당 MHP +2%.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777745^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 1,
+	[16591] = {
+		unidentifiedDisplayName = "여름 스크롤 2",
+		unidentifiedResourceName = "여름스크롤",
+		unidentifiedDescriptionName = { "브라질의 여름방학을 위한 썸머패키지! 무언가 특별한 아이템을 얻게 될 수 있다!", "무게 : ^77777710^000000" },
+		identifiedDisplayName = "여름 스크롤 2",
+		identifiedResourceName = "여름스크롤",
+		identifiedDescriptionName = { "브라질의 여름방학을 위한 썸머패키지! 무언가 특별한 아이템을 얻게 될 수 있다!", "무게 : ^77777710^000000" },
+		slotCount = 0,
 		ClassNum = 0
 	},
-	[15153] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "우든메일",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 맨틀",
-		identifiedResourceName = "결속의맨틀",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"BaseLV 100 이하 시, ",
-			"AGI +2, 획득 경험치 +4%, 2제련당 FLEE +3.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777745^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 1,
+	[16592] = {
+		unidentifiedDisplayName = "패밀리 모자 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = { "패밀리 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "패밀리 모자 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "패밀리 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		slotCount = 0,
 		ClassNum = 0
 	},
-	[15154] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "우든메일",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 슈트",
-		identifiedResourceName = "결속의슈트",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"BaseLV 100 이하 시, ",
-			"DEX +2, 획득 경험치 +4%, 2제련당 CRI +2.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777745^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 1,
+	[16593] = {
+		unidentifiedDisplayName = "패밀리 모자 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = { "패밀리 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "패밀리 모자 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "패밀리 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		slotCount = 0,
 		ClassNum = 0
 	},
-	[15155] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "우든메일",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 로브",
-		identifiedResourceName = "결속의로브",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"BaseLV 100 이하 시, ",
-			"INT +2, 획득 경험치 +4%, 2제련당 SP 소모량 -1%.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777745^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+	[16596] = {
+		unidentifiedDisplayName = "심연의 투구 상자",
+		unidentifiedResourceName = "캐시상자_검정",
+		unidentifiedDescriptionName = {
+			"심연의 투구가 1개 들어있는 상자.",
+			"",
+			"심연의 기사가 쓰는 투구. 강한 공격에 대한 내성은 강하나 오히려 약한 공격에 취약한 면을 보인다.",
+			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
+			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
+			"계열 : ^777777투구^000000    방어 : ^7777779^000000",
+			"위치 : ^777777상단^000000    무게 : ^777777100^000000",
+			"요구레벨 : ^77777770^000000",
+			"장착 : ^777777검사 / 상인 / 도둑 계열^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
 		},
-		slotCount = 1,
+		identifiedDisplayName = "심연의 투구 상자",
+		identifiedResourceName = "캐시상자_검정",
+		identifiedDescriptionName = {
+			"심연의 투구가 1개 들어있는 상자.",
+			"",
+			"심연의 기사가 쓰는 투구. 강한 공격에 대한 내성은 강하나 오히려 약한 공격에 취약한 면을 보인다.",
+			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
+			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
+			"계열 : ^777777투구^000000    방어 : ^7777779^000000",
+			"위치 : ^777777상단^000000    무게 : ^777777100^000000",
+			"요구레벨 : ^77777770^000000",
+			"장착 : ^777777검사 / 상인 / 도둑 계열^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
 		ClassNum = 0
 	},
-	[16048] = {
-		unidentifiedDisplayName = "둔기",
-		unidentifiedResourceName = "클럽",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 철퇴",
-		identifiedResourceName = "결속의철퇴",
-		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777둔기^000000 공격 : ^77777776^000000",
-			"Weight: ^77777740^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사 계열,노비스 계열,복사 계열,상인 계열^000000"
+	[16597] = {
+		unidentifiedDisplayName = "심연의 투구 상자",
+		unidentifiedResourceName = "캐시상자_검정",
+		unidentifiedDescriptionName = {
+			"심연의 투구가 1개 들어있는 상자.",
+			"",
+			"심연의 기사가 쓰는 투구. 강한 공격에 대한 내성은 강하나 오히려 약한 공격에 취약한 면을 보인다.",
+			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
+			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
+			"계열 : ^777777투구^000000    방어 : ^7777779^000000",
+			"위치 : ^777777상단^000000    무게 : ^777777100^000000",
+			"요구레벨 : ^77777770^000000",
+			"장착 : ^777777검사 / 상인 / 도둑 계열^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
 		},
-		slotCount = 1,
-		ClassNum = 8
+		identifiedDisplayName = "심연의 투구 상자",
+		identifiedResourceName = "캐시상자_검정",
+		identifiedDescriptionName = {
+			"심연의 투구가 1개 들어있는 상자.",
+			"",
+			"심연의 기사가 쓰는 투구. 강한 공격에 대한 내성은 강하나 오히려 약한 공격에 취약한 면을 보인다.",
+			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
+			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
+			"계열 : ^777777투구^000000    방어 : ^7777779^000000",
+			"위치 : ^777777상단^000000    무게 : ^777777100^000000",
+			"요구레벨 : ^77777770^000000",
+			"장착 : ^777777검사 / 상인 / 도둑 계열^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16598] = {
+		unidentifiedDisplayName = "활성화 포션 상자Ⅱ",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {
+			"활성화의 포션 5개와 행운의 알 1개가 들어있는 상자.",
+			"컨디션을 활성화 시켜 전투력이 일시적으로 오르는 비약. 1.5L용량은 출시 예정만 잡혀있다.",
+			"2분간 ATK, MATK + 2%. 힐과 아이템의 회복효능 10% 증가.",
+			"사망 시, Dispell 시 효능이 사라진다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "활성화 포션 상자Ⅱ",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"활성화의 포션 5개와 행운의 알 1개가 들어있는 상자.",
+			"컨디션을 활성화 시켜 전투력이 일시적으로 오르는 비약. 1.5L용량은 출시 예정만 잡혀있다.",
+			"2분간 ATK, MATK + 2%. 힐과 아이템의 회복효능 10% 증가.",
+			"사망 시, Dispell 시 효능이 사라진다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16599] = {
+		unidentifiedDisplayName = "활성화 포션 상자Ⅱ",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {
+			"활성화의 포션 5개와 행운의 알 1개가 들어있는 상자.",
+			"컨디션을 활성화 시켜 전투력이 일시적으로 오르는 비약. 1.5L용량은 출시 예정만 잡혀있다.",
+			"2분간 ATK, MATK + 2%. 힐과 아이템의 회복효능 10% 증가.",
+			"사망 시, Dispell 시 효능이 사라진다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "활성화 포션 상자Ⅱ",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"활성화의 포션 5개와 행운의 알 1개가 들어있는 상자.",
+			"컨디션을 활성화 시켜 전투력이 일시적으로 오르는 비약. 1.5L용량은 출시 예정만 잡혀있다.",
+			"2분간 ATK, MATK + 2%. 힐과 아이템의 회복효능 10% 증가.",
+			"사망 시, Dispell 시 효능이 사라진다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16601] = {
+		unidentifiedDisplayName = "파란 아라라 모자 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = { "파란 아라라 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "파란 아라라 모자 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "파란 아라라 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16602] = {
+		unidentifiedDisplayName = "파란 아라라 모자 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = { "파란 아라라 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "파란 아라라 모자 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "파란 아라라 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16603] = {
+		unidentifiedDisplayName = "늘어진 보토 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = { "늘어진 보토가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "늘어진 보토 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "늘어진 보토가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16604] = {
+		unidentifiedDisplayName = "늘어진 보토 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = { "늘어진 보토가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "늘어진 보토 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "늘어진 보토가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16605] = {
+		unidentifiedDisplayName = "텐드릴리온 모자 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = { "텐드릴리온 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "텐드릴리온 모자 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "텐드릴리온 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16606] = {
+		unidentifiedDisplayName = "텐드릴리온 모자 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = { "텐드릴리온 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "텐드릴리온 모자 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "텐드릴리온 모자가 1개 들어있는 상자.", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16619] = {
+		unidentifiedDisplayName = "노란 토끼 머리띠 상자",
+		unidentifiedResourceName = "캐시상자_빨강",
+		unidentifiedDescriptionName = {
+			"노란 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "노란 토끼 머리띠 상자",
+		identifiedResourceName = "캐시상자_빨강",
+		identifiedDescriptionName = {
+			"노란 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16620] = {
+		unidentifiedDisplayName = "노란 토끼 머리띠 상자",
+		unidentifiedResourceName = "캐시상자_빨강",
+		unidentifiedDescriptionName = {
+			"노란 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "노란 토끼 머리띠 상자",
+		identifiedResourceName = "캐시상자_빨강",
+		identifiedDescriptionName = {
+			"노란 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16621] = {
+		unidentifiedDisplayName = "핑크 토끼 머리띠 상자",
+		unidentifiedResourceName = "캐시상자_빨강",
+		unidentifiedDescriptionName = {
+			"핑크 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "핑크 토끼 머리띠 상자",
+		identifiedResourceName = "캐시상자_빨강",
+		identifiedDescriptionName = {
+			"핑크 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16622] = {
+		unidentifiedDisplayName = "핑크 토끼 머리띠 상자",
+		unidentifiedResourceName = "캐시상자_빨강",
+		unidentifiedDescriptionName = {
+			"핑크 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "핑크 토끼 머리띠 상자",
+		identifiedResourceName = "캐시상자_빨강",
+		identifiedDescriptionName = {
+			"핑크 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16623] = {
+		unidentifiedDisplayName = "그린 토끼 머리띠 상자",
+		unidentifiedResourceName = "캐시상자_빨강",
+		unidentifiedDescriptionName = {
+			"그린 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "그린 토끼 머리띠 상자",
+		identifiedResourceName = "캐시상자_빨강",
+		identifiedDescriptionName = {
+			"그린 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16624] = {
+		unidentifiedDisplayName = "그린 토끼 머리띠 상자",
+		unidentifiedResourceName = "캐시상자_빨강",
+		unidentifiedDescriptionName = {
+			"그린 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "그린 토끼 머리띠 상자",
+		identifiedResourceName = "캐시상자_빨강",
+		identifiedDescriptionName = {
+			"그린 토끼 머리띠가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16625] = {
+		unidentifiedDisplayName = "아스프리카 상자",
+		unidentifiedResourceName = "화려한상자",
+		unidentifiedDescriptionName = {
+			"아스프리카(체험판)이 1개 들어있는 상자.",
+			"7일간 사용 가능 하다.",
+			"^000088임대 아이템^000000",
+			"세상에 존재하는 모든 빛을 모아 만들어진 날개. '신들의 빛'이라는 의미를 가지고 있다.",
+			"모든 속성의 물리공격에 대한 내성 15%.",
+			"FLEE + 15, MDEF + 2.",
+			"텔레포트 Lv1 사용가능.",
+			"제련불가. 파괴불가.",
+			"계열 : ^777777걸칠것^000000    방어 : ^77777720^000000",
+			"무게 : ^7777770^000000",
+			"요구레벨 : ^77777747^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "아스프리카 상자",
+		identifiedResourceName = "화려한상자",
+		identifiedDescriptionName = {
+			"아스프리카(체험판)이 1개 들어있는 상자.",
+			"7일간 사용 가능 하다.",
+			"^000088임대 아이템^000000",
+			"세상에 존재하는 모든 빛을 모아 만들어진 날개. '신들의 빛'이라는 의미를 가지고 있다.",
+			"모든 속성의 물리공격에 대한 내성 15%.",
+			"FLEE + 15, MDEF + 2.",
+			"텔레포트 Lv1 사용가능.",
+			"제련불가. 파괴불가.",
+			"계열 : ^777777걸칠것^000000    방어 : ^77777720^000000",
+			"무게 : ^7777770^000000",
+			"요구레벨 : ^77777747^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16626] = {
+		unidentifiedDisplayName = "메긴기오르드 상자",
+		unidentifiedResourceName = "화려한상자",
+		unidentifiedDescriptionName = {
+			"메긴기오르드(체험판)이 1개 들어있는 상자.",
+			"7일간 사용 가능 하다.",
+			"^000088임대 아이템^000000",
+			"허리에 착용하면 힘을 극적으로 끌어올려 가히 괴물이라 불릴 정도로 만들어주는 아이템.  뇌신 토르의 전용 허리띠였다.",
+			"STR +20, MDEF +3",
+			"착용자의 BaseLV에 따라 STR 추가 증가.",
+			"STR이 순수 120 인 경우, 보스몬스터에게 5% 물리 데미지 추가.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000      무게 : ^7777770^000000",
+			"요구레벨 : ^77777747^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "메긴기오르드 상자",
+		identifiedResourceName = "화려한상자",
+		identifiedDescriptionName = {
+			"메긴기오르드(체험판)이 1개 들어있는 상자.",
+			"7일간 사용 가능 하다.",
+			"^000088임대 아이템^000000",
+			"허리에 착용하면 힘을 극적으로 끌어올려 가히 괴물이라 불릴 정도로 만들어주는 아이템.  뇌신 토르의 전용 허리띠였다.",
+			"STR +20, MDEF +3",
+			"착용자의 BaseLV에 따라 STR 추가 증가.",
+			"STR이 순수 120 인 경우, 보스몬스터에게 5% 물리 데미지 추가.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000      무게 : ^7777770^000000",
+			"요구레벨 : ^77777747^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16627] = {
+		unidentifiedDisplayName = "브리싱가멘 상자",
+		unidentifiedResourceName = "화려한상자",
+		unidentifiedDescriptionName = {
+			"브리싱가멘(체험판)이 1개 들어있는 상자.",
+			"7일간 사용 가능 하다.",
+			"^000088임대 아이템^000000",
+			"여신 프레이야가 착용했다고 하는 목걸이로 아름다움과 더불어 훌륭한 능력을 착용자에게 제공하는 신의 아이템.",
+			"STR, AGI, DEX, VIT 각 +3 상승, LUK, INT 각 +5 상승.",
+			"MDEF +2",
+			"자신이 사용하는 힐, 생츄어리 스킬의 회복량이 3% 증가.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000      무게 : ^7777770^000000",
+			"요구레벨 : ^77777747^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "브리싱가멘 상자",
+		identifiedResourceName = "화려한상자",
+		identifiedDescriptionName = {
+			"브리싱가멘(체험판)이 1개 들어있는 상자.",
+			"7일간 사용 가능 하다.",
+			"^000088임대 아이템^000000",
+			"여신 프레이야가 착용했다고 하는 목걸이로 아름다움과 더불어 훌륭한 능력을 착용자에게 제공하는 신의 아이템.",
+			"STR, AGI, DEX, VIT 각 +3 상승, LUK, INT 각 +5 상승.",
+			"MDEF +2",
+			"자신이 사용하는 힐, 생츄어리 스킬의 회복량이 3% 증가.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000      무게 : ^7777770^000000",
+			"요구레벨 : ^77777747^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16628] = {
+		unidentifiedDisplayName = "브륀힐트 상자",
+		unidentifiedResourceName = "화려한상자",
+		unidentifiedDescriptionName = {
+			"브륀힐트(체험판)이 1개 들어있는 상자.",
+			"7일간 사용 가능 하다.",
+			"^000088임대 아이템^000000",
+			"용맹했던 발키리 중 하나인 브륀힐트, '싸우는 자의 갑옷'이라는 의미를 가지고 있다.",
+			"Base Lv 20배 만큼의 MHP증가. Base Lv 5배 만큼의 MSP증가.",
+			"물리공격력 5%, 마법공격력 5% 증가.",
+			"MDEF + 5.",
+			"넉백불가. 제련불가. 파괴불가.",
+			"계열 : ^777777갑옷^000000    방어 : ^77777760^000000",
+			"무게 : ^7777770^000000",
+			"요구레벨 : ^77777747^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "브륀힐트 상자",
+		identifiedResourceName = "화려한상자",
+		identifiedDescriptionName = {
+			"브륀힐트(체험판)이 1개 들어있는 상자.",
+			"7일간 사용 가능 하다.",
+			"^000088임대 아이템^000000",
+			"용맹했던 발키리 중 하나인 브륀힐트, '싸우는 자의 갑옷'이라는 의미를 가지고 있다.",
+			"Base Lv 20배 만큼의 MHP증가. Base Lv 5배 만큼의 MSP증가.",
+			"물리공격력 5%, 마법공격력 5% 증가.",
+			"MDEF + 5.",
+			"넉백불가. 제련불가. 파괴불가.",
+			"계열 : ^777777갑옷^000000    방어 : ^77777760^000000",
+			"무게 : ^7777770^000000",
+			"요구레벨 : ^77777747^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16629] = {
+		unidentifiedDisplayName = "그랜드 페코의 머리띠 상자",
+		unidentifiedResourceName = "음식보자기",
+		unidentifiedDescriptionName = {
+			"그랜드 페코의 머리띠가 1개 들어있는 상자.",
+			"그랜드 페코페코의 날개깃털을 엮어만든 화려한 머리장식.",
+			"인간형, 동물형 몬스터에게 주는 데미지 7% 증가.",
+			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
+			"계열 : ^777777투구^000000 방어 : ^7777775^000000",
+			"위치 : ^777777상중단 ^000000 무게 : ^77777780^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
+		},
+		identifiedDisplayName = "그랜드 페코의 머리띠 상자",
+		identifiedResourceName = "음식보자기",
+		identifiedDescriptionName = {
+			"그랜드 페코의 머리띠가 1개 들어있는 상자.",
+			"그랜드 페코페코의 날개깃털을 엮어만든 화려한 머리장식.",
+			"인간형, 동물형 몬스터에게 주는 데미지 7% 증가.",
+			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
+			"계열 : ^777777투구^000000 방어 : ^7777775^000000",
+			"위치 : ^777777상중단 ^000000 무게 : ^77777780^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16630] = {
+		unidentifiedDisplayName = "그랜드 페코의 머리띠 상자",
+		unidentifiedResourceName = "음식보자기",
+		unidentifiedDescriptionName = {
+			"그랜드 페코의 머리띠가 1개 들어있는 상자.",
+			"그랜드 페코페코의 날개깃털을 엮어만든 화려한 머리장식.",
+			"인간형, 동물형 몬스터에게 주는 데미지 7% 증가.",
+			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
+			"계열 : ^777777투구^000000 방어 : ^7777775^000000",
+			"위치 : ^777777상중단 ^000000 무게 : ^77777780^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
+		},
+		identifiedDisplayName = "그랜드 페코의 머리띠 상자",
+		identifiedResourceName = "음식보자기",
+		identifiedDescriptionName = {
+			"그랜드 페코의 머리띠가 1개 들어있는 상자.",
+			"그랜드 페코페코의 날개깃털을 엮어만든 화려한 머리장식.",
+			"인간형, 동물형 몬스터에게 주는 데미지 7% 증가.",
+			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
+			"계열 : ^777777투구^000000 방어 : ^7777775^000000",
+			"위치 : ^777777상중단 ^000000 무게 : ^77777780^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16632] = {
+		unidentifiedDisplayName = "맑은 태양 상자",
+		unidentifiedResourceName = "오래된파란상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "맑은 태양 상자",
+		identifiedResourceName = "오래된파란상자",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16634] = {
+		unidentifiedDisplayName = "대못박힌 스카프 상자Ⅱ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "대못박힌 스카프 상자Ⅱ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16635] = {
+		unidentifiedDisplayName = "무지개 스카프 상자Ⅱ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "무지개 스카프 상자Ⅱ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16636] = {
+		unidentifiedDisplayName = "대못박힌 스카프 상자Ⅲ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "대못박힌 스카프 상자Ⅲ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16637] = {
+		unidentifiedDisplayName = "무지개 스카프 상자Ⅲ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "무지개 스카프 상자Ⅲ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16638] = {
+		unidentifiedDisplayName = "생명의 리본 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 1시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "생명의 리본 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 1시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16639] = {
+		unidentifiedDisplayName = "생명의 리본 상자Ⅱ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "생명의 리본 상자Ⅱ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16640] = {
+		unidentifiedDisplayName = "생명의 리본 상자Ⅲ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "생명의 리본 상자Ⅲ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16641] = {
+		unidentifiedDisplayName = "대못박힌 스카프 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 1시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "대못박힌 스카프 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 1시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16642] = {
+		unidentifiedDisplayName = "무지개 스카프 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 1시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "무지개 스카프 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 1시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16643] = {
+		unidentifiedDisplayName = "대못박힌 스카프 상자Ⅱ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "대못박힌 스카프 상자Ⅱ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16644] = {
+		unidentifiedDisplayName = "무지개 스카프 상자Ⅱ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "무지개 스카프 상자Ⅱ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16645] = {
+		unidentifiedDisplayName = "대못박힌 스카프 상자Ⅲ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "대못박힌 스카프 상자Ⅲ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"대못박힌 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
+			"ATK + 30, HP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16646] = {
+		unidentifiedDisplayName = "무지개 스카프 상자Ⅲ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "무지개 스카프 상자Ⅲ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"무지개 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"무지개 색을 띈 화려한 스카프.",
+			"MATK + 30, MSP - 2%.",
+			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16647] = {
+		unidentifiedDisplayName = "생명의 리본 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 1시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "생명의 리본 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 1시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16648] = {
+		unidentifiedDisplayName = "생명의 리본 상자Ⅱ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "생명의 리본 상자Ⅱ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 2시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16649] = {
+		unidentifiedDisplayName = "생명의 리본 상자Ⅲ",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "생명의 리본 상자Ⅲ",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"생명의 리본이 1개 들어있는 상자. 4시간 동안 사용가능.",
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT + 1, MDEF + 2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 INT + 1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16650] = {
+		unidentifiedDisplayName = "쌍자궁 하늘의 보관 상자",
+		unidentifiedResourceName = "번호상자01",
+		unidentifiedDescriptionName = {
+			"쌍자궁 하늘의 보관이 1개 들어있는 상자.",
+			"",
+			"황도 3번째 자리인 쌍자궁을 나타내는 보관. 탄생석인 알렉산드라이트가 박혀있다.",
+			"DEX + 2, 스킬 후 딜레이 2% 감소, 풍속성 공격 저항 5%.",
+			"7제련 이상 시 DEX + 1, MATK + 30 추가.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777상단 ^000000 무게 : ^77777730^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "쌍자궁 하늘의 보관 상자",
+		identifiedResourceName = "번호상자01",
+		identifiedDescriptionName = {
+			"쌍자궁 하늘의 보관이 1개 들어있는 상자.",
+			"",
+			"황도 3번째 자리인 쌍자궁을 나타내는 보관. 탄생석인 알렉산드라이트가 박혀있다.",
+			"DEX + 2, 스킬 후 딜레이 2% 감소, 풍속성 공격 저항 5%.",
+			"7제련 이상 시 DEX + 1, MATK + 30 추가.",
+			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
+			"위치 : ^777777상단 ^000000 무게 : ^77777730^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16651] = {
+		unidentifiedDisplayName = "쌍자궁 하늘의 왕관 상자",
+		unidentifiedResourceName = "번호상자01",
+		unidentifiedDescriptionName = {
+			"쌍자궁 하늘의 왕관이 1개 들어있는 상자.",
+			"",
+			"황도 3번째 자리인 쌍자궁을 나타내는 왕관. 탄생석인 알렉산드라이트가 박혀있다.",
+			"AGI + 2, FLEE + 10, 풍속성 공격에 대한 내성 5%.",
+			"7제련 이상 일 경우 HIT + 5, ATK + 30.",
+			"계열 : ^777777투구^000000 방어 : ^7777776^000000",
+			"위치 : ^777777상단 ^000000 무게 : ^77777730^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "쌍자궁 하늘의 왕관 상자",
+		identifiedResourceName = "번호상자01",
+		identifiedDescriptionName = {
+			"쌍자궁 하늘의 왕관이 1개 들어있는 상자.",
+			"",
+			"황도 3번째 자리인 쌍자궁을 나타내는 왕관. 탄생석인 알렉산드라이트가 박혀있다.",
+			"AGI + 2, FLEE + 10, 풍속성 공격에 대한 내성 5%.",
+			"7제련 이상 일 경우 HIT + 5, ATK + 30.",
+			"계열 : ^777777투구^000000 방어 : ^7777776^000000",
+			"위치 : ^777777상단 ^000000 무게 : ^77777730^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16655] = {
+		unidentifiedDisplayName = "신속한 생명수 10개 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {
+			"신속한 생명수가 10개와 행운의 알 1개가 들어있는 상자.",
+			"",
+			"각종 회복력에 도움이 되는 식물즙을 응축해 담아놓은 병. 빠른 상처 재생에 효험이 있다고 한다.",
+			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
+			"버서크 상태에서는 효과가 발동하지 않는다.",
+			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
+			"무게 : ^7777771^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "신속한 생명수 10개 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"신속한 생명수가 10개와 행운의 알 1개가 들어있는 상자.",
+			"",
+			"각종 회복력에 도움이 되는 식물즙을 응축해 담아놓은 병. 빠른 상처 재생에 효험이 있다고 한다.",
+			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
+			"버서크 상태에서는 효과가 발동하지 않는다.",
+			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
+			"무게 : ^7777771^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16656] = {
+		unidentifiedDisplayName = "신속한 생명수 10개 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {
+			"신속한 생명수가 10개와 행운의 알 1개가 들어있는 상자.",
+			"",
+			"각종 회복력에 도움이 되는 식물즙을 응축해 담아놓은 병. 빠른 상처 재생에 효험이 있다고 한다.",
+			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
+			"버서크 상태에서는 효과가 발동하지 않는다.",
+			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
+			"무게 : ^7777771^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "신속한 생명수 10개 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"신속한 생명수가 10개와 행운의 알 1개가 들어있는 상자.",
+			"",
+			"각종 회복력에 도움이 되는 식물즙을 응축해 담아놓은 병. 빠른 상처 재생에 효험이 있다고 한다.",
+			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
+			"버서크 상태에서는 효과가 발동하지 않는다.",
+			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
+			"무게 : ^7777771^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16657] = {
+		unidentifiedDisplayName = "신속한 생명수 10개 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {
+			"신속한 생명수가 10개가 들어있는 상자.",
+			"",
+			"각종 회복력에 도움이 되는 식물즙을 응축해 담아놓은 병. 빠른 상처 재생에 효험이 있다고 한다.",
+			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
+			"버서크 상태에서는 효과가 발동하지 않는다.",
+			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
+			"무게 : ^7777771^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "신속한 생명수 10개 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"신속한 생명수가 10개가 들어있는 상자.",
+			"",
+			"각종 회복력에 도움이 되는 식물즙을 응축해 담아놓은 병. 빠른 상처 재생에 효험이 있다고 한다.",
+			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
+			"버서크 상태에서는 효과가 발동하지 않는다.",
+			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
+			"무게 : ^7777771^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
 	},
 	[16658] = {
 		unidentifiedDisplayName = "신속한 생명수 10개 상자",
@@ -624,9 +1521,9 @@ tbl = {
 			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
 			"버서크 상태에서는 효과가 발동하지 않는다.",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "신속한 생명수 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -637,9 +1534,9 @@ tbl = {
 			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
 			"버서크 상태에서는 효과가 발동하지 않는다.",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -649,13 +1546,13 @@ tbl = {
 		unidentifiedResourceName = "오래된파란상자",
 		unidentifiedDescriptionName = {
 			"영혼의 송곳이 1개 들어있는 상자.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^7777771^000000"
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "영혼의 송곳 상자",
 		identifiedResourceName = "오래된파란상자",
 		identifiedDescriptionName = {
 			"영혼의 송곳이 1개 들어있는 상자.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^7777771^000000"
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -665,13 +1562,13 @@ tbl = {
 		unidentifiedResourceName = "오래된파란상자",
 		unidentifiedDescriptionName = {
 			"영혼의 송곳이 1개 들어있는 상자.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^7777771^000000"
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "영혼의 송곳 상자",
 		identifiedResourceName = "오래된파란상자",
 		identifiedDescriptionName = {
 			"영혼의 송곳이 1개 들어있는 상자.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^7777771^000000"
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -682,14 +1579,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"백양궁 하늘의 보관이 1개 들어있는 상자.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "백양궁 하늘의 보관 상자",
 		identifiedResourceName = "번호상자01",
 		identifiedDescriptionName = {
 			"백양궁 하늘의 보관이 1개 들어있는 상자.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -700,14 +1597,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"백양궁 하늘의 왕관이 1개 들어있는 상자.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "백양궁 하늘의 왕관 상자",
 		identifiedResourceName = "번호상자01",
 		identifiedDescriptionName = {
 			"백양궁 하늘의 왕관이 1개 들어있는 상자.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -724,7 +1621,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법캔디 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -737,7 +1634,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -754,7 +1651,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법캔디 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -767,7 +1664,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -784,7 +1681,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법캔디 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -804,7 +1701,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법캔디 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -817,7 +1714,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -831,10 +1728,10 @@ tbl = {
 			"게펜 마법학회의 더욱 진화한 연구 성과!",
 			"'노점에서 판매, 구입 중인 아이템을 검색할 수 있는' 마법이 담긴 스크롤로, 검색된 링크를 통해 물건을 직접 구매하거나 판매도 가능하다!",
 			"^000088사용자가 서 있는 맵에 열려있는 노점만 검색합니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "만능 카탈로그 골드 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -844,10 +1741,10 @@ tbl = {
 			"게펜 마법학회의 더욱 진화한 연구 성과!",
 			"'노점에서 판매, 구입 중인 아이템을 검색할 수 있는' 마법이 담긴 스크롤로, 검색된 링크를 통해 물건을 직접 구매하거나 판매도 가능하다!",
 			"^000088사용자가 서 있는 맵에 열려있는 노점만 검색합니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -861,10 +1758,10 @@ tbl = {
 			"게펜 마법학회의 더욱 진화한 연구 성과!",
 			"'노점에서 판매, 구입 중인 아이템을 검색할 수 있는' 마법이 담긴 스크롤로, 검색된 링크를 통해 물건을 직접 구매하거나 판매도 가능하다!",
 			"^000088사용자가 서 있는 맵에 열려있는 노점만 검색합니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "만능 카탈로그 골드 50개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -874,10 +1771,10 @@ tbl = {
 			"게펜 마법학회의 더욱 진화한 연구 성과!",
 			"'노점에서 판매, 구입 중인 아이템을 검색할 수 있는' 마법이 담긴 스크롤로, 검색된 링크를 통해 물건을 직접 구매하거나 판매도 가능하다!",
 			"^000088사용자가 서 있는 맵에 열려있는 노점만 검색합니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -891,12 +1788,12 @@ tbl = {
 			"모든 몬스터로 부터 받는 데미지 5% 감소.",
 			"LUK + 5, MDEF + 3, HIT + 10, 캐스팅 딜레이 5% 감소.",
 			"7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777774^000000",
-			"위치 : ^777777상단 ^000000 Weight: ^77777710^000000",
-			"요구 레벨 : ^77777730^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF4^000000",
+			"Location: ^6A5ACDUpper^000000 Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B30^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "가루다 햇 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -906,12 +1803,12 @@ tbl = {
 			"모든 몬스터로 부터 받는 데미지 5% 감소.",
 			"LUK + 5, MDEF + 3, HIT + 10, 캐스팅 딜레이 5% 감소.",
 			"7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777774^000000",
-			"위치 : ^777777상단 ^000000 Weight: ^77777710^000000",
-			"요구 레벨 : ^77777730^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF4^000000",
+			"Location: ^6A5ACDUpper^000000 Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B30^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -925,12 +1822,12 @@ tbl = {
 			"모든 몬스터로 부터 받는 데미지 5% 감소.",
 			"LUK + 5, MDEF + 3, HIT + 10, 캐스팅 딜레이 5% 감소.",
 			"7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777774^000000",
-			"위치 : ^777777상단 ^000000 Weight: ^77777710^000000",
-			"요구 레벨 : ^77777730^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF4^000000",
+			"Location: ^6A5ACDUpper^000000 Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B30^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "가루다 햇 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -940,12 +1837,12 @@ tbl = {
 			"모든 몬스터로 부터 받는 데미지 5% 감소.",
 			"LUK + 5, MDEF + 3, HIT + 10, 캐스팅 딜레이 5% 감소.",
 			"7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777774^000000",
-			"위치 : ^777777상단 ^000000 Weight: ^77777710^000000",
-			"요구 레벨 : ^77777730^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF4^000000",
+			"Location: ^6A5ACDUpper^000000 Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B30^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -960,12 +1857,12 @@ tbl = {
 			"MHP + 1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "움발라의 혼 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -976,12 +1873,12 @@ tbl = {
 			"MHP + 1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -996,12 +1893,12 @@ tbl = {
 			"MHP + 1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "움발라의 혼 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -1012,12 +1909,12 @@ tbl = {
 			"MHP + 1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777772^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B2^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1032,12 +1929,12 @@ tbl = {
 			"MHP + 1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "움발라의 혼 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -1048,12 +1945,12 @@ tbl = {
 			"MHP + 1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1068,12 +1965,12 @@ tbl = {
 			"MHP + 1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "움발라의 혼 7일 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -1084,12 +1981,12 @@ tbl = {
 			"MHP + 1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1103,10 +2000,10 @@ tbl = {
 			"게펜 마법학회의 더욱 진화한 연구 성과!",
 			"'노점에서 판매, 구입 중인 아이템을 검색할 수 있는' 마법이 담긴 스크롤로, 검색된 링크를 통해 물건을 직접 구매하거나 판매도 가능하다!",
 			"^000088사용자가 서 있는 맵에 열려있는 노점만 검색합니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "만능 카탈로그 골드 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -1116,10 +2013,10 @@ tbl = {
 			"게펜 마법학회의 더욱 진화한 연구 성과!",
 			"'노점에서 판매, 구입 중인 아이템을 검색할 수 있는' 마법이 담긴 스크롤로, 검색된 링크를 통해 물건을 직접 구매하거나 판매도 가능하다!",
 			"^000088사용자가 서 있는 맵에 열려있는 노점만 검색합니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1133,10 +2030,10 @@ tbl = {
 			"게펜 마법학회의 더욱 진화한 연구 성과!",
 			"'노점에서 판매, 구입 중인 아이템을 검색할 수 있는' 마법이 담긴 스크롤로, 검색된 링크를 통해 물건을 직접 구매하거나 판매도 가능하다!",
 			"^000088사용자가 서 있는 맵에 열려있는 노점만 검색합니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "만능 카탈로그 골드 50개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -1146,10 +2043,10 @@ tbl = {
 			"게펜 마법학회의 더욱 진화한 연구 성과!",
 			"'노점에서 판매, 구입 중인 아이템을 검색할 수 있는' 마법이 담긴 스크롤로, 검색된 링크를 통해 물건을 직접 구매하거나 판매도 가능하다!",
 			"^000088사용자가 서 있는 맵에 열려있는 노점만 검색합니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1161,7 +2058,7 @@ tbl = {
 			"STR+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "혓바닥요리 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1169,7 +2066,7 @@ tbl = {
 			"STR+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1181,7 +2078,7 @@ tbl = {
 			"STR+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "혓바닥요리 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1189,7 +2086,7 @@ tbl = {
 			"STR+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1201,7 +2098,7 @@ tbl = {
 			"AGI+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "사막전갈 모래찜 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1209,7 +2106,7 @@ tbl = {
 			"AGI+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1221,7 +2118,7 @@ tbl = {
 			"AGI+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "사막전갈 모래찜 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1229,7 +2126,7 @@ tbl = {
 			"AGI+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1241,7 +2138,7 @@ tbl = {
 			"VIT+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "불사의 찌개 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1249,7 +2146,7 @@ tbl = {
 			"VIT+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1261,7 +2158,7 @@ tbl = {
 			"VIT+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "불사의 찌개 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1269,7 +2166,7 @@ tbl = {
 			"VIT+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1281,7 +2178,7 @@ tbl = {
 			"INT+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "칵테일 용의 숨결 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1289,7 +2186,7 @@ tbl = {
 			"INT+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1301,7 +2198,7 @@ tbl = {
 			"INT+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "칵테일 용의 숨결 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1309,7 +2206,7 @@ tbl = {
 			"INT+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1321,7 +2218,7 @@ tbl = {
 			"DEX+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "흐베르겔미르의 술 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1329,7 +2226,7 @@ tbl = {
 			"DEX+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1341,7 +2238,7 @@ tbl = {
 			"DEX+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "흐베르겔미르의 술 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1349,7 +2246,7 @@ tbl = {
 			"DEX+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1361,7 +2258,7 @@ tbl = {
 			"LUK+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "구미호 꼬리요리 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1369,7 +2266,7 @@ tbl = {
 			"LUK+10 요리가 10개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1381,7 +2278,7 @@ tbl = {
 			"LUK+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "구미호 꼬리요리 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1389,7 +2286,7 @@ tbl = {
 			"LUK+10 요리가 50개 들어있는 상자. 요리가 상하지 않도록 특수처리되어 있다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1403,7 +2300,7 @@ tbl = {
 			"생명보험 증서 - 30분간 1회에 한해, 사망 시 경험치를 떨구지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "보험증서 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1413,7 +2310,7 @@ tbl = {
 			"생명보험 증서 - 30분간 1회에 한해, 사망 시 경험치를 떨구지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1427,7 +2324,7 @@ tbl = {
 			"생명보험 증서 - 30분간 1회에 한해, 사망 시 경험치를 떨구지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "보험증서 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1437,7 +2334,7 @@ tbl = {
 			"생명보험 증서 - 30분간 1회에 한해, 사망 시 경험치를 떨구지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1451,7 +2348,7 @@ tbl = {
 			"카프라 명함 - 사용 시, 카프라 창고 서비스를 1회 사용할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "카프라 명함 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1461,7 +2358,7 @@ tbl = {
 			"카프라 명함 - 사용 시, 카프라 창고 서비스를 1회 사용할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1475,7 +2372,7 @@ tbl = {
 			"카프라 명함 - 사용 시, 카프라 창고 서비스를 1회 사용할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "카프라 명함 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1485,7 +2382,7 @@ tbl = {
 			"카프라 명함 - 사용 시, 카프라 창고 서비스를 1회 사용할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1499,7 +2396,7 @@ tbl = {
 			"거대한 파리의 날개 - 파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "거대한 파리의 날개 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1509,7 +2406,7 @@ tbl = {
 			"거대한 파리의 날개 - 파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1523,7 +2420,7 @@ tbl = {
 			"거대한 파리의 날개 - 파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "거대한 파리의 날개 100개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1533,7 +2430,7 @@ tbl = {
 			"거대한 파리의 날개 - 파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1547,7 +2444,7 @@ tbl = {
 			"지크프리드의 증표 - 사망시 사망장소에서 바로 부활 가능",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "지크프리드의 증표 5개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1557,7 +2454,7 @@ tbl = {
 			"지크프리드의 증표 - 사망시 사망장소에서 바로 부활 가능",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1571,7 +2468,7 @@ tbl = {
 			"지크프리드의 증표 - 사망시 사망장소에서 바로 부활 가능",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "지크프리드의 증표 20개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1581,7 +2478,7 @@ tbl = {
 			"지크프리드의 증표 - 사망시 사망장소에서 바로 부활 가능",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1600,7 +2497,7 @@ tbl = {
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "볼록거울 5개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1615,7 +2512,7 @@ tbl = {
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1634,7 +2531,7 @@ tbl = {
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "볼록거울 30개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1649,7 +2546,7 @@ tbl = {
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1661,7 +2558,7 @@ tbl = {
 			"블레싱 10레벨 스크롤이 10장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "블레싱 스크롤 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1669,7 +2566,7 @@ tbl = {
 			"블레싱 10레벨 스크롤이 10장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1681,7 +2578,7 @@ tbl = {
 			"블레싱 10레벨 스크롤이 50장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "블레싱 스크롤 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1689,7 +2586,7 @@ tbl = {
 			"블레싱 10레벨 스크롤이 50장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1701,7 +2598,7 @@ tbl = {
 			"민첩성 증가 10레벨 스크롤이 10장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "민첩성증가 스크롤 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1709,7 +2606,7 @@ tbl = {
 			"민첩성 증가 10레벨 스크롤이 10장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1721,7 +2618,7 @@ tbl = {
 			"민첩성 증가 10레벨 스크롤이 50장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "민첩성증가 스크롤 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1729,7 +2626,7 @@ tbl = {
 			"민첩성 증가 10레벨 스크롤이 50장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1741,7 +2638,7 @@ tbl = {
 			"아드레날린 러쉬 5레벨 스크롤이 10장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아드레날린러쉬 스크롤 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1749,7 +2646,7 @@ tbl = {
 			"아드레날린 러쉬 5레벨 스크롤이 10장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1761,7 +2658,7 @@ tbl = {
 			"아드레날린 러쉬 5레벨 스크롤이 50장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아드레날린러쉬 스크롤 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1769,7 +2666,7 @@ tbl = {
 			"아드레날린 러쉬 5레벨 스크롤이 50장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1781,7 +2678,7 @@ tbl = {
 			"아스페르시오 5레벨 스크롤이 10장 들어있는 상자. 성직자의 축복이 깃들어 따로 성수를 소모하지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아스페르시오 스크롤 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1789,7 +2686,7 @@ tbl = {
 			"아스페르시오 5레벨 스크롤이 10장 들어있는 상자. 성직자의 축복이 깃들어 따로 성수를 소모하지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1801,7 +2698,7 @@ tbl = {
 			"아스페르시오 5레벨 스크롤이 50장 들어있는 상자. 성직자의 축복이 깃들어 따로 성수를 소모하지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아스페르시오 스크롤 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1809,7 +2706,7 @@ tbl = {
 			"아스페르시오 5레벨 스크롤이 50장 들어있는 상자. 성직자의 축복이 깃들어 따로 성수를 소모하지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1823,7 +2720,7 @@ tbl = {
 			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "전투교범 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1833,7 +2730,7 @@ tbl = {
 			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1847,7 +2744,7 @@ tbl = {
 			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "전투교범 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1857,7 +2754,7 @@ tbl = {
 			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1871,7 +2768,7 @@ tbl = {
 			"풍선껌 - 30분간, 몬스터가 아이템을 드롭할 확률이 100% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "풍선껌 박스",
 		identifiedResourceName = "오래된보라상자",
@@ -1881,7 +2778,7 @@ tbl = {
 			"풍선껌 - 30분간, 몬스터가 아이템을 드롭할 확률이 100% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1895,7 +2792,7 @@ tbl = {
 			"풍선껌 - 30분간, 몬스터가 아이템을 드롭할 확률이 100% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "풍선껌 10개 박스",
 		identifiedResourceName = "오래된보라상자",
@@ -1905,7 +2802,7 @@ tbl = {
 			"풍선껌 - 30분간, 몬스터가 아이템을 드롭할 확률이 100% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1919,7 +2816,7 @@ tbl = {
 			"확성기 - 서버 전체에 자신이 입력한 문장을 방송할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "확성기 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1929,7 +2826,7 @@ tbl = {
 			"확성기 - 서버 전체에 자신이 입력한 문장을 방송할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1943,7 +2840,7 @@ tbl = {
 			"확성기 - 서버 전체에 자신이 입력한 문장을 방송할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "확성기 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1953,7 +2850,7 @@ tbl = {
 			"확성기 - 서버 전체에 자신이 입력한 문장을 방송할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1967,7 +2864,7 @@ tbl = {
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "농축 에르늄 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -1977,7 +2874,7 @@ tbl = {
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1991,7 +2888,7 @@ tbl = {
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "농축 에르늄 5개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2001,7 +2898,7 @@ tbl = {
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2015,7 +2912,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "농축 오리데오콘 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2025,7 +2922,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2039,7 +2936,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "농축 오리데오콘 5개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2049,7 +2946,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2063,7 +2960,7 @@ tbl = {
 			"섬광막대 - 스킬트리를 초기화 시켜준다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "섬광막대 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2073,7 +2970,7 @@ tbl = {
 			"섬광막대 - 스킬트리를 초기화 시켜준다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2087,7 +2984,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "연마제 5개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2097,7 +2994,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2111,7 +3008,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "연마제 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2121,7 +3018,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2135,7 +3032,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "던전 이동 스크롤 5개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2145,7 +3042,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2159,7 +3056,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "던전 이동 스크롤 10개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2169,7 +3066,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2183,7 +3080,7 @@ tbl = {
 			"스킬 레벨 1 당, 200의 소지량이 증가하며, 10레벨까지 배울 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "헬스장 회원권 상자",
 		identifiedResourceName = "졸린상자",
@@ -2193,7 +3090,7 @@ tbl = {
 			"스킬 레벨 1 당, 200의 소지량이 증가하며, 10레벨까지 배울 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2207,7 +3104,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "회복력 향상포션 5개 상자",
 		identifiedResourceName = "응급처치상자",
@@ -2217,7 +3114,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2231,7 +3128,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "회복력 향상포션 10개 상자",
 		identifiedResourceName = "응급처치상자",
@@ -2241,7 +3138,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2256,7 +3153,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "소형 생명수 10개 상자",
 		identifiedResourceName = "응급처치상자",
@@ -2267,7 +3164,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2282,7 +3179,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "소형 생명수 50개 상자",
 		identifiedResourceName = "응급처치상자",
@@ -2293,7 +3190,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2308,7 +3205,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "중형 생명수 10개 상자",
 		identifiedResourceName = "응급처치상자",
@@ -2319,7 +3216,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2334,7 +3231,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "중형 생명수 50개 상자",
 		identifiedResourceName = "응급처치상자",
@@ -2345,7 +3242,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2359,7 +3256,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "환영의 술잔 5개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2369,7 +3266,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2383,7 +3280,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "환영의 술잔 10개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2393,7 +3290,7 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2406,7 +3303,7 @@ tbl = {
 			"쉐도우 아머 스크롤 - 몸 속성을 30분간 암속성으로 변화시킨다. 사망 시에도 효과는 사라지지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 아머 스크롤 5개 상자",
 		identifiedResourceName = "우울한상자",
@@ -2415,7 +3312,7 @@ tbl = {
 			"쉐도우 아머 스크롤 - 몸 속성을 30분간 암속성으로 변화시킨다. 사망 시에도 효과는 사라지지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2428,7 +3325,7 @@ tbl = {
 			"쉐도우 아머 스크롤 - 몸 속성을 30분간 암속성으로 변화시킨다. 사망 시에도 효과는 사라지지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 아머 스크롤 30개 상자",
 		identifiedResourceName = "우울한상자",
@@ -2437,7 +3334,7 @@ tbl = {
 			"쉐도우 아머 스크롤 - 몸 속성을 30분간 암속성으로 변화시킨다. 사망 시에도 효과는 사라지지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2450,7 +3347,7 @@ tbl = {
 			"홀리 아머 스크롤 - 몸 속성을 30분간 성속성으로 변화시킨다. 사망 시에도 효과는 사라지지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "홀리 아머 스크롤 5개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2459,7 +3356,7 @@ tbl = {
 			"홀리 아머 스크롤 - 몸 속성을 30분간 성속성으로 변화시킨다. 사망 시에도 효과는 사라지지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2472,7 +3369,7 @@ tbl = {
 			"홀리 아머 스크롤 - 몸 속성을 30분간 성속성으로 변화시킨다. 사망 시에도 효과는 사라지지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "홀리 아머 스크롤 30개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2481,7 +3378,7 @@ tbl = {
 			"홀리 아머 스크롤 - 몸 속성을 30분간 성속성으로 변화시킨다. 사망 시에도 효과는 사라지지 않는다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2494,7 +3391,7 @@ tbl = {
 			"\"토르화산 던전 2층\" \"얼음던전 입구\" \"베인스 나루터\" \"니플헤임\" \"미궁\" \"유페로스\" \"개미던전\" \"킬 하이르 학원 입구\" \"타나토스 타워 입구\" \"어비스 레이크 입구\" \"라헬 신전 입구\" \"오딘 신전\" 으로 이동할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "던전 이동 스크롤II 5개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2503,7 +3400,7 @@ tbl = {
 			"토르화산 던전 2층 \"얼음던전 입구\" \"베인스 나루터\" \"니플헤임\" \"미궁\" \"유페로스\" \"개미던전\" \"킬 하이르 학원 입구\" \"타나토스 타워 입구\" \"어비스 레이크 입구\" \"라헬 신전 입구\" \"오딘 신전\" 으로 이동할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2516,7 +3413,7 @@ tbl = {
 			"\"토르화산 던전 2층\" \"얼음던전 입구\" \"베인스 나루터\" \"니플헤임\" \"미궁\" \"유페로스\" \"개미던전\" \"킬 하이르 학원 입구\" \"타나토스 타워 입구\" \"어비스 레이크 입구\" \"라헬 신전 입구\" \"오딘 신전\" 으로 이동할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "던전 이동 스크롤II 10개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2525,7 +3422,7 @@ tbl = {
 			"토르화산 던전 2층 \"얼음던전 입구\" \"베인스 나루터\" \"니플헤임\" \"미궁\" \"유페로스\" \"개미던전\" \"킬 하이르 학원 입구\" \"타나토스 타워 입구\" \"어비스 레이크 입구\" \"라헬 신전 입구\" \"오딘 신전\" 으로 이동할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2540,7 +3437,7 @@ tbl = {
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "톡톡캔디 5개 상자",
 		identifiedResourceName = "헐떡이는상자",
@@ -2551,7 +3448,7 @@ tbl = {
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2566,7 +3463,7 @@ tbl = {
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "톡톡캔디 10개 상자",
 		identifiedResourceName = "헐떡이는상자",
@@ -2577,7 +3474,7 @@ tbl = {
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2590,7 +3487,7 @@ tbl = {
 			"이 상자에서 나오는 수리 재료들은 다른 용도로 사용하는데 불편함이 있을 수 있습니다. 주의하십시오.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무기수리 스크롤 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2599,7 +3496,7 @@ tbl = {
 			"이 상자에서 나오는 수리 재료들은 다른 용도로 사용하는데 불편함이 있을 수 있습니다. 주의하십시오.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2612,7 +3509,7 @@ tbl = {
 			"이 상자에서 나오는 수리 재료들은 다른 용도로 사용하는데 불편함이 있을 수 있습니다. 주의하십시오.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무기 수리 주문서 10개 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -2621,7 +3518,7 @@ tbl = {
 			"이 상자에서 나오는 수리 재료들은 다른 용도로 사용하는데 불편함이 있을 수 있습니다. 주의하십시오.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2633,7 +3530,7 @@ tbl = {
 			"미용상품권이 1개 들어있는 상자. 다른 사람들과 차별된 무언가를 원하는 당신을 위한 아이템이다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "미용상품권 상자",
 		identifiedResourceName = "선물상자",
@@ -2641,7 +3538,7 @@ tbl = {
 			"미용상품권이 1개 들어있는 상자. 다른 사람들과 차별된 무언가를 원하는 당신을 위한 아이템이다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2654,7 +3551,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "엘리스 소환서 상자 5",
 		identifiedResourceName = "포링상자",
@@ -2663,7 +3560,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2676,7 +3573,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "엘리스 소환서 상자 10",
 		identifiedResourceName = "포링상자",
@@ -2685,7 +3582,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2698,7 +3595,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "미믹 소환서 상자 5",
 		identifiedResourceName = "포링상자",
@@ -2707,7 +3604,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2720,7 +3617,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "미믹 소환서 상자 10",
 		identifiedResourceName = "포링상자",
@@ -2729,7 +3626,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2742,7 +3639,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "디스가이즈 소환서 상자 5",
 		identifiedResourceName = "포링상자",
@@ -2751,7 +3648,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2764,7 +3661,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "디스가이즈 소환서 상자 10",
 		identifiedResourceName = "포링상자",
@@ -2773,7 +3670,7 @@ tbl = {
 			"용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2785,7 +3682,7 @@ tbl = {
 			"마법력 증가 10Lv을 사용할 수 있는 스크롤이 10개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법력 증폭 스크롤 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2793,7 +3690,7 @@ tbl = {
 			"마법력 증가 10Lv을 사용할 수 있는 스크롤이 10개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2805,7 +3702,7 @@ tbl = {
 			"마법력 증가 10Lv을 사용할 수 있는 스크롤이 50개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법력 증폭 스크롤 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2813,7 +3710,7 @@ tbl = {
 			"마법력 증가 10Lv을 사용할 수 있는 스크롤이 50개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2825,7 +3722,7 @@ tbl = {
 			"콰그마이어 5Lv을 사용할 수 있는 스크롤이 10개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "콰그스크롤 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2833,7 +3730,7 @@ tbl = {
 			"콰그마이어 5Lv을 사용할 수 있는 스크롤이 10개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2845,7 +3742,7 @@ tbl = {
 			"콰그마이어 5Lv을 사용할 수 있는 스크롤이 50개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "콰그스크롤 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2853,7 +3750,7 @@ tbl = {
 			"콰그마이어 5Lv을 사용할 수 있는 스크롤이 50개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2865,7 +3762,7 @@ tbl = {
 			"옷 염색 쿠폰이 1장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "옷염색 쿠폰 상자",
 		identifiedResourceName = "졸린상자",
@@ -2873,7 +3770,7 @@ tbl = {
 			"옷 염색 쿠폰이 1장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2885,7 +3782,7 @@ tbl = {
 			"본래의 색으로  옷을 염색 할 수 있는 쿠폰이 1장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "옷염색 쿠폰 상자 Ⅱ",
 		identifiedResourceName = "졸린상자",
@@ -2893,7 +3790,7 @@ tbl = {
 			"본래의 색으로  옷을 염색 할 수 있는 쿠폰이 1장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2907,9 +3804,9 @@ tbl = {
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까?",
 			"경고! - 마을에서는 발동하지 않습니다. 사용 시, 스크롤만 파손됩니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "탐욕 스크롤 20개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2919,9 +3816,9 @@ tbl = {
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까?",
 			"경고! - 마을에서는 발동하지 않습니다. 사용 시, 스크롤만 파손됩니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2935,9 +3832,9 @@ tbl = {
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까?",
 			"경고! - 마을에서는 발동하지 않습니다. 사용 시, 스크롤만 파손됩니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "탐욕 스크롤 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2947,9 +3844,9 @@ tbl = {
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까?",
 			"경고! - 마을에서는 발동하지 않습니다. 사용 시, 스크롤만 파손됩니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2964,9 +3861,9 @@ tbl = {
 			"30분간 MSP 10% 증가, SP 소모량 10% 감소.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "멘탈 포션 20개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -2977,9 +3874,9 @@ tbl = {
 			"30분간 MSP 10% 증가, SP 소모량 10% 감소.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2994,9 +3891,9 @@ tbl = {
 			"30분간 MSP 10% 증가, SP 소모량 10% 감소.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "멘탈 포션 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3007,9 +3904,9 @@ tbl = {
 			"30분간 MSP 10% 증가, SP 소모량 10% 감소.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3025,9 +3922,9 @@ tbl = {
 			"경고! - 유과, 다식, 무지개떡 사용 시, 지속시간 및 능력치가 제대로 적용되지 않습니다. 피씨방 버프와 중첩되지 않습니다.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "티르의 축복 20개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3039,9 +3936,9 @@ tbl = {
 			"경고! - 유과, 다식, 무지개떡 사용 시, 지속시간 및 능력치가 제대로 적용되지 않습니다. 피씨방 버프와 중첩되지 않습니다.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3057,9 +3954,9 @@ tbl = {
 			"경고! - 유과, 다식, 무지개떡 사용 시, 지속시간 및 능력치가 제대로 적용되지 않습니다. 피씨방 버프와 중첩되지 않습니다.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "티르의 축복 50개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3071,9 +3968,9 @@ tbl = {
 			"경고! - 유과, 다식, 무지개떡 사용 시, 지속시간 및 능력치가 제대로 적용되지 않습니다. 피씨방 버프와 중첩되지 않습니다.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3087,9 +3984,9 @@ tbl = {
 			"사용하면 30분간 잡 경험치가 25% 증가하는 전투교범. 전투교범의 새로운 지평을 열었다는 평을 받고 있다.",
 			"전투교범과 중복 사용 가능",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "JOB 전투교범 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3099,9 +3996,9 @@ tbl = {
 			"사용하면 30분간 잡 경험치가 25% 증가하는 전투교범. 전투교범의 새로운 지평을 열었다는 평을 받고 있다.",
 			"전투교범과 중복 사용 가능",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3115,9 +4012,9 @@ tbl = {
 			"사용하면 30분간 잡 경험치가 25% 증가하는 전투교범. 전투교범의 새로운 지평을 열었다는 평을 받고 있다.",
 			"전투교범과 중복 사용 가능",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "JOB 전투교범 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3127,9 +4024,9 @@ tbl = {
 			"사용하면 30분간 잡 경험치가 25% 증가하는 전투교범. 전투교범의 새로운 지평을 열었다는 평을 받고 있다.",
 			"전투교범과 중복 사용 가능",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3142,10 +4039,10 @@ tbl = {
 			"",
 			"수많은 성의 좌표가 적혀있는 스크롤. 스크롤을 찢으면 해당 공성맵으로 이동이 가능하다.",
 			"\"노인슈반스타인\", \"호헨슈반가우\", \"뉘렌베르크\", \"로텐부르크\", \"욜브리거\", \"이스넬프\", \"베르겔\", \"멜세스데츠\", \"명정\", \"불영\", \"홍루\", \"죽림현\", \"스반힐트\", \"라즈리그스\", \"스쾨굴\", \"괸들\"",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "공성맵 텔레포트 10개 상자",
 		identifiedResourceName = "캐시상자_검정",
@@ -3154,10 +4051,10 @@ tbl = {
 			"",
 			"수많은 성의 좌표가 적혀있는 스크롤. 스크롤을 찢으면 해당 공성맵으로 이동이 가능하다.",
 			"\"노인슈반스타인\", \"호헨슈반가우\", \"뉘렌베르크\", \"로텐부르크\", \"욜브리거\", \"이스넬프\", \"베르겔\", \"멜세스데츠\", \"명정\", \"불영\", \"홍루\", \"죽림현\", \"스반힐트\", \"라즈리그스\", \"스쾨굴\", \"괸들\"",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3170,10 +4067,10 @@ tbl = {
 			"",
 			"수많은 성의 좌표가 적혀있는 스크롤. 스크롤을 찢으면 해당 공성맵으로 이동이 가능하다.",
 			"\"노인슈반스타인\", \"호헨슈반가우\", \"뉘렌베르크\", \"로텐부르크\", \"욜브리거\", \"이스넬프\", \"베르겔\", \"멜세스데츠\", \"명정\", \"불영\", \"홍루\", \"죽림현\", \"스반힐트\", \"라즈리그스\", \"스쾨굴\", \"괸들\"",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "공성맵 텔레포트 30개 상자",
 		identifiedResourceName = "캐시상자_검정",
@@ -3182,10 +4079,10 @@ tbl = {
 			"",
 			"수많은 성의 좌표가 적혀있는 스크롤. 스크롤을 찢으면 해당 공성맵으로 이동이 가능하다.",
 			"\"노인슈반스타인\", \"호헨슈반가우\", \"뉘렌베르크\", \"로텐부르크\", \"욜브리거\", \"이스넬프\", \"베르겔\", \"멜세스데츠\", \"명정\", \"불영\", \"홍루\", \"죽림현\", \"스반힐트\", \"라즈리그스\", \"스쾨굴\", \"괸들\"",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3198,10 +4095,10 @@ tbl = {
 			"",
 			"수많은 성의 좌표가 적혀있는 스크롤. 스크롤을 찢으면 해당 공성맵으로 이동이 가능하다.",
 			"\"마르돌\", \"시르\", \"호른\", \"게픈\", \"바나디스\", \"히민\", \"안들랑그\", \"비드블라인\", \"흘료드\", \"스카티르닐\"",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "공성맵 텔레포트Ⅱ 10개 상자",
 		identifiedResourceName = "캐시상자_검정",
@@ -3210,10 +4107,10 @@ tbl = {
 			"",
 			"수많은 성의 좌표가 적혀있는 스크롤. 스크롤을 찢으면 해당 공성맵으로 이동이 가능하다.",
 			"마르돌, \"시르\", \"호른\", \"게픈\", \"바나디스\", \"히민\", \"안들랑그\", \"비드블라인\", \"흘료드\", \"스카티르닐\"",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3226,10 +4123,10 @@ tbl = {
 			"",
 			"수많은 성의 좌표가 적혀있는 스크롤. 스크롤을 찢으면 해당 공성맵으로 이동이 가능하다.",
 			"\"마르돌\", \"시르\", \"호른\", \"게픈\", \"바나디스\", \"히민\", \"안들랑그\", \"비드블라인\", \"흘료드\", \"스카티르닐\"",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "공성맵 텔레포트Ⅱ 30개 상자",
 		identifiedResourceName = "캐시상자_검정",
@@ -3238,10 +4135,10 @@ tbl = {
 			"",
 			"수많은 성의 좌표가 적혀있는 스크롤. 스크롤을 찢으면 해당 공성맵으로 이동이 가능하다.",
 			"마르돌, \"시르\", \"호른\", \"게픈\", \"바나디스\", \"히민\", \"안들랑그\", \"비드블라인\", \"흘료드\", \"스카티르닐\"",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3251,22 +4148,22 @@ tbl = {
 		unidentifiedResourceName = "캐시상자_보라",
 		unidentifiedDescriptionName = {
 			"고밀도 브라디움이 5개 들어있는 상자.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"미드가르드 학자들이 연구를 거듭하여 밀도와 강도가 더욱 높아졌다. 무기 제련에는 더욱 까다로워진 것 같다.",
 			"- 제련도가 +10 이상인 무기를 제련 시, 실패하더라도 무기가 파괴되어 사라지지 않습니다! -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		identifiedDisplayName = "고밀도 브라디움 5개 상자",
 		identifiedResourceName = "캐시상자_보라",
 		identifiedDescriptionName = {
 			"고밀도 브라디움이 5개 들어있는 상자.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"미드가르드 학자들이 연구를 거듭하여 밀도와 강도가 더욱 높아졌다. 무기 제련에는 더욱 까다로워진 것 같다.",
 			"- 제련도가 +10 이상인 무기를 제련 시, 실패하더라도 무기가 파괴되어 사라지지 않습니다! -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		slotCount = 0,
@@ -3277,22 +4174,22 @@ tbl = {
 		unidentifiedResourceName = "캐시상자_보라",
 		unidentifiedDescriptionName = {
 			"고밀도 브라디움이 10개 들어있는 상자.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"미드가르드 학자들이 연구를 거듭하여 밀도와 강도가 더욱 높아졌다. 무기 제련에는 더욱 까다로워진 것 같다.",
 			"- 제련도가 +10 이상인 무기를 제련 시, 실패하더라도 무기가 파괴되어 사라지지 않습니다! -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		identifiedDisplayName = "고밀도 브라디움 10개 상자",
 		identifiedResourceName = "캐시상자_보라",
 		identifiedDescriptionName = {
 			"고밀도 브라디움이 10개 들어있는 상자.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"미드가르드 학자들이 연구를 거듭하여 밀도와 강도가 더욱 높아졌다. 무기 제련에는 더욱 까다로워진 것 같다.",
 			"- 제련도가 +10 이상인 무기를 제련 시, 실패하더라도 무기가 파괴되어 사라지지 않습니다! -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		slotCount = 0,
@@ -3303,22 +4200,22 @@ tbl = {
 		unidentifiedResourceName = "캐시상자_검정",
 		unidentifiedDescriptionName = {
 			"고밀도 카르늄이 5개 들어있는 상자.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"까마득하게 오랜시간 압축되어 밀도와 강도가 더욱 높아졌다. 방어구 제련에는 더욱 까다로워진 것 같다.",
 			"- 제련도가 +10 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		identifiedDisplayName = "고밀도 카르늄 5개 상자",
 		identifiedResourceName = "캐시상자_검정",
 		identifiedDescriptionName = {
 			"고밀도 카르늄이 5개 들어있는 상자.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"까마득하게 오랜시간 압축되어 밀도와 강도가 더욱 높아졌다. 방어구 제련에는 더욱 까다로워진 것 같다.",
 			"- 제련도가 +10 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		slotCount = 0,
@@ -3329,22 +4226,22 @@ tbl = {
 		unidentifiedResourceName = "캐시상자_검정",
 		unidentifiedDescriptionName = {
 			"고밀도 카르늄이 10개 들어있는 상자.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"까마득하게 오랜시간 압축되어 밀도와 강도가 더욱 높아졌다. 방어구 제련에는 더욱 까다로워진 것 같다.",
 			"- 제련도가 +10 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		identifiedDisplayName = "고밀도 카르늄 10개 상자",
 		identifiedResourceName = "캐시상자_검정",
 		identifiedDescriptionName = {
 			"고밀도 카르늄이 10개 들어있는 상자.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"까마득하게 오랜시간 압축되어 밀도와 강도가 더욱 높아졌다. 방어구 제련에는 더욱 까다로워진 것 같다.",
 			"- 제련도가 +10 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		slotCount = 0,
@@ -3359,9 +4256,9 @@ tbl = {
 			"소중한 장비들의 안전을 보장해주는 섬세한 광석.",
 			"- 제련도가 +7 이상인 무기를 제련 시, 실패하더라도 무기가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "고농축 오리데오콘 5개 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -3371,9 +4268,9 @@ tbl = {
 			"소중한 장비들의 안전을 보장해주는 섬세한 광석.",
 			"- 제련도가 +7 이상인 무기를 제련 시, 실패하더라도 무기가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3387,9 +4284,9 @@ tbl = {
 			"소중한 장비들의 안전을 보장해주는 섬세한 광석.",
 			"- 제련도가 +7 이상인 무기를 제련 시, 실패하더라도 무기가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "고농축 오리데오콘 10개 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -3399,9 +4296,9 @@ tbl = {
 			"소중한 장비들의 안전을 보장해주는 섬세한 광석.",
 			"- 제련도가 +7 이상인 무기를 제련 시, 실패하더라도 무기가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3415,9 +4312,9 @@ tbl = {
 			"소중한 장비들의 안전을 보장해주는 섬세한 광석.",
 			"- 제련도가 +7 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "고농축 에르늄 5개 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -3427,9 +4324,9 @@ tbl = {
 			"소중한 장비들의 안전을 보장해주는 섬세한 광석.",
 			"- 제련도가 +7 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3443,9 +4340,9 @@ tbl = {
 			"소중한 장비들의 안전을 보장해주는 섬세한 광석.",
 			"- 제련도가 +7 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "고농축 에르늄 10개 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -3455,9 +4352,9 @@ tbl = {
 			"소중한 장비들의 안전을 보장해주는 섬세한 광석.",
 			"- 제련도가 +7 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3472,9 +4369,9 @@ tbl = {
 			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
 			"버서크 상태에서는 효과가 발동하지 않는다.",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "신속한 생명수 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -3485,9 +4382,9 @@ tbl = {
 			"복용하면 10분간 3초마다 MHP의 6%를 회복한다.",
 			"버서크 상태에서는 효과가 발동하지 않는다.",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3504,7 +4401,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법캔디 10개 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -3517,7 +4414,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3533,12 +4430,12 @@ tbl = {
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "움발라의 혼 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -3550,12 +4447,12 @@ tbl = {
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF1^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3570,13 +4467,13 @@ tbl = {
 			"크리티컬율 + 30%",
 			"공격속도 증가(공격 후딜레이 8% 감소)",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777양손검^000000  공격 : ^777777204^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD양손검^000000  Attack: ^D80000204^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무라마사 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3587,13 +4484,13 @@ tbl = {
 			"크리티컬율 + 30%",
 			"공격속도 증가(공격 후딜레이 8% 감소)",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777양손검^000000  공격 : ^777777204^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD양손검^000000  Attack: ^D80000204^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3608,13 +4505,13 @@ tbl = {
 			"INT +10",
 			"LUK +10",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777검^000000      공격 : ^777777199^000000",
-			"Weight: ^7777770^000000     속성 : ^777777성^000000",
+			"Class: ^6A5ACD검^000000      Attack: ^D80000199^000000",
+			"Weight: ^0EAA0B0^000000     속성 : ^777777성^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "엑스칼리버 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3625,13 +4522,13 @@ tbl = {
 			"INT +10",
 			"LUK +10",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777검^000000      공격 : ^777777199^000000",
-			"Weight: ^7777770^000000     속성 : ^777777성^000000",
+			"Class: ^6A5ACD검^000000      Attack: ^D80000199^000000",
+			"Weight: ^0EAA0B0^000000     속성 : ^777777성^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3646,13 +4543,13 @@ tbl = {
 			"인간형 몬스터의 물리방어력 무시 / 인간형 적에 대한 내성 10%/ 악마형 적에 대한 피해 10% 증가",
 			"적 타격시 SP 3 회복, MaxSP +10%",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777단검^000000    공격 : ^777777129^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD단검^000000    Attack: ^D80000129^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자 장착가능^000000",
+			"Jobs: ^0EAA0B검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "컴뱃나이프 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3663,13 +4560,13 @@ tbl = {
 			"인간형 몬스터의 물리방어력 무시 / 인간형 적에 대한 내성 10%/ 악마형 적에 대한 피해 10% 증가",
 			"적 타격시 SP 3 회복, MaxSP +10%",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777단검^000000    공격 : ^777777129^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD단검^000000    Attack: ^D80000129^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자 장착가능^000000",
+			"Jobs: ^0EAA0B검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3683,13 +4580,13 @@ tbl = {
 			"상대에게 치명적인 일격을 줄 가능성이 높은 단검",
 			"크리티컬 + 90%",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777단검^000000      공격 : ^777777209^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD단검^000000      Attack: ^D80000209^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777마법사계열/소울링커 전용^000000",
+			"Jobs: ^0EAA0B마법사계열/소울링커 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "카운터단검 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3699,13 +4596,13 @@ tbl = {
 			"상대에게 치명적인 일격을 줄 가능성이 높은 단검",
 			"크리티컬 + 90%",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777단검^000000      공격 : ^777777209^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD단검^000000      Attack: ^D80000209^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777마법사계열/소울링커 전용^000000",
+			"Jobs: ^0EAA0B마법사계열/소울링커 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3720,13 +4617,13 @@ tbl = {
 			"적 타격시 SP - 1",
 			"STR + 10 ,INT + 4, MATK + 120",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777지팡이^000000  공격 : ^777777165^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD지팡이^000000  Attack: ^D80000165^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777마법사계열/복사계열/소울링커 전용^000000",
+			"Jobs: ^0EAA0B마법사계열/복사계열/소울링커 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마이트스태프 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3737,13 +4634,13 @@ tbl = {
 			"적 타격시 SP - 1",
 			"STR + 10 ,INT + 4, MATK + 120",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777지팡이^000000  공격 : ^777777165^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD지팡이^000000  Attack: ^D80000165^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777마법사계열/복사계열/소울링커 전용^000000",
+			"Jobs: ^0EAA0B마법사계열/복사계열/소울링커 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3759,13 +4656,13 @@ tbl = {
 			"STR + 10, 3레벨의 힐 사용가능",
 			"악마족 몬스터에게 3%의 추가 데미지, 이동속도 증가",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777도끼^000000    공격 : ^777777229^000000",
-			"Weight: ^7777770^000000     속성 : ^777777성^000000",
+			"Class: ^6A5ACD도끼^000000    Attack: ^D80000229^000000",
+			"Weight: ^0EAA0B0^000000     속성 : ^777777성^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "라이트엡실론 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3777,13 +4674,13 @@ tbl = {
 			"STR + 10, 3레벨의 힐 사용가능",
 			"악마족 몬스터에게 3%의 추가 데미지, 이동속도 증가",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777도끼^000000    공격 : ^777777229^000000",
-			"Weight: ^7777770^000000     속성 : ^777777성^000000",
+			"Class: ^6A5ACD도끼^000000    Attack: ^D80000229^000000",
+			"Weight: ^0EAA0B0^000000     속성 : ^777777성^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3797,13 +4694,13 @@ tbl = {
 			"공성전에서 사용하는, 대형 활로 원래 성벽 및 성문 파괴용이었으나 크기와 데미지를 줄여 장착가능하게 재탄생하게 된 활.",
 			"원거리 공격시 데미지 20% 증가",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777활^000000      공격 : ^777777194^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD활^000000      Attack: ^D80000194^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777헌터/바드/댄서 장착가능^000000",
+			"Jobs: ^0EAA0B헌터/바드/댄서 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "발리스타 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3813,13 +4710,13 @@ tbl = {
 			"공성전에서 사용하는, 대형 활로 원래 성벽 및 성문 파괴용이었으나 크기와 데미지를 줄여 장착가능하게 재탄생하게 된 활.",
 			"원거리 공격시 데미지 20% 증가",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777활^000000      공격 : ^777777194^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD활^000000      Attack: ^D80000194^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777헌터/바드/댄서 장착가능^000000",
+			"Jobs: ^0EAA0B헌터/바드/댄서 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3833,13 +4730,13 @@ tbl = {
 			"대현자가 자신의 깨달음을 일기 형식으로 적어 놓은 책.",
 			"MATK + 140, 공격속도 증가.(공격 후딜레이 5% 감소)",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777책^000000      공격 : ^777777135^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD책^000000      Attack: ^D80000135^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777프리스트/세이지/권성 장착가능^000000",
+			"Jobs: ^0EAA0B프리스트/세이지/권성 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "현자의 일기 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3849,13 +4746,13 @@ tbl = {
 			"대현자가 자신의 깨달음을 일기 형식으로 적어 놓은 책.",
 			"MATK + 140, 공격속도 증가.(공격 후딜레이 5% 감소)",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777책^000000      공격 : ^777777135^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD책^000000      Attack: ^D80000135^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777프리스트/세이지/권성 장착가능^000000",
+			"Jobs: ^0EAA0B프리스트/세이지/권성 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3869,13 +4766,13 @@ tbl = {
 			"먼 옛날 신이 인간에게 선사했다는 검. 이 검을 손에 쥐면 파괴적인 충동을 느끼게 된다.",
 			"MATK + 98",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777단검^000000      공격 : ^777777120^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD단검^000000      Attack: ^D80000120^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777771^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777닌자전용^000000",
+			"Jobs: ^0EAA0B닌자전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아슈라 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3885,13 +4782,13 @@ tbl = {
 			"먼 옛날 신이 인간에게 선사했다는 검. 이 검을 손에 쥐면 파괴적인 충동을 느끼게 된다.",
 			"MATK + 98",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777단검^000000      공격 : ^777777120^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD단검^000000      Attack: ^D80000120^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777771^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777닌자전용^000000",
+			"Jobs: ^0EAA0B닌자전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3905,12 +4802,12 @@ tbl = {
 			"옷등의 천에 장식하여 발랄함을 한껏 돋보이게 만들어주는 장식물",
 			"AGI + 4.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      Weight: ^7777770^000000",
+			"Class: ^6A5ACD악세사리^000000",
+			"Defense: ^0000FF0^000000      Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777노비스계열을 제외한 전직업 장착가능^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "브로치 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3920,12 +4817,12 @@ tbl = {
 			"옷등의 천에 장식하여 발랄함을 한껏 돋보이게 만들어주는 장식물",
 			"AGI + 4.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      Weight: ^7777770^000000",
+			"Class: ^6A5ACD악세사리^000000",
+			"Defense: ^0000FF0^000000      Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777노비스계열을 제외한 전직업 장착가능^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3939,12 +4836,12 @@ tbl = {
 			"일종의 마법적인 능력을 발휘하여 착용자를 보호하고 그 피해를 격감시켜주는 마법의 반지",
 			"DEF + 8 , MDEF + 8",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      Weight: ^7777770^000000",
+			"Class: ^6A5ACD악세사리^000000",
+			"Defense: ^0000FF0^000000      Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777노비스계열을 제외한 전직업 장착가능^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "세이프티링 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -3954,12 +4851,12 @@ tbl = {
 			"일종의 마법적인 능력을 발휘하여 착용자를 보호하고 그 피해를 격감시켜주는 마법의 반지",
 			"DEF + 8 , MDEF + 8",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      Weight: ^7777770^000000",
+			"Class: ^6A5ACD악세사리^000000",
+			"Defense: ^0000FF0^000000      Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777노비스계열을 제외한 전직업 장착가능^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -3974,11 +4871,11 @@ tbl = {
 			"이동속도 증가.",
 			"공격속도 증가(공격 후딜레이 5% 감소). 변동 캐스팅 시간이 5% 감소.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777776^000000",
-			"위치 : ^777777상단^000000",
-			"장착 : ^777777전직업 장착^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF6^000000",
+			"Location: ^6A5ACD상단^000000",
+			"Jobs: ^0EAA0B전직업 장착^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "페코페코 머리띠 상자",
 		identifiedResourceName = "포링상자",
@@ -3989,11 +4886,11 @@ tbl = {
 			"이동속도 증가.",
 			"공격속도 증가(공격 후딜레이 5% 감소). 변동 캐스팅 시간이 5% 감소.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777776^000000",
-			"위치 : ^777777상단^000000",
-			"장착 : ^777777전직업 장착^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF6^000000",
+			"Location: ^6A5ACD상단^000000",
+			"Jobs: ^0EAA0B전직업 장착^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4008,13 +4905,13 @@ tbl = {
 			"인간형 몬스터에게 40%의 추가데미지",
 			"물리공격 시 더블어택 5LV(도둑계열은 배운레벨만큼) 발동.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777검^000000      공격 : ^777777148^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD검^000000      Attack: ^D80000148^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "네이건 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -4025,13 +4922,13 @@ tbl = {
 			"인간형 몬스터에게 40%의 추가데미지",
 			"물리공격 시 더블어택 5LV(도둑계열은 배운레벨만큼) 발동.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777검^000000      공격 : ^777777148^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD검^000000      Attack: ^D80000148^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4046,13 +4943,13 @@ tbl = {
 			"상대방의 방어력 무시. 보스에게는 통하지 않는다.",
 			"중형, 대형 적에게 20%의 추가 데미지",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777창^000000      공격 : ^777777149^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD창^000000      Attack: ^D80000149^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "꼬챙이 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -4063,13 +4960,13 @@ tbl = {
 			"상대방의 방어력 무시. 보스에게는 통하지 않는다.",
 			"중형, 대형 적에게 20%의 추가 데미지",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777창^000000      공격 : ^777777149^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD창^000000      Attack: ^D80000149^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4083,13 +4980,13 @@ tbl = {
 			"둔기가 아니라 철추라고 불려도 될 정도로 거대한 머리를 갖고 있는 초대형 둔기",
 			"언데드, 악마형 몬스터에게 각각 40% 추가데미지, 인간형 적에게 30%추가데미지.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777둔기^000000    공격 : ^777777193^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACDMace^000000    Attack: ^D80000193^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777복사계열 전용^000000",
+			"Jobs: ^0EAA0B복사계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쿼드릴 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -4099,13 +4996,13 @@ tbl = {
 			"둔기가 아니라 철추라고 불려도 될 정도로 거대한 머리를 갖고 있는 초대형 둔기",
 			"언데드, 악마형 몬스터에게 각각 40% 추가데미지, 인간형 적에게 30%추가데미지.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777둔기^000000    공격 : ^777777193^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACDMace^000000    Attack: ^D80000193^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777복사계열 전용^000000",
+			"Jobs: ^0EAA0B복사계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4120,13 +5017,13 @@ tbl = {
 			"물리 공격시 오토스펠 파이어볼트 5레벨을 낮은확률로 시전.",
 			"INT + 2, 파이어볼트 5레벨 시전가능.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777검^000000      공격 : ^777777120^000000",
-			"Weight: ^7777770^000000      속성 : ^777777화^000000",
+			"Class: ^6A5ACD검^000000      Attack: ^D80000120^000000",
+			"Weight: ^0EAA0B0^000000      속성 : ^777777화^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "화이어 브랜드 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -4137,13 +5034,13 @@ tbl = {
 			"물리 공격시 오토스펠 파이어볼트 5레벨을 낮은확률로 시전.",
 			"INT + 2, 파이어볼트 5레벨 시전가능.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777검^000000      공격 : ^777777120^000000",
-			"Weight: ^7777770^000000      속성 : ^777777화^000000",
+			"Class: ^6A5ACD검^000000      Attack: ^D80000120^000000",
+			"Weight: ^0EAA0B0^000000      속성 : ^777777화^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열 전용^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4157,11 +5054,11 @@ tbl = {
 			"가죽을 재료로 하여 만들어진 나비모양의 검은 가면으로 바라보고 있노라면 야릇한 느낌이 드는 것은 어쩔 수 없다",
 			"인간형 적에게 7% 추가 대미지.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777771^000000",
-			"위치 : ^777777중단^000000    Weight: ^7777770^000000",
-			"장착 : ^777777노비스계열을 제외한 전직업 장착가능^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF1^000000",
+			"Location: ^6A5ACD중단^000000    Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "나비 가면 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -4171,11 +5068,11 @@ tbl = {
 			"가죽을 재료로 하여 만들어진 나비모양의 검은 가면으로 바라보고 있노라면 야릇한 느낌이 드는 것은 어쩔 수 없다",
 			"인간형 적에게 7% 추가 대미지.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777771^000000",
-			"위치 : ^777777중단^000000    Weight: ^7777770^000000",
-			"장착 : ^777777노비스계열을 제외한 전직업 장착가능^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF1^000000",
+			"Location: ^6A5ACD중단^000000    Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4189,12 +5086,12 @@ tbl = {
 			"진정한 오크의 용자에게만 주어지는 투구로 오크족 사이에서 가장 용맹하고 위대한 오크라는 증거임에 틀림없다.",
 			"STR + 5, VIT + 3.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^77777710^000000",
-			"위치 : ^777777상중단^000000    Weight: ^7777770^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF10^000000",
+			"Location: ^6A5ACD상중단^000000    Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777노비스계열을 제외한 모든직업^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 모든직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "오크히어로의 투구 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -4204,12 +5101,12 @@ tbl = {
 			"진정한 오크의 용자에게만 주어지는 투구로 오크족 사이에서 가장 용맹하고 위대한 오크라는 증거임에 틀림없다.",
 			"STR + 5, VIT + 3.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^77777710^000000",
-			"위치 : ^777777상중단^000000    Weight: ^7777770^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF10^000000",
+			"Location: ^6A5ACD상중단^000000    Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777노비스계열을 제외한 모든직업^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 모든직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4223,12 +5120,12 @@ tbl = {
 			"머리위에 얹고 다닐수 있도록 만들어진 인형. 어디선가 고양이 울음소리가 들리거나 머리위에서 움직임이 느껴지거나 하는건 기분탓이다.",
 			"MDEF + 15, 저주에 대한 내성 40%, 스턴에 대한 내성 10%.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777779^000000",
-			"위치 : ^777777상단^000000    Weight: ^7777770^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF9^000000",
+			"Location: ^6A5ACD상단^000000    Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777노비스계열을 제외한 모든직업^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 모든직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "늘어진 고양이 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -4238,12 +5135,12 @@ tbl = {
 			"머리위에 얹고 다닐수 있도록 만들어진 인형. 어디선가 고양이 울음소리가 들리거나 머리위에서 움직임이 느껴지거나 하는건 기분탓이다.",
 			"MDEF + 15, 저주에 대한 내성 40%, 스턴에 대한 내성 10%.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777779^000000",
-			"위치 : ^777777상단^000000    Weight: ^7777770^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF9^000000",
+			"Location: ^6A5ACD상단^000000    Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777노비스계열을 제외한 모든직업^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 모든직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4257,11 +5154,11 @@ tbl = {
 			"먼 옛날, 흉폭한 죄수의 움직임을 봉하기 위해, 족쇄에 달았던 철구. 그러나 그 죄수는 그 철구마저도 자신의 무기로서 사용했었다고 한다.",
 			"ATK + 30.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      Weight: ^7777770^000000",
-			"장착 : ^777777노비스계열을 제외한 전직업 장착가능^000000",
+			"Class: ^6A5ACD악세사리^000000",
+			"Defense: ^0000FF0^000000      Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "피묻은 철구 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -4271,11 +5168,11 @@ tbl = {
 			"먼 옛날, 흉폭한 죄수의 움직임을 봉하기 위해, 족쇄에 달았던 철구. 그러나 그 죄수는 그 철구마저도 자신의 무기로서 사용했었다고 한다.",
 			"ATK + 30.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      Weight: ^7777770^000000",
-			"장착 : ^777777노비스계열을 제외한 전직업 장착가능^000000",
+			"Class: ^6A5ACD악세사리^000000",
+			"Defense: ^0000FF0^000000      Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B노비스계열을 제외한 전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4289,12 +5186,12 @@ tbl = {
 			"하키 마스크. 왠지 이 가면을 쓰면 손에 무기를 쥐어야 할 것 같은 충동이 일어난다.",
 			"인간형 몬스터에게 데미지 5% 증가.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777771^000000",
-			"위치 : ^777777중하단^000000    Weight: ^77777710^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF1^000000",
+			"Location: ^6A5ACD중하단^000000    Weight: ^0EAA0B10^000000",
 			"요구레벨 : ^77777750^000000",
-			"장착 : ^777777모든직업^000000",
+			"Jobs: ^0EAA0B모든직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "하키마스크 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -4304,12 +5201,12 @@ tbl = {
 			"하키 마스크. 왠지 이 가면을 쓰면 손에 무기를 쥐어야 할 것 같은 충동이 일어난다.",
 			"인간형 몬스터에게 데미지 5% 증가.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777771^000000",
-			"위치 : ^777777중하단^000000    Weight: ^77777710^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF1^000000",
+			"Location: ^6A5ACD중하단^000000    Weight: ^0EAA0B10^000000",
 			"요구레벨 : ^77777750^000000",
-			"장착 : ^777777모든직업^000000",
+			"Jobs: ^0EAA0B모든직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4323,12 +5220,12 @@ tbl = {
 			"상대방의 힘을 측정할 수 있는 장치. 마을 사람들을 측정하면 보통 5의 수치가 나온다고 한다.",
 			"몬스터 감정 1레벨 사용 가능.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777772^000000",
-			"위치 : ^777777중단^000000    Weight: ^77777710^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF2^000000",
+			"Location: ^6A5ACD중단^000000    Weight: ^0EAA0B10^000000",
 			"요구레벨 : ^77777735^000000",
-			"장착 : ^777777모든직업^000000",
+			"Jobs: ^0EAA0B모든직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "옵저버 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -4338,12 +5235,12 @@ tbl = {
 			"상대방의 힘을 측정할 수 있는 장치. 마을 사람들을 측정하면 보통 5의 수치가 나온다고 한다.",
 			"몬스터 감정 1레벨 사용 가능.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777투구^000000    방어 : ^7777772^000000",
-			"위치 : ^777777중단^000000    Weight: ^77777710^000000",
+			"Class: ^6A5ACDHeadgear^000000    Defense: ^0000FF2^000000",
+			"Location: ^6A5ACD중단^000000    Weight: ^0EAA0B10^000000",
 			"요구레벨 : ^77777735^000000",
-			"장착 : ^777777모든직업^000000",
+			"Jobs: ^0EAA0B모든직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4358,11 +5255,11 @@ tbl = {
 			"힐과 텔레포테이션 1레벨 사용 가능. 캐스팅이 끊어지지 않는다.",
 			"ALL STATUS + 1. 변동 캐스팅 시간이 10% 증가한다.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD악세사리^000000",
+			"Defense: ^0000FF0^000000      Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "올인원 반지 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -4373,11 +5270,11 @@ tbl = {
 			"힐과 텔레포테이션 1레벨 사용 가능. 캐스팅이 끊어지지 않는다.",
 			"ALL STATUS + 1. 변동 캐스팅 시간이 10% 증가한다.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD악세사리^000000",
+			"Defense: ^0000FF0^000000      Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4392,11 +5289,11 @@ tbl = {
 			"MHP + 800. 동빙되지 않는다.",
 			"무속성과 수속성을 제외한 속성 대미지 20% 감소. MDEF + 5",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777갑옷^000000    방어 : ^77777738^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACDArmor^000000    Defense: ^0000FF38^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "스피리츄얼 튜닉 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -4407,11 +5304,11 @@ tbl = {
 			"MHP + 800. 동빙되지 않는다.",
 			"무속성과 수속성을 제외한 속성 대미지 20% 감소. MDEF + 5",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777갑옷^000000    방어 : ^77777738^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACDArmor^000000    Defense: ^0000FF38^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4426,11 +5323,11 @@ tbl = {
 			"HP, SP 자동회복 불가. 장착 해제 시, SP 100 소실.",
 			"근접 물리 공격 및 마법 공격으로 몬스터를 죽일 시, 60의 HP와 6의 SP 회복.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777갑옷^000000    방어 : ^77777767^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACDArmor^000000    Defense: ^0000FF67^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "리큐퍼레이티브 아머 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -4441,11 +5338,11 @@ tbl = {
 			"HP, SP 자동회복 불가. 장착 해제 시, SP 100 소실.",
 			"근접 물리 공격 및 마법 공격으로 몬스터를 죽일 시, 60의 HP와 6의 SP 회복.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777갑옷^000000    방어 : ^77777767^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACDArmor^000000    Defense: ^0000FF67^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4460,11 +5357,11 @@ tbl = {
 			"모든 몬스터로부터 받는 대미지 20% 감소.",
 			"근접 물리 공격 대미지 1% 반사.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777방패^000000    방어 : ^777777140^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD방패^000000    Defense: ^0000FF140^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉘터 오브 레지스턴스 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -4475,11 +5372,11 @@ tbl = {
 			"모든 몬스터로부터 받는 대미지 20% 감소.",
 			"근접 물리 공격 대미지 1% 반사.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777방패^000000    방어 : ^777777140^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD방패^000000    Defense: ^0000FF140^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4493,11 +5390,11 @@ tbl = {
 			"바람의 정령의 가호가 깃든 깃털망토. 착용자를 위험으로부터 보호해 준다고 한다.",
 			"FLEE + 13, 무속성 대미지 13% 감소. 완전회피 + 1",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777걸칠것^000000  방어 : ^77777733^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD걸칠것^000000  Defense: ^0000FF33^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "실피드 망토 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -4507,11 +5404,11 @@ tbl = {
 			"바람의 정령의 가호가 깃든 깃털망토. 착용자를 위험으로부터 보호해 준다고 한다.",
 			"FLEE + 13, 무속성 대미지 13% 감소. 완전회피 + 1",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777걸칠것^000000  방어 : ^77777733^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD걸칠것^000000  Defense: ^0000FF33^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4526,11 +5423,11 @@ tbl = {
 			"MHP 17% 증가, MSP 8% 증가.",
 			"10초마다 HP가 20, SP가 3씩 회복된다.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777신발^000000    방어 : ^77777720^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD신발^000000    Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "리프레쉬 슈즈 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -4541,11 +5438,11 @@ tbl = {
 			"MHP 17% 증가, MSP 8% 증가.",
 			"10초마다 HP가 20, SP가 3씩 회복된다.",
 			"골드PC방에서 장착 시 All State + 1.",
-			"계열 : ^777777신발^000000    방어 : ^77777720^000000",
-			"Weight: ^7777770^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD신발^000000    Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4559,13 +5456,13 @@ tbl = {
 			"권총 특유의 연사력에 높은 명중률을 자랑하는 이 총은, 총기의 명가에서 거친 황야에서 자신의 총만을 믿고 모든 고난을 극복해낸 이름없는 건슬링거를 기리기 위해 만든 권총이다.",
 			"Agi 수치에 따라 Hit 및 공격속도 증가. 모든 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777리볼버^000000",
-			"공격 : ^777777100^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD리볼버^000000",
+			"Attack: ^D80000100^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
-			"장착 : ^777777건슬링거전용^000000",
+			"Jobs: ^0EAA0B건슬링거전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "황야의 무법자 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -4575,13 +5472,13 @@ tbl = {
 			"권총 특유의 연사력에 높은 명중률을 자랑하는 이 총은, 총기의 명가에서 거친 황야에서 자신의 총만을 믿고 모든 고난을 극복해낸 이름없는 건슬링거를 기리기 위해 만든 권총이다.",
 			"Agi 수치에 따라 Hit 및 공격속도 증가. 모든 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777리볼버^000000",
-			"공격 : ^777777100^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD리볼버^000000",
+			"Attack: ^D80000100^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
-			"장착 : ^777777건슬링거전용^000000",
+			"Jobs: ^0EAA0B건슬링거전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4595,13 +5492,13 @@ tbl = {
 			"라이플의 성능을 극대화한 명작. 아름다운 총신은 건슬링거의 마음을 한순간에 앗아가고 그 치명적인 성능은 단번에 적의 심장을 꿰뚫는다.",
 			"HIT+ 20, Cri+ 50, 모든 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777라이플^000000",
-			"공격 : ^777777170^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD라이플^000000",
+			"Attack: ^D80000170^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
-			"장착 : ^777777건슬링거전용^000000",
+			"Jobs: ^0EAA0B건슬링거전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "레버액션 라이플 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -4611,13 +5508,13 @@ tbl = {
 			"라이플의 성능을 극대화한 명작. 아름다운 총신은 건슬링거의 마음을 한순간에 앗아가고 그 치명적인 성능은 단번에 적의 심장을 꿰뚫는다.",
 			"HIT+ 20, Cri+ 50, 모든 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777라이플^000000",
-			"공격 : ^777777170^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD라이플^000000",
+			"Attack: ^D80000170^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
-			"장착 : ^777777건슬링거전용^000000",
+			"Jobs: ^0EAA0B건슬링거전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4631,12 +5528,12 @@ tbl = {
 			"손잡이가 십자가 모양으로 만들어진 심플한 형태의 대형 양손검.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777양손검^000000 공격 : ^777777220^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777나이트/크루세이더 전용^000000",
+			"Class: ^6A5ACD양손검^000000 Attack: ^D80000220^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B나이트/크루세이더 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "크레이모어 상자",
 		identifiedResourceName = "번호상자01",
@@ -4646,12 +5543,12 @@ tbl = {
 			"손잡이가 십자가 모양으로 만들어진 심플한 형태의 대형 양손검.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777양손검^000000 공격 : ^777777220^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777나이트/크루세이더 전용^000000",
+			"Class: ^6A5ACD양손검^000000 Attack: ^D80000220^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B나이트/크루세이더 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4665,12 +5562,12 @@ tbl = {
 			"여러 개의 날을 갖고 공격력을 극도로 강화한 병기.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777카타르^000000 공격 : ^777777200^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777어세신 전용^000000",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D80000200^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B어세신 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "자마다르 상자",
 		identifiedResourceName = "번호상자01",
@@ -4680,12 +5577,12 @@ tbl = {
 			"여러 개의 날을 갖고 공격력을 극도로 강화한 병기.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777카타르^000000 공격 : ^777777200^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777어세신 전용^000000",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D80000200^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B어세신 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4699,12 +5596,12 @@ tbl = {
 			"무게를 이용해 내려꽂힐때의 파괴력이 무시무시한 양손도끼.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777양손도끼^000000 공격 : ^777777220^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열^000000",
+			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000220^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "투핸드액스 상자",
 		identifiedResourceName = "번호상자01",
@@ -4714,12 +5611,12 @@ tbl = {
 			"무게를 이용해 내려꽂힐때의 파괴력이 무시무시한 양손도끼.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777양손도끼^000000 공격 : ^777777220^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열^000000",
+			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000220^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4733,12 +5630,12 @@ tbl = {
 			"마상돌격용으로 사용되어지는 긴 창.",
 			"소, 중, 대형 적에 대한 공격력 50% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777양손창^000000 공격 : ^777777220^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손창^000000 Attack: ^D80000220^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "랜스 상자",
 		identifiedResourceName = "번호상자01",
@@ -4748,12 +5645,12 @@ tbl = {
 			"마상돌격용으로 사용되어지는 긴 창.",
 			"소, 중, 대형 적에 대한 공격력 50% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777양손창^000000 공격 : ^777777220^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손창^000000 Attack: ^D80000220^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4767,12 +5664,12 @@ tbl = {
 			"오크부족이 사용하는 도끼.",
 			"소, 중, 대형 적에 대한 공격력 70% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777한손도끼^000000 공격 : ^777777110^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/상인계열/어쌔신^000000",
+			"Class: ^6A5ACD한손도끼^000000 Attack: ^D80000110^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/상인계열/어쌔신^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "오키쉬 액스 상자",
 		identifiedResourceName = "번호상자01",
@@ -4782,12 +5679,12 @@ tbl = {
 			"오크부족이 사용하는 도끼.",
 			"소, 중, 대형 적에 대한 공격력 70% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777한손도끼^000000 공격 : ^777777110^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/상인계열/어쌔신^000000",
+			"Class: ^6A5ACD한손도끼^000000 Attack: ^D80000110^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/상인계열/어쌔신^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4803,12 +5700,12 @@ tbl = {
 			"순수 럭 수치에 따라 크리율 추가로 증가.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777책^000000 공격 : ^777777145^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777770^000000",
-			"장착 : ^777777프리스트/세이지/권성 전용^000000",
+			"Class: ^6A5ACD책^000000 Attack: ^D80000145^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B프리스트/세이지/권성 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "대백과 사전 상자",
 		identifiedResourceName = "번호상자01",
@@ -4820,12 +5717,12 @@ tbl = {
 			"순수 럭 수치에 따라 크리율 추가로 증가.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777책^000000 공격 : ^777777145^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777770^000000",
-			"장착 : ^777777프리스트/세이지/권성 전용^000000",
+			"Class: ^6A5ACD책^000000 Attack: ^D80000145^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B0^000000",
+			"Jobs: ^0EAA0B프리스트/세이지/권성 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4839,12 +5736,12 @@ tbl = {
 			"손등부분을 딱딱한 장갑으로 덮어 주먹의 보호와 데미지의 향상이라는 장점을 살린 보호대.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777너클^000000 공격 : ^777777150^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777프리스트/몽크^000000",
+			"Class: ^6A5ACD너클^000000 Attack: ^D80000150^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B프리스트/몽크^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "피스트 상자",
 		identifiedResourceName = "번호상자01",
@@ -4854,12 +5751,12 @@ tbl = {
 			"손등부분을 딱딱한 장갑으로 덮어 주먹의 보호와 데미지의 향상이라는 장점을 살린 보호대.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777너클^000000 공격 : ^777777150^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777프리스트/몽크^000000",
+			"Class: ^6A5ACD너클^000000 Attack: ^D80000150^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B프리스트/몽크^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4873,12 +5770,12 @@ tbl = {
 			"현을 손으로 튕겨서 소리를 내는 현악기.",
 			"소, 중, 대형 적에 대한 공격력 40%증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777악기^000000 공격 : ^777777177^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777바드 전용^000000",
+			"Class: ^6A5ACDMusical Instrument^000000 Attack: ^D80000177^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B바드 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "기타 상자",
 		identifiedResourceName = "번호상자01",
@@ -4888,12 +5785,12 @@ tbl = {
 			"현을 손으로 튕겨서 소리를 내는 현악기.",
 			"소, 중, 대형 적에 대한 공격력 40%증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777악기^000000 공격 : ^777777177^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777바드 전용^000000",
+			"Class: ^6A5ACDMusical Instrument^000000 Attack: ^D80000177^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B바드 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4908,12 +5805,12 @@ tbl = {
 			"절대 손상되지 않는다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777단검^000000 공격 : ^777777153^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커^000000",
+			"Class: ^6A5ACD단검^000000 Attack: ^D80000153^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "다마스커스 상자",
 		identifiedResourceName = "번호상자01",
@@ -4924,12 +5821,12 @@ tbl = {
 			"절대 손상되지 않는다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777단검^000000 공격 : ^777777153^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커^000000",
+			"Class: ^6A5ACD단검^000000 Attack: ^D80000153^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4943,12 +5840,12 @@ tbl = {
 			"검날이 물결무늬를 이루고 있는 아름다운 검. 아름다운 외관에 비해 매우 잔인한 위력을 가지고 있다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777검^000000 공격 : ^777777185^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777나이트/크루세이더^000000",
+			"Class: ^6A5ACD검^000000 Attack: ^D80000185^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B나이트/크루세이더^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "프람베르그 상자",
 		identifiedResourceName = "번호상자01",
@@ -4958,12 +5855,12 @@ tbl = {
 			"검날이 물결무늬를 이루고 있는 아름다운 검. 아름다운 외관에 비해 매우 잔인한 위력을 가지고 있다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777검^000000 공격 : ^777777185^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777나이트/크루세이더^000000",
+			"Class: ^6A5ACD검^000000 Attack: ^D80000185^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B나이트/크루세이더^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4978,12 +5875,12 @@ tbl = {
 			"공격시 10% 확률로 적을 스턴에 걸리게 한다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777둔기^000000 공격 : ^777777175^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777복사계열 전용^000000",
+			"Class: ^6A5ACDMace^000000 Attack: ^D80000175^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B복사계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "스터너 상자",
 		identifiedResourceName = "번호상자01",
@@ -4994,12 +5891,12 @@ tbl = {
 			"공격시 10% 확률로 적을 스턴에 걸리게 한다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777둔기^000000 공격 : ^777777175^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777복사계열 전용^000000",
+			"Class: ^6A5ACDMace^000000 Attack: ^D80000175^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B복사계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5012,7 +5909,7 @@ tbl = {
 			"검은 머리가 파뿌리가 될 때까지, 평생 서로 아끼고 사랑할 것을 맹세한 서약서가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "혼인 서약서 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -5021,7 +5918,7 @@ tbl = {
 			"검은 머리가 파뿌리가 될 때까지, 평생 서로 아끼고 사랑할 것을 맹세한 서약서가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5035,13 +5932,13 @@ tbl = {
 			"수려한 외관을 가진 아름다운 활.",
 			"원거리 공격시 데미지 20% 증가.",
 			"골드PC방에서 장착 시 추가로, 물리공격시 낮은 확률로 오토스펠 더블 스트레이핑 2LV, ATK + 10, MATK + 10.",
-			"계열 : ^777777활^000000      공격 : ^777777190^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD활^000000      Attack: ^D80000190^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777헌터/바드/댄서 장착가능^000000",
+			"Jobs: ^0EAA0B헌터/바드/댄서 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "슈팅스타 상자",
 		identifiedResourceName = "번호상자01",
@@ -5051,13 +5948,13 @@ tbl = {
 			"수려한 외관을 가진 아름다운 활.",
 			"원거리 공격시 데미지 20% 증가.",
 			"골드PC방에서 장착 시 추가로, 물리공격시 낮은 확률로 오토스펠 더블 스트레이핑 2LV, ATK + 10, MATK + 10.",
-			"계열 : ^777777활^000000      공격 : ^777777190^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD활^000000      Attack: ^D80000190^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777헌터/바드/댄서 장착가능^000000",
+			"Jobs: ^0EAA0B헌터/바드/댄서 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5071,13 +5968,13 @@ tbl = {
 			"인간형 적에게 탁월한 능력을 보이는 검붉은 색을 띈 카타르.",
 			"인간형 적의 방어력 무시, 낮은 확률로 적에게 출혈.",
 			"골드PC방에서 장착 시 추가로, 적 사망 시 SP 1 회복, ATK + 10, MATK + 10.",
-			"계열 : ^777777카타르^000000 공격 : ^777777145^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D80000145^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777어세신 전용^000000",
+			"Jobs: ^0EAA0B어세신 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "블러디피어 상자",
 		identifiedResourceName = "번호상자01",
@@ -5087,13 +5984,13 @@ tbl = {
 			"인간형 적에게 탁월한 능력을 보이는 검붉은 색을 띈 카타르.",
 			"인간형 적의 방어력 무시, 낮은 확률로 적에게 출혈.",
 			"골드PC방에서 장착 시 추가로, 적 사망 시 SP 1 회복, ATK + 10, MATK + 10.",
-			"계열 : ^777777카타르^000000 공격 : ^777777145^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D80000145^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777어세신 전용^000000",
+			"Jobs: ^0EAA0B어세신 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5111,13 +6008,13 @@ tbl = {
 			"골드 PC방에서 사용 시 추가로, 힐 사용시 낮은 확률로 오토스펠 힐.",
 			"힐, 생츄어리 스킬의 회복력이 추가로 5% 증가한다.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777지팡이^000000  공격 : ^77777710^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD지팡이^000000  Attack: ^D8000010^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777복사 계열 전용^000000",
+			"Jobs: ^0EAA0B복사 계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000^",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "힐링 스태프 상자",
 		identifiedResourceName = "번호상자01",
@@ -5131,13 +6028,13 @@ tbl = {
 			"골드 PC방에서 사용 시 추가로, 힐 사용시 낮은 확률로 오토스펠 힐.",
 			"힐, 생츄어리 스킬의 회복력이 추가로 5% 증가한다.",
 			"골드PC방에서 장착 시 ATK + 10, MATK + 10.",
-			"계열 : ^777777지팡이^000000  공격 : ^77777710^000000",
-			"Weight: ^7777770^000000",
+			"Class: ^6A5ACD지팡이^000000  Attack: ^D8000010^000000",
+			"Weight: ^0EAA0B0^000000",
 			"무기레벨 : ^7777773^000000",
 			"요구레벨 : ^7777771^000000",
-			"장착 : ^777777복사 계열 전용^000000",
+			"Jobs: ^0EAA0B복사 계열 전용^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000^",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5152,12 +6049,12 @@ tbl = {
 			"운이 따를 것 같다.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "입에 문 네잎클로버 상자",
 		identifiedResourceName = "캐시상자_녹색",
@@ -5168,12 +6065,12 @@ tbl = {
 			"운이 따를 것 같다.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5188,12 +6085,12 @@ tbl = {
 			"운이 따를 것 같다.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "입에 문 네잎클로버 상자Ⅱ",
 		identifiedResourceName = "캐시상자_녹색",
@@ -5204,12 +6101,12 @@ tbl = {
 			"운이 따를 것 같다.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5224,12 +6121,12 @@ tbl = {
 			"운이 따를 것 같다.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "입에 문 네잎클로버 상자Ⅲ",
 		identifiedResourceName = "캐시상자_녹색",
@@ -5240,12 +6137,12 @@ tbl = {
 			"운이 따를 것 같다.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5260,12 +6157,12 @@ tbl = {
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "입에 문 풍선껌 상자",
 		identifiedResourceName = "캐시상자_녹색",
@@ -5276,12 +6173,12 @@ tbl = {
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5296,12 +6193,12 @@ tbl = {
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "입에 문 풍선껌 상자Ⅱ",
 		identifiedResourceName = "캐시상자_녹색",
@@ -5312,12 +6209,12 @@ tbl = {
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5332,12 +6229,12 @@ tbl = {
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "입에 문 풍선껌 상자Ⅲ",
 		identifiedResourceName = "캐시상자_녹색",
@@ -5348,12 +6245,12 @@ tbl = {
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK + 5, MATK + 5, MDEF + 2.",
 			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5367,12 +6264,12 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK + 30, HP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "대못박힌 스카프 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -5382,12 +6279,12 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK + 30, HP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5401,12 +6298,12 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK + 30, HP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "대못박힌 스카프 상자Ⅱ",
 		identifiedResourceName = "오래된보라상자",
@@ -5416,12 +6313,12 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK + 30, HP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5435,12 +6332,12 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK + 30, HP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "대못박힌 스카프 상자Ⅲ",
 		identifiedResourceName = "오래된보라상자",
@@ -5450,12 +6347,12 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK + 30, HP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, 원거리 물리 공격력 + 2%, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5469,12 +6366,12 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK + 30, MSP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무지개 스카프 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -5484,12 +6381,12 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK + 30, MSP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5503,12 +6400,12 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK + 30, MSP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무지개 스카프 상자Ⅱ",
 		identifiedResourceName = "오래된보라상자",
@@ -5518,12 +6415,12 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK + 30, MSP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5537,12 +6434,12 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK + 30, MSP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무지개 스카프 상자Ⅲ",
 		identifiedResourceName = "오래된보라상자",
@@ -5552,12 +6449,12 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK + 30, MSP - 2%.",
 			"골드 PC방에서 사용 시, 추가로 MSP + 2%, 변동캐스팅 시간 2% 단축, All State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5572,12 +6469,12 @@ tbl = {
 			"INT + 1, MDEF + 2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT + 2, INT 제외 나머지 State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777중단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDMiddle^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "생명의 리본 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -5588,12 +6485,12 @@ tbl = {
 			"INT + 1, MDEF + 2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT + 2, INT 제외 나머지 State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777중단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDMiddle^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5608,12 +6505,12 @@ tbl = {
 			"INT + 1, MDEF + 2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT + 2, INT 제외 나머지 State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777중단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDMiddle^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "생명의 리본 상자Ⅱ",
 		identifiedResourceName = "오래된보라상자",
@@ -5624,12 +6521,12 @@ tbl = {
 			"INT + 1, MDEF + 2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT + 2, INT 제외 나머지 State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777중단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDMiddle^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5644,12 +6541,12 @@ tbl = {
 			"INT + 1, MDEF + 2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT + 2, INT 제외 나머지 State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777중단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDMiddle^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "생명의 리본 상자Ⅲ",
 		identifiedResourceName = "오래된보라상자",
@@ -5660,12 +6557,12 @@ tbl = {
 			"INT + 1, MDEF + 2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT + 2, INT 제외 나머지 State + 1.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777중단 ^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDMiddle^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5679,7 +6576,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "러브앤젤 마법가루 상자",
 		identifiedResourceName = "러브앤젤상자",
@@ -5689,7 +6586,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5703,7 +6600,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "러브앤젤 마법가루 상자 30일",
 		identifiedResourceName = "러브앤젤상자",
@@ -5713,7 +6610,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5727,7 +6624,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "스퀴럴 마법가루 상자",
 		identifiedResourceName = "스퀴럴상자",
@@ -5737,7 +6634,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5751,7 +6648,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "스퀴럴 마법가루 상자 30일",
 		identifiedResourceName = "스퀴럴상자",
@@ -5761,7 +6658,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5775,7 +6672,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "그림일기 마법가루 상자",
 		identifiedResourceName = "그림일기상자",
@@ -5785,7 +6682,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5799,7 +6696,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "그림일기 마법가루 30일 상자",
 		identifiedResourceName = "그림일기상자",
@@ -5809,7 +6706,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5823,7 +6720,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "미니하트 마법가루 상자",
 		identifiedResourceName = "미니하트상자",
@@ -5833,7 +6730,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5847,7 +6744,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "미니하트 마법가루 30일 상자",
 		identifiedResourceName = "미니하트상자",
@@ -5857,7 +6754,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5871,7 +6768,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "새내기 마법가루 상자",
 		identifiedResourceName = "새내기상자",
@@ -5881,7 +6778,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5895,7 +6792,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "새내기 마법가루 30일 상자",
 		identifiedResourceName = "새내기상자",
@@ -5905,7 +6802,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5919,7 +6816,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "꼬꼬마 마법가루 상자",
 		identifiedResourceName = "꼬꼬마상자",
@@ -5929,7 +6826,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5943,7 +6840,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "꼬꼬마 마법가루 30일 상자",
 		identifiedResourceName = "꼬꼬마상자",
@@ -5953,7 +6850,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5967,7 +6864,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법의 성 마법가루 상자",
 		identifiedResourceName = "마법의성상자",
@@ -5977,7 +6874,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -5991,7 +6888,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "마법의 성 마법가루 30일 상자",
 		identifiedResourceName = "마법의성상자",
@@ -6001,7 +6898,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6015,7 +6912,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "짱구 마법가루 상자",
 		identifiedResourceName = "짱구상자",
@@ -6025,7 +6922,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6039,7 +6936,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "짱구 마법가루 30일 상자",
 		identifiedResourceName = "짱구상자",
@@ -6049,7 +6946,7 @@ tbl = {
 			"머리 위에 뜨는 대화와, 채팅방 제목, 노점 제목에만 효과가 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6062,13 +6959,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 가드.",
 			"MHP + 3%",
-			"계열 : ^777777방패^000000 방어 : ^77777725^000000",
-			"Weight: ^77777715^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACD방패^000000 Defense: ^0000FF25^000000",
+			"Weight: ^0EAA0B15^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 가드 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6077,13 +6974,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 가드.",
 			"MHP + 3%",
-			"계열 : ^777777방패^000000 방어 : ^77777725^000000",
-			"Weight: ^77777715^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACD방패^000000 Defense: ^0000FF25^000000",
+			"Weight: ^0EAA0B15^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6096,13 +6993,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 버클러.",
 			"MHP + 3%",
-			"계열 : ^777777방패^000000 방어 : ^77777745^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/복사계열/상인계열/도둑계열/바드,댄서^000000",
+			"Class: ^6A5ACD방패^000000 Defense: ^0000FF45^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/복사계열/상인계열/도둑계열/바드,댄서^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 버클러 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6111,13 +7008,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 버클러.",
 			"MHP + 3%",
-			"계열 : ^777777방패^000000 방어 : ^77777745^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/복사계열/상인계열/도둑계열/바드,댄서^000000",
+			"Class: ^6A5ACD방패^000000 Defense: ^0000FF45^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/복사계열/상인계열/도둑계열/바드,댄서^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6130,13 +7027,13 @@ tbl = {
 			"^000000^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 쉴드.",
 			"MHP + 3%",
-			"계열 : ^777777방패^000000 방어 : ^77777765^000000",
-			"Weight: ^77777765^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD방패^000000 Defense: ^0000FF65^000000",
+			"Weight: ^0EAA0B65^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 쉴드 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6145,13 +7042,13 @@ tbl = {
 			"^000000^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 쉴드.",
 			"MHP + 3%",
-			"계열 : ^777777방패^000000 방어 : ^77777765^000000",
-			"Weight: ^77777765^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD방패^000000 Defense: ^0000FF65^000000",
+			"Weight: ^0EAA0B65^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6164,13 +7061,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 슈즈.",
 			"MHP + 3%",
-			"계열 : ^777777신발^000000 방어 : ^77777715^000000",
-			"Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF15^000000",
+			"Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 슈즈 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6179,13 +7076,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 슈즈.",
 			"MHP + 3%",
-			"계열 : ^777777신발^000000 방어 : ^77777715^000000",
-			"Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF15^000000",
+			"Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6198,13 +7095,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 부츠.",
 			"MHP + 3%",
-			"계열 : ^777777신발^000000 방어 : ^77777721^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열/궁수계열/태권계열/건너^000000",
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF21^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열/궁수계열/태권계열/건너^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 부츠 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6213,13 +7110,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 부츠.",
 			"MHP + 3%",
-			"계열 : ^777777신발^000000 방어 : ^77777721^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열/궁수계열/태권계열/건너^000000",
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF21^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열/궁수계열/태권계열/건너^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6232,13 +7129,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 그리브.",
 			"MHP + 3%",
-			"계열 : ^777777신발^000000 방어 : ^77777732^000000",
-			"Weight: ^77777740^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777나이트/크루세이더^000000",
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF32^000000",
+			"Weight: ^0EAA0B40^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B나이트/크루세이더^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 그리브 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6247,13 +7144,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 그리브.",
 			"MHP + 3%",
-			"계열 : ^777777신발^000000 방어 : ^77777732^000000",
-			"Weight: ^77777740^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777나이트/크루세이더^000000",
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF32^000000",
+			"Weight: ^0EAA0B40^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B나이트/크루세이더^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6266,13 +7163,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 후드.",
 			"MHP + 3%",
-			"계열 : ^777777걸칠것^000000 방어 : ^7777779^000000",
-			"Weight: ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF9^000000",
+			"Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 후드 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6281,13 +7178,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 후드.",
 			"MHP + 3%",
-			"계열 : ^777777걸칠것^000000 방어 : ^7777779^000000",
-			"Weight: ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF9^000000",
+			"Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6300,13 +7197,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 머플러.",
 			"MHP + 3%",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777713^000000",
-			"Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF13^000000",
+			"Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 머플러 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6315,13 +7212,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 머플러.",
 			"MHP + 3%",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777713^000000",
-			"Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF13^000000",
+			"Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6334,13 +7231,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 망토.",
 			"MHP + 3%",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777718^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열/태권계열^000000",
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF18^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열/태권계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 망토 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6349,13 +7246,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 망토.",
 			"MHP + 3%",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777718^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열/태권계열^000000",
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF18^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열/태권계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6368,13 +7265,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 클립.",
 			"MHP + 3%. MSP + 30.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"Weight: ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACD악세사리^000000 Defense: ^0000FF0^000000",
+			"Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 클립 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6383,13 +7280,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 클립.",
 			"MHP + 3%. MSP + 30.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"Weight: ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACD악세사리^000000 Defense: ^0000FF0^000000",
+			"Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6402,13 +7299,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 어드벤쳐슈츠.",
 			"MHP + 3%",
-			"계열 : ^777777갑옷^000000 방어 : ^77777725^000000",
-			"Weight: ^77777715^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF25^000000",
+			"Weight: ^0EAA0B15^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 어드벤쳐 슈츠 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6417,13 +7314,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 어드벤쳐슈츠.",
 			"MHP + 3%",
-			"계열 : ^777777갑옷^000000 방어 : ^77777725^000000",
-			"Weight: ^77777715^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF25^000000",
+			"Weight: ^0EAA0B15^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6436,13 +7333,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 롱코트.",
 			"MHP + 3%",
-			"계열 : ^777777갑옷^000000 방어 : ^77777747^000000",
-			"Weight: ^77777760^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF47^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 롱 코트 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6451,13 +7348,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 롱코트.",
 			"MHP + 3%",
-			"계열 : ^777777갑옷^000000 방어 : ^77777747^000000",
-			"Weight: ^77777760^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF47^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6470,13 +7367,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 세인트로브.",
 			"MHP + 3%, MDEF + 5.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777755^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777복사계열/상인계열^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF55^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B복사계열/상인계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 세인트 로브 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6485,13 +7382,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 세인트로브.",
 			"MHP + 3%, MDEF + 5.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777755^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777복사계열/상인계열^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF55^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B복사계열/상인계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6504,13 +7401,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 타이즈.",
 			"MHP + 3%, DEX + 1.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777732^000000",
-			"Weight: ^77777725^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777궁수계열 전용^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF32^000000",
+			"Weight: ^0EAA0B25^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B궁수계열 전용^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 타이즈 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6519,13 +7416,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 타이즈.",
 			"MHP + 3%, DEX + 1.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777732^000000",
-			"Weight: ^77777725^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777궁수계열 전용^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF32^000000",
+			"Weight: ^0EAA0B25^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B궁수계열 전용^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6538,13 +7435,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 씨프클로스.",
 			"MHP + 3%, AGI + 1.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777745^000000",
-			"Weight: ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777도둑계열 전용^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF45^000000",
+			"Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B도둑계열 전용^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 씨프클로스 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6553,13 +7450,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 씨프클로스.",
 			"MHP + 3%, AGI + 1.",
-			"계열 : ^777777갑옷^000000 방어 : ^77777745^000000",
-			"Weight: ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777도둑계열 전용^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF45^000000",
+			"Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B도둑계열 전용^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6572,13 +7469,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 메일.",
 			"MHP + 3%",
-			"계열 : ^777777갑옷^000000 방어 : ^77777760^000000",
-			"Weight: ^777777165^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열 전용^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF60^000000",
+			"Weight: ^0EAA0B165^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열 전용^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 메일 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6587,13 +7484,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 메일.",
 			"MHP + 3%",
-			"계열 : ^777777갑옷^000000 방어 : ^77777760^000000",
-			"Weight: ^777777165^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열/도둑계열 전용^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF60^000000",
+			"Weight: ^0EAA0B165^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열/도둑계열 전용^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6606,13 +7503,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 포멀 드레스.",
 			"MHP + 3%",
-			"계열 : ^777777갑옷^000000 방어 : ^77777745^000000",
-			"Weight: ^77777715^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF45^000000",
+			"Weight: ^0EAA0B15^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 포멀 드레스 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6621,13 +7518,13 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 포멀 드레스.",
 			"MHP + 3%",
-			"계열 : ^777777갑옷^000000 방어 : ^77777745^000000",
-			"Weight: ^77777715^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDArmor^000000 Defense: ^0000FF45^000000",
+			"Weight: ^0EAA0B15^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6640,12 +7537,12 @@ tbl = {
 			"",
 			"방랑하는 나그네가 풀밭에 누워 입에 물고있어야 그럴싸한 아이템.",
 			"MATK + 10, 모든 고정캐스팅 0.1초 감소.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강아지 풀 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6654,12 +7551,12 @@ tbl = {
 			"",
 			"방랑하는 나그네가 풀밭에 누워 입에 물고있어야 그럴싸한 아이템.",
 			"MATK + 10, 모든 고정캐스팅 0.1초 감소.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000 Weight: ^77777710^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000 Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6671,7 +7568,7 @@ tbl = {
 			"신비한 푸른 빛을 띠는 오래된 모자 상자.",
 			"22종의 투구 중 어떤 투구를 얻게 될 지 알 수 없다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "오래된 모자 상자",
 		identifiedResourceName = "오래된파란상자",
@@ -6679,7 +7576,7 @@ tbl = {
 			"신비한 푸른 빛을 띠는 오래된 모자 상자.",
 			"22종의 투구 중 어떤 투구를 얻게 될 지 알 수 없다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6692,7 +7589,7 @@ tbl = {
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -6701,7 +7598,7 @@ tbl = {
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6715,7 +7612,7 @@ tbl = {
 			"데비루치로 변신한 시간 동안 ASPD + 1, HIT + 5.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "변신 스크롤(데비루치)10개 상자",
 		identifiedResourceName = "테이밍세트",
@@ -6725,7 +7622,7 @@ tbl = {
 			"데비루치로 변신한 시간 동안 ASPD + 1, HIT + 5.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6739,7 +7636,7 @@ tbl = {
 			"변신한 시간 동안 활 공격력 25% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "변신 스크롤(레이아쳐)10개 상자",
 		identifiedResourceName = "테이밍세트",
@@ -6749,7 +7646,7 @@ tbl = {
 			"변신한 시간 동안 활 공격력 25% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6763,7 +7660,7 @@ tbl = {
 			"변신한 시간 동안 활 공격력 25% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "변신 스크롤(마브카)10개 상자",
 		identifiedResourceName = "테이밍세트",
@@ -6773,7 +7670,7 @@ tbl = {
 			"변신한 시간 동안 활 공격력 25% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6787,7 +7684,7 @@ tbl = {
 			"변신한 시간 동안 MATK + 25 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "변신 스크롤(마르두크)10개 상자",
 		identifiedResourceName = "테이밍세트",
@@ -6797,7 +7694,7 @@ tbl = {
 			"변신한 시간 동안 MATK + 25 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6811,7 +7708,7 @@ tbl = {
 			"변신한 시간 동안 MATK + 25 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "변신 스크롤(밴시)10개 상자",
 		identifiedResourceName = "테이밍세트",
@@ -6821,7 +7718,7 @@ tbl = {
 			"변신한 시간 동안 MATK + 25 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6835,7 +7732,7 @@ tbl = {
 			"변신한 시간 동안 크리티컬 데미지 5% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "변신 스크롤(포링)10개 상자",
 		identifiedResourceName = "테이밍세트",
@@ -6845,7 +7742,7 @@ tbl = {
 			"변신한 시간 동안 크리티컬 데미지 5% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6859,7 +7756,7 @@ tbl = {
 			"변신한 시간 동안 물리공격을 받을 시 일정확률로 인듀어 5Lv발동, 무속성 내성 2% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "변신 스크롤(고렘)10개 상자",
 		identifiedResourceName = "테이밍세트",
@@ -6869,7 +7766,7 @@ tbl = {
 			"변신한 시간 동안 물리공격을 받을 시 일정확률로 인듀어 5Lv발동, 무속성 내성 2% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6880,14 +7777,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"초록 리본이 1개 들어있는 상자.",
 			"^ff0000본 초록 리본 아이템은 \"구호 성금\"용이므로, 청약철회 및 환불이 되지 않습니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "초록 리본 상자",
 		identifiedResourceName = "캐시상자_녹색",
 		identifiedDescriptionName = {
 			"초록 리본이 1개 들어있는 상자.",
 			"^ff0000본 초록 리본 아이템은 \"구호 성금\"용이므로, 청약철회 및 환불이 되지 않습니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6906,13 +7803,13 @@ tbl = {
 			"궁수, 건슬링거계열인 경우 1제련당 원거리 물리공격력 1%씩 증가.",
 			"[골드PC방인 경우]",
 			"All State + 1, 인간형 적에게 데미지 10% 감소.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "판관모자 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -6927,13 +7824,13 @@ tbl = {
 			"궁수, 건슬링거계열인 경우 1제련당 원거리 물리공격력 1%씩 증가.",
 			"[골드PC방인 경우]",
 			"All State + 1, 인간형 적에게 데미지 10% 감소.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6943,13 +7840,13 @@ tbl = {
 		unidentifiedResourceName = "pro선물상자",
 		unidentifiedDescriptionName = {
 			"의상 초록 더듬이, 의상 머리안경, 의상 헬름, 의상 샤프헤드기어, 의상 아이언 케인 중 어떤 모자가 들어있을 지 알 수 없다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "출석 코스츔상자",
 		identifiedResourceName = "pro선물상자",
 		identifiedDescriptionName = {
 			"의상 초록 더듬이, 의상 머리안경, 의상 헬름, 의상 샤프헤드기어, 의상 아이언 케인 중 어떤 모자가 들어있을 지 알 수 없다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6964,12 +7861,12 @@ tbl = {
 			"AGI + 2, FLEE + 10.",
 			"물리공격 시 적에게 낮은 확률로 스턴을 건다. 제련도에 따라 스턴을 걸 확률이 증가한다.",
 			"7제련 이상 일 경우 ATK + 15, 공격속도 증가(공격 후 딜레이 5% 감소)",
-			"계열 : ^777777투구^000000 방어 : ^7777776^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777730^000000",
-			"요구 레벨 : ^77777770^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF6^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B70^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "금우궁 왕관 상자",
 		identifiedResourceName = "캐시상자_검정",
@@ -6980,12 +7877,12 @@ tbl = {
 			"AGI + 2, FLEE + 10.",
 			"물리공격 시 적에게 낮은 확률로 스턴을 건다. 제련도에 따라 스턴을 걸 확률이 증가한다.",
 			"7제련 이상 일 경우 ATK + 15, 공격속도 증가(공격 후 딜레이 5% 감소)",
-			"계열 : ^777777투구^000000 방어 : ^7777776^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777730^000000",
-			"요구 레벨 : ^77777770^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF6^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B70^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -6999,14 +7896,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 카타르.",
 			"제련도 1당 ATK + 10 / 크리티컬 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777카타르^000000 공격 : ^77777780^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777어세신계열^000000",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D8000080^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B어세신계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 카타르 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7016,14 +7913,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 카타르.",
 			"제련도 1당 ATK + 10 / 크리티컬 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777카타르^000000 공격 : ^77777780^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777어세신계열^000000",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D8000080^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B어세신계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7038,14 +7935,14 @@ tbl = {
 			"파괴불가.",
 			"제련도 1당 ATK + 14 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손도끼^000000 공격 : ^777777110^000000",
-			"Weight: ^777777200^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열^000000",
+			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000110^000000",
+			"Weight: ^0EAA0B200^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 투핸드액스 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7056,14 +7953,14 @@ tbl = {
 			"파괴불가.",
 			"제련도 1당 ATK + 14 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손도끼^000000 공격 : ^777777110^000000",
-			"Weight: ^777777200^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열^000000",
+			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000110^000000",
+			"Weight: ^0EAA0B200^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7077,14 +7974,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 양손창.",
 			"제련도 1당 ATK + 12 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손창^000000 공격 : ^777777105^000000",
-			"Weight: ^777777150^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손창^000000 Attack: ^D80000105^000000",
+			"Weight: ^0EAA0B150^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 랜스 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7094,14 +7991,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 양손창.",
 			"제련도 1당 ATK + 12 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손창^000000 공격 : ^777777105^000000",
-			"Weight: ^777777150^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손창^000000 Attack: ^D80000105^000000",
+			"Weight: ^0EAA0B150^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7116,14 +8013,14 @@ tbl = {
 			"MATK + 20.",
 			"제련도 1당 ATK + 10 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777책^000000 공격 : ^77777745^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777프리스트계열/세이지계열/권성^000000",
+			"Class: ^6A5ACD책^000000 Attack: ^D8000045^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B프리스트계열/세이지계열/권성^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 북 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7134,14 +8031,14 @@ tbl = {
 			"MATK + 20.",
 			"제련도 1당 ATK + 10 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777책^000000 공격 : ^77777745^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777프리스트계열/세이지계열/권성^000000",
+			"Class: ^6A5ACD책^000000 Attack: ^D8000045^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B프리스트계열/세이지계열/권성^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7158,14 +8055,14 @@ tbl = {
 			"세이지 계열 장착 시 MATK + 20 추가.",
 			"제련도 1당 MATK + 10 / 힐량 1% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 MATK + 10씩 추가 증가.",
-			"계열 : ^777777양손 지팡이^000000 공격 : ^77777750^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777마법사계열/복사계열/소울링커^000000",
+			"Class: ^6A5ACD양손 지팡이^000000 Attack: ^D8000050^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B마법사계열/복사계열/소울링커^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 스태프 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7178,14 +8075,14 @@ tbl = {
 			"세이지 계열 장착 시 MATK + 20 추가.",
 			"제련도 1당 MATK + 10 / 힐량 1% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 MATK + 10씩 추가 증가.",
-			"계열 : ^777777양손 지팡이^000000 공격 : ^77777750^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777마법사계열/복사계열/소울링커^000000",
+			"Class: ^6A5ACD양손 지팡이^000000 Attack: ^D8000050^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B마법사계열/복사계열/소울링커^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7199,14 +8096,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 단검.",
 			"제련도 1당 ATK + 10 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777단검^000000 공격 : ^77777755^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
+			"Class: ^6A5ACD단검^000000 Attack: ^D8000055^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 대거 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7216,14 +8113,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 단검.",
 			"제련도 1당 ATK + 10 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777단검^000000 공격 : ^77777755^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
+			"Class: ^6A5ACD단검^000000 Attack: ^D8000055^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7237,14 +8134,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 리볼버.",
 			"제련도 1당 ATK + 5 / 원거리 물리 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777권총^000000 공격 : ^77777735^000000",
-			"Weight: ^77777750^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777건슬링거^000000",
+			"Class: ^6A5ACD권총^000000 Attack: ^D8000035^000000",
+			"Weight: ^0EAA0B50^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B건슬링거^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 리볼버 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7254,14 +8151,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 리볼버.",
 			"제련도 1당 ATK + 5 / 원거리 물리 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777권총^000000 공격 : ^77777735^000000",
-			"Weight: ^77777750^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777건슬링거^000000",
+			"Class: ^6A5ACD권총^000000 Attack: ^D8000035^000000",
+			"Weight: ^0EAA0B50^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B건슬링거^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7275,14 +8172,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 둔기.",
 			"제련도 1당 ATK + 10 / 힐량 1% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777둔기^000000 공격 : ^77777780^000000",
-			"Weight: ^77777780^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/복사계열/상인계열^000000",
+			"Class: ^6A5ACDMace^000000 Attack: ^D8000080^000000",
+			"Weight: ^0EAA0B80^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/복사계열/상인계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 메이스 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7292,14 +8189,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 둔기.",
 			"제련도 1당 ATK + 10 / 힐량 1% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777둔기^000000 공격 : ^77777780^000000",
-			"Weight: ^77777780^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/복사계열/상인계열^000000",
+			"Class: ^6A5ACDMace^000000 Attack: ^D8000080^000000",
+			"Weight: ^0EAA0B80^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/복사계열/상인계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7314,14 +8211,14 @@ tbl = {
 			"헌터 계열이 장착 시 ATK + 20.",
 			"제련도 1당 ATK + 7 / 원거리 물리 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777활^000000 공격 : ^77777760^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777궁수계열^000000",
+			"Class: ^6A5ACD활^000000 Attack: ^D8000060^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B궁수계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 보우 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7332,14 +8229,14 @@ tbl = {
 			"헌터 계열이 장착 시 ATK + 20.",
 			"제련도 1당 ATK + 7 / 원거리 물리 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777활^000000 공격 : ^77777760^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777궁수계열^000000",
+			"Class: ^6A5ACD활^000000 Attack: ^D8000060^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B궁수계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7353,14 +8250,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 양손검.",
 			"제련도 1당 ATK + 12 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손검^000000 공격 : ^777777100^000000",
-			"Weight: ^777777150^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손검^000000 Attack: ^D80000100^000000",
+			"Weight: ^0EAA0B150^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 투핸드소드 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -7370,14 +8267,14 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 양손검.",
 			"제련도 1당 ATK + 12 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손검^000000 공격 : ^777777100^000000",
-			"Weight: ^777777150^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손검^000000 Attack: ^D80000100^000000",
+			"Weight: ^0EAA0B150^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7390,13 +8287,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 카타르.",
 			"제련도 1당 ATK + 10 / 크리티컬 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777카타르^000000 공격 : ^77777780^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777어세신계열^000000",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D8000080^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B어세신계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 카타르 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7405,13 +8302,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 카타르.",
 			"제련도 1당 ATK + 10 / 크리티컬 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777카타르^000000 공격 : ^77777780^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777어세신계열^000000",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D8000080^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B어세신계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7425,13 +8322,13 @@ tbl = {
 			"파괴불가.",
 			"제련도 1당 ATK + 14 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손도끼^000000 공격 : ^777777110^000000",
-			"Weight: ^777777200^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열^000000",
+			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000110^000000",
+			"Weight: ^0EAA0B200^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 투핸드액스 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7441,13 +8338,13 @@ tbl = {
 			"파괴불가.",
 			"제련도 1당 ATK + 14 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손도끼^000000 공격 : ^777777110^000000",
-			"Weight: ^777777200^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열/상인계열^000000",
+			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000110^000000",
+			"Weight: ^0EAA0B200^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열/상인계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7460,13 +8357,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 양손창.",
 			"제련도 1당 ATK + 12 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손창^000000 공격 : ^777777105^000000",
-			"Weight: ^777777150^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손창^000000 Attack: ^D80000105^000000",
+			"Weight: ^0EAA0B150^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 랜스 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7475,13 +8372,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 양손창.",
 			"제련도 1당 ATK + 12 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손창^000000 공격 : ^777777105^000000",
-			"Weight: ^777777150^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손창^000000 Attack: ^D80000105^000000",
+			"Weight: ^0EAA0B150^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7495,13 +8392,13 @@ tbl = {
 			"MATK + 20.",
 			"제련도 1당 ATK + 10 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777책^000000 공격 : ^77777745^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777프리스트계열/세이지계열/권성^000000",
+			"Class: ^6A5ACD책^000000 Attack: ^D8000045^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B프리스트계열/세이지계열/권성^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 북 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7511,13 +8408,13 @@ tbl = {
 			"MATK + 20.",
 			"제련도 1당 ATK + 10 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777책^000000 공격 : ^77777745^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777프리스트계열/세이지계열/권성^000000",
+			"Class: ^6A5ACD책^000000 Attack: ^D8000045^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B프리스트계열/세이지계열/권성^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7533,13 +8430,13 @@ tbl = {
 			"세이지 계열 장착 시 MATK + 20 추가.",
 			"제련도 1당 MATK + 10 / 힐량 1% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 MATK + 10씩 추가 증가.",
-			"계열 : ^777777양손 지팡이^000000 공격 : ^77777750^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777마법사계열/복사계열/소울링커^000000",
+			"Class: ^6A5ACD양손 지팡이^000000 Attack: ^D8000050^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B마법사계열/복사계열/소울링커^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 스태프 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7551,13 +8448,13 @@ tbl = {
 			"세이지 계열 장착 시 MATK + 20 추가.",
 			"제련도 1당 MATK + 10 / 힐량 1% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 MATK + 10씩 추가 증가.",
-			"계열 : ^777777양손 지팡이^000000 공격 : ^77777750^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777마법사계열/복사계열/소울링커^000000",
+			"Class: ^6A5ACD양손 지팡이^000000 Attack: ^D8000050^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B마법사계열/복사계열/소울링커^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7570,13 +8467,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 단검.",
 			"제련도 1당 ATK + 10 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777단검^000000 공격 : ^77777755^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
+			"Class: ^6A5ACD단검^000000 Attack: ^D8000055^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 대거 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7585,13 +8482,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 단검.",
 			"제련도 1당 ATK + 10 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777단검^000000 공격 : ^77777755^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
+			"Class: ^6A5ACD단검^000000 Attack: ^D8000055^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7604,13 +8501,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 리볼버.",
 			"제련도 1당 ATK + 5 / 원거리 물리 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777권총^000000 공격 : ^77777735^000000",
-			"Weight: ^77777750^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777건슬링거^000000",
+			"Class: ^6A5ACD권총^000000 Attack: ^D8000035^000000",
+			"Weight: ^0EAA0B50^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B건슬링거^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 리볼버 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7619,13 +8516,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 리볼버.",
 			"제련도 1당 ATK + 5 / 원거리 물리 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777권총^000000 공격 : ^77777735^000000",
-			"Weight: ^77777750^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777건슬링거^000000",
+			"Class: ^6A5ACD권총^000000 Attack: ^D8000035^000000",
+			"Weight: ^0EAA0B50^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B건슬링거^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7638,13 +8535,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 둔기.",
 			"제련도 1당 ATK + 10 / 힐량 1% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777둔기^000000 공격 : ^77777780^000000",
-			"Weight: ^77777780^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/복사계열/상인계열^000000",
+			"Class: ^6A5ACDMace^000000 Attack: ^D8000080^000000",
+			"Weight: ^0EAA0B80^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/복사계열/상인계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 메이스 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7653,13 +8550,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 둔기.",
 			"제련도 1당 ATK + 10 / 힐량 1% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 5씩 추가 증가.",
-			"계열 : ^777777둔기^000000 공격 : ^77777780^000000",
-			"Weight: ^77777780^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스/검사계열/복사계열/상인계열^000000",
+			"Class: ^6A5ACDMace^000000 Attack: ^D8000080^000000",
+			"Weight: ^0EAA0B80^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스/검사계열/복사계열/상인계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7673,13 +8570,13 @@ tbl = {
 			"헌터 계열이 장착 시 ATK + 20.",
 			"제련도 1당 ATK + 7 / 원거리 물리 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777활^000000 공격 : ^77777760^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777궁수계열^000000",
+			"Class: ^6A5ACD활^000000 Attack: ^D8000060^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B궁수계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 보우 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7689,13 +8586,13 @@ tbl = {
 			"헌터 계열이 장착 시 ATK + 20.",
 			"제련도 1당 ATK + 7 / 원거리 물리 공격력 2% 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777활^000000 공격 : ^77777760^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777궁수계열^000000",
+			"Class: ^6A5ACD활^000000 Attack: ^D8000060^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B궁수계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7708,13 +8605,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 양손검.",
 			"제련도 1당 ATK + 12 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손검^000000 공격 : ^777777100^000000",
-			"Weight: ^777777150^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손검^000000 Attack: ^D80000100^000000",
+			"Weight: ^0EAA0B150^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "강화 투핸드소드 상자",
 		identifiedResourceName = "선물상자_1",
@@ -7723,13 +8620,13 @@ tbl = {
 			"오리데오콘과 황금을 황금비율로 섞어 코팅한 양손검.",
 			"제련도 1당 ATK + 12 / MATK + 5 증가.",
 			"캐릭터 레벨 70이상 : BaseLv이 10 상승 할 때 마다 ATK + 10씩 추가 증가.",
-			"계열 : ^777777양손검^000000 공격 : ^777777100^000000",
-			"Weight: ^777777150^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사계열^000000",
+			"Class: ^6A5ACD양손검^000000 Attack: ^D80000100^000000",
+			"Weight: ^0EAA0B150^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7743,7 +8640,7 @@ tbl = {
 			"여타의 공격속도 향상 포션과 함께 사용 시 더 큰 효과가 나타나는 강화 포션.",
 			"복용하면 15분간 공격속도가 조금 더 상승한다. 전직업이 사용할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "ASPD강화포션 상자",
 		identifiedResourceName = "오래된노란상자",
@@ -7753,7 +8650,7 @@ tbl = {
 			"여타의 공격속도 향상 포션과 함께 사용 시 더 큰 효과가 나타나는 강화 포션.",
 			"복용하면 15분간 공격속도가 조금 더 상승한다. 전직업이 사용할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7767,7 +8664,7 @@ tbl = {
 			"여타의 공격속도 향상 포션과 함께 사용 시 더 큰 효과가 나타나는 강화 포션.",
 			"복용하면 15분간 공격속도가 조금 더 상승한다. 전직업이 사용할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "ASPD강화포션 상자",
 		identifiedResourceName = "오래된노란상자",
@@ -7777,7 +8674,7 @@ tbl = {
 			"여타의 공격속도 향상 포션과 함께 사용 시 더 큰 효과가 나타나는 강화 포션.",
 			"복용하면 15분간 공격속도가 조금 더 상승한다. 전직업이 사용할 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7788,14 +8685,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"데비루치 변신 스크롤 30개와 골렘 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 A 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "몬스터 변신 A세트",
 		identifiedResourceName = "캐시상자_빨강",
 		identifiedDescriptionName = {
 			"데비루치 변신 스크롤 30개와 골렘 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 A 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7806,14 +8703,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"밴시 변신 스크롤 30개와 마르두크 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 B 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "몬스터 변신 B세트",
 		identifiedResourceName = "캐시상자_빨강",
 		identifiedDescriptionName = {
 			"밴시 변신 스크롤 30개와 마르두크 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 B 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7824,14 +8721,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"마브카 변신 스크롤 30개와 레이드릭 아쳐 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 C 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "몬스터 변신 C세트",
 		identifiedResourceName = "캐시상자_빨강",
 		identifiedDescriptionName = {
 			"마브카 변신 스크롤 30개와 레이드릭 아쳐 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 C 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7842,14 +8739,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"요리 종합 선물세트인 모듬요리상자가 1개 들어있는 상자. 보너스로 드래곤의 알도 포함되어 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "모듬요리세트",
 		identifiedResourceName = "음식보자기",
 		identifiedDescriptionName = {
 			"요리 종합 선물세트인 모듬요리상자가 1개 들어있는 상자. 보너스로 드래곤의 알도 포함되어 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7859,13 +8756,13 @@ tbl = {
 		unidentifiedResourceName = "오래된보라상자",
 		unidentifiedDescriptionName = {
 			"혓바닥요리, 칵테일 용의 숨결, 불사의 찌개, 사막전갈 모래찜, 흐베르겔미르의 술, 구미호 꼬리요리가 각각 5개씩 들어있는 요리 종합 선물세트. 보너스로 톡톡캔디 3개도 포함되어 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "모듬요리상자",
 		identifiedResourceName = "오래된보라상자",
 		identifiedDescriptionName = {
 			"혓바닥요리, 칵테일 용의 숨결, 불사의 찌개, 사막전갈 모래찜, 흐베르겔미르의 술, 구미호 꼬리요리가 각각 5개씩 들어있는 요리 종합 선물세트. 보너스로 톡톡캔디 3개도 포함되어 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7882,7 +8779,7 @@ tbl = {
 			"^ffffff_^000000",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "레드 부스터 상자",
 		identifiedResourceName = "캐시상자_빨강",
@@ -7895,7 +8792,7 @@ tbl = {
 			"",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7912,7 +8809,7 @@ tbl = {
 			"^ffffff_^000000",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "레드 부스터 상자",
 		identifiedResourceName = "캐시상자_빨강",
@@ -7925,7 +8822,7 @@ tbl = {
 			"",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7937,7 +8834,7 @@ tbl = {
 			"캐릭터의 이름을 변경할 수 있는 카드 1장과 슬롯이동카드 1장이 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.",
 			"※ 해당 아이템은 파티, 길드에서 탈퇴해야 사용이 가능합니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "이름 변경 카드 상자",
 		identifiedResourceName = "캐시상자_빨강",
@@ -7945,7 +8842,7 @@ tbl = {
 			"캐릭터의 이름을 변경할 수 있는 카드 1장과 슬롯이동카드 1장이 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.",
 			"※ 해당 아이템은 파티, 길드에서 탈퇴해야 사용이 가능합니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7961,7 +8858,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "미스틱 파우더 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -7973,7 +8870,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -7989,7 +8886,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "미스틱 파우더 상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -8001,7 +8898,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8015,13 +8912,13 @@ tbl = {
 			"아크엔젤링을 본따 만든 말랑말랑한 모자.",
 			"HP회복력 150% 상승.",
 			"제련도 1당 MHP + 80씩 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아크 엔젤링 모자 상자",
 		identifiedResourceName = "포링상자",
@@ -8031,13 +8928,13 @@ tbl = {
 			"아크엔젤링을 본따 만든 말랑말랑한 모자.",
 			"HP회복력 150% 상승.",
 			"제련도 1당 MHP + 80씩 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777773^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8051,7 +8948,7 @@ tbl = {
 			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "전투교범 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -8061,7 +8958,7 @@ tbl = {
 			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8076,7 +8973,7 @@ tbl = {
 			"전투교범과 중복 사용 가능",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "JOB 전투교범 10개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -8087,7 +8984,7 @@ tbl = {
 			"전투교범과 중복 사용 가능",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8100,7 +8997,7 @@ tbl = {
 			"동, 서양을 가리지 않는 독특한 모자들이 들어 있다.",
 			"어떤 모자를 얻게 될 지 알 수 없다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "글로벌 모자 페스티벌 상자",
 		identifiedResourceName = "선물상자_2",
@@ -8109,7 +9006,7 @@ tbl = {
 			"동, 서양을 가리지 않는 독특한 모자들이 들어 있다.",
 			"어떤 모자를 얻게 될 지 알 수 없다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8122,7 +9019,7 @@ tbl = {
 			"동, 서양을 가리지 않는 독특한 모자들이 들어 있다.",
 			"어떤 모자를 얻게 될 지 알 수 없다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "글로벌 페스티벌 5개 패키지",
 		identifiedResourceName = "솔로의선물바구니",
@@ -8131,7 +9028,7 @@ tbl = {
 			"동, 서양을 가리지 않는 독특한 모자들이 들어 있다.",
 			"어떤 모자를 얻게 될 지 알 수 없다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8144,7 +9041,7 @@ tbl = {
 			"동, 서양을 가리지 않는 독특한 모자들이 들어 있다.",
 			"어떤 모자를 얻게 될 지 알 수 없다.",
 			"^ff0000본 아이템은 패키지 상자를 개봉하여 나온 아이템이기 때문에 청약철회 및 환불대상에서 제외됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "글로벌 모자 페스티벌 상자",
 		identifiedResourceName = "선물상자_2",
@@ -8153,7 +9050,7 @@ tbl = {
 			"동, 서양을 가리지 않는 독특한 모자들이 들어 있다.",
 			"어떤 모자를 얻게 될 지 알 수 없다.",
 			"^ff0000본 아이템은 패키지 상자를 개봉하여 나온 아이템이기 때문에 청약철회 및 환불대상에서 제외됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8168,7 +9065,7 @@ tbl = {
 			"각 직업계열 별로 탈 것의 종류가 나뉘어 있으며, 전승 또는 전직 시 해당계열에 맞는 탈 것으로 바뀝니다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "탑승용 고삐 상자[체험판]",
 		identifiedResourceName = "번호상자01",
@@ -8179,7 +9076,7 @@ tbl = {
 			"각 직업계열 별로 탈 것의 종류가 나뉘어 있으며, 전승 또는 전직 시 해당계열에 맞는 탈 것으로 바뀝니다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8190,14 +9087,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"혓바닥요리, 칵테일 용의 숨결, 불사의 찌개, 사막전갈 모래찜, 흐베르겔미르의 술, 구미호 꼬리요리가 각각 1개씩 들어있는 요리 종합 선물세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "모듬요리상자[체험판]",
 		identifiedResourceName = "빨간상자",
 		identifiedDescriptionName = {
 			"혓바닥요리, 칵테일 용의 숨결, 불사의 찌개, 사막전갈 모래찜, 흐베르겔미르의 술, 구미호 꼬리요리가 각각 1개씩 들어있는 요리 종합 선물세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8213,7 +9110,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "신묘한 생명수 상자(언데드)",
 		identifiedResourceName = "응급처치상자",
@@ -8225,7 +9122,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8241,7 +9138,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "신묘한 생명수 50개 상자",
 		identifiedResourceName = "응급처치상자",
@@ -8253,7 +9150,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8269,7 +9166,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "신묘한 생명수 상자(소녀)",
 		identifiedResourceName = "응급처치상자",
@@ -8281,7 +9178,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8300,13 +9197,13 @@ tbl = {
 			"순수 AGI 20 당 공격속도 증가(공격 후딜레이 1% 감소),",
 			"순수 DEX 20 당 원거리 공격력 1% 증가,",
 			"순수 LUK 20 당 크리티컬 데미지 1% 증가.",
-			"계열 : ^777777걸칠것^000000  방어 : ^77777718^000000",
-			"Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD걸칠것^000000  Defense: ^0000FF18^000000",
+			"Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "타락천사의 날개 상자",
 		identifiedResourceName = "보물상자_",
@@ -8321,13 +9218,13 @@ tbl = {
 			"순수 AGI 20 당 공격속도 증가(공격 후딜레이 1% 감소),",
 			"순수 DEX 20 당 원거리 공격력 1% 증가,",
 			"순수 LUK 20 당 크리티컬 데미지 1% 증가.",
-			"계열 : ^777777걸칠것^000000  방어 : ^77777718^000000",
-			"Weight: ^77777720^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업 장착가능^000000",
+			"Class: ^6A5ACD걸칠것^000000  Defense: ^0000FF18^000000",
+			"Weight: ^0EAA0B20^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업 장착가능^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8342,7 +9239,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자Ⅱ",
 		identifiedResourceName = "캐시상자_노랑",
@@ -8353,7 +9250,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8361,70 +9258,70 @@ tbl = {
 	[17194] = {
 		unidentifiedDisplayName = "RG빨간포션 상자",
 		unidentifiedResourceName = "빨간상자",
-		unidentifiedDescriptionName = { "RG빨간포션이 10개 들어있는 상자.", "Weight: ^77777740^000000" },
+		unidentifiedDescriptionName = { "RG빨간포션이 10개 들어있는 상자.", "Weight: ^0EAA0B40^000000" },
 		identifiedDisplayName = "RG빨간포션 상자",
 		identifiedResourceName = "빨간상자",
-		identifiedDescriptionName = { "RG빨간포션이 10개 들어있는 상자.", "Weight: ^77777740^000000" },
+		identifiedDescriptionName = { "RG빨간포션이 10개 들어있는 상자.", "Weight: ^0EAA0B40^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[17195] = {
 		unidentifiedDisplayName = "RG파란포션 상자",
 		unidentifiedResourceName = "오래된파란상자",
-		unidentifiedDescriptionName = { "RG파란포션이 10개 들어있는 상자.", "Weight: ^77777790^000000" },
+		unidentifiedDescriptionName = { "RG파란포션이 10개 들어있는 상자.", "Weight: ^0EAA0B90^000000" },
 		identifiedDisplayName = "RG파란포션 상자",
 		identifiedResourceName = "오래된파란상자",
-		identifiedDescriptionName = { "RG파란포션이 10개 들어있는 상자.", "Weight: ^77777790^000000" },
+		identifiedDescriptionName = { "RG파란포션이 10개 들어있는 상자.", "Weight: ^0EAA0B90^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[17196] = {
 		unidentifiedDisplayName = "RG황금사과 조각 상자",
 		unidentifiedResourceName = "오래된노란상자",
-		unidentifiedDescriptionName = { "RG황금사과 조각이 20개 들어있는 상자.Weight: ^777777300^000000" },
+		unidentifiedDescriptionName = { "RG황금사과 조각이 20개 들어있는 상자.Weight: ^0EAA0B300^000000" },
 		identifiedDisplayName = "RG황금사과 조각 상자",
 		identifiedResourceName = "오래된노란상자",
-		identifiedDescriptionName = { "RG황금사과 조각이 20개 들어있는 상자.Weight: ^777777300^000000" },
+		identifiedDescriptionName = { "RG황금사과 조각이 20개 들어있는 상자.Weight: ^0EAA0B300^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[17197] = {
 		unidentifiedDisplayName = "RG황금사과 상자",
 		unidentifiedResourceName = "오래된노란상자",
-		unidentifiedDescriptionName = { "RG황금사과가 25개 들어있는 상자.", "Weight: ^777777300^000000" },
+		unidentifiedDescriptionName = { "RG황금사과가 25개 들어있는 상자.", "Weight: ^0EAA0B300^000000" },
 		identifiedDisplayName = "RG황금사과 상자",
 		identifiedResourceName = "오래된노란상자",
-		identifiedDescriptionName = { "RG황금사과가 25개 들어있는 상자.", "Weight: ^777777300^000000" },
+		identifiedDescriptionName = { "RG황금사과가 25개 들어있는 상자.", "Weight: ^0EAA0B300^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[17198] = {
 		unidentifiedDisplayName = "RG황금포션 상자",
 		unidentifiedResourceName = "오래된노란상자",
-		unidentifiedDescriptionName = { "RG황금포션이 50개 들어있는 상자.", "Weight: ^77777730^000000" },
+		unidentifiedDescriptionName = { "RG황금포션이 50개 들어있는 상자.", "Weight: ^0EAA0B30^000000" },
 		identifiedDisplayName = "RG황금포션 상자",
 		identifiedResourceName = "오래된노란상자",
-		identifiedDescriptionName = { "RG황금포션이 50개 들어있는 상자.", "Weight: ^77777730^000000" },
+		identifiedDescriptionName = { "RG황금포션이 50개 들어있는 상자.", "Weight: ^0EAA0B30^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[17200] = {
 		unidentifiedDisplayName = "RG노블햇 상자",
 		unidentifiedResourceName = "오래된보라상자",
-		unidentifiedDescriptionName = { "RG노블햇이 1개 들어있는 상자.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "RG노블햇이 1개 들어있는 상자.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "RG노블햇 상자",
 		identifiedResourceName = "오래된보라상자",
-		identifiedDescriptionName = { "RG노블햇이 1개 들어있는 상자.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "RG노블햇이 1개 들어있는 상자.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[17201] = {
 		unidentifiedDisplayName = "RG부드러운 양모자상자",
 		unidentifiedResourceName = "오래된보라상자",
-		unidentifiedDescriptionName = { "RG부드러운 양모자가 1개 들어있는 상자.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "RG부드러운 양모자가 1개 들어있는 상자.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "RG부드러운 양모자상자",
 		identifiedResourceName = "오래된보라상자",
-		identifiedDescriptionName = { "RG부드러운 양모자가 1개 들어있는 상자.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "RG부드러운 양모자가 1개 들어있는 상자.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -8436,12 +9333,12 @@ tbl = {
 			"INT + 3, MDEF + 9.",
 			"불사형 적에게 10% 마법 추가 데미지.",
 			"마법 공격 시 또는 마법 공격을 받을 시 드물게 선녀 '백소진'이 빙의. 빙의 상태에선 초당 SP를 10씩 잃게되나 일시적으로 도력을 얻는다. 제련도에 따라 변신 지속시간과 도력도 증가한다.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "백소진 모자 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -8450,12 +9347,12 @@ tbl = {
 			"INT + 3, MDEF + 9.",
 			"불사형 적에게 10% 마법 추가 데미지.",
 			"마법 공격 시 또는 마법 공격을 받을 시 드물게 선녀 '백소진'이 빙의. 빙의 상태에선 초당 SP를 10씩 잃게되나 일시적으로 도력을 얻는다. 제련도에 따라 변신 지속시간과 도력도 증가한다.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777노비스를 제외한 전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B노비스를 제외한 전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8466,14 +9363,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"길 잃은 포링이 답례로 준 상자.",
 			"포링들이 할머니 쌈짓돈 마냥 소중히 모아왔던 컬렉션 중 하나로, 무엇이 나오든 그것엔 포링들의 눈물과 고마움이 깃든 선물이니 소중히 하자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "포링의 특별한 상자",
 		identifiedResourceName = "포링상자",
 		identifiedDescriptionName = {
 			"길 잃은 포링이 답례로 준 상자.",
 			"포링들이 할머니 쌈짓돈 마냥 소중히 모아왔던 컬렉션 중 하나로, 무엇이 나오든 그것엔 포링들의 눈물과 고마움이 깃든 선물이니 소중히 하자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8506,10 +9403,10 @@ tbl = {
 			"",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리.",
 			"30분간 All State + 10, ATK + 30, MATK + 30.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "올마이티 상자",
 		identifiedResourceName = "오래된노란상자",
@@ -8518,10 +9415,10 @@ tbl = {
 			"",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리.",
 			"30분간 All State + 10, ATK + 30, MATK + 30.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8535,7 +9432,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"날짐승들의 날개를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
 			"",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무한 파리의 날개 상자",
 		identifiedResourceName = "오래된노란상자",
@@ -8545,7 +9442,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"날짐승들의 날개를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
 			"",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8560,7 +9457,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자",
 		identifiedResourceName = "캐시상자_보라",
@@ -8571,7 +9468,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8582,14 +9479,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"무기 7제련 보장권, 방어구 7제련 보장권이 각 1장씩 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "7제련권 상자",
 		identifiedResourceName = "캐시상자_보라",
 		identifiedDescriptionName = {
 			"무기 7제련 보장권, 방어구 7제련 보장권이 각 1장씩 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8609,13 +9506,13 @@ tbl = {
 			"토스트와 함께 장착 시, MHP + 100.",
 			"모자 7제련 시, MHP + 100 추가.",
 			"모자 9제련 시, MHP + 200 추가.",
-			"계열 : ^777777투구^000000 방어 : ^7777774^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777750^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF4^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B50^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아미스트르캡 상자",
 		identifiedResourceName = "캐시상자_노랑",
@@ -8631,13 +9528,13 @@ tbl = {
 			"토스트와 함께 장착 시, MHP + 100.",
 			"모자 7제련 시, MHP + 100 추가.",
 			"모자 9제련 시, MHP + 200 추가.",
-			"계열 : ^777777투구^000000 방어 : ^7777774^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777750^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000",
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF4^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B50^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8649,10 +9546,10 @@ tbl = {
 			"올마이티가 10개와 늑대왕스크롤이 들어있는 상자.",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리.",
 			"30분간 All State + 10, ATK + 30, MATK + 30.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "이벤트 올마이티 상자",
 		identifiedResourceName = "오래된노란상자",
@@ -8660,10 +9557,10 @@ tbl = {
 			"올마이티가 10개와 늑대왕스크롤이 들어있는 상자.",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리.",
 			"30분간 All State + 10, ATK + 30, MATK + 30.",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8676,10 +9573,10 @@ tbl = {
 			"^ffffff_^000000",
 			"^000088임대 아이템^000000",
 			"날짐승들의 날개를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
-			"Weight: ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무한 파리의 날개 3일상자",
 		identifiedResourceName = "오래된노란상자",
@@ -8688,10 +9585,10 @@ tbl = {
 			"^ffffff_^000000",
 			"^000088임대 아이템^000000",
 			"날짐승들의 날개를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
-			"Weight: ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8706,7 +9603,7 @@ tbl = {
 			"전투교범 한정판 - 60분간 획득하는 경험치가 60% 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "전투교범 한정판 패키지",
 		identifiedResourceName = "캐시상자_노랑",
@@ -8717,7 +9614,7 @@ tbl = {
 			"전투교범 한정판 - 60분간 획득하는 경험치가 60% 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8732,7 +9629,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자Ⅳ",
 		identifiedResourceName = "캐시상자_노랑",
@@ -8743,7 +9640,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8758,7 +9655,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자Ⅳ 10세트",
 		identifiedResourceName = "캐시상자_노랑",
@@ -8769,7 +9666,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8784,7 +9681,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자Ⅳ 20세트",
 		identifiedResourceName = "캐시상자_노랑",
@@ -8795,7 +9692,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8807,7 +9704,7 @@ tbl = {
 			"피지컬 쉐도우 패키지, 매지컬 쉐도우 패키지 중 한 종류의 쉐도우 장비를 얻을 수 있는 상자.",
 			"피지컬 (이어링, 웨폰, 펜던트), 매지컬 (이어링, 웨폰, 펜던트), 브리즈 아머, 챔피언 슈즈, 아테나 쉴드 쉐도우 장비 중 1개를 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 박스",
 		identifiedResourceName = "캐시상자_노랑",
@@ -8815,7 +9712,7 @@ tbl = {
 			"피지컬 쉐도우 패키지, 매지컬 쉐도우 패키지 중 한 종류의 쉐도우 장비를 얻을 수 있는 상자.",
 			"피지컬 (이어링, 웨폰, 펜던트), 매지컬 (이어링, 웨폰, 펜던트), 브리즈 아머, 챔피언 슈즈, 아테나 쉴드 쉐도우 장비 중 1개를 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8827,7 +9724,7 @@ tbl = {
 			"피지컬 쉐도우 세트가 들어있는 상자.",
 			"피지컬 (웨폰, 이어링, 펜던트) 쉐도우와 브리즈 아머 쉐도우, 챔피언 슈즈 쉐도우, 아테나 쉴드 쉐도우가 1개씩 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "피지컬 쉐도우 패키지",
 		identifiedResourceName = "햇빛의상자",
@@ -8835,7 +9732,7 @@ tbl = {
 			"피지컬 쉐도우 세트가 들어있는 상자.",
 			"피지컬 (웨폰, 이어링, 펜던트) 쉐도우와 브리즈 아머 쉐도우, 챔피언 슈즈 쉐도우, 아테나 쉴드 쉐도우가 1개씩 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8847,7 +9744,7 @@ tbl = {
 			"매지컬 쉐도우 세트가 들어있는 상자.",
 			"매지컬 (웨폰, 이어링, 펜던트) 쉐도우와 브리즈 아머 쉐도우, 챔피언 슈즈 쉐도우, 아테나 쉴드 쉐도우가 1개씩 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "매지컬 쉐도우 패키지",
 		identifiedResourceName = "햇빛의상자",
@@ -8855,7 +9752,7 @@ tbl = {
 			"매지컬 쉐도우 세트가 들어있는 상자.",
 			"매지컬 (웨폰, 이어링, 펜던트) 쉐도우와 브리즈 아머 쉐도우, 챔피언 슈즈 쉐도우, 아테나 쉴드 쉐도우가 1개씩 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8867,7 +9764,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개가 들어있다. 추가로 봉인된 다크로드 스크롤 1개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "힘내그라 패키지",
 		identifiedResourceName = "햇빛의상자",
@@ -8875,7 +9772,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개가 들어있다. 추가로 봉인된 다크로드 스크롤 1개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8887,7 +9784,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음.",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개가 들어있다. 추가로 봉인된 다크로드 스크롤 11개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "힘내그라 패키지 10세트",
 		identifiedResourceName = "햇빛의상자",
@@ -8895,7 +9792,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음.",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개가 들어있다. 추가로 봉인된 다크로드 스크롤 11개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8909,7 +9806,7 @@ tbl = {
 			"바이탈 (슈즈, 쉴드), 어틀레틱 (쉴드, 슈즈), 럭키 (웨폰, 아머) 쉐도우 장비 중 1개를 얻을 수 있다.",
 			"간혹 찬란한 황금 날개가 나오기도 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 박스Ⅱ 상자",
 		identifiedResourceName = "햇빛의상자",
@@ -8919,7 +9816,7 @@ tbl = {
 			"바이탈 (슈즈, 쉴드), 어틀레틱 (쉴드, 슈즈), 럭키 (웨폰, 아머) 쉐도우 장비 중 1개를 얻을 수 있다.",
 			"간혹 찬란한 황금 날개가 나오기도 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8933,7 +9830,7 @@ tbl = {
 			"바이탈 (슈즈, 쉴드), 어틀레틱 (쉴드, 슈즈), 럭키 (웨폰, 아머) 쉐도우 장비 중 1개를 얻을 수 있다.",
 			"간혹 찬란한 황금 날개가 나오기도 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 박스Ⅱ 세트",
 		identifiedResourceName = "햇빛의상자",
@@ -8943,7 +9840,7 @@ tbl = {
 			"바이탈 (슈즈, 쉴드), 어틀레틱 (쉴드, 슈즈), 럭키 (웨폰, 아머) 쉐도우 장비 중 1개를 얻을 수 있다.",
 			"간혹 찬란한 황금 날개가 나오기도 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8957,7 +9854,7 @@ tbl = {
 			"섬광막대 - 스킬트리를 초기화 시켜준다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "섬광막대 3개 상자",
 		identifiedResourceName = "오래된보라상자",
@@ -8967,7 +9864,7 @@ tbl = {
 			"섬광막대 - 스킬트리를 초기화 시켜준다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -8989,7 +9886,7 @@ tbl = {
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
 			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 봉인된 드라큐라 스크롤 1개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "삼명수 패키지Ⅳ",
 		identifiedResourceName = "응급처치상자",
@@ -8997,7 +9894,7 @@ tbl = {
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
 			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 봉인된 드라큐라 스크롤 1개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9010,7 +9907,7 @@ tbl = {
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
 			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 봉인된 드라큐라 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "삼명수 패키지 10세트Ⅳ",
 		identifiedResourceName = "응급처치상자",
@@ -9019,7 +9916,7 @@ tbl = {
 			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 봉인된 드라큐라 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
 			"",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9031,7 +9928,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개가 들어있다. 추가로 봉인된 스나이퍼 스크롤 1개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "힘내그라 패키지Ⅳ",
 		identifiedResourceName = "햇빛의상자",
@@ -9039,7 +9936,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개가 들어있다. 추가로 봉인된 스나이퍼 스크롤 1개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9051,7 +9948,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음.",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개가 들어있다. 추가로 봉인된 스나이퍼 스크롤 11개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "힘내그라 패키지Ⅳ 10세트",
 		identifiedResourceName = "햇빛의상자",
@@ -9059,7 +9956,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음.",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개가 들어있다. 추가로 봉인된 스나이퍼 스크롤 11개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9074,7 +9971,7 @@ tbl = {
 			"냥다래 열매가 4개 들어있는 상자.",
 			"소량의 통조림도 보너스로 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9089,7 +9986,7 @@ tbl = {
 			"냥다래 열매가 10개 들어있는 상자. ",
 			"소량의 통조림도 보너스로 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9104,7 +10001,7 @@ tbl = {
 			"냥다래 열매가 40개 들어있는 상자.",
 			"소량의 통조림도 보너스로 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9119,7 +10016,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자Ⅷ",
 		identifiedResourceName = "캐시상자_노랑",
@@ -9130,7 +10027,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9145,7 +10042,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자Ⅷ 10세트",
 		identifiedResourceName = "캐시상자_노랑",
@@ -9156,7 +10053,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9171,7 +10068,7 @@ tbl = {
 			"- 제련도가 +7 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "(한정)고농축 에르늄 30개 상자",
 		identifiedResourceName = "캐시상자_빨강",
@@ -9182,7 +10079,7 @@ tbl = {
 			"- 제련도가 +7 이상인 방어구를 제련 시, 실패하더라도 방어구가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9197,7 +10094,7 @@ tbl = {
 			"- 제련도가 +7 이상인 무기를 제련 시 실패하더라도 무기가 파괴되지 않고 기존의 제련도가 -1 됩니다. 이 광석으로는 +10 이상 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "(한정)고농축 오리데오콘 30개 상자",
 		identifiedResourceName = "캐시상자_빨강",
@@ -9208,7 +10105,7 @@ tbl = {
 			"- 제련도가 +7 이상인 무기를 제련 시 실패하더라도 무기가 파괴되지 않고 기존의 제련도가 -1 됩니다. 이 광석으로는 +10 이상 제련되지 않습니다. -",
 			"(제련에 실패 시 제련도가 1 하락합니다.)",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9219,14 +10116,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"ASPD 강화 포션 5개와 레드 부스터 10개가 들어있는 상자. 추가로 안심제련스크롤스크롤 1개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "언리미티드 박스Ⅲ",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"ASPD 강화 포션 5개와 레드 부스터 10개가 들어있는 상자. 추가로 안심제련스크롤스크롤 1개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9237,14 +10134,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"ASPD 강화 포션 50개와 레드 부스터 100개가 들어있는 상자. 추가로 안심 제련 스크롤 11개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "언리미티드 10세트 박스Ⅲ",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"ASPD 강화 포션 50개와 레드 부스터 100개가 들어있는 상자. 추가로 안심 제련 스크롤 11개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9269,7 +10166,7 @@ tbl = {
 			"JOB 전투교범 한정판 - ^00008860분간 획득하는 잡 경험치가 35% 증가한다.^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9290,7 +10187,7 @@ tbl = {
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리.",
 			"30분간 All State + 10, ATK +30, MATK +30.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9311,7 +10208,7 @@ tbl = {
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리.",
 			"30분간 All State + 10, ATK +30, MATK +30.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9340,7 +10237,7 @@ tbl = {
 			"기억된 던전 - \"공중요새 침공(145레벨 이상)\"",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. 창고에도 넣을 수 없습니다! ^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9356,7 +10253,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자X",
 		identifiedResourceName = "캐시상자_노랑",
@@ -9368,7 +10265,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9384,7 +10281,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "제련용 광석상자X 10세트",
 		identifiedResourceName = "캐시상자_노랑",
@@ -9396,7 +10293,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9459,7 +10356,7 @@ tbl = {
 			"- 신비한 알의 조각은 존다 서포트 직원과의 대화를 통해 획득.(1일 1개)",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9522,7 +10419,7 @@ tbl = {
 			"- 신비한 알의 조각은 존다 서포트 직원과의 대화를 통해 획득.(1일 1개)",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9535,7 +10432,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자. ",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개가 들어있다. 추가로 영혼의 뚫어뻥 스크롤 1개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "힘내그라 패키지V",
 		identifiedResourceName = "햇빛의상자",
@@ -9544,7 +10441,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자. ",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개가 들어있다. 추가로 영혼의 뚫어뻥 스크롤 1개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9557,7 +10454,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음. ",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개가 들어있다. 추가로 영혼의 뚫어뻥 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "힘내그라 패키지V 10세트",
 		identifiedResourceName = "햇빛의상자",
@@ -9566,7 +10463,7 @@ tbl = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음. ",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개가 들어있다. 추가로 영혼의 뚫어뻥 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9581,10 +10478,10 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까? ",
 			"경고! - 마을에서는 사용할 수 없습니다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ffffff_^000000",
 			"",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무한 탐욕 스크롤 1시간상자",
 		identifiedResourceName = "빨간상자",
@@ -9595,10 +10492,10 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까? ",
 			"경고! - 마을에서는 사용할 수 없습니다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ffffff_^000000",
 			"",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9614,10 +10511,10 @@ tbl = {
 			"고양이손 상단에서 발행한 고양이손 티켓. ",
 			"해가 지날수록 사업이 번창하는 고양이손 상단의 회심의 서비스. ",
 			"사용 시, 고양이손 창고 서비스를 사용할 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ffffff_^000000",
 			"",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무한 고양이손 티켓 1일상자",
 		identifiedResourceName = "택배상자",
@@ -9629,10 +10526,10 @@ tbl = {
 			"고양이손 상단에서 발행한 고양이손 티켓. ",
 			"해가 지날수록 사업이 번창하는 고양이손 상단의 회심의 서비스. ",
 			"사용 시, 고양이손 창고 서비스를 사용할 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"^ffffff_^000000",
 			"",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9644,7 +10541,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"ASPD 강화 포션 5개와 레드 부스터 10개가 들어있는 상자. 추가로 해피벌룬 스크롤 1개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "언리미티드 박스IV",
 		identifiedResourceName = "햇빛의상자",
@@ -9652,7 +10549,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"ASPD 강화 포션 5개와 레드 부스터 10개가 들어있는 상자. 추가로 해피벌룬 스크롤 1개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9664,7 +10561,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"ASPD 강화 포션 50개와 레드 부스터 100개가 들어있는 상자. 추가로 해피벌룬 스크롤 11개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "언리미티드 10세트 박스IV",
 		identifiedResourceName = "햇빛의상자",
@@ -9672,7 +10569,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"ASPD 강화 포션 50개와 레드 부스터 100개가 들어있는 상자. 추가로 해피벌룬 스크롤 11개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9693,7 +10590,7 @@ tbl = {
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
 			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 인비지블 스크롤 1개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9714,7 +10611,7 @@ tbl = {
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
 			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 인비지블 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9725,7 +10622,7 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"올마이티 10개와 신상 모자 스크롤 1개가 들어있는 상자.",
-			"거기에 [비매품]미스틱 파우더, [비매품]티르의 축복, [비매품]회복력향상포션도 1개씩 더!",
+			"거기에 [not for sale]미스틱 파우더, [not for sale]티르의 축복, [not for sale]회복력향상포션도 1개씩 더!",
 			"",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리. ",
 			"30분간 All State + 10, ATK + 30, MATK + 30.",
@@ -9736,12 +10633,12 @@ tbl = {
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"올마이티 10개와 신상 모자 스크롤 1개가 들어있는 상자.",
-			"거기에 [비매품]미스틱 파우더, [비매품]티르의 축복, [비매품]회복력향상포션도 1개씩 더!",
+			"거기에 [not for sale]미스틱 파우더, [not for sale]티르의 축복, [not for sale]회복력향상포션도 1개씩 더!",
 			"",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리. ",
 			"30분간 All State + 10, ATK + 30, MATK + 30.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9752,8 +10649,8 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"올마이티 100개와 신상 모자 스크롤 11개가 들어있는 상자.",
-			"거기에 [비매품]미스틱 파우더, [비매품]티르의 축복, [비매품]회복력향상포션도 10개씩 더!",
-			"[비매품]톡톡캔디와 [비매품]마법캔디도 1개씩 들어있습니다.",
+			"거기에 [not for sale]미스틱 파우더, [not for sale]티르의 축복, [not for sale]회복력향상포션도 10개씩 더!",
+			"[not for sale]톡톡캔디와 [not for sale]마법캔디도 1개씩 들어있습니다.",
 			"",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리. ",
 			"30분간 All State + 10, ATK + 30, MATK + 30.",
@@ -9764,13 +10661,13 @@ tbl = {
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"올마이티 100개와 신상 모자 스크롤 11개가 들어있는 상자.",
-			"거기에 [비매품]미스틱 파우더, [비매품]티르의 축복, [비매품]회복력향상포션도 10개씩 더!",
-			"[비매품]톡톡캔디와 [비매품]마법캔디도 1개씩 들어있습니다.",
+			"거기에 [not for sale]미스틱 파우더, [not for sale]티르의 축복, [not for sale]회복력향상포션도 10개씩 더!",
+			"[not for sale]톡톡캔디와 [not for sale]마법캔디도 1개씩 들어있습니다.",
 			"",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리. ",
 			"30분간 All State + 10, ATK + 30, MATK + 30.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9782,14 +10679,14 @@ tbl = {
 		identifiedDisplayName = "결속의 활",
 		identifiedResourceName = "결속의활",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
+			"A certified kingdom equipment for adventurer.",
+			"Increase ATK by (Refine*Refine*1.25)",
 			"",
-			"계열 : ^777777활^000000 공격 : ^777777114^000000",
-			"Weight: ^77777760^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777궁수 계열,로그 계열^000000"
+			"Class: ^6A5ACD활^000000 Attack: ^D80000114^000000",
+			"Weight: ^0EAA0B60^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B궁수 계열,로그 계열^000000"
 		},
 		slotCount = 1,
 		ClassNum = 11
@@ -9804,10 +10701,10 @@ tbl = {
 			"세계탄생 9주년을 기념하여 만들어졌다.",
 			"재질이 매우 고급스러운 느낌이다.",
 			"MDEF + 9.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000Weight: ^7777779^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B9^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 745
@@ -9821,10 +10718,10 @@ tbl = {
 		identifiedDescriptionName = {
 			"근미래적인 느낌이 드는 선글라스.",
 			"스킬 후 딜레이 10% 감소.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777중단 ^000000Weight: ^77777710^000000",
-			"요구 레벨 : ^77777730^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDMiddle^000000Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B30^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 856
@@ -9839,10 +10736,10 @@ tbl = {
 			"13주년 기념 한정 스페셜 카프라 인형 모자.",
 			"1제련 당 MHP+130, MSP+13 증가.",
 			"10제련 이상 시, ATK,MATK+3%.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000Weight: ^77777750^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B50^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 581
@@ -9855,10 +10752,10 @@ tbl = {
 		identifiedResourceName = "오리모자",
 		identifiedDescriptionName = {
 			"갈라파고를 본따서 만든 모습이 의외로 귀엽다. 또한 부리 부분이 햇빛을 가려주는 효과가 매우 뛰어남.",
-			"계열 : ^777777의상장비^000000",
-			"위치 : ^777777상단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACDCostume^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 192
@@ -9871,10 +10768,10 @@ tbl = {
 		identifiedResourceName = "대지의실크햇",
 		identifiedDescriptionName = {
 			"땅의 신성함을 가진 신의 힘이 봉인되어 있는 실크햇.",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACDCostume^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1078
@@ -9888,10 +10785,10 @@ tbl = {
 		identifiedDescriptionName = {
 			"색색가지 풍선에 귀여운 포링이 그려져 있다.",
 			"축제때 들고 다니면 행복한 기분이 될지도?",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACDCostume^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1289
@@ -9904,10 +10801,10 @@ tbl = {
 		identifiedResourceName = "날으는갈라파고",
 		identifiedDescriptionName = {
 			"하늘을 나는데 성공한 갈라파고. 언젠가 자력으로 하늘높이 날수 있기를 꿈꾸고 있다.",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACDCostume^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDLower^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1358
@@ -9921,10 +10818,10 @@ tbl = {
 		identifiedDescriptionName = {
 			"13주년 기념 한정 스페셜 카프라 인형 모자.",
 			"몬스터를 죽였을 시 획득 경험치+13%.",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACDCostume^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 0,
 		ClassNum = 581
@@ -9941,10 +10838,10 @@ tbl = {
 			"제작 방법은 비밀… ",
 			"이벤트 기간 동안, 물리/마법 공격을 받을 시 3.1% 확률로 10초간 잭으로 변신한다. ",
 			"(2015년 10월 14일 정기점검 후 ~ 11월 4일 정기점검 전까지)",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777중하단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACDCostume^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACD중하단 ^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1415
@@ -9957,10 +10854,10 @@ tbl = {
 		identifiedResourceName = "초록이모자",
 		identifiedDescriptionName = {
 			"귀여운 나무 정령의 모자.",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACDCostume^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 0,
 		ClassNum = 939
@@ -9973,11 +10870,11 @@ tbl = {
 		identifiedResourceName = "분홍큐피트날개",
 		identifiedDescriptionName = {
 			"사랑을 맺어주는 장난꾸러기 천사의 분홍색 날개.",
-			"계열 : ^777777의상장비^000000",
-			"위치 : ^777777걸칠것 ^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACDCostume^000000",
+			"Location: ^6A5ACD걸칠것 ^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 14
@@ -9990,11 +10887,11 @@ tbl = {
 		identifiedResourceName = "인비지블망토",
 		identifiedDescriptionName = {
 			"손으로 만져보면 망토 같은 느낌이 들지만.. 눈에는 보이지 않는다. ",
-			"계열 : ^777777의상장비^000000",
-			"위치 : ^777777걸칠것 ^000000",
-			"Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACDCostume^000000",
+			"Location: ^6A5ACD걸칠것 ^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10006,13 +10903,13 @@ tbl = {
 		identifiedDisplayName = "결속의 강인함 망토",
 		identifiedResourceName = "결속의망토",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"획득 경험치 +4%, 2제련당 MHP +2%.",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777720^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10024,13 +10921,13 @@ tbl = {
 		identifiedDisplayName = "결속의 기민함 망토",
 		identifiedResourceName = "결속의망토",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"획득 경험치 +4%, 2제련당 FLEE +3.",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777720^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10042,13 +10939,13 @@ tbl = {
 		identifiedDisplayName = "결속의 총명한 머플러",
 		identifiedResourceName = "결속의머플러",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"획득 경험치 +4%, 2제련당 SP 소모량 -1%.",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777720^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10063,10 +10960,10 @@ tbl = {
 			"모험가를 위한 왕국의 공인장비. ",
 			"BaseLV 100 이하 시, ",
 			"획득 경험치 +4%, 2제련당 CRI +2.",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777720^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD걸칠것^000000 Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10078,13 +10975,13 @@ tbl = {
 		identifiedDisplayName = "결속의 강인함 부츠",
 		identifiedResourceName = "결속의부츠",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"획득 경험치 +4%, 2제련당 STR +1.",
-			"계열 : ^777777신발^000000 방어 : ^77777720^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10096,13 +10993,13 @@ tbl = {
 		identifiedDisplayName = "결속의 기민함 부츠",
 		identifiedResourceName = "결속의부츠",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"획득 경험치 +4%, 2제련당 AGI +1.",
-			"계열 : ^777777신발^000000 방어 : ^77777720^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10114,13 +11011,13 @@ tbl = {
 		identifiedDisplayName = "결속의 정교한 슈즈",
 		identifiedResourceName = "결속의슈즈",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"획득 경험치 +4%, 2제련당 DEX +1.",
-			"계열 : ^777777신발^000000 방어 : ^77777720^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10132,13 +11029,13 @@ tbl = {
 		identifiedDisplayName = "결속의 총명한 슈즈",
 		identifiedResourceName = "결속의슈즈",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"획득 경험치 +4%, 2제련당 INT +1.",
-			"계열 : ^777777신발^000000 방어 : ^77777720^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD신발^000000 Defense: ^0000FF20^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10181,7 +11078,7 @@ tbl = {
 		identifiedResourceName = "알",
 		identifiedDescriptionName = {
 			"배회하는 자를 포획하기 위한 알 모양의 도구. 배회하는 자가 잡히길 빌며 힘껏 눌러 보자.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10194,7 +11091,7 @@ tbl = {
 		identifiedResourceName = "알",
 		identifiedDescriptionName = {
 			"루드를 포획하기 위한 알 모양의 도구. 루드가 잡히길 빌며 힘껏 눌러 보자.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10207,7 +11104,7 @@ tbl = {
 		identifiedResourceName = "알",
 		identifiedDescriptionName = {
 			"따따초를 포획하기 위한 알 모양의 도구. 노버스가 잡히길 빌며 힘껏 눌러 보자.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10220,7 +11117,7 @@ tbl = {
 		identifiedResourceName = "알",
 		identifiedDescriptionName = {
 			"노버스를 포획하기 위한 알 모양의 도구. 노버스가 잡히길 빌며 힘껏 눌러 보자.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10232,7 +11129,7 @@ tbl = {
 			"PC방 마일리지 2포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 50개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^77777720^000000"
+			"Weight: ^0EAA0B20^000000"
 		},
 		identifiedDisplayName = "PC방 노말박스",
 		identifiedResourceName = "상인전직상자",
@@ -10240,7 +11137,7 @@ tbl = {
 			"PC방 마일리지 2포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 50개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^77777720^000000"
+			"Weight: ^0EAA0B20^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10252,7 +11149,7 @@ tbl = {
 			"PC방 마일리지 10포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 80개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^77777720^000000"
+			"Weight: ^0EAA0B20^000000"
 		},
 		identifiedDisplayName = "PC방 우든박스",
 		identifiedResourceName = "나무보물상자",
@@ -10260,7 +11157,7 @@ tbl = {
 			"PC방 마일리지 10포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 80개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^77777720^000000"
+			"Weight: ^0EAA0B20^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10272,7 +11169,7 @@ tbl = {
 			"PC방 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 상자 2개와 에르늄 10개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^77777720^000000"
+			"Weight: ^0EAA0B20^000000"
 		},
 		identifiedDisplayName = "PC방 골든박스",
 		identifiedResourceName = "금보물상자",
@@ -10280,7 +11177,7 @@ tbl = {
 			"PC방 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 상자 2개와 에르늄 10개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^77777720^000000"
+			"Weight: ^0EAA0B20^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10292,7 +11189,7 @@ tbl = {
 			"PC방 마일리지 300포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 상자 2개와 이속변화포션 10개, 독약병 12개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^77777720^000000"
+			"Weight: ^0EAA0B20^000000"
 		},
 		identifiedDisplayName = "PC방 플래티넘박스",
 		identifiedResourceName = "다이아보물상자",
@@ -10300,7 +11197,7 @@ tbl = {
 			"PC방 마일리지 300포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 상자 2개와 이속변화포션 10개, 독약병 12개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^77777720^000000"
+			"Weight: ^0EAA0B20^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10311,14 +11208,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"무기 6제련 보장권, 방어구 6제련 보장권이 ",
 			"각 1장씩 들어있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "6제련권 상자",
 		identifiedResourceName = "캐시상자_보라",
 		identifiedDescriptionName = {
 			"무기 6제련 보장권, 방어구 6제련 보장권이 ",
 			"각 1장씩 들어있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10329,14 +11226,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"미드가르드 대륙의 모험가들을 응원하는 선물세트!",
 			"아이템 소지창을 넉넉히 한 뒤 개봉하는 것이 좋다.",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "스페셜 기프트 박스",
 		identifiedResourceName = "포장된상자",
 		identifiedDescriptionName = {
 			"미드가르드 대륙의 모험가들을 응원하는 선물세트!",
 			"아이템 소지창을 넉넉히 한 뒤 개봉하는 것이 좋다.",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10347,14 +11244,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"기간 한정 봉인된 드라큐라 스크롤. ",
 			"봉인된 드라큐라 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 베어러즈 쉐도우 상자, 의상 대지의 실크햇, 무한 파리의 날개 1일상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "봉인된 드라큐라 스크롤",
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된 드라큐라 스크롤. ",
 			"봉인된 드라큐라 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 베어러즈 쉐도우 상자, 의상 대지의 실크햇, 무한 파리의 날개 1일상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10365,14 +11262,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"베어러즈 쉐도우 장비가 들어있는 상자.",
 			"베어러즈 (아머, 슈즈, 쉴드, 웨폰, 이어링, 펜던트) 쉐도우 장비 중 1개를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "베어러즈 쉐도우 상자",
 		identifiedResourceName = "우울한상자",
 		identifiedDescriptionName = {
 			"베어러즈 쉐도우 장비가 들어있는 상자.",
 			"베어러즈 (아머, 슈즈, 쉴드, 웨폰, 이어링, 펜던트) 쉐도우 장비 중 1개를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10383,14 +11280,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"기간 한정 봉인된 스나이퍼 스크롤. ",
 			"봉인된 스나이퍼 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 헤이스티 슈즈 쉐도우, 헤이스티 아머 쉐도우, 의상 플라워 포트 마스크, 무한 파리의 날개 5일상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "봉인된 스나이퍼 스크롤",
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된 스나이퍼 스크롤. ",
 			"봉인된 스나이퍼 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 헤이스티 슈즈 쉐도우, 헤이스티 아머 쉐도우, 의상 플라워 포트 마스크, 무한 파리의 날개 5일상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10411,14 +11308,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자.",
 			"ASPD스톤(걸칠것)이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "의상 인챈트 스톤 상자4",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자.",
 			"ASPD스톤(걸칠것)이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10428,13 +11325,13 @@ tbl = {
 		unidentifiedResourceName = "쉐도우큐브",
 		unidentifiedDescriptionName = {
 			"다양한 종류의 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 큐브",
 		identifiedResourceName = "쉐도우큐브",
 		identifiedDescriptionName = {
 			"다양한 종류의 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10445,14 +11342,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
 			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 익스퍼트 슈즈 쉐도우, 익스퍼트 쉴드 쉐도우, 무한 파리의 날개 5일상자, 인챈트 소개장 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "봉인된인장 스크롤",
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
 			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 익스퍼트 슈즈 쉐도우, 익스퍼트 쉴드 쉐도우, 무한 파리의 날개 5일상자, 인챈트 소개장 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10463,14 +11360,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"은으로 장식된 카드. 봉인된 카드 시리즈 중 하나를 얻을 수 있다.",
 			"- 다크로드, 폭풍의 기사, 베르제브브, 키엘-D-01, 그룸언더나이트, 타락한대신관, 이프리트, 터틀제네럴, 백소진, 파라오, 월야화, 보스이그니젬, 베스퍼, 드라큐라, 스나이퍼",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "봉인된인장 카드",
 		identifiedResourceName = "은색인장카드",
 		identifiedDescriptionName = {
 			"은으로 장식된 카드. 봉인된 카드 시리즈 중 하나를 얻을 수 있다.",
 			"- 다크로드, 폭풍의 기사, 베르제브브, 키엘-D-01, 그룸언더나이트, 타락한대신관, 이프리트, 터틀제네럴, 백소진, 파라오, 월야화, 보스이그니젬, 베스퍼, 드라큐라, 스나이퍼",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10487,7 +11384,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
 			"봉인된인장 카드, 무기 11제련 보장권, 방어구 11제련 보장권, 리로드 슈즈 쉐도우, 리로드 쉴드 쉐도우, 리로드 아머 쉐도우, 무한 파리의 날개 5일상자 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10504,7 +11401,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
 			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 신년 쉐도우 큐브, 무한 파리의 날개 5일상자 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10512,300 +11409,300 @@ tbl = {
 	[22909] = {
 		unidentifiedDisplayName = "무기 5제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 5제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 5제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 5제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 5제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 5제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22910] = {
 		unidentifiedDisplayName = "무기 6제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 6제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 6제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 6제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 6제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 6제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22911] = {
 		unidentifiedDisplayName = "무기 7제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 7제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 7제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 7제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 7제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 7제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22912] = {
 		unidentifiedDisplayName = "무기 8제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 8제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 8제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 8제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 8제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 8제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22913] = {
 		unidentifiedDisplayName = "무기 9제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 9제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 9제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 9제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 9제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 9제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22915] = {
 		unidentifiedDisplayName = "무기 11제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 11제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 11제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 11제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 11제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 11제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22916] = {
 		unidentifiedDisplayName = "무기 12제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 12제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 12제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 12제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 12제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 12제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22917] = {
 		unidentifiedDisplayName = "무기 13제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 13제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 13제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 13제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 13제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 13제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22918] = {
 		unidentifiedDisplayName = "무기 14제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 14제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 14제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 14제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 14제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 14제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22919] = {
 		unidentifiedDisplayName = "무기 15제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 15제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 15제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 15제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 15제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 15제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22920] = {
 		unidentifiedDisplayName = "무기 16제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 16제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 16제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 16제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 16제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 16제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22921] = {
 		unidentifiedDisplayName = "무기 17제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 17제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 17제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 17제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 17제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 17제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22922] = {
 		unidentifiedDisplayName = "무기 18제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 18제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 18제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 18제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 18제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 18제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22923] = {
 		unidentifiedDisplayName = "무기 19제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 19제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 19제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 19제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 19제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 19제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22924] = {
 		unidentifiedDisplayName = "방어구 5제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 5제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 5제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 5제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 5제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 5제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22925] = {
 		unidentifiedDisplayName = "방어구 6제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 6제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 6제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 6제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 6제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 6제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22926] = {
 		unidentifiedDisplayName = "방어구 7제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 7제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 7제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 7제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 7제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 7제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22927] = {
 		unidentifiedDisplayName = "방어구 8제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 8제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 8제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 8제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 8제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 8제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22928] = {
 		unidentifiedDisplayName = "방어구 9제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 9제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 9제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 9제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 9제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 9제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22930] = {
 		unidentifiedDisplayName = "방어구 11제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 11제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 11제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 11제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 11제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 11제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22931] = {
 		unidentifiedDisplayName = "방어구 12제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 12제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 12제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 12제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 12제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 12제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22932] = {
 		unidentifiedDisplayName = "방어구 13제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 13제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 13제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 13제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 13제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 13제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22933] = {
 		unidentifiedDisplayName = "방어구 14제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 14제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 14제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 14제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 14제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 14제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22934] = {
 		unidentifiedDisplayName = "방어구 15제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 15제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 15제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 15제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 15제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 15제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22935] = {
 		unidentifiedDisplayName = "방어구 16제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 16제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 16제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 16제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 16제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 16제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22936] = {
 		unidentifiedDisplayName = "방어구 17제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 17제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 17제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 17제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 17제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 17제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22937] = {
 		unidentifiedDisplayName = "방어구 18제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 18제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 18제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 18제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 18제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 18제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22938] = {
 		unidentifiedDisplayName = "방어구 19제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 19제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 19제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 19제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 19제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 19제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22943] = {
 		unidentifiedDisplayName = "방어구 10제련 상품권",
 		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = { "방어구 10제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "방어구 10제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "방어구 10제련 상품권",
 		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 10제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "방어구 10제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22944] = {
 		unidentifiedDisplayName = "무기 10제련 상품권",
 		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = { "무기 10제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		unidentifiedDescriptionName = { "무기 10제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		identifiedDisplayName = "무기 10제련 상품권",
 		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 10제련 보장권 1장이 들어 있는 봉투.", "Weight: ^7777771^000000" },
+		identifiedDescriptionName = { "무기 10제련 보장권 1장이 들어 있는 봉투.", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -10821,7 +11718,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
 			"HP흡수스톤(상단), SP회복스톤(상단), STR변환스톤(중단), AGI변환스톤(하단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10833,7 +11730,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"기간 한정 매드바니 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "매드바니 스크롤",
 		identifiedResourceName = "매드바니스크롤",
@@ -10841,7 +11738,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"기간 한정 매드바니 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10885,13 +11782,13 @@ tbl = {
 		unidentifiedResourceName = "화려한상자",
 		unidentifiedDescriptionName = {
 			"다양한 종류의 웨폰 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 큐브(웨폰)",
 		identifiedResourceName = "화려한상자",
 		identifiedDescriptionName = {
 			"다양한 종류의 웨폰 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10901,13 +11798,13 @@ tbl = {
 		unidentifiedResourceName = "화려한상자",
 		unidentifiedDescriptionName = {
 			"다양한 종류의 아머 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 큐브(아머)",
 		identifiedResourceName = "화려한상자",
 		identifiedDescriptionName = {
 			"다양한 종류의 아머 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10917,13 +11814,13 @@ tbl = {
 		unidentifiedResourceName = "화려한상자",
 		unidentifiedDescriptionName = {
 			"다양한 종류의 쉴드 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 큐브(쉴드)",
 		identifiedResourceName = "화려한상자",
 		identifiedDescriptionName = {
 			"다양한 종류의 쉴드 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10933,13 +11830,13 @@ tbl = {
 		unidentifiedResourceName = "화려한상자",
 		unidentifiedDescriptionName = {
 			"다양한 종류의 슈즈 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 큐브(슈즈)",
 		identifiedResourceName = "화려한상자",
 		identifiedDescriptionName = {
 			"다양한 종류의 슈즈 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10949,13 +11846,13 @@ tbl = {
 		unidentifiedResourceName = "화려한상자",
 		unidentifiedDescriptionName = {
 			"다양한 종류의 펜던트 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 큐브(펜던트)",
 		identifiedResourceName = "화려한상자",
 		identifiedDescriptionName = {
 			"다양한 종류의 펜던트 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10965,35 +11862,35 @@ tbl = {
 		unidentifiedResourceName = "화려한상자",
 		unidentifiedDescriptionName = {
 			"다양한 종류의 이어링 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "쉐도우 큐브(이어링)",
 		identifiedResourceName = "화려한상자",
 		identifiedDescriptionName = {
 			"다양한 종류의 이어링 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22979] = {
-		unidentifiedDisplayName = "[비매품]전투교범&풍선껌",
+		unidentifiedDisplayName = "[not for sale]전투교범&풍선껌",
 		unidentifiedResourceName = "전투교범풍선껌",
 		unidentifiedDescriptionName = {
 			"보다 효율적인 전투방법이 기록된 설명서와 쫄깃하고 달콤한 풍선껌의 세트.",
 			"왠지 빨리 성장할 것 같은 기분과, 만나는 몬스터들이 가진 것을 모두 내놓을 것 같은 기분을 동시에 느낄 수 있다.",
 			"^00008830분간 획득하는 경험치가 50% 증가한다.^000000",
 			"^00008830분간 몬스터가 아이템을 드롭할 확률이 100% 증가한다.^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
-		identifiedDisplayName = "[비매품]전투교범&풍선껌",
+		identifiedDisplayName = "[not for sale]전투교범&풍선껌",
 		identifiedResourceName = "전투교범풍선껌",
 		identifiedDescriptionName = {
 			"보다 효율적인 전투방법이 기록된 설명서와 쫄깃하고 달콤한 풍선껌의 세트.",
 			"왠지 빨리 성장할 것 같은 기분과, 만나는 몬스터들이 가진 것을 모두 내놓을 것 같은 기분을 동시에 느낄 수 있다.",
 			"^00008830분간 획득하는 경험치가 50% 증가한다.^000000",
 			"^00008830분간 몬스터가 아이템을 드롭할 확률이 100% 증가한다.^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11004,14 +11901,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"파로스 등대섬에 나타난 '균열의 파장' 근처가 기록된 스크롤.",
 			"이 스크롤을 소모 시, '균열의 파장'에 가까운 곳으로 이동된다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "무한던전의 귀환서",
 		identifiedResourceName = "주문서다발",
 		identifiedDescriptionName = {
 			"파로스 등대섬에 나타난 '균열의 파장' 근처가 기록된 스크롤.",
 			"이 스크롤을 소모 시, '균열의 파장'에 가까운 곳으로 이동된다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11064,7 +11961,7 @@ tbl = {
 			"4일마다 행운의 알이 내 손안에!",
 			"- 신비한 알의 조각 4개를 모으면 행운의 알 1개를 증정.",
 			"- 신비한 알의 조각은 존다 서포트 직원과의 대화를 통해 획득.(1일 1개)",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11117,7 +12014,7 @@ tbl = {
 			"4일마다 행운의 알이 내 손안에!",
 			"- 신비한 알의 조각 4개를 모으면 행운의 알 1개를 증정.",
 			"- 신비한 알의 조각은 존다 서포트 직원과의 대화를 통해 획득.(1일 1개)",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11159,38 +12056,38 @@ tbl = {
 		unidentifiedResourceName = "상인전직상자",
 		unidentifiedDescriptionName = {
 			"PC방 마일리지 2포인트를 소모해서 얻을 수 있는 박스.",
-			"[비매품]화이트 슬림 포션 50개 , [비매품]응급처치상자 1개가 포장되어 있다. ",
+			"[not for sale]화이트 슬림 포션 50개 , [not for sale]응급처치상자 1개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		identifiedDisplayName = "개선된 PC방 노말박스",
 		identifiedResourceName = "상인전직상자",
 		identifiedDescriptionName = {
 			"PC방 마일리지 2포인트를 소모해서 얻을 수 있는 박스.",
-			"[비매품]화이트 슬림 포션 50개 , [비매품]응급처치상자 1개가 포장되어 있다. ",
+			"[not for sale]화이트 슬림 포션 50개 , [not for sale]응급처치상자 1개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22996] = {
-		unidentifiedDisplayName = "[비매품]섬광 막대",
+		unidentifiedDisplayName = "[not for sale]섬광 막대",
 		unidentifiedResourceName = "섬광막대",
 		unidentifiedDescriptionName = {
 			"스위치를 누르면 파란 섬광이 일어나는 막대. 섬광을 바라 본 사람은 기억의 일부를 잃게 되는 것 같다.",
 			"스킬트리를 초기화 시켜준다.",
 			"마을에서만 사용 가능하며, 소지량이 0이어야만 발동한다."
 		},
-		identifiedDisplayName = "[비매품]섬광 막대",
+		identifiedDisplayName = "[not for sale]섬광 막대",
 		identifiedResourceName = "섬광막대",
 		identifiedDescriptionName = {
 			"스위치를 누르면 파란 섬광이 일어나는 막대. 섬광을 바라 본 사람은 기억의 일부를 잃게 되는 것 같다.",
 			"스킬트리를 초기화 시켜준다.",
 			"마을에서만 사용 가능하며, 소지량이 0이어야만 발동한다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11202,7 +12099,7 @@ tbl = {
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까?",
 			"경고! - 마을에서는 사용할 수 없습니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "무한 탐욕 스크롤",
 		identifiedResourceName = "대지의주문서",
@@ -11210,7 +12107,7 @@ tbl = {
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까?",
 			"경고! - 마을에서는 사용할 수 없습니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11223,7 +12120,7 @@ tbl = {
 			"고양이손 상단에서 발행한 고양이손 티켓. ",
 			"해가 지날수록 사업이 번창하는 고양이손 상단의 회심의 서비스.",
 			"사용 시, 고양이손 창고 서비스를 사용할 수 있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "무한 고양이손 티켓",
 		identifiedResourceName = "고양이손티켓",
@@ -11232,13 +12129,13 @@ tbl = {
 			"고양이손 상단에서 발행한 고양이손 티켓. ",
 			"해가 지날수록 사업이 번창하는 고양이손 상단의 회심의 서비스.",
 			"사용 시, 고양이손 창고 서비스를 사용할 수 있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[22999] = {
-		unidentifiedDisplayName = "[비매품]변신문서 묶음",
+		unidentifiedDisplayName = "[not for sale]변신문서 묶음",
 		unidentifiedResourceName = "주문서다발",
 		unidentifiedDescriptionName = {
 			"아래의 변신 스크롤이 1개씩 들어있습니다.",
@@ -11250,9 +12147,9 @@ tbl = {
 			"변신_스크롤(코볼트아쳐)",
 			"변신_스크롤(네크로맨서)",
 			"――――――――――――― ",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
-		identifiedDisplayName = "[비매품]변신문서 묶음",
+		identifiedDisplayName = "[not for sale]변신문서 묶음",
 		identifiedResourceName = "주문서다발",
 		identifiedDescriptionName = {
 			"아래의 변신 스크롤이 1개씩 들어있습니다.",
@@ -11264,7 +12161,7 @@ tbl = {
 			"변신 스크롤(코볼트아쳐)",
 			"변신 스크롤(네크로맨서)",
 			"――――――――――――― ",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11281,7 +12178,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
 			"탐욕스톤(하단), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(중단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11291,20 +12188,20 @@ tbl = {
 		unidentifiedResourceName = "나무보물상자",
 		unidentifiedDescriptionName = {
 			"PC방 마일리지 10포인트를 소모해서 얻을 수 있는 박스.",
-			"화이트 슬림포션 상자 1개 , [비매품]응급처치상자 3개,",
+			"화이트 슬림포션 상자 1개 , [not for sale]응급처치상자 3개,",
 			"개선된 PC방 노말박스 1개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		identifiedDisplayName = "개선된 PC방 우든박스",
 		identifiedResourceName = "나무보물상자",
 		identifiedDescriptionName = {
 			"PC방 마일리지 10포인트를 소모해서 얻을 수 있는 박스.",
-			"화이트 슬림포션 상자 1개 , [비매품]응급처치상자 3개,",
+			"화이트 슬림포션 상자 1개 , [not for sale]응급처치상자 3개,",
 			"개선된 PC방 노말박스 1개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
@@ -11315,21 +12212,21 @@ tbl = {
 		unidentifiedResourceName = "금보물상자",
 		unidentifiedDescriptionName = {
 			"PC방 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
-			"화이트 슬림포션 상자 1개 ,  [비매품]블레싱 스크롤 10개 상자 1개",
-			"[비매품]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 5개 ",
+			"화이트 슬림포션 상자 1개 ,  [not for sale]블레싱 스크롤 10개 상자 1개",
+			"[not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 5개 ",
 			"이속변화포션 10개 , 독약병 10개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "개선된 PC방 골든박스",
 		identifiedResourceName = "금보물상자",
 		identifiedDescriptionName = {
 			"PC방 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
-			"화이트 슬림포션 상자 1개 ,  [비매품]블레싱 스크롤 10개 상자 1개",
-			"[비매품]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 5개 ",
+			"화이트 슬림포션 상자 1개 ,  [not for sale]블레싱 스크롤 10개 상자 1개",
+			"[not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 5개 ",
 			"이속변화포션 10개 , 독약병 10개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
@@ -11340,24 +12237,24 @@ tbl = {
 		unidentifiedResourceName = "다이아보물상자",
 		unidentifiedDescriptionName = {
 			"PC방 마일리지 300포인트를 소모해서 얻을 수 있는 박스. ",
-			"포션상자 1개 ,  독약병상자 1개 , [비매품]소형 생명수 상자 1개",
-			"[비매품]연마제 상자 1개 , [비매품]블레싱 스크롤 10개 상자 1개",
-			"[비매품]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 30개 ",
+			"포션상자 1개 ,  독약병상자 1개 , [not for sale]소형 생명수 상자 1개",
+			"[not for sale]연마제 상자 1개 , [not for sale]블레싱 스크롤 10개 상자 1개",
+			"[not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 30개 ",
 			"이속변화포션 30개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		identifiedDisplayName = "개선된 PC방 플래티넘박스",
 		identifiedResourceName = "다이아보물상자",
 		identifiedDescriptionName = {
 			"PC방 마일리지 300포인트를 소모해서 얻을 수 있는 박스. ",
-			"포션상자 1개 ,  독약병상자 1개 , [비매품]소형 생명수 상자 1개",
-			"[비매품]연마제 상자 1개 , [비매품]블레싱 스크롤 10개 상자 1개",
-			"[비매품]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 30개 ",
+			"포션상자 1개 ,  독약병상자 1개 , [not for sale]소형 생명수 상자 1개",
+			"[not for sale]연마제 상자 1개 , [not for sale]블레싱 스크롤 10개 상자 1개",
+			"[not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 30개 ",
 			"이속변화포션 30개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000",
+			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
@@ -11368,14 +12265,14 @@ tbl = {
 		unidentifiedResourceName = "오래된노란상자",
 		unidentifiedDescriptionName = {
 			"레드 슬림 포션 100개가 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		identifiedDisplayName = "레드 슬림 포션 상자",
 		identifiedResourceName = "오래된노란상자",
 		identifiedDescriptionName = {
 			"레드 슬림 포션 100개가 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
@@ -11388,7 +12285,7 @@ tbl = {
 			"13주년을 기념하여 룬미드가츠 왕국에서 특별히 제작된 상자.",
 			"왕국 장인의 손길이 닿아있는듯 고풍스러운 분위기를 풍기고 있다.",
 			"황금인장카드 . 9제련권 , 의문의알 등을 포함한 다양한 아이템이 들어있다는 소문도 있다.",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "13주년 기념 상자",
 		identifiedResourceName = "pro선물상자",
@@ -11396,7 +12293,7 @@ tbl = {
 			"13주년을 기념하여 룬미드가츠 왕국에서 특별히 제작된 상자.",
 			"왕국 장인의 손길이 닿아있는듯 고풍스러운 분위기를 풍기고 있다.",
 			"황금인장카드 . 9제련권 , 의문의알 등을 포함한 다양한 아이템이 들어있다는 소문도 있다.",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11404,10 +12301,10 @@ tbl = {
 	[23022] = {
 		unidentifiedDisplayName = "크로스 이벤트 상자",
 		unidentifiedResourceName = "선물상자_2",
-		unidentifiedDescriptionName = { "모바일 게임 크로스 이벤트 지원 상자.", "Weight: ^77777710^000000" },
+		unidentifiedDescriptionName = { "모바일 게임 크로스 이벤트 지원 상자.", "Weight: ^0EAA0B10^000000" },
 		identifiedDisplayName = "크로스 이벤트 상자",
 		identifiedResourceName = "선물상자_2",
-		identifiedDescriptionName = { "모바일 게임 크로스 이벤트 지원 상자.", "Weight: ^77777710^000000" },
+		identifiedDescriptionName = { "모바일 게임 크로스 이벤트 지원 상자.", "Weight: ^0EAA0B10^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11419,7 +12316,7 @@ tbl = {
 			"고대에 생존한 거대한 날짐승의 날개를 잘라 주술을 걸어놓은 것. 여러 사람을 한번에 임의의 장소로 이동시킬 수 있다.",
 			"파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ffffff_^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "무한 거대한 파리의 날개",
 		identifiedResourceName = "거대한파리날개",
@@ -11428,7 +12325,7 @@ tbl = {
 			"고대에 생존한 거대한 날짐승의 날개를 잘라 주술을 걸어놓은 것. 여러 사람을 한번에 임의의 장소로 이동시킬 수 있다.",
 			"파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ffffff_^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11438,15 +12335,15 @@ tbl = {
 		unidentifiedResourceName = "피아멧트스크롤",
 		unidentifiedDescriptionName = {
 			"기간 한정 피아멧트 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, [비매품]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"무기 11제련 보장권, 방어구 11제련 보장권, [not for sale]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "피아멧트 스크롤",
 		identifiedResourceName = "피아멧트스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 피아멧트 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, [비매품]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight: ^7777771^000000"
+			"무기 11제련 보장권, 방어구 11제련 보장권, [not for sale]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11457,7 +12354,7 @@ tbl = {
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "포획용 밧줄",
 		identifiedResourceName = "로프",
-		identifiedDescriptionName = { "도망친 달토끼를 생포하기 위한 밧줄이다", "Weight: ^7777770^000000" },
+		identifiedDescriptionName = { "도망친 달토끼를 생포하기 위한 밧줄이다", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11467,14 +12364,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 삐침머리가 들어있다.",
 			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "삐침머리 선물상자",
 		identifiedResourceName = "선물상자_1",
 		identifiedDescriptionName = {
 			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 삐침머리가 들어있다.",
 			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11485,14 +12382,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 스트레이트 포니가 들어있다.",
 			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "스트레이트 포니 선물상자",
 		identifiedResourceName = "선물상자_2",
 		identifiedDescriptionName = {
 			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 스트레이트 포니가 들어있다.",
 			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11503,14 +12400,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 루즈웨이브 트윈테일이 들어있다.",
 			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "루즈웨이브 트윈테일 선물상자",
 		identifiedResourceName = "선물상자_3",
 		identifiedDescriptionName = {
 			"평소와는 다른 헤어스타일을 즐길 수 있는 의상용 루즈웨이브 트윈테일이 들어있다.",
 			"8가지 색상중 어떤 것이 나올지는 열어보기 전에는 알 수 없다.",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11528,7 +12425,7 @@ tbl = {
 			"DEX 감소 포션",
 			"LUK 감소 포션",
 			"――――――――――――― ",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "스테이터스 감소 포션 상자",
 		identifiedResourceName = "벼락의상자",
@@ -11542,7 +12439,7 @@ tbl = {
 			"DEX 감소 포션",
 			"LUK 감소 포션",
 			"――――――――――――― ",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11571,150 +12468,150 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"기간 한정 인비지블 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 인비지블 박스, 봉인된인장 카드등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "인비지블 스크롤",
 		identifiedResourceName = "인비지블스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 인비지블 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 인비지블 박스, 봉인된인장 카드등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23038] = {
-		unidentifiedDisplayName = "[비매품]화이트 슬림포션 상자",
+		unidentifiedDisplayName = "[not for sale]화이트 슬림포션 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {
-			"[비매품]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
-		identifiedDisplayName = "[비매품]화이트 슬림포션 상자",
+		identifiedDisplayName = "[not for sale]화이트 슬림포션 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[비매품]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23039] = {
-		unidentifiedDisplayName = "[비매품]마스테라의 열매 상자",
+		unidentifiedDisplayName = "[not for sale]마스테라의 열매 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {
-			"[비매품]마스테라의 열매가 200개 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]마스테라의 열매가 200개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
-		identifiedDisplayName = "[비매품]마스테라의 열매 상자",
+		identifiedDisplayName = "[not for sale]마스테라의 열매 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[비매품]마스테라의 열매가 200개 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]마스테라의 열매가 200개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23040] = {
-		unidentifiedDisplayName = "[비매품]하얀 포션 상자",
+		unidentifiedDisplayName = "[not for sale]하얀 포션 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {
-			"[비매품]하얀 포션이 100개 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]하얀 포션이 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
-		identifiedDisplayName = "[비매품]하얀 포션 상자",
+		identifiedDisplayName = "[not for sale]하얀 포션 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[비매품]하얀 포션이 100개 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]하얀 포션이 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23041] = {
-		unidentifiedDisplayName = "[비매품]로얄제리 상자",
+		unidentifiedDisplayName = "[not for sale]로얄제리 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {
-			"[비매품]로얄제리가 100개 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]로얄제리가 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
-		identifiedDisplayName = "[비매품]로얄제리 상자",
+		identifiedDisplayName = "[not for sale]로얄제리 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[비매품]로얄제리가 100개 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]로얄제리가 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23042] = {
-		unidentifiedDisplayName = "[비매품]이그드라실의 씨앗",
+		unidentifiedDisplayName = "[not for sale]이그드라실의 씨앗",
 		unidentifiedResourceName = "이그드라실씨앗",
 		unidentifiedDescriptionName = {
 			"이세계의 근원이 된 이그드라실 열매의 씨앗. 고소하고 달지않은 은은한 향에 원기가 솟음을 느낄 수 있다함.^000088사용자의 HP 와 SP의 절반을 회복^000000시켜줌",
 			"재사용 대기시간 :  ^7777773초^000000",
-			"Weight: ^77777730^000000"
+			"Weight: ^0EAA0B30^000000"
 		},
-		identifiedDisplayName = "[비매품]이그드라실의 씨앗",
+		identifiedDisplayName = "[not for sale]이그드라실의 씨앗",
 		identifiedResourceName = "이그드라실씨앗",
 		identifiedDescriptionName = {
 			"이세계의 근원이 된 이그드라실 열매의 씨앗. 고소하고 달지않은 은은한 향에 원기가 솟음을 느낄 수 있다함.^000088사용자의 HP 와 SP의 절반을 회복^000000시켜줌",
 			"재사용 대기시간 :  ^7777773초^000000",
-			"Weight: ^77777730^000000"
+			"Weight: ^0EAA0B30^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23043] = {
-		unidentifiedDisplayName = "[비매품]이그드라실 씨앗 상자",
+		unidentifiedDisplayName = "[not for sale]이그드라실 씨앗 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {
-			"[비매품]이그드라실 씨앗이 30개 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]이그드라실 씨앗이 30개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
-		identifiedDisplayName = "[비매품]이그드라실 씨앗 상자",
+		identifiedDisplayName = "[not for sale]이그드라실 씨앗 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[비매품]이그드라실 씨앗이 30개 압축되어 들어있는 상자. 개봉 시 주의.",
-			"Weight: ^7777770^000000",
+			"[not for sale]이그드라실 씨앗이 30개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23046] = {
-		unidentifiedDisplayName = "[비매품]미스틱 파우더",
+		unidentifiedDisplayName = "[not for sale]미스틱 파우더",
 		unidentifiedResourceName = "요정의마법가루",
 		unidentifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"뿌리면 잠시동안 몸이 매우 가벼워지는 신비한 파우더.",
 			"5분간 FLEE + 20, LUK + 10.",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
-		identifiedDisplayName = "[비매품]미스틱 파우더",
+		identifiedDisplayName = "[not for sale]미스틱 파우더",
 		identifiedResourceName = "요정의마법가루",
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"뿌리면 잠시동안 몸이 매우 가벼워지는 신비한 파우더.",
 			"5분간 FLEE + 20, LUK + 10.",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23047] = {
-		unidentifiedDisplayName = "[비매품]티르의 축복",
+		unidentifiedDisplayName = "[not for sale]티르의 축복",
 		unidentifiedResourceName = "용병용빨간포션",
 		unidentifiedDescriptionName = {
 			"싸움의 신 티르의 축복이 담겨있는 포션.",
@@ -11722,9 +12619,9 @@ tbl = {
 			"경고! - 유과, 다식, 무지개떡 사용 시, 지속시간 및 능력치가 제대로 적용되지 않습니다. 피씨방 버프와 중첩되지 않습니다.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
-		identifiedDisplayName = "[비매품]티르의 축복",
+		identifiedDisplayName = "[not for sale]티르의 축복",
 		identifiedResourceName = "용병용빨간포션",
 		identifiedDescriptionName = {
 			"싸움의 신 티르의 축복이 담겨있는 포션.",
@@ -11732,13 +12629,13 @@ tbl = {
 			"경고! - 유과, 다식, 무지개떡 사용 시, 지속시간 및 능력치가 제대로 적용되지 않습니다. 피씨방 버프와 중첩되지 않습니다.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23048] = {
-		unidentifiedDisplayName = "[비매품]회복력 향상포션",
+		unidentifiedDisplayName = "[not for sale]회복력 향상포션",
 		unidentifiedResourceName = "초록에일",
 		unidentifiedDescriptionName = {
 			"연금술과 마법의 힘으로 만들어진 마법물약. 만드는 재료는 비밀로 붙여져 있으나, 로자리를 녹여서 만들었다는 소문이 있다.",
@@ -11746,9 +12643,9 @@ tbl = {
 			"복용하면 받는 힐과 사용하는 일부 포션계열 회복 아이템의 성능이 30분간 20% 상승한다.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
-		identifiedDisplayName = "[비매품]회복력 향상포션",
+		identifiedDisplayName = "[not for sale]회복력 향상포션",
 		identifiedResourceName = "초록에일",
 		identifiedDescriptionName = {
 			"연금술과 마법의 힘으로 만들어진 마법물약. 만드는 재료는 비밀로 붙여져 있으나, 로자리를 녹여서 만들었다는 소문이 있다.",
@@ -11756,13 +12653,13 @@ tbl = {
 			"복용하면 받는 힐과 사용하는 일부 포션계열 회복 아이템의 성능이 30분간 20% 상승한다.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23049] = {
-		unidentifiedDisplayName = "[비매품]톡톡캔디",
+		unidentifiedDisplayName = "[not for sale]톡톡캔디",
 		unidentifiedResourceName = "사탕",
 		unidentifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕. 먹고 나선 이빨을 꼭 닦도록 하자.",
@@ -11770,9 +12667,9 @@ tbl = {
 			"3분의 재사용 대기시간 존재.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
-		identifiedDisplayName = "[비매품]톡톡캔디",
+		identifiedDisplayName = "[not for sale]톡톡캔디",
 		identifiedResourceName = "사탕",
 		identifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕. 먹고 나선 이빨을 꼭 닦도록 하자.",
@@ -11780,13 +12677,13 @@ tbl = {
 			"3분의 재사용 대기시간 존재.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23050] = {
-		unidentifiedDisplayName = "[비매품]마법캔디",
+		unidentifiedDisplayName = "[not for sale]마법캔디",
 		unidentifiedResourceName = "과라나사탕",
 		unidentifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕. 먹고 나선 이빨을 꼭 닦도록 하자.",
@@ -11795,9 +12692,9 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
-		identifiedDisplayName = "[비매품]마법캔디",
+		identifiedDisplayName = "[not for sale]마법캔디",
 		identifiedResourceName = "과라나사탕",
 		identifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕. 먹고 나선 이빨을 꼭 닦도록 하자.",
@@ -11806,7 +12703,7 @@ tbl = {
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다. 재사용 대기시간은 톡톡캔디와 공유합니다.)",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11817,14 +12714,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"기간 한정 신상 모자 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자, 봉인된 모자 상자 II, 신상 모자 상자등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "신상 모자 스크롤",
 		identifiedResourceName = "분홍꽃스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 신상 모자 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자, 봉인된 모자 상자 II, 신상 모자 상자등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11873,10 +12770,10 @@ tbl = {
 			"제련도 1당 배쉬 SP 소모량 3% 추가 감소.",
 			"소드맨 이어링 쉐도우, 소드맨 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
 			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777이어링^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD이어링^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11893,10 +12790,10 @@ tbl = {
 			"제련도 1당 매머나이트 데미지 5% 추가 증가.",
 			"머쳔트 이어링 쉐도우, 머쳔트 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
 			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777이어링^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD이어링^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11913,10 +12810,10 @@ tbl = {
 			"제련도 1당 힐 SP 소모량 3% 추가 감소.",
 			"어콜라이트 이어링 쉐도우, 어콜라이트 펜던트 쉐도우 장착시 MATK +1%, MAXSP +1%.",
 			"제련도 합계가 10이상일 경우, MATK +2%, MAXSP +2% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777이어링^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD이어링^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11933,10 +12830,10 @@ tbl = {
 			"제련도 1당 화이어 볼트, 콜드 볼트, 라이트닝 볼트의 변동 캐스팅 5% 추가 감소.",
 			"매지션 이어링 쉐도우, 매지션 펜던트 쉐도우 장착시 MATK +1%, MAXSP +1%.",
 			"제련도 합계가 10이상일 경우, MATK +2%, MAXSP +2% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777이어링^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD이어링^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11951,10 +12848,10 @@ tbl = {
 			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
 			"매그넘 브레이크 데미지 20% 증가.",
 			"제련도 1당 매그넘 브레이크 데미지 5% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777펜던트^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD펜던트^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11969,10 +12866,10 @@ tbl = {
 			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
 			"카트 레볼루션 데미지 20% 증가.",
 			"제련도 1당 카트 레볼루션 데미지 5% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777펜던트^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD펜던트^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11987,10 +12884,10 @@ tbl = {
 			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
 			"홀리 라이트 데미지 50% 증가.",
 			"제련도 1당 홀리 라이트 데미지 10% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777펜던트^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD펜던트^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12005,10 +12902,10 @@ tbl = {
 			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
 			"인베넘 데미지 20% 증가.",
 			"제련도 1당 인베넘 데미지 5% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777펜던트^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD펜던트^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12023,10 +12920,10 @@ tbl = {
 			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
 			"화이어 월 데미지 20% 증가.",
 			"제련도 1당 화이어 월 데미지 5% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777펜던트^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD펜던트^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12041,10 +12938,10 @@ tbl = {
 			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
 			"애로우 샤워 데미지 20% 증가.",
 			"제련도 1당 애로우 샤워 데미지 5% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777펜던트^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD펜던트^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12059,10 +12956,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"피어스 데미지 20% 증가. ",
 			"제련도 1당 피어스 데미지 5% 추가 증가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12077,10 +12974,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"홀리크로스 SP 소모량 20% 감소. ",
 			"제련도 1당 홀리크로스 SP 소모량 3% 추가 감소.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12095,10 +12992,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"해머폴, 아드레날린 러쉬 SP 소모량 20% 감소. ",
 			"제련도 1당 해머폴, 아드레날린 러쉬 SP 소모량 5% 추가 감소.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12113,10 +13010,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"알케미스트 계열 직업군이 착용시, 힐 계열 스킬의 회복량 30% 증가.",
 			"제련도 1당 회복량 7% 추가 증가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12131,10 +13028,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"기리에 엘레이손, 렉스 에테르나 SP 소모량 20% 감소. ",
 			"제련도 1당 기리에 엘레이손, 렉스 에테르나 SP 소모량 3% 추가 감소.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12149,10 +13046,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"연환전신장 데미지 20% 증가. ",
 			"제련도 1당 연환전신장 데미지 5% 추가 증가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12167,10 +13064,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"그림투스 데미지 20% 증가. ",
 			"제련도 1당 그림투스 데미지 5% 추가 증가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12185,10 +13082,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"로그 계열이 착용시,",
 			"ATK가 한손검 수련 스킬 레벨만큼 증가한다. 제련도 6 초과시, 초과한 제련도 1당 ATK가 한손검 수련 스킬 레벨만큼 추가로 증가한다.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12203,10 +13100,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"메테오 스톰, 로드 오브 버밀리온, 스톰 가스트의 변동 캐스팅 시간 20% 감소.",
 			"제련도 1당 메테오 스톰, 로드 오브 버밀리온, 스톰 가스트의 변동 캐스팅 시간 3% 추가 감소.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12221,10 +13118,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"헤븐즈 드라이브 데미지 20% 증가. ",
 			"제련도 1당 헤븐즈 드라이브 데미지 5% 추가 증가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12239,10 +13136,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"블릿츠 비트의 데미지 20% 증가. ",
 			"제련도 1당 블릿츠 비트 데미지 5% 추가 증가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12257,10 +13154,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"ATK가 악기 다루기 스킬 레벨만큼 증가한다.",
 			"제련도 6 초과시, 초과한 제련도 1당 ATK가 악기 다루기 스킬 레벨만큼 추가로 증가한다. ",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12275,10 +13172,10 @@ tbl = {
 			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
 			"ATK가 춤연습 스킬 레벨만큼 증가한다.",
 			"제련도 6 초과시, 초과한 제련도 1당 ATK가 춤연습 스킬 레벨만큼 추가로 증가한다.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777슈즈^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD슈즈^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12299,7 +13196,7 @@ tbl = {
 			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
 			"1% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12320,7 +13217,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"DEF + 20.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12341,7 +13238,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"LUK + 3, STR - 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12362,7 +13259,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"STR +3, INT - 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12383,7 +13280,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"AGI +3, LUK - 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12404,7 +13301,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"INT + 3, DEX - 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12425,7 +13322,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"VIT + 3, AGI - 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12446,7 +13343,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"DEX + 3, VIT - 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12471,7 +13368,7 @@ tbl = {
 			"VIT변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"AGI +3, LUK + 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12496,7 +13393,7 @@ tbl = {
 			"AGI변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"LUK + 3, STR +3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12521,7 +13418,7 @@ tbl = {
 			"DEX변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"VIT + 3, AGI +3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12546,7 +13443,7 @@ tbl = {
 			"LUK변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"STR +3, INT + 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12571,7 +13468,7 @@ tbl = {
 			"STR변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"INT + 3, DEX + 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12596,7 +13493,7 @@ tbl = {
 			"INT변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"DEX + 3, VIT + 3.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12621,7 +13518,7 @@ tbl = {
 			"방어스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다. ",
 			"HIT + 5, FLEE + 5.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12642,7 +13539,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다. ",
 			"몬스터를 죽였을 시, 획득 경험치 2% 증가.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12657,7 +13554,7 @@ tbl = {
 			"의상 상, 중, 하단에 공격스톤 장착시, 아래의 능력치를 추가로 부여한다.",
 			"ATK +2%.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "공격스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -12668,7 +13565,7 @@ tbl = {
 			"의상 상, 중, 하단에 공격스톤 장착시, 아래의 능력치를 추가로 부여한다.",
 			"ATK +2%.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12683,7 +13580,7 @@ tbl = {
 			"의상 상, 중, 하단에 마공스톤 장착시, 아래의 능력치를 부여한다.",
 			"MATK +2%.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "마공스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -12694,7 +13591,7 @@ tbl = {
 			"의상 상, 중, 하단에 마공스톤 장착시, 아래의 능력치를 부여한다.",
 			"MATK +2%.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12709,7 +13606,7 @@ tbl = {
 			"야생에서 동물들을 포획하기 위한 트랩이었으나 파손 되었다.",
 			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다) ",
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12724,7 +13621,7 @@ tbl = {
 			"야생에서 동물들을 포획하기 위한 트랩.",
 			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다) ",
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12749,7 +13646,7 @@ tbl = {
 			"――――――――――――― ",
 			"성공확률은 25%이며, 실패시 시도한 투구 아이템도 함께 사라진다.",
 			"^ffffff<NAVI>^4D4DFF[피어싱 장인]^000000<INFO>itemmall,18,66,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "영혼의 뚫어뻥",
 		identifiedResourceName = "영혼의뚫어뻥",
@@ -12770,7 +13667,7 @@ tbl = {
 			"――――――――――――― ",
 			"성공확률은 25%이며, 실패시 시도한 투구 아이템도 함께 사라진다.",
 			"^ffffff<NAVI>^4D4DFF[피어싱 장인]^000000<INFO>itemmall,18,66,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12785,7 +13682,7 @@ tbl = {
 		identifiedResourceName = "달걀껍질조각",
 		identifiedDescriptionName = {
 			"정체를 알 수 없는 알의 조각. 이 알의 조각들을 모아서 품고 있다가 특정 사람에게 가져다 주면 온전한 형태의 다양한 알을 얻을 수 있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12798,7 +13695,7 @@ tbl = {
 		identifiedResourceName = "기사의영예",
 		identifiedDescriptionName = {
 			"미드가르드 대륙의 대도시가 공인하는 투자 전표. 가까운 대도시의 투자담당관에게 반납하면 해당 대도시의 신임을 얻을 수 있을 것이다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12811,7 +13708,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
 			"원거리 물리 데미지 + 3%",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "레인지스톤(중단)",
 		identifiedResourceName = "영혼의조각",
@@ -12820,7 +13717,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
 			"원거리 물리 데미지 + 3%",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12833,7 +13730,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"탐욕 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "탐욕스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -12842,7 +13739,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"탐욕 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12855,7 +13752,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"MAXHP + 100, LV.120 이상시, MAXHP +2%.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "체력스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -12864,7 +13761,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"MAXHP + 100, LV.120 이상시, MAXHP +2%.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12877,7 +13774,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"MAXSP + 50, LV.120 이상시, MAXSP +2%.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "마력스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -12886,7 +13783,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"MAXSP + 50, LV.120 이상시, MAXSP +2%.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12899,7 +13796,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"해독 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "해독스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -12908,7 +13805,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"해독 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12921,7 +13818,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"리커버리 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "리커버리스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -12930,7 +13827,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"리커버리 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12943,7 +13840,7 @@ tbl = {
 			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다.",
 			"고정 캐스팅 0.5초 감소",
 			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "캐스팅스톤(걸칠것)",
 		identifiedResourceName = "영혼의조각",
@@ -12952,7 +13849,7 @@ tbl = {
 			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다.",
 			"고정 캐스팅 0.5초 감소",
 			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12965,7 +13862,7 @@ tbl = {
 			"의상 상단 슬롯에 아래의 능력치를 부여한다.",
 			"ASPD + 1",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "ASPD스톤(상단)",
 		identifiedResourceName = "영혼의조각",
@@ -12974,7 +13871,7 @@ tbl = {
 			"의상 상단 슬롯에 아래의 능력치를 부여한다.",
 			"ASPD + 1",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12988,7 +13885,7 @@ tbl = {
 			"스킬 후 딜레이 1% 감소.",
 			"스킬후딜레이1중단, 스킬후딜레이1하단과 함께 장착시, 스킬 후 딜레이 2% 추가 감소.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "리로드스톤(상단)",
 		identifiedResourceName = "영혼의조각",
@@ -12998,7 +13895,7 @@ tbl = {
 			"스킬 후 딜레이 1% 감소.",
 			"스킬후딜레이1중단, 스킬후딜레이1하단과 함께 장착시, 스킬 후 딜레이 2% 추가 감소.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13011,7 +13908,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
 			"스킬 후 딜레이 1% 감소.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "리로드스톤(중단)",
 		identifiedResourceName = "영혼의조각",
@@ -13020,7 +13917,7 @@ tbl = {
 			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
 			"스킬 후 딜레이 1% 감소.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13033,7 +13930,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"스킬 후 딜레이 1% 감소.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "리로드스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -13042,7 +13939,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"스킬 후 딜레이 1% 감소.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13055,7 +13952,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"기리에 엘레이손 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		identifiedDisplayName = "기리에스톤(하단)",
 		identifiedResourceName = "영혼의조각",
@@ -13064,7 +13961,7 @@ tbl = {
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"기리에 엘레이손 Lv.1 사용 가능",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13072,10 +13969,10 @@ tbl = {
 	[25073] = {
 		unidentifiedDisplayName = "낡은 파피루스",
 		unidentifiedResourceName = "낡은두루마리",
-		unidentifiedDescriptionName = { "스핑크스의 주술사 마르두크가 가지고 있던 고대의 문서. 어떤의식에 대한 내용이 기록되어있다.", "Weight: ^7777770^000000" },
+		unidentifiedDescriptionName = { "스핑크스의 주술사 마르두크가 가지고 있던 고대의 문서. 어떤의식에 대한 내용이 기록되어있다.", "Weight: ^0EAA0B0^000000" },
 		identifiedDisplayName = "낡은 파피루스",
 		identifiedResourceName = "낡은두루마리",
-		identifiedDescriptionName = { "스핑크스의 주술사 마르두크가 가지고 있던 고대의 문서. 어떤의식에 대한 내용이 기록되어있다.", "Weight: ^7777770^000000" },
+		identifiedDescriptionName = { "스핑크스의 주술사 마르두크가 가지고 있던 고대의 문서. 어떤의식에 대한 내용이 기록되어있다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13084,13 +13981,13 @@ tbl = {
 		unidentifiedResourceName = "허름한코인",
 		unidentifiedDescriptionName = {
 			"어느 시절 유통되던 옛 화폐. 주로 침몰선이나 오래된 무덤의 부장품 등에서 자주 발견된다. 금화보다 단계가 낮아 큰 가치는 없다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "오래된 동전",
 		identifiedResourceName = "허름한코인",
 		identifiedDescriptionName = {
 			"어느 시절 유통되던 옛 화폐. 주로 침몰선이나 오래된 무덤의 부장품 등에서 자주 발견된다. 금화보다 단계가 낮아 큰 가치는 없다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13100,13 +13997,13 @@ tbl = {
 		unidentifiedResourceName = "프람베르그",
 		unidentifiedDescriptionName = {
 			"과거 룬-미드가츠의 해군 제독이 왕으로부터 하사받았던 칼. 오랜시간 침몰선 구석에서 방치되어 있어 해초가 끼고 녹슬어 있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "제독의 검",
 		identifiedResourceName = "프람베르그",
 		identifiedDescriptionName = {
 			"과거 룬-미드가츠의 해군 제독이 왕으로부터 하사받았던 칼. 오랜시간 침몰선 구석에서 방치되어 있어 해초가 끼고 녹슬어 있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13116,13 +14013,13 @@ tbl = {
 		unidentifiedResourceName = "비취나뭇잎",
 		unidentifiedDescriptionName = {
 			"동굴 깊숙한 곳에서만 자생한다는 풀 코세라의 어린 순을 딴 것. 코모도의 동굴에서 얻을 수 있는 코세라세라는, 마녀가 봉인된 영향탓인지 상당히 독특한 향을 가지고 있어, 향신료로 사용된다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "코세라세라",
 		identifiedResourceName = "비취나뭇잎",
 		identifiedDescriptionName = {
 			"동굴 깊숙한 곳에서만 자생한다는 풀 코세라의 어린 순을 딴 것. 코모도의 동굴에서 얻을 수 있는 코세라세라는, 마녀가 봉인된 영향탓인지 상당히 독특한 향을 가지고 있어, 향신료로 사용된다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13132,13 +14029,13 @@ tbl = {
 		unidentifiedResourceName = "택배상자",
 		unidentifiedDescriptionName = {
 			"프론테라 기사단의 보급품이 들어있는 상자. 간단한 식량에서부터 응급처치용 도구, 치료약 등이 들어있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "기사단 보급품",
 		identifiedResourceName = "택배상자",
 		identifiedDescriptionName = {
 			"프론테라 기사단의 보급품이 들어있는 상자. 간단한 식량에서부터 응급처치용 도구, 치료약 등이 들어있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13146,20 +14043,20 @@ tbl = {
 	[25078] = {
 		unidentifiedDisplayName = "하화주",
 		unidentifiedResourceName = "향주",
-		unidentifiedDescriptionName = { "여름꽃만 따서 페이욘 전통 기법으로 담근 술. 시원하면서도 부드러운  꽃향기가 느껴진다.", "Weight: ^7777770^000000" },
+		unidentifiedDescriptionName = { "여름꽃만 따서 페이욘 전통 기법으로 담근 술. 시원하면서도 부드러운  꽃향기가 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		identifiedDisplayName = "하화주",
 		identifiedResourceName = "향주",
-		identifiedDescriptionName = { "여름꽃만 따서 페이욘 전통 기법으로 담근 술. 시원하면서도 부드러운  꽃향기가 느껴진다.", "Weight: ^7777770^000000" },
+		identifiedDescriptionName = { "여름꽃만 따서 페이욘 전통 기법으로 담근 술. 시원하면서도 부드러운  꽃향기가 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25079] = {
 		unidentifiedDisplayName = "마지막 숨결",
 		unidentifiedResourceName = "영혼의숨소리",
-		unidentifiedDescriptionName = { "영혼이 마지막으로 남긴 숨결. 싸한 냉기가 감싸 잘 못 건드리면 뼛 속까지 얼어붙을 것 같다.", "Weight: ^7777770^000000" },
+		unidentifiedDescriptionName = { "영혼이 마지막으로 남긴 숨결. 싸한 냉기가 감싸 잘 못 건드리면 뼛 속까지 얼어붙을 것 같다.", "Weight: ^0EAA0B0^000000" },
 		identifiedDisplayName = "마지막 숨결",
 		identifiedResourceName = "영혼의숨소리",
-		identifiedDescriptionName = { "영혼이 마지막으로 남긴 숨결. 싸한 냉기가 감싸 잘 못 건드리면 뼛 속까지 얼어붙을 것 같다.", "Weight: ^7777770^000000" },
+		identifiedDescriptionName = { "영혼이 마지막으로 남긴 숨결. 싸한 냉기가 감싸 잘 못 건드리면 뼛 속까지 얼어붙을 것 같다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13168,13 +14065,13 @@ tbl = {
 		unidentifiedResourceName = "용의보주_청",
 		unidentifiedDescriptionName = {
 			"월야화와 구미호의 요력과 정기가 응집 된 결정체. 구미호들은 힘의 원천인 정기를 구슬처럼 만들어 몸에 지니고 있다고 한다. 여우의 정기와 더불어 강한 원한이 느껴진다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "여우구슬",
 		identifiedResourceName = "용의보주_청",
 		identifiedDescriptionName = {
 			"월야화와 구미호의 요력과 정기가 응집 된 결정체. 구미호들은 힘의 원천인 정기를 구슬처럼 만들어 몸에 지니고 있다고 한다. 여우의 정기와 더불어 강한 원한이 느껴진다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13187,7 +14084,7 @@ tbl = {
 		identifiedResourceName = "부드러운털",
 		identifiedDescriptionName = {
 			"달토끼를 사로잡다 얻게 된 달토끼의 부드러운 털이다. 매우 부드러워서 모자의 재료로 사용 된다. 야생 동물 보호협회 사람들이 좋아한다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13201,7 +14098,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"도망쳤다가 포획된 달토끼.",
 			"아직 살아있으니 조심히 다루자.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13214,7 +14111,7 @@ tbl = {
 		identifiedResourceName = "솜털",
 		identifiedDescriptionName = {
 			"달토끼를 사로잡다 얻게 된 달토끼의 털이다. 모자의 재료로 사용된다. 야생 동물 보호협회 사람들이 좋아한다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13229,7 +14126,7 @@ tbl = {
 		identifiedResourceName = "왕리본",
 		identifiedDescriptionName = {
 			"루티에에서 선물을 포장할 때 사용하는 마법의 리본. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 묶어 준다는 듯하다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13244,7 +14141,7 @@ tbl = {
 		identifiedResourceName = "브라기의날개귀",
 		identifiedDescriptionName = {
 			"루티에에서 선물을 장식할 때 사용하는 마법의 날개. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13255,14 +14152,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"할로윈에 없어서는 안될 대표적인 장식품!",
 			"파낸 속에 촛불을 켜서 분위기를 한층 할로윈 스럽게 만들 수 있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "호박 장식",
 		identifiedResourceName = "호박장식",
 		identifiedDescriptionName = {
 			"할로윈에 없어서는 안될 대표적인 장식품!",
 			"파낸 속에 촛불을 켜서 분위기를 한층 할로윈 스럽게 만들 수 있다.",
-			"Weight: ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13270,27 +14167,27 @@ tbl = {
 	[25133] = {
 		unidentifiedDisplayName = "잘마른 하얀 줄기",
 		unidentifiedResourceName = "영광의손",
-		unidentifiedDescriptionName = { "깨끗하게 잘 마른 줄기.", "할로윈 장식으로 안성맞춤!!", "Weight: ^7777770^000000" },
+		unidentifiedDescriptionName = { "깨끗하게 잘 마른 줄기.", "할로윈 장식으로 안성맞춤!!", "Weight: ^0EAA0B0^000000" },
 		identifiedDisplayName = "잘마른 하얀 줄기",
 		identifiedResourceName = "영광의손",
-		identifiedDescriptionName = { "깨끗하게 잘 마른 줄기.", "할로윈 장식으로 안성맞춤!!", "Weight: ^7777770^000000" },
+		identifiedDescriptionName = { "깨끗하게 잘 마른 줄기.", "할로윈 장식으로 안성맞춤!!", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25135] = {
-		unidentifiedDisplayName = "[비매품]영혼의 송곳",
+		unidentifiedDisplayName = "[not for sale]영혼의 송곳",
 		unidentifiedResourceName = "송곳",
 		unidentifiedDescriptionName = {
 			"소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.",
 			"^ffffff<NAVI>^4D4DFF[피어싱 전문가]^000000<INFO>itemmall,14,66,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
-		identifiedDisplayName = "[비매품]영혼의 송곳",
+		identifiedDisplayName = "[not for sale]영혼의 송곳",
 		identifiedResourceName = "송곳",
 		identifiedDescriptionName = {
 			"소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.",
 			"^ffffff<NAVI>^4D4DFF[피어싱 전문가]^000000<INFO>itemmall,14,66,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13302,13 +14199,13 @@ tbl = {
 		identifiedDisplayName = "결속의 카타르",
 		identifiedResourceName = "결속의카타르",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777카타르^000000 공격 : ^777777123^000000",
-			"Weight: ^77777765^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777어쌔신 계열^000000"
+			"A certified kingdom equipment for adventurer.",
+			"Increase ATK by (Refine*Refine*1.25)",
+			"Class: ^6A5ACD카타르^000000 Attack: ^D80000123^000000",
+			"Weight: ^0EAA0B65^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B어쌔신 계열^000000"
 		},
 		slotCount = 1,
 		ClassNum = 16
@@ -13324,10 +14221,10 @@ tbl = {
 			"돌던지기 사용시, 20%의 확률로 5초간 ATK와 FLEE 30증가. 제련도 1당 ATK와 FLEE 10 추가 증가.",
 			"씨프 이어링 쉐도우, 씨프 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
 			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777이어링^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD이어링^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13343,10 +14240,10 @@ tbl = {
 			"더블스트레이핑 사용시, 20%의 확률로 5초간 ATK와 HIT 30증가. 제련도 1당 ATK와 HIT 10 추가 증가.",
 			"아쳐 이어링 쉐도우, 아쳐 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
 			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
-			"계열 : ^777777쉐도우 장비^000000",
-			"위치 : ^777777이어링^000000 Weight: ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전직업^000000"
+			"Class: ^6A5ACD쉐도우 장비^000000",
+			"Location: ^6A5ACD이어링^000000 Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B전직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13358,13 +14255,13 @@ tbl = {
 		identifiedDisplayName = "결속의 가드",
 		identifiedResourceName = "결속의가드",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"1제련당 DEF +12.",
-			"계열 : ^777777방패^000000 방어 : ^77777760^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD방패^000000 Defense: ^0000FF60^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 1
@@ -13376,13 +14273,13 @@ tbl = {
 		identifiedDisplayName = "결속의 버클러",
 		identifiedResourceName = "결속의버클러",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
+			"A certified kingdom equipment for adventurer.",
 			"BaseLV 100 이하 시, ",
 			"1제련당 MSP +2%.",
-			"계열 : ^777777방패^000000 방어 : ^77777760^000000",
-			"Weight: ^77777730^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
+			"Class: ^6A5ACD방패^000000 Defense: ^0000FF60^000000",
+			"Weight: ^0EAA0B30^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
 		},
 		slotCount = 1,
 		ClassNum = 1
@@ -13394,13 +14291,13 @@ tbl = {
 		identifiedDisplayName = "결속의 양날 도끼",
 		identifiedResourceName = "결속의양날도끼",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777양손도끼^000000 공격 : ^777777190^000000",
-			"Weight: ^777777100^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777검사 계열,상인 계열^000000"
+			"A certified kingdom equipment for adventurer.",
+			"Increase ATK by (Refine*Refine*1.25)",
+			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000190^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사 계열,상인 계열^000000"
 		},
 		slotCount = 1,
 		ClassNum = 7
@@ -13412,16 +14309,26 @@ tbl = {
 		identifiedDisplayName = "결속의 성서",
 		identifiedResourceName = "결속의성서",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비.",
-			"(제련도*제련도*1.25) 만큼 ATK 증가.",
-			"계열 : ^777777책^000000 공격 : ^77777742^000000",
-			"Weight: ^77777722^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777권성,세이지 계열,프리스트 계열^000000"
+			"A certified kingdom equipment for adventurer.",
+			"Increase ATK by (Refine*Refine*1.25)",
+			"Class: ^6A5ACD책^000000 Attack: ^D8000042^000000",
+			"Weight: ^0EAA0B22^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B권성,세이지 계열,프리스트 계열^000000"
 		},
 		slotCount = 1,
 		ClassNum = 15
+	},
+	[29057] = {
+		unidentifiedDisplayName = "기리에 엘레이손",
+		unidentifiedResourceName = "푸른묘안석",
+		unidentifiedDescriptionName = { "기리에 엘레이손 1Lv 사용가능." },
+		identifiedDisplayName = "기리에 엘레이손",
+		identifiedResourceName = "푸른묘안석",
+		identifiedDescriptionName = { "기리에 엘레이손 1Lv 사용가능." },
+		slotCount = 0,
+		ClassNum = 0
 	},
 }
 
