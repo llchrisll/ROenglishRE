@@ -10709,23 +10709,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 745
 	},
-	[18813] = {
-		unidentifiedDisplayName = "안경",
-		unidentifiedResourceName = "글래스",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "뉴웨이브 선글라스",
-		identifiedResourceName = "독특한패션안경",
-		identifiedDescriptionName = {
-			"근미래적인 느낌이 드는 선글라스.",
-			"스킬 후 딜레이 10% 감소.",
-			"Class: ^6A5ACDHeadgear^000000 Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDMiddle^000000Weight: ^0EAA0B10^000000",
-			"Required Level: ^0EAA0B30^000000",
-			"Jobs: ^0EAA0B전직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 856
-	},
 	[19096] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "캡",
@@ -14319,16 +14302,6 @@ tbl = {
 		},
 		slotCount = 1,
 		ClassNum = 15
-	},
-	[29057] = {
-		unidentifiedDisplayName = "기리에 엘레이손",
-		unidentifiedResourceName = "푸른묘안석",
-		unidentifiedDescriptionName = { "기리에 엘레이손 1Lv 사용가능." },
-		identifiedDisplayName = "기리에 엘레이손",
-		identifiedResourceName = "푸른묘안석",
-		identifiedDescriptionName = { "기리에 엘레이손 1Lv 사용가능." },
-		slotCount = 0,
-		ClassNum = 0
 	},
 }
 
