@@ -264,7 +264,7 @@ StateIconList[EFST_IDs.EFST_ATKER_BLOOD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "SP Consumption Decrease Potion", COLOR_TITLE_DEBUFF },
+		{ "SP Consumption Decrease Potion", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Decrease SP consumption when using skills" }
 	}
@@ -1346,7 +1346,7 @@ StateIconList[EFST_IDs.EFST_BLOODING] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Bleeding", COLOR_TITLE_DEBUFF },
+		{ "Bleeding", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Disable natural HP and SP regeneration" },
 		{ "Lose certain amount of HP over time" }
@@ -1732,10 +1732,9 @@ StateIconList[EFST_IDs.EFST_STRIPACCESSARY] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_PROPERTYUNDEAD] = {
+	haveTimeLimit = 0,
 	descript = {
-		{ "Undead", COLOR_TITLE_DEBUFF },
-		{ "Undead Property" },
-		{ "Cannot be recovered by Heal skill" }
+		{ "Undead Property" }
 	}
 }
 StateIconList[EFST_IDs.EFST_INVISIBILITY] = {
@@ -4249,7 +4248,7 @@ StateIconList[EFST_IDs.EFST_HEALTHSTATE_FEAR] = {
 		{ "Reduce HIT and Flee" }
 	}
 }
-StateIconList[EFST_IDs.EFST_CURSEDCIRCLE_ATKER] = {
+StateIconList[EFST_IDs.EFST_CURSEDCIRCLE_TARGET] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {

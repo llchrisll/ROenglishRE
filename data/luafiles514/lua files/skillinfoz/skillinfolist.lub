@@ -11173,5 +11173,252 @@ SKILL_INFO_LIST = {
 		SpAmount = { 40 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
+	},
+	[SKID.SU_BASIC_SKILL] = {
+		"SU_BASIC_SKILL",
+		SkillName = "새로운 기본 기능",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.SU_BITE] = {
+		"SU_BITE",
+		SkillName = "깨물기",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 2 },
+		_NeedSkillList = {
+			{ SKID.SU_BASIC_SKILL, 1 }
+		}
+	},
+	[SKID.SU_HIDE] = {
+		"SU_HIDE",
+		SkillName = "숨기",
+		MaxLv = 1,
+		SpAmount = { 30 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SU_BITE, 1 }
+		}
+	},
+	[SKID.SU_SCRATCH] = {
+		"SU_SCRATCH",
+		SkillName = "할퀴기",
+		MaxLv = 3,
+		SpAmount = { 20, 25, 30 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.SU_HIDE, 1 }
+		}
+	},
+	[SKID.SU_STOOP] = {
+		"SU_STOOP",
+		SkillName = "웅크리기",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SU_SCRATCH, 3 }
+		}
+	},
+	[SKID.SU_LOPE] = {
+		"SU_LOPE",
+		SkillName = "도약",
+		MaxLv = 3,
+		SpAmount = { 30, 30, 30 },
+		bSeperateLv = false,
+		AttackRange = { 6, 10, 14 },
+		_NeedSkillList = {
+			{ SKID.SU_STOOP, 1 }
+		}
+	},
+	[SKID.SU_SPRITEMABLE] = {
+		"SU_SPRITEMABLE",
+		SkillName = "혼 구슬",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SU_LOPE, 3 }
+		}
+	},
+	[SKID.SU_FRESHSHRIMP] = {
+		"SU_FRESHSHRIMP",
+		SkillName = "새우의 신선함",
+		MaxLv = 5,
+		SpAmount = { 22, 24, 26, 28, 30 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_SPRITEMABLE, 1 }
+		}
+	},
+	[SKID.SU_BUNCHOFSHRIMP] = {
+		"SU_BUNCHOFSHRIMP",
+		SkillName = "새우 떼",
+		MaxLv = 5,
+		SpAmount = { 44, 48, 52, 56, 60 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SU_FRESHSHRIMP, 3 }
+		}
+	},
+	[SKID.SU_TUNABELLY] = {
+		"SU_TUNABELLY",
+		SkillName = "참치 대뱃살",
+		MaxLv = 5,
+		SpAmount = { 20, 30, 40, 50, 60 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_BUNCHOFSHRIMP, 3 }
+		}
+	},
+	[SKID.SU_TUNAPARTY] = {
+		"SU_TUNAPARTY",
+		SkillName = "참치 파티",
+		MaxLv = 5,
+		SpAmount = { 20, 30, 40, 50, 60 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_TUNABELLY, 3 }
+		}
+	},
+	[SKID.SU_SV_STEMSPEAR] = {
+		"SU_SV_STEMSPEAR",
+		SkillName = "개다래 줄기 창",
+		MaxLv = 5,
+		SpAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_SPRITEMABLE, 1 }
+		}
+	},
+	[SKID.SU_SV_ROOTTWIST] = {
+		"SU_SV_ROOTTWIST",
+		SkillName = "개다래 뿌리 휘감기",
+		MaxLv = 5,
+		SpAmount = { 10, 12, 14, 16, 18 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_SV_STEMSPEAR, 3 }
+		}
+	},
+	[SKID.SU_CN_METEOR] = {
+		"SU_CN_METEOR",
+		SkillName = "개박하 메테오",
+		MaxLv = 5,
+		SpAmount = { 20, 35, 50, 65, 80 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_SV_ROOTTWIST, 3 }
+		}
+	},
+	[SKID.SU_CN_POWDERING] = {
+		"SU_CN_POWDERING",
+		SkillName = "개박하 가루 뿌리기",
+		MaxLv = 5,
+		SpAmount = { 40, 36, 32, 28, 24 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_CN_METEOR, 3 }
+		}
+	},
+	[SKID.SU_PICKYPECK] = {
+		"SU_PICKYPECK",
+		SkillName = "픽키 마구쪼기",
+		MaxLv = 5,
+		SpAmount = { 10, 19, 28, 37, 46 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_SPRITEMABLE, 1 }
+		}
+	},
+	[SKID.SU_ARCLOUSEDASH] = {
+		"SU_ARCLOUSEDASH",
+		SkillName = "아크라우스 대시",
+		MaxLv = 5,
+		SpAmount = { 12, 20, 28, 36, 44 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_PICKYPECK, 3 }
+		}
+	},
+	[SKID.SU_SCAROFTAROU] = {
+		"SU_SCAROFTAROU",
+		SkillName = "타로우의 상처",
+		MaxLv = 5,
+		SpAmount = { 10, 14, 18, 22, 26 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_ARCLOUSEDASH, 3 }
+		}
+	},
+	[SKID.SU_LUNATICCARROTBEAT] = {
+		"SU_LUNATICCARROTBEAT",
+		SkillName = "루나틱 당근난타",
+		MaxLv = 5,
+		SpAmount = { 15, 25, 35, 45, 55 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_SCAROFTAROU, 3 }
+		}
+	},
+	[SKID.SU_POWEROFSEA] = {
+		"SU_POWEROFSEA",
+		SkillName = "바다의 힘",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SU_TUNAPARTY, 3 }
+		}
+	},
+	[SKID.SU_POWEROFLAND] = {
+		"SU_POWEROFLAND",
+		SkillName = "대지의 힘",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SU_CN_POWDERING, 3 }
+		}
+	},
+	[SKID.SU_POWEROFLIFE] = {
+		"SU_POWEROFLIFE",
+		SkillName = "생명의 힘",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SU_LUNATICCARROTBEAT, 3 }
+		}
+	},
+	[SKID.ALL_GLASTHEIM_RECALL] = {
+		"ALL_GLASTHEIM_RECALL",
+		SkillName = "글레스트헤임 귀환",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	}
 }
