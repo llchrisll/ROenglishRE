@@ -1,4 +1,540 @@
 tbl = {
+	[1681] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "새싹 강아지풀 지팡이",
+		identifiedResourceName = "초보자용강아지풀",
+		identifiedDescriptionName = {
+			"도람족이라면 누구나 다 갖고있다는",
+			"새싹 강아지풀 지팡이.",
+			"지팡이에서 이제 갓 새싹이 자라려고 하는 중 이다.",
+			"제련불가.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^77777730^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 0,
+		ClassNum = 100
+	},
+	[1683] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "풍성한 강아지풀 지팡이",
+		identifiedResourceName = "풍성한강아지풀",
+		identifiedDescriptionName = {
+			"풍성하고 부드러운 모양새를 가지고 있어서 보고만 있어도 만족스러운 강아지풀 지팡이.",
+			"MATK + 70, MSP + 50.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^77777750^000000",
+			"무게 : ^77777720^000000",
+			"무기 레벨 : ^7777772^000000",
+			"요구 레벨 : ^77777712^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 100
+	},
+	[1684] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "길다란 강아지풀 지팡이",
+		identifiedResourceName = "길다란강아지풀",
+		identifiedDescriptionName = {
+			"아주 길어서 모두의 시선을 사로잡는 멋진 강아지풀 지팡이.",
+			"원거리 물리 공격력 5%, MHP + 200.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^77777750^000000",
+			"무게 : ^77777720^000000",
+			"무기 레벨 : ^7777772^000000",
+			"요구 레벨 : ^77777712^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 100
+	},
+	[1685] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "잠자리 앉은 강아지풀 지팡이",
+		identifiedResourceName = "잠자리앉은강아지풀",
+		identifiedDescriptionName = {
+			"잠자리가 앉아있는 희귀한 강아지풀 지팡이.",
+			"어째 흔들어도 날아가질 않네..?",
+			"MATK + 100, INT + 1,",
+			"MHP + 100, MSP + 150.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^77777770^000000",
+			"무게 : ^77777730^000000",
+			"무기 레벨 : ^7777772^000000",
+			"요구 레벨 : ^77777720^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 100
+	},
+	[1686] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "커다란 강아지풀 지팡이",
+		identifiedResourceName = "커다란강아지풀",
+		identifiedDescriptionName = {
+			"간신히 한 손에 잡힐만한 아주 커다란 강아지풀 지팡이. 무게 또한 만만치 않다.",
+			"원거리 물리 공격력 + 8%, DEX + 1,",
+			"MHP + 200, MSP + 100.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^77777770^000000",
+			"무게 : ^77777730^000000",
+			"무기 레벨 : ^7777772^000000",
+			"요구 레벨 : ^77777720^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 100
+	},
+	[1687] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "초보자용 강아지풀 지팡이",
+		identifiedResourceName = "초보자용강아지풀",
+		identifiedDescriptionName = {
+			"귀여운 강아지풀 모양의 지팡이.",
+			"초보자들이 사용하기에 딱 좋다.",
+			"MHP + 100, MATK + 15.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^77777740^000000",
+			"무게 : ^77777710^000000",
+			"무기 레벨 : ^7777771^000000",
+			"요구 레벨 : ^7777773^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 100
+	},
+	[1690] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "신기한 강아지풀 지팡이",
+		identifiedResourceName = "잠자리앉은강아지풀",
+		identifiedDescriptionName = {
+			"잠자리가 앉은 채로 마법이 깃들어 단단히 고정된 강아지풀.",
+			"MATK + 180. MSP + 50.",
+			"제련도 3당 MATK + 10, MSP + 10씩 증가.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^77777780^000000",
+			"무게 : ^77777740^000000",
+			"무기 레벨 : ^7777772^000000",
+			"요구 레벨 : ^77777760^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 3,
+		ClassNum = 100
+	},
+	[1691] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "신묘한 강아지풀 지팡이",
+		identifiedResourceName = "잠자리앉은강아지풀",
+		identifiedDescriptionName = {
+			"잠자리와 강아지풀이 이제 완전히 한몸이 되버린 풀.",
+			"MATK + 240. MSP + 100.",
+			"제련도 3당 MATK + 2%, MSP + 1%씩 증가.",
+			"",
+			"- 도람족 무기 전용 옵션 - ",
+			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
+			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
+			"(10제련까지 적용)",
+			"",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777100^000000",
+			"무게 : ^77777750^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 2,
+		ClassNum = 100
+	},
+	[1692] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "마력의 강아지풀 지팡이",
+		identifiedResourceName = "잠자리앉은강아지풀",
+		identifiedDescriptionName = {
+			"잠자리와 강아지풀의 묘한 마력의 시너지가 느껴지는 풀.",
+			"MATK + 255. MSP + 100.",
+			"제련도 2당 MATK + 2%, MSP + 1%씩 증가.",
+			"",
+			"- 도람족 무기 전용 옵션 - ",
+			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
+			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
+			"(10제련까지 적용)",
+			"",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777120^000000",
+			"무게 : ^77777760^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777140^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 100
+	},
+	[1693] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "마력의 노랑 강아지풀 지팡이",
+		identifiedResourceName = "마력의노랑강아지풀",
+		identifiedDescriptionName = {
+			"잠자리가 앉은 노랗게 잘 익어버린 강아지 풀.",
+			"MATK + 270, 제련도 2당 MATK + 3%.",
+			"[새우의 신선함] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [아크라우스 대시] 1레벨 발동, [아쿠라우스 대시] 스킬 습득시 습득한 레벨로 발동",
+			"[개다래 줄기창] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.",
+			"",
+			"- 도람족 무기 전용 옵션 - ",
+			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
+			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
+			"(10제련까지 적용)",
+			"",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777140^000000",
+			"무게 : ^77777770^000000",
+			"무기 레벨 : ^7777774^000000",
+			"요구 레벨 : ^777777175^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 99
+	},
+	[1694] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "강아지풀 모형",
+		identifiedResourceName = "커다란강아지풀",
+		identifiedDescriptionName = {
+			"플라스틱으로 만들어진 강아지풀 형태의 모형.",
+			"원거리 물리 공격력 + 8%, MHP + 100.",
+			"제련도 3당 DEX + 2, MSP + 10씩 증가.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777150^000000",
+			"무게 : ^77777730^000000",
+			"무기 레벨 : ^7777772^000000",
+			"요구 레벨 : ^77777760^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 3,
+		ClassNum = 100
+	},
+	[1695] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "섬세한 강아지풀 모형",
+		identifiedResourceName = "커다란강아지풀",
+		identifiedDescriptionName = {
+			"섬세하게 만들어진 강아지풀 형태의 모형.",
+			"원거리 물리 공격력 + 8%, MHP + 200.",
+			"제련도 3당 DEX + 3, MSP + 15씩 증가.",
+			"",
+			"- 도람족 무기 전용 옵션 - ",
+			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
+			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
+			"(10제련까지 적용)",
+			"",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777195^000000",
+			"무게 : ^77777730^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 2,
+		ClassNum = 100
+	},
+	[1696] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "정교한 강아지풀 모형",
+		identifiedResourceName = "커다란강아지풀",
+		identifiedDescriptionName = {
+			"아주 정교하게 만들어진 강아지풀 형태의 모형.",
+			"원거리 물리 공격력 + 8%, MHP + 5%.",
+			"제련도 2당 DEX + 3, MSP + 15씩 증가.",
+			"",
+			"- 도람족 무기 전용 옵션 - ",
+			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
+			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
+			"(10제련까지 적용)",
+			"",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777240^000000",
+			"무게 : ^77777730^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777140^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 100
+	},
+	[1697] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "정교한 노랑 강아지풀 모형",
+		identifiedResourceName = "정교한노랑강아지풀모형",
+		identifiedDescriptionName = {
+			"아주 정교하게 만들어진 노랑 강아지풀 형태의 모형.",
+			"원거리 물리 공격력 + 9%, MHP + 7%.",
+			"제련도 2당 원거리 물리 공격력+ 1%, MSP + 20씩 증가.",
+			"[픽키 마구쪼기] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.",
+			"",
+			"- 도람족 무기 전용 옵션 - ",
+			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
+			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
+			"(10제련까지 적용)",
+			"",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777270^000000",
+			"무게 : ^77777730^000000",
+			"무기 레벨 : ^7777774^000000",
+			"요구 레벨 : ^777777175^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 99
+	},
+	[1699] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "P.강아지풀Ⅰ",
+		identifiedResourceName = "길다란강아지풀",
+		identifiedDescriptionName = {
+			"낙원단에서 자체 제작한 강아지풀. 초보 소환사를 위한 기본 아이템. ",
+			"DEX+ 3, INT + 3 , MATK + 135.",
+			"원거리 공격력 5%.",
+			"제련불가.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777120^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777772^000000",
+			"요구 레벨 : ^77777726^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 0,
+		ClassNum = 100
+	},
+	[4659] = {
+		unidentifiedDisplayName = "에그링 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "LUK + 2", "MHP + 50", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "에그링 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "LUK + 2", "MHP + 50", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4660] = {
+		unidentifiedDisplayName = "정찰 바질리스크 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {
+			"소형, 중형 몬스터에게 받는 물리, 마법 데미지 5% 감소",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777방패^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "정찰 바질리스크 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"소형, 중형 몬스터에게 받는 물리, 마법 데미지 5% 감소",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777방패^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4661] = {
+		unidentifiedDisplayName = "돌격 바질리스크 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {
+			"중형, 대형 몬스터에게 받는 물리, 마법 데미지 20% 감소",
+			"소형 몬스터에게 받는 물리, 마법 데미지 15% 증가",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777방패^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "돌격 바질리스크 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"중형, 대형 몬스터에게 받는 물리, 마법 데미지 20% 감소",
+			"소형 몬스터에게 받는 물리, 마법 데미지 15% 증가",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777방패^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4662] = {
+		unidentifiedDisplayName = "대형 에그링 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {
+			"ATK + 25, MATK + 25",
+			"공격 후 딜레이 - 10%",
+			"MHP + 1000",
+			"원거리 물리 데미지 + 5%",
+			"크리티컬 데미지 + 10%",
+			"",
+			"순수 STR 10마다 ATK - 5",
+			"순수 AGI 10마다 공격 후 딜레이 + 2%",
+			"순수 VIT 10마다 MHP - 200",
+			"순수 INT 10마다 MATK - 5",
+			"순수 DEX 10마다 원거리 물리데미지 - 1%",
+			"순수 LUK 10마다 크리티컬 데미지 - 2%",
+			"모든 아이템 옵션은 0 이하로 감소되지 않는다.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "대형 에그링 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"ATK + 25, MATK + 25",
+			"공격 후 딜레이 - 10%",
+			"MHP + 1000",
+			"원거리 물리 데미지 + 5%",
+			"크리티컬 데미지 + 10%",
+			"",
+			"순수 STR 10마다 ATK - 5",
+			"순수 AGI 10마다 공격 후 딜레이 + 2%",
+			"순수 VIT 10마다 MHP - 200",
+			"순수 INT 10마다 MATK - 5",
+			"순수 DEX 10마다 원거리 물리데미지 - 1%",
+			"순수 LUK 10마다 크리티컬 데미지 - 2%",
+			"모든 아이템 옵션은 0 이하로 감소되지 않는다.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4663] = {
+		unidentifiedDisplayName = "리프 루나틱 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "MSP + 5", "계열 : ^777777카드^000000", "장착 : ^777777신발^000000", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "리프 루나틱 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "MSP + 5", "계열 : ^777777카드^000000", "장착 : ^777777신발^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4664] = {
+		unidentifiedDisplayName = "그래스 파브르 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "LUK + 1", "MHP + 100", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "그래스 파브르 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "LUK + 1", "MHP + 100", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4665] = {
+		unidentifiedDisplayName = "와일드 호넷 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "ATK + 5", "계열 : ^777777카드^000000", "장착 : ^777777무기^000000", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "와일드 호넷 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "ATK + 5", "계열 : ^777777카드^000000", "장착 : ^777777무기^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4666] = {
+		unidentifiedDisplayName = "스위트 로다프로그 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "스위트 로다프로그 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "MSP + 10", "MHP + 300", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4667] = {
+		unidentifiedDisplayName = "헌터 데저트울프 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "MSP + 30", "계열 : ^777777카드^000000", "장착 : ^777777신발^000000", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "헌터 데저트울프 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "MSP + 30", "계열 : ^777777카드^000000", "장착 : ^777777신발^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4668] = {
+		unidentifiedDisplayName = "트랜스 스포아 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "VIT + 1", "INT + 1", "계열 : ^777777카드^000000", "장착 : ^777777투구^000000", "무게 : ^7777771^000000" },
+		identifiedDisplayName = "트랜스 스포아 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "VIT + 1", "INT + 1", "계열 : ^777777카드^000000", "장착 : ^777777투구^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4669] = {
+		unidentifiedDisplayName = "정글 만드라고라 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {
+			"풍속성 몬스터에게 주는 마법 공격력 +3%",
+			"7 제련 이상 시",
+			"풍속성 몬스터에게 주는 마법 공격력 +5%",
+			"9 제련 이상 시",
+			"풍속성 몬스터에게 주는 마법 공격력 +7%",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "정글 만드라고라 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"풍속성 몬스터에게 주는 마법 공격력 +3%",
+			"7 제련 이상 시",
+			"풍속성 몬스터에게 주는 마법 공격력 +5%",
+			"9 제련 이상 시",
+			"풍속성 몬스터에게 주는 마법 공격력 +7%",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4670] = {
+		unidentifiedDisplayName = "프루츠 폼 스파이더 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {
+			"화속성 몬스터에게 주는 마법 공격력 +3%",
+			"7 제련 이상 시",
+			"화속성 몬스터에게 주는 마법 공격력 +5%",
+			"9 제련 이상 시",
+			"화속성 몬스터에게 주는 마법 공격력 +7%",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "프루츠 폼 스파이더 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"화속성 몬스터에게 주는 마법 공격력 +3%",
+			"7 제련 이상 시",
+			"화속성 몬스터에게 주는 마법 공격력 +5%",
+			"9 제련 이상 시",
+			"화속성 몬스터에게 주는 마법 공격력 +7%",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[6850] = {
 		unidentifiedDisplayName = "Suspicious Box",
 		unidentifiedResourceName = "헐떡이는상자",
@@ -173,6 +709,31 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[11601] = {
+		unidentifiedDisplayName = "맛있는 멸치",
+		unidentifiedResourceName = "입에문물고기",
+		unidentifiedDescriptionName = {
+			"멸치과에 속하는 바닷물고기. 검푸른 등과 은백색의 배를 가지고 있는 작은 물고기로, 라자냐의 앞바다에서 잡은 것을 최고로 친다. HP를 소량 회복시켜 준다."
+		},
+		identifiedDisplayName = "맛있는 멸치",
+		identifiedResourceName = "입에문물고기",
+		identifiedDescriptionName = {
+			"멸치과에 속하는 바닷물고기. 검푸른 등과 은백색의 배를 가지고 있는 작은 물고기로, 라자냐의 앞바다에서 잡은 것을 최고로 친다. HP를 소량 회복시켜 준다.",
+			"무게 : ^7777772^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[11602] = {
+		unidentifiedDisplayName = "개박하 열매",
+		unidentifiedResourceName = "개박하열매",
+		unidentifiedDescriptionName = { "개다래보다 작은 열매. 소량의 HP를 회복시켜 준다. 도람족 스킬 사용 시 소모되기도 한다.", "무게 : ^7777770.1^000000" },
+		identifiedDisplayName = "개박하 열매",
+		identifiedResourceName = "개박하열매",
+		identifiedDescriptionName = { "개다래보다 작은 열매. 소량의 HP를 회복시켜 준다. 도람족 스킬 사용 시 소모되기도 한다.", "무게 : ^7777770.1^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[11603] = {
 		unidentifiedDisplayName = "[not for sale]Mastella Fruit",
 		unidentifiedResourceName = "마스테라의열매",
@@ -237,6 +798,96 @@ tbl = {
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
+		ClassNum = 0
+	},
+	[15126] = {
+		unidentifiedDisplayName = "갑옷",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 전용 슈츠",
+		identifiedResourceName = "도람옷",
+		identifiedDescriptionName = {
+			"깔끔한 도람족이 좋아하는 형태의 경장.",
+			"MHP + 500, MSP + 100.",
+			"제련도 3 당 DEX + 1씩, INT + 1씩 증가.",
+			"계열 : ^777777갑옷^000000 방어 : ^77777780^000000",
+			"무게 : ^77777770^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[15129] = {
+		unidentifiedDisplayName = "갑옷",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 고급 슈츠",
+		identifiedResourceName = "도람옷",
+		identifiedDescriptionName = {
+			"깔끔한 도람족이 좋아하는 형태의 고급 경장.",
+			"MHP + 10%, MSP + 10%.",
+			"제련도 2당 DEX + 1씩 INT + 1씩 증가.",
+			"계열 : ^777777갑옷^000000 방어 : ^777777100^000000",
+			"무게 : ^77777780^000000",
+			"요구 레벨 : ^777777140^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[15150] = {
+		unidentifiedDisplayName = "갑옷",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "하얀 셔츠",
+		identifiedResourceName = "하얀셔츠",
+		identifiedDescriptionName = {
+			"흰색의 맑고 깨끗한 셔츠.",
+			"얼마나 세탁했길래 이렇게 하얀걸까?",
+			"MHP + 70, FLEE + 5",
+			"계열 : ^777777갑옷^000000 방어 : ^77777725^000000",
+			"무게 : ^7777775^000000",
+			"요구 레벨 : ^7777776^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[15151] = {
+		unidentifiedDisplayName = "갑옷",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "하얀 친환경 셔츠",
+		identifiedResourceName = "하얀친환경셔츠",
+		identifiedDescriptionName = {
+			"입는 순간 몸도 마음도 깨끗해지는 것 같은 친환경 셔츠, 쓰레기는 꼭 쓰레기통에 버립시다.",
+			"MHP + 150, FLEE + 10",
+			"계열 : ^777777갑옷^000000 방어 : ^77777740^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^77777715^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[15156] = {
+		unidentifiedDisplayName = "갑옷",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 엘레강스 슈츠",
+		identifiedResourceName = "도람옷",
+		identifiedDescriptionName = {
+			"깔끔한 도람족이 좋아하는 형태의 엘레강스 경장.",
+			"MHP + 15%, MSP + 15%.",
+			"제련도에 따라 DEX + 1, INT + 1씩 증가.",
+			"9제련 이상 시 SP 소모량 5% 감소.",
+			"계열 : ^777777갑옷^000000 방어 : ^777777120^000000",
+			"무게 : ^77777790^000000",
+			"요구 레벨 : ^777777175^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
 		ClassNum = 0
 	},
 	[16591] = {
@@ -10709,6 +11360,24 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 745
 	},
+	[19084] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "캡",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "파르펠레 자경단 모자",
+		identifiedResourceName = "파르펠레자경단모자",
+		identifiedDescriptionName = {
+			"파르펠레 자경단의 일원이 된 기념으로 받을 수 있는 모자. 자경단의 대장인 페페로치노의 꼬리모양 장식털이 달려있다.",
+			"LUK + 1,",
+			"물리, 마법 공격시 일정 확률로 자신에게 블레싱 3Lv 발동",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777상단 ^000000무게 : ^77777710^000000",
+			"요구 레벨 : ^77777720^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 1368
+	},
 	[19096] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "캡",
@@ -10809,6 +11478,55 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 581
 	},
+	[20396] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "캡",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "의상 초록이모자",
+		identifiedResourceName = "초록이모자",
+		identifiedDescriptionName = {
+			"귀여운 나무 정령의 모자.",
+			"Class: ^6A5ACDCostume^000000 Defense: ^0000FF0^000000",
+			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0BAll^000000"
+		},
+		slotCount = 0,
+		ClassNum = 939
+	},
+	[20398] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "햇",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 니플헤임 버니햇",
+		identifiedResourceName = "니플헤임버니햇",
+		identifiedDescriptionName = {
+			"니플헤임의 치유계 마스코트 '하이로조이스트'를 모티브로 한 모자.",
+			"매력 포인트는 폭신폭신한 솜털, 떠다니는 냉기, 토끼눈 같은 빨간 단추, 그리고  x로 된 입이다.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1285
+	},
+	[20399] = {
+		unidentifiedDisplayName = "가면",
+		unidentifiedResourceName = "스마일",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 까마귀 천구의 가면",
+		identifiedResourceName = "까마귀천구의가면",
+		identifiedDescriptionName = {
+			"타락한 닌자의 원한이 가득차 있는 가면.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1287
+	},
 	[20397] = {
 		unidentifiedDisplayName = "가면",
 		unidentifiedResourceName = "스마일",
@@ -10828,22 +11546,6 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 1415
-	},
-	[20396] = {
-		unidentifiedDisplayName = "모자",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 초록이모자",
-		identifiedResourceName = "초록이모자",
-		identifiedDescriptionName = {
-			"귀여운 나무 정령의 모자.",
-			"Class: ^6A5ACDCostume^000000 Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^0EAA0BAll^000000"
-		},
-		slotCount = 0,
-		ClassNum = 939
 	},
 	[20504] = {
 		unidentifiedDisplayName = "걸칠것",
@@ -10878,6 +11580,24 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 0
+	},
+	[20507] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 포링가방",
+		identifiedResourceName = "포링가방",
+		identifiedDescriptionName = {
+			"포링 모양으로 만들어진 가방.",
+			"투명해보일뿐 무엇이 들어있는지는 보이지 않는다.",
+			"계열 : ^777777의상장비^000000",
+			"위치 : ^777777걸칠것 ^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 16
 	},
 	[20780] = {
 		unidentifiedDisplayName = "걸칠것",
@@ -10951,6 +11671,96 @@ tbl = {
 		slotCount = 1,
 		ClassNum = 0
 	},
+	[20788] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "망토",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 전용 망토",
+		identifiedResourceName = "도람망토",
+		identifiedDescriptionName = {
+			"도람족이 선호하는 무늬의 망토.",
+			"FLEE + 5. 무속성 내성 2%.",
+			"제련도 3당, 완전회피 + 1.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777720^000000",
+			"무게 : ^77777730^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[20789] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "망토",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 고급 망토",
+		identifiedResourceName = "도람망토",
+		identifiedDescriptionName = {
+			"도람족이 선호하는 고급스러운 무늬의 망토.",
+			"FLEE + 7. 무속성 내성 3%.",
+			"제련도 3당, 완전회피 + 1, LUK + 1.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777725^000000",
+			"무게 : ^77777740^000000",
+			"요구 레벨 : ^777777140^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[20790] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "망토",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 엘레강스 망토",
+		identifiedResourceName = "도람망토",
+		identifiedDescriptionName = {
+			"도람족이 선호하는 엘레강스한 무늬의 망토.",
+			"FLEE + 10. 무속성 내성 5%.",
+			"제련도 2당, 완전회피 + 1, INT + 1, DEX + 1, LUK + 1.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777750^000000",
+			"요구 레벨 : ^777777175^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[22076] = {
+		unidentifiedDisplayName = "신발",
+		unidentifiedResourceName = "샌들",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "원목 슬리퍼",
+		identifiedResourceName = "원목슬리퍼",
+		identifiedDescriptionName = {
+			"딱딱한 원목으로 만든 슬리퍼. 오래 신고 다니기에는 조금 부담스럽다.",
+			"10초당 HP회복 + 2",
+			"계열 : ^777777신발^000000 방어 : ^77777710^000000",
+			"무게 : ^7777775^000000",
+			"요구 레벨 : ^7777779^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[22077] = {
+		unidentifiedDisplayName = "신발",
+		unidentifiedResourceName = "샌들",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "빨간 친환경 장화",
+		identifiedResourceName = "빨간친환경장화",
+		identifiedDescriptionName = {
+			"친환경 소재로 만든 빨간색 장화. 통풍이 잘 안되니 자주 신발을 벗어주는 편이 좋다. 안그랬다가는 크게 낭패를 볼 일이 생길지도..",
+			"10초당 HP 회복 + 4,",
+			"10초당 SP 회복 + 1,",
+			"CRI + 5",
+			"계열 : ^777777신발^000000 방어 : ^77777720^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^77777718^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
 	[22078] = {
 		unidentifiedDisplayName = "신발",
 		unidentifiedResourceName = "샌들",
@@ -11019,6 +11829,62 @@ tbl = {
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^0EAA0BAll^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[22083] = {
+		unidentifiedDisplayName = "신발",
+		unidentifiedResourceName = "샌들",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 전용 슈즈",
+		identifiedResourceName = "도람슈즈",
+		identifiedDescriptionName = {
+			"도람족의 작은 발에 맞게 고안된 전용 슈즈.",
+			"MHP + 100, MSP + 50.",
+			"제련도 3당 HP 회복속도 + 10%, SP 회복속도 + 10%.",
+			"계열 : ^777777신발^000000 방어 : ^77777725^000000",
+			"무게 : ^77777750^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[22084] = {
+		unidentifiedDisplayName = "신발",
+		unidentifiedResourceName = "샌들",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 고급 슈즈",
+		identifiedResourceName = "도람슈즈",
+		identifiedDescriptionName = {
+			"도람족의 작은 발에 맞게 고안된 전용 슈즈.",
+			"MHP + 300, MSP + 100.",
+			"제련도 3당 HP 회복속도 + 20%, SP 회복속도 + 20%.",
+			"계열 : ^777777신발^000000 방어 : ^77777730^000000",
+			"무게 : ^77777760^000000",
+			"요구 레벨 : ^777777140^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[22085] = {
+		unidentifiedDisplayName = "신발",
+		unidentifiedResourceName = "샌들",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "도람 엘레강스 슈즈",
+		identifiedResourceName = "도람슈즈",
+		identifiedDescriptionName = {
+			"도람족의 작은 발에 맞게 고안된 전용 슈즈.",
+			"MHP + 10%, MSP + 5%.",
+			"제련도 2당 MHP + 100, MSP + 20.",
+			"9제련 이상일 경우",
+			"[도약] 스킬 사용 시 소모 SP 5 감소.",
+			"계열 : ^777777신발^000000 방어 : ^77777735^000000",
+			"무게 : ^77777770^000000",
+			"요구 레벨 : ^777777175^000000",
+			"장착 : ^777777도람족^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -12002,6 +12868,31 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[22984] = {
+		unidentifiedDisplayName = "깔루냐 밀크",
+		unidentifiedResourceName = "깔루냐밀크",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "깔루냐 밀크",
+		identifiedResourceName = "깔루냐밀크",
+		identifiedDescriptionName = { "도람들이 매우 좋아하는 음료.", "펍 오븐의 인기 메뉴 중 하나다.", "3분간 10초마다 MHP 10 회복", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[22985] = {
+		unidentifiedDisplayName = "바질",
+		unidentifiedResourceName = "바질",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "바질",
+		identifiedResourceName = "바질",
+		identifiedDescriptionName = {
+			"바질리스크의 머리에서 자라는 신기한 풀.",
+			"바질리스크 독에대한 해독 효과가 있다고 한다. 살짝 매콤한 맛이 나며 요리에 넣어 먹기도 한다.",
+			"3분간 10초마다 MSP 5 회복",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[22988] = {
 		unidentifiedDisplayName = "봉인된 모자 상자 II",
 		unidentifiedResourceName = "불량학생선물상자",
@@ -12737,6 +13628,43 @@ tbl = {
 			"도적의 두건 ",
 			"――――――――――――― ",
 			"무게 : 20"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23058] = {
+		unidentifiedDisplayName = "의상 인챈트 스톤 상자9",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {
+			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
+			"의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 일렉트릭 이펙트(중단), 쉬링크 이펙트(중단), 그린 플로어 이펙트(하단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. "
+		},
+		identifiedDisplayName = "의상 인챈트 스톤 상자9",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
+			"의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 일렉트릭 이펙트(중단), 쉬링크 이펙트(중단), 그린 플로어 이펙트(하단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23062] = {
+		unidentifiedDisplayName = "쿠킹 오픈 기념상자",
+		unidentifiedResourceName = "소원상자",
+		unidentifiedDescriptionName = {
+			"인벤에서 제작한 \"쿠폰의 왕!! 쿠킹\" 어플리케이션 사용시 제공받을수 있는 쿠폰.",
+			"[비매품]화이트슬림포션이 100개가 들어있으며, 아주 가끔 포션이 아닌 황금인장카드 또는 무기 7제련 보장권 등 좀 더 희귀한 것이 나온다고 한다.",
+			"(^ff0000해당 아이템은 2016년 1월 첫째주 정기점검시 일괄 삭제됩니다.^000000)",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "쿠킹 오픈 기념상자",
+		identifiedResourceName = "소원상자",
+		identifiedDescriptionName = {
+			"인벤에서 제작한 \"쿠폰의 왕!! 쿠킹\" 어플리케이션 사용시 제공받을수 있는 쿠폰.",
+			"[비매품]화이트슬림포션이 100개가 들어있으며, 아주 가끔 포션이 아닌 황금인장카드 또는 무기 7제련 보장권 등 좀 더 희귀한 것이 나온다고 한다.",
+			"(^ff0000해당 아이템은 2016년 1월 첫째주 정기점검시 일괄 삭제됩니다.^000000)",
+			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13670,6 +14598,91 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[25043] = {
+		unidentifiedDisplayName = "가시덩굴 피리",
+		unidentifiedResourceName = "늑대피리",
+		unidentifiedDescriptionName = {
+			"라비올 숲 근처에서 자라는 가시덩굴로 만든 피리. 날카롭고 불안정한 소리가 나기 때문에 악기로 사용되지는 않지만 특수한 목적으로 비밀리에 사용되고 있다고 한다."
+		},
+		identifiedDisplayName = "가시덩굴 피리",
+		identifiedResourceName = "늑대피리",
+		identifiedDescriptionName = {
+			"라비올 숲 근처에서 자라는 가시덩굴로 만든 피리. 날카롭고 불안정한 소리가 나기 때문에 악기로 사용되지는 않지만 특수한 목적으로 비밀리에 사용되고 있다고 한다.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25044] = {
+		unidentifiedDisplayName = "딱딱한 가시덩굴",
+		unidentifiedResourceName = "질긴비늘줄기",
+		unidentifiedDescriptionName = { "딱딱하게 잘 마른 가시덩굴.", "가시도 매우 단단해져있으니 다치지 않도록 조심!!" },
+		identifiedDisplayName = "딱딱한 가시덩굴",
+		identifiedResourceName = "질긴비늘줄기",
+		identifiedDescriptionName = { "딱딱하게 잘 마른 가시덩굴.", "가시도 매우 단단해져있으니 다치지 않도록 조심!!", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25045] = {
+		unidentifiedDisplayName = "고급스러운 천조각",
+		unidentifiedResourceName = "검은천조각",
+		unidentifiedDescriptionName = { "고급스럽고 부드러운 천조각.", "파르펠레 자경단의 상징인 나비넥타이를 만들때 사용된다." },
+		identifiedDisplayName = "고급스러운 천조각",
+		identifiedResourceName = "검은천조각",
+		identifiedDescriptionName = { "고급스럽고 부드러운 천조각.", "파르펠레 자경단의 상징인 나비넥타이를 만들때 사용된다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25046] = {
+		unidentifiedDisplayName = "승선 허가서",
+		unidentifiedResourceName = "생명보험증서",
+		unidentifiedDescriptionName = {
+			"신대륙과 라자냐를 왕복하는 콘-킬리나의 승선 허가서. 신세계를 모험해도 될 정도로 잘 훈련된 도람들만이 얻을 수 있으므로 일종의 졸업장으로 여겨지기도 한다."
+		},
+		identifiedDisplayName = "승선 허가서",
+		identifiedResourceName = "생명보험증서",
+		identifiedDescriptionName = {
+			"신대륙과 라자냐를 왕복하는 콘-킬리나의 승선 허가서. 신세계를 모험해도 될 정도로 잘 훈련된 도람들만이 얻을 수 있으므로 일종의 졸업장으로 여겨지기도 한다.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25047] = {
+		unidentifiedDisplayName = "깔루냑",
+		unidentifiedResourceName = "단단한등껍질",
+		unidentifiedDescriptionName = {
+			"라자냐의 앞바다에서 소량만이 잡히는 귀한 조개. 달콤쌉사름한 향이 나는 이것을 잘 다듬어 숙성시키면 깔루냐 밀크의 주 재료인 깔루냐가 된다."
+		},
+		identifiedDisplayName = "깔루냑",
+		identifiedResourceName = "단단한등껍질",
+		identifiedDescriptionName = {
+			"라자냐의 앞바다에서 소량만이 잡히는 귀한 조개. 달콤쌉사름한 향이 나는 이것을 잘 다듬어 숙성시키면 깔루냐 밀크의 주 재료인 깔루냐가 된다.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25048] = {
+		unidentifiedDisplayName = "든든한 도시락",
+		unidentifiedResourceName = "음식보자기",
+		unidentifiedDescriptionName = { "먹으면 힘이 나는 여러 가지 음식들을 야무지게 싼 든든한 도시락." },
+		identifiedDisplayName = "든든한 도시락",
+		identifiedResourceName = "음식보자기",
+		identifiedDescriptionName = { "먹으면 힘이 나는 여러 가지 음식들을 야무지게 싼 든든한 도시락.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25049] = {
+		unidentifiedDisplayName = "바질락",
+		unidentifiedResourceName = "조개껍질",
+		unidentifiedDescriptionName = { "바질리스크에게서 얻을 수 있는 조개 모양의 단단한 결석." },
+		identifiedDisplayName = "바질락",
+		identifiedResourceName = "조개껍질",
+		identifiedDescriptionName = { "바질리스크에게서 얻을 수 있는 조개 모양의 단단한 결석.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[25051] = {
 		unidentifiedDisplayName = "연합의 증표",
 		unidentifiedResourceName = "기사의영예",
@@ -14129,6 +15142,654 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[25098] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"전승 직업인 경우 이전에 선택하신 직업만 가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[검사]^000000<INFO>izlude_in,74,172,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[마법사]^000000<INFO>geffen_in,164,124,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[상인]^000000<INFO>alberta_in,56,43,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[복사]^000000<INFO>prt_church,184,41,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[도둑]^000000<INFO>moc_prydb1,39,126,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[궁수]^000000<INFO>payon_in02,64,71,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[태권]^000000<INFO>payon_in01,62,10,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[닌자]^000000<INFO>alberta.gat,168,138,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[건슬링거]^000000<INFO>que_ng,152,167,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"전승 직업인 경우 이전에 선택하신 직업만 가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[검사]^000000<INFO>izlude_in,74,172,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[마법사]^000000<INFO>geffen_in,164,124,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[상인]^000000<INFO>alberta_in,56,43,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[복사]^000000<INFO>prt_church,184,41,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[도둑]^000000<INFO>moc_prydb1,39,126,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[궁수]^000000<INFO>payon_in02,64,71,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[태권]^000000<INFO>payon_in01,62,10,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[닌자]^000000<INFO>alberta.gat,168,138,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[건슬링거]^000000<INFO>que_ng,152,167,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25099] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[슈퍼노비스]^000000<INFO>aldeba_in,223,167,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[슈퍼노비스]^000000<INFO>aldeba_in,223,167,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25100] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[기사]^000000<INFO>prt_in,88,101,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[크루세이더]^000000<INFO>prt_cas,251,75,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[기사]^000000<INFO>prt_in,88,101,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[크루세이더]^000000<INFO>prt_cas,251,75,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25101] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[위저드]^000000<INFO>gef_tower,111,37,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[세이지]^000000<INFO>yuno_in02,38,61,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[위저드]^000000<INFO>gef_tower,111,37,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[세이지]^000000<INFO>yuno_in02,38,61,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25102] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[블랙스미스]^000000<INFO>ein_in01,18,24,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[알케미스트]^000000<INFO>alde_alche,27,185,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[블랙스미스]^000000<INFO>ein_in01,18,24,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[알케미스트]^000000<INFO>alde_alche,27,185,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25103] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[프리스트]^000000<INFO>prt_church,16,41,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[몽크]^000000<INFO>prt_monk,59,247,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[프리스트]^000000<INFO>prt_church,16,41,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[몽크]^000000<INFO>prt_monk,59,247,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25104] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[어쌔신]^000000<INFO>in_moc_16,19,33,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[로그]^000000<INFO>in_rogue,363,122,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[어쌔신]^000000<INFO>in_moc_16,19,33,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[로그]^000000<INFO>in_rogue,363,122,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25105] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[헌터]^000000<INFO>hu_in01,386,373,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[바드(남자 캐릭터)]^000000<INFO>comodo,211,155,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[댄서(여자 캐릭터)]^000000<INFO>job_duncer,43,93,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[헌터]^000000<INFO>hu_in01,386,373,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[바드(남자 캐릭터)]^000000<INFO>comodo,211,155,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[댄서(여자 캐릭터)]^000000<INFO>job_duncer,43,93,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25106] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[권성]^000000<INFO>payon,215,102,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[소울링커]^000000<INFO>morocc_in,174,30,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[권성]^000000<INFO>payon,215,102,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[소울링커]^000000<INFO>morocc_in,174,30,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25107] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[룬나이트]^000000<INFO>prt_in,162,24,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[룬나이트]^000000<INFO>prt_in,162,24,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25108] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[로얄가드]^000000<INFO>prt_cas,172,275,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[로얄가드]^000000<INFO>prt_cas,172,275,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25109] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[워록]^000000<INFO>morocc,95,132,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[워록]^000000<INFO>morocc,95,132,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25110] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[소서러]^000000<INFO>gef_tower,102,34,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[소서러]^000000<INFO>gef_tower,102,34,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25111] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[미케닉]^000000<INFO>yuno,129,156,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[미케닉]^000000<INFO>yuno,129,156,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25112] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[제네릭]^000000<INFO>alde_alche,35,186,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[제네릭]^000000<INFO>alde_alche,35,186,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25113] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[아크비숍]^000000<INFO>prt_church,103,88,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[아크비숍]^000000<INFO>prt_church,103,88,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25114] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[수라]^000000<INFO>ve_in,237,125,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[수라]^000000<INFO>ve_in,237,125,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25115] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[길로틴크로스]^000000<INFO>que_job01,75,96,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[길로틴크로스]^000000<INFO>que_job01,75,96,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25116] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[쉐도우체이서]^000000<INFO>in_rogue,376,100,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[쉐도우체이서]^000000<INFO>in_rogue,376,100,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25117] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[레인저]^000000<INFO>tur_dun01,156,36,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[레인저]^000000<INFO>tur_dun01,156,36,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25118] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[민스트럴]^000000<INFO>alberta,196,133,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[민스트럴]^000000<INFO>alberta,196,133,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25119] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[원더러]^000000<INFO>xmas,162,212,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"이미 전승 직업인 경우 재전승은 불가능합니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[원더러]^000000<INFO>xmas,162,212,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25120] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[카게로우 & 오보로]^000000<INFO>que_ng,28,156,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[카게로우 & 오보로]^000000<INFO>que_ng,28,156,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25121] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[리벨리온]^000000<INFO>moc_fild12,261,318,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[리벨리온]^000000<INFO>moc_fild12,261,318,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25122] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[슈퍼노비스 레벨확장]^000000<INFO>aldeba_in,216,169,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"전직 가능하신 직업 목록입니다.",
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[슈퍼노비스 레벨확장]^000000<INFO>aldeba_in,216,169,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25123] = {
+		unidentifiedDisplayName = "전직소 지도",
+		unidentifiedResourceName = "도심지도",
+		unidentifiedDescriptionName = {
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[전승 2차 전직소]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "전직소 지도",
+		identifiedResourceName = "도심지도",
+		identifiedDescriptionName = {
+			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[전승 2차 전직소]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[25132] = {
 		unidentifiedDisplayName = "호박 장식",
 		unidentifiedResourceName = "호박장식",
@@ -14175,6 +15836,170 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[25136] = {
+		unidentifiedDisplayName = "일렉트릭 이펙트(중단)",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {
+			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000일렉트릭^000000",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000"
+		},
+		identifiedDisplayName = "일렉트릭 이펙트(중단)",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = {
+			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000일렉트릭^000000",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25137] = {
+		unidentifiedDisplayName = "그린 플로어 이펙트(하단)",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {
+			"하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000그린 플로어^000000",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000"
+		},
+		identifiedDisplayName = "그린 플로어 이펙트(하단)",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = {
+			"하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000그린 플로어^000000",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25138] = {
+		unidentifiedDisplayName = "쉬링크 이펙트(중단)",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {
+			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000쉬링크^000000",
+			"공성 및 PvP 지역에서는 적용되지 않음.",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000"
+		},
+		identifiedDisplayName = "쉬링크 이펙트(중단)",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = {
+			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000쉬링크^000000",
+			"공성 및 PvP 지역에서는 적용되지 않음.",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25139] = {
+		unidentifiedDisplayName = "아이템 감정 스톤(하단)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {
+			"아이템 감정을 할 수 있는 스톤.",
+			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
+			"아이템 감정 Lv.1 사용 가능",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		identifiedDisplayName = "아이템 감정 스톤(하단)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"아이템 감정을 할 수 있는 스톤.",
+			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
+			"아이템 감정 Lv.1 사용 가능",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25140] = {
+		unidentifiedDisplayName = "리저렉션 스톤(하단)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {
+			"부활의 기운을 담은 스톤.",
+			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
+			"리저렉션 Lv.1 사용 가능",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		identifiedDisplayName = "리저렉션 스톤(하단)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"부활의 기운을 담은 스톤.",
+			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
+			"리저렉션 Lv.1 사용 가능",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25141] = {
+		unidentifiedDisplayName = "경험치 스톤(중단)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {
+			"경험치 습득율이 높아지는 스톤.",
+			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
+			"몬스터를 죽였을 시, 획득 경험치 2% 증가.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000"
+		},
+		identifiedDisplayName = "경험치 스톤(중단)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"경험치 습득율이 높아지는 스톤.",
+			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
+			"몬스터를 죽였을 시, 획득 경험치 2% 증가.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[26100] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "P.강아지풀Ⅱ",
+		identifiedResourceName = "길다란강아지풀",
+		identifiedDescriptionName = {
+			"낙원단에서 자체 제작한 중급자용 강아지풀. ",
+			"DEX + 4, INT + 4, MATK + 165",
+			"원거리 공격력 6%.",
+			"제련불가. ",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777135^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777772^000000",
+			"요구 레벨 : ^77777740^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 0,
+		ClassNum = 100
+	},
+	[26101] = {
+		unidentifiedDisplayName = "지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "P.강아지풀Ⅲ",
+		identifiedResourceName = "길다란강아지풀",
+		identifiedDescriptionName = {
+			"낙원단에서 자체 제작한 상급자용 강아지풀. ",
+			"DEX + 5, INT + 5, MATK + 195.",
+			"원거리 공격력 7%.",
+			"제련불가.",
+			"계열 : ^777777한손 지팡이^000000 공격 : ^777777150^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^77777760^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 0,
+		ClassNum = 100
+	},
 	[28011] = {
 		unidentifiedDisplayName = "카타르",
 		unidentifiedResourceName = "카타르",
@@ -14192,6 +16017,96 @@ tbl = {
 		},
 		slotCount = 1,
 		ClassNum = 16
+	},
+	[28110] = {
+		unidentifiedDisplayName = "도끼",
+		unidentifiedResourceName = "액스",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "결속의 양날 도끼",
+		identifiedResourceName = "결속의양날도끼",
+		identifiedDescriptionName = {
+			"A certified kingdom equipment for adventurer.",
+			"Increase ATK by (Refine*Refine*1.25)",
+			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000190^000000",
+			"Weight: ^0EAA0B100^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B검사 계열,상인 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 7
+	},
+	[28374] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "링",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "강아지풀 반지",
+		identifiedResourceName = "강아지풀반지",
+		identifiedDescriptionName = {
+			"작고 귀여운 강아지풀 모양 반지.",
+			"하지만 그 안에 엄청난 힘이 요동치는게 느껴진다.",
+			"몬스터를 죽였을 시 획득 경험치 + 5%",
+			"BaseLv이 5 상승 할 때 마다",
+			"ATK + 2, MATK + 2, MHP + 10, MSP + 5,",
+			"BaseLv이 51 이상 일 경우 모든 옵션이 적용되지 않는다.",
+			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[28380] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "풋풋한 풀 목걸이",
+		identifiedResourceName = "도람목걸이",
+		identifiedDescriptionName = {
+			"클로버 꽃을 엮어 만든 풋풋한 목걸이.",
+			"완전회피 + 5. 타로우의 상처 스킬 쿨 타임 5초 감소.",
+			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28381] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "귀여운 풀 목걸이",
+		identifiedResourceName = "도람목걸이",
+		identifiedDescriptionName = {
+			"클로버 꽃을 엮어 만든 귀여운 목걸이.",
+			"힐량 + 5%. 참치 파티의 스킬 쿨 타임 7초 감소.",
+			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
+			"무게 : ^7777771^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28382] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "부적 풀 목걸이",
+		identifiedResourceName = "도람목걸이",
+		identifiedDescriptionName = {
+			"클로버 꽃을 엮어 만든 와일드한 목걸이.",
+			"MDEF + 5. 개박하 메테오의 변동 캐스팅 1초 감소.",
+			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
 	},
 	[28391] = {
 		unidentifiedDisplayName = "이어링 쉐도우",
@@ -14231,6 +16146,24 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[28606] = {
+		unidentifiedDisplayName = "책",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "결속의 성서",
+		identifiedResourceName = "결속의성서",
+		identifiedDescriptionName = {
+			"A certified kingdom equipment for adventurer.",
+			"Increase ATK by (Refine*Refine*1.25)",
+			"Class: ^6A5ACD책^000000 Attack: ^D8000042^000000",
+			"Weight: ^0EAA0B22^000000",
+			"Weapon Level: ^0EAA0B3^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^0EAA0B권성,세이지 계열,프리스트 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 15
+	},
 	[28904] = {
 		unidentifiedDisplayName = "방패",
 		unidentifiedResourceName = "가드",
@@ -14267,41 +16200,65 @@ tbl = {
 		slotCount = 1,
 		ClassNum = 1
 	},
-	[28110] = {
-		unidentifiedDisplayName = "도끼",
-		unidentifiedResourceName = "액스",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 양날 도끼",
-		identifiedResourceName = "결속의양날도끼",
-		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"Increase ATK by (Refine*Refine*1.25)",
-			"Class: ^6A5ACD양손도끼^000000 Attack: ^D80000190^000000",
-			"Weight: ^0EAA0B100^000000",
-			"Weapon Level: ^0EAA0B3^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^0EAA0B검사 계열,상인 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 7
+	[29142] = {
+		unidentifiedDisplayName = "일렉트릭 이펙트",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = { "일렉트릭 이펙트" },
+		identifiedDisplayName = "일렉트릭 이펙트",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "일렉트릭 이펙트" },
+		slotCount = 0,
+		ClassNum = 0
 	},
-	[28606] = {
-		unidentifiedDisplayName = "책",
-		unidentifiedResourceName = "북",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 성서",
-		identifiedResourceName = "결속의성서",
-		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"Increase ATK by (Refine*Refine*1.25)",
-			"Class: ^6A5ACD책^000000 Attack: ^D8000042^000000",
-			"Weight: ^0EAA0B22^000000",
-			"Weapon Level: ^0EAA0B3^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^0EAA0B권성,세이지 계열,프리스트 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 15
+	[29143] = {
+		unidentifiedDisplayName = "그린 플로어 이펙트",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = { "그린 플로어 이펙트" },
+		identifiedDisplayName = "그린 플로어 이펙트",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "그린 플로어 이펙트" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29144] = {
+		unidentifiedDisplayName = "쉬링크 이펙트",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = { "쉬링크 이펙트", "공성 및 PvP지역에서는 적용되지 않음." },
+		identifiedDisplayName = "쉬링크 이펙트",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "쉬링크 이펙트", "공성 및 PvP지역에서는 적용되지 않음." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29145] = {
+		unidentifiedDisplayName = "경험치+2%",
+		unidentifiedResourceName = "블루젬스톤",
+		unidentifiedDescriptionName = { "몬스터를 죽였을 시, 획득 경험치 2% 증가." },
+		identifiedDisplayName = "경험치+2%",
+		identifiedResourceName = "블루젬스톤",
+		identifiedDescriptionName = { "몬스터를 죽였을 시, 획득 경험치 2% 증가." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29146] = {
+		unidentifiedDisplayName = "아이템 감정",
+		unidentifiedResourceName = "집중",
+		unidentifiedDescriptionName = { "아이템 감정 1Lv 사용가능. " },
+		identifiedDisplayName = "아이템 감정",
+		identifiedResourceName = "집중",
+		identifiedDescriptionName = { "아이템 감정 1Lv 사용가능." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29147] = {
+		unidentifiedDisplayName = "리저렉션",
+		unidentifiedResourceName = "체력",
+		unidentifiedDescriptionName = { "리저렉션 1Lv 사용가능." },
+		identifiedDisplayName = "리저렉션",
+		identifiedResourceName = "체력",
+		identifiedDescriptionName = { "리저렉션 1Lv 사용가능." },
+		slotCount = 0,
+		ClassNum = 0
 	},
 }
 
