@@ -198,172 +198,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 100
 	},
-	[4659] = {
-		unidentifiedDisplayName = "에그링 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "에그링 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "LUK +2", "MaxHP +50", "Class: ^6A5ACD카드^000000", "Jobs: ^6A5ACD갑옷^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4660] = {
-		unidentifiedDisplayName = "정찰 바질리스크 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "정찰 바질리스크 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"소형, 중형 몬스터에게 받는 물리, 마법 데미지 5% 감소",
-			"Class: ^6A5ACD카드^000000",
-			"Jobs: ^6A5ACD방패^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4661] = {
-		unidentifiedDisplayName = "돌격 바질리스크 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "돌격 바질리스크 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"중형, 대형 몬스터에게 받는 물리, 마법 데미지 20% 감소",
-			"소형 몬스터에게 받는 물리, 마법 데미지 15% 증가",
-			"Class: ^6A5ACD카드^000000",
-			"Jobs: ^6A5ACD방패^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4662] = {
-		unidentifiedDisplayName = "대형 에그링 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "대형 에그링 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"ATK +25, MATK +25",
-			"공격 후 딜레이 - 10%",
-			"MaxHP +1000",
-			"원거리 물리 데미지 + 5%",
-			"크리티컬 데미지 + 10%",
-			"",
-			"순수 STR 10마다 ATK - 5",
-			"순수 AGI 10마다 공격 후 딜레이 + 2%",
-			"순수 VIT 10마다 MaxHP -200",
-			"순수 INT 10마다 MATK - 5",
-			"순수 DEX 10마다 원거리 물리데미지 - 1%",
-			"순수 LUK 10마다 크리티컬 데미지 - 2%",
-			"모든 아이템 옵션은 0 이하로 감소되지 않는다.",
-			"Class: ^6A5ACD카드^000000",
-			"Jobs: ^6A5ACD걸칠것^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4663] = {
-		unidentifiedDisplayName = "리프 루나틱 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "리프 루나틱 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "MaxSP +5", "Class: ^6A5ACD카드^000000", "Jobs: ^6A5ACD신발^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4664] = {
-		unidentifiedDisplayName = "그래스 파브르 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "그래스 파브르 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "LUK +1", "MaxHP +100", "Class: ^6A5ACD카드^000000", "Jobs: ^6A5ACD갑옷^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4665] = {
-		unidentifiedDisplayName = "와일드 호넷 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "와일드 호넷 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "ATK +5", "Class: ^6A5ACD카드^000000", "Jobs: ^6A5ACD무기^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4666] = {
-		unidentifiedDisplayName = "스위트 로다프로그 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "스위트 로다프로그 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "MaxSP +10", "MaxHP +300", "Class: ^6A5ACD카드^000000", "Jobs: ^6A5ACD갑옷^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4667] = {
-		unidentifiedDisplayName = "헌터 데저트울프 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "헌터 데저트울프 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "MaxSP +30", "Class: ^6A5ACD카드^000000", "Jobs: ^6A5ACD신발^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4668] = {
-		unidentifiedDisplayName = "트랜스 스포아 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "트랜스 스포아 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "VIT + 1", "INT +1", "Class: ^6A5ACD카드^000000", "Jobs: ^6A5ACD투구^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4669] = {
-		unidentifiedDisplayName = "정글 만드라고라 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "정글 만드라고라 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"풍속성 몬스터에게 주는 마법 공격력 +3%",
-			"7 제련 이상 시",
-			"풍속성 몬스터에게 주는 마법 공격력 +5%",
-			"9 제련 이상 시",
-			"풍속성 몬스터에게 주는 마법 공격력 +7%",
-			"Class: ^6A5ACD카드^000000",
-			"Jobs: ^6A5ACD무기^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[4670] = {
-		unidentifiedDisplayName = "프루츠 폼 스파이더 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "프루츠 폼 스파이더 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"화속성 몬스터에게 주는 마법 공격력 +3%",
-			"7 제련 이상 시",
-			"화속성 몬스터에게 주는 마법 공격력 +5%",
-			"9 제련 이상 시",
-			"화속성 몬스터에게 주는 마법 공격력 +7%",
-			"Class: ^6A5ACD카드^000000",
-			"Jobs: ^6A5ACD무기^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[6850] = {
 		unidentifiedDisplayName = "Suspicious Box",
 		unidentifiedResourceName = "헐떡이는상자",
@@ -750,7 +584,7 @@ tbl = {
 			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
 			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
 			"Class: ^6A5ACD투구^000000    Defense: ^0000FF9^000000",
-			"위치 : ^777777상단^000000    무게 : ^777777100^000000",
+			"위치 : ^777777상단^000000    Weight: ^0EAA0B100^000000",
 			"요구레벨 : ^77777770^000000",
 			"Jobs: ^6A5ACD검사 / 상인 / 도둑 계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -772,7 +606,7 @@ tbl = {
 			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
 			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
 			"Class: ^6A5ACD투구^000000    Defense: ^0000FF9^000000",
-			"위치 : ^777777상단^000000    무게 : ^777777100^000000",
+			"위치 : ^777777상단^000000    Weight: ^0EAA0B100^000000",
 			"요구레벨 : ^77777770^000000",
 			"Jobs: ^6A5ACD검사 / 상인 / 도둑 계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -999,7 +833,7 @@ tbl = {
 			"착용자의 BaseLV에 따라 STR 추가 증가.",
 			"STR이 순수 120 인 경우, 보스몬스터에게 5% 물리 데미지 추가.",
 			"Class: ^6A5ACDAccessory^000000",
-			"Defense: ^0000FF1^000000      무게 : ^7777770^000000",
+			"Defense: ^0000FF1^000000      Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^77777747^000000",
 			"Jobs: ^6A5ACD전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1023,7 +857,7 @@ tbl = {
 			"MDEF +2",
 			"자신이 사용하는 힐, 생츄어리 스킬의 회복량이 3% 증가.",
 			"Class: ^6A5ACDAccessory^000000",
-			"Defense: ^0000FF1^000000      무게 : ^7777770^000000",
+			"Defense: ^0000FF1^000000      Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^77777747^000000",
 			"Jobs: ^6A5ACD전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1069,7 +903,7 @@ tbl = {
 			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF5^000000",
-			"위치 : ^777777상중단 ^000000 무게 : ^77777780^000000",
+			"위치 : ^777777상중단 ^000000 Weight: ^0EAA0B80^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
@@ -1090,7 +924,7 @@ tbl = {
 			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF5^000000",
-			"위치 : ^777777상중단 ^000000 무게 : ^77777780^000000",
+			"위치 : ^777777상중단 ^000000 Weight: ^0EAA0B80^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
@@ -1122,7 +956,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1146,7 +980,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1170,7 +1004,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1194,7 +1028,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1219,7 +1053,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF2^000000",
-			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1243,7 +1077,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF2^000000",
-			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1267,7 +1101,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF2^000000",
-			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1290,7 +1124,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1314,7 +1148,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1338,7 +1172,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1362,7 +1196,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1386,7 +1220,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1410,7 +1244,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
-			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"",
@@ -1435,7 +1269,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF2^000000",
-			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1459,7 +1293,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF2^000000",
-			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1483,7 +1317,7 @@ tbl = {
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF2^000000",
-			"위치 : ^777777중단 ^000000 무게 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1506,7 +1340,7 @@ tbl = {
 			"7제련 이상 시 DEX +1, MATK +30 추가.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
-			"위치 : ^777777상단 ^000000 무게 : ^77777730^000000",
+			"위치 : ^777777상단 ^000000 Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1529,7 +1363,7 @@ tbl = {
 			"7제련 이상 일 경우 HIT + 5, ATK +30.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF6^000000",
-			"위치 : ^777777상단 ^000000 무게 : ^77777730^000000",
+			"위치 : ^777777상단 ^000000 Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -1626,7 +1460,8 @@ tbl = {
 		identifiedResourceName = "오래된파란상자",
 		identifiedDescriptionName = {
 			"영혼의 송곳이 1개 들어있는 상자.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^0EAA0B1^000000"
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1639,7 +1474,8 @@ tbl = {
 		identifiedResourceName = "오래된파란상자",
 		identifiedDescriptionName = {
 			"영혼의 송곳이 1개 들어있는 상자.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^0EAA0B1^000000"
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -4784,7 +4620,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4802,7 +4638,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4824,7 +4660,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4842,7 +4678,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4864,7 +4700,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4882,7 +4718,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4904,7 +4740,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4922,7 +4758,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4944,7 +4780,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4962,7 +4798,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -4984,7 +4820,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -5002,7 +4838,7 @@ tbl = {
 			"Location: ^6A5ACDLower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -5753,7 +5589,7 @@ tbl = {
 			"Defense: ^0000FF25^000000",
 			"Weight: ^0EAA0B15^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -5769,7 +5605,7 @@ tbl = {
 			"Defense: ^0000FF25^000000",
 			"Weight: ^0EAA0B15^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -5969,7 +5805,7 @@ tbl = {
 			"Defense: ^0000FF9^000000",
 			"Weight: ^0EAA0B10^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -5985,7 +5821,7 @@ tbl = {
 			"Defense: ^0000FF9^000000",
 			"Weight: ^0EAA0B10^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -6077,7 +5913,7 @@ tbl = {
 			"Defense: ^0000FF0^000000",
 			"Weight: ^0EAA0B10^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -6093,7 +5929,7 @@ tbl = {
 			"Defense: ^0000FF0^000000",
 			"Weight: ^0EAA0B10^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -6113,7 +5949,7 @@ tbl = {
 			"Defense: ^0000FF25^000000",
 			"Weight: ^0EAA0B15^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -6129,7 +5965,7 @@ tbl = {
 			"Defense: ^0000FF25^000000",
 			"Weight: ^0EAA0B15^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -6633,7 +6469,8 @@ tbl = {
 			"All Stats +1, 인간형 적에게 데미지 10% 감소.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"",
@@ -6655,7 +6492,8 @@ tbl = {
 			"All Stats +1, 인간형 적에게 데미지 10% 감소.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"",
@@ -6693,7 +6531,8 @@ tbl = {
 			"7제련 이상 일 경우 ATK +15, 공격속도 증가(공격 후 딜레이 5% 감소)",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF6^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B70^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -6710,7 +6549,8 @@ tbl = {
 			"7제련 이상 일 경우 ATK +15, 공격속도 증가(공격 후 딜레이 5% 감소)",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF6^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B70^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -7786,7 +7626,8 @@ tbl = {
 			"제련도 1당 MaxHP +80씩 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B20^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B20^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
@@ -7803,7 +7644,8 @@ tbl = {
 			"제련도 1당 MaxHP +80씩 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B20^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B20^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ffffff_^000000",
@@ -8209,7 +8051,8 @@ tbl = {
 			"마법 공격 시 또는 마법 공격을 받을 시 드물게 선녀 '백소진'이 빙의. 빙의 상태에선 초당 SP를 10씩 잃게되나 일시적으로 도력을 얻는다. 제련도에 따라 변신 지속시간과 도력도 증가한다.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD노비스를 제외한 전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -8224,7 +8067,8 @@ tbl = {
 			"마법 공격 시 또는 마법 공격을 받을 시 드물게 선녀 '백소진'이 빙의. 빙의 상태에선 초당 SP를 10씩 잃게되나 일시적으로 도력을 얻는다. 제련도에 따라 변신 지속시간과 도력도 증가한다.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD노비스를 제외한 전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -8384,7 +8228,8 @@ tbl = {
 			"모자 9제련 시, MaxHP +200 추가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF4^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B50^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B50^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"",
@@ -8407,7 +8252,8 @@ tbl = {
 			"모자 9제련 시, MaxHP +200 추가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF4^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B50^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B50^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"",
@@ -9580,7 +9426,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9615,7 +9461,7 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9652,7 +9498,8 @@ tbl = {
 			"MDEF +9.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B9^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B9^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
 		},
@@ -9671,7 +9518,8 @@ tbl = {
 			"물리, 마법 공격시 일정 확률로 자신에게 블레싱 3Lv 발동",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF2^000000",
-			"위치 : ^777777상단 ^000000무게 : ^77777710^000000",
+			"위치 : ^777777상단 ^000000",
+			"Weight: ^0EAA0B10^000000",
 			"Required Level: ^0EAA0B20^000000",
 			"Jobs: ^6A5ACDDoram race^000000"
 		},
@@ -9690,9 +9538,10 @@ tbl = {
 			"10제련 이상 시, ATK,MATK+3%.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B50^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B50^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 581
@@ -9706,7 +9555,8 @@ tbl = {
 		identifiedDescriptionName = {
 			"갈라파고를 본따서 만든 모습이 의외로 귀엽다. 또한 부리 부분이 햇빛을 가려주는 효과가 매우 뛰어남.",
 			"Class: ^6A5ACDCostume^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
 		},
@@ -9723,7 +9573,8 @@ tbl = {
 			"땅의 신성함을 가진 신의 힘이 봉인되어 있는 실크햇.",
 			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
 		},
@@ -9741,9 +9592,10 @@ tbl = {
 			"축제때 들고 다니면 행복한 기분이 될지도?",
 			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDLower^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACDLower^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1289
@@ -9758,9 +9610,10 @@ tbl = {
 			"하늘을 나는데 성공한 갈라파고. 언젠가 자력으로 하늘높이 날수 있기를 꿈꾸고 있다.",
 			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDLower^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACDLower^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1358
@@ -9776,9 +9629,10 @@ tbl = {
 			"몬스터를 죽였을 시 획득 경험치+13%.",
 			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 581
@@ -9793,9 +9647,10 @@ tbl = {
 			"귀여운 나무 정령의 모자.",
 			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 939
@@ -9811,7 +9666,8 @@ tbl = {
 			"매력 포인트는 폭신폭신한 솜털, 떠다니는 냉기, 토끼눈 같은 빨간 단추, 그리고  x로 된 입이다.",
 			"Class: ^6A5ACD의상장비^000000",
 			"Defense: ^0000FF0^000000",
-			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
 		},
@@ -9828,7 +9684,8 @@ tbl = {
 			"타락한 닌자의 원한이 가득차 있는 가면.",
 			"Class: ^6A5ACD의상장비^000000",
 			"Defense: ^0000FF0^000000",
-			"위치 : ^777777중단 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
 		},
@@ -9847,9 +9704,10 @@ tbl = {
 			"제작 방법은 비밀…",
 			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACD중하단 ^000000Weight: ^0EAA0B0^000000",
+			"Location: ^6A5ACD중하단 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1415
@@ -9883,7 +9741,7 @@ tbl = {
 			"Location: ^6A5ACD걸칠것 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9920,7 +9778,7 @@ tbl = {
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -9939,7 +9797,7 @@ tbl = {
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -9958,7 +9816,7 @@ tbl = {
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -9977,7 +9835,7 @@ tbl = {
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10091,7 +9949,7 @@ tbl = {
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10110,7 +9968,7 @@ tbl = {
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10129,7 +9987,7 @@ tbl = {
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10148,7 +10006,7 @@ tbl = {
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -11639,7 +11497,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 2015 스페셜 스크롤.",
 			"무기 11제련 상품권, 방어구 11제련 상품권, 프리미엄 리셋 돌, 2015 스페셜 상자, 2차직업군 쉐도우등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12138,7 +11996,8 @@ tbl = {
 			"피어스 SP 소모량 20% 감소",
 			"볼링배쉬 데미지 20% 증가",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12160,7 +12019,8 @@ tbl = {
 			"홀리크로스 데미지 20% 증가",
 			"그랜드 크로스 SP 소모 20% 감소",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12182,7 +12042,8 @@ tbl = {
 			"블랙스미스 계열이 착용시, 소/중/대형 몬스터에게 입히는 피해 3% 증가",
 			"웨폰 퍼펙션 SP 소모량 20% 감소.",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12203,7 +12064,8 @@ tbl = {
 			"알케미스트 슈즈 쉐도우와 함께 착용시, ",
 			"알케미스트 계열이 착용시, 아드레날린 러쉬 Lv.3 사용 가능.",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12225,7 +12087,8 @@ tbl = {
 			"프리스트 계열이 착용시, MATK +3%.",
 			"마그누스 엑소르시스무스 변동 캐스팅 시간 40% 단축.",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12246,7 +12109,8 @@ tbl = {
 			"몽크 슈즈 쉐도우와 함께 착용시,",
 			"연환전신장, 침투경, 탄지신통 SP 소모량 20% 감소",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12268,7 +12132,8 @@ tbl = {
 			"그림투스 SP 소모량 20% 감소",
 			"소닉 블로우 데미지 20% 증가",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12290,7 +12155,8 @@ tbl = {
 			"로그 계열이 착용시, 소/중/대형 몬스터에게 입히는 피해 3% 증가",
 			"기습 SP 소모량 20% 감소",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12312,7 +12178,8 @@ tbl = {
 			"메테오 스톰, 로드 오브 버밀리온, 스톰 가스트의 데미지 20% 증가",
 			"유피텔 선더의 변동 캐스팅 시간 40% 감소",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12335,7 +12202,8 @@ tbl = {
 			"헤븐즈 드라이브의 변동 캐스팅 시간 40% 감소",
 			"세이지 계열이 착용시, MATK +3%.",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12357,7 +12225,8 @@ tbl = {
 			"헌터 계열이 착용시, 소/중/대형 몬스터에게 입히는 피해 3% 증가",
 			"크레모어 트랩, 랜드마인 SP 소모 20% 감소.",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12379,7 +12248,8 @@ tbl = {
 			"바드 슈즈 쉐도우와 함께 착용시,",
 			"임기응변 사용시, 5초간 공격속도 및 이동속도가 대폭 상승한다.",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -12401,7 +12271,8 @@ tbl = {
 			"댄서 슈즈 쉐도우와 함께 착용시,",
 			"임기응변 사용시, 5초간 공격속도 및 이동속도가 대폭 상승한다.",
 			"Class: ^6A5ACD쉐도우 장비^000000",
-			"위치 : ^777777아머 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777아머 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
