@@ -11154,6 +11154,46 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23025] = {
+		unidentifiedDisplayName = "교황 용병 소환서",
+		unidentifiedResourceName = "소환서_검",
+		unidentifiedDescriptionName = { "용병 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		identifiedDisplayName = "교황 용병 소환서",
+		identifiedResourceName = "소환서_검",
+		identifiedDescriptionName = { "용병 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23026] = {
+		unidentifiedDisplayName = "사복 교황 용병 소환서",
+		unidentifiedResourceName = "소환서_검",
+		unidentifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		identifiedDisplayName = "사복 교황 용병 소환서",
+		identifiedResourceName = "소환서_검",
+		identifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23027] = {
+		unidentifiedDisplayName = "민들레 반지",
+		unidentifiedResourceName = "민들레반지",
+		unidentifiedDescriptionName = {
+			"민들레를 엮어 만든 소박한 반지. 민들레 홀씨를 불면  바람을 타고 어디론가 날아갈 것 같다.",
+			"'라헬'로 귀환 가능. ",
+			"한번 사용시, 60분간 재사용이 불가능하다. ",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "민들레 반지",
+		identifiedResourceName = "민들레반지",
+		identifiedDescriptionName = {
+			"민들레를 엮어 만든 소박한 반지. 민들레 홀씨를 불면  바람을 타고 어디론가 날아갈 것 같다.",
+			"'라헬'로 귀환 가능. ",
+			"한번 사용시, 60분간 재사용이 불가능하다. ",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23028] = {
 		unidentifiedDisplayName = "포획용 밧줄",
 		unidentifiedResourceName = "로프",
@@ -11252,6 +11292,26 @@ tbl = {
 			"무기 11제련 보장권, 방어구 11제련 보장권, 인비지블 박스, 봉인된인장 카드등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23036] = {
+		unidentifiedDisplayName = "교황 용병 소환서",
+		unidentifiedResourceName = "소환서_검",
+		unidentifiedDescriptionName = { "용병 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		identifiedDisplayName = "교황 용병 소환서",
+		identifiedResourceName = "소환서_검",
+		identifiedDescriptionName = { "용병 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23037] = {
+		unidentifiedDisplayName = "사복 교황 용병 소환서",
+		unidentifiedResourceName = "소환서_검",
+		unidentifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		identifiedDisplayName = "사복 교황 용병 소환서",
+		identifiedResourceName = "소환서_검",
+		identifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11484,6 +11544,24 @@ tbl = {
 			"[비매품]화이트슬림포션이 100개가 들어있으며, 아주 가끔 포션이 아닌 황금인장카드 또는 무기 7제련 보장권 등 좀 더 희귀한 것이 나온다고 한다.",
 			"(^ff0000해당 아이템은 2016년 1월 첫째주 정기점검시 일괄 삭제됩니다.^000000)",
 			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23063] = {
+		unidentifiedDisplayName = "얼어붙은 꿈",
+		unidentifiedResourceName = "얼음결정",
+		unidentifiedDescriptionName = {
+			"누군가의 꿈에서 떨어져 나온 조각. 가만히 들여다 보면 수많은 꿈이 일렁이는 것을 볼 수 있다.",
+			"힘을 가하면 잘게 부서져 다수의 꿈의 파편을 얻을 수 있다.",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "얼어붙은 꿈",
+		identifiedResourceName = "얼음결정",
+		identifiedDescriptionName = {
+			"누군가의 꿈에서 떨어져 나온 조각. 가만히 들여다 보면 수많은 꿈이 일렁이는 것을 볼 수 있다.",
+			"힘을 가하면 잘게 부서져 다수의 꿈의 파편을 얻을 수 있다.",
+			"무게 : ^7777770^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13089,6 +13167,26 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[25087] = {
+		unidentifiedDisplayName = "낡은 인형",
+		unidentifiedResourceName = "낡은인형",
+		unidentifiedDescriptionName = { "오랜 세월 동안 손을 탄 낡은 인형. 소중히 여겼는지 손질이 잘 되어 있다.", "무게 : ^7777770^000000" },
+		identifiedDisplayName = "낡은 인형",
+		identifiedResourceName = "낡은인형",
+		identifiedDescriptionName = { "오랜 세월 동안 손을 탄 낡은 인형. 소중히 여겼는지 손질이 잘 되어 있다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25088] = {
+		unidentifiedDisplayName = "꿈의 파편",
+		unidentifiedResourceName = "꿈의파편",
+		unidentifiedDescriptionName = { "누군가의 간절한 꿈에서 얻을 수 있는 꿈의 조각. 알 수 없는 힘이 느껴진다.", "무게 : ^7777770^000000" },
+		identifiedDisplayName = "꿈의 파편",
+		identifiedResourceName = "꿈의파편",
+		identifiedDescriptionName = { "누군가의 간절한 꿈에서 얻을 수 있는 꿈의 조각. 알 수 없는 힘이 느껴진다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[25089] = {
 		unidentifiedDisplayName = "선물 장식용 날개",
 		unidentifiedResourceName = "브라기의날개귀",
@@ -13685,6 +13783,82 @@ tbl = {
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[28387] = {
+		unidentifiedDisplayName = "액세서리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "신관의 목걸이",
+		identifiedResourceName = "신관의목걸이",
+		identifiedDescriptionName = {
+			"여신 프레이야의 목걸이를 본따 만든 성물.",
+			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^77777780^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29121] = {
+		unidentifiedDisplayName = "여신의 정의A",
+		unidentifiedResourceName = "꿈의파편",
+		unidentifiedDescriptionName = { "ATK + 20, HIT + 2, MHP + 300." },
+		identifiedDisplayName = "여신의 정의A",
+		identifiedResourceName = "꿈의파편",
+		identifiedDescriptionName = { "ATK + 20, HIT + 2, MHP + 300." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29122] = {
+		unidentifiedDisplayName = "여신의 정의S",
+		unidentifiedResourceName = "꿈의파편",
+		unidentifiedDescriptionName = { "ATK + 40, HIT + 4, MHP + 600." },
+		identifiedDisplayName = "여신의 정의S",
+		identifiedResourceName = "꿈의파편",
+		identifiedDescriptionName = { "ATK + 40, HIT + 4, MHP + 600." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29123] = {
+		unidentifiedDisplayName = "여신의 자애A",
+		unidentifiedResourceName = "꿈의파편",
+		unidentifiedDescriptionName = { "MATK + 20, 힐량 + 4%, MSP + 20." },
+		identifiedDisplayName = "여신의 자애A",
+		identifiedResourceName = "꿈의파편",
+		identifiedDescriptionName = { "MATK + 20, 힐량 + 4%, MSP + 20." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29124] = {
+		unidentifiedDisplayName = "여신의 자애S",
+		unidentifiedResourceName = "꿈의파편",
+		unidentifiedDescriptionName = { "MATK + 40, 힐량 + 8%, MSP + 40." },
+		identifiedDisplayName = "여신의 자애S",
+		identifiedResourceName = "꿈의파편",
+		identifiedDescriptionName = { "MATK + 40, 힐량 + 8%, MSP + 40." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29125] = {
+		unidentifiedDisplayName = "여신의 통찰A",
+		unidentifiedResourceName = "꿈의파편",
+		unidentifiedDescriptionName = { "활 공격력 + 5%, CRI + 5." },
+		identifiedDisplayName = "여신의 통찰A",
+		identifiedResourceName = "꿈의파편",
+		identifiedDescriptionName = { "활 공격력 + 5%, CRI + 5." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29126] = {
+		unidentifiedDisplayName = "여신의 통찰S",
+		unidentifiedResourceName = "꿈의파편",
+		unidentifiedDescriptionName = { "활 공격력 + 10%, CRI + 10." },
+		identifiedDisplayName = "여신의 통찰S",
+		identifiedResourceName = "꿈의파편",
+		identifiedDescriptionName = { "활 공격력 + 10%, CRI + 10." },
 		slotCount = 0,
 		ClassNum = 0
 	},
