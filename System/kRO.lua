@@ -361,7 +361,7 @@ tbl = {
 			"HP를 흡수 할 수 있는 스톤. ",
 			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
 			"1% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -1360,7 +1360,7 @@ tbl = {
 			"",
 			"황도 3번째 자리인 쌍자궁을 나타내는 왕관. 탄생석인 알렉산드라이트가 박혀있다.",
 			"AGI + 2, FLEE +10, 풍속성 공격에 대한 내성 5%.",
-			"7제련 이상 일 경우 HIT + 5, ATK +30.",
+			"7제련 이상 일 경우 HIT +5, ATK +30.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF6^000000",
 			"위치 : ^777777상단 ^000000 Weight: ^0EAA0B30^000000",
@@ -1628,7 +1628,7 @@ tbl = {
 			"가루다 햇이 1개 들어있는 상자.",
 			"전설의 새 가루다의 깃털로 만들어진 매우 독특하며 희귀한 투구.",
 			"모든 몬스터로 부터 받는 데미지 5% 감소.",
-			"LUK +5, MDEF +3, HIT + 10, 캐스팅 딜레이 5% 감소.",
+			"LUK +5, MDEF +3, HIT +10, 캐스팅 딜레이 5% 감소.",
 			"7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF4^000000",
@@ -1652,7 +1652,7 @@ tbl = {
 			"가루다 햇이 1개 들어있는 상자.",
 			"전설의 새 가루다의 깃털로 만들어진 매우 독특하며 희귀한 투구.",
 			"모든 몬스터로 부터 받는 데미지 5% 감소.",
-			"LUK +5, MDEF +3, HIT + 10, 캐스팅 딜레이 5% 감소.",
+			"LUK +5, MDEF +3, HIT +10, 캐스팅 딜레이 5% 감소.",
 			"7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF4^000000",
@@ -4349,7 +4349,7 @@ tbl = {
 			"대백과 사전이 1개 들어있는 상자. 개봉 후, 7일간 사용가능.",
 			"^000088임대아이템^000000",
 			"모서리가 단단하기로 유명한 프론테라 모 출판사의 대백과 사전. 이 모서리에 찍혀 본 사람들은, 모서리에 3캐럿 다이아몬드를 박은 게 아니냐고 할 정도로 매우 단단하다.",
-			"MATK +100, INT +3, DEX +2, CRI + 20.",
+			"MATK +100, INT +3, DEX +2, Crit +20.",
 			"순수 럭 수치에 따라 크리율 추가로 증가.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
 			"골드PC방에서 장착 시 ATK +10, MATK +10.",
@@ -6273,7 +6273,7 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"변신 스크롤(데비루치)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
 			"20분 동안 몬스터 \"데비루치\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"데비루치로 변신한 시간 동안 ASPD + 1, HIT + 5.",
+			"데비루치로 변신한 시간 동안 ASPD + 1, HIT +5.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -6283,7 +6283,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"변신 스크롤(데비루치)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
 			"20분 동안 몬스터 \"데비루치\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"데비루치로 변신한 시간 동안 ASPD + 1, HIT + 5.",
+			"데비루치로 변신한 시간 동안 ASPD + 1, HIT +5.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -9925,7 +9925,7 @@ tbl = {
 			"친환경 소재로 만든 빨간색 장화. 통풍이 잘 안되니 자주 신발을 벗어주는 편이 좋다. 안그랬다가는 크게 낭패를 볼 일이 생길지도..",
 			"10초당 HP 회복 + 4,",
 			"10초당 SP 회복 + 1,",
-			"CRI + 5",
+			"Crit +5",
 			"Class: ^6A5ACD신발^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B10^000000",
@@ -10673,7 +10673,7 @@ tbl = {
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"HP흡수스톤(상단), SP회복스톤(상단), STR변환스톤(중단), AGI변환스톤(하단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
+			"HP흡수스톤(상단), SP회복스톤(상단), STR변환스톤(중단), AGI변환스톤(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -11025,7 +11025,7 @@ tbl = {
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"탐욕스톤(하단), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(중단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
+			"탐욕스톤(Lower), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(중단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -11527,7 +11527,7 @@ tbl = {
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 일렉트릭 이펙트(중단), 쉬링크 이펙트(중단), 그린 플로어 이펙트(하단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
+			"의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 일렉트릭 이펙트(중단), 쉬링크 이펙트(중단), 그린 플로어 이펙트(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -12367,7 +12367,7 @@ tbl = {
 			"SP를 흡수 할 수 있는 스톤.",
 			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
 			"1% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12383,7 +12383,7 @@ tbl = {
 			"방어력이 높아지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"DEF + 20.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12399,7 +12399,7 @@ tbl = {
 			"운이 높아지고 대신 힘이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"LUK +3, STR - 3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12415,7 +12415,7 @@ tbl = {
 			"힘이 높아지고 대신 지능이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"STR +3, INT - 3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12431,7 +12431,7 @@ tbl = {
 			"민첩함이 높아지고 대신 운이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"AGI +3, LUK - 3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12447,7 +12447,7 @@ tbl = {
 			"지능이 높아지고 대신 재주가 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"INT +3, DEX - 3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12463,7 +12463,7 @@ tbl = {
 			"건강이 높아지고 대신 민첩함이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"VIT + 3, AGI - 3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12479,17 +12479,17 @@ tbl = {
 			"재주가 높아지고 대신 건강이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"DEX +3, VIT - 3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25008] = {
-		unidentifiedDisplayName = "VIT변환스톤(하단)",
+		unidentifiedDisplayName = "VIT변환스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "VIT변환스톤(하단)",
+		identifiedDisplayName = "VIT변환스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"건강이 높아지고 대신 운이 떨어지는 스톤.",
@@ -12497,17 +12497,17 @@ tbl = {
 			"VIT + 3, LUK - 3.",
 			"VIT변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"AGI +3, LUK +3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25009] = {
-		unidentifiedDisplayName = "AGI변환스톤(하단)",
+		unidentifiedDisplayName = "AGI변환스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "AGI변환스톤(하단)",
+		identifiedDisplayName = "AGI변환스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"민첩함이 높아지고 대신 힘이 떨어지는 스톤.",
@@ -12515,17 +12515,17 @@ tbl = {
 			"AGI +3, STR - 3.",
 			"AGI변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"LUK +3, STR +3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25010] = {
-		unidentifiedDisplayName = "DEX변환스톤(하단)",
+		unidentifiedDisplayName = "DEX변환스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "DEX변환스톤(하단)",
+		identifiedDisplayName = "DEX변환스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"재주가 높아지고 대신 민첩함이 떨어지는 스톤.",
@@ -12533,17 +12533,17 @@ tbl = {
 			"DEX +3, AGI - 3.",
 			"DEX변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"VIT + 3, AGI +3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25011] = {
-		unidentifiedDisplayName = "LUK변환스톤(하단)",
+		unidentifiedDisplayName = "LUK변환스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "LUK변환스톤(하단)",
+		identifiedDisplayName = "LUK변환스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"운이 높아지고 대신 지능이 떨어지는 스톤.",
@@ -12551,17 +12551,17 @@ tbl = {
 			"LUK +3, INT - 3.",
 			"LUK변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"STR +3, INT +3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25012] = {
-		unidentifiedDisplayName = "STR변환스톤(하단)",
+		unidentifiedDisplayName = "STR변환스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "STR변환스톤(하단)",
+		identifiedDisplayName = "STR변환스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"힘이 높아지고 대신 재주가 떨어지는 스톤.",
@@ -12569,17 +12569,17 @@ tbl = {
 			"STR +3, DEX - 3.",
 			"STR변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"INT +3, DEX +3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25013] = {
-		unidentifiedDisplayName = "INT변환스톤(하단)",
+		unidentifiedDisplayName = "INT변환스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "INT변환스톤(하단)",
+		identifiedDisplayName = "INT변환스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"지능이 높아지고 대신 건강이 떨어지는 스톤.",
@@ -12587,51 +12587,51 @@ tbl = {
 			"INT +3, VIT - 3.",
 			"INT변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"DEX +3, VIT + 3.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25014] = {
-		unidentifiedDisplayName = "마방스톤(하단)",
+		unidentifiedDisplayName = "마방스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "마방스톤(하단)",
+		identifiedDisplayName = "마방스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"마법방어력이 높아지는 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다. ",
 			"MDEF +4.",
 			"방어스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다. ",
-			"HIT + 5, FLEE +5.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"HIT +5, FLEE +5.",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25015] = {
-		unidentifiedDisplayName = "경험치 스톤(하단)",
+		unidentifiedDisplayName = "경험치 스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "경험치 스톤(하단)",
+		identifiedDisplayName = "경험치 스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"경험치 습득율이 높아지는 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다. ",
 			"몬스터를 죽였을 시, 획득 경험치 2% 증가.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25016] = {
-		unidentifiedDisplayName = "공격스톤(하단)",
+		unidentifiedDisplayName = "공격스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "공격스톤(하단)",
+		identifiedDisplayName = "공격스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"공격력이 담긴 스톤.",
@@ -12639,17 +12639,17 @@ tbl = {
 			"ATK +1%.",
 			"의상 상, 중, 하단에 공격스톤 장착시, 아래의 능력치를 추가로 부여한다.",
 			"ATK +2%.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25017] = {
-		unidentifiedDisplayName = "마공스톤(하단)",
+		unidentifiedDisplayName = "마공스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "마공스톤(하단)",
+		identifiedDisplayName = "마공스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"마법 공격력이 담긴 스톤.",
@@ -12657,7 +12657,7 @@ tbl = {
 			"MATK +1%.",
 			"의상 상, 중, 하단에 마공스톤 장착시, 아래의 능력치를 부여한다.",
 			"MATK +2%.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12836,87 +12836,87 @@ tbl = {
 			"원거리 물리 데미지가 상승하는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
 			"원거리 물리 데미지 + 3%",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25062] = {
-		unidentifiedDisplayName = "탐욕스톤(하단)",
+		unidentifiedDisplayName = "탐욕스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "탐욕스톤(하단)",
+		identifiedDisplayName = "탐욕스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"탐욕스러워 보이는 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"탐욕 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25063] = {
-		unidentifiedDisplayName = "체력스톤(하단)",
+		unidentifiedDisplayName = "체력스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "체력스톤(하단)",
+		identifiedDisplayName = "체력스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"체력이 상승하는 스톤. ",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"MAXHP + 100, LV.120 이상시, MAXHP +2%.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25064] = {
-		unidentifiedDisplayName = "마력스톤(하단)",
+		unidentifiedDisplayName = "마력스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "마력스톤(하단)",
+		identifiedDisplayName = "마력스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"마력이 상승하는 스톤. ",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"MAXSP + 50, LV.120 이상시, MAXSP +2%.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25065] = {
-		unidentifiedDisplayName = "해독스톤(하단)",
+		unidentifiedDisplayName = "해독스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "해독스톤(하단)",
+		identifiedDisplayName = "해독스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"해독 능력이 있는 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"해독 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25066] = {
-		unidentifiedDisplayName = "리커버리스톤(하단)",
+		unidentifiedDisplayName = "리커버리스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "리커버리스톤(하단)",
+		identifiedDisplayName = "리커버리스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"리커버리 능력이 있는 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"리커버리 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12948,7 +12948,7 @@ tbl = {
 			"ASPD가 증가하는 스톤. ",
 			"의상 상단 슬롯에 아래의 능력치를 부여한다.",
 			"ASPD + 1",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12965,7 +12965,7 @@ tbl = {
 			"의상 상단 슬롯에 아래의 능력치를 부여한다.",
 			"스킬 후 딜레이 1% 감소.",
 			"스킬후딜레이1중단, 스킬후딜레이1하단과 함께 장착시, 스킬 후 딜레이 2% 추가 감소.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -12981,39 +12981,39 @@ tbl = {
 			"스킬 후 딜레이가 감소하는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
 			"스킬 후 딜레이 1% 감소.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25071] = {
-		unidentifiedDisplayName = "리로드스톤(하단)",
+		unidentifiedDisplayName = "리로드스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "리로드스톤(하단)",
+		identifiedDisplayName = "리로드스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"스킬 후 딜레이가 감소하는 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"스킬 후 딜레이 1% 감소.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25072] = {
-		unidentifiedDisplayName = "기리에스톤(하단)",
+		unidentifiedDisplayName = "기리에스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "기리에스톤(하단)",
+		identifiedDisplayName = "기리에스톤(Lower)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"기리에 엘레이손이 깃든 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
 			"기리에 엘레이손 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
@@ -13708,10 +13708,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25137] = {
-		unidentifiedDisplayName = "그린 플로어 이펙트(하단)",
+		unidentifiedDisplayName = "그린 플로어 이펙트(Lower)",
 		unidentifiedResourceName = "블루크리스탈조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "그린 플로어 이펙트(하단)",
+		identifiedDisplayName = "그린 플로어 이펙트(Lower)",
 		identifiedResourceName = "블루크리스탈조각",
 		identifiedDescriptionName = {
 			"하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
@@ -13723,10 +13723,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25138] = {
-		unidentifiedDisplayName = "쉬링크 이펙트(중단)",
+		unidentifiedDisplayName = "Shrink Effect(중단)",
 		unidentifiedResourceName = "블루크리스탈조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "쉬링크 이펙트(중단)",
+		identifiedDisplayName = "Shrink Effect(중단)",
 		identifiedResourceName = "블루크리스탈조각",
 		identifiedDescriptionName = {
 			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
@@ -13735,130 +13735,6 @@ tbl = {
 			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25139] = {
-		unidentifiedDisplayName = "아이템 감정 스톤(하단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "아이템 감정 스톤(하단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"아이템 감정을 할 수 있는 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"아이템 감정 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25140] = {
-		unidentifiedDisplayName = "리저렉션 스톤(하단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "리저렉션 스톤(하단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"부활의 기운을 담은 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"리저렉션 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25141] = {
-		unidentifiedDisplayName = "경험치 스톤(중단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "경험치 스톤(중단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"경험치 습득율이 높아지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"몬스터를 죽였을 시, 획득 경험치 2% 증가.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28387] = {
-		unidentifiedDisplayName = "액세서리",
-		unidentifiedResourceName = "클립",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
-		identifiedDisplayName = "신관의 목걸이",
-		identifiedResourceName = "신관의목걸이",
-		identifiedDescriptionName = {
-			"여신 프레이야의 목걸이를 본따 만든 성물.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^77777720^000000",
-			"요구 레벨 : ^77777780^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29121] = {
-		unidentifiedDisplayName = "여신의 정의A",
-		unidentifiedResourceName = "꿈의파편",
-		unidentifiedDescriptionName = { "ATK + 20, HIT + 2, MHP + 300." },
-		identifiedDisplayName = "여신의 정의A",
-		identifiedResourceName = "꿈의파편",
-		identifiedDescriptionName = { "ATK + 20, HIT + 2, MHP + 300." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29122] = {
-		unidentifiedDisplayName = "여신의 정의S",
-		unidentifiedResourceName = "꿈의파편",
-		unidentifiedDescriptionName = { "ATK + 40, HIT + 4, MHP + 600." },
-		identifiedDisplayName = "여신의 정의S",
-		identifiedResourceName = "꿈의파편",
-		identifiedDescriptionName = { "ATK + 40, HIT + 4, MHP + 600." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29123] = {
-		unidentifiedDisplayName = "여신의 자애A",
-		unidentifiedResourceName = "꿈의파편",
-		unidentifiedDescriptionName = { "MATK + 20, 힐량 + 4%, MSP + 20." },
-		identifiedDisplayName = "여신의 자애A",
-		identifiedResourceName = "꿈의파편",
-		identifiedDescriptionName = { "MATK + 20, 힐량 + 4%, MSP + 20." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29124] = {
-		unidentifiedDisplayName = "여신의 자애S",
-		unidentifiedResourceName = "꿈의파편",
-		unidentifiedDescriptionName = { "MATK + 40, 힐량 + 8%, MSP + 40." },
-		identifiedDisplayName = "여신의 자애S",
-		identifiedResourceName = "꿈의파편",
-		identifiedDescriptionName = { "MATK + 40, 힐량 + 8%, MSP + 40." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29125] = {
-		unidentifiedDisplayName = "여신의 통찰A",
-		unidentifiedResourceName = "꿈의파편",
-		unidentifiedDescriptionName = { "활 공격력 + 5%, CRI + 5." },
-		identifiedDisplayName = "여신의 통찰A",
-		identifiedResourceName = "꿈의파편",
-		identifiedDescriptionName = { "활 공격력 + 5%, CRI + 5." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29126] = {
-		unidentifiedDisplayName = "여신의 통찰S",
-		unidentifiedResourceName = "꿈의파편",
-		unidentifiedDescriptionName = { "활 공격력 + 10%, CRI + 10." },
-		identifiedDisplayName = "여신의 통찰S",
-		identifiedResourceName = "꿈의파편",
-		identifiedDescriptionName = { "활 공격력 + 10%, CRI + 10." },
 		slotCount = 0,
 		ClassNum = 0
 	},
