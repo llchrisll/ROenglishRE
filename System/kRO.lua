@@ -10673,7 +10673,7 @@ tbl = {
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"HP흡수스톤(상단), SP회복스톤(상단), STR변환스톤(중단), AGI변환스톤(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
+			"HP흡수스톤(상단), SP회복스톤(상단), STR변환스톤(Middle), AGI변환스톤(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -11025,7 +11025,7 @@ tbl = {
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"탐욕스톤(Lower), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(중단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
+			"탐욕스톤(Lower), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(Middle)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -11527,7 +11527,7 @@ tbl = {
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 일렉트릭 이펙트(중단), 쉬링크 이펙트(중단), 그린 플로어 이펙트(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
+			"의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 일렉트릭 이펙트(Middle), 쉬링크 이펙트(Middle), 그린 플로어 이펙트(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -12374,10 +12374,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25001] = {
-		unidentifiedDisplayName = "방어스톤(중단)",
+		unidentifiedDisplayName = "방어스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어스톤(중단)",
+		identifiedDisplayName = "방어스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"방어력이 높아지는 스톤.",
@@ -12390,10 +12390,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25002] = {
-		unidentifiedDisplayName = "LUK변환스톤(중단)",
+		unidentifiedDisplayName = "LUK변환스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "LUK변환스톤(중단)",
+		identifiedDisplayName = "LUK변환스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"운이 높아지고 대신 힘이 떨어지는 스톤.",
@@ -12406,10 +12406,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25003] = {
-		unidentifiedDisplayName = "STR변환스톤(중단)",
+		unidentifiedDisplayName = "STR변환스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "STR변환스톤(중단)",
+		identifiedDisplayName = "STR변환스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"힘이 높아지고 대신 지능이 떨어지는 스톤.",
@@ -12422,10 +12422,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25004] = {
-		unidentifiedDisplayName = "AGI변환스톤(중단)",
+		unidentifiedDisplayName = "AGI변환스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "AGI변환스톤(중단)",
+		identifiedDisplayName = "AGI변환스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"민첩함이 높아지고 대신 운이 떨어지는 스톤.",
@@ -12438,10 +12438,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25005] = {
-		unidentifiedDisplayName = "INT변환스톤(중단)",
+		unidentifiedDisplayName = "INT변환스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "INT변환스톤(중단)",
+		identifiedDisplayName = "INT변환스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"지능이 높아지고 대신 재주가 떨어지는 스톤.",
@@ -12454,10 +12454,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25006] = {
-		unidentifiedDisplayName = "VIT변환스톤(중단)",
+		unidentifiedDisplayName = "VIT변환스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "VIT변환스톤(중단)",
+		identifiedDisplayName = "VIT변환스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"건강이 높아지고 대신 민첩함이 떨어지는 스톤.",
@@ -12470,10 +12470,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25007] = {
-		unidentifiedDisplayName = "DEX변환스톤(중단)",
+		unidentifiedDisplayName = "DEX변환스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "DEX변환스톤(중단)",
+		identifiedDisplayName = "DEX변환스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"재주가 높아지고 대신 건강이 떨어지는 스톤.",
@@ -12495,7 +12495,7 @@ tbl = {
 			"건강이 높아지고 대신 운이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"VIT + 3, LUK - 3.",
-			"VIT변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
+			"VIT변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"AGI +3, LUK +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
@@ -12513,7 +12513,7 @@ tbl = {
 			"민첩함이 높아지고 대신 힘이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"AGI +3, STR - 3.",
-			"AGI변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
+			"AGI변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"LUK +3, STR +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
@@ -12531,7 +12531,7 @@ tbl = {
 			"재주가 높아지고 대신 민첩함이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"DEX +3, AGI - 3.",
-			"DEX변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
+			"DEX변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"VIT + 3, AGI +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
@@ -12549,7 +12549,7 @@ tbl = {
 			"운이 높아지고 대신 지능이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"LUK +3, INT - 3.",
-			"LUK변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
+			"LUK변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"STR +3, INT +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
@@ -12567,7 +12567,7 @@ tbl = {
 			"힘이 높아지고 대신 재주가 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"STR +3, DEX - 3.",
-			"STR변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
+			"STR변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"INT +3, DEX +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
@@ -12585,7 +12585,7 @@ tbl = {
 			"지능이 높아지고 대신 건강이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
 			"INT +3, VIT - 3.",
-			"INT변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.",
+			"INT변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"DEX +3, VIT + 3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
@@ -12603,7 +12603,7 @@ tbl = {
 			"마법방어력이 높아지는 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다. ",
 			"MDEF +4.",
-			"방어스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다. ",
+			"방어스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다. ",
 			"HIT +5, FLEE +5.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
@@ -12827,10 +12827,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25061] = {
-		unidentifiedDisplayName = "레인지스톤(중단)",
+		unidentifiedDisplayName = "레인지스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "레인지스톤(중단)",
+		identifiedDisplayName = "레인지스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"원거리 물리 데미지가 상승하는 스톤.",
@@ -12972,10 +12972,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25070] = {
-		unidentifiedDisplayName = "리로드스톤(중단)",
+		unidentifiedDisplayName = "리로드스톤(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "리로드스톤(중단)",
+		identifiedDisplayName = "리로드스톤(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"스킬 후 딜레이가 감소하는 스톤.",
@@ -13196,544 +13196,6 @@ tbl = {
 		identifiedDescriptionName = {
 			"루티에에서 선물을 장식할 때 사용하는 마법의 날개. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다.",
 			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25098] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"전승 직업인 경우 이전에 선택하신 직업만 가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[검사]^000000<INFO>izlude_in,74,172,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[마법사]^000000<INFO>geffen_in,164,124,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[상인]^000000<INFO>alberta_in,56,43,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[복사]^000000<INFO>prt_church,184,41,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[도둑]^000000<INFO>moc_prydb1,39,126,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[궁수]^000000<INFO>payon_in02,64,71,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[태권]^000000<INFO>payon_in01,62,10,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[닌자]^000000<INFO>alberta.gat,168,138,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[건슬링거]^000000<INFO>que_ng,152,167,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25099] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[슈퍼노비스]^000000<INFO>aldeba_in,223,167,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25100] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[기사]^000000<INFO>prt_in,88,101,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[크루세이더]^000000<INFO>prt_cas,251,75,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25101] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[위저드]^000000<INFO>gef_tower,111,37,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[세이지]^000000<INFO>yuno_in02,38,61,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25102] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[블랙스미스]^000000<INFO>ein_in01,18,24,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[알케미스트]^000000<INFO>alde_alche,27,185,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25103] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[프리스트]^000000<INFO>prt_church,16,41,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[몽크]^000000<INFO>prt_monk,59,247,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25104] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[어쌔신]^000000<INFO>in_moc_16,19,33,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[로그]^000000<INFO>in_rogue,363,122,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25105] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[헌터]^000000<INFO>hu_in01,386,373,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[바드(남자 캐릭터)]^000000<INFO>comodo,211,155,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[댄서(여자 캐릭터)]^000000<INFO>job_duncer,43,93,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25106] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[권성]^000000<INFO>payon,215,102,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[소울링커]^000000<INFO>morocc_in,174,30,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25107] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[룬나이트]^000000<INFO>prt_in,162,24,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25108] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[로얄가드]^000000<INFO>prt_cas,172,275,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25109] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[워록]^000000<INFO>morocc,95,132,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25110] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[소서러]^000000<INFO>gef_tower,102,34,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25111] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[미케닉]^000000<INFO>yuno,129,156,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25112] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[제네릭]^000000<INFO>alde_alche,35,186,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25113] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[아크비숍]^000000<INFO>prt_church,103,88,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25114] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[수라]^000000<INFO>ve_in,237,125,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25115] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[길로틴크로스]^000000<INFO>que_job01,75,96,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25116] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[쉐도우체이서]^000000<INFO>in_rogue,376,100,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25117] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[레인저]^000000<INFO>tur_dun01,156,36,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25118] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[민스트럴]^000000<INFO>alberta,196,133,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25119] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"이미 전승 직업인 경우 재전승은 불가능합니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[원더러]^000000<INFO>xmas,162,212,0,100,0,0</INFO></NAVI>^000000",
-			"^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25120] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[카게로우 & 오보로]^000000<INFO>que_ng,28,156,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25121] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[리벨리온]^000000<INFO>moc_fild12,261,318,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25122] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"전직 가능하신 직업 목록입니다.",
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[슈퍼노비스 레벨확장]^000000<INFO>aldeba_in,216,169,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25123] = {
-		unidentifiedDisplayName = "전직소 지도",
-		unidentifiedResourceName = "도심지도",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전직소 지도",
-		identifiedResourceName = "도심지도",
-		identifiedDescriptionName = {
-			"마우스로 이름을 클릭하면 안내가 시작됩니다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[전승 2차 전직소]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25132] = {
-		unidentifiedDisplayName = "호박 장식",
-		unidentifiedResourceName = "호박장식",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "호박 장식",
-		identifiedResourceName = "호박장식",
-		identifiedDescriptionName = {
-			"할로윈에 없어서는 안될 대표적인 장식품!",
-			"파낸 속에 촛불을 켜서 분위기를 한층 할로윈 스럽게 만들 수 있다.",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25133] = {
-		unidentifiedDisplayName = "잘마른 하얀 줄기",
-		unidentifiedResourceName = "영광의손",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "잘마른 하얀 줄기",
-		identifiedResourceName = "영광의손",
-		identifiedDescriptionName = { "깨끗하게 잘 마른 줄기.", "할로윈 장식으로 안성맞춤!!", "Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25135] = {
-		unidentifiedDisplayName = "[not for sale]영혼의 송곳",
-		unidentifiedResourceName = "송곳",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]영혼의 송곳",
-		identifiedResourceName = "송곳",
-		identifiedDescriptionName = {
-			"소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.",
-			"^ffffff<NAVI>^4D4DFF[피어싱 전문가]^000000<INFO>itemmall,14,66,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25136] = {
-		unidentifiedDisplayName = "일렉트릭 이펙트(중단)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "일렉트릭 이펙트(중단)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000일렉트릭^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25137] = {
-		unidentifiedDisplayName = "그린 플로어 이펙트(Lower)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "그린 플로어 이펙트(Lower)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000그린 플로어^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25138] = {
-		unidentifiedDisplayName = "Shrink Effect(중단)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Shrink Effect(중단)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000쉬링크^000000",
-			"공성 및 PvP 지역에서는 적용되지 않음.",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0

@@ -5201,7 +5201,7 @@ Attack: ^D80000200^000000
 Weight: ^0EAA0B180^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B100^000000
-Jobs: ^6A5ACDGenetic^000000
+Jobs: ^6A5ACDGeneticist^000000
 #
 1323#
 A golden axe with brutal power.
@@ -5213,7 +5213,7 @@ Attack: ^D80000180^000000
 Weight: ^0EAA0B180^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B120^000000
-Jobs: ^6A5ACDGenetic^000000
+Jobs: ^6A5ACDGeneticist^000000
 #
 1324#
 A bloodthirsty axe that has aided many warriors in battle.
@@ -13882,7 +13882,17 @@ Jobs: ^6A5ACD3rd Classes^000000
 [jRO item]
 #
 2198#
-[jRO item]
+A shield of Laphine tribe that hold mysterious power
+^888888-------------------------^000000
+Mdef +10
+^888888-------------------------^000000
+When refine level is +7 or higher, MATK +20.
+^888888-------------------------^000000
+Class: ^6A5ACDShield^000000
+Defense: ^0000FF25^000000
+Weight: ^0EAA0B100^000000
+Required Level: ^0EAA0B100^000000
+Jobs: ^6A5ACD3rd Classes^000000
 #
 2199#
 ''^339999The Shield of all Shields^000000''
@@ -20500,7 +20510,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 2751#
 A badge which can get when they graduate the probationary period of magical school with high grade.
-ust a symbolic meaning only for probationer magicians?
+Just a symbolic meaning only for probationer magicians?
 ^888888-------------------------^000000
 INT +2, MATK +3%, MaxHP +100
 ^888888-------------------------^000000
@@ -21599,7 +21609,7 @@ Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF2^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B99^000000
-Jobs: ^6A5ACDGenetic, Sorcerer^000000
+Jobs: ^6A5ACDGeneticist, Sorcerer^000000
 #
 2842#
 ^000088Rental Item^000000
@@ -22500,22 +22510,22 @@ Required Level: ^0EAA0B100^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 2929#
-...
+[jRO item]
 #
 2930#
-...
+[jRO item]
 #
 2931#
-...
+[jRO item]
 #
 2932#
-...
+[jRO item]
 #
 2933#
-...
+[jRO item]
 #
 2934#
-...
+[jRO item]
 #
 2935#
 Durable for sprint, sweat draining and drying, excellent grip characteristics.
@@ -22565,13 +22575,13 @@ Required Level: ^0EAA0B10^000000
 Class: ^6A5ACD2nd Job^000000
 #
 2937#
-...
+[jRO item]
 #
 2938#
-...
+[jRO item]
 #
 2939#
-...
+[jRO item]
 #
 2940#
 A guide manual for Basic Ninja skills.
@@ -28850,98 +28860,93 @@ Weight: ^0EAA0B1^000000
 4659#
 LUK +2
 MaxHP +50
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD갑옷^000000
+Class: ^6A5ACDCard^000000
+Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4660#
-소형, 중형 몬스터에게 받는 물리, 마법 데미지 5% 감소
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD방패^000000
+Reduces physical and magical damage from small and medium size monsters by 5%.
+Class: ^6A5ACDCard^000000
+Compound on: ^6A5ACDShield^000000
 Weight: ^0EAA0B1^000000
 #
 4661#
-중형, 대형 몬스터에게 받는 물리, 마법 데미지 20% 감소
-소형 몬스터에게 받는 물리, 마법 데미지 15% 증가
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD방패^000000
+Reduces physical and magical damage from medium and large size monsters by 20%.
+Receive more physical and magical damage from small size monsters by 15%.
+Class: ^6A5ACDCard^000000
+Compound on: ^6A5ACDShield^000000
 Weight: ^0EAA0B1^000000
 #
 4662#
 ATK +25, MATK +25
-공격 후 딜레이 - 10%
+ASPD +10%
 MaxHP +1000
-원거리 물리 데미지 + 5%
-크리티컬 데미지 + 10%
-
-순수 STR 10마다 ATK - 5
-순수 AGI 10마다 공격 후 딜레이 + 2%
-순수 VIT 10마다 MaxHP -200
-순수 INT 10마다 MATK - 5
-순수 DEX 10마다 원거리 물리데미지 - 1%
-순수 LUK 10마다 크리티컬 데미지 - 2%
-모든 아이템 옵션은 0 이하로 감소되지 않는다.
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD걸칠것^000000
+Increase long ranged physical damage by 5%
+Increase critical damage by 10%
+Atk -5 for every 10 base Str
+Aspd -2% for every 10 base Agi
+MaxHP -200 for every 10 base Vit
+Matk -5 for every 10 base Int
+Long ranged physical damage - 1% for every 10 base Dex
+Critical damage by - 2% for every 10 base Luk
+All attributes can't be lower than 0
+Class: ^6A5ACDCard^000000
+Compound on: ^008C99Garment^000000
 Weight: ^0EAA0B1^000000
 #
 4663#
 MaxSP +5
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD신발^000000
+Class: ^6A5ACDCard^000000
+Compound on: ^6A5ACDShoes^000000
 Weight: ^0EAA0B1^000000
 #
 4664#
 LUK +1
 MaxHP +100
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD갑옷^000000
+Class: ^6A5ACDCard^000000
+Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4665#
 ATK +5
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD무기^000000
+Class: ^6A5ACDCard^000000
+Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 4666#
 MaxSP +10
 MaxHP +300
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD갑옷^000000
+Class: ^6A5ACDCard^000000
+Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4667#
 MaxSP +30
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD신발^000000
+Class: ^6A5ACDCard^000000
+Compound on: ^6A5ACDShoes^000000
 Weight: ^0EAA0B1^000000
 #
 4668#
-VIT + 1
+VIT +1
 INT +1
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD투구^000000
+Class: ^6A5ACDCard^000000
+Compound on: ^7102EFHeadgear^000000
 Weight: ^0EAA0B1^000000
 #
 4669#
-풍속성 몬스터에게 주는 마법 공격력 +3%
-7 제련 이상 시
-풍속성 몬스터에게 주는 마법 공격력 +5%
-9 제련 이상 시
-풍속성 몬스터에게 주는 마법 공격력 +7%
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD무기^000000
+Increase magic attack against Wind property monsters by 3%.
+If refine level is +7 or higher, increase magic attack against Wind property monsters by 5%.
+If refine level is +9 or higher, increase magic attack against Wind property monsters by 7%.
+Class: ^6A5ACDCard^000000
+Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 4670#
-화속성 몬스터에게 주는 마법 공격력 +3%
-7 제련 이상 시
-화속성 몬스터에게 주는 마법 공격력 +5%
-9 제련 이상 시
-화속성 몬스터에게 주는 마법 공격력 +7%
-Class: ^6A5ACD카드^000000
-Jobs: ^6A5ACD무기^000000
+Increase magic attack against Fire property monsters by 3%.
+If refine level is +7 or higher, increase magic attack against Fire property monsters by 5%.
+If refine level is +9 or higher, increase magic attack against Fire property monsters by 7%.
+Class: ^6A5ACDCard^000000
+Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 4700#
@@ -31861,7 +31866,7 @@ Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B70^000000
-Equip: ^777777All profesion^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5154#
 Fashionable yet strict-looking sunglasses which is usually worn by the Metaboli players.
@@ -35034,7 +35039,7 @@ Resistant to Bleeding +5%
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
-Head Slot: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B120^000000
 Required Level: ^0EAA0B85^000000
 Jobs: ^6A5ACDTranscendent Swordman and Merchant^000000
@@ -35536,7 +35541,7 @@ MDEF +2
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -35550,7 +35555,7 @@ Decreases damage from Insect monsters by 5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -35563,7 +35568,7 @@ MaxSP +20
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
@@ -35576,7 +35581,7 @@ MaxSP +20
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
@@ -35589,7 +35594,7 @@ MaxSP +20
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
@@ -35602,7 +35607,7 @@ MaxSP +20
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
@@ -35619,7 +35624,7 @@ Decrease SP consumption by 5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -35633,7 +35638,7 @@ Randomly auto-casts Level 1 Status Recovery when attacked physically.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B60^000000
 Required Level: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -35645,7 +35650,7 @@ CRIT +6
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -35656,7 +35661,7 @@ MaxSP +5
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Equip: ^777777Lower^000000
+Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -35668,7 +35673,7 @@ Perfect Dodge +3
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -35681,7 +35686,7 @@ Increase physical and magical damage inflicted on Insect monster by 12%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B50^000000
 Required Level: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -35693,7 +35698,7 @@ Enables use of Level 1 Scribble.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Equip: ^777777Upper, Middle, Lower^000000
+Location: ^6A5ACDUpper, Middle, Lower^000000
 Weight: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -35704,7 +35709,7 @@ Enables use of Level 1 Scribble.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Equip: ^777777Upper, Middle, Lower^000000
+Location: ^6A5ACDUpper, Middle, Lower^000000
 Weight: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -38976,7 +38981,7 @@ Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
-Required Leve: ^7777771^000000
+Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5687#
@@ -39252,7 +39257,7 @@ Required Level: ^0EAA0B100^000000
 Jobs: ^6A5ACDMinstrel^000000
 #
 5752#
-Free gift of a famous Geneticist Bob Rose's book. Midas mark looks cute.
+Free gift of a famous Geneticistist Bob Rose's book. Midas mark looks cute.
 STR +1, DEX +1, MDEF +5.
 When pure Str is 120, ATK +5, ASPD +1.
 Class: ^6A5ACDHeadgear^000000
@@ -39260,7 +39265,7 @@ Defense: ^0000FF12^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B100^000000
-Jobs: ^6A5ACDGenetic^000000
+Jobs: ^6A5ACDGeneticist^000000
 #
 5753#
 A hat which is decorated with minerals from an unknown world that has magical power in it.
@@ -39347,7 +39352,7 @@ AGI +2.
 Chance to use the skill Sonic Blow Level 5 when you attack physically in short distance.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
-Weapon position: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B80^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -40251,6 +40256,7 @@ Required Level: ^0EAA0B40^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5853#
+[idRO item]
 #
 5855#
 Real masters don't blame the tool.
@@ -40470,7 +40476,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5878#
 A blue rose that can never exist.
-This is a total dream to make it to geneticists.
+This is a total dream to make it to Geneticistists.
 With physical critical attacks, Aspersio Lv1 can be activated with a certain chance.
 LUK +1
 Class: ^6A5ACDHeadgear^000000
@@ -40625,7 +40631,7 @@ Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
 Required Level: ^0EAA0B100^000000
-Jobs: ^6A5ACDGenetic^000000
+Jobs: ^6A5ACDGeneticist^000000
 #
 5903#
 An otherwise normal ghost bandana with a red spiral insignia on the front.
@@ -42176,17 +42182,17 @@ Weight: ^0EAA0B0^000000
 #
 6210#
 Be careful of the sharp thorns that surround this.
-It is used for Geneticist Skill, 'Thorn Trap', 'Thorn Wall' and 'Crazy weed'.
+It is used for Geneticistist Skill, 'Thorn Trap', 'Thorn Wall' and 'Crazy weed'.
 Weight: ^0EAA0B0.1^000000
 #
 6211#
 An unpleasant seed that is used for reddish fruits, it looks as if blood is inside of it.
-It's used for Geneticist Skill, 'Blood	Sucker'.
+It's used for Geneticistist Skill, 'Blood	Sucker'.
 Weight: ^0EAA0B0.1^000000
 #
 6212#
 A purplish spore. When it's touched a purple dust curls up that you need to be careful of.
-It's consumed for Geneticist Skill, 'Spore Explosion'.
+It's consumed for Geneticistist Skill, 'Spore Explosion'.
 Weight: ^0EAA0B0.1^000000
 #
 6213#
@@ -43930,24 +43936,31 @@ Weight: ^0EAA0B10^000000
 #
 6645#
 A stone with Evasion.
-Gives below stats to Lower Costume
+Gives enhancement to lower costume slot.
 FLEE +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
-무게 : ^77777710^000000
+Weight: ^0EAA0B10^000000
 #
 6646#
+[twRO item]
 #
 6648#
+[twRO item]
 #
 6649#
+[twRO item]
 #
 6650#
+[twRO item]
 #
 6651#
+[twRO item]
 #
 6652#
+[twRO item]
 #
 6653#
+[twRO item]
 #
 6654#
 ^ff0000Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
@@ -43979,16 +43992,22 @@ Currency Used in Kingdom of Undead, Vanishes After Halloween.
 Weight: ^0EAA0B0^000000
 #
 6659#
+[twRO item]
 #
 6660#
+[twRO item]
 #
 6661#
+[twRO item]
 #
 6662#
+[twRO item]
 #
 6663#
+[twRO item]
 #
 6664#
+[twRO item]
 #
 6665#
 Take this ticket to the RWC Enchanter so that you can change the enchantment of your RWC 2012 Ring or RWC 2012 Pendant.
@@ -43996,6 +44015,7 @@ Take this ticket to the RWC Enchanter so that you can change the enchantment of 
 Weight: ^0EAA0B1^000000
 #
 6668#
+[jRO item]
 #
 6669#
 The fresh leaves of small trees.
@@ -44031,10 +44051,13 @@ Can be exchanged for a goods after collecting 5 of it.
 Weight: ^0EAA0B0^000000
 #
 6675#
+[twRO item]
 #
 6676#
+[twRO item]
 #
 6677#
+[twRO item]
 #
 6678#
 Philip's blood, used to cast a magic.
@@ -44047,6 +44070,7 @@ Isabela's blood, used to cast a magic.
 Weight: ^0EAA0B0^000000
 #
 6680#
+[jRO item]
 #
 6681#
 The key ingredient to build the cookie house for Raccoon Hooray team for Christmas.
@@ -44201,6 +44225,7 @@ Fake bundled octopus 8 legs.
 Weight: ^0EAA0B0^000000
 #
 6711#
+[jRO item]
 #
 6712#
 A sweet magic wand, feeling lovely just by holding it.
@@ -45493,7 +45518,7 @@ Weight: ^0EAA0B0^000000
 HP를 흡수 할 수 있는 스톤. 
 의상 상단 슬롯에 아래의 능력치를 부여한다. 
 1% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 7001#
@@ -56895,12 +56920,24 @@ Weight: ^0EAA0B1^000000
 
 #
 12760#
+So delicious. It strong flavor.
+[STR +10 for 20 minutes]
+Weight: ^0EAA0B1^000000
 #
 12761#
+So delicious. It strong flavor.
+[INT +10 for 20 minutes]
+Weight: ^0EAA0B1^000000
 #
 12762#
+So delicious. It strong flavor.
+[DEX +10 for 20 minutes]
+Weight: ^0EAA0B1^000000
 #
 12763#
+So delicious. It strong flavor.
+[AGI +10 for 20 minutes]
+Weight: ^0EAA0B1^000000
 #
 12764#
 #
@@ -59235,7 +59272,7 @@ Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDNovice, Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^000000
 #
 13080#
-A knife with property resistance in it
+A dagger made of water rune. It have the power that can reduces damage from water element.
 AGI +2, MaxHP -2%.
 Increases resistance +2% from water property attack
 Decreases resistance -5% from fire property attack
@@ -59675,7 +59712,7 @@ Attack: ^D80000150^000000
 Weight: ^0EAA0B80^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B99^000000
-Jobs: ^6A5ACDGunslinger, Rebellion^000000
+Jobs: ^6A5ACDGunslinger^000000
 #
 13122#
 Given the specifics of such a high level, the performance of the gun goes beyond.
@@ -71842,7 +71879,7 @@ Class: ^6A5ACDArmor^000000
 Defense: ^0000FF66^000000
 Weight: ^0EAA0B66^000000
 Required Level: ^0EAA0B100^000000
-Jobs: ^6A5ACDGenetic^000000
+Jobs: ^6A5ACDGeneticist^000000
 #
 15045#
 An armor imbued with magical power.
@@ -72264,7 +72301,7 @@ Class: ^6A5ACDArmor^000000
 Defense: ^0000FF100^000000
 Weight: ^0EAA0B50^000000
 Required Level: ^0EAA0B160^000000
-Jobs: ^6A5ACDMechanic and Genetic^000000
+Jobs: ^6A5ACDMechanic and Geneticist^000000
 #
 15097#
 MaxHP +5%, MaxSP +5%
@@ -72690,7 +72727,7 @@ Attack: ^D80000175^000000
 Weight: ^0EAA0B150^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B100^000000
-Jobs: ^6A5ACDMechanic, Genetic, Archbishop and Sura^000000
+Jobs: ^6A5ACDMechanic, Geneticist, Archbishop and Sura^000000
 #
 16004#
 A beginner's mace that is made exclusively by the Eden Group.
@@ -72758,7 +72795,7 @@ Attack: ^D8000015^000000
 Weight: ^0EAA0B100^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B102^000000
-Jobs: ^6A5ACDGenetic^000000
+Jobs: ^6A5ACDGeneticist^000000
 #
 16013#
 A mace that strikes like the Judges gavel in deciding the fate of evil.
@@ -72952,7 +72989,7 @@ Attack: ^D80000180^000000
 Weight: ^0EAA0B300^000000
 Weapon Level: ^0EAA0B4^000000
 Required Level: ^0EAA0B120^000000
-Jobs: ^6A5ACDRune Knight, Royal Guard, Mechanic, Genetic, Archbishop and Sura^000000
+Jobs: ^6A5ACDRune Knight, Royal Guard, Mechanic, Geneticist, Archbishop and Sura^000000
 #
 16029#
 Small chance to cast Turn Undead Level 6.
@@ -73006,7 +73043,7 @@ Attack: ^D80000195^000000
 Weight: ^0EAA0B300^000000
 Weapon Level: ^0EAA0B4^000000
 Required Level: ^0EAA0B130^000000
-Jobs: ^6A5ACDRune Knight, Royal Guard, Mechanic, Genetic, Archbishop and Sura^000000
+Jobs: ^6A5ACDRune Knight, Royal Guard, Mechanic, Geneticist, Archbishop and Sura^000000
 #
 16036#
 Blue Mace which has destructive power.
@@ -73031,7 +73068,7 @@ Attack: ^D80000155^000000
 Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B4^000000
 Required Level: ^0EAA0B100^000000
-Jobs: ^6A5ACDRune Knight, Royal Guard, Mechanic, Genetic, Archbishop and Sura^000000
+Jobs: ^6A5ACDRune Knight, Royal Guard, Mechanic, Geneticist, Archbishop and Sura^000000
 #
 16039#
 ASPD +10
@@ -76061,7 +76098,7 @@ Weight: ^0EAA0B1^000000
 보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가
 일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소
 Class: ^6A5ACD투구^000000    Defense: ^0000FF9^000000
-위치 : ^777777상단^000000    무게 : ^777777100^000000
+위치 : ^777777상단^000000    Weight: ^0EAA0B100^000000
 요구레벨 : ^77777770^000000
 Jobs: ^6A5ACD검사 / 상인 / 도둑 계열^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76074,7 +76111,7 @@ Weight: ^0EAA0B1^000000
 보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가
 일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소
 Class: ^6A5ACD투구^000000    Defense: ^0000FF9^000000
-위치 : ^777777상단^000000    무게 : ^777777100^000000
+위치 : ^777777상단^000000    Weight: ^0EAA0B100^000000
 요구레벨 : ^77777770^000000
 Jobs: ^6A5ACD검사 / 상인 / 도둑 계열^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76211,7 +76248,7 @@ STR +20, MDEF +3
 착용자의 BaseLV에 따라 STR 추가 증가.
 STR이 순수 120 인 경우, 보스몬스터에게 5% 물리 데미지 추가.
 Class: ^6A5ACDAccessory^000000
-Defense: ^0000FF1^000000      무게 : ^7777770^000000
+Defense: ^0000FF1^000000      Weight: ^0EAA0B0^000000
 요구레벨 : ^77777747^000000
 Jobs: ^6A5ACD전직업 장착가능^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76226,7 +76263,7 @@ STR, AGI, DEX, VIT 각 +3 상승, LUK, INT 각 +5 상승.
 MDEF +2
 자신이 사용하는 힐, 생츄어리 스킬의 회복량이 3% 증가.
 Class: ^6A5ACDAccessory^000000
-Defense: ^0000FF1^000000      무게 : ^7777770^000000
+Defense: ^0000FF1^000000      Weight: ^0EAA0B0^000000
 요구레벨 : ^77777747^000000
 Jobs: ^6A5ACD전직업 장착가능^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76254,7 +76291,7 @@ Weight: ^0EAA0B1^000000
 물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF5^000000
-위치 : ^777777상중단 ^000000 무게 : ^77777780^000000
+위치 : ^777777상중단 ^000000 Weight: ^0EAA0B80^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76266,7 +76303,7 @@ Jobs: ^6A5ACDAll classes^000000
 물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF5^000000
-위치 : ^777777상중단 ^000000 무게 : ^77777780^000000
+위치 : ^777777상중단 ^000000 Weight: ^0EAA0B80^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76286,7 +76323,7 @@ ATK +30, HP - 2%.
 골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF3^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76301,7 +76338,7 @@ MATK +30, MaxSP - 2%.
 골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF0^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76316,7 +76353,7 @@ ATK +30, HP - 2%.
 골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF3^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76331,7 +76368,7 @@ MATK +30, MaxSP - 2%.
 골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF0^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76347,7 +76384,7 @@ INT +1, MDEF +2.
 골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF2^000000
-위치 : ^777777중단 ^000000 무게 : ^7777770^000000
+위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76362,7 +76399,7 @@ INT +1, MDEF +2.
 골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF2^000000
-위치 : ^777777중단 ^000000 무게 : ^7777770^000000
+위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76377,7 +76414,7 @@ INT +1, MDEF +2.
 골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF2^000000
-위치 : ^777777중단 ^000000 무게 : ^7777770^000000
+위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76391,7 +76428,7 @@ ATK +30, HP - 2%.
 골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF3^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76406,7 +76443,7 @@ MATK +30, MaxSP - 2%.
 골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF0^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76421,7 +76458,7 @@ ATK +30, HP - 2%.
 골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF3^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76436,7 +76473,7 @@ MATK +30, MaxSP - 2%.
 골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF0^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76451,7 +76488,7 @@ ATK +30, HP - 2%.
 골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF3^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76466,7 +76503,7 @@ MATK +30, MaxSP - 2%.
 골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF0^000000
-위치 : ^777777하단 ^000000 무게 : ^7777770^000000
+위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 
@@ -76482,7 +76519,7 @@ INT +1, MDEF +2.
 골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF2^000000
-위치 : ^777777중단 ^000000 무게 : ^7777770^000000
+위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76497,7 +76534,7 @@ INT +1, MDEF +2.
 골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF2^000000
-위치 : ^777777중단 ^000000 무게 : ^7777770^000000
+위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76512,7 +76549,7 @@ INT +1, MDEF +2.
 골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF2^000000
-위치 : ^777777중단 ^000000 무게 : ^7777770^000000
+위치 : ^777777중단 ^000000 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD전직업^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76526,7 +76563,7 @@ DEX +2, 스킬 후 딜레이 2% 감소, 풍속성 공격 저항 5%.
 7제련 이상 시 DEX +1, MATK +30 추가.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF3^000000
-위치 : ^777777상단 ^000000 무게 : ^77777730^000000
+위치 : ^777777상단 ^000000 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76537,10 +76574,10 @@ Weight: ^0EAA0B1^000000
 
 황도 3번째 자리인 쌍자궁을 나타내는 왕관. 탄생석인 알렉산드라이트가 박혀있다.
 AGI + 2, FLEE +10, 풍속성 공격에 대한 내성 5%.
-7제련 이상 일 경우 HIT + 5, ATK +30.
+7제련 이상 일 경우 HIT +5, ATK +30.
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF6^000000
-위치 : ^777777상단 ^000000 무게 : ^77777730^000000
+위치 : ^777777상단 ^000000 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -76613,11 +76650,13 @@ Weight: ^0EAA0B1^000000
 #
 16660#
 영혼의 송곳이 1개 들어있는 상자.
-^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^0EAA0B1^000000
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+Weight: ^0EAA0B1^000000
 #
 16661#
 영혼의 송곳이 1개 들어있는 상자.
-^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000Weight: ^0EAA0B1^000000
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+Weight: ^0EAA0B1^000000
 #
 16662#
 백양궁 하늘의 보관이 1개 들어있는 상자.
@@ -76760,7 +76799,7 @@ Weight: ^0EAA0B1^000000
 가루다 햇이 1개 들어있는 상자.
 전설의 새 가루다의 깃털로 만들어진 매우 독특하며 희귀한 투구.
 모든 몬스터로 부터 받는 데미지 5% 감소.
-LUK +5, MDEF +3, HIT + 10, 캐스팅 딜레이 5% 감소.
+LUK +5, MDEF +3, HIT +10, 캐스팅 딜레이 5% 감소.
 7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
@@ -76775,7 +76814,7 @@ Weight: ^0EAA0B1^000000
 가루다 햇이 1개 들어있는 상자.
 전설의 새 가루다의 깃털로 만들어진 매우 독특하며 희귀한 투구.
 모든 몬스터로 부터 받는 데미지 5% 감소.
-LUK +5, MDEF +3, HIT + 10, 캐스팅 딜레이 5% 감소.
+LUK +5, MDEF +3, HIT +10, 캐스팅 딜레이 5% 감소.
 7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
@@ -79387,7 +79426,7 @@ Weight: ^0EAA0B1^000000
 대백과 사전이 1개 들어있는 상자. 개봉 후, 7일간 사용가능.
 ^000088임대아이템^000000
 모서리가 단단하기로 유명한 프론테라 모 출판사의 대백과 사전. 이 모서리에 찍혀 본 사람들은, 모서리에 3캐럿 다이아몬드를 박은 게 아니냐고 할 정도로 매우 단단하다.
-MATK +100, INT +3, DEX +2, CRI + 20.
+MATK +100, INT +3, DEX +2, Crit +20.
 순수 럭 수치에 따라 크리율 추가로 증가.
 소, 중, 대형 적에 대한 공격력 40% 증가.
 골드PC방에서 장착 시 ATK +10, MATK +10.
@@ -79539,7 +79578,7 @@ Defense: ^0000FF2^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
 #
@@ -79555,7 +79594,7 @@ Defense: ^0000FF2^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
 #
@@ -79571,7 +79610,7 @@ Defense: ^0000FF2^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
 #
@@ -79587,7 +79626,7 @@ Defense: ^0000FF2^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
 #
@@ -79603,7 +79642,7 @@ Defense: ^0000FF2^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
 #
@@ -79619,7 +79658,7 @@ Defense: ^0000FF2^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
 #
@@ -79898,7 +79937,7 @@ Class: ^6A5ACD방패^000000
 Defense: ^0000FF25^000000
 Weight: ^0EAA0B15^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ffffff_^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
@@ -79982,7 +80021,7 @@ Class: ^6A5ACD걸칠것^000000
 Defense: ^0000FF9^000000
 Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ffffff_^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
@@ -80024,7 +80063,7 @@ Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
 Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ffffff_^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
@@ -80038,7 +80077,7 @@ Class: ^6A5ACDArmor^000000
 Defense: ^0000FF25^000000
 Weight: ^0EAA0B15^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 ^ffffff_^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
@@ -80322,7 +80361,7 @@ Weight: ^0EAA0B1^000000
 17037#
 변신 스크롤(데비루치)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!
 20분 동안 몬스터 "데비루치"의 모습으로 변신이 가능한 신비한 스크롤.
-데비루치로 변신한 시간 동안 ASPD + 1, HIT + 5.
+데비루치로 변신한 시간 동안 ASPD + 1, HIT +5.
 주의! 사망 시 변신이 풀려버립니다.
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
@@ -80393,7 +80432,8 @@ MDEF +2.
 All Stats +1, 인간형 적에게 데미지 10% 감소.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 
@@ -80438,7 +80478,8 @@ AGI + 2, FLEE +10.
 7제련 이상 일 경우 ATK +15, 공격속도 증가(공격 후 딜레이 5% 감소)
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B30^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -81212,7 +81253,8 @@ HP회복력 150% 상승.
 제련도 1당 MaxHP +80씩 증가.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B20^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B20^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 ^ffffff_^000000
@@ -81417,7 +81459,8 @@ INT +3, MDEF +9.
 마법 공격 시 또는 마법 공격을 받을 시 드물게 선녀 '백소진'이 빙의. 빙의 상태에선 초당 SP를 10씩 잃게되나 일시적으로 도력을 얻는다. 제련도에 따라 변신 지속시간과 도력도 증가한다.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACD노비스를 제외한 전직업^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
@@ -81553,7 +81596,8 @@ VIT + 1, 2제련당 VIT + 1씩 추가 증가.
 모자 9제련 시, MaxHP +200 추가.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B50^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B50^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 
@@ -82746,7 +82790,7 @@ HIT, FLEE +30, ASPD + 1, SP 소모량 5% 감소,
 ^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000
 
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
-무게 : ^7777771^000000
+Weight: ^0EAA0B1^000000
 #
 17640#
 한정판 파워 부스터 100개와 2015 스페셜 스크롤이 11개 들어있는 상자.
@@ -82760,7 +82804,7 @@ HIT, FLEE +30, ASPD + 1, SP 소모량 5% 감소,
 ^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000
 
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
-무게 : ^7777771^000000
+Weight: ^0EAA0B1^000000
 #
 18000#
 A consumable item to use the Mechanic Magic Gear Skill, Arm's Cannon.
@@ -83595,8 +83639,8 @@ Jobs: ^6A5ACDAll classes^000000
 18543#
 A hat with self ego, once used by the Great Witch. Assists your magic spells.
 MDEF +5.
-Reduces 5% of skill casting change duration.
-Additional 5% duration reducing for +7 enchant.
+Reduces variable cast time by 5%.
+Additional 5% variable cast time reduction when refined to +7.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF7^000000
 Location: ^6A5ACDUpper^000000
@@ -83679,7 +83723,7 @@ LUK +2
 ^702180Indestructible^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Equip: ^777777Upper^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B120^000000
 Required Level: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -83981,7 +84025,8 @@ Jobs: ^6A5ACDAll classes^000000
 MDEF +9.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B9^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B9^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -88419,7 +88464,8 @@ LUK +1,
 물리, 마법 공격시 일정 확률로 자신에게 블레싱 3Lv 발동
 Class: ^6A5ACD투구^000000
 Defense: ^0000FF2^000000
-위치 : ^777777상단 ^000000무게 : ^77777710^000000
+위치 : ^777777상단 ^000000
+Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B20^000000
 Jobs: ^6A5ACDDoram race^000000
 #
@@ -88535,9 +88581,10 @@ Jobs: ^6A5ACDAll classes^000000
 10제련 이상 시, ATK,MATK+3%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B50^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B50^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 19097#
 A Piamette's big ribbon that able to increase magic power of it's wearer.
@@ -91535,7 +91582,8 @@ Jobs: ^6A5ACDAll classes^000000
 19852#
 갈라파고를 본따서 만든 모습이 의외로 귀엽다. 또한 부리 부분이 햇빛을 가려주는 효과가 매우 뛰어남.
 Class: ^6A5ACDCostume^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -92154,7 +92202,8 @@ Jobs: ^6A5ACDAll classes^000000
 땅의 신성함을 가진 신의 힘이 봉인되어 있는 실크햇.
 Class: ^6A5ACDCostume^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -92311,7 +92360,7 @@ Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 19967#
-Free gift of a famous Geneticist Bob Rose's book. Midas mark looks cute.
+Free gift of a famous Geneticistist Bob Rose's book. Midas mark looks cute.
 Class: ^6A5ACDCostume^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B0^000000
@@ -92812,7 +92861,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 20035#
 A blue rose that can never exist.
-This is a total dream to make it to geneticists.
+This is a total dream to make it to Geneticistists.
 Class: ^6A5ACDCostume^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
@@ -95146,9 +95195,10 @@ Jobs: ^6A5ACDAll classes^000000
 축제때 들고 다니면 행복한 기분이 될지도?
 Class: ^6A5ACDCostume^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDLower^000000Weight: ^0EAA0B0^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20345#
 There is rumor that this protector contain a Seagod's power.
@@ -95186,9 +95236,10 @@ Jobs: ^6A5ACDAll classes^000000
 하늘을 나는데 성공한 갈라파고. 언젠가 자력으로 하늘높이 날수 있기를 꿈꾸고 있다.
 Class: ^6A5ACDCostume^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDLower^000000Weight: ^0EAA0B0^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20350#
 A wig that always bouncing whenever you move.
@@ -95363,17 +95414,27 @@ Jobs: ^6A5ACDAll classes^000000
 몬스터를 죽였을 시 획득 경험치+13%.
 Class: ^6A5ACDCostume^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20372#
+Hat to protect you from the Sun.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20396#
 귀여운 나무 정령의 모자.
 Class: ^6A5ACDCostume^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDUpper^000000Weight: ^0EAA0B0^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20397#
 잭처럼 보일 수 있는 투구.
@@ -95381,16 +95442,18 @@ Jobs: ^6A5ACDAll^000000
 제작 방법은 비밀…
 Class: ^6A5ACDCostume^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACD중하단 ^000000Weight: ^0EAA0B0^000000
+Location: ^6A5ACD중하단 ^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20398#
 니플헤임의 치유계 마스코트 '하이로조이스트'를 모티브로 한 모자.
 매력 포인트는 폭신폭신한 솜털, 떠다니는 냉기, 토끼눈 같은 빨간 단추, 그리고  x로 된 입이다.
 Class: ^6A5ACD의상장비^000000
 Defense: ^0000FF0^000000
-위치 : ^777777상단 ^000000무게 : ^7777770^000000
+위치 : ^777777상단 ^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -95398,7 +95461,8 @@ Jobs: ^6A5ACDAll classes^000000
 타락한 닌자의 원한이 가득차 있는 가면.
 Class: ^6A5ACD의상장비^000000
 Defense: ^0000FF0^000000
-위치 : ^777777중단 ^000000무게 : ^7777770^000000
+위치 : ^777777중단 ^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -95425,7 +95489,7 @@ Class: ^6A5ACDCostume^000000
 Location: ^6A5ACD걸칠것 ^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20507#
 포링 모양으로 만들어진 가방.
@@ -95932,7 +95996,7 @@ Class: ^6A5ACD걸칠것^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20781#
 A certified kingdom equipment for adventurer.
@@ -95942,7 +96006,7 @@ Class: ^6A5ACD걸칠것^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20782#
 A certified kingdom equipment for adventurer.
@@ -95952,7 +96016,7 @@ Class: ^6A5ACD걸칠것^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20783#
 A manteau wore by a kid whos has dream of becoming hero.
@@ -95975,7 +96039,7 @@ Class: ^6A5ACD걸칠것^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20788#
 도람족이 선호하는 무늬의 망토.
@@ -96470,7 +96534,7 @@ Jobs: ^6A5ACDAll classes^000000
 [twRO item]
 #
 22030#
-Battle boots, supremacy symbol of Genetic Scholar.
+Battle boots, supremacy symbol of Geneticist Scholar.
 Every 2 refine, MaxHP +100, MaxSP +1%.
 When equipped with the shawl, increase Cart Tornado damage by 10%, when base INT is 100, increase Blood Sucker damage by 10%.
 Class: ^6A5ACDFootgear^000000
@@ -96718,7 +96782,7 @@ Jobs: ^6A5ACDDoram race^000000
 친환경 소재로 만든 빨간색 장화. 통풍이 잘 안되니 자주 신발을 벗어주는 편이 좋다. 안그랬다가는 크게 낭패를 볼 일이 생길지도..
 10초당 HP 회복 + 4,
 10초당 SP 회복 + 1,
-CRI + 5
+Crit +5
 Class: ^6A5ACD신발^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B10^000000
@@ -96733,7 +96797,7 @@ Class: ^6A5ACD신발^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 22079#
 A certified kingdom equipment for adventurer.
@@ -96743,7 +96807,7 @@ Class: ^6A5ACD신발^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 22080#
 A certified kingdom equipment for adventurer.
@@ -96753,7 +96817,7 @@ Class: ^6A5ACD신발^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 22081#
 A certified kingdom equipment for adventurer.
@@ -96763,7 +96827,7 @@ Class: ^6A5ACD신발^000000
 Defense: ^0000FF20^000000
 Weight: ^0EAA0B30^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 22083#
 도람족의 작은 발에 맞게 고안된 전용 슈즈.
@@ -98093,7 +98157,7 @@ Weight: ^0EAA0B1^000000
 #
 22953#
 부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. 
-HP흡수스톤(상단), SP회복스톤(상단), STR변환스톤(중단), AGI변환스톤(하단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. 
+HP흡수스톤(상단), SP회복스톤(상단), STR변환스톤(Middle), AGI변환스톤(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. 
 Weight: ^0EAA0B1^000000
 #
 22971#
@@ -98265,7 +98329,7 @@ Weight: ^0EAA0B10^000000
 #
 23001#
 부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. 
-탐욕스톤(하단), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(중단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. 
+탐욕스톤(Lower), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(Middle)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. 
 Weight: ^0EAA0B1^000000
 #
 23007#
@@ -98322,6 +98386,20 @@ Weight: ^0EAA0B0^000000
 무기 11제련 보장권, 방어구 11제련 보장권, [not for sale]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
 Weight: ^0EAA0B1^000000
 #
+23025#
+용병 교황을 소환할 수 있는 소환서.
+무게 : ^7777770^000000
+#
+23026#
+사복 차림의 교황을 소환할 수 있는 소환서.
+무게 : ^7777770^000000
+#
+23027#
+민들레를 엮어 만든 소박한 반지. 민들레 홀씨를 불면  바람을 타고 어디론가 날아갈 것 같다.
+'라헬'로 귀환 가능. 
+한번 사용시, 60분간 재사용이 불가능하다. 
+무게 : ^7777770^000000
+#
 23028#
 도망친 달토끼를 생포하기 위한 밧줄이다
 Weight: ^0EAA0B0^000000
@@ -98362,6 +98440,14 @@ Weight: 0
 기간 한정 인비지블 스크롤. 
 무기 11제련 보장권, 방어구 11제련 보장권, 인비지블 박스, 봉인된인장 카드등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. 
 Weight: ^0EAA0B1^000000
+#
+23036#
+용병 교황을 소환할 수 있는 소환서.
+무게 : ^7777770^000000
+#
+23037#
+사복 차림의 교황을 소환할 수 있는 소환서.
+무게 : ^7777770^000000
 #
 23038#
 [not for sale]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.
@@ -98452,7 +98538,7 @@ Weight: ^0EAA0B1^000000
 #
 23058#
 부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. 
-의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 일렉트릭 이펙트(중단), 쉬링크 이펙트(중단), 그린 플로어 이펙트(하단)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. 
+의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 일렉트릭 이펙트(Middle), 쉬링크 이펙트(Middle), 그린 플로어 이펙트(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. 
 Weight: ^0EAA0B1^000000
 #
 23062#
@@ -98461,10 +98547,15 @@ Weight: ^0EAA0B1^000000
 (^ff0000해당 아이템은 2016년 1월 첫째주 정기점검시 일괄 삭제됩니다.^000000)
 Weight: ^0EAA0B1^000000
 #
+23063#
+누군가의 꿈에서 떨어져 나온 조각. 가만히 들여다 보면 수많은 꿈이 일렁이는 것을 볼 수 있다.
+힘을 가하면 잘게 부서져 다수의 꿈의 파편을 얻을 수 있다.
+무게 : ^7777770^000000
+#
 23069#
 기간 한정 2015 스페셜 스크롤.
 무기 11제련 상품권, 방어구 11제련 상품권, 프리미엄 리셋 돌, 2015 스페셜 상자, 2차직업군 쉐도우등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
-무게 : ^7777771^000000
+Weight: ^0EAA0B1^000000
 #
 23070#
 2015년에 행운의 알에서 나온 인기있는 아이템을 모은 상자.
@@ -101900,7 +101991,8 @@ Jobs: ^6A5ACDAll classes^000000
 피어스 SP 소모량 20% 감소
 볼링배쉬 데미지 20% 증가
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -101913,7 +102005,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 홀리크로스 데미지 20% 증가
 그랜드 크로스 SP 소모 20% 감소
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -101926,7 +102019,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 블랙스미스 계열이 착용시, 소/중/대형 몬스터에게 입히는 피해 3% 증가
 웨폰 퍼펙션 SP 소모량 20% 감소.
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -101938,7 +102032,8 @@ ATK가 러닝 포션 레벨만큼 증가한다.
 알케미스트 슈즈 쉐도우와 함께 착용시, 
 알케미스트 계열이 착용시, 아드레날린 러쉬 Lv.3 사용 가능.
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -101951,7 +102046,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 프리스트 계열이 착용시, MATK +3%.
 마그누스 엑소르시스무스 변동 캐스팅 시간 40% 단축.
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -101963,7 +102059,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 몽크 슈즈 쉐도우와 함께 착용시,
 연환전신장, 침투경, 탄지신통 SP 소모량 20% 감소
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -101976,7 +102073,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 그림투스 SP 소모량 20% 감소
 소닉 블로우 데미지 20% 증가
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -101989,7 +102087,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 로그 계열이 착용시, 소/중/대형 몬스터에게 입히는 피해 3% 증가
 기습 SP 소모량 20% 감소
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -102002,7 +102101,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 메테오 스톰, 로드 오브 버밀리온, 스톰 가스트의 데미지 20% 증가
 유피텔 선더의 변동 캐스팅 시간 40% 감소
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -102016,7 +102116,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 헤븐즈 드라이브의 변동 캐스팅 시간 40% 감소
 세이지 계열이 착용시, MATK +3%.
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -102029,7 +102130,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 헌터 계열이 착용시, 소/중/대형 몬스터에게 입히는 피해 3% 증가
 크레모어 트랩, 랜드마인 SP 소모 20% 감소.
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -102042,7 +102144,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 바드 슈즈 쉐도우와 함께 착용시,
 임기응변 사용시, 5초간 공격속도 및 이동속도가 대폭 상승한다.
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -102055,7 +102158,8 @@ Class: ^6A5ACD쉐도우 장비^000000
 댄서 슈즈 쉐도우와 함께 착용시,
 임기응변 사용시, 5초간 공격속도 및 이동속도가 대폭 상승한다.
 Class: ^6A5ACD쉐도우 장비^000000
-위치 : ^777777아머 ^000000무게 : ^7777770^000000
+위치 : ^777777아머 ^000000
+Weight: ^0EAA0B0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -102063,126 +102167,126 @@ Class: ^6A5ACD쉐도우 장비^000000
 SP를 흡수 할 수 있는 스톤.
 의상 상단 슬롯에 아래의 능력치를 부여한다. 
 1% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25001#
 방어력이 높아지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 DEF + 20.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25002#
 운이 높아지고 대신 힘이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 LUK +3, STR - 3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25003#
 힘이 높아지고 대신 지능이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 STR +3, INT - 3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25004#
 민첩함이 높아지고 대신 운이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 AGI +3, LUK - 3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25005#
 지능이 높아지고 대신 재주가 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 INT +3, DEX - 3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25006#
 건강이 높아지고 대신 민첩함이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 VIT + 3, AGI - 3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25007#
 재주가 높아지고 대신 건강이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 DEX +3, VIT - 3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25008#
 건강이 높아지고 대신 운이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 VIT + 3, LUK - 3.
-VIT변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.
+VIT변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.
 AGI +3, LUK +3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25009#
 민첩함이 높아지고 대신 힘이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 AGI +3, STR - 3.
-AGI변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.
+AGI변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.
 LUK +3, STR +3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25010#
 재주가 높아지고 대신 민첩함이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 DEX +3, AGI - 3.
-DEX변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.
+DEX변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.
 VIT + 3, AGI +3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25011#
 운이 높아지고 대신 지능이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 LUK +3, INT - 3.
-LUK변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.
+LUK변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.
 STR +3, INT +3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25012#
 힘이 높아지고 대신 재주가 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 STR +3, DEX - 3.
-STR변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.
+STR변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.
 INT +3, DEX +3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25013#
 지능이 높아지고 대신 건강이 떨어지는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다. 
 INT +3, VIT - 3.
-INT변환스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다.
+INT변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.
 DEX +3, VIT + 3.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25014#
 마법방어력이 높아지는 스톤.
 의상 하단 슬롯에 아래의 능력치를 부여한다. 
 MDEF +4.
-방어스톤(중단)을 추가 장착시, 아래의 능력치가 상승한다. 
-HIT + 5, FLEE +5.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+방어스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다. 
+HIT +5, FLEE +5.
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25015#
 경험치 습득율이 높아지는 스톤.
 의상 하단 슬롯에 아래의 능력치를 부여한다. 
 몬스터를 죽였을 시, 획득 경험치 2% 증가.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25016#
@@ -102191,7 +102295,7 @@ Weight: ^0EAA0B10^000000
 ATK +1%.
 의상 상, 중, 하단에 공격스톤 장착시, 아래의 능력치를 추가로 부여한다.
 ATK +2%.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25017#
@@ -102200,7 +102304,7 @@ Weight: ^0EAA0B10^000000
 MATK +1%.
 의상 상, 중, 하단에 마공스톤 장착시, 아래의 능력치를 부여한다.
 MATK +2%.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25038#
@@ -102288,49 +102392,49 @@ Weight: ^0EAA0B10^000000
 A stone that can increase critical damage.
 Give stats on middle costume equipment slots.
 Critical damage +3%
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25061#
 원거리 물리 데미지가 상승하는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다.
 원거리 물리 데미지 + 3%
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25062#
 탐욕스러워 보이는 스톤.
 의상 하단 슬롯에 아래의 능력치를 부여한다.
 탐욕 Lv.1 사용 가능
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25063#
 체력이 상승하는 스톤. 
 의상 하단 슬롯에 아래의 능력치를 부여한다.
 MAXHP + 100, LV.120 이상시, MAXHP +2%.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25064#
 마력이 상승하는 스톤. 
 의상 하단 슬롯에 아래의 능력치를 부여한다.
 MAXSP + 50, LV.120 이상시, MAXSP +2%.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25065#
 해독 능력이 있는 스톤.
 의상 하단 슬롯에 아래의 능력치를 부여한다.
 해독 Lv.1 사용 가능
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25066#
 리커버리 능력이 있는 스톤.
 의상 하단 슬롯에 아래의 능력치를 부여한다.
 리커버리 Lv.1 사용 가능
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25067#
@@ -102344,7 +102448,7 @@ Weight: ^0EAA0B10^000000
 ASPD가 증가하는 스톤. 
 의상 상단 슬롯에 아래의 능력치를 부여한다.
 ASPD + 1
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25069#
@@ -102352,28 +102456,28 @@ Weight: ^0EAA0B10^000000
 의상 상단 슬롯에 아래의 능력치를 부여한다.
 스킬 후 딜레이 1% 감소.
 스킬후딜레이1중단, 스킬후딜레이1하단과 함께 장착시, 스킬 후 딜레이 2% 추가 감소.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25070#
 스킬 후 딜레이가 감소하는 스톤.
 의상 중단 슬롯에 아래의 능력치를 부여한다.
 스킬 후 딜레이 1% 감소.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25071#
 스킬 후 딜레이가 감소하는 스톤.
 의상 하단 슬롯에 아래의 능력치를 부여한다.
 스킬 후 딜레이 1% 감소.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25072#
 기리에 엘레이손이 깃든 스톤.
 의상 하단 슬롯에 아래의 능력치를 부여한다.
 기리에 엘레이손 Lv.1 사용 가능
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25073#
@@ -102425,283 +102529,291 @@ Weight: ^0EAA0B0^000000
 루티에에서 선물을 포장할 때 사용하는 마법의 리본. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 묶어 준다는 듯하다.
 Weight: ^0EAA0B0^000000
 #
+25087#
+오랜 세월 동안 손을 탄 낡은 인형. 소중히 여겼는지 손질이 잘 되어 있다.
+무게 : ^7777770^000000
+#
+25088#
+누군가의 간절한 꿈에서 얻을 수 있는 꿈의 조각. 알 수 없는 힘이 느껴진다.
+무게 : ^7777770^000000
+#
 25089#
 루티에에서 선물을 장식할 때 사용하는 마법의 날개. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다.
 Weight: ^0EAA0B0^000000
 #
 25098#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-전승 직업인 경우 이전에 선택하신 직업만 가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+The first classes that you can choose.
 
-^ffffff<NAVI>^4D4DFF[검사]^000000<INFO>izlude_in,74,172,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[마법사]^000000<INFO>geffen_in,164,124,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[상인]^000000<INFO>alberta_in,56,43,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[복사]^000000<INFO>prt_church,184,41,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[도둑]^000000<INFO>moc_prydb1,39,126,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[궁수]^000000<INFO>payon_in02,64,71,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[태권]^000000<INFO>payon_in01,62,10,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[닌자]^000000<INFO>alberta.gat,168,138,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[건슬링거]^000000<INFO>que_ng,152,167,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Swordman]^000000<INFO>izlude_in,74,172,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[Mage]^000000<INFO>geffen_in,164,124,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Merchant]^000000<INFO>alberta_in,56,43,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[Acolyte]^000000<INFO>prt_church,184,41,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Thief]^000000<INFO>moc_prydb1,39,126,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[Archer]^000000<INFO>payon_in02,64,71,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Taekwondo]^000000<INFO>payon_in01,62,10,0,100,0,0</INFO></NAVI>^000000 ^ffffff<NAVI>^4D4DFF[Ninja]^000000<INFO>alberta.gat,168,138,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Gunslinger]^000000<INFO>que_ng,152,167,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25099#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[슈퍼노비스]^000000<INFO>aldeba_in,223,167,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Super Novice]^000000<INFO>aldeba_in,223,167,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25100#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[기사]^000000<INFO>prt_in,88,101,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[크루세이더]^000000<INFO>prt_cas,251,75,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Knight]^000000<INFO>prt_in,88,101,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Crusader]^000000<INFO>prt_cas,251,75,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25101#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[위저드]^000000<INFO>gef_tower,111,37,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[세이지]^000000<INFO>yuno_in02,38,61,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Wizard]^000000<INFO>gef_tower,111,37,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Sage]^000000<INFO>yuno_in02,38,61,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25102#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[블랙스미스]^000000<INFO>ein_in01,18,24,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[알케미스트]^000000<INFO>alde_alche,27,185,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Blacksmith]^000000<INFO>ein_in01,18,24,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Alchemist]^000000<INFO>alde_alche,27,185,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25103#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[프리스트]^000000<INFO>prt_church,16,41,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[몽크]^000000<INFO>prt_monk,59,247,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Priest]^000000<INFO>prt_church,16,41,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Monk]^000000<INFO>prt_monk,59,247,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25104#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[어쌔신]^000000<INFO>in_moc_16,19,33,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[로그]^000000<INFO>in_rogue,363,122,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Assassin]^000000<INFO>in_moc_16,19,33,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Rogue]^000000<INFO>in_rogue,363,122,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25105#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[헌터]^000000<INFO>hu_in01,386,373,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[바드(남자 캐릭터)]^000000<INFO>comodo,211,155,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[댄서(여자 캐릭터)]^000000<INFO>job_duncer,43,93,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Hunter]^000000<INFO>hu_in01,386,373,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Bard(Male)]^000000<INFO>comodo,211,155,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Dancer(Female)]^000000<INFO>job_duncer,43,93,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25106#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[권성]^000000<INFO>payon,215,102,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[소울링커]^000000<INFO>morocc_in,174,30,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Star Gladiator]^000000<INFO>payon,215,102,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Soul Linker]^000000<INFO>morocc_in,174,30,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25107#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[룬나이트]^000000<INFO>prt_in,162,24,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Rune Knight]^000000<INFO>prt_in,162,24,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25108#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[로얄가드]^000000<INFO>prt_cas,172,275,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Royal Guard]^000000<INFO>prt_cas,172,275,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25109#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[워록]^000000<INFO>morocc,95,132,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Warlock]^000000<INFO>morocc,95,132,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25110#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[소서러]^000000<INFO>gef_tower,102,34,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Sorcerer]^000000<INFO>gef_tower,102,34,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25111#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[미케닉]^000000<INFO>yuno,129,156,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Mechanic]^000000<INFO>yuno,129,156,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25112#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[제네릭]^000000<INFO>alde_alche,35,186,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Geneticist]^000000<INFO>alde_alche,35,186,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25113#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[아크비숍]^000000<INFO>prt_church,103,88,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Archbishop]^000000<INFO>prt_church,103,88,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25114#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[수라]^000000<INFO>ve_in,237,125,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Sura]^000000<INFO>ve_in,237,125,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25115#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[길로틴크로스]^000000<INFO>que_job01,75,96,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Guillotine Cross]^000000<INFO>que_job01,75,96,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25116#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[쉐도우체이서]^000000<INFO>in_rogue,376,100,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Shadow Chaser]^000000<INFO>in_rogue,376,100,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25117#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[레인저]^000000<INFO>tur_dun01,156,36,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Ranger]^000000<INFO>tur_dun01,156,36,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25118#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[민스트럴]^000000<INFO>alberta,196,133,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Minstrel]^000000<INFO>alberta,196,133,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25119#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
-이미 전승 직업인 경우 재전승은 불가능합니다.
+The list of all classes.
+Clicking the name below will start the navigation.
+It's not possible to rebirth if you a transcendent classes.
 
-^ffffff<NAVI>^4D4DFF[원더러]^000000<INFO>xmas,162,212,0,100,0,0</INFO></NAVI>^000000
-^ffffff<NAVI>^4D4DFF[전승]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Wanderer]^000000<INFO>xmas,162,212,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25120#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[카게로우 & 오보로]^000000<INFO>que_ng,28,156,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Kagerou & Oboro]^000000<INFO>que_ng,28,156,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25121#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[리벨리온]^000000<INFO>moc_fild12,261,318,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Rebellion]^000000<INFO>moc_fild12,261,318,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25122#
-전직 가능하신 직업 목록입니다.
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+The list of all classes.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[슈퍼노비스 레벨확장]^000000<INFO>aldeba_in,216,169,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Super Novice level expansion]^000000<INFO>aldeba_in,216,169,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25123#
-마우스로 이름을 클릭하면 안내가 시작됩니다.
+Clicking the name below will start the navigation.
 
-^ffffff<NAVI>^4D4DFF[전승 2차 전직소]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Transcendent 2nd classes]^000000<INFO>yuno_in02,88,164,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B0^000000
 #
 25132#
-할로윈에 없어서는 안될 대표적인 장식품!
-파낸 속에 촛불을 켜서 분위기를 한층 할로윈 스럽게 만들 수 있다.
+A typical halloween decoration.
+Turn on the candle to gives atmosphere of halloween.
 Weight: ^0EAA0B0^000000
 #
 25133#
-깨끗하게 잘 마른 줄기.
-할로윈 장식으로 안성맞춤!!
+Seasoned White Stem.
+Perfect for a Halloween decoration!!
 Weight: ^0EAA0B0^000000
 #
 25135#
-소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.
-^ffffff<NAVI>^4D4DFF[피어싱 전문가]^000000<INFO>itemmall,14,66,0,100,0,0</INFO></NAVI>^000000
+A socket tool that can create a slot on equipment.
+^ffffff<NAVI>^4D4DFF[Piercing Expert]^000000<INFO>itemmall,14,66,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B1^000000
 #
 25136#
-중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
-^ff0000일렉트릭^000000
+Gives enhancement to middle costume slot.
+^ff0000Electric^000000
 ^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25137#
-하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
-^ff0000그린 플로어^000000
+Gives enhancement to lower costume slot.
+^ff0000Green Flare^000000
 ^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25138#
-중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
-^ff0000쉬링크^000000
-공성 및 PvP 지역에서는 적용되지 않음.
+Gives enhancement to middle costume slot.
+^ff000Shrink^000000
+Effect does not apply on PVP and WOE area.
 ^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25139#
-아이템 감정을 할 수 있는 스톤.
-의상 하단 슬롯에 아래의 능력치를 부여한다.
-아이템 감정 Lv.1 사용 가능
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+A stone with appraisal ability.
+Give enhancement on lower costume equipment slots.
+Enables use of Level 1 Item Appraisal
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25140#
-부활의 기운을 담은 스톤.
-의상 하단 슬롯에 아래의 능력치를 부여한다.
-리저렉션 Lv.1 사용 가능
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+A stone with resurrection power.
+Give enhancement on lower costume equipment slots.
+Enables use of Level 1 Resurrection
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 25141#
-경험치 습득율이 높아지는 스톤.
-의상 중단 슬롯에 아래의 능력치를 부여한다. 
-몬스터를 죽였을 시, 획득 경험치 2% 증가.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+A stone that can increase experience gain when killing monster.
+Give enhancement on middle costume equipment slots.
+Exp bonus +2%.
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 26100#
@@ -102841,7 +102953,7 @@ Weight: ^0EAA0B400^000000
 Property: ^4cbb17Wind^000000
 Weapon Level: ^0EAA0B4^000000
 Required Level: ^0EAA0B100^000000
-Jobs: ^6A5ACDRune Knight, Royal Guard, Mechanic and Genetic^000000
+Jobs: ^6A5ACDRune Knight, Royal Guard, Mechanic and Geneticist^000000
 #
 28103#
 Blue Axe which has destructive power.
@@ -103196,6 +103308,14 @@ Defense: ^0000FF0^000000
 Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B100^000000
 Jobs: ^6A5ACDDoram race^000000
+#
+28387#
+A necklace modeled after goddess Freya's sacred necklace.
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B20^000000
+Required Level: ^0EAA0B80^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 28391#
 A sacred earring that protect its wearer. Improve the potential of wearer.
@@ -103588,6 +103708,24 @@ Reduce fixed cast time by 0.5 seconds.
 #
 29057#
 Enables use of Level 1 Kyrie Eleison.
+#
+29121#
+ATK +20, HIT +2, MaxHP +300.
+#
+29122#
+ATK +40, HIT +4, MaxHP +600.
+#
+29123#
+MATK +20, Healing skills +4%, MaxSP +20.
+#
+29124#
+MATK +40, Healing skills + 8%, MaxSP +40.
+#
+29125#
+Bow weapon damage +5%, Crit +5.
+#
+29126#
+Bow weapon damage +10%, Crit +10.
 #
 29135#
 Crit +3, Critical damage +1%
