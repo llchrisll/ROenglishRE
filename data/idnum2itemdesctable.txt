@@ -9702,7 +9702,8 @@ Jobs: ^6A5ACDDoram race^000000
 #
 1691#
 잠자리와 강아지풀이 이제 완전히 한몸이 되버린 풀.
-MATK +240. MaxSP +100.
+MATK +240
+MaxSP +100
 제련도 3당 MATK +2%, MaxSP +1%씩 증가.
 
 - 도람족 무기 전용 옵션 - 
@@ -9719,7 +9720,8 @@ Jobs: ^6A5ACDDoram race^000000
 #
 1692#
 잠자리와 강아지풀의 묘한 마력의 시너지가 느껴지는 풀.
-MATK +255. MaxSP +100.
+MATK +255
+MaxSP +100
 제련도 2당 MATK +2%, MaxSP +1%씩 증가.
 
 - 도람족 무기 전용 옵션 - 
@@ -9736,7 +9738,8 @@ Jobs: ^6A5ACDDoram race^000000
 #
 1693#
 잠자리가 앉은 노랗게 잘 익어버린 강아지 풀.
-MATK +270, 제련도 2당 MATK +3%.
+MATK +270
+제련도 2당 MATK +3%.
 [새우의 신선함] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [아크라우스 대시] 1레벨 발동, [아쿠라우스 대시] 스킬 습득시 습득한 레벨로 발동
 [개다래 줄기창] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.
 
@@ -9754,7 +9757,8 @@ Jobs: ^6A5ACDDoram race^000000
 #
 1694#
 플라스틱으로 만들어진 강아지풀 형태의 모형.
-Long ranged physical damage +8%, MaxHP +100.
+Long ranged physical damage +8%.
+MaxHP +100.
 제련도 3당 DEX +2, MaxSP +10씩 증가.
 Class: ^6A5ACDOne-Handed Staff^000000
 Attack: ^D80000150^000000
@@ -21994,6 +21998,8 @@ Ring that keeps the desire of all novice travelers.
 ^888888-------------------------^000000
 ATK +30
 MATK +30
+^888888-------------------------^000000
+Increases experience gained from killing monsters by 15%.
 ^888888-------------------------^000000
 Enables use of
 Level 3 ^008800Auto Guard^000000
@@ -56224,7 +56230,7 @@ Jobs: ^6A5ACDAll classes^000000
 Box Weight: ^7777771^000000
 #
 12596#
-Unknown Item, can be identified by ^6A5ACDMagnifier^000000.
+Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000.
 #
 12599#
 A special fruit that usually eaten in Ramadhan.
@@ -72492,6 +72498,9 @@ Jobs: ^6A5ACDGuillotine Cross^000000
 깔끔한 도람족이 좋아하는 형태의 경장.
 MaxHP +500, MaxSP +100.
 제련도 3 당 DEX +1씩, INT +1씩 증가.
+도람 전용 슈츠, 도람 전용 슈즈, 도람 전용 망토를 함께 장착 시,
+MaxHP +2000, 캐스팅이 끊기지 않는다.
+고정 캐스팅 15% 감소. (슈츠, 슈즈, 망토의 제련도 합에 따라 고정캐스팅 추가 감소)
 Class: ^6A5ACD갑옷^000000
 Defense: ^0000FF80^000000
 Weight: ^0EAA0B70^000000
@@ -72517,6 +72526,9 @@ Jobs: ^6A5ACDAll classes^000000
 깔끔한 도람족이 좋아하는 형태의 고급 경장.
 MaxHP +10%, MaxSP +10%.
 제련도 2당 DEX +1씩 INT +1씩 증가.
+도람 고급 슈츠, 도람 고급 슈즈, 도람 고급 망토를 함께 장착 시,
+MaxHP +3000, 캐스팅이 끊기지 않는다.
+고정 캐스팅 20% 감소. (슈츠, 슈즈, 망토의 제련도 합에 따라 고정캐스팅 추가 감소)
 Class: ^6A5ACD갑옷^000000
 Defense: ^0000FF100^000000
 Weight: ^0EAA0B80^000000
@@ -72678,6 +72690,9 @@ Jobs: ^6A5ACDAll classes^000000
 MaxHP +15%, MaxSP +15%.
 제련도에 따라 DEX +1, INT +1씩 증가.
 9제련 이상 시 SP 소모량 5% 감소.
+도람 엘레강스 슈츠, 도람 엘레강스 슈즈, 도람 엘레강스 망토를 함께 장착 시, 
+MaxHP +4000, 캐스팅이 끊기지 않는다. 
+고정 캐스팅 25% 감소. (슈츠, 슈즈, 망토의 제련도 합에 따라 고정캐스팅 추가 감소) 
 Class: ^6A5ACD갑옷^000000
 Defense: ^0000FF120^000000
 Weight: ^0EAA0B90^000000
@@ -97847,7 +97862,7 @@ A box that contains a Meginjard(Trial Version), Asprika (Trial Version), Brising
 Weight: ^0EAA0B10^000000
 #
 22861#
-A box that contains a 10 lucky roulette tickets.
+의문의 알 1개와 메긴기오르드(체험판), 브리싱가멘(체험판), 아스프리카(체험판), 브륀힐트(체험판)가 들어있는 상자. 체험판은 14일간 사용 가능하다. 
 Weight: ^0EAA0B10^000000
 #
 22868#
@@ -97909,7 +97924,7 @@ A box that contains a 2 lucky eggs.
 Weight: ^0EAA0B10^000000
 #
 22886#
-A box that contains a 10 lucky roulette tickets.
+의문의 알 1개와 메긴기오르드(체험판), 브리싱가멘(체험판), 아스프리카(체험판), 브륀힐트(체험판)가 들어있는 상자. 체험판은 14일간 사용 가능하다. 
 Weight: ^0EAA0B10^000000
 #
 22887#
