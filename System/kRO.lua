@@ -202,6 +202,341 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 100
 	},
+	[5771] = {
+		unidentifiedDisplayName = "Hat",
+		unidentifiedResourceName = "캡",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "Family Hat",
+		identifiedResourceName = "케이크모자",
+		identifiedDescriptionName = {
+			"가족에 대한 당신의 사랑을 보여주세요!",
+			"DEX +1, MDEF +1",
+			"MaxHP +2%, MaxSP +2%",
+			"마니피캇 1LV 사용 가능",
+			"Class: ^6A5ACDHeadgear^000000",
+			"Defense: ^0000FF3^000000",
+			"Location: ^6A5ACDUpper^000000",
+			"Weight: ^0EAA0B10^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^6A5ACD전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 650
+	},
+	[5794] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "3D Glasses",
+		identifiedResourceName = "3D안경",
+		identifiedDescriptionName = {
+			"^000088임대 아이템^000000",
+			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
+			"INT +1, MDEF +2.",
+			"자신이 사용하는 힐량 2% 증가.",
+			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT + 2, INT 제외 나머지 State + 1.",
+			"Class: ^6A5ACDHeadgear^000000",
+			"Defense: ^0000FF2^000000",
+			"Location: ^6A5ACDMiddle^000000",
+			"Weight: ^0EAA0B0^000000",
+			"Required Level: ^0EAA0B1^000000",
+			"Jobs: ^6A5ACD전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 661
+	},
+	[6347] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"바포메트 서버의 ^000088†[聖]린^000000 이 적은 덕담이다.",
+			"^0000882010년 새해가 밝았습니다. 백호의 해라 불리는 만큼 호랑이 모양을 한 대한민국도 파이팅입니다! 청년실업! 사라져라!^000000",
+			"종이의 맨 아래 작은 글씨가 있다.",
+			"'이것을 발견했다면 ^000088항구마을^000000로!'",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6348] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"바포메트 서버의 ^000088당신들의천국^000000 이 적은 덕담이다.",
+			"^000088가족과 함께 항상 건강하시고 복 많이 받으세요. 라그도 더 알차고 충실한 스토리로 유저를 모아 오랫동안 함께 했으면 좋겠습니다.^000000",
+			"종이의 맨 아래 작은 글씨가 있다.",
+			"'이것을 발견했다면 ^000088항구마을^000000로!'",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6349] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"사라 서버의 드레노어법사 가 적은 덕담이다.",
+			"^000088새로운 2010년이 시작되듯이 라그나로크도 예전의 좋았던 나빴던 기억을 모두 버리고 초심에서 다시 시작해 멋지게 부활하기를!^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6350] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"란드그리스 서버의 ^000088천악。^000000이 적은 덕담이다.",
+			"^000088새해에는 바라시는 일 꼭들 이루어지구요~ 다시 라그가 전성기 시절의 위상을 찾는 한해가 되었으면 좋겠네요.^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6351] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"란드그리스 서버의 ^000088☆로얄깡패☆^000000 가 적은 덕담이다.",
+			"^000088경인년 백호의 띠처럼 강하고 용맹한 호랑이의 기운을 받아서 항상 건강하시고 좋은일만 가득하시며 무한한 발전을 기원합니다.^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6352] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"타나토스 서버의 ^000088J .J^000000 가 적은 덕담이다.",
+			"^000088내 인생의 절반의 동반자 ! ragnarok. 너에게 좋은 2010년이 되길 빈다.^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6353] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"바포메트 서버의 ^000088파워포스레인져^000000 가 적은 덕담이다.",
+			"^000088올 한 해 마무리 잘하시고 돌아오는 해가 호랑이해인 만큼 호랑이가 죽어서 가죽을 남기듯, 라그나로크를! 유저들에 기억속에 오래오래 !^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6354] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"란드그리스 서버의 ^000088등 뒤를 핥는 자^000000 가 적은 덕담이다.",
+			"^000088새해에는 더욱 더 유저들과 더불어 함께 행복할 수 있는 그라비티가 되시길 바랍니다.^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6355] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"바포메트 서버의 ^000088앵벌중이심^000000 이 적은 덕담이다.",
+			"^000088올 해에는 솔직히 전세계 경제사정이 안좋았습니다..허나 내리막 길이 있으면 오르막 길도 있듯이 내년에는 좋은 일만 가득하시길 바랍니다.^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6356] = {
+		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedResourceName = "원고용지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "덕담 종이",
+		identifiedResourceName = "원고용지",
+		identifiedDescriptionName = {
+			"타나토스 서버의 ^000088꽃뱀 승순이^000000 가 적은 덕담이다.",
+			"^000088우리 모두 2010년에는 개인 가정 국가의 번영을 위해 한 몸 불사를 수 있도록 원기충만 했으면 좋겠습니다.^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6357] = {
+		unidentifiedDisplayName = "실패한 포춘쿠키",
+		unidentifiedResourceName = "실패한포춘쿠키",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "실패한 포춘쿠키",
+		identifiedResourceName = "실패한포춘쿠키",
+		identifiedDescriptionName = {
+			"포춘쿠키 제작의 1인자라도 이런 실수를 할 때가 있는 법이다.",
+			"...수집품 상인이 사줄지도 모른다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6358] = {
+		unidentifiedDisplayName = "무료캐시 이용권",
+		unidentifiedResourceName = "쿠폰",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "무료캐시 이용권",
+		identifiedResourceName = "쿠폰",
+		identifiedDescriptionName = {
+			"5000원 무료캐시 이용권.",
+			"※2010년 3월 10일 이후 라그나로크 홈페이지에서 확인이 가능합니다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6359] = {
+		unidentifiedDisplayName = "가이드북 교환권",
+		unidentifiedResourceName = "쿠폰",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "가이드북 교환권",
+		identifiedResourceName = "쿠폰",
+		identifiedDescriptionName = {
+			"가이드북 교환권.",
+			"※2010년 3월 10일 이후 라그나로크 홈페이지에서 확인이 가능합니다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6416] = {
+		unidentifiedDisplayName = "큐펫 배회하는자 교환쿠폰",
+		unidentifiedResourceName = "쿠폰",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "큐펫 배회하는자 교환쿠폰",
+		identifiedResourceName = "쿠폰",
+		identifiedDescriptionName = {
+			"큐펫 배회하는 자와 교환이 가능한 쿠폰!",
+			"프론테라 또는 알베르타에 있는 펫 교환상인이라면 이 쿠폰을 알아볼 것이다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6521] = {
+		unidentifiedDisplayName = "국왕의 증표",
+		unidentifiedResourceName = "상인영수증",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "국왕의 증표",
+		identifiedResourceName = "상인영수증",
+		identifiedDescriptionName = {
+			"국왕의 날인이 찍힌 증표. 이 증서는 보상과 교환이 가능하다.",
+			"^ffffff<NAVI>^4D4DFF[왕국소속자판기]^000000<INFO>malangdo,234,187,0,100,0,0</INFO></NAVI>^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6522] = {
+		unidentifiedDisplayName = "국왕의 증표",
+		unidentifiedResourceName = "상인영수증",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "국왕의 증표",
+		identifiedResourceName = "상인영수증",
+		identifiedDescriptionName = {
+			"국왕의 날인이 찍히긴 했지만 오래되어 색이 바랜 것 같다. 이것은 증표로 쓰일 수 없을 것 같다.",
+			"Weight: ^0EAA0B0^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6531] = {
+		unidentifiedDisplayName = "국왕의 증표",
+		unidentifiedResourceName = "상인영수증",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "국왕의 증표",
+		identifiedResourceName = "상인영수증",
+		identifiedDescriptionName = {
+			"국왕의 날인이 찍힌 증표. 이 증서는 마치 5장 같은 1장인 기분이 든다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6532] = {
+		unidentifiedDisplayName = "꿀송편",
+		unidentifiedResourceName = "행운의떡",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "꿀송편",
+		identifiedResourceName = "행운의떡",
+		identifiedDescriptionName = {
+			"송편의 속에 팥소 대신 달콤한 꿀이 들어있다. 오군의 도련님이 매우 좋아한다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6543] = {
+		unidentifiedDisplayName = "110레벨 돌파 코인",
+		unidentifiedResourceName = "터보트랙코인",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "110레벨 돌파 코인",
+		identifiedResourceName = "터보트랙코인",
+		identifiedDescriptionName = {
+			"단기간 내에 110LV을 돌파한 자에게 주어지는 코인.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6544] = {
+		unidentifiedDisplayName = "120레벨 돌파 코인",
+		unidentifiedResourceName = "아레나코인",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "120레벨 돌파 코인",
+		identifiedResourceName = "아레나코인",
+		identifiedDescriptionName = {
+			"단기간 내에 120LV을 돌파한 자에게 주어지는 코인.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[6556] = {
+		unidentifiedDisplayName = "고급 헤드폰 교환권",
+		unidentifiedResourceName = "쿠폰",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "고급 헤드폰 교환권",
+		identifiedResourceName = "쿠폰",
+		identifiedDescriptionName = {
+			"[고급 헤드폰 교환권] 이라고 크게 쓰여진 종이.",
+			"아무래도 당첨 된 것 같다!",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[6850] = {
 		unidentifiedDisplayName = "Suspicious Box",
 		unidentifiedResourceName = "헐떡이는상자",
@@ -371,6 +706,125 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[7640] = {
+		unidentifiedDisplayName = "Butterfly Hair Decoration",
+		unidentifiedResourceName = "비녀",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Butterfly Hair Decoration",
+		identifiedResourceName = "비녀",
+		identifiedDescriptionName = { "나비모양의 머리장식. 긴 머리를 고정시킬 때 사용하는 것으로 장식하면 소녀다움이 올라간다.", "Weight: ^0EAA0B1^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[7642] = {
+		unidentifiedDisplayName = "Bloody Coin",
+		unidentifiedResourceName = "피묻은코인",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Bloody Coin",
+		identifiedResourceName = "피묻은코인",
+		identifiedDescriptionName = {
+			"오래된 핏자국으로 추정되는 것으로 지저분해진 동전. 얼마나 오래되었는지 그 검은 자국마저 바짝 말라있다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[7643] = {
+		unidentifiedDisplayName = "Bloody Letter",
+		unidentifiedResourceName = "피묻은책장",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Bloody Letter",
+		identifiedResourceName = "피묻은책장",
+		identifiedDescriptionName = {
+			"구겨지고 군데군데 피까지 묻어 있는 낡은 편지 한장. 간신히 글씨는 알아 볼 수 있다.",
+			"\"아무래도 나는 굉장한 걸 만든 것 같아.내가 만든건 인형이 아니라 마치 나의 딸 같군. 이 편지가 자네에게 도착할때쯤엔 아마도 모든 작업이 끝나있겠지. 나의 마지막 작품. 아니 나의 딸을 자네에게도 보여주고 싶군\"",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[7644] = {
+		unidentifiedDisplayName = "Draft Letter",
+		unidentifiedResourceName = "편지01",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Draft Letter",
+		identifiedResourceName = "편지01",
+		identifiedDescriptionName = {
+			"미처 발송되지 못한듯 봉인도 되어있지 않은 깨끗한 편지.",
+			"\"백만번째의 인형의 제작에 들어갔는데 이번 인형이 마지막이라고 생각하니 견딜수가 없어져서 일하는 내내 인형에게 말을 걸고 있다네. 하하 늙은이가 주책이지. 자넨 친구니까 이런 내 심정을 이해해 주려나\"",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[11538] = {
+		unidentifiedDisplayName = "Fresh Octopus Legs",
+		unidentifiedResourceName = "문어다리",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Fresh Octopus Legs",
+		identifiedResourceName = "문어다리",
+		identifiedDescriptionName = {
+			"싱싱한 문어다리. 너무 싱싱해서 꿈틀거리고 있다. 날 것으로 먹어도 괜찮을 것 같다.",
+			"소량의 HP, SP회복.",
+			"이것이 말랑도의 축제위원 '미묘'가 찾던 바로 그 싱싱함인 듯 하다.",
+			"^ff0000이벤트 종료시 삭제되는 아이템 입니다.^000000",
+			"Weight: ^0EAA0B3^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[11555] = {
+		unidentifiedDisplayName = "RG Red Potion",
+		unidentifiedResourceName = "RG빨간포션",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "RG Red Potion",
+		identifiedResourceName = "RG빨간포션",
+		identifiedDescriptionName = {
+			"빨간허브와 이그드라실의 수액을 조합하여 만들어진 회복포션. ^000088HP 를 325 가량 회복^000000 시켜 준다.",
+			"Weight: ^0EAA0B4^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[11556] = {
+		unidentifiedDisplayName = "RG Blue Potion",
+		unidentifiedResourceName = "RG파란포션",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "RG Blue Potion",
+		identifiedResourceName = "RG파란포션",
+		identifiedDescriptionName = {
+			"파란허브와 이그드라실의 수액을 조합하여 만들어진 회복포션. ^000088SP를 60가량 회복^000000 시켜 준다.",
+			"Weight: ^0EAA0B9^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[11563] = {
+		unidentifiedDisplayName = "Hot Tea",
+		unidentifiedResourceName = "커피",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Hot Tea",
+		identifiedResourceName = "커피",
+		identifiedDescriptionName = {
+			"아직도 온기가 남아있는 홍차. ^000088SP를 100 가량^000000 회복 시켜준다.",
+			"Weight: ^0EAA0B2^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[11564] = {
+		unidentifiedDisplayName = "Sweets",
+		unidentifiedResourceName = "카나페",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Sweets",
+		identifiedResourceName = "카나페",
+		identifiedDescriptionName = {
+			"꿀이 발라져 더욱 달콤한 과자. 차와 함께 먹으면 더 맛있다. ^000088HP를 1000 가량^000000 회복 시켜준다.",
+			"Weight: ^0EAA0B2^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[11601] = {
 		unidentifiedDisplayName = "맛있는 멸치",
 		unidentifiedResourceName = "입에문물고기",
@@ -390,7 +844,10 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "개박하 열매",
 		identifiedResourceName = "개박하열매",
-		identifiedDescriptionName = { "개다래보다 작은 열매. 소량의 HP를 회복시켜 준다. 도람족 스킬 사용 시 소모되기도 한다.", "Weight: ^0EAA0B0.1^000000" },
+		identifiedDescriptionName = {
+			"개다래보다 작은 열매. 소량의 HP를 회복시켜 준다. 도람족 스킬 사용 시 소모되기도 한다.",
+			"Weight: ^0EAA0B0.1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -420,6 +877,187 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[12407] = {
+		unidentifiedDisplayName = "PC방 쿠폰 상자",
+		unidentifiedResourceName = "캐시상자_녹색",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "PC방 쿠폰 상자",
+		identifiedResourceName = "캐시상자_녹색",
+		identifiedDescriptionName = {
+			"잘 포장된 선물상자. 무엇이 들어있는지는 알 수 없다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12508] = {
+		unidentifiedDisplayName = "[비매품]초록나비의 날개",
+		unidentifiedResourceName = "나비의날개",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "[비매품]초록나비의 날개",
+		identifiedResourceName = "나비의날개",
+		identifiedDescriptionName = {
+			"슈발츠 공화국의 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
+			"\"유노\", \"리히타르젠\", \"아인브로크\", \"아인베흐\", \"휘겔\"",
+			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12509] = {
+		unidentifiedDisplayName = "[비매품]빨간나비의 날개",
+		unidentifiedResourceName = "나비의날개",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "[비매품]빨간나비의 날개",
+		identifiedResourceName = "나비의날개",
+		identifiedDescriptionName = {
+			"라헬의 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
+			"\"베인스\", \"라헬\"",
+			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12510] = {
+		unidentifiedDisplayName = "[비매품]파란나비의 날개",
+		unidentifiedResourceName = "나비의날개",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "[비매품]파란나비의 날개",
+		identifiedResourceName = "나비의날개",
+		identifiedDescriptionName = {
+			"로컬라이징 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
+			"\"아요타야\", \"아마쯔\", \"용지성\", \"쿤룬\", \"모스코비아\", \"데와타\", \"브라질리스\"",
+			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12529] = {
+		unidentifiedDisplayName = "Condensed White Potion Box",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Condensed White Potion Box",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"화이트 슬림 포션이 압축되어 들어있는 상자. 개봉 시 주의.",
+			"^ff0000경고! 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12534] = {
+		unidentifiedDisplayName = "Yggdrasil Seed Box",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Yggdrasil Seed Box",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"이그드라실 씨앗이 압축되어 들어있는 상자. 개봉 시 주의.",
+			"^ff0000경고! 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12535] = {
+		unidentifiedDisplayName = "Yggdrasil Berry Box",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Yggdrasil Berry Box",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"이그드라실 열매가 압축되어 들어있는 상자. 개봉 시 주의.",
+			"^ff0000경고! 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12536] = {
+		unidentifiedDisplayName = "New Year's Rice Cake",
+		unidentifiedResourceName = "떡국",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "New Year's Rice Cake",
+		identifiedResourceName = "떡국",
+		identifiedDescriptionName = {
+			"잘 구운 문어를 총총 썰어 넣어 만든 영양 만점 떡국!",
+			"문어의 구수한 냄새가 일품이다! ",
+			"뜨거우니 후후 불어서 먹자.",
+			"HP, SP 20% 회복",
+			"Weight: ^0EAA0B10^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12539] = {
+		unidentifiedDisplayName = "Brilliant Box",
+		unidentifiedResourceName = "화려한상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Brilliant Box",
+		identifiedResourceName = "화려한상자",
+		identifiedDescriptionName = {
+			"화려한 수공이 되어있는 금속 재질의 상자.",
+			"Weight: ^0EAA0B10^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12540] = {
+		unidentifiedDisplayName = "GM Warp Box",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "GM Warp Box",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"이동 편의를 위한 스크롤이 준비되어 있다. 무엇이 나올 지는 알 수 없다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12541] = {
+		unidentifiedDisplayName = "포춘쿠키",
+		unidentifiedResourceName = "포춘쿠키",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "포춘쿠키",
+		identifiedResourceName = "포춘쿠키",
+		identifiedDescriptionName = {
+			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12542] = {
+		unidentifiedDisplayName = "포춘쿠키",
+		unidentifiedResourceName = "포춘쿠키",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "포춘쿠키",
+		identifiedResourceName = "포춘쿠키",
+		identifiedDescriptionName = {
+			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12543] = {
+		unidentifiedDisplayName = "포춘쿠키",
+		unidentifiedResourceName = "포춘쿠키",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "포춘쿠키",
+		identifiedResourceName = "포춘쿠키",
+		identifiedDescriptionName = {
+			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[14780] = {
 		unidentifiedDisplayName = "Soul Plunger Scroll",
 		unidentifiedResourceName = "아리부타스크롤",
@@ -432,6 +1070,189 @@ tbl = {
 			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자II, 영혼의 뚫어뻥등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12544] = {
+		unidentifiedDisplayName = "Mystic Tree Branch",
+		unidentifiedResourceName = "어린나뭇가지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Mystic Tree Branch",
+		identifiedResourceName = "어린나뭇가지",
+		identifiedDescriptionName = {
+			"아주 오랜시간 페이욘 숲에 있었던 고목의 나뭇가지로, 마력을 지니게 되었다는 소문이 있다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12546] = {
+		unidentifiedDisplayName = "Dark matter",
+		unidentifiedResourceName = "검은물체",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Dark matter",
+		identifiedResourceName = "검은물체",
+		identifiedDescriptionName = {
+			"먹으면 절대 안될 것 같은 요리.",
+			"요리라고 말하기에도 미안한 기분까지 든다.",
+			"Weight: ^0EAA0B5^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12564] = {
+		unidentifiedDisplayName = "3D Glasses Box",
+		unidentifiedResourceName = "선물상자_2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "3D Glasses Box",
+		identifiedResourceName = "선물상자_2",
+		identifiedDescriptionName = {
+			"3D안경이 1개 들어있는 상자. 1시간 체험판.",
+			"^ff0000이 아이템은 이벤트 종료와 함께 소멸됩니다.^000000",
+			"'사물을 입체적으로 보이게 한다는 신비한 안경. 자신의 성장 정도에 따라 받는 효과도 증가한다고 한다.",
+			"검사계열, 상인계열, 궁수계열, 건슬링거, ATK 일정량 상승.",
+			"마법사계열, 복사계열, 닌자, 소울링커는 MATK 일정량 상승.",
+			"도둑계열은 FLEE 일정량 상승.",
+			"노비스, 슈퍼노비스, 태권, 권성은 HP, SP가 일정량 상승.",
+			"계열 : 투구 방어 : 1",
+			"위치 : 중단 무게 : 10",
+			"요구 레벨 : 1",
+			"장착 : 전 직업 '",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12565] = {
+		unidentifiedDisplayName = "Cheering Scarf Box",
+		unidentifiedResourceName = "번호상자01",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Cheering Scarf Box",
+		identifiedResourceName = "번호상자01",
+		identifiedDescriptionName = {
+			"응원의 스카프가 1개 들어있는 상자.",
+			"1주일 간 사용가능.",
+			"^ff0000본 아이템은 이벤트 기간 이후 삭제됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12566] = {
+		unidentifiedDisplayName = "Cheering Scarf Box",
+		unidentifiedResourceName = "번호상자01",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Cheering Scarf Box",
+		identifiedResourceName = "번호상자01",
+		identifiedDescriptionName = {
+			"응원의 스카프?가 1개 들어있는 상자.",
+			"1주일 간 사용가능.",
+			"^ff0000본 아이템은 이벤트 기간 이후 삭제됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12567] = {
+		unidentifiedDisplayName = "Cheering Scarf Box",
+		unidentifiedResourceName = "번호상자01",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Cheering Scarf Box",
+		identifiedResourceName = "번호상자01",
+		identifiedDescriptionName = {
+			"응원의 스카프?가 1개 들어있는 상자.",
+			"1주일 간 사용가능.",
+			"^ff0000본 아이템은 이벤트 기간 이후 삭제됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12568] = {
+		unidentifiedDisplayName = "Cheering Scarf Box",
+		unidentifiedResourceName = "번호상자01",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Cheering Scarf Box",
+		identifiedResourceName = "번호상자01",
+		identifiedDescriptionName = {
+			"응원의 스카프?가 1개 들어있는 상자.",
+			"1주일 간 사용가능.",
+			"^ff0000본 아이템은 이벤트 기간 이후 삭제됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12569] = {
+		unidentifiedDisplayName = "Cheering Scarf Box",
+		unidentifiedResourceName = "번호상자01",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Cheering Scarf Box",
+		identifiedResourceName = "번호상자01",
+		identifiedDescriptionName = {
+			"응원의 스카프?가 1개 들어있는 상자.",
+			"1주일 간 사용가능.",
+			"^ff0000본 아이템은 이벤트 기간 이후 삭제됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12570] = {
+		unidentifiedDisplayName = "Cheering Scarf Box",
+		unidentifiedResourceName = "번호상자01",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Cheering Scarf Box",
+		identifiedResourceName = "번호상자01",
+		identifiedDescriptionName = {
+			"응원의 스카프Ⅷ가 1개 들어있는 상자.",
+			"1주일 간 사용가능.",
+			"^ff0000본 아이템은 이벤트 기간 이후 삭제됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12571] = {
+		unidentifiedDisplayName = "Cheering Scarf Box",
+		unidentifiedResourceName = "번호상자02",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Cheering Scarf Box",
+		identifiedResourceName = "번호상자02",
+		identifiedDescriptionName = {
+			"응원의 스카프Ⅹ가 1개 들어있는 상자.",
+			"1주일 간 사용가능.",
+			"^ff0000본 아이템은 이벤트 기간 이후 삭제됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12572] = {
+		unidentifiedDisplayName = "Cheering Scarf Box",
+		unidentifiedResourceName = "번호상자02",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Cheering Scarf Box",
+		identifiedResourceName = "번호상자02",
+		identifiedDescriptionName = {
+			"응원의 스카프Ⅹ가 1개 들어있는 상자.",
+			"2주일 간 사용가능.",
+			"^ff0000본 아이템은 이벤트 기간 이후 삭제됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12579] = {
+		unidentifiedDisplayName = "Valkyrie Ring Box",
+		unidentifiedResourceName = "보물상자_",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Valkyrie Ring Box",
+		identifiedResourceName = "보물상자_",
+		identifiedDescriptionName = {
+			"발키리의 반지가 1개 들어있는 상자.",
+			"4일간 사용 가능.",
+			"Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -9600,7 +10421,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "교황 용병 소환서",
 		identifiedResourceName = "소환서_검",
-		identifiedDescriptionName = { "용병 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "용병 교황을 소환할 수 있는 소환서.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -9610,7 +10431,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "사복 교황 용병 소환서",
 		identifiedResourceName = "소환서_검",
-		identifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -9624,7 +10445,7 @@ tbl = {
 			"민들레를 엮어 만든 소박한 반지. 민들레 홀씨를 불면  바람을 타고 어디론가 날아갈 것 같다.",
 			"'라헬'로 귀환 가능. ",
 			"한번 사용시, 60분간 재사용이 불가능하다. ",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9736,7 +10557,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "교황 용병 소환서",
 		identifiedResourceName = "소환서_검",
-		identifiedDescriptionName = { "용병 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "용병 교황을 소환할 수 있는 소환서.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -9746,7 +10567,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "사복 교황 용병 소환서",
 		identifiedResourceName = "소환서_검",
-		identifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -9986,17 +10807,13 @@ tbl = {
 	[23063] = {
 		unidentifiedDisplayName = "얼어붙은 꿈",
 		unidentifiedResourceName = "얼음결정",
-		unidentifiedDescriptionName = {
-			"누군가의 꿈에서 떨어져 나온 조각. 가만히 들여다 보면 수많은 꿈이 일렁이는 것을 볼 수 있다.",
-			"힘을 가하면 잘게 부서져 다수의 꿈의 파편을 얻을 수 있다.",
-			"무게 : ^7777770^000000"
-		},
+		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "얼어붙은 꿈",
 		identifiedResourceName = "얼음결정",
 		identifiedDescriptionName = {
 			"누군가의 꿈에서 떨어져 나온 조각. 가만히 들여다 보면 수많은 꿈이 일렁이는 것을 볼 수 있다.",
 			"힘을 가하면 잘게 부서져 다수의 꿈의 파편을 얻을 수 있다.",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11608,7 +12425,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "낡은 인형",
 		identifiedResourceName = "낡은인형",
-		identifiedDescriptionName = { "오랜 세월 동안 손을 탄 낡은 인형. 소중히 여겼는지 손질이 잘 되어 있다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "오랜 세월 동안 손을 탄 낡은 인형. 소중히 여겼는지 손질이 잘 되어 있다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11618,7 +12435,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "꿈의 파편",
 		identifiedResourceName = "꿈의파편",
-		identifiedDescriptionName = { "누군가의 간절한 꿈에서 얻을 수 있는 꿈의 조각. 알 수 없는 힘이 느껴진다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "누군가의 간절한 꿈에서 얻을 수 있는 꿈의 조각. 알 수 없는 힘이 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
