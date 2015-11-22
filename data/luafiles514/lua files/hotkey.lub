@@ -264,191 +264,202 @@ BEHAVIOR_TO_WINDOWID = {
 }
 
 function GetKeyDes(key1, key2)
-  local keyName1 = KEYNAME[key1]
-  local keyName2 = KEYNAME[key2]
-  if keyName1 == nil then
-    return ""
-  elseif keyName2 ~= nil then
-    return string.format("%s + %s", keyName2, keyName1)
-  else
-    return keyName1
-  end
+	local keyName1 = KEYNAME[key1]
+	local keyName2 = KEYNAME[key2]
+	if keyName1 == nil then
+		return ""
+	elseif keyName2 ~= nil then
+		return string.format("%s + %s", keyName2, keyName1)
+	else
+		return keyName1
+	end
 end
+
 function GetBeHaviorOfWindow(winID)
-  local behavior = BEHAVIOR_TO_WINDOWID[winID]
-  if behavior ~= nil then
-    do
-      local userTable = USERKEY_2
-      local key1, key2
-      if userTable ~= nil then
-        userTable = USERKEY_2[behavior]
-        if userTable ~= nil and userTable ~= "NULL" then
-          key1 = userTable.KEY1
-          key2 = userTable.KEY2
-        end
-      end
-      if key1 == nil then
-        key1 = HOTKEY_2[behavior].KEY1
-        key2 = HOTKEY_2[behavior].KEY2
-      end
-      if key1 ~= nil then
-        return GetKeyDes(key1, key2)
-      else
-        return ""
-      end
-    end
-  else
-    return ""
-  end
+	local behavior = BEHAVIOR_TO_WINDOWID[winID]
+	if behavior ~= nil then
+		do
+			local userTable = USERKEY_2
+			local key1, key2
+			if userTable ~= nil then
+				userTable = USERKEY_2[behavior]
+				if userTable ~= nil and userTable ~= "NULL" then
+					key1 = userTable.KEY1
+					key2 = userTable.KEY2
+				end
+			end
+			if key1 == nil then
+				key1 = HOTKEY_2[behavior].KEY1
+				key2 = HOTKEY_2[behavior].KEY2
+			end
+			if key1 ~= nil then
+				return GetKeyDes(key1, key2)
+			else
+				return ""
+			end
+		end
+	else
+		return ""
+	end
 end
+
 function GetHotKeyInfo(tableName, idx)
-  element = _G[tableName]
-  if element ~= nil then
-    v = element[idx]
-    if v == nil or v == "NULL" then
-      return 0, 0, toStr(""), toStr("")
-    else
-      return toInt(v.KEY1), toInt(v.KEY2), toStr(GetKeyDes(v.KEY1, v.KEY2)), toStr(v.EXE)
-    end
-  else
-    return 0, 0, toStr(""), toStr("")
-  end
+	element = _G[tableName]
+	if element ~= nil then
+		v = element[idx]
+		if v == nil or v == "NULL" then
+			return 0, 0, toStr(""), toStr("")
+		else
+			return toInt(v.KEY1), toInt(v.KEY2), toStr(GetKeyDes(v.KEY1, v.KEY2)), toStr(v.EXE)
+		end
+	else
+		return 0, 0, toStr(""), toStr("")
+	end
 end
+
 function GetOriginalHotKeyInfo(tabNum, idx)
-  return GetHotKeyInfo(string.format("HOTKEY_%d", tabNum), idx)
+	return GetHotKeyInfo(string.format("HOTKEY_%d", tabNum), idx)
 end
+
 function GetUserHotKeyInfo(tabNum, idx)
-  return GetHotKeyInfo(string.format("USERKEY_%d", tabNum), idx)
+	return GetHotKeyInfo(string.format("USERKEY_%d", tabNum), idx)
 end
+
 function GetOriginalHotKeyListSize(tabNum)
-  local tableSize = 0
-  table = _G[string.format("HOTKEY_%d", tabNum)]
-  if table ~= nil then
-    tableSize = getTableSize(_G[string.format("HOTKEY_%d", tabNum)])
-  end
-  return tableSize
+	local tableSize = 0
+	table = _G[string.format("HOTKEY_%d", tabNum)]
+	if table ~= nil then
+		tableSize = getTableSize(_G[string.format("HOTKEY_%d", tabNum)])
+	end
+	return tableSize
 end
+
 function GetHotKey(tabNum, idx)
-  key1, key2, des, exe = GetUserHotKeyInfo(tabNum, idx)
-  if exe == "" then
-    return GetOriginalHotKeyInfo(tabNum, idx)
-  end
-  return key1, key2, des, exe
+	key1, key2, des, exe = GetUserHotKeyInfo(tabNum, idx)
+	if exe == "" then
+		return GetOriginalHotKeyInfo(tabNum, idx)
+	end
+	return key1, key2, des, exe
 end
+
 function GetBehaviorOfHotKey(inKey1, inKey2)
-  size = 0
-  tab = 1
-  tableLen = GetOriginalHotKeyListSize(tab)
-  while tableLen ~= 0 do
-    idx = 0
-    key1, key2, des, exe = GetHotKey(tab, idx)
-    while exe ~= "" do
-      if exe == MsgStrID.MSI_HK_CHATMODE_ONOFF and key1 == inKey1 then
-        return idx + (tab - 1) * 100
-      end
-      if key1 == inKey1 and key2 == inKey2 then
-        return idx + (tab - 1) * 100
-      end
-      idx = idx + 1
-      key1, key2, des, exe = GetHotKey(tab, idx)
-    end
-    size = size + tableLen
-    tab = tab + 1
-    tableLen = GetOriginalHotKeyListSize(tab)
-  end
-  return -1
+	size = 0
+	tab = 1
+	tableLen = GetOriginalHotKeyListSize(tab)
+	while tableLen ~= 0 do
+		idx = 0
+		key1, key2, des, exe = GetHotKey(tab, idx)
+		while exe ~= "" do
+			if exe == MsgStrID.MSI_HK_CHATMODE_ONOFF and key1 == inKey1 then
+				return idx + (tab - 1) * 100
+			end
+			if key1 == inKey1 and key2 == inKey2 then
+				return idx + (tab - 1) * 100
+			end
+			idx = idx + 1
+			key1, key2, des, exe = GetHotKey(tab, idx)
+		end
+		size = size + tableLen
+		tab = tab + 1
+		tableLen = GetOriginalHotKeyListSize(tab)
+	end
+	return -1
 end
+
 function ChangeUserHotKey(tabNum, idx, exe, key1, key2)
-  TableName = string.format("USERKEY_%d", tabNum)
-  UserKeyTable = _G[TableName]
-  originalKey1, originalKey2, dis, exe = GetOriginalHotKeyInfo(tabNum, idx)
-  if string.len(exe) ~= 0 and key1 == originalKey1 and key2 == originalKey2 and UserKeyTable ~= nil then
-    UserKeyTable[idx] = nil
-    return
-  end
-  if UserKeyTable == nil then
-    UserKeyTable = {}
-  end
-  UserKey = UserKeyTable[idx]
-  if UserKey == "NULL" then
-    UserKey = nil
-  end
-  if UserKey == nil then
-    UserKey = {}
-  end
-  UserKey.EXE = exe
-  UserKey.KEY1 = key1
-  UserKey.KEY2 = key2
-  UserKeyTable[idx] = UserKey
-  _G[TableName] = UserKeyTable
+	TableName = string.format("USERKEY_%d", tabNum)
+	UserKeyTable = _G[TableName]
+	originalKey1, originalKey2, dis, exe = GetOriginalHotKeyInfo(tabNum, idx)
+	if string.len(exe) ~= 0 and key1 == originalKey1 and key2 == originalKey2 and UserKeyTable ~= nil then
+		UserKeyTable[idx] = nil
+		return
+	end
+	if UserKeyTable == nil then
+		UserKeyTable = {}
+	end
+	UserKey = UserKeyTable[idx]
+	if UserKey == "NULL" then
+		UserKey = nil
+	end
+	if UserKey == nil then
+		UserKey = {}
+	end
+	UserKey.EXE = exe
+	UserKey.KEY1 = key1
+	UserKey.KEY2 = key2
+	UserKeyTable[idx] = UserKey
+	_G[TableName] = UserKeyTable
 end
+
 function GetIndexOfTheUserHotKey(inKey1, inKey2)
-  tab = 1
-  tableLen = GetOriginalHotKeyListSize(tab)
-  while tableLen ~= 0 do
-    idx = 0
-    key1, key2, des, exe = GetUserHotKeyInfo(tab, idx)
-    while idx < tableLen do
-      if key1 == inKey1 and key2 == inKey2 then
-        return idx
-      end
-      idx = idx + 1
-      key1, key2, des, exe = GetUserHotKeyInfo(tab, idx)
-    end
-    tab = tab + 1
-    tableLen = GetOriginalHotKeyListSize(tab)
-  end
-  return -1
+	tab = 1
+	tableLen = GetOriginalHotKeyListSize(tab)
+	while tableLen ~= 0 do
+		idx = 0
+		key1, key2, des, exe = GetUserHotKeyInfo(tab, idx)
+		while idx < tableLen do
+			if key1 == inKey1 and key2 == inKey2 then
+				return idx
+			end
+			idx = idx + 1
+			key1, key2, des, exe = GetUserHotKeyInfo(tab, idx)
+		end
+		tab = tab + 1
+		tableLen = GetOriginalHotKeyListSize(tab)
+	end
+	return -1
 end
+
 function ResetTheHotKey(tabNum, idx, inKey1, inKey2)
-  tableLen = GetOriginalHotKeyListSize(tabNum)
-  idx = idx - tableLen
-  tabNum = tabNum + 1
-  TableName = string.format("USERKEY_%d", tabNum)
-  UserKeyTable = _G[TableName]
-  if UserKeyTable == nil then
-    return
-  end
-  key1, key2, des, exe = GetUserHotKeyInfo(tabNum, idx)
-  if key1 == 0 and key2 == 0 then
-    idx2 = GetIndexOfTheUserHotKey(inKey1, inKey2)
-    if idx2 ~= -1 then
-      UserKeyTable[idx2] = nil
-    end
-  end
+	tableLen = GetOriginalHotKeyListSize(tabNum)
+	idx = idx - tableLen
+	tabNum = tabNum + 1
+	TableName = string.format("USERKEY_%d", tabNum)
+	UserKeyTable = _G[TableName]
+	if UserKeyTable == nil then
+		return
+	end
+	key1, key2, des, exe = GetUserHotKeyInfo(tabNum, idx)
+	if key1 == 0 and key2 == 0 then
+		idx2 = GetIndexOfTheUserHotKey(inKey1, inKey2)
+		if idx2 ~= -1 then
+			UserKeyTable[idx2] = nil
+		end
+	end
 end
+
 function SaveUserHotKeys(saveFileName)
-  saveFile = io.open(saveFileName, "w")
-  if saveFile ~= nil then
-    tabNum = 1
-    while tabNum <= 3 do
-      userTable = _G[string.format("USERKEY_%d", tabNum)]
-      if userTable ~= nil then
-        saveFile:write(string.format("USERKEY_%d = {\n", tabNum))
-        idx = 0
-        key1, key2, keyDes, behaviorDes = GetUserHotKeyInfo(tabNum, idx)
-        tableLen = GetOriginalHotKeyListSize(tabNum)
-        while idx < tableLen do
-          if behaviorDes ~= "" then
-            saveFile:write(string.format("\t[%d] = { EXE = \"%s\"", idx, behaviorDes))
-            if key1 ~= 0 then
-              saveFile:write(string.format(", KEY1 = %d", key1))
-            end
-            if key2 ~= 0 then
-              saveFile:write(string.format(", KEY2 = %d", key2))
-            end
-            saveFile:write(" },\n")
-          end
-          idx = idx + 1
-          key1, key2, keyDes, behaviorDes = GetUserHotKeyInfo(tabNum, idx)
-        end
-        saveFile:write([[
+	saveFile = io.open(saveFileName, "w")
+	if saveFile ~= nil then
+		tabNum = 1
+		while tabNum <= 3 do
+			userTable = _G[string.format("USERKEY_%d", tabNum)]
+			if userTable ~= nil then
+				saveFile:write(string.format("USERKEY_%d = {\n", tabNum))
+				idx = 0
+				key1, key2, keyDes, behaviorDes = GetUserHotKeyInfo(tabNum, idx)
+				tableLen = GetOriginalHotKeyListSize(tabNum)
+				while idx < tableLen do
+					if behaviorDes ~= "" then
+						saveFile:write(string.format("\t[%d] = { EXE = \"%s\"", idx, behaviorDes))
+						if key1 ~= 0 then
+							saveFile:write(string.format(", KEY1 = %d", key1))
+						end
+						if key2 ~= 0 then
+							saveFile:write(string.format(", KEY2 = %d", key2))
+						end
+						saveFile:write(" },\n")
+					end
+					idx = idx + 1
+					key1, key2, keyDes, behaviorDes = GetUserHotKeyInfo(tabNum, idx)
+				end
+				saveFile:write([[
 }
 
 ]])
-      end
-      tabNum = tabNum + 1
-    end
-  end
-  io.close(saveFile)
+			end
+			tabNum = tabNum + 1
+		end
+	end
+	io.close(saveFile)
 end
