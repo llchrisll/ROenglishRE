@@ -34,7 +34,7 @@ tbl = {
 		identifiedResourceName = "잠자리앉은강아지풀",
 		identifiedDescriptionName = {
 			"잠자리와 강아지풀의 묘한 마력의 시너지가 느껴지는 풀.",
-			"MATK +255",
+			"MATK +260",
 			"MaxSP +100",
 			"제련도 2당 MATK +2%, MaxSP +1%씩 증가.",
 			"",
@@ -50,7 +50,7 @@ tbl = {
 			"Required Level: ^0EAA0B140^000000",
 			"Jobs: ^6A5ACDDoram race^000000"
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 100
 	},
 	[1693] = {
@@ -61,7 +61,7 @@ tbl = {
 		identifiedResourceName = "마력의노랑강아지풀",
 		identifiedDescriptionName = {
 			"잠자리가 앉은 노랗게 잘 익어버린 강아지 풀.",
-			"MATK +270",
+			"MATK +280",
 			"제련도 2당 MATK +3%.",
 			"[새우의 신선함] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [아크라우스 대시] 1레벨 발동, [아쿠라우스 대시] 스킬 습득시 습득한 레벨로 발동",
 			"[개다래 줄기창] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.",
@@ -151,7 +151,7 @@ tbl = {
 			"Required Level: ^0EAA0B140^000000",
 			"Jobs: ^6A5ACDDoram race^000000"
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 100
 	},
 	[1697] = {
@@ -8696,6 +8696,24 @@ tbl = {
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17646] = {
+		unidentifiedDisplayName = "한정판 탑승용 고삐 상자",
+		unidentifiedResourceName = "번호상자03",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "한정판 탑승용 고삐 상자",
+		identifiedResourceName = "번호상자03",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"탑승용 고삐가 1개 들어있는 상자.",
+			"",
+			"각 직업군에 어울리는 탈 것으로 무엇이든 탑승 가능한 신비한 고삐.",
+			"각 직업계열 별로 탈 것의 종류가 나뉘어 있으며, 전승 또는 전직 시 해당계열에 맞는 탈 것으로 바뀝니다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. 창고에도 넣을 수 없습니다! ^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
