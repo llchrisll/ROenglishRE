@@ -9747,7 +9747,7 @@ Jobs: ^6A5ACDDoram race^000000
 #
 1692#
 잠자리와 강아지풀의 묘한 마력의 시너지가 느껴지는 풀.
-MATK +255
+MATK +260
 MaxSP +100
 제련도 2당 MATK +2%, MaxSP +1%씩 증가.
 
@@ -9765,7 +9765,7 @@ Jobs: ^6A5ACDDoram race^000000
 #
 1693#
 잠자리가 앉은 노랗게 잘 익어버린 강아지 풀.
-MATK +270
+MATK +280
 제련도 2당 MATK +3%.
 [새우의 신선함] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [아크라우스 대시] 1레벨 발동, [아쿠라우스 대시] 스킬 습득시 습득한 레벨로 발동
 [개다래 줄기창] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.
@@ -10169,9 +10169,10 @@ Jobs: ^6A5ACDArcher and Rogue^000000
 1730#
 A flaming bow that seems dangerous to grasp.
 ^888888-------------------------^000000
+Increases resistance against Fire property attacks by 10%.
+^888888-------------------------^000000
 [+^008800Fire Arrow^000000]
-Increases tolerance to Fire property attacks by 10%.
-Increase damage by 25%.
+Increases long range physical damage by 25%.
 ^888888-------------------------^000000
 Class: ^6A5ACDBow^000000
 Attack: ^D8000095^000000
@@ -10183,9 +10184,10 @@ Jobs: ^6A5ACDArcher and Rogue^000000
 1731#
 A frozen bow whose drawstring seems too solid to be pulled.
 ^888888-------------------------^000000
-[+^008800Crystal Arrow^000000]
 Has a certain chance of freezing enemies.
-Increase damage by 25%.
+^888888-------------------------^000000
+[+^008800Crystal Arrow^000000]
+Increases long range physical damage by 25%.
 ^888888-------------------------^000000
 Class: ^6A5ACDBow^000000
 Attack: ^D80000100^000000
@@ -10197,9 +10199,10 @@ Jobs: ^6A5ACDArcher and Rogue^000000
 1732#
 A bow that is perfectly balanced in every aspect.
 ^888888-------------------------^000000
-[+^008800Stone Arrow^000000]
 Has a certain chance of inflicting the Darkness status to enemies.
-Increase damage by 25%.
+^888888-------------------------^000000
+[+^008800Stone Arrow^000000]
+Increases long range physical damage by 25%.
 ^888888-------------------------^000000
 Class: ^6A5ACDBow^000000
 Attack: ^D80000105^000000
@@ -10211,10 +10214,11 @@ Jobs: ^6A5ACDArcher and Rogue^000000
 1733#
 A light bow that has been enhanced with the power of whirlwinds.
 ^888888-------------------------^000000
-[+^008800Arrow of Wind^000000]
 Each physical attack has a certain chance of auto casting Level 5 Wind Blade,
 this chance is increased when the wearer's INT is 40 or greater.
-Increase damage by 25%.
+^888888-------------------------^000000
+[+^008800Arrow of Wind^000000]
+Increases long range physical damage by 25%.
 ^888888-------------------------^000000
 Class: ^6A5ACDBow^000000
 Attack: ^D8000095^000000
@@ -11152,6 +11156,20 @@ Jobs: ^6A5ACDPriest and Monk^000000
 #
 1840#
 [jRO item]
+#
+1841#
+A claw that leave beautiful wounds.
+^888888-------------------------^000000
+ASPD +1
+^888888-------------------------^000000
+Each refine increase 1% ASPD and 1% damage against medium size monsters.
+^888888-------------------------^000000
+Class: ^6A5ACDClaw^000000
+Attack: ^D80000140^000000
+Weight: ^0EAA0B40^000000
+Weapon Level: ^0EAA0B4^000000
+Required Level: ^0EAA0B105^000000
+Jobs: ^6A5ACDPriest and Monk^000000
 #
 1900#
 Violin imbued with Vicious Mind.
@@ -34563,7 +34581,7 @@ FLEE +10
 CRIT +3
 Critical damage +10%,
 ^888888-------------------------^000000
-Reduce defense by 50%.
+Reduces defense by 50%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
@@ -41078,6 +41096,27 @@ Weight: ^0EAA0B300^000000
 Required Level: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+5971#
+An eyepatch with the power of Hatii dwelling inside.
+Reduces damage taken from water property attacks by 5%.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B10^000000
+Required Level: ^0EAA0B10^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+5972#
+A clever talkative parrot.
+For every 50 base level, MATK +1%.
+For every 30 base INT, variable cast time -1%.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B10^000000
+Required Level: ^0EAA0B80^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 5973#
 An ornament with the shape of long ears of elf.
 LUK +10
@@ -41145,6 +41184,19 @@ Location: ^6A5ACDMiddle^000000
 Weight: ^0EAA0B20^000000
 Required Level: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
+#
+5986#
+Wickebine's black cat ears.
+FLEE +10
+CRIT +3
+Critical damage +10%,
+Reduces defense by 50%.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF4^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B20^000000
+Required Level: ^0EAA0B45^000000
+Jobs: ^6A5ACDAll except Novice^000000
 #
 6000#
 A dark ash imbued with mysterious magical power and darkness.
@@ -72480,8 +72532,8 @@ Jobs: ^6A5ACDAll classes^000000
 #
 15089#
 A suit usually worn by Gentleman.
-ASPD +3%, reduce after cast delay by 3%, reduce variable cast time by 3%.
-Refined to +7, ASPD +2%, reduce after cast delay by 2%, reduce variable cast time by 2%.
+ASPD +3%, reduces after cast delay by 3%, reduces variable cast time by 3%.
+Refined to +7, ASPD +2%, reduces after cast delay by 2%, reduces variable cast time by 2%.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF40^000000
 Weight: ^0EAA0B30^000000
@@ -72966,6 +73018,16 @@ Weight: ^0EAA0B90^000000
 Required Level: ^0EAA0B175^000000
 Jobs: ^6A5ACDDoram race^000000
 #
+15162#
+A suit usually worn by Gentleman.
+ASPD +3%, reduces after cast delay by 3%, reduces variable cast time by 3%.
+Refined to +7, ASPD +2%, reduces after cast delay by 2%, reduces variable cast time by 2%.
+Class: ^6A5ACDArmor^000000
+Defense: ^0000FF40^000000
+Weight: ^0EAA0B30^000000
+Required Level: ^0EAA0B80^000000
+Class: ^6A5ACDAll except Novice^000000
+#
 16000#
 This mace's shape is inspired by a Snake, which symbolizes the fountain of knowledge.
 MaxSP +50.
@@ -73433,6 +73495,15 @@ Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B50^000000
 Jobs: ^6A5ACDNovice, Swordman, Merchant and Acolyte^000000
+#
+16052#
+A heavy, round headed mace intended for use in athletic competitions, but has proven to be effective in battle.
+Class: ^6A5ACDMace^000000
+Attack: ^D80000155^000000
+Weight: ^0EAA0B300^000000
+Weapon Level: ^0EAA0B3^000000
+Required Level: ^0EAA0B78^000000
+Jobs: ^6A5ACDPriest and Monk^000000
 #
 16100#
 A box that contains 1 "Angry Mouth" inside.
@@ -83088,6 +83159,15 @@ HIT, FLEE +30, ASPD + 1, SP 소모량 5% 감소,
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight: ^0EAA0B1^000000
 #
+17646#
+^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
+탑승용 고삐가 1개 들어있는 상자.
+
+각 직업군에 어울리는 탈 것으로 무엇이든 탑승 가능한 신비한 고삐.
+각 직업계열 별로 탈 것의 종류가 나뉘어 있으며, 전승 또는 전직 시 해당계열에 맞는 탈 것으로 바뀝니다.
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. 창고에도 넣을 수 없습니다! ^000000
+Weight: ^0EAA0B1^000000
+#
 18000#
 A consumable item to use the Mechanic Magic Gear Skill, Arm's Cannon.
 Class: ^6A5ACDCannonball^000000
@@ -83445,6 +83525,79 @@ Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B50^000000
 Jobs: ^6A5ACDArcher, Thief and Rogue^000000
+#
+18137#
+A flaming bow that seems dangerous to grasp.
+Increases resistance against Fire property attacks by 10%.
+[+^008800Fire Arrow^000000]
+Increases long range physical damage by 25%.
+[+^008800Elemental Crown^000000]
+Increases long range physical damage by 45%.
+[+^008800Elemental Suit and Fire Arrow^000000]
+Increase long range physical damage by 20%.
+Reduces resistance against Fire property attacks by 10%.
+When refine level of Burning Bow is +10 or higher, ASPD +1.
+Class: ^6A5ACDBow^000000
+Attack: ^D8000095^000000
+Weight: ^0EAA0B140^000000
+Weapon Level: ^0EAA0B3^000000
+Required Level: ^0EAA0B55^000000
+Jobs: ^6A5ACDArcher and Rogue^000000
+#
+18138#
+A frozen bow whose drawstring seems too solid to be pulled.
+Has a certain chance of freezing enemies.
+[+^008800Crystal Arrow^000000]
+Increases long range physical damage by 25%.
+[+^008800Elemental Crown^000000]
+Increases long range physical damage by 45%.
+[+^008800Elemental Suit and Crystal Arrow^000000]
+Increase long range physical damage by 20%.
+Disables bow's ability of inflicting Freeze.
+When refine level of Frozen Bow is +10 or higher, ASPD +1.
+Class: ^6A5ACDBow^000000
+Attack: ^D80000100^000000
+Weight: ^0EAA0B140^000000
+Weapon Level: ^0EAA0B3^000000
+Required Level: ^0EAA0B55^000000
+Jobs: ^6A5ACDArcher and Rogue^000000
+#
+18139#
+A bow that is perfectly balanced in every aspect.
+Has a certain chance of inflicting the Darkness status to enemies.
+[+^008800Stone Arrow^000000]
+Increases long range physical damage by 25%.
+[+^008800Elemental Crown^000000]
+Increases long range physical damage by 45%.
+[+^008800Elemental Suit and Stone Arrow^000000]
+Increase long range physical damage by 20%.
+Disables bow's ability of inflicting Blind.
+When refine level of Earth Bow is +10 or higher, ASPD +1.
+Class: ^6A5ACDBow^000000
+Attack: ^D80000105^000000
+Weight: ^0EAA0B140^000000
+Weapon Level: ^0EAA0B3^000000
+Required Level: ^0EAA0B55^000000
+Jobs: ^6A5ACDArcher and Rogue^000000
+#
+18140#
+A light bow that has been enhanced with the power of whirlwinds.
+Each physical attack has a certain chance of auto casting Level 5 Wind Blade,
+this chance is increased when the wearer's INT is 40 or greater.
+[+^008800Arrow of Wind^000000]
+Increases long range physical damage by 25%.
+[+^008800Elemental Crown^000000]
+Increases long range physical damage by 45%.
+[+^008800Elemental Suit and Arrow of Wind^000000]
+Increase long range physical damage by 20%.
+Disables bow's ability of autocast Level 5 Wind Blade.
+When refine level of Gust Bow is +10 or higher, ASPD +1.
+Class: ^6A5ACDBow^000000
+Attack: ^D8000095^000000
+Weight: ^0EAA0B140^000000
+Weapon Level: ^0EAA0B3^000000
+Required Level: ^0EAA0B55^000000
+Jobs: ^6A5ACDArcher and Rogue^000000
 #
 18500#
 ^000088Rental Item^000000
@@ -86559,7 +86712,7 @@ Required Level: ^0EAA0B100^000000
 Jobs: ^6A5ACDWarlock^000000
 #
 18795#
-A hat named after the mysterious bird that sings at night. It’s song is used to cause night blindness to mask its true form in order to eat humans that stray too deep into the forest.
+A hat named after the mysterious bird that sings at night. It's song is used to cause night blindness to mask its true form in order to eat humans that stray too deep into the forest.
 -Reduces fixed casting time of all skills by 5% for each level of Voice Lessons learned.
 -If upgraded to +7 or higher, increases Severe Rainstorm damage by 25%.
 -If upgraded to +9 or higher, Increases MaxSP by 200
@@ -88896,6 +89049,54 @@ Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+19099#
+A tiara that look similiar to Douce's headdress.
+It's made from different material and technology from this world.
+MDEF +10
+Reduces SP consumption of all skills by 10%.
+When refined to +5:
+Every refine reduces SP consumption of all skills by 3%.
+^702180Indestructible^000000
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF5^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B50^000000
+Required Level: ^0EAA0B10^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+19101#
+A bat that lives in Glastheim.
+ATK +2%.
+Delay after skill -5%.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B10^000000
+Required Level: ^0EAA0B80^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+19102#
+A hat named after the mysterious bird that sings at night.
+Flee +20
+Enables use of Level 1 Return to Thanatos Tower.
+Increases damage agaist Thanatos monsters by 5%.
+Reduces damage taken from Thanatos monsters by 5%.
+When refined to +5:
+Increases damage agaist Thanatos monsters by 10%.
+Reduces damage taken from Thanatos monsters by 10%.
+When refined to +7:
+Increases damage agaist Thanatos monsters by 15%.
+Reduces damage taken from Thanatos monsters by 15%.
+When refined to +9:
+Increases damage agaist Thanatos monsters by 20%.
+Reduces damage taken from Thanatos monsters by 20%.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF2^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B50^000000
+Required Level: ^0EAA0B30^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 19106#
 An ornament decorated with gemstones that filled with a powerful magic.
 Nullify gemstone requirements for certain skills.
@@ -88922,12 +89123,12 @@ Jobs: ^6A5ACDAll classes^000000
 #
 19107#
 A mysterious hat designed after the backcountry people of Unbara.
-Reduces critcal damage taken by 20%.
+Reduces critical damage taken by 20%.
 For every refine level, reduces damage taken from Shadow property attaks by 5%.
 When refined to +5:
-Reduces critcal damage taken by 30%.
+Reduces critical damage taken by 30%.
 When refined to +7:
-Reduces critcal damage taken by 50%.
+Reduces critical damage taken by 50%.
 When equipped by Novice:
 Frozen resistances +20%.
 When refined to +5:
@@ -89034,10 +89235,10 @@ When equipped by Gunslinger:
 Adds certain chance of dropping 'Silver Bullet Case', 'Gong Bug Pocket' or 'Blood Cartridge' when killing a monster.
 When equipped by class higher than classes listed above, adds certain chance of dropping 'Mastella Fruit' when killing a monster.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF9^000000
 Location: ^6A5ACDUpper^000000
-Weight: ^0EAA0B10^000000
-Required Level: ^0EAA0B1^000000
+Weight: ^0EAA0B100^000000
+Required Level: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 19109#
@@ -95881,6 +96082,126 @@ Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+20374#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20375#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20376#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20377#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20378#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20379#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20380#
+A hairband made of various machine parts.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20381#
+A retro style steampunk hat with attached bear doll on it.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20382#
+A doll resemble the FAW Silver Sniper.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20383#
+A doll resemble the FAW Silver Sniper.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20384#
+A tiara that look similiar to Douce's headdress.
+It's made from different material and technology from this world.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20386#
+A helm made for honoring war veteran.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20388#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20389#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20390#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20394#
+A hat awarded to honorable person in black school of chef.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 20396#
 귀여운 나무 정령의 모자.
 Class: ^6A5ACDCostume^000000
@@ -95916,6 +96237,90 @@ Jobs: ^6A5ACDAll classes^000000
 Class: ^6A5ACD의상장비^000000
 Defense: ^0000FF0^000000
 위치 : ^777777중단 ^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20400#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20401#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20402#
+A hat from eastern church that only the highest Bishop allowed to wear it.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20403#
+A Dolor of Thanatos laying on your head. It's rumored that the doll is trying to speak with his owner.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20404#
+A costume that receive blessing from angels.
+It's filled with joy, warm and comfort.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20405#
+A bright red tattered scarf.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20406#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20407#
+A costume that simulate the aura of subjects of Bio Lab.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20408#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20409#
+You feel something heavy over your shoulders, but there's nothing there! It gives off a creepy feeling.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20447#
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -96483,6 +96888,22 @@ Class: ^6A5ACDGarment^000000
 Defense: ^0000FF0^000000
 Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B10^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20784#
+Bag that resemble the Homunculus Amistr.
+Class: ^6A5ACDGarment^000000
+Defense: ^0000FF18^000000
+Weight: ^0EAA0B20^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20785#
+A large wings of Archangel.
+Class: ^6A5ACDGarment^000000
+Defense: ^0000FF18^000000
+Weight: ^0EAA0B20^000000
+Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 20787#
@@ -97314,6 +97735,31 @@ Defense: ^0000FF35^000000
 Weight: ^0EAA0B70^000000
 Required Level: ^0EAA0B175^000000
 Jobs: ^6A5ACDDoram race^000000
+#
+22089#
+Gaiter dyed with the blood of defeated enemies.
+CRIT +2, Critical damage +2%.
+Refined to +7, CRIT +3, Critical damage +3%.
+Class: ^6A5ACDFootgear^000000
+Defense: ^0000FF10^000000
+Weight: ^0EAA0B50^000000
+Required Level: ^0EAA0B50^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+22100#
+A shoes that can amplify the healing power of its wearer.
+Increase healing skill by 10%.
+Every 1 refine, reduces SP consumption of Coluseo Heal by 5.
+Every 2 refine, increase healing skill by 2%.
+When equipped with Light of Recovery:
+Every 1 refine of Light of Recovery, reduces SP consumption of Heal by 6, Coluseo Heal by 10 and Highness Heal by 14.
+When equipped with Benevolent Guardian:
+Every 2 refine of Benevolent Guardian, increase healing skill by 3%.
+Class: ^6A5ACDFootgear^000000
+Defense: ^0000FF10^000000
+Weight: ^0EAA0B30^000000
+Required Level: ^0EAA0B10^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 22507#
 This old, discolored scroll, sustained with the mana used for maintaining distorted spaces, sends its user to a random space.
@@ -103270,6 +103716,18 @@ Exp bonus +2%.
 ^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
+26000#
+Two-Handed Spear made of the Ivory of a Mammoth. It is very hard to be processed due to its strength, but its sharp end makes it perfect for stabbing.
+AGI +2, ASPD +3%
+Enables use of Level 5 ^008800Spear Stab^000000.
+Has a chance of inflicting Level 1 ^008800Fatal Wound^000000 while physically attacking.
+Class: ^6A5ACDTwo-Handed Spear^000000
+Attack: ^D80000160^000000
+Weight: ^0EAA0B100^000000
+Weapon Level: ^0EAA0B3^000000
+Required Level: ^0EAA0B50^000000
+Jobs: ^6A5ACDTranscendent Swordman^000000
+#
 26100#
 A Foxtail that is made by the Eden Group.
 DEX +4, INT +4, MATK +165
@@ -103771,6 +104229,19 @@ Weight: ^0EAA0B20^000000
 Required Level: ^0EAA0B80^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+28388#
+A heavy steel ball attached to a shackle that was supposed to keep prisoners from escaping in an earlier era.
+However, prisoners outfitted with this ball managed to use it as a weapon.
+[+^008800Shackle^000000]
+ATK +50
+Reduces damage from Zombie Prisoner and Skel Prisoner by 20%.
+[+^008800Thief Handcuffs^000000]
+ATK +10
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B400^000000
+Jobs: ^6A5ACDAll except Novice^000000
+#
 28391#
 A sacred earring that protect its wearer. Improve the potential of wearer.
 Adds 20% chance when using Throw Stone, for 5 sec ATK and FLEE increase by 30.
@@ -103794,6 +104265,28 @@ Class: ^6A5ACDShadow Equipment^000000
 Location: ^6A5ACDAccessory^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+28393#
+A badge made to celebrate RJC 2015.
+Increases recovery amount of 'Red Slim Potion', 'Yellow Slim Potion', 'White Slim Potion' by 10%.
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B10^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+28412#
+A beginner's training accessory.
+Can only be equipped by character with level below 99.
+Exp gained +20%.
+Increases movement speed.
+(^ff0000Will be deleted on 6 January 2016.^000000)
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B10^000000
+Minimum Level: ^0EAA0B1^000000
+Maximum Level: ^0EAA0B99^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 28600#
