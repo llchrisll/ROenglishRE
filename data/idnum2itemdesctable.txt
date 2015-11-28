@@ -34470,7 +34470,7 @@ Jobs: ^6A5ACDAll except Novice^000000
 5351#
 Peculiar headgear designed to look like a sunflower.
 ^888888-------------------------^000000
-Reduces damage from Insect monsters by 10%.
+Reduces damage taken from Insect monsters by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
@@ -34482,7 +34482,7 @@ Jobs: ^6A5ACDAll classes^000000
 It looks like a Poporing, but don't worry about the poison!
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
-Location: ^6A5ACDUpper, Middle^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B70^000000
 Required Level: ^0EAA0B38^000000
 Jobs: ^6A5ACDAll except Novice^000000
@@ -34501,7 +34501,7 @@ Jobs: ^6A5ACD2nd Classes^000000
 5354#
 This is a traditional headgear for male Muslims.
 ^888888-------------------------^000000
-Reduce variable cast time by 5%.
+Reduces variable cast time by 5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
@@ -34512,7 +34512,7 @@ Jobs: ^6A5ACDAll classes^000000
 5355#
 This is a traditional costumes for female Muslims.
 ^888888-------------------------^000000
-Reduce variable cast time by 5%.
+Reduces variable cast time by 5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
@@ -34522,8 +34522,6 @@ Jobs: ^6A5ACDAll except Novice^000000
 #
 5356#
 A pumpkin hat for celebrating Halloween: wear it when you go trick-or-treating!
-^888888-------------------------^000000
-All Stats +3
 ^888888-------------------------^000000
 Increase Physical and Magical Attack Strength against Demon monsters by 5%.
 ^888888-------------------------^000000
@@ -34539,6 +34537,7 @@ This hair accessory is made of Valkyrie's jewel and feathers.
 MDEF +10
 ^888888-------------------------^000000
 ^702180Indestructible^000000
+^FF0000Unrefineable^000000
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
@@ -34553,7 +34552,7 @@ AGI +1
 MDEF +2
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF2^000000
 Location: ^6A5ACDMiddle^000000
 Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B70^000000
@@ -34578,10 +34577,10 @@ Jobs: ^6A5ACDAll classes^000000
 Wickebine's black cat ears.
 ^888888-------------------------^000000
 FLEE +10
-CRIT +3
+^888888-------------------------^000000
 Critical damage +10%,
 ^888888-------------------------^000000
-Reduces defense by 50%.
+Adds a high chance for 5 sec ignore target's MDEF when attacking magically.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
@@ -34594,6 +34593,9 @@ Jobs: ^6A5ACDAll except Novice^000000
 A gangster's red scarf.
 ^888888-------------------------^000000
 ATK +5
+^888888-------------------------^000000
+[^6A5ACDRogue class^000000]
+Enables Level 1 Gangster Paradise.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
@@ -34617,26 +34619,28 @@ Jobs: ^6A5ACDAll classes^000000
 5363#
 A helm worn by the Abysmal Knight.
 ^888888-------------------------^000000
-Increase tolerance to Demihuman and Boss monsters by 10%.
+Increases resistance against Boss monsters by 10%.
+^888888-------------------------^000000
+Reduces resistance against normal monsters by 5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF12^000000
+Defense: ^0000FF9^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B100^000000
 Required Level: ^0EAA0B70^000000
-Jobs: ^6A5ACDAll classes^000000
+Jobs: ^6A5ACDSwordman, Merchant and Thief^000000
 #
 5364#
 A perfectly balanced hat worn by the Evil Snake Lord.
 The yin yang symbol and magic orbs harness the balance necessary to wear this hat.
 ^888888-------------------------^000000
-STR +1, INT +1, AGI +2
+Adds a chance of dropping 'WoE Supply Box' when killing a monster.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
-Weight: ^0EAA0B80^000000
-Required Level: ^0EAA0B60^000000
+Weight: ^0EAA0B50^000000
+Required Level: ^0EAA0B150^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5365#
@@ -34668,7 +34672,7 @@ A monster Hyegun's hat. It looks nasty and tattered but it has better defense th
 ^888888-------------------------^000000
 MDEF +3
 ^888888-------------------------^000000
-Add a 10% resistance against Demon monster.
+Increases resistance against Demon monster by 10%.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -34682,10 +34686,10 @@ Jobs: ^6A5ACDAll classes^000000
 5368#
 The glistening white feathers collected to make this beautiful headdress.
 ^888888-------------------------^000000
-Add a low chance of gaining Holy Elemental Scroll each time an is killed.
+Adds a low chance of dropping Holy Elemental Scroll when killing a monster.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF2^000000
+Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -34693,19 +34697,10 @@ Jobs: ^6A5ACDAll classes^000000
 5369#
 The dark feathers collected to make this mysterious headdress.
 ^888888-------------------------^000000
-Reduces damage taken from Demon monsters by 10%.
-^888888-------------------------^000000
-Increase damage inflicted on Demon monsters by 10%.
-^888888-------------------------^000000
-HP/SP Regeneration +10% for each upgrade.
-^888888-------------------------^000000
-[Refine +8]
-Reduces damage taken from Demon monsters by 10% again.
-Increase damage inflicted on Demon monsters by 10% again.
-Increase experience gained when you kill a Demon or Undead monster by 20%.
+Adds a low chance of dropping Undead Elemental Scroll when killing a monster.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF2^000000
+Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -34737,14 +34732,15 @@ Jobs: ^6A5ACDAll classes^000000
 5372#
 A magical kitty hat which shows various expressions on its face.
 ^888888-------------------------^000000
+INT +1
+MDEF +3
 MATK +3%
 MaxSP +3%
-MDEF +3
 ^888888-------------------------^000000
 Reduces Cast Delay of all skills by 3%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -34792,7 +34788,7 @@ Satanic Wings forged with an unholy incantation.
 ^888888-------------------------^000000
 MaxSP +120
 ^888888-------------------------^000000
-Adds a chance of casting Curse on the user while receiving Physical Damage.
+Adds a low chance of Cursing its wearer while receiving Physical Damage.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
@@ -34802,7 +34798,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5377#
 A long smoking pipe used by gentlemen and nobility.
-Reduces damage from Demihuman by 2%.
+^888888-------------------------^000000
+Reduces damage taken from Demihuman monsters by 2%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDLower^000000
@@ -34826,6 +34824,8 @@ Jobs: ^6A5ACDAll classes^000000
 5379#
 A large knitted hat that can be used to conceal long hair.
 ^888888-------------------------^000000
+MDEF +2
+MATK +2%
 Magic attack increases with each refine level.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
@@ -34852,9 +34852,9 @@ A cute hat made from a hopping Poring wearing a Santa's Hat.
 ^888888-------------------------^000000
 MDEF +2
 ^888888-------------------------^000000
-Increase 3% damage against Shadow property monsters.
+Increases damage inflicted on Shadow property monsters by 3%.
 ^888888-------------------------^000000
-Reduces Shadow property attacks by 3%.
+Increases resistance against Shadow property attacks by 3%.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -34897,9 +34897,18 @@ Jobs: ^6A5ACDAll classes^000000
 A Santa Hat with two pom-poms instead of one for double the Christmas fun!
 ^888888-------------------------^000000
 LUK +3
+ASPD +4%
+^888888-------------------------^000000
+Curse resistance +20%.
+^888888-------------------------^000000
+Variable cast time -2%.
+^888888-------------------------^000000
+When attacking with melee physical attack, adds a low chance for 10 sec, CRIT +50.
+^888888-------------------------^000000
+Adds a low chance of dropping 'Piece of Cake', 'Candy' or 'Candy Cane' when killing a monster.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF4^000000
+Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
 Required Level: ^0EAA0B20^000000
@@ -34922,6 +34931,8 @@ A traditional Payon decorative headgear woven of red silk, worn during celebrati
 ^888888-------------------------^000000
 Flee +7
 MDEF +7
+^888888-------------------------^000000
+Reflect 7% damage from melee physical attack.
 ^888888-------------------------^000000
 Add chance to drop Lucky Rice Cake when killing a monster.
 ^888888-------------------------^000000
@@ -34950,7 +34961,7 @@ Jobs: ^6A5ACDAll classes^000000
 5388#
 This cute animated Boa will keep you company as you meander around on your adventures.
 ^888888-------------------------^000000
-Enable Level 5 ^008800Double Attack^000000.
+Enables Level 5 ^008800Double Attack^000000.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
@@ -34978,9 +34989,9 @@ A double-pommed Blue Christmas Cap
 Increases resistance to Freeze status by 30%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF0^000000
+Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
-Weight: ^0EAA0B0^000000
+Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -34994,7 +35005,7 @@ MaxHP +100
 When you defeat a monster, there is a small chance that it drops a 'Old Purple Box'.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF0^000000
+Defense: ^0000FF1^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -35006,7 +35017,7 @@ The materials used for the red color of the hat is meant to bring Luck and Fortu
 LUK +2
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF6^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -35023,24 +35034,25 @@ MaxSP +7%
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
-Weight: ^0EAA0B0^000000
+Weight: ^0EAA0B20^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5394#
+^000088Rental Item^000000
 Double your flavour!
-Increases experience gained.
+Increases experience gained by 50%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDLower^000000
-Weight: ^0EAA0B1^000000
+Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5395#
 A souvenir hat to celebarate the 4th Anniversary of Europe Ragnarok Online.
 ^888888-------------------------^000000
-VIT +1
+LUK +3
 MaxHP +100
 Additional MaxHP +20 for every refine level.
 ^888888-------------------------^000000
@@ -35048,6 +35060,7 @@ Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B50^000000
+Required Level: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5396#
@@ -35084,12 +35097,10 @@ Headgear made of the skull of dregon. So hard that it does not easily break.
 STR +2
 MDEF +5
 ^888888-------------------------^000000
-Resistant to Stun +5%
-^888888-------------------------^000000
-Resistant to Bleeding +5%
+Stun and Bleeding resistance +5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF5^000000
+Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B120^000000
 Required Level: ^0EAA0B85^000000
@@ -35150,8 +35161,7 @@ Jobs: ^6A5ACDAll classes^000000
 5403#
 A fish that can bite inside your mouth. It smells bad, but a special process won't let it rot.
 ^888888-------------------------^000000
-When the wearer kills a monster, they will get a low chance to drop ^008800Fresh Fish^000000.
-Increases 25% of recover rate of ^008800Fresh Fish^000000.
+Increases healing rate of Fresh Fish by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
@@ -35175,7 +35185,7 @@ Jobs: ^6A5ACDAll classes^000000
 5405#
 Gentle Filir. He is too gentle. He never attacks.
 ^888888-------------------------^000000
-Reflects 1% of physical attacks within short range.
+Reflects 1% damage of melee physical attacks.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -35217,7 +35227,7 @@ A bandana of legendary pioneer.
 INT +2
 MaxSP +50
 ^888888-------------------------^000000
-Reduce variable cast time by 10%.
+Reduces variable cast time by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
@@ -35304,8 +35314,8 @@ CRIT +5
 FLEE +5
 ASPD +5%
 Perfect Dodge +5
-Reduce variable cast time by 5%.
-Reduce after cast delay by 5%.
+Reduces variable cast time by 5%.
+Reduces after cast delay by 5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
@@ -35319,8 +35329,8 @@ A mug of beer sits precariously on your head. Drinking severely impairs your abi
 ^888888-------------------------^000000
 Perfect dodge +5
 ^888888-------------------------^000000
-Enable Level 3 ^008800Increase HP Recovery^000000.
-Enable Level 3 ^008800Increase SP Recovery^000000.
+Enables Level 3 ^008800Increase HP Recovery^000000.
+Enables Level 3 ^008800Increase SP Recovery^000000.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
@@ -35334,7 +35344,7 @@ A Crown Parrot hat on your head. A chatter parrot that never get tired.
 ^888888-------------------------^000000
 INT +1
 ^888888-------------------------^000000
-Add immunity against ^FF0000Silence^000000 status.
+Adds immunity against ^FF0000Silence^000000 status.
 ^888888-------------------------^000000
 Automatically cast Level 1 ^008800Scream^000000 by chance when struck by Physical attack.
 ^888888-------------------------^000000
