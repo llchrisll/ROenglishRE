@@ -40340,14 +40340,14 @@ Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5856#
-A hat which makes you feel the air of festivity.
-Play all over the ground with amazing vitality!!
-STR +1, INT +1, VIT +2, DEX +2, AGI +2, LUK +2.
-MDEF +1.
+A hat which makes you feel the air of festivity. Play all over the ground with amazing vitality!!
+STR +2, DEX +2
+Adds a low chance for 10 seconds when attacking with meele attack:
+increases ranged damage by 5%, Flee -15.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
-Weight: ^0EAA0B0^000000
+Weight: ^0EAA0B60^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -40771,28 +40771,76 @@ Required Level: ^0EAA0B100^000000
 Jobs: ^6A5ACDMechanic^000000
 #
 5908#
-[jRO item]
+A special decoration wore by person whose terminating the undead.
+MDEF +3
+Increases physical and magical damage against Undead monsters by 5%.
+Reduces damage taken from Undead monsters by 5%.
+Adds chance to drop Giggling Box when killing Undead monsters.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF3^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B20^000000
+Required Level: ^0EAA0B20^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5909#
-[jRO item]
+A costume that proove someone is valkyrie delegation.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5911#
-[jRO item]
+A costume made of feathers of Griphon.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5912#
-[jRO item]
+A costume that resemble the devil's servant.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5913#
-[jRO item]
+A golden mask of Wind Goddes.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5914#
-[jRO item]
+A costume with sparkling and shining butterfly.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5915#
-[jRO item]
+A veil made from a lot feathers, its give you feeling being wrapped by angel's wings.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5916#
-[jRO item]
+A sunglasses specially made to counter a demon.
+Increases physical damage inclicted on Demon monsters by 5%.
+Reduces damage taken from Demon monsters by 5%.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF1^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B20^000000
+Required Level: ^0EAA0B10^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5917#
 [jRO item]
@@ -41144,6 +41192,20 @@ Weight: ^0EAA0B60^000000
 Required Level: ^0EAA0B60^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+5975#
+A doll to celebrate the 61st generation of royal family.
+Reduces damage taken from Boss monsters by 10%.
+When you have Zherlthsh pet, reduces damage taken from Boss monsters by 5%.
+When intimacy is 'royal', reduces damage taken from Boss monsters by 5%.
+^FF0000Unrefineable^000000
+^702180Indestructible^000000
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B30^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 5977#
 Gives you a feeling of advantage over your enemies.
 Class: ^6A5ACDCostume^000000
@@ -41166,6 +41228,27 @@ A gorgeous small fur hat.
 Class: ^6A5ACDCostume^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+5982#
+A mask wore by Loki when he was young.
+Increases Sonic Blow damage by 5%.
+Increases Meteor Assault damage by 10%.
+Adds a chance to transform into 'Loki' for 5 sec when attacking physically.
+Transformation bonus: AGI +10, ATK +10.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B10^000000
+Required Level: ^0EAA0B95^000000
+Jobs: ^6A5ACDAssassin^000000
+#
+5983#
+A mask wore by Loki when he was young.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -56512,20 +56595,37 @@ A box that contains between 2 to 5 WPS Tokens which can be exchanged for items f
 Weight: ^0EAA0B10^000000
 #
 12583#
+A small box that prepared for certain event.
+Weight: ^0EAA0B1^000000
 #
 12584#
+A small box that prepared for certain event.
+Weight: ^0EAA0B1^000000
 #
 12585#
+A small box that prepared for certain event.
+Weight: ^0EAA0B1^000000
 #
 12586#
+A small box that prepared for certain event.
+Weight: ^0EAA0B1^000000
 #
 12587#
+...
+Weight: ^0EAA0B1^000000
 #
 12588#
+...
+Weight: ^0EAA0B1^000000
 #
 12589#
+...
+Weight: ^0EAA0B1^000000
 #
 12590#
+A cylinder that holds many coins.
+When you open it, you will get 10 random coins.
+Weight: ^0EAA0B1^000000
 #
 12591#
 Advanced product from the Geffen Magic Academy!
@@ -56549,7 +56649,15 @@ Jobs: ^6A5ACDAll classes^000000
 Box Weight: ^7777771^000000
 #
 12596#
-Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000.
+A magic candy that can clean your teeth after eat foods.
+For 1 minute:
+MATK +30
+Reduces fixed cast time by 70%.
+Skill cast cannot be interrupted.
+Decreases SP by 90 every 10 sec.
+(3 minutes cooldown)
+(When character's KO'ed, the effect will dissapear)
+Weight: ^0EAA0B1^000000
 #
 12599#
 A special fruit that usually eaten in Ramadhan.
@@ -56689,19 +56797,11 @@ Weight: ^0EAA0B1^000000
 The scroll can summon mercenary monster 'Teddy Bear'.
 Weight: ^0EAA0B1^000000
 #
-12631#
-#
-12632#
-#
 12633#
 Special produce from Malangdo, made as a can so you can save easily. Strangely It was known to give power to people.
 Increase exp and job exp by 10% for 20mins. (can overlap with other exp item and only apply for monster hunting.)
 Increase 20% of item drop rate for 20mins
 Weight: ^0EAA0B5^000000
-#
-12634#
-#
-12635#
 #
 12636#
 Delicious canned food from Malangdo.
@@ -56733,37 +56833,59 @@ A package with a devil shape, open it will may obtain unexpected surprise!
 Weight: ^0EAA0B1^000000
 #
 12642#
+A box contain 100 Mastella Fruits.
+Weight: ^0EAA0B0^000000
 #
 12643#
 An old and thin coin bag. 50 E coins are in the bag.
 Weight: ^0EAA0B1^000000
 #
 12644#
+A well wrapped present box.
+Weight: ^0EAA0B1^000000
 #
 12645#
+A sacred scroll that allows the use of Level 5 Aspersio skill without Holy Water.
+Weight: ^0EAA0B1^000000
 #
 12646#
+A brown flame-grilled octopus that can only be tasted on New Year event only.
+For 10 minutes:
+LUK +10
+ATK +20
+MATK +20
+Weight: ^0EAA0B3^000000
 #
 12647#
+This ball coated with thick oil.
+Weight: ^0EAA0B3^000000
 #
 12648#
+Contain 10 of: Red Potion, Orange Potion, Yellow Potion, White Potion and Blue Potion.
+Weight: ^0EAA0B10^000000
 #
 12649#
+A box awarded to those who achieve level 70.
+Weight: ^0EAA0B1^000000
 #
 12650#
+A box awarded to those who achieve level 90.
+Weight: ^0EAA0B1^000000
 #
 12651#
+A box awarded to those who achieve level 110.
+Weight: ^0EAA0B1^000000
 #
 12652#
+A box awarded to those who achieve level 130.
+Weight: ^0EAA0B1^000000
 #
 12653#
+A box awarded to those who achieve level 150.
+Weight: ^0EAA0B1^000000
 #
 12654#
-A box given to friends of new recruits that contains 1 Halter Lead. Once opened, the item inside expires after 30 days.
-An animal halter lead that summons a creature to ride on.
-Mount creatures increase movement speed by 25%.
-Cannot attack while on a mount.
-^ff0000When this item expires, so does the mount.^000000
+A limited angel-shaped package, you might get something if you open it.
 Weight: ^0EAA0B1^000000
 #
 12658#
@@ -57265,13 +57387,22 @@ So delicious. It strong flavor.
 Weight: ^0EAA0B1^000000
 #
 12764#
+A box which you can only get on certain event.
+Weight: ^0EAA0B0^000000
 #
 12765#
+A box contain a Summer Night.
+Available for 30 days.
+Weight: ^0EAA0B1^000000
 #
 12766#
+For 30 minutes:
+Increases job experience gained by 25%.
+Can be used together with Battle manual.
+Weight: ^0EAA0B0^000000
 #
 12767#
-A box contains 1 Worldcup Hat of Passion.
+A box contains 1 Passion Football Hat.
 1 hour duration.
 Weight: ^0EAA0B0^000000
 #
@@ -104155,7 +104286,14 @@ Jobs: ^6A5ACDAll classes^000000
 [JRO Item]
 #
 28369#
-[JRO Item]
+An arms part with the capability of strengthen unit's defense.
+AGI +2
+DEX +5
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B50^000000
+Required Level: ^0EAA0B100^000000
+Jobs: ^6A5ACDMechanic^000000
 #
 28372#
 Rune Midgard emblem carved on it. Given to people who give contribution to nation.
@@ -104221,6 +104359,20 @@ Weight: ^0EAA0B10^000000
 Required Level: ^0EAA0B100^000000
 Jobs: ^6A5ACDDoram race^000000
 #
+28386#
+A dark beads wore by Priest whose changing into Sura.
+ATK +5
+ASPD +5%
+Reduces SP consumption of Dangerous Soul Collect by 5.
+Every 15 base level increment, increases Dragon Combo damage by 2%.
+Every 20 base level increment, increases Knuckle Arrow damage by 2%.
+Every 30 base level increment, increases Sky Net Blow damage by 2%.
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B10^000000
+Required Level: ^0EAA0B20^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 28387#
 A necklace modeled after goddess Freya's sacred necklace.
 Class: ^6A5ACDAccessory^000000
@@ -104241,6 +104393,18 @@ Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
 Weight: ^0EAA0B400^000000
 Jobs: ^6A5ACDAll except Novice^000000
+#
+28389#
+A special silver ring given to Royal Guard.
+MDEF +3
+MaxHP +5%
+Variable cast time -5%.
+Enables use of Level 1 Return to Glastheim.
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF3^000000
+Weight: ^0EAA0B50^000000
+Required Level: ^0EAA0B90^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 28391#
 A sacred earring that protect its wearer. Improve the potential of wearer.
