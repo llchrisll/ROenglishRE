@@ -1256,6 +1256,20 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[12785] = {
+		unidentifiedDisplayName = "Dragon Egg",
+		unidentifiedResourceName = "군용지수",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Dragon Egg",
+		identifiedResourceName = "군용지수",
+		identifiedDescriptionName = {
+			"기간 한정 드래곤의 알.",
+			"드래군 헬름, 무기 9제련 보장권, 방어구 9제련 보장권, 인챈트 소개장, 피묻은 나뭇가지, 마력 깃든 카드첩, 드래곤 관련 여러가지 무기, 장비 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[14781] = {
 		unidentifiedDisplayName = "Happy Balloon Scroll",
 		unidentifiedResourceName = "하트스크롤",
@@ -8871,100 +8885,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 1358
 	},
-	[20371] = {
-		unidentifiedDisplayName = "Hat",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 스페셜 카프라 모자",
-		identifiedResourceName = "리리아인형모자",
-		identifiedDescriptionName = {
-			"13주년 기념 한정 스페셜 카프라 인형 모자.",
-			"몬스터를 죽였을 시 획득 경험치+13%.",
-			"Class: ^6A5ACDCostume^000000",
-			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 581
-	},
-	[20396] = {
-		unidentifiedDisplayName = "Hat",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 초록이모자",
-		identifiedResourceName = "초록이모자",
-		identifiedDescriptionName = {
-			"귀여운 나무 정령의 모자.",
-			"Class: ^6A5ACDCostume^000000",
-			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 939
-	},
-	[20398] = {
-		unidentifiedDisplayName = "Hat",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 니플헤임 버니햇",
-		identifiedResourceName = "니플헤임버니햇",
-		identifiedDescriptionName = {
-			"니플헤임의 치유계 마스코트 '하이로조이스트'를 모티브로 한 모자.",
-			"매력 포인트는 폭신폭신한 솜털, 떠다니는 냉기, 토끼눈 같은 빨간 단추, 그리고  x로 된 입이다.",
-			"Class: ^6A5ACD의상장비^000000",
-			"Defense: ^0000FF0^000000",
-			"위치 : ^777777상단 ^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1285
-	},
-	[20399] = {
-		unidentifiedDisplayName = "Mask",
-		unidentifiedResourceName = "스마일",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 까마귀 천구의 가면",
-		identifiedResourceName = "까마귀천구의가면",
-		identifiedDescriptionName = {
-			"타락한 닌자의 원한이 가득차 있는 가면.",
-			"Class: ^6A5ACD의상장비^000000",
-			"Defense: ^0000FF0^000000",
-			"위치 : ^777777중단 ^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1287
-	},
-	[20397] = {
-		unidentifiedDisplayName = "Mask",
-		unidentifiedResourceName = "스마일",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "잭",
-		identifiedResourceName = "잭머리",
-		identifiedDescriptionName = {
-			"잭처럼 보일 수 있는 투구.",
-			"잭의 친구들도 속을만큼 정교하다.",
-			"제작 방법은 비밀…",
-			"Class: ^6A5ACDCostume^000000",
-			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACD중하단 ^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1415
-	},
 	[20504] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
@@ -12339,10 +12259,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25077] = {
-		unidentifiedDisplayName = "기사단 보급품",
+		unidentifiedDisplayName = "Knight Supplies",
 		unidentifiedResourceName = "택배상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "기사단 보급품",
+		identifiedDisplayName = "Knight Supplies",
 		identifiedResourceName = "택배상자",
 		identifiedDescriptionName = {
 			"프론테라 기사단의 보급품이 들어있는 상자. 간단한 식량에서부터 응급처치용 도구, 치료약 등이 들어있다.",
@@ -12352,30 +12272,30 @@ tbl = {
 		ClassNum = 0
 	},
 	[25078] = {
-		unidentifiedDisplayName = "하화주",
+		unidentifiedDisplayName = "Hahwaju",
 		unidentifiedResourceName = "향주",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "하화주",
+		identifiedDisplayName = "Hahwaju",
 		identifiedResourceName = "향주",
 		identifiedDescriptionName = { "여름꽃만 따서 페이욘 전통 기법으로 담근 술. 시원하면서도 부드러운  꽃향기가 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25079] = {
-		unidentifiedDisplayName = "마지막 숨결",
+		unidentifiedDisplayName = "Last Breath",
 		unidentifiedResourceName = "영혼의숨소리",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "마지막 숨결",
+		identifiedDisplayName = "Last Breath",
 		identifiedResourceName = "영혼의숨소리",
 		identifiedDescriptionName = { "영혼이 마지막으로 남긴 숨결. 싸한 냉기가 감싸 잘 못 건드리면 뼛 속까지 얼어붙을 것 같다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25080] = {
-		unidentifiedDisplayName = "여우구슬",
+		unidentifiedDisplayName = "Fox Ball",
 		unidentifiedResourceName = "용의보주_청",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "여우구슬",
+		identifiedDisplayName = "Fox Ball",
 		identifiedResourceName = "용의보주_청",
 		identifiedDescriptionName = {
 			"월야화와 구미호의 요력과 정기가 응집 된 결정체. 구미호들은 힘의 원천인 정기를 구슬처럼 만들어 몸에 지니고 있다고 한다. 여우의 정기와 더불어 강한 원한이 느껴진다.",
@@ -12385,10 +12305,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25083] = {
-		unidentifiedDisplayName = "달토끼의 부드러운 털",
+		unidentifiedDisplayName = "Silky Hair of Moon Rabbit",
 		unidentifiedResourceName = "부드러운털",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "달토끼의 부드러운 털",
+		identifiedDisplayName = "Silky Hair of Moon Rabbit",
 		identifiedResourceName = "부드러운털",
 		identifiedDescriptionName = {
 			"달토끼를 사로잡다 얻게 된 달토끼의 부드러운 털이다. 매우 부드러워서 모자의 재료로 사용 된다. 야생 동물 보호협회 사람들이 좋아한다.",
@@ -12398,10 +12318,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25084] = {
-		unidentifiedDisplayName = "포획된 달토끼",
+		unidentifiedDisplayName = "Captured Moon Rabbit",
 		unidentifiedResourceName = "포획된달토끼",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "포획된 달토끼",
+		identifiedDisplayName = "Captured Moon Rabbit",
 		identifiedResourceName = "포획된달토끼",
 		identifiedDescriptionName = {
 			"도망쳤다가 포획된 달토끼.",
@@ -12412,10 +12332,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25085] = {
-		unidentifiedDisplayName = "달토끼의 털",
+		unidentifiedDisplayName = "Hair of Moon Rabbit",
 		unidentifiedResourceName = "솜털",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "달토끼의 털",
+		identifiedDisplayName = "Hair of Moon Rabbit",
 		identifiedResourceName = "솜털",
 		identifiedDescriptionName = {
 			"달토끼를 사로잡다 얻게 된 달토끼의 털이다. 모자의 재료로 사용된다. 야생 동물 보호협회 사람들이 좋아한다.",
@@ -12425,10 +12345,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25086] = {
-		unidentifiedDisplayName = "선물 포장용 리본",
+		unidentifiedDisplayName = "Ribbon Gift Package",
 		unidentifiedResourceName = "왕리본",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선물 포장용 리본",
+		identifiedDisplayName = "Ribbon Gift Package",
 		identifiedResourceName = "왕리본",
 		identifiedDescriptionName = {
 			"루티에에서 선물을 포장할 때 사용하는 마법의 리본. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 묶어 준다는 듯하다.",
@@ -12438,30 +12358,30 @@ tbl = {
 		ClassNum = 0
 	},
 	[25087] = {
-		unidentifiedDisplayName = "낡은 인형",
+		unidentifiedDisplayName = "Old Doll",
 		unidentifiedResourceName = "낡은인형",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "낡은 인형",
+		identifiedDisplayName = "Old Doll",
 		identifiedResourceName = "낡은인형",
 		identifiedDescriptionName = { "오랜 세월 동안 손을 탄 낡은 인형. 소중히 여겼는지 손질이 잘 되어 있다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25088] = {
-		unidentifiedDisplayName = "꿈의 파편",
+		unidentifiedDisplayName = "Dream Fragments",
 		unidentifiedResourceName = "꿈의파편",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "꿈의 파편",
+		identifiedDisplayName = "Dream Fragments",
 		identifiedResourceName = "꿈의파편",
 		identifiedDescriptionName = { "누군가의 간절한 꿈에서 얻을 수 있는 꿈의 조각. 알 수 없는 힘이 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25089] = {
-		unidentifiedDisplayName = "선물 장식용 날개",
+		unidentifiedDisplayName = "Decorative Wings Gift",
 		unidentifiedResourceName = "브라기의날개귀",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선물 장식용 날개",
+		identifiedDisplayName = "Decorative Wings Gift",
 		identifiedResourceName = "브라기의날개귀",
 		identifiedDescriptionName = {
 			"루티에에서 선물을 장식할 때 사용하는 마법의 날개. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다.",
