@@ -1,1 +1,0 @@
-New Navigation from kRO(2015) but not supported yet by emulator
