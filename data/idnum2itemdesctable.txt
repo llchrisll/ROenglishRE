@@ -2916,10 +2916,9 @@ Jobs: ^6A5ACDSwordman, Merchant and Thief^000000
 A one-handed, formal dress sword imbued with the ^0000BBWater^000000 property.
 ^888888-------------------------^000000
 Enables use of Level 3 ^008800Cold Bolt^000000.
-Chance to auto cast Level 3 ^008800Cold Bolt^000000 when attacking.
+Adds a chance to auto cast Level 3 ^008800Cold Bolt^000000 when dealing physical attacks.
 ^888888-------------------------^000000
-5% chance to Freeze target when attacking.
-1% chance to Freeze its owner when attacking.
+Adds 5% chance to Freeze target and 1% chance to Freeze its owner when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Sword^000000
 Attack: ^D80000100^000000
@@ -2945,7 +2944,7 @@ Jobs: ^6A5ACDSwordman, Merchant and Thief^000000
 A one-handed, formal dress sword imbued with the ^FF0000Fire^000000 property.
 ^888888-------------------------^000000
 Enables use of Level 3 ^008800Fire Bolt^000000.
-Chance to auto cast Level 3 ^008800Fire Bolt^000000 when attacking.
+Chance to auto cast Level 3 ^008800Fire Bolt^000000 when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Sword^000000
 Attack: ^D80000100^000000
@@ -3446,7 +3445,8 @@ A massive sword wielded by Atroce that is much too large to be handled by ordina
 ^888888-------------------------^000000
 CRIT +10
 ^888888-------------------------^000000
-Chance to destroys enemy's armor while attacking if the wearer's STR is 80 or greater.
+[^6A5ACD Base STR 80 ^000000]
+Adds a chance to destroy enemy's armor when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Sword^000000
 Attack: ^D80000200^000000
@@ -3483,7 +3483,7 @@ A two-handed, formal dress sword imbued with the ^7BCC70Wind^000000 property.
 ^888888-------------------------^000000
 DEF +1
 ^888888-------------------------^000000
-Adds a chance to autocast Level 3 ^008800Lightning Bolt^000000 when attacking.
+Adds a chance to autocast Level 3 ^008800Lightning Bolt^000000 when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Sword^000000
 Attack: ^D80000160^000000
@@ -3529,7 +3529,7 @@ This is known as the sword of a brave man from the orient.
 ^888888-------------------------^000000
 Perfect Dodge +10
 ^888888-------------------------^000000
-If player's Job Level 70 (If player is a Rune Knight job level needs to be 50) has a chance of receiving ATK +50 for 10 seconds when physically attacking.
+If player's Job Level 70 (If player is a Rune Knight job level needs to be 50) has a chance of receiving ATK +50 for 10 seconds when dealing physical attacks.
 ^888888-------------------------^000000
 When refined to +9 or higher, Reduces SP cost of skills by 20% and reduces skill usage delay by 20%.
 ^888888-------------------------^000000
@@ -3594,9 +3594,9 @@ Jobs: ^6A5ACDSwordman^000000
 1185#
 A huge violet Two-Handed Sword that's made from the Twin Swords of Naght Sieger.
 ^888888-------------------------^000000
-When attacking there is a chance that for 5 seconds you will completely disregard the defense of the opponent.
+When dealing physical attacks, there is a chance that for 5 seconds you will completely disregard the defense of the opponent.
 ^888888-------------------------^000000
-Has a chance of autocasting Level 3 ^FF0000Meteor Storm^000000 and/or Level 5 ^0000BBFrost Nova^000000 with each physical attack.
+Adds a chance of autocasting Level 3 ^FF0000Meteor Storm^000000 and/or Level 5 ^0000BBFrost Nova^000000 with each physical attack.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Sword^000000
 Attack: ^D80000275^000000
@@ -3612,7 +3612,7 @@ STR +5
 AGI +2
 Perfect Dodge +20
 ^888888-------------------------^000000
-Has a chance of inflicting Hell Power on the user or target while physically attacking.
+Has a chance of inflicting Hell Power on the user or target when dealing physical attacks.
 ^888888-------------------------^000000
 Has a chance of giving 100% damage to all monsters within the area of 11x11 cells around itself and recovers 100% of HP.
 ^888888-------------------------^000000
@@ -3632,8 +3632,7 @@ Ignore 25% physical defense of Demihuman monster.
 ^888888-------------------------^000000
 ***Additional Weapon Refining Level Option***
 +6 Upgrade: Ignore physical defense of Demihuman monsters +5%, ^ff0000[Slaughter]^000000 Lv 2 (Damage bonus of Slaughter increases up to the upgrade level 14.)
-+9 Upgrade: When physically attacking, has a chance of casting
-Level 1 [Concenctration] and Level 1[Aura Blade].
++9 Upgrade: when dealing physical attacks, has a chance of casting Level 1 [Concentration] and Level 1 [Aura Blade].
 *If a higher level of either spell has been learned, the corresponding level is activated.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Sword^000000
@@ -3776,7 +3775,7 @@ A fish used as a cutlass for its long knife-like shape. It is cold to the touch.
 CRIT +20
 Increases critical damage by 50%.
 ^888888-------------------------^000000
-Adds a chance to Freeze an enemy when attacking.
+Adds a chance to Freeze an enemy when dealing physical attacks.
 ^888888-------------------------^000000
 if base level is over 100, ATK +50
 ^888888-------------------------^000000
@@ -4226,7 +4225,7 @@ Jobs: ^6A5ACDSwordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^0000
 1241#
 A dagger possessed by evil and given power by hatred and malice.
 ^888888-------------------------^000000
-Adds a low chance to Curse an enemy when attacking.
+Adds a low chance to Curse an enemy when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDDagger^000000
 Attack: ^D8000055^000000
@@ -4378,7 +4377,7 @@ Jobs: ^6A5ACDAssassin^000000
 1256#
 A Katar fashioned from a cold, sharp icicle.
 ^888888-------------------------^000000
-Inflict ^FF0000Frozen^000000 status on target by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Frozen^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000105^000000
@@ -4391,7 +4390,7 @@ Jobs: ^6A5ACDAssassin^000000
 1257#
 A Katar sculpted from earth.
 ^888888-------------------------^000000
-Inflict ^FF0000Blind^000000 status on target by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Blind^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000105^000000
@@ -4404,7 +4403,7 @@ Jobs: ^6A5ACDAssassin^000000
 1258#
 A Katar molded from an inferno.
 ^888888-------------------------^000000
-Inflict ^FF0000Silence^000000 status on target by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Silence^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000105^000000
@@ -4417,7 +4416,7 @@ Jobs: ^6A5ACDAssassin^000000
 1259#
 A Katar forged with the power of stormy winds.
 ^888888-------------------------^000000
-Inflict ^FF0000Sleep^000000 status on target by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Sleep^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000105^000000
@@ -4456,7 +4455,7 @@ Jobs: ^6A5ACDAssassin^000000
 1262#
 A double bladed katar that inflicts incurable wounds.
 ^888888-------------------------^000000
-Inflict ^FF0000Bleeding^000000 status on target by a low chance when attacking.
+Adds chance to inflict ^FF0000Bleeding^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000115^000000
@@ -4470,7 +4469,7 @@ A katar said to be purely forged out of the resentment of the dead.
 ^888888-------------------------^000000
 CRIT -1
 ^888888-------------------------^000000
-Inflict ^FF0000Curse^000000 status on target by a low chance when attacking.
+Adds chance to inflict ^FF0000Curse^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -4485,7 +4484,7 @@ Jobs: ^6A5ACDAssassin^000000
 1264#
 Although this katar has an increased number of slots, this weapon is hard to handle and is known to cause injury to those who wield it.
 ^888888-------------------------^000000
-Inflict ^FF0000Bleeding^000000 status on wielder by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Bleeding^000000 status on wielder when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D8000090^000000
@@ -4498,9 +4497,9 @@ This katar, known for being effective against humans, is rumored to give a beast
 ^888888-------------------------^000000
 Pierces Defense of Demihuman monsters.
 ^888888-------------------------^000000
-Reduce FLEE and Perfect Dodge.
+Reduces FLEE and Perfect Dodge.
 ^888888-------------------------^000000
-Disable natural HP and SP regeneration.
+Disables natural HP and SP regeneration.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000120^000000
@@ -4546,8 +4545,8 @@ Jobs: ^6A5ACDAssassin^000000
 1268#
 A katar crafted from the body of a huge beast, and the wounds it inflicts are very difficult to heal.
 ^888888-------------------------^000000
-Has a certain chance of inflicting 'Fatal Wound' to enemies.
-Which reduces the effect of Heal, Sanctuary, Potion Pitcher, and other recovery items by 20%.
+Adds a chance to inflict 'Fatal Wound' status to enemy when dealing physical attacks.
+Fatal Wound reduces the effect of Heal, Sanctuary, Potion Pitcher, and other recovery items by 20%.
 Increasing the upgrade level to +9, decreases healing effects by 40%.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
@@ -4560,7 +4559,7 @@ Jobs: ^6A5ACDAssassin Cross^000000
 1269#
 A Katar made from a dragon's scale.
 ^888888-------------------------^000000
-Inflicts abnormal status to enemies within a 5*5 cell when attacking.
+Adds a chance to inflict abnormal status on 5x5 cells when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000140^000000
@@ -4645,7 +4644,7 @@ Jobs: ^6A5ACDAssassin^000000
 1275#
 A Katar fashioned from a cold, sharp icicle.
 ^888888-------------------------^000000
-Inflict ^FF0000Frozen^000000 status on target by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Frozen^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000105^000000
@@ -4658,7 +4657,7 @@ Jobs: ^6A5ACDAssassin^000000
 1276#
 A Katar sculpted from earth.
 ^888888-------------------------^000000
-Inflict ^FF0000Blind^000000 status on target by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Blind^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000105^000000
@@ -4671,7 +4670,7 @@ Jobs: ^6A5ACDAssassin^000000
 1277#
 A Katar molded from an inferno.
 ^888888-------------------------^000000
-Inflict ^FF0000Silence^000000 status on target by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Silence^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000105^000000
@@ -4684,7 +4683,7 @@ Jobs: ^6A5ACDAssassin^000000
 1278#
 A Katar forged with the power of stormy winds.
 ^888888-------------------------^000000
-Inflict ^FF0000Sleep^000000 status on target by a low chance when attacking.
+Adds a low chance to inflict ^FF0000Sleep^000000 status on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000105^000000
@@ -4738,7 +4737,7 @@ Ignore 20% of Physical Defense of Demihuman monsters.
 ^888888-------------------------^000000
 ***Additional Weapon Refining Level Option***
 +6 Upgrade: Ignore physical defense of Demihuman +5%, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
-+9 Upgrade: When physically attacking and weapon awakens, increase in ASPD for 3 sec(delay after attacking reduces by 100%).
++9 Upgrade: When dealing physical attacks and weapon awakens, increase ASPD by 100% for 3 sec.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000140^000000
@@ -4754,7 +4753,7 @@ Critical Attack to Demihuman monsters +20%.
 ^888888-------------------------^000000
 ***Additional Weapon Refining Level Option***
 +6 Upgrade: Critical Attack to Demihuman monsters +5%, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
-+9 Upgrade: When physically attacking and weapon awakens, increase in ASPD for 3 sec(delay after attacking reduces by 100%).
++9 Upgrade: When dealing physical attacks and weapon awakens, increase ASPD by 100% for 3 sec.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000140^000000
@@ -4924,7 +4923,7 @@ Jobs: ^6A5ACDAssassin^000000
 1295#
 A katar with blade shaped like shredder. Leaves deep wound on its target.
 ^888888-------------------------^000000
-When attacking has chance to cause bleeding on 5x5 cells.
+Adds a chance to inflict ^FF0000Bleeding^000000 status on 5x5 cells when dealing physical attacks.
 When refined to +9, the area of effect increased to 11x11 cells.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
@@ -4952,7 +4951,7 @@ Jobs: ^6A5ACDAssassin Corss^000000
 1297#
 A Katar made from a dragon's scale.
 ^888888-------------------------^000000
-Inflicts abnormal status to enemies within a 5*5 cell when attacking.
+Adds a chance to inflict abnormal status on 5x5 cells when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDKatar^000000
 Attack: ^D80000140^000000
@@ -5087,11 +5086,11 @@ Ignore 20% of Physical Defense of Demihuman monsters.
 ^888888-------------------------^000000
 ***Additional Weapon Refining Level Option***
 +6 Upgrade: Ignore Demihuman physical defense +5%, ASPD +5%, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
-+9 Upgrade: Activate [Fatal Wound] 5%. Increase in ASPD(delay after attacking reduces by 5%)
++9 Upgrade: Activate [Fatal Wound] 5%. Increase ASPD by 5%.
 When using [Mammonite], has a chance of casting Level 2 [Fatal Wound].
-Increase in ASPD(delay after attacking reduces by 5%)
+Increase ASPD by 5%
 ^888888-------------------------^000000
-Class: ^6A5ACDOnehand Axe^000000
+Class: ^6A5ACDOne-handed Axe^000000
 Attack: ^D80000130^000000
 Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B4^000000
@@ -5635,7 +5634,7 @@ STR +3
 ^888888-------------------------^000000
 Increases Physical Attack Strength towards Demihuman monsters by 55%.
 ^888888-------------------------^000000
-When attacking, has a chance to destroy your enemy's armor by 100% for 3 seconds.
+When dealing physical attacks, adds a chance to destroy targets's armor by 100% for 3 seconds.
 ^888888-------------------------^000000
 ^702180Indestructible^000000
 ^888888-------------------------^000000
@@ -5665,8 +5664,8 @@ Ignore 25% of Physical Defense of Demihuman monsters.
 ^888888-------------------------^000000
 ***Additional Weapon Refining Level Option***
 +6 Upgrade: Ignore physical defense of Demihuman monsters +5%, ^ff0000[Slaughter]^000000 Lv 2 (Damage bonus of Slaughter increases up to the upgrade level 14.)
-When attacking, has a chance of casting Level 1 [Fatal Wound].
-+9 Upgrade: When attacking, the chance of casting Level 1 [Fatal Wound] +5%
+When dealing physical attacks, adds a chance of inflicting Level 1 [Fatal Wound].
++9 Upgrade: When dealing physical attacks, the chance of casting Level 1 [Fatal Wound] +5%
 Using [Mammonite] or [Cart Termination], has a chance of casting Level 2 [Fatal Wound]
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Axe^000000
@@ -5679,7 +5678,7 @@ Jobs: ^6A5ACDSwordman and Merchant^000000
 1383#
 Increases damage against Undead monsters by 10%.
 ^888888-------------------------^000000
-Add a chance of auto casting ^008800Level 5 Blessing^000000 on the enemy when attacking.
+Adds a chance to auto cast ^008800Level 5 Blessing^000000 on target when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Axe^000000
 Attack: ^D80000200^000000
@@ -5786,7 +5785,7 @@ Jobs: ^6A5ACDSwordman and Merchant^000000
 1392#
 A large axe made by a blacksmith from the fires of a volcano.
 ^888888-------------------------^000000
-Adds Burning status while attacking physically while risking being burned as well.
+Adds Burning status when dealing physical attacks while risking being burned as well.
 ^888888-------------------------^000000
 ^702180Indestructible^000000
 ^888888-------------------------^000000
@@ -6382,7 +6381,7 @@ It offers incredible power and mana at a great cost.
 INT +6, VIT +6, LUK -6
 MATK +100
 ^888888-------------------------^000000
-Creates a low chance of regaining HP and SP from 5% of your damage dealt while you are Physically attacking.
+Creates a low chance of regaining HP and SP from 5% of your damage dealt when dealing physical attacks.
 ^888888-------------------------^000000
 Drains 100 HP every 10 seconds.
 ^888888-------------------------^000000
@@ -6897,7 +6896,7 @@ AGI +2, ASPD +3%
 ^888888-------------------------^000000
 Enables use of Level 5 ^008800Spear Stab^000000.
 ^888888-------------------------^000000
-Has a chance of inflicting Level 1 ^008800Fatal Wound^000000 while physically attacking.
+Has a chance of inflicting Level 1 ^008800Fatal Wound^000000 when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Spear^000000
 Attack: ^D80000160^000000
@@ -7613,11 +7612,11 @@ A large silver mace, made for exorcisms.
 ^888888-------------------------^000000
 Additional 10% damage to Demon and Shadow monsters.
 ^888888-------------------------^000000
-Has a chance of autocasting Level 1 ^FF0000Signum Crusis^000000 when physically attacked.
+Adds a chance of auto cast Level 1 ^FF0000Signum Crusis^000000 when attacked by physical attacks.
 The level of ^FF0000Signum Crusis^000000 increases by upgrade level.
 (Activate Level 10 if refine is met Level 11 or higher)
 ^888888-------------------------^000000
-Has a chance of adding ATK +50 during 20 seconds when physically attacked.
+Adds a chance of adding ATK +50 during 20 seconds when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDMace^000000
 Attack: ^D80000120^000000
@@ -7670,7 +7669,7 @@ An old, black and large frying pan.
 ^888888-------------------------^000000
 If base STR is 77 or higher:
 ASPD +4%
-Add 15% chance of Stunning target when physically attacking.
+Add 15% chance of Stunning target when dealing physical attacks.
 Also adds a 5% chance of dropping cooked dishes when killing Brute, Plant or Fish monsters.
 ^888888-------------------------^000000
 Class: ^6A5ACDMace^000000
@@ -8111,7 +8110,7 @@ Ignore 25% of Physical Defense of Demihuman monsters.
 ^888888-------------------------^000000
 ***Additional Weapon Refining Level Option***
 +6 Upgrade: Ignore Magical Defense of Demihuman +5%, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
-+9 Upgrade: When physically attacking, has a chance of adding ATK +200 for 3 seconds.
++9 Upgrade: When dealing physical attacks, has a chance of adding ATK +200 for 3 seconds.
 ^888888-------------------------^000000
 Class: ^6A5ACDBook^000000
 Attack: ^D8000090^000000
@@ -8771,7 +8770,7 @@ A wand crafted from a powerful Lich's skull that will curse anyone that threaten
 INT +1, DEX +1
 MATK +170
 ^888888-------------------------^000000
-Has a low chance of cursing your enemy while physically attacking.
+Adds a low chance of cursing target when dealing physical attacks.
 This chance can be raised by increasing this weapon's Upgrade Level.
 ^888888-------------------------^000000
 Additional MATK +3% and MaxSP +300 bonus if Upgrade Level is 9 or greater.
@@ -9337,7 +9336,7 @@ Jobs: ^6A5ACDArchbishop^000000
 1661#
 INT +10, MATK +50, MDEF +20.
 ^888888-------------------------^000000
-Drains 5% SP from enemies while physically attacking.
+Drains 5% SP from enemies when dealing physical attacks.
 When refined to +6 or higher, increases the SP drain of attacks.
 ^888888-------------------------^000000
 Increases SP consumption of skills by 100
@@ -10953,7 +10952,7 @@ Has a chance of casting Level 1 Fatal Wound when attacking.
 ^888888-------------------------^000000
 When using Palm Strike, has a chance of casting Level 1 Investigate.
 ^888888-------------------------^000000
-Has a chance of casting Summon Spirit Sphere when physically attacking.
+Has a chance of casting Summon Spirit Sphere when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDClaw^000000
 Attack: ^D8000095^000000
@@ -13011,7 +13010,7 @@ Reduces damage from Demon monsters by 5%.
 ^3CB371Angelic Guard^000000
 HP +900
 MaxSP +100
-Has low Chance of casting level 1 Assumptio when attacked physically.
+Adds a low chance of auto cast Level 1 Assumptio when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF30^000000
@@ -13254,8 +13253,8 @@ A hard, firm-looking shield made from the scales of Naga. The scales are as shar
 ^888888-------------------------^000000
 MDEF +3
 ^888888-------------------------^000000
-Has a chance of reflecting physical damage for 5 secs. when physically damaged.
-The rate of the damage reflection increases by 3% with each refine level up to +10
+Adds a chance of reflecting physical damage for 5 secs, when attacked by physical attacks.
+The rate of the damage reflected increases by 3% with each refine level up to +10
 When refine level is over 11, reflective duration increases by 1 sec for every 2 refinement
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
@@ -13285,7 +13284,7 @@ MDEF +1
 ^888888-------------------------^000000
 Increases resistance against Neutral property attack by 10%.
 ^888888-------------------------^000000
-Has low chance to cast Kyrie Eleison when physically attacked.
+Adds a low chance to auto cast Kyrie Eleison when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF5^000000
@@ -15506,7 +15505,7 @@ MDEF +20
 ^3CB371Angelic Guard^000000
 HP +900
 MaxSP +100
-Has low Chance of casting Level 1 Assumptio when attacked physically.
+Adds a low Chance to auto cast Level 1 Assumptio when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF25^000000
@@ -15869,7 +15868,7 @@ Reduces damage from Demihuman monsters by 2%.
 AGI +3, MaxHP +12%,
 ASPD +5%, CRIT +5,
 Increases damage from non-Demihuman monsters by 300%.
-When attacking physically has a chance of restoring 3,000 HP per second for 10 seconds.
+when dealing physical attacks has a chance of restoring 3,000 HP per second for 10 seconds.
 ^888888-------------------------^000000
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF41^000000
@@ -16081,7 +16080,7 @@ An armor made from the scales of Naga. It is very sharp and shiny and it seems l
 ^888888-------------------------^000000
 MDEF +2
 ^888888-------------------------^000000
-Has a chance of adding ATK +20 when the wearer physically attacks an enemy.
+Adds a chance of adding ATK +20 when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF45^000000
@@ -16446,7 +16445,7 @@ MaxHP +100
 ^3CB371Angelic Guard^000000
 MaxHP +900
 MaxSP +100
-Has low Chance of casting Level 1 Assumptio when attacked physically.
+Adds a low chance to auto cast Level 1 Assumptio when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDFootgear^000000
 Defense: ^0000FF8^000000
@@ -17790,7 +17789,7 @@ Increase natural HP regeneration by 5%.
 ^3CB371Angelic Guard^000000
 MaxHP +900
 MaxSP +100
-Has low Chance of casting Level 1 Assumptio when attacked physically.
+Adds a low Chance to auto cast Level 1 Assumptio when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDGarment^000000
 Defense: ^0000FF6^000000
@@ -18144,7 +18143,7 @@ An outfit for priests in order to protect the exorcists at Prontera Church.
 ^888888-------------------------^000000
 MDEF +3
 ^888888-------------------------^000000
-Has a chance of casting Level 1 Heal on the wearer when physically attacked at a close distance.
+Has a chance of casting Level 1 Heal on the wearer when attacked by melee physical attack.
 If higher level of Heal is learned, it will use the level the wearer has learned.
 ^888888-------------------------^000000
 Class: ^6A5ACDGarment^000000
@@ -18459,7 +18458,7 @@ An ancient relic of war that once worn to help people in suffering.
 ^888888-------------------------^000000
 Perfect Dodge +5
 ^888888-------------------------^000000
-Has a chance of casting Level 1 ^008800Renovatio^000000 while being physically or magically attacked.
+Has a chance of casting Level 1 ^008800Renovatio^000000 while attacked by physical or magical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDGarment^000000
 Defense: ^0000FF12^000000
@@ -18472,7 +18471,7 @@ An ancient relic of war that once worn to fight Demon.
 ^888888-------------------------^000000
 Flee +5
 ^888888-------------------------^000000
-Has a chance of casting Level 2 ^008800Oratio^000000 while being physically or magically attacked,
+Has a chance of casting Level 2 ^008800Oratio^000000 when attacked by physical or magical attacks,
 If a higher level of this skill is learned then that level will activate.
 ^888888-------------------------^000000
 Class: ^6A5ACDGarment^000000
@@ -18627,7 +18626,7 @@ A manteau from an archer guild known as Icarus
 ^888888-------------------------^000000
 AGI +2, FLEE +10
 ^888888-------------------------^000000
-Has a chance of activating FLEE +20 for 7 seconds while physically attacking.
+Adds a chance of adding FLEE +20 for 7 seconds when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDGarment^000000
 Defense: ^0000FF15^000000
@@ -22319,7 +22318,7 @@ Jobs: ^6A5ACDGuillotine Cross^000000
 2893#
 A shaman's heart whom made contract with demon.
 ^888888-------------------------^000000
-Chance to curse enemy when physically attacking.
+Adds a chance to curse enemy when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
@@ -23413,11 +23412,11 @@ STR -5
 MATK +6%
 Holy resistance +5%.
 Increase HP and SP recovery by 50%.
-When physically attacked, there is chance to activate Level 1 Renovatio or Level 3 Sanctuary.
+When attacked by physical attacks, adds a chance to activate Level 1 Renovatio or Level 3 Sanctuary.
 ^888888-------------------------^000000
 [+^008800Pendant of Chaos^000000]
 All Stats +5.
-When magically attacked, there is chance to activate Level 1 Maelstorm.
+When attacked by magical attacks, adds a chance to activate Level 1 Maelstorm.
 ^888888-------------------------^000000
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
@@ -23428,10 +23427,10 @@ Jobs: ^6A5ACD3rd Classes^000000
 2991#
 ATK +6%.
 Shadow resistance +5%.
-Immune to chaos.
-When physically attacked, there is chance to inflict confuse on enemy.
-When physically attacked, there is chance to chaos on 11*11 AOE.
-INT -5.
+Immune to confuse.
+When dealing physical attacks, adds a chance to inflict confuse on enemy.
+When attacked by physical attacks, adds a chance to inflict confuse on 11*11 AoE.
+INT -5
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
 Weight: ^0EAA0B10^000000
@@ -23786,7 +23785,7 @@ STR +4
 +1 SP per attack.
 +7% MaxHP/SP
 Alchemist Class Bonus:
-A chance of auto casting ^008800Level 1 Adrenaline Rush^000000 when attacking physically.
+A chance of auto casting ^008800Level 1 Adrenaline Rush^000000 when dealing physical attacks.
 A low chance of obtaining Glistening Coat and/or Stem when defeating monsters.
 Class: ^6A5ACDCard^000000
 Compound on: ^B40088Accessory^000000
@@ -24903,7 +24902,7 @@ STR +4
 +1 SP per attack.
 +7% MaxHP/SP
 Alchemist Class Bonus:
-A chance of auto casting ^008800Level 1 Adrenaline Rush^000000 when attacking physically.
+A chance of auto casting ^008800Level 1 Adrenaline Rush^000000 when dealing physical attacks.
 A low chance of obtaining Glistening Coat and/or Stem when defeating monsters.
 ^FFFFFF_^000000
 Class: ^6A5ACDCard^000000
@@ -25427,7 +25426,7 @@ STR +4
 +1 SP per attack.
 +7% MaxHP/SP
 Alchemist Class Bonus:
-A chance of auto casting ^008800Level 1 Adrenaline Rush^000000 when attacking physically.
+A chance of auto casting ^008800Level 1 Adrenaline Rush^000000 when dealing physical attacks.
 A low chance of obtaining Glistening Coat and/or Stem when defeating monsters.
 ^FFFFFF_^000000
 Class: ^6A5ACDCard^000000
@@ -26013,7 +26012,7 @@ STR +4
 Alchemist Class Bonus:
 A chance of auto casting
 level 1 Adrenaline Rush
-when attacking physically.
+when dealing physical attacks.
 A low chance of obtaining
 Glistening Coat and/or
 Stem when defeating
@@ -26709,7 +26708,7 @@ Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4333#
-Adds a high chance of inflicting the ^FF0000Poison^000000 status to the attacking enemy and this card's wearer each time the wearer is physically attacked.
+Adds a high chance of inflicting the ^FF0000Poison^000000 status to the attacking enemy and this card's wearer each time the wearer is attacked by physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
@@ -26762,7 +26761,7 @@ Compound on: ^6A5ACDShield^000000
 Weight: ^0EAA0B1^000000
 #
 4341#
-Adds a chance of autocasting ^008800Level 1 Strip Weapon^000000 each time the wearer physically attacks.
+Adds a chance of autocasting ^008800Level 1 Strip Weapon^000000 each time the wearer dealing physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
@@ -26791,7 +26790,7 @@ STR +4
 Alchemist Class Bonus:
 A chance of auto casting
 level 1 Adrenaline Rush
-when attacking physically.
+when dealing physical attacks.
 A low chance of obtaining
 Glistening Coat and/or
 Stem when defeating
@@ -26827,7 +26826,7 @@ Compound on: ^B40088Accessory^000000
 Weight: ^0EAA0B1^000000
 #
 4348#
-Adds a chance of autocasting ^008800Level 1 Strip Armor^000000 each time the wearer physically attacks.
+Adds a chance of autocasting ^008800Level 1 Strip Armor^000000 each time the wearer dealing physical attacks.
 ^FFFFFF_^000000
 ^6A5ACDRogue Card Set^000000
 ^3CB371Wanderer Card^000000
@@ -26853,7 +26852,7 @@ Compound on: ^B40088Accessory^000000
 Weight: ^0EAA0B1^000000
 #
 4349#
-Adds a chance of autocasting ^008800Level 1 Pneuma^000000 each time the wearer is physically attacked.
+Adds a chance of autocasting ^008800Level 1 Pneuma^000000 each time the wearer is attacked by physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^B40088Accessory^000000
 Weight: ^0EAA0B1^000000
@@ -26938,7 +26937,7 @@ Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 4361#
-Adds a 10% chance of destroying an enemy's weapon and a 7% chance of destroying its armor each time the wearer physically attacks.
+Adds a 10% chance of destroying an enemy's weapon and a 7% chance of destroying its armor each time the wearer dealing physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
@@ -26951,7 +26950,7 @@ Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 4363#
-Adds a chance of autocasting ^008800Level 1 Assumptio^000000 on the wearer each time the wearer is physically or magically attacked.
+Adds a chance of autocasting ^008800Level 1 Assumptio^000000 on the wearer each time the wearer is attacked by physical or magical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
@@ -27159,17 +27158,13 @@ Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4383#
-Adds a high chance
-of confusing the
-attacking enemy each
-time the wearer is
-physically attacked.
+Adds a high chance of confusing the attacking enemy each time the wearer is attacked by physical attack.
 Class: ^6A5ACDCard^000000
 Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4384#
-Adds a high chance of autocasting ^008800Level 1 Spell Breaker^000000 each time the wearer physically attacks.
+Adds a high chance of autocasting ^008800Level 1 Spell Breaker^000000 each time the wearer dealing physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^B40088Accessory^000000
 Weight: ^0EAA0B1^000000
@@ -27209,7 +27204,7 @@ Weight: ^0EAA0B1^000000
 #
 4390#
 ATK +5
-Adds a 5% chance of inflicting the ^FF0000Bleeding^000000 status each time the wearer physically attacks.
+Adds a 5% chance of inflicting the ^FF0000Bleeding^000000 status each time the wearer dealing physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
@@ -27280,7 +27275,7 @@ Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 4400#
-Add a chance of autocasting ^008800Charming Wink^000000 each time the wearer is physically attacked.
+Adds a chance of autocasting ^008800Charming Wink^000000 each time the wearer is dealing physical attacks.
 When worn by ^6A5ACDDancer^000000, this chance increases to 10%.
 Class: ^6A5ACDCard^000000
 Compound on: ^00C33CArmor^000000
@@ -27319,13 +27314,13 @@ Bleeding status to
 the user as well as
 the attacking enemy
 each time the wearer
-is physically attacked.
+is attacked by physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4405#
-Every refine add chance by 2% of reflecting magic damage.
+Every refine adds 2% chance of reflecting magic damage back to attacker.
 ^FFFFFF_^000000
 [^6A5ACDMage class^000000]
 MDEF +3
@@ -28034,22 +28029,23 @@ Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 4500#
-Can reflex 15% damage to enemies when being physically attacked in short range.
-If compounded equipment is refined to +15 or higher, can reflex 25% damage to enemies.
+Reflects 15% damage back to attacker when attacked by melee physical attacks.
+If compounded equipment is refined to +15 or higher, reflect 25% of damage back to attacker.
 Class: ^6A5ACDCard^000000
 Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4501#
-Adds a chance of autocasting Level 1 Assumptio on the wearer each time the wearer is physically or magically attacked.
+Adds a chance of autocasting Level 1 Assumptio on the wearer each time the wearer is attacked by physical or magical attacks.
 If compounded equipment is refined to +15 or higher, it has higher chance to autocast the skill.
 Class: ^6A5ACDCard^000000
 Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 4502#
-Adds a 5% chance of destroying an enemy's weapo and a 4% chance of destroying its armor each time the wearer physically attacks.
-If compounded equipment is refined to +15 or higher, has a 8% chance of destroying an enemy's weapo and a 6% chance of destroying its armor each time the wearer physically attacks.
+Adds a 5% chance of destroying an enemy's weapo and a 4% chance of destroying its armor each time the wearer dealing physical attacks.
+If compounded equipment is refined to +15 or higher:
+adds a 8% chance of destroying an enemy's weapon and a 6% chance of destroying its armor each time the wearer dealing physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
@@ -28456,8 +28452,8 @@ Compound on: ^7102EFHeadgear^000000
 Weight: ^0EAA0B1^000000
 #
 4558#
-Reduce earth property damage by 20%.
-Chance to cast Level 2 Kyrie Eleison when physically attacked.
+Reduces earth property damage by 20%.
+Adds a chance to auto cast Level 2 Kyrie Eleison when attacked by physical attacks.
 Class: ^6A5ACDCard^000000
 Compound on: ^008C99Garment^000000
 Weight: ^0EAA0B1^000000
@@ -29079,7 +29075,7 @@ Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 4656#
-When physically and magically attacked, chance to cause Sleep to all targets on 11x11 cells.
+When attacked by physical or magical attacks, chance to cause Sleep to all targets on 11x11 cells.
 When equipped with equip compounded with Nightmare Ancient Mummy card:
 Increases resistance against Neutral property attack by 5%.
 Increase the probability of causing Sleep to all targets on 11x11 cells.
@@ -29844,11 +29840,11 @@ Earn Runaway Magic energy for 10 second in a low chance when inflicting magic at
 When unequipped, drain 2000 SP.
 #
 4877#
-When physically attacking, has a low chance of increasing ASPD and Flee for 5 seconds while decreasing HP by 400 and SP by 50 per second.
+When dealing physical attacks, adds a low chance of increasing ASPD and Flee for 5 seconds while decreasing HP by 400 and SP by 50 per second.
 When unequipped, drain 300 SP.
 #
 4878#
-When being physically attacked, has a low chance of increasing defense for 5 seconds while ATK and MATK are decreased 50%.
+When attacked by physical attacks, adds a low chance of increasing defense for 5 seconds while ATK and MATK are decreased 50%.
 When unequipped, drain 300 SP.
 #
 4879#
@@ -31723,7 +31719,7 @@ MaxHP +900
 MaxSP +100
 A low Chance of casting
 level 1 Assumptio
-when attacked physically.
+When attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
@@ -32539,10 +32535,10 @@ A red ribbon with a white flower. It makes girls prettier.
 MaxSP +30
 MDEF +3
 ^888888-------------------------^000000
-Decreases 20% of all physical damage for 2 seconds with low chance when physically attacked.
+Decreases 20% of all physical damage for 2 seconds with low chance when attacked by physical attacks.
 However, MDEF decreased 20% for 2 seconds.
 ^888888-------------------------^000000
-Decreases 20% of all magical damage for 2 seconds with low chance when magically attacked.
+Decreases 20% of all magical damage for 2 seconds with low chance when attacked by magical attacks.
 However, DEF decreased 20% for 2 seconds.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
@@ -32780,7 +32776,7 @@ Jobs: ^6A5ACDAll classes^000000
 5208#
 A hat designed to mimic the look of a terrible magic book which attacks people.
 ^888888-------------------------^000000
-When physically melee attacking, there is a 5% chance to recover 8% of your damage as HP and 1% chance to recover 4% of your damage as SP.
+When dealing melee physical attacks, adds a 5% chance to recover 8% of your damage as HP and 1% chance to recover 4% of your damage as SP.
 ^888888-------------------------^000000
 Drains 10 HP every 5 seconds while equipped.
 ^888888-------------------------^000000
@@ -33019,7 +33015,7 @@ MDEF +2
 ^888888-------------------------^000000
 Increases tolerance to Stun by 10%.
 ^888888-------------------------^000000
-When being physically attacked, has a chance of auto-casting Level 5 Angelus or Level 1 Assumptio on self.
+When attacked by physical attacks, adds a chance of auto-casting Level 5 Angelus or Level 1 Assumptio on self.
 ^888888-------------------------^000000
 If the user is an Acolyte or Priest class, will auto-cast Level 1 Lex Aeterna when using Heal Skill on an enemy.
 ^888888-------------------------^000000
@@ -34526,7 +34522,7 @@ So hot! A headgear with the figure of Kafra Defolty! Numerous users are using Ka
 ^888888-------------------------^000000
 Decreases 5% damage from Demihuman monsters.
 ^888888-------------------------^000000
-Autocasts Level 10 Angelus when physically attacked within short range.
+Autocasts Level 10 Angelus when attacked by melee physical attacks.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -34556,9 +34552,9 @@ Jobs: ^6A5ACDAll classes^000000
 5342#
 So hot! A headgear with the figure of Kafra Sorin! Her cute appearance made the price of this hat rise at the auction place.
 ^888888-------------------------^000000
-Decreases 5% damage from Demihuman monsters.
+Decreases 5% damage taken from Demihuman monsters.
 ^888888-------------------------^000000
-Increases ATK +50 for 10 seconds with low chance when physically attacked.
+Increases ATK +50 for 10 seconds with low chance when attacked by physical attaks.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -34588,9 +34584,9 @@ Jobs: ^6A5ACDAll classes^000000
 5344#
 So hot! A headgear with the figure of Kafra Bennit! She has a boyish look, but her hobby is knitting and reading romance novels. She is fully supported by male users who like the short-cut style.
 ^888888-------------------------^000000
-Decreases 5% damage from Demihuman monsters.
+Decreases 5% damage taken from Demihuman monsters.
 ^888888-------------------------^000000
-Increases ASPD by 5% for 30 seconds with low chance when physically attacked.
+Increases ASPD by 5% for 30 seconds with low chance when attacked by physical attacks.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -35146,7 +35142,7 @@ A hairband that mixes Kafra Style and Cat Hairband Style. It looks so cute!
 ^888888-------------------------^000000
 MDEF +5
 ^888888-------------------------^000000
-Inflicts a random abnormal status to an enemy when physically attacked.
+Inflicts a random abnormal status to an enemy when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
@@ -35267,7 +35263,7 @@ DEX +1
 When refined to +9 or higher, adds DEX +2.
 ^888888-------------------------^000000
 Increases damage to Undead monsters by 5%.
-If the refine level is lower than +6, has a low chance of casting Blind on it's wearer while physically attacking.
+If the refine level is lower than +6, has a low chance of casting Blind on it's wearer dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
@@ -35308,7 +35304,7 @@ A Mandragora has bloomed on this hat. Don't even think about plucking the flower
 ^888888-------------------------^000000
 VIT +3
 ^888888-------------------------^000000
-Gives a chance to auto-cast Level 5 Scream when physically attacked.
+Gives a chance to auto-cast Level 5 Scream when attacked by physical attacks.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -35370,7 +35366,7 @@ Jobs: ^6A5ACDAll classes^000000
 5404#
 The symbol of an honor student!
 ^888888-------------------------^000000
-Auto casts Level 2 Improve Concentration with low chances when physically attacked.
+Auto casts Level 2 Improve Concentration with low chances when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
@@ -35730,8 +35726,8 @@ Jobs: ^6A5ACDAll classes^000000
 5431#
 Chicken is on your head! It might have alarm option for waking you up in the morning.
 ^888888-------------------------^000000
-Add chance to increase STR by 3 for 3 seconds when physically attacking.
-Add chance to increase INT by 3 for 3 seconds when magically attacking.
+Adds chance to increase STR by 3 for 3 seconds when dealing physical attacks.
+Adds chance to increase INT by 3 for 3 seconds when dealing magical attacks.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -35892,7 +35888,7 @@ Statue of a baby angel that could be embarrassing to wear if you're insecure.
 ^888888-------------------------^000000
 MDEF +2
 ^888888-------------------------^000000
-Randomly auto-casts Level 1 Status Recovery when attacked physically.
+Randomly auto-casts Level 1 Status Recovery when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
@@ -36054,7 +36050,7 @@ A special decoration geographer designed to rest nicely on your head.
 ^888888-------------------------^000000
 INT +1
 ^888888-------------------------^000000
-When physically attacking or attacked, has chance to autocast Level 5 Heal on yourself.
+When dealing or attacked by physical attacks, adds chance to autocast Level 5 Heal on yourself.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
@@ -36340,7 +36336,7 @@ An elaborate multi-colored headdress made from the feathers of a Grand Peco.
 ^888888-------------------------^000000
 Increases attack against Demihuman and Brute monsters 7%.
 ^888888-------------------------^000000
-Has a low chance of adding the curse status to your target while physically attacked.
+Adds a low chance of cursing the target when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
@@ -36636,7 +36632,7 @@ STR +2, DEX +2
 ^888888-------------------------^000000
 Increase damage against Brute monster by 10%.
 ^888888-------------------------^000000
-When physically attacking or attacked, has chance to transform into 'King Tiger'.
+When dealing or attacked by physical attacks, adds a chance to transform into 'King Tiger'.
 While transforming, drains 5 SP every seconds but gain the power of 'King Tiger'.
 Increasing refine level will increase the chance to transform and the power of 'King Tiger'.
 ^888888-------------------------^000000
@@ -36813,7 +36809,7 @@ A hand-shape hat made by mud. It feels weird when you wear it.
 STR +2, VIT +1
 MDEF +3
 ^888888-------------------------^000000
-Add a chance of auto casts Level 1 Earth Spike when physically attacked.
+Adds a chance of auto cast Level 1 Earth Spike when attacked by physical attacks.
 ^888888-------------------------^000000
 Reduces damage taken from ^cc5500Earth^000000 property monsters by 5%.
 ^888888-------------------------^000000
@@ -37364,7 +37360,7 @@ MATK +2%
 ^888888-------------------------^000000
 Reduce after cast delay by 2%.
 ^888888-------------------------^000000
-Add a low chance of inflicting Stun on enemy when physically attacking.
+Adds a low chance of inflicting Stun on enemy when dealing physical attacks.
 Each refine increase the chance of inflicting Stun.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
@@ -37380,7 +37376,7 @@ A magnificent crown created to pay tribute to the 2nd sign of the zodiac, Taurus
 AGI +2
 FLEE +10
 ^888888-------------------------^000000
-Add a low chance of inflicting Stun on enemy when physically attacking.
+Adds a low chance of inflicting Stun on enemy when dealing physical attacks.
 Each refine increase the chance of inflicting Stun.
 ^888888-------------------------^000000
 When refined to +7, ATK +15, ASPD +5%.
@@ -37531,9 +37527,9 @@ A top hat modeled after a magician who became famous for making rabbits appear o
 ^888888-------------------------^000000
 INT +1, MaxSP +50.
 ^888888-------------------------^000000
-Has a chance of casting Level 1 Heal on its wearer when being attacked physically.
+Adds a chance of casting Level 1 Heal on its wearer when attacked by physical attacks.
 ^888888-------------------------^000000
-Has a chance of casting Lighting Bolt, Fire Bolt or Cold Bolt between Level 1 to 3 while physically attacking a target.
+Has a chance of casting Lighting Bolt, Fire Bolt or Cold Bolt between Level 1 to 3 when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
@@ -37609,7 +37605,7 @@ A hat to commemorate the Sinulog Festival, you felt stronger while wearing it.
 ^888888-------------------------^000000
 STR +1
 ^888888-------------------------^000000
-When refined to +7, CRIT +10, HIT +10, add a chance of increasing ATK by 30 when physically attacking.
+When refined to +7, CRIT +10, HIT +10, add a chance of increasing ATK by 30 when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
@@ -37700,7 +37696,7 @@ Baby Dokkaebi's strong firm horn. Some say this brings you wealth.
 ^888888-------------------------^000000
 Add a chance of dropping 'Jewelry' when killing a monster.
 ^888888-------------------------^000000
-When physically attacking add chance to autocast Level 5 Mammonite.(Consume zeny, but will not triggered when not enough zeny.)
+When dealing physical attacks, adds a chance to auto cast Level 5 Mammonite.(Consume zeny, but will not triggered when not enough zeny.)
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
@@ -38087,7 +38083,7 @@ ASPD +3%,
 Resistance to ^cc5500Earth^000000 property +5%.
 ^888888-------------------------^000000
 When refined to 7 or higher,
-Has a low chance of casting Excruciating Palm while physically attacking.
+Has a low chance of casting Excruciating Palm when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
@@ -38270,7 +38266,7 @@ A disgruntled snapping turtle sits above your head. Count your fingers after put
 ^888888-------------------------^000000
 AGI +1
 ^888888-------------------------^000000
-Has a low chance of casting Level 3 Decrease AGI on your enemy while being physically attacked.
+Adds a low chance of auto cast Level 3 Decrease AGI on your enemy when attacked by physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
@@ -38970,7 +38966,7 @@ Increase Resistance to ^7BCC70Wind^000000 property by 7%.
 When refined to 7 or higher,
 MATK +3%.
 When refined to 9 or higher,
-MATK +5% and adds a chance of casting Lv 5 Frost Nova when physically attacked.
+MATK +5% and adds a chance of casting Level 5 Frost Nova when attacked by physical attacks.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
@@ -38980,11 +38976,11 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5663#
 A magnificent diadem created to pay tribute to the 7th sign of the zodiac, Libra the Balance. Attached to the crown is an Opal gemstone, the birthstone for those born under this sign.
-ATK +7
-When refined to 7 or higher,
-has a chance of casting Lv 2 Mild Wind while physically attacking.
-When refined to 9 or higher,
-Flee +5 and physical attack power +3%.
+ATK +7%
+When refined to 7 or higher:
+has a chance of casting Level 2 Mild Wind when dealing physical attacks.
+When refined to 9 or higher:
+Flee +5 and ATK +3%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
@@ -39033,7 +39029,8 @@ Jobs: ^6A5ACDAll classes^000000
 5667#
 This frightening hooded mask is so scary that you don't have to worry about the nasty ghosts bothering you as you Trick or Treat!
 Increases tolerance to Undead and Demon monsters by 10%
-When refined to +7 or higher, has a chance of adding CRIT +30% and HIT +10 for 10 seconds while physically attacking.
+When refined to +7 or higher:
+Adds a chance of adding CRIT +30 and HIT +10 for 10 seconds when dealing physical attacks.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper, Middle^000000
@@ -39264,8 +39261,8 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5689#
 Beautiful and bright crown queen ants.
-When physically attacked there is chance to activate level 1 sight
-Reduces damage from insect monster by 5%
+When attacked by physical attacks there is chance to activate Level 1 Sight.
+Reduces damage taken from Insect monsters by 5%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
@@ -39364,7 +39361,7 @@ DEX +2, Increases resistance to ^FF0000Fire^000000 property by 7%.
 When refined to 7, ASPD +2% (after-attack delay)
 When refined to 8, AGI +2.
 When refined to 9, ranged attack damage +5%
-When refined to 10, when physically attacking, has a low chance of increasing Dex and AGI by 10 for 10 seconds.
+When refined to 10, when dealing physical attacks, adds a low chance of increasing Dex and AGI by 10 for 10 seconds.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUppper ^000000
@@ -39606,8 +39603,8 @@ Jobs: ^6A5ACDMechanic^000000
 #
 5761#
 This cute Sloth must think you look like a tree. At least it warms the top of your head.
-AGI +2.
-Chance to use the skill Sonic Blow Level 5 when you attack physically in short distance.
+AGI +2
+Adds chance to auto cast Level 5 Sonic Blow when dealing melee physical attacks.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
@@ -40050,8 +40047,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5801#
 Pretty red ribbon. You can feel the sweetness of love.
-All stats +2. Reduce 10 % of the damage taken from Demihuman Monsters.
-Adds a chance to use Level 5 Heal automatically when the wearer is physically attacked.
+All stats +2
+Reduces damage taken from Demihuman monsters by 10%.
+Adds a chance to auto cast Level 5 Heal when the wearer is attacked by physical attacks.
 (A chance of auto casting Level 10 Heal if Level 10 Heal is learned.) 
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
@@ -40827,8 +40825,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5891#
 A hat decorated with black cat.
-When attacking physically or magically, has chance to cast Level 5 Scream.
-When equipped with Romantic Leaf or Flower, All Stats +1.
+When dealing physical or magical attacks, adds chance to auto cast Level 5 Scream.
+When equipped with Romantic Leaf or Flower:
+All Stats +1
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF7^000000
 Location: ^6A5ACDUpper^000000
@@ -40916,9 +40915,9 @@ Jobs: ^6A5ACDGeneticist^000000
 An otherwise normal ghost bandana with a red spiral insignia on the front.
 It demonstrates a strong connection between the wearer and the afterlife.
 Increase 2 Critical per refine Level, reduce the fixed casting by 2%.
-When being physically attacked, has a 1% chance to autocast highest level learned Eswoo on the wearer.
+When attacked by physical attacks, adds a 1% chance to auto cast highest level learned Eswoo on the wearer.
 If upgraded to +7 or higher, MATK +20, Increase casting rate of Eswoo.(3%)
-If upgraded to +9 or higher, reduce variable casting by 20%, when Estun, Esma is used, Consumed SP -5.
+If upgraded to +9 or higher, reduces variable cast time by 20%, when Estun, Esma is used, Consumed SP -5.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF15^000000
 Location: ^6A5ACDUpper^000000
@@ -41154,7 +41153,7 @@ Jobs: ^6A5ACDAll classes^000000
 ...
 Increase magical damage against Holy, Shadow, Ghost and Undead monsters by 5%.
 Every 1 refine past +5, increase magical damage against Holy, Shadow, Ghost and Undead monsters by 5%.
-Add chance to autocast Level 1 Holy Light when physically attacked.
+Add chance to autocast Level 1 Holy Light when attacked by physical attacks.
 Every learned level of Imposition Manus, increase Holy Light SP consumption by 15 and damage inflicted.
 Every learned level of Demon Bane, increase trigger chance of Holy Light skill.
 When using First Aid skill, add chance for 10 second transform its wearer into Nasarin.
@@ -41172,8 +41171,8 @@ Increase damage against Nifleheim monsters by 5%.
 When refined to +5, increase damage against Nifleheim monsters by 5%.
 When refined to +7, increase damage against Nifleheim monsters by 10%.
 When refined to +9, increase damage against Nifleheim monsters by 20%.
-When physically or magically attacked, add chance to curse enemies on 11x11 aoe, every refine increase the trigger chance.
-Enable use of Level 1 Return to Nifleheim.
+When attacked by physical or magical attacks, adds chance to curse enemies on 11x11 AoE, every refine increase the trigger chance.
+Enables use of Level 1 Return to Nifleheim.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41239,8 +41238,8 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5941#
 AGI +5, DEX +5
-When attacking, can autocast Adrenaline Rush LV5
-When physically attacked, can autocast Improve Concentration LV5
+When dealing physical attacks, adds chance to autocast Level 5 Adrenaline Rush.
+When attacked by physical attacks, adds chance to autocast Level 5 Improve Concentration.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41250,7 +41249,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5942#
 All Stats +3
-When physically attacked, can autocast Charming Wink LV1
+When attacked by physical attacks, adds chance to autocast Level 1 Charming Wink.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41443,7 +41442,7 @@ Jobs: ^6A5ACDAll classes^000000
 A mask wore by Loki when he was young.
 Increases Sonic Blow damage by 5%.
 Increases Meteor Assault damage by 10%.
-Adds a chance to transform into 'Loki' for 5 sec when attacking physically.
+Adds a chance to transform into 'Loki' for 5 sec when dealing physical attacks.
 Transformation bonus: AGI +10, ATK +10.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
@@ -44884,20 +44883,19 @@ MaxSP +1%.
 Weight: ^0EAA0B10^000000
 #
 6745#
-The stone give SP for battle.
+A stone that recover SP in battle.
 Costumes in the lower slot grants the following abilities.
-When user kill enemy with physically/magically attacking recovery 1 SP.
+When user kill enemy with physical or magical attacks, recover SP by 1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
 6746#
-It seems that can be used to prior to the steel workpiece. Standard inspection general without going through other processes.
+Standard sized gun part. Sadly poorly made and unusable.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 6747#
-Iron artifacts that meet the specifications. Will fit in standard
-Is suitable for the production of various firearms.
+Standard sized gun part. Perfect for use in the production of a pistol class weapon.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
@@ -49958,20 +49956,18 @@ Weight: ^0EAA0B0^000000
 Weight: ^0EAA0B1^000000
 #
 7663#
-Full Metal Jacket. One person FMJ.
-With better coating improves penetration of bullets to increase damage.
-This item is consumed automatically when used 'Mass Spiral' skill.
+Full metal jacket, known as FMJ. Penetration will be maximized to give high damage.
+This item is consumed when using 'Mass Spiral' skill.
 Weight: ^0EAA0B0.2^000000
 #
 7664#
 Grenade launcher that can be used as a projection mine.
-This item is consumed automatically when used 'Howling Mine' skill.
+This item is consumed when using 'Howling Mine' skill.
 Weight: ^0EAA0B0.3^000000
 #
 7665#
-Grenade launcher for missiles with a tail of another name that monster.
-Targeting the enemy to track damage.
-This item is consumed automatically when used 'Dragon Tail' skill.
+Missile for grenade launcher that has the nickname 'Evil Tail'. Trace the target and give damage.
+This item is consumed when using 'Dragon Tail' skill.
 Weight: ^0EAA0B10^000000
 #
 7666#
@@ -51907,15 +51903,15 @@ Class: ^6A5ACDMonster Egg^000000
 9042#
 An egg in which a Loli Ruri Cute Pet rests.
 Can be hatched by using a ^33CC33Pet Incubator^000000.
-If pet intimacy is Cordial, MaxhHP +3%, auto-cast Lv 1 Heal when being attacked physically.
-If pet intimacy is Loyal, MaxhHP +5%, auto-cast Lv 2 Heal when being attacked physically.
+If pet intimacy is Cordial, MaxhHP +3%, auto-cast Lv 1 Heal when attacked by physical attacks.
+If pet intimacy is Loyal, MaxhHP +5%, auto-cast Lv 2 Heal when attacked by physical attacks.
 Class: ^6A5ACDMonster Egg^000000
 #
 9043#
 An egg in which a Marionette Cute Pet rests.
 Can be hatched by using a ^33CC33Pet Incubator^000000.
-If pet intimacy is Cordial, when physically attacked has chance for 3 second to increase neutral resistance by 20% and recover 100 HP.
-If pet intimacy is Loyal, when physically attacked has chance for 5 second to increase neutral resistance by 20% and recover 100 HP.
+If pet intimacy is Cordial, when attacked by physical attacks, adds a chance for 3 second to increase neutral resistance by 20% and recover 100 HP.
+If pet intimacy is Loyal, when attacked by physical attacks, adds a chance for 5 second to increase neutral resistance by 20% and recover 100 HP.
 Class: ^6A5ACDMonster Egg^000000
 #
 9044#
@@ -52825,26 +52821,38 @@ Weight: ^0EAA0B4^000000
 #
 11551#
 Healthy herb mix with strange power giving.
-STR +1 for 3 minutes.
-Recover ^00008825 HP^000000.
+^FFFFFF_^000000
+Class: ^0000FFCooked Food^000000
+Effect: ^008000STR +1^000000
+Heal: ^00800025 HP^000000
+Duration: ^0080003^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 11552#
 A harmony of apple and carrot! As fresh as a salad can get.
-AGI +1 for 3 minutes.
-Recover ^00008825 HP^000000.
+^FFFFFF_^000000
+Class: ^0000FFCooked Food^000000
+Effect: ^008000AGI +1^000000
+Heal: ^00800025 HP^000000
+Duration: ^0080003^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 11553#
 A stew made with whatever you want to put in.
-VIT +1 for 3 minutes.
-Recover ^00008825 HP^000000.
+^FFFFFF_^000000
+Class: ^0000FFCooked Food^000000
+Effect: ^008000VIT +1^000000
+Heal: ^00800025 HP^000000
+Duration: ^0080003^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 11554#
 Fully roasted apple toast. Glossy color makes you wanna take a bite of it.
-DEX +1 for 3 minutes.
-Recover ^00008825 HP^000000.
+^FFFFFF_^000000
+Class: ^0000FFCooked Food^000000
+Effect: ^008000DEX +1^000000
+Heal: ^00800025 HP^000000
+Duration: ^0080003^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 11555#
@@ -54268,58 +54276,50 @@ A drink that can quench any thirst. Let's drink it cold!
 Weight: ^0EAA0B30^000000
 #
 12144#
-A bullet cartridge
+An ammo case
 that contains 500
 Lightning Spheres.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 12145#
-A bullet cartridge
+An ammo case
 that contains 500
 Blind Spheres.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 12146#
-A bullet cartridge
+An ammo case
 that contains 500
 Poison Spheres.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 12147#
-A bullet cartridge
+An ammo case
 that contains 500
 Freezing Spheres.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 12148#
-A bullet cartridge
-that contains 500
-Flare Spheres.
+An ammo case that contains 500 Flare Spheres.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 12149#
-A bullet cartridge
-that contains 500
-regular Bullets.
+An ammo case that contains 500 regular Bullets.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 12150#
-A bullet cartridge
-that contains 500
-Bloody Bullets.
+An ammo case that contains 500 Bloody Bullets.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 12151#
-A bullet cartridge
-that contains 500
-Silver Bullets.
+An ammo case that contains 500 Silver Bullets.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
@@ -59708,7 +59708,7 @@ Jobs: ^6A5ACDNovice, Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ni
 13042#
 Increases physical damage inflicted on Demihuman monsters by 75%.
 Ignore 20% physical defense of Demihuman monster.
-When physically attacking, has a chance of autocasting [Lex Divina] Lv 1.
+When dealing physical attacks, adds a chance of autocasting [Lex Divina] Lv 1.
 ***Additional Weapon Refining Level Option***
 +6 Upgrade: Ignore 5% physical defense of Demihuman monster, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
 +9 Upgrade: When using [Raid], has a chance of inflicting [Bleed] in a 5x5 area
@@ -59955,7 +59955,7 @@ Jobs: ^6A5ACDSwordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^0000
 13069#
 Blue dagger that has opposite magic power in.
 MATK +80
-Has a chance of activating freeze status while physically attacking and increases the chance with each refine level
+Adds a chance of inflicting Frozen status when dealing physical attacks and increases the chance with each refine level
 Class: ^6A5ACDDagger^000000
 Attack: ^D80000160^000000
 Weight: ^0EAA0B50^000000
@@ -59967,7 +59967,7 @@ Jobs: ^6A5ACDTranscendent Novice, Swordman, Merchant and Thief^000000
 13070#
 Red dagger that has opposite magic power in.
 MATK +80
-Has a chance of activating curse status while physically attacking and increases the chance with each refine level.
+Adds a chance of inflicting curse status when dealing physical attacks and increases the chance with each refine level.
 Class: ^6A5ACDDagger^000000
 Attack: ^D80000160^000000
 Weight: ^0EAA0B50^000000
@@ -60487,7 +60487,7 @@ Required Level: ^0EAA0B40^000000
 Jobs: ^777777Gunslinger^000000
 #
 13118#
-Workmanship is immature. Only just that.
+Made with amateur workmanship. No other word to describe.
 Class: ^6A5ACDRevolver^000000
 Attack: ^D800000^000000
 Weight: ^0EAA0B10^000000
@@ -60496,7 +60496,7 @@ Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13119#
-Unskilled workmanship, but with all the energy used to mount fusing the best materials, has a strange atmosphere because of the artisanal touch with the gun.
+Mysterious pistol made by an amateur with the aid of some magic touch from a master of gunnery.
 Class: ^6A5ACDRevolver^000000
 Attack: ^D80000100^000000
 Weight: ^0EAA0B10^000000
@@ -60505,9 +60505,9 @@ Required Level: ^0EAA0B99^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13120#
-A Set of twin revolvers, each with it's own defining qualities. The compact desing of one revolver complements the slim revolver.
-Increases desperado and fallen angel skill damage by 20%.
-Inflicts buring status at a small chance when physically attacking.
+A pair of guns that have a white body and a red barrel.
+Increases Desperado and Fallen Angel skill damage by 20%.
+Inflicts burning status at a small chance when dealing physical attacks.
 Class: ^6A5ACDRevolver^000000
 Attack: ^D80000150^000000
 Weight: ^0EAA0B80^000000
@@ -60516,9 +60516,10 @@ Required Level: ^0EAA0B99^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13122#
-Given the specifics of such a high level, the performance of the gun goes beyond.
-HIT +5/ Delay after attack +10%.
-Increase ranged damage by 30%.
+A high-end gun whose design is focused on performance.
+HIT +5
+ASPD -10%
+Increases damage dealt with long-ranged attacks by 30%.
 Class: ^6A5ACDRevolver^000000
 Attack: ^D80000200^000000
 Weight: ^0EAA0B100^000000
@@ -60527,9 +60528,10 @@ Required Level: ^0EAA0B140^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13124#
-Given the specifics of such a high level, the performance of the gun goes beyond.
-HIT +5/ Delay after attack +10%.
-Increase ranged damage by 30%.
+A high-end gun whose design is focused on performance.
+HIT +5
+ASPD -10%
+Increases damage dealt with long-ranged attacks by 30%.
 Class: ^6A5ACDRevolver^000000
 Attack: ^D80000200^000000
 Weight: ^0EAA0B100^000000
@@ -61033,8 +61035,9 @@ Required Level: ^0EAA0B40^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13189#
-Medium assault rifle. High attack power and accuracy.
-HIT +20, CRIT +30.
+A medium size assault rifle with firing power and accuracy.
+HIT +20
+CRIT +30
 Class: ^6A5ACDRifle^000000
 Attack: ^D80000240^000000
 Weight: ^0EAA0B120^000000
@@ -61043,9 +61046,10 @@ Required Level: ^0EAA0B105^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13190#
-Rifle modified. Give special treatment to each bullet, so that increases the damage to the target and increase the delay time for a new shot.
-HIT +10, CRIT +15
-Add a low chance of auto casting ^008800Level 1 Decrease Agility^000000 myself when attack.
+This modified rifle shoots specially-treated bullets that causes the Delay effect with damage.
+HIT +10
+CRIT +15
+Adds a low chance of auto casting ^008800Level 1 Decrease Agility^000000 on target when dealing physical attacks.
 Class: ^6A5ACDRifle^000000
 Attack: ^D80000260^000000
 Weight: ^0EAA0B130^000000
@@ -61054,8 +61058,10 @@ Required Level: ^0EAA0B140^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13192#
-Maximize the damage in each of the shots. But his accuracy is pretty desperate.
-Range 5, HIT -50, Delay After Attack -10%.
+A shotgun whose devastating firepower is dwarfed by its miserable Accuracy.
+Attack range +5
+HIT -50
+ASPD +10%
 Class: ^6A5ACDShotgun^000000
 Attack: ^D80000400^000000
 Weight: ^0EAA0B200^000000
@@ -61064,9 +61070,10 @@ Required Level: ^0EAA0B108^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13193#
-Little sister of shotgun [Rolling Stone] which operates distance. It has a special device that allows you to add a surprise attack.
-Add a low chance of auto casting ^008800Level 5 Thunder Storm^000000 on the enemy when attacking.
-HIT -10, Delay After Attack -10%.
+A brother to the Shotgun Rolling Stone, this gun is equipped with a special device for additional Lightning damage.
+HIT -10
+ASPD +10%
+AddS a low chance of auto casting ^008800Level 5 Thunder Storm^000000 on the enemy when dealing physical attacks.
 Class: ^6A5ACDShotgun^000000
 Attack: ^D80000280^000000
 Weight: ^0EAA0B180^000000
@@ -61075,8 +61082,9 @@ Required Level: ^0EAA0B120^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13194#
-Revolver-type semi-auto shotgun. Compared with the normal shotgun increases safety and scattered less shots.
-HIT -25/ Speed Attack +25%.
+This semi-auto shotgun provides an enhanced rate of fire at the cost of bullet damage.
+HIT -25
+ASPD +25%
 Class: ^6A5ACDShotgun^000000
 Attack: ^D80000250^000000
 Weight: ^0EAA0B140^000000
@@ -61085,9 +61093,10 @@ Required Level: ^0EAA0B140^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13195#
-Rifle modified. Give special treatment to each bullet, so that increases the damage to the target and increase the delay time for a new shot.
-HIT +10, CRIT +15
-Add a low chance of auto casting ^008800Level 1 Decrease Agility^000000 myself when attack.
+This modified rifle shoots specially treated bullets that causes the Delay effect with damage.
+HIT +10
+CRIT +15
+Adds a low chance of auto casting ^008800Level 1 Decrease Agility^000000 on target when dealing physical attacks..
 Class: ^6A5ACDRifle^000000
 Attack: ^D80000260^000000
 Weight: ^0EAA0B130^000000
@@ -61096,9 +61105,9 @@ Required Level: ^0EAA0B140^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13196#
-Revolver-type semi-auto shotgun. Compared with the normal shotgun increases safety and scattered less shots.
-
-HIT -25/ Speed Attack +25%.
+This semi-auto shotgun provides an enhanced rate of fire at the cost of bullet damage.
+HIT -25
+ASPD +25%
 Class: ^6A5ACDShotgun^000000
 Attack: ^D80000250^000000
 Weight: ^0EAA0B140^000000
@@ -61116,8 +61125,10 @@ Required Level: ^0EAA0B106^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13198#
-Like a storm throws bullets with high power, is a great gatling gun.
-HIT -25, CRIT +10, Increase ranged damage by 20%.
+his powerful Gatling gun has ability to shoot a volley of bullets in a fraction of a second.
+HIT -25
+CRIT +10
+Increases damage dealt with long-ranged attacks by 30%.
 Class: ^6A5ACDGatling Gun^000000
 Attack: ^D80000250^000000
 Weight: ^0EAA0B250^000000
@@ -61126,8 +61137,10 @@ Required Level: ^0EAA0B140^000000
 Jobs: ^6A5ACDRebellion^000000
 #
 13199#
-Like a storm throws bullets with high power, is a great gatling gun.
-HIT -25, CRIT +10, Increase ranged damage by 20%.
+This powerful Gatling gun has ability to shoot a volley of bullets in a fraction of a second.
+HIT -25
+CRIT +10
+Increases damage dealt with long-ranged attacks by 30%.
 Class: ^6A5ACDGatling Gun^000000
 Attack: ^D80000250^000000
 Weight: ^0EAA0B250^000000
@@ -61138,14 +61151,14 @@ Jobs: ^6A5ACDRebellion^000000
 13200#
 A small metal bullet
 that can be fired from a gun to damage enemies.
-Class: ^6A5ACDBullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000010^000000
 Weight: ^0EAA0B0.2^000000
 Property: ^777777Neutral^000000
 #
 13201#
 A small silver bullet imbued with holy power.
-Class: ^6A5ACDBullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000015^000000
 Weight: ^0EAA0B0.2^000000
 Property: ^777777Holy^000000
@@ -61155,7 +61168,7 @@ A bloody red bullet
 that may cause the
 Bleeding effect on an
 enemy by a low chance.
-Class: ^6A5ACDBullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000030^000000
 Weight: ^0EAA0B0.2^000000
 Property: ^777777Neutral^000000
@@ -61164,7 +61177,7 @@ Property: ^777777Neutral^000000
 A grenade launcher
 bullet imbued with
 the ^FF0000Fire^000000 property.
-Class: ^6A5ACDBullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000050^000000
 Weight: ^0EAA0B0.5^000000
 Property: ^777777Fire^000000
@@ -61173,7 +61186,7 @@ Property: ^777777Fire^000000
 A grenade launcher
 bullet imbued with
 the ^7BCC70Wind^000000 property.
-Class: ^6A5ACDBullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000050^000000
 Weight: ^0EAA0B0.5^000000
 Property: ^4cbb17Wind^000000
@@ -61184,7 +61197,7 @@ bullet that contains
 deadly poison; has a
 low chance of inflicting the Poison status
 on enemies.
-Class: ^6A5ACDBullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000050^000000
 Weight: ^0EAA0B0.5^000000
 Property: ^777777Poison^000000
@@ -61196,7 +61209,7 @@ the Shadow property;
 has a low chance of
 inflicting the Blind
 status on enemies.
-Class: ^6A5ACDBullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000050^000000
 Weight: ^0EAA0B0.5^000000
 Property: ^777777Shadow^000000
@@ -61205,7 +61218,7 @@ Property: ^777777Shadow^000000
 A grenade launcher
 bullet imbued with
 the ^0000BBWater^000000 property.
-Class: ^6A5ACDBullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000050^000000
 Weight: ^0EAA0B0.5^000000
 Property: ^0000BBWater^000000
@@ -61213,125 +61226,149 @@ Property: ^0000BBWater^000000
 13208#
 A crustacean and an arthropod type that's rock hard.
 when attacking, stuns enemies at a regular rate
-Class: ^6A5ACDbullet^000000
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000050^000000
 Weight: ^0EAA0B0.5^000000
 Property: ^777777Neutral^000000
 #
 13210#
-Bullet designed to use the skill 'Slug Shot'.
-They are general purpose, it is difficult to expect him to do great damage.
-It is a very light bullet, which improves your damage when using the skill 'Slug Shot' but its damage is low.
-Class: ^6A5ACDBullet^000000
+A bullet that is made for the Slug Shot skill. It can be used as normal shot but does not give high damage.
+It's considerably light as a slug bullet but gives low damage.
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000030^000000
 Weight: ^0EAA0B25^000000
 Property: ^777777Neutral^000000
 #
 13211#
-Bullet designed to use the skill 'Slug Shot'.
-They are general purpose, it is difficult to expect him to do great damage.
-Class: ^6A5ACDBullet^000000
+A bullet that is made for the Slug Shot skill. It can be used as normal shot but does not give high damage.
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000030^000000
 Weight: ^0EAA0B50^000000
 Property: ^777777Neutral^000000
 #
 13212#
-Bullet designed to use the skill 'Slug Shot'.
-They are general purpose, it is difficult to expect him to do great damage.
-Shots with a bullet so heavy, you can only expect to do a lot of damage when you use the skill 'Slug Shot'.
-Class: ^6A5ACDBullet^000000
+A bullet that is made for the Slug Shot skill. It can be used as a normal shot but does not give high damage.
+Since this is for Slug Shot, it's heavy but you can expect high damage.
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000030^000000
 Weight: ^0EAA0B75^000000
 Property: ^777777Neutral^000000
 #
 13213#
-Bullet designed to use the skill 'Slug Shot'.
-They are general purpose, it is difficult to expect him to do great damage.
-When you use the skill 'Slug Shot' is great, but it's hard to take something so so heavy and expensive.
-Class: ^6A5ACDBullet^000000
+A bullet that is made for the Slug Shot skill. It can be used as normal shot but does not give high damage.
+It's easy to use for Slug Shot but heavy to carry and expensive.
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000030^000000
 Weight: ^0EAA0B100^000000
 Property: ^777777Neutral^000000
 #
 13214#
-Bullet designed to use the skill 'Slug Shot'.
-They are general purpose, it is difficult to expect him to do great damage.
-I wonder what kind of material, is so expensive and heavy.
-Class: ^6A5ACDBullet^000000
+A bullet that is made for the Slug Shot skill. It can be used as normal shot but does not give high damage.
+You might wonder what it is made of, because it's too expensive and heavy.
+Class: ^6A5ACDAmmunition^000000
 Attack: ^D8000030^000000
 Weight: ^0EAA0B120^000000
 Property: ^777777Neutral^000000
 #
 13215#
-Armor piercing ammunition created on request.
-Class: ^6A5ACDBullet^000000 Attack : ^77777750^000000
-Weight: ^0EAA0B0.2^000000 Property : ^777777Neutral^000000
-Required Level : ^777777100^000000
+This shell can penetrate even the thickest armor.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000050^000000
+Weight: ^0EAA0B0.2^000000
+Property: ^777777Neutral^000000
+Required Level: ^0EAA0B100^000000
 #
 13216#
-Ammunition custom that containing an aura of fire.
-Class: ^6A5ACDBullet^000000 Attack : ^77777740^000000
-Weight: ^0EAA0B0.2^000000 Property : ^FF0000Fire^000000
-Required Level : ^777777100^000000
+A bullet that is endowed with the power of Fire.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000040^000000
+Weight: ^0EAA0B0.2^000000
+Property: ^FF0000Fire^000000
+Required Level: ^0EAA0B100^000000
 #
 13217#
-Ammunition custom that containing an aura of ice.
-Class: ^6A5ACDBullet^000000 Attack : ^77777740^000000
-Weight: ^0EAA0B0.2^000000 Property : ^0000FFWater^000000
-Required Level : ^777777100^000000
+A bullet that is endowed with the power of Ice.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000040^000000
+Weight: ^0EAA0B0.2^000000
+Property: ^0000FFWater^000000
+Required Level: ^0EAA0B100^000000
 #
 13218#
-Ammunition custom that containing an aura of lightning.
-Class: ^6A5ACDBullet^000000 Attack : ^77777740^000000
-Weight: ^0EAA0B0.2^000000 Property : ^009900Wind^000000
-Required Level : ^777777100^000000
+A bullet that is endowed with the power of Lightning.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000040^000000
+Weight: ^0EAA0B0.2^000000
+Property: ^009900Wind^000000
+Required Level: ^0EAA0B100^000000
 #
 13219#
-Ammunition custom that containing an aura of earth.
-Class: ^6A5ACDBullet^000000 Attack : ^77777740^000000
-Weight: ^0EAA0B0.2^000000 Property : ^996600Earth^000000
-Required Level : ^777777100^000000
+A bullet that is endowed with the power of Earth.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000040^000000
+Weight: ^0EAA0B0.2^000000
+Property: ^996600Earth^000000
+Required Level: ^0EAA0B100^000000
 #
 13220#
-Silver ammunition custom, ownership of purifying as holy water
-Class: ^6A5ACDBullet^000000 Attack : ^77777740^000000
-Weight: ^0EAA0B0.2^000000 Property : ^777777Holy^000000
-Required Level : ^777777100^000000
+A silver bullet that is dipped in holy water.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000040^000000
+Weight: ^0EAA0B0.2^000000
+Property: ^777777Holy^000000
+Required Level: ^0EAA0B100^000000
 #
 13221#
-Silver Bullets with divine attributes.
-Class: ^6A5ACDBullet^000000 Attack : ^77777715^000000
-Weight: ^0EAA0B0.2^000000 Property : ^777777Holy^000000
+Silver bullet that contain a holy spirit.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000015^000000
+Weight: ^0EAA0B0.2^000000
+Property: ^777777Holy^000000
 #
 13222#
-The projectile dyed blood red light.
-Class: ^6A5ACDBullet^000000 Attack : ^77777730^000000
-Weight: ^0EAA0B0.2^000000 Property : ^777777Neutral^000000
+A bloody red bullet that may cause the Bleed effect on an enemy by a low chance.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000030^000000
+Weight: ^0EAA0B0.2^000000
+Property: ^777777Neutral^000000
 #
 13223#
 A exclusive grenade launcher bullet imbued with the ^FF0000Fire^000000 property.
-Class: ^6A5ACDBullet^000000 Attack : ^77777750^000000
-Weight: ^0EAA0B0.5^000000 Property : ^FF0000Fire^000000
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000050^000000
+Weight: ^0EAA0B0.5^000000
+Property: ^FF0000Fire^000000
 #
 13224#
 A exclusive grenade launcher bullet imbued with the ^009900Wind^000000 property.
-Class: ^6A5ACDBullet^000000 Attack : ^77777750^000000
-Weight: ^0EAA0B0.5^000000 Property : ^009900Wind^000000
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000050^000000
+Weight: ^0EAA0B0.5^000000
+Property: ^009900Wind^000000
 #
 13225#
 A exclusive grenade launcher bullet imbued with the ^777777Poison^000000 property.
-Class: ^6A5ACDBullet^000000 Attack : ^77777750^000000
-Weight: ^0EAA0B0.5^000000 Property : ^777777Poison^000000
+Adds a chance to inflict Poison status.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000050^000000
+Weight: ^0EAA0B0.5^000000
+Property: ^777777Poison^000000
 #
 13226#
 A exclusive grenade launcher bullet imbued with the ^777777Shadow^000000 property.
-Class: ^6A5ACDBullet^000000 Attack : ^77777750^000000
-Weight: ^0EAA0B0.5^000000 Property : ^777777Shadow^000000
+Adds a chance to inflict Blind status.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000050^000000
+Weight: ^0EAA0B0.5^000000
+Property: ^777777Shadow^000000
 #
 13227#
-A exclusive grenade launcher bullet imbued with the^0000FF Freezing^000000 property.
-Class: ^6A5ACDBullet^000000 Attack : ^77777750^000000
-Weight: ^0EAA0B0.5^000000 Property : ^0000FFWater^000000
+A exclusive grenade launcher bullet imbued with the ^0000FFWater^000000 property.
+Adds a chance to inflict Freezing status.
+Class: ^6A5ACDAmmunition^000000
+Attack: ^D8000050^000000
+Weight: ^0EAA0B0.5^000000
+Property: ^0000FFWater^000000
 #
 13250#
 A cross shaped dagger
@@ -62424,8 +62461,8 @@ Jobs: ^6A5ACDNovice, Swordman, Merchant and Thief^000000
 A magical enchanted sword, coveted by the famous witch-warrior Lila Contrary.
 With the power of lunar light, it could be wielded by Sailor Musa.
 MATK +110
-Has a chance to cast a random magic attack while attacking physically.
-Increases the chances every 2 refine.
+Adds a chance to auto cast a random magic spells when dealing physical attacks.
+Increases the chances for every 2 refine level.
 Class: ^6A5ACDOne-Handed Sword^000000
 Attack: ^D80000165^000000
 Weight: ^0EAA0B200^000000
@@ -62496,7 +62533,7 @@ Jobs: ^6A5ACDSwordman, Thief and Merchant^000000
 13449#
 An infernal sword from hell. Only true demons are able control it's full power. People say that a Prince from Hell used this weapon for his army.
 Increase attack speed.(Decrease the aftercast delay 10%).
-With 9 refine level, when attacking physically ASPD +3 for 5 sec by a certain chance.
+When refine level is +9 or higher, when dealing physical attacks, adds chance of adding ASPD by 3 for 5 sec.
 Class: ^6A5ACDOne-Handed Sword^000000
 Attack: ^D80000130^000000
 Weight: ^0EAA0B120^000000
@@ -66709,7 +66746,8 @@ Weight: ^0EAA0B1^000000
 #
 13962#
 Contains 1 Defolty Doll Hat, which is non-tradeable.
-Decreases 5% damage from Demihuman. Autocasts Level 10 Angelus when physically attacked by melee.
+Decreases damage taken from Demihuman monsters by 5%.
+Adds a chance to auto cast Level 10 Angelus when attacked by melee physical attacks.
 Can't be upgraded, DEF 0.
 Level 60 requirement. Jobs: All
 This Box can be traded.
@@ -66730,7 +66768,7 @@ A box which contains 1 Sorin Doll Hat.
 ^FFFFFF_^000000
 So hot! A headgear with the figure of Kafra Sorin! Her cute appearance made the price of this hat rise at the auction place.
 Reduces damage from Demihuman monsters by 5%.
-When physically attacking there is a chance that for 10 seconds you'll receive ATK +50.
+When dealing physical attacks there is a chance that for 10 seconds you'll receive ATK +50.
 Unrefineable. Slot [1]
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
@@ -66754,7 +66792,7 @@ A box which contains 1 Vinit Doll Hat.
 ^FFFFFF_^000000
 So hot! A headgear with the figure of Kafra Bennit! She has a boyish look, but her hobby is knitting and reading romance novels. She is fully supported by male users who like the short-cut style.
 Reduces damage from Demihuman monsters by 5%.
-When physically attacking there is a chance that for 30 seconds you'll gain ASPD +5%.
+When dealing physical attacks there is a chance that for 30 seconds you'll gain ASPD +5%.
 Unrefineable. Slot [1]
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
@@ -72197,9 +72235,10 @@ Weight: ^0EAA0B1^000000
 #
 15000#
 Dark Plated Armor covered with sharp bones.
-When being physically attacked has a 1% chance of autocasting 'Bleeding' around 5x5 cells of the player.
-Ignore 10% of the DEF from Demihuman and Brute monsters.
-STR +1, MDEF +3
+STR +1
+MDEF +3
+Ignore 10% DEF of Demihuman and Brute monsters when attacking.
+When attacked by physical attacks, adds a 1% chance of autocasting 'Bleeding' on 5x5 cells around the player.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF60^000000
 Weight: ^0EAA0B100^000000
@@ -72569,7 +72608,7 @@ ATK +20, FLEE +17.
 ^008800Peuz's Seal^000000
 Increases damage to all sizes monsters by 10%.
 Increases damage of Wind Cutter and Sonic Wave by 100%.
-Has a chance of activating Storm Blast and Concentration and adding 2 ASPD while physically attacking.
+Has a chance of activating Storm Blast and Concentration and adding 2 ASPD when dealing physical attacks.
 Increases SP costs of skills by 10.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF110^000000
@@ -72579,7 +72618,8 @@ Jobs: ^6A5ACDRune Knight^000000
 #
 15038#
 Armor that contains the reliquery remains of an ancient Assassin.
-LUK +3, Has a chance of auto-casting Level 1 Meteor Assault while physically attacking.
+LUK +3
+Adds a chance of auto-casting Level 1 Meteor Assault when dealing physical attacks.
 If higher level of this skill is learned then it will be cast.
 [^6A5ACDSapha Set^000000]
 ^008800Sapha's Cloth^000000
@@ -72608,7 +72648,7 @@ ATK +10%, MATK +10%.
 If base STR is 120 or higher
 ATK +30
 CRIT -20
-Has a chance of auto-casting Level 1 Soul Destroyer while physically attacking.
+Adds a chance of auto-casting Level 1 Soul Destroyer when dealing physical attacks.
 If higher level of this skill is learned then it will be cast.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF45^000000
@@ -73046,7 +73086,7 @@ MaxHP, MaxSP +5%.
 ATK +10, MATK +10, HIT +10, FLEE +10.
 Banishing Point damage is increased by 10%.
 Storm Blast damage is increased by 10%.
-Low chance to cast Level 10 Heal and Level 10 Stormgust when physically attacking.
+Adds a low chance to cast Level 10 Heal and Level 10 Stormgust when dealing physical attacks.
 The chance is increased with a higher upgrade level.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF120^000000
@@ -73071,8 +73111,8 @@ MaxHP, MaxSP +5%.
 ATK +10, MATK +10, HIT +10, FLEE +10.
 Dragon Combo, Sky Blow and Earth Shaker damage is increased by 10%.
 Judex and Adoramus damage is increased by 10%.
-Small chance to cast Lex Aeterna Level 1 when physically attacking.
-Small chance to cast Lex Kyrie Eleison Level 10 when magically attacking.
+Adds a low chance to cast Level 1 Lex Aeterna when dealing physical attacks.
+Adds a low chance to cast Level 10 Kyrie Eleison when dealing magical attacks.
 The chance is increased with a higher upgrade level.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF77^000000
@@ -73666,7 +73706,7 @@ Jobs: ^6A5ACDSwordman, Acolyte and Merchant^000000
 #
 16017#
 A bloodly red cross mace with dark power. The red color looks creepy as if has absorbed blood.
-While physically attacking at a short distance, activates Level 1 Hell Inferno at a certain rate.
+When dealing melee physical attacks, adds a chance to auto cast Level 1 Hell Inferno.
 Increases the casting rate of the skill by the refine Level.
 Class: ^6A5ACDMace^000000
 Attack: ^D80000170^000000
@@ -73730,10 +73770,10 @@ Jobs: ^6A5ACDNovice, Swordman, Acolyte and Merchant^000000
 16022#
 A large silver mace, made for exorcisms.
 Additional 10% damage to Demon and Shadow monsters.
-Has a chance of autocasting Level 1 ^FF0000Signum Crusis^000000 when physically attacked.
+Has a chance of autocasting Level 1 ^FF0000Signum Crusis^000000 when attacked by physical attacks.
 The level of ^FF0000Signum Crusis^000000 increases by upgrade level.
 (Activate Level 10 if refine is met Level 11 or higher)
-Has a chance of adding ATK +50 during 20 seconds when physically attacked.
+Adds a chance of adding ATK by 50 for 20 seconds when attacked by physical attacks.
 Class: ^6A5ACDMace^000000
 Attack: ^D80000120^000000
 Weight: ^0EAA0B90^000000
@@ -73800,7 +73840,7 @@ Jobs: ^6A5ACDNovice, Swordman, Acolyte and Merchant^000000
 This hammer, made to counteract the Devil Sword Thanatos, is sculpted out of Gray Shard.
 It offers incredible power and mana at a great cost.
 INT +6, VIT +6, LUK -6.
-Creates a low chance of regaining HP and SP from 5% of your damage dealt while you are Physically attacking.
+Creates a low chance of regaining HP and SP from 5% of your damage dealt when dealing physical attacks.
 Drains 100 HP every 10 seconds.
 Drains 1,000 HP when unequipped.
 MATK +120.
@@ -75781,7 +75821,7 @@ Jobs: ^6A5ACDAll classes^000000
 ^0000ffGrand Peco Headdress^000000
 An elaborate multi-colored headdress made from the feathers of a Grand Peco.
 Increases attack against Demihuman and Brute monsters 7%
-Has a low chance of adding the curse status to your target while physically melee attacking.
+Adds a low chance of cursing target when dealing melee physical attacks.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper, Middle^000000
@@ -75993,7 +76033,7 @@ Once opened, the Turtle Hat is account bound.
 Description:
 A disgruntled snapping turtle sits above your head. Count your fingers after putting this on.
 AGI +1.
-Has a low chance of casting Level 3 Decrease AGI on your enemy while being physically attacked.
+Has a low chance of casting Level 3 Decrease AGI on your enemy when attacked by physical attacks.
 Account Bound.
 ^FF0000Event Stats from 7/8 - 8/5:
 Def +3,
@@ -76016,7 +76056,7 @@ Once opened, the Turtle Hat is account bound.
 Description:
 A disgruntled snapping turtle sits above your head. Count your fingers after putting this on.
 AGI +1.
-Has a low chance of casting Level 3 Decrease AGI on your enemy while being physically attacked.
+Has a low chance of casting Level 3 Decrease AGI on your enemy when attacked by physical attacks.
 Account Bound.
 ^FF0000Event Stats from 7/8 - 8/5:
 Def +3,
@@ -76282,7 +76322,7 @@ Increase Resistance to ^7BCC70Wind^000000 property by 7%.
 When refined to 7 or higher,
 MATK +3%.
 When refined to 9 or higher,
-MATK +5% and adds a chance of casting Lv 5 Frost Nova when physically attacked.
+MATK +5% and adds a chance of casting Lv 5 Frost Nova when attacked by physical attacks.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
@@ -76300,7 +76340,7 @@ Increase Resistance to ^7BCC70Wind^000000 property by 7%.
 When refined to 7 or higher,
 MATK +3%.
 When refined to 9 or higher,
-MATK +5% and adds a chance of casting Lv 5 Frost Nova when physically attacked.
+MATK +5% and adds a chance of casting Lv 5 Frost Nova when attacked by physical attacks.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
@@ -76315,7 +76355,7 @@ A box that contains 1 Libra Diadem.
 ^ff0000Cancellation of purchase or refund for this item is not available.^000000
 ATK +7
 When refined to 7 or higher,
-has a chance of casting Lv 2 Mild Wind while physically attacking.
+has a chance of casting Lv 2 Mild Wind while dealing physical attacks.
 When refined to 9 or higher,
 Flee +5 and physical attack power +3%.
 Class: ^6A5ACDHeadgear^000000
@@ -76332,7 +76372,7 @@ A box that contains 1 Libra Diadem.
 ^ff0000Cancellation of purchase or refund for this item is not available.^000000
 ATK +7
 When refined to 7 or higher,
-has a chance of casting Lv 2 Mild Wind while physically attacking.
+has a chance of casting Lv 2 Mild Wind while dealing physical attacks.
 When refined to 9 or higher,
 Flee +5 and physical attack power +3%.
 Class: ^6A5ACDHeadgear^000000
@@ -81813,7 +81853,7 @@ Parade Hat Description:
 A hat by those leading the way to celebrations.
 MDEF +2,
 Increases tolerance to Stun by 10%.
-When being physically attacked, has a chance of auto-casting Lv 5 Angelus or Lv 1 Assumptio on onself.
+When attacked by physical attacks, has a chance of auto-casting Lv 5 Angelus or Lv 1 Assumptio on onself.
 If the user is an Acolyte, Priest , High Priest or Arch Bishop class, will auto-cast Lv 1 Lex Aeterna when using Heal Skill on an enemy.
 Class: ^6A5ACDHeadgear^000000
 Location: ^6A5ACDUpper^000000
@@ -84773,7 +84813,7 @@ Jobs: ^6A5ACDAll classes^000000
 18565#
 This is an exact replica of the hat worn by O'Riley the Leprechaun.
 STR +1, INT +1, MDEF +4.
-When refined to +8 or higher, adds a chance of automatically using 1 Green Ale while physically attacking and a low chance of dropping Green Ale with each monster killed.
+When refined to +8 or higher, adds a chance of automatically using 1 Green Ale when dealing physical attacks and a low chance of dropping Green Ale with each monster killed.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF8^000000
 Location: ^6A5ACDUpper^000000
@@ -85366,7 +85406,7 @@ Jobs: ^6A5ACDAll except Novice^000000
 #
 18619#
 A bandana that can be worn to disguise yourself one of the common folk.
-Has a chance of auto-casting Gank while physically attacking.
+Adds a chance of auto casting Snatcher when dealing physical attacks.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
@@ -85888,7 +85928,7 @@ Jobs: ^6A5ACDAll Class^000000
 #
 18671#
 A Christmas hairband. Sporting the face Christmas' most famous reindeer Rudolf.
-During the Christmas season, has a chance of casting Increase AGI while physically attacking.
+During the Christmas season, has a chance of casting Increase AGI when dealing physical attacks.
 Increases the healing potency of Carrots while worn.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
@@ -86563,7 +86603,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18738#
 A hat given to standout student.
-When physically attacking has chance to autocast Level 1 Weapon Perfection.
+When dealing physical attacks, adds a chance to auto cast Level 1 Weapon Perfection.
 Refined to +5, every refine increase trigger chance of Level 1 Weapon Perfection.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
@@ -87359,7 +87399,7 @@ Jobs: ^6A5ACD2nd Job^000000
 #
 18811#
 A white snake imitation hat.
-Add chance to poisoning enemy when physically attacking.
+Adds chance to poisoning enemy when dealing physical attacks.
 Refined to +6, increase the chance of poisoning.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
@@ -87482,7 +87522,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18822#
 Wing-like ears made of burning flames.
-When attacking physically, Magnum Break Lv1 can be activated automatically with a certain chance.
+When dealing physical attacks, Magnum Break Lv1 can be activated automatically with a certain chance.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDMiddle^000000
@@ -87503,8 +87543,8 @@ Required Level: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 18824#
-Recovery a certain amount of HP and SP with a certain chance when attacking physically or magically.
-When wearing with Bankruptcy Of Heart, increase MaxHP +100, 1% resistance to Neutral property attacks per 1 refine level for Bankruptcy Of Heart.
+Recover a certain amount of HP and SP with a certain chance when dealing physical or magical attacks.
+When equipped with Bankruptcy Of Heart, MaxHP +100, +1% Neutral property resistance per 1 refine level for Bankruptcy Of Heart.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDMiddle, lower^000000
@@ -87610,8 +87650,8 @@ Jobs: ^6A5ACDAll classes^000000
 18833#
 A brand-new hairband designed by combining flower wreaths and Marine.
 All stats +1. MDEF +2.
-When being attacked physically, it can activate Frost Diver Lv 3 with a certain chance.
-When attacking physically, it can activate Coldbolt Lv 5 with a certain chance.
+When attacked by physical attacks, adds chance to auto cast Level 3 Frost Diver.
+When dealing physical attacks, adds chance to auto cast Level 5 Cold Bolt.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
@@ -87621,8 +87661,8 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18834#
 A Sakura-shaped hairband.
-LUK +3.
-When being attacked physically, it can activate Assumptio Lv 3 with a certain chance.
+LUK +3
+When attacked by physical attacks, adds a chance to auto cast Level 3 Assumptio.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
@@ -87666,7 +87706,7 @@ A hat applied a special engine which can move Angeling's wings. This engine seem
 All stats +1.
 ATK, MATK +2.
 Additional ATK, MATK +2 per 1 refine grade.
-Transform into Angeling for 5 sec by a certain chance when attacking physically or magically.
+Transform into Angeling for 5 sec by a certain chance when dealing physical or magical attacks.
 When transforming with a phycial attack, ASPD +2 for 5 sec.
 When transforming with a magical attack, decrease variable cast time for 5 sec.
 Transformation success chance will be increased per each refine grade.
@@ -87861,8 +87901,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18855#
 A hat of Santos Dumont, a Brazilian aviation pioneer.
-AGI +3, INT +3.
-When attacking physically, it will give Wind property to weapons for 3 min by a certain chance.
+AGI +3
+INT +3
+When dealing physical attacks, adds a chance to enchant your weapon with Wind property for 3 minutes.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
@@ -87871,10 +87912,14 @@ Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 18856#
-A smoking tiger-shaped hat with wearing a bamboo hat. It is originated by an old expression. 'Once upon a time there lived a tiger who is smoking¡¦'
+A smoking tiger-shaped hat with wearing a bamboo hat.
+It is originated by an old expression.
+'Once upon a time there lived a tiger who is smoking¡¦'
 STR +2, DEX +2.
-Additional 10% damage against Animal Monsters.
-When attacking or being attacked physically, you are possessed by the king of tigers 'Eddga' with a rare chance. When being possessed, you can lose Sp 5 per every sec but gain a brutal power for a while. Both transforming chance and strength are increased per each refine grade.
+Increases damage inflicted on Brute monsters by 10%.
+When dealing or attacked by physical attacks, adds a chance to transform into king of tigers 'Eddga'.
+When transforming, drains 5 SP every sec but gain a brutal power for a while.
+Both transforming chance and strength are increased per each refine grade.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
@@ -87885,7 +87930,7 @@ Jobs: ^6A5ACDAll classes^000000
 18857#
 A Curupira-shaped hat, who protects the woods and animals. Their whistle scare all hunters who don't respect the woods and it finally makes them confused and lose his way.
 DEX +3.
-When being attacked physically, it can cause Confusion to your enemies with a certain chance.
+When attacked by physical attacks, adds a chance of inflicting Confusion status to attacker.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF20^000000
 Location: ^6A5ACDUpper^000000
@@ -88007,10 +88052,10 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18867#
 One of the holy weapon of Rudra, the God of storm.
-Increase 2% physical attack power for a long distance.
-DEX +1.
-With equipping Bow Of Rudra, increase 3% damage when physically long distance attacking.
-Bow Of Rudra refined to +7, increase additional 5% damage when physically long distance attacking.
+DEX +1
+Increases long-range physical attacks by 2%.
+When equipped with Bow of Rudra, increases long-range physical attacks by 3%.
+When Bow Of Rudra refined to +7, increases long-range physical attacks by 5%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDLower^000000
@@ -88223,8 +88268,8 @@ Jobs: ^6A5ACDAll classes^000000
 18891#
 A hat made to look like a husky's face. Makes you want to pet it.
 ATK +5%, MATK +5%
-When physically attacked, adds 1% chance to cast Wind Walk Level 5
-For every refine, increases chance to cast Wind Walk by 0.3% 
+When dealing physical attacks, adds 1% chance to auto cast Level 5 Wind Walk.
+For every refine, increases the chance to auto cast Wind Walk by 0.3% 
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
@@ -88335,9 +88380,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18907#
 A panda clinging to its master. Somehow you'd feel braver with it around.
-Reduces damage from Demihuman monsters by 5%
-Increases damage to medium-type monsters by 10%
-Refined to 9 above, randomly auto-casts 'Scream Level 2' when physically attacked.
+Reduces damage taken from Demihuman monsters by 5%.
+Increases damage inflicted on medium size monsters by 10%.
+When refine level is +9 or higher, adds a chance to auto cast Level 2 Scream when attacked by physical attacks.
 Class: ^6A5ACDHeadgear^000000
 Location: ^6A5ACDUpper^000000
 Defense: ^0000FF8^000000
@@ -88399,8 +88444,8 @@ Jobs: ^6A5ACDAll classes^000000
 18912#
 A pigeon perched on his master's shoulder.
 All stats +1
-Randomly auto-casts 'Ruwach Level 1' when physically attacked.
-If equipped with Angel Wing, 5% bonus EXP earned when killing monsters.
+Adds a chance to auto cast Level 1 Ruwach when attacked by physical attacks.
+If equipped with Angel Wing, adds 5% bonus EXP earned when killing monsters.
 ^FF0000Unrefineable^000000
 Class: ^6A5ACDHeadgear^000000
 Location: ^6A5ACDMiddle^000000
@@ -88412,8 +88457,8 @@ Jobs: ^6A5ACDAll classes^000000
 18913#
 A gossiping raven that talks all day long.
 All stats +1
-Randomly auto-casts 'Ruwach Level 1' when physically attacked.
-If equipped with Grand Circlet, 5% bonus EXP earned when killing monsters.
+Adds a chance to auto cast Level 1 Ruwach when attacked by physical attacks.
+If equipped with Grand Circlet, adds 5% bonus EXP earned when killing monsters.
 ^FF0000Unrefineable^000000
 Class: ^6A5ACDHeadgear^000000
 Location: ^6A5ACDMiddle^000000
@@ -88425,7 +88470,7 @@ Jobs: ^6A5ACDAll classes^000000
 18914#
 A cute baby deviling that chases his master all day.
 All stats +1
-Randomly auto-casts 'Level 7 Blessing' when attacking physically.
+Adds a chance to auto cast Level 7 Blessing when dealing physical attacks.
 ^FF0000Unrefineable^000000
 Class: ^6A5ACDHeadgear^000000
 Location: ^6A5ACDMiddle^000000
@@ -88538,7 +88583,7 @@ Jobs: ^6A5ACDAll classes^000000
 18930#
 A hat that is shaped like the biggest primate in Africa.
 STR +2.
-Creates a chance of casting Level 5 Bowling Bash while you are Physically attacking.
+Adds a chance to auto cast Level 5 Bowling Bash when dealing physical attacks.
 Additional STR +3 when upgraded to +11.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
@@ -89026,10 +89071,10 @@ Jobs: ^6A5ACDAll classes^000000
 An imitation of Queen Scaraba Crown.
 DEF -50%, MDEF -50.
 Every refine decrease damage from Insect monsters by 1%.
-When physicall or magically attacked, chance to confuse enemies in 11x11 cells, every refine increase the chance.
-+Scaraba and Gold Scaraba Card, add chance to cause abnormal state in 11x11 cells, every refine increase the chance.
+When attacked by physical or magical attacks, adds a chance to inflict confuse status on 11x11 cells, every refine increase the chance.
++Scaraba and Gold Scaraba Card, adds chance to cause abnormal state in 11x11 cells, every refine increase the chance.
 +Queen Scaraba Card, Increases damage to scaraba by 30%.
-+Gold Qeen Scaraba Card, reduces damage from Insect monsters by 10% and immune to confuse state.
++Gold Qeen Scaraba Card, reduces damage taken from Insect monsters by 10% and immune to confuse state.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper and Lower^000000
@@ -89500,8 +89545,8 @@ Jobs: ^6A5ACDAll classes^000000
 19097#
 A Piamette's big ribbon that able to increase magic power of it's wearer.
 MDEF +1, VIT +1.
-When equipped with Cursed Mad Bunny or Mad Bunny, add a chance when physically or magically attacked, transform it's wearer into Piamette.
-When transforming, restore 2000 HP and add chance to cause Sleep state to enemies on 11x11 cells.
+When equipped with Cursed Mad Bunny or Mad Bunny, adds a chance to transform it's wearer into Piamette when attacked by physical or magical attacks.
+When transforming, restore 2000 HP and adds chance to cause Sleep state to enemies on 11x11 cells.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDLower^000000
@@ -89514,7 +89559,7 @@ A hood of Piamette that able to increase magic power of it's wearer.
 INT +2, DEX +2.
 Increase physical and magical damage inflicted on Demihuman monsters by 10%.
 When refined to +12, nullify the size penalty of weapon.
-When equipped with Cursed Mad Bunny or Mad Bunny, add a chance when physically or magically attacking, transform it's wearer into Piamette.
+When equipped with Cursed Mad Bunny or Mad Bunny, adds a chance to transform it's wearer into Piamette when when dealing physical or magical attacks.
 When transforming, temporarily gains the power of Piamette at the cost draining 50 HP per second.
 Increasing the refine level will also increase the power of transformation.
 Increasing the refine level of Mad Bunny will increase transforming chance.
@@ -89572,6 +89617,15 @@ Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B50^000000
 Required Level: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
+#
+19103#
+[jRO item]
+#
+19104#
+[jRO item]
+#
+19105#
+[jRO item]
 #
 19106#
 An ornament decorated with gemstones that filled with a powerful magic.
@@ -89708,7 +89762,7 @@ Adds certain chance of dropping 'Witherless Rose', '3 carat Diamond' or 'Immorta
 When equipped by Ninja:
 Adds certain chance of dropping 'Dried Squid Box', 'Flying Fish Box' or 'Starfish Box' when killing a monster.
 When equipped by Gunslinger:
-Adds certain chance of dropping 'Silver Bullet Case', 'Gong Bug Pocket' or 'Blood Cartridge' when killing a monster.
+Adds certain chance of dropping 'Silver Bullet Ammo Case', 'Gong Bug Pocket' or 'Blood Ammo Case' when killing a monster.
 When equipped by class higher than classes listed above, adds certain chance of dropping 'Mastella Fruit' when killing a monster.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF9^000000
@@ -89719,8 +89773,19 @@ Jobs: ^6A5ACDAll classes^000000
 #
 19109#
 An ornament wore by a girl that fighting in battlefield.
-MaxSP +50.
-When physically attacked, adds certain chance to autocast Level 10 Safety Wall.
+MaxSP +50
+When attacked by physical attacks, adds a chance to auto cast Level 10 Safety Wall.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF2^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B30^000000
+Required Level: ^0EAA0B70^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+19110#
+An ornament wore by a girl that fighting in battlefield.
+MaxSP +50
+When attacked by physical attacks, adds a chance to auto cast Level 10 Safety Wall.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDMiddle^000000
@@ -89732,11 +89797,11 @@ Jobs: ^6A5ACDAll classes^000000
 A hat with High-performance laser shooter.
 Dex +2.
 Long ranged physical attack +10%.
-Adds certain chance when physically attacking for 5 sec transform wearer into 'Cecil Damon'.
+Adds a chance when dealing physical attacks for 5 sec transform wearer into 'Cecil Damon'.
 Increasing the refine level will increases the probability.
 During transformation you will gain:
 Skill delay -100%.
-Adds certain chance when physically attacking autocast Level 2 True Sight or Level 3 True Sight if you master the skill.
+Adds certain chance when dealing physical attacks to auto cast Level 2 True Sight or Level 3 True Sight if you master the skill.
 When attacking with long ranged attack, adds chance to autocast Level 1 Lex Aeterna.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
@@ -89744,6 +89809,9 @@ Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B40^000000
 Required Level: ^0EAA0B100^000000
 Jobs: ^6A5ACDAll classes^000000
+#
+19112#
+[jRO item]
 #
 19377#
 A marinated beef dish
@@ -90228,7 +90296,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 19538#
 Bright full moon which is the biggest on the15th of August.
-Has a chance of adding +50 ATK or +50 MATK while physically attacking or magically attacking for 5 seconds.
+Has a chance of adding +50 ATK or +50 MATK while when dealing physical or magical attacks for 5 seconds.
 This effect does not work during War of Emperium.
 Class: ^6A5ACDCostume^000000
 Location: ^6A5ACDUpper^000000
@@ -96833,6 +96901,54 @@ Weight: ^0EAA0B0^000000
 Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+20429#
+A costume that imitating the bowtie of Piamette.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20430#
+A costume that imitating the protection aura of Devil Morocc.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20431#
+A costume based on Magician's headdress.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20432#
+A costume based on Khalitzburg Knight's helm.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20433#
+A perfect costume for christmas.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20434#
+This gunslinger doll perches on your head.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Required Level: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 20447#
 Class: ^6A5ACDCostume^000000
 Location: ^6A5ACDUpper^000000
@@ -98873,67 +98989,67 @@ A box that contains a costume: loki & nidhoggur's hat.
 Weight: ^0EAA0B10^000000
 #
 22737#
-A bullet cartridge that contains 500 Bloody Bullets.
+An ammo case that contains 500 Bloody Shells.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 22738#
-A bullet cartridge that contains 500 Bloody Bullets.
+An ammo case that contains 500 Silver Bullets.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 22739#
-A bullet cartridge that contains 500 Lightning Spheres.
+A box that contains 500 Lightning Grenades.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 22740#
-A bullet cartridge that contains 500 Blind Spheres.
+A box that contains 500 Flash Grenades.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 22741#
-A bullet cartridge that contains 500 Poison Spheres.
+A box that contains 500 Poison Grenades.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 22742#
-A bullet cartridge that contains 500 Freezing Spheres.
+A box that contains 500 Cryo Grenades.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 22743#
-A bullet cartridge that contains 500 Flare Spheres.
+A box that contains 500 Incendiary Grenades.
 ^FFFFFF_^000000
 Weight: ^0EAA0B35^000000
 #
 22744#
-A bullet cartridge that contains 500 Armor-Piercing Shot.
+An ammo case that contains 500 Armor-Piercing bullets.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 22745#
-A bullet cartridge that contains 500 Incandescence Shot.
+An ammo case that contains 500 Blazing Bullets.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 22746#
-A bullet cartridge that contains 500 Glaciation Shot.
+An ammo case that contains 500 Freezing Bullets.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 22747#
-A bullet cartridge that contains 500 Dengeki Shot.
+An ammo case that contains 500 Lightning Bullet.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 22748#
-A bullet cartridge that contains 500 Hearthstone Shot.
+An ammo case that contains 500 Magic Stone Bullet.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
 22749#
-A bullet cartridge that contains 500 Purification Shot.
+An ammo case that contains 500 Purifying Bullet.
 ^FFFFFF_^000000
 Weight: ^0EAA0B25^000000
 #
@@ -104235,7 +104351,7 @@ Weight: ^0EAA0B10^000000
 Two-Handed Spear made of the Ivory of a Mammoth. It is very hard to be processed due to its strength, but its sharp end makes it perfect for stabbing.
 AGI +2, ASPD +3%
 Enables use of Level 5 ^008800Spear Stab^000000.
-Has a chance of inflicting Level 1 ^008800Fatal Wound^000000 while physically attacking.
+Adds a chance to auto cast Level 1 ^008800Fatal Wound^000000 when dealing physical attacks.
 Class: ^6A5ACDTwo-Handed Spear^000000
 Attack: ^D80000160^000000
 Weight: ^0EAA0B100^000000
@@ -104354,13 +104470,33 @@ Attack: ^D80000123^000000
 Weight: ^0EAA0B65^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll classes^000000
+Jobs: ^6A5ACDAssassin^000000
+#
+28014#
+A twin blade that made from combination of two powerful blades, Doom Sword of Matoishi Industry and King's Sword of Glory and Honor.
+For every refine level:
+Cross Impact damage +3%
+Cross Ripper Slasher damage +2%
+Rolling Cutter +1%
+When refined to +7:
+ASPD +5%
+When refined to +9:
+ASPD +5%
+When refined to +10:
+ASPD +5%
+Inflict more damage on enemy with high DEF.
+Class: ^6A5ACDKatar^000000
+Attack: ^D80000150^000000
+Weight: ^0EAA0B280^000000
+Weapon Level: ^0EAA0B4^000000
+Required Level: ^0EAA0B130^000000
+Jobs: ^6A5ACDGuillotine Cross^000000
 #
 28100#
 This two-handed axe, made to counteract the Devil Sword Thanatos, is sculpted out of Gray Shard.
 It offers incredible power and mana at a great cost.
 INT +6, VIT +6, LUK -6
-Creates a low chance of regaining HP and SP from 5% of your damage dealt while you are Physically attacking.
+Adds a low chance of regaining HP and SP from 5% of your damage dealt when dealing physical attacks.
 Consumes 100 HP every 10 seconds.
 Consumes 1,000 HP when unequipped.
 MATK +80
@@ -104472,8 +104608,9 @@ Jobs: ^6A5ACDRebellion^000000
 #
 28306#
 An earring blessed by luna.
-MDEF +2, All stats +1.
-Physically/magically attacking has 1% chance to auto cast Level 5 Tarot Card of Fate
+All stats +1
+MDEF +2
+When dealing physical or magical attacks, adds 1% chance to auto cast Level 5 Tarot Card of Fate.
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF5^000000
 Weight: ^0EAA0B10^000000
@@ -104502,8 +104639,8 @@ Jobs: ^6A5ACDAll classes^000000
 A cute tail that makes you look like a demon. Be careful of demons who lost their tails... they might haunt you in order to get yours!
 When equipped with Horn of Ancient, decrease damage 10% when being attacked by boss monsters.
 When equipped with Horn of Succubus, LUK +2.
-When attacking physically, transform into "Succubus" for 5 sec by a certain chance.
-While being a Succubus, SP 5 recovery per every hit when attacking enemies physically.
+When dealing physical attacks, adds a chance to transform into 'Succubus' for 5 sec.
+While transforming, recover SP by 5 for every hit when dealing physical attacks.
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
 Weight: ^0EAA0B20^000000
@@ -104959,6 +105096,36 @@ Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B3^000000
 Required Level: ^0EAA0B50^000000
 Jobs: ^6A5ACDNovice, Swordman, Mage, Archer, Merchant, Thief, Ninja and Soul Linker^000000
+#
+28712#
+One of Ancient King's twin blade.
+It took ten thousand people and hundred of Ancient Swords to crafted this sword.
+Cross Impact damage +10%.
+[+^008800King's Sword of Glory and Honor^000000]
+ASPD +5%
+Cross Impact damage +10%.
+Class: ^6A5ACDDagger^000000
+Attack: ^D80000120^000000
+Weight: ^0EAA0B60^000000
+Property: ^777777Shadow^000000
+Weapon Level: ^0EAA0B4^000000
+Required Level: ^0EAA0B130^000000
+Jobs: ^6A5ACD3rd class of Swordman, Mage, Archer, Merchant and Thief; Kagerou and Oboro^000000
+#
+28713#
+One of Ancient King's twin blade.
+It took hundred of craftsmen and thousand days to crafted this sword.
+ASPD +5%
+[+^008800Doom Sword of Matoishi Industry^000000]
+ASPD +5%
+Cross Impact damage +10%.
+Class: ^6A5ACDDagger^000000
+Attack: ^D80000120^000000
+Weight: ^0EAA0B60^000000
+Property: ^777777Holy^000000
+Weapon Level: ^0EAA0B4^000000
+Required Level: ^0EAA0B130^000000
+Jobs: ^6A5ACD3rd class of Swordman, Mage, Archer, Merchant and Thief; Kagerou and Oboro^000000
 #
 28900#
 Prontera kingdom's knight shield.
