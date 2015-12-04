@@ -3531,7 +3531,9 @@ Perfect Dodge +10
 ^888888-------------------------^000000
 If player's Job Level 70 (If player is a Rune Knight job level needs to be 50) has a chance of receiving ATK +50 for 10 seconds when dealing physical attacks.
 ^888888-------------------------^000000
-When refined to +9 or higher, Reduces SP cost of skills by 20% and reduces skill usage delay by 20%.
+Refine Level +9:
+Reduces SP cost of skills by 20%.
+Reduces after cast delay by 20%.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Sword^000000
 Attack: ^D80000250^000000
@@ -3614,9 +3616,10 @@ Perfect Dodge +20
 ^888888-------------------------^000000
 Has a chance of inflicting Hell Power on the user or target when dealing physical attacks.
 ^888888-------------------------^000000
-Has a chance of giving 100% damage to all monsters within the area of 11x11 cells around itself and recovers 100% of HP.
+Has a chance of giving 100% damage to all monsters within the area of 11x11 cells around wielder and recovers 100% of HP.
 ^888888-------------------------^000000
-When refined to +9 or higher, it exerts the power to monsters within 15x15 cells and gives 200% damage while it recovers HP.
+Refine Level +9:
+Exerts the power to monsters within 15x15 cells and gives 200% damage while it recovers HP.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Sword^000000
 Attack: ^D80000200^000000
@@ -5841,8 +5844,10 @@ Jobs: ^6A5ACDSwordman and Merchant^000000
 1396#
 *Stats during WoE & PVP
 Increases physical damage to enemy players by 40% bypasses 30% Def.
-When refined to +6 or higher, increases Axe Boomerang and Power Swing damage by 80%
-When refined to +9 or higher, increases damage to enemy players by additional 60%.
+Refine Level +6:
+Increases Axe Boomerang and Power Swing damage by 80%.
+Refine Level +9:
+Increases damage inflicted to enemy players by 60%.
 Class: ^6A5ACDTwo-Handed Axe^000000
 Attack: ^D80000300^000000
 Weight: ^0EAA0B550^000000
@@ -6353,8 +6358,10 @@ Jobs: ^6A5ACDRoyal Guard^000000
 1436#
 *Stats during WoE & PVP
 Increases damage to other players by 60%
-When refined to +6 or higher, increases Pinpoint Attack and Hundred Spears damage by 80%.
-When refined to +9 or higher, increases damage to enemy players by additional 30%.
+Refine Level +6:
+Increases Pinpoint Attack and Hundred Spears damage by 80%.
+Refine Level +9:
+Increases damage inflicted to enemy players by 30%.
 Class: ^6A5ACDOne-Handed Spear^000000
 Attack: ^D80000150^000000
 Weight: ^0EAA0B85^000000
@@ -6454,11 +6461,11 @@ Jobs: ^6A5ACDSwordman^000000
 1444#
 A spear imbued with the power of lightning.
 ^888888-------------------------^000000
-When refined to +7:
-Increase physical damage against Fish and Water property monsters by 10%.
+Refine Level +7:
+Increases physical damage against Fish and Water property monsters by 10%.
 ^888888-------------------------^000000
-When refined to +9:
-Increase physical damage against Fish and Water property monsters by 15%.
+Refine Level +9:
+Increases physical damage against Fish and Water property monsters by 15%.
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Spear^000000
 Attack: ^D80000140^000000
@@ -6471,10 +6478,10 @@ Jobs: ^6A5ACDSwordman^000000
 1445#
 A spear imbued with the power of lightning.
 ^888888-------------------------^000000
-When refined to +7:
+Refine Level +7:
 Increase physical damage against Fish and Water property monsters by 10%.
 ^888888-------------------------^000000
-When refined to +9:
+Refine Level +9:
 Increase physical damage against Fish and Water property monsters by 15%.
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Spear^000000
@@ -6490,7 +6497,7 @@ A blessed one handed spear from the king. Has an effect of calming the spirits o
 ^888888-------------------------^000000
 Increases damage inflicted on Bio Lab and Tomb of the Fallen monsters by 40%.
 ^888888-------------------------^000000
-When refined to +5:
+Refine Level +5:
 Increases damage inflicted on Bio Lab and Tomb of the Fallen monsters by 20%.
 ^888888-------------------------^000000
 For every refine level above +5:
@@ -6999,9 +7006,9 @@ ASPD -10
 ^888888-------------------------^000000
 When you unequip this weapon reduce SP by 600.
 ^888888-------------------------^000000
-Add 20 sec on delay for reuse of Clashing Spiral.
+Adds 20 sec skill cooldown to Clashing Spiral.
 ^888888-------------------------^000000
-When pure STR is over 120, add ATK +300.
+When base STR is over 120, add ATK +300.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Spear^000000
 Attack: ^D8000020^000000
@@ -7027,8 +7034,10 @@ Jobs: ^6A5ACDSwordman^000000
 1492#
 *Stats during WoE & PVP
 Increases damage to other players by 80%.
-When refined to +6 or higher, increases Clashing Spiral damage by 100% and Overbrand damage by 50%.
-When refined to +9 or higher, has a chance of reflecting magic and physical attack damage back to the attacking enemy as well as a chance to cast Magic Mirror.
+Refine Level +6:
+Increases Clashing Spiral damage by 100% and Overbrand damage by 50%.
+Refine Level +9:
+Has a chance of reflecting magic and physical attack damage back to the attacking enemy as well as a chance to cast Magic Mirror.
 Class: ^6A5ACDTwo-Handed Spear^000000
 Attack: ^D80000250^000000
 Weight: ^0EAA0B450^000000
@@ -7131,7 +7140,7 @@ Increases damage inflicted on Bio Lab and Tomb of the Fallen monsters by 40%.
 ^888888-------------------------^000000
 Reduces damage taken from Bio Lab and Tomb of the Fallen monsters by 5%.
 ^888888-------------------------^000000
-When refined to +5:
+Refine Level +5:
 Increases damage inflicted on Bio Lab and Tomb of the Fallen monsters by 30%.
 ^888888-------------------------^000000
 For every refine level above +5:
@@ -7614,7 +7623,7 @@ Additional 10% damage to Demon and Shadow monsters.
 ^888888-------------------------^000000
 Adds a chance of auto cast Level 1 ^FF0000Signum Crusis^000000 when attacked by physical attacks.
 The level of ^FF0000Signum Crusis^000000 increases by upgrade level.
-(Activate Level 10 if refine is met Level 11 or higher)
+(Activate Level 10 if refine level is +11 or higher)
 ^888888-------------------------^000000
 Adds a chance of adding ATK +50 during 20 seconds when attacked by physical attacks.
 ^888888-------------------------^000000
@@ -8259,7 +8268,8 @@ Jobs: ^6A5ACDPriest, Sage and Star Gladiator^000000
 *Stats during WoE & PVP
 MATK +125.
 Increases healing effectiveness from skills based on your base level.
-When refined to +6 or higher, removes re-use delay from Lauda Agnus, Lauda Ramus, and Clearance while increasing SP cost of these skills by 60.
+Refine Level +6:
+Removes skill cooldown from Lauda Agnus, Lauda Ramus, and Clearance while increasing SP cost of these skills by 60.
 Class: ^6A5ACDBook^000000
 Attack: ^D80000110^000000
 Weight: ^0EAA0B60^000000
@@ -8271,7 +8281,8 @@ Jobs: ^6A5ACDPriest, Sage and Star Gladiator000000
 *Stats during WoE & PVP
 Increases damage to enemy players by 80% and bypasses 30% Def.
 Increases physical damage done to enemy players by 1% per upgrade level.
-When refined to +9 or higher, has a chance of activating increased attack power by 200 for 3 seconds.
+Refine Level +9:
+Has a chance of activating increased attack power by 200 for 3 seconds.
 Class: ^6A5ACDBook^000000
 Attack: ^D80000130^000000
 Weight: ^0EAA0B100^000000
@@ -9091,7 +9102,10 @@ A staff made out of magical wood. It possesses huge magical power, but it will m
 INT +4
 MATK +155
 ^888888-------------------------^000000
-When refined to +6 or higher, MaxHP -200, MaxSP -100 and INT increases by 1 per level.
+Refine Level +6:
+MaxHP -200
+MaxSP -100
+INT increases by 1 per refine level.
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Staff^000000
 Attack: ^D80000100^000000
@@ -9119,10 +9133,12 @@ A staff created with a skull of a powerful Lich. The curse eminating from this s
 ^888888-------------------------^000000
 MATK +20%, INT +1, DEX +1
 ^888888-------------------------^000000
-Whenever you take a Physical Damage, small chance to cause ^FF0000Curse^000000 status ailment to every enemies in the screen. This chance is increased depending on the refinement rate of this weapon.
+Whenever you take a Physical Damage, adds a chance to inflict ^FF0000Curse^000000 status ailment to every enemies in the screen.
+This chance is increased depending on the refinement rate of this weapon.
 ^888888-------------------------^000000
-[^333399Refined to +9^000000]
-You will receive bonus MATK +3%, MaxSP +300.
+Refine Level +9:
+MATK +3%
+MaxSP +300
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Staff^000000
 Attack: ^D8000060^000000
@@ -9135,11 +9151,13 @@ Jobs: ^6A5ACDTranscendent Mage and Acolyte^000000
 1646#
 A highclass mage's staff decorated with rich tail-feathers. It has been especially treated for the ice elemental magical spell, 'Stormgust'.
 ^888888-------------------------^000000
-INT +4, MDEF +1
+INT +4
+MDEF +1
 MATK +180
 ^888888-------------------------^000000
 Stormgust's damage increases by 1% for each refine level.
-When refined to +10, casting speed of 'Stormgust' decreases by 8%.
+Refine Level +10:
+Reduces variable cast time of 'Stormgust' by 8%.
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Staff^000000
 Attack: ^D8000030^000000
@@ -9337,7 +9355,8 @@ Jobs: ^6A5ACDArchbishop^000000
 INT +10, MATK +50, MDEF +20.
 ^888888-------------------------^000000
 Drains 5% SP from enemies when dealing physical attacks.
-When refined to +6 or higher, increases the SP drain of attacks.
+Refine Level +6:
+Increases the SP drain of attacks.
 ^888888-------------------------^000000
 Increases SP consumption of skills by 100
 ^888888-------------------------^000000
@@ -9479,15 +9498,18 @@ Jobs: ^6A5ACDMage and Acolyte^000000
 1670#
 A staff created for the 2012 RWC (Ragnarok World Championship) infused with pure gold.
 ^888888-------------------------^000000
-Increases MATK power +30 for every three refine levels
+MATK +30
+Increases MATK by 30 for every 3 refine level.
 ^888888-------------------------^000000
-Refined to +6 or higher, Increases MATK damage to all monsters.
-Refined to +9 or higher, additional MATK increase damage to all monsters and has a low chance of auto-casting Level 1 Mystical Amplification
+Refine Level +6:
+Increases damage against all monsters by 5%.
+Refine Level +9:
+Increases damage against all monsters by 5%.
+Adds a low chance to auto cast Level 1 Mystical Amplification.
 ^888888-------------------------^000000
 [^0000ffRWC 2012 Set Bonus^000000]
 ^008800RWC 2012 Pendant^000000
-Grants +5 MATK for every upgrade level
-^ff0000These set bonuses do not work with the card-slotted RWC accessories^000000
+Adds +5 MATK for every upgrade level
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Staff^000000
 Attack: ^D8000025^000000
@@ -9501,10 +9523,10 @@ This staff was once used for vanquishing an evil slayer and his followers.
 ^888888-------------------------^000000
 MATK +155
 ^888888-------------------------^000000
-+10% ATK/MATK against Demon and Undead monsters.
+Increases physical and magical attacks against Demon and Undead monsters by 10%.
 ^888888-------------------------^000000
-Refined to +9, increase MATK by 5%.
-Refined to +12, increase MATK by 7%.
+Refine Level +9: MATK +5%
+Refine Level +12: MATK +7%
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-handed Staff^000000
 Attack: ^D8000030^000000
@@ -9539,11 +9561,13 @@ An infernal staff from hell. Only true demons are able control it's full power. 
 ^888888-------------------------^000000
 MATK +150
 ^888888-------------------------^000000
-Decrease aftercast delay 10%.
+Decreases after cast delay by 10%.
 ^888888-------------------------^000000
-With more than Base LV 100, MATK +30.
+When base level is higher than 100, MATK +30.
 ^888888-------------------------^000000
-With more than 9 refine level, Blind can be activated by a certain chance. SP consumption will be decreasd 10% when using skills.
+Refine Level +9:
+Adds a chance to inflict Blind status on target when dealing physical attacks.
+Reduces SP consumption of all skills by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-handed Staff^000000
 Attack: ^D8000060^000000
@@ -11051,8 +11075,10 @@ Jobs: ^6A5ACDPriest and Monk^000000
 1832#
 *Stats during WoE & PVP
 Increases physical damage to enemy players by 100%
-When refined to +8 or higher, increases damage to enemy players by an additional 20%.
-When refined to +10 or higher, auto-casts [Dangerous Soul Collect] after [Explosion Spirits] and removes Cast Time of [Asura Strike] and Consumes 500 HP every 3 seconds.
+Refine Level +8:
+Increases damage to enemy players by 20%.
+Refine Level +10:
+Adds a chance to auto cast [Dangerous Soul Collect] after [Explosion Spirits] and removes Cast Time of [Asura Strike] and Consumes 500 HP every 3 seconds.
 Class: ^6A5ACDClaw^000000
 Attack: ^D80000160^000000
 Weight: ^0EAA0B65^000000
@@ -11065,7 +11091,7 @@ A claw that leave beautiful wounds.
 ^888888-------------------------^000000
 ASPD +1
 ^888888-------------------------^000000
-Each refine increase 1% ASPD and 1% damage against medium size monsters.
+Each refine increase ASPD by 1% and damage against medium size monsters by 1%.
 ^888888-------------------------^000000
 Class: ^6A5ACDClaw^000000
 Attack: ^D80000140^000000
@@ -11089,9 +11115,10 @@ Jobs: ^6A5ACDPriest and Monk^000000
 1835#
 A knuckle of legendary gladiator.
 ^888888-------------------------^000000
-Every refine, ATK +1%.
+For every refine level, ATK +1%.
 ^888888-------------------------^000000
-When refined to +10, Nullify reduction in damage inflicted on monsters resulting from monster's size.
+Refine Level +10:
+Nullify reduction in damage inflicted on monsters resulting from monster's size.
 ^888888-------------------------^000000
 ^702180Indestructible^000000
 ^888888-------------------------^000000
@@ -11617,7 +11644,7 @@ Large and powerful enough to be a weapons.
 ^888888-------------------------^000000
 MATK +120
 ^888888-------------------------^000000
-Reduce Improvised Song cooldown by 2 seconds.
+Reduces Improvised Song skill cooldown by 2 seconds.
 ^888888-------------------------^000000
 Class: ^6A5ACDMusical Instrument^000000
 Attack: ^D80000180^000000
@@ -11696,11 +11723,14 @@ Jobs: ^6A5ACDBard^000000
 1940#
 A flute made from a large shell.
 ^888888-------------------------^000000
-Every 1 refine give INT +1 and DEX +1
+For every refine level, INT +1 and DEX +1
 ^888888-------------------------^000000
-Refined to +5 or more, give skill Reverberation additional damage by 10% and cast time -10%.
-Refined to +7 or more, give skill Reverberation additional damage by 20% and cast time -20%.
-Refined to +9 or more, give skill Reverberation additional damage by 40% and cast time -40%.
+Refine Level +5:
+Increases Reverberation damage by 10% and reduces variable cast time by 10%.
+Refine Level +7:
+Increases Reverberation damage by 20% and reduces variable cast time by 20%.
+Refine Level +9:
+Increases Reverberation damage by 40% and reduces variable cast time by 40%.
 ^888888-------------------------^000000
 Class: ^6A5ACDMusical Instrument^000000
 Attack: ^D80000120^000000
@@ -12616,8 +12646,11 @@ Jobs: ^6A5ACDMagician, Acolyte and Soul Linker^000000
 **Stats during WoE & PVP
 MATK +220
 Increases magic attack damage to enemy players by 25% and bypasses 25% MDEF.
-When refined to +6 or higher, increases magic attack damage done to enemy players by 15%.
-When refined to +9 or higher, variable cast time -50%, fixed cast time -0.2 second.
+Refine Level +6:
+Increases magical attacks against enemy players by 15%.
+Refine Level +9:
+Reduces variable cast time by 50%.
+Reduces fixed cast time by -0.2 sec.
 Class: ^6A5ACDTwo-Handed Staff^000000
 Attack: ^D80000110^000000
 Weight: ^0EAA0B80^000000
@@ -13522,7 +13555,9 @@ Use it on pest's ness, Summer essentials!
 Increases physical damage inflicted on Insect monsters by 10%.
 ^888888-------------------------^000000
 +Ultra-Strong Ora Ora, reduces damage taken from Insect monsters by 10%,
-if Insecticide refined to +8, increase magic attack against Insect monsters by 4% and reduces damage taken from Insect monsters by 10%.
+Refine Level +8:
+Increase magical attacks against Insect monsters by 4%.
+Reduces damage taken from Insect monsters by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF0^000000
@@ -13535,9 +13570,9 @@ Shield of immunity, which imbued with magical properties.
 ^888888-------------------------^000000
 Reduces damage from Undead monsters by 5%.
 ^888888-------------------------^000000
-Increase damage taken from Demihuman monsters by 5%.
+Increases damage taken from Demihuman monsters by 5%.
 ^888888-------------------------^000000
-When using PC Gold-club, Increase exp gain from killing monsters by 10%.
+When using Gold PC Cafe, Increases exp gain from killing monsters by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF50^000000
@@ -13617,8 +13652,9 @@ Jobs: ^6A5ACDAll classes^000000
 2168#
 Very unique, square formed shield with a special jewel on it which protects from physical power.
 ^888888-------------------------^000000
-If upgraded to +5 or higher:
-each refine Increases resistance against Neutral property attack by 1%. (The increase is limited to refine level 12)
+Refine Level +5:
+Every refine level increases resistance against Neutral property attack by 1%.
+(The increase is limited to refine level 12)
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF55^000000
@@ -13629,7 +13665,7 @@ Jobs: ^6A5ACDAll classes^000000
 2169#
 Sturdy yet light, practical shield made from rattan.
 ^888888-------------------------^000000
-Every 3 refine reduce 1% damage taken from boss monsters.
+Every 3 refine level reduces damage taken from boss monsters by 1%.
 ^888888-------------------------^000000
 [+^008800Buwaya Sack Cloth, Bakonawa Scale Armor and Bangungot Boots of Nightmare^000000]
 MaxHP +20%
@@ -13644,7 +13680,7 @@ Jobs: ^6A5ACDAll classes^000000
 2170#
 Sturdy yet light, practical shield made from rattan.
 ^888888-------------------------^000000
-Every 3 refine reduce 1% damage taken from boss monsters.
+Every 3 refine level reduces damage taken from boss monsters by 1%.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF40^000000
@@ -13676,7 +13712,7 @@ Jobs: ^6A5ACDNinja^000000
 2173#
 Armguard with a glowing crescent moon drawing. You feel a sense of mystical fullness when wearing this.
 ^888888-------------------------^000000
-Every 1 refine reduce after cast delay by 2%.
+For every refine level reduces after cast delay by 2%.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF45^000000
@@ -13816,9 +13852,9 @@ This anti-magic shield effectively reflects magic.
 ^888888-------------------------^000000
 MDEF +10
 ^888888-------------------------^000000
-3% chance to reflect magic damage.
-Refined to +7, increase reflect chance by 3%.
-Refined to +9, increase reflect chance by 3%.
+Adds 3% chance to reflect magical attacks.
+Refine level +7: increases reflect chance by 3%.
+Refine level +9: increases reflect chance by 3%.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF50^000000
@@ -13831,8 +13867,8 @@ A revised edition of an encyclopedia that is printed by a Prontera publisher. Th
 ^888888-------------------------^000000
 MATK +5, INT +3, DEX +2, CRIT +3
 ^888888-------------------------^000000
-Refined to +7, increase Critical by 2.
-Refined to +9, increase MATK by 5.
+Refine level +7: CRIT +2
+Refine level +9: MATK +5
 ^888888-------------------------^000000
 [+^008800Encyclopedia[2]^000000]
 Every refine of Encyclopedia[2], ASPD +1%.
@@ -13847,15 +13883,14 @@ Required Level: ^0EAA0B99^000000
 Jobs: ^6A5ACDPriest, Sage and Star Gladiator^000000
 #
 2187#
-Shield surrounded by dark aura.
-Has the ability to resist divine power.
-^888888-------------------------^000000
-+30% Holy resistance.
+Shield surrounded by dark aura. Has the ability to resist divine power.
 ^888888-------------------------^000000
 MDEF +10
 ^888888-------------------------^000000
-Every 1 refine increase Holy resistance by 1%.
-Every 3 refine increase MDEF by 1.
++30% Holy resistance.
+^888888-------------------------^000000
+Every 1 refine level: increases Holy resistance by 1%.
+Every 3 refine level: increases MDEF by 1.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF75^000000
@@ -13881,12 +13916,14 @@ Jobs: ^6A5ACDAll classes^000000
 2189#
 A rag doll that Piamette is using for both attack and defense? It looks so real and alive!
 ^888888-------------------------^000000
-Increases resistance to all properties by 5%.
+DEX +1
+MDEF +6
 ^888888-------------------------^000000
-MDEF +6, DEX +1.
+Increases resistance against all properties attack by 5%.
 ^888888-------------------------^000000
 +^00FF00Piamette's Ribbon^000000
-Increases resistance to all properties by 2% per refine, when refine level is over 6.
+Refine Level +6:
+Every refine level increases resistance against all properties attack by 2%.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF40^000000
@@ -13902,7 +13939,8 @@ MaxSP +50
 ^888888-------------------------^000000
 Increases resistance to all properties attack by 10%.
 ^888888-------------------------^000000
-When refined to +14 and higher, enables use of Level 5 ^008800Stone Curse^000000.
+Refine Level +14:
+Enables use of Level 5 ^008800Stone Curse^000000.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF5^000000
@@ -13934,9 +13972,9 @@ Jobs: ^6A5ACD3rd Classes^000000
 2198#
 A shield of Laphine tribe that hold mysterious power
 ^888888-------------------------^000000
-Mdef +10
+MDEF +10
 ^888888-------------------------^000000
-When refine level is +7 or higher, MATK +20.
+Refine Level +7: MATK +20.
 ^888888-------------------------^000000
 Class: ^6A5ACDShield^000000
 Defense: ^0000FF25^000000
@@ -16297,14 +16335,14 @@ Jobs: ^6A5ACDAll except Novice^000000
 2410#
 Named after Odin's trusty steed, these shoes also mimic Sleipnir's powers.
 ^888888-------------------------^000000
-INT +25, MDEF +10
-^888888-------------------------^000000
+INT +25
+MDEF +10
 MaxHP +20%
 MaxSP +20%
 ^888888-------------------------^000000
 SP Recovery +15%
 ^888888-------------------------^000000
-Increase movement speed.
+Increases movement speed.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
@@ -18548,33 +18586,33 @@ Enables use of
 Level 1 ^008800Greed^000000
 ^888888-------------------------^000000
 [^6A5ACD Base STR 90^000000 ]
-Refined to +7, ATK +20
-Refined to +9, ATK +10
+Refine Level +7: ATK +20
+Refine Level +9: ATK +10
 ^888888-------------------------^000000
 [^6A5ACD Base INT 90^000000 ]
-Refined to +7, MATK +30
-Refined to +9, MATK +20
+Refine Level +7: MATK +30
+Refine Level +9: MATK +20
 ^888888-------------------------^000000
 [^6A5ACD Base VIT 90^000000 ]
-Refined to +7,
+Refine Level +7:
 Neutral resistance +10%.
-Refined to +9,
+Refine Level +9:
 Neutral resistance +5%.
 ^888888-------------------------^000000
 [^6A5ACD Base AGI 90^000000 ]
-Refined to +7, ASPD +8%
-Refined to +9, ASPD +1
+Refine Level +7: ASPD +8%
+Refine Level +9: ASPD +1
 ^888888-------------------------^000000
 [^6A5ACD Base DEX 90^000000 ]
-Refined to +7,
-Ranged damage +5%.
-Refined to +9,
-Ranged damage +5%.
+Refine Level +7:
+Long range physical attacks +5%.
+Refine Level +9:
+Long range physical attacks +5%.
 ^888888-------------------------^000000
 [^6A5ACD Base LUK 90^000000 ]
-Refined to +7,
+Refine Level +7:
 Critical damage +10%
-Refined to +9,
+Refine Level +9:
 Critical damage +5%
 ^888888-------------------------^000000
 Class: ^6A5ACDGarment^000000
@@ -18651,8 +18689,10 @@ Jobs: ^6A5ACDRanger^000000
 This wide Manteau carries with it the meaning of Salvation.
 ^888888-------------------------^000000
 Enables use of Level 1 ^008800Cicada Skin Shed^000000.
+Increases Cicada Skin Shed skill cooldown by 30 secs.
 ^888888-------------------------^000000
-Increase cool down time 30sec of the skill, 2 times more on SP consumption of all skills when equipped, when de-equipping SP -1200.
+Increases SP consumption of all skills by 100%.
+Drain SP by 1200 when this garment unequipped.
 ^888888-------------------------^000000
 Class: ^6A5ACDGarment^000000
 Defense: ^0000FF1^000000
@@ -23463,7 +23503,7 @@ After cast delay -10%.
 Variable cast time -10%.
 ^888888-------------------------^000000
 Increase damage of Axe Boomerang by 100%.
-Reduce cooldown of Axe Boomerang by 2 seconds.
+Reduces skill cooldown of Axe Boomerang by 2 seconds.
 ^888888-------------------------^000000
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
@@ -41277,7 +41317,7 @@ Every 10 base of DEX, MATK +2
 When base DEX is 108 or higher, MATK +60, Cast rate -10%.
 When base DEX is 120 or higher, MATK +40, Cast rate -5%.
 +Tendrillion Card and equipped with Book or Staff, every refine increase magic attack against Demihuman by 2%.
-+Laphine Shield, when shield refined to +7, reduce cooldown by 20 sec, When refined to +9, reduce cooldown by 40 sec.
++Laphine Shield, when shield refined to +7, reduces Comet skill cooldown by 20 sec, When refined to +9, reduces Comet skill cooldown by 40 sec.
 if equipped with Fallen Bishop Card or Runaway Magic stone, then the cooldown reduction will not activated.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
@@ -44895,7 +44935,7 @@ Standard sized gun part. Sadly poorly made and unusable.
 Weight: ^0EAA0B0^000000
 #
 6747#
-Standard sized gun part. Perfect for use in the production of a pistol class weapon.
+Standard sized gun part. Perfect for use in the production of a revolver class weapon.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
@@ -59786,16 +59826,16 @@ Jobs: ^6A5ACDSwordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^0000
 #
 13049#
 A short blade with beautiful decoration of gemstone.
-Refine level +3, ATK +40 and MATK +40.
-Refine level +6, increase damage against medium size monster by 8%.
+Refine Level +3: ATK +40 and MATK +40.
+Refine Level +6: increase damage against medium size monster by 8%.
 Has low chance for 5 second ignore weapon size penalty.
-Refine level +9, increase damage against medium size monster by 20%.
-Refine level +12, ignore weapon size penalty.
-[When used in Gold PC Cafe]
+Refine Level +9: increase damage against medium size monster by 20%.
+Refine Level +12: ignore weapon size penalty.
+[When on Gold PC Cafe]
 Restore 1 SP for every hit.
 Increase damage against medium size monster by 5%
-Refine level +8, ignore weapon size penalty.
-Refine level +9, has low chance to restore 2 SP for every hit for 5 second.
+Refine Level +8: ignore weapon size penalty.
+Refine Level +9: has low chance to restore 2 SP for every hit for 5 second.
 Class: ^6A5ACDDagger^000000
 Attack: ^D8000045^000000
 Weight: ^0EAA0B65^000000
@@ -60206,8 +60246,8 @@ Jobs: ^6A5ACDSwordman, Archer, Merchant and Thief^000000
 13094#
 This dagger was once used for vanquishing an evil slayer and his followers.
 Increase damage against Demon and Undead by 10%
-Refine level +9, ATK +5%
-Refine level +12, ATK +7%
+Refine Level +9: ATK +5%
+Refine Level +12: ATK +7%
 Class: ^6A5ACDDagger^000000
 Attack: ^D80000120^000000
 Weight: ^0EAA0B90^000000
@@ -60255,12 +60295,9 @@ Required Level: ^0EAA0B100^000000
 Jobs: ^6A5ACDSorcerer^000000
 #
 13100#
-A six chambered
-pistol that is the
-most basic weapon
-for Gunslingers.
-HIT -10.
-Class: ^6A5ACDPistol^000000
+A six chambered revolver that is the most basic weapon for Gunslingers.
+HIT -10
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000030^000000
 Weight: ^0EAA0B40^000000
 Weapon Level: ^0EAA0B1^000000
@@ -60268,12 +60305,9 @@ Required Level: ^0EAA0B10^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13101#
-A six chambered
-pistol that is the
-most basic weapon
-for Gunslingers.
-HIT -10.
-Class: ^6A5ACDPistol^000000
+A six chambered revolver that is the most basic weapon for Gunslingers.
+HIT -10
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000030^000000
 Weight: ^0EAA0B40^000000
 Weapon Level: ^0EAA0B1^000000
@@ -60281,11 +60315,9 @@ Required Level: ^0EAA0B10^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13102#
-A bloody red
-pistol that is
-rumored to be cursed.
-HIT -10.
-Class: ^6A5ACDPistol^000000
+A bloody red revolver that is rumored to be cursed.
+HIT -10
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000045^000000
 Weight: ^0EAA0B45^000000
 Weapon Level: ^0EAA0B2^000000
@@ -60293,11 +60325,9 @@ Required Level: ^0EAA0B35^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13103#
-A bloody red
-pistol that is
-rumored to be cursed.
-HIT -10.
-Class: ^6A5ACDPistol^000000
+A bloody red revolver that is rumored to be cursed.
+HIT -10
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000045^000000
 Weight: ^0EAA0B45^000000
 Weapon Level: ^0EAA0B2^000000
@@ -60305,14 +60335,10 @@ Required Level: ^0EAA0B35^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13104#
-A rare pistol that
-is only produced when
-it is specially ordered. The engraving of its
-creator's name can be
-used by experts to
-authenticate this gun.
-HIT -10.
-Class: ^6A5ACDPistol^000000
+A rare revolver that is only produced when it is specially ordered.
+The engraving of its creator's name can be used by experts to authenticate this gun.
+HIT -10
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000070^000000
 Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B2^000000
@@ -60320,14 +60346,10 @@ Required Level: ^0EAA0B55^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13105#
-A rare pistol that
-is only produced when
-it is specially ordered. The engraving of its
-creator's name can be
-used by experts to
-authenticate this gun.
-HIT -10.
-Class: ^6A5ACDPistol^000000
+A rare revolver that is only produced when it is specially ordered.
+The engraving of its creator's name can be used by experts to authenticate this gun.
+HIT -10
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000070^000000
 Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B2^000000
@@ -60335,17 +60357,11 @@ Required Level: ^0EAA0B55^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13106#
-A decorative, beautiful golden pistol that
-commands attention.
-Enables a low chance
-of automatically casting Coin Flip with each
-attack. Autocast Coin
-Flip will be equal to
-the Coin Flip skill
-level that the user
-has learned.
-HIT -10.
-Class: ^6A5ACDPistol^000000
+A decorative, beautiful golden revolver that commands attention.
+HIT -10
+Enables a low chance of auto cast Coin Flip with each attack.
+Coin Flip's level will be equal to the Coin Flip skill level that the user has learned.
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000020^000000
 Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B3^000000
@@ -60353,18 +60369,9 @@ Required Level: ^0EAA0B12^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13107#
-A highly accurate
-and rapid firing gun
-that was made in the
-memory of all the
-Gunslingers that had
-braved the unexplored
-wilderness. The Hit
-and ASPD
-bonuses of this
-weapon depend on
-the wearer's AGI.
-Class: ^6A5ACDPistol^000000
+A highly accurate and rapid firing gun that was made in the memory of all the Gunslingers that had braved the unexplored wilderness.
+Adds HIT and ASPD bonus depend on wielder's AGI stats.
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000068^000000
 Weight: ^0EAA0B58^000000
 Weapon Level: ^0EAA0B3^000000
@@ -60372,14 +60379,14 @@ Required Level: ^0EAA0B70^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13108#
-A Pistol made for short and medium ranged battles against Demihuman.
+A revolver made for short and medium ranged battles against Demihuman.
 It seems to be capable of doing damage even through a bulletproof vest.
-DEX +2, Accuracy -10
-Increases Physical Attack Strength towards Demihuman monsters by 55%.
+DEX +2, HIT -10
+Increases physical damage inflicted on Demihuman monsters by 55%.
 Ignores Physical Defense from Demihuman monsters by 20%.
-When attacking, and weapon awakening in consistent probability, Has a chance of Increasing ASPD by 100% for 3 seconds.
+When dealing physical damage, adds a chance of Increasing ASPD by 100% for 3 seconds.
 ^702180Indestructible^000000
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000070^000000
 Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B3^000000
@@ -60388,8 +60395,9 @@ Jobs: ^6A5ACDGunslinger^000000
 #
 13109#
 ^000088Rental Item^000000
-A handgun known for high accuracy and firing rate, it is known to be made for the lawless one who have gone through many difficult situations with nothing but his trusty gun.
-Increases HIT and Attack Speed depending on the AGI of the player. Adds 40% damage to the monster.
+A highly accurate and rapid firing gun that was made in the memory of all the Gunslingers that had braved the unexplored wilderness.
+Adds HIT and ASPD bonus depend on wielder's AGI stats.
+Increases damage inflicted on enemies by 40%.
 Class: ^6A5ACDRevolver^000000
 Attack: ^D80000100^000000
 Weight: ^0EAA0B0^000000
@@ -60425,7 +60433,7 @@ Jobs: ^6A5ACDGunslinger^000000
 A revolver that is made by the Eden Group. This is easy for beginning Gunslingers to weild.
 HIT -5.
 ^FF0000Unrefineable^000000
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000044^000000
 Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B2^000000
@@ -60436,7 +60444,7 @@ Jobs: ^6A5ACDGunslinger^000000
 A revolver that is made by the Eden Group. It's suitable for an intermediate gun handler.
 HIT -5.
 ^FF0000Unrefineable^000000
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000060^000000
 Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B2^000000
@@ -60447,7 +60455,7 @@ Jobs: ^6A5ACDGunslinger^000000
 A revolver that is made by the Eden Group. It's suitable for an advanced gun handler.
 HIT -5.
 ^FF0000Unrefineable^000000
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000076^000000
 Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B3^000000
@@ -60458,7 +60466,7 @@ Jobs: ^6A5ACDGunslinger^000000
 Revolver that is coated by Oridecon and Gold with perfect level.
 [Per Refine]ATK +5, Ranged Physical Attack +2%
 BaseLevel 70 or Higher : ATK +5 Every 10 BaseLevel
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000035^000000
 Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B3^000000
@@ -60467,7 +60475,7 @@ Jobs: ^6A5ACDGunslinger^000000
 #
 13116#
 HIT -5.
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000020^000000
 Weight: ^0EAA0B50^000000
 WeaponLevel: ^7777771^000000
@@ -60479,7 +60487,7 @@ Jobs: ^777777Gunslinger^000000
 * Use it in TE WoE
 +40% Physical Attack to Players.
 While Doing Physical Attacks, High Probability of Casting "The Curse".
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000060^000000
 Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B3^000000
@@ -60496,7 +60504,7 @@ Required Level: ^0EAA0B1^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13119#
-Mysterious pistol made by an amateur with the aid of some magic touch from a master of gunnery.
+Mysterious revolver made by an amateur with the aid of some magic touch from a master of gunnery.
 Class: ^6A5ACDRevolver^000000
 Attack: ^D80000100^000000
 Weight: ^0EAA0B10^000000
@@ -60554,7 +60562,7 @@ Jobs: ^6A5ACDGunslinger^000000
 13126#
 This weapon contains a strange energy.
 I feel that one of its benefits were sealed with a high cost.
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D80000175^000000
 Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B4^000000
@@ -60565,7 +60573,7 @@ Jobs: ^6A5ACDGunslinger^000000
 Pistol with red light radiance barrel.
 ATK increased by (Refine*Refine), up to +15 refine.
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D80000100^000000
 Weight: ^0EAA0B100^000000
 Weapon Level: ^0EAA0B3^000000
@@ -60573,10 +60581,10 @@ Required Level: ^0EAA0B70^000000
 Jobs: ^6A5ACDGunslinger^000000
 #
 13128#
-Pistol imbued with Vicious Mind.
+Revolver imbued with Vicious Mind.
 Increase ATK by (refine*refine)
 (up to +15 refine level)
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D80000150^000000
 Weight: ^0EAA0B150^000000
 Weapon Level: ^0EAA0B4^000000
@@ -60586,7 +60594,7 @@ Jobs: ^6A5ACDGunslinger^000000
 13129#
 A certified kingdom equipment for adventurer.
 Increase ATK by (Refine*Refine*1.25)
-Class: ^6A5ACDPistol^000000
+Class: ^6A5ACDRevolver^000000
 Attack: ^D8000095^000000
 Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B3^000000
@@ -83952,7 +83960,7 @@ Jobs: ^6A5ACDRanger^000000
 18123#
 Bow with storm symbol on it.
 Increase ranged physical damage by 30%.
-Reduce Severe Rainstorm skill cooldown by 2 seconds.
+Reduces Severe Rainstorm skill cooldown by 2 seconds.
 Increase Severe Rainstorm SP consumption by 15.
 Class: ^6A5ACDBow^000000
 Attack: ^D80000160^000000
@@ -88855,9 +88863,12 @@ All stats +1.
 Each refine increase ATK +4, MATK +4.
 Each 2 refine increase MaxHP, MaxSP 1%.
 Each 2 refine inflict 25% more damage with ^008800Triangle Shot^000000.
-If refine +6 or more cooldown reduce by 1 sec ^008800Masquerade-Enervation, Unlucky skills^000000.
-If refine +8 or more cooldown reduce by 1 sec ^008800Masquerade-Laziness, Weakness skills^000000.
-If refine +10 or more cooldown reduce by 1 sec ^008800Masquerade-Ignorance, Groomy skills^000000.
+Refine Level +6:
+Reduces skill cooldown of Masquerade Enervation and Masquerade Unlucky by 1 sec.
+Refine Level +8:
+Reduces skill cooldown of Masquerade Laziness and Masquerade Weakness by 1 sec.
+Refine Level +10:
+Reduces skill cooldown of Masquerade Ignorance and Masquerade Gloomy by 1 sec.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
@@ -88896,7 +88907,7 @@ All stats +1. MDEF+ 5. SP recovery increased by 20%.
 Each refine increase MATK +1%.
 Each 2 refine increase MaxHP, MaxSP 1%.
 Each 2 refine inflict 5% more damage with ^008800Soul Expansion^000000.
-Crimson Rock skill 1 second cooldown reduction.
+Reduces Crimson Rock skill cooldown by 1 sec.
 According to refine, Crimson Rock skill 0.1 seconds Cooldown reduced.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
@@ -104509,7 +104520,7 @@ Class: ^6A5ACDSwordman and Merchant^000000
 #
 28101#
 Axe with attached blossom shaped like tornado.
-Reduce cooldown of Axe Boomerang by 1 second.
+Reduces skill cooldown of Axe Boomerang by 1 second.
 Class: ^6A5ACDTwo-Handed Axe^000000
 Attack: ^D80000320^000000
 Weight: ^0EAA0B400^000000
