@@ -1114,8 +1114,10 @@ tbl = {
 			"마법사계열, 복사계열, 닌자, 소울링커는 MATK 일정량 상승.",
 			"도둑계열은 FLEE 일정량 상승.",
 			"노비스, 슈퍼노비스, 태권, 권성은 HP, SP가 일정량 상승.",
-			"계열 : 투구 방어 : 1",
-			"위치 : 중단 무게 : 10",
+			"계열 : 투구",
+			"방어 : 1",
+			"위치 : 중단",
+			"무게 : 10",
 			"요구 레벨 : 1",
 			"장착 : 전 직업 '",
 			"Weight: ^0EAA0B1^000000"
@@ -8733,6 +8735,42 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[17650] = {
+		unidentifiedDisplayName = "제련용 광석상자XII",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "제련용 광석상자XII",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"농축 에르늄, 농축 오리데오콘이 각각 5개씩 들어있는 상자. 추가로 천사 스크롤이 1개 들어있다.",
+			"^ffffff_^000000",
+			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
+			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
+			"^ffffff_^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17651] = {
+		unidentifiedDisplayName = "제련용 광석상자XII 10세트",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "제련용 광석상자XII 10세트",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"농축 에르늄, 농축 오리데오콘이 각각 50개씩 들어있는 상자. 추가로 천사 스크롤이 11개 들어있다.",
+			"^ffffff_^000000",
+			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
+			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
+			"^ffffff_^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[18132] = {
 		unidentifiedDisplayName = "활",
 		unidentifiedResourceName = "보우",
@@ -8884,6 +8922,24 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 1358
+	},
+	[20446] = {
+		unidentifiedDisplayName = "투구",
+		unidentifiedResourceName = "햇",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "의상 토끼귀 알껍질",
+		identifiedResourceName = "토끼귀알껍질",
+		identifiedDescriptionName = {
+			"빨간색 귀가 달려 있는 부활절 모자. ",
+			"아주 대단해 보인다.",
+			"계열 : ^777777의상장비^000000",
+			"방어 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1339
 	},
 	[20504] = {
 		unidentifiedDisplayName = "걸칠것",
@@ -9239,6 +9295,26 @@ tbl = {
 			"Weight: ^0EAA0B70^000000",
 			"Required Level: ^0EAA0B175^000000",
 			"Jobs: ^6A5ACDDoram race^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[22101] = {
+		unidentifiedDisplayName = "신발",
+		unidentifiedResourceName = "샌들",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "천사포링 부츠",
+		identifiedResourceName = "메디컬부츠",
+		identifiedDescriptionName = {
+			"아크엔젤링 장식이 붙어있는 파란 색의 부츠.",
+			"조합하는 돌의 종류에 따라 능력이 추가된다.",
+			"All State +1",
+			"[힐] Lv.1 사용 가능.",
+			"계열 : ^777777신발^000000",
+			"방어 : ^77777715^000000",
+			"무게 : ^77777730^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -10804,6 +10880,35 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23072] = {
+		unidentifiedDisplayName = "천사 스크롤",
+		unidentifiedResourceName = "사명스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "천사 스크롤",
+		identifiedResourceName = "사명스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 천사 스크롤. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 봉인된인장카드, 천사포링부츠상자, 부위별 쉐도우 큐브등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23073] = {
+		unidentifiedDisplayName = "천사포링 부츠 상자",
+		unidentifiedResourceName = "번호상자03",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "천사포링 부츠 상자",
+		identifiedResourceName = "번호상자03",
+		identifiedDescriptionName = {
+			"천사포링 부츠가 들어있는 상자.",
+			"천사포링 부츠에 장착시, 추가로 능력을 얻을 수 있는 돌이 1종 포함되어 있다.",
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[24246] = {
 		unidentifiedDisplayName = "Shadow Accessory",
 		unidentifiedResourceName = "이어링쉐도우",
@@ -11543,6 +11648,150 @@ tbl = {
 			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24282] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "슈퍼노비스 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.",
+			"노비스 계열만 착용할 수 있다.",
+			"――――――――――――― ",
+			"MaxHP +1000, MaxSP +200",
+			"[한손검 수련] 스킬 레벨 1당 일반 몬스터의 물리 방어력 3% 무시.",
+			"[SP회복력 향상] 스킬 레벨 1당 일반 몬스터의 마법 방어력 3% 무시.",
+			"제련도 1당 일반 몬스터의 물리, 마법 방어력 3% 무시.",
+			"7제련 시, MaxHP +5%, MaxSP +5%",
+			"9제련 시, MaxHP +5%, MaxSP +5%, SP 회복력 + 100%",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777노비스 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24283] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "건슬링거 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.",
+			"건슬링거 계열만 착용할 수 있다.",
+			"――――――――――――― ",
+			"ASPD +1",
+			"[스네이크 아이] 스킬 레벨 1당 일반 몬스터의 물리 방어력 3% 무시.",
+			"제련도 1당 일반 몬스터의 물리 방어력 3% 무시.",
+			"7제련 시 ASPD +1 추가, 원거리물리공격력 3% 추가",
+			"9제련 시 ASPD +1 추가, 원거리물리공격력 5% 추가",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777건슬링거 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24284] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "태권 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.",
+			"태권 계열만 착용할 수 있다.",
+			"――――――――――――― ",
+			"ASPD +1",
+			"제련도 1당 ATK & MATK 1% 추가",
+			"7제련 시 ASPD +1 추가, MaxHP +1000, MaxSP +200.",
+			"9제련 시 ASPD +1 추가, MaxHP +10%, MaxSP +10%",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777태권 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24285] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "닌자 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.",
+			"닌자 계열만 착용할 수 있다.",
+			"――――――――――――― ",
+			"ATK & MATK +3%",
+			"[폭발쿠나이] 스킬 쿨 타임 2초 감소.",
+			"[인법수련]의 레벨 1당 MATK +3",
+			"7제련 시 ATK & MATK +3% 추가",
+			"9제련 시 ATK & MATK +4% 추가",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777닌자 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24286] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "도람 매지컬 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.",
+			"도람족만 착용할 수 있다.",
+			"――――――――――――― ",
+			"변동 캐스팅 시간 5% 감소",
+			"제련도 1당 변동 캐스팅 시간 1% 추가 감소",
+			"[대지의 힘] 을 배웠을 시 고정캐스팅 0.1초 감소",
+			"[바다의 힘] 을 배웠을 시 스킬 사용 시, SP 소모량 3% 감소",
+			"7제련 이상 시, MATK +5%",
+			"9제련 이상 시, MATK +5% 추가",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24287] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "도람 피지컬 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.",
+			"도람족만 착용할 수 있다.",
+			"――――――――――――― ",
+			"제련도 1당 원거리 물리 공격력 1% 증가.",
+			"[생명의 힘] 을 배웠을 시 ASPD +1.",
+			"7제련 이상 시, 완전회피 +2.",
+			"9제련 이상 시, 완전회피 +3 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777도람족^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12386,6 +12635,413 @@ tbl = {
 		identifiedDescriptionName = {
 			"루티에에서 선물을 장식할 때 사용하는 마법의 날개. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다.",
 			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25142] = {
+		unidentifiedDisplayName = "도람 토큰",
+		unidentifiedResourceName = "블랙캣",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "도람 토큰",
+		identifiedResourceName = "블랙캣",
+		identifiedDescriptionName = {
+			"모험가 도람들 사이에서 통용되는 장비 교환 토큰. 더 원활한 모험장비를 갖추기 위해서 여러모로 쓸모가 많은 토큰이다.",
+			"",
+			"^ffffff<NAVI>^4D4DFF[도람족 챠라 가족]^000000<INFO>lasagna,135,247,0,200,0,0</INFO></NAVI>^000000",
+			"",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[28413] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "하급 전갱이 부적",
+		identifiedResourceName = "전갱이",
+		identifiedDescriptionName = {
+			"진짜 전갱이와 똑같이 만들어져 있는 부적.",
+			"VIT + 1.",
+			"귀여운 풀 목걸이, 도람 전용 망토, 도람 전용 슈즈, 도람 전용 슈츠와 함께 장착 시,",
+			"MHP +15%, MSP +5%, 힐량 +10%, 힐 5레벨 사용 가능.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28414] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "중급 전갱이 부적",
+		identifiedResourceName = "전갱이",
+		identifiedDescriptionName = {
+			"진짜 전갱이와 똑같이 만들어져 있는 부적.",
+			"VIT + 2.",
+			"귀여운 풀 목걸이, 도람 고급 망토, 도람 고급 슈즈, 도람 고급 슈츠와 함께 장착 시,",
+			"MHP +20%, MSP +10%, 힐량 +20%, 힐 7레벨 사용 가능.",
+			"",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777140^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28415] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "상급 전갱이 부적",
+		identifiedResourceName = "전갱이",
+		identifiedDescriptionName = {
+			"진짜 전갱이와 똑같이 만들어져 있는 부적",
+			"VIT + 3.",
+			"귀여운 풀 목걸이, 도람 엘레강스 망토, 도람 엘레강스 슈즈, 도람 엘레강스 슈츠와 함께 장착 시,",
+			"MHP +25%, MSP +15%, 힐량 +30%, 힐 9레벨 사용 가능.",
+			"",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777175^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28416] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "하급 잎부적",
+		identifiedResourceName = "구약",
+		identifiedDescriptionName = {
+			"개다래 나뭇잎 모양 부적.",
+			"INT + 1.",
+			"부적 풀 목걸이, 도람 전용 망토, 도람 전용 슈즈, 도람 전용 슈츠와 함께 장착 시,",
+			"MHP +10%, MSP +10%, 스킬 개박하 메테오의 공격력 +100%.",
+			"",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28417] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "중급 잎부적",
+		identifiedResourceName = "구약",
+		identifiedDescriptionName = {
+			"개다래 나뭇잎 모양 부적.",
+			"INT + 2.",
+			"부적 풀 목걸이, 도람 고급 망토, 도람 고급 슈즈, 도람 고급 슈츠와 함께 장착 시,",
+			"MHP +15%, MSP +15%, 스킬 개박하 메테오의 공격력 +150%.",
+			"",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777140^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28418] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "상급 잎부적",
+		identifiedResourceName = "구약",
+		identifiedDescriptionName = {
+			"개다래 나뭇잎 모양 부적.",
+			"INT + 3.",
+			"부적 풀 목걸이, 도람 엘레강스 망토, 도람 엘레강스 슈즈, 도람 엘레강스 슈츠와 함께 장착 시,",
+			"MHP +20%, MSP +20%, 스킬 개박하 메테오의 공격력 +200%.",
+			"",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777175^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28419] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "하급 토끼부적",
+		identifiedResourceName = "봉제인형",
+		identifiedDescriptionName = {
+			"귀여운 토끼인형 모양의 부적.",
+			"DEX + 1.",
+			"풋풋한 풀 목걸이, 도람 전용 망토, 도람 전용 슈즈, 도람 전용 슈츠와 함께 장착 시,",
+			"MHP +20%, MSP +3%, 스킬 루나틱 당근난타의 공격력 +100%.",
+			"",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28420] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "중급 토끼부적",
+		identifiedResourceName = "봉제인형",
+		identifiedDescriptionName = {
+			"귀여운 토끼인형 모양의 부적.",
+			"DEX + 2.",
+			"풋풋한 풀 목걸이, 도람 고급 망토, 도람 고급 슈즈, 도람 고급 슈츠와 함께 장착 시,",
+			"MHP +25%, MSP +6%, 스킬 루나틱 당근난타의 공격력 +150%.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777140^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28421] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "상급 토끼부적",
+		identifiedResourceName = "봉제인형",
+		identifiedDescriptionName = {
+			"귀여운 토끼인형 모양의 부적.",
+			"DEX + 3.",
+			"풋풋한 풀 목걸이, 도람 엘레강스 망토, 도람 엘레강스 슈즈, 도람 엘레강스 슈츠와 함께 장착 시,",
+			"MHP +30%, MSP +9%, 스킬 루나틱 당근난타의 공격력 +200%.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777175^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28422] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "빛나는 가지 부적",
+		identifiedResourceName = "엘더의가지",
+		identifiedDescriptionName = {
+			"개다래 줄기창의 변동 캐스팅 50% 감소.",
+			"개다래 줄기창 데미지가 INT와 스킬 레벨에 따라 증가.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28423] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "신선한 다랑어 부적",
+		identifiedResourceName = "참다랑어",
+		identifiedDescriptionName = {
+			"참치파티의 스킬 쿨 타임 5초 감소.",
+			"근접 물리 공격받을 시 일정 확률로 자신에게 오토스펠 참치파티 1Lv 시전.(스킬을 습득 한 경우 습득한 레벨로 발동)",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28424] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "통통한 지렁이 부적",
+		identifiedResourceName = "토실토실지렁이",
+		identifiedDescriptionName = {
+			"픽키 마구쪼기의 변동 캐스팅 50% 감소.",
+			"픽키 마구쪼기의 데미지가 DEX와 스킬 레벨에 따라 증가.",
+			"",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777771^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[29148] = {
+		unidentifiedDisplayName = "사자자리 돌",
+		unidentifiedResourceName = "사자자리스크롤2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "사자자리 돌",
+		identifiedResourceName = "사자자리스크롤2",
+		identifiedDescriptionName = {
+			"신발의 빈 슬롯에 장착할 수 있는 사자자리 별자리의 힘이 담긴 돌.",
+			"천사포링 부츠에 장착해야만 제대로 된 능력을 발휘할 수 있다.",
+			"STR +1. ",
+			"――――――――――――― ",
+			"천사포링의 부츠에 장착시,",
+			"MaxHP +5%, MaxSP +5%.",
+			"7제련 시, ATK +2%",
+			"9제련 시, ATK +3% 추가",
+			"12제련 시, 스킬 후 딜레이 5% 감소",
+			"――――――――――――― ",
+			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
+			"계열 : ^777777특수인챈트^000000 ",
+			"장착 : ^777777신발^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29149] = {
+		unidentifiedDisplayName = "물고기자리 돌",
+		unidentifiedResourceName = "물고기자리스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "물고기자리 돌",
+		identifiedResourceName = "물고기자리스크롤",
+		identifiedDescriptionName = {
+			"신발의 빈 슬롯에 장착할 수 있는 물고기자리 별자리의 힘이 담긴 돌.",
+			"천사포링 부츠에 장착해야만 제대로 된 능력을 발휘할 수 있다.",
+			"INT +1. ",
+			"――――――――――――― ",
+			"천사포링의 부츠에 장착시, ",
+			"MaxHP +5%, MaxSP +5%.",
+			"7제련 시, MATK +2%",
+			"9제련 시, MATK +3% 추가",
+			"12제련 시, 스킬 후 딜레이 5% 감소",
+			"――――――――――――― ",
+			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
+			"계열 : ^777777특수인챈트^000000 ",
+			"장착 : ^777777신발^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29150] = {
+		unidentifiedDisplayName = "염소자리 돌",
+		unidentifiedResourceName = "염소자리스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "염소자리 돌",
+		identifiedResourceName = "염소자리스크롤",
+		identifiedDescriptionName = {
+			"신발의 빈 슬롯에 장착할 수 있는 염소자리 별자리의 힘이 담긴 돌. ",
+			"천사포링 부츠에 장착해야만 제대로 된 능력을 발휘할 수 있다.",
+			"AGI +1. ",
+			"――――――――――――― ",
+			"천사포링의 부츠에 장착시, ",
+			"MaxHP +5%, MaxSP +5%.",
+			"7제련 시, 공격속도 증가(공격 후 딜레이 5% 감소)",
+			"9제련 시, 공격 후 딜레이 5% 추가 감소",
+			"12제련 시, 스킬 후 딜레이 5% 감소",
+			"――――――――――――― ",
+			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
+			"계열 : ^777777특수인챈트^000000 ",
+			"장착 : ^777777신발^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29151] = {
+		unidentifiedDisplayName = "물병자리 돌",
+		unidentifiedResourceName = "물병자리스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "물병자리 돌",
+		identifiedResourceName = "물병자리스크롤",
+		identifiedDescriptionName = {
+			"신발의 빈 슬롯에 장착할 수 있는 물병자리 별자리의 힘이 담긴 돌. ",
+			"천사포링 부츠에 장착해야만 제대로 된 능력을 발휘할 수 있다.",
+			"VIT +1. ",
+			"――――――――――――― ",
+			"천사포링의 부츠에 장착시, ",
+			"MaxHP +5%, MaxSP +5%.",
+			"7제련 시, 무속성 공격에 대한 내성 2% 증가.",
+			"9제련 시, 무속성 공격에 대한 내성 3% 추가 증가.",
+			"12제련 시, 스킬 후 딜레이 5% 감소",
+			"――――――――――――― ",
+			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
+			"계열 : ^777777특수인챈트^000000 ",
+			"장착 : ^777777신발^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29152] = {
+		unidentifiedDisplayName = "전갈자리 돌",
+		unidentifiedResourceName = "전갈자리스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "전갈자리 돌",
+		identifiedResourceName = "전갈자리스크롤",
+		identifiedDescriptionName = {
+			"신발의 빈 슬롯에 장착할 수 있는 전갈자리 별자리의 힘이 담긴 돌. ",
+			"천사포링 부츠에 장착해야만 제대로 된 능력을 발휘할 수 있다.",
+			"DEX +1. ",
+			"――――――――――――― ",
+			"천사포링의 부츠에 장착시, ",
+			"MaxHP +5%, MaxSP +5%.",
+			"7제련 시, 원거리 물리 공격력 2% 증가.",
+			"9제련 시, 원거리 물리 공격력 3% 추가 증가.",
+			"12제련 시, 스킬 후 딜레이 5% 감소",
+			"――――――――――――― ",
+			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
+			"계열 : ^777777특수인챈트^000000 ",
+			"장착 : ^777777신발^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29153] = {
+		unidentifiedDisplayName = "황소자리 돌",
+		unidentifiedResourceName = "황소자리스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "황소자리 돌",
+		identifiedResourceName = "황소자리스크롤",
+		identifiedDescriptionName = {
+			"신발의 빈 슬롯에 장착할 수 있는 황소자리 별자리의 힘이 담긴 돌. ",
+			"천사포링 부츠에 장착해야만 제대로 된 능력을 발휘할 수 있다.",
+			"LUK +1. ",
+			"――――――――――――― ",
+			"천사포링의 부츠에 장착시, ",
+			"MaxHP +5%, MaxSP +5%.",
+			"7제련 시, 크리티컬 데미지 2% 증가",
+			"9제련 시, 크리티컬 데미지 3% 추가 증가",
+			"12제련 시, 스킬 후 딜레이 5% 감소",
+			"――――――――――――― ",
+			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
+			"계열 : ^777777특수인챈트^000000 ",
+			"장착 : ^777777신발^000000",
+			"무게 : ^7777770^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
