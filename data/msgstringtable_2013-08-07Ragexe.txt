@@ -85,8 +85,8 @@ Party Capacity exceeded.#
 You left the party.#
 Send to All#
 Send to Party#
-Request a deal with %s#
-Ask %s to join your party#
+Send transaction request#
+Send party invitation#
 Pri:#
 Pub:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
@@ -180,9 +180,9 @@ There are %d Players Currently Connected.#
 (%s) has entered.#
 (%s) has left.#
 (%s) was kicked out.#
-%d ea.#
+ %d ea.#
 %s: %d ea.#
-%s %s: %d#
+%s %s: %d ea.#
 Available Items to sell#
 Shop Items#
 Unknown Area#
@@ -385,8 +385,8 @@ You haven't learned enough skills for aligning.#
 Alignning completed.#
 You already spent your point for today.#
 Hasn't been a month yet since you aligned this person.#
-Remember, Spamming isn't nice.#
-Please refrain from ill-mannered conduct, thank you.#
+Received positive manner point from %s.#
+Received negative manner point from %s.#
 Align with a Good Point#
 Align with a Bad Point#
 Request a deal with (%s)#
@@ -428,8 +428,8 @@ Item List you can craft#
 's materials#
  item creation failed.#
  item created successfully.#
- item creation failed.#
- item created successfully.#
+Failed to create %s.#
+Succeed to create %s.#
 You are not the required lvl.#
 Too high lvl for this job.#
 Not the suitable job for this type of work.#
@@ -481,12 +481,12 @@ Power-Thrust Canceled.#
 Maximize-Power Initiated.#
 Maximize-Power Canceled.#
 [New Server]#
-(%d)#
+(%d players)#
 (On the maintenance)#
-Guildsman %s has connected.#
-Guildsman %s has disconnected.#
-You got %s Base EXP.#
-You got %s Job EXP.#
+Guild member %s has connected.#
+Guild member %s has disconnected.#
+You got %d Base EXP.#
+You got %d Job EXP.#
 You left the guild.#
 You have been expelled from the Guild.#
 Item Appraisal has completed successfully.#
@@ -530,7 +530,7 @@ https://pay.ragnarok.co.kr (Billing Web)#
 IP capacity of this Internet Cafe is full. Would you like to pay the personal base?#
 You are out of available paid playing time. Game will be shut down automatically.#
 Name is too long. Please enter a name no greater than 23 english characters.#
-Character will be deleted in %d seconds.#
+deleted#
 You paid with the personal regular base.#
 You paid with the personal regular base. Available time is xx hrs xx mins xx secs.#
 You are free!#
@@ -589,7 +589,7 @@ Please avoid opening a chatroom while vending.#
 ea#
 You have knocked down %s.#
 You have been knocked down by %s.#
-Feed - "%s" is not available.#
+Pet food '%s' is not available.#
 Feed Pet#
 Performance#
 Return to Egg#
@@ -795,13 +795,13 @@ Help me out~ Please~ T_T#
  wishes to adopt you. Do you accept?#
 Z ~ > keys allow you to use skills assigned on shortcut window 1. On | Off#
 Press the space bar to Chat when in Battle mode [/battlemode | /bm].#
-"Either there's no Game Guard installed on the program or Game Guard is cracked. Please, try to reinstall Game Guard from its setup file."#
+'Either there's no Game Guard installed on the program or Game Guard is cracked. Please, try to reinstall Game Guard from its setup file.'#
 Some of Windows system files have been damaged. Please re-install your Internet Explorer.#
-"Failed to run Game Guard. Please, try to reinstall Game Guard from its setup file."#
-"At least one hazardous program has been detected. Please, terminate all the unnecessary programs before executing Game Guard."#
-"Game Guard update is canceled. If the disconnection continues, please, check your internet or firewall settings."#
-"Failed to connect to Game Guard update server. Try to connect again later, or try to check the internet or firewall settings."#
-"Can't complete Game Guard update process. Please, try to execute a vaccine program to remove viruses. Or, please try to modify the settings of your PC managing tool if you are using any."#
+'Failed to run Game Guard. Please, try to reinstall Game Guard from its setup file.'#
+'At least one hazardous program has been detected. Please, terminate all the unnecessary programs before executing Game Guard.'#
+'Game Guard update is canceled. If the disconnection continues, please, check your internet or firewall settings.'#
+'Failed to connect to Game Guard update server. Try to connect again later, or try to check the internet or firewall settings.'#
+'Can't complete Game Guard update process. Please, try to execute a vaccine program to remove viruses. Or, please try to modify the settings of your PC managing tool if you are using any.'#
 /notrade: Declines trade offers automatically. On | Off#
 Auto decline trade offers has been Enabled. [/nt ON]#
 Auto decline trade offers has been Disabled. [/nt OFF]#
@@ -1543,9 +1543,9 @@ Admission application complete.#
 It was unregistered and not be able to enter the state.#
 Current admission application state.#
 Do you want to cancel the admission application?#
-Admission request has been cancelled.#
-Go to the battlefield quickly.#
-Battlefield - [%s]#
+%s has canceled Battle field admission.#
+After %s go to the Battle field. Make sure you're in stable condition. (Trading and teleportation are disabled)#
+Formal Name#
 Do you really want to go back to your savepoint?#
 Search Message for Party Members#
 Message option is off the search party members.#
@@ -1610,7 +1610,7 @@ Someone#
 You dropped %s (%d).#
 [%s] Quest - defeated [%s] progress (%d/%d)#
 [%s] Quest was deleted.#
-[%s] has #
+[%s] battle logs: #
 %d Base Experience#
 %d Job Experience#
  gained.#
@@ -1622,8 +1622,8 @@ Experience Message#
 Party Experience Message#
 Quest Info Message#
 Battlefield Message#
-#
-Cast [%s] skill.#
+%s #
+cast [%s] skill.#
 Activate lock function#
 Deactivate lock function#
 Citizens of Midgard, Lady Luck shines upon [%s] !! [%s] has awarded the player with '%s' !!##
@@ -1723,10 +1723,10 @@ Price: #
 Money: #
 Purchase Zeny Limit#
 Please register the item first that has to be purchased.#
-Enter the price for item %s.#
-Enter the price for item %s. It has to be below 99990000 Zeny.#
-Enter the item number for %s.#
-The sum of purchasing and belonging items is over 9999. The sum has to be bellow 9999.#
+Please enter the price for item %s.#
+Please enter the price for item %s. It must be less than 9999 million Zeny.#
+Please enter the quantity for %s.#
+The total quantity of %s in possession is more than 9999. Please enter value less than 9999.#
 You have duplicate items in your purchase list.#
 Enter the limited price.#
 You have entered a greater amount of zeny than you have. Please check your zeny.#
@@ -2242,7 +2242,7 @@ Do you want to cancel navigation?#
 How to Use Navigation#
 ------------------- Instruction --------------------#
 1) /Navigation or /navi#
-ex) /navi prontera 100 100 -> /navi "MAPNAME", 100, 100#
+ex) /navi prontera 100 100 -> /navi 'MAPNAME', 100, 100#
 2) /Navigation2 or /navi2 #
 ex) /navi2 prontera 100 111#
 -> MAPNAME location (100 90), Scroll | Zeny | Plane (1: Enable or 0: Disable)#
@@ -2253,7 +2253,7 @@ ex) /navi2 prontera 100 111#
 -------------------  Description  --------------------#
 1) One can search for monsters, npcs, maps, or all at once#
 2) You can press the search button to get results. It will out put the results depending on what rule you choose#
-ex) Drop down box -> Select "Npc", then type in the box "Kafra". Results will now be displayed#
+ex) Drop down box -> Select 'Npc', then type in the box 'Kafra'. Results will now be displayed#
 3) When you select an item from a list, information about it are displayed.#
 -> When button is clicked, it will point you towards your destination if available#
 4) Scroll | Zeny | Plane options can be checked to find a faster route#
@@ -2315,9 +2315,9 @@ You have reached your goal#
 Please go to indicated direction.#
 The goal has been reached#
 Navigation >: %s#
-Navigation >: Talk to "%s"#
-Navigation >: Please move to "%s" map#
-Navigation >: Then select "%s"#
+Navigation >: Talk to '%s'#
+Navigation >: Please move to '%s' map#
+Navigation >: Then select '%s'#
 Navigation >: Please move to the Airship#
 Navigation >: Use the Warp Portal to move to the next area.#
 Item: #
@@ -2411,7 +2411,7 @@ Currently,Server is full.           ^0000ffPeople Currently Waiting : %d        
 Currently,Server is full.           ^0000ffPeople Currently Waiting : %d                    Expected Waiting Time : %dMinutes %d Seconds#
 CBT is not an invited user#
 ------------------- Instruction --------------------#
-1) /Navigation or /navi ex) /navi prontera 100 100 -> /navi "MAPNAME", 100, 100#
+1) /Navigation or /navi ex) /navi prontera 100 100 -> /navi 'MAPNAME', 100, 100#
 2) /Navigation2 or /navi2 ex) /navi2 prontera 100 111 -> MAPNAME location (100 90), Scroll | Zeny | Plane (1: Enable or 0: Disable)#
 -> /navi2 goes with the case with location coordinates. They must be no less than 3 characters #
 3) $$all Output all the items (Can take a while...) #
