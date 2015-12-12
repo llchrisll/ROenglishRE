@@ -1868,7 +1868,7 @@ SKILL_DESCRIPT = {
 		"by the barrier accumulate.^000000"
 	},
 	[SKID.RG_SNATCHER] = {
-		"Snatcher",
+		"Snatcher (Gank)",
 		"Max Level: 10",
 		"^CC3399Requirement: Steal 1^000000",
 		"Skill Form: ^6666ccPassive^000000",
@@ -1879,7 +1879,7 @@ SKILL_DESCRIPT = {
 		"level of the Thief skill, ^00BB00Steal^777777.^000000"
 	},
 	[SKID.RG_STEALCOIN] = {
-		"Steal Coin",
+		"Steal Coin (Mug)",
 		"Max Level: 10",
 		"^CC3399Requirement: Snatcher 4^000000",
 		"Skill Form: ^339900Active^000000",
@@ -1906,7 +1906,7 @@ SKILL_DESCRIPT = {
 		"but it will cancel Hiding.^000000"
 	},
 	[SKID.RG_TUNNELDRIVE] = {
-		"Tunnel Drive",
+		"Tunnel Drive (Stalk)",
 		"Max Level: 5",
 		"^CC3399Requirement: Hiding 1^000000",
 		"Skill Form: ^6666ccPassive^000000",
@@ -1916,7 +1916,7 @@ SKILL_DESCRIPT = {
 		"Movement speed is slower than normal walk.^000000",
 	},
 	[SKID.RG_RAID] = {
-		"Raid",
+		"Raid (Sightless Mind)",
 		"Max Level: 5",
 		"^CC3399Requirement: Tunnel Drive 2, Back Stab 2^000000",
 		"Skill Form: ^FF0000Offensive^000000",
@@ -1984,7 +1984,7 @@ SKILL_DESCRIPT = {
 		"success.^000000"
 	},
 	[SKID.RG_INTIMIDATE] = {
-		"Intimidate",
+		"Intimidate (Snatch)",
 		"Max Level: 5",
 		"^CC3399Requirement: Back Stab 4, Raid 5^000000",
 		"Skill Form: ^339900Active^000000",
@@ -1997,7 +1997,7 @@ SKILL_DESCRIPT = {
 		"Boss monsters are unaffected by Intimidate.^000000"
 	},
 	[SKID.RG_GRAFFITI] = {
-		"Graffiti",
+		"Graffiti (Scribble)",
 		"Max Level: 1",
 		"^CC3399Requirement: Flag Graffiti 5^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -2009,7 +2009,7 @@ SKILL_DESCRIPT = {
 		"Requires 1 ^00BB00Red Gemstone^777777.^000000"
 	},
 	[SKID.RG_FLAGGRAFFITI] = {
-		"Flag Graffiti",
+		"Flag Graffiti (Piece)",
 		"Max Level: 5",
 		"^CC3399Requirement: Cleaner 1^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -2021,7 +2021,7 @@ SKILL_DESCRIPT = {
 		"Requires 1 ^00BB00Giant Paint Brush^777777.^000000"
 	},
 	[SKID.RG_CLEANER] = {
-		"Cleaner",
+		"Cleaner (Remover)",
 		"Max Level: 1",
 		"^CC3399Requirement: Gangster Paradise 1^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -2030,7 +2030,7 @@ SKILL_DESCRIPT = {
 		"Requires 1 ^00BB00Wet Duster^777777.^000000"
 	},
 	[SKID.RG_GANGSTER] = {
-		"Gangster Paradise",
+		"Gangster Paradise (Slyness)",
 		"Max Level: 1",
 		"^CC3399Requirement: Strip Shield 3^000000",
 		"Skill Form: ^6666ccPassive^000000",
@@ -2039,7 +2039,7 @@ SKILL_DESCRIPT = {
 		"by monsters with the exception of Bosses.^000000"
 	},
 	[SKID.RG_COMPULSION] = {
-		"Compulsion Discount",
+		"Compulsion Discount (Haggle)",
 		"Max Level: 5",
 		"^CC3399Requirement: Gangster Paradise 1^000000",
 		"Skill Form: ^6666ccPassive^000000",
@@ -2052,7 +2052,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^77777725% Discount^000000"
 	},
 	[SKID.RG_PLAGIARISM] = {
-		"Plagiarism",
+		"Plagiarism (Intimidate)",
 		"Max Level: 10",
 		"^CC3399Requirement: Intimidate 5^000000",
 		"Skill Form: ^6666ccPassive^000000",
@@ -2081,7 +2081,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777ATK +30^000000"
 	},
 	[SKID.AM_LEARNINGPOTION] = {
-		"Learning Potion",
+		"Learning Potion (Potion Research)",
 		"Max Level: 10",
 		"Skill Form: ^6666ccPassive^000000",
 		"Description: ^777777Increase effectiveness of",
@@ -2089,7 +2089,7 @@ SKILL_DESCRIPT = {
 		"potion creation success rate.^000000"
 	},
 	[SKID.AM_PHARMACY] = {
-		"Pharmacy",
+		"Pharmacy (Prepare Potion)",
 		"Max Level: 10",
 		"^CC3399Requirement: Learning Potion 5^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -2100,7 +2100,7 @@ SKILL_DESCRIPT = {
 		"Each cast requires 1 ^00BB00Medicine Bowl^777777.^000000"
 	},
 	[SKID.AM_DEMONSTRATION] = {
-		"Demonstration",
+		"Demonstration (Bomb)",
 		"Max Level: 5",
 		"^CC3399Requirement: Pharmacy 4^000000",
 		"Skill Form: ^339900Active^000000",
@@ -2143,7 +2143,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777Blue Potion^000000"
 	},
 	[SKID.AM_CANNIBALIZE] = {
-		"Bio Cannibalize",
+		"Bio Cannibalize (Summon Flora)",
 		"Max Level: 5",
 		"^CC3399Requirement: Pharmacy 6^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -2323,7 +2323,7 @@ SKILL_DESCRIPT = {
 		"Requires ^00BB00Shield^777777.^000000"
 	},
 	[SKID.CR_SHIELDCHARGE] = {
-		"Shield Charge",
+		"Shield Charge (Smite)",
 		"Max Level: 5",
 		"^CC3399Requirement: Auto Guard 5^000000",
 		"Skill Form: ^FF0000Offensive^000000",
@@ -2381,7 +2381,7 @@ SKILL_DESCRIPT = {
 		"damage after Grand Cross is summoned.^000000"
 	},
 	[SKID.CR_DEVOTION] = {
-		"Devotion",
+		"Devotion (Sacrifice)",
 		"Max Level: 5",
 		"^CC3399Requirement: Grand Cross 4, Reflect Shield 5^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -2396,7 +2396,7 @@ SKILL_DESCRIPT = {
 		"Cannot be used for other Crusader class.^000000"
 	},
 	[SKID.CR_PROVIDENCE] = {
-		"Providence",
+		"Providence (Resistant Souls)",
 		"Max Level: 5",
 		"^CC3399Requirement: Divine Protection 5, Heal 5^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -2406,7 +2406,7 @@ SKILL_DESCRIPT = {
 		"property monsters.^000000"
 	},
 	[SKID.CR_DEFENDER] = {
-		"Defender",
+		"Defender (Defending Aura)",
 		"Max Level: 5",
 		"^CC3399Requirement: Shield Boomerang 1^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -3326,7 +3326,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777Block +50%^000000"
 	},
 	[SKID.LK_CONCENTRATION] = {
-		"Concentration",
+		"Concentration (Spear Dynamo)",
 		"Max Level: 5",
 		"^CC3399Requirement: Increase HP Recovery 5,",
 		"Spear Mastery 5, Riding 1^000000",
@@ -3474,7 +3474,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777Matk +50%^000000"
 	},
 	[SKID.PA_PRESSURE] = {
-		"Pressure",
+		"Pressure (Gloria Domini)",
 		"Max Level: 5",
 		"^CC3399Requirement: Endure 5, Faith 5, Shield Charge 2^000000",
 		"Skill Form: ^339900Active^000000",
@@ -3491,7 +3491,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^7777772,000 Damage^000000"
 	},
 	[SKID.PA_SACRIFICE] = {
-		"Sacrifice",
+		"Sacrifice (Martyr's Reckoning)",
 		"Max Level: 5",
 		"^CC3399Requirement: Endure 1, Devotion 3^000000",
 		"Skill Form: ^339900Active^000000",
@@ -3506,7 +3506,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777Damage x1.4^000000"
 	},
 	[SKID.PA_GOSPEL] = {
-		"Gospel",
+		"Gospel (Battle Chant)",
 		"Max Level: 10",
 		"^CC3399Requirement: Faith 8,",
 		"Divine Protection 3, Demon Bane 5^000000",
@@ -3721,7 +3721,7 @@ SKILL_DESCRIPT = {
 		"increase from Wind Walker.^000000"
 	},
 	[SKID.WS_MELTDOWN] = {
-		"Meltdown",
+		"Meltdown (Shattering Strike)",
 		"Max Level: 10",
 		"^CC3399Requirement: Skin Tempering 3,",
 		"Hilt Binding 1, Weaponry Research 5,",
@@ -3763,7 +3763,7 @@ SKILL_DESCRIPT = {
 	},
 	[SKID.WS_SYSTEMCREATE] = {},
 	[SKID.ST_CHASEWALK] = {
-		"Chase Walk",
+		"Chase Walk (Stealth)",
 		"Max Level: 5",
 		"^CC3399Requirement: Hiding 5, Tunnel Drive 3^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -3788,7 +3788,7 @@ SKILL_DESCRIPT = {
 		"+16 STR after 10 seconds.^000000"
 	},
 	[SKID.ST_REJECTSWORD] = {
-		"Reject Sword",
+		"Reject Sword (Counter Instinct)",
 		"Max Level: 5",
 		"Skill Form: ^339900Supportive^000000",
 		"Description: ^777777If an enemy is using a Sword",
@@ -3830,7 +3830,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^7777771200% ATK^000000"
 	},
 	[SKID.CG_MOONLIT] = {
-		"Moonlit Water Mill",
+		"Moonlit Water Mill (Sheltering Bliss)",
 		"Max Level: 5",
 		"19^CC3399Requirement: Musical Lesson 7,",
 		"20^CC3399Requirement: Dancing Lesson 7,",
@@ -3864,7 +3864,7 @@ SKILL_DESCRIPT = {
 		"from the caster.^000000"
 	},
 	[SKID.LK_SPIRALPIERCE] = {
-		"Spiral Pierce",
+		"Spiral Pierce (Clashing Spiral)",
 		"Max Level: 5",
 		"^CC3399Requirement: Spear Mastery 10,",
 		"Pierce 5, Riding 1, Spear Stab 5^000000",
@@ -3877,7 +3877,7 @@ SKILL_DESCRIPT = {
 		"and delay.^000000"
 	},
 	[SKID.LK_HEADCRUSH] = {
-		"Head Crush",
+		"Head Crush (Traumatic Blow)",
 		"Max Level: 5",
 		"^CC3399Requirement: Spear Mastery 9, Riding 1^000000",
 		"Skill Form: ^FF0000Offensive^000000",
@@ -3892,7 +3892,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777300% ATK^000000"
 	},
 	[SKID.LK_JOINTBEAT] = {
-		"Joint Beat",
+		"Joint Beat (Vital Strike)",
 		"Max Level: 10",
 		"^CC3399Requirement: Spear Mastery 9,",
 		"Riding 1, Cavalier Mastery 3,",
@@ -3928,7 +3928,7 @@ SKILL_DESCRIPT = {
 		"Napalm Vulcan.^000000"
 	},
 	[SKID.CH_SOULCOLLECT] = {
-		"Dangerous Soul Collect",
+		"Dangerous Soul Collect (Zen)",
 		"Max Level: 1",
 		"^CC3399Requirement: Explosion Spirits 5^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -3954,7 +3954,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777Matk +100%, Mdef -60%^000000"
 	},
 	[SKID.PF_MEMORIZE] = {
-		"Memorize",
+		"Memorize (Foresight)",
 		"Max Level: 1",
 		"^CC3399Requirement: Advanced Book 5, Auto Spell 1,",
 		"Free Cast 5^000000",
@@ -3966,7 +3966,7 @@ SKILL_DESCRIPT = {
 		"DEX, is 5 seconds.^000000"
 	},
 	[SKID.PF_FOGWALL] = {
-		"Wall of Fog",
+		"Wall of Fog (Blinding Mist)",
 		"Max Level: 1",
 		"^CC3399Requirement: Violent Gale 2, Deluge 2^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -3980,7 +3980,7 @@ SKILL_DESCRIPT = {
 		"to players in PvP zones.^000000"
 	},
 	[SKID.PF_SPIDERWEB] = {
-		"Spider Web",
+		"Spider Web (Fiber Lock)",
 		"Max Level: 1",
 		"^CC3399Requirement: Dragonology 4^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -5237,7 +5237,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777200% efficiency, Require White Potion^000000"
 	},
 	[SKID.CR_FULLPROTECTION] = {
-		"Full Protection",
+		"Full Chemical Protection",
 		"Max Level: 5",
 		"^CC3399Requirement: Chemical Protection",
 		"(Helm, Shield, Armor, and Weapon) 5^000000",
@@ -5252,7 +5252,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777600 Sec Duration^000000"
 	},
 	[SKID.PA_SHIELDCHAIN] = {
-		"Shield Chain",
+		"Shield Chain (Rapid Smiting)",
 		"Max Level: 5",
 		"^CC3399Requirement: Shield Boomerang 5^000000",
 		"Range: ^7777774 cells^000000",
@@ -5270,7 +5270,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777+150% Damage, HIT +20^000000"
 	},
 	[SKID.HP_MANARECHARGE] = {
-		"Mana Recharge",
+		"Mana Recharge (Spiritual Thrift)",
 		"Max Level: 5",
 		"^CC3399Requirement: Mace Mastery 10,",
 		"Demon Bane 10^000000",
@@ -5622,7 +5622,7 @@ SKILL_DESCRIPT = {
 		"on all enemies except Boss monsters.^000000"
 	},
 	[SKID.GS_MADNESSCANCEL] = {
-		"Madness Canceller",
+		"Madness Canceller (Last Stand)",
 		"Max Level: 1",
 		"^CC3399Requirement: Gatling Fever 10,",
 		"Coin Flip 4^000000",
@@ -5634,7 +5634,7 @@ SKILL_DESCRIPT = {
 		"cannot be used with Adjustment.^000000"
 	},
 	[SKID.GS_ADJUSTMENT] = {
-		"Adjustment",
+		"Adjustment (Gunslinger's Panic)",
 		"Max Level: 1",
 		"^CC3399Requirement: Disarm 5, Coin Flip 4^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -5656,7 +5656,7 @@ SKILL_DESCRIPT = {
 		"duration.^000000"
 	},
 	[SKID.GS_MAGICALBULLET] = {
-		"Magicial Bullet",
+		"Magical Bullet",
 		"Max Level: 1",
 		"^CC3399Requirement: Coin Flip 1^000000",
 		"Skill Form: ^339900Supportive^000000",
@@ -6956,7 +6956,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_VENOMIMPRESS] = {
 		"Venom Impress",
 		"Max Level: 5",
-		"^CC3399Requirement: Enchant Poison 3^000000",
 		"Skill Form: ^FF0000Active / Debuff^000000",
 		"Description: ^777777Weaken the enemy's resistance",
 		"against ^702180Poison^777777 property attacks.",
@@ -9131,7 +9130,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777A low to the ground round kick that damages targets in a 5x5 area around you and forces them to sit. Monsters in the area will be stunned. Does not work on boss or MVP type monsters.^000000"
 	},
 	[SKID.SR_RAISINGDRAGON] = {
-		"Raising Dragon",
+		"Rising Dragon",
 		"Max Level: 10",
 		"^CC3399Requirement: Rampage Blaster 3 / Gentle Touch-Energy Gain 3^000000",
 		"Skill Form: ^339900Active / Buff^000000",
@@ -9164,7 +9163,7 @@ SKILL_DESCRIPT = {
 	[SKID.SR_GATEOFHELL] = {
 		"Gate of Hell",
 		"Max Level: 10",
-		"^CC3399Requirement: Raising Dragon 5, Tiger Cannon 5^000000",
+		"^CC3399Requirement: Rising Dragon 5, Tiger Cannon 5^000000",
 		"Skill Form: ^FF0000Active / Damage^000000",
 		"Description: ^777777Strikes the target with countless blows. The more Spirit Spheres you have, and the lower your HP, the more damage it deals. Consumes all of your Spirit Spheres and 30% of your MaxSP. Can be used after Fallen Empire, in that case the SP consumption is reduced by 10% while the damage is slightly higher. Must be in Explosion Spirits state.^000000"
 	},
@@ -10810,7 +10809,7 @@ SKILL_DESCRIPT = {
 		"and delay.^000000"
 	},
 	[SKID.ML_DEFENDER] = {
-		"Defender",
+		"Defender (Defending Aura)",
 		"Skill Form: ^339900Supportive^000000",
 		"Description: ^777777Reduce damage inflicted from long ranged",
 		"physical attacks at the cost of decreasing",
@@ -10843,7 +10842,7 @@ SKILL_DESCRIPT = {
 		"cannot be used for other Crusaders or Paladins.^000000"
 	},
 	[SKID.MER_MAGNIFICAT] = {
-		"Blessing of Mana",
+		"Blessing of Mana (Magnificat)",
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Player, Mercenary^000000",
 		"Description: ^777777Double the caster and party",
@@ -10976,7 +10975,7 @@ SKILL_DESCRIPT = {
 		"disabling its use of skills, for a set duration.^000000"
 	},
 	[SKID.MER_ESTIMATION] = {
-		"Sense",
+		"Monster Property (Sense)",
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Monster^000000",
 		"Description: ^777777Provide the targeted monster's",
@@ -11122,7 +11121,7 @@ SKILL_DESCRIPT = {
 		"for 5 minutes.^000000"
 	},
 	[SKID.GD_DEVELOPMENT] = {
-		"Development",
+		"Permanent Development",
 		"Skill Form: ^6666ccPassive^000000",
 		"Description: ^777777This skill enables a 50% chance",
 		"of adding an extra point whenever an investment",
@@ -11296,7 +11295,7 @@ SKILL_DESCRIPT = {
 		"When attacking or getting damaged during Fighter status, gathers Spirit Sphere for certain rate.^000000"
 	},
 	[SKID.MH_SONIC_CRAW] = {
-		"Sonic Crow",
+		"Sonic Claw",
 		"Max Level: 5",
 		"Description: ^777777Only available in Fighter style. Activates high speed nail attack to 1 target enemy.",
 		"Attack is possible as many as currently possessing number of Spirit Spheres. Skill does not activates when out of Spirit Sphere.^000000",
@@ -12336,7 +12335,7 @@ SKILL_DESCRIPT = {
 		"Howling Mine and Bound Trap on screen.^000000"
 	}, 
 	[SKID.RL_H_MINE] = {
-		"Howling Mine (Destructive Cry",
+		"Howling Mine (Destructive Cry)",
 		"Max Level: 5",
 		"^CC3399Requirement: Spread Attack 1^000000",
 		"Skill Form: ^FF0000Offensive^000000",
@@ -12520,7 +12519,7 @@ SKILL_DESCRIPT = {
 		"^777777It is possible to minister the spirit of the sea, the spirit of the land and the spirit of life.^000000"
 	},
 	[SKID.SU_FRESHSHRIMP] = {
-		"Frash Shrimp",
+		"Fresh Shrimp",
 		"Max Level: 5",
 		"^CC3399Requirement: Spirit Marble 1^000000",
 		"Skill Form: ^339900Seafood(Recovery)^000000",
