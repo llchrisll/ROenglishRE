@@ -9126,6 +9126,23 @@ tbl = {
 		slotCount = 1,
 		ClassNum = 0
 	},
+	[20798] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "마스크",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "의상 사신님의 가호",
+		identifiedResourceName = "사신님의가호",
+		identifiedDescriptionName = {
+			"플레이어 주변에 사신님이 나타나서 가져갈 영혼이 나오기만을 기다리고 계신다.",
+			"크리스마스 때 어린 마족과 망령들을 행복하게 해줬다면 안토니오 에게서 받을 수 있는 선물.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1450
+	},
 	[22076] = {
 		unidentifiedDisplayName = "신발",
 		unidentifiedResourceName = "샌들",
@@ -12655,6 +12672,91 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[25143] = {
+		unidentifiedDisplayName = "선물용 봉제 인형",
+		unidentifiedResourceName = "봉제인형",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선물용 봉제 인형",
+		identifiedResourceName = "봉제인형",
+		identifiedDescriptionName = { "크리스마스 선물로 준비한 봉제인형 이다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25144] = {
+		unidentifiedDisplayName = "브릿지 자세를 취한 인형",
+		unidentifiedResourceName = "늘어진모로크의현신",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "브릿지 자세를 취한 인형",
+		identifiedResourceName = "늘어진모로크의현신",
+		identifiedDescriptionName = { "운동중인지 브릿지 자세를 취한 인형이다.", "인형의 유연한 몸매가 돋보인다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25145] = {
+		unidentifiedDisplayName = "까맣게 타버린 망령 인형",
+		unidentifiedResourceName = "고뇌의모자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "까맣게 타버린 망령 인형",
+		identifiedResourceName = "고뇌의모자",
+		identifiedDescriptionName = { "까맣게 타서 쪼그라들어 버린 인형이다.", "왜인지 모르지만 작은 악령들이 좋아한다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25146] = {
+		unidentifiedDisplayName = "냉혹한 여왕님 인형",
+		unidentifiedResourceName = "지르타스인형",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "냉혹한 여왕님 인형",
+		identifiedResourceName = "지르타스인형",
+		identifiedDescriptionName = { "냉혹한 여왕님의 모습을 한 인형이다.", "인형을 누르면 '오호호호~'하는 웃음소리가 날것만 같다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25147] = {
+		unidentifiedDisplayName = "막 식사를 마친 토끼 인형",
+		unidentifiedResourceName = "매드바니",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "막 식사를 마친 토끼 인형",
+		identifiedResourceName = "매드바니",
+		identifiedDescriptionName = { "귀여운 토끼 인형이다.", "뭔가를 막 맛있게 먹은듯 하다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25148] = {
+		unidentifiedDisplayName = "귀여운 식귀 인형",
+		unidentifiedResourceName = "벙웅곳인형",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "귀여운 식귀 인형",
+		identifiedResourceName = "벙웅곳인형",
+		identifiedDescriptionName = { "보기만 해도 배불러지는 식귀의 모습을 본따 만든 인형.", "볼록하게 나온 배가 귀엽다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25149] = {
+		unidentifiedDisplayName = "따뜻한 목도리를 한 인형",
+		unidentifiedResourceName = "매달린인형",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "따뜻한 목도리를 한 인형",
+		identifiedResourceName = "매달린인형",
+		identifiedDescriptionName = { "추운곳에 있는지 따듯한 목도리를 두른 인형이다.", "무게 : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25150] = {
+		unidentifiedDisplayName = "껴안는 엘리스 베개",
+		unidentifiedResourceName = "껴안는엘리스베개",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "껴안는 엘리스 베개",
+		identifiedResourceName = "껴안는엘리스베개",
+		identifiedDescriptionName = {
+			"푹신하고 길쭉한 베개.",
+			"커버에는 엘리스가 그려져 있다.",
+			"베고 자는것 보다는 주로 안고 자는 용도로 쓰이는 것 같다.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[28413] = {
 		unidentifiedDisplayName = "악세사리",
 		unidentifiedResourceName = "클립",
@@ -13042,6 +13144,122 @@ tbl = {
 			"계열 : ^777777특수인챈트^000000 ",
 			"장착 : ^777777신발^000000",
 			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31016] = {
+		unidentifiedDisplayName = "장식된 악령 나무 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "장식된 악령 나무 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "MHP + 1000, MSP + 150, FLEE - 25.", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31017] = {
+		unidentifiedDisplayName = "포악해진 쿠키 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "포악해진 쿠키 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"ATK + 1%, MATK + 1%, MHP - 2%.",
+			"2제련 당, ATK + 1%, MATK + 1%, MHP - 2% 씩 추가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777신발^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31018] = {
+		unidentifiedDisplayName = "악령 깃든 상자 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "악령 깃든 상자 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"MHP - 1225.",
+			"마법공격 시, 적에게 높은 확률로 저주를 건다.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31019] = {
+		unidentifiedDisplayName = "섬뜩한 악령 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "섬뜩한 악령 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"MHP - 13%.",
+			"마법 공격을 받을 시, 적에게 높은 확률로 저주를 건다.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777악세사리^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31020] = {
+		unidentifiedDisplayName = "악의에 찬 유령 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "악의에 찬 유령 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"MHP - 13%.",
+			"물리 공격을 받을 시, 적에게 높은 확률로 저주를 건다.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777악세사리^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31021] = {
+		unidentifiedDisplayName = "춤추는 마리오 네트 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "춤추는 마리오 네트 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = { "ASPD + 10%, ATK - 3%.", "계열 : ^777777카드^000000", "장착 : ^777777무기^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31022] = {
+		unidentifiedDisplayName = "버려진 곰인형 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "버려진 곰인형 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"MSP + 20%.",
+			"물리, 마법 공격 시 드물게 자기자신에게 저주를 건다.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777신발^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31023] = {
+		unidentifiedDisplayName = "셀린느 키미 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "셀린느 키미 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"MATK + 10%. ",
+			"마법 공격 시, 일정 확률로 자신을 중심으로 화면 전체의 적에게 \"치명적인 상처\"를 건다.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
