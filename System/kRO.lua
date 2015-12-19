@@ -459,18 +459,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[6522] = {
-		unidentifiedDisplayName = "국왕의 증표",
-		unidentifiedResourceName = "상인영수증",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "국왕의 증표",
-		identifiedResourceName = "상인영수증",
-		identifiedDescriptionName = {
-			"국왕의 날인이 찍히긴 했지만 오래되어 색이 바랜 것 같다. 이것은 증표로 쓰일 수 없을 것 같다.",
-			"Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[6531] = {
 		unidentifiedDisplayName = "국왕의 증표",
 		unidentifiedResourceName = "상인영수증",
