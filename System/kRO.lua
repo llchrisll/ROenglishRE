@@ -10914,223 +10914,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[24246] = {
-		unidentifiedDisplayName = "Shadow Accessory",
-		unidentifiedResourceName = "이어링쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "소드맨 이어링 쉐도우",
-		identifiedResourceName = "이어링쉐도우",
-		identifiedDescriptionName = {
-			"A sacred earring that protect its wearer. Improve the potential of wearer.",
-			"배쉬 SP 소모량 20% 감소. ",
-			"제련도 1당 배쉬 SP 소모량 3% 추가 감소.",
-			"소드맨 이어링 쉐도우, 소드맨 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
-			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACDAccessory^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24247] = {
-		unidentifiedDisplayName = "Shadow Accessory",
-		unidentifiedResourceName = "이어링쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "머천트 이어링 쉐도우",
-		identifiedResourceName = "이어링쉐도우",
-		identifiedDescriptionName = {
-			"A sacred earring that protect its wearer. Improve the potential of wearer.",
-			"매머나이트 데미지 20% 증가. ",
-			"제련도 1당 매머나이트 데미지 5% 추가 증가.",
-			"머쳔트 이어링 쉐도우, 머쳔트 펜던트 쉐도우 장착시 ATK +1%, MAXHP +1%.",
-			"제련도 합계가 10이상일 경우, ATK +2%, MAXHP +2% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACDAccessory^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24248] = {
-		unidentifiedDisplayName = "Shadow Accessory",
-		unidentifiedResourceName = "이어링쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "어콜라이트 이어링 쉐도우",
-		identifiedResourceName = "이어링쉐도우",
-		identifiedDescriptionName = {
-			"A sacred earring that protect its wearer. Improve the potential of wearer.",
-			"힐 SP 소모량 20% 감소.",
-			"제련도 1당 힐 SP 소모량 3% 추가 감소.",
-			"어콜라이트 이어링 쉐도우, 어콜라이트 펜던트 쉐도우 장착시 MATK +1%, MAXSP +1%.",
-			"제련도 합계가 10이상일 경우, MATK +2%, MAXSP +2% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACDAccessory^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24249] = {
-		unidentifiedDisplayName = "Shadow Accessory",
-		unidentifiedResourceName = "이어링쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "매지션 이어링 쉐도우",
-		identifiedResourceName = "이어링쉐도우",
-		identifiedDescriptionName = {
-			"A sacred earring that protect its wearer. Improve the potential of wearer.",
-			"화이어 볼트, 콜드 볼트, 라이트닝 볼트의 변동 캐스팅 20% 감소.",
-			"제련도 1당 화이어 볼트, 콜드 볼트, 라이트닝 볼트의 변동 캐스팅 5% 추가 감소.",
-			"매지션 이어링 쉐도우, 매지션 펜던트 쉐도우 장착시 MATK +1%, MAXSP +1%.",
-			"제련도 합계가 10이상일 경우, MATK +2%, MAXSP +2% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACDAccessory^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24250] = {
-		unidentifiedDisplayName = "펜던트 쉐도우",
-		unidentifiedResourceName = "펜던트쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "소드맨 펜던트 쉐도우",
-		identifiedResourceName = "펜던트쉐도우",
-		identifiedDescriptionName = {
-			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
-			"매그넘 브레이크 데미지 20% 증가.",
-			"제련도 1당 매그넘 브레이크 데미지 5% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD펜던트^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24251] = {
-		unidentifiedDisplayName = "펜던트 쉐도우",
-		unidentifiedResourceName = "펜던트쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "머천트 펜던트 쉐도우",
-		identifiedResourceName = "펜던트쉐도우",
-		identifiedDescriptionName = {
-			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
-			"카트 레볼루션 데미지 20% 증가.",
-			"제련도 1당 카트 레볼루션 데미지 5% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD펜던트^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24252] = {
-		unidentifiedDisplayName = "펜던트 쉐도우",
-		unidentifiedResourceName = "펜던트쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "어콜라이트 펜던트 쉐도우",
-		identifiedResourceName = "펜던트쉐도우",
-		identifiedDescriptionName = {
-			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
-			"홀리 라이트 데미지 50% 증가.",
-			"제련도 1당 홀리 라이트 데미지 10% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD펜던트^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24253] = {
-		unidentifiedDisplayName = "펜던트 쉐도우",
-		unidentifiedResourceName = "펜던트쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "씨프 펜던트 쉐도우",
-		identifiedResourceName = "펜던트쉐도우",
-		identifiedDescriptionName = {
-			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
-			"인베넘 데미지 20% 증가.",
-			"제련도 1당 인베넘 데미지 5% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD펜던트^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24254] = {
-		unidentifiedDisplayName = "펜던트 쉐도우",
-		unidentifiedResourceName = "펜던트쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "매지션 펜던트 쉐도우",
-		identifiedResourceName = "펜던트쉐도우",
-		identifiedDescriptionName = {
-			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
-			"화이어 월 데미지 20% 증가.",
-			"제련도 1당 화이어 월 데미지 5% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD펜던트^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24255] = {
-		unidentifiedDisplayName = "펜던트 쉐도우",
-		unidentifiedResourceName = "펜던트쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "아처 펜던트 쉐도우",
-		identifiedResourceName = "펜던트쉐도우",
-		identifiedDescriptionName = {
-			"착용자를 수호한다고 전해지는 성스러운 목걸이. 착용자의 잠재적인 능력을 이끌어낸다",
-			"애로우 샤워 데미지 20% 증가.",
-			"제련도 1당 애로우 샤워 데미지 5% 추가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD펜던트^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24256] = {
-		unidentifiedDisplayName = "슈즈 쉐도우",
-		unidentifiedResourceName = "슈즈쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "나이트 슈즈 쉐도우",
-		identifiedResourceName = "슈즈쉐도우",
-		identifiedDescriptionName = {
-			"신발에 추가로 신을 수 있는 신발. 단일로도 사용할 수 있지만 효과는 적다.",
-			"피어스 데미지 20% 증가. ",
-			"제련도 1당 피어스 데미지 5% 추가 증가.",
-			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Required Level: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[24257] = {
 		unidentifiedDisplayName = "슈즈 쉐도우",
 		unidentifiedResourceName = "슈즈쉐도우",
@@ -11142,7 +10925,7 @@ tbl = {
 			"홀리크로스 SP 소모량 20% 감소. ",
 			"제련도 1당 홀리크로스 SP 소모량 3% 추가 감소.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11161,7 +10944,7 @@ tbl = {
 			"해머폴, 아드레날린 러쉬 SP 소모량 20% 감소. ",
 			"제련도 1당 해머폴, 아드레날린 러쉬 SP 소모량 5% 추가 감소.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11180,7 +10963,7 @@ tbl = {
 			"알케미스트 계열 직업군이 착용시, 힐 계열 스킬의 회복량 30% 증가.",
 			"제련도 1당 회복량 7% 추가 증가.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11199,7 +10982,7 @@ tbl = {
 			"기리에 엘레이손, 렉스 에테르나 SP 소모량 20% 감소. ",
 			"제련도 1당 기리에 엘레이손, 렉스 에테르나 SP 소모량 3% 추가 감소.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11218,7 +11001,7 @@ tbl = {
 			"연환전신장 데미지 20% 증가. ",
 			"제련도 1당 연환전신장 데미지 5% 추가 증가.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11237,7 +11020,7 @@ tbl = {
 			"그림투스 데미지 20% 증가. ",
 			"제련도 1당 그림투스 데미지 5% 추가 증가.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11256,7 +11039,7 @@ tbl = {
 			"로그 계열이 착용시,",
 			"ATK가 한손검 수련 스킬 레벨만큼 증가한다. 제련도 6 초과시, 초과한 제련도 1당 ATK가 한손검 수련 스킬 레벨만큼 추가로 증가한다.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11275,7 +11058,7 @@ tbl = {
 			"메테오 스톰, 로드 오브 버밀리온, 스톰 가스트의 변동 캐스팅 시간 20% 감소.",
 			"제련도 1당 메테오 스톰, 로드 오브 버밀리온, 스톰 가스트의 변동 캐스팅 시간 3% 추가 감소.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11294,7 +11077,7 @@ tbl = {
 			"헤븐즈 드라이브 데미지 20% 증가. ",
 			"제련도 1당 헤븐즈 드라이브 데미지 5% 추가 증가.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11313,7 +11096,7 @@ tbl = {
 			"블릿츠 비트의 데미지 20% 증가. ",
 			"제련도 1당 블릿츠 비트 데미지 5% 추가 증가.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11332,7 +11115,7 @@ tbl = {
 			"ATK가 악기 다루기 스킬 레벨만큼 증가한다.",
 			"제련도 6 초과시, 초과한 제련도 1당 ATK가 악기 다루기 스킬 레벨만큼 추가로 증가한다. ",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -11351,7 +11134,7 @@ tbl = {
 			"ATK가 춤연습 스킬 레벨만큼 증가한다.",
 			"제련도 6 초과시, 초과한 제련도 1당 ATK가 춤연습 스킬 레벨만큼 추가로 증가한다.",
 			"Class: ^6A5ACDShadow Equipment^000000",
-			"Location: ^6A5ACD슈즈^000000",
+			"Location: ^6A5ACDShoes^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Required Level: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
