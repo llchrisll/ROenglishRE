@@ -1,4 +1,351 @@
 SKILL_INFO_LIST = {
+	[SKID.NPC_HALLUCINATIONWALK] = {
+		"NPC_HALLUCINATIONWALK",
+		SkillName = "Hallucination Walk",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.NPC_ELECTRICWALK] = {
+		"NPC_ELECTRICWALK",
+		SkillName = "Electric Walk",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.NPC_FIREWALK] = {
+		"NPC_FIREWALK",
+		SkillName = "Fire Walk",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.NPC_MILLENNIUMSHIELD] = {
+		"NPC_MILLENNIUMSHIELD",
+		SkillName = "Millennium Shield",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.NPC_IGNITIONBREAK] = {
+		"NPC_IGNITIONBREAK",
+		SkillName = "Ignition Break",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 11, y = 11 }, [2] = { x = 11, y = 11 }, [3] = { x = 11, y = 11 }, [4] = { x = 11, y = 11 }, [5] = { x = 11, y = 11 } }
+	},
+	[SKID.NPC_MANDRAGORA] = {
+		"NPC_MANDRAGORA",
+		SkillName = "Mandragora Howling",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 11, y = 11 }, [2] = { x = 13, y = 13 }, [3] = { x = 15, y = 15 }, [4] = { x = 17, y = 17 }, [5] = { x = 19, y = 19 } }
+	},
+	[SKID.NPC_FATALMENACE] = {
+		"NPC_FATALMENACE",
+		SkillName = "Fatal Manace",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 3, y = 3 }, [2] = { x = 5, y = 5 }, [3] = { x = 7, y = 7 }, [4] = { x = 9, y = 9 }, [5] = { x = 11, y = 11 } }
+	},
+	[SKID.NPC_SR_CURSEDCIRCLE] = {
+		"NPC_SR_CURSEDCIRCLE",
+		SkillName = "Cursed Circle",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 3, y = 3 }, [2] = { x = 5, y = 5 }, [3] = { x = 7, y = 7 }, [4] = { x = 9, y = 9 }, [5] = { x = 11, y = 11 } }
+	},
+	[SKID.NPC_JACKFROST] = {
+		"NPC_JACKFROST",
+		SkillName = "Jack Frost",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 11, y = 11 }, [2] = { x = 13, y = 13 }, [3] = { x = 15, y = 15 }, [4] = { x = 17, y = 17 }, [5] = { x = 19, y = 19 } }
+	},
+	[SKID.NPC_VENOMFOG] = {
+		"NPC_VENOMFOG",
+		SkillName = "Poison Mist",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 11, y = 11 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 11, y = 11 },
+			[4] = { x = 11, y = 11 },
+			[5] = { x = 11, y = 11 },
+			[6] = { x = 11, y = 11 },
+			[7] = { x = 11, y = 11 },
+			[8] = { x = 11, y = 11 },
+			[9] = { x = 11, y = 11 },
+			[10] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_ASSASSINCROSS] = {
+		"NPC_ASSASSINCROSS",
+		SkillName = "Assassin Cross of Sunset",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 7, y = 7 },
+			[2] = { x = 7, y = 7 },
+			[3] = { x = 7, y = 7 },
+			[4] = { x = 7, y = 7 },
+			[5] = { x = 7, y = 7 },
+			[6] = { x = 7, y = 7 },
+			[7] = { x = 7, y = 7 },
+			[8] = { x = 7, y = 7 },
+			[9] = { x = 7, y = 7 },
+			[10] = { x = 7, y = 7 }
+		}
+	},
+	[SKID.NPC_FLAMECROSS] = {
+		"NPC_FLAMECROSS",
+		SkillName = "Flame Cross",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		SkillScale = { [1] = { x = 7, y = 7 }, [2] = { x = 7, y = 7 }, [3] = { x = 7, y = 7 }, [4] = { x = 7, y = 7 }, [5] = { x = 7, y = 7 } }
+	},
+	[SKID.NPC_ICEMINE] = {
+		"NPC_ICEMINE",
+		SkillName = "Ice Mine",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		SkillScale = { [1] = { x = 7, y = 7 }, [2] = { x = 7, y = 7 }, [3] = { x = 7, y = 7 }, [4] = { x = 7, y = 7 }, [5] = { x = 7, y = 7 } }
+	},
+	[SKID.NPC_DISSONANCE] = {
+		"NPC_DISSONANCE",
+		SkillName = "Dissonance",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 7, y = 7 }, [2] = { x = 7, y = 7 }, [3] = { x = 7, y = 7 }, [4] = { x = 7, y = 7 }, [5] = { x = 7, y = 7 } }
+	},
+	[SKID.NPC_UGLYDANCE] = {
+		"NPC_UGLYDANCE",
+		SkillName = "Ugly Dance",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 7, y = 7 }, [2] = { x = 7, y = 7 }, [3] = { x = 7, y = 7 }, [4] = { x = 7, y = 7 }, [5] = { x = 7, y = 7 } }
+	},
+	[SKID.NPC_WIDEHEALTHFEAR] = {
+		"NPC_WIDEHEALTHFEAR",
+		SkillName = "Wide Fear",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
+	},
+	[SKID.NPC_WIDE_DEEP_SLEEP] = {
+		"NPC_WIDE_DEEP_SLEEP",
+		SkillName = "Wide Deep Sleep",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
+	},
+	[SKID.NPC_WIDESIREN] = {
+		"NPC_WIDESIREN",
+		SkillName = "Wide Charm",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
+	},
+	[SKID.NPC_WIDEBODYBURNNING] = {
+		"NPC_WIDEBODYBURNNING",
+		SkillName = "Wide Burning",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
+	},
+	[SKID.NPC_WIDEFROSTMISTY] = {
+		"NPC_WIDEFROSTMISTY",
+		SkillName = "Wide Freezing",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
+	},
+	[SKID.NPC_WIDECOLD] = {
+		"NPC_WIDECOLD",
+		SkillName = "Wide Frozen",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
+	},
+	[SKID.NPC_CLOUD_KILL] = {
+		"NPC_CLOUD_KILL",
+		SkillName = "Cloud Kill",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		SkillScale = { [1] = { x = 3, y = 3 }, [2] = { x = 5, y = 5 }, [3] = { x = 7, y = 7 }, [4] = { x = 7, y = 7 }, [5] = { x = 7, y = 7 } }
+	},
+	[SKID.NPC_RAYOFGENESIS] = {
+		"NPC_RAYOFGENESIS",
+		SkillName = "Ray of Genesis",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 11, y = 11 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 17, y = 17 },
+			[5] = { x = 23, y = 23 },
+			[6] = { x = 23, y = 23 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_PSYCHIC_WAVE] = {
+		"NPC_PSYCHIC_WAVE",
+		SkillName = "Psychic Wave",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		SkillScale = {
+			[1] = { x = 7, y = 7 },
+			[2] = { x = 9, y = 9 },
+			[3] = { x = 11, y = 11 },
+			[4] = { x = 11, y = 11 },
+			[5] = { x = 11, y = 11 },
+			[6] = { x = 11, y = 11 },
+			[7] = { x = 11, y = 11 },
+			[8] = { x = 11, y = 11 },
+			[9] = { x = 11, y = 11 },
+			[10] = { x = 11, y = 11 }
+		}
+	},
+	[SKID.NPC_MAGMA_ERUPTION] = {
+		"NPC_MAGMA_ERUPTION",
+		SkillName = "Magma Eruption",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 7, y = 7 }, [2] = { x = 7, y = 7 }, [3] = { x = 7, y = 7 }, [4] = { x = 7, y = 7 }, [5] = { x = 7, y = 7 } }
+	},
+	[SKID.NPC_COMET] = {
+		"NPC_COMET",
+		SkillName = "Comet",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 19, y = 19 }, [2] = { x = 19, y = 19 }, [3] = { x = 19, y = 19 }, [4] = { x = 19, y = 19 }, [5] = { x = 19, y = 19 } }
+	},
+	[SKID.NPC_MAXPAIN] = {
+		"NPC_MAXPAIN",
+		SkillName = "Max Pain",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+	},
+	[SKID.NPC_WIDEWEB] = {
+		"NPC_WIDEWEB",
+		SkillName = "Wide Spider Web",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		SkillScale = { [1] = { x = 15, y = 15 } }
+	},
+	[SKID.NPC_WIDESIGHT] = {
+		"NPC_WIDESIGHT",
+		SkillName = "Wide Sight",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		SkillScale = { [1] = { x = 11, y = 11 } }
+	},
+	[SKID.NPC_WIDESUCK] = {
+		"NPC_WIDESUCK",
+		SkillName = "Wide Vampire",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		SkillScale = { [1] = { x = 27, y = 27 } }
+	},
+	[SKID.NPC_STORMGUST2] = {
+		"NPC_STORMGUST2",
+		SkillName = "Storm Gust",
+		MaxLv = 3,
+		SpAmount = { 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9 },
+		SkillScale = { [1] = { x = 11, y = 11 }, [2] = { x = 11, y = 11 }, [3] = { x = 11, y = 11 } }
+	},
+	[SKID.NPC_FIRESTORM] = {
+		"NPC_FIRESTORM",
+		SkillName = "Fire Storm",
+		MaxLv = 3,
+		SpAmount = { 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1 },
+		SkillScale = { [1] = { x = 7, y = 7 }, [2] = { x = 7, y = 7 }, [3] = { x = 7, y = 7 } }
+	},
+	[SKID.NPC_DRAGONBREATH] = {
+		"NPC_DRAGONBREATH",
+		SkillName = "Dragon Breath",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 },
+		SkillScale = {
+			[1] = { x = 9, y = 9 },
+			[2] = { x = 9, y = 9 },
+			[3] = { x = 9, y = 9 },
+			[4] = { x = 9, y = 9 },
+			[5] = { x = 9, y = 9 },
+			[6] = { x = 9, y = 9 },
+			[7] = { x = 9, y = 9 },
+			[8] = { x = 9, y = 9 },
+			[9] = { x = 9, y = 9 },
+			[10] = { x = 9, y = 9 }
+		}
+	},
 	[SKID.SN_WINDWALK] = {
 		"SN_WINDWALK",
 		SkillName = "Wind Walk",
@@ -2862,7 +3209,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 11, y = 11 },
+			[2] = { x = 15, y = 15 },
+			[3] = { x = 19, y = 19 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 11, y = 11 },
+			[7] = { x = 15, y = 15 },
+			[8] = { x = 19, y = 19 },
+			[9] = { x = 23, y = 23 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.EL_CIRCLE_OF_FIRE] = {
 		"EL_CIRCLE_OF_FIRE",
@@ -2897,7 +3256,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 6, 6, 6, 6, 6 }
+		AttackRange = { 6, 6, 6, 6, 6 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_PULSESTRIKE] = {
 		"NPC_PULSESTRIKE",
@@ -2905,7 +3265,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 15, y = 15 }, [2] = { x = 15, y = 15 }, [3] = { x = 15, y = 15 }, [4] = { x = 15, y = 15 }, [5] = { x = 15, y = 15 } }
 	},
 	[SKID.NPC_HELLJUDGEMENT] = {
 		"NPC_HELLJUDGEMENT",
@@ -2913,7 +3274,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 29, y = 29 },
+			[2] = { x = 29, y = 29 },
+			[3] = { x = 29, y = 29 },
+			[4] = { x = 29, y = 29 },
+			[5] = { x = 29, y = 29 },
+			[6] = { x = 29, y = 29 },
+			[7] = { x = 29, y = 29 },
+			[8] = { x = 29, y = 29 },
+			[9] = { x = 29, y = 29 },
+			[10] = { x = 29, y = 29 }
+		}
 	},
 	[SKID.NPC_WIDESILENCE] = {
 		"NPC_WIDESILENCE",
@@ -2921,7 +3294,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_WIDEFREEZE] = {
 		"NPC_WIDEFREEZE",
@@ -2929,7 +3303,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_WIDEBLEEDING] = {
 		"NPC_WIDEBLEEDING",
@@ -2937,7 +3312,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_WIDESTONE] = {
 		"NPC_WIDESTONE",
@@ -2945,7 +3321,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_WIDECONFUSE] = {
 		"NPC_WIDECONFUSE",
@@ -2953,7 +3330,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_WIDESLEEP] = {
 		"NPC_WIDESLEEP",
@@ -2961,7 +3339,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_EVILLAND] = {
 		"NPC_EVILLAND",
@@ -2969,7 +3348,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 }
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		SkillScale = {
+			[1] = { x = 11, y = 11 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 11, y = 11 },
+			[4] = { x = 11, y = 11 },
+			[5] = { x = 11, y = 11 },
+			[6] = { x = 11, y = 11 },
+			[7] = { x = 11, y = 11 },
+			[8] = { x = 11, y = 11 },
+			[9] = { x = 11, y = 11 },
+			[10] = { x = 29, y = 29 }
+		}
 	},
 	[SKID.MC_MAMMONITE] = {
 		"MC_MAMMONITE",
@@ -3017,7 +3408,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_WIDESTUN] = {
 		"NPC_WIDESTUN",
@@ -3025,7 +3417,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_VAMPIRE_GIFT] = {
 		"NPC_VAMPIRE_GIFT",

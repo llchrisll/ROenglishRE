@@ -12441,7 +12441,7 @@ SKILL_DESCRIPT = {
 	},
 	[SKID.ALL_NIFLHEIM_RECALL] = {
 		"Return to Niflheim",
-		"Description: ^777777Teleport to Niflheim, 5 minutes after use delay.^000000"
+		"Description: ^777777Teleport to Niflheim, 15 minutes after use delay.^000000"
 	},
 	[SKID.ALL_PRONTERA_RECALL] = {
 		"Return to Prontera",
@@ -12634,7 +12634,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Sprite Mable 1^000000",
 		"Skill Form: ^FF0000Animal(Offensive)^000000",
 		"Target: ^777777Enemy^000000",
-		"Description: ^777777The angry spirits of Picky shoot from afar and strike the enemy. When the enemy has less than 30% HP left, the casting of the skill is stopped and the damage is doubled.^000000",
+		"Description: ^777777The angry spirits of Picky shoot from afar and strike the enemy. When the enemy has less than 50% HP left, the damage is doubled.^000000",
 		"^777777When base level is over 30, there's a chance the skill will be activated again. For every 30 base levels, the activation chance is increased.^000000",
 		"[Lv 1]: ^777777Ranged attack, ATK 300%^000000",
 		"[Lv 2]: ^777777Ranged attack, ATK 400%^000000",
@@ -12648,7 +12648,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Picky Peck 3^000000",
 		"Skill Form: ^339900Animal(Supportive)^000000",
 		"Target: ^777777Player^000000",
-		"Description: ^777777Absorb the spirit of Arclouse to become very agile for a while.^000000",
+		"Description: ^777777Absorb the spirit of Arclouse to become very agile for a while. In addition, if the target is a Doram race, increase long range physical attacks by 10%.^000000",
 		"[Lv 1]: ^777777For 60 sec AGI +20, Increases movement speed.^000000",
 		"[Lv 2]: ^777777For 70 sec AGI +25, Increases movement speed.^000000",
 		"[Lv 3]: ^777777For 80 sec AGI +30, Increases movement speed.^000000",
@@ -12662,13 +12662,14 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^FF0000Animal(Offensive)^000000",
 		"Target: ^777777Enemy^000000",
 		"Description: ^777777Inflict the injury of a country mouse's wounded spirit on to the enemy.^000000",
-		"^777777[Heal], [Cure] and [Clearance] can cancel the effect. Can not be used to boss monsters.^000000",
+		"^777777Bite influenced by skill level, Dex and MaxHP left.^000000",
+		"^777777[Heal], [Cure] and [Clearance] can cancel the effect. Has no effect on boss monsters, but the damage is doubled.^000000",
 		"^777777When base level is over 30, there's a chance the skill will be activated again. For every 30 base levels, the activation chance is increased.^000000",
-		"[Lv 1]: ^777777ATK 100%, Bite Wound: For 9 sec MaxHP -2%^000000",
-		"[Lv 2]: ^777777ATK 150%, Bite Wound: For 9 sec MaxHP -4%^000000",
-		"[Lv 3]: ^777777ATK 200%, Bite Wound: For 9 sec MaxHP -6%^000000",
-		"[Lv 4]: ^777777ATK 250%, Bite Wound: For 9 sec MaxHP -8%^000000",
-		"[Lv 5]: ^777777ATK 300%, Bite Wound: For 9 sec MaxHP -10%^000000"
+		"[Lv 1]: ^777777ATK 100%, Bite Wound: For 9 sec reduce fixed amount of MaxHP^000000",
+		"[Lv 2]: ^777777ATK 200%, Bite Wound: For 9 sec reduce fixed amount of MaxHP^000000",
+		"[Lv 3]: ^777777ATK 300%, Bite Wound: For 9 sec reduce fixed amount of MaxHP^000000",
+		"[Lv 4]: ^777777ATK 400%, Bite Wound: For 9 sec reduce fixed amount of MaxHP^000000",
+		"[Lv 5]: ^777777ATK 500%, Bite Wound: For 9 sec reduce fixed amount of MaxHP^000000"
 	},
 	[SKID.SU_LUNATICCARROTBEAT] = {
 		"Lunatic Carrot Beat",
