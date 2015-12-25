@@ -865,6 +865,85 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[12294] = {
+		unidentifiedDisplayName = "PC방 코인상자 1",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "PC방 코인상자 1",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"녹슨 기념 주화가 나오는 상자. 상자 개봉 시, 기념주화의 지속시간은 1시간이니 유념할 것.",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12295] = {
+		unidentifiedDisplayName = "PC방 코인상자 2",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "PC방 코인상자 2",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"일반 기념 주화가 나오는 상자, 상자 개봉 시, 기념주화의 지속시간은 1시간이니 유념할 것.",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12296] = {
+		unidentifiedDisplayName = "PC방 코인상자 3",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "PC방 코인상자 3",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"반짝이는 기념 주화가 나오는 상자, 상자 개봉 시, 기념주화의 지속시간은 1시간이니 유념할 것.",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12297] = {
+		unidentifiedDisplayName = "PC방 코인상자 4",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "PC방 코인상자 4",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = { "반짝이는 기념 주화가 나오는 상자, 상자 개봉 시, 기념주화의 지속시간은 2시간이니 유념할 것.", "^ffffff_^000000", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12391] = {
+		unidentifiedDisplayName = "행운의 알",
+		unidentifiedResourceName = "애니멀스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "행운의 알",
+		identifiedResourceName = "애니멀스크롤",
+		identifiedDescriptionName = {
+			"귀엽게 채색된 알모양 꾸러미. 열어보면 무언가 나올 것 같다.",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12403] = {
+		unidentifiedDisplayName = "행운의 알Ⅱ",
+		unidentifiedResourceName = "하트스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "행운의 알Ⅱ",
+		identifiedResourceName = "하트스크롤",
+		identifiedDescriptionName = {
+			"귀엽게 채색된 알모양 꾸러미. 열어보면 무언가 나올 것 같다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[12407] = {
 		unidentifiedDisplayName = "PC방 쿠폰 상자",
 		unidentifiedResourceName = "캐시상자_녹색",
@@ -873,6 +952,32 @@ tbl = {
 		identifiedResourceName = "캐시상자_녹색",
 		identifiedDescriptionName = {
 			"잘 포장된 선물상자. 무엇이 들어있는지는 알 수 없다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12416] = {
+		unidentifiedDisplayName = "행운의 알Ⅲ",
+		unidentifiedResourceName = "대만7월7석스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "행운의 알Ⅲ",
+		identifiedResourceName = "대만7월7석스크롤",
+		identifiedDescriptionName = {
+			"귀엽게 채색된 알모양 꾸러미. 열어보면 무언가 나올 것 같다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12493] = {
+		unidentifiedDisplayName = "행운의 알Ⅳ",
+		unidentifiedResourceName = "대만백소진스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "행운의 알Ⅳ",
+		identifiedResourceName = "대만백소진스크롤",
+		identifiedDescriptionName = {
+			"귀엽게 채색된 알모양 꾸러미. 열어보면 무언가 나올 것 같다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -1260,6 +1365,635 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[13680] = {
+		unidentifiedDisplayName = "블러드 액스 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "블러드 액스 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"블러드액스가 1개 들어있는 상자. 파손 주의!",
+			"개봉 후, 1일간 사용 가능.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13681] = {
+		unidentifiedDisplayName = "토마호크 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "토마호크 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"토마호크가 1개 들어있는 상자. 파손 주의!",
+			"개봉 후, 1일간 사용 가능.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13682] = {
+		unidentifiedDisplayName = "루드라의 활 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "루드라의 활 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"루드라의 활이 1개 들어있는 상자. 파손 주의!",
+			"개봉 후, 1일간 사용 가능.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13683] = {
+		unidentifiedDisplayName = "커틀러스 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "커틀러스 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"커틀러스가 1개 들어있는 상자. 파손 주의!",
+			"개봉 후, 1일간 사용 가능.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13685] = {
+		unidentifiedDisplayName = "소드브레이커 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "소드브레이커 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"소드 브레이커가 1개 들어있는 상자. 파손 주의!",
+			"개봉 후, 1일간 사용 가능.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13686] = {
+		unidentifiedDisplayName = "메일브레이커 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "메일브레이커 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"메일 브레이커가 1개 들어있는 상자. 파손 주의!",
+			"개봉 후, 1일간 사용 가능.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13687] = {
+		unidentifiedDisplayName = "월광검 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "월광검 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"월광검이 1개 들어있는 상자. 파손 주의!",
+			"개봉 후, 1일간 사용 가능.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13790] = {
+		unidentifiedDisplayName = "블러디로어 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "블러디로어 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"블러디로어가 1개 들어있는 상자. 파손 주의!",
+			"대여기간 하루",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13791] = {
+		unidentifiedDisplayName = "양장본 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "양장본 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"양장본이 1개 들어있는 상자. 파손 주의!",
+			"대여기간 하루",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13793] = {
+		unidentifiedDisplayName = "무형검 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "무형검 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"무형검이 1개 들어있는 상자. 파손 주의!",
+			"대여기간 하루",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13794] = {
+		unidentifiedDisplayName = "언홀리터치 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "언홀리터치 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"언홀리터치가 1개 들어있는 상자. 파손 주의!",
+			"대여기간 하루",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13802] = {
+		unidentifiedDisplayName = "피묻은 철구 상자",
+		unidentifiedResourceName = "오래된보라상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "피묻은 철구 상자",
+		identifiedResourceName = "오래된보라상자",
+		identifiedDescriptionName = {
+			"피묻은 철구가 1개 들어있는 상자. 파손 주의!",
+			"대여기간 하루",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13969] = {
+		unidentifiedDisplayName = "행운의 클립 상자",
+		unidentifiedResourceName = "선물상자_2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "행운의 클립 상자",
+		identifiedResourceName = "선물상자_2",
+		identifiedDescriptionName = {
+			"행운의 클립이 1개 들어있는 상자. 임대기간 하루.",
+			"^ffffff_^000000",
+			"착용자에게 크나큰 행운을 가져다 준다고 하는 전설의 클립.",
+			"몬스터가 아이템을 드롭할 확률이 50% 증가한다.",
+			"계열 : ^777777악세사리^000000",
+			"방어 : ^7777770^000000      무게 : ^7777770^000000",
+			"장착 : ^777777전직업 장착가능^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14144] = {
+		unidentifiedDisplayName = "1시간 패키지 Vol 1",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "1시간 패키지 Vol 1",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 2개, 혓바닥 요리 2개, 사막전갈 모래찜 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14145] = {
+		unidentifiedDisplayName = "1시간 패키지 Vol 2",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "1시간 패키지 Vol 2",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 2개, 혓바닥 요리 2개, 불사의 찌개 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14146] = {
+		unidentifiedDisplayName = "1시간 패키지 Vol 3",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "1시간 패키지 Vol 3",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 2개, 칵테일 용의 숨결 2개, 흐베르겔미르의 술 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14147] = {
+		unidentifiedDisplayName = "1시간 패키지 Vol 4",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "1시간 패키지 Vol 4",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 2개, 칵테일 용의 숨결 2개, 불사의 찌개 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14148] = {
+		unidentifiedDisplayName = "1시간 패키지 Vol 5",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "1시간 패키지 Vol 5",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 2개, 칵테일 용의 숨결 2개, 혓바닥 요리 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14149] = {
+		unidentifiedDisplayName = "1시간 패키지 Vol 6",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "1시간 패키지 Vol 6",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 2개, 사막전갈 모래찜 2개, 혓바닥 요리 2개, 아드레날린 러쉬 스크롤 24개, 아스페르시오 스크롤 20개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14150] = {
+		unidentifiedDisplayName = "2시간 패키지 Vol 1",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "2시간 패키지 Vol 1",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 4개, 혓바닥 요리 4개, 사막전갈 모래찜 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14151] = {
+		unidentifiedDisplayName = "2시간 패키지 Vol 2",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "2시간 패키지 Vol 2",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 4개, 혓바닥 요리 4개, 불사의 찌개 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14152] = {
+		unidentifiedDisplayName = "2시간 패키지 Vol 3",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "2시간 패키지 Vol 3",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 4개, 칵테일 용의 숨결 4개, 흐베르겔미르의 술 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14153] = {
+		unidentifiedDisplayName = "2시간 패키지 Vol 4",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "2시간 패키지 Vol 4",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 4개, 칵테일 용의 숨결 4개, 불사의 찌개 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14154] = {
+		unidentifiedDisplayName = "2시간 패키지 Vol 5",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "2시간 패키지 Vol 5",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 4개, 칵테일 용의 숨결 4개, 혓바닥 요리 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14155] = {
+		unidentifiedDisplayName = "2시간 패키지 Vol 6",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "2시간 패키지 Vol 6",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
+			"전투교범 4개, 사막전갈 모래찜 4개, 혓바닥 요리 4개, 아드레날린 러쉬 스크롤 48개, 아스페르시오 스크롤 40개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14449] = {
+		unidentifiedDisplayName = "후긴의 알 첫번째",
+		unidentifiedResourceName = "깜짝스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "후긴의 알 첫번째",
+		identifiedResourceName = "깜짝스크롤",
+		identifiedDescriptionName = {
+			"신비한 느낌이 드는 알모양의 꾸러미. 크고 무겁다.", "여러가지 아이템이 들어있는 듯 하다.",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B200^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14450] = {
+		unidentifiedDisplayName = "후긴의 알 두번째",
+		unidentifiedResourceName = "깜짝스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "후긴의 알 두번째",
+		identifiedResourceName = "깜짝스크롤",
+		identifiedDescriptionName = {
+			"신비한 느낌이 드는 알모양의 꾸러미. 크고 무겁다.", "여러가지 아이템이 들어있는 듯 하다.",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B200^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14451] = {
+		unidentifiedDisplayName = "후긴의 알 세번째",
+		unidentifiedResourceName = "대만백소진스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "후긴의 알 세번째",
+		identifiedResourceName = "대만백소진스크롤",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14452] = {
+		unidentifiedDisplayName = "후긴의 알 네번째",
+		unidentifiedResourceName = "대만백소진스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "후긴의 알 네번째",
+		identifiedResourceName = "대만백소진스크롤",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14453] = {
+		unidentifiedDisplayName = "후긴의 알 다섯번째",
+		unidentifiedResourceName = "대만백소진스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "후긴의 알 다섯번째",
+		identifiedResourceName = "대만백소진스크롤",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14454] = {
+		unidentifiedDisplayName = "후긴의 알 여섯번째",
+		unidentifiedResourceName = "대만백소진스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "후긴의 알 여섯번째",
+		identifiedResourceName = "대만백소진스크롤",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14455] = {
+		unidentifiedDisplayName = "무닌의 알 첫번째",
+		unidentifiedResourceName = "벚꽃스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "무닌의 알 첫번째",
+		identifiedResourceName = "벚꽃스크롤",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14456] = {
+		unidentifiedDisplayName = "무닌의 알 두번째",
+		unidentifiedResourceName = "벚꽃스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "무닌의 알 두번째",
+		identifiedResourceName = "벚꽃스크롤",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14457] = {
+		unidentifiedDisplayName = "무닌의 알 세번째",
+		unidentifiedResourceName = "벚꽃스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "무닌의 알 세번째",
+		identifiedResourceName = "벚꽃스크롤",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14458] = {
+		unidentifiedDisplayName = "무닌의 알 네번째",
+		unidentifiedResourceName = "벚꽃스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "무닌의 알 네번째",
+		identifiedResourceName = "벚꽃스크롤",
+		identifiedDescriptionName = { "" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14613] = {
+		unidentifiedDisplayName = "2012 RWC 스크롤",
+		unidentifiedResourceName = "RWC특수스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "2012 RWC 스크롤",
+		identifiedResourceName = "RWC특수스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 2012 RWC 기념 스크롤.",
+			"오색 깃털 장식, RWC 무기, 무기 9제련 보장권, 방어구 9제련 보장권, RWC 초기화권, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14627] = {
+		unidentifiedDisplayName = "크리스마스 스크롤",
+		unidentifiedResourceName = "크리스마스알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "크리스마스 스크롤",
+		identifiedResourceName = "크리스마스알",
+		identifiedDescriptionName = {
+			"크리스마스 분위기로 장식된 화려한 스크롤.",
+			"대장장이의 축복, 타나토스의(증오,절망,고뇌,슬픔) 카드, 제레미의 미용쿠폰, 무기 9제련 보장권, 방어구 9제련 보장권, 마력 깃든 카드첩,",
+			"의상 빨간 드레스 햇, 의상 페스티벌 상자, 의상 인챈트 스톤 상자, 의상 교환쿠폰 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14628] = {
+		unidentifiedDisplayName = "의상 페스티벌 상자",
+		unidentifiedResourceName = "솔로의선물바구니",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "의상 페스티벌 상자",
+		identifiedResourceName = "솔로의선물바구니",
+		identifiedDescriptionName = {
+			"여러가지 의상 장비들이 들어있는 상자.",
+			"어떤 의상 장비를 얻게 될지 알 수 없다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14629] = {
+		unidentifiedDisplayName = "의상 인챈트 스톤 상자",
+		unidentifiedResourceName = "오래된파란상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "의상 인챈트 스톤 상자",
+		identifiedResourceName = "오래된파란상자",
+		identifiedDescriptionName = {
+			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자.",
+			"힘의스톤(상단), 지능스톤(상단), 민첩스톤(상단), 재주스톤(상단), 건강스톤(상단), 운의스톤(상단), 공격스톤(중단), 마공스톤(중단), 명중스톤(하단), 회피스톤(하단) 중 1개를 얻을 수 있다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14663] = {
+		unidentifiedDisplayName = "봉인된 다크로드 스크롤",
+		unidentifiedResourceName = "지혜스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "봉인된 다크로드 스크롤",
+		identifiedResourceName = "지혜스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 봉인된 다크로드 스크롤.",
+			"봉인된 다크로드 카드, 다크일루전 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 이뮨드 아머 쉐도우, 의상 잠자는 고양이 모자,",
+			"의상 인챈트 스톤 상자, 의상 교환쿠폰 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14672] = {
+		unidentifiedDisplayName = "스틸파이터(20Lv)스크롤",
+		unidentifiedResourceName = "토자리스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "스틸파이터(20Lv)스크롤",
+		identifiedResourceName = "토자리스크롤",
+		identifiedDescriptionName = {
+			"스틸 파이터 20Lv 달성자에게 주어지는 딱딱한 알.",
+			"언데드의 핵 1개, 소녀의 마음 1개가 들어있다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14673] = {
+		unidentifiedDisplayName = "스틸파이터(25Lv)스크롤",
+		unidentifiedResourceName = "토자리스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "스틸파이터(25Lv)스크롤",
+		identifiedResourceName = "토자리스크롤",
+		identifiedDescriptionName = {
+			"스틸 파이터 20Lv 달성자에게 주어지는 딱딱한 알.",
+			"언데드의 핵 1개, 소녀의 마음 1개, 늑대왕 스크롤 1개가 들어있다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14675] = {
+		unidentifiedDisplayName = "쉐도우 박스Ⅱ",
+		unidentifiedResourceName = "우울한상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "쉐도우 박스Ⅱ",
+		identifiedResourceName = "우울한상자",
+		identifiedDescriptionName = {
+			"쉐도우 장비가 들어있는 상자.",
+			"파워 (이어링, 펜던트), 인트 (펜던트, 이어링), 덱스터러스 (아머, 웨폰),",
+			"바이탈 (슈즈, 쉴드), 어틀레틱 (쉴드, 슈즈), 럭키 (웨폰, 아머) 쉐도우 장비 중 1개를 얻을 수 있다.",
+			"간혹 찬란한 황금 날개가 나오기도 한다.",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[14781] = {
 		unidentifiedDisplayName = "Happy Balloon Scroll",
 		unidentifiedResourceName = "하트스크롤",
@@ -1377,6 +2111,29 @@ tbl = {
 			"Jobs: ^6A5ACDDoram race^000000"
 		},
 		slotCount = 1,
+		ClassNum = 0
+	},
+	[16385] = {
+		unidentifiedDisplayName = "입에 문 네잎클로버 상자Ⅱ",
+		unidentifiedResourceName = "캐시상자_녹색",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "입에 문 네잎클로버 상자Ⅱ",
+		identifiedResourceName = "캐시상자_녹색",
+		identifiedDescriptionName = {
+			"입에 문 네잎클로버가 1개 들어있는 상자. 2시간 사용가능.",
+			"^000088임대 아이템^000000",
+			"파릇한 풀내음이 나는 네잎크로버.",
+			"운이 따를 것 같다.",
+			"ATK + 5, MATK + 5, MDEF + 2.",
+			"PC방에서 착용 시 경험치 획득량 2% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
 		ClassNum = 0
 	},
 	[16591] = {
@@ -2548,6 +3305,29 @@ tbl = {
 			"Weight: ^0EAA0B2^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16760] = {
+		unidentifiedDisplayName = "움발라의 혼 상자",
+		unidentifiedResourceName = "캐시상자_보라",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "움발라의 혼 상자",
+		identifiedResourceName = "캐시상자_보라",
+		identifiedDescriptionName = {
+			"움발라의 혼 1개가 들어있는 상자. 7일간 사용가능.",
+			"^000088임대 아이템^000000",
+			"움발라 주민들이 애용하는 피어싱 악세사리. 거친 자연의 세계에서 살아가는 이들의 혼이 느껴진다.",
+			"MHP + 1%.",
+			"'고기'의 회복력이 25% 증가.",
+			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
+			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
+			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
