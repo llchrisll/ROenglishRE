@@ -11,7 +11,7 @@ tbl = {
 			"MaxSP +100",
 			"제련도 3당 MATK +2%, MaxSP +1%씩 증가.",
 			"",
-			"- 도람족 무기 전용 옵션 - ",
+			"- 도람족 무기 전용 옵션 -",
 			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
 			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
 			"(10제련까지 적용)",
@@ -38,7 +38,7 @@ tbl = {
 			"MaxSP +100",
 			"제련도 2당 MATK +2%, MaxSP +1%씩 증가.",
 			"",
-			"- 도람족 무기 전용 옵션 - ",
+			"- 도람족 무기 전용 옵션 -",
 			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
 			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
 			"(10제련까지 적용)",
@@ -66,7 +66,7 @@ tbl = {
 			"[새우의 신선함] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [아크라우스 대시] 1레벨 발동, [아쿠라우스 대시] 스킬 습득시 습득한 레벨로 발동",
 			"[개다래 줄기창] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.",
 			"",
-			"- 도람족 무기 전용 옵션 - ",
+			"- 도람족 무기 전용 옵션 -",
 			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
 			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
 			"(10제련까지 적용)",
@@ -113,7 +113,7 @@ tbl = {
 			"Long ranged physical damage +8%, MaxHP +200.",
 			"제련도 3당 DEX +3, MaxSP +15씩 증가.",
 			"",
-			"- 도람족 무기 전용 옵션 - ",
+			"- 도람족 무기 전용 옵션 -",
 			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
 			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
 			"(10제련까지 적용)",
@@ -139,7 +139,7 @@ tbl = {
 			"Long ranged physical damage +8%, MaxHP +5%.",
 			"제련도 2당 DEX +3, MaxSP +15씩 증가.",
 			"",
-			"- 도람족 무기 전용 옵션 - ",
+			"- 도람족 무기 전용 옵션 -",
 			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
 			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
 			"(10제련까지 적용)",
@@ -166,7 +166,7 @@ tbl = {
 			"제련도 2당 Long ranged physical damage+ 1%, MaxSP +20씩 증가.",
 			"[픽키 마구쪼기] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.",
 			"",
-			"- 도람족 무기 전용 옵션 - ",
+			"- 도람족 무기 전용 옵션 -",
 			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
 			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
 			"(10제련까지 적용)",
@@ -202,6 +202,489 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 100
 	},
+	[4671] = {
+		unidentifiedDisplayName = "소서러 실리아 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "소서러 실리아 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"소서러일 경우, MaxHP +10%, MATK +10%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 실리아알데카드와 함께 착용 시,",
+			"마법 공격 시, 일정확률(3%)로 6초간 실리아 알데의 영혼이 빙의.",
+			"빙의된 시간동안, MATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4672] = {
+		unidentifiedDisplayName = "수라 첸 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "수라 첸 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"수라일 경우, MaxHP +10%, ATK +10%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 첸리우카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 첸 리우의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4673] = {
+		unidentifiedDisplayName = "민스트럴 아르보치오 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "민스트럴 아르보치오 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"민스트럴일 경우, MaxHP +15%, MaxSP +10%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 아르보치오바실카드와 함께 착용시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 아르보치오의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4674] = {
+		unidentifiedDisplayName = "길로틴크로스 에레메스 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "길로틴크로스 에레메스 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"길로틴크로스일 경우, 완전회피 +10, ATK +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 에레메스가일카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 에레메스 가일의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4675] = {
+		unidentifiedDisplayName = "아크비숍 마가레타 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "아크비숍 마가레타 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"아크비숍일 경우, MaxHP +10%, 힐량 +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 마가레타소린카드와 함께 착용 시,",
+			"마법 공격 시, 일정확률(3%)로 6초간 마가레타 소린의 영혼이 빙의.",
+			"빙의된 시간동안, MATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4676] = {
+		unidentifiedDisplayName = "레인저 셰실 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "레인저 셰실 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"레인저일 경우, CRIT +20, 활 공격력 +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 셰실디먼카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 셰실 디먼의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4677] = {
+		unidentifiedDisplayName = "미케닉 하워드 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "미케닉 하워드 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"미케닉일 경우, Hit +20, ATK +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 하워드알트아이젠카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 하워드 알트아이젠의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4678] = {
+		unidentifiedDisplayName = "워록 카트린느 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "워록 카트린느 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"워록일 경우, MDEF +80, MATK +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 카트린느케이론카드와 함께 착용 시,",
+			"마법 공격 시, 일정확률(3%)로 6초간 카트린느 케이론의 영혼이 빙의.",
+			"빙의된 시간동안, MATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4679] = {
+		unidentifiedDisplayName = "룬나이트 세이렌 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "룬나이트 세이렌 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"룬나이트일 경우, ASPD +2, ATK +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 세이렌윈저카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 세이렌 윈저의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4680] = {
+		unidentifiedDisplayName = "로열가드 랜달 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "로열가드 랜달 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"로열가드일 경우, DEF +350, ATK +10%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 랜달로렌스카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 랜달 로렌스의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4681] = {
+		unidentifiedDisplayName = "제네릭 플라멜 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "제네릭 플라멜 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"제네릭일 경우, Flee +20, ATK +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 플라멜이뮬카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 플라멜 이뮬의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4682] = {
+		unidentifiedDisplayName = "쉐도우체이서 거티 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "쉐도우체이서 거티 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"쉐도우체이서일 경우, ATK +5%, MATK +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 거티위카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 거티 위의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4683] = {
+		unidentifiedDisplayName = "원더러 트렌티니 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "원더러 트렌티니 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"원더러일 경우, MaxHP +10%, MaxSP +15%.",
+			"BaseLv가 175일 시, All stats +10.",
+			"걸칠 것 10제련시, All stats +10.",
+			"진 트렌티니카드와 함께 착용 시,",
+			"물리 공격 시, 일정확률(3%)로 6초간 트렌티니의 영혼이 빙의.",
+			"빙의된 시간동안, ATK +100 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777걸칠것^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4684] = {
+		unidentifiedDisplayName = "진 에레메스가일카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 에레메스가일카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"크로스 임팩트의 공격력 20% 증가.",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가.",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4685] = {
+		unidentifiedDisplayName = "진 마가레타소린카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 마가레타소린카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"아도라무스의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4686] = {
+		unidentifiedDisplayName = "진 카트린느케이론카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 카트린느케이론카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"크림즌 록의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4687] = {
+		unidentifiedDisplayName = "진 셰실디먼카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 셰실디먼카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"클러스터 봄의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4688] = {
+		unidentifiedDisplayName = "진 하워드알트아이젠카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 하워드알트아이젠카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"액스 토네이도의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4689] = {
+		unidentifiedDisplayName = "진 세이렌윈저카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 세이렌윈저카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"이그니션 브레이크의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4690] = {
+		unidentifiedDisplayName = "진 랜달로렌스카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 랜달로렌스카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"어스 드라이브의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4691] = {
+		unidentifiedDisplayName = "진 플라멜이뮬카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 플라멜이뮬카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"카트 토네이도의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4692] = {
+		unidentifiedDisplayName = "진 실리아알데카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 실리아알데카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"바레티르 스피어의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4693] = {
+		unidentifiedDisplayName = "진 첸리우카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 첸리우카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"폭기산탄의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4694] = {
+		unidentifiedDisplayName = "진 거티위카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 거티위카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"페인트 봄의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4695] = {
+		unidentifiedDisplayName = "진 트렌티니카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 트렌티니카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"서비어 레인스톰의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[4696] = {
+		unidentifiedDisplayName = "진 아르보치오바실카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "진 아르보치오바실카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"진동잔향의 공격력 20% 증가. ",
+			"4레벨 무기 일 시, 스킬 데미지 20% 추가 증가. ",
+			"무기 10 제련시, 스킬 데미지 20% 추가 증가.",
+			"계열 : ^777777카드^000000",
+			"장착 : ^777777무기^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[5771] = {
 		unidentifiedDisplayName = "Hat",
 		unidentifiedResourceName = "캡",
@@ -234,7 +717,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT + 2, INT 제외 나머지 State + 1.",
+			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDMiddle^000000",
@@ -913,7 +1396,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "PC방 코인상자 4",
 		identifiedResourceName = "햇빛의상자",
-		identifiedDescriptionName = { "반짝이는 기념 주화가 나오는 상자, 상자 개봉 시, 기념주화의 지속시간은 2시간이니 유념할 것.", "^ffffff_^000000", "무게 : ^7777771^000000" },
+		identifiedDescriptionName = { "반짝이는 기념 주화가 나오는 상자, 상자 개봉 시, 기념주화의 지속시간은 2시간이니 유념할 것.", "^ffffff_^000000", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -1569,7 +2052,8 @@ tbl = {
 			"착용자에게 크나큰 행운을 가져다 준다고 하는 전설의 클립.",
 			"몬스터가 아이템을 드롭할 확률이 50% 증가한다.",
 			"계열 : ^777777악세사리^000000",
-			"방어 : ^7777770^000000      무게 : ^7777770^000000",
+			"방어 : ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"장착 : ^777777전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
@@ -2124,15 +2608,160 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"파릇한 풀내음이 나는 네잎크로버.",
 			"운이 따를 것 같다.",
-			"ATK + 5, MATK + 5, MDEF + 2.",
+			"ATK +5, MATK +5, MDEF +2.",
 			"PC방에서 착용 시 경험치 획득량 2% 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777772^000000",
+			"계열 : ^777777투구^000000",
+			"방어 : ^7777772^000000",
 			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16573] = {
+		unidentifiedDisplayName = "해골 후드 상자",
+		unidentifiedResourceName = "캐시상자_검정",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "해골 후드 상자",
+		identifiedResourceName = "캐시상자_검정",
+		identifiedDescriptionName = {
+			"해골 후드가 1개 들어있는 상자.",
+			"",
+			"해골모형이 장식된 검은 후드. 죽음의 사자가 된 것 같은 기분이 든다.",
+			"악마형, 불사형 적에게 받는 데미지 10% 감소.",
+			"7제련 이상 시 물리 공격 시 일정확률로 10초간 크리티컬 30%, 명중률 + 10.",
+			"계열 : ^777777투구^000000",
+			"방어 : ^77777710^000000",
+			"위치 : ^777777상중단 ^000000 무게 : ^77777770^000000",
+			"요구 레벨 : ^77777730^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16574] = {
+		unidentifiedDisplayName = "해골 후드 상자",
+		unidentifiedResourceName = "캐시상자_검정",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "해골 후드 상자",
+		identifiedResourceName = "캐시상자_검정",
+		identifiedDescriptionName = {
+			"해골 후드가 1개 들어있는 상자.",
+			"",
+			"해골모형이 장식된 검은 후드. 죽음의 사자가 된 것 같은 기분이 든다.",
+			"악마형, 불사형 적에게 받는 데미지 10% 감소.",
+			"7제련 이상 시 물리 공격 시 일정확률로 10초간 크리티컬 30%, 명중률 + 10.",
+			"계열 : ^777777투구^000000",
+			"방어 : ^77777710^000000",
+			"위치 : ^777777상중단 ^000000 무게 : ^77777770^000000",
+			"요구 레벨 : ^77777730^000000",
+			"장착 : ^777777전 직업^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16580] = {
+		unidentifiedDisplayName = "라크마 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "라크마 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"단검 라크마가 1개 들어있는 상자.",
+			"",
+			"날카로운 검날에 서린 예기와 힐트에 장식된 보석이 주는 아름다움이 묘하게 어울린다.",
+			"3제련 시 마다 ATK, MATK + 40 증가.",
+			"6이상 제련 시 : 중형 몬스터에 대한 데미지 8% 증가. 낮은확률로 5초간 무기에 대한 크기 페널티가 사라짐.",
+			"9이상 제련 시 : 중형 몬스터에 대한 데미지 20% 증가.",
+			"12이상 제련 시 : 크기 페널티 사라짐이 상시 지속.",
+			"[골드PC방에서 사용 시 추가 옵션]",
+			"매 타격당 SP 1씩 회복, 중형 몬스터에 대한 데미지 5% 추가 증가.",
+			"8이상 제련 시 : 크기 패널티 사라짐이 상시 지속.",
+			"9이상 제련 시 : 타격 시 낮은확률로 5초간 SP 2 추가 회복.",
+			"계열 : ^777777단검^000000 공격 : ^77777745^000000",
+			"Weight: ^0EAA0B65^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16581] = {
+		unidentifiedDisplayName = "라크마 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "라크마 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"단검 라크마가 1개 들어있는 상자.",
+			"",
+			"날카로운 검날에 서린 예기와 힐트에 장식된 보석이 주는 아름다움이 묘하게 어울린다.",
+			"3제련 시 마다 ATK, MATK + 40 증가.",
+			"6이상 제련 시 : 중형 몬스터에 대한 데미지 8% 증가. 낮은확률로 5초간 무기에 대한 크기 페널티가 사라짐.",
+			"9이상 제련 시 : 중형 몬스터에 대한 데미지 20% 증가.",
+			"12이상 제련 시 : 크기 페널티 사라짐이 상시 지속.",
+			"[골드PC방에서 사용 시 추가 옵션]",
+			"매 타격당 SP 1씩 회복, 중형 몬스터에 대한 데미지 5% 추가 증가.",
+			"8이상 제련 시 : 크기 패널티 사라짐이 상시 지속.",
+			"9이상 제련 시 : 타격 시 낮은확률로 5초간 SP 2 추가 회복.",
+			"계열 : ^777777단검^000000 공격 : ^77777745^000000",
+			"Weight: ^0EAA0B65^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16584] = {
+		unidentifiedDisplayName = "나무늘보 모자 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "나무늘보 모자 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "나무늘보 모자가 1개 들어있는 상자.", "^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000", "Weight: ^0EAA0B1^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16585] = {
+		unidentifiedDisplayName = "나무늘보 모자 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "나무늘보 모자 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "나무늘보 모자가 1개 들어있는 상자.", "^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000", "Weight: ^0EAA0B1^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16586] = {
+		unidentifiedDisplayName = "두네이르 투구 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "두네이르 투구 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "두네이르 투구가 1개 들어있는 상자.", "^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000", "Weight: ^0EAA0B1^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16587] = {
+		unidentifiedDisplayName = "두네이르 투구 상자",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "두네이르 투구 상자",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = { "두네이르 투구가 1개 들어있는 상자.", "^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -2178,8 +2807,10 @@ tbl = {
 			"심연의 기사가 쓰는 투구. 강한 공격에 대한 내성은 강하나 오히려 약한 공격에 취약한 면을 보인다.",
 			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
 			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
-			"Class: ^6A5ACD투구^000000    Defense: ^0000FF9^000000",
-			"위치 : ^777777상단^000000    Weight: ^0EAA0B100^000000",
+			"Class: ^6A5ACD투구^000000",
+			"Defense: ^0000FF9^000000",
+			"위치 : ^777777상단^000000",
+			"Weight: ^0EAA0B100^000000",
 			"요구레벨 : ^77777770^000000",
 			"Jobs: ^6A5ACD검사 / 상인 / 도둑 계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -2200,8 +2831,10 @@ tbl = {
 			"심연의 기사가 쓰는 투구. 강한 공격에 대한 내성은 강하나 오히려 약한 공격에 취약한 면을 보인다.",
 			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
 			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
-			"Class: ^6A5ACD투구^000000    Defense: ^0000FF9^000000",
-			"위치 : ^777777상단^000000    Weight: ^0EAA0B100^000000",
+			"Class: ^6A5ACD투구^000000",
+			"Defense: ^0000FF9^000000",
+			"위치 : ^777777상단^000000",
+			"Weight: ^0EAA0B100^000000",
 			"요구레벨 : ^77777770^000000",
 			"Jobs: ^6A5ACD검사 / 상인 / 도둑 계열^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -2403,7 +3036,8 @@ tbl = {
 			"FLEE +15, MDEF +2.",
 			"텔레포트 Lv1 사용가능.",
 			"제련불가. 파괴불가.",
-			"Class: ^6A5ACD걸칠것^000000    Defense: ^0000FF20^000000",
+			"Class: ^6A5ACD걸칠것^000000",
+			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^77777747^000000",
 			"Jobs: ^6A5ACD전직업 장착가능^000000",
@@ -2423,12 +3057,13 @@ tbl = {
 			"메긴기오르드(체험판)이 1개 들어있는 상자.",
 			"7일간 사용 가능 하다.",
 			"^000088임대 아이템^000000",
-			"허리에 착용하면 힘을 극적으로 끌어올려 가히 괴물이라 불릴 정도로 만들어주는 아이템.  뇌신 토르의 전용 허리띠였다.",
+			"허리에 착용하면 힘을 극적으로 끌어올려 가히 괴물이라 불릴 정도로 만들어주는 아이템. 뇌신 토르의 전용 허리띠였다.",
 			"STR +20, MDEF +3",
 			"착용자의 BaseLV에 따라 STR 추가 증가.",
 			"STR이 순수 120 인 경우, 보스몬스터에게 5% 물리 데미지 추가.",
 			"Class: ^6A5ACDAccessory^000000",
-			"Defense: ^0000FF1^000000      Weight: ^0EAA0B0^000000",
+			"Defense: ^0000FF1^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^77777747^000000",
 			"Jobs: ^6A5ACD전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -2452,7 +3087,8 @@ tbl = {
 			"MDEF +2",
 			"자신이 사용하는 힐, 생츄어리 스킬의 회복량이 3% 증가.",
 			"Class: ^6A5ACDAccessory^000000",
-			"Defense: ^0000FF1^000000      Weight: ^0EAA0B0^000000",
+			"Defense: ^0000FF1^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^77777747^000000",
 			"Jobs: ^6A5ACD전직업 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -2476,7 +3112,8 @@ tbl = {
 			"물리공격력 5%, 마법공격력 5% 증가.",
 			"MDEF +5.",
 			"넉백불가. 제련불가. 파괴불가.",
-			"Class: ^6A5ACD갑옷^000000    Defense: ^0000FF60^000000",
+			"Class: ^6A5ACD갑옷^000000",
+			"Defense: ^0000FF60^000000",
 			"Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^77777747^000000",
 			"Jobs: ^6A5ACD전직업 장착가능^000000",
@@ -2547,8 +3184,8 @@ tbl = {
 			"대못박힌 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
-			"ATK +30, HP - 2%.",
-			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
+			"ATK +30, HP -2%.",
+			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
 			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -2571,7 +3208,7 @@ tbl = {
 			"무지개 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
-			"MATK +30, MaxSP - 2%.",
+			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
@@ -2595,8 +3232,8 @@ tbl = {
 			"대못박힌 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
-			"ATK +30, HP - 2%.",
-			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
+			"ATK +30, HP -2%.",
+			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
 			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -2619,7 +3256,7 @@ tbl = {
 			"무지개 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
-			"MATK +30, MaxSP - 2%.",
+			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
@@ -2715,8 +3352,8 @@ tbl = {
 			"대못박힌 스카프가 1개 들어있는 상자. 1시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
-			"ATK +30, HP - 2%.",
-			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
+			"ATK +30, HP -2%.",
+			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
 			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -2739,7 +3376,7 @@ tbl = {
 			"무지개 스카프가 1개 들어있는 상자. 1시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
-			"MATK +30, MaxSP - 2%.",
+			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
@@ -2763,8 +3400,8 @@ tbl = {
 			"대못박힌 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
-			"ATK +30, HP - 2%.",
-			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
+			"ATK +30, HP -2%.",
+			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
 			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -2787,7 +3424,7 @@ tbl = {
 			"무지개 스카프가 1개 들어있는 상자. 2시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
-			"MATK +30, MaxSP - 2%.",
+			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
@@ -2811,8 +3448,8 @@ tbl = {
 			"대못박힌 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
-			"ATK +30, HP - 2%.",
-			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%.",
+			"ATK +30, HP -2%.",
+			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF3^000000",
 			"위치 : ^777777하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -2835,7 +3472,7 @@ tbl = {
 			"무지개 스카프가 1개 들어있는 상자. 4시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
-			"MATK +30, MaxSP - 2%.",
+			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF0^000000",
@@ -2954,7 +3591,7 @@ tbl = {
 			"쌍자궁 하늘의 왕관이 1개 들어있는 상자.",
 			"",
 			"황도 3번째 자리인 쌍자궁을 나타내는 왕관. 탄생석인 알렉산드라이트가 박혀있다.",
-			"AGI + 2, FLEE +10, 풍속성 공격에 대한 내성 5%.",
+			"AGI +2, FLEE +10, 풍속성 공격에 대한 내성 5%.",
 			"7제련 이상 일 경우 HIT +5, ATK +30.",
 			"Class: ^6A5ACD투구^000000",
 			"Defense: ^0000FF6^000000",
@@ -3321,10 +3958,11 @@ tbl = {
 			"움발라의 혼 1개가 들어있는 상자. 7일간 사용가능.",
 			"^000088임대 아이템^000000",
 			"움발라 주민들이 애용하는 피어싱 악세사리. 거친 자연의 세계에서 살아가는 이들의 혼이 느껴진다.",
-			"MHP + 1%.",
+			"MaxHP +1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777771^000000",
+			"계열 : ^777777투구^000000",
+			"방어 : ^7777771^000000",
 			"위치 : ^777777하단 ^000000 무게 : ^7777770^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전직업^000000",
@@ -4420,7 +5058,7 @@ tbl = {
 		identifiedResourceName = "헐떡이는상자",
 		identifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕이 5개 들어있는 상자. 먹고 나선 이빨을 꼭 닦도록 하자.",
-			"1분동안 ATK +20, 공격속도 + 25%, 무한인듀어상태. 10초당 HP 100씩 감소.",
+			"1분동안 ATK +20, 공격속도 +25%, 무한인듀어상태. 10초당 HP 100씩 감소.",
 			"3분의 재사용 대기시간 존재.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -4438,7 +5076,7 @@ tbl = {
 		identifiedResourceName = "헐떡이는상자",
 		identifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕이 10개 들어있는 상자. 먹고 나선 이빨을 꼭 닦도록 하자.",
-			"1분동안 ATK +20, 공격속도 + 25%, 무한인듀어상태. 10초당 HP 100씩 감소.",
+			"1분동안 ATK +20, 공격속도 +25%, 무한인듀어상태. 10초당 HP 100씩 감소.",
 			"3분의 재사용 대기시간 존재.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -4673,7 +5311,7 @@ tbl = {
 		identifiedDisplayName = "옷염색 쿠폰 상자 Ⅱ",
 		identifiedResourceName = "졸린상자",
 		identifiedDescriptionName = {
-			"본래의 색으로  옷을 염색 할 수 있는 쿠폰이 1장 들어있는 상자.",
+			"본래의 색으로 옷을 염색 할 수 있는 쿠폰이 1장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -5139,7 +5777,7 @@ tbl = {
 			"무라마사가 1개 들어있는 상자. 파손 주의! 개봉 후, 7일간 사용 가능.",
 			"^000088임대아이템^000000",
 			"동방의 어느 명성높은 도공의 이름을 딴 검. 요도라 불리워지기도 하나 그 위력만큼은 무시할 수 없다",
-			"크리티컬율 + 30%",
+			"크리티컬율 +30%",
 			"공격속도 증가(공격 후딜레이 8% 감소)",
 			"골드PC방에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD양손검^000000",
@@ -5169,7 +5807,8 @@ tbl = {
 			"골드PC방에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD검^000000",
 			"Attack: ^D80000199^000000",
-			"Weight: ^0EAA0B0^000000     속성 : ^777777성^000000",
+			"Weight: ^0EAA0B0^000000",
+			"속성 : ^777777성^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
 			"Jobs: ^6A5ACD검사계열/상인계열/도둑계열 전용^000000",
@@ -5214,7 +5853,7 @@ tbl = {
 			"카운터단검이 1개 들어있는 상자. 파손 주의! 개봉 후, 7일간 사용 가능.",
 			"^000088임대아이템^000000",
 			"상대에게 치명적인 일격을 줄 가능성이 높은 단검",
-			"크리티컬 + 90%",
+			"크리티컬 +90%",
 			"골드PC방에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD단검^000000",
 			"Attack: ^D80000209^000000",
@@ -5238,7 +5877,7 @@ tbl = {
 			"마이트스태프가 1개 들어있는 상자. 파손 주의! 개봉 후, 7일간 사용 가능.",
 			"^000088임대아이템^000000",
 			"사용자의 정신력을 파괴력으로 변환해 주는 지팡이로 적은 정신력으로 무시무시한 파괴력을 보장해준다",
-			"적 타격시 SP - 1",
+			"적 타격시 SP -1",
 			"STR +10 ,INT +4, MATK +120",
 			"골드PC방에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD지팡이^000000",
@@ -5269,7 +5908,8 @@ tbl = {
 			"골드PC방에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD도끼^000000",
 			"Attack: ^D80000229^000000",
-			"Weight: ^0EAA0B0^000000     속성 : ^777777성^000000",
+			"Weight: ^0EAA0B0^000000",
+			"속성 : ^777777성^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
 			"Jobs: ^6A5ACD검사계열/상인계열 전용^000000",
@@ -5361,7 +6001,7 @@ tbl = {
 			"브로치가 1개 들어있는 상자. 파손 주의! 개봉 후, 7일간 사용 가능.",
 			"^000088임대아이템^000000",
 			"옷등의 천에 장식하여 발랄함을 한껏 돋보이게 만들어주는 장식물",
-			"AGI + 4.",
+			"AGI +4.",
 			"골드PC방에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDAccessory^000000",
 			"Defense: ^0000FF0^000000",
@@ -5384,7 +6024,7 @@ tbl = {
 			"세이프티링이 1개 들어있는 상자. 파손 주의! 개봉 후, 7일간 사용 가능.",
 			"^000088임대아이템^000000",
 			"일종의 마법적인 능력을 발휘하여 착용자를 보호하고 그 피해를 격감시켜주는 마법의 반지",
-			"DEF + 8 , MDEF +8",
+			"DEF +8 , MDEF +8",
 			"골드PC방에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDAccessory^000000",
 			"Defense: ^0000FF0^000000",
@@ -5509,7 +6149,8 @@ tbl = {
 			"골드PC방에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD검^000000",
 			"Attack: ^D80000120^000000",
-			"Weight: ^0EAA0B0^000000      속성 : ^777777화^000000",
+			"Weight: ^0EAA0B0^000000 ",
+			"속성 : ^777777화^000000",
 			"무기레벨 : ^7777774^000000",
 			"요구레벨 : ^7777771^000000",
 			"Jobs: ^6A5ACD검사계열/상인계열/도둑계열 전용^000000",
@@ -5552,7 +6193,7 @@ tbl = {
 			"오크히어로의 투구가 1개 들어있는 상자. 파손 주의! 개봉 후, 2주간 사용 가능.",
 			"^000088임대아이템^000000",
 			"진정한 오크의 용자에게만 주어지는 투구로 오크족 사이에서 가장 용맹하고 위대한 오크라는 증거임에 틀림없다.",
-			"STR +5, VIT + 3.",
+			"STR +5, VIT +3.",
 			"골드PC방에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF10^000000",
@@ -5671,7 +6312,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"3가지 마법의 정수가 담긴 보석 반지.",
 			"힐과 텔레포테이션 1레벨 사용 가능. 캐스팅이 끊어지지 않는다.",
-			"ALL STATUS + 1. 변동 캐스팅 시간이 10% 증가한다.",
+			"ALL STATUS +1. 변동 캐스팅 시간이 10% 증가한다.",
 			"골드PC방에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDAccessory^000000",
 			"Defense: ^0000FF0^000000",
@@ -5764,7 +6405,8 @@ tbl = {
 			"바람의 정령의 가호가 깃든 깃털망토. 착용자를 위험으로부터 보호해 준다고 한다.",
 			"FLEE +13, 무속성 대미지 13% 감소. Perfect Dodge +1",
 			"골드PC방에서 장착 시 All Stats +1.",
-			"Class: ^6A5ACD걸칠것^000000  Defense: ^0000FF33^000000",
+			"Class: ^6A5ACD걸칠것^000000",
+			"Defense: ^0000FF33^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Jobs: ^6A5ACDAll classes 장착가능^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -6351,8 +6993,8 @@ tbl = {
 			"대못박힌 스카프가 1개 들어있는 상자. 개봉 후, 1시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
-			"ATK +30, HP - 2%.",
-			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%, All Stats +1.",
+			"ATK +30, HP -2%.",
+			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6375,8 +7017,8 @@ tbl = {
 			"대못박힌 스카프가 1개 들어있는 상자. 개봉 후, 2시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
-			"ATK +30, HP - 2%.",
-			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%, All Stats +1.",
+			"ATK +30, HP -2%.",
+			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6399,8 +7041,8 @@ tbl = {
 			"대못박힌 스카프가 1개 들어있는 상자. 개봉 후, 4시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
-			"ATK +30, HP - 2%.",
-			"골드 PC방에서 사용 시, 추가로 HP + 2%, Long ranged physical damage +2%, All Stats +1.",
+			"ATK +30, HP -2%.",
+			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6423,7 +7065,7 @@ tbl = {
 			"무지개 스카프가 1개 들어있는 상자. 개봉 후, 1시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
-			"MATK +30, MaxSP - 2%.",
+			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
@@ -6447,7 +7089,7 @@ tbl = {
 			"무지개 스카프가 1개 들어있는 상자. 개봉 후, 2시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
-			"MATK +30, MaxSP - 2%.",
+			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
@@ -6471,7 +7113,7 @@ tbl = {
 			"무지개 스카프가 1개 들어있는 상자. 개봉 후, 4시간 동안 사용가능.",
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
-			"MATK +30, MaxSP - 2%.",
+			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
@@ -6497,7 +7139,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State + 1.",
+			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDMiddle^000000",
@@ -6522,7 +7164,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State + 1.",
+			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDMiddle^000000",
@@ -6547,7 +7189,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State + 1.",
+			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDMiddle^000000",
@@ -7164,7 +7806,7 @@ tbl = {
 			"강화 씨프클로스가 1개 들어있는 상자.",
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 씨프클로스.",
-			"MaxHP +3%, AGI + 1.",
+			"MaxHP +3%, AGI +1.",
 			"Class: ^6A5ACDArmor^000000",
 			"Defense: ^0000FF45^000000",
 			"Weight: ^0EAA0B10^000000",
@@ -7286,7 +7928,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"변신 스크롤(데비루치)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
 			"20분 동안 몬스터 \"데비루치\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"데비루치로 변신한 시간 동안 ASPD + 1, HIT +5.",
+			"데비루치로 변신한 시간 동안 ASPD +1, HIT +5.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -7463,7 +8105,7 @@ tbl = {
 			"금우궁 왕관이 1개 들어있는 상자.",
 			"",
 			"황도 2번째 자리인 금우궁을 나타내는 왕관. 탄생석인 에메랄드가 박혀있다.",
-			"AGI + 2, FLEE +10.",
+			"AGI +2, FLEE +10.",
 			"물리공격 시 적에게 낮은 확률로 스턴을 건다. 제련도에 따라 스턴을 걸 확률이 증가한다.",
 			"7제련 이상 일 경우 ATK +15, 공격속도 증가(공격 후 딜레이 5% 감소)",
 			"Class: ^6A5ACDHeadgear^000000",
@@ -8083,7 +8725,7 @@ tbl = {
 			"레드 부스터가 20개 들어있는 상자.",
 			"",
 			"체내 에너지를 활성화 하여, 전투를 보조해주는 레드 부스터. 체력에 다소 부담이 가니 주의 하자.",
-			"10분간 ATK, MATK +30, 공격속도 증가(공격 후 딜레이감소 5%), 변동 캐스팅 5% 감소, MaxHP, MaxSP - 10%.",
+			"10분간 ATK, MATK +30, 공격속도 증가(공격 후 딜레이감소 5%), 변동 캐스팅 5% 감소, MaxHP, MaxSP -10%.",
 			"물리, 마법 공격 시 일정확률로 집중력향상 3Lv 발동.(배운레벨이 3Lv보다 높을 시 배운레벨로 발동)",
 			"",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
@@ -8103,7 +8745,7 @@ tbl = {
 			"레드 부스터 20개와 2011 RWC 스크롤 1개가 들어있는 상자.",
 			"",
 			"체내 에너지를 활성화 하여, 전투를 보조해주는 레드 부스터. 체력에 다소 부담이 가니 주의 하자.",
-			"10분간 ATK, MATK +30, 공격속도 증가(공격 후 딜레이감소 5%), 변동 캐스팅 5% 감소, MaxHP, MaxSP - 10%.",
+			"10분간 ATK, MATK +30, 공격속도 증가(공격 후 딜레이감소 5%), 변동 캐스팅 5% 감소, MaxHP, MaxSP -10%.",
 			"물리, 마법 공격 시 일정확률로 집중력향상 3Lv 발동.",
 			"",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
@@ -8380,7 +9022,8 @@ tbl = {
 			"순수 AGI 20 당 공격속도 증가(공격 후딜레이 1% 감소),",
 			"순수 DEX 20 당 원거리 공격력 1% 증가,",
 			"순수 LUK 20 당 크리티컬 데미지 1% 증가.",
-			"Class: ^6A5ACD걸칠것^000000  Defense: ^0000FF18^000000",
+			"Class: ^6A5ACD걸칠것^000000",
+			"Defense: ^0000FF18^000000",
 			"Weight: ^0EAA0B20^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes 장착가능^000000",
@@ -8609,7 +9252,7 @@ tbl = {
 			"아미스트르캡이 1개 들어있는 모자.",
 			"",
 			"호문클루스 '아미스트르'를 본따 만든 인형모자.",
-			"VIT + 1, 2제련당 VIT + 1씩 추가 증가.",
+			"VIT +1, 2제련당 VIT +1씩 추가 증가.",
 			"물리공격 시, 높은 확률로 적에게 피어스 5Lv.",
 			"풀잎과 함께 장착 시, 받는 물리데미지 1% 반사. 모자 제련도 2당 1%씩 추가 증가.",
 			"꽃잎과 함께 장착 시, MaxSP +20. 모자 제련도 2당 10씩 추가 증가.",
@@ -9451,7 +10094,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"체내 에너지를 활성화하여, 파워를 대폭 향상시켜주는 부스터. ",
 			"30분간 ATK, MATK +30, ATK, MATK +1%,",
-			"HIT, FLEE +30, ASPD + 1, SP 소모량 5% 감소,",
+			"HIT, FLEE +30, ASPD +1, SP 소모량 5% 감소,",
 			"고정 캐스팅 30% 감소.",
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다.)",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
@@ -9474,7 +10117,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"체내 에너지를 활성화하여, 파워를 대폭 향상시켜주는 부스터. ",
 			"30분간 ATK, MATK +30, ATK, MATK +1%,",
-			"HIT, FLEE +30, ASPD + 1, SP 소모량 5% 감소,",
+			"HIT, FLEE +30, ASPD +1, SP 소모량 5% 감소,",
 			"고정 캐스팅 30% 감소.",
 			"(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다.)",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
@@ -9516,7 +10159,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9534,7 +10177,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9702,12 +10345,51 @@ tbl = {
 			"아주 대단해 보인다.",
 			"계열 : ^777777의상장비^000000",
 			"방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1339
+	},
+	[20458] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "캡",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "의상 와일드 포링 라이더",
+		identifiedResourceName = "와일드포링라이더",
+		identifiedDescriptionName = {
+			"먹자 몬스터 2인방이 팀을 이뤘다!",
+			"둘이 뭉쳐, 아이템에 대한 물욕이 더욱 높아진 듯한 모습이다.",
+			"계열 : ^777777의상장비^000000",
+			"방어 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000",
+			"Weight: ^0EAA0B0^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1422
+	},
+	[20459] = {
+		unidentifiedDisplayName = "액세서리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "의상 발할라 아이돌",
+		identifiedResourceName = "발할라아이돌",
+		identifiedDescriptionName = {
+			"전장에서 춤추듯 싸우는 소녀가 착용하고 있던 머리장식.",
+			"소녀를 수호하는 빛이 스포트라이트처럼 비추고 있다.",
+			"계열 : ^777777의상장비^000000",
+			"방어 : ^7777770^000000",
+			"위치 : ^777777중단 ^000000",
+			"Weight: ^0EAA0B0^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1423
 	},
 	[20504] = {
 		unidentifiedDisplayName = "걸칠것",
@@ -9827,7 +10509,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"모험가를 위한 왕국의 공인장비. ",
 			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 CRI +2.",
+			"획득 경험치 +4%, 2제련당 CRIT +2.",
 			"Class: ^6A5ACD걸칠것^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
@@ -9903,8 +10585,10 @@ tbl = {
 		identifiedDescriptionName = {
 			"플레이어 주변에 사신님이 나타나서 가져갈 영혼이 나오기만을 기다리고 계신다.",
 			"크리스마스 때 어린 마족과 망령들을 행복하게 해줬다면 안토니오 에게서 받을 수 있는 선물.",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777770^000000",
+			"계열 : ^777777의상장비^000000",
+			"방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -9919,7 +10603,7 @@ tbl = {
 		identifiedResourceName = "원목슬리퍼",
 		identifiedDescriptionName = {
 			"딱딱한 원목으로 만든 슬리퍼. 오래 신고 다니기에는 조금 부담스럽다.",
-			"10초당 HP회복 + 2",
+			"10초당 HP회복 +2",
 			"Class: ^6A5ACD신발^000000",
 			"Defense: ^0000FF10^000000",
 			"Weight: ^0EAA0B5^000000",
@@ -9937,8 +10621,8 @@ tbl = {
 		identifiedResourceName = "빨간친환경장화",
 		identifiedDescriptionName = {
 			"친환경 소재로 만든 빨간색 장화. 통풍이 잘 안되니 자주 신발을 벗어주는 편이 좋다. 안그랬다가는 크게 낭패를 볼 일이 생길지도..",
-			"10초당 HP 회복 + 4,",
-			"10초당 SP 회복 + 1,",
+			"10초당 HP 회복 +4,",
+			"10초당 SP 회복 +1,",
 			"Crit +5",
 			"Class: ^6A5ACD신발^000000",
 			"Defense: ^0000FF20^000000",
@@ -10034,7 +10718,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"도람족의 작은 발에 맞게 고안된 전용 슈즈.",
 			"MaxHP +100, MaxSP +50.",
-			"제련도 3당 HP 회복속도 + 10%, SP 회복속도 + 10%.",
+			"제련도 3당 HP 회복속도 +10%, SP 회복속도 +10%.",
 			"Class: ^6A5ACD신발^000000",
 			"Defense: ^0000FF25^000000",
 			"Weight: ^0EAA0B50^000000",
@@ -10053,7 +10737,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"도람족의 작은 발에 맞게 고안된 전용 슈즈.",
 			"MaxHP +300, MaxSP +100.",
-			"제련도 3당 HP 회복속도 + 20%, SP 회복속도 + 20%.",
+			"제련도 3당 HP 회복속도 +20%, SP 회복속도 +20%.",
 			"Class: ^6A5ACD신발^000000",
 			"Defense: ^0000FF30^000000",
 			"Weight: ^0EAA0B60^000000",
@@ -10093,11 +10777,11 @@ tbl = {
 		identifiedDescriptionName = {
 			"아크엔젤링 장식이 붙어있는 파란 색의 부츠.",
 			"조합하는 돌의 종류에 따라 능력이 추가된다.",
-			"All State +1",
+			"All stats +1",
 			"[힐] Lv.1 사용 가능.",
 			"계열 : ^777777신발^000000",
 			"방어 : ^77777715^000000",
-			"무게 : ^77777730^000000",
+			"Weight: ^0EAA0B30^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10380,6 +11064,20 @@ tbl = {
 		identifiedDescriptionName = {
 			"의문의 알 1개와 메긴기오르드(체험판), 브리싱가멘(체험판), 아스프리카(체험판), 브륀힐트(체험판)가 들어있는 상자. 체험판은 14일간 사용 가능하다. ",
 			"Weight: ^0EAA0B10^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[22869] = {
+		unidentifiedDisplayName = "행운의 룰렛 티켓",
+		unidentifiedResourceName = "쿠폰-노멀",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "행운의 룰렛 티켓",
+		identifiedResourceName = "쿠폰-노멀",
+		identifiedDescriptionName = {
+			"겨울 기간 한정 상품! 행운의 룰렛의 브론즈 포인트가 10포인트 추가되는 티켓.",
+			"Weight: ^0EAA0B0^000000",
+			"요구 레벨 : ^77777750^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11116,7 +11814,7 @@ tbl = {
 		identifiedResourceName = "금보물상자",
 		identifiedDescriptionName = {
 			"PC방 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
-			"화이트 슬림포션 상자 1개 ,  [not for sale]블레싱 스크롤 10개 상자 1개",
+			"화이트 슬림포션 상자 1개 , [not for sale]블레싱 스크롤 10개 상자 1개",
 			"[not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 5개 ",
 			"이속변화포션 10개 , 독약병 10개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
@@ -11134,7 +11832,7 @@ tbl = {
 		identifiedResourceName = "다이아보물상자",
 		identifiedDescriptionName = {
 			"PC방 마일리지 300포인트를 소모해서 얻을 수 있는 박스. ",
-			"포션상자 1개 ,  독약병상자 1개 , [not for sale]소형 생명수 상자 1개",
+			"포션상자 1개 , 독약병상자 1개 , [not for sale]소형 생명수 상자 1개",
 			"[not for sale]연마제 상자 1개 , [not for sale]블레싱 스크롤 10개 상자 1개",
 			"[not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 30개 ",
 			"이속변화포션 30개가 포장되어 있다.",
@@ -11155,6 +11853,19 @@ tbl = {
 			"레드 슬림 포션 100개가 압축되어 들어있는 상자. 개봉 시 주의.",
 			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23016] = {
+		unidentifiedDisplayName = "원념의 파편",
+		unidentifiedResourceName = "원념의파편",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "원념의 파편",
+		identifiedResourceName = "원념의파편",
+		identifiedDescriptionName = {
+			"여러명의 강력한 사념이 모여 만들어진 불안정해 보이는 물질. 너무 여러가지 감정이 섞여있어, 함부로 만지다간 큰일 날 것 같다.",
+			"Weight: ^0EAA0B0.1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11241,7 +11952,7 @@ tbl = {
 		identifiedDisplayName = "민들레 반지",
 		identifiedResourceName = "민들레반지",
 		identifiedDescriptionName = {
-			"민들레를 엮어 만든 소박한 반지. 민들레 홀씨를 불면  바람을 타고 어디론가 날아갈 것 같다.",
+			"민들레를 엮어 만든 소박한 반지. 민들레 홀씨를 불면 바람을 타고 어디론가 날아갈 것 같다.",
 			"'라헬'로 귀환 가능. ",
 			"한번 사용시, 60분간 재사용이 불가능하다. ",
 			"Weight: ^0EAA0B0^000000"
@@ -11434,7 +12145,7 @@ tbl = {
 		identifiedResourceName = "이그드라실씨앗",
 		identifiedDescriptionName = {
 			"이세계의 근원이 된 이그드라실 열매의 씨앗. 고소하고 달지않은 은은한 향에 원기가 솟음을 느낄 수 있다함.^000088사용자의 HP 와 SP의 절반을 회복^000000시켜줌",
-			"재사용 대기시간 :  ^7777773초^000000",
+			"재사용 대기시간 : ^7777773초^000000",
 			"Weight: ^0EAA0B30^000000"
 		},
 		slotCount = 0,
@@ -11512,7 +12223,7 @@ tbl = {
 		identifiedResourceName = "사탕",
 		identifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕. 먹고 나선 이빨을 꼭 닦도록 하자.",
-			"1분동안 ATK +20, 공격속도 + 25%, 무한인듀어상태. 10초당 HP 100씩 감소.",
+			"1분동안 ATK +20, 공격속도 +25%, 무한인듀어상태. 10초당 HP 100씩 감소.",
 			"3분의 재사용 대기시간 존재.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
@@ -11674,7 +12385,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 천사 스크롤. ",
 			"무기 11제련 상품권, 방어구 11제련 상품권, 봉인된인장카드, 천사포링부츠상자, 부위별 쉐도우 큐브등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11689,7 +12400,35 @@ tbl = {
 			"천사포링 부츠가 들어있는 상자.",
 			"천사포링 부츠에 장착시, 추가로 능력을 얻을 수 있는 돌이 1종 포함되어 있다.",
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23080] = {
+		unidentifiedDisplayName = "원념의 결정",
+		unidentifiedResourceName = "오크의마법결정",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "원념의 결정",
+		identifiedResourceName = "오크의마법결정",
+		identifiedDescriptionName = {
+			"떠도는 원념이 결정화 된 것.", "부수어서 다량의 원념의 파편을 얻을 수 있다.",
+			"Weight: ^0EAA0B50^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23086] = {
+		unidentifiedDisplayName = "의상 인챈트 스톤 상자10",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "의상 인챈트 스톤 상자10",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
+			"신규 이펙트가 3종 추가되었으며, 렉스 에테르나 스톤(중단), 변동 캐스팅 스톤(상,중,하단), 경험치 스톤(상단)등 신규 인챈트 스톤이 포함되었다.",
+			"기존의 의상 인챈트 스톤도 포함되어 있다.",
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12136,8 +12875,8 @@ tbl = {
 		identifiedDescriptionName = {
 			"갑옷 위에 입는 갑옷으로 추가적인 방어 효과를 얻을 수 있다. 단일로도 사용할 수 있지만 방어 효과는 적다. ",
 			"오토 스펠 스킬 사용시, 50초 동안 공격속도 제련도 % 만큼 증가. ",
-			"제련도 7 이상시, 오토스펠 스킬 사용시 50초 동안 ASPD + 1 증가.",
-			"제련도 9 이상시, 오토스펠 스킬 사용시 50초 동안 ASPD + 1 추가 증가.",
+			"제련도 7 이상시, 오토스펠 스킬 사용시 50초 동안 ASPD +1 증가.",
+			"제련도 9 이상시, 오토스펠 스킬 사용시 50초 동안 ASPD +1 추가 증가.",
 			"",
 			"세이지 슈즈 쉐도우와 함께 착용시,",
 			"헤븐즈 드라이브의 변동 캐스팅 시간 40% 감소",
@@ -12235,10 +12974,10 @@ tbl = {
 			"[SP회복력 향상] 스킬 레벨 1당 일반 몬스터의 마법 방어력 3% 무시.",
 			"제련도 1당 일반 몬스터의 물리, 마법 방어력 3% 무시.",
 			"7제련 시, MaxHP +5%, MaxSP +5%",
-			"9제련 시, MaxHP +5%, MaxSP +5%, SP 회복력 + 100%",
+			"9제련 시, MaxHP +5%, MaxSP +5%, SP 회복력 +100%",
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777웨폰^000000",
-			"무게 : ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777노비스 계열^000000"
 		},
@@ -12262,7 +13001,7 @@ tbl = {
 			"9제련 시 ASPD +1 추가, 원거리물리공격력 5% 추가",
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777웨폰^000000",
-			"무게 : ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777건슬링거 계열^000000"
 		},
@@ -12285,7 +13024,7 @@ tbl = {
 			"9제련 시 ASPD +1 추가, MaxHP +10%, MaxSP +10%",
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777웨폰^000000",
-			"무게 : ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777태권 계열^000000"
 		},
@@ -12309,7 +13048,7 @@ tbl = {
 			"9제련 시 ATK & MATK +4% 추가",
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777웨폰^000000",
-			"무게 : ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777닌자 계열^000000"
 		},
@@ -12334,7 +13073,7 @@ tbl = {
 			"9제련 이상 시, MATK +5% 추가",
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777웨폰^000000",
-			"무게 : ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -12357,7 +13096,7 @@ tbl = {
 			"9제련 이상 시, 완전회피 +3 추가.",
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777웨폰^000000",
-			"무게 : ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -12389,7 +13128,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"방어력이 높아지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"DEF + 20.",
+			"DEF +20.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12405,7 +13144,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"운이 높아지고 대신 힘이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"LUK +3, STR - 3.",
+			"LUK +3, STR -3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12421,7 +13160,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"힘이 높아지고 대신 지능이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"STR +3, INT - 3.",
+			"STR +3, INT -3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12437,7 +13176,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"민첩함이 높아지고 대신 운이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"AGI +3, LUK - 3.",
+			"AGI +3, LUK -3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12453,7 +13192,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"지능이 높아지고 대신 재주가 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"INT +3, DEX - 3.",
+			"INT +3, DEX -3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12469,7 +13208,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"건강이 높아지고 대신 민첩함이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"VIT + 3, AGI - 3.",
+			"VIT +3, AGI -3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12485,7 +13224,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"재주가 높아지고 대신 건강이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"DEX +3, VIT - 3.",
+			"DEX +3, VIT -3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12501,7 +13240,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"건강이 높아지고 대신 운이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"VIT + 3, LUK - 3.",
+			"VIT +3, LUK -3.",
 			"VIT변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"AGI +3, LUK +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
@@ -12519,7 +13258,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"민첩함이 높아지고 대신 힘이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"AGI +3, STR - 3.",
+			"AGI +3, STR -3.",
 			"AGI변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"LUK +3, STR +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
@@ -12537,9 +13276,9 @@ tbl = {
 		identifiedDescriptionName = {
 			"재주가 높아지고 대신 민첩함이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"DEX +3, AGI - 3.",
+			"DEX +3, AGI -3.",
 			"DEX변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
-			"VIT + 3, AGI +3.",
+			"VIT +3, AGI +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12555,7 +13294,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"운이 높아지고 대신 지능이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"LUK +3, INT - 3.",
+			"LUK +3, INT -3.",
 			"LUK변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"STR +3, INT +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
@@ -12573,7 +13312,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"힘이 높아지고 대신 재주가 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"STR +3, DEX - 3.",
+			"STR +3, DEX -3.",
 			"STR변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
 			"INT +3, DEX +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
@@ -12591,9 +13330,9 @@ tbl = {
 		identifiedDescriptionName = {
 			"지능이 높아지고 대신 건강이 떨어지는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"INT +3, VIT - 3.",
+			"INT +3, VIT -3.",
 			"INT변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
-			"DEX +3, VIT + 3.",
+			"DEX +3, VIT +3.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12842,7 +13581,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"원거리 물리 데미지가 상승하는 스톤.",
 			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
-			"원거리 물리 데미지 + 3%",
+			"원거리 물리 데미지 +3%",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12874,7 +13613,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"체력이 상승하는 스톤. ",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"MAXHP + 100, LV.120 이상시, MAXHP +2%.",
+			"MAXHP +100, LV.120 이상시, MAXHP +2%.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12890,7 +13629,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"마력이 상승하는 스톤. ",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"MAXSP + 50, LV.120 이상시, MAXSP +2%.",
+			"MAXSP +50, LV.120 이상시, MAXSP +2%.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -12954,7 +13693,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"ASPD가 증가하는 스톤. ",
 			"의상 상단 슬롯에 아래의 능력치를 부여한다.",
-			"ASPD + 1",
+			"ASPD +1",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -13094,7 +13833,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "Hahwaju",
 		identifiedResourceName = "향주",
-		identifiedDescriptionName = { "여름꽃만 따서 페이욘 전통 기법으로 담근 술. 시원하면서도 부드러운  꽃향기가 느껴진다.", "Weight: ^0EAA0B0^000000" },
+		identifiedDescriptionName = { "여름꽃만 따서 페이욘 전통 기법으로 담근 술. 시원하면서도 부드러운 꽃향기가 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13207,6 +13946,76 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[25127] = {
+		unidentifiedDisplayName = "고요한 에너지파편",
+		unidentifiedResourceName = "영혼의숨소리",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "고요한 에너지파편",
+		identifiedResourceName = "영혼의숨소리",
+		identifiedDescriptionName = {
+			"에너지 응집체였던 것 같으나, 지금은 아무런 힘도 느껴지지 않는다.",
+			"생체 연구소의 1~2F에서 얻을 수 있다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25128] = {
+		unidentifiedDisplayName = "미약한 에너지파편",
+		unidentifiedResourceName = "영혼의숨소리",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "미약한 에너지파편",
+		identifiedResourceName = "영혼의숨소리",
+		identifiedDescriptionName = {
+			"에너지가 응집 되기 시작한지 얼마 안된 것 같다.",
+			"생체 연구소의 1~2F에서 얻을 수 있다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25129] = {
+		unidentifiedDisplayName = "불안한 에너지파편",
+		unidentifiedResourceName = "영혼의숨소리",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "불안한 에너지파편",
+		identifiedResourceName = "영혼의숨소리",
+		identifiedDescriptionName = {
+			"에너지의 응집이 빛이 점멸하여 사라지는 것 처럼 약하고 불안정하게 느껴진다.",
+			"생체 연구소 던전 3F에서 얻을 수 있다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25130] = {
+		unidentifiedDisplayName = "불길한 에너지파편",
+		unidentifiedResourceName = "영혼의숨소리",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "불길한 에너지파편",
+		identifiedResourceName = "영혼의숨소리",
+		identifiedDescriptionName = {
+			"에너지의 응집에서 좋지 않은 기운이 느껴진다.",
+			"생체 연구소 던전 4F에서 얻을 수 있다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25131] = {
+		unidentifiedDisplayName = "타락한 에너지파편",
+		unidentifiedResourceName = "영혼의숨소리",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "타락한 에너지파편",
+		identifiedResourceName = "영혼의숨소리",
+		identifiedDescriptionName = {
+			"타락한 의식이 느껴지는 에너지의 응집체.",
+			"전사자의 무덤에서 얻을 수 있다.",
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[25142] = {
 		unidentifiedDisplayName = "도람 토큰",
 		unidentifiedResourceName = "블랙캣",
@@ -13218,7 +14027,7 @@ tbl = {
 			"",
 			"^ffffff<NAVI>^4D4DFF[도람족 챠라 가족]^000000<INFO>lasagna,135,247,0,200,0,0</INFO></NAVI>^000000",
 			"",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13229,7 +14038,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "선물용 봉제 인형",
 		identifiedResourceName = "봉제인형",
-		identifiedDescriptionName = { "크리스마스 선물로 준비한 봉제인형 이다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "크리스마스 선물로 준비한 봉제인형 이다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13239,7 +14048,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "브릿지 자세를 취한 인형",
 		identifiedResourceName = "늘어진모로크의현신",
-		identifiedDescriptionName = { "운동중인지 브릿지 자세를 취한 인형이다.", "인형의 유연한 몸매가 돋보인다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "운동중인지 브릿지 자세를 취한 인형이다.", "인형의 유연한 몸매가 돋보인다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13249,7 +14058,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "까맣게 타버린 망령 인형",
 		identifiedResourceName = "고뇌의모자",
-		identifiedDescriptionName = { "까맣게 타서 쪼그라들어 버린 인형이다.", "왜인지 모르지만 작은 악령들이 좋아한다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "까맣게 타서 쪼그라들어 버린 인형이다.", "왜인지 모르지만 작은 악령들이 좋아한다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13259,7 +14068,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "냉혹한 여왕님 인형",
 		identifiedResourceName = "지르타스인형",
-		identifiedDescriptionName = { "냉혹한 여왕님의 모습을 한 인형이다.", "인형을 누르면 '오호호호~'하는 웃음소리가 날것만 같다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "냉혹한 여왕님의 모습을 한 인형이다.", "인형을 누르면 '오호호호~'하는 웃음소리가 날것만 같다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13269,7 +14078,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "막 식사를 마친 토끼 인형",
 		identifiedResourceName = "매드바니",
-		identifiedDescriptionName = { "귀여운 토끼 인형이다.", "뭔가를 막 맛있게 먹은듯 하다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "귀여운 토끼 인형이다.", "뭔가를 막 맛있게 먹은듯 하다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13279,7 +14088,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "귀여운 식귀 인형",
 		identifiedResourceName = "벙웅곳인형",
-		identifiedDescriptionName = { "보기만 해도 배불러지는 식귀의 모습을 본따 만든 인형.", "볼록하게 나온 배가 귀엽다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "보기만 해도 배불러지는 식귀의 모습을 본따 만든 인형.", "볼록하게 나온 배가 귀엽다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13289,7 +14098,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "따뜻한 목도리를 한 인형",
 		identifiedResourceName = "매달린인형",
-		identifiedDescriptionName = { "추운곳에 있는지 따듯한 목도리를 두른 인형이다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "추운곳에 있는지 따듯한 목도리를 두른 인형이다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13303,7 +14112,148 @@ tbl = {
 			"푹신하고 길쭉한 베개.",
 			"커버에는 엘리스가 그려져 있다.",
 			"베고 자는것 보다는 주로 안고 자는 용도로 쓰이는 것 같다.",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25170] = {
+		unidentifiedDisplayName = "마이너캐스팅 스톤(걸칠것)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마이너캐스팅 스톤(걸칠것)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"고정 캐스팅을 약간 줄여주는 스톤.",
+			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다.",
+			"고정 캐스팅 0.3초 감소",
+			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
+			"Weight: ^0EAA0B10^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25171] = {
+		unidentifiedDisplayName = "경험치 스톤(상단)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "경험치 스톤(상단)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"경험치 습득율이 높아지는 스톤.",
+			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
+			"몬스터를 죽였을 시, 획득 경험치 2% 증가.",
+			"경험치 스톤(중단), 경험치 스톤(하단)과 함께 착용 시, 몬스터를 죽였을 시, 획득 경험치 3% 추가 증가.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"Weight: ^0EAA0B10^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25172] = {
+		unidentifiedDisplayName = "변동캐스팅 스톤(상단)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "변동캐스팅 스톤(상단)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"변동 캐스팅을 줄여주는 스톤.",
+			"의상 상단 슬롯에 아래의 능력치를 부여한다.",
+			"변동 캐스팅 3% 감소.",
+			"변동 캐스팅스톤(중단), 변동 캐스팅스톤(하단)과 함께 장착 시, 변동 캐스팅 6% 추가 감소.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25173] = {
+		unidentifiedDisplayName = "변동캐스팅 스톤(중단)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "변동캐스팅 스톤(중단)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"변동 캐스팅을 줄여주는 스톤.",
+			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
+			"변동 캐스팅 3% 감소.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25174] = {
+		unidentifiedDisplayName = "변동캐스팅 스톤(하단)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "변동캐스팅 스톤(하단)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"변동 캐스팅을 줄여주는 스톤.",
+			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
+			"변동 캐스팅 3% 감소.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25175] = {
+		unidentifiedDisplayName = "렉스에테르나 스톤(중단)",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "렉스에테르나 스톤(중단)",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"렉스 에테르나를 자동으로 사용해주는 스톤.",
+			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
+			"물리 공격시, 1%의 확률로 적에게 렉스 에테르나 Lv 1 발동.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"Weight: ^0EAA0B10^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25176] = {
+		unidentifiedDisplayName = "블루 오오라 이펙트(중단)",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "블루 오오라 이펙트(중단)",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = {
+			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000블루 오오라^000000",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
+			"Weight: ^0EAA0B10^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25177] = {
+		unidentifiedDisplayName = "쉐도우 이펙트(중단)",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "쉐도우 이펙트(중단)",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = {
+			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000쉐도우^000000",
+			"공성 및 PvP 지역에서는 적용되지 않음.",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
+			"Weight: ^0EAA0B10^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25178] = {
+		unidentifiedDisplayName = "핑크 글로우 이펙트(중단)",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "핑크 글로우 이펙트(중단)",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = {
+			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000핑크 글로우^000000",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13316,12 +14266,12 @@ tbl = {
 		identifiedResourceName = "전갱이",
 		identifiedDescriptionName = {
 			"진짜 전갱이와 똑같이 만들어져 있는 부적.",
-			"VIT + 1.",
+			"VIT +1.",
 			"귀여운 풀 목걸이, 도람 전용 망토, 도람 전용 슈즈, 도람 전용 슈츠와 함께 장착 시,",
-			"MHP +15%, MSP +5%, 힐량 +10%, 힐 5레벨 사용 가능.",
+			"MaxHP +15%, MaxSP +5%, 힐량 +10%, 힐 5레벨 사용 가능.",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777100^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13336,13 +14286,13 @@ tbl = {
 		identifiedResourceName = "전갱이",
 		identifiedDescriptionName = {
 			"진짜 전갱이와 똑같이 만들어져 있는 부적.",
-			"VIT + 2.",
+			"VIT +2.",
 			"귀여운 풀 목걸이, 도람 고급 망토, 도람 고급 슈즈, 도람 고급 슈츠와 함께 장착 시,",
-			"MHP +20%, MSP +10%, 힐량 +20%, 힐 7레벨 사용 가능.",
+			"MaxHP +20%, MaxSP +10%, 힐량 +20%, 힐 7레벨 사용 가능.",
 			"",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777140^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13357,13 +14307,13 @@ tbl = {
 		identifiedResourceName = "전갱이",
 		identifiedDescriptionName = {
 			"진짜 전갱이와 똑같이 만들어져 있는 부적",
-			"VIT + 3.",
+			"VIT +3.",
 			"귀여운 풀 목걸이, 도람 엘레강스 망토, 도람 엘레강스 슈즈, 도람 엘레강스 슈츠와 함께 장착 시,",
-			"MHP +25%, MSP +15%, 힐량 +30%, 힐 9레벨 사용 가능.",
+			"MaxHP +25%, MaxSP +15%, 힐량 +30%, 힐 9레벨 사용 가능.",
 			"",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777175^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13378,13 +14328,13 @@ tbl = {
 		identifiedResourceName = "구약",
 		identifiedDescriptionName = {
 			"개다래 나뭇잎 모양 부적.",
-			"INT + 1.",
+			"INT +1.",
 			"부적 풀 목걸이, 도람 전용 망토, 도람 전용 슈즈, 도람 전용 슈츠와 함께 장착 시,",
-			"MHP +10%, MSP +10%, 스킬 개박하 메테오의 공격력 +100%.",
+			"MaxHP +10%, MaxSP +10%, 스킬 개박하 메테오의 공격력 +100%.",
 			"",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777100^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13399,13 +14349,13 @@ tbl = {
 		identifiedResourceName = "구약",
 		identifiedDescriptionName = {
 			"개다래 나뭇잎 모양 부적.",
-			"INT + 2.",
+			"INT +2.",
 			"부적 풀 목걸이, 도람 고급 망토, 도람 고급 슈즈, 도람 고급 슈츠와 함께 장착 시,",
-			"MHP +15%, MSP +15%, 스킬 개박하 메테오의 공격력 +150%.",
+			"MaxHP +15%, MaxSP +15%, 스킬 개박하 메테오의 공격력 +150%.",
 			"",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777140^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13420,13 +14370,13 @@ tbl = {
 		identifiedResourceName = "구약",
 		identifiedDescriptionName = {
 			"개다래 나뭇잎 모양 부적.",
-			"INT + 3.",
+			"INT +3.",
 			"부적 풀 목걸이, 도람 엘레강스 망토, 도람 엘레강스 슈즈, 도람 엘레강스 슈츠와 함께 장착 시,",
-			"MHP +20%, MSP +20%, 스킬 개박하 메테오의 공격력 +200%.",
+			"MaxHP +20%, MaxSP +20%, 스킬 개박하 메테오의 공격력 +200%.",
 			"",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777175^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13441,13 +14391,13 @@ tbl = {
 		identifiedResourceName = "봉제인형",
 		identifiedDescriptionName = {
 			"귀여운 토끼인형 모양의 부적.",
-			"DEX + 1.",
+			"DEX +1.",
 			"풋풋한 풀 목걸이, 도람 전용 망토, 도람 전용 슈즈, 도람 전용 슈츠와 함께 장착 시,",
-			"MHP +20%, MSP +3%, 스킬 루나틱 당근난타의 공격력 +100%.",
+			"MaxHP +20%, MaxSP +3%, 스킬 루나틱 당근난타의 공격력 +100%.",
 			"",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777100^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13462,12 +14412,12 @@ tbl = {
 		identifiedResourceName = "봉제인형",
 		identifiedDescriptionName = {
 			"귀여운 토끼인형 모양의 부적.",
-			"DEX + 2.",
+			"DEX +2.",
 			"풋풋한 풀 목걸이, 도람 고급 망토, 도람 고급 슈즈, 도람 고급 슈츠와 함께 장착 시,",
-			"MHP +25%, MSP +6%, 스킬 루나틱 당근난타의 공격력 +150%.",
+			"MaxHP +25%, MaxSP +6%, 스킬 루나틱 당근난타의 공격력 +150%.",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777140^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13482,12 +14432,12 @@ tbl = {
 		identifiedResourceName = "봉제인형",
 		identifiedDescriptionName = {
 			"귀여운 토끼인형 모양의 부적.",
-			"DEX + 3.",
+			"DEX +3.",
 			"풋풋한 풀 목걸이, 도람 엘레강스 망토, 도람 엘레강스 슈즈, 도람 엘레강스 슈츠와 함께 장착 시,",
-			"MHP +30%, MSP +9%, 스킬 루나틱 당근난타의 공격력 +200%.",
+			"MaxHP +30%, MaxSP +9%, 스킬 루나틱 당근난타의 공격력 +200%.",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777175^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13505,7 +14455,7 @@ tbl = {
 			"개다래 줄기창 데미지가 INT와 스킬 레벨에 따라 증가.",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777100^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13523,7 +14473,7 @@ tbl = {
 			"근접 물리 공격받을 시 일정 확률로 자신에게 오토스펠 참치파티 1Lv 시전.(스킬을 습득 한 경우 습득한 레벨로 발동)",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777100^000000",
 			"장착 : ^777777도람족^000000"
 		},
@@ -13542,11 +14492,611 @@ tbl = {
 			"",
 			"계열 : ^777777악세사리^000000",
 			"방어 : ^7777771^000000",
-			"무게 : ^77777710^000000",
+			"Weight: ^0EAA0B10^000000",
 			"요구 레벨 : ^777777100^000000",
 			"장착 : ^777777도람족^000000"
 		},
 		slotCount = 1,
+		ClassNum = 0
+	},
+	[29061] = {
+		unidentifiedDisplayName = "패기1Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기1Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +3%, HIT +3." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29062] = {
+		unidentifiedDisplayName = "패기2Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기2Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +6%, HIT +6." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29063] = {
+		unidentifiedDisplayName = "패기3Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기3Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +9%, HIT +9." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29064] = {
+		unidentifiedDisplayName = "패기4Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기4Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +12%, HIT +12." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29065] = {
+		unidentifiedDisplayName = "패기5Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기5Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +15%, HIT +15." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29066] = {
+		unidentifiedDisplayName = "패기6Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기6Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +18%, HIT +18." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29067] = {
+		unidentifiedDisplayName = "패기7Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기7Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +21%, HIT +21." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29068] = {
+		unidentifiedDisplayName = "패기8Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기8Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +24%, HIT +24." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29069] = {
+		unidentifiedDisplayName = "패기9Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기9Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +27%, HIT +27." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29070] = {
+		unidentifiedDisplayName = "패기10Lv",
+		unidentifiedResourceName = "레드크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "패기10Lv",
+		identifiedResourceName = "레드크리스탈조각",
+		identifiedDescriptionName = { "ATK +33%, HIT +30." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29071] = {
+		unidentifiedDisplayName = "마정1Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정1Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +3%, 고정 캐스팅 0.1초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29072] = {
+		unidentifiedDisplayName = "마정2Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정2Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +6%, 고정 캐스팅 0.2초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29073] = {
+		unidentifiedDisplayName = "마정3Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정3Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +9%, 고정 캐스팅 0.3초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29074] = {
+		unidentifiedDisplayName = "마정4Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정4Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +12%, 고정 캐스팅 0.4초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29075] = {
+		unidentifiedDisplayName = "마정5Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정5Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +15%, 고정 캐스팅 0.5초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29076] = {
+		unidentifiedDisplayName = "마정6Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정6Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +18%, 고정 캐스팅 0.6초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29077] = {
+		unidentifiedDisplayName = "마정7Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정7Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +21%, 고정 캐스팅 0.7초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29078] = {
+		unidentifiedDisplayName = "마정8Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정8Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +24%, 고정 캐스팅 0.8초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29079] = {
+		unidentifiedDisplayName = "마정9Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정9Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +27%, 고정 캐스팅 0.9초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29080] = {
+		unidentifiedDisplayName = "마정10Lv",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마정10Lv",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = { "MATK +33%, 고정 캐스팅 1초 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29081] = {
+		unidentifiedDisplayName = "예기1Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기1Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +10%, CRIT +3." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29082] = {
+		unidentifiedDisplayName = "예기2Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기2Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +20%, CRIT +6." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29083] = {
+		unidentifiedDisplayName = "예기3Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기3Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +30%, CRIT +9." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29084] = {
+		unidentifiedDisplayName = "예기4Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기4Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +40%, CRIT +12." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29085] = {
+		unidentifiedDisplayName = "예기5Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기5Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +50%, CRIT +15." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29086] = {
+		unidentifiedDisplayName = "예기6Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기6Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +60%, CRIT +18." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29087] = {
+		unidentifiedDisplayName = "예기7Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기7Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +70%, CRIT +21." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29088] = {
+		unidentifiedDisplayName = "예기8Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기8Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +80%, CRIT +24." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29089] = {
+		unidentifiedDisplayName = "예기9Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기9Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +90%, CRIT +27." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29090] = {
+		unidentifiedDisplayName = "예기10Lv",
+		unidentifiedResourceName = "그린크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "예기10Lv",
+		identifiedResourceName = "그린크리스탈조각",
+		identifiedDescriptionName = { "크리티컬 데미지 +110%, CRIT +30." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29091] = {
+		unidentifiedDisplayName = "선궁1Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁1Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +4%, 공격속도 증가.(공격 후딜레이 1% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29092] = {
+		unidentifiedDisplayName = "선궁2Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁2Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +8%, 공격속도 증가.(공격 후딜레이 2% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29093] = {
+		unidentifiedDisplayName = "선궁3Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁3Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +12%, 공격속도 증가.(공격 후딜레이 3% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29094] = {
+		unidentifiedDisplayName = "선궁4Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁4Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +16%, 공격속도 증가.(공격 후딜레이 4% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29095] = {
+		unidentifiedDisplayName = "선궁5Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁5Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +20%, 공격속도 증가.(공격 후딜레이 5% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29096] = {
+		unidentifiedDisplayName = "선궁6Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁6Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +24%, 공격속도 증가.(공격 후딜레이 6% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29097] = {
+		unidentifiedDisplayName = "선궁7Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁7Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +28%, 공격속도 증가.(공격 후딜레이 7% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29098] = {
+		unidentifiedDisplayName = "선궁8Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁8Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +32%, 공격속도 증가.(공격 후딜레이 8% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29099] = {
+		unidentifiedDisplayName = "선궁9Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁9Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +36%, 공격속도 증가.(공격 후딜레이 9% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29100] = {
+		unidentifiedDisplayName = "선궁10Lv",
+		unidentifiedResourceName = "옐로크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선궁10Lv",
+		identifiedResourceName = "옐로크리스탈조각",
+		identifiedDescriptionName = { "활 공격력 +44%, 공격속도 증가.(공격 후딜레이 10% 감소) " },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29101] = {
+		unidentifiedDisplayName = "금강1Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강1Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +5%, DEF +15." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29102] = {
+		unidentifiedDisplayName = "금강2Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강2Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +10%, DEF +30." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29103] = {
+		unidentifiedDisplayName = "금강3Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강3Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +15%, DEF +45." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29104] = {
+		unidentifiedDisplayName = "금강4Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강4Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +20%, DEF +60." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29105] = {
+		unidentifiedDisplayName = "금강5Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강5Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +25%, DEF +75." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29106] = {
+		unidentifiedDisplayName = "금강6Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강6Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +30%, DEF +90." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29107] = {
+		unidentifiedDisplayName = "금강7Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강7Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +35%, DEF +105." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29108] = {
+		unidentifiedDisplayName = "금강8Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강8Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +40%, DEF +120." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29109] = {
+		unidentifiedDisplayName = "금강9Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "금강9Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +45%, DEF +135." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29110] = {
+		unidentifiedDisplayName = "금강10Lv",
+		unidentifiedResourceName = "퍼플크리스탈조각",
+		unidentifiedDescriptionName = { "MaxHP +55%, DEF +150." },
+		identifiedDisplayName = "금강10Lv",
+		identifiedResourceName = "퍼플크리스탈조각",
+		identifiedDescriptionName = { "MaxHP +55%, DEF +150." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29111] = {
+		unidentifiedDisplayName = "자애1Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "자애1Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +5%, MDEF +3." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29112] = {
+		unidentifiedDisplayName = "자애2Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "자애2Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +10%, MDEF +6." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29113] = {
+		unidentifiedDisplayName = "자애3Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "자애3Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +15%, MDEF +9." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29114] = {
+		unidentifiedDisplayName = "자애4Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "자애4Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +20%, MDEF +12." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29115] = {
+		unidentifiedDisplayName = "자애5Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = { "힐량 +25%, MDEF +15." },
+		identifiedDisplayName = "자애5Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +25%, MDEF +15." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29116] = {
+		unidentifiedDisplayName = "자애6Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "자애6Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +30%, MDEF +18." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29117] = {
+		unidentifiedDisplayName = "자애7Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "자애7Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +35%, MDEF +21." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29118] = {
+		unidentifiedDisplayName = "자애8Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "자애8Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +40%, MDEF +24." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29119] = {
+		unidentifiedDisplayName = "자애9Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = { "힐량 +45%, MDEF +27." },
+		identifiedDisplayName = "자애9Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +45%, MDEF +27." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29120] = {
+		unidentifiedDisplayName = "자애10Lv",
+		unidentifiedResourceName = "화이트크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "자애10Lv",
+		identifiedResourceName = "화이트크리스탈조각",
+		identifiedDescriptionName = { "힐량 +55%, MDEF +30." },
+		slotCount = 0,
 		ClassNum = 0
 	},
 	[29148] = {
@@ -13569,7 +15119,7 @@ tbl = {
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
 			"장착 : ^777777신발^000000",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13594,7 +15144,7 @@ tbl = {
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
 			"장착 : ^777777신발^000000",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13619,7 +15169,7 @@ tbl = {
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
 			"장착 : ^777777신발^000000",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13644,7 +15194,7 @@ tbl = {
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
 			"장착 : ^777777신발^000000",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13669,7 +15219,7 @@ tbl = {
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
 			"장착 : ^777777신발^000000",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13694,8 +15244,98 @@ tbl = {
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
 			"장착 : ^777777신발^000000",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29154] = {
+		unidentifiedDisplayName = "마이너 고정캐스팅 감소",
+		unidentifiedResourceName = "태양신의상징",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "마이너 고정캐스팅 감소",
+		identifiedResourceName = "태양신의상징",
+		identifiedDescriptionName = { "고정 캐스팅 0.3초 감소" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29155] = {
+		unidentifiedDisplayName = "렉스 에테르나",
+		unidentifiedResourceName = "신속",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "렉스 에테르나",
+		identifiedResourceName = "신속",
+		identifiedDescriptionName = { "물리 공격시, 1%의 확률로 적에게 렉스 에테르나 Lv 1 발동." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29156] = {
+		unidentifiedDisplayName = "변동 캐스팅 감소",
+		unidentifiedResourceName = "하늘색보석",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "변동 캐스팅 감소",
+		identifiedResourceName = "하늘색보석",
+		identifiedDescriptionName = { "변동 캐스팅 3% 감소.", "[변동 캐스팅 감소] 중단, 하단과 함께 착용시, 변동 캐스팅 6% 추가 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29157] = {
+		unidentifiedDisplayName = "변동 캐스팅 감소",
+		unidentifiedResourceName = "하늘색보석",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "변동 캐스팅 감소",
+		identifiedResourceName = "하늘색보석",
+		identifiedDescriptionName = { "변동 캐스팅 3% 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29158] = {
+		unidentifiedDisplayName = "변동 캐스팅 감소",
+		unidentifiedResourceName = "하늘색보석",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "변동 캐스팅 감소",
+		identifiedResourceName = "하늘색보석",
+		identifiedDescriptionName = { "변동 캐스팅 3% 감소." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29159] = {
+		unidentifiedDisplayName = "경험치+2%",
+		unidentifiedResourceName = "블루젬스톤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "경험치+2%",
+		identifiedResourceName = "블루젬스톤",
+		identifiedDescriptionName = { "몬스터를 죽였을 시, 획득 경험치 2% 증가.", "[경험치+2%] 중단, 하단과 함께 착용시, 몬스터를 죽였을 시 경험치 3% 추가 증가." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29160] = {
+		unidentifiedDisplayName = "블루 오오라 이펙트",
+		unidentifiedResourceName = "마법석수",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "블루 오오라 이펙트",
+		identifiedResourceName = "마법석수",
+		identifiedDescriptionName = { "블루 오오라 이펙트" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29161] = {
+		unidentifiedDisplayName = "핑크 글로우 이펙트",
+		unidentifiedResourceName = "벚꽃뱃지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "핑크 글로우 이펙트",
+		identifiedResourceName = "벚꽃뱃지",
+		identifiedDescriptionName = { "핑크 글로우 이펙트" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29162] = {
+		unidentifiedDisplayName = "쉐도우 이펙트",
+		unidentifiedResourceName = "뭔가있어",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "쉐도우 이펙트",
+		identifiedResourceName = "뭔가있어",
+		identifiedDescriptionName = { "쉐도우 이펙트" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13705,7 +15345,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "장식된 악령 나무 카드",
 		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "MHP + 1000, MSP + 150, FLEE - 25.", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "무게 : ^7777771^000000" },
+		identifiedDescriptionName = { "MaxHP +1000, MaxSP +150, FLEE -25.", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13716,11 +15356,11 @@ tbl = {
 		identifiedDisplayName = "포악해진 쿠키 카드",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"ATK + 1%, MATK + 1%, MHP - 2%.",
-			"2제련 당, ATK + 1%, MATK + 1%, MHP - 2% 씩 추가.",
+			"ATK +1%, MATK +1%, MaxHP -2%.",
+			"2제련 당, ATK +1%, MATK +1%, MaxHP -2% 씩 추가.",
 			"계열 : ^777777카드^000000",
 			"장착 : ^777777신발^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13732,11 +15372,11 @@ tbl = {
 		identifiedDisplayName = "악령 깃든 상자 카드",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"MHP - 1225.",
+			"MaxHP -1225.",
 			"마법공격 시, 적에게 높은 확률로 저주를 건다.",
 			"계열 : ^777777카드^000000",
 			"장착 : ^777777무기^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13748,11 +15388,11 @@ tbl = {
 		identifiedDisplayName = "섬뜩한 악령 카드",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"MHP - 13%.",
+			"MaxHP -13%.",
 			"마법 공격을 받을 시, 적에게 높은 확률로 저주를 건다.",
 			"계열 : ^777777카드^000000",
 			"장착 : ^777777악세사리^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13764,11 +15404,11 @@ tbl = {
 		identifiedDisplayName = "악의에 찬 유령 카드",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"MHP - 13%.",
+			"MaxHP -13%.",
 			"물리 공격을 받을 시, 적에게 높은 확률로 저주를 건다.",
 			"계열 : ^777777카드^000000",
 			"장착 : ^777777악세사리^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13779,7 +15419,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "춤추는 마리오 네트 카드",
 		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "ASPD + 10%, ATK - 3%.", "계열 : ^777777카드^000000", "장착 : ^777777무기^000000", "무게 : ^7777771^000000" },
+		identifiedDescriptionName = { "ASPD +10%, ATK -3%.", "계열 : ^777777카드^000000", "장착 : ^777777무기^000000", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13790,11 +15430,11 @@ tbl = {
 		identifiedDisplayName = "버려진 곰인형 카드",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"MSP + 20%.",
+			"MaxSP +20%.",
 			"물리, 마법 공격 시 드물게 자기자신에게 저주를 건다.",
 			"계열 : ^777777카드^000000",
 			"장착 : ^777777신발^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13806,11 +15446,11 @@ tbl = {
 		identifiedDisplayName = "셀린느 키미 카드",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"MATK + 10%. ",
+			"MATK +10%. ",
 			"마법 공격 시, 일정 확률로 자신을 중심으로 화면 전체의 적에게 \"치명적인 상처\"를 건다.",
 			"계열 : ^777777카드^000000",
 			"장착 : ^777777무기^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
