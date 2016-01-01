@@ -1848,6 +1848,380 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[12795] = {
+		unidentifiedDisplayName = "2011 RWC 스크롤",
+		unidentifiedResourceName = "RWC특수스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "2011 RWC 스크롤",
+		identifiedResourceName = "RWC특수스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 2011 RWC 기념 스크롤.",
+			"고양이 귀 베레모, 빨간 빵 모자, 무기 8제련 보장권, 방어구 8제련 보장권, 인챈트 소개장, 피묻은 나뭇가지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12799] = {
+		unidentifiedDisplayName = "PC방 쿠폰 상자Ⅴ",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "PC방 쿠폰 상자Ⅴ",
+		identifiedResourceName = "캐시상자_노랑",
+		identifiedDescriptionName = {
+			"잘 포장된 선물상자. 무엇이 들어있는지는 알 수 없다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12802] = {
+		unidentifiedDisplayName = "시간의 수호자 상자",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "시간의 수호자 상자",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"전투교범 5개, 풍선껌 5개, 생명보험증서 5개와 시간의 수호자쉴드, 부츠, 망토, 모자, 로브 각 1개 씩과, 메탈 카타르, 투핸드액스, 랜스, 북, 스태프, 대거, 메이스, 보우, 투핸드소드, 리볼버, 풍마수리검이 각 1개 씩이 들어있는 상자.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12803] = {
+		unidentifiedDisplayName = "초보자 지원 상자",
+		unidentifiedResourceName = "선물상자_1",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "초보자 지원 상자",
+		identifiedResourceName = "선물상자_1",
+		identifiedDescriptionName = {
+			"초보자용 포션 300개, 초보자용 파리의 날개 100개, 초보자용 나비의 날개 20개, 초보자용 돋보기 10개와 화살통 5개가 담겨있는 상자.",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12804] = {
+		unidentifiedDisplayName = "크루 스크롤",
+		unidentifiedResourceName = "크루스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "크루 스크롤",
+		identifiedResourceName = "크루스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 크루의 알.",
+			"늘어진 고양이 크루, 링 오브 플레임로드, 무기 11제련 보장권, 방어구 11제련 보장권, 무기 9제련 보장권, 방어구 9제련 보장권, 인챈트 소개장, 피묻은 나뭇가지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12805] = {
+		unidentifiedDisplayName = "미스틱 파우더",
+		unidentifiedResourceName = "요정의마법가루",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "미스틱 파우더",
+		identifiedResourceName = "요정의마법가루",
+		identifiedDescriptionName = {
+			"뿌리면 잠시동안 몸이 매우 가벼워지는 신비한 파우더.",
+			"5분간 FLEE + 20, LUK + 10.",
+			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12806] = {
+		unidentifiedDisplayName = "스카라바 소환서",
+		unidentifiedResourceName = "주문서다발",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "스카라바 소환서",
+		identifiedResourceName = "주문서다발",
+		identifiedDescriptionName = { "몬스터  스카라바를 용병으로 소환 가능한 스크롤.", "용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12807] = {
+		unidentifiedDisplayName = "용병 소환뭉치",
+		unidentifiedResourceName = "주문서다발",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "용병 소환뭉치",
+		identifiedResourceName = "주문서다발",
+		identifiedDescriptionName = {
+			"8Lv 검용병, 8Lv 창용병, 8Lv 활용병 소환할 수 있는 소환서를 각각 5장 씩 모아서 잘 말아둔 뭉치. 어머니의 마음 상자도 1개 들어있다.",
+			"요구 레벨 : ^77777720^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12808] = {
+		unidentifiedDisplayName = "어머니의 마음 상자",
+		unidentifiedResourceName = "선물상자_1",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "어머니의 마음 상자",
+		identifiedResourceName = "선물상자_1",
+		identifiedDescriptionName = {
+			"어머니의 마음이 1개가 들어있다. 14일간 사용가능.",
+			"^ffffff_^000000",
+			"^000088임대 아이템^000000",
+			"이제 막 모험을 시작하는 점핑 이벤트 모험가들을 응원하는 마음이 담긴 따뜻한 반지. ",
+			"몬스터 사냥시 획득 경험치 15% 증가. ",
+			"ATK, MATK + 30. ",
+			"\"오토 가드\" 3Lv, \"큐어\" 1Lv 사용가능. ",
+			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"제한 레벨 : ^777777120^000000",
+			"장착 : ^777777전직업^000000",
+			"(3월 마지막 정기점검 시, 일괄 삭제 됩니다)",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12809] = {
+		unidentifiedDisplayName = "레벨업 상자",
+		unidentifiedResourceName = "번호상자05",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "레벨업 상자",
+		identifiedResourceName = "번호상자05",
+		identifiedDescriptionName = {
+			"신속한 레벨업을 위해 꼭 필요한 준비물 상자.",
+			"전투교범 5개, 풍선껌 5개, 생명보험증서 5개, 잡교범 5개가 담겨 있다.",
+			"지금 개봉하면 지르타스 교환 티켓 상자도 1개 획득 가능!",
+			"요구 레벨 : ^777777120^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12810] = {
+		unidentifiedDisplayName = "이벤트 선물상자",
+		unidentifiedResourceName = "pro선물상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "이벤트 선물상자",
+		identifiedResourceName = "pro선물상자",
+		identifiedDescriptionName = {
+			"이그드라실의 열매가 3개 들어있는 상자. 거기에 덤으로 교환 티켓 로리루리, 마력깃든 카드첩, 무기 9제련 보장권, 방어구 9제련보장권 등등 여러가지 경품아이템들 중 하나가 랜덤 등장!",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12811] = {
+		unidentifiedDisplayName = "GM이벤트 선물상자",
+		unidentifiedResourceName = "pro선물상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "GM이벤트 선물상자",
+		identifiedResourceName = "pro선물상자",
+		identifiedDescriptionName = {
+			"이그드라실의 열매가 3개 들어있는 상자. ",
+			"거기에 펫교환쿠폰상자 , 마력깃든 카드첩, ",
+			"무기 7 ~ 9제련 보장권, 방어구 7 ~ 9제련보장권을 포함한 여러가지 경품아이템들 중 하나가 랜덤 등장!",
+			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다)",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12825] = {
+		unidentifiedDisplayName = "플립의 씨알",
+		unidentifiedResourceName = "발아새싹",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "플립의 씨알",
+		identifiedResourceName = "발아새싹",
+		identifiedDescriptionName = {
+			"라그2의 귀여운 꽃잎 몬스터를 본딴 플립모자, 마력 깃든 카드첩, 포장된 가면, 보석함, 피묻은 나뭇가지 등등 여러가지 아이템 중 1종이 들어있다고 한다. 무엇이 나올진 알 수 없다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12833] = {
+		unidentifiedDisplayName = "조직의단결력",
+		unidentifiedResourceName = "조직의단결력",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "조직의단결력",
+		identifiedResourceName = "조직의단결력",
+		identifiedDescriptionName = {
+			"하나의 집단의 결속력을 강화하는 듯한 이미지를 갖고 있다.  실제로 이 조각상을 본 사람들은 결속력이 튼튼해지는 것을 느낀다고 한다.",
+			"무게 : ^77777750^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12834] = {
+		unidentifiedDisplayName = "언데드의 핵",
+		unidentifiedResourceName = "암흑의의지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "언데드의 핵",
+		identifiedResourceName = "암흑의의지",
+		identifiedDescriptionName = {
+			"기간 한정 언데드의 핵.",
+			"죽은 자의 투구, 무기 11제련 보장권, 방어구 11제련 보장권, 낡은 카드첩(투구), 피묻은 나뭇가지, 토끼귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12835] = {
+		unidentifiedDisplayName = "소녀의 마음",
+		unidentifiedResourceName = "성스러운알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "소녀의 마음",
+		identifiedResourceName = "성스러운알",
+		identifiedDescriptionName = {
+			"기간 한정 소녀의 마음.",
+			"하트날개 헤어밴드, 낡은 카드첩(걸칠것), 천사의 날개귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12854] = {
+		unidentifiedDisplayName = "풍성한 꽃가지",
+		unidentifiedResourceName = "커다란꽃가지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "풍성한 꽃가지",
+		identifiedResourceName = "커다란꽃가지",
+		identifiedDescriptionName = {
+			"꽃가지 여러개를 장인이 한땀한땀 정성스럽게 덧붙여 아주 풍성하게 만들었다.",
+			"60분간 Flee 10, 완전회피 + 1 상승.",
+			"^ffffff_^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12855] = {
+		unidentifiedDisplayName = "교황스크롤",
+		unidentifiedResourceName = "교황스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "교황스크롤",
+		identifiedResourceName = "교황스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 아루나펠츠 교국 스크롤.",
+			"늘어진 교황모자, 무기 11제련 보장권, 방어구 11제련 보장권, 수호의 반지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12856] = {
+		unidentifiedDisplayName = "RG황금사과 조각",
+		unidentifiedResourceName = "RG황금사과조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "RG황금사과 조각",
+		identifiedResourceName = "RG황금사과조각",
+		identifiedDescriptionName = {
+			"이그드라실의 수액으로 여신 이둔의 사과를 모방하여 창조된 황금빛 사과. 누군가 반만 먹어버린 모양이다.",
+			"^000088사용자의 HP 와 SP의 절반을 회복^000000시켜준다.",
+			"재사용 대기시간 :  ^7777773초^000000",
+			"무게 : ^77777730^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12857] = {
+		unidentifiedDisplayName = "RG황금사과",
+		unidentifiedResourceName = "RG황금사과",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "RG황금사과",
+		identifiedResourceName = "RG황금사과",
+		identifiedDescriptionName = {
+			"이그드라실의 수액으로 여신 이둔의 사과를 모방하여 창조된 황금빛 사과. 정말 금으로 만들어진 듯 광택이 난다.",
+			"^000088사용자의 HP 와 SP를 모두 회복^000000시켜준다.",
+			"재사용 대기시간 :  ^7777775초^000000",
+			"무게 : ^77777730^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12858] = {
+		unidentifiedDisplayName = "RG크바시르",
+		unidentifiedResourceName = "RG황금포션",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "RG황금포션",
+		identifiedResourceName = "RG황금포션",
+		identifiedDescriptionName = {
+			"미드가르드의 알케미스트 포션학의 집대성. 현존하는 최고의 포션으로, 소량으로도 엄청난 효능을 보여준다. 신의 음료라고 불릴 정도로 호평.",
+			"^000088사용자의 HP 와 SP를 모두 회복^000000시켜주며, 스스로에게 기리에 엘레이손 10Lv을 건다.",
+			"재사용 대기시간 :  ^7777771초^000000",
+			"무게 : ^7777773^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12871] = {
+		unidentifiedDisplayName = "의문의 알II",
+		unidentifiedResourceName = "깜짝스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "의문의 알II",
+		identifiedResourceName = "깜짝스크롤",
+		identifiedDescriptionName = { "정체를 알 수 없는 작은 알. 겉껍질에 생긴 균열 사이로 화려한 색의 껍질이 한 겹 더 보인다!", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12872] = {
+		unidentifiedDisplayName = "전투교범 한정판",
+		unidentifiedResourceName = "전투교범",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "전투교범 한정판",
+		identifiedResourceName = "전투교범",
+		identifiedDescriptionName = {
+			"보다 효율적인 전투방법이 기록된 설명서 한정판!",
+			"시키는 대로 하면 왠지 빨리 성장할 것 같다.",
+			"^00008860분간 획득하는 경험치가 60% 증가한다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12924] = {
+		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedResourceName = "펫알스크롤상자2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedResourceName = "펫알스크롤상자2",
+		identifiedDescriptionName = {
+			"투명한 펫알 스크롤이 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12926] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "수속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "수속성알",
+		identifiedDescriptionName = {
+			"투명한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12931] = {
+		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedResourceName = "펫알스크롤상자5",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedResourceName = "펫알스크롤상자5",
+		identifiedDescriptionName = {
+			"괴상한 모양의 펫알 스크롤이 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[13680] = {
 		unidentifiedDisplayName = "블러드 액스 상자",
 		unidentifiedResourceName = "오래된보라상자",
@@ -14699,411 +15073,11 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[29081] = {
-		unidentifiedDisplayName = "예기1Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기1Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +10%, CRIT +3." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29082] = {
-		unidentifiedDisplayName = "예기2Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기2Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +20%, CRIT +6." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29083] = {
-		unidentifiedDisplayName = "예기3Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기3Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +30%, CRIT +9." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29084] = {
-		unidentifiedDisplayName = "예기4Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기4Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +40%, CRIT +12." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29085] = {
-		unidentifiedDisplayName = "예기5Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기5Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +50%, CRIT +15." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29086] = {
-		unidentifiedDisplayName = "예기6Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기6Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +60%, CRIT +18." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29087] = {
-		unidentifiedDisplayName = "예기7Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기7Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +70%, CRIT +21." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29088] = {
-		unidentifiedDisplayName = "예기8Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기8Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +80%, CRIT +24." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29089] = {
-		unidentifiedDisplayName = "예기9Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기9Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +90%, CRIT +27." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29090] = {
-		unidentifiedDisplayName = "예기10Lv",
-		unidentifiedResourceName = "그린크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "예기10Lv",
-		identifiedResourceName = "그린크리스탈조각",
-		identifiedDescriptionName = { "크리티컬 데미지 +110%, CRIT +30." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29091] = {
-		unidentifiedDisplayName = "선궁1Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁1Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +4%, 공격속도 증가.(공격 후딜레이 1% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29092] = {
-		unidentifiedDisplayName = "선궁2Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁2Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +8%, 공격속도 증가.(공격 후딜레이 2% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29093] = {
-		unidentifiedDisplayName = "선궁3Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁3Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +12%, 공격속도 증가.(공격 후딜레이 3% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29094] = {
-		unidentifiedDisplayName = "선궁4Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁4Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +16%, 공격속도 증가.(공격 후딜레이 4% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29095] = {
-		unidentifiedDisplayName = "선궁5Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁5Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +20%, 공격속도 증가.(공격 후딜레이 5% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29096] = {
-		unidentifiedDisplayName = "선궁6Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁6Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +24%, 공격속도 증가.(공격 후딜레이 6% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29097] = {
-		unidentifiedDisplayName = "선궁7Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁7Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +28%, 공격속도 증가.(공격 후딜레이 7% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29098] = {
-		unidentifiedDisplayName = "선궁8Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁8Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +32%, 공격속도 증가.(공격 후딜레이 8% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29099] = {
-		unidentifiedDisplayName = "선궁9Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁9Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +36%, 공격속도 증가.(공격 후딜레이 9% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29100] = {
-		unidentifiedDisplayName = "선궁10Lv",
-		unidentifiedResourceName = "옐로크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선궁10Lv",
-		identifiedResourceName = "옐로크리스탈조각",
-		identifiedDescriptionName = { "활 공격력 +44%, 공격속도 증가.(공격 후딜레이 10% 감소) " },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29101] = {
-		unidentifiedDisplayName = "금강1Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강1Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +5%, DEF +15." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29102] = {
-		unidentifiedDisplayName = "금강2Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강2Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +10%, DEF +30." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29103] = {
-		unidentifiedDisplayName = "금강3Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강3Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +15%, DEF +45." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29104] = {
-		unidentifiedDisplayName = "금강4Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강4Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +20%, DEF +60." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29105] = {
-		unidentifiedDisplayName = "금강5Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강5Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +25%, DEF +75." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29106] = {
-		unidentifiedDisplayName = "금강6Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강6Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +30%, DEF +90." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29107] = {
-		unidentifiedDisplayName = "금강7Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강7Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +35%, DEF +105." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29108] = {
-		unidentifiedDisplayName = "금강8Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강8Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +40%, DEF +120." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29109] = {
-		unidentifiedDisplayName = "금강9Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "금강9Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +45%, DEF +135." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29110] = {
-		unidentifiedDisplayName = "금강10Lv",
-		unidentifiedResourceName = "퍼플크리스탈조각",
-		unidentifiedDescriptionName = { "MaxHP +55%, DEF +150." },
-		identifiedDisplayName = "금강10Lv",
-		identifiedResourceName = "퍼플크리스탈조각",
-		identifiedDescriptionName = { "MaxHP +55%, DEF +150." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29111] = {
-		unidentifiedDisplayName = "자애1Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "자애1Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +5%, MDEF +3." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29112] = {
-		unidentifiedDisplayName = "자애2Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "자애2Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +10%, MDEF +6." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29113] = {
-		unidentifiedDisplayName = "자애3Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "자애3Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +15%, MDEF +9." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29114] = {
-		unidentifiedDisplayName = "자애4Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "자애4Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +20%, MDEF +12." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29115] = {
-		unidentifiedDisplayName = "자애5Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = { "힐량 +25%, MDEF +15." },
-		identifiedDisplayName = "자애5Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +25%, MDEF +15." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29116] = {
-		unidentifiedDisplayName = "자애6Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "자애6Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +30%, MDEF +18." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29117] = {
-		unidentifiedDisplayName = "자애7Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "자애7Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +35%, MDEF +21." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29118] = {
-		unidentifiedDisplayName = "자애8Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "자애8Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +40%, MDEF +24." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29119] = {
-		unidentifiedDisplayName = "자애9Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = { "힐량 +45%, MDEF +27." },
-		identifiedDisplayName = "자애9Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +45%, MDEF +27." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29120] = {
-		unidentifiedDisplayName = "자애10Lv",
-		unidentifiedResourceName = "화이트크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "자애10Lv",
-		identifiedResourceName = "화이트크리스탈조각",
-		identifiedDescriptionName = { "힐량 +55%, MDEF +30." },
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[29148] = {
-		unidentifiedDisplayName = "사자자리 돌",
+		unidentifiedDisplayName = "Leo Stone",
 		unidentifiedResourceName = "사자자리스크롤2",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "사자자리 돌",
+		identifiedDisplayName = "Leo Stone",
 		identifiedResourceName = "사자자리스크롤2",
 		identifiedDescriptionName = {
 			"신발의 빈 슬롯에 장착할 수 있는 사자자리 별자리의 힘이 담긴 돌.",
@@ -15125,10 +15099,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[29149] = {
-		unidentifiedDisplayName = "물고기자리 돌",
+		unidentifiedDisplayName = "Pisces Stone",
 		unidentifiedResourceName = "물고기자리스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "물고기자리 돌",
+		identifiedDisplayName = "Pisces Stone",
 		identifiedResourceName = "물고기자리스크롤",
 		identifiedDescriptionName = {
 			"신발의 빈 슬롯에 장착할 수 있는 물고기자리 별자리의 힘이 담긴 돌.",
@@ -15150,10 +15124,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[29150] = {
-		unidentifiedDisplayName = "염소자리 돌",
+		unidentifiedDisplayName = "Capricorn Stone",
 		unidentifiedResourceName = "염소자리스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "염소자리 돌",
+		identifiedDisplayName = "Capricorn Stone",
 		identifiedResourceName = "염소자리스크롤",
 		identifiedDescriptionName = {
 			"신발의 빈 슬롯에 장착할 수 있는 염소자리 별자리의 힘이 담긴 돌. ",
@@ -15175,10 +15149,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[29151] = {
-		unidentifiedDisplayName = "물병자리 돌",
+		unidentifiedDisplayName = "Aquarius Stone",
 		unidentifiedResourceName = "물병자리스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "물병자리 돌",
+		identifiedDisplayName = "Aquarius Stone",
 		identifiedResourceName = "물병자리스크롤",
 		identifiedDescriptionName = {
 			"신발의 빈 슬롯에 장착할 수 있는 물병자리 별자리의 힘이 담긴 돌. ",
@@ -15200,10 +15174,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[29152] = {
-		unidentifiedDisplayName = "전갈자리 돌",
+		unidentifiedDisplayName = "Scorpio Stone",
 		unidentifiedResourceName = "전갈자리스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전갈자리 돌",
+		identifiedDisplayName = "Scorpio Stone",
 		identifiedResourceName = "전갈자리스크롤",
 		identifiedDescriptionName = {
 			"신발의 빈 슬롯에 장착할 수 있는 전갈자리 별자리의 힘이 담긴 돌. ",
@@ -15225,10 +15199,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[29153] = {
-		unidentifiedDisplayName = "황소자리 돌",
+		unidentifiedDisplayName = "Taurus Stone",
 		unidentifiedResourceName = "황소자리스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "황소자리 돌",
+		identifiedDisplayName = "Taurus Stone",
 		identifiedResourceName = "황소자리스크롤",
 		identifiedDescriptionName = {
 			"신발의 빈 슬롯에 장착할 수 있는 황소자리 별자리의 힘이 담긴 돌. ",
@@ -15245,212 +15219,6 @@ tbl = {
 			"계열 : ^777777특수인챈트^000000 ",
 			"장착 : ^777777신발^000000",
 			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29154] = {
-		unidentifiedDisplayName = "마이너 고정캐스팅 감소",
-		unidentifiedResourceName = "태양신의상징",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "마이너 고정캐스팅 감소",
-		identifiedResourceName = "태양신의상징",
-		identifiedDescriptionName = { "고정 캐스팅 0.3초 감소" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29155] = {
-		unidentifiedDisplayName = "렉스 에테르나",
-		unidentifiedResourceName = "신속",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "렉스 에테르나",
-		identifiedResourceName = "신속",
-		identifiedDescriptionName = { "물리 공격시, 1%의 확률로 적에게 렉스 에테르나 Lv 1 발동." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29156] = {
-		unidentifiedDisplayName = "변동 캐스팅 감소",
-		unidentifiedResourceName = "하늘색보석",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "변동 캐스팅 감소",
-		identifiedResourceName = "하늘색보석",
-		identifiedDescriptionName = { "변동 캐스팅 3% 감소.", "[변동 캐스팅 감소] 중단, 하단과 함께 착용시, 변동 캐스팅 6% 추가 감소." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29157] = {
-		unidentifiedDisplayName = "변동 캐스팅 감소",
-		unidentifiedResourceName = "하늘색보석",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "변동 캐스팅 감소",
-		identifiedResourceName = "하늘색보석",
-		identifiedDescriptionName = { "변동 캐스팅 3% 감소." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29158] = {
-		unidentifiedDisplayName = "변동 캐스팅 감소",
-		unidentifiedResourceName = "하늘색보석",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "변동 캐스팅 감소",
-		identifiedResourceName = "하늘색보석",
-		identifiedDescriptionName = { "변동 캐스팅 3% 감소." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29159] = {
-		unidentifiedDisplayName = "경험치+2%",
-		unidentifiedResourceName = "블루젬스톤",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "경험치+2%",
-		identifiedResourceName = "블루젬스톤",
-		identifiedDescriptionName = { "몬스터를 죽였을 시, 획득 경험치 2% 증가.", "[경험치+2%] 중단, 하단과 함께 착용시, 몬스터를 죽였을 시 경험치 3% 추가 증가." },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29160] = {
-		unidentifiedDisplayName = "블루 오오라 이펙트",
-		unidentifiedResourceName = "마법석수",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "블루 오오라 이펙트",
-		identifiedResourceName = "마법석수",
-		identifiedDescriptionName = { "블루 오오라 이펙트" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29161] = {
-		unidentifiedDisplayName = "핑크 글로우 이펙트",
-		unidentifiedResourceName = "벚꽃뱃지",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "핑크 글로우 이펙트",
-		identifiedResourceName = "벚꽃뱃지",
-		identifiedDescriptionName = { "핑크 글로우 이펙트" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[29162] = {
-		unidentifiedDisplayName = "쉐도우 이펙트",
-		unidentifiedResourceName = "뭔가있어",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "쉐도우 이펙트",
-		identifiedResourceName = "뭔가있어",
-		identifiedDescriptionName = { "쉐도우 이펙트" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[31016] = {
-		unidentifiedDisplayName = "장식된 악령 나무 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "장식된 악령 나무 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "MaxHP +1000, MaxSP +150, FLEE -25.", "계열 : ^777777카드^000000", "장착 : ^777777갑옷^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[31017] = {
-		unidentifiedDisplayName = "포악해진 쿠키 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "포악해진 쿠키 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"ATK +1%, MATK +1%, MaxHP -2%.",
-			"2제련 당, ATK +1%, MATK +1%, MaxHP -2% 씩 추가.",
-			"계열 : ^777777카드^000000",
-			"장착 : ^777777신발^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[31018] = {
-		unidentifiedDisplayName = "악령 깃든 상자 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "악령 깃든 상자 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"MaxHP -1225.",
-			"마법공격 시, 적에게 높은 확률로 저주를 건다.",
-			"계열 : ^777777카드^000000",
-			"장착 : ^777777무기^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[31019] = {
-		unidentifiedDisplayName = "섬뜩한 악령 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "섬뜩한 악령 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"MaxHP -13%.",
-			"마법 공격을 받을 시, 적에게 높은 확률로 저주를 건다.",
-			"계열 : ^777777카드^000000",
-			"장착 : ^777777악세사리^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[31020] = {
-		unidentifiedDisplayName = "악의에 찬 유령 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "악의에 찬 유령 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"MaxHP -13%.",
-			"물리 공격을 받을 시, 적에게 높은 확률로 저주를 건다.",
-			"계열 : ^777777카드^000000",
-			"장착 : ^777777악세사리^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[31021] = {
-		unidentifiedDisplayName = "춤추는 마리오 네트 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "춤추는 마리오 네트 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = { "ASPD +10%, ATK -3%.", "계열 : ^777777카드^000000", "장착 : ^777777무기^000000", "Weight: ^0EAA0B1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[31022] = {
-		unidentifiedDisplayName = "버려진 곰인형 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "버려진 곰인형 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"MaxSP +20%.",
-			"물리, 마법 공격 시 드물게 자기자신에게 저주를 건다.",
-			"계열 : ^777777카드^000000",
-			"장착 : ^777777신발^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[31023] = {
-		unidentifiedDisplayName = "셀린느 키미 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "셀린느 키미 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"MATK +10%. ",
-			"마법 공격 시, 일정 확률로 자신을 중심으로 화면 전체의 적에게 \"치명적인 상처\"를 건다.",
-			"계열 : ^777777카드^000000",
-			"장착 : ^777777무기^000000",
-			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
