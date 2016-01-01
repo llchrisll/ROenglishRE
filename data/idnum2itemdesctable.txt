@@ -1127,7 +1127,8 @@ Weight: ^0EAA0B2^000000
 #
 669#
 A soup made with pieces of rice cake.
-It is said that having a bowl of this soup on New Year's Day will make you one year older. Young children would abuse this custom to reach legal driving age until the law was changed.
+It is said that having a bowl of this soup on New Year's Day will make you one year older.
+Young children would abuse this custom to reach legal driving age until the law was changed.
 ^FFFFFF_^000000
 Class: ^0000FFUsable item^000000
 Weight: ^0EAA0B10^000000
@@ -8173,7 +8174,8 @@ Weapon Level: ^0EAA0B3^000000
 Jobs: ^6A5ACDPriest, Sage and Star Gladiator^000000
 #
 1579#
-A book containing names, used by the agents of death. There are times when the book of the dead is circulated in this world because they have dropped the book in the realm of the living. There are tons of names written in here, and there seems to be names of people you might know well ... It says Holg ... <Can not see clearly due to paper being torn>.
+A book containing names, used by the agents of death. There are times when the book of the dead is circulated in this world because they have dropped the book in the realm of the living.
+There are tons of names written in here, and there seems to be names of people you might know well ... It says Holg ... <Can not see clearly due to paper being torn>.
 ^888888-------------------------^000000
 STR +3, INT +3, LUK -20
 MATK +15%
@@ -13860,7 +13862,8 @@ VIT +20, MDEF +10
 Reduces damage from all monster races by 30%.
 ^888888-------------------------^000000
 When you receive Melee Physical damage, this shield creates a chance of casting Protective Light for 60 seconds.
-Protective Light immediately cancels Stun, Sleep, Curse, Stone Curse, Poison, Blind, Silence, Bleeding, Chaos, and Frost then protects the user against such effects for a set duration.
+Protective Light immediately cancels:
+Stun, Sleep, Curse, Stone Curse, Poison, Blind, Silence, Bleeding, Chaos, and Frost then protects the user against such effects for a set duration.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^702180Indestructible^000000
@@ -39963,7 +39966,9 @@ Jobs: ^6A5ACDAll classes^000000
 5660#
 A hat that resemble monster Gryphon.
 ^888888-------------------------^000000
-When dealing physical attacks, adds a chance to auto cast Level 1 Lightning Loader.
+AGI +2
+Refine Level +7: AGI +2
+Refine Level +9: Increases damage inflicted on Demon and Undead monsters by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
@@ -41409,10 +41414,15 @@ Jobs: ^6A5ACD전 직업^000000
 5795#
 An adorable hat which is always worn on the side of head.
 If the wearer carries an umbrella with this hat on, the wearer will look as if one is going for a picnic.
+^888888-------------------------^000000
 MDEF +7
-Increases ATK, MATK 4%, effectiveness of Heal skill 5%.
-Refined to +7, Additional ATK, MATK 2% effectiveness of Heal skill 1%,
+Increases ATK and MATK by 4%.
+Healing skills +5%.
+^888888-------------------------^000000
+Refine Level +7:
+ATK and MATK +2%, Healing skills +1%,
 STR +2, INT +2
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
@@ -41471,10 +41481,14 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5801#
 Pretty red ribbon. You can feel the sweetness of love.
+^888888-------------------------^000000
 All stats +2
+^888888-------------------------^000000
 Reduces damage taken from Demihuman monsters by 10%.
+^888888-------------------------^000000
 Adds a chance to auto cast Level 5 Heal when the wearer is attacked by physical attacks.
 (A chance of auto casting Level 10 Heal if Level 10 Heal is learned.) 
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
@@ -41498,11 +41512,8 @@ Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5804#
-An eye bandage worn by
-infamous pirates back in
-the old day. Makes its
-wearer feel out of
-perspective when worn.
+An eye bandage worn by infamous pirates back in the old day.
+Makes its wearer feel out of perspective when worn.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDMiddle^000000
@@ -41511,7 +41522,10 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5805#
 A headband given to the winner. It was said that only a true warrior can wear it.
-MaxHP +15%, SP recovery +5%
+^888888-------------------------^000000
+MaxHP +15%
+SP recovery +5%
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Weight: ^0EAA0B15^000000
@@ -41519,10 +41533,9 @@ Level Requirement: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5806#
-...
-...
+A hat of Poet Natalia, its made from reed and bamboo.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF5^000000
+Defense: ^0000FF9^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -41530,7 +41543,7 @@ Jobs: ^6A5ACDAll classes^000000
 5807#
 The cap which makes you look better in the fest.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B50^000000
@@ -41538,9 +41551,11 @@ Jobs: ^6A5ACDAll except Novice^000000
 #
 5808#
 A strong diadem which has been covered by the face of Satan Morocc. It can be possessed only by the ones who have overcome the fear of Satan Morocc.
-Adds 20% tolerance to ^FF0000Stone^000000, ^FF0000Freeze^000000 and ^FF0000Stun^000000.
+^888888-------------------------^000000
+Adds 20% tolerance to [Stone Curse], [Freeze] and [Stun].
 Each upgrade level increases tolerance by 2%
 (but, tolerance increase applies up to +10 refine level)
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper, Middle, Lower^000000
@@ -41556,18 +41571,20 @@ Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5810#
-...
-...
+A ceremonial hat worn during one's graduation.
+^888888-------------------------^000000
 INT +5, VIT +3, DEX +3
+^888888-------------------------^000000
+Reduces resistance against Shadow, Undead and Fire property by 5%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
 5811#
 A beard that seems to make you let out a guffaw.
-Increases defense on Brute monsters by 5%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDLower^000000
@@ -41575,19 +41592,20 @@ Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5812#
-For experts only!
-All stats +3
-Add a chance to give a random status to the wearer.
+For water experts only!
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B0^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5813#
-...
-...
+A red graduation hat.
+^888888-------------------------^000000
 INT +1
+Restore small amount of SP when killing enemy with magical attacks.
+Restore HP by 1 for every 10 second.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41595,9 +41613,17 @@ Weight: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5814#
-An headgear which is made of many kinds of property rings. It looks very luxurious and charming. Reduce all damage from Demihuman by 10%,
-Reduces damage from Water, Fire, Wind by 5%, Reduces damage from ^777777Ghost^000000 property monsters by 10%, Increase damage against ^777777Ghost^000000 property Demihuman by 50%.
-30 days Rental Item.
+^000088Rental item^000000
+An headgear which is made of many kinds of property rings. It looks very luxurious and charming.
+^888888-------------------------^000000
+Reduce damage taken from Demihuman monsters by 10%.
+^888888-------------------------^000000
+Reduces damage from Water, Fire and Wind property by 5%.
+^888888-------------------------^000000
+Reduces damage from Ghost property monsters by 10%.
+^888888-------------------------^000000
+Increase damage against Ghost property and Demihuman monsters by 50%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper, Middle, Lower^000000
@@ -41606,40 +41632,54 @@ Level Requirement: ^0EAA0B20^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
 5815#
-Reduces damage from Small, Medium, and Large type monsters by 5%.
+A classic hat.
+^888888-------------------------^000000
 STR +1
+Increases damage inflicted on Small, Medium and Large monsters by 5%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B50^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5816#
 A hat, symbolizing western frontiers, made to celebrate the festival.
-ATK +15, Flee -5.
+^888888-------------------------^000000
+ATK +15
+Flee -5
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B50^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5817#
 A special emblem that is given to the winner of the Valentine's Hottest Contest.
-ATK +3% MATK +3% All stats +2 Flee +10 ASPD +1
-It increases the effect of the Heal, Potion Pitcher and recovery class Potions by 10% when they are cast by the wearer.
+^888888-------------------------^000000
+ATK +3%, MATK +3%
+All stats +2
+Flee +10
+ASPD +1
 MDEF +3
-(Item's active duration is 365 days since opening.)
+Increases restoration gained from Healing skills, Potion Pitcher and recovery class Potions by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDAccessory^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF6^000000
 Weight: ^0EAA0B0^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5818#
 A hat which made to celebrate the festival.
 ^FF0000'Made especially for you.'^000000
+^888888-------------------------^000000
 All stats +3
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF6^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B0^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -41647,7 +41687,9 @@ Jobs: ^6A5ACDAll classes^000000
 5819#
 A Circlet that will be used in Carnival festival
 ^FF0000'Made especially for you.'^000000
+^888888-------------------------^000000
 All stats +3
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
 Location: ^6A5ACDUpper^000000
@@ -41655,17 +41697,15 @@ Weight: ^0EAA0B0^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5820#
-...
-...
+An ears modeled after the ears of Elven. It has black color.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
-Location: ^6A5ACDUpper, Middle^000000
+Defense: ^0000FF2^000000
+Location: ^6A5ACDMiddle^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5821#
 Made in the form of a golden tulip shiny bezel.
-Add Bonus exp when killing monster by 5%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
@@ -41674,10 +41714,12 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5822#
 The little chick converted from love energy. Please handle with care.
+^888888-------------------------^000000
 LUK +4
 MaxHP +100, MaxSP +100.
-Reduce 7% damage taken from Demihuman monster.
-Reduces damage from undead monsters by 7%.
+^888888-------------------------^000000
+Reduce damage taken from Demihuman and Brute monsters by 7%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
@@ -41686,7 +41728,10 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5823#
 It is said that people, which gets an arrow of Cupid, fall in love with the first got in the way of man.
-DEX +5, AGI +5.
+^888888-------------------------^000000
+DEX +5
+AGI +5
+^888888-------------------------^000000
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF2^000000
 Weight: ^0EAA0B10^000000
@@ -41701,9 +41746,12 @@ Level Requirement: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5825#
-Icon Pegasus. Symbolizes the spirit of Knight.
-ATK +10%, MATK +10%.
-MaxHP +1500, MDEF +1.
+A badge engraved with Pegasus patern, symbolizes the spirit of Knight.
+^888888-------------------------^000000
+ATK +10%, MATK +10%
+MaxHP +1500
+MDEF +1.
+^888888-------------------------^000000
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF1^000000
 Weight: ^0EAA0B0^000000
@@ -41713,11 +41761,13 @@ Jobs: ^6A5ACDAll classes^000000
 5826#
 Valkyrie helmet with the powerful energy of the Gods.
 This thing is not designed for people so you can not use it for too long.
+^888888-------------------------^000000
 STR +2, AGI +2
 INT +2, DEX +2
-ASPD +3%.
-Reduced cast time by 3%.
+ASPD +3%
 MDEF +5
+Reduces variable cast time by 3%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
@@ -41726,19 +41776,15 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5827#
 A stylish stack of geology text books.
-INT +1
-Gives the Wearer 5% resistance to ^CC5500Earth^000000 property Attacks
-For every refine level up to +9 gives the wearer an atk/matk bonus of 1% with a maximum of +9%
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
-Level Requirement: ^0EAA0B10^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5828#
-Gold ring engraved with 'heroes of Rune Midgard'
-All stats +5, MDEF +5
+Gold ring engraved with 'heroes of Rune Midgard'.
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
 Weight: ^0EAA0B5^000000
@@ -41755,7 +41801,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5830#
 Enhanced version of Sakkat from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41765,7 +41813,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5831#
 Enhanced version of Big Ribbon from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41775,7 +41825,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5832#
 Enhanced version of Vane Hairpin from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41785,7 +41837,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5833#
 Enhanced version of Sunday Hat from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41795,7 +41849,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5834#
 Enhanced version of Crown from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41805,7 +41861,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5835#
 Enhanced version of Tiara from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41815,7 +41873,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5836#
 Enhanced version of Boy's Cap from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41825,7 +41885,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5837#
 Enhanced version of Sunglasses from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 2%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 2%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDMiddle^000000
@@ -41835,7 +41897,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5838#
 Enhanced version of Fin Helm from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 2%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 2%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDMiddle^000000
@@ -41845,7 +41909,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5839#
 Enhanced version of Blush from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 2%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 2%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDMiddle^000000
@@ -41855,7 +41921,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5840#
 Enhanced version of Elven Ears from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 2%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 2%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDMiddle^000000
@@ -41865,7 +41933,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5841#
 A red small hat with the fabulous pheasant feather. It seems to be used to communicate with souls.
-Increase the resistance to all property MATK by 3%.
+^888888-------------------------^000000
+Increases resistance against magical attacks by 3%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
@@ -41876,7 +41946,7 @@ Jobs: ^6A5ACDAll classes^000000
 5845#
 If you wear any message that appears above the head, this step is very, very light.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B40^000000
 Level Requirement: ^0EAA0B1^000000
@@ -41884,7 +41954,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5846#
 Delicious gum ball biting on the mouth.
+^888888-------------------------^000000
 MDEF +5
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDLower^000000
@@ -41895,8 +41967,11 @@ Jobs: ^6A5ACDAll classes^000000
 5847#
 Helmet stupid enough electrolytes to legend.
 Bemused expression and sediment strength, slow ... but it is actually a wise action!
-INT +5, VIT -3.
-When attacking with physical or magical attack, there is chance to activate lv 10 Blessing on yourself.
+^888888-------------------------^000000
+INT +5, VIT -3
+^888888-------------------------^000000
+Adds a low chance to auto cast Level 10 [Blessing] on yourself when dealing physical or magical attacks.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -41923,7 +41998,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5850#
 Cute little doll hat Golden Savage.
-5% increase recovery rate of HP and SP
+^888888-------------------------^000000
+Increase recovery rate of HP and SP by 5%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
@@ -41932,10 +42009,13 @@ Level Requirement: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5851#
-^00008830 days Rental Item.^000000
+^000088Rental Item.^000000
 A hat that holds spirit of sun.
-Reduce Demihuman damage by 10%.
-Add chance to cast Lv1 'Sight' skill or Lv1 'Sight Thrasher' when being hit by physical or magical attacks.
+^888888-------------------------^000000
+Reduces damage taken from Demihuman monsters by 10%.
+^888888-------------------------^000000
+Adds a chance to auto cast Level 1 [Sight] or [Sight Trasher] when attacked by physical or magical attacks.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper, Middle^000000
@@ -41945,10 +42025,13 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5852#
 A colorful egg shell that seems fragile but has mysterious healing power within.
+^888888-------------------------^000000
 MDEF -7.
+^888888-------------------------^000000
 Recover 1% HP every 10 seconds.
-When refined to +7, Flee +2.
-When refined to +9, recover 1% SP every 10 seconds.
+Refine Level +7: Flee +2.
+Refine Level +9: recover 1% SP every 10 seconds.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF-7^000000
 Location: ^6A5ACDUpper^000000
@@ -41970,9 +42053,12 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5856#
 A hat which makes you feel the air of festivity. Play all over the ground with amazing vitality!!
+^888888-------------------------^000000
 STR +2, DEX +2
+^888888-------------------------^000000
 Adds a low chance for 10 seconds when attacking with meele attack:
 increases ranged damage by 5%, Flee -15.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
@@ -41983,8 +42069,10 @@ Jobs: ^6A5ACDAll classes^000000
 5857#
 A hat which makes you feel the air of festivity.
 Throw a great shot with the outstanding strength!!
+^888888-------------------------^000000
 STR +2, INT +1, VIT +1, DEX +2, AGI +2, LUK +2.
 MDEF +1.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
@@ -41995,8 +42083,10 @@ Jobs: ^6A5ACDAll classes^000000
 5858#
 A hat which makes you feel the air of festivity.
 Make the other team overwhelmed with your smart strategy!!
+^888888-------------------------^000000
 STR +1, INT +2, VIT +1, DEX +2, AGI +2, LUK +2.
 MDEF +1.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
@@ -42007,8 +42097,10 @@ Jobs: ^6A5ACDAll classes^000000
 5859#
 A hat which makes you feel the air of festivity.
 Fight to death for the moment of glory!!
+^888888-------------------------^000000
 All stats +3.
 MDEF +1.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
@@ -42018,7 +42110,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5860#
 Enhanced version of Army Cap from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -42028,7 +42122,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5861#
 Enhanced version of Kafra Band from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -42038,7 +42134,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5862#
 Enhanced version of Sweet Gent from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 10%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -42048,7 +42146,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5863#
 Enhanced version of Zoro Mask from the Midgard Crowd Control event.
-Reduces damage from Demihuman by 2%
+^888888-------------------------^000000
+Reduces damage taken from Demihuman by 2%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDMiddle^000000
@@ -42057,9 +42157,11 @@ Level Requirement: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5864#
-Tool to control the brain wave to amplify their skills.
+A tool that can control the brain wave to amplify their skills.
+^888888-------------------------^000000
 ASPD +1
-Decrease delay after skill 1%
+Decreases delay after skill by 1%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDMiddle^000000
@@ -42068,18 +42170,65 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5865#
-[jRO item]
+A cute headgear made in the form of Filir's wings, the most popular bird-like homunclus.
+^888888-------------------------^000000
+Increases physical damage inflicted on Insect monsters by 5%.
+^888888-------------------------^000000
+Reduces damage taken from Insect monsters by 5%.
+^888888-------------------------^000000
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF1^000000
+Location: ^6A5ACDMiddle^000000
+Weight: ^0EAA0B20^000000
+Level Requirement: ^0EAA0B10^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5866#
-[jRO item]
+A branch of Crimson Cherry Blossom filled with the power of fire.
+^888888-------------------------^000000
+Increases damage of [Meteor Storm] and [Crimson Rock] by 3%.
+^888888-------------------------^000000
+Increases SP consumption of all skills by 5%.
+^888888-------------------------^000000
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B30^000000
+Level Requirement: ^0EAA0B30^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5867#
-[jRO item]
+A hat that imitate cat that sleeping on cushion under the sunlight.
+^888888-------------------------^000000
+Reduces damage taken from Fish monsters by 5%.
+Refine Level +6: Reduces damage taken from Fish monsters by 5%.
+^888888-------------------------^000000
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF3^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B30^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+5868#
+This is not a regular fake moustache, this one has been made from a real one that was grown over years with affection and care. Feels strong.
+^888888-------------------------^000000
+ATK +10, MATK +10
+^888888-------------------------^000000
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B10^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5869#
 Helmet made by mysterious eggs.
-Stone Curse to enemies in a certain chance when you got physical damaged.
-Speed increase when it equpped.
+^888888-------------------------^000000
+Adds a chance to auto cast [Stone Curse] on target when dealing physical attacks.
+^888888-------------------------^000000
+Increases movement speed.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
@@ -42089,7 +42238,10 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5870#
 Helmet made by mysterious eggs. Pink bunny is so cute.
-AGI +3, ASPD +1.
+^888888-------------------------^000000
+AGI +3
+ASPD +1
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
@@ -42099,7 +42251,10 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5871#
 Helmet made by mysterious eggs. Picky is hippity-hoppity on the head.
-VIT +3, MDEF +2.
+^888888-------------------------^000000
+VIT +3
+MDEF +2
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
@@ -42110,11 +42265,18 @@ Jobs: ^6A5ACDAll classes^000000
 5873#
 A helmet which has been worn by a legendary dragon slayer. This hat is made of real dragon wings and a piece of dragon skin.
 Wearing this hat makes you feel epic and powerful.
+^888888-------------------------^000000
+All stats +5
+^888888-------------------------^000000
 +5% resistance against Neutral attacks.
 +5% resistance against Dragon monsters.
-Creates a chance of casting Level 5 Assumptio when you receive Physical damage.
-All stats +5. Consumes 600 HP every 4 seconds.
+^888888-------------------------^000000
+Adds a chance to auto cast Level 5 [Assumption] on your selft when attacked by physical attacks.
+^888888-------------------------^000000
+Drains 600 HP every 4 seconds.
+^888888-------------------------^000000
 ^702180Indestructible^000000
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF7^000000
 Location: ^6A5ACDUpper^000000
@@ -42125,11 +42287,18 @@ Jobs: ^6A5ACDTranscendent Swordman and Merchant^000000
 5874#
 The golden falcon is a sign of destiny and will protect its owner from evil forces.
 It has been worn by a brave woman. The power of this circet makes you feel very brave.
+^888888-------------------------^000000
+All stats +5
+^888888-------------------------^000000
 +5% resistance against Neutral attacks.
 +5% resistance against Dragon monsters.
-Creates a chance of casting Kyrie Eleison when you receive Physical damage.
-All stats +5. Consumes 400 HP every 4 seconds.
+^888888-------------------------^000000
+Adds a chance to auto cast [Kyrie Eleison] on your selft when attacked by physical attacks.
+^888888-------------------------^000000
+Drains 400 HP every 4 seconds.
+^888888-------------------------^000000
 ^702180Indestructible^000000
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
 Location: ^6A5ACDUpper^000000
@@ -42140,11 +42309,18 @@ Jobs: ^6A5ACDTranscendent Archer and Thief^000000
 5875#
 This diadem has been worn by a heroic woman. The legend says she had supernatural powers.
 You can feel a strong magic flow when wearing it.
+^888888-------------------------^000000
+All stats +5
+^888888-------------------------^000000
 +5% resistance against Neutral attacks.
 +5% resistance against Dragon monsters.
-Creates a chance of casting Endure when you receive Physical damage.
-All stats +5. Consumes 300 HP every 4 seconds.
+^888888-------------------------^000000
+Adds a chance to auto cast [Endure] on your selft when attacked by physical attacks.
+^888888-------------------------^000000
+Drains 300 HP every 4 seconds.
+^888888-------------------------^000000
 ^702180Indestructible^000000
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF6^000000
 Location: ^6A5ACDUpper^000000
@@ -42154,9 +42330,13 @@ Jobs: ^6A5ACDTranscendent Mage and Acolyte^000000
 #
 5876#
 This stylish bandeezy expresses your patriotic spirit and makes you feel like some kind of professional grappler.
-All Stats +1.
+^888888-------------------------^000000
+All Stats +1
+^888888-------------------------^000000
 Enables use of Level 1 [Bash].
-If upgraded to +7 or higher, Increases damage for all races by 10%
+^888888-------------------------^000000
+Refine Level +7: Increases damage to all monsters by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF7^000000
 Location: ^6A5ACDUpper^000000
@@ -42166,8 +42346,11 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5877#
 These colors don't run, but you will (faster) when wearing this Old Glory adorned hat.
-Increase Movement when equipped.
-If upgraded to +7 or higher, FLEE +10, LUK +10.
+^888888-------------------------^000000
+Increases movement speed.
+^888888-------------------------^000000
+Refine Level +7: FLEE +10, LUK +10.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF7^000000
 Location: ^6A5ACDUpper^000000
@@ -42176,10 +42359,12 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5878#
-A blue rose that can never exist.
-This is a total dream to make it to Geneticists.
-With physical critical attacks, Aspersio Lv1 can be activated with a certain chance.
+A blue rose that not exist in nature. This is a total dream to make it to Geneticists.
+^888888-------------------------^000000
 LUK +1
+^888888-------------------------^000000
+Adds a chance to auto cast Level 1 [Aspersio] on your self when dealing physical attacks.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDLower^000000
@@ -42189,8 +42374,11 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5879#
 Sunglasses shaped like Poring. This is the season item for your fashion.
-Increase 5% physical damage against Plant monsters.
-Decrease 5% damage from Plant monsters.
+^888888-------------------------^000000
+Reduces damage taken from Plant monsters by 5%.
+^888888-------------------------^000000
+Increases physical damage inflicted on Plant monsters by 5%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDMiddle^000000
@@ -42200,13 +42388,16 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5880#
 A whistle that makes you cheer up.
+^888888-------------------------^000000
 STR +1
-When being attacked, Level 1 Magnificat can be activated by a certain chance.
+^888888-------------------------^000000
+Adds a chance to auto cast Level 1 [Magnificat] when attacked by physical or magical attacks.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDLower^000000
 Weight: ^0EAA0B10^000000
-Level Requirement: ^0EAA0B1^000000
+Level Requirement: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5881#
@@ -46813,37 +47004,44 @@ Dust came into the box together with insects.
 Weight: ^0EAA0B0^000000
 #
 6870#
-Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000, If he fails on the ^006400upgrade when the item to +13^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
+Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000,
+If he fails on the ^006400upgrade when the item to +13^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 6871#
-Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000, If he fails on the ^006400upgrade when the item to +14^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
+Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000,
+If he fails on the ^006400upgrade when the item to +14^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 6872#
-Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000, If he fails on the ^006400upgrade when the item to +15^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
+Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000,
+If he fails on the ^006400upgrade when the item to +15^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 6873#
-Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000, If he fails on the ^006400upgrade when the item to +16^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
+Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000,
+If he fails on the ^006400upgrade when the item to +16^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 6874#
-Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000, If he fails on the ^006400upgrade when the item to +17^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
+Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000,
+If he fails on the ^006400upgrade when the item to +17^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 6875#
-Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000, If he fails on the ^006400upgrade when the item to +18^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
+Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513prontera hall^000000,
+If he fails on the ^006400upgrade when the item to +18^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 6876#
-Take this certificate, do upgradable ^0000FFArmor^000000 in ^8B4513prontera hall^000000, If he fails on the ^006400upgrade when the item to +13^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
+Take this certificate, do upgradable ^0000FFArmor^000000 in ^8B4513prontera hall^000000,
+If he fails on the ^006400upgrade when the item to +13^000000,the item will not break and it will stay at its current upgrade level. -A Single Use.-
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
@@ -57151,8 +57349,8 @@ Recover 3% SP. Enables use of Level 1 ^008800Magnificat^000000.
 Weight: ^0EAA0B10^000000
 #
 12378#
-...
-^000088^000088Recovery HP & SP +50%^000000.
+A new year payon tradition soup.
+^000088^000088Restore HP & SP by 50%^000000.
 ^FFFFFF_^000000
 Weight: ^0EAA0B10^000000
 #
@@ -57243,12 +57441,12 @@ A very suspicious box. You don't know what will happen when you open it.
 Weight: ^0EAA0B1^000000
 #
 12398#
-...
+A well wrapped gift box.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12399#
-...
+A chest with colorful decoration. Its very heavy, it seems contain many coins.
 ^FFFFFF_^000000
 Weight: ^0EAA0B100^000000
 #
@@ -57258,8 +57456,8 @@ Let's have a good time throwing water!
 Weight: ^0EAA0B1^000000
 #
 12402#
-...
-Recovery HP/SP by 5%.
+This fruit has a sweet smell.
+Restore HP and SP by 5%.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
@@ -57268,7 +57466,7 @@ Weight: ^0EAA0B0^000000
 Weight: ^0EAA0B1^000000
 #
 12404#
-...
+A potion that able to increase attack power.
 ATK, MATK +2% for 2 minutes.
 Increases recovery from the heal skill and recovery items by 10%.
 Effect disappear upon death.
@@ -57276,9 +57474,9 @@ Effect disappear upon death.
 Weight: ^0EAA0B1^000000
 #
 12405#
-...
-Recovery HP/SP by 30%.
-Enables use of Level 3 ^008800Blessing^000000.
+A lesser seed of Yggdrasil.
+Restore HP and SP by 30%.
+Cast Level 3 ^008800Blessing^000000.
 ^FFFFFF_^000000
 Weight: ^0EAA0B5^000000
 #
@@ -57466,63 +57664,38 @@ Effect: ^008000Teleport all party members to random cell when used by a Party Le
 Weight: ^0EAA0B1^000000
 #
 12439#
-This well written,
-detailed manual
-explains effective
-battle methods.
+This well written, detailed manual explains effective battle methods.
 ^000088EXP rate increases to^000000
 ^000088150% for 30 minutes.^000000
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12440#
-A life insurance
-certificate issued
-by Kafra Headquarters.
-This item loses its
-effect once the player
-receives its benefit.
-If the character dies
-within 30 minutes
-after using this item,
-there will be no
-EXP loss penalty.
+A life insurance certificate issued by Kafra Headquarters.
+This item loses its effect once the player receives its benefit.
+If the character dies within 30 minutes after using this item, there will be no EXP loss penalty.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12441#
-Sweet, tasty bubble
-gum. Item drop rate
-increases by 100%
-for 30 minutes.
+Sweet, tasty bubble gum.
+Item drop rate increases by 100% for 30 minutes.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12442#
-A Kafra name card
-issued by the Kafra
-Headquarters. Using
-this card will call up
-the Kafra Service.
+A Kafra name card issued by the Kafra Headquarters.
+Using this card will call up the Kafra Service.
 ^FFFFFF_^000000
 ^ff0000This will open all 3 storages.^000000
 Weight: ^0EAA0B1^000000
 #
 12443#
-Pressing the button
-on this stick will
-flash blinding light
-that seems to cause
-memory loss. Resets
-the Skill Tree and
-gives the corresponding number of Skill Points.
-This item can only be
-used in town, and the
-character must carry
-0 weight, and cannot be equipped with a Pushcart,
-Falcon, or PecoPeco.
-Cannot be used by
-Novice Class.
+Pressing the button on this stick will flash blinding light that seems to cause memory loss.
+Resets the Skill Tree and gives the corresponding number of Skill Points.
+This item can only be used in town.
+The character must carry 0 weight, and cannot be equipped with a Pushcart, Falcon, or PecoPeco.
+Cannot be used by Novice Class.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
@@ -57537,64 +57710,51 @@ Nidhoggur
 Weight: ^0EAA0B1^000000
 #
 12445#
-A very pricey
-Louyang dish that
-tastes absolutely
-superb. STR +10,
-30 minute duration.
+The epitome of Louyang cuisine. It's ingredients may be hard to find, but culinarily speaking, it's a masterpiece.
 ^FFFFFF_^000000
+Class: ^0000FFUsable item^000000
+Effect: ^008000STR +10^000000
+Duration: ^00800030^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 12446#
-This scorpion dish
-is cooked with the
-heat of the desert
-sand, and is one of
-the four best dishes
-in Sograt Desert
-cuisine. AGI +10,
-30 minute duration.
+One of the four best dishes in the Sograt Desert, this scorpion dish is cooked using the heat of the desert sands.
 ^FFFFFF_^000000
+Class: ^0000FFUsable item^000000
+Effect: ^008000AGI +10^000000
+Duration: ^00800030^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 12447#
-A cocktail whose
-unforgettable flavor
-is as potent as the
-breath of a dragon.
-INT +10, 30 minute
-duration.
+A cocktail with an unforgettable flavor as impressive as a dragon's breath.
 ^FFFFFF_^000000
+Class: ^0000FFUsable item^000000
+Effect: ^008000INT +10^000000
+Duration: ^00800030^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 12448#
-This beverage is
-named after the
-legendary spring
-that is believed to
-be the source of the
-world's rivers, and
-is famous for its pure, amazing taste. DEX +10,
-30 minute duration.
+Named after the legendary spring believed to be the source of the world's rivers, this beverage is famous for its amazing taste.
 ^FFFFFF_^000000
+Class: ^0000FFUsable item^000000
+Effect: ^008000DEX +10^000000
+Duration: ^00800030^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 12449#
-A rare, specialty
-Payon dish that bestows luck to those fortunate
-enough to eat it. LUK +10, 30 minute duration.
+A rare specialty dish from Payon that bestows luck on those fortunate enough to eat it.
 ^FFFFFF_^000000
+Class: ^0000FFUsable item^000000
+Effect: ^008000LUK +10^000000
+Duration: ^00800030^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 12450#
-A funky smelling,
-suspicious looking
-stew that really does
-make you feel like
-an immortal when
-you eat it. VIT +10,
-30 minute duration.
+A stew with a funky smell that looks quite suspicious, but it really does give the feeling of immortality.
 ^FFFFFF_^000000
+Class: ^0000FFUsable item^000000
+Effect: ^008000VIT +10^000000
+Duration: ^00800030^000000 minutes
 Weight: ^0EAA0B1^000000
 #
 12451#
@@ -57645,150 +57805,83 @@ Increases your Perfect Dodge by 20 for 1 minute. Only one may be consumed per 5 
 Weight: ^0EAA0B1^000000
 #
 12458#
-An abrasive that
-adds sharpness to
-a weapon. Increases
-CRIT by 30
-for 5 minutes.
+An abrasive that adds sharpness to a weapon.
+Increases CRIT by 30 for 5 minutes.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12459#
-A sizeable bottle of
-Yggdrasil Tree Sap
-that is effective in
-healing wounds.
-Restores an amount of
-HP equal of 7% of your
-MaxHP every 4 seconds for a 10 minute duration.
+A sizeable bottle of Yggdrasil Tree Sap that is effective in healing wounds.
+Restores an amount of HP equal of 7% of your MaxHP every 4 seconds for a 10 minute duration.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12460#
-A sizeable bottle of
-Yggdrasil Tree Sap
-that is effective in
-healing wounds.
-Restores an amount of
-HP equal of 7% of your
-MaxHP every 4 seconds for a 10 minute duration.
+A sizeable bottle of Yggdrasil Tree Sap that is effective in healing wounds.
+Restores an amount of HP equal of 7% of your MaxHP every 4 seconds for a 10 minute duration.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12461#
-A magic potion made
-with alchemy and magic. A Rosary is rumored to
-be one of the secret
-ingredients in making
-this potion. Increases
-the HP recovery effect
-of some potions and
-the Heal skill by 20%
-for 30 minutes.
+A magic potion made with alchemy and magic.
+A Rosary is rumored tobe one of the secret ingredients in making this potion.
+Increases the HP recovery effect of some potions and the Heal skill by 20% for 30 minutes.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12462#
-A secret potion made
-using pixie mustache.
-Adds 3% resistance
-to Magical Attacks
-for 3 minutes.
+A secret potion made using pixie mustache.
+Adds 3% resistance to Magical Attacks for 3 minutes.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12463#
-A secret potion made
-using pixie mustache.
-Adds 3% resistance
-to Magical Attacks
-for 1 minute.
+A secret potion made using pixie mustache.
+Adds 3% resistance to Magical Attacks for 1 minute.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12464#
-A secret potion made
-using tough dragon
-scales. Adds 3%
-resistance to Physical
-Attacks for 3 minutes.
+A secret potion made using tough dragon scales.
+Adds 3% resistance to Physical Attacks for 3 minutes.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12465#
-A secret potion made
-using tough dragon
-scales. Adds 3%
-resistance to Physical
-Attacks for 1 minute.
+A secret potion made using tough dragon scales.
+Adds 3% resistance to Physical Attacks for 1 minute.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12466#
-A scroll in which
-a single use of
-Level 10 Blessing
-has been recorded.
-Caution-- This item
-won't work while your
-character is casting
-a spell or skill.
+A scroll in which a single use of Level 10 Blessing has been recorded.
+Caution-- This item won't work while your character is casting a spell or skill.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12467#
-A scroll in which
-a single use of
-Level 10 Increase AGI
-has been recorded.
-Caution-- This item
-won't work while your
-character is casting
-a spell or skill.
-This item consumes
-15 HP and will be
-ineffective if the
-character has fewer
-than 15 HP.
+A scroll in which a single use of Level 10 Increase AGI has been recorded.
+Caution-- This item won't work while your character is casting a spell or skill.
+This item consumes 15 HP and will be ineffective if the character has fewer than 15 HP.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12468#
-A scroll in which
-a single use of
-Level 5 Aspersio
-has been recorded.
-If there is no Holy
-Water, scroll will be
-damaged when used.
-Caution-- This item
-won't work while your
-character is casting
-a spell or skill.
+A scroll in which a single use of Level 5 Aspersio has been recorded.
+If there is no Holy Water, scroll will be damaged when used.
+Caution-- This item won't work while your character is casting a spell or skill.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12469#
-A scroll in which
-a single use of
-Level 5 Assumptio
-has been recorded.
-Caution-- This item
-won't work while your
-character is casting
-a spell or skill.
+A scroll in which a single use of Level 5 Assumptio has been recorded.
+Caution-- This item won't work while your character is casting a spell or skill.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12470#
-A scroll in which
-a single use of
-Level 10 Wind Walker
-has been recorded.
-Caution-- This item
-won't work while your
-character is casting
-a spell or skill.
+A scroll in which a single use of Level 10 Wind Walker has been recorded.
+Caution-- This item won't work while your character is casting a spell or skill.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
@@ -57812,14 +57905,12 @@ Lord of the Dead, and Boss Monsters in the Bio Lab, Ktullanux, Memory of Thanato
 Weight: ^0EAA0B1^000000
 #
 12473#
-...
-...
+A 2009 RWC payment box given to all participants of the event.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12474#
-...
-...
+A 2009 RWC payment box given to all final participants of the event.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
@@ -57829,30 +57920,17 @@ Recovers several kinds of abnormal statuses. Recovers small amount of HP.
 Weight: ^0EAA0B5^000000
 #
 12476#
-...
+A well wrapped gift box.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12477#
-Available for a limited time, this hat box contains costumes based on popular hats.
-Are you looking for a cute new headgear?
-When opened this box to receive one of the following:
-[Costume] Cake Hat
-[Costume] Gold Dragonhelm
-[Costume] Sakkat
-[Costume] Dark Blindfold
-[Costume] Angry Snarl
-[Costume] Cowboy Hat
-[Costume] Zorro Mask
-[Costume] Dagger in Mouth
-[Costume] Heart Eye Patch (NEW)
-[Costume] Full Moon (NEW)
-The box can be traded and vended, but the costume headgears are account bound.
-Weight: ^0EAA0B1^000000
+A gift box from GM that filled with sad heart.
+Weight: ^0EAA0B0^000000
 #
 12478#
-...
-...
+You can test your luck by oppening this box.
+Lucky egg, Lucky egg? Lucky egg? contain one of this.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
@@ -57864,37 +57942,37 @@ A box that contains 1 "Caracas Ring" inside. Available for 3 days.
 Weight: ^0EAA0B0^000000
 #
 12480#
-...
+'3Days attendance' are stamped on seal of this box.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12481#
-...
+'7Days attendance' are stamped on seal of this box.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12482#
-...
+'10Days attendance' are stamped on seal of this box.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12483#
-...
+'15Days attendance' are stamped on seal of this box.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12484#
-...
+'20Days attendance' are stamped on seal of this box.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12485#
-...
+'25Days attendance' are stamped on seal of this box.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
 12486#
-...
+A limited Gold PC Cafe box that contain 1 Ring.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
@@ -58133,9 +58211,6 @@ Weight: ^0EAA0B1^000000
 요리라고 말하기에도 미안한 기분까지 든다.
 Weight: ^0EAA0B5^000000
 #
-12547#
-[jRO item]
-#
 12548#
 A questionable license that allows you to open a Bulk Buyer Vending Shop. The Merchant Guild's stamp looks like it has been hand drawn.
 You must have at least 1 of the items in your inventory that you wish to Buy in Bulk from others.
@@ -58188,12 +58263,6 @@ Please give this box to the account that is to OWN the God item.
 Can be traded and put into storage.
 ^FF0000WARNING: This box has no contents if opened on the Valkyrie server.^000000
 Weight: ^0EAA0B100^000000
-#
-12559#
-
-#
-12560#
-
 #
 12561#
 A seed of the plants frequently found in the Maze of the Hazy Forest in Bifrost. It has a natural inclination to go back to its home, the Maze of the Hazy Forest.
@@ -59203,10 +59272,6 @@ Weight: ^0EAA0B0^000000
 A scroll that can summon Diabolic.
 Weight: ^0EAA0B1^000000
 #
-12788#
-#
-12789#
-#
 12790#
 Use this item to change your character's name on the Character Select menu.
 After using this item you must logout to the Character Select menu and Right-Click on your character and choose 'Change Name'
@@ -59215,15 +59280,10 @@ You can then enter a new name as long as it is not already taken.
 ^0000ffYou can use this item once and it is account bound^000000
 Weight: ^0EAA0B0^000000
 #
-12791#
-#
-12792#
-#
-12793#
-#
-12794#
-#
 12795#
+기간 한정 2011 RWC 기념 스크롤.
+고양이 귀 베레모, 빨간 빵 모자, 무기 8제련 보장권, 방어구 8제련 보장권, 인챈트 소개장, 피묻은 나뭇가지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
+무게 : ^7777771^000000
 #
 12796#
 A Magical booster which activates the body energy in order to combat better.
@@ -59236,34 +59296,91 @@ Follow the NPC below to make True Red Booster.
 Weight: ^0EAA0B1^000000
 #
 12797#
+The scroll can summon Wish Maiden.
+The mercenary will disappear when the character is unable to fight.
+Weight: ^0EAA0B1^000000
 #
 12798#
+The scroll can summon Zealotus.
+The mercenary will disappear when the character is unable to fight.
+Weight: ^0EAA0B1^000000
 #
 12799#
+잘 포장된 선물상자. 무엇이 들어있는지는 알 수 없다.
+무게 : ^7777771^000000
 #
 12800#
+The scroll can summon a Ktullanux.
+The mercenary will dissapear when character becomes combat ineffective.
+Weight: ^0EAA0B1^000000
 #
 12801#
+The scroll can summon an Eddga.
+The mercenary will disappear when the character is unable to fight.
+Weight: ^0EAA0B1^000000
 #
 12802#
+전투교범 5개, 풍선껌 5개, 생명보험증서 5개와 시간의 수호자쉴드, 부츠, 망토, 모자, 로브 각 1개 씩과, 메탈 카타르, 투핸드액스, 랜스, 북, 스태프, 대거, 메이스, 보우, 투핸드소드, 리볼버, 풍마수리검이 각 1개 씩이 들어있는 상자.
+무게 : ^7777770^000000
 #
 12803#
+초보자용 포션 300개, 초보자용 파리의 날개 100개, 초보자용 나비의 날개 20개, 초보자용 돋보기 10개와 화살통 5개가 담겨있는 상자.
+무게 : ^7777770^000000
 #
 12804#
+기간 한정 크루의 알.
+늘어진 고양이 크루, 링 오브 플레임로드, 무기 11제련 보장권, 방어구 11제련 보장권, 무기 9제련 보장권, 방어구 9제련 보장권, 인챈트 소개장, 피묻은 나뭇가지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
+무게 : ^7777771^000000
 #
 12805#
+뿌리면 잠시동안 몸이 매우 가벼워지는 신비한 파우더.
+5분간 FLEE + 20, LUK + 10.
+^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000
+무게 : ^7777771^000000
 #
 12806#
+몬스터  스카라바를 용병으로 소환 가능한 스크롤.
+용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.
+무게 : ^7777771^000000
 #
 12807#
+8Lv 검용병, 8Lv 창용병, 8Lv 활용병 소환할 수 있는 소환서를 각각 5장 씩 모아서 잘 말아둔 뭉치. 어머니의 마음 상자도 1개 들어있다.
+요구 레벨 : ^77777720^000000
+무게 : ^7777770^000000
 #
 12808#
+어머니의 마음이 1개가 들어있다. 14일간 사용가능.
+^ffffff_^000000
+^000088임대 아이템^000000
+이제 막 모험을 시작하는 점핑 이벤트 모험가들을 응원하는 마음이 담긴 따뜻한 반지. 
+몬스터 사냥시 획득 경험치 15% 증가. 
+ATK, MATK + 30. 
+"오토 가드" 3Lv, "큐어" 1Lv 사용가능. 
+계열 : ^777777악세사리^000000 방어 : ^7777770^000000
+무게 : ^7777770^000000
+요구 레벨 : ^7777771^000000
+제한 레벨 : ^777777120^000000
+장착 : ^777777전직업^000000
+(3월 마지막 정기점검 시, 일괄 삭제 됩니다)
+무게 : ^7777770^000000
 #
 12809#
+신속한 레벨업을 위해 꼭 필요한 준비물 상자.
+전투교범 5개, 풍선껌 5개, 생명보험증서 5개, 잡교범 5개가 담겨 있다.
+지금 개봉하면 지르타스 교환 티켓 상자도 1개 획득 가능!
+요구 레벨 : ^777777120^000000
+무게 : ^7777770^000000
 #
 12810#
+이그드라실의 열매가 3개 들어있는 상자. 거기에 덤으로 교환 티켓 로리루리, 마력깃든 카드첩, 무기 9제련 보장권, 방어구 9제련보장권 등등 여러가지 경품아이템들 중 하나가 랜덤 등장!
+무게 : ^7777771^000000
 #
 12811#
+이그드라실의 열매가 3개 들어있는 상자. 
+거기에 펫교환쿠폰상자 , 마력깃든 카드첩, 
+무기 7 ~ 9제련 보장권, 방어구 7 ~ 9제련보장권을 포함한 여러가지 경품아이템들 중 하나가 랜덤 등장!
+(이벤트 기간 이후, 해당 아이템은 삭제됩니다)
+무게 : ^7777771^000000
 #
 12812#
 A Snow White Leaf that is cold to the touch. Caution : This really is colder than snow.
@@ -59335,6 +59452,8 @@ When there is existing active merceneray, this scroll will not give effect.
 Weight: ^0EAA0B1^0000
 #
 12825#
+라그2의 귀여운 꽃잎 몬스터를 본딴 플립모자, 마력 깃든 카드첩, 포장된 가면, 보석함, 피묻은 나뭇가지 등등 여러가지 아이템 중 1종이 들어있다고 한다. 무엇이 나올진 알 수 없다.
+무게 : ^7777771^000000
 #
 12826#
 A Wind-Type Zodiac scroll
@@ -59377,28 +59496,18 @@ Follow the NPC below to make Gin Water of Life.
 Weight: ^0EAA0B5^000000
 #
 12833#
+하나의 집단의 결속력을 강화하는 듯한 이미지를 갖고 있다.  실제로 이 조각상을 본 사람들은 결속력이 튼튼해지는 것을 느낀다고 한다.
+무게 : ^77777750^000000
 #
 12834#
+기간 한정 언데드의 핵.
+죽은 자의 투구, 무기 11제련 보장권, 방어구 11제련 보장권, 낡은 카드첩(투구), 피묻은 나뭇가지, 토끼귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
+무게 : ^7777771^000000
 #
 12835#
-#
-12836#
-#
-12837#
-#
-12838#
-#
-12839#
-#
-12840#
-#
-12841#
-#
-12842#
-#
-12843#
-#
-12844#
+기간 한정 소녀의 마음.
+하트날개 헤어밴드, 낡은 카드첩(걸칠것), 천사의 날개귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
+무게 : ^7777771^000000
 #
 12845#
 Custom made butterfly wing for poor newbie ninjas.
@@ -59426,32 +59535,39 @@ A kit that combines various items. It even has cooking tools inside.
 Class: ^0000FFCooking item^000000
 Weight: ^0EAA0B1^000000
 #
-12850#
-#
-12851#
-#
-12852#
-#
-12853#
-#
 12854#
+꽃가지 여러개를 장인이 한땀한땀 정성스럽게 덧붙여 아주 풍성하게 만들었다.
+60분간 Flee 10, 완전회피 + 1 상승.
+^ffffff_^000000
+무게 : ^77777710^000000
 #
 12855#
+기간 한정 아루나펠츠 교국 스크롤.
+늘어진 교황모자, 무기 11제련 보장권, 방어구 11제련 보장권, 수호의 반지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
+무게 : ^7777771^000000
 #
 12856#
+이그드라실의 수액으로 여신 이둔의 사과를 모방하여 창조된 황금빛 사과. 누군가 반만 먹어버린 모양이다.
+^000088사용자의 HP 와 SP의 절반을 회복^000000시켜준다.
+재사용 대기시간 :  ^7777773초^000000
+무게 : ^77777730^000000
 #
 12857#
+이그드라실의 수액으로 여신 이둔의 사과를 모방하여 창조된 황금빛 사과. 정말 금으로 만들어진 듯 광택이 난다.
+^000088사용자의 HP 와 SP를 모두 회복^000000시켜준다.
+재사용 대기시간 :  ^7777775초^000000
+무게 : ^77777730^000000
 #
 12858#
+미드가르드의 알케미스트 포션학의 집대성. 현존하는 최고의 포션으로, 소량으로도 엄청난 효능을 보여준다. 신의 음료라고 불릴 정도로 호평.
+^000088사용자의 HP 와 SP를 모두 회복^000000시켜주며, 스스로에게 기리에 엘레이손 10Lv을 건다.
+재사용 대기시간 :  ^7777771초^000000
+무게 : ^7777773^000000
 #
 12860#
 Thanks to the mother of selfless giving, present it to your mother.
 Recover 50% HP & SP, and grant Level 3 Assumptio after used.
 Weight: ^0EAA0B20^000000
-#
-12861#
-#
-12862#
 #
 12863#
 Secret Room TE can summon a treasure chest.
@@ -59460,8 +59576,14 @@ Secret Room TE can summon a treasure chest.
 Weight: ^0EAA0B0^000000
 #
 12871#
+정체를 알 수 없는 작은 알. 겉껍질에 생긴 균열 사이로 화려한 색의 껍질이 한 겹 더 보인다!
+무게 : ^7777771^000000
 #
 12872#
+보다 효율적인 전투방법이 기록된 설명서 한정판!
+시키는 대로 하면 왠지 빨리 성장할 것 같다.
+^00008860분간 획득하는 경험치가 60% 증가한다.^000000
+무게 : ^7777771^000000
 #
 12873#
 Contains 10 TE White Slim Potion.
@@ -59891,25 +60013,10 @@ Kafra Item Mall Prize Box can not be dropped, carted, or sold. It can be Stored,
 Weight: ^0EAA0B1^000000
 #
 12924#
-A crate that contains ^0000CC5 Anniversary Destiny Boxes^000000 This item and the box inside is account bound.
-Description:
-^FFFFFF_^000000
-^0000FFS Class: Mini Glasses[1]^000000
-^00FF00A Class: Little Feather Hat^000000
-^00FF00A Class: Demon Mask^000000
-^00FF00A Class: Skull Cap^000000
-^00FF00B Class: 2000 Marvelous Medals^000000
-^0000CCB Class: 7 Battle Manual X3^000000
-^0000CCB Class: 800 KVM Medals^000000
-^0000CCB Class: Job Class Card Album^000000
-^CC0000C Class: Cancer Crown^000000
-^CC0000C Class: Cancer Diadem^000000
-^00CC00D Class: Expanded Party Buff Scroll Box^000000
-^FFFFFF_^000000
-^CC0000A Pack of 5 Lucky Boxes is also being offered.^000000
-^FFFFFF_^000000
-Weight: ^0EAA0B1^000000
-Box Weight: ^7777771^000000
+투명한 펫알 스크롤이 1개 들어있는 상자.
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+^ffffff_^000000
+무게 : ^7777771^000000
 #
 12925#
 A pack of consumables to
@@ -59922,24 +60029,10 @@ Kafra Item Mall Prize cannot be traded, dropped, or sold. It can be Stored.
 Weight: ^0EAA0B1^000000
 #
 12926#
-^0000CCAnniversary Destiny Box^000000, opening this up and get your prize! This item cannot be traded, but can be saved and opened at your leisure!
-Description:
-^FFFFFF_^000000
-^0000FFS Class: Mini Glasses[1]^000000
-^00FF00A Class: Little Feather Hat^000000
-^00FF00A Class: Demon Mask^000000
-^00FF00A Class: Skull Cap^000000
-^00FF00B Class: 2000 Marvelous Medals^000000
-^0000CCB Class: 7 Battle Manual X3^000000
-^0000CCB Class: 800 KVM Medals^000000
-^0000CCB Class: Job Class Card Album^000000
-^CC0000C Class: Cancer Crown^000000
-^CC0000C Class: Cancer Diadem^000000
-^00CC00D Class: Expanded Party Buff Scroll Box^000000
-^FFFFFF_^000000
-^CC0000A Pack of 5 Lucky Boxes is also being offered.^000000
-^FFFFFF_^000000
-Weight: ^0EAA0B1^000000
+투명한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+^ffffff_^000000
+무게 : ^7777771^000000
 #
 12927#
 A box containing 10 Level 5 Aspersio Scrolls.
@@ -59978,29 +60071,10 @@ opening this box.
 Weight: ^0EAA0B1^000000
 #
 12931#
-^CC0000Contains 5 Easter Lucky Packs^00000
-Description:
-^0000CCEasters Lucky Pack^000000, opening this up and get your prize! This item cannot be traded, but can be saved and opened at your leisure!
-^FFFFFF_^000000
-^0000FFS Class: Sunglasses [1]^000000
-^00FF00A Class: Party Hard Pack^000000
-^00FF00A Class: Mystical Card Album^000000
-^00FF00A Class: 1000 Marvelous Medals^000000
-^0000CCB Class: Rune Hairband^000000
-^0000CCB Class: 5 Battle Manual X3^000000
-^0000CCB Class: 400 KVM Medals^000000
-^0000CCB Class: Mischievous Fairy Ears^000000
-^CC0000C Class: Taurus Crown^000000
-^CC0000C Class: Taurus Diadem^000000
-^CC0000C Class: 30 HD Elunium^000000
-^CC0000C Class: 30 HD Oridecon^000000
-^CC0000C Class: Magnolia Hat^000000
-^00CC00D Class: Spirit Auger^000000
-^00CC00D Class: Slot Coupon^000000
-^00CC00D Class: MVP Hunt Box^000000
-^00CC00D Class: Party Buff Scroll Pack^000000
-^FFFFFF_^000000
-Weight: ^0EAA0B1^000000
+괴상한 모양의 펫알 스크롤이 1개 들어있는 상자.
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+^ffffff_^000000
+무게 : ^7777771^000000
 #
 12932#
 ^ff0000This package is tradeable.^000000
@@ -63872,7 +63946,7 @@ Jobs: ^6A5ACDSwordman^000000
 #
 13442#
 A very old parasol, it's unknown when this parasol was created.
-You can still the magic flowing inside.
+You can still feels the magic flowing inside.
 MATK +80, increase MATK for every refine.
 Enables use of Level 10 ^008800Soul Strike^000000.
 Class: ^6A5ACDOne-Handed Sword^000000
@@ -85977,15 +86051,16 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18580#
 A Crown woven from Yggdrasil's Branches which represents new life after a sacrifice.
-VIT +2, INT +2.
-Increases the effectiveness of received healing and your own healing by 1%.
-For each refine level up to +6, this percentage increases by 1.
-If refine level is +7 or higher, this percentage increases by 2.
+MDEF +3
+Increases restoration gained from Healing skills by 10%.
+Increases Healing skills by 2%.
+Refine Level +7: Increases Healing skills by 5%.
+Refine Level +9: Increases Healing skills by 3%.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF6^000000
+Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
-Level Requirement: ^0EAA0B70^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 18581#
@@ -86242,7 +86317,6 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18602#
 A slice of watermelon on a stick, it will make your mouth water.
-MDEF +4, Inflict 4% more damage to ^FF0000Fire^000000 property monsters.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDLower^000000
@@ -86453,9 +86527,6 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18626#
 A delectable frozen treat served with a cherry on top.
-MaxHP +300
-Enables use of Level 1 Frost Driver
-When refined to +7 or higher, Enables use of Level 5 Frost Driver
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
@@ -86488,13 +86559,13 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18629#
 A celebration hat for Desert Wolves, makes you feel like a member of the pack.
-15% damage to small-type monsters.
-With a pet desert wolf, additional 5% damage to small-type monsters.
-Adds 5% intimacy if the stat is close friends.
+MDEF +5
+Reduces damage taken from long range physical attacks by 5%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B30^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 18630#
@@ -86925,8 +86996,6 @@ Jobs: ^6A5ACDAll Class^000000
 #
 18671#
 A Christmas hairband. Sporting the face Christmas' most famous reindeer Rudolf.
-During the Christmas season, has a chance of casting Increase AGI when dealing physical attacks.
-Increases the healing potency of Carrots while worn.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
@@ -88808,7 +88877,7 @@ Jobs: ^6A5ACDAll classes^000000
 If you don't know how to decorated it, always keep it fresh so it stay beautiful.
 MATK +20
 Every refine increase MATK.
-When magically attacking, has chance to activate lv 10 soul drain.
+When attacking with Magical attacks, adds a chance to activate Level 10 Soul Drain.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -89152,7 +89221,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18880#
 Advanced Jao King Hat. You can read vaguely written by the emperor.
-All State +3.
+All Stats +3.
 MaxHP +5%, MaxSP +5%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
@@ -89770,8 +89839,10 @@ Jobs: ^6A5ACDAll classes^000000
 18970#
 A zodiac cat got fooled by rat, back to the moon to train.
 All stats +3
-Enables use of ^008800Level 1 Monster's Cry^000000.
-Every two refine, reduce variable cast delay by 1%.
+Enables use of Level 1 [Monster's Cry].
+Reduces delay after skill by 5%.
+Reduces variable cast time by 5%.
+Every two refine, reduces variable cast delay and delay after skill by 1%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
@@ -90130,14 +90201,21 @@ Jobs: ^6A5ACDAll classes^000000
 #
 19026#
 A Helmet from Aegir, god of Ocean. If the whole set of Egir are gathered, it will show the power of the Sea.
-[+^008800Aegir Armor^000000]
-Decreases 10% damage from Fish type enemy.
-Additional decrease of damage by 1%, per refinement of the armor.
+VIT +3
+[^6A5ACDAegir set^000000]
+^008800Aegir Helm^000000
+^008800Aegir Manteau^000000
+^008800Aegir Shoes^000000
+MaxHP +1000
+MaxSP +100
+Increases experience gained from killing Fish monsters by 20%.
+Increases physical and magical attacks inflicted on Fish monsters by 50%.
+Increases resistance against Water property attacks by 50%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B80^000000
-Level Requirement: ^0EAA0B110^000000
+Level Requirement: ^0EAA0B40^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 19027#
@@ -98143,6 +98221,46 @@ Weight: ^0EAA0B0^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+20448#
+A costume that gives calm feeling of water that.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDLower^000000
+Weight: ^0EAA0B0^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20449#
+A black and white cat that sit comfortably on top of head.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20450#
+A beautiful magician hat with flower on it.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20451#
+A beautiful magician hat with flower on it.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20452#
+A crown that worn by a prince from strawberry kingdom.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 20458#
 먹자 몬스터 2인방이 팀을 이뤘다!
 둘이 뭉쳐, 아이템에 대한 물욕이 더욱 높아진 듯한 모습이다.
@@ -98619,14 +98737,14 @@ Level Requirement: ^0EAA0B170^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 20756#
-Egir, the God of Sea's Helm. It is said to protect wearer with sacred power of the Sea.
-^702180Indestructible^000000
+Manteau of sea god. It is said to protect wearer with sacred power of the Sea.
 MaxHP +500
 MaxSP +50
-Recovers 10 SP every time defeating Fish monster with melee attack, when equipping Egir Helm and Egir Cloak together..
+^702180Indestructible^000000
+Recovers 10 SP every time defeating Fish monster with melee attack, when equipping Aegir Helm and Aegir Manteau together.
 Sushi or Raw Fish drops at a certain rate when killing Fish monster.
 Sushi and Raw Fish's HP recovery increases by 5%
-HP recovery increases by 5% per Cloak Refinement. Drop rate also increases.
+HP recovery increases by 5% per Manteau Refinement. Drop rate also increases.
 Class: ^6A5ACDGarment^000000
 Defense: ^0000FF10^000000
 Weight: ^0EAA0B30^000000
@@ -99522,10 +99640,10 @@ Jobs: ^6A5ACDAll classes^000000
 #
 22059#
 Egir, the God of Sea's Shoes. It seems to strengthen one's weakness.
+MaxHP +500
+MaxSP +50
 ^702180Indestructible^000000
-MaxHP +500.
-MaxSP +50.
-Increases Critical by 10 at Fish type enemy, when equipping Egir Helm and Egir Shoes together.
+Increases Critical by 10 at Fish type enemy, when equipping Aegir Helm and Aegir Shoes together.
 Increases Critical at Fish type enemy by 1%, per refinement of the Shoes.
 Class: ^6A5ACDFootgear^000000
 Defense: ^0000FF13^000000
@@ -100253,8 +100371,15 @@ A box contains for example 2 Blacksmith's Blessing, 1 Seagod's Anger, 1 Enchante
 Weight: ^0EAA0B1^000000
 #
 22735#
-Edition limited sealed moonlight flower Scroll.
-Sealed moonlight flower card, Safe to 9 Weapon Certificate, Safe to 9 Armor Certificate, Infinity Shadow Earring, Costume: Alive Ten Gallon Hat Of Flame, Infinite Giant Fly Wing Box V, Blacksmith's Blessing, Gold and other rare items, only can get one of the items.
+A limited edition of sealed moonlight flower Scroll. Contain one of:
+Sealed moonlight flower card
+Safe to 9 Weapon Certificate
+Safe to 9 Armor Certificate
+Infinity Shadow Earring
+Costume Lolita Ten Gallon Hat
+Infinite Giant Fly Wing Box V
+Blacksmith's Blessing
+Gold and other rare items.
 Weight: ^0EAA0B1^000000
 #
 22736#
@@ -100656,7 +100781,17 @@ Weight: ^0EAA0B10^000000
 #
 22868#
 A Box containing stone that can enchant a slot-specific costumes equipment.
-New enchant stones: ASPD Stone(Garment), Attack Stone(Upper), Magic Stone(Upper), Strength Stone(Middle), Intelligence Stone(Middle), Agility Stone(Middle), Dexterity Stone(Middle), Vitality Stone(Middle), Lucky Stone(Middle), HP Stone(Lower).
+New enchant stones:
+ASPD Stone(Garment)
+Attack Stone(Upper)
+Magic Stone(Upper)
+Strength Stone(Middle)
+Intelligence Stone(Middle)
+Agility Stone(Middle)
+Dexterity Stone(Middle)
+Vitality Stone(Middle)
+Lucky Stone(Middle)
+HP Stone(Lower).
 Older enchanted stones costumes are also included.
 Weight: ^0EAA0B1^000000
 #
@@ -107345,64 +107480,64 @@ MATK +27%, 고정 캐스팅 0.9초 감소.
 MATK +33%, 고정 캐스팅 1초 감소.
 #
 29081#
-크리티컬 데미지 +10%, CRIT +3.
+Critical damage +10%, CRIT +3.
 #
 29082#
-크리티컬 데미지 +20%, CRIT +6.
+Critical damage +20%, CRIT +6.
 #
 29083#
-크리티컬 데미지 +30%, CRIT +9.
+Critical damage +30%, CRIT +9.
 #
 29084#
-크리티컬 데미지 +40%, CRIT +12.
+Critical damage +40%, CRIT +12.
 #
 29085#
-크리티컬 데미지 +50%, CRIT +15.
+Critical damage +50%, CRIT +15.
 #
 29086#
-크리티컬 데미지 +60%, CRIT +18.
+Critical damage +60%, CRIT +18.
 #
 29087#
-크리티컬 데미지 +70%, CRIT +21.
+Critical damage +70%, CRIT +21.
 #
 29088#
-크리티컬 데미지 +80%, CRIT +24.
+Critical damage +80%, CRIT +24.
 #
 29089#
-크리티컬 데미지 +90%, CRIT +27.
+Critical damage +90%, CRIT +27.
 #
 29090#
-크리티컬 데미지 +110%, CRIT +30.
+Critical damage +110%, CRIT +30.
 #
 29091#
-활 공격력 +4%, 공격속도 증가.(공격 후딜레이 1% 감소) 
+Bow damage +4%, ASPD +1%.
 #
 29092#
-활 공격력 +8%, 공격속도 증가.(공격 후딜레이 2% 감소) 
+Bow damage +8%, ASPD +2%.
 #
 29093#
-활 공격력 +12%, 공격속도 증가.(공격 후딜레이 3% 감소) 
+Bow damage +12%, ASPD +3%.
 #
 29094#
-활 공격력 +16%, 공격속도 증가.(공격 후딜레이 4% 감소) 
+Bow damage +16%, ASPD +4%.
 #
 29095#
-활 공격력 +20%, 공격속도 증가.(공격 후딜레이 5% 감소) 
+Bow damage +20%, ASPD +5%.
 #
 29096#
-활 공격력 +24%, 공격속도 증가.(공격 후딜레이 6% 감소) 
+Bow damage +24%, ASPD +6%.
 #
 29097#
-활 공격력 +28%, 공격속도 증가.(공격 후딜레이 7% 감소) 
+Bow damage+28%, ASPD +7%.
 #
 29098#
-활 공격력 +32%, 공격속도 증가.(공격 후딜레이 8% 감소) 
+Bow damage +32%, ASPD +8%.
 #
 29099#
-활 공격력 +36%, 공격속도 증가.(공격 후딜레이 9% 감소) 
+Bow damage +36%, ASPD +9%.
 #
 29100#
-활 공격력 +44%, 공격속도 증가.(공격 후딜레이 10% 감소) 
+Bow damage +44%, ASPD +10%.
 #
 29101#
 MaxHP +5%, DEF +15.
@@ -107435,34 +107570,34 @@ MaxHP +45%, DEF +135.
 MaxHP +55%, DEF +150.
 #
 29111#
-힐량 +5%, MDEF +3.
+Healing +5%, MDEF +3.
 #
 29112#
-힐량 +10%, MDEF +6.
+Healing +10%, MDEF +6.
 #
 29113#
-힐량 +15%, MDEF +9.
+Healing +15%, MDEF +9.
 #
 29114#
-힐량 +20%, MDEF +12.
+Healing +20%, MDEF +12.
 #
 29115#
-힐량 +25%, MDEF +15.
+Healing +25%, MDEF +15.
 #
 29116#
-힐량 +30%, MDEF +18.
+Healing +30%, MDEF +18.
 #
 29117#
-힐량 +35%, MDEF +21.
+Healing +35%, MDEF +21.
 #
 29118#
-힐량 +40%, MDEF +24.
+Healing +40%, MDEF +24.
 #
 29119#
-힐량 +45%, MDEF +27.
+Healing +45%, MDEF +27.
 #
 29120#
-힐량 +55%, MDEF +30.
+Healing +55%, MDEF +30.
 #
 29121#
 ATK +20, HIT +2, MaxHP +300.
@@ -107606,85 +107741,88 @@ MaxHP +5%, MaxSP +5%.
 Weight: ^0EAA0B0^000000
 #
 29154#
-고정 캐스팅 0.3초 감소
+Reduce fixed cast time by 0.3 sec.
 #
 29155#
-물리 공격시, 1%의 확률로 적에게 렉스 에테르나 Lv 1 발동.
+Adds 1% chance to auto cast Level 1 [Lex Aeterna] on enemey when attacked by physical attacks.
 #
 29156#
-변동 캐스팅 3% 감소.
-[변동 캐스팅 감소] 중단, 하단과 함께 착용시, 변동 캐스팅 6% 추가 감소.
+Reduce variable cast time by 3%.
+When equipped with [Reduce Variable Cast] Middle and Lwer, Reduce variable cast time by 6%.
 #
 29157#
-변동 캐스팅 3% 감소.
+Reduce variable cast time by 3%.
 #
 29158#
-변동 캐스팅 3% 감소.
+Reduce variable cast time by 2%.
 #
 29159#
-몬스터를 죽였을 시, 획득 경험치 2% 증가.
-[경험치+2%] 중단, 하단과 함께 착용시, 몬스터를 죽였을 시 경험치 3% 추가 증가.
+Increases experience gained from killing a monster by 2%.
+When equipped with [Experience+2%] Middle and Lower, increases experience gained from killing a monster by 3%.
 #
 29160#
-블루 오오라 이펙트
+Blue Aura Effect
 #
 29161#
-핑크 글로우 이펙트
+Pink Glow Effect
 #
 29162#
-쉐도우 이펙트
+Shadow Effect
 #
 31016#
-MaxHP +1000, MaxSP +150, FLEE -25.
-계열 : ^777777카드^000000
-장착 : ^777777갑옷^000000
+MaxHP +1000
+MaxSP +150
+FLEE -25
+Class: ^6A5ACDCard^000000
+Compound on: ^00C33CArmor^000000
 Weight: ^0EAA0B1^000000
 #
 31017#
 ATK +1%, MATK +1%, MaxHP -2%.
-2제련 당, ATK +1%, MATK +1%, MaxHP -2% 씩 추가.
-계열 : ^777777카드^000000
-장착 : ^777777신발^000000
+Every 2 refine level increment, ATK +1%, MATK +1%, MaxHP -2%.
+Class: ^6A5ACDCard^000000
+Compound on: ^9D9F00Footgear^000000
 Weight: ^0EAA0B1^000000
 #
 31018#
 MaxHP -1225.
-마법공격 시, 적에게 높은 확률로 저주를 건다.
-계열 : ^777777카드^000000
-장착 : ^777777무기^000000
+Adds a high chance to inflict [Curse] on enemy when dealing magical attacks.
+Class: ^6A5ACDCard^000000
+Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 31019#
 MaxHP -13%.
-마법 공격을 받을 시, 적에게 높은 확률로 저주를 건다.
-계열 : ^777777카드^000000
-장착 : ^777777악세사리^000000
+Adds a high chance to inflict [Curse] on attacker when attacked by magical attacks.
+Class: ^6A5ACDCard^000000
+Compound on: ^B40088Accessory^000000
 Weight: ^0EAA0B1^000000
 #
 31020#
 MaxHP -13%.
-물리 공격을 받을 시, 적에게 높은 확률로 저주를 건다.
-계열 : ^777777카드^000000
-장착 : ^777777악세사리^000000
+Adds a high chance to inflict [Curse] on attacker when attacked by physical attacks.
+Class: ^6A5ACDCard^000000
+Compound on: ^B40088Accessory^000000
 Weight: ^0EAA0B1^000000
 #
 31021#
-ASPD +10%, ATK -3%.
-계열 : ^777777카드^000000
-장착 : ^777777무기^000000
+ASPD +10%
+ATK -3%
+Class: ^6A5ACDCard^000000
+Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
 31022#
 MaxSP +20%.
-물리, 마법 공격 시 드물게 자기자신에게 저주를 건다.
-계열 : ^777777카드^000000
-장착 : ^777777신발^000000
+Adds a chance to inflict [Curse] on wearer when dealing physical and magical attacks.
+Class: ^6A5ACDCard^000000
+Compound on: ^9D9F00Footgear^000000
 Weight: ^0EAA0B1^000000
 #
 31023#
-MATK +10%. 
-마법 공격 시, 일정 확률로 자신을 중심으로 화면 전체의 적에게 "치명적인 상처"를 건다.
-계열 : ^777777카드^000000
-장착 : ^777777무기^000000
+MATK +10%.
+Adds a chance to inflict [Fatal Wound] to all enemies on screen when dealing magical attacks.
+Class: ^6A5ACDCard^000000
+Compound on: ^FF0000Weapon^000000
 Weight: ^0EAA0B1^000000
 #
