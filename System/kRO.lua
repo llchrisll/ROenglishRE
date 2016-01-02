@@ -11318,20 +11318,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[22808] = {
-		unidentifiedDisplayName = "스페셜 기프트 박스",
-		unidentifiedResourceName = "포장된상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "스페셜 기프트 박스",
-		identifiedResourceName = "포장된상자",
-		identifiedDescriptionName = {
-			"미드가르드 대륙의 모험가들을 응원하는 선물세트!",
-			"아이템 소지창을 넉넉히 한 뒤 개봉하는 것이 좋다.",
-			"Weight: ^0EAA0B10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[22812] = {
 		unidentifiedDisplayName = "봉인된 드라큐라 스크롤",
 		unidentifiedResourceName = "지혜스크롤",

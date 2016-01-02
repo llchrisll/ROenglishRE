@@ -10826,7 +10826,7 @@ Inflicts 5% additional damage on Undead monsters and 10% additional damage on Ea
 Class: ^6A5ACDClaw^000000
 Attack: ^D80000110^000000
 Weight: ^0EAA0B45^000000
-Property: ^7BCC70Wind^0000
+Property: ^7BCC70Wind^000000
 Weapon Level: ^0EAA0B4^000000
 Level Requirement: ^0EAA0B36^000000
 Jobs: ^6A5ACDPriest and Monk^000000
@@ -10879,7 +10879,7 @@ Inflicts 5% additional damage on Undead monsters and 10% additional damage on Ea
 Class: ^6A5ACDClaw^000000
 Attack: ^D80000159^000000
 Weight: ^0EAA0B0^000000
-Property: ^7BCC70Wind^0000
+Property: ^7BCC70Wind^000000
 Weapon Level: ^0EAA0B4^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDPriest and Monk^000000
@@ -12079,7 +12079,7 @@ Ignores Physical Defense of Demihuman monsters by 20%.
 ^888888-------------------------^000000
 ^702180Indestructible^000000
 ^888888-------------------------^000000
-Class: ^6A5ACDWhip^00000
+Class: ^6A5ACDWhip^000000
 Attack: ^D8000050^000000
 Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B3^000000
@@ -12212,7 +12212,7 @@ A whip that is made by the Eden Group. It is suitable for those who have more ad
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
-Class: ^6A5ACDWhip^00000
+Class: ^6A5ACDWhip^000000
 Attack: ^D80000125^000000
 Weight: ^0EAA0B0^000000
 Weapon Level: ^0EAA0B3^000000
@@ -40695,7 +40695,7 @@ Increases long range physical attack by 4%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF12^000000
 Location: ^6A5ACDUpper, Middle^000000
-Weight: ^0EAA0B10^0000
+Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACDRanger^000000
 #
@@ -42403,9 +42403,13 @@ Jobs: ^6A5ACDAll classes^000000
 5881#
 Yummy beer made of wheat and yeast. A secret recipe has been developed for hundreds of years.
 Note: You can be drunken because its taste is so so good!
-MaxHP +3%, MaxSP +3%, DEX -10.
+^888888-------------------------^000000
+MaxHP +3%, MaxSP +3%
+DEX -10
+^888888-------------------------^000000
 With more than 6 refine level, MaxHP +5%, MaxSP +5%, DEX -5.
 When equipped, you're doing someething strange because you're drunken.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
@@ -42416,21 +42420,46 @@ Jobs: ^6A5ACDAll classes^000000
 [idRO item]
 #
 5888#
-[jRO item]
+A transparent veil worn by brides on the day of their wedding.
+^888888-------------------------^000000
+MDEF +5
+^888888-------------------------^000000
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B10^000000
+Jobs: ^6A5ACDFemale Only;
+All classes^000000
 #
 5889#
-[jRO item]
+A true Orc Hero's headgear. It's so big and heavy that it might hurt your neck.
+^888888-------------------------^000000
+STR +2
+^888888-------------------------^000000
+Nullify reduction in damage inflicted on monsters resulting from monster's size.
+^888888-------------------------^000000
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF5^000000
+Location: ^6A5ACDUpper, Middle^000000
+Weight: ^0EAA0B90^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5890#
 An earring collected from the wings of Angel.
-All stats +1.
-MDEF +3.
-+Luna's Blessing,
+^888888-------------------------^000000
+All stats +1
+MDEF +3
+^888888-------------------------^000000
+[+^008800Luna's Blessing^000000]
 Increase damage to all races by 3%.
-+Safety Ring,
-DEF +7, MDEF +7.
-+Critical Ring,
-CRIT +7.
+^888888-------------------------^000000
+[+^008800Safety Ring^000000]
+DEF +7
+MDEF +7
+^888888-------------------------^000000
+[+^008800Critical Ring^000000]
+CRIT +7
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDMiddle^000000
@@ -42440,9 +42469,12 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5891#
 A hat decorated with black cat.
-When dealing physical or magical attacks, adds chance to auto cast Level 5 Scream.
+^888888-------------------------^000000
+When dealing physical or magical attacks, adds chance to auto cast Level 5 [Scream].
+^888888-------------------------^000000
 When equipped with Romantic Leaf or Flower:
 All Stats +1
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF7^000000
 Location: ^6A5ACDUpper^000000
@@ -42451,13 +42483,19 @@ Level Requirement: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5897#
-All Stats +10
-MaxHP/SP +15%
-ATK/MATK +15%
-Hit/Flee/CRIT +20
-Perfect Dodge +10
-Reduces variable cast time by 20%
-Reduces 'Neutral' property damage by 5%.
+A copy of the legendary artifact left behind by the greatest Super Novice to ever walk the earth.
+The real one has been lost for ages, but this replica can imitate some of its awesome power.
+^888888-------------------------^000000
+ATK +30, MATK +30
+HIT, FLEE, CRI, MDEF +10.
+Perfect Dodge +5.
+ASPD +2.
+Reduces Variable Cast Time by 20%
+Reduce 5% damage from Neutral Property.
+^888888-------------------------^000000
+If upgraded to +7 or higher, MaxHP +1000, MaxSP +100.
+If upgraded to +9 or higher, All Stats +5.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF20^000000
 Location: ^6A5ACDUpper^000000
@@ -42467,10 +42505,14 @@ Jobs: ^6A5ACDSuper Novice^000000
 #
 5898#
 A hairband with an array of autumn leaves attached to it. It displays the beauty of an autumn forest for all to see.
-When using the skill Wind Walk, SP consumption -20.
+^888888-------------------------^000000
+Reduces SP consumption of [Wind Walk] by 20.
+^888888-------------------------^000000
 Increase long distance Physical attack by 5%.
+^888888-------------------------^000000
 If upgraded to +7 or higher, increases ATK by 2 for every 5 base INT
 If upgraded to +9 or higher, increases Arrow Storm damage additionally by 2% for every its BaseLV 10.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
@@ -59409,33 +59451,33 @@ Weight: ^0EAA0B1^000000
 12816#
 An old and dirty box. There are sounds of some ores inside it.
 It's possible to get Old Card Album from it.
-Level Requirement: ^0EAA0B60^0000.
-Weight: ^0EAA0B0^0000
+Level Requirement: ^0EAA0B60^000000
+Weight: ^0EAA0B0^000000
 #
 12817#
 An album that contain random card.
-Level Requirement: ^0EAA0B80^0000.
-Weight: ^0EAA0B0^0000
+Level Requirement: ^0EAA0B80^000000
+Weight: ^0EAA0B0^000000
 #
 12818#
 A box contain variety of advanced equipments.
-Level Requirement: ^0EAA0B100^0000.
-Weight: ^0EAA0B0^0000
+Level Requirement: ^0EAA0B100^000000
+Weight: ^0EAA0B0^000000
 #
 12819#
 A box contain Zherlthsh Exchange Ticket.
-Level Requirement: ^0EAA0B150^0000.
-Weight: ^0EAA0B1^0000
+Level Requirement: ^0EAA0B150^000000
+Weight: ^0EAA0B1^000000
 #
 12820#
 A scroll that can summon Nine Tail mercenary.
 When there is existing active merceneray, this scroll will not give effect.
-Weight: ^0EAA0B1^0000
+Weight: ^0EAA0B1^000000
 #
 12821#
 A scroll that can summon Loli Ruri mercenary.
 When there is existing active merceneray, this scroll will not give effect.
-Weight: ^0EAA0B1^0000
+Weight: ^0EAA0B1^000000
 #
 12822#
 A box has 50 pcs of rice cake.
@@ -59444,12 +59486,12 @@ Weight: ^0EAA0B1^000000
 12823#
 A scroll that can summon Sedora mercenary.
 When there is existing active merceneray, this scroll will not give effect.
-Weight: ^0EAA0B1^0000
+Weight: ^0EAA0B1^000000
 #
 12824#
 A scroll that can summon Deviruchi mercenary.
 When there is existing active merceneray, this scroll will not give effect.
-Weight: ^0EAA0B1^0000
+Weight: ^0EAA0B1^000000
 #
 12825#
 라그2의 귀여운 꽃잎 몬스터를 본딴 플립모자, 마력 깃든 카드첩, 포장된 가면, 보석함, 피묻은 나뭇가지 등등 여러가지 아이템 중 1종이 들어있다고 한다. 무엇이 나올진 알 수 없다.
@@ -100588,8 +100630,8 @@ Weight: ^0EAA0B20^000000
 Weight: ^0EAA0B1^000000
 #
 22808#
-미드가르드 대륙의 모험가들을 응원하는 선물세트!
-아이템 소지창을 넉넉히 한 뒤 개봉하는 것이 좋다.
+A set of gifts to help the adventurers of the continent of midgard!
+You will get various nice items once you open it.
 Weight: ^0EAA0B10^000000
 #
 22812#
@@ -107748,7 +107790,7 @@ Adds 1% chance to auto cast Level 1 [Lex Aeterna] on enemey when attacked by phy
 #
 29156#
 Reduce variable cast time by 3%.
-When equipped with [Reduce Variable Cast] Middle and Lwer, Reduce variable cast time by 6%.
+When equipped with [Reduce Variable Cast] Middle and Lower, Reduce variable cast time by 6%.
 #
 29157#
 Reduce variable cast time by 3%.
