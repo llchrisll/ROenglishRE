@@ -1,250 +1,4 @@
 tbl = {
-	[1691] = {
-		unidentifiedDisplayName = "One-Handed Staff",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "신묘한 강아지풀 지팡이",
-		identifiedResourceName = "잠자리앉은강아지풀",
-		identifiedDescriptionName = {
-			"잠자리와 강아지풀이 이제 완전히 한몸이 되버린 풀.",
-			"MATK +240",
-			"MaxSP +100",
-			"제련도 3당 MATK +2%, MaxSP +1%씩 증가.",
-			"",
-			"- 도람족 무기 전용 옵션 -",
-			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
-			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
-			"(10제련까지 적용)",
-			"",
-			"Class: ^6A5ACDOne-Handed Staff^000000",
-			"Attack: ^D80000100^000000",
-			"Weight: ^0EAA0B50^000000",
-			"Weapon Level: ^0EAA0B3^000000",
-			"Level Requirement: ^0EAA0B100^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 2,
-		ClassNum = 100
-	},
-	[1692] = {
-		unidentifiedDisplayName = "One-Handed Staff",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "마력의 강아지풀 지팡이",
-		identifiedResourceName = "잠자리앉은강아지풀",
-		identifiedDescriptionName = {
-			"잠자리와 강아지풀의 묘한 마력의 시너지가 느껴지는 풀.",
-			"MATK +260",
-			"MaxSP +100",
-			"제련도 2당 MATK +2%, MaxSP +1%씩 증가.",
-			"",
-			"- 도람족 무기 전용 옵션 -",
-			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
-			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
-			"(10제련까지 적용)",
-			"",
-			"Class: ^6A5ACDOne-Handed Staff^000000",
-			"Attack: ^D80000120^000000",
-			"Weight: ^0EAA0B60^000000",
-			"Weapon Level: ^0EAA0B3^000000",
-			"Level Requirement: ^0EAA0B140^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 2,
-		ClassNum = 100
-	},
-	[1693] = {
-		unidentifiedDisplayName = "One-Handed Staff",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "마력의 노랑 강아지풀 지팡이",
-		identifiedResourceName = "마력의노랑강아지풀",
-		identifiedDescriptionName = {
-			"잠자리가 앉은 노랗게 잘 익어버린 강아지 풀.",
-			"MATK +280",
-			"제련도 2당 MATK +3%.",
-			"[새우의 신선함] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [아크라우스 대시] 1레벨 발동, [아쿠라우스 대시] 스킬 습득시 습득한 레벨로 발동",
-			"[개다래 줄기창] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.",
-			"",
-			"- 도람족 무기 전용 옵션 -",
-			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
-			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
-			"(10제련까지 적용)",
-			"",
-			"Class: ^6A5ACDOne-Handed Staff^000000",
-			"Attack: ^D80000140^000000",
-			"Weight: ^0EAA0B70^000000",
-			"Weapon Level: ^0EAA0B4^000000",
-			"Level Requirement: ^0EAA0B175^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 99
-	},
-	[1694] = {
-		unidentifiedDisplayName = "One-Handed Staff",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "강아지풀 모형",
-		identifiedResourceName = "커다란강아지풀",
-		identifiedDescriptionName = {
-			"플라스틱으로 만들어진 강아지풀 형태의 모형.",
-			"Long ranged physical damage +8%.",
-			"MaxHP +100.",
-			"제련도 3당 DEX +2, MaxSP +10씩 증가.",
-			"Class: ^6A5ACDOne-Handed Staff^000000",
-			"Attack: ^D80000150^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Weapon Level: ^0EAA0B2^000000",
-			"Level Requirement: ^0EAA0B60^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 3,
-		ClassNum = 100
-	},
-	[1695] = {
-		unidentifiedDisplayName = "One-Handed Staff",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "섬세한 강아지풀 모형",
-		identifiedResourceName = "커다란강아지풀",
-		identifiedDescriptionName = {
-			"섬세하게 만들어진 강아지풀 형태의 모형.",
-			"Long ranged physical damage +8%, MaxHP +200.",
-			"제련도 3당 DEX +3, MaxSP +15씩 증가.",
-			"",
-			"- 도람족 무기 전용 옵션 -",
-			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
-			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
-			"(10제련까지 적용)",
-			"",
-			"Class: ^6A5ACDOne-Handed Staff^000000",
-			"Attack: ^D80000195^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Weapon Level: ^0EAA0B3^000000",
-			"Level Requirement: ^0EAA0B100^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 2,
-		ClassNum = 100
-	},
-	[1696] = {
-		unidentifiedDisplayName = "One-Handed Staff",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "정교한 강아지풀 모형",
-		identifiedResourceName = "커다란강아지풀",
-		identifiedDescriptionName = {
-			"아주 정교하게 만들어진 강아지풀 형태의 모형.",
-			"Long ranged physical damage +8%, MaxHP +5%.",
-			"제련도 2당 DEX +3, MaxSP +15씩 증가.",
-			"",
-			"- 도람족 무기 전용 옵션 -",
-			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
-			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
-			"(10제련까지 적용)",
-			"",
-			"Class: ^6A5ACDOne-Handed Staff^000000",
-			"Attack: ^D80000240^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Weapon Level: ^0EAA0B3^000000",
-			"Level Requirement: ^0EAA0B140^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 2,
-		ClassNum = 100
-	},
-	[1697] = {
-		unidentifiedDisplayName = "One-Handed Staff",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "정교한 노랑 강아지풀 모형",
-		identifiedResourceName = "정교한노랑강아지풀모형",
-		identifiedDescriptionName = {
-			"아주 정교하게 만들어진 노랑 강아지풀 형태의 모형.",
-			"Long ranged physical damage +9%, MaxHP +7%.",
-			"제련도 2당 Long ranged physical damage+ 1%, MaxSP +20씩 증가.",
-			"[픽키 마구쪼기] 스킬 사용 시 일정 확률로 자신에게 오토스펠 [새우의 신선함] 1레벨 발동, [새우의 신선함] 스킬 습득시 습득한 레벨로 발동.",
-			"",
-			"- 도람족 무기 전용 옵션 -",
-			"7제련 시, 무기의 순수 ATK&MATK 40%만큼 증가.",
-			"7제련부터 1제련 상승 시, 무기의 순수 ATK&MATK 20%만큼 추가 증가.",
-			"(10제련까지 적용)",
-			"",
-			"Class: ^6A5ACDOne-Handed Staff^000000",
-			"Attack: ^D80000270^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Weapon Level: ^0EAA0B4^000000",
-			"Level Requirement: ^0EAA0B175^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 99
-	},
-	[1699] = {
-		unidentifiedDisplayName = "One-Handed Staff",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "P.강아지풀Ⅰ",
-		identifiedResourceName = "길다란강아지풀",
-		identifiedDescriptionName = {
-			"낙원단에서 자체 제작한 강아지풀. 초보 소환사를 위한 기본 아이템. ",
-			"DEX+ 3, INT +3 , MATK +135.",
-			"원거리 공격력 5%.",
-			"^FF0000Unrefineable^000000",
-			"Class: ^6A5ACDOne-Handed Staff^000000",
-			"Attack: ^D80000120^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Weapon Level: ^0EAA0B2^000000",
-			"Level Requirement: ^0EAA0B26^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 0,
-		ClassNum = 100
-	},
-	[5771] = {
-		unidentifiedDisplayName = "Hat",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "Family Hat",
-		identifiedResourceName = "케이크모자",
-		identifiedDescriptionName = {
-			"가족에 대한 당신의 사랑을 보여주세요!",
-			"DEX +1, MDEF +1",
-			"MaxHP +2%, MaxSP +2%",
-			"마니피캇 1LV 사용 가능",
-			"Class: ^6A5ACDHeadgear^000000",
-			"Defense: ^0000FF3^000000",
-			"Location: ^6A5ACDUpper^000000",
-			"Weight: ^0EAA0B10^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 650
-	},
-	[5794] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "3D Glasses",
-		identifiedResourceName = "3D안경",
-		identifiedDescriptionName = {
-			"^000088임대 아이템^000000",
-			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
-			"INT +1, MDEF +2.",
-			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
-			"Class: ^6A5ACDHeadgear^000000",
-			"Defense: ^0000FF2^000000",
-			"Location: ^6A5ACDMiddle^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 661
-	},
 	[6316] = {
 		unidentifiedDisplayName = "[비매품]지크프리드의 증표",
 		unidentifiedResourceName = "지크프리드의증표",
@@ -1470,7 +1224,7 @@ tbl = {
 			"^ffffff_^000000",
 			"^000088임대 아이템^000000",
 			"이제 막 모험을 시작하는 점핑 이벤트 모험가들을 응원하는 마음이 담긴 따뜻한 반지. ",
-			"몬스터 사냥시 획득 경험치 15% 증가. ",
+			"몬스터 사냥시 Exp gained 15% 증가. ",
 			"ATK, MATK + 30. ",
 			"\"오토 가드\" 3Lv, \"큐어\" 1Lv 사용가능. ",
 			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
@@ -2372,110 +2126,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[15126] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "코튼셔츠",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 전용 슈츠",
-		identifiedResourceName = "도람옷",
-		identifiedDescriptionName = {
-			"깔끔한 도람족이 좋아하는 형태의 경장.",
-			"MaxHP +500, MaxSP +100.",
-			"제련도 3 당 DEX +1씩, INT +1씩 증가.",
-			"도람 전용 슈츠, 도람 전용 슈즈, 도람 전용 망토를 함께 장착 시,",
-			"MaxHP +2000, 캐스팅이 끊기지 않는다.",
-			"고정 캐스팅 15% 감소. (슈츠, 슈즈, 망토의 제련도 합에 따라 고정캐스팅 추가 감소)",
-			"Class: ^6A5ACD갑옷^000000",
-			"Defense: ^0000FF80^000000",
-			"Weight: ^0EAA0B70^000000",
-			"Level Requirement: ^0EAA0B100^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[15129] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "코튼셔츠",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 고급 슈츠",
-		identifiedResourceName = "도람옷",
-		identifiedDescriptionName = {
-			"깔끔한 도람족이 좋아하는 형태의 고급 경장.",
-			"MaxHP +10%, MaxSP +10%.",
-			"제련도 2당 DEX +1씩 INT +1씩 증가.",
-			"도람 고급 슈츠, 도람 고급 슈즈, 도람 고급 망토를 함께 장착 시,",
-			"MaxHP +3000, 캐스팅이 끊기지 않는다.",
-			"고정 캐스팅 20% 감소. (슈츠, 슈즈, 망토의 제련도 합에 따라 고정캐스팅 추가 감소)",
-			"Class: ^6A5ACD갑옷^000000",
-			"Defense: ^0000FF100^000000",
-			"Weight: ^0EAA0B80^000000",
-			"Level Requirement: ^0EAA0B140^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[15150] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "코튼셔츠",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "하얀 셔츠",
-		identifiedResourceName = "하얀셔츠",
-		identifiedDescriptionName = {
-			"흰색의 맑고 깨끗한 셔츠.",
-			"얼마나 세탁했길래 이렇게 하얀걸까?",
-			"MaxHP +70, FLEE +5",
-			"Class: ^6A5ACD갑옷^000000",
-			"Defense: ^0000FF25^000000",
-			"Weight: ^0EAA0B5^000000",
-			"Level Requirement: ^0EAA0B6^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[15151] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "코튼셔츠",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "하얀 친환경 셔츠",
-		identifiedResourceName = "하얀친환경셔츠",
-		identifiedDescriptionName = {
-			"입는 순간 몸도 마음도 깨끗해지는 것 같은 친환경 셔츠, 쓰레기는 꼭 쓰레기통에 버립시다.",
-			"MaxHP +150, FLEE +10",
-			"Class: ^6A5ACD갑옷^000000",
-			"Defense: ^0000FF40^000000",
-			"Weight: ^0EAA0B10^000000",
-			"Level Requirement: ^0EAA0B15^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[15156] = {
-		unidentifiedDisplayName = "갑옷",
-		unidentifiedResourceName = "코튼셔츠",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 엘레강스 슈츠",
-		identifiedResourceName = "도람옷",
-		identifiedDescriptionName = {
-			"깔끔한 도람족이 좋아하는 형태의 엘레강스 경장.",
-			"MaxHP +15%, MaxSP +15%.",
-			"제련도에 따라 DEX +1, INT +1씩 증가.",
-			"9제련 이상 시 SP 소모량 5% 감소.",
-			"도람 엘레강스 슈츠, 도람 엘레강스 슈즈, 도람 엘레강스 망토를 함께 장착 시, ",
-			"MaxHP +4000, 캐스팅이 끊기지 않는다. ",
-			"고정 캐스팅 25% 감소. (슈츠, 슈즈, 망토의 제련도 합에 따라 고정캐스팅 추가 감소) ",
-			"Class: ^6A5ACD갑옷^000000",
-			"Defense: ^0000FF120^000000",
-			"Weight: ^0EAA0B90^000000",
-			"Level Requirement: ^0EAA0B175^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
 	[16385] = {
 		unidentifiedDisplayName = "입에 문 네잎클로버 상자Ⅱ",
 		unidentifiedResourceName = "캐시상자_녹색",
@@ -2493,7 +2143,7 @@ tbl = {
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD하단 ^000000 무게 : ^7777770^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -2516,7 +2166,7 @@ tbl = {
 			"Defense: ^0000FF10^000000",
 			"Location: ^6A5ACD상중단 ^000000 무게 : ^77777770^000000",
 			"Level Requirement: ^0EAA0B30^000000",
-			"Jobs: ^6A5ACD전 직업^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -2539,7 +2189,7 @@ tbl = {
 			"Defense: ^0000FF10^000000",
 			"Location: ^6A5ACD상중단 ^000000 무게 : ^77777770^000000",
 			"Level Requirement: ^0EAA0B30^000000",
-			"Jobs: ^6A5ACD전 직업^000000",
+			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -2686,7 +2336,7 @@ tbl = {
 			"심연의 기사가 쓰는 투구. 강한 공격에 대한 내성은 강하나 오히려 약한 공격에 취약한 면을 보인다.",
 			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
 			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF9^000000",
 			"Location: ^6A5ACD상단^000000",
 			"Weight: ^0EAA0B100^000000",
@@ -2710,7 +2360,7 @@ tbl = {
 			"심연의 기사가 쓰는 투구. 강한 공격에 대한 내성은 강하나 오히려 약한 공격에 취약한 면을 보인다.",
 			"보스형 몬스터로부터 받는 공격에 대한 내성 10% 증가",
 			"일반형 몬스터로부터 받는 공격에 대한 내성 5% 감소",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF9^000000",
 			"Location: ^6A5ACD상단^000000",
 			"Weight: ^0EAA0B100^000000",
@@ -2915,7 +2565,7 @@ tbl = {
 			"FLEE +15, MDEF +2.",
 			"텔레포트 Lv1 사용가능.",
 			"제련불가. 파괴불가.",
-			"Class: ^6A5ACD걸칠것^000000",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^77777747^000000",
@@ -2991,7 +2641,7 @@ tbl = {
 			"물리공격력 5%, 마법공격력 5% 증가.",
 			"MDEF +5.",
 			"넉백불가. 제련불가. 파괴불가.",
-			"Class: ^6A5ACD갑옷^000000",
+			"Class: ^6A5ACDArmor^000000",
 			"Defense: ^0000FF60^000000",
 			"Weight: ^0EAA0B0^000000",
 			"요구레벨 : ^77777747^000000",
@@ -3012,7 +2662,7 @@ tbl = {
 			"그랜드 페코페코의 날개깃털을 엮어만든 화려한 머리장식.",
 			"인간형, 동물형 몬스터에게 주는 데미지 7% 증가.",
 			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF5^000000",
 			"Location: ^6A5ACD상중단 ^000000 Weight: ^0EAA0B80^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3033,7 +2683,7 @@ tbl = {
 			"그랜드 페코페코의 날개깃털을 엮어만든 화려한 머리장식.",
 			"인간형, 동물형 몬스터에게 주는 데미지 7% 증가.",
 			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF5^000000",
 			"Location: ^6A5ACD상중단 ^000000 Weight: ^0EAA0B80^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3065,7 +2715,7 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
 			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3089,7 +2739,7 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3113,7 +2763,7 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
 			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3137,7 +2787,7 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3162,7 +2812,7 @@ tbl = {
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3186,7 +2836,7 @@ tbl = {
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3210,7 +2860,7 @@ tbl = {
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3233,7 +2883,7 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
 			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3257,7 +2907,7 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3281,7 +2931,7 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
 			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3305,7 +2955,7 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3329,7 +2979,7 @@ tbl = {
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
 			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3353,7 +3003,7 @@ tbl = {
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
 			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3378,7 +3028,7 @@ tbl = {
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3402,7 +3052,7 @@ tbl = {
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3426,7 +3076,7 @@ tbl = {
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
 			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -3449,9 +3099,9 @@ tbl = {
 			"황도 3번째 자리인 쌍자궁을 나타내는 보관. 탄생석인 알렉산드라이트가 박혀있다.",
 			"DEX +2, 스킬 후 딜레이 2% 감소, 풍속성 공격 저항 5%.",
 			"7제련 이상 시 DEX +1, MATK +30 추가.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
-			"Location: ^6A5ACD상단 ^000000 Weight: ^0EAA0B30^000000",
+			"Location: ^6A5ACDUpper^000000 Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -3472,9 +3122,9 @@ tbl = {
 			"황도 3번째 자리인 쌍자궁을 나타내는 왕관. 탄생석인 알렉산드라이트가 박혀있다.",
 			"AGI +2, FLEE +10, 풍속성 공격에 대한 내성 5%.",
 			"7제련 이상 일 경우 HIT +5, ATK +30.",
-			"Class: ^6A5ACD투구^000000",
+			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF6^000000",
-			"Location: ^6A5ACD상단 ^000000 Weight: ^0EAA0B30^000000",
+			"Location: ^6A5ACDUpper^000000 Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -6284,7 +5934,7 @@ tbl = {
 			"바람의 정령의 가호가 깃든 깃털망토. 착용자를 위험으로부터 보호해 준다고 한다.",
 			"FLEE +13, 무속성 대미지 13% 감소. Perfect Dodge +1",
 			"골드PC방에서 장착 시 All Stats +1.",
-			"Class: ^6A5ACD걸칠것^000000",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF33^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Jobs: ^6A5ACDAll classes 장착가능^000000",
@@ -6307,7 +5957,7 @@ tbl = {
 			"MaxHP 17% 증가, MaxSP 8% 증가.",
 			"10초마다 HP가 20, SP가 3씩 회복된다.",
 			"골드PC방에서 장착 시 All Stats +1.",
-			"Class: ^6A5ACD신발^000000",
+			"Class: ^6A5ACDFootgear^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Jobs: ^6A5ACDAll classes 장착가능^000000",
@@ -7433,7 +7083,7 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 슈즈.",
 			"MaxHP +3%",
-			"Class: ^6A5ACD신발^000000",
+			"Class: ^6A5ACDFootgear^000000",
 			"Defense: ^0000FF15^000000",
 			"Weight: ^0EAA0B20^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -7456,7 +7106,7 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 부츠.",
 			"MaxHP +3%",
-			"Class: ^6A5ACD신발^000000",
+			"Class: ^6A5ACDFootgear^000000",
 			"Defense: ^0000FF21^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -7479,7 +7129,7 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 그리브.",
 			"MaxHP +3%",
-			"Class: ^6A5ACD신발^000000",
+			"Class: ^6A5ACDFootgear^000000",
 			"Defense: ^0000FF32^000000",
 			"Weight: ^0EAA0B40^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -7502,7 +7152,7 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 후드.",
 			"MaxHP +3%",
-			"Class: ^6A5ACD걸칠것^000000",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF9^000000",
 			"Weight: ^0EAA0B10^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -7525,7 +7175,7 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 머플러.",
 			"MaxHP +3%",
-			"Class: ^6A5ACD걸칠것^000000",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF13^000000",
 			"Weight: ^0EAA0B20^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -7548,7 +7198,7 @@ tbl = {
 			"^ffffff_^000000",
 			"에르늄과 황금을 황금비율로 섞어 코팅한 망토.",
 			"MaxHP +3%",
-			"Class: ^6A5ACD걸칠것^000000",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF18^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -7909,7 +7559,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"변신 스크롤(고렘)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
 			"20분 동안 몬스터 \"고렘\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"변신한 시간 동안 물리공격을 받을 시 일정확률로 인듀어 5Lv발동, 무속성 내성 2% 증가.",
+			"변신한 시간 동안 물리공격을 받을 시 일정확률로 인듀어 5Lv발동, Neutral resistance 2% 증가.",
 			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -8901,7 +8551,7 @@ tbl = {
 			"순수 AGI 20 당 공격속도 증가(공격 후딜레이 1% 감소),",
 			"순수 DEX 20 당 원거리 공격력 1% 증가,",
 			"순수 LUK 20 당 크리티컬 데미지 1% 증가.",
-			"Class: ^6A5ACD걸칠것^000000",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF18^000000",
 			"Weight: ^0EAA0B20^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -10116,83 +9766,6 @@ tbl = {
 		slotCount = 1,
 		ClassNum = 11
 	},
-	[18579] = {
-		unidentifiedDisplayName = "모자",
-		unidentifiedResourceName = "코로넷",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "9주년 기념 모자",
-		identifiedResourceName = "9주년기념모자",
-		identifiedDescriptionName = {
-			"세계탄생 9주년을 기념하여 만들어졌다.",
-			"재질이 매우 고급스러운 느낌이다.",
-			"MDEF +9.",
-			"Class: ^6A5ACDHeadgear^000000",
-			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000",
-			"Weight: ^0EAA0B9^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 745
-	},
-	[19084] = {
-		unidentifiedDisplayName = "Hat",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "파르펠레 자경단 모자",
-		identifiedResourceName = "파르펠레자경단모자",
-		identifiedDescriptionName = {
-			"파르펠레 자경단의 일원이 된 기념으로 받을 수 있는 모자. 자경단의 대장인 페페로치노의 꼬리모양 장식털이 달려있다.",
-			"LUK +1,",
-			"물리, 마법 공격시 일정 확률로 자신에게 블레싱 3Lv 발동",
-			"Class: ^6A5ACD투구^000000",
-			"Defense: ^0000FF2^000000",
-			"Location: ^6A5ACD상단 ^000000",
-			"Weight: ^0EAA0B10^000000",
-			"Level Requirement: ^0EAA0B20^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 1368
-	},
-	[19096] = {
-		unidentifiedDisplayName = "Hat",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "스페셜 카프라 모자",
-		identifiedResourceName = "리리아인형모자",
-		identifiedDescriptionName = {
-			"13주년 기념 한정 스페셜 카프라 인형 모자.",
-			"1제련 당 MaxHP +130, MaxSP +13 증가.",
-			"10제련 이상 시, ATK,MATK+3%.",
-			"Class: ^6A5ACDHeadgear^000000",
-			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000",
-			"Weight: ^0EAA0B50^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 581
-	},
-	[19852] = {
-		unidentifiedDisplayName = "Hat",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 갈라파고의 모자",
-		identifiedResourceName = "오리모자",
-		identifiedDescriptionName = {
-			"갈라파고를 본따서 만든 모습이 의외로 귀엽다. 또한 부리 부분이 햇빛을 가려주는 효과가 매우 뛰어남.",
-			"Class: ^6A5ACDCostume^000000",
-			"Location: ^6A5ACDUpper^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 192
-	},
 	[19117] = {
 		unidentifiedDisplayName = "안경",
 		unidentifiedResourceName = "글래스",
@@ -10208,7 +9781,7 @@ tbl = {
 			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
 			"Location: ^6A5ACD중단 ^000000무게 : ^7777771^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 954
@@ -10228,7 +9801,7 @@ tbl = {
 			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
 			"Location: ^6A5ACD중단 ^000000무게 : ^7777771^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 954
@@ -10299,10 +9872,10 @@ tbl = {
 			"아주 대단해 보인다.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACD상단 ^000000",
+			"Location: ^6A5ACDUpper^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1339
@@ -10318,10 +9891,10 @@ tbl = {
 			"둘이 뭉쳐, 아이템에 대한 물욕이 더욱 높아진 듯한 모습이다.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACD상단 ^000000",
+			"Location: ^6A5ACDUpper^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1422
@@ -10340,7 +9913,7 @@ tbl = {
 			"Location: ^6A5ACD중단 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1423
@@ -10363,7 +9936,7 @@ tbl = {
 			"Location: ^6A5ACD상중하단 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 1462
@@ -10428,9 +10001,9 @@ tbl = {
 		identifiedResourceName = "결속의망토",
 		identifiedDescriptionName = {
 			"A certified kingdom equipment for adventurer.",
-			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 MaxHP +2%.",
-			"Class: ^6A5ACD걸칠것^000000",
+			"When base level is below 100:",
+			"Exp gained +4%, 2제련당 MaxHP +2%.",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -10447,9 +10020,9 @@ tbl = {
 		identifiedResourceName = "결속의망토",
 		identifiedDescriptionName = {
 			"A certified kingdom equipment for adventurer.",
-			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 FLEE +3.",
-			"Class: ^6A5ACD걸칠것^000000",
+			"When base level is below 100:",
+			"Exp gained +4%, 2제련당 FLEE +3.",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -10466,9 +10039,9 @@ tbl = {
 		identifiedResourceName = "결속의머플러",
 		identifiedDescriptionName = {
 			"A certified kingdom equipment for adventurer.",
-			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 SP 소모량 -1%.",
-			"Class: ^6A5ACD걸칠것^000000",
+			"When base level is below 100:",
+			"Exp gained +4%, 2제련당 SP 소모량 -1%.",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
@@ -10485,250 +10058,20 @@ tbl = {
 		identifiedResourceName = "결속의머플러",
 		identifiedDescriptionName = {
 			"모험가를 위한 왕국의 공인장비. ",
-			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 CRIT +2.",
-			"Class: ^6A5ACD걸칠것^000000",
+			"When base level is below 100:",
+			"Exp gained +4%, 2제련당 CRIT +2.",
+			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[20788] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "망토",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 전용 망토",
-		identifiedResourceName = "도람망토",
-		identifiedDescriptionName = {
-			"도람족이 선호하는 무늬의 망토.",
-			"FLEE +5. 무속성 내성 2%.",
-			"제련도 3당, Perfect Dodge +1.",
-			"Class: ^6A5ACD걸칠것^000000",
-			"Defense: ^0000FF20^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Level Requirement: ^0EAA0B100^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[20789] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "망토",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 고급 망토",
-		identifiedResourceName = "도람망토",
-		identifiedDescriptionName = {
-			"도람족이 선호하는 고급스러운 무늬의 망토.",
-			"FLEE +7. 무속성 내성 3%.",
-			"제련도 3당, Perfect Dodge +1, LUK +1.",
-			"Class: ^6A5ACD걸칠것^000000",
-			"Defense: ^0000FF25^000000",
-			"Weight: ^0EAA0B40^000000",
-			"Level Requirement: ^0EAA0B140^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[20790] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "망토",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 엘레강스 망토",
-		identifiedResourceName = "도람망토",
-		identifiedDescriptionName = {
-			"도람족이 선호하는 엘레강스한 무늬의 망토.",
-			"FLEE +10. 무속성 내성 5%.",
-			"제련도 2당, Perfect Dodge +1, INT +1, DEX +1, LUK +1.",
-			"Class: ^6A5ACD걸칠것^000000",
-			"Defense: ^0000FF30^000000",
-			"Weight: ^0EAA0B50^000000",
-			"Level Requirement: ^0EAA0B175^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22076] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "원목 슬리퍼",
-		identifiedResourceName = "원목슬리퍼",
-		identifiedDescriptionName = {
-			"딱딱한 원목으로 만든 슬리퍼. 오래 신고 다니기에는 조금 부담스럽다.",
-			"10초당 HP회복 +2",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF10^000000",
-			"Weight: ^0EAA0B5^000000",
-			"Level Requirement: ^0EAA0B9^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22077] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "빨간 친환경 장화",
-		identifiedResourceName = "빨간친환경장화",
-		identifiedDescriptionName = {
-			"친환경 소재로 만든 빨간색 장화. 통풍이 잘 안되니 자주 신발을 벗어주는 편이 좋다. 안그랬다가는 크게 낭패를 볼 일이 생길지도..",
-			"10초당 HP 회복 +4,",
-			"10초당 SP 회복 +1,",
-			"Crit +5",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF20^000000",
-			"Weight: ^0EAA0B10^000000",
-			"Level Requirement: ^0EAA0B18^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22078] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 강인함 부츠",
-		identifiedResourceName = "결속의부츠",
-		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 STR +1.",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF20^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22079] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 기민함 부츠",
-		identifiedResourceName = "결속의부츠",
-		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 AGI +1.",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF20^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22080] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 정교한 슈즈",
-		identifiedResourceName = "결속의슈즈",
-		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 DEX +1.",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF20^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22081] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 총명한 슈즈",
-		identifiedResourceName = "결속의슈즈",
-		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"BaseLV 100 이하 시, ",
-			"획득 경험치 +4%, 2제련당 INT +1.",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF20^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22083] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 전용 슈즈",
-		identifiedResourceName = "도람슈즈",
-		identifiedDescriptionName = {
-			"도람족의 작은 발에 맞게 고안된 전용 슈즈.",
-			"MaxHP +100, MaxSP +50.",
-			"제련도 3당 HP 회복속도 +10%, SP 회복속도 +10%.",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF25^000000",
-			"Weight: ^0EAA0B50^000000",
-			"Level Requirement: ^0EAA0B100^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22084] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 고급 슈즈",
-		identifiedResourceName = "도람슈즈",
-		identifiedDescriptionName = {
-			"도람족의 작은 발에 맞게 고안된 전용 슈즈.",
-			"MaxHP +300, MaxSP +100.",
-			"제련도 3당 HP 회복속도 +20%, SP 회복속도 +20%.",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF30^000000",
-			"Weight: ^0EAA0B60^000000",
-			"Level Requirement: ^0EAA0B140^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22085] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "도람 엘레강스 슈즈",
-		identifiedResourceName = "도람슈즈",
-		identifiedDescriptionName = {
-			"도람족의 작은 발에 맞게 고안된 전용 슈즈.",
-			"MaxHP +10%, MaxSP +5%.",
-			"제련도 2당 MaxHP +100, MaxSP +20.",
-			"9제련 이상일 경우",
-			"[도약] 스킬 사용 시 소모 SP 5 감소.",
-			"Class: ^6A5ACD신발^000000",
-			"Defense: ^0000FF35^000000",
-			"Weight: ^0EAA0B70^000000",
-			"Level Requirement: ^0EAA0B175^000000",
-			"Jobs: ^6A5ACDDoram race^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
 	},
 	[22101] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "샌들",
+		unidentifiedDisplayName = "Shoes",
+		unidentifiedResourceName = "슈즈",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "천사포링 부츠",
 		identifiedResourceName = "메디컬부츠",
@@ -10741,7 +10084,7 @@ tbl = {
 			"Defense: ^0000FF15^000000",
 			"Weight: ^0EAA0B30^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
 		ClassNum = 0
@@ -12362,6 +11705,86 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23081] = {
+		unidentifiedDisplayName = "폭염의 쿠나이 소환서",
+		unidentifiedResourceName = "쿠나이소환서_화",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "폭염의 쿠나이 소환서",
+		identifiedResourceName = "쿠나이소환서_화",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"폭염의 쿠나이를 500개 소환할 수 있다.",
+			"^ffffff_^000000",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23082] = {
+		unidentifiedDisplayName = "고드름의 쿠나이 소환서",
+		unidentifiedResourceName = "쿠나이소환서_수",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "고드름의 쿠나이 소환서",
+		identifiedResourceName = "쿠나이소환서_수",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"고드름의 쿠나이를 500개 소환할 수 있다.",
+			"^ffffff_^000000",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23083] = {
+		unidentifiedDisplayName = "세찬바람의 쿠나이 소환서",
+		unidentifiedResourceName = "쿠나이소환서_풍",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "세찬바람의 쿠나이 소환서",
+		identifiedResourceName = "쿠나이소환서_풍",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"세찬바람의 쿠나이를 500개 소환할 수 있다.",
+			"^ffffff_^000000",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23084] = {
+		unidentifiedDisplayName = "검은흙의 쿠나이 소환서",
+		unidentifiedResourceName = "쿠나이소환서_토",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "검은흙의 쿠나이 소환서",
+		identifiedResourceName = "쿠나이소환서_토",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"검은흙의 쿠나이를 500개 소환할 수 있다.",
+			"^ffffff_^000000",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23085] = {
+		unidentifiedDisplayName = "맹독의 쿠나이 소환서",
+		unidentifiedResourceName = "쿠나이소환서_독",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "맹독의 쿠나이 소환서",
+		identifiedResourceName = "쿠나이소환서_독",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"맹독의 쿠나이를 500개 소환할 수 있다.",
+			"^ffffff_^000000",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23086] = {
 		unidentifiedDisplayName = "의상 인챈트 스톤 상자10",
 		unidentifiedResourceName = "초록상자",
@@ -12669,7 +12092,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12692,7 +12115,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12715,7 +12138,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12737,7 +12160,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12760,7 +12183,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12782,7 +12205,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12805,7 +12228,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12828,7 +12251,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12851,7 +12274,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12875,7 +12298,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12898,7 +12321,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12921,7 +12344,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12944,7 +12367,7 @@ tbl = {
 			"Location: ^6A5ACD아머 ^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전 직업^000000"
+			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13356,7 +12779,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"경험치 습득율이 높아지는 스톤.",
 			"의상 하단 슬롯에 아래의 능력치를 부여한다. ",
-			"몬스터를 죽였을 시, 획득 경험치 2% 증가.",
+			"몬스터를 죽였을 시, Exp gained 2% 증가.",
 			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -14147,8 +13570,8 @@ tbl = {
 		identifiedDescriptionName = {
 			"경험치 습득율이 높아지는 스톤.",
 			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
-			"몬스터를 죽였을 시, 획득 경험치 2% 증가.",
-			"경험치 스톤(중단), 경험치 스톤(하단)과 함께 착용 시, 몬스터를 죽였을 시, 획득 경험치 3% 추가 증가.",
+			"몬스터를 죽였을 시, Exp gained 2% 증가.",
+			"경험치 스톤(중단), 경험치 스톤(하단)과 함께 착용 시, 몬스터를 죽였을 시, Exp gained 3% 추가 증가.",
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -14723,7 +14146,7 @@ tbl = {
 			"――――――――――――― ",
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
-			"Jobs: ^6A5ACD신발^000000",
+			"Jobs: ^6A5ACDFootgear^000000",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
@@ -14748,7 +14171,7 @@ tbl = {
 			"――――――――――――― ",
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
-			"Jobs: ^6A5ACD신발^000000",
+			"Jobs: ^6A5ACDFootgear^000000",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
@@ -14773,7 +14196,7 @@ tbl = {
 			"――――――――――――― ",
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
-			"Jobs: ^6A5ACD신발^000000",
+			"Jobs: ^6A5ACDFootgear^000000",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
@@ -14798,7 +14221,7 @@ tbl = {
 			"――――――――――――― ",
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
-			"Jobs: ^6A5ACD신발^000000",
+			"Jobs: ^6A5ACDFootgear^000000",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
@@ -14823,7 +14246,7 @@ tbl = {
 			"――――――――――――― ",
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
-			"Jobs: ^6A5ACD신발^000000",
+			"Jobs: ^6A5ACDFootgear^000000",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
@@ -14848,7 +14271,7 @@ tbl = {
 			"――――――――――――― ",
 			"^ff0000'경고: 이 아이템은 모든 카드 파괴에 의한 보호, 카드 분리 등 에서 제외됩니다.'^000000 ",
 			"계열 : ^777777특수인챈트^000000 ",
-			"Jobs: ^6A5ACD신발^000000",
+			"Jobs: ^6A5ACDFootgear^000000",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
