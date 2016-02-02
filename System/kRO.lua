@@ -9870,7 +9870,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"빨간색 귀가 달려 있는 부활절 모자. ",
 			"아주 대단해 보인다.",
-			"Class: ^6A5ACDHeadgear^000000",
+			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACDUpper^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -9879,44 +9879,6 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 1339
-	},
-	[20458] = {
-		unidentifiedDisplayName = "모자",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 와일드 포링 라이더",
-		identifiedResourceName = "와일드포링라이더",
-		identifiedDescriptionName = {
-			"먹자 몬스터 2인방이 팀을 이뤘다!",
-			"둘이 뭉쳐, 아이템에 대한 물욕이 더욱 높아진 듯한 모습이다.",
-			"Class: ^6A5ACDHeadgear^000000",
-			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACDUpper^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1422
-	},
-	[20459] = {
-		unidentifiedDisplayName = "액세서리",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 발할라 아이돌",
-		identifiedResourceName = "발할라아이돌",
-		identifiedDescriptionName = {
-			"전장에서 춤추듯 싸우는 소녀가 착용하고 있던 머리장식.",
-			"소녀를 수호하는 빛이 스포트라이트처럼 비추고 있다.",
-			"Class: ^6A5ACDHeadgear^000000",
-			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACD중단 ^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1423
 	},
 	[20468] = {
 		unidentifiedDisplayName = "Mask",
@@ -9931,7 +9893,7 @@ tbl = {
 			"MaxHP +16%.",
 			"바나나 회복량 2016% 증가.",
 			"(2016년 2월 17일 이후, 옵션 삭제)",
-			"Class: ^6A5ACDHeadgear^000000",
+			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD상중하단 ^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -9940,77 +9902,6 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 1462
-	},
-	[20504] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 큐피트의 분홍색 날개",
-		identifiedResourceName = "분홍큐피트날개",
-		identifiedDescriptionName = {
-			"사랑을 맺어주는 장난꾸러기 천사의 분홍색 날개.",
-			"Class: ^6A5ACDCostume^000000",
-			"Location: ^6A5ACD걸칠것 ^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 14
-	},
-	[20506] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "인비지블 망토",
-		identifiedResourceName = "인비지블망토",
-		identifiedDescriptionName = {
-			"손으로 만져보면 망토 같은 느낌이 들지만.. 눈에는 보이지 않는다. ",
-			"Class: ^6A5ACDCostume^000000",
-			"Location: ^6A5ACD걸칠것 ^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[20507] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 포링가방",
-		identifiedResourceName = "포링가방",
-		identifiedDescriptionName = {
-			"포링 모양으로 만들어진 가방.",
-			"투명해보일뿐 무엇이 들어있는지는 보이지 않는다.",
-			"Class: ^6A5ACD의상장비^000000",
-			"Location: ^6A5ACD걸칠것 ^000000",
-			"Weight: ^0EAA0B0^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACD전직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 16
-	},
-	[20780] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "망토",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "결속의 강인함 망토",
-		identifiedResourceName = "결속의망토",
-		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"When base level is below 100:",
-			"Exp gained +4%, 2제련당 MaxHP +2%.",
-			"Class: ^6A5ACDGarment^000000",
-			"Defense: ^0000FF20^000000",
-			"Weight: ^0EAA0B30^000000",
-			"Level Requirement: ^0EAA0B1^000000",
-			"Jobs: ^6A5ACDAll classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
 	},
 	[20781] = {
 		unidentifiedDisplayName = "걸칠것",
