@@ -1214,25 +1214,25 @@ tbl = {
 		ClassNum = 0
 	},
 	[12808] = {
-		unidentifiedDisplayName = "어머니의 마음 상자",
+		unidentifiedDisplayName = "온화한 어머니의 마음 상자",
 		unidentifiedResourceName = "선물상자_1",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "어머니의 마음 상자",
+		identifiedDisplayName = "온화한 어머니의 마음 상자",
 		identifiedResourceName = "선물상자_1",
 		identifiedDescriptionName = {
 			"어머니의 마음이 1개가 들어있다. 14일간 사용가능.",
 			"^ffffff_^000000",
 			"^000088임대 아이템^000000",
-			"이제 막 모험을 시작하는 점핑 이벤트 모험가들을 응원하는 마음이 담긴 따뜻한 반지. ",
-			"몬스터 사냥시 Exp gained 15% 증가. ",
-			"ATK, MATK + 30. ",
+			"새로운 모험을 시작하는 점핑 이벤트 모험가들을 응원하는 온화한 어머니의 마음이 담긴 따뜻한 반지.",
+			"몬스터 사냥시 획득 경험치 20% 증가. ",
+			"ATK, MATK + 30, 무한 이동속도 가속화. ",
 			"\"오토 가드\" 3Lv, \"큐어\" 1Lv 사용가능. ",
 			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
 			"무게 : ^7777770^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"제한 레벨 : ^777777120^000000",
 			"Jobs: ^6A5ACD전직업^000000",
-			"(3월 마지막 정기점검 시, 일괄 삭제 됩니다)",
+			"(해당 아이템은 2017년 1월 첫번째주 정기점검시 일괄 삭제됩니다.",
 			"무게 : ^7777770^000000"
 		},
 		slotCount = 0,
@@ -9746,6 +9746,48 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[17668] = {
+		unidentifiedDisplayName = "삼명수 패키지Ⅷ",
+		unidentifiedResourceName = "응급처치상자",
+		unidentifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
+			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 아미스트르 스크롤 1개도 얻을 수 있다. ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
+		},
+		identifiedDisplayName = "삼명수 패키지Ⅷ",
+		identifiedResourceName = "응급처치상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
+			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 아미스트르 스크롤 1개도 얻을 수 있다. ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17669] = {
+		unidentifiedDisplayName = "삼명수 패키지 10세트Ⅷ",
+		unidentifiedResourceName = "응급처치상자",
+		unidentifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
+			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 아미스트르 스크롤 11개도 얻을 수 있다. ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000"
+		},
+		identifiedDisplayName = "삼명수 패키지 10세트Ⅷ",
+		identifiedResourceName = "응급처치상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
+			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 아미스트르 스크롤 11개도 얻을 수 있다. ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[18132] = {
 		unidentifiedDisplayName = "활",
 		unidentifiedResourceName = "보우",
@@ -9903,6 +9945,22 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 1462
 	},
+	[20470] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "햇",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "의상 달콤한 초콜릿 모자",
+		identifiedResourceName = "달콤한초콜릿모자",
+		identifiedDescriptionName = {
+			"커다란 초콜릿모양의 모자. 발렌타인데이 이벤트 기간에 쓰고 다니면 주목을 받을 것 같다.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1469
+	},
 	[20781] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "망토",
@@ -9959,6 +10017,195 @@ tbl = {
 		},
 		slotCount = 1,
 		ClassNum = 0
+	},
+	[20802] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "텔레포트 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[텔레포트] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
+	},
+	[20803] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "힐 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[힐] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
+	},
+	[20804] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "탐욕 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[탐욕] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
+	},
+	[20805] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "민첩성 증가 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[민첩성 증가] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
+	},
+	[20806] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "매그넘 브레이크 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[매그넘 브레이크] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
+	},
+	[20807] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "인듀어 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[인듀어] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
+	},
+	[20808] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "사이트 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[사이트] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
+	},
+	[20809] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "집중력 향상 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[집중력 향상] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
+	},
+	[20811] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "하이딩 아미스트르 가방",
+		identifiedResourceName = "아미스트르가방",
+		identifiedDescriptionName = {
+			"호문클루스 '아미스트르'를 본따 만든 가방.",
+			"ALL Status + 1.",
+			"[하이딩] 1Lv 사용가능.",
+			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
+			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
+			"12제련시, 캐스팅이 끊기지 않는다.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
+			"무게 : ^77777720^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 4
 	},
 	[22101] = {
 		unidentifiedDisplayName = "Shoes",
@@ -11721,6 +11968,26 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23098] = {
+		unidentifiedDisplayName = "쉐도우 모둠 상자",
+		unidentifiedResourceName = "쉐도우큐브",
+		unidentifiedDescriptionName = {
+			"열심히 달려온 모험가들을 위해 준비된 쉐도우 모둠상자.",
+			"쉐도우 큐브(이어링), 쉐도우 큐브(펜던트), 쉐도우 큐브(아머), 쉐도우 큐브(슈즈), 쉐도우 큐브(쉴드), 쉐도우 큐브(웨폰)이 각각 1개씩 들어있다.",
+			"(^ff0000해당 아이템은 2017년 1월 첫 번째 주 정기점검시 일괄 삭제됩니다.^000000)",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "쉐도우 모둠 상자",
+		identifiedResourceName = "쉐도우큐브",
+		identifiedDescriptionName = {
+			"열심히 달려온 모험가들을 위해 준비된 쉐도우 모둠상자.",
+			"쉐도우 큐브(이어링), 쉐도우 큐브(펜던트), 쉐도우 큐브(아머), 쉐도우 큐브(슈즈), 쉐도우 큐브(쉴드), 쉐도우 큐브(웨폰)이 각각 1개씩 들어있다.",
+			"(^ff0000해당 아이템은 2017년 1월 첫 번째 주 정기점검시 일괄 삭제됩니다.^000000) ",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23096] = {
 		unidentifiedDisplayName = "MOBI 지원 상자",
 		unidentifiedResourceName = "번호상자03",
@@ -11732,6 +11999,66 @@ tbl = {
 			"[비매품]화이트슬림포션이 100개 들어있으며, 아주 가끔 포션이 아닌 11제련권 , 7제련권 등 좀 더",
 			"희귀한 것이 나온다고 한다.",
 			"(해당 아이템은 2016년 4월 첫번째 정기점검시 일괄 삭제됩니다.)",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23106] = {
+		unidentifiedDisplayName = "아미스트르 스크롤",
+		unidentifiedResourceName = "아미스트르스크롤",
+		unidentifiedDescriptionName = {
+			"기간 한정 아미스트르 스크롤. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 아미스트르 상자, 3차 직업군 웨폰 쉐도우등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "아미스트르 스크롤",
+		identifiedResourceName = "아미스트르스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 아미스트르 스크롤. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 아미스트르 상자, 3차 직업군 웨폰 쉐도우등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23107] = {
+		unidentifiedDisplayName = "아미스트르 상자",
+		unidentifiedResourceName = "아미스트르상자",
+		unidentifiedDescriptionName = {
+			"아미스트르 가방이 들어있는 상자.",
+			"총 9종류의 아미스트르 가방이 있으며, 각 가방이 나올 확률은 동등합니다.",
+			"――――――――――――― ",
+			"텔레포트 아미스트르 가방",
+			"힐 아미스트르 가방",
+			"탐욕 아미스트르 가방",
+			"민첩성 증가 아미스트르 가방",
+			"매그넘 브레이크 아미스트르 가방",
+			"인듀어 아미스트르 가방",
+			"사이트 아미스트르 가방",
+			"집중력 향상 아미스트르 가방",
+			"하이딩 아미스트르 가방",
+			"――――――――――――― ",
+			"무게 : 20",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "아미스트르 상자",
+		identifiedResourceName = "아미스트르상자",
+		identifiedDescriptionName = {
+			"아미스트르 가방이 들어있는 상자.",
+			"총 9종류의 아미스트르 가방이 있으며, 각 가방이 나올 확률은 동등합니다.",
+			"――――――――――――― ",
+			"텔레포트 아미스트르 가방",
+			"힐 아미스트르 가방",
+			"탐욕 아미스트르 가방",
+			"민첩성 증가 아미스트르 가방",
+			"매그넘 브레이크 아미스트르 가방",
+			"인듀어 아미스트르 가방",
+			"사이트 아미스트르 가방",
+			"집중력 향상 아미스트르 가방",
+			"하이딩 아미스트르 가방",
+			"――――――――――――― ",
+			"무게 : 20",
 			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
@@ -12403,6 +12730,255 @@ tbl = {
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACD도람족^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24288] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "룬나이트 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"룬나이트 계열만 착용할 수 있다. ",
+			"소닉웨이브 데미지 20% 증가.",
+			"제련도 1당 소닉웨이브 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777룬나이트 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24289] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "로얄가드 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"로얄가드 계열만 착용할 수 있다. ",
+			"캐논 스피어 데미지 20% 증가.",
+			"제련도 1당 캐논 스피어 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777로얄가드 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24290] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "미케닉 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"미케닉 계열만 착용할 수 있다. ",
+			"발칸 암 데미지 20% 증가.",
+			"제련도 1당 발칸 암 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777미케닉 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24291] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "제네릭 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"제네릭 계열만 착용할 수 있다. ",
+			"카트 토네이도 데미지 20% 증가.",
+			"제련도 1당 카트 토네이도 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777제네릭 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24292] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "아크비숍 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"아크비숍 계열만 착용할 수 있다. ",
+			"듀플레 라이트 데미지 20% 증가.",
+			"제련도 1당 듀플레 라이트 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777아크비숍 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24293] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "수라 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"수라 계열만 착용할 수 있다. ",
+			"폭기산탄 쿨타임 2초 감소.",
+			"제련도 1당 폭기산탄 쿨타임 0.5초 추가 감소.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777수라 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24294] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "길로틴크로스 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"길로틴크로스 계열만 착용할 수 있다. ",
+			"다크 일루젼 SP 소모량 20% 감소. ",
+			"제련도 1당 다크 일루젼 SP 소모량 3% 추가 감소.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777길로틴크로스 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24295] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "쉐도우체이서 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"쉐도우체이서 계열만 착용할 수 있다. ",
+			"트라이앵글 샷 데미지 20% 증가.",
+			"제련도 1당 트라이앵글 샷 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777쉐도우체이서 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24296] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "워록 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"워록 계열만 착용할 수 있다. ",
+			"드레인 라이프 데미지 20% 증가.",
+			"제련도 1당 드레인 라이프 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777워록 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24297] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "소서러 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"소서러 계열만 착용할 수 있다. ",
+			"다이아몬드 더스트의 쿨타임 1초 감소.",
+			"제련도 1당 다이아몬드 더스트의 쿨타임 0.3초 추가 감소.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777소서러 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24298] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "레인져 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"레인져 계열만 착용할 수 있다. ",
+			"클러스터 봄 데미지 20% 증가.",
+			"제련도 1당 클러스터 봄 데미지 5% 추가.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777레인져 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24299] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "민스트럴 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"민스트럴 계열만 착용할 수 있다. ",
+			"MaxHP + 3%.",
+			"제련도와 민스트럴 전용 연주 스킬에 사용한 스킬 포인트를 곱한 값만큼 DEF 가 상승한다.",
+			"^ff0000메아리의 노래, 하모나이즈, 풍차를 향해 돌격^000000",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777민스트럴 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24300] = {
+		unidentifiedDisplayName = "웨폰 쉐도우",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "원더러 웨폰 쉐도우",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. ",
+			"원더러 계열만 착용할 수 있다. ",
+			"MaxHP + 3%.",
+			"제련도와 원더러 전용 춤 스킬에 사용한 스킬 포인트를 곱한 값만큼 DEF 가 상승한다.",
+			"^ff0000달빛의 세레나데, 스윙 댄스, 연인들을 위한 심포니^000000",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777웨폰^000000 무게 : ^7777770^000000",
+			"요구 레벨 : ^77777799^000000",
+			"장착 : ^777777원더러 계열^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13574,6 +14150,16 @@ tbl = {
 			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
 			"Weight: ^0EAA0B10^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25188] = {
+		unidentifiedDisplayName = "소녀의 손수건",
+		unidentifiedResourceName = "추억의수건",
+		unidentifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "무게 : ^7777770^000000" },
+		identifiedDisplayName = "소녀의 손수건",
+		identifiedResourceName = "추억의수건",
+		identifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "무게 : ^7777770^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
