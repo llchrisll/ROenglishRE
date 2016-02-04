@@ -10,7 +10,7 @@ tbl = {
 			"이것을 몸에 지닌 자는 죽음을 극복할 수 있다고 한다.",
 			"사망시 아이템을 소비하면서 사망장소에서 바로 부활 가능",
 			"^ffffff_^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -970,7 +970,7 @@ tbl = {
 			"맛있는 롤리팝 1개 , 프리미엄 교범 2개가 들어있는 상자.",
 			"맛있는 롤리팝은 개봉 후 7일간 사용가능.",
 			"(^ff0000해당 아이템은 2016년 1월 27일 정기점검시 일괄 삭제됩니다.^000000) ",
-			"무게 : ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -985,7 +985,7 @@ tbl = {
 			"[비매품]지크프리드의 증표 30개 , [비매품] 풍선껌 20개, 무한 파리의 날개 1개 들어있는 상자.",
 			"무한 파리의 날개는 개봉 후 7일간 사용가능.",
 			"(^ff0000해당 아이템은 2016년 1월 27일 정기점검시 일괄 삭제됩니다.^000000) ",
-			"무게 : ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1116,7 +1116,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 2011 RWC 기념 스크롤.",
 			"고양이 귀 베레모, 빨간 빵 모자, 무기 8제련 보장권, 방어구 8제련 보장권, 인챈트 소개장, 피묻은 나뭇가지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1129,7 +1129,7 @@ tbl = {
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
 			"잘 포장된 선물상자. 무엇이 들어있는지는 알 수 없다.",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1142,7 +1142,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"전투교범 5개, 풍선껌 5개, 생명보험증서 5개와 시간의 수호자쉴드, 부츠, 망토, 모자, 로브 각 1개 씩과, 메탈 카타르, 투핸드액스, 랜스, 북, 스태프, 대거, 메이스, 보우, 투핸드소드, 리볼버, 풍마수리검이 각 1개 씩이 들어있는 상자.",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1155,7 +1155,7 @@ tbl = {
 		identifiedResourceName = "선물상자_1",
 		identifiedDescriptionName = {
 			"초보자용 포션 300개, 초보자용 파리의 날개 100개, 초보자용 나비의 날개 20개, 초보자용 돋보기 10개와 화살통 5개가 담겨있는 상자.",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1169,7 +1169,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 크루의 알.",
 			"늘어진 고양이 크루, 링 오브 플레임로드, 무기 11제련 보장권, 방어구 11제련 보장권, 무기 9제련 보장권, 방어구 9제련 보장권, 인챈트 소개장, 피묻은 나뭇가지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1184,7 +1184,7 @@ tbl = {
 			"뿌리면 잠시동안 몸이 매우 가벼워지는 신비한 파우더.",
 			"5분간 FLEE + 20, LUK + 10.",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1208,7 +1208,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"8Lv 검용병, 8Lv 창용병, 8Lv 활용병 소환할 수 있는 소환서를 각각 5장 씩 모아서 잘 말아둔 뭉치. 어머니의 마음 상자도 1개 들어있다.",
 			"Level Requirement: ^0EAA0B20^000000",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1228,12 +1228,12 @@ tbl = {
 			"ATK, MATK + 30, 무한 이동속도 가속화. ",
 			"\"오토 가드\" 3Lv, \"큐어\" 1Lv 사용가능. ",
 			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
+			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"제한 레벨 : ^777777120^000000",
 			"Jobs: ^6A5ACD전직업^000000",
 			"(해당 아이템은 2017년 1월 첫번째주 정기점검시 일괄 삭제됩니다.",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1249,7 +1249,7 @@ tbl = {
 			"전투교범 5개, 풍선껌 5개, 생명보험증서 5개, 잡교범 5개가 담겨 있다.",
 			"지금 개봉하면 지르타스 교환 티켓 상자도 1개 획득 가능!",
 			"Level Requirement: ^0EAA0B120^000000",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1262,7 +1262,7 @@ tbl = {
 		identifiedResourceName = "pro선물상자",
 		identifiedDescriptionName = {
 			"이그드라실의 열매가 3개 들어있는 상자. 거기에 덤으로 교환 티켓 로리루리, 마력깃든 카드첩, 무기 9제련 보장권, 방어구 9제련보장권 등등 여러가지 경품아이템들 중 하나가 랜덤 등장!",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1278,7 +1278,7 @@ tbl = {
 			"거기에 펫교환쿠폰상자 , 마력깃든 카드첩, ",
 			"무기 7 ~ 9제련 보장권, 방어구 7 ~ 9제련보장권을 포함한 여러가지 경품아이템들 중 하나가 랜덤 등장!",
 			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다)",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1291,7 +1291,7 @@ tbl = {
 		identifiedResourceName = "발아새싹",
 		identifiedDescriptionName = {
 			"라그2의 귀여운 꽃잎 몬스터를 본딴 플립모자, 마력 깃든 카드첩, 포장된 가면, 보석함, 피묻은 나뭇가지 등등 여러가지 아이템 중 1종이 들어있다고 한다. 무엇이 나올진 알 수 없다.",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1304,7 +1304,7 @@ tbl = {
 		identifiedResourceName = "조직의단결력",
 		identifiedDescriptionName = {
 			"하나의 집단의 결속력을 강화하는 듯한 이미지를 갖고 있다.  실제로 이 조각상을 본 사람들은 결속력이 튼튼해지는 것을 느낀다고 한다.",
-			"무게 : ^77777750^000000"
+			"Weight: ^0EAA0B50^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1318,7 +1318,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 언데드의 핵.",
 			"죽은 자의 투구, 무기 11제련 보장권, 방어구 11제련 보장권, 낡은 카드첩(투구), 피묻은 나뭇가지, 토끼귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1332,7 +1332,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 소녀의 마음.",
 			"하트날개 헤어밴드, 낡은 카드첩(걸칠것), 천사의 날개귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1347,7 +1347,7 @@ tbl = {
 			"꽃가지 여러개를 장인이 한땀한땀 정성스럽게 덧붙여 아주 풍성하게 만들었다.",
 			"60분간 Flee 10, 완전회피 + 1 상승.",
 			"^ffffff_^000000",
-			"무게 : ^77777710^000000"
+			"Weight: ^0EAA0B10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1361,7 +1361,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 아루나펠츠 교국 스크롤.",
 			"늘어진 교황모자, 무기 11제련 보장권, 방어구 11제련 보장권, 수호의 반지, 마력 깃든 카드첩 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1376,7 +1376,7 @@ tbl = {
 			"이그드라실의 수액으로 여신 이둔의 사과를 모방하여 창조된 황금빛 사과. 누군가 반만 먹어버린 모양이다.",
 			"^000088사용자의 HP 와 SP의 절반을 회복^000000시켜준다.",
 			"재사용 대기시간 :  ^7777773초^000000",
-			"무게 : ^77777730^000000"
+			"Weight: ^0EAA0B30^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1391,7 +1391,7 @@ tbl = {
 			"이그드라실의 수액으로 여신 이둔의 사과를 모방하여 창조된 황금빛 사과. 정말 금으로 만들어진 듯 광택이 난다.",
 			"^000088사용자의 HP 와 SP를 모두 회복^000000시켜준다.",
 			"재사용 대기시간 :  ^7777775초^000000",
-			"무게 : ^77777730^000000"
+			"Weight: ^0EAA0B30^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1406,7 +1406,7 @@ tbl = {
 			"미드가르드의 알케미스트 포션학의 집대성. 현존하는 최고의 포션으로, 소량으로도 엄청난 효능을 보여준다. 신의 음료라고 불릴 정도로 호평.",
 			"^000088사용자의 HP 와 SP를 모두 회복^000000시켜주며, 스스로에게 기리에 엘레이손 10Lv을 건다.",
 			"재사용 대기시간 :  ^7777771초^000000",
-			"무게 : ^7777773^000000"
+			"Weight: ^0EAA0B3^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1431,7 +1431,7 @@ tbl = {
 			"보다 효율적인 전투방법이 기록된 설명서 한정판!",
 			"시키는 대로 하면 왠지 빨리 성장할 것 같다.",
 			"^00008860분간 획득하는 경험치가 60% 증가한다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1446,7 +1446,7 @@ tbl = {
 			"투명한 펫알 스크롤이 1개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1461,7 +1461,7 @@ tbl = {
 			"투명한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -1476,7 +1476,232 @@ tbl = {
 			"괴상한 모양의 펫알 스크롤이 1개 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12932] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "지속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "지속성알",
+		identifiedDescriptionName = {
+			"단단한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12933] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "무속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "무속성알",
+		identifiedDescriptionName = {
+			"평범한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12934] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "암속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "암속성알",
+		identifiedDescriptionName = {
+			"괴상한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12983] = {
+		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedResourceName = "펫알스크롤상자6",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedResourceName = "펫알스크롤상자6",
+		identifiedDescriptionName = {
+			"위험한 모양의 펫알 스크롤이 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12984] = {
+		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedResourceName = "펫알스크롤상자7",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedResourceName = "펫알스크롤상자7",
+		identifiedDescriptionName = {
+			"성스러운 모양의 펫알 스크롤이 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12985] = {
+		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedResourceName = "펫알스크롤상자8",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedResourceName = "펫알스크롤상자8",
+		identifiedDescriptionName = {
+			"구멍난 모양의 펫알 스크롤이 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12986] = {
+		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedResourceName = "펫알스크롤상자9",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedResourceName = "펫알스크롤상자9",
+		identifiedDescriptionName = {
+			"형태가 불분명한 모양의 펫알 스크롤이 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12987] = {
+		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedResourceName = "펫알스크롤상자10",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedResourceName = "펫알스크롤상자10",
+		identifiedDescriptionName = {
+			"화려한 모양의 펫알 스크롤이 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12988] = {
+		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedResourceName = "펫알스크롤상자11",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedResourceName = "펫알스크롤상자11",
+		identifiedDescriptionName = {
+			"미려한 모양의 펫알 스크롤이 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12989] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "독속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "독속성알",
+		identifiedDescriptionName = {
+			"위험한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12990] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "성속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "성속성알",
+		identifiedDescriptionName = {
+			"성스러운 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12991] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "언데드알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "언데드알",
+		identifiedDescriptionName = {
+			"구멍난 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12992] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "염속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "염속성알",
+		identifiedDescriptionName = {
+			"형태가 불분명한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12993] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "화속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "화속성알",
+		identifiedDescriptionName = {
+			"화려한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[12994] = {
+		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedResourceName = "풍속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 스크롤",
+		identifiedResourceName = "풍속성알",
+		identifiedDescriptionName = {
+			"미려한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"^ffffff_^000000",
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9723,7 +9948,7 @@ tbl = {
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개, 포링 스크롤 1개가 들어있다.",
 			"거기에 [비매품]환영의술잔도 1개 더!",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9741,7 +9966,7 @@ tbl = {
 			"거기에 [비매품]환영의술잔도 10개 더!",
 			"[비매품]톡톡캔디와 [비매품]마법캔디도 1개씩 들어있습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9762,7 +9987,7 @@ tbl = {
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
 			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 아미스트르 스크롤 1개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -9783,7 +10008,7 @@ tbl = {
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
 			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 아미스트르 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10032,7 +10257,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10053,7 +10278,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10074,7 +10299,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10095,7 +10320,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10116,7 +10341,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10137,7 +10362,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10158,7 +10383,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10179,7 +10404,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -10200,7 +10425,7 @@ tbl = {
 			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
 			"12제련시, 캐스팅이 끊기지 않는다.",
 			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"무게 : ^77777720^000000",
+			"Weight: ^0EAA0B20^000000",
 			"요구 레벨 : ^7777771^000000",
 			"장착 : ^777777전 직업^000000"
 		},
@@ -11854,7 +12079,7 @@ tbl = {
 			"^ffffff_^000000",
 			"폭염의 쿠나이를 500개 소환할 수 있다.",
 			"^ffffff_^000000",
-			"무게 : ^77777725^000000"
+			"Weight: ^0EAA0B25^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11870,7 +12095,7 @@ tbl = {
 			"^ffffff_^000000",
 			"고드름의 쿠나이를 500개 소환할 수 있다.",
 			"^ffffff_^000000",
-			"무게 : ^77777725^000000"
+			"Weight: ^0EAA0B25^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11886,7 +12111,7 @@ tbl = {
 			"^ffffff_^000000",
 			"세찬바람의 쿠나이를 500개 소환할 수 있다.",
 			"^ffffff_^000000",
-			"무게 : ^77777725^000000"
+			"Weight: ^0EAA0B25^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11902,7 +12127,7 @@ tbl = {
 			"^ffffff_^000000",
 			"검은흙의 쿠나이를 500개 소환할 수 있다.",
 			"^ffffff_^000000",
-			"무게 : ^77777725^000000"
+			"Weight: ^0EAA0B25^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11918,7 +12143,7 @@ tbl = {
 			"^ffffff_^000000",
 			"맹독의 쿠나이를 500개 소환할 수 있다.",
 			"^ffffff_^000000",
-			"무게 : ^77777725^000000"
+			"Weight: ^0EAA0B25^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11949,7 +12174,7 @@ tbl = {
 			"1분간 완전회피 + 20. 5분의 재사용 시간 존재.",
 			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.",
 			"^ffffff_^000000",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11963,7 +12188,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 포링 스크롤. ",
 			"무기 11제련 상품권, 방어구 11제련 상품권, 봉인된인장카드, 포링선글래스, 물에 젖은 카드앨범등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11975,7 +12200,7 @@ tbl = {
 			"열심히 달려온 모험가들을 위해 준비된 쉐도우 모둠상자.",
 			"쉐도우 큐브(이어링), 쉐도우 큐브(펜던트), 쉐도우 큐브(아머), 쉐도우 큐브(슈즈), 쉐도우 큐브(쉴드), 쉐도우 큐브(웨폰)이 각각 1개씩 들어있다.",
 			"(^ff0000해당 아이템은 2017년 1월 첫 번째 주 정기점검시 일괄 삭제됩니다.^000000)",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		identifiedDisplayName = "쉐도우 모둠 상자",
 		identifiedResourceName = "쉐도우큐브",
@@ -11983,7 +12208,7 @@ tbl = {
 			"열심히 달려온 모험가들을 위해 준비된 쉐도우 모둠상자.",
 			"쉐도우 큐브(이어링), 쉐도우 큐브(펜던트), 쉐도우 큐브(아머), 쉐도우 큐브(슈즈), 쉐도우 큐브(쉴드), 쉐도우 큐브(웨폰)이 각각 1개씩 들어있다.",
 			"(^ff0000해당 아이템은 2017년 1월 첫 번째 주 정기점검시 일괄 삭제됩니다.^000000) ",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11999,7 +12224,7 @@ tbl = {
 			"[비매품]화이트슬림포션이 100개 들어있으며, 아주 가끔 포션이 아닌 11제련권 , 7제련권 등 좀 더",
 			"희귀한 것이 나온다고 한다.",
 			"(해당 아이템은 2016년 4월 첫번째 정기점검시 일괄 삭제됩니다.)",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12010,14 +12235,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"기간 한정 아미스트르 스크롤. ",
 			"무기 11제련 상품권, 방어구 11제련 상품권, 아미스트르 상자, 3차 직업군 웨폰 쉐도우등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아미스트르 스크롤",
 		identifiedResourceName = "아미스트르스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 아미스트르 스크롤. ",
 			"무기 11제련 상품권, 방어구 11제련 상품권, 아미스트르 상자, 3차 직업군 웨폰 쉐도우등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12040,7 +12265,7 @@ tbl = {
 			"하이딩 아미스트르 가방",
 			"――――――――――――― ",
 			"무게 : 20",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		identifiedDisplayName = "아미스트르 상자",
 		identifiedResourceName = "아미스트르상자",
@@ -12059,7 +12284,7 @@ tbl = {
 			"하이딩 아미스트르 가방",
 			"――――――――――――― ",
 			"무게 : 20",
-			"무게 : ^7777771^000000"
+			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -14007,7 +14232,7 @@ tbl = {
 			"나들이 문어와 문어다리에서 얻을 수 있는 매우 끈적거리는 점액.",
 			"특수한 방법으로 가공하여 가면의 재료로 사용된다.",
 			"이벤트 종료 시 사라집니다.",
-			"무게 : ^7777770^000000"
+			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
