@@ -8647,7 +8647,8 @@ Jobs: ^6A5ACDMage, Acolyte and Soul Linker^000000
 1615#
 Since evil spirits possess this wand of human bone, its suffocatingly accursed aura can be sensed by those who wield it.
 ^888888-------------------------^000000
-INT +4, MATK +110
+INT +4
+MATK +110
 ^888888-------------------------^000000
 Class: ^6A5ACDOne-Handed Staff^000000
 Attack: ^D8000040^000000
@@ -8793,7 +8794,8 @@ Jobs: ^6A5ACDMage, Acolyte and Soul Linker^000000
 1624#
 A wand crafted from a powerful Lich's skull that will curse anyone that threatens its true owner.
 ^888888-------------------------^000000
-INT +1, DEX +1
+INT +1
+DEX +1
 MATK +170
 ^888888-------------------------^000000
 Adds a low chance of cursing target when dealing physical attacks.
@@ -22266,7 +22268,7 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 2883#
-A seal created by refining an Ur Runestone
+A seal created by refining an Ur Runestone.
 ^888888-------------------------^000000
 MaxHP +2%,
 ^888888-------------------------^000000
@@ -22279,7 +22281,7 @@ Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACDRune Knight^000000
 #
 2884#
-A seal created by refining a Peuz Runestone
+A seal created by refining a Peuz Runestone.
 ^888888-------------------------^000000
 ATK +20
 MaxSP +20
@@ -22317,7 +22319,7 @@ A ring that has long been known to be from the world of darkness.
 ^888888-------------------------^000000
 CRIT +3
 ^888888-------------------------^000000
-Increase Dark Illusion SP cost by 5
+Increase Dark Illusion SP cost by 5.
 ^888888-------------------------^000000
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
@@ -22375,7 +22377,7 @@ Level Requirement: ^0EAA0B60^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 2890#
-An accessory that belonged to the
+An accessory that belonged to Icarus, a famous archer from archer guild.
 ^888888-------------------------^000000
 DEX +2
 ^888888-------------------------^000000
@@ -39603,8 +39605,8 @@ MDEF +5
 Has a certain chance of auto-casting a Level 1 Bolt skill with each melee attack.
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
-^888888-------------------------^000000
 ^702180Indestructible^000000
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -54998,6 +55000,46 @@ A special taste candy by Julia.
 ^000088Recovery 45 HP^000000.
 ^FFFFFF_^000000
 Weight: ^0EAA0B3^000000
+#
+11714#
+Very tasty home-made Maamoul. Good smell. Recover a lot of HP.
+^FFFFFF_^000000
+Weight: ^0EAA0B0^000000
+#
+11715#
+Fresh salad with various fruits.
+MaxSP + 10% for 3 mins, decrease 10% SP consumption when casting skills.
+Recovery HP and SP for a certain amount.
+^FFFFFF_^000000
+Weight: ^0EAA0B1^000000
+#
+11716#
+Received Heal and the effect of potion items would be increase 20% for 3 mins.
+Recovery HP and Counteracts the poison.
+^FFFFFF_^000000
+Weight: ^0EAA0B1^000000
+#
+11717#
+Yogurt made by milk.
+MaxSP + 5% for 3 mins, SP recovery + 10%.
+Recovery SP for a certain amount.
+^FFFFFF_^000000
+Weight: ^0EAA0B14^000000
+#
+11718#
+Kebab made by Sushi.
+Recovery MaxHP+ 4% every 4 seconds for 1 min.
+Recovery HP for a certain amount and Counteracts the effects of poison.
+^FFFFFF_^000000
+Weight: ^0EAA0B6^000000
+#
+11719#
+Dessert made by biscuits.
+Recovery HP and SP.
+EXP + 100% during 30 mins.
+Attention: The effect of this item would not be duplicated with Battle Manual.
+^FFFFFF_^000000
+Weight: ^0EAA0B20^000000
 #
 12000#
 A spell scroll which was made by the essence of ancient magic.
