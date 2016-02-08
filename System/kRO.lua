@@ -1,25 +1,9 @@
 tbl = {
-	[6316] = {
-		unidentifiedDisplayName = "[비매품]지크프리드의 증표",
-		unidentifiedResourceName = "지크프리드의증표",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[비매품]지크프리드의 증표",
-		identifiedResourceName = "지크프리드의증표",
-		identifiedDescriptionName = {
-			"불사신 지크프리드의 기운이 서려있는 증표.",
-			"이것을 몸에 지닌 자는 죽음을 극복할 수 있다고 한다.",
-			"사망시 아이템을 소비하면서 사망장소에서 바로 부활 가능",
-			"^ffffff_^000000",
-			"Weight: ^0EAA0B1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[6347] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"바포메트 서버의 ^000088†[聖]린^000000 이 적은 덕담이다.",
@@ -32,10 +16,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6348] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"바포메트 서버의 ^000088당신들의천국^000000 이 적은 덕담이다.",
@@ -48,10 +32,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6349] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"사라 서버의 드레노어법사 가 적은 덕담이다.",
@@ -62,10 +46,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6350] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"란드그리스 서버의 ^000088천악。^000000이 적은 덕담이다.",
@@ -76,10 +60,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6351] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"란드그리스 서버의 ^000088☆로얄깡패☆^000000 가 적은 덕담이다.",
@@ -90,10 +74,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6352] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"타나토스 서버의 ^000088J .J^000000 가 적은 덕담이다.",
@@ -104,10 +88,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6353] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"바포메트 서버의 ^000088파워포스레인져^000000 가 적은 덕담이다.",
@@ -118,10 +102,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6354] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"란드그리스 서버의 ^000088등 뒤를 핥는 자^000000 가 적은 덕담이다.",
@@ -132,10 +116,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6355] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"바포메트 서버의 ^000088앵벌중이심^000000 이 적은 덕담이다.",
@@ -146,10 +130,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6356] = {
-		unidentifiedDisplayName = "덕담 종이",
+		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "덕담 종이",
+		identifiedDisplayName = "Paper with wishing remarks",
 		identifiedResourceName = "원고용지",
 		identifiedDescriptionName = {
 			"타나토스 서버의 ^000088꽃뱀 승순이^000000 가 적은 덕담이다.",
@@ -160,10 +144,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6357] = {
-		unidentifiedDisplayName = "실패한 포춘쿠키",
+		unidentifiedDisplayName = "Fail Fortune Cookie",
 		unidentifiedResourceName = "실패한포춘쿠키",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "실패한 포춘쿠키",
+		identifiedDisplayName = "Fail Fortune Cookie",
 		identifiedResourceName = "실패한포춘쿠키",
 		identifiedDescriptionName = {
 			"포춘쿠키 제작의 1인자라도 이런 실수를 할 때가 있는 법이다.",
@@ -174,10 +158,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6358] = {
-		unidentifiedDisplayName = "무료캐시 이용권",
+		unidentifiedDisplayName = "Free Coupon Cache",
 		unidentifiedResourceName = "쿠폰",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무료캐시 이용권",
+		identifiedDisplayName = "Free Coupon Cache",
 		identifiedResourceName = "쿠폰",
 		identifiedDescriptionName = {
 			"5000원 무료캐시 이용권.",
@@ -188,10 +172,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6359] = {
-		unidentifiedDisplayName = "가이드북 교환권",
+		unidentifiedDisplayName = "Coupon Guidebook",
 		unidentifiedResourceName = "쿠폰",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "가이드북 교환권",
+		identifiedDisplayName = "Coupon Guidebook",
 		identifiedResourceName = "쿠폰",
 		identifiedDescriptionName = {
 			"가이드북 교환권.",
@@ -202,10 +186,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6416] = {
-		unidentifiedDisplayName = "큐펫 배회하는자 교환쿠폰",
+		unidentifiedDisplayName = "Cute Pet Wanderman Exchange Coupon",
 		unidentifiedResourceName = "쿠폰",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "큐펫 배회하는자 교환쿠폰",
+		identifiedDisplayName = "Cute Pet Wanderman Exchange Coupon",
 		identifiedResourceName = "쿠폰",
 		identifiedDescriptionName = {
 			"큐펫 배회하는 자와 교환이 가능한 쿠폰!",
@@ -216,10 +200,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6521] = {
-		unidentifiedDisplayName = "국왕의 증표",
+		unidentifiedDisplayName = "Token of the King",
 		unidentifiedResourceName = "상인영수증",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "국왕의 증표",
+		identifiedDisplayName = "Token of the King",
 		identifiedResourceName = "상인영수증",
 		identifiedDescriptionName = {
 			"국왕의 날인이 찍힌 증표. 이 증서는 보상과 교환이 가능하다.",
@@ -230,10 +214,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6531] = {
-		unidentifiedDisplayName = "국왕의 증표",
+		unidentifiedDisplayName = "Token of the King",
 		unidentifiedResourceName = "상인영수증",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "국왕의 증표",
+		identifiedDisplayName = "Token of the King",
 		identifiedResourceName = "상인영수증",
 		identifiedDescriptionName = {
 			"국왕의 날인이 찍힌 증표. 이 증서는 마치 5장 같은 1장인 기분이 든다.",
@@ -243,10 +227,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6532] = {
-		unidentifiedDisplayName = "꿀송편",
+		unidentifiedDisplayName = "Honey Rice Cake",
 		unidentifiedResourceName = "행운의떡",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "꿀송편",
+		identifiedDisplayName = "Honey Rice Cake",
 		identifiedResourceName = "행운의떡",
 		identifiedDescriptionName = {
 			"송편의 속에 팥소 대신 달콤한 꿀이 들어있다. 오군의 도련님이 매우 좋아한다.",
@@ -256,10 +240,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6543] = {
-		unidentifiedDisplayName = "110레벨 돌파 코인",
+		unidentifiedDisplayName = "Exceeded Level 110 Coin",
 		unidentifiedResourceName = "터보트랙코인",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "110레벨 돌파 코인",
+		identifiedDisplayName = "Exceeded Level 110 Coin",
 		identifiedResourceName = "터보트랙코인",
 		identifiedDescriptionName = {
 			"단기간 내에 110LV을 돌파한 자에게 주어지는 코인.",
@@ -269,10 +253,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6544] = {
-		unidentifiedDisplayName = "120레벨 돌파 코인",
+		unidentifiedDisplayName = "Exceeded Level 120 Coin",
 		unidentifiedResourceName = "아레나코인",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "120레벨 돌파 코인",
+		identifiedDisplayName = "Exceeded Level 120 Coin",
 		identifiedResourceName = "아레나코인",
 		identifiedDescriptionName = {
 			"단기간 내에 120LV을 돌파한 자에게 주어지는 코인.",
@@ -282,10 +266,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[6556] = {
-		unidentifiedDisplayName = "고급 헤드폰 교환권",
+		unidentifiedDisplayName = "Advanced Headphone Coupon",
 		unidentifiedResourceName = "쿠폰",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "고급 헤드폰 교환권",
+		identifiedDisplayName = "Advanced Headphone Coupon",
 		identifiedResourceName = "쿠폰",
 		identifiedDescriptionName = {
 			"[고급 헤드폰 교환권] 이라고 크게 쓰여진 종이.",
@@ -584,10 +568,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[11601] = {
-		unidentifiedDisplayName = "맛있는 멸치",
+		unidentifiedDisplayName = "Delicious Sardine",
 		unidentifiedResourceName = "입에문물고기",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "맛있는 멸치",
+		identifiedDisplayName = "Delicious Sardine",
 		identifiedResourceName = "입에문물고기",
 		identifiedDescriptionName = {
 			"멸치과에 속하는 바닷물고기. 검푸른 등과 은백색의 배를 가지고 있는 작은 물고기로, 라자냐의 앞바다에서 잡은 것을 최고로 친다. HP를 소량 회복시켜 준다.",
@@ -597,10 +581,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[11602] = {
-		unidentifiedDisplayName = "개박하 열매",
+		unidentifiedDisplayName = "Catnip Fruit",
 		unidentifiedResourceName = "개박하열매",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "개박하 열매",
+		identifiedDisplayName = "Catnip Fruit",
 		identifiedResourceName = "개박하열매",
 		identifiedDescriptionName = {
 			"개다래보다 작은 열매. 소량의 HP를 회복시켜 준다. 도람족 스킬 사용 시 소모되기도 한다.",
@@ -610,10 +594,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[11603] = {
-		unidentifiedDisplayName = "[not for sale]Mastella Fruit",
+		unidentifiedDisplayName = "[Not for sale]Mastella Fruit",
 		unidentifiedResourceName = "마스테라의열매",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]Mastella Fruit",
+		identifiedDisplayName = "[Not for sale]Mastella Fruit",
 		identifiedResourceName = "마스테라의열매",
 		identifiedDescriptionName = {
 			"마스테라나무에서 따온 잘익은 열매. 보라색의 탐스러운 빛을 뽐내는 상큼한 과일.^000088대량의 HP를 회복^000000 시켜준다.",
@@ -623,10 +607,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[11604] = {
-		unidentifiedDisplayName = "[not for sale]Royal Jelly",
+		unidentifiedDisplayName = "[Not for sale]Royal Jelly",
 		unidentifiedResourceName = "로얄제리",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]Royal Jelly",
+		identifiedDisplayName = "[Not for sale]Royal Jelly",
 		identifiedResourceName = "로얄제리",
 		identifiedDescriptionName = {
 			"꿀벌에게서 나오는 젖과 같은 물질을 모아 만든것. 여왕벌의 먹이로써 몸에 매우 좋다고 한다. ^000088다양한 상태이상(독, 저주, 침묵, 혼란, 암흑) 회복^000000과 ^000088HP와 SP가 같이 회복^000000된다.",
@@ -636,10 +620,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12294] = {
-		unidentifiedDisplayName = "PC방 코인상자 1",
+		unidentifiedDisplayName = "PC Cafe Coin Box 1",
 		unidentifiedResourceName = "햇빛의상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 코인상자 1",
+		identifiedDisplayName = "PC Cafe Coin Box 1",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"녹슨 기념 주화가 나오는 상자. 상자 개봉 시, 기념주화의 지속시간은 1시간이니 유념할 것.",
@@ -650,10 +634,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12295] = {
-		unidentifiedDisplayName = "PC방 코인상자 2",
+		unidentifiedDisplayName = "PC Cafe Coin Box 2",
 		unidentifiedResourceName = "햇빛의상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 코인상자 2",
+		identifiedDisplayName = "PC Cafe Coin Box 2",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"일반 기념 주화가 나오는 상자, 상자 개봉 시, 기념주화의 지속시간은 1시간이니 유념할 것.",
@@ -664,10 +648,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12296] = {
-		unidentifiedDisplayName = "PC방 코인상자 3",
+		unidentifiedDisplayName = "PC Cafe Coin Box 3",
 		unidentifiedResourceName = "햇빛의상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 코인상자 3",
+		identifiedDisplayName = "PC Cafe Coin Box 3",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"반짝이는 기념 주화가 나오는 상자, 상자 개봉 시, 기념주화의 지속시간은 1시간이니 유념할 것.",
@@ -678,20 +662,20 @@ tbl = {
 		ClassNum = 0
 	},
 	[12297] = {
-		unidentifiedDisplayName = "PC방 코인상자 4",
+		unidentifiedDisplayName = "PC Cafe Coin Box 4",
 		unidentifiedResourceName = "햇빛의상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 코인상자 4",
+		identifiedDisplayName = "PC Cafe Coin Box 4",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = { "반짝이는 기념 주화가 나오는 상자, 상자 개봉 시, 기념주화의 지속시간은 2시간이니 유념할 것.", "^ffffff_^000000", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[12391] = {
-		unidentifiedDisplayName = "행운의 알",
+		unidentifiedDisplayName = "Lucky Egg",
 		unidentifiedResourceName = "애니멀스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "행운의 알",
+		identifiedDisplayName = "Lucky Egg",
 		identifiedResourceName = "애니멀스크롤",
 		identifiedDescriptionName = {
 			"귀엽게 채색된 알모양 꾸러미. 열어보면 무언가 나올 것 같다.",
@@ -702,10 +686,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12403] = {
-		unidentifiedDisplayName = "행운의 알Ⅱ",
+		unidentifiedDisplayName = "Lucky Egg II",
 		unidentifiedResourceName = "하트스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "행운의 알Ⅱ",
+		identifiedDisplayName = "Lucky Egg II",
 		identifiedResourceName = "하트스크롤",
 		identifiedDescriptionName = {
 			"귀엽게 채색된 알모양 꾸러미. 열어보면 무언가 나올 것 같다.",
@@ -715,10 +699,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12407] = {
-		unidentifiedDisplayName = "PC방 쿠폰 상자",
+		unidentifiedDisplayName = "PC Cafe Coupon Box",
 		unidentifiedResourceName = "캐시상자_녹색",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 쿠폰 상자",
+		identifiedDisplayName = "PC Cafe Coupon Box",
 		identifiedResourceName = "캐시상자_녹색",
 		identifiedDescriptionName = {
 			"잘 포장된 선물상자. 무엇이 들어있는지는 알 수 없다.",
@@ -728,10 +712,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12416] = {
-		unidentifiedDisplayName = "행운의 알Ⅲ",
+		unidentifiedDisplayName = "Lucky Egg III",
 		unidentifiedResourceName = "대만7월7석스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "행운의 알Ⅲ",
+		identifiedDisplayName = "Lucky Egg III",
 		identifiedResourceName = "대만7월7석스크롤",
 		identifiedDescriptionName = {
 			"귀엽게 채색된 알모양 꾸러미. 열어보면 무언가 나올 것 같다.",
@@ -741,10 +725,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12493] = {
-		unidentifiedDisplayName = "행운의 알Ⅳ",
+		unidentifiedDisplayName = "Lucky Egg IV",
 		unidentifiedResourceName = "대만백소진스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "행운의 알Ⅳ",
+		identifiedDisplayName = "Lucky Egg IV",
 		identifiedResourceName = "대만백소진스크롤",
 		identifiedDescriptionName = {
 			"귀엽게 채색된 알모양 꾸러미. 열어보면 무언가 나올 것 같다.",
@@ -754,10 +738,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12508] = {
-		unidentifiedDisplayName = "[비매품]초록나비의 날개",
+		unidentifiedDisplayName = "[Not for sale]Green Butterfly Wing",
 		unidentifiedResourceName = "나비의날개",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[비매품]초록나비의 날개",
+		identifiedDisplayName = "[Not for sale]Green Butterfly Wing",
 		identifiedResourceName = "나비의날개",
 		identifiedDescriptionName = {
 			"슈발츠 공화국의 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
@@ -769,10 +753,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12509] = {
-		unidentifiedDisplayName = "[비매품]빨간나비의 날개",
+		unidentifiedDisplayName = "[Not for sale]Red Butterfly Wing",
 		unidentifiedResourceName = "나비의날개",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[비매품]빨간나비의 날개",
+		identifiedDisplayName = "[Not for sale]Red Butterfly Wing",
 		identifiedResourceName = "나비의날개",
 		identifiedDescriptionName = {
 			"라헬의 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
@@ -784,10 +768,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12510] = {
-		unidentifiedDisplayName = "[비매품]파란나비의 날개",
+		unidentifiedDisplayName = "[Not for sale]Blue Butterfly Wing",
 		unidentifiedResourceName = "나비의날개",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[비매품]파란나비의 날개",
+		identifiedDisplayName = "[Not for sale]Blue Butterfly Wing",
 		identifiedResourceName = "나비의날개",
 		identifiedDescriptionName = {
 			"로컬라이징 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
@@ -855,10 +839,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12541] = {
-		unidentifiedDisplayName = "포춘쿠키",
+		unidentifiedDisplayName = "Fortune Cookie",
 		unidentifiedResourceName = "포춘쿠키",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "포춘쿠키",
+		identifiedDisplayName = "Fortune Cookie",
 		identifiedResourceName = "포춘쿠키",
 		identifiedDescriptionName = {
 			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
@@ -868,10 +852,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12542] = {
-		unidentifiedDisplayName = "포춘쿠키",
+		unidentifiedDisplayName = "Fortune Cookie",
 		unidentifiedResourceName = "포춘쿠키",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "포춘쿠키",
+		identifiedDisplayName = "Fortune Cookie",
 		identifiedResourceName = "포춘쿠키",
 		identifiedDescriptionName = {
 			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
@@ -881,10 +865,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12543] = {
-		unidentifiedDisplayName = "포춘쿠키",
+		unidentifiedDisplayName = "Fortune Cookie",
 		unidentifiedResourceName = "포춘쿠키",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "포춘쿠키",
+		identifiedDisplayName = "Fortune Cookie",
 		identifiedResourceName = "포춘쿠키",
 		identifiedDescriptionName = {
 			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
@@ -982,8 +966,8 @@ tbl = {
 		identifiedDisplayName = "Cheering Scarf Box",
 		identifiedResourceName = "선물상자_1",
 		identifiedDescriptionName = {
-			"[비매품]지크프리드의 증표 30개 , [비매품] 풍선껌 20개, 무한 파리의 날개 1개 들어있는 상자.",
-			"무한 파리의 날개는 개봉 후 7일간 사용가능.",
+			"[Not for sale]Token of Siegfried 30개 , [Not for sale] 풍선껌 20개, 무한 파리의 Wing 1개 들어있는 상자.",
+			"무한 파리의 Wing는 개봉 후 7일간 사용가능.",
 			"(^ff0000해당 아이템은 2016년 1월 27일 정기점검시 일괄 삭제됩니다.^000000) ",
 			"Weight: ^0EAA0B10^000000"
 		},
@@ -1108,10 +1092,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12795] = {
-		unidentifiedDisplayName = "2011 RWC 스크롤",
+		unidentifiedDisplayName = "2011 RWC Scroll",
 		unidentifiedResourceName = "RWC특수스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "2011 RWC 스크롤",
+		identifiedDisplayName = "2011 RWC Scroll",
 		identifiedResourceName = "RWC특수스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 2011 RWC 기념 스크롤.",
@@ -1122,10 +1106,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12799] = {
-		unidentifiedDisplayName = "PC방 쿠폰 상자Ⅴ",
+		unidentifiedDisplayName = "PC Cafe Coupon Box V",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 쿠폰 상자Ⅴ",
+		identifiedDisplayName = "PC Cafe Coupon Box V",
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
 			"잘 포장된 선물상자. 무엇이 들어있는지는 알 수 없다.",
@@ -1135,10 +1119,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12802] = {
-		unidentifiedDisplayName = "시간의 수호자 상자",
+		unidentifiedDisplayName = "Guardian of Time Box",
 		unidentifiedResourceName = "햇빛의상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "시간의 수호자 상자",
+		identifiedDisplayName = "Guardian of Time Box",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"전투교범 5개, 풍선껌 5개, 생명보험증서 5개와 시간의 수호자쉴드, 부츠, 망토, 모자, 로브 각 1개 씩과, 메탈 카타르, 투핸드액스, 랜스, 북, 스태프, 대거, 메이스, 보우, 투핸드소드, 리볼버, 풍마수리검이 각 1개 씩이 들어있는 상자.",
@@ -1148,23 +1132,23 @@ tbl = {
 		ClassNum = 0
 	},
 	[12803] = {
-		unidentifiedDisplayName = "초보자 지원 상자",
+		unidentifiedDisplayName = "Novice Support Box",
 		unidentifiedResourceName = "선물상자_1",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "초보자 지원 상자",
+		identifiedDisplayName = "Novice Support Box",
 		identifiedResourceName = "선물상자_1",
 		identifiedDescriptionName = {
-			"초보자용 포션 300개, 초보자용 파리의 날개 100개, 초보자용 나비의 날개 20개, 초보자용 돋보기 10개와 화살통 5개가 담겨있는 상자.",
+			"초보자용 포션 300개, 초보자용 파리의 Wing 100개, 초보자용 나비의 Wing 20개, 초보자용 돋보기 10개와 화살통 5개가 담겨있는 상자.",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[12804] = {
-		unidentifiedDisplayName = "크루 스크롤",
+		unidentifiedDisplayName = "Crew Scroll",
 		unidentifiedResourceName = "크루스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "크루 스크롤",
+		identifiedDisplayName = "Crew Scroll",
 		identifiedResourceName = "크루스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 크루의 알.",
@@ -1175,10 +1159,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12805] = {
-		unidentifiedDisplayName = "미스틱 파우더",
+		unidentifiedDisplayName = "Mystic Powder",
 		unidentifiedResourceName = "요정의마법가루",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "미스틱 파우더",
+		identifiedDisplayName = "Mystic Powder",
 		identifiedResourceName = "요정의마법가루",
 		identifiedDescriptionName = {
 			"뿌리면 잠시동안 몸이 매우 가벼워지는 신비한 파우더.",
@@ -1189,21 +1173,11 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[12806] = {
-		unidentifiedDisplayName = "스카라바 소환서",
-		unidentifiedResourceName = "주문서다발",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "스카라바 소환서",
-		identifiedResourceName = "주문서다발",
-		identifiedDescriptionName = { "몬스터  스카라바를 용병으로 소환 가능한 스크롤.", "용병 지속시간 중 캐릭터가 전투불능상태가 되면 용병은 사라집니다.", "무게 : ^7777771^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[12807] = {
-		unidentifiedDisplayName = "용병 소환뭉치",
+		unidentifiedDisplayName = "Mercenary Summoning Bundle",
 		unidentifiedResourceName = "주문서다발",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "용병 소환뭉치",
+		identifiedDisplayName = "Mercenary Summoning Bundle",
 		identifiedResourceName = "주문서다발",
 		identifiedDescriptionName = {
 			"8Lv 검용병, 8Lv 창용병, 8Lv 활용병 소환할 수 있는 소환서를 각각 5장 씩 모아서 잘 말아둔 뭉치. 어머니의 마음 상자도 1개 들어있다.",
@@ -1214,10 +1188,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12808] = {
-		unidentifiedDisplayName = "온화한 어머니의 마음 상자",
+		unidentifiedDisplayName = "Mother's Gentle Heart Box",
 		unidentifiedResourceName = "선물상자_1",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "온화한 어머니의 마음 상자",
+		identifiedDisplayName = "Mother's Gentle Heart Box",
 		identifiedResourceName = "선물상자_1",
 		identifiedDescriptionName = {
 			"어머니의 마음이 1개가 들어있다. 14일간 사용가능.",
@@ -1239,10 +1213,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12809] = {
-		unidentifiedDisplayName = "레벨업 상자",
+		unidentifiedDisplayName = "Level Up box",
 		unidentifiedResourceName = "번호상자05",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "레벨업 상자",
+		identifiedDisplayName = "Level Up box",
 		identifiedResourceName = "번호상자05",
 		identifiedDescriptionName = {
 			"신속한 레벨업을 위해 꼭 필요한 준비물 상자.",
@@ -1255,10 +1229,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12810] = {
-		unidentifiedDisplayName = "이벤트 선물상자",
+		unidentifiedDisplayName = "Event Gift Box",
 		unidentifiedResourceName = "pro선물상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "이벤트 선물상자",
+		identifiedDisplayName = "Event Gift Box",
 		identifiedResourceName = "pro선물상자",
 		identifiedDescriptionName = {
 			"이그드라실의 열매가 3개 들어있는 상자. 거기에 덤으로 교환 티켓 로리루리, 마력깃든 카드첩, 무기 9제련 보장권, 방어구 9제련보장권 등등 여러가지 경품아이템들 중 하나가 랜덤 등장!",
@@ -1268,10 +1242,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12811] = {
-		unidentifiedDisplayName = "GM이벤트 선물상자",
+		unidentifiedDisplayName = "GM Event Gift Box",
 		unidentifiedResourceName = "pro선물상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "GM이벤트 선물상자",
+		identifiedDisplayName = "GM Event Gift Box",
 		identifiedResourceName = "pro선물상자",
 		identifiedDescriptionName = {
 			"이그드라실의 열매가 3개 들어있는 상자. ",
@@ -1284,10 +1258,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12825] = {
-		unidentifiedDisplayName = "플립의 씨알",
+		unidentifiedDisplayName = "CR Flip",
 		unidentifiedResourceName = "발아새싹",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "플립의 씨알",
+		identifiedDisplayName = "CR Flip",
 		identifiedResourceName = "발아새싹",
 		identifiedDescriptionName = {
 			"라그2의 귀여운 꽃잎 몬스터를 본딴 플립모자, 마력 깃든 카드첩, 포장된 가면, 보석함, 피묻은 나뭇가지 등등 여러가지 아이템 중 1종이 들어있다고 한다. 무엇이 나올진 알 수 없다.",
@@ -1297,10 +1271,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12833] = {
-		unidentifiedDisplayName = "조직의단결력",
+		unidentifiedDisplayName = "Solidarity of Organization",
 		unidentifiedResourceName = "조직의단결력",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "조직의단결력",
+		identifiedDisplayName = "Solidarity of Organization",
 		identifiedResourceName = "조직의단결력",
 		identifiedDescriptionName = {
 			"하나의 집단의 결속력을 강화하는 듯한 이미지를 갖고 있다.  실제로 이 조각상을 본 사람들은 결속력이 튼튼해지는 것을 느낀다고 한다.",
@@ -1310,10 +1284,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12834] = {
-		unidentifiedDisplayName = "언데드의 핵",
+		unidentifiedDisplayName = "Nucleus of Undead",
 		unidentifiedResourceName = "암흑의의지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "언데드의 핵",
+		identifiedDisplayName = "Nucleus of Undead",
 		identifiedResourceName = "암흑의의지",
 		identifiedDescriptionName = {
 			"기간 한정 언데드의 핵.",
@@ -1324,24 +1298,24 @@ tbl = {
 		ClassNum = 0
 	},
 	[12835] = {
-		unidentifiedDisplayName = "소녀의 마음",
+		unidentifiedDisplayName = "Heart of Girl",
 		unidentifiedResourceName = "성스러운알",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "소녀의 마음",
+		identifiedDisplayName = "Heart of Girl",
 		identifiedResourceName = "성스러운알",
 		identifiedDescriptionName = {
 			"기간 한정 소녀의 마음.",
-			"하트날개 헤어밴드, 낡은 카드첩(걸칠것), 천사의 날개귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"하트날개 헤어밴드, 낡은 카드첩(걸칠것), 천사의 Wing귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[12854] = {
-		unidentifiedDisplayName = "풍성한 꽃가지",
+		unidentifiedDisplayName = "Abundant Eggplant Flower",
 		unidentifiedResourceName = "커다란꽃가지",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "풍성한 꽃가지",
+		identifiedDisplayName = "Abundant Eggplant Flower",
 		identifiedResourceName = "커다란꽃가지",
 		identifiedDescriptionName = {
 			"꽃가지 여러개를 장인이 한땀한땀 정성스럽게 덧붙여 아주 풍성하게 만들었다.",
@@ -1353,10 +1327,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12855] = {
-		unidentifiedDisplayName = "교황스크롤",
+		unidentifiedDisplayName = "Pope Scroll",
 		unidentifiedResourceName = "교황스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "교황스크롤",
+		identifiedDisplayName = "Pope Scroll",
 		identifiedResourceName = "교황스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 아루나펠츠 교국 스크롤.",
@@ -1367,10 +1341,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12856] = {
-		unidentifiedDisplayName = "RG황금사과 조각",
+		unidentifiedDisplayName = "RG Golden Apple Slice",
 		unidentifiedResourceName = "RG황금사과조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "RG황금사과 조각",
+		identifiedDisplayName = "RG Golden Apple Slice",
 		identifiedResourceName = "RG황금사과조각",
 		identifiedDescriptionName = {
 			"이그드라실의 수액으로 여신 이둔의 사과를 모방하여 창조된 황금빛 사과. 누군가 반만 먹어버린 모양이다.",
@@ -1382,10 +1356,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12857] = {
-		unidentifiedDisplayName = "RG황금사과",
+		unidentifiedDisplayName = "RG Golden Apple",
 		unidentifiedResourceName = "RG황금사과",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "RG황금사과",
+		identifiedDisplayName = "RG Golden Apple",
 		identifiedResourceName = "RG황금사과",
 		identifiedDescriptionName = {
 			"이그드라실의 수액으로 여신 이둔의 사과를 모방하여 창조된 황금빛 사과. 정말 금으로 만들어진 듯 광택이 난다.",
@@ -1397,10 +1371,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12858] = {
-		unidentifiedDisplayName = "RG크바시르",
+		unidentifiedDisplayName = "RG Kvasir",
 		unidentifiedResourceName = "RG황금포션",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "RG황금포션",
+		identifiedDisplayName = "RG Kvasir",
 		identifiedResourceName = "RG황금포션",
 		identifiedDescriptionName = {
 			"미드가르드의 알케미스트 포션학의 집대성. 현존하는 최고의 포션으로, 소량으로도 엄청난 효능을 보여준다. 신의 음료라고 불릴 정도로 호평.",
@@ -1412,20 +1386,20 @@ tbl = {
 		ClassNum = 0
 	},
 	[12871] = {
-		unidentifiedDisplayName = "의문의 알II",
+		unidentifiedDisplayName = "Mysterious Egg II",
 		unidentifiedResourceName = "깜짝스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "의문의 알II",
+		identifiedDisplayName = "Mysterious Egg II",
 		identifiedResourceName = "깜짝스크롤",
-		identifiedDescriptionName = { "정체를 알 수 없는 작은 알. 겉껍질에 생긴 균열 사이로 화려한 색의 껍질이 한 겹 더 보인다!", "무게 : ^7777771^000000" },
+		identifiedDescriptionName = { "정체를 알 수 없는 작은 알. 겉껍질에 생긴 균열 사이로 화려한 색의 껍질이 한 겹 더 보인다!", "Weight: ^0EAA0B1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[12872] = {
-		unidentifiedDisplayName = "전투교범 한정판",
+		unidentifiedDisplayName = "Limited Battle Manual",
 		unidentifiedResourceName = "전투교범",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "전투교범 한정판",
+		identifiedDisplayName = "Limited Battle Manual",
 		identifiedResourceName = "전투교범",
 		identifiedDescriptionName = {
 			"보다 효율적인 전투방법이 기록된 설명서 한정판!",
@@ -1437,10 +1411,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12924] = {
-		unidentifiedDisplayName = "펫 알 스크롤 상자",
+		unidentifiedDisplayName = "Pet Egg Scroll Box",
 		unidentifiedResourceName = "펫알스크롤상자2",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "펫 알 스크롤 상자",
+		identifiedDisplayName = "Pet Egg Scroll Box",
 		identifiedResourceName = "펫알스크롤상자2",
 		identifiedDescriptionName = {
 			"투명한 펫알 스크롤이 1개 들어있는 상자.",
@@ -1452,10 +1426,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[12926] = {
-		unidentifiedDisplayName = "펫 알 스크롤",
+		unidentifiedDisplayName = "Pet Egg Scroll",
 		unidentifiedResourceName = "수속성알",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "펫 알 스크롤",
+		identifiedDisplayName = "Pet Egg Scroll",
 		identifiedResourceName = "수속성알",
 		identifiedDescriptionName = {
 			"투명한 펫 알 모양의 스크롤. 사용하면 여러가지 신기한 아이템이 나온다고 한다.",
@@ -1928,7 +1902,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 2개, 혓바닥 요리 2개, 사막전갈 모래찜 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"전투교범 2개, 혓바닥 요리 2개, 사막전갈 모래찜 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, Token of Siegfried가 1개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -1944,7 +1918,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 2개, 혓바닥 요리 2개, 불사의 찌개 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"전투교범 2개, 혓바닥 요리 2개, 불사의 찌개 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, Token of Siegfried가 1개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -1960,7 +1934,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 2개, 칵테일 용의 숨결 2개, 흐베르겔미르의 술 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"전투교범 2개, 칵테일 용의 숨결 2개, 흐베르겔미르의 술 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, Token of Siegfried가 1개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -1976,7 +1950,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 2개, 칵테일 용의 숨결 2개, 불사의 찌개 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"전투교범 2개, 칵테일 용의 숨결 2개, 불사의 찌개 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, Token of Siegfried가 1개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -1992,7 +1966,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 2개, 칵테일 용의 숨결 2개, 혓바닥 요리 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"전투교범 2개, 칵테일 용의 숨결 2개, 혓바닥 요리 2개, 민첩성 증가 스크롤 15개, 블레싱 스크롤 15개, 카프라 명함 1개, Token of Siegfried가 1개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -2008,7 +1982,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 2개, 사막전갈 모래찜 2개, 혓바닥 요리 2개, 아드레날린 러쉬 스크롤 24개, 아스페르시오 스크롤 20개, 카프라 명함 1개, 지크프리드의 증표가 1개 들어있다.",
+			"전투교범 2개, 사막전갈 모래찜 2개, 혓바닥 요리 2개, 아드레날린 러쉬 스크롤 24개, 아스페르시오 스크롤 20개, 카프라 명함 1개, Token of Siegfried가 1개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -2024,7 +1998,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 4개, 혓바닥 요리 4개, 사막전갈 모래찜 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"전투교범 4개, 혓바닥 요리 4개, 사막전갈 모래찜 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, Token of Siegfried가 2개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -2040,7 +2014,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 4개, 혓바닥 요리 4개, 불사의 찌개 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"전투교범 4개, 혓바닥 요리 4개, 불사의 찌개 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, Token of Siegfried가 2개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -2056,7 +2030,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 4개, 칵테일 용의 숨결 4개, 흐베르겔미르의 술 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"전투교범 4개, 칵테일 용의 숨결 4개, 흐베르겔미르의 술 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, Token of Siegfried가 2개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -2072,7 +2046,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 4개, 칵테일 용의 숨결 4개, 불사의 찌개 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"전투교범 4개, 칵테일 용의 숨결 4개, 불사의 찌개 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, Token of Siegfried가 2개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -2088,7 +2062,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 4개, 칵테일 용의 숨결 4개, 혓바닥 요리 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"전투교범 4개, 칵테일 용의 숨결 4개, 혓바닥 요리 4개, 민첩성 증가 스크롤 30개, 블레싱 스크롤 30개, 카프라 명함 2개, Token of Siegfried가 2개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -2104,7 +2078,7 @@ tbl = {
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
 			"2시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자.",
-			"전투교범 4개, 사막전갈 모래찜 4개, 혓바닥 요리 4개, 아드레날린 러쉬 스크롤 48개, 아스페르시오 스크롤 40개, 카프라 명함 2개, 지크프리드의 증표가 2개 들어있다.",
+			"전투교범 4개, 사막전갈 모래찜 4개, 혓바닥 요리 4개, 아드레날린 러쉬 스크롤 48개, 아스페르시오 스크롤 40개, 카프라 명함 2개, Token of Siegfried가 2개 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -2330,7 +2304,7 @@ tbl = {
 			"쉐도우 장비가 들어있는 상자.",
 			"파워 (이어링, 펜던트), 인트 (펜던트, 이어링), 덱스터러스 (아머, 웨폰),",
 			"바이탈 (슈즈, 쉴드), 어틀레틱 (쉴드, 슈즈), 럭키 (웨폰, 아머) 쉐도우 장비 중 1개를 얻을 수 있다.",
-			"간혹 찬란한 황금 날개가 나오기도 한다.",
+			"간혹 찬란한 황금 Wing가 나오기도 한다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -2345,7 +2319,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"기간 한정 해피벌룬 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, 해피벌룬, [not for sale]섬광막대 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무기 11제련 보장권, 방어구 11제련 보장권, 해피벌룬, [Not for sale]섬광막대 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -2363,7 +2337,7 @@ tbl = {
 			"파릇한 풀내음이 나는 네잎크로버.",
 			"운이 따를 것 같다.",
 			"ATK +5, MATK +5, MDEF +2.",
-			"PC방에서 착용 시 경험치 획득량 2% 증가.",
+			"PC Cafe에서 착용 시 경험치 획득량 2% 증가.",
 			"계열 : ^777777투구^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD하단 ^000000 무게 : ^7777770^000000",
@@ -2435,7 +2409,7 @@ tbl = {
 			"6이상 제련 시 : 중형 몬스터에 대한 데미지 8% 증가. 낮은확률로 5초간 무기에 대한 크기 페널티가 사라짐.",
 			"9이상 제련 시 : 중형 몬스터에 대한 데미지 20% 증가.",
 			"12이상 제련 시 : 크기 페널티 사라짐이 상시 지속.",
-			"[골드PC방에서 사용 시 추가 옵션]",
+			"[골드PC Cafe에서 사용 시 추가 옵션]",
 			"매 타격당 SP 1씩 회복, 중형 몬스터에 대한 데미지 5% 추가 증가.",
 			"8이상 제련 시 : 크기 패널티 사라짐이 상시 지속.",
 			"9이상 제련 시 : 타격 시 낮은확률로 5초간 SP 2 추가 회복.",
@@ -2464,7 +2438,7 @@ tbl = {
 			"6이상 제련 시 : 중형 몬스터에 대한 데미지 8% 증가. 낮은확률로 5초간 무기에 대한 크기 페널티가 사라짐.",
 			"9이상 제련 시 : 중형 몬스터에 대한 데미지 20% 증가.",
 			"12이상 제련 시 : 크기 페널티 사라짐이 상시 지속.",
-			"[골드PC방에서 사용 시 추가 옵션]",
+			"[골드PC Cafe에서 사용 시 추가 옵션]",
 			"매 타격당 SP 1씩 회복, 중형 몬스터에 대한 데미지 5% 추가 증가.",
 			"8이상 제련 시 : 크기 패널티 사라짐이 상시 지속.",
 			"9이상 제련 시 : 타격 시 낮은확률로 5초간 SP 2 추가 회복.",
@@ -2785,7 +2759,7 @@ tbl = {
 			"아스프리카(체험판)이 1개 들어있는 상자.",
 			"7일간 사용 가능 하다.",
 			"^000088임대 아이템^000000",
-			"세상에 존재하는 모든 빛을 모아 만들어진 날개. '신들의 빛'이라는 의미를 가지고 있다.",
+			"세상에 존재하는 모든 빛을 모아 만들어진 Wing. '신들의 빛'이라는 의미를 가지고 있다.",
 			"모든 속성의 물리공격에 대한 내성 15%.",
 			"FLEE +15, MDEF +2.",
 			"텔레포트 Lv1 사용가능.",
@@ -2884,7 +2858,7 @@ tbl = {
 		identifiedResourceName = "음식보자기",
 		identifiedDescriptionName = {
 			"그랜드 페코의 머리띠가 1개 들어있는 상자.",
-			"그랜드 페코페코의 날개깃털을 엮어만든 화려한 머리장식.",
+			"그랜드 페코페코의 Wing깃털을 엮어만든 화려한 머리장식.",
 			"인간형, 동물형 몬스터에게 주는 데미지 7% 증가.",
 			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
 			"Class: ^6A5ACDHeadgear^000000",
@@ -2905,7 +2879,7 @@ tbl = {
 		identifiedResourceName = "음식보자기",
 		identifiedDescriptionName = {
 			"그랜드 페코의 머리띠가 1개 들어있는 상자.",
-			"그랜드 페코페코의 날개깃털을 엮어만든 화려한 머리장식.",
+			"그랜드 페코페코의 Wing깃털을 엮어만든 화려한 머리장식.",
 			"인간형, 동물형 몬스터에게 주는 데미지 7% 증가.",
 			"물리 데미지를 받을 시 피해를 입힌 대상에게 일정확률로 저주를 건다.",
 			"Class: ^6A5ACDHeadgear^000000",
@@ -2939,7 +2913,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
-			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
+			"골드 PC Cafe에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -2963,7 +2937,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -2987,7 +2961,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
-			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
+			"골드 PC Cafe에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3011,7 +2985,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3036,7 +3010,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"골드 PC Cafe에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3060,7 +3034,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"골드 PC Cafe에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3084,7 +3058,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"골드 PC Cafe에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3107,7 +3081,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
-			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
+			"골드 PC Cafe에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3131,7 +3105,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3155,7 +3129,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
-			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
+			"골드 PC Cafe에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3179,7 +3153,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3203,7 +3177,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
-			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
+			"골드 PC Cafe에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3227,7 +3201,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACD하단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3252,7 +3226,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"골드 PC Cafe에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3276,7 +3250,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"골드 PC Cafe에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
@@ -3300,7 +3274,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
+			"골드 PC Cafe에서 사용 시, 추가로 INT +1, 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단 ^000000 Weight: ^0EAA0B0^000000",
@@ -4065,15 +4039,15 @@ tbl = {
 		ClassNum = 0
 	},
 	[16794] = {
-		unidentifiedDisplayName = "거대한 파리의 날개 10개 상자",
+		unidentifiedDisplayName = "거대한 파리의 Wing 10개 상자",
 		unidentifiedResourceName = "오래된보라상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "거대한 파리의 날개 10개 상자",
+		identifiedDisplayName = "거대한 파리의 Wing 10개 상자",
 		identifiedResourceName = "오래된보라상자",
 		identifiedDescriptionName = {
-			"거대한 파리의 날개가 10장 들어있는 상자. 매우 가볍다.",
+			"거대한 파리의 Wing가 10장 들어있는 상자. 매우 가볍다.",
 			"^ffffff_^000000",
-			"거대한 파리의 날개 - 파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
+			"거대한 파리의 Wing - 파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -4082,15 +4056,15 @@ tbl = {
 		ClassNum = 0
 	},
 	[16795] = {
-		unidentifiedDisplayName = "거대한 파리의 날개 100개 상자",
+		unidentifiedDisplayName = "거대한 파리의 Wing 100개 상자",
 		unidentifiedResourceName = "오래된보라상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "거대한 파리의 날개 100개 상자",
+		identifiedDisplayName = "거대한 파리의 Wing 100개 상자",
 		identifiedResourceName = "오래된보라상자",
 		identifiedDescriptionName = {
-			"거대한 파리의 날개가 100장 들어있는 상자. 매우 가볍다.",
+			"거대한 파리의 Wing가 100장 들어있는 상자. 매우 가볍다.",
 			"^ffffff_^000000",
-			"거대한 파리의 날개 - 파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
+			"거대한 파리의 Wing - 파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -4099,15 +4073,15 @@ tbl = {
 		ClassNum = 0
 	},
 	[16796] = {
-		unidentifiedDisplayName = "지크프리드의 증표 5개 상자",
+		unidentifiedDisplayName = "Token of Siegfried 5개 상자",
 		unidentifiedResourceName = "오래된보라상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "지크프리드의 증표 5개 상자",
+		identifiedDisplayName = "Token of Siegfried 5개 상자",
 		identifiedResourceName = "오래된보라상자",
 		identifiedDescriptionName = {
-			"지크프리드의 증표가 5개 들어있는 상자.",
+			"Token of Siegfried가 5개 들어있는 상자.",
 			"^ffffff_^000000",
-			"지크프리드의 증표 - 사망시 사망장소에서 바로 부활 가능",
+			"Token of Siegfried - 사망시 사망장소에서 바로 부활 가능",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -4116,15 +4090,15 @@ tbl = {
 		ClassNum = 0
 	},
 	[16797] = {
-		unidentifiedDisplayName = "지크프리드의 증표 20개 상자",
+		unidentifiedDisplayName = "Token of Siegfried 20개 상자",
 		unidentifiedResourceName = "오래된보라상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "지크프리드의 증표 20개 상자",
+		identifiedDisplayName = "Token of Siegfried 20개 상자",
 		identifiedResourceName = "오래된보라상자",
 		identifiedDescriptionName = {
-			"지크프리드의 증표가 20개 들어있는 상자.",
+			"Token of Siegfried가 20개 들어있는 상자.",
 			"^ffffff_^000000",
-			"지크프리드의 증표 - 사망시 사망장소에서 바로 부활 가능",
+			"Token of Siegfried - 사망시 사망장소에서 바로 부활 가능",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B1^000000"
@@ -5044,10 +5018,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16854] = {
-		unidentifiedDisplayName = "옷염색 쿠폰 상자",
+		unidentifiedDisplayName = "옷염색 Coupon Box",
 		unidentifiedResourceName = "졸린상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "옷염색 쿠폰 상자",
+		identifiedDisplayName = "옷염색 Coupon Box",
 		identifiedResourceName = "졸린상자",
 		identifiedDescriptionName = {
 			"옷 염색 쿠폰이 1장 들어있는 상자.",
@@ -5059,10 +5033,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16855] = {
-		unidentifiedDisplayName = "옷염색 쿠폰 상자 Ⅱ",
+		unidentifiedDisplayName = "옷염색 Coupon Box Ⅱ",
 		unidentifiedResourceName = "졸린상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "옷염색 쿠폰 상자 Ⅱ",
+		identifiedDisplayName = "옷염색 Coupon Box Ⅱ",
 		identifiedResourceName = "졸린상자",
 		identifiedDescriptionName = {
 			"본래의 색으로 옷을 염색 할 수 있는 쿠폰이 1장 들어있는 상자.",
@@ -5508,7 +5482,7 @@ tbl = {
 			"MaxHP +1%.",
 			"'고기'의 회복력이 25% 증가.",
 			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF1^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -5533,7 +5507,7 @@ tbl = {
 			"동방의 어느 명성높은 도공의 이름을 딴 검. 요도라 불리워지기도 하나 그 위력만큼은 무시할 수 없다",
 			"크리티컬율 +30%",
 			"공격속도 증가(공격 후딜레이 8% 감소)",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD양손검^000000",
 			"Attack: ^D80000204^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5558,7 +5532,7 @@ tbl = {
 			"먼 서쪽나라에서 바위에 꽂혀 있었다고 알려진 검. 스스로 주인을 가리며 성스러운 힘을 갖고 있다",
 			"INT +10",
 			"LUK +10",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD검^000000",
 			"Attack: ^D80000199^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5584,7 +5558,7 @@ tbl = {
 			"대인전투용으로써 다양한 공격패턴을 취할 수 있게끔 만들어진 살상용 단검",
 			"인간형 몬스터의 물리방어력 무시 / 인간형 적에 대한 내성 10%/ 악마형 적에 대한 피해 10% 증가",
 			"적 타격시 SP 3 회복, MaxSP +10%",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD단검^000000",
 			"Attack: ^D80000129^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5608,7 +5582,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"상대에게 치명적인 일격을 줄 가능성이 높은 단검",
 			"크리티컬 +90%",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD단검^000000",
 			"Attack: ^D80000209^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5633,7 +5607,7 @@ tbl = {
 			"사용자의 정신력을 파괴력으로 변환해 주는 지팡이로 적은 정신력으로 무시무시한 파괴력을 보장해준다",
 			"적 타격시 SP -1",
 			"STR +10 ,INT +4, MATK +120",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD지팡이^000000",
 			"Attack: ^D80000165^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5659,7 +5633,7 @@ tbl = {
 			"성속성",
 			"STR +10, 3레벨의 힐 사용가능",
 			"악마족 몬스터에게 3%의 추가 데미지, 이동속도 증가",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD도끼^000000",
 			"Attack: ^D80000229^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5684,7 +5658,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"공성전에서 사용하는, 대형 활로 원래 성벽 및 성문 파괴용이었으나 크기와 데미지를 줄여 장착가능하게 재탄생하게 된 활.",
 			"원거리 공격시 데미지 20% 증가",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD활^000000",
 			"Attack: ^D80000194^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5708,7 +5682,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"대현자가 자신의 깨달음을 일기 형식으로 적어 놓은 책.",
 			"MATK +140, 공격속도 증가.(공격 후딜레이 5% 감소)",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD책^000000",
 			"Attack: ^D80000135^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5732,7 +5706,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"먼 옛날 신이 인간에게 선사했다는 검. 이 검을 손에 쥐면 파괴적인 충동을 느끼게 된다.",
 			"MATK +98",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD단검^000000",
 			"Attack: ^D80000120^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5756,7 +5730,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"옷등의 천에 장식하여 발랄함을 한껏 돋보이게 만들어주는 장식물",
 			"AGI +4.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDAccessory^000000",
 			"Defense: ^0000FF0^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5779,7 +5753,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"일종의 마법적인 능력을 발휘하여 착용자를 보호하고 그 피해를 격감시켜주는 마법의 반지",
 			"DEF +8 , MDEF +8",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDAccessory^000000",
 			"Defense: ^0000FF0^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5798,12 +5772,12 @@ tbl = {
 		identifiedDisplayName = "페코페코 머리띠 상자",
 		identifiedResourceName = "포링상자",
 		identifiedDescriptionName = {
-			"페코페코의 날개를 형상화 한 페코페코 머리띠가 1개 들어있는 상자. 개봉 후, 2주간 사용가능.",
+			"페코페코의 Wing를 형상화 한 페코페코 머리띠가 1개 들어있는 상자. 개봉 후, 2주간 사용가능.",
 			"^000088임대 아이템^000000",
-			"마치 페코페코의 날개가 몸에 달린 듯 한 느낌이 드는 투구. 페코페코처럼 빨리 이동할 수 있게 해 준다.",
+			"마치 페코페코의 Wing가 몸에 달린 듯 한 느낌이 드는 투구. 페코페코처럼 빨리 이동할 수 있게 해 준다.",
 			"이동속도 증가.",
 			"공격속도 증가(공격 후딜레이 5% 감소). 변동 캐스팅 시간이 5% 감소.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF6^000000",
 			"Location: ^6A5ACD상단^000000",
@@ -5826,7 +5800,7 @@ tbl = {
 			"여러 개의 날이 있어 한번 베이면 치명적인 상처를 면하기 어려운 잔인한 검",
 			"인간형 몬스터에게 40%의 추가데미지",
 			"물리공격 시 더블어택 5LV(도둑계열은 배운레벨만큼) 발동.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD검^000000",
 			"Attack: ^D80000148^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5851,7 +5825,7 @@ tbl = {
 			"길고 가느다란 날을 가진 쇠막대로 어떤 방어구를 입어도 그 틈새로 찔러들어갈 수 있다고 한다",
 			"상대방의 방어력 무시. 보스에게는 통하지 않는다.",
 			"중형, 대형 적에게 20%의 추가 데미지",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD창^000000",
 			"Attack: ^D80000149^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5875,7 +5849,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"둔기가 아니라 철추라고 불려도 될 정도로 거대한 머리를 갖고 있는 초대형 둔기",
 			"언데드, 악마형 몬스터에게 각각 40% 추가데미지, 인간형 적에게 30%추가데미지.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACDMace^000000",
 			"Attack: ^D80000193^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -5900,7 +5874,7 @@ tbl = {
 			"불의 힘을 가지고 있는 붉은 칼날의 둔탁해 보이는 검.",
 			"물리 공격시 오토스펠 파이어볼트 5레벨을 낮은확률로 시전.",
 			"INT +2, 파이어볼트 5레벨 시전가능.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD검^000000",
 			"Attack: ^D80000120^000000",
 			"Weight: ^0EAA0B0^000000 ",
@@ -5925,7 +5899,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"가죽을 재료로 하여 만들어진 나비모양의 검은 가면으로 바라보고 있노라면 야릇한 느낌이 드는 것은 어쩔 수 없다",
 			"인간형 적에게 7% 추가 대미지.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF1^000000",
 			"Location: ^6A5ACD중단^000000",
@@ -5948,7 +5922,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"진정한 오크의 용자에게만 주어지는 투구로 오크족 사이에서 가장 용맹하고 위대한 오크라는 증거임에 틀림없다.",
 			"STR +5, VIT +3.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF10^000000",
 			"Location: ^6A5ACD상중단^000000",
@@ -5972,7 +5946,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"머리위에 얹고 다닐수 있도록 만들어진 인형. 어디선가 고양이 울음소리가 들리거나 머리위에서 움직임이 느껴지거나 하는건 기분탓이다.",
 			"MDEF +15, 저주에 대한 내성 40%, 스턴에 대한 내성 10%.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF9^000000",
 			"Location: ^6A5ACD상단^000000",
@@ -5996,7 +5970,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"먼 옛날, 흉폭한 죄수의 움직임을 봉하기 위해, 족쇄에 달았던 철구. 그러나 그 죄수는 그 철구마저도 자신의 무기로서 사용했었다고 한다.",
 			"ATK +30.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDAccessory^000000",
 			"Defense: ^0000FF0^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6018,7 +5992,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"하키 마스크. 왠지 이 가면을 쓰면 손에 무기를 쥐어야 할 것 같은 충동이 일어난다.",
 			"인간형 몬스터에게 데미지 5% 증가.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF1^000000",
 			"Location: ^6A5ACD중하단^000000",
@@ -6042,7 +6016,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"상대방의 힘을 측정할 수 있는 장치. 마을 사람들을 측정하면 보통 5의 수치가 나온다고 한다.",
 			"몬스터 감정 1레벨 사용 가능.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACD중단^000000",
@@ -6067,7 +6041,7 @@ tbl = {
 			"3가지 마법의 정수가 담긴 보석 반지.",
 			"힐과 텔레포테이션 1레벨 사용 가능. 캐스팅이 끊어지지 않는다.",
 			"ALL STATUS +1. 변동 캐스팅 시간이 10% 증가한다.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDAccessory^000000",
 			"Defense: ^0000FF0^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6090,7 +6064,7 @@ tbl = {
 			"각종 속성에 대한 저항력을 높인 마법 튜닉",
 			"MaxHP +800. 동빙되지 않는다.",
 			"무속성과 수속성을 제외한 속성 대미지 20% 감소. MDEF +5",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDArmor^000000",
 			"Defense: ^0000FF38^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6113,7 +6087,7 @@ tbl = {
 			"적의 생명력을 자신의 생명력으로 전환하여 주인을 회복시켜주는 힘을 지닌 아머.",
 			"HP, SP 자동회복 불가. 장착 해제 시, SP 100 소실.",
 			"근접 물리 공격 및 마법 공격으로 몬스터를 죽일 시, 60의 HP와 6의 SP 회복.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDArmor^000000",
 			"Defense: ^0000FF67^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6136,7 +6110,7 @@ tbl = {
 			"모든 적대적인 공격으로부터 강한 저항력을 지닌 마법 방패.",
 			"모든 몬스터로부터 받는 대미지 20% 감소.",
 			"근접 물리 공격 대미지 1% 반사.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACD방패^000000",
 			"Defense: ^0000FF140^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6158,7 +6132,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"바람의 정령의 가호가 깃든 깃털망토. 착용자를 위험으로부터 보호해 준다고 한다.",
 			"FLEE +13, 무속성 대미지 13% 감소. Perfect Dodge +1",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDGarment^000000",
 			"Defense: ^0000FF33^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6181,7 +6155,7 @@ tbl = {
 			"섬세한 디자인에 부드러운 가죽을 사용하여 발의 편안함을 우선시한 슈즈.",
 			"MaxHP 17% 증가, MaxSP 8% 증가.",
 			"10초마다 HP가 20, SP가 3씩 회복된다.",
-			"골드PC방에서 장착 시 All Stats +1.",
+			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class: ^6A5ACDFootgear^000000",
 			"Defense: ^0000FF20^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6203,7 +6177,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"권총 특유의 연사력에 높은 명중률을 자랑하는 이 총은, 총기의 명가에서 거친 황야에서 자신의 총만을 믿고 모든 고난을 극복해낸 이름없는 건슬링거를 기리기 위해 만든 권총이다.",
 			"Agi 수치에 따라 Hit 및 공격속도 증가. 모든 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD리볼버^000000",
 			"Attack: ^D80000100^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6226,7 +6200,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"라이플의 성능을 극대화한 명작. 아름다운 총신은 건슬링거의 마음을 한순간에 앗아가고 그 치명적인 성능은 단번에 적의 심장을 꿰뚫는다.",
 			"HIT+ 20, Cri+ 50, 모든 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD라이플^000000",
 			"Attack: ^D80000170^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6249,7 +6223,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"손잡이가 십자가 모양으로 만들어진 심플한 형태의 대형 양손검.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD양손검^000000",
 			"Attack: ^D80000220^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6272,7 +6246,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"여러 개의 날을 갖고 공격력을 극도로 강화한 병기.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACDKatar^000000",
 			"Attack: ^D80000200^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6295,7 +6269,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"무게를 이용해 내려꽂힐때의 파괴력이 무시무시한 양손도끼.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACDTwo-Handed Axe^000000",
 			"Attack: ^D80000220^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6318,7 +6292,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"마상돌격용으로 사용되어지는 긴 창.",
 			"소, 중, 대형 적에 대한 공격력 50% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD양손창^000000",
 			"Attack: ^D80000220^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6341,7 +6315,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"오크부족이 사용하는 도끼.",
 			"소, 중, 대형 적에 대한 공격력 70% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD한손도끼^000000",
 			"Attack: ^D80000110^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6366,7 +6340,7 @@ tbl = {
 			"MATK +100, INT +3, DEX +2, Crit +20.",
 			"순수 럭 수치에 따라 크리율 추가로 증가.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD책^000000",
 			"Attack: ^D80000145^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6389,7 +6363,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"손등부분을 딱딱한 장갑으로 덮어 주먹의 보호와 데미지의 향상이라는 장점을 살린 보호대.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD너클^000000",
 			"Attack: ^D80000150^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6412,7 +6386,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"현을 손으로 튕겨서 소리를 내는 현악기.",
 			"소, 중, 대형 적에 대한 공격력 40%증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACDMusical Instrument^000000",
 			"Attack: ^D80000177^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6436,7 +6410,7 @@ tbl = {
 			"특수한 제조법으로 만들어진 단검. 빛을 반사할때 드러나는 검신에 새겨진 물결무늬는 아름다움에 넋을 잃게 하기에 충분하다.",
 			"절대 손상되지 않는다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD단검^000000",
 			"Attack: ^D80000153^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6459,7 +6433,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"검날이 물결무늬를 이루고 있는 아름다운 검. 아름다운 외관에 비해 매우 잔인한 위력을 가지고 있다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD검^000000",
 			"Attack: ^D80000185^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6483,7 +6457,7 @@ tbl = {
 			"한대 맞는 순간 아득한 느낌이 들며 세상을 초월한 느낌을 들게 만들어주는 둔기",
 			"공격시 10% 확률로 적을 스턴에 걸리게 한다.",
 			"소, 중, 대형 적에 대한 공격력 40% 증가.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACDMace^000000",
 			"Attack: ^D80000175^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6522,7 +6496,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"수려한 외관을 가진 아름다운 활.",
 			"원거리 공격시 데미지 20% 증가.",
-			"골드PC방에서 장착 시 추가로, 물리공격시 낮은 확률로 오토스펠 더블 스트레이핑 2LV, ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 추가로, 물리공격시 낮은 확률로 오토스펠 더블 스트레이핑 2LV, ATK +10, MATK +10.",
 			"Class: ^6A5ACD활^000000",
 			"Attack: ^D80000190^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6546,7 +6520,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"인간형 적에게 탁월한 능력을 보이는 검붉은 색을 띈 카타르.",
 			"인간형 적의 방어력 무시, 낮은 확률로 적에게 출혈.",
-			"골드PC방에서 장착 시 추가로, 적 사망 시 SP 1 회복, ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 추가로, 적 사망 시 SP 1 회복, ATK +10, MATK +10.",
 			"Class: ^6A5ACDKatar^000000",
 			"Attack: ^D80000145^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6572,9 +6546,9 @@ tbl = {
 			"MATK +100.",
 			"자신이 사용하는 힐, 생츄어리 스킬의 회복량이 18% 증가한다.",
 			"성속성.",
-			"골드 PC방에서 사용 시 추가로, 힐 사용시 낮은 확률로 오토스펠 힐.",
+			"골드 PC Cafe에서 사용 시 추가로, 힐 사용시 낮은 확률로 오토스펠 힐.",
 			"힐, 생츄어리 스킬의 회복력이 추가로 5% 증가한다.",
-			"골드PC방에서 장착 시 ATK +10, MATK +10.",
+			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class: ^6A5ACD지팡이^000000",
 			"Attack: ^D8000010^000000",
 			"Weight: ^0EAA0B0^000000",
@@ -6599,7 +6573,7 @@ tbl = {
 			"파릇한 풀내음이 나는 네잎크로버.",
 			"운이 따를 것 같다.",
 			"ATK +5, MATK +5, MDEF +2.",
-			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All Stats +1.",
+			"골드PC Cafe에서 착용 시 경험치 획득량 2% 증가, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6624,7 +6598,7 @@ tbl = {
 			"파릇한 풀내음이 나는 네잎크로버.",
 			"운이 따를 것 같다.",
 			"ATK +5, MATK +5, MDEF +2.",
-			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All Stats +1.",
+			"골드PC Cafe에서 착용 시 경험치 획득량 2% 증가, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6649,7 +6623,7 @@ tbl = {
 			"파릇한 풀내음이 나는 네잎크로버.",
 			"운이 따를 것 같다.",
 			"ATK +5, MATK +5, MDEF +2.",
-			"골드PC방에서 착용 시 경험치 획득량 2% 증가, All Stats +1.",
+			"골드PC Cafe에서 착용 시 경험치 획득량 2% 증가, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6674,7 +6648,7 @@ tbl = {
 			"풍선 같이 부풀어지는 껌. 개인 역량에 따라 커다랗게 부풀기도 한다!",
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK +5, MATK +5, MDEF +2.",
-			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All Stats +1.",
+			"골드PC Cafe에서 착용시 아이템 드롭률 5% 증가, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6699,7 +6673,7 @@ tbl = {
 			"풍선 같이 부풀어지는 껌. 개인 역량에 따라 커다랗게 부풀기도 한다!",
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK +5, MATK +5, MDEF +2.",
-			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All Stats +1.",
+			"골드PC Cafe에서 착용시 아이템 드롭률 5% 증가, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6724,7 +6698,7 @@ tbl = {
 			"풍선 같이 부풀어지는 껌. 개인 역량에 따라 커다랗게 부풀기도 한다!",
 			"얼핏 불량해 보일 수 있으므로 주의.",
 			"ATK +5, MATK +5, MDEF +2.",
-			"골드PC방에서 착용시 아이템 드롭률 5% 증가, All Stats +1.",
+			"골드PC Cafe에서 착용시 아이템 드롭률 5% 증가, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6748,7 +6722,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
-			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6772,7 +6746,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
-			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6796,7 +6770,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"마치 대못이 박힌 듯 보여 무시무시한 느낌의 스카프.",
 			"ATK +30, HP -2%.",
-			"골드 PC방에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 HP +2%, Long ranged physical damage +2%, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF3^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6820,7 +6794,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6844,7 +6818,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6868,7 +6842,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC방에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF0^000000",
 			"Location: ^6A5ACDLower^000000",
@@ -6893,7 +6867,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDMiddle^000000",
@@ -6918,7 +6892,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDMiddle^000000",
@@ -6943,7 +6917,7 @@ tbl = {
 			"노랑과 초록으로 대비되는 귀여운 양쪽리본.",
 			"INT +1, MDEF +2.",
 			"자신이 사용하는 힐량 2% 증가.",
-			"골드 PC방에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 회복아이템 사용이나 힐을 받을 시의 회복량 2% 증가, INT +2, INT 제외 나머지 State +1.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
 			"Location: ^6A5ACDMiddle^000000",
@@ -7821,7 +7795,7 @@ tbl = {
 			"검사, 상인, 도둑, 몽크, 태권계열인 경우 2제련당 ATK 1%씩 증가.",
 			"마법사, 복사, 소울링커, 닌자계열인 경우 2제련당 MATK 1%씩 증가.",
 			"궁수, 건슬링거계열인 경우 1제련당 원거리 물리공격력 1%씩 증가.",
-			"[골드PC방인 경우]",
+			"[골드PC Cafe인 경우]",
 			"All Stats +1, 인간형 적에게 데미지 10% 감소.",
 			"Class: ^6A5ACDHeadgear^000000",
 			"Defense: ^0000FF2^000000",
@@ -8407,7 +8381,7 @@ tbl = {
 		identifiedDisplayName = "몬스터 변신 A세트",
 		identifiedResourceName = "캐시상자_빨강",
 		identifiedDescriptionName = {
-			"데비루치 변신 스크롤 30개와 골렘 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 A 세트.",
+			"데비루치 변신 스크롤 30개와 골렘 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 Coupon Box 1개를 모아둔 A 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -8421,7 +8395,7 @@ tbl = {
 		identifiedDisplayName = "몬스터 변신 B세트",
 		identifiedResourceName = "캐시상자_빨강",
 		identifiedDescriptionName = {
-			"밴시 변신 스크롤 30개와 마르두크 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 B 세트.",
+			"밴시 변신 스크롤 30개와 마르두크 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 Coupon Box 1개를 모아둔 B 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -8435,7 +8409,7 @@ tbl = {
 		identifiedDisplayName = "몬스터 변신 C세트",
 		identifiedResourceName = "캐시상자_빨강",
 		identifiedDescriptionName = {
-			"마브카 변신 스크롤 30개와 레이드릭 아쳐 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 쿠폰 상자 1개를 모아둔 C 세트.",
+			"마브카 변신 스크롤 30개와 레이드릭 아쳐 변신 스크롤 30개, 포링 변신 스크롤 6개, 옷염색 Coupon Box 1개를 모아둔 C 세트.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -8760,15 +8734,15 @@ tbl = {
 		ClassNum = 0
 	},
 	[17182] = {
-		unidentifiedDisplayName = "타락천사의 날개 상자",
+		unidentifiedDisplayName = "타락천사의 Wing 상자",
 		unidentifiedResourceName = "보물상자_",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "타락천사의 날개 상자",
+		identifiedDisplayName = "타락천사의 Wing 상자",
 		identifiedResourceName = "보물상자_",
 		identifiedDescriptionName = {
-			"타락천사의 날개가 1개 들어있는 상자. 아이템몰에 있는 \"다크 루히르\" 에게 무료로 인챈트를 받을 수 있습니다.",
+			"타락천사의 Wing가 1개 들어있는 상자. 아이템몰에 있는 \"다크 루히르\" 에게 무료로 인챈트를 받을 수 있습니다.",
 			"^ffffff_^000000",
-			"타락천사의 커다랗고 검은 날개.",
+			"타락천사의 커다랗고 검은 Wing.",
 			"All Stats +1.",
 			"순수 STR 20 당 ATK +1,",
 			"순수 INT 20 당 MATK +1,",
@@ -8948,16 +8922,16 @@ tbl = {
 		ClassNum = 0
 	},
 	[17229] = {
-		unidentifiedDisplayName = "무한 파리의 날개 상자",
+		unidentifiedDisplayName = "무한 파리의 Wing 상자",
 		unidentifiedResourceName = "오래된노란상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무한 파리의 날개 상자",
+		identifiedDisplayName = "무한 파리의 Wing 상자",
 		identifiedResourceName = "오래된노란상자",
 		identifiedDescriptionName = {
-			"1주일간 사용 가능한 무한 파리의 날개가 1개 들어있는 상자.",
+			"1주일간 사용 가능한 무한 파리의 Wing가 1개 들어있는 상자.",
 			"",
 			"^000088임대 아이템^000000",
-			"날짐승들의 날개를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
+			"날짐승들의 Wing를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
 			"",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -9046,16 +9020,16 @@ tbl = {
 		ClassNum = 0
 	},
 	[17251] = {
-		unidentifiedDisplayName = "무한 파리의 날개 3일상자",
+		unidentifiedDisplayName = "무한 파리의 Wing 3일상자",
 		unidentifiedResourceName = "오래된노란상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무한 파리의 날개 3일상자",
+		identifiedDisplayName = "무한 파리의 Wing 3일상자",
 		identifiedResourceName = "오래된노란상자",
 		identifiedDescriptionName = {
-			"3일간 사용 가능한 무한 파리의 날개가 1개 들어있는 상자.",
+			"3일간 사용 가능한 무한 파리의 Wing가 1개 들어있는 상자.",
 			"^ffffff_^000000",
 			"^000088임대 아이템^000000",
-			"날짐승들의 날개를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
+			"날짐승들의 Wing를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
 			"Weight: ^0EAA0B0^000000",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -9072,7 +9046,7 @@ tbl = {
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
 			"전투교범 한정판이 10권 들어있는 상자.",
-			"패키지로 무한 공속 포션(집중, 각성, 버서크) 3일상자, 무한 파리의 날개 3일상자가 1개씩 들어있다.",
+			"패키지로 무한 공속 포션(집중, 각성, 버서크) 3일상자, 무한 파리의 Wing 3일상자가 1개씩 들어있다.",
 			"^ffffff_^000000",
 			"전투교범 한정판 - 60분간 획득하는 경험치가 60% 증가한다.",
 			"^ffffff_^000000",
@@ -9221,7 +9195,7 @@ tbl = {
 			"쉐도우 박스Ⅱ가 1개 들어 있는 상자.",
 			"파워 (이어링, 펜던트), 인트 (펜던트, 이어링), 덱스터러스 (아머, 웨폰),",
 			"바이탈 (슈즈, 쉴드), 어틀레틱 (쉴드, 슈즈), 럭키 (웨폰, 아머) 쉐도우 장비 중 1개를 얻을 수 있다.",
-			"간혹 찬란한 황금 날개가 나오기도 한다.",
+			"간혹 찬란한 황금 Wing가 나오기도 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -9238,7 +9212,7 @@ tbl = {
 			"쉐도우 박스Ⅱ가 10개 들어 있는 상자. 세트로 구입할 경우 1개를 추가로 더 받을 수 있다.",
 			"파워 (이어링, 펜던트), 인트 (펜던트, 이어링), 덱스터러스 (아머, 웨폰),",
 			"바이탈 (슈즈, 쉴드), 어틀레틱 (쉴드, 슈즈), 럭키 (웨폰, 아머) 쉐도우 장비 중 1개를 얻을 수 있다.",
-			"간혹 찬란한 황금 날개가 나오기도 한다.",
+			"간혹 찬란한 황금 Wing가 나오기도 한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -9602,7 +9576,7 @@ tbl = {
 			"성장을 위한 보다 효율적인 서비스를 제공.",
 			"- 풍선껌 (30분 지속, 1일 2번)",
 			"- JOB 전투교범 (30분 지속, 1일 2번)",
-			"- 나비의 날개 (무제한)",
+			"- 나비의 Wing (무제한)",
 			"^ff0000주의! - 아이템 소지 개수와 상관없이 중복 혜택 불가능.^000000",
 			"^ffffff_^000000",
 			"[존다 스페셜 서비스]",
@@ -9639,7 +9613,7 @@ tbl = {
 			"성장을 위한 보다 효율적인 서비스를 제공.",
 			"- 풍선껌 (30분 지속, 1일 2번)",
 			"- JOB 전투교범 (30분 지속, 1일 2번)",
-			"- 나비의 날개 (무제한)",
+			"- 나비의 Wing (무제한)",
 			"^ff0000주의! - 아이템 소지 개수와 상관없이 중복 혜택 불가능.^000000",
 			"^ffffff_^000000",
 			"[존다 스페셜 서비스]",
@@ -9806,7 +9780,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"올마이티 10개와 신상 모자 스크롤 1개가 들어있는 상자.",
-			"거기에 [not for sale]미스틱 파우더, [not for sale]티르의 축복, [not for sale]회복력향상포션도 1개씩 더!",
+			"거기에 [Not for sale]미스틱 파우더, [Not for sale]티르의 축복, [Not for sale]회복력향상포션도 1개씩 더!",
 			"",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리. ",
 			"30분간 All Stats +10, ATK +30, MATK +30.",
@@ -9825,8 +9799,8 @@ tbl = {
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"올마이티 100개와 신상 모자 스크롤 11개가 들어있는 상자.",
-			"거기에 [not for sale]미스틱 파우더, [not for sale]티르의 축복, [not for sale]회복력향상포션도 10개씩 더!",
-			"[not for sale]톡톡캔디와 [not for sale]마법캔디도 1개씩 들어있습니다.",
+			"거기에 [Not for sale]미스틱 파우더, [Not for sale]티르의 축복, [Not for sale]회복력향상포션도 10개씩 더!",
+			"[Not for sale]톡톡캔디와 [Not for sale]마법캔디도 1개씩 들어있습니다.",
 			"",
 			"몸에 좋다고 소문난 요리들을 모두 응축시킨 궁극의 요리. ",
 			"30분간 All Stats +10, ATK +30, MATK +30.",
@@ -9946,7 +9920,7 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자. ",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개, 포링 스크롤 1개가 들어있다.",
-			"거기에 [비매품]환영의술잔도 1개 더!",
+			"거기에 [Not for sale]환영의술잔도 1개 더!",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -9963,8 +9937,8 @@ tbl = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음. ",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개, 포링 스크롤 11개가 들어있다.",
-			"거기에 [비매품]환영의술잔도 10개 더!",
-			"[비매품]톡톡캔디와 [비매품]마법캔디도 1개씩 들어있습니다.",
+			"거기에 [Not for sale]환영의술잔도 10개 더!",
+			"[Not for sale]톡톡캔디와 [Not for sale]마법캔디도 1개씩 들어있습니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -10535,13 +10509,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[22781] = {
-		unidentifiedDisplayName = "PC방 노말박스",
+		unidentifiedDisplayName = "PC Cafe 노말박스",
 		unidentifiedResourceName = "상인전직상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 노말박스",
+		identifiedDisplayName = "PC Cafe 노말박스",
 		identifiedResourceName = "상인전직상자",
 		identifiedDescriptionName = {
-			"PC방 마일리지 2포인트를 소모해서 얻을 수 있는 박스.",
+			"PC Cafe 마일리지 2포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 50개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B20^000000"
@@ -10550,13 +10524,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[22782] = {
-		unidentifiedDisplayName = "PC방 우든박스",
+		unidentifiedDisplayName = "PC Cafe 우든박스",
 		unidentifiedResourceName = "나무보물상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 우든박스",
+		identifiedDisplayName = "PC Cafe 우든박스",
 		identifiedResourceName = "나무보물상자",
 		identifiedDescriptionName = {
-			"PC방 마일리지 10포인트를 소모해서 얻을 수 있는 박스.",
+			"PC Cafe 마일리지 10포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 80개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B20^000000"
@@ -10565,13 +10539,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[22783] = {
-		unidentifiedDisplayName = "PC방 골든박스",
+		unidentifiedDisplayName = "PC Cafe 골든박스",
 		unidentifiedResourceName = "금보물상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 골든박스",
+		identifiedDisplayName = "PC Cafe 골든박스",
 		identifiedResourceName = "금보물상자",
 		identifiedDescriptionName = {
-			"PC방 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
+			"PC Cafe 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 상자 2개와 에르늄 10개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B20^000000"
@@ -10580,13 +10554,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[22784] = {
-		unidentifiedDisplayName = "PC방 플래티넘박스",
+		unidentifiedDisplayName = "PC Cafe 플래티넘박스",
 		unidentifiedResourceName = "다이아보물상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "PC방 플래티넘박스",
+		identifiedDisplayName = "PC Cafe 플래티넘박스",
 		identifiedResourceName = "다이아보물상자",
 		identifiedDescriptionName = {
-			"PC방 마일리지 300포인트를 소모해서 얻을 수 있는 박스.",
+			"PC Cafe 마일리지 300포인트를 소모해서 얻을 수 있는 박스.",
 			"화이트 슬림포션 상자 2개와 이속변화포션 10개, 독약병 12개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B20^000000"
@@ -10616,7 +10590,7 @@ tbl = {
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된 드라큐라 스크롤. ",
-			"봉인된 드라큐라 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 베어러즈 쉐도우 상자, 의상 대지의 실크햇, 무한 파리의 날개 1일상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"봉인된 드라큐라 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 베어러즈 쉐도우 상자, 의상 대지의 실크햇, 무한 파리의 Wing 1일상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -10644,7 +10618,7 @@ tbl = {
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된 스나이퍼 스크롤. ",
-			"봉인된 스나이퍼 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 헤이스티 슈즈 쉐도우, 헤이스티 아머 쉐도우, 의상 플라워 포트 마스크, 무한 파리의 날개 5일상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"봉인된 스나이퍼 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 헤이스티 슈즈 쉐도우, 헤이스티 아머 쉐도우, 의상 플라워 포트 마스크, 무한 파리의 Wing 5일상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -10685,7 +10659,7 @@ tbl = {
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
-			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 익스퍼트 슈즈 쉐도우, 익스퍼트 쉴드 쉐도우, 무한 파리의 날개 5일상자, 인챈트 소개장 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 익스퍼트 슈즈 쉐도우, 익스퍼트 쉴드 쉐도우, 무한 파리의 Wing 5일상자, 인챈트 소개장 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -10753,7 +10727,7 @@ tbl = {
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
-			"봉인된인장 카드, 무기 11제련 보장권, 방어구 11제련 보장권, 리로드 슈즈 쉐도우, 리로드 쉴드 쉐도우, 리로드 아머 쉐도우, 무한 파리의 날개 5일상자 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"봉인된인장 카드, 무기 11제련 보장권, 방어구 11제련 보장권, 리로드 슈즈 쉐도우, 리로드 쉴드 쉐도우, 리로드 아머 쉐도우, 무한 파리의 Wing 5일상자 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -10767,7 +10741,7 @@ tbl = {
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
-			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 신년 쉐도우 큐브, 무한 파리의 날개 5일상자 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 신년 쉐도우 큐브, 무한 파리의 Wing 5일상자 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -11203,10 +11177,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[22979] = {
-		unidentifiedDisplayName = "[not for sale]전투교범&풍선껌",
+		unidentifiedDisplayName = "[Not for sale]전투교범&풍선껌",
 		unidentifiedResourceName = "전투교범풍선껌",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]전투교범&풍선껌",
+		identifiedDisplayName = "[Not for sale]전투교범&풍선껌",
 		identifiedResourceName = "전투교범풍선껌",
 		identifiedDescriptionName = {
 			"보다 효율적인 전투방법이 기록된 설명서와 쫄깃하고 달콤한 풍선껌의 세트.",
@@ -11245,7 +11219,7 @@ tbl = {
 			"성장을 위한 보다 효율적인 서비스를 제공.",
 			"- 풍선껌 (30분 지속, 1일 2번)",
 			"- JOB 전투교범 (30분 지속, 1일 2번)",
-			"- 나비의 날개 (무제한)",
+			"- 나비의 Wing (무제한)",
 			"^ff0000주의! - 아이템 소지 개수와 상관없이 중복 혜택 불가능.^000000",
 			"^ffffff_^000000",
 			"[존다 스페셜 서비스]",
@@ -11277,7 +11251,7 @@ tbl = {
 			"성장을 위한 보다 효율적인 서비스를 제공.",
 			"- 풍선껌 (30분 지속, 1일 2번)",
 			"- JOB 전투교범 (30분 지속, 1일 2번)",
-			"- 나비의 날개 (무제한)",
+			"- 나비의 Wing (무제한)",
 			"^ff0000주의! - 아이템 소지 개수와 상관없이 중복 혜택 불가능.^000000",
 			"^ffffff_^000000",
 			"[존다 스페셜 서비스]",
@@ -11343,14 +11317,14 @@ tbl = {
 		ClassNum = 0
 	},
 	[22989] = {
-		unidentifiedDisplayName = "개선된 PC방 노말박스",
+		unidentifiedDisplayName = "개선된 PC Cafe 노말박스",
 		unidentifiedResourceName = "상인전직상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "개선된 PC방 노말박스",
+		identifiedDisplayName = "개선된 PC Cafe 노말박스",
 		identifiedResourceName = "상인전직상자",
 		identifiedDescriptionName = {
-			"PC방 마일리지 2포인트를 소모해서 얻을 수 있는 박스.",
-			"[not for sale]화이트 슬림 포션 50개 , [not for sale]응급처치상자 1개가 포장되어 있다. ",
+			"PC Cafe 마일리지 2포인트를 소모해서 얻을 수 있는 박스.",
+			"[Not for sale]화이트 슬림 포션 50개 , [Not for sale]응급처치상자 1개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
@@ -11359,10 +11333,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[22996] = {
-		unidentifiedDisplayName = "[not for sale]섬광 막대",
+		unidentifiedDisplayName = "[Not for sale]섬광 막대",
 		unidentifiedResourceName = "섬광막대",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]섬광 막대",
+		identifiedDisplayName = "[Not for sale]섬광 막대",
 		identifiedResourceName = "섬광막대",
 		identifiedDescriptionName = {
 			"스위치를 누르면 파란 섬광이 일어나는 막대. 섬광을 바라 본 사람은 기억의 일부를 잃게 되는 것 같다.",
@@ -11405,10 +11379,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[22999] = {
-		unidentifiedDisplayName = "[not for sale]변신문서 묶음",
+		unidentifiedDisplayName = "[Not for sale]변신문서 묶음",
 		unidentifiedResourceName = "주문서다발",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]변신문서 묶음",
+		identifiedDisplayName = "[Not for sale]변신문서 묶음",
 		identifiedResourceName = "주문서다발",
 		identifiedDescriptionName = {
 			"아래의 변신 스크롤이 1개씩 들어있습니다.",
@@ -11440,15 +11414,15 @@ tbl = {
 		ClassNum = 0
 	},
 	[23007] = {
-		unidentifiedDisplayName = "개선된 PC방 우든박스",
+		unidentifiedDisplayName = "개선된 PC Cafe 우든박스",
 		unidentifiedResourceName = "나무보물상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "개선된 PC방 우든박스",
+		identifiedDisplayName = "개선된 PC Cafe 우든박스",
 		identifiedResourceName = "나무보물상자",
 		identifiedDescriptionName = {
-			"PC방 마일리지 10포인트를 소모해서 얻을 수 있는 박스.",
-			"화이트 슬림포션 상자 1개 , [not for sale]응급처치상자 3개,",
-			"개선된 PC방 노말박스 1개가 포장되어 있다. ",
+			"PC Cafe 마일리지 10포인트를 소모해서 얻을 수 있는 박스.",
+			"화이트 슬림포션 상자 1개 , [Not for sale]응급처치상자 3개,",
+			"개선된 PC Cafe 노말박스 1개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight: ^0EAA0B1^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
@@ -11457,15 +11431,15 @@ tbl = {
 		ClassNum = 0
 	},
 	[23013] = {
-		unidentifiedDisplayName = "개선된 PC방 골든박스",
+		unidentifiedDisplayName = "개선된 PC Cafe 골든박스",
 		unidentifiedResourceName = "금보물상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "개선된 PC방 골든박스",
+		identifiedDisplayName = "개선된 PC Cafe 골든박스",
 		identifiedResourceName = "금보물상자",
 		identifiedDescriptionName = {
-			"PC방 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
-			"화이트 슬림포션 상자 1개 , [not for sale]블레싱 스크롤 10개 상자 1개",
-			"[not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 5개 ",
+			"PC Cafe 마일리지 100포인트를 소모해서 얻을 수 있는 박스.",
+			"화이트 슬림포션 상자 1개 , [Not for sale]블레싱 스크롤 10개 상자 1개",
+			"[Not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC Cafe 노말박스 5개 ",
 			"이속변화포션 10개 , 독약병 10개가 포장되어 있다. ",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight: ^0EAA0B1^000000",
@@ -11475,16 +11449,16 @@ tbl = {
 		ClassNum = 0
 	},
 	[23014] = {
-		unidentifiedDisplayName = "개선된 PC방 플래티넘박스",
+		unidentifiedDisplayName = "개선된 PC Cafe 플래티넘박스",
 		unidentifiedResourceName = "다이아보물상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "개선된 PC방 플래티넘박스",
+		identifiedDisplayName = "개선된 PC Cafe 플래티넘박스",
 		identifiedResourceName = "다이아보물상자",
 		identifiedDescriptionName = {
-			"PC방 마일리지 300포인트를 소모해서 얻을 수 있는 박스. ",
-			"포션상자 1개 , 독약병상자 1개 , [not for sale]소형 생명수 상자 1개",
-			"[not for sale]연마제 상자 1개 , [not for sale]블레싱 스크롤 10개 상자 1개",
-			"[not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC방 노말박스 30개 ",
+			"PC Cafe 마일리지 300포인트를 소모해서 얻을 수 있는 박스. ",
+			"포션상자 1개 , 독약병상자 1개 , [Not for sale]소형 생명수 상자 1개",
+			"[Not for sale]연마제 상자 1개 , [Not for sale]블레싱 스크롤 10개 상자 1개",
+			"[Not for sale]민첩성증가 스크롤 10개 상자 1개 , 개선된 PC Cafe 노말박스 30개 ",
 			"이속변화포션 30개가 포장되어 있다.",
 			"개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight: ^0EAA0B1^000000",
@@ -11546,14 +11520,14 @@ tbl = {
 		ClassNum = 0
 	},
 	[23023] = {
-		unidentifiedDisplayName = "무한 거대한 파리의 날개",
+		unidentifiedDisplayName = "무한 거대한 파리의 Wing",
 		unidentifiedResourceName = "거대한파리날개",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무한 거대한 파리의 날개",
+		identifiedDisplayName = "무한 거대한 파리의 Wing",
 		identifiedResourceName = "거대한파리날개",
 		identifiedDescriptionName = {
 			"^000088임대 아이템^000000",
-			"고대에 생존한 거대한 날짐승의 날개를 잘라 주술을 걸어놓은 것. 여러 사람을 한번에 임의의 장소로 이동시킬 수 있다.",
+			"고대에 생존한 거대한 날짐승의 Wing를 잘라 주술을 걸어놓은 것. 여러 사람을 한번에 임의의 장소로 이동시킬 수 있다.",
 			"파티장이 사용 시 효력이 발동하며, 파티장이 이동한 곳으로 같은 맵의 모든 파티원이 이동한다.",
 			"^ffffff_^000000",
 			"Weight: ^0EAA0B0^000000"
@@ -11569,7 +11543,7 @@ tbl = {
 		identifiedResourceName = "피아멧트스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 피아멧트 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, [not for sale]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"무기 11제련 보장권, 방어구 11제련 보장권, [Not for sale]섬광막대, 피아멧트의 리본, 피아멧트의 두건등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight: ^0EAA0B1^000000"
 		},
 		slotCount = 0,
@@ -11732,13 +11706,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[23038] = {
-		unidentifiedDisplayName = "[not for sale]화이트 슬림포션 상자",
+		unidentifiedDisplayName = "[Not for sale]화이트 슬림포션 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]화이트 슬림포션 상자",
+		identifiedDisplayName = "[Not for sale]화이트 슬림포션 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[not for sale]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.",
+			"[Not for sale]화이트 슬림 포션 200개가 압축되어 들어있는 상자. 개봉 시 주의.",
 			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
@@ -11746,13 +11720,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[23039] = {
-		unidentifiedDisplayName = "[not for sale]마스테라의 열매 상자",
+		unidentifiedDisplayName = "[Not for sale]마스테라의 열매 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]마스테라의 열매 상자",
+		identifiedDisplayName = "[Not for sale]마스테라의 열매 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[not for sale]마스테라의 열매가 200개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"[Not for sale]마스테라의 열매가 200개 압축되어 들어있는 상자. 개봉 시 주의.",
 			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
@@ -11760,13 +11734,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[23040] = {
-		unidentifiedDisplayName = "[not for sale]하얀 포션 상자",
+		unidentifiedDisplayName = "[Not for sale]하얀 포션 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]하얀 포션 상자",
+		identifiedDisplayName = "[Not for sale]하얀 포션 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[not for sale]하얀 포션이 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"[Not for sale]하얀 포션이 100개 압축되어 들어있는 상자. 개봉 시 주의.",
 			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
@@ -11774,13 +11748,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[23041] = {
-		unidentifiedDisplayName = "[not for sale]로얄제리 상자",
+		unidentifiedDisplayName = "[Not for sale]로얄제리 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]로얄제리 상자",
+		identifiedDisplayName = "[Not for sale]로얄제리 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[not for sale]로얄제리가 100개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"[Not for sale]로얄제리가 100개 압축되어 들어있는 상자. 개봉 시 주의.",
 			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
@@ -11788,10 +11762,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23042] = {
-		unidentifiedDisplayName = "[not for sale]이그드라실의 씨앗",
+		unidentifiedDisplayName = "[Not for sale]이그드라실의 씨앗",
 		unidentifiedResourceName = "이그드라실씨앗",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]이그드라실의 씨앗",
+		identifiedDisplayName = "[Not for sale]이그드라실의 씨앗",
 		identifiedResourceName = "이그드라실씨앗",
 		identifiedDescriptionName = {
 			"이세계의 근원이 된 이그드라실 열매의 씨앗. 고소하고 달지않은 은은한 향에 원기가 솟음을 느낄 수 있다함.^000088사용자의 HP 와 SP의 절반을 회복^000000시켜줌",
@@ -11802,13 +11776,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[23043] = {
-		unidentifiedDisplayName = "[not for sale]이그드라실 씨앗 상자",
+		unidentifiedDisplayName = "[Not for sale]이그드라실 씨앗 상자",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]이그드라실 씨앗 상자",
+		identifiedDisplayName = "[Not for sale]이그드라실 씨앗 상자",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
-			"[not for sale]이그드라실 씨앗이 30개 압축되어 들어있는 상자. 개봉 시 주의.",
+			"[Not for sale]이그드라실 씨앗이 30개 압축되어 들어있는 상자. 개봉 시 주의.",
 			"Weight: ^0EAA0B0^000000",
 			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
 		},
@@ -11816,10 +11790,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23046] = {
-		unidentifiedDisplayName = "[not for sale]미스틱 파우더",
+		unidentifiedDisplayName = "[Not for sale]미스틱 파우더",
 		unidentifiedResourceName = "요정의마법가루",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]미스틱 파우더",
+		identifiedDisplayName = "[Not for sale]미스틱 파우더",
 		identifiedResourceName = "요정의마법가루",
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
@@ -11832,10 +11806,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23047] = {
-		unidentifiedDisplayName = "[not for sale]티르의 축복",
+		unidentifiedDisplayName = "[Not for sale]티르의 축복",
 		unidentifiedResourceName = "용병용빨간포션",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]티르의 축복",
+		identifiedDisplayName = "[Not for sale]티르의 축복",
 		identifiedResourceName = "용병용빨간포션",
 		identifiedDescriptionName = {
 			"싸움의 신 티르의 축복이 담겨있는 포션.",
@@ -11849,10 +11823,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23048] = {
-		unidentifiedDisplayName = "[not for sale]회복력 향상포션",
+		unidentifiedDisplayName = "[Not for sale]회복력 향상포션",
 		unidentifiedResourceName = "초록에일",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]회복력 향상포션",
+		identifiedDisplayName = "[Not for sale]회복력 향상포션",
 		identifiedResourceName = "초록에일",
 		identifiedDescriptionName = {
 			"연금술과 마법의 힘으로 만들어진 마법물약. 만드는 재료는 비밀로 붙여져 있으나, 로자리를 녹여서 만들었다는 소문이 있다.",
@@ -11866,10 +11840,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23049] = {
-		unidentifiedDisplayName = "[not for sale]톡톡캔디",
+		unidentifiedDisplayName = "[Not for sale]톡톡캔디",
 		unidentifiedResourceName = "사탕",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]톡톡캔디",
+		identifiedDisplayName = "[Not for sale]톡톡캔디",
 		identifiedResourceName = "사탕",
 		identifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕. 먹고 나선 이빨을 꼭 닦도록 하자.",
@@ -11883,10 +11857,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23050] = {
-		unidentifiedDisplayName = "[not for sale]마법캔디",
+		unidentifiedDisplayName = "[Not for sale]마법캔디",
 		unidentifiedResourceName = "과라나사탕",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[not for sale]마법캔디",
+		identifiedDisplayName = "[Not for sale]마법캔디",
 		identifiedResourceName = "과라나사탕",
 		identifiedDescriptionName = {
 			"입안에 넣으면 톡톡 튀는 신기한 사탕. 먹고 나선 이빨을 꼭 닦도록 하자.",
@@ -11925,7 +11899,7 @@ tbl = {
 			"다음의 아이템중 1개가 들어있습니다. ",
 			"―――――――――――――",
 			"뉴웨이브 선글라스",
-			"8식 연옥의 날개 ",
+			"8식 연옥의 Wing ",
 			"귀족의 가면",
 			"근위병의 모자",
 			"도적의 두건 ",
@@ -11957,7 +11931,7 @@ tbl = {
 		identifiedResourceName = "소원상자",
 		identifiedDescriptionName = {
 			"인벤에서 제작한 \"쿠폰의 왕!! 쿠킹\" 어플리케이션 사용시 제공받을수 있는 쿠폰.",
-			"[비매품]화이트슬림포션이 100개가 들어있으며, 아주 가끔 포션이 아닌 황금인장카드 또는 무기 7제련 보장권 등 좀 더 희귀한 것이 나온다고 한다.",
+			"[Not for sale]화이트슬림포션이 100개가 들어있으며, 아주 가끔 포션이 아닌 황금인장카드 또는 무기 7제련 보장권 등 좀 더 희귀한 것이 나온다고 한다.",
 			"(^ff0000해당 아이템은 2016년 1월 첫째주 정기점검시 일괄 삭제됩니다.^000000)",
 			"Weight: ^0EAA0B1^000000"
 		},
@@ -12164,10 +12138,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23094] = {
-		unidentifiedDisplayName = "[비매품]환영의 술잔",
+		unidentifiedDisplayName = "[Not for sale]환영의 술잔",
 		unidentifiedResourceName = "성수",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "[비매품]환영의 술잔",
+		identifiedDisplayName = "[Not for sale]환영의 술잔",
 		identifiedResourceName = "성수",
 		identifiedDescriptionName = {
 			"환상의 꽃에 맺히는 새벽의 이슬로 만든 환상의 술잔. 마신 자는 자신의 환영을 만들어 내어, 자신이 공격받기 어렵게 만든다.",
@@ -12221,7 +12195,7 @@ tbl = {
 		identifiedResourceName = "번호상자03",
 		identifiedDescriptionName = {
 			"헝그리앱에서 서비스하는 MOBI 어플리케이션 사용시 제공받을수 있는 쿠폰.",
-			"[비매품]화이트슬림포션이 100개 들어있으며, 아주 가끔 포션이 아닌 11제련권 , 7제련권 등 좀 더",
+			"[Not for sale]화이트슬림포션이 100개 들어있으며, 아주 가끔 포션이 아닌 11제련권 , 7제련권 등 좀 더",
 			"희귀한 것이 나온다고 한다.",
 			"(해당 아이템은 2016년 4월 첫번째 정기점검시 일괄 삭제됩니다.)",
 			"Weight: ^0EAA0B1^000000"
@@ -13554,7 +13528,7 @@ tbl = {
 			"중단 및 중하단 투구 아이템에 소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.",
 			"다음의 아이템에 소켓을 뚫을 수 있다.",
 			"――――――――――――― ",
-			"사이그룬의 날개",
+			"사이그룬의 Wing",
 			"로보 아이",
 			"천사의 유령",
 			"망원경",
@@ -14045,7 +14019,7 @@ tbl = {
 		identifiedDisplayName = "Decorative Wings Gift",
 		identifiedResourceName = "브라기의날개귀",
 		identifiedDescriptionName = {
-			"루티에에서 선물을 장식할 때 사용하는 마법의 날개. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다.",
+			"루티에에서 선물을 장식할 때 사용하는 마법의 Wing. 한눈을 팔면 선물 채로 날아가 버려서 곤란하다. 이를 방지하기 위해 충분히 무거운 선물에만 달아 준다는 듯하다.",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
@@ -14381,10 +14355,10 @@ tbl = {
 	[25188] = {
 		unidentifiedDisplayName = "소녀의 손수건",
 		unidentifiedResourceName = "추억의수건",
-		unidentifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "무게 : ^7777770^000000" },
+		unidentifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		identifiedDisplayName = "소녀의 손수건",
 		identifiedResourceName = "추억의수건",
-		identifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "Weight: ^0EAA0B0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
