@@ -9948,12 +9948,7 @@ tbl = {
 	[17668] = {
 		unidentifiedDisplayName = "삼명수 패키지Ⅷ",
 		unidentifiedResourceName = "응급처치상자",
-		unidentifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
-			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 아미스트르 스크롤 1개도 얻을 수 있다. ",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
-		},
+		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "삼명수 패키지Ⅷ",
 		identifiedResourceName = "응급처치상자",
 		identifiedDescriptionName = {
@@ -9969,12 +9964,7 @@ tbl = {
 	[17669] = {
 		unidentifiedDisplayName = "삼명수 패키지 10세트Ⅷ",
 		unidentifiedResourceName = "응급처치상자",
-		unidentifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
-			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 아미스트르 스크롤 11개도 얻을 수 있다. ",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000"
-		},
+		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "삼명수 패키지 10세트Ⅷ",
 		identifiedResourceName = "응급처치상자",
 		identifiedDescriptionName = {
@@ -10010,7 +10000,7 @@ tbl = {
 	[19117] = {
 		unidentifiedDisplayName = "안경",
 		unidentifiedResourceName = "글래스",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "포링 선글래스",
 		identifiedResourceName = "포링선글래스",
 		identifiedDescriptionName = {
@@ -10030,7 +10020,7 @@ tbl = {
 	[19118] = {
 		unidentifiedDisplayName = "안경",
 		unidentifiedResourceName = "글래스",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "포링 선글래스+",
 		identifiedResourceName = "포링선글래스",
 		identifiedDescriptionName = {
@@ -10147,7 +10137,7 @@ tbl = {
 	[20470] = {
 		unidentifiedDisplayName = "모자",
 		unidentifiedResourceName = "햇",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "의상 달콤한 초콜릿 모자",
 		identifiedResourceName = "달콤한초콜릿모자",
 		identifiedDescriptionName = {
@@ -10220,7 +10210,7 @@ tbl = {
 	[20802] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "텔레포트 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -10241,7 +10231,7 @@ tbl = {
 	[20803] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "힐 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -10262,7 +10252,7 @@ tbl = {
 	[20804] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "탐욕 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -10283,7 +10273,7 @@ tbl = {
 	[20805] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "민첩성 증가 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -10304,7 +10294,7 @@ tbl = {
 	[20806] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "매그넘 브레이크 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -10325,7 +10315,7 @@ tbl = {
 	[20807] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "인듀어 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -10346,7 +10336,7 @@ tbl = {
 	[20808] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "사이트 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -10367,7 +10357,7 @@ tbl = {
 	[20809] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "집중력 향상 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -10388,7 +10378,7 @@ tbl = {
 	[20811] = {
 		unidentifiedDisplayName = "걸칠것",
 		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "하이딩 아미스트르 가방",
 		identifiedResourceName = "아미스트르가방",
 		identifiedDescriptionName = {
@@ -12170,12 +12160,7 @@ tbl = {
 	[23098] = {
 		unidentifiedDisplayName = "쉐도우 모둠 상자",
 		unidentifiedResourceName = "쉐도우큐브",
-		unidentifiedDescriptionName = {
-			"열심히 달려온 모험가들을 위해 준비된 쉐도우 모둠상자.",
-			"쉐도우 큐브(이어링), 쉐도우 큐브(펜던트), 쉐도우 큐브(아머), 쉐도우 큐브(슈즈), 쉐도우 큐브(쉴드), 쉐도우 큐브(웨폰)이 각각 1개씩 들어있다.",
-			"(^ff0000해당 아이템은 2017년 1월 첫 번째 주 정기점검시 일괄 삭제됩니다.^000000)",
-			"Weight: ^0EAA0B0^000000"
-		},
+		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "쉐도우 모둠 상자",
 		identifiedResourceName = "쉐도우큐브",
 		identifiedDescriptionName = {
@@ -12206,11 +12191,7 @@ tbl = {
 	[23106] = {
 		unidentifiedDisplayName = "아미스트르 스크롤",
 		unidentifiedResourceName = "아미스트르스크롤",
-		unidentifiedDescriptionName = {
-			"기간 한정 아미스트르 스크롤. ",
-			"무기 11제련 상품권, 방어구 11제련 상품권, 아미스트르 상자, 3차 직업군 웨폰 쉐도우등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"Weight: ^0EAA0B1^000000"
-		},
+		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "아미스트르 스크롤",
 		identifiedResourceName = "아미스트르스크롤",
 		identifiedDescriptionName = {
@@ -12224,23 +12205,7 @@ tbl = {
 	[23107] = {
 		unidentifiedDisplayName = "아미스트르 상자",
 		unidentifiedResourceName = "아미스트르상자",
-		unidentifiedDescriptionName = {
-			"아미스트르 가방이 들어있는 상자.",
-			"총 9종류의 아미스트르 가방이 있으며, 각 가방이 나올 확률은 동등합니다.",
-			"――――――――――――― ",
-			"텔레포트 아미스트르 가방",
-			"힐 아미스트르 가방",
-			"탐욕 아미스트르 가방",
-			"민첩성 증가 아미스트르 가방",
-			"매그넘 브레이크 아미스트르 가방",
-			"인듀어 아미스트르 가방",
-			"사이트 아미스트르 가방",
-			"집중력 향상 아미스트르 가방",
-			"하이딩 아미스트르 가방",
-			"――――――――――――― ",
-			"무게 : 20",
-			"Weight: ^0EAA0B1^000000"
-		},
+		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "아미스트르 상자",
 		identifiedResourceName = "아미스트르상자",
 		identifiedDescriptionName = {
@@ -12936,7 +12901,7 @@ tbl = {
 	[24288] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "룬나이트 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -12955,7 +12920,7 @@ tbl = {
 	[24289] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "로얄가드 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -12974,7 +12939,7 @@ tbl = {
 	[24290] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "미케닉 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -12993,7 +12958,7 @@ tbl = {
 	[24291] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "제네릭 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13012,7 +12977,7 @@ tbl = {
 	[24292] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "아크비숍 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13031,7 +12996,7 @@ tbl = {
 	[24293] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "수라 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13050,7 +13015,7 @@ tbl = {
 	[24294] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "길로틴크로스 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13069,7 +13034,7 @@ tbl = {
 	[24295] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "쉐도우체이서 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13088,7 +13053,7 @@ tbl = {
 	[24296] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "워록 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13107,7 +13072,7 @@ tbl = {
 	[24297] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "소서러 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13126,7 +13091,7 @@ tbl = {
 	[24298] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "레인져 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13145,7 +13110,7 @@ tbl = {
 	[24299] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "민스트럴 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -13165,7 +13130,7 @@ tbl = {
 	[24300] = {
 		unidentifiedDisplayName = "웨폰 쉐도우",
 		unidentifiedResourceName = "웨폰쉐도우",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "원더러 웨폰 쉐도우",
 		identifiedResourceName = "웨폰쉐도우",
 		identifiedDescriptionName = {
@@ -14355,7 +14320,7 @@ tbl = {
 	[25188] = {
 		unidentifiedDisplayName = "소녀의 손수건",
 		unidentifiedResourceName = "추억의수건",
-		unidentifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "Weight: ^0EAA0B0^000000" },
+		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "소녀의 손수건",
 		identifiedResourceName = "추억의수건",
 		identifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "Weight: ^0EAA0B0^000000" },
