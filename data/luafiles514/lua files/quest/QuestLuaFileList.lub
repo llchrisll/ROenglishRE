@@ -1,0 +1,5 @@
+QuestLuaFileList = {};
+
+function Add( luafilename )
+	QuestLuaFileList[ #QuestLuaFileList + 1 ] =  luafilename;
+end

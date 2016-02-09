@@ -38,17 +38,15 @@ function makeEPQuestList(Quest_list)
 	end
 end
 
-
-
 function queryEpisode(tabid,episodeId)
-        if( tabid == 4 ) then
+	if( tabid == 4 ) then
 		if(__LOCAL_QuestList[episodeId] == nil) then return nil,nil,nil,nil end
 
 		return __LOCAL_QuestList[episodeId].id,
 				__LOCAL_QuestList[episodeId].name,
 				__LOCAL_QuestList[episodeId].imagefile,
 				getChapterIterator(episodeId,__LOCAL_QuestList)
-        elseif( tabid == 3 ) then
+    elseif( tabid == 3 ) then
 		if(__EP_QuestList[episodeId] == nil) then return nil,nil,nil,nil end
 
 		return __EP_QuestList[episodeId].id,
@@ -56,7 +54,6 @@ function queryEpisode(tabid,episodeId)
 				__EP_QuestList[episodeId].imagefile,
 				getChapterIterator(episodeId,__EP_QuestList)
 	end
-
 end
 
 function queryChapter(tabid,episodeId,chapterId)
@@ -171,8 +168,8 @@ function queryQuestID(tableName , questID)
 		returnTable[questID].Item,
 		returnTable[questID].PrizeItem,
 		returnTable[questID].Title,
-		returnTable[questID].Info,
 		returnTable[questID].QuickInfo,
+		returnTable[questID].Info,
 		returnTable[questID].Hunt1,
 		returnTable[questID].Hunt2,
 		returnTable[questID].Hunt3,
@@ -192,3 +189,221 @@ QuestTable.epsoid141Quest = epsoid141Quest_List
 QuestTable.DewataQuest = DewataQuest_List
 
 -- 끝
+-- key: 퀘스트아이디 value: 퀘스트설명테이블
+QuestTable.quest = {}; 
+-- key: 에피소드일련번호 
+-- val: key: 챕터일련번호
+--      val: key:퀘스트일련번호
+--           val: 퀘스트요약정보테이블
+QuestTable.tab_recommend = {};
+QuestTable.tab_episode   = {};
+QuestTable.tab_local     = {};
+QuestTable.tab_event     = {};
+QuestTable.tab_new       = {};	
+
+
+
+-- 요약집(summary book)를 등록합니다.
+QuestTable.func_tab_add =
+function( tbl, summarybook )	
+	-- episode 는 기존에 이미 존재할 수 있으므로 seqid 를 재할당 해야 합니다.	
+	summarybookseqId  = #tbl + 1
+	tbl[ summarybookseqId ] = summarybook
+	summarybook.seqid = summarybookseqId
+
+	-- chaper는 항상 새로 만들어지는 것이므로 seqid 를 재할당 할 필요가 없다.
+	-- 이미 1부터 순차적인 번호로 저장되어 있다.
+	for chapterseqId, chapter in ipairs( summarybook.list ) do
+		tbl[ summarybookseqId ][ chapterseqId ] = chapter
+		chapter.seqid = chapterseqId
+
+		for questseqId, summary in ipairs( chapter.list ) do
+			tbl[ summarybookseqId ][ chapterseqId ][ questseqId ] = summary
+			summary.seqid = questseqId
+		end
+	end	
+end
+
+-- 요약집(summary book)을 묶음단위로 추가합니다.
+-- 하위버젼을 위해 만든 함수 입니다.
+QuestTable.func_tab_add_pack =
+function( tbl, tabpack )	
+	-- episode 는 기존에 이미 존재할 수 있으므로 seqid 를 재할당 해야 합니다.
+	for summarybookseqId, summarybook in ipairs( tabpack ) do		
+		QuestTable.func_tab_add( tbl, summarybook );
+	end
+end
+
+
+
+
+
+
+-- 하위호환성 처리함수
+-- string.sub( s, i, j ) 문자열s의 i번째에서 j번째문자까지 추출한다.
+-- string.format( foramt, ...) 형식문자열을 구성한다.
+-- string.find( s, "hello", 검색시작색인(선택적) ) 문자열 s에서 "hello" 문자열을 찾아서 그 시작값과 끝값을 리턴한다.없으면 nil 을 리턴한다.
+QuestTable.func_quest_lower_exchange_imagetag = 
+function( msg )
+
+	-- 문자열에서 [[< image = "1234" >]] 형태부분을 찾는다.
+	local imagetag_front_startpos, imagetag_front_endpos = string.find( msg, [[<%s*image%s*=%s*"%d*"%s*>]] );
+	if( nil == imagetag_front_startpos or nil == imagetag_front_endpos ) then return msg; end
+	local imagetag_front = string.sub( msg, imagetag_front_startpos, imagetag_front_endpos );
+
+	-- 문자열에서 [[<\end>]] 형태부분을 찾는다.
+	local imagetag_rear_startpos, imagetag_rear_endpos = string.find( msg, [[<%s*\end%s*>]], imagetag_front_endpos + 1  );
+	if( nil == imagetag_rear_startpos or nil == imagetag_rear_endpos ) then return msg; end
+	local imagetag_rear = string.sub( msg, imagetag_rear_startpos, imagetag_rear_endpos );
+
+	-- 이미지TAG에서 이름부분만 축출합니다.	
+	local name = string.sub( msg, imagetag_front_endpos + 1, imagetag_rear_startpos - 1 );
+
+	-- 이미지TAG에서 번호만 축출합니다.
+	local num_startpos, num_endpos = string.find( imagetag_front, [["%d*"]] );
+	if( nil == num_startpos or nil == num_endpos ) then return msg; end
+	local itidstr = string.sub( imagetag_front, num_startpos + 1, num_endpos - 1 );
+
+	-- 새로운 아이템TAG를 구성합니다.
+	-- <ITEM>사과<INFO>506</INFO></ITEM>
+	local tagstr = string.format( [[<ITEM>%s<INFO>%s</INFO></ITEM>]], name, itidstr );
+	local final = "";
+	if( imagetag_front_startpos > 1 ) then final = final .. string.sub( msg, 1, imagetag_front_startpos - 1 ); end
+	final = final .. tagstr;
+	if( imagetag_rear_endpos < #msg ) then final = final .. string.sub( msg, imagetag_rear_endpos + 1 ); end
+
+	return QuestTable.func_quest_lower_exchange_imagetag( final );	
+
+end
+
+-- 하위호환성 처리함수
+-- string.sub( s, i, j ) 문자열s의 i번째에서 j번째문자까지 추출한다.
+-- string.format( foramt, ...) 형식문자열을 구성한다.
+-- string.find( s, "hello", 검색시작색인(선택적) ) 문자열 s에서 "hello" 문자열을 찾아서 그 시작값과 끝값을 리턴한다.없으면 nil 을 리턴한다.
+QuestTable.func_quest_lower_exchange_linktag = 
+function ( msg )
+
+	-- 문자열에서 [[< link = "TIYANAK">]] 형태부분을 찾는다.
+	local linktag_front_startpos, linktag_front_endpos = string.find( msg, [[<%s*link%s*=%s*".*">]] );
+	if( nil == linktag_front_startpos or nil == linktag_front_endpos ) then return msg; end
+	local linktag_front = string.sub( msg, linktag_front_startpos, linktag_front_endpos );
+
+	-- 문자열에서 [[<\end>]] 형태부분을 찾는다.
+	local linktag_rear_startpos, linktag_rear_endpos = string.find( msg, [[<%s*\end%s*>]], linktag_front_endpos + 1  );
+	if( nil == linktag_rear_startpos or nil == linktag_rear_endpos ) then return msg; end
+	local linktag_rear = string.sub( msg, linktag_rear_startpos, linktag_rear_endpos );
+
+	-- 이미지TAG에서 이름부분만 축출합니다.	
+	local name = string.sub( msg, linktag_front_endpos + 1, linktag_rear_startpos - 1 );
+
+	-- 링크TAG에서 스프라이트명만 축출합니다.
+	local spritename_startpos, spritename_endpos = string.find( linktag_front, [[".*"]] );
+	if( nil == spritename_startpos or nil == spritename_endpos ) then return msg; end
+	local spritename = string.sub( linktag_front, spritename_startpos + 1, spritename_endpos - 1 );
+
+	-- 새로운 네비TAG를 구성합니다.
+	-- <NAVI>[미믹]<INFO>MIMIC,0,0,3,-222</INFO></NAVI>
+	local tagstr = string.format( [[<NAVI>%s<INFO>%s,0,0,3,-222</INFO></NAVI>]], name, spritename );
+	local final = "";
+	if( linktag_front_startpos > 1 ) then final = final .. string.sub( msg, 1, linktag_front_startpos - 1 ); end
+	final = final .. tagstr;
+	if( linktag_rear_endpos < #msg ) then final = final .. string.sub( msg, linktag_rear_endpos +1 ); end
+
+
+	return QuestTable.func_quest_lower_exchange_linktag( final );
+
+end
+
+-- 퀘스트묶음을 개별단위로 등록합니다.
+-- 테이블 QuestTable 에 키는 퀘스트아이디 값은 퀘스트설명
+QuestTable.func_quest_lower_add = 
+function( questPack )
+	for questId, questDesc in pairs( questPack ) do
+
+		if( nil ~= questDesc.Item )     then questDesc.Item      = QuestTable.func_quest_lower_exchange_imagetag( QuestTable.func_quest_lower_exchange_linktag( questDesc.Item ) );	end	
+		if( nil ~= questDesc.PrizeItem) then questDesc.PrizeItem = QuestTable.func_quest_lower_exchange_imagetag( QuestTable.func_quest_lower_exchange_linktag( questDesc.PrizeItem ) ); end
+		if( nil ~= questDesc.Info )     then questDesc.Info      = QuestTable.func_quest_lower_exchange_imagetag( QuestTable.func_quest_lower_exchange_linktag( questDesc.Info ) ); end
+		if( nil ~= questDesc.Hunt1 )    then questDesc.Hunt1     = QuestTable.func_quest_lower_exchange_imagetag( QuestTable.func_quest_lower_exchange_linktag( questDesc.Hunt1 ) ); end
+		if( nil ~= questDesc.Hunt2 )    then questDesc.Hunt2     = QuestTable.func_quest_lower_exchange_imagetag( QuestTable.func_quest_lower_exchange_linktag( questDesc.Hunt2 ) ); end
+		if( nil ~= questDesc.Hunt3 )    then questDesc.Hunt3     = QuestTable.func_quest_lower_exchange_imagetag( QuestTable.func_quest_lower_exchange_linktag( questDesc.Hunt3 ) ); end
+
+		QuestTable.quest[ questId ] = questDesc		
+	end
+end
+
+
+-- 퀘스트묶음을 개별단위로 등록합니다.
+-- 테이블 QuestTable 에 키는 퀘스트아이디 값은 퀘스트설명
+QuestTable.func_quest_add = 
+function( questPack )
+	for questId, questDesc in pairs( questPack ) do
+		QuestTable.quest[ questId ] = questDesc		
+	end
+end
+
+-- 하위버젼을 위해 만들어놓았던 퀘스트 정보들을 등록합니다.
+QuestTable.func_quest_lower_add( malayaQuest_List );
+QuestTable.func_quest_lower_add( epsoid141Quest_List );
+QuestTable.func_quest_lower_add( DewataQuest_List );
+QuestTable.func_tab_add_pack( QuestTable.tab_episode, EP_141Quest_List );
+QuestTable.func_tab_add_pack( QuestTable.tab_local, LOCAL_MalayaQuest_List );
+QuestTable.func_tab_add_pack( QuestTable.tab_local, LOCAL_DewataQuest_List );
+
+
+-- 지정된 퀘스트에 대한 설명을 리턴한다.
+function query_quest_desc( questID )
+
+	if( QuestTable.quest[ questID ] == nil) then return end -- 그냥리턴하면 모두 nil 이다.
+	return  
+		QuestTable.quest[ questID ].NPCFromName,
+		QuestTable.quest[ questID ].NPCFromMap,
+		QuestTable.quest[ questID ].NPCFromSpr,
+		QuestTable.quest[ questID ].NPCFromX,
+		QuestTable.quest[ questID ].NPCFromY,
+		QuestTable.quest[ questID ].NPCToName,
+		QuestTable.quest[ questID ].NPCToMap,
+		QuestTable.quest[ questID ].NPCToSpr,
+		QuestTable.quest[ questID ].NPCToX,
+		QuestTable.quest[ questID ].NPCToY,
+		QuestTable.quest[ questID ].Item,
+		QuestTable.quest[ questID ].PrizeItem,
+		QuestTable.quest[ questID ].Title,
+		QuestTable.quest[ questID ].QuickInfo,
+		QuestTable.quest[ questID ].Info,
+		QuestTable.quest[ questID ].Hunt1,
+		QuestTable.quest[ questID ].Hunt2,
+		QuestTable.quest[ questID ].Hunt3,
+		QuestTable.quest[ questID ].Time,
+		QuestTable.quest[ questID ].Lv
+end
+
+function query_quest_tab_episode( tabname, episodeseqId )
+	if( nil == QuestTable[ tabname ] ) then return; end
+	if( nil == QuestTable[ tabname ][ episodeseqId ] ) then return; end        
+
+	local episode = QuestTable[ tabname ][ episodeseqId ];
+	return episode.name, episode.imagefile;
+	
+end
+
+function query_quest_tab_chapter( tabname, episodeseqId, chapterseqId )
+
+	if( nil == QuestTable[ tabname ] ) then return; end
+	if( nil == QuestTable[ tabname ][ episodeseqId ] ) then return; end
+	if( nil == QuestTable[ tabname ][ episodeseqId ][ chapterseqId] ) then return; end
+
+	local chapter = QuestTable[ tabname ][ episodeseqId ][ chapterseqId];
+	return chapter.name;	
+end
+
+function query_quest_tab_summary( tabname, episodeseqId, chapterseqId, questseqId )
+
+	if( nil == QuestTable[ tabname ] ) then return; end
+	if( nil == QuestTable[ tabname ][ episodeseqId ] ) then return; end
+	if( nil == QuestTable[ tabname ][ episodeseqId ][ chapterseqId] ) then return; end
+	if( nil == QuestTable[ tabname ][ episodeseqId ][ chapterseqId][ questseqId ] ) then return; end
+
+	local summary = QuestTable[ tabname ][ episodeseqId ][ chapterseqId][ questseqId ];
+	return summary.name, summary.questID;
+	
+end
