@@ -1,4 +1,28 @@
 tbl = {
+	[2033] = {
+		unidentifiedDisplayName = "양손지팡이",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 스태프",
+		identifiedResourceName = "메탈스태프",
+		identifiedDescriptionName = {
+			"기존 메탈 스태프에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 스태프.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"MATK +95.",
+			"소울익스펜션 데미지 10% 증가,",
+			"제련도 1당 MATK +8,",
+			"BaseLv이 10상승할때마다 MATK +7 씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"워록 장착 시 MATK +20.",
+			"소서러 장착 시 MATK +15.",
+			"계열 : ^777777양손 지팡이^000000 공격 : ^77777760^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777마법사 계열/복사 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 23
+	},
 	[6347] = {
 		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
@@ -877,6 +901,28 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[13330] = {
+		unidentifiedDisplayName = "풍마수리검",
+		unidentifiedResourceName = "풍마_편익",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 풍마수리검",
+		identifiedResourceName = "메탈풍마수리검",
+		identifiedDescriptionName = {
+			"기존 메탈 풍마수리검에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 풍마수리검.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"풍마수리검 난화 데미지 10% 증가.",
+			"제련도 1당 ATK +7 / MATK +5 증가.",
+			"제련도 2당 원거리 물리 공격력 2% 증가.",
+			"BaseLv이 10상승할때마다 ATK +5 / MATK +3씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"계열 : ^777777풍마 수리검^000000 공격 : ^77777775^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777닌자 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 22
+	},
 	[14780] = {
 		unidentifiedDisplayName = "Soul Plunger Scroll",
 		unidentifiedResourceName = "아리부타스크롤",
@@ -1680,6 +1726,27 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[13132] = {
+		unidentifiedDisplayName = "리볼버",
+		unidentifiedResourceName = "식스슈터",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 리볼버",
+		identifiedResourceName = "메탈리볼버",
+		identifiedDescriptionName = {
+			"기존 메탈 리볼버에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 리볼버.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"파이어 댄스 데미지 10% 증가.",
+			"제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.",
+			"BaseLv이 10상승할때마다 ATK +5씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"계열 : ^777777권총^000000 공격 : ^77777755^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 17
+	},
 	[13680] = {
 		unidentifiedDisplayName = "블러드 액스 상자",
 		unidentifiedResourceName = "오래된보라상자",
@@ -2324,6 +2391,44 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 0
+	},
+	[15167] = {
+		unidentifiedDisplayName = "갑옷",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 시간의 수호자 로브",
+		identifiedResourceName = "프레이야의외투",
+		identifiedDescriptionName = {
+			"기존 시간의 수호자 로브에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
+			"ALL STATUS +2, HP +500, SP +50, MDEF +3, 완전회피 +3.",
+			"계열 : ^777777갑옷^000000 방어 : ^77777774^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[16054] = {
+		unidentifiedDisplayName = "둔기",
+		unidentifiedResourceName = "클럽",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 메이스",
+		identifiedResourceName = "메탈메이스",
+		identifiedDescriptionName = {
+			"기존 메탈 메이스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 메이스.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"천라지망, 카트캐논 데미지 10% 증가.",
+			"제련도 1당 ATK +7 증가.",
+			"BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"계열 : ^777777둔기^000000 공격 : ^777777105^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777노비스/검사계열/복사계열/상인계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 8
 	},
 	[16385] = {
 		unidentifiedDisplayName = "입에 문 네잎클로버 상자Ⅱ",
@@ -8498,6 +8603,30 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[17162] = {
+		unidentifiedDisplayName = "탑승용 고삐 7일 상자",
+		unidentifiedResourceName = "번호상자02",
+		unidentifiedDescriptionName = {
+			"탑승용 고삐가 1개 들어있는 상자. 7일간 사용가능.",
+			"",
+			"각 직업군에 어울리는 탈 것으로 무엇이든 탑승 가능한 신비한 고삐.",
+			"각 직업계열 별로 탈 것의 종류가 나뉘어 있으며, 전승 또는 전직 시 해당계열에 맞는 탈 것으로 바뀝니다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		identifiedDisplayName = "탑승용 고삐 7일 상자",
+		identifiedResourceName = "번호상자02",
+		identifiedDescriptionName = {
+			"탑승용 고삐가 1개 들어있는 상자. 7일간 사용가능.",
+			"",
+			"각 직업군에 어울리는 탈 것으로 무엇이든 탑승 가능한 신비한 고삐.",
+			"각 직업계열 별로 탈 것의 종류가 나뉘어 있으며, 전승 또는 전직 시 해당계열에 맞는 탈 것으로 바뀝니다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[17163] = {
 		unidentifiedDisplayName = "미스틱 파우더 상자",
 		unidentifiedResourceName = "캐시상자_보라",
@@ -9997,6 +10126,28 @@ tbl = {
 		slotCount = 1,
 		ClassNum = 11
 	},
+	[18141] = {
+		unidentifiedDisplayName = "활",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 보우",
+		identifiedResourceName = "메탈보우",
+		identifiedDescriptionName = {
+			"기존 메탈 보우에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 보우.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"애로우 스톰, 서비어레인스톰 데미지 10% 증가.",
+			"제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.",
+			"BaseLv이 10상승할때마다 ATK +6씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"헌터 계열이 장착 시 ATK +15.",
+			"계열 : ^777777활^000000 공격 : ^77777775^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777궁수 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 11
+	},
 	[19117] = {
 		unidentifiedDisplayName = "안경",
 		unidentifiedResourceName = "글래스",
@@ -10036,6 +10187,25 @@ tbl = {
 		},
 		slotCount = 1,
 		ClassNum = 954
+	},
+	[19119] = {
+		unidentifiedDisplayName = "모자",
+		unidentifiedResourceName = "캡",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 시간의 수호자 모자",
+		identifiedResourceName = "음유시인모자",
+		identifiedDescriptionName = {
+			"기존 시간의 수호자 모자에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
+			"ALL STATUS +2, HP +500, SP +100, 변동캐스팅 5% 감소.",
+			"물리 공격 시, 3%의 확률로 데미지의 3%를 HP로 흡수(제련도 3당 HP 흡수량 1%씩 증가)",
+			"물리 공격 시, 1%의 확률로 데미지의 1%를 SP로 흡수(제련도 4당 SP 흡수량 1%씩 증가)",
+			"계열 : ^777777투구^000000 방어 : ^77777710^000000",
+			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 240
 	},
 	[19937] = {
 		unidentifiedDisplayName = "Hat",
@@ -10121,12 +10291,9 @@ tbl = {
 			"그들과 하나라는 의미를 가진 가면.",
 			"타 종족에 대한 두려움이 많은 원들에게 다가가기 위해 만들어 졌다.",
 			"…그다지 효과는 없었지만.",
-			"MaxHP +16%.",
-			"바나나 회복량 2016% 증가.",
-			"(2016년 2월 17일 이후, 옵션 삭제)",
 			"Class: ^6A5ACDCostume^000000",
 			"Defense: ^0000FF0^000000",
-			"Location: ^6A5ACD상중하단 ^000000",
+			"Location: ^6A5ACDUpper, Middle, Lower^000000",
 			"Weight: ^0EAA0B0^000000",
 			"Level Requirement: ^0EAA0B1^000000",
 			"Jobs: ^6A5ACDAll classes^000000"
@@ -10205,6 +10372,23 @@ tbl = {
 			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
+		ClassNum = 0
+	},
+	[20801] = {
+		unidentifiedDisplayName = "걸칠것",
+		unidentifiedResourceName = "후드",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 시간의 수호자 망토",
+		identifiedResourceName = "프레이야의망토",
+		identifiedDescriptionName = {
+			"기존 시간의 수호자 망토에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
+			"FLEE +20, MDEF +5, 완전회피 +5, 무속성 내성 +15%.",
+			"계열 : ^777777걸칠것^000000 방어 : ^77777713^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
 		ClassNum = 0
 	},
 	[20802] = {
@@ -10396,6 +10580,27 @@ tbl = {
 		slotCount = 1,
 		ClassNum = 4
 	},
+	[21023] = {
+		unidentifiedDisplayName = "양손검",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 투핸드소드",
+		identifiedResourceName = "메탈투핸드소드",
+		identifiedDescriptionName = {
+			"기존 메탈 투핸드소드에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 투핸드소드.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"이그니션 브레이크 데미지 10% 증가.",
+			"제련도 1당 ATK +8,  MATK +3, 공격 후딜레이 2% 감소",
+			"BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"계열 : ^777777양손검^000000 공격 : ^777777120^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777검사 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 3
+	},
 	[22101] = {
 		unidentifiedDisplayName = "Shoes",
 		unidentifiedResourceName = "슈즈",
@@ -10414,6 +10619,24 @@ tbl = {
 			"Jobs: ^6A5ACDAll classes^000000"
 		},
 		slotCount = 1,
+		ClassNum = 0
+	},
+	[22102] = {
+		unidentifiedDisplayName = "신발",
+		unidentifiedResourceName = "부츠",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 시간의 수호자 부츠",
+		identifiedResourceName = "프레이야의장화",
+		identifiedDescriptionName = {
+			"기존 시간의 수호자 로브에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
+			"HP +500, SP +100, MDEF +4, 변동캐스팅 5% 감소. HP, SP 자연회복 속도 15% 증가",
+			"",
+			"계열 : ^777777신발^000000 방어 : ^77777723^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
 		ClassNum = 0
 	},
 	[22519] = {
@@ -12153,6 +12376,24 @@ tbl = {
 			"기간 한정 포링 스크롤. ",
 			"무기 11제련 상품권, 방어구 11제련 상품권, 봉인된인장카드, 포링선글래스, 물에 젖은 카드앨범등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight: ^0EAA0B1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23097] = {
+		unidentifiedDisplayName = "상급 시간의 수호자 상자",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {
+			"탑승용 고삐 7일 상자, 강화된 시간의 수호자쉴드, 부츠, 망토, 모자, 로브 각 1개 씩과, 강화된 메탈 카타르, 투핸드액스, 랜스, 북, 스태프, 대거, 메이스, 보우, 투핸드소드, 리볼버, 풍마수리검이 각 1개씩이 들어있는 상자.",
+			"(^ff0000해당 아이템은 2017년 1월 첫 번째 주 정기점검시 일괄 삭제됩니다.^000000) ",
+			"무게 : ^7777770^000000"
+		},
+		identifiedDisplayName = "상급 시간의 수호자 상자",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"탑승용 고삐 7일 상자, 강화된 시간의 수호자쉴드, 부츠, 망토, 모자, 로브 각 1개 씩과, 강화된 메탈 카타르, 투핸드액스, 랜스, 북, 스태프, 대거, 메이스, 보우, 투핸드소드, 리볼버, 풍마수리검이 각 1개씩이 들어있는 상자.",
+			"(^ff0000해당 아이템은 2017년 1월 첫 번째 주 정기점검시 일괄 삭제됩니다.^000000) ",
+			"무게 : ^7777770^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -14327,6 +14568,70 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[26001] = {
+		unidentifiedDisplayName = "양손창",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 랜스",
+		identifiedResourceName = "메탈랜스",
+		identifiedDescriptionName = {
+			"기존 메탈 랜스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 랜스.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"헌드레드 스피어, 오버 브랜드 데미지 10% 증가. 제련도 1당 ATK +9.",
+			"BaseLv이 10 상승 할 때마다 ATK +8씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"계열 : ^777777양손창^000000 공격 : ^777777125^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777검사 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 5
+	},
+	[28015] = {
+		unidentifiedDisplayName = "카타르",
+		unidentifiedResourceName = "카타르",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 카타르",
+		identifiedResourceName = "메탈카타르",
+		identifiedDescriptionName = {
+			"기존 메탈 카타르에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 카타르.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"롤링커터 데미지 10% 증가.",
+			"제련도 1당 ATK +7, 크리티컬 데미지 +2%, 공격 후딜레이 2% 감소.",
+			"BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"",
+			"계열 : ^777777카타르^000000 공격 : ^777777100^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777어쌔신 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 16
+	},
+	[28113] = {
+		unidentifiedDisplayName = "양손도끼",
+		unidentifiedResourceName = "배틀액스",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 투핸드 액스",
+		identifiedResourceName = "메탈투핸드액스",
+		identifiedDescriptionName = {
+			"기존 메탈 투핸드액스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 투핸드액스.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"액스토네이도 데미지 10% 증가.",
+			"파괴불가.",
+			"제련도 1당 ATK +9증가.",
+			"BaseLv이 10상승할때마다 ATK +8씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"계열 : ^777777양손도끼^000000 공격 : ^777777130^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777검사 계열/상인 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 7
+	},
 	[28413] = {
 		unidentifiedDisplayName = "악세사리",
 		unidentifiedResourceName = "클립",
@@ -14530,6 +14835,67 @@ tbl = {
 		},
 		slotCount = 1,
 		ClassNum = 0
+	},
+	[28607] = {
+		unidentifiedDisplayName = "책",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 북",
+		identifiedResourceName = "메탈북",
+		identifiedDescriptionName = {
+			"기존 메탈 북에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 북.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"MATK +40.",
+			"힐 회복량 +10% 증가, 사이킥 웨이브 데미지 10% 증가.",
+			"제련도 1당 ATK +7 / MATK +5 증가.",
+			"BaseLv이 10상승할때마다 ATK +7 / MATK +3 씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"소서러 장착 시 MATK +10.",
+			"계열 : ^777777책^000000 공격 : ^77777770^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777프리스트계열/세이지계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 15
+	},
+	[28714] = {
+		unidentifiedDisplayName = "단검",
+		unidentifiedResourceName = "나이프",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 메탈 대거",
+		identifiedResourceName = "메탈대거",
+		identifiedDescriptionName = {
+			"기존 메탈 대거에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 대거.",
+			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"ASPD +1, MATK +40.",
+			"제련도 1당 ATK +7 / MATK +4 증가 / 공격 후딜레이 2% 감소.",
+			"BaseLv이 10상승할때마다 ATK +7 / MATK +3 씩 추가 증가(증가량은 BaseLv 150까지 적용)",
+			"계열 : ^777777단검^000000 공격 : ^77777790^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000"
+		},
+		slotCount = 1,
+		ClassNum = 1
+	},
+	[28914] = {
+		unidentifiedDisplayName = "방패",
+		unidentifiedResourceName = "가드",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
+		identifiedDisplayName = "강화된 시간의 수호자 쉴드",
+		identifiedResourceName = "발키리아쉴드",
+		identifiedDescriptionName = {
+			"기존 시간의 수호자 망토에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
+			"HP +500, MDEF +5, 무속성 내성 +15%.",
+			"계열 : ^777777방패^000000 방어 : ^77777725^000000",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 3
 	},
 }
 

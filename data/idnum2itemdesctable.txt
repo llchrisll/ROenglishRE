@@ -12939,6 +12939,21 @@ Jobs: ^6A5ACDMage and Soul Linker^000000
 2032#
 [jRO item]
 #
+2033#
+기존 메탈 스태프에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 스태프.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+MATK +95.
+소울익스펜션 데미지 10% 증가,
+제련도 1당 MATK +8,
+BaseLv이 10상승할때마다 MATK +7 씩 추가 증가(증가량은 BaseLv 150까지 적용)
+워록 장착 시 MATK +20.
+소서러 장착 시 MATK +15.
+계열 : ^777777양손 지팡이^000000 공격 : ^77777760^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777마법사 계열/복사 계열^000000
+#
 2101#
 A square shield that is small, yet effective in combat.
 Class: ^6A5ACDShield^000000
@@ -35118,6 +35133,7 @@ Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5306#
+^000088Rental Item^000000
 Crown of Goddess Freya. Transparent crystal in the middle shines in various colors.
 ^888888-------------------------^000000
 Increases resistance against Demihuman monsters by 5%.
@@ -35143,14 +35159,15 @@ Jobs: ^6A5ACDAll except Novice^000000
 5307#
 A hat made with tropical fruits. It looks delicious.
 ^888888-------------------------^000000
-MDEF +3
+Increases resistance against Fire property attacks by 5%.
 ^888888-------------------------^000000
-Auto casts Charming Wink with low chance when attacked.
+Refine level +7: ATK +15, MATK +15, increases resistance against Fire property attacks by 5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B40^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5308#
@@ -35159,9 +35176,10 @@ Brazilia independence celebration hat.
 Increases Movement Speed.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B30^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5309#
@@ -35173,20 +35191,22 @@ Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper, Middle, Lower^000000
 Weight: ^0EAA0B20^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll; Female Only^000000
 #
 5310#
 A hairband decorate with small lamp.
 Make feel safe when at darkness.
 ^888888-------------------------^000000
-Increases resistance to the ^777777Shadow^000000 Property by 10%.
+Increases resistance against ^777777Shadow^000000 Property attaks by 10%.
 ^888888-------------------------^000000
 Enables use of Level 1 ^008800Sight^000000.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5311#
@@ -35195,8 +35215,8 @@ A large hibiscus flower decoration. These flowers can only be seen in Ayothaya.
 MDEF +15
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Location: ^6A5ACDUpper^000000
 Defense: ^0000FF2^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -35204,7 +35224,7 @@ Jobs: ^6A5ACDAll classes^000000
 5312#
 An ancient helm of Ayothaya's fighter. The braver actually can wear.
 ^888888-------------------------^000000
-STR +1
+STR +2
 ^888888-------------------------^000000
 Increase damage on Demihuman monsters by 5%.
 ^888888-------------------------^000000
@@ -35212,7 +35232,8 @@ Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
-Jobs: ^6A5ACDSwordman/Merchant/Thief^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDSwordman, Merchant and Thief^000000
 #
 5313#
 A crown decorate with jewel of love. Rumor who wear it will meet real love.
@@ -35220,7 +35241,9 @@ A crown decorate with jewel of love. Rumor who wear it will meet real love.
 INT +1
 MATK +3%
 ^888888-------------------------^000000
-Reduce variable cast time by 3%.
+Reduces variable cast time by 3%.
+^888888-------------------------^000000
+Increases effectiveness of healing skills and healing items by 3%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
@@ -35229,6 +35252,7 @@ Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5314#
+^000088Rental Item^000000
 This mask calls the urge to hold a weapon in one's hand and hurt people on the 13th of every month.
 ^888888-------------------------^000000
 Increases damage on Demihuman monsters by 5%.
@@ -35236,11 +35260,12 @@ Increases damage on Demihuman monsters by 5%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDMiddle, Lower^000000
-Weight: ^0EAA0B10^000000
+Weight: ^0EAA0B0^000000
 Level Requirement: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
 5315#
+^000088Rental Item^000000
 A device that can measure opponent's power. Commoners have power level 5. Heroes have a power level over 9,000!
 ^888888-------------------------^000000
 Allows the use of Level 1 Sense.
@@ -35248,7 +35273,7 @@ Allows the use of Level 1 Sense.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDMiddle^000000
-Weight: ^0EAA0B10^000000
+Weight: ^0EAA0B0^000000
 Level Requirement: ^0EAA0B35^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
@@ -35270,7 +35295,7 @@ This sturdy and fireproof light yellow hat is fisherman's favorite. It protects 
 Add a 5% chance of auto casting ^008800Level 3 Waterball 3^000000 on the enemy when attacking.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF2^000000
+Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B50^000000
@@ -35280,10 +35305,12 @@ Jobs: ^6A5ACDAll classes^000000
 A little party Poring to take anywhere, put it on your head and dance, sing, drink!
 But with moderation, because once laid down, this poring can laugh at you.
 ^888888-------------------------^000000
-VIT +1
+FLEE +6
+^888888-------------------------^000000
+^FF0000Unrefineable^000000
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF2^000000
+Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -35313,7 +35340,7 @@ All Stats +2
 Add a 5% of auto casting Level 1 ^008800Heal^000000 on the user when receives Physical Damage.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF4^000000
+Defense: ^0000FF8^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll except Novice^000000
@@ -35321,7 +35348,7 @@ Jobs: ^6A5ACDAll except Novice^000000
 5321#
 A special bandana that shows the courage of Indonesian patriots.
 ^888888-------------------------^000000
-Add a low chance of gaining Honey when a monster gets killed.
+Adds a low chance of gaining Honey when a monster gets killed.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
@@ -35331,8 +35358,12 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5322#
 Wonderful Kerchief for that loved.
+^888888-------------------------^000000
+FLEE +5
+MDEF +2
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF2^000000
+Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B24^000000
@@ -35360,10 +35391,10 @@ Dex +3
 Low Chance of casting Level 3 Grand Cross when hit by melee physical attack.
 ^888888-------------------------^000000
 Location: ^6A5ACDUpper^000000
-Defense: ^0000FF2^000000
+Defense: ^0000FF4^000000
+Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
-Weight: ^0EAA0B30^000000
 #
 5325#
 A weird item that spreads a strange-shaped beam around the eyes. It seems to have been made in outer space.
@@ -35481,14 +35512,17 @@ Jobs: ^6A5ACDAll classes^000000
 A hat designed to transmit electric waves. Sometimes it receives electric waves from external worlds.
 ^888888-------------------------^000000
 MDEF +2
+CRIT +5, FLEE +5
 ^888888-------------------------^000000
 Enables use of Level 1 ^008800Lightning Bolt^000000.
+^888888-------------------------^000000
+Adds a chance to auto cast Level 5 [Thunder Storm] when dealing physical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B150^000000
-Level Requirement: ^0EAA0B60^000000
+Level Requirement: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5334#
@@ -35500,10 +35534,10 @@ MDEF +2
 ^FF0000Unrefineable^000000
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF0^000000
+Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B70^000000
-Level Requirement: ^0EAA0B38^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5335#
@@ -61638,8 +61672,8 @@ Jobs: ^6A5ACDNovice, Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ni
 13092#
 A dagger richly decorated with gold throughout the handle created for the 2012 RWC (Ragnarok World Championship)
 Increases ATK and MATK power +20 for every three refine levels
-When refined to +6 or higher, Increases ATK and MATK damage to all monsters.
-When refined to +9 or higher, additional ATK and MATK increase damage to all monsters and has a low chance of auto-casting Level 1 Weapon Perfection
+When refined to +6 or higher, increases physical and magical damage to all monsters by 5%.
+When refined to +9 or higher, increases physical and magical damage to all monsters by 5% and adds a low chance of auto-casting Level 1 Weapon Perfection.
 ^0000ffSet Bonus^000000
 If equipped with RWC 2012 Ring grants +10 ATK for every upgrade level
 If equipped with RWC 2012 Pendant grants +10 MAtk for every upgrade level
@@ -62023,6 +62057,18 @@ Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B3^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDGunslinger^000000
+#
+13132#
+기존 메탈 리볼버에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 리볼버.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+파이어 댄스 데미지 10% 증가.
+제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.
+BaseLv이 10상승할때마다 ATK +5씩 추가 증가(증가량은 BaseLv 150까지 적용)
+계열 : ^777777권총^000000 공격 : ^77777755^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777건너 계열^000000
 #
 13150#
 A practical firearm with a long gun barrel which increases its range and accuracy.
@@ -63461,6 +63507,19 @@ Weight: ^0EAA0B50^000000
 Weapon Level: ^0EAA0B3^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDNinja^000000
+#
+13330#
+기존 메탈 풍마수리검에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 풍마수리검.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+풍마수리검 난화 데미지 10% 증가.
+제련도 1당 ATK +7 / MATK +5 증가.
+제련도 2당 원거리 물리 공격력 2% 증가.
+BaseLv이 10상승할때마다 ATK +5 / MATK +3씩 추가 증가(증가량은 BaseLv 150까지 적용)
+계열 : ^777777풍마 수리검^000000 공격 : ^77777775^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777닌자 계열^000000
 #
 13400#
 A practical sword that is typically used by sailors.
@@ -74808,6 +74867,14 @@ Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B80^000000
 Class: ^6A5ACDAll except Novice^000000
 #
+15167#
+기존 시간의 수호자 로브에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
+ALL STATUS +2, HP +500, SP +50, MDEF +3, 완전회피 +3.
+계열 : ^777777갑옷^000000 방어 : ^77777774^000000
+무게 : ^7777770^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777전 직업^000000
+#
 16000#
 This mace's shape is inspired by a Snake, which symbolizes the fountain of knowledge.
 MaxSP +50.
@@ -75284,6 +75351,18 @@ Weight: ^0EAA0B300^000000
 Weapon Level: ^0EAA0B3^000000
 Level Requirement: ^0EAA0B78^000000
 Jobs: ^6A5ACDPriest and Monk^000000
+#
+16054#
+기존 메탈 메이스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 메이스.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+천라지망, 카트캐논 데미지 10% 증가.
+제련도 1당 ATK +7 증가.
+BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)
+계열 : ^777777둔기^000000 공격 : ^777777105^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777노비스/검사계열/복사계열/상인계열^000000
 #
 16100#
 A box that contains 1 "Angry Mouth" inside.
@@ -83265,6 +83344,14 @@ Weight: ^0EAA0B0^000000
 ※ 해당 아이템은 파티, 길드에서 탈퇴해야 사용이 가능합니다.^000000
 Weight: ^0EAA0B1^000000
 #
+17162#
+탑승용 고삐가 1개 들어있는 상자. 7일간 사용가능.
+
+각 직업군에 어울리는 탈 것으로 무엇이든 탑승 가능한 신비한 고삐.
+각 직업계열 별로 탈 것의 종류가 나뉘어 있으며, 전승 또는 전직 시 해당계열에 맞는 탈 것으로 바뀝니다.
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
 17163#
 미스틱 파우더 30개가 들어있는 상자.
 ^ffffff_^000000
@@ -85192,6 +85279,19 @@ Weight: ^0EAA0B140^000000
 Weapon Level: ^0EAA0B3^000000
 Level Requirement: ^0EAA0B55^000000
 Jobs: ^6A5ACDArcher and Rogue^000000
+#
+18141#
+기존 메탈 보우에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 보우.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+애로우 스톰, 서비어레인스톰 데미지 10% 증가.
+제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.
+BaseLv이 10상승할때마다 ATK +6씩 추가 증가(증가량은 BaseLv 150까지 적용)
+헌터 계열이 장착 시 ATK +15.
+계열 : ^777777활^000000 공격 : ^77777775^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777궁수 계열^000000
 #
 18500#
 ^000088Rental Item^000000
@@ -91155,6 +91255,16 @@ Jobs: ^6A5ACDAll classes^000000
 Location: ^6A5ACD중단 ^000000무게 : ^7777771^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
+#
+19119#
+기존 시간의 수호자 모자에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
+ALL STATUS +2, HP +500, SP +100, 변동캐스팅 5% 감소.
+물리 공격 시, 3%의 확률로 데미지의 3%를 HP로 흡수(제련도 3당 HP 흡수량 1%씩 증가)
+물리 공격 시, 1%의 확률로 데미지의 1%를 SP로 흡수(제련도 4당 SP 흡수량 1%씩 증가)
+계열 : ^777777투구^000000 방어 : ^77777710^000000
+위치 : ^777777상단 ^000000무게 : ^7777770^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777전 직업^000000
 #
 19377#
 A marinated beef dish
@@ -98553,12 +98663,9 @@ Jobs: ^6A5ACDAll classes^000000
 그들과 하나라는 의미를 가진 가면.
 타 종족에 대한 두려움이 많은 원들에게 다가가기 위해 만들어 졌다.
 …그다지 효과는 없었지만.
-MaxHP +16%.
-바나나 회복량 2016% 증가.
-(2016년 2월 17일 이후, 옵션 삭제)
 Class: ^6A5ACDCostume^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACD상중하단 ^000000
+Location: ^6A5ACDUpper, Middle, Lower^000000
 Weight: ^0EAA0B0^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -99337,6 +99444,14 @@ Weight: ^0EAA0B0^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+20801#
+기존 시간의 수호자 망토에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
+FLEE +20, MDEF +5, 완전회피 +5, 무속성 내성 +15%.
+계열 : ^777777걸칠것^000000 방어 : ^77777713^000000
+무게 : ^7777770^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777전 직업^000000
+#
 20802#
 호문클루스 '아미스트르'를 본따 만든 가방.
 ALL Status + 1.
@@ -99676,6 +99791,18 @@ Weight: ^0EAA0B420^000000
 Weapon Level: ^0EAA0B4^000000
 Level Requirement: ^0EAA0B130^000000
 Jobs: ^6A5ACDRune Knight^000000
+#
+21023#
+기존 메탈 투핸드소드에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 투핸드소드.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+이그니션 브레이크 데미지 10% 증가.
+제련도 1당 ATK +8,  MATK +3, 공격 후딜레이 2% 감소
+BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)
+계열 : ^777777양손검^000000 공격 : ^777777120^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777검사 계열^000000
 #
 22000#
 These boots are obviously old but they show no signs of wear and tear.
@@ -100268,6 +100395,15 @@ Defense: ^0000FF15^000000
 Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
+#
+22102#
+기존 시간의 수호자 로브에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
+HP +500, SP +100, MDEF +4, 변동캐스팅 5% 감소. HP, SP 자연회복 속도 15% 증가
+
+계열 : ^777777신발^000000 방어 : ^77777723^000000
+무게 : ^7777770^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777전 직업^000000
 #
 22507#
 This old, discolored scroll, sustained with the mana used for maintaining distorted spaces, sends its user to a random space.
@@ -102076,6 +102212,11 @@ Weight: ^0EAA0B1^000000
 희귀한 것이 나온다고 한다.
 (해당 아이템은 2016년 4월 첫번째 정기점검시 일괄 삭제됩니다.)
 Weight: ^0EAA0B1^000000
+#
+23097#
+탑승용 고삐 7일 상자, 강화된 시간의 수호자쉴드, 부츠, 망토, 모자, 로브 각 1개 씩과, 강화된 메탈 카타르, 투핸드액스, 랜스, 북, 스태프, 대거, 메이스, 보우, 투핸드소드, 리볼버, 풍마수리검이 각 1개씩이 들어있는 상자.
+(^ff0000해당 아이템은 2017년 1월 첫 번째 주 정기점검시 일괄 삭제됩니다.^000000) 
+무게 : ^7777770^000000
 #
 23098#
 열심히 달려온 모험가들을 위해 준비된 쉐도우 모둠상자.
@@ -106965,6 +107106,17 @@ Weapon Level: ^0EAA0B3^000000
 Level Requirement: ^0EAA0B50^000000
 Jobs: ^6A5ACDTranscendent Swordman^000000
 #
+26001#
+기존 메탈 랜스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 랜스.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+헌드레드 스피어, 오버 브랜드 데미지 10% 증가. 제련도 1당 ATK +9.
+BaseLv이 10 상승 할 때마다 ATK +8씩 추가 증가(증가량은 BaseLv 150까지 적용)
+계열 : ^777777양손창^000000 공격 : ^777777125^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777검사 계열^000000
+#
 26100#
 A Foxtail that is made by the Paradise Group.
 DEX +4, INT +4, MATK +165
@@ -107098,6 +107250,19 @@ Weapon Level: ^0EAA0B4^000000
 Level Requirement: ^0EAA0B130^000000
 Jobs: ^6A5ACDGuillotine Cross^000000
 #
+28015#
+기존 메탈 카타르에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 카타르.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+롤링커터 데미지 10% 증가.
+제련도 1당 ATK +7, 크리티컬 데미지 +2%, 공격 후딜레이 2% 감소.
+BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)
+
+계열 : ^777777카타르^000000 공격 : ^777777100^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777어쌔신 계열^000000
+#
 28100#
 This two-handed axe, made to counteract the Devil Sword Thanatos, is sculpted out of Gray Shard.
 It offers incredible power and mana at a great cost.
@@ -107180,6 +107345,19 @@ Weight: ^0EAA0B100^000000
 Weapon Level: ^0EAA0B3^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDSwordman and Merchant^000000
+#
+28113#
+기존 메탈 투핸드액스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 투핸드액스.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+액스토네이도 데미지 10% 증가.
+파괴불가.
+제련도 1당 ATK +9증가.
+BaseLv이 10상승할때마다 ATK +8씩 추가 증가(증가량은 BaseLv 150까지 적용)
+계열 : ^777777양손도끼^000000 공격 : ^777777130^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777검사 계열/상인 계열^000000
 #
 28200#
 You'll see far beyond his death, as exceeds the limits of firepower with this grenade launcher.
@@ -107721,23 +107899,22 @@ Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACD도람족^000000
 #
 28423#
-참치파티의 스킬 쿨 타임 5초 감소.
-근접 물리 공격받을 시 일정 확률로 자신에게 오토스펠 참치파티 1Lv 시전.(스킬을 습득 한 경우 습득한 레벨로 발동)
-계열 : ^777777악세사리^000000
+Reduces skill cooldown of [Tuna Party] by 5 seconds.
+Adds chance to auto cast Level 1 [Tuna Party] (or learned level) when attacked by melee physical attacks.
+Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF1^000000
 Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B100^000000
-Jobs: ^6A5ACD도람족^000000
+Jobs: ^6A5ACDDoram race^000000
 #
 28424#
-픽키 마구쪼기의 변동 캐스팅 50% 감소.
-픽키 마구쪼기의 데미지가 DEX와 스킬 레벨에 따라 증가.
-
-계열 : ^777777악세사리^000000
+Reduces variable cast time of [Picky Peck] by 50%.
+Increases [Picky Peck] damage according DEX and skill level.
+Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF1^000000
 Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B100^000000
-Jobs: ^6A5ACD도람족^000000
+Jobs: ^6A5ACDDoram race^000000
 #
 28600#
 Blue Book which has destructive power.
@@ -107789,6 +107966,20 @@ Weight: ^0EAA0B22^000000
 Weapon Level: ^0EAA0B3^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDPriest, Sage and Star Gladiator^000000
+#
+28607#
+기존 메탈 북에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 북.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+MATK +40.
+힐 회복량 +10% 증가, 사이킥 웨이브 데미지 10% 증가.
+제련도 1당 ATK +7 / MATK +5 증가.
+BaseLv이 10상승할때마다 ATK +7 / MATK +3 씩 추가 증가(증가량은 BaseLv 150까지 적용)
+소서러 장착 시 MATK +10.
+계열 : ^777777책^000000 공격 : ^77777770^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777프리스트계열/세이지계열^000000
 #
 28703#
 This weapon contains a strange energy.
@@ -107892,6 +108083,18 @@ Weapon Level: ^0EAA0B4^000000
 Level Requirement: ^0EAA0B130^000000
 Jobs: ^6A5ACD3rd class of Swordman, Mage, Archer, Merchant and Thief; Kagerou and Oboro^000000
 #
+28714#
+기존 메탈 대거에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 대거.
+^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+ASPD +1, MATK +40.
+제련도 1당 ATK +7 / MATK +4 증가 / 공격 후딜레이 2% 감소.
+BaseLv이 10상승할때마다 ATK +7 / MATK +3 씩 추가 증가(증가량은 BaseLv 150까지 적용)
+계열 : ^777777단검^000000 공격 : ^77777790^000000
+무게 : ^7777770^000000
+무기 레벨 : ^7777773^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777노비스/검사계열/마법사계열/궁수계열/상인계열/도둑계열/소울링커/닌자^000000
+#
 28900#
 Prontera kingdom's knight shield.
 Enables use of Level 1 ^008800Shield Spell^000000.
@@ -107966,6 +108169,14 @@ Defense: ^0000FF60^000000
 Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
+#
+28914#
+기존 시간의 수호자 망토에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
+HP +500, MDEF +5, 무속성 내성 +15%.
+계열 : ^777777방패^000000 방어 : ^77777725^000000
+무게 : ^7777770^000000
+요구 레벨 : ^777777100^000000
+장착 : ^777777전 직업^000000
 #
 29000#
 Refined to +7, INT +5.
@@ -108136,6 +108347,15 @@ Reduce fixed cast time by 0.5 seconds.
 29057#
 Enables use of Level 1 Kyrie Eleison.
 #
+29058#
+[jRO item]
+#
+29059#
+[jRO item]
+#
+29060#
+[jRO item]
+#
 29061#
 ATK +3%, HIT +3.
 #
@@ -108167,34 +108387,34 @@ ATK +27%, HIT +27.
 ATK +33%, HIT +30.
 #
 29071#
-MATK +3%, 고정 캐스팅 0.1초 감소.
+MATK +3%, Reduces fixed casting time by 0.1 second.
 #
 29072#
-MATK +6%, 고정 캐스팅 0.2초 감소.
+MATK +6%, Reduces fixed casting time by 0.2 second.
 #
 29073#
-MATK +9%, 고정 캐스팅 0.3초 감소.
+MATK +9%, Reduces fixed casting time by 0.3 second.
 #
 29074#
-MATK +12%, 고정 캐스팅 0.4초 감소.
+MATK +12%, Reduces fixed casting time by 0.4 second.
 #
 29075#
-MATK +15%, 고정 캐스팅 0.5초 감소.
+MATK +15%, Reduces fixed casting time by 0.5 second.
 #
 29076#
-MATK +18%, 고정 캐스팅 0.6초 감소.
+MATK +18%, Reduces fixed casting time by 0.6 second.
 #
 29077#
-MATK +21%, 고정 캐스팅 0.7초 감소.
+MATK +21%, Reduces fixed casting time by 0.7 second.
 #
 29078#
-MATK +24%, 고정 캐스팅 0.8초 감소.
+MATK +24%, Reduces fixed casting time by 0.8 second.
 #
 29079#
-MATK +27%, 고정 캐스팅 0.9초 감소.
+MATK +27%, Reduces fixed casting time by 0.9 second.
 #
 29080#
-MATK +33%, 고정 캐스팅 1초 감소.
+MATK +33%, Reduces fixed casting time by 1 second.
 #
 29081#
 Critical damage +10%, CRIT +3.
