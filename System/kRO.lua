@@ -1,28 +1,4 @@
 tbl = {
-	[2033] = {
-		unidentifiedDisplayName = "양손지팡이",
-		unidentifiedResourceName = "롯드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "강화된 메탈 스태프",
-		identifiedResourceName = "메탈스태프",
-		identifiedDescriptionName = {
-			"기존 메탈 스태프에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 스태프.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
-			"MATK +95.",
-			"소울익스펜션 데미지 10% 증가,",
-			"제련도 1당 MATK +8,",
-			"BaseLv이 10상승할때마다 MATK +7 씩 추가 증가(증가량은 BaseLv 150까지 적용)",
-			"워록 장착 시 MATK +20.",
-			"소서러 장착 시 MATK +15.",
-			"계열 : ^777777양손 지팡이^000000 공격 : ^77777760^000000",
-			"무게 : ^7777770^000000",
-			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777100^000000",
-			"장착 : ^777777마법사 계열/복사 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 23
-	},
 	[6347] = {
 		unidentifiedDisplayName = "Paper with wishing remarks",
 		unidentifiedResourceName = "원고용지",
@@ -909,7 +885,7 @@ tbl = {
 		identifiedResourceName = "메탈풍마수리검",
 		identifiedDescriptionName = {
 			"기존 메탈 풍마수리검에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 풍마수리검.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"풍마수리검 난화 데미지 10% 증가.",
 			"제련도 1당 ATK +7 / MATK +5 증가.",
 			"제련도 2당 원거리 물리 공격력 2% 증가.",
@@ -1734,7 +1710,7 @@ tbl = {
 		identifiedResourceName = "메탈리볼버",
 		identifiedDescriptionName = {
 			"기존 메탈 리볼버에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 리볼버.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"파이어 댄스 데미지 10% 증가.",
 			"제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.",
 			"BaseLv이 10상승할때마다 ATK +5씩 추가 증가(증가량은 BaseLv 150까지 적용)",
@@ -2417,7 +2393,7 @@ tbl = {
 		identifiedResourceName = "메탈메이스",
 		identifiedDescriptionName = {
 			"기존 메탈 메이스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 메이스.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"천라지망, 카트캐논 데미지 10% 증가.",
 			"제련도 1당 ATK +7 증가.",
 			"BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)",
@@ -10134,7 +10110,7 @@ tbl = {
 		identifiedResourceName = "메탈보우",
 		identifiedDescriptionName = {
 			"기존 메탈 보우에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 보우.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"애로우 스톰, 서비어레인스톰 데미지 10% 증가.",
 			"제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.",
 			"BaseLv이 10상승할때마다 ATK +6씩 추가 증가(증가량은 BaseLv 150까지 적용)",
@@ -10318,7 +10294,7 @@ tbl = {
 		ClassNum = 1469
 	},
 	[20781] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "망토",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "결속의 기민함 망토",
@@ -10337,7 +10313,7 @@ tbl = {
 		ClassNum = 0
 	},
 	[20782] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "망토",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "결속의 총명한 머플러",
@@ -10356,7 +10332,7 @@ tbl = {
 		ClassNum = 0
 	},
 	[20787] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "망토",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "Fine Muffler of Solidarity",
@@ -10374,46 +10350,8 @@ tbl = {
 		slotCount = 1,
 		ClassNum = 0
 	},
-	[20801] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "강화된 시간의 수호자 망토",
-		identifiedResourceName = "프레이야의망토",
-		identifiedDescriptionName = {
-			"기존 시간의 수호자 망토에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
-			"FLEE +20, MDEF +5, 완전회피 +5, 무속성 내성 +15%.",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777713^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777100^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[20802] = {
-		unidentifiedDisplayName = "걸칠것",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "텔레포트 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[텔레포트] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 : ^777777걸칠것^000000 방어 : ^77777730^000000",
-			"Weight: ^0EAA0B20^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
 	[20803] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "후드",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "힐 아미스트르 가방",
@@ -10434,7 +10372,7 @@ tbl = {
 		ClassNum = 4
 	},
 	[20804] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "후드",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "탐욕 아미스트르 가방",
@@ -10455,7 +10393,7 @@ tbl = {
 		ClassNum = 4
 	},
 	[20805] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "후드",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "민첩성 증가 아미스트르 가방",
@@ -10476,7 +10414,7 @@ tbl = {
 		ClassNum = 4
 	},
 	[20806] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "후드",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "매그넘 브레이크 아미스트르 가방",
@@ -10497,7 +10435,7 @@ tbl = {
 		ClassNum = 4
 	},
 	[20807] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "후드",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "인듀어 아미스트르 가방",
@@ -10518,7 +10456,7 @@ tbl = {
 		ClassNum = 4
 	},
 	[20808] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "후드",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "사이트 아미스트르 가방",
@@ -10539,7 +10477,7 @@ tbl = {
 		ClassNum = 4
 	},
 	[20809] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "후드",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "집중력 향상 아미스트르 가방",
@@ -10560,7 +10498,7 @@ tbl = {
 		ClassNum = 4
 	},
 	[20811] = {
-		unidentifiedDisplayName = "걸칠것",
+		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "후드",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "하이딩 아미스트르 가방",
@@ -10588,7 +10526,7 @@ tbl = {
 		identifiedResourceName = "메탈투핸드소드",
 		identifiedDescriptionName = {
 			"기존 메탈 투핸드소드에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 투핸드소드.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"이그니션 브레이크 데미지 10% 증가.",
 			"제련도 1당 ATK +8,  MATK +3, 공격 후딜레이 2% 감소",
 			"BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)",
@@ -14576,7 +14514,7 @@ tbl = {
 		identifiedResourceName = "메탈랜스",
 		identifiedDescriptionName = {
 			"기존 메탈 랜스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 랜스.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"헌드레드 스피어, 오버 브랜드 데미지 10% 증가. 제련도 1당 ATK +9.",
 			"BaseLv이 10 상승 할 때마다 ATK +8씩 추가 증가(증가량은 BaseLv 150까지 적용)",
 			"계열 : ^777777양손창^000000 공격 : ^777777125^000000",
@@ -14596,7 +14534,7 @@ tbl = {
 		identifiedResourceName = "메탈카타르",
 		identifiedDescriptionName = {
 			"기존 메탈 카타르에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 카타르.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"롤링커터 데미지 10% 증가.",
 			"제련도 1당 ATK +7, 크리티컬 데미지 +2%, 공격 후딜레이 2% 감소.",
 			"BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)",
@@ -14618,7 +14556,7 @@ tbl = {
 		identifiedResourceName = "메탈투핸드액스",
 		identifiedDescriptionName = {
 			"기존 메탈 투핸드액스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 투핸드액스.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"액스토네이도 데미지 10% 증가.",
 			"파괴불가.",
 			"제련도 1당 ATK +9증가.",
@@ -14844,7 +14782,7 @@ tbl = {
 		identifiedResourceName = "메탈북",
 		identifiedDescriptionName = {
 			"기존 메탈 북에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 북.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"MATK +40.",
 			"힐 회복량 +10% 증가, 사이킥 웨이브 데미지 10% 증가.",
 			"제련도 1당 ATK +7 / MATK +5 증가.",
@@ -14867,7 +14805,7 @@ tbl = {
 		identifiedResourceName = "메탈대거",
 		identifiedDescriptionName = {
 			"기존 메탈 대거에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 대거.",
-			"^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
+			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
 			"ASPD +1, MATK +40.",
 			"제련도 1당 ATK +7 / MATK +4 증가 / 공격 후딜레이 2% 감소.",
 			"BaseLv이 10상승할때마다 ATK +7 / MATK +3 씩 추가 증가(증가량은 BaseLv 150까지 적용)",
