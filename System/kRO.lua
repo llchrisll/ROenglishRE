@@ -14775,7 +14775,7 @@ tbl = {
 		ClassNum = 0
 	},
 	[28607] = {
-		unidentifiedDisplayName = "책",
+		unidentifiedDisplayName = "Book",
 		unidentifiedResourceName = "북",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
 		identifiedDisplayName = "강화된 메탈 북",
@@ -14798,10 +14798,10 @@ tbl = {
 		ClassNum = 15
 	},
 	[28714] = {
-		unidentifiedDisplayName = "단검",
+		unidentifiedDisplayName = "Dagger",
 		unidentifiedResourceName = "나이프",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "강화된 메탈 대거",
+		identifiedDisplayName = "Enhanced Metal Dagger",
 		identifiedResourceName = "메탈대거",
 		identifiedDescriptionName = {
 			"기존 메탈 대거에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 대거.",
@@ -14817,23 +14817,6 @@ tbl = {
 		},
 		slotCount = 1,
 		ClassNum = 1
-	},
-	[28914] = {
-		unidentifiedDisplayName = "방패",
-		unidentifiedResourceName = "가드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "강화된 시간의 수호자 쉴드",
-		identifiedResourceName = "발키리아쉴드",
-		identifiedDescriptionName = {
-			"기존 시간의 수호자 망토에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
-			"HP +500, MDEF +5, 무속성 내성 +15%.",
-			"계열 : ^777777방패^000000 방어 : ^77777725^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777100^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 3
 	},
 }
 
