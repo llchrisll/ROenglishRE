@@ -10277,22 +10277,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 1462
 	},
-	[20470] = {
-		unidentifiedDisplayName = "모자",
-		unidentifiedResourceName = "햇",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6A5ACDMagnifier^000000." },
-		identifiedDisplayName = "의상 달콤한 초콜릿 모자",
-		identifiedResourceName = "달콤한초콜릿모자",
-		identifiedDescriptionName = {
-			"커다란 초콜릿모양의 모자. 발렌타인데이 이벤트 기간에 쓰고 다니면 주목을 받을 것 같다.",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1469
-	},
 	[20781] = {
 		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "망토",
@@ -14250,91 +14234,6 @@ tbl = {
 			"",
 			"^ffffff<NAVI>^4D4DFF[도람족 챠라 가족]^000000<INFO>lasagna,135,247,0,200,0,0</INFO></NAVI>^000000",
 			"",
-			"Weight: ^0EAA0B0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25143] = {
-		unidentifiedDisplayName = "선물용 봉제 인형",
-		unidentifiedResourceName = "봉제인형",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "선물용 봉제 인형",
-		identifiedResourceName = "봉제인형",
-		identifiedDescriptionName = { "크리스마스 선물로 준비한 봉제인형 이다.", "Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25144] = {
-		unidentifiedDisplayName = "브릿지 자세를 취한 인형",
-		unidentifiedResourceName = "늘어진모로크의현신",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "브릿지 자세를 취한 인형",
-		identifiedResourceName = "늘어진모로크의현신",
-		identifiedDescriptionName = { "운동중인지 브릿지 자세를 취한 인형이다.", "인형의 유연한 몸매가 돋보인다.", "Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25145] = {
-		unidentifiedDisplayName = "까맣게 타버린 망령 인형",
-		unidentifiedResourceName = "고뇌의모자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "까맣게 타버린 망령 인형",
-		identifiedResourceName = "고뇌의모자",
-		identifiedDescriptionName = { "까맣게 타서 쪼그라들어 버린 인형이다.", "왜인지 모르지만 작은 악령들이 좋아한다.", "Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25146] = {
-		unidentifiedDisplayName = "냉혹한 여왕님 인형",
-		unidentifiedResourceName = "지르타스인형",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "냉혹한 여왕님 인형",
-		identifiedResourceName = "지르타스인형",
-		identifiedDescriptionName = { "냉혹한 여왕님의 모습을 한 인형이다.", "인형을 누르면 '오호호호~'하는 웃음소리가 날것만 같다.", "Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25147] = {
-		unidentifiedDisplayName = "막 식사를 마친 토끼 인형",
-		unidentifiedResourceName = "매드바니",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "막 식사를 마친 토끼 인형",
-		identifiedResourceName = "매드바니",
-		identifiedDescriptionName = { "귀여운 토끼 인형이다.", "뭔가를 막 맛있게 먹은듯 하다.", "Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25148] = {
-		unidentifiedDisplayName = "귀여운 식귀 인형",
-		unidentifiedResourceName = "벙웅곳인형",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "귀여운 식귀 인형",
-		identifiedResourceName = "벙웅곳인형",
-		identifiedDescriptionName = { "보기만 해도 배불러지는 식귀의 모습을 본따 만든 인형.", "볼록하게 나온 배가 귀엽다.", "Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25149] = {
-		unidentifiedDisplayName = "따뜻한 목도리를 한 인형",
-		unidentifiedResourceName = "매달린인형",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "따뜻한 목도리를 한 인형",
-		identifiedResourceName = "매달린인형",
-		identifiedDescriptionName = { "추운곳에 있는지 따듯한 목도리를 두른 인형이다.", "Weight: ^0EAA0B0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25150] = {
-		unidentifiedDisplayName = "껴안는 엘리스 베개",
-		unidentifiedResourceName = "껴안는엘리스베개",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "껴안는 엘리스 베개",
-		identifiedResourceName = "껴안는엘리스베개",
-		identifiedDescriptionName = {
-			"푹신하고 길쭉한 베개.",
-			"커버에는 엘리스가 그려져 있다.",
-			"베고 자는것 보다는 주로 안고 자는 용도로 쓰이는 것 같다.",
 			"Weight: ^0EAA0B0^000000"
 		},
 		slotCount = 0,
