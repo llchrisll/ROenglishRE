@@ -848,7 +848,7 @@ Monster: ^6A5ACDDrops^000000
 Weight: ^0EAA0B5^000000
 #
 621#
-An herb that is too bitter for the human palate.
+A herb that is too bitter for the human palate.
 ^FFFFFF_^000000
 Class: ^6A5ACDTaming item^000000
 Monster: ^6A5ACDPoporing^000000
@@ -12531,11 +12531,11 @@ INT +3, MATK +230
 ^888888-------------------------^000000
 Increases Jupitel Thunder damage by 12%.
 ^888888-------------------------^000000
-[^008800Golden set^000000]
-^00FF00Golden Staff^000000
-^00FF00Golden Robe^000000
-^00FF00Golden Shoes^000000
-^00FF00Golden Orb^000000
+[^008800Goldenrod set^000000]
+^00FF00Goldenrod Staff^000000
+^00FF00Goldenrod Robe^000000
+^00FF00Goldenrod Shoes^000000
+^00FF00Goldenrod Orb^000000
 Increases Wind property magics damage by 40%.
 Reduces Earth property magics damage by 30%.
 Reduces resistance against Earth property attacks by 50%.
@@ -12627,8 +12627,14 @@ INT +5, MATK +270
 ^888888-------------------------^000000
 Increase Jupitel Thunder damage by 30%.
 ^888888-------------------------^000000
-If worn with Golden Robe, Golden Shoes, and Golden Orb Increase Wind Magic damage by 60%.
-Lower Earth Magic damage by 60% and resistance to Earth by 50%.
+[^008800Goldenrod set^000000]
+^00FF00Empowered Goldenrod Staff^000000
+^00FF00Goldenrod Robe^000000
+^00FF00Goldenrod Shoes^000000
+^00FF00Goldenrod Orb^000000
+Increases Wind property magics damage by 60%.
+Reduces Earth property magics damage by 60%.
+Reduces resistance against Earth property attacks by 50%.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Staff^000000
 Attack: ^D8000030^000000
@@ -12645,7 +12651,14 @@ INT +5, MATK +270
 ^888888-------------------------^000000
 Increases the effectiveness of Cold Bolt and Frost Diver by 30%.
 ^888888-------------------------^000000
-When you equip a whole set of Aqua items - the staff, the robe, the shoes, and the orb, the effectiveness of all the water spells is increased by 60%, the effectiveness of all the wind spells is decreased by 60%, and resistance to wind attacks is decreased by 50%.
+[^008800Aqua set^000000]
+^00FF00Empowered Aqua Staff^000000
+^00FF00Aqua Robe^000000
+^00FF00Aqua Shoes^000000
+^00FF00Aqua Orb^000000
+Increases Water property magics damage by 60%.
+Reduces Wind property magics damage by 60%.
+Reduces resistance against Wind property attacks by 50%.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Staff^000000
 Attack: ^D8000030^000000
@@ -12662,7 +12675,14 @@ INT +5, MATK +270
 ^888888-------------------------^000000
 Increases the effectiveness of Fire Bolt and Fire Ball by 30%.
 ^888888-------------------------^000000
-When you equip a whole set of Crimson items - the staff, the robe, the shoes, and the orb, the effectiveness of all the fire spells is increased by 60%, the effectiveness of all the water spells is decreased by 60%, and resistance to water attacks is decreased by 50%.
+[^008800Crimson set^000000]
+^00FF00Empowered Crimson Staff^000000
+^00FF00Crimson Robe^000000
+^00FF00Crimson Shoes^000000
+^00FF00Crimson Orb^000000
+Increases Fire property magics damage by 60%.
+Reduces Water property magics damage by 60%.
+Reduces resistance against Water property attacks by 50%.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Staff^000000
 Attack: ^D8000030^000000
@@ -12679,7 +12699,14 @@ INT +5, MATK +270
 ^888888-------------------------^000000
 Increases the effectiveness of Earth Spike and Heaven's Drive by 30%.
 ^888888-------------------------^000000
-When you equip a whole set of Forest items - the staff, the robe, the shoes, and the orb, the effectiveness of all the earth spells is increased by 60%, the effectiveness of all the fire spells is decreased by 60%, and resistance to fire attacks is decreased by 50%.
+[^008800Forest set^000000]
+^00FF00Forest Staff^000000
+^00FF00Forest Robe^000000
+^00FF00Forest Shoes^000000
+^00FF00Forest Orb^000000
+Increases Earth property magics damage by 60%.
+Reduces Fire property magics damage by 60%.
+Reduces resistance against Fire property attacks by 50%.
 ^888888-------------------------^000000
 Class: ^6A5ACDTwo-Handed Staff^000000
 Attack: ^D8000030^000000
@@ -12940,19 +12967,20 @@ Jobs: ^6A5ACDMage and Soul Linker^000000
 [jRO item]
 #
 2033#
-기존 메탈 스태프에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 스태프.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+A refined metal staff that made for a skilled adventurer.
+Can be enchanted by ^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
 MATK +95.
-소울익스펜션 데미지 10% 증가,
-제련도 1당 MATK +8,
-BaseLv이 10상승할때마다 MATK +7 씩 추가 증가(증가량은 BaseLv 150까지 적용)
-워록 장착 시 MATK +20.
-소서러 장착 시 MATK +15.
-계열 : ^777777양손 지팡이^000000 공격 : ^77777760^000000
-무게 : ^7777770^000000
-무기 레벨 : ^7777773^000000
-요구 레벨 : ^777777100^000000
-장착 : ^777777마법사 계열/복사 계열^000000
+Increases Soul Expansion damage by 10%.
+Every refine level increases MATK by 8.
+Every 10 base level increment increase MATK by 7 (Up to base level 150)
+Equipped by Warlock: MATK +20.
+Equipped by Sorcerer: MATK +15.
+Class: ^6A5ACDTwo-Handed Staff^000000
+Attack: ^D8000060^000000
+Weight: ^0EAA0B0^000000
+Weapon Level: ^0EAA0B3^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACDMage, Acolyte and Soul Linker^000000
 #
 2101#
 A square shield that is small, yet effective in combat.
@@ -15917,7 +15945,7 @@ Level Requirement: ^0EAA0B60^000000
 Jobs: ^6A5ACDTranscendent Archer, Mage and Acolyte^000000
 #
 2375#
-An Armor which is made of an unknown metal in the human-world. Mysterious power is hidden in the armor.
+An armor which is made of an unknown metal in the human-world. Mysterious power is hidden in the armor.
 ^888888-------------------------^000000
 DEX +1, STR +2
 MaxHP +150
@@ -22162,7 +22190,7 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 2873#
-A souvenir for Malangdo, that makes you happy when equipped
+A souvenir from Malangdo, just by equpping it will give you a happy mood.
 ^888888-------------------------^000000
 VIT +1, AGI +1
 DEX +1, LUK +1
@@ -22174,7 +22202,7 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 2874#
-Feels the Power of Wild Buffalo.
+An ornament made from horns of wild buffalo. It holds the power of buffalo.
 ^888888-------------------------^000000
 ASPD +1
 ^888888-------------------------^000000
@@ -22185,7 +22213,7 @@ Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
 Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B10^000000
-Class: ^6A5ACD2nd Job^000000
+Class: ^6A5ACDAll classes^000000
 #
 2875#
 Ring given as a token of gratitude for the payment of the subscription game.
@@ -30640,15 +30668,15 @@ Fixed casting time -1% (does not stack with other fixed cast time effects).
 ASPD +1
 #
 4808#
-Attack +15
+ATK +15
 HIT +5
 #
 4809#
-Attack +12
+ATK +12
 HIT +4
 #
 4810#
-Attack +9
+ATK +9
 HIT +3
 #
 4811#
@@ -30684,30 +30712,30 @@ CRIT +6%
 HIT +2
 #
 4819#
-Increases damage on enemies by 1%
+ATK +1%
 #
 4820#
-Attack +18
+ATK +18
 HIT +5
 #
 4821#
-Attack +21
+ATK +21
 HIT +5
 #
 4822#
-Attack +24
+ATK +24
 HIT +5
 #
 4823#
-Attack +27
+ATK +27
 HIT +5
 #
 4824#
-Attack +30
+ATK +30
 HIT +5
 #
 4825#
-Attack +50
+ATK +50
 HIT +15
 #
 4826#
@@ -30807,39 +30835,39 @@ Increases SP consumption by 15%
 #
 4853#
 STR +1
-When refined to +8 or higher, additional STR +3
-When refined to +9 or higher, ATK +1% to all monster sizes
-When refined to +12 or higher, ASPD +1% decreases fixed cast time by 7%.
+Refine level +8: STR +3
+Refine level +9: ATK +1%
+Refine level +12: ASPD +1%, decreases fixed cast time by 7%.
 #
 4854#
 AGI +1
-When refined to +8 or higher, additional AGI +3
-When refined to +9 or higher, ATK +1% to all monster sizes
-When refined to +12 or higher, ASPD +1% decreases fixed cast time by 7%.
+Refine level +8: AGI +3
+Refine level +9: ATK +1%
+Refine level +12: ASPD +1%, decreases fixed cast time by 7%.
 #
 4855#
 VIT +1
-When refined to +8 or higher, additional VIT +3
-When refined to +9 or higher, ATK +1% to all monster sizes
-When refined to +12 or higher, ASPD +1% decreases fixed cast time by 7%.
+Refine level +8: VIT +3
+Refine level +9: MaxSP +1%
+Refine level +12: ASPD +1%, decreases fixed cast time by 7%.
 #
 4856#
 INT +1
-When refined to +8 or higher, additional INT +3
-When refined to +9 or higher, ATK +1% to all monster sizes
-When refined to +12 or higher, ASPD +1% decreases fixed cast time by 7%.
+Refine level +8: INT +3
+Refine level +9: MATK +1%
+Refine level +12: ASPD +1%, decreases fixed cast time by 7%.
 #
 4857#
 DEX +1
-When refined to +8 or higher, additional DEX +3
-When refined to +9 or higher, ATK +1% to all monster sizes
-When refined to +12 or higher, ASPD +1% decreases fixed cast time by 7%.
+Refine level +8: DEX +3
+Refine level +9: MATK +1%
+Refine level +12: ASPD +1%, decreases fixed cast time by 7%.
 #
 4858#
 LUK +1
-When refined to +8 or higher, additional LUK +3
-When refined to +9 or higher, ATK +1% to all monster sizes
-When refined to +12 or higher, ASPD +1% decreases fixed cast time by 7%.
+Refine level +8: LUK +3
+Refine level +9: MaxHP +1%
+Refine level +12: ASPD +1%, decreases fixed cast time by 7%.
 #
 4859#
 FLEE +1
@@ -34554,7 +34582,7 @@ Weight: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5263#
-An headgear which is made of many kinds of property rings. It looks very luxurious and charming.
+A headgear which is made of many kinds of property rings. It looks very luxurious and charming.
 ^888888-------------------------^000000
 Add a 1% resistance against Water, Wind, Fire property attack.
 ^888888-------------------------^000000
@@ -35183,7 +35211,7 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5309#
-The wool mask which reappears a head style.
+A mohawk mask made based on Mohican hair style.
 ^888888-------------------------^000000
 Enables use of Level 1 ^008800Graffiti^000000.
 ^888888-------------------------^000000
@@ -35192,7 +35220,7 @@ Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper, Middle, Lower^000000
 Weight: ^0EAA0B20^000000
 Level Requirement: ^0EAA0B1^000000
-Jobs: ^6A5ACDAll; Female Only^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 5310#
 A hairband decorate with small lamp.
@@ -35925,10 +35953,10 @@ Jobs: ^6A5ACDAll classes^000000
 5366#
 This hat is for memorial of 80 year old king to be upon the throne.
 ^888888-------------------------^000000
-All stats +2
+All stats +5
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -36799,10 +36827,8 @@ Jobs: ^6A5ACDAll classes^000000
 5431#
 Chicken is on your head! It might have alarm option for waking you up in the morning.
 ^888888-------------------------^000000
-Adds chance to increase STR by 3 for 3 seconds when dealing physical attacks.
-Adds chance to increase INT by 3 for 3 seconds when dealing magical attacks.
-^888888-------------------------^000000
-^FF0000Unrefineable^000000
+Adds chance to increase STR by 3 for 10 seconds when dealing physical attacks.
+Adds chance to increase INT by 3 for 10 seconds when dealing magical attacks.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
@@ -36823,13 +36849,7 @@ Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5433#
-A champion's wreath weaved from rare olive leaves.
-^888888-------------------------^000000
-Adds 4% bonus experience for each monster killed.
-When refined to +5 or +6, adds +5% or 6% respectively.
-When refined to +7 adds 8% bonus experience.
-When refined to +8 or higher, adds 10% bonus experience.
-^888888-------------------------^000000
+A golden laurel crown weaved from olive leaves.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
@@ -37052,8 +37072,6 @@ Jobs: ^6A5ACDAll except Novice^000000
 5451#
 A legendary helm, inspired by god of Dragon.
 ^888888-------------------------^000000
-ASPD +10%
-^888888-------------------------^000000
 Increases resistance against Demihuman monsters by 10%.
 ^888888-------------------------^000000
 Increases damage inflicted against Demihuman monsters by 5%.
@@ -37070,8 +37088,6 @@ Jobs: ^6A5ACDAll classes^000000
 5452#
 A legendary helm, inspired by god of Dragon.
 ^888888-------------------------^000000
-ASPD +7%
-^888888-------------------------^000000
 Increases resistance against Demihuman monsters by 7%.
 ^888888-------------------------^000000
 Increases damage inflicted against Demihuman monsters by 3%.
@@ -37087,8 +37103,6 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5453#
 A legendary helm, inspired by god of Dragon.
-^888888-------------------------^000000
-ASPD +5%
 ^888888-------------------------^000000
 Increases resistance against Demihuman monsters by 5%.
 ^888888-------------------------^000000
@@ -37180,7 +37194,7 @@ DEX +1
 FLEE +2
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -37188,6 +37202,7 @@ Jobs: ^6A5ACDAll classes^000000
 5460#
 A helmet made from a dragon's skull.
 ^888888-------------------------^000000
+All stats +2
 MaxHP +3%
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
@@ -37212,6 +37227,7 @@ Level Requirement: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5462#
+^000088Rental item^000000
 A scarf with terrifying spikes.
 ^888888-------------------------^000000
 ATK +30
@@ -37227,6 +37243,7 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5463#
+^000088Rental item^000000
 A scarf with rainbow color.
 ^888888-------------------------^000000
 MATK +30
@@ -37643,7 +37660,7 @@ Weight: ^0EAA0B0^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
 5493#
-An wool cap that the god of Hunt Ule has used. When you wear this, you might can hunt animals easily.
+A wool cap that the god of Hunt Ule has used. When you wear this, you might can hunt animals easily.
 ^888888-------------------------^000000
 DEX +2, AGI +1
 ^888888-------------------------^000000
@@ -38410,7 +38427,7 @@ Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
-Level Requirement: ^0EAA0B71^000000
+Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5548#
@@ -38466,9 +38483,6 @@ A hat made from magical egg.
 ^888888-------------------------^000000
 Add a chance of auto casting ^008800Level 1 Heal^000000 on the user when receives physical attack.
 ^888888-------------------------^000000
-[^000088Event Bonus, will NOT work outside of Event^000000]
-Increase movement speed.
-^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
@@ -38507,7 +38521,6 @@ Ridiculous Octopus with a gentleman's hat. It feels like it's making fun of me a
 ^888888-------------------------^000000
 MDEF +3
 ^888888-------------------------^000000
-^702180Indestructible^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF3^000000
 Location: ^6A5ACDUpper^000000
@@ -38618,7 +38631,7 @@ MDEF +10
 ^888888-------------------------^000000
 Reduced variable casting time by 3%
 ^888888-------------------------^000000
-Reduced SP consumption of all skills by 3%.
+Reduced SP consumption of all skills by 5%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
@@ -38742,10 +38755,6 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5571#
 Death Rock singer-style wig.
-^888888-------------------------^000000
-[^000088Event Bonus, will NOT work outside of Event^000000]
-Add low chance of auto casting ^008800Level 5 Frost Joker^000000 on the user when receives physical attack.
-^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
@@ -38821,7 +38830,7 @@ Jobs: ^6A5ACDAll classes^000000
 5577#
 A mask worn by a knight that used dark magic to curse anyone who wore it but him.
 ^888888-------------------------^000000
-DEX +3.
+DEX +3
 ^888888-------------------------^000000
 ^6A5ACDDark Knight Set^000000
 ^3CB371Dark Knight Mask^000000
@@ -40428,7 +40437,7 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5685#
-An well-made replica which can't be distinguished if one doesn't look at it carefully.
+A well-made replica which can't be distinguished if one doesn't look at it carefully.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
@@ -41701,7 +41710,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5814#
 ^000088Rental item^000000
-An headgear which is made of many kinds of property rings. It looks very luxurious and charming.
+A headgear which is made of many kinds of property rings. It looks very luxurious and charming.
 ^888888-------------------------^000000
 Reduce damage taken from Demihuman monsters by 10%.
 ^888888-------------------------^000000
@@ -42680,7 +42689,7 @@ Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACDGeneticist^000000
 #
 5903#
-An otherwise normal ghost bandana with a red spiral insignia on the front.
+A normal ghost bandana with a red spiral insignia on the front.
 It demonstrates a strong connection between the wearer and the afterlife.
 ^888888-------------------------^000000
 Every refine level: CRIT +2, reduce fixed cast time by 2%.
@@ -44608,7 +44617,8 @@ Only a Blacksmith named Mighty Hammer can use this ore to refine.
 Weight: ^0EAA0B0^000000
 #
 6242#
-A coin given in exchange for old RWC Groove Packs. Bring this to the RWC Groove Recycler on the second floor of Paradise Group to redeem for special items.
+A coin given in exchange for old RWC Groove Packs.
+Bring this to the RWC Groove Recycler on the second floor of Paradise Group to redeem for special items.
 Weight: ^0EAA0B0^000000
 #
 6243#
@@ -45591,7 +45601,7 @@ A Casaul diary that has entries about the daily life of an average kid.
 Weight: ^0EAA0B0^000000
 #
 6450#
-An Honest diary that has entries about the good deeds a kid has done on a daily basis.
+A Honest diary that has entries about the good deeds a kid has done on a daily basis.
 Weight: ^0EAA0B0^000000
 #
 6451#
@@ -45700,11 +45710,13 @@ Metal piece with sharp needles. Would be painful if stepped on. Will be useful t
 Weight: ^0EAA0B0.1^000000
 #
 6494#
-A sparkling coin minted in the Kafra Headquarters in Aldebaran. These can be exchanged for various goods and services.
+A sparkling coin minted in the Kafra Headquarters in Aldebaran.
+These can be exchanged for various goods and services.
 Weight: ^0EAA0B0^000000
 #
 6495#
-The Paradise Group recognizes the bearer of this badge as one who has done great deeds. These can be exchanged for various goods and services.
+The Paradise Group recognizes the bearer of this badge as one who has done great deeds.
+These can be exchanged for various goods and services.
 Weight: ^0EAA0B0^000000
 #
 6496#
@@ -45930,7 +45942,8 @@ High class Laphine wing piece. It looks like it will take you to somewhere. But 
 Weight: ^0EAA0B0^000000
 #
 6549#
-Paper coupon which has a cute painting and letters on it given as a reward for requests taken from Gelkah in Paradise Group. Give these to Gelkah in Paradise Group Headquarters and exchange them for prizes.
+Paper coupon which has a cute painting and letters on it given as a reward for requests taken from Gelkah in Paradise Group.
+Give these to Gelkah in Paradise Group Headquarters and exchange them for prizes.
 Weight: ^0EAA0B0^000000
 #
 6550#
@@ -49215,7 +49228,7 @@ A statue which signifies the spirit of emerging victorious.
 Weight: ^0EAA0B1^000000
 #
 7252#
-An herbal medicine which is used in the eastern countries.
+A herbal medicine which is used in the eastern countries.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
@@ -53380,46 +53393,46 @@ Weight: ^0EAA0B0^000000
 Weight: ^0EAA0B0^000000
 #
 7962#
-...
-...
+A map with abstract painting.
+Only vulcanic terrain that can be identified which have a written in odd letters : 'Ifrit will lead you to hell'.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 7963#
-...
-...
+A map with abstract painting.
+Only dark blue cave that can be identified which have a written in odd letters : 'A mysterious place, deep lake with dark blue dragon guarding'.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 7964#
-...
-...
+A map with abstract painting.
+Only an institute that can be identified which have a written in odd letters : 'In the edge of darkness, a body moving without a mind'.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 7965#
-...
-...
+A map with abstract painting.
+Only a church that can be identified which have a written in odd letters : 'Where the king slumber in eternal, will risking your life'.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 7966#
-...
+A Parchment written in ancient language. Maybe it was part of a map?
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 7967#
-...
+A Parchment written in ancient language. Maybe it was part of a map?
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 7968#
-...
+A Parchment written in ancient language. Maybe it was part of a map?
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
 7969#
-...
+A Parchment written in ancient language. Maybe it was part of a map?
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
@@ -53444,7 +53457,7 @@ berbahasa satu, bahasa Indonesia"
 Weight: ^0EAA0B0^000000
 #
 7973#
-...
+A white egg. Has a same size of pigeon egg. If you look closely you can see something is moving.
 ^FFFFFF_^000000
 Weight: ^0EAA0B0^000000
 #
@@ -54410,21 +54423,19 @@ Japanese Book 2.
 Weight: ^0EAA0B1^000000
 #
 11022#
-The latest book of Alchemist Monthly! It contains recipes of 'Mix cooking' trends and other useful information.
+The latest book of Alchemist Monthly! It contains trendy recipes of 'Mix cooking' and other useful information.
 ^FFFFFF_^000000
 Weight: ^0EAA0B5^000000
 #
 11023#
-Alchemist Monthly 'Best of' series.
-[HP of you & me Vol.12]
-Alchemist Darcia's endless study of improvement in strength has finally been accomplished!
+A popular Alchemist's monthly series [HP of You and Me Vol.12].
+Alchemist Da Lucia's endless research of health improvement has finally completed!
 ^FFFFFF_^000000
 Weight: ^0EAA0B5^000000
 #
 11024#
-Alchemist Monthly 'Best of' series.
-[SP of Dream Vol.10]
-This book contains Alchemist Vain and Vajin's study of increasing SP, and recipes for making reagent.
+A popular Alchemist's monthly series [SP of Dream Vol.10]
+This book contains Alchemist Vein and Vejin's study of increasing SP, and recipes for making reagent.
 ^FFFFFF_^000000
 Weight: ^0EAA0B5^000000
 #
@@ -55649,7 +55660,7 @@ Duration: ^00800020^000000 minutes
 Weight: ^0EAA0B30^000000
 #
 12077#
-An herbal tea mixed with royal jelly that has a pungent scent, but a refreshing flavor.
+A herbal tea mixed with royal jelly that has a pungent scent, but a refreshing flavor.
 ^FFFFFF_^000000
 Class: ^0000FFCooked Food^000000
 Effect: ^008000INT +7^000000
@@ -62060,7 +62071,7 @@ Jobs: ^6A5ACDGunslinger^000000
 #
 13132#
 기존 메탈 리볼버에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 리볼버.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 파이어 댄스 데미지 10% 증가.
 제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.
 BaseLv이 10상승할때마다 ATK +5씩 추가 증가(증가량은 BaseLv 150까지 적용)
@@ -63510,7 +63521,7 @@ Jobs: ^6A5ACDNinja^000000
 #
 13330#
 기존 메탈 풍마수리검에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 풍마수리검.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 풍마수리검 난화 데미지 10% 증가.
 제련도 1당 ATK +7 / MATK +5 증가.
 제련도 2당 원거리 물리 공격력 2% 증가.
@@ -64029,7 +64040,7 @@ Attack: ^D80000130^000000
 Weight: ^0EAA0B120^000000
 Weapon Level: ^0EAA0B4^000000
 Level Requirement: ^0EAA0B80^000000
-Jobs: ^6A5ACDSwordman, Thief, Merchant^000000
+Jobs: ^6A5ACDSwordman, Thief and Merchant^000000
 #
 13450#
 One-Handed Sword used by the cavalry. If you are aware know his strength.
@@ -65798,7 +65809,7 @@ Weight: ^0EAA0B1^000000
 #
 13703#
 A box containing 1 egg scroll with the chance of obtaining
-An Kawaii Ribbon, Lotus, Zeny Scroll and others.
+A Cute Ribbon, Lotus, Zeny Scroll and others.
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
 ^FFFFFF_^000000
@@ -73853,7 +73864,8 @@ Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACDArchbishop^000000
 #
 15031#
-Armor that is only provided for members of the Paradise Group. There are various sizes so tall people don't have to worry about it.
+A suit that is only provided for members of the Paradise Group.
+There are various sizes so tall people don't have to worry about it.
 STR +1, INT +1, DEX +1
 MaxHP +500
 MaxSP +50
@@ -73866,7 +73878,7 @@ Level Requirement: ^0EAA0B60^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 15032#
-An armor made with animal leather used by the Jaty tribe during battle.
+An armor made from animal leather, used by the Jaty tribe during battle.
 MDEF +10.
 Increases resistance against all properties by 5%.
 15% of additional tolerance to stun and freezing.
@@ -74621,8 +74633,8 @@ Level Requirement: ^0EAA0B110^000000
 Jobs: ^6A5ACD3rd Classes^000000
 #
 15121#
-Sarah was wearing a robe is imbued with spiritual power.
-When do magical attack, have some chance for 10 seconds to increase your MATK, each refine increase +8.
+Sarah's a robe that imbued with spiritual power.
+When dealing magical attack, adds a chance for 10 seconds to increase your MATK, each refine increase +8.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF35^000000
 Weight: ^0EAA0B80^000000
@@ -75354,7 +75366,7 @@ Jobs: ^6A5ACDPriest and Monk^000000
 #
 16054#
 기존 메탈 메이스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 메이스.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 천라지망, 카트캐논 데미지 10% 증가.
 제련도 1당 ATK +7 증가.
 BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)
@@ -78223,7 +78235,7 @@ Weight: ^0EAA0B1^000000
 16575#
 A box contains 1 2011 Pagdayaw in it.
 ^FFFFFF_^000000
-An headgear which is made of many kinds of property rings. It looks very luxurious and charming. Reduce all damage from Demihuman by 10%,
+A headgear which is made of many kinds of property rings. It looks very luxurious and charming. Reduce all damage from Demihuman by 10%,
 Reduces damage from Water, Fire, Wind by 5%, Reduces damage from Ghost property monsters by 10%, Increase damage against Ghost property Demihuman by 50%.
 30 days Rental Item.
 Class: ^6A5ACDHeadgear^000000
@@ -85282,7 +85294,7 @@ Jobs: ^6A5ACDArcher and Rogue^000000
 #
 18141#
 기존 메탈 보우에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 보우.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 애로우 스톰, 서비어레인스톰 데미지 10% 증가.
 제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.
 BaseLv이 10상승할때마다 ATK +6씩 추가 증가(증가량은 BaseLv 150까지 적용)
@@ -85980,7 +85992,7 @@ Reduces all skill's after-cast delay by 5%, Increase SP consumption when using s
 Each 3 refines reduces all skill's after-cast delay and decrease SP consumption when using skills by 3%.
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
-Location: ^6A5ACDUpper, Middle^000000
+Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -86539,7 +86551,7 @@ Jobs: ^6A5ACDAll classes^000000
 #
 18614#
 This Spooky mask of Death. You are too freaked out to put it actually over your face so for now you wear it as a hat.
-Adds +3 to Flee while worn.
+Flee +3
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
@@ -91326,7 +91338,7 @@ AGI +7
 Weight: ^0EAA0B80^000000
 #
 19385#
-An herbal tea mixed
+A herbal tea mixed
 with royal jelly that
 has a pungent scent,
 but a refreshing flavor. INT +7
@@ -98671,11 +98683,13 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 20470#
-커다란 초콜릿모양의 모자. 발렌타인데이 이벤트 기간에 쓰고 다니면 주목을 받을 것 같다.
-계열 : ^777777의상장비^000000 방어 : ^7777770^000000
-위치 : ^777777상단 ^000000무게 : ^7777770^000000
-요구 레벨 : ^7777771^000000
-장착 : ^777777전 직업^000000
+A large chocolate shaped hat.
+Class: ^6A5ACDCostume^000000
+Defense: ^0000FF0^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20500#
 White wings of a holy Archangel.
@@ -99445,24 +99459,29 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 20801#
-기존 시간의 수호자 망토에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
-FLEE +20, MDEF +5, 완전회피 +5, 무속성 내성 +15%.
-계열 : ^777777걸칠것^000000 방어 : ^77777713^000000
-무게 : ^7777770^000000
-요구 레벨 : ^777777100^000000
-장착 : ^777777전 직업^000000
+An enhanced manteau made from mixed elunium and emperium made for an experienced adventurer.
+FLEE +20
+MDEF +5
+Perfect Dodge +5
+Neutral resistance +15%.
+Class: ^6A5ACDGarment^000000
+Defense: ^0000FF13^000000
+Weight: ^0EAA0B0^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20802#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[텔레포트] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 : ^777777걸칠것^000000 방어 : ^77777730^000000
+A bag made based on Amistr appearance.
+All stats + 1.
+Enables use of Level 1 [Teleport].
+Every 2 refine level: Exp bonus +1%, Item drop rate +1%.
+Refine level +9: Restore SP by 3 when killing monster with physical attacks.
+Refine level +12: uninterruptible magic cast.
+Class: ^6A5ACDGarment^000000
+Defense: ^0000FF30^000000
 Weight: ^0EAA0B20^000000
-요구 레벨 : ^7777771^000000
-장착 : ^777777전 직업^000000
+Level Requirement: ^0EAA0B1^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 20803#
 호문클루스 '아미스트르'를 본따 만든 가방.
@@ -99794,7 +99813,7 @@ Jobs: ^6A5ACDRune Knight^000000
 #
 21023#
 기존 메탈 투핸드소드에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 투핸드소드.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 이그니션 브레이크 데미지 10% 증가.
 제련도 1당 ATK +8,  MATK +3, 공격 후딜레이 2% 감소
 BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)
@@ -106986,42 +107005,39 @@ Weight: ^0EAA0B10^000000
 Weight: ^0EAA0B0^000000
 #
 25143#
-크리스마스 선물로 준비한 봉제인형 이다.
+A stuffed animal doll prepared for a christmas gift.
 Weight: ^0EAA0B0^000000
 #
 25144#
-운동중인지 브릿지 자세를 취한 인형이다.
-인형의 유연한 몸매가 돋보인다.
+A weird doll that takes a bridge looking posture. Kinda flexible for a doll.
 Weight: ^0EAA0B0^000000
 #
 25145#
-까맣게 타서 쪼그라들어 버린 인형이다.
-왜인지 모르지만 작은 악령들이 좋아한다.
+An abandoned burned black demon doll. Its look a little evil.
 Weight: ^0EAA0B0^000000
 #
 25146#
-냉혹한 여왕님의 모습을 한 인형이다.
-인형을 누르면 '오호호호~'하는 웃음소리가 날것만 같다.
+A doll resemble the cold blooded queen.
+When you push the doll it will laugh 'Ohohoho~'.
 Weight: ^0EAA0B0^000000
 #
 25147#
-귀여운 토끼 인형이다.
-뭔가를 막 맛있게 먹은듯 하다.
+A cute rabbit doll.
+It seems just eat something delicious.
 Weight: ^0EAA0B0^000000
 #
 25148#
-보기만 해도 배불러지는 식귀의 모습을 본따 만든 인형.
-볼록하게 나온 배가 귀엽다.
+A doll with a starved looking expression.
 Weight: ^0EAA0B0^000000
 #
 25149#
-추운곳에 있는지 따듯한 목도리를 두른 인형이다.
+A doll wrapped with a warm shawl.
 Weight: ^0EAA0B0^000000
 #
 25150#
-푹신하고 길쭉한 베개.
-커버에는 엘리스가 그려져 있다.
-베고 자는것 보다는 주로 안고 자는 용도로 쓰이는 것 같다.
+A soft and comfy pillow.
+Drawn with Alice figure.
+It seems to be mainly used for hugging instead of sleeping.
 Weight: ^0EAA0B0^000000
 #
 25169#
@@ -107108,7 +107124,7 @@ Jobs: ^6A5ACDTranscendent Swordman^000000
 #
 26001#
 기존 메탈 랜스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 랜스.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 헌드레드 스피어, 오버 브랜드 데미지 10% 증가. 제련도 1당 ATK +9.
 BaseLv이 10 상승 할 때마다 ATK +8씩 추가 증가(증가량은 BaseLv 150까지 적용)
 계열 : ^777777양손창^000000 공격 : ^777777125^000000
@@ -107252,7 +107268,7 @@ Jobs: ^6A5ACDGuillotine Cross^000000
 #
 28015#
 기존 메탈 카타르에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 카타르.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 롤링커터 데미지 10% 증가.
 제련도 1당 ATK +7, 크리티컬 데미지 +2%, 공격 후딜레이 2% 감소.
 BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)
@@ -107348,7 +107364,7 @@ Jobs: ^6A5ACDSwordman and Merchant^000000
 #
 28113#
 기존 메탈 투핸드액스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 투핸드액스.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 액스토네이도 데미지 10% 증가.
 파괴불가.
 제련도 1당 ATK +9증가.
@@ -107969,7 +107985,7 @@ Jobs: ^6A5ACDPriest, Sage and Star Gladiator^000000
 #
 28607#
 기존 메탈 북에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 북.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 MATK +40.
 힐 회복량 +10% 증가, 사이킥 웨이브 데미지 10% 증가.
 제련도 1당 ATK +7 / MATK +5 증가.
@@ -108085,7 +108101,7 @@ Jobs: ^6A5ACD3rd class of Swordman, Mage, Archer, Merchant and Thief; Kagerou an
 #
 28714#
 기존 메탈 대거에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 대거.
-^ffffff<NAVI>^4D4DFF[점핑 인챈트 전문가]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
+^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
 ASPD +1, MATK +40.
 제련도 1당 ATK +7 / MATK +4 증가 / 공격 후딜레이 2% 감소.
 BaseLv이 10상승할때마다 ATK +7 / MATK +3 씩 추가 증가(증가량은 BaseLv 150까지 적용)
@@ -108171,12 +108187,15 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 28914#
-기존 시간의 수호자 망토에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
-HP +500, MDEF +5, 무속성 내성 +15%.
-계열 : ^777777방패^000000 방어 : ^77777725^000000
-무게 : ^7777770^000000
-요구 레벨 : ^777777100^000000
-장착 : ^777777전 직업^000000
+A manteau made from a mixed elunium and emperium.
+MaxHP +500
+MDEF +5
+Neutral resistance +15%.
+Class: ^6A5ACDShield^000000
+Defense: ^0000FF25^000000
+Weight: ^0EAA0B0^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 29000#
 Refined to +7, INT +5.
