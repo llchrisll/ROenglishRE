@@ -2309,7 +2309,7 @@ SKILL_DESCRIPT = {
 	},
 	[SKID.CR_AUTOGUARD] = {
 		"Auto Guard",
-		"Max Level: 5",
+		"Max Level: 10",
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Self^000000",
 		"Description: ^777777Activate Guard status which has a",
@@ -8759,7 +8759,8 @@ SKILL_DESCRIPT = {
 		"cause different status change or other effect",
 		"depending on the skill level used. The",
 		"caster's Agility can increase the damage.",
-		"Deals 100% critical damage.^000000",
+		"Deals 100% critical damage.",
+		"Requires ^00bb00Spear^777777 class weapon^000000.",
 		"[Lv 1]: ^777777100% ATK, cause bleeding^000000",
 		"[Lv 2]: ^777777200% ATK, remove spirit spheres^000000",
 		"[Lv 3]: ^777777300% ATK, break target's Shield^000000",
@@ -8831,7 +8832,8 @@ SKILL_DESCRIPT = {
 		"obstacles, they receive additional damage.",
 		"The Base Level and level of Spear Quicken",
 		"skill affect the Pierce damage. The Base",
-		"Level, STR and DEX affect the Smash damage.^000000",
+		"Level, STR and DEX affect the Smash damage.",
+		"Requires ^00bb00Spear^777777 class weapon^000000.",
 		"[Lv 1]: ^777777Pierce damage 200%, Smash damage",
 		"100%^000000",
 		"[Lv 2]: ^777777Pierce damage 400%, Smash damage",
@@ -8879,7 +8881,8 @@ SKILL_DESCRIPT = {
 		"a 3 cell radius around the caster. Forcing",
 		"all targets hit by it to sit. For monsters,",
 		"they are unable to move for a short period.",
-		"Damage is influenced by Over Brand skill level.^000000",
+		"Damage is influenced by Over Brand skill level.",
+		"Requires ^00bb00Spear^777777 class weapon^000000.",
 		"[Lv 1]: ^777777120% ATK, Chance of success 40%^000000",
 		"[Lv 2]: ^777777240% ATK, Chance of success 48%^000000",
 		"[Lv 3]: ^777777360% ATK, Chance of success 56%^000000",
@@ -11037,8 +11040,7 @@ SKILL_DESCRIPT = {
 		"[Lv 9]: ^777777+36 people^000000",
 		"[Lv 10]: ^777777+40 people^000000"
 	},
-	[SKID.GD_GLORYGUILD] = {
-	},
+	[SKID.GD_GLORYGUILD] = {},
 	[SKID.GD_LEADERSHIP] = {
 		"Skill Form: ^6666ccPassive^000000",
 		"Target: ^777777Guildsmen^00000",
@@ -11124,8 +11126,7 @@ SKILL_DESCRIPT = {
 		"of adding an extra point whenever an investment",
 		"in the Guild's commercial growth is made.^000000"
 	},
-	[SKID.GD_ITEMEMERGENCYCALL] = {
-	},
+	[SKID.GD_ITEMEMERGENCYCALL] = {},
 	[SKID.MH_SUMMON_LEGION] = {
 		"Summon Legion",
 		"Max Level: 5",
@@ -11970,8 +11971,8 @@ SKILL_DESCRIPT = {
 		"Sanctuary, Highness Heal and Coluceo Heal.",
 		"The skill cannot be used in conjunction",
 		"with Manigificat.",
-		"^000000Cure the following effect:",
-		"^702180Curse, Poison, Hallucination, Confusion,",
+		"^000000Cure the following effect:^702180",
+		"Curse, Poison, Hallucination, Confusion,",
 		"Bleeding, Burning, Freezing, Blind,",
 		"Mandragora Howling ^000000and^702180 Guillotine Cross",
 		"poison^000000 (except ^702180Oblivion Curse^000000).",
