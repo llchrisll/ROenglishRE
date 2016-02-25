@@ -6522,6 +6522,24 @@ Weapon Level: ^0EAA0B4^000000
 Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACDRune Knight and Royal Guard^000000
 #
+1447#
+A violence spear with deadly poison 'three days and three nights'.
+It has powerful attack, but it has a price that you have to deal with.
+^888888-------------------------^000000
+Crit +10
+^888888-------------------------^000000
+Enable Level 5 [Double Attack].
+^888888-------------------------^000000
+Adds a chance to inflict [Poison] status on target when dealing physical attacks.
+But will adds a chance to [Poison] the wielder when attacked by physical attacks.
+^888888-------------------------^000000
+Class: ^6A5ACDOne-Handed Spear^000000
+Attack: ^D80000150^000000
+Weight: ^0EAA0B50^000000
+Weapon Level: ^0EAA0B4^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACDRune Knight and Royal Guard^000000
+#
 1450#
 A lance imbued with Vicious Mind.
 ^888888-------------------------^000000
@@ -14830,7 +14848,7 @@ A traditional Japanese headpiece associated with the afterlife.
 ^888888-------------------------^000000
 AGI +2
 ^888888-------------------------^000000
-Increases resistance against Ghost property attack by 10%.
+Increases resistance against Ghost property attack by 15%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
@@ -14923,7 +14941,7 @@ Ear coverings, linked by a headband, that protect the wearer's ears from the col
 Increases resistance to ^FF0000Curse^000000 status by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B20^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -15324,11 +15342,11 @@ Jobs: ^6A5ACDAcolyte and Merchant^000000
 2327#
 A robe that emanates an aura of holiness.
 ^888888-------------------------^000000
+MDEF +5
+^888888-------------------------^000000
 Increases resistance against Demon monsters by 15%,
 ^888888-------------------------^000000
 Increases resistance against Shadow property by 10%.
-^888888-------------------------^000000
-MDEF +5
 ^888888-------------------------^000000
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF57^000000
@@ -15426,7 +15444,8 @@ Jobs: ^6A5ACDThief and Ninja^000000
 2337#
 A sneaking suit that enables its wearer to move more quickly and stealthily.
 ^888888-------------------------^000000
-AGI +1, MDEF +3
+AGI +1
+MDEF +3
 ^888888-------------------------^000000
 [^6A5ACDNinja Shinobi armor set^000000]
 ^008800Ninja Suit^000000
@@ -15665,9 +15684,9 @@ Jobs: ^6A5ACDNovice^000000
 2356#
 A blessed holy robe that protects its wearer from being tainted by evil.
 ^888888-------------------------^000000
-Adds +80% Blind resistance
-^888888-------------------------^000000
 MDEF +5
+^888888-------------------------^000000
+Adds +80% Blind resistance
 ^888888-------------------------^000000
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF45^000000
@@ -15718,7 +15737,8 @@ Jobs: ^6A5ACDAll classes^000000
 2359#
 A sneaking suit that enables its wearer to move more quickly and stealthily.
 ^888888-------------------------^000000
-AGI +1, MDEF +3
+AGI +1
+MDEF +3
 ^888888-------------------------^000000
 [^6A5ACDNinja Shinobi armor set^000000]
 ^008800Ninja Suit^000000
@@ -15749,7 +15769,6 @@ Jobs: ^6A5ACDWizard, Sage and Soul Linker^000000
 A type of traditional outfit. It brings out the hidden powers of the wearer through its spiritual power.
 ^888888-------------------------^000000
 All Stats +5
-^888888-------------------------^000000
 MDEF +5
 ^888888-------------------------^000000
 Class: ^6A5ACDArmor^000000
@@ -15762,7 +15781,6 @@ Jobs: ^6A5ACDAll except Novice^000000
 A type of traditional outfit. It brings out the hidden powers of the wearer through its spiritual power.
 ^888888-------------------------^000000
 All Stats +5
-^888888-------------------------^000000
 MDEF +5
 ^888888-------------------------^000000
 Class: ^6A5ACDArmor^000000
@@ -15775,7 +15793,6 @@ Jobs: ^6A5ACDAll except Novice^000000
 A type of traditional outfit. It brings out the hidden powers of the wearer through its spiritual power.
 ^888888-------------------------^000000
 All Stats +3
-^888888-------------------------^000000
 MDEF +5
 ^888888-------------------------^000000
 Class: ^6A5ACDArmor^000000
@@ -19445,6 +19462,7 @@ MATK +5%
 ^888888-------------------------^000000
 Class: ^6A5ACDAccessory^000000
 Defense: ^0000FF0^000000
+Weight: ^0EAA0B0^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
@@ -29602,8 +29620,8 @@ Compound on: ^6A5ACDShield^000000
 Weight: ^0EAA0B1^000000
 #
 4610#
-When the damage taken exceeds the user's MaxHP, user will only take the amount that exceeds the user's MaxHP
-When the damage is create for skills with fixed damage also apply the reducci?.
+When the damage taken exceeds the user's MaxHP, user will only take the amount that exceeds the user's MaxHP.
+However, it cannot reduce the static damage.
 ^888888-------------------------^000000
 Class: ^6A5ACDCard^000000
 Compound on: ^00C33CArmor^000000
@@ -31515,7 +31533,7 @@ Jobs: ^6A5ACDAll except Novice^000000
 5008#
 A wreath of wildflowers made by a woman in love.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF0^000000
+Defense: ^0000FF1^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll except Novice^000000
@@ -32455,7 +32473,6 @@ STR +3
 MaxHP +100
 ^888888-------------------------^000000
 ^FF0000Unrefineable^000000
-^702180Indestructible^000000
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
@@ -32487,7 +32504,7 @@ Seems to be useful when used for opening a vending shop.
 STR +1, AGI +1, LUK +1
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF1^000000
+Defense: ^0000FF0^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B80^000000
 Level Requirement: ^0EAA0B75^000000
@@ -32495,12 +32512,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5101#
 A Commemorative blindfold named after the most famous of Sages; Takius from the Ragnarok Anime.
-^888888-------------------------^000000
-INT +2, DEF +1
-^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Location: ^6A5ACDMiddle^000000
 Defense: ^0000FF1^000000
+Location: ^6A5ACDMiddle^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
@@ -32528,7 +32542,11 @@ Level Requirement: ^0EAA0B30^000000
 Jobs: ^6A5ACDAll except Novice^000000
 #
 5104#
-A blinder enchanted with dark magic that adds immunity to Blind and 2% tolerance to Stun effect.
+A blinder enchanted with dark magic.
+^888888-------------------------^000000
+Adds immunity against Blind status.
+Adds Stun resistance by 2%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF0^000000
 Location: ^6A5ACDMiddle^000000
@@ -32538,28 +32556,26 @@ Jobs: ^6A5ACDAll except Novice^000000
 5105#
 A birthday cake replica that won't fit a Dancer inside, but it's almost just as much fun to wear it on top of your head. Almost.
 ^888888-------------------------^000000
-^FF0000While wearing this, monsters have a chance of dropping Stolen Cacao when killed.^000000
-^888888-------------------------^000000
-MaxSP +60
+DEX +1
+MaxSP +80
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF2^000000
 Location: ^6A5ACDUpper^000000
-Weight: ^0EAA0B0^000000
-Level Requirement: ^0EAA0B1^000000
+Weight: ^0EAA0B100^000000
+Level Requirement: ^0EAA0B24^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5106#
-A festive party hat for celebrating Ragnarok's
-second anniversary and given as a small gift to
-express thanks to all of RO's loyal players.
+A Gravity anniversary hat.
 ^888888-------------------------^000000
-Increase ATK and MATK against all monsters by 3%.
+ATK +10, MATK +10
+MDEF +10
 ^888888-------------------------^000000
-Hit, Flee, Perfect Dodge +3
+Increases resistace against Water property attacks by 10%.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF4^000000
+Defense: ^0000FF10^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B1^000000
@@ -32608,7 +32624,9 @@ Jobs: ^6A5ACDAll classes^000000
 5111#
 A cute looking cap that makes its wearer look just like Galapago the penguin, and the rim,
 which looks like a beak, actually blocks UV rays.
-Adds a low chance of gaining Anodyne each time a monster is killed.
+^888888-------------------------^000000
+Adds a low chance of gaining [Anodyne] each time a monster is killed.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF4^000000
 Location: ^6A5ACDUpper^000000
@@ -32617,8 +32635,7 @@ Level Requirement: ^0EAA0B55^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5112#
-A hat that happens to match the Super Novice costume...
-Absolutely perfectly.
+A hat that happens to match the Super Novice costume... absolutely perfect.
 ^888888-------------------------^000000
 All Stats +1
 ^888888-------------------------^000000
@@ -32650,7 +32667,9 @@ Jobs: ^6A5ACDAll classes^000000
 #
 5115#
 A furry hat that is an all time favorite during the winter season.
+^888888-------------------------^000000
 Increases resistance against ^FF0000Frozen^000000 by 10%.
+^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
 Location: ^6A5ACDUpper^000000
@@ -32693,8 +32712,7 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 5119#
-A hat that happens to match the Super Novice costume...
-Absolutely perfectly.
+A hat that happens to match the Super Novice costume... absolutely perfect.
 ^888888-------------------------^000000
 All Stats +1
 ^888888-------------------------^000000
@@ -32989,7 +33007,7 @@ It looks like the doll is trying to cheer its wearer from the top of the head.
 ^888888-------------------------^000000
 STR +1
 ^888888-------------------------^000000
-Increase 10% damage against Demihuman monsters
+Increase physical damage inflicted against Demihuman monsters by 10%.
 ^888888-------------------------^000000
 Add low chance of causing Sleep on its wearer when attacking.
 ^888888-------------------------^000000
@@ -33074,7 +33092,7 @@ Jobs: ^6A5ACDSwordman and Merchant^000000
 5143#
 A traditional hat that is mainly worn in plays performed in a far east country.
 ^888888-------------------------^000000
-Add +30% resistance to Silence status.
+Add 30% resistance to Silence status.
 ^888888-------------------------^000000
 Class: ^6A5ACDHeadgear^000000
 Defense: ^0000FF5^000000
@@ -33202,7 +33220,7 @@ Jobs: ^6A5ACDAll classes^000000
 5154#
 Fashionable yet strict-looking sunglasses which is usually worn by the Metaboli players.
 Class: ^6A5ACDHeadgear^000000
-Defense: ^0000FF3^000000
+Defense: ^0000FF4^000000
 Location: ^6A5ACDMiddle^000000
 Weight: ^0EAA0B10^000000
 Jobs: ^6A5ACDAll classes^000000
@@ -47046,7 +47064,7 @@ Special type of stone used to refine pRO 10th Armors.
 Weight: ^0EAA0B20^000000
 #
 6803#
-Gigan of debris.It seems that some people want these fragments.
+Fragments of Gigantes. It seems that some people want these fragments.
 ^FFFFFF_^000000
 Weight: ^0EAA0B1^000000
 #
@@ -64139,6 +64157,49 @@ Weapon Level: ^0EAA0B3^000000
 Level Requirement: ^0EAA0B50^000000
 Jobs: ^6A5ACDTranscendent Swordman and Merchant^000000
 #
+13460#
+A magic sword sealed with powerful seal.
+It's not easy to draw the true power of this sword.
+MaxSP -100
+Adds a chance to auto cast Level 5 [Fire Bolt] when dealing physical attacks.
+Refine level +7: MATK +80, MaxSP +50.
+Refine level +10: ASPD +1, MATK +40, MaxSP +50.
+Class: ^6A5ACDOne-Handed Sword^000000
+Attack: ^D80000100^000000
+Weight: ^0EAA0B150^000000
+Weapon Level: ^0EAA0B4^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACD3rd classes of Swordman, Merchant and Thief^000000
+#
+13461#
+An evil sword sealed with powerful seal.
+It's not easy to draw the true power of this sword.
+DEF -50
+MDEF -10
+Adds a chance to auto cast Level 5 [Frost Nova] when dealing physical attacks.
+Refine level +7: Crit +30, MDEF +10.
+Refine level +10: ASPD +1, Crit +20, DEF +50.
+Class: ^6A5ACDOne-Handed Sword^000000
+Attack: ^D80000100^000000
+Weight: ^0EAA0B150^000000
+Weapon Level: ^0EAA0B4^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACD3rd classes of Swordman, Merchant and Thief^000000
+#
+13462#
+A maximum sword sealed with powerful seal.
+It's not easy to draw the true power of this sword.
+MaxHP -1000.
+Adds a chance to auto cast Level 5 [Cold Bolt] when dealing physical attacks.
+Refine level +7: ATK +50, MaxHP +500.
+Refine level +10: ASPD +1, ATK +30, MaxHP +500.
+Class: ^6A5ACDOne-Handed Sword^000000
+Attack: ^D80000100^000000
+Weight: ^0EAA0B150^000000
+Weapon Level: ^0EAA0B4^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACD3rd classes of Swordman, Merchant and Thief^000000
+#
 13500#
 A box containing 10 Life Insurance Certificate for 1 hours.
 ^FFFFFF_^000000
@@ -74134,6 +74195,15 @@ Level Requirement: ^0EAA0B50^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 15050#
+Attached with divine power.
+If equipped with zodiac hat, it will give various effect depend on zodiac type.
+All stats +4.
+Reduces damage from demihuman by 10%.
+Class: ^6A5ACDArmor^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B100^000000
+Level Requirement: ^0EAA0B50^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 15051#
 Armor made from Bakonawa Scale. Lets off a mysterious moonlight effect.
@@ -74156,45 +74226,44 @@ Jobs: ^6A5ACDAll classes^000000
 15053#
 Newly improved ninja suit which took into consideration the opinions of skilled ninjas. Lighter and durability of the textile is better than before.
 AGI +1 and increases AGI 1 per 3 Refine.
-Additional AGI +2 with Job and For Armguard.
+When equipped with [Fox Armguard]: AGI +2.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF70^000000
 Weight: ^0EAA0B120^000000
 Level Requirement: ^0EAA0B100^000000
-Jobs: ^6A5ACDNinja^000000
+Jobs: ^6A5ACDKagerou and Oboro^000000
 #
 15054#
 Scale Armor told to be worn by a legendary ninja who used unique ninja skills. Specialized for close range attack.
 MaxHP +15%, MaxSP -30%.
-Additional ATK +10%, STR +2 with Job and Wolf Armguard.
+When equipped with [Wolf Armguard]: ATK +10%, STR +2.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF90^000000
 Weight: ^0EAA0B180^000000
 Level Requirement: ^0EAA0B100^000000
-Jobs: ^6A5ACDNinja^000000
+Jobs: ^6A5ACDKagerou and Oboro^000000
 #
 15055#
-Armor specially made to protect high ranking officials from Ninja assassins.
-Armor creates a clone of the user when under ATK to trick the enemy.
-Additional AGI +1.
-Illusion-Shadow Lv 1 activated at a certain rate when under physical attack.
-Additional Total Flee +1, FLEE +10 with Job and Crescent Armguard.
+An armor specially made to protect high rank Ninja executives.
+AGI +1
+Adds a chance to auto cast Level 1 [Illusion - Shadow] when attacked by physical attacks.
+When equipped with [Crescent Armguard]: Flee +10, Perfect dodge +10.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF60^000000
 Weight: ^0EAA0B150^000000
 Level Requirement: ^0EAA0B100^000000
-Jobs: ^6A5ACDNinja^000000
+Jobs: ^6A5ACDKagerou and Oboro^000000
 #
 15056#
 Newly improved ninja suit which took into consideration the opinions of skilled ninjas.
 Lighter and durability of the textile is better than before.
 AGI +1. Increases AGI 1 per 3 Refine.
-Additional AGI +2 with Job and For Armguard.
+When equipped with [Fox Armguard]: AGI +2.
 Class: ^6A5ACDArmor^000000
 Defense: ^0000FF70^000000
 Weight: ^0EAA0B120^000000
 Level Requirement: ^0EAA0B100^000000
-Jobs: ^6A5ACDNinja^000000
+Jobs: ^6A5ACDKagerou and Oboro^000000
 #
 15057#
 Class: ^6A5ACDArmor^000000
@@ -74577,7 +74646,7 @@ Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACDMechanic^000000
 #
 15116#
-Armor used by travelers who came and went on board the Tarlock's airship.
+Armor used by travelers who came and went on board the Ferlock's airship.
 These are goods that were stolen from the monsters that attacked the airship during the incident.
 MaxHP +1000, MaxSP +100, MDEF +10.
 All Stats +1.
@@ -74591,7 +74660,7 @@ Level Requirement: ^0EAA0B125^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 15117#
-Goods around the body of the captain of the airship Tarlock.
+Goods around the body of the captain of the airship Felock.
 I won the loot that solves the airship attack incident.
 All stats +1
 MaxHP +500, MaxSP +50
@@ -74599,10 +74668,10 @@ MDEF +10
 When refined to +7, MaxHP +500, MaxSP +50.
 When refined to +9, MaxHP +200, MaxSP +20.
 When refined to +12, MaxHP +300, MaxSP +30.
-[^0000FFTarlock Equip Set^000000]
-^3CB371Tarlock's Armor^000000
-^3CB371Tarlock's Manteau^000000
-^3CB371Tarlock's Shoes^000000
+[^0000FFFerlock Equip Set^000000]
+^3CB371Ferlock's Armor^000000
+^3CB371Ferlock's Manteau^000000
+^3CB371Ferlock's Shoes^000000
 MaxHP +25%, MaxSP +25%
 Increase movement speed.
 If the amount of the entire set of refine is equal or higher than 30, add MaxHP +5%, MaxSP +5%.
@@ -74770,7 +74839,7 @@ Enables use of Level 1 ^008800Endure^000000.
 MATK +50
 If wearer's base level 120 or higher, increase MATK +50
 If wearer's base level 140 or higher, additional MATK +50
-When equipped with ^008800Cape of Ancient Lord^000000,
+When equipped with [Cape of Ancient Lord],
 MaxSP +10%, every 1 refine of armor increase MaxSP +1%.
 FLEE +10, every 1 refine of armor increase FLEE +1.
 When equipped with ^008800Cloak Of Survival^000000,
@@ -74783,7 +74852,7 @@ Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 15147#
-A clothes that will deal serious damage to people's spirit when talking.
+A clothes that will deal serious damage to people's spirit when the wearer talk.
 Enables use of Level 1 ^008800Improve Concentration^000000.
 Every 1 refine, ignore 4% physical defense of Demihuman, Demon and undead monster.
 When equipped with ^008800Morrigane's Manteau^000000,
@@ -74899,6 +74968,35 @@ Defense: ^0000FF40^000000
 Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B80^000000
 Class: ^6A5ACDAll except Novice^000000
+#
+15163#
+An elegant robe.
+Can only be worn by high rank law officer.
+MATK +5%
+Enables use of Level 1 [Spell Breaker].
+When base level is 120 or higher, MATK +4%.
+When base level is 140 or higher, MATK +5%.
+When equipped with [Cape of Ancient Lord]: reduces variable cast time by 2%, skill casting can't be interrupted.
+When equipped with [Survivor's Manteau]: adds a chance to auto cast Level 1 [Heal] on yourself when dealing magical attacks, this chance can be increased depend on refine level.
+Class: ^6A5ACDArmor^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B10^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+15164#
+An elegant robe.
+Can only be worn by high rank law officer.
+Enables use of Level 1 [Sacrifice].
+For every refine level, increases resistance against Neutral, Fire and Shadow property attacks by 3%.
+When equipped with [Morrigane's Manteau]: every refine level increase Flee by 2 and AGI by 1, and enchant armor with Ghost property.
+When equipped with [Valkyrian Manteau]: VIT +5, increases resistance against Neutral, Fire and Shadow property attacks by 10%.
+For every refine level, increase VIT and LUK by 1.
+Class: ^6A5ACDArmor^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B10^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACDAll classes^000000
 #
 15167#
 기존 시간의 수호자 로브에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
@@ -91257,6 +91355,18 @@ Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B70^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+19115#
+A hat that giving the feeling of being in republic of Schwartzvald.
+Increases long range physical attacks by 6%.
+Refine level +7: Increases long range physical attacks by 2%.
+Refine level +10: Increases long range physical attacks by 4%.
+Class: ^6A5ACDHeadgear^000000
+Defense: ^0000FF3^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B40^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 19116#
 A very rare breed of dragon that have red color.
 MaxHP +5%, MaxSP +5%
@@ -94760,8 +94870,8 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 19914#
-Airship Tarlock's captain hat.
-Using the usual hat and the colors are different.
+Airship captain Ferlock's hat.
+It has different color than the normal one.
 Class: ^6A5ACDCostume^000000
 Location: ^6A5ACDUpper^000000
 Weight: ^0EAA0B0^000000
@@ -98678,6 +98788,20 @@ Weight: ^0EAA0B0^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+20455#
+A hat that giving the feeling of being in republic of Schwartzvald.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+20456#
+A hat with vestiges from fierce battle on the battlefield.
+Class: ^6A5ACDCostume^000000
+Location: ^6A5ACDUpper^000000
+Weight: ^0EAA0B0^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 20458#
 A hat resemble the Wild Rider.
 Class: ^6A5ACDCostume^000000
@@ -100251,7 +100375,7 @@ Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 22046#
-Boots used by travelers who come aboard the ariship Tarlock.
+Boots used by travelers who come aboard the ariship Ferlock.
 Stolen from the monsters during the event of airship raid.
 AGI +1.
 Increase attack speed (reduce delay after attack by 10%)
@@ -100263,7 +100387,7 @@ Level Requirement: ^0EAA0B125^000000
 Jobs: ^6A5ACDAll classes^000000
 #
 22047#
-Shoes of Tarlock, captain of the airship.
+Shoes of Ferlock, captain of the airship.
 Acquired during the event of airship raid.
 AGI +1, Increase attack speed (reduce delay after attack by 5%).
 When refined to +7, AGI +1, reduce delay after attack by 5%.
@@ -102190,6 +102314,24 @@ Weight: ^0EAA0B1^000000
 천사포링 부츠가 들어있는 상자.
 천사포링 부츠에 장착시, 추가로 능력을 얻을 수 있는 돌이 1종 포함되어 있다.
 ^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
+Weight: ^0EAA0B1^000000
+#
+23076#
+A vial attached with sticker 'Incomplete Clinical Test'.
+When used in Werner Institute(General),
+For 10 seconds increase ASPD by 10.
+Weight: ^0EAA0B1^000000
+#
+23077#
+A vial attached with sticker 'Incomplete Clinical Test'.
+When used in Werner Institute(General),
+For 10 seconds increase Crit by 10.
+Weight: ^0EAA0B1^000000
+#
+23078#
+A vial attached with sticker 'Incomplete Clinical Test'.
+When used in Werner Institute(General),
+For 10 seconds reduce variable cast time by 80%.
 Weight: ^0EAA0B1^000000
 #
 23080#
@@ -107131,6 +107273,41 @@ Weight: ^0EAA0B10^000000
 ^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
 Weight: ^0EAA0B10^000000
 #
+25179#
+A little gem engraved with royal family of Prontera kingdom 'Tera Gloria' symbol.
+It was made from the piece of Heart of Ymir and used in blessing ceremony 'Star of Blessing'.
+Weight: ^0EAA0B0^000000
+#
+25180#
+A pair of rings made from scrap metal. It seems each ring has size that suit for a man and a woman.
+^ffffff<NAVI>^4D4DFF[Knight Windsor]^000000<INFO>prt_in,177,26,0,100,0,0</INFO></NAVI>^000000
+Weight: ^0EAA0B0^000000
+#
+25181#
+A crude rosary made from wood.
+^ffffff<NAVI>^4D4DFF[Sister Margaretha]^000000<INFO>prt_monk,93,254,0,100,0,0</INFO></NAVI>^000000
+Weight: ^0EAA0B0^000000
+#
+25182#
+A small assassin dagger with engraved mark. It seem has been used for a very long time.
+^ffffff<NAVI>^4D4DFF[Gail Marowitz]^000000<INFO>que_job01,89,91,0,100,0,0</INFO></NAVI>^000000
+Weight: ^0EAA0B0^000000
+#
+25183#
+A small accessory for bow that attached on the edge of bow. It has an old shimmering gemstone.
+^ffffff<NAVI>^4D4DFF[Blacksmith Cleaver]^000000<INFO>yuno_in01,163,31,0,100,0,0</INFO></NAVI>^000000
+Weight: ^0EAA0B0^000000
+#
+25184#
+It seems has been treasured for a long time. This leather case contain some needles, thread and buttons.
+^ffffff<NAVI>^4D4DFF[Hunter Serin]^000000<INFO>payon_in03,194,39,0,100,0,0</INFO></NAVI>^000000
+Weight: ^0EAA0B0^000000
+#
+25185#
+An old pendant. It has portrait of man and woman.
+^ffffff<NAVI>^4D4DFF[Knight Windsor]^000000<INFO>prt_in,177,26,0,100,0,0</INFO></NAVI>^000000
+Weight: ^0EAA0B0^000000
+#
 25188#
 소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.
 Weight: ^0EAA0B0^000000
@@ -107957,6 +108134,24 @@ Weight: ^0EAA0B10^000000
 Level Requirement: ^0EAA0B100^000000
 Jobs: ^6A5ACDDoram race^000000
 #
+28425#
+VIT +3.
+When equipped by Novice, Taekwon boy and Gunslinger, MaxHP +1000, MaxSP +200.
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B20^000000
+Level Requirement: ^0EAA0B99^000000
+Jobs: ^6A5ACDAll classes^000000
+#
+28426#
+INT +3.
+When equipped by Novice, Taekwon boy and Gunslinger, reduces variable cast time by 30%.
+Class: ^6A5ACDAccessory^000000
+Defense: ^0000FF0^000000
+Weight: ^0EAA0B20^000000
+Level Requirement: ^0EAA0B99^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 28600#
 Blue Book which has destructive power.
 VIT +5, INT +5.
@@ -108211,8 +108406,21 @@ Weight: ^0EAA0B30^000000
 Level Requirement: ^0EAA0B1^000000
 Jobs: ^6A5ACDAll classes^000000
 #
+28913#
+An ultralight shield with powerful magic. Its raise all abilities of wielder.
+ASPD +5%.
+Ignore normal monster's defense by 10%.
+Increases Neutral resistance by 5%.
+Refine level +7: ignore normal monster's defense by 2%, ASPD +2%.
+Refine level +7: ignore normal monster's defense by 3%, ASPD +3%.
+Class: ^6A5ACDShield^000000
+Defense: ^0000FF50^000000
+Weight: ^0EAA0B10^000000
+Level Requirement: ^0EAA0B100^000000
+Jobs: ^6A5ACDAll classes^000000
+#
 28914#
-A manteau made from a mixed elunium and emperium.
+A shield made from a mixed elunium and emperium.
 MaxHP +500
 MDEF +5
 Neutral resistance +15%.
