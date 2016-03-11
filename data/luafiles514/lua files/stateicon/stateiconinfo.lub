@@ -188,7 +188,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYTELEKINESIS] = {
 	posTimeLimitStr = 1,
 	descript = {
 		{ "%s", COLOR_TIME },
-		{ "Inflicts Ghost property damage to enemy" }
+		{ "Inflicts Ghost element damage to target" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLOOMYDAY] = {
@@ -560,7 +560,7 @@ StateIconList[EFST_IDs.EFST_BENEDICTIO] = {
 	posTimeLimitStr = 1,
 	descript = {
 		{ "%s", COLOR_TIME },
-		{ "Grants Holy property to Armor" }
+		{ "Grants armor with Holy element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_WEAPONBLOCKING] = {
@@ -721,7 +721,7 @@ StateIconList[EFST_IDs.EFST_ENCHANTPOISON] = {
 	descript = {
 		{ "Enchant Poison", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Enchant equipped weapon with Poison property" }
+		{ "Enchant weapon with Poison element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SPL_ATK] = {
@@ -940,7 +940,7 @@ StateIconList[EFST_IDs.EFST_PROVIDENCE] = {
 		{ "Providence", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases resistance against" },
-		{ "Demon and Holy property monsters" }
+		{ "Demon and Holy element monsters" }
 	}
 }
 StateIconList[EFST_IDs.EFST_FIGHTINGSPIRIT] = {
@@ -994,9 +994,9 @@ StateIconList[EFST_IDs.EFST_ARMOR_PROPERTY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Change Property Scroll", COLOR_TITLE_BUFF },
+		{ "Change Element Scroll", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Change Property" }
+		{ "Change element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_TENSIONRELAX] = {
@@ -1094,7 +1094,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYWATER] = {
 	descript = {
 		{ "Frost Weapon", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Grants weapon with Water property" }
+		{ "Grants weapon with Water element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ADORAMUS] = {
@@ -1224,7 +1224,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYGROUND] = {
 	descript = {
 		{ "Seismic Weapon", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Enchants weapon with Earth property" }
+		{ "Enchant weapon with Earth element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_DOUBLECASTING] = {
@@ -1317,7 +1317,7 @@ StateIconList[EFST_IDs.EFST_DEFENDER] = {
 StateIconList[EFST_IDs.EFST_WEAPONPROPERTY] = {
 	haveTimeLimit = 0,
 	descript = {
-		{ "Grants property to the weapon" }
+		{ "Enchant weapon with element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_S_LIFEPOTION] = {
@@ -1427,7 +1427,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYWIND] = {
 	descript = {
 		{ "Lightning Loader", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Grants weapon with Wind property" }
+		{ "Enchant weapon with Wind element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ENCHANTBLADE] = {
@@ -1728,7 +1728,7 @@ StateIconList[EFST_IDs.EFST_STRIPACCESSARY] = {
 StateIconList[EFST_IDs.EFST_PROPERTYUNDEAD] = {
 	haveTimeLimit = 0,
 	descript = {
-		{ "Undead Property" }
+		{ "Undead element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_INVISIBILITY] = {
@@ -1737,10 +1737,10 @@ StateIconList[EFST_IDs.EFST_INVISIBILITY] = {
 	descript = {
 		{ "Invisibility", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Able to attack in invisible status" },
-		{ "Change attack property into Level 1 Ghost property" },
-		{ "Continuously consume SP" },
-		{ "Unable to use skills and items" }
+		{ "Allow attacking in invisible status." },
+		{ "Change attack element to Level 1 Ghost element." },
+		{ "Continuously consume SP." },
+		{ "Disable skill and item use." }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABUNDANCE] = {
@@ -1795,7 +1795,7 @@ StateIconList[EFST_IDs.EFST_SHAPESHIFT] = {
 	descript = {
 		{ "Shift Shape", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Change the property of Madogear" }
+		{ "Change the element of Madogear" }
 	}
 }
 StateIconList[EFST_IDs.EFST_MANU_ATK] = {
@@ -1871,7 +1871,7 @@ StateIconList[EFST_IDs.EFST_ASPERSIO] = {
 	descript = {
 		{ "Aspersio", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Grants weapon with Holy property" }
+		{ "Grants weapon with Holy element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_MOVHASTE_INFINITY] = {
@@ -2053,7 +2053,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYFIRE] = {
 	descript = {
 		{ "Flame Launcher", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Grants weapon with fire property" }
+		{ "Enchant weapon with Fire element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_STRIKING] = {
@@ -2077,7 +2077,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYDARK] = {
 	posTimeLimitStr = 1,
 	descript = {
 		{ "%s", COLOR_TIME },
-		{ "Grants Shadow property" }
+		{ "Grants Shadow element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_REFLECTSHIELD] = {
@@ -2125,7 +2125,7 @@ StateIconList[EFST_IDs.EFST_COLD] = {
 		{ "Disables movement, attack, use skills and items" },
 		{ "Gradually decrease HP and SP" },
 		{ "Increase damage received from Axe, Two-handed Axe and Mace" },
-		{ "Increase damage received from Wind property magic" },
+		{ "Increase damage received from Wind element magic" },
 		{ "Reduce damage received from Dagger, Sword, Two-handed Sword and Arrows" }
 	}
 }
@@ -2249,7 +2249,7 @@ StateIconList[EFST_IDs.EFST_POPECOOKIE] = {
 		{ "Pope Cookie", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases ATK, MATK" },
-		{ "Increases resistance against all property attacks" }
+		{ "Increases resistance against all elemental attacks" }
 	}
 }
 StateIconList[EFST_IDs.EFST_VITALIZE_POTION] = {
@@ -2316,8 +2316,8 @@ StateIconList[EFST_IDs.EFST_PYROCLASTIC] = {
 		{ "Pyroclastic", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Weapon of Dieter and Master" },
-		{ "Change to Fire Property" },
-		{ "Raise Weapon's Damange" }
+		{ "changed to Fire element." },
+		{ "Raise Weapon's Damange." }
 	}
 }
 StateIconList[EFST_IDs.EFST_VOLCANIC_ASH] = {
@@ -3128,7 +3128,7 @@ StateIconList[EFST_IDs.EFST_BURNT] = {
 	posTimeLimitStr = 6,
 	descript = {
 		{ "Burn", COLOR_TITLE_DEBUFF},
-		{ "Increases damage against fire property monster" },
+		{ "Increases damage against Fire element monster" },
 		{ "Reduces resistance against Fire" },
 		{ "Periodically damaged by fire" },
 		{ "%s", COLOR_TIME }
@@ -3159,8 +3159,8 @@ StateIconList[EFST_IDs.EFST_TELEKINESIS_INTENSE] = {
 	posTimeLimitStr = 5,
 	descript = {
 		{ "Intense Telekinesis", COLOR_TITLE_BUFF },
-		{ "Increases ghost property magic damage" },
-		{ "Reduces SP consumption of ghost property magic" },
+		{ "Increases Ghost element magic damage" },
+		{ "Reduces SP consumption of Ghost element magic" },
 		{ "Decreases variable cast time of all skills" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3309,7 +3309,7 @@ StateIconList[EFST_IDs.EFST_CUP_OF_BOZA] = {
 	descript = {
 		{ "Let's Cup", COLOR_TITLE_BUFF },
 		{ "Increases VIT" },
-		{ "Increases resistance against fire property" },
+		{ "Increases resistance against Fire element" },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -3436,7 +3436,7 @@ StateIconList[EFST_IDs.EFST_GLASTHEIM_TRANS] = {
 	posTimeLimitStr = 3,
 	descript = {
 		{ "Border of the living and the dead!", COLOR_TITLE_DEBUFF },
-		{ "Reduces ghost property damage by 50%." },
+		{ "Reduces Ghost element damage by 50%." },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -3483,7 +3483,7 @@ StateIconList[EFST_IDs.EFST_P_ALTER] = {
 		{ "Platinum Alter", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increase ATK" },
-		{ "Reduces damage taken from Undead property attacks" }
+		{ "Reduces damage taken from Undead element attacks" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HEAT_BARREL] = {
@@ -3502,7 +3502,7 @@ StateIconList[EFST_IDs.EFST_ANTI_M_BLAST] = {
 	descript = {
 		{ "Anti-Material Blast", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
-		{ "Reduces neutral property resistance" }
+		{ "Reduces Neutral element resistance" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HEAT_BARREL_AFTER] = {
@@ -3548,9 +3548,9 @@ StateIconList[EFST_IDs.EFST_CHUSEOK_MONDAY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Enhanced Property", COLOR_TITLE_BUFF },
+		{ "Enhanced Element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases damage against Shadow property monster." },
+		{ "Increases damage against Shadow element monster." },
 		{ "Increases Holy resistance." }
 	}
 }
@@ -3558,9 +3558,9 @@ StateIconList[EFST_IDs.EFST_CHUSEOK_TUESDAY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Enhanced Property", COLOR_TITLE_BUFF },
+		{ "Enhanced Element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases damage against Earth property monster." },
+		{ "Increases damage against Earth element monster." },
 		{ "Increases Fire resistance." }
 	}
 }
@@ -3568,9 +3568,9 @@ StateIconList[EFST_IDs.EFST_CHUSEOK_WEDNESDAY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Enhanced Property", COLOR_TITLE_BUFF },
+		{ "Enhanced Element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases damage against Fire property monster." },
+		{ "Increases damage against Fire element monster." },
 		{ "Increases Water resistance." }
 	}
 }
@@ -3578,9 +3578,9 @@ StateIconList[EFST_IDs.EFST_CHUSEOK_THURSDAY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Enhanced Property", COLOR_TITLE_BUFF },
+		{ "Enhanced Element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases damage against Wind property monster." },
+		{ "Increases damage against Wind element monster." },
 		{ "Increases Earth resistance." }
 	}
 }
@@ -3588,9 +3588,9 @@ StateIconList[EFST_IDs.EFST_CHUSEOK_FRIDAY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Enhanced Property", COLOR_TITLE_BUFF },
+		{ "Enhanced Element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases damage against Water property monster." },
+		{ "Increases damage against Water element monster." },
 		{ "Increases Wind resistance." }
 	}
 }
@@ -3598,9 +3598,9 @@ StateIconList[EFST_IDs.EFST_CHUSEOK_WEEKEND] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Enhanced Property", COLOR_TITLE_BUFF },
+		{ "Enhanced Element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases damage against Neutral monster." },
+		{ "Increases damage against Neutral element monster." },
 		{ "Increases Neutral resistance." }
 	}
 }
@@ -4076,7 +4076,7 @@ StateIconList[EFST_IDs.EFST_BODYSTATE_UNDEAD] = {
 	descript = {
 		{ "Undead", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
-		{ "Undead Property" },
+		{ "Undead element" },
 		{ "Cannot be recovered by Heal skill" }
 	}
 }
@@ -4208,7 +4208,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_NOTHING] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Neutral property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Neutral element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4216,7 +4216,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_WATER] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Water property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Water element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4224,7 +4224,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_GROUND] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Earth property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Earth element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4232,7 +4232,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_FIRE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Fire property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Fire element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4240,7 +4240,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_WIND] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Wind property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Wind element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4248,7 +4248,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_POISON] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Poison property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Poison element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4256,7 +4256,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_SAINT] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Holy property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Holy element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4264,7 +4264,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_DARKNESS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Shadow property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Shadow element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4272,7 +4272,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_TELEKINESIS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Ghost property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Ghost element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4280,7 +4280,7 @@ StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_UNDEAD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Grants weapon with Undead property", COLOR_TITLE_BUFF },
+		{ "Grants weapon with Undead element", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME }
 	}
 }
