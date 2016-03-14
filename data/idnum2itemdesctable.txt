@@ -7385,7 +7385,7 @@ Attack:^CC0000 84^000000
 Weight:^009900 80^000000
 Weapon Level:^009900 2^000000
 Level Requirement:^009900 14^000000
-Jobs:^6666CC Swordman Class, Acolyte Class, Merchant Class^000000
+Jobs:^6666CC Swordman, Acolyte and Merchant^000000
 #
 1522#
 A huge, unwieldy club that can knock enemies unconscious.
@@ -7593,7 +7593,7 @@ Attack:^CC0000 120^000000
 Weight:^009900 0^000000
 Weapon Level:^009900 1^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC Swordman Class, Acolyte Class, Merchant Class^000000
+Jobs:^6666CC Swordman, Acolyte and Merchant^000000
 #
 1537#
 ^000088Rental Item^000000
@@ -9144,7 +9144,7 @@ Class:^6666CC One-Handed Staff^000000
 Attack:^CC0000 100^000000
 Weight:^009900 0^000000
 Weapon Level:^009900 2^000000
-Jobs:^6666CC Mage Class, Acolyte Class, Soul Linker^000000
+Jobs:^6666CC Mage, Acolyte and Soul Linker^000000
 #
 1643#
 A staff made out of magical wood. It possesses huge magical power, but it will make you look like an elder.
@@ -9386,9 +9386,11 @@ Level Requirement:^009900 60^000000
 Jobs:^6666CC Mage and Acolyte^000000
 #
 1659#
-A staff that increases the potency of Heal and Archbishop Healing skills while increasing SP consumption depending on refine level.
+A staff used for healing skill.
 -------------------------
 MATK +160
+-------------------------
+Increases Healing skills at the cost increasing SP consumption for every refine level.
 -------------------------
 ^663399Indestructible^000000
 -------------------------
@@ -10929,7 +10931,7 @@ A blood stained weapon created from the claws of Hatii, keeper to the door the n
 -------------------------
 MaxHP -2%
 -------------------------
-Has a low chance of causing Bleeding effect to target when attacking.
+Has a low chance of causing ^663399Bleeding^000000 status to target when attacking.
 -------------------------
 Class:^6666CC Claw^000000
 Attack:^CC0000 152^000000
@@ -12049,7 +12051,7 @@ Jobs:^6666CC Dancer^000000
 1969#
 A wire in which blade fragments are interwoven, making this whip as sharp as a sword.
 -------------------------
-Has 3% chance of causing Bleeding effect on enemies with each attack.
+Has 3% chance of causing ^663399Bleeding^000000 status on enemies with each attack.
 -------------------------
 Class:^6666CC Whip^000000
 Attack:^CC0000 140^000000
@@ -14414,16 +14416,16 @@ Jobs:^6666CC All except Novice^000000
 2224#
 A pair of Goggles especially created for pilots to reduce impaired vision while riding at high speeds.
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper, Middle^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Upper, Middle^000000
 Weight:^009900 30^000000
 Jobs:^6666CC Swordman, Archer, Merchant and Thief^000000
 #
 2225#
 A pair of Goggles especially created for pilots to reduce impaired vision while riding at high speeds.
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper, Middle^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Upper, Middle^000000
 Weight:^009900 30^000000
 Jobs:^6666CC Swordman, Archer, Merchant and Thief^000000
 #
@@ -17216,7 +17218,7 @@ Class:^6666CC Footgear^000000
 Defense:^0000FF 21^000000
 Weight:^009900 30^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC Swordman Class, Merchant Class, Thief Class, Archer Class, Taekwon, Star Gladiator, Gunslinger^000000
+Jobs:^6666CC Swordman, Merchant, Thief, Archer, Taekwon, Star Gladiator and Gunslinger^000000
 #
 2461#
 A Greave molded out of Elunium and pure gold mixture.
@@ -26768,7 +26770,7 @@ Compound on:^00C33C Armor^000000
 Weight:^009900 1^000000
 #
 4301#
-Add the chance of auto casting Bleeding on an enemy when the user receives Physical Damage.
+Add a chance of inflicting ^663399Bleeding^000000 status on target when wearer receives Physical Damage.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^00C33C Armor^000000
@@ -28232,7 +28234,7 @@ Weight:^009900 1^000000
 #
 4436#
 Increases physical and magic damage to Demihuman enemies by 1% with a CRIT +5 bonus.
-Adds a low chance of inflicting the Bleeding status to the wearer.
+Adds a low chance of inflicting ^663399Bleeding^000000 status to the wearer.
 wearing with the Zombie Slaughter Card will recover 2 SP each time a ^6666CCDemihuman^000000 monsters is defeated by melee attack.
 -------------------------
 Compound on:^B40088 Accessory^000000
@@ -28241,7 +28243,7 @@ Weight:^009900 1^000000
 4437#
 HIT +1
 Increases recovery rate of Meat by 100%.
-Each short range physical attack has a low chance of inflicting the Bleeding status to enemies.
+Each melee physical attack has a low chance of inflicting ^663399Bleeding^000000 status to target.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^B40088 Accessory^000000
@@ -28960,7 +28962,7 @@ Weight:^009900 1^000000
 4525#
 FLEE +10.
 Enables use of Level 1 ^008800Hiding^000000 and Level 1 ^008800Raid^000000.
-Raid has a chance to cause bleeding status.
+Raid has a chance to cause ^663399Bleeding^000000 status.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^008C99 Garment^000000
@@ -29507,7 +29509,7 @@ Weight:^009900 1^000000
 #
 4591#
 STR +4
-Physical attacks from enemies create a high chance of casting Bleeding on enemies within a 23x23 cell area around you.
+Physical attacks from enemies create a high chance of inflicting ^663399Bleeding^000000 status on enemies within a 23x23 cell area around you.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^00C33C Armor^000000
@@ -29778,7 +29780,7 @@ Compound on:^00C33C Armor^000000
 Weight:^009900 1^000000
 #
 4636#
-Immune to Frozen.
+Immune to ^FF0000Frozen^000000 status.
 ATK +10%, MATK +10%.
 When equipped with an armor compunded with Enhanced Amdarais Card, add an immunity to Burning.
 -------------------------
@@ -31471,7 +31473,7 @@ MaxHP +5%.
 MaxSP +3%.
 #
 4990#
-Immune to Frozen.
+Immune to ^FF0000Frozen^000000 status.
 #
 4991#
 ASPD +1.
@@ -32991,8 +32993,8 @@ Reduces damage taken from ^6666CCDemihuman^000000 monsters by 10%.
 ^FF0000Unrefineable^000000
 -------------------------
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Upper^000000
 Weight:^009900 70^000000
 Level Requirement:^009900 38^000000
 Jobs:^6666CC All classes^000000
@@ -33219,7 +33221,7 @@ A cool looking set of headphones that have earmuffs designed to resemble music n
 -------------------------
 MDEF +3
 -------------------------
-Adds 10% tolerance to the Stun and Frozen effects.
+Adds 10% tolerance to the ^FF0000Stun^000000 and ^FF0000Frozen^000000 status.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
@@ -33693,10 +33695,10 @@ Level Requirement:^009900 30^000000
 Jobs:^6666CC All classes^000000
 #
 5188#
+Defense:^0000FF 0^000000
 Given as a reward to creative members of the community to say 'thank you' for their help in contributing to the game.
 Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
-Defense:^0000FF 0^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 50^000000
 Jobs:^6666CC All classes^000000
@@ -34389,7 +34391,7 @@ Jobs:^6666CC Mage and Soul Linker^000000
 5243#
 A hat made from animal fur. They keep your ears warm in the bitter cold of winter.
 -------------------------
-Increases resistance against Frozen by 10%.
+Increases resistance against ^FF0000Frozen^000000 status by 10%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
@@ -34542,8 +34544,8 @@ INT +1
 Has a low chance of auto-casting Level 1 Heal on the user when receiving physical damage.
 -------------------------
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 2^000000
+Location:^6666CC Upper^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 20^000000
 Jobs:^6666CC All classes^000000
@@ -34570,8 +34572,8 @@ Add a 30% chance of auto casting First Aid on the user when receiving Physical D
 Increases resistance against ^777777Neutral^000000 element attacks by 1%.
 -------------------------
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper, Middle^000000
 Defense:^0000FF 0^000000
+Location:^6666CC Upper, Middle^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 10^000000
 Jobs:^6666CC All classes^000000
@@ -36449,7 +36451,7 @@ Headgear made of the skull of dregon. So hard that it does not easily break.
 STR +2
 MDEF +5
 -------------------------
-Stun and Bleeding resistance +5%.
+^663399Stun^000000 and ^663399Bleeding^000000 resistance +5%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -37796,11 +37798,12 @@ Jobs:^6666CC All except Novice^000000
 5498#
 Can feel a high dignity of the Northern Wolf Tribe.
 -------------------------
-AGI +5, FLEE +10
+AGI +5
+FLEE +10
 -------------------------
 Ignore 10% physical defense of Demihuman and ^6666CCBrute^000000 monsters.
 -------------------------
-When refined to +7, add a chance of inflicting Bleed to enemies on 5x5 cells when phsycally attacking.
+When refined to +7, add a chance of inflicting ^663399Bleeding^000000 status to enemies on 5x5 cells when phsycally attacking.
 When refined to +9, add a chance of autocast Level 1 Howling of Lion when phsycally attacking.
 -------------------------
 When equipped with Angry Mouth:
@@ -38138,7 +38141,6 @@ The fearsome growl of the warrior, highly intimdating.
 Reduce after cast delay by 3%.
 -------------------------
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -40042,8 +40044,8 @@ Refine Level +9:
 MATK +5%
 -------------------------
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Upper^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -41263,8 +41265,8 @@ With time, aging and weathering, most of the hat formed into it's current shape 
 Increases resistance against ^6666CCDemihuman^000000 monsters by 10%.
 -------------------------
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 1^000000
+Location:^6666CC Upper^000000
 Weight:^009900 50^000000
 Level Requirement:^009900 20^000000
 Jobs:^6666CC All classes^000000
@@ -41916,7 +41918,7 @@ A badge engraved with Pegasus patern, symbolizes the spirit of Knight.
 -------------------------
 ATK +10%, MATK +10%
 MaxHP +1500
-MDEF +1.
+MDEF +1
 -------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -43377,7 +43379,6 @@ Jobs:^6666CC All classes^000000
 5979#
 Costume made from wings of angel that fluttered in the sky.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -43386,7 +43387,6 @@ Jobs:^6666CC All classes^000000
 5980#
 A gorgeous small fur hat.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -43394,7 +43394,6 @@ Jobs:^6666CC All classes^000000
 #
 5981#
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -57333,19 +57332,24 @@ A pie covered with sweet chocolate. This isn't pretty but the taste is excellent
 Weight:^009900 5^000000
 #
 12323#
-An enchanted fly's wing that instantly sends its user to a random spot when waved in the air. ^000088Instant teleport.^000000
+The wings cut from fly to be made into enchanted item.
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^009900 Teleport to random cell^000000
 Weight:^009900 0^000000
 #
 12324#
-An enchanted butterfly's wing that instantly sends its user to their Save Point when waved in the air. ^000088Instant teleport to character's Save Point.^000000
+An enchanted butterfly's wing that instantly sends its user to his Save Point when waved in the air.
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^009900 Teleport to Save Point^000000
 Weight:^009900 0^000000
 #
 12325#
 A magnifying glass used for appraises unidentified items and equipment.
-^008800Use ''Ctrl+Left Click'' directly on an unknown item to identify it.^000000
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^009900 Identify unknown item^000000
 Weight:^009900 0^000000
 #
 12326#
@@ -59699,7 +59703,7 @@ Weight:^009900 1^000000
 #
 12812#
 A Snow White Leaf that is cold to the touch. Caution : This really is colder than snow.
-Cures effect of ^000088Ignition, bleeding, Deep sleep, Sleep^000000.
+Cures effect of ^000088Ignition, Bleeding, Deep sleep, Sleep^000000.
 5 second cool time.
 Weight:^009900 1^000000
 #
@@ -59971,33 +59975,46 @@ Weight:^009900 1^000000
 #
 12884#
 ^000088Rental Item^000000
-Potion that helps to increase the character's agility for a certain period of time. It also increases that attack speed of characters.
-Can be used by all professions.
-5 seconds reuse delay
+Potion that stimulates concentration. Affects the attack speed of its consumer.
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^009900 Increase Aspd^000000
+Duration:^009900 30^000000 minutes
+Cooldown:^009900 5^000000 seconds
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 Weight:^009900 0^000000
 #
 12885#
 ^000088Rental Item^000000
 Potion that possesses the effect of awakening. It is a mysterious medicine that helps to increase the character's attack speed.
-Can only be used by characters over Lv 40. Acolyte, Priest, Bard and Dancer can't use it.
-5 seconds reuse delay
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^009900 Increase Aspd^000000
+Duration:^009900 30^000000 minutes
+Cooldown:^009900 5^000000 seconds
+Level Requirement:^009900 40^000000
+Jobs:^6666CC All except Acolyte, Priest, Bard and Dancer^000000
 Weight:^009900 0^000000
 #
 12886#
 ^000088Rental Item^000000
 A very special potion that enrages the character and turns him into a berserker and increases the character's attack speed.
-Can only be used by characters over Lv 85. Only characters with the profession of Swordman Class, Merchant Class, Rogue, Mage and Wizard Class can use it.
-5 seconds reuse delay
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^009900 Increase Aspd^000000
+Duration:^009900 30^000000 minutes
+Cooldown:^009900 5^000000 seconds
+Level Requirement:^009900 85^000000
+Jobs:^6666CC Swordman classes, Merchant classes, Rogue, Mage and Wizard classes^000000
 Weight:^009900 0^000000
 #
 12887#
 ^000088Rental Item^000000
 The wings cut from fly to be made into enchanted item.
-^0033ccEnables character to move to random spot on map.^000000
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^009900 Teleport to random cell^000000
 Weight:^009900 0^000000
 #
 12888#
@@ -61118,7 +61135,7 @@ Jobs:^6666CC Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^0000
 #
 13027#
 A small, light, and sharp sword that is optimized for swift strikes.
-Has a certain chance of inflicting the Bleeding status to enemy.
+Has a certain chance of inflicting ^663399Bleeding^000000 status to enemy.
 Class:^6666CC Dagger^000000
 Attack:^CC0000 120^000000
 Weight:^009900 50^000000
@@ -61276,8 +61293,9 @@ Jobs:^6666CC Stalker^000000
 #
 13039#
 A dagger made of Mammoth's Ivory. It is very hard to be processed due to the strong solidity of the ivory. It's sharply pointed tip makes it effective for stabbing rather than cutting.
-AGI +2, ASPD +3%
-Has a chance of inflicting bleeding or Level 1 Critical Wound while attacking.
+AGI +2
+ASPD +3%
+Has a chance of inflicting ^663399Bleeding^000000 status or Level 1 Critical Wound while attacking.
 Class:^6666CC Dagger^000000
 Attack:^CC0000 130^000000
 Weight:^009900 70^000000
@@ -61354,7 +61372,7 @@ Jobs:^6666CC Ninja^000000
 #
 13046#
 This dagger is intended to give more pain, rather than killing the target, with its thorny shape.
-When using 'Back Stab', high probability of inflicting bleeding status, and skill damage increases by 15%.
+When using 'Back Stab', high probability of inflicting ^663399Bleeding^000000 status, and skill damage increases by 15%.
 Class:^6666CC Dagger^000000
 Attack:^CC0000 110^000000
 Weight:^009900 50^000000
@@ -61423,7 +61441,7 @@ Attack:^CC0000 158^000000
 Weight:^009900 0^000000
 Weapon Level:^009900 2^000000
 Level Requirement:^009900 40^000000
-Jobs:^6666CC Novice/SwordmanClass/Magician Class/Archer Class/Merchant Class/Thief Class^000000
+Jobs:^6666CC Novice, Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^000000
 #
 13052#
 ...
@@ -61433,7 +61451,7 @@ Attack:^CC0000 51^000000
 Weight:^009900 50^000000
 Weapon Level:^009900 1^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC Novice, Swordman Class, Mage Class, Archer Class, Merchant Class, Thief Class, Soul Linker, Ninja^000000
+Jobs:^6666CC Novice, Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^000000
 #
 13053#
 ^000088Rental Item^000000
@@ -61447,8 +61465,7 @@ Attack:^CC0000 85^000000
 Weight:^009900 0^000000
 Weapon Level:^009900 4^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC Swordman, Mage, Archer, Merchant,
-Thief Classes, Soul Linker, and Ninja^000000
+Jobs:^6666CC Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^000000
 #
 13054#
 ^000088Rental Item^000000
@@ -61463,8 +61480,7 @@ Attack:^CC0000 129^000000
 Weight:^009900 0^000000
 Weapon Level:^009900 4^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC Swordman, Merchant, Thief Classes; Soul
-Linker and Ninja^000000
+Jobs:^6666CC Swordman, Merchant, Thief, Soul Linker and Ninja^000000
 #
 13055#
 ^000088Rental Item^000000
@@ -61555,7 +61571,7 @@ Jobs:^6666CC Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^0000
 13069#
 Blue dagger that has opposite magic power in.
 MATK +80
-Adds a chance of inflicting Frozen status when dealing physical attacks and increases the chance with each refine level
+Adds a chance of inflicting ^FF0000Frozen^000000 status when dealing physical attacks and increases the chance with each refine level
 Class:^6666CC Dagger^000000
 Attack:^CC0000 160^000000
 Weight:^009900 50^000000
@@ -61567,7 +61583,7 @@ Jobs:^6666CC Transcendent Novice, Swordman, Merchant and Thief^000000
 13070#
 Red dagger that has opposite magic power in.
 MATK +80
-Adds a chance of inflicting curse status when dealing physical attacks and increases the chance with each refine level.
+Adds a chance of inflicting ^FF0000Curse^000000 status when dealing physical attacks and increases the chance with each refine level.
 Class:^6666CC Dagger^000000
 Attack:^CC0000 160^000000
 Weight:^009900 50^000000
@@ -61691,8 +61707,9 @@ Jobs:^6666CC Novice, Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ni
 #
 13082#
 A dagger made of Mammoth's Ivory. It is very hard to be processed due to the strong solidity of the ivory. It's sharply pointed tip makes it effective for stabbing rather than cutting.
-AGI +2, ASPD +3%
-Has a chance of inflicting bleeding or Level 1 Critical Wound while attacking.
+AGI +2
+ASPD +3%
+Has a chance of inflicting ^663399Bleeding^000000 or Level 1 Critical Wound while attacking.
 Class:^6666CC Dagger^000000
 Attack:^CC0000 130^000000
 Weight:^009900 70^000000
@@ -62906,7 +62923,7 @@ Weight:^009900 0.2^000000
 Element:^777777 Holy^000000
 #
 13222#
-A bloody red bullet that may cause the Bleed effect on an enemy by a low chance.
+A bloody red bullet that may cause ^663399Bleeding^000000 status on target by a low chance.
 Class:^6666CC Ammunition^000000
 Attack:^CC0000 30^000000
 Weight:^009900 0.2^000000
@@ -63327,13 +63344,8 @@ Level Requirement:^009900 65^000000
 Jobs:^6666CC Ninja^000000
 #
 13301#
-A heavy, giant
-shuriken shaped
-like a bladed wheel.
-Each short range
-physical attack has
-a low chance of
-inflicting the Bleeding status on enemies.
+A heavy, giant shuriken shaped like a bladed wheel.
+Each melee physical attack has a low chance of inflicting ^663399Bleeding^000000 status on enemies.
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 50^000000
 Weight:^009900 250^000000
@@ -63342,13 +63354,8 @@ Level Requirement:^009900 42^000000
 Jobs:^6666CC Ninja^000000
 #
 13302#
-A heavy, giant
-shuriken shaped
-like a bladed wheel.
-Each short range
-physical attack has
-a low chance of
-inflicting the Bleeding status on enemies.
+A heavy, giant shuriken shaped like a bladed wheel.
+Each melee physical attack has a low chance of inflicting ^663399Bleeding^000000 status on enemies.
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 50^000000
 Weight:^009900 250^000000
@@ -63357,14 +63364,9 @@ Level Requirement:^009900 42^000000
 Jobs:^6666CC Ninja^000000
 #
 13303#
-A ^FF0000Fire^000000 property Huuma
-shuriken that sparks
-like a firecracker when it strikes enemies.
-Each short range
-physical attack has
-a low chance of auto
-casting Level 5 Fire
-Ball. DEX -2.
+A fire property Huuma shuriken that sparks like a firecracker when it strikes enemies.
+DEX -2
+Each melee physical attack has a low chance of auto casting Level 5 Fire Ball.
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 185^000000
 Weight:^009900 150^000000
@@ -63374,15 +63376,9 @@ Level Requirement:^009900 55^000000
 Jobs:^6666CC Ninja^000000
 #
 13304#
-The Huuma Calm Mind
-enables the wearer to
-remain collected in
-any tense situation.
-Increases damage of
-Throw Huuma Shuriken
-skill by 30%, and its
-casting cannot be
-interrupted.
+The Huuma Calm Mind enables the wearer to remain collected in any tense situation.
+Increases damage of Throw Huuma Shuriken skill by 30%.
+Skill casting cannot be interrupted.
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 112^000000
 Weight:^009900 155^000000
@@ -63438,8 +63434,8 @@ Jobs:^6666CC Ninja^000000
 #
 13308#
 A ^FF0000Fire^000000 Property Huuma shuriken that sparks like a firecracker when it strikes enemies.
-Add a 3% chance of auto casting Level 5 ^008800Fireball^000000 on the enemy when attacking.
-DEX +2.
+DEX +2
+Add a 3% chance of auto casting Level 5 ^008800Fire Ball^000000 on the enemy when attacking.
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 230^000000
 Weight:^009900 0^000000
@@ -63469,8 +63465,9 @@ Level Requirement:^009900 60^000000
 Jobs:^6666CC Ninja^000000
 #
 13311#
-Huuma Shuriken recently released by the Ninja Association. Carries a nickname of Shadow for the special metal it was made from which doesn't reflect moonlight.
-STR +3.
+Huuma Shuriken recently released by the Ninja Association.
+Carries a nickname of Shadow for the special metal it was made from which doesn't reflect moonlight.
+STR +3
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 170^000000
 Weight:^009900 150^000000
@@ -63502,7 +63499,7 @@ Jobs:^6666CC Ninja^000000
 13314#
 Shuriken with ^0000BBWater^000000 property. Snowstorm occurs when in use.
 MATK +50.
-Auto-spell Snow Flake Draft 1Lv is activated by a low rate in close range physical attacks. (at the level learned)
+Auto-spell Level 1 Snow Flake Draft is activated by a low rate in close range physical attacks. (at the level learned)
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 200^000000
 Weight:^009900 150^000000
@@ -67342,8 +67339,8 @@ Hockey Mask Description:
 Increases damage on ^6666CCDemihuman^000000 monsters by 5%.
 Can be placed in Kafra Storage.
 Class:^6666CC Headgear^000000
-Location:^6666CC Middle, Lower^000000
 Defense:^0000FF 1^000000
+Location:^6666CC Middle, Lower^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 50^000000
 Jobs:^6666CC All except Novice^000000
@@ -68962,8 +68959,8 @@ This mask calls the urge to hold a weapon in one's hand and hurt people on the 1
 Increases damage on ^6666CCDemihuman^000000 monsters by 5%.
 Can be placed in Kafra Storage and traded.
 Class:^6666CC Headgear^000000
-Location:^6666CC Middle, Lower^000000
 Defense:^0000FF 1^000000
+Location:^6666CC Middle, Lower^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 50^000000
 Jobs:^6666CC All except Novice^000000
@@ -72340,8 +72337,8 @@ When refined to 5, EXP gained increases to 15%.
 When refined to 7, EXP gained increases to 25%.
 Increases EXP gained by 10% for every refine level above 7.^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 1^000000
+Location:^6666CC Upper^000000
 Weight:^009900 50^000000
 Level Requirement:^009900 20^000000
 Jobs:^6666CC All classes^000000
@@ -85577,8 +85574,8 @@ A hat designed after Anubis, the God of Death. It seems to belong to people who 
 It will reduce your DEF and MDef by 50%.
 Has a chance to inflict Stone Status to enemies in a 11*11 cell area when you are taking physical or magic damage.
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper, Middle, Lower^000000
 Defense:^0000FF 0^000000
+Location:^6666CC Upper, Middle, Lower^000000
 Weight:^009900 100^000000
 Level Requirement:^009900 70^000000
 Jobs:^6666CC All classes^000000
@@ -85760,8 +85757,8 @@ STR +2. Attack +2% to all monsters.
 When refined to +7 or higher, CRIT +10%.
 When refined to +9 or higher, the Attack and ranged attack damage increases by 5%.
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 10^000000
+Location:^6666CC Upper^000000
 Weight:^009900 50^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -86921,8 +86918,8 @@ When refined to +7 or higher, has a low chance of adding 100% ASPD for 7 seconds
 ^FF0000Created by Allysia^000000
 ^FFFFFF_^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 6^000000
+Location:^6666CC Upper^000000
 Weight:^009900 50^000000
 Level Requirement:^009900 70^000000
 Jobs:^6666CC All except Novice^000000
@@ -88042,7 +88039,6 @@ Jobs:^6666CC All classes^000000
 18741#
 To feel the fear of those who see in the eerie paranormal.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -88051,7 +88047,6 @@ Jobs:^6666CC All classes^000000
 18742#
 A strong feeling of being one with the night skies.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -88060,7 +88055,6 @@ Jobs:^6666CC All classes^000000
 18743#
 The soul of the Green Maiden, its scary and horrible.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -88069,7 +88063,6 @@ Jobs:^6666CC All classes^000000
 18744#
 Sparkle emanating from the body.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -89432,9 +89425,9 @@ Jobs:^6666CC All classes^000000
 #
 18864#
 This flower decoration is blessed by the goddess of earth granting its wearer protection against Earth damages.
-Increases resistance against Earth attacks by 15%.
+Increases resistance against ^CC5500Earth^000000 element attacks by 15%.
 When refined to +8 above, additional 5% resistance.
-Enables use of ^008800Earth Spike^000000 Lv 5
+Enables use of Level 5 ^008800Earth Spike^000000.
 VIT +2.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
@@ -89820,7 +89813,7 @@ Jobs:^6666CC All classes^000000
 18901#
 A traditional hat which is often worn during folk festivals.
 VIT +3, Increase HP recovery by 10 %
-If worn with Wei?urst Sp recovery will be increased by 10%
+If worn with Weisswurst, SP recovery will be increased by 10%
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Upper^000000
@@ -89834,8 +89827,8 @@ Reduces damage taken from ^6666CCDemihuman^000000 monsters by 5%.
 Increases damage inflicted on Medium size monsters by 10%.
 When refine level is +9 or higher, adds a chance to auto cast Level 2 Scream when attacked by physical attacks.
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 8^000000
+Location:^6666CC Upper^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89844,12 +89837,12 @@ Jobs:^6666CC All classes^000000
 Piamette's red ears cap. It's a favorite among children.
 STR +5
 MaxHP +5%
-Reduces damage taken from fire-type monsters by 10%
+Reduces damage taken from ^FF0000Fire^000000 element monsters by 10%.
 Refined to 9, ASPD +1
 For every 2 refinements above 9, ASPD +1
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 8^000000
+Location:^6666CC Upper^000000
 Weight:^009900 30^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89860,8 +89853,8 @@ MaxHP +10%
 Reduces damage taken from ^6666CCDemihuman^000000 monsters by 5%
 For every refine level, MATK +2
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 8^000000
+Location:^6666CC Upper^000000
 Weight:^009900 30^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89869,11 +89862,11 @@ Jobs:^6666CC All classes^000000
 18910#
 Piamette's blue ears cap. It's a favorite among children.
 Reduces damage taken from ^6666CCDemihuman^000000 monsters by 5%
-Increases damage to medium-type monsters by 10%
+Increases damage to ^6666CCMedium^000000 size monsters by 10%
 Refined to 12 above, reflects physical damages by 5%
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 8^000000
+Location:^6666CC Upper^000000
 Weight:^009900 30^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89881,12 +89874,12 @@ Jobs:^6666CC All classes^000000
 18911#
 Lovely petals dropping from a pair of red flowers.
 DEX +5
-Reduces damage taken from earth-type monsters by 3%
-Reduces damage taken from ^6666CCDemihuman^000000 monsters by 10%
-Refined to 12 above, reflects physical damages by 5%
+Reduces damage taken from ^CC5500Earth^000000 element monsters by 3%.
+Reduces damage taken from ^6666CCDemihuman^000000 monsters by 10%.
+Refined to 12 above, reflects physical damages by 5%.
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Defense:^0000FF 10^000000
+Location:^6666CC Upper^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89898,8 +89891,8 @@ Adds a chance to auto cast Level 1 Ruwach when attacked by physical attacks.
 If equipped with Angel Wing, adds 5% bonus EXP earned when killing monsters.
 ^FF0000Unrefineable^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Middle^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Middle^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89911,8 +89904,8 @@ Adds a chance to auto cast Level 1 Ruwach when attacked by physical attacks.
 If equipped with Grand Circlet, adds 5% bonus EXP earned when killing monsters.
 ^FF0000Unrefineable^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Middle^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Middle^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89923,8 +89916,8 @@ All stats +1
 Adds a chance to auto cast Level 7 Blessing when dealing physical attacks.
 ^FF0000Unrefineable^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Middle^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Middle^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89935,8 +89928,8 @@ MaxHP +200
 FLEE +1
 ^FF0000Unrefineable^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Middle^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Middle^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89947,8 +89940,8 @@ STR +1, LUK +1
 MaxHP +50
 ^FF0000Unrefineable^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Lower^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Lower^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89958,8 +89951,8 @@ One of the best ways to show love. It makes you feel thrilled with your love rel
 All Stats +1
 ^FF0000Unrefineable^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Lower^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Lower^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89970,8 +89963,8 @@ VIT +1, INT +1
 MaxSP +30
 ^FF0000Unrefineable^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Lower^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Lower^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89982,8 +89975,8 @@ FLEE +5
 When equipped with Majestic Goat[1], STR +3 and FLEE +5
 ^FF0000Unrefineable^000000
 Class:^6666CC Headgear^000000
-Location:^6666CC Lower^000000
 Defense:^0000FF 5^000000
+Location:^6666CC Lower^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -89993,7 +89986,6 @@ A moroccan style lamp that has lucky powers in it.
 Hmm, rubbing it doesn't seem to make any genies pop out...
 LUK +10
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 50^000000
@@ -90604,7 +90596,6 @@ Jobs:^6666CC All classes^000000
 19015#
 A hairband used in repeling Demon ritual.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -92935,7 +92926,7 @@ Jobs:^6666CC All classes^000000
 #
 19650#
 Decorations Made by Feathers of Five color to Celebrate 'RWC 2012'
-Class:^6666CC Costumes Equipment
+Class:^6666CC Costumes^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -93525,8 +93516,8 @@ Jobs:^6666CC All classes^000000
 19727#
 A hat designed like Deviling. His sharp eyes are the best point for your fashion!
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Weight:^009900 0^000000
+Location:^6666CC Upper^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
@@ -95350,8 +95341,8 @@ Jobs:^6666CC All classes^000000
 19976#
 Cats living in Malangdo, wearing this hat for Christmas.
 Class:^6666CC Headgear^000000
-Location:^6666CC Upper^000000
 Weight:^009900 0^000000
+Location:^6666CC Upper^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
@@ -97149,7 +97140,7 @@ Jobs:^6666CC All classes^000000
 #
 20209#
 Mermaid bubbles of love, thoughts into colorful bubbles.
-Class:^6666CC Headgear^000000
+Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -98931,7 +98922,6 @@ Jobs:^6666CC All classes^000000
 20458#
 A hat resemble the Wild Rider.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -98940,7 +98930,6 @@ Jobs:^6666CC All classes^000000
 20459#
 An ornament wore by a girl that fighting in battlefield.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -98949,7 +98938,6 @@ Jobs:^6666CC All classes^000000
 20460#
 Hairband made with magic thorns which only grows on top floor of tower.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -98958,7 +98946,6 @@ Jobs:^6666CC All classes^000000
 20461#
 A costume made based of Creamy's wings.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -98967,7 +98954,6 @@ Jobs:^6666CC All classes^000000
 20462#
 A cute fluffy cat ears costume.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -98976,7 +98962,6 @@ Jobs:^6666CC All classes^000000
 20463#
 A costume made of love ribbon and two tone cookies.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -98985,7 +98970,6 @@ Jobs:^6666CC All classes^000000
 20464#
 A ribbon with black and white color.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -98994,7 +98978,6 @@ Jobs:^6666CC All classes^000000
 20465#
 A glasses without lens, worn for fashion purpose.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -99003,7 +98986,6 @@ Jobs:^6666CC All classes^000000
 20466#
 A ribbon with crimson color.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -99012,7 +98994,6 @@ Jobs:^6666CC All classes^000000
 20467#
 A crown blessed by spirit, by wearing it you can feel the flow of nature.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -99032,7 +99013,6 @@ Jobs:^6666CC All classes^000000
 20470#
 A large chocolate shaped hat.
 Class:^6666CC Costume^000000
-Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
@@ -99041,8 +99021,8 @@ Jobs:^6666CC All classes^000000
 20500#
 White wings of a holy Archangel.
 Class:^6666CC Costume^000000
-Location:^6666CC Garment^000000
 Defense:^0000FF 18^000000
+Location:^6666CC Garment^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -99474,7 +99454,6 @@ Jobs:^6666CC All classes^000000
 Flaming angel wings.
 Class:^6666CC Costume^000000
 Location:^6666CC Garment^000000
-Defense:^0000FF 0^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -99603,7 +99582,6 @@ Jobs:^6666CC All classes^000000
 A wing for happy mood.
 Class:^6666CC Costume^000000
 Location:^6666CC Garment^000000
-Defense:^0000FF 0^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
@@ -100350,6 +100328,7 @@ Level Requirement:^009900 30^000000
 Jobs:^6666CC All classes^000000
 #
 22017#
+[jRO item]
 #
 22018#
 A magic shoes created by wise man.
@@ -101352,7 +101331,7 @@ Safe to 9 Armor Certificate
 Infinity Shadow Earring
 Costume Lolita Ten Gallon Hat
 Infinite Giant Fly Wing Box V
-Blacksmith's Blessing
+Blacksmith's Blessi ng
 Gold and other rare items.
 Weight:^009900 1^000000
 #
@@ -102829,7 +102808,7 @@ Jobs:^6666CC All classes^000000
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
 ASPD +1%
-When refined to +7 or higher, ASPD +2%
+Refine level +7: ASPD +2%
 [^6666CCPhysical Shadow Set^000000]
 ^008800Physical Shadow Weapon^000000
 ^008800Physical Shadow Earring^000000
@@ -102844,7 +102823,7 @@ Jobs:^6666CC All classes^000000
 24019#
 A glove that can draw the wearer's potential ability.
 ATK +10
-Refined to +7 or higher, increases ATK +1%
+Refine level +7: ATK +1%
 [^6666CCPhysical Shadow Set^000000]
 ^008800Physical Shadow Weapon^000000
 ^008800Physical Shadow Earring^000000
@@ -102860,7 +102839,7 @@ Jobs:^6666CC All classes^000000
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
 MaxHP +100
-Refined to +7 or higher, increase MaxHP +1%
+Refine level +7: MaxHP +1%
 [^6666CCPhysical Shadow Set^000000]
 ^008800Physical Shadow Weapon^000000
 ^008800Physical Shadow Earring^000000
@@ -102876,7 +102855,7 @@ Jobs:^6666CC All classes^000000
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
 Reduce variable cast time by 1%
-Refined to +7 or higher, reduce variable cast time by 2%
+Refine level +7: reduce variable cast time by 2%
 [^6666CCMagical Shadow Set^000000]
 ^008800Magical Shadow Weapon^000000
 ^008800Magical Shadow Earring^000000
@@ -102891,7 +102870,7 @@ Jobs:^6666CC All classes^000000
 24022#
 A glove that can draw the wearer's potential ability.
 MATK +10
-Refined to +7 or higher, increase MATK +1%.
+Refine level +7: MATK +1%.
 [^6666CCMagical Shadow Set^000000]
 ^008800Magical Shadow Weapon^000000
 ^008800Magical Shadow Earring^000000
@@ -102907,7 +102886,7 @@ Jobs:^6666CC All classes^000000
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
 MaxSP +50
-Refined to +7 or higher, increases MaxSP +1%.
+Refine level +7: MaxSP +1%.
 [^6666CCMagical Shadow Set^000000]
 ^008800Magical Shadow Weapon^000000
 ^008800Magical Shadow Earring^000000
@@ -102923,8 +102902,7 @@ Jobs:^6666CC All classes^000000
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 FLEE +5.
-Refined to +7
-FLEE +10
+Refine level +7: FLEE +10
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^009900 0^000000
@@ -102935,8 +102913,7 @@ Jobs:^6666CC All classes^000000
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 MaxHP +20, MaxSP +10.
-Refined to +7
-MaxHP +1%, MaxSP +1%
+Refine level +7: MaxHP +1%, MaxSP +1%
 [+^008800Hard Shadow Armor^000000]
 Increases HP and SP by total number of refinement of set items.
 Additional MaxHP +1%, when total refine level is over 15
@@ -102950,8 +102927,7 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 DEF +10.
-Refined to +7
-DEF +10
+Refine level +7: DEF +10
 +^008800Immuned Shadow Armor^000000
 DEF increases by total number of Refinement of Set Item.
 Additional Resistance to Neutral property +1%, when total refine level is over 15
@@ -102964,10 +102940,10 @@ Jobs:^6666CC All classes^000000
 24027#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-Resistance to Neutral property +1%
+Resistance to Neutral element attacks +1%
 +^008800Athena Shadow Shield^000000
 DEF increases by total number of Refinement of Set Items.
-Additional Resistance to Neutral property +1%, when total combined Refinement is over 15.
+Additional Resistance to Neutral element attacks +1%, when total combined Refinement is over 15.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^009900 0^000000
@@ -105300,8 +105276,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 1%.
 [^6666CCBasis Shadow Set^000000]
 ^008800Basis Shadow Armor^000000
 ^008800Basis Shadow Shield^000000
@@ -105316,8 +105292,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 1%.
 [^6666CCHallowed Shadow Set^000000]
 ^008800Hallowed Shadow Armor^000000
 ^008800Hallowed Shadow Shield^000000
@@ -105332,8 +105308,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 1%.
 [^6666CCSaharic Shadow Set^000000]
 ^008800Saharic Shadow Armor^000000
 ^008800Saharic Shadow Shield^000000
@@ -105348,8 +105324,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 1%.
 [^6666CCUnderneath Shadow Set^000000]
 ^008800Underneath Shadow Armor^000000
 ^008800Underneath Shadow Shield^000000
@@ -105364,8 +105340,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 1%.
 [^6666CCFlame Shadow Set^000000]
 ^008800Flame Shadow Armor^000000
 ^008800Flame Shadow Shield^000000
@@ -105380,8 +105356,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^4CBB17Wind^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^4CBB17Wind^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^4CBB17Wind^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^4CBB17Wind^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^4CBB17Wind^000000 element monsters by 1%.
 [^6666CCWindy Shadow Set^000000]
 ^008800Windy Shadow Armor^000000
 ^008800Windy Shadow Shield^000000
@@ -105396,8 +105372,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 1%.
 [^6666CCEnvenom Shadow Set^000000]
 ^008800Envenom Shadow Armor^000000
 ^008800Envenom Shadow Shield^000000
@@ -105412,8 +105388,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 1%.
 [^6666CCDamned Shadow Set^000000]
 ^008800Damned Shadow Armor^000000
 ^008800Damned Shadow Shield^000000
@@ -105428,8 +105404,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 1%.
 [^6666CCGeist Shadow Set^000000]
 ^008800Geist Shadow Armor^000000
 ^008800Geist Shadow Shield^000000
@@ -105444,8 +105420,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 1%.
-Refined to +7, Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 1%.
-Refined to +9, Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 1%.
+Refine level +7: Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 1%.
+Refine level +9: Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 1%.
 [^6666CCDivine Shadow Set^000000]
 ^008800Divine Shadow Armor^000000
 ^008800Divine Shadow Shield^000000
@@ -105584,7 +105560,7 @@ A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
 HIT +5
 Each 2 refines increase HIT +1.
-Refined to +7, increase ASPD +1.
+Refine level +7: ASPD +1.
 [+^008800Blitz Shadow Pendant^000000]
 Increase ATK for each refine of entire set.
 If the amount of the entire set of refine is equal or superior 15, add ASPD +1.
@@ -105599,7 +105575,7 @@ A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
 ATK +5
 Each 2 refines increase ATK +1.
-Refined to +7, increase ASPD +1.
+Refine level +7: ASPD +1.
 [+^008800Blitz Shadow Earring^000000]
 Increase ATK for each refine of entire set.
 If the amount of the entire set of refine is equal or superior 15, add ASPD +1.
@@ -105673,8 +105649,8 @@ Jobs:^6666CC 3rd classes^000000
 24224#
 A glove that can draw the wearer's potential ability.
 ATK +10
-Refined to +7 increase ATK by 1%.
-Refined to +9 increase ATK by 1%.
+Refine level +7: ATK +1%.
+Refine level +9: ATK +1%.
 [^6666CCForce Shadow Set^000000]
 ^008800Force Shadow Weapon^000000
 ^008800Force Shadow Earring^000000
@@ -105693,8 +105669,8 @@ A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
 ATK +5
 Every refine increase ATK by 1.
-Refined to +7 increase MaxHP by 1%.
-Refined to +9 increase ATK by 1%.
+Refine level +7: MaxHP +1%.
+Refine level +9: ATK +1%.
 [^6666CCForce Shadow Set^000000]
 ^008800Force Shadow Weapon^000000
 ^008800Force Shadow Earring^000000
@@ -105713,8 +105689,8 @@ A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
 ATK +5
 Every refine increase ATK by 1.
-Refined to +7 increase MaxHP by 1%.
-Refined to +9 increase ATK by 1%.
+Refine level +7: MaxHP +1%.
+Refine level +9: ATK +1%.
 [^6666CCForce Shadow Set^000000]
 ^008800Force Shadow Weapon^000000
 ^008800Force Shadow Earring^000000
@@ -105748,8 +105724,8 @@ Jobs:^6666CC 3rd classes^000000
 24228#
 A glove that can draw the wearer's potential ability.
 MATK +1%
-Refined to +7 increase MATK by 1%.
-Refined to +9 increase MATK by 1%.
+Refine level +7: MATK +1%.
+Refine level +9: MATK +1%.
 [^6666CCSoul Shadow Set^000000]
 ^008800Soul Shadow Weapon^000000
 ^008800Soul Shadow Earring^000000
@@ -105768,8 +105744,8 @@ A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
 MATK +5
 Every refine increase MATK by 1.
-Refined to +7 increase MaxHP by 1%.
-Refined to +9 increase MATK by 1%.
+Refine level +7: MaxHP +1%.
+Refine level +9: MATK +1%.
 [^6666CCSoul Shadow Set^000000]
 ^008800Soul Shadow Weapon^000000
 ^008800Soul Shadow Earring^000000
@@ -105788,8 +105764,8 @@ A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
 MATK +5
 Every refine increase MATK by 1.
-Refined to +7 increase MaxHP by 1%.
-Refined to +9 increase MATK by 1%.
+Refine level +7: MaxHP +1%.
+Refine level +9: MATK +1%.
 [^6666CCSoul Shadow Set^000000]
 ^008800Soul Shadow Weapon^000000
 ^008800Soul Shadow Earring^000000
@@ -105807,9 +105783,9 @@ Jobs:^6666CC All classes^000000
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 FLEE +5
-Refined to +2 or more, increase CRIT +2
-Refined to +7 or more, increase ASPD +1
-Refined to +9 or more, increase ASPD +1
+Refine level +2: CRIT +2
+Refine level +7: ASPD +1
+Refine level +9: ASPD +1
 [+^008800Blitz Shadow Shield^000000]
 FLEE +5
 If the total of entire set's refine is equal or higher than +15, increase ASPD +1.
@@ -105823,9 +105799,9 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 CRIT +5
-Refined to +2 or more, increase CRIT +2
-Refined to +7 or more, increase ASPD +1
-Refined to +9 or more, increase ASPD +1
+Refine level +2: CRIT +2
+Refine level +7: ASPD +1
+Refine level +9: ASPD +1
 [+^008800Blitz Shadow Shoes^000000]
 FLEE +5
 If the total of entire set's refine is equal or higher than +15, increase ASPD +1.
@@ -105909,8 +105885,8 @@ Jobs:^6666CC All classes^000000
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
 Increase 1% of damage inflicted to small monsters.
-Refined to +7 or higher increase 1% more damage to small monsters.
-Refined to +9 or higher increase 2% more damage to small monsters.
+Refine level +7: increase 1% more damage to small monsters.
+Refine level +9: increase 2% more damage to small monsters.
 When equipped with ^32CD32Gigantic shadow set (pendant and earring)^000000
 ATK +5
 If the total of entire set's refine is equal or higher than +15, increase 2% more damage to small monsters.
@@ -105924,8 +105900,8 @@ Jobs:^6666CC All classes^000000
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
 Increase 1% of damage inflicted to small monsters.
-Refined to +7 or higher increase 1% more damage to small monsters.
-Refined to +9 or higher increase 2% more damage to small monsters.
+Refine level +7: increase 1% more damage to small monsters.
+Refine level +9: increase 2% more damage to small monsters.
 When equipped with ^32CD32Gigantic shadow set (pendant and earring)^000000
 ATK +5
 If the total of entire set's refine is equal or higher than +15, increase 2% more damage to small monsters.
@@ -105996,8 +105972,8 @@ Jobs:^6666CC All classes^000000
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduce delay after skill by 1%.
-When refine level +7, reduce delay after skill by 1%.
-When refine level +9, reduce delay after skill by 1%.
+Refine level +7: reduce delay after skill by 1%.
+Refine level +9: reduce delay after skill by 1%.
 [^6666CCReload Shadow Set^000000]
 ^008800Reload Shadow Armor^000000
 ^008800Reload Shadow Shield^000000
@@ -106014,8 +105990,8 @@ Jobs:^6666CC All classes^000000
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduce delay after skill by 1%.
-When refine level +7, reduce delay after skill by 1%.
-When refine level +9, reduce delay after skill by 1%.
+Refine level +7: reduce delay after skill by 1%.
+Refine level +9: reduce delay after skill by 1%.
 [^6666CCReload Shadow Set^000000]
 ^008800Reload Shadow Armor^000000
 ^008800Reload Shadow Shield^000000
@@ -106032,8 +106008,8 @@ Jobs:^6666CC All classes^000000
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 Reduce delay after skill by 1%.
-When refine level +7, reduce delay after skill by 1%.
-When refine level +9, reduce delay after skill by 1%.
+Refine level +7: reduce delay after skill by 1%.
+Refine level +9: reduce delay after skill by 1%.
 [^6666CCReload Shadow Set^000000]
 ^008800Reload Shadow Armor^000000
 ^008800Reload Shadow Shield^000000
@@ -106091,8 +106067,8 @@ Jobs:^6666CC All classes^000000
 24249#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
-Reduces SP consumption of ^6666CCFire Bolt^000000, [Cold Bolt, ^6666CCLightning Bolt^000000 by 20%.
-For every refine level reduces SP consumption of ^6666CCFire Bolt^000000, [Cold Bolt, ^6666CCLightning Bolt^000000 by 3%.
+Reduces SP consumption of ^6666CCFire Bolt^000000, ^6666CCCold Bolt^000000, ^6666CCLightning Bolt^000000 by 20%.
+For every refine level reduces SP consumption of ^6666CCFire Bolt^000000, ^6666CCCold Bolt^000000, ^6666CCLightning Bolt^000000 by 3%.
 [+^008800Magician Shadow Pendant^000000]
 MATK +1%, MaxSP +1%.
 If total refine level of entire set is higher than +10, MATK +2%, MaxSP +2%.
@@ -106116,8 +106092,8 @@ Jobs:^6666CC All classes^000000
 24251#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-Increases [Cart Revolution] damage by 20%.
-For every refine level increases [Cart Revolution] damage by 5%.
+Increases ^008800Cart Revolution^000000 damage by 20%.
+For every refine level increases ^008800Cart Revolution^000000 damage by 5%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^009900 0^000000
@@ -106127,8 +106103,8 @@ Jobs:^6666CC All classes^000000
 24252#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-Increases [Holy Light] damage by 20%.
-For every refine level increases [Holy Light] damage by 5%.
+Increases ^008800Holy Light^000000 damage by 20%.
+For every refine level increases ^008800Holy Light^000000 damage by 5%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^009900 0^000000
@@ -106138,8 +106114,8 @@ Jobs:^6666CC All classes^000000
 24253#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-Increases [Envenom] damage by 20%.
-For every refine level increases [Envenom] damage by 5%.
+Increases ^008800Envenom^000000 damage by 20%.
+For every refine level increases ^008800Envenom^000000 damage by 5%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^009900 0^000000
@@ -106160,8 +106136,8 @@ Jobs:^6666CC All classes^000000
 24255#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-Increases [Arrow Shower] damage by 20%.
-For every refine level increases [Arrow Shower] damage by 15%.
+Increases ^008800Arrow Shower^000000 damage by 20%.
+For every refine level increases ^008800Arrow Shower^000000 damage by 15%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^009900 0^000000
@@ -108118,7 +108094,7 @@ Jobs:^6666CC All classes^000000
 #
 28311#
 Sarah's Right Earring. You can use all your power when you wear.
-Enables use of Level 1 ^008800Teleportation^000000.
+Enables use of Level 1 ^008800Teleport^000000.
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
 Weight:^009900 10^000000
@@ -108177,7 +108153,7 @@ Jobs:^6666CC Hunter^000000
 #
 28324#
 A ring for new users who start Ragnarok.
-^6666CCHeal^000000 Lv 1 is available.
+Enables use of Level 1 ^6666CCHeal^000000.
 The lower level your character has, the better aquired exp when you hunt monsters.
 Mazimum 100% increase, and the effect will disappear when the character Lv is reached Lv.101.
 Class:^6666CC Accessory^000000
