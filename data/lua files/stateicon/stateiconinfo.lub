@@ -4572,3 +4572,30 @@ StateIconList[EFST_IDs.EFST_SU_STOOP] = {
 		{ "Reduces damage taken by crouching on the ground" }
 	}
 }
+StateIconList[EFST_IDs.EFST_EP16_2_BUFF_SS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Enhanced Potion SS", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "ASPD +10" }
+	}
+}
+StateIconList[EFST_IDs.EFST_EP16_2_BUFF_SC] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Enhanced Potion SC", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "CRIT +30" }
+	}
+}
+StateIconList[EFST_IDs.EFST_EP16_2_BUFF_AC] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Enhanced Potion AC", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Reduce variable cast time by 80%" }
+	}
+}
