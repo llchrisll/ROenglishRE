@@ -3218,7 +3218,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF1] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "뉴오즈의 엉뚱함", COLOR_TITLE_BUFF },
+		{ "New Oz's Finesse", COLOR_TITLE_BUFF },
 		{ "Increases ATK" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3227,7 +3227,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF2] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "아이구의 의지", COLOR_TITLE_BUFF },
+		{ "Aigu's Willpower", COLOR_TITLE_BUFF },
 		{ "Increase MATK" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3236,7 +3236,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF3] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "로테르트의 허세", COLOR_TITLE_BUFF },
+		{ "Rohtert's Bluff", COLOR_TITLE_BUFF },
 		{ "Reduce after-attack delay" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3245,7 +3245,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF4] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "겔카의 수줍음", COLOR_TITLE_BUFF },
+		{ "Gelkah's Shyness", COLOR_TITLE_BUFF },
 		{ "Reduce SP consumption" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3254,7 +3254,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF5] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "아랑의 천진난만함", COLOR_TITLE_BUFF },
+		{ "Arang's Naivety", COLOR_TITLE_BUFF },
 		{ "Reduce after-cast delay" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3263,7 +3263,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF6] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "밍민의 세밀함", COLOR_TITLE_BUFF },
+		{ "Mingmin's Detailedness", COLOR_TITLE_BUFF },
 		{ "Increase accuracy" },
 		{ "%s", COLOR_TIME } }
 }
@@ -3280,7 +3280,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF8] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "루나인의 세침함", COLOR_TITLE_BUFF },
+		{ "Lunain's Attentiveness", COLOR_TITLE_BUFF },
 		{ "Increase Heal efficiency" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3289,7 +3289,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF9] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "라기의 썰렁함", COLOR_TITLE_BUFF },
+		{ "Ragi's Cheesiness", COLOR_TITLE_BUFF },
 		{ "Increase MDEF" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3298,7 +3298,7 @@ StateIconList[EFST_IDs.EFST_JITTER_BUFF10] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "멜로디잭의 불필요함", COLOR_TITLE_BUFF },
+		{ "Melody Jack's Requireness", COLOR_TITLE_BUFF },
 		{ "Increase Flee" },
 		{ "%s", COLOR_TIME }
 	}
@@ -3608,19 +3608,19 @@ StateIconList[EFST_IDs.EFST_ACUO_MINT_GUM] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "ACUO 껌", COLOR_TITLE_BUFF },
+		{ "ACUO Gum", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ATK, MATK 증가" }
+		{ "Increase ATK, MATK" }
 	}
 }
 StateIconList[EFST_IDs.EFST_S_HEALPOTION] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "회복력 특효포션", COLOR_TITLE_BUFF },
+		{ "Small Heal Potion", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "10초당 일정량의 HP, SP 회복" },
-		{ "버서크 상태 중 효과 없음" }
+		{ "Restore certain amount of HP and SP every 10 sec." },
+		{ "Has no effect on Berserk status." }
 	}
 }
 StateIconList[EFST_IDs.EFST_JUMPINGCLAN] = {
@@ -3633,9 +3633,9 @@ StateIconList[EFST_IDs.EFST_JP_OTP] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 4,
 	descript = {
-		{ "OTP 가입자 특전", COLOR_TITLE_BUFF },
-		{ "몬스터 사냥 시" },
-		{ "경험치, JOB 경험치 증가" },
+		{ "OTP Subscriber Benefit", COLOR_TITLE_BUFF },
+		{ "Increase Base Exp and Job Exp" },
+		{ "gained from killing monsters" },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -3644,7 +3644,7 @@ StateIconList[EFST_IDs.EFST_HANDICAPTOLERANCE_LEVELGAP] = {
 	posTimeLimitStr = 1,
 	descript = {
 		{ "%s", COLOR_TIME },
-		{ "상태이상 내성 레벨 패널티 감소" }
+		{ "Reduce state resistance from level penalty" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PAD_READER_KNIGHT] = {
@@ -3811,28 +3811,28 @@ StateIconList[EFST_IDs.EFST_MTF_MARIONETTE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "마리오네트 변신", COLOR_TITLE_BUFF },
+		{ "Marionette transformation", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "모로크에게 주는 데미지 20% 증가." },
-		{ "모로크로부터 받는 데미지 20% 감소." }
+		{ "Increase damage inflicted to Morocc by 20%." },
+		{ "Reduce damage taken from Morocc by 20%." }
 	}
 }
 StateIconList[EFST_IDs.EFST_MTF_LUDE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "루드 변신", COLOR_TITLE_BUFF },
+		{ "Lude transformation", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "모로크의 현신에게 주는 데미지 20% 증가" }
+		{ "Increase damage inflicted to Incarnation of Morocc by 20%." }
 	}
 }
 StateIconList[EFST_IDs.EFST_MTF_CRUISER] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "크루이저 변신", COLOR_TITLE_BUFF },
+		{ "Cruiser transformation", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "모로크의 현신으로부터 받는 데미지 20% 감소" }
+		{ "Reduce damage taken from Incarnation of Morocc by 20%." }
 	}
 }
 StateIconList[EFST_IDs.EFST_LIMIT_POWER_BOOSTER] = {
@@ -4484,7 +4484,7 @@ StateIconList[EFST_IDs.EFST_SPRITEMABLE] = {
 	haveTimeLimit = 0,
 	posTimeLimitStr = 0,
 	descript = {
-		{ "Red Ball", COLOR_SYSTEMF }
+		{ "Red Beads", COLOR_SYSTEMF }
 	}
 }
 StateIconList[EFST_IDs.EFST_SUHIDE] = {
@@ -4549,7 +4549,7 @@ StateIconList[EFST_IDs.EFST_SV_ROOTTWIST] = {
 		{ "Root Twist", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
 		{ "Immobilize" },
-		{ "100 damage poison per second" }
+		{ "100 poison element damage per second" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CATNIPPOWDER] = {
