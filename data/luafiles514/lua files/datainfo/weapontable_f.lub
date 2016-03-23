@@ -45,3 +45,13 @@ function ReqWeaponHitWaveName(index)
 		return ""
 	end
 end
+
+function IsItemUsingArrow ( type )
+	for k, val in ipairs( BowTypeList ) do
+		if ( type == val ) then
+			return true
+		end
+	end
+
+	return false
+end

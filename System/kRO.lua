@@ -10277,6 +10277,24 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 1462
 	},
+	[20491] = {
+		unidentifiedDisplayName = "Hairband",
+		unidentifiedResourceName = "머리띠",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "의상 레이저 오브 이글",
+		identifiedResourceName = "레이저오브이글",
+		identifiedDescriptionName = {
+			"정밀한 사격을 서포트하는 고성능 레이저 포인터.",
+			"렌즈에는 어느 연구기관의 생체 샘플의 눈동자가 쓰였다는 소문도. ",
+			"개발된 지방에서 사랑받던 이글을 모티브로 하고 있다.",
+			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
+			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1424
+	},
 	[20781] = {
 		unidentifiedDisplayName = "Garment",
 		unidentifiedResourceName = "망토",
