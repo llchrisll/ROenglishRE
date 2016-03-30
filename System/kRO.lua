@@ -11179,6 +11179,21 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[22945] = {
+		unidentifiedDisplayName = "벚꽃 찰떡",
+		unidentifiedResourceName = "벚꽃찰떡",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "벚꽃 찰떡",
+		identifiedResourceName = "벚꽃찰떡",
+		identifiedDescriptionName = {
+			"봄소풍에 딱 맞는 벚꽃잎으로 만든 과자.",
+			"5분 동안 소형, 중형, 대형 적으로부터 받는 데미지 5% 감소.",
+			"봄 이벤트 기간(2016년3월 30일 ~ 2016년4월 27일) 이후, 해당 아이템은 삭제 됩니다.",
+			"무게 : ^7777773^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[22953] = {
 		unidentifiedDisplayName = "의상 인챈트 스톤 상자7",
 		unidentifiedResourceName = "초록상자",
