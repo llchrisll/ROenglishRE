@@ -33089,9 +33089,9 @@ A hat that looks like the eyes of a dark mage, which are rumored to blink someti
 -------------------------
 MDEF +5
 -------------------------
-Reduce variable cast time by 10%.
+Reduces variable cast time by 10%.
 -------------------------
-Increase SP Consumption by 20%.
+Increases SP consumption by 20%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
@@ -34937,12 +34937,13 @@ Jobs:^6666CC All classes^000000
 5283#
 A hat adorned with a cute chick that brings feelings of joy to those that see it hopping.
 -------------------------
+LUK +2
 MaxHP +50
 MaxSP +50
 -------------------------
-Adds 3% resistance to Demihuman and ^6666CCBrute^000000 monsters.
+Enables Level 2 Double Attack.
 -------------------------
-Enable Level 2 Double Attack.
+Increases resistance against ^6666CCDemihuman^000000 and ^6666CCBrute^000000 monsters by 3%.
 -------------------------
 ^FF0000Unrefineable^000000
 -------------------------
@@ -35624,12 +35625,13 @@ Jobs:^6666CC All classes^000000
 5333#
 A hat designed to transmit electric waves. Sometimes it receives electric waves from external worlds.
 -------------------------
-MDEF +2
-CRIT +5, FLEE +5
+CRIT +5
+FLEE +5
+MDEF +5
 -------------------------
 Enables use of Level 1 ^008800Lightning Bolt^000000.
 -------------------------
-Adds a chance to auto cast Level 5 [Thunder Storm] when dealing physical attacks.
+Adds a chance to auto cast Level 5 ^008800Thunder Storm^000000 when dealing physical attacks.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
@@ -36766,18 +36768,18 @@ Jobs:^6666CC All classes^000000
 5420#
 A mask of Ifrit, the spiritual owner of fire.
 -------------------------
-STR +1, INT +1
+STR +2
+INT +2
 MDEF +5
+-------------------------
+Adds a chance to auto cast Level 3 Meteor Storm when dealing physical attacks.
+-------------------------
+Increases ^FF0000Fire^000000 element magics damage by 10%.
+-------------------------
+Increases physical damage against ^CC5500Earth^000000 element monsters by 10%.
 -------------------------
 Increases resistance against ^FF0000Fire^000000 element attacks by 10%.
 Decreases resistance against ^0000BBWater^000000 element attacks 10%.
--------------------------
-Enables use of Level 1 [Sight].
--------------------------
-Has a chance of auto-casting Level 3 Meteor Storm when receiving physical attack.
-Has a chance of auto-casting Level 3 Fire Bolt when dealing physical damage.
--------------------------
-^FF0000Unrefineable^000000
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 12^000000
@@ -36790,14 +36792,15 @@ Jobs:^6666CC All except Novice^000000
 A headgear which imitates Ifrit's ears, the spiritual owner of fire.
 -------------------------
 STR +1
+INT +1
 MDEF +3
 -------------------------
-Increase damage of ^008800Fire Bolt^000000, Fire Pillar, and Meteor Storm skill by 2%.
+Increases ^FF0000Fire^000000 element magics damage by 3%.
 -------------------------
-Increase damage of Bash, Pierce, and Magnum Break skill by 2%.
+Increase Bash and Magnum Break damage by 4%.
 -------------------------
-Increases resistance against ^FF0000Fire^000000 element attacks by 5%.
-Decreases resistance against ^0000BBWater^000000 element attacks 5%.
+Increases resistance against ^FF0000Fire^000000 element attacks by 3%.
+Reduces resistance against ^0000BBWater^000000 element attacks by 3%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
@@ -37617,7 +37620,7 @@ Jobs:^6666CC All classes^000000
 5483#
 A mask worn once worn by Odin during a fierce battle between the gods and humans.
 -------------------------
-Reduces damage taken from Boss class monsters by 2%.
+Reduces damage taken from Boss monsters by 2%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 1^000000
@@ -39638,11 +39641,13 @@ Jobs:^6666CC All classes^000000
 5625#
 A hat adorned with a cute chick that brings feelings of joy to those that see it hopping.
 -------------------------
-MaxHP +50, MaxSP +50
+LUK +2
+MaxHP +50
+MaxSP +50
 -------------------------
 Enables Level 2 Double Attack.
 -------------------------
-Increases resistance against Demihuman and ^6666CCBrute^000000 monsters by 3%.
+Increases resistance against ^6666CCDemihuman^000000 and ^6666CCBrute^000000 monsters by 3%.
 -------------------------
 ^FF0000Unrefineable^000000
 -------------------------
@@ -62185,16 +62190,17 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Gunslinger^000000
 #
 13132#
-기존 메탈 리볼버에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 리볼버.
-^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
-파이어 댄스 데미지 10% 증가.
-제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.
-BaseLv이 10상승할때마다 ATK +5씩 추가 증가(증가량은 BaseLv 150까지 적용)
-계열 :^777777 권총^000000 공격 :^777777 55^000000
-무게 :^777777 0^000000
-무기 레벨 :^777777 3^000000
-요구 레벨 :^777777 100^000000
-장착 :^777777 건너 계열^000000
+A metallic Revolver made of oridecon created for experienced adventurers.
+Can be enchanted by ^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
+Increases Fire Dance damage by 10%.
+Every refine level increase ATK by 5 and Long range physical attacks by 2%.
+Every 10 base level increase ATK by 5 (Applies up to base level 150)
+Class:^6666CC Revolver^000000
+Attack:^CC0000 55^000000
+Weight:^009900 0^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC Rebellion^000000
 #
 13150#
 A practical firearm with a long gun barrel which increases its range and accuracy.
@@ -63615,17 +63621,18 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Ninja^000000
 #
 13330#
-기존 메탈 풍마수리검에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 풍마수리검.
-^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
-풍마수리검 난화 데미지 10% 증가.
-제련도 1당 ATK +7 / MATK +5 증가.
-제련도 2당 원거리 물리 공격력 2% 증가.
-BaseLv이 10상승할때마다 ATK +5 / MATK +3씩 추가 증가(증가량은 BaseLv 150까지 적용)
-계열 :^777777 풍마 수리검^000000 공격 :^777777 75^000000
-무게 :^777777 0^000000
-무기 레벨 :^777777 3^000000
-요구 레벨 :^777777 100^000000
-장착 :^777777 닌자 계열^000000
+A metallic Huuma Shuriken made of oridecon created for experienced adventurers.
+Can be enchanted by ^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
+Increases Throw Huuma Shuriken damage by 10%.
+Every refine level: ATK +7, MATK +5.
+Every 2 refine level: increases long range physical attacks by 2%.
+Every 10 base level increase ATK by 5 and MATK by 3 (Applies up to base level 150)
+Class:^6666CC Huuma Shuriken^000000
+Attack:^CC0000 75^000000
+Weight:^009900 0^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC Kagerou and Oboro^000000
 #
 13400#
 A practical sword that is typically used by sailors.
@@ -75542,16 +75549,17 @@ Level Requirement:^009900 78^000000
 Jobs:^6666CC Priest and Monk^000000
 #
 16054#
-기존 메탈 메이스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 메이스.
-^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
-천라지망, 카트캐논 데미지 10% 증가.
-제련도 1당 ATK +7 증가.
-BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)
-계열 :^777777 둔기^000000 공격 :^777777 105^000000
-무게 :^777777 0^000000
-무기 레벨 :^777777 3^000000
-요구 레벨 :^777777 100^000000
-장착 :^777777 노비스/검사계열/복사계열/상인계열^000000
+A metallic Mace made of oridecon created for experienced adventurers.
+Can be enchanted by ^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
+Increases Sky Net Blow and Cart Cannon damage by 10%.
+Every refine increases ATK by 7.
+Every 10 base level increase ATK by 7 (Applies up to base level 150)
+Class:^6666CC Mace^000000
+Attack:^CC0000 105^000000
+Weight:^009900 0^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC Novice; 3rd classes of Swordman, Acolyte and Merchant^000000
 #
 16100#
 A box that contains 1 "Angry Mouth" inside.
@@ -76448,14 +76456,14 @@ Rabbit ears with a little scroll round the eggs.
 Weight:^009900 1^000000
 #
 16254#
-A box that contains 5 "Activation Potion" inside.
+A box that contains 5 "Energizing Potion" inside.
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 16255#
-A box that contains 5 "Activation Potion" inside.
+A box that contains 5 "Energizing Potion" inside.
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
 ^FFFFFF_^000000
@@ -85098,6 +85106,35 @@ Contains 50 ASPD Enhanced Potion and 100 Red Booster. Also contain 11 Shadow Scr
 ^ff0000Not refundable.^000000
 Weight:^009900 1^000000
 #
+17675#
+농축 에르늄, 농축 오리데오콘이 각각 5개씩 들어있는 상자. 추가로 영혼의 스크롤이 1개 들어있다.
+^ffffff_^000000
+농축 에르늄 - 방어구의 제련확률이 증가한다.
+농축 오리데오콘 - 무기의 제련확률이 증가한다.
+^ffffff_^000000
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
+17676#
+농축 에르늄, 농축 오리데오콘이 각각 50개씩 들어있는 상자. 추가로 영혼의 스크롤이 11개 들어있다.
+^ffffff_^000000
+농축 에르늄 - 방어구의 제련확률이 증가한다.
+농축 오리데오콘 - 무기의 제련확률이 증가한다.
+^ffffff_^000000
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
+17677#
+고농축 에르늄, 고농축 오리데오콘이 각각 13개씩 들어있는 상자. 추가로 영혼의 스크롤 11개, 멘탈 포션 6개가 들어있다. 
+_ 
+고농축 에르늄 - 방어구의 제련확률이 증가한다.
+고농축 오리데오콘 - 무기의 제련확률이 증가한다. 
+- 제련도가 +7 이상인 장비를 제련 시, 실패하더라도 장비가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. - 
+(제련에 실패 시 제련도가 1 하락합니다.) 
+_ 
+^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
 18000#
 A consumable item to use the Mechanic Magic Gear Skill, Arm's Cannon.
 Class:^6666CC Cannonball^000000
@@ -85428,13 +85465,12 @@ Jobs:^6666CC Archer, Thief and Rogue^000000
 18132#
 A certified kingdom equipment for adventurer.
 Increase ATK by (Refine*Refine*1.25)
-
-Class:^6666CC 활^000000
+Class:^6666CC Bow^000000
 Attack:^D80000 114^000000
 Weight:^009900 60^000000
 Weapon Level:^009900 3^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC 궁수 계열,로그 계열^000000
+Jobs:^6666CC Archer and Rogue^000000
 #
 18133#
 A bow imbued with the power of thunder.
@@ -85530,17 +85566,18 @@ Level Requirement:^009900 55^000000
 Jobs:^6666CC Archer and Rogue^000000
 #
 18141#
-기존 메탈 보우에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 보우.
-^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.
-애로우 스톰, 서비어레인스톰 데미지 10% 증가.
-제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.
-BaseLv이 10상승할때마다 ATK +6씩 추가 증가(증가량은 BaseLv 150까지 적용)
-헌터 계열이 장착 시 ATK +15.
-계열 :^777777 활^000000 공격 :^777777 75^000000
-무게 :^777777 0^000000
-무기 레벨 :^777777 3^000000
-요구 레벨 :^777777 100^000000
-장착 :^777777 궁수 계열^000000
+A metallic Bow made of oridecon created for experienced adventurers.
+Can be enchanted by ^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
+Increases Severe Rainstorm and Arrow Storm damage by 10%.
+Every refine level increase ATK by 5 and Long range physical attacks by 2%.
+Every 10 base level increase ATK by 6 (Applies up to base level 150)
+When equipped by Hunter: ATK +15.
+Class:^6666CC Bow^000000
+Attack:^CC0000 75^000000
+Weight:^009900 0^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC Ranger, Minstrel and Wanderer^000000
 #
 18500#
 ^000088Rental Item^000000
@@ -91522,36 +91559,189 @@ Level Requirement:^009900 90^000000
 Jobs:^6666CC All classes^000000
 #
 19117#
-포링 모양의 랜즈로 만들어진 선글래스. 
-모두의 눈길을 받고 싶다면 필수 아이템. 
-몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. 
-천사포링 부츠와 함께 착용시, 몬스터에게 얻는 경험치 + 5% 추가, 아이템 드롭율 + 5% 추가.
-천사포링 부츠의 제련도가 12 이상일 경우, 고정 캐스팅 0.4초 감소.
-계열 :^777777 투구^000000 방어 :^777777 0^000000
-Location:^6666CC 중단 ^000000무게 :^777777 1^000000
+Sunglasses shaped like Poring. This is the season item for your fashion.
+Increases Exp gained from killing monsters by 5%.
+Increases items drop rate by 5%.
+When equipped with Angel Poring Boots:
+Increases Exp gained from killing monsters by 5%.
+Increases items drop rate by 5%.
+When refine level of Boots in +12: Reduces fixed cast time by 0.4 seconds.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^009900 1^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 19118#
-포링 모양의 랜즈로 만들어진 선글래스. 
-모두의 눈길을 받고 싶다면 필수 아이템. 
-몬스터에게 얻는 경험치 + 4%, 아이템 드롭율 + 4%. 
-천사포링 부츠와 함께 착용시, 몬스터에게 얻는 경험치 + 4% 추가, 아이템 드롭율 + 4% 추가.
-천사포링 부츠의 제련도가 12 이상일 경우, 고정 캐스팅 0.4초 감소.
-계열 :^777777 투구^000000 방어 :^777777 0^000000
-Location:^6666CC 중단 ^000000무게 :^777777 1^000000
+Sunglasses shaped like Poring. This is the season item for your fashion.
+Increases Exp gained from killing monsters by 4%.
+Increases items drop rate by 4%.
+When equipped with Angel Poring Boots:
+Increases Exp gained from killing monsters by 4%.
+Increases items drop rate by 4%.
+When refine level of Boots in +12: Reduces fixed cast time by 0.4 seconds.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^009900 1^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 19119#
-기존 시간의 수호자 모자에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
-ALL STATUS +2, HP +500, SP +100, 변동캐스팅 5% 감소.
-물리 공격 시, 3%의 확률로 데미지의 3%를 HP로 흡수(제련도 3당 HP 흡수량 1%씩 증가)
-물리 공격 시, 1%의 확률로 데미지의 1%를 SP로 흡수(제련도 4당 SP 흡수량 1%씩 증가)
-계열 :^777777 투구^000000 방어 :^777777 10^000000
-위치 :^777777 상단 ^000000무게 :^777777 0^000000
-요구 레벨 :^777777 100^000000
-장착 :^777777 전 직업^000000
+A hat made from a mixed Elunium and Emperium for experienced adventurers.
+All Stats +2
+MaxHP +500
+MaxSP +100
+Reduces variable cast time by 5%.
+When dealing physical attacks, adds 3% to absorb 3 HP (Every 3 refine level increase HP absorbtion by 1%).
+When dealing magical attacks, adds 1% to absorb 1 SP (Every 4 refine level increase SP absorbtion by 1%).
+Class:^6666CC Headgear^000000
+Defense:^0000FF 10^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC All classes^000000
+#
+19126#
+A tool that can control the brain wave to amplify their skills.
+ASPD +1
+Decreases delay after skill by 1%.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^009900 30^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+19127#
+This mask, which is symbolic of Zealotus, mistress of the Glast Heim Underground Prison.
+Makes its wearer feel like looking down on normal human peons.
+Increases damage against ^6666CCDemihuman^000000 monsters by 5%.
+Reduces damage taken from ^6666CCDemihuman^000000 monsters by 5%.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 3^000000
+Location:^6666CC Upper, Middle^000000
+Weight:^009900 40^000000
+Level Requirement:^009900 70^000000
+Jobs:^6666CC All except Novice^000000
+#
+19128#
+A headgear which imitates Ifrit's ears, the spiritual owner of fire.
+STR +1
+INT +1
+MDEF +3
+Increases ^FF0000Fire^000000 element magics damage by 3%.
+Increase Bash and Magnum Break damage by 4%.
+Increases resistance against ^FF0000Fire^000000 element attacks by 3%.
+Reduces resistance against ^0000BBWater^000000 element attacks by 3%.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^009900 30^000000
+Level Requirement:^009900 30^000000
+Jobs:^6666CC All except Novice^000000
+#
+19129#
+A hat adorned with a cute chick that brings feelings of joy to those that see it hopping.
+LUK +2
+MaxHP +50
+MaxSP +50
+Enables Level 2 Double Attack.
+Increases resistance against ^6666CCDemihuman^000000 and ^6666CCBrute^000000 monsters by 3%.
+^FF0000Unrefineable^000000
+Class:^6666CC Headgear^000000
+Defense:^0000FF 2^000000
+Location:^6666CC Upper^000000
+Weight:^009900 10^000000
+Level Requirement:^009900 10^000000
+Jobs:^6666CC All classes^000000
+#
+19130#
+A hat that looks like the eyes of a dark mage, which are rumored to blink sometimes.
+MDEF +5
+Reduces variable cast time by 10%.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 3^000000
+Location:^6666CC Upper^000000
+Weight:^009900 30^000000
+Level Requirement:^009900 54^000000
+Jobs:^6666CC Mage and Soul Linker^000000
+#
+19131#
+A hat designed to transmit electric waves. Sometimes it receives electric waves from external worlds.
+CRIT +5
+FLEE +5
+MDEF +5
+Enables use of Level 1 ^008800Lightning Bolt^000000.
+Adds a chance to auto cast Level 5 ^008800Thunder Storm^000000 when dealing physical attacks.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 2^000000
+Location:^6666CC Upper^000000
+Weight:^009900 150^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+19132#
+A black leather mask, shaped like butterfly wings.
+Increase damage against ^6666CCDemihuman^000000 monsters by 3%.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^009900 10^000000
+Jobs:^6666CC All except Novice^000000
+#
+19133#
+A mask worn once worn by Odin during a fierce battle between the gods and humans.
+Reduces damage taken from Boss monsters by 2%.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 1^000000
+Location:^6666CC Middle, Lower^000000
+Weight:^009900 10^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+19134#
+Wickebine's black cat ears.
+FLEE +10
+Increases Critical damage by 10%.
+Adds a chance to ignore Magic defense of target for 5 seconds when dealing magical attacks.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 4^000000
+Location:^6666CC Upper^000000
+Weight:^009900 20^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+19135#
+A spirit of Green Maiden that float on your head.
+Adds a chance to transform wearer to Green Maiden for 5 seconds when dealing physical or magical attacks.
+When transforming, increases MATK and Critical damage by 30%.
+Every 2 refine level: Exp gained +1%, drop rate +1%.
+Every 4 refine level: MaxHP +2%, MaxSP +2%.
+Refine level +9: HP regeneration +40%, SP regeneration +40%.
+Refine level +12: MaxHP +3%, MaxSP +3%.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Upper^000000
+Weight:^009900 1^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+19136#
+A spirit of Green Maiden that float on your head.
+Adds a chance to transform wearer to Green Maiden for 5 seconds when dealing physical or magical attacks.
+When transforming, increases MATK and Critical damage by 30%.
+Every 2 refine level: Exp gained +1%, drop rate +1%.
+Every 4 refine level: MaxHP +1%, MaxSP +1%.
+Refine level +9: HP regeneration +40%, SP regeneration +40%.
+Refine level +12: MaxHP +3%, MaxSP +3%.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Upper^000000
+Weight:^009900 1^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 19377#
 A marinated beef dish
@@ -95138,7 +95328,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 19937#
-땅의 신성함을 가진 신의 힘이 봉인되어 있는 실크햇.
+A hat with sealed force of false earth god.
 Class:^6666CC Costume^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -98161,8 +98351,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 20344#
-색색가지 풍선에 귀여운 포링이 그려져 있다.
-축제때 들고 다니면 행복한 기분이 될지도?
+Colorful balloons with poring image on it's surface. Kids love to hold these when on festival?
 Class:^6666CC Costume^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -98203,7 +98392,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 20349#
-하늘을 나는데 성공한 갈라파고. 언젠가 자력으로 하늘높이 날수 있기를 꿈꾸고 있다.
+A galapago that have a dream to fly high in the sky.
 Class:^6666CC Costume^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -98873,8 +99062,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 20446#
-빨간색 귀가 달려 있는 부활절 모자. 
-아주 대단해 보인다.
+An easter egg with two red bunny ears.
 Class:^6666CC Costume^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -99024,9 +99212,9 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 20468#
-그들과 하나라는 의미를 가진 가면.
-타 종족에 대한 두려움이 많은 원들에게 다가가기 위해 만들어 졌다.
-…그다지 효과는 없었지만.
+A mask with meaning of they become one.
+It was made to approach other races.
+...very effective
 Class:^6666CC Costume^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper, Middle, Lower^000000
@@ -99043,13 +99231,12 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 20491#
-정밀한 사격을 서포트하는 고성능 레이저 포인터.
-렌즈에는 어느 연구기관의 생체 샘플의 눈동자가 쓰였다는 소문도. 
-개발된 지방에서 사랑받던 이글을 모티브로 하고 있다.
-계열 : ^777777의상장비^000000 방어 : ^7777770^000000
-위치 : ^777777상단 ^000000무게 : ^7777770^000000
-요구 레벨 : ^7777771^000000
-장착 : ^777777전 직업^000000
+A hat with High-performance laser shooter.
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 20500#
 White wings of a holy Archangel.
@@ -99722,7 +99909,8 @@ Jobs:^6666CC All classes^000000
 20781#
 A certified kingdom equipment for adventurer.
 When base level is below 100:
-Exp gained +4%, 2제련당 FLEE +3.
+Exp gained +4%
+Every 2 refine level, FLEE +3.
 Class:^6666CC Garment^000000
 Defense:^0000FF 20^000000
 Weight:^009900 30^000000
@@ -99732,7 +99920,8 @@ Jobs:^6666CC All classes^000000
 20782#
 A certified kingdom equipment for adventurer.
 When base level is below 100:
-Exp gained +4%, 2제련당 SP 소모량 -1%.
+Exp gained +4%
+Every 2 refine level, reduces SP consumption by 1%.
 Class:^6666CC Garment^000000
 Defense:^0000FF 20^000000
 Weight:^009900 30^000000
@@ -99769,9 +99958,10 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 20787#
-모험가를 위한 왕국의 공인장비. 
+A certified kingdom equipment for adventurer.
 When base level is below 100:
-Exp gained +4%, 2제련당 CRIT +2.
+Exp gained +4%
+Every 2 refine level, CRIT +2.
 Class:^6666CC Garment^000000
 Defense:^0000FF 20^000000
 Weight:^009900 30^000000
@@ -99842,100 +100032,108 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 20803#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[힐] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 :^777777 걸칠것^000000 방어 :^777777 30^000000
+A bag made based on Amistr Homunculus.
+All Stats +1.
+Enables use of Level 1 Heal.
+Every 2 refine level, Exp gained +1%, Drop rate +1%. 
+Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks. 
+Refine level +12�, allow uninterruptible skill cast.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
 Weight:^009900 20^000000
-요구 레벨 :^777777 1^000000
-장착 :^777777 전 직업^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 20804#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[탐욕] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 :^777777 걸칠것^000000 방어 :^777777 30^000000
+A bag made based on Amistr Homunculus.
+All Stats +1.
+Enables use of Level 1 Greed.
+Every 2 refine level, Exp gained +1%, Drop rate +1%. 
+Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks. 
+Refine level +12�, allow uninterruptible skill cast.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
 Weight:^009900 20^000000
-요구 레벨 :^777777 1^000000
-장착 :^777777 전 직업^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 20805#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[민첩성 증가] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 :^777777 걸칠것^000000 방어 :^777777 30^000000
+A bag made based on Amistr Homunculus.
+All Stats +1.
+Enables use of Level 1 Increase Agi.
+Every 2 refine level, Exp gained +1%, Drop rate +1%. 
+Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks. 
+Refine level +12�, allow uninterruptible skill cast.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
 Weight:^009900 20^000000
-요구 레벨 :^777777 1^000000
-장착 :^777777 전 직업^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 20806#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[매그넘 브레이크] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 :^777777 걸칠것^000000 방어 :^777777 30^000000
+A bag made based on Amistr Homunculus.
+All Stats +1.
+Enables use of Level 1 Magnum Break.
+Every 2 refine level, Exp gained +1%, Drop rate +1%. 
+Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks. 
+Refine level +12�, allow uninterruptible skill cast.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
 Weight:^009900 20^000000
-요구 레벨 :^777777 1^000000
-장착 :^777777 전 직업^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 20807#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[인듀어] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 :^777777 걸칠것^000000 방어 :^777777 30^000000
+A bag made based on Amistr Homunculus.
+All Stats +1.
+Enables use of Level 1 Endure.
+Every 2 refine level, Exp gained +1%, Drop rate +1%. 
+Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks. 
+Refine level +12�, allow uninterruptible skill cast.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
 Weight:^009900 20^000000
-요구 레벨 :^777777 1^000000
-장착 :^777777 전 직업^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 20808#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[사이트] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 :^777777 걸칠것^000000 방어 :^777777 30^000000
+A bag made based on Amistr Homunculus.
+All Stats +1.
+Enables use of Level 1 Sight.
+Every 2 refine level, Exp gained +1%, Drop rate +1%. 
+Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks. 
+Refine level +12�, allow uninterruptible skill cast.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
 Weight:^009900 20^000000
-요구 레벨 :^777777 1^000000
-장착 :^777777 전 직업^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 20809#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[집중력 향상] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 :^777777 걸칠것^000000 방어 :^777777 30^000000
+A bag made based on Amistr Homunculus.
+All Stats +1.
+Enables use of Level 1 Improve Concentration.
+Every 2 refine level, Exp gained +1%, Drop rate +1%. 
+Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks. 
+Refine level +12�, allow uninterruptible skill cast.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
 Weight:^009900 20^000000
-요구 레벨 :^777777 1^000000
-장착 :^777777 전 직업^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 20811#
-호문클루스 '아미스트르'를 본따 만든 가방.
-ALL Status + 1.
-[하이딩] 1Lv 사용가능.
-2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. 
-9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. 
-12제련시, 캐스팅이 끊기지 않는다.
-계열 :^777777 걸칠것^000000 방어 :^777777 30^000000
+A bag made based on Amistr Homunculus.
+All Stats +1.
+Enables use of Level 1 Hiding.
+Every 2 refine level, Exp gained +1%, Drop rate +1%. 
+Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks. 
+Refine level +12�, allow uninterruptible skill cast.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
 Weight:^009900 20^000000
-요구 레벨 :^777777 1^000000
-장착 :^777777 전 직업^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 21000#
 TwoHanded Sword that is coated by Oridecon and Gold with perfect level.
@@ -100765,24 +100963,28 @@ Level Requirement:^009900 10^000000
 Jobs:^6666CC All classes^000000
 #
 22101#
-아크엔젤링 장식이 붙어있는 파란 색의 부츠.
-조합하는 돌의 종류에 따라 능력이 추가된다.
+A blue boots decorated with Angelring model.
+Allows gain ability according attached Stone enchantment.
 All stats +1
-[힐] Lv.1 사용 가능.
-계열 :^777777 신발^000000
+Enables use of Level 1 Heal.
+Class:^6666CC Footgear^000000
 Defense:^0000FF 15^000000
 Weight:^009900 30^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 22102#
-기존 시간의 수호자 로브에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.
-HP +500, SP +100, MDEF +4, 변동캐스팅 5% 감소. HP, SP 자연회복 속도 15% 증가
-
-계열 :^777777 신발^000000 방어 :^777777 23^000000
-무게 :^777777 0^000000
-요구 레벨 :^777777 100^000000
-장착 :^777777 전 직업^000000
+A time keeper boots enhanced with mixed Elunium and Emperium.
+MaxHP +500
+MaxSP +100
+MDEF +4
+Reduces variable cast time by 5%.
+Increases HP and SP regeneration by 15%.
+Class:^6666CC Footgear^000000
+Defense:^0000FF 23^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC All classes^000000
 #
 22507#
 This old, discolored scroll, sustained with the mana used for maintaining distorted spaces, sends its user to a random space.
@@ -102669,6 +102871,23 @@ Safe to 11 Weapon Certificate,
 Pet Exhange Coupon Box,
 3rd class Shadow Equipment.
 Weight:^009900 1^000000
+#
+23119#
+기간 한정 영혼의 스크롤. 
+무기 11제련 상품권, 방어구 11제련 상품권, 청이의 영혼, 영혼의 뚫어뻥, 봉인된 모자 상자 III, 대장장이의 축복등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. 
+무게 : ^7777771^000000
+#
+23120#
+예쁘게 포장되어 있는 하늘색 상자.
+다음의 아이템중 1개가 들어있습니다. 
+――――――――――――― 
+이프리트의 귀
+사만바이아
+그리폰 모자
+토끼 보닛
+오색 깃털 장식
+――――――――――――― 
+무게 : ^77777720^000000
 #
 24000#
 An armor worn on top of normal armor for additional defense.
@@ -106513,226 +106732,214 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 24282#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.
-노비스 계열만 착용할 수 있다.
---------------------------
+A glove that can draw the wearer's potential ability.
 MaxHP +1000, MaxSP +200
-[한손검 수련] 스킬 레벨 1당 일반 몬스터의 물리 방어력 3% 무시.
-[SP회복력 향상] 스킬 레벨 1당 일반 몬스터의 마법 방어력 3% 무시.
-제련도 1당 일반 몬스터의 물리, 마법 방어력 3% 무시.
-7제련 시, MaxHP +5%, MaxSP +5%
-9제련 시, MaxHP +5%, MaxSP +5%, SP 회복력 +100%
-계열 :^777777 쉐도우 장비^000000
-Location:^6666CC 웨폰^000000
+Every learned skill level of [One-Handed Sword Mastery], ignore physical defense of Normal monsters by 3%.
+Every learned skill level of [Increase SP Recovery], ignore magical defense of Normal monsters by 3%.
+Every refine level, increases rate of ignored physical and magical defense by 3%.
+Refine level +7: MaxHP +5%, MaxSP +5%
+Refine level +9: MaxHP +5%, MaxSP +5%, SP regeneration +100%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC 노비스 계열^000000
+Jobs:^6666CC Novice^000000
 #
 24283#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.
-건슬링거 계열만 착용할 수 있다.
---------------------------
+A glove that can draw the wearer's potential ability.
 ASPD +1
-[스네이크 아이] 스킬 레벨 1당 일반 몬스터의 물리 방어력 3% 무시.
-제련도 1당 일반 몬스터의 물리 방어력 3% 무시.
-7제련 시 ASPD +1 추가, 원거리물리공격력 3% 추가
-9제련 시 ASPD +1 추가, 원거리물리공격력 5% 추가
-계열 :^777777 쉐도우 장비^000000
-Location:^6666CC 웨폰^000000
+Every learned skill level of [Snake Eyes], ignore physical defense of Normal monsters by 3%.
+Every refine level, increases rate of ignored physical defense by 3%.
+Refine level +7: ASPD +1, Long range physical attacks +3%.
+Refine level +9: ASPD +1 Long range physical attacks +5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC 건슬링거 계열^000000
+Jobs:^6666CC Gunslinger^000000
 #
 24284#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.
-태권 계열만 착용할 수 있다.
---------------------------
+A glove that can draw the wearer's potential ability.
 ASPD +1
-제련도 1당 ATK & MATK 1% 추가
-7제련 시 ASPD +1 추가, MaxHP +1000, MaxSP +200.
-9제련 시 ASPD +1 추가, MaxHP +10%, MaxSP +10%
-계열 :^777777 쉐도우 장비^000000
-Location:^6666CC 웨폰^000000
+Every refine level: ATK and MATK +1%.
+Refine level +7: ASPD +1, MaxHP +1000, MaxSP +200.
+Refine level +9: ASPD +1, MaxHP +10%, MaxSP +10%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC 태권 계열^000000
+Jobs:^6666CC Taekwondo Boy/Girl^000000
 #
 24285#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.
-닌자 계열만 착용할 수 있다.
---------------------------
-ATK & MATK +3%
-[폭발쿠나이] 스킬 쿨 타임 2초 감소.
-[인법수련]의 레벨 1당 MATK +3
-7제련 시 ATK & MATK +3% 추가
-9제련 시 ATK & MATK +4% 추가
-계열 :^777777 쉐도우 장비^000000
-Location:^6666CC 웨폰^000000
+A glove that can draw the wearer's potential ability.
+ATK and MATK +3%
+Reduces skill cooldown of [Explosive Kunai] by 2 seconds.
+Every learned skill level of [Ninja Mastery], increase MATK by 3.
+Refine level +7: ATK and MATK +3%.
+Refine level +9: ATK and MATK +4%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC 닌자 계열^000000
+Jobs:^6666CC Ninja^000000
 #
 24286#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.
-도람족만 착용할 수 있다.
---------------------------
-변동 캐스팅 시간 5% 감소
-제련도 1당 변동 캐스팅 시간 1% 추가 감소
-[대지의 힘] 을 배웠을 시 고정캐스팅 0.1초 감소
-[바다의 힘] 을 배웠을 시 스킬 사용 시, SP 소모량 3% 감소
-7제련 이상 시, MATK +5%
-9제련 이상 시, MATK +5% 추가
-계열 :^777777 쉐도우 장비^000000
-Location:^6666CC 웨폰^000000
+A glove that can draw the wearer's potential ability.
+Reduces variable cast time by 5%.
+Every refine level reduces variable cast time by 1%.
+If skill Power of Land is learned, decreases fixed cast time by 0.1.
+If skill Power of Sea is learned, decreases fixed cast time by 0.1 and reduces SP constumption by 3%.
+Refine level +7: MATK +5%.
+Refine level +9: MATK +5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC 도람족^000000
+Jobs:^6666CC Doram race^000000
 #
 24287#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑.
-도람족만 착용할 수 있다.
---------------------------
-제련도 1당 원거리 물리 공격력 1% 증가.
-[생명의 힘] 을 배웠을 시 ASPD +1.
-7제련 이상 시, 완전회피 +2.
-9제련 이상 시, 완전회피 +3 추가.
-계열 :^777777 쉐도우 장비^000000
-Location:^6666CC 웨폰^000000
+A glove that can draw the wearer's potential ability.
+Every refine level increases long range pyhsical attacks by 1%.
+When Power of Life is learned, increases ASPD by 1.
+Refine level +7: Perfect Dodge +2.
+Refine level +9: Perfect Dodge +3.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC 도람족^000000
+Jobs:^6666CC Doram race^000000
 #
 24288#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-룬나이트 계열만 착용할 수 있다. 
-소닉웨이브 데미지 20% 증가.
-제련도 1당 소닉웨이브 데미지 5% 추가.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 룬나이트 계열^000000
+A glove that can draw the wearer's potential ability.
+Increases Sonic Wave damage by 20%.
+Every refine level increases Sonic Wave damage by 5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Rune Knight^000000
 #
 24289#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-로얄가드 계열만 착용할 수 있다. 
-캐논 스피어 데미지 20% 증가.
-제련도 1당 캐논 스피어 데미지 5% 추가.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 로얄가드 계열^000000
+A glove that can draw the wearer's potential ability.
+Increases Cannon Spear damage by 20%.
+Every refine level increases Cannon Spear damage by 5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Royal Guard^000000
 #
 24290#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-미케닉 계열만 착용할 수 있다. 
-발칸 암 데미지 20% 증가.
-제련도 1당 발칸 암 데미지 5% 추가.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 미케닉 계열^000000
+A glove that can draw the wearer's potential ability.
+Increases Vulcan Arms damage by 20%.
+Every refine level increases Vulcan Arms damage by 5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Mechanic^000000
 #
 24291#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-제네릭 계열만 착용할 수 있다. 
-카트 토네이도 데미지 20% 증가.
-제련도 1당 카트 토네이도 데미지 5% 추가.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 제네릭 계열^000000
+A glove that can draw the wearer's potential ability.
+Increases Cart Tornado damage by 20%.
+Every refine level increases Cart Tornado damage by 5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Geneticist^000000
 #
 24292#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-아크비숍 계열만 착용할 수 있다. 
-듀플레 라이트 데미지 20% 증가.
-제련도 1당 듀플레 라이트 데미지 5% 추가.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 아크비숍 계열^000000
+A glove that can draw the wearer's potential ability.
+Increases Duple Light damage by 20%.
+Every refine level increases Duple Light damage by 5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Arcbishop^000000
 #
 24293#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-수라 계열만 착용할 수 있다. 
-폭기산탄 쿨타임 2초 감소.
-제련도 1당 폭기산탄 쿨타임 0.5초 추가 감소.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 수라 계열^000000
+A glove that can draw the wearer's potential ability.
+Reduces Rampage Blaster cooldown time by 2 seconds.
+Every refine level reduces Rampage Blaster cooldown time by 0.5 seconds.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Sura^000000
 #
 24294#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-길로틴크로스 계열만 착용할 수 있다. 
-다크 일루젼 SP 소모량 20% 감소. 
-제련도 1당 다크 일루젼 SP 소모량 3% 추가 감소.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 길로틴크로스 계열^000000
+A glove that can draw the wearer's potential ability.
+Reduces Dark Illusion SP consumption by 20%.
+Every refine level reduces Dark Illusion SP consumption by 3%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Guillotine Cross^000000
 #
 24295#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-쉐도우체이서 계열만 착용할 수 있다. 
-트라이앵글 샷 데미지 20% 증가.
-제련도 1당 트라이앵글 샷 데미지 5% 추가.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 쉐도우체이서 계열^000000
+A glove that can draw the wearer's potential ability.
+Increases Triangle Shot damage by 20%.
+Every refine level increases Triangle Shot damage by 5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Shadow Chaser^000000
 #
 24296#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-워록 계열만 착용할 수 있다. 
-드레인 라이프 데미지 20% 증가.
-제련도 1당 드레인 라이프 데미지 5% 추가.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 워록 계열^000000
+A glove that can draw the wearer's potential ability.
+Increases Drain Life damage by 20%.
+Every refine level increases Drain Life damage by 5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Warlock^000000
 #
 24297#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-소서러 계열만 착용할 수 있다. 
-다이아몬드 더스트의 쿨타임 1초 감소.
-제련도 1당 다이아몬드 더스트의 쿨타임 0.3초 추가 감소.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 소서러 계열^000000
+A glove that can draw the wearer's potential ability.
+Reduces Diamond Dust cooldown time by 1 seconds.
+Every refine level increases Diamond Dust cooldown time by 0.3 seconds.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Sorcerer^000000
 #
 24298#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-레인져 계열만 착용할 수 있다. 
-클러스터 봄 데미지 20% 증가.
-제련도 1당 클러스터 봄 데미지 5% 추가.
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 레인져 계열^000000
+A glove that can draw the wearer's potential ability.
+Increases Cluster Bomb damage by 20%.
+Every refine level increases Cluster Bomb damage by 5%.
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Ranger^000000
 #
 24299#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-민스트럴 계열만 착용할 수 있다. 
-MaxHP + 3%.
-제련도와 민스트럴 전용 연주 스킬에 사용한 스킬 포인트를 곱한 값만큼 DEF 가 상승한다.
-^ff0000메아리의 노래, 하모나이즈, 풍차를 향해 돌격^000000
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 민스트럴 계열^000000
+A glove that can draw the wearer's potential ability.
+MaxHP +3%
+Increases DEF based on refine level, multiplied with Minstrel's exclusive skills.
+^ff0000Echo Song, Harmonize and Windmill Rush^000000
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Minstrel^000000
 #
 24300#
-무기를 착용하는 손에 장착하여 착용자의 잠재적인 능력을 이끌어내는 장갑. 
-원더러 계열만 착용할 수 있다. 
-MaxHP + 3%.
-제련도와 원더러 전용 춤 스킬에 사용한 스킬 포인트를 곱한 값만큼 DEF 가 상승한다.
-^ff0000달빛의 세레나데, 스윙 댄스, 연인들을 위한 심포니^000000
-계열 :^777777 쉐도우 장비^000000
-위치 :^777777 웨폰^000000 무게 :^777777 0^000000
-요구 레벨 :^777777 99^000000
-장착 :^777777 원더러 계열^000000
+A glove that can draw the wearer's potential ability.
+MaxHP +3%
+Increases DEF based on refine level, multiplied with Wanderer's exclusive skills.
+^ff0000Moonlight Serenade, Swing Dance and Symphony of Lover^000000
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 99^000000
+Jobs:^6666CC Wanderer^000000
 #
 24301#
 A small shield worn on the arm for additional defense.
@@ -106741,12 +106948,13 @@ When using Enchant Blade, increases % ASPD based of refine level for 50 sec.
 Refine level +7: When using Enchant Blade, increases ASPD by 1 for 50 sec.
 Refine level +9: When using Enchant Blade, further increases ASPD by 1 for 50 sec.
 --------------------------
-^32CD32룬나이트 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-소닉웨이브 SP 소모량 20% 감소, 물리공격 시 일정 확률로 이그니션 브레이크 3Lv 발동.
++^32CD32Rune Knight Shadow Weapon^000000
+Reduces Sonic Wave SP consumption by 20%
+Adds a chance to auto cast Level 3 Ignition Break when dealing physical attacks.
 --------------------------
-^32CD32소드맨 쉐도우^000000 2종, ^32CD32나이트 쉐도우^000000 2종,  ^32CD32룬나이트 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Swordman Shadow^000000 2pcs, ^32CD32Knight Shadow^000000 2pcs or ^32CD32Rune Knight^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106756,15 +106964,16 @@ Jobs:^6666CC Rune Knight^000000
 24302#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-어스 드라이브 데미지 20% 증가.
-제련도 1당 어스 드라이브 데미지 5% 추가. 
+Increases Earth Drive damage by 20%.
+Every refine level increase Earth Drive damage by 5%.
 --------------------------
-^32CD32로얄가드 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-캐논 스피어 SP 소모량 20% 감소, 케미칼 프로텍션(쉴드) Lv.3 사용 가능.
++^32CD32Royal Guard Shadow Weapon^000000
+Reduces Cannon Spear SP consumption by 20%
+Enables use of Level 3 Chemical Protection Shield.
 --------------------------
-^32CD32소드맨 쉐도우^000000 2종, ^32CD32크루세이더 쉐도우^000000 2종,  ^32CD32로얄가드 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Swordman Shadow^000000 2pcs, ^32CD32Crusader Shadow^000000 2pcs or ^32CD32Royal Guard Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106774,15 +106983,16 @@ Jobs:^6666CC Royal Guard^000000
 24303#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-플레어 런쳐 데미지 20%증가.
-제련도 1당 플레어 런쳐 데미지 5% 추가.
+Increases Flame Launcher damage by 20%.
+Every refine level increases Flame Launcher by 5%.
 --------------------------
-^32CD32미케닉 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-발칸 암 데미지 20%증가, 플레어 런쳐의 SP 소모량 20% 감소
++^32CD32Mechanic Shadow Weapon^000000
+Increases Vulcan Arms damage by 20%.
+Reduces Flame Launcher SP consumption by 20%.
 --------------------------
-^32CD32머천트 쉐도우^000000 2종, ^32CD32블랙스미스 쉐도우^000000 2종,  ^32CD32미케닉 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Merchant Shadow^000000 2pcs, ^32CD32Blacksmith Shadow^000000 2pcs or ^32CD32Mechanic Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106792,34 +107002,37 @@ Jobs:^6666CC Mechanic^000000
 24304#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-MaxHP + 3%.
-제련도와 제네릭 카트 관련 액티브 스킬에 사용한 스킬 포인트를 곱한 값만큼 DEF 가 상승한다.
-^ff0000카트 토네이도, 카트 캐논, 카트 부스트^000000
+MaxHP +3%.
+Increases DEF based on refine level, multiplied with Geneticist's cart related skills.
+^ff0000Cary Tornado, Cart Cannon and Cart Boost^000000
 --------------------------
-^32CD32제네릭 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-카트 토네이도 스킬 쿨타임 1초 감소, MaxHP + 2%, 카트 부스트 변동 캐스팅 시간 100% 감소.
++^32CD32Genetic Shadow Weapon^000000
+Reduces Cary Tornado cool down by 1 second.
+MaxHP +2%
+Reduces Cart Boost variable cast time by 100%.
 --------------------------
-^32CD32머천트 쉐도우^000000 2종, ^32CD32알케미스트 쉐도우^000000 2종,  ^32CD32제네릭 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Merchant Shadow^000000 2pcs, ^32CD32Alchemist Shadow^000000 2pcs or ^32CD32Genetic Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 99^000000
-Jobs:^6666CC Genetic^000000
+Jobs:^6666CC Geneticist^000000
 #
 24305#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-아도라무스 데미지 20% 증가.
-제련도 1당 아도라무스 데미지 5% 추가. 
+Increases Adoramus damage by 20%.
+Every refine level increases Adoramus damage by 5%.
 --------------------------
-^32CD32아크비숍 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-듀플레 라이트 데미지 20% 증가, 아도라무스 스킬 쿨타임 1초 감소.
++^32CD32Archbishop Shadow Weapon^000000
+Increases Duple Light damage by 20%.
+Reduces Adoramus cool down by 1 second.
 --------------------------
-^32CD32어콜라이트 쉐도우^000000 2종, ^32CD32프리스트 쉐도우^000000 2종,  ^32CD32아크비숍 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Acolyte Shadow^000000 2pcs, ^32CD32Priest Shadow^000000 2pcs or ^32CD32Archbishop Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106829,15 +107042,16 @@ Jobs:^6666CC Archbishop^000000
 24306#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-천라지망 데미지 20% 증가. 
-제련도 1당 천라지망 데미지 5% 추가. 
+Increases Sky Net Blow damage by 20%.
+Every refine level increases Sky Net Blow damage by 5%.
 --------------------------
-^32CD32수라 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-폭기산탄 데미지 20% 증가, 천라지망 SP 소모량 20% 감소. 
++^32CD32Sura Shadow Weapon^000000
+Increases Rampage Blaster damage by 20%.
+Reduces Sky Net Blow SP consumption by 20%.
 --------------------------
-^32CD32어콜라이트 쉐도우^000000 2종, ^32CD32몽크 쉐도우^000000 2종,  ^32CD32수라 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Acolyte Shadow^000000 2pcs, ^32CD32Monk Shadow^000000 2pcs or ^32CD32Sura Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106847,15 +107061,16 @@ Jobs:^6666CC Sura^000000
 24307#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-검은 손톱의 쿨타임 10초 감소.
-제련도 1당 검은 손톱의 쿨타임 2초 추가 감소.
+Reduces Dark Claw cool down by 10 second.
+Every refine level reduces Dark Claw cool down by 2 second.
 --------------------------
-^32CD32길로틴크로스 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-다크 일루젼 데미지 20% 증가, 물리공격 시 일정 확률로 검은 손톱 1Lv 발동.
++^32CD32Guillotine Cross Shadow Weapon^000000
+Increases Dark Illusion damage by 20%
+Adds a chance to auto cast Level 1 Dark Claw when dealing physical attacks.
 --------------------------
-^32CD32씨프 쉐도우^000000 2종, ^32CD32어쌔신 쉐도우^000000 2종,  ^32CD32길로틴크로스 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Thief Shadow^000000 2pcs, ^32CD32Assassin Shadow^000000 2pcs or ^32CD32Guillotine Cross Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106865,16 +107080,18 @@ Jobs:^6666CC Guillotine Cross^000000
 24308#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-오토 섀도우 스펠 스킬 사용 시, 50초 동안 공격속도 제련도 % 만큼 증가. 
-제련도 7 이상시, 오토 섀도우 스펠 스킬 사용시 50초 동안 ASPD + 1 증가. 
-제련도 9 이상시, 오토 섀도우 스펠 스킬 사용시 50초 동안 ASPD + 1 추가 증가.
+When using Auto Shadow Spell, for 50 seconds increase ASPD rate based on refine level.
+Refine level +7: when using Auto Shadow Spell, for 50 seconds increase ASPD by 1. 
+Refine level +9: when using Auto Shadow Spell, for 50 seconds increase ASPD by 1. 
 --------------------------
-^32CD32쉐도우체이서 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-트라이앵글 샷 데미지 20% 증가, ATK + 2%, MATK + 2%, 원거리 데미지 2% 증가.
++^32CD32Shadow Chaser Shadow Weapon^000000
+Increases Triangle Shot damage by 20%.
+ATK +2%, MATK +2%
+Increases Long range physical attacks by 2%.
 --------------------------
-^32CD32씨프 쉐도우^000000 2종, ^32CD32로그 쉐도우^000000 2종,  ^32CD32쉐도우체이서 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Thief Shadow^000000 2pcs, ^32CD32Rogue Shadow^000000 2pcs or ^32CD32Shadow Chaser Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106884,15 +107101,16 @@ Jobs:^6666CC Shadow Chaser^000000
 24309#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-어스 스트레인 데미지 20% 증가. 
-제련도 1당 어스 스트레인 데미지 5% 추가. 
+Increases Earth Strain damage by 20%.
+Every refine level increases Earth Strain damage by 5%.
 --------------------------
-^32CD32워록 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-드레인 라이프 쿨타임 1초 감소, 어스 스트레인 쿨타임 4초 감소.
++^32CD32Warlock Shadow^000000
+Reduces Life Drain cooldown by 1 second.
+Reduces Earth Strain cooldown by 4 second.
 --------------------------
-^32CD32매지션 쉐도우^000000 2종, ^32CD32위저드 쉐도우^000000 2종,  ^32CD32워록 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Mage Shadow^000000 2pcs, ^32CD32Wizard Shadow^000000 2pcs or ^32CD32Warlock Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106902,15 +107120,15 @@ Jobs:^6666CC Warlock^000000
 24310#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-어스 그레이브의 쿨타임 1초 감소.
-제련도 1당 어스 그레이브의 쿨타임 0.3초 추가 감소.
+Reduces Earth Grave cool down by 1 second.
+Every refine level reduces Earth Grave cool down by 0.3 second.
 --------------------------
-^32CD32소서러 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-다이아몬드 더스트와 어스 그레이브의 데미지 20% 증가.
++^32CD32Sorcerer Shadow Weapon^000000
+Increases Earth Grave and Diamond Dust damage by 20%.
 --------------------------
-^32CD32매지션 쉐도우^000000 2종, ^32CD32세이지 쉐도우^000000 2종,  ^32CD32소서러 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Mage Shadow^000000 2pcs, ^32CD32Sage Shadow^000000 2pcs or ^32CD32Sorcerer Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106920,15 +107138,15 @@ Jobs:^6666CC Sorcerer^000000
 24311#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-에임드 볼트 SP 소모량 20% 감소.
-제련도 1당 에임드 볼트 SP 소모량 5% 추가 감소.
+Reduces Aimed Bolt SP consumption by 20%.
+Every refine level reduces Aimed Bolt SP consumption by 5%.
 --------------------------
-^32CD32레인져 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-에임드 볼트 데미지 20% 증가, 클러스터 봄 데미지 20% 증가.
++^32CD32Ranger Shadow Weapon^000000
+Increases Cluster Bomb and Aimed Bolt damage by 20%.
 --------------------------
-^32CD32아쳐 쉐도우^000000 2종, ^32CD32헌터 쉐도우^000000 2종,  ^32CD32레인져 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Archer Shadow^000000 2pcs, ^32CD32Hunter Shadow^000000 2pcs or ^32CD32Ranger Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106938,16 +107156,18 @@ Jobs:^6666CC Ranger^000000
 24312#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-MaxSP + 3%.
-제련도 1당 민스트럴 전용 노래 스킬에 사용한 스킬 포인트 5마다 MDEF + 1.
-^ff0000메아리의 노래, 하모나이즈, 풍차를 향해 돌격^000000
+MaxSP +3%.
+Increases MDEF based on refine level, for every 5 level of Minstrel's exclusive skills.
+^ff0000Echo Song, Harmonize and Windmill Rush^000000
 --------------------------
-^32CD32민스트럴 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-MaxHP + 2%, MaxSP + 2%, ^ff0000레슨^000000 스킬 레벨 2당 원거리 데미지 1% 증가. 
++^32CD32Minstrel Shadow Weapon^000000
+MaxHP +2%
+MaxSP +2%
+Every 2 learned level of ^ff0000Lesson^000000, increases long range physical attacks by 1%.
 --------------------------
-^32CD32아쳐 쉐도우^000000 2종, ^32CD32바드 쉐도우^000000 2종,  ^32CD32민스트럴 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Archer Shadow^000000 2pcs, ^32CD32Bard Shadow^000000 2pcs or ^32CD32Minstrel Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -106957,16 +107177,18 @@ Jobs:^6666CC Minstrel^000000
 24313#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-MaxSP + 3%. 
-제련도 1당 원더러 전용 춤 스킬에 사용한 스킬 포인트 5마다 MDEF + 1. 
-^ff0000달빛의 세레나데, 스윙 댄스, 연인들을 위한 심포니^000000
+MaxSP +3%. 
+Increases MDEF based on refine level, for every 5 level of Wanderer's exclusive skills.
+^ff0000Moonlight Serenade, Swing Dance and Symphony of Lover^000000
 --------------------------
-^32CD32원더러 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.
-MaxHP + 2%, MaxSP + 2%, ^ff0000레슨^000000 스킬 레벨 2당 원거리 데미지 1% 증가.
++^32CD32Wanderer Shadow Weapon^000000
+MaxHP +2%
+MaxSP +2%
+Every 2 learned level of ^ff0000Lesson^000000, increases long range physical attacks by 1%.
 --------------------------
-^32CD32아쳐 쉐도우^000000 2종, ^32CD32댄서 쉐도우^000000 2종,  ^32CD32원더러 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.
-All State + 10, MaxHP + 5%, MaxSP + 5%.
-일반 몬스터의 물리 및 마법 방어력 50% 무시.
+When equipped with any combination of ^32CD32Archer Shadow^000000 2pcs, ^32CD32Dancer Shadow^000000 2pcs or ^32CD32Wanderer Shadow^000000 2pcs.
+All Stats +10, MaxHP +5%, MaxSP +5%.
+Ignore physical and magical defense of Normal monsters by 50%.
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^009900 0^000000
@@ -107130,7 +107352,7 @@ Weight:^009900 0^000000
 Weight:^009900 0^000000
 #
 25041#
-중단 및 중하단 투구 아이템에 소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.
+투구 아이템에 소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.
 다음의 아이템에 소켓을 뚫을 수 있다.
 ――――――――――――― 
 사이그룬의 Wing
@@ -107143,6 +107365,11 @@ Weight:^009900 0^000000
 하트파운데이션
 스핀 글래스
 스마일
+이프리트의 귀
+병아리 모자
+대형 마제스틱 고우트
+나비 가면
+청이의 영혼
 ――――――――――――― 
 성공확률은 25%이며, 실패시 시도한 투구 아이템도 함께 사라진다.
 ^ffffff<NAVI>^4D4DFF[피어싱 장인]^000000<INFO>itemmall,18,66,0,100,0,0</INFO></NAVI>^000000
@@ -107828,8 +108055,8 @@ Weight:^009900 10^000000
 Weight:^009900 10^000000
 #
 25178#
-중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
-^ff0000핑크 글로우^000000
+Gives Pink Glow effect when inserted on costume's 4th slot.
+^ff0000Pink Glow^000000
 ^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
@@ -107869,7 +108096,7 @@ An old pendant. It has portrait of man and woman.
 Weight:^009900 0^000000
 #
 25188#
-소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.
+Sohee's Handkerchief. It's gives pleasant feeling when you touch it.
 Weight:^009900 0^000000
 #
 26000#

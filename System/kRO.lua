@@ -877,28 +877,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[13330] = {
-		unidentifiedDisplayName = "풍마수리검",
-		unidentifiedResourceName = "풍마_편익",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "강화된 메탈 풍마수리검",
-		identifiedResourceName = "메탈풍마수리검",
-		identifiedDescriptionName = {
-			"기존 메탈 풍마수리검에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 풍마수리검.",
-			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
-			"풍마수리검 난화 데미지 10% 증가.",
-			"제련도 1당 ATK +7 / MATK +5 증가.",
-			"제련도 2당 원거리 물리 공격력 2% 증가.",
-			"BaseLv이 10상승할때마다 ATK +5 / MATK +3씩 추가 증가(증가량은 BaseLv 150까지 적용)",
-			"계열 :^777777 풍마 수리검^000000 공격 :^777777 75^000000",
-			"무게 :^777777 0^000000",
-			"무기 레벨 :^777777 3^000000",
-			"요구 레벨 :^777777 100^000000",
-			"장착 :^777777 닌자 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 22
-	},
 	[14780] = {
 		unidentifiedDisplayName = "Soul Plunger Scroll",
 		unidentifiedResourceName = "아리부타스크롤",
@@ -1702,27 +1680,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[13132] = {
-		unidentifiedDisplayName = "리볼버",
-		unidentifiedResourceName = "식스슈터",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "강화된 메탈 리볼버",
-		identifiedResourceName = "메탈리볼버",
-		identifiedDescriptionName = {
-			"기존 메탈 리볼버에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 리볼버.",
-			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
-			"파이어 댄스 데미지 10% 증가.",
-			"제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.",
-			"BaseLv이 10상승할때마다 ATK +5씩 추가 증가(증가량은 BaseLv 150까지 적용)",
-			"계열 :^777777 권총^000000 공격 :^777777 55^000000",
-			"무게 :^777777 0^000000",
-			"무기 레벨 :^777777 3^000000",
-			"요구 레벨 :^777777 100^000000",
-			"장착 :^777777 건너 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 17
-	},
 	[13680] = {
 		unidentifiedDisplayName = "블러드 액스 상자",
 		unidentifiedResourceName = "오래된보라상자",
@@ -2385,32 +2342,11 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[16054] = {
-		unidentifiedDisplayName = "둔기",
-		unidentifiedResourceName = "클럽",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "강화된 메탈 메이스",
-		identifiedResourceName = "메탈메이스",
-		identifiedDescriptionName = {
-			"기존 메탈 메이스에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 메이스.",
-			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
-			"천라지망, 카트캐논 데미지 10% 증가.",
-			"제련도 1당 ATK +7 증가.",
-			"BaseLv이 10상승할때마다 ATK +7씩 추가 증가(증가량은 BaseLv 150까지 적용)",
-			"계열 :^777777 둔기^000000 공격 :^777777 105^000000",
-			"무게 :^777777 0^000000",
-			"무기 레벨 :^777777 3^000000",
-			"요구 레벨 :^777777 100^000000",
-			"장착 :^777777 노비스/검사계열/복사계열/상인계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 8
-	},
 	[16385] = {
-		unidentifiedDisplayName = "입에 문 네잎클로버 상자Ⅱ",
+		unidentifiedDisplayName = "Leaf Clover in Mount Box II",
 		unidentifiedResourceName = "캐시상자_녹색",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "입에 문 네잎클로버 상자Ⅱ",
+		identifiedDisplayName = "Leaf Clover in Mount Box II",
 		identifiedResourceName = "캐시상자_녹색",
 		identifiedDescriptionName = {
 			"입에 문 네잎클로버가 1개 들어있는 상자. 2시간 사용가능.",
@@ -2431,10 +2367,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16573] = {
-		unidentifiedDisplayName = "해골 후드 상자",
+		unidentifiedDisplayName = "Skull Hood Box",
 		unidentifiedResourceName = "캐시상자_검정",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "해골 후드 상자",
+		identifiedDisplayName = "Skull Hood Box",
 		identifiedResourceName = "캐시상자_검정",
 		identifiedDescriptionName = {
 			"해골 후드가 1개 들어있는 상자.",
@@ -2454,10 +2390,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16574] = {
-		unidentifiedDisplayName = "해골 후드 상자",
+		unidentifiedDisplayName = "Skull Hood Box",
 		unidentifiedResourceName = "캐시상자_검정",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "해골 후드 상자",
+		identifiedDisplayName = "Skull Hood Box",
 		identifiedResourceName = "캐시상자_검정",
 		identifiedDescriptionName = {
 			"해골 후드가 1개 들어있는 상자.",
@@ -2477,10 +2413,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16580] = {
-		unidentifiedDisplayName = "라크마 상자",
+		unidentifiedDisplayName = "Lacma Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "라크마 상자",
+		identifiedDisplayName = "Lacma Box",
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
 			"단검 라크마가 1개 들어있는 상자.",
@@ -2506,10 +2442,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16581] = {
-		unidentifiedDisplayName = "라크마 상자",
+		unidentifiedDisplayName = "Lacma Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "라크마 상자",
+		identifiedDisplayName = "Lacma Box",
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
 			"단검 라크마가 1개 들어있는 상자.",
@@ -2535,80 +2471,105 @@ tbl = {
 		ClassNum = 0
 	},
 	[16584] = {
-		unidentifiedDisplayName = "나무늘보 모자 상자",
+		unidentifiedDisplayName = "Sloth Hat Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "나무늘보 모자 상자",
+		identifiedDisplayName = "Sloth Hat Box",
 		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = { "나무늘보 모자가 1개 들어있는 상자.", "^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000", "Weight:^009900 1^000000" },
+		identifiedDescriptionName = {
+			"나무늘보 모자가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[16585] = {
-		unidentifiedDisplayName = "나무늘보 모자 상자",
+		unidentifiedDisplayName = "Sloth Hat Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "나무늘보 모자 상자",
+		identifiedDisplayName = "Sloth Hat Box",
 		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = { "나무늘보 모자가 1개 들어있는 상자.", "^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000", "Weight:^009900 1^000000" },
+		identifiedDescriptionName = {
+			"나무늘보 모자가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[16586] = {
-		unidentifiedDisplayName = "두네이르 투구 상자",
+		unidentifiedDisplayName = "Duneyrr Hat Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "두네이르 투구 상자",
+		identifiedDisplayName = "Duneyrr Hat Box",
 		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = { "두네이르 투구가 1개 들어있는 상자.", "^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000", "Weight:^009900 1^000000" },
+		identifiedDescriptionName = {
+			"두네이르 투구가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[16587] = {
-		unidentifiedDisplayName = "두네이르 투구 상자",
+		unidentifiedDisplayName = "Duneyrr Hat Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "두네이르 투구 상자",
+		identifiedDisplayName = "Duneyrr Hat Box",
 		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = { "두네이르 투구가 1개 들어있는 상자.", "^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000", "Weight:^009900 1^000000" },
+		identifiedDescriptionName = {
+			"두네이르 투구가 1개 들어있는 상자.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[16591] = {
-		unidentifiedDisplayName = "여름 스크롤 2",
+		unidentifiedDisplayName = "Summer Scroll 2",
 		unidentifiedResourceName = "여름스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "여름 스크롤 2",
+		identifiedDisplayName = "Summer Scroll 2",
 		identifiedResourceName = "여름스크롤",
-		identifiedDescriptionName = { "브라질의 여름방학을 위한 썸머패키지! 무언가 특별한 아이템을 얻게 될 수 있다!", "Weight:^009900 10^000000" },
+		identifiedDescriptionName = {
+			"브라질의 여름방학을 위한 썸머패키지! 무언가 특별한 아이템을 얻게 될 수 있다!",
+			"Weight:^009900 10^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[16592] = {
-		unidentifiedDisplayName = "패밀리 모자 상자",
+		unidentifiedDisplayName = "Family Hat Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "패밀리 모자 상자",
+		identifiedDisplayName = "Family Hat Box",
 		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = { "패밀리 모자가 1개 들어있는 상자.", "Weight:^009900 1^000000" },
+		identifiedDescriptionName = {
+			"패밀리 모자가 1개 들어있는 상자.",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[16593] = {
-		unidentifiedDisplayName = "패밀리 모자 상자",
+		unidentifiedDisplayName = "Family Hat Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "패밀리 모자 상자",
+		identifiedDisplayName = "Family Hat Box",
 		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = { "패밀리 모자가 1개 들어있는 상자.", "Weight:^009900 1^000000" },
+		identifiedDescriptionName = {
+			"패밀리 모자가 1개 들어있는 상자.",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[16596] = {
-		unidentifiedDisplayName = "심연의 투구 상자",
+		unidentifiedDisplayName = "Helm of Abyss Box",
 		unidentifiedResourceName = "캐시상자_검정",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "심연의 투구 상자",
+		identifiedDisplayName = "Helm of Abyss Box",
 		identifiedResourceName = "캐시상자_검정",
 		identifiedDescriptionName = {
 			"심연의 투구가 1개 들어있는 상자.",
@@ -2629,10 +2590,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16597] = {
-		unidentifiedDisplayName = "심연의 투구 상자",
+		unidentifiedDisplayName = "Helm of Abyss Box",
 		unidentifiedResourceName = "캐시상자_검정",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "심연의 투구 상자",
+		identifiedDisplayName = "Helm of Abyss Box",
 		identifiedResourceName = "캐시상자_검정",
 		identifiedDescriptionName = {
 			"심연의 투구가 1개 들어있는 상자.",
@@ -2653,10 +2614,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16598] = {
-		unidentifiedDisplayName = "활성화 포션 상자Ⅱ",
+		unidentifiedDisplayName = "Energizing Potion Box II",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "활성화 포션 상자Ⅱ",
+		identifiedDisplayName = "Energizing Potion Box II",
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
 			"활성화의 포션 5개와 행운의 알 1개가 들어있는 상자.",
@@ -2670,10 +2631,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[16599] = {
-		unidentifiedDisplayName = "활성화 포션 상자Ⅱ",
+		unidentifiedDisplayName = "Energizing Potion Box II",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "활성화 포션 상자Ⅱ",
+		identifiedDisplayName = "Energizing Potion Box II",
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
 			"활성화의 포션 5개와 행운의 알 1개가 들어있는 상자.",
@@ -2687,22 +2648,28 @@ tbl = {
 		ClassNum = 0
 	},
 	[16601] = {
-		unidentifiedDisplayName = "파란 아라라 모자 상자",
+		unidentifiedDisplayName = "Blue Arara Hat Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "파란 아라라 모자 상자",
+		identifiedDisplayName = "Blue Arara Hat Box",
 		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = { "파란 아라라 모자가 1개 들어있는 상자.", "Weight:^009900 1^000000" },
+		identifiedDescriptionName = {
+			"파란 아라라 모자가 1개 들어있는 상자.",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[16602] = {
-		unidentifiedDisplayName = "파란 아라라 모자 상자",
+		unidentifiedDisplayName = "Blue Arara Hat Box",
 		unidentifiedResourceName = "캐시상자_노랑",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "파란 아라라 모자 상자",
+		identifiedDisplayName = "Blue Arara Hat Box",
 		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = { "파란 아라라 모자가 1개 들어있는 상자.", "Weight:^009900 1^000000" },
+		identifiedDescriptionName = {
+			"파란 아라라 모자가 1개 들어있는 상자.",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -10082,478 +10049,58 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[18132] = {
-		unidentifiedDisplayName = "활",
-		unidentifiedResourceName = "보우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "결속의 활",
-		identifiedResourceName = "결속의활",
+	[17675] = {
+		unidentifiedDisplayName = "제련용 광석상자XIII",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "제련용 광석상자XIII",
+		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"Increase ATK by (Refine*Refine*1.25)",
-			"",
-			"Class:^6666CC 활^000000",
-			"Attack:^D80000 114^000000",
-			"Weight:^009900 60^000000",
-			"Weapon Level:^009900 3^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC 궁수 계열,로그 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 11
-	},
-	[18141] = {
-		unidentifiedDisplayName = "활",
-		unidentifiedResourceName = "보우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "강화된 메탈 보우",
-		identifiedResourceName = "메탈보우",
-		identifiedDescriptionName = {
-			"기존 메탈 보우에 오리데오콘을 첨가하여 더 숙련된 모험가를 위한 보우.",
-			"^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000 에게 인챈트를 받을 수 있다.",
-			"애로우 스톰, 서비어레인스톰 데미지 10% 증가.",
-			"제련도 1당 ATK +5 / 원거리 물리 공격력 2% 증가.",
-			"BaseLv이 10상승할때마다 ATK +6씩 추가 증가(증가량은 BaseLv 150까지 적용)",
-			"헌터 계열이 장착 시 ATK +15.",
-			"계열 :^777777 활^000000 공격 :^777777 75^000000",
-			"무게 :^777777 0^000000",
-			"무기 레벨 :^777777 3^000000",
-			"요구 레벨 :^777777 100^000000",
-			"장착 :^777777 궁수 계열^000000"
-		},
-		slotCount = 1,
-		ClassNum = 11
-	},
-	[19117] = {
-		unidentifiedDisplayName = "안경",
-		unidentifiedResourceName = "글래스",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "포링 선글래스",
-		identifiedResourceName = "포링선글래스",
-		identifiedDescriptionName = {
-			"포링 모양의 랜즈로 만들어진 선글래스. ",
-			"모두의 눈길을 받고 싶다면 필수 아이템. ",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"천사포링 부츠와 함께 착용시, 몬스터에게 얻는 경험치 + 5% 추가, 아이템 드롭율 + 5% 추가.",
-			"천사포링 부츠의 제련도가 12 이상일 경우, 고정 캐스팅 0.4초 감소.",
-			"계열 :^777777 투구^000000 방어 :^777777 0^000000",
-			"Location:^6666CC 중단 ^000000무게 :^777777 1^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
+			"농축 에르늄, 농축 오리데오콘이 각각 5개씩 들어있는 상자. 추가로 영혼의 스크롤이 1개 들어있다.",
+			"^ffffff_^000000",
+			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
+			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
+			"^ffffff_^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
-		ClassNum = 954
-	},
-	[19118] = {
-		unidentifiedDisplayName = "안경",
-		unidentifiedResourceName = "글래스",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "포링 선글래스+",
-		identifiedResourceName = "포링선글래스",
-		identifiedDescriptionName = {
-			"포링 모양의 랜즈로 만들어진 선글래스. ",
-			"모두의 눈길을 받고 싶다면 필수 아이템. ",
-			"몬스터에게 얻는 경험치 + 4%, 아이템 드롭율 + 4%. ",
-			"천사포링 부츠와 함께 착용시, 몬스터에게 얻는 경험치 + 4% 추가, 아이템 드롭율 + 4% 추가.",
-			"천사포링 부츠의 제련도가 12 이상일 경우, 고정 캐스팅 0.4초 감소.",
-			"계열 :^777777 투구^000000 방어 :^777777 0^000000",
-			"Location:^6666CC 중단 ^000000무게 :^777777 1^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 954
-	},
-	[19119] = {
-		unidentifiedDisplayName = "모자",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "강화된 시간의 수호자 모자",
-		identifiedResourceName = "음유시인모자",
-		identifiedDescriptionName = {
-			"기존 시간의 수호자 모자에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
-			"ALL STATUS +2, HP +500, SP +100, 변동캐스팅 5% 감소.",
-			"물리 공격 시, 3%의 확률로 데미지의 3%를 HP로 흡수(제련도 3당 HP 흡수량 1%씩 증가)",
-			"물리 공격 시, 1%의 확률로 데미지의 1%를 SP로 흡수(제련도 4당 SP 흡수량 1%씩 증가)",
-			"계열 :^777777 투구^000000 방어 :^777777 10^000000",
-			"위치 :^777777 상단 ^000000무게 :^777777 0^000000",
-			"요구 레벨 :^777777 100^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 240
-	},
-	[19937] = {
-		unidentifiedDisplayName = "Hat",
-		unidentifiedResourceName = "캡",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "의상 대지의 실크햇",
-		identifiedResourceName = "대지의실크햇",
-		identifiedDescriptionName = {
-			"땅의 신성함을 가진 신의 힘이 봉인되어 있는 실크햇.",
-			"Class:^6666CC Costume^000000",
-			"Defense:^0000FF 0^000000",
-			"Location:^6666CC Upper^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1078
-	},
-	[20344] = {
-		unidentifiedDisplayName = "액세서리",
-		unidentifiedResourceName = "풍선껌",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "의상 해피 벌룬",
-		identifiedResourceName = "해피벌룬",
-		identifiedDescriptionName = {
-			"색색가지 풍선에 귀여운 포링이 그려져 있다.",
-			"축제때 들고 다니면 행복한 기분이 될지도?",
-			"Class:^6666CC Costume^000000",
-			"Defense:^0000FF 0^000000",
-			"Location:^6666CC Lower^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1289
-	},
-	[20349] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "의상 날고 있는 갈라파고",
-		identifiedResourceName = "날으는갈라파고",
-		identifiedDescriptionName = {
-			"하늘을 나는데 성공한 갈라파고. 언젠가 자력으로 하늘높이 날수 있기를 꿈꾸고 있다.",
-			"Class:^6666CC Costume^000000",
-			"Defense:^0000FF 0^000000",
-			"Location:^6666CC Lower^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1358
-	},
-	[20446] = {
-		unidentifiedDisplayName = "투구",
-		unidentifiedResourceName = "햇",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "의상 토끼귀 알껍질",
-		identifiedResourceName = "토끼귀알껍질",
-		identifiedDescriptionName = {
-			"빨간색 귀가 달려 있는 부활절 모자. ",
-			"아주 대단해 보인다.",
-			"Class:^6666CC Costume^000000",
-			"Defense:^0000FF 0^000000",
-			"Location:^6666CC Upper^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1339
-	},
-	[20468] = {
-		unidentifiedDisplayName = "Mask",
-		unidentifiedResourceName = "스마일",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "You in ONE",
-		identifiedResourceName = "유인원마스크",
-		identifiedDescriptionName = {
-			"그들과 하나라는 의미를 가진 가면.",
-			"타 종족에 대한 두려움이 많은 원들에게 다가가기 위해 만들어 졌다.",
-			"…그다지 효과는 없었지만.",
-			"Class:^6666CC Costume^000000",
-			"Defense:^0000FF 0^000000",
-			"Location:^6666CC Upper, Middle, Lower^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1462
-	},
-	[20491] = {
-		unidentifiedDisplayName = "Hairband",
-		unidentifiedResourceName = "머리띠",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "의상 레이저 오브 이글",
-		identifiedResourceName = "레이저오브이글",
-		identifiedDescriptionName = {
-			"정밀한 사격을 서포트하는 고성능 레이저 포인터.",
-			"렌즈에는 어느 연구기관의 생체 샘플의 눈동자가 쓰였다는 소문도. ",
-			"개발된 지방에서 사랑받던 이글을 모티브로 하고 있다.",
-			"계열 : ^777777의상장비^000000 방어 : ^7777770^000000",
-			"위치 : ^777777상단 ^000000무게 : ^7777770^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1424
-	},
-	[20781] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "망토",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "결속의 기민함 망토",
-		identifiedResourceName = "결속의망토",
-		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"When base level is below 100:",
-			"Exp gained +4%, 2제련당 FLEE +3.",
-			"Class:^6666CC Garment^000000",
-			"Defense:^0000FF 20^000000",
-			"Weight:^009900 30^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 1,
 		ClassNum = 0
 	},
-	[20782] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "망토",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "결속의 총명한 머플러",
-		identifiedResourceName = "결속의머플러",
+	[17676] = {
+		unidentifiedDisplayName = "제련용 광석상자XIII 10세트",
+		unidentifiedResourceName = "캐시상자_노랑",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "제련용 광석상자XIII 10세트",
+		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
-			"A certified kingdom equipment for adventurer.",
-			"When base level is below 100:",
-			"Exp gained +4%, 2제련당 SP 소모량 -1%.",
-			"Class:^6666CC Garment^000000",
-			"Defense:^0000FF 20^000000",
-			"Weight:^009900 30^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
+			"농축 에르늄, 농축 오리데오콘이 각각 50개씩 들어있는 상자. 추가로 영혼의 스크롤이 11개 들어있다.",
+			"^ffffff_^000000",
+			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
+			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
+			"^ffffff_^000000",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
 		},
-		slotCount = 1,
+		slotCount = 0,
 		ClassNum = 0
 	},
-	[20787] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "망토",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Fine Muffler of Solidarity",
-		identifiedResourceName = "결속의머플러",
+	[17677] = {
+		unidentifiedDisplayName = "고농축 제련용 광석상자",
+		unidentifiedResourceName = "캐시상자_보라",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "고농축 제련용 광석상자",
+		identifiedResourceName = "캐시상자_보라",
 		identifiedDescriptionName = {
-			"모험가를 위한 왕국의 공인장비. ",
-			"When base level is below 100:",
-			"Exp gained +4%, 2제련당 CRIT +2.",
-			"Class:^6666CC Garment^000000",
-			"Defense:^0000FF 20^000000",
-			"Weight:^009900 30^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[20803] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힐 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[힐] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 :^777777 걸칠것^000000 방어 :^777777 30^000000",
-			"Weight:^009900 20^000000",
-			"요구 레벨 :^777777 1^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
-	[20804] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "탐욕 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[탐욕] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 :^777777 걸칠것^000000 방어 :^777777 30^000000",
-			"Weight:^009900 20^000000",
-			"요구 레벨 :^777777 1^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
-	[20805] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "민첩성 증가 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[민첩성 증가] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 :^777777 걸칠것^000000 방어 :^777777 30^000000",
-			"Weight:^009900 20^000000",
-			"요구 레벨 :^777777 1^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
-	[20806] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "매그넘 브레이크 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[매그넘 브레이크] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 :^777777 걸칠것^000000 방어 :^777777 30^000000",
-			"Weight:^009900 20^000000",
-			"요구 레벨 :^777777 1^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
-	[20807] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "인듀어 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[인듀어] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 :^777777 걸칠것^000000 방어 :^777777 30^000000",
-			"Weight:^009900 20^000000",
-			"요구 레벨 :^777777 1^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
-	[20808] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "사이트 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[사이트] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 :^777777 걸칠것^000000 방어 :^777777 30^000000",
-			"Weight:^009900 20^000000",
-			"요구 레벨 :^777777 1^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
-	[20809] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "집중력 향상 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[집중력 향상] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 :^777777 걸칠것^000000 방어 :^777777 30^000000",
-			"Weight:^009900 20^000000",
-			"요구 레벨 :^777777 1^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
-	[20811] = {
-		unidentifiedDisplayName = "Garment",
-		unidentifiedResourceName = "후드",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "하이딩 아미스트르 가방",
-		identifiedResourceName = "아미스트르가방",
-		identifiedDescriptionName = {
-			"호문클루스 '아미스트르'를 본따 만든 가방.",
-			"ALL Status + 1.",
-			"[하이딩] 1Lv 사용가능.",
-			"2제련 당, 몬스터에게 얻는 경험치 + 1%, 아이템 드롭율 + 1%. ",
-			"9제련 시, 물리공격, 마법공격 시 적을 죽였을 때 SP 3 회복. ",
-			"12제련시, 캐스팅이 끊기지 않는다.",
-			"계열 :^777777 걸칠것^000000 방어 :^777777 30^000000",
-			"Weight:^009900 20^000000",
-			"요구 레벨 :^777777 1^000000",
-			"장착 :^777777 전 직업^000000"
-		},
-		slotCount = 1,
-		ClassNum = 4
-	},
-	[22101] = {
-		unidentifiedDisplayName = "Shoes",
-		unidentifiedResourceName = "슈즈",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "천사포링 부츠",
-		identifiedResourceName = "메디컬부츠",
-		identifiedDescriptionName = {
-			"아크엔젤링 장식이 붙어있는 파란 색의 부츠.",
-			"조합하는 돌의 종류에 따라 능력이 추가된다.",
-			"All stats +1",
-			"[힐] Lv.1 사용 가능.",
-			"계열 :^777777 신발^000000",
-			"Defense:^0000FF 15^000000",
-			"Weight:^009900 30^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 1,
-		ClassNum = 0
-	},
-	[22102] = {
-		unidentifiedDisplayName = "신발",
-		unidentifiedResourceName = "부츠",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "강화된 시간의 수호자 부츠",
-		identifiedResourceName = "프레이야의장화",
-		identifiedDescriptionName = {
-			"기존 시간의 수호자 로브에 에르늄과 엠펠리움을 섞어 코팅하여 더 숙련된 모험가를 위해 제작되었다.",
-			"HP +500, SP +100, MDEF +4, 변동캐스팅 5% 감소. HP, SP 자연회복 속도 15% 증가",
-			"",
-			"계열 :^777777 신발^000000 방어 :^777777 23^000000",
-			"무게 :^777777 0^000000",
-			"요구 레벨 :^777777 100^000000",
-			"장착 :^777777 전 직업^000000"
+			"고농축 에르늄, 고농축 오리데오콘이 각각 13개씩 들어있는 상자. 추가로 영혼의 스크롤 11개, 멘탈 포션 6개가 들어있다. ",
+			"_ ",
+			"고농축 에르늄 - 방어구의 제련확률이 증가한다.",
+			"고농축 오리데오콘 - 무기의 제련확률이 증가한다. ",
+			"- 제련도가 +7 이상인 장비를 제련 시, 실패하더라도 장비가 파괴되어 사라지지 않습니다! 단, +10 이상은 제련되지 않습니다. - ",
+			"(제련에 실패 시 제련도가 1 하락합니다.) ",
+			"_ ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12448,358 +11995,37 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[24301] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Rune Knight Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
+	[23119] = {
+		unidentifiedDisplayName = "영혼의 스크롤",
+		unidentifiedResourceName = "영혼의스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "영혼의 스크롤",
+		identifiedResourceName = "영혼의스크롤",
 		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"When using Enchant Blade, increases % ASPD based of refine level for 50 sec.",
-			"Refine level +7: When using Enchant Blade, increases ASPD by 1 for 50 sec.",
-			"Refine level +9: When using Enchant Blade, further increases ASPD by 1 for 50 sec.",
-			"--------------------------",
-			"^32CD32룬나이트 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"소닉웨이브 SP 소모량 20% 감소, 물리공격 시 일정 확률로 이그니션 브레이크 3Lv 발동.",
-			"--------------------------",
-			"^32CD32소드맨 쉐도우^000000 2종, ^32CD32나이트 쉐도우^000000 2종,  ^32CD32룬나이트 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Rune Knight^000000"
+			"기간 한정 영혼의 스크롤. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 청이의 영혼, 영혼의 뚫어뻥, 봉인된 모자 상자 III, 대장장이의 축복등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[24302] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Royal Guard Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
+	[23120] = {
+		unidentifiedDisplayName = "봉인된 모자 상자 III",
+		unidentifiedResourceName = "크리스마스패키지",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "봉인된 모자 상자 III",
+		identifiedResourceName = "크리스마스패키지",
 		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"어스 드라이브 데미지 20% 증가.",
-			"제련도 1당 어스 드라이브 데미지 5% 추가. ",
-			"--------------------------",
-			"^32CD32로얄가드 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"캐논 스피어 SP 소모량 20% 감소, 케미칼 프로텍션(쉴드) Lv.3 사용 가능.",
-			"--------------------------",
-			"^32CD32소드맨 쉐도우^000000 2종, ^32CD32크루세이더 쉐도우^000000 2종,  ^32CD32로얄가드 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Royal Guard^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24303] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Mechanic Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"플레어 런쳐 데미지 20%증가.",
-			"제련도 1당 플레어 런쳐 데미지 5% 추가.",
-			"--------------------------",
-			"^32CD32미케닉 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"발칸 암 데미지 20%증가, 플레어 런쳐의 SP 소모량 20% 감소",
-			"--------------------------",
-			"^32CD32머천트 쉐도우^000000 2종, ^32CD32블랙스미스 쉐도우^000000 2종,  ^32CD32미케닉 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Mechanic^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24304] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Genetic Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"MaxHP + 3%.",
-			"제련도와 제네릭 카트 관련 액티브 스킬에 사용한 스킬 포인트를 곱한 값만큼 DEF 가 상승한다.",
-			"^ff0000카트 토네이도, 카트 캐논, 카트 부스트^000000",
-			"--------------------------",
-			"^32CD32제네릭 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"카트 토네이도 스킬 쿨타임 1초 감소, MaxHP + 2%, 카트 부스트 변동 캐스팅 시간 100% 감소.",
-			"--------------------------",
-			"^32CD32머천트 쉐도우^000000 2종, ^32CD32알케미스트 쉐도우^000000 2종,  ^32CD32제네릭 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Genetic^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24305] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Archbishop Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"아도라무스 데미지 20% 증가.",
-			"제련도 1당 아도라무스 데미지 5% 추가. ",
-			"--------------------------",
-			"^32CD32아크비숍 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"듀플레 라이트 데미지 20% 증가, 아도라무스 스킬 쿨타임 1초 감소.",
-			"--------------------------",
-			"^32CD32어콜라이트 쉐도우^000000 2종, ^32CD32프리스트 쉐도우^000000 2종,  ^32CD32아크비숍 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Archbishop^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24306] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Sura Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"천라지망 데미지 20% 증가. ",
-			"제련도 1당 천라지망 데미지 5% 추가. ",
-			"--------------------------",
-			"^32CD32수라 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"폭기산탄 데미지 20% 증가, 천라지망 SP 소모량 20% 감소. ",
-			"--------------------------",
-			"^32CD32어콜라이트 쉐도우^000000 2종, ^32CD32몽크 쉐도우^000000 2종,  ^32CD32수라 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Sura^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24307] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Guillotine Cross Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"검은 손톱의 쿨타임 10초 감소.",
-			"제련도 1당 검은 손톱의 쿨타임 2초 추가 감소.",
-			"--------------------------",
-			"^32CD32길로틴크로스 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"다크 일루젼 데미지 20% 증가, 물리공격 시 일정 확률로 검은 손톱 1Lv 발동.",
-			"--------------------------",
-			"^32CD32씨프 쉐도우^000000 2종, ^32CD32어쌔신 쉐도우^000000 2종,  ^32CD32길로틴크로스 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Guillotine Cross^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24308] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Shadow Chaser Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"오토 섀도우 스펠 스킬 사용 시, 50초 동안 공격속도 제련도 % 만큼 증가. ",
-			"제련도 7 이상시, 오토 섀도우 스펠 스킬 사용시 50초 동안 ASPD + 1 증가. ",
-			"제련도 9 이상시, 오토 섀도우 스펠 스킬 사용시 50초 동안 ASPD + 1 추가 증가.",
-			"--------------------------",
-			"^32CD32쉐도우체이서 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"트라이앵글 샷 데미지 20% 증가, ATK + 2%, MATK + 2%, 원거리 데미지 2% 증가.",
-			"--------------------------",
-			"^32CD32씨프 쉐도우^000000 2종, ^32CD32로그 쉐도우^000000 2종,  ^32CD32쉐도우체이서 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Shadow Chaser^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24309] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Warlock Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"어스 스트레인 데미지 20% 증가. ",
-			"제련도 1당 어스 스트레인 데미지 5% 추가. ",
-			"--------------------------",
-			"^32CD32워록 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"드레인 라이프 쿨타임 1초 감소, 어스 스트레인 쿨타임 4초 감소.",
-			"--------------------------",
-			"^32CD32매지션 쉐도우^000000 2종, ^32CD32위저드 쉐도우^000000 2종,  ^32CD32워록 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Warlock^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24310] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Sorcerer Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"어스 그레이브의 쿨타임 1초 감소.",
-			"제련도 1당 어스 그레이브의 쿨타임 0.3초 추가 감소.",
-			"--------------------------",
-			"^32CD32소서러 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"다이아몬드 더스트와 어스 그레이브의 데미지 20% 증가.",
-			"--------------------------",
-			"^32CD32매지션 쉐도우^000000 2종, ^32CD32세이지 쉐도우^000000 2종,  ^32CD32소서러 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Sorcerer^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24311] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Ranger Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"에임드 볼트 SP 소모량 20% 감소.",
-			"제련도 1당 에임드 볼트 SP 소모량 5% 추가 감소.",
-			"--------------------------",
-			"^32CD32레인져 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"에임드 볼트 데미지 20% 증가, 클러스터 봄 데미지 20% 증가.",
-			"--------------------------",
-			"^32CD32아쳐 쉐도우^000000 2종, ^32CD32헌터 쉐도우^000000 2종,  ^32CD32레인져 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Ranger^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24312] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Minstrel Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"MaxSP + 3%.",
-			"제련도 1당 민스트럴 전용 노래 스킬에 사용한 스킬 포인트 5마다 MDEF + 1.",
-			"^ff0000메아리의 노래, 하모나이즈, 풍차를 향해 돌격^000000",
-			"--------------------------",
-			"^32CD32민스트럴 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"MaxHP + 2%, MaxSP + 2%, ^ff0000레슨^000000 스킬 레벨 2당 원거리 데미지 1% 증가. ",
-			"--------------------------",
-			"^32CD32아쳐 쉐도우^000000 2종, ^32CD32바드 쉐도우^000000 2종,  ^32CD32민스트럴 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Minstrel^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[24313] = {
-		unidentifiedDisplayName = "Shadow Shield",
-		unidentifiedResourceName = "쉴드쉐도우",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Wanderer Shadow Shield",
-		identifiedResourceName = "쉴드쉐도우",
-		identifiedDescriptionName = {
-			"A small shield worn on the arm for additional defense.",
-			"Can be equipped alone but needs a complete set to have bonus effect.",
-			"MaxSP + 3%. ",
-			"제련도 1당 원더러 전용 춤 스킬에 사용한 스킬 포인트 5마다 MDEF + 1. ",
-			"^ff0000달빛의 세레나데, 스윙 댄스, 연인들을 위한 심포니^000000",
-			"--------------------------",
-			"^32CD32원더러 웨폰 쉐도우^000000와 함께 장착 시, 추가 효과를 받는다.",
-			"MaxHP + 2%, MaxSP + 2%, ^ff0000레슨^000000 스킬 레벨 2당 원거리 데미지 1% 증가.",
-			"--------------------------",
-			"^32CD32아쳐 쉐도우^000000 2종, ^32CD32댄서 쉐도우^000000 2종,  ^32CD32원더러 쉐도우^000000 2종을 전부 장착 시, 다음의 효과를 받는다.",
-			"All State + 10, MaxHP + 5%, MaxSP + 5%.",
-			"일반 몬스터의 물리 및 마법 방어력 50% 무시.",
-			"Class:^6666CC Shadow Equipment^000000",
-			"Location:^6666CC Shield^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 99^000000",
-			"Jobs:^6666CC Wanderer^000000"
+			"예쁘게 포장되어 있는 하늘색 상자.",
+			"다음의 아이템중 1개가 들어있습니다. ",
+			"――――――――――――― ",
+			"이프리트의 귀",
+			"사만바이아",
+			"그리폰 모자",
+			"토끼 보닛",
+			"오색 깃털 장식",
+			"――――――――――――― ",
+			"무게 : ^77777720^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13147,7 +12373,7 @@ tbl = {
 		identifiedDisplayName = "영혼의 뚫어뻥",
 		identifiedResourceName = "영혼의뚫어뻥",
 		identifiedDescriptionName = {
-			"중단 및 중하단 투구 아이템에 소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.",
+			"투구 아이템에 소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.",
 			"다음의 아이템에 소켓을 뚫을 수 있다.",
 			"――――――――――――― ",
 			"사이그룬의 Wing",
@@ -13160,6 +12386,11 @@ tbl = {
 			"하트파운데이션",
 			"스핀 글래스",
 			"스마일",
+			"이프리트의 귀",
+			"병아리 모자",
+			"대형 마제스틱 고우트",
+			"나비 가면",
+			"청이의 영혼",
 			"――――――――――――― ",
 			"성공확률은 25%이며, 실패시 시도한 투구 아이템도 함께 사라진다.",
 			"^ffffff<NAVI>^4D4DFF[피어싱 장인]^000000<INFO>itemmall,18,66,0,100,0,0</INFO></NAVI>^000000",
@@ -14007,10 +13238,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25175] = {
-		unidentifiedDisplayName = "렉스에테르나 스톤(중단)",
+		unidentifiedDisplayName = "Lex Aeterna Stone(Middle)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "렉스에테르나 스톤(중단)",
+		identifiedDisplayName = "Lex Aeterna Stone(Middle)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"렉스 에테르나를 자동으로 사용해주는 스톤.",
@@ -14023,10 +13254,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25176] = {
-		unidentifiedDisplayName = "블루 오오라 이펙트(중단)",
+		unidentifiedDisplayName = "Blue Aura Effect(Middle)",
 		unidentifiedResourceName = "블루크리스탈조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "블루 오오라 이펙트(중단)",
+		identifiedDisplayName = "Blue Aura Effect(Middle)",
 		identifiedResourceName = "블루크리스탈조각",
 		identifiedDescriptionName = {
 			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
@@ -14038,10 +13269,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25177] = {
-		unidentifiedDisplayName = "쉐도우 이펙트(중단)",
+		unidentifiedDisplayName = "Shadow Effect(Middle)",
 		unidentifiedResourceName = "블루크리스탈조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "쉐도우 이펙트(중단)",
+		identifiedDisplayName = "Shadow Effect(Middle)",
 		identifiedResourceName = "블루크리스탈조각",
 		identifiedDescriptionName = {
 			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
@@ -14054,27 +13285,17 @@ tbl = {
 		ClassNum = 0
 	},
 	[25178] = {
-		unidentifiedDisplayName = "핑크 글로우 이펙트(중단)",
+		unidentifiedDisplayName = "Pink Glow Effect(Middle)",
 		unidentifiedResourceName = "블루크리스탈조각",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "핑크 글로우 이펙트(중단)",
+		identifiedDisplayName = "Pink Glow Effect(Middle)",
 		identifiedResourceName = "블루크리스탈조각",
 		identifiedDescriptionName = {
-			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000핑크 글로우^000000",
+			"Gives Pink Glow effect when inserted on costume's 4th slot.",
+			"^ff0000Pink Glow^000000",
 			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
 			"Weight:^009900 10^000000"
 		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25188] = {
-		unidentifiedDisplayName = "소녀의 손수건",
-		unidentifiedResourceName = "추억의수건",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "소녀의 손수건",
-		identifiedResourceName = "추억의수건",
-		identifiedDescriptionName = { "소희가 몸에 지니고 있던 손수건. 서늘한 느낌과 함께 청량한 향이 느껴진다.", "Weight:^009900 0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
