@@ -10062,7 +10062,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10080,7 +10080,7 @@ tbl = {
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10100,7 +10100,7 @@ tbl = {
 			"(제련에 실패 시 제련도가 1 하락합니다.) ",
 			"_ ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000",
-			"무게 : ^7777771^000000"
+			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10736,7 +10736,7 @@ tbl = {
 			"봄소풍에 딱 맞는 벚꽃잎으로 만든 과자.",
 			"5분 동안 소형, 중형, 대형 적으로부터 받는 데미지 5% 감소.",
 			"봄 이벤트 기간(2016년3월 30일 ~ 2016년4월 27일) 이후, 해당 아이템은 삭제 됩니다.",
-			"무게 : ^7777773^000000"
+			"Weight:^009900 3^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11729,7 +11729,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "강화 포션 SS",
 		identifiedResourceName = "페이욘수용액",
-		identifiedDescriptionName = { "아직 임상 실험도 마치지 못한 테스트용 시약 스티커가 붙어있다.", "베르너 연구소(일반)에서 사용 시,", "10초간 ASPD +10.", "무게 : ^7777771^000000" },
+		identifiedDescriptionName = { "아직 임상 실험도 마치지 못한 테스트용 시약 스티커가 붙어있다.", "베르너 연구소(일반)에서 사용 시,", "10초간 ASPD +10.", "Weight:^009900 1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11739,7 +11739,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "강화 포션 SC",
 		identifiedResourceName = "디트리민",
-		identifiedDescriptionName = { "아직 임상 실험도 마치지 못한 테스트용 시약 스티커가 붙어있다.", "베르너 연구소(일반)에서 사용 시,", "10초간 CRI +30.", "무게 : ^7777771^000000" },
+		identifiedDescriptionName = { "아직 임상 실험도 마치지 못한 테스트용 시약 스티커가 붙어있다.", "베르너 연구소(일반)에서 사용 시,", "10초간 CRI +30.", "Weight:^009900 1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11753,7 +11753,7 @@ tbl = {
 			"아직 임상 실험도 마치지 못한 테스트용 시약 스티커가 붙어있다.",
 			"베르너 연구소(일반)에서 사용 시,",
 			"10초간 변동 캐스팅 80% 감소.",
-			"무게 : ^7777771^000000"
+			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11872,7 +11872,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "작은 가죽 가방",
 		identifiedResourceName = "힙색",
-		identifiedDescriptionName = { "세이렌이 마지막으로 건네준 작은 가방. 가방 속에는 동료들의 소지품이 들어있다고 한다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "세이렌이 마지막으로 건네준 작은 가방. 가방 속에는 동료들의 소지품이 들어있다고 한다.", "Weight:^009900 0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -12004,7 +12004,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"기간 한정 영혼의 스크롤. ",
 			"무기 11제련 상품권, 방어구 11제련 상품권, 청이의 영혼, 영혼의 뚫어뻥, 봉인된 모자 상자 III, 대장장이의 축복등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"무게 : ^7777771^000000"
+			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12025,7 +12025,7 @@ tbl = {
 			"토끼 보닛",
 			"오색 깃털 장식",
 			"――――――――――――― ",
-			"무게 : ^77777720^000000"
+			"Weight:^009900 20^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12610,7 +12610,7 @@ tbl = {
 			"고정 캐스팅을 줄여주는 스톤.",
 			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다.",
 			"고정 캐스팅 0.5초 감소",
-			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[Lace La Zard]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
 			"Weight:^009900 10^000000"
 		},
 		slotCount = 0,
@@ -12970,7 +12970,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "레이첼의 리볼버",
 		identifiedResourceName = "식스슈터",
-		identifiedDescriptionName = { "레이첼이 수리한 리볼버. 잘 망가지기 때문에 무기로 쓰기에는 불안하다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "레이첼이 수리한 리볼버. 잘 망가지기 때문에 무기로 쓰기에는 불안하다.", "Weight:^009900 0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -12980,7 +12980,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "추모하는 꽃다발",
 		identifiedResourceName = "카네이션꽃다발",
-		identifiedDescriptionName = { "세상에 없는 그리운 사람을 추모하기 위해 정성껏 만든 꽃다발", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "세상에 없는 그리운 사람을 추모하기 위해 정성껏 만든 꽃다발", "Weight:^009900 0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -12990,7 +12990,7 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "부서진 총의 잔해",
 		identifiedResourceName = "식스슈터",
-		identifiedDescriptionName = { "부서져버린 총의 잔해. 전문가에게 가져가서 수리를 하면 다시 사용할 수 있을 것 같다. 물건은 소중히 다루도록 하자.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = { "부서져버린 총의 잔해. 전문가에게 가져가서 수리를 하면 다시 사용할 수 있을 것 같다. 물건은 소중히 다루도록 하자.", "Weight:^009900 0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -13000,301 +13000,24 @@ tbl = {
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "묵은 화약",
 		identifiedResourceName = "화약",
-		identifiedDescriptionName = { "어디서나 흔히 볼수 있는 화약뭉치. 사용하지 않은지 오래되어 폭발력은 장담할 수 없다.", "무게 : ^7777771^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25155] = {
-		unidentifiedDisplayName = "슈발츠 명예의 증표",
-		unidentifiedResourceName = "슈발츠명예의증표",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "슈발츠 명예의 증표",
-		identifiedResourceName = "슈발츠명예의증표",
-		identifiedDescriptionName = { "슈발츠 공국에서 지급되는 특별한 증표.", "무게 : ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25156] = {
-		unidentifiedDisplayName = "키메라의 조각",
-		unidentifiedResourceName = "키메라의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "키메라의 조각",
-		identifiedResourceName = "키메라의조각",
-		identifiedDescriptionName = { "수집품 상인에게 비싸게 팔린다.", "무게 : ^7777771^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25157] = {
-		unidentifiedDisplayName = "낙엽 가지",
-		unidentifiedResourceName = "낙엽가지",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "낙엽 가지",
-		identifiedResourceName = "낙엽가지",
-		identifiedDescriptionName = { "수집품 상인에게 팔린다.", "무게 : ^7777771^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25158] = {
-		unidentifiedDisplayName = "핵심 젤리",
-		unidentifiedResourceName = "핵심젤리",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "핵심 젤리",
-		identifiedResourceName = "핵심젤리",
-		identifiedDescriptionName = { "수집품 상인에게 팔린다.", "무게 : ^7777771^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25159] = {
-		unidentifiedDisplayName = "하트 헌터의 인장",
-		unidentifiedResourceName = "하트헌터의인장",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "하트 헌터의 인장",
-		identifiedResourceName = "하트헌터의인장",
-		identifiedDescriptionName = { "하트헌터 단체를 상징하는 인장.", "무게 : ^7777771^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25160] = {
-		unidentifiedDisplayName = "빌려온 책",
-		unidentifiedResourceName = "여러권의책",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "빌려온 책",
-		identifiedResourceName = "여러권의책",
-		identifiedDescriptionName = { "깨끗하게 읽고 주인에게 돌려주어야 한다.", "무게 : ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25161] = {
-		unidentifiedDisplayName = "수제 쿠키",
-		unidentifiedResourceName = "잘구운쿠키",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "수제 쿠키",
-		identifiedResourceName = "잘구운쿠키",
-		identifiedDescriptionName = { "조금 서툰 솜씨로 만든 것처럼 보이지만, 촉촉하고 달콤해서 맛있는 쿠키.", "무게 : ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25162] = {
-		unidentifiedDisplayName = "멸치 쿠키",
-		unidentifiedResourceName = "입에문황금물고기",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "멸치 쿠키",
-		identifiedResourceName = "입에문황금물고기",
-		identifiedDescriptionName = { "잘 말린 멸치로 바삭바삭하게 구운 쿠키. 인간이 먹기에는 비리지만, 고양이에게는 최고의 간식이다.", "무게 : ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25163] = {
-		unidentifiedDisplayName = "무기점 광고지",
-		unidentifiedResourceName = "원고용지",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기점 광고지",
-		identifiedResourceName = "원고용지",
-		identifiedDescriptionName = { "무기점 '클라나 네미에리'를 광고하는 문구가 잔뜩 써있는 종이. 글씨가 빽빽해서 읽기 힘들다.", "무게 : ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25164] = {
-		unidentifiedDisplayName = "신선한 찻잎",
-		unidentifiedResourceName = "새싹",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "신선한 찻잎",
-		identifiedResourceName = "새싹",
-		identifiedDescriptionName = { "갓 수확한 신선한 찻잎.", "특별한 비법으로 가공하면 최고의 차를 만들 수 있다.", "무게 : ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25165] = {
-		unidentifiedDisplayName = "고급 차",
-		unidentifiedResourceName = "빨간색염료",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "고급 차",
-		identifiedResourceName = "빨간색염료",
-		identifiedDescriptionName = { "특별한 비법으로 가공한 최상급 차.", "부드럽고 고소하면서도 상큼하고 달콤한 맛이 난다고한다.", "무게 : ^7777770^000000" },
+		identifiedDescriptionName = {
+			"어디서나 흔히 볼수 있는 화약뭉치. 사용하지 않은지 오래되어 폭발력은 장담할 수 없다.",
+			"Weight:^009900 1^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25166] = {
-		unidentifiedDisplayName = "번쩍이는 링",
+		unidentifiedDisplayName = "Shining Ring",
 		unidentifiedResourceName = "카이저너클",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "번쩍이는 링",
+		identifiedDisplayName = "Shining Ring",
 		identifiedResourceName = "카이저너클",
 		identifiedDescriptionName = {
 			"코트네스님이 애용한다는 장신구.",
-			"금을 세공하여 만든 본체에 붉은 루비로 포인트를 주어 매우 고급스럽게 보인다.",
-			"손가락에 끼울 수 있다고는 하지만 이걸 장신구로 봐야할지...",
-			"무게 : ^7777770^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25167] = {
-		unidentifiedDisplayName = "오래된 편지",
-		unidentifiedResourceName = "낡은책장",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "오래된 편지",
-		identifiedResourceName = "낡은책장",
-		identifiedDescriptionName = {
-			"몇 십년은 된 것 같은 매우 낡은 편지.",
-			"너무 낡아서 글씨를 읽기 힘들지만 젊은 혈기에 적은 것이다보니 지금와서 다시 읽으면 매우 부끄러울 것 같은 내용이 적혀있다.",
-			"무게 : ^7777770^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25169] = {
-		unidentifiedDisplayName = "끈적끈적한 점액",
-		unidentifiedResourceName = "미끌미끌한액체",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "끈적끈적한 점액",
-		identifiedResourceName = "미끌미끌한액체",
-		identifiedDescriptionName = {
-			"나들이 문어와 문어다리에서 얻을 수 있는 매우 끈적거리는 점액.",
-			"특수한 방법으로 가공하여 가면의 재료로 사용된다.",
-			"이벤트 종료 시 사라집니다.",
+			"Crafted from gold, with Ruby attached on it, very classy but elegance.",
+			"Its really fit on finger, but you decide to look it as a decoration instead...",
 			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25170] = {
-		unidentifiedDisplayName = "마이너캐스팅 스톤(걸칠것)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "마이너캐스팅 스톤(걸칠것)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"고정 캐스팅을 약간 줄여주는 스톤.",
-			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다.",
-			"고정 캐스팅 0.3초 감소",
-			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25171] = {
-		unidentifiedDisplayName = "경험치 스톤(상단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "경험치 스톤(상단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"경험치 습득율이 높아지는 스톤.",
-			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
-			"몬스터를 죽였을 시, Exp gained 2% 증가.",
-			"경험치 스톤(중단), 경험치 스톤(하단)과 함께 착용 시, 몬스터를 죽였을 시, Exp gained 3% 추가 증가.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25172] = {
-		unidentifiedDisplayName = "변동캐스팅 스톤(상단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "변동캐스팅 스톤(상단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"변동 캐스팅을 줄여주는 스톤.",
-			"의상 상단 슬롯에 아래의 능력치를 부여한다.",
-			"변동 캐스팅 3% 감소.",
-			"변동 캐스팅스톤(중단), 변동 캐스팅스톤(하단)과 함께 장착 시, 변동 캐스팅 6% 추가 감소.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25173] = {
-		unidentifiedDisplayName = "변동캐스팅 스톤(중단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "변동캐스팅 스톤(중단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"변동 캐스팅을 줄여주는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
-			"변동 캐스팅 3% 감소.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25174] = {
-		unidentifiedDisplayName = "변동캐스팅 스톤(하단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "변동캐스팅 스톤(하단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"변동 캐스팅을 줄여주는 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"변동 캐스팅 3% 감소.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25175] = {
-		unidentifiedDisplayName = "Lex Aeterna Stone(Middle)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Lex Aeterna Stone(Middle)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"렉스 에테르나를 자동으로 사용해주는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"물리 공격시, 1%의 확률로 적에게 렉스 에테르나 Lv 1 발동.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25176] = {
-		unidentifiedDisplayName = "Blue Aura Effect(Middle)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Blue Aura Effect(Middle)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000블루 오오라^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25177] = {
-		unidentifiedDisplayName = "Shadow Effect(Middle)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Shadow Effect(Middle)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000쉐도우^000000",
-			"공성 및 PvP 지역에서는 적용되지 않음.",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25178] = {
-		unidentifiedDisplayName = "Pink Glow Effect(Middle)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Pink Glow Effect(Middle)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"Gives Pink Glow effect when inserted on costume's 4th slot.",
-			"^ff0000Pink Glow^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
