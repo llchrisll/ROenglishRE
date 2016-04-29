@@ -11093,20 +11093,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[23001] = {
-		unidentifiedDisplayName = "의상 인챈트 스톤 상자8",
-		unidentifiedResourceName = "초록상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "의상 인챈트 스톤 상자8",
-		identifiedResourceName = "초록상자",
-		identifiedDescriptionName = {
-			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"탐욕스톤(Lower), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(Middle)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[23007] = {
 		unidentifiedDisplayName = "개선된 PC Cafe 우든박스",
 		unidentifiedResourceName = "나무보물상자",
@@ -11260,21 +11246,6 @@ tbl = {
 		identifiedDisplayName = "사복 교황 용병 소환서",
 		identifiedResourceName = "소환서_검",
 		identifiedDescriptionName = { "사복 차림의 교황을 소환할 수 있는 소환서.", "Weight:^009900 0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23027] = {
-		unidentifiedDisplayName = "민들레 반지",
-		unidentifiedResourceName = "민들레반지",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "민들레 반지",
-		identifiedResourceName = "민들레반지",
-		identifiedDescriptionName = {
-			"민들레를 엮어 만든 소박한 반지. 민들레 홀씨를 불면 바람을 타고 어디론가 날아갈 것 같다.",
-			"'라헬'로 귀환 가능. ",
-			"한번 사용시, 60분간 재사용이 불가능하다. ",
-			"Weight:^009900 0^000000"
-		},
 		slotCount = 0,
 		ClassNum = 0
 	},
