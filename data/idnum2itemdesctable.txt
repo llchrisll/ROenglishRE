@@ -6474,18 +6474,20 @@ Level Requirement:^009900 50^000000
 Jobs:^6666CC Swordman^000000
 #
 1445#
-A spear imbued with the power of lightning.
+A replica of Warrior Spear.
 -------------------------
-Refine Level +7:
-Increase physical damage against ^6666CCFish^000000 and ^0000BBWater^000000 element monsters by 10%.
+Refine level +7:
+Increases physical damage inflicted on ^6666CCBrute^000000 and ^6666CCPlant monster^000000 by 10%.
+Increases physical damage inflicted on Earth and Wind element monster by 10%.
 -------------------------
-Refine Level +9:
-Increase physical damage against ^6666CCFish^000000 and ^0000BBWater^000000 element monsters by 15%.
+Refine level +9:
+Increases physical damage inflicted on ^6666CCBrute^000000 and ^6666CCPlant monster^000000 by 15%.
+Increases physical damage inflicted on Earth and Wind element monster by 15%.
 -------------------------
 Class:^6666CC One-Handed Spear^000000
 Attack:^CC0000 140^000000
 Weight:^009900 0^000000
-Element:^33CC00 Wind^000000
+Element:^CC5500 Earth^000000
 Weapon Level:^009900 3^000000
 Level Requirement:^009900 50^000000
 Jobs:^6666CC Swordman^000000
@@ -6527,6 +6529,26 @@ Weight:^009900 50^000000
 Weapon Level:^009900 4^000000
 Level Requirement:^009900 100^000000
 Jobs:^6666CC Rune Knight and Royal Guard^000000
+#
+1448#
+A spear imbued with the earth power.
+Its said that when combined with 'Heaven and Earth', it's possible to achieve ultimate power.
+-------------------------
+Refine level +7:
+Increases physical damage inflicted on ^6666CCBrute^000000 and ^6666CCPlant monster^000000 by 10%.
+Increases physical damage inflicted on Earth and Wind element monster by 10%.
+-------------------------
+Refine level +9:
+Increases physical damage inflicted on ^6666CCBrute^000000 and ^6666CCPlant monster^000000 by 15%.
+Increases physical damage inflicted on Earth and Wind element monster by 15%.
+-------------------------
+Class:^6666CC One-Handed Spear^000000
+Attack:^CC0000 140^000000
+Weight:^009900 200^000000
+Element:^CC5500 Earth^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 50^000000
+Jobs:^6666CC Swordman^000000
 #
 1450#
 A lance imbued with Vicious Mind.
@@ -8671,7 +8693,7 @@ A rare staff that can convert psychic energy into brute strength.
 STR +10
 MATK +100
 -------------------------
-Consumes 2 SP with each physical attack.
+Drains 2 SP with each physical attack.
 -------------------------
 Class:^6666CC One-Handed Staff^000000
 Attack:^CC0000 130^000000
@@ -8831,7 +8853,7 @@ A rare staff that can convert psychic energy into brute strength.
 STR +10, INT +4
 MATK +100
 -------------------------
-Consumes 1 SP with each physical attack.
+Drains 1 SP with each physical attack.
 -------------------------
 Class:^6666CC Staff^000000
 Attack:^CC0000 165^000000
@@ -10476,7 +10498,7 @@ The curse of the bow takes luck away from its user.
 -------------------------
 LUK -2
 -------------------------
-Adds 4% chance of inflicting Curse status on target when attacking with long range physical attacks.
+Adds 4% chance of inflicting ^663399Curse^000000 status on target when attacking with long range physical attacks.
 -------------------------
 Class:^6666CC Bow^000000
 Attack:^CC0000 125^000000
@@ -11513,7 +11535,7 @@ Jobs:^6666CC Bard^000000
 An ancient lute seen on display in oriental towns such as Payon, Amatsu or Kunlun.
 Nowadays, no one really knows how to play it.
 -------------------------
-Increases damage of Arrow Vulcan and Musical Strike skills by 10%.
+Increases damage of ^6666CCArrow Vulcan^000000 and Musical Strike skills by 10%.
 -------------------------
 Class:^6666CC Musical Instrument^000000
 Attack:^CC0000 150^000000
@@ -11543,7 +11565,7 @@ When musicians play this legendary instrument, their consciousness is fully abso
 -------------------------
 ASPD +100%
 -------------------------
-Disable natural HP recovery.
+Disable natural HP regeneration.
 -------------------------
 Heavily reducing DEX.
 -------------------------
@@ -11574,7 +11596,7 @@ Jobs:^6666CC Clown^000000
 An ancient lute seen on display in oriental towns such as Payon, Amatsu or Kunlun.
 Nowadays, no one really knows how to play it.
 -------------------------
-Increases damage of Arrow Vulcan and Musical Strike skills by 10%.
+Increases damage of ^6666CCArrow Vulcan^000000 and Musical Strike skills by 10%.
 -------------------------
 Class:^6666CC Musical Instrument^000000
 Attack:^CC0000 150^000000
@@ -11610,7 +11632,7 @@ DEX +2
 -------------------------
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 95%.
 -------------------------
-Increase Damage of Arrow Vulcan by 20%.
+Increase ^6666CCArrow Vulcan^000000 damage by 20%.
 -------------------------
 ^663399Indestructible^000000
 -------------------------
@@ -12087,7 +12109,7 @@ Jobs:^6666CC Dancer^000000
 1970#
 This whip is the best of the best.
 -------------------------
-Increases attack strength of Arrow Vulcan and Slinging Arrow skills by 10%.
+Increases attack strength of ^6666CCArrow Vulcan^000000 and Slinging Arrow skills by 10%.
 -------------------------
 Class:^6666CC Whip^000000
 Attack:^CC0000 150^000000
@@ -12112,7 +12134,7 @@ A whip made from a slippery electric eel.
 INT +2, AGI +2
 -------------------------
 Each attack has a certain chance of autocasting Level 3 ^008800Jupitel Thunder^000000 and Arrow Vulcan;
-the skill level of Arrow Vulcan that is cast depends on this weapon's upgrade level.
+the skill level of ^6666CCArrow Vulcan^000000 that is cast depends on this weapon's upgrade level.
 -------------------------
 Class:^6666CC Whip^000000
 Attack:^CC0000 100^000000
@@ -12200,7 +12222,7 @@ DEX +2
 -------------------------
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 95%.
 -------------------------
-Increase Arrow Vulcan Damage by 20%.
+Increase ^6666CCArrow Vulcan^000000 Damage by 20%.
 -------------------------
 ^663399Indestructible^000000
 -------------------------
@@ -12289,7 +12311,7 @@ A flexible whip made of renovated plant stem.
 -------------------------
 MATK +50
 -------------------------
-Reduces variable cast time of [Lullaby] and [Swing Dance] by 2 secs.
+Reduces variable cast time of [Lullaby] and ^6666CCSwing Dance^000000 by 2 secs.
 SP consumption of each skill decreased by 4 with every upgrade above level 6.
 -------------------------
 Class:^6666CC Whip^000000
@@ -12378,8 +12400,8 @@ A mic whip used by Aigu. A powerful whip despite of its look.
 -------------------------
 Reduce Moonlight Serenade SP consumption by 20.
 -------------------------
-When equipped with Bloody Floral Decoration Bracelet, increase arrow vulcan damage by 200%.
-Increase Arrow Vulcan SP consumption by 50.
+When equipped with Bloody Floral Decoration Bracelet, increase ^6666CCArrow Vulcan^000000 damage by 200%.
+Increase ^6666CCArrow Vulcan^000000 SP consumption by 50.
 -------------------------
 Class:^6666CC Whip^000000
 Attack:^CC0000 160^000000
@@ -12621,7 +12643,7 @@ A magic staff charged with whirling power of wind.
 INT +3
 MATK +230
 -------------------------
-Increases damage of [Jupitel Thunder] by 12%.
+Increases ^6666CCJupitel Thunder^000000 damage by 12%.
 -------------------------
 [^008800Goldenrod set^000000]
 ^00FF00Goldenrod Staff^000000
@@ -12646,7 +12668,7 @@ A magic staff charged with freezing power of water.
 INT +3
 MATK +230
 -------------------------
-Increases damage of ^6666CCCold Bolt^000000 and ^008800Frost Diver^000000 by 10%.
+Increases ^6666CCCold Bolt^000000 and ^008800Frost Diver^000000 damage by 10%.
 -------------------------
 [^008800Aqua set^000000]
 ^00FF00Aqua Staff^000000
@@ -12671,7 +12693,7 @@ A magic staff charged with blazing power of fire.
 INT +3
 MATK +230
 -------------------------
-Increases damage of ^6666CCFire Bolt^000000 and ^008800Fire Ball^000000 by 10%.
+Increases ^6666CCFire Bolt^000000 and ^008800Fire Ball^000000 damage by 10%.
 -------------------------
 [^008800Crimson set^000000]
 ^00FF00Crimson Staff^000000
@@ -12696,7 +12718,7 @@ A magic staff charged with massive power of earth.
 INT +3
 MATK +230
 -------------------------
-Increases damage of ^6666CCEarth Spike^000000 and [Heaven's Drive] by 10%.
+Increases ^6666CCEarth Spike^000000 and ^6666CCHeaven's Drive^000000 damage by 10%.
 -------------------------
 [^008800Forest set^000000]
 ^00FF00Forest Staff^000000
@@ -12721,7 +12743,7 @@ A magic staff charged with massive power of wind.
 INT +5
 MATK +270
 -------------------------
-Increases damage of [Jupitel Thunder] by 30%.
+Increases ^6666CCJupitel Thunder^000000 damage by 30%.
 -------------------------
 [^008800Goldenrod set^000000]
 ^00FF00Goldenrod Staff II^000000
@@ -12746,7 +12768,7 @@ A magic staff charged with freezing power of water.
 INT +5
 MATK +270
 -------------------------
-Increases the effectiveness of Cold Bolt and Frost Diver by 30%.
+Increases ^6666CCCold Bolt^000000 and ^6666CCFrost Driver^000000 damage by 30%.
 -------------------------
 [^008800Aqua set^000000]
 ^00FF00Aqua Staff II^000000
@@ -12771,7 +12793,7 @@ A magic staff charged with blazing power of fire.
 INT +5
 MATK +270
 -------------------------
-Increases damage of ^6666CCFire Bolt^000000 and ^008800Fire Ball^000000 by 30%.
+Increases  ^6666CCFire Bolt^000000 and ^008800Fire Ball^000000 damage by 30%.
 -------------------------
 [^008800Crimson set^000000]
 ^00FF00Crimson Staff II^000000
@@ -12796,7 +12818,7 @@ A magic staff charged with massive power of earth.
 INT +5
 MATK +270
 -------------------------
-Increases damage of ^6666CCEarth Spike^000000 and [Heaven's Drive] by 30%.
+Increases ^6666CCEarth Spike^000000 and ^6666CCHeaven's Drive^000000 damage by 30%.
 -------------------------
 [^008800Forest set^000000]
 ^00FF00Forest Staff II^000000
@@ -20014,7 +20036,7 @@ A beautiful ring imbued with strange spiritual powers that result in surprising 
 -------------------------
 DEX +1, INT +2
 -------------------------
-[^6666CCSpirtual Wizardry Set^000000]
+[^6666CCSpiritual Wizardry Set^000000]
 ^008800Spiritual Ring^000000
 ^008800Wizardry Staff or Soul Staff^000000
 DEX +2
@@ -20441,7 +20463,7 @@ Beautiful ring that contains the power of the spirit. If the item is fit and fas
 -------------------------
 INT +2, DEX +2
 -------------------------
-[^6666CCSpirtual Wizardry Set^000000]
+[^6666CCSpiritual Wizardry Set^000000]
 ^008800Spiritual Ring^000000
 ^008800Wizardry Staff or Soul Staff^000000
 DEX +2
@@ -20954,7 +20976,7 @@ MDEF +3
 Drains 50 HP every 10 seconds.
 Drains 300 HP when unequiped.
 -------------------------
-Adds 2% chance of inflicting Curse status when dealing long range physical attacks.
+Adds 2% chance of inflicting ^663399Curse^000000 status when dealing long range physical attacks.
 -------------------------
 +^008800Cursed Lyre^000000:
 ATK +25
@@ -21436,8 +21458,6 @@ Inflict 50% more damage against ^6666CCUndead monster^000000 with Heal.
 Inflict 30% more damage with ^008800Magnus Exorcismus^000000.
 Increases natural SP regeneration by 9%
 -------------------------
-[^000088Divine Cross & Spiritual Ring Equip Set^000000]
--------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
 Weight:^009900 10^000000
@@ -21530,7 +21550,7 @@ The pair to the Ring of Flame Lord. The two rings resonate togeather, and its sa
 AGI +2, VIT +1
 MDEF +2
 -------------------------
-Add a ?% chance of auto casting ^008800All kind of Skills^000000 when attacking.
+Add a chance of auto casting ^008800All kind of Skills^000000 when attacking.
 -------------------------
 [^000088Ring of Flame Lord & Ring of Resonance Equip Set^000000]
 -------------------------
@@ -22816,7 +22836,7 @@ A trap for insects with strong smell.
 Increase magic damage against ^6666CCInsect monster^000000 by 6%.
 -------------------------
 +Insecticide, reduces damage from ^6666CCInsect monster^000000 by 10%.
-When refined to +8 or higher,
+Refine level +8 or higher,
 Increase magic damage against insect by 4%.
 +Insecticide, reduces damage from ^6666CCInsect monster^000000 by 20%.
 -------------------------
@@ -23251,8 +23271,8 @@ An esoteric ring which enables its wearer to amplify his hidden power.
 CRIT +10
 -------------------------
 If equipped with Bloody Muffler, critical damage +5%, CRIT +10.
-When refined to +5 or higher, Critical damage +3%.
-When refined to +7 or higher, Critical damage +4%.
+Refine level +5 or higher, Critical damage +3%.
+Refine level +7 or higher, Critical damage +4%.
 -------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
@@ -23844,7 +23864,7 @@ Jobs:^6666CC 3rd Classes^000000
 [jRO item]
 #
 2995#
-Designed to help in machine operation.
+This mechanical device promotes the precise and timely execution of spells.
 -------------------------
 Reduces SP consumption by 10%.
 -------------------------
@@ -23862,7 +23882,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Mechanic^000000
 #
 2996#
-Boosting your cannon's accuracy and power. Its easy assembly and disassembly make this a great advantage.
+Designed to strengthen the gun barrels of Magic Gears for enhanced firepower, this part is easy to assemble and disassemble.
 -------------------------
 ATK +4%
 Hit +10
@@ -25718,7 +25738,7 @@ Increases ^008800Thunderstorm^000000 and ^008800Heaven Drive^000000 damage by 10
 ^00FF00Sage classes Bonus^000000
 Adds 20% chance of reflecting Magical attacks.
 Reduces variable cast time by 20%.
-Adds a low chance of dropping Red or Yellow Gemstones when defeating monsters.
+Adds a chance a defeated monster will drop ^6666CCRed Gemstone^000000 or ^6666CCYellow Gemstone^000000.
 -------------------------
 [^6666CCWizard Card Set^000000]
 ^00FF00Loli Ruri Card^000000
@@ -26094,7 +26114,7 @@ Gains 5% more experience from killing ^6666CCBrute monster^000000.
 ^3CB371Dragon Tail Card^000000
 ^3CB371Green Ferus Card^000000
 DEX +5
-+5% Arrow Vulcan Damage
++5% ^6666CCArrow Vulcan^000000 Damage
 +10% Musical Strike Damage
 +10% Throw Arrow Damage
 Bard or Dancer Bonus:
@@ -26305,7 +26325,7 @@ when attacking.
 ^3CB371Dragon Tail Card^000000
 ^3CB371Green Ferus Card^000000
 DEX +5
-+5% Arrow Vulcan Damage
++5% ^6666CCArrow Vulcan^000000 Damage
 +10% Musical Strike Damage
 +10% Throw Arrow Damage
 Bard or Dancer Bonus:
@@ -26409,10 +26429,7 @@ MaxSP +50
 ^00FF00Sage only Bonuses^000000
 +20% chance of reflecting Magic
 20% Faster cast
-Adds a low chance of
-dropping Red or Yellow
-Gemstones when defeating
-monsters.
+Adds a chance a defeated monster will drop ^6666CCRed Gemstone^000000 or ^6666CCYellow Gemstone^000000.
 ^6666CCWizard Card Set^000000
 ^00FF00Loli Ruri Card^000000
 ^00FF00Parasite Card^000000
@@ -26878,7 +26895,7 @@ when attacking.
 ^3CB371Dragon Tail Card^000000
 ^3CB371Green Ferus Card^000000
 DEX +5
-+5% Arrow Vulcan Damage
++5% ^6666CCArrow Vulcan^000000 Damage
 +10% Musical Strike Damage
 +10% Throw Arrow Damage
 Bard or Dancer Bonus:
@@ -27265,10 +27282,7 @@ Inflict 5% more damage with ^008800Napalm Beat^000000.
 ^00FF00Sage only Bonuses^000000
 +20% chance of reflecting Magic
 20% Faster Cast
-Adds a low chance of
-dropping Red or Yellow
-Gemstones when defeating
-monsters.
+Adds a chance a defeated monster will drop ^6666CCRed Gemstone^000000 or ^6666CCYellow Gemstone^000000.
 ^6666CCWizard Card Set^000000
 ^00FF00Loli Ruri Card^000000
 ^00FF00Parasite Card^000000
@@ -27316,10 +27330,7 @@ Inflict 5% more damage with ^008800Fire Wall^000000.
 ^00FF00Sage only Bonuses^000000
 +20% chance of reflecting Magic
 20% Faster cast
-Adds a low chance of
-dropping Red or Yellow
-Gemstones when defeating
-monsters.
+Adds a chance a defeated monster will drop ^6666CCRed Gemstone^000000 or ^6666CCYellow Gemstone^000000.
 ^6666CCWizard Card Set^000000
 ^00FF00Loli Ruri Card^000000
 ^00FF00Parasite Card^000000
@@ -27889,7 +27900,7 @@ Weight:^009900 1^000000
 4381#
 VIT +1
 MaxHP +10%
-^FFFFFF_^000000
+-------------------------
 ^6666CCBard/Dancer Card Set^000000
 ^3CB371Cruiser Card^000000
 ^3CB371Anolian Card^000000
@@ -27897,7 +27908,7 @@ MaxHP +10%
 ^3CB371Dragon Tail Card^000000
 ^3CB371Green Ferus Card^000000
 DEX +5
-+5% Arrow Vulcan Damage
++5% ^6666CCArrow Vulcan^000000 Damage
 +10% Musical Strike Damage
 +10% Throw Arrow Damage
 Bard or Dancer Bonus:
@@ -27905,7 +27916,6 @@ A low chance of
 auto casting
 level 2 Tarot Card of Fate
 when hit by a melee attack.
-^FFFFFF_^000000
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^9D9F00 Footgear^000000
@@ -27914,7 +27924,7 @@ Weight:^009900 1^000000
 4382#
 MaxHP +500
 Increases HP Recovery by 10%.
-^FFFFFF_^000000
+-------------------------
 ^6666CCSage Card Set^000000
 ^00FF00Yellow Novus Card^000000
 ^00FF00Evil Nymph Card^000000
@@ -27927,11 +27937,7 @@ Increases HP Recovery by 10%.
 ^00FF00Sage only Bonuses^000000
 +20% chance of reflecting Magic
 20% Faster variable cast time
-Adds a low chance of
-dropping Red or Yellow
-Gemstones when defeating
-monsters.
-^FFFFFF_^000000
+Adds a chance a defeated monster will drop ^6666CCRed Gemstone^000000 or ^6666CCYellow Gemstone^000000.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^00C33C Armor^000000
@@ -27983,7 +27989,7 @@ Compound on:^FF0000 Weapon^000000
 Weight:^009900 1^000000
 #
 4389#
-Adds a chance of dropping ^008800Fireproof Potion^000000, ^008800Coldproof Potion^000000, ^008800Earthproof Potion^000000 or ^008800Thunderproof Potion^000000 when defeating a monster.
+Adds a chance a defeated monster will drop ^6666CCFireproof Potion^000000, ^6666CCColdproof Potion^000000, ^6666CCEarthproof Potion^000000 or ^6666CCThunderproof Potion^000000.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^B40088 Accessory^000000
@@ -27998,23 +28004,21 @@ Compound on:^FF0000 Weapon^000000
 Weight:^009900 1^000000
 #
 4391#
-Adds a chance of dropping ^008800Fried Sweet Potatoes^000000 when defeating ^6666CCAngel monster^000000.
+Adds a chance a defeated ^6666CCAngel monster^000000 will drop ^6666CCFried Sweet Potato^000000.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^B40088 Accessory^000000
 Weight:^009900 1^000000
 #
 4392#
-Adds 1 DEX for every
-18 points of base VIT.
+Adds 1 DEX for every 18 points of base VIT.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^00C33C Armor^000000
 Weight:^009900 1^000000
 #
 4393#
-Adds 1 INT for every
-18 points of base STR.
+Adds 1 INT for every 18 points of base STR.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^00C33C Armor^000000
@@ -28089,11 +28093,10 @@ Weight:^009900 1^000000
 [^6666CCSwordman^000000|^6666CCMerchant^000000|^6666CCThief^000000]
 STR +2
 MaxHP +5%
-^FFFFFF_^000000
+-------------------------
 [^6666CCArcher^000000|^6666CCAcolyte^000000|^6666CCMage^000000]
 INT +2
 MaxSP +5%.
-^FFFFFF_^000000
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^008C99 Garment^000000
@@ -28115,7 +28118,7 @@ Weight:^009900 1^000000
 #
 4405#
 Every refine adds 2% chance of reflecting magic damage back to attacker.
-^FFFFFF_^000000
+-------------------------
 [^6666CCMage class^000000]
 MDEF +3
 -------------------------
@@ -28139,7 +28142,7 @@ Class:^6666CC Card^000000
 Compound on:^FF0000 Weapon^000000
 #
 4408#
-Increases Physical damage to Holy, Shadow, Angel and ^6666CCDemon monster^000000 by 40%.
+Increases Physical damage to ^777777Holy^000000 element, ^777777Shadow^000000 element, ^6666CCAngel^000000 and ^6666CCDemon monster^000000 by 40%.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^00C33C Armor^000000
@@ -28148,7 +28151,7 @@ Weight:^009900 1^000000
 4409#
 MATK +5%
 DEF -10
-^FFFFFF_^000000
+-------------------------
 [^6666CCMage Class^000000]
 MaxSP +100
 -------------------------
@@ -28158,7 +28161,7 @@ Weight:^009900 1^000000
 #
 4410#
 ATK +15
-^FFFFFF_^000000
+-------------------------
 [^6666CCSwordman class^000000]
 MaxHP +500
 -------------------------
@@ -28200,19 +28203,16 @@ Compound on:^6666CC Shield^000000
 Weight:^009900 1^000000
 #
 4415#
-Adds a high chance
-that defeated monsters
-will drop Ice Cream.
-Increases Recovery
-Rate of Ice Cream
-by 100%.
+Adds a chance a defeated monster will drop ^6666CCIce Cream^000000.
+Increases Recovery Rate of Ice Cream by 100%.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^B40088 Accessory^000000
 Weight:^009900 1^000000
 #
 4416#
-Reduces variable cast time of Cold Bolt skill by 25%, and increases that Cold Bolt's damage by 25%.
+Reduces variable cast time of ^6666CCCold Bolt^000000 skill by 25%.
+Increases ^6666CCCold Bolt^000000 damage by 25%.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^B40088 Accessory^000000
@@ -28306,7 +28306,7 @@ Weight:^009900 1^000000
 4427#
 When compounded into a One-Handed or Two-Handed Sword,
 CRIT +5, HIT +5,
-increases power of ^FF0000Bowling Bash^000000 skill by 25%
+increases ^FF0000Bowling Bash^000000 damage by 25%.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^FF0000 Weapon^000000
@@ -28315,7 +28315,7 @@ Weight:^009900 1^000000
 4428#
 When compounded to a Bow,
 CRIT +5, HIT +5,
-increases the power of the ^FF0000Arrow Shower^000000 skill by 50%.
+increases ^FF0000Arrow Shower^000000 damage by 50%.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^FF0000 Weapon^000000
@@ -28346,7 +28346,7 @@ Weight:^009900 1^000000
 4432#
 ATK +5
 Increases physical damage inflicted on Earth monsters by 5%,
-CRIT +15 bonus against Plant and ^6666CCBrute monster^000000.
+CRIT +15 bonus against ^6666CCPlant^000000 and ^6666CCBrute monster^000000.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^008C99 Garment^000000
@@ -28981,7 +28981,7 @@ Weight:^009900 1^000000
 4509#
 INT +3.
 Reduces damage taken from ^6666CCInsect monster^000000 by 10%.
-When refined to +9, adds an additional 5% resistance.
+Refine level +9, adds an additional 5% resistance.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^7102EF Headgear^000000
@@ -29529,8 +29529,8 @@ Weight:^009900 1^000000
 4575#
 ATK +10.
 [+^000088Dagger Weapon^000000]
-When refined to +10 or more add ASPD +1.
-When refined to +14 or more add ASPD +1.
+Refine level +10 or more add ASPD +1.
+Refine level +14 or more add ASPD +1.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^FF0000 Weapon^000000
@@ -29797,8 +29797,8 @@ Weight:^009900 1^000000
 ATK +5
 MATK +5
 [^000088 +Book Weapon Class ^000000]
-When refined to +10 or higher, ATK +20 and MATK +20.
-When refined to +14 or higher, ATK +20 and MATK +20.
+Refine level +10 or higher, ATK +20 and MATK +20.
+Refine level +14 or higher, ATK +20 and MATK +20.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^FF0000 Weapon^000000
@@ -29880,7 +29880,7 @@ Compound on:^008C99 Garment^000000
 Weight:^009900 1^000000
 #
 4630#
-Adds a chance of inflicting Curse status to all enemies on 11x11 cells when wearer receive physical attacks.
+Adds a chance of inflicting ^663399Curse^000000 status to all enemies on 11x11 cells when wearer receive physical attacks.
 When equipped with a garment compounded to ^008800Arc Elder Card^000000, the chance is further increased.
 -------------------------
 Class:^6666CC Card^000000
@@ -30121,8 +30121,8 @@ Weight:^009900 1^000000
 #
 4658#
 Increase magical damage inflicted by 5%.
-When refined to +7, increase magical damage inflicted by 3%.
-When refined to +9, increase magical damage inflicted by 2%.
+Refine level +7, increase magical damage inflicted by 3%.
+Refine level +9, increase magical damage inflicted by 2%.
 -------------------------
 Class:^6666CC Card^000000
 Compound on:^6666CC Shoes^000000
@@ -36577,7 +36577,7 @@ Jobs:^6666CC All classes^000000
 A beautiful headgear with a crested gold ornament and a cursed gemstone in the middle.
 -------------------------
 DEX +1
-When refined to +9 or higher, adds DEX +2.
+Refine level +9 or higher, adds DEX +2.
 -------------------------
 Increases damage to ^6666CCUndead monster^000000 by 5%.
 If the refine level is lower than +6, has a low chance of casting Blind on it's wearer dealing physical attacks.
@@ -37383,7 +37383,7 @@ This headgear is a reward for helping the Moon Rabbits recover their runaway ric
 ATK +5
 MATK +5
 -------------------------
-When refined to +5 or higher, ATK +1 and MATK +1 per refine level.
+Refine level +5 or higher, ATK +1 and MATK +1 per refine level.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
@@ -37524,8 +37524,8 @@ A helmet made from hard scale of Dragon. The wearer of this headgear can get the
 -------------------------
 STR +2, INT +2, DEX +2
 -------------------------
-When refined to +7, increase experience gained from killing ^6666CCDragon monster^000000 by 3%.
-When refined to +9, increase experience gained from killing ^6666CCDragon monster^000000 by 5%.
+Refine level +7, increase experience gained from killing ^6666CCDragon monster^000000 by 3%.
+Refine level +9, increase experience gained from killing ^6666CCDragon monster^000000 by 5%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -37552,8 +37552,8 @@ Jobs:^6666CC All classes^000000
 DEX +3
 Flee +3
 -------------------------
-When refined to +7, Increases long range physical attacks by 3%, Flee +3.
-When refined to +9, Increases long range physical attacks by 5%, Flee +4.
+Refine level +7, Increases long range physical attacks by 3%, Flee +3.
+Refine level +9, Increases long range physical attacks by 5%, Flee +4.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
@@ -37716,8 +37716,8 @@ A cap worn by a desert assassin who fought with incredible speed.
 ASPD +5%
 ATK +3%
 -------------------------
-When refined to +9, ATK +4%.
-When refined to +10, ATK +1%.
+Refine level +9, ATK +4%.
+Refine level +10, ATK +1%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
@@ -37906,7 +37906,7 @@ MDEF +3
 -------------------------
 Adds 7% tolerance to ^33CC00Wind^000000 element.
 -------------------------
-When refined to +8 or higher, has a low chance of adding 40 ATK for 6 seconds while melee attacking and a low chance of adding 40 MATK for 6 seconds while casting spells on a target.
+Refine level +8 or higher, has a low chance of adding 40 ATK for 6 seconds while melee attacking and a low chance of adding 40 MATK for 6 seconds while casting spells on a target.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
@@ -37956,13 +37956,13 @@ FLEE +10
 -------------------------
 Ignore 10% physical defense of Demihuman and ^6666CCBrute monster^000000.
 -------------------------
-When refined to +7, add a chance of inflicting ^663399Bleeding^000000 status to enemies on 5x5 cells when phsycally attacking.
-When refined to +9, add a chance of autocasting Level 1 Howling of Lion when phsycally attacking.
+Refine level +7, add a chance of inflicting ^663399Bleeding^000000 status to enemies on 5x5 cells when phsycally attacking.
+Refine level +9, add a chance of autocasting Level 1 Howling of Lion when phsycally attacking.
 -------------------------
 When equipped with Angry Mouth:
 CRIT +10
-When refined to +7, increase critical damage by 10%.
-When refined to +9, ASPD +1.
+Refine level +7, increase critical damage by 10%.
+Refine level +9, ASPD +1.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
@@ -38348,7 +38348,8 @@ Jobs:^6666CC All classes^000000
 5525#
 A hat made of flower to celebrate the partnership campaign.
 -------------------------
-MaxHP +80, MaxSP +20
+MaxHP +80
+MaxSP +20
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
@@ -38360,7 +38361,8 @@ Jobs:^6666CC All classes^000000
 5526#
 The beautiful Lady Tanee Doll will keep you company on your adventures.
 -------------------------
-AGI +2, Flee +3
+AGI +2
+Flee +3
 -------------------------
 Reduces damage taken from ^33CC00Wind^000000 element attacks by 5%.
 -------------------------
@@ -38376,7 +38378,8 @@ Jobs:^6666CC All classes^000000
 5527#
 A hat molded out of Lunatic Fluff.
 -------------------------
-LUK +3, CRIT +5
+LUK +3
+CRIT +5
 -------------------------
 Increase physical damage inflicted on ^6666CCPlant monster^000000 by 20%.
 -------------------------
@@ -38419,7 +38422,7 @@ A black Raven Cap that has black beak and feathers. It is so black.
 -------------------------
 Increase recovery amount from Meat by 50%.
 -------------------------
-Adds a low chance of inflicting Curse status on attacker when wearer receive melee physical attacks.
+Adds a low chance of inflicting ^663399Curse^000000 status on attacker when wearer receive melee physical attacks.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
@@ -38624,7 +38627,7 @@ A magnificent diadem created to pay tribute to the 1st sign of the zodiac, Aries
 VIT +1
 MaxHP +1%
 -------------------------
-When refined to +7 or higher, MaxHP +2%.
+Refine level +7 or higher, MaxHP +2%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
@@ -38638,7 +38641,7 @@ A magnificent crown created to pay tribute to the 1st sign of the zodiac, Aries 
 -------------------------
 LUK +2
 -------------------------
-When refined to +7 or higher, CRIT +5 and increase critical damage by 5%.
+Refine level +7 or higher, CRIT +5 and increase critical damage by 5%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
@@ -38703,7 +38706,7 @@ FLEE +10
 Adds a low chance of inflicting Stun on enemy when dealing physical attacks.
 Each refine increase the chance of inflicting Stun.
 -------------------------
-When refined to +7, ATK +15, ASPD +5%.
+Refine level +7, ATK +15, ASPD +5%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
@@ -38742,7 +38745,9 @@ Jobs:^6666CC All classes^000000
 ^000088Rental Item^000000
 Limited Promo! Summer Festival Bunny Band! 4 weeks rental item.
 -------------------------
-MDEF +4, Reduces damage taken from ^6666CCDemihuman monster^000000 by 9%.
+MDEF +4
+-------------------------
+Reduces damage taken from ^6666CCDemihuman monster^000000 by 9%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 14^000000
@@ -38850,7 +38855,7 @@ INT +1, MaxSP +50.
 -------------------------
 Adds a chance of casting Level 1 Heal on its wearer when wearer receive physical attacks.
 -------------------------
-Has a chance of casting Lighting Bolt, Fire Bolt or Cold Bolt between Level 1 to 3 when dealing physical attacks.
+Has a chance of casting Lighting Bolt, Fire Bolt or ^6666CCCold Bolt^000000 between Level 1 to 3 when dealing physical attacks.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 1^000000
@@ -38930,7 +38935,7 @@ A hat to commemorate the Sinulog Festival, you felt stronger while wearing it.
 -------------------------
 STR +1
 -------------------------
-When refined to +7, CRIT +10, HIT +10, add a chance of increasing ATK by 30 when dealing physical attacks.
+Refine level +7, CRIT +10, HIT +10, add a chance of increasing ATK by 30 when dealing physical attacks.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
@@ -38963,7 +38968,7 @@ Reduce after cast delay 2%.
 -------------------------
 Reduces damage taken from ^33CC00Wind^000000 element attacks by 5%.
 -------------------------
-When refined to +7, DEX +1, MATK +30.
+Refine level +7, DEX +1, MATK +30.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
@@ -38979,7 +38984,7 @@ AGI +2, FLEE +10
 -------------------------
 Reduces damage taken from ^33CC00Wind^000000 element attacks by 5%.
 -------------------------
-When refined to +7, HIT +5, ATK +30.
+Refine level +7, HIT +5, ATK +30.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
@@ -39223,7 +39228,7 @@ A magnificent crown created to pay tribute to the 5th sign of the zodiac, Leo th
 -------------------------
 STR +2
 -------------------------
-Increase Resistance to ^FF0000Fire^000000 property by 5%.
+Increase Resistance to ^FF0000Fire^000000 element by 5%.
 -------------------------
 When refined to 7 or higher,
 Flee +10, DEF +1,
@@ -39241,7 +39246,7 @@ A magnificent diadem created to pay tribute to the 5th sign of the zodiac, Leo t
 -------------------------
 DEX +2
 -------------------------
-Increase Resistance to ^FF0000Fire^000000 property by 5%.
+Increase Resistance to ^FF0000Fire^000000 element by 5%.
 -------------------------
 When refined to 7 or higher,
 Flee +10, ASPD +3%,
@@ -39306,7 +39311,7 @@ Adds 3% tolerance to ^6666CCDemihuman monster^000000.
 -------------------------
 After cast delay reduced by 3%.
 -------------------------
-When refined to +7 or higher, reduces damage from all elementals attack by 5%.
+Refine level +7 or higher, reduces damage from all elementals attack by 5%.
 -------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -40869,7 +40874,7 @@ Attached to the crown is a Zircon gemstone, the birthstone for those born under 
 DEX +2
 MDEF +3
 -------------------------
-Reduces damage taken from ^FF0000Fire^000000 property by 7%
+Reduces damage taken from ^FF0000Fire^000000 element by 7%
 -------------------------
 Refine Level +7:
 Reduces variable cast time by 3%.
@@ -43273,9 +43278,9 @@ A hat with a motif of Hylozoist's bunny.
 -------------------------
 Increases damage inflicted against Nifleheim monsters by 5%.
 -------------------------
-When refined to +5, Increases damage inflicted against Nifleheim monsters by 5%.
-When refined to +7, Increases damage inflicted against Nifleheim monsters by 10%.
-When refined to +9, Increases damage inflicted against Nifleheim monsters by 20%.
+Refine level +5, Increases damage inflicted against Nifleheim monsters by 5%.
+Refine level +7, Increases damage inflicted against Nifleheim monsters by 10%.
+Refine level +9, Increases damage inflicted against Nifleheim monsters by 20%.
 -------------------------
 when wearer receive physical or magical attacks, adds chance to curse enemies on 11x11 AoE, every refine increase the trigger chance.
 -------------------------
@@ -45562,7 +45567,7 @@ Weight:^009900 0^000000
 Weight:^009900 0^000000
 #
 6360#
-Gemstone with ^FF0000Fire^000000 property, a small piece split from Red Blood.
+Gemstone with ^FF0000Fire^000000 element, a small piece split from Red Blood.
 ^FFFFFF_^000000
 Weight:^009900 0.5^000000
 #
@@ -47171,41 +47176,39 @@ Standard sized gun part. Perfect for use in the production of a revolver class w
 Weight:^009900 0^000000
 #
 6748#
-The group of scholars of the excavation create about research reports.
-In one day, he and his team of nerds have written all the research content.
+The Artnard Excavation Team's daily report on its exploration and excavation of Phantasmagorika.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6749#
-This device is the heart of all common machines found in this place.
-He and his team are calling this device Operation Control Device
+All the machines found in Phantasmagorika have this component installed in the center of their mechanisms. The Excavation Team has named it the Power Control Device.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6750#
-Broken engine. Is this repairable?
+A broken engine. Maybe it can be refurbished.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 6751#
-Plate Danted by an impact.
+A dented iron plate. Maybe it can be flattened and reusable.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 6752#
 Burnt parts of Charleston.
-A mass production part of charleston.
-It has something written if you look closely...
+Take it to Mass Charleston.
+Maybe some of its parts can be salvaged.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6753#
-Register for believers from destruction, take this blesses you.
+The Doom Prayers carry this token with them.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6754#
-The herb is effective in the treatment of wounds.
+A herb with wound-healing ability.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
@@ -47215,14 +47218,14 @@ Ill be contaminated substances emitted magical power. Plainly seems hard to mana
 Weight:^009900 1^000000
 #
 6756#
-Around verus city remains were found with a strange energy, one advanced mechanics using a special process.
-Could be a clue to the origin of the power of this city?
+Specially enriched energy found from Verus City location.
+Maybe this could help us reveal the secret of Verus City power core..?
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6757#
-Found in the rubble some unusual records of verus city.
-You can hear some events that happened in the city of verus.
+Unique record found from Verus City ruin.
+You can have a peek of old Verus City life or some historical cases.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
@@ -51508,7 +51511,7 @@ The words in the scrolls 'Good fortune'. Will be rewarded Hover those in need.
 Weight:^009900 1^000000
 #
 7521#
-A bead, imbued with the ^FF0000Fire^000000 property, that is used as a catalyst by Ninjas when performing some of their skills.
+A bead, imbued with the ^FF0000Fire^000000 element, that is used as a catalyst by Ninjas when performing some of their skills.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
@@ -54328,11 +54331,11 @@ Class:^6666CC Monster Egg^000000
 An egg in which a Imp Cute Pet rests.
 Can be hatched by using a ^6666CCPet Incubator^000000.
 If pet intimacy is Cordial:
-Reduces damage taken from ^FF0000Fire^000000 property by 2%.
-Increases damage to ^FF0000Fire^000000 property by 1%.
+Reduces damage taken from ^FF0000Fire^000000 element by 2%.
+Increases damage to ^FF0000Fire^000000 element by 1%.
 If pet intimacy is Loyal:
-Reduces damage taken from ^FF0000Fire^000000 property by 3%.
-Increases damage to ^FF0000Fire^000000 property by 2%.
+Reduces damage taken from ^FF0000Fire^000000 element by 3%.
+Increases damage to ^FF0000Fire^000000 element by 2%.
 ^ffffff_^000000
 Class:^6666CC Monster Egg^000000
 #
@@ -56323,7 +56326,7 @@ Duration:^009900 10^000000 sec
 Weight:^009900 10^000000
 #
 12114#
-Temporarily enchant the user's weapon with the ^FF0000Fire^000000 property.
+Temporarily enchant the user's weapon with the ^FF0000Fire^000000 element.
 ^FFFFFF_^000000
 Class:^0000FF Usable item^000000
 Effect:^009900 Endows weapon with Fire property^000000
@@ -57392,14 +57395,13 @@ Works only for chats said above your head and for vend names.
 Weight:^009900 0^000000
 #
 12290#
-When double clicked, your font changes, and when used again, your font goes back to normal.
-Works only for chats said above your head and for vend names.
+A New Year Cat's present. Having a description in small letters: A premium can for cats containing tuna 45%
 ^000088HP Recovery +5%, Enables use of Level 5 Blessing^000000.
 ^FFFFFF_^000000
 Weight:^009900 10^000000
 #
 12291#
-...
+A New Year Cat's present. Having a description in small letters: Royal mineral water made of Prontera aquifer water
 ^000088SP Recovery +5%, Increases Agility Level 5^000000.
 ^FFFFFF_^000000
 Weight:^009900 10^000000
@@ -57902,13 +57904,15 @@ Effect disappear upon death.
 Weight:^009900 8^000000
 #
 12376#
-...
+The second new item of Mysterious Can. Fresh mackerel flavor.
+Best nutrition for children in the growing period.
 Recover 3% HP. Enables use of Level 2 ^008800Gloria^000000.
 ^FFFFFF_^000000
 Weight:^009900 10^000000
 #
 12377#
-...
+The second new item of Mysterious PET Bottle. Blue ocean flavor.
+Due to its smell, the ocean spreads right in front of one's eyes.
 Recover 3% SP. Enables use of Level 1 ^008800Magnificat^000000.
 ^FFFFFF_^000000
 Weight:^009900 10^000000
@@ -60176,56 +60180,56 @@ Weight:^009900 10^000000
 #
 12874#
 Developed by the Alchemy Union of the Three Countries, this new medicine endows superhuman strength, though it's only temporary.
-Instantly consumes 3,000 of your HP and in return, increases your Physical/Magic damage on player enemies by 100% for 10 seconds.
+Instantly drain 3,000 of your HP and in return, increases your Physical/Magic damage on player enemies by 100% for 10 seconds.
 Weight:^009900 10^000000
 Level Requirement:^009900 80^000000
 #
 12875#
 Developed by the Alchemy Union of the Three Countries, Endows superhuman strength, though it's only temporary.
-Instantly consumes 300 of your SP and in return, decreases 50% damage taken from other adventurers for 10 seconds.
+Instantly drain 300 of your SP and in return, decreases 50% damage taken from other adventurers for 10 seconds.
 Weight:^009900 1^000000
 Level Requirement:^009900 80^000000
 #
 12876#
 The first-class pharmacist Vincent has created this potion.
 Endows superhuman strength, though it's only temporary.
-Instantly consumes 3,000 of your HP and in return, immunizes you against Stun for 10 seconds.
+Instantly drain 3,000 of your HP and in return, immunizes you against Stun for 10 seconds.
 Weight:^009900 1^000000
 #
 12877#
 The first-class pharmacist Vincent has created this potion.
 Endows superhuman strength, though it's only temporary.
-Instantly consumes 3,000 of your HP and in return, immunizes you against Petrification for 10 seconds.
+Instantly drain 3,000 of your HP and in return, immunizes you against Petrification for 10 seconds.
 Weight:^009900 1^000000
 #
 12878#
 The first-class pharmacist Vincent has created this potion.
 Endows superhuman strength, though it's only temporary.
-Instantly consumes 3,000 of your HP and in return, immunizes you against Frost for 10 seconds.
+Instantly drain 3,000 of your HP and in return, immunizes you against Frost for 10 seconds.
 Weight:^009900 1^000000
 #
 12879#
 The first-class pharmacist Vincent has created this potion.
 Endows superhuman strength, though it's only temporary.
-Instantly consumes 3,000 of your HP and in return, immunizes you against Sleep for 10 seconds.
+Instantly drain 3,000 of your HP and in return, immunizes you against Sleep for 10 seconds.
 Weight:^009900 1^000000
 #
 12880#
 The first-class pharmacist Vincent has created this potion.
 Endows superhuman strength, though it's only temporary.
-Instantly consumes 3,000 of your HP and in return, immunizes you against Curse for 10 seconds.
+Instantly drain 3,000 of your HP and in return, immunizes you against Curse for 10 seconds.
 Weight:^009900 1^000000
 #
 12881#
 The first-class pharmacist Vincent has created this potion.
 Endows superhuman strength, though it's only temporary.
-Instantly consumes 3,000 of your HP and in return, immunizes you against Silence for 10 seconds.
+Instantly drains 3,000 of your HP and in return, immunizes you against Silence for 10 seconds.
 Weight:^009900 1^000000
 #
 12882#
 The first-class pharmacist Vincent has created this potion.
 Endows superhuman strength, though it's only temporary.
-Instantly consumes 3,000 of your HP and in return, immunizes you against Blind for 10 seconds.
+Instantly drain 3,000 of your HP and in return, immunizes you against Blind for 10 seconds.
 Weight:^009900 1^000000
 #
 12883#
@@ -61180,7 +61184,7 @@ Not much is known about the mysterious Angelic Wing Dagger...
 13006#
 A dagger whose hilt is crafted from black dragon scale, a material rumored to possess the power of darkness.
 -------------------------
-Adds a chance of inflicting Curse status on target when dealing melee physical attacks.
+Adds a chance of inflicting ^663399Curse^000000 status on target when dealing melee physical attacks.
 -------------------------
 Class:^6666CC Dagger^000000
 Attack:^CC0000 150^000000
@@ -61907,7 +61911,7 @@ MaxSP +100
 -------------------------
 Increases natural SP regeneration by 5%.
 -------------------------
-Adds a chance of inflicting Curse status on wielder when dealing physical and magical attacks.
+Adds a chance of inflicting ^663399Curse^000000 status on wielder when dealing physical and magical attacks.
 -------------------------
 Class:^6666CC Dagger^000000
 Attack:^CC0000 107^000000
@@ -62497,7 +62501,7 @@ Weapon Level:^009900 4^000000
 Jobs:^6666CC Gunslinger^000000
 #
 13112#
-A revolver that is made by the Paradise Group. This is easy for beginning Gunslingers to weild.
+A revolver that is made by the Paradise Group. This is easy for novice Gunslingers to weild.
 -------------------------
 HIT -5
 -------------------------
@@ -62511,7 +62515,7 @@ Level Requirement:^009900 26^000000
 Jobs:^6666CC Gunslinger^000000
 #
 13113#
-A revolver that is made by the Paradise Group. It's suitable for an intermediate gun handler.
+A revolver that is made by the Paradise Group. It's suitable for an intermediate Gunslingers.
 -------------------------
 HIT -5
 -------------------------
@@ -62525,7 +62529,7 @@ Level Requirement:^009900 40^000000
 Jobs:^6666CC Gunslinger^000000
 #
 13114#
-A revolver that is made by the Paradise Group. It's suitable for an advanced gun handler.
+A revolver that is made by the Paradise Group. It's suitable for an advanced Gunslingers.
 -------------------------
 HIT -5
 -------------------------
@@ -62553,7 +62557,10 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Gunslinger^000000
 #
 13116#
-HIT -5.
+Novice gunslinger's pistol made for less recoil experience. Less recoil, less shooting power.
+-------------------------
+HIT -5
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 20^000000
 Weight:^009900 50^000000
@@ -62593,8 +62600,11 @@ Jobs:^6666CC Gunslinger^000000
 #
 13120#
 A pair of guns that have a white body and a red barrel.
+-------------------------
 Increases Desperado and Fallen Angel skill damage by 20%.
+-------------------------
 Inflicts burning status at a small chance when dealing physical attacks.
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 150^000000
 Weight:^009900 80^000000
@@ -62604,9 +62614,12 @@ Jobs:^6666CC Gunslinger^000000
 #
 13122#
 A high-end gun whose design is focused on performance.
+-------------------------
 HIT +5
 ASPD -10%
+-------------------------
 Increases long range physical attacks by 30%.
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 200^000000
 Weight:^009900 100^000000
@@ -62616,9 +62629,12 @@ Jobs:^6666CC Rebellion^000000
 #
 13124#
 A high-end gun whose design is focused on performance.
+-------------------------
 HIT +5
 ASPD -10%
+-------------------------
 Increases long range physical attacks by 30%.
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 200^000000
 Weight:^009900 100^000000
@@ -62628,9 +62644,12 @@ Jobs:^6666CC Rebellion^000000
 #
 13125#
 Revolver with steel cone that is added to enhance the ability to shoot, made of metal.
+-------------------------
 Each refine increase ATK +3/ Increases long range physical attacks by 1%.
+-------------------------
 ATK +3 for each 10 Base Levels above 20
 (Applied until you reach base lv 120)
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 30^000000
 Weight:^009900 0^000000
@@ -62639,19 +62658,21 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Gunslinger^000000
 #
 13126#
-This weapon contains a strange energy.
-I feel that one of its benefits were sealed with a high cost.
+This weapon contains a strange energy. It's feels there are sealed stats.
 Class:^6666CC Revolver^000000
 Attack:^CC0000 175^000000
 Weight:^009900 50^000000
 Weapon Level:^009900 4^000000
 Level Requirement:^009900 100^000000
-Jobs:^6666CC Gunslinger^000000
+Jobs:^6666CC Rebel^000000
 #
 13127#
 Pistol with red light radiance barrel.
+-------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
-Level 70 or higher:Per 10 BaseLevel,ATK +5.
+-------------------------
+Level 70 or higher:Per 10 BaseLevel, ATK +5.
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 100^000000
 Weight:^009900 100^000000
@@ -62661,8 +62682,10 @@ Jobs:^6666CC Gunslinger^000000
 #
 13128#
 Revolver imbued with Vicious Mind.
+-------------------------
 Increase ATK by (refine*refine)
 (up to +15 refine level)
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 150^000000
 Weight:^009900 150^000000
@@ -62672,7 +62695,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13129#
 A certified kingdom equipment for adventurer.
+-------------------------
 Increase ATK by (Refine*Refine*1.25)
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 95^000000
 Weight:^009900 50^000000
@@ -62680,18 +62705,28 @@ Weapon Level:^009900 3^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC Gunslinger^000000
 #
+13131#
+[jRO item]
+#
 13132#
 A metallic Revolver made of oridecon created for experienced adventurers.
 Can be enchanted by ^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
+-------------------------
 Increases Fire Dance damage by 10%.
+-------------------------
 Every refine level increase ATK by 5 and Long range physical attacks by 2%.
+-------------------------
 Every 10 base level increase ATK by 5 (Applies up to base level 150)
+-------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 55^000000
 Weight:^009900 0^000000
 Weapon Level:^009900 3^000000
 Level Requirement:^009900 100^000000
 Jobs:^6666CC Rebellion^000000
+#
+13133#
+[jRO item]
 #
 13150#
 A practical firearm with a long gun barrel which increases its range and accuracy.
@@ -62704,7 +62739,10 @@ Jobs:^6666CC Gunslinger^000000
 #
 13151#
 A high performance rifle whose shots have long range and great power.
-HIT +10, CRIT +10
+-------------------------
+HIT +10
+CRIT +10
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 120^000000
 Weight:^009900 70^000000
@@ -62714,7 +62752,10 @@ Jobs:^6666CC Gunslinger^000000
 #
 13152#
 A high performance rifle whose shots have long range and great power.
-HIT +10, CRIT +10
+-------------------------
+HIT +10
+CRIT +10
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 120^000000
 Weight:^009900 70^000000
@@ -62724,7 +62765,10 @@ Jobs:^6666CC Gunslinger^000000
 #
 13153#
 An advanced rifle with reinforced explosive power. Just as the dusk marks the day's end, this gun also draws life to a close.
-HIT +10, CRIT +10
+-------------------------
+HIT +10
+CRIT +10
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 150^000000
 Weight:^009900 75^000000
@@ -62734,7 +62778,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13154#
 A heavy shotgun whose shots sound like flint striking against steel.
-Inflicts splashed damage.
+-------------------------
+Inflicts splash damage.
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 135^000000
 Weight:^009900 90^000000
@@ -62744,7 +62790,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13155#
 A dark, stylish shotgun that has been modified so that it rapidly fires bullets from two muzzles to maximize it power.
-Inflicts splashed damage.
+-------------------------
+Inflicts splash damage.
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 180^000000
 Weight:^009900 90^000000
@@ -62754,8 +62802,11 @@ Jobs:^6666CC Gunslinger^000000
 #
 13156#
 As the most powerful, readily available shotgun, this weapon has been nicknamed, ''A Gunslinger's best friend''.
-Each attack inflicts splashed damage,
+-------------------------
+Inflicts splash damage.
+-------------------------
 Has a low chance of casting Level 6 Spread Shot.
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 210^000000
 Weight:^009900 100^000000
@@ -62774,7 +62825,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13158#
 A Gatling Gun imbued with enormous destructive power.
+-------------------------
 Adds +10 Critical against ^6666CCBrute monster^000000.
+-------------------------
 Class:^6666CC Gatling Gun^000000
 Attack:^CC0000 75^000000
 Weight:^009900 250^000000
@@ -62784,7 +62837,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13159#
 A Gatling Gun imbued with enormous destructive power.
+-------------------------
 Adds +10 Critical against ^6666CCBrute monster^000000.
+-------------------------
 Class:^6666CC Gatling Gun^000000
 Attack:^CC0000 75^000000
 Weight:^009900 250^000000
@@ -62794,7 +62849,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13160#
 A top of the line, high performance grenade launcher.
-Each melee physical attack has a low chance of destroying an enemy's armor.
+-------------------------
+Each physical attack has a low chance of destroying an enemy's armor.
+-------------------------
 Class:^6666CC Grenade Launcher^000000
 Attack:^CC0000 220^000000
 Weight:^009900 120^000000
@@ -62804,7 +62861,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13161#
 A top of the line, high performance grenade launcher.
-Each melee physical attack has a low chance of destroying an enemy's armor.
+-------------------------
+Each physical attack has a low chance of destroying an enemy's armor.
+-------------------------
 Class:^6666CC Grenade Launcher^000000
 Attack:^CC0000 220^000000
 Weight:^009900 120^000000
@@ -62823,9 +62882,12 @@ Jobs:^6666CC Gunslinger^000000
 #
 13163#
 A sniping rifle with a lengthened barrel for improved accuracy.
-Has low chance of autocasting Level 5 Tracking with each physical attack.
+-------------------------
 CRIT +20
 APSD -3%
+-------------------------
+Has low chance of autocasting Level 5 Tracking with each physical attack.
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 150^000000
 Weight:^009900 100^000000
@@ -62835,9 +62897,12 @@ Jobs:^6666CC Gunslinger^000000
 #
 13164#
 A sniping rifle with a lengthened barrel for improved accuracy.
-Has low chance of autocasting Level 5 Tracking with each physical attack.
+-------------------------
 CRIT +20
 APSD -3%
+-------------------------
+Has low chance of autocasting Level 5 Tracking with each physical attack.
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 150^000000
 Weight:^009900 100^000000
@@ -62847,9 +62912,12 @@ Jobs:^6666CC Gunslinger^000000
 #
 13165#
 A rifle with a shorter barrel to better suit it for close quarter battles such as in the jungle or indoors.
-CRIT +4%,
-ASPD +10%.
-Reduces Accuracy by a value equal to 1/3 of the character's base DEX.
+-------------------------
+CRIT +4%
+ASPD +10%
+-------------------------
+Reduces HIT by a value equal to 1/3 of the character's base DEX.
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 170^000000
 Weight:^009900 70^000000
@@ -62859,9 +62927,12 @@ Jobs:^6666CC Gunslinger^000000
 #
 13166#
 A rifle with a shorter barrel to better suit it for close quarter battles such as in the jungle or indoors.
-CRIT +4,
-ASPD +10%.
-Reduces Accuracy by a value equal to 1/3 of the character's base DEX.
+-------------------------
+CRIT +4
+ASPD +10%
+-------------------------
+Reduces HIT by a value equal to 1/3 of the character's base DEX.
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 170^000000
 Weight:^009900 70^000000
@@ -62871,10 +62942,15 @@ Jobs:^6666CC Gunslinger^000000
 #
 13167#
 The barrel of the original Gate Keeper is made out of pure Oridecon, making it very durable.
-DEX +1.
-Deals splash damage
+-------------------------
+DEX +1
+-------------------------
+Inflicts splash damage.
+-------------------------
 Has low chance of autocasting Level 6 Spread Shot with each attack.
+-------------------------
 Increasing this weapon's upgrade level adds a DEF bonus.
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 200^000000
 Weight:^009900 130^000000
@@ -62884,9 +62960,12 @@ Jobs:^6666CC Gunslinger^000000
 #
 13168#
 A sawed off shotgun that fires shots more rapidly like a pistol at the cost of reduced accuracy.
+-------------------------
 HIT -5
-Deals splash damage
 ASPD +20%
+-------------------------
+Inflicts splash damage.
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 80^000000
 Weight:^009900 70^000000
@@ -62896,9 +62975,12 @@ Jobs:^6666CC Gunslinger^000000
 #
 13169#
 A sawed off shotgun that fires shots more rapidly like a pistol at the cost of reduced accuracy.
+-------------------------
 HIT -5
-Deals splash damage
 ASPD +20%
+-------------------------
+Inflicts splash damage.
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 80^000000
 Weight:^009900 70^000000
@@ -62908,8 +62990,11 @@ Jobs:^6666CC Gunslinger^000000
 #
 13170#
 A highly efficient rifle with an ornate barrel that is capable of firing penetrating blasts, but takes a long time to reload.
-HIT +20, CRIT +50.
-ASPD -5%.
+-------------------------
+HIT +20
+CRIT +50
+ASPD -5%
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 138^000000
 Weight:^009900 77^000000
@@ -62920,11 +63005,19 @@ Jobs:^6666CC Gunslinger^000000
 13171#
 A Rifle made for short and medium ranged battles against Demihuman, that enables a reduction to the targeting delay;
 as it is designed to limit the trembling of the shooter's hands.
-DEX +2, HIT +10, CRIT +10
+-------------------------
+DEX +2
+HIT +10
+CRIT +10
+-------------------------
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 75%.
+-------------------------
 Ignores Physical Defense from ^6666CCDemihuman monster^000000 by 20%.
+-------------------------
 Reduce Tracking skill variable cast time by 25%.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 50^000000
 Weight:^009900 0^000000
@@ -62934,12 +63027,18 @@ Jobs:^6666CC Gunslinger^000000
 #
 13172#
 A specialized Gatling Gun made for battles against Demihuman; occasionally, it shoots high-powered bullets.
+-------------------------
 DEX +2
+-------------------------
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 35%.
+-------------------------
 Ignores Physical Defense from ^6666CCDemihuman monster^000000 by 20%.
+-------------------------
 Has a chance of adding 80 ATK for 6 seconds,
 but due to the recoil will drain 120 HP every second.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Gatling Gun^000000
 Attack:^CC0000 80^000000
 Weight:^009900 0^000000
@@ -62950,12 +63049,20 @@ Jobs:^6666CC Gunslinger^000000
 13173#
 A Shotgun that has a great attack in short ranged battles against Demihuman.
 It shows a wide variety of strength between each attack.
-DEX +2, Inflicts splash attack.
+-------------------------
+DEX +2
+-------------------------
+Inflicts splash damage.
+-------------------------
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 55%.
+-------------------------
 Ignores Physical Defense from ^6666CCDemihuman monster^000000 by 20%.
+-------------------------
 Has a chance of adding 80 ATK for 6 seconds,
 but drains 100 HP every second.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 100^000000
 Weight:^009900 0^000000
@@ -62965,12 +63072,18 @@ Jobs:^6666CC Gunslinger^000000
 #
 13174#
 A Grenade Launcher that shows great fire-power in battles against Demihuman.
+-------------------------
 DEX +2
+-------------------------
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 35%.
+-------------------------
 Ignores Physical Defense from ^6666CCDemihuman monster^000000 by 20%.
+-------------------------
 Has a chance of adding 300 ATK for 9 seconds,
 but drains 120 HP every second.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Grenade Launcher^000000
 Attack:^CC0000 300^000000
 Weight:^009900 0^000000
@@ -62981,7 +63094,12 @@ Jobs:^6666CC Gunslinger^000000
 13175#
 ^000088Rental Item^000000
 A masterpiece that brings the power of the Rifles to the max. This beautiful gun steals the heart of the Gunslingers, and its high performance will put a hole through the heart of the enemy. Only downside is that, due to the fact it is lever-action oriented, the Attack Speed is somewhat poor.
-HIT+ 20, Cri+ 50, Adds 40% damage to the monster.
+-------------------------
+HIT +20
+Crit +50
+-------------------------
+Adds 40% damage to the monster.
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 170^000000
 Weight:^009900 0^000000
@@ -63052,6 +63170,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13180#
 Small fire arm adjusted for range and accuracy. Actually easy to handle than a pistol.
+-------------------------
+^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 50^000000
 Weight:^009900 50^000000
@@ -63061,6 +63182,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13181#
 A shit gun adjusted for beginners. Still couldn't avoid the recoil from shooting.
+-------------------------
+^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 80^000000
 Weight:^009900 100^000000
@@ -63070,6 +63194,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13182#
 A gatling gun for beginners. Easy to handle, but fairly heavy weight.
+-------------------------
+^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Gatling Gun^000000
 Attack:^CC0000 40^000000
 Weight:^009900 150^000000
@@ -63079,6 +63206,9 @@ Jobs:^6666CC Gunslinger^000000
 #
 13183#
 A granade launcher made for beginners. Only for beginners.
+-------------------------
+^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Granade Launcher^000000
 Attack:^CC0000 40^000000
 Weight:^009900 150^000000
@@ -63136,8 +63266,10 @@ Jobs:^6666CC Gunslinger^000000
 #
 13189#
 A medium size assault rifle with firing power and accuracy.
+-------------------------
 HIT +20
 CRIT +30
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 240^000000
 Weight:^009900 120^000000
@@ -63147,9 +63279,12 @@ Jobs:^6666CC Rebellion^000000
 #
 13190#
 This modified rifle shoots specially-treated bullets that causes the Delay effect with damage.
+-------------------------
 HIT +10
 CRIT +15
+-------------------------
 Adds a low chance of autocasting Level 1 ^008800Decrease Agility^000000 on target when dealing physical attacks.
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 260^000000
 Weight:^009900 130^000000
@@ -63159,9 +63294,11 @@ Jobs:^6666CC Rebellion^000000
 #
 13192#
 A shotgun whose devastating firepower is dwarfed by its miserable Accuracy.
+-------------------------
 Attack range +5
 HIT -50
 ASPD +10%
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 400^000000
 Weight:^009900 200^000000
@@ -63171,9 +63308,12 @@ Jobs:^6666CC Rebellion^000000
 #
 13193#
 A brother to the Shotgun Rolling Stone, this gun is equipped with a special device for additional Lightning damage.
+-------------------------
 HIT -10
 ASPD +10%
+-------------------------
 AddS a low chance of autocasting Level 5 ^008800Thunder Storm^000000 on the enemy when dealing physical attacks.
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 280^000000
 Weight:^009900 180^000000
@@ -63183,8 +63323,10 @@ Jobs:^6666CC Rebellion^000000
 #
 13194#
 This semi-auto shotgun provides an enhanced rate of fire at the cost of bullet damage.
+-------------------------
 HIT -25
 ASPD +25%
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 250^000000
 Weight:^009900 140^000000
@@ -63194,9 +63336,12 @@ Jobs:^6666CC Rebellion^000000
 #
 13195#
 This modified rifle shoots specially treated bullets that causes the Delay effect with damage.
+-------------------------
 HIT +10
 CRIT +15
+-------------------------
 Adds a low chance of autocasting Level 1 ^008800Decrease Agility^000000 on target when dealing physical attacks..
+-------------------------
 Class:^6666CC Rifle^000000
 Attack:^CC0000 260^000000
 Weight:^009900 130^000000
@@ -63206,8 +63351,10 @@ Jobs:^6666CC Rebellion^000000
 #
 13196#
 This semi-auto shotgun provides an enhanced rate of fire at the cost of bullet damage.
+-------------------------
 HIT -25
 ASPD +25%
+-------------------------
 Class:^6666CC Shotgun^000000
 Attack:^CC0000 250^000000
 Weight:^009900 140^000000
@@ -63226,9 +63373,12 @@ Jobs:^6666CC Rebellion^000000
 #
 13198#
 his powerful Gatling gun has ability to shoot a volley of bullets in a fraction of a second.
+-------------------------
 HIT -25
 CRIT +10
+-------------------------
 Increases long range physical attacks by 30%.
+-------------------------
 Class:^6666CC Gatling Gun^000000
 Attack:^CC0000 250^000000
 Weight:^009900 250^000000
@@ -63238,9 +63388,12 @@ Jobs:^6666CC Rebellion^000000
 #
 13199#
 This powerful Gatling gun has ability to shoot a volley of bullets in a fraction of a second.
+-------------------------
 HIT -25
 CRIT +10
+-------------------------
 Increases long range physical attacks by 30%.
+-------------------------
 Class:^6666CC Gatling Gun^000000
 Attack:^CC0000 250^000000
 Weight:^009900 250^000000
@@ -63264,60 +63417,43 @@ Weight:^009900 0.2^000000
 Element:^777777 Holy^000000
 #
 13202#
-A bloody red bullet
-that may cause the
-Bleeding effect on an
-enemy by a low chance.
+A bloody red bullet that may cause the Bleeding effect on an enemy by a low chance.
 Class:^6666CC Ammunition^000000
 Attack:^CC0000 30^000000
 Weight:^009900 0.2^000000
 Element:^777777 Neutral^000000
 #
 13203#
-A grenade launcher
-bullet imbued with
-the ^FF0000Fire^000000 property.
+A grenade launcher bullet imbued with the ^FF0000Fire^000000 element.
 Class:^6666CC Ammunition^000000
 Attack:^CC0000 50^000000
 Weight:^009900 0.5^000000
 Element:^777777 Fire^000000
 #
 13204#
-A grenade launcher
-bullet imbued with
-the ^33CC00Wind^000000 element.
+A grenade launcher bullet imbued with the ^33CC00Wind^000000 element.
 Class:^6666CC Ammunition^000000
 Attack:^CC0000 50^000000
 Weight:^009900 0.5^000000
 Element:^33CC00 Wind^000000
 #
 13205#
-A grenade launcher
-bullet that contains
-deadly poison; has a
-low chance of inflicting the Poison status
-on enemies.
+A grenade launcher bullet that contains deadly poison; has a low chance of inflicting the Poison status on enemies.
 Class:^6666CC Ammunition^000000
 Attack:^CC0000 50^000000
 Weight:^009900 0.5^000000
 Element:^777777 Poison^000000
 #
 13206#
-A grenade launcher
-bullet imbued with
-the Shadow property;
-has a low chance of
-inflicting the Blind
-status on enemies.
+A grenade launcher bullet imbued with the Shadow property;
+has a low chance of inflicting the Blind status on enemies.
 Class:^6666CC Ammunition^000000
 Attack:^CC0000 50^000000
 Weight:^009900 0.5^000000
 Element:^777777 Shadow^000000
 #
 13207#
-A grenade launcher
-bullet imbued with
-the ^0000BBWater^000000 property.
+A grenade launcher bullet imbued with the ^0000BBWater^000000 property.
 Class:^6666CC Ammunition^000000
 Attack:^CC0000 50^000000
 Weight:^009900 0.5^000000
@@ -63433,7 +63569,7 @@ Weight:^009900 0.2^000000
 Element:^777777 Neutral^000000
 #
 13223#
-A exclusive grenade launcher bullet imbued with the ^FF0000Fire^000000 property.
+A exclusive grenade launcher bullet imbued with the ^FF0000Fire^000000 element.
 Class:^6666CC Ammunition^000000
 Attack:^CC0000 50^000000
 Weight:^009900 0.5^000000
@@ -63471,18 +63607,14 @@ Weight:^009900 0.5^000000
 Element:^0000FF Water^000000
 #
 13250#
-A cross shaped dagger
-that is small enough to conceal in your hand.
+A cross shaped dagger that is small enough to conceal in your hand.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 10^000000
 Weight:^009900 0.5^000000
 Element:^777777 Neutral^000000
 #
 13251#
-A shuriken that is
-rumored to show its
-true power during
-a rainstorm.
+A shuriken that is rumored to show its true power during a rainstorm.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 30^000000
 Level Requirement:^009900 20^000000
@@ -63490,9 +63622,7 @@ Weight:^009900 0.5^000000
 Element:^777777 Neutral^000000
 #
 13252#
-A shuriken that
-can be thrown at
-the speed of light.
+A shuriken that can be thrown at the speed of light.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 45^000000
 Level Requirement:^009900 40^000000
@@ -63500,9 +63630,7 @@ Weight:^009900 0.5^000000
 Element:^777777 Neutral^000000
 #
 13253#
-A sharp shuriken
-that is surprisingly
-as thin as a leaf.
+A sharp shuriken that is surprisingly as thin as a leaf.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 70^000000
 Level Requirement:^009900 60^000000
@@ -63510,11 +63638,7 @@ Weight:^009900 0.5^000000
 Element:^777777 Neutral^000000
 #
 13254#
-A dreadful shuriken
-with thorn like barbs
-that hook into its
-target, making them
-painful to pull out.
+A dreadful shuriken with thorn like barbs that hook into its target, making them painful to pull out.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 100^000000
 Level Requirement:^009900 80^000000
@@ -63522,18 +63646,14 @@ Weight:^009900 0.5^000000
 Element:^777777 Neutral^000000
 #
 13255#
-A kunai imbued
-with freezing cold.
+A kunai imbued with freezing cold.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 30^000000
 Weight:^009900 2^000000
 Element:^0000CC Water^000000
 #
 13256#
-An Earth element
-kunai that inflicts
-blunt trauma upon
-targeted enemies.
+An Earth element kunai that inflicts blunt trauma upon targeted enemies.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 30^000000
 Weight:^009900 2^000000
@@ -63547,24 +63667,15 @@ Weight:^009900 2^000000
 Element:^33CC00 Wind^000000
 #
 13258#
-An explosive kunai
-that will inflict
-splashed damage
-around its target.
+An explosive kunai that will inflict splashed damage around its target.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 30^000000
 Weight:^009900 2^000000
 Element:^777777 Fire^000000
 #
 13259#
-A kunai coated with
-deadly poison that
-has a low chance
-of inflicting the
-Poison status on
-a targeted enemy
-when used in a long
-range physical attack.
+A kunai coated with deadly poison.
+Has a low chance of inflicting the Poison status on a targeted enemy when used in a long range physical attack.
 Class:^6666CC Throwing Weapon^000000
 Attack:^CC0000 30^000000
 Weight:^009900 2^000000
@@ -63834,10 +63945,11 @@ Weight:^009900 0.5^000000
 Element:^777777 Neutral^000000
 #
 13300#
-A famous Huuma
-Ninja weapon that
-is shaped like a wing.
-AGI -1, DEX -2.
+A famous Huuma Ninja weapon that is shaped like a wing.
+-------------------------
+AGI -1
+DEX -2
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 150^000000
 Weight:^009900 300^000000
@@ -63848,7 +63960,9 @@ Jobs:^6666CC Ninja^000000
 #
 13301#
 A heavy, giant shuriken shaped like a bladed wheel.
+-------------------------
 Each melee physical attack has a low chance of inflicting ^663399Bleeding^000000 status on enemies.
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 50^000000
 Weight:^009900 250^000000
@@ -63858,7 +63972,9 @@ Jobs:^6666CC Ninja^000000
 #
 13302#
 A heavy, giant shuriken shaped like a bladed wheel.
+-------------------------
 Each melee physical attack has a low chance of inflicting ^663399Bleeding^000000 status on enemies.
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 50^000000
 Weight:^009900 250^000000
@@ -63868,8 +63984,11 @@ Jobs:^6666CC Ninja^000000
 #
 13303#
 A fire property Huuma shuriken that sparks like a firecracker when it strikes enemies.
+-------------------------
 DEX -2
+-------------------------
 Each melee physical attack has a low chance of autocasting Level 5 Fire Ball.
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 185^000000
 Weight:^009900 150^000000
@@ -63880,8 +63999,11 @@ Jobs:^6666CC Ninja^000000
 #
 13304#
 The Huuma Calm Mind enables the wearer to remain collected in any tense situation.
+-------------------------
 Increases damage of Throw Huuma Shuriken skill by 30%.
+-------------------------
 Skill casting cannot be interrupted.
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 112^000000
 Weight:^009900 155^000000
@@ -63891,10 +64013,16 @@ Jobs:^6666CC Ninja^000000
 #
 13305#
 Huuma Shuriken that holds great strength and brings extraordinary power in battles against Demihuman.
-STR +2, DEX +1
-Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 95%.
-Ignores Physical Defense from ^6666CCDemihuman monster^000000 by 20%.
+-------------------------
+STR +2
+DEX +1
+-------------------------
+Increases physical attacks inflicted on ^6666CCDemihuman monster^000000 by 95%.
+-------------------------
+Ignores Physical Defense of ^6666CCDemihuman monster^000000 by 20%.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 55^000000
 Weight:^009900 0^000000
@@ -63904,10 +64032,16 @@ Jobs:^6666CC Ninja^000000
 #
 13306#
 Huuma Shuriken that holds great strength and brings extraordinary power in battles against Demihuman.
-STR +2, DEX +1
+-------------------------
+STR +2
+DEX +1
+-------------------------
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 95%.
+-------------------------
 Has a chance of increasing Attack Strength to ^FF0000Throw Huuma Shuriken^000000 and ^FF0000Killing Stroke^000000 by 100% for 10 seconds.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 55^000000
 Weight:^009900 0^000000
@@ -63936,9 +64070,12 @@ Level Requirement:^009900 80^000000
 Jobs:^6666CC Ninja^000000
 #
 13308#
-A ^FF0000Fire^000000 Property Huuma shuriken that sparks like a firecracker when it strikes enemies.
+A Fire element Huuma shuriken that sparks like a firecracker when it strikes enemies.
+-------------------------
 DEX +2
-Add a 3% chance of autocasting Level 5 ^008800Fire Ball^000000 on the enemy when attacking.
+-------------------------
+Adds 3% chance of autocasting Level 5 ^008800Fire Ball^000000 on the enemy when attacking.
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 230^000000
 Weight:^009900 0^000000
@@ -63950,8 +64087,11 @@ Jobs:^6666CC Ninja^000000
 13309#
 ^000088Rental Item^000000
 A heavy, giant shuriken shaped like a bladed wheel.
-^FF0000External Bleeding^000000 an enemy when you attack (Success Chance ?%).
+-------------------------
+^FF0000External Bleeding^000000 an enemy when you attack.
+-------------------------
 Increases physical damage inflicted on small, medium, large size monsters by 80%.
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 99^000000
 Weight:^009900 0^000000
@@ -63970,7 +64110,9 @@ Jobs:^6666CC Ninja^000000
 13311#
 Huuma Shuriken recently released by the Ninja Association.
 Carries a nickname of Shadow for the special metal it was made from which doesn't reflect moonlight.
+-------------------------
 STR +3
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 170^000000
 Weight:^009900 150^000000
@@ -63990,8 +64132,11 @@ Jobs:^6666CC Ninja^000000
 #
 13313#
 Shuriken named after fluttering petals. They say it feels like you are surrounded by a cloud of petals when using this weapon.
-MATK +50.
+-------------------------
+MATK +50
+-------------------------
 Increases Swirling Petal damage by 20%.
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 150^000000
 Weight:^009900 150^000000
@@ -64001,8 +64146,11 @@ Jobs:^6666CC Ninja^000000
 #
 13314#
 Shuriken with ^0000BBWater^000000 property. Snowstorm occurs when in use.
-MATK +50.
+-------------------------
+MATK +50
+-------------------------
 Auto-spell Level 1 Snow Flake Draft is activated by a low rate in close range physical attacks. (at the level learned)
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 200^000000
 Weight:^009900 150^000000
@@ -64013,8 +64161,11 @@ Jobs:^6666CC Ninja^000000
 #
 13315#
 Shuriken with ^33CC00Wind^000000 element. Blinds enemy's sight with rain and wind.
-MATK +50.
+-------------------------
+MATK +50
+-------------------------
 When dealling physical attack, has chance to autocast Level 1 (or learned level) Lightning Jolt and Blind state on enemy.
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 200^000000
 Weight:^009900 150^000000
@@ -64025,9 +64176,13 @@ Jobs:^6666CC Ninja^000000
 #
 13316#
 Shuriken coated with Oridecon and Gold mixed at a golden ratio.
-^663399Indestructible^000000
+-------------------------
 Increases ATK +10 / MATK +5, and long range Physical ATK by 1% per Refine Level.
+-------------------------
 Character Level 70+: ATK increases additional +5 for every BaseLv increase of 10.
+-------------------------
+^663399Indestructible^000000
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 55^000000
 Weight:^009900 150^000000
@@ -64050,11 +64205,16 @@ Jobs:^6666CC Ninja^000000
 #
 13322#
 Giant shuriken with steel cone that is added to enhance the ability to throw, made of metal.
-^663399Indestructible^000000
+-------------------------
 Each refine increase ATK +5/MATK +3.
+-------------------------
 Each 2 refines Increases long range physical attacks by 1%.
+-------------------------
 ATK +3 for each 10 Base Levels above 20
 (Applied until you reach base lv 120)
+-------------------------
+^663399Indestructible^000000
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 50^000000
 Weight:^009900 0^000000
@@ -64065,7 +64225,9 @@ Jobs:^6666CC Ninja^000000
 13323#
 This weapon contains a strange energy.
 I feel that one of its benefits were sealed with a high cost.
+-------------------------
 MATK +40
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 150^000000
 Weight:^009900 50^000000
@@ -64075,10 +64237,15 @@ Jobs:^6666CC Ninja^000000
 #
 13327#
 Huuma shuriken with red light radiance blade.
+-------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
+-------------------------
 MATK increased by (Refine*Refine)/2, up to +15 refine.
+-------------------------
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 100^000000
 Weight:^009900 100^000000
@@ -64088,12 +64255,17 @@ Jobs:^6666CC Ninja^000000
 #
 13328#
 Huuma Shuriken imbued with Vicious Mind.
-MATK +50.
+-------------------------
+MATK +50
+-------------------------
 Increase ATK by (refine*refine).
 (up to +15 refine level)
+-------------------------
 Increase MATK by (refine*refine)/2.
 (up to +15 refine level)
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 150^000000
 Weight:^009900 150^000000
@@ -64103,7 +64275,9 @@ Jobs:^6666CC Ninja^000000
 #
 13329#
 A certified kingdom equipment for adventurer.
+-------------------------
 Increase ATK by (Refine*Refine*1.25)
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 95^000000
 Weight:^009900 50^000000
@@ -64114,10 +64288,15 @@ Jobs:^6666CC Ninja^000000
 13330#
 A metallic Huuma Shuriken made of oridecon created for experienced adventurers.
 Can be enchanted by ^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
+-------------------------
 Increases Throw Huuma Shuriken damage by 10%.
+-------------------------
 Every refine level: ATK +7, MATK +5.
+-------------------------
 Every 2 refine level: increases long range physical attacks by 2%.
+-------------------------
 Every 10 base level increase ATK by 5 and MATK by 3 (Applies up to base level 150)
+-------------------------
 Class:^6666CC Huuma Shuriken^000000
 Attack:^CC0000 75^000000
 Weight:^009900 0^000000
@@ -64127,8 +64306,11 @@ Jobs:^6666CC Kagerou and Oboro^000000
 #
 13400#
 A practical sword that is typically used by sailors.
-Enables use of Level 5 Bash.
+-------------------------
 STR +2, DEF +1
+-------------------------
+Enables use of Level 5 Bash.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 150^000000
 Weight:^009900 90^000000
@@ -64139,7 +64321,9 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 13401#
 ^000088Rental Item^000000
 The one-handed sword of Arthurian legend that supposedly chooses its owner to wield its holy powers.
+-------------------------
 INT +10, LUK +10
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 199^000000
 Weight:^009900 0^000000
@@ -64150,13 +64334,13 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13402#
 ^000088Rental Item^000000
-A one-handed sword
-popularized by its use
-by sea adventurers.
-Enables use of
-Level 5 ^008800Bash^000000.
+A one-handed sword popularized by its use by sea adventurers.
+-------------------------
 STR +2
 DEF +1
+-------------------------
+Enables use of Level 5 ^008800Bash^000000.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 185^000000
 Weight:^009900 0^000000
@@ -64166,11 +64350,12 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13403#
 ^000088Rental Item^000000
-A one-handed sword
-adorned with an engraving of the sun, symbolizing battle spirit and vigor.
+A one-handed sword adorned with an engraving of the sun, symbolizing battle spirit and vigor.
+-------------------------
 Regains 1% of the damage inflicted on its target as HP with each attack.
-Drains 15 SP from its
-owner every 10 seconds.
+-------------------------
+Drains 15 SP from its owner every 10 seconds.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 120^000000
 Weight:^009900 0^000000
@@ -64181,7 +64366,9 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13404#
 A fearsome weapon with a uniquely curved blade.
+-------------------------
 CRIT +50
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 130^000000
 Weight:^009900 150^000000
@@ -64191,8 +64378,11 @@ Jobs:^6666CC Transcendent Swordman, Merchant and Thief^000000
 #
 13405#
 A thick, flexible sword forged from an elastic alloy.
-ASPD +10%.
+-------------------------
+ASPD +10%
+-------------------------
 Has a chance of inflicting the Curse status to enemies.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 125^000000
 Weight:^009900 80^000000
@@ -64202,8 +64392,11 @@ Jobs:^6666CC Transcendent Swordman, Merchant and Thief^000000
 #
 13406#
 The adventurers who are brave the item which is provided from the hazard adventurer guild.
+-------------------------
 Increases damage by 50%.
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 120^000000
 Weight:^009900 0^000000
@@ -64214,8 +64407,11 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 13407#
 ^000088Rental Item^000000
 An one-handed sword topped with several extra edges for making wounds deeper and more unsightly.
+-------------------------
 Increases physical damage inflicted on ^6666CCDemihuman monster^000000 by 40%
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 148^000000
 Weight:^009900 0^000000
@@ -64225,11 +64421,16 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13408#
 ^000088Rental Item^000000
-A one-handed, formal dress sword imbued with the ^FF0000Fire^000000 Property.
+A one-handed, formal dress sword imbued with the ^FF0000Fire^000000 element.
+-------------------------
 INT +2
+-------------------------
 Enables use of Level 5 ^008800Fire Bolt^000000.
+-------------------------
 Add a 10% chance of autocasting Level 5 ^008800Fire Bolt^000000 on the enemy when attacking.
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 120^000000
 Weight:^009900 0^000000
@@ -64241,10 +64442,13 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 13409#
 ^000088Rental Item^000000
 An one-handed, formless sword imbued with the ^777777Ghost^000000 Property that can derange the enemy's mind.
+-------------------------
 Drains 45% of target's SP by a low chance.
 ...
+-------------------------
 ^FF0000Unrefineable^000000
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 160^000000
 Weight:^009900 0^000000
@@ -64255,10 +64459,14 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13410#
 A sword favored by gladiators, it is especially designed for battles against Demihuman.
+-------------------------
 STR +1, DEX +1
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 75%.
+-------------------------
 Ignores Physical Defense from ^6666CCDemihuman monster^000000 by 20%.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 115^000000
 Weight:^009900 0^000000
@@ -64268,10 +64476,14 @@ Jobs:^6666CC Novice, Swordman, Merchant and Thief^000000
 #
 13411#
 A sword favored by gladiators, it is especially designed for battles against Demihuman.
+-------------------------
 STR +1, DEX +1
 MATK +74
+-------------------------
 Increases Physical Attack Strength towards ^6666CCDemihuman monster^000000 by 75%.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 115^000000
 Weight:^009900 0^000000
@@ -64281,8 +64493,11 @@ Jobs:^6666CC Novice, Swordman, Merchant and Thief^000000
 #
 13412#
 One of the twin swords of Naght Sieger. The blue blade shows the sharpness of this sword.
+-------------------------
 When attacking there is a chance that for 5 seconds you will completely disregard the defense of the opponent.
+-------------------------
 Enables the use Level 5 ^008800Frost Diver^000000.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 150^000000
 Weight:^009900 150^000000
@@ -64293,8 +64508,11 @@ Jobs:^6666CC Transcendent Swordman, Merchant and Thief^000000
 #
 13413#
 One of the twin swords of Naght Sieger. The red blade shows the destructive power of this sword.
+-------------------------
 When attacking there is a chance that for 5 seconds you will completely disregard the defense of the opponent.
+-------------------------
 Enables use of Level 3 ^008800Meteor Storm^000000.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 160^000000
 Weight:^009900 150^000000
@@ -64305,10 +64523,14 @@ Jobs:^6666CC Transcendent Swordman, Merchant and Thief^000000
 #
 13414#
 A magical sword that bears 4 different properties of nature. Very effective to enemies without the properties of Water, Wind, Earth and Fire.
+-------------------------
 DEX +1, STR +2, INT +4
 MATK +95
+-------------------------
 Increases damage inflicted against ^777777Neutral^000000 element monsters by 10%.
+-------------------------
 Adds a chance of autocasting random Level 3 Bolt magics when dealing physical attacks.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 105^000000
 Weight:^009900 120^000000
@@ -64318,7 +64540,9 @@ Jobs:^6666CC Transcendent Swordman, Merchant and Thief^000000
 #
 13415#
 A one-handed sword with a rounded blade.
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 59^000000
 Weight:^009900 0^000000
@@ -64367,8 +64591,10 @@ Jobs:^6666CC Swordman and Merchant^000000
 #
 13419#
 ^000088Rental Item^000000
-Saber Sacred.
+A sacred saber.
+-------------------------
 Increases physical damage inflicted on ^6666CCUndead monster^000000 by 40%.
+-------------------------
 Class:^6666CC One-Hand Sword^000000
 Attack:^CC0000 160^000000
 Weight:^009900 0^000000
@@ -64377,8 +64603,11 @@ Jobs:^6666CC Swordman Class, Merchant Class, Rogue Class^000000
 #
 13420#
 A sword used at rite for the heavenly god.
+-------------------------
 STR +2, INT +2.
+-------------------------
 Adds a chance of autocasting Level 1 ^008800Meteor Storm^000000 when dealing physical attacks.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 160^000000
 Weight:^009900 120^000000
@@ -64388,7 +64617,9 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13421#
 This short sword has been heavily improved for easy-use. It looks better with its Ruby decoration in the grip.
+-------------------------
 When attacking in close-range, the attack power of 'Bowling Bash' and 'Bash' increases by 20% for 15 seconds with low probability.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 170^000000
 Weight:^009900 150^000000
@@ -64399,7 +64630,9 @@ Jobs:^6666CC Transcendent Swordman and Merchant^000000
 13422#
 ^000088Rental Item^000000
 A powerful one-handed sword with a decoratively wavy, flame-like blade.
+-------------------------
 Increases physical damage inflicted on small, medium, large size monsters by 40%.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 185^000000
 Weight:^009900 0^000000
@@ -64408,7 +64641,9 @@ Jobs:^6666CC Knight and Crusader^000000
 #
 13423#
 A one-handed sword that is made by the Paradise Group. A weapon that can be used by anyone easily.
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 147^000000
 Weight:^009900 0^000000
@@ -64418,7 +64653,9 @@ Jobs:^6666CC Swordman, Merchant and Thief classes^000000
 #
 13424#
 A one-handed sword that is made by the Paradise Group. It's suitable for an intermediate sword handler.
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 170^000000
 Weight:^009900 0^000000
@@ -64438,13 +64675,13 @@ Jobs:^6666CC Novice, Swordman Class, Merchant Class, Thief Class^000000
 #
 13426#
 ^000088Rental Item^000000
-A one-handed sword
-popularized by its use
-by sea adventurers.
-Enables use of
-Level 5 ^008800Bash^000000.
+A one-handed sword popularized by its use by sea adventurers.
+-------------------------
 STR +2
 DEF +1
+-------------------------
+Enables use of Level 5 ^008800Bash^000000.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 185^000000
 Weight:^009900 0^000000
@@ -64456,11 +64693,12 @@ Thief Classes^000000
 #
 13427#
 ^000088Rental Item^000000
-A one-handed sword
-adorned with an engraving of the sun, symbolizing battle spirit and vigor.
+A one-handed sword adorned with an engraving of the sun, symbolizing battle spirit and vigor.
+-------------------------
 Regains 1% of the damage inflicted on its target as HP with each attack.
-Drains 15 SP from its
-owner every 10 seconds.
+-------------------------
+Drains 15 SP from its owner every 10 seconds.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 120^000000
 Weight:^009900 0^000000
@@ -64473,8 +64711,15 @@ Thief Classes^000000
 #
 13428#
 A sword that has a nickname of Valkyrie 'Frist'.
-+Red Wing Hat, HIT +10, Increases physical damage inflicted on Demihuman by 10%.
-+Odin's Blessing, Increase Bowling Bash damage by 5%, MaxSP +50.
+-------------------------
++^008800Red Wing Hat^000000:
+HIT +10
+Increases physical damage inflicted on Demihuman by 10%.
+-------------------------
++^008800Odin's Blessing^000000:
+MaxSP +50
+Increase Bowling Bash damage by 5%.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 170^000000
 Weight:^009900 120^000000
@@ -64484,8 +64729,12 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13431#
 A cold etched sword made with refined Bradium, a mineral from the Other World.
+-------------------------
+AGI +1
+MaxHP -5%
+-------------------------
 ^663399Indestructible^000000
-AGI +1, MaxHP -5%.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 180^000000
 Weight:^009900 220^000000
@@ -64495,8 +64744,12 @@ Jobs:^6666CC 3rd Swordman and Merchant Classes^000000
 #
 13433#
 Sword that used in academy.
-MaxHP +200, MaxSP +100.
+-------------------------
+MaxHP +200
+MaxSP +100
+-------------------------
 Every 10 base level, MaxHP -40, MaxSP -20.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 120^000000
 Weight:^009900 120^000000
@@ -64506,7 +64759,9 @@ Jobs:^6666CC Swordman^000000
 #
 13434#
 A one-handed sword that is made by the Paradise Group. It's suitable for an experienced sword handler.
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 185^000000
 Weight:^009900 0^000000
@@ -64515,10 +64770,14 @@ Level Requirement:^009900 60^000000
 Jobs:^6666CC Swordman, Merchant and Thief Class^000000
 #
 13435#
-A one-handed, formal dress sword imbued with the ^FF0000Fire^000000 property.
+A one-handed, formal dress sword imbued with the ^FF0000Fire^000000 element.
+-------------------------
 MATK +108
+-------------------------
 Enables use of Level 3 ^008800Fire Bolt^000000.
+-------------------------
 Chance of autocasting Level 3 ^008800Fire Bolt^000000 when attacking.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 100^000000
 Weight:^009900 50^000000
@@ -64529,9 +64788,13 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13436#
 A one-handed, formal dress sword imbued with the ^0000BBWater^000000 property.
+-------------------------
 MATK +108
+-------------------------
 Enables use of Level 3 ^008800Cold Bolt^000000.
+-------------------------
 Chance of autocasting Level 3 ^008800Cold Bolt^000000 when attacking.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 100^000000
 Weight:^009900 60^000000
@@ -64542,7 +64805,9 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13437#
 A sword used by Orc tribe.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 90^000000
 Weight:^009900 80^000000
@@ -64553,9 +64818,13 @@ Jobs:^6666CC Novice, Swordman, Merchant and Thief^000000
 13438#
 A magical enchanted sword, coveted by the famous witch-warrior Lila Contrary.
 With the power of lunar light, it could be wielded by Sailor Musa.
+-------------------------
 MATK +110
+-------------------------
 Adds a chance of autocasting a random magic spells when dealing physical attacks.
+-------------------------
 Increases the chances for every 2 refine level.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 165^000000
 Weight:^009900 200^000000
@@ -64590,10 +64859,14 @@ Jobs:^6666CC Novice, Swordman, Thief and Merchant^000000
 13441#
 This sword, made to counteract the Devil Sword Thanatos, is sculpted out of Gray Shard.
 It offers incredible power and magic at a great cost.
+-------------------------
 INT +6, VIT +6, LUK -6
-Low chance to absorp 5% of attack into SP.
-Drains 1000 HP when unequipped.
 MATK +100
+-------------------------
+Low chance to absorp 5% of attack into SP.
+-------------------------
+Drains 1000 HP when unequipped.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 150^000000
 Weight:^009900 70^000000
@@ -64604,8 +64877,11 @@ Jobs:^6666CC Swordman^000000
 13442#
 A very old parasol, it's unknown when this parasol was created.
 You can still feels the magic flowing inside.
+-------------------------
 MATK +80, increase MATK for every refine.
+-------------------------
 Enables use of Level 10 ^008800Soul Strike^000000.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 120^000000
 Weight:^009900 50^000000
@@ -64615,7 +64891,9 @@ Jobs:^6666CC Swordman, Thief and Merchant^000000
 #
 13444#
 An unusual type of weapon, mainly used for other stuff.
-ASPD +8%.
+-------------------------
+ASPD +8%
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 190^000000
 Weight:^009900 70^000000
@@ -64625,8 +64903,11 @@ Jobs:^6666CC Swordman, Thief and Merchant^000000
 #
 13449#
 An infernal sword from hell. Only true demons are able control it's full power. People say that a Prince from Hell used this weapon for his army.
-Increase attack speed.(Decrease the aftercast delay 10%).
+-------------------------
+ASPD +10%
+-------------------------
 When refine level is +9 or higher, when dealing physical attacks, adds chance of adding ASPD by 3 for 5 sec.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 130^000000
 Weight:^009900 120^000000
@@ -64645,12 +64926,13 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 #
 13451#
 Blue Sword which has destructive power.
+-------------------------
 STR +5, AGI +5.
-^777777 ^000000
+-------------------------
 Premium
 Atk +20%
 ASPD +3
-^777777 ^000000
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 200^000000
 Weight:^009900 120^000000
@@ -64660,8 +64942,11 @@ Jobs:^6666CC Rune Knight^000000
 #
 13454#
 One-handed sword with red light radiance blade.
+-------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
+-------------------------
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 85^000000
 Weight:^009900 85^000000
@@ -64671,8 +64956,10 @@ Jobs:^6666CC Novice, Swordman, Merchant and Thief^000000
 #
 13455#
 Saber imbued with Vicious Mind.
+-------------------------
 Increase ATK by (refine*refine).
 (up to +15 refine level)
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 135^000000
 Weight:^009900 135^000000
@@ -64682,7 +64969,9 @@ Jobs:^6666CC Novice, Swordman, Merchant and Thief^000000
 #
 13456#
 A certified kingdom equipment for adventurer.
+-------------------------
 Increase ATK by (Refine*Refine*1.25)
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 80^000000
 Weight:^009900 42^000000
@@ -64692,7 +64981,9 @@ Jobs:^6666CC Novice, Swordman, Merchant and Thief^000000
 #
 13457#
 A certified kingdom equipment for adventurer.
+-------------------------
 Increase ATK by (Refine*Refine*1.25)
+-------------------------
 Class:^6666CC Dagger^000000
 Attack:^CC0000 52^000000
 Weight:^009900 27^000000
@@ -64702,7 +64993,9 @@ Jobs:^6666CC Novice, Swordman, Merchant and Thief^000000
 #
 13459#
 This short sword has been heavily improved for easy-use. It looks better with its Ruby decoration in the grip.
+-------------------------
 When attacking in close-range, the attack power of 'Bowling Bash' and 'Bash' increases by 20% for 15 seconds with low probability.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 170^000000
 Weight:^009900 150^000000
@@ -64713,10 +65006,14 @@ Jobs:^6666CC Transcendent Swordman and Merchant^000000
 13460#
 A magic sword sealed with powerful seal.
 It's not easy to draw the true power of this sword.
+-------------------------
 MaxSP -100
+-------------------------
 Adds a chance of autocasting Level 5 ^008800Fire Bolt^000000 when dealing physical attacks.
+-------------------------
 Refine level +7: MATK +85, MaxSP +50.
 Refine level +10: ASPD +1, MATK +45, MaxSP +50.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 100^000000
 Weight:^009900 150^000000
@@ -64727,11 +65024,15 @@ Jobs:^6666CC 3rd classes of Swordman, Merchant and Thief^000000
 13461#
 An evil sword sealed with powerful seal.
 It's not easy to draw the true power of this sword.
+-------------------------
 DEF -50
 MDEF -10
+-------------------------
 Adds a chance of autocasting Level 5 ^008800Frost Nova^000000 when dealing physical attacks.
+-------------------------
 Refine level +7: Crit +30, MDEF +10.
 Refine level +10: ASPD +1, Crit +20, DEF +50.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 100^000000
 Weight:^009900 150^000000
@@ -64742,10 +65043,14 @@ Jobs:^6666CC 3rd classes of Swordman, Merchant and Thief^000000
 13462#
 A maximum sword sealed with powerful seal.
 It's not easy to draw the true power of this sword.
-MaxHP -1000.
+-------------------------
+MaxHP -1000
+-------------------------
 Adds a chance of autocasting Level 5 ^008800Cold Bolt^000000 when dealing physical attacks.
+-------------------------
 Refine level +7: ATK +65, MaxHP +500.
 Refine level +10: ASPD +1, ATK +45, MaxHP +500.
+-------------------------
 Class:^6666CC One-Handed Sword^000000
 Attack:^CC0000 100^000000
 Weight:^009900 150^000000
@@ -74150,10 +74455,14 @@ Weight:^009900 1^000000
 #
 15000#
 Dark Plated Armor covered with sharp bones.
+-------------------------
 STR +1
 MDEF +3
+-------------------------
 Ignore 10% DEF of Demihuman and ^6666CCBrute monster^000000 when attacking.
+-------------------------
 when wearer receive physical attacks, adds a 1% chance of autocasting 'Bleeding' on 5x5 cells around the player.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 60^000000
 Weight:^009900 100^000000
@@ -74169,7 +74478,8 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All except Novice^000000
 #
 15002#
-An armor with solid plate material adorned with gorgeous runes and jewels. It's actually very light and solid and it feels as if magic is winding around your whole body.
+An armor with solid plate material adorned with gorgeous runes and jewels.
+It's actually very light and solid and it feels as if magic is winding around your whole body.
 Class:^6666CC Armor^000000
 Defense:^0000FF 95^000000
 Weight:^009900 0^000000
@@ -74179,7 +74489,9 @@ Jobs:^6666CC Swordman^000000
 15003#
 ^000088Rental Item^000000
 A spiritual robe granted by Freya. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr.
-MaxHP +700.
+-------------------------
+MaxHP +700
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 7^000000
 Weight:^009900 30^000000
@@ -74189,7 +74501,9 @@ Jobs:^6666CC All classes^000000
 15004#
 ^000088Rental Item^000000
 A spiritual robe granted by Freya. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr.
-MaxHP +700.
+-------------------------
+MaxHP +700
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 7^000000
 Weight:^009900 30^000000
@@ -74199,7 +74513,9 @@ Jobs:^6666CC All classes^000000
 15005#
 ^000088Rental Item^000000
 A spiritual robe granted by Freya. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr.
-MaxHP +700.
+-------------------------
+MaxHP +700
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 7^000000
 Weight:^009900 30^000000
@@ -74209,7 +74525,9 @@ Jobs:^6666CC All classes^000000
 15006#
 ^000088Rental Item^000000
 A spiritual robe granted by Freya. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr.
-MaxHP +700.
+-------------------------
+MaxHP +700
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 7^000000
 Weight:^009900 30^000000
@@ -74219,9 +74537,11 @@ Jobs:^6666CC All classes^000000
 15007#
 A large robe which has a little worn out due of time.
 It contain many memories.
+-------------------------
 STR +2
 MaxHP +200
 MDEF +1
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 62^000000
 Weight:^009900 0^000000
@@ -74230,8 +74550,11 @@ Jobs:^6666CC All classes^000000
 #
 15008#
 An armor that let you feels the heat when wearing it, Fire element.
-damage taken from Earth element monsters reduced by 5%.
+-------------------------
 MDEF +1
+-------------------------
+Reduces damage taken from Earth element monsters by 5%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 25^000000
 Weight:^009900 100^000000
@@ -74240,9 +74563,12 @@ Jobs:^6666CC All classes^000000
 #
 15009#
 A suit that is only provided for members of the Paradise Group. There are various sizes so tall people don't have to worry about it.
+-------------------------
 MaxHP +100
 MaxSP +10
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 35^000000
 Weight:^009900 0^000000
@@ -74251,9 +74577,12 @@ Jobs:^6666CC All classes^000000
 #
 15010#
 A suit that is only provided for members of the Paradise Group. There are various sizes so tall people don't have to worry about it.
+-------------------------
 MaxHP +200
 MaxSP +20
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 46^000000
 Weight:^009900 0^000000
@@ -74262,10 +74591,13 @@ Jobs:^6666CC All classes^000000
 #
 15011#
 A suit that is only provided for members of the Paradise Group. There are various sizes so tall people don't have to worry about it.
+-------------------------
 MaxHP +300
 MaxSP +30
 MDEF +5
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 58^000000
 Weight:^009900 0^000000
@@ -74274,8 +74606,11 @@ Jobs:^6666CC All classes^000000
 #
 15012#
 A snow-white robe on which spells are embroidered.
+-------------------------
 Reduces variable cast time by 3%.
+-------------------------
 Increases Healing skills by 5%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 42^000000
 Weight:^009900 40^000000
@@ -74299,7 +74634,10 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC 3rd Classes^000000
 #
 15015#
+An adventure suit made of mixed elunium and gold.
+-------------------------
 MaxHP +3%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 25^000000
 Weight:^009900 15^000000
@@ -74307,7 +74645,10 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 15016#
+A coat made of mixed elunium and gold.
+-------------------------
 MaxHP +3%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 47^000000
 Weight:^009900 60^000000
@@ -74315,7 +74656,11 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All except Novice^000000
 #
 15017#
-MaxHP +3%, MDEF +5.
+A Saint Robe made of mixed elunium and gold.
+-------------------------
+MaxHP +3%
+MDEF +5
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 55^000000
 Weight:^009900 30^000000
@@ -74323,7 +74668,11 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Merchant and Acolyte^000000
 #
 15018#
-MaxHP +3%, DEX +1.
+A Tight made of mixed elunium and gold.
+-------------------------
+DEX +1
+MaxHP +3%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 32^000000
 Weight:^009900 25^000000
@@ -74331,7 +74680,11 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Archer^000000
 #
 15019#
-MaxHP +3%, AGI +1.
+A Thief Clothes made of mixed elunium and gold.
+-------------------------
+AGI +1
+MaxHP +3%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 45^000000
 Weight:^009900 10^000000
@@ -74339,7 +74692,10 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Thief and Ninja^000000
 #
 15020#
+A Mail made of mixed elunium and gold.
+-------------------------
 MaxHP +3%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 60^000000
 Weight:^009900 165^000000
@@ -74347,7 +74703,10 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Knight and Crusader^000000
 #
 15021#
+A Formal Suit made of mixed elunium and gold.
+-------------------------
 MaxHP +3%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 45^000000
 Weight:^009900 15^000000
@@ -74356,9 +74715,12 @@ Jobs:^6666CC All except Novice^000000
 #
 15022#
 Made for the best surfer.
+-------------------------
 STR +4, INT +4
 MDEF +3
-Increase 20% the resistance to water property atk.
+-------------------------
+Increase 20% resistance to water element attacks.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 1^000000
 Weight:^009900 10^000000
@@ -74367,16 +74729,22 @@ Jobs:^6666CC All classes^000000
 #
 15023#
 Brynhild is one of the valiant valkyries, meaning 'the warrior's armor'.
+-------------------------
 Increase MaxHP by
 20*Base level.
+-------------------------
 Increase MaxSP by
 5*Base Level.
+-------------------------
 Physical Attack +5%
 Magical Attack +5%
 MDEF +10
+-------------------------
 Cannot be knocked back
+-------------------------
 ^FF0000Unrefineable^000000
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 60^000000
 Weight:^009900 0^000000
@@ -74393,9 +74761,14 @@ Jobs:^6666CC All classes^000000
 #
 15025#
 An ornate golden robe imbued with power of winds.
+-------------------------
 INT +1
 MDEF +10
-Decreases the variable cast time of Lord of Vermilion by 3 seconds, INT +1 when unmodified INT is 120 or more.
+-------------------------
+Decreases the variable cast time of Lord of Vermilion by 3 seconds.
+-------------------------
+INT +1 when base INT is 120 or more.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 50^000000
@@ -74405,9 +74778,14 @@ Jobs:^6666CC Warlock^000000
 #
 15026#
 An elegant blue robe imbued with power of water.
+-------------------------
 INT +1
 MDEF +10
-Decreases the variable cast time of Storm Gust by 3 seconds, INT +1 when unmodified INT is 120 or more.
+-------------------------
+Decreases the variable cast time of Storm Gust by 3 seconds.
+-------------------------
+INT +1 when base INT is 120 or more.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 50^000000
@@ -74417,9 +74795,14 @@ Jobs:^6666CC Warlock^000000
 #
 15027#
 An elaborate red robe imbued with power of fire.
+-------------------------
 INT +1
 MDEF +10
-Decreases the variable cast time of Meteor Storm by 3 seconds, INT +1 when unmodified INT is 120 or more.
+-------------------------
+Decreases the variable cast time of Meteor Storm by 3 seconds.
+-------------------------
+INT +1 when base INT is 120 or more.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 50^000000
@@ -74429,9 +74812,14 @@ Jobs:^6666CC Warlock^000000
 #
 15028#
 A simple turquoise robe imbued with power of earth.
+-------------------------
 INT +1
 MDEF +10
-Decreases the variable cast time of Heaven's Drive by 1 second, INT +1 when unmodified INT is 120 or more.
+-------------------------
+Decreases the variable cast time of Heaven's Drive by 1 second.
+-------------------------
+INT +1 when base INT is 120 or more.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 50^000000
@@ -74441,10 +74829,13 @@ Jobs:^6666CC Warlock^000000
 #
 15029#
 An ancient relic of war that once worn to help people in suffer.
+-------------------------
 INT +1
 MDEF +10
+-------------------------
 Decreases SP Consumption of Clementia by 50
-Class:^6666CC Garment^000000
+-------------------------
+Class:^6666CC Armor^000000
 Defense:^0000FF 22^000000
 Weight:^009900 30^000000
 Element:^777777 Holy^000000
@@ -74453,11 +74844,14 @@ Jobs:^6666CC Archbishop^000000
 #
 15030#
 An ancient relic of war that once worn to fight Demon.
+-------------------------
 STR +1, INT +1
 MDEF +10
+-------------------------
 Reduces damage taken from ^6666CCDemon^000000 and ^6666CCUndead monster^000000 by 10%.
 Increases damage taken from other race by 10%.
-Class:^6666CC Garment^000000
+-------------------------
+Class:^6666CC Armor^000000
 Defense:^0000FF 22^000000
 Weight:^009900 30^000000
 Element:^777777 Shadow^000000
@@ -74467,11 +74861,14 @@ Jobs:^6666CC Archbishop^000000
 15031#
 A suit that is only provided for members of the Paradise Group.
 There are various sizes so tall people don't have to worry about it.
+-------------------------
 STR +1, INT +1, DEX +1
 MaxHP +500
 MaxSP +50
 MDEF +5
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 70^000000
 Weight:^009900 0^000000
@@ -74480,9 +74877,13 @@ Jobs:^6666CC All classes^000000
 #
 15032#
 An armor made from animal leather, used by the Jaty tribe during battle.
-MDEF +10.
+-------------------------
+MDEF +10
+-------------------------
 Reduces damage taken from all element attacks by 5%.
+-------------------------
 Increases resistance against Stun and Frozen by 15%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 2^000000
 Weight:^009900 50^000000
@@ -74507,8 +74908,11 @@ Jobs:^6666CC N/A^000000
 #
 15036#
 Armor created by purifying Ur runestones.
-MDEF +10.
+-------------------------
+MDEF +10
+-------------------------
 Increases MaxHP per refine level and tolerance to Demihuman and ^777777Neutral^000000 property damage by 5%.
+-------------------------
 [^6666CCUr's set^000000]
 ^008800Ur's Plate^000000
 ^008800Ur's Greaves^000000
@@ -74516,6 +74920,7 @@ Increases MaxHP per refine level and tolerance to Demihuman and ^777777Neutral^0
 ^008800Ur's Seal^000000
 MaxHP +14%, Increases SP consumption of all skills by 10% and tolerance to ^777777Neutral^000000 property by 10%.
 Increases damage of Hundred Spears by 50%, Enables use of Level 1 ^008800Auto Guard^000000.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 110^000000
 Weight:^009900 300^000000
@@ -74524,8 +74929,11 @@ Jobs:^6666CC Rune Knight^000000
 #
 15037#
 Armor created by purifying Peuz runestones.
-MDEF +10.
-ATK +20, FLEE +17.
+-------------------------
+MDEF +10
+ATK +20
+FLEE +17
+-------------------------
 [^6666CCPeuz's set^000000]
 ^008800Peuz's Plate^000000
 ^008800Peuz's Greaves^000000
@@ -74535,6 +74943,7 @@ Increases damage to all sizes monsters by 10%.
 Increases damage of Wind Cutter and Sonic Wave by 100%.
 Has a chance of activating Storm Blast and Concentration and adding 2 ASPD when dealing physical attacks.
 Increases SP costs of skills by 10.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 110^000000
 Weight:^009900 300^000000
@@ -74543,9 +74952,12 @@ Jobs:^6666CC Rune Knight^000000
 #
 15038#
 An armor that contains the reliquery remains of an ancient Assassin.
+-------------------------
 LUK +3
+-------------------------
 Adds a chance of auto-casting Level 1 Meteor Assault when dealing physical attacks.
 If higher level of this skill is learned then it will be cast.
+-------------------------
 [^6666CCSapha Set^000000]
 ^008800Sapha's Cloth^000000
 ^008800Sapha's Ring^000000
@@ -74555,6 +74967,7 @@ Flee +10, CRIT +15,
 Increase critical damage by 40%,
 Increase damage of Cross Impact by 20%,
 Increase SP consumption of all skills by 10%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 45^000000
 Weight:^009900 10^000000
@@ -74563,7 +74976,9 @@ Jobs:^6666CC Guillotine Cross^000000
 #
 15039#
 An assassin's famous historical relic.
+-------------------------
 STR +2, INT +2.
+-------------------------
 [^6666CCNab Set^000000]
 ^008800Nab's Cloth^000000
 ^008800Nab's Ring^000000
@@ -74575,6 +74990,7 @@ ATK +30
 CRIT -20
 Adds a chance of auto-casting Level 1 Soul Destroyer when dealing physical attacks.
 If higher level of this skill is learned then it will be cast.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 45^000000
 Weight:^009900 10^000000
@@ -74583,8 +74999,11 @@ Jobs:^6666CC Guillotine Cross^000000
 #
 15040#
 Every prosioner wears this stripe uniform.
+-------------------------
 Increase Hit and Flee based on refine level.
+-------------------------
 When equipped with Shackles, ATK +5.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 5^000000
 Weight:^009900 150^000000
@@ -74593,8 +75012,11 @@ Jobs:^6666CC All classes^000000
 #
 15041#
 The armor that made by power of mythic creature, Boitata
+-------------------------
 FLEE +5, MaxHP +5%, MDEF +3.
+-------------------------
 Resist ^777777Neutral^000000 element attacks by 7%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 45^000000
 Weight:^009900 60^000000
@@ -74603,8 +75025,11 @@ Jobs:^6666CC All classes^000000
 #
 15042#
 An armor of the brilliant archer known as Icarus.
+-------------------------
 Increases long range physical attacks by 2x refine level.
+-------------------------
 Increases Flee by 1 per refine level.
+-------------------------
 [^6666CCWhite Wing Set^000000]
 ^008800White Wing Suit^000000
 ^008800White Wing Boots^000000
@@ -74614,6 +75039,7 @@ ASPD +2
 Increases damage of Arrow Storm by 50%.
 Increases long range physical attacks by 30%.
 Adds a chance of autocasting Level 3 Double Strafe when attacking with long range physical attacks.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 45^000000
 Weight:^009900 10^000000
@@ -74622,8 +75048,11 @@ Jobs:^6666CC Ranger^000000
 #
 15043#
 An ancient armor that helps maintain clear mental focus.
+-------------------------
 INT +2
+-------------------------
 Increases ATK by 3*Refine Level.
+-------------------------
 [^0000FFBlack Wing Set^000000]
 ^008800Black Wing Suit^000000
 ^008800Black Wing Boots^000000
@@ -74634,6 +75063,7 @@ Perfect Dodge +20
 ASPD -7
 Increases Cluster Bomb damage by 20%.
 Decreases long range physical attacks by 30%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 45^000000
 Weight:^009900 10^000000
@@ -74642,9 +75072,12 @@ Jobs:^6666CC Ranger^000000
 #
 15044#
 A lab outfit from a student who went crazy while studying Homunculi for too long.
+-------------------------
 DEX +1, MaxSP +30.
+-------------------------
 When equipped a Scalpel while killing Demihuman or Animal enemies, drops 'Immortal Heart' or 'Alcohol' at a certain rate.
 This rate increases depending on the refine level.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 66^000000
 Weight:^009900 66^000000
@@ -74653,9 +75086,12 @@ Jobs:^6666CC Geneticist^000000
 #
 15045#
 An armor imbued with magical power.
+-------------------------
 Increase HP regeneration by 10%.
+-------------------------
 Valor set bonus:
 MaxHP +500, MaxSP +300, DEF +10, ATK +10.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 4^000000
 Weight:^009900 0^000000
@@ -74666,8 +75102,8 @@ Jobs:^6666CC All classes^000000
 *Stats during WoE & PVP
 MDEF +5.
 Reduces damage taken from enemy players by 2%.
-When refined to +6 or higher, increases healing effectiveness from potions by 12%.
-When refined to +9 or higher, MaxHP +25%
+Refine level +6 or higher, increases healing effectiveness from potions by 12%.
+Refine level +9 or higher, MaxHP +25%
 If worn with WoE Greave and WoE Manteau, VIT +5, reduces damage taken from enemy players by an additional 15%.
 Class:^6666CC Armor^000000
 Defense:^0000FF 85^000000
@@ -74697,8 +75133,8 @@ Jobs:^6666CC Swordman, Merchant, Thief, Archer, Taekwon, Star Gladiator, Ninja^0
 *Stats during WoE & PVP
 MDEF +20.
 Reduces damage taken from enemy players by 2%.
-When refined to +6 or higher, Flee +5, reduces damage taken from long range physical attacks by 15%.
-When refined to +9 or higher, MaxHP +1000 MaxSP +100
+Refine level +6 or higher, Flee +5, reduces damage taken from long range physical attacks by 15%.
+Refine level +9 or higher, MaxHP +1000 MaxSP +100
 If worn with WoE Shoes and WoE Muffler, INT +5, MDEF +10, reduces damage taken from enemy players by an additional 15%.
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
@@ -74709,8 +75145,11 @@ Jobs:^6666CC Novice, Mage, Acolyte and Soul Linker^000000
 15049#
 Attached with the power of God.
 If equipped with zodiac hat, it will give various effect depend on zodiac type.
+-------------------------
 All stats +4.
+-------------------------
 Reduces damage taken from demihuman by 10%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 0^000000
 Weight:^009900 100^000000
@@ -74720,8 +75159,11 @@ Jobs:^6666CC All classes^000000
 15050#
 Attached with divine power.
 If equipped with zodiac hat, it will give various effect depend on zodiac type.
+-------------------------
 All stats +4.
+-------------------------
 Reduces damage taken from demihuman by 10%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 0^000000
 Weight:^009900 100^000000
@@ -74730,8 +75172,11 @@ Jobs:^6666CC All classes^000000
 #
 15051#
 Armor made from Bakonawa Scale. Lets off a mysterious moonlight effect.
+-------------------------
 1% damage decrease from ^6666CCBoss monster^000000 per 2 refinement.
+-------------------------
 All stats +1.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 55^000000
 Weight:^009900 50^000000
@@ -74739,8 +75184,11 @@ Jobs:^6666CC All classes^000000
 #
 15052#
 Armor made from Bakonawa Scale. Lets off a mysterious moonlight effect.
+-------------------------
 1% damage decrease from ^6666CCBoss monster^000000 per 2 refinement.
+-------------------------
 All statss +2.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 55^000000
 Weight:^009900 50^000000
@@ -74748,8 +75196,11 @@ Jobs:^6666CC All classes^000000
 #
 15053#
 Newly improved ninja suit which took into consideration the opinions of skilled ninjas. Lighter and durability of the textile is better than before.
+-------------------------
 AGI +1 and increases AGI 1 per 3 Refine.
+-------------------------
 When equipped with [Fox Armguard]: AGI +2.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 70^000000
 Weight:^009900 120^000000
@@ -74758,8 +75209,11 @@ Jobs:^6666CC Kagerou and Oboro^000000
 #
 15054#
 Scale Armor told to be worn by a legendary ninja who used unique ninja skills. Specialized for close range attack.
+-------------------------
 MaxHP +15%, MaxSP -30%.
+-------------------------
 When equipped with [Wolf Armguard]: ATK +10%, STR +2.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 90^000000
 Weight:^009900 180^000000
@@ -74768,9 +75222,13 @@ Jobs:^6666CC Kagerou and Oboro^000000
 #
 15055#
 An armor specially made to protect high rank Ninja executives.
+-------------------------
 AGI +1
+-------------------------
 Adds a chance of autocasting Level 1 [Illusion - Shadow] when wearer receive physical attacks.
+-------------------------
 When equipped with [Crescent Armguard]: Flee +10, Perfect Dodge +10.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 60^000000
 Weight:^009900 150^000000
@@ -74780,8 +75238,11 @@ Jobs:^6666CC Kagerou and Oboro^000000
 15056#
 Newly improved ninja suit which took into consideration the opinions of skilled ninjas.
 Lighter and durability of the textile is better than before.
+-------------------------
 AGI +1. Increases AGI 1 per 3 Refine.
+-------------------------
 When equipped with [Fox Armguard]: AGI +2.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 70^000000
 Weight:^009900 120^000000
@@ -74789,20 +75250,48 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Kagerou and Oboro^000000
 #
 15057#
+A pure white apron with no single stain. Gives elegance feeling.
+-------------------------
+Increases Healing skills by 2%.
+-------------------------
+Refine level +5:
+Every 2 refine level increases Healing skills by 1%.
+-------------------------
+Every 2 refine level increases Healing skills by 1%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 50^000000
 Weight:^009900 60^000000
-Level Requirement:^009900 1^000000
+Level Requirement:^009900 50^000000
 Jobs:^6666CC All classes^000000
 #
 15058#
+A suit that able to protects rider's body from wind.
+-------------------------
+AGI +1
+Every 2 refine level increase AGI by 1.
+-------------------------
++^008800Black Leather Boots and Rider Badge^000000:
+AGI +2
+Flee +5
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 100^000000
 Level Requirement:^009900 1^000000
-Jobs:^6666CC All classes^000000
+Jobs:^6666CC All except Novice^000000
 #
 15060#
+A kindergarten uniform with name tag attached on it.
+-------------------------
+ATK and MATK +2%
+-------------------------
+When base level below 79:
+Increases restoration gained from Healing skills and items by 5%.
+-------------------------
++^008800School Bag^000000:
+ATK and MATK +3%
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 1^000000
 Weight:^009900 30^000000
@@ -74810,7 +75299,31 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 15061#
-[jRO item]
+An armor imbued with the power of God Aegir.
+-------------------------
+All stats +1
+-------------------------
+[^6666CCMage, Archer and Acolyte^000000]
+Increases resitance against Silence status by 50%.
+-------------------------
+[^6666CCSwordman, Thief and Merchant^000000]
+Increases resitance against Stun status by 50%.
+-------------------------
+[^0000FFAegir Set^000000]
+^008800Aegir Helm^000000
+^008800Aegir Manteau^000000
+^008800Aegir Armor^000000
+^008800Aegir Shoes^000000
+All stats +1
+Reduces damage taken from Water element attacks by 20%.
+-------------------------
+^663399Indestructible^000000
+-------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 55^000000
+Weight:^009900 260^000000
+Level Requirement:^009900 110^000000
+Jobs:^6666CC Super Novice, 3rd classes, Kagerou and Oboro^000000
 #
 15062#
 ^000088Rental Item^000000
@@ -74857,7 +75370,9 @@ An item that you should not know
 15066#
 Armor with details carved in peridot.
 'In honor of the Twilight Knights, Walter.R.Stern'
-MDEF +25.
+-------------------------
+MDEF +25
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 120^000000
 Weight:^009900 300^000000
@@ -74867,7 +75382,9 @@ Jobs:^6666CC Swordman^000000
 15067#
 ^000088Rental Item^000000
 Specially made to help the members of guilds to grow, this formal suit generates special waves and increases your EXP reward from monsters by 10%.
+-------------------------
 When equipped with a set of Rune Ring, Rune Suit, Mana Manteau, and Mana Boots, you can gain 30% more EXP from monsters.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 0^000000
 Weight:^009900 0^000000
@@ -74877,8 +75394,11 @@ Jobs:^6666CC All classes^000000
 #
 15068#
 Angel's robe for Super Novices. Hugs you like it's only made for you!
-MDEF +30.
+-------------------------
+MDEF +30
+-------------------------
 When equipped in combination with Modified Angelic Cardigan, Damage from ^777777Neutral^000000 element -5%
+-------------------------
 ^777777Angelic's item set bonus^000000
 ^008800Angelic Protection
 Angelic Reincarnation
@@ -74886,6 +75406,7 @@ Angelic Guard
 Angelic Cardigan
 Angel's Kiss^000000
 MaxHP +900, MaxSP +100, chance to cast assumptio when taking physical damage.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 60^000000
@@ -74893,12 +75414,27 @@ Level Requirement:^009900 99^000000
 Jobs:^6666CC Novice^000000
 #
 15069#
-[twRO item]
+A clothing with Sloth pattern.
+-------------------------
+Restore HP by 100 when killing enemy with melee physical attacks.
+-------------------------
+Increases physical damage inflicted on Water element monsters by 5%.
+-------------------------
+Refine level +8: MaxHP +300
+-------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 30^000000
+Weight:^009900 100^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 15070#
 You have a Magical feeling of cloth when weared.
-MDEF +5.
+-------------------------
+MDEF +5
+-------------------------
 LUK +1 Per Refine.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 5^000000
 Weight:^009900 100^000000
@@ -74906,15 +75442,47 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Trans Job^000000
 #
 15071#
-[jRO item]
+A robe of Odin's servant.
+-------------------------
+All stats +1
+-------------------------
+[^6666CCMage, Archer and Acolyte^000000]
+Increases resitance against Silence status by 50%.
+-------------------------
+[^6666CCSwordman, Thief and Merchant^000000]
+Increases resitance against Stun status by 50%.
+-------------------------
+^663399Indestructible^000000
+-------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 55^000000
+Weight:^009900 280^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC Trancendent classes^000000
 #
 15072#
-[jRO item]
+A suit dyed with potion of immortality that made of nectar.
+-------------------------
+Vit +3
+Mdef +5
+-------------------------
+Every 2 refine level increase MaxHP and MaxSP by 1%.
+-------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 35^000000
+Weight:^009900 30^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 15073#
 This suit, developed in Geffen over a long period of time, effectively protects its wearer against potent magic.
-MaxHP +5%, MDEF +10.
-MDEF +5 when upgraded to +7. MaxHP +2% when upgraded to +9.
+-------------------------
+MaxHP +5%
+MDEF +10
+-------------------------
+Refine leevl +7: MDEF +5.
+Refine level +9: MaxHP +2%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 50^000000
 Weight:^009900 150^000000
@@ -74923,10 +75491,18 @@ Jobs:^6666CC All classes^000000
 #
 15074#
 This uniform worn by the Geffen Mages enhances its wearer's concentration while he casts spells.
-10% SP Cost Reduction.
-Increased Variable Cast Time +15%. Casting cannot be interrupted.
-Additional 5% SP Cost Reduction when upgraded to +7.
-Reduce Variable Cast Time 5% when upgraded to +9.
+-------------------------
+Reduces SP consumption by 10%.
+-------------------------
+Increases Variable Cast Time by 15%.
+-------------------------
+Casting cannot be interrupted.
+-------------------------
+Refine leevl +7:
+Reduces SP consumption by 5%.
+Refine level +9:
+Reduces Variable Cast Time by 5%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 100^000000
@@ -74974,9 +75550,13 @@ Jobs:^6666CC All classes^000000
 #
 15088#
 Japanese school uniform.
+-------------------------
 AGI +1, LUK +1
+-------------------------
 Increase MaxHP by (Base level*3)
+-------------------------
 Increase MaxSP by (Base level/2)
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 25^000000
 Weight:^009900 50^000000
@@ -74985,8 +75565,18 @@ Jobs:^6666CC All classes^000000
 #
 15089#
 A suit usually worn by Gentleman.
-ASPD +3%, reduces after cast delay by 3%, reduces variable cast time by 3%.
-Refined to +7, ASPD +2%, reduces after cast delay by 2%, reduces variable cast time by 2%.
+-------------------------
+ASPD +3%
+-------------------------
+Reduces after cast delay by 3%.
+-------------------------
+Reduces variable cast time by 3%.
+-------------------------
+Refine level +7:
+ASPD +2%
+Reduces after cast delay by 2%.
+Reduces variable cast time by 2%.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 30^000000
@@ -74995,19 +75585,24 @@ Class:^6666CC All except Novice^000000
 #
 15090#
 Sculpted out of Gray Shard and infused with Sakray's old, abandoned memories, this armor protects its wearer against holiness and fear.
-Holy Resistance +10%.
-Additional Holy Resistance +2% per Upgrade level.
+-------------------------
 MDEF +10
+-------------------------
+Reduces damage taken from Holy element attacks by 10%.
+Additional Holy Resistance +2% per Upgrade level.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 90^000000
 Weight:^009900 240^000000
 Level Requirement:^009900 120^000000
-Jobs:^6666CC Swordman, Archer, Merchant, and Thief Classes^000000
+Jobs:^6666CC 3rd classes of Swordman, Archer, Merchant, and Thief Classes^000000
 #
 15091#
 Sculpted out of Gray Shard and infused with Sakray's old, abandoned memories, this robe protects its wearer against holiness and fear.
-Holy Resistance +10%.
+-------------------------
+Reduces damage taken from Holy element attacks by 10%.
 Additional Holy Resistance +2% per Upgrade level.
+-------------------------
 Class:^6666CC Armor^000000
 Defense:^0000FF 55^000000
 Weight:^009900 130^000000
@@ -75015,7 +75610,18 @@ Level Requirement:^009900 120^000000
 Jobs:^6666CC Warlock, Sorcerer, Archbishop and Sura^000000
 #
 15092#
-[jRO item]
+An armor of Holy beast that protect the northern continent.
+-------------------------
+MDEF +5
+-------------------------
+Increases physical damage inflicted on Wind element monsters by 10%.
+-------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 55^000000
+Weight:^009900 50^000000
+Element:^33CC00 Wind^000000
+Level Requirement:^009900 70^000000
+Jobs:^6666CC All classes^000000
 #
 15093#
 MDEF +5
@@ -75106,29 +75712,59 @@ Level Requirement:^009900 160^000000
 Jobs:^6666CC Ranger, Minstrel and Wanderer^000000
 #
 15099#
-[JRO item]
+An armor of Holy beast that protect the western continent.
+-------------------------
+MDEF +5
+-------------------------
+Increases physical damage inflicted on Earth element monsters by 10%.
+-------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 55^000000
+Weight:^009900 50^000000
+Element:^CC5500 Earth^000000
+Level Requirement:^009900 70^000000
+Jobs:^6666CC All classes^000000
 #
 15100#
-A frozen breastplate that creates a cold steam. The armor is perpetually endowed with Water Property.
+A frozen breastplate that creates a cold steam.
 Class:^6666CC Armor^000000
 Defense:^0000FF 20^000000
 Weight:^009900 150^000000
+Element:^0000BB Water^000000
 Level Requirement:^009900 130^000000
 Jobs:^6666CC 3rd Classes^000000
 #
 15101#
-A stiff breastplate that emanates unshakeable strength. The armor is perpetually endowed with Earth Property.
+A stiff breastplate that emanates unshakeable strength.
 Class:^6666CC Armor^000000
 Defense:^0000FF 20^000000
 Weight:^009900 150^000000
+Element:^CC5500 Earth^000000
 Level Requirement:^009900 130^000000
 Jobs:^6666CC 3rd Classes^000000
 #
 15102#
-[JRO item]
+A suitable armor for hunting animals.
+-------------------------
+Increases physical and magical damage inflicted on Brute monsters by 3%.
+-------------------------
+Refine level +6:
+For every refine level increases physical and magical damage inflicted on Brute monsters by 1%.
+-------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 30^000000
+Weight:^009900 50^000000
+Level Requirement:^009900 50^000000
+Jobs:^6666CC All Classes^000000
 #
 15103#
-[JRO item]
+An armor of Holy beast that contain the power of Kirin.
+Class:^6666CC Armor^000000
+Defense:^0000FF 55^000000
+Weight:^009900 50^000000
+Element:^777777 Holy^000000
+Level Requirement:^009900 70^000000
+Jobs:^6666CC All classes^000000
 #
 15104#
 [JRO item]
@@ -75145,8 +75781,8 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 15110#
-The power of science is able to increase the force beyond its limits.You can join with other devices.
-ATK+ 5%.
+This mechanical device uses the power of science to optimize your strength. You can combine it with other variants for a synergetic effect.
+ATK +5%
 Each 4 refines increase ATK 1%.
 Class:^6666CC Armor^000000
 Defense:^0000FF 80^000000
@@ -75155,7 +75791,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Mechanic^000000
 #
 15111#
-It is probably the most powerful glove created to have a better defense.The biggest advantage Is that it is easy to assemble and disassemble.
+Designed to be worn over the frames of Magic Gears for enhanced Defense, this part is easy to assemble and disassemble.
 ^663399Indestructible^000000
 Receive 10% less damage from Small/Medium size monsters.
 If refine +7 or more receive 10% less damage from large size monster.
@@ -75176,7 +75812,7 @@ MaxHP +1000
 MaxSP +100
 MDEF +10
 ^FF0000Unrefineable^000000
-[^000088Airship Set(Armor, cloak, boots)^000000]
+[^000088Airship Set(Armor, Manteau and Boots)^000000]
 MaxHP +25%
 MaxSP +25%
 Increase movement speed.
@@ -75382,7 +76018,7 @@ If wearer's base level 140 or higher, additional MATK +50
 When equipped with [Cape of Ancient Lord],
 MaxSP +10%, every 1 refine of armor increase MaxSP +1%.
 FLEE +10, every 1 refine of armor increase FLEE +1.
-When equipped with ^008800Cloak of Survival^000000,
+When equipped with ^008800Manteau of Survival^000000,
 MaxHP +10%, every 1 refine of armor increase MaxHP +1%.
 MATK +2%, every 1 refine of armor increase MATK +1%.
 Class:^6666CC Armor^000000
@@ -75825,8 +76461,8 @@ Jobs:^6666CC Novice, Swordsman, Acolyte and Merchant^000000
 16026#
 A mace made of pure gold created for the 2012 RWC (Ragnarok World Championship)
 Increases ATK power +30 every 3 upgrade levels
-When refined to +6 or higher, Increases ATK damage to all monsters.
-When refined to +9 or higher, additional ATK increase damage to all monsters and has a chance of auto-casting Level 1 Weapon Perfection
+Refine level +6 or higher, Increases ATK damage to all monsters.
+Refine level +9 or higher, additional ATK increase damage to all monsters and has a chance of auto-casting Level 1 Weapon Perfection
 ^0000ffSet Bonus^000000
 If equipped with RWC 2012 Ring grants +5 ATK for every upgrade level
 ^FF0000These set bonuses do not work with the card-slotted RWC accessories^000000
@@ -75878,7 +76514,7 @@ Level Requirement:^009900 30^000000
 Jobs:^6666CC Transcendent Acolyte^000000
 #
 16030#
-File, which improves the bunker focused on lightweight weapon.
+This upgraded version of Pilebuncker is lighter in weight, allowing the user to move more quickly.
 Each 2 refines increase ASPD +1%.
 Class:^6666CC Mace^000000
 Attack:^CC0000 400^000000
@@ -75888,7 +76524,7 @@ Level Requirement:^009900 130^000000
 Jobs:^6666CC Mechanic^000000
 #
 16031#
-Destructive weapon that converts files of Bunker focused.
+This upgraded version of Pilebuncker provides more destructive power.
 Each refine increase ATK +5.
 Class:^6666CC Mace^000000
 Attack:^CC0000 450^000000
@@ -75898,7 +76534,7 @@ Level Requirement:^009900 130^000000
 Jobs:^6666CC Mechanic^000000
 #
 16032#
-File, which improves the bunker weapon special abilities are easy-to-use form.
+This upgraded version of Pilebuncker facilitates the application of Special abilities.
 Each refine reduces SP consumption by 1%.
 Class:^6666CC Mace^000000
 Attack:^CC0000 400^000000
@@ -75908,7 +76544,7 @@ Level Requirement:^009900 130^000000
 Jobs:^6666CC Mechanic^000000
 #
 16033#
-A mechanical arm that can be used as a weapon, is very similar to yours.But I think it is much more effective.
+Kick and Kick's severed arm that works as effectively as any standard-issue weapon.
 CRIT +20
 ^663399Indestructible^000000
 Class:^6666CC Mace^000000
@@ -76016,11 +76652,12 @@ Level Requirement:^009900 50^000000
 Jobs:^6666CC Novice, Swordman, Merchant and Acolyte^000000
 #
 16050#
-A replica of Thunderclap Hammer.
+A replica of Warrior Hammer.
 (Incomplete desc)
 Class:^6666CC Mace^000000
 Attack:^CC0000 130^000000
 Weight:^009900 0^000000
+Element:^CC5500 Earth^000000
 Weapon Level:^009900 3^000000
 Level Requirement:^009900 50^000000
 Jobs:^6666CC Novice, Swordman, Merchant and Acolyte^000000
@@ -76046,6 +76683,16 @@ Weight:^009900 0^000000
 Weapon Level:^009900 3^000000
 Level Requirement:^009900 100^000000
 Jobs:^6666CC Novice; 3rd classes of Swordman, Acolyte and Merchant^000000
+#
+16055#
+(Incomplete desc)
+Class:^6666CC Mace^000000
+Attack:^CC0000 130^000000
+Weight:^009900 200^000000
+Element:^CC5500 Earth^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 50^000000
+Jobs:^6666CC Novice, Swordman, Merchant and Acolyte^000000
 #
 16100#
 A box that contains 1 "Angry Mouth" inside.
@@ -78705,7 +79352,7 @@ STR +1, INT +1, MDEF +3,
 Reduces damage taken from ^0000BBWater^000000 property by 7%.
 When killing monsters, has a low chance of dropping Buche De Noel or Candy Canes.
 When dealing physical or magical damage, has a low chance of activating Lv 1 Frost Joker.
-When refined to +8, activates Lv 5 Frost Joker.
+Refine level +8, activates Lv 5 Frost Joker.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
 Location:^6666CC Upper^000000
@@ -83238,14 +83885,14 @@ A box that contains 1 Heroic Backpack
 Description:
 A backpack befitting of any hero.
 Enables use of Level 1 Greed
-When refined to +7 or higher and base stats (without modifiers) is equal to 90 or higher,
+Refine level +7 or higher and base stats (without modifiers) is equal to 90 or higher,
 -STR -> Attack +20
 -INT -> Magic Attack +30
 -VIT -> Tolerance to ^777777Neutral^000000 property +5
 -AGI -> ASPD +8%
 -DEX -> Increases long range physical attacks by 5
 -LUK -> CRIT +10
-When refined to +9 or higher and base stats (without modifiers) is equal to 90 or higher,
+Refine level +9 or higher and base stats (without modifiers) is equal to 90 or higher,
 -STR -> Attack +30
 -INT -> Magic Attack +50
 -VIT -> Tolerance to ^777777Neutral^000000 property +10
@@ -85969,11 +86616,12 @@ Level Requirement:^009900 50^000000
 Jobs:^6666CC Archer, Thief and Rogue^000000
 #
 18134#
-A replica of Thunderclap Bow.
+A replica of Warrior Bow.
 (Incomplete desc)
 Class:^6666CC Bow^000000
 Attack:^CC0000 120^000000
 Weight:^009900 0^000000
+Element:^CC5500 Earth^000000
 Weapon Level:^009900 3^000000
 Level Requirement:^009900 50^000000
 Jobs:^6666CC Archer, Thief and Rogue^000000
@@ -86065,6 +86713,16 @@ Weapon Level:^009900 3^000000
 Level Requirement:^009900 100^000000
 Jobs:^6666CC Ranger, Minstrel and Wanderer^000000
 #
+18142#
+(Incomplete desc)
+Class:^6666CC Bow^000000
+Attack:^CC0000 120^000000
+Weight:^009900 150^000000
+Element:^CC5500 Earth^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 50^000000
+Jobs:^6666CC Archer, Thief and Rogue^000000
+#
 18500#
 ^000088Rental Item^000000
 Passionate red scarf.
@@ -86153,7 +86811,7 @@ Jobs:^6666CC All classes^000000
 A hat which is very unique and rare, made from the feathers of a legendary bird Garuda.
 Reduces damage taken from all elements by 5%.
 LUK +5, HIT +10, Reduces casting delay by 5%.
-When refined to +7 or higher, has a chance of getting Mastela Fruit when attacking monsters.
+Refine level +7 or higher, has a chance of getting Mastela Fruit when attacking monsters.
 Chance to drop increases by 1% for each refine level over 7.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
@@ -86489,8 +87147,8 @@ Jobs:^6666CC All classes^000000
 18539#
 A driver's cap with a menacing skull on the band.
 MATK +2%
-When refined to +5 or higher, adds an additional MATK +3%.
-When refined to +7 or higher, adds an additional MATK +3%.
+Refine level +5 or higher, adds an additional MATK +3%.
+Refine level +7 or higher, adds an additional MATK +3%.
 Special Effect:
 If equipped in combination with Elven Ears[0], decreases the SP cost of skills by 3%.
 If equipped in combination with Evil Bone Wand[0], each refine on the weapon adds MATK +10. If the Bone Wand[0] is refined to +10, reduces cast time of skill by 10%.
@@ -86534,7 +87192,7 @@ Jobs:^6666CC All classes^000000
 A headdress worn by high level members of warrior clergy members.
 Increases the effect of received healing by 5%.
 Increases the effectiveness of your own healing skills by 2%.
-When refined to +7 or higher, increases the effectiveness of your healing skills by an additional 3%.
+Refine level +7 or higher, increases the effectiveness of your healing skills by an additional 3%.
 Special Effect:
 If equipped in combination with a Healing Staff[0], the effectiveness of your healing skills is increased by 1% per refine level of the staff.
 If equipped in combination with a Holy Stick[1], the effectiveness of your healing skills is increased by 3% per refine level of the staff.
@@ -86641,8 +87299,8 @@ Jobs:^6666CC All classes^000000
 A 'fashionable' Christmas Tree hat designed by Louise Carol.
 Increases resistance against Blind, ^663399Stun^000000, Curse and Confuse by 20%.
 Has a 1% chance of dropping Cookie Bags with each monster killed.
-When refined to +7, Cookie Bag drop rate increases by 2%.
-When refined to +9, Cookie Bag drop rate increases by 4%.
+Refine level +7, Cookie Bag drop rate increases by 2%.
+Refine level +9, Cookie Bag drop rate increases by 4%.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
 Location:^6666CC Upper^000000
@@ -86773,7 +87431,7 @@ Jobs:^6666CC All classes^000000
 This is an exact replica of the hat worn by O'Riley the Leprechaun.
 STR +1, INT +1
 MDEF +4
-When refined to +8 or higher, adds a chance of automatically using 1 Green Ale when dealing physical attacks and a low chance of dropping Green Ale with each monster killed.
+Refine level +8 or higher, adds a chance of automatically using 1 Green Ale when dealing physical attacks and a low chance of dropping Green Ale with each monster killed.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 8^000000
 Location:^6666CC Upper^000000
@@ -86867,7 +87525,7 @@ Jobs:^6666CC All classes^000000
 18573#
 A berret decorated with white feather.
 HIT +20, MaxHP -10%.
-When refined to +5, HIT -10, MaxHP +10%;
+Refine level +5, HIT -10, MaxHP +10%;
 HIT -3, MaxHP +3% for every addtional 2 refining level increase.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
@@ -87122,7 +87780,7 @@ Level Requirement:^009900 65^000000
 Jobs:^6666CC All except Novice^000000
 #
 18595#
-When refined to +7 or higher, has a 1% chance of activating +100 attack for 10 seconds.
+Refine level +7 or higher, has a 1% chance of activating +100 attack for 10 seconds.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 8^000000
 Location:^6666CC Upper^000000
@@ -87142,8 +87800,8 @@ Jobs:^6666CC All classes^000000
 18597#
 Created for military purpose, this hat boosts your fighting abilities.
 ASPD +3%, CRIT +3
-When refined to +7 or +8, adds an additional ASPD +2% and CRIT +2.
-When refined to +9 or higher, adds an additional ASPD +2% and CRIT +2.
+Refine level +7 or +8, adds an additional ASPD +2% and CRIT +2.
+Refine level +9 or higher, adds an additional ASPD +2% and CRIT +2.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -87455,7 +88113,7 @@ Jobs:^6666CC All classes^000000
 18630#
 A cute doll of a drooping Alicel from the Robot Factory.
 Increases damage to Demihuman and ^6666CCDemon monster^000000 by 10%.
-When refined to +7 or higher, has a low chance of adding 100% ASPD for 7 seconds.
+Refine level +7 or higher, has a low chance of adding 100% ASPD for 7 seconds.
 ^FF0000Created by Allysia^000000
 ^FFFFFF_^000000
 Class:^6666CC Headgear^000000
@@ -87522,7 +88180,7 @@ Jobs:^6666CC All classes^000000
 18637#
 Helmet generals of the kingdom was the cry of the ancient continent was using. Weather in general that the word of command many soldiers outpouring from all over the body Using this pitch.
 STR +2, VIT +1.
-When refined to +8, increase the movement speed.
+Refine level +8, increase the movement speed.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
 Location:^6666CC Upper, Middle^000000
@@ -87672,10 +88330,10 @@ Jobs:^6666CC All classes^000000
 Vanargand is a another name of Fenrir: the God Biter, which inspired the design of this helmet.
 MDEF +5.
 Under the +5 refine level, the effect is, absorb 1% of damage dealt to enemy into HP, and 1% into SP with certain rate.
-When refined to +5 and +6, absorb 3% of damage dealt to enemy into HP, 1% into SP with certain rate.
-When refined to +7, absorb 5% of damage dealt to enemy into HP, 2% into SP with certain rate.
-When refined to +8, absorb 5% of damage dealt to enemy into HP, 2% into SP with a higher rate.
-When refined to +9 or above, absorb 8% of damage dealt to enemy into HP, 4% into SP with a higher rate.
+Refine level +5 and +6, absorb 3% of damage dealt to enemy into HP, 1% into SP with certain rate.
+Refine level +7, absorb 5% of damage dealt to enemy into HP, 2% into SP with certain rate.
+Refine level +8, absorb 5% of damage dealt to enemy into HP, 2% into SP with a higher rate.
+Refine level +9 or above, absorb 8% of damage dealt to enemy into HP, 4% into SP with a higher rate.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -87762,8 +88420,8 @@ Jobs:^6666CC All classes^000000
 #
 18659#
 A Hat created with power of mythical creature, Boitata.
-on physical attack, user will have a chance to cast Sonic Blow, Lv 5. and enchant ^FF0000Fire^000000 property on weapon for 3 min.
-If user put this on with Boitata Armor, user will give 10% more damage to ^CC5500Earth^000000 element monsters and enchant ^FF0000Fire^000000 property on his armor. INT +3, STR +3, MDEF +10
+on physical attack, user will have a chance to cast Sonic Blow, Lv 5. and enchant ^FF0000Fire^000000 element on weapon for 3 min.
+If user put this on with Boitata Armor, user will give 10% more damage to ^CC5500Earth^000000 element monsters and enchant ^FF0000Fire^000000 element on his armor. INT +3, STR +3, MDEF +10
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Upper, Middle^000000
@@ -87925,7 +88583,9 @@ Jobs:^6666CC All classes^000000
 #
 18674#
 A hat that has sharp wings that make you feel like flying
-AGI +3, ASPD +1%, every 10 sec SP -5.
+AGI +3
+ASPD +1%
+every 10 sec SP -5.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
 Location:^6666CC Upper^000000
@@ -87934,8 +88594,9 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All except Novice^000000
 #
 18675#
-A unique fresh apple that sustains an ambient odor
-DEX +2, HIT +5.
+A unique fresh apple that sustains an ambient odor.
+DEX +2
+HIT +5
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
 Location:^6666CC Upper^000000
@@ -88448,7 +89109,7 @@ You can have an excellent at critical moment after equipped it. All people will 
 Reduces damage taken from ^6666CCDemihuman monster^000000 by 10%.
 Increase the healing effect of Fruit of Mastela by 30%.
 Reduces variable cast time by 3%.
-When refined to +12, variable cast time -1%; When refined to +14, variable casting -1%. (Maximum reduce by 5%)
+Refine level +12, variable cast time -1%; When refined to +14, variable casting -1%. (Maximum reduce by 5%)
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
 Location:^6666CC Upper^000000
@@ -89469,7 +90130,7 @@ Jobs:^6666CC 3rd Classes^000000
 18821#
 A feather decorated with elaborately bright colors to celebrate the 2012 RWC.
 ATK +1% versus all monster sizes, MATK +1%.
-When refined to +3 or higher, adds additional +1% to ATK and MATK for each refine level.
+Refine level +3 or higher, adds additional +1% to ATK and MATK for each refine level.
 ^0000ffSet Bonus^000000
 If equipped with RWC 2012 Ring grants +1% versus all monster sizes for every 2 upgrade levels
 If equipped with RWC 2012 Pendant grants +1% MAtk for every 2 upgrade levels
@@ -89831,7 +90492,7 @@ Jobs:^6666CC All classes^000000
 18852#
 A delicious strawberry, so delicious that you'd rather put in on your head than eat it?
 All stats +1.
-When refined to +12 or higher, ASPD +2
+Refine level +12 or higher, ASPD +2
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
 Location:^6666CC Upper^000000
@@ -89842,7 +90503,7 @@ Jobs:^6666CC All classes^000000
 18853#
 A delicious strawberry, so delicious that you'd rather put in on your head than eat it?
 All stats +1.
-When refined to +12 or higher, ASPD +2
+Refine level +12 or higher, ASPD +2
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
 Location:^6666CC Upper^000000
@@ -89967,7 +90628,7 @@ Jobs:^6666CC All classes^000000
 18864#
 This flower decoration is blessed by the goddess of earth granting its wearer protection against Earth damages.
 Reduces damage taken from ^CC5500Earth^000000 element attacks by 15%.
-When refined to +8 above, additional 5% resistance.
+Refine level +8 above, additional 5% resistance.
 Enables use of Level 5 ^008800Earth Spike^000000.
 VIT +2.
 Class:^6666CC Headgear^000000
@@ -90081,10 +90742,10 @@ Jobs:^6666CC All classes^000000
 #
 18873#
 A heart-shaped yellow hat celebrating Valentine's Day.
-When refined to +7 MaxHP/MaxSP +4%
-When refined to +8 MaxHP/MaxSP +5%
-When refined to +9 MaxHP/MaxSP +6%
-When refined to +10 MaxHP/MaxSP +7%
+Refine level +7 MaxHP/MaxSP +4%
+Refine level +8 MaxHP/MaxSP +5%
+Refine level +9 MaxHP/MaxSP +6%
+Refine level +10 MaxHP/MaxSP +7%
 Random chance casting Level 10 Blessing skill effect on yourself while receiving physical damage.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 1^000000
@@ -90263,9 +90924,12 @@ Jobs:^6666CC All classes^000000
 #
 18892#
 I come in peace! Take me to your leader, Poring!!!
+------------------------
 MDEF, Critical FLEE, HIT, and Perfect Dodge +5
+------------------------
 When refined to 7, reduce cast time by 5%
 When refined to 9, skill delay reduce by 5% , ASPD +5%
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Upper^000000
@@ -90275,9 +90939,13 @@ Jobs:^6666CC All classes^000000
 #
 18893#
 I feel the power of a flame dragon flowing inside me!
-Reduces damage taken from Dragon and Demihuman by 8%
-Increases healing effect of Meat by 200%
+------------------------
+Reduces damage taken from Dragon and Demihuman monster by 8%.
+------------------------
+Increases healing effect of Meat by 200%.
+------------------------
 When refined to 12, increase MaxHP +7%, MaxSP +3%
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Upper^000000
@@ -90288,7 +90956,9 @@ Jobs:^6666CC All classes^000000
 18894#
 "Walk on a rainbow trail; walk on a trail of song, and all about you will be beauty.
 There is a way out of every dark mist, over a rainbow trail. - Robert Motherwell"
-Reduces damage taken from Demihuman by 5%
+------------------------
+Reduces damage taken from Demihuman by 5%.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Middle^000000
@@ -90299,7 +90969,9 @@ Jobs:^6666CC All classes^000000
 18895#
 "Come Fairies, take me out of this dull world, for I would ride with you upon
 the wind and dance upon the mountains like a flame! - William Butler Yeats"
-Increases resistance from ^FF0000Fire^000000 property by 8%
+------------------------
+Reduces damage taken from ^FF0000Fire^000000 element attacks by 8%.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Middle^000000
@@ -90310,7 +90982,9 @@ Jobs:^6666CC All classes^000000
 18896#
 'No one ever approaches perfection except by stealth,
 and unknown to themselves. - William Hazzlit'
-Increases resistance from ^FF0000Fire^000000 property by 8%
+------------------------
+Reduces damage taken from ^FF0000Fire^000000 element attacks by 8%.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Middle^000000
@@ -90321,7 +90995,9 @@ Jobs:^6666CC All classes^000000
 18897#
 "Humans are like teabags. We don't know our true strength
 until we are in hot water! - Eleanor Roosevelt"
-Increases resistance from ^0000BBWater^000000 property by 8%
+------------------------
+Reduces damage taken from ^0000BBWater^000000 element attacks by 8%.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Middle^000000
@@ -90332,8 +91008,13 @@ Jobs:^6666CC All classes^000000
 18898#
 A gorgeous crown made with Trunk of Yggdrasil imbued with the power of
 Mother Nature to the heralds of Ragnarok Online.
-All Stat +5, MaxHP +100, MaxSP +50
+------------------------
+All Stat +5
+MaxHP +100
+MaxSP +50
+------------------------
 When refined to 8 or higher, adds 1% to MaxHP and reduces fix casting time by 1% for every refine level
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
 Location:^6666CC Upper^000000
@@ -90343,7 +91024,9 @@ Jobs:^6666CC All classes^000000
 #
 18900#
 A traditional sausage which tastes very delicious with sweet mustard.
+------------------------
 MaxHP +50
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 1^000000
 Location:^6666CC Lower^000000
@@ -90353,8 +91036,12 @@ Jobs:^6666CC All classes^000000
 #
 18901#
 A traditional hat which is often worn during folk festivals.
-VIT +3, Increase HP recovery by 10 %
+------------------------
+VIT +3
+Increase HP regeneration by 10%.
+------------------------
 If worn with Weisswurst, SP recovery will be increased by 10%
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Upper^000000
@@ -90364,9 +91051,13 @@ Jobs:^6666CC All classes^000000
 #
 18907#
 A panda clinging to its master. Somehow you'd feel braver with it around.
+------------------------
 Reduces damage taken from ^6666CCDemihuman monster^000000 by 5%.
+------------------------
 Increases damage inflicted against Medium size monsters by 10%.
+------------------------
 When refine level is +9 or higher, Adds a chance of autocasting Level 2 Scream when wearer receive physical attacks.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 8^000000
 Location:^6666CC Upper^000000
@@ -90376,11 +91067,15 @@ Jobs:^6666CC All classes^000000
 #
 18908#
 Piamette's red ears cap. It's a favorite among children.
+------------------------
 STR +5
 MaxHP +5%
+------------------------
 Reduces damage taken from ^FF0000Fire^000000 element monsters by 10%.
+------------------------
 Refined to 9, ASPD +1
 For every 2 refinements above 9, ASPD +1
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 8^000000
 Location:^6666CC Upper^000000
@@ -90390,9 +91085,13 @@ Jobs:^6666CC All classes^000000
 #
 18909#
 Piamette's brown ears cap. It's a favorite among children.
+------------------------
 MaxHP +10%
+------------------------
 Reduces damage taken from ^6666CCDemihuman monster^000000 by 5%
+------------------------
 For every refine level, MATK +2
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 8^000000
 Location:^6666CC Upper^000000
@@ -90402,9 +91101,13 @@ Jobs:^6666CC All classes^000000
 #
 18910#
 Piamette's blue ears cap. It's a favorite among children.
-Reduces damage taken from ^6666CCDemihuman monster^000000 by 5%
-Increases damage to ^6666CCMedium^000000 size monsters by 10%
-Refined to 12 above, reflects physical damages by 5%
+------------------------
+Reduces damage taken from ^6666CCDemihuman monster^000000 by 5%.
+------------------------
+Increases damage to ^6666CCMedium^000000 size monsters by 10%.
+------------------------
+Refined to 12 above, reflects physical damages by 5%.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 8^000000
 Location:^6666CC Upper^000000
@@ -90414,10 +91117,15 @@ Jobs:^6666CC All classes^000000
 #
 18911#
 Lovely petals dropping from a pair of red flowers.
+------------------------
 DEX +5
+------------------------
 Reduces damage taken from ^CC5500Earth^000000 element monsters by 3%.
+------------------------
 Reduces damage taken from ^6666CCDemihuman monster^000000 by 10%.
+------------------------
 Refined to 12 above, reflects physical damages by 5%.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -90427,10 +91135,15 @@ Jobs:^6666CC All classes^000000
 #
 18912#
 A pigeon perched on his master's shoulder.
+------------------------
 All stats +1
+------------------------
 Adds a chance of autocasting Level 1 Ruwach when wearer receive physical attacks.
+------------------------
 If equipped with Angel Wing, adds 5% bonus EXP earned when killing monsters.
+------------------------
 ^FF0000Unrefineable^000000
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Middle^000000
@@ -90440,10 +91153,15 @@ Jobs:^6666CC All classes^000000
 #
 18913#
 A gossiping raven that talks all day long.
+------------------------
 All stats +1
+------------------------
 Adds a chance of autocasting Level 1 Ruwach when wearer receive physical attacks.
+------------------------
 If equipped with Grand Circlet, adds 5% bonus EXP earned when killing monsters.
+------------------------
 ^FF0000Unrefineable^000000
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Middle^000000
@@ -90453,9 +91171,13 @@ Jobs:^6666CC All classes^000000
 #
 18914#
 A cute baby Devilring that chases his master all day.
+------------------------
 All stats +1
+------------------------
 Adds a chance of autocasting Level 7 Blessing when dealing physical attacks.
+------------------------
 ^FF0000Unrefineable^000000
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Middle^000000
@@ -90465,9 +91187,12 @@ Jobs:^6666CC All classes^000000
 #
 18915#
 Scary but beautiful. Blood is still dripping from the wings, don't ask how it was acquired.
+------------------------
 MaxHP +200
 FLEE +1
+------------------------
 ^FF0000Unrefineable^000000
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Middle^000000
@@ -90477,9 +91202,12 @@ Jobs:^6666CC All classes^000000
 #
 18916#
 A balloon shaped like a bear. It is often mistaken as a Poring.
+------------------------
 STR +1, LUK +1
 MaxHP +50
+------------------------
 ^FF0000Unrefineable^000000
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Lower^000000
@@ -90489,8 +91217,11 @@ Jobs:^6666CC All classes^000000
 #
 18917#
 One of the best ways to show love. It makes you feel thrilled with your love relationship.
+------------------------
 All Stats +1
+------------------------
 ^FF0000Unrefineable^000000
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Lower^000000
@@ -90500,9 +91231,12 @@ Jobs:^6666CC All classes^000000
 #
 18918#
 A balloon shaped like an octopus. It sticks to its owner by using suckers.
+------------------------
 VIT +1, INT +1
 MaxSP +30
+------------------------
 ^FF0000Unrefineable^000000
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Lower^000000
@@ -90512,9 +91246,15 @@ Jobs:^6666CC All classes^000000
 #
 18919#
 A common familiar often summoned by vampires. Very useful in scouting danger ahead of time.
+------------------------
 FLEE +5
-When equipped with Majestic Goat[1], STR +3 and FLEE +5
+------------------------
++^008800Majestic Goat^000000:
+STR +3
+FLEE +5
+------------------------
 ^FF0000Unrefineable^000000
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Lower^000000
@@ -90525,9 +91265,12 @@ Jobs:^6666CC All classes^000000
 18920#
 An interesting hat made of felt that comes from a far-away land.
 Worn by skilled soldiers, this hat brings a sense of confidence to the wearer.
+------------------------
 Reduces damage taken from ^6666CCDemihuman monster^000000 by 5%.
+------------------------
 Refine level +7: Increases damage inflicted against ^6666CCDemihuman monster^000000 by 5%.
 Refine level +9: Increases damage inflicted against ^6666CCDemihuman monster^000000 by 3%.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
 Location:^6666CC Upper^000000
@@ -90538,7 +91281,9 @@ Jobs:^6666CC All classes^000000
 18921#
 A moroccan style lamp that has lucky powers in it.
 Hmm, rubbing it doesn't seem to make any genies pop out...
+------------------------
 LUK +10
+------------------------
 Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
 Weight:^009900 20^000000
@@ -90547,9 +91292,12 @@ Jobs:^6666CC All classes^000000
 #
 18924#
 Fezzes are neat! For the traveling adventurer with time on his or her hands.
+------------------------
 DEX +2
-When refined to +8, DEX +1
-When refined to +10, DEX +2
+------------------------
+Refine level +8: DEX +1
+Refine level +10: DEX +2
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 7^000000
 Location:^6666CC Upper^000000
@@ -90558,17 +91306,43 @@ Level Requirement:^009900 30^000000
 Jobs:^6666CC All classes^000000
 #
 18925#
-[JRO item]
+A tool that can generate wind when used with hand. It's said a god wind use this as well.
+------------------------
+Increases Chain Lightning and Lord of Vermillion damage by 3%.
+------------------------
+Increases SP consumption by 5%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Lower^000000
+Weight:^009900 30^000000
+Level Requirement:^009900 30^000000
+Jobs:^6666CC All classes^000000
 #
 18926#
-[JRO item]
+It's made to imitate fluffy green foxtail.
+------------------------
+Increases Heaven's Drive and Earth Strain damage by 3%.
+------------------------
+Increases SP consumption by 5%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Lower^000000
+Weight:^009900 30^000000
+Level Requirement:^009900 30^000000
+Jobs:^6666CC All classes^000000
 #
 18929#
 A hat that is shaped like the biggest land mammal.
-DEX +2.
-Creates a chance of casting Level 5 Storm Gust when you receive Physical damage.
+------------------------
+DEX +2
+------------------------
+Adds a chance of casting Level 5 Storm Gust when you receive Physical damage.
+------------------------
 DEX +1 when upgraded to +8.
 DEX +1 every 2 upgrade levels after +8.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -90578,9 +91352,13 @@ Jobs:^6666CC All classes^000000
 #
 18930#
 A hat that is shaped like the biggest primate in Africa.
-STR +2.
+------------------------
+STR +2
+------------------------
 Adds a chance of autocasting Level 5 Bowling Bash when dealing physical attacks.
+------------------------
 Additional STR +3 when upgraded to +11.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -90590,10 +91368,13 @@ Jobs:^6666CC All classes^000000
 #
 18931#
 A hat shaped like the predatory feline mammal that is popularly known as the king of the beasts.
-INT +2.
-Creates a chance of casting Level 5 Meteor Storm when you receive Physical damage.
+------------------------
+INT +2
+Adds a chance of casting Level 5 Meteor Storm when you receive Physical damage.
+------------------------
 Additional INT +1 when upgraded to +8.
 Additional INT +1 every 2 upgrade levels after +8.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -90603,9 +91384,13 @@ Jobs:^6666CC All classes^000000
 #
 18932#
 A hat shaped like the equine mammal that is naturally armed with thick skin and strong, intimidating horns.
-VIT 2.
-Creates a chance of casting Level 5 Lord of Vermilion when you receive Physical damage.
+------------------------
+VIT 2
+------------------------
+Adds a chance of casting Level 5 Lord of Vermilion when you receive Physical damage.
+------------------------
 Additional VIT +1 per upgrade level at +11 or higher.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -90615,11 +91400,17 @@ Jobs:^6666CC All classes^000000
 #
 18933#
 A hat with mixed decorations between machine and plant.
-DEX +2, MDEF +7.
+------------------------
+DEX +2
+MDEF +7
+------------------------
 Increase damage of Spore Explosion by 5%.
 Every 2 refine, increase Spore Explosion damage by 5%.
+------------------------
 +Pipe, reduce skill delay by 5%.
+------------------------
 +Clock Tower Manager card, reduce variable cast time by 10%.
+------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -90628,10 +91419,44 @@ Level Requirement:^009900 45^000000
 Jobs:^6666CC All classes^000000
 #
 18934#
-[JRO item]
+A cute headgear that imitate the ears of fox with small bells attached on it.
+------------------------
+AGI +2
+ASPD +10%
+------------------------
+Adds a chance of transforming wearer into Moonlight Flower for 5 seconds when attacked by physical attacks.
+Every refine level increases transforming rate.
+During transformation:
+CRIT +100
+Long range physical attacks +5%.
+When refine level +6:
+Every refine level increase long range physical attacks by 1%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 4^000000
+Location:^6666CC Upper^000000
+Weight:^009900 40^000000
+Level Requirement:^009900 50^000000
+Jobs:^6666CC All classes^000000
 #
 18935#
-[JRO item]
+Never look back! There is...Something...
+------------------------
+Perfect Dodge +8
+------------------------
+Increases movement speed.
+------------------------
+Adds a chance of inflicting Fear and Curse on yourself when attacked by physical or magical attacks.
+------------------------
+^FF0000Unrefineable^000000
+^663399Indestructible^000000
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Upper^000000
+Weight:^009900 1^000000
+Level Requirement:^009900 10^000000
+Jobs:^6666CC All classes^000000
 #
 18936#
 Energy from the sea spreads throughout your body
@@ -90644,10 +91469,70 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 18937#
-[JRO item]
+A mechanical doll part that created by husband that cherished his died wife.
+------------------------
+MaxHP +2%
+MDEF +7
+------------------------
++^008800Vesper Core 1^000000:
+INT +8
+MaxSP +5%
+------------------------
++^008800Vesper Core 2^000000:
+STR +7
+ATK +20
+------------------------
++^008800Vesper Core 3^000000:
+AGI +7
+Flee +15
+------------------------
++^008800Vesper Core 4^000000:
+DEX +7
+Hit +10
+------------------------
++^008800Vesper Gear 1^000000:
+MaxSP +5%
+Every 20 base level, INT +1.
+------------------------
++^008800Vesper Gear 2^000000:
+MaxHP +5%
+Every 20 base level, STR +1.
+------------------------
++^008800Vesper Gear 3^000000:
+ASPD +5%
+Every 20 base level, AGI +1.
+------------------------
++^008800Vesper Gear 4^000000:
+Reduces variable cast time by 5%.
+Every 20 base level, DEX +1.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^009900 10^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 18938#
-[JRO item]
+A universe that spread overhead.
+------------------------
+INT +1
+------------------------
+Reduces damage taken from Meteor Storm and Crimson Rock by 20%.
+------------------------
+Reduces damage taken from Comet by 5%.
+------------------------
+Refine level +6:
+Every refine level reduces damage taken from Meteor Storm and Crimson Rock by 2%.
+------------------------
+Every 3 refine level increases Meteor Storm and Crimson Rock damage by 5%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 1^000000
+Location:^6666CC Upper^000000
+Weight:^009900 30^000000
+Level Requirement:^009900 70^000000
+Jobs:^6666CC All classes^000000
 #
 18939#
 A cute beret based on Nekomimi. Close enough to cat.
@@ -90778,7 +91663,7 @@ Happy 10th Anniversary pRO!
 STR +2, INT +2, DEX +2.
 Reduces damage taken from ^6666CCDemihuman monster^000000 by 5%.
 Increase healing effect of Slim White Potion, White Potion and Siege White Potion by +50%.
-When refined to +10, resistance against ^6666CCDemihuman monster^000000 +5%.
+Refine level +10, resistance against ^6666CCDemihuman monster^000000 +5%.
 Increase healing effect of Slim White Potion, White Potion and Siege White Potion by additional +50%.
 More than 12 Refine LV, MaxHP +5%, MaxSP +2%.
 Class:^6666CC Headgear^000000
@@ -90889,7 +91774,8 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 18971#
-All stats +1. MDEF+ 5.
+All stats +1
+MDEF +5
 Each refine increase ATK +4.
 Each 5 refines increase ASPD +1.
 Each 2 refine increase MaxHP, MaxSP 1%.
@@ -90903,7 +91789,8 @@ Level Requirement:^009900 170^000000
 Jobs:^6666CC Rune Knight^000000
 #
 18972#
-All stats +1. MDEF+ 5.
+All stats +1
+MDEF +5
 Each refine increase MATK +2, ATK +4, heal +2%.
 Each 2 refine increase MaxHP, MaxSP 1%.
 Each 2 refine inflict 20% more damage with ^008800Judex^000000.
@@ -90988,7 +91875,9 @@ Level Requirement:^009900 170^000000
 Jobs:^6666CC Generic^000000
 #
 18978#
-All stats +1. MDEF+ 5. SP recovery increased by 20%.
+All stats +1
+MDEF +5
+SP regeneration increased by 20%.
 Each refine increase MATK +1%.
 Each 2 refine increase MaxHP, MaxSP 1%.
 Each 2 refine inflict 5% more damage with ^008800Soul Expansion^000000.
@@ -91015,7 +91904,8 @@ Level Requirement:^009900 170^000000
 Jobs:^6666CC Sura^000000
 #
 18980#
-All stats +1. MDEF+ 5.
+All stats +1
+MDEF +5
 Each refine increase MATK +1%, ATK +4.
 Each 2 refine increase MaxHP, MaxSP 1%.
 Each 2 refine inflict 15% more damage with ^008800Posion Buster^000000.
@@ -91054,7 +91944,8 @@ Level Requirement:^009900 170^000000
 Jobs:^6666CC Guillotine Cross^000000
 #
 18983#
-All stats +1. MDEF +5.
+All stats +1
+MDEF +5
 Each refine increase ATK +4.
 Each 5 refines increase ASPD +1.
 Each 2 refine increase MaxHP, MaxSP 1%.
@@ -91125,7 +92016,7 @@ Inexplicably a machine that has a trillion kinds of things to feel.
 HIT +50, FLEE +50, MaxSP -50%.
 +[^008800Broken Chips 01 & Broken Chips 02^000000]
 Infinity movement accelerating, ATK,MATK +50.
-When refined to +9 or more additional MaxSP +50%, MaxHP +10%.
+Refine level +9 or more additional MaxSP +50%, MaxHP +10%.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -91134,10 +92025,19 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC All classes^000000
 #
 19012#
-[JRO item]
+A hat that imitate the shining wheel that wore by angel on head.
+Increases experience gained from killing Angel monster by 5%.
+Increases damage taken from Angel monster by 10%.
+^FF0000Unrefineable^000000
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Upper^000000
+Weight:^009900 100^000000
+Level Requirement:^009900 10^000000
+Jobs:^6666CC All classes^000000
 #
 19014#
-Wearing this make can feel the world of death.
+Wearing this will make wearer feel the world of death.
 Increases damage inflicted against ^6666CCUndead monster^000000 by 5%.
 Reduces damage taken from ^6666CCUndead monster^000000 by 5%.
 Class:^6666CC Headgear^000000
@@ -91171,7 +92071,8 @@ Jobs:^6666CC All classes^000000
 #
 19020#
 A headgear worn by practitioner.
-INT +3, MATK +4%
+INT +3
+MATK +4%
 When Base Lv less than 99, every 2 refine increase INT +1.
 When Base Lv more then 100, every refine increase INT +1.
 +Survival rod[1], every refine of rod increase MATK +10.
@@ -91185,9 +92086,10 @@ Jobs:^6666CC All classes^000000
 #
 19021#
 A giant helm of guardian of the ancient temple.
-STR +3, Physical damage +4%.
-When Base Lv less than 99, every 2 refine increase STR +1
-When Base Lv more then 100, every refine increase STR +1
+STR +3
+ATK +4%
+When Base Lv less than 99, every 2 refine increase STR +1.
+When Base Lv more then 100, every refine increase STR +1.
 +Giant Axe, increase damage of cart termination by 15%, every refine of axe further inrease damage by 5%.
 +Giant Shield, reduces damage from Large monsters by 5%, every refine of shield reduces damage by 2%.
 +Giant Lance, when using Joint Beat, auto cast Level 1 Spiral pierce, every refine of lance increase the chance of trigger and increase damage of spiral pierce by 5%.
@@ -91229,7 +92131,7 @@ Jobs:^6666CC All classes^000000
 #
 19023#
 An imitation of Queen Scaraba Crown.
-DEF -50%, MDEF -50.
+DEF -50%, MDEF -50%.
 Every refine decrease damage from ^6666CCInsect monster^000000 by 1%.
 when wearer receive physical or magical attacks, Adds a chance of inflicting Confuse status on 11x11 cells, every refine increase the chance.
 +Scaraba and Gold Scaraba Card, adds chance to cause abnormal state in 11x11 cells, every refine increase the chance.
@@ -91238,7 +92140,7 @@ when wearer receive physical or magical attacks, Adds a chance of inflicting Con
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper and Lower^000000
-Weight:^009900 50^000000
+Weight:^009900 150^000000
 Level Requirement:^009900 70^000000
 Jobs:^6666CC All classes^000000
 #
@@ -91263,11 +92165,11 @@ Level Requirement:^009900 70^000000
 Jobs:^6666CC All classes^000000
 #
 19025#
-A cute hat with dog's ears
+A cute hat with dog's ears.
 MDEF +3.
 Increase magical and physical attack to ^6666CCBrute monster^000000 by 5%.
 Reduces damage taken from ^6666CCBrute monster^000000 by 5%.
-Chance to drop Light Granule when defeating ^6666CCBrute monster^000000.
+Adds a chance a defeated ^6666CCBrute monster^000000 will drop ^6666CCLight Granule^000000.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
 Location:^6666CC Upper^000000
@@ -91728,7 +92630,7 @@ Jobs:^6666CC All classes^000000
 A hood of Piamette that able to increase magic power of it's wearer.
 INT +2, DEX +2.
 Increase physical and magical damage inflicted on ^6666CCDemihuman monster^000000 by 10%.
-When refined to +12, nullify the size penalty of weapon.
+Refine level +12, nullify the size penalty of weapon.
 When equipped with Cursed Mad Bunny or Mad Bunny, adds a chance to transform it's wearer into Piamette when when dealing physical or magical attacks.
 When transforming, temporarily gains the power of Piamette at the cost draining 50 HP per second.
 Increasing the refine level will also increase the power of transformation.
@@ -91745,7 +92647,7 @@ A tiara that look similiar to Douce's headdress.
 It's made from different material and technology from this world.
 MDEF +10
 Reduces SP consumption of all skills by 10%.
-When refined to +5:
+Refine level +5:
 Every refine reduces SP consumption of all skills by 3%.
 ^663399Indestructible^000000
 Class:^6666CC Headgear^000000
@@ -91772,13 +92674,13 @@ Flee +20
 Enables use of Level 1 Return to Thanatos Tower.
 Increases damage agaist Thanatos monsters by 5%.
 Reduces damage taken from Thanatos monsters by 5%.
-When refined to +5:
+Refine level +5:
 Increases damage agaist Thanatos monsters by 10%.
 Reduces damage taken from Thanatos monsters by 10%.
-When refined to +7:
+Refine level +7:
 Increases damage agaist Thanatos monsters by 15%.
 Reduces damage taken from Thanatos monsters by 15%.
-When refined to +9:
+Refine level +9:
 Increases damage agaist Thanatos monsters by 20%.
 Reduces damage taken from Thanatos monsters by 20%.
 Class:^6666CC Headgear^000000
@@ -91802,15 +92704,15 @@ An ornament decorated with gemstones that filled with a powerful magic.
 Nullify gemstone requirements for certain skills.
 For every 1 base INT, MATK +1.
 Increases SP consumptions for all skills by 100%.
-When refined to +5:
+Refine level +5:
 Reduces SP consumptions for all skills by 25%.
 MATK +3%.
 Healing skills +3%.
-When refined to +7:
+Refine level +7:
 Reduces SP consumptions for all skills by 25%.
 MATK +5%.
 Healing skills +5%.
-When refined to +9:
+Refine level +9:
 Reduces SP consumptions for all skills by 25%.
 MATK +7%.
 Healing skills +7%.
@@ -91823,73 +92725,87 @@ Jobs:^6666CC All classes^000000
 #
 19107#
 A mysterious hat designed after the backcountry people of Unbara.
-Reduces critical damage taken by 20%.
-For every refine level, reduces damage taken from Shadow property attaks by 5%.
-When refined to +5:
-Reduces critical damage taken by 30%.
-When refined to +7:
-Reduces critical damage taken by 50%.
+-------------------------
+For every refine level, reduces damage taken from Shadow element attacks by 5%.
+-------------------------
+Reduces damage taken from critical attacks by 20%.
+Refine level +5:
+Reduces damage taken from critical attacks by 30%.
+Refine level +7:
+Reduces damage taken from critical attacks by 50%.
+-------------------------
 When equipped by Novice:
 Frozen resistances +20%.
-When refined to +5:
+Refine level +5:
 Frozen resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Frozen.
+-------------------------
 When equipped by Swordman:
 Curse resistances +20%.
-When refined to +5:
+Refine level +5:
 Curse resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Curse.
+-------------------------
 When equipped by Mage:
 Bleeding resistances +20%.
-When refined to +5:
+Refine level +5:
 Bleeding resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Bleeding.
+-------------------------
 When equipped by Archer:
 Sleep resistances +20%.
-When refined to +5:
+Refine level +5:
 Sleep resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Sleep.
+-------------------------
 When equipped by Acolyte:
 Burning resistances +20%.
-When refined to +5:
+Refine level +5:
 Burning resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Burning.
+-------------------------
 When equipped by Thief:
 Blind resistances +20%.
-When refined to +5:
+Refine level +5:
 Blind resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Blind.
+-------------------------
 When equipped by Merchant:
 Poison resistances +20%.
-When refined to +5:
+Refine level +5:
 Poison resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Poison.
+-------------------------
 When equipped by Taekwon:
 Stun resistances +20%.
-When refined to +5:
+Refine level +5:
 Stun resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Stun.
+-------------------------
 When equipped by Ninja:
 Silence resistances +20%.
-When refined to +5:
+Refine level +5:
 Silence resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Silence.
+-------------------------
 When equipped by Gunslinger:
 Confuse resistances +20%.
-When refined to +5:
+Refine level +5:
 Confuse resistances +30%.
-When refined to +7:
+Refine level +7:
 Gives immunity against Confuse.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 12^000000
 Location:^6666CC Upper, Lower^000000
@@ -91899,41 +92815,60 @@ Jobs:^6666CC All classes^000000
 #
 19108#
 A hat resemble the Wild Rider.
+-------------------------
 When equipped by Super Novice:
 Adds certain chance of dropping 'Old Candy' when killing a monster.
+-------------------------
 When equipped by Knight:
 Adds certain chance of dropping 'Rune stone ingredients' when killing a monster.
+-------------------------
 When equipped by Crusader:
 Adds certain chance of dropping 'Ice Cream', 'Carrot Juice', 'Banana Juice' or 'Apple Juice' when killing a monster.
+-------------------------
 When equipped by Wizard:
 Adds certain chance of dropping Yellow, Blue or Red Gemstone when killing a monster.
+-------------------------
 When equipped by Sage:
 Adds certain chance of dropping Elemental Converter ingredints when killing a monster.
+-------------------------
 When equipped by Hunter:
 Adds certain chance of dropping 'Elemental Quiver' or 'Sharp Quiver' when killing a monster.
+-------------------------
 When equipped by Bard and Dancer:
 Adds certain chance of dropping 'Elemental Quiver; or 'Silence Quiver' when killing a monster.
+-------------------------
 When equipped by Priest:
 Adds certain chance of dropping 'Holy Water' when killing a monster.
+-------------------------
 When equipped by Monk:
 Adds certain chance of dropping 'Anodyne' when killing a monster.
+-------------------------
 When equipped by Assassin:
 Adds certain chance of dropping 'Guillotine cross poison ingredients' when killing a monster.
+-------------------------
 When equipped by Rogue:
 Adds certain chance of dropping 'Surface Paint Box' or 'Face Paint Box' when killing a monster.
+-------------------------
 When equipped by Blacksmith:
 Adds certain chance of dropping 'Steel', 'Iron' or 'Brigan' when killing a monster.
+-------------------------
 When equipped by Alchemist:
 Adds certain chance of dropping 'Herbs', 'Mole Whiskers', 'Witched Starsand' or 'Cactus Needle' when killing a monster.
+-------------------------
 When equipped by Star Gladiator:
 Adds certain chance of dropping 'Enchanted stone' when killing a monster.
+-------------------------
 When equipped by Soul Linker:
 Adds certain chance of dropping 'Witherless Rose', '3 carat Diamond' or 'Immortal Heart' when killing a monster.
+-------------------------
 When equipped by Ninja:
 Adds certain chance of dropping 'Dried Squid Box', 'Flying Fish Box' or 'Starfish Box' when killing a monster.
+-------------------------
 When equipped by Gunslinger:
 Adds certain chance of dropping 'Silver Bullet Ammo Case', 'Gong Bug Pocket' or 'Blood Ammo Case' when killing a monster.
+-------------------------
 When equipped by class higher than classes listed above, adds certain chance of dropping 'Mastella Fruit' when killing a monster.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 9^000000
 Location:^6666CC Upper^000000
@@ -99725,8 +100660,57 @@ Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
+20490#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
 20491#
 A hat with High-performance laser shooter.
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+20494#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+20495#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+20496#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+20497#
+Class:^6666CC Costume^000000
+Location:^6666CC Lower^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+20498#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+20499#
 Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
@@ -99921,7 +100905,7 @@ Jobs:^6666CC All classes^000000
 #
 20721#
 Sculpted out of Gray Shard and infused with Sakray's old, abandoned memories, this manteau protects its wearer against holiness and fear.
-Holy Resistance 5%.
+Reduces damage taken from Holy element attacks by 5%.
 Additional Holy Resistance +1% per 2 Upgrade levels.
 +15% Neutral Resistance when equipped with Armor of Gray, Gray Helmet, and Boots of Gray.
 Lets you respond to Melee Physical damage with a chance of casting Level 3 Drain Life.
@@ -99976,7 +100960,7 @@ A huge ribbon worn by Piamette. Blessed with strong magical power.
 MATK +10, INT +1, DEX +1.
 +^00FF00Mad Bunny^000000
 When magically attacking, a certain chance to transform into Piamette for 10 sec.
-While transformed, consumes 30HP each second but adds MATK +5 for every 3 refine upgrade.
+While transformed, drains 30 HP each second but adds MATK +5 for every 3 refine upgrade.
 Chance to transform increases as refine goes higher.
 Class:^6666CC Garment^000000
 Defense:^0000FF 0^000000
@@ -100056,10 +101040,10 @@ Level Requirement:^009900 30^000000
 Jobs:^6666CC All classes^000000
 #
 20732#
-A mechanical device that can heal the wounds. Its make you feel healthier.
+This mechanical device heals wounds and rejuvenates your body.
 MaxHP +6%.
 Each 2 refine add MaxHP 1%.
-When refined to +9 or higher, Increases natural HP regeneration by 50%.
+Refine level +9 or higher, Increases natural HP regeneration by 50%.
 When equipped with Axe Tornado increase damage by 25%.
 Class:^6666CC Garment^000000
 Defense:^0000FF 20^000000
@@ -100068,7 +101052,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Mechanic^000000
 #
 20733#
-Mado gear to increase the maximum output of the engine. The biggest advantage is that it is easy to assemble and disassemble.
+Designed to maximize the outputs of Magic Gears, this part is easy to assemble and disassemble.
 Decrease skill after delay 10%.
 If refined to +7 or more increases resistance from ^777777Neutral^000000 element attacks by 10%.
 If refined to +9 or more decrease skill after delay 10%.
@@ -100127,8 +101111,8 @@ Jobs:^6666CC All classes^000000
 [jRO item]
 #
 20743#
-Cloak travelers coming and going aboard the airship is used.
-These are goods that were stolen from the monsters that attacked the ariship during the incident.
+A cloak wore by travelers whose came and went aboard the airship.
+These are goods that were stolen by monsters during airship raid.
 Reduces damage taken from ^777777Neutral^000000 element attacks by 10%.
 Flee +20, Reduction in variable cast by 20%.
 Class:^6666CC Garment^000000
@@ -100142,9 +101126,9 @@ Manteau of Ferlock, captain of the airship.
 Acquired during the event of airship raid.
 Reduces damage taken from ^777777Neutral^000000 element attacks by 10%.
 Flee +20. Reduction in variable cast by 10%.
-When refined to +7 additional reduction in variable cast by 10%.
-When refined to +9 additional reduction in variable cast by 10%.
-When refined to +12 additional reduction in variable cast by 5%.
+Refine level +7 additional reduction in variable cast by 10%.
+Refine level +9 additional reduction in variable cast by 10%.
+Refine level +12 additional reduction in variable cast by 5%.
 Class:^6666CC Garment^000000
 Defense:^0000FF 12^000000
 Weight:^009900 40^000000
@@ -100440,8 +101424,8 @@ Jobs:^6666CC All classes^000000
 A manteau wore by a kid whos has dream of becoming hero.
 Flee +1
 Reduces damage taken from ^777777Neutral^000000 element attacks by 1%.
-When refined to +3, Flee +3, Neutral resistance +3%.
-When refined to +10, Flee +20, Neutral resistance +20%.
+Refine level +3, Flee +3, Neutral resistance +3%.
+Refine level +10, Flee +20, Neutral resistance +20%.
 When compounded with Devilring card, increase damage taken from Neutral attack by 50%.
 Class:^6666CC Garment^000000
 Defense:^0000FF 0^000000
@@ -100657,8 +101641,8 @@ Jobs:^6666CC Swordman^000000
 21001#
 *Stats during WoE & PVP
 Increases damage to enemy players by 80% and bypasses 30% Def.
-When refined to +6 or higher, increases physical damage to enemy players by an additional 40%.
-When refined to +9 or higher, has a chance of reflecting damage of physical and magic attacks as well as a chance to cast Magic Mirror.
+Refine level +6 or higher, increases physical damage to enemy players by an additional 40%.
+Refine level +9 or higher, has a chance of reflecting damage of physical and magic attacks as well as a chance to cast Magic Mirror.
 Class:^6666CC Two-Handed Sword^000000
 Attack:^CC0000 260^000000
 Weight:^009900 350^000000
@@ -101183,7 +102167,7 @@ Jobs:^6666CC All classes^000000
 22036#
 Ensures user safety with fox fur and silver details that will propel the ground.
 Ranged Damage +5%.
-When refined to +8 or higher, every refine increase ranged damage +1%.(up to +13)
+Refine level +8 or higher, every refine increase ranged damage +1%.(up to +13)
 Class:^6666CC Footgear^000000
 Defense:^0000FF 15^000000
 Weight:^009900 30^000000
@@ -101261,7 +102245,7 @@ Level Requirement:^009900 50^000000
 Jobs:^6666CC All classes^000000
 #
 22043#
-That whole body gently machine boots. Is heavier than I thought, but is light weight well.
+Mechanical boots that keep you light on your feet. They are much lighter than they look.
 Increased Attack Speed. (After attack delay reduced by 5%)
 Each 4 refine decrease skill after delay 1%.
 +[^008800Axe Weapon^000000]
@@ -101273,9 +102257,9 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Mechanic^000000
 #
 22044#
-Mado gear components can greatly improve the ability to move. The biggest advantage is that it is easy to assemble and disassemble.
+Designed to significantly improve Movement Speed, this Magic Gear part is easy to assemble and disassemble.
 Reduces SP consumption of skill Hovering by 15.
-When refined to +7 or more reduces SP consumption of skill acceleration by 20.
+Refine level +7 or more reduces SP consumption of skill acceleration by 20.
 Class:^6666CC Footgear^000000
 Defense:^0000FF 23^000000
 Weight:^009900 100^000000
@@ -101845,7 +102829,7 @@ A box contains 1 Support Novice box, Guardian of Time Box, Level up box, the gif
 Weight:^009900 1^000000
 #
 22611#
-Excavated from the ruins of packaged goods in the form of an envelope. When you open the envelope is given 30 seconds a random effect.
+Often found in the Excavation Site, this envelope activates a random effect for 30 seconds when opened.
 Weight:^009900 1^000000
 #
 22612#
@@ -103026,8 +104010,8 @@ Weight:^009900 0^000000
 Weight:^009900 10^000000
 #
 23001#
-부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. 
-탐욕스톤(Lower), 캐스팅스톤(걸칠것), ASPD스톤(상단), 의상장비 네번째 슬롯에 인챈트하여 이펙트를 부여할 수 있는 트윙클 이펙트(상단), 고스트 이펙트(Middle)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. 
+A box containing costume enchantment stones.
+Greed Stone(Lower), Cast Stone(Garment), ASPD Stone(Upper), Also added an effect stone that enchant costume's 4th slot: Twinkle(Upper), Ghost effect(Middle).
 Weight:^009900 1^000000
 #
 23007#
@@ -103097,9 +104081,9 @@ Weight:^009900 0^000000
 Weight:^009900 0^000000
 #
 23027#
-민들레를 엮어 만든 소박한 반지. 민들레 홀씨를 불면 바람을 타고 어디론가 날아갈 것 같다.
-'라헬'로 귀환 가능. 
-한번 사용시, 60분간 재사용이 불가능하다. 
+A dandelion ring of rustic weave. Dandelion spores will fly somewhere when blown by wind.
+Enables 'Return to Rachel'.
+60 minutes re-use delay.
 Weight:^009900 0^000000
 #
 23028#
@@ -104012,7 +104996,7 @@ Jobs:^6666CC All classes^000000
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
 MDEF +3.
-When refined to +7 or more add MDEF +3.
+Refine level +7 or more add MDEF +3.
 [^000088 +Athena Shadow Earring^000000]
 Increases 1% of tolerance against Neutral attack.
 If the amount is 15 or more, Increases 1% of tolerance against Neutral attack.
@@ -108699,6 +109683,9 @@ Weapon Level:^009900 3^000000
 Level Requirement:^009900 60^000000
 Jobs:^6666CC Doram race^000000
 #
+26102#
+[jRO item]
+#
 26807#
 A metallic book made of Oridecon created for experienced adventurers.
 Can be enchanted by ^ffffff<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
@@ -108809,11 +109796,11 @@ For every refine level:
 Cross Impact damage +3%
 Cross Ripper Slasher damage +2%
 Rolling Cutter +1%
-When refined to +7:
+Refine level +7:
 ASPD +5%
-When refined to +9:
+Refine level +9:
 ASPD +5%
-When refined to +10:
+Refine level +10:
 ASPD +5%
 Inflict more damage on enemy with high DEF.
 Class:^6666CC Katar^000000
@@ -108841,8 +109828,8 @@ This two-handed axe, made to counteract the Devil Sword Thanatos, is sculpted ou
 It offers incredible power and magic at a great cost.
 INT +6, VIT +6, LUK -6
 Adds a low chance of regaining HP and SP from 5% of your damage dealt when dealing physical attacks.
-Consumes 100 HP every 10 seconds.
-Consumes 1,000 HP when unequipped.
+Drains 100 HP every 10 seconds.
+Drains 1,000 HP when unequipped.
 MATK +80
 Class:^6666CC Two-Handed Axe^000000
 Attack:^CC0000 300^000000
@@ -109099,7 +110086,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 28352#
-One of vespa's components.
+One of Vesper's components.
 MDEF +3
 MATK +5%
 +Memory of Lover: MaxSP +5%, every 20 base level increment increase INT by 1.
@@ -109110,7 +110097,7 @@ Level Requirement:^009900 90^000000
 Jobs:^6666CC All classes^000000
 #
 28353#
-One of vespa's components.
+One of Vesper's components.
 MDEF +3
 ATK +5%
 +Memory of Lover: MaxHP +5%, every 20 base level increment increase STR by 1.
@@ -109148,7 +110135,7 @@ Level Requirement:^009900 40^000000
 Jobs:^6666CC All classes^000000
 #
 28357#
-One of vespa's components.
+One of Vesper's components.
 MDEF +3
 Flee +10
 +Memory of Lover: ASPD +5%, every 20 base level increment increase AGI by 1.
@@ -109162,7 +110149,7 @@ Jobs:^6666CC All classes^000000
 A lucky clover that has been cursed, wether for a good or bad reason.
 LUK +2
 Perfect Dodge +3
-Adds a chance of inflicting Curse on wearer when dealing physical attacks.
+Adds a chance of inflicting ^663399Curse^000000 status on wearer when dealing physical attacks.
 +Lucky Clover: enables use of Level 1 Cloaking.
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
@@ -109171,7 +110158,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC All classes^000000
 #
 28359#
-One of vespa's components.
+One of Vesper's components.
 MDEF +3
 HIT +10
 +Memory of Lover: Variable cast time -5%, every 20 base level increment increase DEX by 1.
@@ -109672,11 +110659,12 @@ Level Requirement:^009900 50^000000
 Jobs:^6666CC Novice, Swordman, Mage, Archer, Merchant, Thief, Ninja and Soul Linker^000000
 #
 28709#
-A replica of Thunderclap Sword.
+A replica of Warrior Sword.
 (Incomplete desc)
 Class:^6666CC Dagger^000000
 Attack:^CC0000 150^000000
 Weight:^009900 0^000000
+Element:^CC5500 Earth^000000
 Weapon Level:^009900 3^000000
 Level Requirement:^009900 50^000000
 Jobs:^6666CC Novice, Swordman, Mage, Archer, Merchant, Thief, Ninja and Soul Linker^000000
@@ -109723,6 +110711,9 @@ Weight:^009900 0^000000
 Weapon Level:^009900 3^000000
 Level Requirement:^009900 100^000000
 Jobs:^6666CC Super Novice, Soul Linker, Ninja; 3rd classes of Swordman, Mage, Archer, Merchant and Thief ^000000
+#
+28715#
+[jRO item]
 #
 28900#
 Prontera kingdom's knight shield.
@@ -110331,7 +111322,7 @@ Blue Aura Effect
 Pink Glow Effect
 #
 29162#
-Shadow Effect
+
 #
 31016#
 MaxHP +1000
@@ -110415,6 +111406,35 @@ Adds a chance of autocasting Level 5 Electric Walk when wearer receive magical a
 Class:^6666CC Card^000000
 Compound on:^9D9F00 Footgear^000000
 Weight:^009900 1^000000
+#
+31027#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31028#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31029#
+Class:^6666CC Costume^000000
+Location:^6666CC Lower^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31030#
+Class:^6666CC Costume^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle, Lower^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
 #
 31031#
 A doll that resemble casual figure of pope of arunafeltz.
