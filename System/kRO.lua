@@ -739,10 +739,10 @@ tbl = {
 	},
 	[12508] = {
 		unidentifiedDisplayName = "[Not for sale]Green Butterfly Wing",
-		unidentifiedResourceName = "나비의날개",
+		unidentifiedResourceName = "초록나비날개",
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "[Not for sale]Green Butterfly Wing",
-		identifiedResourceName = "나비의날개",
+		identifiedResourceName = "초록나비날개",
 		identifiedDescriptionName = {
 			"슈발츠 공화국의 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
 			"\"유노\", \"리히타르젠\", \"아인브로크\", \"아인베흐\", \"휘겔\"",
@@ -754,10 +754,10 @@ tbl = {
 	},
 	[12509] = {
 		unidentifiedDisplayName = "[Not for sale]Red Butterfly Wing",
-		unidentifiedResourceName = "나비의날개",
+		unidentifiedResourceName = "빨간나비날개",
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "[Not for sale]Red Butterfly Wing",
-		identifiedResourceName = "나비의날개",
+		identifiedResourceName = "빨간나비날개",
 		identifiedDescriptionName = {
 			"라헬의 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
 			"\"베인스\", \"라헬\"",
@@ -769,10 +769,10 @@ tbl = {
 	},
 	[12510] = {
 		unidentifiedDisplayName = "[Not for sale]Blue Butterfly Wing",
-		unidentifiedResourceName = "나비의날개",
+		unidentifiedResourceName = "파란나비날개",
 		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "[Not for sale]Blue Butterfly Wing",
-		identifiedResourceName = "나비의날개",
+		identifiedResourceName = "파란나비날개",
 		identifiedDescriptionName = {
 			"로컬라이징 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
 			"\"아요타야\", \"아마쯔\", \"용지성\", \"쿤룬\", \"모스코비아\", \"데와타\", \"브라질리스\"",
@@ -10105,6 +10105,230 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[17683] = {
+		unidentifiedDisplayName = "행운의 냥다래 10개 상자 II",
+		unidentifiedResourceName = "보물상자_",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "행운의 냥다래 10개 상자 II",
+		identifiedResourceName = "보물상자_",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"냥다래 열매가 10개 들어있는 상자. ",
+			"소량의 통조림도 보너스로 들어있다.",
+			"추가로 풍선 스크롤 1개도 얻을 수 있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17684] = {
+		unidentifiedDisplayName = "행운의 냥다래 100개 상자 II",
+		unidentifiedResourceName = "보물상자_",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "행운의 냥다래 100개 상자 II",
+		identifiedResourceName = "보물상자_",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"냥다래 열매가 100개 들어있는 상자. ",
+			"대량의 통조림도 보너스로 들어있다.",
+			"추가로 풍선 스크롤 11개도 얻을 수 있다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[19143] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "포링 풍선",
+		identifiedResourceName = "C1학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 포링이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"몬스터 사냥시 높은 확률로 젤로피 드롭.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1426
+	},
+	[19146] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "마린 풍선",
+		identifiedResourceName = "C5학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 마린이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"물리 공격시, 낮은 확률로 콰그마이어 LV 1 발동.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1430
+	},
+	[19147] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "드롭프스 풍선",
+		identifiedResourceName = "C2학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 드롭프스가 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"DEX + 2",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1427
+	},
+	[19148] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "산타포링 풍선",
+		identifiedResourceName = "C3학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 산타포링이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"사탕 사용시 회복량 200% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1428
+	},
+	[19149] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "포포링 풍선",
+		identifiedResourceName = "C4학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 포포링이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"물리 공격시 매우 높은 확률로 적에게 독을 건다.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1429
+	},
+	[19150] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "메탈링 풍선",
+		identifiedResourceName = "C6학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 메탈링이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"물리공격시 낮은 확률로 스트립웨폰 Lv.1 사용.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1431
+	},
+	[19151] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "데빌링 풍선",
+		identifiedResourceName = "C9학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 데빌링이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"물리 공격시 일정 확률로 적에게 저주를 건다.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1434
+	},
+	[19152] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "엔젤링 풍선",
+		identifiedResourceName = "C10학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 엔젤링이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"하얀포션 사용시 회복량 100% 증가.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1435
+	},
+	[19153] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "고스트링 풍선",
+		identifiedResourceName = "C11학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 고스트링이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"물리 공격시 낮은 확률로 적에게 소울스트라이크 Lv.5 사용.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1436
+	},
+	[19154] = {
+		unidentifiedDisplayName = "악세사리",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "아크엔젤링 풍선",
+		identifiedResourceName = "C12학년풍선",
+		identifiedDescriptionName = {
+			"머리 위에 아크엔젤링이 둥둥 떠 있다.",
+			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
+			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"리저렉션 1Lv 사용가능.",
+			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
+			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1437
+	},
 	[22519] = {
 		unidentifiedDisplayName = "동작멈춤버프",
 		unidentifiedResourceName = "",
@@ -10132,6 +10356,20 @@ tbl = {
 		identifiedDisplayName = "",
 		identifiedResourceName = "카프라명함",
 		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[22701] = {
+		unidentifiedDisplayName = "페가수스 솜사탕",
+		unidentifiedResourceName = "페가수스솜사탕",
+		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		identifiedDisplayName = "페가수스 솜사탕",
+		identifiedResourceName = "페가수스솜사탕",
+		identifiedDescriptionName = {
+			"페가수스와 비슷하게 생긴 솜사탕. 맛이 부드럽고 먹으면 기분이 좋아진다고 한다.",
+			"사용시 HP, SP 40% 회복. 자신에게 블레싱 LV5 부여. Flee +10 30초간 지속.",
+			"Weight:^009900 5^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11454,6 +11692,21 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23045] = {
+		unidentifiedDisplayName = "몽블랑 케이크",
+		unidentifiedResourceName = "몽블랑케이크",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "몽블랑 케이크",
+		identifiedResourceName = "몽블랑케이크",
+		identifiedDescriptionName = {
+			"가을철에 먹는 맛있는 밤으로 만든 몽블랑 케이크, 입맛이 좋아 당신에게 행복을 느끼게 해줍니다.",
+			"HP, SP 20% 회복.",
+			"집중력향상 5Lv 발동.",
+			"Weight:^009900 5^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23046] = {
 		unidentifiedDisplayName = "[Not for sale]미스틱 파우더",
 		unidentifiedResourceName = "요정의마법가루",
@@ -11729,6 +11982,20 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23079] = {
+		unidentifiedDisplayName = "딸기 크림 케이크",
+		unidentifiedResourceName = "딸기크림케이크",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "딸기 크림 케이크",
+		identifiedResourceName = "딸기크림케이크",
+		identifiedDescriptionName = {
+			"딸기와 크림으로 만든 케이크.",
+			"HP, SP 10%씩 회복.", "아숨프티오 3Lv 사용.",
+			"Weight:^009900 0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23080] = {
 		unidentifiedDisplayName = "원념의 결정",
 		unidentifiedResourceName = "오크의마법결정",
@@ -11996,6 +12263,74 @@ tbl = {
 			"토끼 보닛",
 			"오색 깃털 장식",
 			"――――――――――――― ",
+			"Weight:^009900 20^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23134] = {
+		unidentifiedDisplayName = "풍선 스크롤",
+		unidentifiedResourceName = "대만페스티벌스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "풍선 스크롤",
+		identifiedResourceName = "대만페스티벌스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 풍선 스크롤. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 봉인된인장 카드, 포링 풍선 상자, 클래스 쉐도우 큐브, 대장장이의 축복등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23135] = {
+		unidentifiedDisplayName = "포링 캡슐",
+		unidentifiedResourceName = "폭탄링상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "포링 캡슐",
+		identifiedResourceName = "폭탄링상자",
+		identifiedDescriptionName = {
+			"다양한 포링 풍선중 1개가 들어있는 캡슐.",
+			"포링의 종류는 무려 10가지! 좋아하는 타입의 풍선을 획득해보자.",
+			"――――――――――――― ",
+			"포링 풍선",
+			"마린 풍선",
+			"드롭프스 풍선",
+			"산타포링 풍선",
+			"포포링 풍선",
+			"메탈링 풍선",
+			"데빌링 풍선 ",
+			"엔젤링 풍선 ",
+			"고스트링 풍선 ",
+			"아크엔젤링 풍선",
+			"――――――――――――― ",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23136] = {
+		unidentifiedDisplayName = "나비 날개 상자",
+		unidentifiedResourceName = "대관람차과자상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "나비 날개 상자",
+		identifiedResourceName = "대관람차과자상자",
+		identifiedDescriptionName = {
+			"4종류의 색상별 비매품 나비날개가 3개씩 포장된 상자.",
+			"각 날개마다 갈 수 있는 장소가 다르다.",
+			"――――――――――――― ",
+			"[비매품]노랑나비의 날개 ",
+			"\"프론테라\", \"게펜\", \"페이욘\", \"모로크\", \"알데바란\", \"알베르타\", \"이즈루드\" ",
+			"――――――――――――― ",
+			"[비매품]초록나비의 날개",
+			"\"유노\", \"리히타르젠\", \"아인브로크\", \"아인베흐\", \"휘겔\" ",
+			"――――――――――――― ",
+			"[비매품]빨간나비의 날개",
+			"\"베인스\", \"라헬\" ",
+			"――――――――――――― ",
+			"[비매품]파란나비의 날개",
+			"\"아요타야\", \"아마쯔\", \"용지성\", \"쿤룬\", \"모스코비아\", \"데와타\", \"브라질리스\" ",
+			"――――――――――――― ",
+			"^ff0000경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.^000000",
 			"Weight:^009900 20^000000"
 		},
 		slotCount = 0,
@@ -12990,6 +13325,30 @@ tbl = {
 			"Its really fit on finger, but you decide to look it as a decoration instead...",
 			"Weight:^009900 0^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25200] = {
+		unidentifiedDisplayName = "구름 솜털",
+		unidentifiedResourceName = "부드러운털",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "구름 솜털",
+		identifiedResourceName = "부드러운털",
+		identifiedDescriptionName = {
+			"구름처럼 가볍고 부드러운 솜털, 이걸 모으면 굉장한 보온효과를 낼 수 있다.",
+			"^ff0000이벤트 종료시 삭제되는 아이템 입니다.^000000",
+			"Weight:^009900 0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25201] = {
+		unidentifiedDisplayName = "영험한 발톱",
+		unidentifiedResourceName = "늑대의발톱",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "영험한 발톱",
+		identifiedResourceName = "늑대의발톱",
+		identifiedDescriptionName = { "영험한 기운이 느껴지는 발톱이다. 퇴치의 증거로 호랑님께 가져다 드리자.", "^ff0000이벤트 종료시 삭제되는 아이템 입니다.^000000", "Weight:^009900 0^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
