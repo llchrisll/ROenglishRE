@@ -10140,15 +10140,16 @@ tbl = {
 		ClassNum = 0
 	},
 	[19143] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "포링 풍선",
+		identifiedDisplayName = "Poring Balloon",
 		identifiedResourceName = "C1학년풍선",
 		identifiedDescriptionName = {
-			"머리 위에 포링이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
+			"A poring ballon that floated above head.",
+			"Somehow it's bring lucky feeling.",
+			"Increase experiece gain from killing monsters by 5%.",
+			"Increases item drop rate by 5%. ",
 			"몬스터 사냥시 높은 확률로 젤로피 드롭.",
 			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
 			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
@@ -10159,7 +10160,7 @@ tbl = {
 		ClassNum = 1426
 	},
 	[19146] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "마린 풍선",
@@ -10178,7 +10179,7 @@ tbl = {
 		ClassNum = 1430
 	},
 	[19147] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "드롭프스 풍선",
@@ -10197,7 +10198,7 @@ tbl = {
 		ClassNum = 1427
 	},
 	[19148] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "산타포링 풍선",
@@ -10216,7 +10217,7 @@ tbl = {
 		ClassNum = 1428
 	},
 	[19149] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "포포링 풍선",
@@ -10235,7 +10236,7 @@ tbl = {
 		ClassNum = 1429
 	},
 	[19150] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "메탈링 풍선",
@@ -10254,7 +10255,7 @@ tbl = {
 		ClassNum = 1431
 	},
 	[19151] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "데빌링 풍선",
@@ -10273,7 +10274,7 @@ tbl = {
 		ClassNum = 1434
 	},
 	[19152] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "엔젤링 풍선",
@@ -10292,7 +10293,7 @@ tbl = {
 		ClassNum = 1435
 	},
 	[19153] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "고스트링 풍선",
@@ -10311,7 +10312,7 @@ tbl = {
 		ClassNum = 1436
 	},
 	[19154] = {
-		unidentifiedDisplayName = "악세사리",
+		unidentifiedDisplayName = "Ribbon",
 		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
 		identifiedDisplayName = "아크엔젤링 풍선",
@@ -10362,7 +10363,7 @@ tbl = {
 	[22701] = {
 		unidentifiedDisplayName = "페가수스 솜사탕",
 		unidentifiedResourceName = "페가수스솜사탕",
-		unidentifiedDescriptionName = { "감정되지 않음. [돋보기] 를 사용하여 감정할 수 있다." },
+		unidentifiedDescriptionName = {},
 		identifiedDisplayName = "페가수스 솜사탕",
 		identifiedResourceName = "페가수스솜사탕",
 		identifiedDescriptionName = {
