@@ -509,7 +509,7 @@ tbl = {
 			"싱싱한 문어다리. 너무 싱싱해서 꿈틀거리고 있다. 날 것으로 먹어도 괜찮을 것 같다.",
 			"소량의 HP, SP회복.",
 			"이것이 말랑도의 축제위원 '미묘'가 찾던 바로 그 싱싱함인 듯 하다.",
-			"^ff0000이벤트 종료시 삭제되는 아이템 입니다.^000000",
+			"^ff0000This item will be deleted when event end.^000000",
 			"Weight:^009900 3^000000"
 		},
 		slotCount = 0,
@@ -10146,8 +10146,8 @@ tbl = {
 		identifiedDisplayName = "Poring Balloon",
 		identifiedResourceName = "C1학년풍선",
 		identifiedDescriptionName = {
-			"A poring ballon that floated above head.",
-			"Somehow it's bring lucky feeling.",
+			"A poring balloon that floated above head.",
+			"Somehow it brings lucky feeling.",
 			"Increase experiece gain from killing monsters by 5%.",
 			"Increases item drop rate by 5%. ",
 			"몬스터 사냥시 높은 확률로 젤로피 드롭.",
@@ -13323,33 +13323,37 @@ tbl = {
 		identifiedDescriptionName = {
 			"코트네스님이 애용한다는 장신구.",
 			"Crafted from gold, with Ruby attached on it, very classy but elegance.",
-			"Its really fit on finger, but you decide to look it as a decoration instead...",
+			"Its really fit on finger, but you decide to use it as a decoration instead...",
 			"Weight:^009900 0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25200] = {
-		unidentifiedDisplayName = "구름 솜털",
+		unidentifiedDisplayName = "Fluffy Cloud",
 		unidentifiedResourceName = "부드러운털",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "구름 솜털",
+		identifiedDisplayName = "Fluffy Cloud",
 		identifiedResourceName = "부드러운털",
 		identifiedDescriptionName = {
-			"구름처럼 가볍고 부드러운 솜털, 이걸 모으면 굉장한 보온효과를 낼 수 있다.",
-			"^ff0000이벤트 종료시 삭제되는 아이템 입니다.^000000",
+			"A light, soft and fluffy cloud. Collecting it will cause great thermal effect.",
+			"^ff0000This item will be deleted when event end.^000000",
 			"Weight:^009900 0^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[25201] = {
-		unidentifiedDisplayName = "영험한 발톱",
+		unidentifiedDisplayName = "Miracle Claw",
 		unidentifiedResourceName = "늑대의발톱",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "영험한 발톱",
+		identifiedDisplayName = "Miracle Claw",
 		identifiedResourceName = "늑대의발톱",
-		identifiedDescriptionName = { "영험한 기운이 느껴지는 발톱이다. 퇴치의 증거로 호랑님께 가져다 드리자.", "^ff0000이벤트 종료시 삭제되는 아이템 입니다.^000000", "Weight:^009900 0^000000" },
+		identifiedDescriptionName = {
+			"This claw has a miracle aura. It's a proof that someone has fight with tiger god.",
+			"^ff0000This item will be deleted when event end.^000000",
+			"Weight:^009900 0^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
