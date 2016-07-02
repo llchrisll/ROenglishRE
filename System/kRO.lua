@@ -10139,197 +10139,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[19143] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Poring Balloon",
-		identifiedResourceName = "C1학년풍선",
-		identifiedDescriptionName = {
-			"A poring balloon that floated above head.",
-			"Somehow it brings lucky feeling.",
-			"Increase experiece gain from killing monsters by 5%.",
-			"Increases item drop rate by 5%. ",
-			"몬스터 사냥시 높은 확률로 젤로피 드롭.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1426
-	},
-	[19146] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마린 풍선",
-		identifiedResourceName = "C5학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 마린이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"물리 공격시, 낮은 확률로 콰그마이어 LV 1 발동.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1430
-	},
-	[19147] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "드롭프스 풍선",
-		identifiedResourceName = "C2학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 드롭프스가 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"DEX + 2",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1427
-	},
-	[19148] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "산타포링 풍선",
-		identifiedResourceName = "C3학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 산타포링이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"사탕 사용시 회복량 200% 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1428
-	},
-	[19149] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "포포링 풍선",
-		identifiedResourceName = "C4학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 포포링이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"물리 공격시 매우 높은 확률로 적에게 독을 건다.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1429
-	},
-	[19150] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "메탈링 풍선",
-		identifiedResourceName = "C6학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 메탈링이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"물리공격시 낮은 확률로 스트립웨폰 Lv.1 사용.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1431
-	},
-	[19151] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "데빌링 풍선",
-		identifiedResourceName = "C9학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 데빌링이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"물리 공격시 일정 확률로 적에게 저주를 건다.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1434
-	},
-	[19152] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "엔젤링 풍선",
-		identifiedResourceName = "C10학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 엔젤링이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"하얀포션 사용시 회복량 100% 증가.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1435
-	},
-	[19153] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "고스트링 풍선",
-		identifiedResourceName = "C11학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 고스트링이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"물리 공격시 낮은 확률로 적에게 소울스트라이크 Lv.5 사용.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1436
-	},
-	[19154] = {
-		unidentifiedDisplayName = "Ribbon",
-		unidentifiedResourceName = "리본",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "아크엔젤링 풍선",
-		identifiedResourceName = "C12학년풍선",
-		identifiedDescriptionName = {
-			"머리 위에 아크엔젤링이 둥둥 떠 있다.",
-			"부적삼아 데리고 다니면 어쩐지 행운이 생길 것 같은 기분이 든다.",
-			"몬스터에게 얻는 경험치 + 5%, 아이템 드롭율 + 5%. ",
-			"리저렉션 1Lv 사용가능.",
-			"계열 : ^777777투구^000000 방어 : ^7777770^000000",
-			"위치 : ^777777하단 ^000000무게 : ^7777771^000000",
-			"요구 레벨 : ^7777771^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 1437
-	},
 	[22519] = {
 		unidentifiedDisplayName = "동작멈춤버프",
 		unidentifiedResourceName = "",
@@ -12269,6 +12078,66 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23128] = {
+		unidentifiedDisplayName = "카츄아무기",
+		unidentifiedResourceName = "혼자놀기상자2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "카츄아무기",
+		identifiedResourceName = "혼자놀기상자2",
+		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23129] = {
+		unidentifiedDisplayName = "카츄아걸칠것",
+		unidentifiedResourceName = "혼자놀기상자2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "카츄아걸칠것",
+		identifiedResourceName = "혼자놀기상자2",
+		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23130] = {
+		unidentifiedDisplayName = "카츄아갑옷",
+		unidentifiedResourceName = "혼자놀기상자2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "카츄아갑옷",
+		identifiedResourceName = "혼자놀기상자2",
+		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23131] = {
+		unidentifiedDisplayName = "카츄아신발",
+		unidentifiedResourceName = "혼자놀기상자2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "카츄아신발",
+		identifiedResourceName = "혼자놀기상자2",
+		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23132] = {
+		unidentifiedDisplayName = "카츄아방패",
+		unidentifiedResourceName = "혼자놀기상자2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "카츄아방패",
+		identifiedResourceName = "혼자놀기상자2",
+		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23133] = {
+		unidentifiedDisplayName = "카츄아투구",
+		unidentifiedResourceName = "혼자놀기상자2",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "카츄아투구",
+		identifiedResourceName = "혼자놀기상자2",
+		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23134] = {
 		unidentifiedDisplayName = "풍선 스크롤",
 		unidentifiedResourceName = "대만페스티벌스크롤",
@@ -12333,6 +12202,64 @@ tbl = {
 			"――――――――――――― ",
 			"^ff0000경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.^000000",
 			"Weight:^009900 20^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23142] = {
+		unidentifiedDisplayName = "최하급성장비약",
+		unidentifiedResourceName = "최하급성장비약",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "최하급성장비약",
+		identifiedResourceName = "최하급성장비약",
+		identifiedDescriptionName = {
+			"마시면 일정량의 경험치를 얻게된다. ",
+			"이때 얻게되는 경험치로 레벨업하는 횟수는 1회로 제한된다.",
+			"이미 100Lv 이상 성장한 경우, 효능이 급감한다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23143] = {
+		unidentifiedDisplayName = "최하급직업비약",
+		unidentifiedResourceName = "최하급직업비약",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "최하급직업비약",
+		identifiedResourceName = "최하급직업비약",
+		identifiedDescriptionName = {
+			"마시면 일정량의 잡경험치를 얻게된다. ",
+			"이때 얻게되는 잡경험치로 레벨업하는 횟수는 1회로 제한된다.",
+			"이미 100Lv 이상 성장한 경우, 효능이 급감한다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23144] = {
+		unidentifiedDisplayName = "최하급성장박스",
+		unidentifiedResourceName = "최하급성장박스",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "최하급성장박스",
+		identifiedResourceName = "최하급성장박스",
+		identifiedDescriptionName = {
+			"최하급 성장 비약 5개가 포장되어있는 선물용 상자.",
+			"다른이에게 선물하여 감사의 마음을 표시해보자.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23145] = {
+		unidentifiedDisplayName = "최하급직업박스",
+		unidentifiedResourceName = "최하급직업박스",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "최하급직업박스",
+		identifiedResourceName = "최하급직업박스",
+		identifiedDescriptionName = {
+			"최하급 직업 비약 5개가 포장되어있는 선물용 상자.",
+			"다른이에게 선물하여 감사의 마음을 표시해보자.",
+			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
