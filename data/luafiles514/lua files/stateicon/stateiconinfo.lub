@@ -10,7 +10,7 @@ StateIconList[EFST_IDs.EFST_OVERTHRUSTMAX] = {
 	descript = {
 		{ "Maximum Power Thrust", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases ATK" },
+		{ "Increases weapon damage" },
 		{ "Adds chance of breaking equipped weapon" }
 	}
 }
@@ -29,7 +29,7 @@ StateIconList[EFST_IDs.EFST_OVERTHRUST] = {
 	descript = {
 		{ "Power Thrust", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases ATK" },
+		{ "Increases weapon damage" },
 		{ "Adds chance of breaking equipped weapon" }
 	}
 }
@@ -2703,8 +2703,7 @@ StateIconList[EFST_IDs.EFST_IZAYOI] = {
 		{ "%s", COLOR_TIME },
 		{ "Remove fixed casting" },
 		{ "Reduce Variable Casting" },
-		{ "Increase MATK Item" },
-		{ "Consume SP of certain amount per second" }
+		{ "Increase MATK Item" }
 	}
 }
 StateIconList[EFST_IDs.EFST_KG_KAGEHUMI] = {
