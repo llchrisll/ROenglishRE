@@ -1680,6 +1680,120 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[13136] = {
+		unidentifiedDisplayName = "Revolver",
+		unidentifiedResourceName = "식스슈터",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "수습 리벨리온의 리볼버",
+		identifiedResourceName = "알테어_아레스",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 리볼버.",
+			"강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.",
+			"파이어 댄스 데미지 20% 증가.",
+			"BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).",
+			"7제련 시, 체인 액션 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.",
+			"",
+			"강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,",
+			"ASPD + 2, MHP/MSP + 10%",
+			"순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.",
+			"(최대 순수 VIT 100까지 적용)",
+			"순수 AGI 10당 공격 후딜레이 2% 감소.",
+			"(최대 순수 AGI 100까지 적용)",
+			"순수 DEX 10당 HIT + 3 증가.",
+			"(최대 순수 DEX 100까지 적용)",
+			"순수 LUK 10당 CRI + 3 증가.",
+			"(최대 순수 LUK 100까지 적용)",
+			"계열 : ^777777권총^000000 공격 : ^777777120^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 17
+	},
+	[13138] = {
+		unidentifiedDisplayName = "Revolver",
+		unidentifiedResourceName = "식스슈터",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "다크 로즈",
+		identifiedResourceName = "다크로즈",
+		identifiedDescriptionName = {
+			"검은 장미로 장식된 리볼버.",
+			"공격 속도 10% 증가.",
+			"7제련 시, 원거리 물리 공격력 15% 증가.",
+			"9제련 시, ASPD + 1",
+			"",
+			"계열 : ^777777권총^000000 공격 : ^777777150^000000",
+			"무게 : ^777777180^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777120^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 2,
+		ClassNum = 17
+	},
+	[13228] = {
+		unidentifiedDisplayName = "플레어 블릿",
+		unidentifiedResourceName = "플레어블릿",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "플레어 블릿",
+		identifiedResourceName = "플레어블릿",
+		identifiedDescriptionName = { "화염 속성이 담겨있는 탄환.", "계열 : ^777777총알^000000 공격 : ^77777720^000000", "무게 : ^7777770.2^000000 속성 : ^777777화^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13229] = {
+		unidentifiedDisplayName = "라이트닝 블릿",
+		unidentifiedResourceName = "라이트닝블릿",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "라이트닝 블릿",
+		identifiedResourceName = "라이트닝블릿",
+		identifiedDescriptionName = { "전격 속성이 담겨있는 탄환.", "계열 : ^777777총알^000000 공격 : ^77777720^000000", "무게 : ^7777770.2^000000 속성 : ^777777풍^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13230] = {
+		unidentifiedDisplayName = "아이스 블릿",
+		unidentifiedResourceName = "아이스블릿",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "아이스 블릿",
+		identifiedResourceName = "아이스블릿",
+		identifiedDescriptionName = { "얼음 속성이 담겨있는 탄환.", "계열 : ^777777총알^000000 공격 : ^77777720^000000", "무게 : ^7777770.2^000000 속성 : ^777777수^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13231] = {
+		unidentifiedDisplayName = "포이즌 블릿",
+		unidentifiedResourceName = "포이즌블릿",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "포이즌 블릿",
+		identifiedResourceName = "포이즌블릿",
+		identifiedDescriptionName = {
+			"맹독이 발라져 있는 탄환.",
+			"공격 시, 낮은 확률로 적에게 독을 건다.",
+			"계열 : ^777777총알^000000 공격 : ^77777720^000000",
+			"무게 : ^7777770.2^000000 속성 : ^777777독^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[13232] = {
+		unidentifiedDisplayName = "블라인드 블릿",
+		unidentifiedResourceName = "블라인드블릿",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "블라인드 블릿",
+		identifiedResourceName = "블라인드블릿",
+		identifiedDescriptionName = {
+			"암흑 속성이 담겨있는 탄환.",
+			"공격 시, 낮은 확률로 적에게 암흑을 건다.",
+			"계열 : ^777777총알^000000 공격 : ^77777720^000000",
+			"무게 : ^7777770.2^000000 속성 : ^777777암^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[13680] = {
 		unidentifiedDisplayName = "블러드 액스 상자",
 		unidentifiedResourceName = "오래된보라상자",
@@ -2321,6 +2435,25 @@ tbl = {
 			"기간 한정 해피벌룬 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 해피벌룬, [Not for sale]섬광막대 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14799] = {
+		unidentifiedDisplayName = "[7일]전투교범&풍선껌",
+		unidentifiedResourceName = "전투교범풍선껌",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "[7일]전투교범&풍선껌",
+		identifiedResourceName = "전투교범풍선껌",
+		identifiedDescriptionName = {
+			"효율적인 전투방법이 기록된 설명서와 쫄깃하고 달콤한 풍선껌의 세트.",
+			"7일간 경험치와 아이템 드랍율 증가가 계정내의 모든 캐릭터에게 적용된다.",
+			"- 경험치 20% 증가",
+			"- 아이템 드랍율 20% 증가",
+			"^ffffff_^000000",
+			"이 버프의 효과는 기존의 전투교범, 풍선껌과 중첩 적용됩니다.",
+			"(^ff0000해당 아이템은 2016년 6월 22일 정기점검시 일괄 삭제됩니다.^000000)",
+			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -10139,6 +10272,73 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[17690] = {
+		unidentifiedDisplayName = "힘내그라 플러스 패키지 II",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "힘내그라 플러스 패키지 II",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자. ",
+			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개, 건슬링거 스크롤 1개가 들어있다.",
+			"거기에 [비매품]환영의술잔도 1개 더!",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17691] = {
+		unidentifiedDisplayName = "힘내그라 플러스 패키지 10세트 II",
+		unidentifiedResourceName = "햇빛의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "힘내그라 플러스 패키지 10세트 II",
+		identifiedResourceName = "햇빛의상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음. ",
+			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개, 건슬링거 스크롤 11개가 들어있다.",
+			"거기에 [비매품]환영의술잔도 10개 더!",
+			"[비매품]톡톡캔디와 [비매품]마법캔디도 1개씩 들어있습니다.",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17712] = {
+		unidentifiedDisplayName = "삼명수 패키지IX",
+		unidentifiedResourceName = "응급처치상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "삼명수 패키지IX",
+		identifiedResourceName = "응급처치상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
+			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 7월의 그린 스크롤 1개도 얻을 수 있다. ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17713] = {
+		unidentifiedDisplayName = "삼명수 패키지 10세트IX",
+		unidentifiedResourceName = "응급처치상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "삼명수 패키지 10세트IX",
+		identifiedResourceName = "응급처치상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
+			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 7월의 그린 스크롤 11개도 얻을 수 있다. ",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[22519] = {
 		unidentifiedDisplayName = "동작멈춤버프",
 		unidentifiedResourceName = "",
@@ -10156,6 +10356,22 @@ tbl = {
 		identifiedDisplayName = "동작멈춤해제버프",
 		identifiedResourceName = "",
 		identifiedDescriptionName = { "이 아이템을 먹으면 동작멈춤버프가 해제된다." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[22529] = {
+		unidentifiedDisplayName = "쉐도우 뚝딱상자",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "쉐도우 뚝딱상자",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"쉐도우 뚝딱상자.",
+			"아무 쉐도우나 3개를 재료로 하여, 랜덤한 쉐도우를 1개 받습니다.",
+			"낮은 확률로 쉐도우 큐브에서는 얻을 수 없는 쉐도우가 나올 수도 있습니다.",
+			"^ff0000프로모션 쉐도우는 조합재료로 사용할 수 없습니다.^000000",
+			"무게 : ^7777771^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -12003,6 +12219,21 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23100] = {
+		unidentifiedDisplayName = "건슬링거 두루마리",
+		unidentifiedResourceName = "낡은두루마리",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "건슬링거 두루마리",
+		identifiedResourceName = "낡은두루마리",
+		identifiedDescriptionName = {
+			"전설의 용병의 전투 기술을 담은 스크롤.",
+			"[늘어진 건슬링거]에 랜덤 옵션 2종을 부여할 수 있다.",
+			"^ff0000주의! - 랜덤 옵션 부여시, 늘어진 건슬링거의 제련도와 카드 슬롯이 초기화 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23106] = {
 		unidentifiedDisplayName = "아미스트르 스크롤",
 		unidentifiedResourceName = "아미스트르스크롤",
@@ -12074,6 +12305,81 @@ tbl = {
 			"오색 깃털 장식",
 			"――――――――――――― ",
 			"Weight:^009900 20^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23123] = {
+		unidentifiedDisplayName = "탄약통 플레어",
+		unidentifiedResourceName = "탄약통_플레어",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "탄약통 플레어",
+		identifiedResourceName = "탄약통_플레어",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"화염 속성의 플레어 블릿이 500발 담겨있다.",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23124] = {
+		unidentifiedDisplayName = "탄약통 라이트닝",
+		unidentifiedResourceName = "탄약통_라이트닝",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "탄약통 라이트닝",
+		identifiedResourceName = "탄약통_라이트닝",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"전격 속성의 라이트닝 블릿이 500발 담겨있다.",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23125] = {
+		unidentifiedDisplayName = "탄약통 아이스",
+		unidentifiedResourceName = "탄약통_아이스",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "탄약통 아이스",
+		identifiedResourceName = "탄약통_아이스",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"얼음 속성의 아이스 블릿이 500발 담겨있다.",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23126] = {
+		unidentifiedDisplayName = "탄약통 포이즌",
+		unidentifiedResourceName = "탄약통_포이즌",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "탄약통 포이즌",
+		identifiedResourceName = "탄약통_포이즌",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"맹독 속성의 포이즌 블릿이 500발 담겨있다.",
+			"무게 : ^77777725^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23127] = {
+		unidentifiedDisplayName = "탄약통 블라인드",
+		unidentifiedResourceName = "탄약통_블라인드",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "탄약통 블라인드",
+		identifiedResourceName = "탄약통_블라인드",
+		identifiedDescriptionName = {
+			"^ff0000\"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다.\"^000000",
+			"^ffffff_^000000",
+			"암흑 속성의 블라인드 블릿이 500발 담겨있다.",
+			"무게 : ^77777725^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12206,6 +12512,33 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23137] = {
+		unidentifiedDisplayName = "리벨리온 점핑지원 상자",
+		unidentifiedResourceName = "번호상자05",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "리벨리온 점핑지원 상자",
+		identifiedResourceName = "번호상자05",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"새롭게 출발하는 리벨리온들을 위한 지원 상자.",
+			"상자에는 아래의 물품이 모두 들어있다.",
+			"――――――――――――― ",
+			"수습 리벨리온의 리볼버",
+			"수습 리벨리온의 라이플",
+			"수습 리벨리온의 샷건",
+			"수습 리벨리온의 개틀링건",
+			"수습 리벨리온의 그레네이드 런처",
+			"강화된 시간의 수호자 모자",
+			"강화된 시간의 수호자 로브",
+			"강화된 시간의 수호자 망토",
+			"강화된 시간의 수호자 부츠",
+			"――――――――――――― ",
+			"요구 레벨 : ^777777100^000000",
+			"무게 : ^7777770^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23142] = {
 		unidentifiedDisplayName = "최하급성장비약",
 		unidentifiedResourceName = "최하급성장비약",
@@ -12259,6 +12592,368 @@ tbl = {
 		identifiedDescriptionName = {
 			"최하급 직업 비약 5개가 포장되어있는 선물용 상자.",
 			"다른이에게 선물하여 감사의 마음을 표시해보자.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23150] = {
+		unidentifiedDisplayName = "라피네의 뚝딱상자",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "라피네의 뚝딱상자",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"라피네의 뚝딱상자.",
+			"라피네 연금협회 [진리의 문]에서 여분의 물건을 압축하기 위해 만들었다는 신비한 상자.",
+			"각종 아이템을 조합할 수 있는 조합용 뚝딱상자를 얻을 수 있습니다.",
+			"적당히 쓸만한 엉뚱한 아이템도 함께 포함되어 있습니다.",
+			"^ff0000주의! - 라피네의 뚝딱상자에 들어있는 내용물은 예고없이 변경될 수 있습니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23151] = {
+		unidentifiedDisplayName = "의상 인챈트 스톤 뚝딱상자",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "의상 인챈트 스톤 뚝딱상자",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"의상 인챈트 스톤 뚝딱상자.",
+			"의상 인챈트 스톤 3개를 재료로 하여, 랜덤한 인챈트 스톤을 1개 받습니다.",
+			"낮은 확률로 인챈트 스톤 상자에서는 얻을 수 없는 인챈트 스톤이 나올 수도 있습니다.",
+			"^ff0000주의! - 서로 다른 종류의 의상 인챈트 스톤만을 재료로 받습니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23152] = {
+		unidentifiedDisplayName = "수집품 뚝딱상자",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "수집품 뚝딱상자",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"수집품 뚝딱상자. ",
+			"아무 수집품이나 10개씩 10종류를 상자에 넣으면, 랜덤한 소모품을 얻을 수 있습니다. ",
+			"'^ff0000수집품 상인에게 팔린다^000000' 라고 적혀있는 아이템만 재료로 받습니다.",
+			"이따금 꽤 괜찮은 아이템이 나올 가능성이 있을지도 모릅니다. ",
+			"^ff0000주의! - 서로 다른 종류의 아이템만을 재료로 받습니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23153] = {
+		unidentifiedDisplayName = "펫 알 뚝딱상자",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "펫 알 뚝딱상자",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"펫 알 뚝딱상자.",
+			"펫 알을 아무거나 2개를 넣으면, 테이밍 선물세트를 1개 받을 수 있습니다.",
+			"^ff0000풋내기 포링의 알은 재료로 받지 않습니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23154] = {
+		unidentifiedDisplayName = "냥다래 의상 뚝딱상자",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "냥다래 의상 뚝딱상자",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"냥다래 의상 뚝딱상자.",
+			"냥다래로 교환 가능한 의상 중 아무거나 1개를 넣으면, 랜덤으로 냥다래로 교환 가능한 의상을 1개 얻을 수 있습니다.",
+			"낮은 확률로 다른 곳에서는 얻을 수 없는 신규 의상이 나올 수도 있습니다. ",
+			"^ff0000해당 신규 의상은 의상 인챈트 스톤 상자로 교환이 가능합니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23159] = {
+		unidentifiedDisplayName = "독약병 팩",
+		unidentifiedResourceName = "힙색",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "독약병 팩",
+		identifiedResourceName = "힙색",
+		identifiedDescriptionName = {
+			"독약병 10개가 담겨져 있는 팩.",
+			"무게 : ^7777770^000000",
+			"\"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23161] = {
+		unidentifiedDisplayName = "건슬링거 상자",
+		unidentifiedResourceName = "철상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "건슬링거 상자",
+		identifiedResourceName = "철상자",
+		identifiedDescriptionName = {
+			"늘어진 건슬링거와 건슬링거 두루마리가 1개씩 들어있는 상자.",
+			"건슬링거 두루마리로 늘어진 건슬링거에 랜덤옵션을 2종 부여할 수 있다.",
+			"",
+			"건슬링거 두루마리는",
+			"^ffffff<NAVI>^4D4DFF[고양이손 판매원 냐롬]^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>^000000,",
+			"^ffffff<NAVI>^^4D4DFF[고양이손 판매원 제롬]^000000<INFO>itemmall,41,52,0,100,0,0</INFO></NAVI>^000000,",
+			"에게서 냥다래나 제니를 주고 추가로 구입할 수 있습니다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23162] = {
+		unidentifiedDisplayName = "건슬링거 스크롤",
+		unidentifiedResourceName = "건슬링거스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "건슬링거 스크롤",
+		identifiedResourceName = "건슬링거스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 건슬링거 스크롤. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 건슬링거 상자, 확장직업군 쉴드 쉐도우, 라피네뚝딱박스등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23167] = {
+		unidentifiedDisplayName = "7월의 그린 스크롤",
+		unidentifiedResourceName = "그린스크롤",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "7월의 그린 스크롤",
+		identifiedResourceName = "그린스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 7월의 그린 스크롤. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 미니 선풍기 상자, 클래스 쉐도우 큐브, 라피네 뚝딱박스등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23168] = {
+		unidentifiedDisplayName = "미니 선풍기 상자",
+		unidentifiedResourceName = "핫도그상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "미니 선풍기 상자",
+		identifiedResourceName = "핫도그상자",
+		identifiedDescriptionName = {
+			"해달 미니 선풍기와 선풍기 개조 키트가 1개씩 들어있는 상자.",
+			"선풍기 개조 키트로 해달 미니 선풍기에 랜덤옵션을 2종 부여할 수 있다.",
+			"",
+			"선풍기 개조 키트는",
+			"^ffffff<NAVI>^4D4DFF[고양이손 판매원 냐롬]^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>^000000,",
+			"^ffffff<NAVI>^^4D4DFF[고양이손 판매원 제롬]^000000<INFO>itemmall,41,52,0,100,0,0</INFO></NAVI>^000000,",
+			"에게서 냥다래나 제니를 주고 추가로 구입할 수 있습니다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23169] = {
+		unidentifiedDisplayName = "알케미스트 상자",
+		unidentifiedResourceName = "원한의상자",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "알케미스트 상자",
+		identifiedResourceName = "원한의상자",
+		identifiedDescriptionName = {
+			"알케미스트 협회에서 '올해의 알케미스트'로 선정된 알케미스트의 연구 결과물이 담겨있는 상자.",
+			"내용물을 열기전에 확인할 순 없지만 화학 물품들이 담겨있을테니 취급에 주의해야 한다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24314] = {
+		unidentifiedDisplayName = "Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "닌자 쉴드 쉐도우",
+		identifiedResourceName = "쉴드쉐도우",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense.",
+			"Can be equipped alone but needs a complete set to have bonus effect.",
+			"――――――――――――― ",
+			"ASPD + 1.",
+			"[비도 수련] 스킬 레벨 1당 ATK + 3.",
+			"[염] 스킬 사용 시, 50초 동안 ASPD + 1 추가.",
+			"제련도 1당 일반 몬스터의 물리, 마법 방어력 4% 무시.",
+			"7제련 시, 일반 몬스터의 물리, 마법 방어력 10% 추가 무시.",
+			"9제련 시, 일반 몬스터의 물리, 마법 방어력 10% 추가 무시.",
+			"――――――――――――― ",
+			"닌자 웨폰 쉐도우와 함께 장착 시, 다음의 효과를 받는다. ",
+			"All State + 3, MaxHP + 2%, MaxSP + 2%. ",
+			"스킬 사용 시, SP 소모량 10% 감소.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777쉴드^000000 ",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777닌자 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24315] = {
+		unidentifiedDisplayName = "Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "태권 쉴드 쉐도우",
+		identifiedResourceName = "쉴드쉐도우",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense.",
+			"Can be equipped alone but needs a complete set to have bonus effect.",
+			"――――――――――――― ",
+			"ATK, MATK + 3%.",
+			"[편안한 휴식] 스킬 레벨 1당 일반 몬스터의 물리 방어력 3% 무시.",
+			"[즐거운 휴식] 스킬 레벨 1당 일반 몬스터의 마법 방어력 3% 무시.",
+			"제련도 1당 일반 몬스터의 물리, 마법 방어력 3% 무시.",
+			"7제련 시, ATK, MATK + 2%.",
+			"9제련 시, ATK, MATK + 3%.",
+			"――――――――――――― ",
+			"태권 웨폰 쉐도우와 함께 장착 시, 다음의 효과를 받는다. ",
+			"All State + 3, MaxHP + 2%, MaxSP + 2%. ",
+			"스킬 사용 시, SP 소모량 10% 감소.",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777쉴드^000000 ",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777태권 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24316] = {
+		unidentifiedDisplayName = "Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "도람 피지컬 쉴드 쉐도우",
+		identifiedResourceName = "쉴드쉐도우",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense.",
+			"Can be equipped alone but needs a complete set to have bonus effect.",
+			"――――――――――――― ",
+			"ATK + 3%.",
+			"[아크라우스 대시] 스킬을 자신에게 사용 시, 50초 동안 ASPD + 1.",
+			"제련도 1당 [루나틱 당근난타] 스킬 쿨타임 0.2초 감소.",
+			"7제련 시, [루나틱 당근난타] 데미지 5% 증가.",
+			"9제련 시, [루나틱 당근난타] 데미지 5% 추가 증가.",
+			"――――――――――――― ",
+			"도람 피지컬 웨폰 쉐도우와 함께 장착 시, 다음의 효과를 받는다. ",
+			"All State + 3, MaxHP + 2%, MaxSP + 2%. ",
+			"스킬 사용 시, SP 소모량 10% 감소. ",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777쉴드^000000 ",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24317] = {
+		unidentifiedDisplayName = "Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "도람 매지컬 쉴드 쉐도우",
+		identifiedResourceName = "쉴드쉐도우",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense.",
+			"Can be equipped alone but needs a complete set to have bonus effect.",
+			"――――――――――――― ",
+			"MATK + 3%. ",
+			"[새우 떼] 스킬 사용 시, 30초 동안 5초당 SP 5씩 회복.",
+			"제련도 1당 [개박하 메테오] 스킬 쿨타임 0.1초 감소. ",
+			"7제련 시, [개박하 메테오] 데미지 5% 증가. ",
+			"9제련 시, [개박하 메테오] 데미지 5% 추가 증가. ",
+			"――――――――――――― ",
+			"도람 매지컬 웨폰 쉐도우와 함께 장착 시, 다음의 효과를 받는다. ",
+			"All State + 3, MaxHP + 2%, MaxSP + 2%. ",
+			"스킬 사용 시, SP 소모량 10% 감소. ",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777쉴드^000000 ",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777도람족^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24318] = {
+		unidentifiedDisplayName = "Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "슈퍼노비스 쉴드 쉐도우",
+		identifiedResourceName = "쉴드쉐도우",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense.",
+			"Can be equipped alone but needs a complete set to have bonus effect.",
+			"――――――――――――― ",
+			"MaxHP + 1000, MaxSP + 200",
+			"[더블어택] 스킬 레벨 1당 공격 후 딜레이 2%  감소.",
+			"[올빼미의눈] 스킬 레벨 1당 변동 캐스팅 2% 감소.",
+			"제련도 1당 공격 후 딜레이, 변동 캐스팅  1% 감소.",
+			"7제련 시, ATK, MATK + 2%.",
+			"9제련 시, ATK, MATK + 3%.",
+			"――――――――――――― ",
+			"슈퍼노비스 웨폰 쉐도우와 함께 장착 시, 다음의 효과를 받는다. ",
+			"All State + 3, MaxHP + 2%, MaxSP + 2%. ",
+			"스킬 사용 시, SP 소모량 10% 감소. ",
+			"계열 : ^777777쉐도우 장비^000000",
+			"위치 : ^777777쉴드^000000 ",
+			"무게 : ^7777770^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777노비스 계열^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[24319] = {
+		unidentifiedDisplayName = "Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "Gunslinger Shadow Shield",
+		identifiedResourceName = "쉴드쉐도우",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense.",
+			"Can be equipped alone but needs a complete set to have bonus effect.",
+			"――――――――――――― ",
+			"크리티컬 데미지 + 5%.",
+			"[싱글 액션] 스킬 레벨 1당 CRI + 2.",
+			"제련도 1당 CRI + 1.",
+			"7제련 시, 크리티컬 데미지 + 2% 추가.",
+			"9제련 시, 크리티컬 데미지 + 3% 추가.",
+			"――――――――――――― ",
+			"건슬링거 웨폰 쉐도우와 함께 장착 시, 다음의 효과를 받는다.",
+			"All State + 3, MaxHP + 2%, MaxSP + 2%.",
+			"스킬 사용 시, SP 소모량 10% 감소.",
+			"Class:^6666CC Shadow Equipment^000000",
+			"Location:^6666CC Shield^000000",
+			"Weight:^009900 0^000000",
+			"Level Requirement:^009900 1^000000",
+			"Jobs:^6666CC Gunslinger^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23170] = {
+		unidentifiedDisplayName = "선풍기 개조 키트",
+		unidentifiedResourceName = "수리용키트",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "선풍기 개조 키트",
+		identifiedResourceName = "수리용키트",
+		identifiedDescriptionName = {
+			"해달 미니 선풍기를 개조할 수 있는 도구들이 들어있는 키트.",
+			"1회 개조하기에 딱 맞는 재료만 들어 있다.",
+			"^ff0000해달 미니 선풍기^000000에 랜덤 옵션을 2종 부여할 수 있다.",
+			"^ff0000주의! - 랜덤 옵션 부여시, 해달 미니 선풍기의 카드 슬롯이 초기화 되며, 낮은 확률로 퍼씰 미니 선풍기로 변형됩니다.^000000",
 			"무게 : ^7777771^000000"
 		},
 		slotCount = 0,
@@ -13256,6 +13951,21 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[25187] = {
+		unidentifiedDisplayName = "슬러그탄",
+		unidentifiedResourceName = "슬러그탄_5",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "슬러그탄",
+		identifiedResourceName = "슬러그탄_5",
+		identifiedDescriptionName = {
+			"'슬러그 샷' 스킬 전용으로 사용되는 슬러그탄. ",
+			"재질이 무엇일지 궁금할 정도로 비싸고 무겁다.",
+			"'슬러그 샷' 스킬 사용시 자동으로 소모된다.",
+			"무게 : ^777777120^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[25200] = {
 		unidentifiedDisplayName = "Fluffy Cloud",
 		unidentifiedResourceName = "부드러운털",
@@ -13281,6 +13991,403 @@ tbl = {
 			"^ff0000This item will be deleted when event end.^000000",
 			"Weight:^009900 0^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25205] = {
+		unidentifiedDisplayName = "쉬링크 이펙트(하단)",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "쉬링크 이펙트(하단)",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = {
+			"하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000쉬링크^000000",
+			"공성 및 PvP 지역에서는 적용되지 않음.",
+			"^ff0000기본 체형만 작게 바꿀 뿐, 이펙트나 카트등의 사이즈는 변경되지 않습니다.^000000",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25206] = {
+		unidentifiedDisplayName = "일렉트릭 이펙트(상단)",
+		unidentifiedResourceName = "블루크리스탈조각",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "일렉트릭 이펙트(상단)",
+		identifiedResourceName = "블루크리스탈조각",
+		identifiedDescriptionName = {
+			"상단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
+			"^ff0000일렉트릭^000000",
+			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25207] = {
+		unidentifiedDisplayName = "강화 SP흡수스톤(상단)",
+		unidentifiedResourceName = "스노우플립",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "강화 SP흡수스톤(상단)",
+		identifiedResourceName = "스노우플립",
+		identifiedDescriptionName = {
+			"SP를 흡수 할 수 있는 스톤.",
+			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
+			"2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25208] = {
+		unidentifiedDisplayName = "강화 SP흡수스톤(걸칠것)",
+		unidentifiedResourceName = "스노우플립",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "강화 SP흡수스톤(걸칠것)",
+		identifiedResourceName = "스노우플립",
+		identifiedDescriptionName = {
+			"SP를 흡수 할 수 있는 스톤.",
+			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다. ",
+			"2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.",
+			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25209] = {
+		unidentifiedDisplayName = "강화 HP흡수스톤(걸칠것)",
+		unidentifiedResourceName = "스노우플립",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "강화 HP흡수스톤(걸칠것)",
+		identifiedResourceName = "스노우플립",
+		identifiedDescriptionName = {
+			"HP를 흡수 할 수 있는 스톤. ",
+			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다. ",
+			"2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
+			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25210] = {
+		unidentifiedDisplayName = "강화 HP흡수스톤(상단)",
+		unidentifiedResourceName = "스노우플립",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "강화 HP흡수스톤(상단)",
+		identifiedResourceName = "스노우플립",
+		identifiedDescriptionName = {
+			"HP를 흡수 할 수 있는 스톤. ",
+			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
+			"2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
+			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
+			"무게 : ^77777710^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[28215] = {
+		unidentifiedDisplayName = "Rifle",
+		unidentifiedResourceName = "라이플",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "수습 리벨리온의 라이플",
+		identifiedResourceName = "컬러스코프",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 라이플.",
+			"강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.",
+			"HIT + 10, CRI + 20",
+			"해머 오브 갓 데미지 20% 증가.",
+			"BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).",
+			"7제련 시, 트래킹 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.",
+			"",
+			"강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,",
+			"ASPD + 2, MHP/MSP + 10%",
+			"순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.",
+			"(최대 순수 VIT 100까지 적용)",
+			"순수 AGI 10당 공격 후딜레이 2% 감소.",
+			"(최대 순수 AGI 100까지 적용)",
+			"순수 DEX 10당 HIT + 3 증가.",
+			"(최대 순수 DEX 100까지 적용)",
+			"순수 LUK 10당 CRI + 3 증가.",
+			"(최대 순수 LUK 100까지 적용)",
+			"계열 : ^777777라이플^000000 공격 : ^777777200^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 18
+	},
+	[28216] = {
+		unidentifiedDisplayName = "Gatling Gun",
+		unidentifiedResourceName = "드리프터",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "수습 리벨리온의 개틀링건",
+		identifiedResourceName = "미니메이",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 개틀링건.",
+			"HIT - 20, CRI + 10, ASPD + 1",
+			"강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.",
+			"파이어 레인 데미지 20% 증가.",
+			"BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).",
+			"7제련 시, 개틀링 피버 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.",
+			"",
+			"강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,",
+			"ASPD + 2, MHP/MSP + 10%",
+			"순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.",
+			"(최대 순수 VIT 100까지 적용)",
+			"순수 AGI 10당 공격 후딜레이 2% 감소.",
+			"(최대 순수 AGI 100까지 적용)",
+			"순수 DEX 10당 HIT + 3 증가.",
+			"(최대 순수 DEX 100까지 적용)",
+			"순수 LUK 10당 CRI + 3 증가.",
+			"(최대 순수 LUK 100까지 적용)",
+			"계열 : ^777777게틀링건^000000 공격 : ^777777180^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 19
+	},
+	[28217] = {
+		unidentifiedDisplayName = "Grenade Launcher",
+		unidentifiedResourceName = "디스트로이어",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "수습 리벨리온의 그레네이드런처",
+		identifiedResourceName = "엔드오브호라이즌",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 그레네이드 런처.",
+			"강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.",
+			"드래곤 테일 데미지 20% 증가.",
+			"BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).",
+			"7제련 시, 그라운드 드리프트 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.",
+			"",
+			"강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,",
+			"ASPD + 2, MHP/MSP + 10%",
+			"순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.",
+			"(최대 순수 VIT 100까지 적용)",
+			"순수 AGI 10당 공격 후딜레이 2% 감소.",
+			"(최대 순수 AGI 100까지 적용)",
+			"순수 DEX 10당 HIT + 3 증가.",
+			"(최대 순수 DEX 100까지 적용)",
+			"순수 LUK 10당 CRI + 3 증가.",
+			"(최대 순수 LUK 100까지 적용)",
+			"계열 : ^777777그레네이드런처^000000 공격 : ^777777350^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 21
+	},
+	[28218] = {
+		unidentifiedDisplayName = "Shotgun",
+		unidentifiedResourceName = "싱글샷건",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "수습 리벨리온의 샷건",
+		identifiedResourceName = "데스파이어",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 샷건.",
+			"HIT - 15, 스플래쉬 공격.",
+			"강화된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.",
+			"섀터 스톰 데미지 20% 증가.",
+			"BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).",
+			"7제련 시, 더스트 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.",
+			"",
+			"강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,",
+			"ASPD + 2, MHP/MSP + 10%",
+			"순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.",
+			"(최대 순수 VIT 100까지 적용)",
+			"순수 AGI 10당 공격 후딜레이 2% 감소.",
+			"(최대 순수 AGI 100까지 적용)",
+			"순수 DEX 10당 HIT + 3 증가.",
+			"(최대 순수 DEX 100까지 적용)",
+			"순수 LUK 10당 CRI + 3 증가.",
+			"(최대 순수 LUK 100까지 적용)",
+			"계열 : ^777777샷건^000000 공격 : ^777777180^000000",
+			"무게 : ^7777770^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777100^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 1,
+		ClassNum = 20
+	},
+	[28223] = {
+		unidentifiedDisplayName = "Rifle",
+		unidentifiedResourceName = "라이플",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "저스트 피니쉬",
+		identifiedResourceName = "저스트피니쉬",
+		identifiedDescriptionName = {
+			"전투용 대형 저격 라이플.",
+			"원거리 물리 공격력 15% 증가.",
+			"7제련 시,",
+			"[매스 스파이럴] 데미지 30% 증가.",
+			"[안티 매터리얼 블래스트] 데미지 30% 증가.",
+			"9제련 시, ",
+			"[안티 매터리얼 블래스트] 스킬 쿨타임 1초 감소.",
+			"계열 : ^777777라이플^000000 공격 : ^777777200^000000",
+			"무게 : ^777777200^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777120^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 2,
+		ClassNum = 18
+	},
+	[28224] = {
+		unidentifiedDisplayName = "Shotgun",
+		unidentifiedResourceName = "싱글샷건",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "더스트 파이어",
+		identifiedResourceName = "더스트파이어",
+		identifiedDescriptionName = {
+			"총구 화염이 심한 샷건.",
+			"스플래쉬 공격.",
+			"물리 공격 시, 낮은 확률로 적에게 암흑을 건다. ",
+			"[철갑탄]과 함께 장착 시, ",
+			"원거리 물리 공격력 30% 증가.",
+			"7제련 시, [섀터 스톰] 데미지 15% 증가.",
+			"9제련 시, [배니싱 버스터] 데미지 15% 증가.",
+			"계열 : ^777777샷건^000000 공격 : ^777777300^000000",
+			"무게 : ^777777130^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777120^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 2,
+		ClassNum = 20
+	},
+	[28225] = {
+		unidentifiedDisplayName = "Gatling Gun",
+		unidentifiedResourceName = "드리프터",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "버닝 로즈",
+		identifiedResourceName = "버닝로즈",
+		identifiedDescriptionName = {
+			"과열되면 총열이 붉게 변한다고 해서,",
+			"버닝 로즈라 불리는 개틀링건.",
+			"원거리 물리 공격력 15% 증가.",
+			"7제련 시, [파이어 레인] 데미지 30% 증가.",
+			"9제련 시, [파이어 레인] 스킬 쿨타임 1초 감소. ",
+			"계열 : ^777777게틀링건^000000 공격 : ^777777200^000000",
+			"무게 : ^777777250^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777120^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 2,
+		ClassNum = 19
+	},
+	[28226] = {
+		unidentifiedDisplayName = "Grenade Launcher",
+		unidentifiedResourceName = "디스트로이어",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "리벤져",
+		identifiedResourceName = "리벤져",
+		identifiedDescriptionName = {
+			"'복수자'라는 별명을 가진 그레네이드런쳐.",
+			"원거리 물리 공격력 20% 증가.",
+			"7제련 시, [드래곤 테일]의 데미지 15% 증가.",
+			"9제련 시, [하울링 마인] 스킬 쿨타임 1초 감소.",
+			"계열 : ^777777그레네이드런처^000000 공격 : ^777777350^000000",
+			"무게 : ^777777180^000000",
+			"무기 레벨 : ^7777773^000000",
+			"요구 레벨 : ^777777120^000000",
+			"장착 : ^777777건너 계열^000000"
+		},
+		slotCount = 2,
+		ClassNum = 21
+	},
+	[28439] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "링",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "해달 미니 선풍기",
+		identifiedResourceName = "해달선풍기",
+		identifiedDescriptionName = {
+			"코모도 해변에 서식하는 해달의 그림이 그려진 미니 선풍기.",
+			"무더운 여름을 시원하게 보내기 위해서 하나쯤 챙겨두는 것이 좋을 듯.",
+			"All State +1, 몬스터에게 얻는 경험치 +5%.",
+			"'선풍기 개조 키트' 적용 가능.",
+			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[28440] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "링",
+		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
+		identifiedDisplayName = "퍼씰 미니 선풍기",
+		identifiedResourceName = "퍼씰선풍기",
+		identifiedDescriptionName = {
+			"코모도 해변에 서식하는 퍼씰의 그림이 그려진 미니 선풍기.",
+			"해달 미니 선풍기를 개조 하다보니, 어느샌가 그림이 바뀌어 있었다.",
+			"비싼 가격에 팔리지만, 성능이 더 좋은 것은 아닌듯 하다.",
+			"All State +1, 몬스터에게 얻는 경험치 +5%.",
+			"'선풍기 개조 키트' 적용 불가능.",
+			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
+			"무게 : ^77777710^000000",
+			"요구 레벨 : ^7777771^000000",
+			"장착 : ^777777전 직업^000000"
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+	[29208] = {
+		unidentifiedDisplayName = "SP흡수2",
+		unidentifiedResourceName = "노란묘안석",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "SP흡수2",
+		identifiedResourceName = "노란묘안석",
+		identifiedDescriptionName = { "2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29209] = {
+		unidentifiedDisplayName = "SP흡수2",
+		unidentifiedResourceName = "노란묘안석",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "SP흡수2",
+		identifiedResourceName = "노란묘안석",
+		identifiedDescriptionName = { "2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29210] = {
+		unidentifiedDisplayName = "HP흡수2 3",
+		unidentifiedResourceName = "하얀묘안석",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "HP흡수2 3",
+		identifiedResourceName = "하얀묘안석",
+		identifiedDescriptionName = { "2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수." },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[29211] = {
+		unidentifiedDisplayName = "HP흡수2 3",
+		unidentifiedResourceName = "하얀묘안석",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "HP흡수2 3",
+		identifiedResourceName = "하얀묘안석",
+		identifiedDescriptionName = { "2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수." },
 		slotCount = 0,
 		ClassNum = 0
 	},
