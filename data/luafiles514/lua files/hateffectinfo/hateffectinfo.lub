@@ -26,7 +26,7 @@ HatEFID = {
 	HAT_EF_GREEN99_6 = 25,
 	HAT_EF_CIRCLEPOWER = 26,
 	HAT_EF_BOTTOM_BLOODYLUST = 27,
-	HAT_EF_WATER_BELOW = 28,
+	HAT_EF_WATER_BELOW = 50,
 	HAT_EF_LEVEL99_150 = 29,
 	HAT_EF_YELLOWFLY3 = 30,
 	HAT_EF_KAGEMUSYA = 31,
@@ -34,10 +34,19 @@ HatEFID = {
 	HAT_EF_STRANGELIGHTS = 33,
 	HAT_EF_WL_TELEKINESIS_INTENSE = 34,
 	HAT_EF_AB_OFFERTORIUM_RING = 35,
-	HAT_EF_WHITEBODY = 36,
+	HAT_EF_WHITEBODY = 49,
 	HAT_EF_SAKURA = 37,
 	HAT_EF_CLOUD2 = 38,
-	HAT_EF_Feather_Fluttering = 39
+	HAT_EF_Feather_Fluttering = 39,
+	HAT_EF_Camellia_Hair_Pin = 40,
+	HAT_EF_Jp_Ev_Effect01 = 41,
+	HAT_EF_Jp_Ev_Effect02 = 42,
+	HAT_EF_Jp_Ev_Effect03 = 43,
+	HAT_EF_Floral_Waltz = 44,
+	HAT_EF_magical_feather = 45,
+	HAT_EF_HAT_EFFECT = 46,
+	HAT_EF_BAKURETSU_HADOU = 47,
+	HAT_EF_gold_shower = 48
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = { resourceFileName = "efst_blossom_fluttering\\sakura.str", hatEffectPos = -4 },
@@ -75,44 +84,50 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_STRANGELIGHTS] = { hatEffectID = 1035 },
 	[HatEFID.HAT_EF_WL_TELEKINESIS_INTENSE] = { hatEffectID = 1048 },
 	[HatEFID.HAT_EF_AB_OFFERTORIUM_RING] = { hatEffectID = 1057 },
-	[HatEFID.HAT_EF_WHITEBODY] = { hatEffectID = 1065 },
+	[HatEFID.HAT_EF_WHITEBODY] = { hatEffectID = 1131 },
 	[HatEFID.HAT_EF_SAKURA] = { hatEffectID = 163 },
 	[HatEFID.HAT_EF_CLOUD2] = { hatEffectID = 230 },
-	[HatEFID.HAT_EF_Feather_Fluttering] = { resourceFileName = "efst_feather_fluttering\\feath.str", hatEffectPos = -4 }
+	[HatEFID.HAT_EF_Feather_Fluttering] = { resourceFileName = "efst_feather_fluttering\\feath.str", hatEffectPos = -4 },
+	[HatEFID.HAT_EF_Camellia_Hair_Pin] = { resourceFileName = "efst_flowersmoke\\flowersmoke.str", hatEffectPos = -8 },
+	[HatEFID.HAT_EF_Jp_Ev_Effect01] = { hatEffectID = 293 },
+	[HatEFID.HAT_EF_Jp_Ev_Effect02] = { hatEffectID = 293 },
+	[HatEFID.HAT_EF_Jp_Ev_Effect03] = { hatEffectID = 293 },
+	[HatEFID.HAT_EF_Floral_Waltz] = { resourceFileName = "efst_Floral_Waltz\\Floral_Waltz.str", hatEffectPos = -8 },
+	[HatEFID.HAT_EF_magical_feather] = { resourceFileName = "efst_magical_feather\\magical_feather.str", hatEffectPos = -5 },
+	[HatEFID.HAT_EF_HAT_EFFECT] = { hatEffectID = 1012 },
+	[HatEFID.HAT_EF_BAKURETSU_HADOU] = { hatEffectID = 1130 },
+	[HatEFID.HAT_EF_gold_shower] = { resourceFileName = "efst_Gold_Shower\\coin2.str", hatEffectPos = -7 }
 }
 
-GetHatEfResName = function(index)
+function GetHatEfResName(index)
 	if hatEffectTable == nil then
 		return ""
-	else
-		local hatEfTbl = hatEffectTable[index]
-		if hatEfTbl ~= nil and hatEfTbl.resourceFileName ~= nil then
-			return hatEfTbl.resourceFileName
-		end
-		return ""
 	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.resourceFileName ~= nil then
+		return hatEfTbl.resourceFileName
+	end
+	return ""
 end
 
-GetHatEfPos = function(index)
+function GetHatEfPos(index)
 	if hatEffectTable == nil then
 		return 0
-	else
-		local hatEfTbl = hatEffectTable[index]
-		if hatEfTbl ~= nil and hatEfTbl.hatEffectPos ~= nil then
-			return hatEfTbl.hatEffectPos
-		end
-		return 0
 	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.hatEffectPos ~= nil then
+		return hatEfTbl.hatEffectPos
+	end
+	return 0
 end
 
-GetHatEffectID = function(index)
+function GetHatEffectID(index)
 	if hatEffectTable == nil then
 		return -1
-	else
-		local hatEfTbl = hatEffectTable[index]
-		if hatEfTbl ~= nil and hatEfTbl.hatEffectID ~= nil then
-			return hatEfTbl.hatEffectID
-		end
-		return -1
 	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.hatEffectID ~= nil then
+		return hatEfTbl.hatEffectID
+	end
+	return -1
 end
