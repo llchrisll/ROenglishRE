@@ -5089,7 +5089,6 @@ Ignore 20% of Physical Defense of ^6666CCDemihuman monster^000000.
 +6 Upgrade: Ignore ^6666CCDemihuman^000000's physical defense +5%, Reduces after attack delay by 5%, ^FF0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
 +9 Upgrade: Activate ^663399Critical Wound^000000 5%. Reduces after attack delay by 5%.
 When using ^008800Mammonite^000000, has a chance of casting Level 2 ^663399Critical Wound^000000.
-Reduces after attack delay by 5%.
 -------------------------
 Class:^6666CC One-handed Axe^000000
 Attack:^CC0000 130^000000
@@ -6450,7 +6449,7 @@ Level Requirement:^009900 120^000000
 Jobs:^6666CC Royal Guard^000000
 #
 1443#
-One handed spear with red light radiance.
+One handed spear that emitting red aura.
 -------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
 Level 70 or higher: Per 10 BaseLevel, ATK +5.
@@ -7164,7 +7163,7 @@ Level Requirement:^009900 48^000000
 Jobs:^6666CC Swordman^000000
 #
 1498#
-Two-Handed Spear with red light radiance.
+Two-Handed Spear that emitting red aura.
 -------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
 -------------------------
@@ -9752,7 +9751,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Warlock, Sorcerer, Archbishop and Sura^000000
 #
 1680#
-Rod with red light radiance.
+Rod that emitting red aura.
 -------------------------
 INT +4
 MATK +70
@@ -11320,7 +11319,7 @@ Level Requirement:^009900 50^000000
 Jobs:^6666CC Priest and Monk^000000
 #
 1839#
-Knuckle with red light radiance.
+Knuckle that emitting red aura.
 -------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
@@ -11788,8 +11787,8 @@ Level Requirement:^009900 120^000000
 Jobs:^6666CC Minstrel^000000
 #
 1934#
-The double bass, also known as large musical instrument called the violin strains.
-Large and powerful enough to be a weapons.
+The Contrabass, also known as large musical instrument called the violin strains.
+Large and powerful enough to be used as a weapon.
 -------------------------
 MATK +120
 -------------------------
@@ -11856,7 +11855,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Minstrel^000000
 #
 1939#
-Violin with red light radiance.
+Violin that emitting red aura.
 -------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
 -------------------------
@@ -12483,7 +12482,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Wanderer^000000
 #
 1995#
-Whip with red light radiance.
+Whip that emitting red aura.
 -------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
 -------------------------
@@ -13046,7 +13045,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Warlock and Sorcerer^000000
 #
 2025#
-Two-handed staff with red light radiance.
+Two-handed staff that emitting red aura.
 -------------------------
 INT +5
 MATK +150
@@ -21541,12 +21540,12 @@ A brooch made out of tear drops of the Aqua Elemental.
 MaxHP +1%
 MDEF +2
 -------------------------
-Reduces damage taken from ^0000BBWater^000000 element attacks by 5%.
+Reduces damage taken from ^0000BBWater^000000 element monsters by 5%.
 -------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
 Weight:^009900 20^000000
-Level Requirement:^009900 75^000000
+Level Requirement:^009900 1^000000
 Jobs:^6666CC All Transcendent classes except Novice^000000
 #
 2788#
@@ -21558,7 +21557,7 @@ MATK +5
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
 Weight:^009900 20^000000
-Level Requirement:^009900 60^000000
+Level Requirement:^009900 1^000000
 Jobs:^6666CC All Transcendent classes except Novice^000000
 #
 2789#
@@ -21570,7 +21569,7 @@ ATK +5
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
 Weight:^009900 20^000000
-Level Requirement:^009900 60^000000
+Level Requirement:^009900 1^000000
 Jobs:^6666CC All Transcendent classes except Novice^000000
 #
 2790#
@@ -21584,7 +21583,7 @@ If base AGI is 120: CRIT +4.
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
 Weight:^009900 20^000000
-Level Requirement:^009900 60^000000
+Level Requirement:^009900 1^000000
 Jobs:^6666CC All Transcendent classes except Novice^000000
 #
 2791#
@@ -30499,6 +30498,29 @@ Increases ^008800Reverberation^000000 damage by 20%.
 When equipped with Level 4 weapons, increases ^008800Reverberation^000000 damage by 20%.
 When refine level +10: increases ^008800Reverberation^000000 damage by 20%.
 -------------------------
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
+#
+4697#
+MaxSP -300.
+Adds a high chance of destroying target's armor when dealing physical attacks.
+When combined with Kick Step Card, Nullify Mado Gear's Fuel consumption.
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
+#
+4698#
+Increases ^008800Axe Boomerang^000000 damage by 30%.
+If compounded weapon refined to +10: Increases ^008800Axe Boomerang^000000 damage by 30%.
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
+#
+4699#
+Increases ^008800Canon Arms^000000 damage by 30%.
+If compounded weapon refined to +10: Increases ^008800Canon Arms^000000 damage by 30%.
+When combined with Kick Step Card, Nullify Mado Gear's Fuel consumption.
 Class:^6666CC Card^000000
 Compound on:^FF0000 Weapon^000000
 Weight:^009900 1^000000
@@ -47445,11 +47467,10 @@ Couple means betrayal!
 Weight:^009900 0^000000
 #
 6824#
-Experimental copper from the underground ruins of the city of verus.
-Found a recording medium.
-It is strange that after so long in open conditions information remains intact.
+Recording medium found in the ruins and underground facilities of Verus City laboratories.
+Contain various information of the situation and events at that time.
 ^FFFFFF_^000000
-Weight:^009900 1^000000
+Weight:^009900 0^000000
 #
 6825#
 A technical masterpiece for an air purifier shelter. The finished product is quite heavy.
@@ -47457,19 +47478,18 @@ A technical masterpiece for an air purifier shelter. The finished product is qui
 Weight:^009900 1000^000000
 #
 6826#
-Fresh grapes just harvested.
+Recently harvested fresh grapes.
 ^FFFFFF_^000000
 Weight:^009900 10^000000
 #
 6827#
-Picked up the mechanical parts in the last room. You do not understand the reason of why you took this.
+Machine component found in the last room. Take it to Fruit to find out what it is.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6828#
-The fruits of the studies conducted so far are in this device.
-You found him standing in the underground bunker.
-Was studied in the past by other research groups.
+A device made via Fruit's research.
+Says if you hand it to 'her' by the underground bunker entrance you can reach the last room without problems but it is apprehensive.
 ^FFFFFF_^000000
 Weight:^009900 10^000000
 #
@@ -55361,8 +55381,7 @@ Restores ^000088about 45 HP^000000.
 Weight:^009900 3^000000
 #
 11597#
-The bite of this insect metal must be horrible.
-But seems to provide a good protein.
+A ghastly bug that eats away at metal things. However it is a good source of protein.
 Weight:^009900 1^000000
 #
 11598#
@@ -62718,7 +62737,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Rebel^000000
 #
 13127#
-Pistol with red light radiance barrel.
+Pistol that emitting red aura.
 -------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
 -------------------------
@@ -62808,8 +62827,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Rebellion^000000
 #
 13136#
-^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
-총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 리볼버.
+A revolver specially made for Rebellion.
 강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.
 파이어 댄스 데미지 20% 증가.
 BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).
@@ -62826,7 +62844,7 @@ ASPD + 2, MHP/MSP + 10%
 순수 LUK 10당 CRI + 3 증가.
 (최대 순수 LUK 100까지 적용)
 계열 : ^777777권총^000000 공격 : ^777777120^000000
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777100^000000
 장착 : ^777777건너 계열^000000
@@ -62865,7 +62883,7 @@ Jobs:^6666CC Rebellion^000000
 9제련 시, ASPD + 1
 
 계열 : ^777777권총^000000 공격 : ^777777150^000000
-무게 : ^777777180^000000
+Weight:^009900 180^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777120^000000
 장착 : ^777777건너 계열^000000
@@ -63750,29 +63768,29 @@ Element:^0000FF Water^000000
 13228#
 화염 속성이 담겨있는 탄환.
 계열 : ^777777총알^000000 공격 : ^77777720^000000
-무게 : ^7777770.2^000000 속성 : ^777777화^000000
+Weight:^009900 0.2^000000 속성 : ^777777화^000000
 #
 13229#
 전격 속성이 담겨있는 탄환.
 계열 : ^777777총알^000000 공격 : ^77777720^000000
-무게 : ^7777770.2^000000 속성 : ^777777풍^000000
+Weight:^009900 0.2^000000 속성 : ^777777풍^000000
 #
 13230#
 얼음 속성이 담겨있는 탄환.
 계열 : ^777777총알^000000 공격 : ^77777720^000000
-무게 : ^7777770.2^000000 속성 : ^777777수^000000
+Weight:^009900 0.2^000000 속성 : ^777777수^000000
 #
 13231#
 맹독이 발라져 있는 탄환.
 공격 시, 낮은 확률로 적에게 독을 건다.
 계열 : ^777777총알^000000 공격 : ^77777720^000000
-무게 : ^7777770.2^000000 속성 : ^777777독^000000
+Weight:^009900 0.2^000000 속성 : ^777777독^000000
 #
 13232#
 암흑 속성이 담겨있는 탄환.
 공격 시, 낮은 확률로 적에게 암흑을 건다.
 계열 : ^777777총알^000000 공격 : ^77777720^000000
-무게 : ^7777770.2^000000 속성 : ^777777암^000000
+Weight:^009900 0.2^000000 속성 : ^777777암^000000
 #
 13250#
 A cross shaped dagger that is small enough to conceal in your hand.
@@ -64404,7 +64422,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Ninja^000000
 #
 13327#
-Huuma shuriken with red light radiance blade.
+Huuma shuriken that emitting red aura.
 -------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
 -------------------------
@@ -65138,7 +65156,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Rune Knight^000000
 #
 13454#
-One-handed sword with red light radiance blade.
+One-handed sword that emitting red aura.
 -------------------------
 ATK increased by (Refine*Refine), up to +15 refine.
 -------------------------
@@ -74655,7 +74673,7 @@ Weight:^009900 1^000000
 ^ffffff_^000000
 이 버프의 효과는 기존의 전투교범, 풍선껌과 중첩 적용됩니다.
 (^ff0000해당 아이템은 2016년 6월 22일 정기점검시 일괄 삭제됩니다.^000000)
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 15000#
 Dark Plated Armor covered with sharp bones.
@@ -74835,7 +74853,7 @@ Class:^6666CC Armor^000000
 Defense:^0000FF 93^000000
 Weight:^009900 450^000000
 Level Requirement:^009900 100^000000
-Jobs:^6666CC 3rd Classes^000000
+Jobs:^6666CC Rune Knight and Royal Guard^000000
 #
 15015#
 An adventure suit made of mixed elunium and gold.
@@ -76390,6 +76408,18 @@ ALL STATUS +2, HP +500, SP +50, MDEF +3, 완전회피 +3.
 요구 레벨 :^777777 100^000000
 장착 :^777777 전 직업^000000
 #
+15174#
+A swimsuit designed for a profesional surfer.
+MaxHP +5%
+MaxSP +5%
+Every 3 refine level: MaxHP +1%, MaxSP +1%.
+When combined with Squba Mask: Perfect Dodge +10, Reduces variable cast time by 10%.
+Class:^6666CC Armor^000000
+Defense:^0000FF 1^000000
+Weight:^009900 10^000000
+Level Requirement:^009900 40^000000
+Jobs:^6666CC All classes^000000
+#
 16000#
 This mace's shape is inspired by a Snake, which symbolizes the fountain of knowledge.
 MaxSP +50.
@@ -76796,7 +76826,7 @@ Level Requirement:^009900 40^000000
 Jobs:^6666CC Novice, Swordman, Merchant and Acolyte^000000
 #
 16040#
-Mace with red light radiance.
+Mace that emitting red aura.
 ATK increased by (Refine*Refine), up to +15 refine.
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
 ^663399Indestructible^000000
@@ -86496,7 +86526,7 @@ Weight:^009900 1^000000
 전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개, 건슬링거 스크롤 1개가 들어있다.
 거기에 [비매품]환영의술잔도 1개 더!
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 17691#
 ^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
@@ -86505,21 +86535,57 @@ Weight:^009900 1^000000
 거기에 [비매품]환영의술잔도 10개 더!
 [비매품]톡톡캔디와 [비매품]마법캔디도 1개씩 들어있습니다.
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
+#
+17710#
+A mysterious egg that gave one random hair costume.
+Costume Eleanor Wig
+Costume Hair Bun(Blue)
+Costume Hair Bun(Red)
+Costume Hair Bun(Yellow)
+Costume Hair Bun(Green)
+Costume Roll Twin(Blue)
+Costume Roll Twin(Red)
+Costume Roll Twin(Yellow)
+Costume Roll Twin(Green)
+Costume Long Pony(Blue)
+Costume Long Pony(Red)
+Costume Long Pony(Yellow)
+Costume Long Pony(Green)
+^FFFFFF_^000000
+Weight:^009900 1^000000
+#
+17711#
+A mysterious egg that gave one random hair costume.
+Costume Eleanor Wig
+Costume Hair Bun(Black)
+Costume Hair Bun(White)
+Costume Hair Bun(Purple)
+Costume Hair Bun(Crimson)
+Costume Roll Twin(Black)
+Costume Roll Twin(White)
+Costume Roll Twin(Purple)
+Costume Roll Twin(Crimson)
+Costume Long Pony(Black)
+Costume Long Pony(White)
+Costume Long Pony(Purple)
+Costume Long Pony(Crimson)
+^FFFFFF_^000000
+Weight:^009900 1^000000
 #
 17712#
 ^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
 생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.
 소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 7월의 그린 스크롤 1개도 얻을 수 있다. 
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 17713#
 ^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
 생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. 
 소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 7월의 그린 스크롤 11개도 얻을 수 있다. 
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 18000#
 A consumable item to use the Mechanic Magic Gear Skill, Arm's Cannon.
@@ -86838,7 +86904,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Archer, Thief and Rogue^000000
 #
 18130#
-Bow with red light radiance.
+Bow that emitting red aura.
 ATK increased by (Refine*Refine), up to +15 refine.
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
 Class:^6666CC Bow^000000
@@ -92298,10 +92364,12 @@ Level Requirement:^009900 70^000000
 Jobs:^6666CC All classes^000000
 #
 18997#
-Inexplicably a machine that has a trillion kinds of things to feel.
+Feels like being controlled by an unknown machine.
 HIT +50, FLEE +50, MaxSP -50%.
 +[^008800Broken Chips 01 & Broken Chips 02^000000]
-Infinity movement accelerating, ATK,MATK +50.
+ATK +50
+MATK +50
+Increases movement speed.
 Refine level +9 or more additional MaxSP +50%, MaxHP +10%.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
@@ -93175,8 +93243,11 @@ Jobs:^6666CC All classes^000000
 #
 19109#
 An ornament wore by a girl that fighting in battlefield.
+-------------------------
 MaxSP +50
+-------------------------
 when wearer receive physical attacks, Adds a chance of autocasting Level 10 Safety Wall.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
 Location:^6666CC Middle^000000
@@ -93186,8 +93257,11 @@ Jobs:^6666CC All classes^000000
 #
 19110#
 An ornament wore by a girl that fighting in battlefield.
+-------------------------
 MaxSP +50
+-------------------------
 when wearer receive physical attacks, Adds a chance of autocasting Level 10 Safety Wall.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
 Location:^6666CC Middle^000000
@@ -93197,14 +93271,18 @@ Jobs:^6666CC All classes^000000
 #
 19111#
 A hat with High-performance laser shooter.
+-------------------------
 Dex +2.
+-------------------------
 long range physical attack +10%.
+-------------------------
 Adds a chance when dealing physical attacks for 5 sec transform wearer into 'Cecil Damon'.
 Increasing the refine level will increases the probability.
 During transformation you will gain:
 Skill delay -100%.
 Adds certain chance when dealing physical attacks of autocasting Level 2 True Sight or Level 3 True Sight if you master the skill.
 When attacking with long ranged attack, adds chance to autocast Level 1 Lex Aeterna.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Upper^000000
@@ -93214,7 +93292,9 @@ Jobs:^6666CC All classes^000000
 #
 19112#
 A scroll dropped by Tengu. It's said something strange might happen if you use it.
+-------------------------
 Adds a chance to drain 5% of physical attack inflicted on target.
+-------------------------
 [+^008800Crow Tengu Mask^000000]
 Increases physical attack by 1%.
 Increase long range physical attacks by 1%.
@@ -93224,6 +93304,7 @@ Increase long range physical attacks by 1%.
 When base STR is 120 or higher:
 Increases physical attack by 3%.
 Increase long range physical attacks by 1%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93233,10 +93314,14 @@ Jobs:^6666CC All classes^000000
 #
 19113#
 An imitation eyes contact based of Gemini-S58 eyes.
+-------------------------
 Reduces damage taken from [Psychic Wave] and [Ray of Genesis] by 30%.
+-------------------------
 Increases resistance against ^663399Stun^000000 and ^663399Silence^000000 status by 10%.
+-------------------------
 When base AGI is 90 or higher:
 Increases resistance against ^663399Stun^000000 and ^663399Silence^000000 status by 30%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93246,14 +93331,20 @@ Jobs:^6666CC All classes^000000
 #
 19114#
 A luxury silk ribbon.
+-------------------------
 Reduces damage taken from ^CC5500Earth^000000 element attacks by 20%.
+-------------------------
 Refine Level +5: reduces damage taken from Small, Medium and Large monsters by 2%.
 Refine Level +7: reduces damage taken from Small, Medium and Large monsters by 3%.
+-------------------------
 ^663399Indestructible^000000
+-------------------------
 [+^008800Crimson Rose^000000]
 Reduces damage taken from Small, Medium and Large monsters by 5%.
+-------------------------
 [+^008800Sting Card^000000]
 Reduces damage taken from Small, Medium and Large monsters by 10%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 15^000000
 Location:^6666CC Upper^000000
@@ -93263,9 +93354,12 @@ Jobs:^6666CC All classes^000000
 #
 19115#
 A hat that giving the feeling of being in republic of Schwartzvald.
+-------------------------
 Increases long range physical attacks by 6%.
+-------------------------
 Refine level +7: Increases long range physical attacks by 2%.
 Refine level +10: Increases long range physical attacks by 4%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
 Location:^6666CC Upper^000000
@@ -93275,10 +93369,15 @@ Jobs:^6666CC All classes^000000
 #
 19116#
 A very rare breed of dragon that have red color.
-MaxHP +5%, MaxSP +5%
+-------------------------
+MaxHP +5%
+MaxSP +5%
+-------------------------
 Increases damage of [Dragon Breath] and [Water Dragon Breath] by 15%.
+-------------------------
 Refine level +6: increases damage of [Dragon Breath] and [Water Dragon Breath] by 15%.
 Refine level +8: increases damage of [Dragon Breath] and [Water Dragon Breath] by 15%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -93288,12 +93387,16 @@ Jobs:^6666CC All classes^000000
 #
 19117#
 Sunglasses shaped like Poring. This is the season item for your fashion.
+-------------------------
 Increases Exp gained from killing monsters by 5%.
+-------------------------
 Increases items drop rate by 5%.
+-------------------------
 When equipped with Angel Poring Boots:
 Increases Exp gained from killing monsters by 5%.
 Increases items drop rate by 5%.
-When refine level of Boots in +12: Reduces fixed cast time by 0.4 seconds.
+When refine level of Boots +12: Reduces fixed cast time by 0.4 seconds.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
@@ -93303,12 +93406,16 @@ Jobs:^6666CC All classes^000000
 #
 19118#
 Sunglasses shaped like Poring. This is the season item for your fashion.
+-------------------------
 Increases Exp gained from killing monsters by 4%.
+-------------------------
 Increases items drop rate by 4%.
+-------------------------
 When equipped with Angel Poring Boots:
 Increases Exp gained from killing monsters by 4%.
 Increases items drop rate by 4%.
-When refine level of Boots in +12: Reduces fixed cast time by 0.4 seconds.
+When refine level of Boots +12: Reduces fixed cast time by 0.4 seconds.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
@@ -93318,12 +93425,16 @@ Jobs:^6666CC All classes^000000
 #
 19119#
 A hat made from a mixed Elunium and Emperium for experienced adventurers.
+-------------------------
 All Stats +2
 MaxHP +500
 MaxSP +100
+-------------------------
 Reduces variable cast time by 5%.
+-------------------------
 When dealing physical attacks, adds 3% to absorb 3 HP (Every 3 refine level increase HP absorbtion by 1%).
 When dealing magical attacks, adds 1% to absorb 1 SP (Every 4 refine level increase SP absorbtion by 1%).
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
@@ -93333,8 +93444,10 @@ Jobs:^6666CC All classes^000000
 #
 19126#
 A tool that can control the brain wave to amplify their skills.
+-------------------------
 ASPD +1
 Decreases delay after skill by 1%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
@@ -93345,8 +93458,11 @@ Jobs:^6666CC All classes^000000
 19127#
 This mask, which is symbolic of Zealotus, mistress of the Glast Heim Underground Prison.
 Makes its wearer feel like looking down on normal human peons.
+-------------------------
 Increases physical damage inflicted on ^6666CCDemihuman monster^000000 by 5%.
+-------------------------
 Reduces damage taken from ^6666CCDemihuman monster^000000 by 5%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
 Location:^6666CC Upper, Middle^000000
@@ -93356,13 +93472,19 @@ Jobs:^6666CC All except Novice^000000
 #
 19128#
 A headgear which imitates Ifrit's ears, the spiritual owner of fire.
+-------------------------
 STR +1
 INT +1
 MDEF +3
+-------------------------
 Increases ^FF0000Fire^000000 element magics damage by 3%.
+-------------------------
 Increase Bash and Magnum Break damage by 4%.
+-------------------------
 Reduces damage taken from ^FF0000Fire^000000 element attacks by 3%.
+-------------------------
 Increases damage taken from ^0000BBWater^000000 element attacks by 3%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
@@ -93372,12 +93494,17 @@ Jobs:^6666CC All except Novice^000000
 #
 19129#
 A hat adorned with a cute chick that brings feelings of joy to those that see it hopping.
+-------------------------
 LUK +2
 MaxHP +50
 MaxSP +50
+-------------------------
 Enables Level 2 Double Attack.
+-------------------------
 Reduces damage taken from ^6666CCDemihuman^000000 and ^6666CCBrute monster^000000 by 3%.
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
 Location:^6666CC Upper^000000
@@ -93387,8 +93514,11 @@ Jobs:^6666CC All classes^000000
 #
 19130#
 A hat that looks like the eyes of a dark mage, which are rumored to blink sometimes.
+-------------------------
 MDEF +5
+-------------------------
 Reduces variable cast time by 10%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 3^000000
 Location:^6666CC Upper^000000
@@ -93398,11 +93528,15 @@ Jobs:^6666CC Mage and Soul Linker^000000
 #
 19131#
 A hat designed to transmit electric waves. Sometimes it receives electric waves from external worlds.
+-------------------------
 CRIT +5
 FLEE +5
 MDEF +5
+-------------------------
 Enables use of Level 1 ^008800Lightning Bolt^000000.
+-------------------------
 Adds a chance of autocasting Level 5 ^008800Thunder Storm^000000 when dealing physical attacks.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
 Location:^6666CC Upper^000000
@@ -93412,7 +93546,9 @@ Jobs:^6666CC All classes^000000
 #
 19132#
 A black leather mask, shaped like butterfly wings.
+-------------------------
 Increases physical damage inflicted on ^6666CCDemihuman monster^000000 by 3%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
@@ -93421,7 +93557,9 @@ Jobs:^6666CC All except Novice^000000
 #
 19133#
 A mask worn once worn by Odin during a fierce battle between the gods and humans.
+-------------------------
 Reduces damage taken from Boss monsters by 2%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 1^000000
 Location:^6666CC Middle, Lower^000000
@@ -93431,9 +93569,13 @@ Jobs:^6666CC All classes^000000
 #
 19134#
 Wickebine's black cat ears.
+-------------------------
 FLEE +10
+-------------------------
 Increases Critical damage by 10%.
+-------------------------
 Adds a chance to ignore Magic defense of target for 5 seconds when dealing magical attacks.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
 Location:^6666CC Upper^000000
@@ -93443,12 +93585,16 @@ Jobs:^6666CC All classes^000000
 #
 19135#
 A spirit of Green Maiden that float on your head.
+-------------------------
 Adds a chance to transform wearer to Green Maiden for 5 seconds when dealing physical or magical attacks.
 When transforming, increases MATK and Critical damage by 30%.
+-------------------------
 Every 2 refine level: Exp gained +1%, drop rate +1%.
 Every 4 refine level: MaxHP +2%, MaxSP +2%.
+-------------------------
 Refine level +9: HP regeneration +40%, SP regeneration +40%.
 Refine level +12: MaxHP +3%, MaxSP +3%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -93458,12 +93604,16 @@ Jobs:^6666CC All classes^000000
 #
 19136#
 A spirit of Green Maiden that float on your head.
+-------------------------
 Adds a chance to transform wearer to Green Maiden for 5 seconds when dealing physical or magical attacks.
 When transforming, increases MATK and Critical damage by 30%.
+-------------------------
 Every 2 refine level: Exp gained +1%, drop rate +1%.
 Every 4 refine level: MaxHP +1%, MaxSP +1%.
+-------------------------
 Refine level +9: HP regeneration +40%, SP regeneration +40%.
 Refine level +12: MaxHP +3%, MaxSP +3%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -93473,10 +93623,14 @@ Jobs:^6666CC All classes^000000
 #
 19138#
 A beautiful blue corolla decorated with feathers of Seraphim.
+-------------------------
 STR +2
+-------------------------
 Every 8 base of INT: ATK +5, Healing power +1%, Variable cast time +1%.
+-------------------------
 When base INT is 108: ATK +50, Healing power +5%, Variable cast time +4%.
 When base INT is 120: ATK +125, Healing power +10%, Variable cast time +6%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Middle^000000
@@ -93486,11 +93640,16 @@ Jobs:^6666CC All classes^000000
 #
 19141#
 A mask of Dolor Thanatos. It has charming design and high physical defense.
+-------------------------
 MDEF +6
 All stats +1
+-------------------------
 Reduces damage taken from Demihuman monster by 5%.
+-------------------------
 Reduces damage taken from Player by 1%.
+-------------------------
 Reduces damage taken from Fire, Water, Wind and Earth element attacks by 5%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
 Location:^6666CC Middle, Lower^000000
@@ -93500,8 +93659,11 @@ Jobs:^6666CC All classes^000000
 #
 19142#
 A doll that resemble the legendary mercenary.
+-------------------------
 Increases long range physical attacks by 10%.
+-------------------------
 ^FF0000Unrefineable^000000
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 1^000000
 Location:^6666CC Upper^000000
@@ -93511,9 +93673,13 @@ Jobs:^6666CC All classes^000000
 #
 19143#
 A Poring balloon that floating over your head. Somehow you feel really luck just by wearing this.
+-------------------------
 Increases experience gained from killing a monster by 5%.
+-------------------------
 Increases item drop rate by 5%.
+-------------------------
 Adds a high chance a killed monster will drop Jellopy.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93547,8 +93713,12 @@ Jobs:^6666CC Gunslinger^000000
 #
 19145#
 Bouncing notes that created from whistle.
-ATK +10, MATK +10
+-------------------------
+ATK +10
+MATK +10
+-------------------------
 Restore HP by 30 and SP by 3 when killing enemy.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93558,9 +93728,13 @@ Jobs:^6666CC Gunslinger^000000
 #
 19146#
 A Marin balloon that floating over your head. Somehow you feel really lucky just by wearing this.
+-------------------------
 Increases experience gained from killing a monster by 5%.
+-------------------------
 Increases item drop rate by 5%.
+-------------------------
 Adds a chance of autocasting Level 1 Quagmire when attacked by physical attacks.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93570,9 +93744,13 @@ Jobs:^6666CC All classes^000000
 #
 19147#
 A Drops balloon that floating over your head. Somehow you feel really lucky just by wearing this.
-Increases experience gained from killing a monster by 5%.
-Increases item drop rate by 5%.
+-------------------------
 DEX +2
+-------------------------
+Increases experience gained from killing a monster by 5%.
+-------------------------
+Increases item drop rate by 5%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93582,9 +93760,13 @@ Jobs:^6666CC All classes^000000
 #
 19148#
 A Santa Poring balloon that floating over your head. Somehow you feel really lucky just by wearing this.
+-------------------------
 Increases experience gained from killing a monster by 5%.
+-------------------------
 Increases item drop rate by 5%.
+-------------------------
 Increases Candy restoration by 200%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93594,9 +93776,13 @@ Jobs:^6666CC All classes^000000
 #
 19149#
 A Poporing balloon that floating over your head. Somehow you feel really lucky just by wearing this.
+-------------------------
 Increases experience gained from killing a monster by 5%.
+-------------------------
 Increases item drop rate by 5%.
+-------------------------
 Adds a high chance of inflicting Poison status on target when dealing physical attacks.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93606,9 +93792,13 @@ Jobs:^6666CC All classes^000000
 #
 19150#
 A Metalring balloon that floating over your head. Somehow you feel really lucky just by wearing this.
+-------------------------
 Increases experience gained from killing a monster by 5%.
+-------------------------
 Increases item drop rate by 5%.
+-------------------------
 Adds a low chance of autocasting Level 1 Strip Weapon on target when dealing physical attacks.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93618,9 +93808,13 @@ Jobs:^6666CC All classes^000000
 #
 19151#
 A Devilring balloon that floating over your head. Somehow you feel really lucky just by wearing this.
+-------------------------
 Increases experience gained from killing a monster by 5%.
+-------------------------
 Increases item drop rate by 5%.
+-------------------------
 Adds a chance of inflicting Curse status on target when dealing physical attacks.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93630,9 +93824,13 @@ Jobs:^6666CC All classes^000000
 #
 19152#
 An Angelring balloon that floating over your head. Somehow you feel really lucky just by wearing this.
+-------------------------
 Increases experience gained from killing a monster by 5%.
+-------------------------
 Increases item drop rate by 5%.
+-------------------------
 Increases White potion restoration by 100%.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93642,9 +93840,13 @@ Jobs:^6666CC All classes^000000
 #
 19153#
 A Ghostring balloon that floating over your head. Somehow you feel really lucky just by wearing this.
+-------------------------
 Increases experience gained from killing a monster by 5%.
+-------------------------
 Increases item drop rate by 5%.
+-------------------------
 Adds a low chance of autocasting Level 5 Soul Strike when dealing physical attacks.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -93666,12 +93868,18 @@ Jobs:^6666CC All classes^000000
 #
 19157#
 A doll that resemble the legendary mercenary. Don't be fooled by its cute appearance.
+-------------------------
 Enables use of Rebellion Scroll.
+-------------------------
 All Stats +1.
+-------------------------
 Reduces SP consumption by 10%.
+-------------------------
 Increases Experience gained from killing a monster by 5%, increases item drop rate by 5%.
+-------------------------
 Refine level +9: ASPD +1.
 Refine level +12: Increases movement speed.
+-------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -93685,6 +93893,51 @@ Class:^6666CC Costume^000000
 Location:^6666CC Middle^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+19159#
+A large bucket-type helmet.
+Since this helmet cover all head part, the defense of this helmet is quite high.
+It said, only skilled Paladin that allowed to wear this helmet.
+-------------------------
+Vit +5
+-------------------------
+Natural HP regeneration -10%.
+-------------------------
+Refine level +7: DEF +100, Enables Level 1 Autoguard.
+Refine level +8: Reduces physical damage taken from Demihuman monsters by 10%.
+Every refine level above +8, increases the trigger rate of Autoguard.
+When equipped by Super Novice, enables Level 5 Auto Guard.
+-------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 59^000000
+Location:^6666CC Upper, Middle, Lower^000000
+Weight:^009900 42^000000
+Level Requirement:^009900 60^000000
+Jobs:^6666CC All classes^000000
+#
+19162#
+Specially made for underwater surfing.
+ATK +5
+MATK +5
+When combined with Surfer Swimsuit: Reduces after attack delay by 10%, Increases CRIT against fish monsters by 50.
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^009900 10^000000
+Level Requirement:^009900 40^000000
+Jobs:^6666CC All classes^000000
+#
+19166#
+A very rare limited celebration hat.
+-------------------------
+MaxSP +140, Restore SP by 6 every 4 second.
+-------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 14^000000
+Location:^6666CC Upper^000000
+Weight:^009900 14^000000
+Level Requirement:^009900 14^000000
 Jobs:^6666CC All classes^000000
 #
 19377#
@@ -102074,8 +102327,8 @@ A bag made based on Amistr Homunculus.
 All Stats +1.
 Enables use of Level 1 Heal.
 Every 2 refine level, Exp gained +1%, Drop rate +1%.
-Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks.
-Refine level +12�, allow uninterruptible skill cast.
+Refine level +9: restore SP by 3 when killing enemy with physical and magical attacks.
+Refine level +12: allow uninterruptible skill cast.
 Class:^6666CC Garment^000000
 Defense:^0000FF 30^000000
 Weight:^009900 20^000000
@@ -102087,8 +102340,8 @@ A bag made based on Amistr Homunculus.
 All Stats +1.
 Enables use of Level 1 Greed.
 Every 2 refine level, Exp gained +1%, Drop rate +1%.
-Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks.
-Refine level +12�, allow uninterruptible skill cast.
+Refine level +9: restore SP by 3 when killing enemy with physical and magical attacks.
+Refine level +12: allow uninterruptible skill cast.
 Class:^6666CC Garment^000000
 Defense:^0000FF 30^000000
 Weight:^009900 20^000000
@@ -102100,8 +102353,8 @@ A bag made based on Amistr Homunculus.
 All Stats +1.
 Enables use of Level 1 Increase Agi.
 Every 2 refine level, Exp gained +1%, Drop rate +1%.
-Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks.
-Refine level +12�, allow uninterruptible skill cast.
+Refine level +9: restore SP by 3 when killing enemy with physical and magical attacks.
+Refine level +12: allow uninterruptible skill cast.
 Class:^6666CC Garment^000000
 Defense:^0000FF 30^000000
 Weight:^009900 20^000000
@@ -102113,8 +102366,8 @@ A bag made based on Amistr Homunculus.
 All Stats +1.
 Enables use of Level 1 Magnum Break.
 Every 2 refine level, Exp gained +1%, Drop rate +1%.
-Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks.
-Refine level +12�, allow uninterruptible skill cast.
+Refine level +9: restore SP by 3 when killing enemy with physical and magical attacks.
+Refine level +12: allow uninterruptible skill cast.
 Class:^6666CC Garment^000000
 Defense:^0000FF 30^000000
 Weight:^009900 20^000000
@@ -102126,8 +102379,8 @@ A bag made based on Amistr Homunculus.
 All Stats +1.
 Enables use of Level 1 Endure.
 Every 2 refine level, Exp gained +1%, Drop rate +1%.
-Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks.
-Refine level +12�, allow uninterruptible skill cast.
+Refine level +9: restore SP by 3 when killing enemy with physical and magical attacks.
+Refine level +12: allow uninterruptible skill cast.
 Class:^6666CC Garment^000000
 Defense:^0000FF 30^000000
 Weight:^009900 20^000000
@@ -102139,8 +102392,8 @@ A bag made based on Amistr Homunculus.
 All Stats +1.
 Enables use of Level 1 Sight.
 Every 2 refine level, Exp gained +1%, Drop rate +1%.
-Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks.
-Refine level +12�, allow uninterruptible skill cast.
+Refine level +9: restore SP by 3 when killing enemy with physical and magical attacks.
+Refine level +12: allow uninterruptible skill cast.
 Class:^6666CC Garment^000000
 Defense:^0000FF 30^000000
 Weight:^009900 20^000000
@@ -102152,8 +102405,8 @@ A bag made based on Amistr Homunculus.
 All Stats +1.
 Enables use of Level 1 Improve Concentration.
 Every 2 refine level, Exp gained +1%, Drop rate +1%.
-Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks.
-Refine level +12�, allow uninterruptible skill cast.
+Refine level +9: restore SP by 3 when killing enemy with physical and magical attacks.
+Refine level +12: allow uninterruptible skill cast.
 Class:^6666CC Garment^000000
 Defense:^0000FF 30^000000
 Weight:^009900 20^000000
@@ -102165,8 +102418,8 @@ A bag made based on Amistr Homunculus.
 All Stats +1.
 Enables use of Level 1 Hiding.
 Every 2 refine level, Exp gained +1%, Drop rate +1%.
-Refine level +9, restore SP by 3 when killing enemy with physical and magical attacks.
-Refine level +12�, allow uninterruptible skill cast.
+Refine level +9: restore SP by 3 when killing enemy with physical and magical attacks.
+Refine level +12: allow uninterruptible skill cast.
 Class:^6666CC Garment^000000
 Defense:^0000FF 30^000000
 Weight:^009900 20^000000
@@ -102228,6 +102481,17 @@ Class:^6666CC Garment^000000
 Defense:^0000FF 20^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 99^000000
+Jobs:^6666CC All classes^000000
+#
+20819#
+Oxygen bottles that facilitate the underwater activity.
+FLEE +12.
+Every refine level: HIT +1, FLEE +1.
+When combined with Scuba Mask: ASPD +1, Enables uninterruptible skill casts.
+Class:^6666CC Garment^000000
+Defense:^0000FF 0^000000
+Weight:^009900 50^000000
+Level Requirement:^009900 40^000000
 Jobs:^6666CC All classes^000000
 #
 21000#
@@ -102331,7 +102595,7 @@ Level Requirement:^009900 50^000000
 Jobs:^6666CC Swordman^000000
 #
 21009#
-This great sword, made to counteract the Devil Sword Thanatos, is sculpted out of Gray Shard.
+This Broadsword, made to counteract the Devil Sword Thanatos, is sculpted out of Gray Shard.
 It offers incredible power and magic at a great cost.
 INT +6, VIT +6, LUK -6
 When Receiving Physical Attack,5% less chance of HP,SP Drain.
@@ -102409,7 +102673,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Rune Knight and Royal Guard^000000
 #
 21015#
-Two-Handed Sword with red light radiance blade.
+Two-Handed Sword that emitting red aura.
 ATK increased by (Refine*Refine), up to +15 refine.
 MATK increased by (Refine*Refine)/2, up to +15 refine.
 Level 70 or higher:Per 10 BaseLevel, ATK +5.
@@ -103374,7 +103638,7 @@ Weight:^009900 2^000000
 아무 쉐도우나 3개를 재료로 하여, 랜덤한 쉐도우를 1개 받습니다.
 낮은 확률로 쉐도우 큐브에서는 얻을 수 없는 쉐도우가 나올 수도 있습니다.
 ^ff0000프로모션 쉐도우는 조합재료로 사용할 수 없습니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 22533#
 Outside the box is written, New Year Greeting from Each Department.
@@ -103740,43 +104004,38 @@ Cooldown:^009900 5^000000 Second
 Weight:^009900 0.1^000000
 #
 22691#
-They are found in the rubble of experimental east a memory register.
-It's broken but you need to decrypt information inside.
-It is a strange aura overhanging somewhere artifact.
+Shard of a Memory Record found in the laboratories. Shards were only left after it broke when being decoded.
+A strange energy of it being pulled somewhere can be felt.
 (Quest Start Item)
 Weight:^009900 0^000000
 #
 22692#
-They are found in the rubble of experimental east a memory register.
-It's broken but you need to decrypt information inside.
-It is a strange aura overhanging somewhere artifact.
+Shard of a Memory Record found in the laboratories. Shards were only left after it broke when being decoded.
+A strange energy of it being pulled somewhere can be felt.
 (Quest Start Item)
 Weight:^009900 0^000000
 #
 22693#
-They are found in the rubble of experimental east a memory register.
-It's broken but you need to decrypt information inside.
-It is a strange aura overhanging somewhere artifact.
+Shard of a Memory Record found in the laboratories. Shards were only left after it broke when being decoded.
+A strange energy of it being pulled somewhere can be felt.
 (Quest Start Item)
 Weight:^009900 0^000000
 #
 22694#
-They are found in the rubble of experimental east a memory register.
-It's broken but you need to decrypt information inside.
-It is a strange aura overhanging somewhere artifact.
+Shard of a Memory Record found in the laboratories. Shards were only left after it broke when being decoded.
+A strange energy of it being pulled somewhere can be felt.
 (Quest Start Item)
 Weight:^009900 0^000000
 #
 22695#
-They are found in the rubble of experimental east a memory register.
-It's broken but you need to decrypt information inside.
-It is a strange aura overhanging somewhere artifact.
+Shard of a Memory Record found in the laboratories. Shards were only left after it broke when being decoded.
+A strange energy of it being pulled somewhere can be felt.
 (Quest Start Item)
 Weight:^009900 0^000000
 #
 22699#
-Not yet completed the test reagents for clinical trials.
-Is labeled "Enable bodily functions and temporarily manage to be extremely agile. One of the side effects can be temporarily lost his sight." carries written.
+Testing reagent that has not yet passed clinical tests.
+Sticker reads it can vitalize physical abilities to an extreme and temporarily increase agility, but could lose sight as a side effect.
 Weight:^009900 3^000000
 #
 22700#
@@ -105144,7 +105403,7 @@ Weight:^009900 0^000000
 전설의 용병의 전투 기술을 담은 스크롤.
 [늘어진 건슬링거]에 랜덤 옵션 2종을 부여할 수 있다.
 ^ff0000주의! - 랜덤 옵션 부여시, 늘어진 건슬링거의 제련도와 카드 슬롯이 초기화 됩니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23106#
 기간 한정 아미스트르 스크롤. 
@@ -105202,31 +105461,31 @@ Weight:^009900 20^000000
 ^ff0000"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다."^000000
 ^ffffff_^000000
 화염 속성의 플레어 블릿이 500발 담겨있다.
-무게 : ^77777725^000000
+Weight:^009900 25^000000
 #
 23124#
 ^ff0000"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다."^000000
 ^ffffff_^000000
 전격 속성의 라이트닝 블릿이 500발 담겨있다.
-무게 : ^77777725^000000
+Weight:^009900 25^000000
 #
 23125#
 ^ff0000"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다."^000000
 ^ffffff_^000000
 얼음 속성의 아이스 블릿이 500발 담겨있다.
-무게 : ^77777725^000000
+Weight:^009900 25^000000
 #
 23126#
 ^ff0000"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다."^000000
 ^ffffff_^000000
 맹독 속성의 포이즌 블릿이 500발 담겨있다.
-무게 : ^77777725^000000
+Weight:^009900 25^000000
 #
 23127#
 ^ff0000"주의! 인벤토리 내에 보유 아이템 3만개 초과 시, 아이템이 소실될 수 있습니다."^000000
 ^ffffff_^000000
 암흑 속성의 블라인드 블릿이 500발 담겨있다.
-무게 : ^77777725^000000
+Weight:^009900 25^000000
 #
 23128#
 #
@@ -105297,29 +105556,29 @@ Weight:^009900 20^000000
 강화된 시간의 수호자 부츠
 ――――――――――――― 
 요구 레벨 : ^777777100^000000
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 #
 23142#
 마시면 일정량의 경험치를 얻게된다. 
 이때 얻게되는 경험치로 레벨업하는 횟수는 1회로 제한된다.
 이미 100Lv 이상 성장한 경우, 효능이 급감한다.
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23143#
 마시면 일정량의 잡경험치를 얻게된다. 
 이때 얻게되는 잡경험치로 레벨업하는 횟수는 1회로 제한된다.
 이미 100Lv 이상 성장한 경우, 효능이 급감한다.
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23144#
 최하급 성장 비약 5개가 포장되어있는 선물용 상자.
 다른이에게 선물하여 감사의 마음을 표시해보자.
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23145#
 최하급 직업 비약 5개가 포장되어있는 선물용 상자.
 다른이에게 선물하여 감사의 마음을 표시해보자.
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23150#
 라피네의 뚝딱상자.
@@ -105327,14 +105586,14 @@ Weight:^009900 20^000000
 각종 아이템을 조합할 수 있는 조합용 뚝딱상자를 얻을 수 있습니다.
 적당히 쓸만한 엉뚱한 아이템도 함께 포함되어 있습니다.
 ^ff0000주의! - 라피네의 뚝딱상자에 들어있는 내용물은 예고없이 변경될 수 있습니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23151#
 의상 인챈트 스톤 뚝딱상자.
 의상 인챈트 스톤 3개를 재료로 하여, 랜덤한 인챈트 스톤을 1개 받습니다.
 낮은 확률로 인챈트 스톤 상자에서는 얻을 수 없는 인챈트 스톤이 나올 수도 있습니다.
 ^ff0000주의! - 서로 다른 종류의 의상 인챈트 스톤만을 재료로 받습니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23152#
 수집품 뚝딱상자. 
@@ -105342,24 +105601,24 @@ Weight:^009900 20^000000
 '^ff0000수집품 상인에게 팔린다^000000' 라고 적혀있는 아이템만 재료로 받습니다.
 이따금 꽤 괜찮은 아이템이 나올 가능성이 있을지도 모릅니다. 
 ^ff0000주의! - 서로 다른 종류의 아이템만을 재료로 받습니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23153#
 펫 알 뚝딱상자.
 펫 알을 아무거나 2개를 넣으면, 테이밍 선물세트를 1개 받을 수 있습니다.
 ^ff0000풋내기 포링의 알은 재료로 받지 않습니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23154#
 냥다래 의상 뚝딱상자.
 냥다래로 교환 가능한 의상 중 아무거나 1개를 넣으면, 랜덤으로 냥다래로 교환 가능한 의상을 1개 얻을 수 있습니다.
 낮은 확률로 다른 곳에서는 얻을 수 없는 신규 의상이 나올 수도 있습니다. 
 ^ff0000해당 신규 의상은 의상 인챈트 스톤 상자로 교환이 가능합니다.^000000
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23159#
 독약병 10개가 담겨져 있는 팩.
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 "^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000"
 #
 23161#
@@ -105370,17 +105629,17 @@ Weight:^009900 20^000000
 ^ffffff<NAVI>^4D4DFF[고양이손 판매원 냐롬]^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>^000000,
 ^ffffff<NAVI>^^4D4DFF[고양이손 판매원 제롬]^000000<INFO>itemmall,41,52,0,100,0,0</INFO></NAVI>^000000,
 에게서 냥다래나 제니를 주고 추가로 구입할 수 있습니다.
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23162#
 기간 한정 건슬링거 스크롤. 
 무기 11제련 상품권, 방어구 11제련 상품권, 건슬링거 상자, 확장직업군 쉴드 쉐도우, 라피네뚝딱박스등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. 
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23167#
 기간 한정 7월의 그린 스크롤. 
 무기 11제련 상품권, 방어구 11제련 상품권, 미니 선풍기 상자, 클래스 쉐도우 큐브, 라피네 뚝딱박스등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. 
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23168#
 해달 미니 선풍기와 선풍기 개조 키트가 1개씩 들어있는 상자.
@@ -105390,19 +105649,46 @@ Weight:^009900 20^000000
 ^ffffff<NAVI>^4D4DFF[고양이손 판매원 냐롬]^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>^000000,
 ^ffffff<NAVI>^^4D4DFF[고양이손 판매원 제롬]^000000<INFO>itemmall,41,52,0,100,0,0</INFO></NAVI>^000000,
 에게서 냥다래나 제니를 주고 추가로 구입할 수 있습니다. 
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23169#
 알케미스트 협회에서 '올해의 알케미스트'로 선정된 알케미스트의 연구 결과물이 담겨있는 상자.
 내용물을 열기전에 확인할 순 없지만 화학 물품들이 담겨있을테니 취급에 주의해야 한다.
-무게 : ^7777771^000000
+Weight:^009900 1^000000
 #
 23170#
 해달 미니 선풍기를 개조할 수 있는 도구들이 들어있는 키트.
 1회 개조하기에 딱 맞는 재료만 들어 있다.
 ^ff0000해달 미니 선풍기^000000에 랜덤 옵션을 2종 부여할 수 있다.
 ^ff0000주의! - 랜덤 옵션 부여시, 해달 미니 선풍기의 카드 슬롯이 초기화 되며, 낮은 확률로 퍼씰 미니 선풍기로 변형됩니다.^000000
+Weight:^009900 1^000000
+#
+23171#
+그룸언더나이트의 힘을 잠시 동안 느낄 수 있을 것 같다. 
+성속성, 암속성, 천사형, 악마형 몬스터에게 주는 물리 공격력 20% 추가.
+5분간 지속.
+(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)
 무게 : ^7777771^000000
+#
+23172#
+파라오의 힘을 잠시 동안 느낄 수 있을 것 같다.
+스킬 사용시 SP소모량을 15% 줄여준다. 
+5분간 지속.
+(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)
+무게 : ^7777771^000000
+#
+23173#
+키엘-D-01의 힘을 잠시 동안 느낄 수 있을 것 같다. 
+모든 스킬의 후 딜레이가 15% 감소한다. 
+5분간 지속.
+(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)
+무게 : ^7777771^000000
+#
+23174#
+부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. 
+신규 이펙트가 3종 추가되었으며, 힐스톤(하단), 스틸스톤(하단), 텔레포트스톤(하단) 3종의 신규 인챈트 스톤이 포함되었다.
+기존의 의상 인챈트 스톤도 포함되어 있다.
+Weight:^009900 1^000000
 #
 24000#
 An armor worn on top of normal armor for additional defense.
@@ -109762,7 +110048,7 @@ All State + 3, MaxHP + 2%, MaxSP + 2%.
 스킬 사용 시, SP 소모량 10% 감소.
 계열 : ^777777쉐도우 장비^000000
 위치 : ^777777쉴드^000000 
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777닌자 계열^000000
 #
@@ -109782,7 +110068,7 @@ All State + 3, MaxHP + 2%, MaxSP + 2%.
 스킬 사용 시, SP 소모량 10% 감소.
 계열 : ^777777쉐도우 장비^000000
 위치 : ^777777쉴드^000000 
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777태권 계열^000000
 #
@@ -109801,7 +110087,7 @@ All State + 3, MaxHP + 2%, MaxSP + 2%.
 스킬 사용 시, SP 소모량 10% 감소. 
 계열 : ^777777쉐도우 장비^000000
 위치 : ^777777쉴드^000000 
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777도람족^000000
 #
@@ -109820,7 +110106,7 @@ All State + 3, MaxHP + 2%, MaxSP + 2%.
 스킬 사용 시, SP 소모량 10% 감소. 
 계열 : ^777777쉐도우 장비^000000
 위치 : ^777777쉴드^000000 
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777도람족^000000
 #
@@ -109840,7 +110126,7 @@ All State + 3, MaxHP + 2%, MaxSP + 2%.
 스킬 사용 시, SP 소모량 10% 감소. 
 계열 : ^777777쉐도우 장비^000000
 위치 : ^777777쉴드^000000 
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777노비스 계열^000000
 #
@@ -110869,7 +111155,7 @@ Weight:^009900 0^000000
 '슬러그 샷' 스킬 전용으로 사용되는 슬러그탄. 
 재질이 무엇일지 궁금할 정도로 비싸고 무겁다.
 '슬러그 샷' 스킬 사용시 자동으로 소모된다.
-무게 : ^777777120^000000
+Weight:^009900 120^000000
 #
 25188#
 Sohee's Handkerchief. It's gives pleasant feeling when you touch it.
@@ -110891,41 +111177,80 @@ Weight:^009900 0^000000
 공성 및 PvP 지역에서는 적용되지 않음.
 ^ff0000기본 체형만 작게 바꿀 뿐, 이펙트나 카트등의 사이즈는 변경되지 않습니다.^000000
 ^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
-무게 : ^77777710^000000
+Weight:^009900 10^000000
 #
 25206#
 상단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
 ^ff0000일렉트릭^000000
 ^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
-무게 : ^77777710^000000
+Weight:^009900 10^000000
 #
 25207#
 SP를 흡수 할 수 있는 스톤.
 의상 상단 슬롯에 아래의 능력치를 부여한다. 
 2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.
 ^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
-무게 : ^77777710^000000
+Weight:^009900 10^000000
 #
 25208#
 SP를 흡수 할 수 있는 스톤.
 의상 걸칠것 슬롯에 아래의 능력치를 부여한다. 
 2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.
 ^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000
-무게 : ^77777710^000000
+Weight:^009900 10^000000
 #
 25209#
 HP를 흡수 할 수 있는 스톤. 
 의상 걸칠것 슬롯에 아래의 능력치를 부여한다. 
 2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.
 ^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000
-무게 : ^77777710^000000
+Weight:^009900 10^000000
 #
 25210#
 HP를 흡수 할 수 있는 스톤. 
 의상 상단 슬롯에 아래의 능력치를 부여한다. 
 2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.
 ^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
-무게 : ^77777710^000000
+Weight:^009900 10^000000
+#
+25224#
+중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
+^ff0000화이트 바디^000000
+^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
+Weight:^009900 10^000000
+#
+25225#
+중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
+^ff0000진홍의 파동^000000
+^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
+Weight:^009900 10^000000
+#
+25226#
+하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
+^ff0000워터 필드^000000
+^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
+Weight:^009900 10^000000
+#
+25227#
+회복을 해주는 스톤.
+의상 하단 슬롯에 아래의 능력치를 부여한다.
+힐 Lv.1 사용 가능
+^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+Weight:^009900 10^000000
+#
+25228#
+텔레포트를 쓸 수 있는 스톤.
+의상 하단 슬롯에 아래의 능력치를 부여한다.
+텔레포트 Lv.1 사용 가능
+^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+Weight:^009900 10^000000
+#
+25229#
+훔치는 능력이 생기는 스톤.
+의상 하단 슬롯에 아래의 능력치를 부여한다.
+스틸 Lv.1 사용 가능
+^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+Weight:^009900 10^000000
 #
 26000#
 Two-Handed Spear made of the Ivory of a Mammoth. It is very hard to be processed due to its strength, but its sharp end makes it perfect for stabbing.
@@ -110979,20 +111304,75 @@ Jobs:^6666CC Doram race^000000
 26102#
 [jRO item]
 #
-26807#
-A metallic book made of Oridecon created for experienced adventurers.
-Can be enchanted by ^FFFFFF<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
-MATK +40.
-Healing skills +10%, Psychic Wave damage +10%.
-Every 1 refine level: ATK +7, MATK +5.
-Every 10 base level: ATK +7, MATK +3 (Applies up to base level 150).
-Equipped by Sorcerer: MATK +10.
-Class:^6666CC Book^000000
-Attack:^CC0000 70^000000
-Weight:^009900 0^000000
-Weapon Level:^009900 3^000000
-Level Requirement:^009900 100^000000
-Jobs:^6666CC Archbishop and Sorcerer^000000
+27012#
+MaxHP +8%.
+When equipped by Mechanic, reduces damage taken from long range physical attacks by 30%.
+Class:^6666CC Card^000000
+Compound on:^00CC33 Armor^000000
+Weight:^009900 1^000000
+#
+27013#
+Increases ^008800Vulcan Arm^000000 damage by 10%.
+If compounded weapon refined to +10: Increases ^008800Vulcan Arm^000000 damage by 20%.
+When combined with Kick Step Card, Nullify Mado Gear's Fuel consumption.
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
+#
+27014#
+MaxHP +2%
+Adds a chance of restoring HP by 1000 every second for 5 second when wearer attacked by physical or magical attacks.
+Class:^6666CC Card^000000
+Compound on:^6666CC Shoes^000000
+Weight:^009900 1^000000
+#
+27015#
+Increases HP and SP regeneration by 25%.
+Gains HP by 30 and SP by 3 each time a monster is killed.
+When compounded headgear is refined to +7: Increases restoration gained of HP by 10 and SP by 1.
+Class:^6666CC Card^000000
+Compound on:^6600FF Headgear^000000
+Weight:^009900 1^000000
+#
+27016#
+Increases Crit by 30 when attacking Formless monsters.
+When combined with Repair Robot Turbo Card: Increases critical damage by 10%.
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
+#
+27017#
+Reduces physical and magical damage taken from Formless monsters by 10%.
+If compounded garment refined to +7: Increses damage reduction by 5%.
+Adds a chance a defeated monster will drop various Accessories.
+Class:^6666CC Card^000000
+Compound on:^008C99 Garment^000000
+Weight:^009900 1^000000
+#
+27018#
+Reduces delay after attack by 1%.
+When base level is 90 or higher: Reduces delay after attack by 1%.
+When base level is 120 or higher: Reduces delay after attack by 1%.
+Class:^6666CC Card^000000
+Compound on:^CC0099 Accessory^000000
+Weight:^009900 1^000000
+#
+27019#
+HIT +1. 
+When base level is 90 or higher: HIT +1. 
+When base level is 120 or higher: HIT +1. 
+When combined with GC109 Card: Adds a chance of increasing ASPD by 5 for 5 seconds when dealing physical attacks.
+Class:^6666CC Card^000000
+Compound on:^CC0099 Accessory^000000
+Weight:^009900 1^000000
+#
+27020#
+ATK + 10%.
+Adds a chance of reducing enemy's SP by 40% in 15x15 cells around wearer when dealing melee physical attacks 
+Every 3 refine level, the trigger rate increased.
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
 #
 28000#
 This katar, made to counteract the Devil Sword Thanatos, is sculpted out of Gray Shard.
@@ -111040,7 +111420,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Guillotine Cross^000000
 #
 28007#
-Katar with red light radiance blade.
+Katar that emitting red aura.
 ATK increased by (Refine*Refine), up to +15 refine.
 Level 70 or higher: Per 10 BaseLevel, ATK +5.
 Class:^6666CC Katar^000000
@@ -111166,7 +111546,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Swordman and Merchant^000000
 #
 28106#
-Two-handed axe with red light radiance.
+Two-handed axe that emitting red aura.
 ATK increased by (Refine*Refine), up to +15 refine.
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
 ^663399Indestructible^000000
@@ -111267,7 +111647,7 @@ ASPD + 2, MHP/MSP + 10%
 순수 LUK 10당 CRI + 3 증가.
 (최대 순수 LUK 100까지 적용)
 계열 : ^777777라이플^000000 공격 : ^777777200^000000
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777100^000000
 장착 : ^777777건너 계열^000000
@@ -111292,7 +111672,7 @@ ASPD + 2, MHP/MSP + 10%
 순수 LUK 10당 CRI + 3 증가.
 (최대 순수 LUK 100까지 적용)
 계열 : ^777777게틀링건^000000 공격 : ^777777180^000000
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777100^000000
 장착 : ^777777건너 계열^000000
@@ -111316,7 +111696,7 @@ ASPD + 2, MHP/MSP + 10%
 순수 LUK 10당 CRI + 3 증가.
 (최대 순수 LUK 100까지 적용)
 계열 : ^777777그레네이드런처^000000 공격 : ^777777350^000000
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777100^000000
 장착 : ^777777건너 계열^000000
@@ -111341,7 +111721,7 @@ ASPD + 2, MHP/MSP + 10%
 순수 LUK 10당 CRI + 3 증가.
 (최대 순수 LUK 100까지 적용)
 계열 : ^777777샷건^000000 공격 : ^777777180^000000
-무게 : ^7777770^000000
+Weight:^009900 0^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777100^000000
 장착 : ^777777건너 계열^000000
@@ -111355,7 +111735,7 @@ ASPD + 2, MHP/MSP + 10%
 9제련 시, 
 [안티 매터리얼 블래스트] 스킬 쿨타임 1초 감소.
 계열 : ^777777라이플^000000 공격 : ^777777200^000000
-무게 : ^777777200^000000
+Weight:^009900 200^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777120^000000
 장착 : ^777777건너 계열^000000
@@ -111369,7 +111749,7 @@ ASPD + 2, MHP/MSP + 10%
 7제련 시, [섀터 스톰] 데미지 15% 증가.
 9제련 시, [배니싱 버스터] 데미지 15% 증가.
 계열 : ^777777샷건^000000 공격 : ^777777300^000000
-무게 : ^777777130^000000
+Weight:^009900 130^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777120^000000
 장착 : ^777777건너 계열^000000
@@ -111381,7 +111761,7 @@ ASPD + 2, MHP/MSP + 10%
 7제련 시, [파이어 레인] 데미지 30% 증가.
 9제련 시, [파이어 레인] 스킬 쿨타임 1초 감소. 
 계열 : ^777777게틀링건^000000 공격 : ^777777200^000000
-무게 : ^777777250^000000
+Weight:^009900 250^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777120^000000
 장착 : ^777777건너 계열^000000
@@ -111392,7 +111772,7 @@ ASPD + 2, MHP/MSP + 10%
 7제련 시, [드래곤 테일]의 데미지 15% 증가.
 9제련 시, [하울링 마인] 스킬 쿨타임 1초 감소.
 계열 : ^777777그레네이드런처^000000 공격 : ^777777350^000000
-무게 : ^777777180^000000
+Weight:^009900 180^000000
 무기 레벨 : ^7777773^000000
 요구 레벨 : ^777777120^000000
 장착 : ^777777건너 계열^000000
@@ -111488,7 +111868,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 28326#
-It seems that was broken in half by excessive agitation.
+It seems to have been broken in half during the uproar.
 STR +4.
 +[^008800Broken Chips 02^000000]
 STR +8, INT +8.
@@ -111499,7 +111879,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC All classes^000000
 #
 28327#
-It seems that was broken in half by excessive agitation.
+It seems to have been broken in half during the uproar.
 INT +4.
 +[^008800Broken Chips 01^000000]
 STR +8, INT +8.
@@ -111994,7 +112374,7 @@ Jobs:^6666CC All classes^000000
 All State +1, 몬스터에게 얻는 경험치 +5%.
 '선풍기 개조 키트' 적용 가능.
 계열 : ^777777악세사리^000000 방어 : ^7777770^000000
-무게 : ^77777710^000000
+Weight:^009900 10^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -112005,7 +112385,7 @@ All State +1, 몬스터에게 얻는 경험치 +5%.
 All State +1, 몬스터에게 얻는 경험치 +5%.
 '선풍기 개조 키트' 적용 불가능.
 계열 : ^777777악세사리^000000 방어 : ^7777770^000000
-무게 : ^77777710^000000
+Weight:^009900 10^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전 직업^000000
 #
@@ -112025,7 +112405,7 @@ Level Requirement:^009900 100^000000
 Jobs:^6666CC Archbishop^000000
 #
 28604#
-Book with red cover.
+Book that emitting red aura.
 ATK increased by (Refine*Refine), up to +15 refine.
 MATK increased by (Refine*Refine)/2, up to +15 refine.
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
@@ -112060,6 +112440,21 @@ Weapon Level:^009900 3^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC Priest, Sage and Star Gladiator^000000
 #
+28607#
+A metallic book made of Oridecon created for experienced adventurers.
+Can be enchanted by ^FFFFFF<NAVI>^4D4DFF[Jumping Enchant Specialist]^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.
+MATK +40.
+Healing skills +10%, Psychic Wave damage +10%.
+Every 1 refine level: ATK +7, MATK +5.
+Every 10 base level: ATK +7, MATK +3 (Applies up to base level 150).
+Equipped by Sorcerer: MATK +10.
+Class:^6666CC Book^000000
+Attack:^CC0000 70^000000
+Weight:^009900 0^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC Archbishop and Sorcerer^000000
+#
 28703#
 This weapon contains a strange energy.
 I feel that one of its benefits were sealed with a high cost.
@@ -112087,7 +112482,7 @@ Level Requirement:^009900 70^000000
 Jobs:^6666CC Assassin Cross^000000
 #
 28705#
-Dagger with red light radiance blade.
+Dagger that emitting red aura.
 ATK increased by (Refine*Refine), up to +15 refine.
 MATK increased by (Refine*Refine)/2, up to +15 refine.
 Level 70 or higher:Per 10 BaseLevel,ATK +5.
@@ -112819,6 +113214,24 @@ Pink Glow Effect
 29211#
 2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.
 #
+29224#
+화이트바디 이펙트
+#
+29225#
+워터필드 이펙트
+#
+29226#
+진홍의 파동 이펙트
+#
+29227#
+힐 1Lv 사용가능.
+#
+29228#
+스틸 1Lv 사용가능.
+#
+29229#
+텔레포트 1Lv 사용가능.
+#
 31016#
 MaxHP +1000
 MaxSP +150
@@ -113088,6 +113501,209 @@ Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
+31058#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31059#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31060#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31061#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31062#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31063#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31064#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31065#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31066#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31067#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31068#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31069#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31070#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31071#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31072#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31073#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31074#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31075#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31076#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31077#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31078#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31079#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31080#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31081#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31082#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31083#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31084#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31085#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31086#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
 31087#
 A replica of Dwarf's beard.
 Class:^6666CC Costume^000000
@@ -113117,4 +113733,33 @@ Location:^6666CC Upper^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
+#
+31093#
+Class:^6666CC Costume^000000
+Location:^6666CC Lower^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31105#
+^000088Rental item^000000
+A very rare limited celebration hat.
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+32000#
+A spear imbued with the power of god of water, Varuna.
+-------------------------
+Refine level +7: Increases physical damage inflicted against Demon, Neutral and Fire element monsters by 10%.
+Refine level +9: Increases physical damage inflicted against Demon, Neutral and Fire element monsters by 15%.
+-------------------------
+Class:^6666CC One-Handed Spear^000000
+Attack:^CC0000 140^000000
+Weight:^009900 200^000000
+Weapon Level:^009900 3^000000
+Level Requirement:^009900 50^000000
+Jobs:^6666CC Swordman^000000
 #
