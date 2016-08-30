@@ -156,7 +156,7 @@ You got %s (%d).#
 [F10]: To toggle Chat Window size; [Alt] + [F10]: Toggle Chat Window On or Off#
 How to Whisper: Enter a Character's Name on the left side of chat window and type your message on the right side. The Tab key helps you move between these boxes.#
 /!,/?,/ho,/lv,/lv2,/swt,/ic,/an,/ag,/$,/….,/thx,/wah,/sry,/heh,/swt2,/hmm,/no1,/??,/omg,/oh,/X,/hp,/go,/sob,/gg,/kis,/kis2,/pif,/ok: Emotion icons corresponding to Alt + (1~9) Ctrl + (-=\\)#
-How to Speak to Party: Add % in front of every message.(Example: \%Hello\)#
+How to Speak to Party: Add '%' in front of every message.(Example: \%Hello\)#
 You haven't learned enough Basic Skills to Trade.#
 You haven't learned enough Basic Skills to use Emotion icons.#
 You haven't learned enough Basic Skills to Sit.#
@@ -1123,7 +1123,7 @@ Soul Linker (Male)#
 Soul Linker (Female)#
 Please check the connection, more than 2 accounts are connected with Internet Cafe Time Plan.#
 Your account is using monthly payment. (Remaining day: %d day)#
-Your account is using time limited. (Remaining time: %d hour % minute % second)#
+Your account is using time limited. (Remaining time: %d hour %d minute %d second)#
 This item cannot be mailed.#
 You cannot accept any more items. Please try again later.#
 Male#
@@ -1412,7 +1412,7 @@ Verification failed#
 This skill can't be used alone#
 This skill can be used to certain direction only#
 Cannot summon spheres anymore.#
-There is no summoned sphere.#
+There is no summoned sphere or you do not have enough sphere.#
 There is no imitation skills available.#
 You can't reuse this skill#
 Skill can't be used in this state#
@@ -1606,11 +1606,11 @@ Someone#
  [%s] deal '%d' damage on you.#
  [%s] received damage from [%s] with '%d' damage.#
  [%s] received '%d' damage.#
- [%s] deal damage to [%s] with '%d' damage.#
+ [%s] attacked [%s] with '%d' damage.#
 You dropped %s (%d).#
 [%s] Quest - defeated [%s] progress (%d/%d)#
 [%s] Quest was deleted.#
-[%s] battle logs: #
+[%s]'s battle log: #
 %d Base Experience#
 %d Job Experience#
  gained.#
@@ -1861,7 +1861,7 @@ You cannot summon a monster in this area.#
 Exceeded total free cash#
 %d seconds left until you can use#
 Content has been saved in [SaveData_ExMacro%d]#
-~ [Windows] must be equipped with.#
+Must be equipped with [Spear].#
 Available only on the dragon.#
 Unable to proceed due to exceeding capacity.#
 Real name has not been verified. Go to name verification site.#
@@ -1991,7 +1991,7 @@ The same file exists already.#
 Record Start#
  is Saved.#
 Weight: %3d / %3d#
-Total: %s C#
+Total: %s Coin#
 [Shuriken] must be equipped.#
 Base Lv. %d#
 Job Lv. %d#
@@ -2242,13 +2242,13 @@ How to Use Navigation#
 ------------------- Instruction --------------------#
 1) /Navigation or /navi#
 ex) /navi prontera 100 100 -> /navi 'MAPNAME', 100, 100#
+Basic command is focussed on searching Zeny, Flight Machine.#
 2) /Navigation2 or /navi2 #
 ex) /navi2 prontera 100 111#
 -> MAPNAME location (100 90), Scroll | Zeny | Plane (1: Enable or 0: Disable)#
--> /navi2 goes with the case with location coordinates. They must be no less than 3 characters #
-3) /$$ Output all the items (Can take a while...) #
-4) /$$ Lv30 monsters are placed in the output #
-5) /$$ Lv20~30 monsters in that level range are placed in the output #
+3) $$all Output all the items (Can take a while...) #
+4) $$lv30 monsters are placed in the output #
+5) $$lv20~30 monsters in that level range are placed in the output #
 -------------------  Description  --------------------#
 1) One can search for monsters, npcs, maps, or all at once#
 2) You can press the search button to get results. It will out put the results depending on what rule you choose#
@@ -2336,7 +2336,7 @@ This is PK region. Minors,Please leave immediately.#
 Fatigue#
 Health and gaming revenue is 100%.#
 Fatigue because it is now a guest of the gaming revenue is down 50 percent.Hope for the proper health#
-Now because it is a non-health to the health of the guests want to offline games.  If you still are online gaming revenue because the damage to the health of the game falls to 0% again after 5 hours will be restored offline.#
+Now because it is a non-health to the health of the guests want to offline games. If you still are online gaming revenue because the damage to the health of the game falls to 0%% again after 5 hours will be restored offline.#
 Online since %d minutes#
 Online Time: %d#
 Online since %d hours and %d minutes#
@@ -2447,9 +2447,9 @@ Kafra#
 (Arrival)#
 Mob)%s:%s(%s)#
 Distribution:%s#
-Very Plenty#
-Plenty#
-Normal#
+Very High#
+High#
+Average#
 Low#
 Very Low#
 The bank is not available. Please try again in a few minutes.#
@@ -2457,20 +2457,20 @@ Bank balance is low.#
 You don't have enough zeny#
 Minimum Deposit Amount: 1 zeny#
 Minimum Withdrawal Amount: 1 zeny#
-You cannot hold more than 2,147,483,647 billion#
-your account is lock by mobil otp#
+You cannot hold more than 2,147,483,647 Zeny#
+your account is lock by mobile otp#
 MOTP auth fail#
-For %d minutes,Job Experience obtained from monster is increased by %d%%#
+For %d minutes, Job experience obtained from monster is increased by %d%%.#
 Current Zeny: %s Zeny#
 Zeny#
-The Maximum amount is 2,147,483,647Billion zeny#
+The Maximum amount is 2,147,483,647 Zeny#
 Insufficient bullet#
 You entered more than 1 Billion Zeny, the price will be set to 1 Billion Zeny.#
 AuthTicket is Not Valid#
 ErrorCategory : %d, ErrorCode : %d (%d,%d,%d,%d)#
 %d%% ( Basic 100%% + Premium %d%% + Internet cafe %d%% + %s Server %d%% )#
- %d Minutes to get through the monsters of the basic item drop rates increased to% d%%.#
-%d%.2d minutes when monsters of basic items that can be obtained through the drop rates increased to% d%%.#
+For %d minutes, item drop rate from defeating monster is increased by %d%%.#
+For %d %.2d minutes, item drop rate from defeating monster is increased by %d%%.#
 The price of^0000FF %s^000000#
 100000000#
  is over ^FF0000%d00^0000FF million^000000 zeny and#
@@ -2479,7 +2479,7 @@ The price of^0000FF %s^000000#
 . Is it correct?#
 Safe check for over 10 mil zeny#
 https://www.warpportal.com/account/login.aspx?ReturnUrl=%2faccount%2fpayment.aspx#
-https://kepler.warpportal.com/steam/purchase/?step=1&steamid=76561198071003044&game=rose&accountname=khanhtest111&lang=en#
+https://kepler.warpportal.com/ro1/purchase/?step=1&steamid=%lld&accountname=#
 A giant crevice appeared in Bifrost, the bridge between Splendide, the end of the world and the floating continent of Alfheim, and you do not know the source of the labyrinth forest.#
 This is a marker indicating the end of the trip, a new world is opening indicators! Guardian, such as the lyrics to the temptation was gradually losing the soul.#
 For thousands of years, a mysterious melody has mesmerized the guardian. After a millennia of slumber, the guardian became confused about what he had been protecting all these years, and began to suspect that he might be the one who has been sealed and hidden away.#

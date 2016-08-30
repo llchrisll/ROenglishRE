@@ -38,7 +38,7 @@ BGM Off#
 /effect: Effects On or Off#
 /where: Shows your present location#
 /skip: Turns Frame Skip On or Off#
-/v (0~127): Controls the volume of the Sound Effects #
+/v (0~127): Controls the volume of the Sound Effects#
 /bv (0~127): Controls the volume of the BGM#
 /ex (Character Name): Blocks whispering from the Character#
 /ex: View a list of Characters you have Blocked#
@@ -96,7 +96,7 @@ Please select a Deal Type.#
 Invalid Command#
 Leave party#
 Expel from party#
-Send Messages#
+Send Message#
 1:1 Chat#
 Information#
 Party Setup#
@@ -1606,11 +1606,11 @@ Someone#
  [%s] deal '%d' damage on you.#
  [%s] received damage from [%s] with '%d' damage.#
  [%s] received '%d' damage.#
- [%s] deal damage to [%s] with '%d' damage.#
+ [%s] attacked [%s] with '%d' damage.#
 You dropped %s (%d).#
 [%s] Quest - defeated [%s] progress (%d/%d)#
 [%s] Quest was deleted.#
-[%s] battle logs: #
+[%s]'s battle log: #
 %d Base Experience#
 %d Job Experience#
  gained.#
@@ -1813,7 +1813,7 @@ The map is not available.#
 The selected name or prefix/suffix does not exist.#
 You can purchase up to 10 items.#
 Some items could not be purchased.#
-Enter your 6-digit DOB(YYMMDD) (e.g: 801122)#
+Enter your birthday (e.g: 20101126)#
 Now Logging Out.#
 A database error has occurred.#
 Please leave your guild first in order to remove your character.#
@@ -1861,7 +1861,7 @@ You cannot summon a monster in this area.#
 Exceeded total free cash#
 Content has been saved in [SaveData_ExMacro%d]#
 %d seconds left until you can use#
-Must be equipped with [spear].#
+Must be equipped with [Spear].#
 Available only on the dragon.#
 Unable to proceed due to exceeding capacity.#
 Real name has not been verified. Go to name verification site.#
@@ -1916,7 +1916,7 @@ BUFF#
 AUTO EQUIPED#
 1st. ATTACK#
 ATTACK#
-Next attack time : #
+Next attack time: #
 When died#
 When invited to a party#
 Pickup Item#
@@ -1954,17 +1954,17 @@ This skill is available only to the player.#
 Forbidden to wear the state cannot be worn.#
 Current location of the shop and chat room creation is disabled.#
 Elapsed time: %d:%d:%d / %d:%d:%d#
-Speed : X 1/4 #
-Speed : X 1/2 #
-Speed : X 1   #
-Speed : X 2   #
-Speed : X 4   #
-Speed : X 8   #
-Speed : X 16  #
-Speed : Unknown#
-Service Info : %s#
-Character Name : %s#
-Map Name : %s#
+Speed: X 1/4#
+Speed: X 1/2#
+Speed: X 1  #
+Speed: X 2  #
+Speed: X 4  #
+Speed: X 8  #
+Speed: X 16 #
+Speed: Unknown#
+Service Info: %s#
+Character Name: %s#
+Map Name: %s#
 Record Time: %d-%01d-%01d %d: %02d: %02d#
 Play Time: %02d: %02d: %02d#
 No Replay File.#
@@ -2242,10 +2242,10 @@ How to Use Navigation#
 ------------------- Instruction --------------------#
 1) /Navigation or /navi#
 ex) /navi prontera 100 100 -> /navi 'MAPNAME', 100, 100#
+Basic command is focussed on searching Zeny, Flight Machine.#
 2) /Navigation2 or /navi2 #
 ex) /navi2 prontera 100 111#
 -> MAPNAME location (100 90), Scroll | Zeny | Plane (1: Enable or 0: Disable)#
--> /navi2 goes with the case with location coordinates. They must be no less than 3 characters #
 3) $$all Output all the items (Can take a while...) #
 4) $$lv30 monsters are placed in the output #
 5) $$lv20~30 monsters in that level range are placed in the output #
@@ -2453,14 +2453,14 @@ Average#
 Low#
 Very Low#
 The bank is not available. Please try again in a few minutes.#
-Bank Balance is not enough.#
+Bank balance is low.#
 You don't have enough zeny#
 Minimum Deposit Amount: 1 zeny#
 Minimum Withdrawal Amount: 1 zeny#
 You cannot hold more than 2,147,483,647 Zeny#
 your account is lock by mobile otp#
 MOTP auth fail#
-JOB EXP from Monsters will increase %d%% for %dmins.#
+For %d minutes, Job experience obtained from monster is increased by %d%%.#
 Current Zeny: %s Zeny#
 Zeny#
 The Maximum amount is 2,147,483,647 Zeny#
@@ -2469,8 +2469,8 @@ You entered more than 1 Billion Zeny, the price will be set to 1 Billion Zeny.#
 AuthTicket is Not Valid#
 ErrorCategory : %d, ErrorCode : %d (%d,%d,%d,%d)#
 %d%% ( Basic 100%% + Premium %d%% + Internet cafe %d%% + %s Server %d%% )#
-Basic item drop rate from monster hunting is increased for %dmins by %dtimes.#
-Basic item drop rate from monster hunting is increased for %dhour %.2dmins  by %dtimes.#
+For %d minutes, item drop rate from defeating monster is increased by %d%%.#
+For %d minutes %.2d, item drop rate from defeating monster is increased by %d%%.#
 The price of^0000FF %s^000000#
 100000000#
  is over ^FF0000%d00^0000FF million^000000 zeny and#
