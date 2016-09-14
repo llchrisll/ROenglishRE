@@ -1404,7 +1404,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"보다 효율적인 전투방법이 기록된 설명서 한정판!",
 			"시키는 대로 하면 왠지 빨리 성장할 것 같다.",
-			"^00008860분간 획득하는 경험치가 60% 증가한다.^000000",
+			"^00008860분간 Experience gained가 60% 증가한다.^000000",
 			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
@@ -1706,7 +1706,7 @@ tbl = {
 			"계열 : ^777777권총^000000 공격 : ^777777120^000000",
 			"Weight:^009900 0^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777100^000000",
+			"Level Requirement:^009900 100^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 1,
@@ -1720,14 +1720,14 @@ tbl = {
 		identifiedResourceName = "다크로즈",
 		identifiedDescriptionName = {
 			"검은 장미로 장식된 리볼버.",
-			"공격속도 증가(공격 후 딜레이 10% 감소).",
+			"Reduces delay after attack by 10% 감소).",
 			"7제련 시, 원거리 물리 공격력 15% 증가.",
 			"9제련 시, ASPD + 1",
 			"",
 			"계열 : ^777777권총^000000 공격 : ^777777150^000000",
 			"Weight:^009900 180^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777120^000000",
+			"Level Requirement:^009900 120^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 2,
@@ -3175,7 +3175,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동Variable cast time 2% 단축.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 0^000000",
 			"Location:^6666CC 하단 ^000000 Weight:^009900 0^000000",
@@ -3223,7 +3223,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동Variable cast time 2% 단축.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 0^000000",
 			"Location:^6666CC 하단 ^000000 Weight:^009900 0^000000",
@@ -3343,7 +3343,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동Variable cast time 2% 단축.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 0^000000",
 			"Location:^6666CC 하단 ^000000 Weight:^009900 0^000000",
@@ -3391,7 +3391,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동Variable cast time 2% 단축.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 0^000000",
 			"Location:^6666CC 하단 ^000000 Weight:^009900 0^000000",
@@ -3439,7 +3439,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동Variable cast time 2% 단축.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 0^000000",
 			"Location:^6666CC 하단 ^000000 Weight:^009900 0^000000",
@@ -4517,7 +4517,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"전투교범 책이 들어있는 박스. 1권의 책이 들어있다.",
 			"^ffffff_^000000",
-			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
+			"전투교범 책 - 30분간 Experience gained가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight:^009900 1^000000"
@@ -4534,7 +4534,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"전투교범 책이 들어있는 박스. 10권의 책이 들어있다.",
 			"^ffffff_^000000",
-			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
+			"전투교범 책 - 30분간 Experience gained가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight:^009900 1^000000"
@@ -5870,7 +5870,7 @@ tbl = {
 			"성스러운 힘이 담겨 있는 도끼. 의례에 많이 사용되곤 한다.",
 			"성속성",
 			"STR +10, 3레벨의 힐 사용가능",
-			"악마족 몬스터에게 3%의 추가 데미지, 이동속도 증가",
+			"악마족 몬스터에게 3%의 추가 데미지, Increases movement speed",
 			"골드PC Cafe에서 장착 시 ATK +10, MATK +10.",
 			"Class:^6666CC 도끼^000000",
 			"Attack:^D80000 229^000000",
@@ -6013,8 +6013,8 @@ tbl = {
 			"페코페코의 Wing를 형상화 한 페코페코 머리띠가 1개 들어있는 상자. 개봉 후, 2주간 사용가능.",
 			"^000088임대 아이템^000000",
 			"마치 페코페코의 Wing가 몸에 달린 듯 한 느낌이 드는 투구. 페코페코처럼 빨리 이동할 수 있게 해 준다.",
-			"이동속도 증가.",
-			"공격속도 증가(공격 후딜레이 5% 감소). 변동 캐스팅 시간이 5% 감소.",
+			"Increases movement speed.",
+			"공격속도 증가(공격 후딜레이 5% 감소). 변동 Variable cast time이 5% 감소.",
 			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 6^000000",
@@ -6278,7 +6278,7 @@ tbl = {
 			"^000088임대아이템^000000",
 			"3가지 마법의 정수가 담긴 보석 반지.",
 			"힐과 텔레포테이션 1레벨 사용 가능. 캐스팅이 끊어지지 않는다.",
-			"ALL STATUS +1. 변동 캐스팅 시간이 10% 증가한다.",
+			"ALL STATUS +1. 변동 Variable cast time이 10% 증가한다.",
 			"골드PC Cafe에서 장착 시 All Stats +1.",
 			"Class:^6666CC Accessory^000000",
 			"Defense:^0000FF 0^000000",
@@ -7032,7 +7032,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동Variable cast time 2% 단축, All Stats +1.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 0^000000",
 			"Location:^6666CC Lower^000000",
@@ -7056,7 +7056,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동Variable cast time 2% 단축, All Stats +1.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 0^000000",
 			"Location:^6666CC Lower^000000",
@@ -7080,7 +7080,7 @@ tbl = {
 			"^000088임대 아이템^000000",
 			"무지개 색을 띈 화려한 스카프.",
 			"MATK +30, MaxSP -2%.",
-			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동캐스팅 시간 2% 단축, All Stats +1.",
+			"골드 PC Cafe에서 사용 시, 추가로 MaxSP +2%, 변동Variable cast time 2% 단축, All Stats +1.",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 0^000000",
 			"Location:^6666CC Lower^000000",
@@ -8073,7 +8073,7 @@ tbl = {
 			"황도 2번째 자리인 금우궁을 나타내는 왕관. 탄생석인 에메랄드가 박혀있다.",
 			"AGI +2, FLEE +10.",
 			"물리공격 시 적에게 낮은 확률로 스턴을 건다. 제련도에 따라 스턴을 걸 확률이 증가한다.",
-			"7제련 이상 일 경우 ATK +15, 공격속도 증가(공격 후 딜레이 5% 감소)",
+			"7제련 이상 일 경우 ATK +15, Reduces delay after attack by 5% 감소)",
 			"Class:^6666CC Headgear^000000",
 			"Defense:^0000FF 6^000000",
 			"Location:^6666CC Upper^000000",
@@ -8691,7 +8691,7 @@ tbl = {
 			"레드 부스터가 20개 들어있는 상자.",
 			"",
 			"체내 에너지를 활성화 하여, 전투를 보조해주는 레드 부스터. 체력에 다소 부담이 가니 주의 하자.",
-			"10분간 ATK, MATK +30, 공격속도 증가(공격 후 딜레이감소 5%), 변동 캐스팅 5% 감소, MaxHP, MaxSP -10%.",
+			"10분간 ATK, MATK +30, Reduces delay after attack by감소 5%), 변동 캐스팅 5% 감소, MaxHP, MaxSP -10%.",
 			"물리, 마법 공격 시 일정확률로 집중력향상 3Lv 발동.(배운레벨이 3Lv보다 높을 시 배운레벨로 발동)",
 			"",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
@@ -8711,7 +8711,7 @@ tbl = {
 			"레드 부스터 20개와 2011 RWC 스크롤 1개가 들어있는 상자.",
 			"",
 			"체내 에너지를 활성화 하여, 전투를 보조해주는 레드 부스터. 체력에 다소 부담이 가니 주의 하자.",
-			"10분간 ATK, MATK +30, 공격속도 증가(공격 후 딜레이감소 5%), 변동 캐스팅 5% 감소, MaxHP, MaxSP -10%.",
+			"10분간 ATK, MATK +30, Reduces delay after attack by감소 5%), 변동 캐스팅 5% 감소, MaxHP, MaxSP -10%.",
 			"물리, 마법 공격 시 일정확률로 집중력향상 3Lv 발동.",
 			"",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
@@ -8825,7 +8825,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"전투교범 책이 들어있는 박스. 10권의 책이 들어있다. 상자 뚜껑에 비매품 3권을 더 붙여 놓은 특별 패키지이다.",
 			"^ffffff_^000000",
-			"전투교범 책 - 30분간 획득하는 경험치가 50% 증가한다.",
+			"전투교범 책 - 30분간 Experience gained가 50% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight:^009900 1^000000"
@@ -9002,7 +9002,7 @@ tbl = {
 			"순수 STR 20 당 ATK +1,",
 			"순수 INT 20 당 MATK +1,",
 			"순수 VIT 20 당 무속성 공격에 대한 내성 1%,",
-			"순수 AGI 20 당 공격속도 증가(공격 후딜레이 1% 감소),",
+			"순수 AGI 20 당 공격속도 증가(공격 후딜레이 1%,",
 			"순수 DEX 20 당 원거리 공격력 1% 증가,",
 			"순수 LUK 20 당 크리티컬 데미지 1% 증가.",
 			"Class:^6666CC Garment^000000",
@@ -9151,7 +9151,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"전투교범 한정판이 3권 들어있는 상자.",
 			"의문의 알II 도 얻을 수 있다.",
-			"전투교범 한정판 - 60분간 획득하는 경험치가 60% 증가한다.",
+			"전투교범 한정판 - 60분간 Experience gained가 60% 증가한다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000"
 		},
 		slotCount = 0,
@@ -9303,7 +9303,7 @@ tbl = {
 			"전투교범 한정판이 10권 들어있는 상자.",
 			"패키지로 무한 공속 포션(집중, 각성, 버서크) 3일상자, 무한 파리의 Wing 3일상자가 1개씩 들어있다.",
 			"^ffffff_^000000",
-			"전투교범 한정판 - 60분간 획득하는 경험치가 60% 증가한다.",
+			"전투교범 한정판 - 60분간 Experience gained가 60% 증가한다.",
 			"^ffffff_^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight:^009900 1^000000"
@@ -9716,7 +9716,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"전투교범 한정판 3권과 JOB전투교범 한정판 2권이 들어있는 상자. ",
 			"",
-			"전투교범 한정판 - ^00008860분간 획득하는 경험치가 60% 증가한다.^000000",
+			"전투교범 한정판 - ^00008860분간 Experience gained가 60% 증가한다.^000000",
 			"JOB 전투교범 한정판 - ^00008860분간 획득하는 잡 경험치가 35% 증가한다.^000000",
 			"",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -11259,7 +11259,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"보다 효율적인 전투방법이 기록된 설명서와 쫄깃하고 달콤한 풍선껌의 세트.",
 			"왠지 빨리 성장할 것 같은 기분과, 만나는 몬스터들이 가진 것을 모두 내놓을 것 같은 기분을 동시에 느낄 수 있다.",
-			"^00008830분간 획득하는 경험치가 50% 증가한다.^000000",
+			"^00008830분간 Experience gained가 50% 증가한다.^000000",
 			"^00008830분간 몬스터가 아이템을 드롭할 확률이 100% 증가한다.^000000",
 			"Weight:^009900 0^000000"
 		},
@@ -12686,7 +12686,7 @@ tbl = {
 			"강화된 시간의 수호자 망토",
 			"강화된 시간의 수호자 부츠",
 			"――――――――――――― ",
-			"요구 레벨 : ^777777100^000000",
+			"Level Requirement:^009900 100^000000",
 			"Weight:^009900 0^000000"
 		},
 		slotCount = 0,
@@ -12988,7 +12988,7 @@ tbl = {
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777쉴드^000000 ",
 			"Weight:^009900 0^000000",
-			"요구 레벨 : ^7777771^000000",
+			"Level Requirement:^009900 1^000000",
 			"장착 : ^777777닌자 계열^000000"
 		},
 		slotCount = 0,
@@ -13017,7 +13017,7 @@ tbl = {
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777쉴드^000000 ",
 			"Weight:^009900 0^000000",
-			"요구 레벨 : ^7777771^000000",
+			"Level Requirement:^009900 1^000000",
 			"장착 : ^777777태권 계열^000000"
 		},
 		slotCount = 0,
@@ -13045,7 +13045,7 @@ tbl = {
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777쉴드^000000 ",
 			"Weight:^009900 0^000000",
-			"요구 레벨 : ^7777771^000000",
+			"Level Requirement:^009900 1^000000",
 			"장착 : ^777777도람족^000000"
 		},
 		slotCount = 0,
@@ -13073,7 +13073,7 @@ tbl = {
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777쉴드^000000 ",
 			"Weight:^009900 0^000000",
-			"요구 레벨 : ^7777771^000000",
+			"Level Requirement:^009900 1^000000",
 			"장착 : ^777777도람족^000000"
 		},
 		slotCount = 0,
@@ -13090,7 +13090,7 @@ tbl = {
 			"Can be equipped alone but needs a complete set to have bonus effect.",
 			"――――――――――――― ",
 			"MaxHP + 1000, MaxSP + 200",
-			"[더블어택] 스킬 레벨 1당 공격속도 증가(공격 후 딜레이 2% 감소).",
+			"[더블어택] 스킬 레벨 1당 Reduces delay after attack by 2% 감소).",
 			"[올빼미의눈] 스킬 레벨 1당 변동 캐스팅 2% 감소.",
 			"제련도 1당 공격 후 딜레이, 변동 캐스팅  1% 감소.",
 			"7제련 시, ATK, MATK + 2%.",
@@ -13102,7 +13102,7 @@ tbl = {
 			"계열 : ^777777쉐도우 장비^000000",
 			"위치 : ^777777쉴드^000000 ",
 			"Weight:^009900 0^000000",
-			"요구 레벨 : ^7777771^000000",
+			"Level Requirement:^009900 1^000000",
 			"장착 : ^777777노비스 계열^000000"
 		},
 		slotCount = 0,
@@ -14537,7 +14537,7 @@ tbl = {
 			"계열 : ^777777라이플^000000 공격 : ^777777200^000000",
 			"Weight:^009900 0^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777100^000000",
+			"Level Requirement:^009900 100^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 1,
@@ -14571,7 +14571,7 @@ tbl = {
 			"계열 : ^777777게틀링건^000000 공격 : ^777777180^000000",
 			"Weight:^009900 0^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777100^000000",
+			"Level Requirement:^009900 100^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 1,
@@ -14604,7 +14604,7 @@ tbl = {
 			"계열 : ^777777그레네이드런처^000000 공격 : ^777777350^000000",
 			"Weight:^009900 0^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777100^000000",
+			"Level Requirement:^009900 100^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 1,
@@ -14638,7 +14638,7 @@ tbl = {
 			"계열 : ^777777샷건^000000 공격 : ^777777180^000000",
 			"Weight:^009900 0^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777100^000000",
+			"Level Requirement:^009900 100^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 1,
@@ -14661,7 +14661,7 @@ tbl = {
 			"계열 : ^777777라이플^000000 공격 : ^777777200^000000",
 			"Weight:^009900 200^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777120^000000",
+			"Level Requirement:^009900 120^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 2,
@@ -14684,7 +14684,7 @@ tbl = {
 			"계열 : ^777777샷건^000000 공격 : ^777777300^000000",
 			"Weight:^009900 130^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777120^000000",
+			"Level Requirement:^009900 120^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 2,
@@ -14705,7 +14705,7 @@ tbl = {
 			"계열 : ^777777게틀링건^000000 공격 : ^777777200^000000",
 			"Weight:^009900 250^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777120^000000",
+			"Level Requirement:^009900 120^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 2,
@@ -14725,392 +14725,11 @@ tbl = {
 			"계열 : ^777777그레네이드런처^000000 공격 : ^777777350^000000",
 			"Weight:^009900 180^000000",
 			"무기 레벨 : ^7777773^000000",
-			"요구 레벨 : ^777777120^000000",
+			"Level Requirement:^009900 120^000000",
 			"장착 : ^777777건너 계열^000000"
 		},
 		slotCount = 2,
 		ClassNum = 21
-	},
-	[28443] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "Paradise Group Ring of Power I",
-		identifiedResourceName = "낙원단반지",
-		identifiedDescriptionName = {
-			"A ring given to loyal member of paradise group.",
-			"ATK +2%.",
-			"When combined with Paradise Group Necklace of Power I and Awakening Paradise Group Boots I:",
-			"Reduces delay after attack by 4%, HIT +4,",
-			"When combined with Paradise Group Necklace of Power I and Awakening Paradise Group Uniform I:",
-			"ATK +20, Increases resistance against all element attacks, except Neutral, by 2%.",
-			"Class:^6666CC Accessory^000000",
-			"Defense:^0000FF 0^000000",
-			"Weight:^009900 10^000000",
-			"Level Requirement:^009900 100^000000",
-			"Jobs:^6666CC All classes^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28444] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 목걸이Ⅰ",
-		identifiedResourceName = "낙원단목걸이",
-		identifiedDescriptionName = {
-			"낙원단에서 성실한 모험가들을 위해 준비한 힘의 목걸이.",
-			"STR +1.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777100^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28445] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 반지Ⅱ",
-		identifiedResourceName = "낙원단반지",
-		identifiedDescriptionName = {
-			"낙원단에서 능숙한 모험가들을 위해 준비한 힘의 반지. ",
-			"ATK +3%.",
-			"힘의 낙원단 목걸이Ⅱ, 각성 낙원단 부츠Ⅱ 와 함께 착용 시,",
-			"공격속도 증가(공격 후 딜레이 8% 감소), HIT +8.",
-			"힘의 낙원단 목걸이Ⅱ, 각성 낙원단 제복Ⅱ 과 함께 착용 시,",
-			"ATK +40, 무속성을 제외한 모든 속성 공격에 대한 내성 +4%.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777115^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28446] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 목걸이Ⅱ",
-		identifiedResourceName = "낙원단목걸이",
-		identifiedDescriptionName = {
-			"낙원단에서 능숙한 모험가들을 위해 준비한 힘의 목걸이. ",
-			"STR +2.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777115^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28447] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 반지Ⅲ",
-		identifiedResourceName = "낙원단반지",
-		identifiedDescriptionName = {
-			"낙원단에서 훈련된 모험가들을 위해 준비한 힘의 반지. ",
-			"ATK +4%.",
-			"힘의 낙원단 목걸이Ⅲ, 각성 낙원단 부츠Ⅲ 와 함께 착용 시,",
-			"공격속도 증가(공격 후 딜레이 8% 감소), HIT +8, 획득하는 경험치 +2%.",
-			"힘의 낙원단 목걸이Ⅲ, 각성 낙원단 제복Ⅲ 과 함께 착용 시,",
-			"ATK +40, 무속성을 제외한 모든 속성 공격에 대한 내성 +4%, 획득하는 경험치 +2%.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777130^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28448] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 목걸이Ⅲ",
-		identifiedResourceName = "낙원단목걸이",
-		identifiedDescriptionName = {
-			"낙원단에서 훈련된 모험가들을 위해 준비한 힘의 목걸이.",
-			"STR +3.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777130^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28449] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 반지Ⅳ",
-		identifiedResourceName = "낙원단반지",
-		identifiedDescriptionName = {
-			"낙원단에서 베테랑 모험가들을 위해 준비한 힘의 반지. ",
-			"ATK +5%.",
-			"힘의 낙원단 목걸이Ⅳ, 각성 낙원단 부츠Ⅳ 와 함께 착용 시,",
-			"공격속도 증가(공격 후 딜레이 10% 감소), HIT +10, 획득하는 경험치 +2%.",
-			"힘의 낙원단 목걸이Ⅳ, 각성 낙원단 제복Ⅳ 과 함께 착용 시,",
-			"ATK +50, 무속성을 제외한 모든 속성 공격에 대한 내성 +5%, 획득하는 경험치 +2%.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777145^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28450] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 목걸이Ⅳ",
-		identifiedResourceName = "낙원단목걸이",
-		identifiedDescriptionName = {
-			"낙원단에서 베테랑 모험가들을 위해 준비한 힘의 목걸이. ",
-			"STR +4.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777145^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28451] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 반지Ⅴ",
-		identifiedResourceName = "낙원단반지2",
-		identifiedDescriptionName = {
-			"낙원단에서 완벽한 모험가들을 위해 준비한 힘의 반지. ",
-			"ATK +5%, 힐 1Lv 사용 가능.",
-			"힘의 낙원단 목걸이Ⅴ, 각성 낙원단 부츠Ⅴ 와 함께 착용 시,",
-			"공격속도 증가(공격 후 딜레이 10% 감소), HIT +10, 획득하는 경험치 +2%, 이동속도 증가.",
-			"힘의 낙원단 목걸이Ⅴ, 각성 낙원단 제복Ⅴ 과 함께 착용 시,",
-			"ATK +50, 무속성을 제외한 모든 속성 공격에 대한 내성 +5%, 획득하는 경험치 +2%, 캐스팅이 끊기지 않는다.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777160^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28452] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "힘의 낙원단 목걸이Ⅴ",
-		identifiedResourceName = "낙원단목걸이2",
-		identifiedDescriptionName = {
-			"낙원단에서 완벽한 모험가들을 위해 준비한 힘의 목걸이. ",
-			"STR +4. 텔레포테이션 1Lv 사용 가능.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777160^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28453] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 반지Ⅰ",
-		identifiedResourceName = "낙원단반지",
-		identifiedDescriptionName = {
-			"낙원단에서 성실한 모험가들을 위해 준비한 마법의 반지.",
-			"MATK +2%.",
-			"마법의 낙원단 목걸이Ⅰ, 각성 낙원단 부츠Ⅰ 와 함께 착용 시,",
-			"캐스팅 시간 -3%, 스킬 딜레이 -3%.",
-			"마법의 낙원단 목걸이Ⅰ, 각성 낙원단 제복Ⅰ 과 함께 착용 시,",
-			"MATK +20, 무속성을 제외한 모든 속성 공격에 대한 내성 +2%.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777100^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28454] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 목걸이Ⅰ",
-		identifiedResourceName = "낙원단목걸이",
-		identifiedDescriptionName = {
-			"낙원단에서 성실한 모험가들을 위해 준비한 마법의 목걸이.",
-			"INT +1.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777100^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28455] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 반지Ⅱ",
-		identifiedResourceName = "낙원단반지",
-		identifiedDescriptionName = {
-			"낙원단에서 능숙한 모험가들을 위해 준비한 마법의 반지. ",
-			"MATK +3%.",
-			"마법의 낙원단 목걸이Ⅱ, 각성 낙원단 부츠Ⅱ 와 함께 착용 시,",
-			"캐스팅 시간 -6%, 스킬 딜레이 -6%.",
-			"마법의 낙원단 목걸이Ⅱ, 각성 낙원단 제복Ⅱ 과 함께 착용 시,",
-			"MATK +40, 무속성을 제외한 모든 속성 공격에 대한 내성 +4%.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777115^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28456] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 목걸이Ⅱ",
-		identifiedResourceName = "낙원단목걸이",
-		identifiedDescriptionName = {
-			"낙원단에서 능숙한 모험가들을 위해 준비한 마법의 목걸이. ",
-			"INT +2.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777115^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28457] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 반지Ⅲ",
-		identifiedResourceName = "낙원단반지",
-		identifiedDescriptionName = {
-			"낙원단에서 훈련된 모험가들을 위해 준비한 마법의 반지. ",
-			"MATK +4%.",
-			"마법의 낙원단 목걸이Ⅲ, 각성 낙원단 부츠Ⅲ 와 함께 착용 시,",
-			"캐스팅 시간 -6%, 스킬 딜레이 -6%, 획득하는 경험치 +2%.",
-			"마법의 낙원단 목걸이Ⅲ, 각성 낙원단 제복Ⅲ 과 함께 착용 시,",
-			"MATK +40, 무속성을 제외한 모든 속성 공격에 대한 내성 +4%, 획득하는 경험치 +2%.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777130^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28458] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 목걸이Ⅲ",
-		identifiedResourceName = "낙원단목걸이",
-		identifiedDescriptionName = {
-			"낙원단에서 훈련된 모험가들을 위해 준비한 마법의 목걸이. ",
-			"INT +3.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777130^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28459] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 반지Ⅳ",
-		identifiedResourceName = "낙원단반지",
-		identifiedDescriptionName = {
-			"낙원단에서 베테랑 모험가들을 위해 준비한 마법의 반지. ",
-			"MATK +5%.",
-			"마법의 낙원단 목걸이Ⅳ, 각성 낙원단 부츠Ⅳ 와 함께 착용 시,",
-			"캐스팅 시간 -8%, 스킬 딜레이 -8%, 획득하는 경험치 +2%.",
-			"마법의 낙원단 목걸이Ⅳ, 각성 낙원단 제복Ⅳ 과 함께 착용 시,",
-			"MATK +50, 무속성을 제외한 모든 속성 공격에 대한 내성 +5%, 획득하는 경험치 +2%.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777145^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28460] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 목걸이Ⅳ",
-		identifiedResourceName = "낙원단목걸이",
-		identifiedDescriptionName = {
-			"낙원단에서 베테랑 모험가들을 위해 준비한 마법의 목걸이. ",
-			"INT +4.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777145^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28461] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 반지Ⅴ",
-		identifiedResourceName = "낙원단반지2",
-		identifiedDescriptionName = {
-			"낙원단에서 완벽한 모험가들을 위해 준비한 마법의 반지. ",
-			"MATK +5%, 힐 1Lv 사용 가능.",
-			"마법의 낙원단 목걸이Ⅴ, 각성 낙원단 부츠Ⅴ 와 함께 착용 시,",
-			"캐스팅 시간 -8%, 스킬 딜레이 -8%, 획득하는 경험치 +2%, 이동속도 증가.",
-			"마법의 낙원단 목걸이Ⅴ, 각성 낙원단 제복Ⅴ 과 함께 착용 시,",
-			"MATK +50, 무속성을 제외한 모든 속성 공격에 대한 내성 +5%, 획득하는 경험치 +2%, 캐스팅이 끊기지 않는다.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777160^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[28462] = {
-		unidentifiedDisplayName = "Accessory",
-		unidentifiedResourceName = "링",
-		unidentifiedDescriptionName = { "Unknown Item, can be identified by using a ^6666CCMagnifier^000000." },
-		identifiedDisplayName = "마법의 낙원단 목걸이Ⅴ",
-		identifiedResourceName = "낙원단목걸이2",
-		identifiedDescriptionName = {
-			"낙원단에서 완벽한 모험가들을 위해 준비한 마법의 목걸이. ",
-			"INT +4, 텔레포테이션 1Lv 사용 가능.",
-			"계열 : ^777777악세사리^000000 방어 : ^7777770^000000",
-			"무게 : ^7777770^000000",
-			"요구 레벨 : ^777777160^000000",
-			"장착 : ^777777전 직업^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
 	},
 }
 
