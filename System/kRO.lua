@@ -483,23 +483,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[9100] = {
-		unidentifiedDisplayName = "Gremlin Egg",
-		unidentifiedResourceName = "암속성알",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Gremlin Egg",
-		identifiedResourceName = "암속성알",
-		identifiedDescriptionName = {
-			"An egg in which a Gremlin Cute Pet rests.",
-			"Can be hatched by using a ^6666CCPet Incubator^000000.",
-			"When intimacy is Cordial: DEX +1, HIT +1.",
-			"When intimacy is Loyal: DEX +2, HIT +1.",
-			"^FFFFFF_^000000",
-			"Class:^6666CC Monster Egg^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[11538] = {
 		unidentifiedDisplayName = "Fresh Octopus Legs",
 		unidentifiedResourceName = "문어다리",
