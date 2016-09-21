@@ -483,102 +483,19 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[9095] = {
-		unidentifiedDisplayName = "구미호의 알",
-		unidentifiedResourceName = "화속성알",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "구미호의 알",
-		identifiedResourceName = "화속성알",
-		identifiedDescriptionName = {
-			"큐펫 구미호가 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다",
-			"친밀도가 친함일 경우 CRI + 2, HIT + 2.",
-			"친밀도가 절친일 경우 CRI + 3, HIT + 3.",
-			"종류 : ^777777몬스터 알^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[9096] = {
-		unidentifiedDisplayName = "캣 오 나인테일의 알",
-		unidentifiedResourceName = "화속성알",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "캣 오 나인테일의 알",
-		identifiedResourceName = "화속성알",
-		identifiedDescriptionName = {
-			"큐펫 캣 오 나인테일이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
-			"친밀도가 서먹, 또는 어색일 경우 CRI + 2, HIT + 2.",
-			"친밀도가 보통일 경우 CRI + 3, HIT + 3. ",
-			"친밀도가 친함일 경우 CRI + 4, HIT + 4.",
-			"근접 물리 공격 시, 낮은 확률로 5초간 1초당 HP 300씩 회복.",
-			"친밀도가 절친일 경우 CRI + 5, HIT + 5.",
-			"근접 물리 공격 시, 낮은 확률로 5초간 1초당 HP 400씩 회복.",
-			"종류 : ^777777몬스터 알^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[9097] = {
-		unidentifiedDisplayName = "디아볼릭의 알",
-		unidentifiedResourceName = "화속성알",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "디아볼릭의 알",
-		identifiedResourceName = "화속성알",
-		identifiedDescriptionName = {
-			"큐펫 디아볼릭이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
-			"친밀도가 서먹, 또는 어색일 경우 ATK + 1%, MATK + 1%.",
-			"친밀도가 보통일 경우 ATK + 1%, MATK + 1%, MaxHP + 1%, MaxSP + 1%. ",
-			"친밀도가 친함일 경우 ATK + 2%, MATK + 2%, MaxHP + 1%, MaxSP + 1%.",
-			"근접 물리 공격시, 일정 확률로 [파이어 볼트] 3Lv 발동.",
-			"친밀도가 절친일 경우 ATK + 2%, MATK + 2%, MaxHP + 2%, MaxSP + 2%.",
-			"근접 물리 공격시, 일정 확률로 [파이어 볼트] 3Lv 발동.",
-			"종류 : ^777777몬스터 알^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[9098] = {
-		unidentifiedDisplayName = "지상 딜리터의 알",
-		unidentifiedResourceName = "화속성알",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "지상 딜리터의 알",
-		identifiedResourceName = "화속성알",
-		identifiedDescriptionName = {
-			"큐펫 지상 딜리터가 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
-			"친밀도가 서먹, 또는 어색일 경우 공격속도 증가(공격 후 딜레이 1% 감소).",
-			"친밀도가 보통일 경우 공격속도 증가(공격 후 딜레이 1% 감소), AGI + 1.",
-			"친밀도가 친함일 경우 공격속도 증가(공격 후 딜레이 2% 감소), AGI + 2.",
-			"친밀도가 절친일 경우 공격속도 증가(공격 후 딜레이 3% 감소), AGI + 3.",
-			"종류 : ^777777몬스터 알^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[9099] = {
-		unidentifiedDisplayName = "곰인형의 알",
-		unidentifiedResourceName = "무속성알",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "곰인형의 알",
-		identifiedResourceName = "무속성알",
-		identifiedDescriptionName = {
-			"큐펫 곰인형이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다",
-			"친밀도가 친함일 경우 MSP + 50.",
-			"친밀도가 절친일 경우 MSP + 100.",
-			"종류 : ^777777몬스터 알^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[9100] = {
-		unidentifiedDisplayName = "그렘린의 알",
+		unidentifiedDisplayName = "Gremlin Egg",
 		unidentifiedResourceName = "암속성알",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "그렘린의 알",
+		identifiedDisplayName = "Gremlin Egg",
 		identifiedResourceName = "암속성알",
 		identifiedDescriptionName = {
-			"큐펫 그렘린이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다",
-			"친밀도가 친함일 경우 DEX + 1, HIT + 1.",
-			"친밀도가 절친일 경우 DEX + 2, HIT + 1.",
-			"종류 : ^777777몬스터 알^000000"
+			"An egg in which a Gremlin Cute Pet rests.",
+			"Can be hatched by using a ^6666CCPet Incubator^000000.",
+			"When intimacy is Cordial: DEX +1, HIT +1.",
+			"When intimacy is Loyal: DEX +2, HIT +1.",
+			"^FFFFFF_^000000",
+			"Class:^6666CC Monster Egg^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12868,55 +12785,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[23187] = {
-		unidentifiedDisplayName = "수액 젤리",
-		unidentifiedResourceName = "수액젤리",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "수액 젤리",
-		identifiedResourceName = "수액젤리",
-		identifiedDescriptionName = {
-			"고목에서 흘러나운 수액이 젤리 상태로 굳은 것.",
-			"안에는 붉은 빛 무언가가 들어있다.",
-			"몬스터 구미호가 매우 좋아한다.",
-			"^ff0000이벤트 몬스터, 슬레이브 몬스터는 테이밍되지 않습니다.^000000 ",
-			"종류 : ^777777테이밍 아이템^000000 ",
-			"무게 : ^7777770^000000 "
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23188] = {
-		unidentifiedDisplayName = "비공정 부품",
-		unidentifiedResourceName = "비공정부품",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "비공정 부품",
-		identifiedResourceName = "비공정부품",
-		identifiedDescriptionName = {
-			"습격으로 비공정에서 떨어진 부품.",
-			"몬스터 그렘린이 매우 좋아한다.",
-			"^ff0000이벤트 몬스터, 슬레이브 몬스터는 테이밍되지 않습니다.^000000 ",
-			"종류 : ^777777테이밍 아이템^000000 ",
-			"무게 : ^7777770^000000 "
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23189] = {
-		unidentifiedDisplayName = "작은 인형바늘",
-		unidentifiedResourceName = "작은인형바늘",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "작은 인형바늘",
-		identifiedResourceName = "작은인형바늘",
-		identifiedDescriptionName = {
-			"작은 인형을 만들거나 수선할 때 사용되는 바늘. ",
-			"몬스터 곰인형이 매우 좋아한다.",
-			"^ff0000이벤트 몬스터, 슬레이브 몬스터는 테이밍되지 않습니다.^000000 ",
-			"종류 : ^777777테이밍 아이템^000000 ",
-			"무게 : ^7777770^000000 "
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[25014] = {
 		unidentifiedDisplayName = "마방스톤(Lower)",
 		unidentifiedResourceName = "영혼의조각",
@@ -13816,36 +13684,6 @@ tbl = {
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight:^009900 10^000000"
 		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25231] = {
-		unidentifiedDisplayName = "수상한 병",
-		unidentifiedResourceName = "수상한병",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "수상한 병",
-		identifiedResourceName = "수상한병",
-		identifiedDescriptionName = { "수상한 붉은 빛 물체가 들어있는 병.", "이 병만 보면 구미호의 눈빛이 번뜩인다.", "무게 : ^7777771^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25232] = {
-		unidentifiedDisplayName = "값싼 윤활유",
-		unidentifiedResourceName = "값싼윤활유",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "값싼 윤활유",
-		identifiedResourceName = "값싼윤활유",
-		identifiedDescriptionName = { "색이 이상하게 변질된 싸구려 윤활유.", "그렘린이 윤활유 냄새를 맡으면 군침을 흘린다. ", "무게 : ^7777771^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25233] = {
-		unidentifiedDisplayName = "솜뭉치",
-		unidentifiedResourceName = "솜뭉치",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "솜뭉치",
-		identifiedResourceName = "솜뭉치",
-		identifiedDescriptionName = { "봉제 인형들의 필수품.", "곰인형이라고 예외는 아니다.", "무게 : ^7777771^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
