@@ -432,22 +432,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[6999] = {
-		unidentifiedDisplayName = "HPAbsorptionStone(Upper)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "HPAbsorptionStone(Upper)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"HP를 흡수 할 수 있는 스톤. ",
-			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
-			"1% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[7640] = {
 		unidentifiedDisplayName = "Butterfly Hair Decoration",
 		unidentifiedResourceName = "비녀",
@@ -495,6 +479,142 @@ tbl = {
 			"미처 발송되지 못한듯 봉인도 되어있지 않은 깨끗한 편지.",
 			"\"백만번째의 인형의 제작에 들어갔는데 이번 인형이 마지막이라고 생각하니 견딜수가 없어져서 일하는 내내 인형에게 말을 걸고 있다네. 하하 늙은이가 주책이지. 자넨 친구니까 이런 내 심정을 이해해 주려나\"",
 			"Weight:^009900 0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[9093] = {
+		unidentifiedDisplayName = "혜군의 알",
+		unidentifiedResourceName = "암속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "혜군의 알",
+		identifiedResourceName = "암속성알",
+		identifiedDescriptionName = {
+			"큐펫 혜군이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
+			"친밀도가 서먹, 또는 어색일 경우 VIT +1, 스턴 내성 1% 증가.",
+			"친밀도가 보통일 경우 VIT +2, 스턴 내성 2% 증가. ",
+			"친밀도가 친함일 경우 VIT +3, 스턴 내성 3% 증가.",
+			"낮은 확률로 적에게 준 물리 데미지의 1%를 자신의 SP로 흡수한다.",
+			"친밀도가 절친일 경우 VIT +4, 스턴 내성 4% 증가.",
+			"낮은 확률로 적에게 준 물리 데미지의 1%를 자신의 SP로 흡수한다.",
+			"종류 : ^777777몬스터 알^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[9094] = {
+		unidentifiedDisplayName = "리프 루나틱의 알",
+		unidentifiedResourceName = "무속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "리프 루나틱의 알",
+		identifiedResourceName = "무속성알",
+		identifiedDescriptionName = {
+			"큐펫 리프 루나틱이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
+			"친밀도가 서먹, 또는 어색일 경우 CRI + 2, ATK + 2.",
+			"친밀도가 보통일 경우 CRI + 3, ATK + 3.",
+			"친밀도가 친함일 경우 CRI + 4, ATK + 4, 무형 몬스터에게 주는 물리/마법 데미지 3% 증가.",
+			"친밀도가 절친일 경우 CRI + 5, ATK + 5, 무형 몬스터에게 주는 물리/마법 데미지 6% 증가.",
+			"종류 : ^777777몬스터 알^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[9095] = {
+		unidentifiedDisplayName = "구미호의 알",
+		unidentifiedResourceName = "화속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "구미호의 알",
+		identifiedResourceName = "화속성알",
+		identifiedDescriptionName = {
+			"큐펫 구미호가 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다",
+			"친밀도가 친함일 경우 CRI + 2, HIT + 2.",
+			"친밀도가 절친일 경우 CRI + 3, HIT + 3.",
+			"종류 : ^777777몬스터 알^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[9096] = {
+		unidentifiedDisplayName = "캣 오 나인테일의 알",
+		unidentifiedResourceName = "화속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "캣 오 나인테일의 알",
+		identifiedResourceName = "화속성알",
+		identifiedDescriptionName = {
+			"큐펫 캣 오 나인테일이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
+			"친밀도가 서먹, 또는 어색일 경우 CRI + 2, HIT + 2.",
+			"친밀도가 보통일 경우 CRI + 3, HIT + 3. ",
+			"친밀도가 친함일 경우 CRI + 4, HIT + 4.",
+			"근접 물리 공격 시, 낮은 확률로 5초간 1초당 HP 300씩 회복.",
+			"친밀도가 절친일 경우 CRI + 5, HIT + 5.",
+			"근접 물리 공격 시, 낮은 확률로 5초간 1초당 HP 400씩 회복.",
+			"종류 : ^777777몬스터 알^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[9097] = {
+		unidentifiedDisplayName = "디아볼릭의 알",
+		unidentifiedResourceName = "화속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "디아볼릭의 알",
+		identifiedResourceName = "화속성알",
+		identifiedDescriptionName = {
+			"큐펫 디아볼릭이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
+			"친밀도가 서먹, 또는 어색일 경우 ATK + 1%, MATK + 1%.",
+			"친밀도가 보통일 경우 ATK + 1%, MATK + 1%, MaxHP + 1%, MaxSP + 1%. ",
+			"친밀도가 친함일 경우 ATK + 2%, MATK + 2%, MaxHP + 1%, MaxSP + 1%.",
+			"근접 물리 공격시, 일정 확률로 [파이어 볼트] 3Lv 발동.",
+			"친밀도가 절친일 경우 ATK + 2%, MATK + 2%, MaxHP + 2%, MaxSP + 2%.",
+			"근접 물리 공격시, 일정 확률로 [파이어 볼트] 3Lv 발동.",
+			"종류 : ^777777몬스터 알^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[9098] = {
+		unidentifiedDisplayName = "지상 딜리터의 알",
+		unidentifiedResourceName = "화속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "지상 딜리터의 알",
+		identifiedResourceName = "화속성알",
+		identifiedDescriptionName = {
+			"큐펫 지상 딜리터가 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
+			"친밀도가 서먹, 또는 어색일 경우 공격속도 증가(공격 후 딜레이 1% 감소).",
+			"친밀도가 보통일 경우 공격속도 증가(공격 후 딜레이 1% 감소), AGI + 1.",
+			"친밀도가 친함일 경우 공격속도 증가(공격 후 딜레이 2% 감소), AGI + 2.",
+			"친밀도가 절친일 경우 공격속도 증가(공격 후 딜레이 3% 감소), AGI + 3.",
+			"종류 : ^777777몬스터 알^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[9099] = {
+		unidentifiedDisplayName = "곰인형의 알",
+		unidentifiedResourceName = "무속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "곰인형의 알",
+		identifiedResourceName = "무속성알",
+		identifiedDescriptionName = {
+			"큐펫 곰인형이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다",
+			"친밀도가 친함일 경우 MSP + 50.",
+			"친밀도가 절친일 경우 MSP + 100.",
+			"종류 : ^777777몬스터 알^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[9100] = {
+		unidentifiedDisplayName = "그렘린의 알",
+		unidentifiedResourceName = "암속성알",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "그렘린의 알",
+		identifiedResourceName = "암속성알",
+		identifiedDescriptionName = {
+			"큐펫 그렘린이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다",
+			"친밀도가 친함일 경우 DEX + 1, HIT + 1.",
+			"친밀도가 절친일 경우 DEX + 2, HIT + 1.",
+			"종류 : ^777777몬스터 알^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -777,101 +897,6 @@ tbl = {
 			"로컬라이징 마을이 기록되어 있는 스크롤. 사용하면 그 마을로 바로 이동할 수 있는 듯 하다.",
 			"\"아요타야\", \"아마쯔\", \"용지성\", \"쿤룬\", \"모스코비아\", \"데와타\", \"브라질리스\"",
 			"경고 - 사용 후, 1분 동안 아무 것도 선택하지 않으면, 효과가 발동하지 않습니다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12529] = {
-		unidentifiedDisplayName = "Condensed White Potion Box",
-		unidentifiedResourceName = "초록상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Condensed White Potion Box",
-		identifiedResourceName = "초록상자",
-		identifiedDescriptionName = {
-			"화이트 슬림 포션이 압축되어 들어있는 상자. 개봉 시 주의.",
-			"^ff0000경고! 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12536] = {
-		unidentifiedDisplayName = "New Year's Rice Cake",
-		unidentifiedResourceName = "떡국",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "New Year's Rice Cake",
-		identifiedResourceName = "떡국",
-		identifiedDescriptionName = {
-			"잘 구운 문어를 총총 썰어 넣어 만든 영양 만점 떡국!",
-			"문어의 구수한 냄새가 일품이다! ",
-			"뜨거우니 후후 불어서 먹자.",
-			"HP, SP 20% 회복",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12539] = {
-		unidentifiedDisplayName = "Brilliant Box",
-		unidentifiedResourceName = "화려한상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Brilliant Box",
-		identifiedResourceName = "화려한상자",
-		identifiedDescriptionName = {
-			"화려한 수공이 되어있는 금속 재질의 상자.",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12540] = {
-		unidentifiedDisplayName = "GM Warp Box",
-		unidentifiedResourceName = "초록상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "GM Warp Box",
-		identifiedResourceName = "초록상자",
-		identifiedDescriptionName = {
-			"이동 편의를 위한 스크롤이 준비되어 있다. 무엇이 나올 지는 알 수 없다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12541] = {
-		unidentifiedDisplayName = "Fortune Cookie",
-		unidentifiedResourceName = "포춘쿠키",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Fortune Cookie",
-		identifiedResourceName = "포춘쿠키",
-		identifiedDescriptionName = {
-			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12542] = {
-		unidentifiedDisplayName = "Fortune Cookie",
-		unidentifiedResourceName = "포춘쿠키",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Fortune Cookie",
-		identifiedResourceName = "포춘쿠키",
-		identifiedDescriptionName = {
-			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12543] = {
-		unidentifiedDisplayName = "Fortune Cookie",
-		unidentifiedResourceName = "포춘쿠키",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Fortune Cookie",
-		identifiedResourceName = "포춘쿠키",
-		identifiedDescriptionName = {
-			"설탕과 버터를 듬뿍 넣어 만든 포춘쿠키. 안에 메세지가 적힌 종이가 들어있으니 한입에 털어 넣진 말자.",
 			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
@@ -2420,20 +2445,6 @@ tbl = {
 		identifiedDescriptionName = {
 			"여러가지 의상 장비들이 들어있는 상자.",
 			"어떤 의상 장비를 얻게 될지 알 수 없다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[14629] = {
-		unidentifiedDisplayName = "의상 인챈트 스톤 상자",
-		unidentifiedResourceName = "오래된파란상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "의상 인챈트 스톤 상자",
-		identifiedResourceName = "오래된파란상자",
-		identifiedDescriptionName = {
-			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자.",
-			"힘의스톤(상단), 지능스톤(상단), 민첩스톤(상단), 재주스톤(상단), 건강스톤(상단), 운의스톤(상단), 공격스톤(중단), 마공스톤(중단), 명중스톤(하단), 회피스톤(하단) 중 1개를 얻을 수 있다.",
 			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
@@ -10683,61 +10694,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[22826] = {
-		unidentifiedDisplayName = "의상 인챈트 스톤 상자4",
-		unidentifiedResourceName = "초록상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "의상 인챈트 스톤 상자4",
-		identifiedResourceName = "초록상자",
-		identifiedDescriptionName = {
-			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자.",
-			"ASPD스톤(걸칠것)이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22827] = {
-		unidentifiedDisplayName = "쉐도우 큐브",
-		unidentifiedResourceName = "쉐도우큐브",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "쉐도우 큐브",
-		identifiedResourceName = "쉐도우큐브",
-		identifiedDescriptionName = {
-			"다양한 종류의 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22828] = {
-		unidentifiedDisplayName = "봉인된인장 스크롤",
-		unidentifiedResourceName = "지혜스크롤",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "봉인된인장 스크롤",
-		identifiedResourceName = "지혜스크롤",
-		identifiedDescriptionName = {
-			"기간 한정 봉인된인장 스크롤. ",
-			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 익스퍼트 슈즈 쉐도우, 익스퍼트 쉴드 쉐도우, 무한 파리의 Wing 5일상자, 인챈트 소개장 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22829] = {
-		unidentifiedDisplayName = "봉인된인장 카드",
-		unidentifiedResourceName = "은색인장카드",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "봉인된인장 카드",
-		identifiedResourceName = "은색인장카드",
-		identifiedDescriptionName = {
-			"은으로 장식된 카드. 봉인된 카드 시리즈 중 하나를 얻을 수 있다.",
-			"- 다크로드, 폭풍의 기사, 베르제브브, 키엘-D-01, 그룸언더나이트, 타락한대신관, 이프리트, 터틀제네럴, 백소진, 파라오, 월야화, 보스이그니젬, 베스퍼, 드라큐라, 스나이퍼",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[22861] = {
 		unidentifiedDisplayName = "December gift box",
 		unidentifiedResourceName = "진주보물상자",
@@ -10779,10 +10735,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[22902] = {
-		unidentifiedDisplayName = "봉인된인장 스크롤Ⅱ",
+		unidentifiedDisplayName = "Sealed Seal Scroll II",
 		unidentifiedResourceName = "지혜스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "봉인된인장 스크롤Ⅱ",
+		identifiedDisplayName = "Sealed Seal Scroll II",
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
@@ -10793,316 +10749,16 @@ tbl = {
 		ClassNum = 0
 	},
 	[22906] = {
-		unidentifiedDisplayName = "봉인된인장 스크롤Ⅲ",
+		unidentifiedDisplayName = "Sealed Seal Scroll III",
 		unidentifiedResourceName = "지혜스크롤",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "봉인된인장 스크롤Ⅲ",
+		identifiedDisplayName = "Sealed Seal Scroll III",
 		identifiedResourceName = "지혜스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 봉인된인장 스크롤. ",
 			"봉인된인장 카드, 무기 9제련 보장권, 방어구 9제련 보장권, 신년 쉐도우 큐브, 무한 파리의 Wing 5일상자 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight:^009900 1^000000"
 		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22909] = {
-		unidentifiedDisplayName = "무기 5제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 5제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 5제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22910] = {
-		unidentifiedDisplayName = "무기 6제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 6제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 6제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22911] = {
-		unidentifiedDisplayName = "무기 7제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 7제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 7제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22912] = {
-		unidentifiedDisplayName = "무기 8제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 8제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 8제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22913] = {
-		unidentifiedDisplayName = "무기 9제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 9제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 9제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22915] = {
-		unidentifiedDisplayName = "무기 11제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 11제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 11제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22916] = {
-		unidentifiedDisplayName = "무기 12제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 12제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 12제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22917] = {
-		unidentifiedDisplayName = "무기 13제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 13제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 13제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22918] = {
-		unidentifiedDisplayName = "무기 14제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 14제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 14제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22919] = {
-		unidentifiedDisplayName = "무기 15제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 15제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 15제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22920] = {
-		unidentifiedDisplayName = "무기 16제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 16제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 16제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22921] = {
-		unidentifiedDisplayName = "무기 17제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 17제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 17제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22922] = {
-		unidentifiedDisplayName = "무기 18제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 18제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 18제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22923] = {
-		unidentifiedDisplayName = "무기 19제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 19제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 19제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22924] = {
-		unidentifiedDisplayName = "방어구 5제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 5제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 5제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22925] = {
-		unidentifiedDisplayName = "방어구 6제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 6제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 6제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22926] = {
-		unidentifiedDisplayName = "방어구 7제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 7제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 7제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22927] = {
-		unidentifiedDisplayName = "방어구 8제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 8제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 8제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22928] = {
-		unidentifiedDisplayName = "방어구 9제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 9제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 9제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22930] = {
-		unidentifiedDisplayName = "방어구 11제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 11제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 11제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22931] = {
-		unidentifiedDisplayName = "방어구 12제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 12제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 12제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22932] = {
-		unidentifiedDisplayName = "방어구 13제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 13제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 13제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22933] = {
-		unidentifiedDisplayName = "방어구 14제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 14제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 14제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22934] = {
-		unidentifiedDisplayName = "방어구 15제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 15제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 15제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22935] = {
-		unidentifiedDisplayName = "방어구 16제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 16제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 16제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22936] = {
-		unidentifiedDisplayName = "방어구 17제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 17제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 17제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22937] = {
-		unidentifiedDisplayName = "방어구 18제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 18제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 18제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22938] = {
-		unidentifiedDisplayName = "방어구 19제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 19제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 19제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22943] = {
-		unidentifiedDisplayName = "방어구 10제련 상품권",
-		unidentifiedResourceName = "방어구제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어구 10제련 상품권",
-		identifiedResourceName = "방어구제련권",
-		identifiedDescriptionName = { "방어구 10제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22944] = {
-		unidentifiedDisplayName = "무기 10제련 상품권",
-		unidentifiedResourceName = "무기제련권",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "무기 10제련 상품권",
-		identifiedResourceName = "무기제련권",
-		identifiedDescriptionName = { "무기 10제련 보장권 1장이 들어 있는 봉투.", "Weight:^009900 1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11117,20 +10773,6 @@ tbl = {
 			"5분 동안 소형, 중형, 대형 적으로부터 받는 데미지 5% 감소.",
 			"봄 이벤트 기간(2016년3월 30일 ~ 2016년4월 27일) 이후, 해당 아이템은 삭제 됩니다.",
 			"Weight:^009900 3^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22953] = {
-		unidentifiedDisplayName = "의상 인챈트 스톤 상자7",
-		unidentifiedResourceName = "초록상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "의상 인챈트 스톤 상자7",
-		identifiedResourceName = "초록상자",
-		identifiedDescriptionName = {
-			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"HP흡수스톤(상단), SP회복스톤(상단), STR변환스톤(Middle), AGI변환스톤(Lower)등이 새롭게 추가되었으며, 기존의 의상 인챈트 스톤도 포함되어 있다. ",
-			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -11168,19 +10810,6 @@ tbl = {
 			"빨간 마칭햇",
 			"――――――――――――― ",
 			"Weight: 20"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22973] = {
-		unidentifiedDisplayName = "쉐도우 큐브(웨폰)",
-		unidentifiedResourceName = "화려한상자",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "쉐도우 큐브(웨폰)",
-		identifiedResourceName = "화려한상자",
-		identifiedDescriptionName = {
-			"다양한 종류의 웨폰 쉐도우 아이템 중 하나를 얻을 수 있는 상자.",
-			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13201,10 +12830,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23174] = {
-		unidentifiedDisplayName = "의상 인챈트 스톤 상자11",
+		unidentifiedDisplayName = "Costume Enchantment Stone Box11",
 		unidentifiedResourceName = "초록상자",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "의상 인챈트 스톤 상자11",
+		identifiedDisplayName = "Costume Enchantment Stone Box11",
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
@@ -13275,238 +12904,51 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[25000] = {
-		unidentifiedDisplayName = "SP흡수스톤(상단)",
-		unidentifiedResourceName = "영혼의조각",
+	[23187] = {
+		unidentifiedDisplayName = "수액 젤리",
+		unidentifiedResourceName = "수액젤리",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "SP흡수스톤(상단)",
-		identifiedResourceName = "영혼의조각",
+		identifiedDisplayName = "수액 젤리",
+		identifiedResourceName = "수액젤리",
 		identifiedDescriptionName = {
-			"SP를 흡수 할 수 있는 스톤.",
-			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
-			"1% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
+			"고목에서 흘러나운 수액이 젤리 상태로 굳은 것.",
+			"안에는 붉은 빛 무언가가 들어있다.",
+			"몬스터 구미호가 매우 좋아한다.",
+			"^ff0000이벤트 몬스터, 슬레이브 몬스터는 테이밍되지 않습니다.^000000 ",
+			"종류 : ^777777테이밍 아이템^000000 ",
+			"무게 : ^7777770^000000 "
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[25001] = {
-		unidentifiedDisplayName = "방어스톤(Middle)",
-		unidentifiedResourceName = "영혼의조각",
+	[23188] = {
+		unidentifiedDisplayName = "비공정 부품",
+		unidentifiedResourceName = "비공정부품",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "방어스톤(Middle)",
-		identifiedResourceName = "영혼의조각",
+		identifiedDisplayName = "비공정 부품",
+		identifiedResourceName = "비공정부품",
 		identifiedDescriptionName = {
-			"방어력이 높아지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"DEF +20.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
+			"습격으로 비공정에서 떨어진 부품.",
+			"몬스터 그렘린이 매우 좋아한다.",
+			"^ff0000이벤트 몬스터, 슬레이브 몬스터는 테이밍되지 않습니다.^000000 ",
+			"종류 : ^777777테이밍 아이템^000000 ",
+			"무게 : ^7777770^000000 "
 		},
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[25002] = {
-		unidentifiedDisplayName = "LUK변환스톤(Middle)",
-		unidentifiedResourceName = "영혼의조각",
+	[23189] = {
+		unidentifiedDisplayName = "작은 인형바늘",
+		unidentifiedResourceName = "작은인형바늘",
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "LUK변환스톤(Middle)",
-		identifiedResourceName = "영혼의조각",
+		identifiedDisplayName = "작은 인형바늘",
+		identifiedResourceName = "작은인형바늘",
 		identifiedDescriptionName = {
-			"운이 높아지고 대신 힘이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"LUK +3, STR -3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25003] = {
-		unidentifiedDisplayName = "STR변환스톤(Middle)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "STR변환스톤(Middle)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"힘이 높아지고 대신 지능이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"STR +3, INT -3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25004] = {
-		unidentifiedDisplayName = "AGI변환스톤(Middle)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "AGI변환스톤(Middle)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"민첩함이 높아지고 대신 운이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"AGI +3, LUK -3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25005] = {
-		unidentifiedDisplayName = "INT변환스톤(Middle)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "INT변환스톤(Middle)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"지능이 높아지고 대신 재주가 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"INT +3, DEX -3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25006] = {
-		unidentifiedDisplayName = "VIT변환스톤(Middle)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "VIT변환스톤(Middle)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"건강이 높아지고 대신 민첩함이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"VIT +3, AGI -3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25007] = {
-		unidentifiedDisplayName = "DEX변환스톤(Middle)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "DEX변환스톤(Middle)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"재주가 높아지고 대신 건강이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"DEX +3, VIT -3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25008] = {
-		unidentifiedDisplayName = "VIT변환스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "VIT변환스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"건강이 높아지고 대신 운이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"VIT +3, LUK -3.",
-			"VIT변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
-			"AGI +3, LUK +3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25009] = {
-		unidentifiedDisplayName = "AGI변환스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "AGI변환스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"민첩함이 높아지고 대신 힘이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"AGI +3, STR -3.",
-			"AGI변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
-			"LUK +3, STR +3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25010] = {
-		unidentifiedDisplayName = "DEX변환스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "DEX변환스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"재주가 높아지고 대신 민첩함이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"DEX +3, AGI -3.",
-			"DEX변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
-			"VIT +3, AGI +3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25011] = {
-		unidentifiedDisplayName = "LUK변환스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "LUK변환스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"운이 높아지고 대신 지능이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"LUK +3, INT -3.",
-			"LUK변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
-			"STR +3, INT +3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25012] = {
-		unidentifiedDisplayName = "STR변환스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "STR변환스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"힘이 높아지고 대신 재주가 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"STR +3, DEX -3.",
-			"STR변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
-			"INT +3, DEX +3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25013] = {
-		unidentifiedDisplayName = "INT변환스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "INT변환스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"지능이 높아지고 대신 건강이 떨어지는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다. ",
-			"INT +3, VIT -3.",
-			"INT변환스톤(Middle)을 추가 장착시, 아래의 능력치가 상승한다.",
-			"DEX +3, VIT +3.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
+			"작은 인형을 만들거나 수선할 때 사용되는 바늘. ",
+			"몬스터 곰인형이 매우 좋아한다.",
+			"^ff0000이벤트 몬스터, 슬레이브 몬스터는 테이밍되지 않습니다.^000000 ",
+			"종류 : ^777777테이밍 아이템^000000 ",
+			"무게 : ^7777770^000000 "
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13745,102 +13187,6 @@ tbl = {
 		identifiedDescriptionName = {
 			"미드가르드 대륙의 대도시가 공인하는 투자 전표. 가까운 대도시의 투자담당관에게 반납하면 해당 대도시의 신임을 얻을 수 있을 것이다.",
 			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25061] = {
-		unidentifiedDisplayName = "레인지스톤(Middle)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "레인지스톤(Middle)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"원거리 물리 데미지가 상승하는 스톤.",
-			"의상 중단 슬롯에 아래의 능력치를 부여한다.",
-			"원거리 물리 데미지 +3%",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25062] = {
-		unidentifiedDisplayName = "탐욕스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "탐욕스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"탐욕스러워 보이는 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"탐욕 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25063] = {
-		unidentifiedDisplayName = "체력스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "체력스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"체력이 상승하는 스톤. ",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"MAXHP +100, LV.120 이상시, MAXHP +2%.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25064] = {
-		unidentifiedDisplayName = "마력스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "마력스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"마력이 상승하는 스톤. ",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"MAXSP +50, LV.120 이상시, MAXSP +2%.",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25065] = {
-		unidentifiedDisplayName = "해독스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "해독스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"해독 능력이 있는 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"해독 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25066] = {
-		unidentifiedDisplayName = "리커버리스톤(Lower)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "리커버리스톤(Lower)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"리커버리 능력이 있는 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"리커버리 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -14506,6 +13852,36 @@ tbl = {
 			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
 			"Weight:^009900 10^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25231] = {
+		unidentifiedDisplayName = "수상한 병",
+		unidentifiedResourceName = "수상한병",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "수상한 병",
+		identifiedResourceName = "수상한병",
+		identifiedDescriptionName = { "수상한 붉은 빛 물체가 들어있는 병.", "이 병만 보면 구미호의 눈빛이 번뜩인다.", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25232] = {
+		unidentifiedDisplayName = "값싼 윤활유",
+		unidentifiedResourceName = "값싼윤활유",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "값싼 윤활유",
+		identifiedResourceName = "값싼윤활유",
+		identifiedDescriptionName = { "색이 이상하게 변질된 싸구려 윤활유.", "그렘린이 윤활유 냄새를 맡으면 군침을 흘린다. ", "무게 : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25233] = {
+		unidentifiedDisplayName = "솜뭉치",
+		unidentifiedResourceName = "솜뭉치",
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "솜뭉치",
+		identifiedResourceName = "솜뭉치",
+		identifiedDescriptionName = { "봉제 인형들의 필수품.", "곰인형이라고 예외는 아니다.", "무게 : ^7777771^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
