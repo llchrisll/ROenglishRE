@@ -483,6 +483,20 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[9101] = {
+		unidentifiedDisplayName = "스캣레톤 이동장",
+		unidentifiedResourceName = "스캣레톤이동장",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "스캣레톤 이동장",
+		identifiedResourceName = "스캣레톤이동장",
+		identifiedDescriptionName = {
+			"큐펫 스캣레톤이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
+			"이벤트 기간 동안(2016년 10월 5일 ~ 2016년 11월 2일), 맛좋은 물고기 회복량 1031% 증가.",
+			"종류 : ^777777몬스터 알^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[11538] = {
 		unidentifiedDisplayName = "Fresh Octopus Legs",
 		unidentifiedResourceName = "문어다리",
@@ -10320,6 +10334,40 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[17742] = {
+		unidentifiedDisplayName = "Defense Scroll Box",
+		unidentifiedResourceName = "졸린상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Defense Scroll Box",
+		identifiedResourceName = "졸린상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"일시적으로 방어력을 끌어올려, 생존에 도움을 주는 스크롤을 담은 상자.",
+			"소형 마나수 5개, 빛나는 방어스크롤 30개가 담겨져 있다.",
+			"방어 스크롤 상자 구매시 신상 모자 스크롤 II 1개 증정!",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17743] = {
+		unidentifiedDisplayName = "Defense Scroll Box 10pc",
+		unidentifiedResourceName = "졸린상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Defense Scroll Box 10pc",
+		identifiedResourceName = "졸린상자",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"일시적으로 방어력을 끌어올려, 생존에 도움을 주는 스크롤을 담은 상자.",
+			"소형 마나수 50개, 빛나는 방어스크롤 300개가 담겨져있다.",
+			"방어 스크롤 상자 세트 구매시 신상 모자 스크롤 II 11개 증정!",
+			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[22519] = {
 		unidentifiedDisplayName = "동작멈춤버프",
 		unidentifiedResourceName = "",
@@ -12458,6 +12506,210 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23170] = {
+		unidentifiedDisplayName = "선풍기 개조 키트",
+		unidentifiedResourceName = "수리용키트",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "선풍기 개조 키트",
+		identifiedResourceName = "수리용키트",
+		identifiedDescriptionName = {
+			"해달 미니 선풍기를 개조할 수 있는 도구들이 들어있는 키트.",
+			"1회 개조하기에 딱 맞는 재료만 들어 있다.",
+			"^ff0000해달 미니 선풍기^000000에 랜덤 옵션을 2종 부여할 수 있다.",
+			"^ff0000주의! - 랜덤 옵션 부여시, 해달 미니 선풍기의 카드 슬롯이 초기화 되며, 낮은 확률로 퍼씰 미니 선풍기로 변형됩니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23171] = {
+		unidentifiedDisplayName = "봉인된 그룸언더나이트 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "봉인된 그룸언더나이트 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"그룸언더나이트의 힘을 잠시 동안 느낄 수 있을 것 같다. ",
+			"성속성, 암속성, 천사형, 악마형 몬스터에게 주는 물리 공격력 20% 추가.",
+			"5분간 지속.",
+			"(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23172] = {
+		unidentifiedDisplayName = "봉인된 파라오 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "봉인된 파라오 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"파라오의 힘을 잠시 동안 느낄 수 있을 것 같다.",
+			"스킬 사용시 SP소모량을 15% 줄여준다. ",
+			"5분간 지속.",
+			"(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23173] = {
+		unidentifiedDisplayName = "봉인된 키엘-D-01 카드",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "봉인된 키엘-D-01 카드",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"키엘-D-01의 힘을 잠시 동안 느낄 수 있을 것 같다. ",
+			"모든 스킬의 후 딜레이가 15% 감소한다. ",
+			"5분간 지속.",
+			"(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23174] = {
+		unidentifiedDisplayName = "Costume Enchantment Stone Box11",
+		unidentifiedResourceName = "초록상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Costume Enchantment Stone Box11",
+		identifiedResourceName = "초록상자",
+		identifiedDescriptionName = {
+			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
+			"신규 이펙트가 3종 추가되었으며, 힐스톤(하단), 스틸스톤(하단), 텔레포트스톤(하단) 3종의 신규 인챈트 스톤이 포함되었다.",
+			"기존의 의상 인챈트 스톤도 포함되어 있다.",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23175] = {
+		unidentifiedDisplayName = "제복 수선 키트",
+		unidentifiedResourceName = "포링상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "제복 수선 키트",
+		identifiedResourceName = "포링상자",
+		identifiedDescriptionName = {
+			"^ff0000주의! - 제복 수선 키트 사용시, 카드 슬롯 및 제련도가 초기화 됩니다.^000000",
+			"카프라 제복을 수선하여, 추가 능력치를 부여해주는 키트.",
+			"1회 수선하기에 딱 맞는 재료만 들어 있다.",
+			"^ff0000카프라 제복^000000에 랜덤 옵션을 2종 부여할 수 있다.",
+			"",
+			"제복 수선 키트는",
+			"^ffffff<NAVI>^4D4DFF[고양이손 판매원 냐롬]^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>^000000, ",
+			"^ffffff<NAVI>^4D4DFF[고양이손 판매원 제롬]^000000<INFO>itemmall,41,52,0,100,0,0</INFO></NAVI>^000000, ",
+			"에게서 냥다래나 제니를 주고 추가로 구입할 수 있습니다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23176] = {
+		unidentifiedDisplayName = "카프라 스크롤",
+		unidentifiedResourceName = "카프라스크롤",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "카프라 스크롤",
+		identifiedResourceName = "카프라스크롤",
+		identifiedDescriptionName = {
+			"기간 한정 카프라 스크롤. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 카프라 직원의 머리띠, 카프라 상자, 직업별 쉐도우 큐브, 무한 파리의 날개 5일 상자등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23177] = {
+		unidentifiedDisplayName = "[비매품]카프라 명함",
+		unidentifiedResourceName = "카프라명함",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "[비매품]카프라 명함",
+		identifiedResourceName = "카프라명함",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"카프라 본사에서 발행하는 카프라의 명함. 이름이 기재된 카프라는 언제든 고객의 부름에 응할 의무가 있다.",
+			"사용 시, 카프라 창고 서비스를 1회 사용할 수 있다.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23178] = {
+		unidentifiedDisplayName = "카프라 상자",
+		unidentifiedResourceName = "빨간상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "카프라 상자",
+		identifiedResourceName = "빨간상자",
+		identifiedDescriptionName = { "카프라 제복과 제복 수선 키트가 1개씩 들어있는 상자.", "제복 수선 키트로 카프라 제복에 랜덤옵션을 2종 부여할 수 있다.", "무게 : ^77777751^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23203] = {
+		unidentifiedDisplayName = "소형 마나수",
+		unidentifiedResourceName = "마카푸노",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "소형 마나수",
+		identifiedResourceName = "마카푸노",
+		identifiedDescriptionName = {
+			"이그드라실 나무의 꽃잎에서 나오는 수액을 담아놓은 작은 병. 마나 재생에 효험이 있다고 한다.",
+			"복용하면 10분간 5초마다 MSP의 5%를 회복한다. ",
+			"버서크 상태에서는 효과가 발동하지 않는다. ",
+			"캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23204] = {
+		unidentifiedDisplayName = "빛나는 방어 스크롤",
+		unidentifiedResourceName = "대지의주문서",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "빛나는 방어 스크롤",
+		identifiedResourceName = "대지의주문서",
+		identifiedDescriptionName = {
+			"일정 시간 동안 물리, 마법 방어력을 대폭 상승 시켜주어, 생존율을 높이는데에 도움을 주는 스크롤.",
+			"10분 동안 DEF +500, MDEF +200.",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23205] = {
+		unidentifiedDisplayName = "신상모자 스크롤 II",
+		unidentifiedResourceName = "아울듀크알",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "신상모자 스크롤 II",
+		identifiedResourceName = "아울듀크알",
+		identifiedDescriptionName = {
+			"기간 한정 신상모자 스크롤 II. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 신상 모자상자 II, 영혼의 뚫어뻥등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23206] = {
+		unidentifiedDisplayName = "신상 모자 상자 II",
+		unidentifiedResourceName = "원유회선물상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "신상 모자 상자 II",
+		identifiedResourceName = "원유회선물상자",
+		identifiedDescriptionName = {
+			"유령이 으스스하게 날아다니는, 호러풍 호박 상자.",
+			"다음의 아이템중 1개가 들어있습니다. ",
+			"――――――――――――― ",
+			"쉐도우 부스터",
+			"타천사의 축복 ",
+			"정령의 왕관",
+			"토끼 마술 모자",
+			"아누비스 투구",
+			"――――――――――――― ",
+			"무게 : 20"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[24314] = {
 		unidentifiedDisplayName = "Shadow Shield",
 		unidentifiedResourceName = "쉴드쉐도우",
@@ -12626,145 +12878,6 @@ tbl = {
 			"Level Requirement:^009900 1^000000",
 			"Jobs:^6666CC Gunslinger^000000"
 		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23170] = {
-		unidentifiedDisplayName = "선풍기 개조 키트",
-		unidentifiedResourceName = "수리용키트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "선풍기 개조 키트",
-		identifiedResourceName = "수리용키트",
-		identifiedDescriptionName = {
-			"해달 미니 선풍기를 개조할 수 있는 도구들이 들어있는 키트.",
-			"1회 개조하기에 딱 맞는 재료만 들어 있다.",
-			"^ff0000해달 미니 선풍기^000000에 랜덤 옵션을 2종 부여할 수 있다.",
-			"^ff0000주의! - 랜덤 옵션 부여시, 해달 미니 선풍기의 카드 슬롯이 초기화 되며, 낮은 확률로 퍼씰 미니 선풍기로 변형됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23171] = {
-		unidentifiedDisplayName = "봉인된 그룸언더나이트 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "봉인된 그룸언더나이트 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"그룸언더나이트의 힘을 잠시 동안 느낄 수 있을 것 같다. ",
-			"성속성, 암속성, 천사형, 악마형 몬스터에게 주는 물리 공격력 20% 추가.",
-			"5분간 지속.",
-			"(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)",
-			"무게 : ^7777771^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23172] = {
-		unidentifiedDisplayName = "봉인된 파라오 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "봉인된 파라오 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"파라오의 힘을 잠시 동안 느낄 수 있을 것 같다.",
-			"스킬 사용시 SP소모량을 15% 줄여준다. ",
-			"5분간 지속.",
-			"(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)",
-			"무게 : ^7777771^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23173] = {
-		unidentifiedDisplayName = "봉인된 키엘-D-01 카드",
-		unidentifiedResourceName = "이름없는카드",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "봉인된 키엘-D-01 카드",
-		identifiedResourceName = "이름없는카드",
-		identifiedDescriptionName = {
-			"키엘-D-01의 힘을 잠시 동안 느낄 수 있을 것 같다. ",
-			"모든 스킬의 후 딜레이가 15% 감소한다. ",
-			"5분간 지속.",
-			"(이 아이템은 2016년 8월 31일 정기점검시 일괄 삭제됩니다.)",
-			"무게 : ^7777771^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23174] = {
-		unidentifiedDisplayName = "Costume Enchantment Stone Box11",
-		unidentifiedResourceName = "초록상자",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Costume Enchantment Stone Box11",
-		identifiedResourceName = "초록상자",
-		identifiedDescriptionName = {
-			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"신규 이펙트가 3종 추가되었으며, 힐스톤(하단), 스틸스톤(하단), 텔레포트스톤(하단) 3종의 신규 인챈트 스톤이 포함되었다.",
-			"기존의 의상 인챈트 스톤도 포함되어 있다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23175] = {
-		unidentifiedDisplayName = "제복 수선 키트",
-		unidentifiedResourceName = "포링상자",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "제복 수선 키트",
-		identifiedResourceName = "포링상자",
-		identifiedDescriptionName = {
-			"^ff0000주의! - 제복 수선 키트 사용시, 카드 슬롯 및 제련도가 초기화 됩니다.^000000",
-			"카프라 제복을 수선하여, 추가 능력치를 부여해주는 키트.",
-			"1회 수선하기에 딱 맞는 재료만 들어 있다.",
-			"^ff0000카프라 제복^000000에 랜덤 옵션을 2종 부여할 수 있다.",
-			"",
-			"제복 수선 키트는",
-			"^ffffff<NAVI>^4D4DFF[고양이손 판매원 냐롬]^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>^000000, ",
-			"^ffffff<NAVI>^4D4DFF[고양이손 판매원 제롬]^000000<INFO>itemmall,41,52,0,100,0,0</INFO></NAVI>^000000, ",
-			"에게서 냥다래나 제니를 주고 추가로 구입할 수 있습니다. ",
-			"무게 : ^7777771^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23176] = {
-		unidentifiedDisplayName = "카프라 스크롤",
-		unidentifiedResourceName = "카프라스크롤",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카프라 스크롤",
-		identifiedResourceName = "카프라스크롤",
-		identifiedDescriptionName = {
-			"기간 한정 카프라 스크롤. ",
-			"무기 11제련 상품권, 방어구 11제련 상품권, 카프라 직원의 머리띠, 카프라 상자, 직업별 쉐도우 큐브, 무한 파리의 날개 5일 상자등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
-			"무게 : ^7777771^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23177] = {
-		unidentifiedDisplayName = "[비매품]카프라 명함",
-		unidentifiedResourceName = "카프라명함",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "[비매품]카프라 명함",
-		identifiedResourceName = "카프라명함",
-		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"카프라 본사에서 발행하는 카프라의 명함. 이름이 기재된 카프라는 언제든 고객의 부름에 응할 의무가 있다.",
-			"사용 시, 카프라 창고 서비스를 1회 사용할 수 있다.",
-			"무게 : ^7777771^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23178] = {
-		unidentifiedDisplayName = "카프라 상자",
-		unidentifiedResourceName = "빨간상자",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카프라 상자",
-		identifiedResourceName = "빨간상자",
-		identifiedDescriptionName = { "카프라 제복과 제복 수선 키트가 1개씩 들어있는 상자.", "제복 수선 키트로 카프라 제복에 랜덤옵션을 2종 부여할 수 있다.", "무게 : ^77777751^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
