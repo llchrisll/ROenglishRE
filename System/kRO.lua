@@ -483,20 +483,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[9101] = {
-		unidentifiedDisplayName = "스캣레톤 이동장",
-		unidentifiedResourceName = "스캣레톤이동장",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "스캣레톤 이동장",
-		identifiedResourceName = "스캣레톤이동장",
-		identifiedDescriptionName = {
-			"큐펫 스캣레톤이 잠들어 있는 알. [휴대용 알 부화기] 로 잠들어 있는 몬스터를 깨울 수 있다. ",
-			"이벤트 기간 동안(2016년 10월 5일 ~ 2016년 11월 2일), 맛좋은 물고기 회복량 1031% 증가.",
-			"종류 : ^777777몬스터 알^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[11538] = {
 		unidentifiedDisplayName = "Fresh Octopus Legs",
 		unidentifiedResourceName = "문어다리",
