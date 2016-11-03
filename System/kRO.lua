@@ -603,6 +603,16 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[11606] = {
+		unidentifiedDisplayName = "[ºñ¸ÅÇ°]°¡º­¿î ÇÏ¾áÆ÷¼Ç",
+		unidentifiedResourceName = "³óÃàÈ­ÀÌÆ®Æ÷¼ÇZ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "[ºñ¸ÅÇ°]°¡º­¿î ÇÏ¾áÆ÷¼Ç",
+		identifiedResourceName = "³óÃàÈ­ÀÌÆ®Æ÷¼ÇZ",
+		identifiedDescriptionName = { "ÇÏ¾áÇãºê¸¦ È¿À²ÀûÀ¸·Î °¥¾Æ ¸¸µç Ã¼·ÂÈ¸º¹Á¦. ^000088HP¸¦ 325°¡·® È¸º¹^000000 ½ÃÄÑ ÁØ´Ù.", "¹«°Ô : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[12294] = {
 		unidentifiedDisplayName = "PC Cafe Coin Box 1",
 		unidentifiedResourceName = "ÇŞºûÀÇ»óÀÚ",
@@ -10197,6 +10207,39 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[17689] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö ¹öÇÁ »óÀÚ",
+		unidentifiedResourceName = "¼±¹°»óÀÚ_5",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö ¹öÇÁ »óÀÚ",
+		identifiedResourceName = "¼±¹°»óÀÚ_5",
+		identifiedDescriptionName = {
+			"ÇÁ¸®¹Ì¾ö ¹öÇÁ¸¦ °É¾îÁÖ´Â ÇÁ¸®¹Ì¾ö Á¤¾× ¼­ºñ½º »óÀÚ 1°³°¡ µé¾îÀÖ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"[±âº» ¼­ºñ½º] ",
+			"ÇÁ¸®¹Ì¾ö Á¤¾× ¼­ºñ½º »óÀÚ¸¦ °³ºÀÇÏ¸é, 30ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù. ",
+			"- °æÇèÄ¡ 20% Áõ°¡ ",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡ ",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡ ",
+			"^ffffff_^000000",
+			"[Ãß°¡ ¼­ºñ½º]",
+			"³É´Ù·¡¸¦ ¼Ò¸ğÇÏ¸é ÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¾Æ·¡ÀÇ È¿°ú¸¦ ¹ŞÀ» ¼ö ÀÖ´Ù. ",
+			"- EXP UP (24½Ã°£ Áö¼Ó, ³É´Ù·¡ 4°³) ",
+			"°æÇèÄ¡ 30% Áõ°¡ ",
+			"- ITEM UP (24½Ã°£ Áö¼Ó, ³¶´Ù·¡ 2°³) ",
+			"¾ÆÀÌÅÛ µå¶øÀ² 30% Áõ°¡ ",
+			"- DEATH DOWN (24½Ã°£ Áö¼Ó, ³É´Ù·¡ 1°³) ",
+			"»ç¸Á Æä³ÎÆ¼ 50% °¨¼Ò ",
+			"- Advanced Package (24½Ã°£ Áö¼Ó, ³É´Ù·¡ 6°³) ",
+			"À§ÀÇ È¿°ú 3°¡Áö ÀüºÎ ",
+			"ÁÖÀÇ! - ¹öÇÁ°¡ °É·Á ÀÖ´Â »óÅÂ¿¡¼­ ±×¿Í ÁßÃ¸µÇ´Â ¹öÇÁÈ¿°ú, ¶Ç´Â ¾îµå¹ê½ºµå ÆĞÅ°Áö¸¦ ¼±ÅÃÇÒ ¼ö ¾ø½À´Ï´Ù.",
+			"^ffffff_^000000",
+			"^ff0000º» ¾ÆÀÌÅÛÀ» °³ºÀÇÏ½Ã¸é Ã»¾àÃ¶È¸ ¹× È¯ºÒ ´ë»ó¿¡¼­ Á¦¿Ü µË´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[17690] = {
 		unidentifiedDisplayName = "Èû³»±×¶ó ÇÃ·¯½º ÆĞÅ°Áö II",
 		unidentifiedResourceName = "ÇŞºûÀÇ»óÀÚ",
@@ -10348,6 +10391,52 @@ tbl = {
 			"ÀÏ½ÃÀûÀ¸·Î ¹æ¾î·ÂÀ» ²ø¾î¿Ã·Á, »ıÁ¸¿¡ µµ¿òÀ» ÁÖ´Â ½ºÅ©·ÑÀ» ´ãÀº »óÀÚ.",
 			"¼ÒÇü ¸¶³ª¼ö 50°³, ºû³ª´Â ¹æ¾î½ºÅ©·Ñ 300°³°¡ ´ã°ÜÁ®ÀÖ´Ù.",
 			"¹æ¾î ½ºÅ©·Ñ »óÀÚ ¼¼Æ® ±¸¸Å½Ã ½Å»ó ¸ğÀÚ ½ºÅ©·Ñ II 11°³ ÁõÁ¤!",
+			"^ff0000º» ¾ÆÀÌÅÛÀ» °³ºÀÇÏ½Ã¸é Ã»¾àÃ¶È¸ ´ë»ó¿¡¼­ Á¦¿Ü µË´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17748] = {
+		unidentifiedDisplayName = "ÇÑÁ¤ÆÇ ÆÄ¿ö ºÎ½ºÅÍ »óÀÚ3",
+		unidentifiedResourceName = "Ä³½Ã»óÀÚ_º¸¶ó",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÑÁ¤ÆÇ ÆÄ¿ö ºÎ½ºÅÍ »óÀÚ3",
+		identifiedResourceName = "Ä³½Ã»óÀÚ_º¸¶ó",
+		identifiedDescriptionName = {
+			"ÇÑÁ¤ÆÇ ÆÄ¿ö ºÎ½ºÅÍ 10°³¿Í 2016 ½ºÆä¼È ½ºÅ©·ÑÀÌ 1°³ µé¾îÀÖ´Â »óÀÚ.",
+			"",
+			"^ff0000Å¸ °èÁ¤°ú °Å·¡°¡ ºÒ°¡´ÉÇÑ ¾ÆÀÌÅÛ ÀÔ´Ï´Ù.^000000",
+			"Ã¼³» ¿¡³ÊÁö¸¦ È°¼ºÈ­ÇÏ¿©, ÆÄ¿ö¸¦ ´ëÆø Çâ»ó½ÃÄÑÁÖ´Â ºÎ½ºÅÍ. ",
+			"30ºĞ°£ ATK, MATK + 30, ATK, MATK + 1%,",
+			"HIT, FLEE + 30, ASPD + 1, SP ¼Ò¸ğ·® 5% °¨¼Ò,",
+			"°íÁ¤ Ä³½ºÆÃ 30% °¨¼Ò.",
+			"(°íÁ¤ Ä³½ºÆÃÀÇ % Áõ°¨ È¿°ú´Â °¡Àå Å« È¿°ú¸¸ Àû¿ëµË´Ï´Ù.)",
+			"^000088Ä³¸¯ÅÍ°¡ ÀüÅõºÒ´É»óÅÂ°¡ µÇ¸é ¾ÆÀÌÅÛ È¿°úµµ »ç¶óÁı´Ï´Ù.^000000",
+			"",
+			"^ff0000º» ¾ÆÀÌÅÛÀ» °³ºÀÇÏ½Ã¸é Ã»¾àÃ¶È¸ ´ë»ó¿¡¼­ Á¦¿Ü µË´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17749] = {
+		unidentifiedDisplayName = "ÇÑÁ¤ÆÇ ÆÄ¿ö ºÎ½ºÅÍ 100°³ »óÀÚ3",
+		unidentifiedResourceName = "Ä³½Ã»óÀÚ_º¸¶ó",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÑÁ¤ÆÇ ÆÄ¿ö ºÎ½ºÅÍ 100°³ »óÀÚ3",
+		identifiedResourceName = "Ä³½Ã»óÀÚ_º¸¶ó",
+		identifiedDescriptionName = {
+			"ÇÑÁ¤ÆÇ ÆÄ¿ö ºÎ½ºÅÍ 100°³¿Í 2016 ½ºÆä¼È ½ºÅ©·ÑÀÌ 11°³ µé¾îÀÖ´Â »óÀÚ.",
+			"",
+			"^ff0000Å¸ °èÁ¤°ú °Å·¡°¡ ºÒ°¡´ÉÇÑ ¾ÆÀÌÅÛ ÀÔ´Ï´Ù.^000000",
+			"Ã¼³» ¿¡³ÊÁö¸¦ È°¼ºÈ­ÇÏ¿©, ÆÄ¿ö¸¦ ´ëÆø Çâ»ó½ÃÄÑÁÖ´Â ºÎ½ºÅÍ. ",
+			"30ºĞ°£ ATK, MATK + 30, ATK, MATK + 1%,",
+			"HIT, FLEE + 30, ASPD + 1, SP ¼Ò¸ğ·® 5% °¨¼Ò,",
+			"°íÁ¤ Ä³½ºÆÃ 30% °¨¼Ò.",
+			"(°íÁ¤ Ä³½ºÆÃÀÇ % Áõ°¨ È¿°ú´Â °¡Àå Å« È¿°ú¸¸ Àû¿ëµË´Ï´Ù.)",
+			"^000088Ä³¸¯ÅÍ°¡ ÀüÅõºÒ´É»óÅÂ°¡ µÇ¸é ¾ÆÀÌÅÛ È¿°úµµ »ç¶óÁı´Ï´Ù.^000000",
+			"",
 			"^ff0000º» ¾ÆÀÌÅÛÀ» °³ºÀÇÏ½Ã¸é Ã»¾àÃ¶È¸ ´ë»ó¿¡¼­ Á¦¿Ü µË´Ï´Ù.^000000",
 			"¹«°Ô : ^7777771^000000"
 		},
@@ -11018,32 +11107,32 @@ tbl = {
 		ClassNum = 0
 	},
 	[23008] = {
-		unidentifiedDisplayName = "Bubblegum­300s",
+		unidentifiedDisplayName = "Ç³¼±²­24½Ã°£",
 		unidentifiedResourceName = "Ç³¼±²­",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Bubblegum­300s",
+		identifiedDisplayName = "Ç³¼±²­24½Ã°£",
 		identifiedResourceName = "Ç³¼±²­",
-		identifiedDescriptionName = { "300s", "Weight:^009900 0^000000" },
+		identifiedDescriptionName = { "24h", "¹«°Ô : ^7777770^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23010] = {
-		unidentifiedDisplayName = "±³¹ü300s",
+		unidentifiedDisplayName = "±³¹ü24½Ã°£",
 		unidentifiedResourceName = "ÀüÅõ±³¹ü",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "±³¹ü300s",
+		identifiedDisplayName = "±³¹ü24½Ã°£",
 		identifiedResourceName = "ÀüÅõ±³¹ü",
-		identifiedDescriptionName = { "300s", "¹«°Ô : ^7777770^000000" },
+		identifiedDescriptionName = { "24h", "¹«°Ô : ^7777770^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23011] = {
-		unidentifiedDisplayName = "º¸ÇèÁõ¼­300s",
+		unidentifiedDisplayName = "º¸ÇèÁõ¼­24½Ã°£",
 		unidentifiedResourceName = "»ı¸íº¸ÇèÁõ¼­",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "º¸ÇèÁõ¼­300s",
+		identifiedDisplayName = "º¸ÇèÁõ¼­24½Ã°£",
 		identifiedResourceName = "»ı¸íº¸ÇèÁõ¼­",
-		identifiedDescriptionName = { "300s", "¹«°Ô : ^7777771^000000" },
+		identifiedDescriptionName = { "24h", "¹«°Ô : ^7777771^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -11653,6 +11742,30 @@ tbl = {
 			"Ãµ»çÆ÷¸µ ºÎÃ÷¿¡ ÀåÂø½Ã, Ãß°¡·Î ´É·ÂÀ» ¾òÀ» ¼ö ÀÖ´Â µ¹ÀÌ 1Á¾ Æ÷ÇÔµÇ¾î ÀÖ´Ù.",
 			"^ff0000Å¸ °èÁ¤°ú °Å·¡°¡ ºÒ°¡´ÉÇÑ ¾ÆÀÌÅÛ ÀÔ´Ï´Ù.^000000",
 			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23074] = {
+		unidentifiedDisplayName = "12¿ù ¼±¹°»óÀÚ",
+		unidentifiedResourceName = "ÁøÁÖº¸¹°»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "12¿ù ¼±¹°»óÀÚ",
+		identifiedResourceName = "ÁøÁÖº¸¹°»óÀÚ",
+		identifiedDescriptionName = { "ÀÇ¹®ÀÇ ¾Ë 2°³°¡ µé¾îÀÖ´Â »óÀÚ.", "¹«°Ô : ^77777710^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23075] = {
+		unidentifiedDisplayName = "11¿ù ¼±¹°»óÀÚ",
+		unidentifiedResourceName = "ÁøÁÖº¸¹°»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "11¿ù ¼±¹°»óÀÚ",
+		identifiedResourceName = "ÁøÁÖº¸¹°»óÀÚ",
+		identifiedDescriptionName = {
+			"^ff0000Å¸ °èÁ¤°ú °Å·¡°¡ ºÒ°¡´ÉÇÑ ¾ÆÀÌÅÛ ÀÔ´Ï´Ù.^000000",
+			"¸Ş±ä±â¿À¸£µå(Ã¼ÇèÆÇ), ºê¸®½Ì°¡¸à(Ã¼ÇèÆÇ), ¾Æ½ºÇÁ¸®Ä«(Ã¼ÇèÆÇ), ºê·ôÈúÆ®(Ã¼ÇèÆÇ)°¡ µé¾îÀÖ´Â »óÀÚ. 14ÀÏ°£ »ç¿ë °¡´ÉÇÏ´Ù.",
+			"¹«°Ô : ^77777710^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12278,22 +12391,40 @@ tbl = {
 		ClassNum = 0
 	},
 	[23148] = {
-		unidentifiedDisplayName = "Ç³¼±²­900s",
-		unidentifiedResourceName = "Ç³¼±²­",
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 2ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Ç³¼±²­900s",
-		identifiedResourceName = "Ç³¼±²­",
-		identifiedDescriptionName = { "900s", "¹«°Ô : ^7777770^000000" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 2ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"2ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 2ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
 	[23149] = {
-		unidentifiedDisplayName = "±³¹ü900s",
-		unidentifiedResourceName = "ÀüÅõ±³¹ü",
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 3ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "±³¹ü900s",
-		identifiedResourceName = "ÀüÅõ±³¹ü",
-		identifiedDescriptionName = { "900s", "¹«°Ô : ^7777770^000000" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 3ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"3ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 3ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -12442,6 +12573,31 @@ tbl = {
 		identifiedDisplayName = "·°Å°Å¥ºê",
 		identifiedResourceName = "º¸¶ó½¦µµ¿ìÅ¥ºê",
 		identifiedDescriptionName = { "È®·üÇü ¾ÆÀÌÅÛÀÌ ¸ğµÎ µé¾îÀÖ´Â Å¥ºê.", "¹«°Ô : ^7777770^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23165] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö ¼­ºñ½º Á÷¿ø",
+		unidentifiedResourceName = "¸¶¹ıºÀ¸³¹ã",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö ¼­ºñ½º Á÷¿ø",
+		identifiedResourceName = "¸¶¹ıºÀ¸³¹ã",
+		identifiedDescriptionName = {
+			"ÇÁ¸®¹Ì¾ö Á¤¾× ¼­ºñ½º ´ã´ç Á÷¿øÀ» ºÎ¸£´Â ¸¶¹ıºÀ. ¼Õ¿¡ µé°í Èçµé¸é ¾ğÁ¦ ¾îµğ¼­µç °í°´ ¾Õ¿¡ ³ªÅ¸³­´Ù.",
+			"^ffffff_^000000",
+			"[¼­ºñ½º ³»¿ª]",
+			"³É´Ù·¡¸¦ ¼Ò¸ğÇÏ¸é ÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¾Æ·¡ÀÇ È¿°ú¸¦ ¹ŞÀ» ¼ö ÀÖ´Ù. ",
+			"- EXP UP (24½Ã°£ Áö¼Ó, ³É´Ù·¡ 4°³) ",
+			"°æÇèÄ¡ 30% Áõ°¡ ",
+			"- ITEM UP (24½Ã°£ Áö¼Ó, ³¶´Ù·¡ 2°³) ",
+			"¾ÆÀÌÅÛ µå¶øÀ² 30% Áõ°¡ ",
+			"- DEATH DOWN (24½Ã°£ Áö¼Ó, ³É´Ù·¡ 1°³) ",
+			"»ç¸Á Æä³ÎÆ¼ 50% °¨¼Ò ",
+			"- Advanced Package (24½Ã°£ Áö¼Ó, ³É´Ù·¡ 6°³) ",
+			"À§ÀÇ È¿°ú 3°¡Áö ÀüºÎ ",
+			"^ff0000ÁÖÀÇ! - ¹öÇÁ°¡ °É·Á ÀÖ´Â »óÅÂ¿¡¼­ ±×¿Í ÁßÃ¸µÇ´Â ¹öÇÁÈ¿°ú, ¶Ç´Â ¾îµå¹ê½ºµå ÆĞÅ°Áö¸¦ ¼±ÅÃÇÒ ¼ö ¾ø½À´Ï´Ù. ^000000",
+			"¹«°Ô : ^7777770^000000"
+		},
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -12631,6 +12787,75 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23198] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö ¿ìµç¹Ú½º",
+		unidentifiedResourceName = "³ª¹«º¸¹°»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö ¿ìµç¹Ú½º",
+		identifiedResourceName = "³ª¹«º¸¹°»óÀÚ",
+		identifiedDescriptionName = {
+			"À¯¿ëÇÑ ¾ÆÀÌÅÛÀÌ Æ÷ÀåµÇ¾î ÀÖ´Â ³ª¹« »óÀÚ.",
+			"È­ÀÌÆ® ½½¸²Æ÷¼Ç »óÀÚ 1°³ , [ºñ¸ÅÇ°]ÀÀ±ŞÃ³Ä¡»óÀÚ 3°³, ÇÁ¸®¹Ì¾ö ³ë¸»¹Ú½º 1°³°¡ Æ÷ÀåµÇ¾î ÀÖ´Ù. ",
+			"°³ºÀ ½Ã, Ãß°¡·Î Èñ±ÍÇÑ ¾ÆÀÌÅÛ Áß ÇÏ³ª¸¦ ¾òÀ» ¼ö ÀÖ´Ù. ",
+			"¹«°Ô : ^7777771^000000",
+			"\"^ff0000ÁÖÀÇ - »óÀÚ¸¦ °³ºÀÇÒ ¶§ ¹«°Ô³ª ¼ÒÁöÇÑ°è ¼ö·®À» ÃÊ°úÇÑ »óÅÂÀÎ °æ¿ì, ¾ÆÀÌÅÛÀÌ ¼Ò½Ç µÉ ¼ö ÀÖ½À´Ï´Ù!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23199] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö °ñµç¹Ú½º",
+		unidentifiedResourceName = "±İº¸¹°»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö °ñµç¹Ú½º",
+		identifiedResourceName = "±İº¸¹°»óÀÚ",
+		identifiedDescriptionName = {
+			"À¯¿ëÇÑ ¾ÆÀÌÅÛÀÌ Æ÷ÀåµÇ¾î ÀÖ´Â ±İ »óÀÚ.",
+			"È­ÀÌÆ® ½½¸²Æ÷¼Ç »óÀÚ 1°³ ,  [ºñ¸ÅÇ°]ºí·¹½Ì ½ºÅ©·Ñ 10°³ »óÀÚ 1°³",
+			"[ºñ¸ÅÇ°]¹ÎÃ¸¼ºÁõ°¡ ½ºÅ©·Ñ 10°³ »óÀÚ 1°³ , ÇÁ¸®¹Ì¾ö ³ë¸»¹Ú½º 5°³ ",
+			"ÀÌ¼Óº¯È­Æ÷¼Ç 10°³ , µ¶¾àº´ 10°³°¡ Æ÷ÀåµÇ¾î ÀÖ´Ù. ",
+			"°³ºÀ ½Ã, Ãß°¡·Î Èñ±ÍÇÑ ¾ÆÀÌÅÛ Áß ÇÏ³ª¸¦ ¾òÀ» ¼ö ÀÖ´Ù. ",
+			"¹«°Ô : ^7777771^000000",
+			"\"^ff0000ÁÖÀÇ - »óÀÚ¸¦ °³ºÀÇÒ ¶§ ¹«°Ô³ª ¼ÒÁöÇÑ°è ¼ö·®À» ÃÊ°úÇÑ »óÅÂÀÎ °æ¿ì, ¾ÆÀÌÅÛÀÌ ¼Ò½Ç µÉ ¼ö ÀÖ½À´Ï´Ù!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23200] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö ÇÃ·¡Æ¼³Ñ¹Ú½º",
+		unidentifiedResourceName = "´ÙÀÌ¾Æº¸¹°»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö ÇÃ·¡Æ¼³Ñ¹Ú½º",
+		identifiedResourceName = "´ÙÀÌ¾Æº¸¹°»óÀÚ",
+		identifiedDescriptionName = {
+			"À¯¿ëÇÑ ¾ÆÀÌÅÛÀÌ Æ÷ÀåµÇ¾î ÀÖ´Â ¹é±İ »óÀÚ. ",
+			"Æ÷¼Ç»óÀÚ 1°³ ,  µ¶¾àº´»óÀÚ 1°³ , [ºñ¸ÅÇ°]¼ÒÇü »ı¸í¼ö »óÀÚ 1°³",
+			"[ºñ¸ÅÇ°]¿¬¸¶Á¦ »óÀÚ 1°³ , [ºñ¸ÅÇ°]ºí·¹½Ì ½ºÅ©·Ñ 10°³ »óÀÚ 1°³",
+			"[ºñ¸ÅÇ°]¹ÎÃ¸¼ºÁõ°¡ ½ºÅ©·Ñ 10°³ »óÀÚ 1°³ , ÇÁ¸®¹Ì¾ö ³ë¸»¹Ú½º 30°³ ",
+			"ÀÌ¼Óº¯È­Æ÷¼Ç 30°³°¡ Æ÷ÀåµÇ¾î ÀÖ´Ù.",
+			"°³ºÀ ½Ã, Ãß°¡·Î Èñ±ÍÇÑ ¾ÆÀÌÅÛ Áß ÇÏ³ª¸¦ ¾òÀ» ¼ö ÀÖ´Ù. ",
+			"¹«°Ô : ^7777771^000000",
+			"\"^ff0000ÁÖÀÇ - »óÀÚ¸¦ °³ºÀÇÒ ¶§ ¹«°Ô³ª ¼ÒÁöÇÑ°è ¼ö·®À» ÃÊ°úÇÑ »óÅÂÀÎ °æ¿ì, ¾ÆÀÌÅÛÀÌ ¼Ò½Ç µÉ ¼ö ÀÖ½À´Ï´Ù!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23201] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö ³ë¸»¹Ú½º",
+		unidentifiedResourceName = "»óÀÎÀüÁ÷»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö ³ë¸»¹Ú½º",
+		identifiedResourceName = "»óÀÎÀüÁ÷»óÀÚ",
+		identifiedDescriptionName = {
+			"À¯¿ëÇÑ ¾ÆÀÌÅÛÀÌ Æ÷ÀåµÇ¾î ÀÖ´Â Æò¹üÇÑ »óÀÚ. ",
+			"[ºñ¸ÅÇ°]È­ÀÌÆ® ½½¸² Æ÷¼Ç 50°³ , [ºñ¸ÅÇ°]ÀÀ±ŞÃ³Ä¡»óÀÚ 1°³°¡ Æ÷ÀåµÇ¾î ÀÖ´Ù. ",
+			"°³ºÀ ½Ã, Ãß°¡·Î Èñ±ÍÇÑ ¾ÆÀÌÅÛ Áß ÇÏ³ª¸¦ ¾òÀ» ¼ö ÀÖ´Ù. ",
+			"¹«°Ô : ^7777771^000000",
+			"\"^ff0000ÁÖÀÇ - »óÀÚ¸¦ °³ºÀÇÒ ¶§ ¹«°Ô³ª ¼ÒÁöÇÑ°è ¼ö·®À» ÃÊ°úÇÑ »óÅÂÀÎ °æ¿ì, ¾ÆÀÌÅÛÀÌ ¼Ò½Ç µÉ ¼ö ÀÖ½À´Ï´Ù!^000000\""
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[23203] = {
 		unidentifiedDisplayName = "¼ÒÇü ¸¶³ª¼ö",
 		unidentifiedResourceName = "¸¶Ä«Çª³ë",
@@ -12692,6 +12917,341 @@ tbl = {
 			"¾Æ´©ºñ½º Åõ±¸",
 			"¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª ",
 			"¹«°Ô : 20"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23207] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× ¼­ºñ½º »óÀÚ",
+		unidentifiedResourceName = "ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× ¼­ºñ½º »óÀÚ",
+		identifiedResourceName = "ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"30ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ. ",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 30ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù. ",
+			"- °æÇèÄ¡ 20% Áõ°¡ ",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡ ",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡ ",
+			"^ffffff_^000000",
+			"Ãß°¡ ¼­ºñ½º¸¦ Á¦°øÇØÁÖ´Â ÇÁ¸®¹Ì¾ö ¼­ºñ½º Á÷¿øÀ» ºÒ·¯³»´Â ¸¶¹ıºÀÀÌ 1°³ Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù.",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23209] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 1ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 1ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"1ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 1ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23210] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 4ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 4ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"4ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 4ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23211] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 5ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 5ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"5ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 5ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23212] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 6ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 6ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"6ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 6ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23213] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 7ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 7ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"7ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 7ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23214] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 8ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 8ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"8ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 8ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23215] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 9ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 9ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"9ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 9ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23216] = {
+		unidentifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 10ÀÏ »óÀÚ",
+		unidentifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ÇÁ¸®¹Ì¾ö Á¤¾× 10ÀÏ »óÀÚ",
+		identifiedResourceName = "ºĞÈ«ÇÏÆ®»óÀÚ",
+		identifiedDescriptionName = {
+			"10ÀÏ°£ ÇÁ¸®¹Ì¾ö ¼­ºñ½º¸¦ Á¦°øÇÏ´Â »óÀÚ.",
+			"^ffffff_^000000",
+			"»óÀÚ¸¦ °³ºÀÇÏ¸é, ¹Ù·Î 10ÀÏ°£ÀÇ ÇÁ¸®¹Ì¾ö ¹öÇÁ È¿°ú¸¦ ÇØ´ç ¾ÆÀÌÅÛÀ» »ç¿ëÇÑ ¼­¹ö³»ÀÇ ÀüÃ¼ Ä³¸¯ÅÍ°¡ ¹Ş°Ô µÈ´Ù.",
+			"- °æÇèÄ¡ 20% Áõ°¡",
+			"- ¾ÆÀÌÅÛ µå¶øÀ² 20% Áõ°¡",
+			"- Ã¢°í Á¦ÇÑÄ¡ 300 Áõ°¡",
+			"^ffffff_^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23217] = {
+		unidentifiedDisplayName = "2016 ½ºÆä¼È ½ºÅ©·Ñ",
+		unidentifiedResourceName = "2016½ºÆä¼È½ºÅ©·Ñ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "2016 ½ºÆä¼È ½ºÅ©·Ñ",
+		identifiedResourceName = "2016½ºÆä¼È½ºÅ©·Ñ",
+		identifiedDescriptionName = {
+			"±â°£ ÇÑÁ¤ 2016 ½ºÆä¼È ½ºÅ©·Ñ.",
+			"¹«±â 11Á¦·Ã »óÇ°±Ç, ¹æ¾î±¸ 11Á¦·Ã »óÇ°±Ç, 2016 ½ºÆä¼È »óÀÚ, Á÷¾÷±º ½¦µµ¿ì »óÀÚµîµî ¿©·¯°¡Áö Èñ±ÍÇÑ ¾ÆÀÌÅÛ Áß ÇÏ³ª¸¦ ¾òÀ» ¼ö ÀÖ´Ù. ",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23218] = {
+		unidentifiedDisplayName = "2016 ½ºÆä¼È »óÀÚ",
+		unidentifiedResourceName = "Àºº¸¹°»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "2016 ½ºÆä¼È »óÀÚ",
+		identifiedResourceName = "Àºº¸¹°»óÀÚ",
+		identifiedDescriptionName = {
+			"2016³â¿¡ Çà¿îÀÇ ¾Ë¿¡¼­ ³ª¿Â ÀÎ±âÀÖ´Â ¾ÆÀÌÅÛÀ» ¸ğÀº »óÀÚ.",
+			"´ÙÀ½ÀÇ ¾ÆÀÌÅÛÁß 1°³°¡ µé¾îÀÖ½À´Ï´Ù.",
+			"¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª ",
+			"Ãµ»çÆ÷¸µ ºÎÃ÷ »óÀÚ",
+			"Æ÷¸µ ¼±±Û·¡½º+",
+			"Æ÷¸µ ¼±±Û·¡½º",
+			"¾Æ¹Ì½ºÆ®¸£ »óÀÚ",
+			"Ã»ÀÌÀÇ ¿µÈ¥",
+			"Æ÷¸µ Ä¸½¶",
+			"°Ç½½¸µ°Å »óÀÚ",
+			"¹Ì´Ï ¼±Ç³±â »óÀÚ",
+			"Ä«ÇÁ¶ó »óÀÚ",
+			"»çÀÌ±×·é ¾Æ¸Ó ½¦µµ¿ì",
+			"»çÀÌ±×·é ½¯µå ½¦µµ¿ì",
+			"½Å»ó ¸ğÀÚ »óÀÚ II",
+			"Ä«ÇÁ¶ó Á÷¿øÀÇ ¸Ó¸®¶ì",
+			"¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª ",
+			"¹«°Ô : 20"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23221] = {
+		unidentifiedDisplayName = "[ºñ¸ÅÇ°]ÀçÁÖÀÇ ¸·´ë°úÀÚ",
+		unidentifiedResourceName = "ÀçÁÖÀÇ¸·´ë°úÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "[ºñ¸ÅÇ°]ÀçÁÖÀÇ ¸·´ë°úÀÚ",
+		identifiedResourceName = "ÀçÁÖÀÇ¸·´ë°úÀÚ",
+		identifiedDescriptionName = {
+			"ÀÏ³â Áß 1ÀÌ °¡Àå ¸¹Àº ³¯À» ±â³äÇÏ¿© ¸¸µé¾îÁø Æ¯º°ÇÑ ¸·´ë°úÀÚ.",
+			"»ç¿ë ½Ã 30ºĞ°£ DEX 15 Áõ°¡.",
+			"º¸³Ê½º·Î 10ºĞ°£ 11~33 »çÀÌÀÇ HIT°¡ »ó½ÂÇÑ´Ù.",
+			"^ff0000¡Ø DEX »ó½Â ºĞÀº Ä³½Ã ¿ä¸®°¡ ¿ì¼± Àû¿ëµÇ¸ç, Ä³½Ã ¿ä¸® È¿°ú°¡ ¾øÀ» °æ¿ì ÀÏ¹İ ¿ä¸®Áß °¡Àå ³ôÀº ¿É¼ÇÀÌ Àû¿ëµË´Ï´Ù.",
+			"¡Ø º¸³Ê½º·Î ¿Ã¶ó°£ HIT´Â µ¿ÀÏÇÑ Á¾·ùÀÇ HIt Áõ°¡ ¿É¼Ç°ú ÁßÃ¸µÇÁö ¾Ê°í °¡Àå ³ôÀº ¿É¼ÇÀ¸·Î Àû¿ëµË´Ï´Ù. ",
+			"¡Ø »ç¸Á ½Ã È¿°ú°¡ »ç¶óÁı´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23222] = {
+		unidentifiedDisplayName = "[ºñ¸ÅÇ°]Çà¿îÀÇ ¸·´ë°úÀÚ",
+		unidentifiedResourceName = "Çà¿îÀÇ¸·´ë°úÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "[ºñ¸ÅÇ°]Çà¿îÀÇ ¸·´ë°úÀÚ",
+		identifiedResourceName = "Çà¿îÀÇ¸·´ë°úÀÚ",
+		identifiedDescriptionName = {
+			"ÀÏ³â Áß 1ÀÌ °¡Àå ¸¹Àº ³¯À» ±â³äÇÏ¿© ¸¸µé¾îÁø Æ¯º°ÇÑ ¸·´ë°úÀÚ.",
+			"»ç¿ë ½Ã 30ºĞ°£ LUK 15 Áõ°¡.",
+			"º¸³Ê½º·Î 10ºĞ°£ 11~33 »çÀÌÀÇ CRI°¡ »ó½ÂÇÑ´Ù.",
+			"^ff0000¡Ø LUK »ó½Â ºĞÀº Ä³½Ã ¿ä¸®°¡ ¿ì¼± Àû¿ëµÇ¸ç, Ä³½Ã ¿ä¸® È¿°ú°¡ ¾øÀ» °æ¿ì ÀÏ¹İ ¿ä¸®Áß °¡Àå ³ôÀº ¿É¼ÇÀÌ Àû¿ëµË´Ï´Ù.",
+			"¡Ø º¸³Ê½º·Î ¿Ã¶ó°£ CRI´Â µ¿ÀÏÇÑ Á¾·ùÀÇ CRI Áõ°¡ ¿É¼Ç°ú ÁßÃ¸µÇÁö ¾Ê°í °¡Àå ³ôÀº ¿É¼ÇÀ¸·Î Àû¿ëµË´Ï´Ù.",
+			"¡Ø »ç¸Á ½Ã È¿°ú°¡ »ç¶óÁı´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23223] = {
+		unidentifiedDisplayName = "[ºñ¸ÅÇ°]ÈûÀÇ ¸·´ë°úÀÚ",
+		unidentifiedResourceName = "ÈûÀÇ¸·´ë°úÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "[ºñ¸ÅÇ°]ÈûÀÇ ¸·´ë°úÀÚ",
+		identifiedResourceName = "ÈûÀÇ¸·´ë°úÀÚ",
+		identifiedDescriptionName = {
+			"ÀÏ³â Áß 1ÀÌ °¡Àå ¸¹Àº ³¯À» ±â³äÇÏ¿© ¸¸µé¾îÁø Æ¯º°ÇÑ ¸·´ë°úÀÚ.",
+			"»ç¿ë ½Ã 30ºĞ°£ STR 15 Áõ°¡.",
+			"º¸³Ê½º·Î 10ºĞ°£ 11~111 »çÀÌÀÇ ATK°¡ »ó½ÂÇÑ´Ù.",
+			"^ff0000¡Ø STR »ó½Â ºĞÀº Ä³½Ã ¿ä¸®°¡ ¿ì¼± Àû¿ëµÇ¸ç, Ä³½Ã ¿ä¸® È¿°ú°¡ ¾øÀ» °æ¿ì ÀÏ¹İ ¿ä¸®Áß °¡Àå ³ôÀº ¿É¼ÇÀÌ Àû¿ëµË´Ï´Ù. ",
+			"¡Ø º¸³Ê½º·Î ¿Ã¶ó°£ ATK´Â ÇÇ¾¾¹æ ¹öÇÁ¿Í µ¿ÀÏÇÑ Á¾·ù·Î ÁßÃ¸µÇÁö ¾Ê°í ÃÖÁ¾ »ç¿ë ¿É¼Ç¸¸ Àû¿ëµË´Ï´Ù. Áõ°¡µÈ ¼öÄ¡´Â StateÃ¢¿¡¼­ È®ÀÎÇÒ ¼ö ¾ø½À´Ï´Ù.",
+			"¡Ø »ç¸Á ½Ã È¿°ú°¡ »ç¶óÁı´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23224] = {
+		unidentifiedDisplayName = "[ºñ¸ÅÇ°]Ã¼·ÂÀÇ ¸·´ë°úÀÚ",
+		unidentifiedResourceName = "Ã¼·ÂÀÇ¸·´ë°úÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "[ºñ¸ÅÇ°]Ã¼·ÂÀÇ ¸·´ë°úÀÚ",
+		identifiedResourceName = "Ã¼·ÂÀÇ¸·´ë°úÀÚ",
+		identifiedDescriptionName = {
+			"ÀÏ³â Áß 1ÀÌ °¡Àå ¸¹Àº ³¯À» ±â³äÇÏ¿© ¸¸µé¾îÁø Æ¯º°ÇÑ ¸·´ë°úÀÚ.",
+			"»ç¿ë ½Ã 30ºĞ°£ VIT 15 Áõ°¡.",
+			"º¸³Ê½º·Î 11 ~ 33% »çÀÌÀÇ HP°¡ È¸º¹µÈ´Ù.",
+			"^ff0000¡Ø VIT »ó½Â ºĞÀº Ä³½Ã ¿ä¸®°¡ ¿ì¼± Àû¿ëµÇ¸ç, Ä³½Ã ¿ä¸® È¿°ú°¡ ¾øÀ» °æ¿ì ÀÏ¹İ ¿ä¸®Áß °¡Àå ³ôÀº ¿É¼ÇÀÌ Àû¿ëµË´Ï´Ù. ",
+			"¡Ø »ç¸Á ½Ã È¿°ú°¡ »ç¶óÁı´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23225] = {
+		unidentifiedDisplayName = "[ºñ¸ÅÇ°]¹ÎÃ¸ÀÇ ¸·´ë°úÀÚ",
+		unidentifiedResourceName = "¹ÎÃ¸ÀÇ¸·´ë°úÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "[ºñ¸ÅÇ°]¹ÎÃ¸ÀÇ ¸·´ë°úÀÚ",
+		identifiedResourceName = "¹ÎÃ¸ÀÇ¸·´ë°úÀÚ",
+		identifiedDescriptionName = {
+			"ÀÏ³â Áß 1ÀÌ °¡Àå ¸¹Àº ³¯À» ±â³äÇÏ¿© ¸¸µé¾îÁø Æ¯º°ÇÑ ¸·´ë°úÀÚ.",
+			"»ç¿ë ½Ã 30ºĞ°£ AGI 15 Áõ°¡.",
+			"º¸³Ê½º·Î 10ºĞ°£ 11~33 »çÀÌÀÇ FLEE°¡ »ó½ÂÇÑ´Ù.",
+			"^ff0000¡Ø AGI »ó½Â ºĞÀº Ä³½Ã ¿ä¸®°¡ ¿ì¼± Àû¿ëµÇ¸ç, Ä³½Ã ¿ä¸® È¿°ú°¡ ¾øÀ» °æ¿ì ÀÏ¹İ ¿ä¸®Áß °¡Àå ³ôÀº ¿É¼ÇÀÌ Àû¿ëµË´Ï´Ù. ",
+			"¡Ø º¸³Ê½º·Î ¿Ã¶ó°£ FLEE´Â µ¿ÀÏÇÑ Á¾·ùÀÇ FLEE Áõ°¡ ¿É¼Ç°ú ÁßÃ¸µÇÁö ¾Ê°í °¡Àå ³ôÀº ¿É¼ÇÀ¸·Î Àû¿ëµË´Ï´Ù.",
+			"¡Ø »ç¸Á ½Ã È¿°ú°¡ »ç¶óÁı´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23226] = {
+		unidentifiedDisplayName = "[ºñ¸ÅÇ°]Áö½ÄÀÇ ¸·´ë°úÀÚ",
+		unidentifiedResourceName = "Áö½ÄÀÇ¸·´ë°úÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "[ºñ¸ÅÇ°]Áö½ÄÀÇ ¸·´ë°úÀÚ",
+		identifiedResourceName = "Áö½ÄÀÇ¸·´ë°úÀÚ",
+		identifiedDescriptionName = {
+			"ÀÏ³â Áß 1ÀÌ °¡Àå ¸¹Àº ³¯À» ±â³äÇÏ¿© ¸¸µé¾îÁø Æ¯º°ÇÑ ¸·´ë°úÀÚ.",
+			"»ç¿ë ½Ã 30ºĞ°£ INT 15 Áõ°¡.",
+			"º¸³Ê½º·Î 10ºĞ°£ 11~111 »çÀÌÀÇ MATK°¡ »ó½ÂÇÑ´Ù.",
+			"^ff0000¡Ø INT »ó½Â ºĞÀº Ä³½Ã ¿ä¸®°¡ ¿ì¼± Àû¿ëµÇ¸ç, Ä³½Ã ¿ä¸® È¿°ú°¡ ¾øÀ» °æ¿ì ÀÏ¹İ ¿ä¸®Áß °¡Àå ³ôÀº ¿É¼ÇÀÌ Àû¿ëµË´Ï´Ù. ",
+			"¡Ø º¸³Ê½º·Î ¿Ã¶ó°£ MATK´Â ÇÇ¾¾¹æ ¹öÇÁ¿Í µ¿ÀÏÇÑ Á¾·ù·Î ÁßÃ¸µÇÁö ¾Ê°í ÃÖÁ¾ »ç¿ë ¿É¼Ç¸¸ Àû¿ëµË´Ï´Ù. Áõ°¡µÈ ¼öÄ¡´Â StateÃ¢¿¡¼­ È®ÀÎÇÒ ¼ö ¾ø½À´Ï´Ù.",
+			"¡Ø »ç¸Á ½Ã È¿°ú°¡ »ç¶óÁı´Ï´Ù.^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23227] = {
+		unidentifiedDisplayName = "¸·´ë°úÀÚ 2¼¼Æ®",
+		unidentifiedResourceName = "Æ÷ÀåµÈ»óÀÚ",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "¸·´ë°úÀÚ 2¼¼Æ®",
+		identifiedResourceName = "Æ÷ÀåµÈ»óÀÚ",
+		identifiedDescriptionName = {
+			"ÀÏ³â Áß 1ÀÌ °¡Àå ¸¹Àº ³¯À» ±â³äÇÏ¿© ¸¸µé¾îÁø Æ¯º°ÇÑ ¸·´ë°úÀÚ ¼¼Æ®.",
+			"[ºñ¸ÅÇ°]ÈûÀÇ ¸·´ë°úÀÚ, [ºñ¸ÅÇ°]Ã¼·ÂÀÇ ¸·´ë°úÀÚ, [ºñ¸ÅÇ°]¹ÎÃ¸ÀÇ ¸·´ë°úÀÚ, [ºñ¸ÅÇ°]Áö½ÄÀÇ ¸·´ë°úÀÚ, [ºñ¸ÅÇ°]ÀçÁÖÀÇ ¸·´ë°úÀÚ, [ºñ¸ÅÇ°]Çà¿îÀÇ ¸·´ë°úÀÚ°¡ °¢°¢ 2°³¾¿ µé¾îÀÖ´Ù."
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12977,25 +13537,25 @@ tbl = {
 			"Åõ±¸ ¾ÆÀÌÅÛ¿¡ ¼ÒÄÏÀ» ¸¸µå´Âµ¥ ¼Ò¸ğµÇ´Â µµ±¸. 1È¸¿ëÀ¸·Î ÀÎÃ¦Æ® ½Ãµµ¿Í ÇÔ²² »ç¶óÁø´Ù.",
 			"´ÙÀ½ÀÇ ¾ÆÀÌÅÛ¿¡ ¼ÒÄÏÀ» ¶ÕÀ» ¼ö ÀÖ´Ù.",
 			"¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª ",
-			"»çÀÌ±×·éÀÇ Wing",
-			"·Îº¸ ¾ÆÀÌ",
-			"Ãµ»çÀÇ À¯·É",
-			"¸Á¿ø°æ",
-			"´«°¡¸®°³",
-			"¾Ë¶÷°¡¸é",
-			"¿ÀÆä¶ó À¯·É °¡¸é",
-			"ÇÏÆ®ÆÄ¿îµ¥ÀÌ¼Ç",
-			"½ºÇÉ ±Û·¡½º",
-			"½º¸¶ÀÏ",
-			"ÀÌÇÁ¸®Æ®ÀÇ ±Í",
-			"º´¾Æ¸® ¸ğÀÚ",
+			"»çÀÌ±×·éÀÇ ³¯°³, ·Îº¸ ¾ÆÀÌ ",
+			"Ãµ»çÀÇ À¯·É, ¸Á¿ø°æ ",
+			"´«°¡¸®°³, ¾Ë¶÷°¡¸é ",
+			"¿ÀÆä¶ó À¯·É °¡¸é, ½º¸¶ÀÏ",
+			"½ºÇÉ ±Û·¡½º, ÇÏÆ®ÆÄ¿îµ¥ÀÌ¼Ç",
+			"ÀÌÇÁ¸®Æ®ÀÇ ±Í, º´¾Æ¸® ¸ğÀÚ",
 			"´ëÇü ¸¶Á¦½ºÆ½ °í¿ìÆ®",
-			"³ªºñ °¡¸é",
-			"Ã»ÀÌÀÇ ¿µÈ¥",
+			"Ã»ÀÌÀÇ ¿µÈ¥, ³ªºñ °¡¸é",
+			"½¦µµ¿ì ºÎ½ºÅÍ",
+			"Å¸Ãµ»çÀÇ Ãàº¹",
+			"Á¤·ÉÀÇ ¿Õ°ü",
+			"Åä³¢ ¸¶¼ú ¸ğÀÚ",
+			"¾Æ´©ºñ½º Åõ±¸",
+			"´º¿şÀÌºê ¼±±Û¶ó½º",
 			"¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª ",
 			"¼º°øÈ®·üÀº 25%ÀÌ¸ç, ½ÇÆĞ½Ã ½ÃµµÇÑ Åõ±¸ ¾ÆÀÌÅÛµµ ÇÔ²² »ç¶óÁø´Ù.",
+			"^ff0000ÁÖÀÇ! - ¼ÒÄÏÀ» ¶Õ´Âµ¥¿¡ ¼º°øÇÏ´õ¶óµµ, Á¦·Ãµµ´Â 0À¸·Î ÃÊ±âÈ­ µË´Ï´Ù.^000000",
 			"^ffffff<NAVI>^4D4DFF[ÇÇ¾î½Ì ÀåÀÎ]^000000<INFO>itemmall,18,66,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 1^000000"
+			"¹«°Ô : ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -13768,6 +14328,125 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 0
+	},
+	[27026] = {
+		unidentifiedDisplayName = "È­¿° ÄÜµµ¸£ Ä«µå",
+		unidentifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "È­¿° ÄÜµµ¸£ Ä«µå",
+		identifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		identifiedDescriptionName = { "[È­ÀÌ¾îº¼]ÀÇ º¯µ¿ Ä³½ºÆÃ -50%, µ¥¹ÌÁö +100%", "°è¿­ : ^777777Ä«µå^000000", "ÀåÂø : ^777777¾Ç¼¼»ç¸®^000000", "¹«°Ô : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[27027] = {
+		unidentifiedDisplayName = "È­¿° »÷µå¸Ç Ä«µå",
+		unidentifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "È­¿° »÷µå¸Ç Ä«µå",
+		identifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		identifiedDescriptionName = { "DEF + 50.", "È­¼Ó¼º ¸ó½ºÅÍ¿¡°Ô ¹Ş´Â ¹°¸®, ¸¶¹ı µ¥¹ÌÁö 10% °¨¼Ò.", "°è¿­ : ^777777Ä«µå^000000", "ÀåÂø : ^777777°©¿Ê^000000", "¹«°Ô : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[27028] = {
+		unidentifiedDisplayName = "È­¿° ÇÁ¸±µµ¶ó Ä«µå",
+		unidentifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "È­¿° ÇÁ¸±µµ¶ó Ä«µå",
+		identifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		identifiedDescriptionName = {
+			"Áö¼Ó¼º ¸ó½ºÅÍ¿¡°Ô ÁÖ´Â ¸¶¹ı µ¥¹ÌÁö +3%",
+			"7Á¦·Ã ½Ã, Áö¼Ó¼º ¸ó½ºÅÍ¿¡°Ô ÁÖ´Â ¸¶¹ı µ¥¹ÌÁö +5%",
+			"9Á¦·Ã ½Ã, Áö¼Ó¼º ¸ó½ºÅÍ¿¡°Ô ÁÖ´Â ¸¶¹ı µ¥¹ÌÁö +7%",
+			"°è¿­ : ^777777Ä«µå^000000",
+			"ÀåÂø : ^777777¹«±â^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[27029] = {
+		unidentifiedDisplayName = "È­¿° °í·½ Ä«µå",
+		unidentifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "È­¿° °í·½ Ä«µå",
+		identifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		identifiedDescriptionName = {
+			"È­¼Ó¼º ¸ó½ºÅÍ¿¡°Ô ¹Ş´Â ¹°¸®, ¸¶¹ı °ø°İ·Â 20% °¨¼Ò.",
+			"È­¼Ó¼º ¸ó½ºÅÍ¿¡°Ô ÁÖ´Â ¹°¸® °ø°İ·Â 5% Áõ°¡.",
+			"°è¿­ : ^777777Ä«µå^000000",
+			"ÀåÂø : ^777777¹æÆĞ^000000",
+			"¹«°Ô : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[27030] = {
+		unidentifiedDisplayName = "ºÒ¹÷ Ä«µå",
+		unidentifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "ºÒ¹÷ Ä«µå",
+		identifiedResourceName = "ÀÌ¸§¾ø´ÂÄ«µå",
+		identifiedDescriptionName = { "¹°¸®, ¸¶¹ı °ø°İ½Ã ³ôÀºÈ®·ü·Î Àû¿¡°Ô ¹ßÈ­¸¦ °Ç´Ù.", "°è¿­ : ^777777Ä«µå^000000", "ÀåÂø : ^777777Åõ±¸^000000", "¹«°Ô : ^7777771^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[31118] = {
+		unidentifiedDisplayName = "°¡¸é",
+		unidentifiedResourceName = "½º¸¶ÀÏ",
+		unidentifiedDescriptionName = { "°¨Á¤µÇÁö ¾ÊÀ½. [µ¸º¸±â] ¸¦ »ç¿ëÇÏ¿© °¨Á¤ÇÒ ¼ö ÀÖ´Ù." },
+		identifiedDisplayName = "ÀÇ»ó ¾Ï»ìÀÚÀÇ °¡¸é",
+		identifiedResourceName = "¾Ï»ìÀÚÇØ°ñ°¡¸é",
+		identifiedDescriptionName = {
+			"µ¿¹æÀÇ ¾Ï»ìÁı´Ü¿¡¼­ ¾Ï»ìÀÚ·Î¼­ ÀÎÁ¤¹Ş¾ÒÀ» ¶§ ¹Ş´Â °¡¸é. »ó´ë¿¡°Ô Á×À½À» ÀÎ½Ä½ÃÅ°±â À§ÇØ¼­ ÇØ°ñ ¸ğ¾çÀ¸·Î µğÀÚÀÎµÇ¾ú´Ù.",
+			"^ffffff<NAVI>^4D4DFF[ÇìÀÌ´ã Æç·Î¿ì]^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>^000000",
+			"^b4b4b4ÀÇ»ó ÀÎÃ¦Æ® ½ºÅæ »óÀÚ11·Î ±³È¯ °¡´É.^000000 ",
+			"°è¿­ : ^777777ÀÇ»óÀåºñ^000000 ¹æ¾î : ^7777770^000000",
+			"À§Ä¡ : ^777777ÁßÇÏ´Ü ^000000¹«°Ô : ^7777770^000000",
+			"¿ä±¸ ·¹º§ : ^7777771^000000",
+			"ÀåÂø : ^777777Àü Á÷¾÷^000000"
+		},
+		slotCount = 0,
+		ClassNum = 984
+	},
+	[31120] = {
+		unidentifiedDisplayName = "¾×¼¼¼­¸®",
+		unidentifiedResourceName = "¸®º»",
+		unidentifiedDescriptionName = { "°¨Á¤µÇÁö ¾ÊÀ½. [µ¸º¸±â] ¸¦ »ç¿ëÇÏ¿© °¨Á¤ÇÒ ¼ö ÀÖ´Ù." },
+		identifiedDisplayName = "ÀÇ»ó ¹ìÆÄÀÌ¾îÀÇ »ç¿ª¸¶",
+		identifiedResourceName = "¹ìÆÄÀÌ¾îÀÇ»ç¿ª¸¶",
+		identifiedDescriptionName = {
+			"¹ìÆÄÀÌ¾î°¡ µÈ ±âºĞÀ» Áñ±æ ¼ö ÀÖ´Â ÀÇ»ó¿ëÀÇ ±Í¿Í »ç¿ª¸¶.",
+			"ÇÒ·ÎÀ©ÀÇ °¡ÀåÀ¸·Î µü ¾î¿ï¸®´Â ¾ÆÀÌÅÛ. ",
+			"^ffffff<NAVI>^4D4DFF[ÇìÀÌ´ã Æç·Î¿ì]^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>^000000",
+			"^b4b4b4ÀÇ»ó ÀÎÃ¦Æ® ½ºÅæ »óÀÚ11·Î ±³È¯ °¡´É.^000000 ",
+			"°è¿­ : ^777777ÀÇ»óÀåºñ^000000 ¹æ¾î : ^7777770^000000",
+			"À§Ä¡ : ^777777Áß´Ü ^000000¹«°Ô : ^7777770^000000",
+			"¿ä±¸ ·¹º§ : ^7777771^000000",
+			"ÀåÂø : ^777777Àü Á÷¾÷^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1548
+	},
+	[31123] = {
+		unidentifiedDisplayName = "¸ğÀÚ",
+		unidentifiedResourceName = "ÇŞ",
+		unidentifiedDescriptionName = { "°¨Á¤µÇÁö ¾ÊÀ½. [µ¸º¸±â] ¸¦ »ç¿ëÇÏ¿© °¨Á¤ÇÒ ¼ö ÀÖ´Ù." },
+		identifiedDisplayName = "ÀÇ»ó °í½ºÆ®¸µ Åç ÇŞ",
+		identifiedResourceName = "°í½ºÆ®¸µÅçÇŞ",
+		identifiedDescriptionName = {
+			"°í½ºÆ®¸µÀ» ¸ğÆ¼ºê·ÎÇÑ ´©´ö´©´öÇÑ µğÀÚÀÎÀÌ ±Í¿©¿î ÀÇ»ó¿ë ¸ğÀÚ.",
+			"¸ğÀÚ¸¦ ¾²¸é °í½ºÆ®¸µ¿¡°Ô ¿µÈ¥À» »©¾Ñ±æ °Í °°Àº ±âºĞÀÌ µéÁö¸¸, ´ÜÁö ±âºĞÅ¿ÀÌ´Ù.",
+			"^ffffff<NAVI>^4D4DFF[ÇìÀÌ´ã Æç·Î¿ì]^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>^000000",
+			"^b4b4b4ÀÇ»ó ÀÎÃ¦Æ® ½ºÅæ »óÀÚ11·Î ±³È¯ °¡´É.^000000 ",
+			"°è¿­ : ^777777ÀÇ»óÀåºñ^000000 ¹æ¾î : ^7777770^000000",
+			"À§Ä¡ : ^777777»ó´Ü ^000000¹«°Ô : ^7777770^000000",
+			"¿ä±¸ ·¹º§ : ^7777771^000000",
+			"ÀåÂø : ^777777Àü Á÷¾÷^000000"
+		},
+		slotCount = 0,
+		ClassNum = 1551
 	},
 }
 
