@@ -5404,9 +5404,9 @@ An exclusive axe for academy member.
 ------------------------
 MaxHP +200
 ------------------------
-Reduces delay after attack by 5%.
+Reduces after attack delay by 5%.
 ------------------------
-Every 10 Base Level increment: Reduces delay after attack by 1%, but reduces MaxHP by 40.
+Every 10 Base Level increment: Reduces after attack delay by 1%, but reduces MaxHP by 40.
 ------------------------
 ^663399Indestructible^000000
 ------------------------
@@ -5827,7 +5827,7 @@ A massive Two-Handed Axe that is embedded with an orb imbued with the power of a
 Reduces damage taken from ^6666CCMedium size^000000 monsters by 10%.
 Every refine level reduces damage taken from ^6666CCMedium size^000000 monsters by 1%.
 ------------------------
-Every refine level reduces delay after attack by 1%.
+Every refine level Reduces after attack delay by 1%.
 ------------------------
 Adds a chance of dealing damage to all targets within 15*15 cell area and knock them 7 cells backward when dealing physical attacks.
 ------------------------
@@ -6013,8 +6013,10 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Swordman and Merchant^000000
 #
 1389#
+
 #
 1390#
+
 #
 1391#
 An axe that is made by the Paradise Group. It is suitable for those who have more advanced experience handling two-handed axes.
@@ -6560,6 +6562,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Swordman^000000
 #
 1432#
+
 #
 1433#
 A beautiful spear engraved with patterns of the Rune-Midgarts Kingdom.
@@ -7818,7 +7821,7 @@ Jobs:^6666CC Acolyte^000000
 A hammer that was used by Hollgren to refine weapons and armor;
 it looks bulky and powerful, but it doesn't seem to be fully dependable.
 ------------------------
-Adds a low chance of destroying the weapons and armor of enemies.
+Adds a low chance of destroying the weapon and armor of target.
 This chance is greatly increased when the Mastersmith Card is compounded to this weapon,
 but adds a low chance of breaking the wearer's equipment.
 ------------------------
@@ -8505,6 +8508,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC Priest, Sage and Star Gladiator^000000
 #
 1582#
+
 #
 1583#
 A book that is made by the Paradise Group. It is suitable for those who have more advanced experience handling magic books.
@@ -11831,7 +11835,7 @@ Recovers 3 SP for each enemy defeated.
 ------------------------
 Adds a chance of autocasting Level 3 ^008800Heaven's Drive^000000 on attacker when wielder receive physical attacks.
 ------------------------
-Each attack has the chance of inflicting all enemies within a 5*5 cell area with the Confused status.
+Each attack has the chance of inflicting all enemies within a 11*11 cell area with the Confused status.
 ------------------------
 Class:^6666CC Musical Instrument^000000
 Attack:^CC0000 130^000000
@@ -12444,7 +12448,7 @@ Recovers 5 SP for each defeated enemy.
 ------------------------
 Adds a chance of autocasting Level 3 ^008800Frost Nova^000000 on attacker when wielder receive physical attacks.
 ------------------------
-Adds a chance of inflicting ^663399Silence^000000 status to all enemies within a 5*5 cell area when dealing physical attacks.
+Adds a chance of inflicting ^663399Silence^000000 status to all enemies within a 11*11 cell area when dealing physical attacks.
 ------------------------
 Class:^6666CC Whip^000000
 Attack:^CC0000 110^000000
@@ -19393,7 +19397,7 @@ When combined with Wanderer's Sakkat and refine level of coat is +5: Enables Lev
 If coat's refine level +7: Enables Level 5 Double attack.
 If wearer has learned higher level of Double attacks, it will use the learned level instead.
 ------------------------
-When combined with Wanderer's Sakkat and Pet Wanderer: Reduces delay after attack by 3%.
+When combined with Wanderer's Sakkat and Pet Wanderer: Reduces after attack delay by 3%.
 If coat's refine level +7: ASPD +1.
 ------------------------
 Class:^6666CC Garment^000000
@@ -23149,7 +23153,7 @@ Jobs:^6666CC All classes^000000
 2896#
 A special accessories which there are magic. It could enhance the ability of the wearer.
 ------------------------
-Reduces delay after attack by 3%.
+Reduces after attack delay by 3%.
 ------------------------
 Valor set bonus: MaxHP +500, MaxSP +300, Def +10, ATK +10.
 ------------------------
@@ -23247,6 +23251,7 @@ Level Requirement:^009900 33^000000
 Jobs:^6666CC All except Novice^000000
 #
 2904#
+
 #
 2905#
 A trap for insects with strong smell.
@@ -24014,6 +24019,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 2970#
+
 #
 2971#
 A silver-colored watch with connecting chain.
@@ -24027,12 +24033,16 @@ Level Requirement:^009900 80^000000
 Jobs:^6666CC Mage Jobs/Soul Linker^000000
 #
 2972#
+
 #
 2973#
+
 #
 2974#
+
 #
 2975#
+
 #
 2976#
 Lantern with red light
@@ -30229,7 +30239,7 @@ Compound on:^008C99 Garment^000000
 Weight:^009900 1^000000
 #
 4630#
-Adds a chance of inflicting ^663399Curse^000000 status to all targets within 11x11 cells when wearer receive physical attacks.
+Adds a chance of inflicting ^663399Curse^000000 status to all targets within 11x11 cells when wearer dealing physical attacks.
 When combined with a garment compounded to ^008800Arc Elder Card^000000, the chance is further increased.
 ------------------------
 Class:^6666CC Card^000000
@@ -34504,7 +34514,7 @@ MATK +2%
 ------------------------
 Increase Healing skills by 5%.
 ------------------------
-If upgraded to +7:
+Refine level +7:
 ATK +1%
 MATK +1%
 Increase Healing skills by 1%.
@@ -38223,18 +38233,21 @@ Weight:^009900 10^000000
 Jobs:^6666CC All classes^000000
 #
 5490#
-This ceremonial headdress holds the likeness of Anubis, god of the underworld.
-It is rumored that it empowers the wearer against powerful divine beings.
+A headdress that resemble the god of darkness, Anubis.
 ------------------------
-Reduces damage taken from ^6666CCBoss^000000 monsters by 10%.
+MDEF +5.
 ------------------------
-Increase effectiveness of healing skills and healing items by 10%.
+Reduces damage taken from Boss monster by 10%.
+------------------------
+Increases restoration gained from Healing skills and restorative items by 10%.
+------------------------
+^FF0000Unrefineable^000000
 ------------------------
 Class:^6666CC Headgear^000000
-Defense:^0000FF 3^000000
+Defense:^0000FF 8^000000
 Location:^6666CC Upper, Middle^000000
 Weight:^009900 0^000000
-Level Requirement:^009900 70^000000
+Level Requirement:^009900 65^000000
 Jobs:^6666CC All classes^000000
 #
 5491#
@@ -43242,12 +43255,12 @@ Jobs:^6666CC Super Novice^000000
 5898#
 A hairband with an array of autumn leaves attached to it. It displays the beauty of an autumn forest for all to see.
 ------------------------
-Reduces SP consumption of [Wind Walk] by 20.
+Reduces SP consumption of ^008800Wind Walk^000000 by 20.
 ------------------------
 Increases long range physical attacks by 5%.
 ------------------------
-If upgraded to +7: Increases ATK by 2 for every 5 base INT
-If upgraded to +9: Increases Arrow Storm damage additionally by 2% for every its BaseLV 10.
+Refine level +7: Increases ATK by 2 for every 5 base INT.
+Refine level +9: Increases ^008800Arrow Storm^000000 damage by 2% for every 10 Base Level.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -43259,10 +43272,10 @@ Jobs:^6666CC Ranger^000000
 5899#
 A simple black ribbon that promotes focus no matter how intense the battle is.
 ------------------------
-Increases [Sonic Wave] and [Wind Cutter] damage by 50%.
+Increases ^008800Sonic Wave^000000 and ^008800Wind Cutter^000000 damage by 50%.
 ------------------------
 Refine Level +7: ATK +2 for every 5 base AGI.
-Refine Level +9: Increases [Ignition Break] damage by 30%.
+Refine Level +9: Increases ^008800Ignition Break^000000 damage by 30%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -43274,10 +43287,10 @@ Jobs:^6666CC Rune Knight^000000
 5900#
 A majestic hat that displays the divine authority that has been invested in the wearer.
 ------------------------
-Reduces damage taken from Small, Medium and Large monsters by 5%.
+Reduces damage taken from Small, Medium and Large size monsters by 5%.
 ------------------------
 Refine Level +7: Adds 1% chance of autocasting Level 5 ^008800Heal^000000 on yourself when wearer receive physical attacks. (Or activate based on learned skill level)
-Refine Level +9: Increases [Genesis Ray] damage by 20%.
+Refine Level +9: Increases ^008800Genesis Ray^000000 damage by 20%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -43289,10 +43302,10 @@ Jobs:^6666CC Royal Guard^000000
 5901#
 A green beret that helps the user to refocus their energy into more meaningful attacks. The star on the front is inscribed with the character for 'Dragon'.
 ------------------------
-Adds a chance of autocasting Level 1 [Fallen Empire] when using [Dragon Combo]. (Or activate based on learned skill level)
+Adds a chance of autocasting Level 1 ^008800Fallen Empire^000000 when using ^008800Dragon Combo^000000. (Or activate based on learned skill level)
 ------------------------
 Refine Level +7: Adds 3% chance of increasing ASPD by 2 for 5 sec when dealing physical attacks.
-Refine Level +9: Increases [Fallen Empire] damage by 30%.
+Refine Level +9: Increases ^008800Fallen Empire^000000 damage by 30%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -43307,7 +43320,7 @@ A good-luck hat worn by farmers to make sure they collect an exceptionally good 
 Adds a chance to drop Blood Sucker Seed and Explosive Mushroom Spore when killing monsters.(1%)
 ------------------------
 Refine Level +7: adds 0.5% chance to drop Thorn Seed when killing monsters.
-Refine Level +9: Increases the damage done by Cart Cannon skill by 15%.
+Refine Level +9: Increases ^008800Cart Cannon^000000 damage by 15%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -43322,9 +43335,9 @@ It demonstrates a strong connection between the wearer and the afterlife.
 ------------------------
 Every refine level: CRIT +2, reduce fixed cast time by 2%.
 ------------------------
-when wearer receive physical attacks, adds a 1% chance of autocasting highest level learned Eswoo on the wearer.
+Adds 1% chance of autocasting highest level learned Eswoo on wearer when wearer receive physical attacks.
 ------------------------
-Refine Level +7: MATK +20, Increase casting rate of Eswoo.(3%)
+Refine Level +7: MATK +20, Increase variable cast rate of Eswoo by 3%.
 Refine Level +9: Reduces variable cast time by 20%, reduces SP consumption of Estun and Esma by 5.
 ------------------------
 Class:^6666CC Headgear^000000
@@ -43339,7 +43352,7 @@ A simple hat that would look inconspicuous in any crowd. Its very helpful to any
 ------------------------
 MATK +7%
 ------------------------
-Refine Level +7: Increases MATK by 2 per Base INT 5.
+Refine Level +7: Increases MATK by 2 for every 5 Base INT.
 Refine Level +9: MATK +5%.
 ------------------------
 Class:^6666CC Headgear^000000
@@ -43353,10 +43366,10 @@ Jobs:^6666CC Shadow Chaser^000000
 A finely crafted hat designed just for Maestros.
 You can't see from the outside, but on the inside is written every song a Maestro needs to make it big!
 ------------------------
-Increase Severe Rainstorm damage by 15%.
+Increase ^008800Severe Rainstorm^000000 damage by 15%.
 ------------------------
 Refine Level +7: Reduces fixed casting time of all skills by 4% for each level of Voice Lessons learned.
-Refine Level +9: Reduces the SP cost of Severe Rainstorm by 10.
+Refine Level +9: Reduces SP cost of ^008800Severe Rainstorm^000000 by 10.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -43369,10 +43382,10 @@ Jobs:^6666CC Maestro^000000
 Twisted horns that were supposedly crafted to look like those of a race of demons that died out long ago.
 Apparently placing them on your head can grant you a small amount of their power.
 ------------------------
-Increase the damage of the skill Counter Slash by 10% for each level of Weapon Blocking learned.
+Increase Counter Slash damage by 10% for each level of Weapon Blocking learned.
 ------------------------
 Refine Level +7: ATK +20, HIT +5.
-Refine Level +9: when physical attacking, autocast Cross Impact Level 1 by 1% chance.
+Refine Level +9: Adds 1% chance of autocasting Level 1 Cross Impact when dealing physical attacks.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -43385,7 +43398,7 @@ Jobs:^6666CC Guillotine Cross^000000
 A crisp white hat most often used by the captains of large naval craft.
 It came to be seen as a sign of unwavering strength in the eyes of naval crews everywhere.
 ------------------------
-Increases [Axe Tornado] and ^008800Axe Boomerang^000000 damage by 20%.
+Increases ^008800Axe Tornado^000000 and ^008800Axe Boomerang^000000 damage by 20%.
 ------------------------
 Refine Level +7: each level of Weaponry Research learned increases damage of Axe Tornado by an additional 1%
 Refine Level +9: each level of Axe Training increases the damage of Axe Tornado by an additional 1%
@@ -43484,18 +43497,18 @@ A scarf with a peaceful color. Wore by people who participate in demonstration.
 ------------------------
 Reduces damage taken from long range physical attacks by 3%.
 ------------------------
-When combined with [Yellow Hood]:
-Refine Level of [Yellow Hood] +5: Reduces damage taken from long range physical attacks by 3%.
-Refine Level of [Yellow Hood] +7: Reduces damage taken from long range physical attacks by 4%.
+When combined with Yellow Hood:
+Refine Level of Yellow Hood +5: Reduces damage taken from long range physical attacks by 3%.
+Refine Level of Yellow Hood +7: Reduces damage taken from long range physical attacks by 4%.
 ------------------------
-When combined with [Yellow Ribbon]:
-Refine Level of [Yellow Ribbon] +5: Reduces damage taken from long range physical attacks by 3%.
-Refine Level of [Yellow Ribbon] +7: Reduces damage taken from long range physical attacks by 4%.
+When combined with Yellow Ribbon:
+Refine Level of Yellow Ribbon +5: Reduces damage taken from long range physical attacks by 3%.
+Refine Level of Yellow Ribbon +7: Reduces damage taken from long range physical attacks by 4%.
 ------------------------
 When combined with [Long Mace]:
 Increases damage taken from long range physical attacks by 10%.
 ------------------------
-When equipped by Archer classes and combined with [Heaven Wing of Imperial Dragon]:
+When equipped by Archer classes and combined with Heaven Wing of Imperial Dragon:
 Increases damage taken from long range physical attacks by 10%.
 ------------------------
 Class:^6666CC Headgear^000000
@@ -43511,11 +43524,11 @@ A gambler seal that attached to cheek for a lucky charm.
 CRIT +3.
 Critical damage +3%.
 ------------------------
-Reduces damage taken from Arrow Storm and Gate of Hell by 10%.
+Reduces damage taken from ^008800Arrow Storm^000000 and ^008800Gate of Hell^000000 by 10%.
 ------------------------
 Every 10 base increment of LUK, CRIT +1, ATK +2, MATK +2.
 When base LUK is 108: CRIT +5, Critical damage +10%.
-When base LUK is 120: CRIT +10, Critical damage +17%, reduces damage taken from Arrow Storm and Gate of Hell by 30%.
+When base LUK is 120: CRIT +10, Critical damage +17%, reduces damage taken from ^008800Arrow Storm^000000 and ^008800Gate of Hell^000000 by 30%.
 ------------------------
 Every 10 base increment of DEX, Critical damage -2%.
 ------------------------
@@ -43528,9 +43541,12 @@ Jobs:^6666CC All classes^000000
 #
 5919#
 A colorful camelia hairpin.
+------------------------
 MDEF +20
+------------------------
 Adds a chance of autocasting Level 1 Pneuma when dealing physical attacks.
 Every refine level increase the auto cast rate.
+------------------------
 Class:^6666CC Headear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -43546,11 +43562,11 @@ Increases healing skills by 10%.
 Every 1 refine, reduces SP consumption of Coluseo Heal by 5.
 Every 2 refine, increase healing skill by 2%.
 ------------------------
-When combined with [Light of Recovery]:
-Every 1 refine of [Light of Recovery], reduces SP consumption of Heal by 6, Coluseo Heal by 10 and Highness Heal by 14.
+When combined with Light of Recovery:
+Every 1 refine level of Light of Recovery, reduces SP consumption of Heal by 6, Coluseo Heal by 10 and Highness Heal by 14.
 ------------------------
-When combined with [Benevolent Guardian]:
-Every 2 refine of [Benevolent Guardian], increase healing skills by 3%.
+When combined with Benevolent Guardian:
+Every 2 refine level of Benevolent Guardian, increase healing skills by 3%.
 ------------------------
 Class:^6666CC Footgear^000000
 Defense:^0000FF 10^000000
@@ -43579,9 +43595,9 @@ Increases physical damage inflicted on Earth element monsters by 2%.
 ------------------------
 Add a chance to drop a Red Blood when killing a monster.
 ------------------------
-When combined with [Earth Spirit Armor]:
+When combined with Earth Spirit Armor:
 Increases physical damage inflicted on Earth element monsters by 2%,
-Every 1 refine past +5 of Earth Spirit Armor, physical damage against Earth element monsters +1%.
+Every 1 refine level past +5 of Earth Spirit Armor, physical damage against Earth element monsters +1%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
@@ -43597,9 +43613,9 @@ Increases physical damage inflicted on ^FF0000Fire^000000 element monsters by 2%
 ------------------------
 Add a chance to drop a Crystal Blue when killing a monster.
 ------------------------
-When combined with [Flame Spirit Armor]:
+When combined with Flame Spirit Armor:
 Increases physical damage inflicted on ^FF0000Fire^000000 element monsters by 2%,
-Every 1 refine past +5 of Flame Spirit Armor, physical damage against ^FF0000Fire^000000 element monsters +1%.
+Every 1 refine level past +5 of Flame Spirit Armor, physical damage against ^FF0000Fire^000000 element monsters +1%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
@@ -43615,9 +43631,9 @@ Increases physical damage inflicted on ^0000BBWater^000000 element monsters by 2
 ------------------------
 Add a chance to drop a Wind of Verdure when killing a monster.
 ------------------------
-When combined with [Water Spirit Armor]:
+When combined with Water Spirit Armor:
 Increases physical damage inflicted on ^0000BBWater^000000 element monsters by 2%,
-Every 1 refine past +5 of Water Spirit Armor, physical damage against ^0000BBWater^000000 element monsters +1%.
+Every 1 refine level past +5 of Water Spirit Armor, physical damage against ^0000BBWater^000000 element monsters +1%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
@@ -43633,9 +43649,9 @@ Increases physical damage inflicted on ^33CC00Wind^000000 element monsters by 2%
 ------------------------
 Add a chance to drop a Green Live when killing a monster.
 ------------------------
-When combined with [Wind Spirit Armor]:
+When combined with Wind Spirit Armor:
 Increases physical damage inflicted on ^33CC00Wind^000000 element monsters by 2%,
-Every 1 refine past +5 of Wind Spirit Armor, physical damage against ^33CC00Wind^000000 element monsters +1%.
+Every 1 refine level past +5 of Wind Spirit Armor, physical damage against ^33CC00Wind^000000 element monsters +1%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
@@ -43710,7 +43726,7 @@ Jobs:^6666CC All classes^000000
 A mask of fallen shinobi.
 ------------------------
 ATK +1%
-long range physical attack +2%.
+Long range physical attack +2%.
 ------------------------
 When base STR is 108: ATK +1%, long range physical attack +2%.
 When base STR is 120: ATK +2%, long range physical attack +3%.
@@ -43723,7 +43739,7 @@ Level Requirement:^009900 80^000000
 Jobs:^6666CC All classes^000000
 #
 5934#
-Ballons that floating on the back of head.
+A balloon that floating on the back of head.
 ------------------------
 MDEF +5
 ------------------------
@@ -43753,10 +43769,52 @@ Level Requirement:^009900 10^000000
 Jobs:^6666CC All classes^000000
 #
 5937#
-[JRO item]
+This hat makes it's possible to look around when flying on high speed.
+------------------------
+MDEF +5
+------------------------
+Restore SP by 5 when defeating Dragon monster with melee physical attacks.
+------------------------
+Restore HP by 100 when defeating monster with melee physical attacks.
+------------------------
+Refine level +5: Reduces damage taken from Dragon monster by 5%.
+Refine level +7: Reduces damage taken from Dragon monster by 5%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 5^000000
+Location:^6666CC Upper^000000
+Weight:^009900 30^000000
+Level Requirement:^009900 20^000000
+Jobs:^6666CC All classes^000000
 #
 5938#
-[JRO item]
+A hat made based of sea creature.
+------------------------
+MDEF +8
+------------------------
+Fresh fish recovery rate +50%.
+Sashimi and Sushi recovery rate +125%.
+------------------------
+Refine level +5:
+Fresh fish recovery rate +50%.
+Sashimi and Sushi recovery rate +125%.
+------------------------
+Refine level +6:
+Fresh fish recovery rate +50%.
+Sashimi and Sushi recovery rate +125%.
+------------------------
+Refine level +7:
+Fresh fish recovery rate +50%.
+Sashimi and Sushi recovery rate +125%.
+------------------------
+^663399Indestructible^000000
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 8^000000
+Location:^6666CC Upper^000000
+Weight:^009900 88^000000
+Level Requirement:^009900 60^000000
+Jobs:^6666CC All classes^000000
 #
 5940#
 A hat made based of appearance of Guardian of Brasilis waterfall.
@@ -43856,7 +43914,7 @@ Jobs:^6666CC All classes^000000
 5966#
 An ears ornament modeled after the ears of king of Laphines.
 ------------------------
-Every 10 base points of DEX, MATK +2
+Every 10 base points of DEX, MATK +2.
 ------------------------
 When base DEX is 108: MATK +60, Variable cast rate -10%.
 When base DEX is 120: MATK +40, Variable cast rate -5%.
@@ -44027,7 +44085,7 @@ A doll to celebrate the 61st generation of royal family.
 Reduces damage taken from ^6666CCBoss^000000 monsters by 10%.
 ------------------------
 When you have Zherlthsh pet, reduces damage taken from ^6666CCBoss^000000 monsters by 5%.
-When intimacy is 'royal', reduces damage taken from ^6666CCBoss^000000 monsters by 5%.
+When intimacy is 'Loyal', reduces damage taken from ^6666CCBoss^000000 monsters by 5%.
 ------------------------
 ^FF0000Unrefineable^000000
 ^663399Indestructible^000000
@@ -44122,7 +44180,7 @@ Wickebine's black cat ears.
 ------------------------
 FLEE +10
 CRIT +3
-Critical damage +10%,
+Critical damage +10%.
 Reduces defense by 50%.
 ------------------------
 Class:^6666CC Headgear^000000
@@ -44261,7 +44319,6 @@ Weight:^009900 0^000000
 6026#
 This written oath professes undying love, loyalty, and union.
 Forever in life, and eternally beyond death.
-^FFFFFF_^000000
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
@@ -46002,19 +46059,29 @@ Gemstone with Earth element, a small piece split from Green Live.
 Weight:^009900 0.5^000000
 #
 6364#
-
+A coin from a treasure chest. Can be exchanged with strong equipment.
+^FFFFFF_^000000
+Weight:^009900 0^000000
 #
 6365#
-
+A coin from a treasure chest. Can be exchanged with strong equipment.
+^FFFFFF_^000000
+Weight:^009900 0^000000
 #
 6366#
-
+A coin from a treasure chest. Can be exchanged with strong equipment.
+^FFFFFF_^000000
+Weight:^009900 0^000000
 #
 6367#
-
+A coin from a treasure chest. Can be exchanged with strong equipment.
+^FFFFFF_^000000
+Weight:^009900 0^000000
 #
 6368#
-
+A coin from a treasure chest. Can be exchanged with strong equipment.
+^FFFFFF_^000000
+Weight:^009900 0^000000
 #
 6369#
 
@@ -46050,12 +46117,12 @@ You must have at least 1 of the items in your inventory that you wish to Buy in 
 Weight:^009900 1^000000
 #
 6378#
-...
+A token given to winner of server tournament. Can be exchanged with items.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6379#
-...
+A card dedicated for currency replacement.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
@@ -46158,14 +46225,15 @@ Find a cat warehouse staff and show this flyer for opportunity to use their ware
 Weight:^009900 0^000000
 #
 6399#
-...
+A ticket for marketing team. Can be exchanged with something.
+Open http://www.ragnarok.co.kr/news/listEvent.asp for more information.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 6400#
-...
+A new year greeting card written by Operating team.
 ^FFFFFF_^000000
-Weight:^009900 1^000000
+Weight:^009900 0^000000
 #
 6401#
 Vegetable oil from oil palm fruit. It's very heavy!!
@@ -46211,14 +46279,14 @@ Kartu ucapan selamat Idul Fitri yang sering dikirmkan pada keluarga, kerabat dan
 Weight:^009900 1^000000
 #
 6411#
-...
+A ripe watermelon.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 6412#
-...
+A medal from winning a monster race. Can be exchanged with something.
 ^FFFFFF_^000000
-Weight:^009900 1^000000
+Weight:^009900 0^000000
 #
 6413#
 New life insurance certificate.
@@ -46226,8 +46294,12 @@ Once you have one, will recover EXP that you might lose when unable to battle.
 Weight:^009900 1^000000
 #
 6414#
-...
+ATK +1000, MATK +1000, ASPD 193.
 ^FFFFFF_^000000
+YOU JUST ACTIVATED MY TRAP CARD!!
+^FFFFFF_^000000
+Class:^6666CC Card^000000
+Compound on:^00CC33 Wounded Heart^000000
 Weight:^009900 1^000000
 #
 6415#
@@ -46243,26 +46315,32 @@ Weight:^009900 0^000000
 6417#
 Sunkissed Silvervine Fruit. Humans think that it is normal and tastes bad but it is valuable in Malangdo.
 Use these as currency to exchange for access to memorial dungeons and to exchange for enchanting A-E grade coins with the Special Vending Machine and Coin Exchanger in Malangdo.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6418#
 Glittering high class coin. Used for enchanting luxurious level 4 weapons.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6419#
 Glittering high class coin. Used for enchanting luxurious level 4 weapons.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6420#
 General normal coin. Used for enchanting middle class weapons.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6421#
 General normal coin. Used for enchanting middle class weapons.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6422#
 Poor low class coin. A high number of these can be used to to enhance weapons.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6423#
@@ -46271,38 +46349,47 @@ Weight:^009900 0^000000
 #
 6424#
 A piece of a soul's spirit that refuses to rest in peace.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6425#
 A certificate that says that you have helped liberate a soul from being damned in the afterlife.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6426#
 It looks like normal canned food but the surface is rusted here and there. It actually grosses you out.
+^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 6427#
 Sack full of poor quality canned food. It's actual purpose is suspicious...
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6428#
 Adventure Card from Meow Adventure Club. This card is necessary for experiencing the adventure of the Meow Adventure Club.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6429#
 Adventure Card from Meow Adventure Club. This card is necessary for experiencing the adventure of the Meow Adventure Club.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6430#
 A fragment of a picture which was found in the treasure hunt. When all the fragments are gathered, it will become a complete picture.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6431#
 A normal, ordinary bucket. Seems like anything can be carried with it.
+^FFFFFF_^000000
 Weight:^009900 10^000000
 #
 6432#
 A bucket with water filled to the top. It is pretty heavy, so be careful not to spill it.
+^FFFFFF_^000000
 Weight:^009900 300^000000
 #
 6433#
@@ -46311,6 +46398,7 @@ Weight:^009900 30^000000
 #
 6434#
 A Fixing Kit box for a crack in the ground. There is everything for fixing like shovel, saw, adhesives, stapler, sea cucumber and sea squirt.
+^FFFFFF_^000000
 Weight:^009900 100^000000
 #
 6435#
@@ -46320,40 +46408,49 @@ Weight:^009900 10^000000
 6436#
 ^000088Rental Item^000000
 A token in which Protection of the Seagod was endowed into. It allows you to have a special ability to survive deep under the sea. Used to access the Culvert Memorial Dungeon
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6437#
 A perfume made to make one smell like a Scaraba. Spraying this will help you avoid Scarabas from mobbing you.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6438#
 Oridecon which is blessed by the smith God. When refining weapon with refine Lv between +6 and +12, weapon won't vanish even if the refine fails.
+^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 6439#
 Elunium which is blessed by the smith God. When refining weapon with refine Lv between +6 and +12, armor won't vanish even if the refine fails.
+^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 6440#
 A lubricant which helps removing cards which are already stuck in a slot of an equipment.
 However, this will only help the card removal.
 The equipment and its refine level may have a problem after trying.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6441#
 A lubricant which helps removing cards which are already stuck in a slot of an equipment.
 However, this will only help the card removal.
 The equipment and its refine level may have a problem after trying.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6442#
 ^000088Rental Item^000000
 A special hunting stick to hunt Giant Octopus. Use this item to access the Culvert Memorial Dungeon.
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6443#
 [^FF0000Fragile^000000]
 The legendary agent which is said to melt the surface of an object so anything can be separated. It will be perfect for taking off MVP cards.
+^ffffff<NAVI>^4D4DFF[Richard]^000000<INFO>malangdo,220,160,0,100,0,0</INFO></NAVI>^000000
+^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 6444#
@@ -47049,7 +47146,7 @@ Weight:^009900 1^000000
 #
 6635#
 The blacksmith's earnest hearts of all the world is contained within the bottle.
-^9C2839실패 시엔 제련도 하락이나 장비의 파괴를 1회에 한해 무효화 해주며, 제련의 성공 실패와 관계 없이 이 아이템은 축복을 내리고 사라집니다. 또한 제련도에 따라 필요 수량이 증가합니다.^000000
+Refine failure will not destroy equipment or reduce equipment refine level. It will vanish once used. The quantity used depends on refine level of equipment.
 --------------------------
 **Total bottle required:
 +7 refine -> +8 refine : 1 ea
@@ -47066,42 +47163,42 @@ Weight:^009900 0^000000
 #
 6636#
 A stone filled with strength.
-Gives below stats to Upper Costume
+Gives below stats to Upper Costume.
 STR +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 6637#
 A stone filled with Intelligence.
-Gives below stats to Upper Costume
+Gives below stats to Upper Costume.
 INT +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 6638#
 A stone filled with Agility.
-Gives below stats to Upper Costume
+Gives below stats to Upper Costume.
 AGI +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 6639#
 A stone filled with Dexterity.
-Gives below stats to Upper Costume
+Gives below stats to Upper Costume.
 DEX +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 6640#
 A stone filled with Health.
-Gives below stats to Upper Costume
+Gives below stats to Upper Costume.
 VIT +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 6641#
 A stone filled with Lucky.
-Gives below stats to Upper Costume
+Gives below stats to Upper Costume.
 LUK +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
@@ -47115,14 +47212,14 @@ Weight:^009900 10^000000
 #
 6643#
 A stone with Magical.
-Gives below stats to Middle Costume
+Gives below stats to Middle Costume.
 MATK +1%.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 6644#
 A stone with Hit.
-Gives below stats to Lower Costume
+Gives below stats to Lower Costume.
 HIT +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
@@ -47452,7 +47549,7 @@ Weight:^009900 1^000000
 #
 6716#
 A stone that increases CRIT.
-Gives below stats on Costume upper slot
+Gives below stats on Costume upper slot.
 CRIT +1.
 ^FFFFFF<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,22,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
@@ -52485,33 +52582,21 @@ A Crystal monster which is searched for by collectors.
 Weight:^009900 10^000000
 #
 7619#
-^FF0000Speak to Mighty Hammer at Paradise Group to exchange these for the new Enriched version^000000
-Old Concentrated Elunium
-that has been buried
-deep underground.
-Used as a material
-to strengthen armor.
-Enhances a chance of
-successful upgrade.
-Only Suhnbi of Payon is
-capable of refining with
-this material.
-^FFFFFF_^000000
+Old Concentrated Elunium that has been buried deep underground.
+Enhances a chance of successful armor upgrade.
+^ffffff<NAVI>^4D4DFF[Blacksmith Brok]^000000<INFO>itemmall,24,71,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[HollaDang]^000000<INFO>malangdo,221,174,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Shadow Blacksmith]^000000<INFO>itemmall,31,75,0,100,0,0</INFO></NAVI>^000000 - Shadow equipment upgrade.
+^ffffff_^000000
 Weight:^009900 1^000000
 #
 7620#
-^FF0000Speak to Mighty Hammer at Paradise Group to exchange these for the new Enriched version^000000
-Old Dense Oridecon
-that has been buried
-deep underground.
-Used as a material to
-strengthen weapons.
-Enhances a chance of
-successful upgrade.
-Only Suhnbi of Payon is
-capable of refining with
-this material.
-^FFFFFF_^000000
+Old Dense Oridecon that has been buried deep underground.
+Enhances a chance of successful weapon upgrade.
+^ffffff<NAVI>^4D4DFF[Blacksmith Brok]^000000<INFO>itemmall,24,71,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[HollaDang]^000000<INFO>malangdo,221,174,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Shadow Blacksmith]^000000<INFO>itemmall,31,75,0,100,0,0</INFO></NAVI>^000000 - Shadow equipment upgrade.
+^ffffff_^000000
 Weight:^009900 1^000000
 #
 7621#
@@ -52531,39 +52616,40 @@ New name for new adventure! A ticket for Name Change Service.
 Weight:^009900 0^000000
 #
 7624#
+
 #
 7625#
-...
+Can be exchanged with special reward. Get more to get better reward.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 7626#
-...
+A soft red gum. Can be exchanged with something.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 7627#
-...
+A key that can open earth box.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 7628#
-...
+A key that can open earth box.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 7629#
-...
+A gift box that adored by women.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 7630#
-...
+A broom full of aloe fragrance.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 7631#
-...
+Residue of garbage that smell very bad.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
@@ -52593,12 +52679,12 @@ Weight:^009900 0^000000
 Weight:^009900 1^000000
 #
 7638#
-...
+Contain first ingredient to create Father's Gift Box.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
 7639#
-...
+Contain second ingredient to create Father's Gift Box.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
@@ -52647,7 +52733,7 @@ Weight:^009900 1^000000
 Weight:^009900 0^000000
 #
 7651#
-...
+Egg contains mysterious items.
 Weight:^009900 1^000000
 #
 7663#
@@ -52700,7 +52786,7 @@ Coupon to exchange for a special gift
 Weight:^009900 0^000000
 #
 7701#
-...
+A strong white crystal contain the spirit of dragon.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
@@ -52715,17 +52801,13 @@ Cutting of gear. You earn to make special Gear of this cutting.
 Weight:^009900 1^000000
 #
 7704#
-A device that can
-measure the ground's
-temperature. However,
-its readings don't
-seem very reliable.
+A device that can measure the ground's temperature.
+However, its readings don't seem very reliable.
 ^FFFFFF_^000000
 Weight:^009900 0^000000
 #
 7705#
-A note written
-by a Geologist.
+A note written by a Geologist.
 ^FFFFFF_^000000
 1WN
 2ES
@@ -53302,7 +53384,7 @@ The coupon where the person who conveys the sorry be mind is coming to be put in
 Weight:^009900 1^000000
 #
 7792#
-...
+A perennial grass that called Old Testament.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
@@ -53397,7 +53479,7 @@ A symbol of Wealth to "Ravela".
 Weight:^009900 1^000000
 #
 7811#
-Anvil gold.
+Anvil made of gold.
 ^FFFFFF_^000000
 Weight:^009900 1^000000
 #
@@ -54953,10 +55035,10 @@ Class:^6666CC Monster Egg^000000
 9098#
 An egg in which an Earth Deleter Cute Pet rests.
 Can be hatched by using a ^6666CCPet Incubator^000000.
-When intimacy is Awkward: Reduces delay after attack by 1%.
-When intimacy is Neutral: Reduces delay after attack by 1%, AGI +1.
-When intimacy is Cordial: Reduces delay after attack by 2%, AGI +2.
-When intimacy is Loyal: Reduces delay after attack by 3%, AGI +3.
+When intimacy is Awkward: Reduces after attack delay by 1%.
+When intimacy is Neutral: Reduces after attack delay by 1%, AGI +1.
+When intimacy is Cordial: Reduces after attack delay by 2%, AGI +2.
+When intimacy is Loyal: Reduces after attack delay by 3%, AGI +3.
 ^FFFFFF_^000000
 Class:^6666CC Monster Egg^000000
 #
@@ -54973,6 +55055,12 @@ An egg in which a Gremlin Cute Pet rests.
 Can be hatched by using a ^6666CCPet Incubator^000000.
 When intimacy is Cordial: DEX +1, HIT +1.
 When intimacy is Loyal: DEX +2, HIT +1.
+^FFFFFF_^000000
+Class:^6666CC Monster Egg^000000
+#
+9101#
+A crate in which a Scatleton Cute Pet rests.
+Can be awoken by using a ^6666CCPet Incubator^000000.
 ^FFFFFF_^000000
 Class:^6666CC Monster Egg^000000
 #
@@ -55210,6 +55298,13 @@ Backpack flag sticking out the side of the gap, quite unpatriotic.
 Class:^6666CC Cute Pet Equipment^000000
 Pet:^0000FF Marin^000000
 #
+10040#
+A cute red collar with a bell attached in front of it.
+It's seem fits well when wore by a small animal.
+^FFFFFF_^000000
+Class:^6666CC Cute Pet Equipment^000000
+Pet:^0000FF Scatleton^000000
+#
 11000#
 A book documenting the history of Prontera. There's a whole chapter dedicated to Tristam III.
 #
@@ -55386,6 +55481,7 @@ A combining manual easier than instant cook book. Just follow what they are sayi
 Weight:^009900 1^000000
 #
 11061#
+
 #
 11500#
 A yellow potion that
@@ -55884,6 +55980,10 @@ Weight:^009900 15^000000
 Crisp buttery cookie with sweet chunky chocolates inside.
 Try not to let it fly away.
 Weight:^009900 5^000000
+#
+11606#
+하얀허브를 효율적으로 갈아 만든 체력회복제. ^000088HP를 325가량 회복^000000 시켜 준다.
+무게 : ^7777771^000000
 #
 11701#
 Well-designed bouquet. Feel the heat of the one who packed.
@@ -60620,7 +60720,7 @@ Weight:^009900 1^000000
 #
 12835#
 기간 한정 소녀의 마음.
-하트날개 헤어밴드, 낡은 카드첩(걸칠것), 천사의 Wing귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
+하트날개 헤어밴드, 낡은 카드첩(Garment), 천사의 Wing귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
 Weight:^009900 1^000000
 #
 12845#
@@ -76740,7 +76840,7 @@ Jobs:^6666CC Archbishop and Sura^000000
 MDEF +5
 ATK +10, MATK +10
 MaxHP +5%, MaxSP +5%
-Has a chance of inflicting ^663399Stun^000000, Poison, ^663399Silence^000000, Curse status when doing physical attack.
+Has a chance of inflicting ^663399Stun^000000, ^663399Poison^000000, ^663399Silence^000000, ^663399Curse^000000 status when dealing physical attack.
 A chance is increased depend on refine level.
 [^6666CCBase STR 90^000000]
 STR +1 every 2 refine level.
@@ -77355,6 +77455,24 @@ Class:^6666CC Armor^000000
 Defense:^0000FF 40^000000
 Weight:^009900 50^000000
 Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+15189#
+An armor wore by Odin warriors whose fought against giants.
+MDEF +5
+ATK +10
+Reduces damage taken from Demihuman monster by 1%.
+Refine level +7: Reduces damage taken from Demihuman monster by 2%.
+Refine level +8: Reduces damage taken from Demihuman monster by 2%.
+Refine level +9: Reduces damage taken from Demihuman monster by 2%.
+When compounded with Evil Druid Card and Refine level +9: Adds immunity against Curse.
+When combined with Manteau of The Fallen: Every refine level of manteau adds ATK +3.
+When refine level of manteau +7: Every 10 base STR adds ATK +5.
+When refine level of manteau +8: Every 10 base STR adds ATK +7.
+Class:^6666CC Armor^000000
+Defense:^0000FF 60^000000
+Weight:^009900 80^000000
+Level Requirement:^009900 90^000000
 Jobs:^6666CC All classes^000000
 #
 16000#
@@ -87472,6 +87590,30 @@ Weight:^009900 1^000000
 ^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 Weight:^009900 1^000000
 #
+17689#
+프리미엄 버프를 걸어주는 프리미엄 정액 서비스 상자 1개가 들어있는 상자.
+^ffffff_^000000
+[기본 서비스] 
+프리미엄 정액 서비스 상자를 개봉하면, 30일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다. 
+- 경험치 20% 증가 
+- 아이템 드랍율 20% 증가 
+- 창고 제한치 300 증가 
+^ffffff_^000000
+[추가 서비스]
+냥다래를 소모하면 한 서버내의 전체 캐릭터가 아래의 효과를 받을 수 있다. 
+- EXP UP (24시간 지속, 냥다래 4개) 
+경험치 30% 증가 
+- ITEM UP (24시간 지속, 낭다래 2개) 
+아이템 드랍율 30% 증가 
+- DEATH DOWN (24시간 지속, 냥다래 1개) 
+사망 페널티 50% 감소 
+- Advanced Package (24시간 지속, 냥다래 6개) 
+위의 효과 3가지 전부 
+주의! - 버프가 걸려 있는 상태에서 그와 중첩되는 버프효과, 또는 어드밴스드 패키지를 선택할 수 없습니다.
+^ffffff_^000000
+^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
 17690#
 ^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
 1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자. 
@@ -87566,6 +87708,50 @@ _
 (제련에 실패 시 제련도가 1 하락합니다.) 
 _ 
 ^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
+17742#
+^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
+일시적으로 방어력을 끌어올려, 생존에 도움을 주는 스크롤을 담은 상자.
+소형 마나수 5개, 빛나는 방어스크롤 30개가 담겨져 있다.
+방어 스크롤 상자 구매시 신상 모자 스크롤 II 1개 증정!
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
+17743#
+^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
+일시적으로 방어력을 끌어올려, 생존에 도움을 주는 스크롤을 담은 상자.
+소형 마나수 50개, 빛나는 방어스크롤 300개가 담겨져있다.
+방어 스크롤 상자 세트 구매시 신상 모자 스크롤 II 11개 증정!
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
+17748#
+한정판 파워 부스터 10개와 2016 스페셜 스크롤이 1개 들어있는 상자.
+
+^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
+체내 에너지를 활성화하여, 파워를 대폭 향상시켜주는 부스터. 
+30분간 ATK, MATK + 30, ATK, MATK + 1%,
+HIT, FLEE + 30, ASPD + 1, SP 소모량 5% 감소,
+고정 캐스팅 30% 감소.
+(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다.)
+^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000
+
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
+무게 : ^7777771^000000
+#
+17749#
+한정판 파워 부스터 100개와 2016 스페셜 스크롤이 11개 들어있는 상자.
+
+^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
+체내 에너지를 활성화하여, 파워를 대폭 향상시켜주는 부스터. 
+30분간 ATK, MATK + 30, ATK, MATK + 1%,
+HIT, FLEE + 30, ASPD + 1, SP 소모량 5% 감소,
+고정 캐스팅 30% 감소.
+(고정 캐스팅의 % 증감 효과는 가장 큰 효과만 적용됩니다.)
+^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000
+
+^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000
 무게 : ^7777771^000000
 #
 18000#
@@ -91397,6 +91583,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 18809#
+
 #
 18810#
 Pumpkin Helmet created by the Undead World. Sometimes, Attack becomes reduced to undead. You can go to the kingdom of the Undead when wearing the Helmet.
@@ -91765,9 +91952,9 @@ Jobs:^6666CC All classes^000000
 #
 18842#
 Hat to protect you from the Sun.
-Refined 3, INT +2.
-Decrease 7% damage from human style monsters.
-MaxHP -3%.
+MaxHP -3%
+Increases INT by 2 for every 3 refine level.
+Reduces damage taken from Demihuman monster by 7%.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 8^000000
 Location:^6666CC Upper^000000
@@ -91777,7 +91964,7 @@ Jobs:^6666CC All classes^000000
 #
 18843#
 Porings are having a party.
-Decrease 5% damage from human style monsters.
+Reduces damage taken from Demihuman monster by 5%.
 Refine level +8: MaxHP +1% per 1 refinement.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 7^000000
@@ -91799,7 +91986,7 @@ Jobs:^6666CC All classes^000000
 18845#
 Kiss of Banshee Master. It could give the powerful force.
 MaxSP +3%
-Adds 1% chance of reducing damage taken by 100% for 3 seconds when wearer receive physical or magical attacks.
+Adds 1% chance of reducing damage taken from Player by 100% for 3 seconds when wearer receive physical attacks.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Lower^000000
@@ -92748,7 +92935,7 @@ STR +2
 ------------------------
 Adds a chance of autocasting Level 5 Bowling Bash when dealing physical attacks.
 ------------------------
-Additional STR +3 when upgraded to +11.
+Refine level +11: STR +3.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -92763,7 +92950,7 @@ A hat shaped like the predatory feline mammal that is popularly known as the kin
 INT +2
 Adds a chance of casting Level 5 Meteor Storm when you receive Physical damage.
 ------------------------
-Additional INT +1 when upgraded to +8.
+Refine level +8: INT +1.
 Additional INT +1 every 2 upgrade levels after +8.
 ------------------------
 Class:^6666CC Headgear^000000
@@ -92798,9 +92985,9 @@ MDEF +7
 Increase damage of Spore Explosion by 5%.
 Every 2 refine, increase Spore Explosion damage by 5%.
 ------------------------
-+Pipe, reduce skill delay by 5%.
++Pipe: reduce skill delay by 5%.
 ------------------------
-+Clock Tower Manager card, reduce variable cast time by 10%.
++Clock Tower Manager card: reduce variable cast time by 10%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -93079,10 +93266,10 @@ Its seems this 'hat' has been abandoned for a long time in rice field, and becam
 Reduces damage taken from Player by 13%.
 ^FF0000Unrefineable^000000
 ^663399Indestructible^000000
-When combined with [Steel Chonchon Card]: adds immunity against ^663399Frozen^000000.
+When combined with Steel Chonchon Card: adds immunity against ^663399Frozen^000000.
 Adds a chance of inflicting Freeze status to all enemies in 11x11 cells when wearer receive physical or magical attacks.
-When combined with [Sandals [1]] and [Steel Chonchon Card]: MaxHP and MaxSP +4%.
-Every refine level of [Sandals [1]]: MaxHP and MaxSP +1%.
+When combined with Sandals [1]] and Steel Chonchon Card: MaxHP and MaxSP +4%.
+Every refine level of Sandals [1]: MaxHP and MaxSP +1%.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Upper^000000
@@ -93264,7 +93451,7 @@ Defense:^0000FF 10^000000
 Location:^6666CC Upper^000000
 Weight:^009900 10^000000
 Level Requirement:^009900 170^000000
-Jobs:^6666CC Generic^000000
+Jobs:^6666CC Geneticist^000000
 #
 18978#
 All stats +1
@@ -93390,12 +93577,12 @@ Jobs:^6666CC All classes^000000
 #
 18987#
 Modeled after Jormungandr the Midgard Serpent. Effect of blood is strengthened with its presence.
-ALL Status +2.
-Reduces 5% of casting delay after using skill.
+All Stats +2.
+Reduces delay after skill by 5%.
 Reduces damage taken from ^6666CCDemihuman^000000 monsters by 10%.
 Increases recovery effect of Blood in Skull by 50%.
-If refined to +7 above, ASPD +1, additional Blood in Skull recovery +20%.
-If refined to +10 above, additional Reduction 5% of casting delay after using skill.
+Refine level +7: ASPD +1, additional Blood in Skull recovery +20%.
+Refine level +10: Reduces delay after skill by 5%.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Upper^000000
@@ -95082,6 +95269,19 @@ Weight:^009900 14^000000
 Level Requirement:^009900 14^000000
 Jobs:^6666CC All classes^000000
 #
+19167#
+A replica horns of Demon Baphomet.
+------------------------
+ATK +50, MATK +50
+Reduces after attack delay by 10%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 10^000000
+Location:^6666CC Upper^000000
+Weight:^009900 80^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC All classes^000000
+#
 19168#
 An iconic Headband of Kafra staff. It's part of Kafra set costume.
 ------------------------
@@ -95117,6 +95317,103 @@ Location:^6666CC Upper^000000
 Weight:^009900 40^000000
 Level Requirement:^009900 99^000000
 Jobs:^6666CC All classes except Novice^000000
+#
+19176#
+A wings of banished angel. Brings a strong hatred from other angels when worn.
+------------------------
+Increases physical damage inflicted against Angel monster by 5%.
+------------------------
+Reduces damage taken from Angel monster by 5%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 1^000000
+Location:^6666CC Middle^000000
+Weight:^009900 20^000000
+Level Requirement:^009900 10^000000
+Jobs:^6666CC All classes^000000
+#
+19177#
+A crown blessed by spirit. By wearing this, wearer will able to perceive the flow of nature.
+------------------------
+DEX +3
+------------------------
+Increases long range physical attack by 4%.
+------------------------
+Every 2 refine level increase DEX by 1.
+------------------------
+When combined with either Burning Bow, Frozen Bow, Earth Bow or Gust Bow: Increases long range physical attack by 45%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 10^000000
+Location:^6666CC Upper^000000
+Weight:^009900 50^000000
+Level Requirement:^009900 50^000000
+Jobs:^6666CC All classes^000000
+#
+19178#
+A crown blessed by spirit. By wearing this, wearer will able to perceive the flow of nature.
+------------------------
+DEX +3
+------------------------
+Increases long range physical attack by 4%.
+------------------------
+Every 2 refine level increase DEX by 1.
+------------------------
+When combined with either Burning Bow, Frozen Bow, Earth Bow or Gust Bow: Increases long range physical attack by 45%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 10^000000
+Location:^6666CC Upper^000000
+Weight:^009900 50^000000
+Level Requirement:^009900 50^000000
+Jobs:^6666CC All classes^000000
+#
+19179#
+A hat of renown magician. By wearing this, will make wearer able to do some magic tricks.
+------------------------
+DEX +1, AGI +1
+MDEF +1
+------------------------
+Reduces after attack delay by 5%.
+------------------------
+Reduces after skill delay by 4%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 4^000000
+Location:^6666CC Upper^000000
+Weight:^009900 80^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+19180#
+A headdress that resemble the god of darkness, Anubis.
+------------------------
+MDEF +5.
+------------------------
+Reduces damage taken from Boss monster by 10%.
+------------------------
+Increases restoration gained from Healing skills and restorative items by 10%.
+------------------------
+^FF0000Unrefineable^000000
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 8^000000
+Location:^6666CC Upper, Middle^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 65^000000
+Jobs:^6666CC All classes^000000
+#
+19181#
+A sunglasses that gives futuristic feel.
+------------------------
+Reduces after skill delay by 5%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^009900 10^000000
+Level Requirement:^009900 30^000000
+Jobs:^6666CC All classes^000000
 #
 19377#
 A marinated beef dish
@@ -100703,7 +101000,7 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 20202#
-Hellium Ballon shaped like deviruchi.
+Hellium Balloon shaped like deviruchi.
 ^FFFFFF<NAVI>^4D4DFF[Designer Heidam]^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>^000000
 Can be exhchanged with Costume Enchantment Stone Box5.
 Class:^6666CC Costume^000000
@@ -103048,9 +103345,8 @@ Additional Holy Resistance +1% per 2 Upgrade levels.
 +15% Neutral Resistance when combined with Armor of Gray, Gray Helmet, and Boots of Gray.
 Lets you respond to Melee Physical damage with a chance of casting Level 3 Drain Life.
 +15% Neutral Resistance when combined with Gray Robe, Gray Helmet, and Boots of Gray. +25% MaxHP/MaxSP. +10% MATK.
-Class:^6666CC Armor^000000
+Class:^6666CC Garment^000000
 Defense:^0000FF 45^000000
-Location:^6666CC Garment^000000
 Weight:^009900 60^000000
 Level Requirement:^009900 120^000000
 Jobs:^6666CC 3rd Classes^000000
@@ -103634,6 +103930,42 @@ Weight:^009900 50^000000
 Level Requirement:^009900 175^000000
 Jobs:^6666CC Doram race^000000
 #
+20794#
+A manteau of legendary hero whose fought bravely in battle field.
+MDEF +3 
+Every 2 refine level: Reduces damage taken from Demihuman monster by 1%.
+When base STR 130: ATK +5%.
+When base AGI 130: ASPD +1.
+When base VIT 130: DEF +300.
+When base INT 130: MATK +5%.
+When base DEX 130: Long range physical attack +5%.
+When base LUK 130: Critical damage +5%.
+When combined with Old version of 3rd classes headgears: MaxHP +20% and double the effect received from base stat bonus.
+When combined with Armor of Einherjar: Every refine level of manteau adds ATK +3.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
+Weight:^009900 50^000000
+Level Requirement:^009900 175^000000
+Jobs:^6666CC All classes^000000
+#
+20795#
+A manteau of legendary hero whose fought bravely in battle field.
+MDEF +3 
+Every 2 refine level: Reduces damage taken from Demihuman monster by 1%.
+When base STR 130: ATK +5%.
+When base AGI 130: ASPD +1.
+When base VIT 130: DEF +300.
+When base INT 130: MATK +5%.
+When base DEX 130: Long range physical attack +5%.
+When base LUK 130: Critical damage +5%.
+When combined with Old version of 3rd classes headgears: MaxHP +20% and double the effect received from base stat bonus.
+When combined with Armor of Einherjar: Every refine level of manteau adds ATK +3.
+Class:^6666CC Garment^000000
+Defense:^0000FF 30^000000
+Weight:^009900 50^000000
+Level Requirement:^009900 175^000000
+Jobs:^6666CC All classes^000000
+#
 20798#
 A costume that resemble the grim reaper whose waiting to take someone's soul.
 Class:^6666CC Costume^000000
@@ -103909,6 +104241,21 @@ Class:^6666CC Garment^000000
 Defense:^0000FF 18^000000
 Weight:^009900 20^000000
 Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+20835#
+A large black wings of fallen angel.
+All stats +1.
+Every 20 base of STR: ATK +1.
+Every 20 base of INT: MATK +1.
+Every 20 base of VIT: 당 무속성 공격에 대한 내성 1%,
+Every 20 base of AGI: Reduces delay after attack by 1%.
+Every 20 base of DEX: Increases long range physical attack by 1.
+Every 20 base of LUK: Increases critical damage by 1%.
+Class:^6666CC Garment^000000
+Defense:^0000FF 18^000000
+Weight:^009900 20^000000
+Level Requirement:^009900 99^000000
 Jobs:^6666CC All classes^000000
 #
 21000#
@@ -104585,8 +104932,8 @@ Jobs:^6666CC All classes^000000
 #
 22043#
 Mechanical boots that keep you light on your feet. They are much lighter than they look.
-Increased Attack Speed. (After attack delay reduced by 5%)
-Each 4 refine decrease skill after delay 1%.
+Reduces after attack delay by 5%.
+Every 4 refine level: reduces after attack delay by 1%.
 +[^008800Axe Weapon^000000]
 ATK +30.
 Class:^6666CC Footgear^000000
@@ -105026,7 +105373,9 @@ Jobs:^6666CC Rebellion, Kagerou, Oboro^000000
 #
 22122#
 A boots given to loyal member of paradise group. It's designed with reinforced durability for a long adventure.
-ALL Stats +1, HP regeneration rate +30%, SP regeneration rate +14%.
+All Stats +1
+HP regeneration rate +30%.
+SP regeneration rate +14%.
 ^FF0000Unrefineable^000000
 Class:^6666CC Footgear^000000
 Defense:^0000FF 22^000000
@@ -105036,7 +105385,9 @@ Jobs:^6666CC All classes^000000
 #
 22123#
 A boots given to skilled member of paradise group. It's designed with reinforced durability for a long adventure.
-ALL Stats +1, HP regeneration rate +36%, SP regeneration rate +18%.
+All Stats +1
+HP regeneration rate +36%.
+SP regeneration rate +18%.
 ^FF0000Unrefineable^000000
 Class:^6666CC Footgear^000000
 Defense:^0000FF 25^000000
@@ -105046,7 +105397,9 @@ Jobs:^6666CC All classes^000000
 #
 22124#
 A boots given to trained member of paradise group. It's designed with reinforced durability for a long adventure.
-ALL Stats +2, HP regeneration rate +36%, SP regeneration rate +18%.
+All Stats +2
+HP regeneration rate +36%.
+SP regeneration rate +18%.
 ^FF0000Unrefineable^000000
 Class:^6666CC Footgear^000000
 Defense:^0000FF 27^000000
@@ -105056,7 +105409,9 @@ Jobs:^6666CC All classes^000000
 #
 22125#
 A boots given to veteran member of paradise group. It's designed with reinforced durability for a long adventure.
-ALL Stats +2, HP regeneration rate +40%, SP regeneration rate +20%.
+All Stats +2
+HP regeneration rate +40%.
+SP regeneration rate +20%.
 ^FF0000Unrefineable^000000
 Class:^6666CC Footgear^000000
 Defense:^0000FF 30^000000
@@ -105066,13 +105421,20 @@ Jobs:^6666CC All classes^000000
 #
 22126#
 A boots given to full-fledged member of paradise group. It's designed with reinforced durability for a long adventure.
-ALL Stats +2, HP regeneration rate +40%, SP regeneration rate +20%, Reduces SP consumption by 5%.
+All Stats +2
+HP regeneration rate +40%.
+SP regeneration rate +20%.
+Reduces SP consumption by 5%.
 ^FF0000Unrefineable^000000
 Class:^6666CC Footgear^000000
 Defense:^0000FF 30^000000
 Weight:^009900 0^000000
 Level Requirement:^009900 160^000000
 Jobs:^6666CC All classes^000000
+#
+22506#
+A fresh shellfish that contains magical power.
+Weight:^009900 10^000000
 #
 22507#
 This old, discolored scroll, sustained with the mana used for maintaining distorted spaces, sends its user to a random space.
@@ -106614,15 +106976,15 @@ Weight:^009900 1^000000
 "^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000"
 #
 23008#
-300s
-Weight:^009900 0^000000
+24h
+무게 : ^7777770^000000
 #
 23010#
-300s
+24h
 무게 : ^7777770^000000
 #
 23011#
-300s
+24h
 무게 : ^7777771^000000
 #
 23012#
@@ -106892,6 +107254,15 @@ Weight:^009900 1^000000
 ^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
 Weight:^009900 1^000000
 #
+23074#
+의문의 알 2개가 들어있는 상자.
+무게 : ^77777710^000000
+#
+23075#
+^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
+메긴기오르드(체험판), 브리싱가멘(체험판), 아스프리카(체험판), 브륀힐트(체험판)가 들어있는 상자. 14일간 사용 가능하다.
+무게 : ^77777710^000000
+#
 23076#
 A vial attached with sticker 'Incomplete Clinical Test'.
 When used in Werner Institute(General),
@@ -106958,7 +107329,7 @@ Weight:^009900 25^000000
 #
 23086#
 부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. 
-신규 이펙트가 3종 추가되었으며, 렉스 에테르나 스톤(중단), 변동 캐스팅 스톤(상,중,하단), 경험치 스톤(상단)등 신규 인챈트 스톤이 포함되었다.
+신규 이펙트가 3종 추가되었으며, 렉스 에테르나 스톤(중단), 변동 캐스팅 스톤(상,중,하단), 경험치 스톤(Upper)등 신규 인챈트 스톤이 포함되었다.
 기존의 의상 인챈트 스톤도 포함되어 있다.
 Weight:^009900 1^000000
 #
@@ -107178,12 +107549,24 @@ Weight:^009900 1^000000
 Weight:^009900 1^000000
 #
 23148#
-900s
-무게 : ^7777770^000000
+2일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 2일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
 #
 23149#
-900s
-무게 : ^7777770^000000
+3일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 3일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
 #
 23150#
 라피네의 뚝딱상자.
@@ -107249,6 +107632,22 @@ Weight:^009900 1^000000
 확률형 아이템이 모두 들어있는 큐브.
 무게 : ^7777770^000000
 #
+23165#
+프리미엄 정액 서비스 담당 직원을 부르는 마법봉. 손에 들고 흔들면 언제 어디서든 고객 앞에 나타난다.
+^ffffff_^000000
+[서비스 내역]
+냥다래를 소모하면 한 서버내의 전체 캐릭터가 아래의 효과를 받을 수 있다. 
+- EXP UP (24시간 지속, 냥다래 4개) 
+경험치 30% 증가 
+- ITEM UP (24시간 지속, 낭다래 2개) 
+아이템 드랍율 30% 증가 
+- DEATH DOWN (24시간 지속, 냥다래 1개) 
+사망 페널티 50% 감소 
+- Advanced Package (24시간 지속, 냥다래 6개) 
+위의 효과 3가지 전부 
+^ff0000주의! - 버프가 걸려 있는 상태에서 그와 중첩되는 버프효과, 또는 어드밴스드 패키지를 선택할 수 없습니다. ^000000
+무게 : ^7777770^000000
+#
 23167#
 기간 한정 7월의 그린 스크롤. 
 무기 11제련 상품권, 방어구 11제련 상품권, 미니 선풍기 상자, 클래스 쉐도우 큐브, 라피네 뚝딱박스등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. 
@@ -107299,7 +107698,7 @@ Weight:^009900 1^000000
 #
 23174#
 부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. 
-신규 이펙트가 3종 추가되었으며, 힐스톤(하단), 스틸스톤(하단), 텔레포트스톤(하단) 3종의 신규 인챈트 스톤이 포함되었다.
+신규 이펙트가 3종 추가되었으며, 힐스톤(Lower), 스틸스톤(Lower), 텔레포트스톤(Lower) 3종의 신규 인챈트 스톤이 포함되었다.
 기존의 의상 인챈트 스톤도 포함되어 있다.
 Weight:^009900 1^000000
 #
@@ -107351,6 +107750,247 @@ A needle used to repair doll, Teddy Bear known to fond of it.
 Class:^6666CC Taming Item^000000
 Monster:^6666CC Teddy Bear^000000
 Weight:^009900 0^000000
+#
+23198#
+유용한 아이템이 포장되어 있는 나무 상자.
+화이트 슬림포션 상자 1개 , [비매품]응급처치상자 3개, 프리미엄 노말박스 1개가 포장되어 있다. 
+개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. 
+무게 : ^7777771^000000
+"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000"
+#
+23199#
+유용한 아이템이 포장되어 있는 금 상자.
+화이트 슬림포션 상자 1개 ,  [비매품]블레싱 스크롤 10개 상자 1개
+[비매품]민첩성증가 스크롤 10개 상자 1개 , 프리미엄 노말박스 5개 
+이속변화포션 10개 , 독약병 10개가 포장되어 있다. 
+개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. 
+무게 : ^7777771^000000
+"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000"
+#
+23200#
+유용한 아이템이 포장되어 있는 백금 상자. 
+포션상자 1개 ,  독약병상자 1개 , [비매품]소형 생명수 상자 1개
+[비매품]연마제 상자 1개 , [비매품]블레싱 스크롤 10개 상자 1개
+[비매품]민첩성증가 스크롤 10개 상자 1개 , 프리미엄 노말박스 30개 
+이속변화포션 30개가 포장되어 있다.
+개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. 
+무게 : ^7777771^000000
+"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000"
+#
+23201#
+유용한 아이템이 포장되어 있는 평범한 상자. 
+[비매품]화이트 슬림 포션 50개 , [비매품]응급처치상자 1개가 포장되어 있다. 
+개봉 시, 추가로 희귀한 아이템 중 하나를 얻을 수 있다. 
+무게 : ^7777771^000000
+"^ff0000주의 - 상자를 개봉할 때 무게나 소지한계 수량을 초과한 상태인 경우, 아이템이 소실 될 수 있습니다!^000000"
+#
+23203#
+이그드라실 나무의 꽃잎에서 나오는 수액을 담아놓은 작은 병. 마나 재생에 효험이 있다고 한다.
+복용하면 10분간 5초마다 MSP의 5%를 회복한다. 
+버서크 상태에서는 효과가 발동하지 않는다. 
+캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다. 
+무게 : ^7777771^000000
+#
+23204#
+일정 시간 동안 물리, 마법 방어력을 대폭 상승 시켜주어, 생존율을 높이는데에 도움을 주는 스크롤.
+10분 동안 DEF +500, MDEF +200.
+무게 : ^7777771^000000
+#
+23205#
+기간 한정 신상모자 스크롤 II. 
+무기 11제련 상품권, 방어구 11제련 상품권, 신상 모자상자 II, 영혼의 뚫어뻥등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. 
+무게 : ^7777771^000000
+#
+23206#
+유령이 으스스하게 날아다니는, 호러풍 호박 상자.
+다음의 아이템중 1개가 들어있습니다. 
+――――――――――――― 
+쉐도우 부스터
+타천사의 축복 
+정령의 왕관
+토끼 마술 모자
+아누비스 투구
+――――――――――――― 
+무게 : 20
+#
+23207#
+30일간 프리미엄 서비스를 제공하는 상자. 
+^ffffff_^000000
+상자를 개봉하면, 바로 30일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다. 
+- 경험치 20% 증가 
+- 아이템 드랍율 20% 증가 
+- 창고 제한치 300 증가 
+^ffffff_^000000
+추가 서비스를 제공해주는 프리미엄 서비스 직원을 불러내는 마법봉이 1개 포함되어 있습니다.
+무게 : ^7777771^000000
+#
+23209#
+1일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 1일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
+#
+23210#
+4일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 4일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
+#
+23211#
+5일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 5일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
+#
+23212#
+6일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 6일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
+#
+23213#
+7일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 7일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
+#
+23214#
+8일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 8일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
+#
+23215#
+9일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 9일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
+#
+23216#
+10일간 프리미엄 서비스를 제공하는 상자.
+^ffffff_^000000
+상자를 개봉하면, 바로 10일간의 프리미엄 버프 효과를 해당 아이템을 사용한 서버내의 전체 캐릭터가 받게 된다.
+- 경험치 20% 증가
+- 아이템 드랍율 20% 증가
+- 창고 제한치 300 증가
+^ffffff_^000000
+무게 : ^7777771^000000
+#
+23217#
+기간 한정 2016 스페셜 스크롤.
+무기 11제련 상품권, 방어구 11제련 상품권, 2016 스페셜 상자, 직업군 쉐도우 상자등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. 
+무게 : ^7777771^000000
+#
+23218#
+2016년에 행운의 알에서 나온 인기있는 아이템을 모은 상자.
+다음의 아이템중 1개가 들어있습니다.
+――――――――――――― 
+천사포링 부츠 상자
+포링 선글래스+
+포링 선글래스
+아미스트르 상자
+청이의 영혼
+포링 캡슐
+건슬링거 상자
+미니 선풍기 상자
+카프라 상자
+사이그룬 아머 쉐도우
+사이그룬 쉴드 쉐도우
+신상 모자 상자 II
+카프라 직원의 머리띠
+――――――――――――― 
+무게 : 20
+#
+23221#
+일년 중 1이 가장 많은 날을 기념하여 만들어진 특별한 막대과자.
+사용 시 30분간 DEX 15 증가.
+보너스로 10분간 11~33 사이의 HIT가 상승한다.
+^ff0000※ DEX 상승 분은 캐시 요리가 우선 적용되며, 캐시 요리 효과가 없을 경우 일반 요리중 가장 높은 옵션이 적용됩니다.
+※ 보너스로 올라간 HIT는 동일한 종류의 HIt 증가 옵션과 중첩되지 않고 가장 높은 옵션으로 적용됩니다. 
+※ 사망 시 효과가 사라집니다.^000000
+무게 : ^7777771^000000
+#
+23222#
+일년 중 1이 가장 많은 날을 기념하여 만들어진 특별한 막대과자.
+사용 시 30분간 LUK 15 증가.
+보너스로 10분간 11~33 사이의 CRI가 상승한다.
+^ff0000※ LUK 상승 분은 캐시 요리가 우선 적용되며, 캐시 요리 효과가 없을 경우 일반 요리중 가장 높은 옵션이 적용됩니다.
+※ 보너스로 올라간 CRI는 동일한 종류의 CRI 증가 옵션과 중첩되지 않고 가장 높은 옵션으로 적용됩니다.
+※ 사망 시 효과가 사라집니다.^000000
+무게 : ^7777771^000000
+#
+23223#
+일년 중 1이 가장 많은 날을 기념하여 만들어진 특별한 막대과자.
+사용 시 30분간 STR 15 증가.
+보너스로 10분간 11~111 사이의 ATK가 상승한다.
+^ff0000※ STR 상승 분은 캐시 요리가 우선 적용되며, 캐시 요리 효과가 없을 경우 일반 요리중 가장 높은 옵션이 적용됩니다. 
+※ 보너스로 올라간 ATK는 피씨방 버프와 동일한 종류로 중첩되지 않고 최종 사용 옵션만 적용됩니다. 증가된 수치는 State창에서 확인할 수 없습니다.
+※ 사망 시 효과가 사라집니다.^000000
+무게 : ^7777771^000000
+#
+23224#
+일년 중 1이 가장 많은 날을 기념하여 만들어진 특별한 막대과자.
+사용 시 30분간 VIT 15 증가.
+보너스로 11 ~ 33% 사이의 HP가 회복된다.
+^ff0000※ VIT 상승 분은 캐시 요리가 우선 적용되며, 캐시 요리 효과가 없을 경우 일반 요리중 가장 높은 옵션이 적용됩니다. 
+※ 사망 시 효과가 사라집니다.^000000
+무게 : ^7777771^000000
+#
+23225#
+일년 중 1이 가장 많은 날을 기념하여 만들어진 특별한 막대과자.
+사용 시 30분간 AGI 15 증가.
+보너스로 10분간 11~33 사이의 FLEE가 상승한다.
+^ff0000※ AGI 상승 분은 캐시 요리가 우선 적용되며, 캐시 요리 효과가 없을 경우 일반 요리중 가장 높은 옵션이 적용됩니다. 
+※ 보너스로 올라간 FLEE는 동일한 종류의 FLEE 증가 옵션과 중첩되지 않고 가장 높은 옵션으로 적용됩니다.
+※ 사망 시 효과가 사라집니다.^000000
+무게 : ^7777771^000000
+#
+23226#
+일년 중 1이 가장 많은 날을 기념하여 만들어진 특별한 막대과자.
+사용 시 30분간 INT 15 증가.
+보너스로 10분간 11~111 사이의 MATK가 상승한다.
+^ff0000※ INT 상승 분은 캐시 요리가 우선 적용되며, 캐시 요리 효과가 없을 경우 일반 요리중 가장 높은 옵션이 적용됩니다. 
+※ 보너스로 올라간 MATK는 피씨방 버프와 동일한 종류로 중첩되지 않고 최종 사용 옵션만 적용됩니다. 증가된 수치는 State창에서 확인할 수 없습니다.
+※ 사망 시 효과가 사라집니다.^000000
+무게 : ^7777771^000000
+#
+23227#
+일년 중 1이 가장 많은 날을 기념하여 만들어진 특별한 막대과자 세트.
+[비매품]힘의 막대과자, [비매품]체력의 막대과자, [비매품]민첩의 막대과자, [비매품]지식의 막대과자, [비매품]재주의 막대과자, [비매품]행운의 막대과자가 각각 2개씩 들어있다.
+#
+23229#
+타락천사의 날개 아이템의 슬롯과 제련도를 초기화 해주는 두루마리.
+초기화 후에는 [카츄아]타락천사의 날개 로 변화하며, 카드가 제거되고 제련도가 0이 된다.
+^ff0000주의! - [카츄아]타락천사의 날개 아이템은 99의 레벨 제한이 붙습니다. 이 두루마리로 [카츄아]타락천사의 날개 아이템의 재초기화가 가능합니다.^000000
+무게 : ^7777771^000000
 #
 24000#
 An armor worn on top of normal armor for additional defense.
@@ -108081,10 +108721,10 @@ Jobs:^6666CC All classes^000000
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
 ------------------------
-Reduces delay after attack by 1%.
+Reduces after attack delay by 1%.
 ------------------------
-Refine level +7: Reduces delay after attack by 1%.
-Refine level +9: Reduces delay after attack by 2%.
+Refine level +7: Reduces after attack delay by 1%.
+Refine level +9: Reduces after attack delay by 2%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
@@ -112367,25 +113007,25 @@ Weight:^009900 0^000000
 투구 아이템에 소켓을 만드는데 소모되는 도구. 1회용으로 인챈트 시도와 함께 사라진다.
 다음의 아이템에 소켓을 뚫을 수 있다.
 ――――――――――――― 
-사이그룬의 Wing
-로보 아이
-천사의 유령
-망원경
-눈가리개
-알람가면
-오페라 유령 가면
-하트파운데이션
-스핀 글래스
-스마일
-이프리트의 귀
-병아리 모자
+사이그룬의 날개, 로보 아이 
+천사의 유령, 망원경 
+눈가리개, 알람가면 
+오페라 유령 가면, 스마일
+스핀 글래스, 하트파운데이션
+이프리트의 귀, 병아리 모자
 대형 마제스틱 고우트
-나비 가면
-청이의 영혼
+청이의 영혼, 나비 가면
+쉐도우 부스터
+타천사의 축복
+정령의 왕관
+토끼 마술 모자
+아누비스 투구
+뉴웨이브 선글라스
 ――――――――――――― 
 성공확률은 25%이며, 실패시 시도한 투구 아이템도 함께 사라진다.
+^ff0000주의! - 소켓을 뚫는데에 성공하더라도, 제련도는 0으로 초기화 됩니다.^000000
 ^ffffff<NAVI>^4D4DFF[피어싱 장인]^000000<INFO>itemmall,18,66,0,100,0,0</INFO></NAVI>^000000
-Weight:^009900 1^000000
+무게 : ^7777771^000000
 #
 25042#
 정체를 알 수 없는 알의 조각. 이 알의 조각들을 모아서 품고 있다가 특정 사람에게 가져다 주면 온전한 형태의 다양한 알을 얻을 수 있다.
@@ -112488,7 +113128,7 @@ Weight:^009900 10^000000
 #
 25067#
 고정 캐스팅을 줄여주는 스톤.
-의상 걸칠것 슬롯에 아래의 능력치를 부여한다.
+의상 Garment 슬롯에 아래의 능력치를 부여한다.
 고정 캐스팅 0.5초 감소
 ^ffffff<NAVI>^4D4DFF[Lace La Zard]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
@@ -112891,9 +113531,9 @@ Exp bonus +2%.
 Weight:^009900 10^000000
 #
 25142#
-모험가 도람들 사이에서 통용되는 장비 교환 토큰. 더 원활한 모험장비를 갖추기 위해서 여러모로 쓸모가 많은 토큰이다.
+A token that commonly used among adventurer. Can be exchanged with a better equipment.
 
-^ffffff<NAVI>^4D4DFF[도람족 챠라 가족]^000000<INFO>lasagna,135,247,0,200,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[Doram Tribe Chara Folk]^000000<INFO>lasagna,135,247,0,200,0,0</INFO></NAVI>^000000
 
 Weight:^009900 0^000000
 #
@@ -112934,19 +113574,19 @@ It seems to be mainly used for hugging instead of sleeping.
 Weight:^009900 0^000000
 #
 25151#
-레이첼이 수리한 리볼버. 잘 망가지기 때문에 무기로 쓰기에는 불안하다.
+A revolver repaired by Rachel. It's not recommended to be used as weapon.
 Weight:^009900 0^000000
 #
 25152#
-세상에 없는 그리운 사람을 추모하기 위해 정성껏 만든 꽃다발
+A tribute bouquet to dearest person that has passed away.
 Weight:^009900 0^000000
 #
 25153#
-부서져버린 총의 잔해. 전문가에게 가져가서 수리를 하면 다시 사용할 수 있을 것 같다. 물건은 소중히 다루도록 하자.
+A scrap of broken gun. You can repair it if you take it to an expert. Let's deal with it carefully.
 Weight:^009900 0^000000
 #
 25154#
-어디서나 흔히 볼수 있는 화약뭉치. 사용하지 않은지 오래되어 폭발력은 장담할 수 없다.
+A bunch of old gunpowder which can be found scattred on ground.
 Weight:^009900 1^000000
 #
 25155#
@@ -112997,7 +113637,7 @@ Its tasted sweet yet refreshing.
 Weight:^009900 0^000000
 #
 25166#
-코트네스님이 애용한다는 장신구.
+An ornament used by Courtney.
 Crafted from gold, with Ruby attached on it, very classy but elegance.
 Its really fit on finger, but you decide to use it as a decoration instead...
 Weight:^009900 0^000000
@@ -113103,9 +113743,9 @@ An old pendant. It has portrait of man and woman.
 Weight:^009900 0^000000
 #
 25187#
-'슬러그 샷' 스킬 전용으로 사용되는 슬러그탄. 
-재질이 무엇일지 궁금할 정도로 비싸고 무겁다.
-'슬러그 샷' 스킬 사용시 자동으로 소모된다.
+Can only be used with Slug Shoot skill.
+It's made from expensive material.
+Automatically consumed when slug shoot skill is used.
 Weight:^009900 120^000000
 #
 25188#
@@ -113123,51 +113763,50 @@ This claw has a miracle aura. It's a proof that someone has fight with tiger god
 Weight:^009900 0^000000
 #
 25205#
-하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
-^ff0000쉬링크^000000
-공성 및 PvP 지역에서는 적용되지 않음.
-^ff0000기본 체형만 작게 바꿀 뿐, 이펙트나 카트등의 사이즈는 변경되지 않습니다.^000000
-^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
+Adds enhancement on 4th sloth of upper costume.
+^ff0000Shrink^000000
+Not applicable in PvP and WoE area.
+^ff0000Only affect basic body size.^000000
+^ffffff<NAVI>^4D4DFF[Gregio Grumani]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 25206#
-상단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.
-^ff0000일렉트릭^000000
-^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
+Adds enhancement on 4th sloth of upper costume.
+^ff0000Electric^000000
+^ffffff<NAVI>^4D4DFF[Gregio Grumani]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 25207#
-SP를 흡수 할 수 있는 스톤.
-의상 상단 슬롯에 아래의 능력치를 부여한다. 
-2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+A stone that can absorb SP.
+Adds enhancement on upper costume.
+Adds 2% chance of absorbing 1% damage as SP.
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 25208#
-SP를 흡수 할 수 있는 스톤.
-의상 걸칠것 슬롯에 아래의 능력치를 부여한다. 
-2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.
-^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000
+A stone that can absorb SP.
+Adds enhancement on garment costume.
+Adds 2% chance of absorbing 1% damage as SP.
+^ffffff<NAVI>^4D4DFF[Lace La zard]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 25209#
-HP를 흡수 할 수 있는 스톤. 
-의상 걸칠것 슬롯에 아래의 능력치를 부여한다. 
-2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.
-^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000
+A stone that can absorb HP.
+Adds enhancement on garment costume.
+Adds 2% chance of absorbing 3% damage as HP.
+^ffffff<NAVI>^4D4DFF[Lace La zard]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 25210#
-HP를 흡수 할 수 있는 스톤. 
-의상 상단 슬롯에 아래의 능력치를 부여한다. 
-2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.
-^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
+A stone that can absorb HP.
+Adds enhancement on upper costume.
+Adds 2% chance of absorbing 3% damage as HP.
+^ffffff<NAVI>^4D4DFF[Aver De Dosh]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000
 Weight:^009900 10^000000
 #
 25223#
-낙원단 임무를 통해 얻을 수 있는 낙원단 통용 화폐.
-특별한 아이템과 교환 할 수 있다.
-무게 : ^7777770^000000
+A paradise currency obtained from paradise mission. Can be exchanged with special item.
+Weight:^009900 0^000000
 #
 25224#
 Add enchantment on 4th slot of middle costume.
@@ -113219,6 +113858,12 @@ Weight:^009900 1^000000
 25233#
 NecessitY of stuffed animals, especially the teddy bear.
 Weight:^009900 1^000000
+#
+25245#
+^ff0000Can't be traded with other account.^000000
+A pile bones of small animals.
+There is small collar with bell between the bones.
+Weight:^009900 0^000000
 #
 26000#
 Two-Handed Spear made of the Ivory of a Mammoth. It is very hard to be processed due to its strength, but its sharp end makes it perfect for stabbing.
@@ -113318,9 +113963,9 @@ Compound on:^008C99 Garment^000000
 Weight:^009900 1^000000
 #
 27018#
-Reduces delay after attack by 1%.
-When base level is 90 or higher: Reduces delay after attack by 1%.
-When base level is 120 or higher: Reduces delay after attack by 1%.
+Reduces after attack delay by 1%.
+When base level is 90 or higher: Reduces after attack delay by 1%.
+When base level is 120 or higher: Reduces after attack delay by 1%.
 Class:^6666CC Card^000000
 Compound on:^CC0099 Accessory^000000
 Weight:^009900 1^000000
@@ -113342,6 +113987,35 @@ Class:^6666CC Card^000000
 Compound on:^FF0000 Weapon^000000
 Weight:^009900 1^000000
 #
+27021#
+Boost Knuckle damage +25%.
+Refine level +7: Additional 5% damage.
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
+#
+27022#
+Reduces damage taken from Fire and Shadow element attacks by 20%.
+Refine level +7: Reduces damage taken from long range physical attack by 10%.
+Class:^6666CC Card^000000
+Compound on:^008C99 Garment^000000
+Weight:^009900 1^000000
+#
+27023#
+Milk recovery +900%.
+Every refine level: VIT +1, INT +1.
+Refine level +9: VIT +5, INT +5.
+Class:^6666CC Card^000000
+Compound on:^6666CC Shoes^000000
+Weight:^009900 1^000000
+#
+27024#
+Perfect dodge +1.
+Every refine level: Increases Healing skills by 1%.
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
+#
 27025#
 DEF +30
 MDEF +10
@@ -113351,6 +114025,41 @@ Adds a low chance for 7 seconds wearer will be pocessed by Death Lord when deali
 When pocessed all physical and magical defense of target will be ignored by 100%.
 Class:^6666CC Card^000000
 Compound on:^CC0099 Accessory^000000
+Weight:^009900 1^000000
+#
+27026#
+Reduces variable cast time of Fire Ball by 50%.
+Increase damage of Fire Ball by 100%.
+Class:^6666CC Card^000000
+Compound on:^CC0099 Accessory^000000
+Weight:^009900 1^000000
+#
+27027#
+DEF +50
+Reduces physical and magical damage taken from Fire element monsters by 10%.
+Class:^6666CC Card^000000
+Compound on:^00CC33 Armor^000000
+Weight:^009900 1^000000
+#
+27028#
+Increases magical attack against Earth element monsters by 3%.
+Refine level +7: Increases magical attack against Earth element monsters by 5%.
+Refine level +9: Increases magical attack against Earth element monsters by 7%.
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^009900 1^000000
+#
+27029#
+Reduces physical and magical damage taken from Fire element monsters by 20%.
+Increases physical damage inflicted against Fire element monsters by 5%.
+Class:^6666CC Card^000000
+Compound on:^6666CC Shield^000000
+Weight:^009900 1^000000
+#
+27030#
+Adds a high chance of inflicting Burning status on target when dealing physical or magical attacks.
+Class:^6666CC Card^000000
+Compound on:^6600FF Headgear^000000
 Weight:^009900 1^000000
 #
 28000#
@@ -113609,154 +114318,161 @@ Jobs:^6666CC Rebellion^000000
 [idRO item]
 #
 28215#
-^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
-총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 라이플.
-강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.
-HIT + 10, CRI + 20
-해머 오브 갓 데미지 20% 증가.
-BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).
-7제련 시, 트래킹 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.
-
-강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,
-ASPD + 2, MaxHP/MaxSP + 10%
-순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.
-(최대 순수 VIT 100까지 적용)
-순수 AGI 10당 공격 후딜레이 2% 감소.
-(최대 순수 AGI 100까지 적용)
-순수 DEX 10당 HIT + 3 증가.
-(최대 순수 DEX 100까지 적용)
-순수 LUK 10당 CRI + 3 증가.
-(최대 순수 LUK 100까지 적용)
-계열 : ^777777라이플^000000 공격 : ^777777200^000000
+^ff0000Can't be traded with other account.^000000
+A special Granade Launcher modified for novice rebellion.
+When combined with Enhanced Time Guardian Armor, will make wearer's body more agile.
+HIT +10
+Crit +20
+Increases Hammer of God damage by 20%.
+Every 10 increment of Base Level: Increase ATK by 6 (Upto BaseLv 160).
+Refine level +7: Every learned level of Tracking skill increase long range physical attack by 1%.
+When combined with Time Guardian Set(Hat, Robe, Manteau and Boots):
+ASPD +2
+MaxHP,MaxSP +10%
+Every 10 base point of VIT: Resistance against Neutral attack +3%.
+(Upto 100 VIT)
+Every 10 base point of AGI: Reduces after attack delay by 2%.
+(Upto 100 AGI)
+Every 10 base point of DEX: HIT +3.
+(Upto 100 DEX)
+Every 10 base point of LUK: Crit +3.
+(Upto 100 LUK)
+Class:^6666CC Rifle^000000
+Attack:^CC0000 200^000000
 Weight:^009900 0^000000
-무기 레벨 : ^7777773^000000
+Weapon Level:^009900 3^000000
 Level Requirement:^009900 100^000000
-장착 : ^777777건너 계열^000000
+Jobs:^6666CC Rebellion^000000
 #
 28216#
-^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
-총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 개틀링건.
-HIT - 20, CRI + 10, ASPD + 1
-강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.
-파이어 레인 데미지 20% 증가.
-BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).
-7제련 시, 개틀링 피버 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.
-
-강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,
-ASPD + 2, MaxHP/MaxSP + 10%
-순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.
-(최대 순수 VIT 100까지 적용)
-순수 AGI 10당 공격 후딜레이 2% 감소.
-(최대 순수 AGI 100까지 적용)
-순수 DEX 10당 HIT + 3 증가.
-(최대 순수 DEX 100까지 적용)
-순수 LUK 10당 CRI + 3 증가.
-(최대 순수 LUK 100까지 적용)
-계열 : ^777777게틀링건^000000 공격 : ^777777180^000000
+^ff0000Can't be traded with other account.^000000
+A special Granade Launcher modified for novice rebellion.
+When combined with Enhanced Time Guardian Armor, will make wearer's body more agile.
+HIT -20
+Crit +10
+ASPD +1
+Increases Fire Rain damage by 20%.
+Every 10 increment of Base Level: Increase ATK by 6 (Upto BaseLv 160).
+Refine level +7: Every learned level of Gatling Fever skill increase long range physical attack by 1%.
+When combined with Time Guardian Set(Hat, Robe, Manteau and Boots):
+ASPD +2
+MaxHP,MaxSP +10%
+Every 10 base point of VIT: Resistance against Neutral attack +3%.
+(Upto 100 VIT)
+Every 10 base point of AGI: Reduces after attack delay by 2%.
+(Upto 100 AGI)
+Every 10 base point of DEX: HIT +3.
+(Upto 100 DEX)
+Every 10 base point of LUK: Crit +3.
+(Upto 100 LUK)
+Class:^6666CC Gatling Gun^000000
+Attack:^CC0000 180^000000
 Weight:^009900 0^000000
-무기 레벨 : ^7777773^000000
+Weapon Level:^009900 3^000000
 Level Requirement:^009900 100^000000
-장착 : ^777777건너 계열^000000
+Jobs:^6666CC Rebellion^000000
 #
 28217#
-^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
-총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 그레네이드 런처.
-강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.
-드래곤 테일 데미지 20% 증가.
-BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).
-7제련 시, 그라운드 드리프트 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.
-
-강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,
-ASPD + 2, MaxHP/MaxSP + 10%
-순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.
-(최대 순수 VIT 100까지 적용)
-순수 AGI 10당 공격 후딜레이 2% 감소.
-(최대 순수 AGI 100까지 적용)
-순수 DEX 10당 HIT + 3 증가.
-(최대 순수 DEX 100까지 적용)
-순수 LUK 10당 CRI + 3 증가.
-(최대 순수 LUK 100까지 적용)
-계열 : ^777777그레네이드런처^000000 공격 : ^777777350^000000
+^ff0000Can't be traded with other account.^000000
+A special Granade Launcher modified for novice rebellion.
+When combined with Enhanced Time Guardian Armor, will make wearer's body more agile.
+Increases Dragon Tail damage by 20%.
+Every 10 increment of Base Level: Increase ATK by 6 (Upto BaseLv 160).
+Refine level +7: Every learned level of Ground Drift skill increase long range physical attack by 1%.
+When combined with Time Guardian Set(Hat, Robe, Manteau and Boots):
+ASPD +2
+MaxHP,MaxSP +10%
+Every 10 base point of VIT: Resistance against Neutral attack +3%.
+(Upto 100 VIT)
+Every 10 base point of AGI: Reduces after attack delay by 2%.
+(Upto 100 AGI)
+Every 10 base point of DEX: HIT +3.
+(Upto 100 DEX)
+Every 10 base point of LUK: Crit +3.
+(Upto 100 LUK)
+Class:^6666CC Grenade Launcher^000000
+Attack:^CC0000 350^000000
 Weight:^009900 0^000000
-무기 레벨 : ^7777773^000000
+Weapon Level:^009900 3^000000
 Level Requirement:^009900 100^000000
-장착 : ^777777건너 계열^000000
+Jobs:^6666CC Rebellion^000000
 #
 28218#
-^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
-총기를 다루는데 어느정도 익숙해진 리벨리온을 위한 샷건.
-HIT - 15, 스플래쉬 공격.
-강화된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.
-섀터 스톰 데미지 20% 증가.
-BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).
-7제련 시, 더스트 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.
-
-강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,
-ASPD + 2, MaxHP/MaxSP + 10%
-순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.
-(최대 순수 VIT 100까지 적용)
-순수 AGI 10당 공격 후딜레이 2% 감소.
-(최대 순수 AGI 100까지 적용)
-순수 DEX 10당 HIT + 3 증가.
-(최대 순수 DEX 100까지 적용)
-순수 LUK 10당 CRI + 3 증가.
-(최대 순수 LUK 100까지 적용)
-계열 : ^777777샷건^000000 공격 : ^777777180^000000
+^ff0000Can't be traded with other account.^000000
+A special shotgun modified for novice rebellion.
+HIT -15
+Deals splash attack.
+When combined with Enhanced Time Guardian Armor, will make wearer's body more agile.
+Increases Shatter Storm damage by 20%.
+Every 10 increment of Base Level: Increase ATK by 6 (Upto BaseLv 160).
+Refine level +7: Every learned level of Dust skill increase long range physical attack by 1%.
+When combined with Time Guardian Set(Hat, Robe, Manteau and Boots):
+ASPD +2
+MaxHP,MaxSP +10%
+Every 10 base point of VIT: Resistance against Neutral attack +3%.
+(Upto 100 VIT)
+Every 10 base point of AGI: Reduces after attack delay by 2%.
+(Upto 100 AGI)
+Every 10 base point of DEX: HIT +3.
+(Upto 100 DEX)
+Every 10 base point of LUK: Crit +3.
+(Upto 100 LUK)
+Class:^6666CC Shotgun^000000
+Attack:^CC0000 180^000000
 Weight:^009900 0^000000
-무기 레벨 : ^7777773^000000
+Weapon Level:^009900 3^000000
 Level Requirement:^009900 100^000000
-장착 : ^777777건너 계열^000000
+Jobs:^6666CC Rebellion^000000
 #
 28223#
-전투용 대형 저격 라이플.
-원거리 물리 공격력 15% 증가.
-7제련 시,
-[매스 스파이럴] 데미지 30% 증가.
-[안티 매터리얼 블래스트] 데미지 30% 증가.
-9제련 시, 
-[안티 매터리얼 블래스트] 스킬 쿨타임 1초 감소.
-계열 : ^777777라이플^000000 공격 : ^777777200^000000
+A large sniper rifle used in war.
+Increases long range physical attack by 15%.
+Refine level +7: Increases Mass Spiral and Anti Material Blast damage by 30%.
+Refine level +9: Reduces Anti Material Blast skill cooldown by 1 second.
+Class:^6666CC Rifle^000000
+Attack:^CC0000 200^000000
 Weight:^009900 200^000000
-무기 레벨 : ^7777773^000000
+Weapon Level:^009900 3^000000
 Level Requirement:^009900 120^000000
-장착 : ^777777건너 계열^000000
+Jobs:^6666CC Rebellion^000000
 #
 28224#
-총구 화염이 심한 샷건.
-스플래쉬 공격.
-물리 공격 시, 낮은 확률로 적에게 암흑을 건다. 
-[철갑탄]과 함께 장착 시, 
-원거리 물리 공격력 30% 증가.
-7제련 시, [섀터 스톰] 데미지 15% 증가.
-9제련 시, [배니싱 버스터] 데미지 15% 증가.
-계열 : ^777777샷건^000000 공격 : ^777777300^000000
+A heavy shotgun that have flaming muzzle.
+Deals splash attack.
+Adds a chance of inflicting Blind status on target when dealing physical attacks.
+When combined with Armor Piercing Bullet: Increases long range physical attack by 30%.
+Refine level +7: Increases Shatter Storm damage by 15%.
+Refine level +9: Increases Vanishing Buster damage by 15%.
+Class:^6666CC Shotgun^000000
+Attack:^CC0000 300^000000
 Weight:^009900 130^000000
-무기 레벨 : ^7777773^000000
+Weapon Level:^009900 3^000000
 Level Requirement:^009900 120^000000
-장착 : ^777777건너 계열^000000
+Jobs:^6666CC Rebellion^000000
 #
 28225#
-과열되면 총열이 붉게 변한다고 해서,
-버닝 로즈라 불리는 개틀링건.
-원거리 물리 공격력 15% 증가.
-7제련 시, [파이어 레인] 데미지 30% 증가.
-9제련 시, [파이어 레인] 스킬 쿨타임 1초 감소. 
-계열 : ^777777게틀링건^000000 공격 : ^777777200^000000
+When over heated, this gatling gun will turn as red as rose.
+Increases long range physical attacks by 15%.
+Refine level +7: Increases Fire Rain damage by 30%.
+Refine level +9: Reduces Fire Rain skill cooldown by 1 second.
+Class:^6666CC Gatling Gun^000000
+Attack:^CC0000 200^000000
 Weight:^009900 250^000000
-무기 레벨 : ^7777773^000000
+Weapon Level:^009900 3^000000
 Level Requirement:^009900 120^000000
-장착 : ^777777건너 계열^000000
+Jobs:^6666CC Rebellion^000000
 #
 28226#
-'복수자'라는 별명을 가진 그레네이드런쳐.
-원거리 물리 공격력 20% 증가.
-7제련 시, [드래곤 테일]의 데미지 15% 증가.
-9제련 시, [하울링 마인] 스킬 쿨타임 1초 감소.
-계열 : ^777777그레네이드런처^000000 공격 : ^777777350^000000
+A grande launcher used by avengers.
+Increases long range physical attacks by 20%.
+Refine level +7: Increases Dragon Tail damage by 15%.
+Refine level +9: Reduces Howling Mine skill cooldown by 1 second.
+Class:^6666CC Grenade Launcher^000000
+Attack:^CC0000 350^000000
 Weight:^009900 180^000000
-무기 레벨 : ^7777773^000000
+Weapon Level:^009900 3^000000
 Level Requirement:^009900 120^000000
-장착 : ^777777건너 계열^000000
+Jobs:^6666CC Rebellion^000000
 #
 28306#
 An earring blessed by luna.
@@ -114072,7 +114788,7 @@ Jobs:^6666CC All classes^000000
 #
 28377#
 A magic ring that used to amplify the magical power.
-Increase Fire, Water, Wind and ^CC5500Earth^000000 element magic damage by 5%.
+Increase ^FF0000Fire^000000, ^0000BBWater^000000, ^33CC00Wind^000000 and ^CC5500Earth^000000 element magic damage by 5%.
 Every 5 base level increase ^008800Fire Bolt^000000, ^008800Cold Bolt^000000, ^008800Lightning Bolt^000000 and ^008800Earth Spike^000000 damage by 1%.
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
@@ -114374,7 +115090,7 @@ Jobs:^6666CC All classes^000000
 A ring given to loyal member of paradise group.
 ATK +2%.
 When combined with Paradise Group Necklace of Power I and Awakening Paradise Group Boots I:
-Reduces delay after attack by 4%, HIT +4,
+Reduces after attack delay by 4%, HIT +4,
 When combined with Paradise Group Necklace of Power I and Awakening Paradise Group Uniform I:
 ATK +20, Increases resistance against all element attacks, except Neutral, by 2%.
 Class:^6666CC Accessory^000000
@@ -114396,7 +115112,7 @@ Jobs:^6666CC All classes^000000
 A strength ring given to skilled member of paradise group.
 ATK +3%
 When combined with Paradise Group Necklace of Strength II and Awakening Paradise Group Boots II:
-Reduces delay after attack by 8%, HIT +8.
+Reduces after attack delay by 8%, HIT +8.
 When combined with Paradise Group Necklace of Strength II and Awakening Paradise Group Uniform II:
 ATK +40, Reduces damage taken from all element attacks but Neutral by 4%.
 Class:^6666CC Accessory^000000
@@ -114418,7 +115134,7 @@ Jobs:^6666CC All classes^000000
 A strength ring given to trained member of paradise group.
 ATK +4%
 When combined with Paradise Group Necklace of Strength III and Awakening Paradise Group Boots III:
-Reduces delay after attack by 8%, HIT +8, Experience gained +2%.
+Reduces after attack delay by 8%, HIT +8, Experience gained +2%.
 When combined with Paradise Group Necklace of Strength III and Awakening Paradise Group Uniform III:
 ATK +40, Reduces damage taken from all element attacks but Neutral by 4%, Experience gained +2%.
 Class:^6666CC Accessory^000000
@@ -114440,7 +115156,7 @@ Jobs:^6666CC All classes^000000
 A strength ring given to veteran member of paradise group.
 ATK +5%.
 When combined with Paradise Group Necklace of Strength IV and Awakening Paradise Group Boots IV:
-Reduces delay after attack by 10%, HIT +10, Experience gained +2%.
+Reduces after attack delay by 10%, HIT +10, Experience gained +2%.
 When combined with Paradise Group Necklace of Strength IV and Awakening Paradise Group Uniform IV:
 ATK +50, Reduces damage taken from all element attacks but Neutral by 5%, Experience gained +2%.
 Class:^6666CC Accessory^000000
@@ -114463,7 +115179,7 @@ A strength ring given to full-fledged member of paradise group.
 ATK +5%
 Enables use of Level 1 Heal.
 When combined with Paradise Group Necklace of Strength V and Awakening Paradise Group Boots V:
-Reduces delay after attack by 10%, HIT +10, Experience gained +2%, Increases movement speed.
+Reduces after attack delay by 10%, HIT +10, Experience gained +2%, Increases movement speed.
 When combined with Paradise Group Necklace of Strength V and Awakening Paradise Group Uniform V:
 ATK +50, Reduces damage taken from all element attacks but Neutral by 5%, Experience gained +2%, Enable uninterruptible skill cast.
 Class:^6666CC Accessory^000000
@@ -114599,7 +115315,7 @@ A dexterity ring given to loyal member of paradise group.
 Long range physical attacks +1%.
 When combined with Paradise Group Necklace of Dexterity I and Awakening Paradise Group Boots I:
 HIT +4
-Reduces delay after attack by 4%.
+Reduces after attack delay by 4%.
 When combined with Paradise Group Necklace of Dexterity I and Awakening Paradise Group Uniform I:
 ATK +20
 Increases resistance against all elements, except Neutral, by 2%.
@@ -114623,7 +115339,7 @@ A dexterity ring given to skilled member of paradise group.
 Long range physical attacks +2%.
 When combined with Paradise Group Necklace of Dexterity II and Awakening Paradise Group Boots II:
 HIT +8
-Reduces delay after attack by 8%.
+Reduces after attack delay by 8%.
 When combined with Paradise Group Necklace of Dexterity II and Awakening Paradise Group Uniform II:
 ATK +40
 Increases resistance against all elements, except Neutral, by 4%.
@@ -114647,7 +115363,7 @@ A dexterity ring given to trained member of paradise group.
 Long range physical attacks +3%.
 When combined with Paradise Group Necklace of Dexterity III and Awakening Paradise Group Boots III:
 HIT +8
-Reduces delay after attack by 8%.
+Reduces after attack delay by 8%.
 Experience gained +2%.
 When combined with Paradise Group Necklace of Dexterity III and Awakening Paradise Group Uniform III:
 ATK +40
@@ -114673,7 +115389,7 @@ A dexterity ring given to veteran member of paradise group.
 Long range physical attacks +4%.
 When combined with Paradise Group Necklace of Dexterity IV and Awakening Paradise Group Boots IV:
 HIT +10
-Reduces delay after attack by 10%.
+Reduces after attack delay by 10%.
 Experience gained +2%.
 When combined with Paradise Group Necklace of Dexterity IV and Awakening Paradise Group Uniform IV:
 ATK +50
@@ -114700,7 +115416,7 @@ Long range physical attacks +4%.
 Enables use of Level 1 Heal.
 When combined with Paradise Group Necklace of Dexterity V and Awakening Paradise Group Boots V:
 HIT +10
-Reduces delay after attack by 10%.
+Reduces after attack delay by 10%.
 Experience gained +2%.
 Increases movement speed.
 When combined with Paradise Group Necklace of Dexterity V and Awakening Paradise Group Uniform V:
@@ -114876,11 +115592,44 @@ Jobs:^6666CC All classes^000000
 An exclusive belt wore by high rank ninja that master the art of invisibility.
 MATK +5%
 Reduces delay after skill by 5%.
-Reduces delay after attack by 5%.
+Reduces after attack delay by 5%.
 Increases damage of Exploding Dragon by 10% for every learned level of Flaming Petals.
 Increases damage of Snow Flake Draft by 10% for every learned level of Freezing Spear.
 Increases damage of First Wind by 10% for every learned level of Wind Blade.
 Increase magical damage inflicted on ^777777Shadow^000000 element monsters by 4% for every learned level of Illusion - Shadow, Illusion - Shock and Illusion - Death.
+Class:^6666CC Accessory^000000
+Defense:^0000FF 0^000000
+Weight:^009900 10^000000
+Level Requirement:^009900 100^000000
+Jobs:^6666CC All classes^000000
+#
+28491#
+A necessary dagger for mountain hunting.
+LUK +2, HIT +10
+Increases long range critical rate by 5.
+Enables use of Level 1 Hiding.
+When base LUK 100:
+HIT +10
+Increases long range critical rate by 10.
+When equipped with Sharp1/Sharp2:
+HIT +15
+Increases long range critical rate by 10.
+Class:^6666CC Accessory^000000
+Defense:^0000FF 0^000000
+Weight:^009900 40^000000
+Level Requirement:^009900 90^000000
+Jobs:^6666CC All classes^000000
+#
+28492#
+A various techniques for thief are written on it.
+STR +5, AGI +5, INT +5.
+When Graffiti skill is mastered: STR +5, AGI +5, INT +5.
+When Masquerade Unlucky is mastered: Enables use of Level 1 Berserk.
+When Masquerade Ignorance is mastered: Enables use of Level 5 Maximum Over Trust.
+When Masquerade Weakness is mastered: Enables use of Level 5 Magical power amplification.
+When Masquerade Enervation is mastered: Enables use of Level 5 Wind Walk.
+When Masquerade Gloomy is mastered: Enables use of Level 5 Assumptio.
+When Masquerade Laziness is mastered: Enables use of Level 5 Meteor Assault.
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
 Weight:^009900 10^000000
@@ -115797,6 +116546,12 @@ Enables use of Level 1 Steal.
 29229#
 Enables use of Level 1 Teleport.
 #
+29230#
+All stats +2.
+Class:^6666CC Card^000000
+Compound on:^00CC33 Any slots^000000
+Weight:^009900 1^000000
+#
 31016#
 MaxHP +1000
 MaxSP +150
@@ -115937,6 +116692,27 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 31034#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31035#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31036#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31037#
 Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
@@ -116319,6 +117095,13 @@ Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
+31094#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
 31095#
 A colaboration headdress of ECOxRO. Its resemble the great demon horns of Baphomet.
 Class:^6666CC Costume^000000
@@ -116408,10 +117191,132 @@ Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
+31118#
+A mask wore by assassin organization.
+^FFFFFF<NAVI>^4D4DFF[Designer Heidam]^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>^000000
+Can be exhchanged with Costume Enchantment Stone Box11.
+Class:^6666CC Costume^000000
+Location:^6666CC Middle, Lower^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31119#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31120#
+A costume the makes you look like a vampire. Perfect for halloween event.
+^FFFFFF<NAVI>^4D4DFF[Designer Heidam]^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>^000000
+Can be exhchanged with Costume Enchantment Stone Box11.
+Class:^6666CC Costume^000000
+Location:^6666CC Middle^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31121#
+A costume with wings of bat attached on it. Perfect for halloween event.
+Class:^6666CC Costume^000000
+Location:^6666CC Lower^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31122#
+Class:^6666CC Costume^000000
+Location:^6666CC Middle^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31123#
+A cute tall hat with ghostring motif.
+^FFFFFF<NAVI>^4D4DFF[Designer Heidam]^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>^000000
+Can be exhchanged with Costume Enchantment Stone Box11.
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31124#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
 31125#
 A big hat of legendary pirate. It's always stained in blood.
 ^FFFFFF<NAVI>^4D4DFF[Designer Heidam]^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>^000000
 Can be exhchanged with Costume Enchantment Stone Box11.
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31128#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31129#
+Class:^6666CC Costume^000000
+Location:^6666CC Middle, Lower^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31133#
+Class:^6666CC Costume^000000
+Location:^6666CC Middle^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31134#
+Class:^6666CC Costume^000000
+Location:^6666CC Lower^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31135#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31136#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31137#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31138#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31139#
 Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
