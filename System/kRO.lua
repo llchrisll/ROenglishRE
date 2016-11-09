@@ -1204,7 +1204,7 @@ tbl = {
 		identifiedResourceName = "성스러운알",
 		identifiedDescriptionName = {
 			"기간 한정 소녀의 마음.",
-			"하트날개 헤어밴드, 낡은 카드첩(걸칠것), 천사의 Wing귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
+			"하트날개 헤어밴드, 낡은 카드첩(Garment), 천사의 Wing귀, 맛있는 빙수, 맞춤 관, 소녀의 순정, 토끼 귀마개, 재스퍼 크레스트 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
@@ -11920,7 +11920,7 @@ tbl = {
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"신규 이펙트가 3종 추가되었으며, 렉스 에테르나 스톤(중단), 변동 캐스팅 스톤(상,중,하단), 경험치 스톤(상단)등 신규 인챈트 스톤이 포함되었다.",
+			"신규 이펙트가 3종 추가되었으며, 렉스 에테르나 스톤(중단), 변동 캐스팅 스톤(상,중,하단), 경험치 스톤(Upper)등 신규 인챈트 스톤이 포함되었다.",
 			"기존의 의상 인챈트 스톤도 포함되어 있다.",
 			"Weight:^009900 1^000000"
 		},
@@ -12188,10 +12188,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[23129] = {
-		unidentifiedDisplayName = "카츄아걸칠것",
+		unidentifiedDisplayName = "카츄아Garment",
 		unidentifiedResourceName = "혼자놀기상자2",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카츄아걸칠것",
+		identifiedDisplayName = "카츄아Garment",
 		identifiedResourceName = "혼자놀기상자2",
 		identifiedDescriptionName = {},
 		slotCount = 0,
@@ -12720,7 +12720,7 @@ tbl = {
 		identifiedResourceName = "초록상자",
 		identifiedDescriptionName = {
 			"부위별 의상 장비에 인챈트를 할 수 있는 스톤이 들어 있는 상자. ",
-			"신규 이펙트가 3종 추가되었으며, 힐스톤(하단), 스틸스톤(하단), 텔레포트스톤(하단) 3종의 신규 인챈트 스톤이 포함되었다.",
+			"신규 이펙트가 3종 추가되었으며, 힐스톤(Lower), 스틸스톤(Lower), 텔레포트스톤(Lower) 3종의 신규 인챈트 스톤이 포함되었다.",
 			"기존의 의상 인챈트 스톤도 포함되어 있다.",
 			"Weight:^009900 1^000000"
 		},
@@ -13666,14 +13666,14 @@ tbl = {
 		ClassNum = 0
 	},
 	[25067] = {
-		unidentifiedDisplayName = "캐스팅스톤(걸칠것)",
+		unidentifiedDisplayName = "캐스팅스톤(Garment)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "캐스팅스톤(걸칠것)",
+		identifiedDisplayName = "캐스팅스톤(Garment)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"고정 캐스팅을 줄여주는 스톤.",
-			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다.",
+			"의상 Garment 슬롯에 아래의 능력치를 부여한다.",
 			"고정 캐스팅 0.5초 감소",
 			"^ffffff<NAVI>^4D4DFF[Lace La Zard]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
 			"Weight:^009900 10^000000"
@@ -13682,10 +13682,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25068] = {
-		unidentifiedDisplayName = "ASPD스톤(상단)",
+		unidentifiedDisplayName = "ASPD스톤(Upper)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "ASPD스톤(상단)",
+		identifiedDisplayName = "ASPD스톤(Upper)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"ASPD가 증가하는 스톤. ",
@@ -13698,10 +13698,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[25069] = {
-		unidentifiedDisplayName = "리로드스톤(상단)",
+		unidentifiedDisplayName = "리로드스톤(Upper)",
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "리로드스톤(상단)",
+		identifiedDisplayName = "리로드스톤(Upper)",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"스킬 후 딜레이가 감소하는 스톤.",
@@ -14009,322 +14009,6 @@ tbl = {
 			"타락한 의식이 느껴지는 에너지의 응집체.",
 			"전사자의 무덤에서 얻을 수 있다.",
 			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25142] = {
-		unidentifiedDisplayName = "도람 토큰",
-		unidentifiedResourceName = "블랙캣",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "도람 토큰",
-		identifiedResourceName = "블랙캣",
-		identifiedDescriptionName = {
-			"모험가 도람들 사이에서 통용되는 장비 교환 토큰. 더 원활한 모험장비를 갖추기 위해서 여러모로 쓸모가 많은 토큰이다.",
-			"",
-			"^ffffff<NAVI>^4D4DFF[도람족 챠라 가족]^000000<INFO>lasagna,135,247,0,200,0,0</INFO></NAVI>^000000",
-			"",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25151] = {
-		unidentifiedDisplayName = "레이첼의 리볼버",
-		unidentifiedResourceName = "식스슈터",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "레이첼의 리볼버",
-		identifiedResourceName = "식스슈터",
-		identifiedDescriptionName = { "레이첼이 수리한 리볼버. 잘 망가지기 때문에 무기로 쓰기에는 불안하다.", "Weight:^009900 0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25152] = {
-		unidentifiedDisplayName = "추모하는 꽃다발",
-		unidentifiedResourceName = "카네이션꽃다발",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "추모하는 꽃다발",
-		identifiedResourceName = "카네이션꽃다발",
-		identifiedDescriptionName = { "세상에 없는 그리운 사람을 추모하기 위해 정성껏 만든 꽃다발", "Weight:^009900 0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25153] = {
-		unidentifiedDisplayName = "부서진 총의 잔해",
-		unidentifiedResourceName = "식스슈터",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "부서진 총의 잔해",
-		identifiedResourceName = "식스슈터",
-		identifiedDescriptionName = { "부서져버린 총의 잔해. 전문가에게 가져가서 수리를 하면 다시 사용할 수 있을 것 같다. 물건은 소중히 다루도록 하자.", "Weight:^009900 0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25154] = {
-		unidentifiedDisplayName = "묵은 화약",
-		unidentifiedResourceName = "화약",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "묵은 화약",
-		identifiedResourceName = "화약",
-		identifiedDescriptionName = {
-			"어디서나 흔히 볼수 있는 화약뭉치. 사용하지 않은지 오래되어 폭발력은 장담할 수 없다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25166] = {
-		unidentifiedDisplayName = "Shining Ring",
-		unidentifiedResourceName = "카이저너클",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Shining Ring",
-		identifiedResourceName = "카이저너클",
-		identifiedDescriptionName = {
-			"코트네스님이 애용한다는 장신구.",
-			"Crafted from gold, with Ruby attached on it, very classy but elegance.",
-			"Its really fit on finger, but you decide to use it as a decoration instead...",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25187] = {
-		unidentifiedDisplayName = "슬러그탄",
-		unidentifiedResourceName = "슬러그탄_5",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "슬러그탄",
-		identifiedResourceName = "슬러그탄_5",
-		identifiedDescriptionName = {
-			"'슬러그 샷' 스킬 전용으로 사용되는 슬러그탄. ",
-			"재질이 무엇일지 궁금할 정도로 비싸고 무겁다.",
-			"'슬러그 샷' 스킬 사용시 자동으로 소모된다.",
-			"Weight:^009900 120^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25200] = {
-		unidentifiedDisplayName = "Fluffy Cloud",
-		unidentifiedResourceName = "부드러운털",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Fluffy Cloud",
-		identifiedResourceName = "부드러운털",
-		identifiedDescriptionName = {
-			"A light, soft and fluffy cloud. Collecting it will cause great thermal effect.",
-			"^ff0000This item will be deleted when event end.^000000",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25201] = {
-		unidentifiedDisplayName = "Miracle Claw",
-		unidentifiedResourceName = "늑대의발톱",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Miracle Claw",
-		identifiedResourceName = "늑대의발톱",
-		identifiedDescriptionName = {
-			"This claw has a miracle aura. It's a proof that someone has fight with tiger god.",
-			"^ff0000This item will be deleted when event end.^000000",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25205] = {
-		unidentifiedDisplayName = "쉬링크 이펙트(하단)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "쉬링크 이펙트(하단)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000쉬링크^000000",
-			"공성 및 PvP 지역에서는 적용되지 않음.",
-			"^ff0000기본 체형만 작게 바꿀 뿐, 이펙트나 카트등의 사이즈는 변경되지 않습니다.^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25206] = {
-		unidentifiedDisplayName = "일렉트릭 이펙트(상단)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "일렉트릭 이펙트(상단)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"상단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000일렉트릭^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25207] = {
-		unidentifiedDisplayName = "강화 SP흡수스톤(상단)",
-		unidentifiedResourceName = "스노우플립",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "강화 SP흡수스톤(상단)",
-		identifiedResourceName = "스노우플립",
-		identifiedDescriptionName = {
-			"SP를 흡수 할 수 있는 스톤.",
-			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
-			"2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25208] = {
-		unidentifiedDisplayName = "강화 SP흡수스톤(걸칠것)",
-		unidentifiedResourceName = "스노우플립",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "강화 SP흡수스톤(걸칠것)",
-		identifiedResourceName = "스노우플립",
-		identifiedDescriptionName = {
-			"SP를 흡수 할 수 있는 스톤.",
-			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다. ",
-			"2% 확률로 적에게 준 물리 대미지의 1% 를 자신의 SP로 흡수.",
-			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25209] = {
-		unidentifiedDisplayName = "강화 HP흡수스톤(걸칠것)",
-		unidentifiedResourceName = "스노우플립",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "강화 HP흡수스톤(걸칠것)",
-		identifiedResourceName = "스노우플립",
-		identifiedDescriptionName = {
-			"HP를 흡수 할 수 있는 스톤. ",
-			"의상 걸칠것 슬롯에 아래의 능력치를 부여한다. ",
-			"2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
-			"^ffffff<NAVI>^4D4DFF[레이스 라 자드]^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25210] = {
-		unidentifiedDisplayName = "강화 HP흡수스톤(상단)",
-		unidentifiedResourceName = "스노우플립",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "강화 HP흡수스톤(상단)",
-		identifiedResourceName = "스노우플립",
-		identifiedDescriptionName = {
-			"HP를 흡수 할 수 있는 스톤. ",
-			"의상 상단 슬롯에 아래의 능력치를 부여한다. ",
-			"2% 확률로 적에게 준 물리 대미지의 3% 를 자신의 HP로 흡수.",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25223] = {
-		unidentifiedDisplayName = "낙원단 주화",
-		unidentifiedResourceName = "금화",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "낙원단 주화",
-		identifiedResourceName = "금화",
-		identifiedDescriptionName = { "낙원단 임무를 통해 얻을 수 있는 낙원단 통용 화폐.", "특별한 아이템과 교환 할 수 있다.", "무게 : ^7777770^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25224] = {
-		unidentifiedDisplayName = "화이트바디 이펙트(중단)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "화이트바디 이펙트(중단)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000화이트 바디^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25225] = {
-		unidentifiedDisplayName = "진홍의 파동 이펙트(중단)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "진홍의 파동 이펙트(중단)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"중단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000진홍의 파동^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25226] = {
-		unidentifiedDisplayName = "워터 필드 이펙트(하단)",
-		unidentifiedResourceName = "블루크리스탈조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "워터 필드 이펙트(하단)",
-		identifiedResourceName = "블루크리스탈조각",
-		identifiedDescriptionName = {
-			"하단 의상 장비의 4번째 슬롯에 인챈트하여 이펙트를 부여한다.",
-			"^ff0000워터 필드^000000",
-			"^ffffff<NAVI>^4D4DFF[구르지오 구르마니]^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25227] = {
-		unidentifiedDisplayName = "힐스톤(하단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "힐스톤(하단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"회복을 해주는 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"힐 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25228] = {
-		unidentifiedDisplayName = "텔레포트스톤(하단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "텔레포트스톤(하단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"텔레포트를 쓸 수 있는 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"텔레포트 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[25229] = {
-		unidentifiedDisplayName = "스틸스톤(하단)",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "스틸스톤(하단)",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"훔치는 능력이 생기는 스톤.",
-			"의상 하단 슬롯에 아래의 능력치를 부여한다.",
-			"스틸 Lv.1 사용 가능",
-			"^ffffff<NAVI>^4D4DFF[아베르 르 도쉬]^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 10^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
