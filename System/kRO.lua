@@ -13256,6 +13256,21 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[23229] = {
+		unidentifiedDisplayName = "타락천사의 날개 두루마리",
+		unidentifiedResourceName = "낡은두루마리",
+ 		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "타락천사의 날개 두루마리",
+		identifiedResourceName = "낡은두루마리",
+		identifiedDescriptionName = {
+			"타락천사의 날개 아이템의 슬롯과 제련도를 초기화 해주는 두루마리.",
+			"초기화 후에는 [카츄아]타락천사의 날개 로 변화하며, 카드가 제거되고 제련도가 0이 된다.",
+			"^ff0000주의! - [카츄아]타락천사의 날개 아이템은 99의 레벨 제한이 붙습니다. 이 두루마리로 [카츄아]타락천사의 날개 아이템의 재초기화가 가능합니다.^000000",
+			"무게 : ^7777771^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[24314] = {
 		unidentifiedDisplayName = "Shadow Shield",
 		unidentifiedResourceName = "쉴드쉐도우",
