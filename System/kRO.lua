@@ -432,57 +432,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[7640] = {
-		unidentifiedDisplayName = "Butterfly Hair Decoration",
-		unidentifiedResourceName = "비녀",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Butterfly Hair Decoration",
-		identifiedResourceName = "비녀",
-		identifiedDescriptionName = { "나비모양의 머리장식. 긴 머리를 고정시킬 때 사용하는 것으로 장식하면 소녀다움이 올라간다.", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[7642] = {
-		unidentifiedDisplayName = "Bloody Coin",
-		unidentifiedResourceName = "피묻은코인",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Bloody Coin",
-		identifiedResourceName = "피묻은코인",
-		identifiedDescriptionName = {
-			"오래된 핏자국으로 추정되는 것으로 지저분해진 동전. 얼마나 오래되었는지 그 검은 자국마저 바짝 말라있다.",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[7643] = {
-		unidentifiedDisplayName = "Bloody Letter",
-		unidentifiedResourceName = "피묻은책장",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Bloody Letter",
-		identifiedResourceName = "피묻은책장",
-		identifiedDescriptionName = {
-			"구겨지고 군데군데 피까지 묻어 있는 낡은 편지 한장. 간신히 글씨는 알아 볼 수 있다.",
-			"\"아무래도 나는 굉장한 걸 만든 것 같아.내가 만든건 인형이 아니라 마치 나의 딸 같군. 이 편지가 자네에게 도착할때쯤엔 아마도 모든 작업이 끝나있겠지. 나의 마지막 작품. 아니 나의 딸을 자네에게도 보여주고 싶군\"",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[7644] = {
-		unidentifiedDisplayName = "Draft Letter",
-		unidentifiedResourceName = "편지01",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Draft Letter",
-		identifiedResourceName = "편지01",
-		identifiedDescriptionName = {
-			"미처 발송되지 못한듯 봉인도 되어있지 않은 깨끗한 편지.",
-			"\"백만번째의 인형의 제작에 들어갔는데 이번 인형이 마지막이라고 생각하니 견딜수가 없어져서 일하는 내내 인형에게 말을 걸고 있다네. 하하 늙은이가 주책이지. 자넨 친구니까 이런 내 심정을 이해해 주려나\"",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[11538] = {
 		unidentifiedDisplayName = "Fresh Octopus Legs",
 		unidentifiedResourceName = "문어다리",
@@ -521,58 +470,6 @@ tbl = {
 		identifiedDescriptionName = {
 			"파란허브와 이그드라실의 수액을 조합하여 만들어진 회복포션. ^000088SP를 60가량 회복^000000 시켜 준다.",
 			"Weight:^009900 9^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[11563] = {
-		unidentifiedDisplayName = "Hot Tea",
-		unidentifiedResourceName = "커피",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Hot Tea",
-		identifiedResourceName = "커피",
-		identifiedDescriptionName = {
-			"아직도 온기가 남아있는 홍차. ^000088SP를 100 가량^000000 회복 시켜준다.",
-			"Weight:^009900 2^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[11564] = {
-		unidentifiedDisplayName = "Sweets",
-		unidentifiedResourceName = "카나페",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Sweets",
-		identifiedResourceName = "카나페",
-		identifiedDescriptionName = {
-			"꿀이 발라져 더욱 달콤한 과자. 차와 함께 먹으면 더 맛있다. ^000088HP를 1000 가량^000000 회복 시켜준다.",
-			"Weight:^009900 2^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[11601] = {
-		unidentifiedDisplayName = "Delicious Sardine",
-		unidentifiedResourceName = "입에문물고기",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Delicious Sardine",
-		identifiedResourceName = "입에문물고기",
-		identifiedDescriptionName = {
-			"멸치과에 속하는 바닷물고기. 검푸른 등과 은백색의 배를 가지고 있는 작은 물고기로, 라자냐의 앞바다에서 잡은 것을 최고로 친다. HP를 소량 회복시켜 준다.",
-			"Weight:^009900 2^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[11602] = {
-		unidentifiedDisplayName = "Catnip Fruit",
-		unidentifiedResourceName = "개박하열매",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Catnip Fruit",
-		identifiedResourceName = "개박하열매",
-		identifiedDescriptionName = {
-			"개다래보다 작은 열매. 소량의 HP를 회복시켜 준다. 도람족 스킬 사용 시 소모되기도 한다.",
-			"Weight:^009900 0.1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
