@@ -9279,7 +9279,7 @@ tbl = {
 		unidentifiedDescriptionName = { "" },
 		identifiedDisplayName = "",
 		identifiedResourceName = "오래된보라상자",
-		identifiedDescriptionName = {},
+		identifiedDescriptionName = { "" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -10382,7 +10382,7 @@ tbl = {
 		unidentifiedDescriptionName = { "" },
 		identifiedDisplayName = "",
 		identifiedResourceName = "카프라명함",
-		identifiedDescriptionName = {},
+		identifiedDescriptionName = { "" },
 		slotCount = 0,
 		ClassNum = 0
 	},
@@ -10857,36 +10857,11 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[22984] = {
-		unidentifiedDisplayName = "깔루냐 밀크",
-		unidentifiedResourceName = "깔루냐밀크",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "깔루냐 밀크",
-		identifiedResourceName = "깔루냐밀크",
-		identifiedDescriptionName = { "도람들이 매우 좋아하는 음료.", "펍 오븐의 인기 메뉴 중 하나다.", "3분간 10초마다 MaxHP 10 회복", "Weight:^009900 1^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[22985] = {
-		unidentifiedDisplayName = "바질",
-		unidentifiedResourceName = "바질",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "바질",
-		identifiedResourceName = "바질",
-		identifiedDescriptionName = {
-			"바질리스크의 머리에서 자라는 신기한 풀.",
-			"바질리스크 독에대한 해독 효과가 있다고 한다. 살짝 매콤한 맛이 나며 요리에 넣어 먹기도 한다.",
-			"3분간 10초마다 MaxSP 5 회복",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[22988] = {
-		unidentifiedDisplayName = "봉인된 모자 상자 II",
+		unidentifiedDisplayName = "Sealed Hat Box II",
 		unidentifiedResourceName = "불량학생선물상자",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "봉인된 모자 상자 II",
+		identifiedDisplayName = "Sealed Hat Box II",
 		identifiedResourceName = "불량학생선물상자",
 		identifiedDescriptionName = {
 			"보라색 리본으로 잘 포장된 빨간 상자.",
@@ -10935,10 +10910,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[22997] = {
-		unidentifiedDisplayName = "무한 탐욕 스크롤",
+		unidentifiedDisplayName = "Infinite Greed Scroll",
 		unidentifiedResourceName = "대지의주문서",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "무한 탐욕 스크롤",
+		identifiedDisplayName = "Infinite Greed Scroll",
 		identifiedResourceName = "대지의주문서",
 		identifiedDescriptionName = {
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까?",
@@ -10950,10 +10925,10 @@ tbl = {
 		ClassNum = 0
 	},
 	[22998] = {
-		unidentifiedDisplayName = "무한 고양이손 티켓",
+		unidentifiedDisplayName = "Infinite Cat Hand Ticket",
 		unidentifiedResourceName = "고양이손티켓",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "무한 고양이손 티켓",
+		identifiedDisplayName = "Infinite Cat Hand Ticket",
 		identifiedResourceName = "고양이손티켓",
 		identifiedDescriptionName = {
 			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
@@ -11859,71 +11834,11 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[23128] = {
-		unidentifiedDisplayName = "카츄아무기",
-		unidentifiedResourceName = "혼자놀기상자2",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카츄아무기",
-		identifiedResourceName = "혼자놀기상자2",
-		identifiedDescriptionName = {},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23129] = {
-		unidentifiedDisplayName = "카츄아Garment",
-		unidentifiedResourceName = "혼자놀기상자2",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카츄아Garment",
-		identifiedResourceName = "혼자놀기상자2",
-		identifiedDescriptionName = {},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23130] = {
-		unidentifiedDisplayName = "카츄아갑옷",
-		unidentifiedResourceName = "혼자놀기상자2",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카츄아갑옷",
-		identifiedResourceName = "혼자놀기상자2",
-		identifiedDescriptionName = {},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23131] = {
-		unidentifiedDisplayName = "카츄아신발",
-		unidentifiedResourceName = "혼자놀기상자2",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카츄아신발",
-		identifiedResourceName = "혼자놀기상자2",
-		identifiedDescriptionName = {},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23132] = {
-		unidentifiedDisplayName = "카츄아방패",
-		unidentifiedResourceName = "혼자놀기상자2",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카츄아방패",
-		identifiedResourceName = "혼자놀기상자2",
-		identifiedDescriptionName = {},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23133] = {
-		unidentifiedDisplayName = "카츄아투구",
-		unidentifiedResourceName = "혼자놀기상자2",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "카츄아투구",
-		identifiedResourceName = "혼자놀기상자2",
-		identifiedDescriptionName = {},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[23134] = {
-		unidentifiedDisplayName = "풍선 스크롤",
+		unidentifiedDisplayName = "Balloon Scroll",
 		unidentifiedResourceName = "대만페스티벌스크롤",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "풍선 스크롤",
+		identifiedDisplayName = "Balloon Scroll",
 		identifiedResourceName = "대만페스티벌스크롤",
 		identifiedDescriptionName = {
 			"기간 한정 풍선 스크롤. ",
@@ -12010,64 +11925,6 @@ tbl = {
 			"------------------------",
 			"Level Requirement:^009900 100^000000",
 			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23142] = {
-		unidentifiedDisplayName = "최하급성장비약",
-		unidentifiedResourceName = "최하급성장비약",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "최하급성장비약",
-		identifiedResourceName = "최하급성장비약",
-		identifiedDescriptionName = {
-			"마시면 일정량의 경험치를 얻게된다. ",
-			"이때 얻게되는 경험치로 레벨업하는 횟수는 1회로 제한된다.",
-			"이미 100Lv 이상 성장한 경우, 효능이 급감한다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23143] = {
-		unidentifiedDisplayName = "최하급직업비약",
-		unidentifiedResourceName = "최하급직업비약",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "최하급직업비약",
-		identifiedResourceName = "최하급직업비약",
-		identifiedDescriptionName = {
-			"마시면 일정량의 잡경험치를 얻게된다. ",
-			"이때 얻게되는 잡경험치로 레벨업하는 횟수는 1회로 제한된다.",
-			"이미 100Lv 이상 성장한 경우, 효능이 급감한다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23144] = {
-		unidentifiedDisplayName = "최하급성장박스",
-		unidentifiedResourceName = "최하급성장박스",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "최하급성장박스",
-		identifiedResourceName = "최하급성장박스",
-		identifiedDescriptionName = {
-			"최하급 성장 비약 5개가 포장되어있는 선물용 상자.",
-			"다른이에게 선물하여 감사의 마음을 표시해보자.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[23145] = {
-		unidentifiedDisplayName = "최하급직업박스",
-		unidentifiedResourceName = "최하급직업박스",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "최하급직업박스",
-		identifiedResourceName = "최하급직업박스",
-		identifiedDescriptionName = {
-			"최하급 직업 비약 5개가 포장되어있는 선물용 상자.",
-			"다른이에게 선물하여 감사의 마음을 표시해보자.",
-			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
