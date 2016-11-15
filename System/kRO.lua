@@ -199,239 +199,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[6521] = {
-		unidentifiedDisplayName = "Token of the King",
-		unidentifiedResourceName = "상인영수증",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Token of the King",
-		identifiedResourceName = "상인영수증",
-		identifiedDescriptionName = {
-			"국왕의 날인이 찍힌 증표. 이 증서는 보상과 교환이 가능하다.",
-			"^ffffff<NAVI>^4D4DFF[왕국소속자판기]^000000<INFO>malangdo,234,187,0,100,0,0</INFO></NAVI>^000000",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6531] = {
-		unidentifiedDisplayName = "Token of the King",
-		unidentifiedResourceName = "상인영수증",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Token of the King",
-		identifiedResourceName = "상인영수증",
-		identifiedDescriptionName = {
-			"국왕의 날인이 찍힌 증표. 이 증서는 마치 5장 같은 1장인 기분이 든다.",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6532] = {
-		unidentifiedDisplayName = "Honey Rice Cake",
-		unidentifiedResourceName = "행운의떡",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Honey Rice Cake",
-		identifiedResourceName = "행운의떡",
-		identifiedDescriptionName = {
-			"송편의 속에 팥소 대신 달콤한 꿀이 들어있다. 오군의 도련님이 매우 좋아한다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6543] = {
-		unidentifiedDisplayName = "Exceeded Level 110 Coin",
-		unidentifiedResourceName = "터보트랙코인",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Exceeded Level 110 Coin",
-		identifiedResourceName = "터보트랙코인",
-		identifiedDescriptionName = {
-			"단기간 내에 110LV을 돌파한 자에게 주어지는 코인.",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6544] = {
-		unidentifiedDisplayName = "Exceeded Level 120 Coin",
-		unidentifiedResourceName = "아레나코인",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Exceeded Level 120 Coin",
-		identifiedResourceName = "아레나코인",
-		identifiedDescriptionName = {
-			"단기간 내에 120LV을 돌파한 자에게 주어지는 코인.",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6556] = {
-		unidentifiedDisplayName = "Advanced Headphone Coupon",
-		unidentifiedResourceName = "쿠폰",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Advanced Headphone Coupon",
-		identifiedResourceName = "쿠폰",
-		identifiedDescriptionName = {
-			"[고급 헤드폰 교환권] 이라고 크게 쓰여진 종이.",
-			"아무래도 당첨 된 것 같다!",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6850] = {
-		unidentifiedDisplayName = "Suspicious Box",
-		unidentifiedResourceName = "헐떡이는상자",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Suspicious Box",
-		identifiedResourceName = "헐떡이는상자",
-		identifiedDescriptionName = {
-			"안에서 이상한 소리가 나는 수상한 상자. 귀 기울여 자세히 들어 보면 소름이 끼친다. 하아.. 어서 배달을 완료하고 싶다.. 보고싶어요, 엄마!!",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6851] = {
-		unidentifiedDisplayName = "Suspicious Document",
-		unidentifiedResourceName = "주문서다발",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Suspicious Document",
-		identifiedResourceName = "주문서다발",
-		identifiedDescriptionName = {
-			"아무렇게나 둘둘 말린 종이. 여러군데 얼룩이 진데다 글씨도 깨알같이 많이 적혀 있어 심하게 우글거린다. 사람의 손을 많이 탄 듯 하다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6852] = {
-		unidentifiedDisplayName = "Super Neutralizer",
-		unidentifiedResourceName = "안약",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Super Neutralizer",
-		identifiedResourceName = "안약",
-		identifiedDescriptionName = {
-			"약품으로 인해 부식이 된 돌에 사용하는 초강력 중화제. 소량으로도 굉장한 효과를 볼 수 있다.",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6853] = {
-		unidentifiedDisplayName = "Bouquet of Thanks",
-		unidentifiedResourceName = "꽃다발",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Bouquet of Thanks",
-		identifiedResourceName = "꽃다발",
-		identifiedDescriptionName = { "감사의 마음을 엮어 만든 화사한 꽃다발.", "Weight:^009900 0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6854] = {
-		unidentifiedDisplayName = "Captured Novus",
-		unidentifiedResourceName = "무속성알",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Captured Novus",
-		identifiedResourceName = "무속성알",
-		identifiedDescriptionName = { "포획된 노버스. 가끔 안에서 꿈틀거리는 것이 느껴진다.", "Weight:^009900 0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6855] = {
-		unidentifiedDisplayName = "Captured Tatacho",
-		unidentifiedResourceName = "지속성알",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Captured Tatacho",
-		identifiedResourceName = "지속성알",
-		identifiedDescriptionName = { "포획된 따따초. 가끔 안에서 꿈틀거리는 것이 느껴진다.", "Weight:^009900 0^000000" },
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6856] = {
-		unidentifiedDisplayName = "Manuscript Written by Pilgrim",
-		unidentifiedResourceName = "원고용지",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Manuscript Written by Pilgrim",
-		identifiedResourceName = "원고용지",
-		identifiedDescriptionName = {
-			"인기 작가 테르미르가 7년 동안 집필 한 대하 소설의 원고. 원고 한장 한장마다 작가의 눈물과 한숨, 땀이 어려있다.",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6857] = {
-		unidentifiedDisplayName = "Very Hard Stone",
-		unidentifiedResourceName = "영혼의조각",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Very Hard Stone",
-		identifiedResourceName = "영혼의조각",
-		identifiedDescriptionName = {
-			"아름다운 무늬가 있는 매우 단단한 돌. 다루기도 제법 어려워 숙련된 석공만이 가공할 수 있다고 한다.",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6905] = {
-		unidentifiedDisplayName = "Shattered Magic Stone",
-		unidentifiedResourceName = "어스름한별빛",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Shattered Magic Stone",
-		identifiedResourceName = "어스름한별빛",
-		identifiedDescriptionName = {
-			"이전에 마법석의 형태를 가지고 있었을법한 결정조각. 일부 특별한 취향의 사람들이 필요로 하는 것 같다.",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6995] = {
-		unidentifiedDisplayName = "Warm Stone",
-		unidentifiedResourceName = "프레임하트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Warm Stone",
-		identifiedResourceName = "프레임하트",
-		identifiedDescriptionName = {
-			"신기하게도 만지면 온기가 느껴지는 돌. 이것을 다룰 수 있는 사람에게 가져다 주면 굉장한 것을 만들 수 있을지도...",
-			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다)",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6996] = {
-		unidentifiedDisplayName = "Rabbit Doll",
-		unidentifiedResourceName = "봉제인형",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Rabbit Doll",
-		identifiedResourceName = "봉제인형",
-		identifiedDescriptionName = {
-			"토끼의 모양을 본따 만든 인형. 아이들이 무척 좋아한다.",
-			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다) ",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[6997] = {
-		unidentifiedDisplayName = "Old Arrow",
-		unidentifiedResourceName = "녹슨화살",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Old Arrow",
-		identifiedResourceName = "녹슨화살",
-		identifiedDescriptionName = {
-			"사용감이 제법 있는 화살. 몬스터의 침이 군데군데 묻어 있어 잘 닦아서 사용해야 한다.",
-			"(이벤트 기간 이후, 해당 아이템은 삭제됩니다) ",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
-			"Weight:^009900 0^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[11538] = {
 		unidentifiedDisplayName = "Fresh Octopus Legs",
 		unidentifiedResourceName = "문어다리",
@@ -444,32 +211,6 @@ tbl = {
 			"이것이 말랑도의 축제위원 '미묘'가 찾던 바로 그 싱싱함인 듯 하다.",
 			"^ff0000This item will be deleted when event end.^000000",
 			"Weight:^009900 3^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[11555] = {
-		unidentifiedDisplayName = "RG Red Potion",
-		unidentifiedResourceName = "RG빨간포션",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "RG Red Potion",
-		identifiedResourceName = "RG빨간포션",
-		identifiedDescriptionName = {
-			"빨간허브와 이그드라실의 수액을 조합하여 만들어진 회복포션. ^000088HP 를 325 가량 회복^000000 시켜 준다.",
-			"Weight:^009900 4^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[11556] = {
-		unidentifiedDisplayName = "RG Blue Potion",
-		unidentifiedResourceName = "RG파란포션",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "RG Blue Potion",
-		identifiedResourceName = "RG파란포션",
-		identifiedDescriptionName = {
-			"파란허브와 이그드라실의 수액을 조합하여 만들어진 회복포션. ^000088SP를 60가량 회복^000000 시켜 준다.",
-			"Weight:^009900 9^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -680,37 +421,10 @@ tbl = {
 		identifiedDisplayName = "Soul Plunger Scroll",
 		identifiedResourceName = "아리부타스크롤",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"기간 한정 영혼의 뚫어뻥 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자II, 영혼의 뚫어뻥등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12544] = {
-		unidentifiedDisplayName = "Mystic Tree Branch",
-		unidentifiedResourceName = "어린나뭇가지",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Mystic Tree Branch",
-		identifiedResourceName = "어린나뭇가지",
-		identifiedDescriptionName = {
-			"아주 오랜시간 페이욘 숲에 있었던 고목의 나뭇가지로, 마력을 지니게 되었다는 소문이 있다.",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[12546] = {
-		unidentifiedDisplayName = "Dark matter",
-		unidentifiedResourceName = "검은물체",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Dark matter",
-		identifiedResourceName = "검은물체",
-		identifiedDescriptionName = {
-			"먹으면 절대 안될 것 같은 요리.",
-			"요리라고 말하기에도 미안한 기분까지 든다.",
-			"Weight:^009900 5^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -2287,7 +2001,7 @@ tbl = {
 		identifiedDisplayName = "Happy Balloon Scroll",
 		identifiedResourceName = "하트스크롤",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"기간 한정 해피벌룬 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 해피벌룬, [Not for sale]섬광막대 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
 			"Weight:^009900 1^000000"
@@ -9566,7 +9280,7 @@ tbl = {
 		identifiedDisplayName = "제련용 광석상자X",
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"농축 에르늄, 농축 오리데오콘이 각각 5개씩 들어있는 상자. 추가로 매드바니 스크롤이 1개 들어있다.",
 			"^ffffff_^000000",
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
@@ -9585,7 +9299,7 @@ tbl = {
 		identifiedDisplayName = "제련용 광석상자X 10세트",
 		identifiedResourceName = "캐시상자_노랑",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"농축 에르늄, 농축 오리데오콘이 각각 50개씩 들어있는 상자. 추가로 매드바니 스크롤이 11개 들어있다.",
 			"^ffffff_^000000",
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
@@ -9678,7 +9392,7 @@ tbl = {
 		identifiedDisplayName = "힘내그라 패키지V",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자. ",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개가 들어있다. 추가로 영혼의 뚫어뻥 스크롤 1개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -9694,7 +9408,7 @@ tbl = {
 		identifiedDisplayName = "힘내그라 패키지V 10세트",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음. ",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개가 들어있다. 추가로 영혼의 뚫어뻥 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -9713,7 +9427,7 @@ tbl = {
 			"1시간 동안 사용 가능한 무한 탐욕 스크롤이 1개 들어있는 상자.",
 			"^ffffff_^000000",
 			"^000088Rental Item^000000",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"탐욕 스킬을 사용할 수 있는 스크롤. 왠지 들고만 있어도 사람이 탐욕스러워지는 듯 한 느낌이 드는건 왜일까? ",
 			"경고! - 마을에서는 사용할 수 없습니다. ",
 			"Weight:^009900 1^000000",
@@ -9734,7 +9448,7 @@ tbl = {
 			"하루동안 사용 가능한 무한 고양이손 티켓이 1개 들어있는 상자.",
 			"^ffffff_^000000",
 			"^000088Rental Item^000000",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"고양이손 상단에서 발행한 고양이손 티켓. ",
 			"해가 지날수록 사업이 번창하는 고양이손 상단의 회심의 서비스. ",
 			"사용 시, 고양이손 창고 서비스를 사용할 수 있다. ",
@@ -9753,7 +9467,7 @@ tbl = {
 		identifiedDisplayName = "언리미티드 박스IV",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"ASPD 강화 포션 5개와 레드 부스터 10개가 들어있는 상자. 추가로 해피벌룬 스크롤 1개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight:^009900 1^000000"
@@ -9768,7 +9482,7 @@ tbl = {
 		identifiedDisplayName = "언리미티드 10세트 박스IV",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"ASPD 강화 포션 50개와 레드 부스터 100개가 들어있는 상자. 추가로 해피벌룬 스크롤 11개가 들어있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight:^009900 1^000000"
@@ -9783,7 +9497,7 @@ tbl = {
 		identifiedDisplayName = "삼명수 패키지VII",
 		identifiedResourceName = "응급처치상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
 			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 인비지블 스크롤 1개도 얻을 수 있다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -9799,7 +9513,7 @@ tbl = {
 		identifiedDisplayName = "삼명수 패키지 10세트VII",
 		identifiedResourceName = "응급처치상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
 			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 인비지블 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
@@ -9815,7 +9529,7 @@ tbl = {
 		identifiedDisplayName = "올마이티 플러스 상자",
 		identifiedResourceName = "오래된노란상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"올마이티 10개와 신상 모자 스크롤 1개가 들어있는 상자.",
 			"거기에 [Not for sale]미스틱 파우더, [Not for sale]티르의 축복, [Not for sale]회복력향상포션도 1개씩 더!",
 			"",
@@ -9834,7 +9548,7 @@ tbl = {
 		identifiedDisplayName = "올마이티 플러스 상자 10세트",
 		identifiedResourceName = "오래된노란상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"올마이티 100개와 신상 모자 스크롤 11개가 들어있는 상자.",
 			"거기에 [Not for sale]미스틱 파우더, [Not for sale]티르의 축복, [Not for sale]회복력향상포션도 10개씩 더!",
 			"[Not for sale]톡톡캔디와 [Not for sale]마법캔디도 1개씩 들어있습니다.",
@@ -9856,7 +9570,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"한정판 파워 부스터 10개와 2015 스페셜 스크롤이 1개 들어있는 상자.",
 			"",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"체내 에너지를 활성화하여, 파워를 대폭 향상시켜주는 부스터. ",
 			"30분간 ATK, MATK +30, ATK, MATK +1%,",
 			"HIT, FLEE +30, ASPD +1, SP 소모량 5% 감소,",
@@ -9879,7 +9593,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"한정판 파워 부스터 100개와 2015 스페셜 스크롤이 11개 들어있는 상자.",
 			"",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"체내 에너지를 활성화하여, 파워를 대폭 향상시켜주는 부스터. ",
 			"30분간 ATK, MATK +30, ATK, MATK +1%,",
 			"HIT, FLEE +30, ASPD +1, SP 소모량 5% 감소,",
@@ -9900,7 +9614,7 @@ tbl = {
 		identifiedDisplayName = "한정판 탑승용 고삐 상자",
 		identifiedResourceName = "번호상자03",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"탑승용 고삐가 1개 들어있는 상자.",
 			"",
 			"각 직업군에 어울리는 탈 것으로 무엇이든 탑승 가능한 신비한 고삐.",
@@ -9954,7 +9668,7 @@ tbl = {
 		identifiedDisplayName = "힘내그라 플러스 패키지",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자. ",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개, 포링 스크롤 1개가 들어있다.",
 			"거기에 [Not for sale]환영의술잔도 1개 더!",
@@ -9971,7 +9685,7 @@ tbl = {
 		identifiedDisplayName = "힘내그라 플러스 패키지 10세트",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음. ",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개, 포링 스크롤 11개가 들어있다.",
 			"거기에 [Not for sale]환영의술잔도 10개 더!",
@@ -9989,7 +9703,7 @@ tbl = {
 		identifiedDisplayName = "삼명수 패키지Ⅷ",
 		identifiedResourceName = "응급처치상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
 			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 아미스트르 스크롤 1개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -10005,7 +9719,7 @@ tbl = {
 		identifiedDisplayName = "삼명수 패키지 10세트Ⅷ",
 		identifiedResourceName = "응급처치상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
 			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 아미스트르 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
@@ -10077,7 +9791,7 @@ tbl = {
 		identifiedDisplayName = "행운의 냥다래 10개 상자 II",
 		identifiedResourceName = "보물상자_",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"냥다래 열매가 10개 들어있는 상자. ",
 			"소량의 통조림도 보너스로 들어있다.",
 			"추가로 풍선 스크롤 1개도 얻을 수 있다.",
@@ -10094,7 +9808,7 @@ tbl = {
 		identifiedDisplayName = "행운의 냥다래 100개 상자 II",
 		identifiedResourceName = "보물상자_",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"냥다래 열매가 100개 들어있는 상자. ",
 			"대량의 통조림도 보너스로 들어있다.",
 			"추가로 풍선 스크롤 11개도 얻을 수 있다.",
@@ -10144,7 +9858,7 @@ tbl = {
 		identifiedDisplayName = "힘내그라 플러스 패키지 II",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자. ",
 			"전투 교범 2개, 풍선껌 2개, 올마이티 2개, 멘탈 포션 2개, 신묘한 생명수 6개, 건슬링거 스크롤 1개가 들어있다.",
 			"거기에 [비매품]환영의술잔도 1개 더!",
@@ -10161,7 +9875,7 @@ tbl = {
 		identifiedDisplayName = "힘내그라 플러스 패키지 10세트 II",
 		identifiedResourceName = "햇빛의상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"1시간 동안 큰 효과를 보기를 원하는 당신에게!' 라고 쓰여져 있는 상자 10개 묶음. ",
 			"전투 교범 20개, 풍선껌 20개, 올마이티 20개, 멘탈 포션 20개, 신묘한 생명수 60개, 건슬링거 스크롤 11개가 들어있다.",
 			"거기에 [비매품]환영의술잔도 10개 더!",
@@ -10179,7 +9893,7 @@ tbl = {
 		identifiedDisplayName = "삼명수 패키지IX",
 		identifiedResourceName = "응급처치상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자.",
 			"소형 생명수 20개, 중형 생명수 20개, 신묘한 생명수 20개가 들어있다. 추가로 7월의 그린 스크롤 1개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
@@ -10195,7 +9909,7 @@ tbl = {
 		identifiedDisplayName = "삼명수 패키지 10세트IX",
 		identifiedResourceName = "응급처치상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"생명 연장의 꿈, 전설의 삼명수!!! 라고 쓰여져 있는 상자 10세트. ",
 			"소형 생명수 200개, 중형 생명수 200개, 신묘한 생명수 200개가 들어있다. 추가로 7월의 그린 스크롤 11개도 얻을 수 있다. ",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다. ^000000",
@@ -10267,7 +9981,7 @@ tbl = {
 		identifiedDisplayName = "Defense Scroll Box",
 		identifiedResourceName = "졸린상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"일시적으로 방어력을 끌어올려, 생존에 도움을 주는 스크롤을 담은 상자.",
 			"소형 마나수 5개, 빛나는 방어스크롤 30개가 담겨져 있다.",
 			"방어 스크롤 상자 구매시 신상 모자 스크롤 II 1개 증정!",
@@ -10284,7 +9998,7 @@ tbl = {
 		identifiedDisplayName = "Defense Scroll Box 10pc",
 		identifiedResourceName = "졸린상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"일시적으로 방어력을 끌어올려, 생존에 도움을 주는 스크롤을 담은 상자.",
 			"소형 마나수 50개, 빛나는 방어스크롤 300개가 담겨져있다.",
 			"방어 스크롤 상자 세트 구매시 신상 모자 스크롤 II 11개 증정!",
@@ -10303,7 +10017,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"한정판 파워 부스터 10개와 2016 스페셜 스크롤이 1개 들어있는 상자.",
 			"",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"체내 에너지를 활성화하여, 파워를 대폭 향상시켜주는 부스터. ",
 			"30분간 ATK, MATK + 30, ATK, MATK + 1%,",
 			"HIT, FLEE + 30, ASPD + 1, SP 소모량 5% 감소,",
@@ -10326,7 +10040,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"한정판 파워 부스터 100개와 2016 스페셜 스크롤이 11개 들어있는 상자.",
 			"",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"체내 에너지를 활성화하여, 파워를 대폭 향상시켜주는 부스터. ",
 			"30분간 ATK, MATK + 30, ATK, MATK + 1%,",
 			"HIT, FLEE + 30, ASPD + 1, SP 소모량 5% 감소,",
@@ -10668,7 +10382,7 @@ tbl = {
 		identifiedDisplayName = "매드바니 스크롤",
 		identifiedResourceName = "매드바니스크롤",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"기간 한정 매드바니 스크롤. ",
 			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
 			"Weight:^009900 1^000000"
@@ -10683,7 +10397,7 @@ tbl = {
 		identifiedDisplayName = "봉인된 모자 상자",
 		identifiedResourceName = "모범생선물상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"노란색 리본으로 장식된, 스마일 장식이 달린 종이 상자.",
 			"다음의 아이템중 1개가 들어있습니다.",
 			"------------------------",
@@ -10931,7 +10645,7 @@ tbl = {
 		identifiedDisplayName = "Infinite Cat Hand Ticket",
 		identifiedResourceName = "고양이손티켓",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"고양이손 상단에서 발행한 고양이손 티켓. ",
 			"해가 지날수록 사업이 번창하는 고양이손 상단의 회심의 서비스.",
 			"사용 시, 고양이손 창고 서비스를 사용할 수 있다.",
@@ -11213,7 +10927,7 @@ tbl = {
 		identifiedDisplayName = "[Not for sale]미스틱 파우더",
 		identifiedResourceName = "요정의마법가루",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"뿌리면 잠시동안 몸이 매우 가벼워지는 신비한 파우더.",
 			"5분간 FLEE +20, LUK +10.",
 			"^000088캐릭터가 전투불능상태가 되면 아이템 효과도 사라집니다.^000000",
@@ -11412,7 +11126,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"천사포링 부츠가 들어있는 상자.",
 			"천사포링 부츠에 장착시, 추가로 능력을 얻을 수 있는 돌이 1종 포함되어 있다.",
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"Weight:^009900 1^000000"
 		},
 		slotCount = 0,
@@ -11435,7 +11149,7 @@ tbl = {
 		identifiedDisplayName = "11월 선물상자",
 		identifiedResourceName = "진주보물상자",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"메긴기오르드(체험판), 브리싱가멘(체험판), 아스프리카(체험판), 브륀힐트(체험판)가 들어있는 상자. 14일간 사용 가능하다.",
 			"Weight:^009900 10^000000"
 		},
@@ -11909,7 +11623,7 @@ tbl = {
 		identifiedDisplayName = "리벨리온 점핑지원 상자",
 		identifiedResourceName = "번호상자05",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"새롭게 출발하는 리벨리온들을 위한 지원 상자.",
 			"상자에는 아래의 물품이 모두 들어있다.",
 			"------------------------",
@@ -12293,7 +12007,7 @@ tbl = {
 		identifiedDisplayName = "[비매품]카프라 명함",
 		identifiedResourceName = "카프라명함",
 		identifiedDescriptionName = {
-			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"^ff0000Can't be traded with other account.^000000",
 			"카프라 본사에서 발행하는 카프라의 명함. 이름이 기재된 카프라는 언제든 고객의 부름에 응할 의무가 있다.",
 			"사용 시, 카프라 창고 서비스를 1회 사용할 수 있다.",
 			"Weight:^009900 1^000000"
