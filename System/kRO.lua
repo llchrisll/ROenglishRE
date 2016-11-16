@@ -2028,6 +2028,32 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	[14806] = {
+		unidentifiedDisplayName = "판매 노점 알바생 이용권",
+		unidentifiedResourceName = "보스니아입장권",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "판매 노점 알바생 이용권",
+		identifiedResourceName = "보스니아입장권",
+		identifiedDescriptionName = {
+			"An item that can hire a part-time job to replace a sales stall.",
+			"Weight:^009900 0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[14807] = {
+		unidentifiedDisplayName = "구매 노점 알바생 이용권",
+		unidentifiedResourceName = "보스니아입장권",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "구매 노점 알바생 이용권",
+		identifiedResourceName = "보스니아입장권",
+		identifiedDescriptionName = {
+			"An item that can hire a part-time student who takes charge of buying stall.",
+			"Weight:^009900 0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
 	[16385] = {
 		unidentifiedDisplayName = "Leaf Clover in Mount Box II",
 		unidentifiedResourceName = "캐시상자_녹색",
@@ -9971,6 +9997,26 @@ tbl = {
 			"^ff0000본 아이템을 개봉하시면 청약철회 및 환불 대상에서 제외 됩니다.^000000",
 			"Weight:^009900 1^000000"
 		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17723] = {
+		unidentifiedDisplayName = "판매 노점 알바생 이용권 1시간 상자",
+		unidentifiedResourceName = "오래된노란상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "판매 노점 알바생 이용권 1시간 상자",
+		identifiedResourceName = "오래된노란상자",
+		identifiedDescriptionName = { "1시간 사용 가능한 판매 노점 알바생 이용권이 1개 들어있는 상자.", "Weight:^009900 1^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[17724] = {
+		unidentifiedDisplayName = "구매 노점 알바생 이용권 1시간 상자",
+		unidentifiedResourceName = "오래된노란상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "구매 노점 알바생 이용권 1시간 상자",
+		identifiedResourceName = "오래된노란상자",
+		identifiedDescriptionName = { "1시간 사용 가능한 구매 노점 알바생 이용권이 1개 들어있는 상자. ", "Weight:^009900 1^000000" },
 		slotCount = 0,
 		ClassNum = 0
 	},
