@@ -23353,7 +23353,7 @@ ATK +10
 +^008800Prison Uniform^000000:
 Every 1 refine increase ATK by 2.
 ------------------------
-+^008800Shackle^000000:
++^008800Shackles^000000:
 Every 1 refine increase ATK by 1.
 ------------------------
 +^008800Dark Blinker^000000:
@@ -27237,7 +27237,7 @@ VIT +10
 -10% Cast Time
 -10% SP Consumption
 Acolyte Class Bonus:
--30% damage from Undead and ^6666CCDemon^000000 monster.
+-30% damage from ^6666CCUndead^000000 and ^6666CCDemon^000000 monster.
 +5% EXP from ^6666CCDemon^000000 and ^6666CCUndead^000000 monster.
 ------------------------
 ^6666CCMonk Card Set^000000
@@ -27506,7 +27506,7 @@ VIT +10
 -10% Cast Time
 -10% SP Consumption
 Acolyte Class Bonus:
--30% damage from Undead and ^6666CCDemon^000000 monster.
+-30% damage from ^6666CCUndead^000000 and ^6666CCDemon^000000 monster.
 +5% EXP from ^6666CCDemon^000000 and ^6666CCUndead^000000 monster.
 ------------------------
 ^6666CCMonk Card Set^000000
@@ -29149,7 +29149,7 @@ Compound on:^6600FF Headgear^000000
 Weight:^009900 1^000000
 #
 4485#
-Increase physical damage by 20% against Holy and ^777777Shadow^000000 element monsters and Angel and ^6666CCDemon^000000 monster.
+Increase physical damage by 20% against Holy and ^777777Shadow^000000 element monsters and ^6666CCAngel^000000 and ^6666CCDemon^000000 monster.
 If refine level is above +15, additional physical damage 10% against above monsters.
 ------------------------
 Class:^6666CC Card^000000
@@ -29592,10 +29592,10 @@ Weight:^009900 1^000000
 #
 4539#
 MATK +5%, MaxSP -50%.
-Increases magic damage to Demihuman and ^6666CCAngel^000000 monsters by 25%.
+Increases magic damage to ^6666CCDemihuman^000000 and ^6666CCAngel^000000 monsters by 25%.
 If compounded shoes is refined to +15:
 MATK +3%
-Increases magic damage on Demihuman and ^6666CCAngel^000000 monsters by 8%.
+Increases magic damage on ^6666CCDemihuman^000000 and ^6666CCAngel^000000 monsters by 8%.
 ------------------------
 Class:^6666CC Card^000000
 Compound on:^999900 Footgear^000000
@@ -38053,7 +38053,7 @@ Jobs:^6666CC All classes^000000
 5476#
 An elaborate multi-colored headdress made from the feathers of a Grand Peco.
 ------------------------
-Increases attack against Demihuman and ^6666CCBrute^000000 monster 7%.
+Increases attack against ^6666CCDemihuman^000000 and ^6666CCBrute^000000 monster 7%.
 ------------------------
 Adds a low chance of cursing the target when wearer receive physical attacks.
 ------------------------
@@ -38373,7 +38373,7 @@ Can feel a high dignity of the Northern Wolf Tribe.
 AGI +5
 FLEE +10
 ------------------------
-Ignore 10% physical defense of Demihuman and ^6666CCBrute^000000 monster.
+Ignore 10% physical defense of ^6666CCDemihuman^000000 and ^6666CCBrute^000000 monster.
 ------------------------
 Refine level +7: add a chance of inflicting ^663399Bleeding^000000 status to enemies on 5x5 cells when phsycally attacking.
 Refine level +9: add a chance of autocasting Level 1 Howling of Lion when phsycally attacking.
@@ -39864,7 +39864,7 @@ Increases physical damage inflicted on ^FF0000Fire^000000 element monsters by 5%
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
-Location:^6666CC Lower^000000
+Location:^6666CC Middle, Lower^000000
 Weight:^009900 30^000000
 Level Requirement:^009900 50^000000
 Jobs:^6666CC All classes^000000
@@ -40762,7 +40762,7 @@ Jobs:^6666CC All classes^000000
 5663#
 A magnificent diadem created to pay tribute to the 7th sign of the zodiac, Libra the Balance. Attached to the crown is an Opal gemstone, the birthstone for those born under this sign.
 ------------------------
-ATK +7%
+ATK +7
 ------------------------
 Refine Level +7:
 When dealing physical attacks, adds a low chance of autocasting Level 2 [Mild Wind].
@@ -42091,7 +42091,7 @@ Jobs:^6666CC All classes^000000
 5790#
 A hat full of mother's love. Sacrifice herself to help you.
 ------------------------
-Reduces damage taken from Demihuman and ^6666CCUndead^000000 monsters by 5%.
+Reduces damage taken from ^6666CCDemihuman^000000 and ^6666CCUndead^000000 monsters by 5%.
 ------------------------
 When dealing physical attacks, Adds a chance of autocasting Level 1 Blessing.
 ------------------------
@@ -46691,19 +46691,19 @@ Ordinary flower that can be found anywhere.
 Weight:^009900 1^000000
 #
 6512#
-A charm ninjas carry to protect themselves from harm. Skilled ninjas can use this periapt to cast various spells.
+An amulet that ninjas carry to protect themselves from harm. A skilled ninja can use this amulet to cast various spells.
 Weight:^009900 0.1^000000
 #
 6513#
-A charm ninjas carry to protect themselves from harm. Skilled ninjas can use this periapt to cast various spells.
+An amulet that ninjas carry to protect themselves from harm. A skilled ninja can use this amulet to cast various spells.
 Weight:^009900 0.1^000000
 #
 6514#
-A charm ninjas carry to protect themselves from harm. Skilled ninjas can use this periapt to cast various spells.
+An amulet that ninjas carry to protect themselves from harm. A skilled ninja can use this amulet to cast various spells.
 Weight:^009900 0.1^000000
 #
 6515#
-A charm ninjas carry to protect themselves from harm. Skilled ninjas can use this periapt to cast various spells.
+An amulet that ninjas carry to protect themselves from harm. A skilled ninja can use this amulet to cast various spells.
 Weight:^009900 0.1^000000
 #
 6516#
@@ -55965,6 +55965,11 @@ Weight:^009900 3^000000
 Restores ^000088about 45 HP^000000.
 Weight:^009900 3^000000
 #
+11596#
+A skull shaped cup filled with blood. It obviously has some mysterious powers.
+Restores ^000088about 600 HP^000000.
+Weight:^009900 5^000000
+#
 11597#
 A ghastly bug that eats away at metal things. However it is a good source of protein.
 Weight:^009900 1^000000
@@ -63767,7 +63772,7 @@ Two revolver with white and red barrels.
 ------------------------
 HIT -10
 ------------------------
-Increases physical attacks inflicted on Angel and ^6666CCDemon^000000 monster by 20%.
+Increases physical attacks inflicted on ^6666CCAngel^000000 and ^6666CCDemon^000000 monster by 20%.
 ------------------------
 Class:^6666CC Revolver^000000
 Attack:^CC0000 70^000000
@@ -75673,7 +75678,7 @@ Dark Plated Armor covered with sharp bones.
 STR +1
 MDEF +3
 ------------------------
-Ignore 10% DEF of Demihuman and ^6666CCBrute^000000 monster when attacking.
+Ignore 10% DEF of ^6666CCDemihuman^000000 and ^6666CCBrute^000000 monster when attacking.
 ------------------------
 when wearer receive physical attacks, adds a 1% chance of autocasting 'Bleeding' on 5x5 cells around the player.
 ------------------------
@@ -76125,7 +76130,7 @@ Armor created by purifying Ur runestones.
 ------------------------
 MDEF +10
 ------------------------
-Increases MaxHP per refine level and tolerance to Demihuman and ^777777Neutral^000000 element damage by 5%.
+Increases MaxHP per refine level and tolerance to ^6666CCDemihuman^000000 and ^777777Neutral^000000 element damage by 5%.
 ------------------------
 [^6666CCUr's set^000000]
 ^008800Ur's Plate^000000
@@ -76989,7 +76994,7 @@ Jobs:^6666CC All classes^000000
 A gown that was once worn by a great saint of a distant empire.
 When torn, it causes a burning sensation on the skin.
 MDEF +3.
--5% damage from Undead and ^6666CCDemon^000000 monster.
+Reduces damage taken from ^6666CCUndead^000000 and ^6666CCDemon^000000 monster by 5%.
 Class:^6666CC Armor^000000
 Defense:^0000FF 13^000000
 Weight:^009900 40^000000
@@ -77104,7 +77109,7 @@ Level Requirement:^009900 110^000000
 Jobs:^6666CC 3rd Classes^000000
 #
 15121#
-Sarah's a robe that imbued with spiritual power.
+Sarah's robe that imbued with spiritual power.
 When dealing magical attack, adds a chance for 10 seconds to increase your MATK, each refine increase +8.
 Class:^6666CC Armor^000000
 Defense:^0000FF 35^000000
@@ -77841,7 +77846,7 @@ Jobs:^6666CC Acolyte^000000
 #
 16024#
 A heavy and powerful iron mace with a rounded top.
-Increases physical damage inflicted on Demihuman, Undead and Earth element monsters by 10%.
+Increases physical damage inflicted on ^6666CCDemihuman^000000, ^6666CCUndead^000000 and ^CC5500Earth^000000 element monsters by 10%.
 Class:^6666CC Mace^000000
 Attack:^CC0000 165^000000
 Weight:^009900 90^000000
@@ -87926,7 +87931,8 @@ Element:^777777 Neutral^000000
 #
 18100#
 ^000088Rental Item^000000
-(Incomplete desc)
+Beautiful bow with a graceful appearance.
+Increases long range physical attack by 20%.
 Class:^6666CC Bow^000000
 Attack:^CC0000 190^000000
 Weight:^009900 0^000000
@@ -89233,7 +89239,7 @@ Increase Damage of Chain Combo by 10%
 Increase Raging Trifecta Blow Damage by 5%
 Increase Damage of Combo Finish by 5%
 Incrase Skill cost by 1 SP for Chain Combo and Combo Finish.
-+^00FF00Hot-blooded Headband^000000
++^008800Hot-blooded Headband^000000
 Increase Damage of Raging Trifecta Blow and Combo Finish by 5%.
 Increase Damage of Tiger Fist and Chain Crush Combo by 3%.
 Increases SP consumption of skills by 10 which reduces by 1 SP per refine level up to +10
@@ -89652,7 +89658,6 @@ Jobs:^6666CC All except Novice^000000
 #
 18616#
 Your parents forgot to tell you that sticking your tongue out at people was rude, and this is the result. Sometimes you just gotta be you!
-Cannot be Damaged
 Class:^6666CC Headgear^000000
 Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
@@ -89778,7 +89783,7 @@ Jobs:^6666CC All classes^000000
 #
 18630#
 A cute doll of a drooping Alicel from the Robot Factory.
-Increases damage to Demihuman and ^6666CCDemon^000000 monsters by 10%.
+Increases damage to ^6666CCDemihuman^000000 and ^6666CCDemon^000000 monsters by 10%.
 Refine level +7: has a low chance of adding 100% ASPD for 7 seconds.
 ^FF0000Created by Allysia^000000
 ^FFFFFF_^000000
@@ -114826,6 +114831,54 @@ Weapon Level:^009900 3^000000
 Level Requirement:^009900 120^000000
 Jobs:^6666CC Rebellion^000000
 #
+28302#
+An object which seems to be part of the Vesper. Possesses a mysterious power that enables its owner to clear his mind.
+------------------------
+INT +2
+MaxSP +5%
+MDEF +3
+------------------------
+Class:^6666CC Accessory^000000
+Defense:^0000FF 1^000000
+Weight:^009900 10^000000
+Jobs:^6666CC Transcendent 2nd classes^000000
+#
+28303#
+An object which seems to be part of the Vesper. Possesses a mysterious power that grants great strength to its owner.
+------------------------
+STR +3
+ATK +10
+MDEF +3
+------------------------
+Class:^6666CC Accessory^000000
+Defense:^0000FF 1^000000
+Weight:^009900 10^000000
+Jobs:^6666CC Transcendent 2nd classes^000000
+#
+28304#
+An object which seems to be part of the Vesper. Possesses a mysterious power that grants agility to he who wears it.
+------------------------
+AGI +3
+Flee +5
+MDEF +3
+------------------------
+Class:^6666CC Accessory^000000
+Defense:^0000FF 1^000000
+Weight:^009900 10^000000
+Jobs:^6666CC Transcendent 2nd classes^000000
+#
+28305#
+An object which seems to be part of the Vesper. Possesses a mysterious power that endows the owner with greater accuracy and dexterity.
+------------------------
+DEX +3
+HIT +10
+MDEF +3
+------------------------
+Class:^6666CC Accessory^000000
+Defense:^0000FF 1^000000
+Weight:^009900 10^000000
+Jobs:^6666CC Transcendent 2nd classes^000000
+#
 28306#
 An earring blessed by luna.
 All stats +1
@@ -116421,8 +116474,8 @@ Reduces damage taken from ^777777Shadow^000000 element attacks by 25%.
 Refine level +5: ASPD +1.
 Refine level +7: ASPD +1.
 When combined with Shining Trapezohedron:
-Reduces damage taken from Undead and ^6666CCDemon^000000 monster by 4%.
-Reduces damage taken from Demihuman monsters by 3%.
+Reduces damage taken from ^6666CCUndead^000000 and ^6666CCDemon^000000 monster by 4%.
+Reduces damage taken from ^6666CCDemihuman^000000 monsters by 3%.
 Class:^6666CC Shield^000000
 Defense:^0000FF 80^000000
 Weight:^009900 50^000000
@@ -117233,6 +117286,13 @@ Weight:^009900 0^000000
 Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
+31051#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
 31052#
 Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
@@ -117505,6 +117565,15 @@ Level Requirement:^009900 1^000000
 Jobs:^6666CC All classes^000000
 #
 31090#
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^009900 0^000000
+Level Requirement:^009900 1^000000
+Jobs:^6666CC All classes^000000
+#
+31091#
+Adds the chance of gaining a certain amount of Zeny each time a monster is killed.
+Created to celebrate the launch of Ragnarok Clicker!
 Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
 Weight:^009900 0^000000
