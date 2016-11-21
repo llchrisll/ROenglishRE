@@ -3338,30 +3338,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[16689] = {
-		unidentifiedDisplayName = "가루다 햇 상자",
-		unidentifiedResourceName = "캐시상자_노랑",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "가루다 햇 상자",
-		identifiedResourceName = "캐시상자_노랑",
-		identifiedDescriptionName = {
-			"가루다 햇이 1개 들어있는 상자.",
-			"전설의 새 가루다의 깃털로 만들어진 매우 독특하며 희귀한 투구.",
-			"모든 몬스터로 부터 받는 데미지 5% 감소.",
-			"LUK +5, MDEF +3, HIT +10, 캐스팅 딜레이 5% 감소.",
-			"7제련 이상 시 몬스터를 쓰러트릴 때 일정확률로 마스테라의 열매를 획득할 수 있으며, 이후 제련도 1당 획득확률 추가 증가.",
-			"Class:^6666CC Headgear^000000",
-			"Defense:^0000FF 4^000000",
-			"Location:^6666CC Upper^000000",
-			"Weight:^009900 10^000000",
-			"Level Requirement:^009900 30^000000",
-			"Jobs:^6666CC 노비스를 제외한 전직업^000000",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[16690] = {
 		unidentifiedDisplayName = "가루다 햇 상자",
 		unidentifiedResourceName = "캐시상자_노랑",
@@ -3380,31 +3356,6 @@ tbl = {
 			"Weight:^009900 10^000000",
 			"Level Requirement:^009900 30^000000",
 			"Jobs:^6666CC 노비스를 제외한 전직업^000000",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[16758] = {
-		unidentifiedDisplayName = "움발라의 혼 상자",
-		unidentifiedResourceName = "캐시상자_보라",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "움발라의 혼 상자",
-		identifiedResourceName = "캐시상자_보라",
-		identifiedDescriptionName = {
-			"움발라의 혼 1개와 행운의 알 1개가 들어있는 상자. 움발라의 혼은 7일간 사용가능.",
-			"^000088Rental Item^000000",
-			"움발라 주민들이 애용하는 피어싱 악세사리. 거친 자연의 세계에서 살아가는 이들의 혼이 느껴진다.",
-			"MaxHP +1%.",
-			"'고기'의 회복력이 25% 증가.",
-			"몬스터를 쓰러트렸을 시 일정확률로 '고기' 드롭.",
-			"Class:^6666CC Headgear^000000",
-			"Defense:^0000FF 1^000000",
-			"Location:^6666CC Lower^000000",
-			"Weight:^009900 0^000000",
-			"Level Requirement:^009900 1^000000",
-			"Jobs:^6666CC All classes^000000",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight:^009900 1^000000"
 		},
@@ -4770,36 +4721,6 @@ tbl = {
 		identifiedResourceName = "오래된보라상자",
 		identifiedDescriptionName = {
 			"콰그마이어 5Lv을 사용할 수 있는 스크롤이 50개 들어있는 상자.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"^ffffff_^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[16854] = {
-		unidentifiedDisplayName = "옷염색 Coupon Box",
-		unidentifiedResourceName = "졸린상자",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "옷염색 Coupon Box",
-		identifiedResourceName = "졸린상자",
-		identifiedDescriptionName = {
-			"옷 염색 쿠폰이 1장 들어있는 상자.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"^ffffff_^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[16855] = {
-		unidentifiedDisplayName = "옷염색 Coupon Box Ⅱ",
-		unidentifiedResourceName = "졸린상자",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "옷염색 Coupon Box Ⅱ",
-		identifiedResourceName = "졸린상자",
-		identifiedDescriptionName = {
-			"본래의 색으로 옷을 염색 할 수 있는 쿠폰이 1장 들어있는 상자.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"^ffffff_^000000",
 			"Weight:^009900 1^000000"
@@ -7401,125 +7322,6 @@ tbl = {
 			"농축 에르늄, 농축 오리데오콘이 각각 5개씩 들어있는 상자. 행운의 알Ⅸ도 얻을 수 있다.",
 			"농축 에르늄 - 방어구의 제련확률이 증가한다.",
 			"농축 오리데오콘 - 무기의 제련확률이 증가한다.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[17037] = {
-		unidentifiedDisplayName = "변신 스크롤(데비루치)10개 상자",
-		unidentifiedResourceName = "테이밍세트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "변신 스크롤(데비루치)10개 상자",
-		identifiedResourceName = "테이밍세트",
-		identifiedDescriptionName = {
-			"변신 스크롤(데비루치)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
-			"20분 동안 몬스터 \"데비루치\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"데비루치로 변신한 시간 동안 ASPD +1, HIT +5.",
-			"주의! 사망 시 변신이 풀려버립니다.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[17038] = {
-		unidentifiedDisplayName = "변신 스크롤(레이아쳐)10개 상자",
-		unidentifiedResourceName = "테이밍세트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "변신 스크롤(레이아쳐)10개 상자",
-		identifiedResourceName = "테이밍세트",
-		identifiedDescriptionName = {
-			"변신 스크롤(레이드릭아쳐)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
-			"20분 동안 몬스터 \"레이드릭 아쳐\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"변신한 시간 동안 활 공격력 25% 증가.",
-			"주의! 사망 시 변신이 풀려버립니다.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[17039] = {
-		unidentifiedDisplayName = "변신 스크롤(마브카)10개 상자",
-		unidentifiedResourceName = "테이밍세트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "변신 스크롤(마브카)10개 상자",
-		identifiedResourceName = "테이밍세트",
-		identifiedDescriptionName = {
-			"변신 스크롤(마브카)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
-			"20분 동안 몬스터 \"마브카\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"변신한 시간 동안 활 공격력 25% 증가.",
-			"주의! 사망 시 변신이 풀려버립니다.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[17040] = {
-		unidentifiedDisplayName = "변신 스크롤(마르두크)10개 상자",
-		unidentifiedResourceName = "테이밍세트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "변신 스크롤(마르두크)10개 상자",
-		identifiedResourceName = "테이밍세트",
-		identifiedDescriptionName = {
-			"변신 스크롤(마르두크)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
-			"20분 동안 몬스터 \"마르두크\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"변신한 시간 동안 MATK +25 증가.",
-			"주의! 사망 시 변신이 풀려버립니다.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[17041] = {
-		unidentifiedDisplayName = "변신 스크롤(밴시)10개 상자",
-		unidentifiedResourceName = "테이밍세트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "변신 스크롤(밴시)10개 상자",
-		identifiedResourceName = "테이밍세트",
-		identifiedDescriptionName = {
-			"변신 스크롤(밴시)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
-			"20분 동안 몬스터 \"밴시\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"변신한 시간 동안 MATK +25 증가.",
-			"주의! 사망 시 변신이 풀려버립니다.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[17042] = {
-		unidentifiedDisplayName = "변신 스크롤(포링)10개 상자",
-		unidentifiedResourceName = "테이밍세트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "변신 스크롤(포링)10개 상자",
-		identifiedResourceName = "테이밍세트",
-		identifiedDescriptionName = {
-			"변신 스크롤(포링)이 10개 들어있는 상자.",
-			"20분 동안 몬스터 \"포링\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"변신한 시간 동안 크리티컬 데미지 5% 증가.",
-			"주의! 사망 시 변신이 풀려버립니다.",
-			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[17043] = {
-		unidentifiedDisplayName = "변신 스크롤(고렘)10개 상자",
-		unidentifiedResourceName = "테이밍세트",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "변신 스크롤(고렘)10개 상자",
-		identifiedResourceName = "테이밍세트",
-		identifiedDescriptionName = {
-			"변신 스크롤(고렘)이 10개 들어있는 상자. 보너스로 변신 스크롤(포링)이 1개 추가!",
-			"20분 동안 몬스터 \"고렘\"의 모습으로 변신이 가능한 신비한 스크롤.",
-			"변신한 시간 동안 물리공격을 받을 시 일정확률로 인듀어 5Lv발동, Neutral resistance 2% 증가.",
-			"주의! 사망 시 변신이 풀려버립니다.",
 			"^ff0000본 아이템을 개봉하시면 청약철회 대상에서 제외 됩니다.^000000",
 			"Weight:^009900 1^000000"
 		},
