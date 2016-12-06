@@ -8500,23 +8500,6 @@ tbl = {
 		slotCount = 0,
 		ClassNum = 0
 	},
-	[17229] = {
-		unidentifiedDisplayName = "무한 파리의 Wing 상자",
-		unidentifiedResourceName = "오래된노란상자",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "무한 파리의 Wing 상자",
-		identifiedResourceName = "오래된노란상자",
-		identifiedDescriptionName = {
-			"1주일간 사용 가능한 무한 파리의 Wing가 1개 들어있는 상자.",
-			"",
-			"^000088Rental Item^000000",
-			"날짐승들의 Wing를 잘라 주술을 걸어놓은것. ^000088맵상의 임의의 곳으로 워프할 수 있다.^000000",
-			"",
-			"Weight:^009900 1^000000"
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
 	[17231] = {
 		unidentifiedDisplayName = "제련용 광석상자",
 		unidentifiedResourceName = "캐시상자_보라",
