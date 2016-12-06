@@ -26,7 +26,7 @@ HatEFID = {
 	HAT_EF_GREEN99_6 = 25,
 	HAT_EF_CIRCLEPOWER = 26,
 	HAT_EF_BOTTOM_BLOODYLUST = 27,
-	HAT_EF_WATER_BELOW = 50,
+	HAT_EF_WATER_BELOW = 28,
 	HAT_EF_LEVEL99_150 = 29,
 	HAT_EF_YELLOWFLY3 = 30,
 	HAT_EF_KAGEMUSYA = 31,
@@ -34,7 +34,7 @@ HatEFID = {
 	HAT_EF_STRANGELIGHTS = 33,
 	HAT_EF_WL_TELEKINESIS_INTENSE = 34,
 	HAT_EF_AB_OFFERTORIUM_RING = 35,
-	HAT_EF_WHITEBODY = 49,
+	HAT_EF_WHITEBODY2 = 36,
 	HAT_EF_SAKURA = 37,
 	HAT_EF_CLOUD2 = 38,
 	HAT_EF_Feather_Fluttering = 39,
@@ -46,7 +46,10 @@ HatEFID = {
 	HAT_EF_magical_feather = 45,
 	HAT_EF_HAT_EFFECT = 46,
 	HAT_EF_BAKURETSU_HADOU = 47,
-	HAT_EF_gold_shower = 48
+	HAT_EF_gold_shower = 48,
+	HAT_EF_WHITEBODY = 49,
+	HAT_EF_WATER_BELOW2 = 50,
+	HAT_EF_firework = 51
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = { resourceFileName = "efst_blossom_fluttering\\sakura.str", hatEffectPos = -4 },
@@ -84,7 +87,7 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_STRANGELIGHTS] = { hatEffectID = 1035 },
 	[HatEFID.HAT_EF_WL_TELEKINESIS_INTENSE] = { hatEffectID = 1048 },
 	[HatEFID.HAT_EF_AB_OFFERTORIUM_RING] = { hatEffectID = 1057 },
-	[HatEFID.HAT_EF_WHITEBODY] = { hatEffectID = 1131 },
+	[HatEFID.HAT_EF_WHITEBODY2] = { hatEffectID = 1065 },
 	[HatEFID.HAT_EF_SAKURA] = { hatEffectID = 163 },
 	[HatEFID.HAT_EF_CLOUD2] = { hatEffectID = 230 },
 	[HatEFID.HAT_EF_Feather_Fluttering] = { resourceFileName = "efst_feather_fluttering\\feath.str", hatEffectPos = -4 },
@@ -96,8 +99,12 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_magical_feather] = { resourceFileName = "efst_magical_feather\\magical_feather.str", hatEffectPos = -5 },
 	[HatEFID.HAT_EF_HAT_EFFECT] = { hatEffectID = 1012 },
 	[HatEFID.HAT_EF_BAKURETSU_HADOU] = { hatEffectID = 1130 },
-	[HatEFID.HAT_EF_gold_shower] = { resourceFileName = "efst_Gold_Shower\\coin2.str", hatEffectPos = -7 }
+	[HatEFID.HAT_EF_gold_shower] = { resourceFileName = "efst_Gold_Shower\\coin2.str", hatEffectPos = -7 },
+	[HatEFID.HAT_EF_WHITEBODY] = { hatEffectID = 1131 },
+	[HatEFID.HAT_EF_WATER_BELOW2] = { hatEffectID = 838 },
+	[HatEFID.HAT_EF_firework] = { resourceFileName = "efst_firework\\firework.str", hatEffectPos = 0 }
 }
+effectHatItemTable = { 20285, 20209, 31091, 31089, 31056, 20062, 20439, 5979, 20487, 5914, 20457, 31142, 20240, 19871, 18742, 20154, 18744, 20323, 20246, 19022, 18741, 18719, 20600 }
 
 function GetHatEfResName(index)
 	if hatEffectTable == nil then
@@ -130,4 +137,13 @@ function GetHatEffectID(index)
 		return hatEfTbl.hatEffectID
 	end
 	return -1
+end
+
+function IsEffectHatItem(itemID)
+	for k, v in pairs(effectHatItemTable) do
+		if v == itemID then
+			return true
+		end
+	end
+	return false
 end
