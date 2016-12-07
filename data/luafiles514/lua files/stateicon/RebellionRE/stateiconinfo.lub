@@ -4713,7 +4713,7 @@ StateIconList[EFST_IDs.EFST_AID_PERIOD_RECEIVEITEM_2ND] = {
 	descript = {
 		{ "드랍율 향상", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "아이템 드랍율 증가.(1달버프)" }
+		{ "아이템 드랍율 증가." }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_PLUSEXP_2ND] = {
@@ -4722,7 +4722,7 @@ StateIconList[EFST_IDs.EFST_AID_PERIOD_PLUSEXP_2ND] = {
 	descript = {
 		{ "경험치 향상", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "경험치 획득율 증가.(1달버프)" }
+		{ "경험치 획득율 증가." }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_PLUSJOBEXP_2ND] = {
@@ -4731,7 +4731,7 @@ StateIconList[EFST_IDs.EFST_AID_PERIOD_PLUSJOBEXP_2ND] = {
 	descript = {
 		{ "잡 경험치 향상", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "잡 경험치 획득율 증가.(1달버프)" }
+		{ "잡 경험치 획득율 증가." }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLOOM_CARD] = {
@@ -4759,5 +4759,42 @@ StateIconList[EFST_IDs.EFST_KIEL_CARD] = {
 		{ "스킬 후딜레이 감소", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "스킬 후 딜레이 -15%" }
+	}
+}
+StateIconList[EFST_IDs.EFST_S_MANAPOTION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "소형 마나수", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "5초당 일정량의 SP 회복" },
+		{ "버서크 상태 중 효과 없음" }
+	}
+}
+StateIconList[EFST_IDs.EFST_M_DEFSCROLL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "빛나는 방어 스크롤", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "방어력 및 마법방어력 상승" }
+	}
+}
+StateIconList[EFST_IDs.EFST_AS_RAGGED_GOLEM_CARD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "회피율 증가", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "FLEE +200" }
+	}
+}
+StateIconList[EFST_IDs.EFST_CHEERUP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "엄마 아빠 힘내세요.", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "모든 스테이터스 3만큼 증가" }
 	}
 }

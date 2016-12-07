@@ -3399,7 +3399,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_CRITICALWOUND] = {
 		"NPC_CRITICALWOUND",
@@ -3449,7 +3450,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.NPC_WIDESOULDRAIN] = {
 		"NPC_WIDESOULDRAIN",
@@ -3457,7 +3470,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.ALL_INCCARRY] = {
 		"ALL_INCCARRY",
@@ -10389,7 +10414,7 @@ SKILL_INFO_LIST = {
 		"GC_DARKILLUSION",
 		SkillName = "Dark Illusion",
 		MaxLv = 5,
-		SpAmount = { 40, 40, 40, 40, 40 },
+		SpAmount = { 20, 25, 30, 35, 40 },
 		bSeperateLv = false,
 		AttackRange = { 5, 6, 7, 8, 9 },
 		_NeedSkillList = {
@@ -11344,7 +11369,7 @@ SKILL_INFO_LIST = {
 		"RL_MASS_SPIRAL",
 		SkillName = "Mass Spiral",
 		MaxLv = 5,
-		SpAmount = { 80, 84, 88, 92, 96 },
+		SpAmount = { 40, 44, 48, 52, 56 },
 		bSeperateLv = true,
 		AttackRange = { 15, 15, 15, 15, 15 },
 		_NeedSkillList = {
@@ -11445,7 +11470,7 @@ SKILL_INFO_LIST = {
 		"RL_FIREDANCE",
 		SkillName = "Fire Dance",
 		MaxLv = 5,
-		SpAmount = { 10, 15, 20, 25, 30 },
+		SpAmount = { 12, 14, 16, 18, 20 },
 		bSeperateLv = true,
 		AttackRange = { 0, 0, 0, 0, 0 },
 		_NeedSkillList = {
@@ -11998,4 +12023,28 @@ SKILL_INFO_LIST = {
 			{ SKID.SU_SHRIMPARTY, 5 }
 		}
 	},
+	[SKID.WE_CALLALLFAMILY] = {
+		"WE_CALLALLFAMILY",
+		SkillName = "우리가 함께라면",
+		MaxLv = 1,
+		SpAmount = { 100 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.WE_ONEFOREVER] = {
+		"WE_ONEFOREVER",
+		SkillName = "죽음도 우릴 갈라놓을 순 없어요",
+		MaxLv = 1,
+		SpAmount = { 100 },
+		bSeperateLv = false,
+		AttackRange = { 3 }
+	},
+	[SKID.WE_CHEERUP] = {
+		"WE_CHEERUP",
+		SkillName = "엄마 아빠 힘내세요",
+		MaxLv = 1,
+		SpAmount = { 50 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	}
 }

@@ -4139,7 +4139,7 @@ SKILL_DESCRIPT = {
 	[SKID.TK_READYTURN] = {
 		"Roundhouse Stance",
 		"Max Level: 1",
-		"^CC3399Requirement: Roundhouse 1^00000",
+		"^CC3399Requirement: Roundhouse 1^000000",
 		"Skill Form: ^777777Stance^000000",
 		"Description: ^777777Enable a 15% chance of automatically",
 		"entering Roundhouse Stance when the caster",
@@ -10695,7 +10695,7 @@ SKILL_DESCRIPT = {
 	[SKID.GD_GLORYGUILD] = {},
 	[SKID.GD_LEADERSHIP] = {
 		"Skill Form: ^6666CCPassive^000000",
-		"Target: ^777777Guildsmen^00000",
+		"Target: ^777777Guildsmen^000000",
 		"Range: ^7777775 cells around the caster^000000",
 		"Description: ^777777Add +5 STR to all guildsmen within",
 		"this skill's range.^000000"
@@ -10703,7 +10703,7 @@ SKILL_DESCRIPT = {
 	[SKID.GD_GLORYWOUNDS] = {
 		"Glorious Wounds",
 		"Skill Form: ^6666CCPassive^000000",
-		"Target: ^777777Guildsmen^00000",
+		"Target: ^777777Guildsmen^000000",
 		"Range: ^7777775 cells around the caster^000000",
 		"Description: ^777777Add +5 VIT to all guildsmen within",
 		"this skill's range.^000000"
@@ -10711,7 +10711,7 @@ SKILL_DESCRIPT = {
 	[SKID.GD_SOULCOLD] = {
 		"Cold Heart",
 		"Skill Form: ^6666CCPassive^000000",
-		"Target: ^777777Guildsmen^00000",
+		"Target: ^777777Guildsmen^000000",
 		"Range: ^7777775 cells around the caster^000000",
 		"Description: ^777777Add +5 AGI to all guildsmen within",
 		"this skill's range.^000000"
@@ -10719,7 +10719,7 @@ SKILL_DESCRIPT = {
 	[SKID.GD_HAWKEYES] = {
 		"Hawk Eyes",
 		"Skill Form: ^6666CCPassive^000000",
-		"Target: ^777777Guildsmen^00000",
+		"Target: ^777777Guildsmen^000000",
 		"Range: ^7777775 cells around the caster^000000",
 		"Description: ^777777Add +5 DEX to all guildsmen within",
 		"this skill's range.^000000"
@@ -12331,7 +12331,7 @@ SKILL_DESCRIPT = {
 	[SKID.GS_FULLBUSTER] = {
 		"Full Buster",
 		"Max Level: 10",
-		"^CC3399Requirement: Dust 3^00000",
+		"^CC3399Requirement: Dust 3^000000",
 		"Skill Form: ^FF0000Offensive^000000",
 		"Description: ^777777Inflict devastating damage to an",
 		"enemy by firing multiple bullets at once.",
@@ -12906,5 +12906,26 @@ SKILL_DESCRIPT = {
 		"* 타로우의 상처",
 		"* 루나틱 당근난타",
 		"* 세비지의 영혼"
+	},
+	[SKID.WE_CALLALLFAMILY] = {
+		"우리가 함께라면",
+		"MAX Lv : 1",
+		"계열 : ^777777보조^000000",
+		"내용 : ^777777동일한 맵에 있는 가족을 자신의 위치로 불러옵니다.^000000",
+		"^777777가족이 같은 파티에 존재하여야 합니다.^000000"
+	},
+	[SKID.WE_ONEFOREVER] = {
+		"죽음도 우릴 갈라놓을 순 없어요",
+		"MAX Lv : 1",
+		"계열 : ^777777보조^000000",
+		"대상 : ^777777전투불능의 가족^000000",
+		"내용 : ^777777전투 불능상태에 빠진 가족을 HP 30% 상태로 회복시킵니다.^000000",
+		"^777777전투 불능상태의 가족이 언데드 속성일 경우에는 효과가 발동되지 않습니다.^000000"
+	},
+	[SKID.WE_CHEERUP] = {
+		"엄마 아빠 힘내세요",
+		"MAX Lv : 1",
+		"계열 : ^777777보조 / 버프^000000",
+		"내용 : ^777777자신을 중심으로 7x7셀 범위 내의 부모에게 60초간 모든 스테이터스를 3만큼 증가시킵니다.^000000"
 	},
 }
