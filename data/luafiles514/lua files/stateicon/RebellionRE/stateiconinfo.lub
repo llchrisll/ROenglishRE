@@ -4602,46 +4602,46 @@ StateIconList[EFST_IDs.EFST_HISS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "히스", COLOR_TITLE_BUFF },
+		{ "Hiss", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "완전 회피, 이동속도 증가" }
+		{ "Increase movement speed and Perfect dodge" }
 	}
 }
 StateIconList[EFST_IDs.EFST_NYANGGRASS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "냥 그라스", COLOR_TITLE_BUFF },
+		{ "Nyan Grass", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "장비 아이템의 방어력을 무력화" }
+		{ "Disable DEF and MDEF of equipments" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CHATTERING] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "채터링", COLOR_TITLE_BUFF },
+		{ "Chattering", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "5초간 ATK, MATK + 100" },
-		{ "10초간 이동속도 증가" }
+		{ "For 5 seconds ATK and MATK +100" },
+		{ "For 10 seconds movement speed increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GROOMING] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "그루밍", COLOR_TITLE_BUFF },
+		{ "Grooming", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "FLEE 100 증가" }
+		{ "FLEE +100" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PROTECTIONOFSHRIMP] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "새우의 가호", COLOR_TITLE_BUFF },
+		{ "Protection Of Shrimp", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "SP 회복력 증가" }
+		{ "Increase natural SP regeneration" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GS_MAGICAL_BULLET] = {
@@ -4666,125 +4666,127 @@ StateIconList[EFST_IDs.EFST_AID_PERIOD_RECEIVEITEM] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "드랍율 향상", COLOR_TITLE_BUFF },
+		{ "Improved drop rate", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "아이템 드랍율 증가." }
+		{ "Increase item drop rate." }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_PLUSEXP] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "경험치 향상", COLOR_TITLE_BUFF },
+		{ "Improved experience", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "경험치 획득율 증가." }
+		{ "Increase experiences gained." }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_PLUSJOBEXP] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "잡 경험치 향상", COLOR_TITLE_BUFF },
+		{ "Improved job experience", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "잡 경험치 획득율 증가." }
+		{ "Increase job experiences gained." }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_DEADPENALTY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "데스페널티 하락", COLOR_TITLE_BUFF },
+		{ "Disable death penalty", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "데스 페널티 하락." }
+		{ "Disable death penalty." }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_ADDSTOREITEMCOUNT] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "창고 확장", COLOR_TITLE_BUFF },
+		{ "Storage expansion", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "창고 보관 개수 증가" }
+		{ "Increase the number of kafra storage" }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_RECEIVEITEM_2ND] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "드랍율 향상", COLOR_TITLE_BUFF },
+		{ "Improved drop rate", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "아이템 드랍율 증가." }
+		{ "Increase item drop rate." }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_PLUSEXP_2ND] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "경험치 향상", COLOR_TITLE_BUFF },
+		{ "Improved experience", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "경험치 획득율 증가." }
+		{ "Increase experience gained." }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_PLUSJOBEXP_2ND] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "잡 경험치 향상", COLOR_TITLE_BUFF },
+		{ "Improved job experience", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "잡 경험치 획득율 증가." }
+		{ "Increase job experience gained." }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLOOM_CARD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "공격력 증가", COLOR_TITLE_BUFF },
+		{ "Increase attack power", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "성속성,암속성,천사형,악마형에게 물리 공격력 +20%" }
+		{ "Increases physical inflicted damage on" },
+		{ "Holy element, Shadow element," },
+		{ "Angel and Demon monsters by 20%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PHARAOH_CARD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "SP 소모량 감소", COLOR_TITLE_BUFF },
+		{ "Reduced SP Cost", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "스킬 SP소모량 -15%" }
+		{ "Reduce SP cost by 15%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_KIEL_CARD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "스킬 후딜레이 감소", COLOR_TITLE_BUFF },
+		{ "Reduced after skill delay", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "스킬 후 딜레이 -15%" }
+		{ "Reduce after skill delay by 15%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_S_MANAPOTION] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "소형 마나수", COLOR_TITLE_BUFF },
+		{ "Small mana potion", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "5초당 일정량의 SP 회복" },
-		{ "버서크 상태 중 효과 없음" }
+		{ "Restore SP every 5 seconds" },
+		{ "Has no effect in Berserk state" }
 	}
 }
 StateIconList[EFST_IDs.EFST_M_DEFSCROLL] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "빛나는 방어 스크롤", COLOR_TITLE_BUFF },
+		{ "Brilliant Defense Scroll", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "방어력 및 마법방어력 상승" }
+		{ "Increase DEF and MDEF" }
 	}
 }
 StateIconList[EFST_IDs.EFST_AS_RAGGED_GOLEM_CARD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "회피율 증가", COLOR_TITLE_BUFF },
+		{ "Increased evasion", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "FLEE +200" }
 	}
@@ -4793,8 +4795,8 @@ StateIconList[EFST_IDs.EFST_CHEERUP] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "엄마 아빠 힘내세요.", COLOR_TITLE_BUFF },
+		{ "Mom and Dad cheer up.", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "모든 스테이터스 3만큼 증가" }
+		{ "Increase all stats by 3" }
 	}
 }
