@@ -99,7 +99,8 @@ Weapon_IDs = {
 	WEAPONTYPE_Wizardy_Staff = 97,
 	WEAPONTYPE_Spoon = 98,
 	WEAPONTYPE_FOXTAIL_BROWN = 99,
-	WEAPONTYPE_FOXTAIL_GREEN = 100
+	WEAPONTYPE_FOXTAIL_GREEN = 100,
+	WEAPONTYPE_CandyCaneRod = 101
 }
 WeaponNameTable = {
 	[Weapon_IDs.WEAPONTYPE_NONE] = "",
@@ -177,6 +178,7 @@ WeaponNameTable = {
 	[Weapon_IDs.WEAPONTYPE_Bone_Wand] = "_1615",
 	[Weapon_IDs.WEAPONTYPE_FOXTAIL_BROWN] = "_강아지풀_갈색",
 	[Weapon_IDs.WEAPONTYPE_FOXTAIL_GREEN] = "_강아지풀_녹색",
+	[Weapon_IDs.WEAPONTYPE_CandyCaneRod] = "_캔디케인롯드",
 	[Weapon_IDs.WEAPONTYPE_CrossBow] = "_1710",
 	[Weapon_IDs.WEAPONTYPE_Arbalest] = "_1713",
 	[Weapon_IDs.WEAPONTYPE_Kakkung] = "_1714",
@@ -273,7 +275,8 @@ Expansion_Weapon_IDs = {
 	[Weapon_IDs.WEAPONTYPE_Staff_Of_Soul] = Weapon_IDs.WPCLASS_TWOHANDROD,
 	[Weapon_IDs.WEAPONTYPE_Wizardy_Staff] = Weapon_IDs.WPCLASS_TWOHANDROD,
 	[Weapon_IDs.WEAPONTYPE_FOXTAIL_BROWN] = Weapon_IDs.WEAPONTYPE_ROD,
-	[Weapon_IDs.WEAPONTYPE_FOXTAIL_GREEN] = Weapon_IDs.WEAPONTYPE_ROD
+	[Weapon_IDs.WEAPONTYPE_FOXTAIL_GREEN] = Weapon_IDs.WEAPONTYPE_ROD,
+	[Weapon_IDs.WEAPONTYPE_CandyCaneRod] = Weapon_IDs.WEAPONTYPE_ROD
 }
 WeaponHitWaveNameTable = {
 	[Weapon_IDs.WEAPONTYPE_NONE] = "_hit_mace.wav",
