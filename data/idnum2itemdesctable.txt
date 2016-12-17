@@ -7112,7 +7112,7 @@ Increases physical damage inflicted on ^777777Shadow^000000 element, ^6666CCDemo
 ------------------------
 Reduces damage taken from ^777777Shadow^000000 element, ^6666CCDemon^000000 and ^6666CCUndead^000000 monsters by 10%.
 ------------------------
-Gains 50 HP upon defeating enemies.
+Gains 50 HP when defeating target with melee physical attack.
 ------------------------
 Adds a chance of inflicting ^663399Confuse^000000 status on wielder when dealing physical attacks.
 ------------------------
@@ -7146,7 +7146,7 @@ Increases physical damage inflicted on ^777777Shadow^000000 element, ^6666CCDemo
 ------------------------
 Reduces damage taken from ^777777Shadow^000000 element, ^6666CCDemon^000000 and ^6666CCUndead^000000 monsters by 10%.
 ------------------------
-Gains 50 HP upon defeating enemies.
+Gains 50 HP when defeating target with melee physical attack.
 ------------------------
 Adds a chance of inflicting ^663399Confuse^000000 status on wielder when dealing physical attacks.
 ------------------------
@@ -9554,7 +9554,7 @@ A short, simply designed staff; like a baton. A jewel, with the power of justice
 INT +2, DEX +1
 MATK +170
 ------------------------
-When mastering 'Dragonology', reduces SP cost by 15%, INT +3.
+When Dragonology is mastered: reduces SP cost by 15%, INT +3.
 ------------------------
 Class:^6666CC One-Handed Staff^000000
 Attack:^CC0000 30^000000
@@ -10187,7 +10187,7 @@ Level Requirement:^006600 100^000000
 Jobs:^6666CC Doram race^000000
 #
 1692#
-The dragonfly and the foxtail give a feeling of very strong energy when holding it.
+The dragonfly and the foxtail give a feeling of very strong magical power when you holding it.
 ------------------------
 MATK +260
 MaxSP +100
@@ -10208,7 +10208,7 @@ Level Requirement:^006600 140^000000
 Jobs:^6666CC Doram race^000000
 #
 1693#
-A foxtail that has been abandoned, its become yellow.
+A foxtail that has been abandoned and became yellow.
 ------------------------
 MATK +280
 Every 2 refine level MATK +3%.
@@ -14392,7 +14392,17 @@ Level Requirement:^006600 100^000000
 Jobs:^6666CC Ninja^000000
 #
 2174#
-[jRO item]
+Holy spiritual magical shield.
+------------------------
+Reduces damage taken from Holy element monsters by 5%.
+------------------------
+Increases damage taken from Dragon monsters by 5%.
+------------------------
+Class:^6666CC Shield^000000
+Defense:^0000FF 50^000000
+Weight:^006600 130^000000
+Level Requirement:^006600 65^000000
+Jobs:^6666CC All classes^000000
 #
 2175#
 [jRO item]
@@ -19691,7 +19701,8 @@ Critical damage +3%.
 When combined with Critical Ring:
 CRIT +10
 Critical damage +5%
-Refine level +5: Critical damage +3%.
+Refine Level ^0000FF+5^000000:
+Critical damage +3%.
 Refine Level ^0000FF+7^000000:
 Critical damage +4%.
 ------------------------
@@ -22749,7 +22760,7 @@ Jobs:^6666CC All classes^000000
 2858#
 A pendant with black wings. It possesses mysterious power.
 ------------------------
-Enables use of Call of Guardian.
+Enables use of Level 1 Guardian Recall.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
@@ -23782,7 +23793,8 @@ An esoteric ring which enables its wearer to amplify his hidden power.
 CRIT +10
 ------------------------
 When combined with Bloody Muffler: Critical damage +5%, CRIT +10.
-Refine level +5: Critical damage +3%.
+Refine Level ^0000FF+5^000000:
+Critical damage +3%.
 Refine Level ^0000FF+7^000000:
 Critical damage +4%.
 ------------------------
@@ -24207,7 +24219,7 @@ Recover 300 HP every 10 seconds.
 ------------------------
 Enables use of Level 3 ^008800Scream^000000
 ------------------------
-When combined with Wounded Heart, Adds a chance that your mind will be possessed by abandoned doll.
+When combined with Wounded Heart: Adds a chance that your mind will be possessed by abandoned doll.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
@@ -32190,7 +32202,8 @@ Refine Level ^0000FF+7^000000:
 STR +7.
 Refine Level ^0000FF+12^000000:
 STR +1, ATK +8%.
-Refine level +13: STR +1, ATK +2%.
+Refine Level ^0000FF+13^000000:
+STR +1, ATK +2%.
 #
 4997#
 Refine Level ^0000FF+7^000000:
@@ -32209,7 +32222,8 @@ Refine Level ^0000FF+7^000000:
 AGI +7.
 Refine Level ^0000FF+12^000000:
 AGI +1, Perfect Dodge +5.
-Refine level +13: AGI +1, Perfect Dodge +5.
+Refine Level ^0000FF+13^000000:
+AGI +1, Perfect Dodge +5.
 #
 5001#
 A strange device that was invented by an old craftsman, but has just recently been completed by his grandson.
@@ -37950,7 +37964,8 @@ This headgear is a reward for helping the Moon Rabbits recover their runaway ric
 ATK +5
 MATK +5
 ------------------------
-Refine level +5: ATK +1 and MATK +1 per refine level.
+Refine Level ^0000FF+5^000000:
+ATK +1 and MATK +1 per refine level.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
@@ -43527,7 +43542,7 @@ Jobs:^6666CC Sura^000000
 5902#
 A good-luck hat worn by farmers to make sure they collect an exceptionally good harvest. Some say it was blessed by the Harvest Goddess herself.
 ------------------------
-Adds a chance to drop Blood Sucker Seed and Explosive Mushroom Spore when killing monsters.(1%)
+Adds 1% chance a defeated monster will drop ^6666CCBlood Sucker Plant Seed^000000 or ^6666CCBomb Mushroom Spore^000000.
 ------------------------
 Refine Level ^0000FF+7^000000:
 adds 0.5% chance to drop Thorn Seed when killing monsters.
@@ -43909,7 +43924,8 @@ A hat with a motif of Hylozoist's bunny.
 ------------------------
 Increases physical damage inflicted on Nifleheim monsters by 5%.
 ------------------------
-Refine level +5: Increases physical damage inflicted on Nifleheim monsters by 5%.
+Refine Level ^0000FF+5^000000:
+Increases physical damage inflicted on Nifleheim monsters by 5%.
 Refine Level ^0000FF+7^000000:
 Increases physical damage inflicted on Nifleheim monsters by 10%.
 Refine Level ^0000FF+9^000000:
@@ -44001,7 +44017,8 @@ Restore SP by 5 when defeating Dragon monster with melee physical attacks.
 ------------------------
 Restore HP by 100 when defeating monster with melee physical attacks.
 ------------------------
-Refine level +5: Reduces damage taken from Dragon monster by 5%.
+Refine Level ^0000FF+5^000000:
+Reduces damage taken from Dragon monster by 5%.
 Refine Level ^0000FF+7^000000:
 Reduces damage taken from Dragon monster by 5%.
 ------------------------
@@ -44050,7 +44067,8 @@ When killing ^6666CCBrute^000000 monster with physical attacks, restore SP by 5.
 ------------------------
 When killing monsters with physical attacks, restore HP by 100.
 ------------------------
-Refine level +5: Reduces damage taken from ^6666CCBrute^000000 monsters by 5%.
+Refine Level ^0000FF+5^000000:
+Reduces damage taken from ^6666CCBrute^000000 monsters by 5%.
 Refine Level ^0000FF+7^000000:
 Reduces damage taken from ^6666CCBrute^000000 monsters by 5%.
 ------------------------
@@ -44090,7 +44108,8 @@ Reduces after attack delay by 10%.
 ------------------------
 Every refine level increases MATK by 7.
 ------------------------
-Refine level +5: Adds a chance of reducing after attack delay by 5% for 30 seconds when dealing magical attacks.
+Refine Level ^0000FF+5^000000:
+Adds a chance of reducing after attack delay by 5% for 30 seconds when dealing magical attacks.
 Refine Level ^0000FF+7^000000:
 Reduces after attack delay by 10% instead.
 Refine Level ^0000FF+9^000000:
@@ -44111,7 +44130,8 @@ Each time a ^6666CCDemihuman^000000 monster killed by physical attack, restores 
 ------------------------
 Each time a monster killed by melee physical attack, restores HP by 100.
 ------------------------
-Refine level +5: Reduces damage taken from ^6666CCDemihuman^000000 monster (except player) by 5%.
+Refine Level ^0000FF+5^000000:
+Reduces damage taken from ^6666CCDemihuman^000000 monster (except player) by 5%.
 Refine Level ^0000FF+7^000000:
 Reduces damage taken from ^6666CCDemihuman^000000 monster (except player) by 5%.
 ------------------------
@@ -44130,7 +44150,8 @@ MDEF +5
 Restore SP by 5 when defeating Formless monster.
 Restore HP by 100 when defeating monster.
 ------------------------
-Refine level +5: Reduces damage taken from Formless monsters by 5%.
+Refine Level ^0000FF+5^000000:
+Reduces damage taken from Formless monsters by 5%.
 Refine Level ^0000FF+7^000000:
 Reduces damage taken from Formless monsters by 5%.
 ------------------------
@@ -44199,7 +44220,8 @@ Increase Healing skills by 3%.
 ------------------------
 Skill Casting will uninterruptible.
 ------------------------
-Refine level +5: Increase healing skills by 3%.
+Refine Level ^0000FF+5^000000:
+Increase healing skills by 3%.
 Refine Level ^0000FF+7^000000:
 Increase healing skills by 3%.
 Refine Level ^0000FF+9^000000:
@@ -44218,7 +44240,8 @@ A big hat of legendary pirate. It's always stained in blood.
 STR +5
 ATK +7%
 ------------------------
-Refine level +5: ATK +2%
+Refine Level ^0000FF+5^000000:
+ATK +2%
 Refine Level ^0000FF+7^000000:
 ATK +3%
 Refine Level ^0000FF+9^000000:
@@ -57152,7 +57175,7 @@ Weight:^006600 30^000000
 An ancient, gnarled branch with a contract written in blood upon the bark that can summon stronger creatures than regular Dead Branches.
 ^FFFFFF_^000000
 Class:^0000FF Usable item^000000
-Effect:^006600 Summons a random ^6666CCBoss^000000 monster^000000
+Effect:^006600 Summons a random ^6666CCBoss^006600 monster^000000
 Weight:^006600 20^000000
 #
 12104#
@@ -58252,14 +58275,18 @@ Weight:^006600 0^000000
 #
 12279#
 A scroll endowed with undead elemental magic.
-When used, grants 20% resistance to ^FF0000Fire^000000, ^FF0000Water^000000, ^FF0000Wind^000000 and ^FF0000Earth^000000 element attacks for 5 minutes.
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^006600 Increase resistance against ^FF0000Fire^006600, ^FF0000Water^006600, ^FF0000Wind^006600 and ^FF0000Earth^006600 by 20%.^000000
+Duration:^006600 5^000000 minutes
 Weight:^006600 1^000000
 #
 12280#
 A scroll endowed with Holy elemental magic.
-When used, grants armor attribute for 5 minutes Holy attribute to convert.
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^006600 Blesses armor with Holy element.^000000
+Duration:^006600 5^000000 minutes
 Weight:^006600 1^000000
 #
 12281#
@@ -58490,20 +58517,26 @@ Weight:^006600 1^000000
 #
 12319#
 A snack sent from the Rune-Midgarts Kingdom flavored with strawberries.
-^000088 ATK & MATK +5 for 10 minutes.^000000
 ^FFFFFF_^000000
+Class:^0000FF Stats booster^000000
+Effect:^006600 ATK & MATK +5^000000
+Duration:^006600 10^000000 minutes
 Weight:^006600 30^000000
 #
 12320#
 A snack sent from Schwartzwalt. Ice cold fruit juice quenches your throat and cools your whole body.
-^000088HIT +10, Flee +20 for 10 minutes.^000000
 ^FFFFFF_^000000
+Class:^0000FF Stats booster^000000
+Effect:^006600 HIT +10, Flee +20^000000
+Duration:^006600 10^000000 minutes
 Weight:^006600 30^000000
 #
 12321#
 A snack sent from Arunafeltz. This sandwich helps developing stamina with its spicy taste.
-^000088CRIT +7 for 10 minutes.^000000
 ^FFFFFF_^000000
+Class:^0000FF Stats booster^000000
+Effect:^006600 CRIT +7^000000
+Duration:^006600 10^000000 minutes
 Weight:^006600 30^000000
 #
 12322#
@@ -58588,27 +58621,32 @@ A box that contains rare helm.
 Weight:^006600 1^000000
 #
 12335#
-...
-^000088Restores 60% HP & SP^000000.
+Onion, Beef, chicken, etc were inserted into this bamboo skewer.
 ^FFFFFF_^000000
+Class:^0000FF Restorative item^000000
+Heal:^006600 60%^000000 HP and SP
 Weight:^006600 35^000000
 #
 12336#
-...
-^000088Restores 30% HP & SP^000000.
+A perfect dish for people that don't like getting fat.
 ^FFFFFF_^000000
+Class:^0000FF Restorative item^000000
+Heal:^006600 30%^000000 HP and SP
 Weight:^006600 30^000000
 #
 12337#
-...
-^000088Restores 20% HP & SP^000000.
+A Grilled Sausages served with garlic.
 ^FFFFFF_^000000
+Class:^0000FF Restorative item^000000
+Heal:^006600 20%^000000 HP and SP
 Weight:^006600 20^000000
 #
 12338#
 The golden corn is really beautiful.
-STR +2, INT +2, AGI +2 for 3 minutes.
 ^FFFFFF_^000000
+Class:^0000FF Stats booster^000000
+Effect:^006600 STR +2, INT +2, AGI +2^000000
+Duration:^006600 3^000000 minutes
 Weight:^006600 10^000000
 #
 12339#
@@ -58682,12 +58720,17 @@ Magical Attack Damage done to the monsters in Manuk Area increases by 10% for 10
 Weight:^006600 5^000000
 #
 12350#
-A potion that casts Level 5 Bless and Angelus
+A blessed potion bottle.
+^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^006600 Cast Level 5 Blessing and Angelus^000000
 Weight:^006600 10^000000
 #
 12351#
-Add a chance of autocasting Level 1 ^008800Crazy Uproar^000000 on the wearer.
+A portable bullhorn.
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^006600 Cast Level 1 Crazy Uproar^000000
 Weight:^006600 5^000000
 #
 12352#
@@ -58700,15 +58743,19 @@ When used allows you to teleport to a specific dungeon or field from the followi
 Weight:^006600 1^000000
 #
 12353#
-A tiny bottle with water in it that's almost freezing.
-Gives Water-Elemental endowment to weapon for 90 seconds.
+A small bottle with water in it that's almost freezing.
 ^FFFFFF_^000000
+Class:^0000FF Usable item^000000
+Effect:^006600 Endows weapon with Water element^000000
+Duration:^006600 90^000000 seconds
 Weight:^006600 1^000000
 #
 12354#
 A chocolate roll cake in the form of firewood covered with snow. When you see it, you can feel Christmas is coming.
-Increases HP & SP restoration by 3%, HIT +3, and CRIT +7 for 10 minutes.
 ^FFFFFF_^000000
+Class:^0000FF Stats booster^000000
+Effect:^006600 HIT +3, CRIT +7, Natural HP & SP regeneration +3%^000000
+Duration:^006600 10^000000 minutes
 Weight:^006600 5^000000
 #
 12355#
@@ -63077,11 +63124,12 @@ Jobs:^6666CC Swordman, Mage, Archer, Merchant, Thief, Soul Linker and Ninja^0000
 13049#
 A short blade with beautiful decoration of gemstone.
 ------------------------
-Refine Level +3: ATK +40, MATK +40.
+Refine Level ^0000FF+3^000000:
+ATK +40, MATK +40.
 ------------------------
 Refine Level ^0000FF+6^000000:
 Increases physical damage inflicted on ^6666CCMedium size^000000 monsters by 8%.
-Has low chance for 5 second ignore weapon size penalty.
+Has low chance for 5 second nullify weapon size penalty when attacking.
 ------------------------
 Refine Level ^0000FF+9^000000:
 Increases physical damage inflicted on ^6666CCMedium size^000000 monsters by 20%.
@@ -63089,8 +63137,6 @@ Increases physical damage inflicted on ^6666CCMedium size^000000 monsters by 20%
 Refine Level ^0000FF+12^000000:
 nullify weapon size penalty.
 ------------------------
-Ignore weapon size penalty.
-has low chance to restore 2 SP for every hit for 5 second.
 Class:^6666CC Dagger^000000
 Attack:^CC0000 45^000000
 Weight:^006600 65^000000
@@ -63506,7 +63552,8 @@ Original Ancient Dagger with outstanding potential.
 ------------------------
 MATK +50
 ------------------------
-Refine level +5: MATK +30.
+Refine Level ^0000FF+5^000000:
+MATK +30.
 Refine Level ^0000FF+7^000000:
 MATK +10.
 Refine Level ^0000FF+9^000000:
@@ -66378,7 +66425,8 @@ Jobs:^6666CC Swordman^000000
 A very old parasol, it's unknown when this parasol was created.
 You can still feels the magic flowing inside.
 ------------------------
-MATK +80, increase MATK for every refine.
+MATK +80
+Increase MATK for every refine level.
 ------------------------
 Enables use of Level 10 ^008800Soul Strike^000000.
 ------------------------
@@ -66733,7 +66781,7 @@ Weight:^006600 1^000000
 13513#
 A box that contains:
 ^000088Rental Item^000000
-^6666CC1 Moonlight Dagger^000000
+^6666CC1 Moonlight Sword^000000
 Duration: 7 Days after opening.
 A dagger imbued with
 lunar spirit and the power to drain an enemy's soul.
@@ -74619,7 +74667,8 @@ A box that contains 1 Scallywag's Hat
 Description:
 Aaarrrgghhhh, this hat be made out of bona fide unidentified dead animal leather. With time, aging and weathering, most of the hat formed into it's current shape and dyed a bright red.
 ^0000ffIncreases EXP gained by 10%
-Refine level +5: EXP gained increases to 15%.
+Refine Level ^0000FF+5^000000:
+EXP gained increases to 15%.
 Refine Level ^0000FF+7^000000:
 EXP gained increases to 25%.
 Increases EXP gained by 10% for every refine level above 7.^000000
@@ -75843,8 +75892,8 @@ Neutral shadow set, frozen curse shadow set, Safe to 11 Weapon Certificate, Safe
 Weight:^006600 1^000000
 #
 14718#
-Edition limited sealed turtle general Scroll.
-Sealed turtle general card,Safe to 9 Weapon Certificate, Safe to 9 Armor Certificate, Costume: Light Darkness Crown, Costume Enchantment Stone Box3, and other rare items, only can get one of the items.
+A limited edition sealed turtle general Scroll.
+Sealed turtle general card, Safe to 9 Weapon Certificate, Safe to 9 Armor Certificate, Costume: Light Darkness Crown, Costume Enchantment Stone Box3, and other rare items, only can get one of the items.
 Weight:^006600 1^000000
 #
 14723#
@@ -77007,7 +77056,8 @@ This suit, developed in Geffen over a long period of time, effectively protects 
 MaxHP +5%
 MDEF +10
 ------------------------
-Refine leevl +7: MDEF +5.
+Refine Level ^0000FF+7^000000:
+MDEF +5.
 Refine Level ^0000FF+9^000000:
 MaxHP +2%.
 ------------------------
@@ -77026,7 +77076,7 @@ Increases Variable Cast Time by 15%.
 ------------------------
 Casting cannot be interrupted.
 ------------------------
-Refine leevl +7:
+Refine Level ^0000FF+7^000000:
 Reduces SP cost by 5%.
 Refine Level ^0000FF+9^000000:
 Reduces Variable Cast Time by 5%.
@@ -77458,7 +77508,8 @@ A suit that made from special thread.
 ------------------------
 Has chance to activate 'Charmink Wink' when melee attacking.
 ------------------------
-Refine level +5: Critical damage +4%.
+Refine Level ^0000FF+5^000000:
+Critical damage +4%.
 Refine Level ^0000FF+7^000000:
 Critical damage +6%.
 ------------------------
@@ -77491,13 +77542,15 @@ A tidy suit for doram race.
 MaxHP +500
 MaxSP +100
 ------------------------
-Every 3 refine level: DEX +1, INT +1.
+Every 3 refine level:
+DEX +1, INT +1
 ------------------------
-^6666CCPrivat Set^000000
-^3CB371Privat Doram Suit^000000
-^3CB371Privat Doram Manteau^000000
-^3CB371Privat Doram Shoes^000000
-MaxHP +2000, uninterruptible magic cast.
+^6666CCExclusive Set^000000
+^3CB371Exclusive Doram Suit^000000
+^3CB371Exclusive Doram Manteau^000000
+^3CB371Exclusive Doram Shoes^000000
+MaxHP +2000
+uninterruptible magic cast.
 Reduces fixed cast time by 15% (Increase reducement according sum of refine level of Suit, Manteau and Shoes).
 ------------------------
 Class:^6666CC Armor^000000
@@ -77533,7 +77586,8 @@ A tidy and luxury doram race suit.
 MaxHP +10%
 MaxSP +10%
 ------------------------
-Every 2 refine level: DEX +1, INT +1.
+Every 2 refine level:
+DEX +1, INT +1
 ------------------------
 ^6666CCLuxury Set^000000
 ^3CB371Luxury Doram Suit^000000
@@ -77651,7 +77705,8 @@ A robotic suit that can amplify the muscles of its wearer.
 ------------------------
 Increases long range physical attacks by 3%.
 ------------------------
-Refine level +5: every refine increases long range physical attacks by 2%.
+Refine Level ^0000FF+5^000000:
+every refine increases long range physical attacks by 2%.
 ------------------------
 [^6666CCPowered Set^000000]
 ^008800Powered Arm^000000
@@ -78108,6 +78163,62 @@ Class:^6666CC Armor^000000
 Defense:^0000FF 45^000000
 Weight:^006600 10^000000
 Level Requirement:^006600 100^000000
+Jobs:^6666CC All classes^000000
+#
+15193#
+A robe wore by time magician, however the magic power of this robe has faded away.
+------------------------
+MATK +30
+Variable cast time -5%
+------------------------
+Adds a chance of increasing INT by (3*refine level) for 10 seconds when dealing magical attack.
+------------------------
+When combined with any kind of Temporal Boots:
+MaxHP +20%
+------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 35^000000
+Weight:^006600 80^000000
+Level Requirement:^006600 100^000000
+Jobs:^6666CC All except Novice^000000
+#
+15194#
+A robe wore by transcendents.
+------------------------
+MATK +60
+Variable cast time -5%
+------------------------
+Enables uninterruptible skill cast.
+------------------------
+Every refine level:
+INT +3
+Ghost element magic attack +2%.
+------------------------
+When combined with Nidhoggur Shadow Card:
+Adds immunity against Frozen status.
+Restore HP by 200 and SP by 20 when defeating target with magical attack.
+------------------------
+When combined with any kind of Temporal Boots:
+MaxHP +20%
+------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 35^000000
+Weight:^006600 80^000000
+Level Requirement:^006600 100^000000
+Jobs:^6666CC All except Novice^000000
+#
+15195#
+A snow-white robe on which spells are embroidered.
+------------------------
+Reduces fixed cast time by 3%.
+------------------------
+Increases Healing skills by 5%.
+Every refine level increase Healing skills by 1%.
+------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 52^000000
+Weight:^006600 40^000000
+Level Requirement:^006600 99^000000
 Jobs:^6666CC All classes^000000
 #
 16000#
@@ -78746,6 +78857,21 @@ Weight:^006600 70^000000
 Weapon Level:^006600 3^000000
 Level Requirement:^006600 100^000000
 Jobs:^6666CC Super Novice; 3rd classes of Swordman, Merchant and Acolyte^000000
+#
+16063#
+A long, thin mace built like a spear.
+------------------------
+Increases attack range upto 3 cells away.
+------------------------
+Reduces damage taken from long range physical attacks by 10%.
+Every 2 refine levels: Reduces damage taken from long range physical attacks by 3%.
+------------------------
+Class:^6666CC Mace^000000
+Attack:^CC0000 185^000000
+Weight:^006600 80^000000
+Weapon Level:^006600 4^000000
+Level Requirement:^006600 99^000000
+Jobs:^6666CC Acolyte^000000
 #
 16100#
 A box that contains 1 "Angry Mouth" inside.
@@ -80909,7 +81035,7 @@ Thief Classes^000000
 16426#
 A box that contains:
 ^000088Rental Item^000000
-^6666CC1 Moonlight Dagger^000000
+^6666CC1 Moonlight Sword^000000
 Duration: 7 Days after opening.
 A dagger imbued with
 lunar spirit and the power to drain an enemy's soul.
@@ -89765,7 +89891,8 @@ A driver's cap with a menacing skull on the band.
 ------------------------
 MATK +2%
 ------------------------
-Refine level +5: MATK +3%.
+Refine Level ^0000FF+5^000000:
+MATK +3%.
 Refine Level ^0000FF+7^000000:
 MATK +3%.
 ------------------------
@@ -90262,7 +90389,8 @@ A berret decorated with white feather.
 HIT +20
 MaxHP -10%
 ------------------------
-Refine level +5: HIT -10, MaxHP +10%;
+Refine Level ^0000FF+5^000000:
+HIT -10, MaxHP +10%;
 HIT -3, MaxHP +3% for every addtional 2 refining level increase.
 ------------------------
 Class:^6666CC Headgear^000000
@@ -90577,7 +90705,8 @@ Reduces SP cost by 3%.
 ------------------------
 Increases Healing skills by 3%.
 ------------------------
-Refine level +5: MATK +1%.
+Refine Level ^0000FF+5^000000:
+MATK +1%.
 Refine Level ^0000FF+7^000000:
 MATK +2%.
 ------------------------
@@ -91262,7 +91391,8 @@ MDEF +5
 ------------------------
 Adds a low chance of absorbing 1% of damage dealt to enemy into HP and 1% into SP.
 ------------------------
-Refine level +5: Adds a low chance of absorbing 3% of damage dealt to enemy into HP and 1% into SP.
+Refine Level ^0000FF+5^000000:
+Adds a low chance of absorbing 3% of damage dealt to enemy into HP and 1% into SP.
 Refine Level ^0000FF+7^000000:
 Adds a low chance of absorbing 5% of damage dealt to enemy into HP and 2% into SP.
 Refine Level ^0000FF+8^000000:
@@ -92217,7 +92347,8 @@ MDEF +5
 ------------------------
 Increases long range physical attacks by 2%.
 ------------------------
-Refine level +5: Increases long range physical attacks by 3%.
+Refine Level ^0000FF+5^000000:
+Increases long range physical attacks by 3%.
 Refine Level ^0000FF+7^000000:
 Increases long range physical attacks by 5%.
 ------------------------
@@ -92381,7 +92512,8 @@ Jobs:^6666CC All classes^000000
 A hat given to standout student.
 ------------------------
 When dealing physical attacks, Adds a chance of autocasting Level 1 Weapon Perfection.
-Refine level +5: every refine increase trigger chance of Level 1 Weapon Perfection.
+Refine Level ^0000FF+5^000000:
+every refine increase trigger chance of Level 1 Weapon Perfection.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 10^000000
@@ -92833,10 +92965,10 @@ Jobs:^6666CC All classes^000000
 18770#
 Monster Bongun used to wear this hat with charm attached as a point. It has been remodeled for extra effect.
 ------------------------
-Reduces physical damage taken from ^6666CCUndead^000000 monsters by 10%.
+Reduces physical damage taken from ^6666CCDemon^000000 monsters by 10%.
 ------------------------
 Refine Level ^0000FF+7^000000:
-Increases physical damage inflicted on ^6666CCUndead^000000 monsters by 10%.
+Increases physical damage inflicted on ^6666CCDemon^000000 monsters by 10%.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
@@ -93311,7 +93443,8 @@ Jobs:^6666CC All classes^000000
 #
 18802#
 MaxHP +5%.
-Refine level +5: MaxHP +1%, MaxSP -2% per refine level
+Refine Level ^0000FF+5^000000:
+MaxHP +1%, MaxSP -2% per refine level
 Refine Level ^0000FF+10^000000:
 MaxHP +4%, MaxSP -3%.
 Class:^6666CC Headgear^000000
@@ -93345,7 +93478,8 @@ INT +1, DEX +1
 ------------------------
 Increase magical attack against Fire, Wind, Water and Earth element monsters by 5%.
 ------------------------
-Refine level +5: every refine further increase magical attack against Fire, Wind, Water and Earth element monsters by 5%.
+Refine Level ^0000FF+5^000000:
+every refine further increase magical attack against Fire, Wind, Water and Earth element monsters by 5%.
 ------------------------
 When combined with Thorn Staff of Darkness:
 Every refine of staff increase MATK +10.
@@ -96157,7 +96291,8 @@ Restores SP by 5 when defeating Fish monster with melee attack.
 ------------------------
 Restores HP by 100 when defeating monster with melee attack.
 ------------------------
-Refine level +5: Reduces damage taken from Fish monster by 5%.
+Refine Level ^0000FF+5^000000:
+Reduces damage taken from Fish monster by 5%.
 Refine Level ^0000FF+7^000000:
 Reduces damage taken from Fish monster by 5%.
 ------------------------
@@ -96346,7 +96481,8 @@ When defeating ^6666CCAngel^000000 monster gain 5 SP.
 ------------------------
 When defeating monsters gain 100 HP.
 ------------------------
-Refine level +5: Reduces damage from ^6666CCAngel^000000 monsters by 5%.
+Refine Level ^0000FF+5^000000:
+Reduces damage from ^6666CCAngel^000000 monsters by 5%.
 Refine Level ^0000FF+7^000000:
 Reduces damage from ^6666CCAngel^000000 monsters by 5%.
 ------------------------
@@ -96470,7 +96606,8 @@ HIT +20
 Increases physical and magical damage on Faceworm by 5%.
 Reduces physical damage taken from Faceworm by 5%.
 ------------------------
-Refine level +5: further increase the damage inflicted and reduces damage taken from Faceworm by 10%.
+Refine Level ^0000FF+5^000000:
+further increase the damage inflicted and reduces damage taken from Faceworm by 10%.
 Refine Level ^0000FF+7^000000:
 further increase the damage inflicted and reduces damage taken from Faceworm by 15%.
 Refine Level ^0000FF+9^000000:
@@ -96789,7 +96926,8 @@ MATK +5%
 Refine Level ^0000FF+6^000000:
 every refine level increase MATK by 1%.
 Adds a chance of inflicting Fear status on target when dealing magical attacks.
-Refine level +5: Increases the rate of inflicting Fear status, every 2 refine level Increases the rate of inflicting Fear status.
+Refine Level ^0000FF+5^000000:
+Increases the rate of inflicting Fear status, every 2 refine level Increases the rate of inflicting Fear status.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 20^000000
@@ -97125,7 +97263,8 @@ A luxury silk ribbon.
 ------------------------
 Reduces damage taken from ^CC5500Earth^000000 element attack by 20%.
 ------------------------
-Refine Level +5: Reduces damage taken from Small, Medium and Large monsters by 2%.
+Refine Level ^0000FF+5^000000:
+Reduces damage taken from Small, Medium and Large monsters by 2%.
 Refine Level ^0000FF+7^000000:
 Reduces damage taken from Small, Medium and Large monsters by 3%.
 ------------------------
@@ -98065,6 +98204,36 @@ Location:^6666CC Upper^000000
 Weight:^006600 40^000000
 Level Requirement:^006600 80^000000
 Jobs:^6666CC All classes^000000
+#
+19209#
+A cap worn by nurses both great and small.
+------------------------
+INT +1
+------------------------
+Every 2 refine levels: INT +1, Healing skills + 3%.
+------------------------
+When combined with Illusion Puente Robe:
+Increases movement speed.
+Healing skills +10%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 4^000000
+Location:^6666CC Upper^000000
+Weight:^006600 99^000000
+Jobs:^6666CC Acolyte^000000
+#
+19210#
+A headgear made in the honor of the legendary archer who shot an apple, on top of a friend's head, from a long distance.
+------------------------
+DEX +3
+Every 2 refine levels: DEX +1.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 1^000000
+Location:^6666CC Upper^000000
+Weight:^006600 20^000000
+Level Requirement:^006600 99^000000
+Jobs:^6666CC All except Novice^000000
 #
 19211#
 A winged hairband wore by priest whose fought demons.
@@ -105952,7 +106121,21 @@ Level Requirement:^006600 40^000000
 Jobs:^6666CC Novice, Mage, Acolyte and Soul Linker^000000
 #
 20705#
-[jRO item]
+Holy spiritual magical Manteau.
+------------------------
+Reduces damage taken from Holy element monsters by 5%.
+------------------------
+Increases damage taken from Dragon monsters by 5%.
+------------------------
++Lumiere Shield[1]:
+Each refine rate of Lumiere Manteau gives 1% of damage reduction from Dragon monster.
+Each refine rate of Lumiere Shield gives 1% additional damage to Holy element monsters.
+------------------------
+Class:^6666CC Garment^000000
+Defense:^0000FF 20^000000
+Weight:^006600 70^000000
+Level Requirement:^006600 65^000000
+Jobs:^6666CC All classes^000000
 #
 20706#
 The backpack is made according to the shape famous AI ''Amistr''.
@@ -107349,6 +107532,20 @@ Weight:^006600 20^000000
 Level Requirement:^006600 99^000000
 Jobs:^6666CC All classes^000000
 #
+20838#
+A warm scarf that is worn around the neck and shoulders.
+------------------------
+MaxHP +100
+MaxSP +10
+------------------------
+Every refine level: MaxHP +100, MaxSP +5.
+------------------------
+Class:^6666CC Garment^000000
+Defense:^0000FF 8^000000
+Weight:^006600 40^000000
+Level Requirement:^006600 99^000000
+Jobs:^6666CC All except Novice^000000
+#
 21000#
 TwoHanded Sword that is coated by Oridecon and Gold with perfect level.
 ------------------------
@@ -108306,13 +108503,24 @@ Weight:^006600 30^000000
 Level Requirement:^006600 40^000000
 Jobs:^6666CC All classes^000000
 #
+22061#
+Holy spiritual shoes.
+MDEF +3.
+Reduces damage taken from Holy element attack by 5%.
+Each refine level: MaxHP +1%, MaxSP +1%
+Class:^6666CC Footgear^000000
+Defense:^0000FF 12^000000
+Weight:^006600 25^000000
+Level Requirement:^006600 90^000000
+Jobs:^6666CC All classes^000000
+#
 22067#
 A pair of witch's shoe with a kitten on it.
 Class:^6666CC Footgear^000000
 Defense:^0000FF 10^000000
 Weight:^006600 40^000000
 Level Requirement:^006600 1^000000
-Jobs:^6666CC All jobs, Except Novice^000000
+Jobs:^6666CC All except Novice^000000
 #
 22068#
 A cute red shoes designed by Louise.
@@ -108476,7 +108684,8 @@ A beautiful shoes made from the other world.
 ------------------------
 Reduces damage taken from Earth, Wind, Water, Fire and Neutral element attack by 5%.
 ------------------------
-Refine level +5: Increases physical and magical damage inflicted against Earth, Wind, Water, Fire and Neutral element monsters by 5%.
+Refine Level ^0000FF+5^000000:
+Increases physical and magical damage inflicted against Earth, Wind, Water, Fire and Neutral element monsters by 5%.
 Refine Level ^0000FF+7^000000:
 Increases physical and magical damage inflicted against Earth, Wind, Water, Fire and Neutral element monsters by 10%.
 ------------------------
@@ -108922,6 +109131,20 @@ Defense:^0000FF 18^000000
 Weight:^006600 100^000000
 Level Requirement:^006600 99^000000
 Jobs:^6666CC All classes^000000
+#
+22133#
+A pair of shoes made of supple, high quality leather.
+------------------------
+MaxHP +100
+MaxSP +10
+------------------------
+Every refine level: MaxHP +100, MaxSP +5.
+------------------------
+Class:^6666CC Footgear^000000
+Defense:^0000FF 10^000000
+Weight:^006600 40^000000
+Level Requirement:^006600 99^000000
+Jobs:^6666CC All except Novice^000000
 #
 22506#
 A fresh shellfish that contains magical power.
@@ -110288,10 +110511,22 @@ Also includes old enchantment costume stones.
 Weight:^006600 1^000000
 #
 22971#
-^ff0000Can't be traded with other account.^000000
-기간 한정 매드바니 스크롤. 
-무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.
-Weight:^009900 1^000000
+Limited time offer.
+When opened gives the user one of the following
+Mad Bunny Special[0]
+Safe to 7 Armor Certificate
+Safe to 7 Headgear Certificate
+Safe to 7 Weapon Certificate
+Safe to 10 Certificate
+Str Soul Potion
+Agi Soul Potion
+Vit Soul Potion
+Int Soul Potion
+Dex Soul Potion
+Luk Soul Potion
+(Soul Potions reset 1 stat point)
+Blacksmith's Blessing (Save it for later!)
+Weight : ^7777771^000000
 #
 22972#
 ^ff0000Can't be traded with other account.^000000
@@ -111504,6 +111739,10 @@ Weight:^009900 1^000000
 일년 중 1이 가장 많은 날을 기념하여 만들어진 특별한 막대과자 세트.
 [비매품]힘의 막대과자, [비매품]체력의 막대과자, [비매품]민첩의 막대과자, [비매품]지식의 막대과자, [비매품]재주의 막대과자, [비매품]행운의 막대과자가 각각 2개씩 들어있다.
 #
+23228#
+Children's favorite moon shaped cake. Suddenly my vision become blurry.
+Weight:^006600 1^000000
+#
 23229#
 타락천사의 날개 아이템의 슬롯과 제련도를 초기화 해주는 두루마리.
 초기화 후에는 [카츄아]타락천사의 날개 로 변화하며, 카드가 제거되고 제련도가 0이 된다.
@@ -111736,7 +111975,7 @@ Reduces after attack delay by 2%.
 ^008800Physical Shadow Weapon^000000
 ^008800Physical Shadow Earring^000000
 ^008800Physical Shadow Pendant^000000
-If total refine of set +23: Increases ATK by 1%.
+If total refine levels of entire set at least +23: ATK +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
@@ -111750,13 +111989,13 @@ A glove that can draw the wearer's potential ability.
 ATK +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-ATK +1%.
+ATK +1%
 ------------------------
 [^6666CCPhysical Shadow Set^000000]
 ^008800Physical Shadow Weapon^000000
 ^008800Physical Shadow Earring^000000
 ^008800Physical Shadow Pendant^000000
-If total refine of set +23: Increases ATK by 1%.
+If total refine levels of entire set at least +23: ATK +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
@@ -111771,13 +112010,13 @@ It also draws the wearer's potential abilities.
 MaxHP +100
 ------------------------
 Refine Level ^0000FF+7^000000:
-MaxHP +1%.
+MaxHP +1%
 ------------------------
 [^6666CCPhysical Shadow Set^000000]
 ^008800Physical Shadow Weapon^000000
 ^008800Physical Shadow Earring^000000
 ^008800Physical Shadow Pendant^000000
-If total refine of set +23: Increases ATK by 1%.
+If total refine levels of entire set at least +23: ATK +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
@@ -111798,7 +112037,7 @@ Reduces variable cast time by 2%.
 ^008800Magical Shadow Weapon^000000
 ^008800Magical Shadow Earring^000000
 ^008800Magical Shadow Pendant^000000
-If total refine of set +23: Increases MATK by 1%.
+If total refine levels of entire set at least +23: MATK +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
@@ -111812,13 +112051,13 @@ A glove that can draw the wearer's potential ability.
 MATK +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-MATK +1%.
+MATK +1%
 ------------------------
 [^6666CCMagical Shadow Set^000000]
 ^008800Magical Shadow Weapon^000000
 ^008800Magical Shadow Earring^000000
 ^008800Magical Shadow Pendant^000000
-If total refine of set +23: Increases MATK by 1%.
+If total refine levels of entire set at least +23: MATK +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
@@ -111833,13 +112072,13 @@ It also draws the wearer's potential abilities.
 MaxSP +50
 ------------------------
 Refine Level ^0000FF+7^000000:
-MaxSP +1%.
+MaxSP +1%
 ------------------------
 [^6666CCMagical Shadow Set^000000]
 ^008800Magical Shadow Weapon^000000
 ^008800Magical Shadow Earring^000000
 ^008800Magical Shadow Pendant^000000
-If total refine of set +23: Increases MATK by 1%.
+If total refine levels of entire set at least +23: MATK +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
@@ -111854,7 +112093,7 @@ Can be equipped alone but needs a complete set to have bonus effect.
 Flee +5
 ------------------------
 Refine Level ^0000FF+7^000000:
-Flee +10.
+Flee +10
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
@@ -111870,11 +112109,12 @@ MaxHP +20
 MaxSP +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-MaxHP +1%, MaxSP +1%.
+MaxHP +1%
+MaxSP +1%
 ------------------------
 [+^008800Hard Shadow Armor^000000]
 Increases MaxHP and MaxSP by total number of refinement of set items.
-If total refine of set +15: MaxHP +1%.
+If total refine levels of entire set at least +15: MaxHP +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
@@ -111889,11 +112129,11 @@ Can be equipped alone but needs a complete set to have bonus effect.
 DEF +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-DEF +10.
+DEF +10
 ------------------------
 +^008800Immune Shadow Armor^000000
 DEF increases by total number of Refinement of Set Item.
-If total refine of set +15: Neutral element resistance +1%.
+If total refine levels of entire set at least +15: Neutral element resistance +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
@@ -111905,11 +112145,11 @@ Jobs:^6666CC All classes^000000
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
 ------------------------
-Resistance to ^777777Neutral^000000 element attacks +1%
+Reduces damage taken from ^777777Neutral^000000 element attacks by 1%.
 ------------------------
 +^008800Athena Shadow Shield^000000
 DEF increases by total number of Refinement of Set Items.
-If total refine of set +15: Neutral element resistance +1%.
+If total refine levels of entire set at least +15: Neutral element resistance +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
@@ -111924,11 +112164,11 @@ Can be equipped alone but needs a complete set to have bonus effect.
 MaxHP +50
 ------------------------
 Refine Level ^0000FF+7^000000:
-MaxHP +1%.
+MaxHP +1%
 ------------------------
 +^008800Champion's Shadow Shoes^000000
 MaxHP and MaxSP increased by the sum of combined refine level.
-If total refine of set +15: MaxHP +1%.
+If total refine levels of entire set at least +15: MaxHP +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
@@ -111943,11 +112183,11 @@ Can be equipped alone but needs a complete set to have bonus effect.
 HIT +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-Hit +10.
+Hit +10
 ------------------------
 +^008800Kingbird Shadow Weapon^000000
 Increases ATK by the sum of the combined refine levels.
-If total refine of set +15: increases ranged damage by 1%.
+If total refine levels of entire set at least +15: Long range physical attack +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
@@ -111962,11 +112202,11 @@ Can be equipped alone but needs a complete set to have bonus effect.
 CRIT +5
 ------------------------
 Refine Level ^0000FF+7^000000:
-CRIT +5.
+CRIT +5
 ------------------------
 +^008800Critical Hit Shadow Weapon^000000
 Increases ATK by the sum of the combined refine levels.
-If total refine of set +15: increases critical damage by 1%.
+If total refine levels of entire set at least +15: Critical damage +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
@@ -111980,11 +112220,11 @@ A glove that can draw the wearer's potential ability.
 ATK +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-Increases ranged damage by 1%.
+Increases long range physical attack by 1%.
 ------------------------
 +^008800Ancient Shadow Armor^000000
 Increase ATK by the sum of the combined refine levels.
-If total refine of set +15: increases ranged damage by 1%.
+If total refine levels of entire set at least +15: Long range physical attack +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
@@ -111998,11 +112238,11 @@ A glove that can draw the wearer's potential ability.
 ATK +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-Increase critical damage by 1%.
+Increases critical damage by 1%.
 ------------------------
 +^008800Critical Shadow Armor^000000
 Increase ATK by the sum of the combined refine levels.
-If total refine of set +15: increases critical damage by 1%.
+If total refine levels of entire set at least +15: Critical damage +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
@@ -112016,7 +112256,7 @@ A glove that can draw the wearer's potential ability.
 MATK +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-Increase healing power by 5%.
+Increase Healing skills by 5%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
@@ -112030,12 +112270,12 @@ A glove that can draw the wearer's potential ability.
 LUK +1
 ------------------------
 Refine Level ^0000FF+7^000000:
-LUK +1.
+LUK +1
 Refine Level ^0000FF+9^000000:
-LUK +1.
+LUK +1
 ------------------------
 +^008800Lucky Shadow Armor^000000
-LUK +1.
+LUK +1
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
@@ -112050,9 +112290,9 @@ It also draws the wearer's potential abilities.
 STR +1
 ------------------------
 Refine Level ^0000FF+7^000000:
-STR +1.
+STR +1
 Refine Level ^0000FF+9^000000:
-STR +1.
+STR +1
 ------------------------
 +^008800Power Shadow Pendant^000000
 STR +1
@@ -112070,9 +112310,9 @@ It also draws the wearer's potential abilities.
 INT +1
 ------------------------
 Refine Level ^0000FF+7^000000:
-INT +1.
+INT +1
 Refine Level ^0000FF+9^000000:
-INT +1.
+INT +1
 ------------------------
 +^008800Intelligent Shadow Earring^000000
 INT +1
@@ -112090,9 +112330,9 @@ Can be equipped alone but needs a complete set to have bonus effect.
 DEX +1
 ------------------------
 Refine Level ^0000FF+7^000000:
-DEX +1.
+DEX +1
 Refine Level ^0000FF+9^000000:
-DEX +1.
+DEX +1
 ------------------------
 +^008800Dexterous Shadow Weapon^000000
 DEX +1
@@ -112110,9 +112350,9 @@ Can be equipped alone but needs a complete set to have bonus effect.
 VIT +1
 ------------------------
 Refine Level ^0000FF+7^000000:
-VIT +1.
+VIT +1
 Refine Level ^0000FF+9^000000:
-VIT +1.
+VIT +1
 ------------------------
 +^008800Vital Shadow Shield^000000
 VIT +1
@@ -112130,9 +112370,9 @@ Can be equipped alone but needs a complete set to have bonus effect.
 AGI +1
 ------------------------
 Refine Level ^0000FF+7^000000:
-AGI +1.
+AGI +1
 Refine Level ^0000FF+9^000000:
-AGI +1.
+AGI +1
 ------------------------
 +^008800Athletic Shadow Shoes^000000
 AGI +1
@@ -112251,11 +112491,11 @@ It also draws the wearer's potential abilities.
 MDEF +3
 ------------------------
 Refine Level ^0000FF+7^000000:
-MDEF +3.
+MDEF +3
 ------------------------
 +^000088Athena Shadow Earring^000000
 Increases Neutral resistance +1%.
-If total refine of set +15: Increases Neutral resistance +1%.
+If total refine levels of entire set at least +15: Neutral element resistance +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
@@ -112304,9 +112544,9 @@ It also draws the wearer's potential abilities.
 MaxHP +100
 ------------------------
 Refine Level ^0000FF+7^000000:
-MaxHP +1%.
+MaxHP +1%
 Refine Level ^0000FF+9^000000:
-MaxHP +1%.
+MaxHP +1%
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
@@ -112321,9 +112561,9 @@ It also draws the wearer's potential abilities.
 MaxSP +50
 ------------------------
 Refine Level ^0000FF+7^000000:
-MaxSP +1%.
+MaxSP +1%
 Refine Level ^0000FF+9^000000:
-MaxSP +1%.
+MaxSP +1%
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
@@ -112338,11 +112578,11 @@ It also draws the wearer's potential abilities.
 DEF +10
 ------------------------
 Refine Level ^0000FF+7^000000:
-DEF +10.
+DEF +10
 ------------------------
 [+^008800Resist Spell Power Pendant Shadow^000000]
 Increases Neutral resistance +1%.
-If total refine of set +15: Increases Neutral resistance +1%.
+If total refine levels of entire set at least +15: Neutral element resistance +1%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
@@ -112880,7 +113120,7 @@ Increases SP regeneration by 5%.
 ^008800Spiritual Shadow Earring^000000
 ^008800Spiritual Shadow Pendant^000000
 1% chance to absorb 1% SP damage do on Physical attack.
-If total refine of set +10: additional 1% of the damage absorbed by SP.
+If total refine levels of entire set at least +10: additional 1% of the damage absorbed by SP.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
@@ -112902,7 +113142,7 @@ MaxSP +1%.
 ^008800Spiritual Shadow Earring^000000
 ^008800Spiritual Shadow Pendant^000000
 1% chance to absorb 1% SP damage do on Physical attack.
-If total refine of set +10: additional 1% of the damage absorbed by SP.
+If total refine levels of entire set at least +10: additional 1% of the damage absorbed by SP.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
@@ -112917,14 +113157,14 @@ It also draws the wearer's potential abilities.
 MaxSP +1%
 ------------------------
 Refine Level ^0000FF+7^000000:
-MaxSP +1%.
+MaxSP +1%
 ------------------------
 [^6666CCSpiritual Shadow Set^000000]
 ^008800Spiritual Shadow Weapon^000000
 ^008800Spiritual Shadow Earring^000000
 ^008800Spiritual Shadow Pendant^000000
 1% chance to absorb 1% SP damage do on Physical attack.
-If the amount of the entire set of refine is equal or superior 10 additional 1% of the damage absorbed by SP.
+If total refine levels of entire set at least +10 additional 1% of the damage absorbed by SP.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
@@ -112939,7 +113179,7 @@ Can be equipped alone but needs a complete set to have bonus effect.
 MaxHP +100
 ------------------------
 Refine Level ^0000FF+7^000000:
-additional increase MaxHP by 1%.
+MaxHP +1%
 ------------------------
 When combined with ^008800Malicious shadow set (shield,armor, shoes)^000000
 4% chance to absorb 2% HP damage do on Physical attack.
@@ -112958,7 +113198,7 @@ Can be equipped alone but needs a complete set to have bonus effect.
 MaxHP +1%
 ------------------------
 Refine Level ^0000FF+7^000000:
-MaxHP +1%.
+MaxHP +1%
 ------------------------
 When combined with ^008800Malicious shadow set (shield,armor, shoes)^000000
 4% chance to absorb 2% HP damage do on Physical attack.
@@ -113005,7 +113245,7 @@ Every 2 refine level: CRIT +1.
 ^008800Gemstone Shadow Earring^000000
 ^008800Gemstone Shadow Pendant^000000
 All stats +1.
-If the amount of the entire set of refine is equal or superior 45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
+If total refine levels of entire set at least +45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
 When refine total is superior to +45 reduce % the sp cost of skills.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
@@ -113030,7 +113270,7 @@ Every 2 refine level: Flee +1.
 ^008800Gemstone Shadow Earring^000000
 ^008800Gemstone Shadow Pendant^000000
 All stats +1.
-If the amount of the entire set of refine is equal or superior 45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
+If total refine levels of entire set at least +45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
 When refine total is superior to +45 reduce % the sp cost of skills.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
@@ -113055,7 +113295,7 @@ Every 2 refine level: DEF +1
 ^008800Gemstone Shadow Earring^000000
 ^008800Gemstone Shadow Pendant^000000
 All stats +1.
-If the amount of the entire set of refine is equal or superior 45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
+If total refine levels of entire set at least +45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
 When refine total is superior to +45 reduce % the sp cost of skills.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
@@ -113079,7 +113319,7 @@ Every 2 refine level: HIT +1.
 ^008800Gemstone Shadow Earring^000000
 ^008800Gemstone Shadow Pendant^000000
 All stats +1.
-If the amount of the entire set of refine is equal or superior 45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
+If total refine levels of entire set at least +45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
 When refine total is superior to +45 reduce % the sp cost of skills.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
@@ -113104,7 +113344,7 @@ Every 2 refine level: MATK +5.
 ^008800Gemstone Shadow Earring^000000
 ^008800Gemstone Shadow Pendant^000000
 All stats +1.
-If the amount of the entire set of refine is equal or superior 45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
+If total refine levels of entire set at least +45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
 When refine total is superior to +45 reduce % the sp cost of skills.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
@@ -113129,7 +113369,7 @@ Every 2 refine level: ATK +1.
 ^008800Gemstone Shadow Earring^000000
 ^008800Gemstone Shadow Pendant^000000
 All stats +1.
-If the amount of the entire set of refine is equal or superior 45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
+If total refine levels of entire set at least +45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
 When refine total is superior to +45 reduce % the sp cost of skills.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
@@ -113144,41 +113384,67 @@ Can be equipped alone but needs a complete set to have bonus effect.
 ------------------------
 DEF +3
 ------------------------
-Every 2 refine level: adds 1% resistance against ^663399Stun^000000, ^663399Frozen^000000, ^663399Curse^000000, ^663399Bleeding^000000 status.
+Every 2 refine levels: adds 1% resistance against ^663399Stun^000000, ^663399Frozen^000000, ^663399Curse^000000, ^663399Bleeding^000000 status.
 ------------------------
 Every refine level: adds 1% resistance against ^663399Stone Curse^000000, ^663399Sleep^000000,^663399Silence^000000, ^663399Blind^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Plasterus shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Stone Curse^000000 status.
+[^6666CCPlasterus Shadow set^000000]
+^008800Plasterus Shadow Armor^000000
+^008800Plasterus Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^663399Stone Curse^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Insomnia shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Sleep^000000 status.
+[^6666CCInsomnia Shadow set^000000]
+^008800Insomnia Shadow Armor^000000
+^008800Insomnia Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^663399Sleep^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, peerless shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Silence^000000 status.
+[^6666CCPeerless Shadow set^000000]
+^008800Peerless Shadow Armor^000000
+^008800Peerless Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^663399Silence^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Andre shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Blind^000000 status.
+[^6666CCAdurate Shadow set^000000]
+^008800Adurate Shadow Armor^000000
+^008800Adurate Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^663399Blind^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Frozen Freezing shadow set (Weapon, earring, pendant)^000000
-DEF +4.
-If the amount of the entire set of refine is equal or superior 30, Gain immunity to the ^663399Frozen^000000 status.
+[^6666CCUnfreezing Shadow set^000000]
+^008800Unfreezing Shadow Weapon^000000
+^008800Unfreezing Shadow Earring^000000
+^008800Unfreezing Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +4
+If total refine levels of entire set at least +30: Gains immunity against ^663399Frozen^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Neutral shadow set (Weapon, earring, pendant)^000000
-DEF +4.
-If the amount of the entire set of refine is equal or superior 30, Gain immunity to the ^663399Stun^000000 status.
+[^6666CCNeutral Shadow set^000000]
+^008800Neutral Shadow Earring^000000
+^008800Neutral Shadow Pendant^000000
+^008800Neutral Shadow Weapon^000000
+^008800Stability Shadow Shield^000000
+DEF +4
+If total refine levels of entire set at least +30: Gains immunity against ^663399Stun^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Frozen Curse shadow set (earring, pendant)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Curse^000000 status.
+[^6666CCUncurse Shadow set^000000]
+^008800Uncurse Shadow Earring^000000
+^008800Uncurse Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^663399Curse^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Vitality shadow set (earring, pendant)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Bleeding^000000 status.
+[^6666CCVitality Shadow set^000000]
+^008800Vitality Shadow Earring^000000
+^008800Vitality Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^663399Bleeding^000000 status.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
@@ -113194,9 +113460,12 @@ DEF +1
 ------------------------
 Each refine add a 1% resistance to the ^663399Stone Curse^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Plasterus shadow set (armor, shoes)^000000
+[^6666CCPlasterus Shadow set^000000]
+^008800Plasterus Shadow Armor^000000
+^008800Plasterus Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
 DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Stone Curse^000000 status.
+If total refine levels of entire set at least +20: Gains immunity against ^663399Stone Curse^000000 status.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
@@ -113211,9 +113480,13 @@ Can be equipped alone but needs a complete set to have bonus effect.
 DEF +1
 ------------------------
 Each refine add a 1% resistance to the ^663399Stone Curse^000000 status.
-When combined with ^008800stability Shadow Shield, Plasterus shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Stone Curse^000000 status.
+------------------------
+[^6666CCPlasterus Shadow set^000000]
+^008800Plasterus Shadow Armor^000000
+^008800Plasterus Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gain immunity against ^663399Stone Curse^000000 status.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
@@ -113228,9 +113501,12 @@ Can be equipped alone but needs a complete set to have bonus effect.
 DEF +1
 Each refine add a 1% resistance to the ^663399Sleep^000000 status.
 ------------------------
-When combined with ^008800stability Shadow Shield, Insomnia shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Sleep^000000 status.
+[^6666CCInsomnia Shadow set^000000]
+^008800Insomnia Shadow Armor^000000
+^008800Insomnia Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gain immunity against ^663399Sleep^000000 status.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
@@ -113241,11 +113517,18 @@ Jobs:^6666CC All classes^000000
 24094#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine add a 1% resistance to the ^663399Sleep^000000 status.
-When combined with ^008800stability Shadow Shield, Insomnia shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Sleep^000000 status.
+------------------------
+[^6666CCInsomnia Shadow set^000000]
+^008800Insomnia Shadow Armor^000000
+^008800Insomnia Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gain immunity against ^663399Sleep^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113255,11 +113538,18 @@ Jobs:^6666CC All classes^000000
 24095#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine add a 1% resistance to the ^663399Silence^000000 status.
-When combined with ^008800stability Shadow Shield, peerless shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Silence^000000 status.
+------------------------
+[^6666CCPeerless Shadow set^000000]
+^008800Peerless Shadow Armor^000000
+^008800Peerless Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gain immunity against ^663399Silence^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113269,11 +113559,18 @@ Jobs:^6666CC All classes^000000
 24096#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine Add a 1% resistance to the ^663399Silence^000000 status.
-When combined with ^008800Peerless shadow set (shield, armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Silence^000000 status.
+------------------------
+[^6666CCPeerless Shadow set^000000]
+^008800Peerless Shadow Armor^000000
+^008800Peerless Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gain immunity against ^663399Silence^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113283,11 +113580,18 @@ Jobs:^6666CC All classes^000000
 24097#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine add a 1% resistance to the ^663399Blind^000000 status.
-When combined with ^008800stability Shadow Shield, Adurate shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Blind^000000 status.
+------------------------
+[^6666CCAdurate Shadow set^000000]
+^008800Adurate Shadow Armor^000000
+^008800Adurate Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20, Gain immunity against ^663399Blind^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113297,11 +113601,18 @@ Jobs:^6666CC All classes^000000
 24098#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine add a 1% resistance to the ^663399Blind^000000 status.
-When combined with ^008800stability Shadow Shield, Adurate shadow set (armor, shoes)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20, Gain immunity to the ^663399Blind^000000 status.
+------------------------
+[^6666CCAdurate Shadow set^000000]
+^008800Adurate Shadow Armor^000000
+^008800Adurate Shadow Shoes^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gain immunity against ^663399Blind^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113310,11 +113621,19 @@ Jobs:^6666CC All classes^000000
 #
 24099#
 A glove that can draw the wearer's potential ability.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine increase resistence from the ^663399Frozen^000000 status by 1%.
-When combined with ^008800Stability shadow shield +freezing frozen shadow set (weapon, earring, pendant)^000000
-DEF +4.
-If the amount of the entire set of refine is equal or superior 30 gain protection from the ^663399Frozen^000000 status.
+------------------------
+[^6666CCUnfreezing Shadow set^000000]
+^008800Unfreezing Shadow Weapon^000000
+^008800Unfreezing Shadow Earring^000000
+^008800Unfreezing Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +4
+If total refine levels of entire set at least +30: Gains immunity against ^663399Frozen^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113324,11 +113643,19 @@ Jobs:^6666CC All classes^000000
 24100#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine increase resistence from the ^663399Frozen^000000 status by 1%.
-When combined with ^008800Stability shadow shield +freezing frozen shadow set (weapon, earring, pendant)^000000
-DEF +4.
-If the amount of the entire set of refine is equal or superior 30 gain protection from the ^663399Frozen^000000 status.
+------------------------
+[^6666CCUnfreezing Shadow set^000000]
+^008800Unfreezing Shadow Weapon^000000
+^008800Unfreezing Shadow Earring^000000
+^008800Unfreezing Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +4
+If total refine levels of entire set at least +30: Gains immunity against ^663399Frozen^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113338,11 +113665,19 @@ Jobs:^6666CC All classes^000000
 24101#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine increase resistence from the ^663399Frozen^000000 status by 1%.
-When combined with ^008800Stability shadow shield +freezing frozen shadow set (weapon, earring, pendant)^000000
-DEF +4.
-If the amount of the entire set of refine is equal or superior 30 gain protection from the ^663399Frozen^000000 status.
+------------------------
+[^6666CCUnfreezing Shadow set^000000]
+^008800Unfreezing Shadow Weapon^000000
+^008800Unfreezing Shadow Earring^000000
+^008800Unfreezing Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +4
+If total refine levels of entire set at least +30: Gains immunity against ^663399Frozen^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113352,11 +113687,18 @@ Jobs:^6666CC All classes^000000
 24102#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
-DEF +1.
+------------------------
+DEF +1
+------------------------
 Each refine add resistance against ^663399Bleeding^000000 status by 1%.
-When combined with ^008800Stability shadow shield +vitality shadow set(earring, pendant)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20 gain protection from the ^70218Bleeding^000000 status.
+------------------------
+[^6666CCVitality Shadow set^000000]
+^008800Vitality Shadow Earring^000000
+^008800Vitality Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^70218Bleeding^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113366,11 +113708,18 @@ Jobs:^6666CC All classes^000000
 24103#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-DEF +1.
-Each refine add Reduces damage taken from ^663399Bleeding^000000 status by 1%.
-When combined with ^008800Stability shadow shield +vitality shadow set(earring, pendant)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20 gain protection from the ^70218Bleeding^000000 status.
+------------------------
+DEF +1
+------------------------
+Each refine add resistance against ^663399Bleeding^000000 status by 1%.
+------------------------
+[^6666CCVitality Shadow set^000000]
+^008800Vitality Shadow Earring^000000
+^008800Vitality Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^70218Bleeding^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113379,11 +113728,19 @@ Jobs:^6666CC All classes^000000
 #
 24104#
 A glove that can draw the wearer's potential ability.
-DEF +1.
-Each 2 refines increase resistence from the ^663399Stun^000000 status by 1%.
-When combined with ^008800Stability shadow shield +neutral shadow set (weapon, earring, pendant)^000000
-DEF +4.
-If the amount of the entire set of refine is equal or superior 30 gain protection from the ^663399Stun^000000 status.
+------------------------
+DEF +1
+------------------------
+Each 2 refines increase resistence against ^663399Stun^000000 status by 1%.
+------------------------
+[^6666CCNeutral Shadow set^000000]
+^008800Neutral Shadow Earring^000000
+^008800Neutral Shadow Pendant^000000
+^008800Neutral Shadow Weapon^000000
+^008800Stability Shadow Shield^000000
+DEF +4
+If total refine levels of entire set at least +30: Gains immunity against ^663399Stun^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113393,11 +113750,19 @@ Jobs:^6666CC All classes^000000
 24105#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
-DEF +1.
-Each 1 refines increase resistence from the ^663399Stun^000000 status by 1%.
-When combined with ^008800Stability shadow shield +neutral shadow set (weapon, earring, pendant)^000000
-DEF +4.
-If the amount of the entire set of refine is equal or superior 30 gain protection from the ^663399Stun^000000 status.
+------------------------
+DEF +1
+------------------------
+Each 1 refines increase resistence against ^663399Stun^000000 status by 1%.
+------------------------
+[^6666CCNeutral Shadow set^000000]
+^008800Neutral Shadow Earring^000000
+^008800Neutral Shadow Pendant^000000
+^008800Neutral Shadow Weapon^000000
+^008800Stability Shadow Shield^000000
+DEF +4
+If total refine levels of entire set at least +30: Gains immunity against ^663399Stun^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113407,11 +113772,19 @@ Jobs:^6666CC All classes^000000
 24106#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-DEF +1.
-Each 1 refines increase resistence from the ^663399Stun^000000 status by 1%.
-When combined with ^008800Stability shadow shield +neutral shadow set (weapon, earring, pendant)^000000
-DEF +4.
-If the amount of the entire set of refine is equal or superior 30 gain protection from the ^663399Stun^000000 status.
+------------------------
+DEF +1
+------------------------
+Each 1 refines increase resistence against ^663399Stun^000000 status by 1%.
+------------------------
+[^6666CCNeutral Shadow set^000000]
+^008800Neutral Shadow Earring^000000
+^008800Neutral Shadow Pendant^000000
+^008800Neutral Shadow Weapon^000000
+^008800Stability Shadow Shield^000000
+DEF +4
+If total refine levels of entire set at least +30: Gains immunity against ^663399Stun^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113421,11 +113794,18 @@ Jobs:^6666CC All classes^000000
 24107#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
-DEF +1.
-Each refine increase resistence from the ^663399Curse^000000 status by 1%.
-When combined with ^008800Stability shadow shield +curse shadow set (weapon, earring, pendant)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20 gain protection from the ^663399Curse^000000 status.
+------------------------
+DEF +1
+------------------------
+Each refine increase resistence against ^663399Curse^000000 status by 1%.
+------------------------
+[^6666CCUncurse Shadow set^000000]
+^008800Uncurse Shadow Earring^000000
+^008800Uncurse Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^663399Curse^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113435,11 +113815,18 @@ Jobs:^6666CC All classes^000000
 24108#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-DEF +1.
-Each refine increase resistence from the ^663399Curse^000000 status by 1%.
-When combined with ^008800Stability shadow shield +curse shadow set (weapon, earring, pendant)^000000
-DEF +5.
-If the amount of the entire set of refine is equal or superior 20 gain protection from the ^663399Curse^000000 status.
+------------------------
+DEF +1
+------------------------
+Each refine increase resistence against ^663399Curse^000000 status by 1%.
+------------------------
+[^6666CCUncurse Shadow set^000000]
+^008800Uncurse Shadow Earring^000000
+^008800Uncurse Shadow Pendant^000000
+^008800Stability Shadow Shield^000000
+DEF +5
+If total refine levels of entire set at least +20: Gains immunity against ^663399Curse^000000 status.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113449,9 +113836,12 @@ Jobs:^6666CC All classes^000000
 24109#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Reduces variable cast time by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces variable cast time by 1%.
+------------------------
 [^008800Caster set^000000]
 ^00FF00Caster Shadow Weapon^000000
 ^00FF00Caster Shadow Earring^000000
@@ -113459,6 +113849,7 @@ Reduces variable cast time by 1%.
 Prevents skill casts from being interupted.
 Increases variable cast time by 40%.
 Each refine of complete set decrease variable cast time.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113467,11 +113858,14 @@ Jobs:^6666CC All classes^000000
 #
 24110#
 A glove that can draw the wearer's potential ability.
+------------------------
 Reduces variable cast time by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces variable cast time by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces variable cast time by 2%.
+------------------------
 [^008800Caster set^000000]
 ^00FF00Caster Shadow Weapon^000000
 ^00FF00Caster Shadow Earring^000000
@@ -113479,6 +113873,7 @@ Reduces variable cast time by 2%.
 Prevents skill casts from being interupted.
 Increases variable cast time by 40%.
 Each refine of complete set reduce variable cast time.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113488,9 +113883,12 @@ Jobs:^6666CC All classes^000000
 24111#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces SP cost by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
-additional Increases natural SP regeneration by 5%.
+Increases natural SP regeneration by 5%.
+------------------------
 [^008800Spell Flow set^000000]
 ^00FF00Spell Flow Shadow Armor^000000
 ^00FF00Spell Flow Shadow Shield^000000
@@ -113498,6 +113896,7 @@ additional Increases natural SP regeneration by 5%.
 Prevents skill casts from being interupted.
 Increases SP cost by 40%.
 Each refine of complete set reduces SP cost of all skills.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113507,11 +113906,14 @@ Jobs:^6666CC All classes^000000
 24112#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces SP cost by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
-additional Reduces SP cost by 1%.
+Reduces SP cost by 1%.
 Refine Level ^0000FF+9^000000:
-additional Reduces SP cost by 1%.
+Reduces SP cost by 1%.
+------------------------
 [^008800Spell Flow set^000000]
 ^00FF00Spell Flow Shadow Armor^000000
 ^00FF00Spell Flow Shadow Shield^000000
@@ -113519,6 +113921,7 @@ additional Reduces SP cost by 1%.
 Prevents skill casts from being interupted.
 Increases SP cost by 40%.
 Each refine of complete set reduces SP cost of all skills.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113528,9 +113931,12 @@ Jobs:^6666CC All classes^000000
 24113#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces SP cost by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
-additional Increases MaxSP +1%.
+MaxSP +1%
+------------------------
 [^008800Spell Flow set^000000]
 ^00FF00Spell Flow Shadow Armor^000000
 ^00FF00Spell Flow Shadow Shield^000000
@@ -113538,6 +113944,7 @@ additional Increases MaxSP +1%.
 Prevents skill casts from being interupted.
 Increases SP cost by 40%.
 Each refine of complete set reduces SP cost of all skills.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -113547,8 +113954,11 @@ Jobs:^6666CC All classes^000000
 24114#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Greed^000000.
-Increases SP cost of ^008800Greed^000000 by 100. Each refine reduces SP cost of skill by 10.
+Increases SP cost of ^008800Greed^000000 by 100.
+Each refine reduces SP cost of Greed by 10.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113558,8 +113968,11 @@ Jobs:^6666CC All classes^000000
 24115#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Greed^000000.
-Increases SP cost of ^008800Greed^000000 by 100. Each refine reduces SP cost of skill by 10.
+Increases SP cost of ^008800Greed^000000 by 100.
+Each refine reduces SP cost of Greed by 10.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113569,8 +113982,11 @@ Jobs:^6666CC All classes^000000
 24116#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Greed^000000.
-Increases SP cost of ^008800Greed^000000 by 100. Each refine reduces SP cost of skill by 10.
+Increases SP cost of ^008800Greed^000000 by 100.
+Each refine reduces SP cost of Greed by 10.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -113579,8 +113995,11 @@ Jobs:^6666CC All classes^000000
 #
 24117#
 A glove that can draw the wearer's potential ability.
+------------------------
 Enables use of Level 1 ^008800Greed^000000.
-Increases SP cost of ^008800Greed^000000 by 100. Each refine reduces SP cost of skill by 10.
+Increases SP cost of ^008800Greed^000000 by 100.
+Each refine reduces SP cost of Greed by 10.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113590,8 +114009,11 @@ Jobs:^6666CC All classes^000000
 24118#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Greed^000000.
-Increases SP cost of ^008800Greed^000000 by 100. Each refine reduces SP cost of skill by 10.
+Increases SP cost of ^008800Greed^000000 by 100.
+Each refine reduces SP cost of Greed by 10.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113601,8 +114023,11 @@ Jobs:^6666CC All classes^000000
 24119#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Greed^000000.
-Increases SP cost of ^008800Greed^000000 by 100. Each refine reduces SP cost of skill by 10.
+Increases SP cost of ^008800Greed^000000 by 100.
+Each refine reduces SP cost of Greed by 10.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113612,8 +114037,11 @@ Jobs:^6666CC All classes^000000
 24120#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Heal^000000.
-Increases SP cost of ^008800Heal^000000 by 50. Each refine reduces SP cost of skill by 5.
+Increases SP cost of ^008800Heal^000000 by 50.
+Each refine reduces SP cost of Heal by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113623,8 +114051,11 @@ Jobs:^6666CC All classes^000000
 24121#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Heal^000000.
-Increases SP cost of ^008800Heal^000000 by 50. Each refine reduces SP cost of skill by 5.
+Increases SP cost of ^008800Heal^000000 by 50.
+Each refine reduces SP cost of Heal by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113634,8 +114065,10 @@ Jobs:^6666CC All classes^000000
 24122#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Heal^000000.
 Increases SP cost of ^008800Heal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -113644,8 +114077,10 @@ Jobs:^6666CC All classes^000000
 #
 24123#
 A glove that can draw the wearer's potential ability.
+------------------------
 Enables use of Level 1 ^008800Heal^000000.
 Increases SP cost of ^008800Heal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113655,8 +114090,10 @@ Jobs:^6666CC All classes^000000
 24124#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Heal^000000.
 Increases SP cost of ^008800Heal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113666,8 +114103,10 @@ Jobs:^6666CC All classes^000000
 24125#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Heal^000000.
 Increases SP cost of ^008800Heal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113677,8 +114116,10 @@ Jobs:^6666CC All classes^000000
 24126#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Hiding^000000.
 Increases SP cost of ^008800Hiding^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113688,8 +114129,10 @@ Jobs:^6666CC All classes^000000
 24127#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Hiding^000000.
 Increases SP cost of ^008800Hiding^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113699,8 +114142,10 @@ Jobs:^6666CC All classes^000000
 24128#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Hiding^000000.
 Increases SP cost of ^008800Hiding^000000 by 50. Each refine reduces SP cost of skill by 10.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -113709,8 +114154,10 @@ Jobs:^6666CC All classes^000000
 #
 24129#
 A glove that can draw the wearer's potential ability.
+------------------------
 Enables use of Level 1 ^008800Hiding^000000.
 Increases SP cost of ^008800Hiding^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113720,8 +114167,10 @@ Jobs:^6666CC All classes^000000
 24130#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Hiding^000000.
 Increases SP cost of ^008800Hiding^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113731,8 +114180,10 @@ Jobs:^6666CC All classes^000000
 24131#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Hiding^000000.
 Increases SP cost of ^008800Hiding^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113742,8 +114193,10 @@ Jobs:^6666CC All classes^000000
 24132#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Cloaking^000000.
 Increases SP cost of ^008800Cloaking^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113753,8 +114206,10 @@ Jobs:^6666CC All classes^000000
 24133#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Cloaking^000000.
 Increases SP cost of ^008800Cloaking^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113764,8 +114219,10 @@ Jobs:^6666CC All classes^000000
 24134#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Cloaking^000000.
 Increases SP cost of ^008800Cloaking^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -113774,8 +114231,10 @@ Jobs:^6666CC All classes^000000
 #
 24135#
 A glove that can draw the wearer's potential ability.
+------------------------
 Enables use of Level 1 ^008800Cloaking^000000.
 Increases SP cost of ^008800Cloaking^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113785,8 +114244,10 @@ Jobs:^6666CC All classes^000000
 24136#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Cloaking^000000.
 Increases SP cost of ^008800Cloaking^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113796,8 +114257,10 @@ Jobs:^6666CC All classes^000000
 24137#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Cloaking^000000.
 Increases SP cost of ^008800Cloaking^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113807,8 +114270,10 @@ Jobs:^6666CC All classes^000000
 24138#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Teleport^000000.
 Increases SP cost of ^008800Teleport^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113818,8 +114283,10 @@ Jobs:^6666CC All classes^000000
 24139#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Teleport^000000.
 Increases SP cost of ^008800Teleport^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113829,8 +114296,10 @@ Jobs:^6666CC All classes^000000
 24140#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Teleport^000000.
 Increases SP cost of ^008800Teleport^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -113839,8 +114308,10 @@ Jobs:^6666CC All classes^000000
 #
 24141#
 A glove that can draw the wearer's potential ability.
+------------------------
 Enables use of Level 1 ^008800Teleport^000000.
 Increases SP cost of ^008800Teleport^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113850,8 +114321,10 @@ Jobs:^6666CC All classes^000000
 24142#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Teleport^000000.
 Increases SP cost of ^008800Teleport^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113861,8 +114334,10 @@ Jobs:^6666CC All classes^000000
 24143#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Teleport^000000.
 Increases SP cost of ^008800Teleport^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113872,8 +114347,10 @@ Jobs:^6666CC All classes^000000
 24144#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Steal^000000.
-Increases SP cost of ^008800reducesteal^000000 by 50. Each refine reduces SP cost of skill by 5.
+Increases SP cost of ^008800Steal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -113883,8 +114360,10 @@ Jobs:^6666CC All classes^000000
 24145#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Steal^000000.
 Increases SP cost of ^008800Steal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -113894,8 +114373,10 @@ Jobs:^6666CC All classes^000000
 24146#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Enables use of Level 1 ^008800Steal^000000.
 Increases SP cost of ^008800Steal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -113904,8 +114385,10 @@ Jobs:^6666CC All classes^000000
 #
 24147#
 A glove that can draw the wearer's potential ability.
+------------------------
 Enables use of Level 1 ^008800Steal^000000.
 Increases SP cost of ^008800Steal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113915,8 +114398,10 @@ Jobs:^6666CC All classes^000000
 24148#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Steal^000000.
 Increases SP cost of ^008800Steal^000000 by 50. Each refine reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113926,8 +114411,10 @@ Jobs:^6666CC All classes^000000
 24149#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Enables use of Level 1 ^008800Steal^000000.
 Increases SP cost of ^008800Steal^000000 by 50. Each refine Reduces SP cost of skill by 5.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113937,14 +114424,18 @@ Jobs:^6666CC All classes^000000
 24150#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Reduces damage taken from ^6666CCSmall^000000, ^6666CCMedium^000000, and ^6666CCLarge size^000000 monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces damage taken from ^6666CCSmall^000000, ^6666CCMedium^000000, and ^6666CCLarge size^000000 monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces damage taken from ^6666CCSmall^000000, ^6666CCMedium^000000, and ^6666CCLarge size^000000 monsters by 1%.
+------------------------
 +[^008800Infinity Shadow Pendant^000000]
-ATK +1%.
-If the amount of the entire set of refine is equal or superior 15, does delete weapon size monster penalty.
+ATK +1%
+If total refine levels of entire set at least +15: Nullify weapon damage penalty resulting from monster's size.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113954,14 +114445,18 @@ Jobs:^6666CC All classes^000000
 24151#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Reduces damage taken from ^6666CCSmall^000000, ^6666CCMedium^000000, and ^6666CCLarge size^000000 monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces damage taken from ^6666CCSmall^000000, ^6666CCMedium^000000, and ^6666CCLarge size^000000 monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces damage taken from ^6666CCSmall^000000, ^6666CCMedium^000000, and ^6666CCLarge size^000000 monsters by 1%.
+------------------------
 +[^008800Infinity Shadow Earring^000000]
-ATK +1%.
-If the amount of the entire set of refine is equal or superior 15, does delete weapon size monster penalty.
+ATK +1%
+If total refine levels of entire set at least +15: Nullify weapon damage penalty resulting from monster's size.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -113970,10 +114465,14 @@ Jobs:^6666CC All classes^000000
 #
 24152#
 A glove that can draw the wearer's potential ability.
-ATK +5. Each 2 refines increase ATK by 1.
+------------------------
+ATK +5
+Each 2 refines increase ATK by 1.
+------------------------
 +[^008800Solid Shadow Earring^000000]
-ATK increase each refine.
-If the amount of the entire set of refine is equal or superior 15, does the weapon indestructible (except in upgrade attempts).
+Each refine level increase ATK.
+If total refine levels of entire set at least +15: Makes weapon indestructible (except in upgrade attempts).
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -113983,10 +114482,14 @@ Jobs:^6666CC All classes^000000
 24153#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
-HIT +5. Each 2 refines increase HIT by 1.
+------------------------
+HIT +5
+Each 2 refines increase HIT by 1.
+------------------------
 +[^008800Solid Shadow Weapon^000000]
-ATK increase each refine.
-If the amount of the entire set of refine is equal or superior 15, does the weapon indestructible (except in upgrade attempts).
+Each refine level increase ATK.
+If total refine levels of entire set at least +15: Makes weapon indestructible (except in upgrade attempts).
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -113996,10 +114499,14 @@ Jobs:^6666CC All classes^000000
 24154#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-DEF +5. Each 2 refines increase DEF by 1.
+------------------------
+DEF +5
+Each 2 refines increase DEF by 1.
+------------------------
 +[^008800Immortal Shadow Pendant^000000]
-DEF increase each refine.
-If the amount of the entire set of refine is equal or superior 15, does the armor indestructible (except in upgrade attempts).
+Each refine level increase DEF.
+If total refine levels of entire set at least +15: Makes armor indestructible (except in upgrade attempts).
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114009,10 +114516,14 @@ Jobs:^6666CC All classes^000000
 24155#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-MDEF +1. Each 2 refines increase MDEF by 1.
+------------------------
+MDEF +1
+Each 2 refines increase MDEF by 1.
+------------------------
 +[^008800Immortal Shadow Armor^000000]
-DEF increase each refine.
-If the amount of the entire set of refine is equal or superior 15, does the armor indestructible (except in upgrade attempts).
+Each refine level increase DEF.
+If total refine levels of entire set at least +15: Makes armor indestructible (except in upgrade attempts).
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -114021,11 +114532,14 @@ Jobs:^6666CC All classes^000000
 #
 24156#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCDemihuman^000000 monster.(Except player)
 Each 2 refines increase physical defense bypassing on ^6666CCDemihuman^000000 monsters by 1%.(Except player)
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCDemihuman^000000 monster.(Except player)
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCDemihuman^000000 monster.(Except player)
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114034,11 +114548,14 @@ Jobs:^6666CC All classes^000000
 #
 24157#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCDemon^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCDemon^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCDemon^000000 monster.
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCDemon^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114047,11 +114564,14 @@ Jobs:^6666CC All classes^000000
 #
 24158#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCBrute^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCBrute^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCBrute^000000 monster.
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCBrute^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114060,11 +114580,14 @@ Jobs:^6666CC All classes^000000
 #
 24159#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCInsect^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCInsect^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCInsect^000000 monster.
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCInsect^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114073,11 +114596,14 @@ Jobs:^6666CC All classes^000000
 #
 24160#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCFish^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCFish^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCFish^000000 monsters.
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCFish^000000 monsters.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114086,11 +114612,14 @@ Jobs:^6666CC All classes^000000
 #
 24161#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCDragon^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCDragon^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCDragon^000000 monster.
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCDragon^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114099,11 +114628,14 @@ Jobs:^6666CC All classes^000000
 #
 24162#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCAngel^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCAngel^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCAngel^000000 monster.
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCAngel^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114112,11 +114644,14 @@ Jobs:^6666CC All classes^000000
 #
 24163#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCFormless^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCFormless^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCFormless^000000 monster.
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCFormless^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114125,11 +114660,14 @@ Jobs:^6666CC All classes^000000
 #
 24164#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCUndead^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCUndead^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
-ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCUndead^000000 monster.
+ATK +5
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCUndead^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114138,11 +114676,14 @@ Jobs:^6666CC All classes^000000
 #
 24165#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% physical defense bypassing on ^6666CCPlant^000000 monster.
 Each 2 refines increase physical defense bypassing on ^6666CCPlant^000000 monsters by 1%.
+------------------------
 +[^008800Penetration Shadow Pendant & Penetration Shadow Earring^000000]
 ATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete physical defense bypassing on ^6666CCPlant^000000 monster.
+If total refine levels of entire set at least +25: adds complete physical defense bypassing on ^6666CCPlant^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114152,8 +114693,10 @@ Jobs:^6666CC All classes^000000
 24166#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Adds 5% physical defense bypassing on all monsters.
 Each 2 refines increase physical defense bypassing on all monsters by 1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -114163,8 +114706,10 @@ Jobs:^6666CC All classes^000000
 24167#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Adds 5% physical defense bypassing on all monsters.
 Each 2 refines increase physical defense bypassing on all monsters by 1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -114174,8 +114719,10 @@ Jobs:^6666CC All classes^000000
 24168#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCNormal^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCNormal^000000 monsters by 1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -114185,8 +114732,10 @@ Jobs:^6666CC All classes^000000
 24169#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCNormal^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCNormal^000000 monsters by 1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -114195,11 +114744,14 @@ Jobs:^6666CC All classes^000000
 #
 24170#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCDemihuman^000000 monster.(Except player)
 Each 2 refines increase magical defense bypassing on ^6666CCDemihuman^000000 monsters by 1%.(Except player)
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCDemihuman^000000 monster.(Except player)
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCDemihuman^000000 monster.(Except player)
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114208,11 +114760,14 @@ Jobs:^6666CC All classes^000000
 #
 24171#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCDemon^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCDemon^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCDemon^000000 monster.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCDemon^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114221,11 +114776,14 @@ Jobs:^6666CC All classes^000000
 #
 24172#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCBrute^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCBrute^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCBrute^000000 monster.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCBrute^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114234,11 +114792,14 @@ Jobs:^6666CC All classes^000000
 #
 24173#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCInsect^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCInsect^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCInsect^000000 monster.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCInsect^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114247,11 +114808,14 @@ Jobs:^6666CC All classes^000000
 #
 24174#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCFish^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCFish^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCFish^000000 monsters.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCFish^000000 monsters.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114260,11 +114824,14 @@ Jobs:^6666CC All classes^000000
 #
 24175#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCDragon^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCDragon^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCDragon^000000 monster.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCDragon^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114273,11 +114840,14 @@ Jobs:^6666CC All classes^000000
 #
 24176#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCAngel^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCAngel^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Penetration Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCAngel^000000 monster.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCAngel^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114286,11 +114856,14 @@ Jobs:^6666CC All classes^000000
 #
 24177#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCFormless^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCFormless^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCFormless^000000 monster.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCFormless^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114299,11 +114872,14 @@ Jobs:^6666CC All classes^000000
 #
 24178#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCUndead^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCUndead^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCUndead^000000 monster.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCUndead^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114312,11 +114888,14 @@ Jobs:^6666CC All classes^000000
 #
 24179#
 A glove that can draw the wearer's potential ability.
+------------------------
 Adds 5% magical defense bypassing on ^6666CCPlant^000000 monster.
 Each 2 refines increase magical defense bypassing on ^6666CCPlant^000000 monsters by 1%.
+------------------------
 +[^008800Tempest Shadow Pendant & Tempest Shadow Earring^000000]
-MATK +5.
-If the amount of the entire set of refine is equal or superior 25, adds complete magical defense bypassing on ^6666CCPlant^000000 monster.
+MATK +5
+If total refine levels of entire set at least +25: adds complete magical defense bypassing on ^6666CCPlant^000000 monster.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114326,8 +114905,10 @@ Jobs:^6666CC All classes^000000
 24180#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-MDEF +1.
+------------------------
+MDEF +1
 Each 2 refines increase MDEF +1.
+------------------------
 [^6666CCBearer's Shadow set^000000]
 ^008800Bearer's Shadow Weapon^000000
 ^008800Bearer's Shadow Armor^000000
@@ -114339,6 +114920,7 @@ All stats +1.
 If the amount of the entire set of refine is 45: enable unlimited effect of endure.
 MaxHP -60%
 Each refines of the entire set increase % MaxHP.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114348,8 +114930,10 @@ Jobs:^6666CC All classes^000000
 24181#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-MaxSP +50.
+------------------------
+MaxSP +50
 Each 2 refines increase SP +5.
+------------------------
 [^6666CCBearer's Shadow set^000000]
 ^008800Bearer's Shadow Weapon^000000
 ^008800Bearer's Shadow Armor^000000
@@ -114361,6 +114945,7 @@ All stats +1.
 If the amount of the entire set of refine is 45: enable unlimited effect of endure.
 MaxHP -60%
 Each refines of the entire set increase % MaxHP.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -114370,8 +114955,10 @@ Jobs:^6666CC All classes^000000
 24182#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-DEF +5.
+------------------------
+DEF +5
 Each 2 refines increase DEF +1.
+------------------------
 [^6666CCBearer's Shadow set^000000]
 ^008800Bearer's Shadow Weapon^000000
 ^008800Bearer's Shadow Armor^000000
@@ -114383,6 +114970,7 @@ All stats +1.
 If the amount of the entire set of refine is 45: enable unlimited effect of endure.
 MaxHP -60%
 Each refines of the entire set increase % MaxHP.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114391,8 +114979,10 @@ Jobs:^6666CC All classes^000000
 #
 24183#
 A glove that can draw the wearer's potential ability.
-MaxHP +100.
+------------------------
+MaxHP +100
 Each 2 refines increase MaxHP +10.
+------------------------
 [^6666CCBearer's Shadow set^000000]
 ^008800Bearer's Shadow Weapon^000000
 ^008800Bearer's Shadow Armor^000000
@@ -114404,6 +114994,7 @@ All stats +1.
 If the amount of the entire set of refine is 45: enable unlimited effect of endure.
 MaxHP -60%
 Each refines of the entire set increase % MaxHP.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -114413,8 +115004,10 @@ Jobs:^6666CC All classes^000000
 24184#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
-MATK +5.
+------------------------
+MATK +5
 Each 2 refines increase MATK +1.
+------------------------
 [^6666CCBearer's Shadow set^000000]
 ^008800Bearer's Shadow Weapon^000000
 ^008800Bearer's Shadow Armor^000000
@@ -114426,6 +115019,7 @@ All stats +1.
 If the amount of the entire set of refine is 45: enable unlimited effect of endure.
 MaxHP -60%
 Each refines of the entire set increase % MaxHP.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -114435,8 +115029,10 @@ Jobs:^6666CC All classes^000000
 24185#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
-ATK +5.
+------------------------
+ATK +5
 Each 2 refines increase ATK +1.
+------------------------
 [^6666CCBearer's Shadow set^000000]
 ^008800Bearer's Shadow Weapon^000000
 ^008800Bearer's Shadow Armor^000000
@@ -114448,6 +115044,7 @@ All stats +1.
 If the amount of the entire set of refine is 45: enable unlimited effect of endure.
 MaxHP -60%
 Each refines of the entire set increase % MaxHP.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -114457,12 +115054,15 @@ Jobs:^6666CC All classes^000000
 24186#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^777777Neutral^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^777777Neutral^000000 element monsters by 1%.
+------------------------
 [^6666CCBasis Shadow Set^000000]
 ^008800Basis Shadow Armor^000000
 ^008800Basis Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114472,12 +115072,15 @@ Jobs:^6666CC All classes^000000
 24187#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^777777Shadow^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^777777Shadow^000000 element monsters by 1%.
+------------------------
 [^6666CCHallowed Shadow Set^000000]
 ^008800Hallowed Shadow Armor^000000
 ^008800Hallowed Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114487,12 +115090,15 @@ Jobs:^6666CC All classes^000000
 24188#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^0000BBWater^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^0000BBWater^000000 element monsters by 1%.
+------------------------
 [^6666CCSaharic Shadow Set^000000]
 ^008800Saharic Shadow Armor^000000
 ^008800Saharic Shadow Shield^000000
 Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114502,12 +115108,15 @@ Jobs:^6666CC All classes^000000
 24189#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^CC5500Earth^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^CC5500Earth^000000 element monsters by 1%.
+------------------------
 [^6666CCUnderneath Shadow Set^000000]
 ^008800Underneath Shadow Armor^000000
 ^008800Underneath Shadow Shield^000000
 Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114517,12 +115126,15 @@ Jobs:^6666CC All classes^000000
 24190#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^FF0000Fire^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^FF0000Fire^000000 element monsters by 1%.
+------------------------
 [^6666CCFlame Shadow Set^000000]
 ^008800Flame Shadow Armor^000000
 ^008800Flame Shadow Shield^000000
 Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114532,12 +115144,15 @@ Jobs:^6666CC All classes^000000
 24191#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^33CC00Wind^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^33CC00Wind^000000 element monsters by 1%.
+------------------------
 [^6666CCWindy Shadow Set^000000]
 ^008800Windy Shadow Armor^000000
 ^008800Windy Shadow Shield^000000
 Reduces physical and magical damage taken from ^33CC00Wind^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114547,12 +115162,15 @@ Jobs:^6666CC All classes^000000
 24192#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^663399Poison^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^663399Poison^000000 element monsters by 1%.
+------------------------
 [^6666CCEnvenom Shadow Set^000000]
 ^008800Envenom Shadow Armor^000000
 ^008800Envenom Shadow Shield^000000
 Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114562,12 +115180,15 @@ Jobs:^6666CC All classes^000000
 24193#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^777777Holy^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^777777Holy^000000 element monsters by 1%.
+------------------------
 [^6666CCDamned Shadow Set^000000]
 ^008800Damned Shadow Armor^000000
 ^008800Damned Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114577,12 +115198,15 @@ Jobs:^6666CC All classes^000000
 24194#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^777777Ghost^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^777777Ghost^000000 element monsters by 1%.
+------------------------
 [^6666CCGeist Shadow Set^000000]
 ^008800Geist Shadow Armor^000000
 ^008800Geist Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114592,12 +115216,15 @@ Jobs:^6666CC All classes^000000
 24195#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Increase physical and magical damage against ^777777Undead^000000 element monsters by 1%.
 Each 2 refine increase physical and magical damage against ^777777Undead^000000 element monsters by 1%.
+------------------------
 [^6666CCDivine Shadow Set^000000]
 ^008800Divine Shadow Armor^000000
 ^008800Divine Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114607,13 +115234,16 @@ Jobs:^6666CC All classes^000000
 24196#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-Flee +5.
+------------------------
+Flee +5
 Each 2 refines increase Flee +1.
+------------------------
 [^6666CCHasty Shadow Set^000000]
 ^008800Hasty Shadow Armor^000000
 ^008800Hasty Shadow Shoes^000000
-Flee +5.
-If the amount of the entire set of refine is equal or superior 15 provides the user with increase walk speed movement.
+Flee +5
+If total refine levels of entire set at least +15 provides the user with increase walk speed movement.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -114623,13 +115253,16 @@ Jobs:^6666CC All classes^000000
 24197#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
-DEF +5.
+------------------------
+DEF +5
 Each 2 refines increase DEF +1.
+------------------------
 [^6666CCHasty Shadow Set^000000]
 ^008800Hasty Shadow Armor^000000
 ^008800Hasty Shadow Shoes^000000
 Flee +5.
-If the amount of the entire set of refine is equal or superior 15 provides the user with increase walk speed movement.
+If total refine levels of entire set at least +15 provides the user with increase walk speed movement.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114639,15 +115272,19 @@ Jobs:^6666CC All classes^000000
 24198#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 1%.
+------------------------
 [^6666CCBasis Shadow Set^000000]
 ^008800Basis Shadow Armor^000000
 ^008800Basis Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Neutral^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114657,15 +115294,19 @@ Jobs:^6666CC All classes^000000
 24199#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 1%.
+------------------------
 [^6666CCHallowed Shadow Set^000000]
 ^008800Hallowed Shadow Armor^000000
 ^008800Hallowed Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Shadow^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114675,15 +115316,19 @@ Jobs:^6666CC All classes^000000
 24200#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 1%.
+------------------------
 [^6666CCSaharic Shadow Set^000000]
 ^008800Saharic Shadow Armor^000000
 ^008800Saharic Shadow Shield^000000
 Reduces physical and magical damage taken from ^0000BBWater^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114693,15 +115338,19 @@ Jobs:^6666CC All classes^000000
 24201#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 1%.
+------------------------
 [^6666CCUnderneath Shadow Set^000000]
 ^008800Underneath Shadow Armor^000000
 ^008800Underneath Shadow Shield^000000
 Reduces physical and magical damage taken from ^CC5500Earth^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114711,15 +115360,19 @@ Jobs:^6666CC All classes^000000
 24202#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 1%.
+------------------------
 [^6666CCFlame Shadow Set^000000]
 ^008800Flame Shadow Armor^000000
 ^008800Flame Shadow Shield^000000
 Reduces physical and magical damage taken from ^FF0000Fire^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114729,15 +115382,19 @@ Jobs:^6666CC All classes^000000
 24203#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^33CC00Wind^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^33CC00Wind^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^33CC00Wind^000000 element monsters by 1%.
+------------------------
 [^6666CCWindy Shadow Set^000000]
 ^008800Windy Shadow Armor^000000
 ^008800Windy Shadow Shield^000000
 Reduces physical and magical damage taken from ^33CC00Wind^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114747,15 +115404,19 @@ Jobs:^6666CC All classes^000000
 24204#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 1%.
+------------------------
 [^6666CCEnvenom Shadow Set^000000]
 ^008800Envenom Shadow Armor^000000
 ^008800Envenom Shadow Shield^000000
 Reduces physical and magical damage taken from ^663399Poison^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114765,15 +115426,19 @@ Jobs:^6666CC All classes^000000
 24205#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 1%.
+------------------------
 [^6666CCDamned Shadow Set^000000]
 ^008800Damned Shadow Armor^000000
 ^008800Damned Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Holy^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114783,15 +115448,19 @@ Jobs:^6666CC All classes^000000
 24206#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 1%.
+------------------------
 [^6666CCGeist Shadow Set^000000]
 ^008800Geist Shadow Armor^000000
 ^008800Geist Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Ghost^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114801,15 +115470,19 @@ Jobs:^6666CC All classes^000000
 24207#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 1%.
+------------------------
 Refine Level ^0000FF+7^000000:
 Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 1%.
 Refine Level ^0000FF+9^000000:
 Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 1%.
+------------------------
 [^6666CCDivine Shadow Set^000000]
 ^008800Divine Shadow Armor^000000
 ^008800Divine Shadow Shield^000000
 Reduces physical and magical damage taken from ^777777Undead^000000 element monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114819,10 +115492,13 @@ Jobs:^6666CC All classes^000000
 24208#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Each 4 refines increase experience when kill monsters by 1%.
+------------------------
 [+^008800Expert Shadow Shield^000000]
 Increase experience when kill monsters by 1%.
-If the amount of the entire set of refine is equal or superior 15 increase experience when kill monsters by 1%.
+If total refine levels of entire set at least +15 increase experience when kill monsters by 1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -114833,10 +115509,13 @@ Jobs:^6666CC All classes^000000
 24209#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Each 4 refines increase experience when kill monsters by 1%.
+------------------------
 [+^008800Expert Shadow Shoes^000000]
 Increase experience when kill monsters by 1%.
-If the amount of the entire set of refine is equal or superior 15 increase experience when kill monsters by 1%.
+If total refine levels of entire set at least +15 increase experience when kill monsters by 1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114847,10 +115526,13 @@ Jobs:^6666CC All classes^000000
 24210#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Each 1 refines increase experience when kill monsters by 1%.
+------------------------
 [+^008800Novice Shadow Shield^000000]
 Increase experience when kill monsters by 10%.
-If the amount of the entire set of refine is equal or superior 15 increase experience when kill monsters by 10%.
+If total refine levels of entire set at least +15 increase experience when kill monsters by 10%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -114861,10 +115543,13 @@ Jobs:^6666CC All classes^000000
 24211#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Each 1 refines increase experience when kill monsters by 1%.
+------------------------
 [+^008800Novice Shadow Shoes^000000]
 Increase experience when kill monsters by 10%.
-If the amount of the entire set of refine is equal or superior 15 increase experience when kill monsters by 10%.
+If total refine levels of entire set at least +15 increase experience when kill monsters by 10%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114875,10 +115560,13 @@ Jobs:^6666CC All classes^000000
 24212#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Each 2 refines increase experience when kill monsters by 1%.
+------------------------
 [+^008800Rookie Shadow Shield^000000]
 Increase experience when kill monsters by 5%.
-If the amount of the entire set of refine is equal or superior 15 increase experience when kill monsters by 5%.
+If total refine levels of entire set at least +15 increase experience when kill monsters by 5%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -114889,10 +115577,13 @@ Jobs:^6666CC All classes^000000
 24213#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Each 2 refines increase experience when kill monsters by 1%.
+------------------------
 [+^008800Rookie Shadow Shoes^000000]
 Increase experience when kill monsters by 5%.
-If the amount of the entire set of refine is equal or superior 15 increase experience when kill monsters by 5%.
+If total refine levels of entire set at least +15 increase experience when kill monsters by 5%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114903,10 +115594,13 @@ Jobs:^6666CC All classes^000000
 24214#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Each 3 refines increase experience when kill monsters by 1%.
+------------------------
 [+^008800Advanced Shadow Shield^000000]
 Increase experience when kill monsters by 2%.
-If the amount of the entire set of refine is equal or superior 15 increase experience when kill monsters by 2%.
+If total refine levels of entire set at least +15 increase experience when kill monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -114917,10 +115611,13 @@ Jobs:^6666CC All classes^000000
 24215#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Each 3 refines increase experience when kill monsters by 1%.
+------------------------
 [+^008800Advanced Shadow Shoes^000000]
 Increase experience when kill monsters by 2%.
-If the amount of the entire set of refine is equal or superior 15 increase experience when kill monsters by 2%.
+If total refine levels of entire set at least +15 increase experience when kill monsters by 2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -114931,8 +115628,10 @@ Jobs:^6666CC All classes^000000
 24216#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 When attacking, has 1% chance of increasing ATK by 5*refine level for 3 seconds.
 Each refine increase the chance by 0.2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114942,13 +115641,17 @@ Jobs:^6666CC All classes^000000
 24217#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 HIT +5
 Each 2 refines increase HIT +1.
+------------------------
 Refine Level ^0000FF+7^000000:
-ASPD +1.
+ASPD +1
+------------------------
 [+^008800Blitz Shadow Pendant^000000]
 Increase ATK for each refine of entire set.
-If the amount of the entire set of refine is equal or superior 15, add ASPD +1.
+If total refine levels of entire set at least +15: ASPD +1.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -114958,13 +115661,17 @@ Jobs:^6666CC All classes^000000
 24218#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 ATK +5
 Each 2 refines increase ATK +1.
+------------------------
 Refine Level ^0000FF+7^000000:
-ASPD +1.
+ASPD +1
+------------------------
 [+^008800Blitz Shadow Earring^000000]
 Increase ATK for each refine of entire set.
-If the amount of the entire set of refine is equal or superior 15, add ASPD +1.
+If total refine levels of entire set at least +15: ASPD +1.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -114974,8 +115681,10 @@ Jobs:^6666CC All classes^000000
 24219#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Refine level +2, every melee attack has 1% chance to activate level (Refine/2) Cold Bolt.
 Each refine increase the chance by 0.2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114985,8 +115694,10 @@ Jobs:^6666CC All classes^000000
 24220#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Refine level +2, every melee attack has 1% chance to activate level (Refine/2) ^00FF00Fire Bolt^000000.
 Each refine increase the chance by 0.2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -114996,8 +115707,10 @@ Jobs:^6666CC All classes^000000
 24221#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Refine level +2, every melee attack has 1% chance to activate level (Refine/2) ^00FF00Lightning Bolt^000000.
 Each refine increase the chance by 0.2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -115007,8 +115720,10 @@ Jobs:^6666CC All classes^000000
 24222#
 An armor worn on top of normal armor for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Refine level +2, every melee attack has 1% chance to activate level (Refine/2) ^00FF00Earth Spike^000000.
 Each refine increase the chance by 0.2%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
 Weight:^006600 0^000000
@@ -115017,15 +115732,18 @@ Jobs:^6666CC All classes^000000
 #
 24223#
 A glove that can draw the wearer's potential ability.
+------------------------
 ATK +10
 Every 2 refines increase ATK by 1%.
+------------------------
 [^6666CCEnhanced Force Shadow Set^000000]
 ^008800Enhanced Force Shadow Weapon^000000
 ^008800Enhanced Force Shadow Earring^000000
 ^008800Enhanced Force Shadow Pendant^000000
 ATK +1%.
-If the total amount of refine set is 20, increase ATK by 1%.
-If the total amount of refine set is 25, increase ATK by 1%.
+If total refine levels of entire set at least +20: ATK +1%.
+If total refine levels of entire set at least +25: ATK +1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -115034,18 +115752,22 @@ Jobs:^6666CC 3rd classes^000000
 #
 24224#
 A glove that can draw the wearer's potential ability.
+------------------------
 ATK +10
+------------------------
 Refine Level ^0000FF+7^000000:
 ATK +1%.
 Refine Level ^0000FF+9^000000:
 ATK +1%.
+------------------------
 [^6666CCForce Shadow Set^000000]
 ^008800Force Shadow Weapon^000000
 ^008800Force Shadow Earring^000000
 ^008800Force Shadow Pendant^000000
 ATK +10.
-If the total amount of refine set is 20, increase ATK by 1%.
-If the total amount of refine set is 25, increase ATK by 1%.
+If total refine levels of entire set at least +20: ATK +1%.
+If total refine levels of entire set at least +25: ATK +1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -115055,19 +115777,23 @@ Jobs:^6666CC All classes^000000
 24225#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 ATK +5
 Every refine increase ATK by 1.
+------------------------
 Refine Level ^0000FF+7^000000:
 MaxHP +1%.
 Refine Level ^0000FF+9^000000:
 ATK +1%.
+------------------------
 [^6666CCForce Shadow Set^000000]
 ^008800Force Shadow Weapon^000000
 ^008800Force Shadow Earring^000000
 ^008800Force Shadow Pendant^000000
 ATK +10.
-If the total amount of refine set is 20, increase ATK by 1%.
-If the total amount of refine set is 25, increase ATK by 1%.
+If total refine levels of entire set at least +20: ATK +1%.
+If total refine levels of entire set at least +25: ATK +1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -115077,19 +115803,23 @@ Jobs:^6666CC All classes^000000
 24226#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 ATK +5
 Every refine increase ATK by 1.
+------------------------
 Refine Level ^0000FF+7^000000:
 MaxHP +1%.
 Refine Level ^0000FF+9^000000:
 ATK +1%.
+------------------------
 [^6666CCForce Shadow Set^000000]
 ^008800Force Shadow Weapon^000000
 ^008800Force Shadow Earring^000000
 ^008800Force Shadow Pendant^000000
 ATK +10.
-If the total amount of refine set is 20, increase ATK by 1%.
-If the total amount of refine set is 25, increase ATK by 1%.
+If total refine levels of entire set at least +20: ATK +1%.
+If total refine levels of entire set at least +25: ATK +1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -115098,15 +115828,18 @@ Jobs:^6666CC All classes^000000
 #
 24227#
 A glove that can draw the wearer's potential ability.
+------------------------
 MATK +10
 Every refine increase MATK by 1%.
+------------------------
 [^6666CCEnhanced Soul Shadow Set^000000]
 ^008800Enhanced Soul Shadow Weapon^000000
 ^008800Enhanced Soul Shadow Earring^000000
 ^008800Enhanced Soul Shadow Pendant^000000
 MATK +1%
-If the total amount of refine set is 20, increase MATK by 1%.
-If the total amount of refine set is 25, increase MATK by 1%.
+If total refine levels of entire set at least +20: MATK +1%.
+If total refine levels of entire set at least +25: MATK +1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -115115,18 +115848,22 @@ Jobs:^6666CC 3rd classes^000000
 #
 24228#
 A glove that can draw the wearer's potential ability.
+------------------------
 MATK +1%
+------------------------
 Refine Level ^0000FF+7^000000:
 MATK +1%.
 Refine Level ^0000FF+9^000000:
 MATK +1%.
+------------------------
 [^6666CCSoul Shadow Set^000000]
 ^008800Soul Shadow Weapon^000000
 ^008800Soul Shadow Earring^000000
 ^008800Soul Shadow Pendant^000000
 MATK +10
-If the total amount of refine set is 20, increase MATK by 1%.
-If the total amount of refine set is 25, increase MATK by 1%.
+If total refine levels of entire set at least +20: MATK +1%.
+If total refine levels of entire set at least +25: MATK +1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
 Weight:^006600 0^000000
@@ -115136,19 +115873,23 @@ Jobs:^6666CC All classes^000000
 24229#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 MATK +5
 Every refine increase MATK by 1.
+------------------------
 Refine Level ^0000FF+7^000000:
 MaxHP +1%.
 Refine Level ^0000FF+9^000000:
 MATK +1%.
+------------------------
 [^6666CCSoul Shadow Set^000000]
 ^008800Soul Shadow Weapon^000000
 ^008800Soul Shadow Earring^000000
 ^008800Soul Shadow Pendant^000000
 MATK +10
-If the total amount of refine set is 20, increase MATK by 1%.
-If the total amount of refine set is 25, increase MATK by 1%.
+If total refine levels of entire set at least +20: MATK +1%.
+If total refine levels of entire set at least +25: MATK +1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -115158,19 +115899,23 @@ Jobs:^6666CC All classes^000000
 24230#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 MATK +5
 Every refine increase MATK by 1.
+------------------------
 Refine Level ^0000FF+7^000000:
 MaxHP +1%.
 Refine Level ^0000FF+9^000000:
 MATK +1%.
+------------------------
 [^6666CCSoul Shadow Set^000000]
 ^008800Soul Shadow Weapon^000000
 ^008800Soul Shadow Earring^000000
 ^008800Soul Shadow Pendant^000000
 MATK +10
-If the total amount of refine set is 20, increase MATK by 1%.
-If the total amount of refine set is 25, increase MATK by 1%.
+If total refine levels of entire set at least +20: MATK +1%.
+If total refine levels of entire set at least +25: MATK +1%.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -115180,15 +115925,20 @@ Jobs:^6666CC All classes^000000
 24231#
 Shoes worn on top of normal shoes for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 Flee +5
-Refine level +2: CRIT +2
+Refine Level ^0000FF+2^000000:
+CRIT +2
+------------------------
 Refine Level ^0000FF+7^000000:
 ASPD +1
 Refine Level ^0000FF+9^000000:
 ASPD +1
+------------------------
 [+^008800Blitz Shadow Shield^000000]
 Flee +5
-If the total of entire set's refine is equal or higher than +15, increase ASPD +1.
+If total refine levels of entire set at least +15: increase ASPD +1.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
 Weight:^006600 0^000000
@@ -115198,15 +115948,20 @@ Jobs:^6666CC All classes^000000
 24232#
 A small shield worn on the arm for additional defense.
 Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
 CRIT +5
-Refine level +2: CRIT +2
+------------------------
+Refine Level ^0000FF+2^000000:
+CRIT +2
 Refine Level ^0000FF+7^000000:
 ASPD +1
 Refine Level ^0000FF+9^000000:
 ASPD +1
+------------------------
 [+^008800Blitz Shadow Shoes^000000]
 Flee +5
-If the total of entire set's refine is equal or higher than +15, increase ASPD +1.
+If total refine levels of entire set at least +15: increase ASPD +1.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shield^000000
 Weight:^006600 0^000000
@@ -115226,12 +115981,20 @@ Jobs:^6666CC All classes^000000
 24234#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Increase 1% of damage inflicted to large monsters.
-Refine level +7 or higher increase 1% more damage to large monsters.
-Refine level +9 or higher increase 2% more damage to large monsters.
-When combined with ^008800Titan shadow set (pendant and earring)^000000
+------------------------
+Refine Level ^0000FF+7^000000:
+Increase 1% more damage to large monsters.
+Refine Level ^0000FF+9^000000:
+Increase 2% more damage to large monsters.
+------------------------
+[^6666CCTitan Shadow set^000000]
+^008800Titan Shadow Pendant^000000
+^008800Titan Shadow Earring^000000
 ATK +5
-If the total of entire set's refine is equal or higher than +15, increase 2% more damage to large monsters.
+If total refine levels of entire set at least +15: increase 2% more damage to large monsters.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -115241,12 +116004,20 @@ Jobs:^6666CC All classes^000000
 24235#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Increase 1% of damage inflicted to large monsters.
-Refine level +7 or higher increase 1% more damage to large monsters.
-Refine level +9 or higher increase 2% more damage to large monsters.
-When combined with ^008800Titan shadow set (pendant and earring)^000000
+------------------------
+Refine Level ^0000FF+7^000000:
+Increase 1% more damage to large monsters.
+Refine Level ^0000FF+9^000000:
+Increase 2% more damage to large monsters.
+------------------------
+[^6666CCTitan Shadow set^000000]
+^008800Titan Shadow Pendant^000000
+^008800Titan Shadow Earring^000000
 ATK +5
-If the total of entire set's refine is equal or higher than +15, increase 2% more damage to large monsters.
+If total refine levels of entire set at least +15: increase 2% more damage to large monsters.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -115256,12 +116027,20 @@ Jobs:^6666CC All classes^000000
 24236#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
-Increase 1% of damage inflicted to medium monsters.
-Refine level +7 or higher increase 1% more damage to medium monsters.
-Refine level +9 or higher increase 2% more damage to medium monsters.
-When combined with ^008800boned shadow set (pendant and earring)^000000
+------------------------
+Increase 1% of damage inflicted to Medium monsters.
+------------------------
+Refine Level ^0000FF+7^000000:
+Increase 1% more damage to Medium monsters.
+Refine Level ^0000FF+9^000000:
+Increase 2% more damage to Medium monsters.
+------------------------
+[^6666CCBoned Shadow set^000000]
+^008800Boned Shadow Pendant^000000
+^008800Boned Shadow Earring^000000
 ATK +5
-If the total of entire set's refine is equal or higher than +15, increase 2% more damage to medium monsters.
+If total refine levels of entire set at least +15: increase 2% more damage to medium monsters.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -115271,12 +116050,20 @@ Jobs:^6666CC All classes^000000
 24237#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Increase 1% of damage inflicted to medium monsters.
-Refine level +7 or higher increase 1% more damage to medium monsters.
-Refine level +9 or higher increase 2% more damage to medium monsters.
-When combined with ^008800Boned shadow set (pendant and earring)^000000
+------------------------
+Refine Level ^0000FF+7^000000:
+Increase 1% more damage to Medium monsters.
+Refine Level ^0000FF+9^000000:
+Increase 2% more damage to Medium monsters.
+------------------------
+[^6666CCBoned Shadow set^000000]
+^008800Boned Shadow Pendant^000000
+^008800Boned Shadow Earring^000000
 ATK +5
-If the total of entire set's refine is equal or higher than +15, increase 2% more damage to medium monsters.
+If total refine levels of entire set at least +15: increase 2% more damage to medium monsters.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -115286,14 +116073,20 @@ Jobs:^6666CC All classes^000000
 24238#
 A sacred earring which is believed to protect it's wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Increase 1% of damage inflicted to small monsters.
+------------------------
 Refine Level ^0000FF+7^000000:
 Increase 1% more damage to small monsters.
 Refine Level ^0000FF+9^000000:
 Increase 2% more damage to small monsters.
-When combined with ^008800Gigantic shadow set (pendant and earring)^000000
+------------------------
+[^6666CCGigantic Shadow set^000000]
+^008800Gigantic Shadow Pendant^000000
+^008800Gigantic Shadow Earring^000000
 ATK +5
-If the total of entire set's refine is equal or higher than +15, increase 2% more damage to small monsters.
+If total refine levels of entire set at least +15: increase 2% more damage to small monsters.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
 Weight:^006600 0^000000
@@ -115303,14 +116096,20 @@ Jobs:^6666CC All classes^000000
 24239#
 A sacred necklace which is believed to protect its wearer.
 It also draws the wearer's potential abilities.
+------------------------
 Increase 1% of damage inflicted to small monsters.
+------------------------
 Refine Level ^0000FF+7^000000:
 Increase 1% more damage to small monsters.
 Refine Level ^0000FF+9^000000:
 Increase 2% more damage to small monsters.
-When combined with ^008800Gigantic shadow set (pendant and earring)^000000
+------------------------
+[^6666CCGigantic Shadow set^000000]
+^008800Gigantic Shadow Pendant^000000
+^008800Gigantic Shadow Earring^000000
 ATK +5
-If the total of entire set's refine is equal or higher than +15, increase 2% more damage to small monsters.
+If total refine levels of entire set at least +15: increase 2% more damage to small monsters.
+------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Pendant^000000
 Weight:^006600 0^000000
@@ -116775,7 +117574,7 @@ Each 2 refines increase ATK, MATK +1%.
 ^008800Hasty Shadow Armor^000000
 ^008800Hasty Shadow Shoes II^000000
 Flee +5.
-If the amount of the entire set of refine is equal or superior 15 provides the user with increase walk speed movement.
+If total refine levels of entire set at least +15 provides the user with increase walk speed movement.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Shoes^000000
@@ -116829,7 +117628,7 @@ Reduces SP cost by 1%.
 ^008800Gemstone Shadow Earring II^000000
 ^008800Gemstone Shadow Pendant^000000
 All stats +1.
-If the amount of the entire set of refine is equal or superior 45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
+If total refine levels of entire set at least +45 removes gemstone from the requirement of skills. increase in 100% the SP cost of skills.
 When refine total is superior to +45 reduce % the sp cost of skills.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
@@ -116877,7 +117676,7 @@ ATK +1%.
 ^008800Spiritual Shadow Earring^000000
 ^008800Spiritual Shadow Pendant^000000
 Adds 1% chance of absorbing 1% physical damage as SP.
-If the amount of the entire set of refine is equal or superior 10 additional 1% of the damage absorbed as SP.
+If total refine levels of entire set at least +10 additional 1% of the damage absorbed as SP.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Weapon^000000
@@ -116901,6 +117700,105 @@ ATK +1%.
 ^008800Malicious Shadow Shoes^000000
 Adds 4% chance of absorbing 2% physical damage as HP.
 Each 5 refines of the entire set additional 1% of the damage absorbed as HP.
+------------------------
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Armor^000000
+Weight:^006600 0^000000
+Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+24328#
+A glove that can draw the wearer's potential ability.
+------------------------
+ATK +5
+------------------------
+Every refine level increases ATK by 1.
+Every 2 refine levels: Ignores physical defense of Demihuman monster (except player) by 1%.
+------------------------
+When combined with Executioner Shadow Earring and Pendant:
+If total refine levels of entire set at least +25:
+Ignores 100% physical defense of Demihuman monster (Except Player).
+------------------------
+When combined with Force Shadow Weapon, Earring and Pendant:
+ATK +10
+If total refine levels of entire set at least +20:
+ATK +1%
+If total refine levels of entire set at least +25:
+ATK +1%
+------------------------
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^006600 0^000000
+Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+24329#
+A glove that can draw the wearer's potential ability.
+------------------------
+MATK +5
+Every refine level: MATK +1.
+------------------------
+Every 2 refine levels ignores 1% magical defense of Demihuman monster (Except Player).
+------------------------
+When combined with Tempest Shadow Earring and Pendant:
+If total refine levels of entire set at least +25:
+Ignores 100% magical defense of Demihuman monster (Except Player).
+------------------------
+When combined with Spiritual Shadow Weapon, Earring and Pendant:
+MATK +10
+If total refine levels of entire set at least +20:
+MATK +1%
+If total refine levels of entire set at least +25:
+MATK +1%
+------------------------
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Weapon^000000
+Weight:^006600 0^000000
+Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+24330#
+An armor worn on top of normal armor for additional defense.
+Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
+INT +3
+------------------------
+Natural SP regeneration +20%.
+------------------------
+Every 2 refine levels: Reduces variable cast time by 1%.
+------------------------
+[^6666CCCaster Shadow set^000000]
+^008800Caster Shadow Shoes^000000
+^008800Caster Shadow Shield^000000
+^008800Caster Shadow Armor II^000000
+Reduces SP cost by 1%.
+Every 5 refine levels of entire set: Reduces variable cast time by 1%.
+If total refine levels of entire set at least +25:
+Reduces SP cost by 1%.
+------------------------
+Class:^6666CC Shadow Equipment^000000
+Location:^6666CC Armor^000000
+Weight:^006600 0^000000
+Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+24331#
+An armor worn on top of normal armor for additional defense.
+Can be equipped alone but needs a complete set to have bonus effect.
+------------------------
+VIT +3
+------------------------
+Natural HP regeneration +20%.
+------------------------
+Every 3 refine levels: Reduces after skill delay by 1%.
+------------------------
+[^6666CCReload Shadow set^000000]
+^008800Reload Shadow Shoes^000000
+^008800Reload Shadow Shield^000000
+^008800Reload Shadow Armor II^000000
+Reduces after skill delay by 1%.
+If total refine levels of entire set at least +25:
+Reduces after skill delay by 5%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Armor^000000
@@ -117948,8 +118846,12 @@ It can be used to buy goods from Rock Ridge.
 ^ff0000Can't be traded with another account.^000000
 Weight:^006600 0^000000
 #
+25251#
+Well fermented and sweet smelling grape juice.
+Weight:^006600 0^000000
+#
 25252#
-A branch of Holly tree.
+A sprig of Holly tree.
 Will be deleted after the event ends.
 Weight:^006600 0^000000
 #
@@ -118050,6 +118952,28 @@ Weapon Level:^006600 3^000000
 Level Requirement:^006600 100^000000
 Jobs:^6666CC Rune Knight and Royal Guard^000000
 #
+26007#
+The creator of this formidable Two-Handed Spear sacrificed his own life to forge it, resulting in a curse that will try to dominate the wearer's soul.
+------------------------
+Increases physical damage inflicted on ^777777Shadow^000000 element, ^6666CCDemon^000000 and ^6666CCUndead^000000 monsters by 20%.
+Every 2 refine levels: Additional 3% more damage inflicted.
+------------------------
+Reduces damage taken from ^777777Shadow^000000 element, ^6666CCDemon^000000 and ^6666CCUndead^000000 monsters by 10%.
+Every 2 refine levels: Additional 3% less damage taken.
+------------------------
+Gains 50 HP when defeating target with melee physical attack.
+------------------------
+Every 2 refine levels: Restores 1 SP when defeating target with melee physical attack.
+------------------------
+Adds a chance of inflicting ^663399Confuse^000000 status on wielder when dealing physical attacks.
+------------------------
+Class:^6666CC Two-Handed Spear^000000
+Attack:^CC0000 240^000000
+Weight:^006600 200^000000
+Weapon Level:^006600 4^000000
+Level Requirement:^006600 99^000000
+Jobs:^6666CC Swordman^000000
+#
 26100#
 A Foxtail that is made by the Paradise Group.
 ------------------------
@@ -118105,6 +119029,41 @@ Weight:^006600 50^000000
 Weapon Level:^006600 3^000000
 Level Requirement:^006600 100^000000
 Jobs:^6666CC Archbishop and Sura^000000
+#
+26109#
+A short, simply designed staff; like a baton. A jewel, with the power of justice, is set on it.
+------------------------
+INT +3, DEX +2
+MATK +180
+------------------------
+When Dragonology is mastered: reduces SP cost by 15%, MATK +5%.
+------------------------
+Every 3 refine levels: Reduces SP cost by 5%, MATK +1%.
+------------------------
+Class:^6666CC One-Handed Staff^000000
+Attack:^CC0000 60^000000
+Weight:^006600 50^000000
+Weapon Level:^006600 4^000000
+Level Requirement:^006600 99^000000
+Jobs:^6666CC Transcendent Mage^000000
+#
+26110#
+A rod made based of candy cane that used to decorate christmas tree. There is lick mark on top of it.
+------------------------
+INT +2
+MATK +140
+------------------------
+Every refine level: FLEE + 2.
+------------------------
+Refine level ^0000FF+10^000000:
+Perfect dodge +10.
+------------------------
+Class:^6666CC One-Handed Staff^000000
+Attack:^CC0000 10^000000
+Weight:^006600 50^000000
+Weapon Level:^006600 4^000000
+Level Requirement:^006600 99^000000
+Jobs:^6666CC Novice, Mage, Acolyte and Soul Linker^000000
 #
 26200#
 A rope with a sense of free will. Looks old and worn, but still can be used.
@@ -118475,6 +119434,92 @@ Reduces physical damage taken from Demon and Demihuman monster by 25%.
 ------------------------
 Class:^6666CC Card^000000
 Compound on:^6666CC Shield^000000
+Weight:^006600 1^000000
+#
+27081#
+Enables use of Level 4 Pressure.
+When combined with Moonlight Flower Card:
+Adds 7% chance of being possessed by Moonlight Flower for 5 seconds when dealing melee physical attack.
+During possession, Perfect dodge +10.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^00CC33 Armor^000000
+Weight:^006600 1^000000
+#
+27082#
+CRIT +5
+Critical damage +10%.
+Refine Level ^0000FF+10^000000:
+CRIT +10.
+When combined with Nine Tails Card:
+Adds 2% chance of being possessed by Nine Tails for 5 seconds when dealing melee physical attack.
+During possession, FLEE +10.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^00CC33 Armor^000000
+Weight:^006600 1^000000
+#
+27083#
+ATK +20
+MATK +20
+When combined with Bongun Card:
+Adds 2% chance of being possessed by Bongun for 5 seconds when dealing melee physical attack.
+During possession, receive 100% more physical damage from Munak.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^00CC33 Armor^000000
+Weight:^006600 1^000000
+#
+27084#
+MATK +10
+Refine Level ^0000FF+10^000000:
+MATK +2%.
+When combined with Sohee Card:
+Adds 2% chance of being possessed by Sohee for 5 seconds when dealing magical attack.
+During possession, Natural SP regeneration increased by 100%.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^00CC33 Armor^000000
+Weight:^006600 1^000000
+#
+27085#
+ATK +15
+MATK +15
+When combined with Girl's Diary: ATK +100, MATK +100.
+When combined with Munak Card:
+Adds 2% chance of being possessed by Munak for 5 seconds when dealing melee physical attack.
+During possession, physical attack has 50% chance of inflicting Stun status.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^006600 1^000000
+#
+27086#
+Adds a low chance of autocasting Level 5 Double Strafing when dealing physical attack with Bow weapon.
+Refine Level ^0000FF+10^000000:
+Bow damge +20%.
+When combined with Archer Skeleton Card:
+Adds 2% chance of being possessed by Archer Skeleton for 5 seconds when dealing physical attack.
+During possession, ASPD increased by 1.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^006600 1^000000
+#
+27087#
+MATK +25
+Adds 0.5% chance of enabling uninterruptable skill cast for 5 seconds when dealing magical attack (Upon activation, you will shout ''This is the Truth!!'').
+------------------------
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^006600 1^000000
+#
+27088#
+ATK +2%
+Adds 0.5% chance of gaining Endure state for 5 seconds when dealing melee physical attack.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^6600FF Headgear^000000
 Weight:^006600 1^000000
 #
 28000#
@@ -119573,7 +120618,7 @@ Adds 20% chance when using Throw Stone, for 5 sec ATK and FLEE increase by 30.
 ------------------------
 [+^008800Thief Shadow Pendant^000000]
 ATK +1%, MaxHP +1%.
-If the total of entire set's refine is equal or higher than +10, ATK +2%, MaxHP +2%.
+If total refine levels of entire set at least +10, ATK +2%, MaxHP +2%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
@@ -119591,7 +120636,7 @@ Every 1 refine level increase the ATK and HIT bonus by 1.
 ------------------------
 [+^008800Archer Shadow Pendant^000000]
 ATK +1%, MaxHP +1%.
-If the total of entire set's refine is equal or higher than +10, ATK +2%, MaxHP +2%.
+If total refine levels of entire set at least +10, ATK +2%, MaxHP +2%.
 ------------------------
 Class:^6666CC Shadow Equipment^000000
 Location:^6666CC Earring^000000
@@ -119630,8 +120675,10 @@ A talisman made from a real tuna.
 ------------------------
 VIT +1
 ------------------------
-When combined with [Cute Grass Necklace], [Private Doram Manteau], [Private Doram Suit] and [Private Doram Shoes]:
-MaxHP +15%, MaxSP +5%, Healing +10%, Enables use Level 5 ^008800Heal^000000.
+When combined with Cute Grass Necklace, Exclusive Doram Manteau, Exclusive Doram Suit and Exclusive Doram Shoes:
+MaxHP +15%, MaxSP +5%
+Healing skills +10%.
+Enables use Level 5 ^008800Heal^000000.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119644,8 +120691,10 @@ A talisman made from a real tuna.
 ------------------------
 VIT +2
 ------------------------
-When combined with [Cute Grass Necklace], [Luxury Doram Manteau], [Luxury Doram Suit] and [Luxury Doram Shoes]:
-MaxHP +20%, MaxSP +10%, Healing +20%, Enables use Level 7 ^008800Heal^000000.
+When combined with Cute Grass Necklace, Luxury Doram Manteau, Luxury Doram Suit and Luxury Doram Shoes:
+MaxHP +20%, MaxSP +10%
+Healing skills +20%.
+Enables use Level 7 ^008800Heal^000000.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119658,8 +120707,10 @@ A talisman made from a real tuna.
 ------------------------
 VIT +3
 ------------------------
-When combined with [Cute Grass Necklace], [Elegance Doram Manteau], [Elegance Doram Suit] and [Elegance Doram Shoes]:
-MaxHP +25%, MaxSP +15%, Healing +30%, Enables use Level 9 ^008800Heal^000000.
+When combined with Cute Grass Necklace, Elegant Doram Manteau, Elegant Doram Suit and Elegant Doram Shoes:
+MaxHP +25%, MaxSP +15%
+Healing skills +30%.
+Enables use Level 9 ^008800Heal^000000.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119672,8 +120723,9 @@ An Actinidia leaf shaped talisman.
 ------------------------
 INT +1
 ------------------------
-When combined with [Grass Necklace Talisman], [Private Doram Manteau], [Private Doram Suit] and [Private Doram Shoes]:
-MaxHP +10%, MaxSP +10%, Catnip Meteor damage +100%.
+When combined with Grass Necklace Talisman, Exclusive Doram Manteau, Exclusive Doram Suit and Exclusive Doram Shoes:
+MaxHP +10%, MaxSP +10%
+Catnip Meteor damage +100%.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119686,8 +120738,9 @@ An Actinidia leaf shaped talisman.
 ------------------------
 INT +2
 ------------------------
-When combined with [Grass Necklace Talisman], [Luxury Doram Manteau], [Luxury Doram Suit] and [Luxury Doram Shoes]:
-MaxHP +15%, MaxSP +15%, Catnip Meteor damage +150%.
+When combined with Grass Necklace Talisman, Luxury Doram Manteau, Luxury Doram Suit and Luxury Doram Shoes:
+MaxHP +15%, MaxSP +15%
+Catnip Meteor damage +150%.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119700,8 +120753,9 @@ An Actinidia leaf shaped talisman.
 ------------------------
 INT +3
 ------------------------
-When combined with [Grass Necklace Talisman], [Elegance Doram Manteau], [Elegance Doram Suit] and [Elegance Doram Shoes]:
-MaxHP +20%, MaxSP +20%, Catnip Meteor damage +200%.
+When combined with Grass Necklace Talisman, Elegant Doram Manteau, Elegant Doram Suit and Elegant Doram Shoes:
+MaxHP +20%, MaxSP +20%
+Catnip Meteor damage +200%.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119714,8 +120768,9 @@ A cute bunny shaped talisman.
 ------------------------
 DEX +1
 ------------------------
-When combined with [Fresh Grass Necklace], [Private Doram Manteau], [Private Doram Suit] and [Private Doram Shoes]:
-MaxHP +20%, MaxSP +3%, Lunatic Carrot Beat damage +100%.
+When combined with Fresh Grass Necklace, Exclusive Doram Manteau, Exclusive Doram Suit and Exclusive Doram Shoes:
+MaxHP +20%, MaxSP +3%
+Lunatic Carrot Beat damage +100%.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119728,8 +120783,9 @@ A cute bunny shaped talisman.
 ------------------------
 DEX +2
 ------------------------
-When combined with [Fresh Grass Necklace], [Luxury Doram Manteau], [Luxury Doram Suit] and [Luxury Doram Shoes]:
-MaxHP +25%, MaxSP +6%, Lunatic Carrot Beat damage +150%.
+When combined with Fresh Grass Necklace, Luxury Doram Manteau, Luxury Doram Suit and Luxury Doram Shoes:
+MaxHP +25%, MaxSP +6%
+Lunatic Carrot Beat damage +150%.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119742,8 +120798,9 @@ A cute bunny shaped talisman.
 ------------------------
 DEX +3
 ------------------------
-When combined with [Fresh Grass Necklace], [Elegance Doram Manteau], [Elegance Doram Suit] and [Elegance Doram Shoes]:
-MaxHP +30%, MaxSP +9%, Lunatic Carrot Beat damage +200%.
+When combined with Fresh Grass Necklace, Elegant Doram Manteau, Elegant Doram Suit and Elegant Doram Shoes:
+MaxHP +30%, MaxSP +9%
+Lunatic Carrot Beat damage +200%.
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
@@ -119752,8 +120809,8 @@ Level Requirement:^006600 175^000000
 Jobs:^6666CC Doram race^000000
 #
 28422#
-Reduces variable cast time of [Silvervine Stem Spear] by 50%.
-Increases [Silvervine Stem Spear] damage based on INT and skill level.
+Reduces variable cast time of Silvervine Stem Spear by 50%.
+Increases Silvervine Stem Spear damage based on INT and skill level.
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
 Weight:^006600 10^000000
@@ -119761,8 +120818,8 @@ Level Requirement:^006600 100^000000
 Jobs:^6666CC Doram race^000000
 #
 28423#
-Reduces skill cooldown of [Tuna Party] by 5 seconds.
-Adds chance of autocasting Level 1 [Tuna Party] (or learned level) when wearer receive melee physical attacks.
+Reduces skill cooldown of Tuna Party by 5 seconds.
+Adds chance of autocasting Level 1 Tuna Party (or learned level) when wearer receive melee physical attacks.
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
 Weight:^006600 10^000000
@@ -119770,8 +120827,8 @@ Level Requirement:^006600 100^000000
 Jobs:^6666CC Doram race^000000
 #
 28424#
-Reduces variable cast time of [Picky Peck] by 50%.
-Increases [Picky Peck] damage according DEX and skill level.
+Reduces variable cast time of Picky Peck by 50%.
+Increases Picky Peck damage according DEX and skill level.
 Class:^6666CC Accessory^000000
 Defense:^0000FF 1^000000
 Weight:^006600 10^000000
@@ -120502,7 +121559,7 @@ Jobs:^6666CC All classes^000000
 28483#
 A protection ring that once worn by ancient king.
 ------------------------
-Every 25 Base Level increment: MaxHP +1%, MaxSP +1%.(Upto base level175)
+Every 25 Base Level increment: MaxHP +1%, MaxSP +1%.(Upto base level 175)
 ------------------------
 Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
@@ -120905,8 +121962,6 @@ Increases physical damage inflicted on ^6666CCMedium size^000000 monsters by 20%
 Refine Level ^0000FF+12^000000:
 nullify weapon size penalty.
 ------------------------
-Ignore weapon size penalty.
-has low chance to restore 2 SP for every hit for 5 second.
 Class:^6666CC Dagger^000000
 Attack:^CC0000 45^000000
 Weight:^006600 65^000000
@@ -120930,6 +121985,21 @@ Weight:^006600 80^000000
 Weapon Level:^006600 3^000000
 Level Requirement:^006600 100^000000
 Jobs:^6666CC Kagerou and Oboro^000000
+#
+28725#
+A dagger imbued with lunar spirit and the power to drain an enemy's soul.
+------------------------
+MaxSP +10%
+------------------------
+Regain 3 SP with each attack.
+Refine level ^0000FF+10^000000:
+Regain 4 SP with each attack instead.
+------------------------
+Class:^6666CC Dagger^000000
+Attack:^CC0000 150^000000
+Weight:^006600 70^000000
+Weapon Level:^006600 4^000000
+Level Requirement:^006600 99^000000
 #
 28900#
 Prontera kingdom's knight shield.
@@ -121042,7 +122112,8 @@ MDEF +5
 ------------------------
 Reduces damage taken from Fire element attack by 25%.
 ------------------------
-Refine level +5: ASPD +1.
+Refine Level ^0000FF+5^000000:
+ASPD +1.
 Refine Level ^0000FF+7^000000:
 ASPD +1.
 ------------------------
@@ -121061,7 +122132,8 @@ MDEF +5
 ------------------------
 Reduces damage taken from Wind element attack by 25%.
 ------------------------
-Refine level +5: ASPD +1.
+Refine Level ^0000FF+5^000000:
+ASPD +1.
 Refine Level ^0000FF+7^000000:
 ASPD +1.
 ------------------------
@@ -121080,7 +122152,8 @@ MDEF +5
 ------------------------
 Reduces damage taken from ^0000BBWater^000000 element attack by 25%.
 ------------------------
-Refine level +5: ASPD +1.
+Refine Level ^0000FF+5^000000:
+ASPD +1.
 Refine Level ^0000FF+7^000000:
 ASPD +1.
 ------------------------
@@ -121099,7 +122172,8 @@ MDEF +5
 ------------------------
 Reduces damage taken from Earth element attack by 25%.
 ------------------------
-Refine level +5: ASPD +1.
+Refine Level ^0000FF+5^000000:
+ASPD +1.
 Refine Level ^0000FF+7^000000:
 ASPD +1.
 ------------------------
@@ -121152,7 +122226,8 @@ MDEF +5
 ------------------------
 Reduces damage taken from ^777777Shadow^000000 element attack by 25%.
 ------------------------
-Refine level +5: ASPD +1.
+Refine Level ^0000FF+5^000000:
+ASPD +1.
 Refine Level ^0000FF+7^000000:
 ASPD +1.
 ------------------------
@@ -121183,7 +122258,8 @@ Refine Level ^0000FF+7^000000:
 INT +7.
 Refine Level ^0000FF+12^000000:
 INT +1, MATK +8%.
-Refine level +13: INT +1, MATK +2%.
+Refine Level ^0000FF+13^000000:
+INT +1, MATK +2%.
 #
 29003#
 Refine Level ^0000FF+7^000000:
@@ -121202,7 +122278,8 @@ Refine Level ^0000FF+7^000000:
 DEX +7.
 Refine Level ^0000FF+12^000000:
 DEX +1, increases long range physical attacks by 8%.
-Refine level +13: DEX +1, increases long range physical attacks by 2%.
+Refine Level ^0000FF+13^000000:
+DEX +1, increases long range physical attacks by 2%.
 #
 29006#
 Refine Level ^0000FF+7^000000:
@@ -121221,7 +122298,8 @@ Refine Level ^0000FF+7^000000:
 LUK +7.
 Refine Level ^0000FF+12^000000:
 LUK +1, critical damage +8%.
-Refine level +13: LUK +1, critical damage +6%.
+Refine Level ^0000FF+13^000000:
+LUK +1, critical damage +6%.
 #
 29009#
 Refine Level ^0000FF+7^000000:
@@ -121240,7 +122318,8 @@ Refine Level ^0000FF+7^000000:
 VIT +7.
 Refine Level ^0000FF+12^000000:
 VIT +1, MaxHP +8%.
-Refine level +13: VIT +1, MaxHP +2%.
+Refine Level ^0000FF+13^000000:
+VIT +1, MaxHP +2%.
 #
 29013#
 Adds 1% chance to absorb 3% of physical damage inflicted into HP.
@@ -122557,6 +123636,14 @@ Jobs:^6666CC All classes^000000
 31129#
 Class:^6666CC Costume^000000
 Location:^6666CC Middle, Lower^000000
+Weight:^006600 0^000000
+Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+31131#
+A ceremonial hat worn by monks that contains a sacred force which offers protection from evil.
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
 Weight:^006600 0^000000
 Level Requirement:^006600 1^000000
 Jobs:^6666CC All classes^000000
