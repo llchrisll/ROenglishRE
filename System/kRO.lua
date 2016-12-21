@@ -10207,16 +10207,28 @@ tbl = {
 		ClassNum = 0
 	},
 	[22971] = {
-		unidentifiedDisplayName = "매드바니 스크롤",
+		unidentifiedDisplayName = "Mad Bunny Scroll",
 		unidentifiedResourceName = "매드바니스크롤",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "매드바니 스크롤",
+		identifiedDisplayName = "Mad Bunny Scroll",
 		identifiedResourceName = "매드바니스크롤",
 		identifiedDescriptionName = {
-			"^ff0000Can't be traded with other account.^000000",
-			"기간 한정 매드바니 스크롤. ",
-			"무기 11제련 보장권, 방어구 11제련 보장권, 봉인된 모자 상자, 대장장이의 축복 등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다.",
-			"Weight:^009900 1^000000"
+			"Limited time offer.",
+			"When opened gives the user one of the following",
+			"Mad Bunny Special[0]",
+			"Safe to 7 Armor Certificate",
+			"Safe to 7 Headgear Certificate",
+			"Safe to 7 Weapon Certificate",
+			"Safe to 10 Certificate",
+			"Str Soul Potion",
+			"Agi Soul Potion",
+			"Vit Soul Potion",
+			"Int Soul Potion",
+			"Dex Soul Potion",
+			"Luk Soul Potion",
+			"(Soul Potions reset 1 stat point)",
+			"Blacksmith's Blessing (Save it for later!)",
+			"Weight : ^7777771^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -12326,16 +12338,225 @@ tbl = {
 		ClassNum = 0
 	},
 	[23229] = {
-		unidentifiedDisplayName = "타락천사의 날개 두루마리",
+		unidentifiedDisplayName = "Fallen Angel's Wings Scroll",
 		unidentifiedResourceName = "낡은두루마리",
  		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "타락천사의 날개 두루마리",
+		identifiedDisplayName = "Fallen Angel's Wings Scroll",
 		identifiedResourceName = "낡은두루마리",
 		identifiedDescriptionName = {
 			"타락천사의 날개 아이템의 슬롯과 제련도를 초기화 해주는 두루마리.",
 			"초기화 후에는 [카츄아]타락천사의 날개 로 변화하며, 카드가 제거되고 제련도가 0이 된다.",
 			"^ff0000주의! - [카츄아]타락천사의 날개 아이템은 99의 레벨 제한이 붙습니다. 이 두루마리로 [카츄아]타락천사의 날개 아이템의 재초기화가 가능합니다.^000000",
 			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23235] = {
+		unidentifiedDisplayName = "Mad Bunny Scroll II",
+		unidentifiedResourceName = "매드바니스크롤",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Mad Bunny Scroll II",
+		identifiedResourceName = "매드바니스크롤",
+		identifiedDescriptionName = {
+			"Limited edition Mad Bunny Scroll II. ",
+			"무기 11제련 상품권, 방어구 11제련 상품권, 매지컬 페더, 매드바니, 직업쉐도우변환상자, 대장장이의 축복, 부위별 쉐도우 큐브등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. ",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23236] = {
+		unidentifiedDisplayName = "클래스 쉐도우 뚝딱상자(웨폰)",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "클래스 쉐도우 뚝딱상자(웨폰)",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"클래스 쉐도우 변환상자. ",
+			"7제련 이상 된 클래스 웨폰 쉐도우를 1개 넣으면, 랜덤한 클래스 웨폰 쉐도우 1개가 1~10제련된 상태로 나옵니다. ",
+			"랜덤옵션으로 STR나 INT가 +1 ~ +10 범위 내에서 부여됩니다.",
+			"^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23237] = {
+		unidentifiedDisplayName = "클래스 쉐도우 뚝딱상자(아머)",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "클래스 쉐도우 뚝딱상자(아머)",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"클래스 쉐도우 변환상자. ",
+			"7제련 이상 된 클래스 아머 쉐도우를 1개 넣으면, 랜덤한 클래스 아머 쉐도우 1개가 1~10제련된 상태로 나옵니다. ",
+			"랜덤옵션으로 INT나 VIT이 +1 ~ +10 범위 내에서 부여됩니다.",
+			"^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23238] = {
+		unidentifiedDisplayName = "클래스 쉐도우 뚝딱상자(슈즈)",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "클래스 쉐도우 뚝딱상자(슈즈)",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"클래스 쉐도우 변환상자. ",
+			"7제련 이상 된 클래스 슈즈 쉐도우를 1개 넣으면, 랜덤한 클래스 슈즈 쉐도우 1개가 1~10제련된 상태로 나옵니다. ",
+			"랜덤옵션으로 VIT나 AGI이 +1 ~ +10 범위 내에서 부여됩니다.",
+			"^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23239] = {
+		unidentifiedDisplayName = "클래스 쉐도우 뚝딱상자(쉴드)",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "클래스 쉐도우 뚝딱상자(쉴드)",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"클래스 쉐도우 변환상자. ",
+			"7제련 이상 된 클래스 쉴드 쉐도우를 1개 넣으면, 랜덤한 클래스 쉴드 쉐도우 1개가 1~10제련된 상태로 나옵니다. ",
+			"랜덤옵션으로 AGI나 LUK이 +1 ~ +10 범위 내에서 부여됩니다.",
+			"^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23240] = {
+		unidentifiedDisplayName = "클래스 쉐도우 뚝딱상자(펜던트)",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "클래스 쉐도우 뚝딱상자(펜던트)",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"클래스 쉐도우 변환상자. ",
+			"7제련 이상 된 클래스 펜던트 쉐도우를 1개 넣으면, 랜덤한 클래스 펜던트 쉐도우 1개가 1~10제련된 상태로 나옵니다. ",
+			"랜덤옵션으로 LUK나 DEX가 +1 ~ +10 범위 내에서 부여됩니다.",
+			"^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[23241] = {
+		unidentifiedDisplayName = "클래스 쉐도우 뚝딱상자(이어링)",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "클래스 쉐도우 뚝딱상자(이어링)",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"클래스 쉐도우 변환상자. ",
+			"7제련 이상 된 클래스 이어링 쉐도우를 1개 넣으면, 랜덤한 클래스 이어링 쉐도우 1개가 1~10제련된 상태로 나옵니다. ",
+			"랜덤옵션으로 DEX나 STR가 +1 ~ +10 범위 내에서 부여됩니다.",
+			"^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000",
+			"Weight:^009900 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25240] = {
+		unidentifiedDisplayName = "독립 인증서",
+		unidentifiedResourceName = "독립인증서",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "독립 인증서",
+		identifiedResourceName = "독립인증서",
+		identifiedDescriptionName = {
+			"^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000",
+			"베이비가 부모의 품을 떠나 더 큰 세상으로 나아가기 위한 세대 분리 업무에 필요한 인증서. ",
+			"^ffffff<NAVI>^4D4DFF[프론테라 가족 관계 안내]^000000<INFO>prt_in,285,171,0,100,0,0</INFO></NAVI>^000000",
+			"^ffffff<NAVI>^4D4DFF[라자냐 독립 도우미]^000000<INFO>lasagna,100,200,0,100,0,0</INFO></NAVI>^000000",
+			"Weight:^009900 0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25256] = {
+		unidentifiedDisplayName = "흐릿한 꿈조각",
+		unidentifiedResourceName = "영혼의조각",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "흐릿한 꿈조각",
+		identifiedResourceName = "영혼의조각",
+		identifiedDescriptionName = {
+			"강한 사념이 담겨 형상화 된 꿈의 조각. 마치 깨진 유리조각에 세상이 비친것 처럼 어떤 광경을 기괴하게 담고 있다.",
+			"수집품 상인에게 팔린다.",
+			"Weight:^006600 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25257] = {
+		unidentifiedDisplayName = "피 묻은 연서",
+		unidentifiedResourceName = "피묻은책장",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "피 묻은 연서",
+		identifiedResourceName = "피묻은책장",
+		identifiedDescriptionName = {
+			"발신인과 수신인 부분은 많이 지워져 알 수 없다.",
+			"\"눈 속 그 먼 길을 떠나야 한다며 복사꽃이 필 때면 오신다고 했죠. 꽃은 피고 또 지는데 그대를 볼 수 없네요. 달님께 소식 전해줘요.\"",
+			"Weight:^006600 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25258] = {
+		unidentifiedDisplayName = "부러진 화살",
+		unidentifiedResourceName = "녹슨화살",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "부러진 화살",
+		identifiedResourceName = "녹슨화살",
+		identifiedDescriptionName = { "마지막까지 마을을 지키기 위해 싸운 병사가 지니고 있던 화살.", "억울함과 아쉬움이 느껴진다.", "수집품 상인에게 팔린다.", "Weight:^006600 1^000000" },
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25259] = {
+		unidentifiedDisplayName = "토벌단전단지",
+		unidentifiedResourceName = "레시피",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "토벌단전단지",
+		identifiedResourceName = "레시피",
+		identifiedDescriptionName = {
+			"마물 토벌에 참여할 자를 모집하는 내용의 전단지.",
+			"\"산간에 여우요괴를 중심으로 한 사특한 무리의 촌락이 있어….\"",
+			"수집품 상인에게 팔린다.",
+			"Weight:^006600 1^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25271] = {
+		unidentifiedDisplayName = "환상석",
+		unidentifiedResourceName = "마법석",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "환상석",
+		identifiedResourceName = "마법석",
+		identifiedDescriptionName = {
+			"드물게 발견되는 신비한 광물.",
+			"이 투명한 광물은 바라보는 사람에게 환상을 심어준다는 소문이 있다.",
+			"이 돌의 진정한 가치를 알아보는 자가 있을 것이다.",
+			"Weight:^006600 0^000000"
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[25272] = {
+		unidentifiedDisplayName = "환장석",
+		unidentifiedResourceName = "광석",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "환장석",
+		identifiedResourceName = "광석",
+		identifiedDescriptionName = {
+			"드물게 발견되는 신비한 광물.",
+			"이 오묘한 광물을 바라보면... 무지 귀한 것은 아닐까, 누군가 알아봐주면 좋겠다는 생각이 든다.",
+			"수집품 상인에게 팔린다.",
+			"Weight:^006600 1^000000"
 		},
 		slotCount = 0,
 		ClassNum = 0
