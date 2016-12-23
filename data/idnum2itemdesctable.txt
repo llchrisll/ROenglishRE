@@ -12228,7 +12228,7 @@ Jobs:^6666CC Clown^000000
 1944#
 Guitar with a sense of free will. It looks old and outdated, but still can be used.
 ------------------------
-Every learned level of Musical Lesson redues after attack delay.
+Every learned level of Musical Lesson reduces after attack delay.
 ------------------------
 Refine Level ^0000FF+7^000000:
 Increases ATK by 5 for every learned Musical Lesson skill.
@@ -19124,7 +19124,6 @@ Level Requirement:^006600 20^000000
 Jobs:^6666CC All classes^000000
 #
 2559#
-^000088Rental Item^000000
 Manto, tailored for those who devoted his life to the protection of people. Protects from the wind.
 ------------------------
 Flee +10
@@ -36717,7 +36716,7 @@ Jobs:^6666CC Swordman, Merchant and Thief^000000
 A perfectly balanced hat worn by the Evil Snake Lord.
 The yin yang symbol and magic orbs harness the balance necessary to wear this hat.
 ------------------------
-Adds a chance of dropping 'WoE Supply Box' when killing a monster.
+Adds 0.3% chance a defeated monster will drop ^6666CCWoE Supply Box^000000.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
@@ -36772,7 +36771,7 @@ Jobs:^6666CC All classes^000000
 5368#
 The glistening white feathers collected to make this beautiful headdress.
 ------------------------
-Adds a low chance of dropping Holy Elemental Scroll when killing a monster.
+Adds 3% chance a defeated monster will drop ^6666CCHoly Elemental Scroll^000000.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
@@ -36783,7 +36782,7 @@ Jobs:^6666CC All classes^000000
 5369#
 The dark feathers collected to make this mysterious headdress.
 ------------------------
-Adds a low chance of dropping Undead Elemental Scroll when killing a monster.
+Adds 3% chance a defeated monster will drop ^6666CCUndead Elemental Scroll^000000.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
@@ -36991,7 +36990,7 @@ Reduces variable cast time by 2%.
 ------------------------
 When attacking with melee physical attack, adds a low chance for 10 sec, CRIT +50.
 ------------------------
-Adds a low chance of dropping 'Piece of Cake', 'Candy' or 'Candy Cane' when killing a monster.
+Adds a chance a defeated monster will drop ^6666CCPiece of Cake^000000, ^6666CCCandy^000000 or ^6666CCCandy Cane^000000.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
@@ -37020,7 +37019,7 @@ MDEF +7
 ------------------------
 Reflect 7% damage from melee physical attack.
 ------------------------
-Add chance to drop Lucky Rice Cake when killing a monster.
+Adds 2% chance a defeated monster will drop ^6666CCLucky Rice Cake^000000.
 ------------------------
 ^FF0000Unrefineable^000000
 ------------------------
@@ -38962,7 +38961,7 @@ Flee +3
 ------------------------
 Reduces damage taken from ^33CC00Wind^000000 element attack by 5%.
 ------------------------
-Add a chance of dropping a Banana when a monster is Killed.
+Adds 2% chance a defeated monster will drop ^6666CCBanana^000000.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 4^000000
@@ -39101,7 +39100,7 @@ This monster card has been rejected and deemed defective.
 LUK +1
 Perfect Dodge +1
 ------------------------
-Add a chance of dropping 'Santa's Bag', 'Cookie Bag' or ^6666CCOld Purple Box^000000 when killing a monster.
+Adds a chance a defeated monster will drop ^6666CCSanta's Bag^000000, ^6666CCCookie Bag^000000 or ^6666CCOld Purple Box^000000.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 1^000000
@@ -39205,7 +39204,7 @@ Level Requirement:^006600 20^000000
 Jobs:^6666CC All classes^000000
 #
 5544#
-A hat made to honor the time keeper.
+A hat made to honor the time guardian.
 ------------------------
 INT +2
 MaxSP +50
@@ -39412,7 +39411,7 @@ Jobs:^6666CC All except Novice^000000
 5558#
 This hat is a legend to the people from whild festival world.
 ------------------------
-Add a low chance of dropping 'Blue Herb' when killing a ^6666CCPlant^000000 monster.
+Adds 0.2% chance a defeated ^6666CCPlant^000000 monster will drop ^6666CCBlue Herb^000000.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 6^000000
@@ -39422,7 +39421,7 @@ Level Requirement:^006600 30^000000
 Jobs:^6666CC All classes^000000
 #
 5559#
-...
+A pure white cloth that bearing unknown power.
 Class:^6666CC Headgear^000000
 Defense:^0000FF 5^000000
 Location:^6666CC Upper, Middle^000000
@@ -42084,7 +42083,7 @@ A replica of a fireman helmet. Not as durable as the real one.
 ------------------------
 MDEF +1
 ------------------------
-Adds a chance to drop [Empty Bottle], [Ditrimindexta], [Karvodailnirol] when defeating ^6666CCFormless^000000 monster.
+Adds a chance a defeated ^6666CCFormless^000000 monster will drop ^6666CCEmpty Bottle^000000, ^6666CCDitrimindexta^000000 or ^6666CCKarvodailnirol^000000.
 ------------------------
 Class:^6666CC Headgear^000000
 Defense:^0000FF 2^000000
@@ -44362,6 +44361,20 @@ Class:^6666CC Costume^000000
 Location:^6666CC Lower^000000
 Weight:^006600 0^000000
 Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+5978#
+A toy syringe.
+------------------------
+MDEF +3
+------------------------
+Increases restoration gained from Red Slim Potion, Yellow Slim Potion an White Slim Potion by 150%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 3^000000
+Location:^6666CC Lower^000000
+Weight:^006600 10^000000
+Level Requirement:^006600 70^000000
 Jobs:^6666CC All classes^000000
 #
 5979#
@@ -59732,7 +59745,9 @@ Weight:^006600 0^000000
 #
 12536#
 A nutritious rice cake soup made of sliced octopus meat.
-Restores HP and SP by 20%.
+^FFFFFF_^000000
+Class:^0000FF Restorative item^000000
+Heal:^006600 20%^000000 HP, ^00660020%^000000 SP
 Weight:^006600 10^000000
 #
 12537#
@@ -64136,26 +64151,33 @@ Jobs:^6666CC Rebellion^000000
 #
 13136#
 A revolver specially made for Rebellion.
-강회된 시간의 수호자 방어구들과 함께 사용하면 몸이 가벼워져 날렵해지는 기분이 든다.
-파이어 댄스 데미지 20% 증가.
-BaseLv이 10 상승할 때마다 ATK + 6 증가(증가량은 BaseLv 160까지 적용).
-7제련 시, 체인 액션 스킬 레벨 1당 원거리 물리 공격력 + 1% 증가.
-
-강화된 시간의 수호자 모자, 로브, 망토, 부츠 모두와 함께 장착 시,
-ASPD + 2, MHP/MSP + 10%
-순수 VIT 10당 무속성 공격에 대한 내성 + 3% 증가.
-(최대 순수 VIT 100까지 적용)
-순수 AGI 10당 공격 후딜레이 2% 감소.
-(최대 순수 AGI 100까지 적용)
-순수 DEX 10당 HIT + 3 증가.
-(최대 순수 DEX 100까지 적용)
-순수 LUK 10당 CRI + 3 증가.
-(최대 순수 LUK 100까지 적용)
-계열 : ^777777권총^000000 공격 : ^777777120^000000
-Weight:^009900 0^000000
-무기 레벨 : ^7777773^000000
-Level Requirement:^009900 100^000000
-장착 : ^777777건너 계열^000000
+------------------------
+Increases Fire Dance damage by 20%.
+------------------------
+Every 10 Base Level increase ATK by 6 (Upto Base Level 160).
+------------------------
+Refine Level ^0000FF+7^000000:
+Every learned level of Chain Action increase long range physical attack by 1%.
+------------------------
+When combined with Enhanced Time Guardian set(Hat, Robe, Manteau and Boots):
+ASPD +2
+MaxHP +10%
+MaxSP +10%
+Every 10 base of VIT: Neutral element resistace +3%.
+(limited to 100 VIT)
+Every 10 base of AGI: After attack delay -2%.
+(limited to 100 AGI)
+Every 10 base of DEX: HIT +3.
+(limited to 100 DEX)
+Every 10 base of LUK: CRIT +3.
+(limited to 100 LUK)
+------------------------
+Class:^6666CC Revolver^000000
+Attack:^CC0000 120^000000
+Weight:^006600 0^000000
+Weapon Level:^006600 3^000000
+Level Requirement:^006600 100^000000
+Jobs:^6666CC Rebellion^000000
 #
 13137#
 A revolver forged from the regrets of people whose died in battlefield.
@@ -64185,16 +64207,21 @@ Level Requirement:^006600 100^000000
 Jobs:^6666CC Rebellion^000000
 #
 13138#
-검은 장미로 장식된 리볼버.
-Reduces delay after attack by 10% 감소).
-7제련 시, 원거리 물리 공격력 15% 증가.
-9제련 시, ASPD + 1
-
-계열 : ^777777권총^000000 공격 : ^777777150^000000
-Weight:^009900 180^000000
-무기 레벨 : ^7777773^000000
-Level Requirement:^009900 120^000000
-장착 : ^777777건너 계열^000000
+A revolver decorated with black roses.
+------------------------
+Reduces after attack delay by 10%.
+------------------------
+Refine Level ^0000FF+7^000000:
+Increases long range physical attack by 15%.
+Refine Level ^0000FF+9^000000:
+ASPD +1
+------------------------
+Class:^6666CC Revolver^000000
+Attack:^CC0000 150^000000
+Weight:^006600 180^000000
+Weapon Level:^006600 3^000000
+Level Requirement:^006600 120^000000
+Jobs:^6666CC Rebellion^000000
 #
 13150#
 A practical firearm with a long gun barrel which increases its range and accuracy.
@@ -65074,31 +65101,41 @@ Weight:^006600 0.5^000000
 Element:^0000FF Water^000000
 #
 13228#
-화염 속성이 담겨있는 탄환.
-계열 : ^777777총알^000000 공격 : ^77777720^000000
-Weight:^009900 0.2^000000 속성 : ^777777화^000000
+A bullet imbued with fire element.
+Class:^6666CC Ammunition^000000
+Attack:^CC0000 20^000000
+Weight:^006600 0.2^000000
+Element:^FF0000 Fire^000000
 #
 13229#
-전격 속성이 담겨있는 탄환.
-계열 : ^777777총알^000000 공격 : ^77777720^000000
-Weight:^009900 0.2^000000 속성 : ^777777풍^000000
+A bullet imbued with wind element.
+Class:^6666CC Ammunition^000000
+Attack:^CC0000 20^000000
+Weight:^006600 0.2^000000
+Element:^006600 Wind^000000
 #
 13230#
-얼음 속성이 담겨있는 탄환.
-계열 : ^777777총알^000000 공격 : ^77777720^000000
-Weight:^009900 0.2^000000 속성 : ^777777수^000000
+A bullet imbued with water element.
+Class:^6666CC Ammunition^000000
+Attack:^CC0000 20^000000
+Weight:^006600 0.2^000000
+Element:^0000FF Water^000000
 #
 13231#
-맹독이 발라져 있는 탄환.
-공격 시, 낮은 확률로 적에게 독을 건다.
-계열 : ^777777총알^000000 공격 : ^77777720^000000
-Weight:^009900 0.2^000000 속성 : ^777777독^000000
+A bullet imbued with Poison element.
+Adds a chance of inflicting ^663399Poison^000000 status.
+Class:^6666CC Ammunition^000000
+Attack:^CC0000 20^000000
+Weight:^006600 0.2^000000
+Element:^777777 Poison^000000
 #
 13232#
-암흑 속성이 담겨있는 탄환.
-공격 시, 낮은 확률로 적에게 암흑을 건다.
-계열 : ^777777총알^000000 공격 : ^77777720^000000
-Weight:^009900 0.2^000000 속성 : ^777777암^000000
+A bullet imbued with Shadow element.
+Adds a chance of inflicting ^663399Blind^000000 status.
+Class:^6666CC Ammunition^000000
+Attack:^CC0000 20^000000
+Weight:^006600 0.2^000000
+Element:^777777 Shadow^000000
 #
 13250#
 A cross shaped dagger that is small enough to conceal in your hand.
@@ -70520,7 +70557,7 @@ Weight:^006600 1^000000
 13953#
 A box that contains:
 ^000088Rental Item^000000
-^6666CC1 All In One Ring^000000
+^6666CC1 All in One Ring^000000
 Duration: 7 Days after opening.
 A Jewelry Ring
 that contains a
@@ -71115,7 +71152,7 @@ Weight:^006600 1^000000
 14017#
 A box that contains:
 ^000088Rental Item^000000
-^6666CC1 All In One Ring^000000
+^6666CC1 All in One Ring^000000
 Duration: 7 Days after opening.
 A Jewelry Ring
 that contains a
@@ -77039,8 +77076,8 @@ Jobs:^6666CC Trancendent classes^000000
 15072#
 A suit dyed with potion of immortality that made of nectar.
 ------------------------
-Vit +3
-Mdef +5
+VIT +3
+MDEF +5
 ------------------------
 Every 2 refine level increase MaxHP and MaxSP by 1%.
 ------------------------
@@ -77903,6 +77940,36 @@ Class:^6666CC Armor^000000
 Defense:^0000FF 74^000000
 Weight:^006600 0^000000
 Level Requirement:^006600 100^000000
+Jobs:^6666CC All classes^000000
+#
+15169#
+A robe of Laphine King. Contains Laphine magic.
+------------------------
+MDEF +5
+MATK +10
+------------------------
+Reduces physical damage taken from Demihuman monster by 1%.
+------------------------
+Refine Level ^0000FF+7^000000:
+Reduces physical damage taken from Demihuman monster by 2%.
+Refine Level ^0000FF+8^000000:
+Reduces physical damage taken from Demihuman monster by 2%.
+Makes armor indestructible.
+Refine Level ^0000FF+9^000000:
+Reduces physical damage taken from Demihuman monster by 2%.
+When combined with Angelring Card: Adds immunity against Frozen status.
+------------------------
+When combined with Laphine Staff:
+MATK +3 for every refine level of staff.
+Refine Level of Robe ^0000FF+7^000000:
+MATK +5 for every refine level of staff instead.
+Refine Level of Robe ^0000FF+8^000000:
+MATK +7 for every refine level of staff instead.
+------------------------
+Class:^6666CC Armor^000000
+Defense:^0000FF 60^000000
+Weight:^006600 80^000000
+Level Requirement:^006600 90^000000
 Jobs:^6666CC All classes^000000
 #
 15174#
@@ -79898,7 +79965,7 @@ A box that contains 1 "Observer" inside.
 Weight:^006600 1^000000
 #
 16273#
-A box that contains 1 "All In One Ring" 1 day rental inside.
+A box that contains 1 "All in One Ring" 1 day rental inside.
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
 ^FFFFFF_^000000
@@ -80574,7 +80641,7 @@ A box that contains 1 "4 Leaf Clover in Mouth R" inside. Available for one week.
 Weight:^006600 1^000000
 #
 16373#
-A box that contains 1 "4 Leaf Clover In Mouth R" inside. Available for one weeks.
+A box that contains 1 "4 Leaf Clover in Mouth R" inside. Available for one weeks.
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
 ^FFFFFF_^000000
@@ -80674,7 +80741,7 @@ Jobs:^6666CC All classes^000000
 Weight:^009900 1^000000
 #
 16386#
-A box that contains 1 "4 Leaf Clover In Mouth R" inside. Available for four weeks.
+A box that contains 1 "4 Leaf Clover in Mouth R" inside. Available for four weeks.
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
 ^FFFFFF_^000000
@@ -80688,7 +80755,7 @@ A box that contains 1 "4 Leaf Clover in Mouth R" inside. Available for two weeks
 Weight:^006600 1^000000
 #
 16388#
-A box that contains 1 "4 Leaf Clover In Mouth R" inside. Available for four weeks.
+A box that contains 1 "4 Leaf Clover in Mouth R" inside. Available for four weeks.
 ^FFFFFF_^000000
 ^000088Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
 ^FFFFFF_^000000
@@ -94515,6 +94582,20 @@ Weight:^006600 100^000000
 Level Requirement:^006600 1^000000
 Jobs:^6666CC All classes^000000
 #
+18877#
+Patterned eye patch with Baron's Evil Eye.
+------------------------
+Reduces after skill delay by 5%.
+------------------------
+Increases SP cost by 5%.
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 0^000000
+Location:^6666CC Middle^000000
+Weight:^006600 30^000000
+Level Requirement:^006600 30^000000
+Jobs:^6666CC All classes^000000
+#
 18878#
 A hat worn by an elite group of guards who will fight fearlessly even in a hail of bullets.
 ------------------------
@@ -95622,6 +95703,36 @@ Defense:^0000FF 0^000000
 Location:^6666CC Lower^000000
 Weight:^006600 5^000000
 Level Requirement:^006600 80^000000
+Jobs:^6666CC All classes^000000
+#
+18967#
+A 'Poring' jinn who makes wishes come true hovers around.
+------------------------
+STR +1
+INT +1
+LUK +1
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 5^000000
+Location:^6666CC Lower^000000
+Weight:^006600 5^000000
+Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+18968#
+A 'Marine' jinn who makes wishes come true hovers around.
+------------------------
+INT +1
+DEX +1
+MaxHP +100
+ATK +5
+MATK +5
+------------------------
+Class:^6666CC Headgear^000000
+Defense:^0000FF 5^000000
+Location:^6666CC Lower^000000
+Weight:^006600 5^000000
+Level Requirement:^006600 1^000000
 Jobs:^6666CC All classes^000000
 #
 18969#
@@ -108486,6 +108597,18 @@ Weight:^006600 25^000000
 Level Requirement:^006600 125^000000
 Jobs:^6666CC All classes^000000
 #
+22052#
+A shoes worn by keeper of grave.
+------------------------
+Increases exeperience gained from defeating Undead monster by 5%.
+For every refine level: Increases exeperience gained from defeating Undead monster by 1%.
+------------------------
+Class:^6666CC Footgear^000000
+Defense:^0000FF 10^000000
+Weight:^006600 30^000000
+Level Requirement:^006600 30^000000
+Jobs:^6666CC All classes^000000
+#
 22059#
 Egir, the God of Sea's Shoes. It seems to strengthen one's weakness.
 ------------------------
@@ -108786,7 +108909,7 @@ Level Requirement:^006600 1^000000
 Jobs:^6666CC All classes^000000
 #
 22102#
-A time keeper boots enhanced with mixed Elunium and Emperium.
+A time guardian boots enhanced with mixed Elunium and Emperium.
 ------------------------
 MaxHP +500
 MaxSP +100
@@ -109552,13 +109675,19 @@ Recovery 20% MHP.
 Weight:^006600 20^000000
 #
 22658#
-Piece created with animal chin
-Reduce variable cast by 5%. SP consumption decreased by 3%.
+A meat made by steaming the cow ribs.
+^FFFFFF_^000000
+Class:^0000FF Stat booster^000000
+Effect:^006600 Variable cast time -5%, SP cost -3%^000000
+Duration:^006600 3^000000 minutes
 Weight:^006600 10^000000
 #
 22659#
-Made using steamed pork ribs.
-Reduces after attack delay by 5%. SP consumption decreased by 2%.
+A meat made by steaming the pork ribs.
+^FFFFFF_^000000
+Class:^0000FF Stat booster^000000
+Effect:^006600 After attack delay -5%, SP cost -2%^000000
+Duration:^006600 3^000000 minutes
 Weight:^006600 10^000000
 #
 22660#
@@ -111748,6 +111877,73 @@ Weight:^006600 1^000000
 초기화 후에는 [카츄아]타락천사의 날개 로 변화하며, 카드가 제거되고 제련도가 0이 된다.
 ^ff0000주의! - [카츄아]타락천사의 날개 아이템은 99의 레벨 제한이 붙습니다. 이 두루마리로 [카츄아]타락천사의 날개 아이템의 재초기화가 가능합니다.^000000
 Weight:^009900 1^000000
+#
+23235#
+Limited edition Mad Bunny Scroll II. 
+무기 11제련 상품권, 방어구 11제련 상품권, 매지컬 페더, 매드바니, 직업쉐도우변환상자, 대장장이의 축복, 부위별 쉐도우 큐브등등 여러가지 희귀한 아이템 중 하나를 얻을 수 있다. 
+Weight:^009900 1^000000
+#
+23236#
+클래스 쉐도우 변환상자. 
+7제련 이상 된 클래스 웨폰 쉐도우를 1개 넣으면, 랜덤한 클래스 웨폰 쉐도우 1개가 1~10제련된 상태로 나옵니다. 
+랜덤옵션으로 STR나 INT가 +1 ~ +10 범위 내에서 부여됩니다.
+^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000
+Weight:^009900 1^000000
+#
+23237#
+클래스 쉐도우 변환상자. 
+7제련 이상 된 클래스 아머 쉐도우를 1개 넣으면, 랜덤한 클래스 아머 쉐도우 1개가 1~10제련된 상태로 나옵니다. 
+랜덤옵션으로 INT나 VIT이 +1 ~ +10 범위 내에서 부여됩니다.
+^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000
+Weight:^009900 1^000000
+#
+23238#
+클래스 쉐도우 변환상자. 
+7제련 이상 된 클래스 슈즈 쉐도우를 1개 넣으면, 랜덤한 클래스 슈즈 쉐도우 1개가 1~10제련된 상태로 나옵니다. 
+랜덤옵션으로 VIT나 AGI이 +1 ~ +10 범위 내에서 부여됩니다.
+^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000
+Weight:^009900 1^000000
+#
+23239#
+클래스 쉐도우 변환상자. 
+7제련 이상 된 클래스 쉴드 쉐도우를 1개 넣으면, 랜덤한 클래스 쉴드 쉐도우 1개가 1~10제련된 상태로 나옵니다. 
+랜덤옵션으로 AGI나 LUK이 +1 ~ +10 범위 내에서 부여됩니다.
+^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000
+Weight:^009900 1^000000
+#
+23240#
+클래스 쉐도우 변환상자. 
+7제련 이상 된 클래스 펜던트 쉐도우를 1개 넣으면, 랜덤한 클래스 펜던트 쉐도우 1개가 1~10제련된 상태로 나옵니다. 
+랜덤옵션으로 LUK나 DEX가 +1 ~ +10 범위 내에서 부여됩니다.
+^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000
+Weight:^009900 1^000000
+#
+23241#
+클래스 쉐도우 변환상자. 
+7제련 이상 된 클래스 이어링 쉐도우를 1개 넣으면, 랜덤한 클래스 이어링 쉐도우 1개가 1~10제련된 상태로 나옵니다. 
+랜덤옵션으로 DEX나 STR가 +1 ~ +10 범위 내에서 부여됩니다.
+^ff0000제련도가 높아질 수록 나올 확률이 낮아집니다.^000000
+Weight:^009900 1^000000
+#
+23251#
+A box contains Rose of Eden and Angelic Ring.
+Weight:^006600 0^000000
+#
+23252#
+A box contains Orlean's Necklace and Orlean's Gown.
+Weight:^006600 0^000000
+#
+23253#
+A box contains Black Shiba Inu Hat and Fidelity Necklace.
+Weight:^006600 0^000000
+#
+23254#
+A box contains Valkyrie Shield and Long Horn.
+Weight:^006600 0^000000
+#
+23255#
+A box contains Contains Kardui's Robe and Laphine Staff.
+Weight:^006600 0^000000
 #
 24000#
 An armor worn on top of normal armor for additional defense.
@@ -118812,6 +119008,13 @@ Weight:^006600 1^000000
 NecessitY of stuffed animals, especially the teddy bear.
 Weight:^006600 1^000000
 #
+25240#
+^ff0000타 계정과 거래가 불가능한 아이템 입니다.^000000
+베이비가 부모의 품을 떠나 더 큰 세상으로 나아가기 위한 세대 분리 업무에 필요한 인증서. 
+^ffffff<NAVI>^4D4DFF[프론테라 가족 관계 안내]^000000<INFO>prt_in,285,171,0,100,0,0</INFO></NAVI>^000000
+^ffffff<NAVI>^4D4DFF[라자냐 독립 도우미]^000000<INFO>lasagna,100,200,0,100,0,0</INFO></NAVI>^000000
+Weight:^009900 0^000000
+#
 25245#
 ^ff0000Can't be traded with other account.^000000
 A pile bones of small animals.
@@ -118866,11 +119069,45 @@ Will be deleted after the event ends.
 
 Weight:^006600 0^000000
 #
+25256#
+강한 사념이 담겨 형상화 된 꿈의 조각. 마치 깨진 유리조각에 세상이 비친것 처럼 어떤 광경을 기괴하게 담고 있다.
+수집품 상인에게 팔린다.
+Weight:^006600 1^000000
+#
+25257#
+발신인과 수신인 부분은 많이 지워져 알 수 없다.
+"눈 속 그 먼 길을 떠나야 한다며 복사꽃이 필 때면 오신다고 했죠. 꽃은 피고 또 지는데 그대를 볼 수 없네요. 달님께 소식 전해줘요."
+Weight:^006600 1^000000
+#
+25258#
+마지막까지 마을을 지키기 위해 싸운 병사가 지니고 있던 화살.
+억울함과 아쉬움이 느껴진다.
+수집품 상인에게 팔린다.
+Weight:^006600 1^000000
+#
+25259#
+마물 토벌에 참여할 자를 모집하는 내용의 전단지.
+"산간에 여우요괴를 중심으로 한 사특한 무리의 촌락이 있어…."
+수집품 상인에게 팔린다.
+Weight:^006600 1^000000
+#
 25260#
 A fragment of purple ore.
 It's flowed with magic.
 ^ff0000Can't be traded with another accoun.^000000
 Weight:^006600 0^000000
+#
+25271#
+드물게 발견되는 신비한 광물.
+이 투명한 광물은 바라보는 사람에게 환상을 심어준다는 소문이 있다.
+이 돌의 진정한 가치를 알아보는 자가 있을 것이다.
+Weight:^006600 0^000000
+#
+25272#
+드물게 발견되는 신비한 광물.
+이 오묘한 광물을 바라보면... 무지 귀한 것은 아닐까, 누군가 알아봐주면 좋겠다는 생각이 든다.
+수집품 상인에게 팔린다.
+Weight:^006600 1^000000
 #
 25276#
 A small bone. Can be sold to collectibles merchant.
@@ -120653,6 +120890,28 @@ Class:^6666CC Accessory^000000
 Defense:^0000FF 0^000000
 Weight:^006600 10^000000
 Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+28394#
+A ring where king of spirit dwelling inside.
+------------------------
+VIT +5
+------------------------
+Reduces after skill delay by 5%.
+------------------------
+Reduces variable casting time of Warmer by 50%.
+Reduces cool down time of Warmer by 15 seconds.
+------------------------
+Reduces cool down time of Earth Grave and Diamond Dust by 2 seconds.
+For every 8 Base level: increases Earth Grave and Diamond Dust damage by 1%.
+------------------------
+Reduces variable casting time of Varetyr Spear by 1.5 seconds.
+Reduces cool down time of Varetyr Spear by 0.5 seconds.
+------------------------
+Class:^6666CC Accessory^000000
+Defense:^0000FF 0^000000
+Weight:^006600 20^000000
+Level Requirement:^006600 50^000000
 Jobs:^6666CC All classes^000000
 #
 28412#
@@ -122876,6 +123135,97 @@ Reduces damage taken from Player by 4%.
 29248#
 Reduces damage taken from Player by 5%.
 #
+31006#
+Reduces damage taken from Undead monster by 10%.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^00CC33 Armor^000000
+Weight:^006600 1^000000
+#
+31007#
+Enchant armor with Undead element.
+Reduces damage taken from Undead monster by 10%.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^00CC33 Armor^000000
+Weight:^006600 1^000000
+#
+31008#
+Restore HP every 10 second.
+Additional HP restore based on Base Level.
+Refine Level ^0000FF+7^000000:
+Every 60 base STR: ATK +6, MaxHP +1%
+------------------------
+Class:^6666CC Card^000000
+Compound on:^999900 Footgear^000000
+Weight:^006600 1^000000
+#
+31009#
+Restore HP every 10 second.
+Additional HP restore based on Base Level.
+Refine Level ^0000FF+7^000000:
+Every 20 base STR: ATK +6, MaxHP +1%
+------------------------
+Class:^6666CC Card^000000
+Compound on:^999900 Footgear^000000
+Weight:^006600 1^000000
+#
+31010#
+Every 6 base level: Restore 1 SP every 10 second.
+Refine Level ^0000FF+7^000000:
+Every 30 base INT: MATK +6, MaxSP +1%
+------------------------
+Class:^6666CC Card^000000
+Compound on:^999900 Footgear^000000
+Weight:^006600 1^000000
+#
+31011#
+Every 2 base level: Restore 1 SP every 10 second.
+Refine Level ^0000FF+7^000000:
+Every 10 base INT: MATK +6, MaxSP +1%
+------------------------
+Class:^6666CC Card^000000
+Compound on:^999900 Footgear^000000
+Weight:^006600 1^000000
+#
+31012#
+Increase Dragon Breath and Water Dragon Breath damage by 5%.
+Refine Level ^0000FF+7^000000:
+Reduces after skill delay by 1%.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^006600 1^000000
+#
+31013#
+Increase Dragon Breath and Water Dragon Breath damage by 15%.
+Refine Level ^0000FF+7^000000:
+Reduces after skill delay by 3%.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^FF0000 Weapon^000000
+Weight:^006600 1^000000
+#
+31014#
+MDEF +7
+MaxHP +6%
+Refine Level ^0000FF+7^000000:
+Increases Gravitational Field damage by 9%.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^008C99 Garment^000000
+Weight:^006600 1^000000
+#
+31015#
+MDEF +10
+MaxHP +10%
+Refine Level ^0000FF+7^000000:
+Increases Gravitational Field damage by 769%.
+------------------------
+Class:^6666CC Card^000000
+Compound on:^008C99 Garment^000000
+Weight:^006600 1^000000
+#
 31016#
 MaxHP +1000
 MaxSP +150
@@ -123797,6 +124147,22 @@ Jobs:^6666CC All classes^000000
 #
 31153#
 A mini silk hat created to celebrate thief world anniversary II. By wearing this you will become cute thief.
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^006600 0^000000
+Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+31170#
+A wing-shaped ornament that bearing the power of wind.
+Class:^6666CC Costume^000000
+Location:^6666CC Upper^000000
+Weight:^006600 0^000000
+Level Requirement:^006600 1^000000
+Jobs:^6666CC All classes^000000
+#
+31171#
+A cute cat-looking hat which enhances its wearer's look.
 Class:^6666CC Costume^000000
 Location:^6666CC Upper^000000
 Weight:^006600 0^000000
