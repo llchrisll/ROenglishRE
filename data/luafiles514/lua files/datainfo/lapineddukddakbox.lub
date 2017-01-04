@@ -1,5 +1,65 @@
 tblLapineDdukddakBox = {
 	sources = {
+		Compose_Shadow_Box = {
+			ItemID = 23250,
+			NeedCount = 4,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "Cold_Bolt_Shadow_Armor", 1, 24219 },
+				{ "Fire_Bolt_Shadow_Armor", 1, 24220 },
+				{ "Lightning_Bolt_Shadow_Armor", 1, 24221 },
+				{ "Earth_Spike_Shadow_Armor", 1, 24222 }
+			},
+			NeedSource_String = "+7 Bolt Shadow"
+		},
+		Bearers_Shadow_Box = {
+			ItemID = 23249,
+			NeedCount = 3,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "Bearers_Shadow_Shoes", 1, 24181 },
+				{ "Bearers_Shadow_Armor", 1, 24180 },
+				{ "Bearers_Shadow_Shield", 1, 24182 },
+				{ "Bearers_Shadow_Earring", 1, 24184 },
+				{ "Bearers_Shadow_Weapon", 1, 24183 },
+				{ "Bearers_Shadow_Pendant", 1, 24185 }
+			},
+			NeedSource_String = "+7 Bearer's Shadow"
+		},
+		Gemstone_Shadow_Box = {
+			ItemID = 23248,
+			NeedCount = 3,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "Gemstone_Shadow_Pendant", 1, 24089 },
+				{ "Gemstone_Shadow_Armor", 1, 24084 },
+				{ "Gemstone_Shadow_Shoes", 1, 24085 },
+				{ "Gemstone_Shadow_Shield", 1, 24086 },
+				{ "Gemstone_Shadow_Earring", 1, 24088 },
+				{ "Gemstone_Shadow_Weapon", 1, 24087 }
+			},
+			NeedSource_String = "+7 Gemstone Shadow"
+		},
+		Status_Shadow_Box = {
+			ItemID = 23247,
+			NeedCount = 5,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "Lucky_Shadow_Weapon", 1, 24034 },
+				{ "Power_Shadow_Earring", 1, 24035 },
+				{ "Intelligent_Shadow_Pendant", 1, 24036 },
+				{ "Dexterous_Shadow_Armor", 1, 24037 },
+				{ "Vital_Shadow_Shoes", 1, 24038 },
+				{ "Athletic_Shadow_Shield", 1, 24039 },
+				{ "Lucky_Shadow_Armor", 1, 24040 },
+				{ "Power_Shadow_Pendant", 1, 24041 },
+				{ "Intelligent_Shadow_Earring", 1, 24042 },
+				{ "Dexterous_Shadow_Weapon", 1, 24043 },
+				{ "Vital_Shadow_Shield", 1, 24044 },
+				{ "Athletic_Shadow_Shoes", 1, 24045 }
+			},
+			NeedSource_String = "+7 Status Shadow"
+		},
 		Class_Shadow_Box_Weapon = {
 			ItemID = 23236,
 			NeedCount = 1,
