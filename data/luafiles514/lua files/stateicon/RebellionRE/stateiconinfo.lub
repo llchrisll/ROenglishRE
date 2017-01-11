@@ -321,10 +321,10 @@ StateIconList[EFST_IDs.EFST_AUTOSPELL] = {
 	descript = {
 		{ "Auto Spell", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Have chance to auto-cast" },
-		{ "the selected skill when melee attacking" },
-		{ "SP consumption is 2/3 of normal comsumption" },
-		{ "Can't activate skill when SP is low" }
+		{ "Autocast the selected skill" },
+		{ "when dealing melee attacks." },
+		{ "SP cost is 2/3 of normal cost." },
+		{ "Can't activate skill when SP is low," }
 	}
 }
 StateIconList[EFST_IDs.EFST_DEC_AGI] = {
@@ -371,7 +371,7 @@ StateIconList[EFST_IDs.EFST_TAROTCARD] = {
 	descript = {
 		{ "Tarot Card of Fate", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Randomly chosen effect from one out of 14 tarot cards" }
+		{ "Randomly inflict effect from one out of 14 tarot cards" }
 	}
 }
 StateIconList[EFST_IDs.EFST_FEARBREEZE] = {
@@ -390,7 +390,7 @@ StateIconList[EFST_IDs.EFST_GN_CARTBOOST] = {
 	descript = {
 		{ "Cart Boost", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases movement speed when equiping a cart" }
+		{ "Increases movement speed when equipping a cart" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SHIELDSPELL_REF] = {
@@ -828,7 +828,7 @@ StateIconList[EFST_IDs.EFST_POISONREACT] = {
 	descript = {
 		{ "Poison React", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Automatically cast Poisonous attack to the enemy" },
+		{ "Automatically cast Poisonous attack to the enemy." },
 		{ "Cast Envenom skill to the enemy" },
 		{ "when the caster is damaged by normal attack" }
 	}
@@ -3867,8 +3867,8 @@ StateIconList[EFST_IDs.EFST_HELM_VERKANA] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Verkana Amplifier", { 155, 202, 155 } },
-		{ "%s", { 255, 176, 98 } },
+		{ "Verkana Amplifier", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Adds chance to activate Millenium Shield" },
 		{ "When attacked by Physical or Magical attack" }
 	}
@@ -3877,8 +3877,8 @@ StateIconList[EFST_IDs.EFST_HELM_RHYDO] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Rhydo Amplifier", { 155, 202, 155 } },
-		{ "%s", { 255, 176, 98 } },
+		{ "Rhydo Amplifier", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Cannot be knocked back" }
 	}
 }
@@ -3886,8 +3886,8 @@ StateIconList[EFST_IDs.EFST_HELM_TURISUS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Turisus Amplifier", { 155, 202, 155 } },
-		{ "%s", { 255, 176, 98 } },
+		{ "Turisus Amplifier", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Increases STR" },
 		{ "Decreases INT" }
 	}
@@ -3896,8 +3896,8 @@ StateIconList[EFST_IDs.EFST_HELM_HAGALAS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Hagalas Amplifier", { 155, 202, 155 } },
-		{ "%s", { 255, 176, 98 } },
+		{ "Hagalas Amplifier", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Reflect physical attack" }
 	}
 }
@@ -3905,8 +3905,8 @@ StateIconList[EFST_IDs.EFST_HELM_ISIA] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Isia Amplifier", { 155, 202, 155 } },
-		{ "%s", { 255, 176, 98 } },
+		{ "Isia Amplifier", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Recover certain amount of HP" }
 	}
 }
@@ -3914,8 +3914,8 @@ StateIconList[EFST_IDs.EFST_HELM_ASIR] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Asir Amplifier", { 155, 202, 155 } },
-		{ "%s", { 255, 176, 98 } },
+		{ "Asir Amplifier", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Increases ATK, ASPD" }
 	}
 }
@@ -3923,8 +3923,8 @@ StateIconList[EFST_IDs.EFST_HELM_URJ] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Urj Amplifier", { 155, 202, 155 } },
-		{ "%s", { 255, 176, 98 } },
+		{ "Urj Amplifier", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Recover certain amount of SP" }
 	}
 }
@@ -4798,5 +4798,40 @@ StateIconList[EFST_IDs.EFST_CHEERUP] = {
 		{ "Mom and Dad cheer up.", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increase all stats by 3" }
+	}
+}
+StateIconList[EFST_IDs.EFST_BLAZE_BEAD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "EFST_BLAZE_BEAD", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+	}
+}
+StateIconList[EFST_IDs.EFST_FROZEN_BEAD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "EFST_FROZEN_BEAD", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+	}
+}
+StateIconList[EFST_IDs.EFST_BREEZE_BEAD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "EFST_BREEZE_BEAD", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+	}
+}
+StateIconList[EFST_IDs.EFST_PRONTERA_JP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+ 		{ "Prontera military pill", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increase restoration gained from" },
+		{ "Prontera army potion and" },
+		{ "White Slim Potion" }
 	}
 }
