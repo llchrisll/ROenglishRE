@@ -1,5 +1,56 @@
 tblLapineDdukddakBox = {
 	sources = {
+		Candy_Blessing_Scroll_Physical = {
+			ItemID = 23289,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			SourceItems = {
+				{ "Antonio_Bag_Physical", 1, 20842 }
+			}, NeedSource_String = "Candy Pouch Bag(Physical)"
+		},
+		Candy_Blessing_Scroll_Distance = {
+			ItemID = 23290,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			SourceItems = {
+				{ "Antonio_Bag_Distance", 1, 20843 }
+			},
+			NeedSource_String = "Candy Pouch Bag(Distance)"
+		},
+		Candy_Blessing_Scroll_Magic = {
+			ItemID = 23291,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			SourceItems = {
+				{ "Antonio_Bag_Magic", 1, 20844 }
+			}, NeedSource_String = "Candy Pouch Bag(Magic)"
+		},
+		Race_S_Converter_Box = {
+			ItemID = 23281,
+			NeedCount = 4,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "Homers_Shadow_Shield", 1, 24056 },
+				{ "Cadi_Shadow_Shield", 1, 24061 },
+				{ "Requiem_Shadow_Shield", 1, 24060 },
+				{ "FireProof_Shadow_Shield", 1, 24059 },
+				{ "Satanic_Shadow_Shield", 1, 24058 },
+				{ "Dragoon_Shadow_Shield", 1, 24057 },
+				{ "Gargantua_Shadow_Shield", 1, 24055 },
+				{ "Brutal_Shadow_Shield", 1, 24054 },
+				{ "Cranial_Shadow_Shield", 1, 24052 },
+				{ "Divine_Shadow_Shoes", 1, 24070 },
+				{ "Beholder_Shadow_Shoes", 1, 24069 },
+				{ "Seraphim_Shadow_Shoes", 1, 24068 },
+				{ "Fisher_Shadow_Shoes", 1, 24067 },
+				{ "Insecticide_Shadow_Shoes", 1, 24066 },
+				{ "Clamorous_Shadow_Shoes", 1, 24065 },
+				{ "Chemical_Shadow_Shoes", 1, 24064 },
+				{ "Bloody_Shadow_Shoes", 1, 24062 },
+				{ "Dragoon_Shadow_Shoes", 1, 24071 }
+			},
+			NeedSource_String = "+7 Race Shadow"
+		},
 		Compose_Shadow_Box = {
 			ItemID = 23250,
 			NeedCount = 4,
@@ -1029,7 +1080,31 @@ tblLapineDdukddakBox = {
 				{ "Costume_Magical_Feather", 1, 31040 },
 				{ "Costume_Steampunk_Hat", 1, 20381 },
 				{ "Costume_Poring_Soap_Pipe", 1, 31055 },
-				{ "Costume_Wings_of_Sword", 1, 20510 }
+				{ "Costume_Wings_of_Sword", 1, 20510 },
+				{ "Costume_Hair_Bun_Blue", 1, 31063 },
+				{ "Costume_Hair_Bun_Red", 1, 31064 },
+				{ "Costume_Hair_Bun_Yellow", 1, 31065 },
+				{ "Costume_Hair_Bun_Green", 1, 31066 },
+				{ "Costume_Hair_Bun_Black", 1, 31067 },
+				{ "Costume_Hair_Bun_White", 1, 31068 },
+				{ "Costume_Hair_Bun_Crimson", 1, 31069 },
+				{ "Costume_Hair_Bun_Purple", 1, 31070 },
+				{ "Costume_Roll_Twin_Blue", 1, 31071 },
+				{ "Costume_Roll_Twin_Red", 1, 31072 },
+				{ "Costume_Roll_Twin_Yellow", 1, 31073 },
+				{ "Costume_Roll_Twin_Green", 1, 31074 },
+				{ "Costume_Roll_Twin_Black", 1, 31075 },
+				{ "Costume_Roll_Twin_White", 1, 31076 },
+				{ "Costume_Roll_Twin_Crimson", 1, 31077 },
+				{ "Costume_Roll_Twin_Purple", 1, 31078 },
+				{ "Costume_Long_Pony_Blue", 1, 31079 },
+				{ "Costume_Long_Pony_Red", 1, 31080 },
+				{ "Costume_Long_Pony_Yellow", 1, 31081 },
+				{ "Costume_Long_Pony_Green", 1, 31082 },
+				{ "Costume_Long_Pony_Black", 1, 31083 },
+				{ "Costume_Long_Pony_White", 1, 31084 },
+				{ "Costume_Long_Pony_Crimson", 1, 31085 },
+				{ "Costume_Long_Pony_Purple", 1, 31086 }
 			},
 			NeedSource_String = "Actinidia Cat Costume"
 		}
