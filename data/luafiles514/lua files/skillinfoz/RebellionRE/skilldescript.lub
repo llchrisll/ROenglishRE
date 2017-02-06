@@ -8250,11 +8250,11 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Strip Weapon 1^000000",
 		"Skill Form: ^FF0000Active / Debuff^000000",
 		"Description: ^777777Strip 2 accessories from target's body. The target is disabled to re-equip those released accessories during skill duration. To monsters, it decreases 20% of INT, DEX and LUK for a while.^000000",
-		"[Lv 1]: ^777777Success rate 14%^000000",
-		"[Lv 2]: ^777777Success rate 16%^000000",
-		"[Lv 3]: ^777777Success rate 18%^000000",
-		"[Lv 4]: ^777777Success rate 20%^000000",
-		"[Lv 5]: ^777777Success rate 22%^000000"
+		"[Lv 1]: ^777777Success rate 14%, Duration 60 seconds^000000",
+		"[Lv 2]: ^777777Success rate 16%, Duration 60 seconds^000000",
+		"[Lv 3]: ^777777Success rate 18%, Duration 60 seconds^000000",
+		"[Lv 4]: ^777777Success rate 20%, Duration 60 seconds^000000",
+		"[Lv 5]: ^777777Success rate 22%, Duration 60 seconds^000000"
 	},
 	[SKID.SC_MANHOLE] = {
 		"Manhole",
@@ -10627,7 +10627,7 @@ SKILL_DESCRIPT = {
 		"disabling its use of skills, for a set duration.^000000"
 	},
 	[SKID.MER_ESTIMATION] = {
-		"Monster Property (Sense)",
+		"Sense",
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Monster^000000",
 		"Description: ^777777Provide the targeted monster's",
@@ -12899,7 +12899,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Sprit of Savage 5^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Call upon the spirit of Life to strengthen Animal skills.^000000",
-		"^777777Increase attack power of following skills based on caster's remaining HP.^000000",
+		"^777777Increase attack power of following skills based on caster's remaining HP percentage.^000000",
 		"* Picky Peck",
 		"* Scar of Tarou",
 		"* Lunatic Carrot Beat",
