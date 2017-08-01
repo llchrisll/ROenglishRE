@@ -1,0 +1,350 @@
+tbl = {
+	[1] = {
+		Title = "팁박스",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00001",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/tip 또는 팁박스 아이콘을 클릭하여 팁박스를 열 수 있습니다.\\n팁박스에서는 게임을 즐기는데 유용한 정보를 얻을 수 있습니다.\\n\\n더 많은 정보를 얻고 싶다면 ^3b488c검색창^000000에 검색어를 입력해 보세요."
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 160, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[2] = {
+		Title = "help: 명령어 일람",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00002",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/h를 입력하여 라그나로크에서 사용되는 유용한 명령어들을 볼 수 있습니다.\\n/가 붙은 명령어들은 ^3b488c채팅창에 입력^000000하여 사용할 수 있습니다."
+		}
+	},
+	[3] = {
+		Title = "캐릭터: HP",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00003",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터의 체력을 나타냅니다.\\n^ff0000HP가 0이 되면 전투불능 상태가 됩니다.\\n장소에 따라 경험치가 하락^000000할 수 있으므로 HP관리에 주의하시기 바랍니다.\\n\\n<TIPBOX>▶캐릭터: SP<INFO>4</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 60, DistX = 0, DistY = 0, MoveTime = 0 },
+			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[4] = {
+		Title = "캐릭터: SP",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00003",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터의 정신력을 나타냅니다.\\nSP는 ^3b488c스킬을 사용하면 소모^000000 됩니다.\\nSP가 0이 되면 스킬을 사용할 수 없으니 SP관리에 주의하시기 바랍니다.\\n\\n<TIPBOX>▶캐릭터: HP<INFO>3</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 },
+			{ EffectNum = 0, Twinkle = 1, StartX = 120, StartY = 305, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[5] = {
+		Title = "캐릭터: 레벨업",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00005",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"몬스터를 사냥하거나 퀘스트를 완료하여 경험치를 얻으면 레벨업을 할 수 있습니다.\\n\\nEXP를 얻어 베이스 레벨을 올리면 캐릭터의 기본적인 능력을 결정하는 ^3b488c스테이터스 포인트^000000를 얻을 수 있습니다.\\nJOBEXP를 얻어 잡 레벨을 올리면 캐릭터의 스킬을 올릴 수 있는 ^3b488c스킬 포인트^000000를 얻을 수 있습니다.\\n\\n<TIPBOX>▶전투: 경험치<INFO>16</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 10, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[6] = {
+		Title = "스테이터스: STR(힘)",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터의 ^3b488c근접 물리 공격력^000000에 직접적인 영향을 미쳐 기본 공격 데미지가 올라갑니다.\\n또, ^3b488c소지한계량(Weight)^000000이 늘어나 보다 많은 아이템을 가지고 다닐 수 있게 됩니다.\\n\\n<TIPBOX>▶스테이터스: AGI(민첩)<INFO>7</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: VIT(체력)<INFO>8</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: INT(지력)<INFO>9</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: DEX(재주)<INFO>10</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: LUK(운)<INFO>11</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[7] = {
+		Title = "스테이터스: AGI(민첩)",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터의 속도에 직접적인 영향을 미쳐 ^3b488c공격속도^000000와 ^3b488c회피율^000000이 올라갑니다.\\n또, ^3b488c물리 방어력^000000에도 영향을 줍니다.\\n\\n<TIPBOX>▶스테이터스: STR(힘)<INFO>6</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: VIT(체력)<INFO>8</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: INT(지력)<INFO>9</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: DEX(재주)<INFO>10</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: LUK(운)<INFO>11</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 223, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[8] = {
+		Title = "스테이터스: VIT(체력)",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터의 체력에 직접적인 영향을 미쳐 ^3b488c최대 HP^000000가 올라갑니다.\\n또, ^3b488c물리 방어력^000000과 ^3b488c마법 방어력^000000을 올려주고 ^3b488cHP자동 회복^000000에도 영향을 줍니다.\\n\\n<TIPBOX>▶스테이터스: STR(힘)<INFO>6</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: AGI(민첩)<INFO>7</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: INT(지력)<INFO>9</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: DEX(재주)<INFO>10</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: LUK(운)<INFO>11</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 236, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[9] = {
+		Title = "스테이터스: INT(지력)",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터의 ^3b488c마법 공격력^000000에 직접적인 영향을 미쳐 ^3b488c마법 데미지^000000가 올라갑니다.\\n또, ^3b488c캐스팅 시간^000000을 단축시키고 ^3b488c마법 방어력^000000을 올려주며 ^3b488c최대SP량^000000을 늘려 마법을 더 많이 쓸 수 있게 해줍니다.\\n\\n<TIPBOX>▶스테이터스: STR(힘)<INFO>6</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: AGI(민첩)<INFO>7</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: VIT(체력)<INFO>8</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: DEX(재주)<INFO>10</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: LUK(운)<INFO>11</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[10] = {
+		Title = "스테이터스: DEX(재주)",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터의 ^3b488c원거리물리 공격력^000000에 직접적인 영향을 미쳐 ^3b488c원거리 공격 데미지^000000가 올라갑니다.\\n또, ^3b488c명중률^000000을 올려줘 공격이 성공할 확률이 높아지고 ^3b488c캐스팅 시간^000000을 단축시키며 ^3b488c마법 공격력^000000을 올려줍니다.\\n\\n<TIPBOX>▶스테이터스: STR(힘)<INFO>6</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: AGI(민첩)<INFO>7</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: VIT(체력)<INFO>8</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: INT(지력)<INFO>9</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: LUK(운)<INFO>11</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 263, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[11] = {
+		Title = "스테이터스: LUK(운)",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터의 ^3b488c치명타율^000000에 직접적인 영향을 미쳐 몬스터에게 ^3b488c크리티컬 데미지^000000를 줄 확률이 올라갑니다.\\n또, ^3b488c명중률, 회피율, 물리 공격력, 마법 공격력^000000등에 영향을 주지만 ^ff0000효율이 다른 스테이터스에 비해 낮으므로 포인트를 투자할 때 주의가 필요합니다.^000000\\n<TIPBOX>▶스테이터스: STR(힘)<INFO>6</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: AGI(민첩)<INFO>7</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: VIT(체력)<INFO>8</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: INT(지력)<INFO>9</INFO></TIPBOX>\\n<TIPBOX>▶스테이터스: DEX(재주)<INFO>10</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 276, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[12] = {
+		Title = "자동회복",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"아무런 행동도 하지 않고 제자리에 가만히 서 있으면 플레이어의 ^3b488cHP와 SP가 조금씩 회복^000000 됩니다. 앉아 있을 경우 2배로 회복됩니다.\\n^ff0000무게가 50% 이상일 경우는 회복되지 않습니다.^000000\\n\\n<TIPBOX>▶캐릭터: Weight(무게)<INFO>13</INFO></TIPBOX>"
+		}
+	},
+	[13] = {
+		Title = "캐릭터: Weight(무게)",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"캐릭터가 지닐 수 있는 무게와 현재 지닌 아이템의 무게를 나타냅니다.\\nWeight만큼 아이템을 지닐 수 있으며 ^ff0000아이템의 무게가 한계치를 넘으면 더 이상 아이템을 가질 수 없습니다.\\nWeight 의 수치가 50%이상이면 HP 와 SP가 자동으로 회복 되지않습니다. 또한 90% 이상 넘게 되면 플레이어는 공격을 하거나 스킬을 사용할 수 없습니다.^000000"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 185, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[14] = {
+		Title = "전투: 공격",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"몬스터 위에 마우스 커서를 가져가면 커서가 칼 모양으로 바뀌게 됩니다.\\n이때, ^3b488c클릭^000000으로 공격할 수 있습니다.\\n\\n<TIPBOX>▶락 온 모드: 자동공격<INFO>15</INFO></TIPBOX>\\n<TIPBOX>▶전투: 경험치<INFO>16</INFO></TIPBOX>"
+		}
+	},
+	[15] = {
+		Title = "락 온 모드: 자동공격",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Ctrl 키를 누른 상태에서 몬스터를 공격하면 몬스터를 처치할 때까지 ^3b488c자동으로 공격^000000하게 되며 다른 곳을 클릭하면 해제할 수 있습니다.\\n또, ^3b488c/noctrl를 입력하면 Ctrl을 누르지않아도 자동공격이 되는 상태가 됩니다.\\n자동공격이 기본인 상태에서 /noctrl을 다시 입력하면 자동공격 모드를 해제할 수 있습니다.^000000\\n\\n<TIPBOX>▶전투: 공격<INFO>14</INFO></TIPBOX>"
+		}
+	},
+	[16] = {
+		Title = "전투: 경험치",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00016",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"몬스터를 사냥하면 ^3b488c경험치^000000를 얻을 수 있습니다.\\n몬스터에게 얻는 경험치는 몬스터에게 준 피해와 비례하지만 같은 피해를 주었다 하더라도 맨 처음에 몬스터를 공격한 사람이 경험치를 더 많이 받게 됩니다.\\n\\n<TIPBOX>▶전투: 공격<INFO>14</INFO></TIPBOX>"
+		}
+	},
+	[17] = {
+		Title = "아이템",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00017",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"바닥에 떨어진 아이템은 마우스를 아이템에 가져간 후 ^3b488c왼쪽 클릭^000000을 하면 주울 수 있습니다.\\n주운 아이템은 아이템 창에 들어가게 됩니다.\\n\\n<TIPBOX>▶아이템: 돋보기<INFO>18</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 150, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[18] = {
+		Title = "아이템: 돋보기",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00018",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"몬스터에게서 얻은 장비용 아이템들은 아이템 효과가 확인되어있지 않을 수 있습니다. 미감정 아이템은 도구상점에서 파는 <ITEM>돋보기<INFO>611 돋보기</INFO></ITEM> 아이템을 사용하여 확인할 수 있습니다."
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 100, StartY = 88, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[19] = {
+		Title = "채팅: 대화",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00019",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"엔터키로 채팅창을 활성화 시킬 수 있습니다. 하고 싶은 말을 쓰고 다시 엔터키를 누르면 대화가 전송 됩니다.\\n<TIPBOX>▶채팅: 채팅방<INFO>20</INFO></TIPBOX>\\n<TIPBOX>▶채팅: 귓속말<INFO>21</INFO></TIPBOX>\\n<TIPBOX>▶채팅: 파티<INFO>22</INFO></TIPBOX>\\n<TIPBOX>▶채팅: 길드<INFO>23</INFO></TIPBOX>\\n<TIPBOX>▶채팅: 채팅창<INFO>25</INFO></TIPBOX>\\n<TIPBOX>▶채팅: 내용표시<INFO>26</INFO></TIPBOX>\\n<TIPBOX>▶차단<INFO>28</INFO></TIPBOX>\\n<TIPBOX>▶이모션<INFO>27</INFO></TIPBOX>\\n<TIPBOX>▶채팅: 대화내용 저장<INFO>24</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 280, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[20] = {
+		Title = "채팅: 채팅방",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00020",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/채팅방 또는 /chat으로 ^3b488c채팅방^000000을 만드는 창을 띄울 수 있습니다. 또 /q 명령으로 채팅방을 나갈 수 있습니다.\\n\\n<TIPBOX>▶채팅: 대화<INFO>19</INFO></TIPBOX>\\n<TIPBOX>▶채팅: 대화내용 저장<INFO>24</INFO></TIPBOX>"
+		}
+	},
+	[21] = {
+		Title = "채팅: 귓속말",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00021",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"채팅창 왼쪽 입력란에 캐릭터이름을 입력하면 해당 캐릭터에게 귓속말을 할 수 있습니다.\\n^3b488cAlt + H^000000로 ^3b488c귓말 리스트^000000 창을 열어 귓속말 상대를 확인할 수 있습니다.\\n\\n<TIPBOX>▶차단<INFO>28</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 30, StartY = 260, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[22] = {
+		Title = "채팅: 파티",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00022",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"파티멤버와의 대화는 % 하고 싶은 말  또는 CTRL+ENTER로 할 수 있습니다.\\n또, 채팅창 오른쪽의 ^3b488c파란동그라미^000000를 누르면 ^3b488c수신그룹을 설정^000000할 수 있습니다.\\n\\n<TIPBOX>▶채팅: 길드<INFO>23</INFO></TIPBOX>\\n<TIPBOX>▶파티 시스템<INFO>29</INFO></TIPBOX>"
+		}
+	},
+	[23] = {
+		Title = "채팅: 길드",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00023",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"길드멤버와의 대화는 /gc 하고 싶은 말  또는 $ 하고 싶은 말  또는 ALT+ENTER로 할 수 있습니다.\\n또, 채팅창 오른쪽의 ^3b488c파란동그라미^000000를 누르면 ^3b488c수신그룹을 설정^000000할 수 있습니다.\\n\\n<TIPBOX>▶채팅: 파티<INFO>22</INFO></TIPBOX>"
+		}
+	},
+	[24] = {
+		Title = "채팅: 대화내용 저장",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00024",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/갈무리 or /savechat 으로 채팅 내용을 파일로 저장합니다. \\n대화 내용은 라그나로크가 설치 된 폴더의 Chat폴더 안에 저장 됩니다."
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[25] = {
+		Title = "채팅: 채팅창",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00025",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"^3b488cF10^000000으로 채팅창의 크기를 조절할 수 있습니다.\\nAlt + F10을 누르면 채팅창을 On/Off 할 수 있습니다.\\n\\n<TIPBOX>▶채팅: 내용표시<INFO>26</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 150, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[26] = {
+		Title = "채팅: 내용표시",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00026",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"채팅창에 /notalkmsg를 입력하면 채팅내용을 채팅창에 표시하지 않습니다. On/Off\\n/notalkmsg2를 입력하면 길드말을 포함한 채팅내용을 채팅창에 표시하지 않습니다. On/Off"
+		}
+	},
+	[27] = {
+		Title = "이모션",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00027",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ALT + L을 누르거나 /이모션을 입력하면 사용가능한 ^3b488c이모션^000000의 목록을 볼 수 있습니다."
+		}
+	},
+	[28] = {
+		Title = "차단",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00028",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/차단 캐릭터명 또는 /ex 캐릭터명으로 해당 캐릭터가 하는 말이나 귓속말 등을 차단합니다. 해제하고 싶을때에는 /해제 캐릭터명 또는 /in 캐릭터명 으로 해제할 수 있습니다.\\n또, /차단전부, /exall, /해제전부, /inall 명령어로 전체 대화를 차단하거나 해제할 수 있습니다.\\n차단된 캐릭터의 목록을 확인하고 싶을때에는 /차단 또는 /ex로 목록을 볼 수 있습니다.\\n^ff0000※ (Y/N)를 묻지 않으므로, 신중하게 선택하셔야 합니다.^000000"
+		}
+	},
+	[29] = {
+		Title = "파티 시스템",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00029",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/결성 파티이름 또는 /organize 파티이름으로 파티를 만들 수 있습니다.\\n/탈퇴 또는 /leave로 파티를 탈퇴할 수 있습니다.",
+			"파티를 결성하여 파티리더가 된 경우, 상대 캐릭터를 마우스 오른쪽 버튼으로 클릭하여 '파티에 초대한다' 메뉴를 선택하거나 /초대 캐릭터명으로 파티에 초대할 수 있습니다.\\n파티원을 제명하고 싶은 경우 /제명 캐릭터이름 또는 /expel 캐릭터이름으로 ^3b488c자신이 리더인 파티^000000의 파티원을 제명할 수 있습니다.\\n^ff0000※ (Y/N)를 묻지 않으므로, 신중하게 선택하셔야 합니다.^000000\\n\\n<TIPBOX>▶채팅: 파티<INFO>22</INFO></TIPBOX>"
+		}
+	}
+}
+
+function main()
+	for DocumentNum, INFO in pairs(tbl) do
+		result, msg = AddTip(DocumentNum, INFO.Title, INFO.Search, INFO.Image)
+		if not result then
+			return false, msg
+		end
+		result, msg = AddImgcoord(DocumentNum, INFO.Imgcoord.Position, INFO.Imgcoord.Size)
+		if not result then
+			return false, msg
+		end
+		if not INFO.PageEX then
+			result, msg = AddPageEx(DocumentNum, -1, 0, 0, 0, 0, 0, 0, 0)
+			if not result then
+				return false, msg
+			end
+		else
+			for k, v in pairs(INFO.PageEX) do
+				result, msg = AddPageEx(DocumentNum, v.EffectNum, v.Twinkle, v.StartX, v.StartY, v.DistX, v.DistY, v.MoveTime)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		for k, v in pairs(INFO.Page) do
+			result, msg = AddPage(DocumentNum, v)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	return true, "good"
+end
