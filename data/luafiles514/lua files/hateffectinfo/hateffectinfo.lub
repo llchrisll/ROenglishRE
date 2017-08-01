@@ -49,11 +49,14 @@ HatEFID = {
 	HAT_EF_gold_shower = 48,
 	HAT_EF_WHITEBODY = 49,
 	HAT_EF_WATER_BELOW2 = 50,
-	HAT_EF_firework = 51
+	HAT_EF_firework = 51,
+	HAT_EF_Return_TW_1st_Hat = 52,
+	HAT_EF_C_FlutterButterfly_BL = 53,
+	HAT_EF_Qscaraba = 54
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = { resourceFileName = "efst_blossom_fluttering\\sakura.str", hatEffectPos = -4 },
-	[HatEFID.HAT_EF_MERMAID_LONGING] = { resourceFileName = "efst_mermaid_loging\\bubblebubble.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_MERMAID_LONGING] = { resourceFileName = "efst_mermaid_loging\\bubblebubble.str", hatEffectPos = -6 },
 	[HatEFID.HAT_EF_rl_banishing_buster] = { resourceFileName = "rl_banishing_buster\\vanishing1.str", hatEffectPos = -10 },
 	[HatEFID.HAT_EF_LJOSALFAR] = { resourceFileName = "efst_ljosalfar\\ljosalfar.str", hatEffectPos = 0 },
 	[HatEFID.HAT_EF_CLOCKING] = { hatEffectID = 120 },
@@ -63,15 +66,21 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_GUMGANG] = { hatEffectID = 203 },
 	[HatEFID.HAT_EF_TALK_FROSTJOKE] = { hatEffectID = 295 },
 	[HatEFID.HAT_EF_DEMONSTRATION] = { hatEffectID = 302 },
-	[HatEFID.HAT_EF_Flutter_Butterfly] = { resourceFileName = "efst_Flutter_Butterfly\\Flutter_Butterfly.str", hatEffectPos = -8 },
-	[HatEFID.HAT_EF_Angel_Fluttering] = { resourceFileName = "efst_Angel_Fluttering\\Angel_Fluttering.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_Flutter_Butterfly] = {
+		resourceFileName = "efst_Flutter_Butterfly\\Flutter_Butterfly.str",
+		hatEffectPos = -8
+	},
+	[HatEFID.HAT_EF_Angel_Fluttering] = {
+		resourceFileName = "efst_Angel_Fluttering\\Angel_Fluttering.str",
+		hatEffectPos = -5
+	},
 	[HatEFID.HAT_EF_Blessing_Of_Angels] = { resourceFileName = "efst_blessing_of_angels\\tensi3.str", hatEffectPos = -7 },
 	[HatEFID.HAT_EF_Electric] = { hatEffectID = 254 },
 	[HatEFID.HAT_EF_Green_Floor] = { hatEffectID = 680 },
 	[HatEFID.HAT_EF_Shrink] = { hatEffectID = 421 },
 	[HatEFID.HAT_EF_Valhalla_Idol] = { resourceFileName = "efst_valhalla_idol\\odl2.str", hatEffectPos = -10 },
 	[HatEFID.HAT_EF_Angel_Stairs] = { resourceFileName = "cloudh.str" },
-	[HatEFID.HAT_EF_Glow_Of_New_Year] = { resourceFileName = "efst_GlowOfNewYear\\halo.str", hatEffectPos = -7 },
+	[HatEFID.HAT_EF_Glow_Of_New_Year] = { resourceFileName = "efst_GlowOfNewYear\\halo.str", hatEffectPos = -6 },
 	[HatEFID.HAT_EF_BOTTOM_FORTUNEKISS] = { hatEffectID = 293 },
 	[HatEFID.HAT_EF_PINKBODY] = { hatEffectID = 396 },
 	[HatEFID.HAT_EF_DOUBLEGUMGANG] = { hatEffectID = 418 },
@@ -90,19 +99,25 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_WHITEBODY2] = { hatEffectID = 1065 },
 	[HatEFID.HAT_EF_SAKURA] = { hatEffectID = 163 },
 	[HatEFID.HAT_EF_CLOUD2] = { hatEffectID = 230 },
-	[HatEFID.HAT_EF_Feather_Fluttering] = { resourceFileName = "efst_feather_fluttering\\feath.str", hatEffectPos = -4 },
+	[HatEFID.HAT_EF_Feather_Fluttering] = { resourceFileName = "efst_feather_fluttering\\feath.str", hatEffectPos = -5 },
 	[HatEFID.HAT_EF_Camellia_Hair_Pin] = { resourceFileName = "efst_flowersmoke\\flowersmoke.str", hatEffectPos = -8 },
 	[HatEFID.HAT_EF_Jp_Ev_Effect01] = { hatEffectID = 293 },
 	[HatEFID.HAT_EF_Jp_Ev_Effect02] = { hatEffectID = 293 },
 	[HatEFID.HAT_EF_Jp_Ev_Effect03] = { hatEffectID = 293 },
-	[HatEFID.HAT_EF_Floral_Waltz] = { resourceFileName = "efst_Floral_Waltz\\Floral_Waltz.str", hatEffectPos = -8 },
+	[HatEFID.HAT_EF_Floral_Waltz] = { resourceFileName = "efst_Floral_Waltz\\Floral_Waltz.str", hatEffectPos = -7 },
 	[HatEFID.HAT_EF_magical_feather] = { resourceFileName = "efst_magical_feather\\magical_feather.str", hatEffectPos = -5 },
 	[HatEFID.HAT_EF_HAT_EFFECT] = { hatEffectID = 1012 },
 	[HatEFID.HAT_EF_BAKURETSU_HADOU] = { hatEffectID = 1130 },
 	[HatEFID.HAT_EF_gold_shower] = { resourceFileName = "efst_Gold_Shower\\coin2.str", hatEffectPos = -7 },
 	[HatEFID.HAT_EF_WHITEBODY] = { hatEffectID = 1131 },
-	[HatEFID.HAT_EF_WATER_BELOW2] = { hatEffectID = 838 },
-	[HatEFID.HAT_EF_firework] = { resourceFileName = "efst_firework\\firework.str", hatEffectPos = 0 }
+	[HatEFID.HAT_EF_WATER_BELOW2] = { resourceFileName = "efst_WATER_BELOW\\WATER_BELOW.str", hatEffectPos = -10 },
+	[HatEFID.HAT_EF_firework] = { resourceFileName = "efst_firework\\firework.str", hatEffectPos = 0 },
+	[HatEFID.HAT_EF_Return_TW_1st_Hat] = { resourceFileName = "EFST_Return_TW_1st_Hat\\tensi3.str", hatEffectPos = -7 },
+	[HatEFID.HAT_EF_C_FlutterButterfly_BL] = {
+		resourceFileName = "efst_FlutterButterfly_BL\\Flutter_Butterfly.str",
+		hatEffectPos = -8
+	},
+	[HatEFID.HAT_EF_Qscaraba] = { resourceFileName = "EFST_Qscaraba\\Qscaraba.str", hatEffectPos = -5 }
 }
 effectHatItemTable = { 20285, 20209, 31091, 31089, 31056, 20062, 20439, 5979, 20487, 5914, 20457, 31142, 20240, 19871, 18742, 20154, 18744, 20323, 20246, 19022, 18741, 18719, 20600 }
 
