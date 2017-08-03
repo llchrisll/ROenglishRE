@@ -11,7 +11,3 @@ Project description :
 Official Q/A thread: https://rathena.org/board/topic/102689-ragnarok-english-translation-project/
 
 Pre-Renewal project: https://github.com/zackdreaver/ROenglishPRE
-
-Client Resources: https://github.com/zackdreaver/RO-Clientresources
-
-My itemdb: https://github.com/zackdreaver/rAitemDB
