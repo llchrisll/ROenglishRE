@@ -3405,7 +3405,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = { [1] = { x = 5, y = 5 }, [2] = { x = 11, y = 11 }, [3] = { x = 17, y = 17 }, [4] = { x = 23, y = 23 }, [5] = { x = 29, y = 29 } }
 	},
 	[SKID.NPC_CRITICALWOUND] = {
 		"NPC_CRITICALWOUND",
@@ -3455,7 +3456,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.NPC_WIDESOULDRAIN] = {
 		"NPC_WIDESOULDRAIN",
@@ -3463,7 +3476,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.ALL_INCCARRY] = {
 		"ALL_INCCARRY",
@@ -5003,7 +5028,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_NEEDLE_OF_PARALYZE] = {
 		"MH_NEEDLE_OF_PARALYZE",
-		SkillName = "Needle Of Paralyze",
+		SkillName = "Needle of Paralyze",
 		MaxLv = 5,
 		SpAmount = { 48, 60, 72, 84, 96 },
 		bSeperateLv = true,
@@ -6979,7 +7004,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MER_ESTIMATION] = {
 		"MER_ESTIMATION",
-		SkillName = "Monster Property",
+		SkillName = "Sense",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -8420,7 +8445,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_SONG_OF_MANA] = {
 		"WM_SONG_OF_MANA",
-		SkillName = "Song Of Mana",
+		SkillName = "Song of Mana",
 		MaxLv = 5,
 		SpAmount = { 120, 140, 160, 180, 200 },
 		bSeperateLv = true,
@@ -10082,7 +10107,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_MARSHOFABYSS] = {
 		"WL_MARSHOFABYSS",
-		SkillName = "Marsh Of Abyss",
+		SkillName = "Marsh of Abyss",
 		MaxLv = 5,
 		SpAmount = { 40, 42, 44, 46, 48 },
 		bSeperateLv = true,
@@ -10395,7 +10420,7 @@ SKILL_INFO_LIST = {
 		"GC_DARKILLUSION",
 		SkillName = "Dark Illusion",
 		MaxLv = 5,
-		SpAmount = { 40, 40, 40, 40, 40 },
+		SpAmount = { 20, 25, 30, 35, 40 },
 		bSeperateLv = false,
 		AttackRange = { 5, 6, 7, 8, 9 },
 		_NeedSkillList = {
@@ -10627,7 +10652,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DA_DREAM] = {
 		"DA_DREAM",
-		SkillName = "Black Dream Of Gemstone",
+		SkillName = "Black Dream of Gemstone",
 		MaxLv = 5,
 		SpAmount = { 600, 500, 400, 300, 200 },
 		bSeperateLv = false,
@@ -11590,6 +11615,14 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1 }
 	},
+	[SKID.ALL_THANATOS_RECALL] = {
+		"ALL_THANATOS_RECALL",
+		SkillName = "Return to Thanatos",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
 	[SKID.MC_CARTDECORATE] = {
 		"MC_CARTDECORATE",
 		SkillName = "Change Cart 2",
@@ -11842,6 +11875,173 @@ SKILL_INFO_LIST = {
 		SkillName = "Return to Glastheim",
 		MaxLv = 1,
 		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.SU_SOULATTACK] = {
+		"SU_SOULATTACK",
+		SkillName = "Soul Attack",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 9 },
+		_NeedSkillList = {
+			{ SKID.SU_SPRITEMABLE, 1 }
+		}
+	},
+	[SKID.SU_POWEROFFLOCK] = {
+		"SU_POWEROFFLOCK",
+		SkillName = "Power of Lock",
+		MaxLv = 5,
+		SpAmount = { 50, 50, 50, 50, 50 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_HISS, 5 }
+		}
+	},
+	[SKID.SU_SVG_SPIRIT] = {
+		"SU_SVG_SPIRIT",
+		SkillName = "Sprit of Savage",
+		MaxLv = 5,
+		SpAmount = { 60, 60, 60, 60, 60 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_POWEROFFLOCK, 5 }
+		}
+	},
+	[SKID.SU_HISS] = {
+		"SU_HISS",
+		SkillName = "Hiss",
+		MaxLv = 5,
+		SpAmount = { 50, 46, 42, 38, 34 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_POWEROFLIFE, 1 }
+		}
+	},
+	[SKID.SU_NYANGGRASS] = {
+		"SU_NYANGGRASS",
+		SkillName = "Nyang Grass",
+		MaxLv = 5,
+		SpAmount = { 50, 48, 46, 44, 42 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_MEOWMEOW, 5 }
+		}
+	},
+	[SKID.SU_GROOMING] = {
+		"SU_GROOMING",
+		SkillName = "Grooming",
+		MaxLv = 5,
+		SpAmount = { 15, 15, 15, 15, 15 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_POWEROFSEA, 1 }
+		}
+	},
+	[SKID.SU_PURRING] = {
+		"SU_PURRING",
+		SkillName = "Purring",
+		MaxLv = 5,
+		SpAmount = { 70, 65, 60, 55, 50 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_GROOMING, 5 }
+		}
+	},
+	[SKID.SU_SHRIMPARTY] = {
+		"SU_SHRIMPARTY",
+		SkillName = "Tasty Shrimp Party",
+		MaxLv = 5,
+		SpAmount = { 100, 90, 80, 70, 60 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_PURRING, 5 }
+		}
+	},
+	[SKID.SU_SPIRITOFLIFE] = {
+		"SU_SPIRITOFLIFE",
+		SkillName = "Sprit of Life",
+		MaxLv = 1,
+		SpAmount = {},
+		bSeperateLv = false,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_SVG_SPIRIT, 5 }
+		}
+	},
+	[SKID.SU_MEOWMEOW] = {
+		"SU_MEOWMEOW",
+		SkillName = "Meow Meow",
+		MaxLv = 5,
+		SpAmount = { 100, 90, 80, 70, 60 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_CHATTERING, 5 }
+		}
+	},
+	[SKID.SU_SPIRITOFLAND] = {
+		"SU_SPIRITOFLAND",
+		SkillName = "Spirit of Land",
+		MaxLv = 1,
+		SpAmount = {},
+		bSeperateLv = false,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_NYANGGRASS, 5 }
+		}
+	},
+	[SKID.SU_CHATTERING] = {
+		"SU_CHATTERING",
+		SkillName = "Chattering",
+		MaxLv = 5,
+		SpAmount = { 50, 45, 40, 35, 30 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_POWEROFLAND, 1 }
+		}
+	},
+	[SKID.SU_SPIRITOFSEA] = {
+		"SU_SPIRITOFSEA",
+		SkillName = "Spirit of Sea",
+		MaxLv = 1,
+		SpAmount = {},
+		bSeperateLv = false,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_SHRIMPARTY, 5 }
+		}
+	},
+	[SKID.WE_CALLALLFAMILY] = {
+		"WE_CALLALLFAMILY",
+		SkillName = "We are with You",
+		MaxLv = 1,
+		SpAmount = { 100 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.WE_ONEFOREVER] = {
+		"WE_ONEFOREVER",
+		SkillName = "Death can not separate us",
+		MaxLv = 1,
+		SpAmount = { 100 },
+		bSeperateLv = false,
+		AttackRange = { 3 }
+	},
+	[SKID.WE_CHEERUP] = {
+		"WE_CHEERUP",
+		SkillName = "Mom Dad cheer up",
+		MaxLv = 1,
+		SpAmount = { 50 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
 	}

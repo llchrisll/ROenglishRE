@@ -12445,6 +12445,12 @@ SKILL_DESCRIPT = {
 		"Return to Prontera",
 		"Description: ^777777Teleport to Prontera, 5 minutes after use delay.^000000"
 	},
+	[SKID.ALL_THANATOS_RECALL] = {
+		"Return to Thanatos",
+		"Max Level: 1",
+		"Skill Form: ^339900Supportive^000000",
+		"Description : ^777777Teleport to Thanatos, 5 minutes after use delay.^000000"
+	},
 	[SKID.MC_CARTDECORATE] = {
 		"Change Cart 2",
 		"^CC3399Requirement: Finish Quest^000000",
@@ -12713,4 +12719,194 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Supportive^bb0000(Return)^000000",
 		"Description: ^777777Teleport to Glastheim, 5 minutes reuse delay.^000000"
 	}
+	[SKID.SU_SOULATTACK] = {
+		"Soul Attack",
+		"Max Level: 1",
+		"^CC3399Requirement: Sprite Marble 1^000000",
+		"Skill Form: ^6666CCPassive^000000",
+		"Target: ^777777Enemy^000000",
+		"Description: ^777777A ranged attack that deals heavy damage to target's soul.^000000"
+	},
+	[SKID.SU_GROOMING] = {
+		"Grooming",
+		"Max Level: 5",
+		"^CC3399Requirement: Power of Sea 1^000000",
+		"Skill Form: ^339900Seafood(Supportive)^000000",
+		"Target: ^777777Self^000000",
+		"Description: ^777777Heal wounds by licking yourself.",
+		"Heals from Stun, Frozen, Stone Curse, Sleep, Silence, Bleeding, Poison, Fear, Mandragora Howling, Freezing and Crystallization.",
+		"Increase Flee for skill duration.^000000",
+		"[Lv 1]: ^777777FLEE +100, 3 Sec duration^000000",
+		"[Lv 2]: ^777777FLEE +100, 4 Sec duration^000000",
+		"[Lv 3]: ^777777FLEE +100, 5 Sec duration^000000",
+		"[Lv 4]: ^777777FLEE +100, 6 Sec duration^000000",
+		"[Lv 5]: ^777777FLEE +100, 7 Sec duration^000000"
+	},
+	[SKID.SU_PURRING] = {
+		"Purring",
+		"Max Level: 5",
+		"^CC3399Requirement: Grooming 5^000000",
+		"Skill Form: ^339900Seafood(Supportive)^000000",
+		"Target: ^777777Party member^000000",
+		"Description: ^777777Heals party member by ringing a pleasant sound.",
+		"Cast Grooming skill to all party member.^000000",
+		"[Lv 1]: ^777777FLEE +100, 7 Sec duration^000000",
+		"[Lv 2]: ^777777FLEE +100, 9 Sec duration^000000",
+		"[Lv 3]: ^777777FLEE +100, 11 Sec duration^000000",
+		"[Lv 4]: ^777777FLEE +100, 13 Sec duration^000000",
+		"[Lv 5]: ^777777FLEE +100, 15 Sec duration^000000"
+	},
+	[SKID.SU_SHRIMPARTY] = {
+		"Tasty Shrimp Party",
+		"Max Level: 5",
+		"^CC3399Requirement: Purring 5^000000",
+		"Skill Form: ^339900Seafood(Supportive)^000000",
+		"Target: ^777777Party member^000000",
+		"Description: ^777777Casts Fresh Shrimp to all party member within screen for skill level's duration.",
+		"^777777Increase caster's natural SP regeneration by 150% and increase caster's Shrimp Party.^000000",
+		"[Lv 1]: ^777777SP regeneration lasts for 12 seconds^000000",
+		"[Lv 2]: ^777777SP regeneration lasts for 14 seconds^000000",
+		"[Lv 3]: ^777777SP regeneration lasts for 16 seconds^000000",
+		"[Lv 4]: ^777777SP regeneration lasts for 18 seconds^000000",
+		"[Lv 5]: ^777777SP regeneration lasts for 20 seconds^000000"
+	},
+	[SKID.SU_CHATTERING] = {
+		"Chattering",
+		"Max Level: 5",
+		"^CC3399Requirement: Power of Land 1^000000",
+		"Skill Form: ^339900Greens(Supportive)^000000",
+		"Target: ^777777Self^000000",
+		"Description: ^777777Awaking the hunter's instinct and become excited.^000000",
+		"^777777For 5 seconds increase ATK and MATK by 100, for 10 second movement speed is increased.^000000",
+		"[Lv 1]: ^777777Cost 50 SP^000000",
+		"[Lv 2]: ^777777Cost 45 SP^000000",
+		"[Lv 3]: ^777777Cost 40 SP^000000",
+		"[Lv 4]: ^777777Cost 35 SP^000000",
+		"[Lv 5]: ^777777Cost 30 SP^000000"
+	},
+	[SKID.SU_MEOWMEOW] = {
+		"Meow Meow",
+		"Max Level: 5",
+		"^CC3399Requirement: Chattering 5^000000",
+		"Skill Form: ^339900Greens(Supportive)^000000",
+		"Target: ^777777Party member^000000",
+		"Description: ^777777Activate Chattering to all party members on screen including yourself.^000000",
+		"[Lv 1]: ^7777778 sec duration, 100 SP cost/sec^000000",
+		"[Lv 2]: ^7777778 sec duration, 90 SP cost/sec^000000",
+		"[Lv 3]: ^77777710 sec duration, 80 SP cost/sec^000000",
+		"[Lv 4]: ^77777710 sec duration, 70 SP cost/sec^000000",
+		"[Lv 5]: ^77777712 sec duration, 60 SP cost/sec^000000"
+	},
+	[SKID.SU_NYANGGRASS] = {
+		"Nyang Grass",
+		"Max Level: 5",
+		"^CC3399Requirement: Meow Meow 5^000000",
+		"Skill Form: ^339900Greens(Supportive)^000000",
+		"Target: ^777777Enemy^000000",
+		"Description: ^777777Neutralize enemy's defense power within area of effect.(Skill immediately ends when you leave the area)^000000",
+		"^777777Reduce player type enemy's equipment DEF and MDEF to 0. For monster, the reducement is only 50%.^000000",
+		"[Lv 1]: ^7777775x5 AoE, 6 SP cost/sec^000000",
+		"[Lv 2]: ^7777775x5 AoE, 7 SP cost/sec^000000",
+		"[Lv 3]: ^7777777x7 AoE, 8 SP cost/sec^000000",
+		"[Lv 4]: ^7777777x7 AoE, 9 SP cost/sec^000000",
+		"[Lv 5]: ^7777779x9 AoE, 10 SP cost/sec^000000"
+	},
+	[SKID.SU_HISS] = {
+		"Hiss",
+		"Max Level: 5",
+		"^CC3399Requirement: Power of Life 1^000000",
+		"Skill Form: ^339900Animal(Supportive)^000000",
+		"Target: ^777777Party member^000000",
+		"Description: ^777777Become alert to the threat.^000000",
+		"^777777Increase movement speed of all party member on screen including yourself for certain seconds.^000000",
+		"[Lv 1]: ^777777For 3 sec Perfect dodge +50, For 3 sec movement speed increased^000000",
+		"[Lv 2]: ^777777For 3 sec Perfect dodge +50, For 3 sec movement speed increased^000000",
+		"[Lv 3]: ^777777For 3 sec Perfect dodge +50, For 4 sec movement speed increased^000000",
+		"[Lv 4]: ^777777For 3 sec Perfect dodge +50, For 4 sec movement speed increased^000000",
+		"[Lv 5]: ^777777For 3 sec Perfect dodge +50, For 5 sec movement speed increased^000000"
+	},
+	[SKID.SU_POWEROFFLOCK] = {
+		"Power of Lock",
+		"Max Level: 5",
+		"^CC3399Requirement: Hiss 5^000000",
+		"Skill Form: ^339900Animal(Supportive)^000000",
+		"Target: ^777777Enemy^000000",
+		"Description: ^777777Make a shuddering pose.^000000",
+		"^777777Cause Fear and Frozen status to all targets within skill area.^000000",
+		"[Lv 1]: ^7777777x7 AoE^000000",
+		"[Lv 2]: ^7777779x9 AoE^000000",
+		"[Lv 3]: ^77777711x11 AoE^000000",
+		"[Lv 4]: ^77777713x13 AoE^000000",
+		"[Lv 5]: ^777777Entire screen^000000"
+	},
+	[SKID.SU_SVG_SPIRIT] = {
+		"Sprit of Savage",
+		"Max Level: 5",
+		"^CC3399Requirement: Power of Lock 5^000000",
+		"Skill Form: ^FF0000Animal(Offensive)^000000",
+		"Description: ^777777Summon Savage spirit to attack a specific target.^000000",
+		"^777777Fires in stright line to a specific point and damaging all targets.^000000",
+		"[Lv 1]: ^777777ATK +400% ^000000",
+		"[Lv 2]: ^777777ATK +550% ^000000",
+		"[Lv 3]: ^777777ATK +700% ^000000",
+		"[Lv 4]: ^777777ATK +850% ^000000",
+		"[Lv 5]: ^777777ATK +1000% ^000000"
+	},
+	[SKID.SU_SPIRITOFSEA] = {
+		"Spirit of Sea",
+		"Max Level: 1",
+		"^CC3399Requirement: Tasty Shrimp Party 5^000000",
+		"Skill Form: ^6666CCPassive^000000",
+		"Description: ^777777Call upon the spirit of Sea to strengthen Seafood skills.^000000",
+		"* Fresh Shrimp - ^777777Double your HP regeneration.^000000",
+		"* Bunch of Shrimp - ^777777Increase duration of ATK and MATK boost by 120 sec.^000000",
+		"* Tuna Belly - ^777777Reduce skill cooldown by 5 sec.^000000",
+		"* Tuna party - ^777777Increase Tuna defense to higher level.^000000",
+		"* Shrimp Party - ^777777Double yours and your party HP regeneration.^000000"
+	},
+	[SKID.SU_SPIRITOFLAND] = {
+		"Spirit of Land",
+		"Max Level: 1",
+		"^CC3399Requirement: Nyang Grass 5^000000",
+		"Skill Form: ^6666CCPassive^000000",
+		"Description: ^777777Call upon the spirit of Land to strengthen Greens skills.^000000",
+		"* Silvervine Stem Spear - ^777777Increase movement speed for 3 sec.^000000",
+		"* Silvervine Root Twist - ^777777Increase MATK based on Base Level for 3 sec.^000000",
+		"* Catnip Powdering - ^777777Increase Perfect dodge by Base Level/12 for 3 sec.^000000",
+		"* Catnip Meteor - ^777777Instantly cast Silvervine Stem Spear when attacked by Long range physical attack or Magical attack for 3 sec.^000000",
+		"* Nyang Grass - ^777777Increase MATK based on Base Level for 3 sec.^000000"
+	},
+	[SKID.SU_SPIRITOFLIFE] = {
+		"Sprit of Life",
+		"Max Level: 1",
+		"^CC3399Requirement: Sprit of Savage 5^000000",
+		"Skill Form: ^6666CCPassive^000000",
+		"Description: ^777777Call upon the spirit of Life to strengthen Animal skills.^000000",
+		"^777777Increase attack power of following skills based on caster's remaining HP percentage.^000000",
+		"* Picky Peck",
+		"* Scar of Tarou",
+		"* Lunatic Carrot Beat",
+		"* Sprit of Savage"
+	},
+	[SKID.WE_CALLALLFAMILY] = {
+		"We are with You",
+		"MAX Lv : 1",
+		"Skill Form: ^339900Supportive^000000",
+		"Description: ^777777Recall family member in the same map.^000000",
+		"^777777Family member must be in the same party.^000000"
+	},
+	[SKID.WE_ONEFOREVER] = {
+		"Death can not separate us",
+		"MAX Lv : 1",
+		"Skill Form: ^339900Supportive^000000",
+		"Target: ^777777KO'ed Family member^000000",
+		"Description: ^777777Revive family member with 30% of MaxHP.^000000",
+		"^777777Can't be used when family member have Undead element.^000000"
+	},
+	[SKID.WE_CHEERUP] = {
+		"Mom Dad cheer up",
+		"MAX Lv : 1",
+		"Skill Form: ^339900Supportive(Buff)^000000",
+		"Description: ^777777Increases parent's all stats by 3 for 60 seconds on 7x7 cells around yourself.^000000"
+	},
 }
