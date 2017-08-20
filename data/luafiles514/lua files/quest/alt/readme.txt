@@ -1,1 +1,0 @@
-this the old quest files that has image for items and monsters
