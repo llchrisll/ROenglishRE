@@ -261,7 +261,7 @@ StateIconList[EFST_IDs.EFST_ATKER_BLOOD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "SP Consumption Decrease Potion", COLOR_TITLE_DEBUFF },
+		{ "SP Consumption Decrease Potion", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Decreases SP consumption when using skills" }
 	}
@@ -1342,7 +1342,7 @@ StateIconList[EFST_IDs.EFST_BLOODING] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Bleeding", COLOR_TITLE_DEBUFF },
+		{ "Bleeding", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Disables natural HP and SP regeneration" },
 		{ "Lose certain amount of HP over time" }
@@ -1726,10 +1726,10 @@ StateIconList[EFST_IDs.EFST_STRIPACCESSARY] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_PROPERTYUNDEAD] = {
+	haveTimeLimit = 0,
 	descript = {
 		{ "Undead", COLOR_TITLE_DEBUFF },
-		{ "Undead element" },
-		{ "Can't be healed by Healing skills" }
+		{ "Undead element" }
 	}
 }
 StateIconList[EFST_IDs.EFST_INVISIBILITY] = {
@@ -3491,8 +3491,10 @@ StateIconList[EFST_IDs.EFST_HEAT_BARREL] = {
 	descript = {
 		{ "Heat Barrel", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increase ATK" },
-		{ "Reduces after-attack delay" }
+		{ "Increases ATK" },
+		{ "Reduces HIT" },
+		{ "Reduces after-attack delay" },
+		{ "Reduces fixed cast time" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ANTI_M_BLAST] = {
@@ -4183,7 +4185,7 @@ StateIconList[EFST_IDs.EFST_HEALTHSTATE_FEAR] = {
 		{ "Reduces HIT, Flee" }
 	}
 }
-StateIconList[EFST_IDs.EFST_CURSEDCIRCLE_ATKER] = {
+StateIconList[EFST_IDs.EFST_CURSEDCIRCLE_TARGET] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
@@ -4833,5 +4835,93 @@ StateIconList[EFST_IDs.EFST_PRONTERA_JP] = {
 		{ "Increase restoration gained from" },
 		{ "Prontera army potion and" },
 		{ "White Slim Potion" }
+	}
+}
+StateIconList[EFST_IDs.EFST_LHZ_DUN_N1] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grave Blessing", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage against certain fallen warriors." },
+		{ "List: Swordman, Thief fallen warriors." },
+		{ "Reduces damage taken from certain warrior monsters." },
+		{ "List: Acolyte, Merchant fallen warriors." },
+		{ "Except MVP." }
+	}
+}
+StateIconList[EFST_IDs.EFST_LHZ_DUN_N2] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grave Blessing", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage against certain fallen warriors." },
+		{ "List: Acolyte, Merchant fallen warriors." },
+		{ "Reduces damage taken from certain warrior monsters." },
+		{ "List: Mage, Archer fallen warriors." },
+		{ "Except MVP." }
+	}
+}
+StateIconList[EFST_IDs.EFST_LHZ_DUN_N3] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grave Blessing", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage against certain fallen warriors." },
+		{ "List: Mage, Archer fallen warriors." },
+		{ "Reduces damage taken from certain warrior monsters." },
+		{ "List: Swordman, Thief fallen warriors." },
+		{ "Except MVP." }
+	}
+}
+StateIconList[EFST_IDs.EFST_LHZ_DUN_N4] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grave Blessing", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage against certain fallen warriors." },
+		{ "List: Tomb of the Fallen MVPs." },
+		{ "Reduces damage taken from certain warrior monsters." },
+		{ "List: Tomb of the Fallen MVPs." },
+	}
+}
+StateIconList[EFST_IDs.EFST_SPECIALCOOKIE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Special Cookie", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases attack speed." },
+		{ "Reduces variable cast time." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATK_POPCORN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increase damage", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases ATK by 3%." }
+	}
+}
+StateIconList[EFST_IDs.EFST_MATK_POPCORN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increase magic damage", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases MATK by 3%." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ASPD_POPCORN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increase attack speed", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Reduces after attack delay by 10%." }
 	}
 }
