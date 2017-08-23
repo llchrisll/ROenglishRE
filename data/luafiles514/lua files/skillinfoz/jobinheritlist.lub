@@ -377,9 +377,9 @@ JOB_INHERIT_LIST = {
 	[JOBID.JT_TAEKWON_B] = JOBID.JT_TAEKWON,
 	[JOBID.JT_LINKER_B] = JOBID.JT_LINKER,
 	[JOBID.JT_STAR_B] = JOBID.JT_STAR,
-	__newindex = function()
-	error("unknown state")
-end
+	["__newindex"] = function()
+		error("unknown state")
+	end
 }
 setmetatable(JOB_INHERIT_LIST, JOB_INHERIT_LIST)
 JOB_INHERIT_LIST2 = {
@@ -397,7 +397,7 @@ JOB_INHERIT_LIST2 = {
 	[JOBID.JT_GENETIC_H] = JOBID.JT_GENETIC,
 	[JOBID.JT_SHADOW_CHASER_H] = JOBID.JT_SHADOW_CHASER,
 	["__newindex"] = function()
-	error("unknown state")
-end
+		error("unknown state")
+	end
 }
 setmetatable(JOB_INHERIT_LIST2, JOB_INHERIT_LIST2)
