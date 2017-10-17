@@ -3491,10 +3491,8 @@ StateIconList[EFST_IDs.EFST_HEAT_BARREL] = {
 	descript = {
 		{ "Heat Barrel", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases ATK" },
-		{ "Reduces HIT" },
-		{ "Reduces after-attack delay" },
-		{ "Reduces fixed cast time" }
+		{ "Increase ATK" },
+		{ "Reduces after-attack delay" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ANTI_M_BLAST] = {
@@ -4644,24 +4642,6 @@ StateIconList[EFST_IDs.EFST_PROTECTIONOFSHRIMP] = {
 		{ "Protection Of Shrimp", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increase natural SP regeneration" }
-	}
-}
-StateIconList[EFST_IDs.EFST_GS_MAGICAL_BULLET] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Magical Bullet", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "Additional magic damage" }
-	}
-}
-StateIconList[EFST_IDs.EFST_H_MINE] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Howling Mine", COLOR_TITLE_DEBUFF },
-		{ "%s", COLOR_TIME },
-		{ "Howling Mine state" }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_RECEIVEITEM] = {
