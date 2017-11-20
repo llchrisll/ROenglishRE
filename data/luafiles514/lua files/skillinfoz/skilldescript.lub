@@ -209,7 +209,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Create a magic barrier on",
 		"a targeted spot that will block short range",
 		"melee attacks for the duration of skill.",
-		"Each cast requires 1 ^00bb00Blue Gemstone^777777.^000000"
+		"Each cast requires 1 ^008800Blue Gemstone^777777.^000000"
 	},
 	[SKID.MG_SOULSTRIKE] = {
 		"Soul Strike",
@@ -254,7 +254,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Curse an enemy by turning it",
 		"into stone. Has no effect on Boss and Undead",
 		"monsters.",
-		"Each cast requires 1 ^00bb00Red Gemstone^777777.^000000"
+		"Each cast requires 1 ^008800Red Gemstone^777777.^000000"
 	},
 	[SKID.MG_FIREBALL] = {
 		"Fire Ball",
@@ -321,7 +321,7 @@ SKILL_DESCRIPT = {
 		"14^CC3399Requirement: Cure 1^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increase Defense against Demon",
-		"and Undead monsters based on user's level.^000000",
+		"and Undead monsters.^000000",
 		"[Lv 1]: ^777777DEF +3^000000",
 		"[Lv 2]: ^777777DEF +6^000000",
 		"[Lv 3]: ^777777DEF +9^000000",
@@ -339,8 +339,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Divine Protection 3^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increase Attack Strength against",
-		"Demon and Undead monsters based on user's",
-		"level.^000000",
+		"Demon and Undead monsters.^000000",
 		"[Lv 1]: ^777777ATK +3^000000",
 		"[Lv 2]: ^777777ATK +6^000000",
 		"[Lv 3]: ^777777ATK +9^000000",
@@ -389,10 +388,10 @@ SKILL_DESCRIPT = {
 		"teleport those who enter it to another area.",
 		"Each Warp Portal can teleport up to 8 people.",
 		"Each cast requires 1 ^990099Blue Gemstone^777777.^000000",
-		"[Lv 1]: ^777777Warp to Save Point, 35sp^000000",
-		"[Lv 2]: ^777777Enable 1 Memo point, 32sp^000000",
-		"[Lv 3]: ^777777Enable 2 Memo points, 29sp^000000",
-		"[Lv 4]: ^777777Enable 3 Memo points, 26sp^000000",
+		"[Lv 1]: ^777777Warp to Save Point^000000",
+		"[Lv 2]: ^777777Enable 1 Memo point^000000",
+		"[Lv 3]: ^777777Enable 2 Memo points^000000",
+		"[Lv 4]: ^777777Enable 3 Memo points^000000",
 		"^990000[Memo Point]: ^777777Specific map area memorized",
 		"as a destination for a Warp Portal.",
 		"Type ^000000/memo^777777 in a target area to set location",
@@ -404,9 +403,9 @@ SKILL_DESCRIPT = {
 		"14^CC3399Requirement: Faith 10, Demon Bane 5^000000",
 		"Skill Form: ^339900Recovery^000000",
 		"Target: ^777777Player^000000",
-		"Description: ^777777Restore a targeted player's HP.",
-		"Caster's base level and INT affect the amount",
-		"of HP recovered by Heal.^000000"
+		"Description: ^777777Restores target's HP. Caster's",
+		"base level and INT affect the amount of HP",
+		"recovered.^000000"
 	},
 	[SKID.AL_INCAGI] = {
 		"Increase Agility",
@@ -470,12 +469,13 @@ SKILL_DESCRIPT = {
 		"Max Level: 1",
 		"4^CC3399Requirement: Heal 2^000000",
 		"14^CC3399Requirement: Faith 5^000000",
+		"23^CC3399Requirement: Heal 2^000000",
 		"Skill Form: ^339900Recovery^000000",
 		"Target: ^777777Player^000000",
 		"Description: ^777777Cancel various abnormal statuses",
 		"such as ^663399Silence^777777, ^663399Chaos^777777 or ^663399Blind^777777 from target.",
-		"Inflicts ^663399Chaos^777777 status when used",
-		"against Undead monsters.^000000"
+		"Inflicts ^663399Chaos^777777 status when used against",
+		"Undead monsters.^000000"
 	},
 	[SKID.MC_INCCARRY] = {
 		"Enlarge Weight Limit",
@@ -580,7 +580,7 @@ SKILL_DESCRIPT = {
 		"Owl's Eye",
 		"Max Level: 10",
 		"Skill Form: ^6666CCPassive^000000",
-		"Description: ^777777Increase DEX.^000000",
+		"Description: ^777777Increases DEX.^000000",
 		"[Lv 1]: ^777777DEX +1^000000",
 		"[Lv 2]: ^777777DEX +2^000000",
 		"[Lv 3]: ^777777DEX +3^000000",
@@ -595,9 +595,10 @@ SKILL_DESCRIPT = {
 	[SKID.AC_VULTURE] = {
 		"Vulture's Eye",
 		"Max Level: 10",
-		"^CC3399Requirement: Owl's Eye 3^000000",
+		"3^CC3399Requirement: Owl's Eye 3^000000",
+		"23^CC3399Requirement: Owl's Eye 3^000000",
 		"Skill Form: ^6666CCPassive^000000",
-		"Description: ^777777Increase attack range and",
+		"Description: ^777777Increases attack range and",
 		"hit rate with bow class weapons.^000000",
 		"[Lv 1]: ^777777Range +1^000000",
 		"[Lv 2]: ^777777Range +2^000000",
@@ -650,7 +651,7 @@ SKILL_DESCRIPT = {
 		"Improve Dodge",
 		"Max Level: 10",
 		"Skill Form: ^6666CCPassive^000000",
-		"Description: ^777777Increase flee rate.",
+		"Description: ^777777Increases flee rate.",
 		"Flee rate increases upon reaching 2nd Class.^000000"
 	},
 	[SKID.TF_STEAL] = {
@@ -658,7 +659,7 @@ SKILL_DESCRIPT = {
 		"Max Level: 10",
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Enemy^000000",
-		"Description: ^777777Steal item from monster.^000000"
+		"Description: ^777777Steal an item from monster.^000000"
 	},
 	[SKID.TF_HIDING] = {
 		"Hiding",
@@ -694,7 +695,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Dead Player^000000",
 		"Description: ^777777Revive a dead character.",
-		"Requires 1 ^00BB00Blue Gemstone^777777 for each cast.^000000",
+		"Requires 1 ^008800Blue Gemstone^777777 for each cast.^000000",
 		"[Lv 1]: ^777777Revive with 10% of Max HP^000000",
 		"[Lv 2]: ^777777Revive with 30% of Max HP^000000",
 		"[Lv 3]: ^777777Revive with 50% of Max HP^000000",
@@ -727,7 +728,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Attack an enemy using a thrusting",
 		"stab with a number of additional hits that will",
 		"depend on the monster's size.",
-		"Requires ^00BB00Spear^777777 class weapon.^000000",
+		"Requires ^008800Spear^777777 class weapon.^000000",
 		"[Small Monsters]: ^7777771 hit^000000",
 		"[Medium Monsters]: ^7777772 hits^000000",
 		"[Large Monsters]: ^7777773 hits^000000"
@@ -741,7 +742,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777A powerful lancing strike made",
 		"while riding a Peco Peco. can only be",
 		"performed while mounted on a Peco Peco.",
-		"Requires ^00BB00Spear^777777 class weapon.^000000"
+		"Requires ^008800Spear^777777 class weapon.^000000"
 	},
 	[SKID.KN_SPEARSTAB] = {
 		"Spear Stab",
@@ -751,7 +752,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Enemy^000000 ",
 		"Description: ^777777Attack an enemy with a forceful",
 		"spear stab that will knock it back.",
-		"Requires ^00bb00Spear^777777 class weapon^000000."
+		"Requires ^008800Spear^777777 class weapon^000000."
 	},
 	[SKID.KN_SPEARBOOMERANG] = {
 		"Spear Boomerang",
@@ -761,7 +762,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Enemy^000000 ",
 		"Description: ^777777Attack an enemy from a distance",
 		"by hurling a spear.",
-		"Requires ^00bb00Spear^777777 class weapon^000000."
+		"Requires ^008800Spear^777777 class weapon^000000."
 	},
 	[SKID.KN_TWOHANDQUICKEN] = {
 		"Two-Hand Quicken",
@@ -876,7 +877,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Endow the targeted player's",
 		"weapon with the Holy element for the skill's",
 		"duration.",
-		"Requires 1 ^00BB00Holy Water^777777 for each cast.^000000",
+		"Requires 1 ^008800Holy Water^777777 for each cast.^000000",
 		"[Lv 1]: ^77777760 sec duration^000000",
 		"[Lv 2]: ^77777790 sec duration^000000",
 		"[Lv 3]: ^777777120 sec duration^000000",
@@ -906,7 +907,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Create a holy area on the ground",
 		"that will provide continuous HP restoration",
 		"for the skill's duration.",
-		"Each cast requires 1 ^00BB00Blue Gemstone^777777.^000000"
+		"Each cast requires 1 ^008800Blue Gemstone^777777.^000000"
 	},
 	[SKID.PR_SLOWPOISON] = {
 		"Slow Poison",
@@ -1003,7 +1004,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Summon a purifying cross on the",
 		"ground to exterminate Demon and Undead",
 		"monsters.",
-		"Each cast requires 1 ^00BB00Blue Gemstone^777777.^000000"
+		"Each cast requires 1 ^008800Blue Gemstone^777777.^000000"
 	},
 	[SKID.WZ_FIREPILLAR] = {
 		"Fire Pillar",
@@ -1024,7 +1025,7 @@ SKILL_DESCRIPT = {
 		"Element: ^FF0000Fire^000000",
 		"Description: ^777777Attack enemies by shooting",
 		"fireballs, which are first summoned by the",
-		"^00BB00Sight ^777777skill, in directions that radiate",
+		"^008800Sight ^777777skill, in directions that radiate",
 		"away from the caster.^000000"
 	},
 	[SKID.WZ_FIREIVY] = {
@@ -1078,7 +1079,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Enemy^000000 ",
 		"Description: ^777777Hurl spheres of water at high",
 		"velocity at a targeted enemy. Caster must be",
-		"standing in ^00BB00water^777777 in order to cast Water Ball",
+		"standing in ^008800water^777777 in order to cast Water Ball",
 		"and cannot be used in an underwater map.^000000"
 	},
 	[SKID.WZ_ICEWALL] = {
@@ -1191,7 +1192,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Enchanted Stone Craft 1^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increase the success rate",
-		"of forging items with ^00BB00Oridecon^777777.^000000"
+		"of forging items with ^008800Oridecon^777777.^000000"
 	},
 	[SKID.BS_DAGGER] = {
 		"Smith Dagger",
@@ -1284,10 +1285,10 @@ SKILL_DESCRIPT = {
 		"Names of weapons that have been damaged",
 		"are displayed in red color.^000000",
 		"Armors: ^777777Steel^000000",
-		"Level 1 Weapon: ^00BB00Iron Ore^000000",
-		"Level 2 Weapon: ^00BB00Iron^000000",
-		"Level 3 Weapon: ^00BB00Steel^000000",
-		"Level 4 Weapon: ^00BB00Rough Oridecon^000000"
+		"Level 1 Weapon: ^008800Iron Ore^000000",
+		"Level 2 Weapon: ^008800Iron^000000",
+		"Level 3 Weapon: ^008800Steel^000000",
+		"Level 4 Weapon: ^008800Rough Oridecon^000000"
 	},
 	[SKID.BS_SKINTEMPER] = {
 		"Skin Tempering",
@@ -1361,7 +1362,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Set a trap which will make",
 		"an enemy slide in the direction that the caster",
 		"was facing at the moment the trap was set.",
-		"Each cast requires 1 ^00BB00Trap^777777.^000000",
+		"Each cast requires 1 ^008800Trap^777777.^000000",
 		"[Lv 1]: ^7777776 cell sliding range, 300 sec^000000",
 		"[Lv 2]: ^7777777 cell sliding range, 240 sec^000000",
 		"[Lv 3]: ^7777778 cell sliding range, 180 sec^000000",
@@ -1375,7 +1376,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ground^000000",
 		"Description: ^777777Set a trap which will",
 		"explode once an enemy steps on it.",
-		"Each cast requires 1 ^00BB00Trap^777777.^000000",
+		"Each cast requires 1 ^008800Trap^777777.^000000",
 		"[Lv 1]: ^777777ATK 50%, 200 sec duration^000000",
 		"[Lv 2]: ^777777ATK 75%, 160 sec duration^000000",
 		"[Lv 3]: ^777777ATK 100%, 120 sec duration^000000",
@@ -1391,7 +1392,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Set a trap that will bind an",
 		"enemy to the ground for the skill's duration,",
 		"which is affected by the AGI of the target.",
-		"Each cast requires 1 ^00BB00Trap^777777.^000000"
+		"Each cast requires 1 ^008800Trap^777777.^000000"
 	},
 	[SKID.HT_SHOCKWAVE] = {
 		"Shockwave Trap",
@@ -1401,7 +1402,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ground^000000",
 		"Description: ^777777Set a trap which will",
 		"drain SP away from enemies.",
-		"Each cast requires 2 ^00BB00Traps^777777.^000000",
+		"Each cast requires 2 ^008800Traps^777777.^000000",
 		"[Lv 1]: ^77777720% Max SP Drain, 200 sec duration^000000",
 		"[Lv 2]: ^77777735% Max SP Drain, 160 sec duration^000000",
 		"[Lv 3]: ^77777750% Max SP Drain, 120 sec duration^000000",
@@ -1417,7 +1418,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Set a trap that will cause the",
 		"enemy that steps on it, as well as enemies",
 		"within the trap's range, to fall asleep.",
-		"Each cast requires 1 ^00BB00Trap^777777.^000000",
+		"Each cast requires 1 ^008800Trap^777777.^000000",
 		"[Lv 1]: ^777777150 sec duration^000000",
 		"[Lv 2]: ^777777120 sec duration^000000",
 		"[Lv 3]: ^77777790 sec duration^000000",
@@ -1433,7 +1434,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Set a trap which will emit",
 		"intense light, which may inflict the target",
 		"with the Blind status.",
-		"Each cast requires 2 ^00BB00Traps^777777.^000000",
+		"Each cast requires 2 ^008800Traps^777777.^000000",
 		"[Lv 1]: ^777777150 sec duration^000000",
 		"[Lv 2]: ^777777120 sec duration^000000",
 		"[Lv 3]: ^77777790 sec duration^000000",
@@ -1448,7 +1449,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ground^000000",
 		"Description: ^777777Set a trap which will freeze",
 		"an enemy once it has been triggered.",
-		"Each cast requires 2 ^00BB00Traps^777777.^000000",
+		"Each cast requires 2 ^008800Traps^777777.^000000",
 		"[Lv 1]: ^777777150 sec duration^000000",
 		"[Lv 2]: ^777777120 sec duration^000000",
 		"[Lv 3]: ^77777790 sec duration^000000",
@@ -1465,7 +1466,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Set a trap that will automatically",
 		"explode after a specific time period",
 		"determined by the level of the skill.",
-		"Each cast requires 1 ^00BB00Trap^777777.^000000",
+		"Each cast requires 1 ^008800Trap^777777.^000000",
 		"[Lv 1]: ^77777725 sec duration^000000",
 		"[Lv 2]: ^77777720 sec duration^000000",
 		"[Lv 3]: ^77777715 sec duration^000000",
@@ -1481,7 +1482,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ground^000000",
 		"Description: ^777777Set a trap which will inflict",
 		"splashed damage.",
-		"Each cast requires 2 ^00BB00Traps^777777.^000000",
+		"Each cast requires 2 ^008800Traps^777777.^000000",
 		"[Lv 1]: ^77777720 sec duration^000000",
 		"[Lv 2]: ^77777740 sec duration^000000",
 		"[Lv 3]: ^77777760 sec duration^000000",
@@ -1492,7 +1493,7 @@ SKILL_DESCRIPT = {
 		"Remove Trap",
 		"Max Level: 1",
 		"11^CC3399Requirement: Land Mine 1^000000",
-		"17^CC3399Requirement: Double Strafe 10^000000",
+		"17^CC3399Requirement: Double Strafe 5^000000",
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Trap^000000",
 		"Description: ^777777Remove a trap that has been set",
@@ -1508,7 +1509,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Set a trap which will last for 600",
 		"seconds and will display a prepared message",
 		"for the person who triggers it.",
-		"Each cast requires 1 ^00BB00Trap^777777.^000000"
+		"Each cast requires 1 ^008800Trap^777777.^000000"
 	},
 	[SKID.HT_BEASTBANE] = {
 		"Beastbane",
@@ -1657,7 +1658,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Direct a flurry of rapid Katar",
 		"strikes that will have a chance of inflicting",
 		"the ^663399Stun^777777 status on the target.",
-		"Requires ^00BB00Katar^777777 class weapon.^000000"
+		"Requires ^008800Katar^777777 class weapon.^000000"
 	},
 	[SKID.AS_GRIMTOOTH] = {
 		"Grimtooth",
@@ -1666,8 +1667,8 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^FF0000Offensive^000000",
 		"Target: ^777777Enemy^000000",
 		"Description: ^777777Strike an enemy with Katar",
-		"while in ^00BB00Hiding^777777 status.",
-		"Requires ^00BB00Katar^777777 class weapon.^000000"
+		"while in ^008800Hiding^777777 status.",
+		"Requires ^008800Katar^777777 class weapon.^000000"
 	},
 	[SKID.AS_ENCHANTPOISON] = {
 		"Enchant Poison",
@@ -1716,7 +1717,7 @@ SKILL_DESCRIPT = {
 		"the target will then explode after a few",
 		"seconds, dealing splash damage around it",
 		"and poisoning enemies by chance.",
-		"Each cast requires 1 ^00BB00Red Gemstone^777777.^000000"
+		"Each cast requires 1 ^008800Red Gemstone^777777.^000000"
 	},
 	[SKID.NV_FIRSTAID] = {
 		"First Aid",
@@ -1817,7 +1818,7 @@ SKILL_DESCRIPT = {
 		"which inflicts 50 damage that will pierce enemy",
 		"defense and has a low chance of causing the",
 		"^663399Stun^777777 or ^663399Blind^777777 status.",
-		"Each cast requires 1 ^00BB00Stone^777777.^000000"
+		"Each cast requires 1 ^008800Stone^777777.^000000"
 	},
 	[SKID.MC_CARTREVOLUTION] = {
 		"Cart Revolution",
@@ -1875,7 +1876,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Automatically steal items from",
 		"monsters while attacking them. The success",
 		"rate of stealing items is affected by the skill",
-		"level of the Thief skill, ^00BB00Steal^777777.^000000"
+		"level of the Thief skill, ^008800Steal^777777.^000000"
 	},
 	[SKID.RG_STEALCOIN] = {
 		"Steal Coin (Mug)",
@@ -1911,7 +1912,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^6666CCPassive^000000",
 		"Target: ^777777Caster^000000",
 		"Description: ^777777Enables movement while in",
-		"^00BB00Hiding^777777 status.",
+		"^008800Hiding^777777 status.",
 		"Movement speed is slower than normal walk.^000000",
 	},
 	[SKID.RG_RAID] = {
@@ -1920,7 +1921,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Tunnel Drive 2, Back Stab 2^000000",
 		"Skill Form: ^FF0000Offensive^000000",
 		"Range: ^7777779 cells around the caster^000000",
-		"Description: ^777777Only usable while in ^00BB00Hiding^777777",
+		"Description: ^777777Only usable while in ^008800Hiding^777777",
 		"status and will cancel Hiding once used.",
 		"This attack has a chance of causing Stun",
 		"and Blind effects on targets within the",
@@ -2005,7 +2006,7 @@ SKILL_DESCRIPT = {
 		"cell with a message of up to 20 characters.",
 		"Graffiti cannot be overlapped or painted over",
 		"before it disappears.",
-		"Requires 1 ^00BB00Red Gemstone^777777.^000000"
+		"Requires 1 ^008800Red Gemstone^777777.^000000"
 	},
 	[SKID.RG_FLAGGRAFFITI] = {
 		"Flag Graffiti (Piece)",
@@ -2017,7 +2018,7 @@ SKILL_DESCRIPT = {
 		"flag which will be shown instead of the",
 		"guild's emblem. This skill's level affects",
 		"the amount of graffiti that can be painted.",
-		"Requires 1 ^00BB00Giant Paint Brush^777777.^000000"
+		"Requires 1 ^008800Giant Paint Brush^777777.^000000"
 	},
 	[SKID.RG_CLEANER] = {
 		"Cleaner (Remover)",
@@ -2026,7 +2027,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Guild Flag^000000",
 		"Description: ^777777Remove graffiti from a guild flag",
-		"Requires 1 ^00BB00Wet Duster^777777.^000000"
+		"Requires 1 ^008800Wet Duster^777777.^000000"
 	},
 	[SKID.RG_GANGSTER] = {
 		"Gangster Paradise (Slyness)",
@@ -2096,7 +2097,7 @@ SKILL_DESCRIPT = {
 		"and chemical. The correct ^000099Potion Creation",
 		"Guide^777777 is needed for the manufacture",
 		"of specific potions.",
-		"Each cast requires 1 ^00BB00Medicine Bowl^777777.^000000"
+		"Each cast requires 1 ^008800Medicine Bowl^777777.^000000"
 	},
 	[SKID.AM_DEMONSTRATION] = {
 		"Demonstration (Bomb)",
@@ -2110,7 +2111,7 @@ SKILL_DESCRIPT = {
 		"not push back enemies within their range, but",
 		"they do have a chance of damaging the",
 		"weapons of enemies.",
-		"Each cast require 1 ^00BB00Bottle Grenade^777777.^000000"
+		"Each cast require 1 ^008800Bottle Grenade^777777.^000000"
 	},
 	[SKID.AM_ACIDTERROR] = {
 		"Acid Terror",
@@ -2122,7 +2123,7 @@ SKILL_DESCRIPT = {
 		"at an enemy that has the chance of damaging",
 		"the target's armor or causing the Bleeding",
 		"effect.",
-		"Each cast requires 1 ^00BB00Acid Bottle^777777.^000000"
+		"Each cast requires 1 ^008800Acid Bottle^777777.^000000"
 	},
 	[SKID.AM_POTIONPITCHER] = {
 		"Potion Pitcher",
@@ -2153,7 +2154,7 @@ SKILL_DESCRIPT = {
 		"of Plant monster that is summoned, as well as",
 		"the monster's Max HP. Caster can only",
 		"summon monsters of the same type at once.",
-		"Each cast requires 1 ^00BB00Plant Bottle^777777.^000000",
+		"Each cast requires 1 ^008800Plant Bottle^777777.^000000",
 		"[Lv 1]: ^777777Summon up to 5 Mandragora^000000",
 		"[Lv 2]: ^777777Summon up to 4 Hydra^000000",
 		"[Lv 3]: ^777777Summon up to 3 Flora^000000",
@@ -2169,7 +2170,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Summon a ^000099Marine Sphere^777777 to a",
 		"targeted cell. Marine Spheres will cast",
 		"^000099Self-Destruct^777777 upon receiving damage.",
-		"Each cast requires 1 ^00BB00Marine Sphere Bottle^777777.^000000"
+		"Each cast requires 1 ^008800Marine Sphere Bottle^777777.^000000"
 	},
 	[SKID.AM_CP_WEAPON] = {
 		"Chemical Protection Weapon",
@@ -2179,7 +2180,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ally^000000",
 		"Description: ^777777Protect a targeted ally's Weapon",
 		"from damage in battle for a set duration.",
-		"Each cast requires 1 ^00BB00Glistening Coat^777777.^000000"
+		"Each cast requires 1 ^008800Glistening Coat^777777.^000000"
 	},
 	[SKID.AM_CP_SHIELD] = {
 		"Chemical Protection Shield",
@@ -2189,7 +2190,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ally^000000",
 		"Description: ^777777Protect a targeted ally's Shield",
 		"from damage in battle for a set duration.",
-		"Each cast requires 1 ^00BB00Glistening Coat^777777.^000000"
+		"Each cast requires 1 ^008800Glistening Coat^777777.^000000"
 	},
 	[SKID.AM_CP_ARMOR] = {
 		"Chemical Protection Armor",
@@ -2199,7 +2200,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ally^000000",
 		"Description: ^777777Protect a targeted ally's Armor",
 		"from damage in battle for a set duration.",
-		"Each cast requires 1 ^00BB00Glistening Coat^777777.^000000"
+		"Each cast requires 1 ^008800Glistening Coat^777777.^000000"
 	},
 	[SKID.AM_CP_HELM] = {
 		"Chemical Protection Helm",
@@ -2209,7 +2210,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ally^000000",
 		"Description: ^777777Protect a targeted ally's Headgear",
 		"from damage in battle for a set duration.",
-		"Each cast requires 1 ^00BB00Glistening Coat^777777.^000000"
+		"Each cast requires 1 ^008800Glistening Coat^777777.^000000"
 	},
 	[SKID.AM_BIOETHICS] = {
 		"Bioethics",
@@ -2254,7 +2255,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Supportive^000000",
 		"Description: ^777777Summon an existing Homunculus",
 		"that was stored by using the Vaporize skill.",
-		"Each cast requires 1 ^00BB00Embryo^777777.^000000"
+		"Each cast requires 1 ^008800Embryo^777777.^000000"
 	},
 	[SKID.AM_REST] = {
 		"Rest",
@@ -2265,7 +2266,7 @@ SKILL_DESCRIPT = {
 		"that is much easier to carry around. This skill",
 		"is only usable if Homunculus has at least 80%",
 		"of its Max HP. Vaporized Homunculus can be",
-		"restored with the ^00BB00Call Homunculus^000000 skill.^000000"
+		"restored with the ^008800Call Homunculus^000000 skill.^000000"
 	},
 	[SKID.AM_DRILLMASTER] = {
 		"Drillmaster",
@@ -2319,7 +2320,7 @@ SKILL_DESCRIPT = {
 		"but this time can be reduced by",
 		"increasing the skill's level. Casting",
 		"this skill again cancels Guard status.",
-		"Requires ^00BB00Shield^777777.^000000"
+		"Requires ^008800Shield^777777.^000000"
 	},
 	[SKID.CR_SHIELDCHARGE] = {
 		"Shield Charge (Smite)",
@@ -2330,7 +2331,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Smash a Shield into an enemy,",
 		"pushing it a few cells backward with a chance",
 		"of causing the Stun status.",
-		"Requires ^00BB00Shield^777777.^000000"
+		"Requires ^008800Shield^777777.^000000"
 	},
 	[SKID.CR_SHIELDBOOMERANG] = {
 		"Shield Boomerang",
@@ -2342,7 +2343,7 @@ SKILL_DESCRIPT = {
 		"by throwing a Shield. The Shield's weight and",
 		"upgrade status affect the amount of damage",
 		"that is inflicted.",
-		"Requires ^00BB00Shield^777777.^000000"
+		"Requires ^008800Shield^777777.^000000"
 	},
 	[SKID.CR_REFLECTSHIELD] = {
 		"Reflect Shield",
@@ -2352,7 +2353,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Reflect a certain amount of",
 		"damage back to the enemy after they",
 		"inflict damage with melee physical attack.",
-		"Requires ^00BB00Shield^777777.^000000"
+		"Requires ^008800Shield^777777.^000000"
 	},
 	[SKID.CR_HOLYCROSS] = {
 		"Holy Cross",
@@ -2409,12 +2410,12 @@ SKILL_DESCRIPT = {
 		"Max Level: 5",
 		"^CC3399Requirement: Shield Boomerang 1^000000",
 		"Skill Form: ^339900Supportive^000000",
-		"Description: ^777777Reduce damage inflicted from long",
+		"Description: ^777777Reduce damage taken from long",
 		"ranged physical attacks at the cost of",
 		"decreasing ASPD and movement speeds for",
 		"the skill's duration. Casting this skill",
 		"again cancels the Defender status.",
-		"Requires ^00BB00Shield^777777.^000000"
+		"Requires ^008800Shield^777777.^000000"
 	},
 	[SKID.CR_SPEARQUICKEN] = {
 		"Spear Quicken",
@@ -2484,7 +2485,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Enable the chance of automatically",
 		"delivering a triple attack in battle. This skill",
-		"can be followed up with ^00BB00Chain Combo^777777.^000000"
+		"can be followed up with ^008800Chain Combo^777777.^000000"
 	},
 	[SKID.MO_BODYRELOCATION] = {
 		"Body Relocation",
@@ -2496,7 +2497,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Instantly teleport to a targeted",
 		"spot if there are no obstacles between the",
 		"caster and destination.",
-		"Each cast requires 1 ^00BB00Spirit Sphere^777777",
+		"Each cast requires 1 ^008800Spirit Sphere^777777",
 		"when not in Explosion Spirits status."
 	},
 	[SKID.MO_DODGE] = {
@@ -2516,7 +2517,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Attack an enemy with a massive",
 		"psychic impact that will inflict more damage",
 		"when the enemy has high Defense.",
-		"Each cast requires 1 ^00BB00Spirit Sphere.^000000"
+		"Each cast requires 1 ^008800Spirit Sphere.^000000"
 	},
 	[SKID.MO_FINGEROFFENSIVE] = {
 		"Finger Offensive",
@@ -2526,7 +2527,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Enemy^000000",
 		"Description: ^777777Attack a distant enemy by firing",
 		"Spirit Sphere(s).",
-		"Each cast requires at least 1 ^00BB00Spirit Sphere^777777.^000000"
+		"Each cast requires at least 1 ^008800Spirit Sphere^777777.^000000"
 	},
 	[SKID.MO_STEELBODY] = {
 		"Steel Body",
@@ -2537,7 +2538,7 @@ SKILL_DESCRIPT = {
 		"Defense and Magic Defense while decreasing",
 		"Movement and Attack Speed. While this skill",
 		"is active, other skills cannot be used.",
-		"Each cast requires 5 ^00BB00Spirit Spheres^777777.^000000"
+		"Each cast requires 5 ^008800Spirit Spheres^777777.^000000"
 	},
 	[SKID.MO_BLADESTOP] = {
 		"Blade Stop",
@@ -2549,7 +2550,7 @@ SKILL_DESCRIPT = {
 		"Leveling this skill allows the use of other",
 		"skills during the Blade Stop status.",
 		"Ineffective against Boss monsters.",
-		"Each cast requires 1 ^00BB00Spirit Sphere^777777.^000000",
+		"Each cast requires 1 ^008800Spirit Sphere^777777.^000000",
 		"Duration and Skills Enabled in Blade Stop",
 		"Status according to skill level:",
 		"[Lv 1]: ^77777720 sec^000000",
@@ -2570,7 +2571,7 @@ SKILL_DESCRIPT = {
 		"Critical Attack rate for period of time.",
 		"During the Explosion Spirits status,",
 		"natural recovery of SP is reduced by 50%.",
-		"Each cast requires 5 ^00BB00Spirit Spheres^777777.^000000"
+		"Each cast requires 5 ^008800Spirit Spheres^777777.^000000"
 	},
 	[SKID.MO_EXTREMITYFIST] = {
 		"Asura Strike",
@@ -2585,7 +2586,7 @@ SKILL_DESCRIPT = {
 		"using Asura Strike, the Explosion Spirits",
 		"status is automatically canceled and will not",
 		"able to restore SP for 10 seconds.",
-		"Each cast requires 5 ^00BB00Spirit Spheres.^000000"
+		"Each cast requires 5 ^008800Spirit Spheres.^000000"
 	},
 	[SKID.MO_CHAINCOMBO] = {
 		"Chain Combo",
@@ -2609,7 +2610,7 @@ SKILL_DESCRIPT = {
 		"up with the Asura Strike skill if the user",
 		"is in Explosion Spirits state and has",
 		"summoned at least 4 Spirit Spheres.",
-		"Each cast requires 1 ^00BB00Spirit Sphere^777777.^000000"
+		"Each cast requires 1 ^008800Spirit Sphere^777777.^000000"
 	},
 	[SKID.SA_ADVANCEDBOOK] = {
 		"Advanced Book",
@@ -2617,16 +2618,16 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increase Attack Speed",
 		"and damage with Book Class Weapons.^000000",
-		"[Lv 1]: ^777777ATK +3, Aspd +0.5%^000000",
-		"[Lv 2]: ^777777ATK +6, Aspd +1%^000000",
-		"[Lv 3]: ^777777ATK +9, Aspd +1.5%^000000",
-		"[Lv 4]: ^777777ATK +12, Aspd +2%^000000",
-		"[Lv 5]: ^777777ATK +15, Aspd +2.5%^000000",
-		"[Lv 6]: ^777777ATK +18, Aspd +3%^000000",
-		"[Lv 7]: ^777777ATK +21, Aspd +3.5%^000000",
-		"[Lv 8]: ^777777ATK +24, Aspd +4%^000000",
-		"[Lv 9]: ^777777ATK +27, Aspd +4.5%^000000",
-		"[Lv 10]: ^777777ATK +30, Aspd +5%^000000"
+		"[Lv 1]: ^777777ATK +3, After attack delay -0.5%^000000",
+		"[Lv 2]: ^777777ATK +6, After attack delay -1%^000000",
+		"[Lv 3]: ^777777ATK +9, After attack delay -1.5%^000000",
+		"[Lv 4]: ^777777ATK +12, After attack delay -2%^000000",
+		"[Lv 5]: ^777777ATK +15, After attack delay -2.5%^000000",
+		"[Lv 6]: ^777777ATK +18, After attack delay -3%^000000",
+		"[Lv 7]: ^777777ATK +21, After attack delay -3.5%^000000",
+		"[Lv 8]: ^777777ATK +24, After attack delay -4%^000000",
+		"[Lv 9]: ^777777ATK +27, After attack delay -4.5%^000000",
+		"[Lv 10]: ^777777ATK +30, After attack delay -5%^000000"
 	},
 	[SKID.SA_CASTCANCEL] = {
 		"Cast Cancel",
@@ -2708,7 +2709,7 @@ SKILL_DESCRIPT = {
 		"with Fire element for the skill's duration.",
 		"If the skill fails, the weapon being endowed",
 		"will be destroyed.",
-		"Each cast requires 1 ^00BB00Red Blood^777777.^000000"
+		"Each cast requires 1 ^008800Red Blood^777777.^000000"
 	},
 	[SKID.SA_FROSTWEAPON] = {
 		"Frost Weapon",
@@ -2721,7 +2722,7 @@ SKILL_DESCRIPT = {
 		"with Water element for the skill's duration.",
 		"If the skill fails, the weapon being endowed",
 		"will be destroyed.",
-		"Each cast requires 1 ^00BB00Crystal Blue^777777.^000000"
+		"Each cast requires 1 ^008800Crystal Blue^777777.^000000"
 	},
 	[SKID.SA_LIGHTNINGLOADER] = {
 		"Lightning Loader",
@@ -2735,7 +2736,7 @@ SKILL_DESCRIPT = {
 		"with Wind element for the skill's duration.",
 		"If the skill fails, the weapon being endowed",
 		"will be destroyed.",
-		"Each cast requires 1 ^00BB00Wind of Verdure^777777.^000000"
+		"Each cast requires 1 ^008800Wind of Verdure^777777.^000000"
 	},
 	[SKID.SA_SEISMICWEAPON] = {
 		"Seismic Weapon",
@@ -2748,7 +2749,7 @@ SKILL_DESCRIPT = {
 		"with Earth element for the skill's duration.",
 		"If the skill fails, the weapon being endowed",
 		"will be destroyed.",
-		"Each cast requires 1 ^00BB00Green Live^777777.^000000"
+		"Each cast requires 1 ^008800Green Live^777777.^000000"
 	},
 	[SKID.SA_DRAGONOLOGY] = {
 		"Dragonology",
@@ -2771,7 +2772,7 @@ SKILL_DESCRIPT = {
 		"as the Fire element targets' Attack Power,",
 		"in its range. Ice Wall and Sage skills that",
 		"target the ground can't be cast over Volcano.",
-		"Initial cast requires 1 ^00BB00Yellow Gemstone^777777, but",
+		"Initial cast requires 1 ^008800Yellow Gemstone^777777, but",
 		"multiple casting of this skill will not consume",
 		"Gemstones throughout Volcano's active",
 		"duration.^000000"
@@ -2789,7 +2790,7 @@ SKILL_DESCRIPT = {
 		"This area will also enable the use of ^000099Water Ball^777777",
 		"and ^000099Aqua Benedicta^777777. Other Sage skills that",
 		"target the ground can't be cast over Deluge.",
-		"Initial cast requires 1 ^00BB00Yellow Gemstone^777777, but",
+		"Initial cast requires 1 ^008800Yellow Gemstone^777777, but",
 		"multiple casting of this skill will not consume",
 		"Gemstones throughout Deluge's active",
 		"duration.^000000"
@@ -2808,7 +2809,7 @@ SKILL_DESCRIPT = {
 		"Fire Wall so that it lasts 1.5 times longer.",
 		"Other Sage skills that target the ground can't",
 		"be cast over Violent Gale.",
-		"Initial cast requires 1 ^00BB00Yellow Gemstone^777777, but",
+		"Initial cast requires 1 ^008800Yellow Gemstone^777777, but",
 		"multiple casting of this skill will not consume",
 		"Gemstones throughout Violent Gale's active",
 		"duration.^000000"
@@ -2825,8 +2826,8 @@ SKILL_DESCRIPT = {
 		"enchantments. Other Sage skills that target the",
 		"ground can't be cast in the area enchanted by",
 		"Land Protector.",
-		"Each cast requires 1 ^00BB00Blue Gemstone^777777 and",
-		"1 ^00BB00Yellow Gemstone^777777.^000000"
+		"Each cast requires 1 ^008800Blue Gemstone^777777 and",
+		"1 ^008800Yellow Gemstone^777777.^000000"
 	},
 	[SKID.SA_DISPELL] = {
 		"Dispell",
@@ -2837,7 +2838,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Casting Dispell has a chance of",
 		"canceling all magic effects that have been cast",
 		"on a target.",
-		"Each cast requires 1 ^00BB00Yellow Gemstone^777777.^000000"
+		"Each cast requires 1 ^008800Yellow Gemstone^777777.^000000"
 	},
 	[SKID.SA_ABRACADABRA] = {
 		"Abracadabra",
@@ -2849,7 +2850,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Cast a random skill. Leveling this",
 		"skill increases the variety of skills that are",
 		"cast through Abracadabra.",
-		"Each cast requires 2 ^00BB00Yellow Gemstones^777777.^000000"
+		"Each cast requires 2 ^008800Yellow Gemstones^777777.^000000"
 	},
 	[SKID.SA_MONOCELL] = {
 		"Mono Cell",
@@ -2857,7 +2858,7 @@ SKILL_DESCRIPT = {
 		"Target: Enemy",
 		"Description: Transmogrify a target into a Poring for",
 		"the skill's duration. This skill is exclusively",
-		"cast through ^00BB00Abracadabra^777777.^000000"
+		"cast through ^008800Abracadabra^777777.^000000"
 	},
 	[SKID.SA_CLASSCHANGE] = {
 		"Class Change",
@@ -2865,7 +2866,7 @@ SKILL_DESCRIPT = {
 		"Target:^777777Enemy^000000",
 		"Description: ^777777Transmogrify a target into a Boss monster",
 		"for the skill's duration. This skill is exclusively",
-		"cast through ^00BB00Abracadabra^777777.^000000"
+		"cast through ^008800Abracadabra^777777.^000000"
 	},
 	[SKID.SA_SUMMONMONSTER] = {
 		"Summon Monster",
@@ -2914,7 +2915,7 @@ SKILL_DESCRIPT = {
 		"?",
 		"Skill Form: ^339900Active^000000",
 		"Target:^777777Enemy^000000",
-		"Description: ^777777Target shows a emotion [?].",
+		"Description: ^777777Target shows an emotion [?].",
 		"Note: Exclusive skill that can be cast through",
 		"Abracadabra.^000000"
 	},
@@ -3092,7 +3093,7 @@ SKILL_DESCRIPT = {
 		"even while using Play skills, by using an",
 		"instrument. The Arrow's element determines",
 		"the element of this attack.",
-		"^00BB00Requires Musical Instrument Class Weapon.^000000"
+		"^008800Requires Musical Instrument Class Weapon.^000000"
 	},
 	[SKID.BA_DISSONANCE] = {
 		"Dissonance",
@@ -3187,7 +3188,7 @@ SKILL_DESCRIPT = {
 		"even while using Dance skill, by using a whip.",
 		"The Arrow's element determines the element",
 		"of this attack.",
-		"^00BB00Requires Whip Class Weapon.^000000"
+		"^008800Requires Whip Class Weapon.^000000"
 	},
 	[SKID.DC_UGLYDANCE] = {
 		"Ugly Dance",
@@ -3198,7 +3199,7 @@ SKILL_DESCRIPT = {
 		"Range: ^7777775 cells around the caster^000000",
 		"Description: ^777777Continuously reduce the SP",
 		"of enemies within Ugly Dance's range.^000000",
-		"^00BB00Requires Whip Class Weapon.^000000"
+		"^008800Requires Whip Class Weapon.^000000"
 	},
 	[SKID.DC_SCREAM] = {
 		"Scream",
@@ -3218,7 +3219,7 @@ SKILL_DESCRIPT = {
 		"Range: ^7777775 cells around the caster^000000",
 		"Description: ^777777Increase the Accuracy Rate of all",
 		"players within the range of Humming.^000000",
-		"^00BB00Requires Whip Class Weapon.^000000"
+		"^008800Requires Whip Class Weapon.^000000"
 	},
 	[SKID.DC_DONTFORGETME] = {
 		"Forget Me Not",
@@ -3232,7 +3233,7 @@ SKILL_DESCRIPT = {
 		"skill's range. Forget Me Not will also cancel",
 		"any statuses that increase Movement and",
 		"Attack Speed for skill duration.^000000",
-		"^00BB00Requires Whip Class Weapon.^000000"
+		"^008800Requires Whip Class Weapon.^000000"
 	},
 	[SKID.DC_FORTUNEKISS] = {
 		"Fortune's Kiss",
@@ -3243,7 +3244,7 @@ SKILL_DESCRIPT = {
 		"around the caster^000000",
 		"Description: ^777777Increase the Critical Attack rate",
 		"of all players within this skill's range.^000000",
-		"^00BB00Requires Whip Class Weapon.^000000"
+		"^008800Requires Whip Class Weapon.^000000"
 	},
 	[SKID.DC_SERVICEFORYOU] = {
 		"Service For You",
@@ -3255,7 +3256,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Increase the Max SP of Party",
 		"Members within this skill's range, as well as",
 		"reduce their SP consumption for skills.^000000",
-		"^00BB00Requires Whip Class Weapon.^000000"
+		"^008800Requires Whip Class Weapon.^000000"
 	},
 	[SKID.WE_MALE] = {
 		"I'll save you",
@@ -3312,7 +3313,7 @@ SKILL_DESCRIPT = {
 		"attack using Two Handed Sword. When",
 		"successful block an attack, caster will be",
 		"forced to pause momentarily.",
-		"Requires ^00BB00Two Handed Sword^000000.",
+		"Requires ^008800Two Handed Sword^000000.",
 		"[Lv 1]: ^777777Block +23%^000000",
 		"[Lv 2]: ^777777Block +26%^000000",
 		"[Lv 3]: ^777777Block +29%^000000",
@@ -3373,11 +3374,10 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Angelus 1,",
 		"Increase SP Recovery 3, Impositio Manus 3^000000",
 		"Skill Form: ^339900Supportive^000000",
-		"Description: ^777777Increase target's defense",
-		"by 100% for a period of time. Cannot be used",
-		"in conjunction with Kyrie Eleison skill.",
-		"When used in PVP or WOE, defense is",
-		"increased by 35%.^000000",
+		"Description: ^777777Increase target's defense by",
+		"100% or a period of time. Cannot be used in",
+		"conjunction with Kyrie Eleison. When used",
+		"in PVP or WOE, defense is increased by 35%.^000000",
 		"[Lv 1]: ^77777720 sec duration^000000",
 		"[Lv 2]: ^77777740 sec duration^000000",
 		"[Lv 3]: ^77777760 sec duration^000000",
@@ -3395,8 +3395,8 @@ SKILL_DESCRIPT = {
 		"Boss monsters and WoE guardians.",
 		"Basilica cannot be cast if there is an",
 		"obstacle in the area.",
-		"Each cast requires 1 ^00BB00Holy Water^777777, 1 ^00BB00Yellow",
-		"Gemstone^777777, 1 ^00BB00Blue Gemstone^777777 and 1 ^00BB00Red",
+		"Each cast requires 1 ^008800Holy Water^777777, 1 ^008800Yellow",
+		"Gemstone^777777, 1 ^008800Blue Gemstone^777777 and 1 ^008800Red",
 		"Gemstone^777777.^000000",
 		"[Lv 1]: ^77777720 sec duration^000000",
 		"[Lv 2]: ^77777725 sec duration^000000",
@@ -3411,18 +3411,18 @@ SKILL_DESCRIPT = {
 		"Lex Divina 5, Aspersio 3^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increase SP Recovery Rate and",
-		"Max SP, as well as the amount of HP restored",
+		"MaxSP, as well as the amount of HP restored",
 		"by healing skills.^000000",
-		"[Lv 1]: ^777777MaxSP +1%, SP Recovery Rate +3%^000000",
-		"[Lv 2]: ^777777MaxSP +2%, SP Recovery Rate +6%^000000",
-		"[Lv 3]: ^777777MaxSP +3%, SP Recovery Rate +9%^000000",
-		"[Lv 4]: ^777777MaxSP +4%, SP Recovery Rate +12%^000000",
-		"[Lv 5]: ^777777MaxSP +5%, SP Recovery Rate +15%^000000",
-		"[Lv 6]: ^777777MaxSP +6%, SP Recovery Rate +18%^000000",
-		"[Lv 7]: ^777777MaxSP +7%, SP Recovery Rate +21%^000000",
-		"[Lv 8]: ^777777MaxSP +8%, SP Recovery Rate +24%^000000",
-		"[Lv 9]: ^777777MaxSP +9%, SP Recovery Rate +27%^000000",
-		"[Lv 10]: ^777777MaxSP +10%, SP Recovery Rate +30%^000000"
+		"[Lv 1]: ^777777MaxSP +1%, SP recovery rate +3%^000000",
+		"[Lv 2]: ^777777MaxSP +2%, SP recovery rate +6%^000000",
+		"[Lv 3]: ^777777MaxSP +3%, SP recovery rate +9%^000000",
+		"[Lv 4]: ^777777MaxSP +4%, SP recovery rate +12%^000000",
+		"[Lv 5]: ^777777MaxSP +5%, SP recovery rate +15%^000000",
+		"[Lv 6]: ^777777MaxSP +6%, SP recovery rate +18%^000000",
+		"[Lv 7]: ^777777MaxSP +7%, SP recovery rate +21%^000000",
+		"[Lv 8]: ^777777MaxSP +8%, SP recovery rate +24%^000000",
+		"[Lv 9]: ^777777MaxSP +9%, SP recovery rate +27%^000000",
+		"[Lv 10]: ^777777MaxSP +10%, SP recovery rate +30%^000000"
 	},
 	[SKID.HW_SOULDRAIN] = {
 		"Soul Drain",
@@ -3529,7 +3529,7 @@ SKILL_DESCRIPT = {
 		"pushing back the enemy and causing damage,",
 		"which is determined by the skill's level,",
 		"after 1 second delay. This skill can only",
-		"be used during the ^00BB00Explosion Spirits status^777777.^000000",
+		"be used during the ^008800Explosion Spirits status^777777.^000000",
 		"[Lv 1]: ^777777ATK +300%^000000",
 		"[Lv 2]: ^777777ATK +400%^000000",
 		"[Lv 3]: ^777777ATK +500%^000000",
@@ -3546,7 +3546,7 @@ SKILL_DESCRIPT = {
 		"after using Chain Combo. An enemy hit by",
 		"this skill is immobilized for a short period",
 		"of time.",
-		"Each cast requires 1 ^00BB00Spirit Sphere^777777.^000000",
+		"Each cast requires 1 ^008800Spirit Sphere^777777.^000000",
 		"[Lv 1]: ^777777ATK +140%, Freezing Chance 20%^000000",
 		"[Lv 2]: ^777777ATK +240%, Freezing Chance 30%^000000",
 		"[Lv 3]: ^777777ATK +340%, Freezing Chance 40%^000000",
@@ -3563,7 +3563,7 @@ SKILL_DESCRIPT = {
 		"after using Combo Finish. Tiger Fist cannot",
 		"be used after this skill, although it can be",
 		"followed up with Asura Strike.",
-		"^00BB00Each cast requires 2 Spirit Spheres^777777.^000000",
+		"^008800Each cast requires 2 Spirit Spheres^777777.^000000",
 		"[Lv 1]: ^777777ATK +500%^000000",
 		"[Lv 2]: ^777777ATK +600%^000000",
 		"[Lv 3]: ^777777ATK +700%^000000",
@@ -3815,8 +3815,8 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^FF0000Offensive^000000",
 		"Description: ^777777Fire an awesome flurry of arrows",
 		"at a targeted enemy.",
-		"Requires ^00BB00Musical Instrument^777777 for Clown",
-		"and ^00BB00Whip^777777 class weapon for Gypsy.^000000",
+		"Requires ^008800Musical Instrument^777777 for Clown",
+		"and ^008800Whip^777777 class weapon for Gypsy.^000000",
 		"[Lv 1]: ^777777300% ATK^000000",
 		"[Lv 2]: ^777777400% ATK^000000",
 		"[Lv 3]: ^777777500% ATK^000000",
@@ -3901,7 +3901,7 @@ SKILL_DESCRIPT = {
 		"cause various abnormal statuses. This skill's",
 		"level affects the Attack Power and the success",
 		"rate of causing abnormal status effects.",
-		"Requires ^00BB00Spear^777777 Class Weapon.^000000",
+		"Requires ^008800Spear^777777 Class Weapon.^000000",
 		"[Lv 1]: ^77777760%ATK^000000",
 		"[Lv 2]: ^77777770%ATK^000000",
 		"[Lv 3]: ^77777780%ATK^000000",
@@ -3989,7 +3989,7 @@ SKILL_DESCRIPT = {
 		"Fiber Locked targets and cancel the Fiber",
 		"Locked status. A maximum of 2 Spider Webs",
 		"can be shot at once.",
-		"Each cast requires 1 ^00BB00Cobweb^777777.^000000"
+		"Each cast requires 1 ^008800Cobweb^777777.^000000"
 	},
 	[SKID.ASC_METEORASSAULT] = {
 		"Meteor Assault",
@@ -4096,7 +4096,7 @@ SKILL_DESCRIPT = {
 		"Tornado Kick",
 		"Max Level: 7",
 		"Skill Form: ^FF0000Offensive^000000",
-		"Description: ^777777Caster must be in ^00BB00Tornado Stance^777777to",
+		"Description: ^777777Caster must be in ^008800Tornado Stance^777777to",
 		"perform this skill which will attack all enemies",
 		"within a 5*5 cell area around the caster.^000000",
 		"^FF0000Soul Linkers cannot perform this skill.^000000",
@@ -4123,7 +4123,7 @@ SKILL_DESCRIPT = {
 		"Heel Drop",
 		"Max Level: 7",
 		"Skill Form: ^FF0000Offensive^000000",
-		"Description: ^777777Caster must be in ^00BB00Heel Drop Stance^777777to",
+		"Description: ^777777Caster must be in ^008800Heel Drop Stance^777777to",
 		"perform this skill which will inflict damage",
 		"and cause the Stun effect for 3 seconds on the",
 		"targeted enemy.^000000",
@@ -4151,7 +4151,7 @@ SKILL_DESCRIPT = {
 		"Roundhouse Kick",
 		"Max Level: 7",
 		"Skill Form: ^FF0000Offensive^000000",
-		"Description: ^777777Caster must be in ^00BB00Roundhouse Stance^777777to",
+		"Description: ^777777Caster must be in ^008800Roundhouse Stance^777777to",
 		"perform this skill which will damage its target",
 		"and and push back enemies around the target.",
 		"Enemies that are pushed do not receive any",
@@ -4171,7 +4171,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Counter Kick 1^000000",
 		"Skill Form: ^777777Stance^000000",
 		"Description: ^777777Enable a 20% chance of automatically",
-		"entering ^00BB00Counter Kick Stance^777777when the caster",
+		"entering ^008800Counter Kick Stance^777777when the caster",
 		"successfully hits a target.",
 		"^FF0000Soul Linkers cannot perform this skill.^000000",
 		"[Lv 1]: ^7777770 Sec Cast Time, 1 SP^000000"
@@ -4357,7 +4357,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Solar,",
 		"Lunar and Stellar Perception 1^000000",
 		"Skill Form: ^FF0000Offensive^000000",
-		"Description: ^777777This skill is only enabled in ^00BB00Solar",
+		"Description: ^777777This skill is only enabled in ^008800Solar",
 		"areas^777777. Inflict damage, drain 2 SP and push back",
 		"monsters around the caster. On other players,",
 		"this skill will only have the push back effect",
@@ -4373,7 +4373,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Solar,",
 		"Lunar and Stellar Perception 2^000000",
 		"Skill Form: ^FF0000Offensive^000000",
-		"Description: ^777777This skill is only enabled in ^00BB00Lunar",
+		"Description: ^777777This skill is only enabled in ^008800Lunar",
 		"areas^777777. Inflict damage, drain 2 SP and push back",
 		"monsters around the caster. On other players,",
 		"this skill will only have the push back effect",
@@ -4390,7 +4390,7 @@ SKILL_DESCRIPT = {
 		"Lunar and Stellar Perception 3^000000",
 		"Skill Form: ^FF0000Offensive^000000",
 		"Description: ^777777This skill is only enabled in",
-		"^00BB00Stellar areas^777777. Inflict damage, drain 2 SP and",
+		"^008800Stellar areas^777777. Inflict damage, drain 2 SP and",
 		"push back monsters around the caster. On other",
 		"players, this skill will only have the push",
 		"back effect and continuously drain SP.",
@@ -4405,8 +4405,8 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Solar, Lunar and",
 		"Stellar Perception 1^000000",
 		"Skill Form: ^339900Supportive^000000",
-		"Description: ^777777This skill is only enabled on ^00BB00Solar",
-		"(even numbered) days^777777in a ^00BB00Solar aligned map^777777.",
+		"Description: ^777777This skill is only enabled on ^008800Solar",
+		"(even numbered) days^777777in a ^008800Solar aligned map^777777.",
 		"Reduces damage from enemies by a set amount",
 		"calculated by this formula:",
 		"(Base Level + DEX + LUK)/2",
@@ -4422,8 +4422,8 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Solar, Lunar and",
 		"Stellar Perception 2^000000",
 		"Skill Form: ^339900Supportive^000000",
-		"Description: ^777777This skill is only enabled on ^00BB00Lunar",
-		"(odd numbered) days^777777in a ^00BB00Lunar aligned map^777777.",
+		"Description: ^777777This skill is only enabled on ^008800Lunar",
+		"(odd numbered) days^777777in a ^008800Lunar aligned map^777777.",
 		"Increases Flee Rate by a set amount that can be",
 		"calculated by this formula:",
 		"(Base Level + DEX + LUK)/10%",
@@ -4440,8 +4440,8 @@ SKILL_DESCRIPT = {
 		"Stellar Perception 3^000000",
 		"Skill Form: ^339900Supportive^000000",
 		"Description: ^777777This skill is only enabled on",
-		"^00BB00Stellar (multiple of five) days^777777in a",
-		"^00BB00Stellar aligned map^777777.",
+		"^008800Stellar (multiple of five) days^777777in a",
+		"^008800Stellar aligned map^777777.",
 		"Increases Attack Speed by a set amount that can",
 		"be calculated by this formula:",
 		"(Base Level + DEX + LUK)/10%",
@@ -4569,16 +4569,16 @@ SKILL_DESCRIPT = {
 		"Speed; at Job Level 50, this skill will",
 		"permanently reduce sight, similarly to the",
 		"Blind effect.^000000",
-		"[Lv 1]: ^777777Aspd +3%^000000",
-		"[Lv 2]: ^777777Aspd +6%^000000",
-		"[Lv 3]: ^777777Aspd +9%^000000",
-		"[Lv 4]: ^777777Aspd +12%^000000",
-		"[Lv 5]: ^777777Aspd +15%^000000",
-		"[Lv 6]: ^777777Aspd +18%^000000",
-		"[Lv 7]: ^777777Aspd +21%^000000",
-		"[Lv 8]: ^777777Aspd +24%^000000",
-		"[Lv 9]: ^777777Aspd +27%^000000",
-		"[Lv 10]: ^777777Aspd +30%^000000"
+		"[Lv 1]: ^777777After attack delay -3%^000000",
+		"[Lv 2]: ^777777After attack delay -6%^000000",
+		"[Lv 3]: ^777777After attack delay -9%^000000",
+		"[Lv 4]: ^777777After attack delay -12%^000000",
+		"[Lv 5]: ^777777After attack delay -15%^000000",
+		"[Lv 6]: ^777777After attack delay -18%^000000",
+		"[Lv 7]: ^777777After attack delay -21%^000000",
+		"[Lv 8]: ^777777After attack delay -24%^000000",
+		"[Lv 9]: ^777777After attack delay -27%^000000",
+		"[Lv 10]: ^777777After attack delay -30%^000000"
 	},
 	[SKID.SG_FRIEND] = {
 		"Solar, Lunar and Stellar Team-Up",
@@ -4665,7 +4665,7 @@ SKILL_DESCRIPT = {
 		"duration of the increase in Attack Speed from",
 		"this skill lasts only half as long as the",
 		"Berserk Potion item.",
-		"Each cast requires 2 ^00BB00Berserk Potions^777777.^000000"
+		"Each cast requires 2 ^008800Berserk Potions^777777.^000000"
 	},
 	[SKID.SL_MONK] = {
 		"Monk Spirit",
@@ -5140,7 +5140,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Increase targeted monster's Attack",
 		"Power, multiplying it by 4, but reduce its",
 		"Defense by half. This skill is followed by a",
-		"3 second delay in which the ^00BB00Esma^777777skill",
+		"3 second delay in which the ^008800Esma^777777skill",
 		"can be cast.^000000",
 		"[Lv 1]: ^77777745sp, 3sec cast 10sec duration^000000",
 		"[Lv 2]: ^77777730sp, 2sec cast 20sec duration^000000",
@@ -5201,9 +5201,9 @@ SKILL_DESCRIPT = {
 		"NPCs at Job Level 60, and have a 10% greater",
 		"chance of success at Job Level 70. If upgrade",
 		"attempt fails, the weapon will be destroyed.",
-		"Level 1 Weapon require 1 ^00BB00Phracon^777777.",
-		"Level 2 Weapon require 1 ^00BB00Emveretarcon^777777.",
-		"Level 3-4 Weapon requires 1 ^00BB00Oridecon^777777.^000000",
+		"Level 1 Weapon require 1 ^008800Phracon^777777.",
+		"Level 2 Weapon require 1 ^008800Emveretarcon^777777.",
+		"Level 3-4 Weapon requires 1 ^008800Oridecon^777777.^000000",
 		"[Lv 1]: ^777777+1 maximum refine level^000000",
 		"[Lv 2]: ^777777+2 maximum refine level^000000",
 		"[Lv 3]: ^777777+3 maximum refine level^000000",
@@ -5242,7 +5242,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Supportive^000000",
 		"Description: ^777777Protect the targeted character with",
 		"all four kinds of chemical protection.",
-		"Each cast requires 1 ^00BB00Glistening Coat^777777.^000000",
+		"Each cast requires 1 ^008800Glistening Coat^777777.^000000",
 		"[Lv 1]: ^777777120 Sec Duration^000000",
 		"[Lv 2]: ^777777240 Sec Duration^000000",
 		"[Lv 3]: ^777777360 Sec Duration^000000",
@@ -5260,7 +5260,7 @@ SKILL_DESCRIPT = {
 		"Shield's weight and Upgrade status affects the",
 		"amount of damage. Shield Chain has 1 second",
 		"cast delay and range of 4 cells.",
-		"Requires ^00BB00Shield^777777.^000000",
+		"Requires ^008800Shield^777777.^000000",
 		"[Lv 1]: ^777777+30% Damage, HIT +20^000000",
 		"[Lv 2]: ^777777+60% Damage, HIT +20^000000",
 		"[Lv 3]: ^777777+90% Damage, HIT +20^000000",
@@ -5306,8 +5306,8 @@ SKILL_DESCRIPT = {
 		"enchanted by that skill. This skill is",
 		"unaffected by items or skills that remove",
 		"Gemstone requirements.",
-		"Each cast requires 1 ^00BB00Blue Gemstone^777777 and",
-		"^00BB00Yellow Gemstone^777777.",
+		"Each cast requires 1 ^008800Blue Gemstone^777777 and",
+		"^008800Yellow Gemstone^777777.",
 		"5 second cast delay.^000000"
 	},
 	[SKID.HW_GRAVITATION] = {
@@ -5323,7 +5323,7 @@ SKILL_DESCRIPT = {
 		"caster's movement and attacks are disabled.",
 		"This skill's effect on Attack and Movement",
 		"Speeds does not apply to Boss monsters.",
-		"Each cast requires 1 ^00BB00Blue Gemstone^777777.",
+		"Each cast requires 1 ^008800Blue Gemstone^777777.",
 		"2 second cast delay.^000000",
 		"[Lv 1]: ^777777600 damage per 0.5 second,",
 		"reduction rate 5%, duration 5 sec^000000",
@@ -5444,8 +5444,8 @@ SKILL_DESCRIPT = {
 		"VIT. This skill only inflicts 50% of its damage",
 		"on other players, but it has the chance of",
 		"damaging that player's weapon or armor.",
-		"Each cast requires 1 ^00BB00Bottle Grenade^777777 and",
-		"1 ^00BB00Acid Bottle^777777.^000000",
+		"Each cast requires 1 ^008800Bottle Grenade^777777 and",
+		"1 ^008800Acid Bottle^777777.^000000",
 		"[Lv 1]: ^7777771 hit, 1% chance destroying^000000",
 		"[Lv 2]: ^7777772 hits, 2% chance destroying^000000",
 		"[Lv 3]: ^7777773 hits, 3% chance destroying^000000",
@@ -5466,9 +5466,9 @@ SKILL_DESCRIPT = {
 		"Spore, or a Plant from a Stem. This skill is",
 		"disabled during WoE.^000000",
 		"[Lv 1]: ^777777Cultivate Mushrooms",
-		"Requires ^00BB00Mushroom Spore^000000",
+		"Requires ^008800Mushroom Spore^000000",
 		"[Lv 2]: ^777777Cultivate Plants",
-		"Requires ^00BB00Stem^000000"
+		"Requires ^008800Stem^000000"
 	},
 	[SKID.TK_MISSION] = {
 		"Taekwon Mission",
@@ -5535,7 +5535,7 @@ SKILL_DESCRIPT = {
 		"0.005 seconds. This skill has the same success",
 		"rate as the Pharmacy skill and has a",
 		"3 second cast time that is unaffected by DEX.",
-		"^00BB00Each cast requires enough materials to craft",
+		"^008800Each cast requires enough materials to craft",
 		"200 White Potions.^000000"
 	},
 	[SKID.AM_TWILIGHT2] = {
@@ -6649,7 +6649,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Enable to create new poisons.",
 		"This skill extends the duration of the",
-		"^00BB00Enchant Deadly Poison^777777 skill by (3*skill level)",
+		"^008800Enchant Deadly Poison^777777 skill by (3*skill level)",
 		"seconds. Requires ^008800Medicine Bowl^777777 and",
 		"^008800Poison Kit^777777, along with additional materials,",
 		"depending on the type of poison being made.^000000",
@@ -6822,15 +6822,15 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Active / Buff^000000",
 		"Description: ^777777Increase the caster's speed to",
 		"the maximum, increases Flee rate and certain",
-		"chance to ignore MATK. Consumes HP when",
-		"casting, decreases movement speed and",
-		"ASPD by half for 25 seconds after using",
+		"chance to avoid magic attacks. Consumes",
+		"HP when casting, decreases movement speed",
+		"and ASPD by half for 25 seconds after using",
 		"the skill.^000000",
-		"[Lv 1]: ^777777Flee +50, ignore MATK chance 10%^000000",
-		"[Lv 2]: ^777777Flee +100, ignore MATK chance 20%^000000",
-		"[Lv 3]: ^777777Flee +150, ignore MATK chance 30%^000000",
-		"[Lv 4]: ^777777Flee +200, ignore MATK chance 40%^000000",
-		"[Lv 5]: ^777777Flee +250, ignore MATK chance 50%^000000"
+		"[Lv 1]: ^777777Flee +50, avoid chance 10%^000000",
+		"[Lv 2]: ^777777Flee +100, avoid chance 20%^000000",
+		"[Lv 3]: ^777777Flee +150, avoid chance 30%^000000",
+		"[Lv 4]: ^777777Flee +200, avoid chance 40%^000000",
+		"[Lv 5]: ^777777Flee +250, avoid chance 50%^000000"
 	},
 	[SKID.GC_ROLLINGCUTTER] = {
 		"Rolling Cutter",
@@ -6905,16 +6905,16 @@ SKILL_DESCRIPT = {
 		"Acolyte type character, no gemstone is",
 		"required, but will consume some SP from",
 		"that supportive character.^000000",
-		"[Lv 1]: ^777777MATK 600%^000000",
-		"[Lv 2]: ^777777MATK 700%^000000",
-		"[Lv 3]: ^777777MATK 800%^000000",
-		"[Lv 4]: ^777777MATK 900%^000000",
-		"[Lv 5]: ^777777MATK 1000%^000000",
-		"[Lv 6]: ^777777MATK 1100%^000000",
-		"[Lv 7]: ^777777MATK 1200%^000000",
-		"[Lv 8]: ^777777MATK 1300%^000000",
-		"[Lv 9]: ^777777MATK 1400%^000000",
-		"[Lv 10]: ^777777MATK 1500%^000000"
+		"[Lv 1]: ^777777600% MATK^000000",
+		"[Lv 2]: ^777777700% MATK^000000",
+		"[Lv 3]: ^777777800% MATK^000000",
+		"[Lv 4]: ^777777900% MATK^000000",
+		"[Lv 5]: ^7777771000% MATK^000000",
+		"[Lv 6]: ^7777771100% MATK^000000",
+		"[Lv 7]: ^7777771200% MATK^000000",
+		"[Lv 8]: ^7777771300% MATK^000000",
+		"[Lv 9]: ^7777771400% MATK^000000",
+		"[Lv 10]: ^7777771500% MATK^000000"
 	},
 	[SKID.AB_CLEMENTIA] = {
 		"Clementia",
@@ -7049,18 +7049,18 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Epiclesis 1, Expiatio 1^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increase ATK against Undead",
-		"and Dark element enemies and decrease",
+		"and Shadow element enemies and decrease",
 		"the damage the caster gets.^000000",
-		"[Lv 1]: ^777777ATK +1% / Damage -1%^000000",
-		"[Lv 2]: ^777777ATK +2% / Damage -2%^000000",
-		"[Lv 3]: ^777777ATK +3% / Damage -3%^000000",
-		"[Lv 4]: ^777777ATK +4% / Damage -4%^000000",
-		"[Lv 5]: ^777777ATK +5% / Damage -5%^000000",
-		"[Lv 6]: ^777777ATK +6% / Damage -6%^000000",
-		"[Lv 7]: ^777777ATK +7% / Damage -7%^000000",
-		"[Lv 8]: ^777777ATK +8% / Damage -8%^000000",
-		"[Lv 9]: ^777777ATK +9% / Damage -9%^000000",
-		"[Lv 10]: ^777777ATK +10% / Damage -10%^000000"
+		"[Lv 1]: ^777777ATK +1%, Damage -1%^000000",
+		"[Lv 2]: ^777777ATK +2%, Damage -2%^000000",
+		"[Lv 3]: ^777777ATK +3%, Damage -3%^000000",
+		"[Lv 4]: ^777777ATK +4%, Damage -4%^000000",
+		"[Lv 5]: ^777777ATK +5%, Damage -5%^000000",
+		"[Lv 6]: ^777777ATK +6%, Damage -6%^000000",
+		"[Lv 7]: ^777777ATK +7%, Damage -7%^000000",
+		"[Lv 8]: ^777777ATK +8%, Damage -8%^000000",
+		"[Lv 9]: ^777777ATK +9%, Damage -9%^000000",
+		"[Lv 10]: ^777777ATK +10%, Damage -10%^000000"
 	},
 	[SKID.AB_RENOVATIO] = {
 		"Renovatio",
@@ -7078,11 +7078,11 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Renovatio 1^000000",
 		"Skill Form: ^339900Heal^000000",
 		"Description: ^777777Restores large amount of HP^000000",
-		"[Lv 1]: ^777777Healing Amount x2^000000",
-		"[Lv 2]: ^777777Healing Amount x2.3^000000",
-		"[Lv 3]: ^777777Healing Amount x2.6^000000",
-		"[Lv 4]: ^777777Healing Amount x2.9^000000",
-		"[Lv 5]: ^777777Healing Amount x3.2^000000"
+		"[Lv 1]: ^777777Healing amount x2^000000",
+		"[Lv 2]: ^777777Healing amount x2.3^000000",
+		"[Lv 3]: ^777777Healing amount x2.6^000000",
+		"[Lv 4]: ^777777Healing amount x2.9^000000",
+		"[Lv 5]: ^777777Healing amount x3.2^000000"
 	},
 	[SKID.AB_CLEARANCE] = {
 		"Clearance",
@@ -7461,7 +7461,14 @@ SKILL_DESCRIPT = {
 		"Max Level: 10",
 		"^CC3399Requirement: Aimed Bolt 5^000000",
 		"Skill Form: ^FF0000Active / Damage^000000",
-		"Description: ^777777Shoots countless arrows at a target and a certain cell range around the target. Each target will take 3 consecutive hits (Total damage divided by 3 per hit). Consumes 10 arrows. Higher skill level increases the damage done, SP cost and Area of Effect.^000000",
+		"Description: ^777777Shoots countless arrows at",
+		"a target and a certain cell range around",
+		"the target. Each target will take 3",
+		"consecutive hits (Total damage divided",
+		"by 3 per hit).",
+		"Skill level affect the damage done, SP",
+		"cost and Area of Effect.",
+		"Consumes 10 ^008800arrows^777777.^000000",
 		"[Lv 1]: ^7777771080% ATK, 7x7 AoE^000000",
 		"[Lv 2]: ^7777771160% ATK, 7x7 AoE^000000",
 		"[Lv 3]: ^7777771240% ATK, 7x7 AoE^000000",
@@ -7478,29 +7485,34 @@ SKILL_DESCRIPT = {
 		"Max Level: 5",
 		"^CC3399Requirement: Camouflage 1, Arrow Storm 5^000000",
 		"Skill Form: ^000099Active toggle / Buff (To yourself)^000000",
-		"Description: ^777777During the skill duration, normal ranged attacks have a chance of hitting a target multiple times. (2 ~ 5 attacks). Extra attacks will consume arrows.^000000",
-		"[Lv 1]: ^777777Number of Attacks +1 / proc chance 12%  / Duration 60 sec.^000000",
-		"[Lv 2]: ^777777Number of Attacks +1 / proc chance 12%  / Duration 90 sec.^000000",
-		"[Lv 3]: ^777777Number of Attacks +1~+2 / proc chance 21%  / Duration 120 sec.^000000",
-		"[Lv 4]: ^777777Number of Attacks +1~+3 / proc chance 27%  / Duration 150 sec.^000000",
-		"[Lv 5]: ^777777Number of Attacks +1~+4 / proc chance 30%  / Duration 180 sec.^000000"
+		"Description: ^777777During the skill duration,",
+		"normal ranged attacks have a chance of",
+		"hitting a target multiple times.",
+		"Extra attacks will consume arrows.^000000",
+		"[Lv 1]: ^777777Number of Attacks +1, proc chance 12%, Duration 60 sec.^000000",
+		"[Lv 2]: ^777777Number of Attacks +1, proc chance 12%, Duration 90 sec.^000000",
+		"[Lv 3]: ^777777Number of Attacks +1~+2, proc chance 21%, Duration 120 sec.^000000",
+		"[Lv 4]: ^777777Number of Attacks +1~+3, proc chance 27%, Duration 150 sec.^000000",
+		"[Lv 5]: ^777777Number of Attacks +1~+4, proc chance 30%, Duration 180 sec.^000000"
 	},
 	[SKID.RA_RANGERMAIN] = {
 		"Ranger Main",
 		"Max Level: 10",
 		"^CC3399Requirement: Ranger Basic Skill^000000",
 		"Skill Form: ^6666CCPassive^000000",
-		"Description: ^777777Increase ATK to Animal, Plant and Fish type monsters and decrease damage from those monsters.^000000",
-		"[Lv 1]: ^777777ATK and Resistance + 5^000000",
-		"[Lv 2]: ^777777ATK and Resistance + 10^000000",
-		"[Lv 3]: ^777777ATK and Resistance + 15^000000",
-		"[Lv 4]: ^777777ATK and Resistance + 20^000000",
-		"[Lv 5]: ^777777ATK and Resistance + 25^000000",
-		"[Lv 6]: ^777777ATK and Resistance + 30^000000",
-		"[Lv 7]: ^777777ATK and Resistance + 35^000000",
-		"[Lv 8]: ^777777ATK and Resistance + 40^000000",
-		"[Lv 9]: ^777777ATK and Resistance + 45^000000",
-		"[Lv 10]: ^777777ATK and Resistance + 50^000000"
+		"Description: ^777777Increase ATK to Brute, Plant",
+		"and Fish monsters and decrease damage",
+		"from those monsters.^000000",
+		"[Lv 1]: ^777777ATK and DEF +5^000000",
+		"[Lv 2]: ^777777ATK and DEF +10^000000",
+		"[Lv 3]: ^777777ATK and DEF +15^000000",
+		"[Lv 4]: ^777777ATK and DEF +20^000000",
+		"[Lv 5]: ^777777ATK and DEF +25^000000",
+		"[Lv 6]: ^777777ATK and DEF +30^000000",
+		"[Lv 7]: ^777777ATK and DEF +35^000000",
+		"[Lv 8]: ^777777ATK and DEF +40^000000",
+		"[Lv 9]: ^777777ATK and DEF +45^000000",
+		"[Lv 10]: ^777777ATK and DEF +50^000000"
 	},
 	[SKID.RA_AIMEDBOLT] = {
 		"Aimed Bolt",
@@ -7531,32 +7543,48 @@ SKILL_DESCRIPT = {
 		"Max Level: 1",
 		"^CC3399Requirement: Cluster Bomb 3^000000",
 		"Skill Form: ^339900Active / Special^000000",
-		"Description: ^777777Immediately activates traps on the ground. Skills range is 7x7 cells around the targeted area. It can also activate Hunter's traps. This skill will not detonate traps of another player.",
-		"Can activate the following traps: Cluster Bomb, Blast Mine, Claymore Trap, Sandman, Talkie Box, Firing Trap, and Ice Bound Trap.^000000"
+		"Description: ^777777Immediately activates traps",
+		"on the ground. Skills range is 7x7 cells",
+		"around the targeted area. It can also",
+		"activate Hunter's traps. This skill will not",
+		"detonate traps of another player.",
+		"Can activate the following traps:",
+		"Blast Mine, Claymore Trap, Sandman, Talkie Box, Firing Trap, Cluster Bomb, and Ice Bound Trap.^000000"
 	},
 	[SKID.RA_ELECTRICSHOCKER] = {
 		"Electric Shock",
 		"Max Level: 5",
 		"^CC3399Requirement: Shockwave Trap 5^000000",
 		"Skill Form: ^000099Active / Trap^000000",
-		"Description: ^777777Immobilizes a target and drains a certain amount of SP per second from the target. Electric Shocker cannot be removed with the Hunter skill Remove Trap. Requires 1 ^00BB00Special Alloy Trap^777777. Maximum 3 traps are allowed to be set.^000000",
-		"[Lv 1]: ^777777Consuming SP by a sec. 5% / Duration 20 sec.^000000",
-		"[Lv 2]: ^777777Consuming SP by a sec. 10% / Duration 22 sec.^000000",
-		"[Lv 3]: ^777777Consuming SP by a sec. 15% / Duration 24 sec.^000000",
-		"[Lv 4]: ^777777Consuming SP by a sec. 20% / Duration 26 sec.^000000",
-		"[Lv 5]: ^777777Consuming SP by a sec. 25% / Duration 28 sec.^000000"
+		"Description: ^777777Immobilizes a target",
+		"and drains certain amount of SP per second",
+		"from the target. Electric Shocker cannot",
+		"be removed with Remove Trap.",
+		"Requires 1 ^008800Special Alloy Trap^777777.",
+		"Maximum 3 traps are allowed to be set.^000000",
+		"[Lv 1]: ^777777Drains 5% SP/sec, Duration 20 sec.^000000",
+		"[Lv 2]: ^777777Drains 10% SP/sec, Duration 22 sec.^000000",
+		"[Lv 3]: ^777777Drains 15% SP/sec, Duration 24 sec.^000000",
+		"[Lv 4]: ^777777Drains 20% SP/sec, Duration 26 sec.^000000",
+		"[Lv 5]: ^777777Drains 25% SP/sec, Duration 28 sec.^000000"
 	},
 	[SKID.RA_CLUSTERBOMB] = {
 		"Cluster Bomb",
 		"Max Level: 5",
 		"^CC3399Requirement: Trap Research 3^000000",
 		"Skill Form: ^000099Active / Trap^000000",
-		"Description: ^777777Maximum 3 traps are allowed to be set at once and damage range is 3 cells wide and 5 cells deep. Can be combined with Detonator Skill. Cluster Bomb cannot be removed by [Remove Trap] from Hunter. Requires 1 ^00BB00Special Alloy Trap^777777.^000000",
-		"[Lv 1]: ^777777Damage 300% + Additional Trap Damage / Duration 15 sec.^000000",
-		"[Lv 2]: ^777777Damage 400% + Additional Trap Damage / Duration 15 sec.^000000",
-		"[Lv 3]: ^777777Damage 500% + Additional Trap Damage / Duration 15 sec.^000000",
-		"[Lv 4]: ^777777Damage 600% + Additional Trap Damage / Duration 15 sec.^000000",
-		"[Lv 5]: ^777777Damage 700% + Additional Trap Damage / Duration 15 sec.^000000"
+		"Description: ^777777Maximum 3 traps are allowed",
+		"to be set at once and damage range is",
+		"3 cells wide and 5 cells deep. Can be",
+		"combined with Detonator Skill. Cluster",
+		"Bomb cannot be removed with Remove",
+		"Trap.",
+		"Requires 1 ^008800Special Alloy Trap^777777.^000000",
+		"[Lv 1]: ^777777300% ATK + Additional Trap Damage / Duration 15 sec.^000000",
+		"[Lv 2]: ^777777400% ATK + Additional Trap Damage / Duration 15 sec.^000000",
+		"[Lv 3]: ^777777500% ATK + Additional Trap Damage / Duration 15 sec.^000000",
+		"[Lv 4]: ^777777600% ATK + Additional Trap Damage / Duration 15 sec.^000000",
+		"[Lv 5]: ^777777700% ATK + Additional Trap Damage / Duration 15 sec.^000000"
 	},
 	[SKID.RA_WUGMASTERY] = {
 		"Wug Mastery",
@@ -7682,35 +7710,35 @@ SKILL_DESCRIPT = {
 		"Max Level: 1",
 		"^CC3399Requirement: Trap Research 1^000000",
 		"Skill Form: ^000099Active / Trap^000000",
-		"Description: ^777777Monsters that step on this trap has its attribute changed to Fire element. Does not affect boss type monsters or players and consumes 1 ^00BB00Scarlett Point^777777 and 1 ^00BB00Special Alloy Trap^777777.^000000"
+		"Description: ^777777Monsters that step on this trap has its attribute changed to Fire element. Does not affect boss type monsters or players and consumes 1 ^008800Scarlett Point^777777 and 1 ^008800Special Alloy Trap^777777.^000000"
 	},
 	[SKID.RA_COBALTTRAP] = {
 		"Cobalt Trap",
 		"Max Level: 1",
 		"^CC3399Requirement: Trap Research 1^000000",
 		"Skill Form: ^000099Active / Trap^000000",
-		"Description: ^777777Monsters that step on this trap has its attribute changed to Water element. Does not affect boss type monsters or players and consumes 1 ^00BB00Indigo Point^777777 and 1 ^00BB00Special Alloy Trap^777777.^000000"
+		"Description: ^777777Monsters that step on this trap has its attribute changed to Water element. Does not affect boss type monsters or players and consumes 1 ^008800Indigo Point^777777 and 1 ^008800Special Alloy Trap^777777.^000000"
 	},
 	[SKID.RA_MAIZETRAP] = {
 		"Maze Trap",
 		"Max Level: 1",
 		"^CC3399Requirement: Trap Research 1^000000",
 		"Skill Form: ^000099Active / Trap^000000",
-		"Description: ^777777Monsters that step on this trap has its attribute changed to Earth element. Does not affect boss type monsters or players and consumes 1 ^00BB00Lime Green Point^777777 and 1 ^00BB00Special Alloy Trap^777777.^000000"
+		"Description: ^777777Monsters that step on this trap has its attribute changed to Earth element. Does not affect boss type monsters or players and consumes 1 ^008800Lime Green Point^777777 and 1 ^008800Special Alloy Trap^777777.^000000"
 	},
 	[SKID.RA_VERDURETRAP] = {
 		"Verdure Trap",
 		"Max Level: 1",
 		"^CC3399Requirement: Trap Research 1^000000",
 		"Skill Form: ^000099Active / Trap^000000",
-		"Description: ^777777Monsters that step on this trap has its attribute changed to Wind element. Does not affect boss type monsters or players and consumes 1 ^00BB00Yellow Wish Point^777777 and 1 ^00BB00Special Alloy Trap^777777.^000000"
+		"Description: ^777777Monsters that step on this trap has its attribute changed to Wind element. Does not affect boss type monsters or players and consumes 1 ^008800Yellow Wish Point^777777 and 1 ^008800Special Alloy Trap^777777.^000000"
 	},
 	[SKID.RA_FIRINGTRAP] = {
 		"Firing Trap",
 		"Max Level: 5",
 		"^CC3399Requirement: Detonator 1^000000",
 		"Skill Form: ^000099Active / Trap^000000",
-		"Description: ^777777When this trap activates, it deals damage in a 5x5 area and causes Burning status. Level increases success rate of inflicting Burning status. Consumes 1 ^00BB00Special Alloy Trap^777777.^000000",
+		"Description: ^777777When this trap activates, it deals damage in a 5x5 area and causes Burning status. Level increases success rate of inflicting Burning status. Consumes 1 ^008800Special Alloy Trap^777777.^000000",
 		"[Lv 1]: ^777777Success Rate 60%^000000",
 		"[Lv 2]: ^777777Success Rate 70%^000000",
 		"[Lv 3]: ^777777Success Rate 80%^000000",
@@ -7722,7 +7750,7 @@ SKILL_DESCRIPT = {
 		"Max Level: 5",
 		"^CC3399Requirement: Detonator 1^000000",
 		"Skill Form: ^000099Active / Trap^000000",
-		"Description: ^777777When this trap activates, it deals damage in a 3x3 area and inflicts [Burning Freeze] status. Consumes 1 ^00BB00Special Alloy Trap^777777.^000000",
+		"Description: ^777777When this trap activates, it deals damage in a 3x3 area and inflicts [Burning Freeze] status. Consumes 1 ^008800Special Alloy Trap^777777.^000000",
 		"[Lv 1]: ^777777Success Rate 60%^000000",
 		"[Lv 2]: ^777777Success Rate 70%^000000",
 		"[Lv 3]: ^777777Success Rate 80%^000000",
@@ -8071,26 +8099,26 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Active / Buff^000000",
 		"Description: ^777777Use a magic skill learned from",
 		"^008800Plagiarism^777777 or ^008800Reproduce^777777 skill.^000000",
-		"[Lv 1]: ^777777Activate chance 30%, Level 1 skill,",
+		"[Lv 1]: ^777777Activate chance 28%, Level 3 skill,",
 		"Duration 60 sec.^000000",
-		"[Lv 2]: ^777777Activate chance 28%, Level 1 skill,",
+		"[Lv 2]: ^777777Activate chance 26%, Level 3 skill,",
 		"Duration 80 sec.^000000",
-		"[Lv 3]: ^777777Activate chance 26%, Level 2 skill,",
+		"[Lv 3]: ^777777Activate chance 24%, Level 4 skill,",
 		"Duration 100 sec.^000000",
-		"[Lv 4]: ^777777Activate chance 24%, Level 2 skill,",
+		"[Lv 4]: ^777777Activate chance 22%, Level 4 skill,",
 		"Duration 120 sec.^000000",
-		"[Lv 5]: ^777777Activate chance 22%, Level 3 skill,",
+		"[Lv 5]: ^777777Activate chance 20%, Level 5 skill,",
 		"Duration 140 sec.^000000",
-		"[Lv 6]: ^777777Activate chance 20%, Level 3 skill,",
+		"[Lv 6]: ^777777Activate chance 18%, Level 5 skill,",
 		"Duration 160 sec.^000000",
-		"[Lv 7]: ^777777Activate chance 18%, Level 4 skill,",
+		"[Lv 7]: ^777777Activate chance 16%, Level 6 skill,",
 		"Duration 180 sec.^000000",
-		"[Lv 8]: ^777777Activate chance 16%, Level 4 skill,",
+		"[Lv 8]: ^777777Activate chance 14%, Level 6 skill,",
 		"Duration 200 sec.^000000",
-		"[Lv 9]: ^777777Activate chance 14%, Level 5 skill,",
+		"[Lv 9]: ^777777Activate chance 12%, Level 7 skill,",
 		"Duration 220 sec.^000000",
-		"[Lv 10]: ^777777Activate chance 12%, Level 5 skill,",
-		"Duration 240 sec.^000000"
+		"[Lv 10]: ^777777Activate chance 15%, Level 7 skill,",
+		"Duration 300 sec.^000000"
 	},
 	[SKID.SC_SHADOWFORM] = {
 		"Shadow Form",
@@ -8140,7 +8168,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Splash paint around the caster",
 		"and find hidden enemies. The target and all",
 		"surroundings that have been exposed to the",
-		"paint get [Blind] along with a chance to",
+		"paint get Blind along with a chance to",
 		"decrease attack speed.^000000",
 		"[Lv 1]: ^777777Blind chance 55%, ASPD decrease chance 25%, Duration 5 sec^000000",
 		"[Lv 2]: ^777777Blind chance 57%, ASPD decrease chance 30%, Duration 7 sec^000000",
@@ -8158,38 +8186,41 @@ SKILL_DESCRIPT = {
 		"but the element of attack becomes Ghost",
 		"Element level 1. It keeps consuming SP and",
 		"also other skill or items can not be used",
-		"while the skill is casted. Skill is canceled",
+		"while the skill is active. Skill is canceled",
 		"if SP becomes 0.",
 		"Ignore some of detecting skills.^000000",
-		"[Lv 1]: ^777777Crit +20%, ASPD -40%, consume 10% SP/sec^000000",
-		"[Lv 2]: ^777777Crit +40%, ASPD -30%, consume 8% SP/sec^000000",
-		"[Lv 3]: ^777777Crit +60%, ASPD -20%, consume 6% SP/sec^000000",
-		"[Lv 4]: ^777777Crit +80%, ASPD -10%, consume 5% SP/sec^000000",
-		"[Lv 5]: ^777777Crit +100%, ASPD -0%, consume 2% SP/sec^000000"
+		"[Lv 1]: ^777777CRIT +20%, After attack delay +40%, consume 10% SP/sec^000000",
+		"[Lv 2]: ^777777CRIT +40%, After attack delay +30%, consume 8% SP/sec^000000",
+		"[Lv 3]: ^777777CRIT +60%, After attack delay +20%, consume 6% SP/sec^000000",
+		"[Lv 4]: ^777777CRIT +80%, After attack delay +10%, consume 5% SP/sec^000000",
+		"[Lv 5]: ^777777CRIT +100%, normal attack speed, consume 2% SP/sec^000000"
 	},
 	[SKID.SC_DEADLYINFECT] = {
 		"Deadly Infection",
 		"Max Level: 5",
 		"^CC3399Requirement: Shadow Form 3, Auto Shadow Spell 5^000000",
 		"Skill Form: ^339900Active / Buff^000000",
-		"Description: ^777777Transfer abnormal status that caster holds at the moment to the target or attacking enemies. Even if the caster transferred its curse to others, the curse on caster is maintained.^000000",
-		"[Lv 1]: ^777777Skill Duration 10 sec. / 40% chance of",
-		"infection, Consume 40 SP.^000000",
-		"[Lv 2]: ^777777Skill Duration 15 sec. / 50% chance of",
-		"infection, Consume 44 SP.^000000",
-		"[Lv 3]: ^777777Skill Duration 20 sec. / 60% chance of",
-		"infection, Consume 48 SP.^000000",
-		"[Lv 4]: ^777777Skill Duration 25 sec. / 70% chance of",
-		"infection, Consume 52 SP.^000000",
-		"[Lv 5]: ^777777Skill Duration 30 sec. / 80% chance of",
-		"infection, Consume 56 SP.^000000"
+		"Description: ^777777Transfer abnormal status that",
+		"caster holds at the moment to the target",
+		"or attacking enemies. Even if the caster",
+		"transferred its curse to others, the curse",
+		"on caster is maintained.^000000",
+		"[Lv 1]: ^777777Duration 10 sec, 40% infection chance^000000",
+		"[Lv 2]: ^777777Duration 15 sec, 50% infection chance^000000",
+		"[Lv 3]: ^777777Duration 20 sec, 60% infection chance^000000",
+		"[Lv 4]: ^777777Duration 25 sec, 70% infection chance^000000",
+		"[Lv 5]: ^777777Duration 30 sec, 80% infection chance^000000"
 	},
 	[SKID.SC_ENERVATION] = {
 		"Masquerade Enervation",
 		"Max Level: 3",
 		"^CC3399Requirement: Body Painting 1^000000",
 		"Skill Form: ^FF0000Active / Debuff^000000",
-		"Description: ^777777Decrease target's ATK with and strips all Spirit Spheres he/she has. Must have a Makeover Brush and consumes 1 Face Paint. The chance of success depends on the caster and target's level and stats.^000000",
+		"Description: ^777777Decrease target's ATK with and",
+		"strips all Spirit Spheres that target have.",
+		"The chance of success depends on the caster",
+		"and target's level and stats.",
+		"Requires ^008800Makeover Brush^000000 and consumes 1 ^008800Face Paint^000000.",
 		"[Lv 1]: ^777777ATK -30%, Duration 10 sec.^000000",
 		"[Lv 2]: ^777777ATK -40%, Duration 15 sec.^000000",
 		"[Lv 3]: ^777777ATK -50%, Duration 20 sec.^000000"
@@ -8199,20 +8230,30 @@ SKILL_DESCRIPT = {
 		"Max Level: 3",
 		"^CC3399Requirement: Body Painting 1^000000",
 		"Skill Form: ^FF0000Active / Debuff^000000",
-		"Description: ^777777Decrease target's accuracy and attack speed. Target's animals, pets or Homunculus are stripped with this skill. Must have a Makeover Brush and consume 1 Face Paint. The chance of success depends on the caster and target's level and stats.^000000",
-		"[Lv 1]: ^777777ASPD -30%, HIT -20%, Duration 10 sec.^000000",
-		"[Lv 2]: ^777777ASPD -40%, HIT -40%, Duration 15 sec.^000000",
-		"[Lv 3]: ^777777ASPD -50%, HIT -60%, Duration 20 sec.^000000"
+		"Description: ^777777Decrease target's accuracy and",
+		"attack speed. Target's animals, pets or",
+		"Homunculus are stripped with this skill.",
+		"The chance of success depends on the caster and target's level and stats.",
+		"Requires ^008800Makeover Brush^000000 and consumes 1 ^008800Face Paint^000000.",
+		"[Lv 1]: ^777777After attack delay +30%, HIT -20%, Duration 10 sec.^000000",
+		"[Lv 2]: ^777777After attack delay +40%, HIT -40%, Duration 15 sec.^000000",
+		"[Lv 3]: ^777777After attack delay +50%, HIT -60%, Duration 20 sec.^000000"
 	},
 	[SKID.SC_IGNORANCE] = {
 		"Masquerade Ignorance",
 		"Max Level: 3",
 		"^CC3399Requirement: Body Painting 1^000000",
 		"Skill Form: ^FF0000Active / Debuff^000000",
-		"Description: ^777777Drain and receive half of target's SP. To monsters, receive a certain amount of SP depending on monster's level. Target is disabled to use magic or skill while this skill is active. Must have a Makeover Brush and consumes 1 Face Paint. The chance of success depends on the caster and target's level and stats.^000000",
-		"[Lv 1]: ^777777Consume SP 100 / Duration 10 sec.^000000",
-		"[Lv 2]: ^777777Consume SP 200 / Duration 15 sec.^000000",
-		"[Lv 3]: ^777777Consume SP 300 / Duration 20 sec.^000000"
+		"Description: ^777777Drains half of target's SP.",
+		"On monsters, the amount of SP drained depend",
+		"on monster's level. Target is disabled to use",
+		"magic or skill while this skill is active.",
+		"The chance of success depends on the caster",
+		"and target's level and stats.^000000",
+		"Requires ^008800Makeover Brush^000000 and consumes 1 ^008800Face Paint^000000.",
+		"[Lv 1]: ^777777Drains 100 SP, Duration 10 sec.^000000",
+		"[Lv 3]: ^777777Drains 300 SP, Duration 20 sec.^000000",
+		"[Lv 2]: ^777777Drains 200 SP, Duration 15 sec.^000000"
 	},
 	[SKID.SC_LAZINESS] = {
 		"Masquerade Laziness",
@@ -8324,7 +8365,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Attack all enemies in a straight",
 		"line up to 11 cells (width 3 cells).",
 		"Increase damage depending on caster's STR.",
-		"Requires ^00bb00Spear^777777 class weapon^000000.",
+		"Requires ^008800Spear^777777 class weapon^000000.",
 		"[Lv 1]: ^77777750% ATK^000000",
 		"[Lv 2]: ^777777100% ATK^000000",
 		"[Lv 3]: ^777777150% ATK^000000",
@@ -8340,7 +8381,7 @@ SKILL_DESCRIPT = {
 		"is within 7 cells. Increase Accuracy rate as",
 		"skill level gets higher. Give additional",
 		"damage depending on Bash level.",
-		"Requires ^00bb00Spear^777777 class weapon^000000.",
+		"Requires ^008800Spear^777777 class weapon^000000.",
 		"[Lv 1]: ^77777750% ATK^000000",
 		"[Lv 2]: ^777777110% ATK^000000",
 		"[Lv 3]: ^777777150% ATK^000000",
@@ -8412,7 +8453,7 @@ SKILL_DESCRIPT = {
 		"depending on the skill level used. The",
 		"caster's Agility can increase the damage.",
 		"Deals 100% critical damage.",
-		"Requires ^00bb00Spear^777777 class weapon^000000.",
+		"Requires ^008800Spear^777777 class weapon^000000.",
 		"[Lv 1]: ^777777100% ATK, cause bleeding^000000",
 		"[Lv 2]: ^777777200% ATK, remove spirit spheres^000000",
 		"[Lv 3]: ^777777300% ATK, break target's Shield^000000",
@@ -8485,7 +8526,7 @@ SKILL_DESCRIPT = {
 		"The Base Level and level of Spear Quicken",
 		"skill affect the Pierce damage. The Base",
 		"Level, STR and DEX affect the Smash damage.",
-		"Requires ^00bb00Spear^777777 class weapon^000000.",
+		"Requires ^008800Spear^777777 class weapon^000000.",
 		"[Lv 1]: ^777777Pierce damage 200%, Smash damage",
 		"100%^000000",
 		"[Lv 2]: ^777777Pierce damage 400%, Smash damage",
@@ -8534,7 +8575,7 @@ SKILL_DESCRIPT = {
 		"all targets hit by it to sit. For monsters,",
 		"they are unable to move for a short period.",
 		"Damage is influenced by Over Brand skill level.",
-		"Requires ^00bb00Spear^777777 class weapon^000000.",
+		"Requires ^008800Spear^777777 class weapon^000000.",
 		"[Lv 1]: ^777777120% ATK, Chance of success 40%^000000",
 		"[Lv 2]: ^777777240% ATK, Chance of success 48%^000000",
 		"[Lv 3]: ^777777360% ATK, Chance of success 56%^000000",
@@ -8961,7 +9002,7 @@ SKILL_DESCRIPT = {
 		"and party members for 60 sec. This increase",
 		"is increased by 1% per level of Lesson and",
 		"by 0.2% per Job Level of the caster.",
-		"^00BB00Requires an instrument class weapon^777777.^000000",
+		"^008800Requires an instrument class weapon^777777.^000000",
 		"[Lv 1]: ^777777Skill Range 15x15 cells^000000",
 		"[Lv 2]: ^777777Skill Range 17x17 cells^000000",
 		"[Lv 3]: ^777777Skill Range 19x19 cells^000000",
@@ -8977,7 +9018,7 @@ SKILL_DESCRIPT = {
 		"caster and party members for 60 seconds.",
 		"This is increased by 1% per level of Lesson",
 		"and by 0.2% per Job Level of the caster.",
-		"^00BB00Requires an instrument class weapon^777777.^000000",
+		"^008800Requires an instrument class weapon^777777.^000000",
 		"[Lv 1]: ^777777Def +6%, Skill Range 15x15^000000",
 		"[Lv 2]: ^777777Def +12%, Skill Range 17x17^000000",
 		"[Lv 3]: ^777777Def +18%, Skill Range 19x19^000000",
@@ -8992,7 +9033,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Enter a state of harmony with",
 		"another player or monster. Equalize all bonus",
 		"stats of caster and 1 target for 60 seconds.",
-		"^00BB00Requires an instrument class weapon^777777.^000000",
+		"^008800Requires an instrument class weapon^777777.^000000",
 		"[Lv 1]: ^777777All bonus stats become 3-5^000000",
 		"[Lv 2]: ^777777All bonus stats become 5-7^000000",
 		"[Lv 3]: ^777777All bonus stats become 7-9^000000",
@@ -9100,7 +9141,7 @@ SKILL_DESCRIPT = {
 		"same time. Does not work against MVP type",
 		"monsters.",
 		"Consume 1 ^008800Neck Protection Candy^777777.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^7777778 sec effect duration, 9 sec Sound Wave Duration^000000",
 		"[Lv 2]: ^77777710 sec effect duration, 11 sec Sound Wave Duration^000000",
 		"[Lv 3]: ^77777712 sec effect duration, 13 sec Sound Wave Duration^000000",
@@ -9120,7 +9161,7 @@ SKILL_DESCRIPT = {
 		"The duration of this skill is reduced based on",
 		"the target's base level and the skill is",
 		"cancelled once the target receives damage.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^7777775x5 AOE, 15 sec duration^000000",
 		"[Lv 2]: ^7777777x7 AOE, 18 sec duration^000000",
 		"[Lv 3]: ^7777779x9 AOE, 21 sec duration^000000",
@@ -9138,7 +9179,7 @@ SKILL_DESCRIPT = {
 		"the player had 0 SP before revival, they",
 		"will be has 1 HP.",
 		"Consume 1 ^008800Regrettable Tear^777777.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^777777Success rate 90%",
 		"Consume 50% SP from revival target^000000",
 		"[Lv 2]: ^777777Success rate 92%",
@@ -9164,7 +9205,7 @@ SKILL_DESCRIPT = {
 		"1.5x greater damage from the next attack.",
 		"Affected targets will also recover 3% of",
 		"HP/SP every 2 seconds.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^77777711x11 AoE^000000",
 		"[Lv 2]: ^77777713x13 AoE^000000",
 		"[Lv 3]: ^77777715x15 AoE^000000",
@@ -9182,7 +9223,7 @@ SKILL_DESCRIPT = {
 		"target's HP. If the target's SP is completely",
 		"drained, then the skills effect will be",
 		"cancelled.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^7777777x7 AoE, Consume 4 SP",
 		"and recovers 40 HP per sec.^000000",
 		"[Lv 2]: ^7777779x9 AoE, Consume 8 SP",
@@ -9220,7 +9261,7 @@ SKILL_DESCRIPT = {
 		"If the target doesn't have one of these skills,",
 		"then the target receives a flee rate and attack",
 		"speed penalty.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^777777Flee Rate -25, Attack Speed -20%^000000",
 		"[Lv 2]: ^777777Flee Rate -30, Attack Speed -25%^000000",
 		"[Lv 3]: ^777777Flee Rate -35, Attack Speed -30%^000000",
@@ -9258,7 +9299,7 @@ SKILL_DESCRIPT = {
 		"SP of the caster and party members every 5",
 		"sec. SP recovery is increased based on the",
 		"number of Wanderers/Maestros in the party.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^77777711x11 AoE, Duration 30 sec^000000",
 		"[Lv 2]: ^77777713x13 AoE, Duration 60 sec^000000",
 		"[Lv 3]: ^77777715x15 AoE, Duration 90 sec^000000",
@@ -9278,7 +9319,7 @@ SKILL_DESCRIPT = {
 		"of skills. The number of Wanderers/Maestros",
 		"in the party increases the effect of this",
 		"skill.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^77777711x11 AoE, Duration 30 sec.^000000",
 		"[Lv 2]: ^77777713x13 AoE, Duration 60 sec.^000000",
 		"[Lv 3]: ^77777715x15 AoE, Duration 90 sec.^000000",
@@ -9325,7 +9366,7 @@ SKILL_DESCRIPT = {
 		"affecting more than 7 players at once, the",
 		"Lord of Madness will appear to deal 9999",
 		"damage to all those affected.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^7777777x7 AoE, ATK +100, DEF -20%,",
 		"Flee -50%^000000",
 		"[Lv 2]: ^7777779x9 AoE, ATK +200, DEF -30%,",
@@ -9350,7 +9391,7 @@ SKILL_DESCRIPT = {
 		"not affect characters who are in Frenzy.",
 		"Even Meastros or Wanderers in the party",
 		"increases the HP given by 300.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^77777711x11 AoE, MaxHP +200, Duration 20 sec.^000000",
 		"[Lv 2]: ^77777711x11 AoE, MaxHP +400, Duration 30 sec.^000000",
 		"[Lv 3]: ^77777713x13 AoE, MaxHP +600, Duration 40 sec.^000000",
@@ -9369,7 +9410,7 @@ SKILL_DESCRIPT = {
 		"be used with the chorus skill Beyond of",
 		"Warcry. Each additional Maestro or Wanderer",
 		"in the party increases Matk by 3%.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^777777Success rate 20%, Duration 20 sec.^000000",
 		"[Lv 2]: ^777777Success rate 30%, Duration 30 sec.^000000",
 		"[Lv 3]: ^777777Success rate 40%, Duration 40 sec.^000000",
@@ -9388,7 +9429,7 @@ SKILL_DESCRIPT = {
 		"chorus skill Sinking Melody. Each additional",
 		"Maestro or Wanderer in the party increases",
 		"ATK by 3%.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^777777Success rate 20%, Duration 20 sec.^000000",
 		"[Lv 2]: ^777777Success rate 25%, Duration 30 sec.^000000",
 		"[Lv 3]: ^777777Success rate 30%, Duration 40 sec.^000000",
@@ -9407,7 +9448,7 @@ SKILL_DESCRIPT = {
 		"without being interrupted but will increase",
 		"skill SP cost by 15%. Each Maestro/Wanderer",
 		"in the party reduces this extra cost by 3%.",
-		"^00BB00Requires instrument/whip class weapon^777777.^000000",
+		"^008800Requires instrument/whip class weapon^777777.^000000",
 		"[Lv 1]: ^77777711x11 AoE, 60 sec duration^000000",
 		"[Lv 2]: ^77777711x11 AoE, 90 sec duration^000000",
 		"[Lv 3]: ^77777713x13 AoE, 120 sec duration^000000",
@@ -9448,8 +9489,8 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Auto Spell 4^000000",
 		"Skill Form: ^FF0000Active / Special / Damage^000000",
 		"Description: ^777777If the caster uses this skill",
-		"while casting ^00BB00Fire Bolt^777777 or ^00BB00Cold Bolt^777777 or",
-		"^00BB00Lightening Bolt^777777, the Bolt casting is",
+		"while casting ^008800Fire Bolt^777777 or ^008800Cold Bolt^777777 or",
+		"^008800Lightening Bolt^777777, the Bolt casting is",
 		"cancelled but all the bolt's power is",
 		"concentrated in the caster's hands.",
 		"While in this state, physical attacks will",
@@ -9472,9 +9513,9 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Transforms the ground into",
 		"spears, causes ^cc5500Earth^777777 element damage",
 		"and ^663399Bleeding^777777 state to targets in its range.",
-		"Increase the damage depend on ^00BB00Seismic",
+		"Increase the damage depend on ^008800Seismic",
 		"Weapon^777777 skill level. Can also cause damage to",
-		"enemy in ^00BB00Hiding^777777 and ^00BB00Cloaking^777777 state.^000000",
+		"enemy in ^008800Hiding^777777 and ^008800Cloaking^777777 state.^000000",
 		"[Lv 1]: ^7777777x7 AoE^000000",
 		"[Lv 2]: ^7777777x7 AoE^000000",
 		"[Lv 3]: ^7777777x7 AoE^000000",
@@ -9489,7 +9530,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Creates freezing winds in an",
 		"area which causes ^6996ADWater^777777 element magic",
 		"damage and ^663399Crystallization^777777 state.",
-		"Increase the damage depend on ^00BB00Frost Weapon^777777",
+		"Increase the damage depend on ^008800Frost Weapon^777777",
 		"skill level. The duration of ^663399Crystallization^777777",
 		"state can be reduced with high VIT.^000000",
 		"[Lv 1]: ^7777777x7 AoE^000000",
@@ -9537,7 +9578,7 @@ SKILL_DESCRIPT = {
 		"^663399Poison^777777 element damage and cause ^663399Poison^777777",
 		"status. Increase the damage depend on the",
 		"skill level.",
-		"Requires 2 ^00BB00Red Gemstone^777777 for each cast.^000000",
+		"Requires 2 ^008800Red Gemstone^777777 for each cast.^000000",
 		"[Lv 1]: ^777777Duration 8 sec.^000000",
 		"[Lv 2]: ^777777Duration 10 sec.^000000",
 		"[Lv 3]: ^777777Duration 12 sec.^000000",
@@ -9556,8 +9597,8 @@ SKILL_DESCRIPT = {
 		"for 1 minute. Affected target consumes",
 		"certain amount of SP per second. Increase",
 		"skill effect depending on skill level of:",
-		"^00BB00Flame Launcher, Frost Weapon, Lightning",
-		"Loader^777777 and ^00BB00Seismic Weapon.^000000"
+		"^008800Flame Launcher, Frost Weapon, Lightning",
+		"Loader^777777 and ^008800Seismic Weapon.^000000"
 	},
 	[SKID.SO_WARMER] = {
 		"Warmer",
@@ -9599,7 +9640,7 @@ SKILL_DESCRIPT = {
 		"from the sky and give physical and magic",
 		"damage (^33CC00Wind^777777 element) to 1 target and",
 		"surrounding enemies. Has a chance to Stun",
-		"targets. Increase damage depend ^00BB00Lightning",
+		"targets. Increase damage depend ^008800Lightning",
 		"Loader^777777 skill level.^000000",
 		"[Lv 1]: ^7777773x3 AoE^000000",
 		"[Lv 2]: ^7777773x3 AoE^000000",
@@ -9614,7 +9655,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Active / Special^000000",
 		"Description: ^777777Causes Deep Sleep status",
 		"on targets within an area.",
-		"Consumes 1 ^00BB00Yellow Gemstone^777777 for each cast.^000000",
+		"Consumes 1 ^008800Yellow Gemstone^777777 for each cast.^000000",
 		"[Lv 1]: ^7777773x3 AoE^000000",
 		"[Lv 2]: ^7777773x3 AoE^000000",
 		"[Lv 3]: ^7777775x5 AoE^000000",
@@ -10024,7 +10065,7 @@ SKILL_DESCRIPT = {
 		"method that mimics the Acolyte's Heal skill.",
 		"The amount of restored HP is affected by the",
 		"skill's level, Humonculi's Base Level and INT.",
-		"^00BB00Each cast requires 1 Condensed Red Potion.^000000",
+		"^008800Each cast requires 1 Condensed Red Potion.^000000",
 		"SP Consumption By Level",
 		"[Lv 1]: ^77777713 SP^000000",
 		"[Lv 2]: ^77777716 SP^000000",
@@ -10315,7 +10356,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Reflect a certain amount of damage",
 		"back to the enemy after they inflict damage",
 		"with short ranged physical attacks.",
-		"^00BB00Requires Shield.^000000"
+		"^008800Requires Shield.^000000"
 	},
 	[SKID.MS_BERSERK] = {
 		"Frenzy",
@@ -10352,7 +10393,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Set a trap which will make an enemy",
 		"slide in the direction that the caster was",
 		"facing at the moment the trap was set.",
-		"^00bb00Each cast requires 1 Trap.^000000",
+		"^008800Each cast requires 1 Trap.^000000",
 		"[Lv.1]: ^7777776 cells, 300 Sec^000000",
 		"[Lv.2]: ^7777777 cells, 240 Sec^000000",
 		"[Lv.3]: ^7777778 cells, 180 Sec^000000",
@@ -10365,7 +10406,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ground^000000",
 		"Description: ^777777Set a trap which will explode once",
 		"an enemy steps on it.",
-		"^00BB00Each cast requires 1 Trap.^000000",
+		"^008800Each cast requires 1 Trap.^000000",
 		"Damage & Duration of Trap by Skill Level",
 		"[Lv.1]: ^777777ATK 50%, 65 Sec^000000",
 		"[Lv.2]: ^777777ATK 75%, 50 Sec^000000",
@@ -10380,7 +10421,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Set a trap that will cause the",
 		"enemy that steps on it, as well as enemies",
 		"within the trap's range, to fall asleep.",
-		"^00BB00Each cast requires 1 Trap.^000000",
+		"^008800Each cast requires 1 Trap.^000000",
 		"[Lv.1]: ^777777150 Sec^000000",
 		"[Lv.2]: ^777777120 Sec^000000",
 		"[Lv.3]: ^77777790 Sec^000000",
@@ -10393,7 +10434,7 @@ SKILL_DESCRIPT = {
 		"Target: ^777777Ground^000000",
 		"Description: ^777777Set a trap which will freeze an",
 		"enemy once it has been triggered.",
-		"^00BB00Each cast requires 2 Traps.^000000",
+		"^008800Each cast requires 2 Traps.^000000",
 		"[Lv.1]: ^777777150 Sec^000000",
 		"[Lv.2]: ^777777120 Sec^000000",
 		"[Lv.3]: ^77777790 Sec^000000",
@@ -10436,7 +10477,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Attack an enemy using a thrusting",
 		"stab with a number of additional hits that will",
 		"depend on monster's size.",
-		"^00BB00Requires Spear Class Weapon^777777.^000000",
+		"^008800Requires Spear Class Weapon^777777.^000000",
 		"[Small Monsters]: ^7777771 hit^000000",
 		"[Medium Monsters]: ^7777772 hits^000000",
 		"[Large Monsters]: ^7777773 hits^000000"
@@ -10446,7 +10487,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^FF0000Offensive^000000",
 		"Target: ^777777Enemy^000000 ",
 		"Description: ^777777A powerful lancing strike made",
-		"while riding a Peco Peco. ^00BB00Requires Spear Class",
+		"while riding a Peco Peco. ^008800Requires Spear Class",
 		"Weapon^777777and can only be performed while mounted",
 		"on a Peco Peco.^000000"
 	},
@@ -10479,7 +10520,7 @@ SKILL_DESCRIPT = {
 		"0.3 seconds, but this time can be reduced by",
 		"increasing the skill's level. Casting this",
 		"skill again cancels Guard status.",
-		"^00BB00Requires Shield.^000000"
+		"^008800Requires Shield.^000000"
 	},
 	[SKID.ML_DEVOTION] = {
 		"Devotion",
@@ -11625,8 +11666,8 @@ SKILL_DESCRIPT = {
 		"^000000Cure the following effect:^663399",
 		"Curse, Poison, Hallucination, Confusion,",
 		"Bleeding, Burning, Freezing, Blind,",
-		"Mandragora Howling ^000000and^663399 Guillotine Cross",
-		"poison^000000 (except ^663399Oblivion Curse^000000).",
+		"Mandragora Howling ^777777and^663399 Guillotine Cross",
+		"poison^777777 (except ^663399Oblivion Curse^777777).^000000",
 		"[Lv 1]: ^777777Heal Power x1.3, SP cost 220%^000000",
 		"[Lv 2]: ^777777Heal Power x1.6, SP cost 240%^000000",
 		"[Lv 3]: ^777777Heal Power x1.9, SP cost 260%^000000",
@@ -12068,7 +12109,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^FF0000Offensive^000000",
 		"Description: ^777777Shoot an enemy 3 times in one",
 		"attack.",
-		"^00BB00Consumes 1 coin.^000000",
+		"^008800Consumes 1 coin.^000000",
 	},
 	[SKID.GS_BULLSEYE] = {
 		"Bull's Eye",
@@ -12079,7 +12120,7 @@ SKILL_DESCRIPT = {
 		"and Brute monsters. Bull's Eye has a 0.1%",
 		"chance to inflict the Coma effect on all",
 		"enemies except Boss monsters.",
-		"^00BB00Consumes 1 coin.^000000",
+		"^008800Consumes 1 coin.^000000",
 	},
 	[SKID.GS_MADNESSCANCEL] = {
 		"Madness Canceller (Last Stand)",
@@ -12092,7 +12133,7 @@ SKILL_DESCRIPT = {
 		"+100 ATK and +20% Aspd. Madness Canceller",
 		"has 15 second duration and cannot be used",
 		"with Adjustment.",
-		"^00BB00Consumes 4 coins.^000000",
+		"^008800Consumes 4 coins.^000000",
 	},
 	[SKID.GS_ADJUSTMENT] = {
 		"Adjustment (Gunslinger's Panic)",
@@ -12105,7 +12146,7 @@ SKILL_DESCRIPT = {
 		"attacks, but has -30 HIT. This skill has",
 		"a 30 second duration, and cannot be used",
 		"together with the Madness Canceller skill.",
-		"^00BB00Consumes 2 coins.^000000",
+		"^008800Consumes 2 coins.^000000",
 	},
 	[SKID.GS_INCREASING] = {
 		"Increase Accuracy",
@@ -12114,7 +12155,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Supportive^000000",
 		"Description: ^777777Adds +20 HIT, +4 DEX, and",
 		"+4 AGI for 1 minute duration.",
-		"^00BB00Consumes 4 coins.^000000",
+		"^008800Consumes 4 coins.^000000",
 	},
 	[SKID.GS_MAGICALBULLET] = {
 		"Magical Bullet",
@@ -12123,9 +12164,9 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Supportive^000000",
 		"Description: ^777777Fire a magic shot that does",
 		"not use any bullets, inflicting an amount",
-		"of Ghost element damage equal to the caster's",
-		"ATK + MATK.",
-		"^00BB00Consumes 1 coin.^000000",
+		"of Ghost element damage equal to the",
+		"caster's ATK + MATK.",
+		"^008800Consumes 1 coin.^000000",
 	},
 	[SKID.GS_CRACKER] = {
 		"Cracker",
@@ -12136,7 +12177,7 @@ SKILL_DESCRIPT = {
 		"an enemy. The nearer the target is to the",
 		"caster, the greater the chance of inflicting",
 		"the Stun status.",
-		"^00BB00Consumes 1 coin.^000000",
+		"^008800Consumes 1 coin.^000000",
 	},
 	[SKID.GS_SINGLEACTION] = {
 		"Single Action",
@@ -12177,14 +12218,14 @@ SKILL_DESCRIPT = {
 	[SKID.GS_CHAINACTION] = {
 		"Chain Action",
 		"Max Level: 10",
-		"^CC3399Requirement: Single Action 5^000000",
+		"^CC3399Requirement: Single Action 1^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Enables the chance of firing two",
 		"shots in a single attack while fighting enemies",
 		"when equipped with Revolver class weapon.",
 		"Raising this skill's level increases the rate",
 		"of firing double shots.",
-		"^00BB00Consumes 1 bullet.^000000"
+		"^008800Consumes 1 bullet.^000000"
 	},
 	[SKID.GS_TRACKING] = {
 		"Tracking",
@@ -12194,7 +12235,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Carefully aim at a target to",
 		"inflict devastating damage. Raising this skill's",
 		"level increases Cast Time and damage.",
-		"^00BB00Requires Revolver or Rifle class weapon.^000000",
+		"^008800Requires Revolver or Rifle class weapon.^000000",
 		"[Lv 1]: ^777777300% ATK, 0.6 sec cast time^000000",
 		"[Lv 2]: ^777777400% ATK, 0.7 sec cast time^000000",
 		"[Lv 3]: ^777777500% ATK, 0.8 sec cast time^000000",
@@ -12217,7 +12258,7 @@ SKILL_DESCRIPT = {
 		"When used on monster, this skill will reduce",
 		"their Attack by 25%, but has no effect on",
 		"Boss monsters. Disarm has a range of 9 cells.",
-		"^00BB00Requires Revolver or Rifle class weapon.^000000"
+		"^008800Requires Revolver or Rifle class weapon.^000000"
 	},
 	[SKID.GS_PIERCINGSHOT] = {
 		"Piercing Shot",
@@ -12227,13 +12268,13 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Inflict Defense piercing damage",
 		"that has the chance of causing the Bleeding",
 		"effect on its target.",
-		"^00BB00Requires Revolver or Rifle class weapon.^777777",
+		"^008800Requires Revolver or Rifle class weapon.^777777",
 		"Deals more damage when using a rifle class weapon.^000000",
-		"[Lv 1]: ^777777220%(280) ATK, Bleeding chance 3%^000000",
-		"[Lv 2]: ^777777240%(310) ATK, Bleeding chance 6%^000000",
-		"[Lv 3]: ^777777260%(340) ATK, Bleeding chance 9%^000000",
-		"[Lv 4]: ^777777280%(370) ATK, Bleeding chance 12%^000000",
-		"[Lv 5]: ^777777300%(400) ATK, Bleeding chance 15%^000000"
+		"[Lv 1]: ^777777220%(280%) ATK, Bleeding chance 3%^000000",
+		"[Lv 2]: ^777777240%(310%) ATK, Bleeding chance 6%^000000",
+		"[Lv 3]: ^777777260%(340%) ATK, Bleeding chance 9%^000000",
+		"[Lv 4]: ^777777280%(370%) ATK, Bleeding chance 12%^000000",
+		"[Lv 5]: ^777777300%(400%) ATK, Bleeding chance 15%^000000"
 	},
 	[SKID.GS_RAPIDSHOWER] = {
 		"Rapid Shower",
@@ -12242,8 +12283,8 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^FF0000Offensive^000000",
 		"Description: ^777777Attack an enemy with 5 rapid",
 		"fire attack.",
-		"^00BB00Consumes 1 bullet.^000000",
-		"^00BB00Requires Rifle class weapon.",
+		"^008800Consumes 1 bullet.^000000",
+		"^008800Requires Rifle class weapon.^000000",
 		"[Lv 1]: ^777777550% ATK^000000",
 		"[Lv 2]: ^777777600% ATK^000000",
 		"[Lv 3]: ^777777650% ATK^000000",
@@ -12264,7 +12305,7 @@ SKILL_DESCRIPT = {
 		"haphazard attack that may damage enemies",
 		"within a 7 cell radius around the caster.",
 		"Each cast has a maximum of 10 strikes.",
-		"^00BB00Requires Rifle class weapon.^000000",
+		"^008800Requires Rifle class weapon.^000000",
 		"[Lv 1]: ^777777100% ATK^000000",
 		"[Lv 2]: ^777777150% ATK^000000",
 		"[Lv 3]: ^777777200% ATK^000000",
@@ -12286,27 +12327,27 @@ SKILL_DESCRIPT = {
 		"and damage at the cost of reducing Flee Rate",
 		"and Movement Speed. Gatling Fever status is",
 		"cancelled when this skill is double cast.",
-		"^00BB00Requires Gatling Gun Class Weapon.^000000",
-		"[Lv 1]: ^777777+30 ATK, +1% Aspd ",
-		" -5% Flee, 30 sec. duration^000000",
-		"[Lv 2]: ^777777+40 ATK, +2% Aspd^000000",
-		" ^777777-10% Flee, 45 sec. duration^000000",
-		"[Lv 3]: ^777777+50 ATK, +3% Aspd^000000",
-		" ^777777-15% Flee, 60 sec. duration^000000",
-		"[Lv 4]: ^777777+60 ATK, +4% Aspd^000000",
-		" ^777777-20% Flee, 75 sec. duration^000000",
-		"[Lv 5]: ^777777+70 ATK, +5% Aspd^000000",
-		" ^777777-25% Flee, 90 sec. duration^000000",
-		"[Lv 6]: ^777777+80 ATK, +6% Aspd^000000",
-		" ^777777-30% Flee, 105 sec. duration^000000",
-		"[Lv 7]: ^777777+90 ATK, +7% Aspd^000000",
-		" ^777777-35% Flee, 120 sec. duration^000000",
-		"[Lv 8]: ^777777+100 ATK, +8% Aspd^000000",
-		" ^777777-40% Flee, 135 sec. duration^000000",
-		"[Lv 9]: ^777777+110 ATK, +9% Aspd^000000",
-		" ^777777-45% Flee, 150 sec. duration^000000",
-		"[Lv 10]: ^777777+120 ATK, +10% Aspd^000000",
-		" ^777777-50% Flee, 165 sec. duration^000000"
+		"^008800Requires Gatling Gun Class Weapon.^000000",
+		"[Lv 1]: ^777777ATK +30, After attack delay -1%,",
+		"Flee -5, 30 sec. duration^000000",
+		"[Lv 2]: ^777777ATK +40, After attack delay -2%,",
+		"Flee -10, 45 sec. duration^000000",
+		"[Lv 3]: ^777777ATK +50, After attack delay -3%,",
+		"Flee -15, 60 sec. duration^000000",
+		"[Lv 4]: ^777777ATK +60, After attack delay -4%,",
+		"Flee -20, 75 sec. duration^000000",
+		"[Lv 5]: ^777777ATK +70, After attack delay -5%,",
+		"Flee -25, 90 sec. duration^000000",
+		"[Lv 6]: ^777777ATK +80, After attack delay -6%,",
+		"Flee -30, 105 sec. duration^000000",
+		"[Lv 7]: ^777777ATK +90, After attack delay -7%,",
+		"Flee -35, 120 sec. duration^000000",
+		"[Lv 8]: ^777777ATK +100, After attack delay -8%,",
+		"Flee -40, 135 sec. duration^000000",
+		"[Lv 9]: ^777777ATK +110, After attack delay -9%,",
+		"Flee -45, 150 sec. duration^000000",
+		"[Lv 10]: ^777777ATK +120, After attack delay -10%,",
+		"Flee -50, 165 sec. duration^000000"
 	},
 	[SKID.GS_DUST] = {
 		"Dust",
@@ -12315,7 +12356,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^FF0000Offensive^000000",
 		"Description: ^777777Fire a close range shot that will",
 		"push an enemy 5 cells backward.",
-		"^00BB00Requires a Shotgun Class Weapon.^000000",
+		"^008800Requires a Shotgun Class Weapon.^000000",
 		"[Lv 1]: ^777777150% ATK^000000",
 		"[Lv 2]: ^777777200% ATK^000000",
 		"[Lv 3]: ^777777250% ATK^000000",
@@ -12336,8 +12377,8 @@ SKILL_DESCRIPT = {
 		"enemy by firing multiple bullets at once.",
 		"This skill has a small chance of causing ",
 		"Blind status to the caster.",
-		"^00BB00Consumes 2 bullets.",
-		"^00BB00Requires a Shotgun Class Weapon.^000000",
+		"^008800Consumes 2 bullets.",
+		"^008800Requires a Shotgun Class Weapon.^000000",
 		"[Lv 1]: ^777777400% ATK^000000",
 		"[Lv 2]: ^777777500% ATK^000000",
 		"[Lv 3]: ^777777600% ATK^000000",
@@ -12356,7 +12397,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^FF0000Offensive^000000",
 		"Description: ^777777Consume 5 bullets to spread",
 		"damage over a large area.",
-		"^00BB00Requires a Shotgun or Grenade Launcher class weapon.^000000",
+		"^008800Requires a Shotgun or Grenade Launcher class weapon.^000000",
 		"[Lv 1]: ^777777230% ATK, 3*3 cells^000000",
 		"[Lv 2]: ^777777260% ATK, 3*3 cells^000000",
 		"[Lv 3]: ^777777290% ATK, 3*3 cells^000000",
@@ -12377,7 +12418,7 @@ SKILL_DESCRIPT = {
 		"ground that will explode upon enemy",
 		"approach. The explosion's effect varies",
 		"according to the type of bullet planted.",
-		"^00BB00Requires a Grenade Launcher Class Weapon.^000000",
+		"^008800Requires a Grenade Launcher Class Weapon.^000000",
 		"[Lv 1]: ^777777220% ATK, 3 sec. duration^000000",
 		"[Lv 2]: ^777777240% ATK, 6 sec. duration^000000",
 		"[Lv 3]: ^777777260% ATK, 9 sec. duration^000000",
@@ -12396,7 +12437,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339900Special^000000",
 		"Description: ^777777Activates and detonates caster's",
 		"Howling Mine and Bound Trap on screen.",
-		"^00BB00Consumes 1 coin.^000000",
+		"^008800Consumes 1 coin.^000000",
 	},
 	[SKID.RL_RICHS_COIN] = {
 		"Rich's Coin (Fortune of the Rich)",
@@ -12416,7 +12457,7 @@ SKILL_DESCRIPT = {
 		"Action regardless of equipped weapon for a",
 		"duration. Chain Action's effective level is",
 		"determined by learned level of Eternal Chain.",
-		"^00BB00Consumes 1 coin.^000000",
+		"^008800Consumes 1 coin.^000000",
 		"[LV 1]: ^777777Duration 45 seconds^000000",
 		"[LV 2]: ^777777Duration 60 seconds^000000",
 		"[LV 3]: ^777777Duration 75 seconds^000000",
@@ -12453,7 +12494,7 @@ SKILL_DESCRIPT = {
 		"at a time. Boosts Quick Draw Shot, Dragon",
 		"Tail and Hammer of God damage. Lasts for",
 		"50 second.",
-		"^00BB00Consumes 1 coin.^000000",
+		"^008800Consumes 1 coin.^000000",
 	},
 	[SKID.RL_P_ALTER] = {
 		"Platinum Alter",
@@ -12490,7 +12531,7 @@ SKILL_DESCRIPT = {
 		"the Crimson Marked targets. The skill",
 		"cannot be activated if there are no",
 		"Crimson Marked targets.",
-		"^00BB00Consumes 1 Dragon Tail Missile.^000000",
+		"^008800Consumes 1 Dragon Tail Missile.^000000",
 		"[Lv 1]: ^7777775000% damage^000000",
 		"[Lv 2]: ^7777776000% damage^000000",
 		"[Lv 3]: ^7777777000% damage^000000",
@@ -12508,7 +12549,7 @@ SKILL_DESCRIPT = {
 		"affected targets back 3 cells. If the targets",
 		"are knocked back into the wall, they will take",
 		"additional damage.",
-		"^00BB00Consumes 5 Bullets.^000000",
+		"^008800Consumes 5 Bullets.^000000",
 		"[Lv 1]: ^7777771300% damage, 7x7 AoE^000000",
 		"[Lv 2]: ^7777771600% damage, 7x7 AoE^000000",
 		"[Lv 3]: ^7777771900% damage, 9x9 AoE^000000",
@@ -12525,7 +12566,7 @@ SKILL_DESCRIPT = {
 		"damage depend on the target's DEF.",
 		"Inflicts Bleeding status on the target",
 		"at a high chance.",
-		"^00BB00Consumes 1 Full Metal Jacket Bullet^000000",
+		"^008800Consumes 1 Full Metal Jacket Bullet^000000",
 		"[Lv 1]: ^777777200% Damage, Bleeding chance 40%^000000",
 		"[Lv 2]: ^777777400% Damage, Bleeding chance 50%^000000",
 		"[Lv 3]: ^777777600% Damage, Bleeding chance 60%^000000",
@@ -12549,7 +12590,7 @@ SKILL_DESCRIPT = {
 		"a time. The damage is affected by caster's",
 		"DEX, target's HP and skill level. Duration",
 		"Can't be lowered less than 4 seconds.",
-		"^00BB00Consumes 1 Special Alloy Trap.^000000",
+		"^008800Consumes 1 Special Alloy Trap.^000000",
 		"[Lv 1]: ^7777773x3 AoE, Duration 4 + 6 seconds^000000",
 		"[Lv 2]: ^7777775x5 AoE, Duration 4 + 7 seconds^000000",
 		"[Lv 3]: ^7777775x5 AoE, Duration 4 + 8 seconds^000000",
@@ -12564,7 +12605,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Shotgun exclusive skill.",
 		"Inflict damage on a target and remove",
 		"a random buff cast on the target.",
-		"^00BB00Consumes 1 Bullet.^000000",
+		"^008800Consumes 1 Bullet.^000000",
 		"[Lv 1]: ^7777772300% damage, Buff remove chance 60%^000000",
 		"[Lv 2]: ^7777772600% damage, Buff remove chance 70%^000000",
 		"[Lv 3]: ^7777772900% damage, Buff remove chance 80%^000000",
@@ -12584,7 +12625,7 @@ SKILL_DESCRIPT = {
 		"of helmet destruction. Indestructible",
 		"or chemical protected equipments are not",
 		"affected.^000000",
-		"^00BB00Consumes 1 Bullet.^000000",
+		"^008800Consumes 1 Bullet.^000000",
 		"[Lv 1]: ^7777771900% damage, 5x5 AoE^000000",
 		"[Lv 2]: ^7777772100% damage, 5x5 AoE^000000",
 		"[Lv 3]: ^7777772300% damage, 5x5 AoE^000000",
@@ -12602,7 +12643,7 @@ SKILL_DESCRIPT = {
 		"increase the damage inflicted. Decreases",
 		"HIT if you are more than 3 cells away from",
 		"the target. Knock back target by 6 cells.",
-		"^00BB00Consumes 1 Slug Bullet.^000000",
+		"^008800Consumes 1 Slug Bullet.^000000",
 		"[Lv 1]: ^7777772000% dmg vs Player, 1200% dmg vs Monster, HIT -10%/cell^000000",
 		"[Lv 2]: ^7777774000% dmg vs Player, 2400% dmg vs Monster, HIT -9%/cell^000000",
 		"[Lv 3]: ^7777776000% dmg vs Player, 3600% dmg vs Monster, HIT -8%/cell^000000",
@@ -12618,7 +12659,7 @@ SKILL_DESCRIPT = {
 		"reduces targeted player's resistance effects.",
 		"Skill level affect the success rate of",
 		"reducing resistance effect of target.",
-		"^00BB00Consumes 1 bullet.^000000",
+		"^008800Consumes 1 bullet.^000000",
 		"[Lv 1]: ^777777Duration 6 sec, 30% chance, Resistance -10%^000000",
 		"[Lv 2]: ^777777Duration 7 sec, 40% chance, Resistance -20%^000000",
 		"[Lv 3]: ^777777Duration 8 sec, 50% chance, Resistance -30%^000000",
@@ -12633,7 +12674,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Revolver exclusive skill.",
 		"Deals damage to all targets within 7x7 cells.",
 		"Desperado skill's level affect bonus damage.",
-		"^00BB00Consumes5 bullets.^000000",
+		"^008800Consumes5 bullets.^000000",
 		"[Lv 1]: ^777777200% damage^000000",
 		"[Lv 2]: ^777777400% damage^000000",
 		"[Lv 3]: ^777777600% damage^000000",
@@ -12649,7 +12690,7 @@ SKILL_DESCRIPT = {
 		"Fire bullets to 3x10 AoE in front of you.",
 		"Fire Rain creates a chance of removing",
 		"Ground based skills in its range.",
-		"^00BB00Consumes 10 Bullets.^000000",
+		"^008800Consumes 10 Bullets.^000000",
 		"[Lv 1]: ^7777773800% Damage, 20% remove chance^000000",
 		"[Lv 2]: ^7777774100% Damage, 25% remove chance^000000",
 		"[Lv 3]: ^7777774400% Damage, 30% remove chance^000000",
@@ -12667,7 +12708,7 @@ SKILL_DESCRIPT = {
 		"increase the damage of Desperado. This",
 		"skill fails automatically if there is",
 		"an obstacle in your way.",
-		"^00BB00Consumes 1 Coin.^000000"
+		"^008800Consumes 1 Coin.^000000"
 	},
 	[SKID.RL_H_MINE] = {
 		"Howling Mine (Destructive Cry)",
@@ -12684,7 +12725,7 @@ SKILL_DESCRIPT = {
 		"with Flicker. If the Howling Mine is not",
 		"detonated for 50 seconds, it will fall off",
 		"from the target.",
-		"^00BB00Consumes 1 Mine Projectile.^000000",
+		"^008800Consumes 1 Mine Projectile.^000000",
 		"[Lv 1]: ^777777400% Damage + 800% Explosion Damage^000000",
 		"[Lv 2]: ^777777600% Damage + 1100% Explosion Damage^000000",
 		"[Lv 3]: ^777777800% Damage + 1400% Explosion Damage^000000",
