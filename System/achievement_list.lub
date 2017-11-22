@@ -4,7 +4,7 @@ achievement_tbl = {
 		group = "EAT",
 		major = 4,
 		minor = 0,
-		title = "At this time I live to eat",
+		title = "I don't want to eat anything at this time",
 		content = {
 			summary = "The Bullseye midnight snack at 1 AM",
 			details = "Bring the food to Bigfoot at this hour."
@@ -3719,7 +3719,7 @@ achievement_tbl = {
 			summary = "Achieve base STR 90",
 			details = "Achieve 90 base STR or higher."
 		},
-		resource = { [1] = { text = "Achieve base STR 90º" } },
+		resource = { [1] = { text = "Achieve base STR 90" } },
 		reward = {},
 		score = 10
 	},
@@ -3887,7 +3887,7 @@ achievement_tbl = {
 			summary = "Achieve 99 base level as Novice",
 			details = "Achieve 99 base level as Novice class."
 		},
-		resource = { [1] = { text = "Achieve 99 base level as Noviceº" } },
+		resource = { [1] = { text = "Achieve 99 base level as Novice" } },
 		reward = { buff = 10, item = 16483 },
 		score = 30
 	},
@@ -3917,6 +3917,17 @@ achievement_tbl = {
 		},
 		resource = { [1] = { text = "Job change to transcendent Novice" } },
 		reward = { buff = 12, item = 22808 },
+		score = 10
+	},
+	[200032] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "The start of another adventure!",
+		content = { summary = "Achieve Base Lv100!", details = "Achieve Base Lv100." },
+		resource = { [1] = { text = "Base level 100" } },
+		reward = { item = 23585 },
 		score = 10
 	},
 	[230100] = {
@@ -5246,7 +5257,7 @@ achievement_tbl = {
 		group = "EAT",
 		major = 1,
 		minor = 2,
-		title = "The first step becoming a chef",
+		title = "The first step to become a chef",
 		content = {
 			summary = "Obtain Level 1 Cooking",
 			details = "Obtain Level 1 Cooking"
