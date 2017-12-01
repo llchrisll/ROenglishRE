@@ -52,7 +52,9 @@ HatEFID = {
 	HAT_EF_firework = 51,
 	HAT_EF_Return_TW_1st_Hat = 52,
 	HAT_EF_C_FlutterButterfly_BL = 53,
-	HAT_EF_Qscaraba = 54
+	HAT_EF_Qscaraba = 54,
+	HAT_EF_FSTONE = 55,
+	HAT_EF_Magiccircle = 56
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = { resourceFileName = "efst_blossom_fluttering\\sakura.str", hatEffectPos = -4 },
@@ -117,9 +119,41 @@ hatEffectTable = {
 		resourceFileName = "efst_FlutterButterfly_BL\\Flutter_Butterfly.str",
 		hatEffectPos = -8
 	},
-	[HatEFID.HAT_EF_Qscaraba] = { resourceFileName = "EFST_Qscaraba\\Qscaraba.str", hatEffectPos = -5 }
+	[HatEFID.HAT_EF_Qscaraba] = { resourceFileName = "EFST_Qscaraba\\Qscaraba.str", hatEffectPos = -5 },
+	[HatEFID.HAT_EF_FSTONE] = { hatEffectID = 1084 },
+	[HatEFID.HAT_EF_Magiccircle] = {
+		resourceFileName = "efst_Magiccircle\\mc.str",
+		hatEffectPos = -12,
+		isRenderBeforeCharacter = true
+	}
 }
-effectHatItemTable = { 20285, 20209, 31091, 31089, 31056, 20062, 20439, 5979, 20487, 5914, 20457, 31142, 20240, 19871, 18742, 20154, 18744, 20323, 20246, 19022, 18741, 18719, 20600 }
+effectHatItemTable = {
+	20285,
+	20209,
+	31091,
+	31089,
+	31056,
+	20062,
+	20439,
+	5979,
+	20487,
+	5914,
+	20457,
+	31142,
+	20240,
+	19871,
+	18742,
+	20154,
+	18744,
+	20323,
+	20246,
+	19022,
+	18741,
+	18719,
+	20600,
+	20515,
+	31391
+}
 
 function GetHatEfResName(index)
 	if hatEffectTable == nil then
@@ -159,6 +193,17 @@ function IsEffectHatItem(itemID)
 		if v == itemID then
 			return true
 		end
+	end
+	return false
+end
+
+function IsRenderBeforeCharacter(index)
+	if hatEffectTable == nil then
+		return false
+	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.hatEffectPos ~= nil then
+		return hatEfTbl.isRenderBeforeCharacter
 	end
 	return false
 end
