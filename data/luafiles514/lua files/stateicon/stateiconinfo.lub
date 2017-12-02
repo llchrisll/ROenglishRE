@@ -4980,6 +4980,16 @@ StateIconList[EFST_IDs.EFST_INFINITY_DRINK] = {
 		{ "캐스팅이 끊기지 않음" }
 	}
 }
+StateIconList[EFST_IDs.EFST_HUNTING_EVENT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "사냥꾼의 만찬", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "고구마 회복량 증가" },
+		{ "고기 회복량 증가" }
+	}
+}
 StateIconList[EFST_IDs.EFST_ABYSS_001] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
