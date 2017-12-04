@@ -470,6 +470,7 @@ SKILL_DESCRIPT = {
 		"Max Level: 1",
 		"4^CC3399Requirement: Heal 2^000000",
 		"14^CC3399Requirement: Faith 5^000000",
+		"23^CC3399Requirement: Heal 2^000000",
 		"Skill Form: ^339900Recovery^000000",
 		"Target: ^777777Player^000000",
 		"Description: ^777777Cancel various abnormal statuses",
@@ -595,7 +596,8 @@ SKILL_DESCRIPT = {
 	[SKID.AC_VULTURE] = {
 		"Vulture's Eye",
 		"Max Level: 10",
-		"^CC3399Requirement: Owl's Eye 3^000000",
+		"3^CC3399Requirement: Owl's Eye 3^000000",
+		"23^CC3399Requirement: Owl's Eye 3^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increase attack range and",
 		"hit rate with bow class weapons.^000000",
@@ -1492,7 +1494,7 @@ SKILL_DESCRIPT = {
 		"Remove Trap",
 		"Max Level: 1",
 		"11^CC3399Requirement: Land Mine 1^000000",
-		"17^CC3399Requirement: Double Strafe 10^000000",
+		"17^CC3399Requirement: Double Strafe 5^000000",
 		"Skill Form: ^339900Supportive^000000",
 		"Target: ^777777Trap^000000",
 		"Description: ^777777Remove a trap that has been set",
@@ -7855,7 +7857,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Ankle Snare 5^000000",
 		"Skill Form: ^FF0000Active / Damage^000000",
 		"Description: ^777777If the target is immobilized",
-		"(by Ankle Snare, Electric Shock, Wug Bite),",
+		"(by Ankle Snare, Electric Shock, Warg Bite),",
 		"the target gets more damage by this skill.",
 		"The number of attacks increases depending",
 		"on target's size. This skill fails when",
@@ -7906,33 +7908,33 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777Damage 700% + Additional Trap Damage / Duration 15 sec.^000000"
 	},
 	[SKID.RA_WUGMASTERY] = {
-		"Wug Mastery",
+		"Warg Mastery",
 		"Max Level: 1",
 		"^CC3399Requirement: Ranger Basic Skill^000000",
 		"Skill Form: ^339900Active / Special^000000",
-		"Description: ^777777Summon a Wug with a Wolf Flute. Re-using the skill returns the Wug to the wild.^000000"
+		"Description: ^777777Summon a Warg with a Wolf Flute. Re-using the skill returns the Warg to the wild.^000000"
 	},
 	[SKID.RA_WUGRIDER] = {
-		"Wug Rider",
+		"Warg Rider",
 		"Max Level: 3 ",
-		"^CC3399Requirement: Wug Mastery 1^000000",
+		"^CC3399Requirement: Warg Mastery 1^000000",
 		"Skill Form: ^339900Active / Special^000000",
-		"Description: ^777777Allows a Ranger to mount their summoned Wug. Skill level increases movement speed. While mounted on a Wug, you can't use any bow attacks or skills that are not Wug exclusive other than trap skills.",
-		"Can use the following traps while on a Wug: Cobalt Trap, Magenta Trap, Verdure Trap, Maze Trap, Electric Shocker.^000000"
+		"Description: ^777777Allows a Ranger to mount their summoned Warg. Skill level increases movement speed. While mounted on a Warg, you can't use any bow attacks or skills that are not Warg exclusive other than trap skills.",
+		"Can use the following traps while on a Warg: Cobalt Trap, Magenta Trap, Verdure Trap, Maze Trap, Electric Shocker.^000000"
 	},
 	[SKID.RA_WUGDASH] = {
-		"Wug Dash",
+		"Warg Dash",
 		"Max Level: 1",
-		"^CC3399Requirement: Wug Rider 1^000000",
+		"^CC3399Requirement: Warg Rider 1^000000",
 		"Skill Form: ^339900Active / Special^000000",
-		"Description: ^777777Usable only when mounted on your Wug. Makes your Wug scamper in a straight direction, and re-using the skill stops. You will automatically stop when hitting a wall or an enemy. If the Ranger has already learned Wug Strike, it gives damage to the crashed enemy.^000000"
+		"Description: ^777777Usable only when mounted on your Warg. Makes your Warg scamper in a straight direction, and re-using the skill stops. You will automatically stop when hitting a wall or an enemy. If the Ranger has already learned Warg Strike, it gives damage to the crashed enemy.^000000"
 	},
 	[SKID.RA_WUGSTRIKE] = {
-		"Wug Strike",
+		"Warg Strike",
 		"Max Level: 5",
-		"^CC3399Requirement: Tooth of Wug 1^000000",
+		"^CC3399Requirement: Tooth of Warg 1^000000",
 		"Skill Form: ^FF0000Active / Damage^000000",
-		"Description: ^777777Make your Wug run into 1 target",
+		"Description: ^777777Make your Warg run into 1 target",
 		"and give damage. Damage increases as skill",
 		"level gets higher.^000000",
 		"[Lv 1]: ^777777200% ATK^000000",
@@ -7942,25 +7944,25 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^7777771000% ATK^000000"
 	},
 	[SKID.RA_WUGBITE] = {
-		"Wug Bite",
+		"Warg Bite",
 		"Max Level: 5",
-		"^CC3399Requirement: Wug Strike 1^000000",
+		"^CC3399Requirement: Warg Strike 1^000000",
 		"Skill Form: ^FF0000Active / Damage^000000",
-		"Description: ^777777Make your Wug leap at a target,",
+		"Description: ^777777Make your Warg leap at a target,",
 		"dealing damage and temporarily causing",
 		"immobile status. Damage increases if Tooth",
-		"of Wug level is increased. Can't be used",
-		"while mounted on a Wug.^000000",
-		"[Lv 1]: ^777777600% ATK, Duration 1 sec + Tooth of Wug skill^000000",
-		"[Lv 2]: ^777777800% ATK, Duration 2 sec + Tooth of Wug skill^000000",
-		"[Lv 3]: ^7777771000% ATK, Duration 3 sec + Tooth of Wug skill^000000",
-		"[Lv 4]: ^7777771200% ATK, Duration 4 sec + Tooth of Wug skill^000000",
-		"[Lv 5]: ^7777771500% ATK, Duration 5 sec + Tooth of Wug skill^000000"
+		"of Warg level is increased. Can't be used",
+		"while mounted on a Warg.^000000",
+		"[Lv 1]: ^777777600% ATK, Duration 1 sec + Tooth of Warg skill^000000",
+		"[Lv 2]: ^777777800% ATK, Duration 2 sec + Tooth of Warg skill^000000",
+		"[Lv 3]: ^7777771000% ATK, Duration 3 sec + Tooth of Warg skill^000000",
+		"[Lv 4]: ^7777771200% ATK, Duration 4 sec + Tooth of Warg skill^000000",
+		"[Lv 5]: ^7777771500% ATK, Duration 5 sec + Tooth of Warg skill^000000"
 	},
 	[SKID.RA_TOOTHOFWUG] = {
-		"Tooth of Wug",
+		"Tooth of Warg",
 		"Max Level: 10",
-		"^CC3399Requirement: Wug Mastery 1^000000",
+		"^CC3399Requirement: Warg Mastery 1^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increases the damage done by",
 		"Wug-skills. Increase damage as skill level",
@@ -7979,16 +7981,16 @@ SKILL_DESCRIPT = {
 	[SKID.RA_SENSITIVEKEEN] = {
 		"Sensitive Keen",
 		"Max Level: 5",
-		"^CC3399Requirement: Tooth of Wug 3^000000",
+		"^CC3399Requirement: Tooth of Warg 3^000000",
 		"Skill Form: ^339900Active / Detect^000000",
-		"Description: ^777777Use the Wug's senses to reveal",
+		"Description: ^777777Use the Warg's senses to reveal",
 		"hidden traps and enemies. Has a chance",
-		"to attack enemies with Wug Bite.^000000",
-		"[Lv 1]: ^7777777 x 7 AoE, Damage 150%, Wug Bite Chance 8%^000000",
-		"[Lv 2]: ^7777779 x 9 AoE, Damage 200%, Wug Bite Chance 16%^000000",
-		"[Lv 3]: ^77777711 x11 AoE, Damage 250%, Wug Bite Chance 24%^000000",
-		"[Lv 4]: ^77777713 x13 AoE, Damage 300%, Wug Bite Chance 32%^000000",
-		"[Lv 5]: ^77777715 x15 AoE, Damage 350%, Wug Bite Chance 40%^000000"
+		"to attack enemies with Warg Bite.^000000",
+		"[Lv 1]: ^7777777 x 7 AoE, Damage 150%, Warg Bite Chance 8%^000000",
+		"[Lv 2]: ^7777779 x 9 AoE, Damage 200%, Warg Bite Chance 16%^000000",
+		"[Lv 3]: ^77777711 x11 AoE, Damage 250%, Warg Bite Chance 24%^000000",
+		"[Lv 4]: ^77777713 x13 AoE, Damage 300%, Warg Bite Chance 32%^000000",
+		"[Lv 5]: ^77777715 x15 AoE, Damage 350%, Warg Bite Chance 40%^000000"
 	},
 	[SKID.RA_CAMOUFLAGE] = {
 		"Camouflage",
@@ -9613,7 +9615,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^77777719x19 AoE, Duration 150 sec^000000"
 	},
 	[SKID.WM_DANCE_WITH_WUG] = {
-		"Dance with Wug",
+		"Dance with Warg",
 		"Max Level: 5",
 		"19^CC3399Requirement: Harmonize 1, Windmill Rush 1, Echo Song 1^000000",
 		"20^CC3399Requirement: Swing Dance 1, Symphony of Lover 1, Moonlight Serenade 1^000000",
@@ -9657,7 +9659,7 @@ SKILL_DESCRIPT = {
 	[SKID.WM_SATURDAY_NIGHT_FEVER] = {
 		"Saturday Night Fever",
 		"Max Level: 5",
-		"^CC3399Requirement: Dance with Wug 1^000000",
+		"^CC3399Requirement: Dance with Warg 1^000000",
 		"Skill Form: ^339900Active / Special / Chorus^000000",
 		"Description: ^777777When sung by the caster and at",
 		"least one other performer, all players",
