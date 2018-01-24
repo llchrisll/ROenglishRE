@@ -107,7 +107,11 @@ hatEffectTable = {
 		hatEffectPos = -10,
 		hatEffectPosX = 0
 	},
-	[HatEFID.HAT_EF_Angel_Stairs] = { resourceFileName = "cloudh.str", hatEffectPos = 0, hatEffectPosX = 0 },
+	[HatEFID.HAT_EF_Angel_Stairs] = {
+		resourceFileName = "cloudh.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0
+	},
 	[HatEFID.HAT_EF_Glow_Of_New_Year] = {
 		resourceFileName = "efst_GlowOfNewYear\\halo.str",
 		hatEffectPos = -7,
@@ -125,11 +129,7 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_YELLOWFLY3] = { hatEffectID = 946 },
 	[HatEFID.HAT_EF_KAGEMUSYA] = { hatEffectID = 1004 },
 	[HatEFID.HAT_EF_CHERRYBLOSSOM] = { hatEffectID = 1013 },
-	[HatEFID.HAT_EF_STRANGELIGHTS] = {
-		resourceFileName = "efst_STRANGELIGHTS\\strangelights.str",
-		hatEffectPos = -4,
-		hatEffectPosX = 0
-	},
+	[HatEFID.HAT_EF_STRANGELIGHTS] = { hatEffectID = 1035 },
 	[HatEFID.HAT_EF_WL_TELEKINESIS_INTENSE] = { hatEffectID = 1048 },
 	[HatEFID.HAT_EF_AB_OFFERTORIUM_RING] = { hatEffectID = 1057 },
 	[HatEFID.HAT_EF_WHITEBODY2] = { hatEffectID = 1065 },
@@ -187,8 +187,23 @@ hatEffectTable = {
 		hatEffectPos = 0,
 		hatEffectPosX = 0
 	},
-	[HatEFID.HAT_EF_FSTONE] = { resourceFileName = "efst_fstone\\fstone.str", hatEffectPos = -6, hatEffectPosX = 0 },
-	[HatEFID.HAT_EF_Magiccircle] = { resourceFileName = "efst_Magiccircle\\mc.str", hatEffectPos = -8, hatEffectPosX = 0 }
+	[HatEFID.HAT_EF_STRANGELIGHTS] = {
+		resourceFileName = "efst_STRANGELIGHTS\\strangelights.str",
+		hatEffectPos = -4,
+		hatEffectPosX = 0
+	},
+	[HatEFID.HAT_EF_FSTONE] = {
+		resourceFileName = "efst_fstone\\fstone.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0
+	},
+	[HatEFID.HAT_EF_Magiccircle] = {
+		resourceFileName = "efst_Magiccircle\\mc.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isIgnoreRiding = true
+	}
 }
 effectHatItemTable = {
 	20285,
@@ -278,6 +293,14 @@ function IsRenderBeforeCharacter(index)
 	local hatEfTbl = hatEffectTable[index]
 	if hatEfTbl ~= nil and hatEfTbl.hatEffectPos ~= nil then
 		return hatEfTbl.isRenderBeforeCharacter
+	end
+	return false
+end
+
+function IsIgnoredRidingState(index)
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.isIgnoreRiding ~= nil then
+		return hatEfTbl.isIgnoreRiding
 	end
 	return false
 end
