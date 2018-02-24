@@ -1,6 +1,69 @@
 tblLapineDdukddakBox = {
 	sources = {
-		Candy_Blessing_Scroll_Physical = {
+		["Silver_Statue"] = {
+			ItemID = 23545,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			SourceItems = {
+				{ "Bloody_Knight_Shield", 1, 28942 }
+			},
+			NeedSource_String = "저주받은 기사의 방패"
+		},
+		["InfinityShadow_Mix"] = {
+			ItemID = 23474,
+			NeedCount = 2,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "인피니티이어링S", 1, 24150 },
+				{ "인피니티펜던트S", 1, 24151 }
+			},
+			NeedSource_String = "+7 인피니티 쉐도우"
+		},
+		["스테빌리티S변환상자"] = {
+			ItemID = 23324,
+			NeedCount = 3,
+			NeedRefineMin = 5,
+			SourceItems = {
+				{ "플라스터러즈아머S", 1, 24091 },
+				{ "플라스터러즈슈즈S", 1, 24092 },
+				{ "인솜니악아머S", 1, 24093 },
+				{ "인솜니악슈즈S", 1, 24094 },
+				{ "피어리스아머S", 1, 24095 },
+				{ "피어리스슈즈S", 1, 24096 },
+				{ "애듀레이트아머S", 1, 24097 },
+				{ "애듀레이트슈즈S", 1, 24098 },
+				{ "언프리징웨폰S", 1, 24099 },
+				{ "언프리징이어링S", 1, 24100 },
+				{ "언프리징펜던트S", 1, 24101 },
+				{ "바이탈리티이어링S", 1, 24102 },
+				{ "바이탈리티펜던트S", 1, 24103 },
+				{ "뉴트럴웨폰S", 1, 24104 },
+				{ "뉴트럴이어링S", 1, 24105 },
+				{ "뉴트럴펜던트S", 1, 24106 },
+				{ "언커즈이어링S", 1, 24107 },
+				{ "언커즈펜던트S", 1, 24108 }
+			},
+			NeedSource_String = "+5 상태이상 쉐도우"
+		},
+		["부스터증폭기"] = {
+			ItemID = 23308,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			SourceItems = {
+				{ "매지컬부스터K", 1, 19241 }
+			},
+			NeedSource_String = "매지컬 부스터"
+		},
+		["마법고양이손"] = {
+			ItemID = 23311,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			SourceItems = {
+				{ "고양이레이스머리띠K", 1, 19242 }
+			},
+			NeedSource_String = "새끼 고양이 헤드드레스"
+		},
+		["Candy_Blessing_Scroll_Physical"] = {
 			ItemID = 23289,
 			NeedCount = 1,
 			NeedRefineMin = 0,
@@ -8,7 +71,7 @@ tblLapineDdukddakBox = {
 				{ "Antonio_Bag_Physical", 1, 20842 }
 			}, NeedSource_String = "Candy Pouch Bag(Physical)"
 		},
-		Candy_Blessing_Scroll_Distance = {
+		["Candy_Blessing_Scroll_Distance"] = {
 			ItemID = 23290,
 			NeedCount = 1,
 			NeedRefineMin = 0,
@@ -17,7 +80,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "Candy Pouch Bag(Distance)"
 		},
-		Candy_Blessing_Scroll_Magic = {
+		["Candy_Blessing_Scroll_Magic"] = {
 			ItemID = 23291,
 			NeedCount = 1,
 			NeedRefineMin = 0,
@@ -25,7 +88,7 @@ tblLapineDdukddakBox = {
 				{ "Antonio_Bag_Magic", 1, 20844 }
 			}, NeedSource_String = "Candy Pouch Bag(Magic)"
 		},
-		Race_S_Converter_Box = {
+		["Race_S_Converter_Box"] = {
 			ItemID = 23281,
 			NeedCount = 4,
 			NeedRefineMin = 7,
@@ -51,7 +114,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Race Shadow"
 		},
-		Compose_Shadow_Box = {
+		["Compose_Shadow_Box"] = {
 			ItemID = 23250,
 			NeedCount = 4,
 			NeedRefineMin = 7,
@@ -63,7 +126,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Bolt Shadow"
 		},
-		Bearers_Shadow_Box = {
+		["Bearers_Shadow_Box"] = {
 			ItemID = 23249,
 			NeedCount = 3,
 			NeedRefineMin = 7,
@@ -77,7 +140,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Bearer's Shadow"
 		},
-		Gemstone_Shadow_Box = {
+		["Gemstone_Shadow_Box"] = {
 			ItemID = 23248,
 			NeedCount = 3,
 			NeedRefineMin = 7,
@@ -91,7 +154,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Gemstone Shadow"
 		},
-		Status_Shadow_Box = {
+		["Status_Shadow_Box"] = {
 			ItemID = 23247,
 			NeedCount = 5,
 			NeedRefineMin = 7,
@@ -111,7 +174,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Status Shadow"
 		},
-		Class_Shadow_Box_Weapon = {
+		["Class_Shadow_Box_Weapon"] = {
 			ItemID = 23236,
 			NeedCount = 1,
 			NeedRefineMin = 7,
@@ -138,7 +201,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Class Shadow Weapon"
 		},
-		Class_Shadow_Box_Armor = {
+		["Class_Shadow_Box_Armor"] = {
 			ItemID = 23237,
 			NeedCount = 1,
 			NeedRefineMin = 7,
@@ -159,7 +222,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Class Shadow Armor"
 		},
-		Class_Shadow_Box_Shoes = {
+		["Class_Shadow_Box_Shoes"] = {
 			ItemID = 23238,
 			NeedCount = 1,
 			NeedRefineMin = 7,
@@ -180,7 +243,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Class Shadow Shoes"
 		},
-		Class_Shadow_Box_Shield = {
+		["Class_Shadow_Box_Shield"] = {
 			ItemID = 23239,
 			NeedCount = 1,
 			NeedRefineMin = 7,
@@ -207,7 +270,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Class Shadow Shield"
 		},
-		Class_Shadow_Box_Pendant = {
+		["Class_Shadow_Box_Pendant"] = {
 			ItemID = 23240,
 			NeedCount = 1,
 			NeedRefineMin = 7,
@@ -221,7 +284,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Class Shadow Pendant"
 		},
-		Class_Shadow_Box_Earring = {
+		["Class_Shadow_Box_Earring"] = {
 			ItemID = 23241,
 			NeedCount = 1,
 			NeedRefineMin = 7,
@@ -235,7 +298,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "+7 Class Shadow Pendant Earring"
 		},
-		Fallen_Angels_Wings_Scroll = {
+		["Fallen_Angels_Wings_Scroll"] = {
 			ItemID = 23229,
 			NeedCount = 1,
 			NeedRefineMin = 0,
@@ -245,7 +308,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "Fallen Angel Wings"
 		},
-		Shadow_Box = {
+		["Shadow_Box"] = {
 			ItemID = 22529,
 			NeedCount = 3,
 			NeedRefineMin = 0,
@@ -562,10 +625,61 @@ tblLapineDdukddakBox = {
 				{ "Malicious_Shadow_Armor_II", 1, 24325 },
 				{ "Sigrun_Shadow_Armor", 1, 24326 },
 				{ "Sigrun_Shadow_Shield", 1, 24327 },
+				{ "크리티컬쉴드S", 1, 24332 },
+				{ "크리티컬슈즈S", 1, 24333 },
+				{ "매직컴포즈아머S", 1, 24334 },
+				{ "젬스톤웨폰S2", 1, 24335 },
+				{ "젬스톤쉴드S2", 1, 24336 },
+				{ "베어러즈아머S2", 1, 24337 },
+				{ "베어러즈슈즈S2", 1, 24338 },
+				{ "올마이티이어링S", 1, 24339 },
+				{ "올마이티펜던트S", 1, 24340 },
+				{ "템페스트쉴드S", 1, 24345 },
+				{ "템페스트슈즈S", 1, 24346 },
+				{ "매직액서홀리아머S", 1, 24347 },
+				{ "매직엑소커럽트아머S", 1, 24348 },
+				{ "매직드래곤바이브아머S", 1, 24349 },
+				{ "매직시저스헌팅아머S", 1, 24350 },
+				{ "매직피싱인섹트아머S", 1, 24351 },
+				{ "플라스터러즈아머S2", 1, 24352 },
+				{ "인솜니악슈즈S2", 1, 24353 },
+				{ "피어리스아머S2", 1, 24354 },
+				{ "애듀레이트슈즈S2", 1, 24355 },
+				{ "언프리징웨폰S2", 1, 24356 },
+				{ "바이탈리티이어링S2", 1, 24357 },
+				{ "뉴트럴웨폰S2", 1, 24358 },
+				{ "언커즈펜던트S2", 1, 24359 },
+				{ "텐션웨폰S", 1, 24360 },
+				{ "텐션이어링S", 1, 24361 },
+				{ "텐션펜던트S", 1, 24362 },
+				{ "엘레강트웨폰S", 1, 24363 },
+				{ "엘레강트이어링S", 1, 24364 },
+				{ "엘레강트펜던트S", 1, 24365 },
+				{ "힐링쉴드S", 1, 24366 },
+				{ "힐링슈즈S", 1, 24367 },
+				{ "리스토어이어링S", 1, 24368 },
+				{ "리스토어펜던트S", 1, 24369 },
+				{ "모탈블로우웨폰S", 1, 24370 },
+				{ "모탈블로우이어링S", 1, 24371 },
+				{ "모탈블로우펜던트S", 1, 24372 },
+				{ "페니트레이션슈즈S", 1, 24373 },
+				{ "페니트레이션쉴드S", 1, 24374 },
+				{ "액서홀리아머S", 1, 24375 },
+				{ "엑소커럽트아머S", 1, 24376 },
+				{ "드래곤바이브아머S", 1, 24377 },
+				{ "시저스헌팅아머S", 1, 24378 },
+				{ "피싱인섹트아머S", 1, 24379 },
+				{ "Sentimental_Weapone_S", 1, 24380 },
+				{ "Sentimental_Earring_S", 1, 24381 },
+				{ "Sentimental_Pendant_S", 1, 24382 },
+				{ "Enchanting_Weapone_S", 1, 24383 },
+				{ "Enchanting_Earring_S", 1, 24384 },
+				{ "Enchanting_Pendant_S", 1, 24385 },
+				{ "S_Infinity_Weapon", 1, 24386 }
 			},
 			NeedSource_String = "Shadow Item"
 		},
-		Gunslinger_Scroll = {
+		["Gunslinger_Scroll"] = {
 			ItemID = 23100,
 			NeedCount = 1,
 			NeedRefineMin = 0,
@@ -574,7 +688,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "Drooping Gunslinger"
 		},
-		Fan_Remodeling_Kit = {
+		["Fan_Remodeling_Kit"] = {
 			ItemID = 23170,
 			NeedCount = 1,
 			NeedRefineMin = 0,
@@ -583,7 +697,7 @@ tblLapineDdukddakBox = {
 			},
 			NeedSource_String = "Sea Otter Mini Fan"
 		},
-		Clothing_Repair_Kit = {
+		["Clothing_Repair_Kit"] = {
 			ItemID = 23175,
 			NeedCount = 1,
 			NeedRefineMin = 0,
@@ -591,7 +705,7 @@ tblLapineDdukddakBox = {
 				{ "Kafra_Costume", 1, 15186 }
 			}, NeedSource_String = "Kafra Costume"
 		},
-		Costume_Enchantment_Stone_Box = {
+		["Costume_Enchantment_Stone_Box"] = {
 			ItemID = 23151,
 			NeedCount = 3,
 			NeedRefineMin = 0,
@@ -688,11 +802,35 @@ tblLapineDdukddakBox = {
 				{ "White_Body_Effect_Middle", 1, 25224 },
 				{ "Steal_Stone_Lower", 1, 25229 },
 				{ "Teleport_Stone_Lower", 1, 25228 },
-				{ "Heal_Stone_Lower", 1, 25227 }
+				{ "Heal_Stone_Lower", 1, 25227 },
+				{ "SuraStone_Top", 1, 25409 },
+				{ "SuraStone_Middle", 1, 25410 },
+				{ "SuraStone_Bottom", 1, 25411 },
+				{ "SuraStone_Robe", 1, 25412 },
+				{ "RangerStone_Top", 1, 25413 },
+				{ "RangerStone_Middle", 1, 25414 },
+				{ "RangerStone_Bottom", 1, 25415 },
+				{ "RangerStone_Robe", 1, 25416 },
+				{ "SorcererStone_Top", 1, 25417 },
+				{ "SorcererStone_Middle", 1, 25418 },
+				{ "SorcererStone_Bottom", 1, 25419 },
+				{ "SorcererStone_Robe", 1, 25420 },
+				{ "RuneknightStone_Top", 1, 25445 },
+				{ "RuneknightStone_Middle", 1, 25446 },
+				{ "RuneknightStone_Bottom", 1, 25447 },
+				{ "RuneknightStone_Robe", 1, 25448 },
+				{ "GeneticStone_Robe", 1, 25449 },
+				{ "GeneticStone_Top", 1, 25450 },
+				{ "GeneticStone_Middle", 1, 25451 },
+				{ "GeneticStone_Bottom", 1, 25452 },
+				{ "WarlockStone_Top", 1, 25453 },
+				{ "WarlockStone_Middle ", 1, 25454 },
+				{ "WarlockStone_Bottom ", 1, 25455 },
+				{ "WarlockStone_Robe", 1, 25456 }
 			},
 			NeedSource_String = "Enchantment Stone"
 		},
-		Collection_Box = {
+		["Collection_Box"] = {
 			ItemID = 23152,
 			NeedCount = 10,
 			NeedRefineMin = 0,
@@ -889,11 +1027,29 @@ tblLapineDdukddakBox = {
 				{ "Old_revolver", 10, 25282 },
 				{ "Brown_Scarf", 10, 25283 },
 				{ "Bark_of_Marsh_Worm", 10, 25284 },
-				{ "Tail_of_Brown_Rat", 10, 25285 }
+				{ "Tail_of_Brown_Rat", 10, 25285 },
+				{ "얼어붙은돌조각", 10, 25297 },
+				{ "혼이담긴보석", 10, 25298 },
+				{ "눈덩이", 10, 25299 },
+				{ "크툴라낙스의눈", 10, 25300 },
+				{ "흐릿한꿈조각", 10, 25256 },
+				{ "부러진화살", 10, 25258 },
+				{ "토벌단전단지", 10, 25259 },
+				{ "환장석", 10, 25272 },
+				{ "뜯어진종이한장", 10, 25261 },
+				{ "잘마른클로버", 10, 25262 },
+				{ "짧은박쥐털", 10, 25263 },
+				{ "악몽덩어리", 10, 25264 },
+				{ "빛나는포자", 10, 25265 },
+				{ "마른이그드라실잎", 10, 25266 },
+				{ "수상한마법진", 10, 25267 },
+				{ "검은혼의조각", 10, 25311 },
+				{ "곱게낡은인형", 10, 25312 },
+				{ "오래된등껍질", 10, 25313 }
 			},
 			NeedSource_String = "Collectibles"
 		},
-		Pet_Egg_Box = {
+		["Pet_Egg_Box"] = {
 			ItemID = 23153,
 			NeedCount = 2,
 			NeedRefineMin = 0,
@@ -938,14 +1094,12 @@ tblLapineDdukddakBox = {
 				{ "New_Year_Doll_Egg", 1, 9038 },
 				{ "Bacsojin_Egg", 1, 9039 },
 				{ "Civil_Servant_Egg", 1, 9040 },
-				{ "Leaf_Cat_Egg", 1, 9041 },
 				{ "Loli_Ruri_Egg", 1, 9042 },
 				{ "Marionette_Egg", 1, 9043 },
 				{ "Shinobi_Egg", 1, 9044 },
 				{ "Whisper_Egg", 1, 9045 },
 				{ "Goblin_Leader_Egg", 1, 9046 },
 				{ "Wicked_Nymph_Egg", 1, 9047 },
-				{ "Miyabi_Ningyo_Egg", 1, 9048 },
 				{ "Dullahan_Egg", 1, 9049 },
 				{ "Medusa_Egg", 1, 9050 },
 				{ "Stone_Shooter_Egg", 1, 9051 },
@@ -961,13 +1115,19 @@ tblLapineDdukddakBox = {
 				{ "Marin_Egg", 1, 9061 },
 				{ "Chun_Tree_Egg", 1, 9063 },
 				{ "Blue_Unicorn_Egg", 1, 9068 },
-				{ "Mastering_Egg", 1, 9069 },
-				{ "Savage_Egg", 1, 9070 },
-				{ "Grand_Pecopeco_Egg", 1, 9071 }
+				{ "구미호알", 1, 9095 },
+				{ "곰인형알", 1, 9099 },
+				{ "로우윈알", 1, 9104 },
+				{ "윌로우알", 1, 9103 },
+				{ "그렘린알", 1, 9100 },
+				{ "미이라알", 1, 9102 },
+				{ "스캣레톤이동장", 1, 9101 },
+				{ "미야비인형알", 1, 9048 },
+				{ "리프캣알", 1, 9041 }
 			},
 			NeedSource_String = "Pet Egg"
 		},
-		Actinidia_Cat_Costume_Box = {
+		["Actinidia_Cat_Costume_Box"] = {
 			ItemID = 23154,
 			NeedCount = 1,
 			NeedRefineMin = 0,
@@ -1104,7 +1264,31 @@ tblLapineDdukddakBox = {
 				{ "Costume_Long_Pony_Black", 1, 31083 },
 				{ "Costume_Long_Pony_White", 1, 31084 },
 				{ "Costume_Long_Pony_Crimson", 1, 31085 },
-				{ "Costume_Long_Pony_Purple", 1, 31086 }
+				{ "Costume_Long_Pony_Purple", 1, 31086 },
+				{ "C목말", 1, 31165 },
+				{ "C룬헬름", 1, 31160 },
+				{ "C쉐이빙폼", 1, 31162 },
+				{ "C파란나비날개", 1, 20511 },
+				{ "C검은고양이", 1, 31186 },
+				{ "C흑과백의유혹", 1, 20449 },
+				{ "C졸린고양이모자", 1, 20263 },
+				{ "C할퀴는고양이", 1, 20195 },
+				{ "C_Thanatos_Sword", 1, 20514 },
+				{ "C따뜻한고양이머플러", 1, 31300 },
+				{ "C크로크카스캐트", 1, 31136 },
+				{ "C수다쟁이앵무새", 1, 31134 },
+				{ "C심두멸각머플러", 1, 31178 },
+				{ "C테디베어후드", 1, 31166 },
+				{ "C무통라이프_파랑", 1, 31168 },
+				{ "C브라운스톨", 1, 31164 },
+				{ "C_Pope_Sitting_Head", 1, 31397 },
+				{ "C타레교황사복모", 1, 31031 },
+				{ "C프레이야신도의모자", 1, 31033 },
+				{ "C교황의리본", 1, 20488 },
+				{ "C_Alice_Wig", 1, 31329 },
+				{ "C_Khalitzburg_Helm_BL", 1, 31332 },
+				{ "C_Wanderer_Sakkat", 1, 31415 },
+				{ "C_Wings_of_Michael", 1, 20516 }
 			},
 			NeedSource_String = "Actinidia Cat Costume"
 		}
