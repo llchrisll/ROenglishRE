@@ -8097,7 +8097,6 @@ SKILL_DESCRIPT = {
 		"[Lv 4]: ^777777Damage 600%^000000",
 		"[Lv 5]: ^777777Damage 700%^000000"
 	},
-	-- Need translation check
 	[SKID.NC_PILEBUNKER] = {
 		"Pile Bunker",
 		"Max Level: 3",
@@ -8106,15 +8105,13 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Pulls out deadly drills",
 		"from the Madogear to inflict damage and",
 		"nullify Defensive magic skills cast on",
-		"the target. Nullifies: Kyrie Eleison,",
-		"Assumptio, Steel Body, Gentle",
-		"Touch-Change, Gentle Touch-Revitalize,",
-		"Auto Guard, Reflect Shield, Defender,",
-		"Reflect Damage, Prestige, and Banding.",
+		"the target. Caster's Base level and",
+		"STR affects the damage inflicted.",
+		"Has 3 cells range.",
 		"Requires ^008800Pile Bunker^000000.",
-		"[Lv 1]: ^7777773 Cells range, nullify chance 40%^000000",
-		"[Lv 2]: ^7777774 Cells range, nullify chance 55%^000000",
-		"[Lv 3]: ^7777775 Cells range, nullify chance 70%^000000"
+		"[Lv 1]: ^777777Nullify chance 40%^000000",
+		"[Lv 2]: ^777777Nullify chance 55%^000000",
+		"[Lv 3]: ^777777Nullify chance 70%^000000"
 	},
 	[SKID.NC_VULCANARM] = {
 		"Vulcan Arm",
