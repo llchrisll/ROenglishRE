@@ -2125,9 +2125,9 @@ StateIconList[EFST_IDs.EFST_COLD] = {
 		{ "%s", COLOR_TIME },
 		{ "Disables movement, attack, use skills and items" },
 		{ "Gradually decrease HP and SP" },
-		{ "Increase damage received from Axe, Two-handed Axe and Mace" },
-		{ "Increase damage received from Wind element magic" },
-		{ "Reduce damage received from Dagger, Sword, Two-handed Sword and Arrows" }
+		{ "Increases damage received from Axe, Two-handed Axe and Mace" },
+		{ "Increases damage received from Wind element magic" },
+		{ "Reduces damage received from Dagger, Sword, Two-handed Sword and Arrows" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GROUNDMAGIC] = {
@@ -2842,8 +2842,7 @@ StateIconList[EFST_IDs.EFST_GLASTHEIM_HIDDEN] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "´ë¸¶¹ı ¹æ¾î ¿¡³ÊÁö°¡" },
-		{ "¼ö¾øÀÌ °ãÃÄÀÖ½À´Ï´Ù." },
+		{ "You can't override Magical Defense Energy." },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -4929,144 +4928,139 @@ StateIconList[EFST_IDs.EFST_MAGIC_CANDY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "¸¶¹ıÄµµğ", COLOR_TITLE_BUFF },
+		{ "Magic Candy", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "MATK »ó½Â" },
-		{ "°íÁ¤ Ä³½ºÆÃ ½Ã°£ °¨¼Ò" },
-		{ "Ä³½ºÆÃ ²÷±âÁö ¾ÊÀ½" },
-		{ "10ÃÊ´ç ÀÏÁ¤·®ÀÇ SP °¨¼Ò" }
+		{ "Increases MATK" },
+		{ "Reduced fixed cast time" },
+		{ "Uninterruptibles skill casting" },
+		{ "Reduces SP every 10 seconds" }
 	}
 }
 StateIconList[EFST_IDs.EFST_LIGHT_OF_REGENE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Àç»ıÀÇ ºû", COLOR_TITLE_BUFF },
+		{ "Light of Regen", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ÁÖÀÎ »ç¸Á ½Ã" },
-		{ "¿¡ÀÌ¶ó°¡ »ç¸ÁÇÏ¸ç ÁÖÀÎÀ» »ì¸²" }
+		{ "When its master KO'ed" },
+		{ "Eira sacrificed itself to ressurect its master" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PAIN_KILLER] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "ÆäÀÎ Å³·¯", COLOR_TITLE_BUFF },
+		{ "Pain Killer", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "°ø°İ ¼Óµµ °¨¼Ò" },
-		{ "µ¥¹ÌÁö ¹ŞÀ» ½Ã ¸ğ¼Ç µô·¹ÀÌ ¾øÀ½" },
-		{ "¹Ş´Â µ¥¹ÌÁö °¨¼Ò" }
+		{ "Reduced attack speed" },
+		{ "No motion delay upon receiving damage" },
+		{ "Reduces damage taken" }
 	}
 }
 StateIconList[EFST_IDs.EFST_OVERED_BOOST] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "¿À¹öµå ºÎ½ºÆ®", COLOR_TITLE_BUFF },
+		{ "Overdose Boost", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "¿¡ÀÌ¶ó¿Í ÁÖÀÎÀÇ" },
-		{ "°ø°İ ¼Óµµ, È¸ÇÇÀ² »óÇâ °íÁ¤" }
+		{ "Eira and his master" },
+		{ "increases attack speed and flee rate at fixed amount" }
 	}
 }
 StateIconList[EFST_IDs.EFST_INFINITY_DRINK] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "ÀÎÇÇ´ÏÆ¼ µå¸µÅ©", COLOR_TITLE_BUFF },
+		{ "Infinity Drink", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "MaxHP, MaxSP Áõ°¡" },
-		{ "Å©¸®Æ¼ÄÃ µ¥¹ÌÁö, ¿ø°Å¸® ¹°¸® µ¥¹ÌÁö," },
-		{ "¼Ó¼º ¸¶¹ı °ø°İ·Â Áõ°¡" },
-		{ "Ä³½ºÆÃÀÌ ²÷±âÁö ¾ÊÀ½" }
+		{ "Increases MaxHP, MaxSP" },
+		{ "Increases critical attack damage, long range physical damage," },
+		{ "elemental magics attacks." },
+		{ "Enables uninterruptible skill cast" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HUNTING_EVENT] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "»ç³É²ÛÀÇ ¸¸Âù", COLOR_TITLE_BUFF },
+		{ "Hunter's Supper", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "°í±¸¸¶ È¸º¹·® Áõ°¡" },
-		{ "°í±â È¸º¹·® Áõ°¡" }
+		{ "Increases restoration gained from Sweet Potato and Meat" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_001] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "€‚Ìô‚¢", COLOR_TITLE_BUFF },
+		{ "Curse of Death", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "3•b–ˆˆê’è—ÊHPŒ¸­" }
+		{ "Reduces certain amount of HP every 3 seconds" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_002] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "ˆÅ‚Ì‰¤Š¥", COLOR_TITLE_BUFF },
+		{ "Crown of Darkness", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ƒOƒ[ƒU‚ª–¶ó‘Ô‚Ì‚É" },
-		{ "•¨—E–‚–@ƒ_ƒ[ƒW‚ğ" },
-		{ "—^‚¦‚é‚±‚Æ‚ª‚Å‚«‚é" }
+		{ "You can inflic physical and magical damage" },
+		{ "when Groza is in mist status" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_003] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Œõ‚Ì‰¤Š¥", COLOR_TITLE_BUFF },
+		{ "Crown of Light", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ƒOƒ[ƒU‚ªˆÅó‘Ô‚Ì‚É" },
-		{ "•¨—E–‚–@ƒ_ƒ[ƒW‚ğ" },
-		{ "—^‚¦‚é‚±‚Æ‚ª‚Å‚«‚é" }
+		{ "You can inflic physical and magical damage" },
+		{ "when Groza is in darkness status" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_004] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "–¶‚Ì‰¤Š¥", COLOR_TITLE_BUFF },
+		{ "Crown of Mist", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ƒOƒ[ƒU‚ªŒõó‘Ô‚Ì‚É" },
-		{ "•¨—E–‚–@ƒ_ƒ[ƒW‚ğ" },
-		{ "—^‚¦‚é‚±‚Æ‚ª‚Å‚«‚é" }
+		{ "You can inflic physical and magical damage" },
+		{ "when Groza is in light status" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_005] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "–‚—Í‹óŠÔ", COLOR_TITLE_BUFF },
+		{ "Magic Space", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "1•b–ˆˆê’è—ÊHPŒ¸­" }
+		{ "Reduces certain amount of HP every seconds" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_006] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "c’é‚Ö‚ÌŒ£g", COLOR_TITLE_BUFF },
+		{ "Devotion to The Emperor", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ˆê•”‚ÌƒXƒe[ƒ^ƒX‚ªŒ¸­‚·‚é" }
+		{ "Reduces some stats" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_007] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "—³‚ÌáÅ‘®", COLOR_TITLE_BUFF },
+		{ "Dragon's Honor", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ƒWƒ‰ƒ“ƒg‚ÌáÅ‘®‚Å‚ ‚éØ" },
-		{ "“Á’è‚Ìƒ‚ƒ“ƒXƒ^[‚É‘Î‚µ‚Ä" },
-		{ "ƒ_ƒ[ƒW‚ª‘Œ¸‚·‚é" }
+		{ "Proof of Jirant's honor" },
+		{ "Reduces damage taken from specific monsters" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_008] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "×Šá‚Ìô‚¢", COLOR_TITLE_BUFF },
+		{ "Curse of The Evil Eye", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ƒLƒƒƒ‰ƒNƒ^[‚Ì’ÊíˆÚ“®•s‰Â" }
+		{ "Disables normal movement" }
 	}
 }
