@@ -18,6 +18,20 @@ MakeableRace = {Doram = true}
 Url = {
 	TwitterUrl = "http://112.175.128.140:3000/"
 }
+AccountLinkedUserDataUrl = {
+	Save = "http://112.175.128.140:3000/userconfig/save",
+	Load = "http://112.175.128.140:3000/userconfig/load"
+}
+AdventurerAgencyDataUrl = {
+	Add = "http://112.175.128.140:3000/party/add",
+	Delete = "http://112.175.128.140:3000/party/del",
+	PrevPage = "http://112.175.128.140:3000/party/PrevPage",
+	NextPage = "http://112.175.128.140:3000/party/NextPage"
+}
+TwitterDataUrl = {
+	Auth = "http://112.175.128.140:3000/twitter/user-auth",
+	Upload = "http://112.175.128.140:3000/twitter/upload"
+}
 LEVELAURA = {}
 LEVELAURA.EF_NONE = -1
 LEVELAURA.EF_LEVEL99 = 200
@@ -43,8 +57,8 @@ MaxLevelAuraTable = {
 	Default150LvAura_sub = LEVELAURA.EF_LEVEL150_SUB,
 	Default160LvAura = LEVELAURA.EF_LEVEL160,
 	Default160LvAura_sub = LEVELAURA.EF_LEVEL160_SUB,
-	HomunMaxLvAura = LEVELAURA.EF_LEVEL150,
-	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL150_SUB
+	HomunMaxLvAura = LEVELAURA.EF_LEVEL160,
+	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL160_SUB
 }
 
 function GetTableIntValueForC(tableName, keyName)
