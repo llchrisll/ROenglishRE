@@ -54,13 +54,36 @@ HatEFID = {
 	HAT_EF_C_FlutterButterfly_BL = 53,
 	HAT_EF_Qscaraba = 54,
 	HAT_EF_FSTONE = 55,
-	HAT_EF_Magiccircle = 56
+	HAT_EF_Magiccircle = 56,
+	HAT_EF_GodClass = 57,
+	HAT_EF_GodClass2 = 58,
+	HAT_EF_LEVEL99_RED = 59,
+	HAT_EF_LEVEL99_ULTRAMARINE = 60,
+	HAT_EF_LEVEL99_CYAN = 61,
+	HAT_EF_LEVEL99_LIME = 62,
+	HAT_EF_LEVEL99_VIOLET = 63,
+	HAT_EF_LEVEL99_LILAC = 64,
+	HAT_EF_LEVEL99_SUN_ORANGE = 65,
+	HAT_EF_LEVEL99_DEEP_PINK = 66,
+	HAT_EF_LEVEL99_BLACK = 67,
+	HAT_EF_LEVEL99_WHITE = 68,
+	HAT_EF_LEVEL160_RED = 69,
+	HAT_EF_LEVEL160_ULTRAMARINE = 70,
+	HAT_EF_LEVEL160_CYAN = 71,
+	HAT_EF_LEVEL160_LIME = 72,
+	HAT_EF_LEVEL160_VIOLET = 73,
+	HAT_EF_LEVEL160_LILAC = 74,
+	HAT_EF_LEVEL160_SUN_ORANGE = 75,
+	HAT_EF_LEVEL160_DEEP_PINK = 76,
+	HAT_EF_LEVEL160_BLACK = 77,
+	HAT_EF_LEVEL160_WHITE = 78,
+	HAT_EF_Full_BloomCherry_Tree = 79
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
 		resourceFileName = "efst_blossom_fluttering\\sakura.str",
 		hatEffectPos = -4,
-		hatEffectPosX = 0
+		hatEffectPosX = 1
 	},
 	[HatEFID.HAT_EF_MERMAID_LONGING] = {
 		resourceFileName = "efst_mermaid_loging\\bubblebubble.str",
@@ -129,7 +152,11 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_YELLOWFLY3] = { hatEffectID = 946 },
 	[HatEFID.HAT_EF_KAGEMUSYA] = { hatEffectID = 1004 },
 	[HatEFID.HAT_EF_CHERRYBLOSSOM] = { hatEffectID = 1013 },
-	[HatEFID.HAT_EF_STRANGELIGHTS] = { hatEffectID = 1035 },
+	[HatEFID.HAT_EF_STRANGELIGHTS] = {
+		resourceFileName = "efst_STRANGELIGHTS\\strangelights.str",
+		hatEffectPos = -4,
+		hatEffectPosX = 0
+	},
 	[HatEFID.HAT_EF_WL_TELEKINESIS_INTENSE] = { hatEffectID = 1048 },
 	[HatEFID.HAT_EF_AB_OFFERTORIUM_RING] = { hatEffectID = 1057 },
 	[HatEFID.HAT_EF_WHITEBODY2] = { hatEffectID = 1065 },
@@ -187,11 +214,6 @@ hatEffectTable = {
 		hatEffectPos = 0,
 		hatEffectPosX = 0
 	},
-	[HatEFID.HAT_EF_STRANGELIGHTS] = {
-		resourceFileName = "efst_STRANGELIGHTS\\strangelights.str",
-		hatEffectPos = -4,
-		hatEffectPosX = 0
-	},
 	[HatEFID.HAT_EF_FSTONE] = {
 		resourceFileName = "efst_fstone\\fstone.str",
 		hatEffectPos = -6,
@@ -203,6 +225,33 @@ hatEffectTable = {
 		hatEffectPosX = 0,
 		isRenderBeforeCharacter = true,
 		isIgnoreRiding = true
+	},
+	[HatEFID.HAT_EF_GodClass] = { hatEffectID = 1193 },
+	[HatEFID.HAT_EF_GodClass2] = { hatEffectID = 1194 },
+	[HatEFID.HAT_EF_LEVEL99_RED] = { hatEffectID = 1164 },
+	[HatEFID.HAT_EF_LEVEL99_ULTRAMARINE] = { hatEffectID = 1165 },
+	[HatEFID.HAT_EF_LEVEL99_CYAN] = { hatEffectID = 1166 },
+	[HatEFID.HAT_EF_LEVEL99_LIME] = { hatEffectID = 1167 },
+	[HatEFID.HAT_EF_LEVEL99_VIOLET] = { hatEffectID = 1168 },
+	[HatEFID.HAT_EF_LEVEL99_LILAC] = { hatEffectID = 1169 },
+	[HatEFID.HAT_EF_LEVEL99_SUN_ORANGE] = { hatEffectID = 1170 },
+	[HatEFID.HAT_EF_LEVEL99_DEEP_PINK] = { hatEffectID = 1171 },
+	[HatEFID.HAT_EF_LEVEL99_BLACK] = { hatEffectID = 1172 },
+	[HatEFID.HAT_EF_LEVEL99_WHITE] = { hatEffectID = 1173 },
+	[HatEFID.HAT_EF_LEVEL160_RED] = { hatEffectID = 1174 },
+	[HatEFID.HAT_EF_LEVEL160_ULTRAMARINE] = { hatEffectID = 1175 },
+	[HatEFID.HAT_EF_LEVEL160_CYAN] = { hatEffectID = 1176 },
+	[HatEFID.HAT_EF_LEVEL160_LIME] = { hatEffectID = 1177 },
+	[HatEFID.HAT_EF_LEVEL160_VIOLET] = { hatEffectID = 1178 },
+	[HatEFID.HAT_EF_LEVEL160_LILAC] = { hatEffectID = 1179 },
+	[HatEFID.HAT_EF_LEVEL160_SUN_ORANGE] = { hatEffectID = 1180 },
+	[HatEFID.HAT_EF_LEVEL160_DEEP_PINK] = { hatEffectID = 1181 },
+	[HatEFID.HAT_EF_LEVEL160_BLACK] = { hatEffectID = 1182 },
+	[HatEFID.HAT_EF_LEVEL160_WHITE] = { hatEffectID = 1183 },
+	[HatEFID.HAT_EF_Full_BloomCherry_Tree] = {
+		resourceFileName = "efst_Full_BloomCherry_Tree\\Full_BloomCherry_Tree.str",
+		hatEffectPos = -6,
+		isRenderBeforeCharacter = true
 	}
 }
 effectHatItemTable = {
