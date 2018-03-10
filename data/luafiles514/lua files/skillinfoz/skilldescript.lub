@@ -6083,17 +6083,7 @@ SKILL_DESCRIPT = {
 		"will strike a targeted enemy multiple",
 		"times. Each strike inflicts an amount of",
 		"damage that is equal to 70% of the",
-		"caster's MATK.^000000",
-		"[Lv 1]: ^7777773 Strikes^000000",
-		"[Lv 2]: ^7777774 Strikes^000000",
-		"[Lv 3]: ^7777775 Strikes^000000",
-		"[Lv 4]: ^7777776 Strikes^000000",
-		"[Lv 5]: ^7777777 Strikes^000000",
-		"[Lv 6]: ^7777778 Strikes^000000",
-		"[Lv 7]: ^7777779 Strikes^000000",
-		"[Lv 8]: ^77777710 Strikes^000000",
-		"[Lv 9]: ^77777711 Strikes^000000",
-		"[Lv 10]: ^77777712 Strikes^000000"
+		"caster's MATK.^000000"
 	},
 	[SKID.NJ_SUITON] = {
 		"Watery Evasion",
@@ -6103,7 +6093,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Creates a water pool that",
 		"will affect enemies within range by",
 		"decreasing their AGI and reducing",
-		"Movement Speed by 50%. All Ninja Class",
+		"Movement Speed by half. All Ninja Class",
 		"characters, including the caster, are",
 		"immune to these AGI and Movement",
 		"Speed penalties. The area targeted by",
@@ -6161,7 +6151,7 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_RAIGEKISAI] = {
 		"Lightning Jolt",
 		"Max Level: 5",
-		"^CC3399Requirement: Wind Blade^000000",
+		"^CC3399Requirement: Wind Blade 5^000000",
 		"Skill Form: ^FF0000Offensive^33CC00(Wind)^000000",
 		"Description: ^777777Summons lightning bolts",
 		"around the caster to damage enemies",
@@ -12028,7 +12018,7 @@ SKILL_DESCRIPT = {
 		"[LV 5]: ^777777Duration 120 seconds^000000"
 	},
 	[SKID.OB_AKAITSUKI] = {
-		"Ominous Moonlight",
+		"Ominous Red Moonlight",
 		"Max Level: 5",
 		"^CC3399Requirement: Distorted Crescent 2^000000",
 		"Description: ^777777When a target under this",
@@ -12047,7 +12037,7 @@ SKILL_DESCRIPT = {
 	[SKID.OB_OBOROGENSOU] = {
 		"Moonlight Fantasy",
 		"Max Level: 5",
-		"^CC3399Requirement: Ominous Moonlight 3^000000",
+		"^CC3399Requirement: Ominous Red Moonlight 3^000000",
 		"Description: ^777777Either randomly increases",
 		"or reduces HP and SP depending on the",
 		"target's current HP and SP. Targets",
@@ -12698,7 +12688,7 @@ SKILL_DESCRIPT = {
 		"increases by another 20%.^000000"
 	},
 	[SKID.SU_POWEROFLAND] = {
-		"Power of Land",
+		"Power of Earth",
 		"Max Level: 1",
 		"^CC3399Requirement: Catnip Powdering 3^000000",
 		"Skill Form: ^6666CCPassive^000000",
@@ -13510,7 +13500,7 @@ SKILL_DESCRIPT = {
 	[SKID.SU_CHATTERING] = {
 		"Chattering",
 		"Max Level: 5",
-		"^CC3399Requirement: Power of Land 1^000000",
+		"^CC3399Requirement: Power of Earth 1^000000",
 		"Skill Form: ^339900Plant(Supportive)^000000",
 		"Target: ^777777Self^000000",
 		"Description: ^777777Awakens the hunter's",
@@ -13573,7 +13563,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777For 3 sec Perfect dodge +50, For 5 sec movement speed increased^000000"
 	},
 	[SKID.SU_POWEROFFLOCK] = {
-		"Power of Lock",
+		"Power of Flock",
 		"Max Level: 5",
 		"^CC3399Requirement: Hiss 5^000000",
 		"Skill Form: ^339900Animal(Supportive)^000000",
