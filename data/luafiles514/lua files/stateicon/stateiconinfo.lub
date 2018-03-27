@@ -11,7 +11,7 @@ StateIconList[EFST_IDs.EFST_OVERTHRUSTMAX] = {
 		{ "Maximum Power Thrust", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases weapon damage" },
-		{ "Adds a chance of breaking equipped weapon" }
+		{ "Randomly breaks equipped weapon when attacking" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SUFFRAGIUM] = {
@@ -20,7 +20,7 @@ StateIconList[EFST_IDs.EFST_SUFFRAGIUM] = {
 	descript = {
 		{ "Suffragium", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Decreases variable cast time" }
+		{ "Reduces variable cast time" }
 	}
 }
 StateIconList[EFST_IDs.EFST_OVERTHRUST] = {
@@ -30,7 +30,7 @@ StateIconList[EFST_IDs.EFST_OVERTHRUST] = {
 		{ "Power Thrust", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases weapon damage" },
-		{ "Adds chance of breaking equipped weapon" }
+		{ "Randomly breaks equipped weapon when attacking" }
 	}
 }
 StateIconList[EFST_IDs.EFST_AUTOBERSERK] = {
@@ -47,7 +47,7 @@ StateIconList[EFST_IDs.EFST_BEYOND_OF_WARCRY] = {
 		{ "Beyond of Warcry", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases ATK" },
-		{ "Decreases MATK" }
+		{ "Reduces MATK" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SWORDREJECT] = {
@@ -55,7 +55,7 @@ StateIconList[EFST_IDs.EFST_SWORDREJECT] = {
 		{ "Reject Sword", COLOR_TITLE_BUFF },
 		{ "Reduces damage from Sword and dagger by half" },
 		{ "(all kind of monster attacks by half)" },
-		{ "Deflect other half damage back to the enemy" }
+		{ "Deflects other half damage back to the attacker" }
 	}
 }
 StateIconList[EFST_IDs.EFST_MANU_DEF] = {
@@ -251,8 +251,11 @@ StateIconList[EFST_IDs.EFST_NJ_BUNSINJYUTSU] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_WUGRIDER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{ "Warg Rider", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Can't use a bow" },
 		{ "Can use only Warg skills" }
 	}
@@ -690,7 +693,7 @@ StateIconList[EFST_IDs.EFST_NOEQUIPHELM] = {
 }
 StateIconList[EFST_IDs.EFST_ATTHASTE_POTION3] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 1,
 	descript = {
 		{ "Berserk Potion", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
@@ -1726,10 +1729,10 @@ StateIconList[EFST_IDs.EFST_STRIPACCESSARY] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_PROPERTYUNDEAD] = {
-	haveTimeLimit = 0,
 	descript = {
 		{ "Undead", COLOR_TITLE_DEBUFF },
-		{ "Undead element" }
+		{ "Undead element" },
+		{ "Can't be healed by healing skills" }
 	}
 }
 StateIconList[EFST_IDs.EFST_INVISIBILITY] = {
@@ -2702,9 +2705,9 @@ StateIconList[EFST_IDs.EFST_IZAYOI] = {
 	descript = {
 		{ "The 16th Night", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Remove fixed casting" },
-		{ "Reduce Variable Casting" },
-		{ "Increase MATK Item" }
+		{ "Removes fixed cast time" },
+		{ "Reduces variable casting time" },
+		{ "Increases MATK" }
 	}
 }
 StateIconList[EFST_IDs.EFST_KG_KAGEHUMI] = {
@@ -2772,14 +2775,18 @@ StateIconList[EFST_IDs.EFST_AKAITSUKI] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_MYSTICPOWDER] = {
-	haveTimeLimit = 1, posTimeLimitStr = 2, descript = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
 		{ "Mystic Powder", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases FLEE and LUK" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ACARAJE] = {
-	haveTimeLimit = 1, posTimeLimitStr = 2, descript = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
 		{ "Akaraje", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases HIT, ASPD" }
@@ -2816,25 +2823,25 @@ StateIconList[EFST_IDs.EFST_RAY_OF_PROTECTION] = {
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_ATK] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
-		{ "You feel powerful force within the body." },
+		{ "You feels powerful force within your body." },
 		{ "%s", COLOR_TIME }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_DEF] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
-		{ "Protected by magic shield" },
+		{ "You feels protected by magic shield" },
 		{ "%s", COLOR_TIME }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_HEAL] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 4,
 	descript = {
-		{ "Increase efficiency power of heal" },
+		{ "You feels an increased efficiency power of healing" },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -2842,31 +2849,31 @@ StateIconList[EFST_IDs.EFST_GLASTHEIM_HIDDEN] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 3,
 	descript = {
-		{ "You can't override Magical Defense Energy." },
+		{ "You feels countless magical defense energy." },
 		{ "%s", COLOR_TIME }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_STATE] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
-		{ "Increases all stats" },
+		{ "You feels a sudden increases of all stats" },
 		{ "%s", COLOR_TIME }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_ITEMDEF] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
-		{ "Increases DEF" },
+		{ "You feels a sudden increases of defense" },
 		{ "%s", COLOR_TIME }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_HPSP] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
-		{ "Increases MaxHP, MaxSP " },
+		{ "You feels a sudden increases of MaxHP and MaxSP" },
 		{ "%s", COLOR_TIME }
 	}
 }
@@ -2962,7 +2969,7 @@ StateIconList[EFST_IDs.EFST_GVG_BLIND] = {
 }
 StateIconList[EFST_IDs.EFST_JP_EVENT01] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
 		{ "Increases physical damage against Fish monster" },
 		{ "%s", COLOR_TIME }
@@ -2970,7 +2977,7 @@ StateIconList[EFST_IDs.EFST_JP_EVENT01] = {
 }
 StateIconList[EFST_IDs.EFST_JP_EVENT02] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
 		{ "Increases magical damage against Fish monster" },
 		{ "%s", COLOR_TIME }
@@ -2978,7 +2985,7 @@ StateIconList[EFST_IDs.EFST_JP_EVENT02] = {
 }
 StateIconList[EFST_IDs.EFST_JP_EVENT03] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
 		{ "Reduces damage taken from Fish monster" },
 		{ "%s", COLOR_TIME }
@@ -2995,7 +3002,7 @@ StateIconList[EFST_IDs.EFST_JP_EVENT04] = {
 }
 StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC1] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
 		{ "Increases physical damage against Demihuman monster" },
 		{ "%s", COLOR_TIME }
@@ -3003,7 +3010,7 @@ StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC1] = {
 }
 StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC2] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
 		{ "Increases magical damage against Demihuman monster" },
 		{ "%s", COLOR_TIME }
@@ -3011,7 +3018,7 @@ StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC2] = {
 }
 StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC3] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 3,
 	descript = {
 		{ "Reduces damage taken from Demihuman monster" },
 		{ "%s", COLOR_TIME }
