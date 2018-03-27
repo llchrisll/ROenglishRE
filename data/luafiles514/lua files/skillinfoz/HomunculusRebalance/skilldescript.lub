@@ -8140,7 +8140,6 @@ SKILL_DESCRIPT = {
 		"[Lv 2]: ^777777900% Fire damage, Burning chance 40%^000000",
 		"[Lv 3]: ^7777771200% Fire damage, Burning chance 50%^000000"
 	},
-	-- Needs translation check
 	[SKID.NC_COLDSLOWER] = {
 		"Cold Slower",
 		"Max Level: 3",
@@ -8151,9 +8150,9 @@ SKILL_DESCRIPT = {
 		"status to all targets that are inside",
 		"of the range.",
 		"Consumes 1 ^008800Liquid Condensed Bullet^000000 and ^008800Magic Gear Fuel^000000.",
-		"[Lv 1]: ^777777600% Water, 5x5 AoE^000000",
-		"[Lv 2]: ^777777900% Water, 7x7 AoE^000000",
-		"[Lv 3]: ^7777771200% Water, 9x9 AoE^000000"
+		"[Lv 1]: ^777777600% Water elemental damage, 5x5 AoE^000000",
+		"[Lv 2]: ^777777900% Water elemental damage, 7x7 AoE^000000",
+		"[Lv 3]: ^7777771200% Water elemental damage, 9x9 AoE^000000"
 	},
 	[SKID.NC_ARMSCANNON] = {
 		"Arm Cannon",
@@ -8428,7 +8427,6 @@ SKILL_DESCRIPT = {
 		"[Lv 4]: ^777777500% damage, HIT -15^000000",
 		"[Lv 5]: ^777777600% damage, HIT -10^000000"
 	},
-	-- Need translation update
 	[SKID.SC_REPRODUCE] = {
 		"Reproduce",
 		"Max Level: 10",
@@ -8441,7 +8439,13 @@ SKILL_DESCRIPT = {
 		"caster can keep the newly acquired",
 		"skill. Caster can learn only 1 skill",
 		"and level learned depends on",
-		"Reproduce's skill level.^000000"
+		"Reproduce's skill level. The skill",
+		"acquired by reproduce consumes an",
+		"extra 30% of normal SP. Since this",
+		"skill is not a skill that invested the",
+		"actual points, special effects such as",
+		"the item to bring the learned level and",
+		"the skill of the linker can not be used.^000000"
 	},
 	[SKID.SC_AUTOSHADOWSPELL] = {
 		"Auto Shadow Spell",
