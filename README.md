@@ -1,4 +1,7 @@
-TO MAKE IT CLEAR :
-- Any issue/PR unrelated to Renewal Ragnarok Online, will be ignored and closed (that includes Ragnarok Zero).
-- The client date that this project will support is up to 2017-05-17 (don't bother reporting or requesting higher client date support).
-- Feel free to create new fork, if you want to add support for any point above.
+ROenglishRE
+============================
+Project created by zackdreaver @2015
+
+An english translation project for Korea Ragnarok Online. Focused on translating items and skills.
+
+Note: this project should be considered as educational purpose, any commercial or illegal use by people or group aren't author's responsible.
