@@ -102,3 +102,10 @@ function queryNavi_Scroll_Pass(Index, Index2)
 	end
 	return Navi_Scroll[Index][Index2 + 6][1], Navi_Scroll[Index][Index2 + 6][2]
 end
+
+function queryNavi_PickNpc(Index)
+	if navi_picknpc[Index] == nil then
+		return nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil
+	end
+	return navi_picknpc[Index][1], navi_picknpc[Index][2], navi_picknpc[Index][3], navi_picknpc[Index][4], navi_picknpc[Index][5], navi_picknpc[Index][6], navi_picknpc[Index][7], navi_picknpc[Index][8], navi_picknpc[Index][9], navi_picknpc[Index][10], navi_picknpc[Index][11], navi_picknpc[Index][12]
+end
