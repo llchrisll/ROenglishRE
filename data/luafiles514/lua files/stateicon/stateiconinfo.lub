@@ -1729,9 +1729,9 @@ StateIconList[EFST_IDs.EFST_STRIPACCESSARY] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_PROPERTYUNDEAD] = {
+	haveTimeLimit = 0,
 	descript = {
-		{ "Undead", COLOR_TITLE_DEBUFF },
-		{ "Undead element" },
+		{ "Undead elemental" },
 		{ "Can't be healed by healing skills" }
 	}
 }
@@ -5069,5 +5069,33 @@ StateIconList[EFST_IDs.EFST_ABYSS_008] = {
 		{ "Curse of The Evil Eye", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Disables normal movement" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ANCILLA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "안실라 (ANCILLA / 보조하는 자)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "힐량 15% 증가." },
+		{ "SP 회복력 30% 상승." }
+	}
+}
+StateIconList[EFST_IDs.EFST_LAUDAAGNUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "라우다 아그누스 (LAUDAAGNUS)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "최대 HP 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_LAUDARAMUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "라우다라무스 (LAUDARAMUS)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "크리티컬 데미지 증가." }
 	}
 }
