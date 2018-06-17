@@ -152,8 +152,8 @@ StateIconList[EFST_IDs.EFST_WARMER] = {
 	descript = {
 		{ "Warmer", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Cancels Frozen state" },
-		{ "Immune to Frozen" },
+		{ "Cancel Freezing, Frozen and Crystallization" },
+		{ "Immune against Freezing, Frozen and Crystallization" },
 		{ "Recover HP every 3 seconds" }
 	}
 }
@@ -1392,7 +1392,7 @@ StateIconList[EFST_IDs.EFST_TARGET_BLOOD] = {
 		{ "Abnormal State Resistance Potion", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increase resistance against states:" },
-		{ "Stun, Freezing, Stone Curse, Sleep, Silence" },
+		{ "Stun, Frozen, Stone Curse, Sleep, Silence" },
 		{ "Blind, Curse, Poison, Bleeding, Confusion" }
 	}
 }
@@ -2114,7 +2114,7 @@ StateIconList[EFST_IDs.EFST_FROSTMISTY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Frost Misty", COLOR_TITLE_DEBUFF },
+		{ "Freezing", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
 		{ "Decreases DEF, ASPD, Movement Speed" },
 		{ "Increases fixed cast time" }
@@ -2124,7 +2124,7 @@ StateIconList[EFST_IDs.EFST_COLD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Freezing State", COLOR_TITLE_DEBUFF },
+		{ "Crystallization", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
 		{ "Disables movement, attack, use skills and items" },
 		{ "Gradually decrease HP and SP" },
@@ -4052,7 +4052,7 @@ StateIconList[EFST_IDs.EFST_BODYSTATE_FREEZING] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Freezing", COLOR_TITLE_DEBUFF },
+		{ "Frozen", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
 		{ "Disable action and Flee" },
 		{ "Reduces DEF, MDEF" }
