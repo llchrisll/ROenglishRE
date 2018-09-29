@@ -291,3 +291,26 @@ function GetSkillScale(in_SKID, in_Level)
 	end
 	return x, y
 end
+
+JobSkillTab = {}
+function JobSkillTab.ChangeSkillTabName(in_job, in_1sttab, in_2ndtab, in_3rdtab)
+	local tbl = {
+		job = in_job,
+		TabName1st = in_1sttab,
+		TabName2nd = in_2ndtab,
+		TabName3rd = in_3rdtab
+	}
+	JobSkillTab[#JobSkillTab + 1] = tbl
+end
+
+function JobSkillTab_GetTabName(in_job)
+	if nil == JobSkillTab then
+		return nil
+	end
+	local size = #JobSkillTab
+	for seq = 1, size do
+		if in_job == JobSkillTab[seq].job then
+			return JobSkillTab[seq].TabName1st, JobSkillTab[seq].TabName2nd, JobSkillTab[seq].TabName3rd
+		end
+	end
+end
