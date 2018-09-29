@@ -74,7 +74,6 @@ function IsPetAccessory(accID)
 	return false
 end
 
---Update 2014-08+ Clients.
 function GetPetName(jobID)
 	petName = "poring"
 	if PetNameTable[jobID] ~= nil then
