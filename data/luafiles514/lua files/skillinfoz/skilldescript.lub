@@ -7127,7 +7127,7 @@ SKILL_DESCRIPT = {
 	},
 	[SKID.AB_JUDEX] = {
 		"Judex",
-		"Max Level: 5",
+		"Max Level: 10",
 		"^CC3399Requirement: Turn Undead 1^000000",
 		"Skill Form: ^FF0000Offensive^000000",
 		"Element: ^777777Holy^000000",
@@ -7139,7 +7139,12 @@ SKILL_DESCRIPT = {
 		"[Lv 2]: ^777777380% MATK^000000",
 		"[Lv 3]: ^777777420% MATK^000000",
 		"[Lv 4]: ^777777460% MATK^000000",
-		"[Lv 5]: ^777777500% MATK^000000"
+		"[Lv 5]: ^777777500% MATK^000000",
+		"[Lv 6]: ^777777540% MATK^000000",
+		"[Lv 7]: ^777777580% MATK^000000",
+		"[Lv 8]: ^777777620% MATK^000000",
+		"[Lv 9]: ^777777660% MATK^000000",
+		"[Lv 10]: ^777777700% MATK^000000"
 	},
 	[SKID.AB_ANCILLA] = {
 		"Ancilla",
@@ -7227,7 +7232,8 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Summon the Tree of Life that",
 		"revives any dead characters within 5x5",
 		"cell range of the tree, while increasing",
-		"MaxHP and recovering HP and SP.",
+		"MaxHP and recovering HP and SP every 3",
+		"seconds.",
 		"Consumes 1 ^008800Ancilla^777777 and 1 ^008800Holy Water^777777.^000000",
 		"[Lv 1]: ^777777MaxHP +5%, Recover 3% HP and",
 		"2% SP every 3 sec^000000",
@@ -7336,15 +7342,19 @@ SKILL_DESCRIPT = {
 		"skill cannot be used in PVP, WoE or map",
 		"where Teleport skills is disabled. Only",
 		"available if caster is the party leader,",
-		"and can't be used without party.^000000"
+		"and can't be used without party. Can't",
+		"be used on ground magic skills. such as",
+		"Land Protector and Safety Wall.^000000"
 	},
 	[SKID.AB_VITUPERATUM] = {
 		"Vituperatum",
 		"Max Level: 5",
 		"^CC3399Requirement: Expiatio 1, Epiclesis 1^000000",
 		"Skill Form: ^339900Supportive^000000",
-		"Description: ^777777Doubles the damage of the next incoming attack on everybody around the target.",
-		"Skill level affects cast time and SP cost.",
+		"Description: ^777777Doubles the damage of the",
+		"next incoming attack on everybody around",
+		"the target. Skill level affects cast",
+		"time and SP cost.",
 		"Consumes 1 Blue Gemstone.^000000",
 		"[Lv 1]: ^7777773 x 3 AoE^000000",
 		"[Lv 2]: ^7777773 x 3 AoE^000000",
@@ -7357,10 +7367,14 @@ SKILL_DESCRIPT = {
 		"Max Level: 1",
 		"^CC3399Requirement: Coluseo Heal 3^000000",
 		"Skill Form: ^339900Heal^000000",
-		"Description: ^777777Recovers 5% of MaxHP to",
-		"self and all party members around 31x31",
-		"AoE every 5 seconds. Has no effect on",
-		"undead elemental player.^000000"
+		"Description: ^777777Recover percentage of HP",
+		"to self and all party members on screen",
+		"every 5 seconds. Has no effect on undead",
+		"elemental player.^000000",
+		"[Lv 1]: ^77777790 sec duration, 5% of MaxHP^000000",
+		"[Lv 2]: ^777777120 sec duration, 6% of MaxHP^000000",
+		"[Lv 3]: ^777777150 sec duration, 7% of MaxHP^000000",
+		"[Lv 4]: ^777777180 sec duration, 8% of MaxHP^000000"
 	},
 	[SKID.AB_HIGHNESSHEAL] = {
 		"Highness Heal",
@@ -7417,7 +7431,7 @@ SKILL_DESCRIPT = {
 		"and magical damage^000000",
 		"[Lv 1]: ^777777ATK +165%, MATK +440%, 90 sec duration.^000000",
 		"[Lv 2]: ^777777ATK +180%, MATK +480%, 120 sec duration.^000000",
-		"[Lv 3]: ^777777ATK +205%, MATK +520%, 150 sec duration.^000000",
+		"[Lv 3]: ^777777ATK +195%, MATK +520%, 150 sec duration.^000000",
 		"[Lv 4]: ^777777ATK +210%, MATK +560%, 180 sec duration.^000000",
 		"[Lv 5]: ^777777ATK +225%, MATK +600%, 210 sec duration.^000000",
 		"[Lv 6]: ^777777ATK +240%, MATK +640%, 240 sec duration.^000000",

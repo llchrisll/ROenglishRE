@@ -5688,10 +5688,10 @@ SKILL_INFO_LIST = {
 	[SKID.AB_JUDEX] = {
 		"AB_JUDEX",
 		SkillName = "Judex",
-		MaxLv = 5,
-		SpAmount = { 20, 23, 26, 29, 32 },
+		MaxLv = 10,
+		SpAmount = { 20, 23, 26, 29, 32, 34, 36, 38, 40, 42 },
 		bSeperateLv = true,
-		AttackRange = { 11, 11, 11, 11, 11 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.PR_TURNUNDEAD, 1 }
 		}
@@ -10220,10 +10220,10 @@ SKILL_INFO_LIST = {
 	[SKID.AB_RENOVATIO] = {
 		"AB_RENOVATIO",
 		SkillName = "Renovatio",
-		MaxLv = 1,
-		SpAmount = { 240 },
+		MaxLv = 4,
+		SpAmount = { 240, 280, 320, 360 },
 		bSeperateLv = false,
-		AttackRange = { 11 },
+		AttackRange = { 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.AB_CHEAL, 3 }
 		}
