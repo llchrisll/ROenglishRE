@@ -64,7 +64,7 @@ StateIconList[EFST_IDs.EFST_MANU_DEF] = {
 	descript = {
 		{ "Manuk's Will", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Decreases physical and magical damage" },
+		{ "Reduces physical and magical damage" },
 		{ "taken from monsters in Manuk field" }
 	}
 }
@@ -100,7 +100,7 @@ StateIconList[EFST_IDs.EFST_GS_ACCURACY] = {
 	descript = {
 		{ "Increase Accuracy", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases AGI, DEX, HIT" }
+		{ "Increase AGI, DEX, HIT" }
 	}
 }
 StateIconList[EFST_IDs.EFST_FOOD_STR] = {
@@ -188,7 +188,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYTELEKINESIS] = {
 	posTimeLimitStr = 1,
 	descript = {
 		{ "%s", COLOR_TIME },
-		{ "Inflicts Ghost element damage to target" }
+		{ "Inflicts Ghost elemental damage to target" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GLOOMYDAY] = {
@@ -197,8 +197,8 @@ StateIconList[EFST_IDs.EFST_GLOOMYDAY] = {
 	descript = {
 		{ "Gloomy Shyness", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases damage of certain skills" },
-		{ "Decreases Flee, ASPD" }
+		{ "Increase damage of certain skills" },
+		{ "Reduce Flee and ASPD" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SIRCLEOFNATURE] = {
@@ -207,7 +207,7 @@ StateIconList[EFST_IDs.EFST_SIRCLEOFNATURE] = {
 	descript = {
 		{ "Circle of Nature", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Drains SP and recover HP every second" }
+		{ "Drains SP and restores HP every second" }
 	}
 }
 StateIconList[EFST_IDs.EFST_DEADLYINFECT] = {
@@ -237,7 +237,7 @@ StateIconList[EFST_IDs.EFST_BANDING] = {
 		{ "Banding", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "If in range of Royal Guard with Banding" },
-		{ "Increases ATK and DEF and share HP" }
+		{ "Increase ATK and DEF and shares HP" }
 	}
 }
 StateIconList[EFST_IDs.EFST_NJ_BUNSINJYUTSU] = {
@@ -275,7 +275,7 @@ StateIconList[EFST_IDs.EFST_BODYPAINT] = {
 	descript = {
 		{ "Body Painting", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Release Hiding state" },
+		{ "Releases Hiding state" },
 		{ "Adds chance to inflict Blind state" },
 		{ "Adds chance to decrease ASPD" }
 	}
@@ -743,7 +743,7 @@ StateIconList[EFST_IDs.EFST_BLESSING] = {
 	descript = {
 		{ "Blessing", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases DEX, INT, STR" },
+		{ "Increase DEX, INT, STR" },
 		{ "Recover from Curse and Stone Curse state" }
 	}
 }
@@ -813,7 +813,7 @@ StateIconList[EFST_IDs.EFST_MAGNIFICAT] = {
 	descript = {
 		{ "Magnificat", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases SP regeneration speed" }
+		{ "Increases SP regen" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ATTHASTE_POTION1] = {
@@ -904,7 +904,7 @@ StateIconList[EFST_IDs.EFST_PROVOKE] = {
 	descript = {
 		{ "Provoke", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Decreases DEF" },
+		{ "Reduces DEF" },
 		{ "Increases ATK" }
 	}
 }
@@ -4603,7 +4603,7 @@ StateIconList[EFST_IDs.EFST_EP16_2_BUFF_AC] = {
 	descript = {
 		{ "Enhanced Potion AC", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Reduce variable cast time by 80%" }
+		{ "Reduces variable cast time by 80%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HISS] = {
@@ -5097,5 +5097,426 @@ StateIconList[EFST_IDs.EFST_LAUDARAMUS] = {
 		{ "라우다라무스 (LAUDARAMUS)", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "크리티컬 데미지 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_SUNSTANCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "태양의 자세", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "ATK 증가" },
+		{ "태양 계열 스킬 사용 가능" }
+	}
+}
+StateIconList[EFST_IDs.EFST_LUNARSTANCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "달의 자세", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "MaxHP 증가" },
+		{ "달 계열 스킬 사용 가능" }
+	}
+}
+StateIconList[EFST_IDs.EFST_STARSTANCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "별의 자세", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "공격속도 증가" },
+		{ "별 계열 스킬 사용 가능" }
+	}
+}
+StateIconList[EFST_IDs.EFST_UNIVERSESTANCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "우주의 자세", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "모든 스테이터스 증가" },
+		{ "우주 계열 스킬 사용 가능" },
+		{ "태양 계열 스킬 사용 가능" },
+		{ "달 계열 스킬 사용 가능" },
+		{ "별 계열 스킬 사용 가능" }
+	}
+}
+StateIconList[EFST_IDs.EFST_LIGHTOFSUN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "태양의 빛", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "태양 폭발 데미지 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_LIGHTOFMOON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "달의 빛", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "만월각 데미지 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_LIGHTOFSTAR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "별의 빛", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "유성낙하 데미지 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_FLASHKICK] = {
+	descript = {
+		{ "별의 징표", COLOR_TITLE_DEBUFF }
+	}
+}
+StateIconList[EFST_IDs.EFST_NEWMOON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "삭월", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "모습이 보이지 않는다" },
+		{ "만월각 사용 가능" }
+	}
+}
+StateIconList[EFST_IDs.EFST_CREATINGSTAR] = {
+	descript = {
+		{ "창성의 서", COLOR_TITLE_DEBUFF },
+		{ "이동 속도 감소" }
+	}
+}
+StateIconList[EFST_IDs.EFST_GRAVITYCONTROL] = {
+	descript = {
+		{ "중력 조절", COLOR_TITLE_DEBUFF },
+		{ "공격 및 이동 불가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULCOLLECT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "영혼 축적", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "일정 시간마다 영혼에너지 축적" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULREAPER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "영혼 수확", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "공격 시, 일정 확률로" },
+		{ "영혼 에너지 획득" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULUNITY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "영혼 결속", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "3초당 HP 회복" },
+		{ "카우트 가능 대상." }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULSHADOW] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "그림자의 영혼 부여", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "CRI 증가" },
+		{ "ASPD 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULFAIRY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "요정의 영혼 부여", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "MATK 증가" },
+		{ "변동 캐스팅 감소" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULFALCON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "매의 영혼 부여", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "ATK 증가" },
+		{ "명중률 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULGOLEM] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "골렘의 영혼 부여", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "DEF 증가" },
+		{ "MDEF 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULDIVISION] = {
+	descript = {
+		{ "영혼 분열", COLOR_TITLE_DEBUFF },
+		{ "스킬 후 딜레이 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_FALLINGSTAR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "유성 낙하", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "공격시 일정 확률로" },
+		{ "별의 징표 대상에게" },
+		{ "유성이 떨어진다" }
+	}
+}
+StateIconList[EFST_IDs.EFST_DIMENSION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "차원의 서", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "신성폭발, 성제강림 사용 시" },
+		{ "특수 효과 발동" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULLINK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "영혼 부여 상태", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "소울 링커가 부여하는" },
+		{ "영혼을 받은 상태" }
+	}
+}
+StateIconList[EFST_IDs.EFST_WEAPONBLOCK_ON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "카운터 상태", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "카운터 슬래쉬" },
+		{ "사용 가능" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SACRIFICE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "세크리 파이스", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "일반 근접 물리 공격" },
+		{ "데미지 증가" },
+		{ "1회 공격당 HP 소모" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ALL_STAT_DOWN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "올 스텟 감소", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "모든 스테이터스 감소." }
+	}
+}
+StateIconList[EFST_IDs.EFST_GRADUAL_GRAVITY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "중력 증가", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "1초당 HP를 잃는다." }
+	}
+}
+StateIconList[EFST_IDs.EFST_YGGDRASIL_BLESS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "이그드라실 축복", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "All State +7" },
+		{ "ATK +30, MATK +30" },
+		{ "HIT +5, FLEE +5" }
+	}
+}
+StateIconList[EFST_IDs.EFST_RICHMANKIM] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Mr. Kim A Rich Man", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "몬스터 사냥 시" },
+		{ "획득하는 경험치 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_RINGNIBELUNGEN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "The Ring of Nibelungen", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "파티원에게 다양한" },
+		{ "이로운 효과 부여." }
+	}
+}
+StateIconList[EFST_IDs.EFST_DRUMBATTLEFIELD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Drum of Battlefield", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increase ATK and DEF" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SIEGFRIED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Invulnerable Siegfried", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "파티원의 수/풍/지/화 내성." },
+		{ "일부 상태이상 내성 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ADAPTATION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Adaptation to Circumstances", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "연주, 춤, 합주 스킬" },
+		{ "SP 소모 감소." }
+	}
+}
+StateIconList[EFST_IDs.EFST_INTOABYSS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Into the Abyss", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "파티원의 젬스톤 소모 제거." },
+		{ "(일부 스킬 예외)." }
+	}
+}
+StateIconList[EFST_IDs.EFST_SERVICEFORYOU] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Service For You", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increasese MaxSP" },
+		{ "Reduces SP cost" }
+	}
+}
+StateIconList[EFST_IDs.EFST_FORTUNEKISS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Fortune's Kiss", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases CRIT" },
+		{ "크리티컬 데미지 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_HUMMING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Humming", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases HIT" }
+	}
+}
+StateIconList[EFST_IDs.EFST_POEMBRAGI] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Poem of Bragi", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "파티원의 변동 캐스팅 감소." },
+		{ "글로벌 후 딜레이 감소." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ASSASSINCROSS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Assassin Cross of Sunset", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "파티원의 공격 속도 증가." },
+		{ "(공격 후 딜레이 감소.)" }
+	}
+}
+StateIconList[EFST_IDs.EFST_WHISTLE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Whistle", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases FLEE and Perfect dodge." },
+		{ "완전회피 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_APPLEIDUN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Apple of Idun", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases MaxHP" },
+		{ "Increases HP regen" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ENSEMBLEFATIGUE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "합주 피로 상태", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "합주로 인한 피로 상태." },
+		{ "스킬 사용 불가." },
+		{ "이동, 공격속도 30% 감소." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ETERNALCHAOS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Eternal Chaos", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Reduces DEF to 0" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ROKISWEIL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Loki's Wail", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Disables skill use." },
+		{ "Has no effect on Boss monsters." }
+	}
+}
+StateIconList[EFST_IDs.EFST_DONTFORGETME] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Forget Me Not", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Reduces ASPD" },
+		{ "Reduces movement speed" }
 	}
 }
