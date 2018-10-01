@@ -68,3 +68,26 @@ function SaveToFileCmdOnOffValueEx(nID)
 		io.close(saveFile)
 	end
 end
+
+function LoadToFileRefuseWhisperName()
+	if nil == RefuseWhisperNameList then
+		return
+	end
+	for k, v in pairs(RefuseWhisperNameList) do
+		local RefuseWhisperName = v
+		if RefuseWhisperName ~= nil then
+			c_LoadToFileRefuseWhisperName(RefuseWhisperName)
+		end
+	end
+end
+
+function l_GetDefaultOptionValue(keyName)
+	if DefaultCmdOnOffList == nil then
+		return -1
+	end
+	local optionInfo = DefaultCmdOnOffList[keyName]
+	if optionInfo ~= nil then
+		return optionInfo
+	end
+	return -1
+end

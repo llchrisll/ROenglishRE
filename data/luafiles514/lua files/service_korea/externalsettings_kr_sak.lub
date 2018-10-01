@@ -1,15 +1,15 @@
 MaxLevelTable = {
 	BaseLevel = 99,
-	BaseLevel3rd = 175,
+	BaseLevel3rd = 185,
 	BaseLevelExtend2 = 160,
 	BaseLevelUpperJob = 175,
-	BaseLevelHomun = 175,
+	BaseLevelHomun = 185,
 	BaseLevelDoram = 175,
 	JobLevelNovice = 10,
 	JobLevelSuperNovice = 99,
 	JobLevelBase = 50,
 	JobLevel2nd = 70,
-	JobLevel3rd = 60,
+	JobLevel3rd = 65,
 	JobLevelExtend2 = 50,
 	JobLevelUpperJob = 60,
 	JobLevelDoram = 50
@@ -41,6 +41,8 @@ LEVELAURA.EF_LEVEL150 = 978
 LEVELAURA.EF_LEVEL150_SUB = 979
 LEVELAURA.EF_LEVEL160 = 1022
 LEVELAURA.EF_LEVEL160_SUB = 1023
+LEVELAURA.EF_LEVEL185 = 1226
+LEVELAURA.EF_LEVEL185_SUB = 1227
 Level99AuraTable = {
 	Default99LvAura = LEVELAURA.EF_LEVEL99,
 	Default99LvAura_sub = LEVELAURA.EF_LEVEL99_ORB1,
@@ -57,8 +59,10 @@ MaxLevelAuraTable = {
 	Default150LvAura_sub = LEVELAURA.EF_LEVEL150_SUB,
 	Default160LvAura = LEVELAURA.EF_LEVEL160,
 	Default160LvAura_sub = LEVELAURA.EF_LEVEL160_SUB,
-	HomunMaxLvAura = LEVELAURA.EF_LEVEL160,
-	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL160_SUB
+	Default185LvAura = LEVELAURA.EF_LEVEL185,
+	Default185LvAura_sub = LEVELAURA.EF_LEVEL185_SUB,
+	HomunMaxLvAura = LEVELAURA.EF_LEVEL185,
+	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL185_SUB
 }
 
 function GetTableIntValueForC(tableName, keyName)

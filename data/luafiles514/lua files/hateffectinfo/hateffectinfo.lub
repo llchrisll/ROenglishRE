@@ -55,8 +55,8 @@ HatEFID = {
 	HAT_EF_Qscaraba = 54,
 	HAT_EF_FSTONE = 55,
 	HAT_EF_Magiccircle = 56,
-	HAT_EF_GodClass = 57,
-	HAT_EF_GodClass2 = 58,
+	HAT_EF_Brysinggamen = 57,
+	HAT_EF_Magingiorde = 58,
 	HAT_EF_LEVEL99_RED = 59,
 	HAT_EF_LEVEL99_ULTRAMARINE = 60,
 	HAT_EF_LEVEL99_CYAN = 61,
@@ -77,7 +77,17 @@ HatEFID = {
 	HAT_EF_LEVEL160_DEEP_PINK = 76,
 	HAT_EF_LEVEL160_BLACK = 77,
 	HAT_EF_LEVEL160_WHITE = 78,
-	HAT_EF_Full_BloomCherry_Tree = 79
+	HAT_EF_Full_BloomCherry_Tree = 79,
+	HAT_EF_C_Blessings_Of_Soul = 80,
+	HAT_EF_ManyStars = 81,
+	HAT_EF_SUBJECT_AURA_GOLD = 82,
+	HAT_EF_SUBJECT_AURA_WHITE = 83,
+	HAT_EF_SUBJECT_AURA_RED = 84,
+	HAT_EF_C_Shining_Angel_Wing = 85,
+	HAT_EF_Magic_Star_TW = 86,
+	HAT_Digital_Space = 87,
+	HAT_EF_Sleipnir = 88,
+	HAT_EF_C_Maple_Which_Falls_Rd = 89
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -120,7 +130,8 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_Blessing_Of_Angels] = {
 		resourceFileName = "efst_blessing_of_angels\\tensi3.str",
 		hatEffectPos = -7,
-		hatEffectPosX = 0
+		hatEffectPosX = 0,
+		isIgnoreRiding = true
 	},
 	[HatEFID.HAT_EF_Electric] = { hatEffectID = 254 },
 	[HatEFID.HAT_EF_Green_Floor] = { hatEffectID = 680 },
@@ -130,11 +141,7 @@ hatEffectTable = {
 		hatEffectPos = -10,
 		hatEffectPosX = 0
 	},
-	[HatEFID.HAT_EF_Angel_Stairs] = {
-		resourceFileName = "cloudh.str",
-		hatEffectPos = 0,
-		hatEffectPosX = 0
-	},
+	[HatEFID.HAT_EF_Angel_Stairs] = { resourceFileName = "cloudh.str", hatEffectPos = 0, hatEffectPosX = 0 },
 	[HatEFID.HAT_EF_Glow_Of_New_Year] = {
 		resourceFileName = "efst_GlowOfNewYear\\halo.str",
 		hatEffectPos = -7,
@@ -193,7 +200,11 @@ hatEffectTable = {
 		hatEffectPosX = 0
 	},
 	[HatEFID.HAT_EF_WHITEBODY] = { hatEffectID = 1131 },
-	[HatEFID.HAT_EF_WATER_BELOW2] = { hatEffectID = 838 },
+	[HatEFID.HAT_EF_WATER_BELOW2] = {
+		resourceFileName = "efst_WATER_BELOW\\WATER_BELOW.str",
+		hatEffectPos = -10,
+		hatEffectPosX = 0
+	},
 	[HatEFID.HAT_EF_firework] = {
 		resourceFileName = "efst_firework\\firework.str",
 		hatEffectPos = 0,
@@ -214,11 +225,7 @@ hatEffectTable = {
 		hatEffectPos = 0,
 		hatEffectPosX = 0
 	},
-	[HatEFID.HAT_EF_FSTONE] = {
-		resourceFileName = "efst_fstone\\fstone.str",
-		hatEffectPos = -6,
-		hatEffectPosX = 0
-	},
+	[HatEFID.HAT_EF_FSTONE] = { resourceFileName = "efst_fstone\\fstone.str", hatEffectPos = -6, hatEffectPosX = 0 },
 	[HatEFID.HAT_EF_Magiccircle] = {
 		resourceFileName = "efst_Magiccircle\\mc.str",
 		hatEffectPos = -11,
@@ -226,8 +233,8 @@ hatEffectTable = {
 		isRenderBeforeCharacter = true,
 		isIgnoreRiding = true
 	},
-	[HatEFID.HAT_EF_GodClass] = { hatEffectID = 1193 },
-	[HatEFID.HAT_EF_GodClass2] = { hatEffectID = 1194 },
+	[HatEFID.HAT_EF_Brysinggamen] = { hatEffectID = 1193 },
+	[HatEFID.HAT_EF_Magingiorde] = { hatEffectID = 1194 },
 	[HatEFID.HAT_EF_LEVEL99_RED] = { hatEffectID = 1164 },
 	[HatEFID.HAT_EF_LEVEL99_ULTRAMARINE] = { hatEffectID = 1165 },
 	[HatEFID.HAT_EF_LEVEL99_CYAN] = { hatEffectID = 1166 },
@@ -250,8 +257,38 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_LEVEL160_WHITE] = { hatEffectID = 1183 },
 	[HatEFID.HAT_EF_Full_BloomCherry_Tree] = {
 		resourceFileName = "efst_Full_BloomCherry_Tree\\Full_BloomCherry_Tree.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0
+	},
+	[HatEFID.HAT_EF_C_Blessings_Of_Soul] = {
+		resourceFileName = "efst_C_Blessings_Of_Soul\\ blessingsofsoul.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0
+	},
+	[HatEFID.HAT_EF_ManyStars] = {
+		resourceFileName = "efst_ManyStars\\hikariga.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0
+	},
+	[HatEFID.HAT_EF_SUBJECT_AURA_GOLD] = { hatEffectID = 1211 },
+	[HatEFID.HAT_EF_SUBJECT_AURA_WHITE] = { hatEffectID = 1212 },
+	[HatEFID.HAT_EF_SUBJECT_AURA_RED] = { hatEffectID = 1213 },
+	[HatEFID.HAT_EF_C_Shining_Angel_Wing] = {
+		resourceFileName = "efst_C_Shining_Angel_Wing\\C_Shining_Angel_Wing.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0
+	},
+	[HatEFID.HAT_EF_Magic_Star_TW] = {
+		resourceFileName = "efst_Mstone\\stoneofint2.str",
 		hatEffectPos = -6,
-		isRenderBeforeCharacter = true
+		hatEffectPosX = 0
+	},
+	[HatEFID.HAT_Digital_Space] = { hatEffectID = 1240 },
+	[HatEFID.HAT_EF_Sleipnir] = { hatEffectID = 1241 },
+	[HatEFID.HAT_EF_C_Maple_Which_Falls_Rd] = {
+		resourceFileName = "efst_C_Maple_Which_Falls_Rd\\C_Maple_Which_Falls_Rd.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0
 	}
 }
 effectHatItemTable = {
@@ -279,7 +316,8 @@ effectHatItemTable = {
 	18719,
 	20600,
 	20515,
-	31391
+	31391,
+	20535
 }
 
 function GetHatEfResName(index)

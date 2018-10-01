@@ -5520,3 +5520,68 @@ StateIconList[EFST_IDs.EFST_DONTFORGETME] = {
 		{ "Reduces movement speed" }
 	}
 }
+StateIconList[EFST_IDs.EFST_CRI_DAMAGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "갈치", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "CRI + 5, 크리티컬 데미지 10% 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_DEF_POWER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "말랑 대게", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "DEF + 100." }
+	}
+}
+StateIconList[EFST_IDs.EFST_DEF_IGNORE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "청새치", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "몬스터의 물리/마법 방어력 5% 무시." }
+	}
+}
+StateIconList[EFST_IDs.EFST_BOW_ATK_POWER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "얼룩무늬 장어", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "활 공격력 15% 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_RED_ORG_POTION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "전갱이", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "빨간, 주홍포션 회복율 30% 증가." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CAST_TIME] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "참다랑어", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "변동 캐스팅 10% 감소." }
+	}
+}
+StateIconList[EFST_IDs.EFST_OVERLAPEXPUP2] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "말랑도 고양이 캔2", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "몬스터 사냥 시" },
+		{ "경험치, JOB 경험치 증가" },
+		{ "아이템 드롭률 증가" }
+	}
+}

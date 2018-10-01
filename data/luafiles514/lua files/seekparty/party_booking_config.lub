@@ -330,9 +330,148 @@ map_list = {
 		}
 	}
 }
+
+function printMapList()
+	local regionId = 0
+	local mapId = 0
+	local state = ""
+	print("------------------")
+	for key, region in pairs(map_list) do
+		regionId = regionId + 1
+		mapId = 0
+		if region.ignore_recruit_window == true then
+			state = "파티 모집 (신청) 창에서는 보이지 않는 메뉴임."
+		else
+			state = ""
+		end
+		print(regionId, region.name, state)
+		for key, map in pairs(region.list) do
+			mapId = mapId + 1
+			if map.color == nil then
+				color = "Primary Color"
+			else
+				color = "R:" .. map.color.R .. " G:" .. map.color.G .. " B:" .. map.color.B
+			end
+			print("\t" .. mapId .. ":" .. map.name, map.map_file, color)
+		end
+	end
+	print("------------------")
+end
+__mapList = {}
+
+function makeMapList()
+	for regionId, region in ipairs(map_list) do
+		__mapList[regionId] = region
+		region.id = regionId
+		for mapId, map in ipairs(region.list) do
+			__mapList[regionId][mapId] = map
+			map.id = mapId
+			map.ignore_recruit_window = region.ignore_recruit_window
+		end
+	end
+end
+
+function queryRegionInfo(regionId)
+	if __mapList[regionId] == nil then
+		return nil, nil, nil, nil
+	end
+	return regionId, __mapList[regionId].name, getMapIterator(regionId), __mapList[regionId].ignore_recruit_window
+end
+
+function queryMapInfo(regionId, mapId)
+	if __mapList[regionId] == nil then
+		return nil, nil, nil, nil, nil, nil
+	end
+	if __mapList[regionId][mapId] == nil then
+		return nil, nil, nil, nil, nil, nil
+	end
+	return regionId, mapId, __mapList[regionId][mapId].name, __mapList[regionId][mapId].colorR, __mapList[regionId][mapId].colorG, __mapList[regionId][mapId].colorB
+end
+
+function getRegionIterator()
+	local pos = 1
+	return {
+		hasNext = function()
+			return __mapList[pos]
+		end,
+		value = function()
+			temp_pos = pos
+			pos = pos + 1
+			return __mapList[temp_pos]
+		end
+	}
+end
+
+function getMapIterator(regionId)
+	local pos = 1
+	return {
+		hasNext = function()
+			if __mapList[regionId] == nil then
+				return nil
+			end
+			return __mapList[regionId][pos]
+		end,
+		value = function()
+			temp_pos = pos
+			pos = pos + 1
+			return __mapList[regionId][temp_pos]
+		end
+	}
+end
+
+makeMapList()
+
+print("[All Output Data Structure]")
+regionIterator = getRegionIterator()
+while regionIterator.hasNext() do
+	region = regionIterator.value()
+	print(region.id, region.name)
+	mapIterator = getMapIterator(region.id)
+	while mapIterator.hasNext() do
+		map = mapIterator.value()
+		print("\t", queryMapInfo(region.id, map.id))
+	end
+end
+
+print("\n[Local Data Search]")
+regionIterator = getRegionIterator()
+while regionIterator.hasNext() do
+	region = regionIterator.value()
+	print(region.id, region.name)
+end
+
+print("\n[Map Data Search]")
+mapIterator = getMapIterator(2)
+while mapIterator.hasNext() do
+	map = mapIterator.value()
+	print(map.id, map.name)
+end
+
+print("\n[Regional Data Information Request]")
+print(queryRegionInfo(2))
+_, _, mapIterator, _ = queryRegionInfo(2)
+while mapIterator.hasNext() do
+	map = mapIterator.value()
+	print(map.id, map.name)
+end
+
+print("\n[Map Data Information Request]")
+print(queryMapInfo(2, 1))
 PartyBookingHelp = {
 	MsgStrID.MSI_PARTY_BOOKING_REQURT,
 	MsgStrID.MSI_PARTY_BOOKING_LIST,
 	MsgStrID.MSI_PARTY_BOOKING_MAKE,
 	MsgStrID.MSI_PARTY_BOOKING_INVITE
 }
+
+function GetPartyBookingHelp()
+	local descript = ""
+	local obj = PartyBookingHelp
+	if obj ~= nil then
+		for i, v in pairs(obj) do
+			descript = descript .. v
+			descript = descript .. "\r\n"
+		end
+	end
+	return descript
+end

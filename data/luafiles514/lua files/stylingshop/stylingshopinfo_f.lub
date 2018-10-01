@@ -1,12 +1,14 @@
 StylingShop = {}
 StylingShop.HeadPalette = {}
-StylingShop.HeadStyle = {}
 StylingShop.DoramHeadStyle = {}
+StylingShop.HeadStyle = {}
 StylingShop.BodyPalette = {}
 StylingShop.DoramBodyPalette = {}
 StylingShop.TopAccessory = {}
 StylingShop.MidAccessory = {}
 StylingShop.BottomAccessory = {}
+StylingShop.BodyStyle = {}
+StylingShop.DoramBodyStyle = {}
 function StylingShop.AddHeadPalette(in_palette, in_payment, in_isDoram)
 	local tbl = {
 		goods = in_palette,
@@ -30,8 +32,7 @@ end
 function StylingShop.AddBodyPalette(in_palette, in_payment)
 	local tbl = {
 		goods = in_palette,
-		payment = in_payment,
-		isDoram = in_isDoram
+		payment = in_payment
 	}
 	StylingShop.BodyPalette[#StylingShop.BodyPalette + 1] = tbl
 end
@@ -62,6 +63,18 @@ function StylingShop.AddBottomAccessory(in_goods, in_payment, in_isDoram)
 		isDoram = in_isDoram
 	}
 	StylingShop.BottomAccessory[#StylingShop.BottomAccessory + 1] = tbl
+end
+function StylingShop.AddSecondCostume(in_style, in_payment, in_isDoram)
+	local tbl = {
+		goods = in_style,
+		payment = in_payment,
+		isDoram = in_isDoram
+	}
+	StylingShop.BodyStyle[#StylingShop.BodyStyle + 1] = tbl
+end
+function StylingShop.AddDoramSecondCostume(in_style, in_payment)
+	local tbl = {goods = in_style, payment = in_payment}
+	StylingShop.DoramBodyStyle[#StylingShop.DoramBodyStyle + 1] = tbl
 end
 function StylingShop_GetPayment(showcasename, seqnumber)
 	if nil == StylingShop[showcasename] then
@@ -95,10 +108,13 @@ function StylingShop_GetIsColoring(seqnumber)
 	if nil == StylingShop.HeadStyle then
 		return nil
 	end
-	if nil == StylingShop.DoramHeadStyle[seqnumber] then
+	if nil == StylingShop.HeadStyle[seqnumber] then
 		return nil
 	end
-	return StylingShop.DoramHeadStyle[seqnumber].isColoring
+	if false == StylingShop.HeadStyle[seqnumber].isDoram then
+		return nil
+	end
+	return StylingShop.HeadStyle[seqnumber].isColoring
 end
 function StylingShop_GetSizeInTable(showcasename)
 	if nil == StylingShop[showcasename] then
@@ -132,4 +148,42 @@ function StylingShop_GetDoramSizeInTable(showcasename)
 		seq = seq + 1
 	end
 	return seq
+end
+function StylingShop_GetPayment_by_goods(showcasename, goods)
+	if nil == StylingShop[showcasename] then
+		return nil
+	end
+	local size = StylingShop_GetSizeInTable(showcasename)
+	for seq = 1, size do
+		if goods == StylingShop[showcasename][seq].goods then
+			local payment = StylingShop[showcasename][seq].payment
+			return payment.zeny, payment.itid, payment.boxitid
+		end
+	end
+end
+function StylingShop_GetSeqnumber_by_goods(showcasename, goods)
+	if nil == StylingShop[showcasename] then
+		return nil
+	end
+	local size = StylingShop_GetSizeInTable(showcasename)
+	for seq = 1, size do
+		if goods == StylingShop[showcasename][seq].goods then
+			return seq
+		end
+	end
+	return nil
+end
+function StylingShop_GetIsColoring_by_goods(goods)
+	if nil == StylingShop.HeadStyle then
+		return nil
+	end
+	local size = #StylingShop.HeadStyle
+	for seq = 1, size do
+		if goods == StylingShop.HeadStyle[seq].goods then
+			if false == StylingShop.HeadStyle[seq].isDoram then
+				return nil
+			end
+			return StylingShop.HeadStyle[seq].isColoring
+		end
+	end
 end
