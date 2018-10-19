@@ -1,4 +1,164 @@
 SKILL_INFO_LIST = {
+	[SKID.NPC_WIDEBLEEDING2] = {
+		"NPC_WIDEBLEEDING2",
+		SkillName = "데모닉 매스블리딩",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDESILENCE2] = {
+		"NPC_WIDESILENCE2",
+		SkillName = "데모닉 매스사일런스",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDESTUN2] = {
+		"NPC_WIDESTUN2",
+		SkillName = "데모닉 매스스턴",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDESTONE2] = {
+		"NPC_WIDESTONE2",
+		SkillName = "데모닉 매스스톤",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDESLEEP2] = {
+		"NPC_WIDESLEEP2",
+		SkillName = "데모닉 매스슬립",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDECURSE2] = {
+		"NPC_WIDECURSE2",
+		SkillName = "데모닉 매스커스",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDECONFUSE2] = {
+		"NPC_WIDECONFUSE2",
+		SkillName = "데모닉 매스컨퓨즈",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDEFREEZE2] = {
+		"NPC_WIDEFREEZE2",
+		SkillName = "데모닉 매스프리즈",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_EVILLAND2] = {
+		"NPC_EVILLAND2",
+		SkillName = "데모닉 이블랜드",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		SkillScale = {
+			[1] = { x = 11, y = 11 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 11, y = 11 },
+			[4] = { x = 11, y = 11 },
+			[5] = { x = 11, y = 11 },
+			[6] = { x = 13, y = 13 },
+			[7] = { x = 15, y = 15 },
+			[8] = { x = 19, y = 19 },
+			[9] = { x = 23, y = 23 },
+			[10] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_HELLJUDGEMENT2] = {
+		"NPC_HELLJUDGEMENT2",
+		SkillName = "데모닉 헬 저지먼트",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 29, y = 29 },
+			[2] = { x = 29, y = 29 },
+			[3] = { x = 29, y = 29 },
+			[4] = { x = 29, y = 29 },
+			[5] = { x = 29, y = 29 },
+			[6] = { x = 29, y = 29 },
+			[7] = { x = 29, y = 29 },
+			[8] = { x = 29, y = 29 },
+			[9] = { x = 29, y = 29 },
+			[10] = { x = 29, y = 29 }
+		}
+	},
 	[SKID.NPC_ALL_STAT_DOWN] = {
 		"NPC_ALL_STAT_DOWN",
 		SkillName = "올스텟 다운",
@@ -3414,14 +3574,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		SkillScale = {
-			[1] = { x = 5, y = 5 },
-			[2] = { x = 11, y = 11 },
-			[3] = { x = 17, y = 17 },
-			[4] = { x = 23, y = 23 },
-			[5] = { x = 29, y = 29 }
-		}
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.NPC_CRITICALWOUND] = {
 		"NPC_CRITICALWOUND",
@@ -3483,19 +3636,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
-		SkillScale = {
-			[1] = { x = 5, y = 5 },
-			[2] = { x = 11, y = 11 },
-			[3] = { x = 17, y = 17 },
-			[4] = { x = 23, y = 23 },
-			[5] = { x = 27, y = 27 },
-			[6] = { x = 27, y = 27 },
-			[7] = { x = 27, y = 27 },
-			[8] = { x = 27, y = 27 },
-			[9] = { x = 27, y = 27 },
-			[10] = { x = 27, y = 27 }
-		}
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.NPC_WIDESOULDRAIN] = {
 		"NPC_WIDESOULDRAIN",
@@ -3503,19 +3644,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
-		SkillScale = {
-			[1] = { x = 5, y = 5 },
-			[2] = { x = 11, y = 11 },
-			[3] = { x = 17, y = 17 },
-			[4] = { x = 23, y = 23 },
-			[5] = { x = 27, y = 27 },
-			[6] = { x = 27, y = 27 },
-			[7] = { x = 27, y = 27 },
-			[8] = { x = 27, y = 27 },
-			[9] = { x = 27, y = 27 },
-			[10] = { x = 27, y = 27 }
-		}
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.ALL_INCCARRY] = {
 		"ALL_INCCARRY",
@@ -10484,7 +10613,7 @@ SKILL_INFO_LIST = {
 		"GC_DARKILLUSION",
 		SkillName = "Dark Illusion",
 		MaxLv = 5,
-		SpAmount = { 20, 25, 30, 35, 40 },
+		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
 		AttackRange = { 5, 6, 7, 8, 9 },
 		_NeedSkillList = {
