@@ -43,7 +43,7 @@ MSG_SET_HEIGHT20 = 41
 MSG_SET_SIZE2 = 42
 MSG_SET_ZENABLE = 43
 
-IsOpenedEmitterInfoFiles = function(InfoTableName)
+function IsOpenedEmitterInfoFiles(InfoTableName)
 	local EmitterInfoTable = _G[InfoTableName]
 	if EmitterInfoTable ~= nil then
 		return true
@@ -51,15 +51,15 @@ IsOpenedEmitterInfoFiles = function(InfoTableName)
 	return false
 end
 
-ReadTable = function(InfoTableName, effectId)
+function ReadTable(InfoTableName, effectId)
 	local t = _G[InfoTableName]
-	for i = 0, table.getn(t), 1 do
+	for i = 0, table.getn(t) do
 		CreateEffect(effectId, t[i].pos[1], t[i].pos[2], t[i].pos[3])
 	end
 	ReadEmitterInfoz(InfoTableName)
 end
 
-ReadEmitterInfoz = function(InfoTableName)
+function ReadEmitterInfoz(InfoTableName)
 	local EmitterInfoTable = _G[InfoTableName]
 	local version = _G[InfoTableName .. "_version"]
 	if EmitterInfoTable ~= nil then
@@ -85,7 +85,7 @@ ReadEmitterInfoz = function(InfoTableName)
 	end
 end
 
-IsOpenedEffectFiles = function(InfoTableName)
+function IsOpenedEffectFiles(InfoTableName)
 	local EffectInfoTable = _G[InfoTableName]
 	if EffectInfoTable ~= nil then
 		return true
@@ -93,15 +93,15 @@ IsOpenedEffectFiles = function(InfoTableName)
 	return false
 end
 
-ReadOtherTable = function(InfoTableName)
+function ReadOtherTable(InfoTableName)
 	local t = _G[InfoTableName]
-	for i = 0, table.getn(t), 1 do
+	for i = 0, table.getn(t) do
 		CreateEffect(t[i].Type[1], t[i].pos[1], t[i].pos[2], t[i].pos[3])
 	end
 	ReadEffectInfoz(InfoTableName)
 end
 
-ReadEffectInfoz = function(InfoTableName)
+function ReadEffectInfoz(InfoTableName)
 	local EffectInfoTable = _G[InfoTableName]
 	if EffectInfoTable ~= nil then
 		for k, v in pairs(EffectInfoTable) do

@@ -1,4 +1,4 @@
-ReadEmitterInfoz = function(tablename)
+function ReadEmitterInfoz(tablename)
 	local t = _G[tablename]
 	if t ~= nil then
 		for k, v in pairs(t) do
@@ -21,7 +21,7 @@ ReadEmitterInfoz = function(tablename)
 	end
 end
 
-ReadMagicFloorInfoz = function(tablename)
+function ReadMagicFloorInfoz(tablename)
 	local t = _G[tablename]
 	if t ~= nil then
 		for k, v in pairs(t) do
@@ -57,7 +57,7 @@ ReadMagicFloorInfoz = function(tablename)
 	end
 end
 
-ReadEvilsPawInfoz = function(tablename)
+function ReadEvilsPawInfoz(tablename)
 	local t = _G[tablename]
 	if t ~= nil then
 		for k, v in pairs(t) do
@@ -69,7 +69,7 @@ ReadEvilsPawInfoz = function(tablename)
 	end
 end
 
-ReadAnimatedEmitterInfoz = function(tablename)
+function ReadAnimatedEmitterInfoz(tablename)
 	local t = _G[tablename]
 	if t ~= nil then
 		for k, v in pairs(t) do
@@ -92,7 +92,7 @@ ReadAnimatedEmitterInfoz = function(tablename)
 	end
 end
 
-ReadEmitterInfoz_ver_1_0 = function(tablename)
+function ReadEmitterInfoz_ver_1_0(tablename)
 	local t = _G[tablename]
 	local version = _G[tablename .. "_version"]
 	if t ~= nil then
@@ -118,7 +118,7 @@ ReadEmitterInfoz_ver_1_0 = function(tablename)
 	end
 end
 
-ReadEffectInfoz = function(tablename)
+function ReadEffectInfoz(tablename)
 	local t = _G[tablename]
 	if t ~= nil then
 		for k, v in pairs(t) do

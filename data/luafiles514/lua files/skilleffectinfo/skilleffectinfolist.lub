@@ -192,5 +192,63 @@ SKILL_EFFECT_INFO_LIST = {
 		targetEffectNum = 1,
 		targetEffectID = { EFID.EF_MOVE_COORDINATE },
 		onTarget = true
-	}
+	},
+	[SKID.SJ_LIGHTOFSUN] = {
+		effectNum = 1,
+		effectID = { EFID.EF_LIGHTSPHERE_SUN },
+		waveFileName = "effect\\t_피링.wav"
+	},
+	[SKID.SJ_LIGHTOFMOON] = {
+		effectNum = 1,
+		effectID = { EFID.EF_LIGHTSPHERE_MOON },
+		waveFileName = "effect\\t_피링.wav"
+	},
+	[SKID.SJ_LIGHTOFSTAR] = {
+		effectNum = 1,
+		effectID = { EFID.EF_LIGHTSPHERE_STAR },
+		waveFileName = "effect\\t_피링.wav"
+	},
+	[SKID.SJ_NOVAEXPLOSING] = { targetEffectNum = 1, targetEffectID = { EFID.EF_NOVAEXPLOSING } },
+	[SKID.SJ_SOLARBURST] = {
+		effectNum = 1,
+		effectID = { EFID.EF_SOLARBURST },
+		waveFileName = "effect\\g데모닉화이어.wav"
+	},
+	[SKID.SJ_DOCUMENT] = { effectNum = 1, effectID = { EFID.EF_SJ_DOCUMENT } },
+	[SKID.SJ_FALLINGSTAR_ATK] = {
+		targetEffectNum = 1,
+		targetEffectID = { EFID.EF_FALLING_STAR },
+		targetWaveFileName = "effect\\wizard_sightrasher.wav"
+	},
+	[SKID.SJ_NEWMOONKICK] = { effectNum = 1, effectID = { EFID.EF_NEWMOON_KICK } },
+	[SKID.SJ_FULLMOONKICK] = { effectNum = 3, effectID = { EFID.EF_BASH3D3, EFID.EF_STORMKICK8, EFID.EF_FULLMOON_KICK } },
+	[SKID.SJ_BOOKOFDIMENSION] = {
+		effectNum = 1,
+		effectID = { EFID.EF_BOOK_OF_DIMENSION },
+		waveFileName = "effect\\so_elemental_shield.wav"
+	},
+	[SKID.SP_SHA] = { effectNum = 1, effectID = { EFID.EF_STIN }, onTarget = true },
+	[SKID.SP_SPA] = {
+		effectNum = 1,
+		effectID = { EFID.EF_SMA_BLACK },
+		onTarget = true,
+		waveFileName = "effect\\t_에너지방출.wav"
+	},
+	[SKID.SP_SOULEXPLOSION] = {
+		targetEffectNum = 2,
+		targetEffectID = { EFID.EF_ENERGYDRAIN_BLACK, EFID.EF_SOUL_EXPLOSION },
+		targetWaveFileName = "effect\\hunter_landmine.wav"
+	},
+	[SKID.SP_SOULDIVISION] = {
+		targetEffectNum = 1,
+		targetEffectID = { EFID.EF_BLINK_BODY },
+		targetWaveFileName = "effect\\t_치잉.wav"
+	},
+	[SKID.SP_SOULCOLLECT] = { effectNum = 1, effectID = { EFID.EF_BLINK_BODY } },
+	[SKID.SP_SOULREAPER] = {
+		effectNum = 1,
+		effectID = { EFID.EF_SOUL_REAPER },
+		waveFileName = "effect\\ef_signum.wav"
+	},
+	[SKID.SP_CURSEEXPLOSION] = { targetEffectNum = 1, targetEffectID = { EFID.EF_CURSE_EXPLOSION } }
 }
