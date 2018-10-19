@@ -979,7 +979,7 @@ EFFECT["EF_VOLCANIC_ASH"] = 975
 EFFECT["EF_LEVEL99_ORB1"] = 976
 EFFECT["EF_LEVEL99_ORB2"] = 977
 EFFECT["EF_LEVEL150"] = 978
-EFFECT["EF_BOTTOM_DE"] = 979
+EFFECT["EF_LEVEL150_SUB"] = 979
 EFFECT["EF_THROWITEM4_1"] = 980
 EFFECT["EF_THROW_HAPPOKUNAI"] = 981
 EFFECT["EF_THROW_MULTIPLE_COIN"] = 982
@@ -1468,6 +1468,7 @@ tbl = {
 	[3621] = { MonsterSize = 1, MonsterEff = EFFECT.EF_GUMGANG },
 	[3636] = { MonsterSize = 0.7, MonsterEff = EFFECT.EF_BOTTOM_BARRIER },
 	[3657] = { MonsterSize = 2, MonsterEff = EFFECT.EF_NONE },
+	[2209] = { MonsterSize = 1.5, MonsterEff = EFFECT.EF_PURPLEBODY },
 	[3751] = { MonsterSize = 1.2, MonsterEff = EFFECT.EF_NONE },
 	[3809] = { MonsterSize = 0.5, MonsterEff = EFFECT.EF_NONE },
 	[3811] = { MonsterSize = 2.5, MonsterEff = EFFECT.EF_NONE },
@@ -1478,7 +1479,34 @@ tbl = {
 	[3802] = { MonsterSize = 0.67, MonsterEff = EFFECT.EF_NONE },
 	[3803] = { MonsterSize = 0.67, MonsterEff = EFFECT.EF_NONE },
 	[3804] = { MonsterSize = 2, MonsterEff = EFFECT.EF_NONE },
-	[3818] = { MonsterSize = 1.5, MonsterEff = EFFECT.EF_NONE }
+	[1136] = {
+		MonsterSize = 1.5,
+		MonsterEff = EFFECT.EF_WL_TELEKINESIS_INTENSE, EFFECT.EF_DOUBLEGUMGANG
+	},
+	[1137] = { MonsterSize = 1.5, MonsterEff = EFFECT.EF_YELLOWFLY3, EFFECT.EF_STRANGELIGHTS },
+	[3818] = { MonsterSize = 1.5, MonsterEff = EFFECT.EF_NONE },
+	[3896] = { MonsterSize = 0.67, MonsterEff = EFFECT.EF_NONE },
+	[3897] = { MonsterSize = 1, MonsterEff = EFFECT.EF_BLUELIGHTBODY },
+	[3898] = { MonsterSize = 1, MonsterEff = EFFECT.EF_BLUELIGHTBODY },
+	[3899] = { MonsterSize = 1, MonsterEff = EFFECT.EF_BLUELIGHTBODY },
+	[3900] = { MonsterSize = 1, MonsterEff = EFFECT.EF_BLUELIGHTBODY },
+	[3901] = { MonsterSize = 1.3, MonsterEff = EFFECT.EF_BLUELIGHTBODY },
+	[3902] = { MonsterSize = 1.3, MonsterEff = EFFECT.EF_BLUELIGHTBODY },
+	[3910] = { MonsterSize = 1.8, MonsterEff = EFFECT.EF_MAGIC_FLOOR },
+	[3911] = { MonsterSize = 1, MonsterEff = EFFECT.EF_GRAYBODY },
+	[3912] = { MonsterSize = 1, MonsterEff = EFFECT.EF_GRAYBODY },
+	[3913] = { MonsterSize = 1, MonsterEff = EFFECT.EF_GRAYBODY },
+	[3914] = { MonsterSize = 1, MonsterEff = EFFECT.EF_GRAYBODY },
+	[3915] = { MonsterSize = 1.8, MonsterEff = EFFECT.EF_GLOW4 },
+	[3969] = { MonsterSize = 2.5, MonsterEff = EFFECT.EF_NONE },
+	[3970] = { MonsterSize = 2.5, MonsterEff = EFFECT.EF_HASTEUP },
+	[20062] = { MonsterSize = 2, MonsterEff = EFFECT.EF_NONE },
+	[20063] = { MonsterSize = 2, MonsterEff = EFFECT.EF_REDLIGHTBODY, EFFECT.EF_DOUBLEGUMGANG },
+	[20064] = { MonsterSize = 2, MonsterEff = EFFECT.EF_BLUELIGHTBODY, EFFECT.EF_GUMGANG },
+	[20065] = { MonsterSize = 2, MonsterEff = EFFECT.EF_REDLIGHTBODY, EFFECT.EF_DOUBLEGUMGANG },
+	[20066] = { MonsterSize = 1.5, MonsterEff = EFFECT.EF_BLUELIGHTBODY, EFFECT.EF_GUMGANG },
+	[20271] = { MonsterSize = 0.7, MonsterEff = EFFECT.EF_NONE },
+	[20277] = { MonsterSize = 1.5, MonsterEff = EFFECT.EF_NONE }
 }
 
 function main()
