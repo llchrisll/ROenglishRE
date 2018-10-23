@@ -513,6 +513,7 @@ QuestInfoList = {
 	},
 	[1145] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Do a favor for Gobong who's stomach is upset. Go to the port and try to listen to the suspicious conversation."
 		},
@@ -520,6 +521,7 @@ QuestInfoList = {
 	},
 	[1146] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"From the suspicious dealers, you listened on the conversation about the hidden object. Check the area around the balloon bag which is north of ship Navi."
 		},
@@ -527,6 +529,7 @@ QuestInfoList = {
 	},
 	[1147] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The only thing you found is a useless memo. Go to listen to the dealers a bit more."
 		},
@@ -534,6 +537,7 @@ QuestInfoList = {
 	},
 	[1148] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Through the conversation of the suspicious dealers, you realised that the hidden place is ship Navi itself. Find another suspicious cat on the deck of ship Navi."
 		},
@@ -541,52 +545,95 @@ QuestInfoList = {
 	},
 	[1149] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"According to the Awfully suspicious dealer, you decided to look around Gozangee."
 		},
-		Summary = "ship Navi lounge"
+		Summary = "Ship Navi lounge",
+		NpcSpr = "4_MASK_SMOKEY",
+		NpcNavi = "malangdo",
+		NpcPosX = 171,
+		NpcPosY = 163
 	},
 	[1150] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"You found a sack of Poor Cans on the deck of ship Navi. You need to see the Awfully Suspicious Dealer again."
+			"You found a <ITEM>[Poor Can Sack]<INFO>6427</INFO></ITEM> on the deck of ship Navi. You need to see the Awfully Suspicious Dealer again."
 		},
-		Summary = "Deck of ship Navi"
+		Summary = "Deck of ship Navi",
+		NpcSpr = "4_MASK_SMOKEY",
+		NpcNavi = "malangdo",
+		NpcPosX = 171,
+		NpcPosY = 163
 	},
 	[1151] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Gather 30 Poor Cans in Starry Coral Area and go back to Gobonge."
+			"Gather 30 <ITEM>[Poor Can]<INFO>6426</INFO></ITEM> from <NAVI>[Red Eruma]<INFO>RED_ERUMA,0,0,3,-222,1</INFO></NAVI> in Starry Coral Area and go back to Gobonge."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR5",
+		NpcNavi = "malangdo",
+		NpcPosX = 175,
+		NpcPosY = 206,
+		RewardItemList = {
+			{ ItemID = 12636, ItemNum = 20 },
+			{ ItemID = 6422, ItemNum = 5 }
+		}
 	},
 	[1152] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"Helping bad cats mission completed."
+			"Helping bad cats mission completed. After 1 day, you can help them again."
 		},
-		Summary = "After 1 day, you can help them again."
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR5",
+		NpcNavi = "malangdo",
+		NpcPosX = 175,
+		NpcPosY = 206
 	},
 	[1153] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Go to see Patrol leader and say hello for Gobonge."
+			"Go to see <NAVI>[Patrol Leader]<INFO>malangdo,125,147,0,101,0,</INFO></NAVI> and say hello for Gobonge."
 		},
-		Summary = "Patrol leader."
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR2",
+		NpcNavi = "malangdo",
+		NpcPosX = 125,
+		NpcPosY = 147
 	},
 	[1154] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"After cleaning up 20 Red Eruma in Starry Coral Area, report that to Patrol Leader."
+			"After cleaning up 20 <NAVI>[Red Eruma]<INFO>RED_ERUMA,0,0,3,-222,1</INFO></NAVI> in Starry Coral Area, report that to <NAVI>[Patrol Leader]<INFO>malangdo,125,147,0,101,0,</INFO></NAVI>."
 		},
-		Summary = "Patrol leader."
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR2",
+		NpcNavi = "malangdo",
+		NpcPosX = 125,
+		NpcPosY = 147
 	},
 	[1155] = {
 		Title = "Help the Bad Cats in Danger!",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Report Bad action to Gobonge."
 		},
-		Summary = "Gobonge"
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR5",
+		NpcNavi = "malangdo",
+		NpcPosX = 176,
+		NpcPosY = 206,
+		RewardItemList = {
+			{ ItemID = 12636, ItemNum = 20 },
+			{ ItemID = 6422, ItemNum = 5 }
+		}
 	},
 	[1156] = {
 		Title = "동요하는 동네합창단!",
@@ -1143,6 +1190,7 @@ QuestInfoList = {
 	},
 	[1237] = {
 		Title = "Shop guide",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Listen the information about how to use the shop from the Shop Helper Leonie."
 		},
@@ -1150,6 +1198,7 @@ QuestInfoList = {
 	},
 	[1238] = {
 		Title = "Shop guide",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"The first quest. Experience about the use of shop. After buying one Red Potion, report to Leonie."
 		},
@@ -1157,6 +1206,7 @@ QuestInfoList = {
 	},
 	[1239] = {
 		Title = "Shop guide",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"After conversation with Shop Helper Leonie, ask for the next quest."
 		},
@@ -1164,6 +1214,7 @@ QuestInfoList = {
 	},
 	[1240] = {
 		Title = "Shop guide",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Second quest. Sell Poor Can from Leonie to the shop"
 		},
@@ -4853,6 +4904,7 @@ QuestInfoList = {
 	},
 	[2293] = {
 		Title = "Adventurer's Companion",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Talk to <NAVI>[Adept adventurer]<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI> at Criatura Academy"
 		},
@@ -4860,6 +4912,7 @@ QuestInfoList = {
 	},
 	[2294] = {
 		Title = "Adventurer's Companion",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Go to izlude 9 o'clock to go to field and talk to <NAVI>[Poring]<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI>"
 		},
@@ -4867,6 +4920,7 @@ QuestInfoList = {
 	},
 	[2295] = {
 		Title = "Adventurer's Companion",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Go to izlude 9 o'clock to go to field and talk to <NAVI>[Poring]<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI>"
 		},
@@ -4874,6 +4928,7 @@ QuestInfoList = {
 	},
 	[2296] = {
 		Title = "Adventurer's Companion",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Find a Little Poring roaming around and tame it with the Unripe Apple"
 		},
@@ -4881,6 +4936,7 @@ QuestInfoList = {
 	},
 	[2297] = {
 		Title = "Adventurer's Companion",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Talk to <NAVI>[Adept adventurer]<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI> at Criatura Academy"
 		},
@@ -4888,6 +4944,7 @@ QuestInfoList = {
 	},
 	[2298] = {
 		Title = "Adventurer's Companion",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Go to izlude 9 o'clock to go to field and talk to <NAVI>[Poring]<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI>"
 		},
@@ -4895,6 +4952,7 @@ QuestInfoList = {
 	},
 	[2299] = {
 		Title = "Rapid Completion Experience",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Damage the fire element egg"
 		},
@@ -8913,6 +8971,7 @@ QuestInfoList = {
 	},
 	[5153] = {
 		Title = "Refining tutorial (1)",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Free coupon enabling you to refine weapons from level 1 to +7 by the smelting machine, Wagjak."
 		},
@@ -8920,6 +8979,7 @@ QuestInfoList = {
 	},
 	[5154] = {
 		Title = "Refining tutorial (2)",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Come back after taking the explanations about the weapon levels and safety refining from Mr. Tadde working at the Izlude refinery."
 		},
@@ -8927,6 +8987,7 @@ QuestInfoList = {
 	},
 	[5155] = {
 		Title = "Refining tutorial (3)",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Come back after taking the explanations about the smelting effect and expenses from Mr. Locas working at the Izlude smeltery."
 		},
@@ -8934,6 +8995,7 @@ QuestInfoList = {
 	},
 	[5156] = {
 		Title = "Refining tutorial (4)",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Refining tutorial completed."
 		},
@@ -8941,6 +9003,7 @@ QuestInfoList = {
 	},
 	[5157] = {
 		Title = "Enchant tutorial (1)",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"If you want to learn about enchanting, visit Enchanter Mounds of the Izlude enchant guild."
 		},
@@ -8948,6 +9011,7 @@ QuestInfoList = {
 	},
 	[5158] = {
 		Title = "Enchant tutorial (2)",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"To experience the socket enchant, you need a cotton shirt. Bring the cotton shirts easily bought at the shop."
 		},
@@ -8955,6 +9019,7 @@ QuestInfoList = {
 	},
 	[5159] = {
 		Title = "Enchant tutorial (3)",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Equip socket-enchanted cotton shirt then goto Almond J for the hidden enchant."
 		},
@@ -12756,69 +12821,137 @@ QuestInfoList = {
 	},
 	[5847] = {
 		Title = "루안다에게 전할 이야기",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"조금 전 보고 겪은 일을 <NAVI>[수비책임자 루안다]<INFO>com_d02_i,241,255,0,101,0</INFO></NAVI>에게 이야기해주자."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255,
+		RewardEXP = "1120000",
+		RewardJEXP = "650000"
 	},
 	[5848] = {
 		Title = "거석족 퇴치의 증거",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"마을에서는 거석족 몬스터 때문에 골치를 썩고 있다. 그들을 퇴치한 <ITEM>[증거]<INFO>25638</INFO></ITEM> 3개를 가져가면, 하루에 한번 정도는 보상을 해줄 것이다."
 		},
-		Summary = "거석의 증표 3개"
+		Summary = "거석의 증표 3개",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255,
+		RewardEXP = "4300000",
+		RewardJEXP = "2800000",
+		RewardItemList = {
+			{ ItemID = 25271, ItemNum = 1 }
+		}
 	},
 	[5849] = {
 		Title = "[대기]거석족 퇴치의 증거",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[수비책임자 루안다]<INFO>com_d02_i,241,255,0,101,0</INFO></NAVI>는 내일도 거석족을 퇴치한 증거를 가져간다면, 보상을 해줄 것이다."
 		},
-		Summary = "초기화 04시"
+		Summary = "초기화 04시",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255
 	},
 	[5850] = {
 		Title = "우탄족 퇴치의 증거",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"마을에서는 우탄족 몬스터 때문에 골치를 썩고 있다. 그들을 퇴치한 <ITEM>[증거]<INFO>25633</INFO></ITEM> 3개를 가져가면, 하루에 한번 정도는 보상을 해줄 것이다."
 		},
-		Summary = "우탄의 증표 3개"
+		Summary = "우탄의 증표 3개",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255,
+		RewardEXP = "4300000",
+		RewardJEXP = "2800000",
+		RewardItemList = {
+			{ ItemID = 25271, ItemNum = 1 }
+		}
 	},
 	[5851] = {
 		Title = "[대기]우탄족 퇴치의 증거",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[수비책임자 루안다]<INFO>com_d02_i,241,255,0,101,0</INFO></NAVI>는 내일도 우탄족을 퇴치한 증거를 가져간다면, 보상을 해줄 것이다."
 		},
-		Summary = "초기화 04시"
+		Summary = "초기화 04시",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255
 	},
 	[5852] = {
 		Title = "거석족 퇴치작전",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"마을에서는 거석족 토벌을 계획하고 있다. <NAVI>[고대의 트라이조인트]<INFO>ILL_TRI_JOINT,0,0,3,-222,1</INFO></NAVI>, <NAVI>[고대의 스터랙틱 고렘]<INFO>ILL_STALACTIC_GOLEM,0,0,3,-222,1</INFO></NAVI>, <NAVI>[고대의 메갈리스]<INFO>ILL_MEGALITH,0,0,3,-222,1</INFO></NAVI>를 다섯 마리씩 잡고서 <NAVI>[수비책임자 루안다]<INFO>com_d02_i,241,255,0,101,0</INFO></NAVI>에게 보고하자."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255,
+		RewardEXP = "4300000",
+		RewardJEXP = "2800000",
+		RewardItemList = {
+			{ ItemID = 25271, ItemNum = 1 }
+		}
 	},
 	[5853] = {
 		Title = "[대기]거석족 퇴치작전",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[수비책임자 루안다]<INFO>com_d02_i,241,255,0,101,0</INFO></NAVI>는 당신이 내일도 거석족 토벌에 나서주길 기대하고 있다."
 		},
-		Summary = "초기화 04시"
+		Summary = "초기화 04시",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255
 	},
 	[5854] = {
 		Title = "우탄족 퇴치작전",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"마을에서는 거석족 토벌을 계획하고 있다. <NAVI>[고대의 스톤슈터]<INFO>ILL_STONE_SHOOTER,0,0,3,-222,1</INFO></NAVI>, <NAVI>[고대의 우탄슈터]<INFO>ILL_WOOTAN_SHOOTER,0,0,3,-222,1</INFO></NAVI>, <NAVI>[고대의 우탄파이터]<INFO>ILL_WOOTAN_FIGHTER,0,0,3,-222,1</INFO></NAVI>를 다섯 마리씩 잡고서 <NAVI>[수비책임자 루안다]<INFO>com_d02_i,241,255,0,101,0</INFO></NAVI>에게 보고하자."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255,
+		RewardEXP = "4300000",
+		RewardJEXP = "2800000",
+		RewardItemList = {
+			{ ItemID = 25271, ItemNum = 1 }
+		}
 	},
 	[5855] = {
 		Title = "[대기]우탄족 퇴치작전",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[수비책임자 루안다]<INFO>com_d02_i,241,255,0,101,0</INFO></NAVI>는 당신이 내일도 우탄족 토벌에 나서주길 기대하고 있다."
 		},
-		Summary = "초기화 04시"
+		Summary = "초기화 04시",
+		NpcSpr = "4_M_THAIONGBAK",
+		NpcNavi = "com_d02_i",
+		NpcPosX = 241,
+		NpcPosY = 255
 	},
 	[5856] = {
 		Title = "내 이름은 아침이",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"안녕! 이 쪽지를 읽는 친구",
 			"급하게 이동을 해야해서 아이를 두고 가게 됐어. 저 아이는 루두스에 버려진 실험체야.",
@@ -12826,20 +12959,35 @@ QuestInfoList = {
 			"떠넘기는 건 아니고 나도 시간이 날 때마다 보러 올 테니 아침이 식사 정도만 챙겨줘. 달라는 걸 주면 될 거야. 당장은 데려갈 형편이 안돼서. 부탁해.",
 			"-올그"
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200
 	},
 	[5857] = {
 		Title = "아침이의 친구 만들기",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"안녕! 이 쪽지를 읽는 친구",
 			"아침이 식사를 챙겨줘서 고마워. 얼마 전에 포링 이야기를 해줘서 그런가 포링을 너무 좋아하더라. 포링 펫 하나라도 있으면, 덜 외로워 할 텐데.",
 			"그래서 그런데 <ITEM>[포링의 알]<INFO>9001</INFO></ITEM> 하나 구해서 아침에게 전해 줄 수 있을까? 부탁해. 친구.",
 			"-올그"
 		},
-		Summary = "포링의 알"
+		Summary = "포링의 알",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "Lv110 5%",
+		RewardJEXP = "800000",
+		RewardItemList = {
+			{ ItemID = 25723, ItemNum = 3 }
+		}
 	},
 	[5858] = {
 		Title = "아침이의 친구 만들기",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"안녕! 친구",
 			"아침이가 널 밥 주는 존재로 인식한 모양이더라?",
@@ -12847,104 +12995,248 @@ QuestInfoList = {
 			"이번에는 <ITEM>[로커의 알]<INFO>9011</INFO></ITEM>을 하나 구해줄 수 있을까? 부탁해. 친구.",
 			"-올그"
 		},
-		Summary = "로커의 알"
+		Summary = "로커의 알",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "Lv110 5%",
+		RewardJEXP = "800000",
+		RewardItemList = {
+			{ ItemID = 25723, ItemNum = 3 }
+		}
 	},
 	[5859] = {
 		Title = "아침이의 친구 만들기",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"안녕! 친구",
 			"아침이에게 삐약이의 모험이란 이야기를 해줘서 그런가 픽키를 궁금해하네?",
 			"이번에는 <ITEM>[픽키의 알]<INFO>9005</INFO></ITEM>을 구해줄 수 있을까? 자주 챙겨 주지도 못하는데 친구라도 많이 만들어 줘야지. 부탁해. 친구.",
 			"-올그"
 		},
-		Summary = "픽키의 알"
+		Summary = "픽키의 알",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "Lv110 5%",
+		RewardJEXP = "800000",
+		RewardItemList = {
+			{ ItemID = 25723, ItemNum = 3 }
+		}
 	},
 	[5860] = {
 		Title = "아침이의 친구 만들기",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"안녕! 친구",
 			"매번 부탁만 하고 염치가 없네. 달에 사는 토끼 이야기를 해줘서 그런가? 루나틱을 궁금해하네.",
 			"<ITEM>[루나틱의 알]<INFO>9004</INFO></ITEM>을 구해줄 수 있어? 부탁할 게 친구.",
 			"-올그"
 		},
-		Summary = "루나틱의 알"
+		Summary = "루나틱의 알",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "Lv110 5%",
+		RewardJEXP = "800000",
+		RewardItemList = {
+			{ ItemID = 25723, ItemNum = 6 }
+		}
 	},
 	[5861] = {
 		Title = "[대기] 아침이 챙겨주기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>의 식사를 챙겨줬다. 여유가 된다면 내일도 챙겨주는 게 좋지 않을까?"
 		},
-		Summary = "초기화 04시"
+		Summary = "초기화 04시",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200
 	},
 	[5862] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 젤로피를 먹고 싶어 하는 것 같다. <ITEM>[젤로피]<INFO>909</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "젤로피 10"
+		Summary = "젤로피 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5863] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 늙은나무의 뿌리를 먹고 싶어 하는 것 같다. <ITEM>[늙은나무의 뿌리]<INFO>902</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "늙은나무의 뿌리 10"
+		Summary = "늙은나무의 뿌리 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5864] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 메뚜기의 뒷다리를 먹고 싶어 하는 것 같다. <ITEM>[메뚜기의 뒷다리]<INFO>940</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "메뚜기의 뒷다리 10"
+		Summary = "메뚜기의 뒷다리 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5865] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 클로버를 먹고 싶어 하는 것 같다. <ITEM>[클로버]<INFO>705</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "클로버 10"
+		Summary = "클로버 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5866] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 새의 깃털를 먹고 싶어 하는 것 같다. <ITEM>[새의 깃털]<INFO>916</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "새의 깃털 10"
+		Summary = "새의 깃털 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5867] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 쥐의 꼬리를 먹고 싶어 하는 것 같다. <ITEM>[쥐의 꼬리]<INFO>1016</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "쥐의 꼬리 10"
+		Summary = "쥐의 꼬리 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5868] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 독 송곳니를 먹고 싶어 하는 것 같다. <ITEM>[독 송곳니]<INFO>937</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "독 송곳니 10"
+		Summary = "독 송곳니 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5869] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 원숭이의 꼬리를 먹고 싶어 하는 것 같다. <ITEM>[원숭이의 꼬리]<INFO>942</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "원숭이의 꼬리 10"
+		Summary = "원숭이의 꼬리 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5870] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 박쥐의 이빨를 먹고 싶어 하는 것 같다. <ITEM>[박쥐의 이빨]<INFO>913</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "박쥐의 이빨 10"
+		Summary = "박쥐의 이빨 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[5871] = {
 		Title = "아침이의 메뉴 선택",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[아침이]<INFO>sp_rudus,130,200,0,101,0</INFO></NAVI>는 오늘 곰의 발바닥를 먹고 싶어 하는 것 같다. <ITEM>[곰의 발바닥]<INFO>948</INFO></ITEM> 10개를 가져다 주자."
 		},
-		Summary = "곰의 발바닥 10"
+		Summary = "곰의 발바닥 10",
+		NpcSpr = "4_EP17_MORNING",
+		NpcNavi = "sp_rudus",
+		NpcPosX = 130,
+		NpcPosY = 200,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 5 },
+			{ ItemID = 25723, ItemNum = 1 }
+		}
 	},
 	[6000] = {
 		Title = "Job Change to Taekwon",
@@ -13047,7 +13339,7 @@ QuestInfoList = {
 	[6022] = {
 		Title = "Making a voucher",
 		Description = {
-			"It's going to take a little while. Talk to him again a bit later."
+			"\"It's going to take a little while. Talk to him again a bit later.\""
 		},
 		Summary = ""
 	},
@@ -14778,21 +15070,37 @@ QuestInfoList = {
 		Description = {
 			"Duruduru Compass Race has started. You have to finish the race in the correct order within a limited time. The order of the compass is (Red Flame) -> (Blue Flame) -> (Gold Flame) -> (Forest) -> (Cloud)."
 		},
-		Summary = ""
+		Summary = "",
+		RewardEXP = "20000",
+		RewardJEXP = "20000",
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 3 }
+		}
 	},
 	[7245] = {
 		Title = "Nyadventure-Duruduru Race",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Duruduru Compass Race has started. You have to finish the race in the correct order within a limited time. The order of the compass is (Gold Flame) -> (Blue Flame) -> (Cloud) -> (Forest) -> (Red Flame)."
 		},
-		Summary = ""
+		Summary = "",
+		RewardEXP = "20000",
+		RewardJEXP = "20000",
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 3 }
+		}
 	},
 	[7246] = {
 		Title = "Nyadventure-I'm coming now.",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Charo says that a detective cat is near ship Navi which is in the centre of Malangdo. Go to meet the detective and his friend."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_ADV2",
+		NpcNavi = "malangdo",
+		NpcPosX = 211,
+		NpcPosY = 203
 	},
 	[7247] = {
 		Title = "Nyadventure-Stop the Bang!",
@@ -14803,20 +15111,31 @@ QuestInfoList = {
 	},
 	[7249] = {
 		Title = "Nyadventure-Bang! See you next time",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"According to Homnya and Nyangson, this machine named Bang causes a problem every minute. You never know when you will be in trouble. Check on the machine again tomorrow."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_ADV2",
+		NpcNavi = "malangdo",
+		NpcPosX = 172,
+		NpcPosY = 178
 	},
 	[7250] = {
 		Title = "Nyadventure-Hidden Treasure?",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"When the Bang stopped, Homnya and Nyangson gives you a useful information. They talk about treasure something. Homnya says the treasure is inside of ship Navi. It might be just a joke but it is still worth to try."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_ADV2",
+		NpcNavi = "malangdo",
+		NpcPosX = 172,
+		NpcPosY = 178
 	},
 	[7251] = {
 		Title = "Nyadventure-The First piece of Painting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The piece of Painting which you found in the box in ship Navi"
 		},
@@ -14824,6 +15143,7 @@ QuestInfoList = {
 	},
 	[7252] = {
 		Title = "Nyadventure-The Second piece of Painting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The piece of Painting which was put in the book in ship Navi's meeting room"
 		},
@@ -14831,6 +15151,7 @@ QuestInfoList = {
 	},
 	[7253] = {
 		Title = "Nyadventure-The Third piece of Painting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The piece of Painting which you found under the old bed in the crew's cabin"
 		},
@@ -14838,6 +15159,7 @@ QuestInfoList = {
 	},
 	[7254] = {
 		Title = "Nyadventure-The Fourth piece of Painting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The piece of Painting which you found in the decoration seashell of the captain's room"
 		},
@@ -14845,6 +15167,7 @@ QuestInfoList = {
 	},
 	[7255] = {
 		Title = "Nyadventure-The Fifth piece of Painting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The piece of Painting which you found in the crack of wooden pillar"
 		},
@@ -14852,6 +15175,7 @@ QuestInfoList = {
 	},
 	[7256] = {
 		Title = "Nyadventure-The Sixth piece of Painting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The piece of Painting which you found in the Ventilation window on the cabin floor"
 		},
@@ -14862,31 +15186,59 @@ QuestInfoList = {
 		Description = {
 			"Duruduru Race is good if you only run once a day. If you want it, come back later."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_DOWN",
+		NpcNavi = "malangdo",
+		NpcPosX = 211,
+		NpcPosY = 203
 	},
 	[7258] = {
 		Title = "Nyadventure-Painting completed",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Pieces you found in the ship are over all 6. It seems a complete painting. Go to Charo, Rosy Roku and let them know this."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_DOWN",
+		NpcNavi = "malangdo",
+		NpcPosX = 211,
+		NpcPosY = 203
 	},
 	[7259] = {
 		Title = "Gift from the Mew Bravery Team",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Charo, Rosy and Roku say that they want to give Rato the painting pieces found. Bring the painting to Rato in order to deliver the love of baby cats (even though the painting is torn apart)."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR5",
+		NpcNavi = "malangdo",
+		NpcPosX = 165,
+		NpcPosY = 223,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 100 }
+		}
 	},
 	[7260] = {
 		Title = "The origin of Bugs",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Cleanyang's crying out loud saying that bugs appear over and over again although he cleans up the ship completely. Help him. Inspect ship Navi meticulously."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR1",
+		NpcNavi = "mal_in02",
+		NpcPosX = 76,
+		NpcPosY = 63,
+		RewardEXP = "30000",
+		RewardJEXP = "40000",
+		RewardItemList = {
+			{ ItemID = 12636, ItemNum = 10 }
+		}
 	},
 	[7261] = {
 		Title = "Pick up Cat's Ship Biscuit-Captain's Room",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In the corner of the captain's room, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14894,6 +15246,7 @@ QuestInfoList = {
 	},
 	[7262] = {
 		Title = "Pick up Cat's Ship Biscuit-Crew's Cabin",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In the sailor's room, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14901,6 +15254,7 @@ QuestInfoList = {
 	},
 	[7263] = {
 		Title = "Pick up Cat's Ship Biscuit-Meeting Room",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In somewhere in the meeting room, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14908,41 +15262,74 @@ QuestInfoList = {
 	},
 	[7264] = {
 		Title = "To Chef Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Cleanyang did clean up all the ship, but the problem was those cat's hard biscuit which were kept beyond his reach. You should tell Nyas the truth and clear Cleanyang of the false charge."
 		},
-		Summary = "Talking with Nyas"
+		Summary = "Talking with Nyas",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58
 	},
 	[7265] = {
 		Title = "Rage of Chef Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"When you told the story about the biscuit and the bugs, the chef got so angry. You'd better talk to him a little later."
 		},
-		Summary = "Talking with Nyas"
+		Summary = "Talking with Nyas",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58
 	},
 	[7266] = {
 		Title = "Declaration of Chef Nyas",
 		Description = {
 			"Nyas decided himself and declared that at least one meal a day will be cat's hard biscuit from now. He asked you to bring 10 bags of Grain and 1 bottle of Savory sauce for making the biscuits."
 		},
-		Summary = "10 bags of Grain, 1 bottle of Savory Sauce, Deliver the message to Cleanyang."
+		Summary = "10 bags of Grain, 1 bottle of Savory Sauce, Deliver the message to Cleanyang.",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58,
+		RewardEXP = "50000",
+		RewardJEXP = "80000",
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 10 }
+		}
 	},
 	[7267] = {
 		Title = "Appointed time with Cleanyang",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"In order to solve the Cat's hard biscuit incident, you are going to work with Cleanyang. Go back to Cleanyang at the appointed time."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR1",
+		NpcNavi = "mal_in02",
+		NpcPosX = 76,
+		NpcPosY = 63
 	},
 	[7268] = {
 		Title = "Find the Cat's hard biscuits!",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"You are gonna pick up the biscuits which cats on the ship started to hide. If the biscuits are taken, the bugs also will be gone. Focus on the 9 spots where the biscuits are frequently seen."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR1",
+		NpcNavi = "mal_in02",
+		NpcPosX = 76,
+		NpcPosY = 63,
+		RewardItemList = {
+			{ ItemID = 11536, ItemNum = 1 }
+		}
 	},
 	[7269] = {
 		Title = "Pick up Cat's Ship Biscuit-Rest Area",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In the weed of outdoor rest area, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14950,6 +15337,7 @@ QuestInfoList = {
 	},
 	[7270] = {
 		Title = "Pick up Cat's Ship Biscuit-Sand area",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In a strange pile of sand, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14957,6 +15345,7 @@ QuestInfoList = {
 	},
 	[7271] = {
 		Title = "Pick up Cat's Ship Biscuit-Under the stairs",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In the corner underneath stairs, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14964,6 +15353,7 @@ QuestInfoList = {
 	},
 	[7272] = {
 		Title = "Pick up Cat's Ship Biscuit-Corner of Cat tower",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In the corner of cat tower, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14971,6 +15361,7 @@ QuestInfoList = {
 	},
 	[7273] = {
 		Title = "Pick up Cat's Ship Biscuit-Corner of Locker",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In the gap between the locker and the wall, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14978,6 +15369,7 @@ QuestInfoList = {
 	},
 	[7274] = {
 		Title = "Pick up Cat's Ship Biscuit-Foothold of Cat tower",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In the gap between the foothold and the floor, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14985,6 +15377,7 @@ QuestInfoList = {
 	},
 	[7275] = {
 		Title = "Pick up Cat's Ship Biscuit-Sand Grave",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"In a sand grave, you found out cat's hard biscuit which was hidden. The biscuit was all covered with the bugs. Those bugs must be there for the biscuit.."
 		},
@@ -14992,20 +15385,31 @@ QuestInfoList = {
 	},
 	[7276] = {
 		Title = "Promise to deliver more food",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas wants you to deliver the ingredient for the biscuit every day, and for some new food. Anyway go back to him whenever you can."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58
 	},
 	[7281] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
-		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Honey Grape Juice"
+		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Honey Grape Juice",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58
 	},
 	[7282] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15013,6 +15417,7 @@ QuestInfoList = {
 	},
 	[7283] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15020,6 +15425,7 @@ QuestInfoList = {
 	},
 	[7284] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15027,6 +15433,7 @@ QuestInfoList = {
 	},
 	[7285] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15034,6 +15441,7 @@ QuestInfoList = {
 	},
 	[7286] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15041,6 +15449,7 @@ QuestInfoList = {
 	},
 	[7287] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15048,6 +15457,7 @@ QuestInfoList = {
 	},
 	[7288] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15055,6 +15465,7 @@ QuestInfoList = {
 	},
 	[7289] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15069,6 +15480,7 @@ QuestInfoList = {
 	},
 	[7291] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15076,6 +15488,7 @@ QuestInfoList = {
 	},
 	[7292] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15083,6 +15496,7 @@ QuestInfoList = {
 	},
 	[7293] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15090,6 +15504,7 @@ QuestInfoList = {
 	},
 	[7294] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15097,6 +15512,7 @@ QuestInfoList = {
 	},
 	[7295] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15104,6 +15520,7 @@ QuestInfoList = {
 	},
 	[7296] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15111,6 +15528,7 @@ QuestInfoList = {
 	},
 	[7297] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15118,6 +15536,7 @@ QuestInfoList = {
 	},
 	[7298] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15125,6 +15544,7 @@ QuestInfoList = {
 	},
 	[7299] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15132,6 +15552,7 @@ QuestInfoList = {
 	},
 	[7300] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15139,6 +15560,7 @@ QuestInfoList = {
 	},
 	[7301] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15146,6 +15568,7 @@ QuestInfoList = {
 	},
 	[7302] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15153,6 +15576,7 @@ QuestInfoList = {
 	},
 	[7303] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15160,6 +15584,7 @@ QuestInfoList = {
 	},
 	[7304] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15167,6 +15592,7 @@ QuestInfoList = {
 	},
 	[7305] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15174,6 +15600,7 @@ QuestInfoList = {
 	},
 	[7306] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15181,6 +15608,7 @@ QuestInfoList = {
 	},
 	[7307] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15188,6 +15616,7 @@ QuestInfoList = {
 	},
 	[7308] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15202,6 +15631,7 @@ QuestInfoList = {
 	},
 	[7310] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15209,6 +15639,7 @@ QuestInfoList = {
 	},
 	[7311] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15216,6 +15647,7 @@ QuestInfoList = {
 	},
 	[7312] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15223,6 +15655,7 @@ QuestInfoList = {
 	},
 	[7313] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15230,6 +15663,7 @@ QuestInfoList = {
 	},
 	[7314] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15237,6 +15671,7 @@ QuestInfoList = {
 	},
 	[7315] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15244,6 +15679,7 @@ QuestInfoList = {
 	},
 	[7316] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15251,6 +15687,7 @@ QuestInfoList = {
 	},
 	[7317] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15258,6 +15695,7 @@ QuestInfoList = {
 	},
 	[7318] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15265,6 +15703,7 @@ QuestInfoList = {
 	},
 	[7319] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15272,6 +15711,7 @@ QuestInfoList = {
 	},
 	[7320] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15279,6 +15719,7 @@ QuestInfoList = {
 	},
 	[7321] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15286,6 +15727,7 @@ QuestInfoList = {
 	},
 	[7322] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15293,6 +15735,7 @@ QuestInfoList = {
 	},
 	[7323] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15300,6 +15743,7 @@ QuestInfoList = {
 	},
 	[7324] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15307,6 +15751,7 @@ QuestInfoList = {
 	},
 	[7325] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15314,6 +15759,7 @@ QuestInfoList = {
 	},
 	[7326] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15321,6 +15767,7 @@ QuestInfoList = {
 	},
 	[7327] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15328,6 +15775,7 @@ QuestInfoList = {
 	},
 	[7328] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15335,6 +15783,7 @@ QuestInfoList = {
 	},
 	[7329] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15342,6 +15791,7 @@ QuestInfoList = {
 	},
 	[7330] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15349,6 +15799,7 @@ QuestInfoList = {
 	},
 	[7331] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15356,6 +15807,7 @@ QuestInfoList = {
 	},
 	[7332] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15363,6 +15815,7 @@ QuestInfoList = {
 	},
 	[7333] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15370,6 +15823,7 @@ QuestInfoList = {
 	},
 	[7334] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15377,6 +15831,7 @@ QuestInfoList = {
 	},
 	[7335] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15384,6 +15839,7 @@ QuestInfoList = {
 	},
 	[7336] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15391,6 +15847,7 @@ QuestInfoList = {
 	},
 	[7337] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15398,6 +15855,7 @@ QuestInfoList = {
 	},
 	[7338] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15405,6 +15863,7 @@ QuestInfoList = {
 	},
 	[7339] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
 		},
@@ -15412,52 +15871,108 @@ QuestInfoList = {
 	},
 	[7340] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
+			"Chef Nyas ordered you to bring 10 ITEM>[Bags of Grain]<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>[Savory Sauce]<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>[Cooked Nine Tail's Tails]<INFO>12100</INFO></ITEM> for his curiosity of Human Food."
 		},
-		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Cooked Nine Tail's Tails"
+		Summary = "1 Cooked Nine Tail's Tails",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 4 }
+		}
 	},
 	[7341] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
+			"Chef Nyas ordered you to bring 10 ITEM>[Bags of Grain]<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>[Savory Sauce]<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>[Savage BBQ]<INFO>12429</INFO></ITEM> for his curiosity of Human Food."
 		},
-		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Savage BBQ"
+		Summary = "1 Savage BBQ",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 4 }
+		}
 	},
 	[7342] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
+			"Chef Nyas ordered you to bring 10 ITEM>[Bags of Grain]<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>[Savory Sauce]<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>[Warg Blood Cocktail]<INFO>12430</INFO></ITEM> for his curiosity of Human Food."
 		},
-		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Wug Blood Cocktail"
+		Summary = "1 Warg Blood Cocktail",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 4 }
+		}
 	},
 	[7343] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
+			"Chef Nyas ordered you to bring 10 ITEM>[Bags of Grain]<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>[Savory Sauce]<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>[Minor Brisketa]<INFO>12431</INFO></ITEM> for his curiosity of Human Food."
 		},
-		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Minor Brisket"
+		Summary = "1 Minor Brisket",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 4 }
+		}
 	},
 	[7344] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
+			"Chef Nyas ordered you to bring 10 ITEM>[Bags of Grain]<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>[Savory Sauce]<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>[Siroma Icetea]<INFO>12432</INFO></ITEM> for his curiosity of Human Food."
 		},
-		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Siroma Icetea"
+		Summary = "1 Siroma Icetea",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 4 }
+		}
 	},
 	[7345] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
+			"Chef Nyas ordered you to bring 10 ITEM>[Bags of Grain]<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>[Savory Sauce]<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>[Drosera Herb Stew]<INFO>12433</INFO></ITEM> for his curiosity of Human Food."
 		},
-		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Drocera Herb Stew"
+		Summary = "1 Drosera Herb Stew",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 4 }
+		}
 	},
 	[7346] = {
 		Title = "Errands List of Nyas",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Chef Nyas ordered you to bring 10 Bags of Grain and 1 bottle of Savory Sauce. And he also wants you to get the food below for his curiosity of Human Food."
+			"Chef Nyas ordered you to bring 10 ITEM>[Bags of Grain]<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>[Savory Sauce]<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>[Petite Tail Noodle]<INFO>12434</INFO></ITEM> for his curiosity of Human Food."
 		},
-		Summary = "10 Bags of Grain, 1 Bottle of Savory Sauce, 1 Petti Tail Noodle"
+		Summary = "1 Petite Tail Noodle",
+		NpcSpr = "4_CAT_CHEF",
+		NpcNavi = "mal_in02",
+		NpcPosX = 187,
+		NpcPosY = 58,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 4 }
+		}
 	},
 	[7347] = {
 		Title = "Delicious Takoyaki",
@@ -16322,6 +16837,7 @@ QuestInfoList = {
 	},
 	[7471] = {
 		Title = "First time conversation after being born",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Talk with Captain Carocc."
 		},
@@ -16329,6 +16845,7 @@ QuestInfoList = {
 	},
 	[7472] = {
 		Title = "First step towards a new world",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Meet with the Criatura Academy staff member Hun."
 		},
@@ -16336,6 +16853,7 @@ QuestInfoList = {
 	},
 	[7473] = {
 		Title = "Cool drink",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"You received a glass of Apple Juice from Mr. Hun. Drink it with one swallow!"
 		},
@@ -16385,6 +16903,7 @@ QuestInfoList = {
 	},
 	[7480] = {
 		Title = "Regarding Thief job",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Ask about stats and skills from Vicente and Vercassel."
 		},
@@ -16392,6 +16911,7 @@ QuestInfoList = {
 	},
 	[7481] = {
 		Title = "Vicente's class",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"heard from Vicente about stats."
 		},
@@ -16399,6 +16919,7 @@ QuestInfoList = {
 	},
 	[7482] = {
 		Title = "Vercassel's class",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Heard from Vercassel about the Thief skills."
 		},
@@ -16406,6 +16927,7 @@ QuestInfoList = {
 	},
 	[7483] = {
 		Title = "Use the Thief Manual",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Use the manual to complete the assignments from Vicente and Vercassel."
 		},
@@ -16413,6 +16935,7 @@ QuestInfoList = {
 	},
 	[7484] = {
 		Title = "Shop owner! Order to steal!",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"As for the assignment use the Thief Manual, you have to steal a Stone from a Poring monster."
 		},
@@ -16420,6 +16943,7 @@ QuestInfoList = {
 	},
 	[7485] = {
 		Title = "Assassin! Use Envenom",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"As for the assignment to use the Thief Manual. Defeat a Poring in the Poring cage by using Envenom."
 		},
@@ -16427,6 +16951,7 @@ QuestInfoList = {
 	},
 	[7486] = {
 		Title = "With Lumin",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Talk about your future."
 		},
@@ -16434,6 +16959,7 @@ QuestInfoList = {
 	},
 	[7487] = {
 		Title = "30 second duel",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Bet with Lumin. Within 30 seconds, defeat 4 Porings in the Poring cage by using Envenom and speak to Lumin."
 		},
@@ -18576,6 +19102,7 @@ QuestInfoList = {
 	},
 	[7850] = {
 		Title = "총알 탄 야옹이",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"아인베흐에서 만난 리벨리온 대원은 최근 넓어진 작전지를 커버하기 위해 아인브로크의 가게를 아지트로 이용중이라고 알려줬다. 아인브로크에서 <NAVI>[총알 탄 야옹이]<INFO>einbroch,302,329,0,101,0</INFO></NAVI>를 찾자."
 		},
@@ -18583,6 +19110,7 @@ QuestInfoList = {
 	},
 	[7851] = {
 		Title = "새로운 작전지",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"테스로부터 새로운 작전지 <NAVI>[루두스]<INFO>ein_fild05,158,284,0,101,0</INFO></NAVI>에 대한 정보를 입수했다. 작전지로 가서 리벨리온과 합류하자."
 		},
@@ -18590,6 +19118,7 @@ QuestInfoList = {
 	},
 	[7852] = {
 		Title = "격벽 너머",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"새로운 작전지 <NAVI>[루두스]<INFO>ein_fild05,158,284,0,101,0</INFO></NAVI>에서 대기중인 엘레나 볼코바는 격벽을 조사중인 루키와 대화한 뒤 격벽 너머를 조사해 달라고 한다."
 		},
@@ -18597,6 +19126,7 @@ QuestInfoList = {
 	},
 	[7853] = {
 		Title = "격벽 주변 조사",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"<NAVI>[루두스]<INFO>ein_fild05,158,284,0,101,0</INFO></NAVI> 내부의 루키는 격벽 주변을 조사 해 달라고 한다. 뭔가 특이사항을 발견하면 수집해서 알려주자."
 		},
@@ -18604,6 +19134,7 @@ QuestInfoList = {
 	},
 	[7854] = {
 		Title = "철로 위의 벽",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"격벽이 철로 위에 세워져있다. 격벽은 아무래도 폐광이 된 후 세워진 것 같다."
 		},
@@ -18611,6 +19142,7 @@ QuestInfoList = {
 	},
 	[7855] = {
 		Title = "감시탑",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"격벽 너머를 한 눈에 내려다 볼 수 있을 정도로 높은 감시탑. 광물 제련에 이런 감시탑은 필요없을텐데…"
 		},
@@ -18618,6 +19150,7 @@ QuestInfoList = {
 	},
 	[7856] = {
 		Title = "개구멍",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"격벽의 끝이 암석과 맞닿는 부분에 아주 작은 어린아이가 겨우 통과할 수 있을 정도의 개구멍이 있다."
 		},
@@ -18625,6 +19158,7 @@ QuestInfoList = {
 	},
 	[7857] = {
 		Title = "루키에게 보고",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"격벽 주변은 대충 다 돌아본 것 같다. 수집한 정보를 루키에게 전하자."
 		},
@@ -18632,13 +19166,20 @@ QuestInfoList = {
 	},
 	[7858] = {
 		Title = "불온한 소리의 정체 조사",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"리벨리온 대원 일부는 격벽 너머에서 들려오는 소리의 정체를 밝히기 위해 이미 움직였다. 루키는 소리의 근원이 괴물이라면 멋지게 해치워 달라고 했다."
 		},
-		Summary = "괴물 사냥"
+		Summary = "괴물 사냥",
+		RewardEXP = "800000",
+		RewardJEXP = "800000",
+		RewardItemList = {
+			{ ItemID = 25723, ItemNum = 15 }
+		}
 	},
 	[7859] = {
 		Title = "테스에게 보고",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"엘레나 볼코바는 격벽 너머의 상황이 정상이 아님을 총알 탄 야옹이로 돌아가<NAVI>[테스]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI>에게 보고하라고 했다. 엘레나는 쓰레기장이라고 했는데.."
 		},
@@ -18646,6 +19187,7 @@ QuestInfoList = {
 	},
 	[7860] = {
 		Title = "예상 외의 손님",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"총알 탄 야옹이에서 만난 <NAVI>[테스]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI>는 급한 일이 있다며 안쪽의 비밀 방으로 안내 했다."
 		},
@@ -18653,6 +19195,7 @@ QuestInfoList = {
 	},
 	[7861] = {
 		Title = "기업의 위기",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"내부의 배신자에게 점령당한 레겐쉬름 연구소를 되찾기 위해 에스트 일행과 합류하기로 했다. 리히타르젠에서 작전 대기 중인 <NAVI>[공화국 경비병]<INFO>lighthalzen,56,270,0,101,0</INFO></NAVI>과 만나자."
 		},
@@ -18660,6 +19203,7 @@ QuestInfoList = {
 	},
 	[7862] = {
 		Title = "레겐쉬름 탈환작전",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"연구소에 잠입 해 내부를 정리하기로 했다. 대기 중인 <NAVI>[오스카]<INFO>lighthalzen,55,278,0,101,0</INFO></NAVI>를 통해 연구소로 진입이 가능하다."
 		},
@@ -18667,13 +19211,17 @@ QuestInfoList = {
 	},
 	[7863] = {
 		Title = "연구소에서 획득한 자료",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"연구소의 경호 1팀과 관련된 자료입니다."
 		},
-		Summary = "테스에게 보고"
+		Summary = "테스에게 보고",
+		RewardEXP = "200000",
+		RewardJEXP = "200000"
 	},
 	[7864] = {
 		Title = "환기",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"테스가 자료를 분석 할 동안 레이지를 돕기로 했다. 주점 어딘가에 있을 레이지를 찾아보자. "
 		},
@@ -18681,6 +19229,7 @@ QuestInfoList = {
 	},
 	[7865] = {
 		Title = "두번째 작전",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"아인브로크 북-서 필드의 폐광산에서 새로운 작전이 수행 될 예정이다. 대기 중인 <NAVI>[리벨리온 대원]<INFO>ein_fild03,278,269,0,101,0</INFO></NAVI>과 만나 작전에 합류하자."
 		},
@@ -18688,20 +19237,30 @@ QuestInfoList = {
 	},
 	[7866] = {
 		Title = "총알 탄 야옹이로",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"총알 탄 야옹이'로 돌아가 <NAVI>[테스]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI>에게 연구소의 전말을 보고해야 한다."
 		},
-		Summary = "테스와 대화"
+		Summary = "테스와 대화",
+		RewardEXP = "1000000",
+		RewardJEXP = "800000",
+		RewardItemList = {
+			{ ItemID = 25669, ItemNum = 25 }
+		}
 	},
 	[7867] = {
 		Title = "용병vs용병",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"특수경계지역 코르의 <NAVI>[유슬란]<INFO>sp_cor,155,94,0,101,0</INFO></NAVI>은 오스 내부에서 등장하는 하트헌터 벨라레와 사나레의 처치를 부탁했다."
 		},
-		Summary = "하트헌터 처치"
+		Summary = "하트헌터 처치",
+		RewardEXP = "200000",
+		RewardJEXP = "200000"
 	},
 	[7868] = {
 		Title = "용병vs용병-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다.",
 			"특수경계지역 코르의 <NAVI>[유슬란]<INFO>sp_cor,155,94,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
@@ -20978,80 +21537,134 @@ QuestInfoList = {
 	},
 	[8323] = {
 		Title = "노점 아르바이트 관리센터의 의뢰 - 대기",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"상인조합 고용부에서는 의뢰자의 프라이버시를 보호하기 위해 한 명에게는 7일에 한 번만 의뢰를 맡긴다고 한다. 다음 의뢰까지 잠시 기다려 보자."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "1_F_MERCHANT_01",
+		NpcNavi = "alberta_in",
+		NpcPosX = 20,
+		NpcPosY = 19
 	},
 	[8324] = {
 		Title = "프론테라에 좀 다녀오세요",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤의 의뢰로, 프론테라 대장간의 양에게 ^4d4dff조금 낡은 상자^000000를 배달해야 한다."
 		},
-		Summary = "상자 배달"
+		Summary = "상자 배달",
+		NpcSpr = "4_LAM",
+		NpcNavi = "prt_in",
+		NpcPosX = 56,
+		NpcPosY = 57
 	},
 	[8325] = {
 		Title = "상인조합으로 돌아가자",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤에게 수령증을 제출하자."
 		},
-		Summary = "수령증 제출"
+		Summary = "수령증 제출",
+		NpcSpr = "1_F_MERCHANT_01",
+		NpcNavi = "alberta_in",
+		NpcPosX = 20,
 	},
 	[8326] = {
 		Title = "페이욘에 좀 다녀오세요",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤의 의뢰로, 페이욘 대장간의 양에게 ^4d4dff조금 낡은 상자^000000를 배달해야 한다."
 		},
-		Summary = "상자 배달"
+		Summary = "상자 배달",
+		NpcSpr = "4_LAM",
+		NpcNavi = "payon",
+		NpcPosX = 140,
+		NpcPosY = 174
 	},
 	[8327] = {
 		Title = "상인조합으로 돌아가자",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤에게 수령증을 제출하자."
 		},
-		Summary = "수령증 제출"
+		Summary = "수령증 제출",
+		NpcSpr = "1_F_MERCHANT_01",
+		NpcNavi = "alberta_in",
+		NpcPosX = 20,
+		NpcPosY = 19
 	},
 	[8328] = {
 		Title = "코모도에 좀 다녀오세요",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤의 의뢰로, 코모도 무기상점의 양에게 ^4d4dff조금 낡은 상자^000000를 배달해야 한다."
 		},
-		Summary = "상자 배달"
+		Summary = "상자 배달",
+		NpcSpr = "4_LAM",
+		NpcNavi = "cmd_in01",
+		NpcPosX = 128,
+		NpcPosY = 171
 	},
 	[8329] = {
 		Title = "상인조합으로 돌아가자",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤에게 수령증을 제출하자."
 		},
-		Summary = "수령증 제출"
+		Summary = "수령증 제출",
+		NpcSpr = "1_F_MERCHANT_01",
+		NpcNavi = "alberta_in",
+		NpcPosX = 20,
+		NpcPosY = 19
 	},
 	[8330] = {
 		Title = "알데바란에 좀 다녀오세요",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤의 의뢰로, 알데바란의 여관에서 기다리는 양에게 ^4d4dff조금 낡은 상자^000000를 배달해야 한다."
 		},
-		Summary = "상자 배달"
+		Summary = "상자 배달",
+		NpcSpr = "4_LAM",
+		NpcNavi = "aldeba_in",
+		NpcPosX = 97,
+		NpcPosY = 55
 	},
 	[8331] = {
 		Title = "상인조합으로 돌아가자",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤에게 수령증을 제출하자."
 		},
-		Summary = "수령증 제출"
+		Summary = "수령증 제출",
+		NpcSpr = "1_F_MERCHANT_01",
+		NpcNavi = "alberta_in",
+		NpcPosX = 20,
+		NpcPosY = 19
 	},
 	[8332] = {
 		Title = "모로크에 좀 다녀오세요",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤의 의뢰로, 모로크 북쪽 카프라 센터 직원 옆에 있는 양에게 ^4d4dff조금 낡은 상자^000000를 배달해야 한다."
 		},
-		Summary = "상자 배달"
+		Summary = "상자 배달",
+		NpcSpr = "4_LAM",
+		NpcNavi = "morocc",
+		NpcPosX = 162,
+		NpcPosY = 258
 	},
 	[8333] = {
 		Title = "상인조합으로 돌아가자",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"알베르타 상인조합 고용부 소속 마샤에게 수령증을 제출하자."
 		},
-		Summary = "수령증 제출"
+		Summary = "수령증 제출",
+		NpcSpr = "1_F_MERCHANT_01",
+		NpcNavi = "alberta_in",
+		NpcPosX = 20,
+		NpcPosY = 19
 	},
 	[8334] = {
 		Title = "프론테라 지하 수로 회수 건",
@@ -21195,6 +21808,7 @@ QuestInfoList = {
 	},
 	[8354] = {
 		Title = "노점 아르바이트 관리센터의 의뢰",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"판매노점/구매노점 아르바이트생을 고용하기 위해서는 상인조합에서 배부하는 고용증이 필요하다. 1일 1회, 상인조합의 마샤가 찾아 주는 의뢰를 해결하면 난이도에 따라 다른 등급의 고용증을 얻을 수 있다. 받은 의뢰를 해결하자."
 		},
@@ -21223,6 +21837,7 @@ QuestInfoList = {
 	},
 	[8500] = {
 		Title = "꽃가지가 필요해요",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[아를르 오를레앙]<INFO>prontera,167,291,0,101,0</INFO></NAVI>의 부탁으로 꽃가지 15개를 모아 와야 한다."
 		},
@@ -21230,6 +21845,7 @@ QuestInfoList = {
 	},
 	[8501] = {
 		Title = "분실한 사인본 배달 (1)",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[아를르 오를레앙]<INFO>prontera,167,291,0,101,0</INFO></NAVI>의 사인회에서 분실된 책을 주인에게 찾아준 뒤, 아를르 오를레앙에게 돌아오자."
 		},
@@ -21237,6 +21853,7 @@ QuestInfoList = {
 	},
 	[8502] = {
 		Title = "책 주인: 엘라이스",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 엘라이스에게 잃어버린 책을 가져다 주자."
 		},
@@ -21244,6 +21861,7 @@ QuestInfoList = {
 	},
 	[8503] = {
 		Title = "책 주인: 흑제™",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 흑제™에게 잃어버린 책을 가져다 주자."
 		},
@@ -21251,6 +21869,7 @@ QuestInfoList = {
 	},
 	[8504] = {
 		Title = "책 주인: 무위자연",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 무위자연에게 잃어버린 책을 가져다 주자."
 		},
@@ -21258,6 +21877,7 @@ QuestInfoList = {
 	},
 	[8505] = {
 		Title = "책 주인: 너만의수호천사",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 너만의수호천사에게 잃어버린 책을 가져다 주자."
 		},
@@ -21265,6 +21885,7 @@ QuestInfoList = {
 	},
 	[8506] = {
 		Title = "분실한 사인본 배달 (2)",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[아를르 오를레앙]<INFO>prontera,167,291,0,101,0</INFO></NAVI>의 사인회에서 분실된 책을 주인에게 찾아준 뒤, 아를르 오를레앙에게 돌아오자."
 		},
@@ -21272,6 +21893,7 @@ QuestInfoList = {
 	},
 	[8507] = {
 		Title = "책 주인: 꼬마블스",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 꼬마블스에게 잃어버린 책을 가져다 주자."
 		},
@@ -21286,6 +21908,7 @@ QuestInfoList = {
 	},
 	[8509] = {
 		Title = "책 주인: 루사펠",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 루사펠에게 잃어버린 책을 가져다 주자."
 		},
@@ -21293,6 +21916,7 @@ QuestInfoList = {
 	},
 	[8510] = {
 		Title = "책 주인: 마리엔",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 마리엔에게 잃어버린 책을 가져다 주자."
 		},
@@ -21300,6 +21924,7 @@ QuestInfoList = {
 	},
 	[8511] = {
 		Title = "분실한 사인본 배달 (3)",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[아를르 오를레앙]<INFO>prontera,167,291,0,101,0</INFO></NAVI>의 사인회에서 분실된 책을 주인에게 찾아준 뒤, 아를르 오를레앙에게 돌아오자."
 		},
@@ -21307,6 +21932,7 @@ QuestInfoList = {
 	},
 	[8512] = {
 		Title = "책 주인: 헤븐즈도어",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 헤븐즈도어에게 잃어버린 책을 가져다 주자."
 		},
@@ -21314,6 +21940,7 @@ QuestInfoList = {
 	},
 	[8513] = {
 		Title = "책 주인: ∥샤를롯테∥",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 ∥샤를롯테∥에게 잃어버린 책을 가져다 주자."
 		},
@@ -21321,6 +21948,7 @@ QuestInfoList = {
 	},
 	[8514] = {
 		Title = "책 주인: ★날개잃은천사★",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 ★날개잃은천사★에게 잃어버린 책을 가져다 주자."
 		},
@@ -21328,6 +21956,7 @@ QuestInfoList = {
 	},
 	[8515] = {
 		Title = "책 주인: 대마녀†루시아나",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 대마녀†루시아나에게 잃어버린 책을 가져다 주자."
 		},
@@ -21335,6 +21964,7 @@ QuestInfoList = {
 	},
 	[8516] = {
 		Title = "분실한 사인본 배달 (4)",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[아를르 오를레앙]<INFO>prontera,167,291,0,101,0</INFO></NAVI>의 사인회에서 분실된 책을 주인에게 찾아준 뒤, 아를르 오를레앙에게 돌아오자."
 		},
@@ -21342,6 +21972,7 @@ QuestInfoList = {
 	},
 	[8517] = {
 		Title = "책 주인: 란디",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 란디에게 잃어버린 책을 가져다 주자."
 		},
@@ -21349,6 +21980,7 @@ QuestInfoList = {
 	},
 	[8518] = {
 		Title = "책 주인: ♡힐천사♡",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 ♡힐천사♡에게 잃어버린 책을 가져다 주자."
 		},
@@ -21356,6 +21988,7 @@ QuestInfoList = {
 	},
 	[8519] = {
 		Title = "책 주인: ♬ORION♬",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 ♬ORION♬에게 잃어버린 책을 가져다 주자."
 		},
@@ -21363,6 +21996,7 @@ QuestInfoList = {
 	},
 	[8520] = {
 		Title = "책 주인: 대박상회™",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 대박상회™에게 잃어버린 책을 가져다 주자."
 		},
@@ -21370,6 +22004,7 @@ QuestInfoList = {
 	},
 	[8521] = {
 		Title = "분실한 사인본 배달 (5)",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[아를르 오를레앙]<INFO>prontera,167,291,0,101,0</INFO></NAVI>의 사인회에서 분실된 책을 주인에게 찾아준 뒤, 아를르 오를레앙에게 돌아오자."
 		},
@@ -21377,6 +22012,7 @@ QuestInfoList = {
 	},
 	[8522] = {
 		Title = "책 주인: 켈리 폰 에르엔",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 켈리 폰 에르엔에게 잃어버린 책을 가져다 주자."
 		},
@@ -21384,6 +22020,7 @@ QuestInfoList = {
 	},
 	[8523] = {
 		Title = "책 주인: 미사몬",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 미사몬에게 잃어버린 책을 가져다 주자."
 		},
@@ -21391,6 +22028,7 @@ QuestInfoList = {
 	},
 	[8524] = {
 		Title = "책 주인: 무적검사",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 무적검사에게 잃어버린 책을 가져다 주자."
 		},
@@ -21398,6 +22036,7 @@ QuestInfoList = {
 	},
 	[8525] = {
 		Title = "책 주인: 고독한노비스",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"프론테라 어딘가에 있는 고독한노비스에게 잃어버린 책을 가져다 주자."
 		},
@@ -21405,6 +22044,7 @@ QuestInfoList = {
 	},
 	[8526] = {
 		Title = "사은품 왕 딸기",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"사인본을 받지는 않았지만 남은 의상 왕 딸기를 받았다."
 		},
@@ -21433,6 +22073,7 @@ QuestInfoList = {
 	},
 	[8530] = {
 		Title = "갈아드릴게요…멜론을.",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"허리를 다친 아버지 대신 멜론 축제 일을 하게 된 <NAVI>[라벤더]<INFO>geffen,88,35,0,101,0</INFO></NAVI>는 달콤한 멜론 10개를 가져다 주면 달콤한 멜론 주스를 만들어 준다고 한다. 달콤한 멜론은 달콤이에게서 얻을 수 있다."
 		},
@@ -21440,6 +22081,7 @@ QuestInfoList = {
 	},
 	[8531] = {
 		Title = "밀가루를 찾으러 알데바란에",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"라벤더는 좋은 생각이 났다며 밀가루를 대신 가져다 달라고 한다. 알데바란에서 품질 좋은 밀을 금방 빻아서 준비중인 <NAVI>[상인]<INFO>aldebaran,101,52,0,101,0</INFO></NAVI>이 있다는 듯하다."
 		},
@@ -21447,6 +22089,7 @@ QuestInfoList = {
 	},
 	[8532] = {
 		Title = "라벤더에게 밀가루 배달",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"밀가루를 회수했다. 이대로 게펜의 <NAVI>[라벤더]<INFO>geffen,88,35,0,101,0</INFO></NAVI>에게 가져다 주자."
 		},
@@ -21454,6 +22097,7 @@ QuestInfoList = {
 	},
 	[8533] = {
 		Title = "멜론 축제 기념 모자 (1)",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"라벤더의 사촌인 <NAVI>[난나비]<INFO>geffen,106,63,0,101,0</INFO></NAVI>는 멜론…아니, 달콤이 껍질을 모으고 있다. 라벤더가 이야기한 대로라면 특별한 모자를 만들 수 있다는 것 같다."
 		},
@@ -21461,6 +22105,7 @@ QuestInfoList = {
 	},
 	[8534] = {
 		Title = "멜론 축제 기념 모자 (2)",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"게펜의 <NAVI>[난나비]<INFO>geffen,106,63,0,101,0</INFO></NAVI>는 품질이 좋은 달콤이 껍질이 모자라 기념 모자를 만들지 못하고 있다고 한다. 달콤이 껍질 30개를 모아다 가져다 주자."
 		},
@@ -21468,6 +22113,7 @@ QuestInfoList = {
 	},
 	[8538] = {
 		Title = "고급 산소마스크 대여중",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"오늘은 이미 미세먼지 요원에게 고급 산소마스크를 대여했다. 내일 다시 빌릴 수 있다."
 		},
@@ -21475,6 +22121,7 @@ QuestInfoList = {
 	},
 	[8541] = {
 		Title = "내용물이 없는 것",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>은 오염된 레이드릭 20마리와 오염된 레이드릭 아쳐 20마리를 사냥하고 그 내용물을 확인해 달라고 한다."
 		},
@@ -21482,6 +22129,7 @@ QuestInfoList = {
 	},
 	[8542] = {
 		Title = "내용물이 없는 것-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
 		},
@@ -21489,6 +22137,7 @@ QuestInfoList = {
 	},
 	[8543] = {
 		Title = "내용물이 아마도 없는 것",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>은 오염된 레이드릭 20마리와 오염된 레이드릭 아쳐 20마리를 사냥하고 그 내용물을 확인해 달라고 한다."
 		},
@@ -21496,6 +22145,7 @@ QuestInfoList = {
 	},
 	[8544] = {
 		Title = "어는점이 높은 것",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>은 냉동 가고일 5마리와 프리즌 브레이커 5마리를 처치하고 변화를 보게 해 달라고 한다."
 		},
@@ -21503,6 +22153,7 @@ QuestInfoList = {
 	},
 	[8545] = {
 		Title = "어는점이 높은 것-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
 		},
@@ -21510,6 +22161,7 @@ QuestInfoList = {
 	},
 	[8546] = {
 		Title = "어는점이 매우 높은 것",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>은 냉동 가고일 5마리와 프리즌 브레이커 5마리를 처치하고 변화를 보게 해 달라고 한다."
 		},
@@ -21517,6 +22169,7 @@ QuestInfoList = {
 	},
 	[8547] = {
 		Title = "거울과도 같은 것",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>은 아이스 고스트 10마리와 플레임 고스트 10마리를 처치하고 변화를 보게 해 달라고 한다."
 		},
@@ -21524,6 +22177,7 @@ QuestInfoList = {
 	},
 	[8548] = {
 		Title = "거울과도 같은 것-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
 		},
@@ -21531,6 +22185,7 @@ QuestInfoList = {
 	},
 	[8549] = {
 		Title = "마치 거울과도 같은 것",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>은 아이스 고스트 10마리와 플레임 고스트 10마리를 처치하고 변화를 보게 해 달라고 한다."
 		},
@@ -21538,6 +22193,7 @@ QuestInfoList = {
 	},
 	[8550] = {
 		Title = "이상진화를 일으킨 딜리터",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>은 굳은 공중 딜리터 15마리, 굳은 지상 딜리터 15마리와 싸워 보고, 종족 차이를 보고해 달라고 한다."
 		},
@@ -21545,6 +22201,7 @@ QuestInfoList = {
 	},
 	[8551] = {
 		Title = "이상진화를 일으킨 딜리터-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
 		},
@@ -21552,6 +22209,7 @@ QuestInfoList = {
 	},
 	[8552] = {
 		Title = "이상진화를 일으킨 딜리터의 재조사",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>은 굳은 공중 딜리터 15마리, 굳은 지상 딜리터 15마리와 싸워 보고, 종족 차이를 보고해 달라고 한다."
 		},
@@ -21559,6 +22217,7 @@ QuestInfoList = {
 	},
 	[8553] = {
 		Title = "실체가 된 악몽 퇴치",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>은 굳은 나이트메어 테러 10마리와 싸워 보고, 종족 차이를 보고해 달라고 한다."
 		},
@@ -21566,6 +22225,7 @@ QuestInfoList = {
 	},
 	[8554] = {
 		Title = "실체가 된 악몽 퇴치-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
 		},
@@ -21573,6 +22233,7 @@ QuestInfoList = {
 	},
 	[8555] = {
 		Title = "실체가 된 무서운 악몽 퇴치",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>은 굳은 나이트메어 테러 10마리와 싸워 보고, 종족 차이를 보고해 달라고 한다."
 		},
@@ -21580,6 +22241,7 @@ QuestInfoList = {
 	},
 	[8556] = {
 		Title = "밀도 확인",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>은 굳은 라바골렘을 10마리 처치하고, 종족 차이를 보고해 달라고 한다."
 		},
@@ -21587,6 +22249,7 @@ QuestInfoList = {
 	},
 	[8557] = {
 		Title = "밀도 확인-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
 		},
@@ -21594,6 +22257,7 @@ QuestInfoList = {
 	},
 	[8558] = {
 		Title = "다시 한 번 밀도 확인",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>은 굳은 라바골렘을 10마리 처치하고, 종족 차이를 보고해 달라고 한다."
 		},
@@ -21601,6 +22265,7 @@ QuestInfoList = {
 	},
 	[8559] = {
 		Title = "바스라지는 작은 것들",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>은 굳은 익스플로젼 10마리, 굳은 블레이저 10마리를 처치하고 종족 차이를 보고해 달라고 한다."
 		},
@@ -21608,6 +22273,7 @@ QuestInfoList = {
 	},
 	[8560] = {
 		Title = "바스라지는 작은 것들-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
 		},
@@ -21615,6 +22281,7 @@ QuestInfoList = {
 	},
 	[8561] = {
 		Title = "바스라지는 무척 작은 것들",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[릴리 블랑]<INFO>yuno_fild03,38,146,0,101,0</INFO></NAVI>은 굳은 익스플로젼 10마리, 굳은 블레이저 10마리를 처치하고 종족 차이를 보고해 달라고 한다."
 		},
@@ -23317,7 +23984,7 @@ QuestInfoList = {
 	[9382] = {
 		Title = "마크 한의 신뢰를 얻기.",
 		Description = {
-			"얼음던전 1층에서 시로마에게 얼음 심장을, 노그로드 1층에서 블레이즈에게 불타는 심장을 각각 20개씩 모아서 마크 한에게 가져가야 한다."
+			"얼음던전 1층에서 시로마에게 얼음 심장을, 노그로드 1층에서 블레이저에게 불타는 심장을 각각 20개씩 모아서 마크 한에게 가져가야 한다."
 		},
 		Summary = "마크 한의 신뢰 얻기."
 	},
@@ -26116,17 +26783,27 @@ QuestInfoList = {
 	},
 	[11209] = {
 		Title = "Mr. Tomas' distress",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"All human who visit Malangdo are coming to me that is why I have too much work. There is ^0000FFMalangdo regular meeting^000000, just go over there. The place is located on ^0000FFThe other side of corridor end^000000."
 		},
-		Summary = "Participate in the meeting."
+		Summary = "Participate in the meeting.",
+		NpcSpr = "4_M_BOSSCAT",
+		NpcNavi = "mal_in02",
+		NpcPosX = 182,
+		NpcPosY = 61
 	},
 	[11210] = {
 		Title = "Malangdo regular meeting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Today agenda is ^ff99ccStar Candy^000000. If anyone has opinion about next topic, please speak up."
 		},
-		Summary = "Let's hear Scottfold's opinion."
+		Summary = "Let's hear Scottfold's opinion.",
+		NpcSpr = "4_CAT_SAILOR3",
+		NpcNavi = "mal_in02",
+		NpcPosX = 177,
+		NpcPosY = 58
 	},
 	[11211] = {
 		Title = "Malangdo regular meeting",
@@ -26137,153 +26814,253 @@ QuestInfoList = {
 	},
 	[11212] = {
 		Title = "Malangdo regular meeting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Let me tell you about the production of study."
 		},
-		Summary = "Let's hear Llinguist Devore's production of study."
+		Summary = "Let's hear Llinguist Devore's production of study.",
+		NpcSpr = "4_CAT_MERMASTER",
+		NpcNavi = "mal_in02",
+		NpcPosX = 174,
+		NpcPosY = 64
 	},
 	[11213] = {
 		Title = "Malangdo regular meeting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"^0000FFStudy of Starfish language^000000 started when we settled in Malangdo but it does not achieve what I expected. A simple conversation is available but that is lack of performance."
 		},
-		Summary = "Let's hear Geologist Mali's production of study."
+		Summary = "Let's hear Geologist Mali's production of study.",
+		NpcSpr = "4_CAT_ADV1",
+		NpcNavi = "mal_in02",
+		NpcPosX = 179,
+		NpcPosY = 57
 	},
 	[11214] = {
 		Title = "Malangdo regular meeting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"There are several ground cracks. Nobody knows when the Star Candy will move so, we have to repair them quickly."
 		},
-		Summary = "Let's hear Brie's opinion."
+		Summary = "Let's hear Brie's opinion.",
+		NpcSpr = "4_CAT_SAILOR2",
+		NpcNavi = "mal_in02",
+		NpcPosX = 181,
+		NpcPosY = 55
 	},
 	[11215] = {
 		Title = "Malangdo regular meeting",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"We pretty much understand that Mr. Rican's injury could affect trading of Yggdrasilberry so, don't worry about that."
 		},
-		Summary = "Let's hear Brie's Story."
+		Summary = "Let's hear Brie's Story.",
+		NpcSpr = "4_CAT_SAILOR2",
+		NpcNavi = "mal_in02",
+		NpcPosX = 181,
+		NpcPosY = 55
 	},
 	[11216] = {
 		Title = "Yggdrasilberry",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Anyway, I don't know exactly about Yggdrasilberry. If you have question, just go to my home in ^6666ccWestern Malangdo^000000. My father will be bored out of his skull there..."
 		},
-		Summary = "Let's meet Brie's father Mr. Rican."
+		Summary = "Let's meet Brie's father Mr. Rican.",
+		NpcSpr = "4_CAT_SAILOR4",
+		NpcNavi = "mal_in01",
+		NpcPosX = 114,
+		NpcPosY = 169
 	},
 	[11217] = {
 		Title = "Yggdrasilberry",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"^6666ccThe Yggdrasilberry is everywhere.^000000 You can get easily on island Malangdo so, please bring about 30 of them."
 		},
-		Summary = "Let's bring 30 fresh Yggdrasilberry."
+		Summary = "Let's bring 30 fresh Yggdrasilberry.",
+		NpcSpr = "4_SOIL"
 	},
 	[11218] = {
 		Title = "Yggdrasilberry",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Why don't you put Yggdrasilberry in the machine.?"
 		},
-		Summary = "Let's put Yggdrasilberry in that machine."
+		Summary = "Let's put Yggdrasilberry in that machine.",
+		NpcSpr = "2_SLOT_MACHINE",
+		NpcNavi = "mal_in01",
+		NpcPosX = 116,
+		NpcPosY = 168
 	},
 	[11219] = {
 		Title = "Yggdrasilberry",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"When pressing the button, the machine started."
 		},
-		Summary = "Let's talk with Rican."
+		Summary = "Let's talk with Rican.",
+		NpcSpr = "4_CAT_SAILOR4",
+		NpcNavi = "mal_in01",
+		NpcPosX = 114,
+		NpcPosY = 169
 	},
 	[11220] = {
 		Title = "Yggdrasilberry",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"After I had knee injury, he might go to Dr. Mali everyday. If you see my son, just tell him come back to me~"
 		},
-		Summary = "Let's find Brie."
+		Summary = "Let's find Brie.",
+		NpcSpr = "4_CAT_SAILOR2",
+		NpcNavi = "mal_in02",
+		NpcPosX = 181,
+		NpcPosY = 55
 	},
 	[11221] = {
 		Title = "The most soft jelly in the world",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"If you need more detail, please ask my ^6666ccassistant Bob^000000. He might be at ^6666ccright next room^000000."
 		},
-		Summary = "Let's meet the assistant Bob."
+		Summary = "Let's meet the assistant Bob.",
+		NpcSpr = "4_CAT_DOWN",
+		NpcNavi = "mal_in02",
+		NpcPosX = 140,
+		NpcPosY = 94
 	},
 	[11222] = {
 		Title = "The most soft jelly in the world",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Fill mixed gray and white clay up into the crack. Attach the gap with stapler."
 		},
-		Summary = "Let's repair crack by repairing kit. when everyone says OK...."
+		Summary = "Let's repair crack by repairing kit. when everyone says OK....",
+		NpcSpr = "4_CRACK"
 	},
 	[11223] = {
 		Title = "The most soft jelly in the world",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The crack is filled up as well. Let's report to Bob."
 		},
-		Summary = "let's get back to Bob."
+		Summary = "let's get back to Bob.",
+		NpcSpr = "4_CAT_DOWN",
+		NpcNavi = "mal_in02",
+		NpcPosX = 140,
+		NpcPosY = 94
 	},
 	[11224] = {
 		Title = "The most soft jelly in the world",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Empress! magical! shocking! well done!!! I'll tell Dr. Mali!"
 		},
-		Summary = "Let's see Dr. Mali."
+		Summary = "Let's see Dr. Mali.",
+		NpcSpr = "4_CAT_ADV1",
+		NpcNavi = "mal_in02",
+		NpcPosX = 179,
+		NpcPosY = 57
 	},
 	[11225] = {
 		Title = "Not intersecting effort of the road",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Everyone knows how Dr. Devore concentrates his study of starfish language!!! Please be confidence! you are doing good!"
 		},
-		Summary = "Llinguist Devore might be fell into slump. Let's talk with him."
+		Summary = "Llinguist Devore might be fell into slump. Let's talk with him.",
+		NpcSpr = "4_CAT_MERMASTER",
+		NpcNavi = "mal_in02",
+		NpcPosX = 174,
+		NpcPosY = 64
 	},
 	[11226] = {
 		Title = "Not intersecting effort of the road",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"The starfish language is so mysterious. I don't know at all. I'm not sure that is really 'language' or not. I really want to know what they want over there!"
 		},
-		Summary = "Let's research about the Starfish."
+		Summary = "Let's research about the Starfish.",
+		NpcSpr = "4_F_STARFISHGIRL",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122
 	},
 	[11227] = {
 		Title = "Not intersecting effort of the road",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Biscuit might have a very fluent language skills, unlike Dr. Devore's saying. I 'll tell this fact to Dr. Devore."
 		},
-		Summary = "Let's go to Dr. Devore."
+		Summary = "Let's go to Dr. Devore.",
+		NpcSpr = "4_CAT_MERMASTER",
+		NpcNavi = "mal_in02",
+		NpcPosX = 174,
+		NpcPosY = 64
 	},
 	[11228] = {
 		Title = "Not intersecting effort of the road",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"That is incredible. Well, Didn't it only speak in front of me. Let's go to hear!!"
 		},
-		Summary = "Let's get back to Biscuit."
+		Summary = "Let's get back to Biscuit.",
+		NpcSpr = "4_ASTER",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122
 	},
 	[11229] = {
 		Title = "For the Star Candy",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"You are able to speak with Biscuit as same species. Any conversation will help my study."
 		},
-		Summary = "Let's talk with Biscuit."
+		Summary = "Let's talk with Biscuit.",
+		NpcSpr = "4_ASTER",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122
 	},
 	[11230] = {
 		Title = "For the Star Candy",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"I heard several things about Star candy, Biscuit and Malangdo."
 		},
-		Summary = "Continue the conversation."
+		Summary = "Continue the conversation.",
+		NpcSpr = "4_ASTER",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122
 	},
 	[11231] = {
 		Title = "For the Star Candy",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"You just catch the jelly around here. Delicious 30 jelly will be enough for one meal."
+			"Just catch some <ITEM>[Delicious Jelly]<INFO>12624</INFO></ITEM> around here from <NAVI>[Siorava]<INFO>SIORAVA,0,0,3,-222,1</INFO></NAVI>. I think that 30 Delicious Jelly are enough for one meal."
 		},
-		Summary = "Let's get back with 30 delicious Jelly."
+		Summary = "Let's get back with 30 delicious Jelly.",
+		NpcSpr = "4_ASTER",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122
 	},
 	[11232] = {
 		Title = "For the Star Candy",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Hey Star Candy! you don't eat as well. You don't have no appetite?"
 		},
-		Summary = "Let's find out what is going on."
+		Summary = "Let's find out what is going on.",
+		NpcSpr = "4_ASTER",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122
 	},
 	[11233] = {
 		Title = "For the Star Candy",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"We have to carry water so, please bring bucket and brush to clean Star Candy. Those might be in storage"
 		},
@@ -26291,87 +27068,153 @@ QuestInfoList = {
 	},
 	[11234] = {
 		Title = "For the Star Candy",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"You brought stuff as well. Now you can scrub your skin in counterclock wise!"
 		},
-		Summary = "Clean up friable skin-> haggard skin-> cracked skin-> hard skin."
+		Summary = "Clean up friable skin-> haggard skin-> cracked skin-> hard skin.",
+		NpcSpr = "4_F_STARFISHGIRL"
 	},
 	[11235] = {
 		Title = "For the Star Candy",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Friable skin, haggard skin, cracked skin and hard skin are changed smooth skin as soft as silk."
 		},
-		Summary = "Let's get back to Biscuit."
+		Summary = "Let's get back to Biscuit.",
+		NpcSpr = "4_ASTER",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122
 	},
 	[11236] = {
 		Title = "Intersection",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"You don't have to wait until the study is completed. Just tell Devore. I want to talk about the current situation with him."
 		},
-		Summary = "Let's send to Dr. Devore."
+		Summary = "Let's send to Dr. Devore.",
+		NpcSpr = "4_CAT_MERMASTER",
+		NpcNavi = "mal_in02",
+		NpcPosX = 174,
+		NpcPosY = 64
 	},
 	[11237] = {
 		Title = "Mr. Tomas' distress",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Please send this good news to chief Tomas."
 		},
-		Summary = "Let's see the chief Tomas."
+		Summary = "Let's see the chief Tomas.",
+		NpcSpr = "4_CAT_ADMIRAL",
+		NpcNavi = "mal_in02",
+		NpcPosX = 22,
+		NpcPosY = 62,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 30 }
+		}
 	},
 	[11238] = {
 		Title = "Yggdrasilberry",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"The discount is just like before. 30 fresh Yggdrasilberry that easily found in island Malangdo!!"
+			"The discount is just like before. Bring 30 fresh Yggdrasilberry to <NAVI>[Rican]<INFO>mal_in01,114,169,0,101,0,</INFO></NAVI> that easily found in island Malangdo!!"
 		},
-		Summary = "Let's get back to Rican with 30 fresh Yggdrasilberry."
+		Summary = "Bring 30 fresh Yggdrasilberry.",
+		NpcSpr = "4_CAT_SAILOR4",
+		NpcNavi = "mal_in01",
+		NpcPosX = 114,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 20 }
+		}
 	},
 	[11239] = {
 		Title = "Yggdrasilberry",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"You can't receive any request from Rican during one day."
+			"You can't receive any request from <NAVI>[Rican]<INFO>mal_in01,114,169,0,101,0,</INFO></NAVI> for one day."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_SAILOR4",
+		NpcNavi = "mal_in01",
+		NpcPosX = 114,
+		NpcPosY = 169
 	},
 	[11240] = {
 		Title = "The most soft jelly in the world",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"If you need more detail, please ask my ^6666ccassistant Bob^000000. He might be at ^6666ccright next room^000000."
 		},
-		Summary = "Let's see assistant Bob."
+		Summary = "Let's see assistant Bob.",
+		NpcSpr = "4_CAT_DOWN",
+		NpcNavi = "mal_in02",
+		NpcPosX = 140,
+		NpcPosY = 94
 	},
 	[11241] = {
 		Title = "The most soft jelly in the world",
+		IconName = "ico_nq.bmp",
 		Description = {
 			"Fill mixed gray and white clay up into the crack. Attach the gap with stapler."
 		},
-		Summary = "Let's repair crack by repairing kit. when everyone says OK...."
+		Summary = "Let's repair crack by repairing kit. when everyone says OK....",
+		NpcSpr = "4_CRACK"
 	},
 	[11242] = {
 		Title = "The most soft jelly in the world",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"The crack is filled up as well. Let's report to Dr. Mali."
+			"The crack is filled up as well. Let's report to <NAVI>[Dr. Mali]<INFO>mal_in02,179,57,0,101,0,</INFO></NAVI>."
 		},
-		Summary = "Let's get back to Dr. Mali."
+		Summary = "Let's get back to Dr. Mali.",
+		NpcSpr = "4_CAT_ADV1",
+		NpcNavi = "mal_in02",
+		NpcPosX = 179,
+		NpcPosY = 57,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 20 }
+		}
 	},
 	[11243] = {
 		Title = "The most soft jelly in the world",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"You can't receive any request from Dr. Mali during one day."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_CAT_ADV1",
+		NpcNavi = "mal_in02",
+		NpcPosX = 179,
+		NpcPosY = 57
 	},
 	[11244] = {
 		Title = "Soft Jelly",
+		IconName = "ico_nq.bmp",
 		Description = {
-			"Just catch some jelly around here. I think that delicious 30 jelly are enough for one meal."
+			"Just catch some <ITEM>[Delicious Jelly]<INFO>12624</INFO></ITEM> around here from <NAVI>[Siorava]<INFO>SIORAVA,0,0,3,-222,1</INFO></NAVI>. I think that 30 Delicious Jelly are enough for one meal."
 		},
-		Summary = "Let's get back with 30 delicious jelly."
+		Summary = "Let's get back with 30 Delicious Jelly.",
+		NpcSpr = "4_ASTER",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122,
+		RewardItemList = {
+			{ ItemID = 6422, ItemNum = 5 }
+		}
 	},
 	[11245] = {
 		Title = "Soft Jelly",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"You can't receive any request from Biscuit during one day."
 		},
-		Summary = ""
+		Summary = "",
+		NpcSpr = "4_ASTER",
+		NpcNavi = "mal_dun01",
+		NpcPosX = 136,
+		NpcPosY = 122
 	},
 	[11246] = {
 		Title = "아르바이트 휴식시간",
@@ -27719,6 +28562,7 @@ QuestInfoList = {
 	},
 	[11446] = {
 		Title = "Jakk and Jakk's Jakky days",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"You were woken up by the whispering voices of ghosts. You found yourself in Niflheim, a city of the dead. Let's hear what the ghosts say."
 		},
@@ -27726,6 +28570,7 @@ QuestInfoList = {
 	},
 	[11447] = {
 		Title = "Jakk and Jakk's Jakky days",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"They say that the Jakk who is in the plaza might know something. Let's ask Jakk in the plaza."
 		},
@@ -27733,6 +28578,7 @@ QuestInfoList = {
 	},
 	[11448] = {
 		Title = "Jakk and Jakk's Jakky days",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"You heard about the place where Jakk used to stay. Let's go back to Hooroorong."
 		},
@@ -27740,6 +28586,7 @@ QuestInfoList = {
 	},
 	[11449] = {
 		Title = "Jakk and Jakk's Jakky days",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"Somewhere in the field and in the dungeon, capture about 10 Jakks who are running away. Bring 10 Pumpkin_Decorations and 20 Dry_White_Stems to Hororong. They are dropped when you capture the Jakks."
 		},
@@ -27747,6 +28594,7 @@ QuestInfoList = {
 	},
 	[11450] = {
 		Title = "Jakk and Jakk's Jakky days",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"You have brought Jakk to Niflheim. According to the ghosts, Jakk's stem can grow if he stays on the land of the living for a long time. Let him take a good rest."
 		},
@@ -27754,6 +28602,7 @@ QuestInfoList = {
 	},
 	[11451] = {
 		Title = "Jakk and Jakk's Jakky days",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"Somewhere in the field and in the dungeon, capture about 10 Jakks who are running away. Bring 10 Pumpkin_Decorations and 20 Dry_White_Stems to Hororing. They are dropped when you capture the Jakks."
 		},
@@ -27894,6 +28743,7 @@ QuestInfoList = {
 	},
 	[11484] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"It is hard to understand, but seems like you have to get a Dry White Stem and come back to Jakk."
 		},
@@ -27901,6 +28751,7 @@ QuestInfoList = {
 	},
 	[11485] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"It seems like the surprised kitty ran away when Jakk was captured. Ask Harorong, who was with Jakk."
 		},
@@ -27908,6 +28759,7 @@ QuestInfoList = {
 	},
 	[11486] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"Nibble at the entrance may have seen the kitty. Talk to Nibble in the western entrance of Niflheim."
 		},
@@ -27915,6 +28767,7 @@ QuestInfoList = {
 	},
 	[11487] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"A small, white object quickly passed the entrance not so long ago. They are not sure if it was a cat. Let's ask the guy outside the entrance."
 		},
@@ -27922,6 +28775,7 @@ QuestInfoList = {
 	},
 	[11488] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"Jakk said that Jakk's kitty went to the place called ’there'. Let's inform Jakk, who is trying to find the kitty."
 		},
@@ -27929,6 +28783,7 @@ QuestInfoList = {
 	},
 	[11489] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"Seems like Jakk's kitty went to Midgard through the stem of Yggdrasil. It probably went through Umbala. Let's investigate."
 		},
@@ -27936,6 +28791,7 @@ QuestInfoList = {
 	},
 	[11490] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"The researcher says that he told the small and white thing how to get to Moroc. Let's investigate the nearby northern entrance of Moroc."
 		},
@@ -27943,6 +28799,7 @@ QuestInfoList = {
 	},
 	[11491] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"The merchant says that he told someone how to get to Alberta. Let's investigate the nearby northern entrance on Alberta."
 		},
@@ -27950,6 +28807,7 @@ QuestInfoList = {
 	},
 	[11492] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"If you go near the harbor, you can find many cats who want to take fish from you. Let's investigate near the harbor."
 		},
@@ -27957,13 +28815,15 @@ QuestInfoList = {
 	},
 	[11493] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
-			"You found a white cat, but it doesn't look like Jakk’s kitty. The pile of sand behind is suspicious. Let's investigate."
+			"You found a white cat, but it doesn't look like Jakk's kitty. The pile of sand behind is suspicious. Let's investigate."
 		},
 		Summary = "Investigation on the pile_of_sand"
 	},
 	[11494] = {
 		Title = "Jakk and Jakk's cat",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"In the sand, you found bones that seem to come from a small animal. You also found a red necklace with a bell. Let's go back to Jakk."
 		},
@@ -27992,6 +28852,7 @@ QuestInfoList = {
 	},
 	[11498] = {
 		Title = "잭과 잭의 잭한 나날",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"유령들의 소근대는 소리와 함께 정신을 차려보니 죽은자의 도시 니플헤임에 도착했다. 유령들의 이야기를 들어보자."
 		},
@@ -27999,6 +28860,7 @@ QuestInfoList = {
 	},
 	[11499] = {
 		Title = "잭과 잭의 잭한 나날",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"광장에 있는 잭이 뭔가 알고 있을지도 모른다고 한다. 광장에 있는 잭에게 물어보자."
 		},
@@ -28006,6 +28868,7 @@ QuestInfoList = {
 	},
 	[11500] = {
 		Title = "잭과 잭의 잭한 나날",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"잭이 있었다는 곳에 대한 이야기를 들었다. 후루롱에게 돌아가자."
 		},
@@ -28013,13 +28876,19 @@ QuestInfoList = {
 	},
 	[11501] = {
 		Title = "잭과 잭의 잭한 나날",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"필드 및 던전 어딘가에 있는 도망치는 잭을 10개정도 잡고, 잭을 잡으면 떨어지는 장식용 호박 10개, 바싹 마른 하얀줄기 20개를 호로롱에게 가져오자."
 		},
-		Summary = "잭을 니플헤임으로"
+		Summary = "잭을 니플헤임으로",
+		RewardItemList = {
+			{ ItemID = 11605, ItemNum = 30 },
+			{ ItemID = 6658, ItemNum = 1 }
+		}
 	},
 	[11502] = {
 		Title = "잭과 잭의 잭한 나날",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"잭을 니플헤임으로 데리고 왔다. 유령들의 말에 따르면 잭은 산자의 땅에 너무 오래 머물면 줄기가 자란다고 하니 푹 쉬도록 하자."
 		},
@@ -28027,13 +28896,19 @@ QuestInfoList = {
 	},
 	[11503] = {
 		Title = "잭과 잭의 잭한 나날",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"필드 및 던전 어딘가에 있는 도망치는 잭을 10개정도 잡고, 잭을 잡으면 떨어지는 장식용 호박 10개, 바싹 마른 하얀 줄기 20개를 호로링에게 가져오자."
 		},
-		Summary = "잭을 니플헤임으로"
+		Summary = "잭을 니플헤임으로",
+		RewardItemList = {
+			{ ItemID = 11605, ItemNum = 30 },
+			{ ItemID = 6658, ItemNum = 1 }
+		}
 	},
 	[11504] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"알아듣기 힘들지만 바싹 마른 하얀 줄기 1개를 구해서 잭에게 돌아오면 될 것 같다."
 		},
@@ -28041,6 +28916,7 @@ QuestInfoList = {
 	},
 	[11505] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"잭이 잡혀올 때 놀란 냐옹이가 뛰어나가 버린 것 같다. 잭과 함께 있었던 하로롱에게 물어보자."
 		},
@@ -28048,6 +28924,7 @@ QuestInfoList = {
 	},
 	[11506] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"입구에 있는 니블이 냐옹이를 봤을지도 모른다고 한다. 니플헤임 서쪽 입구에 있는 니블과 대화하자."
 		},
@@ -28055,6 +28932,7 @@ QuestInfoList = {
 	},
 	[11507] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"고양이인지 아닌지는 잘 모르겠지만 하얗고 작고 빠른 물체가 얼마 전 입구를 지나갔다고 한다. 입구 밖에 있는 녀석에게 물어보자."
 		},
@@ -28062,6 +28940,7 @@ QuestInfoList = {
 	},
 	[11508] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"잭의 냐옹이가 그곳이라 불리는 곳으로 갔다고 한다. 냐옹이를 찾고 있는 잭에게 알려주자."
 		},
@@ -28069,6 +28948,7 @@ QuestInfoList = {
 	},
 	[11509] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"잭의 냐옹이가 이그드라실 줄기를 통해 미드가르드로 간 것 같다. 움발라를 거쳐갈듯하니 조사해보자."
 		},
@@ -28076,6 +28956,7 @@ QuestInfoList = {
 	},
 	[11510] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"연구원은 작고 하얀 무엇인가에게 모로크로 가는 길을 알려주었다고 한다. 모로크의 북쪽 입구 근처를 조사해 보자."
 		},
@@ -28083,6 +28964,7 @@ QuestInfoList = {
 	},
 	[11511] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"상인은 누군가에게 알베르타로 가는 길을 알려주었다고 한다. 알베르타 북쪽 입구를 조사해 보자."
 		},
@@ -28090,6 +28972,7 @@ QuestInfoList = {
 	},
 	[11512] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"항구 쪽으로 가면 물고기를 얻어먹으려는 고양이들이 많다고 한다. 항구 근처를 조사해 보자."
 		},
@@ -28097,6 +28980,7 @@ QuestInfoList = {
 	},
 	[11513] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"하얀 고양이를 찾았지만 잭의 냐옹이는 아닌 것 같다. 뒤에 있는 모래더미가 수상하니 조사해 보자."
 		},
@@ -28104,13 +28988,20 @@ QuestInfoList = {
 	},
 	[11514] = {
 		Title = "잭과 잭의 고양이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"모래더미에서 작은 동물의 것인듯한 뼈와 방울이 달린 빨간 목걸이를 발견했다. 잭에게 돌아가자."
 		},
-		Summary = "니플헤임의 잭과 대화"
+		Summary = "니플헤임의 잭과 대화",
+		RewardItemList = {
+			{ ItemID = 9101, ItemNum = 1 },
+			{ ItemID = 10040, ItemNum = 1 },
+			{ ItemID = 6658, ItemNum = 1 }
+		}
 	},
 	[11515] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"잭의 냐옹이가 상태가 이상한 것 같다고 한다. 잭의 남쪽에 있는 잭의 냐옹이를 만나보자."
 		},
@@ -28118,6 +29009,7 @@ QuestInfoList = {
 	},
 	[11516] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"냐옹이는 예전의 모험으로 많은 것을 깨닫고 스승캣레톤으로 진화 했다. 하지만 너무나 변해버렸기 때문에 다시 예전으로는 돌아갈 수 없다고 잭에게 전하자."
 		},
@@ -28125,6 +29017,7 @@ QuestInfoList = {
 	},
 	[11517] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"굘의 골짜기 중앙에는 냐옹이가 많다고 한다. 굘의 골짜기 중앙으로 가서 냐옹이를 찾아보자."
 		},
@@ -28132,13 +29025,15 @@ QuestInfoList = {
 	},
 	[11518] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
-			"굘의 골짜기 중앙에서 많은 스캣레톤들을 찾았지만 다들 상태가 좋지 않은 것 같다. 스캣레톤을 따듯하게 해줄 ^ff0000검은 털을 5개^000000 구해오자."
+			"굘의 골짜기 중앙에서 많은 스캣레톤들을 찾았지만 다들 상태가 좋지 않은 것 같다. 스캣레톤을 따듯하게 해줄 ^ff0000검은 털을 5개^000000 구해오자. 검은 털은 주변의 도망치는 잭, 듀라한, 로리루리, 빠른 로리루리, 루드, 블러디머더러, 지벳트, 하이로조이스트에게서 얻을 수 있다."
 		},
 		Summary = "검은 털 5개"
 	},
 	[11519] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"스캣레톤이 너무 흥분하여 더 이상 대화가 불가능 할 것 같다. 잭에게 돌아가자."
 		},
@@ -28146,6 +29041,7 @@ QuestInfoList = {
 	},
 	[11520] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"다른 냐옹이가 아니라 자신의 냐옹이가 좋다고 한다. 다시 스승캣레톤과 대화를 나누자."
 		},
@@ -28153,6 +29049,7 @@ QuestInfoList = {
 	},
 	[11521] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"스승캣레톤은 더 이상 대화를 하고 싶지 않은 것 같다. 잭에게 돌아가자."
 		},
@@ -28160,6 +29057,7 @@ QuestInfoList = {
 	},
 	[11522] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"잭은 자신의 냐옹이를 계속 기다리겠다며 새로운 냐옹이들을 돌봐달라고 한다. ^ff0000바싹 마른 하얀줄기 10개^000000를 구해서 굘의 골짜기에 있는 스캣레톤을 도와주자."
 		},
@@ -28167,6 +29065,7 @@ QuestInfoList = {
 	},
 	[11523] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"몸이 조금 움직일 수 있게 된 스캣레톤은 배가 고파진 듯 하다. ^ff0000맛좋은 물고기 10개^000000를 구해오자."
 		},
@@ -28174,13 +29073,19 @@ QuestInfoList = {
 	},
 	[11524] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"스캣레톤은 ^ff0000바싹 마른 하얀줄기를 20개^000000 더 구해달라고 한다. 줄기를 구해오자."
 		},
-		Summary = "바싹 마른 하얀줄기 20개"
+		Summary = "바싹 마른 하얀줄기 20개",
+		RewardItemList = {
+			{ ItemID = 25408, ItemNum = 1 },
+			{ ItemID = 6658, ItemNum = 1 }
+		}
 	},
 	[11525] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"스캣레톤에게서 스승캣레톤과 같은 기운이 느껴졌다. 스승캣레톤에게 가서 물어보자."
 		},
@@ -28188,13 +29093,19 @@ QuestInfoList = {
 	},
 	[11526] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"스승캣레톤마저 모험을 떠나버리겠다고 한다. 잭에게 이야기 해주자."
 		},
-		Summary = "잭과 대화"
+		Summary = "잭과 대화",
+		RewardItemList = {
+			{ ItemID = 31387, ItemNum = 1 },
+			{ ItemID = 6658, ItemNum = 1 }
+		}
 	},
 	[11527] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"잭이 피곤한 것 같다. 04시 이후 다시 방문하자."
 		},
@@ -28202,10 +29113,16 @@ QuestInfoList = {
 	},
 	[11528] = {
 		Title = "검은 언덕에서 불어오는 바람",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이 퀘스트를 가진 동안은 굘의 골짜기 몬스터에게서 검은 털을 얻을 수 있다."
 		},
-		Summary = "검은 털 수집가"
+		Summary = "검은 털 수집가",
+		RewardItemList = {
+			{ ItemID = 11616, ItemNum = 10 },
+			{ ItemID = 11605, ItemNum = 10 },
+			{ ItemID = 6658, ItemNum = 1 }
+		}
 	},
 	[11529] = {
 		Title = "치명적인 유혹",
@@ -28517,6 +29434,7 @@ QuestInfoList = {
 	},
 	[11573] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"날손에게서 유성림으로 가는 방법에 대해 들었다.",
 			"묘르닐 산맥 북부의 좁은 산길을 찾아 유성림으로 이동하자."
@@ -28525,6 +29443,7 @@ QuestInfoList = {
 	},
 	[11574] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"찻집에서 입문서를 작성할 수 있다.",
 			"찻집으로 이동하자."
@@ -28533,6 +29452,7 @@ QuestInfoList = {
 	},
 	[11575] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"초승을 따라 랜시스도 밖으로 나가버렸다.",
 			"밖으로 나가 초승과 대화해 보자."
@@ -28541,6 +29461,7 @@ QuestInfoList = {
 	},
 	[11576] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"초승은 랜시스에게 유성림 안내를 부탁하고 급히 떠났다.",
 			"랜시스에게 말을 걸어 유성림에 대해 듣자."
@@ -28549,6 +29470,7 @@ QuestInfoList = {
 	},
 	[11577] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"랜시스의 안내에 따라 유성림을 구경해보자."
 		},
@@ -28556,6 +29478,7 @@ QuestInfoList = {
 	},
 	[11578] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"유성림을 안내하던 랜시스는 무엇인가 발견한 듯하다.",
 			"랜시스를 따라가보자."
@@ -28564,6 +29487,7 @@ QuestInfoList = {
 	},
 	[11579] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"은하는 수련을 도와주겠다며 미네랄 10마리를 잡아오라고 한다.",
 			"아인베흐 광산 2층의 미네랄을 10마리 처치하고 돌아오자."
@@ -28572,6 +29496,7 @@ QuestInfoList = {
 	},
 	[11580] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"미네랄을 잡아온 것을 본 은하는 자신보다 일광이 더 좋을 것 같다며 일광에게 가보라고 한다."
 		},
@@ -28579,6 +29504,7 @@ QuestInfoList = {
 	},
 	[11581] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"일광은 수련방법에 대해 잘 모르겠다며 초승이 구미호를 잡아오면 좋아한다는 말을 한다.",
 			"페이욘 던전 3층 이상의 깊은 곳에서 구미호를 50마리 이상 처치하고 초승에게 가보자."
@@ -28587,6 +29513,7 @@ QuestInfoList = {
 	},
 	[11582] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"초승은 은하의 행동에 화를 내며 은하에게 일광의 방으로 오라고 전해달라고 말한다."
 		},
@@ -28594,6 +29521,7 @@ QuestInfoList = {
 	},
 	[11583] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"은하는 투덜대며 함께 일광의 방으로 가자고 한다."
 		},
@@ -28601,6 +29529,7 @@ QuestInfoList = {
 	},
 	[11584] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"일광은 산아래에 초시 스승님이 있다고 말한다.",
 			"산아래로 내려가 초시 스승님을 만나보자."
@@ -28609,6 +29538,7 @@ QuestInfoList = {
 	},
 	[11585] = {
 		Title = "성제 전직 퀘스트",
+		IconName = "ico_jq.bmp",
 		Description = {
 			"초시는 스승의 자리를 일광, 초승, 은하에게 물려주고 싶다고 말하며 유성림으로 돌아가 함께 성장하고 싶은 사람을 고르라고 말한다."
 		},
@@ -28616,6 +29546,7 @@ QuestInfoList = {
 	},
 	[11596] = {
 		Title = "오래된 추억",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"아인브로크 근처에서 폐광으로 위장한 적들의 본거지를 찾은 것 같다. 주변에 다른 적이 없는지 살펴보자."
 		},
@@ -28623,6 +29554,7 @@ QuestInfoList = {
 	},
 	[11597] = {
 		Title = "오래된 추억",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"특별한 것은 보이지 않는다. 다른 곳을 살펴보자."
 		},
@@ -28630,6 +29562,7 @@ QuestInfoList = {
 	},
 	[11598] = {
 		Title = "오래된 추억",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"특별한 것은 보이지 않는다. 다른 곳을 살펴보자."
 		},
@@ -28637,20 +29570,27 @@ QuestInfoList = {
 	},
 	[11599] = {
 		Title = "오래된 추억",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"특별한 것은 보이지 않는다. 리벨리온 대원에게 돌아가자."
 		},
-		Summary = "리벨리온 대원과 대화"
+		Summary = "리벨리온 대원과 대화",
+		RewardEXP = 100000,
+		RewardJEXP = 100000
 	},
 	[11600] = {
 		Title = "오래된 추억",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"길이 막혀 있다는 폐광 안쪽을 살펴보자."
 		},
-		Summary = "안으로"
+		Summary = "안으로",
+		RewardEXP = 600000,
+		RewardJEXP = 600000
 	},
 	[11601] = {
 		Title = "오래된 추억",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"다음 지역으로 이동할 수 있는 길이 열렸다. 클라나네미에리로 돌아가 소식을 전하고 디엔의 방에서 디엔이 찾는 물건을 가지고 돌아오자."
 		},
@@ -28658,6 +29598,7 @@ QuestInfoList = {
 	},
 	[11602] = {
 		Title = "오래된 추억",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"디엔의 방에서 디엔이 찾는 물건을 가지고 돌아오자."
 		},
@@ -28665,10 +29606,38 @@ QuestInfoList = {
 	},
 	[11603] = {
 		Title = "오래된 추억",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"디엔의 부적을 찾았다. 다시 디엔에게 돌아가자."
 		},
-		Summary = "다시 디엔에게"
+		Summary = "다시 디엔에게",
+		RewardEXP = 200000,
+		RewardJEXP = 100000
+	},
+	[11604] = {
+		Title = "잭 더 자이언트 펌프킨",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"할로윈 축제장을 완성하기 위해 빨갛고 뜨거운 ^ff0000엘더 윌로우 10마리^000000가 필요하다고 한다. 엘더 윌로우를 잡아서 후라롱에게 돌아가자."
+		},
+		Summary = "엘더 윌로우 10마리"
+	},
+	[11605] = {
+		Title = "잭 더 자이언트 펌프킨",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"할로윈 축제장을 구경하고 ^ff0000잭 잡기 게임^000000을 완료하자. 할로윈 축제장은 축제 안내원을 통해 갈 수 있다. ^ff0000※이벤트보상박스는 획득 즉시 오픈 됩니다.^000000"
+		},
+		Summary = "잭 더 자이언트 잡기",
+		RewardItemList = {
+			{ ItemID = 23921, ItemNum = 1 }
+		}
+	},
+	[11606] = {
+		Title = "잭 더 자이언트 펌프킨-대기",
+		IconName = "ico_ev.bmp",
+		Description = { "할로윈 축제장으로 가려면 04시 이후 다시 방문하자." },
+		Summary = "04시 초기화"
 	},
 	[12000] = {
 		Title = "An old friend",
@@ -31465,6 +32434,7 @@ QuestInfoList = {
 	},
 	[12417] = {
 		Title = "피로회복중",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"포링 마을에 다시 방문 가능한 것은 다음날 새벽 4시부터인 것 같다.."
 		},
@@ -31479,6 +32449,7 @@ QuestInfoList = {
 	},
 	[12419] = {
 		Title = "오크의 기억 1층 탐험",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"오크 메모리얼 던전의 1층을 끝까지 진행하여 그곳에서 무슨 일이 있었는지 확인해보자"
 		},
@@ -31486,6 +32457,7 @@ QuestInfoList = {
 	},
 	[12420] = {
 		Title = "피로회복중",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"피곤이 풀릴때까지 오크의 기억을 다시 들여다보는건 힘들 것 같다."
 		},
@@ -37086,6 +38058,7 @@ QuestInfoList = {
 	},
 	[14688] = {
 		Title = "내 이름은 쇼티",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"내 이름은 쇼티! 앞으로 잘 부탁해!"
 		},
@@ -37093,6 +38066,7 @@ QuestInfoList = {
 	},
 	[14689] = {
 		Title = "도와줘 쇼티",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"처음으로 쇼티를 불렀다. 잘했어, 선샘미!"
 		},
@@ -37100,6 +38074,7 @@ QuestInfoList = {
 	},
 	[14690] = {
 		Title = "크리투라 아카데미로",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"우리 <NAVI>[레나]<INFO>iz_ac01,85,44,0,101,0,</INFO></NAVI>를 만나러 가자. 이즈루드에 있는 크리투라 아카데미에서 교관으로 있대."
 		},
@@ -37107,6 +38082,7 @@ QuestInfoList = {
 	},
 	[14691] = {
 		Title = "프론테라 대성당으로",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"선샘미!!! <NAVI>[마가리타]<INFO>prt_church,112,119,0,101,0,</INFO></NAVI>가 나를 만나고 싶대! 프론테라 대성당에서 성가대 지휘자로 일하고 있으니까 시간이 나면 꼭 들러 달라고 하더라."
 		},
@@ -37114,6 +38090,7 @@ QuestInfoList = {
 	},
 	[14692] = {
 		Title = "크리투라 아카데미로",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"선샘미, 솔티의 친구이자 내 친구인 수자가 직업에 대해서 안내해 주고 싶다는데 가보자! <NAVI>[수자]<INFO>iz_ac02,205,41,0,101,0,</INFO></NAVI>는 크리투라 아카데미 2층에서 전직 안내원으로 일하고 있대."
 		},
@@ -37121,6 +38098,7 @@ QuestInfoList = {
 	},
 	[14693] = {
 		Title = "페이욘으로",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"선샘미, 나는 솔티가 너무 보고 싶다. 솔티는 <NAVI>[페이욘의 주막]<INFO>payon_in01,193,23,0,101,0,</INFO></NAVI>에 있다고 하니까 우리 얼른 솔티 찾으러 가자. 솔티 보고 싶다."
 		},
@@ -37128,6 +38106,7 @@ QuestInfoList = {
 	},
 	[14694] = {
 		Title = "프론테라 필드로",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"솔티는 내가 코코한테서 도토리를 구해 오라고 <NAVI>[프론테라 남남서서 필드]<INFO>prt_fild10,318,191,0,101,0,</INFO></NAVI>로 보냈지. 그쪽으로 가보그라."
 		},
@@ -37135,6 +38114,7 @@ QuestInfoList = {
 	},
 	[14695] = {
 		Title = "힘내라 선샘미!",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"민첩성 증가와 블레싱을 걸어줄게. 30분 뒤에 다시 걸어줄 테니까 그동안 힘내라, 우리 선샘미! 30레벨까지는 얼마든지 줄게. - 쇼티"
 		},
@@ -37555,6 +38535,7 @@ QuestInfoList = {
 	},
 	[14958] = {
 		Title = "냐일굴의 수문장",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[축제 위원장님]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>을 찾아가셔서 냐일굴로 어서 떠나 보세요!"
 		},
@@ -37562,6 +38543,7 @@ QuestInfoList = {
 	},
 	[14959] = {
 		Title = "축제의 시작",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"맛있는 국수를 만들기 위한 재료인 가늘고 긴 국수, 나비 국수와 돼지 감자를 1개씩 가지고 오십시오. - <NAVI>[축제 위원장님]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>"
 		},
@@ -37569,6 +38551,7 @@ QuestInfoList = {
 	},
 	[14960] = {
 		Title = "국수 말이",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"국수 축제에 오셨으면 국수를 맛보셔야지요. <NAVI>[국수 장인 오르초]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>를 찾아 가시면 최고의 국수를 맛보실 수 있습니다."
 		},
@@ -37576,6 +38559,7 @@ QuestInfoList = {
 	},
 	[14961] = {
 		Title = "수박 디저트",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"뜨거운 여름 시원하고 달콤한 디저트가 생각나시지요? <NAVI>[진행 요원 라미]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>를 찾아가시면 수박 푸딩을 얻을 수 있는 이벤트를 안내해 줄겁니다."
 		},
@@ -37583,6 +38567,7 @@ QuestInfoList = {
 	},
 	[14962] = {
 		Title = "불량 국수 사냥",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"불량 국수에 대해 들어 보신적 있으십니까? <NAVI>[진행 요원 도미]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>를 찾아가서 불량 국수 사냥에 대해 안내 받으십시오."
 		},
@@ -37590,6 +38575,7 @@ QuestInfoList = {
 	},
 	[14963] = {
 		Title = "시원한 아이스크림",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"여름에는 역시 달콤하고 시원한 아이스크림이 생각나지요. 올해는 특별히 외부에서 <NAVI>[상인 보라매]<INFO>lasagna,150,97,0,101,0,</INFO></NAVI>님을 초청하여 이곳에서도 아이스크림을 맛보실 수 있습니다."
 		},
@@ -37597,6 +38583,7 @@ QuestInfoList = {
 	},
 	[14964] = {
 		Title = "국수의 재료들",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이 <NAVI>[국수 장인 오르초]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>에게 작은 소용돌이를 타고 다니는 가늘고 긴 국수 5개와 멋쟁이 별에 붙어서 자라는 나비 국수 5개, 돼지 감자 3개를 가지고 오십시오."
 		},
@@ -37604,6 +38591,7 @@ QuestInfoList = {
 	},
 	[14965] = {
 		Title = "대기: 오늘의 국수",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"오늘의 이벤트는 준비중이에요. 새벽 시간이 지나고 저 <NAVI>[국수 장인 오르초]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>를 다시 찾아 오시면 됩니다."
 		},
@@ -37611,6 +38599,7 @@ QuestInfoList = {
 	},
 	[14966] = {
 		Title = "수박향 부채",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"수박밭에 묻어 놓은 잘 익은 수박을 깨고 홍보용 부채를 찾으세요! 10개를 모아서 저 <NAVI>[진행 요원 라미]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>에게 가지고 오시면 됩니다."
 		},
@@ -37618,6 +38607,7 @@ QuestInfoList = {
 	},
 	[14967] = {
 		Title = "대기: 수박향 부채",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"오늘의 이벤트는 끝이 났답니다. 새벽 시간이 지나고 <NAVI>[진행 요원 라미]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>를 찾아 오시면 다시 참여하실 수 있어요."
 		},
@@ -37625,6 +38615,7 @@ QuestInfoList = {
 	},
 	[14968] = {
 		Title = "불량 국수 사냥",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"불량 국수를 10마리 잡고 질긴 국수 가죽 10개를 가지고 <NAVI>[저에게]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>오세요."
 		},
@@ -37632,6 +38623,7 @@ QuestInfoList = {
 	},
 	[14969] = {
 		Title = "대기: 불량 국수 사냥",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"힘이 센 불량 국수를 잡으시느라 힘을 많이 쓰셨을 텐데 오늘은 이만 쉬시고 새벽 시간이 지난 후 다시 축제를 즐겨 주십시오! - <NAVI>[진행 요원 도미]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>"
 		},
@@ -37639,6 +38631,7 @@ QuestInfoList = {
 	},
 	[14970] = {
 		Title = "시원 달콤 아이스크림",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"작은 소용돌이랑 멋쟁이 별을 5마리씩 잡고 국수 수액 5개만 가져다 줘요. - <NAVI>[상인 보라매]<INFO>lasagna,150,97,0,101,0,</INFO></NAVI>"
 		},
@@ -37646,6 +38639,7 @@ QuestInfoList = {
 	},
 	[14971] = {
 		Title = "대기: 시원 달콤 아이스크림",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이벤트에 참가한지 얼마 안됐잖아요? 1일 1회가 원칙이라 지금 와도 할 수 없으니까 좀 쉬다가 다시 와요. 알았죠? - <NAVI>[상인 보라매]<INFO>lasagna,150,97,0,101,0,</INFO></NAVI>"
 		},
@@ -37653,6 +38647,7 @@ QuestInfoList = {
 	},
 	[14972] = {
 		Title = "쿠폰: 국수 이벤트 완료",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"오늘의 국수는 어떠셨습니까? 오늘의 이벤트를 모두 완료하셨으면 <NAVI>[쿠폰 접수]<INFO>lasagna,83,206,0,101,0,</INFO></NAVI>원에게 가서 쿠폰에 도장을 쾅쾅쾅!"
 		},
@@ -37660,6 +38655,7 @@ QuestInfoList = {
 	},
 	[14973] = {
 		Title = "쿠폰: 수박 디저트 완료",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"수박 깨기 이벤트는 완료하셨어요. 오늘의 이벤트 4개를 모두 완료 하셨으면 <NAVI>[쿠폰 접수]<INFO>lasagna,83,206,0,101,0,</INFO></NAVI>원에게 가서 쿠폰에 도장을 쾅쾅쾅!!"
 		},
@@ -37667,6 +38663,7 @@ QuestInfoList = {
 	},
 	[14974] = {
 		Title = "쿠폰: 불량 국수 완료",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"불량 국수를 모두 잡으셨습니다. 오늘의 이벤트 4개를 모두 완료 하셨으면 <NAVI>[쿠폰 접수]<INFO>lasagna,83,206,0,101,0,</INFO></NAVI>원에게 가서 쿠폰에 도장을 찍으세요."
 		},
@@ -37674,6 +38671,7 @@ QuestInfoList = {
 	},
 	[14975] = {
 		Title = "쿠폰: 아이스크림 완료",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"시원한 아이스크림은 어땠나요? 오늘의 이벤트 4개를 모두 완료 하셨으면 <NAVI>[쿠폰 접수]<INFO>lasagna,83,206,0,101,0,</INFO></NAVI>원에게 가서 쿠폰에 도장을 찍으세요."
 		},
@@ -37681,6 +38679,7 @@ QuestInfoList = {
 	},
 	[14976] = {
 		Title = "불놓기 행사",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"불놓기에 참여하시려면 불에 잘 타는 몇 가지 물건들이 필요합니다. 질 좋은 나뭇가지 5개와 늙은나무의 뿌리 10개, 불화살 1개를 가지고",
 			"<NAVI>[저에게]<INFO>alberta,138,169,0,101,0</INFO></NAVI> 오십시오."
@@ -37689,6 +38688,7 @@ QuestInfoList = {
 	},
 	[14977] = {
 		Title = "마법사 루나",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이번 불놓기 행사를 위해 게펜 타워에서 파견된 <NAVI>[마법사 루나]<INFO>alberta,134,162,0,101,0</INFO></NAVI>씨를 만나 이야기를 나눠보시겠어요?"
 		},
@@ -37696,6 +38696,7 @@ QuestInfoList = {
 	},
 	[14978] = {
 		Title = "배고픈 멧돼지",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"농작물을 망치는 멧돼지를 포획하는데 일손이 많이 필요하다는군요.",
 			"<NAVI>[세레나]<INFO>alberta,152,198,0,101,0</INFO></NAVI>씨를 찾아가 보세요."
@@ -37704,6 +38705,7 @@ QuestInfoList = {
 	},
 	[14979] = {
 		Title = "추수제 준비",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"축제에 음식은 빠질 수 없죠. 추수제 음식을 준비하시는 <NAVI>[송화]<INFO>alberta,119,193,0,101,0</INFO></NAVI>님께 가보세요. 맛있는 음식이 많이 있거든요."
 		},
@@ -37711,6 +38713,7 @@ QuestInfoList = {
 	},
 	[14980] = {
 		Title = "추수제의 의미",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"추수절에는 늘 과일 도시락을 만들어 축제에 참여할 수 없는 사람들에게 나눠주고 있습니다. <NAVI>[과일 도시락]<INFO>alberta,140,217,0,101,0,</INFO></NAVI>을 만드는 곳에 찾아가 보시는 것도 좋겠습니다."
 		},
@@ -37718,6 +38721,7 @@ QuestInfoList = {
 	},
 	[14981] = {
 		Title = "부활한 나뭇가지",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"부활한 나뭇가지 10마리를 처치해주시고 질 좋은 나뭇가지도 10개 정도 구해주셨으면 좋겠어요. 제 명예와 목숨이 달린 일이에요! <NAVI>[마법사 루나]<INFO>alberta,134,162,0,101,0</INFO></NAVI>"
 		},
@@ -37725,6 +38729,7 @@ QuestInfoList = {
 	},
 	[14982] = {
 		Title = "대기: 부활한 나뭇가지",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"지금은 라나님이 지켜보고 계세요. 새벽 시간이 지난 뒤에 다시 찾아와 주시겠어요? <NAVI>[마법사 루나]<INFO>alberta,134,162,0,101,0</INFO></NAVI>"
 		},
@@ -37732,6 +38737,7 @@ QuestInfoList = {
 	},
 	[14983] = {
 		Title = "배고픈 멧돼지",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이미 마을로 내려온 멧돼지들을 안전하게 포획해서 집으로 돌려 보내야 해요. <NAVI>[제]<INFO>alberta,152,198,0,101,0</INFO></NAVI>가 드린 멧돼지 트랩으로 배고픈 멧돼지 10마리를 포획해오세요."
 		},
@@ -37739,6 +38745,7 @@ QuestInfoList = {
 	},
 	[14984] = {
 		Title = "대기: 배고픈 멧돼지",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"지금은 멧돼지 트랩을 손질해야 해요. 새벽 시간이 지난 후에 <NAVI>[저]<INFO>alberta,152,198,0,101,0</INFO></NAVI>에게 다시 찾아 오시곘어요?"
 		},
@@ -37746,6 +38753,7 @@ QuestInfoList = {
 	},
 	[14985] = {
 		Title = "추수제 준비",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"송편의 재료가 똑 떨어졌다는구만. 송편 재료 좀 구해 올라우? 곡식 1개, 꿀 3개, 초록허브 10개면 된다우. <NAVI>[송화]<INFO>alberta,119,193,0,101,0</INFO></NAVI>"
 		},
@@ -37753,6 +38761,7 @@ QuestInfoList = {
 	},
 	[14986] = {
 		Title = "추수제 준비",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"월병의 재료가 똑 떨어졌다는구만. 달과자 재료 좀 구해 올라우? 노란 향신료 1개, 나무조각 3개면 된다우. <NAVI>[송화]<INFO>alberta,119,193,0,101,0</INFO></NAVI>"
 		},
@@ -37760,6 +38769,7 @@ QuestInfoList = {
 	},
 	[14987] = {
 		Title = "추수제 준비",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"칠면조 구이의 재료가 똘 떨어졌다는구만. 칠면조 구이의 재료 좀 구해 올라우? 담백한 소스 1개, 레몬 3개, 당근 10개면 된다우. <NAVI>[송화]<INFO>alberta,119,193,0,101,0</INFO></NAVI>"
 		},
@@ -37767,6 +38777,7 @@ QuestInfoList = {
 	},
 	[14988] = {
 		Title = "대기: 추수제 준비",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"지금 음식 준비가 한창이라 줄 수 있는게 없는데. 새벽 시간이 지난 후에 <NAVI>[나]<INFO>alberta,119,193,0,101,0</INFO></NAVI>를 찾아 오면 꼭 줄 테니까."
 		},
@@ -37774,6 +38785,7 @@ QuestInfoList = {
 	},
 	[14989] = {
 		Title = "추수제의 의미",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"두 집을 화해시킬 방법이 있어요. 추수절이 아니면 못하니까 서둘러 <NAVI>[밭]<INFO>pay_fild03,211,174,0,101,0,</INFO></NAVI>에 가요!"
 		},
@@ -37781,6 +38793,7 @@ QuestInfoList = {
 	},
 	[14990] = {
 		Title = "추수제의 의미",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"사과 2개만 가져다 주세요. 딱! 2개만이에요! 코코네 <NAVI>[사과나무]<INFO>pay_fild03,211,179,0,101,0,</INFO></NAVI>에서도 2개 정도는 딸 수 있을 거예요."
 		},
@@ -37788,6 +38801,7 @@ QuestInfoList = {
 	},
 	[14991] = {
 		Title = "추수제의 의미",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이 과일 도시락을 <NAVI>[징코네 집]<INFO>alberta,47,118,0,101,0,</INFO></NAVI>에 가져다 주세요. 곧 따라갈게요."
 		},
@@ -37795,6 +38809,7 @@ QuestInfoList = {
 	},
 	[14992] = {
 		Title = "추수제의 의미",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"멧돼지가 나타나 <NAVI>[고구마 밭]<INFO>pay_fild03,211,174,0,101,0,</INFO></NAVI>을 엉망으로 만들고 있어요! 어서 가요!"
 		},
@@ -37802,6 +38817,7 @@ QuestInfoList = {
 	},
 	[14993] = {
 		Title = "추수제의 의미",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"멧돼지에게 먹일 사과와 고구마 5개씩을 가져다 주세요! - <NAVI>[이아이]<INFO>pay_fild03,211,174,0,101,0,</INFO></NAVI>"
 		},
@@ -37809,6 +38825,7 @@ QuestInfoList = {
 	},
 	[14994] = {
 		Title = "과일 도시락 배달",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"사과, 고구마, 맛있는 옥수수 3개씩 가져다 주세요. 맛있는 과일 도시락을 만들 거예요! - <NAVI>[이아이]<INFO>alberta,140,217,0,101,0,</INFO></NAVI>"
 		},
@@ -37816,6 +38833,7 @@ QuestInfoList = {
 	},
 	[14995] = {
 		Title = "과일 도시락 배달",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이 과일 도시락을 <NAVI>[뱃사람]<INFO>alberta,231,117,0,101,0,</INFO></NAVI>에게 가져다 주세요."
 		},
@@ -37823,6 +38841,7 @@ QuestInfoList = {
 	},
 	[14996] = {
 		Title = "과일 도시락 배달",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이 과일 도시락을 <NAVI>[어르신]<INFO>alberta,108,236,0,101,0,</INFO></NAVI>께 가져다 주세요."
 		},
@@ -37830,6 +38849,7 @@ QuestInfoList = {
 	},
 	[14997] = {
 		Title = "과일 도시락 배달",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"이 과일 도시락을 <NAVI>[타지인]<INFO>alberta,208,50,0,101,0,</INFO></NAVI>에게 배달해 주세요."
 		},
@@ -37837,6 +38857,7 @@ QuestInfoList = {
 	},
 	[14998] = {
 		Title = "과일 도시락 배달",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"과일 도시락을 모두 전달했으니 <NAVI>[이아이]<INFO>alberta,140,217,0,101,0,</INFO></NAVI>에게 돌아가자."
 		},
@@ -37844,6 +38865,7 @@ QuestInfoList = {
 	},
 	[14999] = {
 		Title = "대기: 과일 도시락 배달",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"오늘은 피곤하실 테니 새벽이 지난 후에 다시 오세요! - <NAVI>[이아이]<INFO>alberta,140,217,0,101,0,</INFO></NAVI>"
 		},
@@ -37851,6 +38873,7 @@ QuestInfoList = {
 	},
 	[15000] = {
 		Title = "Experiencing abnormal statuses",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"As an apology, I will let you experience the abnormal statuses in advance."
 		},
@@ -40294,6 +41317,7 @@ QuestInfoList = {
 	},
 	[16352] = {
 		Title = "엘레나 볼코바의 부름",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"엘레나 볼코바와 이야기해 보자."
 		},
@@ -40301,6 +41325,7 @@ QuestInfoList = {
 	},
 	[16353] = {
 		Title = "금빛의 말썽꾸러기",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"주요 시설 부근에 폭발이 일어났다. 엘레나를 따라가 <NAVI>[상태]<INFO>sp_cor,180,169,0,101,0</INFO></NAVI>를 확인하자."
 		},
@@ -40308,6 +41333,7 @@ QuestInfoList = {
 	},
 	[16354] = {
 		Title = "엘류미나 확보 작전",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"<NAVI>[지역]<INFO>sp_cor,180,169,0,101,0</INFO></NAVI>을 소개하고 특수 작전에 돌입한다. 무사히 엘류미나를 확보한 다음 엘레나에게 보고하자."
 		},
@@ -40315,6 +41341,7 @@ QuestInfoList = {
 	},
 	[16355] = {
 		Title = "수상한 상자",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"상자가 작동되어 버렸다. 생체 배터리를 밟아 제거하며 몬스터를 처치한 뒤 리벨리온과 대화하자."
 		},
@@ -40322,6 +41349,7 @@ QuestInfoList = {
 	},
 	[16356] = {
 		Title = "수상한 상자",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"상자가 작동되어 버렸다. 화학독을 건드리지 않도록 조심하며 몬스터를 처치한 뒤 리벨리온과 대화하자."
 		},
@@ -40329,6 +41357,7 @@ QuestInfoList = {
 	},
 	[16357] = {
 		Title = "엘류미나 확보",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"무사히 일루시온의 과학자를 확보했다. 잠시 휴식을 취한 뒤 <NAVI>[엘레나]<INFO>sp_cor,180,169,0,101,0</INFO></NAVI>에게 돌아가 보자."
 		},
@@ -40336,6 +41365,7 @@ QuestInfoList = {
 	},
 	[16358] = {
 		Title = "순수한 악인",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"포로가 된 일루시온의 과학자를 심문할 예정이다. <NAVI>[막사]<INFO>sp_cor,136,210,0,101,0</INFO></NAVI> 쪽으로 가서 심문에 참관하자."
 		},
@@ -40343,6 +41373,7 @@ QuestInfoList = {
 	},
 	[16359] = {
 		Title = "순수한 악동",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"<NAVI>[루키]<INFO>sp_cor,135,216,0,101,0</INFO></NAVI>가 심문을 주도하기로 했다. 옆에 서서 힘껏 눈을 부라리자."
 		},
@@ -40350,6 +41381,7 @@ QuestInfoList = {
 	},
 	[16360] = {
 		Title = "순수한 사실",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"엘류미나의 증언으로 바르문트 저택에 출입할 방법을 알아냈다. <NAVI>[출입구]<INFO>sp_cor,255,285,0,101,0</INFO></NAVI>를 확인하러 가도록 하자."
 		},
@@ -40357,6 +41389,7 @@ QuestInfoList = {
 	},
 	[16361] = {
 		Title = "순수한 뒷수습",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"엘레나의 <NAVI>[부하]<INFO>sp_cor,113,130,0,101,0</INFO></NAVI>에게 엘류미나 생포 작전 이후, 엘류미나가 뿌려 놓은 몬스터와 함정을 아직 수거하지 못한 이유를 듣자."
 		},
@@ -40364,6 +41397,7 @@ QuestInfoList = {
 	},
 	[16362] = {
 		Title = "순수한 뒷수습-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 코르의 <NAVI>[리벨리온]<INFO>sp_cor,113,130,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -40371,6 +41405,7 @@ QuestInfoList = {
 	},
 	[16363] = {
 		Title = "EL1_A17T 처리",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"EL1_A17T을 무사히 처리했다."
 		},
@@ -40378,6 +41413,7 @@ QuestInfoList = {
 	},
 	[16364] = {
 		Title = "농장의 일손",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"이번 일로 일손이 부족해진 <NAVI>[농장]<INFO>sp_cor,246,97,0,101,0</INFO></NAVI>에서 일손을 좀 보태 달라는 요청이 들어왔다. 밭의 아직 어린 야채를 돌봐 주자."
 		},
@@ -40385,6 +41421,7 @@ QuestInfoList = {
 	},
 	[16365] = {
 		Title = "농장의 일손-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다.",
 			"코르의 <NAVI>[농장 일꾼]<INFO>sp_cor,246,97,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
@@ -40393,6 +41430,7 @@ QuestInfoList = {
 	},
 	[16366] = {
 		Title = "농장의 일손",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"이번 일로 일손이 부족해진 <NAVI>[농장]<INFO>sp_cor,246,97,0,101,0</INFO></NAVI>에서 일손을 좀 보태 달라는 요청이 들어왔다. 밭의 아직 어린 야채를 돌봐 주자."
 		},
@@ -40400,6 +41438,7 @@ QuestInfoList = {
 	},
 	[16367] = {
 		Title = "아직 어린 포도",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"아직 조그맣고 푸른 <NAVI>[포도]<INFO>sp_cor,247,86,0,101,0</INFO></NAVI>가 줄기에 매달려 있다. 진딧물을 잡아 주자."
 		},
@@ -40407,6 +41446,7 @@ QuestInfoList = {
 	},
 	[16368] = {
 		Title = "아직 어린 포도",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"아직 조그맣고 푸른 <NAVI>[포도]<INFO>sp_cor,247,86,0,101,0</INFO></NAVI>가 줄기에 매달려 있다. 비료를 쳐 주자."
 		},
@@ -40414,6 +41454,7 @@ QuestInfoList = {
 	},
 	[16369] = {
 		Title = "아직 어린 포도",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"아직 조그맣고 푸른 <NAVI>[포도]<INFO>sp_cor,247,86,0,101,0</INFO></NAVI>가 줄기에 매달려 있다. 잡초를 뽑아 주자."
 		},
@@ -40421,6 +41462,7 @@ QuestInfoList = {
 	},
 	[16370] = {
 		Title = "아직 보송한 깍지콩",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"솜털이 보송보송한 <NAVI>[깍지콩]<INFO>sp_cor,163,135,0,101,0</INFO></NAVI>은 아직 새끼손톱보다도 작다. 진딧물을 잡아 주자."
 		},
@@ -40428,6 +41470,7 @@ QuestInfoList = {
 	},
 	[16371] = {
 		Title = "아직 보송한 깍지콩",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"솜털이 보송보송한 <NAVI>[깍지콩]<INFO>sp_cor,163,135,0,101,0</INFO></NAVI>은 아직 새끼손톱보다도 작다. 비료를 쳐 주자."
 		},
@@ -40435,6 +41478,7 @@ QuestInfoList = {
 	},
 	[16372] = {
 		Title = "아직 보송한 깍지콩",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"솜털이 보송보송한 <NAVI>[깍지콩]<INFO>sp_cor,163,135,0,101,0</INFO></NAVI>은 아직 새끼손톱보다도 작다. 잡초를 뽑아 주자."
 		},
@@ -40442,6 +41486,7 @@ QuestInfoList = {
 	},
 	[16373] = {
 		Title = "아직 조그만 호박",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"파랗고 조그만 <NAVI>[호박]<INFO>sp_cor,240,87,0,101,0</INFO></NAVI>이 줄기에 대롱대롱 열려 있다. 진딧물을 잡아 주자."
 		},
@@ -40449,6 +41494,7 @@ QuestInfoList = {
 	},
 	[16374] = {
 		Title = "아직 조그만 호박",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"파랗고 조그만 <NAVI>[호박]<INFO>sp_cor,240,87,0,101,0</INFO></NAVI>이 줄기에 대롱대롱 열려 있다. 비료를 쳐 주자."
 		},
@@ -40456,6 +41502,7 @@ QuestInfoList = {
 	},
 	[16375] = {
 		Title = "아직 조그만 호박",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"파랗고 조그만 <NAVI>[호박]<INFO>sp_cor,240,87,0,101,0</INFO></NAVI>이 줄기에 대롱대롱 열려 있다. 잡초를 뽑아 주자."
 		},
@@ -40463,6 +41510,7 @@ QuestInfoList = {
 	},
 	[16376] = {
 		Title = "EL1_A17T 제압",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"EL1_A17T을 제압하였다."
 		},
@@ -40470,6 +41518,7 @@ QuestInfoList = {
 	},
 	[16377] = {
 		Title = "EL1_A17T 제압-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"골치아픈 일을 해결했다. 잠시 쉬도록 하자."
 		},
@@ -40477,6 +41526,7 @@ QuestInfoList = {
 	},
 	[17000] = {
 		Title = "Meet with Father Bamph",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"An agent on the International Airship tells you that Father Bamph is expecting your arrival at Prontera Church. You should probably go and meet him there."
 		},
@@ -40484,6 +41534,7 @@ QuestInfoList = {
 	},
 	[17001] = {
 		Title = "Meet with Larjes",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Father Bamph tells you that a man of high rank suddenly disappeared a while ago and that he was last seen in Comodo. Find Larjes and he will assist you with your search for the lost official."
 		},
@@ -40491,13 +41542,17 @@ QuestInfoList = {
 	},
 	[17002] = {
 		Title = "Report to Father Bamph",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Larjes told you that that the official was kidnapped from an organization from Arunafeltz. You should report this to Father Bamph."
 		},
-		Summary = "Talk to Father Bamph"
+		Summary = "Talk to Father Bamph",
+		RewardEXP = 300000,
+		RewardJEXP = 300000
 	},
 	[17003] = {
 		Title = "Travel to Rachel",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Father Bamph asks you to go to Rachel on his behalf to continue the investigation of the missing official."
 		},
@@ -40505,6 +41560,7 @@ QuestInfoList = {
 	},
 	[17004] = {
 		Title = "Travel to Veins",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"After eavesdropping on the conversation next to your table, you decide to go to Veins to see if you can find more Veins Striped Stickleback fish."
 		},
@@ -40512,13 +41568,17 @@ QuestInfoList = {
 	},
 	[17005] = {
 		Title = "Frustrated Magistrate",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Magistrate Al Hamad tells you that he's not really comfortable talking to complete strangers about his problems... Find someone who may know about the situation."
 		},
-		Summary = ""
+		Summary = "",
+		RewardEXP = 300000,
+		RewardJEXP = 300000
 	},
 	[17006] = {
 		Title = "Interrogated Smugglers",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"You should ask the magistrate if he was able to interrogate the smugglers before they were taken away."
 		},
@@ -40526,6 +41586,7 @@ QuestInfoList = {
 	},
 	[17007] = {
 		Title = "Written Orders",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"If you insist on learning more about the smugglers, then you need to bring a written order from a high ranking officer to Al Hamad."
 		},
@@ -40533,6 +41594,7 @@ QuestInfoList = {
 	},
 	[17008] = {
 		Title = "Investigating",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"High Priest Zhed said that he was too preoccupied with other matters, but that High Priestess Niren may know something about the smugglers from Veins."
 		},
@@ -40540,6 +41602,7 @@ QuestInfoList = {
 	},
 	[17009] = {
 		Title = "More Investigating",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"High Priestess Niren has asked you to find out if the high ranking official from Rune-Midgarts is still alive. Go to the Magistrate Al Hamad and he will provide usefull information for your journey."
 		},
@@ -40547,6 +41610,7 @@ QuestInfoList = {
 	},
 	[17010] = {
 		Title = "Further Investigations",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"The Magistrate Al Hamad elaborated on their dealings with the smugglers and the high ranked Rune-Midgarts official. You should travel to veins and find out if anyone knows about their disappearances."
 		},
@@ -40554,6 +41618,7 @@ QuestInfoList = {
 	},
 	[17011] = {
 		Title = "Kurdi's Father",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"The drunkard said something about a ghost out on sea. You should ask Kurdi's father about it since he's a fisherman and he might know something about it."
 		},
@@ -40561,6 +41626,7 @@ QuestInfoList = {
 	},
 	[17012] = {
 		Title = "Karyn's Boat",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Karyn's Dad is not allowed to go out to sea right now. But Karyn said that it should be okay if you borrow the boat. It is the only boat located in south beach so it shouldn't be difficult to find."
 		},
@@ -40568,13 +41634,20 @@ QuestInfoList = {
 	},
 	[17013] = {
 		Title = "To the Island",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Larjes has revealed that he has been following you and offers to help you sail to the monastery. Investigate the Island once you land there."
 		},
-		Summary = ""
+		Summary = "",
+		RewardEXP = 600000,
+		RewardJEXP = 600000,
+		RewardItemList = {
+			{ ItemID = 25723, ItemNum = 20 }
+		}
 	},
 	[17014] = {
 		Title = "Investigating the Island",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Larjes has decided to wait for you in the boat while you investigate the mysteries of the island."
 		},
@@ -40582,6 +41655,7 @@ QuestInfoList = {
 	},
 	[17015] = {
 		Title = "The Research Note",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"You found a journal stained red with blood. It is hard to make out the entries but one of them states that the author learned to summon a creature. You should continue your investigation."
 		},
@@ -40589,6 +41663,7 @@ QuestInfoList = {
 	},
 	[17016] = {
 		Title = "Regicide",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"You examined the Dead Man's body and found that he had a Token of King... That must mean that he was Tristam III... You should get back to Larjes and let him know."
 		},
@@ -40596,6 +41671,7 @@ QuestInfoList = {
 	},
 	[17017] = {
 		Title = "Reporting the King's Death",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"The shocking news of Tristam III's death should not be taken lightly. You should report this and bring the Research Note to High Priestess Niren."
 		},
@@ -40603,10 +41679,13 @@ QuestInfoList = {
 	},
 	[17018] = {
 		Title = "환자들의 상태",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"<NAVI>[아스]<INFO>sp_cor,135,147,0,101,0</INFO></NAVI>씨는 카야 토스씨에게 긴히 보고할 일이 있다고 한다."
 		},
-		Summary = "아스씨에게"
+		Summary = "아스씨에게",
+		RewardEXP = 300000,
+		RewardJEXP = 300000
 	},
 	[17019] = {
 		Title = "긴박한 상황",
@@ -40617,6 +41696,7 @@ QuestInfoList = {
 	},
 	[17020] = {
 		Title = "조사 재개",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"패트릭 카우프먼씨에 대한 조사를 계속 부탁드리겠습니다. 아마 이곳에서 <NAVI>[일하던 분]<INFO>sp_cor,133,144,0,101,0</INFO></NAVI>들이라면 뭔가 단서를 얻을 수 있을지도 모르겠습니다."
 		},
@@ -40624,6 +41704,7 @@ QuestInfoList = {
 	},
 	[17021] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"아무튼 누굴 찾는다면 연구원들한테 물어야지. 다들 도망가서 남아 있는게 얼마 없을 테지만...",
 			"<NAVI>[보조]<INFO>sp_cor,224,77,0,101,0</INFO></NAVI>라면 몇 남아 있으니까 가봐요."
@@ -40632,13 +41713,17 @@ QuestInfoList = {
 	},
 	[17022] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"사람을 찾는다면 세탁물을 관리하던 <NAVI>[사람]<INFO>sp_cor,151,180,0,101,0</INFO></NAVI>한테 가 봐요. 오래 있었으니까. 발이 무척 넓거든요."
 		},
-		Summary = "세탁물 담당자에게"
+		Summary = "세탁물 담당자에게",
+		RewardEXP = 300000,
+		RewardJEXP = 300000
 	},
 	[17023] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"뭔가 찾는다면 <NAVI>[소각장]<INFO>sp_cor,70,263,0,101,0</INFO></NAVI>에 가 봐요. 거기에서 지금 여기저기 흩어진 자료들을 모아서 분류하는 작업을 한다니까 뭔가 얻을 수 있을지 모르죠."
 		},
@@ -40646,6 +41731,7 @@ QuestInfoList = {
 	},
 	[17024] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"심하게 오염된 거나 태우지 못하는 것들은 따로 버리는 <NAVI>[폐기장]<INFO>sp_rudus,227,351,0,101,0</INFO></NAVI>이 따로 있다고 했거든요. 자기들끼리 뭐라고 부르던데.."
 		},
@@ -40653,13 +41739,17 @@ QuestInfoList = {
 	},
 	[17025] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"<NAVI>[어디선가]<INFO>sp_rudus,15,280,0,101,0</INFO></NAVI> 말소리가 들린다. 찾아가 보자."
 		},
-		Summary = "소리를 따라"
+		Summary = "소리를 따라",
+		RewardEXP = 300000,
+		RewardJEXP = 300000
 	},
 	[17026] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"차라리 쓰레기 더미에서 식별 팔찌를 찾아 봐요. 바닥 어딘가에 떨어져 있을 거예요."
 		},
@@ -40667,6 +41757,7 @@ QuestInfoList = {
 	},
 	[17027] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"쓰레기 더미를 조심조심 뒤져 식별 팔찌 몇 개를 찾았지만 카우프먼씨의 것은 없었다. 다른 곳을 찾아 보자."
 		},
@@ -40674,6 +41765,7 @@ QuestInfoList = {
 	},
 	[17028] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"쓰레기 더미를 뒤져 다른 사람들의 식별 팔찌 몇 개를 찾았다. 다른 곳을 살펴 보자."
 		},
@@ -40681,6 +41773,7 @@ QuestInfoList = {
 	},
 	[17029] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"열심히 뒤져 보았지만 모두 쓰레기였을 뿐이었다. 다른 곳을 살펴 보자."
 		},
@@ -40688,6 +41781,7 @@ QuestInfoList = {
 	},
 	[17030] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"뒤져 보고 또 뒤져 보았지만 건질 것은 없어 보인다. 다른 곳을 살펴 보자."
 		},
@@ -40695,6 +41789,7 @@ QuestInfoList = {
 	},
 	[17031] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"이곳엔 아무것도 없었다. 카우프먼씨의 단서를 찾을 수나 있을까... 다른 곳을 살펴 보자."
 		},
@@ -40702,13 +41797,20 @@ QuestInfoList = {
 	},
 	[17032] = {
 		Title = "팩씨를 찾아서",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"쓰레기 더미에 파묻혀 있던 팔찌 하나를 파냈다. 이것을 가지고 <NAVI>[카야]<INFO>sp_cor,136,146,0,101,0</INFO></NAVI>씨에게로 돌아 가자."
 		},
-		Summary = "카야 토스씨에게"
+		Summary = "카야 토스씨에게",
+		RewardEXP = 600000,
+		RewardJEXP = 600000,
+		RewardItemList = {
+			{ ItemID = 25723, ItemNum = 20 }
+		}
 	},
 	[17033] = {
 		Title = "차후의 모든 일 처리는",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"차후의 일처리는 모두 여기 있는 <NAVI>[아스]<INFO>sp_cor,135,147,0,101,0</INFO></NAVI>군을 통해서 해주십시오. 수거한 팔찌도 아스군에게 전달하시면 됩니다."
 		},
@@ -40716,13 +41818,21 @@ QuestInfoList = {
 	},
 	[17034] = {
 		Title = "루두스로",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"그럼 돌로르라 불리는 실험체 20분들께 안식을 드리고, 실험체용 식별 팔찌 10개를 부탁드립니다. - <NAVI>[아스]<INFO>sp_cor,135,147,0,101,0</INFO></NAVI>"
 		},
-		Summary = "실험체용 식별 팔찌 10"
+		Summary = "실험체용 식별 팔찌 10",
+		RewardEXP = 300000,
+		RewardJEXP = 300000,
+		RewardItemList = {
+			{ ItemID = 25723, ItemNum = 1 },
+			{ ItemID = 25669, ItemNum = 5 }
+		}
 	},
 	[17035] = {
 		Title = "대기: 루두스로",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"새벽이 지난 후에 다시 뵙겠습니다. 정말로 고생 많으셨습니다. - <NAVI>[아스]<INFO>sp_cor,135,147,0,101,0</INFO></NAVI>"
 		},
@@ -40730,6 +41840,7 @@ QuestInfoList = {
 	},
 	[17036] = {
 		Title = "추수제의 의미",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"사과를 땄다"
 		},
@@ -40737,6 +41848,7 @@ QuestInfoList = {
 	},
 	[17037] = {
 		Title = "대기: 속성 교체",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"하루에 한 번 무료로 시간의 수호자 로브에 부여 된 속성 교체를 할 수 있어요. <NAVI>[속성 부여 담당자]<INFO>prontera,154,279,0,101,0,</INFO></NAVI>"
 		},
@@ -41570,6 +42682,7 @@ QuestInfoList = {
 	},
 	[21001] = {
 		Title = "Shipwreck escape",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"You must escape from ship that wrecked on desert island after a storm. Let's search for wounded people that still on board."
 		},
@@ -41619,6 +42732,7 @@ QuestInfoList = {
 	},
 	[21008] = {
 		Title = "First Battle",
+		IconName = "ico_gq.bmp",
 		Description = {
 			"Find ship repair materials that was stolen by Poring. I was asked by crew to bring back 2 piece of Lumbers. Defeat Poring and retrieve the wood."
 		},
@@ -41661,6 +42775,7 @@ QuestInfoList = {
 	},
 	[21015] = {
 		Title = "언데드 전쟁",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"늘어나는 좀비와 스켈레톤으로 페이욘 경비병은 정신이 없다. 그 수를 줄이기 위해 좀비 10 마리, 스켈레톤 20마리를 처치해 달라는 부탁을 받았다. 스켈레톤은 좀 더 동굴 깊이 들어가야 나타난다고 한다."
 		},
@@ -41668,6 +42783,7 @@ QuestInfoList = {
 	},
 	[21016] = {
 		Title = "언데드전쟁-휴식",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"끊임없이 나타나는 언데드를 처리하기 위해서는 꾸준히 제거할 필요가 있다."
 		},
@@ -41675,6 +42791,7 @@ QuestInfoList = {
 	},
 	[21017] = {
 		Title = "영혼 정화 의식",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"과거 매장당해 사라진 마을의 원통함이 서린 원령들의 영혼을 정화시키기 위해 '반혼부'가 필요하다. 무낙과 본건을 제압하고 반혼부를 수집하자. 무낙과 본건은 페이욘 동굴 3층 등장한다."
 		},
@@ -41682,6 +42799,7 @@ QuestInfoList = {
 	},
 	[21018] = {
 		Title = "영혼 정화 의식-휴식",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"귀기가 강해질 때마다 정화의식이 필요하다고 한다. 시간이 될 때마다 찾아가보자."
 		},
@@ -41689,6 +42807,7 @@ QuestInfoList = {
 	},
 	[21019] = {
 		Title = "술 한잔으로 달래는 슬픔",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"도력이 높은 스님이 맑은 술로 귀신불을 달래고 영혼의 숨소리 10개를 받아 달라고 한다. 맑은 술은 페이욘의 할아버지에게서 구할 수 있고, 귀신불은 페이욘 동굴 4층 폐가촌에 나타난다."
 		},
@@ -41696,6 +42815,7 @@ QuestInfoList = {
 	},
 	[21020] = {
 		Title = "술 한잔으로 달래는 슬픔-휴식",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"페이욘 동굴 폐가촌에는 얼마나 많은 슬픈 혼령들이 있는것일까. 스님은 날이 밝는대로 다시 찾아와 도와달라고 했다."
 		},
@@ -41703,6 +42823,7 @@ QuestInfoList = {
 	},
 	[21021] = {
 		Title = "대마법의 흔적",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"마법의 흔적을 찾는데 왜 소녀의 손수건이 필요한지 모르겠지만, 젊은 학자의 부탁으로 소녀의 손수건 3장이 필요하다. 소녀의 손수건은 페이욘 동굴 폐가촌에 나타나는 소희에게서 얻을 수 있다."
 		},
@@ -41710,6 +42831,7 @@ QuestInfoList = {
 	},
 	[21022] = {
 		Title = "대마법의 흔적-휴식",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"소녀의 손수건에 집착을 보이는 젊은 학자는 가능하다면 매일 자신을 도와달라고 한다. 연구재료인 소녀의 손수건 수집에 관심이 있다면 다시 찾아가 보자."
 		},
@@ -41717,6 +42839,7 @@ QuestInfoList = {
 	},
 	[21023] = {
 		Title = "여우 사냥",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"폐가촌에 영혼들이 성불하지 못하고 묶여 있는 것은 여우요괴 월야화의 짓이다. 페이욘의 장로는 월야화를 처단하기로 결정했다. ^4d4dff월야화를 처치^000000한 뒤 얻은 ^4d4dff여우구슬을 가지고 궁수 마을의 불상이 있는 곳^000000으로 가자."
 		},
@@ -41724,6 +42847,7 @@ QuestInfoList = {
 	},
 	[21024] = {
 		Title = "계속되는 여우 사냥",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"폐가촌의 월야화는 갖은 속임수와 술수로 거짓 목숨을 내어주거나 하며 폐가촌을 떠나지 않는다. 어쩌면 월야화 자체도 이미 다른 영혼들과 마찬가지로 억울한 죽음으로 남겨진 원혼덩어리일지도 모른다."
 		},
@@ -41752,6 +42876,7 @@ QuestInfoList = {
 	},
 	[21028] = {
 		Title = "꿀 같은 노동",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"아들 대신 나무를 해주기로 했다. 페이욘 남쪽 숲에서 '윌로우' 5마리를 잡고 '메마른 나무조각' 3개를 구한 뒤, 초조하게 기다리고 있을 중년 아저씨에게 가져다주자."
 		},
@@ -41759,6 +42884,7 @@ QuestInfoList = {
 	},
 	[21029] = {
 		Title = "꿀 같은 노동-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"페이욘의 중년 아저씨는 여전히 누군가가 아들대신 나무 해주기를 바라는 모양이다."
 		},
@@ -41773,6 +42899,7 @@ QuestInfoList = {
 	},
 	[21031] = {
 		Title = "프로 뱀사냥꾼",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"페이욘 동쪽 숲의 보아를 꾸준히 잡아 보기로 했다. 오늘은 보아 5마리를 처치하자."
 		},
@@ -41780,6 +42907,7 @@ QuestInfoList = {
 	},
 	[21032] = {
 		Title = "프로 뱀사냥꾼-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"페이욘의 아가씨는 아이들이 안전하게 놀 수 있도록 누군가가 꾸준히 보아를 사냥해 주길 바라는 것 같다. 시간이 나면 가서 또 도와주자."
 		},
@@ -41794,6 +42922,7 @@ QuestInfoList = {
 	},
 	[21034] = {
 		Title = "그것은 해로운 양파다.",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"웜테일이 사람 헷갈리게 하는 요물이라는 것을 알아버린 할머니는 웜테일을 처치해 달라고 부탁했다. 웜테일은 페이욘 동쪽 숲에서 볼 수 있다."
 		},
@@ -41801,6 +42930,7 @@ QuestInfoList = {
 	},
 	[21035] = {
 		Title = "그것은 해로운 양파다.-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"웜테일 사냥은 계속 된다. 날이 밝으면 페이욘 할머니를 다시 찾아가보자."
 		},
@@ -41815,6 +42945,7 @@ QuestInfoList = {
 	},
 	[21037] = {
 		Title = "버섯 천지가 되기 전에.",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"페이욘의 할아버지는 스포아의 번식력에 놀란 듯 하다. 동쪽 숲이 스포아로 뒤덮이기 전에 처치해 달라고 한다. 스포아를 사냥하자!"
 		},
@@ -41822,6 +42953,7 @@ QuestInfoList = {
 	},
 	[21038] = {
 		Title = "버섯천지가 되기 전에.-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"페이욘 할아버지의 근심걱정인 스포아를 다시 뿌리뽑을 준비가 되어있다면, 다시 찾아가 보자."
 		},
@@ -41836,6 +42968,7 @@ QuestInfoList = {
 	},
 	[21040] = {
 		Title = "탈옥을 꿈꾸는 죄수들",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"글래스트헤임 본성의 지하감옥에는 어둠의 기운을 받아 이미 죽었던 죄수가 언데드가 되어 되살아나 활보 중이다. 끝없이 쏟아지는 좀비를 감당하다 지쳐버린 사제 카론은 스켈프리즈너와 좀비프리즈너를 처치해 달라고 부탁했다."
 		},
@@ -41843,6 +42976,7 @@ QuestInfoList = {
 	},
 	[21041] = {
 		Title = "탈옥을 꿈꾸는 죄수들-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판 또는 글래스트헤임의 카론을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41850,6 +42984,7 @@ QuestInfoList = {
 	},
 	[21042] = {
 		Title = "악질 고문관",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"글래스트헤임 지하감옥에는 혼란의 틈을 타 은근슬쩍 마족들이 나와 활보하고 있다고 한다. 카론을 도와 나디르가 고군분투 해 보았지만 역부족이었다. 나디르는 리비오를 처치해 달라고 부탁했다."
 		},
@@ -41857,6 +42992,7 @@ QuestInfoList = {
 	},
 	[21043] = {
 		Title = "악질 고문관-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판 또는 글래스트헤임의 나디르를 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41864,6 +43000,7 @@ QuestInfoList = {
 	},
 	[21044] = {
 		Title = "고상한 취향",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"글래스트헤임 지하감옥에는 혼란의 틈을 타 은근슬쩍 마족들이 나와 활보하고 있다고 한다. 카론을 도와 나디르가 고군분투 해 보았지만 역부족이었다. 나디르는 인저스티스를 처치해 달라고 부탁했다."
 		},
@@ -41871,6 +43008,7 @@ QuestInfoList = {
 	},
 	[21045] = {
 		Title = "고상한 취향-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판 또는 글래스트헤임의 나디르를 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41885,6 +43023,7 @@ QuestInfoList = {
 	},
 	[21047] = {
 		Title = "모스코비아의 악몽",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff모스코비아 지역 깊은 숲^000000에는 여러가지 요정이 존재한다고 한다. 그 중 통행자를 놀래키고 괴롭히는 ^4d4dff우자스를 퇴치^000000해 달라는 의뢰입니다. 모스코비아는 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -41892,6 +43031,7 @@ QuestInfoList = {
 	},
 	[21048] = {
 		Title = "모스코비아의 악몽-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41899,6 +43039,7 @@ QuestInfoList = {
 	},
 	[21049] = {
 		Title = "아름다운 인형",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff아마쯔의 천수각 내부에 있는 다다미 미궁^000000에서 아름다운 외모로 사람을 현혹시키는 요마, ^4d4fff미야비^000000를 퇴치해 달라는 의뢰입니다. 아마쯔는 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -41906,6 +43047,7 @@ QuestInfoList = {
 	},
 	[21050] = {
 		Title = "아름다운 인형-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41913,6 +43055,7 @@ QuestInfoList = {
 	},
 	[21051] = {
 		Title = "모래로 빚은 떡?",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff뤄양의 용지성 앞^000000 해변가의 모래가 스스로 뭉쳐져 만들어진 요괴 ^4d4dff식양^000000을 퇴치 해 달라는 의뢰입니다. 뤄양은 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -41920,6 +43063,7 @@ QuestInfoList = {
 	},
 	[21052] = {
 		Title = "모래로 빚은 떡?-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41927,6 +43071,7 @@ QuestInfoList = {
 	},
 	[21053] = {
 		Title = "머리가 없는 말",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff브라질리스 필드^000000에서 사람들에게 공포감을 주고 있는 ^4d4dff머리없는 말^000000을 퇴치 해 달라는 의뢰입니다. 브라질리스는 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -41934,6 +43079,7 @@ QuestInfoList = {
 	},
 	[21054] = {
 		Title = "머리가 없는 말-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41941,6 +43087,7 @@ QuestInfoList = {
 	},
 	[21055] = {
 		Title = "사원의 사자",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff야요타야 고대신전^000000에서 원래 수호자였으나, 지금은 참배객을 위협하는 ^4d4dff탐루안^000000을 퇴치 해 달라는 의뢰입니다. 아요타야는 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -41948,6 +43095,7 @@ QuestInfoList = {
 	},
 	[21056] = {
 		Title = "사원의 사자-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41955,6 +43103,7 @@ QuestInfoList = {
 	},
 	[21057] = {
 		Title = "무지개를 가진 새",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff브라질리스 필드^000000에서 갑작스럽게 개체수가 늘어나 농작물에 피해를 주고 있는 ^4d4dff투칸^000000의 수를 조절해 달라는 의뢰입니다. 브라질리스는 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -41962,6 +43111,7 @@ QuestInfoList = {
 	},
 	[21058] = {
 		Title = "무지개를 가진 새-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41969,6 +43119,7 @@ QuestInfoList = {
 	},
 	[21059] = {
 		Title = "빗자루와 무쇠 솥, 그리고 할머니",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff모스코비아 깊고 깊은 숲^000000에 커다란 솥을 타고 빗자루를 휘두르는 노파가 목격되었습니다. 솥을 타고 빗자루를 든 노파는 마녀이기 때문에, 이 마녀 ^4d4dff바바야가^000000를 퇴치 해 달라는 의뢰입니다. 모스코비아는 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -41976,6 +43127,7 @@ QuestInfoList = {
 	},
 	[21060] = {
 		Title = "빗자루와 무쇠 솥, 그리고 할머니-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41983,6 +43135,7 @@ QuestInfoList = {
 	},
 	[21061] = {
 		Title = "패자와 승자, 그리고 남은 자",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff아마쯔의 다다미 미궁^000000에는 옛날 치열한 전쟁에서 희생 된 병사들이 떠돌고 있다고 합니다. 천수성의 안전을 위해 ^4d4dff구식 조총병^000000를 퇴치 해 달라는 의뢰입니다. 아마쯔는 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -41990,6 +43143,7 @@ QuestInfoList = {
 	},
 	[21062] = {
 		Title = "패자와 승자, 그리고 남은 자-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -41997,6 +43151,7 @@ QuestInfoList = {
 	},
 	[21063] = {
 		Title = "천상의 여인",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff쿤룬의 무릉도원^000000은 많은 사람들이 방문하지만 아름다운 선녀가 나타나 사람을 공격해서 문제가 되고 있습니다. 위험한 ^4d4dff요선녀^000000의 횡포를 막달라는 의뢰입니다. 쿤룬은 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -42004,6 +43159,7 @@ QuestInfoList = {
 	},
 	[21064] = {
 		Title = "천상의 여인-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -42011,6 +43167,7 @@ QuestInfoList = {
 	},
 	[21065] = {
 		Title = "비밀이 잠든 무덤",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff용지성의 왕릉^000000은 많은 전설과 비밀을 품고 있습니다. 하지만 그만큼 요괴도 많이 나타나 골치라고 합니다. 왕릉 조사에 특히 방해가 되는 ^4d4dff혜군과 이매망량^000000을 퇴치 해 달라는 의뢰입니다. 용지성은 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -42018,6 +43175,7 @@ QuestInfoList = {
 	},
 	[21066] = {
 		Title = "비밀이 잠든 무덤-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -42025,6 +43183,7 @@ QuestInfoList = {
 	},
 	[21067] = {
 		Title = "밤말도 내가 듣고, 낮말도 내가 듣는다.",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff아마쯔의 다다미 미궁^000000에 등장하는 수많은 비밀 중 하나는 정보전을 담당했던, 이미 죽어버린 시노비입니다. 자아를 잃어버리고 사람을 공격하는 ^4d4dff시노비^000000를 처치해 달라는 의뢰입니다. 아마쯔는 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -42032,6 +43191,7 @@ QuestInfoList = {
 	},
 	[21068] = {
 		Title = "밤말도 내가 듣고, 낮말도 내가 듣는다.-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -42039,6 +43199,7 @@ QuestInfoList = {
 	},
 	[21069] = {
 		Title = "손오공 후보",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff쿤룬의 서왕모 신전^000000에 복숭아요괴와 원숭이 무리가 등장해 골치라고 합니다. 저들이 자라 손오공이 되어 더 큰 난리를 부리기 전에 ^4d4dff생도목^000000을 퇴치해 달라는 의뢰입니다. 쿤룬은 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -42046,6 +43207,7 @@ QuestInfoList = {
 	},
 	[21070] = {
 		Title = "손오공 후보-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -42053,6 +43215,7 @@ QuestInfoList = {
 	},
 	[21071] = {
 		Title = "구름 위의 노인",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"^4d4dff쿤룬의 신선의 바둑판^000000의 터주는 당연히 신선입니다만 어쩐지 이번 신선은 고약하기 짝이 없습니다. 사람들을 괴롭히기만 하는 ^4d4dff운악선^000000을 퇴치해 달라는 의뢰입니다. 쿤룬은 알베르타에서 배를 타고 갈 수 있습니다."
 		},
@@ -42060,6 +43223,7 @@ QuestInfoList = {
 	},
 	[21072] = {
 		Title = "구름 위의 노인-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다. 낙원단 게시판을 통해 퀘스트 수주가 가능합니다."
 		},
@@ -42270,6 +43434,7 @@ QuestInfoList = {
 	},
 	[21102] = {
 		Title = "헌터플라이 사냥-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"내일의 사냥을 위해 잠시 휴식이다."
 		},
@@ -42277,6 +43442,7 @@ QuestInfoList = {
 	},
 	[21103] = {
 		Title = "오늘도 헌터플라이 사냥",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"게펜 타워 지하의 몬스터는 매일같이 증식하고 있다. 오늘도 헌터플라이 열 마리를 처치하자."
 		},
@@ -42291,6 +43457,7 @@ QuestInfoList = {
 	},
 	[21105] = {
 		Title = "구울과 잭 사냥-대기",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"내일의 사냥을 위해 잠시 휴식이다."
 		},
@@ -42298,6 +43465,7 @@ QuestInfoList = {
 	},
 	[21106] = {
 		Title = "오늘도 구울과 잭 사냥",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"게펜 타워 지하의 몬스터는 매일같이 증식하고 있다. 오늘도 구울과 잭을 각각 열 마리씩을 처치하자."
 		},
