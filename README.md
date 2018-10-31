@@ -10,16 +10,16 @@ Client compatibility list:
 ---------
 2008 and older (Supported)
 * Known issue
-	* None so far, but not recomended to use with Renewal rAthena. 
+	* None so far
 
 2009 - 2010 (Supported)
 * Known issue
-	* need older version of chat and window function that aren't present in this project, You need to find it by yourself.
-	* Not recomended to use with renewal rAthena, many 3rd classes' skill updates need newer client.
+	* Need older version of chat and window function that aren't present in this project.
+	* Many 3rd classes' skill updates need newer client.
 
 2011 - 2012 (Supported)
 * Known issue
-	* Not recomended to use with renewal rAthena, many 3rd classes' skill updates need newer client.
+	* Many 3rd classes' skill updates need newer client.
 
 2013 - 2014 (Supported)
 * Known issue
