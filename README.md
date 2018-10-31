@@ -31,23 +31,23 @@ Client compatibility list:
 
 20170522 - 201712XX (Partially supported)
 * Known issue
-	* Need newer function for itemInfo (1st Version), otherwise crash.
+	* Need newer function for itemInfo (2nd Version), otherwise crash.
 
 201712XX - 201803XX (Supported)
 * Known issue
-	* Need newer function for itemInfo (2nd Version) and new line for costume for each item, otherwise crash. (Use itemInfo_true.lua in system folder)
+	* Need newer function for itemInfo (3rd Version) and new line for costume for each item, otherwise crash. (Use itemInfo_true.lua in system folder)
 
 201803XX - 201805XX (Not supported)
 * Known issue
-	* Need newer function for itemInfo (3rd Version) and new line for costume for each item, otherwise crash.
+	* Need newer function for itemInfo (4th Version) and new line for costume for each item, otherwise crash.
 
 201806XX - 201807XX (Not supported)
 * Known issue
-	* Need newer function for itemInfo (3rd Version) and new line for costume for each item, otherwise crash.
+	* Need newer function for itemInfo (4th Version) and new line for costume for each item, otherwise crash.
 	* Need extra function for skilltreeview.lub, otherwise crash.
 
 201807XX - XXXXXXXX (Not supported)
 * Known issue
-	* Need newer function for itemInfo (4th Version) and new lines for costume and EffectID for each item, otherwise crash.
+	* Need newer function for itemInfo (5th Version) and new lines for costume and EffectID for each item, otherwise crash.
 	* Need new textures for character selection screen, check extra folder.
 	* Need extra function for skilltreeview.lub, otherwise crash.
