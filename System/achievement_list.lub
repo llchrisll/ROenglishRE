@@ -3930,6 +3930,34 @@ achievement_tbl = {
 		reward = { item = 23585 },
 		score = 10
 	},
+	[200033] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "New determination!(1)",
+		content = {
+			summary = "Achieve Base Lv 170 as 3-1 classes!",
+			details = "Achieve Base Lv 170 as 3-1 classes."
+		},
+		resource = { [1] = { text = "Base level 170" } },
+		reward = { item = 6959 },
+		score = 50
+	},
+	[200034] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "New determination!(2)",
+		content = {
+			summary = "Achieve Base Lv 170 as 3-2 classes!",
+			details = "Achieve Base Lv 170 as 3-2 classes."
+		},
+		resource = { [1] = { text = "Base level 170" } },
+		reward = { item = 6959 },
+		score = 50
+	},
 	[230100] = {
 		UI_Type = 0,
 		group = "GOAL_LEVEL",
@@ -3938,7 +3966,7 @@ achievement_tbl = {
 		title = "Poring is Love",
 		content = {
 			summary = "Complete all objective tasks",
-			details = "You're the true enthusiasts of poring things!"
+			details = "You're the true enthusiast of poring things!"
 		},
 		resource = {
 			[1] = { text = "Complete 'Poring - taming' challenge", shortcut = 230101 },
