@@ -2,9 +2,14 @@ ROenglishRE
 =======
 Project created by zackdreaver @2015
 
-An english translation project for Korea Ragnarok Online. Focused on translating items and skills.
+An english translation project for Korea Ragnarok Online Renewal that focused on translating items, skills and textures.
 
-Note: this project should be considered as educational purpose, any commercial or illegal use by people or group aren't author's responsible.
+Note: this project should be considered as educational purposes only, any commercial or illegal use by people or group aren't author's responsibilities.
+
+Prerequisites
+---------
+* Full client of Korea Ragnarok Online
+* 3rd party application to repack data folder into GRF format. (eg: GRF Editor)
 
 Client compatibility list:
 ---------
