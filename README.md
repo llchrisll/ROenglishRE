@@ -1,13 +1,13 @@
 ## ROenglishRE
 Project created by zackdreaver @2015
 
-ROenglishRE is an unofficial english translation (Fan translation) project for Korea Ragnarok Online Renewal that focused on translating items, skills and textures.
+[ROenglishRE](https://rathena.org/board/topic/102689-ragnarok-english-translation-project/) is an unofficial english translation (Fan translation) project for Korea Ragnarok Online Renewal that focused on translating items, skills and textures.
 
 Note: this project should be considered as educational purposes only, any commercial or illegal use by people or group aren't author's responsibilities.
 
 ## Prerequisites
 * Full client of Korea Ragnarok Online
-* 3rd party application to repack data folder into GRF format. (eg: GRF Editor)
+* 3rd party application for repacking **data** folder into GRF format. (eg: [GRF Editor](https://rathena.org/board/topic/77080-grf-grf-editor/))
 
 ## Client compatibility list:
 **2008 and older (Supported)**
