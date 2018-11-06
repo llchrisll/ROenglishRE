@@ -1626,7 +1626,7 @@ Battlefield message#
 casts [%s] skill.#
 Activate lock function#
 Deactivate lock function#
-%s has opened [%s] and rewarded with [%s]!!#
+%s has opened [%s] and received [%s].#
 Swordman#
 Mage#
 Archer#
@@ -2556,7 +2556,7 @@ Requires a Coin.#
 [Shotgun] weapon class must be equipped.#
 [Rifle] weapon class must be equipped.#
 [Revolver] weapon class must be equipped.#
-[Silver Bullet] weapon class must be equipped.#
+[Silver Bullet] must be equipped.#
 Item Sell History#
 Item Purchase History#
 [Grenade Launcher] weapon class must be equipped.#
@@ -2576,9 +2576,9 @@ Evolution material is low.#
 Lack of required materials for evolution.#
 Pet can only be evolved when intimacy is Loyal.#
 Automatic feeding#
-Feeding the pet. %s (%d) remaining#
-Automatic feeding On#
-Automatic feeding Off#
+Your pet has been fed. %s (%d) remaining#
+Automatic feeding is ON#
+Automatic feeding is OFF#
 Update#
 %d minutes ago#
 %d hours ago#
@@ -2591,7 +2591,7 @@ Failed to get items.#
 Please empty your inventory.#
 Zeny obtained.#
 Failed to get zeny.#
-Exceeded the limits of zeny.#
+Exceeded the limit of zeny.#
 Item successfully attached.#
 The name of the recipient must be included.#
 The length of the title must be 4 to 50 characters long.#
@@ -2640,7 +2640,7 @@ The weight has been exceeded. Please free up the possesion window.#
 Failed to open stalls.#
 The roulette wheel is spinning. Please try again after checking with prizes.#
 Lucky Roulette#
-Notify when item sell out#
+Notify when item sells out#
 Please check the fees.#
 Verify user name#
 Schedule deletion#
@@ -2825,7 +2825,7 @@ Airship flight is temporarily unavailable due to atmospheric instability caused 
 Private airship#
 Please try again in a moment.#
 Not enough Zeny to use the private airship.#
-Not enough Cans to use the private airship.#
+Not enough item to use the private airship.#
 You don't meet the level to use the private airship.#
 You cannot move to the selected point by the private airship.#
 You cannot use the private airship from your current location.#
@@ -2838,11 +2838,11 @@ Come and see the new styles.\n(Purchased accessories will be sent via RODEX.)#
 Basic style#
 You can level up the skill from the base Lv. %d.#
 Special symbol can't be used in name#
-MaxHP is to low to use this skill#
-MaxSP is to low to use this skill#
+MaxHP is too low to use this skill#
+MaxSP is too low to use this skill#
 Compare equips#
 Lock item drop#
-Screenshots are not attached#
+Screenshot is not attached#
 TWITTER#
 General#
 Notice#
@@ -2925,7 +2925,7 @@ Assign Guild Leader#
 Are sure want to assign %s as guild leader? After assigned your position will become %s#
 Cancel#
 Do you want to close the shop?#
-%02d day %02d hour %02d minute %02d second#
+%02d day %02d hour %02d min %02d sec#
 Unable to sign in#
 Unable to sign in because the maximum number of sign-in is exceeded#
 Please select a location for your shop#
@@ -2984,36 +2984,36 @@ The same vend shop NPC has been set up#
 Opening shop is not allowed on this location#
 Opening shop is not allowed when there is other character#
 Failed to feed pet, please close RODEX window#
-Set item setting#
+Equipment swap#
 Equip#
 Equipment will dissapear when refine fails#
-Equipment's refine level will decreased when refine fails#
+Equipment's refine level will be decreased when refine fails#
 Equipment will dissapear or refine level will decrease when refine fails#
-You cannot use RODEX while refining. RODEX has closed.#
+You cannot use RODEX while refining. RODEX has been closed.#
 You cannot use RODEX while refining.#
 Please close other windows to continue.#
-Turn On Aura [Aura ON]#
-Turn Off Aura [Aura OFF]#
-Aura is turned off. Please turn it on and try again#
-You need %d bullet(s) to activate the skill.#
-Do you want to change the equipment set?#
-You can not do it while you are dead.#
+Aura effect is ON#
+Aura effect is OFF#
+Aura effect is OFF. Please turn it ON and try again#
+You need %d bullet(s) to use the skill.#
+Do you want to swap the equipment?#
+You can not do it while KO'ed.#
 You can not do it while casting#
 You can not do it while trading#
 You can not do it while opening vendor#
 You can not do it while talking with NPC#
 You can not do it while opening chat room#
 Party members are not connected.#
-You need %d arrow(s) to activate the skill.#
+You need %d arrow(s) to use the skill.#
 Align items#
-Please close item setting window to dump item.#
+To discard item, please close equipment swap window.#
 There is no item to replace.#
 Deleted character#
 %y.%m.%d#
 Access date: %s#
-You can not use bank while refining. Bank has closed.#
+You can not use bank while refining. Bank has been closed.#
 You can not use bank while refining.#
-The item has bind to set equipment.#
+This item has been set for equipment swap.#
 Human#
 Swordman, Mage, Merchant, Acolyte, Thief, Archer, Expanded Classes#
 Doram#
@@ -3037,8 +3037,8 @@ Unable to register item#
 https://member.gnjoy.com.tw/mRO_SecPwd.aspx#
 The selected emblem isn't available, try placing it in emblem folder then try again#
 New Ragnarok Online#
-Please obtain permission first from other user that appears on screenshot or chat room#
-Unable to replace equipment#
+Please obtain permission first from other user that appears in screenshot or chat room#
+Unable to swap equipment#
 Loading the player's name#
 The message contains unrecognizable character#
 Purchase failed#
@@ -3053,8 +3053,8 @@ Buy 100 ea.#
 3rd prize#
 Currently unused#
 Currently unused#
-Gold Lottery Winners#
-Gold Lottery Winners#
+Zeny Lotto Winners#
+Lottery purchase amount#
 Participate in role#
 1st prize#
 2nd prize#
@@ -3062,8 +3062,8 @@ Participate in role#
 Purchase reward items#
 ^1a1a1a1 ^b%d ^/b Lottery will spend \n^4435b2%d gold coin^1a1a1a\nBuy it?#
 Lottery purchase success#
-Insufficient gold coin to purchase lottery#
-Maximum ammount of purchase is 1000#
+Insufficient Zeny to purchase lottery ticket#
+Maximum amount of purchase is 1000#
 Yes#
 No#
 HP#
@@ -3072,7 +3072,7 @@ Lv#
 Lv#
 Exp#
 all on#
-Play Replay Flie#
+Play Replay File#
 P#
 Total#
 Basicinfo#
@@ -3085,19 +3085,19 @@ Chatting#
 Shortcut#
 Status#
 ALL#
-User Defined File Name#
+User defined file name#
 Repeated File Check#
 on#
 <Basic Skin>#
 Select Skin#
 Unable to delete lottery ticket#
 /achievement#
-Gold coin lottery#
-%d gold coin lottery prize#
+Zeny lottery#
+%d Zeny lottery prize#
 %d bonus prize: %s#
-Total gold coins reward#
+Total Zeny reward#
 Total %d reward: %s#
-Purchase gold coin#
+Purchase Zeny#
 Refund amount: %d Zeny\r\nRefund reason: Server failed to draw lottery#
 Add small party window#
 Remove small party window#
@@ -3108,7 +3108,7 @@ Complete#
 Incomplete#
 (Complete!)#
 (Incomplete)#
-Replace equipment#
+Swap equipment#
 CHANGE#
 Strength: ^66cc33Melee physical attack power^ffffff, Weight capacity#
 Agility: ^66cc33Attack speed^ffffff, Flee rate, Physical defense#
@@ -3119,7 +3119,7 @@ Luck: ^66cc33Critical rate^ffffff, Hit rate, Physical attack power, Magical atta
 Physical attack#
 Physical defense#
 Hit rate#
-Critical rate#
+Critical hit rate#
 Affiliated guild#
 Status point#
 Magical attack#
@@ -3135,14 +3135,14 @@ Zoom In#
 Guild#
 Bank#
 Mail#
-Mall#
+Cash Shop#
 Sit#
 Move#
 Rotate#
-Party leader must be appointed to other party member before leaving the party#
+Party leader role must be appointed to other party member before leaving the party#
 Stop watching the replay?#
-Equipment have been placed on equipment replacement window#
-Equipment have been removed from equipment replacement window#
+Equipment have been placed on equipment swap window#
+Equipment have been removed from equipment swap window#
 In the last row#
 %.1f%% (Basic 100%% + Bonus%.1f%%+ %s Server%.1f%% )#
 Chinese#
@@ -3159,14 +3159,14 @@ Sort order#
 General equipment#
 Special equipment#
 Tittle#
-/quake : Screen shake effect On/Off#
-/aura2 : Completly turn aura effect On Off#
+/quake : Screen shake effect ON/OFF#
+/aura2 : Completly turn aura effect ON/OFF#
 Basic settings#
 Advanced settings#
 Set basic settings#
 Set basic settings?#
 Set to these values?#
-To apply these values, restart is required, proceed?#
+To apply these values, client restart is required, proceed?#
 Fog#
 Simplify aura#
 Enable aura#
@@ -3243,7 +3243,7 @@ Try again#
 Please return then select refine material again.#
 Closed due insufficient refine material, please check again.#
 Closed due insufficient zeny, please check again.#
-Closed due insufficient Blacksmith Blessing, please check again.#
+Closed due insufficient Blacksmith's Blessing, please check again.#
 This item has been destroyed.#
 All stats have been reduced.#
 All stats reducement have been disabled.#
@@ -3275,11 +3275,11 @@ You can leave a party after delegation.#
 Upgrade#
 Downgrade#
 Base#
-Modified file found. Please restart the game.#
+Modified file is found. Please restart the game.#
 %s can't be used in this map.#
 Feed \nyourself#
 You can't feed Homunculus while the RODEX window is open.#
-Homunkulus ate the food. '%s' - %d left#
+Homunculus has been fed. '%s' - %d remaining#
 Homunculus automatic feeding is ON#
 Homunculus automatic feeding is OFF#
 Homunculus receives \n10% of master's experiences.#
@@ -3449,13 +3449,13 @@ http://rathena.org#
 You're already friends#
 Can't find other party#
 You're already a friend with another character.#
-Sprite Marble display ON#
-Sprite Marble display OFF#
+Sprite Marble effect is ON#
+Sprite Marble effect is OFF#
 This account has limited in-game access due to a secondary password mis-input. \n %02d hour %02d minute until released, To release it go to -> Change personal information -> and enter your secondary password.#
 You've entered the wrong password 3 times. Your account will be locked for 24 hours to secure your account.\n To release it go to -> Change personal information -> and enter your secondary password.#
 Officer#
-%dday attendance has been paid.#
-There was an error when loading the data account settings. (Please restart to retry. )#
+You have claimed Day-%d attendance reward.#
+There was an error when loading the data account settings. (Please restart to retry.)#
 This skill can only be used when in party.#
 Party recruitment has been canceled.#
 Guild experience can be accumulated up to %d%%.#
@@ -3492,7 +3492,7 @@ Refuse#
 The setting permission is to the party leader.#
 The character could not be found.#
 Close shop#
-Unable to find applicable party,.#
+Unable to find applicable party.#
 You can not join the party because your job level is low.#
 The current requestor is in an area where you can not join the party.#
 Party number exceeded.#
