@@ -1,5 +1,5 @@
 ## ROenglishRE
-Project created by zackdreaver @2015
+Project created by **zackdreaver** @2015
 
 [ROenglishRE](https://rathena.org/board/topic/102689-ragnarok-english-translation-project/) is an unofficial english translation (Fan translation) project for Korea Ragnarok Online Renewal that focused on translating items, skills and textures.
 
@@ -33,18 +33,18 @@ Note: this project should be considered as educational purposes only, any commer
 
 **20170522 - 201712XX (Not supported)**
 * Known issue
-	* Need newer function for itemInfo (2nd Version), otherwise crash.
+	* Requires new itemInfo (2nd Version), otherwise client crashes.
 
 **201712XX - 201804XX (Supported)**
 * Known issue
-	* Need newer function for itemInfo (3rd Version) and new line for costume for each item, otherwise crash. (Use itemInfo_true.lua in system folder)
+	* Requires [new itemInfo (3rd Version)](https://github.com/zackdreaver/ROenglishRE/blob/master/System/itemInfo_true_V3.lua)
 
 **201804XX - 201806XX (Not supported)**
 * Known issue
-	* Need newer function for itemInfo (4th Version) and new line for costume for each item, otherwise crash.
+	* Requires new itemInfo (4th Version), otherwise client crashes.
 
 **201806XX - XXXXXXXX (Not supported)**
 * Known issue
-	* Need newer function for itemInfo (5th Version) and new lines for costume each item and EffectID for card, otherwise crash.
+	* Requires new itemInfo [(5th Version)](https://github.com/zackdreaver/ROenglishRE/blob/master/System/itemInfo_true_V5.lua)
 	* Need new textures for character selection screen, check extra folder.
-	* Need extra function for skilltreeview.lub, otherwise crash.
+	* Need extra function for skilltreeview.lub, otherwise client crashes.
