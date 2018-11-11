@@ -87,7 +87,8 @@ HatEFID = {
 	HAT_EF_Magic_Star_TW = 86,
 	HAT_Digital_Space = 87,
 	HAT_EF_Sleipnir = 88,
-	HAT_EF_C_Maple_Which_Falls_Rd = 89
+	HAT_EF_C_Maple_Which_Falls_Rd = 89,
+	HAT_EF_MagiccircleRainbow = 90
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -200,11 +201,7 @@ hatEffectTable = {
 		hatEffectPosX = 0
 	},
 	[HatEFID.HAT_EF_WHITEBODY] = { hatEffectID = 1131 },
-	[HatEFID.HAT_EF_WATER_BELOW2] = {
-		resourceFileName = "efst_WATER_BELOW\\WATER_BELOW.str",
-		hatEffectPos = -10,
-		hatEffectPosX = 0
-	},
+	[HatEFID.HAT_EF_WATER_BELOW2] = { hatEffectID = 838 },
 	[HatEFID.HAT_EF_firework] = {
 		resourceFileName = "efst_firework\\firework.str",
 		hatEffectPos = 0,
@@ -258,17 +255,20 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_Full_BloomCherry_Tree] = {
 		resourceFileName = "efst_Full_BloomCherry_Tree\\Full_BloomCherry_Tree.str",
 		hatEffectPos = 0,
-		hatEffectPosX = 0
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_C_Blessings_Of_Soul] = {
 		resourceFileName = "efst_C_Blessings_Of_Soul\\ blessingsofsoul.str",
 		hatEffectPos = 0,
-		hatEffectPosX = 0
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_ManyStars] = {
 		resourceFileName = "efst_ManyStars\\hikariga.str",
 		hatEffectPos = 0,
-		hatEffectPosX = 0
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_SUBJECT_AURA_GOLD] = { hatEffectID = 1211 },
 	[HatEFID.HAT_EF_SUBJECT_AURA_WHITE] = { hatEffectID = 1212 },
@@ -276,7 +276,8 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_C_Shining_Angel_Wing] = {
 		resourceFileName = "efst_C_Shining_Angel_Wing\\C_Shining_Angel_Wing.str",
 		hatEffectPos = 0,
-		hatEffectPosX = 0
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_Magic_Star_TW] = {
 		resourceFileName = "efst_Mstone\\stoneofint2.str",
@@ -289,6 +290,13 @@ hatEffectTable = {
 		resourceFileName = "efst_C_Maple_Which_Falls_Rd\\C_Maple_Which_Falls_Rd.str",
 		hatEffectPos = 0,
 		hatEffectPosX = 0
+	},
+	[HatEFID.HAT_EF_MagiccircleRainbow] = {
+		resourceFileName = "efst_MagiccircleRainbow\\mc.str",
+		hatEffectPos = -12,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isIgnoreRiding = true
 	}
 }
 effectHatItemTable = {
