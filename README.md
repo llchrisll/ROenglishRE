@@ -37,7 +37,7 @@ Note: this project should be considered as educational purposes only, any commer
 
 **201712XX - 201804XX (Supported)**
 * Known issue
-	* Requires [new itemInfo (3rd Version)](https://github.com/zackdreaver/ROenglishRE/blob/master/System/itemInfo_true_V3.lua)
+	* Requires new itemInfo [(3rd Version)](https://github.com/zackdreaver/ROenglishRE/blob/master/System/itemInfo_true_V3.lua)
 
 **201804XX - 201806XX (Not supported)**
 * Known issue
