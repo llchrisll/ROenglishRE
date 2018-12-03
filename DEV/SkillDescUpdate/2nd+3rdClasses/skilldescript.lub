@@ -230,7 +230,7 @@ SKILL_DESCRIPT = {
 		"23^CC3399Requirement: Napalm Beat 7, Soul Strike 5^000000",
 		"8^CC3399Requirement: Aspersio 4, Sanctuary 3^000000",
 		"Skill Form: ^339966Active^000000",
-		"Type: ^FF0000Magical, Supportive^000000",
+		"Type: ^339900Supportive, Magic^000000",
 		"Target: ^6666CC1 Cell^000000",
 		"Description: ^777777Creates a magic barrier on",
 		"a targeted spot that will block certain",
@@ -299,11 +299,11 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical, Debuff^000000",
 		"Target: ^6666CC1 Enemy^000000",
-		"Description: ^777777Inflicts water magic on a target that",
-		"has a chance to inflict ^663399Frozen^777777 status.",
-		"^663399Frozen^777777 chance and duration are",
-		"affected by target's level, MDEF and LUK",
-		"stats.^000000",
+		"Description: ^777777Inflicts water magic on",
+		"a target that has a chance to inflict",
+		"^663399Frozen^777777 status. ^663399Frozen^777777 chance and",
+		"duration are affected by target's level,",
+		"MDEF and LUK stats.^000000",
 		"Lv 1: ^777777110% MATK, Frozen chance: 38%^000000",
 		"Lv 2: ^777777120% MATK, Frozen chance: 41%^000000",
 		"Lv 3: ^777777130% MATK, Frozen chance: 44%^000000",
@@ -560,30 +560,54 @@ SKILL_DESCRIPT = {
 		"restored. Weapon refine level and MATK",
 		"also affect the amount of HP restored.^000000"
 	},
-	-- Next update
 	[SKID.AL_INCAGI] = {
 		"Increase Agility",
 		"Max Level: 10",
 		"^CC3399Requirement: Heal 3^000000",
-		"Skill Form: ^339900Supportive^000000",
-		"Target: ^777777Player^000000",
+		"Skill Form: ^339966Active^000000",
+		"Type: ^339900Buff^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Increases targeted",
-		"character's movement speed and AGI stat",
-		"for the duration of the skill. Drains 15",
-		"HP from the caster after each cast.^000000"
+		"character's movement and attack speed",
+		"for the duration of skill. Drains 15",
+		"HP from the caster after each cast.",
+		"When used on target that affected by",
+		"^0000FFDecrease Agility^777777 status, this skill will",
+		"release target from that status then",
+		"give target an ^0000FFIncrease Agility^777777 status.^000000",
+		"Lv 1: ^777777AGI +3, ASPD +1%, 60 sec^000000",
+		"Lv 2: ^777777AGI +4, ASPD +2%, 80 sec^000000",
+		"Lv 3: ^777777AGI +5, ASPD +3%, 100 sec^000000",
+		"Lv 4: ^777777AGI +6, ASPD +4%, 120 sec^000000",
+		"Lv 5: ^777777AGI +7, ASPD +5%, 140 sec^000000",
+		"Lv 6: ^777777AGI +8, ASPD +6%, 160 sec^000000",
+		"Lv 7: ^777777AGI +9, ASPD +7%, 180 sec^000000",
+		"Lv 8: ^777777AGI +10, ASPD +8%, 200 sec^000000",
+		"Lv 9: ^777777AGI +11, ASPD +9%, 220 sec^000000",
+		"LV10: ^777777AGI +12, ASPD +10%, 240 sec^000000"
 	},
 	[SKID.AL_DECAGI] = {
 		"Decrease Agility",
 		"Max Level: 10",
 		"^CC3399Requirement: Increase Agility 1^000000",
-		"Skill Form: ^339900Supportive^000000",
-		"Target: ^6666CCEnemy^000000",
+		"Skill Form: ^339966Active^000000",
+		"Type: ^FF0000Debuff^000000",
+		"Target: ^6666CC1 Enemy^000000",
 		"Description: ^777777Reduces target's movement",
 		"speed and AGI stat for the skill's",
-		"duration. The success rate is affected",
-		"by the caster's INT and the target's",
-		"MDEF.^000000"
+		"duration.^000000",
+		"Lv 1: ^777777AGI -3, 53% chance, 20 sec^000000",
+		"Lv 2: ^777777AGI -4, 56% chance, 25 sec^000000",
+		"Lv 3: ^777777AGI -5, 59% chance, 30 sec^000000",
+		"Lv 4: ^777777AGI -6, 62% chance, 35 sec^000000",
+		"Lv 5: ^777777AGI -7, 65% chance, 40 sec^000000",
+		"Lv 6: ^777777AGI -8, 68% chance, 45 sec^000000",
+		"Lv 7: ^777777AGI -9, 71% chance, 50 sec^000000",
+		"Lv 8: ^777777AGI -10, 74% chance, 55 sec^000000",
+		"Lv 9: ^777777AGI -11, 77% chance, 60 sec^000000",
+		"LV10: ^777777AGI -12, 80% chance, 65 sec^000000"
 	},
+	-- Next update
 	[SKID.AL_HOLYWATER] = {
 		"Aqua Benedicta",
 		"Max Level: 1",
@@ -808,8 +832,8 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increases the chance of",
 		"dealing double attacks when using",
-		"^990099Dagger^777777. This skill also",
-		"affects Left-Hand damage with ^990099Katar^777777",
+		"^990099Dagger^777777. This skill also affects",
+		"Left-Hand damage with ^990099Katar^777777",
 		"class weapon.^000000"
 	},
 	[SKID.TF_MISS] = {
@@ -8388,8 +8412,8 @@ SKILL_DESCRIPT = {
 		"trap has its element changed to Fire",
 		"elemental. Does not affect boss type",
 		"monsters or players.",
-		"Consumes 1 ^990099Scarlet Point^777777 and 1 ^990099Special Alloy",
-		"Trap^777777.^000000"
+		"Consumes 1 ^990099Scarlet Point^777777 and",
+		"1 ^990099Special Alloy Trap^777777.^000000"
 	},
 	[SKID.RA_COBALTTRAP] = {
 		"Cobalt Trap",
@@ -8400,8 +8424,8 @@ SKILL_DESCRIPT = {
 		"trap has its element changed to Water",
 		"elemental. Does not affect boss type",
 		"monsters or players.",
-		"Consumes 1 ^990099Indigo Point^777777 and 1 ^990099Special Alloy",
-		"Trap^777777.^000000"
+		"Consumes 1 ^990099Indigo Point^777777 and",
+		"1 ^990099Special Alloy Trap^777777.^000000"
 	},
 	[SKID.RA_MAIZETRAP] = {
 		"Maze Trap",
@@ -8412,8 +8436,8 @@ SKILL_DESCRIPT = {
 		"trap has its element changed to Earth",
 		"elemental. Does not affect boss type",
 		"monsters or players.",
-		"Consumes 1 ^990099Lime Green Point^777777 and 1 ^990099Special Alloy",
-		"Trap^777777.^000000"
+		"Consumes 1 ^990099Lime Green Point^777777 and",
+		"1 ^990099Special Alloy Trap^777777.^000000"
 	},
 	[SKID.RA_VERDURETRAP] = {
 		"Verdure Trap",
@@ -8424,8 +8448,8 @@ SKILL_DESCRIPT = {
 		"trap has its element changed to Wind",
 		"elemental. Does not affect boss type",
 		"monsters or players.",
-		"Consumes 1 ^990099Yellow Wish Point^777777 and 1 ^990099Special Alloy",
-		"Trap^777777.^000000"
+		"Consumes 1 ^990099Yellow Wish Point^777777 and",
+		"1 ^990099Special Alloy Trap^777777.^000000"
 	},
 	[SKID.RA_FIRINGTRAP] = {
 		"Firing Trap",
