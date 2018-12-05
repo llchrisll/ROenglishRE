@@ -45,7 +45,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +28^000000",
 		"Lv 8: ^777777Damage +32^000000",
 		"Lv 9: ^777777Damage +36^000000",
-		"LV10: ^777777Damage +40^000000"
+		"Lv10: ^777777Damage +40^000000"
 	},
 	[SKID.SM_TWOHAND] = {
 		"Two-Handed Sword Mastery",
@@ -63,7 +63,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +28^000000",
 		"Lv 8: ^777777Damage +32^000000",
 		"Lv 9: ^777777Damage +36^000000",
-		"LV10: ^777777Damage +40^000000"
+		"Lv10: ^777777Damage +40^000000"
 	},
 	[SKID.SM_RECOVERY] = {
 		"Increase HP Recovery",
@@ -81,35 +81,35 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Restores (35 + 1.4% of MaxHP) HP^000000",
 		"Lv 8: ^777777Restores (40 + 1.6% of MaxHP) HP^000000",
 		"Lv 9: ^777777Restores (45 + 1.8% of MaxHP) HP^000000",
-		"LV10: ^777777Restores (50 + 2.0% of MaxHP) HP^000000"
+		"Lv10: ^777777Restores (50 + 2.0% of MaxHP) HP^000000"
 	},
 	[SKID.SM_BASH] = {
 		"Bash",
 		"Max Level: 10",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Physical Melee^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Hits an enemy with crushing",
 		"force. If ^0000FFFatal Blow^777777 skill is learned, ^0000FFBash^777777",
 		"will have an added ^663399Stun^777777 effect at",
 		"Level 6 and higher.^000000",
-		"Lv 1: ^777777130% damage, HIT +5%, 8 SP^000000",
-		"Lv 2: ^777777160% damage, HIT +10%, 8 SP^000000",
-		"Lv 3: ^777777190% damage, HIT +15%, 8 SP^000000",
-		"Lv 4: ^777777220% damage, HIT +20%, 8 SP^000000",
-		"Lv 5: ^777777250% damage, HIT +25%, 8 SP^000000",
-		"Lv 6: ^777777280% damage, HIT +30%, 15 SP^000000",
-		"Lv 7: ^777777310% damage, HIT +35%, 15 SP^000000",
-		"Lv 8: ^777777340% damage, HIT +40%, 15 SP^000000",
-		"Lv 9: ^777777370% damage, HIT +45%, 15 SP^000000",
-		"LV10: ^777777400% damage, HIT +50%, 15 SP^000000"
+		"Lv 1: ^777777130% damage, HIT rate +5%, 8 SP^000000",
+		"Lv 2: ^777777160% damage, HIT rate +10%, 8 SP^000000",
+		"Lv 3: ^777777190% damage, HIT rate +15%, 8 SP^000000",
+		"Lv 4: ^777777220% damage, HIT rate +20%, 8 SP^000000",
+		"Lv 5: ^777777250% damage, HIT rate +25%, 8 SP^000000",
+		"Lv 6: ^777777280% damage, HIT rate +30%, 15 SP^000000",
+		"Lv 7: ^777777310% damage, HIT rate +35%, 15 SP^000000",
+		"Lv 8: ^777777340% damage, HIT rate +40%, 15 SP^000000",
+		"Lv 9: ^777777370% damage, HIT rate +45%, 15 SP^000000",
+		"Lv10: ^777777400% damage, HIT rate +50%, 15 SP^000000"
 	},
 	[SKID.SM_PROVOKE] = {
 		"Provoke",
 		"Max Level: 10",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Debuff^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Enrages a target, reducing",
 		"Defense by VIT on Player and physical",
 		"defense on Monster, while increasing its",
@@ -125,7 +125,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +23%, Defense -40%^000000",
 		"Lv 8: ^777777Damage +26%, Defense -45%^000000",
 		"Lv 9: ^777777Damage +29%, Defense -50%^000000",
-		"LV10: ^777777Damage +32%, Defense -55%^000000"
+		"Lv10: ^777777Damage +32%, Defense -55%^000000"
 	},
 	[SKID.SM_MAGNUM] = {
 		"Magnum Break",
@@ -148,7 +148,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777240% damage^000000",
 		"Lv 8: ^777777260% damage^000000",
 		"Lv 9: ^777777280% damage^000000",
-		"LV10: ^777777300% damage^000000"
+		"Lv10: ^777777300% damage^000000"
 	},
 	[SKID.SM_ENDURE] = {
 		"Endure",
@@ -173,7 +173,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Lasts 28 sec, MDEF +7^000000",
 		"Lv 8: ^777777Lasts 31 sec, MDEF +8^000000",
 		"Lv 9: ^777777Lasts 34 sec, MDEF +9^000000",
-		"LV10: ^777777Lasts 37 sec, MDEF +10^000000"
+		"Lv10: ^777777Lasts 37 sec, MDEF +10^000000"
 	},
 	[SKID.MG_SRECOVERY] = {
 		"Increase SP Recovery",
@@ -191,7 +191,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Restores (35 + 1.4% of MaxSP) SP^000000",
 		"Lv 8: ^777777Restores (40 + 1.6% of MaxSP) SP^000000",
 		"Lv 9: ^777777Restores (45 + 1.8% of MaxSP) SP^000000",
-		"LV10: ^777777Restores (50 + 2.0% of MaxSP) SP^000000"
+		"Lv10: ^777777Restores (50 + 2.0% of MaxSP) SP^000000"
 	},
 	[SKID.MG_SIGHT] = {
 		"Sight",
@@ -207,7 +207,7 @@ SKILL_DESCRIPT = {
 		"Max Level: 10",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Uses telekinesis power to",
 		"attack a target and 3x3 cells around it",
 		"with Ghost elemental magic. The damage",
@@ -221,7 +221,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777140% MATK, 15 SP^000000",
 		"Lv 8: ^777777150% MATK, 15 SP^000000",
 		"Lv 9: ^777777160% MATK, 15 SP^000000",
-		"LV10: ^777777170% MATK, 18 SP^000000"
+		"Lv10: ^777777170% MATK, 18 SP^000000"
 	},
 	[SKID.MG_SAFETYWALL] = {
 		"Safety Wall",
@@ -247,7 +247,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Durability: 2100, Block: 8 times^000000",
 		"Lv 8: ^777777Durability: 2400, Block: 9 times^000000",
 		"Lv 9: ^777777Durability: 2700, Block: 10 times^000000",
-		"LV10: ^777777Durability: 3000, Block: 11 times^000000"
+		"Lv10: ^777777Durability: 3000, Block: 11 times^000000"
 	},
 	[SKID.MG_SOULSTRIKE] = {
 		"Soul Strike",
@@ -255,7 +255,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Napalm Beat 4^000000",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Summons holy spirit to",
 		"inflict ghost elemental attack on a",
 		"target. Each attack equal to 100% MATK.",
@@ -270,14 +270,14 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777774 attacks, Undead: +35%, 36 SP^000000",
 		"Lv 8: ^7777774 attacks, Undead: +40%, 32 SP^000000",
 		"Lv 9: ^7777775 attacks, Undead: +45%, 42 SP^000000",
-		"LV10: ^7777775 attacks, Undead: +50%, 38 SP^000000"
+		"Lv10: ^7777775 attacks, Undead: +50%, 38 SP^000000"
 	},
 	[SKID.MG_COLDBOLT] = {
 		"Cold Bolt",
 		"Max Level: 10",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Summons bolts of frigid ice",
 		"to strike at an enemy. Each attack equal",
 		"to 100% MATK.^000000",
@@ -290,7 +290,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777777 attacks, 24 SP^000000",
 		"Lv 8: ^7777778 attacks, 26 SP^000000",
 		"Lv 9: ^7777779 attacks, 28 SP^000000",
-		"LV10: ^77777710 attacks, 30 SP^000000"
+		"Lv10: ^77777710 attacks, 30 SP^000000"
 	},
 	[SKID.MG_FROSTDIVER] = {
 		"Frost Diver",
@@ -298,7 +298,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Cold Bolt 5^000000",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical, Debuff^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Inflicts water magic on",
 		"a target that has a chance to inflict",
 		"^663399Frozen^777777 status. ^663399Frozen^777777 chance and",
@@ -313,14 +313,14 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777170% MATK, Frozen chance: 56%^000000",
 		"Lv 8: ^777777180% MATK, Frozen chance: 59%^000000",
 		"Lv 9: ^777777190% MATK, Frozen chance: 62%^000000",
-		"LV10: ^777777200% MATK, Frozen chance: 65%^000000"
+		"Lv10: ^777777200% MATK, Frozen chance: 65%^000000"
 	},
 	[SKID.MG_STONECURSE] = {
 		"Stone Curse",
 		"Max Level: 10",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical, Debuff^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Inflicts ^663399Stone Curse^777777 to a",
 		"target. Consumes 1 ^990099Red Gemstone^777777.",
 		"From level 6, ^663399Red Gemstone^777777 is consumed",
@@ -337,7 +337,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Stone Curse chance: 48%^000000",
 		"Lv 8: ^777777Stone Curse chance: 52%^000000",
 		"Lv 9: ^777777Stone Curse chance: 56%^000000",
-		"LV10: ^777777Stone Curse chance: 60%^000000"
+		"Lv10: ^777777Stone Curse chance: 60%^000000"
 	},
 	[SKID.MG_FIREBALL] = {
 		"Fire Ball",
@@ -345,7 +345,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Fire Bolt 4^000000",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Summons a fire ball to",
 		"damage a target and all enemies within",
 		"5x5 cells area. Inner area (3x3) and",
@@ -389,7 +389,7 @@ SKILL_DESCRIPT = {
 		"Max Level: 10",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Attacks a target with arrow",
 		"made of fire inflicting ^FF0000Fire^777777 elemental",
 		"magic attack that equal to 100% MATK.^000000",
@@ -409,7 +409,7 @@ SKILL_DESCRIPT = {
 		"Max Level: 10",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Magical^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Drops lightning on target",
 		"inflicting ^33CC00Wind^777777 elemental magic attack",
 		"that equal to 100% MATK.^000000",
@@ -465,7 +465,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage reduction +21^000000",
 		"Lv 8: ^777777Damage reduction +24^000000",
 		"Lv 9: ^777777Damage reduction +27^000000",
-		"LV10: ^777777Damage reduction +30^000000"
+		"Lv10: ^777777Damage reduction +30^000000"
 	},
 	[SKID.AL_DEMONBANE] = {
 		"Demon Bane",
@@ -486,7 +486,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.AL_RUWACH] = {
 		"Ruwach",
@@ -585,7 +585,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777AGI +9, ASPD +7%, Lasts 180 sec^000000",
 		"Lv 8: ^777777AGI +10, ASPD +8%, Lasts 200 sec^000000",
 		"Lv 9: ^777777AGI +11, ASPD +9%, Lasts 220 sec^000000",
-		"LV10: ^777777AGI +12, ASPD +10%, Lasts 240 sec^000000"
+		"Lv10: ^777777AGI +12, ASPD +10%, Lasts 240 sec^000000"
 	},
 	[SKID.AL_DECAGI] = {
 		"Decrease Agility",
@@ -593,7 +593,7 @@ SKILL_DESCRIPT = {
 		"^CC3399Requirement: Increase Agility 1^000000",
 		"Skill Form: ^339966Active^000000",
 		"Type: ^FF0000Debuff^000000",
-		"Target: ^6666CC1 Enemy^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Reduces target's movement",
 		"speed and AGI stat for the skill's",
 		"duration.^000000",
@@ -606,7 +606,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777AGI -9, 71% chance, Lasts 50 sec^000000",
 		"Lv 8: ^777777AGI -10, 74% chance, Lasts 55 sec^000000",
 		"Lv 9: ^777777AGI -11, 77% chance, Lasts 60 sec^000000",
-		"LV10: ^777777AGI -12, 80% chance, Lasts 65 sec^000000"
+		"Lv10: ^777777AGI -12, 80% chance, Lasts 65 sec^000000"
 	},
 	[SKID.AL_HOLYWATER] = {
 		"Aqua Benedicta",
@@ -634,7 +634,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777DEF -38%, 51% chance^000000",
 		"Lv 8: ^777777DEF -42%, 55% chance^000000",
 		"Lv 9: ^777777DEF -46%, 59% chance^000000",
-		"LV10: ^777777DEF -50%, 63% chance^000000"
+		"Lv10: ^777777DEF -50%, 63% chance^000000"
 	},
 	[SKID.AL_ANGELUS] = {
 		"Angelus",
@@ -655,7 +655,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777DEF +35%, HP +350, Lasts 210 sec^000000",
 		"Lv 8: ^777777DEF +40%, HP +400, Lasts 240 sec^000000",
 		"Lv 9: ^777777DEF +45%, HP +450, Lasts 270 sec^000000",
-		"LV10: ^777777DEF +50%, HP +500, Lasts 300 sec^000000"
+		"Lv10: ^777777DEF +50%, HP +500, Lasts 300 sec^000000"
 	},
 	[SKID.AL_BLESSING] = {
 		"Blessing",
@@ -680,7 +680,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777STR,INT,DEX +7, HIT +14, 180 sec^000000",
 		"Lv 8: ^777777STR,INT,DEX +8, HIT +16, 200 sec^000000",
 		"Lv 9: ^777777STR,INT,DEX +9, HIT +18, 220 sec^000000",
-		"LV10: ^777777STR,INT,DEX +10, HIT +20, 240 sec^000000"
+		"Lv10: ^777777STR,INT,DEX +10, HIT +20, 240 sec^000000"
 	},
 	[SKID.AL_CURE] = {
 		"Cure",
@@ -709,7 +709,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Maximum weight +1400^000000",
 		"Lv 8: ^777777Maximum weight +1600^000000",
 		"Lv 9: ^777777Maximum weight +1800^000000",
-		"LV10: ^777777Maximum weight +2000^000000"
+		"Lv10: ^777777Maximum weight +2000^000000"
 	},
 	[SKID.MC_DISCOUNT] = {
 		"Discount",
@@ -727,7 +727,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777719% discount rate^000000",
 		"Lv 8: ^77777721% discount rate^000000",
 		"Lv 9: ^77777723% discount rate^000000",
-		"LV10: ^77777724% discount rate^000000"
+		"Lv10: ^77777724% discount rate^000000"
 	},
 	[SKID.MC_OVERCHARGE] = {
 		"Overcharge",
@@ -745,7 +745,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777719% overcharge rate^000000",
 		"Lv 8: ^77777721% overcharge rate^000000",
 		"Lv 9: ^77777723% overcharge rate^000000",
-		"LV10: ^77777724% overcharge rate^000000"
+		"Lv10: ^77777724% overcharge rate^000000"
 	},
 	[SKID.MC_PUSHCART] = {
 		"Pushcart",
@@ -768,7 +768,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Movement speed penalty 15%^000000",
 		"Lv 8: ^777777Movement speed penalty 10%^000000",
 		"Lv 9: ^777777Movement speed penalty 5%^000000",
-		"LV10: ^777777No movement speed penalty^000000"
+		"Lv10: ^777777No movement speed penalty^000000"
 	},
 	[SKID.MC_IDENTIFY] = {
 		"Item Appraisal",
@@ -797,7 +797,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Maximum items: 9^000000",
 		"Lv 8: ^777777Maximum items: 10^000000",
 		"Lv 9: ^777777Maximum items: 11^000000",
-		"LV10: ^777777Maximum items: 12^000000"
+		"Lv10: ^777777Maximum items: 12^000000"
 	},
 	[SKID.MC_MAMMONITE] = {
 		"Mammonite",
@@ -818,7 +818,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777450% damage, 700 zeny^000000",
 		"Lv 8: ^777777500% damage, 800 zeny^000000",
 		"Lv 9: ^777777550% damage, 900 zeny^000000",
-		"LV10: ^777777600% damage, 1000 zeny^000000"
+		"Lv10: ^777777600% damage, 1000 zeny^000000"
 	},
 	[SKID.AC_OWL] = {
 		"Owl's Eye",
@@ -834,7 +834,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777DEX +7^000000",
 		"Lv 8: ^777777DEX +8^000000",
 		"Lv 9: ^777777DEX +9^000000",
-		"LV10: ^777777DEX +10^000000"
+		"Lv10: ^777777DEX +10^000000"
 	},
 	[SKID.AC_VULTURE] = {
 		"Vulture's Eye",
@@ -844,16 +844,16 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increases attack range",
 		"and hit rate with ^990099Bow^777777 class weapon.^000000",
-		"Lv 1: ^777777Range +1, HIT +1%^000000",
-		"Lv 2: ^777777Range +2, HIT +2%^000000",
-		"Lv 3: ^777777Range +3, HIT +3%^000000",
-		"Lv 4: ^777777Range +4, HIT +4%^000000",
-		"Lv 5: ^777777Range +5, HIT +5%^000000",
-		"Lv 6: ^777777Range +6, HIT +6%^000000",
-		"Lv 7: ^777777Range +7, HIT +7%^000000",
-		"Lv 8: ^777777Range +8, HIT +8%^000000",
-		"Lv 9: ^777777Range +9, HIT +9%^000000",
-		"LV10: ^777777Range +10, HIT +10%^000000"
+		"Lv 1: ^777777Range +1, HIT rate +1%^000000",
+		"Lv 2: ^777777Range +2, HIT rate +2%^000000",
+		"Lv 3: ^777777Range +3, HIT rate +3%^000000",
+		"Lv 4: ^777777Range +4, HIT rate +4%^000000",
+		"Lv 5: ^777777Range +5, HIT rate +5%^000000",
+		"Lv 6: ^777777Range +6, HIT rate +6%^000000",
+		"Lv 7: ^777777Range +7, HIT rate +7%^000000",
+		"Lv 8: ^777777Range +8, HIT rate +8%^000000",
+		"Lv 9: ^777777Range +9, HIT rate +9%^000000",
+		"Lv10: ^777777Range +10, HIT rate +10%^000000"
 	},
 	[SKID.AC_CONCENTRATION] = {
 		"Improve Concentration",
@@ -862,25 +862,25 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^339966Active^000000",
 		"Type: ^339900Buff, Supportive^000000",
 		"Description: ^777777Boosts AGI and DEX",
-		"temporarily as well as detect nearby",
+		"temporarily as well as detects nearby",
 		"hidden characters in 3x3 AoE.^000000",
-		"Lv 1: ^777777Range +1, HIT +1%^000000",
-		"Lv 2: ^777777Range +2, HIT +2%^000000",
-		"Lv 3: ^777777Range +3, HIT +3%^000000",
-		"Lv 4: ^777777Range +4, HIT +4%^000000",
-		"Lv 5: ^777777Range +5, HIT +5%^000000",
-		"Lv 6: ^777777Range +6, HIT +6%^000000",
-		"Lv 7: ^777777Range +7, HIT +7%^000000",
-		"Lv 8: ^777777Range +8, HIT +8%^000000",
-		"Lv 9: ^777777Range +9, HIT +9%^000000",
-		"LV10: ^777777Range +10, HIT +10%^000000"
+		"Lv 1: ^777777Range +1, HIT rate +1%^000000",
+		"Lv 2: ^777777Range +2, HIT rate +2%^000000",
+		"Lv 3: ^777777Range +3, HIT rate +3%^000000",
+		"Lv 4: ^777777Range +4, HIT rate +4%^000000",
+		"Lv 5: ^777777Range +5, HIT rate +5%^000000",
+		"Lv 6: ^777777Range +6, HIT rate +6%^000000",
+		"Lv 7: ^777777Range +7, HIT rate +7%^000000",
+		"Lv 8: ^777777Range +8, HIT rate +8%^000000",
+		"Lv 9: ^777777Range +9, HIT rate +9%^000000",
+		"Lv10: ^777777Range +10, HIT rate +10%^000000"
 	},
 	[SKID.AC_DOUBLE] = {
 		"Double Strafe",
 		"Max Level: 10",
 		"17^CC3399Requirement: Vulture's Eye 10^000000",
 		"Skill Form: ^339966Active^000000",
-		"Type: ^FF0000Physical Range^000000",
+		"Type: ^FF0000Physical Ranged^000000",
 		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Fires an arrow that will",
 		"inflict double damage on target.",
@@ -894,14 +894,14 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777160% ATK x 2^000000",
 		"Lv 8: ^777777170% ATK x 2^000000",
 		"Lv 9: ^777777180% ATK x 2^000000",
-		"LV10: ^777777190% ATK x 2^000000"
+		"Lv10: ^777777190% ATK x 2^000000"
 	},
 	[SKID.AC_SHOWER] = {
 		"Arrow Shower",
 		"Max Level: 10",
 		"^CC3399Requirement: Double Strafe 5^000000",
 		"Skill Form: ^339966Active^000000",
-		"Type: ^FF0000Physical Range^000000",
+		"Type: ^FF0000Physical Ranged^000000",
 		"Target: ^6666CC1 Cell^000000",
 		"Description: ^777777Fires an arrow at targeted",
 		"cell damaging all enemies on 3x3 AoE.",
@@ -917,7 +917,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777220% ATK^000000",
 		"Lv 8: ^777777230% ATK^000000",
 		"Lv 9: ^777777240% ATK^000000",
-		"LV10: ^777777250% ATK^000000"
+		"Lv10: ^777777250% ATK^000000"
 	},
 	[SKID.TF_DOUBLE] = {
 		"Double Attack",
@@ -929,16 +929,16 @@ SKILL_DESCRIPT = {
 		"affects ^0000FFDouble Attack^777777 chance and HIT",
 		"rate bonus. This skill also affects",
 		"Left-Hand damage of ^990099Katar^777777 class weapon.^000000",
-		"Lv 1: ^7777775% chance, HIT +1%^000000",
-		"Lv 2: ^77777710% chance, HIT +2%^000000",
-		"Lv 3: ^77777715% chance, HIT +3%^000000",
-		"Lv 4: ^77777720% chance, HIT +4%^000000",
-		"Lv 5: ^77777725% chance, HIT +5%^000000",
-		"Lv 6: ^77777730% chance, HIT +6%^000000",
-		"Lv 7: ^77777735% chance, HIT +7%^000000",
-		"Lv 8: ^77777740% chance, HIT +8%^000000",
-		"Lv 9: ^77777745% chance, HIT +9%^000000",
-		"LV10: ^77777750% chance, HIT +10%^000000"
+		"Lv 1: ^7777775% chance, HIT rate +1%^000000",
+		"Lv 2: ^77777710% chance, HIT rate +2%^000000",
+		"Lv 3: ^77777715% chance, HIT rate +3%^000000",
+		"Lv 4: ^77777720% chance, HIT rate +4%^000000",
+		"Lv 5: ^77777725% chance, HIT rate +5%^000000",
+		"Lv 6: ^77777730% chance, HIT rate +6%^000000",
+		"Lv 7: ^77777735% chance, HIT rate +7%^000000",
+		"Lv 8: ^77777740% chance, HIT rate +8%^000000",
+		"Lv 9: ^77777745% chance, HIT rate +9%^000000",
+		"Lv10: ^77777750% chance, HIT rate +10%^000000"
 	},
 	[SKID.TF_MISS] = {
 		"Improve Dodge",
@@ -958,7 +958,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Flee +21, 2nd Classes: Flee +28^000000",
 		"Lv 8: ^777777Flee +24, 2nd Classes: Flee +32^000000",
 		"Lv 9: ^777777Flee +27, 2nd Classes: Flee +36^000000",
-		"LV10: ^777777Flee +30, 2nd Classes: Flee +30^000000"
+		"Lv10: ^777777Flee +30, 2nd Classes: Flee +30^000000"
 	},
 	[SKID.TF_STEAL] = {
 		"Steal",
@@ -981,7 +981,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777744% base chance^000000",
 		"Lv 8: ^77777750% base chance^000000",
 		"Lv 9: ^77777756% base chance^000000",
-		"LV10: ^77777762% base chance^000000"
+		"Lv10: ^77777762% base chance^000000"
 	},
 	[SKID.TF_HIDING] = {
 		"Hiding",
@@ -1004,7 +1004,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777210 sec, Drains 1 SP per 11 sec^000000",
 		"Lv 8: ^777777240 sec, Drains 1 SP per 12 sec^000000",
 		"Lv 9: ^777777270 sec, Drains 1 SP per 13 sec^000000",
-		"LV10: ^777777300 sec, Drains 1 SP per 14 sec^000000"
+		"Lv10: ^777777300 sec, Drains 1 SP per 14 sec^000000"
 	},
 	[SKID.TF_POISON] = {
 		"Envenom",
@@ -1029,7 +1029,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +105, 38% Poison chance^000000",
 		"Lv 8: ^777777Damage +120, 42% Poison chance^000000",
 		"Lv 9: ^777777Damage +135, 46% Poison chance^000000",
-		"LV10: ^777777Damage +150, 50% Poison chance^000000"
+		"Lv10: ^777777Damage +150, 50% Poison chance^000000"
 	},
 	[SKID.TF_DETOXIFY] = {
 		"Detoxify",
@@ -1041,20 +1041,20 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Removes ^663399Poison^777777 status from",
 		"a targeted character.^000000",
 	},
-	-- Next update
 	[SKID.ALL_RESURRECTION] = {
 		"Resurrection",
 		"Max Level: 4",
 		"^CC3399Requirement: Increase SP Recovery 4,",
 		"Status Recovery 1^000000",
-		"Skill Form: ^339900Supportive^000000",
-		"Target: ^777777Dead Player^000000",
+		"Skill Form: ^339966Active^000000",
+		"Type: ^339900Recovery^000000",
+		"Target: ^6666CC1 Character^000000",
 		"Description: ^777777Revives KO'ed character.",
 		"Consumes 1 ^990099Blue Gemstone^777777.^000000",
-		"Lv 1: ^777777Rise with 10% of Max HP^000000",
-		"Lv 2: ^777777Rise with 30% of Max HP^000000",
-		"Lv 3: ^777777Rise with 50% of Max HP^000000",
-		"Lv 4: ^777777Rise with 80% of Max HP^000000"
+		"Lv 1: ^777777Rises with 10% of Max HP^000000",
+		"Lv 2: ^777777Rises with 30% of Max HP^000000",
+		"Lv 3: ^777777Rises with 50% of Max HP^000000",
+		"Lv 4: ^777777Rises with 80% of Max HP^000000"
 	},
 	[SKID.KN_SPEARMASTERY] = {
 		"Spear Mastery",
@@ -1073,74 +1073,132 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +28^000000",
 		"Lv 8: ^777777Damage +32^000000",
 		"Lv 9: ^777777Damage +36^000000",
-		"LV10: ^777777Damage +40^000000"
+		"Lv10: ^777777Damage +40^000000"
 	},
 	[SKID.KN_PIERCE] = {
 		"Pierce",
 		"Max Level: 10",
 		"^CC3399Requirement: Spear Mastery 1^000000",
-		"Skill Form: ^FF0000Offensive^000000",
-		"Target: ^6666CCEnemy^000000",
-		"Description: ^777777Attacks an enemy using a",
+		"Skill Form: ^339966Active^000000",
+		"Type: ^FF0000Physical Melee^000000",
+		"Target: ^6666CC1 Character^000000",
+		"Description: ^777777Attacks an enemy by using a",
 		"thrusting stab with a number of additional",
 		"hits that depend on the monster's size.",
+		"When used, HIT rate is increased based",
+		"on skill level.",
 		"Requires ^990099Spear^777777.^000000",
 		"[Small Monsters]: ^7777771 hit^000000",
 		"[Medium Monsters]: ^7777772 hits^000000",
-		"[Large Monsters]: ^7777773 hits^000000"
+		"[Large Monsters]: ^7777773 hits^000000",
+		"Lv 1: ^777777110% ATK per hit, HIT rate +5%^000000",
+		"Lv 2: ^777777120% ATK per hit, HIT rate +10%^000000",
+		"Lv 3: ^777777130% ATK per hit, HIT rate +15%^000000",
+		"Lv 4: ^777777140% ATK per hit, HIT rate +20%^000000",
+		"Lv 5: ^777777150% ATK per hit, HIT rate +25%^000000",
+		"Lv 6: ^777777160% ATK per hit, HIT rate +30%^000000",
+		"Lv 7: ^777777170% ATK per hit, HIT rate +35%^000000",
+		"Lv 8: ^777777180% ATK per hit, HIT rate +40%^000000",
+		"Lv 9: ^777777190% ATK per hit, HIT rate +45%^000000",
+		"Lv10: ^777777200% ATK per hit, HIT rate +50%^000000"
 	},
 	[SKID.KN_BRANDISHSPEAR] = {
 		"Brandish Spear",
 		"Max Level: 10",
 		"^CC3399Requirement: Riding 1, Spear Stab 3^000000",
-		"Skill Form: ^FF0000Offensive^000000",
-		"Target: ^6666CCEnemy^000000",
-		"Description: ^777777A powerful lancing strike",
-		"made while riding a ^990099Pecopeco^777777, ^990099Dragon^777777",
-		"or ^990099Gryphon^777777.",
-		"Requires ^990099Spear^777777.^000000"
+		"Skill Form: ^339966Active^000000",
+		"Type: ^FF0000Physical Ranged^000000",
+		"Target: ^6666CC1 Character^000000",
+		"Description: ^777777Only available when riding",
+		"an animal. Swings a spear with powerful",
+		"force from the distance that will",
+		"inflict physical damage to a target and",
+		"its surrounding. Selected target acts",
+		"as the center of area of damage. STR",
+		"affects damage inflicted. When used,",
+		"character will unable to change weapon",
+		"for a short duration.",
+		"Requires ^990099Spear^777777.^000000",
+		"Lv 1: ^777777500% ATK, 5x2 AoE^000000",
+		"Lv 2: ^777777600% ATK, 5x2 AoE^000000",
+		"Lv 3: ^777777700% ATK, 5x2 AoE^000000",
+		"Lv 4: ^777777800% ATK, 5x3 AoE^000000",
+		"Lv 5: ^777777900% ATK, 5x3 AoE^000000",
+		"Lv 6: ^7777771000% ATK, 5x3 AoE^000000",
+		"Lv 7: ^7777771100% ATK, 5x4 AoE^000000",
+		"Lv 8: ^7777771200% ATK, 5x4 AoE^000000",
+		"Lv 9: ^7777771300% ATK, 5x4 AoE^000000",
+		"Lv10: ^7777771400% ATK, 5x5 AoE^000000"
 	},
 	[SKID.KN_SPEARSTAB] = {
 		"Spear Stab",
 		"Max Level: 10",
 		"^CC3399Requirement: Pierce 5^000000",
-		"Skill Form: ^FF0000Offensive^000000",
-		"Target: ^6666CCEnemy^000000",
-		"Description: ^777777Attacks an enemy with a",
-		"forceful spear stab that will knock it",
-		"back.",
-		"Requires ^990099Spear^777777.^000000"
+		"Skill Form: ^339966Active^000000",
+		"Type: ^FF0000Physical Ranged^000000",
+		"Target: ^6666CC1 Character^000000",
+		"Description: ^777777Deeply pierces a target",
+		"with a spear, inflicting long range",
+		"physical damage to all enemies between",
+		"caster and target then knocking them",
+		"6 cells backward.",
+		"Requires ^990099Spear^777777.^000000",
+		"Lv 1: ^777777120% ATK^000000",
+		"Lv 2: ^777777140% ATK^000000",
+		"Lv 3: ^777777160% ATK^000000",
+		"Lv 4: ^777777180% ATK^000000",
+		"Lv 5: ^777777200% ATK^000000",
+		"Lv 6: ^777777220% ATK^000000",
+		"Lv 7: ^777777240% ATK^000000",
+		"Lv 8: ^777777260% ATK^000000",
+		"Lv 9: ^777777280% ATK^000000",
+		"Lv10: ^777777300% ATK^000000"
 	},
 	[SKID.KN_SPEARBOOMERANG] = {
 		"Spear Boomerang",
 		"Max Level: 5",
 		"^CC3399Requirement: Pierce 3^000000",
-		"Skill Form: ^FF0000Offensive^000000",
-		"Target: ^6666CCEnemy^000000",
-		"Description: ^777777Attacks an enemy from a",
-		"distance by hurling a spear.",
-		"Requires ^990099Spear^777777.^000000"
+		"Skill Form: ^339966Active^000000",
+		"Type: ^FF0000Physical Ranged^000000",
+		"Target: ^6666CC1 Character^000000",
+		"Description: ^777777Throws a spear at a target",
+		"inflicting long range physical damage.",
+		"At level 1, this skill only inflicts",
+		"melee physical damage.",
+		"Requires ^990099Spear^777777.^000000",
+		"Lv 1: ^777777150% ATK, 3 cells range^000000",
+		"Lv 2: ^777777200% ATK, 5 cells range^000000",
+		"Lv 3: ^777777250% ATK, 7 cells range^000000",
+		"Lv 4: ^777777300% ATK, 9 cells range^000000",
+		"Lv 5: ^777777350% ATK, 11 cells range^000000",
 	},
 	[SKID.KN_TWOHANDQUICKEN] = {
 		"Two-Hand Quicken",
 		"Max Level: 10",
 		"^CC3399Requirement: Two-Handed Sword Mastery 1^000000",
-		"Skill Form: ^339900Supportive^000000",
+		"Skill Form: ^339966Active^000000",
+		"Type: ^339900Buff^000000",
 		"Description: ^777777Temporarily increases attack",
-		"speed with ^990099Two-handed Sword^777777. If you",
-		"unequipped the sword, this effect will",
-		"disappear.^000000",
-		"Lv 1: ^77777730 sec duration^000000",
-		"Lv 2: ^77777760 sec duration^000000",
-		"Lv 3: ^77777790 sec duration^000000",
-		"Lv 4: ^777777120 sec duration^000000",
-		"Lv 5: ^777777150 sec duration^000000",
-		"Lv 6: ^777777180 sec duration^000000",
-		"Lv 7: ^777777210 sec duration^000000",
-		"Lv 8: ^777777240 sec duration^000000",
-		"Lv 9: ^777777270 sec duration^000000",
-		"LV10: ^777777300 sec duration^000000"
+		"speed, Critical hit rate and HIT rate for",
+		"the duration of skill. The effect will",
+		"be canceled when caster remove weapon",
+		"or change weapon with non-Two-handed",
+		"Sword type. Quagmire and Derecrese",
+		"Agility skills can also release the",
+		"skill effect.",
+		"Requires ^990099Two-handed Sword^777777.^000000",
+		"Lv 1: ^777777Lasts 30 sec, CRIT +3, HIT +2^000000",
+		"Lv 2: ^777777Lasts 60 sec, CRIT +4, HIT +4^000000",
+		"Lv 3: ^777777Lasts 90 sec, CRIT +5, HIT +6^000000",
+		"Lv 4: ^777777Lasts 120 sec, CRIT +6, HIT +8^000000",
+		"Lv 5: ^777777Lasts 150 sec, CRIT +7, HIT +10^000000",
+		"Lv 6: ^777777Lasts 180 sec, CRIT +8, HIT +12^000000",
+		"Lv 7: ^777777Lasts 210 sec, CRIT +9, HIT +14^000000",
+		"Lv 8: ^777777Lasts 240 sec, CRIT +10, HIT +16^000000",
+		"Lv 9: ^777777Lasts 270 sec, CRIT +11, HIT +18^000000",
+		"Lv10: ^777777Lasts 300 sec, CRIT +12, HIT +20^000000"
 	},
+	-- Next update
 	[SKID.KN_AUTOCOUNTER] = {
 		"Auto Counter",
 		"Max Level: 5",
@@ -1203,7 +1261,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.PR_IMPOSITIO] = {
 		"Impositio Manus",
@@ -1315,7 +1373,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777724% MaxHP, block 8 hits^000000",
 		"Lv 8: ^77777726% MaxHP, block 9 hits^000000",
 		"Lv 9: ^77777728% MaxHP, block 9 hits^000000",
-		"LV10: ^77777730% MaxHP, block 10 hits^000000"
+		"Lv10: ^77777730% MaxHP, block 10 hits^000000"
 	},
 	[SKID.PR_MAGNIFICAT] = {
 		"Magnificat",
@@ -1920,7 +1978,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +28^000000",
 		"Lv 8: ^777777Damage +32^000000",
 		"Lv 9: ^777777Damage +36^000000",
-		"LV10: ^777777Damage +40^000000"
+		"Lv10: ^777777Damage +40^000000"
 	},
 	[SKID.HT_FALCON] = {
 		"Falconry Mastery",
@@ -1946,7 +2004,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +42^000000",
 		"Lv 8: ^777777Damage +48^000000",
 		"Lv 9: ^777777Damage +54^000000",
-		"LV10: ^777777Damage +60^000000"
+		"Lv10: ^777777Damage +60^000000"
 	},
 	[SKID.HT_BLITZBEAT] = {
 		"Blitz Beat",
@@ -2030,7 +2088,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.AS_CLOAKING] = {
 		"Cloaking",
@@ -2502,7 +2560,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.AM_LEARNINGPOTION] = {
 		"Learning Potion (Potion Research)",
@@ -2718,7 +2776,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.AM_HEALHOMUN] = {
 		"Heal Homunculus",
@@ -2887,7 +2945,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.MO_SPIRITSRECOVERY] = {
 		"Spirit Recovery",
@@ -3082,7 +3140,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21, After attack delay -3.5%^000000",
 		"Lv 8: ^777777Damage +24, After attack delay -4%^000000",
 		"Lv 9: ^777777Damage +27, After attack delay -4.5%^000000",
-		"LV10: ^777777Damage +30, After attack delay -5%^000000"
+		"Lv10: ^777777Damage +30, After attack delay -5%^000000"
 	},
 	[SKID.SA_CASTCANCEL] = {
 		"Cast Cancel",
@@ -3153,7 +3211,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Level 3^0000FF Soul Strike^000000",
 		"Lv 8: ^777777Level 1^0000FF Fire Ball^000000",
 		"Lv 9: ^777777Level 2^0000FF Fire Ball^000000",
-		"LV10: ^777777Level 1^0000FF Frost Diver^000000",
+		"Lv10: ^777777Level 1^0000FF Frost Diver^000000",
 		"^777777The level of the skill cast by Auto Spell",
 		"is randomly determined and limited to the",
 		"highest level learned by the caster.^000000"
@@ -3558,7 +3616,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.BA_MUSICALSTRIKE] = {
 		"Musical Strike",
@@ -3662,7 +3720,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.DC_THROWARROW] = {
 		"Throw Arrow",
@@ -3815,7 +3873,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Block chance 41%^000000",
 		"Lv 8: ^777777Block chance 44%^000000",
 		"Lv 9: ^777777Block chance 47%^000000",
-		"LV10: ^777777Block chance 50%^000000"
+		"Lv10: ^777777Block chance 50%^000000"
 	},
 	[SKID.LK_CONCENTRATION] = {
 		"Concentration (Spear Dynamo)",
@@ -3918,7 +3976,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777MaxSP +7%, SP regen +21%^000000",
 		"Lv 8: ^777777MaxSP +8%, SP regen +24%^000000",
 		"Lv 9: ^777777MaxSP +9%, SP regen +27%^000000",
-		"LV10: ^777777MaxSP +10%, SP regen +30%^000000"
+		"Lv10: ^777777MaxSP +10%, SP regen +30%^000000"
 	},
 	[SKID.HW_SOULDRAIN] = {
 		"Soul Drain",
@@ -3939,7 +3997,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777MaxSP +14%^000000",
 		"Lv 8: ^777777MaxSP +16%^000000",
 		"Lv 9: ^777777MaxSP +18%^000000",
-		"LV10: ^777777MaxSP +20%^000000"
+		"Lv10: ^777777MaxSP +20%^000000"
 	},
 	[SKID.HW_MAGICCRASHER] = {
 		"Magic Crasher",
@@ -3966,7 +4024,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777MATK +35%^000000",
 		"Lv 8: ^777777MATK +40%^000000",
 		"Lv 9: ^777777MATK +45%^000000",
-		"LV10: ^777777MATK +50%^000000"
+		"Lv10: ^777777MATK +50%^000000"
 	},
 	[SKID.PA_PRESSURE] = {
 		"Pressure (Gloria Domini)",
@@ -4076,7 +4134,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771100% damage^000000",
 		"Lv 8: ^7777771200% damage^000000",
 		"Lv 9: ^7777771300% damage^000000",
-		"LV10: ^7777771400% damage^000000"
+		"Lv10: ^7777771400% damage^000000"
 	},
 	[SKID.PF_HPCONVERSION] = {
 		"Indulge",
@@ -4186,7 +4244,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777HIT +21%, Damage +14%, Crit +7^000000",
 		"Lv 8: ^777777HIT +24%, Damage +16%, Crit +8^000000",
 		"Lv 9: ^777777HIT +27%, Damage +18%, Crit +9^000000",
-		"LV10: ^777777HIT +30%, Damage +20%, Crit +10^000000"
+		"Lv10: ^777777HIT +30%, Damage +20%, Crit +10^000000"
 	},
 	[SKID.SN_FALCONASSAULT] = {
 		"Falcon Assault",
@@ -4253,7 +4311,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777745 sec duration^000000",
 		"Lv 8: ^77777750 sec duration^000000",
 		"Lv 9: ^77777755 sec duration^000000",
-		"LV10: ^77777760 sec duration^000000"
+		"Lv10: ^77777760 sec duration^000000"
 	},
 	[SKID.WS_CREATECOIN] = {
 		"Coin Craft"
@@ -4340,7 +4398,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777900% damage^000000",
 		"Lv 8: ^7777771000% damage^000000",
 		"Lv 9: ^7777771100% damage^000000",
-		"LV10: ^7777771200% damage^000000"
+		"Lv10: ^7777771200% damage^000000"
 	},
 	[SKID.CG_MOONLIT] = {
 		"Moonlit Water Mill (Sheltering Bliss)",
@@ -4430,7 +4488,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777120% damage^000000",
 		"Lv 8: ^777777130% damage^000000",
 		"Lv 9: ^777777140% damage^000000",
-		"LV10: ^777777150% damage^000000"
+		"Lv10: ^777777150% damage^000000"
 	},
 	[SKID.HW_NAPALMVULCAN] = {
 		"Napalm Vulcan",
@@ -4535,7 +4593,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777320% damage^000000",
 		"Lv 8: ^777777360% damage^000000",
 		"Lv 9: ^777777400% damage^000000",
-		"LV10: ^777777440% damage^000000"
+		"Lv10: ^777777440% damage^000000"
 	},
 	[SKID.ASC_CDP] = {
 		"Create Deadly Poison",
@@ -4608,7 +4666,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777770 Sec cast time, 40 SP^000000",
 		"Lv 8: ^7777770 Sec cast time, 30 SP^000000",
 		"Lv 9: ^7777770 Sec cast time, 20 SP^000000",
-		"LV10: ^7777770 Sec cast time, 10 SP^000000"
+		"Lv10: ^7777770 Sec cast time, 10 SP^000000"
 	},
 	[SKID.TK_READYSTORM] = {
 		"Tornado Stance",
@@ -4789,7 +4847,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777HP +210^000000",
 		"Lv 8: ^777777HP +240^000000",
 		"Lv 9: ^777777HP +270^000000",
-		"LV10: ^777777HP +300^000000"
+		"Lv10: ^777777HP +300^000000"
 	},
 	[SKID.TK_SPTIME] = {
 		"Happy Break",
@@ -4818,7 +4876,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777SP +21^000000",
 		"Lv 8: ^777777SP +24^000000",
 		"Lv 9: ^777777SP +27^000000",
-		"LV10: ^777777SP +30^000000"
+		"Lv10: ^777777SP +30^000000"
 	},
 	[SKID.TK_POWER] = {
 		"Kihop",
@@ -5131,7 +5189,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777After attack delay -21%^000000",
 		"Lv 8: ^777777After attack delay -24%^000000",
 		"Lv 9: ^777777After attack delay -27%^000000",
-		"LV10: ^777777After attack delay -30%^000000"
+		"Lv10: ^777777After attack delay -30%^000000"
 	},
 	[SKID.SG_FRIEND] = {
 		"Solar, Lunar and Stellar Team-Up",
@@ -5166,7 +5224,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Maximum Weight +70%^000000",
 		"Lv 8: ^777777Maximum Weight +80%^000000",
 		"Lv 9: ^777777Maximum Weight +90%^000000",
-		"LV10: ^777777Maximum Weight +100%^000000"
+		"Lv10: ^777777Maximum Weight +100%^000000"
 	},
 	[SKID.SG_FUSION] = {
 		"Solar, Lunar and Stellar Union",
@@ -5664,7 +5722,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777756 SP, 7 Blasts^000000",
 		"Lv 8: ^77777764 SP, 8 Blasts^000000",
 		"Lv 9: ^77777772 SP, 9 Blasts^000000",
-		"LV10: ^77777780 SP, 10 Blasts^000000"
+		"Lv10: ^77777780 SP, 10 Blasts^000000"
 	},
 	[SKID.SL_SWOO] = {
 		"Eswoo",
@@ -5776,7 +5834,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777+7 maximum refine level^000000",
 		"Lv 8: ^777777+8 maximum refine level^000000",
 		"Lv 9: ^777777+9 maximum refine level^000000",
-		"LV10: ^777777+10 maximum refine level^000000"
+		"Lv10: ^777777+10 maximum refine level^000000"
 	},
 	[SKID.CR_SLIMPITCHER] = {
 		"Slim Potion Pitcher",
@@ -5795,7 +5853,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777170% efficiency, Yellow Slim Potion^000000",
 		"Lv 8: ^777777180% efficiency, Yellow Slim Potion^000000",
 		"Lv 9: ^777777190% efficiency, Yellow Slim Potion^000000",
-		"LV10: ^777777200% efficiency, White Slim Potion^000000"
+		"Lv10: ^777777200% efficiency, White Slim Potion^000000"
 	},
 	[SKID.CR_FULLPROTECTION] = {
 		"Full Chemical Protection",
@@ -5927,7 +5985,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771,200 zeny, 35% Stun Chance^000000",
 		"Lv 8: ^7777771,300 zeny, 40% Stun Chance^000000",
 		"Lv 9: ^7777771,400 zeny, 45% Stun Chance^000000",
-		"LV10: ^7777771,500 zeny, 50% Stun Chance^000000"
+		"Lv10: ^7777771,500 zeny, 50% Stun Chance^000000"
 	},
 	[SKID.WS_OVERTHRUSTMAX] = {
 		"Maximum Power Thrust",
@@ -6030,7 +6088,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777777 hits, 7% chance destroying^000000",
 		"Lv 8: ^7777778 hits, 8% chance destroying^000000",
 		"Lv 9: ^7777779 hits, 9% chance destroying^000000",
-		"LV10: ^77777710 hits, 10% chance destroying^000000"
+		"Lv10: ^77777710 hits, 10% chance destroying^000000"
 	},
 	[SKID.CR_CULTIVATION] = {
 		"Plant Cultivation",
@@ -6176,7 +6234,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +21^000000",
 		"Lv 8: ^777777Damage +24^000000",
 		"Lv 9: ^777777Damage +27^000000",
-		"LV10: ^777777Damage +30^000000"
+		"Lv10: ^777777Damage +30^000000"
 	},
 	[SKID.NJ_SYURIKEN] = {
 		"Throw Shuriken",
@@ -6196,7 +6254,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +28^000000",
 		"Lv 8: ^777777Damage +32^000000",
 		"Lv 9: ^777777Damage +36^000000",
-		"LV10: ^777777Damage +40^000000"
+		"Lv10: ^777777Damage +40^000000"
 	},
 	[SKID.NJ_KUNAI] = {
 		"Throw Kunai",
@@ -6247,7 +6305,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777773,500~7,000 zeny^000000",
 		"Lv 8: ^7777774,000~8,000 zeny^000000",
 		"Lv 9: ^7777774,500~9,000 zeny^000000",
-		"LV10: ^7777775,000~10,000 zeny^000000"
+		"Lv10: ^7777775,000~10,000 zeny^000000"
 	},
 	[SKID.NJ_TATAMIGAESHI] = {
 		"Flip Tatami",
@@ -6284,7 +6342,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777170% damage^000000",
 		"Lv 8: ^777777180% damage^000000",
 		"Lv 9: ^777777190% damage^000000",
-		"LV10: ^777777200% damage^000000"
+		"Lv10: ^777777200% damage^000000"
 	},
 	[SKID.NJ_SHADOWJUMP] = {
 		"Shadow Leap",
@@ -6364,7 +6422,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Duration 180 Sec, 4 Dodges^000000",
 		"Lv 8: ^777777Duration 200 Sec, 4 Dodges^000000",
 		"Lv 9: ^777777Duration 220 Sec, 5 Dodges^000000",
-		"LV10: ^777777Duration 240 Sec, 5 Dodges^000000"
+		"Lv10: ^777777Duration 240 Sec, 5 Dodges^000000"
 	},
 	[SKID.NJ_NINPOU] = {
 		"Ninja Mastery",
@@ -6383,7 +6441,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777SP +21 every 10 Sec.^000000",
 		"Lv 8: ^777777SP +24 every 10 Sec.^000000",
 		"Lv 9: ^777777SP +27 every 10 Sec.^000000",
-		"LV10: ^777777SP +30 every 10 Sec.^000000"
+		"Lv10: ^777777SP +30 every 10 Sec.^000000"
 	},
 	[SKID.NJ_KOUENKA] = {
 		"Flaming Petals",
@@ -6419,7 +6477,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777778 Strikes^000000",
 		"Lv 8: ^7777778 Strikes^000000",
 		"Lv 9: ^7777779 Strikes^000000",
-		"LV10: ^7777779 Strikes^000000"
+		"Lv10: ^7777779 Strikes^000000"
 	},
 	[SKID.NJ_BAKUENRYU] = {
 		"Exploding Dragon",
@@ -6475,7 +6533,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777777*7 cells, 45 Sec, AGI - 5^000000",
 		"Lv 8: ^7777777*7 cells, 50 Sec, AGI - 8^000000",
 		"Lv 9: ^7777777*7 cells, 55 Sec, AGI - 8^000000",
-		"LV10: ^7777779*9 cells, 60 Sec, AGI - 8^000000"
+		"Lv10: ^7777779*9 cells, 60 Sec, AGI - 8^000000"
 	},
 	[SKID.NJ_HYOUSYOURAKU] = {
 		"Snow Flake Draft",
@@ -6510,7 +6568,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777774 Strikes^000000",
 		"Lv 8: ^7777775 Strikes^000000",
 		"Lv 9: ^7777775 Strikes^000000",
-		"LV10: ^7777776 Strikes^000000"
+		"Lv10: ^7777776 Strikes^000000"
 	},
 	[SKID.NJ_RAIGEKISAI] = {
 		"Lightning Jolt",
@@ -6715,7 +6773,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Maximum Weight +1400^000000",
 		"Lv 8: ^777777Maximum Weight +1600^000000",
 		"Lv 9: ^777777Maximum Weight +1800^000000",
-		"LV10: ^777777Maximum Weight +2000^000000"
+		"Lv10: ^777777Maximum Weight +2000^000000"
 	},
 	[SKID.NPC_HELLPOWER] = {},
 	[SKID.NPC_ALLHEAL] = {},
@@ -7006,7 +7064,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777MATK +240^000000",
 		"Lv 8: ^777777MATK +260^000000",
 		"Lv 9: ^777777MATK +280^000000",
-		"LV10: ^777777MATK +300^000000"
+		"Lv10: ^777777MATK +300^000000"
 	},
 	[SKID.RK_SONICWAVE] = {
 		"Sonic Wave",
@@ -7027,7 +7085,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771400% damage^000000",
 		"Lv 8: ^7777771500% damage^000000",
 		"Lv 9: ^7777771600% damage^000000",
-		"LV10: ^7777771700% damage^000000"
+		"Lv10: ^7777771700% damage^000000"
 	},
 	[SKID.RK_DEATHBOUND] = {
 		"Death Bound",
@@ -7049,7 +7107,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771200% damage amplification^000000",
 		"Lv 8: ^7777771300% damage amplification^000000",
 		"Lv 9: ^7777771400% damage amplification^000000",
-		"LV10: ^7777771500% damage amplification^000000"
+		"Lv10: ^7777771500% damage amplification^000000"
 	},
 	[SKID.RK_HUNDREDSPEAR] = {
 		"Hundred Spear",
@@ -7084,7 +7142,7 @@ SKILL_DESCRIPT = {
 		"Boomerang trigger chance^000000",
 		"Lv 9: ^7777771320% damage, 37% Spear",
 		"Boomerang trigger chance^000000",
-		"LV10: ^7777771400% damage, 40% Spear",
+		"Lv10: ^7777771400% damage, 40% Spear",
 		"Boomerang trigger chance^000000",
 	},
 	[SKID.RK_WINDCUTTER] = {
@@ -7292,7 +7350,7 @@ SKILL_DESCRIPT = {
 		"10 ^663399Sticky Poisons^777777, 1 ^663399Poison Herb Nerium^000000",
 		"Lv 9: ^777777Success Rate 75%, ^990099Oblivion Curse^777777:",
 		"10 ^663399Heart of Mermaids^777777, 1 ^663399Izidor^000000",
-		"LV10: ^777777Success Rate 80%^000000"
+		"Lv10: ^777777Success Rate 80%^000000"
 	},
 	[SKID.GC_CREATENEWPOISON] = {
 		"Create New Poison",
@@ -7369,7 +7427,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771350% damage^000000",
 		"Lv 8: ^7777771500% damage^000000",
 		"Lv 9: ^7777771650% damage^000000",
-		"LV10: ^7777771800% damage^000000",
+		"Lv10: ^7777771800% damage^000000",
 	},
 	[SKID.GC_WEAPONCRUSH] = {
 		"Weapon Crush",
@@ -7521,7 +7579,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777580% MATK^000000",
 		"Lv 8: ^777777620% MATK^000000",
 		"Lv 9: ^777777660% MATK^000000",
-		"LV10: ^777777700% MATK^000000"
+		"Lv10: ^777777700% MATK^000000"
 	},
 	[SKID.AB_ANCILLA] = {
 		"Ancilla",
@@ -7559,7 +7617,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777820% MATK, 5x5 AoE^000000",
 		"Lv 8: ^777777890% MATK, 5x5 AoE^000000",
 		"Lv 9: ^777777960% MATK, 5x5 AoE^000000",
-		"LV10: ^7777771030% MATK, 5x5 AoE^000000"
+		"Lv10: ^7777771030% MATK, 5x5 AoE^000000"
 	},
 	[SKID.AB_CLEMENTIA] = {
 		"Clementia",
@@ -7640,7 +7698,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Defend 13 times^000000",
 		"Lv 8: ^777777Defend 14 times^000000",
 		"Lv 9: ^777777Defend 15 times^000000",
-		"LV10: ^777777Defend 16 times^000000"
+		"Lv10: ^777777Defend 16 times^000000"
 	},
 	[SKID.AB_ORATIO] = {
 		"Oratio",
@@ -7658,7 +7716,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Success rate 75%, resistance -14%^000000",
 		"Lv 8: ^777777Success rate 80%, resistance -16%^000000",
 		"Lv 9: ^777777Success rate 85%, resistance -18%^000000",
-		"LV10: ^777777Success rate 90%, resistance -20%^000000"
+		"Lv10: ^777777Success rate 90%, resistance -20%^000000"
 	},
 	[SKID.AB_LAUDAAGNUS] = {
 		"Lauda Agnus",
@@ -7707,7 +7765,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +7%, Damage taken -7%^000000",
 		"Lv 8: ^777777Damage +8%, Damage taken -8%^000000",
 		"Lv 9: ^777777Damage +9%, Damage taken -9%^000000",
-		"LV10: ^777777Damage +10%, Damage taken -10%^000000"
+		"Lv10: ^777777Damage +10%, Damage taken -10%^000000"
 	},
 	[SKID.AB_CONVENIO] = {
 		"Convenio",
@@ -7825,7 +7883,7 @@ SKILL_DESCRIPT = {
 		"300 sec duration.^000000",
 		"Lv 9: ^777777ATK +285%, MATK +760%,",
 		"330 sec duration.^000000",
-		"LV10: ^777777ATK +300%, MATK +800%,",
+		"Lv10: ^777777ATK +300%, MATK +800%,",
 		"360 sec duration.^000000"
 	},
 	[SKID.AB_DUPLELIGHT_MELEE] = {},
@@ -8155,7 +8213,7 @@ SKILL_DESCRIPT = {
 		"       Target: Single and 5x5 AoE^000000",
 		"Lv 9: ^7777774 x 3800% MATK,",
 		"       Target: Single and 5x5 AoE^000000",
-		"LV10: ^7777774 x 4000% MATK,",
+		"Lv10: ^7777774 x 4000% MATK,",
 		"       Target: Single and 7x7 AoE^000000"
 	},
 	[SKID.WL_SUMMONFB] = {
@@ -8285,7 +8343,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771560% damage, 9x9 AoE^000000",
 		"Lv 8: ^7777771640% damage, 9x9 AoE^000000",
 		"Lv 9: ^7777771720% damage, 9x9 AoE^000000",
-		"LV10: ^7777771800% damage, 11x11 AoE^000000"
+		"Lv10: ^7777771800% damage, 11x11 AoE^000000"
 	},
 	[SKID.RA_FEARBREEZE] = {
 		"Fear Breeze",
@@ -8324,7 +8382,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage and resistance +35^000000",
 		"Lv 8: ^777777Damage and resistance +40^000000",
 		"Lv 9: ^777777Damage and resistance +45^000000",
-		"LV10: ^777777Damage and resistance +50^000000"
+		"Lv10: ^777777Damage and resistance +50^000000"
 	},
 	[SKID.RA_AIMEDBOLT] = {
 		"Aimed Bolt",
@@ -8348,7 +8406,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777640% damage x Number of attacks^000000",
 		"Lv 8: ^777777660% damage x Number of attacks^000000",
 		"Lv 9: ^777777680% damage x Number of attacks^000000",
-		"LV10: ^777777700% damage x Number of attacks^000000"
+		"Lv10: ^777777700% damage x Number of attacks^000000"
 	},
 	[SKID.RA_DETONATOR] = {
 		"Detonator",
@@ -8493,7 +8551,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +210^000000",
 		"Lv 8: ^777777Damage +240^000000",
 		"Lv 9: ^777777Damage +270^000000",
-		"LV10: ^777777Damage +300^000000"
+		"Lv10: ^777777Damage +300^000000"
 	},
 	[SKID.RA_SENSITIVEKEEN] = {
 		"Sensitive Keen",
@@ -8565,7 +8623,7 @@ SKILL_DESCRIPT = {
 		"Skill Range +4^000000",
 		"Lv 9: ^777777Damage +360, INT +9, MaxSP +380,",
 		"Skill Range +5^000000",
-		"LV10: ^777777Damage +400, INT +10, MaxSP +400,",
+		"Lv10: ^777777Damage +400, INT +10, MaxSP +400,",
 		"Skill Range +5^000000"
 	},
 	[SKID.RA_MAGENTATRAP] = {
@@ -8994,7 +9052,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage +35, HIT +21^000000",
 		"Lv 8: ^777777Damage +40, HIT +24^000000",
 		"Lv 9: ^777777Damage +45, HIT +27^000000",
-		"LV10: ^777777Damage +50, HIT +30^000000"
+		"Lv10: ^777777Damage +50, HIT +30^000000"
 	},
 	[SKID.NC_RESEARCHFE] = {
 		"Fire Earth Research",
@@ -9053,7 +9111,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771000% damage^000000",
 		"Lv 8: ^7777771100% damage^000000",
 		"Lv 9: ^7777771200% damage^000000",
-		"LV10: ^7777771300% damage^000000"
+		"Lv10: ^7777771300% damage^000000"
 	},
 	[SKID.NC_AXETORNADO] = {
 		"Axe Tornado",
@@ -9136,7 +9194,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777800% damage, HIT +5, 5x5 AoE^000000",
 		"Lv 8: ^777777900% damage, HIT +10, 5x5 AoE^000000",
 		"Lv 9: ^7777771000% damage, HIT +15, 5x5 AoE^000000",
-		"LV10: ^7777771100% damage, HIT +20, 5x5 AoE^000000"
+		"Lv10: ^7777771100% damage, HIT +20, 5x5 AoE^000000"
 	},
 	[SKID.SC_REPRODUCE] = {
 		"Reproduce",
@@ -9183,7 +9241,7 @@ SKILL_DESCRIPT = {
 		"Duration 200 sec.^000000",
 		"Lv 9: ^777777Activate chance 12%, Level 7 skill,",
 		"Duration 220 sec.^000000",
-		"LV10: ^777777Activate chance 15%, Level 7 skill,",
+		"Lv10: ^777777Activate chance 15%, Level 7 skill,",
 		"Duration 300 sec.^000000"
 	},
 	[SKID.SC_SHADOWFORM] = {
@@ -9226,7 +9284,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Range 9 cells, 8% knock back chance^000000",
 		"Lv 8: ^777777Range 11 cells, 9% knock back chance^000000",
 		"Lv 9: ^777777Range 11 cells, 10% knock back chance^000000",
-		"LV10: ^777777Range 11 cells, 11% knock back chance^000000"
+		"Lv10: ^777777Range 11 cells, 11% knock back chance^000000"
 	},
 	[SKID.SC_BODYPAINT] = {
 		"Body Painting",
@@ -9531,7 +9589,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777777 Cells Backward^000000",
 		"Lv 8: ^7777778 Cells Backward^000000",
 		"Lv 9: ^7777779 Cells Backward^000000",
-		"LV10: ^77777710 Cells Backward^000000"
+		"Lv10: ^77777710 Cells Backward^000000"
 	},
 	[SKID.LG_CANNONSPEAR] = {
 		"Cannon Spear",
@@ -9569,7 +9627,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777350% damage^000000",
 		"Lv 8: ^777777400% damage^000000",
 		"Lv 9: ^777777450% damage^000000",
-		"LV10: ^777777500% damage^000000"
+		"Lv10: ^777777500% damage^000000"
 	},
 	[SKID.LG_TRAMPLE] = {
 		"Trample",
@@ -9603,7 +9661,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771400% damage^000000",
 		"Lv 8: ^7777771600% damage^000000",
 		"Lv 9: ^7777771800% damage^000000",
-		"LV10: ^7777772000% damage^000000"
+		"Lv10: ^7777772000% damage^000000"
 	},
 	[SKID.LG_REFLECTDAMAGE] = {
 		"Reflect Damage",
@@ -9808,7 +9866,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771400% magic damage, Consume 12% HP^000000",
 		"Lv 8: ^7777771600% magic damage, Consume 12% HP^000000",
 		"Lv 9: ^7777771800% magic damage, Consume 15% HP^000000",
-		"LV10: ^7777772000% magic damage, Consume 15% HP^000000"
+		"Lv10: ^7777772000% magic damage, Consume 15% HP^000000"
 	},
 	[SKID.LG_PIETY] = {
 		"Piety",
@@ -9899,7 +9957,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777380% damage, Stun Chance 8%^000000",
 		"Lv 8: ^777777420% damage, Stun Chance 9%^000000",
 		"Lv 9: ^777777460% damage, Stun Chance 10%^000000",
-		"LV10: ^777777500% damage, Stun Chance 11%^000000"
+		"Lv10: ^777777500% damage, Stun Chance 11%^000000"
 	},
 	[SKID.SR_SKYNETBLOW] = {
 		"Sky Net Blow",
@@ -9958,7 +10016,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771850% damage, Immobilized for 2.0 sec^000000",
 		"Lv 8: ^7777772100% damage, Immobilized for 2.0 sec^000000",
 		"Lv 9: ^7777772350% damage, Immobilized for 2.5 sec^000000",
-		"LV10: ^7777772600% damage, Immobilized for 2.5 sec^000000"
+		"Lv10: ^7777772600% damage, Immobilized for 2.5 sec^000000"
 	},
 	[SKID.SR_TIGERCANNON] = {
 		"Tiger Cannon",
@@ -9979,7 +10037,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777775x5 AoE, Consumes 24% HP, 12% SP^000000",
 		"Lv 8: ^7777775x5 AoE, Consumes 26% HP, 13% SP^000000",
 		"Lv 9: ^7777775x5 AoE, Consumes 28% HP, 14% SP^000000",
-		"LV10: ^7777775x5 AoE, Consumes 30% HP, 15% SP^000000"
+		"Lv10: ^7777775x5 AoE, Consumes 30% HP, 15% SP^000000"
 	},
 	[SKID.SR_RAMPAGEBLASTER] = {
 		"Rampage Blaster",
@@ -10082,7 +10140,7 @@ SKILL_DESCRIPT = {
 		"damage^000000",
 		"Lv 9: ^7777771400% damage, 1350% Knock back",
 		"damage^000000",
-		"LV10: ^7777771500% damage, 1500% Knock back",
+		"Lv10: ^7777771500% damage, 1500% Knock back",
 		"damage^000000"
 	},
 	[SKID.SR_WINDMILL] = {
@@ -10129,7 +10187,7 @@ SKILL_DESCRIPT = {
 		"MaxHP & MaxSP +10%, Duration 135 sec.^000000",
 		"Lv 9: ^77777714 Max Spirit Spheres,",
 		"MaxHP & MaxSP +11%, Duration 150 sec.^000000",
-		"LV10: ^77777715 Max Spirit Spheres,",
+		"Lv10: ^77777715 Max Spirit Spheres,",
 		"MaxHP & MaxSP +12%, Duration 165 sec.^000000"
 	},
 	[SKID.SR_ASSIMILATEPOWER] = {
@@ -10381,7 +10439,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777MaxSP +200, recover 24 SP/10 sec.^000000",
 		"Lv 8: ^777777MaxSP +240, recover 27 SP/10 sec.^000000",
 		"Lv 9: ^777777MaxSP +270, recover 30 SP/10 sec.^000000",
-		"LV10: ^777777MaxSP +300, recover 33 SP/10 sec.^000000"
+		"Lv10: ^777777MaxSP +300, recover 33 SP/10 sec.^000000"
 	},
 	[SKID.WM_METALICSOUND] = {
 		"Metallic Sound",
@@ -10403,7 +10461,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777840% magic damage + bonus damage^000000",
 		"Lv 8: ^777777960% magic damage + bonus damage^000000",
 		"Lv 9: ^7777771080% magic damage + bonus damage^000000",
-		"LV10: ^7777771200% magic damage + bonus damage^000000"
+		"Lv10: ^7777771200% magic damage + bonus damage^000000"
 	},
 	[SKID.WM_REVERBERATION] = {
 		"Reverberation",
@@ -10864,7 +10922,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777745 sec duration, up to 21 hits^000000",
 		"Lv 8: ^77777750 sec duration, up to 24 hits^000000",
 		"Lv 9: ^77777755 sec duration, up to 27 hits^000000",
-		"LV10: ^77777760 sec duration, up to 30 hits^000000"
+		"Lv10: ^77777760 sec duration, up to 30 hits^000000"
 	},
 	[SKID.SO_EARTHGRAVE] = {
 		"Earth Grave",
@@ -11013,7 +11071,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777777x7 AoE^000000",
 		"Lv 8: ^7777777x7 AoE^000000",
 		"Lv 9: ^7777777x7 AoE^000000",
-		"LV10: ^7777779x9 AoE^000000"
+		"Lv10: ^7777779x9 AoE^000000"
 	},
 	[SKID.SO_ARRULLO] = {
 		"Arrullo",
@@ -11224,7 +11282,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777700% damage^000000",
 		"Lv 8: ^777777800% damage^000000",
 		"Lv 9: ^777777900% damage^000000",
-		"LV10: ^7777771000% damage^000000"
+		"Lv10: ^7777771000% damage^000000"
 	},
 	[SKID.GN_CARTCANNON] = {
 		"Cart Cannon",
@@ -11316,7 +11374,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771250% damage, 9x9 AoE^000000",
 		"Lv 8: ^7777771400% damage, 9x9 AoE^000000",
 		"Lv 9: ^7777771550% damage, 11x11 AoE^000000",
-		"LV10: ^7777771700% damage, 11x11 AoE^000000"
+		"Lv10: ^7777771700% damage, 11x11 AoE^000000"
 	},
 	[SKID.GN_WALLOFTHORN] = {
 		"Wall of Thorn",
@@ -11358,7 +11416,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771200% damage, 6 vines^000000",
 		"Lv 8: ^7777771300% damage, 7 vines^000000",
 		"Lv 9: ^7777771400% damage, 7 vines^000000",
-		"LV10: ^7777771500% damage, 8 vines^000000"
+		"Lv10: ^7777771500% damage, 8 vines^000000"
 	},
 	[SKID.GN_DEMONIC_FIRE] = {
 		"Demonic Fire",
@@ -11788,7 +11846,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage 310%^000000",
 		"Lv 8: ^777777Damage 340%^000000",
 		"Lv 9: ^777777Damage 370%^000000",
-		"LV10: ^777777Damage 400%^000000"
+		"Lv10: ^777777Damage 400%^000000"
 	},
 	[SKID.MS_MAGNUM] = {
 		"Magnum Break",
@@ -11808,7 +11866,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Damage 240%^000000",
 		"Lv 8: ^777777Damage 260%^000000",
 		"Lv 9: ^777777Damage 280%^000000",
-		"LV10: ^777777Damage 300%^000000"
+		"Lv10: ^777777Damage 300%^000000"
 	},
 	[SKID.MS_BOWLINGBASH] = {
 		"Bowling Bash",
@@ -11834,7 +11892,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Block +41%^000000",
 		"Lv 8: ^777777Block +44%^000000",
 		"Lv 9: ^777777Block +47%^000000",
-		"LV10: ^777777Block +50%^000000"
+		"Lv10: ^777777Block +50%^000000"
 	},
 	[SKID.MS_REFLECTSHIELD] = {
 		"Reflect Shield",
@@ -12042,7 +12100,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777773 Min 30 Sec^000000",
 		"Lv 8: ^7777774 Min^000000",
 		"Lv 9: ^7777774 Min 30 Sec^000000",
-		"LV10: ^7777775 Min^000000"
+		"Lv10: ^7777775 Min^000000"
 	},
 	[SKID.MER_SIGHT] = {
 		"Sight",
@@ -12121,7 +12179,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777+23% damage, -40% DEF^000000",
 		"Lv 8: ^777777+26% damage, -45% DEF^000000",
 		"Lv 9: ^777777+29% damage, -50% DEF^000000",
-		"LV10: ^777777+32% damage, -55% DEF^000000"
+		"Lv10: ^777777+32% damage, -55% DEF^000000"
 	},
 	[SKID.MER_AUTOBERSERK] = {
 		"Auto Berserk",
@@ -12217,7 +12275,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777+42 people^000000",
 		"Lv 8: ^777777+48 people^000000",
 		"Lv 9: ^777777+54 people^000000",
-		"LV10: ^777777+60 people^000000"
+		"Lv10: ^777777+60 people^000000"
 	},
 	[SKID.GD_GLORYGUILD] = {},
 	[SKID.GD_LEADERSHIP] = {
@@ -12332,7 +12390,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771800% damage, 65% Paralyze rate ^000000",
 		"Lv 8: ^7777772000% damage, 70% Paralyze rate^000000",
 		"Lv 9: ^7777772200% damage, 75% Paralyze rate^000000",
-		"LV10: ^7777772400% damage, 80% Paralyze rate^000000"
+		"Lv10: ^7777772400% damage, 80% Paralyze rate^000000"
 	},
 	[SKID.MH_POISON_MIST] = {
 		"Poison Mist",
@@ -12360,7 +12418,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777790 sec duration^000000",
 		"Lv 8: ^777777100 sec duration^000000",
 		"Lv 9: ^777777110 sec duration^000000",
-		"LV10: ^777777120 sec duration^000000"
+		"Lv10: ^777777120 sec duration^000000"
 	},
 	[SKID.MH_LIGHT_OF_REGENE] = {
 		"Light of Regenerate",
@@ -12403,7 +12461,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777772100% MATK^000000",
 		"Lv 8: ^7777772300% MATK^000000",
 		"Lv 9: ^7777772500% MATK^000000",
-		"LV10: ^7777772700% MATK^000000"
+		"Lv10: ^7777772700% MATK^000000"
 	},
 	[SKID.MH_XENO_SLASHER] = {
 		"Xeno Slasher",
@@ -12421,7 +12479,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777772300% MATK, 7x7 AoE^000000",
 		"Lv 8: ^7777772600% MATK, 7x7 AoE^000000",
 		"Lv 9: ^7777772900% MATK, 7x7 AoE^000000",
-		"LV10: ^7777773200% MATK, 9x9 AoE^000000"
+		"Lv10: ^7777773200% MATK, 9x9 AoE^000000"
 	},
 	[SKID.MH_SILENT_BREEZE] = {
 		"Silent Breeze",
@@ -12448,7 +12506,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771700% damage, 8 cells range, 34% Stun rate^000000",
 		"Lv 8: ^7777771800% damage, 8 cells range, 36% Stun rate^000000",
 		"Lv 9: ^7777771900% damage, 9 cells range, 38% Stun rate^000000",
-		"LV10: ^7777772000% damage, 9 cells range, 40% Stun rate^000000"
+		"Lv10: ^7777772000% damage, 9 cells range, 40% Stun rate^000000"
 	},
 	[SKID.MH_GOLDENE_FERSE] = {
 		"Goldene Ferse : Heel of Gold",
@@ -12485,7 +12543,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777772250% MATK, 5x5 AoE^000000",
 		"Lv 8: ^7777772500% MATK, 5x5 AoE^000000",
 		"Lv 9: ^7777772750% MATK, 7x7 AoE^000000",
-		"LV10: ^7777773000% MATK, 7x7 AoE^000000"
+		"Lv10: ^7777773000% MATK, 7x7 AoE^000000"
 	},
 	[SKID.MH_ANGRIFFS_MODUS] = {
 		"Angriffs Modus",
@@ -12532,7 +12590,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771400% damage, Stun rate 35%^000000",
 		"Lv 8: ^7777771600% damage, Stun rate 40%^000000",
 		"Lv 9: ^7777771800% damage, Stun rate 45%^000000",
-		"LV10: ^7777772000% damage, Stun rate 50%^000000"
+		"Lv10: ^7777772000% damage, Stun rate 50%^000000"
 	},
 	[SKID.MH_MIDNIGHT_FRENZY] = {
 		"Midnight Frenzy",
@@ -12556,7 +12614,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777772100% damage^000000",
 		"Lv 8: ^7777772400% damage^000000",
 		"Lv 9: ^7777772700% damage^000000",
-		"LV10: ^7777773000% damage^000000"
+		"Lv10: ^7777773000% damage^000000"
 	},
 	[SKID.MH_TINDER_BREAKER] = {
 		"Tinder Breaker",
@@ -12661,7 +12719,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Burning chance 35%^000000",
 		"Lv 8: ^777777Burning chance 40%^000000",
 		"Lv 9: ^777777Burning chance 45%^000000",
-		"LV10: ^777777Burning chance 50%^000000"
+		"Lv10: ^777777Burning chance 50%^000000"
 	},
 	[SKID.MH_PYROCLASTIC] = {
 		"Pyroclastic",
@@ -12683,7 +12741,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Duration 180 sec^000000",
 		"Lv 8: ^777777Duration 200 sec^000000",
 		"Lv 9: ^777777Duration 220 sec^000000",
-		"LV10: ^777777Duration 240 sec^000000"
+		"Lv10: ^777777Duration 240 sec^000000"
 	},
 	[SKID.MH_VOLCANIC_ASH] = {
 		"Volcanic Ash",
@@ -12829,7 +12887,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^77777770,000 zeny, 35,000 ~ 70,000 random damage^000000",
 		"Lv 8: ^77777780,000 zeny, 40,000 ~ 80,000 random damage^000000",
 		"Lv 9: ^77777790,000 zeny, 45,000 ~ 90,000 random damage^000000",
-		"LV10: ^777777100,000 zeny, 50,000 ~ 100,000 random damage^000000"
+		"Lv10: ^777777100,000 zeny, 50,000 ~ 100,000 random damage^000000"
 	},
 	[SKID.KO_HUUMARANKA] = {
 		"Swirling Petal",
@@ -13971,7 +14029,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777HIT +14, After attack delay -4%^000000",
 		"Lv 8: ^777777HIT +16, After attack delay -4%^000000",
 		"Lv 9: ^777777HIT +18, After attack delay -5%^000000",
-		"LV10: ^777777HIT +20, After attack delay -5%^000000"
+		"Lv10: ^777777HIT +20, After attack delay -5%^000000"
 	},
 	[SKID.GS_SNAKEEYE] = {
 		"Snake Eyes",
@@ -13989,7 +14047,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777HIT and Range +7^000000",
 		"Lv 8: ^777777HIT and Range +8^000000",
 		"Lv 9: ^777777HIT and Range +9^000000",
-		"LV10: ^777777HIT and Range +10^000000"
+		"Lv10: ^777777HIT and Range +10^000000"
 	},
 	[SKID.GS_CHAINACTION] = {
 		"Chain Action",
@@ -14024,7 +14082,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777900% damage, 1.2 sec cast time^000000",
 		"Lv 8: ^7777771000% damage, 1.3 sec cast time^000000",
 		"Lv 9: ^7777771100% damage, 1.4 sec cast time^000000",
-		"LV10: ^7777771200% damage, 1.5 sec cast time^000000",
+		"Lv10: ^7777771200% damage, 1.5 sec cast time^000000",
 	},
 	[SKID.GS_DISARM] = {
 		"Disarm",
@@ -14074,7 +14132,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777850% damage^000000",
 		"Lv 8: ^777777900% damage^000000",
 		"Lv 9: ^777777950% damage^000000",
-		"LV10: ^7777771000% damage^000000"
+		"Lv10: ^7777771000% damage^000000"
 	},
 	[SKID.GS_DESPERADO] = {
 		"Desperado",
@@ -14096,7 +14154,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777400% damage^000000",
 		"Lv 8: ^777777450% damage^000000",
 		"Lv 9: ^777777500% damage^000000",
-		"LV10: ^777777550% damage^000000"
+		"Lv10: ^777777550% damage^000000"
 	},
 	[SKID.GS_GATLINGFEVER] = {
 		"Gatling Fever",
@@ -14128,7 +14186,7 @@ SKILL_DESCRIPT = {
 		"delay -8%, Flee -40, 135 sec. duration^000000",
 		"Lv 9: ^777777Damage +110, After attack",
 		"delay -9%, Flee -45, 150 sec. duration^000000",
-		"LV10: ^777777Damage +120, After attack",
+		"Lv10: ^777777Damage +120, After attack",
 		"delay -10%, Flee -50, 165 sec. duration^000000"
 	},
 	[SKID.GS_DUST] = {
@@ -14149,7 +14207,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777450% damage^000000",
 		"Lv 8: ^777777500% damage^000000",
 		"Lv 9: ^777777550% damage^000000",
-		"LV10: ^777777600% damage^000000"
+		"Lv10: ^777777600% damage^000000"
 	},
 	[SKID.GS_FULLBUSTER] = {
 		"Full Buster (Full Blast)",
@@ -14171,7 +14229,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^7777771000% damage^000000",
 		"Lv 8: ^7777771100% damage^000000",
 		"Lv 9: ^7777771200% damage^000000",
-		"LV10: ^7777771300% damage^000000"
+		"Lv10: ^7777771300% damage^000000"
 	},
 	[SKID.GS_SPREADATTACK] = {
 		"Spread Attack",
@@ -14190,7 +14248,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777410% damage, 7x7 cells^000000",
 		"Lv 8: ^777777440% damage, 7x7 cells^000000",
 		"Lv 9: ^777777470% damage, 7x7 cells^000000",
-		"LV10: ^777777500% damage, 9x9 cells^000000"
+		"Lv10: ^777777500% damage, 9x9 cells^000000"
 	},
 	[SKID.GS_GROUNDDRIFT] = {
 		"Ground Drift (Gunslinger Mine)",
@@ -14211,7 +14269,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777340% damage, 21 sec. duration^000000",
 		"Lv 8: ^777777360% damage, 24 sec. duration^000000",
 		"Lv 9: ^777777380% damage, 27 sec. duration^000000",
-		"LV10: ^777777400% damage, 30 sec. duration^000000"
+		"Lv10: ^777777400% damage, 30 sec. duration^000000"
 	},
 	[SKID.RL_FLICKER] = {
 		"Flicker (Flashing Signal)",
@@ -14253,7 +14311,7 @@ SKILL_DESCRIPT = {
 		"Lv 7: ^777777Duration 135 seconds^000000",
 		"Lv 8: ^777777Duration 150 seconds^000000",
 		"Lv 9: ^777777Duration 165 seconds^000000",
-		"LV10: ^777777Duration 180 seconds^000000"
+		"Lv10: ^777777Duration 180 seconds^000000"
 	},
 	[SKID.RL_QD_SHOT] = {
 		"Quick Draw Shot (Tailwind Shot)",
