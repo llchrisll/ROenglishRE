@@ -1,0 +1,35 @@
+function GetPremiumCampain_Bar_Color()
+	local r = PREMIUM_CAMPAIN_BAR_COLOR[1]
+	if r == nil then
+		r = 255
+	end
+	local g = PREMIUM_CAMPAIN_BAR_COLOR[2]
+	if g == nil then
+		g = 0
+	end
+	local b = PREMIUM_CAMPAIN_BAR_COLOR[3]
+	if b == nil then
+		b = 0
+	end
+	return r, g, b
+end
+
+function GetPremiumCampain(idx)
+	local msg = PREMIUM_CAMPAIN_MSG[idx][1]
+	if msg ~= nil then
+		local r = PREMIUM_CAMPAIN_MSG[idx][2]
+		if r == nil then
+			r = 255
+		end
+		local g = PREMIUM_CAMPAIN_MSG[idx][3]
+		if g == nil then
+			g = 0
+		end
+		local b = PREMIUM_CAMPAIN_MSG[idx][4]
+		if b == nil then
+			b = 0
+		end
+		return msg, r, g, b
+	end
+	return "The grade is not exist", 255, 0, 0
+end

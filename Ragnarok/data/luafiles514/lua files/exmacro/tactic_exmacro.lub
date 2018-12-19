@@ -1,0 +1,183 @@
+TACTIC_SUB_SELECT_LIST = {
+	{ strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_SUB_1, whatToView = WHAT_CONTROL_TO_VIEW.VIEW_ITEMCTRL },
+	{ strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_SUB_2, whatToView = WHAT_CONTROL_TO_VIEW.VIEW_SKILLCTRL },
+	{ strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_SUB_3, whatToView = WHAT_CONTROL_TO_VIEW.VIEW_NONE },
+	{ strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_SUB_4, whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX }
+}
+TACTIC_MAIN_SELECT_LIST = {
+	[1] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_1,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = true,
+		bOnlyNumberType = true,
+		nLimitLength = 3,
+		nLimitNumber = 100
+	},
+	[2] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_2,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = true,
+		bOnlyNumberType = true,
+		nLimitLength = 3,
+		nLimitNumber = 100
+	},
+	[3] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_3,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false,
+		bOnlyNumberType = true,
+		nLimitLength = 2,
+		nLimitNumber = 99
+	},
+	[4] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_4,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false,
+		bOnlyNumberType = true,
+		nLimitLength = 2,
+		nLimitNumber = -1
+	},
+	[5] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_5,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false,
+		bOnlyNumberType = true,
+		nLimitLength = 3,
+		nLimitNumber = 150
+	},
+	[6] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_6,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false,
+		bOnlyNumberType = false,
+		nLimitLength = 20,
+		nLimitNumber = -1
+	},
+	[7] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_7,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_NONE,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false
+	},
+	[8] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_8,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_ITEM_EDIT,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false,
+		bOnlyNumberType = false,
+		nLimitLength = 20,
+		nLimitNumber = -1
+	},
+	[9] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_9,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false,
+		bOnlyNumberType = true,
+		nLimitLength = 10,
+		nLimitNumber = -1
+	},
+	[10] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_10,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_NONE,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false
+	},
+	[11] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_11,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false,
+		bOnlyNumberType = true,
+		nLimitLength = 3,
+		nLimitNumber = 150
+	},
+	[12] = {
+		strMsg = MsgStrID.MSI_EX_MACRO_TACTIC_MAIN_12,
+		whatToView = WHAT_CONTROL_TO_VIEW.VIEW_NONE,
+		nSubIdxList = { 1, 2, 3, 4 },
+		bViewPercentage = false
+	}
+}
+UserTacticInfoList = {}
+
+function CreateTacticTable(nMaxCountTacicList)
+	local idx = 1
+	while nMaxCountTacicList >= idx do
+		UserTacticInfoList[idx] = {}
+		UserTacticInfoList[idx].bUsing = false
+		UserTacticInfoList[idx].nMainSelNum = 0
+		UserTacticInfoList[idx].nSubSelNum = 0
+		UserTacticInfoList[idx].strMainValue = ""
+		UserTacticInfoList[idx].nMainValue = -1
+		UserTacticInfoList[idx].strSubValue = ""
+		UserTacticInfoList[idx].nSubValue1 = -1
+		UserTacticInfoList[idx].nSubValue2 = -1
+		idx = idx + 1
+	end
+end
+
+function GetMainTacticInfo(nIndex)
+	local mainObj = TACTIC_MAIN_SELECT_LIST[nIndex]
+	if mainObj ~= nil then
+		return mainObj.strMsg, mainObj.whatToView, mainObj.bViewPercentage
+	end
+	return "", WHAT_CONTROL_TO_VIEW.VIEW_NONE, false
+end
+
+function GetSelectMainEditBoxInfo(nIndex)
+	local mainObj = TACTIC_MAIN_SELECT_LIST[nIndex]
+	if mainObj ~= nil and (mainObj.whatToView == WHAT_CONTROL_TO_VIEW.VIEW_EDITBOX or mainObj.whatToView == WHAT_CONTROL_TO_VIEW.VIEW_ITEM_EDIT) then
+		return mainObj.bOnlyNumberType, mainObj.nLimitLength, mainObj.nLimitNumber
+	end
+	return false, 0, -1
+end
+
+function GetSubListSize(nIndex)
+	local mainObj = TACTIC_MAIN_SELECT_LIST[nIndex]
+	if mainObj ~= nil then
+		return getTableSize(mainObj.nSubIdxList)
+	end
+	return 0
+end
+
+function GetSubTacticInfo(nMainIndex, nSubIndex)
+	local mainObj = TACTIC_MAIN_SELECT_LIST[nMainIndex]
+	if mainObj ~= nil then
+		local nSubSelNum = mainObj.nSubIdxList[nSubIndex]
+		local subObj = TACTIC_SUB_SELECT_LIST[nSubSelNum]
+		if subObj ~= nil then
+			return subObj.strMsg, subObj.whatToView
+		end
+		return "", WHAT_CONTROL_TO_VIEW.VIEW_NONE
+	end
+	return "", WHAT_CONTROL_TO_VIEW.VIEW_NONE
+end
+
+function GetTacticInfo(nIndex)
+	local obj = UserTacticInfoList[nIndex]
+	if obj == nil then
+		obj = TacticInfo
+	end
+	return obj.bUsing, obj.nMainSelNum, obj.nSubSelNum, obj.strMainValue, obj.nMainValue, obj.strSubValue, obj.nSubValue1, obj.nSubValue2
+end
+
+function SetTacticInfo(nIndex, bUsing, nMainSelNum, nSubSelNum, strMainValue, nMainValue, strSubValue, nSubValue1, nSubValue2)
+	local obj = UserTacticInfoList[nIndex]
+	if obj ~= nil then
+		obj.bUsing = bUsing
+		obj.nMainSelNum = nMainSelNum
+		obj.nSubSelNum = nSubSelNum
+		obj.strMainValue = strMainValue
+		obj.nMainValue = nMainValue
+		obj.strSubValue = strSubValue
+		obj.nSubValue1 = nSubValue1
+		obj.nSubValue2 = nSubValue2
+	end
+end

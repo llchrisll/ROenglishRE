@@ -1,0 +1,76 @@
+OffsetItemPos = {}
+OffsetItemPos.Doram = {}
+OffsetItemPos.Sex = {}
+OffsetItemPos.Direction = {}
+OffsetItemPos.UppingBottomItem = {}
+function OffsetItemPos.AddOffsetForDoram(in_classNum, in_direction, in_offset, in_sex)
+	local tbl = {
+		ClassNum = in_classNum,
+		Direction = in_direction,
+		Offset = in_offset,
+		Sex = in_sex
+	}
+	OffsetItemPos.Doram[#OffsetItemPos.Doram + 1] = tbl
+end
+
+function OffsetItemPos.AddUppingBottomItem(in_classNum, in_nearOow, in_FarOow)
+	local tbl = {
+		ClassNum = in_classNum,
+		NearOow = in_nearOow,
+		FarOow = in_FarOow
+	}
+	OffsetItemPos.UppingBottomItem[#OffsetItemPos.UppingBottomItem + 1] = tbl
+end
+
+function OffsetItemPos_GetSizeInDoramTable()
+	if nil == OffsetItemPos.Doram then
+		return nil
+	end
+	return #OffsetItemPos.Doram
+end
+
+function OffsetItemPos_GetSizeInUppingBottomItemTable()
+	if nil == OffsetItemPos.UppingBottomItem then
+		return nil
+	end
+	return #OffsetItemPos.UppingBottomItem
+end
+
+function OffsetItemPos_GetOffsetForDoram(in_classNum, in_direction, in_sex)
+	if nil == OffsetItemPos.Doram then
+		return nil
+	end
+	local size = OffsetItemPos_GetSizeInDoramTable()
+	local i
+	for i = 1, size do
+		if OffsetItemPos.Doram[i].ClassNum == in_classNum and OffsetItemPos.Doram[i].Direction == in_direction then
+			local curOffset = OffsetItemPos.Doram[i].Offset
+			local Sex = 0
+			if nil == OffsetItemPos.Doram[i].Sex then
+				return curOffset.x, curOffset.y
+			elseif 1 == OffsetItemPos.Doram[i].Sex then
+				if 1 == in_sex then
+					return curOffset.x, curOffset.y
+				end
+			elseif 2 == OffsetItemPos.Doram[i].Sex and 0 == in_sex then
+				return curOffset.x, curOffset.y
+			end
+		end
+	end
+	return nil
+end
+
+function OffsetItemPos_GetUppingBottomItem(in_classNum)
+	if nil == OffsetItemPos.UppingBottomItem then
+		return nil
+	end
+	local size = OffsetItemPos_GetSizeInUppingBottomItemTable()
+	local i
+	for i = 1, size do
+		if OffsetItemPos.UppingBottomItem[i].ClassNum == in_classNum then
+			local curIteminfo = OffsetItemPos.UppingBottomItem[i]
+			return true, curIteminfo.NearOow, curIteminfo.FarOow
+		end
+	end
+	return false
+end

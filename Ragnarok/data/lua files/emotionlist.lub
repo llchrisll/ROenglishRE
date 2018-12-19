@@ -1,0 +1,580 @@
+ET_SURPRISE = 0
+ET_QUESTION = 1
+ET_DELIGHT = 2
+ET_THROB = 3
+ET_SWEAT = 4
+ET_AHA = 5
+ET_FRET = 6
+ET_ANGER = 7
+ET_MONEY = 8
+ET_THINK = 9
+ET_SCISSOR = 10
+ET_ROCK = 11
+ET_WRAP = 12
+ET_FLAG = 13
+ET_BIGTHROB = 14
+ET_THANKS = 15
+ET_KEK = 16
+ET_SORRY = 17
+ET_SMILE = 18
+ET_PROFUSELY_SWEAT = 19
+ET_SCRATCH = 20
+ET_BEST = 21
+ET_STARE_ABOUT = 22
+ET_HUK = 23
+ET_O = 24
+ET_X = 25
+ET_HELP = 26
+ET_GO = 27
+ET_CRY = 28
+ET_KIK = 29
+ET_CHUP = 30
+ET_CHUPCHUP = 31
+ET_HNG = 32
+ET_OK = 33
+ET_CHAT_PROHIBIT = 34
+ET_INDONESIA_FLAG = 35
+ET_STARE = 36
+ET_HUNGRY = 37
+ET_COOL = 38
+ET_MERONG = 39
+ET_SHY = 40
+ET_GOODBOY = 41
+ET_SPTIME = 42
+ET_SEXY = 43
+ET_COMEON = 44
+ET_SLEEPY = 45
+ET_CONGRATULATION = 46
+ET_HPTIME = 47
+ET_PH_FLAG = 48
+ET_MY_FLAG = 49
+ET_SI_FLAG = 50
+ET_BR_FLAG = 51
+ET_SPARK = 52
+ET_CONFUSE = 53
+ET_OHNO = 54
+ET_HUM = 55
+ET_BLABLA = 56
+ET_OTL = 57
+ET_DICE1 = 58
+ET_DICE2 = 59
+ET_DICE3 = 60
+ET_DICE4 = 61
+ET_DICE5 = 62
+ET_DICE6 = 63
+ET_INDIA_FLAG = 64
+ET_LUV = 65
+ET_FLAG8 = 66
+ET_FLAG9 = 67
+ET_MOBILE = 68
+ET_MAIL = 69
+ET_ANTENNA0 = 70
+ET_ANTENNA1 = 71
+ET_ANTENNA2 = 72
+ET_ANTENNA3 = 73
+ET_HUM2 = 74
+ET_ABS = 75
+ET_OOPS = 76
+ET_SPIT = 77
+ET_ENE = 78
+ET_PANIC = 79
+ET_WHISP = 80
+MSI_EMOTION_SURPRISE = 544
+MSI_EMOTION_QUESTION = 545
+MSI_EMOTION_DELIGHT = 546
+MSI_EMOTION_THROB = 547
+MSI_EMOTION_BIGTHROB = 548
+MSI_EMOTION_SWEAT = 549
+MSI_EMOTION_AHA = 550
+MSI_EMOTION_FRET = 551
+MSI_EMOTION_ANGER = 552
+MSI_EMOTION_MONEY = 553
+MSI_EMOTION_THINK = 554
+MSI_EMOTION_THANKS = 555
+MSI_EMOTION_KEK = 556
+MSI_EMOTION_SORRY = 557
+MSI_EMOTION_SMILE = 558
+MSI_EMOTION_PROFUSELY_SWEAT = 559
+MSI_EMOTION_SCRATCH = 560
+MSI_EMOTION_BEST = 561
+MSI_EMOTION_STARE_ABOUT = 562
+MSI_EMOTION_HUK = 563
+MSI_EMOTION_O = 564
+MSI_EMOTION_X = 565
+MSI_EMOTION_HELP = 566
+MSI_EMOTION_GO = 567
+MSI_EMOTION_CRY = 568
+MSI_EMOTION_KIK = 569
+MSI_EMOTION_CHUP = 570
+MSI_EMOTION_CHUPCHUP = 571
+MSI_EMOTION_HNG = 572
+MSI_EMOTION_OK = 573
+MSI_EMOTION_STARE = 772
+MSI_EMOTION_HUNGRY = 773
+MSI_EMOTION_COOL = 774
+MSI_EMOTION_MERONG = 775
+MSI_EMOTION_SHY = 776
+MSI_EMOTION_GOODBOY = 777
+MSI_EMOTION_SPTIME = 778
+MSI_EMOTION_SEXY = 779
+MSI_EMOTION_COMEON = 780
+MSI_EMOTION_SLEEPY = 781
+MSI_EMOTION_CONGRATULATION = 782
+MSI_EMOTION_HPTIME = 783
+MSI_EMOTION_SPARK = 945
+MSI_EMOTION_CONFUSE = 946
+MSI_EMOTION_OHNO = 947
+MSI_EMOTION_HUM = 948
+MSI_EMOTION_BLABLA = 949
+MSI_EMOTION_OTL = 950
+MSI_EMOTION_ROCK = 1501
+MSI_EMOTION_SCISSOR = 1502
+MSI_EMOTION_WRAP = 1503
+MSI_EMOTION_LUV = 1504
+MSI_EMOTION_MOBILE = 1505
+MSI_EMOTION_MAIL = 1506
+MSI_EMOTION_ANTENNA1 = 1508
+MSI_EMOTION_ANTENNA2 = 1509
+MSI_EMOTION_ANTENNA3 = 1510
+MSI_EMOTION_HUM2 = 1511
+MSI_EMOTION_ABS = 1512
+MSI_EMOTION_OOPS = 1513
+MSI_EMOTION_SPIT = 1514
+MSI_EMOTION_ENE = 1515
+MSI_EMOTION_PANIC = 1516
+MSI_EMOTION_WHISP = 1517
+EMOTION_ACTION = {
+	ET_SURPRISE = 0,
+	ET_QUESTION = 1,
+	ET_DELIGHT = 2,
+	ET_THROB = 3,
+	ET_SWEAT = 5,
+	ET_AHA = 6,
+	ET_FRET = 7,
+	ET_ANGER = 8,
+	ET_MONEY = 9,
+	ET_THINK = 10,
+	ET_SCISSOR = 12,
+	ET_ROCK = 11,
+	ET_WRAP = 13,
+	ET_FLAG = 14,
+	ET_BIGTHROB = 4,
+	ET_THANKS = 15,
+	ET_KEK = 16,
+	ET_SORRY = 17,
+	ET_SMILE = 18,
+	ET_PROFUSELY_SWEAT = 19,
+	ET_SCRATCH = 20,
+	ET_BEST = 21,
+	ET_STARE_ABOUT = 22,
+	ET_HUK = 23,
+	ET_O = 24,
+	ET_X = 25,
+	ET_HELP = 26,
+	ET_GO = 27,
+	ET_CRY = 28,
+	ET_KIK = 29,
+	ET_CHUP = 30,
+	ET_CHUPCHUP = 31,
+	ET_HNG = 32,
+	ET_OK = 33,
+	ET_CHAT_PROHIBIT = 1000,
+	ET_INDONESIA_FLAG = 34,
+	ET_STARE = 35,
+	ET_HUNGRY = 36,
+	ET_COOL = 37,
+	ET_MERONG = 38,
+	ET_SHY = 39,
+	ET_GOODBOY = 40,
+	ET_SPTIME = 41,
+	ET_SEXY = 42,
+	ET_COMEON = 43,
+	ET_SLEEPY = 44,
+	ET_CONGRATULATION = 45,
+	ET_HPTIME = 46,
+	ET_PH_FLAG = 47,
+	ET_MY_FLAG = 48,
+	ET_SI_FLAG = 49,
+	ET_BR_FLAG = 50,
+	ET_SPARK = 51,
+	ET_CONFUSE = 52,
+	ET_OHNO = 53,
+	ET_HUM = 54,
+	ET_BLABLA = 55,
+	ET_OTL = 56,
+	ET_DICE1 = 57,
+	ET_DICE2 = 58,
+	ET_DICE3 = 59,
+	ET_DICE4 = 60,
+	ET_DICE5 = 61,
+	ET_DICE6 = 62,
+	ET_INDIA_FLAG = 63,
+	ET_LUV = 64,
+	ET_FLAG8 = 65,
+	ET_FLAG9 = 66,
+	ET_MOBILE = 67,
+	ET_MAIL = 68,
+	ET_ANTENNA0 = 69,
+	ET_ANTENNA1 = 70,
+	ET_ANTENNA2 = 71,
+	ET_ANTENNA3 = 72,
+	ET_HUM2 = 73,
+	ET_ABS = 74,
+	ET_OOPS = 75,
+	ET_SPIT = 76,
+	ET_ENE = 77,
+	ET_PANIC = 78,
+	ET_WHISP = 79
+}
+EMOTION_MSGLIST = {
+	ET_SURPRISE = GetMsgString(MSI_EMOTION_SURPRISE),
+	ET_QUESTION = GetMsgString(MSI_EMOTION_QUESTION),
+	ET_DELIGHT = GetMsgString(MSI_EMOTION_DELIGHT),
+	ET_THROB = GetMsgString(MSI_EMOTION_THROB),
+	ET_BIGTHROB = GetMsgString(MSI_EMOTION_BIGTHROB),
+	ET_SWEAT = GetMsgString(MSI_EMOTION_SWEAT),
+	ET_AHA = GetMsgString(MSI_EMOTION_AHA),
+	ET_FRET = GetMsgString(MSI_EMOTION_FRET),
+	ET_ANGER = GetMsgString(MSI_EMOTION_ANGER),
+	ET_MONEY = GetMsgString(MSI_EMOTION_MONEY),
+	ET_THINK = GetMsgString(MSI_EMOTION_THINK),
+	ET_THANKS = GetMsgString(MSI_EMOTION_THANKS),
+	ET_KEK = GetMsgString(MSI_EMOTION_KEK),
+	ET_SORRY = GetMsgString(MSI_EMOTION_SORRY),
+	ET_SMILE = GetMsgString(MSI_EMOTION_SMILE),
+	ET_PROFUSELY_SWEAT = GetMsgString(MSI_EMOTION_SWEAT),
+	ET_SCRATCH = GetMsgString(MSI_EMOTION_SCRATCH),
+	ET_BEST = GetMsgString(MSI_EMOTION_BEST),
+	ET_STARE_ABOUT = GetMsgString(MSI_EMOTION_STARE_ABOUT),
+	ET_HUK = GetMsgString(MSI_EMOTION_HUK),
+	ET_O = GetMsgString(MSI_EMOTION_O),
+	ET_X = GetMsgString(MSI_EMOTION_X),
+	ET_HELP = GetMsgString(MSI_EMOTION_HELP),
+	ET_GO = GetMsgString(MSI_EMOTION_GO),
+	ET_CRY = GetMsgString(MSI_EMOTION_CRY),
+	ET_KIK = GetMsgString(MSI_EMOTION_KIK),
+	ET_CHUP = GetMsgString(MSI_EMOTION_CHUP),
+	ET_CHUPCHUP = GetMsgString(MSI_EMOTION_CHUPCHUP),
+	ET_HNG = GetMsgString(MSI_EMOTION_HNG),
+	ET_OK = GetMsgString(MSI_EMOTION_OK),
+	ET_STARE = GetMsgString(MSI_EMOTION_STARE),
+	ET_HUNGRY = GetMsgString(MSI_EMOTION_HUNGRY),
+	ET_COOL = GetMsgString(MSI_EMOTION_COOL),
+	ET_MERONG = GetMsgString(MSI_EMOTION_MERONG),
+	ET_SHY = GetMsgString(MSI_EMOTION_SHY),
+	ET_GOODBOY = GetMsgString(MSI_EMOTION_GOODBOY),
+	ET_SPTIME = GetMsgString(MSI_EMOTION_SPTIME),
+	ET_SEXY = GetMsgString(MSI_EMOTION_SEXY),
+	ET_COMEON = GetMsgString(MSI_EMOTION_COMEON),
+	ET_SLEEPY = GetMsgString(MSI_EMOTION_SLEEPY),
+	ET_CONGRATULATION = GetMsgString(MSI_EMOTION_CONGRATULATION),
+	ET_HPTIME = GetMsgString(MSI_EMOTION_HPTIME),
+	ET_SPARK = GetMsgString(MSI_EMOTION_SPARK),
+	ET_CONFUSE = GetMsgString(MSI_EMOTION_CONFUSE),
+	ET_OHNO = GetMsgString(MSI_EMOTION_OHNO),
+	ET_HUM = GetMsgString(MSI_EMOTION_HUM),
+	ET_BLABLA = GetMsgString(MSI_EMOTION_BLABLA),
+	ET_OTL = GetMsgString(MSI_EMOTION_OTL),
+	ET_ROCK = GetMsgString(MSI_EMOTION_ROCK),
+	ET_SCISSOR = GetMsgString(MSI_EMOTION_SCISSOR),
+	ET_WRAP = GetMsgString(MSI_EMOTION_WRAP),
+	ET_LUV = GetMsgString(MSI_EMOTION_LUV),
+	ET_MOBILE = GetMsgString(MSI_EMOTION_MOBILE),
+	ET_MAIL = GetMsgString(MSI_EMOTION_MAIL),
+	ET_ANTENNA1 = GetMsgString(MSI_EMOTION_ANTENNA1),
+	ET_ANTENNA2 = GetMsgString(MSI_EMOTION_ANTENNA2),
+	ET_ANTENNA3 = GetMsgString(MSI_EMOTION_ANTENNA3),
+	ET_HUM2 = GetMsgString(MSI_EMOTION_HUM2),
+	ET_ABS = GetMsgString(MSI_EMOTION_ABS),
+	ET_OOPS = GetMsgString(MSI_EMOTION_OOPS),
+	ET_SPIT = GetMsgString(MSI_EMOTION_SPIT),
+	ET_ENE = GetMsgString(MSI_EMOTION_ENE),
+	ET_PANIC = GetMsgString(MSI_EMOTION_PANIC),
+	ET_WHISP = GetMsgString(MSI_EMOTION_WHISP)
+}
+EMOTION_ORDERLIST = {
+	ET_SURPRISE,
+	ET_QUESTION,
+	ET_DELIGHT,
+	ET_THROB,
+	ET_BIGTHROB,
+	ET_SWEAT,
+	ET_AHA,
+	ET_FRET,
+	ET_ANGER,
+	ET_MONEY,
+	ET_THINK,
+	ET_ROCK,
+	ET_SCISSOR,
+	ET_WRAP,
+	ET_THANKS,
+	ET_KEK,
+	ET_SORRY,
+	ET_SMILE,
+	ET_PROFUSELY_SWEAT,
+	ET_SCRATCH,
+	ET_BEST,
+	ET_STARE_ABOUT,
+	ET_HUK,
+	ET_O,
+	ET_X,
+	ET_HELP,
+	ET_GO,
+	ET_CRY,
+	ET_KIK,
+	ET_CHUP,
+	ET_CHUPCHUP,
+	ET_HNG,
+	ET_OK,
+	ET_STARE,
+	ET_HUNGRY,
+	ET_COOL,
+	ET_MERONG,
+	ET_SHY,
+	ET_GOODBOY,
+	ET_SPTIME,
+	ET_SEXY,
+	ET_COMEON,
+	ET_SLEEPY,
+	ET_CONGRATULATION,
+	ET_HPTIME,
+	ET_SPARK,
+	ET_CONFUSE,
+	ET_OHNO,
+	ET_HUM,
+	ET_BLABLA,
+	ET_OTL,
+	ET_LUV,
+	ET_MOBILE,
+	ET_MAIL,
+	ET_ANTENNA1,
+	ET_ANTENNA2,
+	ET_ANTENNA3,
+	ET_HUM2,
+	ET_ABS,
+	ET_OOPS,
+	ET_SPIT,
+	ET_ENE,
+	ET_PANIC,
+	ET_WHISP
+}
+EMOTION_MSGLIST2 = {
+	["/e28"] = ET_ABS,
+	["/¸Û"] = ET_ABS,
+	["/abs"] = ET_ABS,
+	["/aha"] = ET_AHA,
+	["/dkgk"] = ET_AHA,
+	["/ghk"] = ET_ANGER,
+	["/anger"] = ET_ANGER,
+	["/e23"] = ET_ANTENNA0,
+	["/antenna0"] = ET_ANTENNA0,
+	["/e24"] = ET_ANTENNA1,
+	["/antenna1"] = ET_ANTENNA1,
+	["/e25"] = ET_ANTENNA2,
+	["/antenna2"] = ET_ANTENNA2,
+	["/e26"] = ET_ANTENNA3,
+	["/antenna3"] = ET_ANTENNA3,
+	["/¿øÃò"] = ET_BEST,
+	["/¤º"] = ET_BEST,
+	["/½Ã²ø½Ã²ø"] = ET_BLABLA,
+	["/e17"] = ET_BLABLA,
+	["/e9"] = ET_COMEON,
+	["/e14"] = ET_CONFUSE,
+	["/¤º¤»"] = ET_CONGRATULATION,
+	["/e11"] = ET_CONGRATULATION,
+	["/e3"] = ET_COOL,
+	["/delight"] = ET_DELIGHT,
+	["/rlQma"] = ET_DELIGHT,
+	["/¤¡"] = ET_DELIGHT,
+	["/dice"] = ET_DICE,
+	["/e19"] = ET_DICE,
+	["/e31"] = ET_ENE,
+	["/Å»·Â"] = ET_ENE,
+	["/ene"] = ET_ENE,
+	["/fret"] = ET_FRET,
+	["/Wkwmd"] = ET_FRET,
+	["/e6"] = ET_GOODBOY,
+	["/¤º¤º"] = ET_HELP,
+	["/help"] = ET_HELP,
+	["/ÇÇ"] = ET_HPTIME,
+	["/e12"] = ET_HPTIME,
+	["/¤¾"] = ET_HUK,
+	["/e16"] = ET_HUM,
+	["/e27"] = ET_HUM2,
+	["/Èì"] = ET_HUM2,
+	["/hum"] = ET_HUM2,
+	["/e2"] = ET_HUNGRY,
+	["/Å±"] = ET_KIK,
+	["/¤»"] = ET_KIK,
+	["/ÄÉÄÉ"] = ET_KIK,
+	["/·¯ºê"] = ET_LUV,
+	["/e20"] = ET_LUV,
+	["/e22"] = ET_MAIL,
+	["/mail"] = ET_MAIL,
+	["/e4"] = ET_MERONG,
+	["/e21"] = ET_MOBILE,
+	["/mobile"] = ET_MOBILE,
+	["/money"] = ET_MONEY,
+	["/ehs"] = ET_MONEY,
+	["/o"] = ET_O,
+	["/ÇÑ¼û"] = ET_OHNO,
+	["/e15"] = ET_OHNO,
+	["/²ô´ö"] = ET_OK,
+	["/e29"] = ET_OOPS,
+	["/¿ó"] = ET_OOPS,
+	["/oops"] = ET_OOPS,
+	["/e18"] = ET_OTL,
+	["/otl"] = ET_OTL,
+	["/e32"] = ET_PANIC,
+	["/°øÈ²"] = ET_PANIC,
+	["/panic"] = ET_PANIC,
+	["/wnajr"] = ET_ROCK,
+	["/bawi"] = ET_ROCK,
+	["/qkdnl"] = ET_ROCK,
+	["/ÁÖ¸Ô"] = ET_ROCK,
+	["/¹ÙÀ§"] = ET_ROCK,
+	["/rkdnl"] = ET_SCISSOR,
+	["/gawi"] = ET_SCISSOR,
+	["/°¡À§"] = ET_SCISSOR,
+	["/e8"] = ET_SEXY,
+	["/ºÎ"] = ET_SHY,
+	["/e5"] = ET_SHY,
+	["/¤¸"] = ET_SLEEPY,
+	["/e10"] = ET_SLEEPY,
+	["/ÇÏÇÏ"] = ET_SMILE,
+	["/¤·"] = ET_SMILE,
+	["/smile"] = ET_SMILE,
+	["/sorry"] = ET_SORRY,
+	["/e13"] = ET_SPARK,
+	["/e30"] = ET_SPIT,
+	["/À¡"] = ET_SPIT,
+	["/spit"] = ET_SPIT,
+	["/¿¥"] = ET_SPTIME,
+	["/e7"] = ET_SPTIME,
+	["/¤¹"] = ET_STARE,
+	["/e1"] = ET_STARE,
+	["/sweat"] = ET_SWEAT,
+	["/Eka"] = ET_SWEAT,
+	["/¤£"] = ET_THANKS,
+	["/heart"] = ET_THROB,
+	["/gkxm"] = ET_THROB,
+	["/e33"] = ET_WHISP,
+	["/À§½ºÆÛ"] = ET_WHISP,
+	["/whisp"] = ET_WHISP,
+	["/qh"] = ET_WRAP,
+	["/bo"] = ET_WRAP,
+	["/º¸"] = ET_WRAP,
+	["/x"] = ET_X
+}
+
+function InsertEmotMsgToList2(msgStr, emotionType)
+	if msgStr ~= nil then
+		EMOTION_MSGLIST2[msgStr] = emotionType
+	end
+end
+
+function InitEmotionMsgList2()
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SURPRISE), ET_SURPRISE)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_QUESTION), ET_QUESTION)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_DELIGHT), ET_DELIGHT)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_THROB), ET_THROB)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_BIGTHROB), ET_BIGTHROB)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SWEAT), ET_SWEAT)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_AHA), ET_AHA)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_FRET), ET_FRET)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_ANGER), ET_ANGER)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_MONEY), ET_MONEY)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_THINK), ET_THINK)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_THANKS), ET_THANKS)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_KEK), ET_KEK)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SORRY), ET_SORRY)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SMILE), ET_SMILE)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_PROFUSELY_SWEAT), ET_PROFUSELY_SWEAT)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SCRATCH), ET_SCRATCH)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_BEST), ET_BEST)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_STARE_ABOUT), ET_STARE_ABOUT)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_HUK), ET_HUK)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_O), ET_O)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_X), ET_X)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_HELP), ET_HELP)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_GO), ET_GO)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_CRY), ET_CRY)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_KIK), ET_KIK)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_CHUP), ET_CHUP)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_CHUPCHUP), ET_CHUPCHUP)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_HNG), ET_HNG)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_OK), ET_OK)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_STARE), ET_STARE)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_HUNGRY), ET_HUNGRY)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_COOL), ET_COOL)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_MERONG), ET_MERONG)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SHY), ET_SHY)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_GOODBOY), ET_GOODBOY)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SPTIME), ET_SPTIME)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SEXY), ET_SEXY)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_COMEON), ET_COMEON)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SLEEPY), ET_SLEEPY)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_CONGRATULATION), ET_CONGRATULATION)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_HPTIME), ET_HPTIME)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_SPARK), ET_SPARK)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_CONFUSE), ET_CONFUSE)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_OHNO), ET_OHNO)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_HUM), ET_HUM)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_BLABLA), ET_BLABLA)
+	InsertEmotMsgToList2(GetMsgString(MSI_EMOTION_OTL), ET_OTL)
+end
+
+function GetEmotionTypeByMsgStr(msgStr)
+	local emotionType = EMOTION_MSGLIST2[msgStr]
+	if emotionType ~= nil then
+		return emotionType
+	else
+		return -1
+	end
+end
+
+function GetEmotionMsg(indexInWnd)
+	local emotionType = EMOTION_ORDERLIST[indexInWnd + 1]
+	if emotionType ~= nil then
+		local emotionMsg = EMOTION_MSGLIST[emotionType]
+		if emotionMsg ~= nil then
+			return emotionMsg
+		else
+			return ""
+		end
+	else
+		return ""
+	end
+end
+
+function GetEmotionType(indexInWnd)
+	local emotionType = EMOTION_ORDERLIST[indexInWnd + 1]
+	if emotionType ~= nil then
+		return emotionType
+	else
+		return -1
+	end
+end
+
+function GetEmotionActionByWndIdx(indexInWnd)
+	local emotionType = EMOTION_ORDERLIST[indexInWnd + 1]
+	if emotionType ~= nil then
+		local emotionAction = EMOTION_ACTION[emotionType]
+		if emotionAction ~= nil then
+			return emotionAction
+		else
+			return -1
+		end
+	else
+		return -1
+	end
+end
+
+function GetEmotionAction(emotionType)
+	local emotionAction = EMOTION_ACTION[emotionType]
+	if emotionAction ~= nil then
+		return emotionAction
+	else
+		return -1
+	end
+end

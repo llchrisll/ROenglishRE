@@ -1,0 +1,604 @@
+tbl = {
+	[1] = {
+		Title = "Tip box",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00001",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/tip alternatively, you can open the tip box by clicking the tip box icon..\\nThe tip box provides useful information for playing games.\\nIf you want to get more information, please enter a search term in ^3b488cSearch window^000000.\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 160, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[2] = {
+		Title = "Help: Command list",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00002",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/h to see useful commands used in Ragnarok.\\n/You can use commands by typing it in ^3b488chat window^000000.\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[3] = {
+		Title = "Character: HP",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00003",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Indicates the character's health.\\n^ff0000When HP reaches 0, your character won't be able to participate in battle. ^000000Please be careful because ^ff0000experience penalty^000000 may accure on certain locations.\\n\tPress Alt + END to toggle HP/SP meter ON/OFF.\n--<TIPBOX>≫Character: SP<INFO>4</INFO></TIPBOX>\n--<TIPBOX>≫Auto regen<INFO>12</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 60, DistX = 0, DistY = 0, MoveTime = 0 },
+			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[4] = {
+		Title = "Character: SP",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00003",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Indicates the character's spirit.\\nCertain skills will ^3b488cconsume SP^000000. ^000000Please be careful because^ff0000 when SP reaches 0, your character won't be able to cast a skill^000000.\\nPress Alt + END to toggle HP/SP meter ON/OFF.\n--<TIPBOX>≫Character: HP<INFO>3</INFO></TIPBOX>\n--<TIPBOX>≫Auto regen<INFO>12</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 },
+			{ EffectNum = 0, Twinkle = 1, StartX = 120, StartY = 305, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[5] = {
+		Title = "Character: Level Up",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00005",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can level up by hunting monsters or completing quests to gain experience.\\nBy gaining EXP and base level you will obtain ^3b488cstatus points^000000 that can be used to raise character's stats.\\nBy gaining JOBEXP and job level you will obtain ^3b488cskill points^000000 that can be used to learn skill.\n--<TIPBOX>≫Battle: Experience<INFO>16</INFO></TIPBOX>\n--<TIPBOX>≫Character: Stats<INFO>6</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 10, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[6] = {
+		Title = "Stats: STR(Strength)#Stats",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Character의 ^3b488c근접 물리 공격력^000000에 직접적인 영향을 미쳐 기본 공격 데미지가 올라갑니다.\\n또, ^3b488c소지한계량(Weight)^000000이 늘어나 보다 많은 아이템을 가지고 다닐 수 있게 됩니다.\n--<TIPBOX>≫Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>≫Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>≫Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>≫Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n--<TIPBOX>≫Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[7] = {
+		Title = "Stats: AGI(Agility)#Stats",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Character의 속도에 직접적인 영향을 미쳐 ^3b488c공격속도^000000와 ^3b488c회피율^000000이 올라갑니다.\\n또, ^3b488c물리 방어력^000000에도 영향을 줍니다.\n--<TIPBOX>≫Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>≫Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>≫Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>≫Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n--<TIPBOX>≫Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 223, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[8] = {
+		Title = "Stats: VIT(Vitality)#Stats",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Character의 체력에 직접적인 영향을 미쳐 ^3b488c최대 HP^000000가 올라갑니다.\\n또, ^3b488c물리 방어력^000000과 ^3b488c마법 방어력^000000을 올려주고 ^3b488cHP자동 회복^000000에도 영향을 줍니다.\n--<TIPBOX>≫Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>≫Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>≫Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>≫Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n--<TIPBOX>≫Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 236, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[9] = {
+		Title = "Stats: INT(Intelligence)#Stats",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Character의 ^3b488c마법 공격력^000000에 직접적인 영향을 미쳐 ^3b488c마법 데미지^000000가 올라갑니다.\\n또, ^3b488c캐스팅 시간^000000을 단축시키고 ^3b488c마법 방어력^000000을 올려주며 ^3b488c최대SP량^000000을 늘려 마법을 더 많이 쓸 수 있게 해줍니다.\n--<TIPBOX>≫Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>≫Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>≫Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>≫Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n--<TIPBOX>≫Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[10] = {
+		Title = "Stats: DEX(Dexterity)#Stats",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Character의 ^3b488c원거리물리 공격력^000000에 직접적인 영향을 미쳐 ^3b488c원거리 공격 데미지^000000가 올라갑니다.\\n또, ^3b488c명중률^000000을 올려줘 공격이 성공할 확률이 높아지고 ^3b488c캐스팅 시간^000000을 단축시키며 ^3b488c마법 공격력^000000을 올려줍니다.\n--<TIPBOX>≫Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>≫Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>≫Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>≫Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>≫Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 263, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[11] = {
+		Title = "Stats: LUK(Luck)#Stats",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Character의 ^3b488c치명타율^000000에 직접적인 영향을 미쳐 몬스터에게 ^3b488c크리티컬 데미지^000000를 줄 확률이 올라갑니다.\\n또, ^3b488c명중률, 회피율, 물리 공격력, 마법 공격력^000000등에 영향을 주지만 ^ff0000효율이 다른 Status에 비해 낮으므로 포인트를 투자할 때 주의가 필요합니다.^000000\n--<TIPBOX>≫Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>≫Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>≫Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>≫Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>≫Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 276, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[12] = {
+		Title = "Auto regen",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"아무런 행동도 하지 않고 제자리에 가만히 서 있으면 플레이어의 ^3b488cHP와 SP가 조금씩 회복^000000 됩니다. 앉아 있을 경우 2배로 회복됩니다.\\n^ff0000무게가 70% 이상일 경우는 회복되지 않습니다.^000000\n--<TIPBOX>≫Character: Weight<INFO>13</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[13] = {
+		Title = "Character: Weight",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Character가 지닐 수 있는 무게와 현재 지닌 아이템의 무게를 나타냅니다.\\nWeight만큼 아이템을 지닐 수 있으며 ^ff0000아이템의 무게가 한계치를 넘으면 더 이상 아이템을 가질 수 없습니다.\\nWeight 의 수치가 70%이상이면 HP 와 SP가 자동으로 회복 되지않습니다. 또한 90% 이상 넘게 되면 플레이어는 공격을 하거나 스킬을 사용할 수 없습니다.^000000\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 185, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[14] = {
+		Title = "Battle: Attack",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"몬스터 위에 마우스 커서를 가져가면 커서가 칼 모양으로 바뀌게 됩니다.\\n이때, ^3b488c클릭^000000으로 공격할 수 있습니다.\n--<TIPBOX>≫Lock-on mode: Automatic attack<INFO>15</INFO></TIPBOX>\n--<TIPBOX>≫Battle: Experience<INFO>16</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[15] = {
+		Title = "Lock-on mode: Automatic attack",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Ctrl 키를 누른 상태에서 몬스터를 공격하면 몬스터를 처치할 때까지 ^3b488c자동으로 공격^000000하게 되며 다른 곳을 클릭하면 해제할 수 있습니다.\\n또, ^3b488c/noctrl를 입력하면 Ctrl을 누르지않아도 자동공격이 되는 상태가 됩니다.\\n자동공격이 기본인 상태에서 /noctrl을 다시 입력하면 자동공격 모드를 해제할 수 있습니다.^000000\n--<TIPBOX>≫Battle: Attack<INFO>14</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[16] = {
+		Title = "Battle: Experience",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00016",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"몬스터를 사냥하면 ^3b488c경험치^000000를 얻을 수 있습니다.\\n몬스터에게 얻는 경험치는 몬스터에게 준 피해와 비례하지만 같은 피해를 주었다 하더라도 맨 처음에 몬스터를 공격한 사람이 경험치를 더 많이 받게 됩니다.\n--<TIPBOX>≫Battle: Attack<INFO>14</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[17] = {
+		Title = "Item",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00017",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can pick up item that fall on the floor by using ^3b488cLeft-click^000000 of mouse.\\nPicked items are put in the item window ALT+E.\n--<TIPBOX>≫Item: Magnifier<INFO>18</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 150, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[18] = {
+		Title = "Item: Magnifier",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00018",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Equipment items obtained from monster are displayed as ^ff0000Unknown item^000000. You can identify this item by using <ITEM>Magnifier<INFO>611 Magnifier</INFO></ITEM> that can be bought from Tool Dealer.\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 100, StartY = 88, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[19] = {
+		Title = "Chatting: Dialog",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00019",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"엔터키로 Chat window을 활성화 시킬 수 있습니다. 하고 싶은 말을 쓰고 다시 엔터키를 누르면 Dialog가 전송 됩니다.\n--<TIPBOX>≫Chatting: Chat room<INFO>20</INFO></TIPBOX>\n--<TIPBOX>≫Chatting: Whisper<INFO>21</INFO></TIPBOX>\n--<TIPBOX>≫Chatting: Party<INFO>22</INFO></TIPBOX>\n--<TIPBOX>≫Chatting: Guild<INFO>23</INFO></TIPBOX>\n--<TIPBOX>≫Chatting: Chat window<INFO>25</INFO></TIPBOX>\n--<TIPBOX>≫Chatting: Show content<INFO>26</INFO></TIPBOX>\n--<TIPBOX>≫차단<INFO>28</INFO></TIPBOX>\n--<TIPBOX>≫이모션<INFO>27</INFO></TIPBOX>\n--<TIPBOX>≫Chatting: Save dialog<INFO>24</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 280, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[20] = {
+		Title = "Chatting: Chat room",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00020",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/Chat room 또는 /chat으로 ^3b488cChat room^000000을 만드는 창을 띄울 수 있습니다. 또 /q 명령으로 Chat room을 나갈 수 있습니다.\n--<TIPBOX>≫Chatting: Dialog<INFO>19</INFO></TIPBOX>\n--<TIPBOX>≫Chatting: Save dialog<INFO>24</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[21] = {
+		Title = "Chatting: Whisper",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00021",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Chat window 왼쪽 입력란에 Character이름을 입력하면 해당 Character에게 Whisper을 할 수 있습니다.\n----^3b488cAlt + H^000000로 ^3b488c귓말 리스트^000000 창을 열어 Whisper 상대를 확인할 수 있습니다.\n--<TIPBOX>≫Block<INFO>28</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 30, StartY = 260, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[22] = {
+		Title = "Chatting: Party",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00022",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Party멤버와의 Dialog는 % 하고 싶은 말  또는 CTRL+ENTER로 할 수 있습니다.\\n또, Chat window 오른쪽의 ^3b488c파란동그라미^000000를 누르면 ^3b488c수신그룹을 설정^000000할 수 있습니다.\n--<TIPBOX>≫Chatting: Guild<INFO>23</INFO></TIPBOX>\n--<TIPBOX>≫Party system<INFO>29</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[23] = {
+		Title = "Chatting: Guild",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00023",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Guild멤버와의 Dialog는 /gc 하고 싶은 말  또는 $ 하고 싶은 말  또는 ALT+ENTER로 할 수 있습니다.\\n또, Chat window 오른쪽의 ^3b488c파란동그라미^000000를 누르면 ^3b488c수신그룹을 설정^000000할 수 있습니다.\n--<TIPBOX>≫Chatting: Party<INFO>22</INFO></TIPBOX>\n--<TIPBOX>≫Guild system<INFO>30</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[24] = {
+		Title = "Chatting: Save dialog",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00024",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/갈무리 or /savechat 으로 채팅 내용을 파일로 저장합니다. \\nDialog 내용은 라그나로크가 설치 된 폴더의 Chat폴더 안에 저장 됩니다.\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[25] = {
+		Title = "Chatting: Chat window",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00025",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"^3b488cF10^000000으로 Chat window의 크기를 조절할 수 있습니다.\\nAlt + F10을 누르면 Chat window을 On/Off 할 수 있습니다.\n--<TIPBOX>≫Chatting: Show content<INFO>26</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 150, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[26] = {
+		Title = "Chatting: Show content",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00026",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Chat window에 /notalkmsg를 입력하면 채팅내용을 Chat window에 표시하지 않습니다. On/Off\\n/notalkmsg2를 입력하면 Guild말을 포함한 채팅내용을 Chat window에 표시하지 않습니다. On/Off\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[27] = {
+		Title = "Emotion",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00027",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ALT + L을 누르거나 /이모션을 입력하면 사용가능한 ^3b488c이모션^000000의 목록을 볼 수 있습니다.\\n\\nCtrl을 누른채 -, =, \\를 눌러 가위, 바위, 보 이모션을 사용할 수 있습니다.\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[28] = {
+		Title = "Block",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00028",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/차단 Character명 또는 /ex Character명으로 해당 Character가 하는 말이나 Whisper 등을 차단합니다. 해제하고 싶을때에는 /해제 Character명 또는 /in Character명 으로 해제할 수 있습니다.\\n또, /차단전부, /exall, /해제전부, /inall 명령어로 전체 Dialog와 Whisper을 차단하거나 해제할 수 있습니다.\\n차단된 Character의 목록을 확인하고 싶을때에는 /차단 또는 /ex로 목록을 볼 수 있습니다.\\n^ff0000※ (Y/N)를 묻지 않으므로, 신중하게 선택하셔야 합니다.^000000\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[29] = {
+		Title = "Party system",
+		Search = 1,
+		Image = "유저인터페이스\\tipbox\\tip00029",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/결성 Party이름 또는 /organize Party이름으로 Party를 만들 수 있습니다.\\n/탈퇴 또는 /leave로 Party를 탈퇴할 수 있습니다.",
+			"Party를 결성하여 Party리더가 된 경우, 상대 Character를 마우스 오른쪽 버튼으로 클릭하여 'Party에 초대한다' 메뉴를 선택하거나 /초대 Character명으로 Party에 초대할 수 있습니다.\\nParty원을 제명하고 싶은 경우 /제명 Character이름 또는 /expel Character이름으로 ^3b488c자신이 리더인 Party^000000의 Party원을 제명할 수 있습니다.\\n^ff0000※ (Y/N)를 묻지 않으므로, 신중하게 선택하셔야 합니다.^000000\n--<TIPBOX>≫Chatting: Party<INFO>22</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[30] = {
+		Title = "Guild system",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/Guild Guild이름으로 Guild를 만들 수 있습니다. Guild를 만드는데에는 엠펠리움 1개가 소모됩니다.\\n자신이 소속한 Guild의 정보는 ALT + G로 볼 수 있습니다.\\n^ff0000Guild마스터는 Guild를 해체할 수 있습니다. Guild마스터를 제외한 Guild원이 없는 상태에서 /해체 Guild를 입력하면 Guild가 해체 됩니다.\\n※ (Y/N)를 묻지 않으므로, 신중하게 선택하셔야 합니다.^000000\n--<TIPBOX>≫Chatting: Guild<INFO>23</INFO></TIPBOX>\n--<TIPBOX>≫Guild: Position<INFO>31</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[31] = {
+		Title = "Guild: Position",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Guild정보창의 직위설정 항목에서 Guild원들의 직위를 설정할 수 있습니다. Guild 직위는 각종 권한을 부여하거나 Guild성장에 필요한 경험치 상납을 조절할 수 있습니다.\n--<TIPBOX>≫Guild system<INFO>30</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[32] = {
+		Title = "Game Option window",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Press ESC to open Game Option window.\n--<TIPBOX>≫Game option: Game setting<INFO>33</INFO></TIPBOX>\n--<TIPBOX>≫Game option: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[33] = {
+		Title = "Game option: Game setting",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can control various options to make your game play better.\n--<TIPBOX>≫Game setting: Advanced Setting<INFO>40</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[40] = {
+		Title = "Game setting: Advanced Setting",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can control the game graphics.\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[41] = {
+		Title = "Game option: Hotkey",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can add or edit Hotkey.\n--<TIPBOX>≫Hotkey: Macro<INFO>42</INFO></TIPBOX>\n--<TIPBOX>≫Hotkey: Skill bar<INFO>43</INFO></TIPBOX>\n--<TIPBOX>≫Hotkey: Battle Mode<INFO>44</INFO></TIPBOX>\n--<TIPBOX>≫Hotkey: F1~F12<INFO>45</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[42] = {
+		Title = "Hotkey: Macro",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ALT+M You can edit the Macro list. You can use Macro by pressing ALT + 1 ~ 0.\n--<TIPBOX>≫Game option: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[43] = {
+		Title = "Hotkey: Skill bar",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Skill bar(F12)에 자주 사용하는 스킬 또는 아이템을 등록하여 해당 슬롯을 마우스로 더블클릭하거나 단축카를 눌러서 간편하게 사용할 수 있습니다.\\n첫번째 Skill bar는 기본적으로 F1~F9키에 대응하고 게임 옵션> Hotkey 설정에서 대응하는 Hotkey를 변경할 수 있습니다. 2~4번 Skill bar의 Hotkey는 Battle Mode에서만 사용 할 수 있습니다.\\nSkill bar에 스킬 또는 아이템을 마우스로 선택한 후 드래그하여 칸에 넣을 수 있습니다.\n--<TIPBOX>≫Game option: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[44] = {
+		Title = "Hotkey: Battle Mode",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Battle Mode는 채팅기능을 잠궈 Skill bar에 등록된 Hotkey를 키보드에서 사용할 수 있게 해줍니다. /bm으로 On/Off 할 수 있습니다..\\n^ff0000Battle Mode에서는 기본적으로 채팅기능이 잠겨있지만 엔터키를 눌러 Chat window을 활성화 시킬 수 있습니다.^000000\n--<TIPBOX>≫Game option: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[45] = {
+		Title = "Hotkey: F1~F12",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"F1~F9 : Skill bar에 등록 된 스킬을 사용할 수 있습니다.\\nF10 : Chat window의 크기를 조절할 수 있습니다.\\nF11 : 기본정보창과 Dialog창만을 남기고 모든 창을 닫습니다.\\nF12 : Skill bar를 열고 닫을 수 있습니다.\n--<TIPBOX>≫Game option: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1000] = {
+		Title = "Tip box: Item",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can see a list of tips.\\nTips that are not in the list can be found by searching and continue with the new tips. Preface will be updated.\n--<TIPBOX>≫Character<INFO>1001</INFO></TIPBOX>\n--<TIPBOX>≫Gameplay<INFO>1002</INFO></TIPBOX>\n--<TIPBOX>≫Communication<INFO>1003</INFO></TIPBOX>\n--<TIPBOX>≫Ragnarok World<INFO>4000</INFO></TIPBOX>"
+		}
+	},
+	[1001] = {
+		Title = "Character",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"<TIPBOX>≫Character: Level Up<INFO>5</INFO></TIPBOX>\n--<TIPBOX>≫Character: HP and SP<INFO>3</INFO></TIPBOX>\n--<TIPBOX>≫Character: Status<INFO>6</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1002] = {
+		Title = "Gameplay",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"<TIPBOX>≫Battle<INFO>14</INFO></TIPBOX>\n--<TIPBOX>≫Item<INFO>17</INFO></TIPBOX>\n--<TIPBOX>≫Game Option window<INFO>32</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1003] = {
+		Title = "Communication",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"<TIPBOX>≫Chatting<INFO>19</INFO></TIPBOX>\n--<TIPBOX>≫Party<INFO>29</INFO></TIPBOX>\n--<TIPBOX>≫Guild<INFO>30</INFO></TIPBOX>\n-\\n<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4000] = {
+		Title = "The world of Ragnarok",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"라그나로크 세계에서 모험의 무대는 크게 인간들이 중심인 땅 미드가르드 대륙, \n----요정과 거인이 존재하는 차원 너머의 땅, 그리고 탐험심 가득한 이들이 찾아낸 미지의 지역 로컬라이징으로 분류됩니다.\n---\n--<TIPBOX>≫Midgard Continent<INFO>4001</INFO></TIPBOX>\n---\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4001] = {
+		Title = "Midgard Continent",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"미드가르드는 신족과 마족 그리고 인간이 서로의 신념을 위해 싸웠던 성전 이후, \n----살아남은 인간들의 삶의 터전이자 중심대륙입니다. \n----미드가르드 대륙의 동남부 해안선을 따라 주축이 되는 세 개의 나라가 있습니다.\n---\n--<TIPBOX>≫Rune Midgard Kingdom<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫Schwartzwald Republic<INFO>4040</INFO></TIPBOX>\n--<TIPBOX>≫Arunafeltz country<INFO>4050</INFO></TIPBOX>\n---\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4004] = {
+		Title = "Rune Midgard Kingdom",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"성전에 참여했던 영웅들이 세운 국가.\n----영웅의 계보를 잇는 일곱 가문을 중심으로 한 왕정체제이며, 묘르닐 산맥을 기준으로 남부지역을 아우르고 있습니다.\n----왕국민을 위협하는 마물을 대비해 모험가 양성을 장려하고 많은 후원을 하고 있습니다.\n---\n--<TIPBOX>≫왕도 프론테라<INFO>4005</INFO></TIPBOX>\n--<TIPBOX>≫마법도시 게펜<INFO>4006</INFO></TIPBOX>\n--<TIPBOX>≫Desert city Morocc<INFO>4007</INFO></TIPBOX>\n--<TIPBOX>≫산악도시 페이욘<INFO>4008</INFO></TIPBOX>\n--<TIPBOX>≫항구도시 알베르타<INFO>4009</INFO></TIPBOX>\n--<TIPBOX>≫국경도시 알데바란<INFO>4010</INFO></TIPBOX>\n--<TIPBOX>≫휴양도시 코모도<INFO>4011</INFO></TIPBOX>\n--<TIPBOX>≫부족마을 움발라<INFO>4012</INFO></TIPBOX>\n--<TIPBOX>≫위성도시 이즈루드<INFO>4013</INFO></TIPBOX>\n---\n--<TIPBOX>≫이전 페이지로<INFO>4001</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>",
+			"영웅왕가 게오보르그를 주축으로 하여, 하이네, 네리우스, 발터, 리하르트, 위그너, 뢰겐부르그의 일곱 왕가에서 왕위선출을 통해 선정 된 자가 왕위를 계승합니다. 왕가에서는 본격적인 겨울이 오기 전, 마물 퇴치를 위한 왕실 사냥 대회 등을 열기도 합니다."
+		}
+	},
+	[4005] = {
+		Title = "Royal Prontera",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"룬-미드가츠 왕궁의 중심이며, 왕궁이 있는 왕도입니다.\n----묘르닐 산맥을 등지고 앞으로 넓은 필드를 가지고 있기 때문에 다른 지역에 비해 마물의 피해가 적으며 평화롭습니다.\n----주신 오딘을 모시는 대성당과, 기사단이 있어 성직자나 기사가 꿈인 자들이 많이 모입니다.\n---\n--<NAVI>[프론테라 대성당]<INFO>prontera,235,315,0,101,0</INFO></NAVI>\n--<NAVI>[크루세이더 집무실]<INFO>prt_cas,248,102,0,101,0</INFO></NAVI>\n--<NAVI>[프론테라 기사단]<INFO>prontera,49,342,0,101,0</INFO></NAVI>\n--<NAVI>[성 카피톨리나 수도원]<INFO>prt_monk,180,205,0,101,0</INFO></NAVI>\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4006] = {
+		Title = "Magic city Geffen",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"프론테라 서쪽 습지 너머에 위치한 마법사들의 도시. 중앙에 마탑 게펜타워가 있으며 과거 전설의 도시 게페니아가 있던 곳이라는 소문이 있습니다. 종종 마법사들의 축제 게펜 마법대회를 개최합니다.\n---\n--<NAVI>[마술사 Guild]<INFO>geffen_in,164,124,0,101,0</INFO></NAVI>\n--<NAVI>[게펜 타워 최상층]<INFO>gef_tower,111,27,0,101,0</INFO></NAVI>\n--<NAVI>[게펜 명물 전망대]<INFO>gef_fild07,179,242,0,101,0</INFO></NAVI>\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4007] = {
+		Title = "Desert city Morocc",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"과거 성전이 끝난 후, 마신 모로크가 미드가르드 대륙에 강림했었습니다. 마검사 타나토스의 활약으로 모로크는 봉인됐으나, 그 봉인의 여파로 일대가 사막이 되었습니다. 오아시스를 중심으로 도시가 형성되었는데, 모로크가 봉인된 지역이라 도시명이 모로크가 되었습니다. 최근 모로크가 봉인을 깨는 바람에 도시와 인근 사막이 다시 파괴되고, 도시는 새로이 재건 되었습니다.\n---\n--<NAVI>[도둑 Guild]<INFO>moc_prydb1,39,126,0,101,0</INFO></NAVI>\n--<NAVI>[어쌔신 Guild]<INFO>moc_fild16,206,290,0,101,0</INFO></NAVI>\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>",
+			"오아시스를 중심으로 발달한 사막도시 특유의 문화와 함께, 고대에 세워진 수수께끼의 건축물, 구시대의 방어요새, 사막의 위협 개미굴 등이 존재합니다.\n---\n--<NAVI>[피라미드]<INFO>moc_ruins,64,162,0,101,0</INFO></NAVI>\n--<NAVI>[스핑크스]<INFO>moc_fild19,105,100,0,101,0</INFO></NAVI>\n--<NAVI>[산다르만 요새]<INFO>cmd_fild08,98,129,0,101,0</INFO></NAVI>\n--<NAVI>[개미굴]<INFO>cmd_fild08,326,351,0,101,0</INFO></NAVI>\n----"
+		}
+	},
+	[4008] = {
+		Title = "Mountain city Payon",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"룬-미드가츠 남동부 산악에 자리잡은 도시. 복잡한 산과 숲으로 인해 외부와 오랫동안 단절된 탓에 상당히 독자적인 문화를 형성하고 있습니다. 사성수의 가호를 받는다거나 신수에 대한 이야기가 많습니다. 뛰어난 명사수와 사냥꾼이 많으며 북쪽 동굴에는 폐가촌이 있습니다.\n---\n--<NAVI>[궁수 Guild]<INFO>payon_in02,64,71,0,101,0</INFO></NAVI>\n--<NAVI>[페이욘 불상]<INFO>pay_arche,137,31,0,101,0</INFO></NAVI>\n--<NAVI>[폐가촌]<INFO>pay_dun03,155,147,0,101,0</INFO></NAVI>\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4009] = {
+		Title = "Port city Alberta",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"미드가르드의 모든 물길과 연결되는 항구를 가진 도시이며, 상인Guild가 위치하고 있기 때문에 상업도시라고도 불립니다. 물길을 통한 미지의 탐험을 즐기는 자들과 돈의 흐름을 읽는 자들이 모이는 곳입니다.\n---\n--<NAVI>[상인 Guild]<INFO>alberta_in,56,43</INFO></NAVI>\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4010] = {
+		Title = "Border city Aldebaran",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"묘르닐 산맥 북부, Schwartzwald와의 경계선 바로 아래에 위치해 있습니다. 중앙에 거대한 시계탑을 중심으로 사방으로 뻗은 운하가 아름다운 도시입니다. 북쪽에 국경검문소가 있습니다.\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4011] = {
+		Title = "Recreational city Comodo",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"남서부 해안 아래 형성 된 동굴을 끼고 있는 신비한 마을. 휴양을 목적으로 찾아오는 관광객들이 많은 곳이라 지역 명물 상품도 많이 개발되었습니다. 인근에 습지와 밀림, 비밀을 품은 동굴을 가지고 있어 탐험가들에게도 매력적인 장소라고 합니다.\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4012] = {
+		Title = "Tribal village Umbala",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"코모도 북쪽 밀림지대에 있는 작은 부족마을. 문명과 동떨어져 태초의 생활방식 그대로를 고수하며 살아가는 부족들의 마을입니다. 세계수 이그드라실의 뿌리가 닿아있다는 이야기가 있습니다. 대륙 공용어를 사용하지 않으니 주의가 필요합니다.\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4013] = {
+		Title = "Satellite city Izlude",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"프론테라 동쪽 해안에 위치한 작은 도시. 수도 프론테라를 보조하기 위해 형성된 위성도시입니다. 모험가 양성을 위한 지원기관 크리투라 학원과 검사 Guild가 있으며, 작은 항구도 겸하고 있습니다.\n---\n--<NAVI>[검사 Guild]<INFO>izlude_in,74,172</INFO></NAVI>\n---\n--<TIPBOX>≫이전 페이지로<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4040] = {
+		Title = "Schwartzwald Republic",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"현자의 도시 유노를 수도로 하는 묘르닐 북부의 나라. 대통령과 의회를 구성한 공화정을 채택하고 있으며, 거대한 기업 레켄베르로 인해 공업이 발달한 나라입니다.\n---\n--<TIPBOX>≫이전 페이지로<INFO>4001</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4050] = {
+		Title = "Arunafeltz country",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"여신 프레이야를 모시는 제정일치의 종country가입니다. 주신이 오딘인 룬-미드가츠와는 과거 성전 이후 종교적 문제로 마찰이 있어 사이가 좋지 않습니다. 당시 종교적으로 박해받던 이들이 이주를 해 건설한 나라가 Arunafeltz입니다. 수도 라헬에는 거대한 신전 세스룸니르가 있습니다.\n---\n--<TIPBOX>≫이전 페이지로<INFO>4001</INFO></TIPBOX>\n--<TIPBOX>≫More tips list<INFO>1000</INFO></TIPBOX>"
+		}
+	}
+}
+
+function main()
+	for DocumentNum, INFO in pairs(tbl) do
+		result, msg = AddTip(DocumentNum, INFO.Title, INFO.Search, INFO.Image)
+		if not result then
+			return false, msg
+		end
+		result, msg = AddImgcoord(DocumentNum, INFO.Imgcoord.Position, INFO.Imgcoord.Size)
+		if not result then
+			return false, msg
+		end
+		if not INFO.PageEX then
+			result, msg = AddPageEx(DocumentNum, -1, 0, 0, 0, 0, 0, 0, 0)
+			if not result then
+				return false, msg
+			end
+		else
+			for k, v in pairs(INFO.PageEX) do
+				result, msg = AddPageEx(DocumentNum, v.EffectNum, v.Twinkle, v.StartX, v.StartY, v.DistX, v.DistY, v.MoveTime)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		for k, v in pairs(INFO.Page) do
+			result, msg = AddPage(DocumentNum, v)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	return true, "good"
+end

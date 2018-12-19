@@ -1,0 +1,111 @@
+function queryNavi_MapInfo(Index)
+	if(Navi_Map[Index] == nil) then
+		return nil, nil, nil, nil, nil
+	end
+	return Navi_Map[Index][1], Navi_Map[Index][2], Navi_Map[Index][3], Navi_Map[Index][4], Navi_Map[Index][5]
+end
+
+function queryNavi_NpcInfo(Index)
+	if(Navi_Npc[Index] == nil) then
+		return nil, nil, nil, nil, nil, nil, nil, nil
+	end
+	return Navi_Npc[Index][1], Navi_Npc[Index][2], Navi_Npc[Index][3], Navi_Npc[Index][4], Navi_Npc[Index][5], Navi_Npc[Index][6], Navi_Npc[Index][7], Navi_Npc[Index][8]
+end
+
+function queryNavi_MobInfo(Index)
+	if(Navi_Mob[Index] == nil) then
+		return nil, nil, nil, nil, nil, nil, nil, nil
+	end
+	return Navi_Mob[Index][1], Navi_Mob[Index][2], Navi_Mob[Index][3], Navi_Mob[Index][4], Navi_Mob[Index][5], Navi_Mob[Index][6], Navi_Mob[Index][7], Navi_Mob[Index][8]
+end
+
+function queryNavi_LinkInfo(Index)
+	if(Navi_Link[Index] == nil) then
+		return nil, nil, nil, nil, nil, nil, nil, nil, nil, nil
+	end
+	return Navi_Link[Index][1], Navi_Link[Index][2], Navi_Link[Index][3], Navi_Link[Index][4], Navi_Link[Index][5], Navi_Link[Index][6], Navi_Link[Index][7], Navi_Link[Index][8], Navi_Link[Index][9], Navi_Link[Index][10], Navi_Link[Index][11]
+end
+
+function queryNavi_Distance_Map(Index)
+	if(Navi_Distance[Index] == nil) then
+		return nil, nil
+	end
+	return Navi_Distance[Index], Navi_Distance[Index + 1]
+end
+
+function queryNavi_Distance_Link(Index, Index2)
+	if(Navi_Distance[Index + 2] == nil) then
+		return nil
+	end
+	if(Navi_Distance[Index + 2][Index2] == nil) then
+		return nil
+	end
+	return Navi_Distance[Index + 2][Index2][1]
+end
+
+function queryNavi_Distance_Pass(Index, Index2, Index3)
+	if(Navi_Distance[Index] == nil) then
+		return nil, nil, nil
+	end
+	if(Navi_Distance[Index + 2][Index2] == nil) then
+		return nil, nil, nil
+	end
+	if(Navi_Distance[Index + 2][Index2][Index3] == nil) then
+		return nil, nil, nil
+	end
+	return Navi_Distance[Index + 2][Index2][Index3 + 1][1], Navi_Distance[Index + 2][Index2][Index3 + 1][2], Navi_Distance[Index + 2][Index2][Index3 + 1][3]
+end
+
+function queryNavi_NpcDistance_Map(Index)
+	if(Navi_NpcDistance[Index] == nil) then
+		return nil, nil
+	end
+	return Navi_NpcDistance[Index], Navi_NpcDistance[Index + 1]
+end
+
+function queryNavi_NpcDistance_Link(Index, Index2)
+	if(Navi_NpcDistance[Index + 2] == nil) then
+		return nil
+	end
+	if(Navi_NpcDistance[Index + 2][Index2] == nil) then
+		return nil
+	end
+	return Navi_NpcDistance[Index + 2][Index2][1]
+end
+
+function queryNavi_NpcDistance_Pass(Index, Index2, Index3)
+	if(Navi_NpcDistance[Index] == nil) then
+		return nil, nil, nil
+	end
+	if(Navi_NpcDistance[Index + 2][Index2] == nil) then
+		return nil, nil, nil
+	end
+	if(Navi_NpcDistance[Index + 2][Index2][Index3] == nil) then
+		return nil, nil, nil
+	end
+	return Navi_NpcDistance[Index + 2][Index2][Index3 + 1][1], Navi_NpcDistance[Index + 2][Index2][Index3 + 1][2], Navi_NpcDistance[Index + 2][Index2][Index3 + 1][3]
+end
+
+function queryNavi_Scroll(Index)
+	if(Navi_Scroll[Index] == nil) then
+		return nil, nil, nil, nil, nil, nil
+	end
+	return Navi_Scroll[Index][1], Navi_Scroll[Index][2], Navi_Scroll[Index][3], Navi_Scroll[Index][4], Navi_Scroll[Index][5], Navi_Scroll[Index][6]
+end
+
+function queryNavi_Scroll_Pass(Index, Index2)
+	if(Navi_Scroll[Index] == nil) then
+		return nil, nil
+	end
+	if(Navi_Scroll[Index][Index2 + 6] == nil) then
+		return nil, nil
+	end
+	return Navi_Scroll[Index][Index2 + 6][1], Navi_Scroll[Index][Index2 + 6][2]
+end
+
+function queryNavi_PickNpc(Index)
+	if(navi_picknpc[Index] == nil) then
+		return nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil
+	end
+	return navi_picknpc[Index][1], navi_picknpc[Index][2], navi_picknpc[Index][3], navi_picknpc[Index][4], navi_picknpc[Index][5], navi_picknpc[Index][6], navi_picknpc[Index][7], navi_picknpc[Index][8], navi_picknpc[Index][9], navi_picknpc[Index][10], navi_picknpc[Index][11], navi_picknpc[Index][12]
+end

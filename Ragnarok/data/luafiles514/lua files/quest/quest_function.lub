@@ -1,0 +1,301 @@
+__LOCAL_QuestList = {}
+__EP_QuestList = {}
+QuestTable = {}
+function makeLocalQuestList(Quest_list)
+	for episodeId, episode in ipairs(Quest_list) do
+		episodeId = getTableSize(__LOCAL_QuestList) + 1
+		__LOCAL_QuestList[episodeId] = episode
+		episode.id = episodeId
+		for chapterId, chapter in ipairs(episode.list) do
+			__LOCAL_QuestList[episodeId][chapterId] = chapter
+			chapter.id = chapterId
+			for questId, quest in ipairs(chapter.list) do
+				__LOCAL_QuestList[episodeId][chapterId][questId] = quest
+				quest.id = questId
+			end
+		end
+	end
+end
+function makeEPQuestList(Quest_list)
+	for episodeId, episode in ipairs(Quest_list) do
+		episodeId = getTableSize(__EP_QuestList) + 1
+		__EP_QuestList[episodeId] = episode
+		episode.id = episodeId
+		for chapterId, chapter in ipairs(episode.list) do
+			__EP_QuestList[episodeId][chapterId] = chapter
+			chapter.id = chapterId
+			for questId, quest in ipairs(chapter.list) do
+				__EP_QuestList[episodeId][chapterId][questId] = quest
+				quest.id = questId
+			end
+		end
+	end
+end
+function queryEpisode(tabid, episodeId)
+	if tabid == 4 then
+		if __LOCAL_QuestList[episodeId] == nil then
+			return nil, nil, nil, nil
+		end
+		return __LOCAL_QuestList[episodeId].id, __LOCAL_QuestList[episodeId].name, __LOCAL_QuestList[episodeId].imagefile, getChapterIterator(episodeId, __LOCAL_QuestList)
+	elseif tabid == 3 then
+		if __EP_QuestList[episodeId] == nil then
+			return nil, nil, nil, nil
+		end
+		return __EP_QuestList[episodeId].id, __EP_QuestList[episodeId].name, __EP_QuestList[episodeId].imagefile, getChapterIterator(episodeId, __EP_QuestList)
+	end
+end
+function queryChapter(tabid, episodeId, chapterId)
+	if tabid == 4 then
+		if __LOCAL_QuestList[episodeId] == nil then
+			return nil, nil, nil, nil
+		end
+		if __LOCAL_QuestList[episodeId][chapterId] == nil then
+			return nil, nil, nil, nil
+		end
+		return __LOCAL_QuestList[episodeId].id, __LOCAL_QuestList[episodeId][chapterId].id, __LOCAL_QuestList[episodeId][chapterId].name, getQuestIterator(episodeId, chapterId, __LOCAL_QuestList)
+	elseif tabid == 3 then
+		if __EP_QuestList[episodeId] == nil then
+			return nil, nil, nil, nil
+		end
+		if __EP_QuestList[episodeId][chapterId] == nil then
+			return nil, nil, nil, nil
+		end
+		return __EP_QuestList[episodeId].id, __EP_QuestList[episodeId][chapterId].id, __EP_QuestList[episodeId][chapterId].name, getQuestIterator(episodeId, chapterId, __EP_QuestList)
+	end
+end
+function queryQuest(tabid, episodeId, chapterId, questId)
+	if tabid == 4 then
+		if __LOCAL_QuestList[episodeId] == nil then
+			return nil, nil, nil, nil, nil, nil
+		end
+		if __LOCAL_QuestList[episodeId][chapterId] == nil then
+			return nil, nil, nil, nil, nil, nil
+		end
+		if __LOCAL_QuestList[episodeId][chapterId][questId] == nil then
+			return nil, nil, nil, nil, nil, nil
+		end
+		return __LOCAL_QuestList[episodeId].id, __LOCAL_QuestList[episodeId][chapterId].id, __LOCAL_QuestList[episodeId][chapterId][questId].id, __LOCAL_QuestList[episodeId][chapterId][questId].name, __LOCAL_QuestList[episodeId][chapterId][questId].scrfilename, __LOCAL_QuestList[episodeId][chapterId][questId].questID
+	elseif tabid == 3 then
+		if __EP_QuestList[episodeId] == nil then
+			return nil, nil, nil, nil, nil, nil
+		end
+		if __EP_QuestList[episodeId][chapterId] == nil then
+			return nil, nil, nil, nil, nil, nil
+		end
+		if __EP_QuestList[episodeId][chapterId][questId] == nil then
+			return nil, nil, nil, nil, nil, nil
+		end
+		return __EP_QuestList[episodeId].id, __EP_QuestList[episodeId][chapterId].id, __EP_QuestList[episodeId][chapterId][questId].id, __EP_QuestList[episodeId][chapterId][questId].name, __EP_QuestList[episodeId][chapterId][questId].scrfilename, __EP_QuestList[episodeId][chapterId][questId].questID
+	end
+end
+function getEpisodeIterator(__QuestList)
+	local pos = 1
+	return {
+		hasNext = function()
+			return __QuestList[pos]
+		end,
+		value = function()
+			temp_pos = pos
+			pos = pos + 1
+			return __QuestList[temp_pos]
+		end
+	}
+end
+function getChapterIterator(episodeId, __QuestList)
+	local pos = 1
+	return {
+		hasNext = function()
+			if __QuestList[episodeId] == nil then
+				return nil
+			end
+			return __QuestList[episodeId][pos]
+		end,
+		value = function()
+			temp_pos = pos
+			pos = pos + 1
+			return __QuestList[episodeId][temp_pos]
+		end
+	}
+end
+function getQuestIterator(episodeId, chapterId, __QuestList)
+	local pos = 1
+	return {
+		hasNext = function()
+			if __QuestList[episodeId][chapterId] == nil then
+				return nil
+			end
+			return __QuestList[episodeId][chapterId][pos]
+		end,
+		value = function()
+			temp_pos = pos
+			pos = pos + 1
+			return __QuestList[episodeId][chapterId][temp_pos]
+		end
+	}
+end
+function queryQuestID(tableName, questID)
+	returnTable = QuestTable[tableName]
+	if returnTable[questID] == nil then
+		return nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil
+	end
+	return returnTable[questID].NPCFromName, returnTable[questID].NPCFromMap, returnTable[questID].NPCFromSpr, returnTable[questID].NPCFromX, returnTable[questID].NPCFromY, returnTable[questID].NPCToName, returnTable[questID].NPCToMap, returnTable[questID].NPCToSpr, returnTable[questID].NPCToX, returnTable[questID].NPCToY, returnTable[questID].Item, returnTable[questID].PrizeItem, returnTable[questID].Title, returnTable[questID].QuickInfo, returnTable[questID].Info, returnTable[questID].Hunt1, returnTable[questID].Hunt2, returnTable[questID].Hunt3, returnTable[questID].Time, returnTable[questID].Lv
+end
+makeLocalQuestList(LOCAL_MalayaQuest_List)
+makeLocalQuestList(LOCAL_DewataQuest_List)
+makeEPQuestList(EP_141Quest_List)
+QuestTable.malayaQuest = malayaQuest_List
+QuestTable.epsoid141Quest = epsoid141Quest_List
+QuestTable.DewataQuest = DewataQuest_List
+QuestTable.quest = {}
+QuestTable.tab_recommend = {}
+QuestTable.tab_episode = {}
+QuestTable.tab_local = {}
+QuestTable.tab_event = {}
+QuestTable.tab_new = {}
+function QuestTable.func_tab_add(tbl, summarybook)
+	summarybookseqId = #tbl + 1
+	tbl[summarybookseqId] = summarybook
+	summarybook.seqid = summarybookseqId
+	for chapterseqId, chapter in ipairs(summarybook.list) do
+		tbl[summarybookseqId][chapterseqId] = chapter
+		chapter.seqid = chapterseqId
+		for questseqId, summary in ipairs(chapter.list) do
+			tbl[summarybookseqId][chapterseqId][questseqId] = summary
+			summary.seqid = questseqId
+		end
+	end
+end
+function QuestTable.func_tab_add_pack(tbl, tabpack)
+	for summarybookseqId, summarybook in ipairs(tabpack) do
+		QuestTable.func_tab_add(tbl, summarybook)
+	end
+end
+function QuestTable.func_quest_lower_exchange_imagetag(msg)
+	local imagetag_front_startpos, imagetag_front_endpos = string.find(msg, "<%s*image%s*=%s*\"%d*\"%s*>")
+	if nil == imagetag_front_startpos or nil == imagetag_front_endpos then
+		return msg
+	end
+	local imagetag_front = string.sub(msg, imagetag_front_startpos, imagetag_front_endpos)
+	local imagetag_rear_startpos, imagetag_rear_endpos = string.find(msg, "<%s*\\end%s*>", imagetag_front_endpos + 1)
+	if nil == imagetag_rear_startpos or nil == imagetag_rear_endpos then
+		return msg
+	end
+	local imagetag_rear = string.sub(msg, imagetag_rear_startpos, imagetag_rear_endpos)
+	local name = string.sub(msg, imagetag_front_endpos + 1, imagetag_rear_startpos - 1)
+	local num_startpos, num_endpos = string.find(imagetag_front, "\"%d*\"")
+	if nil == num_startpos or nil == num_endpos then
+		return msg
+	end
+	local itidstr = string.sub(imagetag_front, num_startpos + 1, num_endpos - 1)
+	local tagstr = string.format("<ITEM>%s<INFO>%s</INFO></ITEM>", name, itidstr)
+	local final = ""
+	if imagetag_front_startpos > 1 then
+		final = final .. string.sub(msg, 1, imagetag_front_startpos - 1)
+	end
+	final = final .. tagstr
+	if imagetag_rear_endpos < #msg then
+		final = final .. string.sub(msg, imagetag_rear_endpos + 1)
+	end
+	return QuestTable.func_quest_lower_exchange_imagetag(final)
+end
+function QuestTable.func_quest_lower_exchange_linktag(msg)
+	local linktag_front_startpos, linktag_front_endpos = string.find(msg, "<%s*link%s*=%s*\".*\">")
+	if nil == linktag_front_startpos or nil == linktag_front_endpos then
+		return msg
+	end
+	local linktag_front = string.sub(msg, linktag_front_startpos, linktag_front_endpos)
+	local linktag_rear_startpos, linktag_rear_endpos = string.find(msg, "<%s*\\end%s*>", linktag_front_endpos + 1)
+	if nil == linktag_rear_startpos or nil == linktag_rear_endpos then
+		return msg
+	end
+	local linktag_rear = string.sub(msg, linktag_rear_startpos, linktag_rear_endpos)
+	local name = string.sub(msg, linktag_front_endpos + 1, linktag_rear_startpos - 1)
+	local spritename_startpos, spritename_endpos = string.find(linktag_front, "\".*\"")
+	if nil == spritename_startpos or nil == spritename_endpos then
+		return msg
+	end
+	local spritename = string.sub(linktag_front, spritename_startpos + 1, spritename_endpos - 1)
+	local tagstr = string.format("<NAVI>%s<INFO>%s,0,0,3,-222</INFO></NAVI>", name, spritename)
+	local final = ""
+	if linktag_front_startpos > 1 then
+		final = final .. string.sub(msg, 1, linktag_front_startpos - 1)
+	end
+	final = final .. tagstr
+	if linktag_rear_endpos < #msg then
+		final = final .. string.sub(msg, linktag_rear_endpos + 1)
+	end
+	return QuestTable.func_quest_lower_exchange_linktag(final)
+end
+function QuestTable.func_quest_lower_add(questPack)
+	for questId, questDesc in pairs(questPack) do
+		if nil ~= questDesc.Item then
+			questDesc.Item = QuestTable.func_quest_lower_exchange_imagetag(QuestTable.func_quest_lower_exchange_linktag(questDesc.Item))
+		end
+		if nil ~= questDesc.PrizeItem then
+			questDesc.PrizeItem = QuestTable.func_quest_lower_exchange_imagetag(QuestTable.func_quest_lower_exchange_linktag(questDesc.PrizeItem))
+		end
+		if nil ~= questDesc.Info then
+			questDesc.Info = QuestTable.func_quest_lower_exchange_imagetag(QuestTable.func_quest_lower_exchange_linktag(questDesc.Info))
+		end
+		if nil ~= questDesc.Hunt1 then
+			questDesc.Hunt1 = QuestTable.func_quest_lower_exchange_imagetag(QuestTable.func_quest_lower_exchange_linktag(questDesc.Hunt1))
+		end
+		if nil ~= questDesc.Hunt2 then
+			questDesc.Hunt2 = QuestTable.func_quest_lower_exchange_imagetag(QuestTable.func_quest_lower_exchange_linktag(questDesc.Hunt2))
+		end
+		if nil ~= questDesc.Hunt3 then
+			questDesc.Hunt3 = QuestTable.func_quest_lower_exchange_imagetag(QuestTable.func_quest_lower_exchange_linktag(questDesc.Hunt3))
+		end
+		QuestTable.quest[questId] = questDesc
+	end
+end
+function QuestTable.func_quest_add(questPack)
+	for questId, questDesc in pairs(questPack) do
+		QuestTable.quest[questId] = questDesc
+	end
+end
+function query_quest_desc(questID)
+	if QuestTable.quest[questID] == nil then
+		return
+	end
+	return QuestTable.quest[questID].NPCFromName, QuestTable.quest[questID].NPCFromMap, QuestTable.quest[questID].NPCFromSpr, QuestTable.quest[questID].NPCFromX, QuestTable.quest[questID].NPCFromY, QuestTable.quest[questID].NPCToName, QuestTable.quest[questID].NPCToMap, QuestTable.quest[questID].NPCToSpr, QuestTable.quest[questID].NPCToX, QuestTable.quest[questID].NPCToY, QuestTable.quest[questID].Item, QuestTable.quest[questID].PrizeItem, QuestTable.quest[questID].Title, QuestTable.quest[questID].Info, QuestTable.quest[questID].Hunt1, QuestTable.quest[questID].Hunt2, QuestTable.quest[questID].Hunt3, QuestTable.quest[questID].Time
+end
+function query_quest_tab_episode(tabname, episodeseqId)
+	if nil == QuestTable[tabname] then
+		return
+	end
+	if nil == QuestTable[tabname][episodeseqId] then
+		return
+	end
+	local episode = QuestTable[tabname][episodeseqId]
+	return episode.name, episode.imagefile
+end
+function query_quest_tab_chapter(tabname, episodeseqId, chapterseqId)
+	if nil == QuestTable[tabname] then
+		return
+	end
+	if nil == QuestTable[tabname][episodeseqId] then
+		return
+	end
+	if nil == QuestTable[tabname][episodeseqId][chapterseqId] then
+		return
+	end
+	local chapter = QuestTable[tabname][episodeseqId][chapterseqId]
+	return chapter.name
+end
+function query_quest_tab_summary(tabname, episodeseqId, chapterseqId, questseqId)
+	if nil == QuestTable[tabname] then
+		return
+	end
+	if nil == QuestTable[tabname][episodeseqId] then
+		return
+	end
+	if nil == QuestTable[tabname][episodeseqId][chapterseqId] then
+		return
+	end
+	if nil == QuestTable[tabname][episodeseqId][chapterseqId][questseqId] then
+		return
+	end
+	local summary = QuestTable[tabname][episodeseqId][chapterseqId][questseqId]
+	return summary.name, summary.questID
+end

@@ -1,0 +1,35 @@
+FirstAttackSkillList = {}
+AttackSkillList = {}
+BuffSkillList = {}
+
+function InsertNewSkillInfo(self, skillID, level, nTime)
+	local nListSize = getTableSize(self)
+	self[nListSize + 1] = {}
+	self[nListSize + 1].nSkillID = skillID
+	self[nListSize + 1].nSkillLevel = level
+	self[nListSize + 1].nReuseTime = nTime
+end
+
+function GetFirstAttackSkillInfo(nIndex)
+	local obj = FirstAttackSkillList[nIndex]
+	if obj ~= nil then
+		return obj.nSkillID, obj.nSkillLevel
+	end
+	return -1, 1
+end
+
+function GetAttackSkillInfo(nIndex)
+	local obj = AttackSkillList[nIndex]
+	if obj ~= nil then
+		return obj.nSkillID, obj.nSkillLevel
+	end
+	return -1, 1
+end
+
+function GetBuffSkillInfo(nIndex)
+	local obj = BuffSkillList[nIndex]
+	if obj ~= nil then
+		return obj.nSkillID, obj.nSkillLevel, obj.nReuseTime
+	end
+	return -1, 1, -1
+end
