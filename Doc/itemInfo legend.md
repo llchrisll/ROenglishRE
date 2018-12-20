@@ -80,3 +80,5 @@ Convertion of rA's item bonuses to client itemInfo description
 | bonus bAddItemHealRate,n; | Increases restoration gained from restorative items by **n**%. |
 | bonus2 bAddItemHealRate,iid,n; | Increases restoration gained from ^0033CC**iid**^000000 by **n**%. |
 | bonus2 bAddItemGroupHealRate,ig,n; | Not implemented |
+
+:arrow_backward:[Back to front page](https://github.com/zackdreaver/ROenglishRE#project-content)
