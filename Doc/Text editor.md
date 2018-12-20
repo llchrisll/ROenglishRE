@@ -11,3 +11,5 @@ That way, when you open itemInfo.lua for the first time, it should look like thi
 ![sample1](https://i.ibb.co/wMH3Hyh/Sample1.jpg)
 
 Other things, like choice of font or style, are up to you.
+
+:arrow_backward:[Back to front page](https://github.com/zackdreaver/ROenglishRE#project-content)
