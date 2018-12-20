@@ -37,3 +37,5 @@
 	* Requires new itemInfo [(5th Version)](https://github.com/zackdreaver/ROenglishRE/blob/master/Ragnarok/System/itemInfo_true_V5.lua)
 	* Need new textures for character selection screen, check extra folder.
 	* Need extra function for skilltreeview.lub, otherwise client crashes.
+	
+:arrow_backward:[Back to front page](https://github.com/zackdreaver/ROenglishRE#project-content)
