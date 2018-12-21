@@ -88,13 +88,15 @@ HatEFID = {
 	HAT_Digital_Space = 87,
 	HAT_EF_Sleipnir = 88,
 	HAT_EF_C_Maple_Which_Falls_Rd = 89,
-	HAT_EF_MagiccircleRainbow = 90
+	HAT_EF_MagiccircleRainbow = 90,
+	HAT_EF_SnowFlake_Tiara = 91,
+	HAT_EF_Midgarts_Glory = 92
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
 		resourceFileName = "efst_blossom_fluttering\\sakura.str",
 		hatEffectPos = -4,
-		hatEffectPosX = 1
+		hatEffectPosX = 0
 	},
 	[HatEFID.HAT_EF_MERMAID_LONGING] = {
 		resourceFileName = "efst_mermaid_loging\\bubblebubble.str",
@@ -292,10 +294,22 @@ hatEffectTable = {
 		hatEffectPosX = 0
 	},
 	[HatEFID.HAT_EF_MagiccircleRainbow] = {
-		resourceFileName = "efst_MagiccircleRainbow\\mc.str",
-		hatEffectPos = -12,
+		resourceFileName = "efst_MagiccircleRainbow\\mcr.str",
+		hatEffectPos = -11,
 		hatEffectPosX = 0,
 		isRenderBeforeCharacter = true,
+		isIgnoreRiding = true
+	},
+	[HatEFID.HAT_EF_SnowFlake_Tiara] = {
+		resourceFileName = "efst_SnowFlake_Tiara\\nnnaaa.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0,
+		isIgnoreRiding = true
+	},
+	[HatEFID.HAT_EF_Midgarts_Glory] = {
+		resourceFileName = "efst_Midgarts_Glory\\halo_2.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0,
 		isIgnoreRiding = true
 	}
 }
@@ -326,7 +340,9 @@ effectHatItemTable = {
 	20515,
 	31391,
 	20535,
-	31316
+	31316,
+	31602,
+	19416
 }
 
 function GetHatEfResName(index)

@@ -1,5 +1,17 @@
 tblLapineUpgradeBox = {
 	targets = {
+		["Magma_Essence"] = {
+			ItemID = 23815,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 2,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Lava_Leather_Armor", 15378 },
+				{ "Lava_Leather_Suits", 15379 },
+				{ "Lava_Leather_Robe", 15380 }
+			},
+			NeedSource_String = "라바 레더 갑옷 장비"
+		},
 		["EP17_1_SPC05"] = {
 			ItemID = 23776,
 			NeedRefineMin = 0,
@@ -1113,9 +1125,82 @@ tblLapineUpgradeBox = {
 				{ "S_Star_Emperor_Armor", 24412 },
 				{ "S_Star_Emperor_Shoes", 24413 },
 				{ "S_Soul_Reaper_Armor", 24414 },
-				{ "S_Soul_Reaper_Shoes", 24415 }
+				{ "S_Soul_Reaper_Shoes", 24415 },
+				{ "S_Tempest_Weapon", 24423 },
+				{ "S_Tempest_Armor", 24424 }
 			},
 			NeedSource_String = "쉐도우 아이템"
+		},
+		["마법고양이손"] = {
+			ItemID = 23311,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "고양이레이스머리띠K", 19242 }
+			},
+			NeedSource_String = "새끼 고양이 헤드드레스"
+		},
+		["사탕축복스크롤_물리"] = {
+			ItemID = 23289,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "안토니오가방_물리", 20842 }
+			},
+			NeedSource_String = "사탕 주머니 가방(물리)"
+		},
+		["사탕축복스크롤_원거리"] = {
+			ItemID = 23290,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "안토니오가방_원거리", 20843 }
+			},
+			NeedSource_String = "사탕 주머니 가방(원거리)"
+		},
+		["사탕축복스크롤_마법"] = {
+			ItemID = 23291,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "안토니오가방_마법", 20844 }
+			},
+			NeedSource_String = "사탕 주머니 가방(마법)"
+		},
+		["건슬링거두루마리"] = {
+			ItemID = 23100,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "늘어진건슬링거", 19157 }
+			},
+			NeedSource_String = "늘어진 건슬링거"
+		},
+		["타락천사날개초기화권"] = {
+			ItemID = 23229,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "K타락천사의날개", 20835 },
+				{ "타락천사의날개", 2589 }
+			},
+			NeedSource_String = "타락천사의 날개"
+		},
+		["제복수선키트"] = {
+			ItemID = 23175,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "카프라제복", 15186 }
+			},
+			NeedSource_String = "카프라 제복"
 		},
 		["Shadow_Random_Mix"] = {
 			ItemID = 23720,
@@ -1445,7 +1530,9 @@ tblLapineUpgradeBox = {
 				{ "S_ImmunedAthena_Shield", 24399 },
 				{ "S_HardChamption_Shoes", 24400 },
 				{ "S_KingbirdAncient_Armor", 24401 },
-				{ "S_CriticalHit_Armor", 15280 }
+				{ "S_CriticalHit_Armor", 15280 },
+				{ "S_Tempest_Weapon", 24423 },
+				{ "S_Tempest_Armor", 24424 }
 			},
 			NeedSource_String = "+7 쉐도우 아이템"
 		}

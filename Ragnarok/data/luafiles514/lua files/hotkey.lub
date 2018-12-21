@@ -260,10 +260,11 @@ BEHAVIOR_TO_WINDOWID = {
 	[198] = 38,
 	[169] = 34,
 	[203] = 42,
-	[268] = 46,
+	[251] = 46,
 	[11] = 47,
-	[287] = 49,
-	[263] = 51
+	[270] = 49,
+	[263] = 51,
+	[282] = 53
 }
 
 function GetKeyDes(key1, key2)
@@ -281,25 +282,23 @@ end
 function GetBeHaviorOfWindow(winID)
 	local behavior = BEHAVIOR_TO_WINDOWID[winID]
 	if behavior ~= nil then
-		do
-			local userTable = USERKEY_2
-			local key1, key2
-			if userTable ~= nil then
-				userTable = USERKEY_2[behavior]
-				if userTable ~= nil and userTable ~= "NULL" then
-					key1 = userTable.KEY1
-					key2 = userTable.KEY2
-				end
+		local userTable = USERKEY_2
+		local key1, key2
+		if userTable ~= nil then
+			userTable = USERKEY_2[behavior]
+			if userTable ~= nil and userTable ~= "NULL" then
+				key1 = userTable.KEY1
+				key2 = userTable.KEY2
 			end
-			if key1 == nil then
-				key1 = HOTKEY_2[behavior].KEY1
-				key2 = HOTKEY_2[behavior].KEY2
-			end
-			if key1 ~= nil then
-				return GetKeyDes(key1, key2)
-			else
-				return ""
-			end
+		end
+		if key1 == nil then
+			key1 = HOTKEY_2[behavior].KEY1
+			key2 = HOTKEY_2[behavior].KEY2
+		end
+		if key1 ~= nil then
+			return GetKeyDes(key1, key2)
+		else
+			return ""
 		end
 	else
 		return ""
@@ -460,6 +459,33 @@ function SaveUserHotKeys(saveFileName)
 }
 
 ]])
+			end
+			tabNum = tabNum + 1
+		end
+	end
+	io.close(saveFile)
+end
+
+function ClearUserHotKeys(saveFileName)
+	saveFile = io.open(saveFileName, "w")
+	if saveFile ~= nil then
+		tabNum = 1
+		while tabNum <= 3 do
+			userTable = _G[string.format("USERKEY_%d", tabNum)]
+			if userTable ~= nil then
+				tableLen = GetOriginalHotKeyListSize(tabNum)
+				idx = 0
+				while idx < tableLen do
+					if userTable[idx] ~= nil then
+						userTable[idx] = nil
+					end
+					idx = idx + 1
+				end
+				saveFile:write(string.format([[
+USERKEY_%d = {
+}
+
+]], tabNum))
 			end
 			tabNum = tabNum + 1
 		end

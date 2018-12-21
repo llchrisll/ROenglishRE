@@ -1,5 +1,16 @@
 tblLapineDdukddakBox = {
 	sources = {
+		["IDTest_Special"] = {
+			ItemID = 100000,
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			SourceItems = {
+				{ "젤로피", 1, 909 },
+				{ "솜털", 1, 914 },
+				{ "단단한껍질", 1, 935 }
+			},
+			NeedSource_String = "젤로피,솜털,단단한껍질"
+		},
 		["EnchantStone_Recipe_9m"] = {
 			ItemID = 23967,
 			NeedCount = 1,
@@ -2250,7 +2261,13 @@ tblLapineDdukddakBox = {
 				{ "C_Halloween_Poring_Bag", 1, 20543 },
 				{ "C주황색할로윈모자", 1, 20174 },
 				{ "C뱀파이어헤어밴드", 1, 20098 },
-				{ "C검은마녀의모자", 1, 20395 }
+				{ "C검은마녀의모자", 1, 20395 },
+				{ "C디아볼릭헤드폰", 1, 20175 },
+				{ "C_Princess_Ribbon_Crown", 1, 31565 },
+				{ "C_Poporing_Muffler", 1, 31586 },
+				{ "C_Protect_Cloth", 1, 31625 },
+				{ "C_Backside_Ribbon_Bell", 1, 20546 },
+				{ "C타락천사의날개", 1, 20764 }
 			},
 			NeedSource_String = "냥다래 의상"
 		}
