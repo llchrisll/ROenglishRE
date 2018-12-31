@@ -12,3 +12,4 @@ Project created by **zackdreaver** @2015
 3. [itemInfo legend](https://github.com/zackdreaver/ROenglishRE/blob/master/Doc/itemInfo%20legend.md)
 4. [Text editor settings](https://github.com/zackdreaver/ROenglishRE/blob/master/Doc/Text%20editor.md)
 5. [Client compatibility list](https://github.com/zackdreaver/ROenglishRE/blob/master/Doc/Compatibility%20list.md)
+6. [Frequently asked questions](https://github.com/zackdreaver/ROenglishRE/blob/master/Doc/FAQ.md)
