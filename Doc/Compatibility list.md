@@ -16,6 +16,4 @@
 
 * All the information above was based on my test with this project's files. (OS: WinXP x86, Win7 x64 and Win10 x64)
 
-* If you have any issue that isn't listed in table above feel free to post it on issue page, otherwise ask [rAthena forum](https://rathena.org/board/forum/19-client-side-support/) for support.
-
 :arrow_backward:[Back to front page](https://github.com/zackdreaver/ROenglishRE#project-content)
