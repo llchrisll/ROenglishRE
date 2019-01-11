@@ -1151,42 +1151,53 @@ QuestInfoList = {
 		Description = {
 			"Start the Swordsman training. Equip the Swordsman Manual and test the skills."
 		},
-		Summary = "Talk with trainer Adric of the Criatura Academy"
+		Summary = "Talk with trainer Adric",
+		NpcSpr = "4_M_SWORDMAN",
+		NpcNavi = "iz_ac02",
+		NpcPosX = 62,
+		NpcPosY = 51,
+		RewardItemList = {
+			{ ItemID = 2819, ItemNum = 1 }
+		}
 	},
 	[1230] = {
 		Title = "Swordsman training",
 		Description = {
 			"You heard the explanations about the Swordsman Class. Ask about the other courses from trainer Adric."
 		},
-		Summary = "Talk with trainer Adric of the Criatura Academy"
+		Summary = "Talk with trainer Adric",
+		NpcSpr = "4_M_SWORDMAN",
+		NpcNavi = "iz_ac02",
+		NpcPosX = 62,
+		NpcPosY = 51
 	},
 	[1233] = {
 		Title = "Swordsman training",
 		Description = {
-			"The Swordsman training with the Swordsman Ecarto"
+			"The Swordsman training with the Swordsman Ecarto of Izlude Swordsman guild."
 		},
-		Summary = "Talk with Swordsman Ecarto of Izlude Swordsman guild"
+		Summary = "Talk with Swordsman Ecarto"
 	},
 	[1234] = {
 		Title = "Swordsman training",
 		Description = {
 			"The Swordsman training with the Swordsman Ecarto! Go into the advanced course"
 		},
-		Summary = "Talk with Swordsman Ecarto of Izlude Swordsman guild"
+		Summary = "Talk with Swordsman Ecarto"
 	},
 	[1235] = {
 		Title = "Swordsman training",
 		Description = {
 			"After hunting 10 Tarous at the underground waterway of the west of Prontera, report to the Swordsman Ecarto."
 		},
-		Summary = "Talk with Swordsman Ecarto of Izlude Swordsman guild"
+		Summary = "Talk with Swordsman Ecarto"
 	},
 	[1236] = {
 		Title = "Swordsman training",
 		Description = {
 			"After hunting 10 Tarous at the underground waterway of the west of Prontera, report to the Swordsman Ecarto."
 		},
-		Summary = "Talk with Swordsman Ecarto of Izlude Swordsman guild"
+		Summary = "Talk with Swordsman Ecarto"
 	},
 	[1237] = {
 		Title = "Shop guide",
@@ -4935,7 +4946,7 @@ QuestInfoList = {
 		Title = "Adventurer's Companion",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"Talk with <NAVI>Adept adventurer<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI> at Criatura Academy"
+			"Talk with <NAVI>Adept adventurer<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI> at Criatura Academy."
 		},
 		Summary = ""
 	},
@@ -4943,7 +4954,7 @@ QuestInfoList = {
 		Title = "Adventurer's Companion",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"Go to izlude 9 o'clock to go to field and talk with <NAVI>Poring<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI>"
+			"Go to izlude 9 o'clock to go to field and talk with <NAVI>Poring<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
@@ -4951,7 +4962,7 @@ QuestInfoList = {
 		Title = "Adventurer's Companion",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"Go to izlude 9 o'clock to go to field and talk with <NAVI>Poring<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI>"
+			"Go to izlude 9 o'clock to go to field and talk with <NAVI>Poring<INFO>prt_fild08.gat,362,272,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
@@ -4959,7 +4970,7 @@ QuestInfoList = {
 		Title = "Adventurer's Companion",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"Find a Little Poring roaming around and tame it with the Unripe Apple"
+			"Find a Little Poring roaming around and tame it with the Unripe Apple."
 		},
 		Summary = "Tame a Little Poring"
 	},
@@ -13637,7 +13648,7 @@ QuestInfoList = {
 	[7026] = {
 		Title = "Pursuing Rayan Moore",
 		Description = {
-			"The scroll is unsealed. Such scrolls are generally used by ^0066fforganizations to gather their members^000000. He says you should use it now but it's a question whether you should talk with Mr. Kidd first."
+			"The scroll is unsealed. Such scrolls are generally used by ^0000FForganizations to gather their members^000000. He says you should use it now but it's a question whether you should talk with Mr. Kidd first."
 		},
 		Summary = ""
 	},
@@ -14036,7 +14047,7 @@ QuestInfoList = {
 	[7085] = {
 		Title = "½Ò¹è´Ş ¾Æ¸£¹ÙÀÌÆ®",
 		Description = {
-			"ÁÁÀº ¸ã½ÒÀ» ¹Ş´Â Á¶°ÇÀ¸·Î ½Ò¹è´ŞÀ» ÇÏ±â·Î Çß´Ù. ^0066ffÁöÁ¤µÈ ½Ã°£³»¿¡ ¹è´ŞÀ» ¿Ï·áÇÏ°í º¸°í^000000ÇØ¾ßÇÏ¸ç ¹è´ŞÁö´Â °¢°¢ ´ÙÀ½°ú °°´Ù. ^0066ff±Ã¼ö±æµå, ¾Ëº£¸£Å¸ Á¤±â¼±, ÇÁ·ĞÅ×¶ó ¿Õ±Ã Á¶¸®½Ç, °ÔÆæ ÁÖÁ¡^000000"
+			"ÁÁÀº ¸ã½ÒÀ» ¹Ş´Â Á¶°ÇÀ¸·Î ½Ò¹è´ŞÀ» ÇÏ±â·Î Çß´Ù. ^0000FFÁöÁ¤µÈ ½Ã°£³»¿¡ ¹è´ŞÀ» ¿Ï·áÇÏ°í º¸°í^000000ÇØ¾ßÇÏ¸ç ¹è´ŞÁö´Â °¢°¢ ´ÙÀ½°ú °°´Ù. ^0000FF±Ã¼ö±æµå, ¾Ëº£¸£Å¸ Á¤±â¼±, ÇÁ·ĞÅ×¶ó ¿Õ±Ã Á¶¸®½Ç, °ÔÆæ ÁÖÁ¡^000000"
 		},
 		Summary = "½Ã°£³»¿¡ ½Ò¹è´Ş ¿Ï·á ¹× º¸°í"
 	},
@@ -14561,7 +14572,7 @@ QuestInfoList = {
 	[7160] = {
 		Title = "Decipher the Code",
 		Description = {
-			"You Received a Cryptogram from Urupa from the Rogue Guild. The cryptogram is (^0066ff 432311143452^000000 / ^0066ff5234423043233435^000000 / ^0066ff2433^000000 / ^0066ff3542343344154211^000000 )."
+			"You Received a Cryptogram from Urupa from the Rogue Guild. The cryptogram is (^0000FF 432311143452^000000 / ^0000FF5234423043233435^000000 / ^0000FF2433^000000 / ^0000FF3542343344154211^000000 )."
 		},
 		Summary = "Decipher it and find the Manager there"
 	},
@@ -14652,14 +14663,14 @@ QuestInfoList = {
 	[7173] = {
 		Title = "Message to Haled from Paul",
 		Description = {
-			"Find Haled in the Juno Shadow Workshop. If he doesn't cooperate give him this message from Paul:^0066ffI know what you did last summer!^000000"
+			"Find Haled in the Juno Shadow Workshop. If he doesn't cooperate give him this message from Paul:^0000FFI know what you did last summer!^000000"
 		},
 		Summary = ""
 	},
 	[7174] = {
 		Title = "Mysterious Cryptogram",
 		Description = {
-			"The clue that Haled had was a short song. I need to find the place this song indicates. (^0066ffThin root of the Life tree / Tears from the living / They were but were not us / Residents of the forgotten night"
+			"The clue that Haled had was a short song. I need to find the place this song indicates. (^0000FFThin root of the Life tree / Tears from the living / They were but were not us / Residents of the forgotten night"
 		},
 		Summary = ""
 	},
@@ -14778,7 +14789,7 @@ QuestInfoList = {
 	[7191] = {
 		Title = "Shay's designation - BK",
 		Description = {
-			"In order to facilitate information gathering, Shay introduced BK from the Cat Hand Merchants. You need to tell BK that ^0066ff'Shay's special drink will be delivered.'^000000 if BK doesn't offer any help..."
+			"In order to facilitate information gathering, Shay introduced BK from the Cat Hand Merchants. You need to tell BK that ^0000FF'Shay's special drink will be delivered.'^000000 if BK doesn't offer any help..."
 		},
 		Summary = "Meet BK at the outskirts of Kamidal Mountain outside of El Dicastes"
 	},
@@ -14876,14 +14887,14 @@ QuestInfoList = {
 	[7206] = {
 		Title = "The new days of Cheshire",
 		Description = {
-			"You will find a member of the Cat Paw if you look in the middle of the ^0066ffKamidal Tunnel^000000. ^0066ff At West side of Skaraba Hall entrance there is a marked box of goods.^000000. Please move it. The location of where you need to move it will be on the box."
+			"You will find a member of the Cat Paw if you look in the middle of the ^0000FFKamidal Tunnel^000000. ^0000FF At West side of Skaraba Hall entrance there is a marked box of goods.^000000. Please move it. The location of where you need to move it will be on the box."
 		},
 		Summary = ""
 	},
 	[7207] = {
 		Title = "Cheshire's box",
 		Description = {
-			"You found the box that Cheshire was talking about the Kamidal Tunnel. On the bottom side of the box in small letters, it says ^0066ff In front of Bifrost's Crack^000000. Must pass this to Cheshire who can be anywhere in Bifrost."
+			"You found the box that Cheshire was talking about the Kamidal Tunnel. On the bottom side of the box in small letters, it says ^0000FF In front of Bifrost's Crack^000000. Must pass this to Cheshire who can be anywhere in Bifrost."
 		},
 		Summary = ""
 	},
@@ -15992,7 +16003,7 @@ QuestInfoList = {
 		Title = "Errands List of Nyas",
 		IconName = "ico_nq.bmp",
 		Description = {
-			"Chef Nyas ordered you to bring 10 <ITEM>Bags of Grain<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>Savory Sauce<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>Minor Brisketa<INFO>12431</INFO></ITEM> for his curiosity of Human Food."
+			"Chef Nyas ordered you to bring 10 <ITEM>Bags of Grain<INFO>577</INFO></ITEM> and 1 bottle of <ITEM>Savory Sauce<INFO>7454</INFO></ITEM>. And he also wants you to get 1 <ITEM>Minor Brisket<INFO>12431</INFO></ITEM> for his curiosity of Human Food."
 		},
 		Summary = "1 Minor Brisket",
 		NpcSpr = "4_CAT_CHEF",
@@ -16338,7 +16349,7 @@ QuestInfoList = {
 	[7388] = {
 		Title = "Maries's Child",
 		Description = {
-			"Let's find the ^0066ffInside-out Shirt^000000 for Maries's child who is lost in the woods. The shirt must be taken by an animal or a monster."
+			"Let's find the ^0000FFInside-out Shirt^000000 for Maries's child who is lost in the woods. The shirt must be taken by an animal or a monster."
 		},
 		Summary = ""
 	},
@@ -17729,7 +17740,7 @@ QuestInfoList = {
 	[7587] = {
 		Title = "¿¤¸®ÀÚº£½º¿Í ºñ´Ü",
 		Description = {
-			"^0066ff¿¤¸®ÀÚº£½º^000000¸¦ ÀåÂøÇÑ »óÅÂ¿¡¼­, µà ¸®¾ÈÀÌ ¹ß°ßÇß´Ù´Â ºñ´Ü¹ìÀÇ Àº½ÅÃ³¸¦ Ã£¾Æ°¡ ºñ´ÜÀ» ±¸ÇØº¸ÀÚ. Àº½ÅÃ³´Â ±Ã¼ö¸¶À» ¿¬¸øÀ» ÅëÇØ ÁøÀÔÇÒ ¼ö ÀÖ´Ù."
+			"^0000FF¿¤¸®ÀÚº£½º^000000¸¦ ÀåÂøÇÑ »óÅÂ¿¡¼­, µà ¸®¾ÈÀÌ ¹ß°ßÇß´Ù´Â ºñ´Ü¹ìÀÇ Àº½ÅÃ³¸¦ Ã£¾Æ°¡ ºñ´ÜÀ» ±¸ÇØº¸ÀÚ. Àº½ÅÃ³´Â ±Ã¼ö¸¶À» ¿¬¸øÀ» ÅëÇØ ÁøÀÔÇÒ ¼ö ÀÖ´Ù."
 		},
 		Summary = "¹Ù»è¹Ù»èÇÑ ºñ´Ü 10"
 	},
@@ -18009,7 +18020,7 @@ QuestInfoList = {
 	[7621] = {
 		Title = "Bottling the Energy",
 		Description = {
-			"Lloyd has asked for your assistance in his energy research. Use ^0066ffEmpty Bottles^000000 to collect 10 Condensed Energies from debris everywhere in Verus."
+			"Lloyd has asked for your assistance in his energy research. Use ^0000FFEmpty Bottles^000000 to collect 10 Condensed Energies from debris everywhere in Verus."
 		},
 		Summary = "10 Condensed Energies"
 	},
@@ -18212,7 +18223,7 @@ QuestInfoList = {
 	[7671] = {
 		Title = "Find my Lost lamb",
 		Description = {
-			"Use the ^0066ffHunting Rope^000000 on to ^0066ffLost Lambs^000000 wandering Rune Midgard."
+			"Use the ^0000FFHunting Rope^000000 on to ^0000FFLost Lambs^000000 wandering Rune Midgard."
 		},
 		Summary = "Retrieve 5 lost lambs"
 	},
@@ -18226,7 +18237,7 @@ QuestInfoList = {
 	[7673] = {
 		Title = "¼ö¶ù°£ »ı°¢½ÃÀÇ ²Ş",
 		Description = {
-			"¶±±¹ À°¼ö¿¡ »ç¿ëÇÒ ¹ØÀç·á¿Í »ö´Ù¸¥ °í¸íÀ» °í¹ÎÇÏ´ø ¼ö¶ù°£ ´Ü¼úÀº ÃÖ±Ù ÃÊÄİ·¿ÀÌ¶ó´Â°É ºÃ´Ù¸ç ±¸ÇØ´Ş¶ó°í ºÎÅ¹Çß´Ù. ^0066ff½Ì½ÌÇÑ ¹®¾î´Ù¸® 15°³¿Í ÃÊÄİ·¿ 1°³^000000¸¦ ±¸ÇØÁÖÀÚ."
+			"¶±±¹ À°¼ö¿¡ »ç¿ëÇÒ ¹ØÀç·á¿Í »ö´Ù¸¥ °í¸íÀ» °í¹ÎÇÏ´ø ¼ö¶ù°£ ´Ü¼úÀº ÃÖ±Ù ÃÊÄİ·¿ÀÌ¶ó´Â°É ºÃ´Ù¸ç ±¸ÇØ´Ş¶ó°í ºÎÅ¹Çß´Ù. ^0000FF½Ì½ÌÇÑ ¹®¾î´Ù¸® 15°³¿Í ÃÊÄİ·¿ 1°³^000000¸¦ ±¸ÇØÁÖÀÚ."
 		},
 		Summary = "½Ì½ÌÇÑ¹®¾î´Ù¸®15, ÃÊÄİ·¿1"
 	},
@@ -18478,21 +18489,21 @@ QuestInfoList = {
 	[7717] = {
 		Title = "Merchant's Kindness",
 		Description = {
-			"Toolshop owner gave me some useful items, asks me to find ^0066ffHaru the Healer^000000. Healer lives in ^0066ffthe house full of flowerpot, east from the toolshop^000000."
+			"Toolshop owner gave me some useful items, asks me to find ^0000FFHaru the Healer^000000. Healer lives in ^0000FFthe house full of flowerpot, east from the toolshop^000000."
 		},
 		Summary = "Talk with Haru the Healer"
 	},
 	[7718] = {
 		Title = "I'm used to this",
 		Description = {
-			"Move to the meadow near the village, work on ^0066ffRed Grass^000000 and come back with ^0066ff1 Red Herb^000000. It's needed for the medicine, so let's get moving."
+			"Move to the meadow near the village, work on ^0000FFRed Grass^000000 and come back with ^0000FF1 Red Herb^000000. It's needed for the medicine, so let's get moving."
 		},
 		Summary = "1 Red Herb"
 	},
 	[7719] = {
 		Title = "Time to Digest",
 		Description = {
-			"To help the cat in front of Lasagna village lets do some labor. Work on ^0066ffRed Grass and collect 2 Red Herbs^000000. Piece of cake!"
+			"To help the cat in front of Lasagna village lets do some labor. Work on ^0000FFRed Grass and collect 2 Red Herbs^000000. Piece of cake!"
 		},
 		Summary = "2 Red Herb"
 	},
@@ -18737,7 +18748,7 @@ QuestInfoList = {
 	[7761] = {
 		Title = "Å°¸Ş¶ó¿¡°Ô ¾È½ÄÀ»",
 		Description = {
-			"¿¬±¸¼Ò ³»ºÎ¿¡¼­ ³¯¶Ù°í ÀÖ´Â ½ÇÇèÃ¼ Ã³¸®¿¡ ´ë¿øµéÀÌ Èûµé¾î ÇÏ°í ÀÖ´Ù. ^0066ff¹°ÁúÇü Å°¸Ş¶ó, ÀÎ°£Çü Å°¸Ş¶ó^000000¸¦ °¢°¢ ^0066ff 10 Ã¼^000000 Ã³¸®ÇØ ÁÖÀÚ."
+			"¿¬±¸¼Ò ³»ºÎ¿¡¼­ ³¯¶Ù°í ÀÖ´Â ½ÇÇèÃ¼ Ã³¸®¿¡ ´ë¿øµéÀÌ Èûµé¾î ÇÏ°í ÀÖ´Ù. ^0000FF¹°ÁúÇü Å°¸Ş¶ó, ÀÎ°£Çü Å°¸Ş¶ó^000000¸¦ °¢°¢ ^0000FF 10 Ã¼^000000 Ã³¸®ÇØ ÁÖÀÚ."
 		},
 		Summary = "Å°¸Ş¶ó Ã³Ä¡"
 	},
@@ -18751,7 +18762,7 @@ QuestInfoList = {
 	[7763] = {
 		Title = "Full of Spring Energy",
 		Description = {
-			"¾Æ¸¦¸£´Â ÇÁ·ĞÅ×¶ó ²É³ª¹« ±ÙÃ³¿¡ ¾î¸° ^0066ff²É³ª¹«ÀÇ ±â¿î^000000À» Ç®¾îÁÖ°í, ^0066ff²É°¡Áö^000000 10°³¸¦ ±¸ÇØ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
+			"¾Æ¸¦¸£´Â ÇÁ·ĞÅ×¶ó ²É³ª¹« ±ÙÃ³¿¡ ¾î¸° ^0000FF²É³ª¹«ÀÇ ±â¿î^000000À» Ç®¾îÁÖ°í, ^0000FF²É°¡Áö^000000 10°³¸¦ ±¸ÇØ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
 		},
 		Summary = "10 kinds of flower"
 	},
@@ -18807,7 +18818,7 @@ QuestInfoList = {
 	[7771] = {
 		Title = "Please purify the Sanctuary!",
 		Description = {
-			"Eridanus whose working in temple said there are strange noises came from underground of temple. It must be evil creatures ^0066ffHodremlin, Vanberk and Isilla^000000, please defeat them."
+			"Eridanus whose working in temple said there are strange noises came from underground of temple. It must be evil creatures ^0000FFHodremlin, Vanberk and Isilla^000000, please defeat them."
 		},
 		Summary = "Defeat all monsters in Sanctuary"
 	},
@@ -18821,7 +18832,7 @@ QuestInfoList = {
 	[7773] = {
 		Title = "In depth investigation",
 		Description = {
-			"Waste cathedral interior consisted of complex facilities. Enter the 2nd floor and defeat elliot then retrive ^0066ff1 piece of Burned part^000000."
+			"Waste cathedral interior consisted of complex facilities. Enter the 2nd floor and defeat elliot then retrive ^0000FF1 piece of Burned part^000000."
 		},
 		Summary = "1 piece of burned part"
 	},
@@ -18884,7 +18895,7 @@ QuestInfoList = {
 	[7782] = {
 		Title = "Stop the Wizard!",
 		Description = {
-			"Scholar Chunghae in the Nightmare of the Moonlight Flower dungeon thinks the ^0066ffWizard of the Truth^000000 is responsible for this incident. He asked me to take care of him."
+			"Scholar Chunghae in the Nightmare of the Moonlight Flower dungeon thinks the ^0000FFWizard of the Truth^000000 is responsible for this incident. He asked me to take care of him."
 		},
 		Summary = "Defeat 1 Wizard of the Truth"
 	},
@@ -18898,7 +18909,7 @@ QuestInfoList = {
 	[7784] = {
 		Title = "No Mercy for Illusions",
 		Description = {
-			"Soldier Junghee in the Nightmare of the Moonlight Flower dungeon asked me to clear the area around him of ^0066ffAngry Nine Tails^000000."
+			"Soldier Junghee in the Nightmare of the Moonlight Flower dungeon asked me to clear the area around him of ^0000FFAngry Nine Tails^000000."
 		},
 		Summary = "Defeat Angry Nine Tails"
 	},
@@ -18912,7 +18923,7 @@ QuestInfoList = {
 	[7786] = {
 		Title = "Remembering My Ancestors",
 		Description = {
-			"Soldier Junghee in the Nightmare of the Moonlight Flower dungeon asked me to send ^0066ffResentful Soldiers^000000 to Heaven."
+			"Soldier Junghee in the Nightmare of the Moonlight Flower dungeon asked me to send ^0000FFResentful Soldiers^000000 to Heaven."
 		},
 		Summary = "Defeat Resentful Soldiers"
 	},
@@ -18926,142 +18937,203 @@ QuestInfoList = {
 	[7788] = {
 		Title = "Back to Muyeon",
 		Description = {
-			"Relay Chunghae's investigation results to ^0066ffMuyeon^000000 in the ^0066ffDetached Payon Palace^000000."
+			"Relay Chunghae's investigation results to ^0000FFMuyeon^000000 in the ^0000FFDetached Payon Palace^000000."
 		},
 		Summary = "Talk with Muyeon in the Detached Palace"
 	},
 	[7790] = {
 		Title = "Rock Ridge, Land of Opportunities",
 		Description = {
-			"Karam Pucci has waived the ship fare to Rock Ridge as a complimentary service."
+			"^0000FFKaram Pucci^000000 has waived the ship fare to Rock Ridge as a complimentary service."
 		},
 		Summary = ""
 	},
 	[7791] = {
 		Title = "Problems in Rock Ridge",
 		Description = {
-			"Karam Pucci said Rock Ridge needs help. I should go to Rock Ridge and talk with Mayor Costello by the dock."
+			"^0000FFKaram Pucci^000000 said Rock Ridge needs help. I should go to Rock Ridge and talk with ^0000FFMayor Costello^000000 by the dock."
 		},
-		Summary = "Talk with Costello"
+		Summary = "Talk with Costello",
+		NpcSpr = "4_m_costell",
+		NpcNavi = "harboro1",
+		NpcPosX = 80,
+		NpcPosY = 218
 	},
 	[7792] = {
 		Title = "Problems in Rock Ridge 2",
 		Description = {
-			"Mayor Costello said Rock Ridge is in trouble because of the Buffalo Bandits, and that he wants me to solve the problem in concert with the sheriff. ^0066ffI should go to the sheriff's office and meet Wyatt Warp^000000."
+			"^0000FFMayor Costello^000000 said Rock Ridge is in trouble because of the Buffalo Bandits, and that he wants me to solve the problem in concert with the sheriff. I should go to the sheriff's office and meet Wyatt Warp."
 		},
-		Summary = "Talk with Wyatt Warp"
+		Summary = "Talk with Wyatt Warp",
+		NpcSpr = "4_m_yattwarp",
+		NpcNavi = "har_in01",
+		NpcPosX = 20,
+		NpcPosY = 30
 	},
 	[7793] = {
 		Title = "Good News",
 		Description = {
-			"Johnny James, the leader of the Buffalo Bandits, only wants to negotiate with Mayor Costello. I should deliver this exciting news to ^0066ffCostello at the dock^000000."
+			"^0000FFJohnny James^000000, the leader of the Buffalo Bandits, only wants to negotiate with ^0000FFMayor Costello^000000. I should deliver this exciting news to ^0000FFCostello^000000 at the dock."
 		},
-		Summary = "Talk with Costello"
+		Summary = "Talk with Costello",
+		NpcSpr = "4_m_costell",
+		NpcNavi = "harboro1",
+		NpcPosX = 80,
+		NpcPosY = 218
 	},
 	[7794] = {
 		Title = "Expected Response",
 		Description = {
-			"Costello, too afraid of the bandits to go negotiate with them, asked me to go on his behalf. I should go tell Sheriff Warp."
+			"^0000FFCostello^000000, too afraid of the bandits to go negotiate with them, asked me to go on his behalf. I should go tell ^0000FFSheriff Warp^000000."
 		},
-		Summary = "Talk with Wyatt Warp"
+		Summary = "Talk with Wyatt Warp",
+		NpcSpr = "4_m_yattwarp",
+		NpcNavi = "har_in01",
+		NpcPosX = 20,
+		NpcPosY = 30
 	},
 	[7795] = {
 		Title = "Negotiation on the Railroad",
 		Description = {
-			"The negotiation meeting will take place by the ^0066ffunmoving freight train^000000. I can find it if I exit the village through the eastern gate and follow the railroad."
+			"The negotiation meeting will take place by the ^0000FFunmoving freight train^000000. I can find it if I exit the village through the eastern gate and follow the railroad."
 		},
-		Summary = "Find Unmoving Freight Train"
+		Summary = "Find Unmoving Freight Train",
+		NpcSpr = "4_m_johnnyjames",
 	},
 	[7796] = {
 		Title = "Unexpected Arrest",
 		Description = {
-			"Cactus vigilantes have helped us capture the leader of the Buffalo Bandits, Johnny James. I should return to the ^0066ffsheriff's office and talk with the sheriffs about our next move^000000."
+			"^0000FFCactus vigilantes^000000 have helped us capture the leader of the Buffalo Bandits, ^0000FFJohnny James^000000. I should return to the sheriff's office and talk with ^0000FFthe Sheriffs^000000 about our next move."
 		},
-		Summary = "Talk with Wyatt and Ivoka"
+		Summary = "Talk with Wyatt and Ivoka",
+		NpcSpr = "4_m_yattwarp",
+		NpcNavi = "har_in01",
+		NpcPosX = 20,
+		NpcPosY = 30
 	},
 	[7797] = {
 		Title = "Hear Me Out 1",
 		Description = {
-			"Like Ivoka suggested, I should talk with Johnny James and plant a seed of doubt in his mind about Albert Ford."
+			"Like ^0000FFIvoka^000000 suggested, I should talk with ^0000FFJohnny James^000000 and plant a seed of doubt in his mind about ^0000FFAlbert Ford^000000."
 		},
-		Summary = "Talk with Johnny James"
+		Summary = "Talk with Johnny James",
+		NpcSpr = "4_m_johnnyjames"
 	},
 	[7798] = {
 		Title = "Perfectly Primed",
 		Description = {
-			"Johnny James is convinced that Albert Ford betrayed him. He asked me to get rid of Albert and bring his mane as proof. I should report to the Sheriff for now."
+			"^0000FFJohnny James^000000 is convinced that ^0000FFAlbert Ford^000000 betrayed him. He asked me to get rid of ^0000FFAlbert^000000 and bring his mane as proof. I should report to the ^0000FFSheriff^000000 for now."
 		},
-		Summary = "Talk with Wyatt Warp"
+		Summary = "Talk with Wyatt Warp",
+		NpcSpr = "4_m_yattwarp",
+		NpcNavi = "har_in01",
+		NpcPosX = 20,
+		NpcPosY = 30
 	},
 	[7799] = {
 		Title = "Shawn McCurdy's Weapon 1",
 		Description = {
-			"Sheriff Warp said ^0066ffForeman McCurdy^000000 has a good bargaining chip. He's in the plaza."
+			"^0000FFSheriff Warp^000000 said ^0000FFForeman McCurdy^000000 has a good bargaining chip. He's at the plaza."
 		},
-		Summary = "Talk with Shawn McCurdy"
+		Summary = "Talk with Shawn McCurdy",
+		NpcSpr = "4_m_seanmccurdy",
+		NpcNavi = "harboro1",
+		NpcPosX = 288,
+		NpcPosY = 193
 	},
 	[7800] = {
 		Title = "Shawn McCurdy's Weapon 2",
 		Description = {
-			"I could get some purple ores, which I thought could no longer be mined because of the Buffalo Bandits. I should find Shawn McCurdy ^0066ffsouth from the entrance to the mine^000000."
+			"I could get some purple ores, which I thought could no longer be mined because of the ^0000FFBuffalo Bandits^000000. I should find ^0000FFShawn McCurdy^000000 south from the entrance to the mine."
 		},
-		Summary = "Talk with Shawn McCurdy"
+		Summary = "Talk with Shawn McCurdy",
+		NpcSpr = "4_m_seanmccurdy",
+		NpcNavi = "rockmi2",
+		NpcPosX = 10,
+		NpcPosY = 86
 	},
 	[7801] = {
 		Title = "Shawn McCurdy's Weapon 3",
 		Description = {
-			"We were able to sneak into the second floor of the mine. I should get ^0066ff1 Purple Ore^000000, and then talk with Shawn."
+			"We were able to sneak into the second floor of the mine. I should get 1 <ITEM>Purple Ore<INFO>25247</INFO></ITEM>, and then talk with Shawn."
 		},
 		Summary = "1 Purple Ore"
 	},
 	[7802] = {
 		Title = "Hear Me Out 2",
 		Description = {
-			"I should ^0066ffknock on the signaling rock 3 times^000000, and then talk with Albert Ford about his gang's future."
+			"I should ^009900knock on the signaling rock 3 times^000000, and then talk with ^0000FFAlbert Ford^000000 about his gang's future."
 		},
-		Summary = "Talk with Albert Ford"
+		Summary = "Talk with Albert Ford",
+		NpcSpr = "4_m_albertford",
+		NpcNavi = "rockrdg2",
+		NpcPosX = 295,
+		NpcPosY = 309
 	},
 	[7803] = {
 		Title = "Happy for Broken Trust",
 		Description = {
-			"Albert Ford, convinced Johnny James betrayed his gang, has agreed to make a deal. I should deliver Albert's Mane to Johnny James as proof."
+			"^0000FFAlbert Ford^000000, convinced ^0000FFJohnny James^000000 betrayed his gang, has agreed to make a deal. I should deliver ^0000FFAlbert's Mane^000000 to ^0000FFJohnny James^000000 as proof."
 		},
-		Summary = "Talk with Johnny James"
+		Summary = "Talk with Johnny James",
+		NpcSpr = "4_m_johnnyjames"
 	},
 	[7804] = {
 		Title = "Location of the Ores",
 		Description = {
-			"Johnny told me where he hid the ores: ^0066ffunder the elevator on the second floor of the mine^000000. I should report to Sheriff Warp with this information."
+			"^0000FFJohnny^000000 told me where he hid the ores: \"^009900Under the elevator on the second floor of the mine^000000\". I should report to ^0000FFSheriff Warp^000000 with this information."
 		},
-		Summary = "Talk with Wyatt Warp"
+		Summary = "Talk with Wyatt Warp",
+		NpcSpr = "4_m_yattwarp",
+		NpcNavi = "har_in01",
+		NpcPosX = 20,
+		NpcPosY = 30
 	},
 	[7805] = {
 		Title = "Location of the Ores 2",
 		Description = {
-			"^0066ffShawn McCurdy^000000 is at the ^0066fftemporary entrance to the second floor of the mine^000000. I should tell him where the ores are and follow him to the inside of the mine."
+			"^0000FFShawn McCurdy^000000 is at the ^009900temporary entrance to the second floor of the mine^000000. I should tell him where the ores are and follow him to the inside of the mine."
 		},
-		Summary = "Talk with Shawn McCurdy"
+		Summary = "Talk with Shawn McCurdy",
+		NpcSpr = "4_m_seanmccurdy",
+		NpcNavi = "rockmi2",
+		NpcPosX = 10,
+		NpcPosY = 86
 	},
 	[7806] = {
 		Title = "Location of the Ores 3",
 		Description = {
-			"The broken elevator is to the north from the center of the second floor. I should find an ^0066ffOre Box^000000 underneath the elevator, and bring it to Shawn McCurdy."
+			"The broken elevator is to the north from the center of the second floor. I should find an <ITEM>Ore Box<INFO>25248</INFO></ITEM> underneath the elevator, and bring it to ^0000FFShawn McCurdy^000000."
 		},
-		Summary = "1 Ore Box"
+		Summary = "Find 1 Ore Box",
+		NpcSpr = "4_m_seanmccurdy",
+		NpcNavi = "rockmi2",
+		NpcPosX = 10,
+		NpcPosY = 86
 	},
 	[7807] = {
 		Title = "Ace up Our Sleeve",
 		Description = {
-			"I should get rid of some Buffalo Bandits and collect ^0066ff5 Brown Mufflers and 5 Bandit Scarves^000000 to show Albert Ford. He'll hit the roof."
+			"I should get rid of some ^0000FFBuffalo Bandits^000000 and collect 5 <ITEM>Brown Mufflers<INFO>25283</INFO></ITEM> and 5 <ITEM>Robber Scarves<INFO>25278</INFO></ITEM> to show ^0000FFAlbert Ford^000000. He'll hit the roof."
 		},
-		Summary = "5 Brown Mufflers and 5 Bandit Scarves"
+		Summary = "5 Brown Mufflers and 5 Bandit Scarves",
+		NpcSpr = "4_m_johnnyjames"
 	},
 	[7808] = {
 		Title = "Case Solved",
 		Description = {
-			"I might have burned my bridges with Albert Ford, but I don't care. I don't have to see him anymore. I should report to Sheriff Warp."
+			"I might have burned my bridges with ^0000FFAlbert Ford^000000, but I don't care. I don't have to see him anymore. I should report to ^0000FFSheriff Warp^000000."
 		},
-		Summary = "Talk with Wyatt Warp"
+		Summary = "Talk with Wyatt Warp",
+		NpcSpr = "4_m_yattwarp",
+		NpcNavi = "har_in01",
+		NpcPosX = 20,
+		NpcPosY = 30,
+		RewardItemList = {
+			{ ItemID = 28495, ItemNum = 1 },
+			{ ItemID = 28496, ItemNum = 1 },
+			{ ItemID = 25250, ItemNum = 200 }
+		}
 	},
 	[7809] = {
 		Title = "Collecting Ores",
@@ -19087,7 +19159,7 @@ QuestInfoList = {
 	[7812] = {
 		Title = "±ÛÀÚ¸¦ Àâ¾Æ!",
 		Description = {
-			"ÇĞ»ç ÈáÀº ÇÊµå Àü¿ª¿¡¼­ ³ªÅ¸³ª´Â ^0066ffµµ¸ÁÄ£ ±ÛÀÚ^000000¸¦ Àâ°í, ^0066ff±ÛÀÚ°¡ ¶³¾î¶ß¸®´Â °Í^000000À» °¡Á®¿Í ´Ş¶ó°í ÇÑ´Ù."
+			"ÇĞ»ç ÈáÀº ÇÊµå Àü¿ª¿¡¼­ ³ªÅ¸³ª´Â ^0000FFµµ¸ÁÄ£ ±ÛÀÚ^000000¸¦ Àâ°í, ^0000FF±ÛÀÚ°¡ ¶³¾î¶ß¸®´Â °Í^000000À» °¡Á®¿Í ´Ş¶ó°í ÇÑ´Ù."
 		},
 		Summary = "´ßÆ¢±è 1°³"
 	},
@@ -20068,21 +20140,21 @@ QuestInfoList = {
 	[8089] = {
 		Title = "Stolen Gemstone",
 		Description = {
-			"I don't have any proof, but I suspect it was stolen by Phobe, a servant that disappeared about the same time the gem disappeared. You might want to question the other servants of his whereabouts."
+			"\"I don't have any proof, but I suspect it was stolen by Phobe, a servant that disappeared about the same time the gem disappeared. You might want to question the other servants of his whereabouts.\" - <NAVI>Vincent<INFO>ra_in01,384,246,0,101,0</INFO></NAVI>"
 		},
 		Summary = "Get some information on Phobe's whereabouts"
 	},
 	[8090] = {
 		Title = "Mr. Manson",
 		Description = {
-			"Truth be told, I don't know much since I just started working here. Why don't you ask the senior employees? You could ask Mr. Manson inside the mansion."
+			"\"Truth be told, I don't know much since I just started working here. Why don't you ask the senior employees? You could ask Mr. Manson inside the mansion.\" - <NAVI>Logan<INFO>rachel,114,232,0,101,0</INFO></NAVI>"
 		},
 		Summary = "Find Mr. Manson"
 	},
 	[8091] = {
 		Title = "Jenny the gardener",
 		Description = {
-			"Ah, our gardener Jenny was the one that introduced me to him. She's worked for Sir Zhed for a long time, and she loves kids. You know, if you want to know more about that kid, you should talk with Jenny."
+			"\"Ah, our gardener Jenny was the one that introduced me to him. She's worked for Sir Zhed for a long time, and she loves kids. You know, if you want to know more about that kid, you should talk with Jenny.\" - <NAVI>Manson<INFO>ra_in01,372,200,0,101,0</INFO></NAVI>"
 		},
 		Summary = "Find Jenny"
 	},
@@ -21546,7 +21618,7 @@ QuestInfoList = {
 	[8285] = {
 		Title = "»õ·Î¿î º½À» ¸ÂÀÌÇÏ´Â ÀÌ¿¡°Ô",
 		Description = {
-			"¾Æ¸¦¸£´Â Á¦ÀÚ ±³½ÀÀ» À§ÇØ ÇÁ·ĞÅ×¶óÀÇ ²É³ª¹« ±ÙÃ³¿¡ ¾î¸° ^0066ff²É³ª¹«ÀÇ ±â¿î^000000À» Ç®¾îÁÖ°í, ^0066ff²É°¡Áö^000000 15°³¸¦ ±¸ÇØ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
+			"¾Æ¸¦¸£´Â Á¦ÀÚ ±³½ÀÀ» À§ÇØ ÇÁ·ĞÅ×¶óÀÇ ²É³ª¹« ±ÙÃ³¿¡ ¾î¸° ^0000FF²É³ª¹«ÀÇ ±â¿î^000000À» Ç®¾îÁÖ°í, ^0000FF²É°¡Áö^000000 15°³¸¦ ±¸ÇØ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
 		},
 		Summary = "²É°¡Áö 15°³­"
 	},
@@ -21825,7 +21897,7 @@ QuestInfoList = {
 		Title = "ÇÁ·ĞÅ×¶ó¿¡ Á» ´Ù³à¿À¼¼¿ä",
 		IconName = "ico_nq.bmp",
 		Description = {
-			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ÇÁ·ĞÅ×¶ó ´ëÀå°£ÀÇ ¾ç¿¡°Ô ^0066ffÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
+			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ÇÁ·ĞÅ×¶ó ´ëÀå°£ÀÇ ¾ç¿¡°Ô ^0000FFÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
 		},
 		Summary = "»óÀÚ ¹è´Ş",
 		NpcSpr = "4_LAM",
@@ -21848,7 +21920,7 @@ QuestInfoList = {
 		Title = "ÆäÀÌ¿æ¿¡ Á» ´Ù³à¿À¼¼¿ä",
 		IconName = "ico_nq.bmp",
 		Description = {
-			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ÆäÀÌ¿æ ´ëÀå°£ÀÇ ¾ç¿¡°Ô ^0066ffÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
+			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ÆäÀÌ¿æ ´ëÀå°£ÀÇ ¾ç¿¡°Ô ^0000FFÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
 		},
 		Summary = "»óÀÚ ¹è´Ş",
 		NpcSpr = "4_LAM",
@@ -21872,7 +21944,7 @@ QuestInfoList = {
 		Title = "ÄÚ¸ğµµ¿¡ Á» ´Ù³à¿À¼¼¿ä",
 		IconName = "ico_nq.bmp",
 		Description = {
-			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ÄÚ¸ğµµ ¹«±â»óÁ¡ÀÇ ¾ç¿¡°Ô ^0066ffÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
+			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ÄÚ¸ğµµ ¹«±â»óÁ¡ÀÇ ¾ç¿¡°Ô ^0000FFÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
 		},
 		Summary = "»óÀÚ ¹è´Ş",
 		NpcSpr = "4_LAM",
@@ -21896,7 +21968,7 @@ QuestInfoList = {
 		Title = "¾Ëµ¥¹Ù¶õ¿¡ Á» ´Ù³à¿À¼¼¿ä",
 		IconName = "ico_nq.bmp",
 		Description = {
-			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ¾Ëµ¥¹Ù¶õÀÇ ¿©°ü¿¡¼­ ±â´Ù¸®´Â ¾ç¿¡°Ô ^0066ffÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
+			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ¾Ëµ¥¹Ù¶õÀÇ ¿©°ü¿¡¼­ ±â´Ù¸®´Â ¾ç¿¡°Ô ^0000FFÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
 		},
 		Summary = "»óÀÚ ¹è´Ş",
 		NpcSpr = "4_LAM",
@@ -21920,7 +21992,7 @@ QuestInfoList = {
 		Title = "¸ğ·ÎÅ©¿¡ Á» ´Ù³à¿À¼¼¿ä",
 		IconName = "ico_nq.bmp",
 		Description = {
-			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ¸ğ·ÎÅ© ºÏÂÊ Ä«ÇÁ¶ó ¼¾ÅÍ Á÷¿ø ¿·¿¡ ÀÖ´Â ¾ç¿¡°Ô ^0066ffÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
+			"¾Ëº£¸£Å¸ »óÀÎÁ¶ÇÕ °í¿ëºÎ ¼Ò¼Ó ¸¶»şÀÇ ÀÇ·Ú·Î, ¸ğ·ÎÅ© ºÏÂÊ Ä«ÇÁ¶ó ¼¾ÅÍ Á÷¿ø ¿·¿¡ ÀÖ´Â ¾ç¿¡°Ô ^0000FFÁ¶±İ ³°Àº »óÀÚ^000000¸¦ ¹è´ŞÇØ¾ß ÇÑ´Ù."
 		},
 		Summary = "»óÀÚ ¹è´Ş",
 		NpcSpr = "4_LAM",
@@ -21943,7 +22015,7 @@ QuestInfoList = {
 	[8334] = {
 		Title = "ÇÁ·ĞÅ×¶ó ÁöÇÏ ¼ö·Î È¸¼ö °Ç",
 		Description = {
-			"»óÀÎÁ¶ÇÕÀÇ ÀÇ·Ú·Î ÇÁ·ĞÅ×¶ó ÁöÇÏ ¼ö·Î 3Ãş¿¡ Àå±â Å½»ç¸¦ ³ª°£ '¹«¸®¾È'ÀÌ¶ó´Â ÀÌ¸§ÀÇ ¸ğÇè°¡°¡ ÀÖ´Ù. ±×¿¡°Ô¼­ ^0066ffÁ¶±İ ³°Àº »óÀÚ^000000¸¦ È¸¼öÇØ¾ß ÇÑ´Ù."
+			"»óÀÎÁ¶ÇÕÀÇ ÀÇ·Ú·Î ÇÁ·ĞÅ×¶ó ÁöÇÏ ¼ö·Î 3Ãş¿¡ Àå±â Å½»ç¸¦ ³ª°£ '¹«¸®¾È'ÀÌ¶ó´Â ÀÌ¸§ÀÇ ¸ğÇè°¡°¡ ÀÖ´Ù. ±×¿¡°Ô¼­ ^0000FFÁ¶±İ ³°Àº »óÀÚ^000000¸¦ È¸¼öÇØ¾ß ÇÑ´Ù."
 		},
 		Summary = "»óÀÚ ¼ö·É"
 	},
@@ -21999,7 +22071,7 @@ QuestInfoList = {
 	[8342] = {
 		Title = "¸ğ·ÎÅ© ½ºÇÎÅ©½º È¸¼ö °Ç",
 		Description = {
-			"»óÀÎÁ¶ÇÕÀÇ ÀÇ·Ú·Î ¸ğ·ÎÅ© ½ºÇÎÅ©½º ÁöÇÏ 3Ãş¿¡ Àå±â Å½»ç¸¦ ³ª°£ '¿¤¹ö¸®'¶ó´Â ÀÌ¸§ÀÇ ¸ğÇè°¡°¡ ÀÖ´Ù. ±×¿¡°Ô¼­ ^0066ffÁ¶±İ ³°Àº »óÀÚ^000000¸¦ È¸¼öÇØ¾ß ÇÑ´Ù."
+			"»óÀÎÁ¶ÇÕÀÇ ÀÇ·Ú·Î ¸ğ·ÎÅ© ½ºÇÎÅ©½º ÁöÇÏ 3Ãş¿¡ Àå±â Å½»ç¸¦ ³ª°£ '¿¤¹ö¸®'¶ó´Â ÀÌ¸§ÀÇ ¸ğÇè°¡°¡ ÀÖ´Ù. ±×¿¡°Ô¼­ ^0000FFÁ¶±İ ³°Àº »óÀÚ^000000¸¦ È¸¼öÇØ¾ß ÇÑ´Ù."
 		},
 		Summary = "»óÀÚ ¼ö·É"
 	},
@@ -24431,16 +24503,16 @@ QuestInfoList = {
 		Summary = "ÇÏ·ç°¡ Áö³­ ÈÄ ³¬½Ã ¸í´ç À§Ä¡ ¹Ş±â"
 	},
 	[9418] = {
-		Title = "Attack Sky Fortress Invading Prontera",
+		Title = "Attack Air Fortress Invading Prontera",
 		Description = {
-			"You need to attack the Sky Fortress attacking Prontera and defeat the boss."
+			"You need to attack the Air Fortress attacking Prontera and defeat the boss."
 		},
-		Summary = "Attack Sky Fortress"
+		Summary = "Attack Air Fortress"
 	},
 	[9419] = {
-		Title = "Attack Sky Fortress Invading Prontera",
+		Title = "Attack Air Fortress Invading Prontera",
 		Description = {
-			"^8B4513Scientist Doyeon^000000¡®s Message: I need more magical power to activate the warp to the Sky Fortress. Bring me the -Dungeon Pass- or I need about 3 days to collect magic."
+			"^8B4513Scientist Doyeon^000000's Message: \"I need more magical power to activate the warp to the Air Fortress. Bring me the -Dungeon Pass- or I need about 3 days to collect magic.\""
 		},
 		Summary = "Visit Doyeon in 3 days"
 	},
@@ -24487,11 +24559,11 @@ QuestInfoList = {
 		Summary = "»ó¾î ³¬½Ã¿¡ ¼º°ø"
 	},
 	[9427] = {
-		Title = "Clearing the Sky Fortress for the Same Time",
+		Title = "Clearing the Air Fortress for the Same Time",
 		Description = {
-			"Clearing the Sky Fortress for the Same Time"
+			"Clearing the Air Fortress for the Same Time"
 		},
-		Summary = "Clearing the Sky Fortress for the Same Time"
+		Summary = ""
 	},
 	[9428] = {
 		Title = "Protect Wild Animals",
@@ -24559,16 +24631,24 @@ QuestInfoList = {
 	[9438] = {
 		Title = "To the New Land!",
 		Description = {
-			"Talk with Karam Pucci in Alberta and go to the new land."
+			"Talk with <NAVI>Karam Pucci<INFO>alberta,240,103,0,101,0</INFO></NAVI> in Alberta and go to the new land."
 		},
-		Summary = "Talk with Karam Pucci in Alberta"
+		Summary = "Talk with Karam Pucci in Alberta",
+		NpcSpr = "4_M_SEAMAN",
+		NpcNavi = "alberta",
+		NpcPosX = 240,
+		NpcPosY = 103
 	},
 	[9439] = {
 		Title = "Serious Problem",
 		Description = {
-			"Costello in Rock Ridge needs help for some problem that his village is having."
+			"<NAVI>Costello<INFO>harboro1,80,218,0,101,0</INFO></NAVI> in Rock Ridge needs help for some problem that his village is having."
 		},
-		Summary = "Meet Costello in Rock Ridge"
+		Summary = "Meet Costello in Rock Ridge",
+		NpcSpr = "4_m_costell",
+		NpcNavi = "harboro1",
+		NpcPosX = 80,
+		NpcPosY = 218
 	},
 	[9440] = {
 		Title = "To Address the Problem",
@@ -26482,7 +26562,7 @@ QuestInfoList = {
 		Title = "Hornet Hunting",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 10 ^0066ff'Hornet'^000000s at Prontera Field 5."
+			"Hunt 10 ^0000FF'Hornet'^000000s at Prontera Field 5."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26495,7 +26575,7 @@ QuestInfoList = {
 		Title = "Condor Hunting",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 20 \"^0066ffCondor^000000\" in the fields south in Morocc."
+			"Hunt 20 \"^0000FFCondor^000000\" in the fields south in Morocc."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26508,7 +26588,7 @@ QuestInfoList = {
 		Title = "Grasshopper Legs",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 10 \"^0066ffRocker^000000\" and get 10 <ITEM>Grasshopper's Leg<INFO>940</INFO></ITEM> around the southwestern field of Prontera."
+			"Hunt 10 \"^0000FFRocker^000000\" and get 10 <ITEM>Grasshopper's Leg<INFO>940</INFO></ITEM> around the southwestern field of Prontera."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26521,7 +26601,7 @@ QuestInfoList = {
 		Title = "Worm Tail Hunting",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 20 \"^0066ffWorm Tail^000000\" in the fields of Payon."
+			"Hunt 20 \"^0000FFWorm Tail^000000\" in the fields of Payon."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26534,7 +26614,7 @@ QuestInfoList = {
 		Title = "Spore Hunting",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 30 \"^0066ffSpore^000000\" east of payon."
+			"Hunt 30 \"^0000FFSpore^000000\" east of payon."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26547,7 +26627,7 @@ QuestInfoList = {
 		Title = "Pest control",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 20 \"^0066ffThief Bug Egg^000000\" in western culvert of Prontera and get 10 <ITEM>Chrysalis<INFO>915</INFO></ITEM>."
+			"Hunt 20 \"^0000FFThief Bug Egg^000000\" in western culvert of Prontera and get 10 <ITEM>Chrysalis<INFO>915</INFO></ITEM>."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26560,7 +26640,7 @@ QuestInfoList = {
 		Title = "Muka Hunting",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 20 \"^0066ffMuka^000000\" in what remains of the Sograt Desert south of Prontera."
+			"Hunt 20 \"^0000FFMuka^000000\" in what remains of the Sograt Desert south of Prontera."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26573,7 +26653,7 @@ QuestInfoList = {
 		Title = "Familiar Hunting",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 20 \"^0066ffFarmiliar^000000\" in western culvert of Prontera."
+			"Hunt 20 \"^0000FFFarmiliar^000000\" in western culvert of Prontera."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26586,7 +26666,7 @@ QuestInfoList = {
 		Title = "Peco Peco Hunting",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 30 \"^0066ffPeco Peco^000000\" in what remains of the Sograt Desert south of Prontera."
+			"Hunt 30 \"^0000FFPeco Peco^000000\" in what remains of the Sograt Desert south of Prontera."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26599,7 +26679,7 @@ QuestInfoList = {
 		Title = "Collect Poison Spores",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Hunt 30 \"^0066ffPoison Spore^000000\" from Geffen and bring back 5 <ITEM>Poison Spore<INFO>7033</INFO></ITEM>. You can find the most Poison Spores around Mt. Mjolnir Field 6 northeast of Geffen."
+			"Hunt 30 \"^0000FFPoison Spore^000000\" from Geffen and bring back 5 <ITEM>Poison Spore<INFO>7033</INFO></ITEM>. You can find the most Poison Spores around Mt. Mjolnir Field 6 northeast of Geffen."
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHILD",
@@ -26681,7 +26761,7 @@ QuestInfoList = {
 	[11134] = {
 		Title = "A mopping-up operation of bloody devil",
 		Description = {
-			"go hunt ^0066ff'button man of devil'^000000 walking around village."
+			"go hunt ^0000FF'button man of devil'^000000 walking around village."
 		},
 		Summary = ""
 	},
@@ -29618,6 +29698,7 @@ QuestInfoList = {
 	},
 	[11539] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÆäÀÌ¿æ ÁÖ¸·¿¡¼­ ÈáÀÌ È¥ÀÚ Èï¾ó°Å¸®´Â °ÍÀ» µé¾ú´Ù. Èá¿¡°Ô ¸»À» °É¾îº¸ÀÚ"
 		},
@@ -29625,6 +29706,7 @@ QuestInfoList = {
 	},
 	[11540] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé Àç·á¸¦ ±¸ÇØ´Ş¶ó°í ÇÑ´Ù. ÆäÀÌ¿æ ÁÖ¸·ÀÇ °¡¸¶¼ÜÀ» È®ÀÎÇØ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé°í Èá¿¡°Ô °¡Á®¿ÀÀÚ."
 		},
@@ -29632,6 +29714,7 @@ QuestInfoList = {
 	},
 	[11541] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ ¾Ëº£¸£Å¸ ³²ÂÊ¿¡ °è½Å ¾î¸£½ÅÀ» Ã£¾ÆºË°Ú´Ù°í ÇÑ´Ù."
 		},
@@ -29639,6 +29722,7 @@ QuestInfoList = {
 	},
 	[11542] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"¹«»çÈ÷ ¾Ëº£¸£Å¸ ¾î¸£½Å²² ÀÎ»ç¸¦ µå·È´Ù. ´Ù½Ã ÆäÀÌ¿æÀ¸·Î µ¹¾Æ°¡ Èá°ú ´ëÈ­ÇÏÀÚ."
 		},
@@ -29646,6 +29730,7 @@ QuestInfoList = {
 	},
 	[11543] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé Àç·á¸¦ ±¸ÇØ´Ş¶ó°í ÇÑ´Ù. ÆäÀÌ¿æ ÁÖ¸·ÀÇ °¡¸¶¼ÜÀ» È®ÀÎÇØ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé°í Èá¿¡°Ô °¡Á®¿ÀÀÚ."
 		},
@@ -29653,6 +29738,7 @@ QuestInfoList = {
 	},
 	[11544] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ ÇÁ·ĞÅ×¶ó ºÏÂÊ¿¡ °è½Å ¾î¸£½ÅÀ» Ã£¾ÆºË°Ú´Ù°í ÇÑ´Ù."
 		},
@@ -29660,6 +29746,7 @@ QuestInfoList = {
 	},
 	[11545] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"¹«»çÈ÷ ÇÁ·ĞÅ×¶ó ¾î¸£½Å²² ÀÎ»ç¸¦ µå·È´Ù. ´Ù½Ã ÆäÀÌ¿æÀ¸·Î µ¹¾Æ°¡ Èá°ú ´ëÈ­ÇÏÀÚ."
 		},
@@ -29667,6 +29754,7 @@ QuestInfoList = {
 	},
 	[11546] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé Àç·á¸¦ ±¸ÇØ´Ş¶ó°í ÇÑ´Ù. ÆäÀÌ¿æ ÁÖ¸·ÀÇ °¡¸¶¼ÜÀ» È®ÀÎÇØ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé°í Èá¿¡°Ô °¡Á®¿ÀÀÚ."
 		},
@@ -29674,6 +29762,7 @@ QuestInfoList = {
 	},
 	[11547] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ °ÔÆæ ºÏÂÊ¿¡ °è½Å ¾î¸£½ÅÀ» Ã£¾ÆºË°Ú´Ù°í ÇÑ´Ù."
 		},
@@ -29681,6 +29770,7 @@ QuestInfoList = {
 	},
 	[11548] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"¹«»çÈ÷ °ÔÆæ ¾î¸£½Å²² ÀÎ»ç¸¦ µå·È´Ù. ´Ù½Ã ÆäÀÌ¿æÀ¸·Î µ¹¾Æ°¡ Èá°ú ´ëÈ­ÇÏÀÚ."
 		},
@@ -29688,6 +29778,7 @@ QuestInfoList = {
 	},
 	[11549] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé Àç·á¸¦ ±¸ÇØ´Ş¶ó°í ÇÑ´Ù. ÆäÀÌ¿æ ÁÖ¸·ÀÇ °¡¸¶¼ÜÀ» È®ÀÎÇØ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé°í Èá¿¡°Ô °¡Á®¿ÀÀÚ."
 		},
@@ -29695,6 +29786,7 @@ QuestInfoList = {
 	},
 	[11550] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ ¾Ëµ¥¹Ù¶õ ¼­ÂÊ¿¡ °è½Å ¾î¸£½ÅÀ» Ã£¾ÆºË°Ú´Ù°í ÇÑ´Ù."
 		},
@@ -29702,6 +29794,7 @@ QuestInfoList = {
 	},
 	[11551] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"¹«»çÈ÷ ¾Ëµ¥¹Ù¶õ ¾î¸£½Å²² ÀÎ»ç¸¦ µå·È´Ù. ´Ù½Ã ÆäÀÌ¿æÀ¸·Î µ¹¾Æ°¡ Èá°ú ´ëÈ­ÇÏÀÚ."
 		},
@@ -29709,6 +29802,7 @@ QuestInfoList = {
 	},
 	[11552] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé Àç·á¸¦ ±¸ÇØ´Ş¶ó°í ÇÑ´Ù. ÆäÀÌ¿æ ÁÖ¸·ÀÇ °¡¸¶¼ÜÀ» È®ÀÎÇØ °« ²úÀÎ ¹®¾î ¶±±¹À» ¸¸µé°í Èá¿¡°Ô °¡Á®¿ÀÀÚ."
 		},
@@ -29716,6 +29810,7 @@ QuestInfoList = {
 	},
 	[11553] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"ÈáÀÌ ÆäÀÌ¿æ µ¿ÂÊ¿¡ ÀÖ´Â º»°¡¿¡ °¡°Ú´Ù°í ÇÑ´Ù."
 		},
@@ -29723,6 +29818,7 @@ QuestInfoList = {
 	},
 	[11554] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"°« ²úÀÎ ¹®¾î ¶±±¹ Àç·á : ³ªµéÀÌ ¹®¾îÀÇ ´Ù¸® 5, ÆäÄÚÆäÄÚÀÇ ¾Ë 2 Ã³Ä¡, ½Ì½ÌÇÑ ¹®¾î´Ù¸® 5°³, ÂÌ±êÇÑ °¡·¡¶± 2°³(³ªµéÀÌ ¹®¾îÀÇ ´Ù¸®, ³ªµéÀÌ ¹®¾î, ³ª»Û ¿ÀÀÌÄ¹À» ÀâÀ¸¸é ¾òÀ» ¼ö ÀÖ´Ù.)"
 		},
@@ -29730,6 +29826,7 @@ QuestInfoList = {
 	},
 	[11555] = {
 		Title = "°íÇâÀÇ ¸ÀÀ» Ã£¾Æ¼­ - ´ë±â",
+		IconName = "ico_ev.bmp",
 		Description = {
 			"¼ÜÀÌ ³Ê¹« ¶ß°Å¿ö¼­ [°« ²úÀÎ ¹®¾î ¶±±¹]À» ¸¸µé ¼ö ¾ø´Ù. ³»ÀÏ ´Ù½Ã ¸¸µéÀÚ."
 		},
@@ -29997,8 +30094,8 @@ QuestInfoList = {
 			"Nothing appears extraordinary. Let's go back to the Rebellion Crew."
 		},
 		Summary = "Talk with Rebelion Crew",
-		RewardEXP = 100000,
-		RewardJEXP = 100000
+		RewardEXP = "100000",
+		RewardJEXP = "100000"
 	},
 	[11600] = {
 		Title = "Old memories",
@@ -30007,8 +30104,8 @@ QuestInfoList = {
 			"Let's look inside the abandoned mine."
 		},
 		Summary = "go inside",
-		RewardEXP = 600000,
-		RewardJEXP = 600000
+		RewardEXP = "600000",
+		RewardJEXP = "600000"
 	},
 	[11601] = {
 		Title = "Old memories",
@@ -30033,8 +30130,8 @@ QuestInfoList = {
 			"µğ¿£ÀÇ ºÎÀûÀ» Ã£¾Ò´Ù. ´Ù½Ã µğ¿£¿¡°Ô µ¹¾Æ°¡ÀÚ."
 		},
 		Summary = "´Ù½Ã µğ¿£¿¡°Ô",
-		RewardEXP = 200000,
-		RewardJEXP = 100000
+		RewardEXP = "200000",
+		RewardJEXP = "100000"
 	},
 	[11604] = {
 		Title = "Àè ´õ ÀÚÀÌ¾ğÆ® ÆßÇÁÅ²",
@@ -30061,6 +30158,70 @@ QuestInfoList = {
 		Description = {
 			"ÇÒ·ÎÀ© ÃàÁ¦ÀåÀ¸·Î °¡·Á¸é 04½Ã ÀÌÈÄ ´Ù½Ã ¹æ¹®ÇÏÀÚ."
 		},
+		Summary = "04½Ã ÃÊ±âÈ­"
+	},
+	[11607] = {
+		Title = "¹®¾î±¸ÀÌ´Â ¸î °³±îÁö ¸ÔÀ» ¼ö ÀÖ³ª¿ä?",
+		IconName = "ico_ev.bmp",
+		Description = { "¸»¶ûµµ ¹®¾îÃàÁ¦¿¡ ¿ÁÅäÇÇ±×´ÔÀÌ ¹æ¹®Çß´Ù°í ÇÑ´Ù. ¿ÁÅäÇÇ±×¿Í ´ëÈ­ÇÏÀÚ." },
+		Summary = "¿ÁÅäÇÇ±×¿Í ´ëÈ­"
+	},
+	[11608] = {
+		Title = "¹®¾î±¸ÀÌ´Â ¸î °³±îÁö ¸ÔÀ» ¼ö ÀÖ³ª¿ä?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"²Ü¸®¿ì½º ²Ü¶óµğ¾Æ´ÔÀÇ ¾ÆÀÌµéÀÌ »ç¶óÁ® ¹ö¸° °Í °°´Ù. ¹®¾îÃàÁ¦ ÁøÇà¿ä¿ø°ú ´ëÈ­ÇØ¼­ ÇØ°áÃ¥À» Ã£¾Æº¸ÀÚ."
+		},
+		Summary = "¹®¾îÃàÁ¦ ÁøÇà¿ä¿ø°ú ´ëÈ­"
+	},
+	[11609] = {
+		Title = "¹®¾î±¸ÀÌ´Â ¸î °³±îÁö ¸ÔÀ» ¼ö ÀÖ³ª¿ä?",
+		IconName = "ico_ev.bmp",
+		Description = { "¾î¸° ¿ÁÅäÇÇ±×µéÀÌ ¸»¶ûµµ ¹ÛÀ¸·Î ³ª°¬À»Áöµµ ¸ğ¸£´Ï ÇØº¯À» Á¶»çÇØº¸ÀÚ." },
+		Summary = "ÇØº¯ Á¶»ç"
+	},
+	[11610] = {
+		Title = "¹®¾î±¸ÀÌ´Â ¸î °³±îÁö ¸ÔÀ» ¼ö ÀÖ³ª¿ä?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¾î¸° ¿ÁÅäÇÇ±×µéÀÌ ÇÁ·ĞÅ×¶ó·Î °¡´Â ¹è¸¦ Åº °Í °°´Ù°í ÇÑ´Ù. ÇÁ·ĞÅ×¶ó¿¡¼­ Á¤º¸¸¦ Ã£¾Æº¸ÀÚ."
+		},
+		Summary = "ÇÁ·ĞÅ×¶ó·Î ÀÌµ¿"
+	},
+	[11611] = {
+		Title = "¹®¾î±¸ÀÌ´Â ¸î °³±îÁö ¸ÔÀ» ¼ö ÀÖ³ª¿ä?",
+		IconName = "ico_ev.bmp",
+		Description = { "¾î¸° ¿ÁÅäÇÇ±×¸¦ ºÃ´Ù´Â ¿©ÇàÀÚ¸¦ ¸¸³µ´Ù. ¿©ÇàÀÚ°¡ ¾Ë·ÁÁØ Àå¼Ò·Î °¡º¸ÀÚ." },
+		Summary = "¾î¸° ¿ÁÅäÇÇ±×¿Í ´ëÈ­"
+	},
+	[11612] = {
+		Title = "¹®¾î±¸ÀÌ´Â ¸î °³±îÁö ¸ÔÀ» ¼ö ÀÖ³ª¿ä?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¾î¸° ¿ÁÅäÇÇ±×µéÀº ¾î¸Ó´Ï¿Í ´àÀº ÀÚ¸¦ µû¶ó°¬´Ù°í ÇÑ´Ù. ²Ü¸®¿ì½º ²Ü¶óµğ¾Æ¿¡°Ô µ¹¾Æ°¡ÀÚ."
+		},
+		Summary = "²Ü¶óµğ¾Æ¿Í ´ëÈ­",
+		RewardItemList = {
+			{ ItemID = 23921, ItemNum = 1 },
+			{ ItemID = 7804, ItemNum = 1 }
+		}
+	},
+	[11613] = {
+		Title = "¹®¾î±¸ÀÌ´Â ¸î °³±îÁö ¸ÔÀ» ¼ö ÀÖ³ª¿ä?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¾î¸° ¿ÁÅäÇÇ±×µéÀº ³ªµéÀÌ ¹®¾î¸¦ µû¶ó °¢ ÇÊµå·Î Èğ¾îÁø °Í °°´Ù. ÇÊµå¿¡¼­ ±æ ÀÒÀº ¿ÁÅäÇÇ±×¸¦ 10¸í È®º¸ÇÏ°í ³ªµéÀÌ ¹®¾îµµ È¥³»ÁØ ÈÄ ²Ü¸®¿ì½º ²Ü¶óµğ¾Æ¿¡°Ô µ¹¾Æ°¡ÀÚ."
+		},
+		Summary = "±æ ÀÒÀº ¿ÁÅäÇÇ±× Ã£±â",
+		RewardItemList = {
+			{ ItemID = 23921, ItemNum = 1 },
+			{ ItemID = 7804, ItemNum = 1 }
+		}
+	},
+	[11614] = {
+		Title = "¹®¾î±¸ÀÌ´Â ¸î °³±îÁö ¸ÔÀ» ¼ö ÀÖ³ª¿ä? -´ë±â",
+		IconName = "ico_ev.bmp",
+		Description = { "±æ ÀÒÀº ¿ÁÅäÇÇ±×¸¦ Ã£´À¶ó ÇÇ·Î°¡ ½×¿´´Ù. ³»ÀÏ ´Ù½Ã ¹æ¹®ÇÏÀÚ." },
 		Summary = "04½Ã ÃÊ±âÈ­"
 	},
 	[12000] = {
@@ -42353,6 +42514,86 @@ QuestInfoList = {
 		},
 		Summary = "¿Õ½Ç »ç³É´ëÈ¸ Âü°¡½ÃÇè"
 	},
+	[16388] = {
+		Title = "ÃÖÃÊÀÇ ¿©·Î",
+		IconName = "ico_nq.bmp",
+		Description = { "¹öÃß¾ó ·¹ÄÚµå ÇØ¼®¿¡ Ã³À½ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "Ã¹ ÇØ¼® Âü°¡"
+	},
+	[16389] = {
+		Title = "ÃÖÃÊÀÇ ¿©·Î-Å½»ç °ÅÀı",
+		IconName = "ico_nq.bmp",
+		Description = { "¹öÃß¾ó ·¹ÄÚµå ÇØ¼®¿¡ Âü°¡ÇÏ±â¸¦ °ÅÀıÇß´Ù." },
+		Summary = "ÇØ¼® Âü°¡ °ÅÀı"
+	},
+	[16390] = {
+		Title = "¿øÁ¤ÀÇ ¿©·Î-´ë±â",
+		IconName = "ico_nq.bmp",
+		Description = { "ÇØ´ç Äù½ºÆ®´Â ÀÏÀÏ Äù½ºÆ®·Î, ´ë±â½Ã°£ ¸¸·á ÈÄ ´Ù½Ã ¹Ş¾Æ ¼öÇàÇÒ ¼ö ÀÖ½À´Ï´Ù." },
+		Summary = "04½Ã ÃÊ±âÈ­"
+	},
+	[16391] = { Title = "???", IconName = "ico_nq.bmp", Description = { "?????" }, Summary = "???" },
+	[16392] = {
+		Title = "¿øÁ¤ÀÇ ¿©·Î-º¸»ó",
+		IconName = "ico_nq.bmp",
+		Description = { "ÇØ¼® Âü°¡ º¸»óÀ» È¹µæÇÏ¿´´Ù." },
+		Summary = "º¸»ó È¹µæ"
+	},
+	[16393] = {
+		Title = "¿øÁ¤ÀÇ ¿©·Î-°Ë»ç ½ÇÇè½Ç",
+		IconName = "ico_nq.bmp",
+		Description = { "°Ë»ç ½ÇÇè½Ç Å½»ç¿¡ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "°Ë»ç ½ÇÇè½Ç Å½»ç"
+	},
+	[16394] = {
+		Title = "¿øÁ¤ÀÇ ¿©·Î-º¹»ç ½ÇÇè½Ç",
+		IconName = "ico_nq.bmp",
+		Description = { "º¹»ç ½ÇÇè½Ç Å½»ç¿¡ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "º¹»ç ½ÇÇè½Ç Å½»ç"
+	},
+	[16395] = {
+		Title = "¿øÁ¤ÀÇ ¿©·Î-µµµÏ ½ÇÇè½Ç",
+		IconName = "ico_nq.bmp",
+		Description = { "µµµÏ ½ÇÇè½Ç Å½»ç¿¡ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "µµµÏ ½ÇÇè½Ç Å½»ç"
+	},
+	[16396] = {
+		Title = "¿øÁ¤ÀÇ ¿©·Î-¸¶¼ú»ç ½ÇÇè½Ç",
+		IconName = "ico_nq.bmp",
+		Description = { "¸¶¼ú»ç ½ÇÇè½Ç Å½»ç¿¡ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "¸¶¼ú»ç ½ÇÇè½Ç Å½»ç"
+	},
+	[16397] = {
+		Title = "¿øÁ¤ÀÇ ¿©·Î-»óÀÎ ½ÇÇè½Ç",
+		IconName = "ico_nq.bmp",
+		Description = { "»óÀÎ ½ÇÇè½Ç Å½»ç¿¡ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "»óÀÎ ½ÇÇè½Ç Å½»ç"
+	},
+	[16398] = {
+		Title = "¿øÁ¤ÀÇ ¿©·Î-±Ã¼ö ½ÇÇè½Ç",
+		IconName = "ico_nq.bmp",
+		Description = { "±Ã¼ö ½ÇÇè½Ç Å½»ç¿¡ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "±Ã¼ö ½ÇÇè½Ç Å½»ç"
+	},
+	[16399] = {
+		Title = "Å½»çÀÇ ¿©·Î",
+		IconName = "ico_nq.bmp",
+		Description = { "Å½»ç ¸ğµå·Î ¹öÃß¾ó ·¹ÄÚµå ÇØ¼®¿¡ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "Å½»ç ¸ğµå ÁøÇà",
+		RewardItemList = {
+			{ ItemID = 25787, ItemNum = 2 }
+		}
+	},
+	[16400] = {
+		Title = "ÀüÅõÀÇ ¿©·Î",
+		IconName = "ico_nq.bmp",
+		Description = { "ÀüÅõ ¸ğµå·Î ¹öÃß¾ó ·¹ÄÚµå ÇØ¼®¿¡ Âü°¡ÇÏ¿´´Ù." },
+		Summary = "ÀüÅõ ¸ğµå ÁøÇà",
+		RewardItemList = {
+			{ ItemID = 25787, ItemNum = 5 },
+			{ ItemID = 25786, ItemNum = 3 }
+		}
+	},
 	[17000] = {
 		Title = "Meet with Father Bamph",
 		IconName = "ico_ep.bmp",
@@ -42376,8 +42617,8 @@ QuestInfoList = {
 			"Larjes told you that that the official was kidnapped from an organization from Arunafeltz. You should report this to Father Bamph."
 		},
 		Summary = "Talk with Father Bamph",
-		RewardEXP = 300000,
-		RewardJEXP = 300000
+		RewardEXP = "300000",
+		RewardJEXP = "300000"
 	},
 	[17003] = {
 		Title = "Travel to Rachel",
@@ -42402,8 +42643,8 @@ QuestInfoList = {
 			"Magistrate Al Hamad tells you that he's not really comfortable talking to complete strangers about his problems... Find someone who may know about the situation."
 		},
 		Summary = "",
-		RewardEXP = 300000,
-		RewardJEXP = 300000
+		RewardEXP = "300000",
+		RewardJEXP = "300000"
 	},
 	[17006] = {
 		Title = "Interrogated Smugglers",
@@ -42468,8 +42709,8 @@ QuestInfoList = {
 			"Larjes has revealed that he has been following you and offers to help you sail to the monastery. Investigate the Island once you land there."
 		},
 		Summary = "",
-		RewardEXP = 600000,
-		RewardJEXP = 600000,
+		RewardEXP = "600000",
+		RewardJEXP = "600000",
 		RewardItemList = {
 			{ ItemID = 25723, ItemNum = 20 }
 		}
@@ -42513,8 +42754,8 @@ QuestInfoList = {
 			"<NAVI>¾Æ½º<INFO>sp_cor,135,147,0,101,0</INFO></NAVI>¾¾´Â Ä«¾ß Åä½º¾¾¿¡°Ô ±äÈ÷ º¸°íÇÒ ÀÏÀÌ ÀÖ´Ù°í ÇÑ´Ù."
 		},
 		Summary = "¾Æ½º¾¾¿¡°Ô",
-		RewardEXP = 300000,
-		RewardJEXP = 300000
+		RewardEXP = "300000",
+		RewardJEXP = "300000"
 	},
 	[17019] = {
 		Title = "±ä¹ÚÇÑ »óÈ²",
@@ -42547,8 +42788,8 @@ QuestInfoList = {
 			"»ç¶÷À» Ã£´Â´Ù¸é ¼¼Å¹¹°À» °ü¸®ÇÏ´ø <NAVI>»ç¶÷<INFO>sp_cor,151,180,0,101,0</INFO></NAVI>ÇÑÅ× °¡ ºÁ¿ä. ¿À·¡ ÀÖ¾úÀ¸´Ï±î. ¹ßÀÌ ¹«Ã´ ³Ğ°Åµç¿ä."
 		},
 		Summary = "¼¼Å¹¹° ´ã´çÀÚ¿¡°Ô",
-		RewardEXP = 300000,
-		RewardJEXP = 300000
+		RewardEXP = "300000",
+		RewardJEXP = "300000"
 	},
 	[17023] = {
 		Title = "ÆÑ¾¾¸¦ Ã£¾Æ¼­",
@@ -42573,8 +42814,8 @@ QuestInfoList = {
 			"<NAVI>¾îµğ¼±°¡<INFO>sp_rudus,15,280,0,101,0</INFO></NAVI> ¸»¼Ò¸®°¡ µé¸°´Ù. Ã£¾Æ°¡ º¸ÀÚ."
 		},
 		Summary = "¼Ò¸®¸¦ µû¶ó",
-		RewardEXP = 300000,
-		RewardJEXP = 300000
+		RewardEXP = "300000",
+		RewardJEXP = "300000"
 	},
 	[17026] = {
 		Title = "ÆÑ¾¾¸¦ Ã£¾Æ¼­",
@@ -42631,8 +42872,8 @@ QuestInfoList = {
 			"¾²·¹±â ´õ¹Ì¿¡ ÆÄ¹¯Çô ÀÖ´ø ÆÈÂî ÇÏ³ª¸¦ ÆÄ³Â´Ù. ÀÌ°ÍÀ» °¡Áö°í <NAVI>Ä«¾ß<INFO>sp_cor,136,146,0,101,0</INFO></NAVI>¾¾¿¡°Ô·Î µ¹¾Æ °¡ÀÚ."
 		},
 		Summary = "Ä«¾ß Åä½º¾¾¿¡°Ô",
-		RewardEXP = 600000,
-		RewardJEXP = 600000,
+		RewardEXP = "600000",
+		RewardJEXP = "600000",
 		RewardItemList = {
 			{ ItemID = 25723, ItemNum = 20 }
 		}
@@ -42652,8 +42893,8 @@ QuestInfoList = {
 			"±×·³ µ¹·Î¸£¶ó ºÒ¸®´Â ½ÇÇèÃ¼ 20ºĞµé²² ¾È½ÄÀ» µå¸®°í, ½ÇÇèÃ¼¿ë ½Äº° ÆÈÂî 10°³¸¦ ºÎÅ¹µå¸³´Ï´Ù. - <NAVI>¾Æ½º<INFO>sp_cor,135,147,0,101,0</INFO></NAVI>"
 		},
 		Summary = "½ÇÇèÃ¼¿ë ½Äº° ÆÈÂî 10",
-		RewardEXP = 300000,
-		RewardJEXP = 300000,
+		RewardEXP = "300000",
+		RewardJEXP = "300000",
 		RewardItemList = {
 			{ ItemID = 25723, ItemNum = 1 },
 			{ ItemID = 25669, ItemNum = 5 }
@@ -42682,6 +42923,182 @@ QuestInfoList = {
 			"ÇÏ·ç¿¡ ÇÑ ¹ø ¹«·á·Î ½Ã°£ÀÇ ¼öÈ£ÀÚ ·Îºê¿¡ ºÎ¿© µÈ ¼Ó¼º ±³Ã¼¸¦ ÇÒ ¼ö ÀÖ¾î¿ä. <NAVI>¼Ó¼º ºÎ¿© ´ã´çÀÚ<INFO>prontera,154,279,0,101,0,</INFO></NAVI>"
 		},
 		Summary = "04½Ã ÃÊ±âÈ­"
+	},
+	[17137] = {
+		Title = "´«²É´Ù¹ß ¸¸µé±â",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"´«²É´Ù¹ßÀ» ¸¸µé°í ½ÍÀ¸½Ã´Ù°í¿ä? ±×·³ ´«µ¿ÀÚ°¡ ÁÖ´Â <ITEM>[¸¶·ÂÀÇ ´«²É]<INFO>25425</INFO></ITEM> 10°³¸¦ °¡Áö°í ´Ù½Ã <NAVI>[ÀÌ°÷]<INFO>aldebaran,174,164,0,101,0</INFO></NAVI>À¸·Î ¿À¼¼¿ä."
+		},
+		Summary = "¸¶·ÂÀÇ ´«²É 10°³"
+	},
+	[17138] = {
+		Title = "´«²É´Ù¹ß ¸¸µé±â",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"´«²É´Ù¹ß ¸¸µé±â ÀÌº¥Æ®´Â ¾ÕÀ¸·Î <NAVI>[È¯»óÀÇ ´«²É¼ú»ç]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI>°¡ ´ã´çÇÏ°Ô µÉ °Ì´Ï´Ù. °ü½ÉÀÌ ÀÖÀ¸¸é Ã£¾Æ°¡ º¸¼¼¿ä."
+		},
+		Summary = "È¯»óÀÇ ´«²É¼ú»ç¿¡°Ô"
+	},
+	[17139] = {
+		Title = "µû¶æÇÑ °Ü¿ï³ª±â",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"´«ÀÌ ³»¸®Áö ¾Ê´Â Áö¿ª¿¡´Â Èò ´«À», Ãß¿î Áö¿ª¿¡´Â µû¶æÇÑ ¼Ø¿ÊÀ»! µû¶æÇÑ °Ü¿ï³ª±â¸¦ µ½°í ½ÍÀ¸½Ã´Ù¸é <NAVI>[ÄÚÆ¼]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI>¿Í ¿ï½Ã¸¦ Ã£¾Æ°¡ º¸¼¼¿ä."
+		},
+		Summary = "ÄÚÆ¼¿¡°Ô"
+	},
+	[17140] = {
+		Title = "ÃàÁ¦ Ä«µå ±³È¯",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"´ç½ÅÀÇ ¼±¹°»óÀÚ¿¡¼­ Æ¯º°ÇÑ Ä«µå¸¦ Ã£À¸¼Ì´Ù°í¿ä? ±×·³ <NAVI>[Æ®À®Å¬]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>°ú ºí¸µ¿¡°Ô °¡Áö°í °¡¼¼¿ä. Æ¯º°ÇÑ ¼±¹°À» ¹ŞÀ¸½Ç ¼ö ÀÖÀ» °Ì´Ï´Ù."
+		},
+		Summary = "Æ®À®Å¬¿¡°Ô"
+	},
+	[17141] = {
+		Title = "Çà»ç ÁØºñÀÚµé",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"ÃàÁ¦¸¦ ÁØºñÇÏ½Å ºĞµéÀ» ¸¸³ª Çà»çÀÇ µŞÀÌ¾ß±â¸¦ µé¾îº¸½Ã´Â °ÍÀº ¾î¶³±î¿ä? ´« µ¿ÀÚ »çÀ°»ç <NAVI>[À¯Áø]<INFO>aldebaran,108,166,0,101,0</INFO></NAVI>´ÔÀÌ ¸¶Ä§ ¿Í°è¼¼¿ä."
+		},
+		Summary = "À¯Áø¿¡°Ô"
+	},
+	[17142] = {
+		Title = "´«²É´Ù¹ß ¸¸µé±â",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"´«²É´Ù¹ßÀ» ¸¸µé±â À§ÇØ¼­´Â <ITEM>[¸¶·ÂÀÇ ´«²É]<INFO>25425</INFO></ITEM> 10°³°¡ ÇÊ¿äÇØ¿ä. ´«»ç¶÷µéÀÌ ÄÚ¿¡ Àå½ÄÇÒ ´ç±Ùµµ ¿øÇÏ°í ÀÖÀ¸´Ï <ITEM>[´ç±Ù]<INFO>515</INFO></ITEM> 1°³µµ ÀØÁö ¸¶½Ã°í¿ä. - <NAVI>[¸¶¸°]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI>"
+		},
+		Summary = "´«²É 10°³, ´ç±Ù 1°³"
+	},
+	[17143] = {
+		Title = "´ë±â: ³Ã±â°¡ ³²¾ÆÀÖ´Ù",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¾ÆÁ÷ ¸¶·ÂÀÇ ´«²É È¿·ÂÀÌ ³²¾Æ ÀÖ¾î¿ä. »õº®ÀÌ Áö³­ ÈÄ¿¡ ´Ù½Ã Ã£¾Æ ÁÖ¼¼¿ä. - <NAVI>[¸¶¸°]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI>"
+		},
+		Summary = "ÃÊ±âÈ­ ½Ã°£ 04½Ã"
+	},
+	[17144] = {
+		Title = "µû¶æÇÑ °Ü¿ï³ª±â",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"´«ÀÌ ¿ÀÁö ¾Ê´Â ¾î¸°ÀÌµé¿¡°Õ ´«À»! Ãß¿î Áö¿ªÀÇ ¾î¸°ÀÌµé¿¡°Õ µû¶æÇÑ ¼Ø¿ÊÀ»! <NAVI>[ÀúÈñ]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI>¿¡°Ô <ITEM>[µû¶æÇÑ ¼Ø]<INFO>25426</INFO></ITEM> 10°³¸¦ ±âºÎÇØ ÁÖ¼¼¿ä!"
+		},
+		Summary = "µû¶æÇÑ ¼Ø 10°³"
+	},
+	[17145] = {
+		Title = "´ë±â: ¼ØÀº Æ÷Àå Áß",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¼ØÀº Áö±İ Æ÷Àå ÁßÀÌ¿¡¿ä. »õº®¹«·Æ¿¡´Â Æ÷ÀåÀÌ ³¡³¯ °Í °°Àºµ¥ »õº®ÀÌ Áö³­ ÈÄ¿¡ ´Ù½Ã Ã£¾Æ ÁÖ¼¼¿ä! - <NAVI>[ÄÚÆ¼]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI>"
+		},
+		Summary = "ÃÊ±âÈ­ ½Ã°£ 04½Ã"
+	},
+	[17146] = {
+		Title = "ÃàÁ¦ Ä«µå ±³È¯",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¸ğÇè°¡´ÔÀÇ Çà¿îÀÇ ´Ü¾î´Â ALDEBARAN!! ´ç½ÅÀÇ ¼±¹°»óÀÚ¿¡¼­ ³ª¿À´Â ´«²É Ä«µå ºÀÅõ¸¦ ¿­¾î º¸¼¼¿ä. ±× ¼Ó¿¡ µé¾î ÀÖ´Â A.L.D.E.B.A.R.A.N ³¹¸» Ä«µå¸¦ ¸ğ¾Æ ¿À½Ã¸é µÅ¿ä. ÃÑ 9ÀåÀÌ¿¡¿ä. - <NAVI>[Æ®À®Å¬]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "ALDEBARAN Ä«µå ¸ğÀ¸±â"
+	},
+	[17147] = {
+		Title = "ÃàÁ¦ Ä«µå ±³È¯",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¸ğÇè°¡´ÔÀÇ Çà¿îÀÇ ´Ü¾î´Â SNOW!! ´ç½ÅÀÇ ¼±¹°»óÀÚ¿¡¼­ ³ª¿À´Â ´«²É Ä«µå ºÀÅõ¸¦ ¿­¾î º¸¼¼¿ä. ±× ¼Ó¿¡ µé¾î ÀÖ´Â S.N.O.W ³¹¸» Ä«µå¸¦ ¸ğ¾Æ ¿À½Ã¸é µÅ¿ä. ÃÑ 4ÀåÀÌ¿¡¿ä. - <NAVI>[Æ®À®Å¬]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "SNOW Ä«µå ¸ğÀ¸±â"
+	},
+	[17148] = {
+		Title = "ÃàÁ¦ Ä«µå ±³È¯",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¸ğÇè°¡´ÔÀÇ Çà¿îÀÇ ´Ü¾î´Â FESTIVAL!! ´ç½ÅÀÇ ¼±¹°»óÀÚ¿¡¼­ ³ª¿À´Â ´«²É Ä«µå ºÀÅõ¸¦ ¿­¾î º¸¼¼¿ä. ±× ¼Ó¿¡ µé¾î ÀÖ´Â F.E.S.T.I.V.A.L ³¹¸» Ä«µå¸¦ ¸ğ¾Æ ¿À½Ã¸é µÅ¿ä. ÃÑ 8ÀåÀÌ¿¡¿ä. - <NAVI>[Æ®À®Å¬]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "FESTIVAL Ä«µå ¸ğÀ¸±â"
+	},
+	[17149] = {
+		Title = "ÃàÁ¦ Ä«µå ±³È¯",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¸ğÇè°¡´ÔÀÇ Çà¿îÀÇ ´Ü¾î´Â SPARKLE!! ´ç½ÅÀÇ ¼±¹°»óÀÚ¿¡¼­ ³ª¿À´Â ´«²É Ä«µå ºÀÅõ¸¦ ¿­¾î º¸¼¼¿ä. ±× ¼Ó¿¡ µé¾î ÀÖ´Â S.P.A.R.K.L.E ³¹¸» Ä«µå¸¦ ¸ğ¾Æ ¿À½Ã¸é µÅ¿ä. ÃÑ 7ÀåÀÌ¿¡¿ä. - <NAVI>[Æ®À®Å¬]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "SPARKLE Ä«µå ¸ğÀ¸±â"
+	},
+	[17150] = {
+		Title = "´ë±â: Ä«µå ±³È¯Àº 1ÀÏ 1È¸",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"³¹¸» Ä«µå ±³È¯Àº 1ÀÏ 1È¸¿¹¿ä. ¾Æ¼ÌÁÒ? ±×·¯´Ï±î »õº®ÀÌ Áö³­ ÈÄ¿¡ ´Ù½Ã ¿À¼¼¿ä! - <NAVI>[Æ®À®Å¬]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "ÃÊ±âÈ­ ½Ã°£ 04½Ã"
+	},
+	[17151] = {
+		Title = "¸ğµÎ°¡ ÁÁ¾ÆÇÏÁø ¾Ê¾Æ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[À¯Áø]<INFO>aldebaran,108,166,0,101,0</INFO></NAVI>°ú ¸®°ÖÀº °èÈ¹ÀÌ ÀÖ´Ù¸ç Á» ´õ °¡±îÀÌ ¸ğÀÌ¶ó°í Çß´Ù."
+		},
+		Summary = "À¯Áø°ú ´ëÈ­"
+	},
+	[17152] = {
+		Title = "¸ğµÎ°¡ ÁÁ¾ÆÇÏÁø ¾Ê¾Æ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<ITEM>[²É]<INFO>712</INFO></ITEM> 10¼ÛÀÌ¸¦ °¡Á®´ÙÁÖ¼¼¿ä. °ÔÆæ¿¡¼­ <NAVI>[²É»óÀÎ]<INFO>geffen,161,83,0,101,0</INFO></NAVI>À» º¸¾ÒÀ¸´Ï ±×¸®·Î °¡½Ã¸é µÇ°Ú³×¿ä."
+		},
+		Summary = "°ÔÆæÀÇ ²É»óÀÎ"
+	},
+	[17153] = {
+		Title = "¸ğµÎ°¡ ÁÁ¾ÆÇÏÁø ¾Ê¾Æ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¸®°Ö¾¾´Â ·çÆ¼¿¡ÀÇ <NAVI>[Àå³­°¨ °øÀå]<INFO>xmas_dun01,128,154,0,101,0</INFO></NAVI>¿¡¼­ ÀÏÀ» Çß´Ù°í Çß´Ù. ±×¸®·Î °¡¸é ¹º°¡ Ã£À» ¼ö ÀÖÀ»Áöµµ ¸ğ¸¥´Ù."
+		},
+		Summary = "·çÆ¼¿¡ Àå³­°¨ °øÀå"
+	},
+	[17154] = {
+		Title = "¸ğµÎ°¡ ÁÁ¾ÆÇÏÁø ¾Ê¾Æ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"À¯Áø¾¾´Â <NAVI>[±âÂ÷]<INFO>xmas,204,223,0,101,0</INFO></NAVI>¸¦ Å¸°í ·çÆ¼¿¡·Î ¿Ô´Ù°í Çß´Ù. ±×¸®·Î °¡¸é ¹º°¡ Ã£À» ¼ö ÀÖ°ÚÁö."
+		},
+		Summary = "·çÆ¼¿¡ ¼±·Î"
+	},
+	[17155] = {
+		Title = "¸ğµÎ°¡ ÁÁ¾ÆÇÏÁø ¾Ê¾Æ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"²É 10¼ÛÀÌ¸¦ °¡Áö°í ´«²É ÃàÁ¦ÀåÀÇ <NAVI>[À¯Áø]<INFO>aldebaran,108,166,0,101,0</INFO></NAVI>¾¾¿Í ¸®°Ö¾¾¿¡°Ô·Î µ¹¾Æ°¡ ¼³µæÇØº¸ÀÚ."
+		},
+		Summary = "À¯Áø¿¡°Ô·Î"
+	},
+	[17156] = {
+		Title = "¸ğµÎ°¡ ÁÁ¾ÆÇÏÁø ¾Ê¾Æ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[¸®°Ö]<INFO>aldebaran,107,164,0,101,0</INFO></NAVI>¾¾´Â ³¡±îÁö °èÈ¹À» ½ÇÇàÇÒ ¸ğ¾çÀÌ´Ù. ¸»¸± ¹æ¹ıÀº ¾øÀ»±î?"
+		},
+		Summary = "¸®°Ö°ú ´ëÈ­"
+	},
+	[17157] = {
+		Title = "´« µ¿ÀÚ Å°¿ì±â",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"¸¶·ÂÀÇ ´«²ÉÀ» ´« µ¿ÀÚ·Î ±æ·¯³»·Á¸é ±ú²ıÇÑ ¹°ÀÌ ÇÊ¿äÇØ¿ä. ¼º¼ö 5°³¸¸ °¡Á®´ÙÁÖ¼¼¿ä. - <NAVI>[À¯Áø]<INFO>aldebaran,108,166,0,101,0</INFO></NAVI>"
+		},
+		Summary = "¼º¼ö 5°³"
+	},
+	[17158] = {
+		Title = "´ë±â: ´« µ¿ÀÚ Å°¿ì±â",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"°¡Á®´Ù ÁÖ½Å ¼º¼ö·Î ¸¶·ÂÀÇ ´«²ÉÀ» Å°¿ï ¼ö ÀÖ¾î¿ä. »õº®ÀÌ Áö³­ ÈÄ¿¡ ´Ù½Ã Ã£¾ÆÁÖ¼¼¿ä. - <NAVI>[À¯Áø]<INFO>aldebaran,108,166,0,101,0</INFO></NAVI>"
+		},
+		Summary = "ÃÊ±âÈ­ ½Ã°£ 04½Ã"
 	},
 	[18001] = {
 		Title = "Delivery for Rooney",
@@ -43330,28 +43747,28 @@ QuestInfoList = {
 	[19105] = {
 		Title = "The Eye of Hellion",
 		Description = {
-			"You found a message that reads ^0066ff\"Veggie Lady N9 W3 BINGO.\"^000000"
+			"You found a message that reads ^0000FF\"Veggie Lady N9 W3 BINGO.\"^000000"
 		},
 		Summary = ""
 	},
 	[19106] = {
 		Title = "The Eye of Hellion",
 		Description = {
-			"You've received a Cogwheel from Clanux Heffron. Remember that the message you found said ^0066ff\"Veggie Lady N9 W3 BINGO.\"^000000"
+			"You've received a Cogwheel from Clanux Heffron. Remember that the message you found said ^0000FF\"Veggie Lady N9 W3 BINGO.\"^000000"
 		},
 		Summary = ""
 	},
 	[19107] = {
 		Title = "The Eye of Hellion",
 		Description = {
-			"The Veggie Lady gave you some kind of password ^0066ff 3847147298^000000. Tell Clanux Heffron about it."
+			"The Veggie Lady gave you some kind of password ^0000FF 3847147298^000000. Tell Clanux Heffron about it."
 		},
 		Summary = ""
 	},
 	[19108] = {
 		Title = "The Eye of Hellion",
 		Description = {
-			"Enter in the password that the Veggie Lady gave you into the Unknown Machine ^0066ff 3847147298^000000."
+			"Enter in the password that the Veggie Lady gave you into the Unknown Machine ^0000FF 3847147298^000000."
 		},
 		Summary = ""
 	},
@@ -43527,14 +43944,14 @@ QuestInfoList = {
 	[21003] = {
 		Title = "Best medicine for motion sickness",
 		Description = {
-			"I decide to help Reno, a friend whom I met while traveling, by finding something to relieve his motion sickness. Let's ^0066ffask about Herbal Medicine to Therapist^000000 in ^0066ffCriatura Academy Clinic^000000."
+			"I decide to help Reno, a friend whom I met while traveling, by finding something to relieve his motion sickness. Let's ^0000FFask about Herbal Medicine to Therapist^000000 in ^0000FFCriatura Academy Clinic^000000."
 		},
 		Summary = "Ask about Herbal Medicine to Therapist"
 	},
 	[21004] = {
 		Title = "Basic herbal medicine",
 		Description = {
-			"The terapist asking you to find potion ingredient, Red Herb. Find ^0066ffRed Plant^000000 in ^0066ffFront door of Criatura academy^000000."
+			"The terapist asking you to find potion ingredient, Red Herb. Find ^0000FFRed Plant^000000 in ^0000FFFront door of Criatura academy^000000."
 		},
 		Summary = "Find Red Plant outside Criatura academy"
 	},
@@ -43670,7 +44087,7 @@ QuestInfoList = {
 		Title = "¿©¿ì »ç³É",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Æó°¡ÃÌ¿¡ ¿µÈ¥µéÀÌ ¼ººÒÇÏÁö ¸øÇÏ°í ¹­¿© ÀÖ´Â °ÍÀº ¿©¿ì¿ä±« ¿ù¾ßÈ­ÀÇ ÁşÀÌ´Ù. ÆäÀÌ¿æÀÇ Àå·Î´Â ¿ù¾ßÈ­¸¦ Ã³´ÜÇÏ±â·Î °áÁ¤Çß´Ù. ^0066ff¿ù¾ßÈ­¸¦ Ã³Ä¡^000000ÇÑ µÚ ¾òÀº ^0066ff¿©¿ì±¸½½À» °¡Áö°í ±Ã¼ö ¸¶À»ÀÇ ºÒ»óÀÌ ÀÖ´Â °÷^000000À¸·Î °¡ÀÚ."
+			"Æó°¡ÃÌ¿¡ ¿µÈ¥µéÀÌ ¼ººÒÇÏÁö ¸øÇÏ°í ¹­¿© ÀÖ´Â °ÍÀº ¿©¿ì¿ä±« ¿ù¾ßÈ­ÀÇ ÁşÀÌ´Ù. ÆäÀÌ¿æÀÇ Àå·Î´Â ¿ù¾ßÈ­¸¦ Ã³´ÜÇÏ±â·Î °áÁ¤Çß´Ù. ^0000FF¿ù¾ßÈ­¸¦ Ã³Ä¡^000000ÇÑ µÚ ¾òÀº ^0000FF¿©¿ì±¸½½À» °¡Áö°í ±Ã¼ö ¸¶À»ÀÇ ºÒ»óÀÌ ÀÖ´Â °÷^000000À¸·Î °¡ÀÚ."
 		},
 		Summary = "±¸½½ ½Àµæ ÈÄ ºÒ»ó¾Õ Àå·Î¿Í ´ëÈ­"
 	},
@@ -43854,7 +44271,7 @@ QuestInfoList = {
 		Title = "¸ğ½ºÄÚºñ¾ÆÀÇ ¾Ç¸ù",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ff¸ğ½ºÄÚºñ¾Æ Áö¿ª ±íÀº ½£^000000¿¡´Â ¿©·¯°¡Áö ¿äÁ¤ÀÌ Á¸ÀçÇÑ´Ù°í ÇÑ´Ù. ±× Áß ÅëÇàÀÚ¸¦ ³î·¡Å°°í ±«·ÓÈ÷´Â ^0066ff¿ìÀÚ½º¸¦ ÅğÄ¡^000000ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¸ğ½ºÄÚºñ¾Æ´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FF¸ğ½ºÄÚºñ¾Æ Áö¿ª ±íÀº ½£^000000¿¡´Â ¿©·¯°¡Áö ¿äÁ¤ÀÌ Á¸ÀçÇÑ´Ù°í ÇÑ´Ù. ±× Áß ÅëÇàÀÚ¸¦ ³î·¡Å°°í ±«·ÓÈ÷´Â ^0000FF¿ìÀÚ½º¸¦ ÅğÄ¡^000000ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¸ğ½ºÄÚºñ¾Æ´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "¿ìÀÚ½º Ã³Ä¡"
 	},
@@ -43870,7 +44287,7 @@ QuestInfoList = {
 		Title = "¾Æ¸§´Ù¿î ÀÎÇü",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ff¾Æ¸¶ÂêÀÇ Ãµ¼ö°¢ ³»ºÎ¿¡ ÀÖ´Â ´Ù´Ù¹Ì ¹Ì±Ã^000000¿¡¼­ ¾Æ¸§´Ù¿î ¿Ü¸ğ·Î »ç¶÷À» ÇöÈ¤½ÃÅ°´Â ¿ä¸¶, ^4d4fff¹Ì¾ßºñ^000000¸¦ ÅğÄ¡ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¾Æ¸¶Âê´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FF¾Æ¸¶ÂêÀÇ Ãµ¼ö°¢ ³»ºÎ¿¡ ÀÖ´Â ´Ù´Ù¹Ì ¹Ì±Ã^000000¿¡¼­ ¾Æ¸§´Ù¿î ¿Ü¸ğ·Î »ç¶÷À» ÇöÈ¤½ÃÅ°´Â ¿ä¸¶, ^4d4fff¹Ì¾ßºñ^000000¸¦ ÅğÄ¡ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¾Æ¸¶Âê´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "¹Ì¾ßºñ ÅğÄ¡"
 	},
@@ -43886,7 +44303,7 @@ QuestInfoList = {
 		Title = "¸ğ·¡·Î ºúÀº ¶±?",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ff·ï¾çÀÇ ¿ëÁö¼º ¾Õ^000000 ÇØº¯°¡ÀÇ ¸ğ·¡°¡ ½º½º·Î ¹¶ÃÄÁ® ¸¸µé¾îÁø ¿ä±« ^0066ff½Ä¾ç^000000À» ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ·ï¾çÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FF·ï¾çÀÇ ¿ëÁö¼º ¾Õ^000000 ÇØº¯°¡ÀÇ ¸ğ·¡°¡ ½º½º·Î ¹¶ÃÄÁ® ¸¸µé¾îÁø ¿ä±« ^0000FF½Ä¾ç^000000À» ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ·ï¾çÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "½Ä¾ç ÅğÄ¡"
 	},
@@ -43902,7 +44319,7 @@ QuestInfoList = {
 		Title = "¸Ó¸®°¡ ¾ø´Â ¸»",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ffºê¶óÁú¸®½º ÇÊµå^000000¿¡¼­ »ç¶÷µé¿¡°Ô °øÆ÷°¨À» ÁÖ°í ÀÖ´Â ^0066ff¸Ó¸®¾ø´Â ¸»^000000À» ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ºê¶óÁú¸®½º´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FFºê¶óÁú¸®½º ÇÊµå^000000¿¡¼­ »ç¶÷µé¿¡°Ô °øÆ÷°¨À» ÁÖ°í ÀÖ´Â ^0000FF¸Ó¸®¾ø´Â ¸»^000000À» ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ºê¶óÁú¸®½º´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "¸Ó¸®¾ø´Â ¸» ÅğÄ¡"
 	},
@@ -43918,7 +44335,7 @@ QuestInfoList = {
 		Title = "»ç¿øÀÇ »çÀÚ",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ff¾ß¿äÅ¸¾ß °í´ë½ÅÀü^000000¿¡¼­ ¿ø·¡ ¼öÈ£ÀÚ¿´À¸³ª, Áö±İÀº Âü¹è°´À» À§ÇùÇÏ´Â ^0066ffÅ½·ç¾È^000000À» ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¾Æ¿äÅ¸¾ß´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FF¾ß¿äÅ¸¾ß °í´ë½ÅÀü^000000¿¡¼­ ¿ø·¡ ¼öÈ£ÀÚ¿´À¸³ª, Áö±İÀº Âü¹è°´À» À§ÇùÇÏ´Â ^0000FFÅ½·ç¾È^000000À» ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¾Æ¿äÅ¸¾ß´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "Å½·ç¾È ÅğÄ¡"
 	},
@@ -43934,7 +44351,7 @@ QuestInfoList = {
 		Title = "¹«Áö°³¸¦ °¡Áø »õ",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ffºê¶óÁú¸®½º ÇÊµå^000000¿¡¼­ °©ÀÛ½º·´°Ô °³Ã¼¼ö°¡ ´Ã¾î³ª ³óÀÛ¹°¿¡ ÇÇÇØ¸¦ ÁÖ°í ÀÖ´Â ^0066ffÅõÄ­^000000ÀÇ ¼ö¸¦ Á¶ÀıÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ºê¶óÁú¸®½º´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FFºê¶óÁú¸®½º ÇÊµå^000000¿¡¼­ °©ÀÛ½º·´°Ô °³Ã¼¼ö°¡ ´Ã¾î³ª ³óÀÛ¹°¿¡ ÇÇÇØ¸¦ ÁÖ°í ÀÖ´Â ^0000FFÅõÄ­^000000ÀÇ ¼ö¸¦ Á¶ÀıÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ºê¶óÁú¸®½º´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "ÅõÄ­ ÅğÄ¡"
 	},
@@ -43950,7 +44367,7 @@ QuestInfoList = {
 		Title = "ºøÀÚ·ç¿Í ¹«¼è ¼Ü, ±×¸®°í ÇÒ¸Ó´Ï",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ff¸ğ½ºÄÚºñ¾Æ ±í°í ±íÀº ½£^000000¿¡ Ä¿´Ù¶õ ¼ÜÀ» Å¸°í ºøÀÚ·ç¸¦ ÈÖµÎ¸£´Â ³ëÆÄ°¡ ¸ñ°İµÇ¾ú½À´Ï´Ù. ¼ÜÀ» Å¸°í ºøÀÚ·ç¸¦ µç ³ëÆÄ´Â ¸¶³àÀÌ±â ¶§¹®¿¡, ÀÌ ¸¶³à ^0066ff¹Ù¹Ù¾ß°¡^000000¸¦ ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¸ğ½ºÄÚºñ¾Æ´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FF¸ğ½ºÄÚºñ¾Æ ±í°í ±íÀº ½£^000000¿¡ Ä¿´Ù¶õ ¼ÜÀ» Å¸°í ºøÀÚ·ç¸¦ ÈÖµÎ¸£´Â ³ëÆÄ°¡ ¸ñ°İµÇ¾ú½À´Ï´Ù. ¼ÜÀ» Å¸°í ºøÀÚ·ç¸¦ µç ³ëÆÄ´Â ¸¶³àÀÌ±â ¶§¹®¿¡, ÀÌ ¸¶³à ^0000FF¹Ù¹Ù¾ß°¡^000000¸¦ ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¸ğ½ºÄÚºñ¾Æ´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "¹Ù¹Ù¾ß°¡ ÅğÄ¡"
 	},
@@ -43966,7 +44383,7 @@ QuestInfoList = {
 		Title = "ÆĞÀÚ¿Í ½ÂÀÚ, ±×¸®°í ³²Àº ÀÚ",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ff¾Æ¸¶ÂêÀÇ ´Ù´Ù¹Ì ¹Ì±Ã^000000¿¡´Â ¿¾³¯ Ä¡¿­ÇÑ ÀüÀï¿¡¼­ Èñ»ı µÈ º´»çµéÀÌ ¶°µ¹°í ÀÖ´Ù°í ÇÕ´Ï´Ù. Ãµ¼ö¼ºÀÇ ¾ÈÀüÀ» À§ÇØ ^0066ff±¸½Ä Á¶ÃÑº´^000000¸¦ ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¾Æ¸¶Âê´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FF¾Æ¸¶ÂêÀÇ ´Ù´Ù¹Ì ¹Ì±Ã^000000¿¡´Â ¿¾³¯ Ä¡¿­ÇÑ ÀüÀï¿¡¼­ Èñ»ı µÈ º´»çµéÀÌ ¶°µ¹°í ÀÖ´Ù°í ÇÕ´Ï´Ù. Ãµ¼ö¼ºÀÇ ¾ÈÀüÀ» À§ÇØ ^0000FF±¸½Ä Á¶ÃÑº´^000000¸¦ ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¾Æ¸¶Âê´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "±¸½Ä Á¶ÃÑº´ ÅğÄ¡"
 	},
@@ -43982,7 +44399,7 @@ QuestInfoList = {
 		Title = "Ãµ»óÀÇ ¿©ÀÎ",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ffÄï·éÀÇ ¹«¸ªµµ¿ø^000000Àº ¸¹Àº »ç¶÷µéÀÌ ¹æ¹®ÇÏÁö¸¸ ¾Æ¸§´Ù¿î ¼±³à°¡ ³ªÅ¸³ª »ç¶÷À» °ø°İÇØ¼­ ¹®Á¦°¡ µÇ°í ÀÖ½À´Ï´Ù. À§ÇèÇÑ ^0066ff¿ä¼±³à^000000ÀÇ È¾Æ÷¸¦ ¸·´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. Äï·éÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FFÄï·éÀÇ ¹«¸ªµµ¿ø^000000Àº ¸¹Àº »ç¶÷µéÀÌ ¹æ¹®ÇÏÁö¸¸ ¾Æ¸§´Ù¿î ¼±³à°¡ ³ªÅ¸³ª »ç¶÷À» °ø°İÇØ¼­ ¹®Á¦°¡ µÇ°í ÀÖ½À´Ï´Ù. À§ÇèÇÑ ^0000FF¿ä¼±³à^000000ÀÇ È¾Æ÷¸¦ ¸·´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. Äï·éÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "¿ä¼±³à È¥³»ÁÖ±â"
 	},
@@ -43998,7 +44415,7 @@ QuestInfoList = {
 		Title = "ºñ¹ĞÀÌ Àáµç ¹«´ı",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ff¿ëÁö¼ºÀÇ ¿Õ¸ª^000000Àº ¸¹Àº Àü¼³°ú ºñ¹ĞÀ» Ç°°í ÀÖ½À´Ï´Ù. ÇÏÁö¸¸ ±×¸¸Å­ ¿ä±«µµ ¸¹ÀÌ ³ªÅ¸³ª °ñÄ¡¶ó°í ÇÕ´Ï´Ù. ¿Õ¸ª Á¶»ç¿¡ Æ¯È÷ ¹æÇØ°¡ µÇ´Â ^0066ffÇı±º°ú ÀÌ¸Å¸Á·®^000000À» ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¿ëÁö¼ºÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FF¿ëÁö¼ºÀÇ ¿Õ¸ª^000000Àº ¸¹Àº Àü¼³°ú ºñ¹ĞÀ» Ç°°í ÀÖ½À´Ï´Ù. ÇÏÁö¸¸ ±×¸¸Å­ ¿ä±«µµ ¸¹ÀÌ ³ªÅ¸³ª °ñÄ¡¶ó°í ÇÕ´Ï´Ù. ¿Õ¸ª Á¶»ç¿¡ Æ¯È÷ ¹æÇØ°¡ µÇ´Â ^0000FFÇı±º°ú ÀÌ¸Å¸Á·®^000000À» ÅğÄ¡ ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¿ëÁö¼ºÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "Çı±º, ÀÌ¸Å¸Á·® ÅğÄ¡"
 	},
@@ -44014,7 +44431,7 @@ QuestInfoList = {
 		Title = "¹ã¸»µµ ³»°¡ µè°í, ³·¸»µµ ³»°¡ µè´Â´Ù.",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ff¾Æ¸¶ÂêÀÇ ´Ù´Ù¹Ì ¹Ì±Ã^000000¿¡ µîÀåÇÏ´Â ¼ö¸¹Àº ºñ¹Ğ Áß ÇÏ³ª´Â Á¤º¸ÀüÀ» ´ã´çÇß´ø, ÀÌ¹Ì Á×¾î¹ö¸° ½Ã³ëºñÀÔ´Ï´Ù. ÀÚ¾Æ¸¦ ÀÒ¾î¹ö¸®°í »ç¶÷À» °ø°İÇÏ´Â ^0066ff½Ã³ëºñ^000000¸¦ Ã³Ä¡ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¾Æ¸¶Âê´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FF¾Æ¸¶ÂêÀÇ ´Ù´Ù¹Ì ¹Ì±Ã^000000¿¡ µîÀåÇÏ´Â ¼ö¸¹Àº ºñ¹Ğ Áß ÇÏ³ª´Â Á¤º¸ÀüÀ» ´ã´çÇß´ø, ÀÌ¹Ì Á×¾î¹ö¸° ½Ã³ëºñÀÔ´Ï´Ù. ÀÚ¾Æ¸¦ ÀÒ¾î¹ö¸®°í »ç¶÷À» °ø°İÇÏ´Â ^0000FF½Ã³ëºñ^000000¸¦ Ã³Ä¡ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. ¾Æ¸¶Âê´Â ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "½Ã³ëºñ Ã³Ä¡"
 	},
@@ -44030,7 +44447,7 @@ QuestInfoList = {
 		Title = "¼Õ¿À°ø ÈÄº¸",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ffÄï·éÀÇ ¼­¿Õ¸ğ ½ÅÀü^000000¿¡ º¹¼ş¾Æ¿ä±«¿Í ¿ø¼şÀÌ ¹«¸®°¡ µîÀåÇØ °ñÄ¡¶ó°í ÇÕ´Ï´Ù. ÀúµéÀÌ ÀÚ¶ó ¼Õ¿À°øÀÌ µÇ¾î ´õ Å« ³­¸®¸¦ ºÎ¸®±â Àü¿¡ ^0066ff»ıµµ¸ñ^000000À» ÅğÄ¡ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. Äï·éÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FFÄï·éÀÇ ¼­¿Õ¸ğ ½ÅÀü^000000¿¡ º¹¼ş¾Æ¿ä±«¿Í ¿ø¼şÀÌ ¹«¸®°¡ µîÀåÇØ °ñÄ¡¶ó°í ÇÕ´Ï´Ù. ÀúµéÀÌ ÀÚ¶ó ¼Õ¿À°øÀÌ µÇ¾î ´õ Å« ³­¸®¸¦ ºÎ¸®±â Àü¿¡ ^0000FF»ıµµ¸ñ^000000À» ÅğÄ¡ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. Äï·éÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "»ıµµ¸ñ ÅğÄ¡"
 	},
@@ -44046,7 +44463,7 @@ QuestInfoList = {
 		Title = "±¸¸§ À§ÀÇ ³ëÀÎ",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^0066ffÄï·éÀÇ ½Å¼±ÀÇ ¹ÙµÏÆÇ^000000ÀÇ ÅÍÁÖ´Â ´ç¿¬È÷ ½Å¼±ÀÔ´Ï´Ù¸¸ ¾îÂ¾Áö ÀÌ¹ø ½Å¼±Àº °í¾àÇÏ±â Â¦ÀÌ ¾ø½À´Ï´Ù. »ç¶÷µéÀ» ±«·ÓÈ÷±â¸¸ ÇÏ´Â ^0066ff¿î¾Ç¼±^000000À» ÅğÄ¡ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. Äï·éÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
+			"^0000FFÄï·éÀÇ ½Å¼±ÀÇ ¹ÙµÏÆÇ^000000ÀÇ ÅÍÁÖ´Â ´ç¿¬È÷ ½Å¼±ÀÔ´Ï´Ù¸¸ ¾îÂ¾Áö ÀÌ¹ø ½Å¼±Àº °í¾àÇÏ±â Â¦ÀÌ ¾ø½À´Ï´Ù. »ç¶÷µéÀ» ±«·ÓÈ÷±â¸¸ ÇÏ´Â ^0000FF¿î¾Ç¼±^000000À» ÅğÄ¡ÇØ ´Ş¶ó´Â ÀÇ·ÚÀÔ´Ï´Ù. Äï·éÀº ¾Ëº£¸£Å¸¿¡¼­ ¹è¸¦ Å¸°í °¥ ¼ö ÀÖ½À´Ï´Ù."
 		},
 		Summary = "¿î¾Ç¼± ÅğÄ¡"
 	},
@@ -44884,7 +45301,7 @@ QuestInfoList = {
 	[21202] = {
 		Title = "¾Õ ±æÀ» ¹æÇØÇÏ´Â ³à¼®µé",
 		Description = {
-			"»ç¸· ¾È ±¸¼®¿¡¼­ Ã£¾Æ³½ ³ëÇĞÀÚÀÇ Á¦ÀÚ´Â, ÀÚ½ÅÀÌ »÷µå¸Ç¶§¹®¿¡ ´õÀÌ»ó ±æÀ» °¥ ¼ö ¾ø´Ù¸ç, »÷µå¸ÇÀ» Ã³Ä¡ÇÏ°í ^0066ff¸ğ·¡Á¶°¢ 5°³^000000¸¦ ¸ğ¾Æ ´Ş¶ó°í ÇÑ´Ù."
+			"»ç¸· ¾È ±¸¼®¿¡¼­ Ã£¾Æ³½ ³ëÇĞÀÚÀÇ Á¦ÀÚ´Â, ÀÚ½ÅÀÌ »÷µå¸Ç¶§¹®¿¡ ´õÀÌ»ó ±æÀ» °¥ ¼ö ¾ø´Ù¸ç, »÷µå¸ÇÀ» Ã³Ä¡ÇÏ°í ^0000FF¸ğ·¡Á¶°¢ 5°³^000000¸¦ ¸ğ¾Æ ´Ş¶ó°í ÇÑ´Ù."
 		},
 		Summary = "¸ğ·¡Á¶°¢ 5°³"
 	},
@@ -44898,7 +45315,7 @@ QuestInfoList = {
 	[21204] = {
 		Title = "Çã¸®ÅëÁõÀ» ¹Ş°í ¹°°ÇÀ» ³»ÁÖ´Ù.",
 		Description = {
-			"¸ğ·ÎÅ© ¿Ü°û, ÇÇ¶ó¹Ìµå ¾Õ ¿À¾Æ½Ã½º¿¡¼­ ³ëÇĞÀÚ°¡ ÇÇ¶ó¹Ìµå ÁöÇÏ¿¡¼­ º£¸´Æ®°¡ ¹°°í °£ ^0066ff¾ßÀü»ğ^000000À» Ã£¾Æ´Ş¶ó°í ÇÑ´Ù. º£¸´Æ®¿Í ¸¶ÀÌ³Ê¿ì·Î½ºÀÇ Ã³Ä¡´Â ´ı."
+			"¸ğ·ÎÅ© ¿Ü°û, ÇÇ¶ó¹Ìµå ¾Õ ¿À¾Æ½Ã½º¿¡¼­ ³ëÇĞÀÚ°¡ ÇÇ¶ó¹Ìµå ÁöÇÏ¿¡¼­ º£¸´Æ®°¡ ¹°°í °£ ^0000FF¾ßÀü»ğ^000000À» Ã£¾Æ´Ş¶ó°í ÇÑ´Ù. º£¸´Æ®¿Í ¸¶ÀÌ³Ê¿ì·Î½ºÀÇ Ã³Ä¡´Â ´ı."
 		},
 		Summary = "¾ßÀü»ğ 1°³"
 	},
@@ -44947,14 +45364,14 @@ QuestInfoList = {
 	[21211] = {
 		Title = "½ºÇÎÅ©½ºÀÇ ÀÏ²Ûµé",
 		Description = {
-			"¾î´Ï½ºÆ®´Â ³ëÇĞÀÚ¿Í ÇÔ²² ¿¬±¸¸¦ ½ÃÀÛÇÏ¸é¼­ ¿äÃ»ÀÌ ¸¹¾ÆÁ³´Ù. ÀÌ¹ø¿£ ÇÇ¶ó¹Ìµå¿Í ½ºÇÎÅ©½º°¡ ¾î¶² °ü°èÀÎÁö Á¶»çÇÏ±â À§ÇØ, ^0066ffÁ¦·Ò°ú ·¹Äû¿¥^000000À» Á÷Á¢ º¸°í ¾Ë·Á´Ş¶ó°í..."
+			"¾î´Ï½ºÆ®´Â ³ëÇĞÀÚ¿Í ÇÔ²² ¿¬±¸¸¦ ½ÃÀÛÇÏ¸é¼­ ¿äÃ»ÀÌ ¸¹¾ÆÁ³´Ù. ÀÌ¹ø¿£ ÇÇ¶ó¹Ìµå¿Í ½ºÇÎÅ©½º°¡ ¾î¶² °ü°èÀÎÁö Á¶»çÇÏ±â À§ÇØ, ^0000FFÁ¦·Ò°ú ·¹Äû¿¥^000000À» Á÷Á¢ º¸°í ¾Ë·Á´Ş¶ó°í..."
 		},
 		Summary = ""
 	},
 	[21212] = {
 		Title = "½ºÇÎÅ©½ºÀÇ ºñ¹Ğ",
 		Description = {
-			"½ºÇÎÅ©½º »óÃş¿¡ µîÀåÇÏ´Â ^0066ff¸¶¸£µÎÅ©¿Í ÆÄ»ç³ª^000000ÀÇ Á¶»ç¸¦ ºÎÅ¹ ¹Ş¾Ò´Ù. Æ¯È÷ ¸¶¸£µÎÅ©°¡ °¡Áø °Í Áß ¿¬±¸ÀÚ·á°¡ µÉ ¸¸ÇÑ °ÍÀ» ²À Ã¬±âÀÚ."
+			"½ºÇÎÅ©½º »óÃş¿¡ µîÀåÇÏ´Â ^0000FF¸¶¸£µÎÅ©¿Í ÆÄ»ç³ª^000000ÀÇ Á¶»ç¸¦ ºÎÅ¹ ¹Ş¾Ò´Ù. Æ¯È÷ ¸¶¸£µÎÅ©°¡ °¡Áø °Í Áß ¿¬±¸ÀÚ·á°¡ µÉ ¸¸ÇÑ °ÍÀ» ²À Ã¬±âÀÚ."
 		},
 		Summary = "³°Àº ÆÄÇÇ·ç½º 1°³"
 	},
@@ -45003,7 +45420,7 @@ QuestInfoList = {
 	[21219] = {
 		Title = "¹ÌÀÌ¶ó¿Í ÆÄ¶õ»óÀÚ",
 		Description = {
-			"ÆÄ¶õ»óÀÚ¿¡ ´ëÇÑ ¹Ì·ÃÀ» ¶³Ä¡Áö ¸øÇÑ Á¶Àå ¸·½É°ú ±× Á¶¿øµéÀÇ ºÎÅ¹À¸·Î ^0066ff¹ÌÀÌ¶ó 10¸¶¸®¸¦ Ã³Ä¡ÇÏ°í Á×ÀºÀÚÀÇ À¯Ç° 1°³^000000¸¦ °¡Á®´Ù ´Ş¶ó´Â ÀÇ·Ú¸¦ ¹Ş¾Ò´Ù."
+			"ÆÄ¶õ»óÀÚ¿¡ ´ëÇÑ ¹Ì·ÃÀ» ¶³Ä¡Áö ¸øÇÑ Á¶Àå ¸·½É°ú ±× Á¶¿øµéÀÇ ºÎÅ¹À¸·Î ^0000FF¹ÌÀÌ¶ó 10¸¶¸®¸¦ Ã³Ä¡ÇÏ°í Á×ÀºÀÚÀÇ À¯Ç° 1°³^000000¸¦ °¡Á®´Ù ´Ş¶ó´Â ÀÇ·Ú¸¦ ¹Ş¾Ò´Ù."
 		},
 		Summary = "Á×ÀºÀÚÀÇ À¯Ç° 1°³"
 	},
@@ -45017,7 +45434,7 @@ QuestInfoList = {
 	[21221] = {
 		Title = "ÀÌ°Íµµ ´Ù °æÇèÀÌ¿¡¿ä. 1",
 		Description = {
-			"´Ù¸¥ »ç¶÷ÀÇ ÀÇ·Ú¸¦ ¹Ş´Â °Í¿¡ ÀÍ¼÷ÇØ Áö±â À§ÇØ, ^0066ffÀÌÁî·çµå ¼­³²ÂÊ ÇÊµå^000000ÀÇ ^0066ffÆäÄÚÆäÄÚ^000000¿Í ^0066ff¹«Ä«^000000 ÅğÄ¡ÀÇ·Ú¸¦ ¹Ş¾Ò´Ù. ±³°üÀÎ ÆùÅ×½º´Â ÀÌ·¸°Ô ¼­·Î µµ¿òÀ» ÁÖ°í ¹Ş¾Æ¾ß ÁøÁ¤ÇÑ ¸ğÇè°¡·Î °Åµì³­´Ù°í.."
+			"´Ù¸¥ »ç¶÷ÀÇ ÀÇ·Ú¸¦ ¹Ş´Â °Í¿¡ ÀÍ¼÷ÇØ Áö±â À§ÇØ, ^0000FFÀÌÁî·çµå ¼­³²ÂÊ ÇÊµå^000000ÀÇ ^0000FFÆäÄÚÆäÄÚ^000000¿Í ^0000FF¹«Ä«^000000 ÅğÄ¡ÀÇ·Ú¸¦ ¹Ş¾Ò´Ù. ±³°üÀÎ ÆùÅ×½º´Â ÀÌ·¸°Ô ¼­·Î µµ¿òÀ» ÁÖ°í ¹Ş¾Æ¾ß ÁøÁ¤ÇÑ ¸ğÇè°¡·Î °Åµì³­´Ù°í.."
 		},
 		Summary = "ÆäÄÚÆäÄÚ¿Í ¹«Ä« ÅğÄ¡"
 	},
@@ -45248,14 +45665,14 @@ QuestInfoList = {
 	[21255] = {
 		Title = "Á¤±â ¸ó½ºÅÍ Åä¹ú Çù·Â °ø°í¹®",
 		Description = {
-			"ÇÁ·ĞÅ×¶ó ±â»ç´ÜÀº ^0066ff¿ÀÅ©¿Í °íºí¸°^000000µéÀÌ ÇÁ·ĞÅ×¶ó ÀÎ±Ù Áö¿ªÀ¸·Î ¿µ¿ª È®ÀåÇÏ´Â °ÍÀ» ¹Ì¿¬¿¡ ¹æÁöÇÏ±â À§ÇØ ^0066ffÁ¤±â Åä¹ú^000000À» ÁøÇàÇÑ´Ù."
+			"ÇÁ·ĞÅ×¶ó ±â»ç´ÜÀº ^0000FF¿ÀÅ©¿Í °íºí¸°^000000µéÀÌ ÇÁ·ĞÅ×¶ó ÀÎ±Ù Áö¿ªÀ¸·Î ¿µ¿ª È®ÀåÇÏ´Â °ÍÀ» ¹Ì¿¬¿¡ ¹æÁöÇÏ±â À§ÇØ ^0000FFÁ¤±â Åä¹ú^000000À» ÁøÇàÇÑ´Ù."
 		},
 		Summary = "±â»ç´Ü »ç¹«Á÷¿ø°ú ´ëÈ­"
 	},
 	[21256] = {
 		Title = "¿ÀÅ©, ÀÏ¸ÁÅ¸Áø ÀÛÀü!",
 		Description = {
-			"¿ÀÅ© Åä¹ú¿¡ Âü¿©Çß´Ù. ´ÜÀåÀÌ È£±â·Ó°Ô ¿ÜÃÆ´Ù. ^0066ff¿ÀÅ©¿ö¸®¾î, ¿ÀÅ©·¹ÀÌµğ, ¿ÀÅ©º£ÀÌºñ^000000 ÀÏ°¡¸¦ ½Ï ¾µ¾î¹ö¸®ÀÚ°í! ±â´ë¿¡ ºÎÀÀÇÏ¿© ´Ù ¾µ¾î¹ö¸®ÀÚ!"
+			"¿ÀÅ© Åä¹ú¿¡ Âü¿©Çß´Ù. ´ÜÀåÀÌ È£±â·Ó°Ô ¿ÜÃÆ´Ù. ^0000FF¿ÀÅ©¿ö¸®¾î, ¿ÀÅ©·¹ÀÌµğ, ¿ÀÅ©º£ÀÌºñ^000000 ÀÏ°¡¸¦ ½Ï ¾µ¾î¹ö¸®ÀÚ°í! ±â´ë¿¡ ºÎÀÀÇÏ¿© ´Ù ¾µ¾î¹ö¸®ÀÚ!"
 		},
 		Summary = "¿ÀÅ© ¿ö¸®¾î, ·¹ÀÌµğ, º£ÀÌºñ Ã³Ä¡"
 	},
@@ -45325,7 +45742,7 @@ QuestInfoList = {
 	[21266] = {
 		Title = "º¸±ŞÇ° ¿Ô¾î¿ä! 1",
 		Description = {
-			"ÇÁ·ĞÅ×¶ó ±â»ç´Ü »ç¹«Á÷¿øÀ¸·Î ¹ŞÀº ^0066ff±â»ç´Ü º¸±ŞÇ°^000000À» ¿ÀÅ©¸¶À»¿¡ ÀÖ´Â Åä¹ú´Ü ´ÜÀå¿¡°Ô Àü´ŞÇÏÀÚ."
+			"ÇÁ·ĞÅ×¶ó ±â»ç´Ü »ç¹«Á÷¿øÀ¸·Î ¹ŞÀº ^0000FF±â»ç´Ü º¸±ŞÇ°^000000À» ¿ÀÅ©¸¶À»¿¡ ÀÖ´Â Åä¹ú´Ü ´ÜÀå¿¡°Ô Àü´ŞÇÏÀÚ."
 		},
 		Summary = "Åä¹ú´Ü ´ÜÀå°ú ´ëÈ­"
 	},
@@ -45416,7 +45833,7 @@ QuestInfoList = {
 	[21279] = {
 		Title = "º¸µéº¸µé Ç«½ÅÇ«½Å",
 		Description = {
-			"±¹°æ°Ë¹®¼Ò¿¡¼­ ¸¸³­ ¼Ò³àÀÇ ÀÇ·Ú. Å³ ÇÏÀÌ¸£ ÇĞ¿ø»ıÀÌ¶ó ¹àÈù ±×³à´Â Ç«½ÅÇÑ ÀÌºÒ°ú º£°³¸¦ ¸¸µé±â À§ÇÑ Àç·á·Î ^0066ff»ê¾çÀÇ ¸ğÇÇ 5°³¿Í ÆäÄÚ ³¯°³ ±êÅĞ 5°³^000000¸¦ ±¸ÇØ Å³ ÇÏÀÌ¸£ ÇĞ¿øÀ¸·Î °¡Á®´Ù ´Ş¶ó°í Çß´Ù."
+			"±¹°æ°Ë¹®¼Ò¿¡¼­ ¸¸³­ ¼Ò³àÀÇ ÀÇ·Ú. Å³ ÇÏÀÌ¸£ ÇĞ¿ø»ıÀÌ¶ó ¹àÈù ±×³à´Â Ç«½ÅÇÑ ÀÌºÒ°ú º£°³¸¦ ¸¸µé±â À§ÇÑ Àç·á·Î ^0000FF»ê¾çÀÇ ¸ğÇÇ 5°³¿Í ÆäÄÚ ³¯°³ ±êÅĞ 5°³^000000¸¦ ±¸ÇØ Å³ ÇÏÀÌ¸£ ÇĞ¿øÀ¸·Î °¡Á®´Ù ´Ş¶ó°í Çß´Ù."
 		},
 		Summary = "»ê¾çÀÇ¸ğÇÇ 5, ÆäÄÚ ³¯°³ ±êÅĞ 5"
 	},
@@ -45437,7 +45854,7 @@ QuestInfoList = {
 	[21282] = {
 		Title = "È¹±âÀûÀÎ »ç¾÷ ¾ÆÀÌÅÛ",
 		Description = {
-			"Å³ ÇÏÀÌ¸£ ÇĞ¿ø ¾Õ¿¡¼­ ¸¸³­ °í¾çÀÌ¼Õ »óÀÎÀÌ ^0066ff»ê¾çÀÇ ¸ğÇÇ 10°³¿Í ÆäÄÚ ³¯°³ ±êÅĞ 10°³^000000À» ±¸ÇØ ´Ş¶ó°í ÀÇ·ÚÇß´Ù. ÇĞ»ıµéÀ» »ó´ë·Î ÀÌºÒ°ú º£°³ Àå»ç¸¦ ÇÒ ¸ğ¾çÀÌ´Ù."
+			"Å³ ÇÏÀÌ¸£ ÇĞ¿ø ¾Õ¿¡¼­ ¸¸³­ °í¾çÀÌ¼Õ »óÀÎÀÌ ^0000FF»ê¾çÀÇ ¸ğÇÇ 10°³¿Í ÆäÄÚ ³¯°³ ±êÅĞ 10°³^000000À» ±¸ÇØ ´Ş¶ó°í ÀÇ·ÚÇß´Ù. ÇĞ»ıµéÀ» »ó´ë·Î ÀÌºÒ°ú º£°³ Àå»ç¸¦ ÇÒ ¸ğ¾çÀÌ´Ù."
 		},
 		Summary = "»ê¾çÀÇ ¸ğÇÇ 10, ÆäÄÚ ³¯°³ ±êÅĞ 10"
 	},
@@ -45465,7 +45882,7 @@ QuestInfoList = {
 	[21286] = {
 		Title = "½Ã°èÅ¾ 1Ãş Ã»¼Ò",
 		Description = {
-			"¾Ëµ¥¹Ù¶õ ½Ã°èÅ¾ °ü¸®ÀÚ ¼¼¸£µòÀÇ ÀÇ·Ú´Ù. ½Ã°èÅ¾ 1Ãş¿¡ ¸¶¹°ÀÌ µÇ¾î¹ö¸° Ã¥ ^0066ff¶óÀÌµå¿öµå^000000¿Í ¸ÕÁö ^0066ffÆãÅ©^000000¸¦ Ã³Ä¡ÇØ ½Ã°èÅ¾À» Ã»¼ÒÇÏ´Âµ¥ µµ¿Í´Ş¶ó°í ÇÑ´Ù."
+			"¾Ëµ¥¹Ù¶õ ½Ã°èÅ¾ °ü¸®ÀÚ ¼¼¸£µòÀÇ ÀÇ·Ú´Ù. ½Ã°èÅ¾ 1Ãş¿¡ ¸¶¹°ÀÌ µÇ¾î¹ö¸° Ã¥ ^0000FF¶óÀÌµå¿öµå^000000¿Í ¸ÕÁö ^0000FFÆãÅ©^000000¸¦ Ã³Ä¡ÇØ ½Ã°èÅ¾À» Ã»¼ÒÇÏ´Âµ¥ µµ¿Í´Ş¶ó°í ÇÑ´Ù."
 		},
 		Summary = "¶óÀÌµå¿öµå, ÆãÅ© Ã³Ä¡"
 	},
@@ -45913,7 +46330,7 @@ QuestInfoList = {
 	[21350] = {
 		Title = "ºÒ¾ÈÇÑ Á¦ÀÚµé",
 		Description = {
-			"À¯Æä·Î½º ±Ù¹æÀ¸·Î Á¶»ç¸¦ ÇÏ°Ú´Ù°í ³ª°¡¹ö¸° Á¦ÀÚµé¿¡°Ô À§ÇèÀ» °æ°íÇØ ´Ş¶ó´Â ºÎÅ¹À» ¹Ş¾Ò´Ù. ^0066ffÁ¶Àå¸·½É^000000À» Ã£¾Æ ÀÌ¾ß±â¸¦ µé¾îº¸ÀÚ."
+			"À¯Æä·Î½º ±Ù¹æÀ¸·Î Á¶»ç¸¦ ÇÏ°Ú´Ù°í ³ª°¡¹ö¸° Á¦ÀÚµé¿¡°Ô À§ÇèÀ» °æ°íÇØ ´Ş¶ó´Â ºÎÅ¹À» ¹Ş¾Ò´Ù. ^0000FFÁ¶Àå¸·½É^000000À» Ã£¾Æ ÀÌ¾ß±â¸¦ µé¾îº¸ÀÚ."
 		},
 		Summary = "Á¶Àå ¸·½É°ú ´ëÈ­"
 	},
@@ -46004,7 +46421,7 @@ QuestInfoList = {
 	[21363] = {
 		Title = "¹«¸í¼¶ Á¤È­",
 		Description = {
-			"·ÎÅ×¸£Æ®´Â ¼¶ÀÇ Á¤È­¸¦ À§ÇØ ^0066ff´©´õ±â Á»ºñ¿Í Á»ºñ ½½·¯ÅÍ^000000¸¦ Ã³Ä¡ÇØ ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
+			"·ÎÅ×¸£Æ®´Â ¼¶ÀÇ Á¤È­¸¦ À§ÇØ ^0000FF´©´õ±â Á»ºñ¿Í Á»ºñ ½½·¯ÅÍ^000000¸¦ Ã³Ä¡ÇØ ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
 		},
 		Summary = "´©´õ±âÁ»ºñ, Á»ºñ½½·¯ÅÍ Ã³Ä¡"
 	},
@@ -46018,7 +46435,7 @@ QuestInfoList = {
 	[21365] = {
 		Title = "¿ï°í ¿ï°í ¶Ç ¿ï°í",
 		Description = {
-			"·ÎÅ×¸£Æ®´Â ¼¶ÀÇ Á¤È­¸¦ À§ÇØ ^0066ff¹ê½Ã^000000¸¦ Ã³Ä¡ÇØ ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
+			"·ÎÅ×¸£Æ®´Â ¼¶ÀÇ Á¤È­¸¦ À§ÇØ ^0000FF¹ê½Ã^000000¸¦ Ã³Ä¡ÇØ ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
 		},
 		Summary = "¹ê½Ã Ã³Ä¡"
 	},
@@ -46032,7 +46449,7 @@ QuestInfoList = {
 	[21367] = {
 		Title = "Á×Àº ¸¶¸®¿À³×Æ®ÀÇ ÁÖÀÎ",
 		Description = {
-			"·ÎÅ×¸£Æ®´Â ¼¶ÀÇ Á¤È­¸¦ À§ÇØ ^0066ff³×Å©·Î¸Ç¼­^000000¸¦ Ã³Ä¡ÇØ ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
+			"·ÎÅ×¸£Æ®´Â ¼¶ÀÇ Á¤È­¸¦ À§ÇØ ^0000FF³×Å©·Î¸Ç¼­^000000¸¦ Ã³Ä¡ÇØ ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
 		},
 		Summary = "³×Å©·Î¸Ç¼­ Ã³Ä¡"
 	},
@@ -46046,7 +46463,7 @@ QuestInfoList = {
 	[21369] = {
 		Title = "½ÅÀü ¼º¿ª ¼­ÂÊ ±¸¿ª Á¤È­",
 		Description = {
-			"½Å°ü Å×º£´Ï¿À´Â ³²¸ô·¡ ¶Õ¾î³õÀº °³±¸¸ÛÀ¸·Î µé¾î°¡ ¼º¿ªÀ» Á¤È­ÇØ ´Ş¶ó°í Çß´Ù. ¼­ÂÊ¿¡ ÁÖ·Î µîÀåÇÏ´Â ¸¶¹° ^0066ffÆÇº£¸£Å©¿Í ÀÌ½Ç¶ó^000000¸¦ Ã³Ä¡ÇÏÀÚ."
+			"½Å°ü Å×º£´Ï¿À´Â ³²¸ô·¡ ¶Õ¾î³õÀº °³±¸¸ÛÀ¸·Î µé¾î°¡ ¼º¿ªÀ» Á¤È­ÇØ ´Ş¶ó°í Çß´Ù. ¼­ÂÊ¿¡ ÁÖ·Î µîÀåÇÏ´Â ¸¶¹° ^0000FFÆÇº£¸£Å©¿Í ÀÌ½Ç¶ó^000000¸¦ Ã³Ä¡ÇÏÀÚ."
 		},
 		Summary = "ÆÇº£¸£Å©¿Í ÀÌ½Ç¶ó Ã³Ä¡"
 	},
@@ -46060,7 +46477,7 @@ QuestInfoList = {
 	[21371] = {
 		Title = "½ÅÀü ¼º¿ª µ¿ÂÊ ±¸¿ª Á¤È­",
 		Description = {
-			"½Å°ü Å×º£´Ï¿À´Â ³²¸ô·¡ ¶Õ¾î³õÀº °³±¸¸ÛÀ¸·Î µé¾î°¡ ¼º¿ªÀ» Á¤È­ÇØ ´Ş¶ó°í Çß´Ù. µ¿ÂÊ¿¡ ÁÖ·Î µîÀåÇÏ´Â ¸¶¹° ^0066ffÈ£µå·½¸°^000000¸¦ Ã³Ä¡ÇÏÀÚ."
+			"½Å°ü Å×º£´Ï¿À´Â ³²¸ô·¡ ¶Õ¾î³õÀº °³±¸¸ÛÀ¸·Î µé¾î°¡ ¼º¿ªÀ» Á¤È­ÇØ ´Ş¶ó°í Çß´Ù. µ¿ÂÊ¿¡ ÁÖ·Î µîÀåÇÏ´Â ¸¶¹° ^0000FFÈ£µå·½¸°^000000¸¦ Ã³Ä¡ÇÏÀÚ."
 		},
 		Summary = "È£µå·½¸° Ã³Ä¡"
 	},
@@ -46074,7 +46491,7 @@ QuestInfoList = {
 	[21373] = {
 		Title = "½ÅÀü ¼º¿ª ³²ÂÊ ±¸¿ª Á¤È­",
 		Description = {
-			"½Å°ü Å×º£´Ï¿À´Â ³²¸ô·¡ ¶Õ¾î³õÀº °³±¸¸ÛÀ¸·Î µé¾î°¡ ¼º¿ªÀ» Á¤È­ÇØ ´Ş¶ó°í Çß´Ù. ³²ÂÊ¿¡ ÁÖ·Î µîÀåÇÏ´Â ¸¶¹° ^0066ff¾Æ°¡ºê¿Í ¿¡Å°¿À^000000¸¦ Ã³Ä¡ÇÏÀÚ."
+			"½Å°ü Å×º£´Ï¿À´Â ³²¸ô·¡ ¶Õ¾î³õÀº °³±¸¸ÛÀ¸·Î µé¾î°¡ ¼º¿ªÀ» Á¤È­ÇØ ´Ş¶ó°í Çß´Ù. ³²ÂÊ¿¡ ÁÖ·Î µîÀåÇÏ´Â ¸¶¹° ^0000FF¾Æ°¡ºê¿Í ¿¡Å°¿À^000000¸¦ Ã³Ä¡ÇÏÀÚ."
 		},
 		Summary = "¾Æ°¡ºê¿Í ¿¡Å°¿À Ã³Ä¡"
 	},
@@ -46130,7 +46547,7 @@ QuestInfoList = {
 	[21381] = {
 		Title = "ÀâÃÊ ÀüÀï",
 		Description = {
-			"º£ÀÎ½ºÀÇ ³óºÎ²Ş³ª¹« ¹Ì³×´Â ÅäÁö°³°£¿¡ ¹æÇØ°¡ µÇ´Â ^0066ffµå·Î¼¼¶ó¿Í ¸Ó½ºÅ°Ç½¶ó^000000¸¦ »Ì¾Æ´Ş¶ó°í ÀÇ·ÚÇß´Ù. º£ÀÎ½º ÀÎ±Ù ÇÊµå¿¡ ÁÖ·Î ¼­½ÄÇÑ´Ù."
+			"º£ÀÎ½ºÀÇ ³óºÎ²Ş³ª¹« ¹Ì³×´Â ÅäÁö°³°£¿¡ ¹æÇØ°¡ µÇ´Â ^0000FFµå·Î¼¼¶ó¿Í ¸Ó½ºÅ°Ç½¶ó^000000¸¦ »Ì¾Æ´Ş¶ó°í ÀÇ·ÚÇß´Ù. º£ÀÎ½º ÀÎ±Ù ÇÊµå¿¡ ÁÖ·Î ¼­½ÄÇÑ´Ù."
 		},
 		Summary = "µå·Î¼¼¶ó¿Í ¸Ó½ºÅ°Ç½¶ó Á¦°Å"
 	},
@@ -46144,7 +46561,7 @@ QuestInfoList = {
 	[21383] = {
 		Title = "È­»êÀÇ µ¹¿¬º¯ÀÌ",
 		Description = {
-			"º£ÀÎ½ºÀÇ ÀÚ°æ´Ü¿øÀº ±ÙÃ³ È­»ê¿¡¼­ »ı¼ºµÈ ^0066ff¸¶±×¸¶¸µ^000000ÅğÄ¡¸¦ ÀÇ·ÚÇß´Ù. ±×³à¼®µéÀÌ Áö³ª°¡¸é ÃÊ¸ñÀÌ ¹Ù½Ï Å¸¹ö¸°´Ù°í ÇÑ´Ù."
+			"º£ÀÎ½ºÀÇ ÀÚ°æ´Ü¿øÀº ±ÙÃ³ È­»ê¿¡¼­ »ı¼ºµÈ ^0000FF¸¶±×¸¶¸µ^000000ÅğÄ¡¸¦ ÀÇ·ÚÇß´Ù. ±×³à¼®µéÀÌ Áö³ª°¡¸é ÃÊ¸ñÀÌ ¹Ù½Ï Å¸¹ö¸°´Ù°í ÇÑ´Ù."
 		},
 		Summary = "¸¶±×¸¶¸µ ÅğÄ¡"
 	},
@@ -46158,7 +46575,7 @@ QuestInfoList = {
 	[21385] = {
 		Title = "ÃÊ¿ø ³­Åõ - µ¥ÀúÆ® ¿ïÇÁ Æí",
 		Description = {
-			"¾óÀ½µ¿±¼ ¾Õ »ç³É²Û »ç¸²Àº ^0066ffµ¥ÀúÆ® ¿ïÇÁ^000000 »ç³ÉÀ» ÇÔ²² ÇÏÀÚ¸ç 30¸¶¸®¸¦ Àâ¾Æ´Ş¶ó´Â ÀÇ·Ú¸¦ Çß´Ù."
+			"¾óÀ½µ¿±¼ ¾Õ »ç³É²Û »ç¸²Àº ^0000FFµ¥ÀúÆ® ¿ïÇÁ^000000 »ç³ÉÀ» ÇÔ²² ÇÏÀÚ¸ç 30¸¶¸®¸¦ Àâ¾Æ´Ş¶ó´Â ÀÇ·Ú¸¦ Çß´Ù."
 		},
 		Summary = "µ¥ÀúÆ®¿ïÇÁ »ç³É"
 	},
@@ -46172,7 +46589,7 @@ QuestInfoList = {
 	[21387] = {
 		Title = "Â÷°¡¿î ½ÉÀå, ½Ã¿øÇÑ ¿ä¸®",
 		Description = {
-			"¶óÇïÀÇ ÁÖÁ¡Á÷¿ø Å¸¸²Àº ¾óÀ½µ¿±¼¿¡¼­ ±¸ÇÒ ¼ö ÀÖ´Â ^0066ff¾óÀ½½ÉÀå 20°³^000000¸¦ ±¸ÇØ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
+			"¶óÇïÀÇ ÁÖÁ¡Á÷¿ø Å¸¸²Àº ¾óÀ½µ¿±¼¿¡¼­ ±¸ÇÒ ¼ö ÀÖ´Â ^0000FF¾óÀ½½ÉÀå 20°³^000000¸¦ ±¸ÇØ´Ş¶ó°í ÀÇ·ÚÇß´Ù."
 		},
 		Summary = "¾óÀ½½ÉÀå 20°³"
 	},
@@ -46186,7 +46603,7 @@ QuestInfoList = {
 	[21389] = {
 		Title = "¸»ÀÌ ÅëÇÏÁö ¾Ê´Â ¼³ÀÎ",
 		Description = {
-			"¾óÀ½µ¿±¼ ³»¿¡¼­ ¸¸³­ ¸¶¹ı»çÀÇ Ä£±¸´Â ^0066ff½º³ëÀÌ¾î^000000°¡ ¹æÇØ°¡ µÇ´Ï ÅğÄ¡ÇØ ´Ş¶ó´Â ÀÇ·Ú¸¦ Çß´Ù."
+			"¾óÀ½µ¿±¼ ³»¿¡¼­ ¸¸³­ ¸¶¹ı»çÀÇ Ä£±¸´Â ^0000FF½º³ëÀÌ¾î^000000°¡ ¹æÇØ°¡ µÇ´Ï ÅğÄ¡ÇØ ´Ş¶ó´Â ÀÇ·Ú¸¦ Çß´Ù."
 		},
 		Summary = "½º³ëÀÌ¾î ÅğÄ¡"
 	},
@@ -46200,7 +46617,7 @@ QuestInfoList = {
 	[21391] = {
 		Title = "¾óÀ½ °áÁ¤Àº ¾ó¸¶³ª ´Ü´ÜÇÑ°¡?",
 		Description = {
-			"¾óÀ½µ¿±¼ ³»¿¡¼­ ¸¸³­ ¸¶¹ı»çÀÇ Ä£±¸´Â ¿¬±¸¸¦ À§ÇØ ^0066ff¾ÆÀÌ½ºÆ¼Åº°ú °Ô¿¡ÁîÆ¼^000000¸¦ µÎµé°Ü ´Ş¶ó°í ÀÇ·Ú Çß´Ù."
+			"¾óÀ½µ¿±¼ ³»¿¡¼­ ¸¸³­ ¸¶¹ı»çÀÇ Ä£±¸´Â ¿¬±¸¸¦ À§ÇØ ^0000FF¾ÆÀÌ½ºÆ¼Åº°ú °Ô¿¡ÁîÆ¼^000000¸¦ µÎµé°Ü ´Ş¶ó°í ÀÇ·Ú Çß´Ù."
 		},
 		Summary = "¾ÆÀÌ½ºÆ¼Åº°ú °Ô¿¡ÁîÆ¼ Ã³Ä¡"
 	},
@@ -46214,7 +46631,7 @@ QuestInfoList = {
 	[21393] = {
 		Title = "¸ù¸¶ ¿¬±¸",
 		Description = {
-			"°ÔÆæÀÇ ¿¬±İ¼ú»ç ¹Ö¹ÎÀº ÀÚ½ÅÀÇ ¸ù¸¶¿¬±¸¸¦ µµ¿ÍÁÖ¸é °ÔÆä´Ï¾Æ·Î ÀÔÀå½ÃÄÑÁØ´Ù°í ÇÑ´Ù. °ÔÆä´Ï¾Æ¿¡¼­ ^0066ffÀÎÅ¥¹ö½º¿Í ¼­Å¥¹ö½º^000000¸¦ »ó´ëÇØ º¸ÀÚ."
+			"°ÔÆæÀÇ ¿¬±İ¼ú»ç ¹Ö¹ÎÀº ÀÚ½ÅÀÇ ¸ù¸¶¿¬±¸¸¦ µµ¿ÍÁÖ¸é °ÔÆä´Ï¾Æ·Î ÀÔÀå½ÃÄÑÁØ´Ù°í ÇÑ´Ù. °ÔÆä´Ï¾Æ¿¡¼­ ^0000FFÀÎÅ¥¹ö½º¿Í ¼­Å¥¹ö½º^000000¸¦ »ó´ëÇØ º¸ÀÚ."
 		},
 		Summary = "ÀÎÅ¥¹ö½º, ¼­Å¥¹ö½º¿Í ÀüÅõ"
 	},
