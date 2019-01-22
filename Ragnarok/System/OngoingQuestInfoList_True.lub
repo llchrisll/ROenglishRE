@@ -87,56 +87,72 @@ QuestInfoList = {
 	[1001] = {
 		Title = "Job Change to Acolyte",
 		Description = {
-			"Spoke with Father Mareusis to become an Acolyte. He ordered you to visit ^000077Father Rubalkabara^000000, who has been Practicing Asceticism near the Relics, Northeast of Prontera City."
+			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFFather Rubalkabara^000000, who has been Practicing Asceticism near the Relics, Northeast of Prontera City."
 		},
-		Summary = "Talk with Father Rubalkabara"
+		Summary = "Talk with Father Rubalkabara",
+		NpcSpr = "4_M_ORIENT02",
+		NpcNavi = "prt_fild03",
+		NpcPosX = 365,
+		NpcPosY = 255
 	},
 	[1002] = {
 		Title = "Job Change to Acolyte",
 		Description = {
-			"Spoke with Father Mareusis to become an Acolyte. He ordered you to visit ^000077Mother Mathilda^000000, who has been Practicing Asceticism near Morocc Town, located Southwest of Prontera City."
+			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFMother Mathilda^000000, who has been Practicing Asceticism near Morocc Town, located Southwest of Prontera City."
 		},
-		Summary = "Talk with Mother Mathilda"
+		Summary = "Talk with Mother Mathilda",
+		NpcSpr = "4_F_SISTER",
+		NpcNavi = "moc_fild07",
+		NpcPosX = 41,
+		NpcPosY = 218
 	},
 	[1003] = {
 		Title = "Job Change to Acolyte",
 		Description = {
-			"Spoke with Father Mareusis to become an Acolyte. He ordered you to visit ^000077Father Yosuke^000000, who has been Practicing Asceticism near a bridge, located Northwest of Prontera."
+			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFFather Yosuke^000000, who has been Practicing Asceticism near a bridge, located Northwest of Prontera."
 		},
-		Summary = "Talk with Father Yosuke"
+		Summary = "Talk with Father Yosuke",
+		NpcSpr = "4W_M_02",
+		NpcNavi = "prt_fild00",
+		NpcPosX = 208,
+		NpcPosY = 355
 	},
 	[1004] = {
 		Title = "Job Change to Archer",
 		Description = {
-			"In order to become an Archer, you must receive a grade of at least ^0000FF25^000000 points out of 40. You can get Trunk from \"Willow\" monster. Be careful, though. They can be tough monsters."
+			"In order to become an Archer, you must receive a grade of at least ^0000FF25^000000 points out of 40. You can get Trunk from <NAVI>Willow<INFO>WILOW,0,0,3,-222,0</INFO></NAVI> monster. Be careful, though. They can be tough monsters."
 		},
-		Summary = "Collect 40 Trunks"
+		Summary = "Collect Trunks"
 	},
 	[1005] = {
 		Title = "Job Change to Mage",
 		Description = {
-			"The Mage Guildsman has ordered you to make a Mixed Solution No.1 in order to become a Mage. You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
+			"The Mage Guildsman has ordered you to make a Mixed Solution No.1 in order to become a Mage.",
+			"You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
 		},
 		Summary = "Mixed Solution No.1"
 	},
 	[1006] = {
 		Title = "Job Change to Mage",
 		Description = {
-			"The Mage Guildsman has ordered you to make a Mixed Solution No.2 in order to become a Mage. You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
+			"The Mage Guildsman has ordered you to make a Mixed Solution No.2 in order to become a Mage.",
+			"You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
 		},
 		Summary = "Mixed Solution No.2"
 	},
 	[1007] = {
 		Title = "Job Change to Mage",
 		Description = {
-			"The Mage Guildsman has ordered you to make a Mixed Solution No.3 in order to become a Mage. You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
+			"The Mage Guildsman has ordered you to make a Mixed Solution No.3 in order to become a Mage.",
+			"You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
 		},
 		Summary = "Mixed Solution No.3"
 	},
 	[1008] = {
 		Title = "Job Change to Mage",
 		Description = {
-			"The Mage Guildsman has ordered you to make a Mixed Solution No.4 in order to become a Mage. You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
+			"The Mage Guildsman has ordered you to make a Mixed Solution No.4 in order to become a Mage.",
+			"You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
 		},
 		Summary = "Mixed Solution No.4"
 	},
@@ -3253,7 +3269,7 @@ QuestInfoList = {
 	[2017] = {
 		Title = "Job Change to Rogue",
 		Description = {
-			"You passed the first test to become a Rogue. \"Mr. Smith\" will administer the next test."
+			"You passed the first test to become a Rogue. ^0000FFMr. Smith^000000 will administer the next test."
 		},
 		Summary = "Talk with Mr. Smith"
 	},
@@ -3281,28 +3297,31 @@ QuestInfoList = {
 	[2021] = {
 		Title = "Job Change to Rogue",
 		Description = {
-			"Bring 10 Raccoon Leaf and 5 of each Chrysalis, Empty Bottle, Iron Ore, Stone Heart, Red Herb, Animal Skin, Yellow Gemstone, Teeth of Bat, Scorpion Tails, Yoyo Tail, Monster's Feed, Fluff, Clover, Feathers of Bird, Talon and Spawn to Mr. Smith."
+			"Bring 10 Raccoon Leaf and 5 of each Chrysalis, Empty Bottle, Iron Ore, Stone Heart, Red Herb, Animal Skin, Yellow Gemstone, Teeth of Bat, Scorpion Tails, Yoyo Tail, Monster's Feed, Fluff, Clover, Feathers of Bird, Talon and Spawn to ^0000FFMr. Smith^000000."
 		},
 		Summary = "Bring the required materials"
 	},
 	[2022] = {
 		Title = "Job Change to Rogue",
 		Description = {
-			"Visit Aragham Jr who lives South of the Sandarman Fortress. That area is located one field east from here. The password is: ^0000FF'Aragham never hoarded upgrade items.'^000000"
+			"Visit Aragham Jr who lives South of the Sandarman Fortress. That area is located one field east from here.",
+			"The password is: \"^0000FFAragham never hoarded upgrade items.^000000\""
 		},
 		Summary = "Talk with Aragham Jr"
 	},
 	[2023] = {
 		Title = "Job Change to Rogue",
 		Description = {
-			"Visit Antonio Jr. who is living near the Kokomo beach in Comodo. The password is: ^0000FF'Antonio doesn't enjoy destroying upgrade items.'^000000"
+			"Visit Antonio Jr. who is living near the Kokomo beach in Comodo.",
+			"The password is: \"^0000FFAntonio doesn't enjoy destroying upgrade items.^000000\""
 		},
 		Summary = "Talk with Antonio Jr"
 	},
 	[2024] = {
 		Title = "Job Change to Rogue",
 		Description = {
-			"Visit Hollgrehenn Jr. who is in the field South of Sandarman Fortress, which is on the way to Morocc from here. He will give you the proper Rogue test. The password is: ^0000FF'My father never hoarded upgrade items.'^000000"
+			"Visit Hollgrehenn Jr. who is in the field South of Sandarman Fortress, which is on the way to Morocc from here. He will give you the proper Rogue test.",
+			"The password is: \"^0000FFMy father never hoarded upgrade items.^000000\""
 		},
 		Summary = "Talk with Hollgrehenn Jr"
 	},
@@ -3806,35 +3825,35 @@ QuestInfoList = {
 	[2109] = {
 		Title = "A Mage in the Ice Cave",
 		Description = {
-			"\"Thank you so much! Please, take care of this necklace and ask Maheo to restore its luster. Then, it'll be a fitting tribute to our loving goddess Freya.\""
+			"\"^0033FFThank you so much! Please, take care of this necklace and ask Maheo to restore its luster. Then, it'll be a fitting tribute to our loving goddess Freya.^000000\""
 		},
 		Summary = "Find the arcane mage Maheo"
 	},
 	[2110] = {
 		Title = "A Mage in the Ice Cave",
 		Description = {
-			"\"I'm sure that my master will know of a way to free me from this prison of ice. He can be found near Freya's Spring: beseech him on my behalf!\""
+			"\"^0033FFI'm sure that my master will know of a way to free me from this prison of ice. He can be found near Freya's Spring: beseech him on my behalf!^000000\""
 		},
 		Summary = "Find Maheo's master"
 	},
 	[2111] = {
 		Title = "A Mage in the Ice Cave",
 		Description = {
-			"\"I need to construct an artifact in order to break that magical ice. Mmm... Would you help me? I need to get 5 Rough Wind, 1 Hammer, and 1 Blank Scroll.\" -Hamion"
+			"\"^0033FFI need to construct an artifact in order to break that magical ice. Mmm... Would you help me? I need to get 5 Rough Wind, 1 Hammer, and 1 Blank Scroll.^000000\" - Hamion"
 		},
 		Summary = "Bring the required materials"
 	},
 	[2112] = {
 		Title = "A Mage in the Ice Cave",
 		Description = {
-			"\"Here, take this Wind Hammer and use it to free Maheo. This hammer will only work once, so make sure that you smash that ice properly!\""
+			"\"^0033FFHere, take this Wind Hammer and use it to free Maheo. This hammer will only work once, so make sure that you smash that ice properly!^000000\""
 		},
 		Summary = "Free Maheo with the Wind Hammer"
 	},
 	[2113] = {
 		Title = "A Mage in the Ice Cave",
 		Description = {
-			"\"Well, I suppose this is where we part ways. Here, take this as a gift... And please don't mention the fact that I trapped myself in ice to anyone else, okay?\""
+			"\"^0033FFWell, I suppose this is where we part ways. Here, take this as a gift... And please don't mention the fact that I trapped myself in ice to anyone else, okay?^000000\""
 		},
 		Summary = "Bring the Sparkling Necklace to Urstialla"
 	},
@@ -4205,7 +4224,7 @@ QuestInfoList = {
 	[2187] = {
 		Title = "Job Change to Archbishop",
 		Description = {
-			"Find Priest Dayan in Umbala and tell him exactly, \"^3131FFI'm here for the Holy Pilgrimage^000000\"."
+			"Find Priest Dayan in Umbala and tell him exactly, \"^0033FFI'm here for the Holy Pilgrimage^000000\"."
 		},
 		Summary = "Talk with Priest Dayan"
 	},
@@ -6132,23 +6151,23 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[3135] = {
-		Title = "Nidhoggur's Nest",
+		Title = "Nidhoggr's Nest",
 		Description = {
-			"The ground trembles from Nidhoggur's awakening. Wait until the timer expires before you can regain access to the Dungeon."
+			"The ground trembles from Nidhoggr's awakening. Wait until the timer expires before you can regain access to the Dungeon."
 		},
 		Summary = ""
 	},
 	[3136] = {
-		Title = "Nidhoggur's Nest Time Limit",
+		Title = "Nidhoggr's Nest Time Limit",
 		Description = {
-			"You have 4 hours to defeat Nidhoggur's Shadow. If the Memorial Dungeon is destroyed you cannot re-enter."
+			"You have 4 hours to defeat Nidhoggr's Shadow. If the Memorial Dungeon is destroyed you cannot re-enter."
 		},
 		Summary = ""
 	},
 	[3137] = {
-		Title = "Nidhoggur's Shadow",
+		Title = "Nidhoggr's Shadow",
 		Description = {
-			"Hunt Nidhoggur's Shadow"
+			"Hunt Nidhoggr's Shadow"
 		},
 		Summary = ""
 	},
@@ -8570,7 +8589,7 @@ QuestInfoList = {
 	[5084] = {
 		Title = "Please come back Eryu-(2)",
 		Description = {
-			"I met Eryu and said \"come back\"."
+			"I met Eryu and said \"^0000FFCome back^000000\"."
 		},
 		Summary = "When you finish your job, Please report to Cat gamers Director"
 	},
@@ -8598,7 +8617,7 @@ QuestInfoList = {
 	[5088] = {
 		Title = "Please come back Ketchup-(2)",
 		Description = {
-			"I met Ketchup and said \"come back\"."
+			"I met Ketchup and said \"^0000FFCome back^000000\"."
 		},
 		Summary = "When you finish your job, Please report to Cat gamers Director"
 	},
@@ -8612,7 +8631,7 @@ QuestInfoList = {
 	[5090] = {
 		Title = "Please come back Eff-(2)",
 		Description = {
-			"I met Eff and said \"Come back\"."
+			"I met Eff and said \"^0000FFCome back^000000\"."
 		},
 		Summary = "When you finish your job, Please report to Cat gamers Director"
 	},
@@ -16618,9 +16637,9 @@ QuestInfoList = {
 	[7422] = {
 		Title = "Kardui's gift",
 		Description = {
-			"Kardui stated that he prepared a gift that can be picked up from Chief of Staff Shenime. What could it be.."
+			"Kardui stated that he prepared a gift that can be picked up from Chief of Staff Shnayim. What could it be.."
 		},
-		Summary = "Receiving the gift through Shenime"
+		Summary = "Receiving the gift through Shnayim"
 	},
 	[7423] = {
 		Title = "A rumor about the King 1",
@@ -16721,37 +16740,37 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[7437] = {
-		Title = "Shenime's favor",
+		Title = "Shnayim's favor",
 		Description = {
-			"Could not obtain Avant's info but instead got a strange request from Shenime. Asked to gather experimental ingredients for the scholar of magics he sponsors. They are 10 Dust Balls, 10 Leaf Bookmarks."
+			"Could not obtain Avant's info but instead got a strange request from Shnayim. Asked to gather experimental ingredients for the scholar of magics he sponsors. They are 10 Dust Balls, 10 Leaf Bookmarks."
 		},
 		Summary = "10 Dust Balls, 10 Leaf Bookmarks"
 	},
 	[7438] = {
 		Title = "Secret sponsorship",
 		Description = {
-			"Shenime did not share even a bit about the scholar of magics he sponsors, and asks to forget about even finding out about it. Is there anyone that knows?"
+			"Shnayim did not share even a bit about the scholar of magics he sponsors, and asks to forget about even finding out about it. Is there anyone that knows?"
 		},
 		Summary = "Search for information"
 	},
 	[7439] = {
-		Title = "The scholar of magics sponsored by Shenime",
+		Title = "The scholar of magics sponsored by Shnayim",
 		Description = {
-			"Hisie stated that if you track down Shenime, the location of the scholar might be identified as well. Find out Shenime's duties."
+			"Hisie stated that if you track down Shnayim, the location of the scholar might be identified as well. Find out Shnayim's duties."
 		},
 		Summary = "Search for information"
 	},
 	[7440] = {
 		Title = "Minuel's witness",
 		Description = {
-			"Eclage guard Minuel stated that Shenime often travels east, in the opposite direction from his Yai. Discuss with Hisie."
+			"Eclage guard Minuel stated that Shnayim often travels east, in the opposite direction from his Yai. Discuss with Hisie."
 		},
 		Summary = "Talk with Hisie"
 	},
 	[7441] = {
 		Title = "Mail is here!",
 		Description = {
-			"Planned to visit the scholar of magic's Yai as if Shenime is sending a mail. Hisie will confirm whether that person is Avant. Hisie will provide the information at the crossroads in front of Eclage."
+			"Planned to visit the scholar of magic's Yai as if Shnayim is sending a mail. Hisie will confirm whether that person is Avant. Hisie will provide the information at the crossroads in front of Eclage."
 		},
 		Summary = "10 Dustballs, 10 Leaf Bookmarks"
 	},
@@ -16786,7 +16805,7 @@ QuestInfoList = {
 	[7446] = {
 		Title = "Unfruitful conversation",
 		Description = {
-			"Talked with Shenime the chief of staff, but nothing was gained. He states that he might also have been tricked by Avant. The chief of staff was actually upset that Kardui only increased the defenses surrounding the Orb."
+			"Talked with Shnayim the chief of staff, but nothing was gained. He states that he might also have been tricked by Avant. The chief of staff was actually upset that Kardui only increased the defenses surrounding the Orb."
 		},
 		Summary = "Report to Kardui"
 	},
@@ -16821,14 +16840,14 @@ QuestInfoList = {
 	[7451] = {
 		Title = "Betrayal",
 		Description = {
-			"Everything is so confusing. The monster battled in the lighting room was not a subordinate of the King of Demons. They controlled me without my knowledge. Shenime the chief of staff betrayed all!"
+			"Everything is so confusing. The monster battled in the lighting room was not a subordinate of the King of Demons. They controlled me without my knowledge. Shnayim the chief of staff betrayed all!"
 		},
 		Summary = "Report to Kardui"
 	},
 	[7452] = {
 		Title = "Find the chief of staff!",
 		Description = {
-			"Shenime the chief of staff, who was responsible for all these occurrences, has hidden his whereabouts. According to Hisie's sources, residual magic force was faintly felt in Bifrost."
+			"Shnayim the chief of staff, who was responsible for all these occurrences, has hidden his whereabouts. According to Hisie's sources, residual magic force was faintly felt in Bifrost."
 		},
 		Summary = "Survey Northern Bifrost"
 	},
@@ -17843,9 +17862,9 @@ QuestInfoList = {
 	[7596] = {
 		Title = "Qualifications of the Guests",
 		Description = {
-			"To enter the Temple of the Demon God, you need a key. Defeat Gatekeeper Ahat and Shnaim, and use their souls to open the temple entrance."
+			"To enter the Temple of the Demon God, you need a key. Defeat Gatekeeper Ahat and Shnayim, and use their souls to open the temple entrance."
 		},
-		Summary = "1 Ahat's Soul, 1 Shnaim's Soul"
+		Summary = "1 Ahat's Soul, 1 Shnayim's Soul"
 	},
 	[7597] = {
 		Title = "Fall of the False God",
@@ -18429,14 +18448,14 @@ QuestInfoList = {
 	[7700] = {
 		Title = "Once More!",
 		Description = {
-			"Move once more through the gap in the dimension which Nillem has twisted by force. What happened in the Room of Consciousness in the past?"
+			"Move once more through the gap in the dimension which Nillem has twisted by force. What happened in the Ritual Room in the past?"
 		},
-		Summary = "To the Room of Consciousness"
+		Summary = "To the Ritual Room"
 	},
 	[7701] = {
 		Title = "Lost Imir Heart",
 		Description = {
-			"Check what had happened to the actual Imir Heart in the Room of Consciousness."
+			"Check what had happened to the actual Imir Heart in the Ritual Room."
 		},
 		Summary = ""
 	},
@@ -18464,14 +18483,14 @@ QuestInfoList = {
 	[7705] = {
 		Title = "Hope You Cannot Let Go",
 		Description = {
-			"You are not sure whether it would work or not, but you are asked to challenge again in the Room of Consciousness. Defeat Bijou and defend the piece of Imir Heart."
+			"You are not sure whether it would work or not, but you are asked to challenge again in the Ritual Room. Defeat Bijou and defend the piece of Imir Heart."
 		},
-		Summary = "Room of Consciousness in the Past"
+		Summary = "Ritual Room in the Past"
 	},
 	[7706] = {
 		Title = "Nillem Is Not Almighty",
 		Description = {
-			"Multiple connection is a difficult thing even for Nillem. I think there is a certain limit to connect to the Room of Consciousness. Let's wait for Nillem's recovery."
+			"Multiple connection is a difficult thing even for Nillem. I think there is a certain limit to connect to the Ritual Room. Let's wait for Nillem's recovery."
 		},
 		Summary = "Reset at 4 o'clock"
 	},
@@ -20409,14 +20428,14 @@ QuestInfoList = {
 	[8123] = {
 		Title = "Ayotaya's world famous dish, Tom Yum Goong",
 		Description = {
-			"Anyone can make Tom Yum Goong, but I recommend that you go visit ^3131FFMali the Spicy^000000. She's the best cook. Why don't you ask her to cook for you?"
+			"Anyone can make Tom Yum Goong, but I recommend that you go visit ^0000FFMali the Spicy^000000. She's the best cook. Why don't you ask her to cook for you?"
 		},
 		Summary = ""
 	},
 	[8124] = {
 		Title = "Ayotaya's world famous dish, Tom Yum Goong",
 		Description = {
-			"You can buy the freshest Shrimp from the guy named, \"^3131FFThongpool^000000\". Get 20 Shrimps to cook Tom Yum Goong."
+			"You can buy the freshest Shrimp from the guy named, \"^0000FFThongpool^000000\". Get 20 Shrimps to cook Tom Yum Goong."
 		},
 		Summary = "Bring 20 shrimps to Mali the Spicy"
 	},
@@ -22800,23 +22819,23 @@ QuestInfoList = {
 	[9024] = {
 		Title = "An errand boy from Einbroch",
 		Description = {
-			"Help errand man who comes to prontera from Einbroch for finding jellopy."
+			"Help errand man who comes to prontera from Einbroch for finding 100 <ITEM>Jellopy<INFO>909</INFO></ITEM>."
 		},
 		Summary = "Collect 100 jellopy and go back to errand man"
 	},
 	[9028] = {
 		Title = "Strange Hydra",
 		Description = {
-			"Strange Hydra have appeared in ^8B4513Brasilis^000000. Use the ^006400Hydra Ball^000000 from Lucia to capture a ^FF0000Strange Hydra^000000."
+			"Strange Hydra have appeared in ^993399Brasilis^000000. Use the <ITEM>Hydra Ball<INFO>12408</INFO></ITEM> from ^0000FFLucia^000000 to capture a ^0000FFStrange Hydra^000000."
 		},
 		Summary = "Capture a Strange Hydra"
 	},
 	[9029] = {
 		Title = "Strange Hydra : present conditions",
 		Description = {
-			"In ^8B4513Brasilis^000000, there is a message from ^0000FFLucia^000000: ^404040Thanks for your help. Unfortunately, I can supply a new ^006400Hydra Ball^404040 to you tomorrow.^000000"
+			"In ^993399Brasilis^000000, there is a message from ^0000FFLucia^000000: \"Thanks for your help. Unfortunately, I can supply a new <ITEM>Hydra Ball<INFO>12408</INFO></ITEM> to you tomorrow.\""
 		},
-		Summary = "If you want another Hydra Ball return to Lucia after the timer expires"
+		Summary = "Get Hydra Ball from Lucia tomorrow"
 	},
 	[9030] = {
 		Title = "Lost Puppies",
@@ -26230,7 +26249,7 @@ QuestInfoList = {
 	[11059] = {
 		Title = "겁쟁이 소년 미하일",
 		Description = {
-			"킥킥. 그 녀석은 바보라 친구가 없어. 하지만 마을 사람이라면, ^3131FF사과나무 여관의 주인 아주머니^000000가 미하일에게 귀엽다며 예뻐한 적은 있어."
+			"킥킥. 그 녀석은 바보라 친구가 없어. 하지만 마을 사람이라면, ^0000FF사과나무 여관의 주인 아주머니^000000가 미하일에게 귀엽다며 예뻐한 적은 있어."
 		},
 		Summary = "유일한 정보인 사과나무 여관으로 가보자"
 	},
@@ -26286,7 +26305,7 @@ QuestInfoList = {
 	[11067] = {
 		Title = "겁쟁이 소년 미하일",
 		Description = {
-			"모스코비아 근처에는 커다란 섬이 있지. 그곳에서 숲 안으로 깊숙히 들어서면 늪이 하나 보이는데, 그 늪에서 자라는 ^3131FF'찰싹찰싹풀을 10개'^000000 캐와. 그리고 ^3131FF약사발도 1개^000000 가져오는 거 잊지말고."
+			"모스코비아 근처에는 커다란 섬이 있지. 그곳에서 숲 안으로 깊숙히 들어서면 늪이 하나 보이는데, 그 늪에서 자라는 ^0000FF'찰싹찰싹풀을 10개'^000000 캐와. 그리고 ^0000FF약사발도 1개^000000 가져오는 거 잊지말고."
 		},
 		Summary = "찰싹찰싹풀 10개를 캐서 빅토르에게 돌아오자. 약사발을 챙기는 것도 잊지 않도록!"
 	},
@@ -26566,7 +26585,7 @@ QuestInfoList = {
 	[11107] = {
 		Title = "Job Change to Warlock",
 		Description = {
-			"Find a ^000077Glittering Crystal^000000 and ^000077Giant Bradium Fragment^000000. You must equip the Magical Stones while hunting Naga and Bradium Golems to get them."
+			"Find a ^0000FFGlittering Crystal^000000 and ^0000FFGiant Bradium Fragment^000000. You must equip the Magical Stones while hunting Naga and Bradium Golems to get them."
 		},
 		Summary = "Bring them to Yoop's lab which is at the Northwest part of Splendide"
 	},
@@ -26822,7 +26841,7 @@ QuestInfoList = {
 	[11135] = {
 		Title = "Looking for Maestro Song",
 		Description = {
-			"Can you go to ^000077Prontera^000000 and collect \"^000077Information about Maestro Song^000000\". I have something to investigate in Alberta."
+			"Can you go to ^0000FFProntera^000000 and collect \"^0000FFInformation about Maestro Song^000000\". I have something to investigate in Alberta."
 		},
 		Summary = ""
 	},
@@ -26878,7 +26897,7 @@ QuestInfoList = {
 	[11143] = {
 		Title = "Looking for Maestro Song",
 		Description = {
-			"I don't know why ^000077Maestro Song'^000000 went to ^000077Thanatos Tower^000000."
+			"I don't know why ^0000FFMaestro Song'^000000 went to ^0000FFThanatos Tower^000000."
 		},
 		Summary = "Go to Thanatos Tower"
 	},
@@ -30990,7 +31009,7 @@ QuestInfoList = {
 		Description = {
 			"Are you aware of the child looking flower, Pinguicula? People say there has been a mutation of that flower.",
 			"They are very violent and aggressive. Please go to check up and treat it before they are spread all over the area.",
-			"Hunt 10 Dark Pinguicula in Nidhoggur Dungeon, report to Hunting Dept. 2 Manager within 23 hours."
+			"Hunt 10 Dark Pinguicula in Nidhoggr Dungeon, report to Hunting Dept. 2 Manager within 23 hours."
 		},
 		Summary = "Hunt 10 Dark Pinguiculas"
 	},
@@ -31015,8 +31034,8 @@ QuestInfoList = {
 	[12110] = {
 		Title = "Demon of Water",
 		Description = {
-			"Miners heading to Nidhoggur's nest reported being attacked by a strange water creature.",
-			"It's said that it was human-looking water creature. Perhaps the Nidhoggur Dungeon is the origin so please visit there to check up.",
+			"Miners heading to Nidhoggr's nest reported being attacked by a strange water creature.",
+			"It's said that it was human-looking water creature. Perhaps the Nidhoggr Dungeon is the origin so please visit there to check up.",
 			"Hunt 7 Aqua Elementals, report to Hunting Dept. 2 Manager within 23 hours."
 		},
 		Summary = "Hunt 7 Aqua Elementals"
@@ -43395,7 +43414,7 @@ QuestInfoList = {
 	[18041] = {
 		Title = "Geoborg Family Curse",
 		Description = {
-			"There is an Assassin's Private Pub in the 7 o'clock direction in Morocc. Go find someone named ^3131ffMarjana^000000 inside."
+			"There is an Assassin's Private Pub in the 7 o'clock direction in Morocc. Go find someone named ^0000FFMarjana^000000 inside."
 		},
 		Summary = "Marjana"
 	},
