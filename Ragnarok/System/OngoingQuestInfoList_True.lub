@@ -8792,56 +8792,56 @@ QuestInfoList = {
 	[5113] = {
 		Title = "(Shelter) Lord Knight",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Lord Knight Seyren!!"
 	},
 	[5114] = {
 		Title = "(Shelter) Paladin",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Paladin Randel!!"
 	},
 	[5115] = {
 		Title = "(Shelter) High Priest",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the High Priest Margaretha!!"
 	},
 	[5116] = {
 		Title = "(Shelter) Champion",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Champion Chen!!"
 	},
 	[5117] = {
 		Title = "(Shelter) High Wizard",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the High Wizard Kathryne!!"
 	},
 	[5118] = {
 		Title = "(Shelter) Professor",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Professor Celia!!"
 	},
 	[5119] = {
 		Title = "(Shelter) Whitesmith",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Whitesmith Howard!!"
 	},
 	[5120] = {
 		Title = "(Shelter) Creator",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Creator Flamel!!"
 	},
@@ -8855,28 +8855,28 @@ QuestInfoList = {
 	[5122] = {
 		Title = "(Shelter) Stalker",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Stalker Gertie!!"
 	},
 	[5123] = {
 		Title = "(Shelter) Sniper",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
-		Summary = "Stop the Sniper Cecile!!"
+		Summary = "Stop the Sniper Cecil!!"
 	},
 	[5124] = {
 		Title = "(Shelter) Crown",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Crown Alphochio!!"
 	},
 	[5125] = {
 		Title = "(Shelter) Gypsy",
 		Description = {
-			"In order to stop the angry Human Guinea pig, you need to defeat the boss monster."
+			"In order to stop the furious Human Guinea pig, you need to defeat the boss monster."
 		},
 		Summary = "Stop the Gypsy Trentini!!"
 	},
@@ -9119,157 +9119,324 @@ QuestInfoList = {
 	},
 	[5161] = {
 		Title = "Low Level collection request(standby)",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"the low level collection request from energy crystal research can be only available once in a day."
 		},
-		Summary = "Waiting time - 23hours"
+		Summary = "Waiting time - 23hours",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169
 	},
 	[5162] = {
 		Title = "Low Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 Requiems, You can get 10 of Rough Energy Crystals."
+			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Requiem<INFO>REQUIEM,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Requiems"
+		Summary = "Hunt 100 Requiems",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6623, ItemNum = 10 }
+		}
 	},
 	[5163] = {
 		Title = "Low Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 Bathorys, You can get 10 of Rough Energy Crystals."
+			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Bathory<INFO>BATHORY,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Bathorys"
+		Summary = "Hunt 100 Bathorys",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6623, ItemNum = 10 }
+		}
 	},
 	[5164] = {
 		Title = "Low Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 Spring Rabbits, You can get 10 of Rough Energy Crystals."
+			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Spring Rabbit<INFO>G_SPRING_RABBIT,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Spring Rabbits"
+		Summary = "Hunt 100 Spring Rabbits",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6623, ItemNum = 10 }
+		}
 	},
 	[5165] = {
 		Title = "Low Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 Sleepers, You can get 10 of Rough Energy Crystals."
+			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Sleeper<INFO>SLEEPER,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Sleepers"
+		Summary = "Hunt 100 Sleepers",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6623, ItemNum = 10 }
+		}
 	},
 	[5166] = {
 		Title = "Low Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 Evil Druids, You can get 10 of Rough Energy Crystals."
+			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Evil Druid<INFO>EVIL_DRUID,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Evil Druids"
+		Summary = "Hunt 100 Evil Druids",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6623, ItemNum = 10 }
+		}
 	},
 	[5167] = {
 		Title = "Low Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 Petits, You can get 10 of Rough Energy Crystals."
+			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Petit<INFO>PETIT,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Petits"
+		Summary = "Hunt 100 Petits",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6623, ItemNum = 10 }
+		}
 	},
 	[5168] = {
 		Title = "Low Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 Clocks, You can get 10 of Rough Energy Crystals."
+			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Clock<INFO>CLOCK,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Clocks"
+		Summary = "Hunt 100 Clocks",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6623, ItemNum = 10 }
+		}
 	},
 	[5169] = {
 		Title = "Mid-Level collection request(standby)",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"the Mid-level collection request from energy crystal research can be only available once in a day."
 		},
-		Summary = "Waiting time - 23hours"
+		Summary = "Waiting time - 23hours",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
 	},
 	[5170] = {
 		Title = "Mid-Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Mid-Level request from Energy crystal research) If you hunt 100 Siroma, You can get 10 of Purified Energy Crystals."
+			"(Mid-Level request from Energy crystal research) If you hunt 100 <NAVI>Siroma<INFO>SIROMA,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Purified Energy Crystals."
 		},
-		Summary = "Hunt 100 Siromas"
+		Summary = "Hunt 100 Siromas",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6624, ItemNum = 10 }
+		}
 	},
 	[5171] = {
 		Title = "Mid-Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Mid-Level request from Energy crystal research) If you hunt 100 Dark Priests, You can get 10 of Purified Energy Crystals."
+			"(Mid-Level request from Energy crystal research) If you hunt 100 <NAVI>Dark Priests<INFO>DARK_PRIEST,0,0,3,-222,0</INFO></NAVI> You can get 10 of Purified Energy Crystals."
 		},
-		Summary = "Hunt 100 Dark Priests"
+		Summary = "Hunt 100 Dark Priests",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6624, ItemNum = 10 }
+		}
 	},
 	[5172] = {
 		Title = "Mid-Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Mid-Level request from Energy crystal research) If you hunt 100 Stapos, You can get 10 of Purified Energy Crystals."
+			"(Mid-Level request from Energy crystal research) If you hunt 100 <NAVI>Stapo<INFO>STAPO,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Purified Energy Crystals."
 		},
-		Summary = "Hunt 100 Stapos"
+		Summary = "Hunt 100 Stapos",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6624, ItemNum = 10 }
+		}
 	},
 	[5173] = {
 		Title = "Mid-Level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Mid-Level request from Energy crystal research) If you hunt 100 Soliders, You can get 10 of Purified Energy Crystals."
+			"(Mid-Level request from Energy crystal research) If you hunt 100 <NAVI>Solider<INFO>SOLIDER,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Purified Energy Crystals."
 		},
-		Summary = "Hunt 100 Soliders"
+		Summary = "Hunt 100 Soliders",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6624, ItemNum = 10 }
+		}
 	},
 	[5174] = {
-		Title = "High level collectiong request(standby)",
+		Title = "High level collection request(standby)",
+		IconName = "ico_dq.bmp",
 		Description = {
 			"the High-level collection request from energy crystal research can be only available once in a day."
 		},
-		Summary = "Waiting time - 23hours"
+		Summary = "Waiting time - 23hours",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169
 	},
 	[5175] = {
-		Title = "High level collectiong request",
+		Title = "High level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(High-Level request from Energy crystal research) If you hunt 100 Desert Wolves, You can get 5 of High Purity Energy crystals."
+			"(High-Level request from Energy crystal research) If you hunt 100 <NAVI>Desert Wolf<INFO>DESERT_WOLF,0,0,3,-222,0</INFO></NAVI>, You can get 5 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Desert Wolves"
+		Summary = "Hunt 100 Desert Wolves",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6625, ItemNum = 5 }
+		}
 	},
 	[5176] = {
-		Title = "High level collectiong request",
+		Title = "High level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(High-Level request from Energy crystal research) If you hunt 100 Medusa, You can get 5 of High Purity Energy crystals."
+			"(High-Level request from Energy crystal research) If you hunt 100 <NAVI>Medusa<INFO>MEDUSA,0,0,3,-222,0</INFO></NAVI>, You can get 5 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Medusa"
+		Summary = "Hunt 100 Medusa",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6625, ItemNum = 5 }
+		}
 	},
 	[5177] = {
-		Title = "High level collectiong request",
+		Title = "High level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(High-Level request from Energy crystal research) If you hunt 100 Pinguiculas, You can get 5 of High Purity Energy crystals."
+			"(High-Level request from Energy crystal research) If you hunt 100 <NAVI>Pinguicula<INFO>PINGUICULA,0,0,3,-222,0</INFO></NAVI>, You can get 5 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Pinguiculas"
+		Summary = "Hunt 100 Pinguiculas",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6625, ItemNum = 5 }
+		}
 	},
 	[5178] = {
-		Title = "High level collectiong request",
+		Title = "High level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(High-Level request from Energy crystal research) If you hunt 100 Majoruros, You can get 5 of High Purity Energy crystals."
+			"(High-Level request from Energy crystal research) If you hunt 100 <NAVI>Majoruros<INFO>MAJORUROS,0,0,3,-222,0</INFO></NAVI>, You can get 5 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Majoruros"
+		Summary = "Hunt 100 Majoruros",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6625, ItemNum = 5 }
+		}
 	},
 	[5179] = {
-		Title = "High level collectiong request",
+		Title = "Highest level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Highest-Level request from Energy crystal research) If you hunt 100 Raydrics, You can get 10 of High Purity Energy crystals."
+			"(Highest-Level request from Energy crystal research) If you hunt 100 <NAVI>Raydric<INFO>RAYDRIC,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Raydrics"
+		Summary = "Hunt 100 Raydrics",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6625, ItemNum = 10 }
+		}
 	},
 	[5180] = {
-		Title = "Highest level collectiong request",
+		Title = "Highest level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Highest-Level request from Energy crystal research) If you hunt 100 Nagas, You can get 10 of High Purity Energy crystals."
+			"(Highest-Level request from Energy crystal research) If you hunt 100 <NAVI>Naga<INFO>NAGA,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Nagas"
+		Summary = "Hunt 100 Nagas",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6625, ItemNum = 10 }
+		}
 	},
 	[5181] = {
-		Title = "Highest level collectiong request",
+		Title = "Highest level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Highest-Level request from Energy crystal research) If you hunt 100 Ancient Mummies, You can get 10 of High Purity Energy crystals."
+			"(Highest-Level request from Energy crystal research) If you hunt 100 <NAVI>Ancient Mummy<INFO>ANCIENT_MUMMY,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Ancient Mummies"
+		Summary = "Hunt 100 Ancient Mummies",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6625, ItemNum = 10 }
+		}
 	},
 	[5182] = {
-		Title = "Highest level collectiong request",
+		Title = "Highest level collection request",
+		IconName = "ico_dq.bmp",
 		Description = {
-			"(Highest-Level request from Energy crystal research) If you hunt 100 Ancient Mimics, You can get 10 of High Purity Energy crystals."
+			"(Highest-Level request from Energy crystal research) If you hunt 100 <NAVI>Ancient Mimic<INFO>ANCIENT_MIMIC,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Ancient Mimics"
+		Summary = "Hunt 100 Ancient Mimics",
+		NpcSpr = "1_M_WIZARD",
+		NpcNavi = "moc_para01",
+		NpcPosX = 41,
+		NpcPosY = 169,
+		RewardItemList = {
+			{ ItemID = 6625, ItemNum = 10 }
+		}
 	},
 	[5183] = {
 		Title = "(GM ¿­¸Å)ÀÇ °í¹Î",
