@@ -1,5 +1,7 @@
 If you have question that's not listed here, feel free to post it on issue page, otherwise go to [rAthena forum](https://rathena.org/board/forum/19-client-side-support/) for support.
 
+#
+
 **Q**: My client exe's still using Korean text/gibberish text?
 
 **A1**: All files from **data** folder of this project must be packed in **grf** format (ex: english.grf) and listed in .ini file (default: data.ini) in your client folder.
@@ -47,7 +49,7 @@ note: All files from project have been tested and don't caused any crash.
 
 **Q**: My client has small font?
 
-**A1**: https://rathena.org/board/topic/117647-guide-fixing-small-font-on-ragnarok-online-client/
+**A1**: [Solution](https://rathena.org/board/topic/117647-guide-fixing-small-font-on-ragnarok-online-client/)
 
 #
 
@@ -69,6 +71,11 @@ note: All files from project have been tested and don't caused any crash.
 
 #
 
+**Q**: I have issue with criatura academy maps (1st and 2nd floor), it becomes black/unwalkable?
+
+**A**: rAthena still using old version of Criatura academy quests, thus older version of criatura maps are needed. ([Download](https://mega.nz/#!b2J12AyA!9e_HSXRuS7Ae778hanXq-PoW0TTkaiLmu1GNk7kSKn8))
+
+#
 
 **Q**: Which emulator I should use with this project?
 
