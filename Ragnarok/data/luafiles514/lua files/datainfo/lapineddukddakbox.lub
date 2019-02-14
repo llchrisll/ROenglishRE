@@ -1,5 +1,37 @@
 tblLapineDdukddakBox = {
 	sources = {
+		["PerfectSize_Mix"] = {
+			ItemID = 100010,
+			NeedCount = 3,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "빅웨폰S", 1, 24075 },
+				{ "미디움웨폰S", 1, 24076 },
+				{ "스몰웨폰S", 1, 24077 },
+				{ "빅아머S", 1, 24072 },
+				{ "미디움아머S", 1, 24073 },
+				{ "스몰아머S", 1, 24074 }
+			},
+			NeedSource_String = "+7 사이즈 쉐도우"
+		},
+		["MagicPiercing_Mix"] = {
+			ItemID = 100011,
+			NeedCount = 2,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "매직액서큐서너웨폰S", 1, 24170 },
+				{ "매직엑소시스트웨폰S", 1, 24171 },
+				{ "매직헌팅웨폰S", 1, 24172 },
+				{ "매직인섹트넷웨폰S", 1, 24173 },
+				{ "매직피싱웨폰S", 1, 24174 },
+				{ "매직드래곤킬러웨폰S", 1, 24175 },
+				{ "매직커럽트웨폰S", 1, 24176 },
+				{ "매직바이브레이션웨폰S", 1, 24177 },
+				{ "매직홀리워터웨폰S", 1, 24178 },
+				{ "매직시저스웨폰S", 1, 24179 }
+			},
+			NeedSource_String = "+7 매직 피어싱 쉐도우"
+		},
 		["IDTest_Special"] = {
 			ItemID = 100000,
 			NeedCount = 3,
@@ -1580,7 +1612,16 @@ tblLapineDdukddakBox = {
 				{ "S_Star_Emperor_Armor", 1, 24412 },
 				{ "S_Star_Emperor_Shoes", 1, 24413 },
 				{ "S_Soul_Reaper_Armor", 1, 24414 },
-				{ "S_Soul_Reaper_Shoes", 1, 24415 }
+				{ "S_Soul_Reaper_Shoes", 1, 24415 },
+				{ "S_Tempest_Weapon", 1, 24423 },
+				{ "S_Tempest_Armor", 1, 24424 },
+				{ "S_PerfectSize_Weapon", 1, 24425 },
+				{ "S_PerfectSize_Armor", 1, 24426 },
+				{ "S_M_Exo_Co_Weapon", 1, 24427 },
+				{ "S_M_Viv_Dr_Weapon", 1, 24428 },
+				{ "S_M_Sci_Hu_Weapon", 1, 24429 },
+				{ "S_M_Fis_In_Weapon", 1, 24430 },
+				{ "S_M_Exe_Ho_Weapon", 1, 24431 }
 			},
 			NeedSource_String = "쉐도우 아이템"
 		},
@@ -1730,8 +1771,8 @@ tblLapineDdukddakBox = {
 				{ "GeneticStone_Middle", 1, 25451 },
 				{ "GeneticStone_Bottom", 1, 25452 },
 				{ "WarlockStone_Top", 1, 25453 },
-				{ "WarlockStone_Middle ", 1, 25454 },
-				{ "WarlockStone_Bottom ", 1, 25455 },
+				{ "WarlockStone_Middle", 1, 25454 },
+				{ "WarlockStone_Bottom", 1, 25455 },
 				{ "WarlockStone_Robe", 1, 25456 },
 				{ "ShadowchaserStone_Top", 1, 25490 },
 				{ "ShadowchaseStone_Middle", 1, 25491 },
@@ -1762,7 +1803,19 @@ tblLapineDdukddakBox = {
 				{ "AssacrossStone_Top", 1, 25714 },
 				{ "AssacrossStone_Middle", 1, 25715 },
 				{ "AssacrossStone_Bottom", 1, 25716 },
-				{ "GuillcrossStone_Robe", 1, 25717 }
+				{ "GuillcrossStone_Robe", 1, 25717 },
+				{ "SuraStone_Robe2", 1, 25797 },
+				{ "SuraStone_Bottom2", 1, 25798 },
+				{ "SuraStone_Middle2", 1, 25799 },
+				{ "SuraStone_Top2", 1, 25800 },
+				{ "SorcererStone_Robe2", 1, 25801 },
+				{ "SorcererStone_Bottom2", 1, 25802 },
+				{ "SorcererStone_Middle2", 1, 25803 },
+				{ "SorcererStone_Top2", 1, 25804 },
+				{ "ShadowchaserStone_Robe2", 1, 25805 },
+				{ "ShadowchasStone_Bottom2", 1, 25806 },
+				{ "ShadowchasStone_Middle2", 1, 25807 },
+				{ "ShadowchaserStone_Top2", 1, 25808 }
 			},
 			NeedSource_String = "의상인챈트스톤"
 		},
@@ -2267,7 +2320,11 @@ tblLapineDdukddakBox = {
 				{ "C_Poporing_Muffler", 1, 31586 },
 				{ "C_Protect_Cloth", 1, 31625 },
 				{ "C_Backside_Ribbon_Bell", 1, 20546 },
-				{ "C타락천사의날개", 1, 20764 }
+				{ "C타락천사의날개", 1, 20764 },
+				{ "C눈토끼니트모자", 1, 19990 },
+				{ "C_Snow_Bear_Food", 1, 31440 },
+				{ "C_LunaticMuffler_TW", 1, 31482 },
+				{ "C_Sleep_Sheep", 1, 31693 }
 			},
 			NeedSource_String = "냥다래 의상"
 		}

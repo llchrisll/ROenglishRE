@@ -15,20 +15,14 @@ MaxLevelTable = {
 	JobLevelDoram = 50
 }
 MakeableRace = { Doram = true }
-Url = { TwitterUrl = "" }
+Url = { TwitterUrl = "0.0.0.0:3000" }
 AccountLinkedUserDataUrl = {
-	Save = "",
-	Load = ""
-}
-AdventurerAgencyDataUrl = {
-	Add = "",
-	Delete = "",
-	PrevPage = "",
-	NextPage = ""
+	Save = "0.0.0.0:3000",
+	Load = "0.0.0.0:3000"
 }
 TwitterDataUrl = {
-	Auth = "",
-	Upload = ""
+	Auth = "0.0.0.0:3000",
+	Upload = "0.0.0.0:3000"
 }
 LEVELAURA = {}
 LEVELAURA["EF_NONE"] = -1

@@ -1,5 +1,45 @@
 tblLapineUpgradeBox = {
 	targets = {
+		["Joy_Of_Victory"] = {
+			ItemID = 100009,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Victory_Wing_Ear_", 400002 }
+			},
+			NeedSource_String = "승리의 날개귀(1)"
+		},
+		["Gemstone_Of_Time"] = {
+			ItemID = 9550,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Overwhelm_Str_Armor", 15278 },
+				{ "Overwhelm_Int_Armor", 15279 },
+				{ "Overwhelm_Vit_Armor", 15347 },
+				{ "Overwhelm_Dex_Armor", 15354 },
+				{ "Overwhelm_Agi_Armor", 15353 },
+				{ "Overwhelm_Luk_Armor", 15346 }
+			},
+			NeedSource_String = "시간의 갑옷 6종"
+		},
+		["Time_Unseal_Key"] = {
+			ItemID = 9551,
+			NeedRefineMin = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Temporal_M_Str", 20963 },
+				{ "Temporal_M_Agi", 20964 },
+				{ "Temporal_M_Vit", 20965 },
+				{ "Temporal_M_Int", 20966 },
+				{ "Temporal_M_Dex", 20967 },
+				{ "Temporal_M_Luk", 20968 }
+			},
+			NeedSource_String = "시간의 망토 6종"
+		},
 		["Magma_Essence"] = {
 			ItemID = 23815,
 			NeedRefineMin = 0,
@@ -703,7 +743,16 @@ tblLapineUpgradeBox = {
 				{ "S_Star_Emperor_Armor", 24412 },
 				{ "S_Star_Emperor_Shoes", 24413 },
 				{ "S_Soul_Reaper_Armor", 24414 },
-				{ "S_Soul_Reaper_Shoes", 24415 }
+				{ "S_Soul_Reaper_Shoes", 24415 },
+				{ "S_Tempest_Weapon", 24423 },
+				{ "S_Tempest_Armor", 24424 },
+				{ "S_PerfectSize_Weapon", 24425 },
+				{ "S_PerfectSize_Armor", 24426 },
+				{ "S_M_Exo_Co_Weapon", 24427 },
+				{ "S_M_Viv_Dr_Weapon", 24428 },
+				{ "S_M_Sci_Hu_Weapon", 24429 },
+				{ "S_M_Fis_In_Weapon", 24430 },
+				{ "S_M_Exe_Ho_Weapon", 24431 }
 			},
 			NeedSource_String = "쉐도우 아이템"
 		},
@@ -1127,80 +1176,16 @@ tblLapineUpgradeBox = {
 				{ "S_Soul_Reaper_Armor", 24414 },
 				{ "S_Soul_Reaper_Shoes", 24415 },
 				{ "S_Tempest_Weapon", 24423 },
-				{ "S_Tempest_Armor", 24424 }
+				{ "S_Tempest_Armor", 24424 },
+				{ "S_PerfectSize_Weapon", 24425 },
+				{ "S_PerfectSize_Armor", 24426 },
+				{ "S_M_Exo_Co_Weapon", 24427 },
+				{ "S_M_Viv_Dr_Weapon", 24428 },
+				{ "S_M_Sci_Hu_Weapon", 24429 },
+				{ "S_M_Fis_In_Weapon", 24430 },
+				{ "S_M_Exe_Ho_Weapon", 24431 }
 			},
 			NeedSource_String = "쉐도우 아이템"
-		},
-		["마법고양이손"] = {
-			ItemID = 23311,
-			NeedRefineMin = 0,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "고양이레이스머리띠K", 19242 }
-			},
-			NeedSource_String = "새끼 고양이 헤드드레스"
-		},
-		["사탕축복스크롤_물리"] = {
-			ItemID = 23289,
-			NeedRefineMin = 0,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "안토니오가방_물리", 20842 }
-			},
-			NeedSource_String = "사탕 주머니 가방(물리)"
-		},
-		["사탕축복스크롤_원거리"] = {
-			ItemID = 23290,
-			NeedRefineMin = 0,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "안토니오가방_원거리", 20843 }
-			},
-			NeedSource_String = "사탕 주머니 가방(원거리)"
-		},
-		["사탕축복스크롤_마법"] = {
-			ItemID = 23291,
-			NeedRefineMin = 0,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "안토니오가방_마법", 20844 }
-			},
-			NeedSource_String = "사탕 주머니 가방(마법)"
-		},
-		["건슬링거두루마리"] = {
-			ItemID = 23100,
-			NeedRefineMin = 0,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "늘어진건슬링거", 19157 }
-			},
-			NeedSource_String = "늘어진 건슬링거"
-		},
-		["타락천사날개초기화권"] = {
-			ItemID = 23229,
-			NeedRefineMin = 0,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "K타락천사의날개", 20835 },
-				{ "타락천사의날개", 2589 }
-			},
-			NeedSource_String = "타락천사의 날개"
-		},
-		["제복수선키트"] = {
-			ItemID = 23175,
-			NeedRefineMin = 0,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "카프라제복", 15186 }
-			},
-			NeedSource_String = "카프라 제복"
 		},
 		["Shadow_Random_Mix"] = {
 			ItemID = 23720,
@@ -1532,7 +1517,14 @@ tblLapineUpgradeBox = {
 				{ "S_KingbirdAncient_Armor", 24401 },
 				{ "S_CriticalHit_Armor", 15280 },
 				{ "S_Tempest_Weapon", 24423 },
-				{ "S_Tempest_Armor", 24424 }
+				{ "S_Tempest_Armor", 24424 },
+				{ "S_PerfectSize_Weapon", 24425 },
+				{ "S_PerfectSize_Armor", 24426 },
+				{ "S_M_Exo_Co_Weapon", 24427 },
+				{ "S_M_Viv_Dr_Weapon", 24428 },
+				{ "S_M_Sci_Hu_Weapon", 24429 },
+				{ "S_M_Fis_In_Weapon", 24430 },
+				{ "S_M_Exe_Ho_Weapon", 24431 }
 			},
 			NeedSource_String = "+7 쉐도우 아이템"
 		}
