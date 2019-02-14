@@ -516,7 +516,8 @@ StateIconList[EFST_IDs.EFST_SHOUT] = {
 	descript = {
 		{ "Crazy Uproar", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases STR" }
+		{ "Increases STR" },
+		{ "Increases ATK" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CASH_RECEIVEITEM] = {
@@ -2743,7 +2744,8 @@ StateIconList[EFST_IDs.EFST_KAGEMUSYA] = {
 		{ "%s", COLOR_TIME },
 		{ "Give Double Attack Effect" },
 		{ "Consumption of certain amount of SP per second" },
-		{ "After getting attacked after certain number of times, the status clears" }
+		{ "팔발 쿠나이, 폭발쿠나이 데미지 증가" },
+		{ "풍마수리검 난화, 십자 베기 데미지 증가" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ZANGETSU] = {
@@ -5515,6 +5517,43 @@ StateIconList[EFST_IDs.EFST_DONTFORGETME] = {
 		{ "%s", COLOR_TIME },
 		{ "Reduces ASPD" },
 		{ "Reduces movement speed" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOULCURSE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "사령의 저주", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "암속성 공격에 대한 내성 감소." }
+	}
+}
+StateIconList[EFST_IDs.EFST_SWEETSFAIR_ATK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "스위트 마카롱 케이크", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "ATK + 7%" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SWEETSFAIR_MATK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "스위트 딸기 파르페", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "MATK + 7%" }
+	}
+}
+StateIconList[EFST_IDs.EFST_HELPANGEL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "천사의 가호", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "초당 HP 1000 회복" },
+		{ "초당 SP 350 회복" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CRI_DAMAGE] = {
