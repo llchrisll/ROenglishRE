@@ -1018,7 +1018,7 @@ StateIconList[EFST_IDs.EFST_DEATHHURT] = {
 	descript = {
 		{ "Death Hurt", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
-		{ "Decreases effectiveness of Healing skill" }
+		{ "Decreases effectiveness of Healing skills" }
 	}
 }
 StateIconList[EFST_IDs.EFST_IMPOSITIO] = {
@@ -1027,7 +1027,7 @@ StateIconList[EFST_IDs.EFST_IMPOSITIO] = {
 	descript = {
 		{ "Impositio Manus", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ATK/MATK ¡ı∞°" }
+		{ "Increases ATK, MATK" }
 	}
 }
 StateIconList[EFST_IDs.EFST_LEECHESEND] = {
@@ -1052,7 +1052,7 @@ StateIconList[EFST_IDs.EFST_ACCELERATION] = {
 	descript = {
 		{ "Acceleration", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases Movement Speed of Madogear" }
+		{ "Increases Mado Gear movement speed" }
 	}
 }
 StateIconList[EFST_IDs.EFST_NJ_NEN] = {
@@ -1071,8 +1071,8 @@ StateIconList[EFST_IDs.EFST_FORCEOFVANGUARD] = {
 		{ "Vanguard Force", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increase MaxHP, DEF" },
-		{ "Accumulate Rage rate whenever receiving damage" },
-		{ "Consume SP continuously" }
+		{ "Accumulates Rage rate whenever receiving damage" },
+		{ "Consumes SP continuously" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RG_CCONFINE_M] = {
@@ -1081,7 +1081,7 @@ StateIconList[EFST_IDs.EFST_RG_CCONFINE_M] = {
 	descript = {
 		{ "Close Confine", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Immobilize the caster and target" },
+		{ "Immobilizes caster and target" },
 		{ "Increases Flee" },
 		{ "Cannot be used on Boss monsters", COLOR_SYSTEM }
 	}

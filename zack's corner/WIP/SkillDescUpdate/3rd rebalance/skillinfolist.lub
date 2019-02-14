@@ -1,4 +1,28 @@
 SKILL_INFO_LIST = {
+	[SKID.GD_CHARGESHOUT_FLAG] = {
+		"GD_CHARGESHOUT_FLAG",
+		SkillName = "돌격 함성의 깃발",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.GD_CHARGESHOUT_BEATING] = {
+		"GD_CHARGESHOUT_BEATING",
+		SkillName = "돌격 함성의 울림",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.GD_EMERGENCY_MOVE] = {
+		"GD_EMERGENCY_MOVE",
+		SkillName = "긴급 이동",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
 	[SKID.NPC_WIDEBLEEDING2] = {
 		"NPC_WIDEBLEEDING2",
 		SkillName = "데모닉 매스블리딩",
@@ -12904,5 +12928,32 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.NV_BREAKTHROUGH] = {
+		"NV_BREAKTHROUGH",
+		SkillName = "브레이크쓰루",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.NV_HELPANGEL] = {
+		"NV_HELPANGEL",
+		SkillName = "천사님 도와주세요!",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.NV_TRANSCENDENCE] = {
+		"NV_TRANSCENDENCE",
+		SkillName = "트렌센던스",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
 	}
 }
