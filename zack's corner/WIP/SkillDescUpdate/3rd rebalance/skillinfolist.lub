@@ -1,7 +1,7 @@
 SKILL_INFO_LIST = {
 	[SKID.GD_CHARGESHOUT_FLAG] = {
 		"GD_CHARGESHOUT_FLAG",
-		SkillName = "돌격 함성의 깃발",
+		SkillName = "Charge Shout Flag",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9,7 +9,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_CHARGESHOUT_BEATING] = {
 		"GD_CHARGESHOUT_BEATING",
-		SkillName = "돌격 함성의 울림",
+		SkillName = "Charge Shout Beating",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -17,7 +17,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_EMERGENCY_MOVE] = {
 		"GD_EMERGENCY_MOVE",
-		SkillName = "긴급 이동",
+		SkillName = "Emergency Move",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -12499,7 +12499,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_LIGHTOFMOON] = {
 		"SJ_LIGHTOFMOON",
-		SkillName = "달의 빛",
+		SkillName = "Lunar Light",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
@@ -12510,7 +12510,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_LUNARSTANCE] = {
 		"SJ_LUNARSTANCE",
-		SkillName = "달의 자세",
+		SkillName = "Lunar Stance",
 		MaxLv = 3,
 		SpAmount = { 10, 10, 10 },
 		bSeperateLv = true,
@@ -12521,18 +12521,18 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_FULLMOONKICK] = {
 		"SJ_FULLMOONKICK",
-		SkillName = "만월각",
-		MaxLv = 7,
-		SpAmount = { 30, 35, 40, 45, 50, 55, 60 },
+		SkillName = "Full Moon Kick",
+		MaxLv = 10,
+		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SJ_NEWMOONKICK, 7 }
 		}
 	},
 	[SKID.SJ_NEWMOONKICK] = {
 		"SJ_NEWMOONKICK",
-		SkillName = "삭월각",
+		SkillName = "New Moon Kick",
 		MaxLv = 7,
 		SpAmount = { 20, 25, 30, 35, 40, 45, 50 },
 		bSeperateLv = true,
@@ -12543,7 +12543,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_LIGHTOFSTAR] = {
 		"SJ_LIGHTOFSTAR",
-		SkillName = "별의 빛",
+		SkillName = "Light of Star",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
@@ -12554,7 +12554,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_STARSTANCE] = {
 		"SJ_STARSTANCE",
-		SkillName = "별의 자세",
+		SkillName = "Star Stance",
 		MaxLv = 3,
 		SpAmount = { 10, 10, 10 },
 		bSeperateLv = true,
@@ -12565,7 +12565,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_FLASHKICK] = {
 		"SJ_FLASHKICK",
-		SkillName = "섬광각",
+		SkillName = "Flash Kick",
 		MaxLv = 7,
 		SpAmount = { 45, 40, 35, 30, 25, 20, 15 },
 		bSeperateLv = false,
@@ -12576,7 +12576,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_STAREMPEROR] = {
 		"SJ_STAREMPEROR",
-		SkillName = "성제강림",
+		SkillName = "Star Emperor",
 		MaxLv = 5,
 		SpAmount = { 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
@@ -12588,7 +12588,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_NOVAEXPLOSING] = {
 		"SJ_NOVAEXPLOSING",
-		SkillName = "신성폭발",
+		SkillName = "Nova Explosion",
 		MaxLv = 5,
 		SpAmount = { 60, 65, 70, 75, 80 },
 		bSeperateLv = true,
@@ -12599,7 +12599,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_UNIVERSESTANCE] = {
 		"SJ_UNIVERSESTANCE",
-		SkillName = "우주의 자세",
+		SkillName = "Universe Stance",
 		MaxLv = 3,
 		SpAmount = { 10, 10, 10 },
 		bSeperateLv = true,
@@ -12612,18 +12612,18 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_FALLINGSTAR] = {
 		"SJ_FALLINGSTAR",
-		SkillName = "유성낙하",
-		MaxLv = 7,
-		SpAmount = { 40, 45, 50, 55, 60, 65, 70 },
+		SkillName = "Meteor Fall",
+		MaxLv = 10,
+		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SJ_FLASHKICK, 7 }
 		}
 	},
 	[SKID.SJ_GRAVITYCONTROL] = {
 		"SJ_GRAVITYCONTROL",
-		SkillName = "중력조절",
+		SkillName = "Gravity Control",
 		MaxLv = 1,
 		SpAmount = { 80 },
 		bSeperateLv = true,
@@ -12634,7 +12634,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_BOOKOFDIMENSION] = {
 		"SJ_BOOKOFDIMENSION",
-		SkillName = "차원의 서",
+		SkillName = "Book of Dimension",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
@@ -12646,7 +12646,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_BOOKOFCREATINGSTAR] = {
 		"SJ_BOOKOFCREATINGSTAR",
-		SkillName = "창성의 서",
+		SkillName = "Book of Creation",
 		MaxLv = 5,
 		SpAmount = { 50, 55, 60, 65, 70 },
 		bSeperateLv = true,
@@ -12658,7 +12658,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_DOCUMENT] = {
 		"SJ_DOCUMENT",
-		SkillName = "태양과 달과 별의 기록",
+		SkillName = "Sun Moon Star Record",
 		MaxLv = 3,
 		SpAmount = { 60, 60, 60 },
 		bSeperateLv = true,
@@ -12670,7 +12670,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_PURIFY] = {
 		"SJ_PURIFY",
-		SkillName = "태양과 달과 별의 정화",
+		SkillName = "Sun Moon Star Purification",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -12681,7 +12681,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_LIGHTOFSUN] = {
 		"SJ_LIGHTOFSUN",
-		SkillName = "태양의 빛",
+		SkillName = "Light of Sun",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
@@ -12692,7 +12692,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_SUNSTANCE] = {
 		"SJ_SUNSTANCE",
-		SkillName = "태양의 자세",
+		SkillName = "Sun Stance",
 		MaxLv = 3,
 		SpAmount = { 10, 10, 10 },
 		bSeperateLv = true,
@@ -12703,18 +12703,18 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_SOLARBURST] = {
 		"SJ_SOLARBURST",
-		SkillName = "태양폭발",
-		MaxLv = 7,
-		SpAmount = { 34, 37, 40, 43, 46, 49, 52 },
+		SkillName = "Sun Burst",
+		MaxLv = 10,
+		SpAmount = { 34, 37, 40, 43, 46, 49, 52, 55, 58, 61 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SJ_PROMINENCEKICK, 7 }
 		}
 	},
 	[SKID.SJ_PROMINENCEKICK] = {
 		"SJ_PROMINENCEKICK",
-		SkillName = "홍염각",
+		SkillName = "Prominence Kick",
 		MaxLv = 7,
 		SpAmount = { 20, 20, 20, 20, 20, 20, 20 },
 		bSeperateLv = true,
@@ -12725,7 +12725,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULGOLEM] = {
 		"SP_SOULGOLEM",
-		SkillName = "골렘의 영혼",
+		SkillName = "Golem Soul",
 		MaxLv = 5,
 		SpAmount = { 250, 200, 150, 100, 50 },
 		bSeperateLv = true,
@@ -12736,7 +12736,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULSHADOW] = {
 		"SP_SOULSHADOW",
-		SkillName = "그림자의 영혼",
+		SkillName = "Shadow Soul",
 		MaxLv = 5,
 		SpAmount = { 250, 200, 150, 100, 50 },
 		bSeperateLv = true,
@@ -12747,7 +12747,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULFALCON] = {
 		"SP_SOULFALCON",
-		SkillName = "매의 영혼",
+		SkillName = "Falcon Soul",
 		MaxLv = 5,
 		SpAmount = { 250, 200, 150, 100, 50 },
 		bSeperateLv = true,
@@ -12758,7 +12758,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULFAIRY] = {
 		"SP_SOULFAIRY",
-		SkillName = "요정의 영혼",
+		SkillName = "Fairy Soul",
 		MaxLv = 5,
 		SpAmount = { 250, 200, 150, 100, 50 },
 		bSeperateLv = true,
@@ -12769,18 +12769,18 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_CURSEEXPLOSION] = {
 		"SP_CURSEEXPLOSION",
-		SkillName = "사령 폭발",
-		MaxLv = 5,
-		SpAmount = { 50, 55, 60, 65, 70 },
+		SkillName = "Curse Explosion",
+		MaxLv = 10,
+		SpAmount = { 50, 55, 60, 65, 70, 75, 80, 85, 90, 95 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SOULCURSE, 3 }
 		}
 	},
 	[SKID.SP_SOULCURSE] = {
 		"SP_SOULCURSE",
-		SkillName = "사악한 영혼의 저주",
+		SkillName = "Wicked Soul Curse",
 		MaxLv = 5,
 		SpAmount = { 70, 70, 70, 70, 70 },
 		bSeperateLv = true,
@@ -12791,18 +12791,18 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SPA] = {
 		"SP_SPA",
-		SkillName = "에스파",
-		MaxLv = 5,
-		SpAmount = { 52, 56, 60, 64, 68 },
+		SkillName = "Espa",
+		MaxLv = 10,
+		SpAmount = { 52, 56, 60, 64, 68, 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SHA, 1 }
 		}
 	},
 	[SKID.SP_SHA] = {
 		"SP_SHA",
-		SkillName = "에스하",
+		SkillName = "Esha",
 		MaxLv = 5,
 		SpAmount = { 18, 20, 22, 24, 26 },
 		bSeperateLv = true,
@@ -12813,18 +12813,18 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SWHOO] = {
 		"SP_SWHOO",
-		SkillName = "에스후",
-		MaxLv = 7,
-		SpAmount = { 66, 70, 74, 78, 82, 86, 90 },
+		SkillName = "Eswhoo",
+		MaxLv = 10,
+		SpAmount = { 66, 70, 74, 78, 82, 86, 90, 94, 98, 102 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SPA, 3 }
 		}
 	},
 	[SKID.SP_SOULUNITY] = {
 		"SP_SOULUNITY",
-		SkillName = "영혼 결속",
+		SkillName = "Soul Unity",
 		MaxLv = 7,
 		SpAmount = { 44, 46, 48, 50, 52, 54, 56 },
 		bSeperateLv = true,
@@ -12835,7 +12835,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULDIVISION] = {
 		"SP_SOULDIVISION",
-		SkillName = "영혼 분열",
+		SkillName = "Soul Split",
 		MaxLv = 5,
 		SpAmount = { 36, 40, 44, 48, 52 },
 		bSeperateLv = true,
@@ -12847,7 +12847,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULREAPER] = {
 		"SP_SOULREAPER",
-		SkillName = "영혼 수확",
+		SkillName = "Soul Harvest",
 		MaxLv = 5,
 		SpAmount = { 42, 44, 46, 48, 50 },
 		bSeperateLv = true,
@@ -12858,7 +12858,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULCOLLECT] = {
 		"SP_SOULCOLLECT",
-		SkillName = "영혼 축적",
+		SkillName = "Soul Collect",
 		MaxLv = 5,
 		SpAmount = { 100, 100, 100, 100, 100 },
 		bSeperateLv = true,
@@ -12866,7 +12866,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULREVOLVE] = {
 		"SP_SOULREVOLVE",
-		SkillName = "영혼 순환",
+		SkillName = "Soul Revolve",
 		MaxLv = 3,
 		SpAmount = { 50, 100, 150 },
 		bSeperateLv = true,
@@ -12878,7 +12878,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULEXPLOSION] = {
 		"SP_SOULEXPLOSION",
-		SkillName = "영혼 폭발",
+		SkillName = "Soul Explosion",
 		MaxLv = 5,
 		SpAmount = { 30, 60, 90, 120, 150 },
 		bSeperateLv = true,
@@ -12893,7 +12893,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_KAUTE] = {
 		"SP_KAUTE",
-		SkillName = "카우트",
+		SkillName = "Kaute",
 		MaxLv = 5,
 		SpAmount = { 24, 30, 36, 42, 48 },
 		bSeperateLv = true,
@@ -12904,7 +12904,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULENERGY] = {
 		"SP_SOULENERGY",
-		SkillName = "영혼 에너지 연구",
+		SkillName = "Soul Energy Research",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -12915,7 +12915,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_FALLINGSTAR_ATK2] = {
 		"SJ_FALLINGSTAR_ATK2",
-		SkillName = "유성낙하",
+		SkillName = "Meteor Fall",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -12923,7 +12923,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_FALLINGSTAR_ATK] = {
 		"SJ_FALLINGSTAR_ATK",
-		SkillName = "유성낙하",
+		SkillName = "Meteor Fall",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -12931,7 +12931,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NV_BREAKTHROUGH] = {
 		"NV_BREAKTHROUGH",
-		SkillName = "브레이크쓰루",
+		SkillName = "Breakthrough",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -12940,7 +12940,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NV_HELPANGEL] = {
 		"NV_HELPANGEL",
-		SkillName = "천사님 도와주세요!",
+		SkillName = "Angel, help Me!",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -12949,7 +12949,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NV_TRANSCENDENCE] = {
 		"NV_TRANSCENDENCE",
-		SkillName = "트렌센던스",
+		SkillName = "Transcendence",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
