@@ -3,19 +3,20 @@ TB_Layer_Priority = {
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_C_Fairy_Long_BD] = { Default = 153, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Fairy_Long_SV] = { Default = 153, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Eleanor_Wig_YL] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Piamette_Roll_Hair] = { Default = 153, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_APRO_WIG] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_AMAZING_WIG] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Nydhog_Wig] = { Default = 152, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_Straight_Long_YL] = { Default = 200, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_Straight_Long_WH] = { Default = 200, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_Straight_Long_YL] = { Default = 152, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_Straight_Long_WH] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Alice_Wig] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Volume_Low_Twin] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Alice_Wig_PK] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Lolita_Two_Side_Up] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Harvest_Festa_Hat] = { Default = 52, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_White_Cat] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_Cowlick_YL] = { Default = 153, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Cowlick_GN] = { Default = 153, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Cowlick_PP] = { Default = 153, Direction = {} },
@@ -72,18 +73,14 @@ TB_Layer_Priority = {
 		[ACCESSORY_IDs.ACCESSORY_MYSTICROSE] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_NECKTIE] = { Default = 152, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Combat_Vestige] = { Default = 152, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_C_Pope_Ribbon] = { Default = 201, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_BELOWEAR_RIBBON] = { Default = 201, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_BUTTERFLYWINGS_EAR] = { Default = 201, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_Valhalla_Idol] = { Default = 201, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_White_Cat] = { Default = 304, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Baby_Penguin] = { Default = 304, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_L_RibbonMuff_Red] = { Default = 303, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Flying_Drone] = { Default = 301, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_C_Black_Cat] = { Default = 304, isIgnoreRiding = true },
-		[ACCESSORY_IDs.ACCESSORY_C_Shiba_Inu] = { Default = 304, isIgnoreRiding = true },
-		[ACCESSORY_IDs.ACCESSORY_White_Rabbit] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Black_Cat] = { Default = 304, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Shiba_Inu] = { Default = 304, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_White_Rabbit] = { Default = 304, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_RABBIT_HEAD_DRESS] = { Default = 302, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_Charcoal_Stove] = { Default = 301, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Blinking_Eyes] = { Default = 301, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Love_Cheek] = { Default = 301, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Little_Aquarium] = { Default = 301, Direction = {} },
@@ -161,7 +158,17 @@ TB_Layer_Priority = {
 		[ACCESSORY_IDs.ACCESSORY_Subject_Aura_Red] = { Default = 480, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Tone_Of_Gold] = { Default = 802, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Wall] = { Default = 450, Direction = {} },
-	}
+	},
+	IsIgnoredRidingState = function(acc_id)
+		local Items_List = TB_Layer_Priority.Items_List
+		if nil ~= Items_List then
+			local Item_Tb = Items_List[acc_id]
+			if nil ~= Item_Tb and nil ~= Item_Tb.isIgnoreRiding then
+				return Item_Tb.isIgnoreRiding
+			end
+		end
+		return false
+	end
 }
 
 function GetLayerPriority(direction, layer, acc_id)
