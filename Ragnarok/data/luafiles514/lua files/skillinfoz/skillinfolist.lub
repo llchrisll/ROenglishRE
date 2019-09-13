@@ -12312,5 +12312,429 @@ SKILL_INFO_LIST = {
 		SpAmount = { 50 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
-	}
+	},
+	[SKID.SJ_LIGHTOFMOON] = {
+		"SJ_LIGHTOFMOON",
+		SkillName = "Light of Moon",
+		MaxLv = 5,
+		SpAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_FULLMOONKICK, 3 }
+		}
+	},
+	[SKID.SJ_LUNARSTANCE] = {
+		"SJ_LUNARSTANCE",
+		SkillName = "Star Stance",
+		MaxLv = 3,
+		SpAmount = { 10, 10, 10 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_DOCUMENT, 1 }
+		}
+	},
+	[SKID.SJ_FULLMOONKICK] = {
+		"SJ_FULLMOONKICK",
+		SkillName = "Full Moon Kick",
+		MaxLv = 7,
+		SpAmount = { 30, 35, 40, 45, 50, 55, 60 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_NEWMOONKICK, 7 }
+		}
+	},
+	[SKID.SJ_NEWMOONKICK] = {
+		"SJ_NEWMOONKICK",
+		SkillName = "New Moon Kick",
+		MaxLv = 7,
+		SpAmount = { 20, 25, 30, 35, 40, 45, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_LUNARSTANCE, 1 }
+		}
+	},
+	[SKID.SJ_LIGHTOFSTAR] = {
+		"SJ_LIGHTOFSTAR",
+		SkillName = "Light of Star",
+		MaxLv = 5,
+		SpAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_FALLINGSTAR, 3 }
+		}
+	},
+	[SKID.SJ_STARSTANCE] = {
+		"SJ_STARSTANCE",
+		SkillName = "Star Stance",
+		MaxLv = 3,
+		SpAmount = { 10, 10, 10 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_DOCUMENT, 1 }
+		}
+	},
+	[SKID.SJ_FLASHKICK] = {
+		"SJ_FLASHKICK",
+		SkillName = "Flash Kick",
+		MaxLv = 7,
+		SpAmount = { 45, 40, 35, 30, 25, 20, 15 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_STARSTANCE, 1 }
+		}
+	},
+	[SKID.SJ_STAREMPEROR] = {
+		"SJ_STAREMPEROR",
+		SkillName = "Advent of the Star Emperor²",
+		MaxLv = 5,
+		SpAmount = { 70, 75, 80, 85, 90 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_NOVAEXPLOSING, 5 },
+			{ SKID.SJ_UNIVERSESTANCE, 3 }
+		}
+	},
+	[SKID.SJ_NOVAEXPLOSING] = {
+		"SJ_NOVAEXPLOSING",
+		SkillName = "Nova Explosion",
+		MaxLv = 5,
+		SpAmount = { 60, 65, 70, 75, 80 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.SJ_UNIVERSESTANCE, 1 }
+		}
+	},
+	[SKID.SJ_UNIVERSESTANCE] = {
+		"SJ_UNIVERSESTANCE",
+		SkillName = "Universe Stance",
+		MaxLv = 3,
+		SpAmount = { 10, 10, 10 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_SUNSTANCE, 3 },
+			{ SKID.SJ_LUNARSTANCE, 3 },
+			{ SKID.SJ_STARSTANCE, 3 }
+		}
+	},
+	[SKID.SJ_FALLINGSTAR] = {
+		"SJ_FALLINGSTAR",
+		SkillName = "Falling Star",
+		MaxLv = 7,
+		SpAmount = { 40, 45, 50, 55, 60, 65, 70 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_FLASHKICK, 7 }
+		}
+	},
+	[SKID.SJ_GRAVITYCONTROL] = {
+		"SJ_GRAVITYCONTROL",
+		SkillName = "Gravity Control",
+		MaxLv = 1,
+		SpAmount = { 80 },
+		bSeperateLv = true,
+		AttackRange = { 9 },
+		_NeedSkillList = {
+			{ SKID.SJ_UNIVERSESTANCE, 1 }
+		}
+	},
+	[SKID.SJ_BOOKOFDIMENSION] = {
+		"SJ_BOOKOFDIMENSION",
+		SkillName = "Book of Dimension",
+		MaxLv = 5,
+		SpAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_STAREMPEROR, 3 },
+			{ SKID.SJ_DOCUMENT, 3 }
+		}
+	},
+	[SKID.SJ_BOOKOFCREATINGSTAR] = {
+		"SJ_BOOKOFCREATINGSTAR",
+		SkillName = "Book of Creating Star",
+		MaxLv = 5,
+		SpAmount = { 50, 55, 60, 65, 70 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.SJ_STAREMPEROR, 3 },
+			{ SKID.SJ_DOCUMENT, 3 }
+		}
+	},
+	[SKID.SJ_DOCUMENT] = {
+		"SJ_DOCUMENT",
+		SkillName = "Document of the Sun, Moon and Stars",
+		MaxLv = 3,
+		SpAmount = { 60, 60, 60 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SG_FEEL, 3 },
+			{ SKID.SG_HATE, 3 }
+		}
+	},
+	[SKID.SJ_PURIFY] = {
+		"SJ_PURIFY",
+		SkillName = "Purification of the Sun, Moon and Stars",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SG_DEVIL, 10 }
+		}
+	},
+	[SKID.SJ_LIGHTOFSUN] = {
+		"SJ_LIGHTOFSUN",
+		SkillName = "Light of Sun",
+		MaxLv = 5,
+		SpAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_SOLARBURST, 3 }
+		}
+	},
+	[SKID.SJ_SUNSTANCE] = {
+		"SJ_SUNSTANCE",
+		SkillName = "Sun Stance",
+		MaxLv = 3,
+		SpAmount = { 10, 10, 10 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_DOCUMENT, 1 }
+		}
+	},
+	[SKID.SJ_SOLARBURST] = {
+		"SJ_SOLARBURST",
+		SkillName = "Solar Burst",
+		MaxLv = 7,
+		SpAmount = { 34, 37, 40, 43, 46, 49, 52 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_PROMINENCEKICK, 7 }
+		}
+	},
+	[SKID.SJ_PROMINENCEKICK] = {
+		"SJ_PROMINENCEKICK",
+		SkillName = "Prominence Kick",
+		MaxLv = 7,
+		SpAmount = { 20, 20, 20, 20, 20, 20, 20 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SJ_SUNSTANCE, 1 }
+		}
+	},
+	[SKID.SP_SOULGOLEM] = {
+		"SP_SOULGOLEM",
+		SkillName = "Golem Soul",
+		MaxLv = 5,
+		SpAmount = { 250, 200, 150, 100, 50 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULREVOLVE, 2 }
+		}
+	},
+	[SKID.SP_SOULSHADOW] = {
+		"SP_SOULSHADOW",
+		SkillName = "Shadow Soul",
+		MaxLv = 5,
+		SpAmount = { 250, 200, 150, 100, 50 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULUNITY, 5 }
+		}
+	},
+	[SKID.SP_SOULFALCON] = {
+		"SP_SOULFALCON",
+		SkillName = "Falcon Soul",
+		MaxLv = 5,
+		SpAmount = { 250, 200, 150, 100, 50 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULREVOLVE, 2 }
+		}
+	},
+	[SKID.SP_SOULFAIRY] = {
+		"SP_SOULFAIRY",
+		SkillName = "Fairy Soul",
+		MaxLv = 5,
+		SpAmount = { 250, 200, 150, 100, 50 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULUNITY, 5 }
+		}
+	},
+	[SKID.SP_CURSEEXPLOSION] = {
+		"SP_CURSEEXPLOSION",
+		SkillName = "Curse Explosion",
+		MaxLv = 5,
+		SpAmount = { 50, 55, 60, 65, 70 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULCURSE, 3 }
+		}
+	},
+	[SKID.SP_SOULCURSE] = {
+		"SP_SOULCURSE",
+		SkillName = "Curse of Wicked Soul",
+		MaxLv = 5,
+		SpAmount = { 70, 70, 70, 70, 70 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULREAPER, 3 }
+		}
+	},
+	[SKID.SP_SPA] = {
+		"SP_SPA",
+		SkillName = "Espa",
+		MaxLv = 5,
+		SpAmount = { 52, 56, 60, 64, 68 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SHA, 1 }
+		}
+	},
+	[SKID.SP_SHA] = {
+		"SP_SHA",
+		SkillName = "Esha",
+		MaxLv = 5,
+		SpAmount = { 18, 20, 22, 24, 26 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULREAPER, 3 }
+		}
+	},
+	[SKID.SP_SWHOO] = {
+		"SP_SWHOO",
+		SkillName = "Eswhoo",
+		MaxLv = 7,
+		SpAmount = { 66, 70, 74, 78, 82, 86, 90 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SPA, 3 }
+		}
+	},
+	[SKID.SP_SOULUNITY] = {
+		"SP_SOULUNITY",
+		SkillName = "Soul Unity",
+		MaxLv = 7,
+		SpAmount = { 44, 46, 48, 50, 52, 54, 56 },
+		bSeperateLv = true,
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULENERGY, 3 }
+		}
+	},
+	[SKID.SP_SOULDIVISION] = {
+		"SP_SOULDIVISION",
+		SkillName = "Soul Division",
+		MaxLv = 5,
+		SpAmount = { 36, 40, 44, 48, 52 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SPA, 5 },
+			{ SKID.SP_SHA, 5 }
+		}
+	},
+	[SKID.SP_SOULREAPER] = {
+		"SP_SOULREAPER",
+		SkillName = "Soul Reaper",
+		MaxLv = 5,
+		SpAmount = { 42, 44, 46, 48, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULCOLLECT, 1 }
+		}
+	},
+	[SKID.SP_SOULCOLLECT] = {
+		"SP_SOULCOLLECT",
+		SkillName = "Soul Collect",
+		MaxLv = 5,
+		SpAmount = { 100, 100, 100, 100, 100 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.SP_SOULREVOLVE] = {
+		"SP_SOULREVOLVE",
+		SkillName = "Soul Revolution",
+		MaxLv = 3,
+		SpAmount = { 50, 100, 150 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULENERGY, 3 },
+			{ SKID.SP_KAUTE, 3 }
+		}
+	},
+	[SKID.SP_SOULEXPLOSION] = {
+		"SP_SOULEXPLOSION",
+		SkillName = "Soul Explosion",
+		MaxLv = 5,
+		SpAmount = { 30, 60, 90, 120, 150 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULSHADOW, 1 },
+			{ SKID.SP_SOULFALCON, 1 },
+			{ SKID.SP_SOULFAIRY, 1 },
+			{ SKID.SP_SOULGOLEM, 1 },
+			{ SKID.SP_CURSEEXPLOSION, 2 }
+		}
+	},
+	[SKID.SP_KAUTE] = {
+		"SP_KAUTE",
+		SkillName = "Kaute",
+		MaxLv = 5,
+		SpAmount = { 24, 30, 36, 42, 48 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULENERGY, 1 }
+		}
+	},
+	[SKID.SP_SOULENERGY] = {
+		"SP_SOULENERGY",
+		SkillName = "Soul Energy Research",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SP_SOULCOLLECT, 1 }
+		}
+	},
+	[SKID.SJ_FALLINGSTAR_ATK2] = {
+		"SJ_FALLINGSTAR_ATK2",
+		SkillName = "Falling Star Attack 2",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
 }
