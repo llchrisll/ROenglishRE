@@ -1,5 +1,128 @@
 tblLapineDdukddakBox = {
 	sources = {
+		["Skill_Sha_M_S_Weapon"] = {
+			ItemID = 100151,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"Zelunium", 50, 25731},
+				{"Shadowdecon", 50, 25729}
+			},
+			NeedSource_String = "Shadowdecon, Zelunium"
+		},
+		["Skill_Sha_M_S_Shield"] = {
+			ItemID = 100209,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"Zelunium", 50, 25731},
+				{"Shadowdecon", 50, 25729}
+			},
+			NeedSource_String = "Shadowdecon, Zelunium"
+		},
+		["Skill_Sha_M_S_Pendant"] = {
+			ItemID = 100210,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"Shadowdecon", 50, 25729}
+			},
+			NeedSource_String = "Shadowdecon"
+		},
+		["Skill_Sha_M_S_Earing"] = {
+			ItemID = 100211,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"Shadowdecon", 50, 25729}
+			},
+			NeedSource_String = "Shadowdecon"
+		},
+		["Skill_Sha_M_S_Shoes"] = {
+			ItemID = 100212,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"Zelunium", 50, 25731}
+			},
+			NeedSource_String = "Zelunium"
+		},
+		["Skill_Sha_M_S_Armor"] = {
+			ItemID = 100213,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"Zelunium", 50, 25731}
+			},
+			NeedSource_String = "Zelunium"
+		},
+		["EnchantStone_Recipe_4m"] = {
+			ItemID = 100060,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"C흰토끼의귀", 1, 31139},
+				{"C_Autumn_Headband", 1, 31606},
+				{"C토끼뿅모자", 1, 31249},
+				{"C주황색할로윈모자", 1, 20174},
+				{"C뱀파이어헤어밴드", 1, 20098},
+				{"C검은마녀의모자", 1, 20395},
+				{"C디아볼릭헤드폰", 1, 20175},
+				{"C_Poporing_Muffler", 1, 31586},
+				{"C_Princess_Ribbon_Crown", 1, 31565},
+				{"C_LunaticMuffler", 1, 31693},
+				{"C눈토끼니트모자", 1, 19990},
+				{"C_Snow_Bear_Food", 1, 31440},
+				{"C_CatCoffeeCup_TW", 1, 31481},
+				{"C_Cat_Ears_Punkish", 1, 31382},
+				{"C_HeartOfCat_TW", 1, 31624},
+				{"C트윈마가레트", 1, 20486},
+				{"C블랙래빗보넷", 1, 20257},
+				{"C_Kishu_Inu", 1, 31600},
+				{"C_Panda_Rabbit", 1, 31512},
+				{"C_Fox", 1, 31614},
+				{"C_Full_BloomCherry_Tree", 1, 20519}
+			},
+			NeedSource_String = "Monster Costumes of April"
+		},
+		["Piercing_Mix"] = {
+			ItemID = 100053,
+			NeedCount = 2,
+			NeedRefineMin = 7,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"액서큐서너웨폰S", 1, 24156},
+				{"엑소시스트웨폰S", 1, 24157},
+				{"헌팅웨폰S", 1, 24158},
+				{"인섹트넷웨폰S", 1, 24159},
+				{"피싱웨폰S", 1, 24160},
+				{"드래곤킬러웨폰S", 1, 24161},
+				{"커럽트웨폰S", 1, 24162},
+				{"바이브레이션웨폰S", 1, 24163},
+				{"홀리워터웨폰S", 1, 24164},
+				{"시저스웨폰S", 1, 24165}
+			},
+			NeedSource_String = "+7 Pierced Shadow Equipment"
+		},
+		["Hasty_Mix"] = {
+			ItemID = 100058,
+			NeedCount = 2,
+			NeedRefineMin = 7,
+			NeedRefineMax = 20, 
+			SourceItems = {
+				{"헤이스티슈즈S2", 1, 24320},
+				{"헤이스티아머S", 1, 24197},
+				{"헤이스티슈즈S", 1, 24196}
+			},
+			NeedSource_String = "+7 Hasty Shadow Equipment"
+		},
 		["PerfectSize_Mix"] = {
 			ItemID = 100010,
 			NeedCount = 3,
@@ -12,7 +135,7 @@ tblLapineDdukddakBox = {
 				{ "미디움아머S", 1, 24073 },
 				{ "스몰아머S", 1, 24074 }
 			},
-			NeedSource_String = "+7 사이즈 쉐도우"
+			NeedSource_String = "+7 Perfect Size Shadow Equipment"
 		},
 		["MagicPiercing_Mix"] = {
 			ItemID = 100011,
@@ -30,7 +153,7 @@ tblLapineDdukddakBox = {
 				{ "매직홀리워터웨폰S", 1, 24178 },
 				{ "매직시저스웨폰S", 1, 24179 }
 			},
-			NeedSource_String = "+7 매직 피어싱 쉐도우"
+			NeedSource_String = "+7 Magic Piercing Shadow Equipment"
 		},
 		["IDTest_Special"] = {
 			ItemID = 100000,
@@ -41,7 +164,7 @@ tblLapineDdukddakBox = {
 				{ "솜털", 1, 914 },
 				{ "단단한껍질", 1, 935 }
 			},
-			NeedSource_String = "젤로피,솜털,단단한껍질"
+			NeedSource_String = "Jellopi, Fluffy, Hard Shell"
 		},
 		["EnchantStone_Recipe_9m"] = {
 			ItemID = 23967,
@@ -69,7 +192,7 @@ tblLapineDdukddakBox = {
 				{ "C_Autumn_Headband", 1, 31606 },
 				{ "C토끼뿅모자", 1, 31249 }
 			},
-			NeedSource_String = "9월의 냥다래 의상"
+			NeedSource_String = "Flower Costumes in September"
 		},
 		["Bs_Item_M_S_2"] = {
 			ItemID = 23818,
@@ -79,7 +202,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "Token_of_OrcGeneral", 150, 25508 }
 			},
-			NeedSource_String = "오크 장군의 증표, 제르늄"
+			NeedSource_String = "Orc General's Token, Zelunium"
 		},
 		["Bs_Item_M_S_8"] = {
 			ItemID = 23819,
@@ -89,7 +212,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "발할라의꽃", 150, 7510 }
 			},
-			NeedSource_String = "발할라의 꽃, 제르늄"
+			NeedSource_String = "Valhala's Flower, Zelunium"
 		},
 		["Bs_Item_M_S_10"] = {
 			ItemID = 23820,
@@ -99,7 +222,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "부서진왕관", 150, 7754 }
 			},
-			NeedSource_String = "부서진 왕관, 제르늄"
+			NeedSource_String = "Broken Crown, Zelunium"
 		},
 		["Bs_Item_M_S_11"] = {
 			ItemID = 23821,
@@ -109,7 +232,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "어머니의악몽", 150, 7020 }
 			},
-			NeedSource_String = "어머니의 악몽, 제르늄"
+			NeedSource_String = "Mother's Nightmare, Zelunium"
 		},
 		["Bs_Item_M_S_34"] = {
 			ItemID = 23822,
@@ -119,7 +242,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "해골갑옷조각", 150, 7450 }
 			},
-			NeedSource_String = "해골 갑옷 조각, 제르늄"
+			NeedSource_String = "Skeletal Armor Piece, Zelunium"
 		},
 		["Bs_Item_M_S_41"] = {
 			ItemID = 23823,
@@ -129,7 +252,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "어머니의악몽", 150, 7020 }
 			},
-			NeedSource_String = "어머니의 악몽, 제르늄"
+			NeedSource_String = "Mother's Nightmare, Zelunium"
 		},
 		["Bs_Item_M_S_42"] = {
 			ItemID = 23824,
@@ -139,7 +262,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "빛나는창날", 50, 7109 }
 			},
-			NeedSource_String = "빛나는 창날, 제르늄"
+			NeedSource_String = "Shining Spear Edge, Zelunium"
 		},
 		["Bs_Item_M_S_43"] = {
 			ItemID = 23825,
@@ -149,7 +272,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "오시리스인형", 30, 751 }
 			},
-			NeedSource_String = "오시리스 인형, 제르늄"
+			NeedSource_String = "Osiris Doll, Zelunium"
 		},
 		["Bs_Item_M_S_44"] = {
 			ItemID = 23826,
@@ -159,7 +282,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 10, 25731 },
 				{ "가름의이빨", 120, 7036 }
 			},
-			NeedSource_String = "하티의 이빨, 제르늄"
+			NeedSource_String = "Fang of Hatii, Zelunium"
 		},
 		["Bs_Sha_M_S_1"] = {
 			ItemID = 23827,
@@ -169,7 +292,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "회중시계", 50, 7513 }
 			},
-			NeedSource_String = "회중시계, 쉐도우데오콘"
+			NeedSource_String = "Pocket Watch, Shadowdecon"
 		},
 		["Bs_Sha_M_S_17"] = {
 			ItemID = 23828,
@@ -179,7 +302,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "오시리스인형", 10, 751 }
 			},
-			NeedSource_String = "오시리스 인형, 쉐도우데오콘"
+			NeedSource_String = "Osiris Doll, Shadowdecon"
 		},
 		["Bs_Sha_M_S_18"] = {
 			ItemID = 23829,
@@ -189,7 +312,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "바포메트인형", 10, 750 }
 			},
-			NeedSource_String = "바포메트 인형, 쉐도우데오콘"
+			NeedSource_String = "Baphomet Doll, Shadowdecon"
 		},
 		["Bs_Sha_M_S_19"] = {
 			ItemID = 23830,
@@ -199,7 +322,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "빛나는창날", 50, 7109 }
 			},
-			NeedSource_String = "빛나는 창날, 쉐도우데오콘"
+			NeedSource_String = "Shining Spear Edge, Shadowdecon"
 		},
 		["Bs_Sha_M_S_20"] = {
 			ItemID = 23831,
@@ -209,7 +332,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "로키의속삭임", 50, 7019 }
 			},
-			NeedSource_String = "로키의 속삭임, 쉐도우데오콘"
+			NeedSource_String = "Shining Spear Edge, Shadowdecon"
 		},
 		["Bs_Item_M_S_4"] = {
 			ItemID = 23832,
@@ -219,7 +342,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "바포메트인형", 30, 750 }
 			},
-			NeedSource_String = "바포메트인형, 제르늄"
+			NeedSource_String = "Baphomet Doll, Zelunium"
 		},
 		["Bs_Item_M_S_6"] = {
 			ItemID = 23833,
@@ -229,7 +352,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "호랑이의발바닥", 150, 1030 }
 			},
-			NeedSource_String = "호랑이 발바닥, 제르늄"
+			NeedSource_String = "Tiger's Footskin, Zelunium"
 		},
 		["Bs_Item_M_S_7"] = {
 			ItemID = 23834,
@@ -239,7 +362,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "White_Snake_Tear", 150, 25622 }
 			},
-			NeedSource_String = "하얀 뱀의 눈물, 제르늄"
+			NeedSource_String = "White Snake's Tear, Zelunium"
 		},
 		["Bs_Item_M_S_12"] = {
 			ItemID = 23835,
@@ -249,7 +372,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "원석", 150, 7300 }
 			},
-			NeedSource_String = "보석의 원석, 제르늄"
+			NeedSource_String = "Gemstone, Zelunium"
 		},
 		["Bs_Item_M_S_13"] = {
 			ItemID = 23836,
@@ -259,7 +382,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "어린나뭇가지", 150, 7018 }
 			},
-			NeedSource_String = "어린 나뭇가지, 제르늄"
+			NeedSource_String = "Young Twig, Zelunium"
 		},
 		["Bs_Item_M_S_15"] = {
 			ItemID = 23837,
@@ -269,7 +392,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "태극패", 150, 7169 }
 			},
-			NeedSource_String = "태극패, 제르늄"
+			NeedSource_String = "Taeguk Plate, Zelunium"
 		},
 		["Bs_Item_M_S_28"] = {
 			ItemID = 23838,
@@ -279,7 +402,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "얼음비늘", 150, 7562 }
 			},
-			NeedSource_String = "얼음 비늘, 제르늄"
+			NeedSource_String = "Ice Scale, Zelunium"
 		},
 		["Bs_Item_M_S_29"] = {
 			ItemID = 23839,
@@ -289,7 +412,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "원석", 150, 7300 }
 			},
-			NeedSource_String = "보석의 원석, 제르늄"
+			NeedSource_String = "Gemstone, Zelunium"
 		},
 		["Bs_Item_M_S_31"] = {
 			ItemID = 23840,
@@ -299,7 +422,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "검붉은비늘조각", 150, 6091 }
 			},
-			NeedSource_String = "검붉은 비늘 조각, 제르늄"
+			NeedSource_String = "Dark Red Scale Piece, Zelunium"
 		},
 		["Bs_Item_M_S_32"] = {
 			ItemID = 23841,
@@ -309,7 +432,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "어머니의악몽", 150, 7020 }
 			},
-			NeedSource_String = "어머니의 악몽, 제르늄"
+			NeedSource_String = "Mother's Nightmare, Zelunium"
 		},
 		["Bs_Item_M_S_33"] = {
 			ItemID = 23842,
@@ -319,7 +442,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "부서진왕관", 150, 7754 }
 			},
-			NeedSource_String = "부서진 왕관, 제르늄"
+			NeedSource_String = "Broken Crown, Zelunium"
 		},
 		["Bs_Item_M_S_36"] = {
 			ItemID = 23843,
@@ -329,7 +452,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "호랑이의발바닥", 150, 1030 }
 			},
-			NeedSource_String = "호랑이 발바닥, 제르늄"
+			NeedSource_String = "Tiger's Footskin, Zelunium"
 		},
 		["Bs_Item_M_S_37"] = {
 			ItemID = 23844,
@@ -339,7 +462,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "로키의속삭임", 150, 7019 }
 			},
-			NeedSource_String = "로키의 속삭임, 제르늄"
+			NeedSource_String = "Loki's Whispers, Zelunium"
 		},
 		["Bs_Item_M_S_38"] = {
 			ItemID = 23845,
@@ -349,7 +472,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "회중시계", 150, 7513 }
 			},
-			NeedSource_String = "회중시계, 제르늄"
+			NeedSource_String = "Pocket Watch, Zelunium"
 		},
 		["Bs_Item_M_S_39"] = {
 			ItemID = 23846,
@@ -359,7 +482,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "투탄카멘마스크", 150, 7114 }
 			},
-			NeedSource_String = "투탄카멘 마스크, 제르늄"
+			NeedSource_String = "Mask of Tutankhamen, Zelunium"
 		},
 		["Bs_Item_M_S_40"] = {
 			ItemID = 23847,
@@ -369,7 +492,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "깨진파라오상징", 150, 7113 }
 			},
-			NeedSource_String = "깨진 파라오의 상징, 제르늄"
+			NeedSource_String = "Broken Pharaoh Emblem, Zelunium"
 		},
 		["Bs_Item_M_S_45"] = {
 			ItemID = 23848,
@@ -379,7 +502,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "검붉은비늘조각", 150, 6091 }
 			},
-			NeedSource_String = "검붉은 비늘 조각, 제르늄"
+			NeedSource_String = "Dark Red Scale Piece, Zelunium"
 		},
 		["Bs_Item_M_S_46"] = {
 			ItemID = 23849,
@@ -389,7 +512,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "화룡의비늘조각", 150, 7451 }
 			},
-			NeedSource_String = "화룡의 비늘 조각, 제르늄"
+			NeedSource_String = "Fire Dragon Scale, Zelunium"
 		},
 		["Bs_Item_M_S_47"] = {
 			ItemID = 23850,
@@ -399,7 +522,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "Konts_Letter", 150, 25629 }
 			},
-			NeedSource_String = "매듭 편지, 제르늄"
+			NeedSource_String = "Knot Letter, Zelunium"
 		},
 		["Bs_Item_M_S_48"] = {
 			ItemID = 23851,
@@ -409,7 +532,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "오시리스인형", 30, 751 }
 			},
-			NeedSource_String = "오시리스 인형, 제르늄"
+			NeedSource_String = "Osiris Doll, Zelunium"
 		},
 		["Bs_Item_M_S_49"] = {
 			ItemID = 23852,
@@ -419,7 +542,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "Token_of_OrcGeneral", 150, 25508 }
 			},
-			NeedSource_String = "오크 장군의 증표, 제르늄"
+			NeedSource_String = "Orc Lord's Token, Zelunium"
 		},
 		["Bs_Item_M_S_50"] = {
 			ItemID = 23853,
@@ -429,7 +552,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "어린나뭇가지", 150, 7018 }
 			},
-			NeedSource_String = "어린 나뭇가지, 제르늄"
+			NeedSource_String = "Young Twig, Zelunium"
 		},
 		["Bs_Item_M_S_51"] = {
 			ItemID = 23894,
@@ -439,7 +562,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 20, 25731 },
 				{ "여왕의날개조각", 150, 6326 }
 			},
-			NeedSource_String = "여왕의 날개 조각, 제르늄"
+			NeedSource_String = "Piece of Queen's Wing, Zelunium"
 		},
 		["Bs_Sha_M_S_2"] = {
 			ItemID = 23854,
@@ -449,7 +572,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "화룡의비늘조각", 50, 7451 }
 			},
-			NeedSource_String = "화룡의 비늘 조각, 쉐도우데오콘"
+			NeedSource_String = "Fire Dragon Scale, Shadowdecon"
 		},
 		["Bs_Sha_M_S_5"] = {
 			ItemID = 23855,
@@ -459,7 +582,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "여왕의날개조각", 50, 6326 }
 			},
-			NeedSource_String = "여왕의 날개 조각, 쉐도우데오콘"
+			NeedSource_String = "Piece of Queen's Wing, Shadowdecon"
 		},
 		["Bs_Sha_M_S_6"] = {
 			ItemID = 23856,
@@ -469,7 +592,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "호랑이의발바닥", 50, 1030 }
 			},
-			NeedSource_String = "호랑이 발바닥, 쉐도우데오콘"
+			NeedSource_String = "Tiger's Footskin, Shadowdecon"
 		},
 		["Bs_Sha_M_S_7"] = {
 			ItemID = 23857,
@@ -479,7 +602,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "깨진방패조각", 50, 7108 }
 			},
-			NeedSource_String = "깨진 방패 조각, 쉐도우데오콘"
+			NeedSource_String = "Broken Shield Piece, Shadowdecon"
 		},
 		["Bs_Sha_M_S_8"] = {
 			ItemID = 23858,
@@ -489,7 +612,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "암흑의의지_", 50, 7566 }
 			},
-			NeedSource_String = "붉은 암흑의 의지, 쉐도우데오콘"
+			NeedSource_String = "Will of Red Darkness, Shadowdecon"
 		},
 		["Bs_Sha_M_S_13"] = {
 			ItemID = 23859,
@@ -499,7 +622,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "오크용자의증표", 50, 968 }
 			},
-			NeedSource_String = "오크 용자의 증표, 쉐도우데오콘"
+			NeedSource_String = "Orc Hero's Token, Shadowdecon"
 		},
 		["Bs_Sha_M_S_15"] = {
 			ItemID = 23860,
@@ -509,7 +632,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "Token_of_OrcGeneral", 50, 25508 }
 			},
-			NeedSource_String = "오크 장군의 증표, 쉐도우데오콘"
+			NeedSource_String = "Orc Lord's Token, Shadowdecon"
 		},
 		["Bs_Sha_M_S_16"] = {
 			ItemID = 23861,
@@ -519,7 +642,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "어머니의악몽", 50, 7020 }
 			},
-			NeedSource_String = "어머니의 악몽, 쉐도우데오콘"
+			NeedSource_String = "Mother's Nightmare, Shadowdecon"
 		},
 		["Bs_Sha_M_S_23"] = {
 			ItemID = 23862,
@@ -529,7 +652,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 20, 25729 },
 				{ "부러진뿔", 50, 6649 }
 			},
-			NeedSource_String = "부러진 뿔, 쉐도우데오콘"
+			NeedSource_String = "Broken Horn, Shadowdecon"
 		},
 		["Bs_Item_M_S_5"] = {
 			ItemID = 23863,
@@ -539,7 +662,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 25, 25731 },
 				{ "오시리스인형", 30, 751 }
 			},
-			NeedSource_String = "오시리스 인형, 제르늄"
+			NeedSource_String = "Osiris Doll, Zelunium"
 		},
 		["Bs_Item_M_S_9"] = {
 			ItemID = 23864,
@@ -549,7 +672,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 25, 25731 },
 				{ "발할라의꽃", 150, 7510 }
 			},
-			NeedSource_String = "발할라의 꽃, 제르늄"
+			NeedSource_String = "Valhala's Flower, Zelunium"
 		},
 		["Bs_Item_M_S_14"] = {
 			ItemID = 23865,
@@ -559,7 +682,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 25, 25731 },
 				{ "검붉은비늘조각", 150, 6091 }
 			},
-			NeedSource_String = "검붉은 비늘 조각, 제르늄"
+			NeedSource_String = "Dark Red Scale Piece, Zelunium"
 		},
 		["Bs_Item_M_S_16"] = {
 			ItemID = 23866,
@@ -569,7 +692,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 25, 25731 },
 				{ "암흑의의지_", 150, 7566 }
 			},
-			NeedSource_String = "붉은 암흑의 의지, 제르늄"
+			NeedSource_String = "Will of Red Darkness, Zelunium"
 		},
 		["Bs_Item_M_S_17"] = {
 			ItemID = 23867,
@@ -579,7 +702,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 25, 25731 },
 				{ "어머니의악몽", 150, 7020 }
 			},
-			NeedSource_String = "어머니의 악몽, 제르늄"
+			NeedSource_String = "Mother's Nightmare, Zelunium"
 		},
 		["Bs_Item_M_S_19"] = {
 			ItemID = 23868,
@@ -589,7 +712,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 25, 25731 },
 				{ "얼음비늘", 150, 7562 }
 			},
-			NeedSource_String = "얼음비늘, 제르늄"
+			NeedSource_String = "얼음비늘, Zelunium"
 		},
 		["Bs_Item_M_S_27"] = {
 			ItemID = 23869,
@@ -599,7 +722,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 25, 25731 },
 				{ "부서진왕관", 150, 7754 }
 			},
-			NeedSource_String = "부서진 왕관, 제르늄"
+			NeedSource_String = "Broken Crown, Zelunium"
 		},
 		["Bs_Item_M_S_35"] = {
 			ItemID = 23870,
@@ -609,7 +732,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 25, 25731 },
 				{ "암흑의의지_", 150, 7566 }
 			},
-			NeedSource_String = "붉은 암흑의 의지, 제르늄"
+			NeedSource_String = "Will of Red Darkness, Zelunium"
 		},
 		["Bs_Sha_M_S_9"] = {
 			ItemID = 23871,
@@ -619,7 +742,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 25, 25729 },
 				{ "어린나뭇가지", 50, 7018 }
 			},
-			NeedSource_String = "어린 나뭇가지, 쉐도우데오콘"
+			NeedSource_String = "Young Twig, Shadowdecon"
 		},
 		["Bs_Sha_M_S_10"] = {
 			ItemID = 23872,
@@ -629,7 +752,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 25, 25729 },
 				{ "호랑이의발바닥", 50, 1030 }
 			},
-			NeedSource_String = "호랑이 발바닥, 쉐도우데오콘"
+			NeedSource_String = "Tiger's Footskin, Shadowdecon"
 		},
 		["Bs_Sha_M_S_11"] = {
 			ItemID = 23873,
@@ -639,7 +762,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 25, 25729 },
 				{ "암흑의의지_", 50, 7566 }
 			},
-			NeedSource_String = "붉은 암흑의 의지, 쉐도우데오콘"
+			NeedSource_String = "Will of Red Darkness, Shadowdecon"
 		},
 		["Bs_Sha_M_S_21"] = {
 			ItemID = 23874,
@@ -649,7 +772,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 25, 25729 },
 				{ "빛나는창날", 10, 7109 }
 			},
-			NeedSource_String = "빛나는 창날, 쉐도우데오콘"
+			NeedSource_String = "Shining Spear Edge, Shadowdecon"
 		},
 		["Bs_Sha_M_S_22"] = {
 			ItemID = 23875,
@@ -659,7 +782,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 25, 25729 },
 				{ "가름의이빨", 50, 7036 }
 			},
-			NeedSource_String = "하티의 이빨, 쉐도우데오콘"
+			NeedSource_String = "Fang of Hatii, Shadowdecon"
 		},
 		["Bs_Item_M_S_1"] = {
 			ItemID = 23876,
@@ -669,7 +792,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "발할라의꽃", 300, 7510 }
 			},
-			NeedSource_String = "발할라의 꽃, 제르늄"
+			NeedSource_String = "Valhala's Flower, Zelunium"
 		},
 		["Bs_Item_M_S_3"] = {
 			ItemID = 23877,
@@ -679,7 +802,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "부서진왕관", 150, 7754 }
 			},
-			NeedSource_String = "부서진 왕관, 제르늄"
+			NeedSource_String = "Broken Crown, Zelunium"
 		},
 		["Bs_Item_M_S_18"] = {
 			ItemID = 23879,
@@ -689,7 +812,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "로제타스톤", 150, 7211 }
 			},
-			NeedSource_String = "로제타스톤 조각, 제르늄"
+			NeedSource_String = "Rosetta Stone Piece, Zelunium"
 		},
 		["Bs_Item_M_S_20"] = {
 			ItemID = 23880,
@@ -699,7 +822,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "로키의속삭임", 200, 7019 }
 			},
-			NeedSource_String = "로키의 속삭임, 제르늄"
+			NeedSource_String = "Loki's Whispers, Zelunium"
 		},
 		["Bs_Item_M_S_21"] = {
 			ItemID = 23881,
@@ -709,7 +832,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "부러진뿔", 150, 6649 }
 			},
-			NeedSource_String = "부러진 뿔, 제르늄"
+			NeedSource_String = "Broken Horn, Zelunium"
 		},
 		["Bs_Item_M_S_22"] = {
 			ItemID = 23882,
@@ -719,7 +842,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "태극패", 150, 7169 }
 			},
-			NeedSource_String = "태극패, 제르늄"
+			NeedSource_String = "Taeguk Plate, Zelunium"
 		},
 		["Bs_Item_M_S_23"] = {
 			ItemID = 23883,
@@ -729,7 +852,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "가름의이빨", 150, 7036 }
 			},
-			NeedSource_String = "하티의 이빨, 제르늄"
+			NeedSource_String = "Fang of Hatii, Zelunium"
 		},
 		["Bs_Item_M_S_24"] = {
 			ItemID = 23884,
@@ -739,7 +862,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "원석", 150, 7300 }
 			},
-			NeedSource_String = "보석의 원석, 제르늄"
+			NeedSource_String = "Gemstone, Zelunium"
 		},
 		["Bs_Item_M_S_25"] = {
 			ItemID = 23885,
@@ -749,7 +872,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "어린나뭇가지", 150, 7018 }
 			},
-			NeedSource_String = "어린 나뭇가지, 제르늄"
+			NeedSource_String = "Young Twig, Zelunium"
 		},
 		["Bs_Item_M_S_26"] = {
 			ItemID = 23886,
@@ -759,7 +882,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "깨진방패조각", 150, 7108 }
 			},
-			NeedSource_String = "깨진 방패 조각, 제르늄"
+			NeedSource_String = "Broken Shield Piece, Zelunium"
 		},
 		["Bs_Item_M_S_30"] = {
 			ItemID = 23887,
@@ -769,7 +892,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 30, 25731 },
 				{ "빛나는창날", 50, 7109 }
 			},
-			NeedSource_String = "빛나는 창날, 제르늄"
+			NeedSource_String = "Shining Spear Edge, Zelunium"
 		},
 		["Bs_Sha_M_S_3"] = {
 			ItemID = 23888,
@@ -779,7 +902,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 30, 25729 },
 				{ "해골갑옷조각", 50, 7450 }
 			},
-			NeedSource_String = "해골 갑옷 조각, 쉐도우데오콘"
+			NeedSource_String = "Skeletal Armor Piece, Shadowdecon"
 		},
 		["Bs_Sha_M_S_4"] = {
 			ItemID = 23889,
@@ -789,7 +912,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 30, 25729 },
 				{ "Konts_Letter", 50, 25629 }
 			},
-			NeedSource_String = "매듭 편지, 쉐도우데오콘"
+			NeedSource_String = "Knot Letter, Shadowdecon"
 		},
 		["Bs_Sha_M_S_12"] = {
 			ItemID = 23890,
@@ -799,7 +922,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 30, 25729 },
 				{ "태극패", 50, 7169 }
 			},
-			NeedSource_String = "태극패, 쉐도우데오콘"
+			NeedSource_String = "Taeguk Plate, Shadowdecon"
 		},
 		["Bs_Sha_M_S_14"] = {
 			ItemID = 23891,
@@ -809,7 +932,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 30, 25729 },
 				{ "로키의속삭임", 50, 7019 }
 			},
-			NeedSource_String = "로키의 속삭임, 쉐도우데오콘"
+			NeedSource_String = "Loki's Whispers, Shadowdecon"
 		},
 		["Bs_Sha_M_S_24"] = {
 			ItemID = 23892,
@@ -819,7 +942,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 25, 25729 },
 				{ "회중시계", 150, 7513 }
 			},
-			NeedSource_String = "회중시계, 쉐도우데오콘"
+			NeedSource_String = "Pocket Watch, Shadowdecon"
 		},
 		["Bs_Sha_M_S_25"] = {
 			ItemID = 23893,
@@ -829,7 +952,7 @@ tblLapineDdukddakBox = {
 				{ "Shadowdecon", 25, 25729 },
 				{ "원석", 150, 7300 }
 			},
-			NeedSource_String = "보석의 원석, 쉐도우데오콘"
+			NeedSource_String = "Gemstone, Shadowdecon"
 		},
 		["PhysicalMagical_Mix"] = {
 			ItemID = 23665,
@@ -843,7 +966,7 @@ tblLapineDdukddakBox = {
 				{ "매지컬이어링S", 1, 24021 },
 				{ "매지컬펜던트S", 1, 24023 }
 			},
-			NeedSource_String = "피지컬매지컬 쉐도우"
+			NeedSource_String = "Physical and Magical Shadow Equipment"
 		},
 		["ImmunedAthena_Mix"] = {
 			ItemID = 23666,
@@ -854,7 +977,7 @@ tblLapineDdukddakBox = {
 				{ "아테나쉴드S", 1, 24026 },
 				{ "아테나이어링S", 1, 24051 }
 			},
-			NeedSource_String = "이뮨드아테나 쉐도우"
+			NeedSource_String = "Immune and Athena Shadow Equipment"
 		},
 		["HardChamption_Mix"] = {
 			ItemID = 23667,
@@ -865,7 +988,7 @@ tblLapineDdukddakBox = {
 				{ "하드이어링S", 1, 24049 },
 				{ "챔피언슈즈S", 1, 24025 }
 			},
-			NeedSource_String = "하드챔피언 쉐도우"
+			NeedSource_String = "Hard Champion Shadow Equipment"
 		},
 		["KingbirdAncient_Mix"] = {
 			ItemID = 23668,
@@ -875,7 +998,7 @@ tblLapineDdukddakBox = {
 				{ "킹버드웨폰S", 1, 24031 },
 				{ "에이션트아머S", 1, 24029 }
 			},
-			NeedSource_String = "킹버드에이션트 쉐도우"
+			NeedSource_String = "Kingbird and Ancient Shadow Equipment"
 		},
 		["CriticalHit_Mix"] = {
 			ItemID = 23669,
@@ -887,7 +1010,7 @@ tblLapineDdukddakBox = {
 				{ "크리히트웨폰S", 1, 24032 },
 				{ "크리티컬아머S", 1, 24030 }
 			},
-			NeedSource_String = "크리티컬 쉐도우"
+			NeedSource_String = "Critical Hit Shadow Equipment"
 		},
 		["Silver_Statue"] = {
 			ItemID = 23545,
@@ -896,7 +1019,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "Bloody_Knight_Shield", 1, 28942 }
 			},
-			NeedSource_String = "저주받은 기사의 방패"
+			NeedSource_String = "Cursed Knight's Shield"
 		},
 		["InfinityShadow_Mix"] = {
 			ItemID = 23474,
@@ -906,7 +1029,7 @@ tblLapineDdukddakBox = {
 				{ "인피니티이어링S", 1, 24150 },
 				{ "인피니티펜던트S", 1, 24151 }
 			},
-			NeedSource_String = "+7 인피니티 쉐도우"
+			NeedSource_String = "+7 Infinity Shadow Equipment"
 		},
 		["스테빌리티S변환상자"] = {
 			ItemID = 23324,
@@ -932,7 +1055,7 @@ tblLapineDdukddakBox = {
 				{ "언커즈이어링S", 1, 24107 },
 				{ "언커즈펜던트S", 1, 24108 }
 			},
-			NeedSource_String = "+5 상태이상 쉐도우"
+			NeedSource_String = "+5 Abnormal Shadow Equipment"
 		},
 		["부스터증폭기"] = {
 			ItemID = 23308,
@@ -941,7 +1064,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "매지컬부스터K", 1, 19241 }
 			},
-			NeedSource_String = "매지컬 부스터"
+			NeedSource_String = "Magical Booster"
 		},
 		["마법고양이손"] = {
 			ItemID = 23311,
@@ -950,7 +1073,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "고양이레이스머리띠K", 1, 19242 }
 			},
-			NeedSource_String = "새끼 고양이 헤드드레스"
+			NeedSource_String = "Cat Headdress"
 		},
 		["사탕축복스크롤_물리"] = {
 			ItemID = 23289,
@@ -959,7 +1082,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "안토니오가방_물리", 1, 20842 }
 			},
-			NeedSource_String = "사탕 주머니 가방(물리)"
+			NeedSource_String = "Candy Pouch Bag (Physical)"
 		},
 		["사탕축복스크롤_원거리"] = {
 			ItemID = 23290,
@@ -968,7 +1091,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "안토니오가방_원거리", 1, 20843 }
 			},
-			NeedSource_String = "사탕 주머니 가방(원거리)"
+			NeedSource_String = "Candy Pouch Bag (Ranged)"
 		},
 		["사탕축복스크롤_마법"] = {
 			ItemID = 23291,
@@ -977,7 +1100,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "안토니오가방_마법", 1, 20844 }
 			},
-			NeedSource_String = "사탕 주머니 가방(마법)"
+			NeedSource_String = "Candy Pouch Bag (Magical)"
 		},
 		["레이스S변환상자"] = {
 			ItemID = 23281,
@@ -1003,7 +1126,7 @@ tblLapineDdukddakBox = {
 				{ "블러디슈즈S", 1, 24062 },
 				{ "드라군슈즈S", 1, 24071 }
 			},
-			NeedSource_String = "+7 레이스 쉐도우"
+			NeedSource_String = "+7 Race Shadow Equipment"
 		},
 		["컴포즈S변환상자"] = {
 			ItemID = 23250,
@@ -1015,7 +1138,7 @@ tblLapineDdukddakBox = {
 				{ "라이트닝볼트아머S", 1, 24221 },
 				{ "어스스파이크아머S", 1, 24222 }
 			},
-			NeedSource_String = "+7 볼트계열 쉐도우"
+			NeedSource_String = "+7 Bolt Shadow Equipment"
 		},
 		["베어러즈S변환상자"] = {
 			ItemID = 23249,
@@ -1029,7 +1152,7 @@ tblLapineDdukddakBox = {
 				{ "베어러즈웨폰S", 1, 24183 },
 				{ "베어러즈펜던트S", 1, 24185 }
 			},
-			NeedSource_String = "+7 베어러즈 쉐도우"
+			NeedSource_String = "+7 Bearer's Shadow Equipment"
 		},
 		["젬스톤S변환상자"] = {
 			ItemID = 23248,
@@ -1043,7 +1166,7 @@ tblLapineDdukddakBox = {
 				{ "젬스톤이어링S", 1, 24088 },
 				{ "젬스톤웨폰S", 1, 24087 }
 			},
-			NeedSource_String = "+7 젬스톤 쉐도우"
+			NeedSource_String = "+7 Gemstone Shadow Equipment"
 		},
 		["스테이터스S변환상자"] = {
 			ItemID = 23247,
@@ -1063,7 +1186,7 @@ tblLapineDdukddakBox = {
 				{ "바이탈쉴드S", 1, 24044 },
 				{ "어틀레틱슈즈S", 1, 24045 }
 			},
-			NeedSource_String = "+7 스테이터스 쉐도우"
+			NeedSource_String = "+7 Status Shadow Equipment"
 		},
 		["직업S변환상자_웨폰"] = {
 			ItemID = 23236,
@@ -1090,7 +1213,7 @@ tblLapineDdukddakBox = {
 				{ "민스트럴웨폰S", 1, 24299 },
 				{ "원더러웨폰S", 1, 24300 }
 			},
-			NeedSource_String = "+7 클래스 웨폰 쉐도우"
+			NeedSource_String = "+7 Class Weapon Shadow Equipment"
 		},
 		["직업S변환상자_아머"] = {
 			ItemID = 23237,
@@ -1118,7 +1241,7 @@ tblLapineDdukddakBox = {
 				{ "S_Star_Emperor_Armor", 1, 24412 },
 				{ "S_Soul_Reaper_Armor", 1, 24414 }
 			},
-			NeedSource_String = "+7 클래스 아머 쉐도우"
+			NeedSource_String = "+7 Class Armor Shadow Equipment"
 		},
 		["직업S변환상자_슈즈"] = {
 			ItemID = 23238,
@@ -1146,7 +1269,7 @@ tblLapineDdukddakBox = {
 				{ "S_Star_Emperor_Shoes", 1, 24413 },
 				{ "S_Soul_Reaper_Shoes", 1, 24415 }
 			},
-			NeedSource_String = "+7 클래스 슈즈 쉐도우"
+			NeedSource_String = "+7 Class Shoes Shadow Equipment"
 		},
 		["직업S변환상자_쉴드"] = {
 			ItemID = 23239,
@@ -1173,7 +1296,7 @@ tblLapineDdukddakBox = {
 				{ "슈퍼노비스쉴드S", 1, 24318 },
 				{ "건슬링거쉴드S", 1, 24319 }
 			},
-			NeedSource_String = "+7 클래스 쉴드 쉐도우"
+			NeedSource_String = "+7 Class Shield Shadow Equipment"
 		},
 		["직업S변환상자_펜던트"] = {
 			ItemID = 23240,
@@ -1187,7 +1310,7 @@ tblLapineDdukddakBox = {
 				{ "매지션펜던트S", 1, 24254 },
 				{ "아처펜던트S", 1, 24255 }
 			},
-			NeedSource_String = "+7 클래스 펜던트 쉐도우"
+			NeedSource_String = "+7 Class Pendant Shadow Equipment"
 		},
 		["직업S변환상자_이어링"] = {
 			ItemID = 23241,
@@ -1201,7 +1324,7 @@ tblLapineDdukddakBox = {
 				{ "씨프이어링S", 1, 28391 },
 				{ "아처이어링S", 1, 28392 }
 			},
-			NeedSource_String = "+7 클래스 이어링 쉐도우"
+			NeedSource_String = "+7 Class Earring Shadow Equipment"
 		},
 		["타락천사날개초기화권"] = {
 			ItemID = 23229,
@@ -1211,7 +1334,7 @@ tblLapineDdukddakBox = {
 				{ "K타락천사의날개", 1, 20835 },
 				{ "타락천사의날개", 1, 2589 }
 			},
-			NeedSource_String = "타락천사의 날개"
+			NeedSource_String = "Fallen Angel Wings"
 		},
 		["쉐도우뚝딱상자"] = {
 			ItemID = 22529,
@@ -1623,7 +1746,7 @@ tblLapineDdukddakBox = {
 				{ "S_M_Fis_In_Weapon", 1, 24430 },
 				{ "S_M_Exe_Ho_Weapon", 1, 24431 }
 			},
-			NeedSource_String = "쉐도우 아이템"
+			NeedSource_String = "Shadow Equipment"
 		},
 		["건슬링거두루마리"] = {
 			ItemID = 23100,
@@ -1632,7 +1755,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "늘어진건슬링거", 1, 19157 }
 			},
-			NeedSource_String = "늘어진 건슬링거"
+			NeedSource_String = "Drooping Rebel"
 		},
 		["선풍기개조키트"] = {
 			ItemID = 23170,
@@ -1641,7 +1764,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "해달선풍기", 1, 28439 }
 			},
-			NeedSource_String = "해달 미니 선풍기"
+			NeedSource_String = "Sea-Otter Mini Fan"
 		},
 		["제복수선키트"] = {
 			ItemID = 23175,
@@ -1650,7 +1773,7 @@ tblLapineDdukddakBox = {
 			SourceItems = {
 				{ "카프라제복", 1, 15186 }
 			},
-			NeedSource_String = "카프라 제복"
+			NeedSource_String = "Kafra Costume"
 		},
 		["의상스톤뚝딱상자"] = {
 			ItemID = 23151,
@@ -1838,7 +1961,7 @@ tblLapineDdukddakBox = {
 				{ "DoramStone_Bottom", 1, 25861 },
 				{ "DoramStone_Robe", 1, 25862 }
 			},
-			NeedSource_String = "의상인챈트스톤"
+			NeedSource_String = "Costume Enchant Stone"
 		},
 		["수집품뚝딱상자"] = {
 			ItemID = 23152,
@@ -2057,7 +2180,7 @@ tblLapineDdukddakBox = {
 				{ "곱게낡은인형", 10, 25312 },
 				{ "오래된등껍질", 10, 25313 }
 			},
-			NeedSource_String = "수집품"
+			NeedSource_String = "Collectibles"
 		},
 		["펫알뚝딱상자"] = {
 			ItemID = 23153,
@@ -2135,7 +2258,7 @@ tblLapineDdukddakBox = {
 				{ "미야비인형알", 1, 9048 },
 				{ "리프캣알", 1, 9041 }
 			},
-			NeedSource_String = "펫 알"
+			NeedSource_String = "Pet Egg"
 		},
 		["냥다래의상뚝딱상자"] = {
 			ItemID = 23154,
@@ -2351,7 +2474,7 @@ tblLapineDdukddakBox = {
 				{ "C_CatCoffeeCup_TW", 1, 31481 },
 				{ "C_HeartOfCat_TW", 1, 31624 }
 			},
-			NeedSource_String = "냥다래 의상"
+			NeedSource_String = "Monster Costumes"
 		}
 	},
 	get_lapine_box = function(in_box_id)
