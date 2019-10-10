@@ -5103,85 +5103,85 @@ StateIconList[EFST_IDs.EFST_SUNSTANCE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "태양의 자세", COLOR_TITLE_BUFF },
+		{ "Sun Stance", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ATK 증가" },
-		{ "태양 계열 스킬 사용 가능" }
+		{ "ATK Increase" },
+		{ "Solar Skills available" }
 	}
 }
 StateIconList[EFST_IDs.EFST_LUNARSTANCE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "달의 자세", COLOR_TITLE_BUFF },
+		{ "Lunar Stance", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "MaxHP 증가" },
-		{ "달 계열 스킬 사용 가능" }
+		{ "MaxHP Increase" },
+		{ "Lunar Skills available" }
 	}
 }
 StateIconList[EFST_IDs.EFST_STARSTANCE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "별의 자세", COLOR_TITLE_BUFF },
+		{ "Star Stance", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "공격속도 증가" },
-		{ "별 계열 스킬 사용 가능" }
+		{ "ASPD Increase" },
+		{ "Star Skills available" }
 	}
 }
 StateIconList[EFST_IDs.EFST_UNIVERSESTANCE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "우주의 자세", COLOR_TITLE_BUFF },
+		{ "Universe Stance", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "모든 스테이터스 증가" },
-		{ "우주 계열 스킬 사용 가능" },
-		{ "태양 계열 스킬 사용 가능" },
-		{ "달 계열 스킬 사용 가능" },
-		{ "별 계열 스킬 사용 가능" }
+		{ "All Stats Increase" },
+		{ "Space Skills available" },
+		{ "Solar Skills available" },
+		{ "Lunar Skills available" },
+		{ "Star Skills available" }
 	}
 }
 StateIconList[EFST_IDs.EFST_LIGHTOFSUN] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "태양의 빛", COLOR_TITLE_BUFF },
+		{ "Light of Sun", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "태양 폭발 데미지 증가" }
+		{ "Solar Burst Damage Increase" }
 	}
 }
 StateIconList[EFST_IDs.EFST_LIGHTOFMOON] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "달의 빛", COLOR_TITLE_BUFF },
+		{ "Light of Moon", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "만월각 데미지 증가" }
+		{ "Full Moon Kick Damage Increase" }
 	}
 }
 StateIconList[EFST_IDs.EFST_LIGHTOFSTAR] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "별의 빛", COLOR_TITLE_BUFF },
+		{ "Light of Star", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "유성낙하 데미지 증가" }
+		{ "Falling Star Damage Increase" }
 	}
 }
 StateIconList[EFST_IDs.EFST_FLASHKICK] = {
 	descript = {
-		{ "별의 징표", COLOR_TITLE_DEBUFF }
+		{ "Mark of the Stars", COLOR_TITLE_DEBUFF }
 	}
 }
 StateIconList[EFST_IDs.EFST_NEWMOON] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "삭월", COLOR_TITLE_BUFF },
+		{ "New Moon", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "모습이 보이지 않는다" },
-		{ "만월각 사용 가능" }
+		{ "Hidden" },
+		{ "Full Moon Kick available" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CREATINGSTAR] = {
@@ -5192,104 +5192,104 @@ StateIconList[EFST_IDs.EFST_CREATINGSTAR] = {
 }
 StateIconList[EFST_IDs.EFST_GRAVITYCONTROL] = {
 	descript = {
-		{ "중력 조절", COLOR_TITLE_DEBUFF },
-		{ "공격 및 이동 불가" }
+		{ "Gravity Control", COLOR_TITLE_DEBUFF },
+		{ "Attack and Movement disabled" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULCOLLECT] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "영혼 축적", COLOR_TITLE_BUFF },
+		{ "Soul Collect", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "일정 시간마다 영혼에너지 축적" }
+		{ "Collect Soul Energy over time" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULREAPER] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "영혼 수확", COLOR_TITLE_BUFF },
+		{ "Soul Harvest", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "공격 시, 일정 확률로" },
-		{ "영혼 에너지 획득" }
+		{ "Chance on attacks to" },
+		{ "harvest Souls" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULUNITY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "영혼 결속", COLOR_TITLE_BUFF },
+		{ "Soul Bond", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "3초당 HP 회복" },
-		{ "카우트 가능 대상." }
+		{ "HP Recovery every 3 seconds" },
+		{ "on yourself an party." }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULSHADOW] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "그림자의 영혼 부여", COLOR_TITLE_BUFF },
+		{ "Shadow Soul", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "CRI 증가" },
-		{ "ASPD 증가" }
+		{ "CRI Increase" },
+		{ "ASPD Increase" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULFAIRY] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "요정의 영혼 부여", COLOR_TITLE_BUFF },
+		{ "Fairy Soul", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "MATK 증가" },
-		{ "변동 캐스팅 감소" }
+		{ "MATK Increase" },
+		{ "Variable Cast-Time Reduction" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULFALCON] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "매의 영혼 부여", COLOR_TITLE_BUFF },
+		{ "Falcon Soul", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ATK 증가" },
-		{ "명중률 증가" }
+		{ "ATK Increase" },
+		{ "HIT Increase" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULGOLEM] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "골렘의 영혼 부여", COLOR_TITLE_BUFF },
+		{ "Golem Soul", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "DEF 증가" },
-		{ "MDEF 증가" }
+		{ "DEF Increase" },
+		{ "MDEF Increase" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULDIVISION] = {
 	descript = {
-		{ "영혼 분열", COLOR_TITLE_DEBUFF },
-		{ "스킬 후 딜레이 증가" }
+		{ "Soul Division", COLOR_TITLE_DEBUFF },
+		{ "Delay After Skill Increase" }
 	}
 }
 StateIconList[EFST_IDs.EFST_FALLINGSTAR] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "유성 낙하", COLOR_TITLE_BUFF },
+		{ "Falling Star", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "공격시 일정 확률로" },
-		{ "별의 징표 대상에게" },
-		{ "유성이 떨어진다" }
+		{ "Chance to hit" },
+		{ "targets with Stellar Mark" },
+		{ "with Falling Stars" }
 	}
 }
 StateIconList[EFST_IDs.EFST_DIMENSION] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "차원의 서", COLOR_TITLE_BUFF },
+		{ "Book of Dimension", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "신성폭발, 성제강림 사용 시" },
-		{ "특수 효과 발동" }
+		{ "Nova Explosion + Advent of the Star Emperor" },
+		{ "will have special effects" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULLINK] = {
@@ -5319,7 +5319,7 @@ StateIconList[EFST_IDs.EFST_SACRIFICE] = {
 		{ "세크리 파이스", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "일반 근접 물리 공격" },
-		{ "데미지 증가" },
+		{ "데미지 Increase" },
 		{ "1회 공격당 HP 소모" }
 	}
 }

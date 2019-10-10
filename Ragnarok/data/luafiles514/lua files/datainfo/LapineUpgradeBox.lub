@@ -1,5 +1,513 @@
 tblLapineUpgradeBox = {
 	targets = {
+		["Class_Sha_R_M_Melee"] = {
+			ItemID = 100205,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true, 
+			TargetItems = {
+				{"소드맨이어링S", 24246},
+				{"머천트이어링S", 24247},
+				{"어콜라이트이어링S", 24248},
+				{"매지션이어링S", 24249},
+				{"소드맨펜던트S", 24250},
+				{"머천트펜던트S", 24251},
+				{"어콜라이트펜던트S", 24252},
+				{"씨프펜던트S", 24253},
+				{"매지션펜던트S", 24254},
+				{"아처펜던트S", 24255},
+				{"나이트슈즈S", 24256},
+				{"크루세이더슈즈S", 24257},
+				{"블랙스미스슈즈S", 24258},
+				{"알케미스트슈즈S", 24259},
+				{"프리스트슈즈S", 24260},
+				{"몽크슈즈S", 24261},
+				{"어쌔신슈즈S", 24262},
+				{"로그슈즈S", 24263},
+				{"위저드슈즈S", 24264},
+				{"세이지슈즈S", 24265},
+				{"헌터슈즈S", 24266},
+				{"바드슈즈S", 24267},
+				{"댄서슈즈S", 24268},
+				{"나이트아머S", 24269},
+				{"크루세이더아머S", 24270},
+				{"블랙스미스아머S", 24271},
+				{"알케미스트아머S", 24272},
+				{"프리스트아머S", 24273},
+				{"몽크아머S", 24274},
+				{"어쌔신아머S", 24275},
+				{"로그아머S", 24276},
+				{"위저드아머S", 24277},
+				{"세이지아머S", 24278},
+				{"헌터아머S", 24279},
+				{"바드아머S", 24280},
+				{"댄서아머S", 24281},
+				{"슈퍼노비스웨폰S", 24282},
+				{"건슬링거웨폰S", 24283},
+				{"태권웨폰S", 24284},
+				{"닌자웨폰S", 24285},
+				{"도람매지컬웨폰S", 24286},
+				{"도람피지컬웨폰S", 24287},
+				{"룬나이트웨폰S", 24288},
+				{"로얄가드웨폰S", 24289},
+				{"미케닉웨폰S", 24290},
+				{"제네릭웨폰S", 24291},
+				{"아크비숍웨폰S", 24292},
+				{"수라웨폰S", 24293},
+				{"길로틴크로스웨폰S", 24294},
+				{"쉐도우체이서웨폰S", 24295},
+				{"워록웨폰S", 24296},
+				{"소서러웨폰S", 24297},
+				{"레인져웨폰S", 24298},
+				{"민스트럴웨폰S", 24299},
+				{"원더러웨폰S", 24300},
+				{"룬나이트쉴드S", 24301},
+				{"로얄가드쉴드S", 24302},
+				{"미케닉쉴드S", 24303},
+				{"제네릭쉴드S", 24304},
+				{"아크비숍쉴드S", 24305},
+				{"수라쉴드S", 24306},
+				{"길로틴크로스쉴드S", 24307},
+				{"쉐도우체이서쉴드S", 24308},
+				{"워록쉴드S", 24309},
+				{"소서러쉴드S", 24310},
+				{"레인져쉴드S", 24311},
+				{"민스트럴쉴드S", 24312},
+				{"원더러쉴드S", 24313},
+				{"닌자쉴드S", 24314},
+				{"태권쉴드S", 24315},
+				{"도람피지컬쉴드S", 24316},
+				{"도람매지컬쉴드S", 24317},
+				{"슈퍼노비스쉴드S", 24318},
+				{"건슬링거쉴드S", 24319},
+				{"씨프이어링S", 28391},
+				{"아처이어링S", 28392},
+				{"S_Rebellion_Armor", 24402},
+				{"S_Kagerou_Armor", 24403},
+				{"S_Oboro_Armor", 24404},
+				{"S_Rebellion_Shoes", 24405},
+				{"S_Kagerou_Shoes", 24406},
+				{"S_Oboro_Shoes", 24407},
+				{"S_DoramPhysical_Armor", 24408},
+				{"S_DoramPhysical_Shoes", 24409},
+				{"S_DoramMagical_Armor", 24410},
+				{"S_DoramMagical_Shoes", 24411},
+				{"S_Star_Emperor_Armor", 24412},
+				{"S_Star_Emperor_Shoes", 24413},
+				{"S_Soul_Reaper_Armor", 24414},
+				{"S_Soul_Reaper_Shoes", 24415}
+			},
+			NeedSource_String = "Class Shadow Equipment"
+		},
+		["Class_Sha_R_M_Magic"] = {
+			ItemID = 100206,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true, 
+			TargetItems = {
+				{"소드맨이어링S", 24246},
+				{"머천트이어링S", 24247},
+				{"어콜라이트이어링S", 24248},
+				{"매지션이어링S", 24249},
+				{"소드맨펜던트S", 24250},
+				{"머천트펜던트S", 24251},
+				{"어콜라이트펜던트S", 24252},
+				{"씨프펜던트S", 24253},
+				{"매지션펜던트S", 24254},
+				{"아처펜던트S", 24255},
+				{"나이트슈즈S", 24256},
+				{"크루세이더슈즈S", 24257},
+				{"블랙스미스슈즈S", 24258},
+				{"알케미스트슈즈S", 24259},
+				{"프리스트슈즈S", 24260},
+				{"몽크슈즈S", 24261},
+				{"어쌔신슈즈S", 24262},
+				{"로그슈즈S", 24263},
+				{"위저드슈즈S", 24264},
+				{"세이지슈즈S", 24265},
+				{"헌터슈즈S", 24266},
+				{"바드슈즈S", 24267},
+				{"댄서슈즈S", 24268},
+				{"나이트아머S", 24269},
+				{"크루세이더아머S", 24270},
+				{"블랙스미스아머S", 24271},
+				{"알케미스트아머S", 24272},
+				{"프리스트아머S", 24273},
+				{"몽크아머S", 24274},
+				{"어쌔신아머S", 24275},
+				{"로그아머S", 24276},
+				{"위저드아머S", 24277},
+				{"세이지아머S", 24278},
+				{"헌터아머S", 24279},
+				{"바드아머S", 24280},
+				{"댄서아머S", 24281},
+				{"슈퍼노비스웨폰S", 24282},
+				{"건슬링거웨폰S", 24283},
+				{"태권웨폰S", 24284},
+				{"닌자웨폰S", 24285},
+				{"도람매지컬웨폰S", 24286},
+				{"도람피지컬웨폰S", 24287},
+				{"룬나이트웨폰S", 24288},
+				{"로얄가드웨폰S", 24289},
+				{"미케닉웨폰S", 24290},
+				{"제네릭웨폰S", 24291},
+				{"아크비숍웨폰S", 24292},
+				{"수라웨폰S", 24293},
+				{"길로틴크로스웨폰S", 24294},
+				{"쉐도우체이서웨폰S", 24295},
+				{"워록웨폰S", 24296},
+				{"소서러웨폰S", 24297},
+				{"레인져웨폰S", 24298},
+				{"민스트럴웨폰S", 24299},
+				{"원더러웨폰S", 24300},
+				{"룬나이트쉴드S", 24301},
+				{"로얄가드쉴드S", 24302},
+				{"미케닉쉴드S", 24303},
+				{"제네릭쉴드S", 24304},
+				{"아크비숍쉴드S", 24305},
+				{"수라쉴드S", 24306},
+				{"길로틴크로스쉴드S", 24307},
+				{"쉐도우체이서쉴드S", 24308},
+				{"워록쉴드S", 24309},
+				{"소서러쉴드S", 24310},
+				{"레인져쉴드S", 24311},
+				{"민스트럴쉴드S", 24312},
+				{"원더러쉴드S", 24313},
+				{"닌자쉴드S", 24314},
+				{"태권쉴드S", 24315},
+				{"도람피지컬쉴드S", 24316},
+				{"도람매지컬쉴드S", 24317},
+				{"슈퍼노비스쉴드S", 24318},
+				{"건슬링거쉴드S", 24319},
+				{"씨프이어링S", 28391},
+				{"아처이어링S", 28392},
+				{"S_Rebellion_Armor", 24402},
+				{"S_Kagerou_Armor", 24403},
+				{"S_Oboro_Armor", 24404},
+				{"S_Rebellion_Shoes", 24405},
+				{"S_Kagerou_Shoes", 24406},
+				{"S_Oboro_Shoes", 24407},
+				{"S_DoramPhysical_Armor", 24408},
+				{"S_DoramPhysical_Shoes", 24409},
+				{"S_DoramMagical_Armor", 24410},
+				{"S_DoramMagical_Shoes", 24411},
+				{"S_Star_Emperor_Armor", 24412},
+				{"S_Star_Emperor_Shoes", 24413},
+				{"S_Soul_Reaper_Armor", 24414},
+				{"S_Soul_Reaper_Shoes", 24415}
+			},
+			NeedSource_String = "Class Shadow Equipment"
+		},
+		["Skill_Sha_R_M_Melee"] = {
+			ItemID = 100207,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true, 
+			TargetItems = {
+				{"S_Sonic_Armor", 24440},
+				{"S_Sonic_Shield", 24441},
+				{"S_Sonic_Shoes", 24442},
+				{"S_Ignition_Weapon", 24443},
+				{"S_Ignition_Pendant", 24444},
+				{"S_Ignition_Earing", 24445},
+				{"S_W_Breath_Armor", 24446},
+				{"S_W_Breath_Shield", 24447},
+				{"S_W_Breath_Shoes", 24448},
+				{"S_F_Breath_Weapon", 24449},
+				{"S_F_Breath_Pendant", 24450},
+				{"S_F_Breath_Earing", 24451},
+				{"S_Cluster_Armor", 24452},
+				{"S_Cluster_Shield", 24453},
+				{"S_Cluster_Shoes", 24454},
+				{"S_Aimed_Weapon", 24455},
+				{"S_Aimed_Pendant", 24456},
+				{"S_Aimed_Earing", 24457},
+				{"S_Arrow_Armor", 24458},
+				{"S_Arrow_Shield", 24459},
+				{"S_Arrow_Shoes", 24460},
+				{"S_Shooting_Weapon", 24461},
+				{"S_Shooting_Pendant", 24462},
+				{"S_Shooting_Earing", 24463},
+				{"S_Tornado_Armor", 24464},
+				{"S_Tornado_Shield", 24465},
+				{"S_Tornado_Shoes", 24466},
+				{"S_Boomerang_Weapon", 24467},
+				{"S_Boomerang_Pendant", 24468},
+				{"S_Boomerang_Earing", 24469},
+				{"S_Vulcan_Armor", 24470},
+				{"S_Vulcan_Shield", 24471},
+				{"S_Vulcan_Shoes", 24472},
+				{"S_Arms_Weapon", 24473},
+				{"S_Arms_Pendant", 24474},
+				{"S_Arms_Earing", 24475},
+				{"S_Rampage_Armor", 24476},
+				{"S_Rampage_Shield", 24477},
+				{"S_Rampage_Shoes", 24478},
+				{"S_Skynetblow_Weapon", 24479},
+				{"S_Skynetblow_Pendant", 24480},
+				{"S_Skynetblow_Earing", 24481},
+				{"S_Knucklearrow_Armor", 24482},
+				{"S_Knucklearrow_Shield", 24483},
+				{"S_Knucklearrow_Shoes", 24484},
+				{"S_TigerCannon_Weapon", 24485},
+				{"S_Tigercannon_Pendant", 24486},
+				{"S_Tigercannon_Earing", 24487},
+				{"S_Duplelight_Armor", 24488},
+				{"S_Duplelight_Shield", 24489},
+				{"S_Duplelight_Shoes", 24490},
+				{"S_Adoramus_Weapon", 24491},
+				{"S_Adoramus_Pendant", 24492},
+				{"S_Adoramus_Earing", 24493},
+				{"S_Judex_Armor", 24494},
+				{"S_Judex_Shield", 24495},
+				{"S_Judex_Shoes", 24496},
+				{"S_Magnus_Weapon", 24497},
+				{"S_Magnus_Pendant", 24498},
+				{"S_Magnus_Earing", 24499},
+				{"S_Rainstorm_Armor", 24500},
+				{"S_Rainstorm_Shield", 24501},
+				{"S_Rainstorm_Shoes", 24502},
+				{"S_Arrowvulcan_Weapon", 24503},
+				{"S_Arrowvulcan_Pendant", 24504},
+				{"S_Arrowvulcan_Earing", 24505},
+				{"S_Metalic_Armor", 24506},
+				{"S_Metalic_Shield", 24507},
+				{"S_Metalic_Shoes", 24508},
+				{"S_Reverberation_Weapon", 24509},
+				{"S_Reverberation_Pendant", 24510},
+				{"S_Reverberation_Earing", 24511},
+				{"S_Triangle_Armor", 24524},
+				{"S_Triangle_Shield", 24525},
+				{"S_Triangle_Shoes", 24526},
+				{"S_Shadowspell_Weapon", 24527},
+				{"S_Shadowspell_Pendant", 24528},
+				{"S_Shadowspell_Earing", 24529},
+				{"S_Menace_Armor", 24530},
+				{"S_Menace_Shield", 24531},
+				{"S_Menace_Shoes", 24532},
+				{"S_Paint_Weapon", 24533},
+				{"S_Paint_Pendant", 24534},
+				{"S_Paint_Earing", 24535},
+				{"S_Rolling_Armor", 24536},
+				{"S_Rolling_Shield", 24537},
+				{"S_Rolling_Shoes", 24538},
+				{"S_Katar_Weapon", 24539},
+				{"S_Katar_Pendant", 24540},
+				{"S_Katar_Earing", 24541},
+				{"S_Slash_Armor", 24542},
+				{"S_Slash_Shield", 24543},
+				{"S_Slash_Shoes", 24544},
+				{"S_Ripper_Weapon", 24545},
+				{"S_Ripper_Pendant", 24546},
+				{"S_Ripper_Earing", 24547},
+				{"S_Dust_Armor", 24548},
+				{"S_Dust_Shield", 24549},
+				{"S_Dust_Shoes", 24550},
+				{"S_Grave_Weapon", 24551},
+				{"S_Grave_Pendant", 24552},
+				{"S_Grave_Earing", 24553},
+				{"S_Psychic_Armor", 24554},
+				{"S_Psychic_Shield", 24555},
+				{"S_Psychic_Shoes", 24556},
+				{"S_Varetyr_Weapon", 24557},
+				{"S_Varetyr_Pendant", 24558},
+				{"S_Varetyr_Earing", 24559},
+				{"S_Jack_Armor", 24512},
+				{"S_Jack_Shield", 24513},
+				{"S_Jack_Shoes", 24514},
+				{"S_Strain_Weapon", 24515},
+				{"S_Strain_Pendant", 24516},
+				{"S_Strain_Earing", 24517},
+				{"S_Crimson_Armor", 24518},
+				{"S_Crimson_Shield", 24519},
+				{"S_Crimson_Shoes", 24520},
+				{"S_Chain_Weapon", 24521},
+				{"S_Chain_Pendant", 24522},
+				{"S_Chain_Earing", 24523},
+				{"S_Cart_Tornado_Armor", 24560},
+				{"S_Cart_Tornado_Shield", 24561},
+				{"S_Cart_Tornado_Shoes", 24562},
+				{"S_Cannon_Cart_Weapon", 24563},
+				{"S_Cannon_Cart_Pendant", 24564},
+				{"S_Cannon_Cart_Earing", 24565},
+				{"S_Spore_Bomb_Armor", 24566},
+				{"S_Spore_Bomb_Shield", 24567},
+				{"S_Spore_Bomb_Shoes", 24568},
+				{"S_Crazy_Weapon", 24569},
+				{"S_Crazy_Pendant", 24570},
+				{"S_Crazy_Earing", 24571},
+				{"S_Brand_Armor", 24572},
+				{"S_Brand_Shield", 24573},
+				{"S_Brand_Shoes", 24574},
+				{"S_Chain_Press_Weapon", 24575},
+				{"S_Chain_Press_Pendant", 24576},
+				{"S_Chain_Press_Earing", 24577},
+				{"S_Banish_Cannon_Armor", 24578},
+				{"S_Banish_Cannon_Shield", 24579},
+				{"S_Banish_Cannon_Shoes", 24580},
+				{"S_Genesis_Weapon", 24581},
+				{"S_Genesis_Pendant", 24582},
+				{"S_Genesis_Earing", 24583}
+			},
+			NeedSource_String = "Skill Shadow Equipment"
+		},
+		["Skill_Sha_R_M_Magic"] = {
+			ItemID = 100208,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true, 
+			TargetItems = {
+				{"S_Sonic_Armor", 24440},
+				{"S_Sonic_Shield", 24441},
+				{"S_Sonic_Shoes", 24442},
+				{"S_Ignition_Weapon", 24443},
+				{"S_Ignition_Pendant", 24444},
+				{"S_Ignition_Earing", 24445},
+				{"S_W_Breath_Armor", 24446},
+				{"S_W_Breath_Shield", 24447},
+				{"S_W_Breath_Shoes", 24448},
+				{"S_F_Breath_Weapon", 24449},
+				{"S_F_Breath_Pendant", 24450},
+				{"S_F_Breath_Earing", 24451},
+				{"S_Cluster_Armor", 24452},
+				{"S_Cluster_Shield", 24453},
+				{"S_Cluster_Shoes", 24454},
+				{"S_Aimed_Weapon", 24455},
+				{"S_Aimed_Pendant", 24456},
+				{"S_Aimed_Earing", 24457},
+				{"S_Arrow_Armor", 24458},
+				{"S_Arrow_Shield", 24459},
+				{"S_Arrow_Shoes", 24460},
+				{"S_Shooting_Weapon", 24461},
+				{"S_Shooting_Pendant", 24462},
+				{"S_Shooting_Earing", 24463},
+				{"S_Tornado_Armor", 24464},
+				{"S_Tornado_Shield", 24465},
+				{"S_Tornado_Shoes", 24466},
+				{"S_Boomerang_Weapon", 24467},
+				{"S_Boomerang_Pendant", 24468},
+				{"S_Boomerang_Earing", 24469},
+				{"S_Vulcan_Armor", 24470},
+				{"S_Vulcan_Shield", 24471},
+				{"S_Vulcan_Shoes", 24472},
+				{"S_Arms_Weapon", 24473},
+				{"S_Arms_Pendant", 24474},
+				{"S_Arms_Earing", 24475},
+				{"S_Rampage_Armor", 24476},
+				{"S_Rampage_Shield", 24477},
+				{"S_Rampage_Shoes", 24478},
+				{"S_Skynetblow_Weapon", 24479},
+				{"S_Skynetblow_Pendant", 24480},
+				{"S_Skynetblow_Earing", 24481},
+				{"S_Knucklearrow_Armor", 24482},
+				{"S_Knucklearrow_Shield", 24483},
+				{"S_Knucklearrow_Shoes", 24484},
+				{"S_TigerCannon_Weapon", 24485},
+				{"S_Tigercannon_Pendant", 24486},
+				{"S_Tigercannon_Earing", 24487},
+				{"S_Duplelight_Armor", 24488},
+				{"S_Duplelight_Shield", 24489},
+				{"S_Duplelight_Shoes", 24490},
+				{"S_Adoramus_Weapon", 24491},
+				{"S_Adoramus_Pendant", 24492},
+				{"S_Adoramus_Earing", 24493},
+				{"S_Judex_Armor", 24494},
+				{"S_Judex_Shield", 24495},
+				{"S_Judex_Shoes", 24496},
+				{"S_Magnus_Weapon", 24497},
+				{"S_Magnus_Pendant", 24498},
+				{"S_Magnus_Earing", 24499},
+				{"S_Rainstorm_Armor", 24500},
+				{"S_Rainstorm_Shield", 24501},
+				{"S_Rainstorm_Shoes", 24502},
+				{"S_Arrowvulcan_Weapon", 24503},
+				{"S_Arrowvulcan_Pendant", 24504},
+				{"S_Arrowvulcan_Earing", 24505},
+				{"S_Metalic_Armor", 24506},
+				{"S_Metalic_Shield", 24507},
+				{"S_Metalic_Shoes", 24508},
+				{"S_Reverberation_Weapon", 24509},
+				{"S_Reverberation_Pendant", 24510},
+				{"S_Reverberation_Earing", 24511},
+				{"S_Triangle_Armor", 24524},
+				{"S_Triangle_Shield", 24525},
+				{"S_Triangle_Shoes", 24526},
+				{"S_Shadowspell_Weapon", 24527},
+				{"S_Shadowspell_Pendant", 24528},
+				{"S_Shadowspell_Earing", 24529},
+				{"S_Menace_Armor", 24530},
+				{"S_Menace_Shield", 24531},
+				{"S_Menace_Shoes", 24532},
+				{"S_Paint_Weapon", 24533},
+				{"S_Paint_Pendant", 24534},
+				{"S_Paint_Earing", 24535},
+				{"S_Rolling_Armor", 24536},
+				{"S_Rolling_Shield", 24537},
+				{"S_Rolling_Shoes", 24538},
+				{"S_Katar_Weapon", 24539},
+				{"S_Katar_Pendant", 24540},
+				{"S_Katar_Earing", 24541},
+				{"S_Slash_Armor", 24542},
+				{"S_Slash_Shield", 24543},
+				{"S_Slash_Shoes", 24544},
+				{"S_Ripper_Weapon", 24545},
+				{"S_Ripper_Pendant", 24546},
+				{"S_Ripper_Earing", 24547},
+				{"S_Dust_Armor", 24548},
+				{"S_Dust_Shield", 24549},
+				{"S_Dust_Shoes", 24550},
+				{"S_Grave_Weapon", 24551},
+				{"S_Grave_Pendant", 24552},
+				{"S_Grave_Earing", 24553},
+				{"S_Psychic_Armor", 24554},
+				{"S_Psychic_Shield", 24555},
+				{"S_Psychic_Shoes", 24556},
+				{"S_Varetyr_Weapon", 24557},
+				{"S_Varetyr_Pendant", 24558},
+				{"S_Varetyr_Earing", 24559},
+				{"S_Jack_Armor", 24512},
+				{"S_Jack_Shield", 24513},
+				{"S_Jack_Shoes", 24514},
+				{"S_Strain_Weapon", 24515},
+				{"S_Strain_Pendant", 24516},
+				{"S_Strain_Earing", 24517},
+				{"S_Crimson_Armor", 24518},
+				{"S_Crimson_Shield", 24519},
+				{"S_Crimson_Shoes", 24520},
+				{"S_Chain_Weapon", 24521},
+				{"S_Chain_Pendant", 24522},
+				{"S_Chain_Earing", 24523},
+				{"S_Cart_Tornado_Armor", 24560},
+				{"S_Cart_Tornado_Shield", 24561},
+				{"S_Cart_Tornado_Shoes", 24562},
+				{"S_Cannon_Cart_Weapon", 24563},
+				{"S_Cannon_Cart_Pendant", 24564},
+				{"S_Cannon_Cart_Earing", 24565},
+				{"S_Spore_Bomb_Armor", 24566},
+				{"S_Spore_Bomb_Shield", 24567},
+				{"S_Spore_Bomb_Shoes", 24568},
+				{"S_Crazy_Weapon", 24569},
+				{"S_Crazy_Pendant", 24570},
+				{"S_Crazy_Earing", 24571},
+				{"S_Brand_Armor", 24572},
+				{"S_Brand_Shield", 24573},
+				{"S_Brand_Shoes", 24574},
+				{"S_Chain_Press_Weapon", 24575},
+				{"S_Chain_Press_Pendant", 24576},
+				{"S_Chain_Press_Earing", 24577},
+				{"S_Banish_Cannon_Armor", 24578},
+				{"S_Banish_Cannon_Shield", 24579},
+				{"S_Banish_Cannon_Shoes", 24580},
+				{"S_Genesis_Weapon", 24581},
+				{"S_Genesis_Pendant", 24582},
+				{"S_Genesis_Earing", 24583}
+			},
+			NeedSource_String = "Skill Shadow Equipment"
+		},
 		["ILL_Piece_A"] = {
 			ItemID = 100003,
 			NeedRefineMin = 0,
@@ -31,7 +539,7 @@ tblLapineUpgradeBox = {
 				{ "Survival_Staff_IL", 2051 },
 				{ "Taegoolyeon_IL", 21050 }
 			},
-			NeedSource_String = "4레벨 일루전 무기"
+			NeedSource_String = "Level 4 Illusion Weapons"
 		},
 		["ILL_Piece_B"] = {
 			ItemID = 100004,
@@ -64,7 +572,7 @@ tblLapineUpgradeBox = {
 				{ "Survival_Staff_IL", 2051 },
 				{ "Taegoolyeon_IL", 21050 }
 			},
-			NeedSource_String = "4레벨 일루전 무기"
+			NeedSource_String = "Level 4 Illusion Weapons"
 		},
 		["Ancient_Hero_Bravery"] = {
 			ItemID = 100023,
@@ -94,9 +602,22 @@ tblLapineUpgradeBox = {
 				{ "The_Black_Gatling", 28258 },
 				{ "Sharp_Wind_Sword", 28763 },
 				{ "Fog_Dew_Sword", 28764 },
-				{ "Humma_Clear", 13345 }
+				{ "Humma_Clear", 13345 },
+				{ "Dragonic_Slayer", 600004 },
+				{ "Light_Blade", 500003 },
+				{ "Slate_Sword", 500004 },
+				{ "Trumpet_Shell_K", 570002 },
+				{ "Barb_Wire_K", 580002 },
+				{ "Meteor_Striker", 590002 },
+				{ "Blade_Katar", 610003},
+				{ "Scalet_Dragon_L_Bow", 700003 },
+				{ "Fatalist", 510006 },
+				{ "Ray_Knuckle", 560002 },
+				{ "Saint_Hall", 590003 },
+				{ "Blue_Crystal_Staff", 640004 },
+				{ "Freezing_Rod", 550007 }
 			},
-			NeedSource_String = "영웅의 무기"
+			NeedSource_String = "Hero Weapons"
 		},
 		["Ancient_Hero_Wisdom"] = {
 			ItemID = 100025,
@@ -126,9 +647,22 @@ tblLapineUpgradeBox = {
 				{ "The_Black_Gatling", 28258 },
 				{ "Sharp_Wind_Sword", 28763 },
 				{ "Fog_Dew_Sword", 28764 },
-				{ "Humma_Clear", 13345 }
+				{ "Humma_Clear", 13345 },
+				{ "Dragonic_Slayer", 600004},
+				{ "Light_Blade", 500003},
+				{ "Slate_Sword", 500004},
+				{ "Trumpet_Shell_K", 570002},
+				{ "Barb_Wire_K", 580002},
+				{ "Meteor_Striker", 590002},
+				{ "Blade_Katar", 610003},
+				{ "Scalet_Dragon_L_Bow", 700003},
+				{ "Fatalist", 510006},
+				{ "Ray_Knuckle", 560002},
+				{ "Saint_Hall", 590003},
+				{ "Blue_Crystal_Staff", 640004},
+				{ "Freezing_Rod", 550007}
 			},
-			NeedSource_String = "영웅의 무기"
+			NeedSource_String = "Hero Weapons"
 		},
 		["Joy_Of_Victory"] = {
 			ItemID = 100009,
@@ -138,7 +672,7 @@ tblLapineUpgradeBox = {
 			TargetItems = {
 				{ "Victory_Wing_Ear_", 400002 }
 			},
-			NeedSource_String = "승리의 날개귀(1)"
+			NeedSource_String = "Victory Wings Ears (1)"
 		},
 		["Gemstone_Of_Time"] = {
 			ItemID = 9550,
@@ -153,7 +687,7 @@ tblLapineUpgradeBox = {
 				{ "Overwhelm_Agi_Armor", 15353 },
 				{ "Overwhelm_Luk_Armor", 15346 }
 			},
-			NeedSource_String = "시간의 갑옷 6종"
+			NeedSource_String = "6 Armors of Time"
 		},
 		["Time_Unseal_Key"] = {
 			ItemID = 9551,
@@ -168,7 +702,7 @@ tblLapineUpgradeBox = {
 				{ "Temporal_M_Dex", 20967 },
 				{ "Temporal_M_Luk", 20968 }
 			},
-			NeedSource_String = "시간의 망토 6종"
+			NeedSource_String = "6 Manteau's of Time"
 		},
 		["Magma_Essence"] = {
 			ItemID = 23815,
@@ -180,7 +714,7 @@ tblLapineUpgradeBox = {
 				{ "Lava_Leather_Suits", 15379 },
 				{ "Lava_Leather_Robe", 15380 }
 			},
-			NeedSource_String = "라바 레더 갑옷 장비"
+			NeedSource_String = "Lava Leather Armor Equipment"
 		},
 		["EP17_1_SPC05"] = {
 			ItemID = 23776,
@@ -204,7 +738,7 @@ tblLapineUpgradeBox = {
 				{ "Boost_Lance_OS", 32019 },
 				{ "Ultio_Spes_OS", 16089 }
 			},
-			NeedSource_String = "OS무기"
+			NeedSource_String = "OS Weapons"
 		},
 		["EP17_1_SPC06"] = {
 			ItemID = 23777,
@@ -228,7 +762,7 @@ tblLapineUpgradeBox = {
 				{ "Boost_Lance_OS", 32019 },
 				{ "Ultio_Spes_OS", 16089 }
 			},
-			NeedSource_String = "OS무기"
+			NeedSource_String = "OS Weapons"
 		},
 		["EP17_1_SPC07"] = {
 			ItemID = 23778,
@@ -252,7 +786,7 @@ tblLapineUpgradeBox = {
 				{ "Boost_Lance_OS", 32019 },
 				{ "Ultio_Spes_OS", 16089 }
 			},
-			NeedSource_String = "OS무기"
+			NeedSource_String = "OS Weapons"
 		},
 		["EP17_1_SPC08"] = {
 			ItemID = 23779,
@@ -276,7 +810,7 @@ tblLapineUpgradeBox = {
 				{ "Boost_Lance_OS", 32019 },
 				{ "Ultio_Spes_OS", 16089 }
 			},
-			NeedSource_String = "OS무기"
+			NeedSource_String = "OS Weapons"
 		},
 		["EP17_1_SPC09"] = {
 			ItemID = 23780,
@@ -300,7 +834,7 @@ tblLapineUpgradeBox = {
 				{ "Boost_Lance_OS", 32019 },
 				{ "Ultio_Spes_OS", 16089 }
 			},
-			NeedSource_String = "OS무기"
+			NeedSource_String = "OS Weapons"
 		},
 		["EP17_1_SPC10"] = {
 			ItemID = 23781,
@@ -324,7 +858,7 @@ tblLapineUpgradeBox = {
 				{ "Boost_Lance_OS", 32019 },
 				{ "Ultio_Spes_OS", 16089 }
 			},
-			NeedSource_String = "OS무기"
+			NeedSource_String = "OS Weapons"
 		},
 		["Charleston_Parts_W"] = {
 			ItemID = 23706,
@@ -340,7 +874,7 @@ tblLapineUpgradeBox = {
 				{ "토네이도액스", 28101 },
 				{ "기간트블레이드", 21011 }
 			},
-			NeedSource_String = "찰스턴 업그레이드 부품(물리)"
+			NeedSource_String = "Charleston Upgrade Parts (Physical)"
 		},
 		["Charleston_Parts_R"] = {
 			ItemID = 23707,
@@ -356,7 +890,7 @@ tblLapineUpgradeBox = {
 				{ "토네이도액스", 28101 },
 				{ "기간트블레이드", 21011 }
 			},
-			NeedSource_String = "찰스턴 업그레이드 부품(원거리)"
+			NeedSource_String = "Charleston Upgrade Parts (Range)"
 		},
 		["Gray_Charcoal_Range"] = {
 			ItemID = 23678,
@@ -376,7 +910,7 @@ tblLapineUpgradeBox = {
 				{ "타노스의망치", 16028 },
 				{ "타노스의도끼", 28100 }
 			},
-			NeedSource_String = "타노스 원거리 무기"
+			NeedSource_String = "Thanos Ranged Weapons"
 		},
 		["Gray_Charcoal_Magic"] = {
 			ItemID = 23677,
@@ -391,7 +925,7 @@ tblLapineUpgradeBox = {
 				{ "타노스의바이올린", 1933 },
 				{ "타노스의윕소드", 1988 }
 			},
-			NeedSource_String = "타노스 마법 무기"
+			NeedSource_String = "Thanos Magic Weapons"
 		},
 		["Gray_Charcoal_Melee"] = {
 			ItemID = 23676,
@@ -411,7 +945,7 @@ tblLapineUpgradeBox = {
 				{ "타노스의도끼", 28100 },
 				{ "타노스의바이올린", 1933 }
 			},
-			NeedSource_String = "타노스 근거리 무기"
+			NeedSource_String = "Thanos Melee Weapons"
 		},
 		["Geffen_Magic_Scroll2"] = {
 			ItemID = 23679,
@@ -422,7 +956,7 @@ tblLapineUpgradeBox = {
 				{ "신체강화반지", 2963 },
 				{ "마력증폭반지", 2964 }
 			},
-			NeedSource_String = "게펜 마법 대회 액세서리"
+			NeedSource_String = "Geffen Magic Tournament Accessories"
 		},
 		["Geffen_Magic_Scroll"] = {
 			ItemID = 23675,
@@ -433,7 +967,7 @@ tblLapineUpgradeBox = {
 				{ "게펜매직로브", 15074 },
 				{ "안티매직슈츠", 15073 }
 			},
-			NeedSource_String = "게펜 마법 대회 갑옷"
+			NeedSource_String = "Geffen Magic Tournament Armors"
 		},
 		["Cursed_Blood"] = {
 			ItemID = 23546,
@@ -443,7 +977,7 @@ tblLapineUpgradeBox = {
 			TargetItems = {
 				{ "Bloody_Knight_Shield_", 28945 }
 			},
-			NeedSource_String = "피빛의 기사의 방패"
+			NeedSource_String = "Bloody Knight's Shield"
 		},
 		["Gold_Statue"] = {
 			ItemID = 23547,
@@ -453,7 +987,7 @@ tblLapineUpgradeBox = {
 			TargetItems = {
 				{ "Bloody_Knight_Shield__", 28946 }
 			},
-			NeedSource_String = "정화된 기사의 방패"
+			NeedSource_String = "Purified Knight's Shield"
 		},
 		["Shadow_Refine_Hammer"] = {
 			ItemID = 23436,
@@ -884,7 +1418,7 @@ tblLapineUpgradeBox = {
 				{ "S_M_Fis_In_Weapon", 24430 },
 				{ "S_M_Exe_Ho_Weapon", 24431 }
 			},
-			NeedSource_String = "쉐도우 아이템"
+			NeedSource_String = "Shadow Equipment"
 		},
 		["Shadow_9_Refine_Hammer"] = {
 			ItemID = 23926,
@@ -1315,7 +1849,7 @@ tblLapineUpgradeBox = {
 				{ "S_M_Fis_In_Weapon", 24430 },
 				{ "S_M_Exe_Ho_Weapon", 24431 }
 			},
-			NeedSource_String = "쉐도우 아이템"
+			NeedSource_String = "Shadow Equipment"
 		},
 		["Shadow_Random_Mix"] = {
 			ItemID = 23720,
@@ -1656,7 +2190,7 @@ tblLapineUpgradeBox = {
 				{ "S_M_Fis_In_Weapon", 24430 },
 				{ "S_M_Exe_Ho_Weapon", 24431 }
 			},
-			NeedSource_String = "+7 쉐도우 아이템"
+			NeedSource_String = "+7 Shadow Equipment"
 		}
 	},
 	serverMain = function()
