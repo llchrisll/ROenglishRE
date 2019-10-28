@@ -1,7 +1,31 @@
 SKILL_INFO_LIST = {
+	[SKID.GD_CHARGESHOUT_FLAG] = {
+		"GD_CHARGESHOUT_FLAG",
+		SkillName = "Charge Shout Flag",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.GD_CHARGESHOUT_BEATING] = {
+		"GD_CHARGESHOUT_BEATING",
+		SkillName = "Charge Shout Beating",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.GD_EMERGENCY_MOVE] = {
+		"GD_EMERGENCY_MOVE",
+		SkillName = "Emergency Move",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
 	[SKID.NPC_ALL_STAT_DOWN] = {
 		"NPC_ALL_STAT_DOWN",
-		SkillName = "¿Ã½ºÅÝ ´Ù¿î",
+		SkillName = "All Stats Down",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9,7 +33,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_GRADUAL_GRAVITY] = {
 		"NPC_GRADUAL_GRAVITY",
-		SkillName = "Áß·Â Áõ°¡",
+		SkillName = "Gravity Raise",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -17,7 +41,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_DAMAGE_HEAL] = {
 		"NPC_DAMAGE_HEAL",
-		SkillName = "È¸º¹ ÀüÈ¯",
+		SkillName = "Recovery Switch",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -25,7 +49,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_IMMUNE_PROPERTY] = {
 		"NPC_IMMUNE_PROPERTY",
-		SkillName = "ÀÌ¹Ã ¿¤¸®¸àÅ»",
+		SkillName = "Elemental Immunity",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -33,7 +57,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_MOVE_COORDINATE] = {
 		"NPC_MOVE_COORDINATE",
-		SkillName = "À§Ä¡ º¯°æ",
+		SkillName = "Change Location",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -41,7 +65,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_WIDELEASH] = {
 		"NPC_WIDELEASH",
-		SkillName = "±¤¿ª Á×À½ÀÇ ¼Õ¾Æ±Í",
+		SkillName = "Wide Grasp of Death",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -49,7 +73,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_LEASH] = {
 		"NPC_LEASH",
-		SkillName = "Á×À½ÀÇ ¼Õ¾Æ±Í",
+		SkillName = "Grasp of Death",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -57,7 +81,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_DEFENDER] = {
 		"NPC_DEFENDER",
-		SkillName = "µðÆæ´õ",
+		SkillName = "Defender",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -65,7 +89,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_ARROWSTORM] = {
 		"NPC_ARROWSTORM",
-		SkillName = "¾Ö·Î¿ì ½ºÅè",
+		SkillName = "Arrow Storm",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -468,7 +492,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
-		SkillScale = { [1] = { x = 15, y = 15 } }
+		SkillScale = {
+			[1] = { x = 15, y = 15 }
+		}
 	},
 	[SKID.NPC_WIDESIGHT] = {
 		"NPC_WIDESIGHT",
@@ -477,7 +503,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
-		SkillScale = { [1] = { x = 11, y = 11 } }
+		SkillScale = { 
+			[1] = { x = 11, y = 11 }
+		}
 	},
 	[SKID.NPC_WIDESUCK] = {
 		"NPC_WIDESUCK",
@@ -486,7 +514,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
-		SkillScale = { [1] = { x = 27, y = 27 } }
+		SkillScale = { 
+			[1] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.NPC_STORMGUST2] = {
 		"NPC_STORMGUST2",
@@ -495,7 +525,11 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9 },
-		SkillScale = { [1] = { x = 11, y = 11 }, [2] = { x = 11, y = 11 }, [3] = { x = 11, y = 11 } }
+		SkillScale = { 
+			[1] = { x = 11, y = 11 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 11, y = 11 }
+		}
 	},
 	[SKID.NPC_FIRESTORM] = {
 		"NPC_FIRESTORM",
@@ -504,7 +538,11 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1 },
-		SkillScale = { [1] = { x = 7, y = 7 }, [2] = { x = 7, y = 7 }, [3] = { x = 7, y = 7 } }
+		SkillScale = { 
+			[1] = { x = 7, y = 7 }, 
+			[2] = { x = 7, y = 7 }, 
+			[3] = { x = 7, y = 7 }
+		}
 	},
 	[SKID.NPC_DRAGONBREATH] = {
 		"NPC_DRAGONBREATH",
@@ -1044,7 +1082,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_FEEL] = {
 		"SG_FEEL",
-		SkillName = "Solar, Lunar and Stellar Perception",
+		SkillName = "Feeling of Sun Moon Star",
 		MaxLv = 3,
 		SpAmount = { 100, 100, 100 },
 		bSeperateLv = true,
@@ -1052,7 +1090,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_SUN_WARM] = {
 		"SG_SUN_WARM",
-		SkillName = "Solar Heat",
+		SkillName = "Warmth of The Sun",
 		MaxLv = 3,
 		SpAmount = { 20, 20, 20 },
 		bSeperateLv = false,
@@ -1063,7 +1101,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_MOON_WARM] = {
 		"SG_MOON_WARM",
-		SkillName = "Lunar Heat",
+		SkillName = "Warmth of The Moon",
 		MaxLv = 3,
 		SpAmount = { 20, 20, 20 },
 		bSeperateLv = false,
@@ -1074,7 +1112,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_STAR_WARM] = {
 		"SG_STAR_WARM",
-		SkillName = "Stellar Heat",
+		SkillName = "Warmth of The Star",
 		MaxLv = 3,
 		SpAmount = { 10, 10, 10 },
 		bSeperateLv = false,
@@ -1085,7 +1123,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_SUN_COMFORT] = {
 		"SG_SUN_COMFORT",
-		SkillName = "Solar Protection",
+		SkillName = "Comfort of The Sun",
 		MaxLv = 4,
 		SpAmount = { 70, 60, 50, 40 },
 		bSeperateLv = false,
@@ -1107,7 +1145,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_MOON_COMFORT] = {
 		"SG_MOON_COMFORT",
-		SkillName = "Lunar Protection",
+		SkillName = "Comfort of The Moon",
 		MaxLv = 4,
 		SpAmount = { 70, 60, 50, 40 },
 		bSeperateLv = false,
@@ -1118,7 +1156,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_STAR_COMFORT] = {
 		"SG_STAR_COMFORT",
-		SkillName = "Stellar Protection",
+		SkillName = "Comfort of The Star",
 		MaxLv = 4,
 		SpAmount = { 70, 60, 50, 40 },
 		bSeperateLv = false,
@@ -1129,7 +1167,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_HATE] = {
 		"SG_HATE",
-		SkillName = "Solar, Lunar and Stellar Opposition",
+		SkillName = "Hatred of Sun Moon Star",
 		MaxLv = 3,
 		SpAmount = { 100, 100, 100 },
 		bSeperateLv = true,
@@ -1137,7 +1175,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_SUN_ANGER] = {
 		"SG_SUN_ANGER",
-		SkillName = "Solar Wrath",
+		SkillName = "Anger of The Sun",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -1148,7 +1186,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_MOON_ANGER] = {
 		"SG_MOON_ANGER",
-		SkillName = "Lunar Wrath",
+		SkillName = "Anger of The Moon",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -1159,7 +1197,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_STAR_ANGER] = {
 		"SG_STAR_ANGER",
-		SkillName = "Stellar Wrath",
+		SkillName = "Anger of The Star",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -1170,7 +1208,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_SUN_BLESS] = {
 		"SG_SUN_BLESS",
-		SkillName = "Solar Blessings",
+		SkillName = "Blessing of The Sun",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1182,7 +1220,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_MOON_BLESS] = {
 		"SG_MOON_BLESS",
-		SkillName = "Lunar Blessings",
+		SkillName = "Blessing of The Moon",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1194,7 +1232,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_STAR_BLESS] = {
 		"SG_STAR_BLESS",
-		SkillName = "Stellar Blessings",
+		SkillName = "Blessing of The Star",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1206,7 +1244,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_DEVIL] = {
 		"SG_DEVIL",
-		SkillName = "Solar, Lunar and Stellar Shadow",
+		SkillName = "Demon of Sun Moon Star",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1222,7 +1260,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_FRIEND] = {
 		"SG_FRIEND",
-		SkillName = "Solar, Lunar and Stellar Team-Up",
+		SkillName = "Friend of Sun Moon Star",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -1230,7 +1268,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_KNOWLEDGE] = {
 		"SG_KNOWLEDGE",
-		SkillName = "Solar, Lunar and Stellar Courier",
+		SkillName = "Knowledge of Sun Moon Star",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1238,7 +1276,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_FUSION] = {
 		"SG_FUSION",
-		SkillName = "Solar, Lunar and Stellar Union",
+		SkillName = "Fusion of Sun Moon Star",
 		MaxLv = 1,
 		Type = "Soul",
 		SpAmount = { 100 },
@@ -3414,7 +3452,14 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
 	},
 	[SKID.NPC_CRITICALWOUND] = {
 		"NPC_CRITICALWOUND",
@@ -3476,7 +3521,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.NPC_WIDESOULDRAIN] = {
 		"NPC_WIDESOULDRAIN",
@@ -3484,7 +3541,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.ALL_INCCARRY] = {
 		"ALL_INCCARRY",
@@ -3597,7 +3666,8 @@ SKILL_INFO_LIST = {
 		SpAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
-		NeedSkillList = { [JOBID.JT_ROGUE] = {
+		NeedSkillList = { 
+			[JOBID.JT_ROGUE] = {
 				{ SKID.AC_VULTURE, 10 }
 			}
 		}
@@ -12326,7 +12396,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_LUNARSTANCE] = {
 		"SJ_LUNARSTANCE",
-		SkillName = "Star Stance",
+		SkillName = "Lunar Stance",
 		MaxLv = 3,
 		SpAmount = { 10, 10, 10 },
 		bSeperateLv = true,
@@ -12392,7 +12462,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_STAREMPEROR] = {
 		"SJ_STAREMPEROR",
-		SkillName = "Advent of the Star Emperor²",
+		SkillName = "Advent of the Star Emperor",
 		MaxLv = 5,
 		SpAmount = { 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
@@ -12729,12 +12799,47 @@ SKILL_INFO_LIST = {
 			{ SKID.SP_SOULCOLLECT, 1 }
 		}
 	},
-	[SKID.SJ_FALLINGSTAR_ATK2] = {
-		"SJ_FALLINGSTAR_ATK2",
-		SkillName = "Falling Star Attack 2",
+	[SKID.SJ_FALLINGSTAR_ATK] = {
+		"SJ_FALLINGSTAR_ATK",
+		SkillName = "Falling Star",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
+	[SKID.SJ_FALLINGSTAR_ATK2] = {
+		"SJ_FALLINGSTAR_ATK2",
+		SkillName = "Falling Star",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.NV_BREAKTHROUGH] = {
+		"NV_BREAKTHROUGH",
+		SkillName = "Breakthrough",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.NV_HELPANGEL] = {
+		"NV_HELPANGEL",
+		SkillName = "Angel, help Me!",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.NV_TRANSCENDENCE] = {
+		"NV_TRANSCENDENCE",
+		SkillName = "Transcendence",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	}
 }

@@ -5,6 +5,7 @@
 Note: this project should be considered as educational purposes only, any commercial or illegal use by people or group aren't author's responsibilities.
 
 Project created by **zackdreaver** @2015
+Unofficially continued by **llchrisll** @2019
 
 ## Project content
 1. [Client files](https://github.com/zackdreaver/ROenglishRE/tree/master/Ragnarok)
