@@ -25,8 +25,9 @@ But I will go in this order:
 # Client Version
 I'll mainly use the 2018-06-20 RagexeRE, while I will try to keep Zackdreaver's format
 of two different skilltreeview files, but only test with one:
-	> skilltreeview.lub = Before 2018-06-20 Clients
-	> skilltreeview 20180621.lub = For 2018-06-20 Clients and later
+> skilltreeview.lub = Before 2018-06-20 Clients
+
+> skilltreeview 20180621.lub = For 2018-06-20 Clients and later
 
 Best regards,
 Houndeye aka llchrisll
