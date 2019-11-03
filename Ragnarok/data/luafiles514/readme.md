@@ -4,6 +4,7 @@
 * Skill Rebalances
 
 I will try my best to update the skillinfoz regarding the Skill Rebalances asap.
+For better details head over to the [Project](https://github.com/llchrisll/ROenglishRE/projects/1)
 
 # Client Version
 I'll mainly use the 2018-06-20 RagexeRE, while I will try to keep Zackdreaver's format
