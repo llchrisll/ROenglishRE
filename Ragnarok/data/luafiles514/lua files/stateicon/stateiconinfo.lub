@@ -846,13 +846,6 @@ StateIconList[EFST_IDs.EFST_MOVHASTE_HORSE] = {
 		{ "Increases movement speed" }
 	}
 }
-StateIconList[EFST_IDs.EFST_CRESCENTELBOW] = {
-	descript = {
-		{ "Crescent Elbow", COLOR_TITLE_BUFF },
-		{ "Give damage to enemy by knocking it down" },
-		{ "Receive some part of damage of it to the caster" }
-	}
-}
 StateIconList[EFST_IDs.EFST_SONG_OF_MANA] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
@@ -1116,10 +1109,11 @@ StateIconList[EFST_IDs.EFST_GENTLETOUCH_ENERGYGAIN] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Gentle Touch - Silence", COLOR_TITLE_BUFF },
+		{ "Gentle Touch-Energy Gain", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "When attacking with melee attack or being attacked" },
-		{ "Create 1 Spirit Sphere" }
+		{ "create 1 Spirit Sphere" },
+		{ "Increases Combo Finish, Chain Crush Combo and Tiger Fist damage" }
 	}
 }
 StateIconList[EFST_IDs.EFST_NEUTRALBARRIER] = {
@@ -1639,11 +1633,12 @@ StateIconList[EFST_IDs.EFST_GENTLETOUCH_REVITALIZE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Gentle Touch - Alive", COLOR_TITLE_BUFF },
+		{ "Gentle Touch-Revitalize", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases VIT, DEF, MaxHP" },
+		{ "Increases DEF, MaxHP" },
 		{ "Increases natural HP regenration" },
-		{ "Recovery HP while moving and attacking" }
+		{ "Recovery HP while moving and attacking" },
+		{ "Increases Tiger Cannon and Gate of Hell damage" }
 	}
 }
 StateIconList[EFST_IDs.EFST_COUNTER_ON] = {
@@ -1721,10 +1716,10 @@ StateIconList[EFST_IDs.EFST_GENTLETOUCH_CHANGE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Gentle Touch - Opposite", COLOR_TITLE_BUFF },
+		{ "Gentle Touch-Change", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Decreases VIT, MDEF" },
-		{ "Increases ATK, ASPD" }
+		{ "Increases ATK, ASPD" },
+		{ "Increases Rampage Blaster and Knuckle Arrow damage" }
 	}
 }
 StateIconList[EFST_IDs.EFST_STRIPACCESSARY] = {
