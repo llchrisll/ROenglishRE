@@ -12407,8 +12407,8 @@ SKILL_INFO_LIST = {
 	[SKID.SJ_FULLMOONKICK] = {
 		"SJ_FULLMOONKICK",
 		SkillName = "Full Moon Kick",
-		MaxLv = 7,
-		SpAmount = { 30, 35, 40, 45, 50, 55, 60 },
+		MaxLv = 10,
+		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -12498,10 +12498,10 @@ SKILL_INFO_LIST = {
 	[SKID.SJ_FALLINGSTAR] = {
 		"SJ_FALLINGSTAR",
 		SkillName = "Falling Star",
-		MaxLv = 7,
-		SpAmount = { 40, 45, 50, 55, 60, 65, 70 },
+		MaxLv = 10,
+		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SJ_FLASHKICK, 7 }
 		}
@@ -12589,10 +12589,10 @@ SKILL_INFO_LIST = {
 	[SKID.SJ_SOLARBURST] = {
 		"SJ_SOLARBURST",
 		SkillName = "Solar Burst",
-		MaxLv = 7,
-		SpAmount = { 34, 37, 40, 43, 46, 49, 52 },
+		MaxLv = 10,
+		SpAmount = { 34, 37, 40, 43, 46, 49, 52, 55, 58, 61 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SJ_PROMINENCEKICK, 7 }
 		}
@@ -12655,10 +12655,10 @@ SKILL_INFO_LIST = {
 	[SKID.SP_CURSEEXPLOSION] = {
 		"SP_CURSEEXPLOSION",
 		SkillName = "Curse Explosion",
-		MaxLv = 5,
-		SpAmount = { 50, 55, 60, 65, 70 },
+		MaxLv = 10,
+		SpAmount = { 50, 55, 60, 65, 70, 75, 80, 85, 90, 95 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SOULCURSE, 3 }
 		}
@@ -12677,10 +12677,10 @@ SKILL_INFO_LIST = {
 	[SKID.SP_SPA] = {
 		"SP_SPA",
 		SkillName = "Espa",
-		MaxLv = 5,
-		SpAmount = { 52, 56, 60, 64, 68 },
+		MaxLv = 10,
+		SpAmount = { 52, 56, 60, 64, 68, 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SHA, 1 }
 		}
@@ -12699,10 +12699,10 @@ SKILL_INFO_LIST = {
 	[SKID.SP_SWHOO] = {
 		"SP_SWHOO",
 		SkillName = "Eswhoo",
-		MaxLv = 7,
-		SpAmount = { 66, 70, 74, 78, 82, 86, 90 },
+		MaxLv = 10,
+		SpAmount = { 66, 70, 74, 78, 82, 86, 90, 94, 98, 102 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SPA, 3 }
 		}
