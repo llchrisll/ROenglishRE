@@ -3304,6 +3304,33 @@ EFFECT.EF_TUNAPARTY = 1097
 -- DECOMPILER ERROR at PC4146: Confused about usage of register: R0 in 'UnsetPending'
 
 EFFECT.EF_AMDARAIS_EFFECT = 1419
+-- DECOMPILER ERROR at PC4150: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_BLUE_WAVE1 = 1611
+-- DECOMPILER ERROR at PC4154: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_BLUE_WAVE2 = 1612
+-- DECOMPILER ERROR at PC4158: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_BLUE_WAVE3 = 1613
+-- DECOMPILER ERROR at PC4162: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_RED_WAVE1 = 1614
+-- DECOMPILER ERROR at PC4166: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_RED_WAVE2 = 1615
+-- DECOMPILER ERROR at PC4170: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_RED_WAVE3 = 1616
+-- DECOMPILER ERROR at PC4174: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_BLACK_BUBBLE1 = 1617
+-- DECOMPILER ERROR at PC4178: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_BLACK_BUBBLE2 = 1618
+-- DECOMPILER ERROR at PC4182: Confused about usage of register: R0 in 'UnsetPending'
+
+EFFECT.EF_BLACK_BUBBLE3 = 1619
 tbl = {
 [2603] = {MonsterSize = 1.2, 
 MonsterEff = {EFFECT.EF_BOTTOM_DE}
@@ -5362,6 +5389,22 @@ MonsterEff = {EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6}
 }
 , 
 [20618] = {MonsterSize = 1, 
+MonsterEff = {EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6}
+}
+, 
+[20690] = {MonsterSize = 1, 
+MonsterEff = {EFFECT.EF_RED_WAVE1, EFFECT.EF_RED_WAVE2}
+}
+, 
+[20693] = {MonsterSize = 1, 
+MonsterEff = {EFFECT.EF_BLUE_WAVE1, EFFECT.EF_BLUE_WAVE2}
+}
+, 
+[20694] = {MonsterSize = 1.3, 
+MonsterEff = {EFFECT.EF_RED_WAVE1, EFFECT.EF_RED_WAVE2}
+}
+, 
+[20648] = {MonsterSize = 1, 
 MonsterEff = {EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6}
 }
 }

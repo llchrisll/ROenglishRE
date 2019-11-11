@@ -3725,6 +3725,78 @@ Description = {"아무래도 <ITEM>[추수제 기념 과자]<INFO>11613</INFO></ITEM>가 더 
 Description = {"은월이 추수제 기념과자를 더 필요로 할 때, 다시 오도록 하자."}
 , Summary = "초기화 시간 04시"}
 , 
+[3389] = {Title = "생체 전자 방해 칩 제거", IconName = "ico_dq.bmp", 
+Description = {"칩 제거에 성공하여 에오르파와의 소통이 원활하게 되었다."}
+, Summary = "에오르파의 시스템이 재시작 되면 말을 걸어보자."}
+, 
+[3390] = {Title = "제 2 마력 발전소 관리자 에오르파", IconName = "ico_dq.bmp", 
+Description = {"^4d4dff마력중독 사나레^000000로부터 감자칩을 빼앗아 오자!"}
+, Summary = "감자칩 10개를 회수해 오자."}
+, 
+[3391] = {Title = "일루시온이 뿌린 감자칩 - 대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[에오르파]<INFO>ba_maison,79,278,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
+, 
+[3392] = {Title = "일루시온이 뿌린 감자칩", IconName = "ico_dq.bmp", 
+Description = {"^4d4dff마력중독 사나레^000000로부터 감자칩을 빼앗아 오자!"}
+, Summary = "감자칩 10개를 회수해 오자."}
+, 
+[3393] = {Title = "왕실 사냥대회 참가", IconName = "ico_ev.bmp", 
+Description = {"동물형 몬스터를 30마리 사냥한 뒤에 <NAVI>[지휘관 나데즈다]<INFO>prt_fild01,98,171,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "동물형 몬스터 사냥"}
+, 
+[3394] = {Title = "수습 사냥꾼 - 1", IconName = "ico_ev.bmp", 
+Description = {"50Lv 이상의 동물형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "동물형 몬스터 사냥"}
+, 
+[3395] = {Title = "수습 사냥꾼 - 2", IconName = "ico_ev.bmp", 
+Description = {"50Lv 이상의 곤충형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "곤충형 몬스터 사냥"}
+, 
+[3396] = {Title = "숙련된 사냥꾼 - 1", IconName = "ico_ev.bmp", 
+Description = {"50Lv 이상의 어패형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 장하성]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "어패형 몬스터 사냥"}
+, 
+[3397] = {Title = "숙련된 사냥꾼 - 2", IconName = "ico_ev.bmp", 
+Description = {"50Lv 이상의 용족 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 장하성]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "용족 몬스터 사냥"}
+, 
+[3398] = {Title = "왕실 사냥터로", IconName = "ico_ev.bmp", 
+Description = {"<NAVI>[텔레포테이션 장치]<INFO>prt_fild01,109,192,0,101,0</INFO></NAVI>를 사용하여 왕실 사냥터로 진입하자."}
+, Summary = ""}
+, 
+[3399] = {Title = "곤충형 몬스터 사냥", IconName = "ico_ev.bmp", 
+Description = {"50Lv 이상의 곤충형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "곤충형 몬스터 사냥"}
+, 
+[3400] = {Title = "곤충형 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
+, Summary = "04시 리셋"}
+, 
+[3401] = {Title = "동물형 몬스터 사냥", IconName = "ico_ev.bmp", 
+Description = {"50Lv 이상의 동물형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "동물형 몬스터 사냥"}
+, 
+[3402] = {Title = "동물형 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
+, Summary = "04시 리셋"}
+, 
+[3403] = {Title = "어패형 몬스터 사냥", IconName = "ico_ev.bmp", 
+Description = {"50Lv 이상의 어패형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "어패형 몬스터 사냥"}
+, 
+[3404] = {Title = "어패형 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
+, Summary = "04시 리셋"}
+, 
+[3405] = {Title = "용족 몬스터 사냥", IconName = "ico_ev.bmp", 
+Description = {"50Lv 이상의 용족 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
+, Summary = "용족 몬스터 사냥"}
+, 
+[3406] = {Title = "용족 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
+, Summary = "04시 리셋"}
+, 
 [4000] = {Title = "셰린의 면접", 
 Description = {"셰린의 면접 시험에 통과해서 다음 과정으로 넘어가자."}
 , Summary = ""}
@@ -7588,6 +7660,42 @@ RewardItemList = {
 {ItemID = 25723, ItemNum = 1}
 }
 }
+, 
+[5892] = {Title = "청소로봇Ω", IconName = "ico_nq.bmp", 
+Description = {"청소로봇Ω"}
+, Summary = "청소로봇Ω와 대화 완료"}
+, 
+[5893] = {Title = "하수처리장 청소Ⅰ", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[청소로봇Ω]<INFO>ba_in01,24,322,0,101,0</INFO></NAVI>는 청소를 못해 슬퍼하고 있다.", "<NAVI>[하수 베네눔]<INFO>EP17_2_VENENUM3,0,0,3,-222,1</INFO></NAVI> 44 개체를 ^0000FF맴매^000000해주자.", " ", "보상은 하수처리장 청소Ⅰ, 하수처리장 청소Ⅱ, 하수처리장 청소Ⅲ를 모두 완료해야 받을 수 있습니다."}
+, Summary = "하수 베네눔 44개체", NpcSpr = "EP17_2_OMEGA_CLEANER"}
+, 
+[5894] = {Title = "하수처리장 청소Ⅱ", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[청소로봇Ω]<INFO>ba_in01,24,322,0,101,0</INFO></NAVI>는 청소를 못해 슬퍼하고 있다.", "<NAVI>[하수 크램프]<INFO>EP17_2_CRAMP,0,0,3,-222,1</INFO></NAVI> 44 개체를 ^0000FF맴매^000000해주자.", " ", "보상은 하수처리장 청소Ⅰ, 하수처리장 청소Ⅱ, 하수처리장 청소Ⅲ를 모두 완료해야 받을 수 있습니다."}
+, Summary = "하수 크램프 44개체", NpcSpr = "EP17_2_OMEGA_CLEANER"}
+, 
+[5895] = {Title = "하수처리장 청소Ⅲ", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[청소로봇Ω]<INFO>ba_in01,24,322,0,101,0</INFO></NAVI>는 청소를 못해 슬퍼하고 있다.", "<NAVI>[하수 워터폴]<INFO>EP17_2_WATERFALL,0,0,3,-222,1</INFO></NAVI> 44 개체를 ^0000FF맴매^000000해주자.", " ", "보상은 하수처리장 청소Ⅰ, 하수처리장 청소Ⅱ, 하수처리장 청소Ⅲ를 모두 완료해야 받을 수 있습니다."}
+, Summary = "하수 워터폴 44개체", NpcSpr = "EP17_2_OMEGA_CLEANER"}
+, 
+[5896] = {Title = "[대기]하수처리장 청소", IconName = "ico_dq.bmp", 
+Description = {"일정 시간이 지난 후", "<NAVI>[청소로봇Ω]<INFO>ba_in01,24,322,0,101,0</INFO></NAVI>에게 하수처리장 청소 퀘스트를 다시 받을 수 있습니다."}
+, Summary = "초기화 04시", NpcSpr = "EP17_2_OMEGA_CLEANER"}
+, 
+[5897] = {Title = "제1 마력발전소 청소Ⅰ", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[청소로봇Ω]<INFO>ba_in01,24,322,0,101,0</INFO></NAVI>는 청소를 못해 슬퍼하고 있다.", "<NAVI>[엘리트 벨라레]<INFO>EP17_2_BELLARE3,0,0,3,-222,1</INFO></NAVI> 44 개체를 ^0000FF맴매^000000해주자.", " ", "보상은 제1 마력발전소 청소Ⅰ, 제1 마력발전소 청소Ⅱ, 제1 마력발전소 청소Ⅲ를 모두 완료해야 받을 수 있습니다."}
+, Summary = "엘리트 벨라레 44개체", NpcSpr = "EP17_2_OMEGA_CLEANER"}
+, 
+[5898] = {Title = "제1 마력발전소 청소Ⅱ", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[청소로봇Ω]<INFO>ba_in01,24,322,0,101,0</INFO></NAVI>는 청소를 못해 슬퍼하고 있다.", "<NAVI>[마력중독 돌로르]<INFO>EP17_2_DOLOR3,0,0,3,-222,1</INFO></NAVI> 44 개체를 ^0000FF맴매^000000해주자.", " ", "보상은 제1 마력발전소 청소Ⅰ, 제1 마력발전소 청소Ⅱ, 제1 마력발전소 청소Ⅲ를 모두 완료해야 받을 수 있습니다."}
+, Summary = "마력중독 돌로르 44개체", NpcSpr = "EP17_2_OMEGA_CLEANER"}
+, 
+[5899] = {Title = "제1 마력발전소 청소Ⅲ", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[청소로봇Ω]<INFO>ba_in01,24,322,0,101,0</INFO></NAVI>는 청소를 못해 슬퍼하고 있다.", "<NAVI>[풀려난 마력]<INFO>EP17_2_PLASMA_Y,0,0,3,-222,1</INFO></NAVI> 44 개체를 ^0000FF맴매^000000해주자.", " ", "보상은 제1 마력발전소 청소Ⅰ, 제1 마력발전소 청소Ⅱ, 제1 마력발전소 청소Ⅲ를 모두 완료해야 받을 수 있습니다."}
+, Summary = "풀려난 마력 44개체", NpcSpr = "EP17_2_OMEGA_CLEANER"}
+, 
+[5900] = {Title = "[대기]제1 마력발전소 청소", IconName = "ico_dq.bmp", 
+Description = {"일정 시간이 지난 후", "<NAVI>[청소로봇Ω]<INFO>ba_in01,24,322,0,101,0</INFO></NAVI>에게 제1 마력발전소 퀘스트를 다시 받을 수 있습니다."}
+, Summary = "초기화 04시", NpcSpr = "EP17_2_OMEGA_CLEANER"}
 , 
 [6000] = {Title = "태권 전직", 
 Description = {"태권의 길을 걷고자 합니다. 베이스 레벨을 상승시킨 후 봉황과 대화 해야 합니다."}
@@ -12677,6 +12785,46 @@ Description = {"라벤더의 사촌인 <NAVI>[난나비]<INFO>geffen,106,63,0,101,0</INFO>
 Description = {"게펜의 <NAVI>[난나비]<INFO>geffen,106,63,0,101,0</INFO></NAVI>는 품질이 좋은 달콤이 껍질이 모자라 기념 모자를 만들지 못하고 있다고 한다. 달콤이 껍질 30개를 모아다 가져다 주자."}
 , Summary = "달콤이 껍질 30개 조달"}
 , 
+[8586] = {Title = "사육장 안내", 
+Description = {"사육장은 시설 안내와 주의 사항을 듣지 않으면 입장을 허가할 수 없다고 한다. <NAVI>[루이난]<INFO>ba_maison,311,205,0,101,0</INFO></NAVI>에게 자세한 이야기를 들어 보자."}
+, Summary = "루이난과 대화"}
+, 
+[8587] = {Title = "일일 농장 체험 - 대기", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[루이난]<INFO>ba_maison,311,205,0,101,0</INFO></NAVI>은 언제나 당신을 기다립니다. 내일 다시 노동을 하고 대가를 요구합시다."}
+, Summary = "04시 초기화"}
+, 
+[8588] = {Title = "꼬리 회수", 
+Description = {"농장 체험을 하는 동안 모은 피타야의 여러 가지 꼬리를 체험 마무리 점검을 하는 자동인형 실크에게 건네주면 된다."}
+, Summary = "던전 끝의 실크에게 꼬리 전달"}
+, 
+[8589] = {Title = "보스 야옹이가!", 
+Description = {"실크는 루이난에게 내부 서버로 보고를 마쳤으나, 그래도 분이 풀리지 않는지 손님으로서 <NAVI>[루이난]<INFO>ba_maison,311,205,0,101,0</INFO></NAVI>에게 직접 클레임을 넣어 달라고 부탁했다."}
+, Summary = "루이난과 대화"}
+, 
+[8590] = {Title = "빨간 피타야와 놀아주기", IconName = "ico_dq.bmp", 
+Description = {"자동인형 <NAVI>[코튼]<INFO>ba_maison,306,205,0,101,0</INFO></NAVI>은 지정된 노동량을 채우기 위해서라면 무슨 수라도 쓰고 싶어한다. 손님에게 노동을 부과하는 것조차 망설이지 않는다. 빨간 피타야 20마리와 놀아주면 코튼은 대가를 줄 것이다."}
+, Summary = "빨간 피타야 처치"}
+, 
+[8591] = {Title = "노란 피타야와 놀아주기", IconName = "ico_dq.bmp", 
+Description = {"자동인형 <NAVI>[코튼]<INFO>ba_maison,306,205,0,101,0</INFO></NAVI>은 지정된 노동량을 채우기 위해서라면 무슨 수라도 쓰고 싶어한다. 손님에게 노동을 부과하는 것조차 망설이지 않는다. 노란 피타야 20마리와 놀아주면 코튼은 대가를 줄 것이다."}
+, Summary = "노란 피타야 처치"}
+, 
+[8592] = {Title = "파란 피타야와 놀아주기", IconName = "ico_dq.bmp", 
+Description = {"자동인형 <NAVI>[코튼]<INFO>ba_maison,306,205,0,101,0</INFO></NAVI>은 지정된 노동량을 채우기 위해서라면 무슨 수라도 쓰고 싶어한다. 손님에게 노동을 부과하는 것조차 망설이지 않는다. 파란 피타야 20마리와 놀아주면 코튼은 대가를 줄 것이다."}
+, Summary = "파란 피타야 처치"}
+, 
+[8593] = {Title = "보라 피타야와 놀아주기", IconName = "ico_dq.bmp", 
+Description = {"자동인형 <NAVI>[코튼]<INFO>ba_maison,306,205,0,101,0</INFO></NAVI>은 지정된 노동량을 채우기 위해서라면 무슨 수라도 쓰고 싶어한다. 손님에게 노동을 부과하는 것조차 망설이지 않는다. 보라 피타야 20마리와 놀아주면 코튼은 대가를 줄 것이다."}
+, Summary = "보라 피타야 처치"}
+, 
+[8594] = {Title = "초록 피타야와 놀아주기", IconName = "ico_dq.bmp", 
+Description = {"자동인형 <NAVI>[코튼]<INFO>ba_maison,306,205,0,101,0</INFO></NAVI>은 지정된 노동량을 채우기 위해서라면 무슨 수라도 쓰고 싶어한다. 손님에게 노동을 부과하는 것조차 망설이지 않는다. 초록 피타야 20마리와 놀아주면 코튼은 대가를 줄 것이다."}
+, Summary = "초록 피타야 처치"}
+, 
+[8595] = {Title = "피타야와 놀아주기 - 대기", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[코튼]<INFO>ba_maison,306,205,0,101,0</INFO></NAVI>은 언제나 당신을 기다립니다. 내일 다시 노동을 하고 대가를 요구합시다."}
+, Summary = "04시 초기화"}
+, 
 [9000] = {Title = "나이트 전직으로의 시작", 
 Description = {"기사단장 \'헤르만\'은 기사전직을 위해 우선 다른 기사들의 승인을 받아야한다고 했다."}
 , Summary = "기사단에 있는 다른 기사들과의 대화"}
@@ -16271,13 +16419,13 @@ Description = {"잭이 있었다는 곳에 대한 이야기를 들었다. 후루롱에게 돌아가자."}
 , 
 [11501] = {Title = "잭과 잭의 잭한 나날", IconName = "ico_ev.bmp", 
 Description = {"필드 및 던전 어딘가에 있는 도망치는 잭을 10개정도 잡고, 잭을 잡으면 떨어지는 장식용 호박 10개, 바싹 마른 하얀줄기 20개를 호로롱에게 가져오자."}
-, Summary = "잭을 니플헤임으로", 
+, 
 RewardItemList = {
 {ItemID = 11605, ItemNum = 30}
 , 
 {ItemID = 6658, ItemNum = 1}
 }
-}
+, Summary = "잭을 니플헤임으로"}
 , 
 [11502] = {Title = "잭과 잭의 잭한 나날", IconName = "ico_ev.bmp", 
 Description = {"잭을 니플헤임으로 데리고 왔다. 유령들의 말에 따르면 잭은 산자의 땅에 너무 오래 머물면 줄기가 자란다고 하니 푹 쉬도록 하자."}
@@ -16285,13 +16433,13 @@ Description = {"잭을 니플헤임으로 데리고 왔다. 유령들의 말에 따르면 잭은 산자의 
 , 
 [11503] = {Title = "잭과 잭의 잭한 나날", IconName = "ico_ev.bmp", 
 Description = {"필드 및 던전 어딘가에 있는 도망치는 잭을 10개정도 잡고, 잭을 잡으면 떨어지는 장식용 호박 10개, 바싹 마른 하얀 줄기 20개를 호로링에게 가져오자."}
-, Summary = "잭을 니플헤임으로", 
+, 
 RewardItemList = {
 {ItemID = 11605, ItemNum = 30}
 , 
 {ItemID = 6658, ItemNum = 1}
 }
-}
+, Summary = "잭을 니플헤임으로"}
 , 
 [11504] = {Title = "잭과 잭의 고양이", IconName = "ico_ev.bmp", 
 Description = {"알아듣기 힘들지만 바싹 마른 하얀 줄기 1개를 구해서 잭에게 돌아오면 될 것 같다."}
@@ -16335,7 +16483,7 @@ Description = {"하얀 고양이를 찾았지만 잭의 냐옹이는 아닌 것 같다. 뒤에 있는 모�
 , 
 [11514] = {Title = "잭과 잭의 고양이", IconName = "ico_ev.bmp", 
 Description = {"모래더미에서 작은 동물의 것인듯한 뼈와 방울이 달린 빨간 목걸이를 발견했다. 잭에게 돌아가자."}
-, Summary = "니플헤임의 잭과 대화", 
+, 
 RewardItemList = {
 {ItemID = 9101, ItemNum = 1}
 , 
@@ -16343,7 +16491,7 @@ RewardItemList = {
 , 
 {ItemID = 6658, ItemNum = 1}
 }
-}
+, Summary = "니플헤임의 잭과 대화"}
 , 
 [11515] = {Title = "검은 언덕에서 불어오는 바람", IconName = "ico_ev.bmp", 
 Description = {"잭의 냐옹이가 상태가 이상한 것 같다고 한다. 잭의 남쪽에 있는 잭의 냐옹이를 만나보자."}
@@ -16383,13 +16531,13 @@ Description = {"몸이 조금 움직일 수 있게 된 스캣레톤은 배가 고파진 듯 하다. ^ff0
 , 
 [11524] = {Title = "검은 언덕에서 불어오는 바람", IconName = "ico_ev.bmp", 
 Description = {"스캣레톤은 ^ff0000바싹 마른 하얀줄기를 20개^000000 더 구해달라고 한다. 줄기를 구해오자."}
-, Summary = "바싹 마른 하얀줄기 20개", 
+, 
 RewardItemList = {
 {ItemID = 25408, ItemNum = 1}
 , 
 {ItemID = 6658, ItemNum = 1}
 }
-}
+, Summary = "바싹 마른 하얀줄기 20개"}
 , 
 [11525] = {Title = "검은 언덕에서 불어오는 바람", IconName = "ico_ev.bmp", 
 Description = {"스캣레톤에게서 스승캣레톤과 같은 기운이 느껴졌다. 스승캣레톤에게 가서 물어보자."}
@@ -16397,13 +16545,13 @@ Description = {"스캣레톤에게서 스승캣레톤과 같은 기운이 느껴졌다. 스승캣레톤에게
 , 
 [11526] = {Title = "검은 언덕에서 불어오는 바람", IconName = "ico_ev.bmp", 
 Description = {"스승캣레톤마저 모험을 떠나버리겠다고 한다. 잭에게 이야기 해주자."}
-, Summary = "잭과 대화", 
+, 
 RewardItemList = {
 {ItemID = 31387, ItemNum = 1}
 , 
 {ItemID = 6658, ItemNum = 1}
 }
-}
+, Summary = "잭과 대화"}
 , 
 [11527] = {Title = "검은 언덕에서 불어오는 바람", IconName = "ico_ev.bmp", 
 Description = {"잭이 피곤한 것 같다. 04시 이후 다시 방문하자."}
@@ -16411,7 +16559,7 @@ Description = {"잭이 피곤한 것 같다. 04시 이후 다시 방문하자."}
 , 
 [11528] = {Title = "검은 언덕에서 불어오는 바람", IconName = "ico_ev.bmp", 
 Description = {"이 퀘스트를 가진 동안은 굘의 골짜기 몬스터에게서 검은 털을 얻을 수 있다."}
-, Summary = "검은 털 수집가", 
+, 
 RewardItemList = {
 {ItemID = 11616, ItemNum = 10}
 , 
@@ -16419,7 +16567,7 @@ RewardItemList = {
 , 
 {ItemID = 6658, ItemNum = 1}
 }
-}
+, Summary = "검은 털 수집가"}
 , 
 [11529] = {Title = "치명적인 유혹", 
 Description = {"문어축제 진행요원이 댕댕킹에게 물어보고 싶은 것이 있는듯하다. 댕댕킹과 대화해보자."}
@@ -16687,11 +16835,11 @@ Description = {"할로윈 축제장을 완성하기 위해 빨갛고 뜨거운 ^ff0000엘더 윌로우 1
 , 
 [11605] = {Title = "잭 더 자이언트 펌프킨", IconName = "ico_ev.bmp", 
 Description = {"할로윈 축제장을 구경하고 ^ff0000잭 잡기 게임^000000을 완료하자. 할로윈 축제장은 축제 안내원을 통해 갈 수 있다. ^ff0000※이벤트보상박스는 획득 즉시 오픈 됩니다.^000000"}
-, Summary = "잭 더 자이언트 잡기", 
+, 
 RewardItemList = {
 {ItemID = 23921, ItemNum = 1}
 }
-}
+, Summary = "잭 더 자이언트 잡기"}
 , 
 [11606] = {Title = "잭 더 자이언트 펌프킨-대기", IconName = "ico_ev.bmp", 
 Description = {"할로윈 축제장으로 가려면 04시 이후 다시 방문하자."}
@@ -16739,6 +16887,150 @@ RewardItemList = {
 , 
 [11614] = {Title = "문어구이는 몇 개까지 먹을 수 있나요? -대기", IconName = "ico_ev.bmp", 
 Description = {"길 잃은 옥토피그를 찾느라 피로가 쌓였다. 내일 다시 방문하자."}
+, Summary = "04시 초기화"}
+, 
+[11615] = {Title = "하수관의 낙오자", IconName = "ico_ep.bmp", 
+Description = {"물에 빠진 사람이 전투불능 상태인 것 같다. 이그드라실의 나뭇잎을 사용해서 회복시켜 주자."}
+, Summary = "이그드라실의 나뭇잎 1개"}
+, 
+[11616] = {Title = "하수관의 낙오자", IconName = "ico_ep.bmp", 
+Description = {"듀 일행도 리벨리온의 외뢰를 받고 저택을 조사하게 되었다고 한다. 다른 일행들과 합류하자."}
+, Summary = "마기의 목소리가 들리는 곳으로"}
+, 
+[11617] = {Title = "하수관의 낙오자", IconName = "ico_ep.bmp", 
+Description = {"위로 올라가는 문을 찾았다. 함께 이동하자."}
+, Summary = "알프가 있는 곳으로"}
+, 
+[11618] = {Title = "하수관의 낙오자", IconName = "ico_ep.bmp", 
+Description = {"드디어 지상으로 올라온 것 같다. 라시스와 대화하자."}
+, Summary = "라시스와 대화"}
+, 
+[11620] = {Title = "하수관의 낙오자", IconName = "ico_ep.bmp", 
+Description = {"안쪽 문은 잠겨있는 듯 하다. 밖으로 나가서 일행과 대화하자."}
+, Summary = "타마린과 대화"}
+, 
+[11621] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"듀가 갑자기 분수대가 있는 곳으로 뛰어갔다. 듀를 따라가보자."}
+, Summary = "분수대를 확인"}
+, 
+[11622] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"모두가 궁금해하는 도서관을 조사하자."}
+, Summary = "도서관 내부로"}
+, 
+[11623] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"문에 붙어있는 불을 끄고 도서관으로 입장했다."}
+, Summary = "도서관 관리자β와 대화"}
+, 
+[11624] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"도서관에서는 추가로 도서관 이용 등록이 필요하다고 한다. 마크에게 이야기 해주자."}
+, Summary = "도서관에 있는 마크와 대화"}
+, 
+[11625] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"도서관에서는 추가로 도서관 이용 등록이 필요하다고 한다. 마기에게 이야기 해주자."}
+, Summary = "도서관에 있는 마기와 대화"}
+, 
+[11626] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"도서관에서는 추가로 도서관 이용 등록이 필요하다고 한다. 알프에게 이야기 해주자."}
+, Summary = "도서관에 있는 알프와 대화"}
+, 
+[11627] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"도서관에서는 추가로 도서관 이용 등록이 필요하다고 한다. 타마린에게 이야기 해주자."}
+, Summary = "도서관에 있는 타마린과 대화"}
+, 
+[11628] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"도서관에서는 추가로 도서관 이용 등록이 필요하다고 한다. 올리버에게 이야기 해주자."}
+, Summary = "도서관에 있는 올리버와 대화"}
+, 
+[11629] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"마크와 대화를 나누었다. 다른 일행들과도 대화가 끝나면 도서관 관리자β에게 돌아가자."}
+, Summary = "도서관 관리자β에게로"}
+, 
+[11630] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"마기와 대화를 나누었다. 다른 일행들과도 대화가 끝나면 도서관 관리자β에게 돌아가자."}
+, Summary = "도서관 관리자β에게로"}
+, 
+[11631] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"알프와 대화를 나누었다. 다른 일행들과도 대화가 끝나면 도서관 관리자β에게 돌아가자."}
+, Summary = "도서관 관리자β에게로"}
+, 
+[11632] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"타마린과 대화를 나누었다. 다른 일행들과도 대화가 끝나면 도서관 관리자β에게 돌아가자."}
+, Summary = "도서관 관리자β에게로"}
+, 
+[11633] = {Title = "도서관에서는 조용히!", IconName = "ico_ep.bmp", 
+Description = {"마올리버와 대화를 나누었다. 다른 일행들과도 대화가 끝나면 도서관 관리자β에게 돌아가자."}
+, Summary = "도서관 관리자β에게로"}
+, 
+[11634] = {Title = "궁극의 책벌레 사냥", IconName = "ico_dq.bmp", 
+Description = {"마법서를 갉아먹는 책벌레 때문에 도서관 관리에 골머리를 앓고 있는 듯 하다. 책벌레를 처치하고 도서관 관리자β에게 돌아가자."}
+, Summary = "책벌레 20마리 사냥"}
+, 
+[11635] = {Title = "궁극의 책벌레 사냥", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 <NAVI>[도서관 관리자β]<INFO>ba_lib,157,19,0,101,0</INFO></NAVI>를 통해 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[11636] = {Title = "궁극의 책정리", IconName = "ico_dq.bmp", 
+Description = {"책장을 빠져나가 배회하는 마법서들 때문에 책장이 엉망진창인 듯하다. 배회하는 마법서를 회수해서 도서관 관리자β에게 돌아가자."}
+, Summary = "배회하는 마법서 20권 회수"}
+, 
+[11637] = {Title = "궁극의 책정리", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 <NAVI>[도서관 관리자β]<INFO>ba_lib,157,19,0,101,0</INFO></NAVI>를 통해 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[11638] = {Title = "궁극의 고철수집", IconName = "ico_dq.bmp", 
+Description = {"부서진 가디언의 부품을 회수해서 가져오면 가디언을 수리할 수 있다고 한다. 가디언의 부품을 회수해서 제 1연구소 앞의 타마린에게 돌아가자."}
+, Summary = "가디언의 잔해 20개 회수"}
+, 
+[11639] = {Title = "궁극의 고철수집", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 <NAVI>[타마린]<INFO>ba_maison,70,145,0,101,0</INFO></NAVI>을 통해 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[11650] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"허리롱은 잭이 이상하다며 잭에게 물어보라고 한다. 잭과 대화 하자."}
+, Summary = "잭과 대화"}
+, 
+[11651] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"잭은 이상한 잭을 보지 못했다고 한다. 니플헤임 입구에 있는 잭에게 다시 물어보자."}
+, Summary = "니플헤임 입구의 잭과 대화"}
+, 
+[11652] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"니플헤임 입구에 있는 잭은 광장에 있는 잭에게 물어보라고 한다. 광장에 있는 잭에게 물어보자."}
+, Summary = "광장의 잭과 대화"}
+, 
+[11653] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"광장에 있는 잭은 이상한 잭은 보지 못했지만 조금 이상한 잭을 봤다고 한다. 조금 이상한 잭과 대화하자."}
+, Summary = "조금 이상한 잭과 대화"}
+, 
+[11654] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"조금 이상한 잭은 집에 돌아갈 평범한 상점표 나비의 날개가 필요한 것 같다. 조금 이상한 잭에게 나비의 날개를 1개 가져다 주자."}
+, 
+RewardItemList = {
+{ItemID = 12347, ItemNum = 1}
+}
+, Summary = "나비의 날개 1개"}
+, 
+[11655] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"조금 이상한 잭은 이상한잭은 잘 모르겠지만 이상한 나이트들을 봤다고 한다. 이상한 나이트와 대화하자."}
+, Summary = "이상한 잭과 대화"}
+, 
+[11656] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"잭을 쓰고 있는 나이트들은 갑자기 늘어난 갈링 때문에 숨쉬기가 힘들다고 한다. 갈링을 20마리 처치하고 돌아오자."}
+, Summary = "갈링 20마리 처치"}
+, 
+[11657] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"갈링을 처치했지만 상황은 그다지 나아지지 않은 것 같다. 허리롱에게 돌아가 보고하자."}
+, Summary = "허리롱과 대화"}
+, 
+[11658] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"허리롱은 이상한 잭을 위해 갈링을 처치해 달라고 한다. 갈링을 20마리 처치하고 허리롱에게 돌아오자."}
+, 
+RewardItemList = {
+{ItemID = 6658, ItemNum = 1}
+}
+, Summary = "갈링 20마리 처치"}
+, 
+[11659] = {Title = "잭과 이상한 잭의 조금 이상한 이야기", IconName = "ico_ev.bmp", 
+Description = {"갈링을 처치했다. 더 이상 무리하면 정화되어버릴지도 모른다고 하니 04시 이후 다시 찾아오자."}
 , Summary = "04시 초기화"}
 , 
 [12000] = {Title = "친구:불협화음", 
@@ -18608,6 +18900,34 @@ Description = {"오스카로부터 뒤틀린 시공의 설명을 들었습니다."}
 [12495] = {Title = "위험한 도전", 
 Description = {"오염된 차원이 이 세계를 물들이지 않도록 막아낼 사람은 당신 뿐입니다."}
 , Summary = "차원 오염 정화"}
+, 
+[12496] = {Title = "화원 출입허가 대기", 
+Description = {"해당 메모리얼 던전은 대기시간 만료 시 <NAVI>[보안구역 출입 담당자]<INFO>ba_maison,120,321,0,101,0</INFO></NAVI>를 통해 재입장 가능합니다"}
+, Summary = "출입 허가 대기"}
+, 
+[12497] = {Title = "보안구역 출입 허가", 
+Description = {"보안구역의 출입이 허가되었습니다."}
+, Summary = "보안구역 출입 허가"}
+, 
+[12498] = {Title = "보안구역 출입허가 대기", 
+Description = {"해당 메모리얼 던전은 대기시간 만료 시 <NAVI>[보안구역 출입 담당자]<INFO>ba_maison,120,321,0,101,0</INFO></NAVI>를 통해 재입장 가능합니다"}
+, Summary = "남은 대기시간 1일"}
+, 
+[12499] = {Title = "레드페퍼-카파 제압", 
+Description = {"보안구역 관리자 3인방중 하나인 레드페퍼 카파를 제압하고 관리자 권한을 빼앗아야합니다. 물론 시간이 지나면 다시 회복하겠지만..."}
+, Summary = "시간 벌기"}
+, 
+[12500] = {Title = "레드페퍼-람다 제압", 
+Description = {"보안구역 관리자 3인방중 하나인 레드페퍼 람다를 제압하고 관리자 권한을 빼앗아야합니다. 물론 시간이 지나면 다시 회복하겠지만..."}
+, Summary = "시간 벌기"}
+, 
+[12501] = {Title = "글래스트 헤임의 환영 처치", 
+Description = {"글래스트 헤임에서 2개의 환영중 하나를 처치해야합니다.", "^0000ff이 퀘스트는 2개중 하나만 클리어해도 모두가 완료됩니다^000000"}
+, Summary = "암다라이스의 환영"}
+, 
+[12502] = {Title = "글래스트 헤임의 환영 처치", 
+Description = {"글래스트 헤임에서 2개의 환영중 하나를 처치해야합니다.", "^0000ff이 퀘스트는 2개중 하나만 클리어해도 모두가 완료됩니다^000000"}
+, Summary = "히멜메즈의 환영"}
 , 
 [13000] = {Title = "RWC2011카드 구하기", 
 Description = {"파란카드를 모아서 RWC2011를 완성하자"}
@@ -23707,6 +24027,114 @@ Description = {"첫 번째 산책을 마쳤다."}
 Description = {"두 번째 산책을 마쳤다."}
 , Summary = "두 번째 산책"}
 , 
+[16427] = {Title = "중독", IconName = "ico_ep.bmp", 
+Description = {"엘류미나가 유해물질에 노출되었다. <NAVI>[저택 쪽]<INFO>ba_maison,169,270,0,101,0</INFO></NAVI>으로 가 도움을 요청해 보자."}
+, Summary = "저택으로 이동"}
+, 
+[16428] = {Title = "해독제 제작", IconName = "ico_ep.bmp", 
+Description = {"자동인형들이 엘류미나를 배척해, 대신 정보를 얻었다. 수상정원으로 가기 위해 <NAVI>[나루터]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>로 가자."}
+, Summary = "나루터로 이동"}
+, 
+[16429] = {Title = "실바 파필리아", IconName = "ico_ep.bmp", 
+Description = {"해독제를 만들기 위해 실바 파필리아를 사냥한 뒤 <NAVI>[세이휴]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>에게 돌아가자."}
+, Summary = "실바 파필리아 사냥"}
+, 
+[16430] = {Title = "해독제 완성", IconName = "ico_ep.bmp", 
+Description = {"세이휴에게 부탁해 완성한 해독제를 <NAVI>[엘류미나]<INFO>ba_maison,234,51,0,101,0</INFO></NAVI>에게 전해 주자."}
+, Summary = "엘류미나와 대화"}
+, 
+[16431] = {Title = "실바 파필리아 사냥", IconName = "ico_dq.bmp", 
+Description = {"수상정원 안의 실바 파필리아를 사냥한 뒤 <NAVI>[세이휴]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>에게 돌아가자."}
+, Summary = "실바 파필리아 사냥"}
+, 
+[16432] = {Title = "실바 파필리아 사냥-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[세이휴]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
+, 
+[16433] = {Title = "그랑 파필리아 사냥", IconName = "ico_dq.bmp", 
+Description = {"수상정원 안의 그랑 파필리아를 사냥한 뒤 <NAVI>[세이휴]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>에게 돌아가자."}
+, Summary = "그랑 파필리아 사냥"}
+, 
+[16434] = {Title = "그랑 파필리아 사냥-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[세이휴]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
+, 
+[16435] = {Title = "정원사 탐색", IconName = "ico_dq.bmp", 
+Description = {"미로 정원에서 나오지 않은 정원사가 있다고 한다. 찾아내어 안부를 확인한 뒤 <NAVI>[세이휴]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>에게 보고하자."}
+, Summary = ""}
+, 
+[16436] = {Title = "정원사 탐색-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[세이휴]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
+, 
+[16437] = {Title = "수상정원", IconName = "ico_dq.bmp", 
+Description = {"수상정원 보통 난이도에 도전했다."}
+, Summary = "수상정원 일반"}
+, 
+[16438] = {Title = "수상정원 어려움", IconName = "ico_dq.bmp", 
+Description = {"수상정원 어려움 난이도에 도전했다.."}
+, Summary = "수상정원 어려움"}
+, 
+[16439] = {Title = "수상정원-대기", IconName = "ico_ep.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[세이휴]<INFO>ba_maison,239,47,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
+, 
+[16440] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"<NAVI>[디엔]<INFO>ba_in01,203,103,0,101,0</INFO></NAVI>에게 말을 걸어 원로들이 필로폰테스와 대립하는 이유를 들어 보자."}
+, Summary = "디엔과 대화"}
+, 
+[16441] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"저택 관리자들에게 다양한 이야기를 들어 본 뒤 <NAVI>[찻집]<INFO>ba_in01,202,108,0,101,0</INFO></NAVI>으로 돌아와 보고하자."}
+, Summary = "관리자와 대화"}
+, 
+[16442] = {Title = "그 관리자의 이야기", IconName = "ico_ep.bmp", 
+Description = {"저택 <NAVI>[관리자]<INFO>ba_maison,189,56,0,101,0</INFO></NAVI>에게 이야기를 들어 보자."}
+, Summary = "관리자와 대화"}
+, 
+[16443] = {Title = "그 관리자의 이야기", IconName = "ico_ep.bmp", 
+Description = {"저택 <NAVI>[관리자]<INFO>ba_maison,318,169,0,101,0</INFO></NAVI>에게 이야기를 들어 보자."}
+, Summary = "관리자와 대화"}
+, 
+[16444] = {Title = "그 관리자의 이야기", IconName = "ico_ep.bmp", 
+Description = {"저택 <NAVI>[관리자]<INFO>ba_maison,249,161,0,101,0</INFO></NAVI>에게 이야기를 들어 보자."}
+, Summary = "관리자와 대화"}
+, 
+[16445] = {Title = "그 관리자의 이야기", IconName = "ico_ep.bmp", 
+Description = {"저택 <NAVI>[관리자]<INFO>ba_maison,232,310,0,101,0</INFO></NAVI>에게 이야기를 들어 보자."}
+, Summary = "관리자와 대화"}
+, 
+[16446] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"그동안 숨겨져 있던 이야기가 계속된다. <NAVI>[리드쉬]<INFO>ba_in01,208,110,0,101,0</INFO></NAVI>에게 말을 걸어 마저 이야기를 들어 보자."}
+, Summary = "리드쉬와 대화"}
+, 
+[16447] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"기업이 숨기고 있던 이야기가 계속된다. <NAVI>[카야 토스]<INFO>ba_in01,207,102,0,101,0</INFO></NAVI>에게 말을 걸어 마저 이야기를 들어 보자."}
+, Summary = "카야와 대화"}
+, 
+[16448] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"카야가 자리를 비우자 루키가 말을 걸어왔다. <NAVI>[루키]<INFO>ba_in01,202,108,0,101,0</INFO></NAVI>의 용무를 들어 보자."}
+, Summary = "루키와 대화"}
+, 
+[16449] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"카야 토스는 홀로 정원에 나와 있다. 아니, 혼자인가? <NAVI>[카야 토스]<INFO>ba_maison,103,92,0,101,0</INFO></NAVI>에게 다가가 보자."}
+, Summary = "카야와 대화"}
+, 
+[16450] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"디엔은 생각이 조금 바뀌었는지도 모른다. <NAVI>[디엔]<INFO>ba_maison,100,90,0,101,0</INFO></NAVI>의 이야기를 들어 보자."}
+, Summary = "디엔과 대화"}
+, 
+[16451] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"카야는 최대한 빨리 일을 진전시키려고 한다. <NAVI>[카야]<INFO>ba_maison,103,92,0,101,0</INFO></NAVI>의 이야기를 들어 보자."}
+, Summary = "카야와 대화"}
+, 
+[16452] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"<NAVI>[타티오]<INFO>ba_in01,205,109,0,101,0</INFO></NAVI>가 도착했다. 그에게서 기업의 앞날에 대한 이야기를 듣도록 하자."}
+, Summary = "타티오와 대화"}
+, 
+[16453] = {Title = "그것이 알고 싶다", IconName = "ico_ep.bmp", 
+Description = {"<NAVI>[안내]<INFO>ba_maison,357,291,0,101,0</INFO></NAVI>에 따라 이동하여, 에이치가 낯선 사람과 이야기하던 장소에 찾아가 탐색해 보자."}
+, Summary = "안내에 따라 이동"}
+, 
 [17000] = {Title = "대화 거부", IconName = "ico_ep.bmp", 
 Description = {"<NAVI>[레이지]<INFO>pub_cat,105,58,0,101,0</INFO></NAVI>씨는 더 이상 카야 토스 부사장과 대화 하기를 거부했다. 무슨 사연이 있는지 물어 보자."}
 , Summary = "레이지씨와 대화"}
@@ -24065,969 +24493,305 @@ Description = {"별미 국수 체험을 하셨습니다. 이벤트 4개를 모두 완료 하셨으면 <NA
 Description = {"모자를 드렸습니다. 행복한 축제 즐기세요!"}
 , Summary = "모자 교환 확인"}
 , 
-[20000] = {Title = "사망-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"사망 1회/사망 시 젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20001] = {Title = "사망-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"사망 1회"}
-, Summary = "Test용"}
-, 
-[20002] = {Title = "사망-타입헌팅(100▼)", IconName = "ico_nq.bmp", 
-Description = {"100 레벨 이전에 사망 1회"}
-, Summary = "Test용"}
-, 
-[20003] = {Title = "사망-타입헌팅(100▲)", IconName = "ico_nq.bmp", 
-Description = {"100 레벨 이후 사망 1회"}
-, Summary = "Test용"}
-, 
-[20004] = {Title = "PvP-일반헌팅All", IconName = "ico_nq.bmp", 
-Description = {"PvP 아무나 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20005] = {Title = "PvP-타입헌팅All(제한X)", IconName = "ico_nq.bmp", 
-Description = {"PvP 아무나 1회"}
-, Summary = "Test용"}
-, 
-[20006] = {Title = "PvP-타입헌팅All(100▼)", IconName = "ico_nq.bmp", 
-Description = {"PvP 100레벨 이하 아무나 1회"}
-, Summary = "Test용"}
-, 
-[20007] = {Title = "PvP-타입헌팅All(100▲)", IconName = "ico_nq.bmp", 
-Description = {"PvP 100레벨 이상 아무나 1회"}
-, Summary = "Test용"}
-, 
-[20008] = {Title = "노비스-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"노비스, 하이노비스 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20009] = {Title = "노비스-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"노비스, 하이노비스 1회"}
-, Summary = "Test용"}
-, 
-[20010] = {Title = "노비스-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 노비스, 하이노비스 1회"}
-, Summary = "Test용"}
-, 
-[20011] = {Title = "노비스-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 노비스, 하이노비스 1회"}
-, Summary = "Test용"}
-, 
-[20012] = {Title = "검사-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"검사, 하이 검사 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20013] = {Title = "검사-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"검사, 하이 검사 1회"}
-, Summary = "Test용"}
-, 
-[20014] = {Title = "검사-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 검사, 하이 검사 1회"}
-, Summary = "Test용"}
-, 
-[20015] = {Title = "검사-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 검사, 하이 검사 1회"}
-, Summary = "Test용"}
-, 
-[20016] = {Title = "마법사-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"마법사, 하이 마법사 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20017] = {Title = "마법사-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"마법사, 하이 마법사 1회"}
-, Summary = "Test용"}
-, 
-[20018] = {Title = "마법사-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 마법사, 하이 마법사 1회"}
-, Summary = "Test용"}
-, 
-[20019] = {Title = "마법사-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 마법사, 하이 마법사 1회"}
-, Summary = "Test용"}
-, 
-[20020] = {Title = "궁수-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"궁수, 하이 궁수 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20021] = {Title = "궁수-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"궁수, 하이 궁수 1회"}
-, Summary = "Test용"}
-, 
-[20022] = {Title = "궁수-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 궁수, 하이 궁수 1회"}
-, Summary = "Test용"}
-, 
-[20023] = {Title = "궁수-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 궁수, 하이 궁수 1회"}
-, Summary = "Test용"}
-, 
-[20024] = {Title = "상인-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"상인, 하이 상인 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20025] = {Title = "상인-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"상인, 하이 상인 1회"}
-, Summary = "Test용"}
-, 
-[20026] = {Title = "상인-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 상인, 하이 상인 1회"}
-, Summary = "Test용"}
-, 
-[20027] = {Title = "상인-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 상인, 하이 상인 1회"}
-, Summary = "Test용"}
-, 
-[20028] = {Title = "도둑-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"도둑, 하이 도둑 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20029] = {Title = "도둑-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"도둑, 하이 도둑 1회"}
-, Summary = "Test용"}
-, 
-[20030] = {Title = "도둑-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 도둑, 하이 도둑 1회"}
-, Summary = "Test용"}
-, 
-[20031] = {Title = "도둑-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 도둑, 하이 도둑 1회"}
-, Summary = "Test용"}
-, 
-[20032] = {Title = "복사-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"복사, 하이 복사 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20033] = {Title = "복사-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"복사, 하이 복사 1회"}
-, Summary = "Test용"}
-, 
-[20034] = {Title = "복사-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 복사, 하이 복사 1회"}
-, Summary = "Test용"}
-, 
-[20035] = {Title = "복사-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 복사, 하이 복사 1회"}
-, Summary = "Test용"}
-, 
-[20036] = {Title = "태권-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"태권 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20037] = {Title = "태권-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"태권 1회"}
-, Summary = "Test용"}
-, 
-[20038] = {Title = "태권-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 태권 1회"}
-, Summary = "Test용"}
-, 
-[20039] = {Title = "태권-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 태권 1회"}
-, Summary = "Test용"}
-, 
-[20040] = {Title = "닌자-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"닌자 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20041] = {Title = "닌자-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"닌자 1회"}
-, Summary = "Test용"}
-, 
-[20042] = {Title = "닌자-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 닌자 1회"}
-, Summary = "Test용"}
-, 
-[20043] = {Title = "닌자-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 닌자 1회"}
-, Summary = "Test용"}
-, 
-[20044] = {Title = "건슬-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"건슬 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20045] = {Title = "건슬-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"건슬 1회"}
-, Summary = "Test용"}
-, 
-[20046] = {Title = "건슬-타입헌팅(50▼)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이하 건슬 1회"}
-, Summary = "Test용"}
-, 
-[20047] = {Title = "건슬-타입헌팅(50▲)", IconName = "ico_nq.bmp", 
-Description = {"50레벨 이상 건슬 1회"}
-, Summary = "Test용"}
-, 
-[20048] = {Title = "슈노-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"슈노, 슈노2 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20049] = {Title = "슈노-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"슈노, 슈노2 1회"}
-, Summary = "Test용"}
-, 
-[20050] = {Title = "슈노-타입헌팅(100▼)", IconName = "ico_nq.bmp", 
-Description = {"100레벨 이하 슈노, 슈노2 1회"}
-, Summary = "Test용"}
-, 
-[20051] = {Title = "슈노-타입헌팅(100▲)", IconName = "ico_nq.bmp", 
-Description = {"100레벨 이상 슈노, 슈노2 1회"}
-, Summary = "Test용"}
-, 
-[20052] = {Title = "기사-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"기사 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20053] = {Title = "기사-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"기사 1회"}
-, Summary = "Test용"}
-, 
-[20054] = {Title = "기사-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 기사 1회"}
-, Summary = "Test용"}
-, 
-[20055] = {Title = "기사-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 기사 1회"}
-, Summary = "Test용"}
-, 
-[20056] = {Title = "위저드-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"위저드 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20057] = {Title = "위저드-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"위저드 1회"}
-, Summary = "Test용"}
-, 
-[20058] = {Title = "위저드-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 위저드 1회"}
-, Summary = "Test용"}
-, 
-[20059] = {Title = "위저드-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 위저드 1회"}
-, Summary = "Test용"}
-, 
-[20060] = {Title = "헌터-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"헌터 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20061] = {Title = "헌터-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"헌터 1회"}
-, Summary = "Test용"}
-, 
-[20062] = {Title = "헌터-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 헌터 1회"}
-, Summary = "Test용"}
-, 
-[20063] = {Title = "헌터-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 헌터 1회"}
-, Summary = "Test용"}
-, 
-[20064] = {Title = "블랙스미스-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"블랙스미스 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20065] = {Title = "블랙스미스-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"블랙스미스 1회"}
-, Summary = "Test용"}
-, 
-[20066] = {Title = "블랙스미스-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 블랙스미스 1회"}
-, Summary = "Test용"}
-, 
-[20067] = {Title = "블랙스미스-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 블랙스미스 1회"}
-, Summary = "Test용"}
-, 
-[20068] = {Title = "어쎄신-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"어쎄신 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20069] = {Title = "어쎄신-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"어쎄신 1회"}
-, Summary = "Test용"}
-, 
-[20070] = {Title = "어쎄신-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 어쎄신 1회"}
-, Summary = "Test용"}
-, 
-[20071] = {Title = "어쎄신-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 어쎄신 1회"}
-, Summary = "Test용"}
-, 
-[20072] = {Title = "프리스트-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"프리스트 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20073] = {Title = "프리스트-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"프리스트 1회"}
-, Summary = "Test용"}
-, 
-[20074] = {Title = "프리스트-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 프리스트 1회"}
-, Summary = "Test용"}
-, 
-[20075] = {Title = "프리스트-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 프리스트 1회"}
-, Summary = "Test용"}
-, 
-[20076] = {Title = "크루세이더-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"크루세이더 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20077] = {Title = "크루세이더-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"크루세이더 1회"}
-, Summary = "Test용"}
-, 
-[20078] = {Title = "크루세이더-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 크루세이더 1회"}
-, Summary = "Test용"}
-, 
-[20079] = {Title = "크루세이더-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 크루세이더 1회"}
-, Summary = "Test용"}
-, 
-[20080] = {Title = "세이지-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"세이지 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20081] = {Title = "세이지-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"세이지 1회"}
-, Summary = "Test용"}
-, 
-[20082] = {Title = "세이지-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 세이지 1회"}
-, Summary = "Test용"}
-, 
-[20083] = {Title = "세이지-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 세이지 1회"}
-, Summary = "Test용"}
-, 
-[20084] = {Title = "바드-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"바드 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20085] = {Title = "바드-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"바드 1회"}
-, Summary = "Test용"}
-, 
-[20086] = {Title = "바드-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 바드 1회"}
-, Summary = "Test용"}
-, 
-[20087] = {Title = "바드-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 바드 1회"}
-, Summary = "Test용"}
-, 
-[20088] = {Title = "댄서-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"댄서 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20089] = {Title = "댄서-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"댄서 1회"}
-, Summary = "Test용"}
-, 
-[20090] = {Title = "댄서-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 댄서 1회"}
-, Summary = "Test용"}
-, 
-[20091] = {Title = "댄서-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 댄서 1회"}
-, Summary = "Test용"}
-, 
-[20092] = {Title = "알케미스트-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"알케미스트 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20093] = {Title = "알케미스트-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"알케미스트 1회"}
-, Summary = "Test용"}
-, 
-[20094] = {Title = "알케미스트-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 알케미스트 1회"}
-, Summary = "Test용"}
-, 
-[20095] = {Title = "알케미스트-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 알케미스트 1회"}
-, Summary = "Test용"}
-, 
-[20096] = {Title = "로그-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"로그 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20097] = {Title = "로그-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"로그 1회"}
-, Summary = "Test용"}
-, 
-[20098] = {Title = "로그-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 로그 1회"}
-, Summary = "Test용"}
-, 
-[20099] = {Title = "로그-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 로그 1회"}
-, Summary = "Test용"}
-, 
-[20100] = {Title = "몽크-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"몽크 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20101] = {Title = "몽크-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"몽크 1회"}
-, Summary = "Test용"}
-, 
-[20102] = {Title = "몽크-타입헌팅(70▼)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이하 몽크 1회"}
-, Summary = "Test용"}
-, 
-[20103] = {Title = "몽크-타입헌팅(70▲)", IconName = "ico_nq.bmp", 
-Description = {"70레벨 이상 몽크 1회"}
-, Summary = "Test용"}
-, 
-[20104] = {Title = "로드나이트-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"로드나이트 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20105] = {Title = "로드나이트-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"로드나이트 1회"}
-, Summary = "Test용"}
-, 
-[20106] = {Title = "로드나이트-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 로드나이트 1회"}
-, Summary = "Test용"}
-, 
-[20107] = {Title = "로드나이트-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 로드나이트 1회"}
-, Summary = "Test용"}
-, 
-[20108] = {Title = "하이위저드-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"하이위저드 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20109] = {Title = "하이위저드-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"하이위저드 1회"}
-, Summary = "Test용"}
-, 
-[20110] = {Title = "하이위저드-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 하이위저드 1회"}
-, Summary = "Test용"}
-, 
-[20111] = {Title = "하이위저드-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 하이위저드 1회"}
-, Summary = "Test용"}
-, 
-[20112] = {Title = "스나이퍼-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"스나이퍼 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20113] = {Title = "스나이퍼-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"스나이퍼 1회"}
-, Summary = "Test용"}
-, 
-[20114] = {Title = "스나이퍼-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 스나이퍼 1회"}
-, Summary = "Test용"}
-, 
-[20115] = {Title = "스나이퍼-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 스나이퍼 1회"}
-, Summary = "Test용"}
-, 
-[20116] = {Title = "화이트스미스-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"화이트스미스 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20117] = {Title = "화이트스미스-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"화이트스미스 1회"}
-, Summary = "Test용"}
-, 
-[20118] = {Title = "화이트스미스-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 화이트스미스 1회"}
-, Summary = "Test용"}
-, 
-[20119] = {Title = "화이트스미스-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 화이트스미스 1회"}
-, Summary = "Test용"}
-, 
-[20120] = {Title = "어쎄신크로스-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"어쎄신크로스 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20121] = {Title = "어쎄신크로스-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"어쎄신크로스 1회"}
-, Summary = "Test용"}
-, 
-[20122] = {Title = "어쎄신크로스-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 어쎄신크로스 1회"}
-, Summary = "Test용"}
-, 
-[20123] = {Title = "어쎄신크로스-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 어쎄신크로스 1회"}
-, Summary = "Test용"}
-, 
-[20124] = {Title = "하이프리스트-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"하이프리스트 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20125] = {Title = "하이프리스트-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"하이프리스트 1회"}
-, Summary = "Test용"}
-, 
-[20126] = {Title = "하이프리스트-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 하이프리스트 1회"}
-, Summary = "Test용"}
-, 
-[20127] = {Title = "하이프리스트-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 하이프리스트 1회"}
-, Summary = "Test용"}
-, 
-[20128] = {Title = "팔라딘-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"팔라딘 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20129] = {Title = "팔라딘-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"팔라딘 1회"}
-, Summary = "Test용"}
-, 
-[20130] = {Title = "팔라딘-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 팔라딘 1회"}
-, Summary = "Test용"}
-, 
-[20131] = {Title = "팔라딘-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 팔라딘 1회"}
-, Summary = "Test용"}
-, 
-[20132] = {Title = "프로페서-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"프로페서 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20133] = {Title = "프로페서-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"프로페서 1회"}
-, Summary = "Test용"}
-, 
-[20134] = {Title = "프로페서-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 프로페서 1회"}
-, Summary = "Test용"}
-, 
-[20135] = {Title = "프로페서-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 프로페서 1회"}
-, Summary = "Test용"}
-, 
-[20136] = {Title = "클로운-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"클로운 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20137] = {Title = "클로운-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"클로운 1회"}
-, Summary = "Test용"}
-, 
-[20138] = {Title = "클로운-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 클로운 1회"}
-, Summary = "Test용"}
-, 
-[20139] = {Title = "클로운-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 클로운 1회"}
-, Summary = "Test용"}
-, 
-[20140] = {Title = "집시-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"집시 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20141] = {Title = "집시-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"집시 1회"}
-, Summary = "Test용"}
-, 
-[20142] = {Title = "집시-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 집시 1회"}
-, Summary = "Test용"}
-, 
-[20143] = {Title = "집시-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 집시 1회"}
-, Summary = "Test용"}
-, 
-[20144] = {Title = "크리에이터-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"크리에이터 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20145] = {Title = "크리에이터-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"크리에이터 1회"}
-, Summary = "Test용"}
-, 
-[20146] = {Title = "크리에이터-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 크리에이터 1회"}
-, Summary = "Test용"}
-, 
-[20147] = {Title = "크리에이터-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 크리에이터 1회"}
-, Summary = "Test용"}
-, 
-[20148] = {Title = "스토커-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"스토커 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20149] = {Title = "스토커-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"스토커 1회"}
-, Summary = "Test용"}
-, 
-[20150] = {Title = "스토커-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 스토커 1회"}
-, Summary = "Test용"}
-, 
-[20151] = {Title = "스토커-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 스토커 1회"}
-, Summary = "Test용"}
-, 
-[20152] = {Title = "챔피언-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"챔피언 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20153] = {Title = "챔피언-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"챔피언 1회"}
-, Summary = "Test용"}
-, 
-[20154] = {Title = "챔피언-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 챔피언 1회"}
-, Summary = "Test용"}
-, 
-[20155] = {Title = "챔피언-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 챔피언 1회"}
-, Summary = "Test용"}
-, 
-[20156] = {Title = "룬나이트-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"룬나이트, 전승 룬나이트 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20157] = {Title = "룬나이트-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"룬나이트, 전승 룬나이트 1회"}
-, Summary = "Test용"}
-, 
-[20158] = {Title = "룬나이트-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 룬나이트, 전승 룬나이트 1회"}
-, Summary = "Test용"}
-, 
-[20159] = {Title = "룬나이트-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 룬나이트, 전승 룬나이트 1회"}
-, Summary = "Test용"}
-, 
-[20160] = {Title = "워록-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"워록, 전승 워록 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20161] = {Title = "워록-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"워록, 전승 워록 1회"}
-, Summary = "Test용"}
-, 
-[20162] = {Title = "워록-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 워록, 전승 워록 1회"}
-, Summary = "Test용"}
-, 
-[20163] = {Title = "워록-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 워록, 전승 워록 1회"}
-, Summary = "Test용"}
-, 
-[20164] = {Title = "레인저-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"레인저, 전승 레인저 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20165] = {Title = "레인저-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"레인저, 전승 레인저 1회"}
-, Summary = "Test용"}
-, 
-[20166] = {Title = "레인저-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 레인저, 전승 레인저 1회"}
-, Summary = "Test용"}
-, 
-[20167] = {Title = "레인저-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 레인저, 전승 레인저 1회"}
-, Summary = "Test용"}
-, 
-[20168] = {Title = "미케닉-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"미케닉, 전승 미케닉 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20169] = {Title = "미케닉-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"미케닉, 전승 미케닉 1회"}
-, Summary = "Test용"}
-, 
-[20170] = {Title = "미케닉-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 미케닉, 전승 미케닉 1회"}
-, Summary = "Test용"}
-, 
-[20171] = {Title = "미케닉-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 미케닉, 전승 미케닉 1회"}
-, Summary = "Test용"}
-, 
-[20172] = {Title = "길로틴크로스-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"길로틴크로스, 전승 길로틴크로스 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20173] = {Title = "길로틴크로스-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"길로틴크로스, 전승 길로틴크로스 1회"}
-, Summary = "Test용"}
-, 
-[20174] = {Title = "길로틴크로스-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 길로틴크로스, 전승 길로틴크로스 1회"}
-, Summary = "Test용"}
-, 
-[20175] = {Title = "길로틴크로스-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 길로틴크로스, 전승 길로틴크로스 1회"}
-, Summary = "Test용"}
-, 
-[20176] = {Title = "아크비숍-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"아크비숍, 전승 아크비숍 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20177] = {Title = "아크비숍-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"아크비숍, 전승 아크비숍 1회"}
-, Summary = "Test용"}
-, 
-[20178] = {Title = "아크비숍-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 아크비숍, 전승 아크비숍 1회"}
-, Summary = "Test용"}
-, 
-[20179] = {Title = "아크비숍-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 아크비숍, 전승 아크비숍 1회"}
-, Summary = "Test용"}
-, 
-[20180] = {Title = "로열가드-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"로열가드, 전승 로열가드 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20181] = {Title = "로열가드-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"로열가드, 전승 로열가드 1회"}
-, Summary = "Test용"}
-, 
-[20182] = {Title = "로열가드-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 로열가드, 전승 로열가드 1회"}
-, Summary = "Test용"}
-, 
-[20183] = {Title = "로열가드-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 로열가드, 전승 로열가드 1회"}
-, Summary = "Test용"}
-, 
-[20184] = {Title = "소서러-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"소서러, 전승 소서러 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20185] = {Title = "소서러-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"소서러, 전승 소서러 1회"}
-, Summary = "Test용"}
-, 
-[20186] = {Title = "소서러-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 소서러, 전승 소서러 1회"}
-, Summary = "Test용"}
-, 
-[20187] = {Title = "소서러-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 소서러, 전승 소서러 1회"}
-, Summary = "Test용"}
-, 
-[20188] = {Title = "민스트럴-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"민스트럴, 전승 민스트럴 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20189] = {Title = "민스트럴-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"민스트럴, 전승 민스트럴 1회"}
-, Summary = "Test용"}
-, 
-[20190] = {Title = "민스트럴-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 민스트럴, 전승 민스트럴 1회"}
-, Summary = "Test용"}
-, 
-[20191] = {Title = "민스트럴-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 민스트럴, 전승 민스트럴 1회"}
-, Summary = "Test용"}
-, 
-[20192] = {Title = "원더러-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"원더러, 전승 원더러 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20193] = {Title = "원더러-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"원더러, 전승 원더러 1회"}
-, Summary = "Test용"}
-, 
-[20194] = {Title = "원더러-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 원더러, 전승 원더러 1회"}
-, Summary = "Test용"}
-, 
-[20195] = {Title = "원더러-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 원더러, 전승 원더러 1회"}
-, Summary = "Test용"}
-, 
-[20196] = {Title = "제네릭-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"제네릭, 전승 제네릭 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20197] = {Title = "제네릭-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"제네릭, 전승 제네릭 1회"}
-, Summary = "Test용"}
-, 
-[20198] = {Title = "제네릭-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 제네릭, 전승 제네릭 1회"}
-, Summary = "Test용"}
-, 
-[20199] = {Title = "제네릭-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 제네릭, 전승 제네릭 1회"}
-, Summary = "Test용"}
-, 
-[20200] = {Title = "쉐도우체이서-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"쉐도우체이서, 전승 쉐도우체이서 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20201] = {Title = "쉐도우체이서-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"쉐도우체이서, 전승 쉐도우체이서 1회"}
-, Summary = "Test용"}
-, 
-[20202] = {Title = "쉐도우체이서-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 쉐도우체이서, 전승 쉐도우체이서 1회"}
-, Summary = "Test용"}
-, 
-[20203] = {Title = "쉐도우체이서-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 쉐도우체이서, 전승 쉐도우체이서 1회"}
-, Summary = "Test용"}
-, 
-[20204] = {Title = "수라-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"수라, 전승 수라 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20205] = {Title = "수라-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"수라, 전승 수라 1회"}
-, Summary = "Test용"}
-, 
-[20206] = {Title = "수라-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 수라, 전승 수라 1회"}
-, Summary = "Test용"}
-, 
-[20207] = {Title = "수라-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 수라, 전승 수라 1회"}
-, Summary = "Test용"}
-, 
-[20208] = {Title = "권성-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"권성 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20209] = {Title = "권성-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"권성 1회"}
-, Summary = "Test용"}
-, 
-[20210] = {Title = "권성-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 권성 1회"}
-, Summary = "Test용"}
-, 
-[20211] = {Title = "권성-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 권성 1회"}
-, Summary = "Test용"}
-, 
-[20212] = {Title = "소울링커-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"소울링커 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20213] = {Title = "소울링커-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"소울링커 1회"}
-, Summary = "Test용"}
-, 
-[20214] = {Title = "소울링커-타입헌팅(80▼)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이하 소울링커 1회"}
-, Summary = "Test용"}
-, 
-[20215] = {Title = "소울링커-타입헌팅(80▲)", IconName = "ico_nq.bmp", 
-Description = {"80레벨 이상 소울링커 1회"}
-, Summary = "Test용"}
-, 
-[20216] = {Title = "카게로우-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"카게로우 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20217] = {Title = "카게로우-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"카게로우 1회"}
-, Summary = "Test용"}
-, 
-[20218] = {Title = "카게로우-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 카게로우 1회"}
-, Summary = "Test용"}
-, 
-[20219] = {Title = "카게로우-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 카게로우 1회"}
-, Summary = "Test용"}
-, 
-[20220] = {Title = "오보로-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"오보로 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20221] = {Title = "오보로-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"오보로 1회"}
-, Summary = "Test용"}
-, 
-[20222] = {Title = "오보로-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 오보로 1회"}
-, Summary = "Test용"}
-, 
-[20223] = {Title = "오보로-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 오보로 1회"}
-, Summary = "Test용"}
-, 
-[20224] = {Title = "리벨리온-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"리벨리온 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20225] = {Title = "리벨리온-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"리벨리온 1회"}
-, Summary = "Test용"}
-, 
-[20226] = {Title = "리벨리온-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 리벨리온 1회"}
-, Summary = "Test용"}
-, 
-[20227] = {Title = "리벨리온-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 리벨리온 1회"}
-, Summary = "Test용"}
-, 
-[20228] = {Title = "소환사-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"소환사 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20229] = {Title = "소환사-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"소환사 1회"}
-, Summary = "Test용"}
-, 
-[20230] = {Title = "소환사-타입헌팅(100▼)", IconName = "ico_nq.bmp", 
-Description = {"100레벨 이하 소환사 1회"}
-, Summary = "Test용"}
-, 
-[20231] = {Title = "소환사-타입헌팅(100▲)", IconName = "ico_nq.bmp", 
-Description = {"100레벨 이상 소환사 1회"}
-, Summary = "Test용"}
-, 
-[20232] = {Title = "성제-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"성제 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20233] = {Title = "성제-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"성제 1회"}
-, Summary = "Test용"}
-, 
-[20234] = {Title = "성제-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 성제 1회"}
-, Summary = "Test용"}
-, 
-[20235] = {Title = "성제-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 성제 1회"}
-, Summary = "Test용"}
-, 
-[20236] = {Title = "소울리퍼-일반헌팅", IconName = "ico_nq.bmp", 
-Description = {"소울리퍼 1회/젤로피 50%"}
-, Summary = "Test용"}
-, 
-[20237] = {Title = "소울리퍼-타입헌팅(제한X)", IconName = "ico_nq.bmp", 
-Description = {"소울리퍼 1회"}
-, Summary = "Test용"}
-, 
-[20238] = {Title = "소울리퍼-타입헌팅(150▼)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이하 소울리퍼 1회"}
-, Summary = "Test용"}
-, 
-[20239] = {Title = "소울리퍼-타입헌팅(150▲)", IconName = "ico_nq.bmp", 
-Description = {"150레벨 이상 소울리퍼 1회"}
-, Summary = "Test용"}
-, 
-[20240] = {Title = "사망-타입헌팅(30-50)", IconName = "ico_nq.bmp", 
-Description = {"30-50 레벨 사이에 사망 1회"}
-, Summary = "Test용"}
+[17333] = {Title = "저택의 손님", IconName = "ico_ep.bmp", 
+Description = {"저택 내의 네트워크로 손님 리스트 공유를 하던 중에 문제가 생긴 것 같다. <NAVI>[저택 관리자α]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>에게 확인해보자."}
+, Summary = "저택 관리자α"}
+, 
+[17334] = {Title = "중계기 확인: 식당", IconName = "ico_ep.bmp", 
+Description = {"가장 가까운 <NAVI>[식당]<INFO>ba_maison,146,109,0,101,0</INFO></NAVI>쪽으로 가보시는 것이 좋을 것 같습니다. 고장난 중계기 주변의 자동 인형에게 고장 사항을 전달하면 알아서 처리할 것입니다."}
+, Summary = "식당으로"}
+, 
+[17335] = {Title = "중계기의 부품", IconName = "ico_ep.bmp", 
+Description = {"고장난 베타를 처리한 다음에 자동인형 통신칩 1개만 가지고 와. 중계기를 바로 고쳐야 하니까. - <NAVI>[맛짱]<INFO>ba_maison,146,109,0,101,0</INFO></NAVI>"}
+, Summary = "부품 1개"}
+, 
+[17336] = {Title = "중계기 확인: 정자", IconName = "ico_ep.bmp", 
+Description = {"<NAVI>[정자]<INFO>ba_maison,334,143,0,101,0</INFO></NAVI>는 이 길을 쭉 따라서 가면 돼. 고장난 중계기는 함부로 만지지 말고 주변의 자동 인형들에게 얘기하면 될 거야."}
+, Summary = "정자로"}
+, 
+[17337] = {Title = "중계기 확인: 중앙 정원", IconName = "ico_ep.bmp", 
+Description = {"저택의 <NAVI>[중앙 정원]<INFO>ba_maison,245,206,0,101,0</INFO></NAVI>은 정자 쪽에서 위로 쭉 올라가서 왼쪽으로 꺾으시면 돼요."}
+, Summary = "중앙 정원으로"}
+, 
+[17338] = {Title = "중계기 확인 완료", IconName = "ico_ep.bmp", 
+Description = {"고장난 중계기를 확인한 후 자동 인형에게 고장 사항을 전달했다. <NAVI>[저택 관리자α]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>에게 돌아가 보고하자."}
+, Summary = "저택 관리자α에게"}
+, 
+[17339] = {Title = "예비 부품 수급", IconName = "ico_ep.bmp", 
+Description = {"예비 부품을 가져다 달라는 부탁을 받았다."}
+, Summary = "부품 수급"}
+, 
+[17340] = {Title = "예비 부품 수급", IconName = "ico_dq.bmp", 
+Description = {"고장난 베타들을 처리하고 중계기에 사용할 부품을 10개만 가져다 주십시오. 하루치의 예비분량이 그 정도입니다. - <NAVI>[저택 관리자α]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>"}
+, Summary = "부품 10개"}
+, 
+[17341] = {Title = "대기: 신호 없음", IconName = "ico_dq.bmp", 
+Description = {"사정이 괜찮으시다면 내일 새벽이 지난 후에 또 부탁을 드리고 싶습니다. 이만 푹 쉬십시오. - <NAVI>[저택 관리자α]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17342] = {Title = "좋아하는 건 아닌데", IconName = "ico_ep.bmp", 
+Description = {"그럼 부탁을 드려도 되겠습니다. 고장난 청소로봇 5체 정도 처리를 부탁드립니다. 그럼, 유희를 즐기시길 바랍니다. - <NAVI>[짹]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"}
+, Summary = "고장난 청소로봇 5체"}
+, 
+[17343] = {Title = "무서워...", IconName = "ico_ep.bmp", 
+Description = {"<NAVI>[계단]<INFO>ba_2whs01,276,290,0,101,0</INFO></NAVI>을 내려가셔서 지하의 상황이 어떤지 확인하고 오십시오."}
+, Summary = "지하 상황 확인"}
+, 
+[17344] = {Title = "열쇠가 없어", IconName = "ico_ep.bmp", 
+Description = {"계단으로 통하는 문은자물쇠로 굳게 잠겨있다. <NAVI>[짹]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>에게 열쇠를 받아와야겠다."}
+, Summary = "짹에게"}
+, 
+[17345] = {Title = "계단실의 열쇠 1", IconName = "ico_ep.bmp", 
+Description = {"<NAVI>[돌고있는 세상]<INFO>ba_2whs01,110,218,0,101,0</INFO></NAVI>. 그 밑에 모든 진리가 있다 하셨지요."}
+, Summary = "비상 열쇠 찾기"}
+, 
+[17346] = {Title = "계단실의 열쇠 2", IconName = "ico_ep.bmp", 
+Description = {"숨마저 얼어붙는 <NAVI>[곳]<INFO>ba_2whs01,14,282,0,101,0</INFO></NAVI>에서는 모든 것이 영원히 변질되지 않고 그 모습 그대로를 유지한다고 하셨습니다."}
+, Summary = "비상 열쇠 찾기"}
+, 
+[17347] = {Title = "계단실의 열쇠 3", IconName = "ico_ep.bmp", 
+Description = {"모든 공기는 흘러야 한다고 하셨습니다. 거기엔 거대한 에너지도 사용된다고도 하셨지요. <NAVI>[그런 장소]<INFO>ba_2whs01,222,257,0,101,0</INFO></NAVI>가 어딘지 짐작도 가지 않지만요."}
+, Summary = "비상 열쇠 찾기"}
+, 
+[17348] = {Title = "열쇠 확보", IconName = "ico_ep.bmp", 
+Description = {"비상열쇠를 다 찾았으니 <NAVI>[잠긴 문]<INFO>ba_2whs01,276,290,0,101,0</INFO></NAVI>을 열러 가 보자."}
+, Summary = "계단실의 문으로"}
+, 
+[17349] = {Title = "문이 열렸다", IconName = "ico_ep.bmp", 
+Description = {"지하로 통하는 문이 열렸다. 어서 내려가서 <NAVI>[소리가 나는 곳]<INFO>ba_2whs02,37,312,0,101,0</INFO></NAVI>을 확인해보자."}
+, Summary = "지하로"}
+, 
+[17350] = {Title = "머리 몸 팔 다리", IconName = "ico_ep.bmp", 
+Description = {"<NAVI>[몸이 있는 곳]<INFO>ba_2whs02,31,50,0,101,0</INFO></NAVI>이 제일 가까우니까 그쪽 먼저 가면 되곘다. 빠르게 갖다 줘. 나 무서워."}
+, Summary = "몸을 찾으러"}
+, 
+[17351] = {Title = "머리 몸 팔 다리", IconName = "ico_ep.bmp", 
+Description = {"몸은 찾았으니 다음은 <NAVI>[팔]<INFO>ba_2whs02,129,82,0,101,0</INFO></NAVI>을 찾으러 가야겠다."}
+, Summary = "팔을 찾으러"}
+, 
+[17352] = {Title = "머리 몸 팔 다리", IconName = "ico_ep.bmp", 
+Description = {"팔을 찾았으니 <NAVI>[다리]<INFO>ba_2whs02,239,124,0,101,0</INFO></NAVI>를 찾으러 가야겠다."}
+, Summary = "다리를 찾으러"}
+, 
+[17353] = {Title = "머리 몸 팔 다리", IconName = "ico_ep.bmp", 
+Description = {"몸, 팔, 다리로 쓸만한 것을 찾았으니 <NAVI>[머리]<INFO>ba_2whs02,37,312,0,101,0</INFO></NAVI>에게로 돌아가자."}
+, Summary = "머리에게로"}
+, 
+[17354] = {Title = "머리 몸 팔 다리", IconName = "ico_ep.bmp", 
+Description = {"멋진 형태로 조립되었다."}
+, Summary = "조립 완료"}
+, 
+[17355] = {Title = "머리 몸 팔 다리", IconName = "ico_ep.bmp", 
+Description = {"멋진 형태로 조립되었다."}
+, Summary = "조립 완료"}
+, 
+[17356] = {Title = "머리 몸 팔 다리", IconName = "ico_ep.bmp", 
+Description = {"멋진 형태로 조립되었다."}
+, Summary = "조립 완료"}
+, 
+[17357] = {Title = "머리 몸 팔 다리", IconName = "ico_ep.bmp", 
+Description = {"멋진 형태로 조립되었다."}
+, Summary = "조립 완료"}
+, 
+[17358] = {Title = "지하 상황 확인 완료", IconName = "ico_ep.bmp", 
+Description = {"이 정도면 나를 지킬 수 있겠어! 올라가서 다른 <NAVI>[자동인형]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>에게 보고해야 한다고 했지? 어서 가."}
+, Summary = "짹에게로"}
+, 
+[17359] = {Title = "지상 창고 정리", IconName = "ico_dq.bmp", 
+Description = {"정말 전투를 좋아하시는군요. 그럼 지상층의 하트헌터 척후병 20명 처리를 부탁드립니다. - <NAVI>[짹]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"}
+, Summary = "하트헌터 척후병 20"}
+, 
+[17360] = {Title = "대기: 지상 창고 정리", IconName = "ico_dq.bmp", 
+Description = {"개체수가 줄어든 것이 확인됩니다. 이제 제 일을 시작해도 되겠습니다. 감사합니다. 새벽이 지난 후에 다시 찾아주십시오. - <NAVI>[짹]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17361] = {Title = "지하 창고 정리", IconName = "ico_dq.bmp", 
+Description = {"정말 전투를 좋아하시는군요. 그럼 지하층의 고장난 경비형 베타 20체 처리를 부탁드립니다. - <NAVI>[짹]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"}
+, Summary = "지하층 20체"}
+, 
+[17362] = {Title = "대기: 지하 창고 정리", IconName = "ico_dq.bmp", 
+Description = {"개체수가 줄어든 것이 확인됩니다. 이제 제 일을 시작해도 되겠습니다. 감사합니다. 새벽이 지난 후에 다시 찾아주십시오. - <NAVI>[짹]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17363] = {Title = "목욕탕 탐색", IconName = "ico_ep.bmp", 
+Description = {"목욕탕 <NAVI>[안으로]<INFO>ba_bath,165,43,0,101,0</INFO></NAVI> 들어가면 바로 탐색을 시작할 거예요."}
+, Summary = "목욕탕 안으로"}
+, 
+[17364] = {Title = "보일러 작동 중지 요청", IconName = "ico_ep.bmp", 
+Description = {"모험가님은 <NAVI>[보일러실]<INFO>ba_bath,286,68,0,101,0</INFO></NAVI>로 가서 보일러 작동을 중지해달라고 해주세요. 곧 따라갈게요."}
+, Summary = "보일러실로"}
+, 
+[17365] = {Title = "이미 중지했는데?", IconName = "ico_ep.bmp", 
+Description = {"보일러는 이미 작동을 중지했다고 한다. <NAVI>[루키]<INFO>ba_bath,270,94,0,101,0</INFO></NAVI>에게로 돌아가서 보고하자."}
+, Summary = "루키에게로"}
+, 
+[17366] = {Title = "이렇게 갑자기?", IconName = "ico_ep.bmp", 
+Description = {"청소 중에 배수구를 잘못 밟으면 하수처리장 대신 호수로 빠진다고하니 뭔가 있을지도 모릅니다. <NAVI>[그곳]<INFO>ba_bath,165,43,0,101,0</INFO></NAVI>을 살펴보고 오십시오."}
+, Summary = "호수 탐색"}
+, 
+[17367] = {Title = "대책 마련", IconName = "ico_ep.bmp", 
+Description = {"뭐가 됐든 더 큰 혼란에 빠지기 전에 수습해야겠어요. 모험가님도 <NAVI>[휴게실]<INFO>ba_bath,203,58,0,101,0</INFO></NAVI>로 가요."}
+, Summary = "휴게실로"}
+, 
+[17368] = {Title = "트랩 설치 1", IconName = "ico_ep.bmp", 
+Description = {"모험가님, 이걸 목욕탕 <NAVI>[구석]<INFO>ba_bath,55,55,0,101,0</INFO></NAVI>에 설치해주세요. 자리에 두고 흔들리지 않게 고정만 해두시면 돼요."}
+, Summary = "지정된 장소로 이동"}
+, 
+[17369] = {Title = "트랩 설치 2", IconName = "ico_ep.bmp", 
+Description = {"트랩을 고정하자 냉기가 흘러나왔다. 다음 <NAVI>[다음 장소]<INFO>ba_bath,306,121,0,101,0</INFO></NAVI>로 이동하자."}
+, Summary = "다음 장소로 이동"}
+, 
+[17370] = {Title = "트랩 설치 3", IconName = "ico_ep.bmp", 
+Description = {"루키가 이야기한 장소에 트랩을 고정했다. <NAVI>[다음 장소]<INFO>ba_bath,21,276,0,101,0</INFO></NAVI>로 이동하자."}
+, Summary = "다음 장소로 이동"}
+, 
+[17371] = {Title = "트랩 설치 4", IconName = "ico_ep.bmp", 
+Description = {"표시된 장소에 트랩을 놓아 단단히 고정시켰다. <NAVI>[다음 장소]<INFO>ba_bath,155,305,0,101,0</INFO></NAVI>로 이동하자."}
+, Summary = "다음 장소로 이동"}
+, 
+[17372] = {Title = "트랩 설치 완료", IconName = "ico_ep.bmp", 
+Description = {"트랩은 다 설치하셨어요? 이쪽은 벌써 시작됐어요. 서둘러 <NAVI>[작전 장소]<INFO>ba_bath,286,298,0,101,0</INFO></NAVI>로 이동해요."}
+, Summary = "작전지로 이동"}
+, 
+[17373] = {Title = "어쨌든 대화를 해보자", IconName = "ico_ep.bmp", 
+Description = {"고니의 모습을 한 정체불명의 <NAVI>[사람]<INFO>ba_bath,286,298,0,101,0</INFO></NAVI>은 할 말을 고르는 듯 했다. 다시 대화를 시도해보자."}
+, Summary = "가짜 고니와 대화"}
+, 
+[17374] = {Title = "대체 왜 그러셨어요?", IconName = "ico_ep.bmp", 
+Description = {"루키가 <NAVI>[인어]<INFO>ba_bath,286,298,0,101,0</INFO></NAVI>와 본격적인 대화를 시작할 모양이다."}
+, Summary = "인어와 대화"}
+, 
+[17375] = {Title = "보일러의 요청", IconName = "ico_ep.bmp", 
+Description = {"고장난 세신사 20체정도 처리하고 고장난 자동인형 부품도 5개정도 가져다 주세여. - <NAVI>[보일러]<INFO>ba_bath,286,68,0,101,0</INFO></NAVI>"}
+, Summary = "보일러의 요청을 들었다"}
+, 
+[17376] = {Title = "열탕과 냉탕사이", IconName = "ico_dq.bmp", 
+Description = {"고장난 세신사 20체정도 처리하고 고장난 자동인형 부품도 5개정도 가져다 주세여. - <NAVI>[보일러]<INFO>ba_bath,286,68,0,101,0</INFO></NAVI>"}
+, Summary = "고장난 자동인형 처리"}
+, 
+[17377] = {Title = "대기: 열탕과 냉탕사이", IconName = "ico_dq.bmp", 
+Description = {"오늘은 이만 쉬시구, 새벽이 지난 후 다시 찾아오면 고맙겠어여. - <NAVI>[보일러]<INFO>ba_bath,286,68,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17378] = {Title = "싹쓸이의 요청", IconName = "ico_ep.bmp", 
+Description = {"열탕 마르크 15마리와 열탕 피라니아 15마리 소멸을 부탁한다. 모두 이 안에서 처리하면 된다. - <NAVI>[싹쓸이]<INFO>ba_bath,288,68,0,101,0</INFO></NAVI>"}
+, Summary = "싹쓸이의 요청을 들었다."}
+, 
+[17379] = {Title = "목욕탕 청소중입니다", IconName = "ico_dq.bmp", 
+Description = {"열탕 마르크 15마리와 열탕 피라니아 15마리 소멸을 부탁한다. 모두 이 안에서 처리하면 된다. - <NAVI>[싹쓸이]<INFO>ba_bath,288,68,0,101,0</INFO></NAVI>"}
+, Summary = "물고기 30마리"}
+, 
+[17380] = {Title = "대기: 목욕탕 청소중입니다", IconName = "ico_dq.bmp", 
+Description = {"새벽이 지난 후 다시 찾아오는 것이 좋겠다. 생선은 그때도 넘쳐날 테니. - <NAVI>[싹쓸이]<INFO>ba_bath,288,68,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17381] = {Title = "일행과 합류", IconName = "ico_ep.bmp", 
+Description = {"먼저 오신 일행분들은 현재 <NAVI>[찻집]<INFO>ba_in01,206,106,0,101,0</INFO></NAVI>에 머물고 계시니 한 번 둘러 보시며 담소 나누십시오."}
+, Summary = "찻집으로"}
+, 
+[18000] = {Title = "진입 준비", IconName = "ico_ep.bmp", 
+Description = {"드디어 하수관의 잠금장치 해제에 성공한 리벨리온. 루키는 하수관으로 진입할 준비가 다 되면 다시 말을 걸어 달라고 했다."}
+, Summary = "루키와 대화"}
+, 
+[18001] = {Title = "저택의 개구멍", IconName = "ico_ep.bmp", 
+Description = {"코르의 루키는 하수관을 통해 내부로 진입하라고 한다. 하수관 내에서 헤매고 있는 동료를 발견하면 함께 이동하라고 했다."}
+, Summary = "듀리안과 대화"}
+, 
+[18002] = {Title = "망가진 코어 회수", IconName = "ico_ep.bmp", 
+Description = {"루키와 함께 하트헌터에게 공격받은 자동인형들의 코어를 회수하기로 했다. 코어를 회수하며 루키와 약속한 지정지점으로 향하자."}
+, Summary = "망가진 코어 5개 이상 회수"}
+, 
+[18003] = {Title = "망가진 코어01", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18004] = {Title = "망가진 코어02", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18005] = {Title = "망가진 코어03", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18006] = {Title = "망가진 코어04", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18007] = {Title = "망가진 코어05", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18008] = {Title = "망가진 코어06", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18009] = {Title = "망가진 코어07", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18010] = {Title = "망가진 코어08", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18011] = {Title = "망가진 코어09", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18012] = {Title = "망가진 코어10", IconName = "ico_ep.bmp", 
+Description = {"부서진 관리자의 소체에서 코어를 확인합니다."}
+, Summary = ""}
+, 
+[18013] = {Title = "지정 지점으로", IconName = "ico_ep.bmp", 
+Description = {"망가진 관리자의 코어를 일부 회수했다.  루키와 만나기로 한 <NAVI>[지점]<INFO>ba_maison,303,141,0,101,0</INFO></NAVI> 에서 합류해야 한다."}
+, Summary = "엘레나 볼코바와 대화"}
+, 
+[18014] = {Title = "뜻밖의 월척", IconName = "ico_ep.bmp", 
+Description = {"엘레나의 기지로 아이젠 베르너를 생포했다. 엘레나는 아이벤 베르너를 대동하고 엘류미나가 억류되어 있는 <NAVI>[사용인숙소]<INFO>ba_maison,100,320,0,101,0</INFO></NAVI>로 향했다. 합류해서 아이젠을 취조하자."}
+, Summary = "루키와 대화"}
+, 
+[18015] = {Title = "일루시온 추적기", IconName = "ico_ep.bmp", 
+Description = {"엘류미나는 일루시온을 추적할 수 있는 추적기를 만들어 주겠다고 한다. 추적기 제작에 필요한 재료는 <ITEM>[형광색의 액체]<INFO>7326</INFO></ITEM> 10개, <ITEM>[깨진 검]<INFO>7110</INFO></ITEM> 10개다."}
+, Summary = "엘류미나에게 형광색의 액체, 깨진 검 전달"}
+, 
+[18016] = {Title = "작전 회의", IconName = "ico_ep.bmp", 
+Description = {"에스트와 함께, 바르문트 저택을 수색해 숨은 하트헌터와 일루시온을 찾아낼 작전을 짜자."}
+, Summary = "에스트와 대화"}
+, 
+[18017] = {Title = "해충 박멸 작전", IconName = "ico_ep.bmp", 
+Description = {"해가 진 저택의 정원을 수색해 일루시온을 압박하자. 사냥은 몰아야 제 맛이다."}
+, Summary = "스위티 처치"}
+, 
+[18018] = {Title = "비공정 거치장으로", IconName = "ico_ep.bmp", 
+Description = {"사로잡은 스위티를 통해 무언가 정보를 얻을 수 있을지도 모른다. 비공정 거치장으로."}
+, Summary = "알파와 대화"}
+, 
+[18019] = {Title = "스위티와 대화", IconName = "ico_ep.bmp", 
+Description = {"비공정 거치장에서 스위티를 수리하던 아몬드는 스위티가 깨어났으니 이야기를 나눠보라고 한다."}
+, Summary = "스위티와 대화"}
+, 
+[18020] = {Title = "인사", IconName = "ico_ep.bmp", 
+Description = {"니힐과 짧게 대화를 나누었다."}
+, Summary = "니힐과  대화"}
+, 
+[18021] = {Title = "찾아온 손님", IconName = "ico_ep.bmp", 
+Description = {"프론테라 왕궁에서 크룩스가 찾아왔다. 왕궁으로 데려가기 왔다는 크룩스. 사용인 숙소 휴게실의 크룩스에게 말을 걸어보자."}
+, Summary = "크룩스와 대화"}
+, 
+[18022] = {Title = "헤이! 스위티", IconName = "ico_dq.bmp", 
+Description = {"비공정 거치장에서 관리 중인 스위티가 난폭하게 날뛰면 적당히 상대해주자."}
+, Summary = "스위티와 전투"}
+, 
+[18023] = {Title = "헤이! 스위티 대기", IconName = "ico_dq.bmp", 
+Description = {"한바탕 날 뛴 스위티의 몸체는 약간의 안정과 수리가 필요하다. 해당 퀘스트는 대기시간이 지난 뒤 비공정 거치장의 <NAVI>[스위티]<INFO>ba_in01,32,250,0,101,0</INFO></NAVI>에게서 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18024] = {Title = "코어 수집", IconName = "ico_dq.bmp", 
+Description = {"비공정 거치장의 아몬드는, 스위티와 대련 중에 시간이 되면 밤이 된 저택의 정원을 순찰하고 \'망가진 인형의 코어\'를 모아 달라고 했다."}
+, Summary = "망가진 코어 10개 이상 회수"}
+, 
+[18025] = {Title = "코어 수집 - 대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 비공정 거치장의 <NAVI>[아몬드]<INFO>ba_in01,28,255,0,101,0</INFO></NAVI>에게서 받을 수 있습니다."}
+, Summary = "04시 초기화"}
 , 
 [21001] = {Title = "난파선 탈출", 
 Description = {"여행 중 풍랑을 만나 무인도에 난파해 버린 배에서 탈출해야 한다. 선내에 아직 부상자가 있음을 알리자."}

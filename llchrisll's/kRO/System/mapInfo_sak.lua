@@ -4,6 +4,72 @@
 -- params : ...
 -- function num : 0
 mapTbl = {
+["ba_maison.rsw"] = {displayName = "바르문트 저택 정원", notifyEnter = true, 
+signName = {mainTitle = "바르문트 저택 정원"}
+, backgroundBmp = "noname_s2"}
+, 
+["ba_in01.rsw"] = {displayName = "바르문트 저택 내부"}
+, 
+["ba_pw01.rsw"] = {displayName = "제 1 마력발전소", notifyEnter = true, 
+signName = {mainTitle = "제 1 마력발전소"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["ba_pw03.rsw"] = {displayName = "제 2 마력발전소", notifyEnter = true, 
+signName = {mainTitle = "제 2 마력발전소"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["ba_pw02.rsw"] = {displayName = "하수처리장", notifyEnter = true, 
+signName = {mainTitle = "하수처리장"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["ba_bath.rsw"] = {displayName = "대욕장 메디타티오", notifyEnter = true, 
+signName = {mainTitle = "대욕장 메디타티오"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["ba_2whs01.rsw"] = {displayName = "저장고 타르타로스 상층", notifyEnter = true, 
+signName = {mainTitle = "저장고 타르타로스 상층"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["ba_2whs02.rsw"] = {displayName = "저장고 타르타로스 하층", notifyEnter = true, 
+signName = {mainTitle = "저장고 타르타로스 하층"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["ba_lost.rsw"] = {displayName = "사육장 로스트밸리", notifyEnter = true, 
+signName = {mainTitle = "사육장 로스트밸리"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["ba_lib.rsw"] = {displayName = "도서관 기억의 회랑", notifyEnter = true, 
+signName = {subTitle = "도서관", mainTitle = "기억의 회랑"}
+, backgroundBmp = "dungeon"}
+, 
+["ba_go.rsw"] = {displayName = "수상전장 (手相戰場)", notifyEnter = true, 
+signName = {mainTitle = "수상전장 (手相戰場)"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["ba_chess.rsw"] = {displayName = "체크메이트", notifyEnter = true, 
+signName = {mainTitle = "체크메이트"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["1@lost.rsw"] = {displayName = "시간에게 잊혀진 사육장", notifyEnter = true, 
+signName = {subTitle = "로스트밸리", mainTitle = "시간에게 잊혀진 사육장"}
+, backgroundBmp = "dungeon"}
+, 
+["1@herbs.rsw"] = {displayName = "숨겨진 화원", notifyEnter = true, 
+signName = {mainTitle = "숨겨진 화원"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["1@ghg.rsw"] = {displayName = "오르투스 아콰", notifyEnter = true, 
+signName = {subTitle = "수상정원", mainTitle = "오르투스 아콰"}
+, backgroundBmp = "dungeon"}
+, 
+["1@bamn.rsw"] = {displayName = "어스름밤의 정원", notifyEnter = true, 
+signName = {mainTitle = "어스름밤의 정원"}
+, backgroundBmp = "dungeon_s2"}
+, 
+["1@bamq.rsw"] = {displayName = "비공정 거치장", notifyEnter = true, 
+signName = {mainTitle = "비공정 거치장"}
+, backgroundBmp = "dungeon_s2"}
+, 
 ["ein_dun03.rsw"] = {displayName = "아인베흐 광산 3층", notifyEnter = true, 
 signName = {mainTitle = "아인베흐 광산 3층"}
 , backgroundBmp = "dungeon_s2"}
