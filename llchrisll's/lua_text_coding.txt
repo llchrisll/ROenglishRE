@@ -2,8 +2,8 @@ Lua Translation:
 Misc:
 	^CC6600 = Stats/Level
 	^0000FF = Numbers
-	"^663399Indestructible in battle^000000",
 	^663399 = Debuff (Curse, Freeze,...)
+	"^663399Indestructible in battle^000000",
 	
 Elements:
 	^FF0000 = Fire
@@ -22,18 +22,17 @@ skillinfoz:
 	^0033CC = Race/Class/Size
 	
 	"Max Level:
-
+	
 	"^CC3399Requirement: Divine Protection 5^000000",
 	with Job ID before:
 	"4^CC3399Requirement: Heal 2^000000",
 
 	"Skill Form: ^6666CCPassive^000000",
 	"Skill Form: ^339966Active^000000",
-
+	
 	"Type: ^339900Supportive^000000",
 	"Type: ^339900Recovery^000000",
 	"Type: ^339900Designation^000000",
-	
 	"Type: ^339900Crafting^000000",
 	
 	"Type: ^000099Trap (Hidden)^000000",
@@ -64,7 +63,6 @@ skillinfoz:
 	
 	"Description: ^777777 ^000000",
 
-
 Item Info:
 	^FF0000 = Race/Size
 	
@@ -75,19 +73,21 @@ Item Info:
 	"For the highest level of either ^009900<Skill>^000000, ^009900<Skill>^000000 or ^009900<Skill>^000000,",
 	"increase damage dealt with ^009900<Skill>^000000 by % per skill level.",
 	
-	"If you learn higher level of related skills, it will auto cast Level <X> instead.",
+	"Enables physical attacks to auto cast ^009900^000000 Level X at a certain chance. (If you learned a higher level, it will auto cast that level instead.)",
 
-	^990099<Equipment>^000000
+	"When equipped with ^990099<Equipment>^000000:",
+	
 	"^0000FFFor each refine level^000000:",
 	"^0000FFFor each refine level^000000 equal or above ^0000FF+6^000000:",
 	"^0000FFFor each 2 refine levels^000000:",
 	"^0000FFRefine Level +7^000000:",
 	"^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
+	
 	"^0000FFIf refine level of ^990099<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 each is ^0000FF+7 or higher^000000:",
-	"^0000FFIf refine level of ^990099<Equipment>^000000 and ^990099<Equipment>^000000 each is ^0000FF+7 or higher^000000:",
+	
 	"^0000FFIf total refine level^000000 of ^99009<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
 	"If ^0000FFtotal refine level of entire set^000000 at least ^0000FF+14^000000:",
-	
+		
 	unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
 
 Shadow Equipment:
@@ -98,94 +98,44 @@ Shadow Equipment:
 	Shield: "A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
 	Shoes: "A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
 	
-
-Ancient Hero:
-			"It resonates with Ancient Hero's Boots.",
-			"________________________",
-			"MATK +190",
-			"________________________",
-			"^0000FFFor each 2 refine levels^000000:",
-			"MATK +10",
-			"________________________",
-			"^0000FFFor each 3 refine levels^000000:",
-			"Increases ^777777Neutral^000000 elemental magic damage by 4%.",
-			"________________________",
-			"^0000FFRefine Level +9^000000:",
-			"Increases ^009900^000000 and ^009900^000000 damage by 10%.",
-			"________________________",
-			"^0000FFRefine Level +11^000000:",
-			"Reduces fixed casting time of ^009900^000000 by 0.5 seconds.",
-			"________________________",
-			"When combined with ^990099Ancient Hero's Boots^000000:",
-			"Random chance to increase X by Y and X by Y% for 7 seconds when dealing physical damage.",
-			"________________________",
-			"^0000CCType:^000000 ",
-			"^0000CCAttack:^000000 ",
-			"^0000CCWeight:^000000 ",
-			"^0000CCWeapon Level:^000000 4",
-			"^0000CCRefinable:^000000 Yes",
-			"________________________",
-			"^0000CCRequirement:^000000",
-			"Base Level 100",
-			""
-Lapine DdukDdakk Boxes:
- - Shadow Equipment_Mix:
-			" Shadow Thump Box. ",
-			"________________________",
-			"If you combine three +7 refined of either Large Shadow Weapon/Armor, Medium Shadow Weapon/Armor or Small Shadow Weapon/Armor, you recieve 1 Perfect Size Shadow Weapon or Perfect Size Shadow Armor in return.",
-			"^ff0000The refine level of the materials does not affect the result.^000000",
-			"________________________",
-			"^0000CCWeight:^000000 1"
-
-Exchange NPC Locations:
-			"<NAVI>^0033CCDesigner Heidam^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI> can exchange it with Costume Enchant Stone Box5.",
-			
-			"X can be bought from <NAVI>^0033CCCat Hand Salesman Nyarom^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>.",
-			"<NAVI>^0033CCLace La Zard^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
-			"<NAVI>^0033CCAver De Dosh^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
-			"<NAVI>^0033CCGregio Grumani^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>",
-			
-Costume Enchant Stone Boxes:
-			"A box contains 1 enchantment stone that can enchant costume equipment.",
-			"________________________",
-			"Opening this will give you one of the following enchantment stones:",
-			" ",
-			"and X enchantment stones more have been added.",
-			"Stones from existing costume enchant stone boxes can also be obtained with a relatively low chance.",
-			"________________________",
-			"^0000CCWeight:^000000 1"
-
-Enchant Stones:
-			"A stone that awakens the potential of Rangers.",
-			"Gives ability when compounded on a slot of an Costume Garment.",
-			"Gives ability when compounded on a slot of an Costume Upper Headgear.",
-			"Gives ability when compounded on a slot of an Costume Middle Headgear.",
-			"Gives ability when compounded on a slot of an Costume Lower Headgear.",
-			"________________________",
-			"< Effect >",
-			"Physical attacks have a 2% chance to absorb 1% of the damage dealt as SP.",
-			"When combined with ^990099 ^000000:",
-			"________________________",
-			"<NAVI>",
-			"________________________",
-			"^0000CCWeight:^000000 10"
-			
-Equipment Info:
-			"^0000CCPosition:^000000 ",
-			"^0000CCType:^000000 ",
-			"^0000CCAttack:^000000 ",
-			"^0000CCWeight:^000000 ",
-			"^0000CCWeapon Level:^000000 ",
-			"^0000CCRefinable:^000000 ",
-			"________________________",
-			"^0000CCRequirement:^000000",
-
-Shadow Equipment Info:
 			"________________________",
 			"^0000CCType:^000000 Shadow Earring",
 			"^0000CCRefinable:^000000 Yes",
 			"________________________",
 			"^0000CCRequirement:^000000",
+
+
+Exchange NPC Locations:
+	"<NAVI>^0033CCDesigner Heidam^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI> can exchange it with Costume Enchant Stone Box5.",
+		
+	"X can be bought from <NAVI>^0033CCCat Hand Salesman Nyarom^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>.",
+	
+	"<NAVI>^0033CCLace La Zard^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
+	"<NAVI>^0033CCAver De Dosh^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
+	"<NAVI>^0033CCGregio Grumani^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>",
+			
+			
+Equipment Info:
+			"________________________",
+			"^0000CCPosition:^000000 ",
+			"^0000CCType:^000000 ",
+			"^0000CCAttack:^000000 ",
+			"^0000CCWeight:^000000 ",
+			"^0000CCDefense:^000000 ",
+			"^0000CCWeapon Level:^000000 ",
+			"^0000CCRefinable:^000000 ",
+			"________________________",
+			"^0000CCRequirement:^000000",
+			"Base Level 100",
+			""
+			
+Costume Info:
+			"________________________",
+			"^0000CCType:^000000 ",
+			"^0000CCPosition:^000000 ",
+			"^0000CCWeight:^000000 ",
+			"________________________",
+			"^0000CCRequirement:^000000 None"
 
 Combination Scrolls:
 	"[Required Materials]",
@@ -194,7 +144,7 @@ Combination Scrolls:
 Equipped Effect:
 	"^006400Since it is an equipped effect, it still will be displayed even when the effect (/effect) is turned off.^000000",
 
-Egg Description:
+jRO Egg Description:
 			"A magical egg that pops out outfits when opened.",
 			"________________________",
 			"Any of the following costume equipment will appear at random.^0000FF",
