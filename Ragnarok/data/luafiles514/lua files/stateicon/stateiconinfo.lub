@@ -5291,31 +5291,29 @@ StateIconList[EFST_IDs.EFST_SOULLINK] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "영혼 부여 상태", COLOR_TITLE_BUFF },
+		{ "Soul Link Status", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "소울 링커가 부여하는" },
-		{ "영혼을 받은 상태" }
+		{ "Soul Link recieved." }
 	}
 }
 StateIconList[EFST_IDs.EFST_WEAPONBLOCK_ON] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "카운터 상태", COLOR_TITLE_BUFF },
+		{ "Weapon Blocking", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "카운터 슬래쉬" },
-		{ "사용 가능" }
+		{ "Counter Slash available." }
 	}
 }
 StateIconList[EFST_IDs.EFST_SACRIFICE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "세크리 파이스", COLOR_TITLE_BUFF },
+		{ "Sacrifice", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "일반 근접 물리 공격" },
-		{ "데미지 Increase" },
-		{ "1회 공격당 HP 소모" }
+		{ "Increases physical melee damage" },
+		{ "by sacrificing your HP" },
+		{ "per Attack." }
 	}
 }
 StateIconList[EFST_IDs.EFST_ALL_STAT_DOWN] = {

@@ -11,7 +11,6 @@ luadec.exe ".\lua files\deletefiles_f.lub" > ".\decoded\lua files\deletefiles_f.
 luadec.exe ".\lua files\HotKey.lub" > ".\decoded\lua files\HotKey.lub"
 luadec.exe ".\lua files\hotkey_v2.lub" > ".\decoded\lua files\hotkey_v2.lub"
 luadec.exe ".\lua files\MsgString_KR.lub" > ".\decoded\lua files\MsgString_KR.lub"
-luadec.exe ".\lua files\nakhyang.lub" > ".\decoded\lua files\nakhyang.lub"
 luadec.exe ".\lua files\SignBoardList.lub" > ".\decoded\lua files\SignBoardList.lub"
 luadec.exe ".\lua files\SignBoardList_F.lub" > ".\decoded\lua files\SignBoardList_F.lub"
 luadec.exe ".\lua files\wndinfo.lub" > ".\decoded\lua files\wndinfo.lub"
