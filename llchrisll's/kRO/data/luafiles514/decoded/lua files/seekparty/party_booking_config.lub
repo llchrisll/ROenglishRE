@@ -4,651 +4,503 @@
 -- params : ...
 -- function num : 0
 map_list = {
-{name = "모두 선택", 
+{name = MsgStrID.MSI_MAP_LIST_ALLSELECT, 
 list = {
-{name = "모두 선택"}
+{name = MsgStrID.MSI_MAP_LIST_ALLSELECT}
 }
 , ignore_recruit_window = true}
 , 
-{name = "프론테라", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_PRONTERA, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "지하 수로 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PRT_SEWB1}
 , 
-{name = "지하 수로 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PRT_SEWB2}
 , 
-{name = "지하 수로 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PRT_SEWB3}
 , 
-{name = "지하 수로 4층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PRT_SEWB4, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "미궁 숲 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PRT_MAZE01}
 , 
-{name = "미궁 숲 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PRT_MAZE02}
 , 
-{name = "미궁 숲 3층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PRT_MAZE03, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "게펜", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_GEFEN, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "집시 마을"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GEF_FILD05}
 , 
-{name = "지하 던전 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GEF_DUN00}
 , 
-{name = "지하 던전 2층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GEF_DUN01, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "지하 던전 3층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GEF_DUN02, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "게페니아"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GEFENIA}
 , 
-{name = "오크 마을", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GEF_FILD10, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "오크 지하 동굴 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ORCSDUN01}
 , 
-{name = "오크 지하 동굴 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ORCSDUN02}
 }
 }
 , 
-{name = "페이욘", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_PAYON, 
 list = {
-{name = "숲 속", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PAY_FILD01, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "동굴 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PAY_DUN00}
 , 
-{name = "동굴 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PAY_DUN01}
 , 
-{name = "동굴 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PAY_DUN02}
 , 
-{name = "동굴 4층 (폐가촌)"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PAY_DUN03}
 , 
-{name = "동굴 5층 (폐가촌)", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_PAY_DUN04, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "알데바란", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_ALDEVARAN, 
 list = {
-{name = "묘르닐 산맥 북쪽 지역", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MJOLNIR01, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "묘르닐 산맥 북쪽 산기슭"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MJOLNIR12}
 , 
-{name = "묘르닐 산맥 남쪽 지역"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MJOLNIR06}
 , 
-{name = "묘르닐 산맥 남쪽 산기슭"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MJOLNIR09}
 , 
-{name = "묘르닐 폐광 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MJO_DUN01}
 , 
-{name = "묘르닐 폐광 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MJO_DUN02}
 , 
-{name = "묘르닐 폐광 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MJO_DUN03}
 , 
-{name = "시계탑 지상 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_C_TOWER1}
 , 
-{name = "시계탑 지상 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_C_TOWER2}
 , 
-{name = "시계탑 지상 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_C_TOWER3}
 , 
-{name = "시계탑 지상 4층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_C_TOWER4}
 , 
-{name = "시계탑 지하 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ALDE_DUN01}
 , 
-{name = "시계탑 지하 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ALDE_DUN02}
 , 
-{name = "시계탑 지하 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ALDE_DUN03}
 , 
-{name = "시계탑 지하 4층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ALDE_DUN04}
 }
 }
 , 
-{name = "알베르타", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_ALVELTA, 
 list = {
-{name = "침몰선 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_TREASURE01}
 , 
-{name = "침몰선 2층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_TREASURE02, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "거북이 섬"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_TUR_DUN01}
 , 
-{name = "거북이 섬 던전"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_TUR_DUN02}
 , 
-{name = "양거촌"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_TUR_DUN03}
 , 
-{name = "구양궁", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_TUR_DUN04, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "모로크", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOROC, 
 list = {
-{name = "소그라트 사막", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOC_FILD01, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "소그라트 사막 차원의 균열", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOC_FILD20, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "개미지옥 던전 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ANTHEL01}
 , 
-{name = "개미지옥 던전 2층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ANTHEL02, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "스핑크스 지하 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IN_SPHINX1}
 , 
-{name = "스핑크스 지하 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IN_SPHINX2}
 , 
-{name = "스핑크스 지하 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IN_SPHINX3}
 , 
-{name = "스핑크스 지하 4층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IN_SPHINX4}
 , 
-{name = "스핑크스 지하 5층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IN_SPHINX5, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "피라미드 지상 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOC_PRYD01}
 , 
-{name = "피라미드 지상 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOC_PRYD02}
 , 
-{name = "피라미드 지상 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOC_PRYD03}
 , 
-{name = "피라미드 지상 4층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOC_PRYD04, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "피라미드 지하 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOC_PRYD05}
 , 
-{name = "피라미드 지하 2층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOC_PRYD06, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "이즈루드", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_IZRUD, 
 list = {
-{name = "해저동굴 던전 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IZ_DUN00}
 , 
-{name = "해저동굴 던전 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IZ_DUN01}
 , 
-{name = "해저동굴 던전 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IZ_DUN02}
 , 
-{name = "해저동굴 던전 4층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IZ_DUN03}
 , 
-{name = "해저동굴 던전 5층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_IZ_DUN04}
 }
 }
 , 
-{name = "코모도", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_COMODO, 
 list = {
-{name = "파푸치카 숲"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_CMD_FILD01}
 , 
-{name = "코코모 해변"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_CMD_FILD02}
 , 
-{name = "지나이 늪"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_CMD_FILD03}
 , 
-{name = "파로스 등대섬"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_CMD_FILD07}
 , 
-{name = "요새도시 산다르만(동)"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_CMD_FILD08}
 , 
-{name = "요새도시 산다르만(남)"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_CMD_FILD09}
 , 
-{name = "요새도시 산다르만(서)"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_CMD_FILD06}
 , 
-{name = "서쪽 동굴 카루", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_BEACH_DUN, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "북쪽 동굴 루안다"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_BEACH_DUN2}
 , 
-{name = "동쪽 동굴 마오"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_BEACH_DUN3}
 }
 }
 , 
-{name = "루티에", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_RUTIE, 
 list = {
-{name = "필드", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "장난감 공장 창고"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_XMAS_DUN01}
 , 
-{name = "장난감 분류소", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_XMAS_DUN02, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "유노", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_YUNO, 
 list = {
-{name = "슈발츠발드 국경 검문소"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_YUNO_FILD01}
 , 
-{name = "킬 하이르의 별장"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_YUNO_FILD02}
 , 
-{name = "엘메스 플레투"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_YUNO_FILD03}
 , 
-{name = "엘메스 협곡(심연의 골짜기)"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_YUNO_FILD07}
 , 
-{name = "킬 하이르 학원"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_YUNO_FILD08}
 , 
-{name = "슈발츠발드 경비대 야영지"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_YUNO_FILD09}
 , 
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "노그로드 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MAG_DUN01}
 , 
-{name = "노그로드 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MAG_DUN02}
 , 
-{name = "유페로스 폐허 외부"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_JUPEROS01}
 , 
-{name = "유페로스 폐허 내부"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_JUPEROS02}
 , 
-{name = "유페로스 중심부", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_JUPE_CORE, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "기계인형공장 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_KH_DUN01}
 , 
-{name = "기계인형공장 2층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_KH_DUN02, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "움발라", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_UMBALLA, 
 list = {
-{name = "루루카 숲"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_UM_FILD01}
 , 
-{name = "카라라 늪"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_UM_FILD02}
 , 
-{name = "훔가 숲"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_UM_FILD03}
 , 
-{name = "훔가 정글"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_UM_FILD04}
 }
 }
 , 
-{name = "아인베흐", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_EINBEH, 
 list = {
-{name = "광산 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_EIN_DUN01}
 , 
-{name = "광산 2층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_EIN_DUN02, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "리히타르젠", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_LHZ, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "필드(사신의 계곡)"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_LHZ_FILD02}
 , 
-{name = "생체실험 연구소 지하 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_LHZ_DUN01}
 , 
-{name = "생체실험 연구소 지하 2층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_LHZ_DUN02, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "생체실험 연구소 지하 3층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_LHZ_DUN03, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "타나토스 타워", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_THANATOS, 
 list = {
-{name = "하층부 박물관 입구"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T01}
 , 
-{name = "하층부 박물관"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T02}
 , 
-{name = "하층부 버려진 공간"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T03}
 , 
-{name = "상층부"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T05}
 , 
-{name = "상층부 천사의 방"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T07}
 , 
-{name = "상층부 고뇌의 방"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T09}
 , 
-{name = "상층부 슬픔의 방"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T10}
 , 
-{name = "상층부 절망의 방"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T11}
 , 
-{name = "상층부 증오의 방"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_T12}
 , 
-{name = "알 수 없는 곳", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THA_BOSS, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "글레스트헤임", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_GLASST, 
 list = {
-{name = "성 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_CASE01}
 , 
-{name = "성 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_CASE02}
 , 
-{name = "수도원"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_CHURCH}
 , 
-{name = "지하 묘지", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_CHYARD, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "최하층 지하 동굴 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_DUN01}
 , 
-{name = "최하층 지하 동굴 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_DUN02}
 , 
-{name = "실내"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_IN01}
 , 
-{name = "기사단 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_KNT01}
 , 
-{name = "기사단 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_KNT02}
 , 
-{name = "지하 감옥 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_PRISON}
 , 
-{name = "지하 감옥 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_PRISON1}
 , 
-{name = "지하 수로 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_SEW01}
 , 
-{name = "지하 수로 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_SEW02}
 , 
-{name = "지하 수로 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_SEW03}
 , 
-{name = "지하 수로 4층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_SEW04}
 , 
-{name = "계단 던전"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GL_STEP}
 }
 }
 , 
-{name = "휘겔", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_HUEGEL, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "오딘 신전 서쪽 지역"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ODIN_TEM01}
 , 
-{name = "오딘 신전 남쪽 지역"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ODIN_TEM02}
 , 
-{name = "오딘 신전 북쪽 지역", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ODIN_TEM03, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "어비스 호수"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_HU_FILD05}
 , 
-{name = "어비스 호수 지하 동굴 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ABYSS_01}
 , 
-{name = "어비스 호수 지하 동굴 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ABYSS_02}
 , 
-{name = "어비스 호수 지하 동굴 3층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ABYSS_03, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "타나토스 타워 앞"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_HU_FILD01}
 }
 }
 , 
-{name = "라헬", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_RAHEL, 
 list = {
-{name = "아우둠라 초원"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD01}
 , 
-{name = "이다 평원", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD03, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "포르투 루나", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD06, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "신전 성역 1층 북쪽 구역"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN01}
 , 
-{name = "신전 성역 1층 서쪽 구역"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN02}
 , 
-{name = "신전 성역 1층 동쪽 구역"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN03}
 , 
-{name = "신전 성역 1층 남쪽 구역"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN04}
 , 
-{name = "신전 성역 2층 중앙 구역", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN05, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "얼음 동굴 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN01}
 , 
-{name = "얼음 동굴 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN02}
 , 
-{name = "얼음 동굴 3층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN03}
 }
 }
 , 
-{name = "베인스", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_VEINS, 
 list = {
-{name = "필드", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "이름없는 섬"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_NAMELESS_N}
 , 
-{name = "이름없는 섬 수도원 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ABBEY01}
 , 
-{name = "이름없는 섬 수도원 지하 1층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ABBEY02, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "이름없는 섬 수도원 지하 2층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_ABBEY03, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "토르 화산 던전 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THOR_V01}
 , 
-{name = "토르 화산 던전 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THOR_V02}
 , 
-{name = "토르 화산 던전 3층", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_THOR_V03, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "니플헤임", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_NIFLHEIM, 
 list = {
-{name = "외딴 마을 스켈링튼"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_NIF_FILD01}
 , 
-{name = "굘의 골짜기"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_NIF_FILD02}
 , 
-{name = "니플헤임", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_NIFLHEIM, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "이계", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_UNDERWORLS, 
 list = {
-{name = "마누크 필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MAN_FILD01}
 , 
-{name = "스플랑디드 필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_SPL_FILD01}
 , 
-{name = "카미달 산기슭"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_DIC_FILD01}
 , 
-{name = "카미달 터널"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_DIC_DUN01}
 , 
-{name = "스카라바 홀", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_DIC_DUN02, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "스플랑디드 난폭자의 상처 1층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_NYD_DUN01}
 , 
-{name = "스플랑디드 난폭자의 상처 2층"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_NYD_DUN02}
 }
 }
 , 
-{name = "아마쯔", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_AMACH, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "다다미 미궁"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_AMA_DUN01}
 , 
-{name = "지하 숲 전장"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_AMA_DUN02}
 , 
-{name = "지하 신사", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_AMA_DUN03, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "쿤룬", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_GONRUN, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "서왕모 신전"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GON_DUN01}
 , 
-{name = "신선의 바둑판"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GON_DUN02}
 , 
-{name = "무릉도원", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_GON_DUN03, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "용지성", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_LOU, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "왕릉"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_LOU_DUN01}
 , 
-{name = "왕릉 내부"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_LOU_DUN02}
 , 
-{name = "센양궁", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_LOU_DUN03, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "아요타야", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_AYOTAYA, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "고대 신전 미궁"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_AYO_DUN01}
 , 
-{name = "고대 신전 내부", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_AYO_DUN02, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "브라질리스", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_BRASIL, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "폭포 안의 동굴 입구"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_BRA_DUN01}
 , 
-{name = "폭포 안의 동굴 내부", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_BRA_DUN02, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "모스코비아", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOSK, 
 list = {
-{name = "필드"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_FILD}
 , 
-{name = "숲"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOSK_DUN01}
 , 
-{name = "깊은 숲"}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOSK_DUN02}
 , 
-{name = "깊고 깊은 숲", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MOSK_DUN03, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 , 
-{name = "메모리얼 던전", 
+{name = MsgStrID.MSI_MAP_LIST_NAME_MEMOREAL, 
 list = {
-{name = "엔들레스 타워", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MEMO_TOWER, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "봉인의 신전", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MEMO_DUN01, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "오크의 기억", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MEMO_DUN02, colorR = 255, colorG = 0, colorB = 0}
 , 
-{name = "니드호그의 둥지", colorR = 255, colorG = 0, colorB = 0}
+{name = MsgStrID.MSI_MAP_LIST_NAME_MEMO_DUN03, colorR = 255, colorG = 0, colorB = 0}
 }
 }
 }
-printMapList = function()
-  -- function num : 0_0
-  local regionId = 0
-  local mapId = 0
-  local state = ""
-  print("------------------")
-  for key,region in pairs(map_list) do
-    regionId = regionId + 1
-    mapId = 0
-    if region.ignore_recruit_window == true then
-      state = "파티 모집 (신청) 창에서는 보이지 않는 메뉴임."
-    else
-      state = ""
-    end
-    print(regionId, region.name, state)
-    for key,map in pairs(region.list) do
-      mapId = mapId + 1
-      if map.color == nil then
-        color = "기본색"
-      else
-        color = "R:" .. (map.color).R .. " G:" .. (map.color).G .. " B:" .. (map.color).B
-      end
-      print("\t" .. mapId .. ":" .. map.name, map.map_file, color)
-    end
-  end
-  print("------------------")
-end
-
-__mapList = {}
-makeMapList = function()
-  -- function num : 0_1
-  for regionId,region in ipairs(map_list) do
-    -- DECOMPILER ERROR at PC5: Confused about usage of register: R5 in 'UnsetPending'
-
-    __mapList[regionId] = region
-    region.id = regionId
-    for mapId,map in ipairs(region.list) do
-      -- DECOMPILER ERROR at PC13: Confused about usage of register: R10 in 'UnsetPending'
-
-      (__mapList[regionId])[mapId] = map
-      map.id = mapId
-      map.ignore_recruit_window = region.ignore_recruit_window
-    end
-  end
-end
-
-queryRegionInfo = function(regionId)
-  -- function num : 0_2
-  if __mapList[regionId] == nil then
-    return nil, nil, nil, nil
-  end
-  return regionId, (__mapList[regionId]).name, getMapIterator(regionId), (__mapList[regionId]).ignore_recruit_window
-end
-
-queryMapInfo = function(regionId, mapId)
-  -- function num : 0_3
-  if __mapList[regionId] == nil then
-    return nil, nil, nil, nil, nil, nil
-  end
-  if (__mapList[regionId])[mapId] == nil then
-    return nil, nil, nil, nil, nil, nil
-  end
-  return regionId, mapId, ((__mapList[regionId])[mapId]).name, ((__mapList[regionId])[mapId]).colorR, ((__mapList[regionId])[mapId]).colorG, ((__mapList[regionId])[mapId]).colorB
-end
-
-getRegionIterator = function()
-  -- function num : 0_4
-  local pos = 1
-  return {hasNext = function()
-    -- function num : 0_4_0 , upvalues : pos
-    return __mapList[pos]
-  end
-, value = function()
-    -- function num : 0_4_1 , upvalues : pos
-    temp_pos = pos
-    pos = pos + 1
-    return __mapList[temp_pos]
-  end
-}
-end
-
-getMapIterator = function(regionId)
-  -- function num : 0_5
-  local pos = 1
-  return {hasNext = function()
-    -- function num : 0_5_0 , upvalues : regionId, pos
-    if __mapList[regionId] == nil then
-      return nil
-    end
-    return (__mapList[regionId])[pos]
-  end
-, value = function()
-    -- function num : 0_5_1 , upvalues : pos, regionId
-    temp_pos = pos
-    pos = pos + 1
-    return (__mapList[regionId])[temp_pos]
-  end
-}
-end
-
-makeMapList()
-print("[전체 데이터 구조 출력]")
-regionIterator = getRegionIterator()
-while (regionIterator.hasNext)() do
-  region = (regionIterator.value)()
-  print(region.id, region.name)
-  mapIterator = getMapIterator(region.id)
-  while (mapIterator.hasNext)() do
-    map = (mapIterator.value)()
-    print("\t", queryMapInfo(region.id, map.id))
-  end
-end
-print("\n[지역 데이터 검색]")
-regionIterator = getRegionIterator()
-while (regionIterator.hasNext)() do
-  region = (regionIterator.value)()
-  print(region.id, region.name)
-end
-print("\n[맵 데이터 검색]")
-mapIterator = getMapIterator(2)
-while (mapIterator.hasNext)() do
-  map = (mapIterator.value)()
-  print(map.id, map.name)
-end
-print("\n[지역 데이터 정보 요청]")
-print(queryRegionInfo(2))
-_ = queryRegionInfo(2)
-while (mapIterator.hasNext)() do
-  map = (mapIterator.value)()
-  print(map.id, map.name)
-end
-print("\n[맵 데이터 정보 요청]")
-print(queryMapInfo(2, 1))
-PartyBookingHelp = {"/파티모집: 파티 모집 창을 여닫습니다.", "/모집리스트: 파티 모집 리스트 창을 여닫습니다.", "/결성 ‘파티 이름’: 새로운 파티를 만듭니다.", "/초대 ‘아이디’: 지정한 캐릭터를 파티에 초대합니다."}
-GetPartyBookingHelp = function()
-  -- function num : 0_6
-  local descript = ""
-  local obj = PartyBookingHelp
-  if obj ~= nil then
-    for i,v in pairs(obj) do
-      descript = descript .. v
-      descript = descript .. "\r\n"
-    end
-  end
-  do
-    return descript
-  end
-end
-
+PartyBookingHelp = {MsgStrID.MSI_PARTY_BOOKING_REQURT, MsgStrID.MSI_PARTY_BOOKING_LIST, MsgStrID.MSI_PARTY_BOOKING_MAKE, MsgStrID.MSI_PARTY_BOOKING_INVITE}
 
