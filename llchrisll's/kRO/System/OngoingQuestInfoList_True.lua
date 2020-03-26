@@ -3506,7 +3506,7 @@ Description = {"프론테라의 <NAVI>[크리엔]<INFO>prontera,210,321,0,101,0</INFO></
 , Summary = "크리엔에게 크레이프 선물"}
 , 
 [3320] = {Title = "따뜻함을 나누는 행복 2", IconName = "ico_ev.bmp", 
-Description = {"프론테라의 <NAVI>[라시스]<INFO>prontera,103,308,0,101,0</INFO></NAVI>는 모험을 떠난 애인을 그리워하고 있어요. 우리는 라시스를 위해 작고 예쁜 딸기 생크림 컵케익을 준비했어요."}
+Description = {"프론테라의 <NAVI>[라시스]<INFO>prontera,103,308,0,101,0</INFO></NAVI>는 모험을 떠난 애인을 그리워하고 있어요. 우리는 라시스를 위해 작고 예쁜 딸기 생크림 컵케잌을 준비했어요."}
 , Summary = "라시스에게 컵케익 선물"}
 , 
 [3321] = {Title = "따뜻함을 나누는 행복 3", IconName = "ico_ev.bmp", 
@@ -3796,6 +3796,62 @@ Description = {"50Lv 이상의 용족 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]
 [3406] = {Title = "용족 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
 Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
 , Summary = "04시 리셋"}
+, 
+[3407] = {Title = "실종자의 낚싯대", 
+Description = {"시루드의 낚싯대를 <NAVI>[해양학자 제리몬]<INFO>prt_in,157,66,0,101,0</INFO></NAVI>에게 가져가도록 하자."}
+, Summary = "제리몬과 대화"}
+, 
+[3408] = {Title = "심연의 정수 조달", 
+Description = {"게인에게서 받은 심연의 정수를 <NAVI>[해양학자 제리몬]<INFO>prt_in,157,66,0,101,0</INFO></NAVI>에게 가져다 주자."}
+, Summary = "심연의 정수 전달"}
+, 
+[3409] = {Title = "심해로 연결되는 소용돌이", 
+Description = {"제리몬과 함께 <NAVI>[이즈루드]<INFO>izlude,132,54,0,101,0</INFO></NAVI>로 돌아가 심해로 연결되는 소용돌이를 생성하자."}
+, Summary = "이즈루드에서 제리몬과 대화"}
+, 
+[3410] = {Title = "시루드를 해상으로", 
+Description = {"시루드는 해상으로 올라갈 때, 자신도 같이 데려가달라고 부탁한다."}
+, Summary = "시루드와 함께 해상으로 올라가기"}
+, 
+[3411] = {Title = "심해 생물 처치", 
+Description = {"^4d4dff심해의 스로포^000000와 ^4d4dff심해의 데비우스^000000 그리고 ^4d4dff심해의 마르스^000000를 각각 10마리씩 처치하자."}
+, Summary = "3종의 심해 생물 처치"}
+, 
+[3412] = {Title = "심연의 정수 수집", 
+Description = {"^4d4dff심연의 정수^000000 10개를 수집하여 <NAVI>[제리몬]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>에게 가져다 주자."}
+, Summary = "심연의 정수 10개 전달"}
+, 
+[3413] = {Title = "심연의 정수 수집 - 일일", IconName = "ico_dq.bmp", 
+Description = {"^4d4dff심연의 정수^000000 10개를 수집하여 <NAVI>[제리몬]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>에게 가져다 주자."}
+, Summary = "심연의 정수 10개 전달"}
+, 
+[3414] = {Title = "심연의 정수 수집 - 대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[제리몬]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
+, 
+[3415] = {Title = "상층의 심해 생물 처치 - 일일", IconName = "ico_dq.bmp", 
+Description = {"^4d4dff심해의 스로포^000000와 ^4d4dff심해의 데비우스^000000 그리고 ^4d4dff심해의 마르스^000000를 각각 10마리씩 처치하자."}
+, Summary = "3종의 심해 생물 처치"}
+, 
+[3416] = {Title = "상층의 심해 생물 처치 - 대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[제리몬]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
+, 
+[3417] = {Title = "하층의 심해 생물 처치 - 일일", IconName = "ico_dq.bmp", 
+Description = {"^4d4dff심해의 소드 피쉬^000000와 ^4d4dff심해의 휀^000000 그리고 ^4d4dff심해의 킹 드라모^000000를 각각 10마리씩 처치하자."}
+, Summary = "3종의 심해 생물 처치"}
+, 
+[3418] = {Title = "하층의 심해 생물 처치 - 대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[케나]<INFO>iz_d05_i,138,186,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
+, 
+[3419] = {Title = "하층의 어인족 처치 - 일일", IconName = "ico_dq.bmp", 
+Description = {"^4d4dff심해의 세도라^000000와 ^4d4dff심해의 스트라우프^000000를 각각 15마리씩 처치하자."}
+, Summary = "2종의 어인족 처치"}
+, 
+[3420] = {Title = "하층의 어인족 처치 - 대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[케나]<INFO>iz_d05_i,138,186,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."}
+, Summary = "04시 초기화"}
 , 
 [4000] = {Title = "셰린의 면접", 
 Description = {"셰린의 면접 시험에 통과해서 다음 과정으로 넘어가자."}
@@ -17033,6 +17089,50 @@ RewardItemList = {
 Description = {"갈링을 처치했다. 더 이상 무리하면 정화되어버릴지도 모른다고 하니 04시 이후 다시 찾아오자."}
 , Summary = "04시 초기화"}
 , 
+[11660] = {Title = "다람쥐도 쥐인가요?", IconName = "ico_ev.bmp", 
+Description = {"말랑도 문어축제에 넛크랙커님이 방문했다고 한다. 넛크랙커와 대화하자."}
+, Summary = "넛크랙커와 대화"}
+, 
+[11661] = {Title = "다람쥐도 쥐인가요?", IconName = "ico_ev.bmp", 
+Description = {"문어축제 진행요원과 대화하자."}
+, Summary = "문어축제 진행요원과 대화"}
+, 
+[11662] = {Title = "다람쥐도 쥐인가요?", IconName = "ico_ev.bmp", 
+Description = {"넛크랙커에게 복수하고 싶어하던 워넛이 혼란을 틈타 도망쳤다. 멀리 도망치기 전에 워넛을 잡으려면 말랑도 해안가를 조사해보자."}
+, Summary = "해변 조사"}
+, 
+[11663] = {Title = "다람쥐도 쥐인가요?", IconName = "ico_ev.bmp", 
+Description = {"워넛은 이미 프론테라행 배를 타고 탈출해 버린 것 같다. 프론테라에서 정보를 찾아보자."}
+, Summary = "프론테라로 이동"}
+, 
+[11664] = {Title = "다람쥐도 쥐인가요?", IconName = "ico_ev.bmp", 
+Description = {"여행자는 워넛은 보지 못했지만 커다란 줄무늬 고양이가 워넛을 찾는 모습을 봤다고 한다. 여행자가 말한 방향으로 가보자."}
+, Summary = "커다란 줄무늬 고양이와 대화"}
+, 
+[11665] = {Title = "다람쥐도 쥐인가요?", IconName = "ico_ev.bmp", 
+Description = {"워넛을 잡았다. 말랑도로 돌아가 넛크랙커와 대화하자."}
+, Summary = "넛크랙커와 대화", 
+RewardItemList = {
+{ItemID = 23921, ItemNum = 1}
+, 
+{ItemID = 766, ItemNum = 1}
+}
+}
+, 
+[11666] = {Title = "다람쥐도 쥐인가요?", IconName = "ico_ev.bmp", 
+Description = {"넛크랙커를 습격한 워넛은 잡았지만 워넛의 동료들이 미드가르드 대륙 전체에 퍼져있는 듯 하다. 워넛을 10알 정도 체포해서 돌아가자."}
+, Summary = "워넛 10알 체포", 
+RewardItemList = {
+{ItemID = 23921, ItemNum = 1}
+, 
+{ItemID = 766, ItemNum = 1}
+}
+}
+, 
+[11667] = {Title = "다람쥐도 쥐인가요? -대기", IconName = "ico_ev.bmp", 
+Description = {"워넛을 체포하느라 너무 피곤하다. 내일 다시 방문하자."}
+, Summary = "04시 초기화"}
+, 
 [12000] = {Title = "친구:불협화음", 
 Description = {"마쿠의 또다른 친구를 찾아 그와 이야기를 나누어야 합니다."}
 , Summary = "마쿠의 또다른 친구 만나기"}
@@ -18928,6 +19028,18 @@ Description = {"글래스트 헤임에서 2개의 환영중 하나를 처치해야합니다.", "^0000ff
 [12502] = {Title = "글래스트 헤임의 환영 처치", 
 Description = {"글래스트 헤임에서 2개의 환영중 하나를 처치해야합니다.", "^0000ff이 퀘스트는 2개중 하나만 클리어해도 모두가 완료됩니다^000000"}
 , Summary = "히멜메즈의 환영"}
+, 
+[12505] = {Title = "불완전한 균열 봉인하기", IconName = "ico_ev.bmp", 
+Description = {"불완전해 보이는 균열에서 불길한 기운이 스며나옵니다. 오스카가 미처 발견하지 못한 비틀린 시공간이 이 곳에 연결되어 있다면 심각한 문제를 야기할 수 있습니다.", "오스카의 도움을 받을 수는 없겠지만 완전한 모습을 갖추기전에 균열을 박살내는것은 아마도 가능할 지 모릅니다."}
+, Summary = "세계의 위협"}
+, 
+[12506] = {Title = "균열 봉인 재도전", IconName = "ico_ev.bmp", 
+Description = {"만약 균열의 봉인에 실패하게 된다면 충분히 휴식을 취한 뒤 다시 도전해보도록 하자."}
+, Summary = "필요 휴식시간 1일"}
+, 
+[12507] = {Title = "균열의 봉인자", IconName = "ico_ev.bmp", 
+Description = {"불완전하게 자라난 균열을 완벽하게 봉인했습니다. 어쩌면 이 세계에 닥쳐올지 모르는 거대한 위협으로부터 당신의 동료와 친구를 구해낸 것입니다.", "이 기록이 어쩌면 당신에게 약간의 행운을 가져다 줄 수 있을지 모르겠군요."}
+, Summary = "세계를 구한 흔적"}
 , 
 [13000] = {Title = "RWC2011카드 구하기", 
 Description = {"파란카드를 모아서 RWC2011를 완성하자"}
@@ -24689,6 +24801,166 @@ Description = {"새벽이 지난 후 다시 찾아오는 것이 좋겠다. 생선은 그때도 넘쳐날 �
 Description = {"먼저 오신 일행분들은 현재 <NAVI>[찻집]<INFO>ba_in01,206,106,0,101,0</INFO></NAVI>에 머물고 계시니 한 번 둘러 보시며 담소 나누십시오."}
 , Summary = "찻집으로"}
 , 
+[17382] = {Title = "눈꽃다발 만들기", IconName = "ico_ev.bmp", 
+Description = {"눈꽃다발을 만들고 싶으시다고요? 그럼 눈동자가 주는 <ITEM>[마력의 눈꽃]<INFO>25425</INFO></ITEM> 10개를 가지고 다시 <NAVI>[이곳]<INFO>aldebaran,174,164,0,101,0</INFO></NAVI>으로 오세요."}
+, Summary = "마력의 눈꽃 10개"}
+, 
+[17383] = {Title = "눈꽃다발 만들기", IconName = "ico_ev.bmp", 
+Description = {"눈꽃다발 만들기 이벤트는 앞으로 <NAVI>[환상의 눈꽃술사]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI>가 담당하게 될 겁니다. 관심이 있으면 찾아가 보세요."}
+, Summary = "환상의 눈꽃술사에게"}
+, 
+[17384] = {Title = "따뜻한 겨울나기", IconName = "ico_ev.bmp", 
+Description = {"눈이 내리지 않는 지역에는 흰 눈을, 추운 지역에는 따뜻한 솜옷을! 따뜻한 겨울나기를 돕고 싶으시다면 <NAVI>[코티]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI>와 울시를 찾아가 보세요."}
+, Summary = "코티에게"}
+, 
+[17385] = {Title = "축제 카드 교환", IconName = "ico_ev.bmp", 
+Description = {"당신의 선물상자에서 특별한 카드를 찾으셨다고요? 그럼 <NAVI>[트윙클]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>과 블링에게 가지고 가세요. 특별한 선물을 받으실 수 있을 겁니다."}
+, Summary = "트윙클에게"}
+, 
+[17386] = {Title = "참관객들과 교류를", IconName = "ico_ev.bmp", 
+Description = {"눈꽃 축제에 찾아 온 <NAVI>[참관객]<INFO>aldebaran,162,127,0,101,0</INFO></NAVI>들과 함께 축제를 즐겨 보시는 건 어떤지요?"}
+, Summary = "시계탑 근처로"}
+, 
+[17387] = {Title = "눈꽃다발 만들기", IconName = "ico_ev.bmp", 
+Description = {"눈꽃다발을 만들기 위해서는 <ITEM>[마력의 눈꽃]<INFO>25425</INFO></ITEM> 10개가 필요해요. 눈사람들이 코에 장식할 당근도 원하고 있으니 <ITEM>[당근]<INFO>515</INFO></ITEM> 1개도 잊지 마시고요. - <NAVI>[마린]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI>"}
+, Summary = "눈꽃 10개, 당근 1개"}
+, 
+[17388] = {Title = "대기: 냉기가 남아있다", IconName = "ico_ev.bmp", 
+Description = {"아직 마력의 눈꽃 효력이 남아 있어요. 새벽이 지난 후에 다시 찾아 주세요. - <NAVI>[마린]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17389] = {Title = "따뜻한 겨울나기", IconName = "ico_ev.bmp", 
+Description = {"눈이 오지 않는 어린이들에겐 눈을! 추운 지역의 어린이들에겐 따뜻한 솜옷을! <NAVI>[저희]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI>에게 <ITEM>[따뜻한 솜]<INFO>25426</INFO></ITEM> 10개를 기부해 주세요!"}
+, Summary = "따뜻한 솜 10개"}
+, 
+[17390] = {Title = "대기: 솜은 포장 중", IconName = "ico_ev.bmp", 
+Description = {"솜은 지금 포장 중이에요. 새벽무렵에는 포장이 끝날 것 같은데 새벽이 지난 후에 다시 찾아 주세요! - <NAVI>[코티]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17391] = {Title = "축제 카드 교환", IconName = "ico_ev.bmp", 
+Description = {"모험가님의 행운의 단어는 DECEMBER!! 당신의 선물상자에서 나오는 눈꽃 카드 봉투를 열어 보세요. 그 속에 들어 있는 D.E.C.E.M.B.E.R 낱말 카드를 모아 오시면 돼요. 총 8장이에요. - <NAVI>[트윙클]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"}
+, Summary = "DECEMBER 카드 모으기"}
+, 
+[17392] = {Title = "축제 카드 교환", IconName = "ico_ev.bmp", 
+Description = {"모험가님의 행운의 단어는 SNOW!! 당신의 선물상자에서 나오는 눈꽃 카드 봉투를 열어 보세요. 그 속에 들어 있는 S.N.O.W 낱말 카드를 모아 오시면 돼요. 총 4장이에요. - <NAVI>[트윙클]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"}
+, Summary = "SNOW 카드 모으기"}
+, 
+[17393] = {Title = "축제 카드 교환", IconName = "ico_ev.bmp", 
+Description = {"모험가님의 행운의 단어는 FESTIVAL!! 당신의 선물상자에서 나오는 눈꽃 카드 봉투를 열어 보세요. 그 속에 들어 있는 F.E.S.T.I.V.A.L 낱말 카드를 모아 오시면 돼요. 총 8장이에요. - <NAVI>[트윙클]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"}
+, Summary = "FESTIVAL 카드 모으기"}
+, 
+[17394] = {Title = "축제 카드 교환", IconName = "ico_ev.bmp", 
+Description = {"모험가님의 행운의 단어는 WHITE!! 당신의 선물상자에서 나오는 눈꽃 카드 봉투를 열어 보세요. 그 속에 들어 있는 W.H.I.T.E 낱말 카드를 모아 오시면 돼요. 총 5장이에요. - <NAVI>[트윙클]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"}
+, Summary = "WHITE 카드 모으기"}
+, 
+[17395] = {Title = "대기: 카드 교환은 1일 1회", IconName = "ico_ev.bmp", 
+Description = {"낱말 카드 교환은 1일 1회예요. 아셨죠? 그러니까 새벽이 지난 후에 다시 오세요! - <NAVI>[트윙클]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17396] = {Title = "시간아 멈추어다오", IconName = "ico_ev.bmp", 
+Description = {"울고 있는 <NAVI>[스파클]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI>을 달래어 이야기를 들어 보자."}
+, Summary = "스파클과 대화"}
+, 
+[17397] = {Title = "시간아 멈추어다오", IconName = "ico_ev.bmp", 
+Description = {"고구마 3개, 우유 3개, 눈꽃 축제 낱말카드 L.O.V.E 각각 1장씩 가져다 주세요! - <NAVI>[스파클]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI>"}
+, Summary = "사랑의 겨울간식 준비"}
+, 
+[17398] = {Title = "시간아 멈추어다오", IconName = "ico_ev.bmp", 
+Description = {"자! 어서 그 <NAVI>[악당]<INFO>aldebaran,242,118,0,101,0</INFO></NAVI>들에게 사랑의 간식을 가져다 주러 가요!"}
+, Summary = "악당에게 겨울간식을 1"}
+, 
+[17399] = {Title = "시간아 멈추어다오", IconName = "ico_ev.bmp", 
+Description = {"이제 다음 <NAVI>[악당]<INFO>aldebaran,36,78,0,101,0</INFO></NAVI>에게 사랑의 간식을 가져다 주러 가요!"}
+, Summary = "악당에게 겨울간식을 2"}
+, 
+[17400] = {Title = "시간아 멈추어다오", IconName = "ico_ev.bmp", 
+Description = {"마지막 <NAVI>[악당]<INFO>aldebaran,138,181,0,101,0</INFO></NAVI>에게 사랑의 간식을 가져다 주러 가요!"}
+, Summary = "악당에게 겨울간식을 3"}
+, 
+[17401] = {Title = "시간아 멈추어다오", IconName = "ico_ev.bmp", 
+Description = {"이제 다시 시계탑 근처로 돌아가서 <NAVI>[악당]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI> 대장의 계획을 막아요!"}
+, Summary = "시계탑 근처로"}
+, 
+[17402] = {Title = "관심이 필요합니다", IconName = "ico_ev.bmp", 
+Description = {"악당들도 겨울간식을 좋아할 줄 알았죠. 고구마 3개랑 당신의 선물상자 5마리를 잡고 눈꽃 카드 봉투 3개를 가져다 주세요! - <NAVI>[스파클]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI>"}
+, Summary = "악당들을 위한 선물"}
+, 
+[17403] = {Title = "대기: 관심이 필요합니다", IconName = "ico_ev.bmp", 
+Description = {"역시 겨울간식과 애정어린 카드가 통할 줄 알았어요. 이제 푹 쉬고 새벽이 지난 후에 다시 도와주세요. - <NAVI>[스파클]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17408] = {Title = "타나토스 타워 용병 계약", IconName = "ico_nq.bmp", 
+Description = {"레켄베르사와의 타나토스 타워 용병 계약을 마쳤습니다."}
+, Summary = "계약 완료"}
+, 
+[17409] = {Title = "빨간 열쇠를 쥐고", IconName = "ico_nq.bmp", 
+Description = {"빨간 열쇠를 쥐자 희미하게 떨리며 미약한 힘이 느껴진다. 힘이 <NAVI>[이끄는 곳]<INFO>tha_t03,70,70,0,101,0</INFO></NAVI>으로 가 보자."}
+, Summary = "힘이 이끄는 곳으로"}
+, 
+[17410] = {Title = "노란 열쇠를 쥐고", IconName = "ico_nq.bmp", 
+Description = {"노란 열쇠를 쥐자 희미하게 떨리며 미약한 힘이 느껴진다. 힘이 <NAVI>[이끄는 곳]<INFO>tha_t04,199,199,0,101,0</INFO></NAVI>으로 가 보자."}
+, Summary = "힘이 이끄는 곳으로"}
+, 
+[17411] = {Title = "파란 열쇠를 쥐고", IconName = "ico_nq.bmp", 
+Description = {"파란 열쇠를 쥐자 희미하게 떨리며 미약한 힘이 느껴진다. 힘이 <NAVI>[이끄는 곳]<INFO>tha_t05,62,184,0,101,0</INFO></NAVI>으로 가 보자."}
+, Summary = "힘이 이끄는 곳으로"}
+, 
+[17412] = {Title = "초록 열쇠를 쥐고", IconName = "ico_nq.bmp", 
+Description = {"초록 열쇠를 쥐자 희미하게 떨리며 미약한 힘이 느껴진다. 힘이 <NAVI>[이끄는 곳]<INFO>tha_t06,221,230,0,101,0</INFO></NAVI>으로 가 보자."}
+, Summary = "힘이 이끄는 곳으로"}
+, 
+[17413] = {Title = "검정 열쇠를 쥐고", IconName = "ico_nq.bmp", 
+Description = {"검정 열쇠를 쥐자 희미하게 떨리며 미약한 힘이 느껴진다. 힘이 <NAVI>[이끄는 곳]<INFO>tha_t06,200,181,0,101,0</INFO></NAVI>으로 가 보자."}
+, Summary = "힘이 이끄는 곳으로"}
+, 
+[17414] = {Title = "타나토스 타워의 비밀", IconName = "ico_nq.bmp", 
+Description = {"입수한 수첩을 <NAVI>[블레드 콘시드]<INFO>tha_t02,231,161,0,101,0</INFO></NAVI>에게 보여주자."}
+, Summary = "블레드 콘시드에게"}
+, 
+[17415] = {Title = "의뢰 수락", IconName = "ico_dq.bmp", 
+Description = {"솔리스의 의뢰를 수락하였습니다."}
+, Summary = "수락 완료"}
+, 
+[17416] = {Title = "09층의 몬스터", IconName = "ico_dq.bmp", 
+Description = {"타나토스 타워의 9층에서 크로우 듀크와 크로우 바론을 각각 20마리씩 상대하시면 돼요. 만약 슬픔의 파편 10개를 가지고 오신다면 추가로 보수를 더 드리죠. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = "슬픔의 파편 10개"}
+, 
+[17417] = {Title = "10층의 몬스터", IconName = "ico_dq.bmp", 
+Description = {"타나토스 타워의 10층에서 보이드 미믹, 죽음의 책, 엘디스트를 각각 15마리씩 상대하시면 돼요. 만약 절망의 파편 10개를 가지고 오신다면 추가로 보수를 더 드리죠. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = "절망의 파편 10개"}
+, 
+[17418] = {Title = "11층의 몬스터", IconName = "ico_dq.bmp", 
+Description = {"타나토스 타워의 11층에서 공감하는 자, 행복을 주는 자를 각각 15마리씩 상대하시면 돼요. 만약 증오의 파편 10개를 가지고 오신다면 추가로 보수를 더 드리죠. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = "증오의 파편 10개"}
+, 
+[17419] = {Title = "11층의 몬스터", IconName = "ico_dq.bmp", 
+Description = {"타나토스 타워의 11층에서 축원하는 자, 웃음을 주는 자를 각각 15마리씩 상대하시면 돼요. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = ""}
+, 
+[17420] = {Title = "12층의 몬스터", IconName = "ico_dq.bmp", 
+Description = {"타나토스 타워의 12층에서 타나토스의 분노, 타나토스의 공포를 각각 10마리씩 상대하시면 돼요. 만약 고뇌의 파편 10개를 가지고 오신다면 추가로 보수를 더 드리죠. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = "고뇌의 파편 10개"}
+, 
+[17421] = {Title = "12층의 몬스터", IconName = "ico_dq.bmp", 
+Description = {"타나토스 타워의 12층에서 타나토스의 후회, 타나토스의 원망을 각각 10마리씩 상대하시면 돼요. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = ""}
+, 
+[17422] = {Title = "대기: 타나토스 타워 09층", IconName = "ico_dq.bmp", 
+Description = {"저희는 자료를 정리해야 하니까요, 새벽이 지난 후에 다시 찾아와 주세요. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17423] = {Title = "대기: 타나토스 타워 10층", IconName = "ico_dq.bmp", 
+Description = {"저희는 자료를 정리해야 하니까요, 새벽이 지난 후에 다시 찾아와 주세요. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17424] = {Title = "대기: 타나토스 타워 11층", IconName = "ico_dq.bmp", 
+Description = {"저희는 자료를 정리해야 하니까요, 새벽이 지난 후에 다시 찾아와 주세요. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
+[17425] = {Title = "대기: 타나토스 타워 12층", IconName = "ico_dq.bmp", 
+Description = {"저희는 자료를 정리해야 하니까요, 새벽이 지난 후에 다시 찾아와 주세요. - <NAVI>[솔리스]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"}
+, Summary = "04시 초기화"}
+, 
 [18000] = {Title = "진입 준비", IconName = "ico_ep.bmp", 
 Description = {"드디어 하수관의 잠금장치 해제에 성공한 리벨리온. 루키는 하수관으로 진입할 준비가 다 되면 다시 말을 걸어 달라고 했다."}
 , Summary = "루키와 대화"}
@@ -24791,6 +25063,138 @@ Description = {"비공정 거치장의 아몬드는, 스위티와 대련 중에 시간이 되면 밤이 된
 , 
 [18025] = {Title = "코어 수집 - 대기", IconName = "ico_dq.bmp", 
 Description = {"해당 퀘스트는 대기시간이 지난 뒤 비공정 거치장의 <NAVI>[아몬드]<INFO>ba_in01,28,255,0,101,0</INFO></NAVI>에게서 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18026] = {Title = "마검사 타나토스의 기억", IconName = "ico_dq.bmp", 
+Description = {"과거 모로크와 대적했다는 마검사 타나토스가 타워에서 목격된다고 한다. 소문의 진상을 확인하러 온 루민을 대신 해 타나토스 타워 상층을 탐험하고 마검사 타나토스를 찾아보자."}
+, Summary = "타나토스의 기억 처치", NpcSpr = "4_M_AC_RUMIN", NpcNavi = "thana_step", NpcPosX = 154, NpcPosY = 367}
+, 
+[18027] = {Title = "마검사 타나토스의 기억", IconName = "ico_dq.bmp", 
+Description = {"과거 모로크와 대적했다는 마검사 타나토스가 타워에서 목격된다고 한다. 소문의 진상을 확인하러 온 루민을 대신 해 타나토스 타워 상층을 탐험하고 마검사 타나토스를 찾아보자."}
+, Summary = "파괴된 타나토스의 기억 처치", NpcSpr = "5_M_AC_RUMIN", NpcNavi = "thana_step", NpcPosX = 154, NpcPosY = 367}
+, 
+[18028] = {Title = "마검사 타나토스의 기억-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 타나토스 타워 <NAVI>[루민]<INFO>thana_step,154,367,0,101,0</INFO></NAVI>을 통해 다시 받을 수 있습니다."}
+, Summary = "04시 초기화", NpcSpr = "6_M_AC_RUMIN", NpcNavi = "thana_step", NpcPosX = 154, NpcPosY = 367}
+, 
+[18029] = {Title = "파브르를 잡아보자!", IconName = "ico_dq.bmp", 
+Description = {"게펜, 프론테라 인근에서 자주 발견되는 파브르를 시험삼아 잡아보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = "파브르 처치"}
+, 
+[18030] = {Title = "파브르를 잡아보자!-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18031] = {Title = "페이욘 필드 탐험", IconName = "ico_dq.bmp", 
+Description = {"페이욘 인근의 숲과 필드를 탐험하며 실력을 쌓아보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = "페이욘 인근 몬스터 처치"}
+, 
+[18032] = {Title = "페이욘 필드 탐험-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18033] = {Title = "지하수로 탐험", IconName = "ico_dq.bmp", 
+Description = {"프론테라 지하수로를 탐험하며 실력을 쌓아보자. 프론테라에 있는 <NAVI>[기사 모집관]<INFO>prt_in,88,105,0,101,0</INFO></NAVI>에게 지하수로 토벌대를 지원한 후 지하수로 입구로 이동할 수 있다. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = "지하수로 몬스터 처치"}
+, 
+[18034] = {Title = "지하수로 탐험-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18035] = {Title = "묘르닐 폐광 탐험", IconName = "ico_dq.bmp", 
+Description = {"<NAVI>[게펜]<INFO>geffen,119,72,0,101,0</INFO></NAVI> 북부 묘르닐 산자락의 <NAVI>[폐광]<INFO>mjo_dun01,52,23,0,101,0</INFO></NAVI>을 탐험해 보자. 깊이 들어가면 길을 잃을 수도 있으니 조심. 완료 후 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18036] = {Title = "묘르닐 폐광 탐험-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18037] = {Title = "이즈루드 해저동굴 탐험", IconName = "ico_dq.bmp", 
+Description = {"바이아란 섬에 있는 <NAVI>[이즈루드 해저동굴]<INFO>iz_dun02,236,208,0,101,0</INFO></NAVI>을 탐험하며 실력을 쌓아보자. 바이아란 섬은 이즈루드의 <NAVI>[선원]<INFO>izlude,197,205,0,101,0</INFO></NAVI>을 통해 갈 수 있다. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18038] = {Title = "이즈루드 해저동굴 탐험-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18039] = {Title = "페이욘 던전 탐험", IconName = "ico_dq.bmp", 
+Description = {"페이욘 북쪽 궁수촌에 있는 <NAVI>[페이욘 동굴]<INFO>pay_dun03,155,156,0,101,0</INFO></NAVI>을 탐험하며 실력을 쌓아보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18040] = {Title = "페이욘 던전 탐험-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18041] = {Title = "알데바란 시계탑 탐험", IconName = "ico_dq.bmp", 
+Description = {"알데바란에 있는 <NAVI>[시계탑]<INFO>c_tower1,199,163,0,101,0</INFO></NAVI>을 탐험하며 실력을 쌓아보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18042] = {Title = "알데바란 시계탑 탐험-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18043] = {Title = "알베르타 거북이 섬 탐험", IconName = "ico_dq.bmp", 
+Description = {"알베르타 인근 해역에 있는 <NAVI>[거북이 섬 던전]<INFO>tur_dun02,148,261,0,101,0</INFO></NAVI>을 탐험하며 실력을 쌓아보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18044] = {Title = "알베르타 거북이 섬 탐험-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18045] = {Title = "노련한 사냥꾼 초급", IconName = "ico_dq.bmp", 
+Description = {"판단력과 정보수집을 시험해 볼 때가 왔다. 99~115 레벨의 수속성 몬스터, 중형 몬스터, 무형 몬스터를 찾아 상대해보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18046] = {Title = "노련한 사냥꾼 초급-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18047] = {Title = "노련한 사냥꾼 중급", IconName = "ico_dq.bmp", 
+Description = {"지피지기면 백전백승! 115~130 레벨의 지속성 몬스터, 대형 몬스터, 인간형 몬스터를 찾아 상대해보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18048] = {Title = "노련한 사냥꾼 중급-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18049] = {Title = "노련한 사냥꾼 상급1", IconName = "ico_dq.bmp", 
+Description = {"지피지기면 백전백승! 130~145 레벨의 암속성 몬스터, 소형 몬스터, 곤충형 몬스터를 찾아 상대해보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18050] = {Title = "노련한 사냥꾼 상급1-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18051] = {Title = "노련한 사냥꾼 상급2", IconName = "ico_dq.bmp", 
+Description = {"지피지기면 백전백승! 145~160 레벨의 지속성 몬스터, 중형 몬스터, 소형 몬스터를 찾아 상대해보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18052] = {Title = "노련한 사냥꾼 상급2-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18053] = {Title = "시계탑 나이트메어 공략", IconName = "ico_dq.bmp", 
+Description = {"알데바란의 시계탑에는 나이트메어라 불리는 또 다른 지역이 있는 것 같다. <NAVI>[벨자민 버튼]<INFO>c_tower1,232,222,0,101,0</INFO></NAVI>를 통해 시계탑 나이트메어에 도전하자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = "", NpcSpr = "4_M_RUSMAN2", NpcNavi = "c_tower1", NpcPosX = 232, NpcPosY = 222}
+, 
+[18054] = {Title = "시계탑 나이트메어 공략-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18055] = {Title = "글래스트헤임 어비스 공략", IconName = "ico_dq.bmp", 
+Description = {"글래스트헤임 어비스를 공략하자. <NAVI>[닐렘]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>를 통해 글래스트헤임 어비스를 탐험할 수 있다. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = "", NpcSpr = "4_M_JOB_WIZARD", NpcNavi = "glast_01", NpcPosX = 191, NpcPosY = 273}
+, 
+[18056] = {Title = "글래스트헤임 어비스 공략-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
+, Summary = "04시 초기화"}
+, 
+[18057] = {Title = "아인베흐 광산 공략", IconName = "ico_dq.bmp", 
+Description = {"아인베흐에 위치한 <NAVI>[아인베흐 광산 3층]<INFO>ein_dun03,268,279,0,101,0</INFO></NAVI>을 탐험하며 실력을 쌓아보자. 완료 보고는 부스터 콜을 사용해 라임에게 하면 된다."}
+, Summary = ""}
+, 
+[18058] = {Title = "아인베흐 광산 공략-대기", IconName = "ico_dq.bmp", 
+Description = {"해당 퀘스트는 대기시간이 지난 뒤 부스터 콜을 사용해 소환한 \'라임 이베노르\'에게서 다시 받을 수 있습니다."}
 , Summary = "04시 초기화"}
 , 
 [21001] = {Title = "난파선 탈출", 

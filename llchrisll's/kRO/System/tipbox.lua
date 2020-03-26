@@ -247,7 +247,7 @@ Page = {"/차단 캐릭터명 또는 /ex 캐릭터명으로 해당 캐릭터가 하는 말이나 귓속말 �
 [29] = {Title = "파티 시스템", Search = 1, Image = "유저인터페이스\\tipbox\\tip00029", 
 Imgcoord = {Position = 5, Size = 100}
 , 
-Page = {"/결성 파티이름 또는 /organize 파티이름으로 파티를 만들 수 있습니다.\\n/탈퇴 또는 /leave로 파티를 탈퇴할 수 있습니다.", "파티를 결성하여 파티리더가 된 경우, 상대 캐릭터를 마우스 오른쪽 버튼으로 클릭하여 \'파티에 초대한다\' 메뉴를 선택하거나 /초대 캐릭터명으로 파티에 초대할 수 있습니다.\\n파티원을 제명하고 싶은 경우 /제명 캐릭터이름 또는 /expel 캐릭터이름으로 ^3b488c자신이 리더인 파티^000000의 파티원을 제명할 수 있습니다.\\n^ff0000※ (Y/N)를 묻지 않으므로, 신중하게 선택하셔야 합니다.^000000\n\t\t<TIPBOX>▶채팅: 파티<INFO>22</INFO></TIPBOX>\n\t\t\\n<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
+Page = {"/결성 파티이름 또는 /organize 파티이름으로 파티를 만들 수 있습니다.\\n/탈퇴 또는 /leave로 파티를 탈퇴할 수 있습니다.", "파티를 결성하여 파티리더가 된 경우, 상대 캐릭터를 마우스 오른쪽 버튼으로 클릭하여 \'파티에 초대한다\' 메뉴를 선택하거나 /초대 캐릭터명으로 파티에 초대할 수 있습니다.\\n파티원을 제명하고 싶은 경우 /제명 캐릭터이름 또는 /expel 캐릭터이름으로 ^3b488c자신이 리더인 파티^000000의 파티원을 제명할 수 있습니다.\\n^ff0000※ (Y/N)를 묻지 않으므로, 신중하게 선택하셔야 합니다.^000000\n\t\t<TIPBOX>▶채팅: 파티<INFO>22</INFO></TIPBOX>\n\t\t<TIPBOX>▶모험가 중개소<INFO>70</INFO></TIPBOX>\n\t\t\\n<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
 }
 , 
 [30] = {Title = "길드 시스템", Search = 1, Image = "", 
@@ -360,6 +360,30 @@ Imgcoord = {Position = 5, Size = 100}
 Page = {"주요 맵을 이동할 때 맵 이름이 화면에 표시 되도록 설정할 수 있습니다.\n\t\t(^ff0000※맵 이름 표기 설정을 켜도 맵 컨셉이 따라 맵 이름이 표시되지 않을 수 있습니다.^000000)\n\t\t맵 이름 표시 설정은 ^ff0000게임 옵션창(ESC) → 게임 설정 → 기본 설정 → 이펙트 설정에서 On/Off^000000할 수 있습니다.\n\n\t\t<TIPBOX>▶게임옵션: 게임설정<INFO>33</INFO></TIPBOX>\n\t\t\\n<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
 }
 , 
+[70] = {Title = "모험가 중개소", Search = 1, Image = "유저인터페이스\\tipbox\\tip00070", 
+Imgcoord = {Position = 5, Size = 100}
+, 
+Page = {"ctrl + Z 또는 채팅창에 /모험가 중개소, /중개소를 입력하여 모험가 중개소 UI를 열 수 있습니다.\n\t\t모험가 중개소에서는 함께 라그나로크를 즐길 파티원을 모집할 수 있습니다.\n\t\t중개소에 등록하기 위해서는 파티장인 상태에서 모험가 중개소 등록 버튼을 눌러 가입 조건을 입력해야하고 다른 사람의 파티에 가입시에는 파티를 모집중인 파티장이 설정한 조건에 맞춰 파티에 가입신청을 할 수 있습니다.\n\n\t\t<TIPBOX>▶파티 시스템<INFO>29</INFO></TIPBOX>\n\t\t\\n<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
+}
+, 
+[900] = {Title = "월드맵#map", Search = 1, Image = "유저인터페이스\\tipbox\\tip00900", 
+Imgcoord = {Position = 5, Size = 100}
+, 
+Page = {"메뉴 아이콘에서 ^4d4dff\'월드보기\'^000000를 클릭하거나 단축키^4d4dff ctlr + `^000000 를 사용하면 월드맵을 볼 수 있습니다. 또는 미니맵 우측 하단의 버튼을 클릭하여 월드맵을 펼칠 수 있습니다.\n\t\t^663399◈월드맵에서 몬스터 박스를 체크하거나 Tap 키로 필드의 몬스터 레벨 분포를 알 수 있습니다.^000000\n\n\t\t<TIPBOX>▶월드 이동<INFO>901</INFO></TIPBOX>\n\t\t<TIPBOX>▶내비게이션<INFO>902</INFO></TIPBOX>\n\t\t<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
+}
+, 
+[901] = {Title = "월드 이동", Search = 1, Image = "유저인터페이스\\tipbox\\tip00901", 
+Imgcoord = {Position = 5, Size = 100}
+, 
+Page = {"월드맵에서 이동하고자 하는 지역을 선택하여 ^4d4dff내비게이션^000000을 이용해 직접 이동하거나, ^4d4dff월드 이동권이나 특정 재화^000000를 사용해 즉시 이동할 수 있습니다. 도시간 이동은 카프라와 비공정 같은 공간이동 서비스를 통해 이동할 수 있습니다. 월드맵에서 도시간 이동 가능 경로의 확인이 가능합니다.\n\n\t\t<TIPBOX>▶월드맵<INFO>900</INFO></TIPBOX>\n\t\t<TIPBOX>▶내비게이션<INFO>902</INFO></TIPBOX>\n\t\t<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
+}
+, 
+[902] = {Title = "내비게이션#네비게이션", Search = 1, Image = "유저인터페이스\\tipbox\\tip00902", 
+Imgcoord = {Position = 5, Size = 100}
+, 
+Page = {"월드맵에서 이동할 지역을 직접 선택하거나, 메뉴 아이콘에서 내비게이션을 활성화 하여 이동하고자 하는 지역의 경로 안내를 받을 수 있습니다.\n필드, 몬스터, 특정 npc 등 내비게이션의 검색을 활용해 원하는 위치를 찾아보세요.\n\n\t\t<TIPBOX>▶월드맵<INFO>900</INFO></TIPBOX>\n\t\t<TIPBOX>▶월드 이동<INFO>901</INFO></TIPBOX>\n\t\t<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
+}
+, 
 [1000] = {Title = "팁박스: 항목", Search = 1, Image = "", 
 Imgcoord = {Position = 5, Size = 100}
 , 
@@ -387,7 +411,7 @@ Page = {"<TIPBOX>▶채팅<INFO>19</INFO></TIPBOX>\n\t\t<TIPBOX>▶파티<INFO>29</INF
 [4000] = {Title = "라그나로크의 세계", Search = 1, Image = "", 
 Imgcoord = {Position = 5, Size = 100}
 , 
-Page = {"라그나로크 세계에서 모험의 무대는 크게 인간들이 중심인 땅 미드가르드 대륙,\n\t\t요정과 거인이 존재하는 차원 너머의 땅, 그리고 탐험심 가득한 이들이 찾아낸 미지의 지역 로컬라이징으로 분류됩니다.\n\n\t\t<TIPBOX>▶미드가르드 대륙<INFO>4001</INFO></TIPBOX>\n\n\t\t<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
+Page = {"라그나로크 세계에서 모험의 무대는 크게 인간들이 중심인 땅 미드가르드 대륙,\n\t\t요정과 거인이 존재하는 차원 너머의 땅, 그리고 탐험심 가득한 이들이 찾아낸 미지의 지역 로컬라이징으로 분류됩니다.\n\n\t\t<TIPBOX>▶미드가르드 대륙<INFO>4001</INFO></TIPBOX>\n\t\t<TIPBOX>▶월드맵<INFO>900</INFO></TIPBOX>\n\n\t\t<TIPBOX>▶팁 리스트 보기<INFO>1000</INFO></TIPBOX>"}
 }
 , 
 [4001] = {Title = "미드가르드 대륙", Search = 1, Image = "", 

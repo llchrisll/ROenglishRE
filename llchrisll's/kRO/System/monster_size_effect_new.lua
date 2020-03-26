@@ -5275,6 +5275,22 @@ MonsterEff = {EFFECT.EF_RED_WAVE1, EFFECT.EF_RED_WAVE2}
 [20648] = {MonsterSize = 1, 
 MonsterEff = {EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6}
 }
+, 
+[20573] = {MonsterSize = 1, 
+MonsterEff = {EFFECT.EF_AMDARAIS_EFFECT}
+}
+, 
+[20813] = {MonsterSize = 1, 
+MonsterEff = {EFFECT.EF_AMDARAIS_EFFECT}
+}
+, 
+[20846] = {MonsterSize = 1, 
+MonsterEff = {EFFECT.EF_BOTTOM_EVILLAND}
+}
+, 
+[20847] = {MonsterSize = 1, 
+MonsterEff = {EFFECT.EF_MAP_MAGICZONE}
+}
 }
 main = function()
   -- function num : 0_0

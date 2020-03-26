@@ -4,6 +4,50 @@
 -- params : ...
 -- function num : 0
 mapTbl = {
+["iz_d04_i.rsw"] = {displayName = "심연의 해저동굴 상층", notifyEnter = true, 
+signName = {mainTitle = "심연의 해저동굴 상층"}
+, backgroundBmp = "dungeon"}
+, 
+["iz_d05_i.rsw"] = {displayName = "심연의 해저동굴 하층", notifyEnter = true, 
+signName = {mainTitle = "심연의 해저동굴 하층"}
+, backgroundBmp = "dungeon"}
+, 
+["1@gl_he2.rsw"] = {displayName = "이벤트모드 불완전한 차원", notifyEnter = true, 
+signName = {subTitle = "이벤트 모드", mainTitle = "불완전한 차원"}
+, backgroundBmp = "dungeon"}
+, 
+["1@thts.rsw"] = {displayName = "타나토스 타워", notifyEnter = true, 
+signName = {subTitle = "타나토스의 기억", mainTitle = "타나토스 타워"}
+, backgroundBmp = "dungeon"}
+, 
+["2@thts.rsw"] = {displayName = "천사의 경고", notifyEnter = true, 
+signName = {subTitle = "타나토스의 기억", mainTitle = "천사의 경고"}
+, backgroundBmp = "dungeon"}
+, 
+["3@thts.rsw"] = {displayName = "증오의 기억", notifyEnter = true, 
+signName = {subTitle = "타나토스의 기억", mainTitle = "증오의 기억"}
+, backgroundBmp = "dungeon"}
+, 
+["4@thts.rsw"] = {displayName = "고뇌의 기억", notifyEnter = true, 
+signName = {subTitle = "타나토스의 기억", mainTitle = "고뇌의 기억"}
+, backgroundBmp = "dungeon"}
+, 
+["5@thts.rsw"] = {displayName = "슬픔의 기억", notifyEnter = true, 
+signName = {subTitle = "타나토스의 기억", mainTitle = "슬픔의 기억"}
+, backgroundBmp = "dungeon"}
+, 
+["6@thts.rsw"] = {displayName = "절망의 기억", notifyEnter = true, 
+signName = {subTitle = "타나토스의 기억", mainTitle = "절망의 기억"}
+, backgroundBmp = "dungeon"}
+, 
+["7@thts.rsw"] = {displayName = "분노의 기억", notifyEnter = true, 
+signName = {subTitle = "타나토스의 기억", mainTitle = "분노의 기억"}
+, backgroundBmp = "dungeon"}
+, 
+["8@thts.rsw"] = {displayName = "타나토스 타워", notifyEnter = true, 
+signName = {subTitle = "타나토스의 기억", mainTitle = "마검사 타나토스의 기억"}
+, backgroundBmp = "dungeon"}
+, 
 ["ba_maison.rsw"] = {displayName = "바르문트 저택 정원", notifyEnter = true, 
 signName = {mainTitle = "바르문트 저택 정원"}
 , backgroundBmp = "noname_s2"}
@@ -1005,11 +1049,11 @@ signName = {subTitle = "데와타", mainTitle = "자티 부족 마을"}
 , backgroundBmp = "field"}
 , 
 ["dew_dun01.rsw"] = {displayName = "크라카토 화산섬", notifyEnter = true, 
-signName = {mainTitle = "데와타", mainTitle = "크라카토 화산섬"}
+signName = {subTitle = "데와타", mainTitle = "크라카토 화산섬"}
 , backgroundBmp = "dungeon"}
 , 
 ["dew_dun02.rsw"] = {displayName = "이스타나 동굴", notifyEnter = true, 
-signName = {mainTitle = "데와타", mainTitle = "이스타나 동굴"}
+signName = {subTitle = "데와타", mainTitle = "이스타나 동굴"}
 , backgroundBmp = "dungeon"}
 , 
 ["bif_fild01.rsw"] = {displayName = "비프로스트 남부", notifyEnter = true, 
