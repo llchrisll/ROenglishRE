@@ -5109,8 +5109,8 @@ StateIconList[EFST_IDs.EFST_SUNSTANCE] = {
 	descript = {
 		{ "Sun Stance", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases ATK." },
-		{ "Solar Skills available." }
+		{ "Increases ATK" },
+		{ "Sun Skills available" }
 	}
 }
 StateIconList[EFST_IDs.EFST_LUNARSTANCE] = {
@@ -5119,8 +5119,8 @@ StateIconList[EFST_IDs.EFST_LUNARSTANCE] = {
 	descript = {
 		{ "Lunar Stance", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases MaxHP" },
-		{ "Lunar Skills available" }
+		{ "Increase MaxHP" },
+		{ "Moon Skills available" }
 	}
 }
 StateIconList[EFST_IDs.EFST_STARSTANCE] = {
@@ -5141,8 +5141,8 @@ StateIconList[EFST_IDs.EFST_UNIVERSESTANCE] = {
 		{ "%s", COLOR_TIME },
 		{ "Increases All Stats" },
 		{ "Space Skills available" },
-		{ "Solar Skills available" },
-		{ "Lunar Skills available" },
+		{ "Sun Skills available" },
+		{ "Moon Skills available" },
 		{ "Star Skills available" }
 	}
 }
@@ -5170,12 +5170,12 @@ StateIconList[EFST_IDs.EFST_LIGHTOFSTAR] = {
 	descript = {
 		{ "Light of Star", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases Falling Star Damage" }
+		{ "Increase Falling Star Damage" }
 	}
 }
 StateIconList[EFST_IDs.EFST_FLASHKICK] = {
 	descript = {
-		{ "Stellar Mark", COLOR_TITLE_DEBUFF }
+		{ "Star Mark", COLOR_TITLE_DEBUFF }
 	}
 }
 StateIconList[EFST_IDs.EFST_NEWMOON] = {
@@ -5197,7 +5197,7 @@ StateIconList[EFST_IDs.EFST_CREATINGSTAR] = {
 StateIconList[EFST_IDs.EFST_GRAVITYCONTROL] = {
 	descript = {
 		{ "Gravity Control", COLOR_TITLE_DEBUFF },
-		{ "Attack and Movement disabled" }
+		{ "Attack and Movement is disabled" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULCOLLECT] = {
@@ -5215,8 +5215,8 @@ StateIconList[EFST_IDs.EFST_SOULREAPER] = {
 	descript = {
 		{ "Soul Harvest", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Chance on attacks to" },
-		{ "harvest Souls" }
+		{ "Attacks have a chance" },
+		{ "to harvest Souls" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULUNITY] = {
@@ -5226,7 +5226,7 @@ StateIconList[EFST_IDs.EFST_SOULUNITY] = {
 		{ "Soul Bound", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "HP Recovery every 3 seconds" },
-		{ "on yourself an party." }
+		{ "on yourself and party members." }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULSHADOW] = {
@@ -5281,9 +5281,9 @@ StateIconList[EFST_IDs.EFST_FALLINGSTAR] = {
 	descript = {
 		{ "Falling Star", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Chance to hit" },
-		{ "targets with Stellar Mark" },
-		{ "with Falling Stars" }
+		{ "When attacking targets with Star Marks" },
+		{ "there is a chance they will be" },
+		{ "hit with Falling Stars" }
 	}
 }
 StateIconList[EFST_IDs.EFST_DIMENSION] = {
@@ -5293,7 +5293,7 @@ StateIconList[EFST_IDs.EFST_DIMENSION] = {
 		{ "Book of Dimension", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Nova Explosion + Advent of the Star Emperor" },
-		{ "will have special effects" }
+		{ "have special effects" }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULLINK] = {
@@ -5541,11 +5541,11 @@ StateIconList[EFST_IDs.EFST_DONTFORGETME] = {
 }
 StateIconList[EFST_IDs.EFST_SOULCURSE] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	posTimeLimitStr = 2, 
 	descript = {
-		{ "사령의 저주", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "암속성 공격에 대한 내성 감소." }
+		{ "Evil Curse", COLOR_TITLE_BUFF }, 
+		{ "%s", COLOR_TIME }, 
+		{ "Reduces resistance against Shadow attacks." }
 	}
 }
 StateIconList[EFST_IDs.EFST_SWEETSFAIR_ATK] = {
