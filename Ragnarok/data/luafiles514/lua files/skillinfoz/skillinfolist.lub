@@ -3973,6 +3973,17 @@ SKILL_INFO_LIST = {
 			}
 		}
 	},
+	[SKID.KN_RIDING] = {
+		"KN_RIDING",
+		SkillName = "Riding",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SM_ENDURE, 1 }
+		}
+	},
 	[SKID.KN_CHARGEATK] = {
 		"KN_CHARGEATK",
 		SkillName = "Charge Attack",
@@ -4026,17 +4037,6 @@ SKILL_INFO_LIST = {
 		SpAmount = { 40 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
-	},
-	[SKID.KN_RIDING] = {
-		"KN_RIDING",
-		SkillName = "Riding",
-		MaxLv = 1,
-		SpAmount = { 0 },
-		bSeperateLv = false,
-		AttackRange = { 1 },
-		_NeedSkillList = {
-			{ SKID.SM_ENDURE, 1 }
-		}
 	},
 	[SKID.SA_ELEMENTWATER] = {
 		"SA_ELEMENTWATER",
