@@ -14,15 +14,15 @@ luadec.exe monster_size_effect_sak_new.lub > monster_size_effect_sak_new.lua
 luadec.exe OngoingQuestInfoList.lub > OngoingQuestInfoList.lua
 luadec.exe OngoingQuestInfoList_Sakray.lub > OngoingQuestInfoList_Sakray.lua
 luadec.exe OngoingQuestInfoList_True.lub > OngoingQuestInfoList_True.lua
-luadec.exe RecommendedQuestInfoList.lub > RecommendedQuestInfoList.lua
 luadec.exe OptionInfo.lub > OptionInfo.lua
 luadec.exe PetEvolutionCln.lub > PetEvolutionCln.lua
 luadec.exe PetEvolutionCln_sak.lub > PetEvolutionCln_sak.lua
 luadec.exe PetEvolutionCln_true.lub > PetEvolutionCln_true.lua
 luadec.exe PrivateAirplane_Sakray.lub > PrivateAirplane_Sakray.lua
 luadec.exe PrivateAirplane_true.lub > PrivateAirplane_true.lua
+luadec.exe RecommendedQuestInfoList.lub > RecommendedQuestInfoList.lua
 luadec.exe RecommendedQuestInfoList_Sakray.lub > RecommendedQuestInfoList_Sakray.lua
-luadec.exe RecommendedQuestInfoList_True.lua > RecommendedQuestInfoList_True.lua
+luadec.exe RecommendedQuestInfoList_True.lub > RecommendedQuestInfoList_True.lua
 luadec.exe ShadowTable.lub > ShadowTable.lua
 luadec.exe tipbox.lub > tipbox.lua
 luadec.exe Towninfo.lub > Towninfo.lua
