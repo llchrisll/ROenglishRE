@@ -264,6 +264,10 @@ HOTKEY_3 = {
 [55] = {EXE = MsgStrID.MSI_HK_CHANGE_SKILLBAR}
 , 
 [56] = {EXE = MsgStrID.MSI_HK_COSEQUIPWND_ONOFF, KEY1 = 88, KEY2 = 18}
+, 
+[57] = {EXE = MsgStrID.MSI_HK_PARTYBOARDWND_ONOFF, KEY1 = 90, KEY2 = 17}
+, 
+[58] = {EXE = MsgStrID.MSI_HK_HUNTINGQUEST_INFO_ONOFF, KEY1 = 72, KEY2 = 17}
 }
 HOTKEY_4 = {
 [0] = {EXE = MsgStrID.MSI_HK_MACRO_1, KEY1 = 49, KEY2 = 18}
@@ -306,7 +310,7 @@ HOTKEY_4 = {
 , 
 [19] = {EXE = MsgStrID.MSI_HK_FLAG_10, KEY1 = 48, KEY2 = 17}
 }
-BEHAVIOR_TO_WINDOWID = {[0] = 0, [10] = 1, [37] = 2, [134] = 3, [40] = 7, [140] = 8, [8] = 9, [59] = 10, [87] = 11, [86] = 14, [112] = 15, [36] = 17, [137] = 22, [88] = 23, [113] = 24, [125] = 25, [157] = 30, [191] = 36, [184] = 37, [257] = 44, [69] = 5, [198] = 38, [191] = 36, [169] = 34, [203] = 42, [251] = 46, [11] = 47, [270] = 49, [263] = 51, [282] = 53, [315] = 54}
+BEHAVIOR_TO_WINDOWID = {[0] = 0, [10] = 1, [37] = 2, [134] = 3, [40] = 7, [140] = 8, [8] = 9, [59] = 10, [87] = 11, [86] = 14, [112] = 15, [36] = 17, [137] = 22, [88] = 23, [113] = 24, [125] = 25, [157] = 30, [191] = 36, [184] = 37, [257] = 44, [69] = 5, [198] = 38, [191] = 36, [169] = 34, [203] = 42, [251] = 46, [11] = 47, [270] = 49, [263] = 51, [282] = 53, [315] = 54, [324] = 57}
 GetKeyDes = function(key1, key2)
   -- function num : 0_0
   local keyName1 = KEYNAME[key1]

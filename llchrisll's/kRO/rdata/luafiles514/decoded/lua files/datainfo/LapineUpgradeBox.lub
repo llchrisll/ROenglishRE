@@ -5,6 +5,182 @@
 -- function num : 0
 tblLapineUpgradeBox = {
 targets = {
+Auto_Armor_Refine_Cube = {ItemID = 100354, NeedRefineMin = 0, NeedRefineMax = 10, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Auto_Armor_A", 450127}
+, 
+{"Auto_Armor_B", 450128}
+, 
+{"Auto_Engine_A", 480020}
+, 
+{"Auto_Engine_B", 480021}
+, 
+{"Auto_Leg_A", 470022}
+, 
+{"Auto_Leg_B", 470023}
+}
+, NeedSource_String = "오토매틱 방어구"}
+, 
+Bio_Weapon_Refine_Cube = {ItemID = 100355, NeedRefineMin = 0, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Staff_Of_Miracle", 2055}
+, 
+{"Gravitation_Staff", 2056}
+, 
+{"Adorare_Staff", 2057}
+, 
+{"Volar", 21051}
+, 
+{"Vernan", 21052}
+, 
+{"Reaper_Cross", 28042}
+, 
+{"Agudo_Filo", 28044}
+, 
+{"Maxi_Spanner", 28138}
+, 
+{"Rapid_Fire_C_Bow", 18184}
+, 
+{"Sharp_Star_Bow", 18185}
+, 
+{"Aiming_Bow", 18186}
+, 
+{"Falken_Shooter", 18187}
+, 
+{"Wind_Gale", 18188}
+, 
+{"Golden_Wrench", 1333}
+, 
+{"Combo_Fist", 1865}
+, 
+{"Asura_Bandage", 1866}
+, 
+{"Engine_Pilebuncker", 16092}
+, 
+{"Coolant_Injection", 16093}
+, 
+{"Gene_Rod", 16094}
+, 
+{"Lucis_Flail", 16095}
+, 
+{"Bright_Mace", 16096}
+, 
+{"Crimson_Rose_Stick", 26158}
+, 
+{"Psychic_Spear_Rod", 26159}
+, 
+{"Dust_Grave", 26160}
+, 
+{"Ponitendtia", 26161}
+, 
+{"Heart_Whip", 26212}
+, 
+{"Scarlet_Ribbon", 26213}
+, 
+{"Boltigin", 28633}
+, 
+{"Judgement_Slasher", 28765}
+, 
+{"Repent_Slasher", 28766}
+, 
+{"Jack_The_Knife", 28767}
+, 
+{"Platinum_Dagger", 28768}
+, 
+{"Argen_Blanco", 32023}
+, 
+{"Harve", 32024}
+, 
+{"Fortrage", 32025}
+, 
+{"Black_Circle", 32107}
+, 
+{"Antique_Cello", 32108}
+, 
+{"Farthezan", 32350}
+, 
+{"Estal", 32351}
+}
+, NeedSource_String = "생체연구소 무기"}
+, 
+OS_Weapon_Refine_Cube = {ItemID = 100321, NeedRefineMin = 0, NeedRefineMax = 10, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Beam_Claymore_OS", 21047}
+, 
+{"Meuchler_OS", 28038}
+, 
+{"Blasti_OS", 28136}
+, 
+{"Virtual_Bow_OS", 18178}
+, 
+{"MH_P89_OS", 18179}
+, 
+{"AC_B44_OS", 18180}
+, 
+{"HR_S55_OS", 28253}
+, 
+{"Burning_Knuckle_OS", 1862}
+, 
+{"Cannon_Rapier_OS", 13493}
+, 
+{"Saphir_Hall_OS", 16088}
+, 
+{"Ultio_Spes_OS", 16089}
+, 
+{"Rutilus_Stick_OS", 26151}
+, 
+{"ElectricFox_OS", 26164}
+, 
+{"Circuit_Board_OS", 28629}
+, 
+{"Kuroiro_OS", 28755}
+, 
+{"Boost_Lance_OS", 32019}
+}
+, NeedSource_String = "OS시리즈 무기"}
+, 
+Racecap_Refine_Cube = {ItemID = 100322, NeedRefineMin = 0, NeedRefineMax = 10, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"레이싱모자_미케", 19189}
+, 
+{"레이싱모자_제네", 19190}
+, 
+{"레이싱모자_크로스", 19191}
+, 
+{"레이싱모자_체이서", 19192}
+, 
+{"레이싱모자_워록", 19193}
+, 
+{"레이싱모자_소서", 19194}
+, 
+{"레이싱모자_룬", 19195}
+, 
+{"레이싱모자_로얄", 19196}
+, 
+{"레이싱모자_비숍", 19197}
+, 
+{"레이싱모자_수라", 19198}
+, 
+{"레이싱모자_레인저", 19199}
+, 
+{"레이싱모자_민스", 19200}
+, 
+{"레이싱모자_원더", 19201}
+, 
+{"레이싱모자_건너", 19202}
+, 
+{"레이싱모자_닌자", 19203}
+, 
+{"레이싱모자_슈퍼", 19204}
+, 
+{"레이싱모자_도람", 19205}
+, 
+{"Racing_C_Star", 19396}
+, 
+{"Racing_C_Soul", 19397}
+}
+, NeedSource_String = "레이싱 캡"}
+, 
 Temporal_Refine_Cube = {ItemID = 100268, NeedRefineMin = 0, NeedRefineMax = 10, NeedOptionNumMin = 0, NotSocketEnchantItem = true, 
 TargetItems = {
 {"Overwhelm_Str_Armor", 15278}
@@ -1240,6 +1416,24 @@ TargetItems = {
 {"Up_Shiver_Katar_K", 610008}
 , 
 {"Up_Blade_Katar", 610009}
+, 
+{"Up_Sword_Of_Bluefire", 500013}
+, 
+{"Up_Slate_Sword", 500014}
+, 
+{"Up_Narcis_Bow", 700013}
+, 
+{"Up_Trumpet_Shell_K", 570009}
+, 
+{"Up_Barb_Wire_K", 580009}
+, 
+{"Up_Avenger", 620004}
+, 
+{"Up_Magic_Sword", 510019}
+, 
+{"Up_Fatalist", 510020}
+, 
+{"Up_Meteor_Striker", 590011}
 }
 , NeedSource_String = "영웅의 무기"}
 , 
@@ -1324,6 +1518,24 @@ TargetItems = {
 {"Up_Shiver_Katar_K", 610008}
 , 
 {"Up_Blade_Katar", 610009}
+, 
+{"Up_Sword_Of_Bluefire", 500013}
+, 
+{"Up_Slate_Sword", 500014}
+, 
+{"Up_Narcis_Bow", 700013}
+, 
+{"Up_Trumpet_Shell_K", 570009}
+, 
+{"Up_Barb_Wire_K", 580009}
+, 
+{"Up_Avenger", 620004}
+, 
+{"Up_Magic_Sword", 510019}
+, 
+{"Up_Fatalist", 510020}
+, 
+{"Up_Meteor_Striker", 590011}
 }
 , NeedSource_String = "영웅의 무기"}
 , 
@@ -1376,6 +1588,18 @@ TargetItems = {
 {"Survival_Staff_IL", 2051}
 , 
 {"Taegoolyeon_IL", 21050}
+, 
+{"Death_Guidance_IL", 600011}
+, 
+{"KatarOfCold_Icicle_IL", 610012}
+, 
+{"Brionac_IL", 630006}
+, 
+{"Zephyrus_IL", 630007}
+, 
+{"Electronic_Guitar_IL", 570008}
+, 
+{"Electric_Eel_IL", 580008}
 }
 , NeedSource_String = "4레벨 일루전 무기"}
 , 
@@ -1428,6 +1652,18 @@ TargetItems = {
 {"Survival_Staff_IL", 2051}
 , 
 {"Taegoolyeon_IL", 21050}
+, 
+{"Death_Guidance_IL", 600011}
+, 
+{"KatarOfCold_Icicle_IL", 610012}
+, 
+{"Brionac_IL", 630006}
+, 
+{"Zephyrus_IL", 630007}
+, 
+{"Electronic_Guitar_IL", 570008}
+, 
+{"Electric_Eel_IL", 580008}
 }
 , NeedSource_String = "4레벨 일루전 무기"}
 , 
@@ -5147,7 +5383,7 @@ TargetItems = {
 }
 , NeedSource_String = "+7 쉐도우 아이템"}
 , 
-Boost_Up_1 = {ItemID = 100043, NeedRefineMin = 0, NeedRefineMax = 20, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+Boost_Up_1 = {ItemID = 100043, NeedRefineMin = 0, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
 TargetItems = {
 {"Atker_Plate", 450001}
 , 
@@ -6322,6 +6558,206 @@ TargetItems = {
 {"Auto_Leg_B", 470023}
 }
 , NeedSource_String = "오토매틱 방어구(4제련 이상)"}
+, 
+Metal_7_Ticket = {ItemID = 100125, NeedRefineMin = 0, NeedRefineMax = 6, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"메탈투핸드소드", 21005}
+, 
+{"메탈랜스", 1493}
+, 
+{"메탈메이스", 16023}
+, 
+{"메탈투핸드액스", 1398}
+, 
+{"메탈대거", 13079}
+, 
+{"메탈북", 1588}
+, 
+{"메탈스태프", 2018}
+, 
+{"메탈카타르", 1296}
+, 
+{"메탈보우", 18116}
+}
+, NeedSource_String = "메탈 무기"}
+, 
+Booster_W_Up_1 = {ItemID = 100338, NeedRefineMin = 0, NeedRefineMax = 8, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"IW_B_T_Sword", 600012}
+, 
+{"HB_B_T_Spear", 630008}
+, 
+{"BC_B_Spear", 530005}
+, 
+{"PG_B_Sword", 500015}
+, 
+{"PT_B_Axe", 620003}
+, 
+{"AK_B_Mace", 590008}
+, 
+{"AC_B_Club", 590009}
+, 
+{"HS_T_Sword", 500016}
+, 
+{"RC_B_Katar", 610013}
+, 
+{"CA_B_Dagger", 510017}
+, 
+{"TB_B_Bow", 700014}
+, 
+{"MF_B_Dagger", 510018}
+, 
+{"CS_B_Staff", 640009}
+, 
+{"CJ_B_Staff", 640010}
+, 
+{"SB_B_Book", 540009}
+, 
+{"ES_B_Stick", 550010}
+, 
+{"AN_B_Wand", 550011}
+, 
+{"DD_B_Mace", 590010}
+, 
+{"PS_B_Knuckle", 560006}
+, 
+{"CP_B_Knuckle", 560007}
+, 
+{"AS_B_Bow", 700015}
+, 
+{"SB_B_Bow", 700016}
+, 
+{"RS_B_Bow", 700017}
+, 
+{"MV_B_Violin", 570010}
+, 
+{"MV_B_Whip", 580010}
+}
+, NeedSource_String = "부스터 무기"}
+, 
+Booster_W_Up_2 = {ItemID = 100339, NeedRefineMin = 0, NeedRefineMax = 10, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"IW_B_T_Sword", 600012}
+, 
+{"HB_B_T_Spear", 630008}
+, 
+{"BC_B_Spear", 530005}
+, 
+{"PG_B_Sword", 500015}
+, 
+{"PT_B_Axe", 620003}
+, 
+{"AK_B_Mace", 590008}
+, 
+{"AC_B_Club", 590009}
+, 
+{"HS_T_Sword", 500016}
+, 
+{"RC_B_Katar", 610013}
+, 
+{"CA_B_Dagger", 510017}
+, 
+{"TB_B_Bow", 700014}
+, 
+{"MF_B_Dagger", 510018}
+, 
+{"CS_B_Staff", 640009}
+, 
+{"CJ_B_Staff", 640010}
+, 
+{"SB_B_Book", 540009}
+, 
+{"ES_B_Stick", 550010}
+, 
+{"AN_B_Wand", 550011}
+, 
+{"DD_B_Mace", 590010}
+, 
+{"PS_B_Knuckle", 560006}
+, 
+{"CP_B_Knuckle", 560007}
+, 
+{"AS_B_Bow", 700015}
+, 
+{"SB_B_Bow", 700016}
+, 
+{"RS_B_Bow", 700017}
+, 
+{"MV_B_Violin", 570010}
+, 
+{"MV_B_Whip", 580010}
+}
+, NeedSource_String = "부스터 무기"}
+, 
+Booster_W_Up_3 = {ItemID = 100340, NeedRefineMin = 0, NeedRefineMax = 12, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"IW_B_T_Sword", 600012}
+, 
+{"HB_B_T_Spear", 630008}
+, 
+{"BC_B_Spear", 530005}
+, 
+{"PG_B_Sword", 500015}
+, 
+{"PT_B_Axe", 620003}
+, 
+{"AK_B_Mace", 590008}
+, 
+{"AC_B_Club", 590009}
+, 
+{"HS_T_Sword", 500016}
+, 
+{"RC_B_Katar", 610013}
+, 
+{"CA_B_Dagger", 510017}
+, 
+{"TB_B_Bow", 700014}
+, 
+{"MF_B_Dagger", 510018}
+, 
+{"CS_B_Staff", 640009}
+, 
+{"CJ_B_Staff", 640010}
+, 
+{"SB_B_Book", 540009}
+, 
+{"ES_B_Stick", 550010}
+, 
+{"AN_B_Wand", 550011}
+, 
+{"DD_B_Mace", 590010}
+, 
+{"PS_B_Knuckle", 560006}
+, 
+{"CP_B_Knuckle", 560007}
+, 
+{"AS_B_Bow", 700015}
+, 
+{"SB_B_Bow", 700016}
+, 
+{"RS_B_Bow", 700017}
+, 
+{"MV_B_Violin", 570010}
+, 
+{"MV_B_Whip", 580010}
+}
+, NeedSource_String = "부스터 무기"}
+, 
+E_ILL_Up = {ItemID = 100341, NeedRefineMin = 0, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"E_Illusion_Armor_A", 450147}
+, 
+{"E_Illusion_Armor_B", 450148}
+, 
+{"E_Illusion_Engine_A", 480062}
+, 
+{"E_Illusion_Engine_B", 480063}
+, 
+{"E_Illusion_Leg_A", 470054}
+, 
+{"E_Illusion_Leg_B", 470055}
+}
+, NeedSource_String = "일루시온(귀속) 방어구"}
 }
 , serverMain = function()
   -- function num : 0_0

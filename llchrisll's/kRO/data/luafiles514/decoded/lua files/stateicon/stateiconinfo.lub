@@ -5740,7 +5740,7 @@ descript = {
 , 
 {"%s", COLOR_TIME}
 , 
-{"ATK 3% 증가."}
+{"ATK 10% 증가."}
 }
 }
 -- DECOMPILER ERROR at PC11886: Confused about usage of register: R0 in 'UnsetPending'
@@ -5751,7 +5751,7 @@ descript = {
 , 
 {"%s", COLOR_TIME}
 , 
-{"MATK 3% 증가."}
+{"MATK 10% 증가."}
 }
 }
 -- DECOMPILER ERROR at PC11910: Confused about usage of register: R0 in 'UnsetPending'
@@ -6706,6 +6706,54 @@ descript = {
 {"포격 지점 설정", COLOR_TITLE_DEBUFF}
 , 
 {"일정 시간마다 포격 공격 지점 생성"}
+}
+}
+-- DECOMPILER ERROR at PC13889: Confused about usage of register: R0 in 'UnsetPending'
+
+StateIconList[EFST_IDs.EFST_HELLS_PLANT_ARMOR] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
+descript = {
+{"헬즈 플랜트", COLOR_TITLE_BUFF}
+, 
+{"%s", COLOR_TIME}
+, 
+{"주변 범위내 대상에게"}
+, 
+{"근접 물리 데미지"}
+}
+}
+-- DECOMPILER ERROR at PC13913: Confused about usage of register: R0 in 'UnsetPending'
+
+StateIconList[EFST_IDs.EFST_REF_T_POTION] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
+descript = {
+{"골든 이그제", COLOR_TITLE_BUFF}
+, 
+{"%s", COLOR_TIME}
+, 
+{"받는 반사 데미지 100% 감소"}
+}
+}
+-- DECOMPILER ERROR at PC13940: Confused about usage of register: R0 in 'UnsetPending'
+
+StateIconList[EFST_IDs.EFST_ADD_ATK_DAMAGE] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
+descript = {
+{"레드허브 액티베이션", COLOR_TITLE_BUFF}
+, 
+{"%s", COLOR_TIME}
+, 
+{"근접 물리 데미지 15% 증가"}
+, 
+{"원거리 물리 데미지 15% 증가"}
+}
+}
+-- DECOMPILER ERROR at PC13964: Confused about usage of register: R0 in 'UnsetPending'
+
+StateIconList[EFST_IDs.EFST_ADD_MATK_DAMAGE] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
+descript = {
+{"블루허브 액티베이션", COLOR_TITLE_BUFF}
+, 
+{"%s", COLOR_TIME}
+, 
+{"모든 속성 마법 데미지 15% 증가"}
 }
 }
 

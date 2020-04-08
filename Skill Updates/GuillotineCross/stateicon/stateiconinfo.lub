@@ -1,0 +1,21 @@
+StateIconList[EFST_IDs.EFST_DARKCROW] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dark Claw", COLOR_TITLE_DEBUFF }, 
+		{ "%s", COLOR_TIME }, 
+		{ "Increases melee physical damage and" }, 
+		{ "neutralizes melee reflection effects." }
+	}
+}
+StateIconList[EFST_IDs.EFST_POISONINGWEAPON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ Poisoning Weapon, COLOR_TITLE_BUFF }, 
+		{ "%s", COLOR_TIME }, 
+		{ "Increases melee physical damage" }, 
+		{ "Grants a buff according to the endowed poison" }, 
+		{ "Might poison your target when attacking physically" }
+	}
+}
