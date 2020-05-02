@@ -3,18 +3,22 @@ Misc:
 	^CC6600 = Stats/Level
 	^0000FF = Numbers
 	^663399 = Debuff (Curse, Freeze,...)
+	^0033CC = Location
 	"^663399Indestructible in battle^000000",
+	^FF0000 = Race/Size
 	
+	"[cRO Item]", = Item Tag for cRO items
+	"[jRO Item]", = Item Tag for jRO items
+	"[iRO Item]", = Item Tag for iRO items
+
 Elements:
 	^FF0000 = Fire
 	^0000BB = Water
 	^CC5500 = Earth
 	^33CC00 = Wind
 	^663399 = Poison
-	^777777 = Ghost, Undead, Holy, Shadow and Neutral > ^009999 = skillinfoz
-	
-	^0033CC = Location
-
+	^777777 = Ghost, Undead, Holy, Shadow and Neutral > iteminfo
+	^009999 = Ghost, Undead, Holy, Shadow and Neutral > skillinfoz
 
 skillinfoz:
 	^0000FF = Skill Names + Status (Hiding,...)
@@ -64,8 +68,9 @@ skillinfoz:
 	"Description: ^777777 ^000000",
 
 Item Info:
-	^FF0000 = Race/Size
+	unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
 	
+	- Skill Codings:
 	"For each level of ^009900<Skill>^000000:",
 	"Increases Damage of ^009900<Skill>^000000 by %.",
 	"Enables the use of ^0000FF<Skill>^000000.",
@@ -75,8 +80,10 @@ Item Info:
 	
 	"Enables physical attacks to auto cast ^009900^000000 Level X at a certain chance. (If you learned a higher level, it will auto cast that level instead.)",
 
+	- Basic Equipment Codings:
 	"When equipped with ^990099<Equipment>^000000:",
 	
+	- Refine Codings:
 	"^0000FFFor each refine level^000000:",
 	"^0000FFFor each refine level^000000 equal or above ^0000FF+6^000000:",
 	"^0000FFFor each 2 refine levels^000000:",
@@ -87,9 +94,19 @@ Item Info:
 	
 	"^0000FFIf total refine level^000000 of ^99009<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
 	"If ^0000FFtotal refine level of entire set^000000 at least ^0000FF+14^000000:",
-		
-	unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
-
+	
+	
+	- Player died:
+	"If you are incapacitated, the mercenary will disappear.",
+	"If you are incapacitated or hit by the Dispell skill, the item effect will disappear.",
+	"If you are incapacitated, the item effect will disappear.",
+	"^000088When player's character KO'd, the buff effect will wear off.^000000",
+	
+	"Warning - After using it, unless you choose the destination in 1 minute it will be useless",
+	
+	"^FF0000This item is not refundable.^000000",
+	"^FF0000This item cannot be traded with other accounts.^000000",
+	
 Shadow Equipment:
 	Armor: "A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
 	Weapon: "A pair of gloves that can draw the wearer's potential ability.",
@@ -113,7 +130,16 @@ Exchange NPC Locations:
 	"<NAVI>^0033CCLace La Zard^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
 	"<NAVI>^0033CCAver De Dosh^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
 	"<NAVI>^0033CCGregio Grumani^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>",
+		
+Box Info:
+			"A box containing .",
+			"^0000CCRental duration:^000000 ",
+			"________________________",
+			"Description:",
 			
+			"________________________",
+			"^0000CCDuration:^000000 ",
+			"^0000CCBox Weight:^000000 1"
 			
 Equipment Info:
 			"________________________",
