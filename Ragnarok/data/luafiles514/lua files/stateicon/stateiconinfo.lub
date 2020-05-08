@@ -2687,8 +2687,8 @@ StateIconList[EFST_IDs.EFST_MEIKYOUSISUI] = {
 		{ "Recover certain HP and SP" },
 		{ "Immobilize" },
 		{ "Chance to not receive damange" },
-		{ "When using Skill, will get Randomly Debuffed" },
-		{ "When receiving damange, effect is lifted" }
+		{ "Using Skills has a chance to get randomly debuffed" },
+		{ "When receiving damage, effect is lifted" }
 	}
 }
 StateIconList[EFST_IDs.EFST_IZAYOI] = {
@@ -2697,8 +2697,8 @@ StateIconList[EFST_IDs.EFST_IZAYOI] = {
 	descript = {
 		{ "The 16th Night", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Removes fixed cast time" },
-		{ "Reduces variable casting time" },
+		{ "Removes Fixed Casting Time" },
+		{ "Reduces Variable Casting Time" },
 		{ "Increases MATK" }
 	}
 }
@@ -2720,7 +2720,7 @@ StateIconList[EFST_IDs.EFST_KYOMU] = {
 	descript = {
 		{ "Empty Shadow", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
-		{ "Null the relfection effect of Physical or magic attack" },
+		{ "Null the reflection effect of physical or magic attacks" },
 		{ "Chance to fail skill use" }
 	}
 }
@@ -2730,9 +2730,10 @@ StateIconList[EFST_IDs.EFST_KAGEMUSYA] = {
 	descript = {
 		{ "Shadow Warrior", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Give Double Attack Effect" },
-		{ "Consumption of certain amount of SP per second" },
-		{ "After getting attacked after certain number of times, the status clears" }
+		{ "Give Double Attack effect" },
+		{ "Consumption of SP per second" },
+		{ "Increases Kunai Explosion, Kunai Splash, Cross Slash" },
+		{ "and Swirling Petal damage" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ZANGETSU] = {
@@ -2741,7 +2742,7 @@ StateIconList[EFST_IDs.EFST_ZANGETSU] = {
 	descript = {
 		{ "Distorted Crescent", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Grant effects based on base level" }
+		{ "Grant effects based on Base Level" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GENSOU] = {
@@ -2750,9 +2751,9 @@ StateIconList[EFST_IDs.EFST_GENSOU] = {
 	descript = {
 		{ "Moonlight Fantasy", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "HP and SP randomly increase and decrease" },
-		{ "When receiving magic attack," },
-		{ "Half the Damage will be on another target" }
+		{ "Randomly increase or decrease HP and SP." },
+		{ "When receiving magic attacks," },
+		{ "half of the damage will be transfered to another target" }
 	}
 }
 StateIconList[EFST_IDs.EFST_AKAITSUKI] = {
