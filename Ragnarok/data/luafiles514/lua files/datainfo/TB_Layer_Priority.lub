@@ -221,18 +221,16 @@ TB_Layer_Priority = {
 			end
 		end
 		return false
-	end, 
+	end,
 	IsHelmRobe = function(acc_id)
-	  local Items_List = TB_Layer_Priority.Items_List
-	  do
-		if Items_List ~= nil then
-		  local Item_Tb = Items_List[acc_id]
-		  if Item_Tb ~= nil and Item_Tb.isHelmRobe ~= nil then
-			return Item_Tb.isHelmRobe
-		  end
+		local Items_List = TB_Layer_Priority.Items_List
+		if nil ~= Items_List then
+			local Item_Tb = Items_List[acc_id]
+			if nil ~= Item_Tb and nil ~= Item_Tb.isHelmRobe then
+				return Item_Tb.isHelmRobe
+			end
 		end
 		return false
-	  end
 	end
 }
 
@@ -246,6 +244,7 @@ function GetLayerPriority(direction, layer, acc_id)
 			end
 			if Item_Tb.Default ~= nil then
 				return Item_Tb.Default
+			end
 		end
 	end
 	if 2 == layer then
@@ -255,7 +254,7 @@ function GetLayerPriority(direction, layer, acc_id)
 	elseif 4 == layer then
 		return TB_Layer_Priority.Default_Mid
 	elseif 8 == layer then
-        return TB_Layer_Priority.Default_Robe
+		return TB_Layer_Priority.Default_Robe
 	else
 		return -1
 	end
