@@ -117,7 +117,7 @@ KEYNAME = {
 	[219] = "[",
 	[220] = "\\",
 	[221] = "]",
-	[222] = "'"
+	[222] = "\'"
 }
 HOTKEY_1 = {
 	[0] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_1, KEY1 = 112 },
@@ -158,12 +158,12 @@ HOTKEY_1 = {
 	[35] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_9 }
 }
 HOTKEY_2 = {
-	[0] = { EXE = MsgStrID.MSI_HK_BASICINFOWND_MINI, KEY1 = 86, KEY2 = 18 },
-	[1] = { EXE = MsgStrID.MSI_HK_EQUIPWND_ONOFF, KEY1 = 81, KEY2 = 18 },
-	[2] = { EXE = MsgStrID.MSI_HK_SKILLWND_ONOFF, KEY1 = 83, KEY2 = 18 },
-	[3] = { EXE = MsgStrID.MSI_HK_QUESTWND_ONOFF, KEY1 = 85, KEY2 = 18 },
-	[4] = { EXE = MsgStrID.MSI_HK_FRIENDWND_ONOFF, KEY1 = 72, KEY2 = 18 },
-	[5] = { EXE = MsgStrID.MSI_HK_PARTYWND_ONOFF, KEY1 = 90, KEY2 = 18 },
+	[0] = { EXE = MsgStrID.MSI_HK_BASICINFOWND_MINI, KEY1 = 86, KEY2 = 18 }, 
+	[1] = { EXE = MsgStrID.MSI_HK_EQUIPWND_ONOFF, KEY1 = 81, KEY2 = 18 }, 
+	[2] = { EXE = MsgStrID.MSI_HK_SKILLWND_ONOFF, KEY1 = 83, KEY2 = 18 }, 
+	[3] = { EXE = MsgStrID.MSI_HK_QUESTWND_ONOFF, KEY1 = 85, KEY2 = 18 }, 
+	[4] = { EXE = MsgStrID.MSI_HK_FRIENDWND_ONOFF, KEY1 = 72, KEY2 = 18 }, 
+	[5] = { EXE = MsgStrID.MSI_HK_PARTYWND_ONOFF, KEY1 = 90, KEY2 = 18 }, 
 	[6] = { EXE = MsgStrID.MSI_HK_CHATWND_MAKE, KEY1 = 67, KEY2 = 18 },
 	[7] = { EXE = MsgStrID.MSI_HK_CARTWND_ONOFF, KEY1 = 87, KEY2 = 18 },
 	[8] = { EXE = MsgStrID.MSI_HK_MAPWND_ONOFF, KEY1 = 192, KEY2 = 17 },
@@ -210,9 +210,13 @@ HOTKEY_2 = {
 	[49] = { EXE = MsgStrID.MSI_HK_ACHIEVEMENT },
 	[50] = { EXE = MsgStrID.MSI_HK_SINGLEMAP_ONOFF },
 	[51] = { EXE = MsgStrID.MSI_HK_MAIL_ONOFF },
-	[52] = { EXE = MsgStrID.MSI_HK_SWAPEQUIP },
+	[52] = { EXE = MsgStrID.MSI_HK_SWAP_EQUIPMENT },
 	[53] = { EXE = MsgStrID.MSI_HK_TWITTERWND, KEY1 = 83, KEY2 = 17 },
-	[54] = { EXE = MsgStrID.MSI_HK_TIPBOXWND_ONOFF, KEY1 = 68, KEY2 = 18 }
+	[54] = { EXE = MsgStrID.MSI_HK_TIPBOXWND_ONOFF, KEY1 = 68, KEY2 = 18 }, 
+	[55] = { EXE = MsgStrID.MSI_HK_CHANGE_SKILLBAR }, 
+	[56] = { EXE = MsgStrID.MSI_HK_COSEQUIPWND_ONOFF, KEY1 = 88, KEY2 = 18 }, 
+	[57] = { EXE = MsgStrID.MSI_HK_PARTYBOARDWND_ONOFF, KEY1 = 90, KEY2 = 17 }, 
+	[58] = { EXE = MsgStrID.MSI_HK_HUNTINGQUEST_INFO_ONOFF, KEY1 = 72, KEY2 = 17 }
 }
 HOTKEY_3 = {
 	[0] = { EXE = MsgStrID.MSI_HK_MACRO_1, KEY1 = 49, KEY2 = 18 },
@@ -570,7 +574,7 @@ function SaveUserHotKeys2(saveFileName)
       tabNum = tabNum + 1
     end
   end
-  (io.close)(saveFile)
+  io.close(saveFile)
 end
 
 function ClearUserHotKeys(saveFileName)

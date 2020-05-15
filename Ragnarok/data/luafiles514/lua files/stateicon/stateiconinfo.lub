@@ -5735,6 +5735,44 @@ StateIconList[EFST_IDs.EFST_LOCKON_LASER] = {
 		{ "Create bombardment points at regular intervals"}
 	}
 }
+StateIconList[EFST_IDs.EFST_HELLS_PLANT_ARMOR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Hell Plant", COLOR_TITLE_BUFF }, 
+		{ "%s", COLOR_TIME }, 
+		{ "Deals physical melee damage" }, 
+		{ "to targets within range." }
+	}
+}
+StateIconList[EFST_IDs.EFST_REF_T_POTION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2, 
+	descript = {
+		{ "Golden Yesterday", COLOR_TITLE_BUFF }, 
+		{ "%s", COLOR_TIME }, 
+		{ "Decreases reflected damage by 100%." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ADD_ATK_DAMAGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Red Herb Activator", COLOR_TITLE_BUFF }, 
+		{ "%s", COLOR_TIME}, 
+		{ "Increases melee physical damage by 15%." }, 
+		{ "Increases ranged physical damage by 15%." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ADD_MATK_DAMAGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2, 
+	descript = {
+		{ "Blue Herb Activator", COLOR_TITLE_BUFF }, 
+		{ "%s", COLOR_TIME}, 
+		{ "Increases all elemental magical damage by 15%." }
+	}
+}
 StateIconList[EFST_IDs.EFST_YGGDRASIL_BLESS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
