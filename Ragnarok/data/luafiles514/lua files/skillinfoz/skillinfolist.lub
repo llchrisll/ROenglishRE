@@ -2145,7 +2145,7 @@ SKILL_INFO_LIST = {
 		"RK_WINDCUTTER",
 		SkillName = "Wind Cutter",
 		MaxLv = 5,
-		SpAmount = { 20, 24, 28, 32, 36 },
+		SpAmount = { 34, 38, 42, 46, 50 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -5737,7 +5737,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
 		bSeperateLv = true,
-		AttackRange = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 },
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
 		_NeedSkillList = {
 			{ SKID.RK_PHANTOMTHRUST, 3 }
 		}
@@ -5821,9 +5821,9 @@ SKILL_INFO_LIST = {
 		"GC_CROSSIMPACT",
 		SkillName = "Cross Impact",
 		MaxLv = 5,
-		SpAmount = { 25, 25, 25, 25, 25 },
+		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = false,
-		AttackRange = { 3, 3, 3, 3, 3 },
+		AttackRange = { 7, 7, 7, 7, 7 },
 		_NeedSkillList = {
 			{ SKID.AS_SONICBLOW, 10 }
 		}
@@ -9076,7 +9076,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.WM_DOMINION_IMPULSE, 1 }
+			{ SKID.WM_REVERBERATION, 5 }
 		}
 	},
 	[SKID.SA_LEVELUP] = {
@@ -10745,7 +10745,7 @@ SKILL_INFO_LIST = {
 		"ASC_BREAKER",
 		SkillName = "Soul Destroyer",
 		MaxLv = 10,
-		SpAmount = { 20, 20, 20, 20, 20, 30, 30, 30, 30, 30 },
+		SpAmount = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
