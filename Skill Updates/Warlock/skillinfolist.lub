@@ -1,0 +1,90 @@
+	[SKID.WL_HELLINFERNO] = {
+		"WL_HELLINFERNO",
+		SkillName = "Hell Inferno",
+		MaxLv = 5,
+		SpAmount = { 64, 70, 76, 82, 88 },
+		bSeperateLv = true,
+		AttackRange = { 11, 11, 11, 11, 11 },
+		_NeedSkillList = {
+			{ SKID.WL_CRIMSONROCK, 2 }
+		}
+	},
+	[SKID.HW_MAGICPOWER] = {
+		"HW_MAGICPOWER",
+		SkillName = "Mystical Amplification",
+		MaxLv = 10,
+		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+	},
+	[SKID.WL_COMET] = {
+		"WL_COMET",
+		SkillName = "Comet",
+		MaxLv = 5,
+		SpAmount = { 70, 90, 110, 130, 150 },
+		bSeperateLv = true,
+		AttackRange = { 11, 11, 11, 11, 11 },
+		_NeedSkillList = {
+			{ SKID.WL_HELLINFERNO, 3 }
+		}
+	},
+	[SKID.WL_SUMMONSTONE] = {
+		"WL_SUMMONSTONE",
+		SkillName = "Summon Stone",
+		MaxLv = 2,
+		SpAmount = { 10, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1 },
+		_NeedSkillList = {
+			{ SKID.WZ_HEAVENDRIVE, 1 }
+		}
+	},
+	[SKID.WL_SUMMONFB] = {
+		"WL_SUMMONFB",
+		SkillName = "Summon Fire Ball",
+		MaxLv = 2,
+		SpAmount = { 10, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1 },
+		_NeedSkillList = {
+			{ SKID.WZ_METEOR, 1 }
+		}
+	},
+	[SKID.WL_SUMMONBL] = {
+		"WL_SUMMONBL",
+		SkillName = "Summon Lightning Ball",
+		MaxLv = 2,
+		SpAmount = { 10, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1 },
+		_NeedSkillList = {
+			{ SKID.WZ_VERMILION, 1 }
+		}
+	},
+	[SKID.WL_SUMMONWB] = {
+		"WL_SUMMONWB",
+		SkillName = "Summon Water Ball",
+		MaxLv = 2,
+		SpAmount = { 10, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1 },
+		_NeedSkillList = {
+			{ SKID.WZ_STORMGUST, 1 }
+		}
+	},
+	[SKID.WL_RELEASE] = {
+		"WL_RELEASE",
+		SkillName = "Release",
+		MaxLv = 2,
+		SpAmount = { 10, 10 },
+		bSeperateLv = true,
+		AttackRange = { 11, 11 }
+	},
+	[SKID.WL_READING_SB] = {
+		"WL_READING_SB",
+		SkillName = "Reading Spell Book",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
