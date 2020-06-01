@@ -3,7 +3,7 @@ Misc:
 	^CC6600 = Stats/Level
 	^0000FF = Numbers
 	^663399 = Debuff (Curse, Freeze,...)
-	^0033CC = Location
+	^0033CC = Location, Job Classes
 	"^663399Indestructible in battle^000000",
 	^FF0000 = Race/Size
 	
@@ -83,6 +83,10 @@ Item Info:
 
 	unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
 	
+	- Stats Codings:
+	"Base ^CC6600AGI^000000 is at least ^FF000070^000000:",
+	"For each ^0000FF20^000000 base ^CC6600STR^000000:",
+	
 	- Skill Codings:
 	"For each level of ^009900<Skill>^000000:",
 	"Increases Damage of ^009900<Skill>^000000 by %.",
@@ -98,6 +102,8 @@ Item Info:
 	
 	- Refine Codings:
 	"^0000FFFor each refine level^000000:",
+	"^0000FFFor each refine level^000000 of ^990099<Equipment>^000000:",
+	"^0000FFFor each refine level above ^0000FF+9 or higher^000000 of ^99009<Equipment>^000000 and ^990099<Equipment>^000000:",
 	"^0000FFFor each refine level^000000 equal or above ^0000FF+6^000000:",
 	"^0000FFFor each 2 refine levels^000000:",
 	"^0000FFRefine Level +7^000000:",
@@ -156,10 +162,10 @@ Box Info:
 			
 Equipment Info:
 			"________________________",
-			"^0000CCPosition:^000000 ",
 			"^0000CCType:^000000 ",
 			"^0000CCAttack:^000000 ",
 			"^0000CCDefense:^000000 ",
+			"^0000CCPosition:^000000 ",
 			"^0000CCWeight:^000000 ",
 			"^0000CCWeapon Level:^000000 ",
 			"________________________",
