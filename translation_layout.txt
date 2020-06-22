@@ -1,22 +1,22 @@
 Lua Translation:
-Misc:
-	^CC6600 = Stats/Level
-	^0000FF = Numbers
-	^663399 = Debuff (Curse, Freeze,...)
-	^0033CC = Location, Job Classes
-	"^663399Indestructible in battle^000000",
-	^FF0000 = Race/Size
-	
-Elements:
-	^FF0000 = Fire
-	^0000BB = Water
-	^CC5500 = Earth
-	^33CC00 = Wind
-	^663399 = Poison
-	^777777 = Ghost, Undead, Holy, Shadow and Neutral > iteminfo
-	^009999 = Ghost, Undead, Holy, Shadow and Neutral > skillinfoz
+ Elements:
+  ^FF0000 = Fire
+  ^0000BB = Water
+  ^CC5500 = Earth
+  ^33CC00 = Wind
+  ^663399 = Poison
+  ^777777 = Ghost, Undead, Holy, Shadow and Neutral = iteminfo
+  ^009999 = Ghost, Undead, Holy, Shadow and Neutral = skillinfo
+  
+Misc
+  ^CC6600 = Status (STR,AGI,...)/Base Level
+  ^0000FF = Numbers
+  ^663399 = Debuff (Curse, Freeze,...)
+  ^0033CC = Location
+  ^FF0000 = Race/Size
+  ^0033CC = Job Classes in SkillInfoz
 
-skillinfoz:
+Skill Description:
 	^0000FF = Skill Names + Status (Hiding,...)
 	^990099 = Item Names + Skill Requirements (Spirit Spheres,...)
 	^0033CC = Race/Class/Size
@@ -57,6 +57,7 @@ skillinfoz:
 	"Type: ^FF0000Magical, Debuff^000000",
 	
 	"Range: ^7777779x9 AoE^000000",
+	"Range: ^777777^000000",
 	
 	"Target: ^6666CCHomunculus^000000",
 	"Target: ^6666CCSummon^000000",
@@ -70,16 +71,14 @@ skillinfoz:
 	"Target: ^6666CCCaster's View Range^000000",
 	"Target: ^6666CCCaster and Party Members^000000",
 	
-	"Range: ^777777^000000",
-	
 	"Description: ^777777 ^000000",
 
-Item Info:
+Item Description:
 	- Official Server Tags:
-	"[cRO Item]",
 	"[jRO Item]",
+	"[cRO Item]",
+	"[twRO Item]",
 	"[iRO Item]",
-	"[thRO Item",
 
 	unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
 	
@@ -89,8 +88,21 @@ Item Info:
 	
 	- Skill Codings:
 	"For each Level of ^009900<Skill>^000000:",
-	"Increases Damage of ^009900<Skill>^000000 by %.",
+	"Increases damage of ^009900<Skill>^000000 by %.",
 	"Enables the use of ^0000FF<Skill>^000000.",
+	"Enables the use of ^0000FF<Skill>^000000 Level X.",
+	
+	"Enables interrupted skill casting.",
+	
+	"Decreases ^009900<Skill>^000000 skill cooldown by seconds.",
+	"Decreases ^009900<Skill>^000000 skill cooldown by second.",
+	"Decreases ^009900<Skill>^000000 skill cooldown by %.",
+	
+	"Decreases SP Consumption of all skills by .",
+	"Decreases SP Consumption of ^009900<Skill>^000000 by .",
+	
+	"Decreases After Skill Delay of ^009900<Skill>^000000 by %.",
+	"Decreases After Skill Delay of all skills by %.",
 	
 	"For the highest Level of either ^009900<Skill>^000000, ^009900<Skill>^000000 or ^009900<Skill>^000000,",
 	"increase damage dealt with ^009900<Skill>^000000 by % per skill Level.",
@@ -99,21 +111,24 @@ Item Info:
 
 	- Basic Equipment Codings:
 	"When equipped with ^990099<Equipment>^000000:",
+	"^663399Indestructible in battle^000000",
+	
+	- Basic Card Compounding:
+	"When compounded on ^990099<Equipment>^000000:",
 	
 	- Refine Codings:
 	"^0000FFFor each Refine Level^000000:",
 	"^0000FFFor each Refine Level^000000 of ^990099<Equipment>^000000:",
 	"^0000FFFor each Refine Level above ^0000FF+9 or higher^000000 of ^990099<Equipment>^000000 and ^990099<Equipment>^000000:",
 	"^0000FFFor each Refine Level^000000 equal or above ^0000FF+6^000000:",
+	"^0000FFFor each Refine Level^000000 above ^0000FF+6^000000:",
 	"^0000FFFor each 2 Refine Levels^000000:",
 	"^0000FFRefine Level +7^000000:",
-	"^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
 	
-	"^0000FFIf Refine Level of ^990099<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 each is ^0000FF+7 or higher^000000:",
-	
-	"^0000FFIf total Refine Level^000000 of ^99009<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
+	- Refine Codings in combination
+	"If ^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
+	"If ^0000FFtotal Refine Level^000000 of ^990099<Equipment>, <Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
 	"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+14^000000:",
-	
 	
 	- Player died:
 	"If you are incapacitated, the mercenary will disappear.",
@@ -123,43 +138,10 @@ Item Info:
 	
 	"Warning - After using it, unless you choose the destination in 1 minute it will be useless",
 	
+	- Rental Items:
 	"^FF0000This item is not refundable.^000000",
 	"^FF0000This item cannot be traded with other accounts.^000000",
 	
-Shadow Equipment:
-	Armor: "A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
-	Weapon: "A pair of gloves that can draw the wearer's potential ability.",
-	Pendant: "A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
-	Earring: "A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
-	Shield: "A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
-	Shoes: "A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
-	
-			"________________________",
-			"^0000CCType:^000000 Shadow Earring",
-			"^0000CCRefinable:^000000 Yes",
-			"________________________",
-			"^0000CCRequirement:^000000",
-
-
-Exchange NPC Locations:
-	"<NAVI>^0033CCDesigner Heidam^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI> can exchange it with Costume Enchant Stone Box5.",
-		
-	"X can be bought from <NAVI>^0033CCCat Hand Salesman Nyarom^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>.",
-	
-	"<NAVI>^0033CCLace La Zard^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
-	"<NAVI>^0033CCAver De Dosh^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
-	"<NAVI>^0033CCGregio Grumani^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>",
-		
-Box Info:
-			"A box containing .",
-			"^0000CCRental duration:^000000 ",
-			"________________________",
-			"Description:",
-			
-			"________________________",
-			"^0000CCDuration:^000000 ",
-			"^0000CCBox Weight:^000000 1"
-			
 Equipment Info:
 			"________________________",
 			"^0000CCType:^000000 ",
@@ -170,20 +152,25 @@ Equipment Info:
 			"^0000CCWeapon Level:^000000 ",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 100",
-			""
-			
-Costume Info:
-			"________________________",
-			"^0000CCType:^000000 ",
-			"^0000CCPosition:^000000 ",
-			"^0000CCWeight:^000000 ",
-			"________________________",
-			"^0000CCRequirement:^000000 None"
+			"Base Level X",
+			"<Job Classes>"
 
-Combination Scrolls:
-	"[Required Materials]",
-	"[Obtainable Items]",
+Exchange NPC Locations:
+	"<NAVI>^0033CCDesigner Heidam^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI> can exchange it with Costume Enchant Stone Box5.",
+		
+	"X can be bought from <NAVI>^0033CCCat Hand Salesman Nyarom^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>.",
+	
+	"<NAVI>^0033CCLace La Zard^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
+	"<NAVI>^0033CCAver De Dosh^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
+	"<NAVI>^0033CCGregio Grumani^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>",
+		
+Shadow Equipment:
+	Armor: "A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
+	Weapon: "A pair of gloves that can draw the wearer's potential ability.",
+	Pendant: "A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+	Earring: "A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+	Shield: "A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
+	Shoes: "A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
 
 Equipped Effect:
 	"^006400Since it is an equipped effect, it still will be displayed even when the effect (/effect) is turned off.^000000",
@@ -192,19 +179,13 @@ jRO Egg Description:
 			"A magical egg that pops out outfits when opened.",
 			"________________________",
 			"Any of the following costume equipment will appear at random.^0000FF",
-			"· Costume ",
-			"· Costume ",
-			"· Costume ",
-			"· Costume ",
-			"· Costume ",
-			"· Costume ",
-			"· Costume ",
-			"· Costume ",
-			"· Costume ",
-			"· Costume ^000000",
-
-Korean Words:
-걸칠것 = Garment (Will)
-상단 = Upper (Top)
-중단 = Mid (interrupted)
-하단 = Lower (Bottom)
+			"- Costume ",
+			"- Costume ",
+			"- Costume ",
+			"- Costume ",
+			"- Costume ",
+			"- Costume ",
+			"- Costume ",
+			"- Costume ",
+			"- Costume ",
+			"- Costume ^000000",
