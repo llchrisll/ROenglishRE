@@ -1,9 +1,9 @@
 __mapList = {}
 function makeMapList()
-	for regionId, region in ipairs(map_list) do
+	for regionId,region in ipairs(map_list) do
 		__mapList[regionId] = region
 		region.id = regionId
-		for mapId, map in ipairs(region.list) do
+		for mapId,map in ipairs(region.list) do
 			__mapList[regionId][mapId] = map
 			map.id = mapId
 			map.ignore_recruit_window = region.ignore_recruit_window
@@ -11,7 +11,7 @@ function makeMapList()
 	end
 end
 
-function queryRegionInfo(regionId)
+queryRegionInfo = function(regionId)
 	if __mapList[regionId] == nil then
 		return nil, nil, nil, nil
 	end
@@ -32,13 +32,13 @@ function getRegionIterator()
 	local pos = 1
 	return {
 		hasNext = function()
-			return __mapList[pos]
-		end,
-		value = function()
-			temp_pos = pos
-			pos = pos + 1
-			return __mapList[temp_pos]
-		end
+		return __mapList[pos]
+	end,
+	value = function()
+		temp_pos = pos
+		pos = pos + 1
+		return __mapList[temp_pos]
+	end
 	}
 end
 
@@ -58,8 +58,8 @@ function getMapIterator(regionId)
 		end
 	}
 end
-makeMapList()
 
+makeMapList()
 function GetPartyBookingHelp()
 	local descript = ""
 	local obj = PartyBookingHelp

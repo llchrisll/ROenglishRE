@@ -5520,6 +5520,36 @@ StateIconList[EFST_IDs.EFST_SOULCURSE] = {
 		{ "Decreases resistance against Dark elemental attacks." }
 	}
 }
+StateIconList[EFST_IDs.EFST_FLOWER_LEAF2] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increase Dodge and Attack Speed, decreases Variable Casting Time", COLOR_TITLE_BUFF }, 
+		{ "%s", COLOR_TIME },
+		{ "Increase FLEE and Perfect Dodge" },
+		{ "Increase Attack Speed" },
+		{ "Decrease Variable Casting Time" }
+	}
+}
+StateIconList[EFST_IDs.EFST_FLOWER_LEAF3] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Small Flowers", COLOR_TITLE_BUFF }, 
+		{ "%s", COLOR_TIME }, 
+		{ "Increases MaxHP & MaxSP" }
+	}
+}
+StateIconList[EFST_IDs.EFST_FLOWER_LEAF4] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Cherry Blossom", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage against Small," },
+		{ "Medium and Large enemies" }
+	}
+}
 StateIconList[EFST_IDs.EFST_CRI_DAMAGE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
