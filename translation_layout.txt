@@ -14,7 +14,7 @@ Misc
   ^663399 = Debuff (Curse, Freeze,...)
   ^0033CC = Location
   ^FF0000 = Race/Size
-  ^0033CC = Job Classes in SkillInfoz
+  ^0033CC = Job Classes
 
 Skill Description:
 	^0000FF = Skill Names + Status (Hiding,...)
@@ -85,12 +85,13 @@ Item Description:
 	- Stats Codings:
 	"Base ^CC6600AGI^000000 is at least ^FF000070^000000:",
 	"For each ^0000FF20^000000 base ^CC6600STR^000000:",
+	"For each ^0000FF50 ^CC6600Base Level^000000:",
 	
 	- Skill Codings:
 	"For each Level of ^009900<Skill>^000000:",
 	"Increases damage of ^009900<Skill>^000000 by %.",
 	"Enables the use of ^0000FF<Skill>^000000.",
-	"Enables the use of ^0000FF<Skill>^000000 Level X.",
+	"Enables the use of Level X ^0000FF<Skill>^000000.",
 	
 	"Enables interrupted skill casting.",
 	
@@ -119,9 +120,10 @@ Item Description:
 	- Refine Codings:
 	"^0000FFFor each Refine Level^000000:",
 	"^0000FFFor each Refine Level^000000 of ^990099<Equipment>^000000:",
-	"^0000FFFor each Refine Level above ^0000FF+9 or higher^000000 of ^990099<Equipment>^000000 and ^990099<Equipment>^000000:",
+	"^0000FFFor each Refine Level above ^0000FF+9^000000 of ^990099<Equipment>^000000 and ^990099<Equipment>^000000:",
 	"^0000FFFor each Refine Level^000000 equal or above ^0000FF+6^000000:",
 	"^0000FFFor each Refine Level^000000 above ^0000FF+6^000000:",
+	"^0000FFFor each 2 Refine Levels^000000 of equipped ^990099<Equipment Type>^000000:",
 	"^0000FFFor each 2 Refine Levels^000000:",
 	"^0000FFRefine Level +7^000000:",
 	
@@ -141,6 +143,8 @@ Item Description:
 	- Rental Items:
 	"^FF0000This item is not refundable.^000000",
 	"^FF0000This item cannot be traded with other accounts.^000000",
+	
+	"^FF0000Can only be sold to NPCs and put into storage.^000000",
 	
 Equipment Info:
 			"________________________",
@@ -163,7 +167,14 @@ Exchange NPC Locations:
 	"<NAVI>^0033CCLace La Zard^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
 	"<NAVI>^0033CCAver De Dosh^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
 	"<NAVI>^0033CCGregio Grumani^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>",
-		
+	"<NAVI>^4D4DFFNyan Time^000000<INFO>malangdo,208,163,0,100,0,0</INFO></NAVI>^000000",
+	"<NAVI>^4D4DFFNyan Time^000000<INFO>moc_para01,26,174,0,100,0,0</INFO></NAVI>^000000",
+	"<NAVI>^0033CCProntera Family Relations Guide^000000<INFO>prt_in,285,171,0,100,0,0</INFO></NAVI>^000000",
+	"<NAVI>^0033CCLasagna Independent Helper^000000<INFO>lasagna,100,200,0,100,0,0</INFO></NAVI>^000000",
+	"<NAVI>^0033CCBeginner's Weapon Manager^000000<INFO>prontera,157,191,0,100,0,0</INFO></NAVI>^000000",
+	"Take it to <NAVI>^0033CCEquipment Support Manager^000000<INFO>prontera,157,279,0,100,0,0</INFO></NAVI>^000000.",
+	"Take it to <NAVI>^4D4DFFCentro^000000<INFO>prontera,148,282,0,100,0,0</INFO></NAVI>^000000 and exchange it for one of the items below:",
+	
 Shadow Equipment:
 	Armor: "A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
 	Weapon: "A pair of gloves that can draw the wearer's potential ability.",
