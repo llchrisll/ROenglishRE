@@ -1,28 +1,32 @@
 MaxLevelTable = {
 	BaseLevel = 99,
-	BaseLevel3rd = 175,
-	BaseLevelExtend2 = 160,
-	BaseLevelUpperJob = 175,
-	BaseLevelHomun = 175,
-	BaseLevelDoram = 175,
+	BaseLevel3rd = 200,
+	BaseLevelExtend2 = 200,
+	BaseLevelUpperJob = 200,
+	BaseLevelHomun = 200,
+	BaseLevelDoram = 200,
 	JobLevelNovice = 10,
 	JobLevelSuperNovice = 99,
 	JobLevelBase = 50,
 	JobLevel2nd = 70,
-	JobLevel3rd = 60,
-	JobLevelExtend2 = 50,
-	JobLevelUpperJob = 60,
-	JobLevelDoram = 50
+	JobLevel3rd = 70,
+	JobLevelExtend2 = 70,
+	JobLevelUpperJob = 70,
+	JobLevelDoram = 60
 }
 MakeableRace = { Doram = true }
-Url = { TwitterUrl = "0.0.0.0:3000" }
+Url = { TwitterUrl = "http://0.0.0.0:3000" }
 AccountLinkedUserDataUrl = {
-	Save = "0.0.0.0:3000",
-	Load = "0.0.0.0:3000"
+	Save = "http://0.0.0.0:3000/userconfig/save",
+	Load = "http://0.0.0.0:3000/userconfig/load"
 }
 TwitterDataUrl = {
-	Auth = "0.0.0.0:3000",
-	Upload = "0.0.0.0:3000"
+	Auth = "http://0.0.0.0:3000/twitter/user-auth",
+	Upload = "http://0.0.0.0:3000/twitter/upload"
+}
+EmblemDataUrl = {
+	Upload = "http://0.0.0.0:3000/emblem/upload",
+	Download = "http://0.0.0.0:3000/emblem/download"
 }
 LEVELAURA = {}
 LEVELAURA["EF_NONE"] = -1
