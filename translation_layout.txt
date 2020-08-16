@@ -80,12 +80,34 @@ Item Description:
 	"Base ^CC6600AGI^000000 is at least ^FF000070^000000:",
 	"For each ^0000FF20^000000 base ^CC6600STR^000000:",
 	"For each ^0000FF50 ^CC6600Base Level^000000:",
+	"STR +",
+	"AGI +",
+	"VIT +",
+	"INT +",
+	"DEX +",
+	"LUK +",
+	"ATK +", "ATK +%",
+	"MATK +", "MATK +%",
+	"DEF +", "DEF +%",
+	"MDEF +", "MDEF +%",
+	"HIT +", "FLEE +",
+	"Perfect Dodge +",
+	"Perfect HIT +", "Perfect HIT +%",
+	"MaxHP +", "MaxHP +%",
+	"MaxSP +", "MaxSP +%",
+	"Increases HP Recovery Rate by %.",
+	"Increases SP Recovery Rate by %.",
+	
+	"<STAT> +1 multiplied with total skill level of ^0033CC<Class>^000000's exclusive/related skills:",
+	"^009900<Skill List> and <Last Skill>^000000",
 	
 	- Skill Codings:
 	"For each Level of ^009900<Skill>^000000:",
 	"Increases damage of ^009900<Skill>^000000 by %.",
 	"Enables the use of ^0000FF<Skill>^000000.",
 	"Enables the use of Level X ^0000FF<Skill>^000000.",
+	"When ^009900<Skill>^000000 is used:",
+	"When ^0033CC<Base Class>^000000 classes uses ^009900<Skill List>^000000 or ^009900<Last Skill>^000000:",
 	
 	"Enables interrupted skill casting.",
 	
@@ -102,10 +124,13 @@ Item Description:
 	"For the highest Level of either ^009900<Skill>^000000, ^009900<Skill>^000000 or ^009900<Skill>^000000,",
 	"increase damage dealt with ^009900<Skill>^000000 by % per skill Level.",
 	
-	"Physical attacks to auto cast Level X ^009900^000000 at a certain chance. (If you learned a higher Level, it will auto cast that Level instead.)",
+	"Physical attacks have a certain chance to auto cast Level X ^009900<Skill>^000000. (If you learned a higher Level, it will auto cast that Level instead.)",
 
 	- Basic Equipment Codings:
 	"When equipped with ^990099<Equipment>^000000:",
+	"When equipped with 2 types of ^990099<Class> Shadow^000000, ^990099<Class> Shadow^000000 or ^990099<Class> Shadow^000000 Equipment:",
+	"When equipped by ^0033CC<Base Class>^000000 classes:",
+	"When equipped by ^0033CC<Certain Class>^000000:",
 	"^663399Indestructible in battle^000000",
 	
 	- Basic Card Compounding:
@@ -125,6 +150,8 @@ Item Description:
 	"If ^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
 	"If ^0000FFtotal Refine Level^000000 of ^990099<Equipment>, <Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
 	"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+14^000000:",
+	"^0000FFFor each Refine Level^000000 of ^0000FFentire set^000000:",
+	"^0000FFFor each 5 Refine Levels^000000 of ^0000FFentire set^000000:",
 	
 	- Player died:
 	"If you are incapacitated, the mercenary will disappear.",
@@ -149,6 +176,7 @@ Equipment Info:
 			"^0000CCDefense:^000000 ",
 			"^0000CCPosition:^000000 ",
 			"^0000CCWeight:^000000 ",
+			"^0000CCRefineable:^000000 No", > Only used when the item is NOT refinable
 			"^0000CCWeapon Level:^000000 ",
 			"________________________",
 			"^0000CCRequirement:^000000",
