@@ -17,7 +17,7 @@ MaxLevelTable = {
 	JobLevelDoram = 60
 }
 MakeableRace = { Doram = true }
-AssistAddr = "kro-assit-s.ragnarok.co.kr:3000"
+AssistAddr = "0.0.0.0:3000"
 LEVELAURA = {}
 LEVELAURA.EF_NONE = -1
 LEVELAURA.EF_LEVEL99 = 200
@@ -53,27 +53,6 @@ MaxLevelAuraTable = {
 	MaxLevelEffect4th_sub = LEVELAURA.EF_LEVEL4TH_SUB,
 	UpperJobMaxLvAura = LEVELAURA.EF_LEVEL185,
 	UpperJobMaxLvAura_sub = LEVELAURA.EF_LEVEL185_SUB,
-	HomunMaxLvAura = LEVELAURA.EF_LEVEL185,
-	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL185_SUB
-}
-Level99AuraTable = {
-	Default99LvAura = LEVELAURA.EF_LEVEL99,
-	Default99LvAura_sub = LEVELAURA.EF_LEVEL99_ORB1,
-	Baby99LvAura = LEVELAURA.EF_LEVEL99,
-	Baby99LvAura_sub = LEVELAURA.EF_LEVEL99_ORB2,
-	SecondHigh99LvAura = 0,
-	SecondHigh99LvAura_sub = 0,
-	Homun99LvAura = 0,
-	Homun99LvAura_sub = 0,
-	Boss99LvAura_sub = LEVELAURA.EF_LEVEL99_ORB1
-}
-MaxLevelAuraTable = {
-	Default150LvAura = LEVELAURA.EF_LEVEL150,
-	Default150LvAura_sub = LEVELAURA.EF_LEVEL150_SUB,
-	Default160LvAura = LEVELAURA.EF_LEVEL185,
-	Default160LvAura_sub = LEVELAURA.EF_LEVEL185_SUB,
-	Default185LvAura = LEVELAURA.EF_LEVEL185,
-	Default185LvAura_sub = LEVELAURA.EF_LEVEL185_SUB,
 	HomunMaxLvAura = LEVELAURA.EF_LEVEL185,
 	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL185_SUB
 }

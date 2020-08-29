@@ -53,14 +53,13 @@ Level99AuraTable = {
 MaxLevelAuraTable = {
 	Default150LvAura = LEVELAURA.EF_LEVEL150,
 	Default150LvAura_sub = LEVELAURA.EF_LEVEL150_SUB,
-	Default160LvAura = LEVELAURA.EF_LEVEL160,
-	Default160LvAura_sub = LEVELAURA.EF_LEVEL160_SUB,
+	Default160LvAura = LEVELAURA.EF_LEVEL185,
+	Default160LvAura_sub = LEVELAURA.EF_LEVEL185_SUB,
 	Default185LvAura = LEVELAURA.EF_LEVEL185,
 	Default185LvAura_sub = LEVELAURA.EF_LEVEL185_SUB,
-	HomunMaxLvAura = LEVELAURA.EF_LEVEL160,
-	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL160_SUB
+	HomunMaxLvAura = LEVELAURA.EF_LEVEL185,
+	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL185_SUB
 }
-
 function GetTableIntValueForC(tableName, keyName)
 	local t = _G[tableName]
 	if nil == t then
