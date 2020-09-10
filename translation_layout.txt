@@ -78,6 +78,8 @@ Item Description:
 	
 	- Stats Codings:
 	"Base ^CC6600AGI^000000 is at least ^FF000070^000000:",
+	"Bonus ^CC6600STR^000000 is at least ^FF0000+10^000000:",
+	"^CC6600Base Level^000000 is at least ^FF0000100^000000:",
 	"For each ^0000FF20^000000 base ^CC6600STR^000000:",
 	"For each ^0000FF50 ^CC6600Base Level^000000:",
 	"STR +",
@@ -98,6 +100,8 @@ Item Description:
 	"Increases HP Recovery Rate by %.",
 	"Increases SP Recovery Rate by %.",
 	"Range is x cells",
+	^0033CC = Specific Recovery Item
+	^990099Recovery Items^000000
 	
 	"<STAT> +1 multiplied with total skill level of ^0033CC<Class>^000000's exclusive/related skills:",
 	"^009900<Skill List> and <Last Skill>^000000",
@@ -121,8 +125,14 @@ Item Description:
 	"Decreases SP Consumption of all skills by .",
 	"Decreases SP Consumption of ^009900<Skill>^000000 by .",
 	
-	"Decreases After Skill Delay of ^009900<Skill>^000000 by %.",
 	"Decreases After Skill Delay of all skills by %.",
+	"Decreases After Skill Delay of ^009900<Skill>^000000 by %.",
+	
+	"Decreases Variable Casting Time of all skills by %.",
+	"Decreases Variable Casting Time of ^009900<Skill>^000000 by %.",
+	
+	"Decreases Fixed Casting Time of all skills by %.",
+	"Decreases Fixed Casting Time of ^009900<Skill>^000000 by %.",
 	
 	"For the highest Level of either ^009900<Skill>^000000, ^009900<Skill>^000000 or ^009900<Skill>^000000,",
 	"increase damage dealt with ^009900<Skill>^000000 by % per skill Level.",
@@ -139,6 +149,9 @@ Item Description:
 	- Basic Card Compounding:
 	"When compounded on ^990099<Equipment>^000000:",
 	
+	- Basic Enchantment
+	"When enchanted with ^990099<Equipment>^000000:",
+	
 	- Refine Codings:
 	"^0000FFFor each Refine Level^000000:",
 	"^0000FFFor each Refine Level^000000 of ^990099<Equipment>^000000:",
@@ -151,7 +164,7 @@ Item Description:
 	
 	- Refine Codings in combination
 	"If ^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
-	"If ^0000FFtotal Refine Level^000000 of ^990099<Equipment>, <Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
+	"If ^0000FFtotal Refine Level^000000 of ^990099<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
 	"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+14^000000:",
 	"^0000FFFor each Refine Level^000000 of ^0000FFentire set^000000:",
 	"^0000FFFor each 5 Refine Levels^000000 of ^0000FFentire set^000000:",
@@ -178,6 +191,7 @@ Equipment Info:
 			"^0000CCAttack:^000000 ",
 			"^0000CCDefense:^000000 ",
 			"^0000CCPosition:^000000 ",
+			"^0000CCElement:<Element Color Code> ", > Look at the beginning of this file
 			"^0000CCWeight:^000000 ",
 			"^0000CCRefineable:^000000 No", > Only used when the item is NOT refinable
 			"^0000CCWeapon Level:^000000 ",
@@ -227,3 +241,5 @@ jRO Egg Description:
 			"- Costume ",
 			"- Costume ",
 			"- Costume ^000000",
+			"________________________",
+			"^0000CCWeight:^000000 1"
