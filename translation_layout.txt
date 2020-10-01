@@ -80,7 +80,9 @@ Item Description:
 	"Base ^CC6600AGI^000000 is at least ^FF000070^000000:",
 	"Bonus ^CC6600STR^000000 is at least ^FF0000+10^000000:",
 	"^CC6600Base Level^000000 is at least ^FF0000100^000000:",
+	"^CC6600Base Level^000000 is ^FF000099^000000 or less:",
 	"For each ^0000FF20^000000 base ^CC6600STR^000000:",
+	"For each ^0000FF20^000000 combined sum of base ^CC6600AGI^000000 and ^CC6600VIT^000000:",
 	"For each ^0000FF50 ^CC6600Base Level^000000:",
 	"STR +",
 	"AGI +",
@@ -99,7 +101,7 @@ Item Description:
 	"MaxSP +", "MaxSP +%",
 	"Increases HP Recovery Rate by %.",
 	"Increases SP Recovery Rate by %.",
-	"Range is x cells",
+	"Attack Range: x cells",
 	^0033CC = Specific Recovery Item
 	^990099Recovery Items^000000
 	
@@ -117,6 +119,8 @@ Item Description:
 	"When ^0033CC<Base Class>^000000 classes uses ^009900<Skill List>^000000 or ^009900<Last Skill>^000000:",
 	
 	"Enables interrupted skill casting.",
+	"Nullifies Gemstone requirement of certain skills.",
+	"Nullifies weapon damage size penalty against all monsters.",
 	
 	"Decreases ^009900<Skill>^000000 skill cooldown by seconds.",
 	"Decreases ^009900<Skill>^000000 skill cooldown by second.",
@@ -144,6 +148,8 @@ Item Description:
 	"When equipped with 2 types of ^990099<Class> Shadow^000000, ^990099<Class> Shadow^000000 or ^990099<Class> Shadow^000000 Equipment:",
 	"When equipped by ^0033CC<Base Class>^000000 classes:",
 	"When equipped by ^0033CC<Certain Class>^000000:",
+	"When equipped as ^990099Accessory Right^000000:", -> Accessory (1)
+	"When equipped as ^990099Accessory Left^000000:", -> Accessory (2)
 	"^663399Indestructible in battle^000000",
 	
 	- Basic Card Compounding:
@@ -155,12 +161,13 @@ Item Description:
 	- Refine Codings:
 	"^0000FFFor each Refine Level^000000:",
 	"^0000FFFor each Refine Level^000000 of ^990099<Equipment>^000000:",
-	"^0000FFFor each Refine Level above ^0000FF+9^000000 of ^990099<Equipment>^000000 and ^990099<Equipment>^000000:",
+	"^0000FFFor each Refine Level^000000 equal or above ^0000FF+9^000000 of ^990099<Equipment>^000000 and ^990099<Equipment>^000000:",
 	"^0000FFFor each Refine Level^000000 equal or above ^0000FF+6^000000:",
 	"^0000FFFor each Refine Level^000000 above ^0000FF+6^000000:",
 	"^0000FFFor each 2 Refine Levels^000000 of equipped ^990099<Equipment Type>^000000:",
 	"^0000FFFor each 2 Refine Levels^000000:",
 	"^0000FFRefine Level +7^000000:",
+	"If ^0000FFRefine Level^000000 of equipped ^990099<Equipment Type>^000000 is ^0000FF+7 or higher^000000:",
 	
 	- Refine Codings in combination
 	"If ^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
@@ -181,9 +188,11 @@ Item Description:
 	"^000088Rental Item^000000",
 	"^FF0000This item is not refundable.^000000",
 	"^FF0000This item cannot be traded with other accounts.^000000",
+	"^FF0000This item cannot be traded or moved to storage.^000000",
 	
-	"^FF0000Can only be sold to NPCs and put into storage.^000000",
-	"^ff0000Can only be sold to NPC's.",
+	"^FF0000This item can only be sold to NPCs and moved to storage.^000000",
+	"^FF0000This item can only be sold to NPCs.",
+	"^FF0000This item will not be used in future events.^000000",
 	
 Equipment Info:
 			"________________________",
@@ -226,7 +235,14 @@ Shadow Equipment:
 
 Equipped Effect:
 	"^006400Since it is an equipped effect, it still will be displayed even when the effect (/effect) is turned off.^000000",
-
+	
+	"^006400This item is equipped with special effects:",
+	"- When the effect (/effect) is switched, the display does not change immediately, so it is necessary to re-equip the item after entering the command.",
+	"- When using a disappearing skill such as \"Hiding\", the effect will not be visible to other players.",
+	"- Even when equipped with an adopted character, the same effect as a normal character will be displayed.^000000",
+	
+	"^000088The graphic is reflected on the character.^000000",
+	
 jRO Egg Description:
 			"A magical egg that pops out outfits when opened.",
 			"________________________",

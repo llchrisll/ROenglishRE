@@ -1,0 +1,515 @@
+tbl = {
+	[1] = {
+		Title = "Tip box",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/tip alternatively, you can open the tip box by clicking the tip box icon..\\nThe tip box provides useful information for playing games.\\nIf you want to get more information, please enter a search term in ^3b488cSearch window^000000.\n"
+		},
+	},
+	[2] = {
+		Title = "Help: Command list",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/h to see useful commands used in Ragnarok.\\n/You can use commands by typing it in ^3b488cchat window^000000.\n"
+		}
+	},
+	[3] = {
+		Title = "Character: HP",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Indicates the character's health.\\n^ff0000When HP reaches 0, your character won't be able to participate in battle. ^000000Please be careful because ^ff0000experience penalty^000000 may accure on certain locations.\\n\tPress Alt + END to toggle HP/SP meter ON/OFF.\n"
+		},
+	},
+	[4] = {
+		Title = "Character: SP",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Indicates the character's spirit.\\nCertain skills will ^3b488cconsume SP^000000. ^000000Please be careful because^ff0000 when SP reaches 0, your character won't be able to cast a skill^000000.\\nPress Alt + END to toggle HP/SP meter ON/OFF.\n"
+		},
+	},
+	[5] = {
+		Title = "Character: Level Up",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can level up by hunting monsters or completing quests to gain experience.\\nBy gaining EXP and base level you will obtain ^3b488cstatus points^000000 that can be used to raise character's stats.\\nBy gaining JOBEXP and job level you will obtain ^3b488cskill points^000000 that can be used to learn skill.\n"
+		},
+	},
+	[6] = {
+		Title = "Stats: STR(Strength)#Stats",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"STR ^3b488cMeele Physical Damage^000000Base attack damage will increase.\\nAdditionally, ^3b488cPossession threshold(Weight)^000000Enables you to carry more items.\n"
+		},
+	},
+	[7] = {
+		Title = "Stats: AGI(Agility)#Stats",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"AGI has a direct effect on the ^3b488cAttack Speed^000000and ^3b488cEvation Rate^000000goes up.\\nAdditionally, ^3b488cPhysical Defense^000000is also affected.\n"
+		},
+	},
+	[8] = {
+		Title = "Stats: VIT(Vitality)#Stats",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"VIT has a direct effect on ^3b488cthe max HP^000000and it goes up.\\nAdditionally, ^3b488cPhysical Defense^000000and ^3b488cMagical Defense^000000goes up^3b488cAutomatic recovery of HP^000000is also affected.\n"
+		},
+	},
+	[9] = {
+		Title = "Stats: INT(Intelligence)#Stats",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"INT affects ^3b488cMagic Attack Power^000000and directly affects^3b488cMagical Damage^000000by increasing it.\\nAdditionally, ^3b488c Shortens casting time ^000000, increases ^3b488c magical defense force ^000000, and increases ^3b488c maximum SP amount ^000000, allowing more magic to be used.\n"
+		},
+	},
+	[10] = {
+		Title = "Stats: DEX(Dexterity)#Stats",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"DEX affects ^3b488cRanged physical damage^000000and directly affects ^3b488cLong-range attack^000000by increasing it.\\nAdditionally, ^3b488cA^000000increases the probability of successful attack ^3b488cand casting time^000000reduces.^3b488cMagic attack power^000000also goes up.\n"
+		},
+	},
+	[11] = {
+		Title = "Stats: LUK(Luck)#Stats",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"LUK affects ^3b488cCritical Rate^000000There is a probability of giving^3b488cCritical Damage^000000directly to the monster.\\nAdditionally, ^3b488cAccuracy, Evasion Rate, Physical Damage, Magic Attack Power^000000are also affected ^ff0000in different ways by Status, So be careful when investing points.^000000\n"
+		},
+	},
+	[12] = {
+		Title = "Auto regen",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"If you stand still without movement ^3b488cHP and SP recovers little by little.^000000 If you sit down, recovery doubles.\\n^ff0000If Weight exceeds 70%, recovery stops.^000000\n"
+		}
+	},
+	[13] = {
+		Title = "Character: Weight",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It represents the weight of the item and the weight of the equipment that you are wearing.\\nAfter a certain Weight limit ^ff0000you can no longer have any items.\\nIf Weight is above 70%, HP and SP recovery stops. Additionally if weight exceeds 90%, player cannot attack or use any skill.^000000\n"
+		},
+	},
+	[14] = {
+		Title = "Battle: Attack",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Hover your mouse over the monster and your cursor will turn into a sword.\\nAt this time, ^3b488cclick^000000to attack the monster.\n"
+		}
+	},
+	[15] = {
+		Title = "Lock-on mode: Automatic attack",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"If you attack a monster while holding down the Ctrl key, ^3b488cyou start auto attacking.^000000You can turn it off by clicking elsewhere.\\nAdditionally, ^3b488cIf you enter /noctrl, you will auto-attack even if you do not press Ctrl.\\nIf you do not want auto-attack, You can turn off automatic attack mode using /noctrl again.^000000\n"
+		}
+	},
+	[16] = {
+		Title = "Battle: Experience",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"If you hunt monsters ^3b488cExperience^000000is gained.\\nThe experience gained for the monster is proportional to the damage done to the monster, but even if you do the same damage, the first person to attack the monster receives more experience.\n"
+		}
+	},
+	[17] = {
+		Title = "Item",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can pick up item that fall on the floor by using ^3b488cLeft-click^000000 of mouse.\\nPicked items are put in the item window ALT+E.\n"
+		},
+	},
+	[18] = {
+		Title = "Item: Magnifier",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Equipment items obtained from monster are displayed as ^ff0000Unknown item^000000. You can identify this item by using <ITEM>Magnifier<INFO>611 Magnifier</INFO></ITEM> that can be bought from Tool Dealer.\n"
+		},
+	},
+	[19] = {
+		Title = "Chatting: Dialog",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Enter Chat window to activate it. If you write something you want and press Enter key again, Dialog will be sent.\n"
+		},
+	},
+	[20] = {
+		Title = "Chatting: Chat room",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/Chat room Additionally the /chat can be used for^3b488cChat room^000000 window creation. Additionally /q command can be used to leave the Chat room.\n"
+		}
+	},
+	[21] = {
+		Title = "Chatting: Whisper",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Chat window in the left field can be used to enter a character name to whisper the character.\n^3b488cAlt + H^000000shows ^3b488cthe window^000000 which you can open to see who you are whispering.\n"
+		},
+	},
+	[22] = {
+		Title = "Chatting: Party",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Dialog with Party members can be done by pressing CTRL + ENTER.\\nAdditionally,Press the ^3b488c blue circle ^000000 on the right side of the chat window to set ^3b488c receiving group ^000000.\n"
+		}
+	},
+	[23] = {
+		Title = "Chatting: Guild",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Dialogs with Guild members can be toggled by pressing ALT + ENTER if you want to use /gc.\\nAdditionally, if you press ^3b488c blue circle ^000000 on the right side of the chat window, you can set ^3b488c receiving group ^000000.\n"
+		}
+	},
+	[24] = {
+		Title = "Chatting: Save dialog",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Save the contents of the chat as a file with /capture /savechat.\nDialog content is stored in the Chat folder of the folder where Ragnarok is installed.\n"
+		},
+	},
+	[25] = {
+		Title = "Chatting: Chat window",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"^3b488cYou can adjust the size of the chat window with F10 ^000000.\\nAlt + F10 to turn chat window on /off.\n"
+		},
+	},
+	[26] = {
+		Title = "Chatting: Show content",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Entering /notalkmsg in the chat window will not display the chat contents in the chat window. On/Off\\nIf you enter /notalkmsg2, chat contents including the guild are not displayed in the chat window. On/Off\n"
+		}
+	},
+	[27] = {
+		Title = "Emotion",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Press ALT + L or enter /emotion to see a list of available ^3b488c emotions ^000000.\\n\\nPress Ctrl, -, and \\ to select scissors, rocks, and others.\n"
+		}
+	},
+	[28] = {
+		Title = "Block",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/Block character name and /ex Character name blocks the character or whisper, etc. To cancel, the character name can be unset with / in Character name.\\nAdditionally, You can block or disable all Dialogs and Whispers with /all, /exall, and /inall commands.\\nIf you want to see a list of blocked characters, you can / .\\n^ff0000 (Y / N) is not asked, so you have to choose carefully.^000000\n"
+		}
+	},
+	[29] = {
+		Title = "Party system",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can create a party with the name /organize Party.\\nYou can leave the party with /leave.",
+			"If you become a party leader by forming a party, you can right-click on the opponent character and select the 'Invite to party' menu or invite it to the party by invitation character name.\\nIf you want to expire the party circle /Name of the character You can expel the party circle of the party ^000000 you are the leader of ^3b488c by the name of the character /expel Character.\\n^ff0000 (Y / N).^000000\n"
+		}
+	},
+	[30] = {
+		Title = "Guild system",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Using /Guild, You can create a guild by name. To create a guild, one emperium is consumed.\nThe information of the guild to which it belongs can be seen as ALT + G.\\n^ff0000Guild The master can dismantle the guild. If you do not have a guild circle except for a guild master, you will be dismissed if you enter /dismiss the guild.\\nYou will not be asked for Y / N, so you must choose carefully.^000000\n"
+		}
+	},
+	[31] = {
+		Title = "Guild: Position",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can set the position of guild members in the position setting field of the guild information window. The Guild position can control the granting of various rights or the experience required for guild growth.\n"
+		}
+	},
+	[32] = {
+		Title = "Game Option window",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Press ESC to open Game Option window.\n"
+		}
+	},
+	[33] = {
+		Title = "Game option: Game setting",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can control various options to make your game play better.\n"
+		}
+	},
+	[40] = {
+		Title = "Game setting: Advanced Setting",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can control the game graphics.\n"
+		}
+	},
+	[41] = {
+		Title = "Game option: Hotkey",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can add or edit Hotkey.\n"
+		}
+	},
+	[42] = {
+		Title = "Hotkey: Macro",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ALT+M You can edit the Macro list. You can use Macro by pressing ALT + 1 ~ 0.\n"
+		}
+	},
+	[43] = {
+		Title = "Hotkey: Skill bar",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Skill bar (F12) frequently used skill is registered by registering the item in the slot by double-clicking the mouse or by pressing the shortcut key is easy to use.\\nThe first Skill bar corresponds to the F1 ~ F9 key, > You can change the corresponding Hotkey in the Hotkey settings. Hotkeys 2 to 4 of the Skill bar can only be used in Battle Mode.\\nSkill bar allows you to select items and drag them into the squares.\n"
+		}
+	},
+	[44] = {
+		Title = "Hotkey: Battle Mode",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Battle Mode locks the chat feature so you can use the Hotkey registered in the Skill bar on your keyboard. You can turn it on /off with /bm.\\n^ff0000 In chat mode, chat is locked by default, but you can press the enter key to activate chat window.^000000\n"
+		}
+	},
+	[45] = {
+		Title = "Hotkey: F1~F12",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"F1 ~ F9: You can use the skills registered in the Skill bar.\\nF10: You can adjust the size of the chat window.\\nF11: Close all windows leaving only the default info window and dialog window.\\nF12: Skill You can open and close the bar.\n"
+		}
+	},
+	[4000] = {
+		Title = "The world of Ragnarok",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"In the Ragnarok world, the stage of adventure is largely categorized as Land of Midgard, where humans are central, \nLand beyond fairies and giants, and Unknown localization found by explorers.\n"
+		}
+	},
+	[4001] = {
+		Title = "Midgard Continent",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Midgard is the home of the surviving human beings and the central continent since the temple where the clan, the Asmodians, and the humans fought for each other's beliefs.\nThere are three countries that are the main axis along the southeast coast of the Midgard Continent.\n"
+		}
+	},
+	[4004] = {
+		Title = "Rune Midgard Kingdom",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"\nThe heritage of the heroes of the temple.\nThe royal family system is centered on the seven clan families linking the hero's lineage. It covers the southern region based on the Myogneil Mountains.\nKing We encourage the development of adventurers in preparation for the endangered species and provide a lot of support.\n",
+			"With the heroic king Goeborg as the main axis, the people selected by the throne in Heine, Nerius, Walter, Richard, Wigner, and Rogenburg have succeeded the throne. In the royal family, before the full winter comes, there is also a royal hunting contest for the elimination of wastes."
+		}
+	},
+	[4005] = {
+		Title = "Royal Prontera",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is the center of the rune-midgats royal palace and is the royal road with the palace.\nIt is peaceful because it has a wide field in the back of the Myol Neolithic Mountains, - There are many cathedrals who have Josin Goddess and a Knights Templar who are priests and knights.\n"
+		}
+	},
+	[4006] = {
+		Title = "Magic city Geffen",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A city of mages located beyond Prontera West Wetlands. There is a rumor that there is the Mato Paget Tower in the center and the place where the legendary city of Geffenia was located. Often the magicians hold the Geffen Magical Competition.\n"
+		}
+	},
+	[4007] = {
+		Title = "Desert city Morocc",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"After the temple was over, Dr Morok went down to the Midgard Continent. Morocca was sealed by the activity of Majestic Tanatos, but in the aftermath of the seal it became a desert. The town was formed around an oasis, and the name of the city became Morocco because it was sealed with Morok. As Morok broke the seal recently, the city and its neighboring deserts were again destroyed, and the city was rebuilt.\n",
+			"Along with the unique culture of a desert city developed around an oasis, there are ancient mysterious buildings, old defense fortresses, desert threats and ants.\n"
+		}
+	},
+	[4008] = {
+		Title = "Mountain city Payon",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Rune - a city in the southeastern mountains of Midtown. Due to the complex mountains and forests that have long been disconnected from the outside, they have formed a very unique culture. There are many stories about receiving the favor of the private water or the new water. There are many good hunters and hunters, and there is a cave in the north cave.\n"
+		}
+	},
+	[4009] = {
+		Title = "Port city Alberta",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is a city with a harbor connecting all the waterways of Midgard and also known as the commercial city because the merchant Guild is located. It is a place where people who enjoy an unknown expedition through the water and those who read the flow of money gather.\n"
+		}
+	},
+	[4010] = {
+		Title = "Border city Aldebaran",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is located in the northern part of the Myogneil Mountains, just below the border with Schwartzwald. It is a beautiful city with a canal stretching all the way around a huge clock tower in the center. There is a border checkpoint in the north.\n"
+		}
+	},
+	[4011] = {
+		Title = "Recreational city Comodo",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A mysterious village with caves formed beneath the southwestern coast. Since there are many tourists visiting for the purpose of recreation, many local specialty products have been developed. Nearby are marshes, jungles and secret caves, which are also a fascinating place for explorers.\n"
+		}
+	},
+	[4012] = {
+		Title = "Tribal village Umbala",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A small tribal village in the northern jungle area of Komodo. It is a village of tribes living in the same way that they live in the original lifestyle apart from civilization. There is a story that the roots of the world number Egudrasil have reached. We do not use continental official language.\n"
+		}
+	},
+	[4013] = {
+		Title = "Satellite city Izlude",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A small city on the east coast of Prontera. It is a satellite city formed to assist the capital Frontera. There is a supportive institute for the cultivation of adventurers, the Critura School and the Inspection Guild, and also serves as a small port.\n"
+		}
+	},
+	[4040] = {
+		Title = "Schwartzwald Republic",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"The city of wisdom The capital city of Yuno is the northern part of the country. It adopts the Republic with the president and the parliament, and it is a country where the industry has developed due to the huge corporation rekenber.\n"
+		}
+	},
+	[4050] = {
+		Title = "Arunafeltz country",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is a bell country of a genuine accord with the goddess Freyya. This Odin in Rune-Midguard is not in good shape because there is a friction in the past after the temple. Arunafeltz is a country that was built by religionally persecuted people. There is a huge temple Seth Raniel in the capital Rachel.\n"
+		}
+	}
+}
+
+function main()
+	for DocumentNum, INFO in pairs(tbl) do
+		result, msg = AddTip(DocumentNum, INFO.Title, INFO.Search, INFO.Image)
+		if not result then
+			return false, msg
+		end
+		result, msg = AddImgcoord(DocumentNum, INFO.Imgcoord.Position, INFO.Imgcoord.Size)
+		if not result then
+			return false, msg
+		end
+		if not INFO.PageEX then
+			result, msg = AddPageEx(DocumentNum, -1, 0, 0, 0, 0, 0, 0, 0)
+			if not result then
+				return false, msg
+			end
+		else
+			for k, v in pairs(INFO.PageEX) do
+				result, msg = AddPageEx(DocumentNum, v.EffectNum, v.Twinkle, v.StartX, v.StartY, v.DistX, v.DistY, v.MoveTime)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		for k, v in pairs(INFO.Page) do
+			result, msg = AddPage(DocumentNum, v)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	return true, "good"
+end
