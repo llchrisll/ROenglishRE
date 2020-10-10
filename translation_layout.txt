@@ -19,7 +19,7 @@ Misc
 Skill Description:
 	^0000FF = Skill Names + Status (Hiding,...)
 	^990099 = Item Names + Skill Requirements (Spirit Spheres,...)
-	^0033CC = Race/Class/Size
+	^0033CC = Race/Class/Size/Elementals/Machines
 	
 	"Max Level:
 	
@@ -29,6 +29,7 @@ Skill Description:
 
 	"Skill Form: ^6666CCPassive^000000",
 	"Skill Form: ^339966Active^000000",
+	"Skill Form: ^339966Active (Toggle)^000000",
 	
 	"Type: ^339900Supportive^000000",
 	"Type: ^339900Recovery^000000",
@@ -39,6 +40,7 @@ Skill Description:
 	
 	"Type: ^000099Trap (Hidden)^000000",
 	"Type: ^000099Trap (Visible)^000000",
+	"Type: ^000099Trap^000000",
 	"Type: ^000099Planting^000000",
 	"Type: ^000099Song Skill^000000",
 	"Type: ^000099Dance Skill^000000",
@@ -70,8 +72,14 @@ Skill Description:
 	"Target: ^6666CCAround the caster^000000",
 	"Target: ^6666CCCaster's View Range^000000",
 	"Target: ^6666CCCaster and Party Members^000000",
+	"Target: ^6666CC1 Party Member^000000",
 	
 	"Description: ^777777 ^000000",
+
+	- 4th Classes:
+	"Skill Form: ^339966Active(AP)^000000",
+	"Recover: ^0054FF AP^000000",
+	"Cost: ^FF0000150 AP^000000",
 
 Item Description:
 	unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
@@ -104,6 +112,20 @@ Item Description:
 	"Attack Range: x cells",
 	^0033CC = Specific Recovery Item
 	^990099Recovery Items^000000
+	
+	> 4th Classes:
+	"POW +",
+	"STA +",
+	"WIS +",
+	"SPL +",
+	"CON +",
+	"CRT +",
+	"P.ATK +",
+	"S.MATK +",
+	"H.Plus +",
+	"C.Rate +",
+	"Res +",
+	"Mres +",
 	
 	"<STAT> +1 multiplied with total skill level of ^0033CC<Class>^000000's exclusive/related skills:",
 	"^009900<Skill List> and <Last Skill>^000000",

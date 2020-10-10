@@ -138,7 +138,14 @@ HatEFID = {
 	HAT_EF_2020RTC_02 = 137,
 	HAT_EF_2020RTC_03 = 138,
 	HAT_EF_C_2020RTC_Imp_TW = 139,
-	HAT_EF_SUBJECT_AURA_BLACK = 140
+	HAT_EF_SUBJECT_AURA_BLACK = 140,
+	HAT_EF_2020RTC_EFFECT_01 = 141,
+	HAT_EF_2020RTC_EFFECT_02 = 142,
+	HAT_EF_2020RTC_EFFECT_03 = 143,
+	HAT_EF_99LV_STAR_E_MBLUE = 144,
+	HAT_EF_160LV_STAR_E_MBLUE = 145,
+	HAT_EF_99LV_SOUL_R_GRAY = 146,
+	HAT_EF_160LV_SOUL_R_GRAY = 147
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_2020RTC_01] = {
@@ -148,8 +155,7 @@ hatEffectTable = {
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true,
 		isRenderBeforeCharacter = true,
-		isIgnoreRiding = true,
-		hatEffectID = 1211
+		isIgnoreRiding = true
 	},
 	[HatEFID.HAT_EF_2020RTC_02] = {
 		resourceFileName = "2020RTC_02\\mcblack.str",
@@ -158,8 +164,7 @@ hatEffectTable = {
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true,
 		isRenderBeforeCharacter = true,
-		isIgnoreRiding = true,
-		hatEffectID = 2285
+		isIgnoreRiding = true
 	}, 
 	[HatEFID.HAT_EF_2020RTC_03] = {
 		resourceFileName = "2020RTC_03\\mcred.str",
@@ -168,8 +173,7 @@ hatEffectTable = {
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true,
 		isRenderBeforeCharacter = true,
-		isIgnoreRiding = true,
-		hatEffectID = 1213
+		isIgnoreRiding = true
 	}, 
 	[HatEFID.HAT_EF_C_2020RTC_Imp_TW] = {
 		resourceFileName = "C_2020RTC_Imp_TW\\mc.str",
@@ -607,7 +611,12 @@ hatEffectTable = {
 		hatEffectPos = -6,
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true}
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_99LV_STAR_E_MBLUE] = { hatEffectID = 2281 },
+	[HatEFID.HAT_EF_160LV_STAR_E_MBLUE] = { hatEffectID = 2282 },
+	[HatEFID.HAT_EF_99LV_SOUL_R_GRAY] = { hatEffectID = 2283 },
+	[HatEFID.HAT_EF_160LV_SOUL_R_GRAY] = { hatEffectID = 2284 }
 }
 effectHatItemTable = {
 	20285,
@@ -762,3 +771,13 @@ IsIgnoredRidingState_Include_AttachedToHead = function(index)
 	return hatEfTbl.isIgnoreRiding
 end
 
+GetIsEffectPair = function(index)
+  local hatEfTbl = hatEffectTable[index]
+  if hatEfTbl == nil then
+    return false
+  end
+  if hatEfTbl.isEffectPair == nil then
+    return false
+  end
+  return hatEfTbl.isEffectPair
+end
