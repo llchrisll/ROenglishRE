@@ -5893,89 +5893,291 @@ StateIconList[EFST_IDs.EFST_ADD_MATK_DAMAGE] = {
 		{ "Increases all elemental magical damage by 15%." }
 	}
 }
-StateIconList[EFST_IDs.EFST_SERVANTWEAPON] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Servant Weapon", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Summon Weapon Auras overtime." },		{ "Inflicts additional damage when physically attacking." }	}
+StateIconList[EFST_IDs.EFST_SERVANTWEAPON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Servant Weapon", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Summon Weapon Auras overtime." },
+		{ "Inflicts additional damage when physically attacking." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SERVANT_SIGN] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Servant Weapon Mark", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Marked with by a Servant Weapon" }	}
+StateIconList[EFST_IDs.EFST_SERVANT_SIGN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Servant Weapon Mark", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Marked with by a Servant Weapon" }
+	}
 }
-StateIconList[EFST_IDs.EFST_CHARGINGPIERCE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Charging Pierce", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Accumulates Charging Counter when using" },		{ "specific skills." }	}
+StateIconList[EFST_IDs.EFST_CHARGINGPIERCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Charging Pierce", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Accumulates Charging Counter when using" },
+		{ "specific skills." }
+	}
 }
-StateIconList[EFST_IDs.EFST_DRAGONIC_AURA] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Dragonic Aura", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases damage of Dragon Breath." },
+StateIconList[EFST_IDs.EFST_DRAGONIC_AURA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dragonic Aura", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Dragon Breath." },
 		{ "Increases damage of Dragon Breath - Water." },
-		{ "Increases damage of Hundred Spear." }	}
+		{ "Increases damage of Hundred Spear." }
+	}
 }
-StateIconList[EFST_IDs.EFST_VIGOR] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Vigor", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases physical damage." },		{ "Drains HP with each attack." }	}
+StateIconList[EFST_IDs.EFST_VIGOR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Vigor", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases physical damage." },
+		{ "Drains HP with each attack." }
+	}
 }
-StateIconList[EFST_IDs.EFST_DEADLY_DEFEASANCE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Deadly Projection", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Disables Magic Immunity effects." }	}
+StateIconList[EFST_IDs.EFST_DEADLY_DEFEASANCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Deadly Projection", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Disables Magic Immunity effects." }
+	}
 }
-StateIconList[EFST_IDs.EFST_CLIMAX_DES_HU] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Destructive Hurricane", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases Wind elemental magic damage." },		{ "MATK +100" }	}
+StateIconList[EFST_IDs.EFST_CLIMAX_DES_HU] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Destructive Hurricane", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Wind elemental magic damage." },
+		{ "MATK +100" }
+	}
 }
-StateIconList[EFST_IDs.EFST_CLIMAX] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Climax", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_CLIMAX] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Climax", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Give special effects to following skills:" },
 		{ "All Bloom, Crystal Impact," },
 		{ "Destructive Hurricane," },
-		{ "Violant Quake" }	}
-}
-StateIconList[EFST_IDs.EFST_CLIMAX_EARTH] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Violant Quake", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases damage taken from Earth elemental attacks." }	}
-}
-StateIconList[EFST_IDs.EFST_CLIMAX_BLOOM] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "All Bloom", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases damage taken from Fire elemental attacks." }	}
-}
-StateIconList[EFST_IDs.EFST_CLIMAX_CRYIMP] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Crystal Impact", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Decreases damage taken from Water elemental attacks." },		{ "DEF +300" },		{ "MDEF +100" },		{ "Increases Water elemental magic damage." }	}
-}
-StateIconList[EFST_IDs.EFST_GUARD_STANCE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Guard Stance", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases physical defense." },		{ "Decreases physical attack." }	}
-}
-StateIconList[EFST_IDs.EFST_ATTACK_STANCE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Attack Stance", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases physical attack." },		{ "Decreases physical defense." }
+		{ "Violant Quake" }
 	}
 }
-StateIconList[EFST_IDs.EFST_GUARDIAN_S] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Guardian Shield", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Grants a shield which prevent physical damage." }	}
+StateIconList[EFST_IDs.EFST_CLIMAX_EARTH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Violant Quake", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage taken from Earth elemental attacks." }
+	}
 }
-StateIconList[EFST_IDs.EFST_REBOUND_S] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Rebound Shield", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Decreases damage taken through Devotion." }	}
+StateIconList[EFST_IDs.EFST_CLIMAX_BLOOM] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "All Bloom", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage taken from Fire elemental attacks." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HOLY_S] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Holy Shield", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Decreases damage taken from Shadow and Undead elemental attacks." },		{ "Increases Holy elemental magic damage." },
-		{ "Increases damage of Cross Rain." }	}
+StateIconList[EFST_IDs.EFST_CLIMAX_CRYIMP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Crystal Impact", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases damage taken from Water elemental attacks." },
+		{ "DEF +300" },
+		{ "MDEF +100" },
+		{ "Increases Water elemental magic damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_ULTIMATE_S] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Ultimate Sacrifice", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
-		{ "You will be immediatly resurrected upon death. " }	}
+StateIconList[EFST_IDs.EFST_GUARD_STANCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Guard Stance", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases physical defense." },
+		{ "Decreases physical attack." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SPEAR_SCAR] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Grand Judgement", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases damage of Banishing Point" },
-		{ "and Cannon Spear." }	}
+StateIconList[EFST_IDs.EFST_ATTACK_STANCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Attack Stance", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases physical attack." },
+		{ "Decreases physical defense." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SHIELD_POWER] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Shield Shooting", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases damage of Shield Chain," },
-		{ "Shield Press and Earth Drive." }	}
+StateIconList[EFST_IDs.EFST_GUARDIAN_S] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Guardian Shield", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Grants a shield which prevent physical damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_POWERFUL_FAITH] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Powerful Faith", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases ATK and" },		{ "P.ATK." }	}
+StateIconList[EFST_IDs.EFST_REBOUND_S] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Rebound Shield", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases damage taken through Devotion." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SINCERE_FAITH] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Sincere Faith", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases ASPD and" },		{ "Perfect Hit." }	}
+StateIconList[EFST_IDs.EFST_HOLY_S] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Holy Shield", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases damage taken from Shadow and Undead elemental attacks." },
+		{ "Increases Holy elemental magic damage." },
+		{ "Increases damage of Cross Rain." }
+	}
 }
-StateIconList[EFST_IDs.EFST_FIRM_FAITH] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Firm Faith", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases MaxHP and" },		{ "Res." }	}
+StateIconList[EFST_IDs.EFST_ULTIMATE_S] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Ultimate Sacrifice", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "You will be immediatly resurrected upon death. " }
+	}
 }
-StateIconList[EFST_IDs.EFST_HOLY_OIL] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Oleum Sanctum", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_SPEAR_SCAR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grand Judgement", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Banishing Point" },
+		{ "and Cannon Spear." }
+	}
+}
+StateIconList[EFST_IDs.EFST_SHIELD_POWER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Shield Shooting", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Shield Chain," },
+		{ "Shield Press and Earth Drive." }
+	}
+}
+StateIconList[EFST_IDs.EFST_POWERFUL_FAITH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Powerful Faith", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases ATK and" },
+		{ "P.ATK." }
+	}
+}
+StateIconList[EFST_IDs.EFST_SINCERE_FAITH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Sincere Faith", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases ASPD and" },
+		{ "Perfect Hit." }
+	}
+}
+StateIconList[EFST_IDs.EFST_FIRM_FAITH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Firm Faith", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases MaxHP and" },
+		{ "Res." }
+	}
+}
+StateIconList[EFST_IDs.EFST_HOLY_OIL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Oleum Sanctum", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Increases recieved ranged" },
-		{ "physical damage." }	}
+		{ "physical damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_FIRST_BRAND] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "First Brand", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Marked with Brand." }	}
+StateIconList[EFST_IDs.EFST_FIRST_BRAND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "First Brand", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Marked with Brand." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SECOND_BRAND] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Judgement Brand", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Marked with Judgement Brand." }	}
+StateIconList[EFST_IDs.EFST_SECOND_BRAND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Judgement Brand", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Marked with Judgement Brand." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SECOND_JUDGE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Judge", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_SECOND_JUDGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Judge", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Enables the use of" },
 		{ "Second Faith/Judgement/Flame and" },
 		{ "Third Punish/Consecration." },
 		{ "Removes Spirit Sphere Consumption of" },
-		{ "Fallen Empire and Flash Combo." }	}
+		{ "Fallen Empire and Flash Combo." }
+	}
 }
-StateIconList[EFST_IDs.EFST_THIRD_EXOR_FLAME] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Third Exorcism Flame", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_THIRD_EXOR_FLAME] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Third Exorcism Flame", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Enables the use of" },
 		{ "Second Faith/Judgement and" },
 		{ "Third Punish/Consecration/Flame Bomb." },
 		{ "Removes Spirit Sphere Consumption of" },
-		{ "Fallen Empire, Flash Combo and Tiger Cannon." }	}
+		{ "Fallen Empire, Flash Combo and Tiger Cannon." }
+	}
 }
-StateIconList[EFST_IDs.EFST_FIRST_FAITH_POWER] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "First Faith Power", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME }, 
+StateIconList[EFST_IDs.EFST_FIRST_FAITH_POWER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "First Faith Power", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME }, 
 		{ "Enables the use of" },
 		{ "Second Faith and" },
 		{ "Third Punish." },
 		{ "Removes Spirit Sphere Consumption" },
-		{ "of Fallen Empire." }	}
+		{ "of Fallen Empire." }
+	}
 }
 StateIconList[EFST_IDs.EFST_MASSIVE_F_BLASTER] = {
 	haveTimeLimit = 1,
@@ -5987,120 +6189,446 @@ StateIconList[EFST_IDs.EFST_MASSIVE_F_BLASTER] = {
 		{ "of Ride in Lightning and Rampage Blaster." }
 	}
 }
-StateIconList[EFST_IDs.EFST_SHADOW_EXCEED] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Shadow Exceed", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_SHADOW_EXCEED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Shadow Exceed", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Increases the damage of" },
-		{ "Savage Impact and Eternal Slash." }	}
+		{ "Savage Impact and Eternal Slash." }
+	}
 }
-StateIconList[EFST_IDs.EFST_DANCING_KNIFE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Dancing Knife", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_DANCING_KNIFE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dancing Knife", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Inflicts melee physical damage" },
-		{ "to nearby targets at regular intervals." }	}
+		{ "to nearby targets at regular intervals." }
+	}
 }
-StateIconList[EFST_IDs.EFST_POTENT_VENOM] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Potent Venom", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Ignore physical resistance." }	}
+StateIconList[EFST_IDs.EFST_POTENT_VENOM] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Potent Venom", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Ignore physical resistance." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SHADOW_SCAR] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Shadow Wound", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases recieved physical damage." }	}
+StateIconList[EFST_IDs.EFST_SHADOW_SCAR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Shadow Wound", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases recieved physical damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SHADOW_WEAPON] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Enchanting Shadow", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_SHADOW_WEAPON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Enchanting Shadow", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Random chance to inflict Shadow Wound" },
-		{ "to the enemy when attacking." }	}
+		{ "to the enemy when attacking." }
+	}
 }
-StateIconList[EFST_IDs.EFST_MEDIALE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Mediale Votum", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Recovers the HP of nearby" },		{ "party members over time." }	}
+StateIconList[EFST_IDs.EFST_MEDIALE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Mediale Votum", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Recovers the HP of nearby" },
+		{ "party members over time." }
+	}
 }
-StateIconList[EFST_IDs.EFST_A_VITA] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Argutus Vita", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Ignores some magical resistance." }	}
+StateIconList[EFST_IDs.EFST_A_VITA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Argutus Vita", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Ignores some magical resistance." }
+	}
 }
-StateIconList[EFST_IDs.EFST_A_TELUM] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Argutus Telum", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Ignores some physical resistance." }	}
+StateIconList[EFST_IDs.EFST_A_TELUM] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Argutus Telum", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Ignores some physical resistance." }
+	}
 }
-StateIconList[EFST_IDs.EFST_PRE_ACIES] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Presens Acies", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases Critical Damage Rate" }	}
+StateIconList[EFST_IDs.EFST_PRE_ACIES] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Presens Acies", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Critical Damage Rate" }
+	}
 }
-StateIconList[EFST_IDs.EFST_COMPETENTIA] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Competentia", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases P.ATK and S.MATK" }	}
+StateIconList[EFST_IDs.EFST_COMPETENTIA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Competentia", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases P.ATK and S.MATK" }
+	}
 }
-StateIconList[EFST_IDs.EFST_RELIGIO] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Religio", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases SPL, WIS and STA" }	}
+StateIconList[EFST_IDs.EFST_RELIGIO] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Religio", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases SPL, WIS and STA" }
+	}
 }
-StateIconList[EFST_IDs.EFST_BENEDICTUM] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Benedictum", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases POW, CRT and CON" }	}
+StateIconList[EFST_IDs.EFST_BENEDICTUM] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Benedictum", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases POW, CRT and CON" }
+	}
 }
-StateIconList[EFST_IDs.EFST_WINDSIGN] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Wind Sign", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Marked with a Wind Sign of Wind Hawk." }	}
+StateIconList[EFST_IDs.EFST_WINDSIGN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Wind Sign", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Marked with a Wind Sign of Wind Hawk." }
+	}
 }
-StateIconList[EFST_IDs.EFST_CALAMITYGALE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Calamity Gale", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Grants Unlimit effect." },		{ "Increases damage of some skills." },		{ "Gale Storm can inflict Critical Damage." },		{ "Increases damage against Brute and Fish" },
-		{ "race monsters with Crescive Bolt and Gale Storm." }	}
+StateIconList[EFST_IDs.EFST_CALAMITYGALE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Calamity Gale", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Grants Unlimit effect." },
+		{ "Increases damage of some skills." },
+		{ "Gale Storm can inflict Critical Damage." },
+		{ "Increases damage against Brute and Fish" },
+		{ "race monsters with Crescive Bolt and Gale Storm." }
+	}
 }
-StateIconList[EFST_IDs.EFST_MYSTIC_SYMPHONY] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Mystic Symphony", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases the damage of some skills." },		{ "Increases the damage against Fish" },
-		{ "and Demi-Human race monsters." }	}
+StateIconList[EFST_IDs.EFST_MYSTIC_SYMPHONY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Mystic Symphony", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases the damage of some skills." },
+		{ "Increases the damage against Fish" },
+		{ "and Demi-Human race monsters." }
+	}
 }
-StateIconList[EFST_IDs.EFST_KVASIR_SONATA] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Sonata of Kvashir", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Enables to play Ensemble skills alone." }	}
+StateIconList[EFST_IDs.EFST_KVASIR_SONATA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Sonata of Kvashir", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enables to play Ensemble skills alone." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SOUNDBLEND] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Sound Blend", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Marked with Sonic Brand." }	}
+StateIconList[EFST_IDs.EFST_SOUNDBLEND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Sound Blend", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Marked with Sonic Brand." }
+	}
 }
-StateIconList[EFST_IDs.EFST_GEF_NOCTURN] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Geffenia Nocturne", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Decreases MRES." }	}
+StateIconList[EFST_IDs.EFST_GEF_NOCTURN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Geffenia Nocturne", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases MRES." }
+	}
 }
-StateIconList[EFST_IDs.EFST_AIN_RHAPSODY] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Raphsody of Mineworker", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Decreases RES." }	}
+StateIconList[EFST_IDs.EFST_AIN_RHAPSODY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Raphsody of Mineworker", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases RES." }
+	}
 }
-StateIconList[EFST_IDs.EFST_MUSICAL_INTERLUDE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Musical Interlude", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases RES." }	}
+StateIconList[EFST_IDs.EFST_MUSICAL_INTERLUDE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Musical Interlude", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases RES." }
+	}
 }
-StateIconList[EFST_IDs.EFST_JAWAII_SERENADE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Serenade Of Jawaii", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases S.MATK." },		{ "Increases Movement Speed." }	}
+StateIconList[EFST_IDs.EFST_JAWAII_SERENADE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Serenade Of Jawaii", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases S.MATK." },
+		{ "Increases Movement Speed." }
+	}
 }
-StateIconList[EFST_IDs.EFST_PRON_MARCH] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "March of Prontera", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases P.ATK." },
-		{ "Increases Movement Speed." }	}
+StateIconList[EFST_IDs.EFST_PRON_MARCH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "March of Prontera", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases P.ATK." },
+		{ "Increases Movement Speed." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SHADOW_STRIP] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Strip Shadow", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Shadow Equipment cannot be equipped." }	}
+StateIconList[EFST_IDs.EFST_SHADOW_STRIP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Strip Shadow", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Shadow Equipment cannot be equipped." }
+	}
 }
-StateIconList[EFST_IDs.EFST_ABYSS_DAGGER] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Abyss Dagger", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
-		{ "Increases damage of Fatal Menace." }	}
+StateIconList[EFST_IDs.EFST_ABYSS_DAGGER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Abyss Dagger", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Fatal Menace." }
+	}
 }
-StateIconList[EFST_IDs.EFST_ABYSSFORCEWEAPON] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "From the Abyss", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_ABYSSFORCEWEAPON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "From the Abyss", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Summon Abyss Spheres during skill duration." },
-		{ "Consume 1 Abyss Sphere when physically attacking." }	}
+		{ "Consume 1 Abyss Sphere when physically attacking." }
+	}
 }
-StateIconList[EFST_IDs.EFST_ABYSS_SLAYER] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Abyss Slayer", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases P.ATK." },		{ "Increases S.MATK." }	}
+StateIconList[EFST_IDs.EFST_ABYSS_SLAYER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Abyss Slayer", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases P.ATK." },
+		{ "Increases S.MATK." }
+	}
 }
-StateIconList[EFST_IDs.EFST_AXE_STOMP] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Axe Stomp", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases damage of Axe Tornado." }	}
+StateIconList[EFST_IDs.EFST_AXE_STOMP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Axe Stomp", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Axe Tornado." }
+	}
 }
-StateIconList[EFST_IDs.EFST_A_MACHINE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Activation Attack Machine", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_A_MACHINE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Activation Attack Machine", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Inflicts melee physical damage to nearby" },
-		{ "targets at regular intervals." }	}
+		{ "targets at regular intervals." }
+	}
 }
-StateIconList[EFST_IDs.EFST_D_MACHINE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Activation Defense Machine", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases DEF." },		{ "Increases RES." }	}
+StateIconList[EFST_IDs.EFST_D_MACHINE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Activation Defense Machine", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases DEF." },
+		{ "Increases RES." }
+	}
 }
-StateIconList[EFST_IDs.EFST_SPELL_ENCHANTING] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Spell Enchanting", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases S.MATK " }	}
+StateIconList[EFST_IDs.EFST_SPELL_ENCHANTING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Spell Enchanting", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases S.MATK " }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_CONFLAGRATION] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Blaze", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Grants Fire elemental status and" },
-		{ "decreases HP over time." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_CONFLAGRATION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blaze", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Grants Fire elemental status and" },
+		{ "decreases HP over time." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_DEEPBLIND] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Deep Blind", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Decreases vision," },		{ "FLEE and Perfect Dodge." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_DEEPBLIND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Deep Blind", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases vision," },
+		{ "FLEE and Perfect Dodge." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_DEEPSILENCE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Deep Silence", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Unable to use skills and" },		{ "increases After Attack Delay." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_DEEPSILENCE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Deep Silence", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Unable to use skills and" },
+		{ "increases After Attack Delay." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_LASSITUDE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Lethargy", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Decreases Critical and" },		{ "Movement Speed." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_LASSITUDE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Lethargy", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases Critical and" },
+		{ "Movement Speed." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_FROSTBITE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Rapid Cooling", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Grants Water elemental status and" },		{ "disables Movement, usage of Items and Skills." },		{ "Decrease DEF and MDEF." },		{ "Cancels when taking damage." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_FROSTBITE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Rapid Cooling", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Grants Water elemental status and" },
+		{ "disables Movement, usage of Items and Skills." },
+		{ "Decrease DEF and MDEF." },
+		{ "Cancels when taking damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_SWOONING] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Swooning", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_SWOONING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Swooning", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
 		{ "Disables Movement, usage of Items and Skills." },
 		{ "Increases recieved damage." },
-		{ "Cancels when taking damage." }	}
+		{ "Cancels when taking damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_LIGHTNINGSTRIKE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Torrent", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Grants Wind elemental status and" },
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_LIGHTNINGSTRIKE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Torrent", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Grants Wind elemental status and" },
 		{ "disables Movement, usage of Items and Skills." },
 		{ "Decrease Earth elemental resistances." },
-		{ "Cancels when taking damage." }	}
+		{ "Cancels when taking damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_CRYSTALLIZATION] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Concretion", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Grants Earth elemental status and" },
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_CRYSTALLIZATION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Concretion", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Grants Earth elemental status and" },
 		{ "disables Movement, usage of Items and Skills." },
 		{ "Decrease MDEF." },
-		{ "Cancels when taking damage." }	}
+		{ "Cancels when taking damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_MISFORTUNE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Unlucky", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Decreases HIT and" },		{ "causes skills to fail on usage." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_MISFORTUNE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Unlucky", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases HIT and" },
+		{ "causes skills to fail on usage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_DEADLYPOISON] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Severe Poison", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Decreases Poison resistance." },		{ "Decreases DEF and decreases HP over time." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_DEADLYPOISON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Severe Poison", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases Poison resistance." },
+		{ "Decreases DEF and decreases HP over time." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_DEPRESSION] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Gloomy", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Increases SP Consumption of all skills." },		{ "Decreases SP over time." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_DEPRESSION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Gloomy", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases SP Consumption of all skills." },
+		{ "Decreases SP over time." }
+	}
 }
-StateIconList[EFST_IDs.EFST_HANDICAPSTATE_HOLYFLAME] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Holy Flame", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Recovers HP when recieving magical damage." },		{ "Increases recieved physical damage." }	}
+StateIconList[EFST_IDs.EFST_HANDICAPSTATE_HOLYFLAME] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Holy Flame", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Recovers HP when recieving magical damage." },
+		{ "Increases recieved physical damage." }
+	}
 }
-StateIconList[EFST_IDs.EFST_PROTECTSHADOWEQUIP] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Full Shadow Protection", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Shadow Equipment can't be stripped or destroyed." }	}
+StateIconList[EFST_IDs.EFST_PROTECTSHADOWEQUIP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Full Shadow Protection", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Shadow Equipment can't be stripped or destroyed." }
+	}
 }
-StateIconList[EFST_IDs.EFST_RESEARCHREPORT] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Research Report", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },		{ "Increases damage of acid-type skills." },		{ "Increases damage against Formless and Plant race monsters." }	}
+StateIconList[EFST_IDs.EFST_RESEARCHREPORT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Research Report", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of acid-type skills." },
+		{ "Increases damage against Formless and Plant race monsters." }
+	}
 }
-StateIconList[EFST_IDs.EFST_BO_HELL_DUSTY] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Hell Tree Powder", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME },
-		{ "Increases damage against Formless and Plant race monsters." }	}
+StateIconList[EFST_IDs.EFST_BO_HELL_DUSTY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Hell Tree Powder", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage against Formless and Plant race monsters." }
+	}
 }
 StateIconList[EFST_IDs.EFST_YGGDRASIL_BLESS] = {
 	haveTimeLimit = 1,

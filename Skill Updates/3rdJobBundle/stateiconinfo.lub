@@ -1,0 +1,69 @@
+StateIconList[EFST_IDs.EFST_LG_REFLECTDAMAGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Reflect Damage Reduction", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases recieved reflected damage." }
+	}
+}
+StateIconList[EFST_IDs.EFST_BANDING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Banding", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases DEF for each party member." }
+	}
+}
+StateIconList[EFST_IDs.EFST_INSPIRATION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Inspiration", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases HIT, Stats, ATK, MATK, MaxHP" },
+		{ "Cancel certain buffs and abnormal states." },
+		{ "Decrease HP and SP continuously." }
+	}
+}
+StateIconList[EFST_IDs.EFST_POISON_MIST] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Poison Mist", COLOR_TITLE_DEBUFF }, 
+		{ "%s", COLOR_TIME }, 
+		{ "Decreases FLEE to 0" }
+	}
+}
+StateIconList[EFST_IDs.EFST_PAIN_KILLER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Pain Killer", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "No motion delay upon receiving damage" },
+		{ "Decreases damage taken" }
+	}
+}
+StateIconList[EFST_IDs.EFST_RAISINGDRAGON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2, 
+	descript = {
+		{ "Raising Dragon", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases maximum number of Spirit Sphere" },
+		{ "Increases MaxHP, MaxSP" },
+		{ "Increases ASPD" },
+		{ "Keeps Explosion Spirit state active" }
+	}
+}
+StateIconList[EFST_IDs.EFST_UNLIMIT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Unlimit", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of ranged attack" }
+	}
+}

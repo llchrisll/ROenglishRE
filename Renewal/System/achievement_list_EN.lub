@@ -3443,9 +3443,9 @@ achievement_tbl = {
 		title = "Acquire the first aura!",
 		content = {
 			summary = "Achieve Base Level 99!",
-			details = "Achieve base level 99."
+			details = "Achieve Base Level 99."
 		},
-		resource = { [1] = { text = "Base level 99" } },
+		resource = { [1] = { text = "Base Level 99" } },
 		reward = { title = 1000, buff = 10, item = 12549 },
 		score = 50
 	},
@@ -3457,9 +3457,9 @@ achievement_tbl = {
 		title = "Acquire the second aura!",
 		content = {
 			summary = "Achieve Base Level 150!",
-			details = "Achieve base level 150."
+			details = "Achieve Base Level 150."
 		},
-		resource = { [1] = { text = "Base level 150" } },
+		resource = { [1] = { text = "Base Level 150" } },
 		reward = { title = 1001, buff = 10, item = 5364 },
 		score = 60
 	},
@@ -3471,9 +3471,9 @@ achievement_tbl = {
 		title = "Acquire the third aura!",
 		content = {
 			summary = "Achieve Base Level 175!",
-			details = "Achieve base level 175."
+			details = "Achieve Base Level 175."
 		},
-		resource = { [1] = { text = "Base level 175" } },
+		resource = { [1] = { text = "Base Level 175" } },
 		reward = { title = 1002, buff = 10, item = 18880 },
 		score = 70
 	},
@@ -3848,10 +3848,10 @@ achievement_tbl = {
 		minor = 0,
 		title = "Incarnation of Love and Hate",
 		content = {
-			summary = "Achieve 99 base level as Novice",
-			details = "Achieve 99 base level as Novice class."
+			summary = "Achieve 99 Base Level as Novice",
+			details = "Achieve 99 Base Level as Novice class."
 		},
-		resource = { [1] = { text = "Achieve 99 base level as Novice" } },
+		resource = { [1] = { text = "Achieve 99 Base Level as Novice" } },
 		reward = { buff = 10, item = 16483 },
 		score = 30
 	},
@@ -3862,10 +3862,10 @@ achievement_tbl = {
 		minor = 0,
 		title = "I really love it!",
 		content = {
-			summary = "Achieve 99 base level as 1st classes",
-			details = "Achieve 99 base level as 1st classes."
+			summary = "Achieve 99 Base Level as 1st classes",
+			details = "Achieve 99 Base Level as 1st classes."
 		},
-		resource = { [1] = { text = "Achieve 99 base level as 1st classes" } },
+		resource = { [1] = { text = "Achieve 99 Base Level as 1st classes" } },
 		reward = { buff = 10, item = 16504 },
 		score = 30
 	},
@@ -3889,8 +3889,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "The start of another adventure!",
-		content = { summary = "Achieve Base Lv100!", details = "Achieve Base Lv100." },
-		resource = { [1] = { text = "Base level 100" } },
+		content = {
+			summary = "Achieve Base Lv 100!",
+			details = "Achieve Base Lv 100." 
+		},
+		resource = { [1] = { text = "Base Level 100" } },
 		reward = { item = 23585 },
 		score = 10
 	},
@@ -3904,7 +3907,7 @@ achievement_tbl = {
 			summary = "Achieve Base Lv 170 as 3-1 classes!",
 			details = "Achieve Base Lv 170 as 3-1 classes."
 		},
-		resource = { [1] = { text = "Base level 170" } },
+		resource = { [1] = { text = "Base Level 170" } },
 		reward = { item = 6959 },
 		score = 50
 	},
@@ -3918,9 +3921,23 @@ achievement_tbl = {
 			summary = "Achieve Base Lv 170 as 3-2 classes!",
 			details = "Achieve Base Lv 170 as 3-2 classes."
 		},
-		resource = { [1] = { text = "Base level 170" } },
+		resource = { [1] = { text = "Base Level 170" } },
 		reward = { item = 6959 },
 		score = 50
+	},
+	[200035] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Achieved Level 200!",
+		content = {
+			summary = "Achieve Base Lv 200!",
+			details = "Achieve Base Lv 200."
+		},
+		resource = {[1] = { text = "Base Level 200" } },
+		reward = { buff = 10, item = 400124 },
+		score = 100
 	},
 	[230100] = {
 		UI_Type = 0,

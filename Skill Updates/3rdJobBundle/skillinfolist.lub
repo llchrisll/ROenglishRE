@@ -1,0 +1,184 @@
+	[SKID.RK_WINDCUTTER] = {
+		"RK_WINDCUTTER",
+		SkillName = "Wind Cutter",
+		MaxLv = 5,
+		SpAmount = { 23, 26, 29, 32, 35 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.RK_ENCHANTBLADE, 5 }
+		}
+	},
+	[SKID.LG_REFLECTDAMAGE] = {
+		"LG_REFLECTDAMAGE",
+		SkillName = "Reflect Damage Reduction",
+		MaxLv = 5,
+		SpAmount = { 60, 70, 80, 900, 100 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.CR_REFLECTSHIELD, 5 }
+		}
+	},
+	[SKID.LG_HESPERUSLIT] = {
+		"LG_HESPERUSLIT",
+		SkillName = "Hesperus Lit",
+		MaxLv = 5,
+		SpAmount = { 37, 44, 51, 58, 65 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.LG_PRESTIGE, 3 },
+			{ SKID.LG_BANDING, 3 }
+		}
+	},
+	[SKID.LG_CANNONSPEAR] = {
+		"LG_CANNONSPEAR",
+		SkillName = "Cannon Spear",
+		MaxLv = 5,
+		SpAmount = { 30, 35, 40, 45, 50 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.LG_PINPOINTATTACK, 1 }
+		}
+	},
+	[SKID.NC_ARMSCANNON] = {
+		"NC_ARMSCANNON",
+		SkillName = "Arms Cannon",
+		MaxLv = 5,
+		SpAmount = { 40, 45, 50, 55, 60 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.NC_FLAMELAUNCHER, 2 },
+			{ SKID.NC_COLDSLOWER, 2 }
+		}
+	},
+	[SKID.NC_BOOSTKNUCKLE] = {
+		"NC_BOOSTKNUCKLE",
+		SkillName = "Knuckle Boost",
+		MaxLv = 5,
+		SpAmount = { 5, 10, 15, 20, 25 },
+		bSeperateLv = true,
+		AttackRange = { 11, 11, 11, 11, 11 },
+		_NeedSkillList = {
+			{ SKID.NC_MADOLICENCE, 1 }
+		}
+	},
+	[SKID.NC_AXETORNADO] = {
+		"NC_AXETORNADO",
+		SkillName = "Axe Tornado",
+		MaxLv = 5,
+		SpAmount = { 45, 45, 45, 45, 45 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.NC_TRAININGAXE, 1 }
+		}
+	},
+	[SKID.NC_POWERSWING] = {
+		"NC_POWERSWING",
+		SkillName = "Power Swing",
+		MaxLv = 10,
+		SpAmount = { 20, 22, 24, 26, 28, 30, 32, 34, 36, 38 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.NC_AXEBOOMERANG, 3 }
+		}
+	},
+	[SKID.NC_VULCANARM] = {
+		"NC_VULCANARM",
+		SkillName = "Vulcan Arm",
+		MaxLv = 3,
+		SpAmount = { 9, 12, 15 },
+		bSeperateLv = true,
+		AttackRange = { 13, 13, 13 },
+		_NeedSkillList = {
+			{ SKID.NC_BOOSTKNUCKLE, 2 }
+		}
+	},
+	[SKID.ASC_BREAKER] = {
+		"ASC_BREAKER",
+		SkillName = "Soul Destroyer",
+		MaxLv = 10,
+		SpAmount = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
+		bSeperateLv = true,
+		AttackRange = { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 },
+		_NeedSkillList = {
+			{ SKID.TF_DOUBLE, 5 },
+			{ SKID.TF_POISON, 5 },
+			{ SKID.AS_CLOAKING, 3 },
+			{ SKID.AS_ENCHANTPOISON, 6 }
+		}
+	},
+	[SKID.HW_MAGICPOWER] = {
+		"HW_MAGICPOWER",
+		SkillName = "Mystical Amplification",
+		MaxLv = 10,
+		SpAmount = { 35, 40, 45, 50, 55, 60, 65, 70, 75, 80 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+	},
+	[SKID.SR_DRAGONCOMBO] = {
+		"SR_DRAGONCOMBO",
+		SkillName = "Dragon Combo",
+		MaxLv = 10,
+		SpAmount = { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.MO_TRIPLEATTACK, 5 }
+		}
+	},
+	[SKID.SR_FALLENEMPIRE] = {
+		"SR_FALLENEMPIRE",
+		SkillName = "Fallen Empire",
+		MaxLv = 10,
+		SpAmount = { 18, 21, 24, 27, 30, 33, 36, 39, 42, 45 },
+		bSeperateLv = false,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.SR_DRAGONCOMBO, 3 }
+		}
+	},
+	[SKID.SR_HOWLINGOFLION] = {
+		"SR_HOWLINGOFLION",
+		SkillName = "Howling of Lion",
+		MaxLv = 5,
+		SpAmount = { 70, 70, 70, 70, 70 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_RIDEINLIGHTNING, 3 },
+			{ SKID.SR_ASSIMILATEPOWER, 1 }
+		}
+	},
+	[SKID.RA_ARROWSTORM] = {
+		"RA_ARROWSTORM",
+		SkillName = "Arrow Storm",
+		MaxLv = 10,
+		SpAmount = { 24, 28, 32, 36, 40, 44, 48, 52, 56, 60 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.RA_AIMEDBOLT, 5 }
+		}
+	},
+	[SKID.WM_REVERBERATION] = {
+		"WM_REVERBERATION",
+		SkillName = "Reverberation",
+		MaxLv = 5,
+		SpAmount = { 56, 62, 68, 74, 80 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		NeedSkillList = {
+			[JOBID.JT_MINSTREL] = {
+				{ SKID.BA_DISSONANCE, 5 }
+			},
+			[JOBID.JT_WANDERER] = {
+				{ SKID.DC_UGLYDANCE, 5 }
+			}
+		}
+	},

@@ -1,5 +1,20 @@
 mapTbl = {
-	["iz_d04_i.rsw"] = {		displayName = "Deep Sea Cave",		notifyEnter = true, 
+	["sp_rudus4.rsw"] = {
+		displayName = "4th floor of Rudus, the discarded specimen",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Organic field for discarded specimen",
+			mainTitle = "Rudus 4th Floor"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["amicitia1.rsw"] = {		displayName = "Abandoned Lab Amicitia",		notifyEnter = true,		signName = {			subTitle = "Abandoned Lab Amicitia",			mainTitle = "1st Floor - Comprehensive Lab"		},		backgroundBmp = "dungeon"	},	["amicitia2.rsw"] = {		displayName = "Abandoned Lab Amicitia",		notifyEnter = true,		signName = {			subTitle = "Abandoned Lab Amicitia",			mainTitle = "2nd Floor - Intensive Culture Room"		},		backgroundBmp = "dungeon"	},	["nif_dun01.rsw"] = {		displayName = "Niflheim Dungeon - Dead Man's Banquet Hall",		notifyEnter = true,		signName = {			subTitle = "Niflheim Dungeon - 1st Floor",			mainTitle = "Dead Man's Banquet Hall"		},		backgroundBmp = "dungeon"	},	["nif_dun02.rsw"] = {		displayName = "Niflheim Dungeon - Collapsed Opera House",		notifyEnter = true,		signName = {			subTitle = "Niflheim Dungeon - 2nd Floor",			mainTitle = "Collapsed Opera House"		},		backgroundBmp = "dungeon"	},	["grademk.rsw"] = {		displayName = "Grade Enhancer",		notifyEnter = true,		signName = {			subTitle = "Grade Enhancer"		},		backgroundBmp = "village_s1"	},	["1@4sac.rsw"] = {		displayName = "Shadow Mension",		notifyEnter = true,
+		signName = {
+			mainTitle = "Shadow Mension"		},		backgroundBmp = "field2_s2"	},	["1@4drk.rsw"] = {		displayName = "Dragon's Trail",		notifyEnter = true,
+		signName = {
+			mainTitle = "Dragon's Trail"		},		backgroundBmp = "field2_s2"	},	["1@4win.rsw"] = {		displayName = "Luluca Deep Forest",		notifyEnter = true,
+		signName = {
+			mainTitle = "Luluca Deep Forest"		},		backgroundBmp = "field2_s2"	},	["1@4tro.rsw"] = {		displayName = "Kvashir's Ship",		notifyEnter = true,		signName = {			mainTitle = "Kvashir's Ship"		},		backgroundBmp = "field2_s2"	},	["job4_tro.rsw"] = {		displayName = "Empty Kvashir's Ship",		notifyEnter = true,		signName = {			mainTitle = "Empty Kvashir's Ship"		},		backgroundBmp = "field2_s2"	},	["1@4inq.rsw"] = {		displayName = "Monastery Basement",		notifyEnter = true,		signName = {			mainTitle = "Monastery Basement"		},		backgroundBmp = "field2_s2"	},	["job4_bio.rsw"] = {		displayName = "Secret Garden",		notifyEnter = true,		signName = {			mainTitle = "Secret Garden"		},		backgroundBmp = "field2_s2"	},	["1@4mst.rsw"] = {		displayName = "Euperos Central VT",		notifyEnter = true,		signName = {			mainTitle = "Euperos Central VT"		},		backgroundBmp = "field2_s2"	},	["1@4cdn.rsw"] = {		displayName = "Cave of the Last Ordeal Vision",		notifyEnter = true,		signName = {			mainTitle = "Cave of the Last Ordeal Vision"		},		backgroundBmp = "field2_s2"	},	["1@4igd.rsw"] = {		displayName = "The Battlefield of Justice",		notifyEnter = true,		signName = {			mainTitle = "The Battlefield of Justice"		},		backgroundBmp = "field2_s2"	},	["1@4mag.rsw"] = {		displayName = "Magic Fountain",		notifyEnter = true,		signName = {			mainTitle = "Magic Fountain"		},		backgroundBmp = "field2_s2"	},	["job4_mag.rsw"] = {		displayName = "Magic Fountain",		notifyEnter = true,		signName = {			mainTitle = "Magic Fountain"		},		backgroundBmp = "field2_s2"	},	["tra_fild.rsw"] = {		displayName = "Training ground outside of Prontera",		notifyEnter = true,		signName = {			mainTitle = "Training ground outside of Prontera"		},		backgroundBmp = "field_s2"	},	["iz_d04_i.rsw"] = {		displayName = "Deep Sea Cave",		notifyEnter = true, 
 		signName = {			mainTitle = "Deep Sea Cave"		},		backgroundBmp = "dungeon"	},
 	["iz_d05_i.rsw"] = {		displayName = "Deep Sea Cave",		notifyEnter = true, 
 		signName = {			mainTitle = "Deep Sea Cave"		},		backgroundBmp = "dungeon"	},
@@ -594,13 +609,7 @@ mapTbl = {
 		signName = {			mainTitle = "Splendid Field"		},		backgroundBmp = "field_s2"	},
 	["spl_in01.rsw"] = {		displayName = "Inside Splendide Field Command"	},
 	["spl_in02.rsw"] = {		displayName = "Inside Splendide"	},
-	["bat_c01.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true}
-	, 
-	["bat_c02.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true}
-	, 
-	["bat_c03.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true}
-	, 
-	["mid_camp.rsw"] = {		displayName = "Midgard Expedition Camp",		notifyEnter = true, 
+	["bat_c01.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true	},	["bat_c02.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true	},	["bat_c03.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true	},	["mid_camp.rsw"] = {		displayName = "Midgard Expedition Camp",		notifyEnter = true, 
 		signName = {			subTitle = "Yotunheim",			mainTitle = "Midgard Expedition Camp"		},		backgroundBmp = "village"	},
 	["mid_campin.rsw"] = {		displayName = "Inside Midgard Expedition Camp"	},
 	["man_fild01.rsw"] = {		displayName = "Manuk Field",		notifyEnter = true
@@ -1813,7 +1822,7 @@ main = function()
       if (info.signName).mainTitle ~= nil then
         mainTitle = (info.signName).mainTitle
       end
-      result = AddMapSignName(name, subTitle, mainTitle)
+      result = AddMapSignName(name, subTitle,			mainTitle)
     end
     if info.backgroundBmp ~= nil then
       result = AddMapBackgroundBmp(name, info.backgroundBmp)
