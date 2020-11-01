@@ -110,8 +110,23 @@ Item Description:
 	"Increases HP Recovery Rate by %.",
 	"Increases SP Recovery Rate by %.",
 	"Attack Range: x cells",
+	
+	"Inflict % more damage on ^0033CC<Monster>^000000.",
+	
+	"Increases physical damage against ^FF000<Race/Size/Class>^000000 race/sized/class monsters by %.",
+	"Increases physical damage against ^<Element>^000000 elemental monsters by %.",
+	"Increases magical damage against ^FF000<Race/Size/Class>^000000 race/sized/class monsters by %.",
+	"Increases magical damage against ^<Element>^000000 elemental monsters by %.",
+	"Increases physical and magical damage against ^FF000<Race/Size/Class>^000000 race/sized/class monsters by %.",
+	"Increases physical and magical damage against ^<Element>^000000 elemental monsters by %.",
+	
+	"Decreases damage taken from ^FF000<Race/Size/Class>^000000 race/sized/class monsters by %.",
+	"Decreases damage taken from ^<Element>^000000 elemental monsters by %.",
+	
+	- Consumable Items:
 	^0033CC = Specific Recovery Item
 	^990099Recovery Items^000000
+	"^0000CCEffect:^000000", > Used at buff/heal items
 	
 	> 4th Classes:
 	"POW +",
@@ -181,6 +196,9 @@ Item Description:
 	"When enchanted with ^990099<Equipment>^000000:",
 	
 	- Refine Codings:
+	"^000088Cannot be refined normally.^000000",
+	"^000088Cannot be refined.^000000",
+	
 	"^0000FFFor each Refine Level^000000:",
 	"^0000FFFor each Refine Level^000000 of ^990099<Equipment>^000000:",
 	"^0000FFFor each Refine Level^000000 equal or above ^0000FF+9^000000 of ^990099<Equipment>^000000 and ^990099<Equipment>^000000:",
@@ -189,10 +207,11 @@ Item Description:
 	"^0000FFFor each 2 Refine Levels^000000 of equipped ^990099<Equipment Type>^000000:",
 	"^0000FFFor each 2 Refine Levels^000000:",
 	"^0000FFRefine Level +7^000000:",
+	"^0000FFUp to max +5 Refine Level^000000:",
 	"If ^0000FFRefine Level^000000 of equipped ^990099<Equipment Type>^000000 is ^0000FF+7 or higher^000000:",
+	"If ^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
 	
 	- Refine Codings in combination
-	"If ^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
 	"If ^0000FFtotal Refine Level^000000 of ^990099<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
 	"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+14^000000:",
 	"^0000FFFor each Refine Level^000000 of ^0000FFentire set^000000:",
@@ -235,7 +254,13 @@ Equipment Info:
 Exchange NPC Locations:
 	"<NAVI>^0033CCDesigner Heidam^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI> can exchange it with Costume Enchant Stone Box 5.",
 		
-	"X can be bought from <NAVI>^0033CCCat Hand Salesman Nyarom^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>.",
+	"X  can be obtained from",
+	"^ffffff<NAVI>^4D4DFF[Cat Salesman Nyarom]^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>^000000, ",
+	"by using Silvervine Cat Fruit or Zenny.",
+	
+	"<NAVI>^4D4DFFCentro^000000<INFO>prontera,166,300,0,100,0,0</INFO></NAVI>^000000",
+	"<NAVI>^4D4DFFYves^000000<INFO>malangdo,152,136,0,100,0,0</INFO></NAVI>^000000",
+	"<NAVI>^4D4DFFRS26-1^000000<INFO>sp_cor,98,136,0,100,0,0</INFO></NAVI>^000000",
 	
 	"<NAVI>^0033CCLace La Zard^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
 	"<NAVI>^0033CCAver De Dosh^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
