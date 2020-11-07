@@ -1,5 +1,51 @@
 tblLapineDdukddakBox = {
 	sources = {
+		FullPeneShadow_Mix = {
+			ItemID = 100572,
+			NeedCount = 10,
+			NeedRefineMin = 7,
+			NeedRefineMax = 10, 
+			SourceItems = {
+				{ "페니트레이션슈즈S", 1, 24373 }, 
+				{ "페니트레이션쉴드S", 1, 24374 }, 
+				{ "액서홀리아머S", 1, 24375 }, 
+				{ "엑소커럽트아머S", 1, 24376 }, 
+				{ "드래곤바이브아머S", 1, 24377 }, 
+				{ "시저스헌팅아머S", 1, 24378 }, 
+				{ "피싱인섹트아머S", 1, 24379 }, 
+				{ "페니트레이션이어링S", 1, 24166 }, 
+				{ "페니트레이션펜던트S", 1, 24167 }, 
+				{ "액서큐서너웨폰S", 1, 24156 }, 
+				{ "엑소시스트웨폰S", 1, 24157 }, 
+				{ "헌팅웨폰S", 1, 24158 }, 
+				{ "인섹트넷웨폰S", 1, 24159 }, 
+				{ "피싱웨폰S", 1, 24160 }, 
+				{ "드래곤킬러웨폰S", 1, 24161 }, 
+				{ "커럽트웨폰S", 1, 24162 }, 
+				{ "바이브레이션웨폰S", 1, 24163 }, 
+				{ "홀리워터웨폰S", 1, 24164 }, 
+				{ "시저스웨폰S", 1, 24165 }, 
+				{ "포스액서듀얼웨폰S2", 1, 24328 }, 
+				{ "S_Penetration_Weapon", 1, 24432 }, 
+				{ "S_Penetration_Armor", 1, 24433 }, 
+				{ "S_Exe_Ho_Weapon", 1, 24434 }, 
+				{ "S_Fis_In_Weapon", 1, 24435 }, 
+				{ "S_Sci_Hu_Weapon", 1, 24436 }, 
+				{ "S_Viv_Dr_Weapon", 1, 24437 }, 
+				{ "S_Exo_Co_Weapon", 1, 24438 }
+			},
+			NeedSource_String = "+7 Penetration-type Shadow Equipment"
+		}, 
+		PendantStoneForWork = {
+			ItemID = 100579,
+			NeedCount = 1,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Thanatos_Pendant", 1, 490099 }
+			},
+			NeedSource_String = "Thanatos Pendant"
+		},
 		Egirnion_Box = {
 			ItemID = 100468,
 			NeedCount = 1,
@@ -2088,7 +2134,11 @@ tblLapineDdukddakBox = {
 				{ "C_Leaf_Umbrella", 1, 20605 }, 
 				{ "C크라통왕관_태국", 1, 31143 }, 
 				{ "C_Unicorn_Ornament", 1, 31937 }, 
-				{ "C_Frog_Hood", 1, 31943 }			},
+				{ "C_Frog_Hood", 1, 31943 },
+				{ "C루드후드", 1, 20173 },
+				{ "C_Blessings_Of_Soul", 1, 20522 },
+				{ "C_Gossip_Raven", 1, 31380 },
+				{ "C할로윈모자", 1, 19910 }			},
 			NeedSource_String = "Monster Costumes"
 		}
 	},

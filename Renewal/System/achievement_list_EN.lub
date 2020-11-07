@@ -1,4 +1,40 @@
 achievement_tbl = {
+	[110000] = {
+		UI_Type = 0,
+		group = "EAT",
+		major = 4,
+		minor = 0,
+		title = "Eating at this time won't gain weight",
+		content = {
+			summary = "1 a.m. - Time for an midnight snack.",
+			details = "Bring the food Bigfoot demands to an ambitious perspective"
+		},
+		resource = { [1] = { text = "Bring the food Bigfoot demands to an ambitious perspective" } },
+		reward = {},
+		score = 10
+	},
+	[110001] = {
+		UI_Type = 0,
+		group = "SEE",
+		major = 4,
+		minor = 0,
+		title = "This is a polar fan",
+		content = {
+			summary = "A glimpse into the lives of polar fans",
+			details = "Let's meet all the polar fans flocking to the Wigner family"
+		},
+		resource = {
+			[1] = { text = "Yanggatjip Kyusu" },
+			[2] = { text = "Fine Anak" },
+			[3] = { text = "The Atmospheric Lad" },
+			[4] = { text = "A beautiful wife" },
+			[5] = { text = "Bachelor of Lower Village" },
+			[6] = { text = "Best Anak of Action" },
+			[7] = { text = "The best bachelor of combat power" }
+		},
+		reward = {},
+		score = 10
+	},
 	[120001] = {
 		UI_Type = 0,
 		group = "ADVENTURE",

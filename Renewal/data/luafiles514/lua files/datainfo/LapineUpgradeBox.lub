@@ -1,5 +1,17 @@
 tblLapineUpgradeBox = {
 	targets = {
+		Dark_Stone = {
+			ItemID = 100580,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Red_Force_Pendant", 490100 },
+				{ "Blue_Mental_Pendant", 490101 }
+			},
+			NeedSource_String = "Red Force/Blue Mental Pendant"
+		}, 
 		Egir_Power_Box = {
 			ItemID = 100466,
 			NeedRefineMin = 0,
@@ -4681,6 +4693,56 @@ tblLapineUpgradeBox = {
 				{ "Morrigane_Manyeau_IL", 480054 }
 			},
 			NeedSource_String = "Illusion of Underwater Equipment"
+		},
+		MD_Geffen_Rarmor = {
+			ItemID = 100365,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = false,
+			TargetItems = {
+				{ "MD_Geffen_Suits", 450149 },
+				{ "MD_Geffen_Robe", 450150 }
+			},
+			NeedSource_String = "Geffen Arena Armor"
+		},
+		MD_Geffen_Rhood = {
+			ItemID = 100366,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = false,
+			TargetItems = {
+				{ "MD_Geffen_Hood", 480065 }, 
+				{ "MD_Geffen_Hood2", 480066 }, 
+				{ "MD_Geffen_Hood3", 480067 }, 
+				{ "MD_Geffen_Hood4", 480068 }
+			},
+			NeedSource_String = "Geffen Arena Garment"
+		},
+		MD_Geffen_Racc = {
+			ItemID = 100367,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = false,
+			TargetItems = {
+				{ "MD_Geffen_Ring", 490077 }, 
+				{ "MD_Geffen_Ring2", 490078 }
+			},
+			NeedSource_String = "Geffen Arena Accessory"
+		},
+		MD_Geffen_Rsheild = {
+			ItemID = 100368,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = false,
+			TargetItems = {
+				{ "MD_Geffen_Shield", 460005 }, 
+				{ "MD_Geffen_Shield2", 460006 }
+			},
+			NeedSource_String = "Geffen Arena Shield"
 		}
 	},
 	serverMain = function()
