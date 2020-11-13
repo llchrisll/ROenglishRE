@@ -311,7 +311,7 @@ function JobSkillTab_GetTabName(in_job)
 	local size = #JobSkillTab
 	for seq = 1, size do
 		if in_job == JobSkillTab[seq].job then
-			return JobSkillTab[seq].TabName1st, JobSkillTab[seq].TabName2nd, JobSkillTab[seq].TabName3rd
+			return JobSkillTab[seq].TabName1st, JobSkillTab[seq].TabName2nd, JobSkillTab[seq].TabName3rd, JobSkillTab[seq].TabName4th
 		end
 	end
 end
@@ -330,7 +330,7 @@ function IsSkillUsesAp(SkillID)
 	end
 end
 
-GetLevelUseApAmount = function(SkillID, idx)
+function GetLevelUseApAmount(SkillID, idx)
 	local obj = SKILL_INFO_LIST[SkillID]
 	if nil ~= obj then
 		obj = SKILL_INFO_LIST[SkillID].ApAmount
