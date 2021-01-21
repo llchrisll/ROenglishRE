@@ -6641,3 +6641,17 @@ StateIconList[EFST_IDs.EFST_YGGDRASIL_BLESS] = {
 		{ "HIT +5, FLEE +5" }
 	}
 }
+StateIconList[EFST_IDs.EFST_NOEQUIPWEAPON2] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Strip Shadow Weapon", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Shadow Weapon can't be equipped." }	}}
+StateIconList[EFST_IDs.EFST_NOEQUIPARMOR2] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Strip Shadow Armor", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Shadow Armor can't be equipped." }	}}
+StateIconList[EFST_IDs.EFST_NOEQUIPSHIELD2] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Strip Shadow Shield", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Shadow Shield can't be equipped." }	}}
+StateIconList[EFST_IDs.EFST_NOEQUIPSHOES2] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Strip Shadow Shoes", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Shadow Shoes can't be equipped." }	}}
+StateIconList[EFST_IDs.EFST_NOEQUIPPENDANT2] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Strip Shadow Pendant", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Shadow Pendant can't be equipped." }	}}
+StateIconList[EFST_IDs.EFST_NOEQUIPEARING2] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Strip Shadow Earring", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Shadow Earring can't be equipped." }	}}
+StateIconList[EFST_IDs.EFST_NOEQUIPFULL2] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Strip Shadow Equipment", COLOR_TITLE_DEBUFF },		{ "%s", COLOR_TIME },		{ "Can't equip any Shadow Equipment." }	}}
+StateIconList[EFST_IDs.EFST_CURSE_R_CUBE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Curse of Red Cube", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME }
+	}
+}
+
+StateIconList[EFST_IDs.EFST_CURSE_B_CUBE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Curse of Blue Cube", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME }
+	}
+}

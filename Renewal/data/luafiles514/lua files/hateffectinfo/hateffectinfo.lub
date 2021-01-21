@@ -146,7 +146,8 @@ HatEFID = {
 	HAT_EF_160LV_STAR_E_MBLUE = 145,
 	HAT_EF_99LV_SOUL_R_GRAY = 146,
 	HAT_EF_160LV_SOUL_R_GRAY = 147,
-	HAT_EF_GearWheel = 148
+	HAT_EF_GearWheel = 148,
+	HAT_EF_GIFT_OF_SNOW = 149
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -630,6 +631,13 @@ hatEffectTable = {
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_GIFT_OF_SNOW] = {
+		resourceFileName = "efst_gift_of_snow\\gift_of_snow.str",
+		hatEffectPos = -4,
+		hatEffectPosX = -0.5,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
 	}
 }
 effectHatItemTable = {
@@ -670,7 +678,8 @@ effectHatItemTable = {
 	31768,
 	400073,
 	20547,
-	20548
+	20548,
+	20990
 }
 
 function GetHatEfResName(index)

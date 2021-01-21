@@ -22,20 +22,84 @@ RecommendedQuestInfoList = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
-	[2] = {
-		Title = "Geffen Harvest Festival in May!",
-		IconName = "ico_ev.bmp",
-		Summary = "Enjoy a delicious melon with your family...",
-		BgName = "reco_02.bmp",
+	[81] = {
+		Title = "Constellation Tower",
+		IconName = "ico_sc.bmp",
+		Summary = "Face the new owner",
+		NpcSpr = "4_ED_OSCAR",
+		NpcNavi = "e_tower",
+		NpcPosX = 71,
+		NpcPosY = 115,
+		BgName = "reco_81.bmp",
 		QuestInfo1 = {
-			"In Geffen, the Melon Festival is in full swing!",
-			"Share the joy of harvest with your family and visit",
-			"<NAVI>[Lavender]<INFO>geffen,88,35,0,101,0</INFO></NAVI>!"
+			"^003355The owner has changed?^000000",
+			"It seems that someone has overturned a tower, which was called the Endless Tower.",
+			"In a situation where it is impossible to know what kind of danger it is, someone has to identify the new owner."
 		},
 		QuestInfo2 = {
-			"Melon Festival",
-			"in ^ff0000Geffen^000000!!",
-			"^ff0000Required Level: 20 or higher^000000"
+			"Requirements:",
+			"^990000Base Level 240 or higher^000000"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[82] = {
+		Title = "Traces of Heroes MD Tomb of Regret",
+		IconName = "ico_sc.bmp",
+		Summary = "A demon swordsman who was met in the Tomb of Regret and a demon sword that yearned for blood.",
+		BgName = "reco_82.bmp",
+		NpcSpr = "MD_TIARA",
+		NpcNavi = "dali",
+		NpcPosX = 124,
+		NpcPosY = 88,
+		QuestInfo1 = {
+			"We received a request from the princess of the ruins, that the contractor of the magic sword whom he met at the place has been found.",
+			"The sword roared and the dead body shed tears."
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^990000Base Level 220 or higher^000000"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[83] = {
+		Title = "Unfair Crash Site",
+		IconName = "ico_sc.bmp",
+		Summary = "A story in a place where unfairness fell.",
+		NpcSpr = "4_M_FAIRYANG",
+		BgName = "reco_83.bmp",
+		QuestInfo1 = {
+			"A lapine has discovered something at <NAVI>[Dimensional Rift]<INFO>dali02,137,86,0,101,0</INFO></NAVI>.",
+			"Adventurers were able to go to the place where unfairness fell. Let's explore the now forgotten cavity we found there."
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^990000Base Level 215 or higher^000000"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[84] = {
+		Title = "Geffen Night Arena",
+		IconName = "ico_sc.bmp",
+		Summary = "Hidden Match",
+		NpcSpr = "4_M_YURI",
+		NpcNavi = "geffen_in",
+		NpcPosX = 81,
+		NpcPosY = 60,
+		BgName = "reco_84.bmp",
+		QuestInfo1 = {
+			"^003355Hidden Match^000000",
+			"When the lights in the Geffen Magic Tournament are turned off and the night comes, the real powers hiding their power awaken.",
+			"Let's start a true raw fight that is not covered by showmanship and broadcast scripts."
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^990000Base Level 210 or higher^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"

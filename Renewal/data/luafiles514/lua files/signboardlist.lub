@@ -4,10 +4,17 @@ IT_SPRITE = 2
 IT_SIGNBOARD = 3
 SignBoardList = {
 	{ "Default", 157, 278, 0, IT_BMP, "유저인터페이스\\collection\\꽃가지.bmp", "Cannot enter", "#0x009EBDFF" },
+	{ "prontera", 166, 300, 6, IT_SIGNBOARD, "item\\콜오브네메시스.bmp", "  부스터 프로모션", "#0x00FFFFFF"},
+	{ "sp_cor", 98, 136, 15, IT_SIGNBOARD, "item\\Auto_M_I_Box_A.bmp", " 부스터일루시온인챈트", "#0x00FFFFFF"},
+	{ "malangdo", 152, 136, 0, IT_SIGNBOARD, "item\\C검은고양이후드.bmp", "  부스터 의상 인챈트", "#0x00FFFFFF"},
+	{ "malangdo", 124, 152, 0, IT_SIGNBOARD, "item\\suffragium.bmp", "  기간한정 스톤교환", "#0x00FFFFFF"},
 	{ "prontera", 82, 108, 0, IT_BMP, "유저인터페이스\\information\\over_mkect.bmp" },
-	{ "malangdo", 114, 160, 10, IT_SIGNBOARD, "item\\Volume_Low_Twin.bmp", "  1월 의상 쿠폰 교환", "#0x00FFFFFF" },
-	-- { "moc_para01", 110, 97, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Coin Service", "#0x00FFFFFF" },
-	-- { "moc_para01", 112, 76, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Coin Service", "#0x00FFFFFF" },
+	{ "ein_dun02", 16, 250, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  180Lv미만 출입금지", "#0x00FFFFFF"},
+	{ "odin_tem03", 276, 236, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  180Lv미만 출입금지", "#0x00FFFFFF"},
+	{ "abyss_03", 91, 110, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  190Lv미만 출입금지", "#0x00FFFFFF"},
+	{ "moc_para01", 105, 41, 10, IT_SIGNBOARD, "information\\over_nmtrade.bmp", "  파라마켓", "#0x00FFFFFF"},
+	{ "moc_para01", 110, 97, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Coin Service", "#0x00FFFFFF" },
+	{ "moc_para01", 112, 76, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Coin Service", "#0x00FFFFFF" },
 	{ "prontera", 124, 76, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Warper", "#0x00FFFFFF" },
 	{ "moc_ruins", 68, 164, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Warper", "#0x00FFFFFF" },
 	{ "geffen", 132, 66, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Warper", "#0x00FFFFFF" },
@@ -186,7 +193,6 @@ SignBoardList = {
 	{ "morocc_in", 132, 57, 2, IT_BMP, "유저인터페이스\\information\\over_weaponshop.bmp" },
 	{ "morocc_in", 141, 60, 2, IT_BMP, "유저인터페이스\\information\\over_armorshops.bmp" },
 	{ "morocc_in", 141, 67, 2, IT_BMP, "유저인터페이스\\information\\over_weaponshop.bmp" },
-	{ "morocc_in", 64, 41, 2, IT_BMP, "유저인터페이스\\information\\over_smithy.bmp" },
 	{ "morocc_in", 73, 38, 2, IT_BMP, "유저인터페이스\\information\\over_smithy.bmp" },
 	{ "moc_ruins", 114, 63, 2, IT_BMP, "유저인터페이스\\information\\over_store.bmp" },
 	{ "moc_ruins", 159, 53, 2, IT_BMP, "유저인터페이스\\information\\over_guide.bmp" },
@@ -220,7 +226,6 @@ SignBoardList = {
 	{ "payon", 233, 324, 2, IT_BMP, "유저인터페이스\\information\\over_guide.bmp" },
 	{ "payon_in01", 132, 62, 2, IT_BMP, "유저인터페이스\\information\\over_inn.bmp" },
 	{ "payon_in01", 15, 119, 2, IT_BMP, "유저인터페이스\\information\\over_weaponshop.bmp" },
-	{ "payon_in01", 18, 132, 2, IT_BMP, "유저인터페이스\\information\\over_smithy.bmp" },
 	{ "payon_in01", 5, 129, 2, IT_BMP, "유저인터페이스\\information\\over_weaponshop.bmp" },
 	{ "payon_in01", 5, 49, 2, IT_BMP, "유저인터페이스\\information\\over_store.bmp" },
 	{ "payon_in01", 7, 119, 2, IT_BMP, "유저인터페이스\\information\\over_armorshops.bmp" },
@@ -244,7 +249,6 @@ SignBoardList = {
 	{ "prt_in", 244, 135, 2, IT_BMP, "유저인터페이스\\information\\over_inn.bmp" },
 	{ "prt_in", 61, 141, 2, IT_BMP, "유저인터페이스\\information\\over_inn.bmp" },
 	{ "prt_in", 63, 60, 2, IT_BMP, "유저인터페이스\\information\\over_smithy.bmp" },
-	{ "prt_in", 90, 72, 2, IT_BMP, "유저인터페이스\\information\\over_smithy.bmp" },
 	{ "ra_in01", 175, 364, 2, IT_BMP, "유저인터페이스\\information\\over_armorshops.bmp" },
 	{ "ra_in01", 176, 389, 2, IT_BMP, "유저인터페이스\\information\\over_weaponshop.bmp" },
 	{ "ra_in01", 186, 148, 2, IT_BMP, "유저인터페이스\\information\\over_style.bmp" },
@@ -499,5 +503,6 @@ SignBoardList = {
 	{ "airport", 148, 46, 0, IT_SIGNBOARD, "information\\over_valkyrie_air.bmp", "  Schwartzvald Rebublic", "#0x00FFFFFF" },
 	{ "airport", 138, 46, 0, IT_SIGNBOARD, "information\\over_valkyrie_air.bmp", "  Schwartzvald Rebublic", "#0x00FFFFFF" },
 	{ "lhz_airport", 148, 43, 0, IT_SIGNBOARD, "information\\over_valkyrie_air.bmp", "  Schwartzvald Rebublic", "#0x00FFFFFF" },
-	{ "lhz_airport", 138, 43, 0, IT_SIGNBOARD, "information\\over_valkyrie_air.bmp", "  Schwartzvald Rebublic", "#0x00FFFFFF" }
+	{ "lhz_airport", 138, 43, 0, IT_SIGNBOARD, "information\\over_valkyrie_air.bmp", "  Schwartzvald Rebublic", "#0x00FFFFFF" },
+	{ "prontera", 50, 293, 10, IT_SIGNBOARD, "information\\ebl_manus.bmp", "  등급강화소", "#0x00FFFFFF"}
 }
