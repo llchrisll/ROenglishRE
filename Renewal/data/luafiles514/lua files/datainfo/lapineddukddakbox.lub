@@ -1,5 +1,39 @@
 tblLapineDdukddakBox = {
 	sources = {
+		AbsorbShadow_Mix = {
+			ItemID = 100691,
+			NeedCount = 5,
+			NeedRefineMin = 7,
+			NeedRefineMax = 10,
+			SourceItems = {
+				{ "스피리츄얼웨폰S", 1, 24078 },
+				{ "스피리츄얼이어링S", 1, 24079 },
+				{ "스피리츄얼펜던트S", 1, 24080 },
+				{ "스피리츄얼웨폰S2", 1, 24324 }, 
+				{ "매리셔스아머S", 1, 24081 }, 
+				{ "매리셔스슈즈S", 1, 24082 }, 
+				{ "매리셔스쉴드S", 1, 24083 }, 
+				{ "매리셔스아머S2", 1, 24325 }
+			},
+			NeedSource_String = "Spiritual, Malicious Shadow Equipment"
+		}, 
+		EXPShadow_Mix = {
+			ItemID = 100661,
+			NeedCount = 5,
+			NeedRefineMin = 7,
+			NeedRefineMax = 10,
+			SourceItems = {
+				{ "비기너슈즈S", 1, 24210 }, 
+				{ "비기너쉴드S", 1, 24211 }, 
+				{ "루키슈즈S", 1, 24212 }, 
+				{ "루키쉴드S", 1, 24213 }, 
+				{ "어드벤스드슈즈S", 1, 24214 }, 
+				{ "어드벤스드쉴드S", 1, 24215 }, 
+				{ "익스퍼트슈즈S", 1, 24208 }, 
+				{ "익스퍼트쉴드S", 1, 24209 }
+			},
+			NeedSource_String = "Experience Shadow Equipment"
+		},
 		True_GemShadow_Mix = {			ItemID = 100620,			NeedCount = 6,			NeedRefineMin = 7,			NeedRefineMax = 10, 
 			SourceItems = {				{ "젬스톤슈즈S", 1, 24085 },				{ "젬스톤쉴드S", 1, 24086 },				{ "젬스톤웨폰S", 1, 24087 },				{ "젬스톤이어링S", 1, 24088 },				{ "젬스톤펜던트S", 1, 24089 },				{ "젬스톤아머S", 1, 24084 },				{ "젬스톤웨폰S2", 1, 24335 },				{ "젬스톤쉴드S2", 1, 24336 },				{ "젬스톤이어링S2", 1, 24322 }			},			NeedSource_String = "Gemstone Shadow Equipment"		},		Mammoth_Mix = {			ItemID = 100621,			NeedCount = 6,			NeedRefineMin = 7,			NeedRefineMax = 10, 
 			SourceItems = {				{ "S_Mammoth_Armor", 1, 24669 },				{ "S_Mammoth_Shoes", 1, 24670 },				{ "S_Mammoth_Pendant", 1, 24671 },				{ "S_Mammoth_Earring", 1, 24672 },				{ "S_Mammoth_Weapon", 1, 24673 },				{ "S_Mammoth_Shield", 1, 24674 }			},			NeedSource_String = "Mammoth Shadow Equipment"		},		Shadow_Mix_Recipe2 = {			ItemID = 100600,			NeedCount = 3,			NeedRefineMin = 0,			NeedRefineMax = 20, 

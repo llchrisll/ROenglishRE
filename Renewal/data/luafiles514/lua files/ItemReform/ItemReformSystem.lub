@@ -1,0 +1,2431 @@
+ReformInfo = {
+	[1] = {
+		BaseItem = "C힐윈드_마스크",
+		Material = {},
+		ResultItem = "클럽__",
+		NeedRefineMin = 0,
+		NeedRefineMax = 0,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "BP",
+		PreserveSocketItem = false,
+		PreserveGrade = false,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: 2"
+			"3) Cards and Enchants: Not transfered",
+			"4) Grade Rating: Not transfered"
+		}
+	},
+	[2] = {
+		BaseItem = "C발키리서클릿",
+		Material = {},
+		ResultItem = "클럽_",
+		NeedRefineMin = 0,
+		NeedRefineMax = 0,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = 2,
+		RandomOptionCode = "G0",
+		PreserveSocketItem = false,
+		PreserveGrade = false,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+2^000000",
+			"2) Granted Random Options: Removed",
+			"3) Cards and Enchants: Not transfered",
+			"4) Grade Rating: Not transfered"
+		}
+	},
+	[3] = {
+		BaseItem = "Avd_Knife",
+		Material = { 젤로피 = 10 },
+		ResultItem = "츠루기_",
+		NeedRefineMin = 1,
+		NeedRefineMax = 5,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 3,
+		RandomOptionCode = "BP",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+3^000000",
+			"2) Granted Random Options: 2"
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[4] = {
+		BaseItem = "츠루기_",
+		Material = {},
+		ResultItem = "링",
+		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 2,
+		IsEmptySocket = false,
+		ChangeRefineValue = -2,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-2^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[5] = {
+		BaseItem = "링",
+		Material = { 젤로피 = 10, 솜털 = 10 },
+		ResultItem = "로드클로스",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = false,
+		PreserveGrade = false,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Not transfered",
+			"4) Grade Rating: Not transfered"
+		}
+	},
+	[6] = {
+		BaseItem = "츠루기_",
+		Material = {},
+		ResultItem = "츠루기",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -20,
+		RandomOptionCode = "G0",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Removed",
+			"2) Granted Random Options: Removed",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[7] = {
+		BaseItem = "C힐윈드_마스크",
+		Material = {},
+		ResultItem = "카타르",
+		NeedRefineMin = 0,
+		NeedRefineMax = 0,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 5,
+		RandomOptionCode = "G0",
+		PreserveSocketItem = true,
+		PreserveGrade = false,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+5^000000",
+			"2) Granted Random Options: Removed",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Not transfered"
+		}
+	},
+	[8] = {
+		BaseItem = "해달선풍기",
+		Material = { 젤로피 = 100 },
+		ResultItem = "포링카드",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[9] = {
+		BaseItem = "해달선풍기",
+		Material = { 솜털 = 100 },
+		ResultItem = "포링카드",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[10] = {
+		BaseItem = "오라오라",
+		Material = { 가축의피 = 3, 히나레 = 3, 알로에 = 10, 클로버 = 5, 노래하는풀 = 1, 멘트 = 3 },
+		ResultItem = "새싹",
+		NeedRefineMin = 0,
+		NeedRefineMax = 0,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[11] = {
+		BaseItem = "엠펠리움",
+		Material = { 가축의피 = 3, 히나레 = 3, 알로에 = 10, 클로버 = 5, 노래하는풀 = 1, 멘트 = 3 },
+		ResultItem = "블루젬스톤",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "BP",
+		PreserveSocketItem = true,
+		PreserveGrade = true
+	},
+	[12] = {
+		BaseItem = "타노스의검",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Sword_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[13] = {
+		BaseItem = "타노스의대검",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_TSword_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[14] = {
+		BaseItem = "타노스의망치",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Hammer_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[15] = {
+		BaseItem = "타노스의단검",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Dagger_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[16] = {
+		BaseItem = "타노스의양손지팡이",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Rod_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[17] = {
+		BaseItem = "타노스의윕소드",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Whip_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[18] = {
+		BaseItem = "타노스의바이올린",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Violin_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[19] = {
+		BaseItem = "타노스의지팡이",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Staff_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[20] = {
+		BaseItem = "타노스의창",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Spear_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[21] = {
+		BaseItem = "타노스의카타르",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Katar_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[22] = {
+		BaseItem = "타노스의도끼",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Axe_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[23] = {
+		BaseItem = "타노스의활",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Bow_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[24] = {
+		BaseItem = "타노스의너클",
+		Material = { Weapon_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Knuckle_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[25] = {
+		BaseItem = "타노스의검",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Sword_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[26] = {
+		BaseItem = "타노스의대검",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_TSword_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[27] = {
+		BaseItem = "타노스의망치",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Hammer_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[28] = {
+		BaseItem = "타노스의단검",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Dagger_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[29] = {
+		BaseItem = "타노스의양손지팡이",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Rod_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[30] = {
+		BaseItem = "타노스의윕소드",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Whip_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[31] = {
+		BaseItem = "타노스의바이올린",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Violin_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[32] = {
+		BaseItem = "타노스의지팡이",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Staff_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[33] = {
+		BaseItem = "타노스의창",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Spear_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[34] = {
+		BaseItem = "타노스의카타르",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Katar_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[35] = {
+		BaseItem = "타노스의도끼",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Axe_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[36] = {
+		BaseItem = "타노스의활",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Bow_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[37] = {
+		BaseItem = "타노스의너클",
+		Material = { Weapon_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Knuckle_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[38] = {
+		BaseItem = "Thanos_Sword_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Sword_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[39] = {
+		BaseItem = "Thanos_Dagger_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Dagger_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[40] = {
+		BaseItem = "Thanos_Spear_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Spear_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[41] = {
+		BaseItem = "Thanos_Staff_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Staff_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[42] = {
+		BaseItem = "Thanos_Knuckle_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Knuckle_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[43] = {
+		BaseItem = "Thanos_Violin_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Violin_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[44] = {
+		BaseItem = "Thanos_Whip_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Whip_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[45] = {
+		BaseItem = "Thanos_Hammer_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Hammer_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[46] = {
+		BaseItem = "Thanos_TSword_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_TSword_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[47] = {
+		BaseItem = "Thanos_Katar_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Katar_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[48] = {
+		BaseItem = "Thanos_Axe_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Axe_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[49] = {
+		BaseItem = "Thanos_Rod_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Rod_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[50] = {
+		BaseItem = "Thanos_Bow_AD",
+		Material = { 대장장이의축복 = 14 },
+		ResultItem = "Thanos_Bow_AD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[51] = {
+		BaseItem = "Adulter_F_T_Sword",
+		Material = {
+			Conse_F_T_Sword = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_T_Sword",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[52] = {
+		BaseItem = "Adulter_F_Lance",
+		Material = {
+			Conse_F_Lance = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Lance",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[53] = {
+		BaseItem = "Adulter_F_G_Sword",
+		Material = {
+			Conse_F_G_Sword = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_G_Sword",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[54] = {
+		BaseItem = "Adulter_F_G_Spear",
+		Material = {
+			Conse_F_G_Spear = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_G_Spear",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[55] = {
+		BaseItem = "Adulter_F_Axe",
+		Material = {
+			Conse_F_Axe = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Axe",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[56] = {
+		BaseItem = "Adulter_F_Mace",
+		Material = {
+			Conse_F_Mace = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Mace",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[57] = {
+		BaseItem = "Adulter_F_Lapier",
+		Material = {
+			Conse_F_Lapier = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Lapier",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[58] = {
+		BaseItem = "Adulter_F_Hall",
+		Material = {
+			Conse_F_Hall = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Hall",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[59] = {
+		BaseItem = "Adulter_F_Cakram",
+		Material = {
+			Conse_F_Cakram = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Cakram",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[60] = {
+		BaseItem = "Adulter_F_Katar",
+		Material = {
+			Conse_F_Katar = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Katar",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[61] = {
+		BaseItem = "Adulter_F_Dagger",
+		Material = {
+			Conse_F_Dagger = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Dagger",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[62] = {
+		BaseItem = "Adulter_F_C_Bow",
+		Material = {
+			Conse_F_C_Bow = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_C_Bow",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[63] = {
+		BaseItem = "Adulter_F_T_Staff",
+		Material = {
+			Conse_F_T_Staff = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_T_Staff",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[64] = {
+		BaseItem = "Adulter_F_Rod",
+		Material = {
+			Conse_F_Rod = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Rod",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[65] = {
+		BaseItem = "Adulter_F_M_Book",
+		Material = {
+			Conse_F_M_Book = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_M_Book",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[66] = {
+		BaseItem = "Adulter_F_P_Book",
+		Material = {
+			Conse_F_P_Book = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_P_Book",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[67] = {
+		BaseItem = "Adulter_F_Bible",
+		Material = {
+			Conse_F_Bible = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Bible",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[68] = {
+		BaseItem = "Adulter_F_Wand",
+		Material = {
+			Conse_F_Wand = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Wand",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[69] = {
+		BaseItem = "Adulter_F_Knuckle",
+		Material = {
+			Conse_F_Knuckle = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Knuckle",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[70] = {
+		BaseItem = "Adulter_F_Claw",
+		Material = {
+			Conse_F_Claw = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Claw",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[71] = {
+		BaseItem = "Adulter_F_Ballista",
+		Material = {
+			Conse_F_Ballista = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Ballista",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[72] = {
+		BaseItem = "Adulter_F_A_Bow",
+		Material = {
+			Conse_F_A_Bow = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_A_Bow",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[73] = {
+		BaseItem = "Adulter_F_Violin",
+		Material = {
+			Conse_F_Violin = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Violin",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[74] = {
+		BaseItem = "Adulter_F_C_Rope",
+		Material = {
+			Conse_F_C_Rope = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_C_Rope",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[75] = {
+		BaseItem = "Adulter_F_Harp",
+		Material = {
+			Conse_F_Harp = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Harp",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[76] = {
+		BaseItem = "Adulter_F_Ribbon",
+		Material = {
+			Conse_F_Ribbon = 10,
+			Purificatory_Holy_O = 50,
+			Purificatory_Holy_W = 50,
+			Sanctuary_Sudarium = 50,
+			Ep18_Amethyst_Fragment = 200
+		},
+		ResultItem = "Vivatus_F_Ribbon",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[77] = {
+		BaseItem = "Adulter_F_T_Sword",
+		Material = {
+			Conse_F_T_Sword = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_T_Sword",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[78] = {
+		BaseItem = "Adulter_F_Lance",
+		Material = {
+			Conse_F_Lance = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Lance",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[79] = {
+		BaseItem = "Adulter_F_G_Sword",
+		Material = {
+			Conse_F_G_Sword = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_G_Sword",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[80] = {
+		BaseItem = "Adulter_F_G_Spear",
+		Material = {
+			Conse_F_G_Spear = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_G_Spear",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[81] = {
+		BaseItem = "Adulter_F_Axe",
+		Material = {
+			Conse_F_Axe = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Axe",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[82] = {
+		BaseItem = "Adulter_F_Mace",
+		Material = {
+			Conse_F_Mace = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Mace",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[83] = {
+		BaseItem = "Adulter_F_Lapier",
+		Material = {
+			Conse_F_Lapier = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Lapier",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[84] = {
+		BaseItem = "Adulter_F_Hall",
+		Material = {
+			Conse_F_Hall = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Hall",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[85] = {
+		BaseItem = "Adulter_F_Cakram",
+		Material = {
+			Conse_F_Cakram = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Cakram",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[86] = {
+		BaseItem = "Adulter_F_Katar",
+		Material = {
+			Conse_F_Katar = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Katar",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[87] = {
+		BaseItem = "Adulter_F_Dagger",
+		Material = {
+			Conse_F_Dagger = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Dagger",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[88] = {
+		BaseItem = "Adulter_F_C_Bow",
+		Material = {
+			Conse_F_C_Bow = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_C_Bow",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[89] = {
+		BaseItem = "Adulter_F_T_Staff",
+		Material = {
+			Conse_F_T_Staff = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_T_Staff",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[90] = {
+		BaseItem = "Adulter_F_Rod",
+		Material = {
+			Conse_F_Rod = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Rod",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[91] = {
+		BaseItem = "Adulter_F_M_Book",
+		Material = {
+			Conse_F_M_Book = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_M_Book",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[92] = {
+		BaseItem = "Adulter_F_P_Book",
+		Material = {
+			Conse_F_P_Book = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_P_Book",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[93] = {
+		BaseItem = "Adulter_F_Bible",
+		Material = {
+			Conse_F_Bible = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Bible",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[94] = {
+		BaseItem = "Adulter_F_Wand",
+		Material = {
+			Conse_F_Wand = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Wand",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[95] = {
+		BaseItem = "Adulter_F_Knuckle",
+		Material = {
+			Conse_F_Knuckle = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Knuckle",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[96] = {
+		BaseItem = "Adulter_F_Claw",
+		Material = {
+			Conse_F_Claw = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Claw",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[97] = {
+		BaseItem = "Adulter_F_Ballista",
+		Material = {
+			Conse_F_Ballista = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Ballista",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[98] = {
+		BaseItem = "Adulter_F_A_Bow",
+		Material = {
+			Conse_F_A_Bow = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_A_Bow",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[99] = {
+		BaseItem = "Adulter_F_Violin",
+		Material = {
+			Conse_F_Violin = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Violin",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[100] = {
+		BaseItem = "Adulter_F_C_Rope",
+		Material = {
+			Conse_F_C_Rope = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_C_Rope",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[101] = {
+		BaseItem = "Adulter_F_Harp",
+		Material = {
+			Conse_F_Harp = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Harp",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[102] = {
+		BaseItem = "Adulter_F_Ribbon",
+		Material = {
+			Conse_F_Ribbon = 30,
+			Purificatory_Holy_O = 200,
+			Purificatory_Holy_W = 200,
+			Sanctuary_Sudarium = 200,
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Ribbon",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^FF0000-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[103] = {
+		BaseItem = "Thanos_Helm_1",
+		Material = { Armor_Stone_1 = 100, 흙빛의조각 = 100 },
+		ResultItem = "Thanos_Helm1_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF-5^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[104] = {
+		BaseItem = "Thanos_Helm_1",
+		Material = { Armor_Stone_2 = 100, 흙빛의조각 = 300 },
+		ResultItem = "Thanos_Helm1_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF-1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	}
+}
+ReformItemList = {
+	IDTest_Special = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11
+	},
+	Thanos_W_Reform_1 = {
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24
+	},
+	Thanos_W_Reform_2 = {
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37
+	},
+	Thanos_Refine_Hammer = {
+		38,
+		39,
+		40,
+		41,
+		42,
+		43,
+		44,
+		45,
+		46,
+		47,
+		48,
+		49,
+		50
+	},
+	Consecrate_Weapon_1 = {
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70,
+		71,
+		72,
+		73,
+		74,
+		75,
+		76
+	},
+	Consecrate_Weapon_2 = {
+		77,
+		78,
+		79,
+		80,
+		81,
+		82,
+		83,
+		84,
+		85,
+		86,
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98,
+		99,
+		100,
+		101,
+		102
+	},
+	C_Armor_Reform_1 = {
+		103
+	},
+	C_Armor_Reform_2 = {
+		104
+	}
+}
