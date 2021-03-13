@@ -3108,24 +3108,24 @@ Complete#
 Incomplete#
 (Complete!)#
 (Incomplete)#
-Swap equipment#
+Swap Equipment#
 CHANGE#
-Strength: ^66cc33Melee physical attack power^ffffff, Weight capacity#
-Agility: ^66cc33Attack speed^ffffff, Flee rate, Physical defense#
-Vitality: ^66cc33Maximum HP^ffffff, Physical defense, Magical defense#
-Intelligence: ^66cc33Magical attack power^ffffff, Casting time, Magical defense#
-Dexterity: ^66cc33Long range physical attack^ffffff, Hit rate, Casting time, Magical attack power#
-Luck: ^66cc33Critical hit rate^ffffff, Hit rate, Physical attack power, Magical attack power, Perfect dodge#
-Physical attack#
-Physical defense#
-Hit rate#
-Critical hit rate#
-Affiliated guild#
+Strength: ^66cc33ATK^ffffff and ^66cc33Weight Capacity^ffffff#
+Agility: ^66cc33ASPD, FLEE^ffffff and ^66cc33DEF^ffffff#
+Vitality: ^66cc33MaxHP, DEF^ffffff and ^66cc33MDEF^ffffff#
+Intelligence: ^66cc33MATK, Casting Time^ffffff and ^66cc33MDEF^ffffff#
+Dexterity: ^66cc33Ranged ATK, HIT, MATK^ffffff and ^66cc33Casting Time^ffffff#
+Luck: ^66cc33Critical, HIT, ATK, MATK^ffffff and ^66cc33Perfect Dodge^ffffff#
+Physical Damage#
+Physical Defense#
+Hit Rate#
+Critical Rate#
+Affiliated Guild#
 Status point#
-Magical attack#
-Magical defense#
-Flee rate#
-Attack speed#
+Magical Damage#
+Magical Defense#
+Flee Rate#
+Attack Speed#
 Shortcut Description#
 Effect#
 Skill shortcut (F1 ~ F9)#
@@ -3611,20 +3611,20 @@ Stop#
 Rights for Free Movement#
 %d hours, %s %d#
 Using Free Pass#
-Character Status#
-Power:\nIncreases ^cc0000Physical Attack Power and Attribute Attack Power^ffffff#
-Stamina:\nIncreases ^cc0000Physical Resistance^ffffff#
-Wisdom:\nIncreases ^cc0000Magical Resistance^ffffff#
-Spell:\nIncreases ^cc0000Magical Attack power^ffffff#
-Concentration:\nIncreases ^cc0000Accuracy, Evasion and Physical/Magical Damage^ffffff#
-Creative:\nIncreases ^cc0000Natural Health Recovery and Critical Rate^ffffff#
-Natural Physical Attack#
-Natural Magic Damage#
+Attribute Status#
+Power: ^66cc33Status ATK^ffffff and ^66cc33P.ATK^ffffff#
+Stamina: ^66cc33Physical Resistance^ffffff#
+Wisdom: ^66cc33Magical Resistance^ffffff#
+Spell: ^66cc33Status MATK^ffffff and ^66cc33S.MATK^ffffff#
+Concentration: ^66cc33HIT, FLEE, P.ATK^ffffff and ^66cc33S.MATK^ffffff#
+Creative: ^66cc33H.Plus^ffffff and ^66cc33C.RATE^ffffff#
+Final Physical Damage#
+Final Magic Damage#
 Physical Resistance#
 Magical Resistance#
-Natural Health Recovery#
-Critical Rate#
-Points used to level up attributes#
+Heal Plus#
+Critical Damage Rate#
+Attribute Points available#
 J.Lv#
 AP#
 Go to destination#
@@ -3723,90 +3723,89 @@ Change Material#
 Alphabetical Sort#
 - [%s] %d ~%d production#
 Success %d%%#
-You can only tag items you have.#
-Attack and talent damage increased.#
-The strong belief effect has been released.#
-HP and physical resistance increased.#
-The firm belief effect has been lifted.#
-Attack speed and guided attack chance increased.#
-The faithful belief effect has been released.#
-POW, CRT and CON have been increased.#
-The Benedictum effect has been released.#
-SPL, WIS and CRT have been increased.#
-Relizio effect has been canceled.#
-Talent attack power and talent magic attack power increased.#
-The Competentia effect has been removed.#
-Critical damage ratio increased.#
-The Presence Archies effect has been released.#
-Ignored the physical resistance.#
-The Argutus Tellroom effect has been released.#
-Ignored the magic resistance.#
-The Argutus Vita effect has been removed.#
-Num: %d /%d Weight: %d /%d#
-The Servant Weapon effect has been removed.#
-The charging pierce effect has been canceled.#
-Vigor effect has been canceled.#
-Damage increased, defense decreased.#
-The attack stance effect has been released.#
-Defense increased, attack power decreased.#
-Guard Stance effect has been released.#
-Barrier granted.#
-Guardian Shield effect has been released.#
-The damage taken by the devotion effect has been reduced.#
-The rebound shield effect has been released.#
-Increased property magic damage and Shadow/Undead resistance.#
-The Holy Shield effect has been released.#
+ATK and P.ATK has been increased.#
+The Powerful Faith effect has been canceled.#
+HP and Res has been increased.#
+The Firm Faith effect has been canceled.#
+Attack Speed and Perfect Hit chance has been increased.#
+The Sincere Faith has been canceled.#
+POW, CRT and CON has been increased.#
+The Benedictum effect has been canceled.#
+SPL, WIS and CRT has been increased.#
+Religio effect has been canceled.#
+P.ATK and S.MATK has been increased.#
+The Competentia effect has been canceled.#
+Critical damage chance has been increased.#
+The Presens Acies effect has been canceled.#
+The effect of ignoring Res been granted.#
+The Argutus Telum effect has been canceled.#
+The effect of ignoring M.Res been granted.#
+The Argutus Vita effect has been canceled.#
+Num: %d/%d Weight: %d/%d#
+The Servant Weapon effect has been canceled.#
+The Charging Pierce effect has been canceled.#
+The Vigor effect has been canceled.#
+Attack Power has been increased and Defense decreased.#
+The Attack Stance effect has been canceled.#
+Defense has been increased and Attack Power decreased.#
+The Guard Stance effect has been canceled.#
+Guardian Barrier has been granted.#
+The Guardian Barrier effect has been canceled.#
+The damage taken by the Devotion effect will be decreased.#
+The Rebound Shield effect has been canceled.#
+Holy elemental magic damage and Shadow/Undead elemental resistance has been increased.#
+The Holy Shield effect has been canceled.#
 Instant resurrection effect was granted.#
-Ultimate Secretify effect has been canceled.#
-The effectiveness of certain skills has changed.#
-The climax effect is off.#
-The effectiveness of certain skills has changed.#
-Shadow Extreme effect has been released.#
-Ignored the physical resistance.#
-Potent Bennum effect has been released.#
-Each attack has a chance to increase the target's damage.#
-Enchanting Shadow effect has been canceled.#
-Subtotal Count On#
-Subtotal Count Off#
-Target AP is the maximum.#
-?^ff0000You can withdraw your subscription within 7 days of purchasing this item. However, if 7 days have passed or the item is opened, it will be excluded from the withdrawal of subscription. Also, the free cash used at the time of purchase will not be returned when the subscription is withdrawn. Some (event) items may be deleted at the end of the event, Please confirm the deletion period listed. ^000000 Are you sure you want to purchase the item? %d Cash will be deducted when purchasing.#
-?^ff0000You can withdraw your subscription within 7 days of purchasing this item. However, if 7 days have passed or the item is opened, it will be excluded from the withdrawal of subscription. Also, the free cash used at the time of purchase will not be returned when the subscription is withdrawn. Some (event) items may be deleted at the end of the event, Please confirm the deletion period listed. ^000000 Are you sure you want to purchase the item? When purchasing, the regular %d cache and free% d cache will be deducted.#
-Requires %d Servant Weapon.#
+Ultimate Sacrifice effect has been canceled.#
+The effects of certain skills has changed.#
+The Climax effect has been canceled.#
+The effects of certain skills have returned to normal.#
+The Shadow Exceed effect has been canceled.#
+The effect of ignoring Res has been granted.#
+The Potent Venom effect has been canceled.#
+The Shadow Wound status can be inflicted on your enemy with a chance on each physical attacks#
+The Enchanting Shadow effect has been canceled.#
+Suppression Count On#
+Suppression Count Off#
+The target has reached it's maximum AP.#
+^ff0000You can withdraw your subscription within 7 days of purchasing this item. However, if 7 days have passed or the item is opened, it will be excluded from the withdrawal of subscription. Also, the free cash used at the time of purchase will not be returned when the subscription is withdrawn. Some (event) items may be deleted at the end of the event, Please confirm the deletion period listed. ^000000 Are you sure you want to purchase the item? %d Cash will be deducted when purchasing.#
+^ff0000You can withdraw your subscription within 7 days of purchasing this item. However, if 7 days have passed or the item is opened, it will be excluded from the withdrawal of subscription. Also, the free cash used at the time of purchase will not be returned when the subscription is withdrawn. Some (event) items may be deleted at the end of the event, Please confirm the deletion period listed. ^000000 Are you sure you want to purchase the item? When purchasing, the regular %d cache and free% d cache will be deducted.#
+Requires %d Servant Weapons#
 https://member.gnjoy.com.tw/billing.aspx#
 Reverse sort#
 Enter your search#
 Search#
-Research report status.#
-The research report status is cleared.#
+The Research Report Status will be displayed.#
+The Research Report Status has been cleared.#
 Successful manufacturing.#
 Manufacturing failed.#
-Shadow gear is protected from destruction and unlocking.#
-Full shadow protection is released.#
-Damage to plant-type and intangible monsters increases.#
-The effect of the hell tree powder disappears.#
-Attack device has been activated.#
-Attack device has been released.#
-Physical defense and physical resistance increased.#
-The defense has been released.#
+Shadow Equipment is protected from destruction and disarming.#
+The Full Shadow Protection has been canceled.#
+Damage against Plant and Formless race monsters has been increased.#
+The Hell Tree Powder effect has disappeared.#
+The Attack Device has been activated.#
+The Attack Device has been disabled.#
+DEF and RES increased.#
+The Defense Device has been disabled.#
 Search#
-You can use ensemble alone.#
-Kvashir's wisdom is lost.#
-The effect of Mystic Symphony is given.#
-The effect of Mystic Symphony disappears.#
-Magic resistance reduced.#
-Gephenia Nocturne's effect has been canceled.#
-Physical resistance decreased.#
-Minewalker Rhapsody has been released.#
-Physical resistance increased.#
-Musical Interlude status is off.#
-Talent magic damage and movement speed increased.#
-The serenade effect of the evening glow has been canceled.#
-Talent increased physical damage and movement speed.#
-?Prontera's streak effect has been lifted.#
-Wind anger flows into the caster.#
-The state of Calamity is released.#
-Weakness and appearance are revealed by the wind. #
-The wind sign effect disappears.#
+You can now use Ensemble skills alone.#
+The Sonata of Kvasir effect has been canceled.#
+The effect of Mystic Symphony has been granted.#
+The effect of Mystic Symphony has been canceled.#
+M.Res decreased.#
+The Geffenia Nocturne effect has been canceled.#
+Res decreased.#
+The Rhapsody of Mineworker effect has been canceled.#
+Res increased.#
+The Musical Interlude effect has been canceled.#
+S.MATK and Movement Speed increased.#
+The Serenade of Jawaii effect has been canceled.#
+P.ATK and Movement Speed increased.#
+The March of Prontera effect has been canceled.#
+The rage of the wind flows into the caster's body.#
+The Calamity Gale effect has been canceled.#
+Your weakness and appearance are revealed by the wind.#
+The Wind Sign effect has been canceled.#
 E X P : %.1f%% ( basic 100.0%% %s %.1f%%)#
 DROP  : %.1f%% ( basic 100.0%% %s %.1f%%)#
 DEATH : %.1f%% ( basic 100.0%% %s %.1f%%)#
