@@ -1,0 +1,17 @@
+dofile("data/luafiles514/lua files/datainfo/shadowtable_custom.lub")
+
+function ReqshadowFactor(shadowID)
+	if ShadowFactorTable == nil then
+		return -1
+	end
+	if ShadowFactorTable_Custom == nil then
+		return -1
+	end
+	if ShadowFactorTable[shadowID] ~= nil then
+		return ShadowFactorTable[shadowID]
+	end
+	if ShadowFactorTable_Custom[shadowID] ~= nil then
+		return ShadowFactorTable_Custom[shadowID]
+	end
+	return -1
+end
