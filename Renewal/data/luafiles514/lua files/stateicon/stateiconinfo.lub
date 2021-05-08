@@ -235,8 +235,7 @@ StateIconList[EFST_IDs.EFST_BANDING] = {
 	descript = {
 		{ "Banding", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "If in range of Royal Guard with Banding" },
-		{ "Increase ATK and DEF and shares HP" }
+		{ "Increases DEF for each party member." }
 	}
 }
 StateIconList[EFST_IDs.EFST_NJ_BUNSINJYUTSU] = {
@@ -776,10 +775,9 @@ StateIconList[EFST_IDs.EFST_LG_REFLECTDAMAGE] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Reflect Damage", COLOR_TITLE_BUFF },
+		{ "Reflect Damage Reduction", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Reflect portion of physical damage to the surrounding" },
-		{ "Consume certain amount of SP every sec" }
+		{ "Decreases recieved reflected damage." }
 	}
 }
 StateIconList[EFST_IDs.EFST_PROTECTSHIELD] = {
@@ -1452,13 +1450,15 @@ StateIconList[EFST_IDs.EFST_TOXIN] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_RAISINGDRAGON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2, 
 	descript = {
 		{ "Raising Dragon", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
 		{ "Increases maximum number of Spirit Sphere" },
 		{ "Increases MaxHP, MaxSP" },
 		{ "Increases ASPD" },
-		{ "Keeps Explosion spirit state active" },
-		{ "Consume certain amount of HP every sec" }
+		{ "Keeps Explosion Spirit state active" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HARMONIZE] = {
@@ -1553,11 +1553,9 @@ StateIconList[EFST_IDs.EFST_INSPIRATION] = {
 	descript = {
 		{ "Inspiration", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases HIT, Stats, ATK, MaxHP" },
-		{ "Cancel certain buffs and abnormal states" },
-		{ "Decrease HP, SP continuously" },
-		{ "Cancel all kinds of buffs and abnormal states" },
-		{ "Lose certain amount of EXP" }
+		{ "Increases HIT, Stats, ATK, MATK, MaxHP" },
+		{ "Cancel certain buffs and abnormal states." },
+		{ "Decrease HP and SP continuously." }
 	}
 }
 StateIconList[EFST_IDs.EFST_FOOD_DEX] = {
@@ -2074,7 +2072,7 @@ StateIconList[EFST_IDs.EFST_POISON_MIST] = {
 	descript = {
 		{ "Poison Mist", COLOR_TITLE_DEBUFF }, 
 		{ "%s", COLOR_TIME }, 
-		{ "Decreases FLEE" }
+		{ "Decreases FLEE to 0" }
 	}
 }
 StateIconList[EFST_IDs.EFST_STONE_WALL] = {
@@ -2341,9 +2339,8 @@ StateIconList[EFST_IDs.EFST_PAIN_KILLER] = {
 	descript = {
 		{ "Pain Killer", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Reduced Attack Speed" },
 		{ "No motion delay upon receiving damage" },
-		{ "Reduces damage taken" }
+		{ "Decreases damage taken" }
 	}
 }
 StateIconList[EFST_IDs.EFST_LIGHT_OF_REGENE] = {
@@ -3276,12 +3273,11 @@ StateIconList[EFST_IDs.EFST_REBOUND] = {
 }
 StateIconList[EFST_IDs.EFST_UNLIMIT] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 4,
+	posTimeLimitStr = 2,
 	descript = {
-		{ "No Limit", COLOR_TITLE_BUFF },
-		{ "Increases damage of ranged attack" },
-		{ "Greatly reduce DEF and MDEF" },
-		{ "%s", COLOR_TIME }
+		{ "Unlimit", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of ranged attack" }
 	}
 }
 StateIconList[EFST_IDs.EFST_KINGS_GRACE] = {

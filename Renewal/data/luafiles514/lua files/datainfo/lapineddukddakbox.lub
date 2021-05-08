@@ -1,5 +1,20 @@
 tblLapineDdukddakBox = {
 	sources = {
+		MajorAutoSpell_Mix = {
+			ItemID = 100783,
+			NeedCount = 6,
+			NeedRefineMin = 7,
+			NeedRefineMax = 10,
+			SourceItems = {
+				{ "S_AutoSpell_Shoes", 1, 24724 }, 
+				{ "S_AutoSpell_Armor", 1, 24723 }, 
+				{ "S_AutoSpell_Weapon", 1, 24725 }, 
+				{ "S_AutoSpell_Shield", 1, 24722 }, 
+				{ "S_AutoSpell_Earring", 1, 24727 }, 
+				{ "S_AutoSpell_Pendant", 1, 24726 }
+			},
+			NeedSource_String = "Auto Spell Shadow Equipment"
+		}, 
 		AbsorbShadow_Mix = {
 			ItemID = 100691,
 			NeedCount = 5,

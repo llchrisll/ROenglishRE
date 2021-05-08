@@ -147,7 +147,13 @@ HatEFID = {
 	HAT_EF_99LV_SOUL_R_GRAY = 146,
 	HAT_EF_160LV_SOUL_R_GRAY = 147,
 	HAT_EF_GearWheel = 148,
-	HAT_EF_GIFT_OF_SNOW = 149
+	HAT_EF_GIFT_OF_SNOW = 149,
+	HAT_EF_Snow_Powder = 150,
+	HAT_EF_Falling_Snow = 151,
+	HAT_EF_C_Phigasia_Scarf_EXE = 152,
+	HAT_EF_C_Kyel_hyre_Ulti_TW = 153,
+	HAT_EF_C_Master = 154,
+	HAT_EF_C_Time_Accessory = 155
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -638,6 +644,52 @@ hatEffectTable = {
 		hatEffectPosX = -0.5,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_Snow_Powder] = {
+		resourceFileName = "efst_Snow_Powder\\ssnnnn2.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_Falling_Snow] = {
+		resourceFileName = "efst_Falling_Snow\\Falling_Snow.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 1,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Phigasia_Scarf_EXE] = {
+		resourceFileName = "efst_C_Phigasia_Scarf_EXE\\singa.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isIgnoreRiding = false,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	}, 
+	[HatEFID.HAT_EF_C_Kyel_hyre_Ulti_TW] = {
+		resourceFileName = "EFST_Kyel_hyre_Ulti_TW\\tentaKaiser.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Master] = {
+		resourceFileName = "efst_C_Master\\13123123.str",
+		hatEffectPos = -7,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Time_Accessory] = {
+		resourceFileName = "efst_time_accessory\\time_accessory.str",
+		hatEffectPos = -5.5,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
 	}
 }
 effectHatItemTable = {
@@ -679,7 +731,8 @@ effectHatItemTable = {
 	400073,
 	20547,
 	20548,
-	20990
+	20990,
+	480097
 }
 
 function GetHatEfResName(index)
