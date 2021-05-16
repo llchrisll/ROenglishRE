@@ -114,16 +114,20 @@ Item Description:
 	
 	"Inflict % more damage on ^0033CC<Monster>^000000.",
 	
-	"Increases physical damage against ^FF000<Race/Size/Class>^000000 race/sized/class monsters by %.",
-	"Increases physical damage against ^<Element>^000000 elemental monsters by %.",
-	"Increases magical damage against ^FF000<Race/Size/Class>^000000 race/sized/class monsters by %.",
-	"Increases magical damage against ^<Element>^000000 elemental monsters by %.",
-	"Increases physical and magical damage against ^FF000<Race/Size/Class>^000000 race/sized/class monsters by %.",
-	"Increases physical and magical damage against ^<Element>^000000 elemental monsters by %.",
-	"Increases physical and magical damage on Memorial Dungeon's ^0033CC<Instance Name>^000000 monsters by 15%.",
+	"Increases Physical Damage against monsters with ^FF000<Race/Size/Class>^000000 race/size/class by %.",
+	"Increases Physical Damage against monsters with ^<Element>^000000 element by %.",
+	"Increases Physical Damage against enemies of all races/sizes/classes by %.",
 	
-	"Decreases damage taken from ^FF000<Race/Size/Class>^000000 race/sized/class monsters by %.",
-	"Decreases damage taken from ^<Element>^000000 elemental monsters by %.",
+	"Increases Magical Damage against monsters with ^FF000<Race/Size/Class>^000000 race/size/class monsters by %.",
+	"Increases Magical Damage against monsters with ^<Element>^000000 element by %.",
+	"Increases Magical Damage against enemies of all races/sizes/classes by %.",
+	
+	"Increases Physical and Magical Damage against monsters with ^FF000<Race/Size/Class>^000000 race/size/class by %.",
+	"Increases Physical and Magical Damage against monsters with ^<Element>^000000 element by %.",
+	"Increases Physical and Magical Damage against monsters in Memorial Dungeon's ^0033CC<Instance Name>^000000 by 15%.",
+	
+	"Decreases damage taken from monsters with ^FF000<Race/Size/Class>^000000 race/size/class by %.",
+	"Decreases damage taken from monsters with ^<Element>^000000 element by %.",
 	
 	- Consumable Items:
 	^0033CC = Specific Recovery Item
@@ -288,6 +292,7 @@ Exchange NPC Locations:
 	"<NAVI>^0033CCBeginner's Weapon Manager^000000<INFO>prontera,157,191,0,100,0,0</INFO></NAVI>^000000",
 	"Take it to <NAVI>^0033CCEquipment Support Manager^000000<INFO>prontera,157,279,0,100,0,0</INFO></NAVI>^000000.",
 	"Take it to <NAVI>^4D4DFFCentro^000000<INFO>prontera,148,282,0,100,0,0</INFO></NAVI>^000000 and exchange it for one of the items below:",
+	"Go to <NAVI>^4D4DFFSpecial Equipment Researcher^000000<INFO>rgsr_in,136,171,0,100,0,0</INFO></NAVI> to upgrade your helmet.",
 	
 Shadow Equipment:
 	Armor: "A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
@@ -313,7 +318,7 @@ Enchant Stones:
 
 Grade Options:
 	"^CC3D3D[Additional Options by Grade]^000000",
-	"[Grade D]: Effect>",
+	"[Grade D]: Effect",
 
 	Refine Level:
 	<Effect> per ^0000FF2 Refine Levels^000000
