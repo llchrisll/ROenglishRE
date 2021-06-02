@@ -114,20 +114,27 @@ Item Description:
 	
 	"Inflict % more damage on ^0033CC<Monster>^000000.",
 	
-	"Increases Physical Damage against monsters with ^FF000<Race/Size/Class>^000000 race/size/class by %.",
-	"Increases Physical Damage against monsters with ^<Element>^000000 element by %.",
+	"Increases all elemental magic damage by %", > "Increases Magical Damage with every element by %.",
+	"Increases Physical and Magical Damage" > "Increases Damage"
+	
+	"Increases Physical Damage against monsters of ^FF0000<Race/Size/Class>^000000 race/size/class by %.",
+	"Increases Physical Damage against monsters of every race/size/class by %.",
+	"Increases Physical Damage against monsters of ^<Element>^000000 element by %.",
 	"Increases Physical Damage against enemies of all races/sizes/classes by %.",
 	
-	"Increases Magical Damage against monsters with ^FF000<Race/Size/Class>^000000 race/size/class monsters by %.",
-	"Increases Magical Damage against monsters with ^<Element>^000000 element by %.",
+	"Increases Magical Damage against monsters of ^FF0000<Race/Size/Class>^000000 race/size/class monsters by %.",
+	"Increases Magical Damage against monsters of every race/size/class by %.",
+	"Increases Magical Damage against monsters of ^<Element>^000000 element by %.",
 	"Increases Magical Damage against enemies of all races/sizes/classes by %.",
 	
-	"Increases Physical and Magical Damage against monsters with ^FF000<Race/Size/Class>^000000 race/size/class by %.",
-	"Increases Physical and Magical Damage against monsters with ^<Element>^000000 element by %.",
-	"Increases Physical and Magical Damage against monsters in Memorial Dungeon's ^0033CC<Instance Name>^000000 by 15%.",
+	"Increases Damage against monsters of ^FF0000<Race/Size/Class>^000000 race/size/class by %.",
+	"Increases Damage against monsters of every race/size/class by %.",
+	"Increases Damage against monsters of ^<Element>^000000 element by %.",
+	"Increases Damage against monsters in Memorial Dungeon's ^0033CC<Instance Name>^000000 by 15%.",
 	
-	"Decreases damage taken from monsters with ^FF000<Race/Size/Class>^000000 race/size/class by %.",
-	"Decreases damage taken from monsters with ^<Element>^000000 element by %.",
+	"Decreases damage taken from monsters of ^FF000<Race/Size/Class>^000000 race/size/class by %.",
+	"Decreases damage taken from monsters of every race/size/class by %.",
+	"Decreases damage taken from monsters of ^<Element>^000000 element by %.",
 	
 	- Consumable Items:
 	^0033CC = Specific Recovery Item
@@ -162,8 +169,8 @@ Item Description:
 	"When ^0033CC<Base Class>^000000 classes uses ^009900<Skill List>^000000 or ^009900<Last Skill>^000000:",
 	
 	"Enables interrupted skill casting.",
-	"Nullifies Gemstone requirement of certain skills.",
-	"Nullifies weapon damage size penalty against all monsters.",
+	"Nullifies Gemstone Requirement of certain skills.",
+	"Nullifies Weapon Size Penalty.",
 	
 	"Decreases ^009900<Skill>^000000 skill cooldown by seconds.",
 	"Decreases ^009900<Skill>^000000 skill cooldown by second.",
