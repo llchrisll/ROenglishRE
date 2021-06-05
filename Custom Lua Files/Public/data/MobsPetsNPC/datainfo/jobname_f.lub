@@ -1,0 +1,148 @@
+require "System/LuaFiles514/clua_f";
+CLuaInit(5)
+
+function ReqJobName(jobID)
+	if JobNameTable[jobID] ~= nil then
+		return JobNameTable[jobID]
+	end
+	if JobNameTable_Custom ~= nil then
+		return ""
+	end
+	if JobNameTable_Custom[jobID] ~= nil then
+		return JobNameTable_Custom[jobID]
+	end
+	return ""
+end
+
+function GetJobString(jobID)
+	for k, v in pairs(jobtbl) do
+		if v == jobID then
+			return k
+		end
+	end
+	for k, v in pairs(jobtbl_custom) do
+		if v == jobID then
+			return k
+		end
+	end
+	return ""
+end
+
+function GetPetIllustName(jobID)
+	filePath = "유저인터페이스\\illust\\"
+	fileName = "펫_포링.bmp"
+	if PetIllustNameTable[jobID] ~= nil then
+		fileName = PetIllustNameTable[jobID]
+	end
+	if PetIllustNameTable_Custom[jobID] ~= nil then
+		fileName = PetIllustNameTable_Custom[jobID]
+	end
+	return filePath .. fileName
+end
+
+function GetPetIllustName_V2(jobID, in_bResEnglishName)
+	local filePath = "UserInterface\\illust\\"
+	local fileName = "PET_PORING.bmp"
+	if in_bResEnglishName == true then
+		if PetIllustNameTable_Eng[jobID] ~= nil then
+			fileName = PetIllustNameTable_Eng[jobID]
+		end
+		if PetIllustNameTable_Eng_Custom[jobID] ~= nil then
+			fileName = PetIllustNameTable_Eng_Custom[jobID]
+		end
+	else
+		return GetPetIllustName(jobID)
+	end
+	return filePath .. fileName
+end
+
+function GetPetIllustName_V3(jobID)
+	local filePath = "UserInterface\\illust\\"
+	local fileName = "PET_NOIMAGE.bmp"
+	if PetIllustNameTable_Eng[jobID] ~= nil then
+		fileName = PetIllustNameTable_Eng[jobID]
+	end
+	if PetIllustNameTable_Eng_Custom[jobID] ~= nil then
+		fileName = PetIllustNameTable_Eng_Custom[jobID]
+	end
+	return filePath .. fileName
+end
+
+function GetPetAccActName(accID)
+	local filePath = "몬스터\\"
+	local fileName = "chocho_방독면.act"
+	if PetAccActNameTable[accID] ~= nil then
+		fileName = PetAccActNameTable[accID]
+	end
+	if PetAccActNameTable_Custom[accID] ~= nil then
+		fileName = PetAccActNameTable_Custom[accID]
+	end
+	return filePath .. fileName
+end
+
+function GetPetAccActName_V2(accID, in_bResEnglishName)
+	local filePath = "Monster\\"
+	local fileName = "ACC_CHOCHO.act"
+	if in_bResEnglishName == true then
+		if PetAccActNameTable_Eng[accID] ~= nil then
+			fileName = PetAccActNameTable_Eng[accID]
+		end
+		if PetAccActNameTable_Eng_Custom[accID] ~= nil then
+			fileName = PetAccActNameTable_Eng_Custom[accID]
+		end
+	else
+		return GetPetAccActName(accID)
+	end
+	return filePath .. fileName
+end
+
+function IsPetAccessory(accID)
+	if accID > PetAccIDs.ACC_FIRST and accID < PetAccIDs.ACC_LAST then
+		return true
+	end
+	if accID > PetAccIDs_Custom.ACC_FIRST and accID < PetAccIDs_Custom.ACC_LAST then
+		return true
+	end
+	return false
+end
+
+function GetPetName(jobID)
+	petName = "poring"
+	if PetNameTable[jobID] ~= nil then
+		petName = PetNameTable[jobID]
+	end
+	if PetNameTable_Custom[jobID] ~= nil then
+		petName = PetNameTable_Custom[jobID]
+	end
+	return petName
+end
+
+function GetPetString(jobID)
+	if PetStringTable[jobID] ~= nil then
+		return PetStringTable[jobID]
+	end
+	if PetStringTable_Custom[jobID] ~= nil then
+		return PetStringTable_Custom[jobID]
+	end
+	return ""
+end
+
+function GetPetJTID_by_PetEggITID(petEggITID)
+	if PetEggItemID_PetJobID[petEggITID] ~= nil then
+		return PetEggItemID_PetJobID[petEggITID]
+	end
+	if PetEggItemID_PetJobID_Custom[petEggITID] ~= nil then
+		return PetEggItemID_PetJobID_Custom[petEggITID]
+	end
+	return -1
+end
+
+function GetPetFood(jobID)
+	if PetFoodTable[jobID] ~= nil then
+		return PetFoodTable[jobID]
+	end
+	if PetFoodTable_Custom[jobID] ~= nil then
+		return PetFoodTable_Custom[jobID]
+	end
+	return -1
+end

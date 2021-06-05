@@ -1,0 +1,18 @@
+require "System/LuaFiles514/clua_f";
+CLuaInit(8)
+
+function ReqshadowFactor(shadowID)
+	if ShadowFactorTable == nil then
+		return -1
+	end
+	if ShadowFactorTable_Custom == nil then
+		return -1
+	end
+	if ShadowFactorTable[shadowID] ~= nil then
+		return ShadowFactorTable[shadowID]
+	end
+	if ShadowFactorTable_Custom[shadowID] ~= nil then
+		return ShadowFactorTable_Custom[shadowID]
+	end
+	return -1
+end
