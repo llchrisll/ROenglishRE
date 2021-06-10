@@ -1,0 +1,19 @@
+HatEFID_CLS= {
+	-- HAT_EF_ = <ID>
+}
+hatEffectTable_CLS = {
+-- resourceFileName is linked to "data\texture\effect\"
+-- folder can be named as you like and doesn't have to contain efst_
+--[[	[HatEFID_CLS.HAT_EF_] = {
+		resourceFileName = "efst_\\.str",
+		hatEffectPos = -4,
+		hatEffectPosX = 1,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	}, 
+	[HatEFID_CLS.HAT_EF_] = { hatEffectID_CLS = 120 },
+]]
+}
+effectHatItemTable_CLS = {
+	-- ItemID's for hateffects with no 'hatEffectID'
+}

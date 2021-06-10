@@ -5,45 +5,22 @@ Important Note:
 	reporting it and PM me with your custom stuff
 	so I can test them efficiently since I'm too lazy to search for stuff like that.
 	
-	Before using any of these files be sure to make a backup of your original ones.
+	Before using any of these files be sure to make a backup of your original clients.
 	You have been warned!
 
-It's pretty self-explanatory how to use these, but here is simple guide:
-
-1. Basic Layout
-	The only files which have to be overwritten are the `_f.lub` in most cases.
-	There are a few exceptions, which requires the original files as well:
-	* HatEffectInfo
-	* LapineBox
-	* TB_Layer_Priority
-	* Title Table
+Installation:
+	Note: Currently I only can provide support via WARP, maybe in the future I will be able to add it for NEMO as well.
 	
-	Generally the `Public\System` folder is already setup to be implemented in your own client folder,
-	every file in `System\LuaFiles514\CLS` is already encoded and empty.
-	You can delete every unneeded file, which you don't wanna use.
-	
-2. Required Core Lua File
-	The `Public\System\LuaFiles514\clua_f.lua` is a simple file with some data and the core file of this setup, without this you will recieve errors.
-	The default extension of the files in `Public\System\LuaFiles514\CLS` are read as `*.lub`,
-	if you want to use `*.lua` then you need to edit the `Public\System\LuaFiles514\clua_f.lua` file at this line:
-	`dofile("System/LuaFiles514/CLS/" .. v .. ".lub")` and exchange the `".lub"` with `".lua"`.
-	Be careful about the path at the beginning as that is mostly inserted in the `_f.lub` as well.
-
-3. Files for your Custom Stuff
-	As mentioned above, depending on what lua files you want to use you need to overwrite certain `_f.lub` files in the respective folders.
-	In `Public\data\` you can find the folders depending on lua files you want to use.
-	Just move content of those folders in the `data\luafiles514\lua files\` folder,
-	and as mentioned above, make a backup in case.
-	
-4. Lua To Lub Converter
-	I also added the tool to encode your files, here is how to use it:
-	1. Insert your custom values in the `*.lua` files in `RAW\LuaFiles\`
-	2. Run the `LuaToLub.bat` file
-	3. Now your .lua files are encoded .lub files in the `ENCODED` folder.
-	4. Move these .lub files into your `System\luafiles\CLS` folder.
-	
-	Note: You can also use the unencoded .lub files in `RAW\LubFiles\` folder.
-	So it's up to you what you want to use.
+1. WARP
+    With the latest update, it's now possible to use WARP to allow the reading of these files inside the GRF.
+	But for this to work you need to check `Custom Lua Files/WARP` folder and do the following:
+	1. Open `Patches.yml` in the WARP folder and follow the steps from `Custom Lua Files/WARP/Patches.yml`.
+	2. Copy&Paste the `Custom Lua Files/WARP/Patches/CustomLuaSupport.qjs` and add it in your `WARP/Patches/` folder
+	3. Take the content of `Custom Lua Files/Client` and add it in your GRF.
+	   Don't worry, nothing will be overwritten as it's done via seperate folder:
+	   `data/luafiles514/lua files/cls/`
+	4. Now take the original files with your custom entries/values and insert them the same as you did.
+	5. Test it and report any issues you might experience.
 
 * Tested Files:
 	- Mob/NPC/Pets
@@ -60,7 +37,7 @@ It's pretty self-explanatory how to use these, but here is simple guide:
 
 * Files which I can't currently test:
 	- HatEffectInfo
-	- LapineBox
+	- LapineBoxes
 
 Regards,
 Houndeye aka llchrisll

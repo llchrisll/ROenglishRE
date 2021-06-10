@@ -1,0 +1,53 @@
+function ReqRobSprName(index)
+	if RobeNameTable[index] == nil then
+		return ""
+	end
+	local NameMsg = RobeNameTable[index]
+	if NameMsg ~= nil then
+		return NameMsg
+	end
+	if RobeNameTable_CLS[index] == nil then
+		return ""
+	end
+	local NameMsg = RobeNameTable_CLS[index]
+	if NameMsg ~= nil then
+		return NameMsg
+	else
+		return ""
+	end
+end
+function ReqRobSprName_V2(index, in_bResEnglishName)
+	if in_bResEnglishName == true then
+		if RobeNameTable_Eng[index] == nil then
+			return ""
+		end
+		local NameMsg = RobeNameTable_Eng[index]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
+		if RobeNameTable_Eng_CLS[index] == nil then
+			return ""
+		end
+		local NameMsg = RobeNameTable_Eng_CLS[index]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
+		return ""
+	else
+		return ReqRobSprName(index)
+	end
+end
+
+function IsTopLayer(RobeID)
+	for i,v in ipairs(RobeTopLayer) do
+		if v == RobeID then
+			return true
+		end
+	end
+	for i,v in ipairs(RobeTopLayer_CLS) do
+		if v == RobeID then
+			return true
+		end
+	end
+	return false
+end

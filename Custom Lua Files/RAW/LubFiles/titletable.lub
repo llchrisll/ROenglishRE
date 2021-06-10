@@ -1,4 +1,0 @@
-title_tbl_custom = {
-	-- Title ID = "Name of Title"
-	-- [1000] = "Junction of life"
-}

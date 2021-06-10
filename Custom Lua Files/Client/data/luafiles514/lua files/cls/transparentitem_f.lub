@@ -1,0 +1,9 @@
+function querytransparentiteminfo(Index)
+	if transparentItemlist[Index] ~= nil then
+		return transparentItemlist[Index][1], transparentItemlist[Index][2], transparentItemlist[Index][3], transparentItemlist[Index][4]
+	end
+	if transparentItemlist_CLS[Index] ~= nil then
+		return transparentItemlist_CLS[Index][1], transparentItemlist_CLS[Index][2], transparentItemlist_CLS[Index][3], transparentItemlist_CLS[Index][4]
+	end
+	return nil, nil, nil, nil
+end

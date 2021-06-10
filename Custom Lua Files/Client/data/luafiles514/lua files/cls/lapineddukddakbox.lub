@@ -1,0 +1,28 @@
+tblLapineDdukddakBox_CLS = {
+	sources = {
+		--[[ Note: Following comments might be not correct!
+		CustomDukBox = { -- Item Name in Database or just in lua file
+			ItemID -- Item ID of Box
+			NeedCount -- Required amount of materials listed in 'SourceItems'
+			NeedRefineMin -- Required minimum Refine Level of each
+			NeedRefineMax -- Required maximum Refine Level of each
+			SourceItems = { -- List of possible materials
+				{ "Either File Name, Item DB Entry or just a item name for overview", <Min amount per exchange>, <Item ID> }
+			},
+			NeedSource_String -- "Text Display of required items"
+		}
+		]]
+		CustomDukBox = {
+			ItemID = 360000,
+			NeedCount = 1,
+			NeedRefineMin = 7,
+			NeedRefineMax = 10,
+			SourceItems = {
+				{ "SimpleItemDisplay", 1, 35000 },
+				{ "SimpleItemDisplay", 1, 35001 },
+				{ "SimpleItemDisplay", 1, 35002 }
+			},
+			NeedSource_String = "Test Text"
+		}
+	}
+}

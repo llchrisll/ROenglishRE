@@ -1,0 +1,15 @@
+function ReqshadowFactor(shadowID)
+	if ShadowFactorTable == nil then
+		return -1
+	end
+	if ShadowFactorTable_CLS == nil then
+		return -1
+	end
+	if ShadowFactorTable[shadowID] ~= nil then
+		return ShadowFactorTable[shadowID]
+	end
+	if ShadowFactorTable_CLS[shadowID] ~= nil then
+		return ShadowFactorTable_CLS[shadowID]
+	end
+	return -1
+end

@@ -1,0 +1,27 @@
+Weapon_IDs_CLS = {
+	-- Weapon Type = View ID
+	-- WEAPONTYPE_ = 1
+}
+
+WeaponNameTable_CLS = {
+	-- Weapon ID = File Names
+	-- Redirects to "¿Œ∞£¡∑\<Class>\<Class>_<Gender>_<Value>"
+	-- [Weapon_IDs.WEAPONTYPE_] = ""
+}
+
+Expansion_Weapon_IDs_CLS = {
+	-- Redirects the custom weapon type to a already existing one
+	-- For custom weapon types, you need to use Weapon_IDs_CLS.WEAPONTYPE_ instead of Weapon_IDs.WEAPONTYPE_
+	-- [Weapon_IDs_CLS.WEAPONTYPE_] = Weapon_IDs.WEAPONTYPE_
+}
+
+WeaponHitWaveNameTable_CLS = {
+	-- Weapon ID = Wav File Name
+	-- Needed only for custom weapon types
+	-- [Weapon_IDs_CLS.WEAPONTYPE_] = ".wav"
+}
+
+BowTypeList_CLS = {
+	-- Weapon ID > Weapon Type
+	-- Weapon_IDs_CLS.WEAPONTYPE_
+}
