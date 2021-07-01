@@ -153,7 +153,14 @@ HatEFID = {
 	HAT_EF_C_Phigasia_Scarf_EXE = 152,
 	HAT_EF_C_Kyel_hyre_Ulti_TW = 153,
 	HAT_EF_C_Master = 154,
-	HAT_EF_C_Time_Accessory = 155
+	HAT_EF_C_Time_Accessory = 155,
+	HAT_EF_C_Helm_Of_Ra = 156,
+	HAT_EF_C_2021RTC_Headset_TW = 157,
+	HAT_EF_C_MoonStar_Accessory = 158,
+	HAT_EF_BLACK_THUNDER = 159,
+	HAT_EF_BLACK_THUNDER_DARK = 160,
+	HAT_EF_C_Released_Ground = 161,
+	HAT_EF_C_Samba_Carnival = 162
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -690,6 +697,47 @@ hatEffectTable = {
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
+	}, 
+	[HatEFID.HAT_EF_C_Helm_Of_Ra] = {
+		resourceFileName = "C_Helm_Of_Ra\\HelmOfSun3.str",
+		hatEffectPos = -12,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isIgnoreRiding = true
+	},
+	[HatEFID.HAT_EF_C_2021RTC_Headset_TW] = {
+		resourceFileName = "C_2021RTC_Headset_TW\\hd.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isIgnoreRiding = true
+	},
+	[HatEFID.HAT_EF_C_MoonStar_Accessory] = {
+		resourceFileName = "moonstar.str",
+		hatEffectPos = -5.5,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_BLACK_THUNDER] = { hatEffectID = 2346 },
+	[HatEFID.HAT_EF_BLACK_THUNDER_DARK] = { hatEffectID = 2347 },
+	[HatEFID.HAT_EF_C_Released_Ground] = {
+		resourceFileName = "C_Released_Ground\\ki.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Samba_Carnival] = {
+		resourceFileName = "efst_C_Samba_Carnival\\twinklestar.str",
+		hatEffectPos = -5,
+		hatEffectPosX = 6,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
 	}
 }
 effectHatItemTable = {
@@ -732,7 +780,8 @@ effectHatItemTable = {
 	20547,
 	20548,
 	20990,
-	480097
+	480097,
+	400149
 }
 
 function GetHatEfResName(index)

@@ -2406,7 +2406,1268 @@ ReformInfo = {
 	[202] = {		BaseItem = "Up_Iron_Nail_K",		Material = { Weapon_Stone_3 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150, M_Dimension_Essence = 1 },		ResultItem = "Iron_Nail_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>조합 결과 정보 안내</B>",			"1) 제련도 : ^4D4DFF+1^000000",			"2) 랜덤 옵션 정보 : 이전됨",			"3) 카드 및 인챈트 정보 : 이전됨",			"4) 등급 정보 : 이전됨"		}	},
 	[203] = {		BaseItem = "Up_Ray_Knuckle",		Material = { Weapon_Stone_3 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150, M_Dimension_Essence = 1 },		ResultItem = "Ray_Knuckle_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>조합 결과 정보 안내</B>",			"1) 제련도 : ^4D4DFF+1^000000",			"2) 랜덤 옵션 정보 : 이전됨",			"3) 카드 및 인챈트 정보 : 이전됨",			"4) 등급 정보 : 이전됨"		}	},
 	[204] = {		BaseItem = "Thanos_Helm_4",		Material = { ["대장장이의축복"] = 14 },		ResultItem = "Thanos_Helm_4",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>조합 결과 정보 안내</B>",			"1) 제련도 : ^4D4DFF+1^000000",			"2) 랜덤 옵션 정보 : 유지됨",			"3) 카드 및 인챈트 정보 : 유지됨",			"4) 등급 정보 : 유지됨"		}	},
-	[205] = {		BaseItem = "Thanos_Helm4_LT",		Material = { ["대장장이의축복"] = 14 },		ResultItem = "Thanos_Helm4_LT",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>조합 결과 정보 안내</B>",			"1) 제련도 : ^4D4DFF+1^000000",			"2) 랜덤 옵션 정보 : 유지됨",			"3) 카드 및 인챈트 정보 : 유지됨",			"4) 등급 정보 : 유지됨"}
+	[205] = {		BaseItem = "Thanos_Helm4_LT",		Material = { ["대장장이의축복"] = 14 },		ResultItem = "Thanos_Helm4_LT",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>조합 결과 정보 안내</B>",			"1) 제련도 : ^4D4DFF+1^000000",			"2) 랜덤 옵션 정보 : 유지됨",			"3) 카드 및 인챈트 정보 : 유지됨",			"4) 등급 정보 : 유지됨"
+		}
+	}, 
+	[206] = {
+		BaseItem = "타노스의검",
+		Material = { },
+		ResultItem = "Thanos_Sword_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[207] = {
+		BaseItem = "타노스의대검",
+		Material = { },
+		ResultItem = "Thanos_TSword_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[208] = {
+		BaseItem = "타노스의망치",
+		Material = { },
+		ResultItem = "Thanos_Hammer_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[209] = {
+		BaseItem = "타노스의단검",
+		Material = { },
+		ResultItem = "Thanos_Dagger_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[210] = {
+		BaseItem = "타노스의양손지팡이",
+		Material = { },
+		ResultItem = "Thanos_Rod_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[211] = {
+		BaseItem = "타노스의윕소드",
+		Material = { },
+		ResultItem = "Thanos_Whip_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[212] = {
+		BaseItem = "타노스의바이올린",
+		Material = { },
+		ResultItem = "Thanos_Violin_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[213] = {
+		BaseItem = "타노스의지팡이",
+		Material = { },
+		ResultItem = "Thanos_Staff_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[214] = {
+		BaseItem = "타노스의창",
+		Material = { },
+		ResultItem = "Thanos_Spear_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[215] = {
+		BaseItem = "타노스의카타르",
+		Material = { },
+		ResultItem = "Thanos_Katar_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[216] = {
+		BaseItem = "타노스의도끼",
+		Material = { },
+		ResultItem = "Thanos_Axe_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[217] = {
+		BaseItem = "타노스의활",
+		Material = { },
+		ResultItem = "Thanos_Bow_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[218] = {
+		BaseItem = "타노스의너클",
+		Material = { },
+		ResultItem = "Thanos_Knuckle_AD",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[219] = {
+		BaseItem = "Thanos_Helm_1",
+		Material = { },
+		ResultItem = "Thanos_Helm1_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[220] = {
+		BaseItem = "Thanos_Helm_2",
+		Material = { },
+		ResultItem = "Thanos_Helm2_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[221] = {
+		BaseItem = "Thanos_Helm_3",
+		Material = { },
+		ResultItem = "Thanos_Helm3_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[222] = {
+		BaseItem = "Thanos_Helm_4",
+		Material = { },
+		ResultItem = "Thanos_Helm4_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[223] = {
+		BaseItem = "Up_Saint_Hall",
+		Material = { },
+		ResultItem = "Saint_Hall_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[224] = {
+		BaseItem = "Up_Undine_Spear_K",
+		Material = { },
+		ResultItem = "Undine_Spear_K_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[225] = {
+		BaseItem = "Up_Demon_Hunting_Bible",
+		Material = { },
+		ResultItem = "Demon_Hunting_Bible_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[226] = {
+		BaseItem = "Up_Light_Blade",
+		Material = { },
+		ResultItem = "Light_Blade_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[227] = {
+		BaseItem = "Up_Magic_Sword",
+		Material = { },
+		ResultItem = "Magic_Sword_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[228] = {
+		BaseItem = "Up_Fatalist",
+		Material = { },
+		ResultItem = "Fatalist_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[229] = {
+		BaseItem = "Up_Iron_Staff",
+		Material = { },
+		ResultItem = "Iron_Staff_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[230] = {
+		BaseItem = "Up_Blue_Crystal_Staff",
+		Material = { },
+		ResultItem = "Blue_Crystal_Staff_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[231] = {
+		BaseItem = "Up_Shadow_Staff_K",
+		Material = { },
+		ResultItem = "Shadow_Staff_K_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[232] = {
+		BaseItem = "Up_Freezing_Rod",
+		Material = { },
+		ResultItem = "Freezing_Rod_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[233] = {
+		BaseItem = "Up_Iron_Nail_K",
+		Material = { },
+		ResultItem = "Iron_Nail_K_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[234] = {
+		BaseItem = "Up_Ray_Knuckle",
+		Material = { },
+		ResultItem = "Ray_Knuckle_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[235] = {
+		BaseItem = "Saint_Hall_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Saint_Hall_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[236] = {
+		BaseItem = "Undine_Spear_K_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Undine_Spear_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[237] = {
+		BaseItem = "Demon_Hunting_Bible_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Demon_Hunting_Bible_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[238] = {
+		BaseItem = "Light_Blade_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Light_Blade_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[239] = {
+		BaseItem = "Magic_Sword_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Magic_Sword_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[240] = {
+		BaseItem = "Fatalist_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Fatalist_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[241] = {
+		BaseItem = "Iron_Staff_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Iron_Staff_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[242] = {
+		BaseItem = "Blue_Crystal_Staff_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Blue_Crystal_Staff_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[243] = {
+		BaseItem = "Shadow_Staff_K_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Shadow_Staff_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[244] = {
+		BaseItem = "Freezing_Rod_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Freezing_Rod_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[245] = {
+		BaseItem = "Iron_Nail_K_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Iron_Nail_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[246] = {
+		BaseItem = "Ray_Knuckle_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Ray_Knuckle_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[247] = {
+		BaseItem = "휘케바인의귀",
+		Material = {Armor_Stone_1 = 100, ["고양이인형"] = 50 },
+		ResultItem = "Whikebain_Ears_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-5^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[248] = {
+		BaseItem = "휘케바인의귀",
+		Material = {Armor_Stone_2 = 100, ["고양이인형"] = 100 },
+		ResultItem = "Whikebain_Ears_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[249] = {
+		BaseItem = "Up_Sword_Of_Bluefire",
+		Material = { },
+		ResultItem = "Sword_Of_Bluefire_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[250] = {
+		BaseItem = "Up_Slate_Sword",
+		Material = { },
+		ResultItem = "Slate_Sword_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[251] = {
+		BaseItem = "Up_Royal_Bow_K",
+		Material = { },
+		ResultItem = "Royal_Bow_K_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[252] = {
+		BaseItem = "Up_Scalet_Dragon_L_Bow",
+		Material = { },
+		ResultItem = "Scalet_Dragon_L_Bow_LT",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : 유지됨",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[253] = {
+		BaseItem = "Sword_Of_Bluefire_LT",
+		Material = { ["대장장이의축복"] = 14 },
+		ResultItem = "Sword_Of_Bluefire_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[254] = {
+		BaseItem = "Slate_Sword_LT",
+		Material = { ["대장장이의축복"] = 14 },
+		ResultItem = "Slate_Sword_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[255] = {
+		BaseItem = "Royal_Bow_K_LT",
+		Material = { ["대장장이의축복"] = 14 },
+		ResultItem = "Royal_Bow_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[256] = {
+		BaseItem = "Scalet_Dragon_L_Bow_LT",
+		Material = {["대장장이의축복"] = 14 },
+		ResultItem = "Scalet_Dragon_L_Bow_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 유지됨",
+			"3) 카드 및 인챈트 정보 : 유지됨",
+			"4) 등급 정보 : 유지됨"
+		}
+	},
+	[257] = {
+		BaseItem = "Up_Sword_Of_Bluefire",
+		Material = { Weapon_Stone_1 = 100, Bio_Test_Fragment = 100, Bio_Reseearch_Docu = 50 },
+		ResultItem = "Sword_Of_Bluefire_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-5^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[258] = {
+		BaseItem = "Up_Slate_Sword",
+		Material = { Weapon_Stone_1 = 100, Bio_Test_Fragment = 100, Bio_Reseearch_Docu = 50 },
+		ResultItem = "Slate_Sword_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-5^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[259] = {
+		BaseItem = "Up_Royal_Bow_K",
+		Material = { Weapon_Stone_1 = 100, Bio_Test_Fragment = 100, Bio_Reseearch_Docu = 50 },
+		ResultItem = "Royal_Bow_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-5^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[260] = {
+		BaseItem = "Up_Scalet_Dragon_L_Bow",
+		Material = { Weapon_Stone_1 = 100, Bio_Test_Fragment = 100, Bio_Reseearch_Docu = 50 },
+		ResultItem = "Scalet_Dragon_L_Bow_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -5,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-5^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[261] = {
+		BaseItem = "Up_Sword_Of_Bluefire",
+		Material = { Weapon_Stone_2 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150 },
+		ResultItem = "Sword_Of_Bluefire_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[262] = {
+		BaseItem = "Up_Slate_Sword",
+		Material = { Weapon_Stone_2 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150 },
+		ResultItem = "Slate_Sword_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[263] = {
+		BaseItem = "Up_Royal_Bow_K",
+		Material = { Weapon_Stone_2 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150 },
+		ResultItem = "Royal_Bow_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[264] = {
+		BaseItem = "Up_Scalet_Dragon_L_Bow",
+		Material = { Weapon_Stone_2 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150 },
+		ResultItem = "Scalet_Dragon_L_Bow_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = -1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^FF0000-1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[265] = {
+		BaseItem = "Up_Sword_Of_Bluefire",
+		Material = { Weapon_Stone_3 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150, M_Dimension_Essence = 1 },
+		ResultItem = "Sword_Of_Bluefire_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[266] = {
+		BaseItem = "Up_Slate_Sword",
+		Material = { Weapon_Stone_3 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150, M_Dimension_Essence = 1 },
+		ResultItem = "Slate_Sword_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[267] = {
+		BaseItem = "Up_Royal_Bow_K",
+		Material = { Weapon_Stone_3 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150, M_Dimension_Essence = 1 },
+		ResultItem = "Royal_Bow_K_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
+	},
+	[268] = {
+		BaseItem = "Up_Scalet_Dragon_L_Bow",
+		Material = { Weapon_Stone_3 = 100, Bio_Test_Fragment = 300, Bio_Reseearch_Docu = 150, M_Dimension_Essence = 1 },
+		ResultItem = "Scalet_Dragon_L_Bow_LT",
+		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = true,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>조합 결과 정보 안내</B>",
+			"1) 제련도 : ^4D4DFF+1^000000",
+			"2) 랜덤 옵션 정보 : 이전됨",
+			"3) 카드 및 인챈트 정보 : 이전됨",
+			"4) 등급 정보 : 이전됨"
+		}
 	}
 }
 ReformItemList = {
@@ -2451,5 +3712,26 @@ ReformItemList = {
 	},
 	Shadow_Changer_W_Shi = {
 		171, 172
+	},
+	Thanos_Upgrade_Box = {
+		206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222
+	},
+	Hero_Weapon_Up_Box_1 = {
+		223, 224, 225, 226, 227, 228
+	},
+	Hero_Weapon_Up_Box_2 = {
+		229, 230, 231, 232, 233, 234
+	}, 
+	Hero_Weapon_Hammer_1 = {
+		235, 236, 237, 238, 239, 240
+	},
+	Hero_Weapon_Hammer_2 = {
+		241, 242, 243, 244, 245, 246
+	},
+	Hero_Weapon_Up_Box_3 = {
+		249, 250, 251, 252
+	},
+	Hero_Weapon_Hammer_3 = {
+		253, 254, 255, 256
 	}
 }
