@@ -1,4 +1,13 @@
 mapTbl = {
+	["ant_d02_i.rsw"] = {
+		displayName = "Garden of Awareness",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Illusion",
+			mainTitle = "Garden of Awareness"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["wolfvill.rsw"] = {
 		displayName = "Gray Wolf Village",
 		notifyEnter = true,
@@ -80,7 +89,7 @@ mapTbl = {
 		backgroundBmp = "dungeon_s2"
 	},
 	["sp_rudus4.rsw"] = {
-		displayName = "4th floor of Rudus, the discarded specimen",
+		displayName = "4th floor of Rudus, The discarded specimen",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Organic field for discarded specimen",
@@ -706,8 +715,8 @@ mapTbl = {
 	["que_dan02.rsw"] = {		displayName = "Inside of the Abandoned House in Yuno"	},
 	["schg_que01.rsw"] = {		displayName = "Morestone Prairie",		notifyEnter = true, 
 		signName = {			mainTitle = "Morestone Prairie"		},		backgroundBmp = "noname_s2"	},
-	["schg_dun01.rsw"] = {		displayName = "Schwartzvald Guild Dungeon",		notifyEnter = true, 
-		signName = {			subTitle = "Schwartzvald",			mainTitle = "Guild Dungeon"		},		backgroundBmp = "dungeon"	},
+	["schg_dun01.rsw"] = {		displayName = "Schwartzwald Guild Dungeon",		notifyEnter = true, 
+		signName = {			subTitle = "Schwartzwald",			mainTitle = "Guild Dungeon"		},		backgroundBmp = "dungeon"	},
 	["arug_que01.rsw"] = {		displayName = "Morestone Prairie",		notifyEnter = true, 
 		signName = {			mainTitle = "Morestone Prairie"		},		backgroundBmp = "noname_s2"	},
 	["arug_dun01.rsw"] = {		displayName = "Arunafeltz Guild Dungeon",		notifyEnter = true, 
@@ -872,20 +881,20 @@ mapTbl = {
 	["que_rachel.rsw"] = {		displayName = "Inside Freya's Temple"	},
 	["ra_temsky.rsw"] = {		displayName = "Pope's Room (Sky Garden)",		notifyEnter = true, 
 		signName = {			subTitle = "Pope's Room",			mainTitle = "Sky Garden"		},		backgroundBmp = "noname"	},
-	["ra_fild01.rsw"] = {		displayName = "Audumra Grass Land",		notifyEnter = true, 
-		signName = {			mainTitle = "Audumra Grass Land"		},		backgroundBmp = "field_s2"	},
-	["ra_fild03.rsw"] = {		displayName = "Ida Plane",		notifyEnter = true, 
-		signName = {			mainTitle = "Ida Plane"		},		backgroundBmp = "field_s2"	},
-	["ra_fild04.rsw"] = {		displayName = "Audumra Grass Land",		notifyEnter = true, 
-		signName = {			mainTitle = "Audumra Grass Land"		},		backgroundBmp = "field_s2"	},
-	["ra_fild05.rsw"] = {		displayName = "Audumra Grass Land",		notifyEnter = true, 
-		signName = {			mainTitle = "Audumra Grass Land"		},		backgroundBmp = "field_s2"	},
-	["ra_fild06.rsw"] = {		displayName = "Fortu Luna",		notifyEnter = true, 
-		signName = {			mainTitle = "Fortu Luna"		},		backgroundBmp = "field_s2"	},
-	["ra_fild08.rsw"] = {		displayName = "Ida Plane",		notifyEnter = true, 
-		signName = {			mainTitle = "Ida Plane"		},		backgroundBmp = "field_s2"	},
-	["ra_fild12.rsw"] = {		displayName = "Ida Plane",		notifyEnter = true, 
-		signName = {			mainTitle = "Ida Plane"		},		backgroundBmp = "field_s2"	},
+	["ra_fild01.rsw"] = {		displayName = "Audumla Grassland",		notifyEnter = true, 
+		signName = {			mainTitle = "Audumla Grassland"		},		backgroundBmp = "field_s2"	},
+	["ra_fild03.rsw"] = {		displayName = "Ida Plains",		notifyEnter = true, 
+		signName = {			mainTitle = "Ida Plains"		},		backgroundBmp = "field_s2"	},
+	["ra_fild04.rsw"] = {		displayName = "Audumla Grassland",		notifyEnter = true, 
+		signName = {			mainTitle = "Audumla Grassland"		},		backgroundBmp = "field_s2"	},
+	["ra_fild05.rsw"] = {		displayName = "Audumla Grassland",		notifyEnter = true, 
+		signName = {			mainTitle = "Audumla Grassland"		},		backgroundBmp = "field_s2"	},
+	["ra_fild06.rsw"] = {		displayName = "Porto Luna",		notifyEnter = true, 
+		signName = {			mainTitle = "Porto Luna"		},		backgroundBmp = "field_s2"	},
+	["ra_fild08.rsw"] = {		displayName = "Ida Plains",		notifyEnter = true, 
+		signName = {			mainTitle = "Ida Plains"		},		backgroundBmp = "field_s2"	},
+	["ra_fild12.rsw"] = {		displayName = "Ida Plains",		notifyEnter = true, 
+		signName = {			mainTitle = "Ida Plains"		},		backgroundBmp = "field_s2"	},
 	["ra_san01.rsw"] = {		displayName = "Rachel Temple Sanctuary North Area 1F",		notifyEnter = true, 
 		signName = {			subTitle = "Rachel Temple",			mainTitle = "Sanctuary North Area 1F"		},		backgroundBmp = "dungeon"	},
 	["ra_san02.rsw"] = {		displayName = "Rachel Temple Sanctuary West Area 1F",		notifyEnter = true, 
@@ -1013,7 +1022,7 @@ mapTbl = {
 	["jupe_core.rsw"] = {		displayName = "Center of Juperos",		notifyEnter = true, 
 		signName = {			mainTitle = "Center of Juperos"		},		backgroundBmp = "dungeon"	},
 	["lighthalzen.rsw"] = {		displayName = "Lighthalzen, the City-State of Prosperity",		notifyEnter = true, 
-		signName = {			subTitle = "City-State of Prosperity of the Schwartzvald Republic",			mainTitle = "Lighthalzen"		},		backgroundBmp = "village"	},
+		signName = {			subTitle = "City-State of Prosperity of the Schwartzwald Republic",			mainTitle = "Lighthalzen"		},		backgroundBmp = "village"	},
 	["lhz_in01.rsw"] = {		displayName = "Rekenber Corporation Headquarters",		notifyEnter = true, 
 		signName = {			mainTitle = "Rekenber Corporation Headquarters"		},		backgroundBmp = "noname_s2"	},
 	["lhz_in02.rsw"] = {		displayName = "Inside Lighthalzen"	},
@@ -1032,8 +1041,8 @@ mapTbl = {
 		signName = {			mainTitle = "Somatology Laboratory F3"		},		backgroundBmp = "dungeon_s2"	},
 	["lhz_fild01.rsw"] = {		displayName = "Lighthalzen Field",		notifyEnter = true, 
 		signName = {			mainTitle = "Lighthalzen Field"		},		backgroundBmp = "field_s2"	},
-	["yuno_pre.rsw"] = {		displayName = "Schwartzvald Government Buildings",		notifyEnter = true, 
-		signName = {			mainTitle = "Schwartzvald Government Buildings"		},		backgroundBmp = "noname_s2"	},
+	["yuno_pre.rsw"] = {		displayName = "Schwartzwald Government Buildings",		notifyEnter = true, 
+		signName = {			mainTitle = "Schwartzwald Government Buildings"		},		backgroundBmp = "noname_s2"	},
 	["y_airport.rsw"] = {		displayName = "Yuno Airport",		notifyEnter = true, 
 		signName = {			mainTitle = "Yuno Airport"		},		backgroundBmp = "noname_s2"	},
 	["lhz_fild03.rsw"] = {		displayName = "Lighthalzen Field",		notifyEnter = true, 
@@ -1062,9 +1071,9 @@ mapTbl = {
 		signName = {			mainTitle = "Airport"		},		backgroundBmp = "noname_s2"	},
 	["ein_in01.rsw"] = {		displayName = "Inside Einbroch"	},
 	["einbech.rsw"] = {		displayName = "Einbech, the Mining Village",		notifyEnter = true, 
-		signName = {			subTitle = "Mining Village in the Schwartzvald Republic",			mainTitle = "Einbech"		},		backgroundBmp = "village"	},
+		signName = {			subTitle = "Mining Village in the Schwartzwald Republic",			mainTitle = "Einbech"		},		backgroundBmp = "village"	},
 	["einbroch.rsw"] = {		displayName = "Einbroch, the City of Steel",		notifyEnter = true, 
-		signName = {			subTitle = "City of Steel in the Schwartzvald Republic",			mainTitle = "Einbroch"		},		backgroundBmp = "village"	},
+		signName = {			subTitle = "City of Steel in the Schwartzwald Republic",			mainTitle = "Einbroch"		},		backgroundBmp = "village"	},
 	["turbo_e_16.rsw"] = {		displayName = "Turbo Track Stadium"	},
 	["turbo_e_8.rsw"] = {		displayName = "Turbo Track Stadium"	},
 	["turbo_e_4.rsw"] = {		displayName = "Turbo Track Stadium"	},
@@ -1078,8 +1087,8 @@ mapTbl = {
 		signName = {			mainTitle = "Border Checkpoint"		},		backgroundBmp = "field_s2"	},
 	["yuno_fild11.rsw"] = {		displayName = "Yuno Field",		notifyEnter = true, 
 		signName = {			mainTitle = "Yuno Field"		},		backgroundBmp = "field_s2"	},
-	["yuno_fild09.rsw"] = {		displayName = "Schwartzvald Guards Camp",		notifyEnter = true, 
-		signName = {			mainTitle = "Schwartzvald Guards Camp"		},		backgroundBmp = "field_s2"	},
+	["yuno_fild09.rsw"] = {		displayName = "Schwartzwald Guards Camp",		notifyEnter = true, 
+		signName = {			mainTitle = "Schwartzwald Guards Camp"		},		backgroundBmp = "field_s2"	},
 	["yuno_fild08.rsw"] = {		displayName = "Kiel Hyre's Academy",		notifyEnter = true, 
 		signName = {			mainTitle = "Kiel Hyre's Academy"		},		backgroundBmp = "field_s2"	},
 	["yuno_fild07.rsw"] = {		displayName = "El Mes Gorge (Valley of Abyss)",		notifyEnter = true, 
@@ -1155,8 +1164,8 @@ mapTbl = {
 	["sec_pri.rsw"] = {		displayName = "Room of Meditation (Valhalla Prison)"	},
 	["gon_test.rsw"] = {		displayName = "Kunlun Fighting Ground",		notifyEnter = true, 
 		signName = {			mainTitle = "Kunlun Fighting Ground"		},		backgroundBmp = "noname_s2"	},
-	["gon_dun01.rsw"] = {		displayName = "Shrine of Seowangmo",		notifyEnter = true, 
-		signName = {			subTitle = "Gonryun",			mainTitle = "Shrine of Seowangmo"		},		backgroundBmp = "dungeon"	},
+	["gon_dun01.rsw"] = {		displayName = "Temple of the Western Queen",		notifyEnter = true, 
+		signName = {			subTitle = "Gonryun",			mainTitle = "Temple of the Western Queen"		},		backgroundBmp = "dungeon"	},
 	["gon_dun02.rsw"] = {		displayName = "Hermit's Checkerboard",		notifyEnter = true, 
 		signName = {			subTitle = "Gonryun",			mainTitle = "Hermit's Checkerboard"		},		backgroundBmp = "dungeon"	},
 	["gon_dun03.rsw"] = {		displayName = "The Peach Blossom Land",		notifyEnter = true, 
@@ -1206,8 +1215,8 @@ mapTbl = {
 	["yuno_in03.rsw"] = {		displayName = "Inside Yuno"	},
 	["yuno_in02.rsw"] = {		displayName = "Inside the Sage Castle"	},
 	["yuno_in01.rsw"] = {		displayName = "Inside Yuno"	},
-	["yuno.rsw"] = {		displayName = "Yuno, Capital of Schwartzvald Republic",		notifyEnter = true, 
-		signName = {			subTitle = "Capital of Schwartzvald Republic",			mainTitle = "Yuno"		},		backgroundBmp = "village"	},
+	["yuno.rsw"] = {		displayName = "Yuno, Capital of Schwartzwald Republic",		notifyEnter = true, 
+		signName = {			subTitle = "Capital of Schwartzwald Republic",			mainTitle = "Yuno"		},		backgroundBmp = "village"	},
 	["job_wiz.rsw"] = {		displayName = "Wizard Realm"	},
 	["job_prist.rsw"] = {		displayName = "Priest Realm"	},
 	["job_knt.rsw"] = {		displayName = "Knight Realm"	},

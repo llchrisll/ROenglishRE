@@ -6651,3 +6651,79 @@ StateIconList[EFST_IDs.EFST_CURSE_R_CUBE] = {	haveTimeLimit = 1,	posTimeLimitS
 StateIconList[EFST_IDs.EFST_CURSE_B_CUBE] = {	haveTimeLimit = 1,	posTimeLimitStr = 2,	descript = {		{ "Curse of Blue Cube", COLOR_TITLE_BUFF },		{ "%s", COLOR_TIME }
 	}
 }
+StateIconList[EFST_IDs.EFST_TOXIN_OF_MANDARA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Mandala", COLOR_TITLE_DEBUFF }, 
+		{ "%s", COLOR_TIME }, 
+		{ "Decreases Res." }
+	}
+}
+StateIconList[EFST_IDs.EFST_GOLDENE_TONE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Golden Tone", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Res and Mres." }
+	}
+}
+StateIconList[EFST_IDs.EFST_TEMPERING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Tempering", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases P.ATK." }
+	}
+}
+StateIconList[EFST_IDs.EFST_NOODLE_FES_1] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "국수 축제 - 파르팔레", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "근접 및 원거리" },
+		{ "물리 데미지 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_NOODLE_FES_2] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "국수 축제 - 크림 새우 파스타", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "모든 속성" },
+		{ "마법 데미지 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_NOODLE_FES_3] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "국수 축제 - 토마토 국수", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "변동 캐스팅, 스킬 후 딜레이 감소" },
+		{ "공격속도 증가(공격 후 딜레이 감소)" }
+	}
+}
+StateIconList[EFST_IDs.EFST_NOODLE_FES_4] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"국수 축제 - 잔치 국수", COLOR_TITLE_BUFF},
+		{"%s", COLOR_TIME},
+		{"ATK 및 MATK % 증가"}
+	}
+}
+StateIconList[EFST_IDs.EFST_NOODLE_FES_5] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "국수 축제 - 간장 비빔 국수", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "P.ATK 증가" },
+		{ "S.MATK 증가" }
+	}
+}
