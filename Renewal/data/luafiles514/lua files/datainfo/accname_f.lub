@@ -1,6 +1,3 @@
-require "System/LuaFiles514/clua_f";
-CLuaInit(1)
-
 function ReqAccName(index)
 	if AccNameTable == nil then
 		return ""
@@ -8,15 +5,9 @@ function ReqAccName(index)
 	local NameMsg = AccNameTable[index]
 	if NameMsg ~= nil then
 		return NameMsg
-	end
-	if AccNameTable_CLS == nil then
+	else
 		return ""
 	end
-	local NameMsg = AccNameTable_CLS[index]
-	if NameMsg ~= nil then
-		return NameMsg
-	end
-	return ""
 end
 
 function ReqAccName_V2(index)
