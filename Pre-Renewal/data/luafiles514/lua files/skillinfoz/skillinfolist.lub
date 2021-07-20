@@ -7898,431 +7898,782 @@ SKILL_INFO_LIST = {
 	[SKID.HLIF_HEAL] = {
 		"HLIF_HEAL",
 		SkillName = "Touch of Heal",
-		SpAmount = { 13, 16, 19, 22, 25 }
+		SpAmount = { 13, 16, 19, 22, 25 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HLIF_AVOID] = {
 		"HLIF_AVOID",
 		SkillName = "Emergency Avoid",
-		SpAmount = { 20, 25, 30, 35, 40 }
+		SpAmount = { 20, 25, 30, 35, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HLIF_BRAIN] = {
 		"HLIF_BRAIN",
 		SkillName = "Brain Surgery",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HLIF_CHANGE] = {
 		"HLIF_CHANGE",
 		SkillName = "Mental Change",
+		MaxLv = 3,
+		SpAmount = { 100, 100, 100 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.HAMI_CASTLE] = {
 		"HAMI_CASTLE",
 		SkillName = "Castling",
-		SpAmount = { 10, 10, 10, 10, 10 }
+		MaxLv = 5,
+		SpAmount = { 10, 10, 10, 10, 10 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HAMI_DEFENCE] = {
 		"HAMI_DEFENCE",
 		SkillName = "Defense",
-		SpAmount = { 20, 25, 30, 35, 40 }
+		MaxLv = 5,
+		SpAmount = { 20, 25, 30, 35, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HAMI_SKIN] = {
 		"HAMI_SKIN",
 		SkillName = "Adamantium Skin",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HAMI_BLOODLUST] = {
 		"HAMI_BLOODLUST",
 		SkillName = "Blood Lust",
-		SpAmount = { 120, 120, 120 }
+		MaxLv = 3,
+		SpAmount = { 120, 120, 120 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.HFLI_MOON] = {
 		"HFLI_MOON",
 		SkillName = "Moonlight",
-		SpAmount = { 4, 8, 12, 16, 20 }
+		MaxLv = 5,
+		SpAmount = { 4, 8, 12, 16, 20 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HFLI_FLEET] = {
 		"HFLI_FLEET",
 		SkillName = "Fleet Move",
-		SpAmount = { 30, 40, 50, 60, 70 }
+		MaxLv = 5,
+		SpAmount = { 30, 40, 50, 60, 70 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HFLI_SPEED] = {
 		"HFLI_SPEED",
 		SkillName = "Over Speed",
-		SpAmount = { 30, 40, 50, 60, 70 }
+		MaxLv = 5,
+		SpAmount = { 30, 40, 50, 60, 70 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HFLI_SBR44] = {
 		"HFLI_SBR44",
 		SkillName = "S.B.R.44",
-		SpAmount = { 1, 1, 1 }
+		MaxLv = 3,
+		SpAmount = { 1, 1, 1 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9 }
 	},
 	[SKID.HVAN_CAPRICE] = {
 		"HVAN_CAPRICE",
 		SkillName = "Caprice",
-		SpAmount = { 22, 24, 26, 28, 30 }
+		MaxLv = 5,
+		SpAmount = { 22, 24, 26, 28, 30 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 }
 	},
 	[SKID.HVAN_CHAOTIC] = {
 		"HVAN_CHAOTIC",
 		SkillName = "Chaotic Benediction",
-		SpAmount = { 40, 40, 40, 40, 40 }
+		MaxLv = 5,
+		SpAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HVAN_INSTRUCT] = {
 		"HVAN_INSTRUCT",
 		SkillName = "Change Instruction",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HVAN_EXPLOSION] = {
 		"HVAN_EXPLOSION",
 		SkillName = "Bio Explosion",
-		SpAmount = { 1, 1, 1 }
+		MaxLv = 3,
+		SpAmount = { 1, 1, 1 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.MH_SUMMON_LEGION] = {
 		"MH_SUMMON_LEGION",
 		SkillName = "Summon Legion",
-		SpAmount = { 48, 60, 72, 84, 96 }
+		MaxLv = 5,
+		SpAmount = { 48, 60, 72, 84, 96 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 }
 	},
 	[SKID.MH_NEEDLE_OF_PARALYZE] = {
 		"MH_NEEDLE_OF_PARALYZE",
 		SkillName = "Needle of Paralyze",
-		SpAmount = { 60, 80, 100, 120, 140 }
+		SpAmount = { 60, 80, 100, 120, 140 },
+		MaxLv = 5,
+		bSeperateLv = true,
+		AttackRange = { 5, 5, 5, 5, 5 }
 	},
 	[SKID.MH_POISON_MIST] = {
 		"MH_POISON_MIST",
 		SkillName = "Poison Mist",
-		SpAmount = { 65, 75, 85, 95, 105 }
+		SpAmount = { 65, 75, 85, 95, 105 },
+		MaxLv = 5,
+		bSeperateLv = true,
+		AttackRange = { 5, 5, 5, 5, 5 }
 	},
 	[SKID.MH_PAIN_KILLER] = {
 		"MH_PAIN_KILLER",
 		SkillName = "Pain Killer",
-		SpAmount = { 48, 52, 56, 60, 64 }
+		MaxLv = 5,
+		SpAmount = { 48, 52, 56, 60, 64 },
+		bSeperateLv = true,
+		AttackRange = { 5, 5, 5, 5, 5 }
 	},
 	[SKID.MH_LIGHT_OF_REGENE] = {
 		"MH_LIGHT_OF_REGENE",
 		SkillName = "Light of Regene",
-		SpAmount = { 40, 50, 60, 70, 80 }
+		MaxLv = 5,
+		SpAmount = { 40, 50, 60, 70, 80 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_OVERED_BOOST] = {
 		"MH_OVERED_BOOST",
 		SkillName = "Overed Boost",
-		SpAmount = { 70, 90, 110, 130, 150 }
+		MaxLv = 5,
+		SpAmount = { 70, 90, 110, 130, 150 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_ERASER_CUTTER] = {
 		"MH_ERASER_CUTTER",
 		SkillName = "Eraser Cutter",
-		SpAmount = { 25, 30, 35, 40, 45 }
+		MaxLv = 5,
+		SpAmount = { 25, 30, 35, 40, 45 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 }
 	},
 	[SKID.MH_XENO_SLASHER] = {
 		"MH_XENO_SLASHER",
 		SkillName = "Xeno Slasher",
-		SpAmount = { 90, 100, 110, 120, 130 }
+		MaxLv = 5,
+		SpAmount = { 90, 100, 110, 120, 130 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 }
 	},
 	[SKID.MH_SILENT_BREEZE] = {
 		"MH_SILENT_BREEZE",
 		SkillName = "Silent Breeze",
-		SpAmount = { 45, 54, 63, 72, 81 }
+		SpAmount = { 45, 54, 63, 72, 81 },
+		bSeperateLv = true,
+		AttackRange = { 5, 5, 7, 7, 9 }
 	},
 	[SKID.MH_STYLE_CHANGE] = {
 		"MH_STYLE_CHANGE",
 		SkillName = "Style Change",
+		MaxLv = 1,
+		SpAmount = { 35 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.MH_SONIC_CRAW] = {
 		"MH_SONIC_CRAW",
 		SkillName = "Sonic Claw",
-		SpAmount = { 20, 25, 30, 35, 40 }
+		MaxLv = 5,
+		SpAmount = { 20, 25, 30, 35, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_SILVERVEIN_RUSH] = {
 		"MH_SILVERVEIN_RUSH",
 		SkillName = "Silver Bain Rush",
-		SpAmount = { 10, 15, 20, 25, 30 }
+		MaxLv = 5,
+		SpAmount = { 10, 15, 20, 25, 30 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_MIDNIGHT_FRENZY] = {
 		"MH_MIDNIGHT_FRENZY",
 		SkillName = "Midnight Frenzy",
-		SpAmount = { 8, 16, 24, 32, 40 }
+		MaxLv = 5,
+		SpAmount = { 8, 16, 24, 32, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_STAHL_HORN] = {
 		"MH_STAHL_HORN",
 		SkillName = "Steel's Horn",
-		SpAmount = { 40, 45, 50, 55, 60 }
+		SpAmount = { 40, 45, 50, 55, 60 },
+		MaxLv = 5,
+		bSeperateLv = true,
+		AttackRange = { 5, 6, 7, 8, 9 }
 	},
 	[SKID.MH_GOLDENE_FERSE] = {
 		"MH_GOLDENE_FERSE",
 		SkillName = "Golden Heel",
-		SpAmount = { 60, 65, 70, 75, 80 }
+		MaxLv = 5,
+		SpAmount = { 60, 65, 70, 75, 80 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_STEINWAND] = {
 		"MH_STEINWAND",
 		SkillName = "Stone Wall",
-		SpAmount = { 80, 90, 100, 110, 120 }
+		MaxLv = 5,
+		SpAmount = { 80, 90, 100, 110, 120 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_HEILIGE_STANGE] = {
 		"MH_HEILIGE_STANGE",
 		SkillName = "Holy Pole",
-		SpAmount = { 60, 68, 76, 84, 100 }
+		MaxLv = 5,
+		SpAmount = { 60, 68, 76, 84, 100 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 }
 	},
 	[SKID.MH_ANGRIFFS_MODUS] = {
 		"MH_ANGRIFFS_MODUS",
 		SkillName = "Attack Mode",
-		SpAmount = { 60, 65, 70, 75, 80 }
+		MaxLv = 5,
+		SpAmount = { 60, 65, 70, 75, 80 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_TINDER_BREAKER] = {
 		"MH_TINDER_BREAKER",
 		SkillName = "Tinder Breaker",
-		SpAmount = { 20, 25, 30, 35, 40 }
+		MaxLv = 5,
+		SpAmount = { 20, 25, 30, 35, 40 },
+		bSeperateLv = true,
+		AttackRange = { 3, 4, 5, 6, 7 }
 	},
 	[SKID.MH_CBC] = {
 		"MH_CBC",
 		SkillName = "Continual Break Combo",
-		SpAmount = { 10, 20, 30, 40, 50 }
+		MaxLv = 5,
+		SpAmount = { 10, 20, 30, 40, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_EQC] = {
 		"MH_EQC",
 		SkillName = "Eternal Quick Combo",
-		SpAmount = { 24, 28, 32, 36, 40 }
+		MaxLv = 5,
+		SpAmount = { 24, 28, 32, 36, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_MAGMA_FLOW] = {
 		"MH_MAGMA_FLOW",
 		SkillName = "Magma Flow",
 		MaxLv = 5,
-		SpAmount = { 34, 38, 42, 46, 50 }
+		SpAmount = { 34, 38, 42, 46, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_GRANITIC_ARMOR] = {
 		"MH_GRANITIC_ARMOR",
 		SkillName = "Granitic Armor",
-		SpAmount = { 54, 58, 62, 66, 70 }
+		MaxLv = 5,
+		SpAmount = { 54, 58, 62, 66, 70 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_LAVA_SLIDE] = {
 		"MH_LAVA_SLIDE",
 		SkillName = "Lava Slide",
-		SpAmount = { 30, 35, 40, 45, 50 }
+		MaxLv = 5,
+		SpAmount = { 30, 35, 40, 45, 50 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 }
 	},
 	[SKID.MH_PYROCLASTIC] = {
 		"MH_PYROCLASTIC",
 		SkillName = "Pyroclastic",
-		SpAmount = { 20, 28, 36, 44, 52 }
+		MaxLv = 5,
+		SpAmount = { 20, 28, 36, 44, 52 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_VOLCANIC_ASH] = {
 		"MH_VOLCANIC_ASH",
 		SkillName = "Volcanic Ash",
-		SpAmount = { 60, 65, 70, 75, 80 }
+		MaxLv = 5,
+		SpAmount = { 60, 65, 70, 75, 80 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 }
 	},
 	[SKID.MS_BASH] = {
 		"MS_BASH",
 		SkillName = "Bash",
+		MaxLv = 10,
+		SpAmount = { 8, 8, 8, 8, 8, 15, 15, 15, 15, 15 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MS_MAGNUM] = {
 		"MS_MAGNUM",
 		SkillName = "Magnum Break",
+		MaxLv = 10,
+		SpAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
+		bSeperateLv = false,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 }
 	},
 	[SKID.MS_BOWLINGBASH] = {
 		"MS_BOWLINGBASH",
 		SkillName = "Bowling Bash",
+		MaxLv = 10,
+		SpAmount = { 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 },
+		bSeperateLv = false,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 }
 	},
 	[SKID.MS_PARRYING] = {
 		"MS_PARRYING",
 		SkillName = "Parrying",
+		MaxLv = 10,
+		SpAmount = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MS_REFLECTSHIELD] = {
 		"MS_REFLECTSHIELD",
 		SkillName = "Reflect Shield",
+		MaxLv = 10,
+		SpAmount = { 35, 40, 45, 50, 55, 60, 65, 70, 75, 80 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MS_BERSERK] = {
 		"MS_BERSERK",
 		SkillName = "Berserk",
+		MaxLv = 1,
+		SpAmount = { 200 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.MA_DOUBLE] = {
 		"MA_DOUBLE",
 		SkillName = "Double Strafing",
+		MaxLv = 10,
+		SpAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.MA_SHOWER] = {
 		"MA_SHOWER",
 		SkillName = "Arrow Shower",
+		MaxLv = 10,
+		SpAmount = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.MA_SKIDTRAP] = {
 		"MA_SKIDTRAP",
 		SkillName = "Skid Trap",
+		MaxLv = 5,
+		SpAmount = { 10, 10, 10, 10, 10 },
+		bSeperateLv = false,
+		AttackRange = { 3, 3, 3, 3, 3 }
 	},
 	[SKID.MA_LANDMINE] = {
 		"MA_LANDMINE",
 		SkillName = "Land Mine",
+		MaxLv = 5,
+		SpAmount = { 10, 10, 10, 10, 10 },
+		bSeperateLv = false,
+		AttackRange = { 3, 3, 3, 3, 3 }
 	},
 	[SKID.MA_SANDMAN] = {
 		"MA_SANDMAN",
 		SkillName = "Sandman",
+		MaxLv = 5,
+		SpAmount = { 12, 12, 12, 12, 12 },
+		bSeperateLv = false,
+		AttackRange = { 3, 3, 3, 3, 3 }
 	},
 	[SKID.MA_FREEZINGTRAP] = {
 		"MA_FREEZINGTRAP",
 		SkillName = "Freezing Trap",
+		MaxLv = 5,
+		SpAmount = { 10, 10, 10, 10, 10 },
+		bSeperateLv = false,
+		AttackRange = { 3, 3, 3, 3, 3 }
 	},
 	[SKID.MA_REMOVETRAP] = {
 		"MA_REMOVETRAP",
 		SkillName = "Remove Trap",
+		MaxLv = 1,
+		SpAmount = { 5 },
+		bSeperateLv = false,
+		AttackRange = { 2 }
 	},
 	[SKID.MA_CHARGEARROW] = {
 		"MA_CHARGEARROW",
 		SkillName = "Charge Arrow",
+		MaxLv = 1,
+		SpAmount = { 15 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
 	},
 	[SKID.MA_SHARPSHOOTING] = {
 		"MA_SHARPSHOOTING",
 		SkillName = "Sharp Shooting",
+		MaxLv = 5,
+		SpAmount = { 18, 21, 24, 27, 30 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 }
 	},
 	[SKID.ML_PIERCE] = {
 		"ML_PIERCE",
 		SkillName = "Pierce",
+		MaxLv = 10,
+		SpAmount = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		bSeperateLv = false,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 }
 	},
 	[SKID.ML_BRANDISH] = {
 		"ML_BRANDISH",
 		SkillName = "Brandish Spear",
+		MaxLv = 10,
+		SpAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
+		bSeperateLv = false,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 }
 	},
 	[SKID.ML_SPIRALPIERCE] = {
 		"ML_SPIRALPIERCE",
 		SkillName = "Spiral Pierce",
+		MaxLv = 5,
+		SpAmount = { 18, 21, 24, 27, 30 },
+		bSeperateLv = false,
+		AttackRange = { 4, 4, 4, 4, 4 }
 	},
 	[SKID.ML_DEFENDER] = {
 		"ML_DEFENDER",
 		SkillName = "Defender",
+		MaxLv = 5,
+		SpAmount = { 30, 30, 30, 30, 30 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.ML_AUTOGUARD] = {
 		"ML_AUTOGUARD",
 		SkillName = "Auto Guard",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.ML_DEVOTION] = {
 		"ML_DEVOTION",
 		SkillName = "Devotion",
+		MaxLv = 5,
+		SpAmount = { 25, 25, 25, 25, 25 },
+		bSeperateLv = false,
+		AttackRange = { 7, 8, 9, 10, 11 }
 	},
 	[SKID.MER_MAGNIFICAT] = {
 		"MER_MAGNIFICAT",
 		SkillName = "Magnificat",
+		MaxLv = 5,
+		SpAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MER_QUICKEN] = {
 		"MER_QUICKEN",
 		SkillName = "Two-Hand Quicken",
+		MaxLv = 10,
+		SpAmount = { 14, 18, 22, 26, 30, 34, 38, 42, 46, 50 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MER_SIGHT] = {
 		"MER_SIGHT",
 		SkillName = "Sight",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.MER_CRASH] = {
 		"MER_CRASH",
 		SkillName = "Crash",
+		MaxLv = 5,
+		SpAmount = { 10, 10, 10, 10, 10 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MER_REGAIN] = {
 		"MER_REGAIN",
 		SkillName = "Regain",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
 	},
 	[SKID.MER_TENDER] = {
 		"MER_TENDER",
 		SkillName = "Tender",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
 	},
 	[SKID.MER_BENEDICTION] = {
 		"MER_BENEDICTION",
 		SkillName = "Benediction",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
 	},
 	[SKID.MER_RECUPERATE] = {
 		"MER_RECUPERATE",
 		SkillName = "Recuperate",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
 	},
 	[SKID.MER_MENTALCURE] = {
 		"MER_MENTALCURE",
 		SkillName = "Mental Cure",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
 	},
 	[SKID.MER_COMPRESS] = {
 		"MER_COMPRESS",
 		SkillName = "Compress",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
 	},
 	[SKID.MER_PROVOKE] = {
 		"MER_PROVOKE",
 		SkillName = "Provoke",
+		MaxLv = 10,
+		SpAmount = { 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.MER_AUTOBERSERK] = {
 		"MER_AUTOBERSERK",
 		SkillName = "Auto Berserk",
+		MaxLv = 1,
+		SpAmount = { 1 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.MER_DECAGI] = {
 		"MER_DECAGI",
 		SkillName = "Decrease Agility",
+		MaxLv = 10,
+		SpAmount = { 15, 17, 19, 21, 23, 25, 27, 29, 31, 33 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.MER_SCAPEGOAT] = {
 		"MER_SCAPEGOAT",
 		SkillName = "Scapegoat",
+		MaxLv = 1,
+		SpAmount = { 5 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.MER_LEXDIVINA] = {
 		"MER_LEXDIVINA",
 		SkillName = "Lex Divina",
+		MaxLv = 10,
+		SpAmount = { 20, 20, 20, 20, 20, 18, 16, 14, 12, 10 },
+		bSeperateLv = false,
+		AttackRange = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 }
 	},
 	[SKID.MER_ESTIMATION] = {
 		"MER_ESTIMATION",
 		SkillName = "Monster Property",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
 	},
 	[SKID.MER_KYRIE] = {
 		"MER_KYRIE",
 		SkillName = "Kyrie Eleison",
+		MaxLv = 10,
+		SpAmount = { 20, 20, 20, 25, 25, 25, 30, 30, 30, 35 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.MER_BLESSING] = {
 		"MER_BLESSING",
 		SkillName = "Blessing",
+		MaxLv = 10,
+		SpAmount = { 28, 32, 36, 40, 44, 48, 52, 56, 60, 64 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.MER_INCAGI] = {
 		"MER_INCAGI",
 		SkillName = "Increase Agility",
+		MaxLv = 10,
+		SpAmount = { 18, 21, 24, 27, 30, 33, 36, 39, 42, 45 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.GD_APPROVAL] = {
 		"GD_APPROVAL",
 		SkillName = "Approval",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.GD_KAFRACONTRACT] = {
 		"GD_KAFRACONTRACT",
 		SkillName = "Kafra Contract",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.GD_GUARDRESEARCH] = {
 		"GD_GUARDRESEARCH",
 		SkillName = "Guardian Research",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.GD_GUARDUP] = {
 		"GD_GUARDUP",
 		SkillName = "Build up the Guardian",
+		MaxLv = 3,
+		SpAmount = { 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.GD_EXTENSION] = {
 		"GD_EXTENSION",
 		SkillName = "Guild Extension",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_GLORYGUILD] = {
 		"GD_GLORYGUILD",
 		SkillName = "Guild's Glory",
+		MaxLv = 0,
+		SpAmount = {},
+		bSeperateLv = false,
+		AttackRange = {}
 	},
 	[SKID.GD_LEADERSHIP] = {
 		"GD_LEADERSHIP",
 		SkillName = "Great Leadership",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_GLORYWOUNDS] = {
 		"GD_GLORYWOUNDS",
 		SkillName = "Wounds of Glory",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_SOULCOLD] = {
 		"GD_SOULCOLD",
 		SkillName = "Soul of Cold",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_HAWKEYES] = {
 		"GD_HAWKEYES",
 		SkillName = "Sharp Hawk Eyes",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_BATTLEORDER] = {
 		"GD_BATTLEORDER",
 		SkillName = "Battle Orders",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.GD_REGENERATION] = {
 		"GD_REGENERATION",
 		SkillName = "Regeneration",
+		MaxLv = 3,
+		SpAmount = { 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.GD_RESTORE] = {
 		"GD_RESTORE",
 		SkillName = "Restore",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.GD_EMERGENCYCALL] = {
 		"GD_EMERGENCYCALL",
 		SkillName = "Emergency Call",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.GD_DEVELOPMENT] = {
 		"GD_DEVELOPMENT",
 		SkillName = "Emsolute Develop",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.GD_ITEMEMERGENCYCALL] = {
 		"GD_ITEMEMERGENCYCALL",
 		SkillName = "Item Emergency Call",
+		MaxLv = 3,
+		SpAmount = { 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1 }
 	}
 }
