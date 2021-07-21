@@ -1,6 +1,3 @@
-require "System/LuaFiles514/clua_f";
-CLuaInit(12)
-
 function ReqWeaponName(index)
 	if WeaponNameTable == nil then
 		return ""
@@ -8,14 +5,9 @@ function ReqWeaponName(index)
 	local NameMsg = WeaponNameTable[index]
 	if NameMsg ~= nil then
 		return NameMsg
+	else
+		return ""
 	end
-	if WeaponNameTable_CLS ~= nil then
-		local NameMsg = WeaponNameTable_CLS[index]
-		if NameMsg ~= nil then
-			return NameMsg
-		end
-	end
-	return ""
 end
 
 function ReqWeaponNameByClassNum(classNum)
@@ -25,12 +17,9 @@ function ReqWeaponNameByClassNum(classNum)
 	local NameMsg = WeaponNameTable[classNum]
 	if NameMsg ~= nil then
 		return NameMsg
+	else
+		return ""
 	end
-	local NameMsg = WeaponNameTable_CLS[classNum]
-	if NameMsg ~= nil then
-		return NameMsg
-	end
-	return ""
 end
 
 function GetRealWeaponId(weaponId)
@@ -40,12 +29,9 @@ function GetRealWeaponId(weaponId)
 	local id = Expansion_Weapon_IDs[weaponId]
 	if id ~= nil then
 		return id
+	else
+		return weaponId
 	end
-	local id = Expansion_Weapon_IDs_CLS[weaponId]
-	if id ~= nil then
-		return id
-	end
-	return weaponId
 end
 
 function ReqWeaponHitWaveName(index)
@@ -55,15 +41,9 @@ function ReqWeaponHitWaveName(index)
 	local NameMsg = WeaponHitWaveNameTable[index]
 	if NameMsg ~= nil then
 		return NameMsg
-	end
-	if WeaponHitWaveNameTable_CLS == nil then
+	else
 		return ""
 	end
-	local NameMsg = WeaponHitWaveNameTable_CLS[index]
-	if NameMsg ~= nil then
-		return NameMsg
-	end
-	return ""
 end
 
 function IsItemUsingArrow ( type )
@@ -72,10 +52,6 @@ function IsItemUsingArrow ( type )
 			return true
 		end
 	end
-	for k, val in ipairs( BowTypeList_CLS ) do
-		if ( type == val ) then
-			return true
-		end
-	end
+
 	return false
 end
