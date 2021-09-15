@@ -4,11 +4,12 @@ IT_SPRITE = 2
 IT_SIGNBOARD = 3
 SignBoardList = {
 	{ "Default", 157, 278, 0, IT_BMP, "유저인터페이스\\collection\\꽃가지.bmp", "Cannot enter", "#0x009EBDFF" },
+	{ "malangdo", 124, 152, 0, IT_SIGNBOARD, "item\\suffragium.bmp", "  Mileage Stone Exchange", "#0x00FFFFFF" },
 	{ "prontera", 82, 108, 0, IT_BMP, "유저인터페이스\\information\\over_mkect.bmp" },
-	{ "ein_dun02", 16, 250, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  180Lv미만 출입금지", "#0x00FFFFFF"},
-	{ "odin_tem03", 276, 236, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  180Lv미만 출입금지", "#0x00FFFFFF"},
-	{ "abyss_03", 91, 110, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  190Lv미만 출입금지", "#0x00FFFFFF"},
-	{ "moc_para01", 105, 41, 10, IT_SIGNBOARD, "information\\over_nmtrade.bmp", "  파라마켓", "#0x00FFFFFF"},
+	{ "ein_dun02", 16, 250, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  Entry: Level 180+", "#0x00FFFFFF"},
+	{ "odin_tem03", 276, 236, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  Entry: Level 180+", "#0x00FFFFFF"},
+	{ "abyss_03", 91, 110, 0, IT_SIGNBOARD, "item\\as_poisonreact.bmp", "  Entry: Level 190+", "#0x00FFFFFF"},
+	{ "moc_para01", 105, 41, 10, IT_SIGNBOARD, "information\\over_nmtrade.bmp", "  Paramarket", "#0x00FFFFFF"},
 	{ "moc_para01", 110, 97, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Coin Service", "#0x00FFFFFF" },
 	{ "moc_para01", 112, 76, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Coin Service", "#0x00FFFFFF" },
 	{ "prontera", 124, 76, 10, IT_SIGNBOARD, "유저인터페이스\\item\\suffragium.bmp", "  Eden Warper", "#0x00FFFFFF" },
@@ -154,7 +155,6 @@ SignBoardList = {
 	{ "lhz_in02", 282, 20, 2, IT_BMP, "유저인터페이스\\information\\over_smithy.bmp" },
 	{ "lhz_in02", 31, 145, 2, IT_BMP, "유저인터페이스\\information\\over_store.bmp" },
 	{ "lhz_in03", 239, 106, 2, IT_BMP, "유저인터페이스\\information\\over_store.bmp" },
-	{ "lhz_in03", 258, 101, 2, IT_BMP, "유저인터페이스\\information\\over_store.bmp" },
 	{ "lighthalzen", 154, 100, 2, IT_BMP, "유저인터페이스\\information\\over_guide.bmp" },
 	{ "lighthalzen", 164, 100, 2, IT_BMP, "유저인터페이스\\information\\over_kafra.bmp" },
 	{ "lighthalzen", 191, 320, 2, IT_BMP, "유저인터페이스\\information\\over_kafra.bmp" },
@@ -504,5 +504,5 @@ SignBoardList = {
 	{ "airport", 138, 46, 0, IT_SIGNBOARD, "information\\over_valkyrie_air.bmp", "  Schwartzvald Rebublic", "#0x00FFFFFF" },
 	{ "lhz_airport", 148, 43, 0, IT_SIGNBOARD, "information\\over_valkyrie_air.bmp", "  Schwartzvald Rebublic", "#0x00FFFFFF" },
 	{ "lhz_airport", 138, 43, 0, IT_SIGNBOARD, "information\\over_valkyrie_air.bmp", "  Schwartzvald Rebublic", "#0x00FFFFFF" },
-	{ "prontera", 50, 293, 10, IT_SIGNBOARD, "information\\ebl_manus.bmp", "  등급강화소", "#0x00FFFFFF"}
+	{ "prontera", 50, 293, 10, IT_SIGNBOARD, "information\\ebl_manus.bmp", "  Grade Enhancement", "#0x00FFFFFF"}
 }

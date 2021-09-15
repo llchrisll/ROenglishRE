@@ -1,5 +1,16 @@
 tblLapineUpgradeBox = {
 	targets = {
+		Lens_Craft_Stone = {
+			ItemID = 100823,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Deepblue_Sunglasses_", 410080 }
+			},
+			NeedSource_String = "Deep Blue Sunglasses(1)"
+		},
 		Hero_LT_Refine_Melee = {
 			ItemID = 100744,
 			NeedRefineMin = 0,
@@ -27,7 +38,11 @@ tblLapineUpgradeBox = {
 				{ "Barb_Wire_K_LT", 580027 },
 				{ "Narcis_Bow_LT", 700049 },
 				{ "Avenger_LT", 620015 },
-				{ "Meteor_Striker_LT", 590034 }
+				{ "Meteor_Striker_LT", 590034 },
+				{ "Oriental_Sword_LT", 600023 },
+				{ "Dragonic_Slayer_LT", 600024},
+				{ "Shiver_Katar_K_LT", 610033 },
+				{ "Blade_Katar_LT", 610034 }
 			},
 			NeedSource_String = "Hero's Weapon-LT"
 		},
@@ -58,7 +73,11 @@ tblLapineUpgradeBox = {
 				{ "Barb_Wire_K_LT", 580027 },
 				{ "Narcis_Bow_LT", 700049 },
 				{ "Avenger_LT", 620015 },
-				{ "Meteor_Striker_LT", 590034 }
+				{ "Meteor_Striker_LT", 590034 },
+				{ "Oriental_Sword_LT", 600023 },
+				{ "Dragonic_Slayer_LT", 600024},
+				{ "Shiver_Katar_K_LT", 610033 },
+				{ "Blade_Katar_LT", 610034 }
 			},
 			NeedSource_String = "Hero's Weapon-LT"
 		},
@@ -2784,7 +2803,8 @@ tblLapineUpgradeBox = {
 				{ "S_Durable_Shield", 24735 },
 				{ "S_Clever_Weapon", 24736 },
 				{ "S_Clever_Shield", 24737 },
-				{ "S_CriticalHit_Weapon", 24738 }
+				{ "S_CriticalHit_Weapon", 24738 },
+				{ "S_KingbirdAnc_Weapon", 24745 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -3470,7 +3490,8 @@ tblLapineUpgradeBox = {
 				{ "S_Durable_Shield", 24735 },
 				{ "S_Clever_Weapon", 24736 },
 				{ "S_Clever_Shield", 24737 },
-				{ "S_CriticalHit_Weapon", 24738 }
+				{ "S_CriticalHit_Weapon", 24738 },
+				{ "S_KingbirdAnc_Weapon", 24745 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -4066,7 +4087,8 @@ tblLapineUpgradeBox = {
 				{ "S_Durable_Shield", 24735 },
 				{ "S_Clever_Weapon", 24736 },
 				{ "S_Clever_Shield", 24737 },
-				{ "S_CriticalHit_Weapon", 24738 }
+				{ "S_CriticalHit_Weapon", 24738 },
+				{ "S_KingbirdAnc_Weapon", 24745 }
 			},
 			NeedSource_String = "+7 Shadow Equipment"
 		},

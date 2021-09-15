@@ -160,7 +160,9 @@ HatEFID = {
 	HAT_EF_BLACK_THUNDER = 159,
 	HAT_EF_BLACK_THUNDER_DARK = 160,
 	HAT_EF_C_Released_Ground = 161,
-	HAT_EF_C_Samba_Carnival = 162
+	HAT_EF_C_Samba_Carnival = 162,
+	HAT_EF_POISON_MASTER = 163,
+	HAT_EF_C_Swirling_Flame = 164
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -242,7 +244,8 @@ hatEffectTable = {
 		hatEffectPos = -7,
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true
+		isAdjustSizeWhenShrinkState = true,
+		isAttachedHead = true
 	},
 	[HatEFID.HAT_EF_BOTTOM_FORTUNEKISS] = { hatEffectID = 293 },
 	[HatEFID.HAT_EF_PINKBODY] = { hatEffectID = 396 },
@@ -339,7 +342,7 @@ hatEffectTable = {
 		isAdjustSizeWhenShrinkState = true
 	},
 	[HatEFID.HAT_EF_FSTONE] = {
-		resourceFileName = "efst_fstone\\fstone.str",
+		resourceFileName = "efst_fstone\\stoneofint.str",
 		hatEffectPos = -6,
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
@@ -679,10 +682,12 @@ hatEffectTable = {
 	}, 
 	[HatEFID.HAT_EF_C_Kyel_hyre_Ulti_TW] = {
 		resourceFileName = "EFST_Kyel_hyre_Ulti_TW\\tentaKaiser.str",
-		hatEffectPos = 0,
+		hatEffectPos = -16,
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true
+		isAdjustSizeWhenShrinkState = true,
+		isIgnoreRiding = false,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_C_Master] = {
 		resourceFileName = "efst_C_Master\\13123123.str",
@@ -738,6 +743,15 @@ hatEffectTable = {
 		hatEffectPosX = 6,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_POISON_MASTER] = { hatEffectID = 2310 },
+	[HatEFID.HAT_EF_C_Swirling_Flame] = {
+		resourceFileName = "C_Swirling_Flame\\vortexf2.str",
+		hatEffectPos = -10,
+		hatEffectPosX = 0,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
 	}
 }
 effectHatItemTable = {
@@ -781,7 +795,8 @@ effectHatItemTable = {
 	20548,
 	20990,
 	480097,
-	400149
+	400149,
+	480131
 }
 
 function GetHatEfResName(index)

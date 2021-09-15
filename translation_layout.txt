@@ -117,18 +117,19 @@ Item Description
 	
 	"Inflict % more damage on ^0033CC<Monster>^000000.",
 	
-	"Increases Magical Damage with ^<Element>^000000 by %.",
+	"Increases Magical Damage with ^<Element>^000000 element by %.",
 	"Increases Magical Damage with every element by %.",
+	"Increases continuous Magical Damage by %.", > Damage Over Time (DOT)
 	
 	"Increases Physical Damage against monsters of ^FF0000<Race/Size/Class>^000000 race/size/class by %.",
 	"Increases Physical Damage against monsters of every race/size/class by %.",
 	"Increases Physical Damage against monsters of ^<Element>^000000 element by %.",
-	"Increases Physical Damage against enemies of all races/sizes/classes by %.",
+	"Increases Physical Damage against enemies of every race/size/class by %.",
 	
-	"Increases Magical Damage against monsters of ^FF0000<Race/Size/Class>^000000 race/size/class monsters by %.",
+	"Increases Magical Damage against monsters of ^FF0000<Race/Size/Class>^000000 race/size/class by %.",
 	"Increases Magical Damage against monsters of every race/size/class by %.",
 	"Increases Magical Damage against monsters of ^<Element>^000000 element by %.",
-	"Increases Magical Damage against enemies of all races/sizes/classes by %.",
+	"Increases Magical Damage against enemies of every race/size/class by %.",
 	
 	"Increases Damage against monsters of ^FF0000<Race/Size/Class>^000000 race/size/class by %.",
 	"Increases Damage against monsters of every race/size/class by %.",
@@ -224,12 +225,12 @@ Item Description
 	"^0000FFFor each 2 Refine Levels^000000:",
 	"^0000FFRefine Level +7^000000:",
 	"^0000FFUp to max +5 Refine Level^000000:",
-	"If ^0000FFRefine Level^000000 of equipped ^990099<Equipment Type>^000000 is ^0000FF+7 or higher^000000:",
-	"If ^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
+	"^0000FFRefine Level^000000 of equipped ^990099<Equipment Type>^000000 is ^0000FF+7 or higher^000000:",
+	"^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
 	
 	- Refine Codings in combination
-	"If ^0000FFtotal Refine Level^000000 of ^990099<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
-	"If ^0000FFtotal Refine Level of entire set^000000 is at least ^0000FF+14^000000:",
+	"^0000FFTotal Refine Level^000000 of ^990099<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
+	"^0000FFTotal Refine Level of entire set^000000 is at least ^0000FF+14^000000:",
 	"^0000FFFor each Refine Level^000000 of ^0000FFentire set^000000:",
 	"^0000FFFor each 5 Refine Levels^000000 of ^0000FFentire set^000000:",
 	
@@ -268,6 +269,27 @@ Equipment Info:
 			"Base Level X",
 			"<Job Classes>"
 	
+Shadow Thump Box:
+	"If you combine x of any of the following Shadow Equipments which are refined to +5 or higher, you can obtain <Reward>.",
+	"If you combine x of any of the following Shadow Equipments which are refined to +7 or higher, you can obtain <Reward>.",
+	"_______________________",
+	"<List>",
+	"_______________________",
+	"^ff0000The Refine Level of the materials does not affect the result.^000000",
+	
+Unidentified Item Display Names when certain Resource Name is given:
+	리본 = Ribbon
+	머리띠 = Hairband
+	캡 = Hat
+	글래스 = Glasses
+	마스크 = Mask
+	헬름 = Helmet
+	가드 = Shield
+	슈즈 = Shoes
+	후드 = Garment
+	클립 = Accessory
+	바스타드소드 = Sword
+	
 WoE/PvP:
 	"*Effects in WoE TE area",
 	"Increases physical damage against ^FF0000Players^000000 by 40%.",
@@ -288,7 +310,7 @@ Exchange NPC Locations:
 	"by using Silvervine Cat Fruit or Zeny.",
 	
 	"<NAVI>[Richard]<INFO>malangdo,220,160,0,101,0</INFO></NAVI>",
-	
+	"<NAVI>^4D4DFF[Jeky]<INFO>itemmall,31,70,0,100,0,0</INFO></NAVI>^000000.",
 	"<NAVI>^4D4DFFCentro^000000<INFO>prontera,166,300,0,100,0,0</INFO></NAVI>^000000",
 	"<NAVI>^4D4DFFYves^000000<INFO>malangdo,152,136,0,100,0,0</INFO></NAVI>^000000",
 	"<NAVI>^4D4DFFRS26-1^000000<INFO>sp_cor,98,136,0,100,0,0</INFO></NAVI>^000000",
@@ -321,6 +343,7 @@ Enchant Stones:
 	Mid
 	Lower
 	Garment
+	Dual
 
 	Descriptions:
 	"A stone that awakens the potential of <Class>.",
@@ -330,7 +353,8 @@ Enchant Stones:
 	"Gives the following effects when compounded on a slot of an Costume Garment.",
 
 Grade Options:
-	"If enchanted ^990099Armor^000000 is ^CC3D3DGrade D^000000:",
+	"If the ^990099Weapon^000000's Grade is ^CC3D3DC^000000 or higher:",
+	"If enchanted ^990099Armor^000000's Grade is ^CC3D3DD^000000:",
 
 	"^CC3D3D[Additional Options by Grade]^000000",
 	"[Grade D]: Effect",
