@@ -388,3 +388,19 @@ jRO Egg Description:
 			"- Costume ^000000",
 			"_______________________",
 			"^0000CCWeight:^000000 1"
+			
+			
+ItemReformSystem:
+	- InformationString:
+	"<B>조합 결과 정보 안내</B>", > "<B>Combination Result</B>"
+	"1) 제련도 : > "1) Refine Level:
+	"2) 랜덤 옵션 정보 : 유지됨", > "2) Granted Random Options: Transfered"
+	"3) 카드 및 인챈트 정보 : 유지됨", > "3) Cards and Enchants: Transfered"
+	"4) 등급 정보 : 유지됨" > "4) Grade Rating: Transfered"
+	
+EnchantList:
+	- SetCaution:
+	기본 성공확률 > Enchantment Success Chance:
+	인챈트 성공확률 > Enchantment Success Chance:
+	초기화 확률 > Enchant Reset Chance:
+	 실패시 파괴안됨 > , will not be destroyed on failure
