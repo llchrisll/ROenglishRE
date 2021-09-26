@@ -642,9 +642,10 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_99LV_SOUL_R_GRAY] = { hatEffectID = 2283 },
 	[HatEFID.HAT_EF_160LV_SOUL_R_GRAY] = { hatEffectID = 2284 },
 	[HatEFID.HAT_EF_GearWheel] = {
-		resourceFileName = "gearwheel\\gearwheel.str",
-		hatEffectPos = 0,
+		resourceFileName = "C_Rotating_Gears\\gearwheel.str",
+		hatEffectPos = -11,
 		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
 	},
