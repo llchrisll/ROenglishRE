@@ -14,7 +14,7 @@ ReformInfo = {
 		InformationString = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
-			"2) Granted Random Options: 2"
+			"2) Granted Random Options: 2",
 			"3) Cards and Enchants: Not transfered",
 			"4) Grade Rating: Not transfered"
 		}
@@ -42,7 +42,7 @@ ReformInfo = {
 	[3] = {
 		BaseItem = "Avd_Knife",
 		Material = { 
-			젤로피 = 10
+			["젤로피"] = 10
 		},
 		ResultItem = "츠루기_",
 		NeedRefineMin = 1,
@@ -56,7 +56,7 @@ ReformInfo = {
 		InformationString = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+3^000000",
-			"2) Granted Random Options: 2"
+			"2) Granted Random Options: 2",
 			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
@@ -84,8 +84,8 @@ ReformInfo = {
 	[5] = {
 		BaseItem = "링",
 		Material = { 
-			젤로피 = 10,
-			솜털 = 10
+			["젤로피"] = 10,
+			["솜털"] = 10
 		},
 		ResultItem = "로드클로스",
 		NeedRefineMin = 0,
@@ -147,7 +147,7 @@ ReformInfo = {
 	[8] = {
 		BaseItem = "해달선풍기",
 		Material = { 
-			젤로피 = 100
+			["젤로피"] = 100
 		},
 		ResultItem = "포링카드",
 		NeedRefineMin = 0,
@@ -169,7 +169,7 @@ ReformInfo = {
 	[9] = {
 		BaseItem = "해달선풍기",
 		Material = { 
-			솜털 = 100
+			["솜털"] = 100
 		},
 		ResultItem = "포링카드",
 		NeedRefineMin = 0,
@@ -191,12 +191,12 @@ ReformInfo = {
 	[10] = {
 		BaseItem = "오라오라",
 		Material = { 
-			가축의피 = 3,
-			히나레 = 3,
-			알로에 = 10,
-			클로버 = 5,
-			노래하는풀 = 1,
-			멘트 = 3
+			["가축의피"] = 3,
+			["히나레"] = 3,
+			["알로에"] = 10,
+			["클로버"] = 5,
+			["노래하는풀"] = 1,
+			["멘트"] = 3
 		},
 		ResultItem = "새싹",
 		NeedRefineMin = 0,
@@ -218,12 +218,12 @@ ReformInfo = {
 	[11] = {
 		BaseItem = "엠펠리움",
 		Material = {
-			가축의피 = 3,
-			히나레 = 3,
-			알로에 = 10,
-			클로버 = 5,
-			노래하는풀 = 1,
-			멘트 = 3
+			["가축의피"] = 3,
+			["히나레"] = 3,
+			["알로에"] = 10,
+			["클로버"] = 5,
+			["노래하는풀"] = 1,
+			["멘트"] = 3
 		},
 		ResultItem = "블루젬스톤",
 		NeedRefineMin = 0,
@@ -239,7 +239,7 @@ ReformInfo = {
 		BaseItem = "타노스의검",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100
+			["흙빛의조각"] = 100
 		},
 		ResultItem = "Thanos_Sword_AD",
 		NeedRefineMin = 9,
@@ -261,7 +261,7 @@ ReformInfo = {
 		BaseItem = "타노스의대검",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_TSword_AD",
 		NeedRefineMin = 9,
@@ -283,7 +283,7 @@ ReformInfo = {
 		BaseItem = "타노스의망치",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Hammer_AD",
 		NeedRefineMin = 9,
@@ -305,7 +305,7 @@ ReformInfo = {
 		BaseItem = "타노스의단검",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Dagger_AD",
 		NeedRefineMin = 9,
@@ -327,7 +327,7 @@ ReformInfo = {
 		BaseItem = "타노스의양손지팡이",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Rod_AD",
 		NeedRefineMin = 9,
@@ -349,7 +349,7 @@ ReformInfo = {
 		BaseItem = "타노스의윕소드",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Whip_AD",
 		NeedRefineMin = 9,
@@ -371,7 +371,7 @@ ReformInfo = {
 		BaseItem = "타노스의바이올린",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Violin_AD",
 		NeedRefineMin = 9,
@@ -393,7 +393,7 @@ ReformInfo = {
 		BaseItem = "타노스의지팡이",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Staff_AD",
 		NeedRefineMin = 9,
@@ -415,7 +415,7 @@ ReformInfo = {
 		BaseItem = "타노스의창",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Spear_AD",
 		NeedRefineMin = 9,
@@ -437,7 +437,7 @@ ReformInfo = {
 		BaseItem = "타노스의카타르",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Katar_AD",
 		NeedRefineMin = 9,
@@ -459,7 +459,7 @@ ReformInfo = {
 		BaseItem = "타노스의도끼",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Axe_AD",
 		NeedRefineMin = 9,
@@ -481,7 +481,7 @@ ReformInfo = {
 		BaseItem = "타노스의활",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Bow_AD",
 		NeedRefineMin = 9,
@@ -503,7 +503,7 @@ ReformInfo = {
 		BaseItem = "타노스의너클",
 		Material = {
 			Weapon_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Knuckle_AD",
 		NeedRefineMin = 9,
@@ -525,7 +525,7 @@ ReformInfo = {
 		BaseItem = "타노스의검",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Sword_AD",
 		NeedRefineMin = 9,
@@ -547,7 +547,7 @@ ReformInfo = {
 		BaseItem = "타노스의대검",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_TSword_AD",
 		NeedRefineMin = 9,
@@ -569,7 +569,7 @@ ReformInfo = {
 		BaseItem = "타노스의망치",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Hammer_AD",
 		NeedRefineMin = 9,
@@ -591,7 +591,7 @@ ReformInfo = {
 		BaseItem = "타노스의단검",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Dagger_AD",
 		NeedRefineMin = 9,
@@ -613,7 +613,7 @@ ReformInfo = {
 		BaseItem = "타노스의양손지팡이",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Rod_AD",
 		NeedRefineMin = 9,
@@ -635,7 +635,7 @@ ReformInfo = {
 		BaseItem = "타노스의윕소드",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Whip_AD",
 		NeedRefineMin = 9,
@@ -657,7 +657,7 @@ ReformInfo = {
 		BaseItem = "타노스의바이올린",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Violin_AD",
 		NeedRefineMin = 9,
@@ -679,7 +679,7 @@ ReformInfo = {
 		BaseItem = "타노스의지팡이",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Staff_AD",
 		NeedRefineMin = 9,
@@ -701,7 +701,7 @@ ReformInfo = {
 		BaseItem = "타노스의창",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Spear_AD",
 		NeedRefineMin = 9,
@@ -723,7 +723,7 @@ ReformInfo = {
 		BaseItem = "타노스의카타르",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Katar_AD",
 		NeedRefineMin = 9,
@@ -745,7 +745,7 @@ ReformInfo = {
 		BaseItem = "타노스의도끼",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Axe_AD",
 		NeedRefineMin = 9,
@@ -767,7 +767,7 @@ ReformInfo = {
 		BaseItem = "타노스의활",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Bow_AD",
 		NeedRefineMin = 9,
@@ -789,7 +789,7 @@ ReformInfo = {
 		BaseItem = "타노스의너클",
 		Material = {
 			Weapon_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Knuckle_AD",
 		NeedRefineMin = 9,
@@ -810,7 +810,7 @@ ReformInfo = {
 	[38] = {
 		BaseItem = "Thanos_Sword_AD",
 		Material = { 
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Sword_AD",
 		NeedRefineMin = 9,
@@ -832,7 +832,7 @@ ReformInfo = {
 	[39] = {
 		BaseItem = "Thanos_Dagger_AD",
 		Material = { 
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Dagger_AD",
 		NeedRefineMin = 9,
@@ -854,7 +854,7 @@ ReformInfo = {
 	[40] = {
 		BaseItem = "Thanos_Spear_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Spear_AD",
 		NeedRefineMin = 9,
@@ -876,7 +876,7 @@ ReformInfo = {
 	[41] = {
 		BaseItem = "Thanos_Staff_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Staff_AD",
 		NeedRefineMin = 9,
@@ -898,7 +898,7 @@ ReformInfo = {
 	[42] = {
 		BaseItem = "Thanos_Knuckle_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Knuckle_AD",
 		NeedRefineMin = 9,
@@ -920,7 +920,7 @@ ReformInfo = {
 	[43] = {
 		BaseItem = "Thanos_Violin_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Violin_AD",
 		NeedRefineMin = 9,
@@ -942,7 +942,7 @@ ReformInfo = {
 	[44] = {
 		BaseItem = "Thanos_Whip_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Whip_AD",
 		NeedRefineMin = 9,
@@ -964,7 +964,7 @@ ReformInfo = {
 	[45] = {
 		BaseItem = "Thanos_Hammer_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Hammer_AD",
 		NeedRefineMin = 9,
@@ -986,7 +986,7 @@ ReformInfo = {
 	[46] = {
 		BaseItem = "Thanos_TSword_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_TSword_AD",
 		NeedRefineMin = 9,
@@ -1008,7 +1008,7 @@ ReformInfo = {
 	[47] = {
 		BaseItem = "Thanos_Katar_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Katar_AD",
 		NeedRefineMin = 9,
@@ -1030,7 +1030,7 @@ ReformInfo = {
 	[48] = {
 		BaseItem = "Thanos_Axe_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Axe_AD",
 		NeedRefineMin = 9,
@@ -1052,7 +1052,7 @@ ReformInfo = {
 	[49] = {
 		BaseItem = "Thanos_Rod_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Rod_AD",
 		NeedRefineMin = 9,
@@ -1074,7 +1074,7 @@ ReformInfo = {
 	[50] = {
 		BaseItem = "Thanos_Bow_AD",
 		Material = {
-			대장장이의축복 = 14 
+			["대장장이의축복"] = 14 
 		},
 		ResultItem = "Thanos_Bow_AD",
 		NeedRefineMin = 9,
@@ -2397,7 +2397,7 @@ ReformInfo = {
 		BaseItem = "Thanos_Helm_1",
 		Material = {
 			Armor_Stone_1 = 100,
-			흙빛의조각 = 100 
+			["흙빛의조각"] = 100 
 		},
 		ResultItem = "Thanos_Helm1_LT",
 		NeedRefineMin = 9,
@@ -2420,7 +2420,7 @@ ReformInfo = {
 		BaseItem = "Thanos_Helm_1",
 		Material = {
 			Armor_Stone_2 = 100,
-			흙빛의조각 = 300 
+			["흙빛의조각"] = 300 
 		},
 		ResultItem = "Thanos_Helm1_LT",
 		NeedRefineMin = 9,
@@ -2443,107 +2443,143 @@ ReformInfo = {
 			Armor_Stone_1 = 100,
 			["흙빛의조각"] = 100
 		},
-		ResultItem = "Thanos_Helm2_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm2_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[106] = {		BaseItem = "Thanos_Helm_2",		Material = {
 			Armor_Stone_2 = 100,
 			["흙빛의조각"] = 300
-		},		ResultItem = "Thanos_Helm2_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Thanos_Helm2_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[107] = {		BaseItem = "Thanos_Helm_3",		Material = {
 			Armor_Stone_1 = 100,
 			["흙빛의조각"] = 100
 		},
-		ResultItem = "Thanos_Helm3_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm3_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[108] = {		BaseItem = "Thanos_Helm_3",		Material = {
 			Armor_Stone_2 = 100,
 			["흙빛의조각"] = 300
-		},		ResultItem = "Thanos_Helm3_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Thanos_Helm3_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[109] = {		BaseItem = "Great_Hero_Boots",		Material = {
 			Armor_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
-		},		ResultItem = "Hero_Boots_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Hero_Boots_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[110] = {		BaseItem = "Great_Hero_Boots",		Material = {
 			Armor_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
-		},		ResultItem = "Hero_Boots_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Hero_Boots_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[111] = {		BaseItem = "Up_Saint_Hall",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
-		},		ResultItem = "Saint_Hall_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Saint_Hall_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[112] = {		BaseItem = "Up_Undine_Spear_K",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
-		},		ResultItem = "Undine_Spear_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Undine_Spear_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[113] = {		BaseItem = "Up_Demon_Hunting_Bible",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
-		},		ResultItem = "Demon_Hunting_Bible_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Demon_Hunting_Bible_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[114] = {		BaseItem = "Up_Light_Blade",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
-		},		ResultItem = "Light_Blade_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Light_Blade_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[115] = {		BaseItem = "Up_Magic_Sword",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
-		},		ResultItem = "Magic_Sword_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Magic_Sword_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[116] = {		BaseItem = "Up_Fatalist",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
-		},		ResultItem = "Fatalist_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Fatalist_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[117] = {		BaseItem = "Up_Saint_Hall",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
-		},		ResultItem = "Saint_Hall_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Saint_Hall_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[118] = {		BaseItem = "Up_Undine_Spear_K",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
-		},		ResultItem = "Undine_Spear_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Undine_Spear_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[119] = {		BaseItem = "Up_Demon_Hunting_Bible",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
-		},		ResultItem = "Demon_Hunting_Bible_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Demon_Hunting_Bible_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[120] = {		BaseItem = "Up_Light_Blade",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
-		},		ResultItem = "Light_Blade_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Light_Blade_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[121] = {		BaseItem = "Up_Magic_Sword",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
-		},		ResultItem = "Magic_Sword_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Magic_Sword_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[122] = {		BaseItem = "Up_Fatalist",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
-		},		ResultItem = "Fatalist_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Fatalist_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[123] = {		BaseItem = "Up_Saint_Hall",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2551,7 +2587,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Saint_Hall_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Saint_Hall_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[124] = {		BaseItem = "Up_Undine_Spear_K",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2559,7 +2597,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Undine_Spear_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Undine_Spear_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[125] = {		BaseItem = "Up_Demon_Hunting_Bible",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2567,7 +2607,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Demon_Hunting_Bible_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Demon_Hunting_Bible_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[126] = {		BaseItem = "Up_Light_Blade",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2575,7 +2617,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Light_Blade_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Light_Blade_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[127] = {		BaseItem = "Up_Magic_Sword",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2583,7 +2627,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Magic_Sword_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Magic_Sword_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[128] = {		BaseItem = "Up_Fatalist",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2591,266 +2637,406 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Fatalist_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Fatalist_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[129] = {		BaseItem = "Royal_Bow_K",		Material = {},		ResultItem = "Up_Royal_Bow_K",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[129] = {		BaseItem = "Royal_Bow_K",		Material = {},		ResultItem = "Up_Royal_Bow_K",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[130] = {		BaseItem = "Narcis_Bow",		Material = {},		ResultItem = "Up_Narcis_Bow",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[130] = {		BaseItem = "Narcis_Bow",		Material = {},		ResultItem = "Up_Narcis_Bow",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[131] = {		BaseItem = "Shadow_Staff_K",		Material = {},		ResultItem = "Up_Shadow_Staff_K",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[131] = {		BaseItem = "Shadow_Staff_K",		Material = {},		ResultItem = "Up_Shadow_Staff_K",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[132] = {		BaseItem = "Iron_Nail_K",		Material = {},		ResultItem = "Up_Iron_Nail_K",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[132] = {		BaseItem = "Iron_Nail_K",		Material = {},		ResultItem = "Up_Iron_Nail_K",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[133] = {		BaseItem = "Magic_Sword",		Material = {},		ResultItem = "Up_Magic_Sword",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[133] = {		BaseItem = "Magic_Sword",		Material = {},		ResultItem = "Up_Magic_Sword",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[134] = {		BaseItem = "Sword_Of_Bluefire",		Material = {},		ResultItem = "Up_Sword_Of_Bluefire",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[134] = {		BaseItem = "Sword_Of_Bluefire",		Material = {},		ResultItem = "Up_Sword_Of_Bluefire",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[135] = {		BaseItem = "Avenger",		Material = {},		ResultItem = "Up_Avenger",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[135] = {		BaseItem = "Avenger",		Material = {},		ResultItem = "Up_Avenger",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[136] = {		BaseItem = "Iron_Staff",		Material = {},		ResultItem = "Up_Iron_Staff",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[136] = {		BaseItem = "Iron_Staff",		Material = {},		ResultItem = "Up_Iron_Staff",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[137] = {		BaseItem = "Oriental_Sword",		Material = {},		ResultItem = "Up_Oriental_Sword",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[137] = {		BaseItem = "Oriental_Sword",		Material = {},		ResultItem = "Up_Oriental_Sword",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[138] = {		BaseItem = "Undine_Spear_K",		Material = {},		ResultItem = "Up_Undine_Spear_K",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[138] = {		BaseItem = "Undine_Spear_K",		Material = {},		ResultItem = "Up_Undine_Spear_K",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[139] = {		BaseItem = "Demon_Hunting_Bible_K",		Material = {},		ResultItem = "Up_Demon_Hunting_Bible",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[139] = {		BaseItem = "Demon_Hunting_Bible_K",		Material = {},		ResultItem = "Up_Demon_Hunting_Bible",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[140] = {		BaseItem = "Shiver_Katar_K",		Material = {},		ResultItem = "Up_Shiver_Katar_K",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[140] = {		BaseItem = "Shiver_Katar_K",		Material = {},		ResultItem = "Up_Shiver_Katar_K",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[141] = {		BaseItem = "OneSkyOneSun",		Material = {},		ResultItem = "Up_OneSkyOneSun",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[141] = {		BaseItem = "OneSkyOneSun",		Material = {},		ResultItem = "Up_OneSkyOneSun",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[142] = {		BaseItem = "SoulWeight",		Material = {},		ResultItem = "Up_SoulWeight",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[142] = {		BaseItem = "SoulWeight",		Material = {},		ResultItem = "Up_SoulWeight",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[143] = {		BaseItem = "MeawFoxtail",		Material = {},		ResultItem = "Up_MeawFoxtail",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[143] = {		BaseItem = "MeawFoxtail",		Material = {},		ResultItem = "Up_MeawFoxtail",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[144] = {		BaseItem = "Crimson_Rose",		Material = {},		ResultItem = "Up_Crimson_Rose",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[144] = {		BaseItem = "Crimson_Rose",		Material = {},		ResultItem = "Up_Crimson_Rose",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[145] = {		BaseItem = "Master_Soul_Rifle",		Material = {},		ResultItem = "Up_Master_Soul_Rifle",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[145] = {		BaseItem = "Master_Soul_Rifle",		Material = {},		ResultItem = "Up_Master_Soul_Rifle",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[146] = {		BaseItem = "Demon_S_Shot",		Material = {},		ResultItem = "Up_Demon_S_Shot",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[146] = {		BaseItem = "Demon_S_Shot",		Material = {},		ResultItem = "Up_Demon_S_Shot",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[147] = {		BaseItem = "Golden_L_Launcher",		Material = {},		ResultItem = "Up_Golden_L_Launcher",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[147] = {		BaseItem = "Golden_L_Launcher",		Material = {},		ResultItem = "Up_Golden_L_Launcher",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[148] = {		BaseItem = "The_Black_Gatling",		Material = {},		ResultItem = "Up_The_Black_Gatling",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[148] = {		BaseItem = "The_Black_Gatling",		Material = {},		ResultItem = "Up_The_Black_Gatling",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[149] = {		BaseItem = "Fog_Dew_Sword",		Material = {},		ResultItem = "Up_Fog_Dew_Sword",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[149] = {		BaseItem = "Fog_Dew_Sword",		Material = {},		ResultItem = "Up_Fog_Dew_Sword",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[150] = {		BaseItem = "Humma_Clear",		Material = {},		ResultItem = "Up_Humma_Clear",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[150] = {		BaseItem = "Humma_Clear",		Material = {},		ResultItem = "Up_Humma_Clear",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[151] = {		BaseItem = "Dragonic_Slayer",		Material = {},		ResultItem = "Up_Dragonic_Slayer",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[151] = {		BaseItem = "Dragonic_Slayer",		Material = {},		ResultItem = "Up_Dragonic_Slayer",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[152] = {		BaseItem = "Light_Blade",		Material = {},		ResultItem = "Up_Light_Blade",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[152] = {		BaseItem = "Light_Blade",		Material = {},		ResultItem = "Up_Light_Blade",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[153] = {		BaseItem = "Slate_Sword",		Material = {},		ResultItem = "Up_Slate_Sword",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[153] = {		BaseItem = "Slate_Sword",		Material = {},		ResultItem = "Up_Slate_Sword",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[154] = {		BaseItem = "Trumpet_Shell_K",		Material = {},		ResultItem = "Up_Trumpet_Shell_K",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[154] = {		BaseItem = "Trumpet_Shell_K",		Material = {},		ResultItem = "Up_Trumpet_Shell_K",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[155] = {		BaseItem = "Barb_Wire_K",		Material = {},		ResultItem = "Up_Barb_Wire_K",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[155] = {		BaseItem = "Barb_Wire_K",		Material = {},		ResultItem = "Up_Barb_Wire_K",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[156] = {		BaseItem = "Meteor_Striker",		Material = {},		ResultItem = "Up_Meteor_Striker",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[156] = {		BaseItem = "Meteor_Striker",		Material = {},		ResultItem = "Up_Meteor_Striker",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[157] = {		BaseItem = "Saint_Hall",		Material = {},		ResultItem = "Up_Saint_Hall",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[157] = {		BaseItem = "Saint_Hall",		Material = {},		ResultItem = "Up_Saint_Hall",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[158] = {		BaseItem = "Ray_Knuckle",		Material = {},		ResultItem = "Up_Ray_Knuckle",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[158] = {		BaseItem = "Ray_Knuckle",		Material = {},		ResultItem = "Up_Ray_Knuckle",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[159] = {		BaseItem = "Blade_Katar",		Material = {},		ResultItem = "Up_Blade_Katar",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[159] = {		BaseItem = "Blade_Katar",		Material = {},		ResultItem = "Up_Blade_Katar",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[160] = {		BaseItem = "Fatalist",		Material = {},		ResultItem = "Up_Fatalist",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[160] = {		BaseItem = "Fatalist",		Material = {},		ResultItem = "Up_Fatalist",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[161] = {		BaseItem = "Scalet_Dragon_L_Bow",		Material = {},		ResultItem = "Up_Scalet_Dragon_L_Bow",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[161] = {		BaseItem = "Scalet_Dragon_L_Bow",		Material = {},		ResultItem = "Up_Scalet_Dragon_L_Bow",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[162] = {		BaseItem = "Blue_Crystal_Staff",		Material = {},		ResultItem = "Up_Blue_Crystal_Staff",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[162] = {		BaseItem = "Blue_Crystal_Staff",		Material = {},		ResultItem = "Up_Blue_Crystal_Staff",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[163] = {		BaseItem = "Freezing_Rod",		Material = {},		ResultItem = "Up_Freezing_Rod",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[163] = {		BaseItem = "Freezing_Rod",		Material = {},		ResultItem = "Up_Freezing_Rod",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
-	[164] = {		BaseItem = "Ancient_Hero_Boots",		Material = {},		ResultItem = "Great_Hero_Boots",		NeedRefineMin = 7",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+	[164] = {		BaseItem = "Ancient_Hero_Boots",		Material = {},		ResultItem = "Great_Hero_Boots",		NeedRefineMin = 7,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -2,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-2^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[165] = {		BaseItem = "Thanos_Helm_1",		Material = {
 			["대장장이의축복"] = 14
 		},
-		ResultItem = "Thanos_Helm_1",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm_1",		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[166] = {		BaseItem = "Thanos_Helm1_LT",		Material = {
 			["대장장이의축복"] = 14
 		},
-		ResultItem = "Thanos_Helm1_LT",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm1_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[167] = {		BaseItem = "Thanos_Helm_2",		Material = {
 			["대장장이의축복"] = 14
 		},
-		ResultItem = "Thanos_Helm_2",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm_2",		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[168] = {		BaseItem = "Thanos_Helm2_LT",		Material = {
 			["대장장이의축복"] = 14
 		},
-		ResultItem = "Thanos_Helm2_LT",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm2_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[169] = {		BaseItem = "Thanos_Helm_3",		Material = {
 			["대장장이의축복"] = 14
 		},
-		ResultItem = "Thanos_Helm_3",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm_3",		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[170] = {		BaseItem = "Thanos_Helm3_LT",		Material = {
 			["대장장이의축복"] = 14
 		},
-		ResultItem = "Thanos_Helm3_LT",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm3_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[171] = {		BaseItem = "S_Hasty_Weapon",		Material = {
 			Shadowdecon = 10
-		},		ResultItem = "S_Hasty_Shield",		NeedRefineMin = 0",		NeedRefineMax = 10",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 0,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: Transfered",			"2) Granted Random Options: Transfered"		}	},
+		},		ResultItem = "S_Hasty_Shield",		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 0,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: Transfered",			"2) Granted Random Options: Transfered"		}	},
 	[172] = {		BaseItem = "S_Infinity_Weapon",		Material = { 
 			Shadowdecon = 10
-		},		ResultItem = "S_Infinity_Shield",		NeedRefineMin = 0",		NeedRefineMax = 10",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 0,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: Transfered",			"2) Granted Random Options: Transfered"		}	},
+		},		ResultItem = "S_Infinity_Shield",		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 0,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: Transfered",			"2) Granted Random Options: Transfered"		}	},
 	[173] = {		BaseItem = "스모키의변신나뭇잎",		Material = {
 			Armor_Stone_1 = 100,
 			["너구리나뭇잎"] = 150
-		},		ResultItem = "Smoky_TransformHat_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Smoky_TransformHat_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[174] = {		BaseItem = "휘케바인의귀_K",		Material = {
 			Armor_Stone_1 = 100,
 			["고양이인형"] = 50
-		},		ResultItem = "Whikebain_Ears_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Whikebain_Ears_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[175] = {		BaseItem = "서바이벌서클릿K",		Material = {
 			Armor_Stone_1 = 100,
 			["부드러운비단천"] = 100
 		},
-		ResultItem = "Survive_Circlet_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Survive_Circlet_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[176] = {		BaseItem = "황금물고기머리모자",		Material = {
 			Armor_Stone_1 = 100,
 			["빛나는비늘"] = 150
-		},		ResultItem = "GoldFish_Hat_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "GoldFish_Hat_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[177] = {		BaseItem = "임프모자",		Material = {
 			Armor_Stone_1 = 100,
 			["뜨거운털"] = 150
-		},		ResultItem = "Imp_Hat_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Imp_Hat_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[178] = {		BaseItem = "Thanos_Helm_4",		Material = {
 			Armor_Stone_1 = 100,
 			["흙빛의조각"] = 100
 		},
-		ResultItem = "Thanos_Helm4_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm4_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[179] = {		BaseItem = "스모키의변신나뭇잎",		Material = {
 			Armor_Stone_2 = 100,
 			["너구리나뭇잎"] = 300
-		},		ResultItem = "Smoky_TransformHat_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Smoky_TransformHat_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[180] = {		BaseItem = "휘케바인의귀_K",		Material = {
 			Armor_Stone_2 = 100,
 			["고양이인형"] = 100
 		},
-		ResultItem = "Whikebain_Ears_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Whikebain_Ears_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[181] = {		BaseItem = "서바이벌서클릿K",		Material = {
 			Armor_Stone_2 = 100,
 			["부드러운비단천"] = 200
-		},		ResultItem = "Survive_Circlet_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Survive_Circlet_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[182] = {		BaseItem = "황금물고기머리모자",		Material = {
 			Armor_Stone_2 = 100,
 			["빛나는비늘"] = 300
-		},		ResultItem = "GoldFish_Hat_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "GoldFish_Hat_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[183] = {		BaseItem = "임프모자",		Material = {
 			Armor_Stone_2 = 100,
 			["뜨거운털"] = 300
-		},		ResultItem = "Imp_Hat_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Imp_Hat_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[184] = {		BaseItem = "Thanos_Helm_4",		Material = {
 			Armor_Stone_2 = 100,
 			["흙빛의조각"] = 300
-		},		ResultItem = "Thanos_Helm4_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		},		ResultItem = "Thanos_Helm4_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[185] = {		BaseItem = "서바이벌오브K",		Material = {
 			Armor_Stone_3 = 100,
 			["수정조각"] = 450
-		},		ResultItem = "SurviveOrb_K_LT",		NeedRefineMin = 0",		NeedRefineMax = 0",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 0,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) 랜덤 옵션 정보 : 이전됨",			"2) 카드 및 인챈트 정보 : 이전됨",			"3) 등급 정보 : 이전됨"		}	},
+		},		ResultItem = "SurviveOrb_K_LT",		NeedRefineMin = 0,
+		NeedRefineMax = 0,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 0,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) 랜덤 옵션 정보 : 이전됨",			"2) 카드 및 인챈트 정보 : 이전됨",			"3) 등급 정보 : 이전됨"		}	},
 	[186] = {		BaseItem = "Up_Iron_Staff",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
 		},
-		ResultItem = "Iron_Staff_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Iron_Staff_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[187] = {		BaseItem = "Up_Blue_Crystal_Staff",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
 		},
-		ResultItem = "Blue_Crystal_Staff_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Blue_Crystal_Staff_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[188] = {		BaseItem = "Up_Shadow_Staff_K",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
 		},
-		ResultItem = "Shadow_Staff_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Shadow_Staff_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[189] = {		BaseItem = "Up_Freezing_Rod",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
 		},
-		ResultItem = "Freezing_Rod_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Freezing_Rod_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[190] = {		BaseItem = "Up_Iron_Nail_K",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
 		},
-		ResultItem = "Iron_Nail_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Iron_Nail_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[191] = {		BaseItem = "Up_Ray_Knuckle",		Material = {
 			Weapon_Stone_1 = 100,
 			Bio_Test_Fragment = 100,
 			Bio_Reseearch_Docu = 50
 		},
-		ResultItem = "Ray_Knuckle_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Ray_Knuckle_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -5,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-5^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[192] = {		BaseItem = "Up_Iron_Staff",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
 		},
-		ResultItem = "Iron_Staff_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Iron_Staff_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[193] = {		BaseItem = "Up_Blue_Crystal_Staff",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
 		},
-		ResultItem = "Blue_Crystal_Staff_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Blue_Crystal_Staff_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[194] = {		BaseItem = "Up_Shadow_Staff_K",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
 		},
-		ResultItem = "Shadow_Staff_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Shadow_Staff_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[195] = {		BaseItem = "Up_Freezing_Rod",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
 		},
-		ResultItem = "Freezing_Rod_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Freezing_Rod_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[196] = {		BaseItem = "Up_Iron_Nail_K",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
 		},
-		ResultItem = "Iron_Nail_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Iron_Nail_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[197] = {		BaseItem = "Up_Ray_Knuckle",		Material = {
 			Weapon_Stone_2 = 100,
 			Bio_Test_Fragment = 300,
 			Bio_Reseearch_Docu = 150
 		},
-		ResultItem = "Ray_Knuckle_LT",		NeedRefineMin = 9",		NeedRefineMax = 20",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Ray_Knuckle_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = -1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^FF0000-1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[198] = {		BaseItem = "Up_Iron_Staff",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2858,7 +3044,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Iron_Staff_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Iron_Staff_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[199] = {		BaseItem = "Up_Blue_Crystal_Staff",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2866,7 +3054,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Blue_Crystal_Staff_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Blue_Crystal_Staff_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[200] = {		BaseItem = "Up_Shadow_Staff_K",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2874,7 +3064,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Shadow_Staff_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Shadow_Staff_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[201] = {		BaseItem = "Up_Freezing_Rod",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2882,7 +3074,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Freezing_Rod_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Freezing_Rod_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[202] = {		BaseItem = "Up_Iron_Nail_K",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2890,7 +3084,9 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Iron_Nail_K_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Iron_Nail_K_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[203] = {		BaseItem = "Up_Ray_Knuckle",		Material = {
 			Weapon_Stone_3 = 100,
@@ -2898,17 +3094,23 @@ ReformInfo = {
 			Bio_Reseearch_Docu = 150,
 			M_Dimension_Essence = 1
 		},
-		ResultItem = "Ray_Knuckle_LT",		NeedRefineMin = 9",		NeedRefineMax = 19",		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Ray_Knuckle_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 19,
+		NeedOptionNumMin = 0,		IsEmptySocket = true,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[204] = {		BaseItem = "Thanos_Helm_4",		Material = {
 			["대장장이의축복"] = 14
 		},
-		ResultItem = "Thanos_Helm_4",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm_4",		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"		}	},
 	[205] = {		BaseItem = "Thanos_Helm4_LT",		Material = {
 			["대장장이의축복"] = 14
 		},
-		ResultItem = "Thanos_Helm4_LT",		NeedRefineMin = 9",		NeedRefineMax = 11",		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
+		ResultItem = "Thanos_Helm4_LT",		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,		IsEmptySocket = false,		ChangeRefineValue = 1,		RandomOptionCode = "",		PreserveSocketItem = true,		PreserveGrade = true,		InformationString = {			"<B>Combination Result</B>",			"1) Refine Level: ^4D4DFF+1^000000",			"2) Granted Random Options: Transfered",			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	}, 
@@ -2928,7 +3130,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -2948,7 +3150,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -2968,7 +3170,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -2988,7 +3190,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3008,7 +3210,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3028,7 +3230,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3048,7 +3250,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3068,7 +3270,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3088,7 +3290,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3108,7 +3310,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3128,7 +3330,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3148,7 +3350,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3168,7 +3370,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3188,7 +3390,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3208,7 +3410,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3228,7 +3430,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3248,7 +3450,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3268,7 +3470,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3288,7 +3490,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3308,7 +3510,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3328,7 +3530,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3348,7 +3550,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3368,7 +3570,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3388,7 +3590,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3408,7 +3610,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3428,7 +3630,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3448,7 +3650,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3468,7 +3670,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3488,7 +3690,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3510,7 +3712,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3532,7 +3734,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3554,7 +3756,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3576,7 +3778,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3598,7 +3800,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3620,7 +3822,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3642,7 +3844,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3664,7 +3866,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3686,7 +3888,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3708,7 +3910,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3730,7 +3932,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3752,7 +3954,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3774,7 +3976,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3796,7 +3998,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3816,7 +4018,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3836,7 +4038,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3856,7 +4058,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3876,7 +4078,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3898,7 +4100,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3920,7 +4122,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3942,7 +4144,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3964,7 +4166,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -3988,7 +4190,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4012,7 +4214,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4036,7 +4238,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4060,7 +4262,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4084,7 +4286,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4108,7 +4310,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4132,7 +4334,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4156,7 +4358,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4181,7 +4383,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4206,7 +4408,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4231,7 +4433,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4256,7 +4458,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	}, 
@@ -4300,7 +4502,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4324,7 +4526,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4348,7 +4550,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4372,7 +4574,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4396,7 +4598,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4420,7 +4622,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4444,7 +4646,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4468,7 +4670,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4492,7 +4694,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4516,7 +4718,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4541,7 +4743,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4566,7 +4768,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4591,7 +4793,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4616,7 +4818,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4641,7 +4843,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4664,7 +4866,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4687,7 +4889,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4707,7 +4909,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4727,7 +4929,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4747,7 +4949,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4767,7 +4969,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4787,7 +4989,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4809,7 +5011,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4831,7 +5033,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4853,7 +5055,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4875,7 +5077,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4897,7 +5099,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"}
 	}, 
 	[297] = {
@@ -4940,7 +5142,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4964,7 +5166,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -4988,7 +5190,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5012,7 +5214,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-5^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5036,7 +5238,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5060,7 +5262,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5084,7 +5286,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5108,7 +5310,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^FF0000-1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5133,7 +5335,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5158,7 +5360,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5183,7 +5385,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5208,7 +5410,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5228,7 +5430,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5248,7 +5450,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5268,7 +5470,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5288,7 +5490,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Transfered",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5310,7 +5512,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5332,7 +5534,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5354,7 +5556,7 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
 		}
 	},
@@ -5376,8 +5578,1126 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: ^4D4DFF+1^000000",
 			"2) Granted Random Options: Transfered",
-			"3) Cards and Enchants: Transfered"
+			"3) Cards and Enchants: Transfered",
 			"4) Grade Rating: Transfered"
+		}
+	}, 
+	[318] = {
+		BaseItem = "Vivatus_F_M_Book",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_M_Book",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[319] = {
+		BaseItem = "Vivatus_F_P_Book",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_P_Book",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[320] = {
+		BaseItem = "Vivatus_F_Bible",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Bible",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[321] = {
+		BaseItem = "Vivatus_F_Ribbon",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Ribbon",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[322] = {
+		BaseItem = "Vivatus_F_Harp",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Harp",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[323] = {
+		BaseItem = "Vivatus_F_Claw",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Claw",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[324] = {
+		BaseItem = "Vivatus_F_C_Rope",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_C_Rope",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[325] = {
+		BaseItem = "Vivatus_F_Violin",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Violin",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[326] = {
+		BaseItem = "Vivatus_F_A_Bow",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_A_Bow",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[327] = {
+		BaseItem = "Vivatus_F_Ballista",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Ballista",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[328] = {
+		BaseItem = "Vivatus_F_Knuckle",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Knuckle",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[329] = {
+		BaseItem = "Vivatus_F_Wand",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Wand",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[330] = {
+		BaseItem = "Vivatus_F_Rod",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Rod",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[331] = {
+		BaseItem = "Vivatus_F_T_Staff",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_T_Staff",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[332] = {
+		BaseItem = "Vivatus_F_C_Bow",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_C_Bow",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[333] = {
+		BaseItem = "Vivatus_F_Cakram",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Cakram",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[334] = {
+		BaseItem = "Vivatus_F_Hall",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Hall",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[335] = {
+		BaseItem = "Vivatus_F_Dagger",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Dagger",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[336] = {
+		BaseItem = "Vivatus_F_Katar",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Katar",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[337] = {
+		BaseItem = "Vivatus_F_Lapier",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Lapier",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[338] = {
+		BaseItem = "Vivatus_F_Mace",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Mace",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[339] = {
+		BaseItem = "Vivatus_F_G_Sword",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_G_Sword",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[340] = {
+		BaseItem = "Vivatus_F_Axe",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Axe",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[341] = {
+		BaseItem = "Vivatus_F_G_Spear",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_G_Spear",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[342] = {
+		BaseItem = "Vivatus_F_Lance",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_Lance",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[343] = {
+		BaseItem = "Vivatus_F_T_Sword",
+		Material = {
+			["대장장이의축복"] = 14
+		},
+		ResultItem = "Vivatus_F_T_Sword",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[344] = {
+		BaseItem = "Adulter_F_M_Book",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_M_Book",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[345] = {
+		BaseItem = "Adulter_F_P_Book",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_P_Book",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[346] = {
+		BaseItem = "Adulter_F_Bible",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Bible",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[347] = {
+		BaseItem = "Adulter_F_Ribbon",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Ribbon",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[348] = {
+		BaseItem = "Adulter_F_Harp",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Harp",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[349] = {
+		BaseItem = "Adulter_F_Claw",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Claw",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[350] = {
+		BaseItem = "Adulter_F_C_Rope",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_C_Rope",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[351] = {
+		BaseItem = "Adulter_F_Violin",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Violin",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[352] = {
+		BaseItem = "Adulter_F_A_Bow",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_A_Bow",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[353] = {
+		BaseItem = "Adulter_F_Ballista",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Ballista",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[354] = {
+		BaseItem = "Adulter_F_Knuckle",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Knuckle",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[355] = {
+		BaseItem = "Adulter_F_Wand",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Wand",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[356] = {
+		BaseItem = "Adulter_F_Rod",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Rod",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[357] = {
+		BaseItem = "Adulter_F_T_Staff",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_T_Staff",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[358] = {
+		BaseItem = "Adulter_F_C_Bow",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_C_Bow",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[359] = {
+		BaseItem = "Adulter_F_Cakram",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Cakram",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[360] = {
+		BaseItem = "Adulter_F_Hall",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Hall",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[361] = {
+		BaseItem = "Adulter_F_Dagger",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Dagger",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[362] = {
+		BaseItem = "Adulter_F_Katar",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Katar",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[363] = {
+		BaseItem = "Adulter_F_Lapier",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Lapier",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[364] = {
+		BaseItem = "Adulter_F_Mace",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Mace",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[365] = {
+		BaseItem = "Adulter_F_G_Sword",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_G_Sword",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[366] = {
+		BaseItem = "Adulter_F_Axe",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Axe",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[367] = {
+		BaseItem = "Adulter_F_G_Spear",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_G_Spear",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[368] = {
+		BaseItem = "Adulter_F_Lance",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_Lance",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
+		}
+	},
+	[369] = {
+		BaseItem = "Adulter_F_T_Sword",
+		Material = {
+			Ep18_Amethyst_Fragment = 400
+		},
+		ResultItem = "Vivatus_F_T_Sword",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Granted Random Options: Transfered",
+			"3) Cards and Enchants: Transfered"
 		}
 	}
 }
@@ -5392,7 +6712,7 @@ ReformItemList = {
 		25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37
 	},
 	Thanos_Refine_Hammer = {
-		38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50
+		38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 165, 166, 167, 168, 169, 170, 204, 205
 	},
 	Consecrate_Weapon_1 = {
 		51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76
@@ -5459,5 +6779,11 @@ ReformItemList = {
 	},
 	Hero_Weapon_Hammer_5 = {
 		314, 315, 316, 317
+	}, 
+	Vivatus_Weapon_Hammer = {
+		318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343
+	},
+	Adulter_Weapon_Up_Box = {
+		344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369
 	}
 }

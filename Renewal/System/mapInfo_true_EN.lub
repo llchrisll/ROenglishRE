@@ -1,4 +1,96 @@
 mapTbl = {
+	["1@exnw.rsw"] = {
+		displayName = "Clana Nemieri",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Clana Nemieri"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["1@exsr.rsw"] = {
+		displayName = "Inner World",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inner World"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["1@exds.rsw"] = {
+		displayName = "Foot of Mt. Mumyeong",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Foot of Mt. Mumyeong"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["2@exds.rsw"] = {
+		displayName = "Foot of Mt. Mumyeong",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Foot of Mt. Mumyeong"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["1@exse.rsw"] = {
+		displayName = "Galactic Celestial Branch",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Galactic Celestial Branch"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["1@exhn.rsw"] = {
+		displayName = "Novice's Memory",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Novice's Memory"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["1@exsh.rsw"] = {
+		displayName = "Deep Forest",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Deep Forest"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["bl_grass.rsw"] = {
+		displayName = "Biosphere Specimen Environment - Grassland",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Specimen Environment - Grassland"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["bl_lava.rsw"] = {
+		displayName = "Biosphere Specimen Environment - Flame",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Specimen Environment - Flame"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["bl_ice.rsw"] = {
+		displayName = "Biosphere Specimen Environment - Severe Cold",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Specimen Environment - Severe Cold"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["bl_death.rsw"] = {
+		displayName = "Biosphere Specimen Environment - Death",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Specimen Environment - Death"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["1@ch_u.rsw"] = {
 		displayName = "Sunken Tower",
 		notifyEnter = true,
@@ -710,7 +802,11 @@ mapTbl = {
 	["bat_c01.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true	},	["bat_c02.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true	},	["bat_c03.rsw"] = {		displayName = "Krieger von Midgard",		notifyEnter = true	},	["mid_camp.rsw"] = {		displayName = "Midgard Expedition Camp",		notifyEnter = true, 
 		signName = {			subTitle = "Yotunheim",			mainTitle = "Midgard Expedition Camp"		},		backgroundBmp = "village"	},
 	["mid_campin.rsw"] = {		displayName = "Inside Midgard Expedition Camp"	},
-	["man_fild01.rsw"] = {		displayName = "Manuk Field",		notifyEnter = true
+	["man_fild01.rsw"] = {		displayName = "Manuk Field",		notifyEnter = true,
+		signName = {
+			mainTitle = "Manuk Field"
+		},
+		backgroundBmp = "field_s2"
 	}, 
 	["man_fild03.rsw"] = {		displayName = "Manuk Field",		notifyEnter = true, 
 		signName = {			mainTitle = "Manuk Field"		},		backgroundBmp = "field_s2"	},

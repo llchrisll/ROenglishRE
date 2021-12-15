@@ -4312,7 +4312,7 @@ QuestInfoList = {
 		Description = {
 			"Jaguar blesses you and tells you to meet a monkey."
 		},
-		Summary = "Converation with a monkey"
+		Summary = "Conversation with a monkey"
 	},
 	[2199] = {
 		Title = "Guarana quest",
@@ -6832,932 +6832,1103 @@ QuestInfoList = {
 		Summary = "Ingredients for Roast Turkey"
 	},
 	[3376] = {
-		Title = "(Standby) 추수제 준비",
+		Title = "Preparation for the harvesting agent (Standby)",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"지금 음식 준비가 한창이라 줄 수 있는게 없는데. 새벽 시간이 지난 후에 <NAVI>[나]<INFO>alberta,119,193,0,101,0</INFO></NAVI>를 찾아 오면 꼭 줄 테니까."
+			"I can't give you anything because the food is in full swing right now. If you come to <NAVI>[me]<INFO>alberta,119,193,0,101,0</INFO></NAVI> after dawn, I will definitely give it to you."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3377] = {
-		Title = "루이스의 용건",
+		Title = "Lewis' Quest",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"<NAVI>[루이스]<INFO>alberta,115,198,0,101,0</INFO></NAVI>가 도움이 필요한 모양이다. 말을 걸도록 하자."
+			"<NAVI>[Lewis]<INFO>alberta,115,198,0,101,0</INFO></NAVI> seems to need help. Let's talk to him."
 		},
-		Summary = "루이스와 대화하기"
+		Summary = "Talk to Lewis"
 	},
 	[3378] = {
-		Title = "칠면조들의 먹이",
+		Title = "Turkey's Food",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"칠면조들의 먹이가 필요하다. <ITEM>[메뚜기뒷다리]<INFO>940</INFO></ITEM> 30개, <ITEM>[초록 허브]<INFO>511</INFO></ITEM> 20개, <ITEM>[추수제 기념 과자]<INFO>11613</INFO></ITEM> 20개를 루이스에게 가져다 주자."
+			"The turkeys need food. Bring 30x <ITEM>[Grasshopper's Leg]<INFO>940</INFO></ITEM>, 20x <ITEM>[Green Herb]<INFO>511</INFO></ITEM> and 20x <ITEM>[Harvest Festival Commemorative Sweets]<INFO>11613</INFO></ITEM> to Lewis."
 		},
-		Summary = "칠면조 먹이 조달"
+		Summary = "Turkey Feeding"
 	},
 	[3379] = {
-		Title = "칠면조들의 먹이 - 반복",
+		Title = "Turkey's Food - Daily",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"칠면조들의 먹이는 계속 필요하다. <ITEM>[메뚜기뒷다리]<INFO>940</INFO></ITEM> 30개, <ITEM>[초록 허브]<INFO>511</INFO></ITEM> 20개, <ITEM>[추수제 기념 과자]<INFO>11613</INFO></ITEM> 20개를 루이스에게 가져다 주자."
+			"The turkeys need food. Bring 30x <ITEM>[Grasshopper's Leg]<INFO>940</INFO></ITEM>, 20x <ITEM>[Green Herb]<INFO>511</INFO></ITEM> and 20x <ITEM>[Harvest Festival Commemorative Sweets]<INFO>11613</INFO></ITEM> to Lewis."
 		},
-		Summary = "칠면조 먹이 조달"
+		Summary = "Turkey Feeding"
 	},
 	[3380] = {
-		Title = "칠면조들의 먹이 - 대기 ",
+		Title = "Turkey'y Food - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"지금은 칠면조들의 먹이가 충분하다. 새벽이 지나고 다시 찾아가도록 하자."
+			"There is enough food for the turkeys now. Let's come back after dawn."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3381] = {
-		Title = "김서방의 용건",
+		Title = "Seobang Kim's Business",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"<NAVI>[김서방]<INFO>alberta,119,198,0,101,0</INFO></NAVI>에게 도움이 필요한 모양이다. 말을 걸도록 하자."
+			"<NAVI>[Seobang Kim]<INFO>alberta,119,198,0,101,0</INFO></NAVI> seems to need help. Let's talk to him."
 		},
-		Summary = "김서방과 대화하기"
+		Summary = "Talk to Seobang Kim"
 	},
 	[3382] = {
-		Title = "쿤룬으로 넘어가야 하는 이유",
+		Title = "Reasons to move to Kunlun",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"김서방은 자신의 딸인 케진을 만나기 위해 <ITEM>[어디로든 티켓]<INFO>25392</INFO></ITEM> 2장을 가져다 달라고 부탁한다."
+			"Seobang Kim ask you to bring her 2x <ITEM>[Ticket to anywhere]<INFO>25392</INFO></ITEM> so he can meet hier daughter Kejin."
 		},
-		Summary = "김서방의 부탁을 들어주기"
+		Summary = "Seobang Kim's Request"
 	},
 	[3383] = {
-		Title = "쿤룬으로 넘어가야 하는 이유 - 반복",
+		Title = "Reasons to move to Kunlun - Daily",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"김서방은 오늘도 자신의 딸인 케진을 만나기 위해 <ITEM>[어디로든 티켓]<INFO>25392</INFO></ITEM> 2장을 가져다 달라고 부탁한다."
+			"Seobang Kim ask you to bring her 2x <ITEM>[Ticket to anywhere]<INFO>25392</INFO></ITEM> so he can meet hier daughter Kejin."
 		},
-		Summary = "김서방의 부탁을 들어주기"
+		Summary = "Seobang Kim's Request"
 	},
 	[3384] = {
-		Title = "쿤룬으로 넘어가야 하는 이유- 대기",
+		Title = "Reasons to move to Kunlun - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"새벽이 지나 다시 배를 띄울 수 있는 시간이 되었을 때, 김서방을 다시 찾아가도록 하자."
+			"When dawn has passed and it is time to launch the boat again, let's visit Seobang Kim again."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3385] = {
-		Title = "은월의 용건",
+		Title = "Eunwol's Dragon",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"<NAVI>[은월]<INFO>alberta,117,198,0,101,0</INFO></NAVI>에게 도움이 필요한 모양이다. 말을 걸도록 하자."
+			"<NAVI>[Eunwol]<INFO>alberta,117,198,0,101,0</INFO></NAVI> seems to need help. Let's talk to him."
 		},
-		Summary = "은월과 대화하기"
+		Summary = "Talk to Eunwol"
 	},
 	[3386] = {
-		Title = "추수제 기념 과자 전달",
+		Title = "Harvest Festival Sweets Delivery",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"추수제 과자의 연구를 위해 <ITEM>[추수제 기념 과자]<INFO>11613</INFO></ITEM> 10개를 가져다 달라고 부탁한다."
+			"Please bring 10x <ITEM>[Harvest Festival Commemorative Sweets]<INFO>11613</INFO></ITEM> for the study on Harvest Sweets."
 		},
-		Summary = "은월의 부탁을 들어주기"
+		Summary = "Grant Eunwol's Request"
 	},
 	[3387] = {
-		Title = "추수제 기념 과자 전달 - 반복",
+		Title = "Harvest Festival Sweets Delivery - Daily",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"아무래도 <ITEM>[추수제 기념 과자]<INFO>11613</INFO></ITEM>가 더 필요한 모양이다. 10개 모아서 은월에게 가져다 주자."
+			"Please bring 10x <ITEM>[Harvest Festival Commemorative Sweets]<INFO>11613</INFO></ITEM> for the study on Harvest Sweets."
 		},
-		Summary = "은월의 부탁을 들어주기"
+		Summary = "Grant Eunwol's Request"
 	},
 	[3388] = {
-		Title = "추수제 기념 과자 전달 - 대기",
+		Title = "Harvest Festival Sweets Delivery - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"은월이 추수제 기념과자를 더 필요로 할 때, 다시 오도록 하자."
+			"Let's come back when Eunwol needs more Harvest Sweets."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3389] = {
-		Title = "생체 전자 방해 칩 제거",
+		Title = "Bioelectronic Interference Chip Removal",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"칩 제거에 성공하여 에오르파와의 소통이 원활하게 되었다."
+			"The chip was successfully removed and communication with Eorpa became smooth."
 		},
-		Summary = "에오르파의 시스템이 재시작 되면 말을 걸어보자."
+		Summary = "When Eorpa's system restarts, talk to him."
 	},
 	[3390] = {
-		Title = "제 2 마력 발전소 관리자 에오르파",
+		Title = "2nd Power Plant Manager Eorpa",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^4d4dff마력중독 사나레^000000로부터 감자칩을 빼앗아 오자!"
+			"Let's steal the Potato Chips from the ^4d4dffMagic Poison Sanare^000000!"
 		},
-		Summary = "감자칩 10개를 회수해 오자."
+		Summary = "Retrieve 10 Potato Chips."
 	},
 	[3391] = {
-		Title = "일루시온이 뿌린 감자칩 - 대기",
+		Title = "Illusion Sprinkled Potato Chips - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[에오르파]<INFO>ba_maison,79,278,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Eorpa]<INFO>ba_maison,79,278,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3392] = {
-		Title = "일루시온이 뿌린 감자칩",
+		Title = "Illusion Sprinkled Potato Chips",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^4d4dff마력중독 사나레^000000로부터 감자칩을 빼앗아 오자!"
+			"Let's steal the Potato Chips from the ^4d4dffMagic Poison Sanare^000000!"
 		},
-		Summary = "감자칩 10개를 회수해 오자."
+		Summary = "Retrieve 10 Potato Chips."
 	},
 	[3393] = {
-		Title = "왕실 사냥대회 참가",
+		Title = "Participation in Royal Hunting Competitions",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"동물형 몬스터를 30마리 사냥한 뒤에 <NAVI>[지휘관 나데즈다]<INFO>prt_fild01,98,171,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Brute race monsters, report to <NAVI>[Commander Nadezda]<INFO>prt_fild01,98,171,0,101,0</INFO></NAVI>."
 		},
-		Summary = "동물형 몬스터 사냥"
+		Summary = "Hunt Brute Monsters"
 	},
 	[3394] = {
-		Title = "수습 사냥꾼 - 1",
+		Title = "Apprentice Hunter - 1",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"50Lv 이상의 동물형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Brute race monsters of Level 30 or higher, report it to <NAVI>[Lieutenant Rofinche]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>."
 		},
-		Summary = "동물형 몬스터 사냥"
+		Summary = "Hunt Brute Monsters"
 	},
 	[3395] = {
-		Title = "수습 사냥꾼 - 2",
+		Title = "Apprentice Hunter - 2",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"50Lv 이상의 곤충형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Insect race monsters of Level 30 or higher, report it to <NAVI>[Lieutenant Rofinche]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>."
 		},
-		Summary = "곤충형 몬스터 사냥"
+		Summary = "Hunt Insect Monsters"
 	},
 	[3396] = {
-		Title = "숙련된 사냥꾼 - 1",
+		Title = "Experienced Hunter - 1",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"50Lv 이상의 어패형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 장하성]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Fish race monsters of Level 50 or higher, report it to <NAVI>[Deputy Officer Jang]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>."
 		},
-		Summary = "어패형 몬스터 사냥"
+		Summary = "Hunt Fish Monsters"
 	},
 	[3397] = {
-		Title = "숙련된 사냥꾼 - 2",
+		Title = "Experienced Hunter - 2",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"50Lv 이상의 용족 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 장하성]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Dragon race monsters of Level 50 or higher, report it to <NAVI>[Deputy Officer Jang]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>."
 		},
-		Summary = "용족 몬스터 사냥"
+		Summary = "Hunt Dragon Monsters"
 	},
 	[3398] = {
-		Title = "왕실 사냥터로",
+		Title = "Enter the Royal Hunting Ground",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"<NAVI>[텔레포테이션 장치]<INFO>prt_fild01,109,192,0,101,0</INFO></NAVI>를 사용하여 왕실 사냥터로 진입하자."
+			"Enter the Royal Hunting Ground using <NAVI>[Teleportation Device]<INFO>prt_fild01,109,192,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3399] = {
-		Title = "곤충형 몬스터 사냥",
+		Title = "Insect Monster Hunt",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"50Lv 이상의 곤충형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Insect race monsters of Level 50 or higher, report it to <NAVI>[Lieutenant Rofinche]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>."
 		},
-		Summary = "곤충형 몬스터 사냥"
+		Summary = "Hunt Insect Monsters"
 	},
 	[3400] = {
-		Title = "곤충형 몬스터 사냥 - 대기",
+		Title = "Insect Monster Hunt - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3401] = {
-		Title = "동물형 몬스터 사냥",
+		Title = "Brute Monster Hunt",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"50Lv 이상의 동물형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Brute race monsters of Level 50 or higher, report it to <NAVI>[Lieutenant Rofinche]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>."
 		},
-		Summary = "동물형 몬스터 사냥"
+		Summary = "Hunt Brute Monsters"
 	},
 	[3402] = {
-		Title = "동물형 몬스터 사냥 - 대기",
+		Title = "Brute Monster Hunt - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3403] = {
-		Title = "어패형 몬스터 사냥",
+		Title = "Fish Monster Hunt",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"50Lv 이상의 어패형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Fish race monsters of Level 50 or higher, report it to <NAVI>[Lieutenant Rofinche]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>."
 		},
-		Summary = "어패형 몬스터 사냥"
+		Summary = "Hunt Fish Monsters"
 	},
 	[3404] = {
-		Title = "어패형 몬스터 사냥 - 대기",
+		Title = "Fish Monster Hunt - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3405] = {
-		Title = "용족 몬스터 사냥",
+		Title = "Dragon Monster Hunt",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"50Lv 이상의 용족 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 로핀체]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"After hunting 30 Dragon race monsters of Level 50 or higher, report it to <NAVI>[Lieutenant Rofinche]<INFO>prt_fild01,97,180,0,101,0</INFO></NAVI>."
 		},
-		Summary = "용족 몬스터 사냥"
+		Summary = "Hunt Dragon Monsters"
 	},
 	[3406] = {
-		Title = "용족 몬스터 사냥 - 대기",
+		Title = "Dragon Monster Hunt - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3407] = {
-		Title = "실종자의 낚싯대",
+		Title = "The Fishing Rod of the Missing Person",
 		Description = {
-			"시루드의 낚싯대를 <NAVI>[해양학자 제리몬]<INFO>prt_in,157,66,0,101,0</INFO></NAVI>에게 가져가도록 하자."
+			"Let's take Sirud's Fishing Rod to <NAVI>[Jerry]<INFO>prt_in,157,66,0,101,0</INFO></NAVI>."
 		},
-		Summary = "제리몬과 대화"
+		Summary = "Talk to Jerry"
 	},
 	[3408] = {
-		Title = "심연의 정수 조달",
+		Title = "Procurement of Abyssal Essence",
 		Description = {
-			"게인에게서 받은 심연의 정수를 <NAVI>[해양학자 제리몬]<INFO>prt_in,157,66,0,101,0</INFO></NAVI>에게 가져다 주자."
+			"Let's take the Abyssal Essence that Gein gave us to <NAVI>[Jerry]<INFO>prt_in,157,66,0,101,0</INFO></NAVI>."
 		},
-		Summary = "심연의 정수 전달"
+		Summary = "Delivering Abyssal Essence"
 	},
 	[3409] = {
-		Title = "심해로 연결되는 소용돌이",
+		Title = "Vortex leading to the Deep Sea",
 		Description = {
-			"제리몬과 함께 <NAVI>[이즈루드]<INFO>izlude,132,54,0,101,0</INFO></NAVI>로 돌아가 심해로 연결되는 소용돌이를 생성하자."
+			"With Jerry's help, let's go back to <NAVI>[Izlude]<INFO>izlude,132,54,0,101,0</INFO></NAVI> and create a vortex that leads to the Deep Sea."
 		},
-		Summary = "이즈루드에서 제리몬과 대화"
+		Summary = "Talk to Jerry in Izlude"
 	},
 	[3410] = {
-		Title = "시루드를 해상으로",
+		Title = "Sirud to the Surface",
 		Description = {
-			"시루드는 해상으로 올라갈 때, 자신도 같이 데려가달라고 부탁한다."
+			"When Jerry goes back to the surface, ask him to bring Sirud along."
 		},
-		Summary = "시루드와 함께 해상으로 올라가기"
+		Summary = "Bring Sirud to the surface"
 	},
 	[3411] = {
-		Title = "심해 생물 처치",
+		Title = "Defeating Deep Sea Creatures",
 		Description = {
-			"^4d4dff심해의 스로포^000000와 ^4d4dff심해의 데비우스^000000 그리고 ^4d4dff심해의 마르스^000000를 각각 10마리씩 처치하자."
+			"Defeat 10 ^4d4dffDeep Sea Sropho^000000, 10 ^4d4dffDeep Sea Deviace^000000 and 10 ^4d4dffDeep Sea Marse^000000."
 		},
-		Summary = "3종의 심해 생물 처치"
+		Summary = "Defeat 3 types of Deep Sea creatures"
 	},
 	[3412] = {
-		Title = "심연의 정수 수집",
+		Title = "Collect Abyssal Essence",
 		Description = {
-			"^4d4dff심연의 정수^000000 10개를 수집하여 <NAVI>[제리몬]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>에게 가져다 주자."
+			"Collect 10 ^4d4dffAbyssal Essence^000000 and return them to <NAVI>[Jerry]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>."
 		},
-		Summary = "심연의 정수 10개 전달"
+		Summary = "Collect 10 Abyssal Essence"
 	},
 	[3413] = {
-		Title = "심연의 정수 수집 - 일일",
+		Title = "Collect Abyssal Essence - Daily",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^4d4dff심연의 정수^000000 10개를 수집하여 <NAVI>[제리몬]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>에게 가져다 주자."
+			"Collect 10 ^4d4dffAbyssal Essence^000000 and return them to <NAVI>[Jerry]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>."
 		},
-		Summary = "심연의 정수 10개 전달"
+		Summary = "Collect 10 Abyssal Essence"
 	},
 	[3414] = {
-		Title = "심연의 정수 수집 - 대기",
+		Title = "Collect Abyssal Essence - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[제리몬]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Jerry]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3415] = {
-		Title = "상층의 심해 생물 처치 - 일일",
+		Title = "Defeat Deep Sea Creatures in the Upper Layers - Daily",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^4d4dff심해의 스로포^000000와 ^4d4dff심해의 데비우스^000000 그리고 ^4d4dff심해의 마르스^000000를 각각 10마리씩 처치하자."
+			"Defeat 10 ^4d4dffDeep Sea Sropho^000000, 10 ^4d4dffDeep Sea Deviace^000000 and 10 ^4d4dffDeep Sea Marse^000000."
 		},
-		Summary = "3종의 심해 생물 처치"
+		Summary = "Defeat 3 types of Deep Sea creatures"
 	},
 	[3416] = {
-		Title = "상층의 심해 생물 처치 - 대기",
+		Title = "Defeat Deep Sea Creatures in the Upper Layers - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[제리몬]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Jerry]<INFO>iz_d04_i,127,228,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3417] = {
-		Title = "하층의 심해 생물 처치 - 일일",
+		Title = "Defeat Deep Sea Creatures in the Lower Layers - Daily",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^4d4dff심해의 소드 피쉬^000000와 ^4d4dff심해의 휀^000000 그리고 ^4d4dff심해의 킹 드라모^000000를 각각 10마리씩 처치하자."
+			"Defeaet 10 ^4d4dffDeep Sea Swordfish^000000, 10 ^4d4dffDeep Sea Phen^000000 and 10 ^4d4dffDeep Sea King Dramoh^000000."
 		},
-		Summary = "3종의 심해 생물 처치"
+		Summary = "Defeat 3 types of Deep Sea creatures"
 	},
 	[3418] = {
-		Title = "하층의 심해 생물 처치 - 대기",
+		Title = "Defeat Deep Sea Creatures in the Lower Layers - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[케나]<INFO>iz_d05_i,138,186,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Kena]<INFO>iz_d05_i,138,186,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3419] = {
-		Title = "하층의 어인족 처치 - 일일",
+		Title = "Defeat Deep Sea fishmen in the Lower Layers - Daily",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"^4d4dff심해의 세도라^000000와 ^4d4dff심해의 스트라우프^000000를 각각 15마리씩 처치하자."
+			"Defeat 15 ^4d4dffDeep Sea Sedora^000000 and 15 ^4d4dffDeep Sea Strouf^000000."
 		},
-		Summary = "2종의 어인족 처치"
+		Summary = "Defeat 2 types of Deep Sea creatures"
 	},
 	[3420] = {
-		Title = "하층의 어인족 처치 - 대기",
+		Title = "Defeat Deep Sea fishmen in the Lower Layers - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[케나]<INFO>iz_d05_i,138,186,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Kena]<INFO>iz_d05_i,138,186,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3421] = {
-		Title = "환영의 서를 찾아서",
+		Title = "Find the Book of Welcome",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"사제 예르거스는 신앙심을 시험하기 위해 <NAVI>[페이욘 동굴 1층]<INFO>pay_arche,39,131,0,101,0</INFO></NAVI>으로 가서 환영의 서를 찾아보라고 한다."
+			"Priest Yergus tells you to go to <NAVI>[Payon Cave 1st Floor]<INFO>pay_arche,39,131,0,101,0</INFO></NAVI> to test your devotion and find the Book of Welcome."
 		},
-		Summary = "환영의 서 제 1권을 찾아라"
+		Summary = "Find 1 Book of Welcome"
 	},
 	[3422] = {
-		Title = "환영의 서 제 2권",
+		Title = "Book of Welcome Volume 2",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"환영의 서 제 1권의 내용에는 <NAVI>[오크던전 1층]<INFO>gef_fild10,65,335,0,101,0</INFO></NAVI> 어딘가에 환영의 서 제 2권이 있다고 안내하고 있다. "
+			"The contents of Book of Welcome tells us that there is Book of Welcome Volume 2 somewhere in <NAVI>[Orc Dungeon 1st Floor]<INFO>gef_fild10,65,335,0,101,0</INFO></NAVI>."
 		},
-		Summary = "환영의 서 제 2권을 찾아라"
+		Summary = "Find the Book of Welcome Volume 2"
 	},
 	[3423] = {
-		Title = "환영의 서 제 3권",
+		Title = "Book of Welcome Volume 3",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"환영의 서 제 2권의 내용에는 <NAVI>[글레스트 헤임 수도원]<INFO>gef_fild10,65,335,0,101,0</INFO></NAVI> 어딘가에 환영의 서 제 3권이 있다고 안내하고 있다. "
+			"The contents of Book of Welcome Volume 2 tells us that there is Book of Welcome Volume 3 somewhere in <NAVI>[Glastheim St. Abbey]<INFO>glast_01,200,135,0,101,0</INFO></NAVI>."
 		},
-		Summary = "환영의 서 제 3권을 찾아라"
+		Summary = "Find the Book of Welcome Volume 3"
 	},
 	[3424] = {
-		Title = "수도원의 마물 처치",
+		Title = "Defeat monsters in the monastery",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"환영의 서 제 3권의 다음 내용을 보기 위해서는 수도원 내의 마물을 종류와 상관없이 30마리 처치해야 한다."
+			"In order to see the following contents of the Book of Welcome Volume 3, you have to kill 30 monsters in the monastery regardless of type."
 		},
-		Summary = "수도원 내의 마물 30마리 처치"
+		Summary = "Defeat 30 monsters in the monastery"
 	},
 	[3425] = {
-		Title = "마지막 시련",
+		Title = "Last Ordeal",
 		IconName = "ico_jq.bmp",
-		Description = { "시련의 동굴로 입장하여 어둠의 환영을 처치하자." },
-		Summary = "어둠의 환영 처치"
+		Description = {
+			"Enter the Cave of Trials and defeat the Dark Vision."
+		},
+		Summary = "Defeat Dark Vision"
 	},
 	[3429] = {
-		Title = "어둠의 환영 처치",
+		Title = "Defeat Dark Vision",
 		IconName = "ico_jq.bmp",
-		Description = { "어둠의 환영을 무찔러라." },
-		Summary = "어둠의 환영 처치"
+		Description = {
+			"Defeat the Dark Vision."
+		},
+		Summary = "Defeat Dark Vision"
 	},
 	[3430] = {
-		Title = "헌신의 기사와 대화",
+		Title = "Speak with the Knight of Devotion",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"<NAVI>[프론테라 북서쪽]<INFO>prontera,58,364,</INFO></NAVI>으로 가면 만날 수 있다. 그와 대화를 시도하자."
+			"You can find him by going to <NAVI>[Northwest of Prontera]<INFO>prontera,58,364,</INFO></NAVI>. Try talking to him."
 		},
-		Summary = "헌신의 기사와 대화"
+		Summary = "Speak with the Knight of Devotion"
 	},
 	[3431] = {
-		Title = "무장의 기사와 대화",
+		Title = "Talk to the Armed Knight",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"<NAVI>[프론테라 북동쪽]<INFO>prontera,276,355,</INFO></NAVI>으로 가면 만날 수 있다. 그와 대화를 시도하자."
+			"You can find him by going to <NAVI>[Northeast of Prontera]<INFO>prontera,276,355,</INFO></NAVI>. Try talking to him."
 		},
-		Summary = "무장의 기사와 대화"
+		Summary = "Talk to the Armed Knight"
 	},
 	[3432] = {
-		Title = "강력한 장비와 뛰어난 검술 - 헌신의 기사",
+		Title = "Powerful Equipment and Excellent Swordsmanship - Knight of Devotion",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"당신은 헌신의 기사와의 대화에서 강력한 장비와 뛰어난 검술이 본인의 정의라고 말하였다."
+			"In your conversation with the Knight of Devotion, you said that powerful equipment and excellent swordsmanship are your definition."
 		},
 		Summary = ""
 	},
 	[3433] = {
-		Title = "신앙심과 충성심 - 헌신의 기사",
+		Title = "Faith and Loyalty - Knight of Devotion",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"당신은 헌신의 기사와의 대화에서 신앙심과 충성심이 본인의 정의라고 말하였다."
+			"You said in a conversation with the Knight of Devotion that piety and loyalty are your definitions."
 		},
 		Summary = ""
 	},
 	[3434] = {
-		Title = "강력한 장비와 뛰어난 검술 - 무장의 기사",
+		Title = "Powerful Equipment and Excellent Swordsmanship - Armed Knights",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"당신은 무장의 기사와의 대화에서 강력한 장비와 뛰어난 검술이 본인의 정의라고 말하였다."
+			"In a conversation with an Armed Knight, you said that powerful equipment and excellent swordsmanship are your definition."
 		},
 		Summary = ""
 	},
 	[3435] = {
-		Title = "신앙심과 충성심 - 무장의 기사",
+		Title = "Faith and Loyalty - Armed Knights",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"당신은 무장의 기사와의 대화에서 신앙심과 충성심이 본인의 정의라고 말하였다."
+			"You said in a conversation with the Armed Knight that piety and loyalty are your definitions."
 		},
 		Summary = ""
 	},
 	[3436] = {
-		Title = "1회전 - 무장의 기사",
+		Title = "Round 1 - Armed Knight",
 		IconName = "ico_jq.bmp",
-		Description = { "시험의 대련 1회전에서 무장의 기사를 쓰러뜨려라." },
-		Summary = "무장의 기사 제압"
+		Description = {
+			"Defeat the Armed Knight in the 1st round of the Battle of Trials."
+		},
+		Summary = "Subdue the Armed Knight"
 	},
 	[3437] = {
-		Title = "2회전 - 헌신의 기사",
+		Title = "Round 2 - Knight of Devotion",
 		IconName = "ico_jq.bmp",
-		Description = { "시험의 대련 2회전에서 헌신의 기사를 쓰러뜨려라." },
-		Summary = "헌신의 기사 제압"
+		Description = {
+			"Defeat the Knight of Devotion in the 2nd round of the Battle of Trials"
+		},
+		Summary = "Subdue the Knight of Devotion"
 	},
 	[3438] = {
-		Title = "1회전 - 헌신의 기사",
+		Title = "Round 1 - Knight of Devotion",
 		IconName = "ico_jq.bmp",
-		Description = { "시험의 대련 1회전에서 헌신의 기사를 쓰러뜨려라." },
-		Summary = "헌신의 기사 제압"
+		Description = {
+			"Defeat the Knight of Devotion in the 1st round of the Battle of Trials."
+		},
+		Summary = "Subdue Knight of Devotion"
 	},
 	[3439] = {
-		Title = "2회전 - 무장의 기사",
+		Title = "Round 2 - Armed Knight",
 		IconName = "ico_jq.bmp",
-		Description = { "시험의 대련 2회전에서 무장의 기사를 쓰러뜨려라." },
-		Summary = "무장의 기사 제압"
+		Description = {
+			"Defeat the Armed Knight in the 2nd round of the Battle of Trials."
+		},
+		Summary = "Subdue the Armed Knight"
 	},
 	[3440] = {
-		Title = "시험의 대련장으로",
+		Title = "To the Battle of Trails",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"왕의 기사에게 말을 걸어 시험의 대련 참가를 신청하자."
+			"Talk to the King's Knight and request to participate in the Battle of Trails."
 		},
-		Summary = "시험의 대련 참가 신청"
+		Summary = "Apply for participation in the Battle of Trails"
 	},
 	[3446] = {
-		Title = "환영 조사단 지로커",
-		Description = { "환영 조사단 지로커와 대화하자." },
-		Summary = "지로커와 대화"
+		Title = "Illusion Investigation Team - Jiroker",
+		Description = {
+			"Talk to Jiroker of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Jiroker"
 	},
 	[3447] = {
-		Title = "일루전 오브 문라이트 100마리 처치",
+		Title = "Illusion of Moonlight 100 Kills",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"월야화의 악몽 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Moonlight Dungeon."
 		},
-		Summary = "몬스터 100마리 처치"
+		Summary = "Kill 100 Monsters"
 	},
 	[3448] = {
-		Title = "일루전 오브 문라이트 100마리 처치 - 대기",
+		Title = "Illusion of Moonlight 100 Kills - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[지로커]<INFO>pay_d03_i,149,34,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Jiroker]<INFO>pay_d03_i,149,34,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3449] = {
-		Title = "환영 조사단 엘리시아",
-		Description = { "환영 조사단 엘리시아와 대화하자." },
-		Summary = "엘리시아와 대화"
+		Title = "Illusion Investigation Team - Elysia",
+		Description = {
+			"Talk to Elysia of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Elysia"
 	},
 	[3450] = {
-		Title = "일루전 오브 프로즌 100마리 처치",
+		Title = "Illusion of Frozen 100 Kills",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"프로즌 메모리 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Frozen Dungeon."
 		},
-		Summary = "몬스터 100마리 처치"
+		Summary = "Kill 100 Monsters"
 	},
 	[3451] = {
-		Title = "일루전 오브 프로즌 100마리 처치 - 대기",
+		Title = "Illusion of Frozen 100 Kills - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[엘리시아]<INFO>ice_dun02,142,18,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Elysia]<INFO>ice_dun02,142,18,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3452] = {
-		Title = "환영 조사단 라디미르",
-		Description = { "환영 조사단 라디미르와 대화하자." },
-		Summary = "라디미르와 대화"
+		Title = "Illusion Investigation Team - Radimir",
+		Description = {
+			"Talk to Radimir of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Radimir"
 	},
 	[3453] = {
-		Title = "일루전 오브 뱀파이어 100마리 처치",
+		Title = "Illusion of Vampire 100 Kills",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"250 페이지 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Vampire Dungeon."
 		},
-		Summary = "몬스터 100마리 처치"
+		Summary = "Kill 100 Monsters"
 	},
 	[3454] = {
-		Title = "일루전 오브 뱀파이어 100마리 처치 - 대기",
+		Title = "Illusion of Vampire 100 Kills - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[라디미르]<INFO>gef_d01_i,122,237,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Radimir]<INFO>gef_d01_i,122,237,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3455] = {
-		Title = "환영 조사단 마쵸코",
-		Description = { "환영 조사단 마쵸코와 대화하자." },
-		Summary = "마쵸코와 대화"
+		Title = "Illusion Investigation Team - Machoko",
+		Description = {
+			"Talk to Machoko of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Machoko"
 	},
 	[3456] = {
-		Title = "일루전 오브 테디베어 100마리 처치",
+		Title = "Illusion of Teddy Bear 100 Kills",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"나사리안 제국 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Teddy Bear Dungeon."
 		},
-		Summary = "몬스터 100마리 처치"
+		Summary = "Kill 100 Monsters"
 	},
 	[3457] = {
-		Title = "일루전 오브 테디베어 100마리 처치 - 대기",
+		Title = "Illusion of Teddy Bear 100 Kills - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[마쵸코]<INFO>ein_d02_i,161,180,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Machoko]<INFO>ein_d02_i,161,180,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3458] = {
-		Title = "환영 조사단 오리안",
-		Description = { "환영 조사단 오리안과 대화하자." },
-		Summary = "오리안과 대화"
+		Title = "Illusion Investigation Team - Orian",
+		Description = {
+			"Talk to Orian of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Orian"
 	},
 	[3459] = {
-		Title = "일루전 오브 구양궁 100마리 처치",
+		Title = "Illusion of Abyss 100 Kills",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"스산한 구양궁 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Abyss Dungeon."
 		},
-		Summary = "몬스터 100마리 처치"
+		Summary = "Kill 100 Monsters"
 	},
 	[3460] = {
-		Title = "일루전 오브 구양궁 100마리 처치 - 대기",
+		Title = "Illusion of Abyss 100 Kills - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[오리안]<INFO>tur_d03_i,125,86,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Orian]<INFO>tur_d03_i,125,86,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3461] = {
-		Title = "환영 조사단 케시스",
-		Description = { "환영 조사단 케시스와 대화하자." },
-		Summary = "케시스와 대화"
+		Title = "Illusion Investigation Team - Cassis",
+		Description = {
+			"Talk to Cassis of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Cassis"
 	},
 	[3462] = {
-		Title = "일루전 오브 루안다 100마리 처치",
+		Title = "Illusion of Luanda 100 Kills",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"북쪽 동굴 루안다 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Luanda Dungeon."
 		},
-		Summary = "몬스터 100마리 처치"
+		Summary = "Kill 100 Monsters"
 	},
 	[3463] = {
-		Title = "일루전 오브 루안다 100마리 처치 - 대기",
+		Title = "Illusion of Luanda 100 Kills - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[케시스]<INFO>com_d02_i,253,232,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Cassis]<INFO>com_d02_i,253,232,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3464] = {
-		Title = "환영 조사단 테리안",
-		Description = { "환영 조사단 테리안과 대화하자." },
-		Summary = "테리안과 대화"
+		Title = "Illusion Investigation Team - Terrian",
+		Description = {
+			"Talk to Terrian of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Terrian"
 	},
 	[3465] = {
-		Title = "일루전 오브 라비린스 100마리 처치",
+		Title = "Illusion of Labyrinth 100 Kills",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"뒤틀린 미궁 숲 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Labyrinth Dungeon."
 		},
-		Summary = "몬스터 100마리 처치"
+		Summary = "Kill 100 Monsters"
 	},
 	[3466] = {
-		Title = "일루전 오브 라비린스 100마리 처치 - 대기",
+		Title = "Illusion of Labyrinth 100 Kills - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[테리안]<INFO>prt_fild01,131,364,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Terrian]<INFO>prt_fild01,131,364,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3467] = {
-		Title = "환영 조사단 리스타",
-		Description = { "환영 조사단 리스타와 대화하자." },
-		Summary = "리스타와 대화"
+		Title = "Illusion Investigation Team - Lister",
+		Description = {
+			"Talk to Lister of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Lister"
 	},
 	[3468] = {
-		Title = "일루전 오브 언더워터 100마리 처치",
+		Title = "Illusion of Underwater 100 Kills",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"심연의 해저동굴 하층 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Underwater Dungeon."
 		},
-		Summary = "몬스터 100마리 처치"
+		Summary = "Kill 100 Monsters"
 	},
 	[3469] = {
-		Title = "일루전 오브 언더워터 100마리 처치 - 대기",
+		Title = "Illusion of Underwater 100 Kills - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[리스타]<INFO>iz_d04_i,127,224,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Lister]<INFO>iz_d04_i,127,224,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3470] = {
-		Title = "환영 조사단 가입",
-		Description = { "조사단장 조엘을 통해 조사단에 가입하자." },
-		Summary = "조엘과 대화"
+		Title = "Join the Illusion Investigation Team",
+		Description = {
+			"Join the Investigation Team through the Team Leader Joel."
+		},
+		Summary = "Talk to Joel"
 	},
 	[3471] = {
-		Title = "토벌-아인브로크 필드-2",
+		Title = "Subjugation-Einbroch Field-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[아인브로크 필드]<INFO>ein_fild03,142,40,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 테일링]<INFO>ein_fild03,135,46,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Einbroch Field]<INFO>ein_fild03,142,40,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[Investigator Tailing]<INFO>ein_fild03,135,46,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3472] = {
-		Title = "[대기]토벌-아인브로크 필드-2",
+		Title = "[Standby] Subjugation-Einbroch Field-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 테일링]<INFO>ein_fild03,135,46,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[Investigator Tailing]<INFO>ein_fild03,135,46,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3473] = {
-		Title = "토벌-리히타르젠 필드-2",
+		Title = "Subjugation-Lighthalzen Field-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[리히타르젠 필드]<INFO>lhz_fild03,158,343,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 모다카]<INFO>lhz_fild03,167,344,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Lighthalzen Field]<INFO>lhz_fild03,158,343,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[Investigator Modaka]<INFO>lhz_fild03,167,344,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3474] = {
-		Title = "[대기]토벌-리히타르젠 필드-2",
+		Title = "[Standby] Subjugation-Lighthalzen Field-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 모다카]<INFO>lhz_fild03,167,344,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[Investigator Modaka]<INFO>lhz_fild03,167,344,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3475] = {
-		Title = "토벌-이다 평원-1",
+		Title = "Subjugation-Ida Plains-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[이다 평원]<INFO>ra_fild12,50,225,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 차카리나]<INFO>ra_fild12,50,219,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Ida Plains]<INFO>ra_fild12,50,225,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[Investigator Chakarina]<INFO>ra_fild12,50,219,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3476] = {
-		Title = "[대기]토벌-이다 평원-1",
+		Title = "[Standby] Subjugation-Ida Plains-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 차카리나]<INFO>ra_fild12,50,219,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[Investigator Chakarina]<INFO>ra_fild12,50,219,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3477] = {
-		Title = "토벌-베인스 필드-1",
+		Title = "Subjugation-Veins Field-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[베인스 필드]<INFO>ve_fild07,148,362,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 셰브코]<INFO>ve_fild07,158,354,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Veins Field]<INFO>ve_fild07,148,362,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[Investigator Shevko]<INFO>ve_fild07,158,354,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3478] = {
-		Title = "[대기]토벌-베인스 필드-1",
+		Title = "[Standby] Subjugation-Veins Field-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 셰브코]<INFO>ve_fild07,158,354,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[Investigator Shevko]<INFO>ve_fild07,158,354,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3479] = {
-		Title = "토벌-이다 평원-2",
+		Title = "Subjugation-Ida Plains-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[이다 평원]<INFO>ra_fild08,156,35,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 르시아]<INFO>ra_fild08,163,47,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Ida Plains]<INFO>ra_fild08,156,35,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[Investigator Lucia]<INFO>ra_fild08,163,47,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3480] = {
-		Title = "[대기]토벌-이다 평원-2",
+		Title = "[Standby] Subjugation-Ida Plains-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 르시아]<INFO>ra_fild08,163,47,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[Investigator Lucia]<INFO>ra_fild08,163,47,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3481] = {
-		Title = "토벌-베인스 필드-2",
+		Title = "Subjugation-Veins Field-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[베인스 필드]<INFO>ve_fild01,360,269,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 서이룬]<INFO>ve_fild01,354,280,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Veins Field]<INFO>ve_fild01,360,269,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[Investigator Seo Yirun]<INFO>ve_fild01,354,280,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3482] = {
-		Title = "[대기]토벌-베인스 필드-2",
+		Title = "[Standby] Subjugation-Veins Field-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 서이룬]<INFO>ve_fild01,354,280,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[Investigator Seo Yirun]<INFO>ve_fild01,354,280,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[3483] = {
-		Title = "토벌-얼음 동굴 1층",
+		Title = "Subjugation-Ice Cave 1st Floor",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[얼음 동굴 1층]<INFO>ice_dun01,158,15,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 도브]<INFO>ice_dun01,161,13,0,101,0</INFO></NAVI>에게 보고하도록 하자."
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Ice Cave 1st Floor]<INFO>ice_dun01,158,15,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[Investigator Dove]<INFO>ice_dun01,161,13,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3484] = {
-		Title = "[대기]토벌-얼음 동굴 1층",
+		Title = "[Standby] Subjugation-Ice Cave 1st Floor",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 도브]<INFO>ice_dun01,161,13,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[Investigator Dove]<INFO>ice_dun01,161,13,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
-	[3485] = {Title = "(숙련)곤충형 몬스터 사냥", IconName = "ico_ev.bmp", 
-	Description = {"100Lv 이상의 곤충형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 장하성]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
-	, Summary = "곤충형 몬스터 사냥"}
-	, 
-	[3486] = {Title = "(숙련)곤충형 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
-	Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
-	, Summary = "Resets at 04:00", CoolTimeQuest = 1}
-	, 
-	[3487] = {Title = "(숙련)동물형 몬스터 사냥", IconName = "ico_ev.bmp", 
-	Description = {"100Lv 이상의 동물형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 장하성]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
-	, Summary = "동물형 몬스터 사냥"}
-	, 
-	[3488] = {Title = "(숙련)동물형 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
-	Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
-	, Summary = "Resets at 04:00", CoolTimeQuest = 1}
-	, 
-	[3489] = {Title = "(숙련)어패형 몬스터 사냥", IconName = "ico_ev.bmp", 
-	Description = {"100Lv 이상의 어패형 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 장하성]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
-	, Summary = "어패형 몬스터 사냥"}
-	, 
-	[3490] = {Title = "(숙련)어패형 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
-	Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
-	, Summary = "Resets at 04:00", CoolTimeQuest = 1}
-	, 
-	[3491] = {Title = "(숙련)용족 몬스터 사냥", IconName = "ico_ev.bmp", 
-	Description = {"100Lv 이상의 용족 몬스터를 30마리 사냥한 뒤에 <NAVI>[부관 장하성]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>에게 보고하도록 하자."}
-	, Summary = "용족 몬스터 사냥"}
-	, 
-	[3492] = {Title = "(숙련)용족 몬스터 사냥 - 대기", IconName = "ico_ev.bmp", 
-	Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다."}
-	, Summary = "Resets at 04:00", CoolTimeQuest = 1}
-	, 
-	[3493] = {Title = "자라드와의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[자라드]<INFO>rachel,69,234,0,101,0</INFO></NAVI>와 대화를 나누고 오자."}
-	, Summary = "자라드와 대화"}
-	, 
-	[3494] = {Title = "로히와의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[로히]<INFO>rachel,100,72,0,101,0</INFO></NAVI>와 대화를 나누고 오자."}
-	, Summary = "로히와 대화"}
-	, 
-	[3495] = {Title = "저진과의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[저진]<INFO>rachel,258,207,0,101,0</INFO></NAVI>과 대화를 나누고 오자."}
-	, Summary = "저진과 대화"}
-	, 
-	[3496] = {Title = "스쿠아인과의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[스쿠아인]<INFO>rachel,159,173,0,101,0</INFO></NAVI>과 대화를 나누고 오자."}
-	, Summary = "스쿠아인과 대화"}
-	, 
-	[3497] = {Title = "세나도와의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[세나도]<INFO>rachel,190,30,0,101,0</INFO></NAVI>와 대화를 나누고 오자."}
-	, Summary = "세나도와 대화"}
-	, 
-	[3498] = {Title = "제이퍼와의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[제이퍼]<INFO>rachel,210,52,0,101,0</INFO></NAVI>와 대화를 나누고 오자."}
-	, Summary = "제이퍼와 대화"}
-	, 
-	[3499] = {Title = "시로안과의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[시로안]<INFO>rachel,40,73,0,101,0</INFO></NAVI>과 대화를 나누고 오자."}
-	, Summary = "시로안과 대화"}
-	, 
-	[3500] = {Title = "이시라와의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[이시라]<INFO>rachel,88,151,0,101,0</INFO></NAVI>와 대화를 나누고 오자."}
-	, Summary = "이시라와 대화"}
-	, 
-	[3501] = {Title = "지나와의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[지나]<INFO>rachel,240,182,0,101,0</INFO></NAVI>와 대화를 나누고 오자."}
-	, Summary = "지나와 대화"}
-	, 
-	[3502] = {Title = "하리와의 대화", IconName = "ico_dq.bmp", 
-	Description = {"<NAVI>[하리]<INFO>rachel,212,52,0,101,0</INFO></NAVI>와 대화를 나누고 오자."}
-	, Summary = "하리와 대화"}
-	, 
-	[3503] = {Title = "분위기 살피기", IconName = "ico_dq.bmp", 
-	Description = {"분위기를 살피기 위해 원주민 3명, 이주민 3명과 대화를 나눈 뒤에 <NAVI>[주녹]<INFO>rachel,155,236,0,101,0</INFO></NAVI>에게 돌아가자."}
-	, Summary = "6명과의 대화"}
-	, 
-	[3504] = {Title = "분위기 살피기 - 대기", IconName = "ico_dq.bmp", 
-	Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[주녹]<INFO>rachel,155,236,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."}
-	, Summary = "Resets at 04:00", CoolTimeQuest = 1}
-	, 
-	[3505] = {Title = "주녹에게 보고", IconName = "ico_dq.bmp", 
-	Description = {"대화를 모두 마쳤으니 <NAVI>[주녹]<INFO>rachel,155,236,0,101,0</INFO></NAVI>에게 돌아가서 보고하도록 하자."}
-	, Summary = "주녹에게 보고"}
-	, 
-	[3506] = {Title = "숙성된 카카오콩", IconName = "ico_ev.bmp", 
-	Description = {"^4d4dff더부룩한 스윗츠링^000000를 사냥하여 ^4d4dff숙성된 카카오콩^000000 1개를 회수할 수 있도록 하자."}
-	, Summary = "숙성된 카카오콩 회수"}
-	, 
-	[3507] = {Title = "환영 조사단 세신", 
-	Description = {"환영 조사단 세신과 대화하자."}
-	, Summary = "세신과 대화"}
-	, 
-	[3508] = {Title = "일루전 오브 트윈스 100마리 처치", IconName = "ico_dq.bmp", 
-	Description = {"일루전 오브 트윈스 던전에서 몬스터의 종류와 상관없이 100마리를 처치하자."}
-	, Summary = "몬스터 100마리 처치"}
-	, 
-	[3509] = {Title = "일루전 오브 트윈스 100마리 처치 - 대기", IconName = "ico_dq.bmp", 
-	Description = {"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. <NAVI>[세신]<INFO>ant_d02_i,167,184,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."}
-	, Summary = "Resets at 04:00", CoolTimeQuest = 1}
-	, 
-	[3510] = {Title = "벚꽃 부채 제작", IconName = "ico_ev.bmp", 
-	Description = {"^4d4dff벚꽃 부채^000000 제작을 위해 ^4d4dff아담한 꽃가지 25개^000000를 아를르에게 가져다 주자."}
-	, Summary = "아담한 꽃가지 25개"}
-	, 
-	[3511] = {Title = "쉽지 않은 벚꽃 선글라스 제작", IconName = "ico_ev.bmp", 
-	Description = {"^4d4dff벚꽃 선글라스^000000 제작을 위해 ^4d4dff아담한 꽃가지 15개^000000와 ^4d4dff빨간 허브^000000 5개를 아를르에게 가져다 주자.."}
-	, Summary = "아담한 꽃가지 15개와 빨간 허브 5개"}
-	, 
-	[3512] = {Title = "팝콘 페스타 등록", IconName = "ico_ev.bmp", 
-	Description = {"팝콘 페스타 등록을 위해 ^4d4dff이글이글 구슬 10개^000000를 케를린에게 가져다 주자."}
-	, Summary = "이글이글 구슬 10개"}
-	, 
-	[3513] = {Title = "의상 애완용 팝콘 상자 제작", IconName = "ico_ev.bmp", 
-	Description = {"^4d4dff의상 애완용 팝콘 상자^000000 제작을 위해 ^4d4dff이글이글 구슬 20개^000000를 케를린에게 가져다 주자."}
-	, Summary = "이글이글 구슬 20개"}
-	, 
-	[3514] = {Title = "한올 모험가 찾기", IconName = "ico_ev.bmp", 
-	Description = {"<NAVI>[페이욘 던전 1층]<INFO>pay_arche.gat,39,131,0,101,0</INFO></NAVI>에서 길을 잃은 모험가를 찾아낼 수 있도록 하자."}
-	, Summary = ""}
-	, 
-	[3515] = {Title = "양갱 모험가 찾기", IconName = "ico_ev.bmp", 
-	Description = {"<NAVI>[게펜 타워 지하 던전 1층]<INFO>gef_tower.gat,153,31,0,101,0</INFO></NAVI>에서 길을 잃은 모험가를 찾아낼 수 있도록 하자."}
-	, Summary = ""}
-	, 
-	[3516] = {Title = "린하 모험가 찾기", IconName = "ico_ev.bmp", 
-	Description = {"<NAVI>[알베르타 난파선 1층]<INFO>alb2trea.gat,86,109,0,101,0</INFO></NAVI>에서 길을 잃은 모험가를 찾아낼 수 있도록 하자."}
-	, Summary = ""}
-	, 
-	[3517] = {Title = "자린 모험가 찾기", IconName = "ico_ev.bmp", 
-	Description = {"<NAVI>[모로크 피라미드 1층]<INFO>moc_ruins.gat,57,162,0,101,0</INFO></NAVI>에서 길을 잃은 모험가를 찾아낼 수 있도록 하자."}
-	, Summary = ""}
-	, 
-	[3518] = {Title = "19주년 감사 보상", IconName = "ico_ev.bmp", 
-	Description = {"19주년 감사에 대한 보상을 지급받았다."}
-	, Summary = ""}
-	, 
+	[3485] = {
+		Title = "(Skilled) Insect Monster Hunting",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 30 Insect race monsters of Level 100 or higher, report it to <NAVI>[Deputy Officer Jang]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hunt Insect Monsters"
+	},
+	[3486] = {
+		Title = "(Skilled) Insect Monster Hunting - Standby",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[3487] = {
+		Title = "(Skilled) Brute Monster Hunting",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 Brute race monsters of Level 100 or higher, report it to <NAVI>[Deputy Officer Jang]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hunt Brute Monsters"
+	},
+	[3488] = {
+		Title = "(Skilled) Brute Monster Hunting - Standby",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[3489] = {
+		Title = "(Skilled) Fish Monster Hunting",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 Fish race monsters of Level 100 or higher, report it to <NAVI>[Deputy Officer Jang]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hunt Fish Monsters"
+	},
+	[3490] = {
+		Title = "(Skilled) Fish Monster Hunting - Standby",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[3491] = {
+		Title = "(Skilled) Dragon Monster Hunting",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 Dragon race monsters of Level 100 or higher, report it to <NAVI>[Deputy Officer Jang]<INFO>prt_fild01,107,180,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hunt Dragon Monsters"
+	},
+	[3492] = {
+		Title = "(Skilled) Dragon Monster Hunting - Standby",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[3493] = {
+		Title = "Conversation with Jarad",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Talk to <NAVI>[Jarad]<INFO>rachel,69,234,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Jarad"
+	},
+	[3494] = {
+		Title = "Conversation with Rohi",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Talk to <NAVI>[Rohi]<INFO>rachel,100,72,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Rohi"
+	},
+	[3495] = {
+		Title = "Conversation with Jean",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Talk to <NAVI>[Jean]<INFO>rachel,258,207,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Jean"
+	},
+	[3496] = {
+		Title = "Conversation with Squain",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Talk to <NAVI>[Squain]<INFO>rachel,159,173,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Squain"
+	},
+	[3497] = {
+		Title = "Conversation with Senado",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Senado]<INFO>rachel,190,30,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Senado"
+	},
+	[3498] = {
+		Title = "Conversation with Japer",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Japer]<INFO>rachel,210,52,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Japer"
+	},
+	[3499] = {
+		Title = "Conversation with Shiroan",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Shiroan]<INFO>rachel,40,73,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Shiroan"
+	},
+	[3500] = {
+		Title = "Conversation with Ishira",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Ishira]<INFO>rachel,88,151,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Ishira"
+	},
+	[3501] = {
+		Title = "Conversation with Gina",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Gina]<INFO>rachel,240,182,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Gina"
+	},
+	[3502] = {
+		Title = "Conversation with Harry",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Harry]<INFO>rachel,212,52,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Talk to Harry"
+	},
+	[3503] = {
+		Title = "Look at the Atmosphere",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After talking with 3 natives and 3 immigrants to check the atmosphere, return to <NAVI>[Junok]<INFO>rachel,155,236,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Conversation with 6 people"
+	},
+	[3504] = {
+		Title = "Look at the Atmosphere - Standby",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Junok]<INFO>rachel,155,236,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[3505] = {
+		Title = "Report to Junok",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Having finished the conversation, let's go back to <NAVI>[Junok]<INFO>rachel,155,236,0,101,0</INFO></NAVI> and report it."
+		},
+		Summary = "Report to Junok"
+	},
+	[3506] = {
+		Title = "Aged Cacao Beans",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Hunt ^4d4dffSweet Drops^000000 to retrieve 1 ^4d4dffAged Cacao Beans^000000."
+		},
+		Summary = "Collect Aged Cacao Beans"
+	},
+	[3507] = {
+		Title = "Illusion Investigation Team - Sheshin",
+		Description = {
+			"Talk to Shesin of the Illusion Investigation Team."
+		},
+		Summary = "Talk to Shesin"
+	},
+	[3508] = {
+		Title = "Illusion of Twins 100 Kills",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Kill 100 monsters regardless of the type of monster in the Illusion of Twins Dungeon."
+		},
+		Summary = "Kill 100 Monsters"
+	},
+	[3509] = {
+		Title = "Illusion of Twins 100 Kills - Standby",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can recieve it through <NAVI>[Shesin]<INFO>ant_d02_i,167,184,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[3510] = {
+		Title = "Crafting Cherry Blossom Fan",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring ^4d4dff25 Small Flower Branches^000000 to craft a ^4d4dffCherry Blossom Fan^000000 to Arles."
+		},
+		Summary = "Gather 25 Small Flower Branches"
+	},
+	[3511] = {
+		Title = "Crafting Cherry Blossom Sunglasses is not easy",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring ^4d4dff15 Small Flower Branches^000000 and ^4d4dff5 Red Herbs^000000 to craft a ^4d4dffCherry Blossom Sunglasses^000000 to Arles."
+		},
+		Summary = "Gather 15 Small Flower Branches and 5 Red Herbs"
+	},
+	[3512] = {
+		Title = "Popcorn Festival Registration",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring ^4d4dff10 Eagle Eagle Bead^000000 to Kerlin for the Popcorn Festival Registration."
+		},
+		Summary = "Gather 10 Eagle Eagle Beads"
+	},
+	[3513] = {
+		Title = "Crafting a Costume Pet Popcorn Box",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring ^4d4dff20 Eagle Eagle Bead^000000 to Kerlin to craft a Costume Pet Popcorn Box."
+		},
+		Summary = "Gather 20 Eagle Eagle Beads"
+	},
+	[3514] = {
+		Title = "Find an lost adventurer",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's find the lost adventurer in <NAVI>[Payon Dungeon 1st Floor]<INFO>pay_arche.gat,39,131,0,101,0</INFO></NAVI>."
+		},
+		Summary = ""
+	},
+	[3515] = {
+		Title = "Find an lost adventurer",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's find the lost adventurer in <NAVI>[Geffen Dungeon 1st Basement]<INFO>gef_tower.gat,153,31,0,101,0</INFO></NAVI>."
+		},
+		Summary = ""
+	},
+	[3516] = {
+		Title = "Find an lost adventurer",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's find the lost adventurer in <NAVI>[Aberta Shipwreck 1st Floor]<INFO>alb2trea.gat,86,109,0,101,0</INFO></NAVI>."
+		},
+		Summary = ""
+	},
+	[3517] = {
+		Title = "Find an lost adventurer",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's find the lost adventurer in <NAVI>[Morroc Pyramid 1st Floor]<INFO>moc_ruins.gat,57,162,0,101,0</INFO></NAVI>."
+		},
+		Summary = ""
+	},
+	[3518] = {
+		Title = "19th Anniversary Appreciation Reward",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Recieved a reward for the 19th Anniversary."
+		},
+		Summary = ""
+	},
 	[4000] = {
 		Title = "Sherin's Job Interview",
 		Description = {
@@ -10507,328 +10678,183 @@ QuestInfoList = {
 		Summary = "1 book captured"
 	},
 	[5161] = {
-		Title = "Low Level collection request (Standby)",
+		Title = "Low Level Collection Request (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"the low level collection request from energy crystal research can be only available once in a day."
+			"You can only request a Low Level Collection Request from the Energy Crystal Research Association once a day."
 		},
 		Summary = "Resets at 04:00",
-		CoolTimeQuest = 1,
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169
+		CoolTimeQuest = 1
 	},
 	[5162] = {
-		Title = "Low Level collection request",
+		Title = "Low Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Requiem<INFO>REQUIEM,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
+			"(Low Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Requiem<INFO>REQUIEM,0,0,3,-222,0</INFO></NAVI>, you can get 10 Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Requiems",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6623, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Requiems"
 	},
 	[5163] = {
-		Title = "Low Level collection request",
+		Title = "Low Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Bathory<INFO>BATHORY,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
+			"(Low Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Bathory<INFO>BATHORY,0,0,3,-222,0</INFO></NAVI>, you can get 10 Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Bathorys",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6623, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Bathorys"
 	},
 	[5164] = {
-		Title = "Low Level collection request",
+		Title = "Low Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Spring Rabbit<INFO>G_SPRING_RABBIT,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
+			"(Low Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Spring Rabbit<INFO>G_SPRING_RABBIT,0,0,3,-222,0</INFO></NAVI>, you can get 10 Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Spring Rabbits",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6623, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Spring Rabbits"
 	},
 	[5165] = {
-		Title = "Low Level collection request",
+		Title = "Low Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Sleeper<INFO>SLEEPER,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
+			"(Low Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Sleeper<INFO>SLEEPER,0,0,3,-222,0</INFO></NAVI>, you can get 10 Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Sleepers",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6623, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Sleepers"
 	},
 	[5166] = {
-		Title = "Low Level collection request",
+		Title = "Low Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Evil Druid<INFO>EVIL_DRUID,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
+			"(Low Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Evil Druid<INFO>EVIL_DRUID,0,0,3,-222,0</INFO></NAVI>, you can get 10 Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Evil Druids",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6623, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Evil Druids"
 	},
 	[5167] = {
-		Title = "Low Level collection request",
+		Title = "Low Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Petit<INFO>PETIT,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
+			"(Low Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Petit<INFO>PETIT,0,0,3,-222,0</INFO></NAVI>, you can get 10 Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Petits",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6623, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Petits"
 	},
 	[5168] = {
-		Title = "Low Level collection request",
+		Title = "Low Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Low level request from Energy crystal research) If you hunt 100 <NAVI>Clock<INFO>CLOCK,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Rough Energy Crystals."
+			"(Low Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Clock<INFO>CLOCK,0,0,3,-222,0</INFO></NAVI>, you can get 10 Rough Energy Crystals."
 		},
-		Summary = "Hunt 100 Clocks",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6623, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Clocks"
 	},
 	[5169] = {
-		Title = "Mid-Level collection request (Standby)",
+		Title = "Mid Level Collection Request (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"the Mid-level collection request from energy crystal research can be only available once in a day."
+			"You can only request a Mid Level Collection Request from the Energy Crystal Research Association once a day."
 		},
 		Summary = "Resets at 04:00",
-		CoolTimeQuest = 1,
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169
+		CoolTimeQuest = 1
 	},
 	[5170] = {
-		Title = "Mid-Level collection request",
+		Title = "Mid Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Mid-Level request from Energy crystal research) If you hunt 100 <NAVI>Siroma<INFO>SIROMA,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Purified Energy Crystals."
+			"(Mid Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Siroma<INFO>SIROMA,0,0,3,-222,0</INFO></NAVI>, you can get 10 Purified Energy Crystals."
 		},
-		Summary = "Hunt 100 Siromas",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6624, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Siromas"
 	},
 	[5171] = {
-		Title = "Mid-Level collection request",
+		Title = "Mid Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Mid-Level request from Energy crystal research) If you hunt 100 <NAVI>Dark Priests<INFO>DARK_PRIEST,0,0,3,-222,0</INFO></NAVI> You can get 10 of Purified Energy Crystals."
+			"(Mid Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Dark Priests<INFO>DARK_PRIEST,0,0,3,-222,0</INFO></NAVI>, you can get 10 Purified Energy Crystals."
 		},
-		Summary = "Hunt 100 Dark Priests",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6624, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Dark Priests"
 	},
 	[5172] = {
-		Title = "Mid-Level collection request",
+		Title = "Mid Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Mid-Level request from Energy crystal research) If you hunt 100 <NAVI>Stapo<INFO>STAPO,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Purified Energy Crystals."
+			"(Mid Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Stapo<INFO>STAPO,0,0,3,-222,0</INFO></NAVI>, you can get 10 Purified Energy Crystals."
 		},
-		Summary = "Hunt 100 Stapos",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6624, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Stapos"
 	},
 	[5173] = {
-		Title = "Mid-Level collection request",
+		Title = "Mid Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Mid-Level request from Energy crystal research) If you hunt 100 <NAVI>Solider<INFO>SOLIDER,0,0,3,-222,0</INFO></NAVI>, You can get 10 of Purified Energy Crystals."
+			"(Mid Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Solider<INFO>SOLIDER,0,0,3,-222,0</INFO></NAVI>, you can get 10 Purified Energy Crystals."
 		},
-		Summary = "Hunt 100 Soliders",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6624, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Soliders"
 	},
 	[5174] = {
-		Title = "High level collection request (Standby)",
+		Title = "High Level Collection Request (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"the High-level collection request from energy crystal research can be only available once in a day."
+			"You can only request a High Level Collection Request from the Energy Crystal Research Association once a day."
 		},
 		Summary = "Resets at 04:00",
-		CoolTimeQuest = 1,
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169
+		CoolTimeQuest = 1
 	},
 	[5175] = {
-		Title = "High level collection request",
+		Title = "High Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(High-Level request from Energy crystal research) If you hunt 100 <NAVI>Desert Wolf<INFO>DESERT_WOLF,0,0,3,-222,0</INFO></NAVI>, You can get 5 of High Purity Energy crystals."
+			"(High Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Desert Wolf<INFO>DESERT_WOLF,0,0,3,-222,0</INFO></NAVI>, you can get 5 High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Desert Wolves",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6625, ItemNum = 5 }
-		}
+		Summary = "Hunt 100 Desert Wolves"
 	},
 	[5176] = {
-		Title = "High level collection request",
+		Title = "High Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(High-Level request from Energy crystal research) If you hunt 100 <NAVI>Medusa<INFO>MEDUSA,0,0,3,-222,0</INFO></NAVI>, You can get 5 of High Purity Energy crystals."
+			"(High Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Medusa<INFO>MEDUSA,0,0,3,-222,0</INFO></NAVI>, you can get 5 High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Medusa",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6625, ItemNum = 5 }
-		}
+		Summary = "Hunt 100 Medusa"
 	},
 	[5177] = {
-		Title = "High level collection request",
+		Title = "High Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(High-Level request from Energy crystal research) If you hunt 100 <NAVI>Pinguicula<INFO>PINGUICULA,0,0,3,-222,0</INFO></NAVI>, You can get 5 of High Purity Energy crystals."
+			"(High Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Pinguicula<INFO>PINGUICULA,0,0,3,-222,0</INFO></NAVI>, you can get 5 High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Pinguiculas",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6625, ItemNum = 5 }
-		}
+		Summary = "Hunt 100 Pinguiculas"
 	},
 	[5178] = {
-		Title = "High level collection request",
+		Title = "High Level Collection Request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(High-Level request from Energy crystal research) If you hunt 100 <NAVI>Majoruros<INFO>MAJORUROS,0,0,3,-222,0</INFO></NAVI>, You can get 5 of High Purity Energy crystals."
+			"(High Level Request from Energy Crystal Research) If you hunt 100 <NAVI>Majoruros<INFO>MAJORUROS,0,0,3,-222,0</INFO></NAVI>, you can get 5 High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Majoruros",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6625, ItemNum = 5 }
-		}
+		Summary = "Hunt 100 Majoruros"
 	},
 	[5179] = {
 		Title = "Highest level collection request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Highest-Level request from Energy crystal research) If you hunt 100 <NAVI>Raydric<INFO>RAYDRIC,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
+			"(Highest-Level request from Energy Crystal Research) If you hunt 100 <NAVI>Raydric<INFO>RAYDRIC,0,0,3,-222,0</INFO></NAVI>, you can get 10 High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Raydrics",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6625, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Raydrics"
 	},
 	[5180] = {
 		Title = "Highest level collection request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Highest-Level request from Energy crystal research) If you hunt 100 <NAVI>Naga<INFO>NAGA,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
+			"(Highest-Level request from Energy Crystal Research) If you hunt 100 <NAVI>Naga<INFO>NAGA,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Nagas",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6625, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Nagas"
 	},
 	[5181] = {
 		Title = "Highest level collection request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Highest-Level request from Energy crystal research) If you hunt 100 <NAVI>Ancient Mummy<INFO>ANCIENT_MUMMY,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
+			"(Highest-Level request from Energy Crystal Research) If you hunt 100 <NAVI>Ancient Mummy<INFO>ANCIENT_MUMMY,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Ancient Mummies",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6625, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Ancient Mummies"
 	},
 	[5182] = {
 		Title = "Highest level collection request",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"(Highest-Level request from Energy crystal research) If you hunt 100 <NAVI>Ancient Mimic<INFO>ANCIENT_MIMIC,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
+			"(Highest-Level request from Energy Crystal Research) If you hunt 100 <NAVI>Ancient Mimic<INFO>ANCIENT_MIMIC,0,0,3,-222,0</INFO></NAVI>, You can get 10 of High Purity Energy crystals."
 		},
-		Summary = "Hunt 100 Ancient Mimics",
-		NpcSpr = "1_M_WIZARD",
-		NpcNavi = "moc_para01",
-		NpcPosX = 41,
-		NpcPosY = 169,
-		RewardItemList = {
-			{ ItemID = 6625, ItemNum = 10 }
-		}
+		Summary = "Hunt 100 Ancient Mimics"
 	},
 	[5183] = {
 		Title = "Contemplation of (GM Fruit)",
@@ -10838,320 +10864,320 @@ QuestInfoList = {
 		Summary = "Listen to the concerns of (GM Fruit)"
 	},
 	[5184] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon received and helped by (GM Fruit) at level 51-65 for non-Breaking. Can be used when taken to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) for Normal Classes at Level 51-65. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5185] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon received and helped by (GM Fruit) at the level of Non-Win 66-80. Can be used by bringing it to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) for Normal Classes at Level 66-80. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5186] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon received and helped by (GM Fruit) at level 81-99 of the non-victory. Can be used by bringing it to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) for Normal Classes at Level 81-99. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5187] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon received and helped (GM Fruit) at the level of 51-65 victory. Can be used when taken to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) for Rebirth Classes at Level 51-65. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5188] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon received and helped (GM Fruit) at the level of 66-80 victory. Can be used when taken to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) for Rebirth Classes at Level 66-80. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5189] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon received and helped by (GM Fruit) at the level of 81-99 victory. Can be used when taken to (GM Seed). ^ff0000* Cannot be used at the end of the event period. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) for Rebirth Classes at Level 81-99. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used at the end of the event period. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5190] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon for helping and receiving (GM Fruit) at level 100-110. Can be used when taken to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) at Level 100-110. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5191] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon received and helped (GM Fruit) at level 111-125. Can be used when taken to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) at Level 111-125. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5192] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon for helping and receiving (GM Fruit) at level 126-140. Can be used when taken to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) at Level 126-140. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5193] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon that was given to help (GM Fruit) at level 141-150. Can be used when taken to (GM Seed). ^ff0000* Cannot be used when the event period ends. *^000000"
+			"A Status Reset Coupon received for helping (GM Fruit) at Level 141-150. You can use it by bringing it to (GM Seeds). ^ff0000* Cannot be used when the event period ends. *^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5194] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back 100 of the savings bags of the operation team stolen by ^ff0000Aegira^000000."
+			"Bring back 100 of the management team's Saving Bags stolen by ^ff0000Eggyra^000000."
 		},
-		Summary = "100 savings pockets"
+		Summary = "100 Saving Bags"
 	},
 	[5195] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back 100 of the savings pockets of the operation team stolen by ^ff0000Auvonne^000000."
+			"Bring back 100 of the management team's Saving Bags stolen by ^ff0000Obeaune^000000."
 		},
-		Summary = "100 savings pockets"
+		Summary = "100 Saving Bags"
 	},
 	[5196] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's bring back the 100 savings bags of the operation team that were stolen to ^ff0000beret^000000."
+			"Bring back 100 of the management team's Saving Bags stolen by ^ff0000Verit^000000."
 		},
-		Summary = "100 savings pockets"
+		Summary = "100 Saving Bags"
 	},
 	[5197] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 150 savings bags of the operation team stolen to ^ff0000goblin^000000."
+			"Bring back 150 of the management team's Saving Bags stolen by ^ff0000Goblin^000000."
 		},
-		Summary = "150 savings bags"
+		Summary = "150 Saving Bags"
 	},
 	[5198] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back 150 of the savings bags of the operation team stolen to ^ff0000Jerome^000000."
+			"Bring back 150 of the management team's Saving Bags stolen by ^ff0000Zerom^000000."
 		},
-		Summary = "150 savings bags"
+		Summary = "150 Saving Bags"
 	},
 	[5199] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 150 savings bags of the operation team stolen by ^ff0000Wraith^000000."
+			"Bring back 150 of the management team's Saving Bags stolen by ^ff0000Wraith^000000."
 		},
-		Summary = "150 savings bags"
+		Summary = "150 Saving Bags"
 	},
 	[5200] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 200 savings pockets of the operation team stolen to ^ff0000Happy^000000."
+			"Bring back 200 of the management team's Saving Bags stolen by ^ff0000Harpy^000000."
 		},
-		Summary = "Savings 200"
+		Summary = "200 Saving Bags"
 	},
 	[5201] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's bring back the 200 savings bags of the operation team that were stolen to ^ff0000Gout^000000."
+			"Bring back 200 of the management team's Saving Bags stolen by ^ff0000Goat^000000."
 		},
-		Summary = "Savings 200"
+		Summary = "200 Saving Bags"
 	},
 	[5202] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 150 savings pockets of the operation team stolen to ^ff0000Hyegun^000000."
+			"Bring back 200 of the management team's Saving Bags stolen by ^ff0000Yao Yun^000000."
 		},
-		Summary = "150 savings bags"
+		Summary = "150 Saving Bags"
 	},
 	[5203] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back 100 of the savings bags of the operation team stolen by ^ff0000Stone Shooter^000000."
+			"Bring back 100 of the management team's Saving Bags stolen by ^ff0000Stone Shooter^000000."
 		},
-		Summary = "100 savings pockets"
+		Summary = "100 Saving Bags"
 	},
 	[5204] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's bring back the 100 savings pockets of the operation team stolen to ^ff0000Sohee^000000."
+			"Bring back 100 of the management team's Saving Bags stolen by ^ff0000Sohee^000000."
 		},
-		Summary = "100 savings pockets"
+		Summary = "100 Saving Bags"
 	},
 	[5205] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's bring back the 100 savings pockets of the operation team stolen to ^ff0000Ghoul^000000."
+			"Bring back 100 of the management team's Saving Bags stolen by ^ff0000Ghoul^000000."
 		},
-		Summary = "100 savings pockets"
+		Summary = "100 Saving Bags"
 	},
 	[5206] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back 150 of the savings pockets of the operations team stolen to ^ff000000 Rafflesia Alnoldy^000000."
+			"Bring back 150 of the management team's Saving Bags stolen by ^ff000000Alnoldi^000000."
 		},
-		Summary = "150 savings bags"
+		Summary = "150 Saving Bags"
 	},
 	[5207] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 150 savings bags of the operation team that were stolen by ^ff0000."
+			"Bring back 150 of the management team's Saving Bags stolen by ^ff0000Li Me Mang Ryang^000000."
 		},
-		Summary = "150 savings bags"
+		Summary = "150 Saving Bags"
 	},
 	[5208] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 150 savings bags of the stealing team that was stolen by ^ff0000Evil Druid^000000."
+			"Bring back 150 of the management team's Saving Bags stolen by ^ff0000Evil Druid^000000."
 		},
-		Summary = "150 savings bags"
+		Summary = "150 Saving Bags"
 	},
 	[5209] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's bring back the 200 savings bags of the operation team that were stolen to ^ff0000."
+			"Bring back 200 of the management team's Saving Bags stolen by ^ff0000Bloody Butterfly^000000."
 	},
-		Summary = "Savings 200"
+		Summary = "200 Saving Bags"
 	},
 	[5210] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's bring back the 200 savings bags of the operation team stolen to ^ff0000buto Izo^000000."
+			"Bring back 200 of the management team's Saving Bags stolen by ^ff0000Butoijo^000000."
 		},
-		Summary = "Savings 200"
+		Summary = "200 Saving Bags"
 	},
 	[5211] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 150 savings bags of the operation team stolen by the old ^ff0000old gunman^000000."
+			"Bring back 150 of the management team's Saving Bags stolen by ^ff0000Antique Firelock^000000."
 		},
-		Summary = "150 savings bags"
+		Summary = "150 Saving Bags"
 	},
 	[5212] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 250 savings pockets of the operations team stolen by ^ff0000Anolian^000000."
+			"Bring back 250 of the management team's Saving Bags stolen by ^ff0000Anolian^000000."
 		},
-		Summary = "Savings 250"
+		Summary = "250 Saving Bags"
 	},
 	[5213] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 250 savings bags of the operation team stolen by ^ff0000Snower^000000."
+			"Bring back 250 of the management team's Saving Bags stolen by ^ff0000Snowier^000000."
 		},
-		Summary = "Savings 250"
+		Summary = "250 Saving Bags"
 	},
 	[5214] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's bring back the 200 savings pockets of the operation team stolen to ^ff0000Durahan^000000."
+			"Bring back 200 of the management team's Saving Bags stolen by ^ff0000Dullahan^000000."
 		},
-		Summary = "Savings 200"
+		Summary = "200 Saving Bags"
 	},
 	[5215] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 300 savings pockets of the operations team stolen by ^ff0000Raidrick^000000."
+			"Bring back 300 of the management team's Saving Bags stolen by ^ff0000Raydric^000000."
 		},
-		Summary = "300 savings bags"
+		Summary = "300 Saving Bags"
 	},
 	[5216] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 250 savings bags of the operations team stolen to ^ff0000Khalitzburg^000000."
+			"Bring back 250 of the management team's Saving Bags stolen by ^ff0000Khalitzburg^000000."
 		},
-		Summary = "300 savings bags"
+		Summary = "300 Saving Bags"
 	},
 	[5217] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 300 savings bags of the operation team stolen to ^ff0000Kavach Icarus^000000."
+			"Bring back 300 of the management team's Saving Bags stolen by ^ff0000Kavach Icarus^000000."
 		},
-		Summary = "300 savings bags"
+		Summary = "300 Saving Bags"
 	},
 	[5218] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 300 savings bags of the operation team stolen by ^ff0000Armier Dinze^000000."
+			"Bring back 300 of the management team's Saving Bags stolen by ^ff0000Armeyer Dinze^000000."
 		},
-		Summary = "300 savings pockets"
+		Summary = "300 Saving Bags"
 	},
 	[5219] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's get back the 300 savings pockets of the operation team stolen by ^ff0000Remover^000000."
+			"Bring back 300 of the management team's Saving Bags stolen by ^ff0000Remover^000000."
 		},
-		Summary = "Savings 250"
+		Summary = "250 Saving Bags"
 	},
 	[5220] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
-			"Let's retrieve the 400 savings pockets of the operation team stolen from ^ff0000manlet^000000."
+			"Bring back 400 of the management team's Saving Bags stolen by ^ff0000Menblatt^000000."
 		},
-		Summary = "Savings 400"
+		Summary = "400 Saving Bags"
 	},
 	[5221] = {
-		Title = "Contemplation of (GM seeds)",
+		Title = "Concerns of (GM Seeds)",
 		Description = {
-			"Listen to the concerns of (GM Seed)"
+			"Listen to the concerns of (GM Seeds)"
 		},
-		Summary = "Listen to (GM seeds) 's worries"
+		Summary = "Listen to the concerns of (GM Seeds)"
 	},
 	[5222] = {
-		Title = "Accumulating the energy crystals",
+		Title = "Energy Crystal Accumulation",
 		Description = {
 			"I'm working on accumulating <ITEM>Rough Energy Crystal<INFO>6623</INFO></ITEM> to the body. ^FF0000*Please go to Reno if the Buff is disappeared.*^000000"
 		},
 		Summary = ""
 	},
 	[5223] = {
-		Title = "Accumulating the energy crystals",
+		Title = "Energy Crystal Accumulation",
 		Description = {
 			"I'm working on accumulating <ITEM>Purified Energy Crystal<INFO>6624</INFO></ITEM> to the body. ^FF0000*Please go to Reno if the Buff is disappeared.*^000000"
 		},
 		Summary = ""
 	},
 	[5224] = {
-		Title = "Accumulating the energy crystals",
+		Title = "Energy Crystal Accumulation",
 		Description = {
 			"I'm working on accumulating <ITEM>High Energy Crystal<INFO>6625</INFO></ITEM> to the body. ^FF0000*Please go to Reno if the Buff is disappeared.*^000000"
 		},
 		Summary = ""
 	},
 	[5225] = {
-		Title = "Accumulating energy crystal (Standby)",
+		Title = "Energy Crystal Accumulation (Standby)",
 		Description = {
-			"In order to accumulate <ITEM>Rough Energy Crystal<INFO>6623</INFO></ITEM> again in your body aproximately ^FF000020 hours^000000 of waiting time is required."
+			"In order to accumulate <ITEM>Rough Energy Crystal<INFO>6623</INFO></ITEM> again in your body approximately ^FF000020 hours^000000 of waiting time is required."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[5226] = {
-		Title = "Accumulating energy crystal (Standby)",
+		Title = "Energy Crystal Accumulation (Standby)",
 		Description = {
-			"In order to accumulate <ITEM>Purified Energy Crystal<INFO>6624</INFO></ITEM> again in your body aproximately ^FF000020 hours^000000 of waiting time is required."
+			"In order to accumulate <ITEM>Purified Energy Crystal<INFO>6624</INFO></ITEM> again in your body approximately ^FF000020 hours^000000 of waiting time is required."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[5227] = {
-		Title = "Accumulating energy crystal (Standby)",
+		Title = "Energy Crystal Accumulation (Standby)",
 		Description = {
-			"In order to accumulate <ITEM>High Energy Crystal<INFO>6625</INFO></ITEM> again in your body aproximately ^FF000020 hours^000000 of waiting time is required."
+			"In order to accumulate <ITEM>High Energy Crystal<INFO>6625</INFO></ITEM> again in your body approximately ^FF000020 hours^000000 of waiting time is required."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[5228] = {
-		Title = "<Wave Mode-Forest> Wait",
+		Title = "<Wave Mode-Forest> - Standby",
 		Description = {
-			"<Wave Mode-Forest> can only be used once a day."
+			"<Wave Mode-Forest> can only be entered once a day."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -11159,62 +11185,62 @@ QuestInfoList = {
 	[5229] = {
 		Title = "Join the Payon Agricultural Cooperative",
 		Description = {
-			"Joined Payon Agricultural Cooperative"
+			"Join the Payon Agricultural Cooperative"
 		},
 		Summary = "Join the Payon Agricultural Cooperative"
 	},
 	[5230] = {
-		Title = "Get seed",
+		Title = "Get the seeds",
 		Description = {
-			"Please get the seeds from the seed manager waiting in the Payon forest at 6 o'clock."
+			"Please get the seeds from the Seed Coordinator waiting in the Payon Forest at 6 o'clock."
 		},
-		Summary = "Go to get seeds"
+		Summary = "Go get the seeds"
 	},
 	[5231] = {
-		Title = "Take seed",
+		Title = "Take the seeds",
 		Description = {
-			"I received a seed from a seed representative. Carry it to Pico."
+			"I have received seeds from a Seed Coordinator. Carry them to Pico."
 		},
-		Summary = "Carrying seeds to Pico"
+		Summary = "Carry the seeds to Pico"
 	},
 	[5232] = {
-		Title = "break",
+		Title = "Rest",
 		Description = {
-			"After 10 minutes, you can go back to pick the seeds."
+			"After 10 minutes, you can go back to collect the seeds again."
 		},
 		Summary = "Resets after 10 minutes",
 		CoolTimeQuest = 1
 	},
 	[5233] = {
-		Title = "Floating water",
+		Title = "Floating Water",
 		Description = {
-			"Go to the largest Ongdalsam in the Archer Village at Payon 1 o'clock and float the water."
+			"Go to the largest Ongdal Spring in the Archer Village in Payon 1 o'clock and get some water."
 		},
-		Summary = "Floating water"
+		Summary = "Floating Water"
 	},
 	[5234] = {
-		Title = "Carrying the bucket",
+		Title = "Carrying a bucket of water",
 		Description = {
-			"I left the water. Let's go back to the field and pick up the water."
+			"Water came up. Let's go back to the field and water it."
 		},
-		Summary = "Carrying a bucket"
+		Summary = "Carrying a bucket of water"
 	},
 	[5235] = {
-		Title = "Get manure",
+		Title = "Bring Manure",
 		Description = {
-		"	Go to the shape of the left eye of the forest that resembles Willow at 5 o'clock, and bring manure."
+			"Go to the left eye of the Willow-like forest at 5 o'clock in Payon and get the Manure."
 		},
-		Summary = "Get manure"
+		Summary = "Bring Manure"
 	},
 	[5236] = {
-		Title = "carrying manure",
+		Title = "Carrying Manure",
 		Description = {
-			"I got the manure. Let's go back to the field and pick the manure."
+			"I got the manure. Let's go back to the field and fertilize it."
 		},
-		Summary = "Carrying manure"
+		Summary = "Carrying Manure"
 	},
 	[5237] = {
-		Title = "break",
+		Title = "Rest",
 		Description = {
 			"It takes 10 minutes to repeat the watering and manure cycles."
 		},
@@ -11222,7 +11248,7 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[5238] = {
-		Title = "Time to wait for harvest",
+		Title = "Harvest Waiting Time",
 		Description = {
 			"The harvest for sharing with everyone is only possible once every 30 minutes."
 		},
@@ -11230,7 +11256,7 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[5251] = {
-		Title = "wood Supply Mission",
+		Title = "Wood Supply Mission",
 		Description = {
 			"Exit through the southern gate (moc_fild12) of Morocc and collect 10 Wood. You do not have to deliver them at once."
 		},
@@ -11421,154 +11447,154 @@ QuestInfoList = {
 		Summary = "Stolen New Year's card"
 	},
 	[5277] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5278] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5279] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5280] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5281] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5282] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5283] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5284] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5285] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5286] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5287] = {
-		Title = "(Status Initialization) Coupon",
+		Title = "Status Reset Coupon",
 		Description = {
-			"Status Initialization Coupon to help and receive the operation team. It can be used by bringing it to (GM Seed). ^Ff0000Cannot be used when the event period ends.^000000"
+			"Status Reset Coupon to help and receive the operation team. It You can use it by bringing it to (GM Seeds). ^Ff0000Cannot be used when the event period ends.^000000"
 		},
 		Summary = "Publisher (GM Fruit)"
 	},
 	[5288] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 100 crumpled New Year's cards that ^ff0000berets^000000 stole from the operational team's Dark Circle House."
 		},
 		Summary = "100 crumpled New Year's cards"
 	},
 	[5289] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 100 crumpled New Year's cards stolen from the Dark Circle House by the operation ^ff0000Wraith^000000."
 		},
 		Summary = "100 crumpled New Year's cards"
 	},
 	[5290] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 130 crumpled New Year's cards stolen from the Dark Circle House by the operation team ^ff0000Gout^000000."
 		},
 		Summary = "130 crumpled greeting cards"
 	},
 	[5291] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 100 crumpled New Year's cards that ^ff0000Sohee^000000 stole from the Operations Team's Dark Circle House."
 		},
 		Summary = "100 crumpled New Year's cards"
 	},
 	[5292] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 100 crumpled New Year's cards that ^ff0000Evil Druid^000000 stole from the operational team's Dark Circle House."
 		},
 		Summary = "100 crumpled New Year's cards"
 	},
 	[5293] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's retrieve 100 crumpled New Year's cards stolen from the Dark Circle House of the operation team by ^ff0000old gunman^000000."
 		},
 		Summary = "100 crumpled New Year's cards"
 	},
 	[5294] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 150 crumpled New Year's cards that ^ff0000Pingucula^000000 stole from the operational team's Dark Circle House."
 		},
 		Summary = "150 crumpled greeting cards"
 	},
 	[5295] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 150 crumpled New Year's cards stolen from the Dark Circle House by the management team ^ff0000Khalitzburg^000000."
 		},
 		Summary = "150 crumpled greeting cards"
 	},
 	[5296] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 200 crumpled New Year's cards stolen from the operational team's Dark Circle House."
 		},
 		Summary = "200 crumpled New Year's cards"
 	},
 	[5297] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's get back the 250 crumpled New Year's cards that the ^ff0000manlet^000000 stole from the operational team's Dark Circle House."
 		},
 		Summary = "250 crumpled New Year's cards"
 	},
 	[5298] = {
-		Title = "Help (GM fruit)",
+		Title = "Help (GM Fruit)",
 		Description = {
 			"Let's bring back 250 crumpled New Year's cards stolen from the Dark Circle House by the operation team ^ff0000Flame Condor^000000."
 		},
@@ -15149,10 +15175,10 @@ QuestInfoList = {
 		Summary = "오두막 주인과 대화"
 	},
 	[5916] = {
-		Title = "토벌-아인브로크 필드-1",
+		Title = "Subjugation-Einbroch Field-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[아인브로크 필드]<INFO>ein_fild06,257,351,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 인피유]<INFO>ein_fild06,257,351,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\t<NAVI>[홀덴]<INFO>MOLE,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[메탈링]<INFO>METALING,0,0,3,-222,1</INFO></NAVI>"
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Einbroch Field]<INFO>ein_fild06,257,351,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[조사관 인피유]<INFO>ein_fild06,257,351,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\tI received a quest to subdue 80 monsters in <NAVI>[홀덴]<INFO>MOLE,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[메탈링]<INFO>METALING,0,0,3,-222,1</INFO></NAVI>"
 		},
 		Summary = "",
 		NpcSpr = "4_F_CHNDRESS1",
@@ -15161,10 +15187,10 @@ QuestInfoList = {
 		NpcPosY = 351
 	},
 	[5917] = {
-		Title = "[대기]토벌-아인브로크 필드-1",
+		Title = "[Standby] Subjugation-Einbroch Field-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회의 아인브로크 필드 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 인피유]<INFO>ein_fild06,257,351,0,101,0</INFO></NAVI>를 찾아가자."
+			"유노 몬스터 학회의 Einbroch Field 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 인피유]<INFO>ein_fild06,257,351,0,101,0</INFO></NAVI>를 찾아가자."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1,
@@ -15174,10 +15200,10 @@ QuestInfoList = {
 		NpcPosY = 351
 	},
 	[5918] = {
-		Title = "토벌-리히타르젠 필드-1",
+		Title = "Subjugation-Lighthalzen Field-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[리히타르젠 필드]<INFO>lhz_fild01,240,107,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 리피리]<INFO>lhz_fild01,240,107,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\t<NAVI>[라플레시아]<INFO>RAFFLESIA,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[스템웜]<INFO>STEM_WORM,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[메탈링]<INFO>METALING,0,0,3,-222,1</INFO></NAVI>"
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[Lighthalzen Field]<INFO>lhz_fild01,240,107,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[조사관 리피리]<INFO>lhz_fild01,240,107,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\tI received a quest to subdue 80 monsters in <NAVI>[라플레시아]<INFO>RAFFLESIA,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[스템웜]<INFO>STEM_WORM,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[메탈링]<INFO>METALING,0,0,3,-222,1</INFO></NAVI>"
 		},
 		Summary = "",
 		NpcSpr = "4_M_HUBOY",
@@ -15186,10 +15212,10 @@ QuestInfoList = {
 		NpcPosY = 107
 	},
 	[5919] = {
-		Title = "[대기]토벌-리히타르젠 필드-1",
+		Title = "[Standby] Subjugation-Lighthalzen Field-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회의 리히타르젠 필드 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 리피리]<INFO>lhz_fild01,240,107,0,101,0</INFO></NAVI>를 찾아가자."
+			"유노 몬스터 학회의 Lighthalzen Field 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 리피리]<INFO>lhz_fild01,240,107,0,101,0</INFO></NAVI>를 찾아가자."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1,
@@ -15199,10 +15225,10 @@ QuestInfoList = {
 		NpcPosY = 107
 	},
 	[5920] = {
-		Title = "토벌-게펜 필드",
+		Title = "Subjugation-게펜 필드",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[게펜 필드]<INFO>gef_fild06,209,31,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 게필]<INFO>gef_fild06,209,31,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\t<NAVI>[지상쁘띠]<INFO>PETIT,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[맨티스]<INFO>MANTIS,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[사이드와인더]<INFO>SIDE_WINDER,0,0,3,-222,1</INFO></NAVI>"
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[게펜 필드]<INFO>gef_fild06,209,31,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[조사관 게필]<INFO>gef_fild06,209,31,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\tI received a quest to subdue 80 monsters in <NAVI>[지상쁘띠]<INFO>PETIT,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[맨티스]<INFO>MANTIS,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[사이드와인더]<INFO>SIDE_WINDER,0,0,3,-222,1</INFO></NAVI>"
 		},
 		Summary = "",
 		NpcSpr = "4_M_MIDDLE",
@@ -15211,7 +15237,7 @@ QuestInfoList = {
 		NpcPosY = 31
 	},
 	[5921] = {
-		Title = "[대기]토벌-게펜 필드",
+		Title = "[Standby] Subjugation-게펜 필드",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"유노 몬스터 학회의 게펜 필드 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 게필]<INFO>gef_fild06,209,31,0,101,0</INFO></NAVI>을 찾아가자."
@@ -15224,10 +15250,10 @@ QuestInfoList = {
 		NpcPosY = 31
 	},
 	[5922] = {
-		Title = "토벌-거북이 섬",
+		Title = "Subjugation-거북이 섬",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[거북이 섬]<INFO>tur_dun01,159,46,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 터얼]<INFO>tur_dun01,159,46,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\t<NAVI>[스프링래빗]<INFO>SPRING_RABBIT,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[드래곤테일]<INFO>DRAGON_TAIL,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[퍼머터]<INFO>PERMETER,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[페스트]<INFO>PEST,0,0,3,-222,1</INFO></NAVI>"
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[거북이 섬]<INFO>tur_dun01,159,46,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[조사관 터얼]<INFO>tur_dun01,159,46,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\tI received a quest to subdue 80 monsters in <NAVI>[스프링래빗]<INFO>SPRING_RABBIT,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[드래곤테일]<INFO>DRAGON_TAIL,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[퍼머터]<INFO>PERMETER,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[페스트]<INFO>PEST,0,0,3,-222,1</INFO></NAVI>"
 		},
 		Summary = "",
 		NpcSpr = "4_M_BRZ_MAN1",
@@ -15236,7 +15262,7 @@ QuestInfoList = {
 		NpcPosY = 46
 	},
 	[5923] = {
-		Title = "[대기]토벌-거북이 섬",
+		Title = "[Standby] Subjugation-거북이 섬",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"유노 몬스터 학회의 거북이 섬 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 터얼]<INFO>tur_dun01,159,46,0,101,0</INFO></NAVI>을 찾아가자."
@@ -15249,10 +15275,10 @@ QuestInfoList = {
 		NpcPosY = 46
 	},
 	[5924] = {
-		Title = "토벌-타나토스 타워 앞",
+		Title = "Subjugation-타나토스 타워 앞",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[타나토스 타워 앞]<INFO>hu_fild01,133,157,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 휴프]<INFO>hu_fild01,133,157,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\t<NAVI>[노버스]<INFO>NOVUS,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[노버스]<INFO>NOVUS_,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[지오그래퍼]<INFO>GEOGRAPHER,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[드래곤의알]<INFO>DRAGON_EGG,0,0,3,-222,1</INFO></NAVI>"
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[타나토스 타워 앞]<INFO>hu_fild01,133,157,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[조사관 휴프]<INFO>hu_fild01,133,157,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\tI received a quest to subdue 80 monsters in <NAVI>[노버스]<INFO>NOVUS,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[노버스]<INFO>NOVUS_,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[지오그래퍼]<INFO>GEOGRAPHER,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[드래곤의알]<INFO>DRAGON_EGG,0,0,3,-222,1</INFO></NAVI>"
 		},
 		Summary = "",
 		NpcSpr = "4_MAL_CAPTAIN",
@@ -15261,7 +15287,7 @@ QuestInfoList = {
 		NpcPosY = 157
 	},
 	[5925] = {
-		Title = "[대기]토벌-타나토스 타워 앞",
+		Title = "[Standby] Subjugation-타나토스 타워 앞",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"유노 몬스터 학회의 타나토스 타워 앞 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 휴프]<INFO>hu_fild01,133,157,0,101,0</INFO></NAVI>를 찾아가자."
@@ -15274,10 +15300,10 @@ QuestInfoList = {
 		NpcPosY = 157
 	},
 	[5926] = {
-		Title = "토벌-별빛산호지대",
+		Title = "Subjugation-별빛산호지대",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[별빛산호지대]<INFO>mal_dun01,141,126,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 마더원]<INFO>mal_dun01,141,126,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\t<NAVI>[빨강 에루마]<INFO>RED_ERUMA,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[시오라바]<INFO>SIORAVA,0,0,3,-222,1</INFO></NAVI>"
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[별빛산호지대]<INFO>mal_dun01,141,126,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[조사관 마더원]<INFO>mal_dun01,141,126,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\tI received a quest to subdue 80 monsters in <NAVI>[빨강 에루마]<INFO>RED_ERUMA,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[시오라바]<INFO>SIORAVA,0,0,3,-222,1</INFO></NAVI>"
 		},
 		Summary = "",
 		NpcSpr = "4_F_TAEKWON",
@@ -15286,7 +15312,7 @@ QuestInfoList = {
 		NpcPosY = 126
 	},
 	[5927] = {
-		Title = "[대기]토벌-별빛산호지대",
+		Title = "[Standby] Subjugation-별빛산호지대",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"유노 몬스터 학회의 별빛산호지대 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 마더원]<INFO>mal_dun01,141,126,0,101,0</INFO></NAVI>을 찾아가자."
@@ -15299,10 +15325,10 @@ QuestInfoList = {
 		NpcPosY = 126
 	},
 	[5928] = {
-		Title = "토벌-거북이 섬 던전",
+		Title = "Subjugation-거북이 섬 던전",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[거북이 섬 던전]<INFO>tur_dun02,151,256,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 티듄]<INFO>tur_dun02,151,256,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\t<NAVI>[솔리더]<INFO>SOLIDER,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[퍼머터]<INFO>PERMETER,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[페스트]<INFO>PEST,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[프리저]<INFO>FREEZER,0,0,3,-222,1</INFO></NAVI>"
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[거북이 섬 던전]<INFO>tur_dun02,151,256,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[조사관 티듄]<INFO>tur_dun02,151,256,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\tI received a quest to subdue 80 monsters in <NAVI>[솔리더]<INFO>SOLIDER,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[퍼머터]<INFO>PERMETER,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[페스트]<INFO>PEST,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[프리저]<INFO>FREEZER,0,0,3,-222,1</INFO></NAVI>"
 		},
 		Summary = "",
 		NpcSpr = "4_M_NINJA_BLUE",
@@ -15311,7 +15337,7 @@ QuestInfoList = {
 		NpcPosY = 256
 	},
 	[5929] = {
-		Title = "[대기]토벌-거북이 섬 던전",
+		Title = "[Standby] Subjugation-거북이 섬 던전",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"유노 몬스터 학회의 거북이 섬 던전 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 티듄]<INFO>tur_dun02,151,256,0,101,0</INFO></NAVI>을 찾아가자."
@@ -15324,10 +15350,10 @@ QuestInfoList = {
 		NpcPosY = 256
 	},
 	[5930] = {
-		Title = "토벌-양거촌",
+		Title = "Subjugation-양거촌",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"유노 몬스터 학회 토벌 의뢰\n\t\t<NAVI>[양거촌]<INFO>tur_dun03,125,186,0,101,0</INFO></NAVI>의 몬스터 80마리를 토벌해 달라는 의뢰를 받았다. 토벌을 마친 후에는 <NAVI>[조사관 트센서]<INFO>tur_dun03,125,186,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\t<NAVI>[어절터]<INFO>ASSULTER,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[퍼머터]<INFO>PERMETER,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[프리저]<INFO>FREEZER,0,0,3,-222,1</INFO></NAVI>\n\t\t<NAVI>[힛터]<INFO>HEATER,0,0,3,-222,1</INFO></NAVI>"
+			"Yuno Monster Society Subjugation Request\n\t\tI received a quest to subdue 80 monsters in <NAVI>[양거촌]<INFO>tur_dun03,125,186,0,101,0</INFO></NAVI>. After completing the subjugation, report it to <NAVI>[조사관 트센서]<INFO>tur_dun03,125,186,0,101,0</INFO></NAVI>에게 보고하도록 하자.\n\t\t\n\t\t토벌 대상\n\t\tI received a quest to subdue 80 monsters in <NAVI>[어절터]<INFO>ASSULTER,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[퍼머터]<INFO>PERMETER,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[프리저]<INFO>FREEZER,0,0,3,-222,1</INFO></NAVI>\n\t\tI received a quest to subdue 80 monsters in <NAVI>[힛터]<INFO>HEATER,0,0,3,-222,1</INFO></NAVI>"
 		},
 		Summary = "",
 		NpcSpr = "4_M_SIT_NOVICE",
@@ -15336,7 +15362,7 @@ QuestInfoList = {
 		NpcPosY = 186
 	},
 	[5931] = {
-		Title = "[대기]토벌-양거촌",
+		Title = "[Standby] Subjugation-양거촌",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"유노 몬스터 학회의 양거촌 토벌 의뢰는 내일 다시 진행이 가능하다. 시간이 다 지나면, <NAVI>[조사관 트센서]<INFO>tur_dun03,125,186,0,101,0</INFO></NAVI>를 찾아가자."
@@ -21836,7 +21862,7 @@ QuestInfoList = {
 		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행 할 수 있습니다.",
-			"특수경계지역 코르의 <NAVI>[유슬란]<INFO>sp_cor,155,94,0,101,0</INFO></NAVI>을 통해 퀘스트 수주가 가능합니다."
+			"특수경계지역 코르의 <NAVI>[유슬란]<INFO>sp_cor,155,94,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -25312,7 +25338,7 @@ QuestInfoList = {
 		Summary = "새콤한 멜론 10개 조달"
 	},
 	[8581] = {
-		Title = "새콤한 멜론이 맛있다 - 대기",
+		Title = "새콤한 멜론이 맛있다 - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[딜포어]<INFO>geffen,89,35,0,101,0</INFO></NAVI>는 괜찮다면 내일 다시 일을 도와달라고 했다."
@@ -25329,7 +25355,7 @@ QuestInfoList = {
 		Summary = "새콤한 멜론 10개 조달"
 	},
 	[8583] = {
-		Title = "새콤이 성능 분석 - 대기",
+		Title = "새콤이 성능 분석 - Standby",
 		IconName = "ico_ev.bmp",
 		Description = {
 			"<NAVI>[딜포어]<INFO>geffen,89,35,0,101,0</INFO></NAVI>는 괜찮다면 내일 다시 일을 도와달라고 했다."
@@ -25361,7 +25387,7 @@ QuestInfoList = {
 		Summary = "루이난과 대화"
 	},
 	[8587] = {
-		Title = "일일 농장 체험 - 대기",
+		Title = "일일 농장 체험 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[루이난]<INFO>ba_maison,311,205,0,101,0</INFO></NAVI>은 언제나 당신을 기다립니다. 내일 다시 노동을 하고 대가를 요구합시다."
@@ -25424,7 +25450,7 @@ QuestInfoList = {
 		Summary = "초록 피타야 처치"
 	},
 	[8595] = {
-		Title = "피타야와 놀아주기 - 대기",
+		Title = "피타야와 놀아주기 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[코튼]<INFO>ba_maison,306,205,0,101,0</INFO></NAVI>은 언제나 당신을 기다립니다. 내일 다시 노동을 하고 대가를 요구합시다."
@@ -25643,10 +25669,10 @@ QuestInfoList = {
 		Summary = "지정된 몬스터를 처치"
 	},
 	[8642] = {
-		Title = "생긴 건 귀여운데 - 대기",
+		Title = "생긴 건 귀여운데 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -25668,10 +25694,10 @@ QuestInfoList = {
 		Summary = "지정된 몬스터를 처치"
 	},
 	[8645] = {
-		Title = "그건 악기가 아니야 - 대기",
+		Title = "그건 악기가 아니야 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -25693,10 +25719,10 @@ QuestInfoList = {
 		Summary = "망자의 연회장의 피아노를 연주"
 	},
 	[8648] = {
-		Title = "피아노 연주 - 대기",
+		Title = "피아노 연주 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -25718,10 +25744,10 @@ QuestInfoList = {
 		Summary = "지정된 몬스터를 처치"
 	},
 	[8651] = {
-		Title = "머리 부시시한 애들 - 대기",
+		Title = "머리 부시시한 애들 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -25743,10 +25769,10 @@ QuestInfoList = {
 		Summary = "지정된 몬스터를 처치"
 	},
 	[8654] = {
-		Title = "인형 달고 있는 애들 - 대기",
+		Title = "인형 달고 있는 애들 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -25768,10 +25794,10 @@ QuestInfoList = {
 		Summary = "오페라하우스의 액자들과 대화"
 	},
 	[8657] = {
-		Title = "걔들 좀 깨워 줘 - 대기",
+		Title = "걔들 좀 깨워 줘 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[밀라]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -25793,7 +25819,7 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8660] = {
-		Title = "토벌-아우둠라 초원-3",
+		Title = "Subjugation-아우둠라 초원-3",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[조사관 시아라]<INFO>ra_fild01,224,319,0,101,0</INFO></NAVI>는 자기가 있는 아우둠라 초원 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
@@ -25801,16 +25827,16 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8661] = {
-		Title = "[대기]토벌-아우둠라 초원-3",
+		Title = "[Standby] Subjugation-아우둠라 초원-3",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 시아라]<INFO>ra_fild01,224,319,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[조사관 시아라]<INFO>ra_fild01,224,319,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[8662] = {
-		Title = "토벌-아우둠라 초원-3",
+		Title = "Subjugation-아우둠라 초원-3",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[조사관 시아라]<INFO>ra_fild01,224,319,0,101,0</INFO></NAVI>는 자기가 있는 아우둠라 초원 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
@@ -25818,32 +25844,32 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8663] = {
-		Title = "토벌-이다 평원-3",
+		Title = "Subjugation-Ida Plains-3",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[조사관 로렌]<INFO>ra_fild03,368,183,0,101,0</INFO></NAVI>은 자기가 있는 이다 평원 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
+			"<NAVI>[조사관 로렌]<INFO>ra_fild03,368,183,0,101,0</INFO></NAVI>은 자기가 있는 Ida Plains 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
 		},
 		Summary = ""
 	},
 	[8664] = {
-		Title = "[대기]토벌-이다 평원-3",
+		Title = "[Standby] Subjugation-Ida Plains-3",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 로렌]<INFO>ra_fild01,368,183,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[조사관 로렌]<INFO>ra_fild01,368,183,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[8665] = {
-		Title = "토벌-이다 평원-3",
+		Title = "Subjugation-Ida Plains-3",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[조사관 로렌]<INFO>ra_fild03,368,183,0,101,0</INFO></NAVI>은 자기가 있는 이다 평원 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
+			"<NAVI>[조사관 로렌]<INFO>ra_fild03,368,183,0,101,0</INFO></NAVI>은 자기가 있는 Ida Plains 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
 		},
 		Summary = ""
 	},
 	[8666] = {
-		Title = "토벌-아우둠라 초원-1",
+		Title = "Subjugation-아우둠라 초원-1",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[조사관 스쿠마리]<INFO>ra_fild04,274,69,0,101,0</INFO></NAVI>는 자기가 있는 아우둠라 초원 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
@@ -25851,16 +25877,16 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8667] = {
-		Title = "[대기]토벌-아우둠라 초원-1",
+		Title = "[Standby] Subjugation-아우둠라 초원-1",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 스쿠마리]<INFO>ra_fild04,274,69,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[조사관 스쿠마리]<INFO>ra_fild04,274,69,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[8668] = {
-		Title = "토벌-아우둠라 초원-1",
+		Title = "Subjugation-아우둠라 초원-1",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[조사관 스쿠마리]<INFO>ra_fild04,274,69,0,101,0</INFO></NAVI>는 자기가 있는 아우둠라 초원 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
@@ -25868,7 +25894,7 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8669] = {
-		Title = "토벌-아우둠라 초원-2",
+		Title = "Subjugation-아우둠라 초원-2",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[조사관 발렌젤라]<INFO>ra_fild05,48,356,0,101,0</INFO></NAVI>는 자기가 있는 아우둠라 초원 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
@@ -25876,16 +25902,16 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8670] = {
-		Title = "[대기]토벌-아우둠라 초원-2",
+		Title = "[Standby] Subjugation-아우둠라 초원-2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 발렌젤라]<INFO>ra_fild05,48,356,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[조사관 발렌젤라]<INFO>ra_fild05,48,356,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[8671] = {
-		Title = "토벌-아우둠라 초원-2",
+		Title = "Subjugation-아우둠라 초원-2",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[조사관 발렌젤라]<INFO>ra_fild05,48,356,0,101,0</INFO></NAVI>는 자기가 있는 아우둠라 초원 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
@@ -25893,7 +25919,7 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8672] = {
-		Title = "토벌-포르투 루나",
+		Title = "Subjugation-포르투 루나",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[조사관 칸투]<INFO>ra_fild06,292,39,0,101,0</INFO></NAVI>는 자기가 있는 포르투 루나 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
@@ -25901,16 +25927,16 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8673] = {
-		Title = "[대기]토벌-포르투 루나",
+		Title = "[Standby] Subjugation-포르투 루나",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 칸투]<INFO>ra_fild06,292,39,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[조사관 칸투]<INFO>ra_fild06,292,39,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[8674] = {
-		Title = "토벌-포르투 루나",
+		Title = "Subjugation-포르투 루나",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>[조사관 칸투]<INFO>ra_fild06,292,39,0,101,0</INFO></NAVI>는 자기가 있는 포르투 루나 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
@@ -25918,52 +25944,52 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[8675] = {
-		Title = "토벌-베인스 필드-3",
+		Title = "Subjugation-Veins Field-3",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[조사관 라냐]<INFO>ve_fild04,52,242,0,101,0</INFO></NAVI>는 자기가 있는 베인스 필드 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
+			"<NAVI>[조사관 라냐]<INFO>ve_fild04,52,242,0,101,0</INFO></NAVI>는 자기가 있는 Veins Field 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
 		},
 		Summary = ""
 	},
 	[8676] = {
-		Title = "[대기]토벌-베인스 필드-3",
+		Title = "[Standby] Subjugation-Veins Field-3",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 라냐]<INFO>ve_fild04,52,242,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[조사관 라냐]<INFO>ve_fild04,52,242,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[8677] = {
-		Title = "토벌-베인스 필드-3",
+		Title = "Subjugation-Veins Field-3",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[조사관 라냐]<INFO>ve_fild04,52,242,0,101,0</INFO></NAVI>는 자기가 있는 베인스 필드 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
+			"<NAVI>[조사관 라냐]<INFO>ve_fild04,52,242,0,101,0</INFO></NAVI>는 자기가 있는 Veins Field 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
 		},
 		Summary = ""
 	},
 	[8678] = {
-		Title = "토벌-베인스 필드-4",
+		Title = "Subjugation-Veins Field-4",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[조사관 듀]<INFO>ve_fild03,348,230,0,101,0</INFO></NAVI>는 자기가 있는 베인스 필드 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
+			"<NAVI>[조사관 듀]<INFO>ve_fild03,348,230,0,101,0</INFO></NAVI>는 자기가 있는 Veins Field 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
 		},
 		Summary = ""
 	},
 	[8679] = {
-		Title = "[대기]토벌-베인스 필드-4",
+		Title = "[Standby] Subjugation-Veins Field-4",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[조사관 듀]<INFO>ve_fild03,348,230,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+			"This quest is a daily quest and when the waiting time expires, you can receive it again from <NAVI>[조사관 듀]<INFO>ve_fild03,348,230,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[8680] = {
-		Title = "토벌-베인스 필드-4",
+		Title = "Subjugation-Veins Field-4",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[조사관 듀]<INFO>ve_fild03,348,230,0,101,0</INFO></NAVI>는 자기가 있는 베인스 필드 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
+			"<NAVI>[조사관 듀]<INFO>ve_fild03,348,230,0,101,0</INFO></NAVI>는 자기가 있는 Veins Field 내의 몬스터를 조사하기 위해 파견되었다. 해당 필드의 몬스터를 도합 80마리 해치우는 것이 이번 목표다."
 		},
 		Summary = ""
 	},
@@ -47275,7 +47301,7 @@ QuestInfoList = {
 		Title = "심연의 고독-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -47292,7 +47318,7 @@ QuestInfoList = {
 		Title = "변형과 발전-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -47309,7 +47335,7 @@ QuestInfoList = {
 		Title = "데이터 백업-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -47334,7 +47360,7 @@ QuestInfoList = {
 		Title = "땅과 불-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -47351,7 +47377,7 @@ QuestInfoList = {
 		Title = "물과 바람-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -47368,7 +47394,7 @@ QuestInfoList = {
 		Title = "베르너의 흔적-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -47383,7 +47409,7 @@ QuestInfoList = {
 		Title = "모방과 진짜-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 아인브로크의 <NAVI>[거베나]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[거베나]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -47400,7 +47426,7 @@ QuestInfoList = {
 		Title = "자연스러운 변화-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 아인브로크의 <NAVI>[거베나]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>를 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[거베나]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -49550,8 +49576,9 @@ QuestInfoList = {
 		Description = {
 			"아직 별단추를 찾느라 정신이 없어 보이는데. 아직 충분한 것 같은데. 조금 쉬다가 다시 찾자아. - <NAVI>[쿵덕]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>"
 		},
-		Summary = "Resets at 04:00", CoolTimeQuest = 1}
-	, 
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
 	[17567] = {
 		Title = "암호명! 별단추인가?!",
 		IconName = "ico_ev.bmp",
@@ -49731,7 +49758,7 @@ QuestInfoList = {
 		Summary = "망가진 코어 10개 이상 회수"
 	},
 	[18025] = {
-		Title = "코어 수집 - 대기",
+		Title = "코어 수집 - Standby",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"해당 퀘스트는 대기시간이 지난 뒤 비공정 거치장의 <NAVI>[아몬드]<INFO>ba_in01,28,255,0,101,0</INFO></NAVI>에게서 받을 수 있습니다."
@@ -50331,7 +50358,7 @@ QuestInfoList = {
 		Title = "꽃이 피어난 대지-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50348,7 +50375,7 @@ QuestInfoList = {
 		Title = "대욕장 메디타티오-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50365,7 +50392,7 @@ QuestInfoList = {
 		Title = "도서관 기억의 회랑-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50382,7 +50409,7 @@ QuestInfoList = {
 		Title = "하수처리장-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50399,7 +50426,7 @@ QuestInfoList = {
 		Title = "제 1 마력발전소-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50416,7 +50443,7 @@ QuestInfoList = {
 		Title = "용의 둥지-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50433,7 +50460,7 @@ QuestInfoList = {
 		Title = "비프로스트 탑-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50450,7 +50477,7 @@ QuestInfoList = {
 		Title = "용의 둥지-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50467,7 +50494,7 @@ QuestInfoList = {
 		Title = "프론테라 지하감옥-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50484,7 +50511,7 @@ QuestInfoList = {
 		Title = "침공당한 프론테라-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50501,7 +50528,7 @@ QuestInfoList = {
 		Title = "락 릿지 광산-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50518,7 +50545,7 @@ QuestInfoList = {
 		Title = "2층 회랑-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50535,7 +50562,7 @@ QuestInfoList = {
 		Title = "지하 벙커-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50552,7 +50579,7 @@ QuestInfoList = {
 		Title = "실험동-OPTATIO-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50569,7 +50596,7 @@ QuestInfoList = {
 		Title = "뒤틀린 시간의 시계탑 2층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50586,7 +50613,7 @@ QuestInfoList = {
 		Title = "사육장 로스트밸리-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50603,7 +50630,7 @@ QuestInfoList = {
 		Title = "뒤틀린 시간의 시계탑 3층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50620,7 +50647,7 @@ QuestInfoList = {
 		Title = "오즈협곡과 이다평원-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50637,7 +50664,7 @@ QuestInfoList = {
 		Title = "폐기실험체 유기장 루두스 2층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50654,7 +50681,7 @@ QuestInfoList = {
 		Title = "유페로스 동쪽폐허-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50671,7 +50698,7 @@ QuestInfoList = {
 		Title = "베루스 시티-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50688,7 +50715,7 @@ QuestInfoList = {
 		Title = "저장고 타르타로스 상층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50705,7 +50732,7 @@ QuestInfoList = {
 		Title = "오즈의 미로 1층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50722,7 +50749,7 @@ QuestInfoList = {
 		Title = "폐기실험체 유기장 루두스 3층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50739,7 +50766,7 @@ QuestInfoList = {
 		Title = "유노 노그로드 3층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50756,7 +50783,7 @@ QuestInfoList = {
 		Title = "저장고 타르타로스 하층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50773,7 +50800,7 @@ QuestInfoList = {
 		Title = "글래스트헤임 어비스 1층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50790,7 +50817,7 @@ QuestInfoList = {
 		Title = "회색늑대의 숲-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50807,7 +50834,7 @@ QuestInfoList = {
 		Title = "회색늑대의 숲-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50824,7 +50851,7 @@ QuestInfoList = {
 		Title = "아인베흐 광산 3층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50841,7 +50868,7 @@ QuestInfoList = {
 		Title = "고대 오딘 신전-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50858,7 +50885,7 @@ QuestInfoList = {
 		Title = "휘겔 어비스 호수 지하 동굴 4층-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -50875,7 +50902,7 @@ QuestInfoList = {
 		Title = "제 2 마력발전소-대기",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료 시 다시 받아 수행할 수 있습니다. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1

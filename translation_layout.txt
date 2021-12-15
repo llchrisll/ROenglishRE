@@ -81,7 +81,12 @@ Skill Description
 	- 4th Classes:
 	"Skill Form: ^339966Active(AP)^000000",
 	"Recover: ^0054FF AP^000000",
-	"Cost: ^FF0000150 AP^000000",
+	"Cost: ^FF0000 AP^000000",
+	
+	Spacing before Level Display: (still to decide)
+	"___________________________",
+	or
+	"^ffffff_^000000", == empty line
 
 Item Description
 
@@ -392,11 +397,20 @@ jRO Egg Description:
 			
 ItemReformSystem:
 	- InformationString:
-	"<B>조합 결과 정보 안내</B>", > "<B>Combination Result</B>"
-	"1) 제련도 : > "1) Refine Level:
-	"2) 랜덤 옵션 정보 : 유지됨", > "2) Granted Random Options: Transfered"
-	"3) 카드 및 인챈트 정보 : 유지됨", > "3) Cards and Enchants: Transfered"
-	"4) 등급 정보 : 유지됨" > "4) Grade Rating: Transfered"
+	"<B>조합 결과 정보 안내</B>"
+	"<B>Combination Result</B>"
+	
+	"1) 제련도 :
+	> "1) Refine Level:/
+	
+	"2) 랜덤 옵션 정보 : 유지됨"
+	"2) Granted Random Options: Transfered"
+	
+	"3) 카드 및 인챈트 정보 : 유지됨"
+	"3) Cards and Enchants: Transfered"
+	
+	"4) 등급 정보 : 유지됨"
+	"4) Grade Rating: Transfered"
 	
 EnchantList:
 	- SetCaution:
