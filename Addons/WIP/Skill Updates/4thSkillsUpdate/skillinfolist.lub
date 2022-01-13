@@ -1,0 +1,162 @@
+	[SKID.DK_STORMSLASH] = {
+		"DK_STORMSLASH",
+		SkillName = "Storm Slash",
+		MaxLv = 5,
+		SpAmount = { 40, 45, 50, 55, 60 },
+		bSeperateLv = true,
+		AttackRange  = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.DK_TWOHANDDEF, 10 },
+			{ SKID.DK_HACKANDSLASHER, 5 }
+		}
+	},
+	[SKID.IG_OVERSLASH] = {
+		"IG_OVERSLASH",
+		SkillName = "Overslash",
+		MaxLv = 10,
+		SpAmount = { 41, 44, 47, 50, 53, 56, 59, 62, 65, 68 },
+		bSeperateLv = true,
+		AttackRange  = { 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.IG_ATTACK_STANCE, 3 }
+		}
+	},
+	[SKID.LG_RAYOFGENESIS] = {
+		"LG_RAYOFGENESIS",
+		SkillName = "Genesis Ray",
+		MaxLv = 10,
+		SpAmount = { 45, 50, 55, 60, 65, 70, 75, 80, 85, 90 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.CR_GRANDCROSS, 5 }
+		}
+	},
+	[SKID.LG_BANISHINGPOINT] = {
+		"LG_BANISHINGPOINT",
+		SkillName = "Banishing Point",
+		MaxLv = 10,
+		SpAmount = { 20, 22, 24, 26, 28, 30, 32, 34, 36, 38 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.KN_SPEARMASTERY, 1 }
+		}
+	},
+	[SKID.BO_HELLTREE] = {
+		"BO_HELLTREE",
+		SkillName = "Helltree",
+		MaxLv = 5,
+		SpAmount = { 100, 100, 100, 100, 100 },
+		ApAmount = { 100, 90, 80, 70, 60 },
+		bSeperateLv = true,
+		AttackRange  = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.BO_WOODENWARRIOR, 3 },
+			{ SKID.BO_WOODEN_FAIRY, 3 }
+		}
+	},
+	[SKID.SC_FATALMENACE] = {
+		"SC_FATALMENACE",
+		SkillName = "Fatal Menace",
+		MaxLv = 10,
+		SpAmount = { 10, 14, 18, 22, 26, 30, 34, 38, 42, 46 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.RG_INTIMIDATE, 5 }
+		}
+	},
+	[SKID.ABC_FRENZY_SHOT] = {
+		"ABC_FRENZY_SHOT",
+		SkillName = "Frenzy Shot",
+		MaxLv = 10,
+		SpAmount = { 35, 45, 55, 65, 75, 85, 95, 105, 115, 125 },
+		bSeperateLv = true,
+		AttackRange  = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.ABC_CHAIN_REACTION_SHOT, 3 },
+			{ SKID.ABC_DAGGER_AND_BOW_M, 5 }
+		}
+	},
+	[SKID.AG_CLIMAX] = {
+		"AG_CLIMAX",
+		SkillName = "Climax",
+		MaxLv = 5,
+		SpAmount = { 60, 60, 60, 60, 60 },
+		ApAmount = { 150, 150, 150, 150, 150 },
+		bSeperateLv = true,
+		AttackRange  = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.WL_TETRAVORTEX, 5 },
+			{ SKID.AG_TWOHANDSTAFF, 3 }
+		}
+	},
+	[SKID.IQ_JUDGE] = {
+		"IQ_JUDGE",
+		SkillName = "Judge",
+		MaxLv = 5,
+		SpAmount = { 60, 60, 60, 60, 60 },
+		ApAmount = { 50, 50, 50, 50, 50 },
+		bSeperateLv = true,
+		AttackRange  = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.IQ_FIRST_FAITH_POWER, 1 }
+		}
+	},
+	[SKID.IQ_THIRD_EXOR_FLAME] = {
+		"IQ_THIRD_EXOR_FLAME",
+		SkillName = "Third Exorcism Flame",
+		MaxLv = 5,
+		SpAmount = { 60, 60, 60, 60, 60 },
+		ApAmount = { 100, 100, 100, 100, 100 },
+		bSeperateLv = true,
+		AttackRange  = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.IQ_JUDGE, 1 }
+		}
+	},
+	[SKID.WH_HAWKBOOMERANG] = {
+		"WH_HAWKBOOMERANG",
+		SkillName = "Hawk Boomerang",
+		MaxLv = 5,
+		SpAmount = { 120, 120, 120, 120, 120 },
+		ApAmount = { 15, 15, 15, 15, 15 },
+		bSeperateLv = true,
+		AttackRange  = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.WH_HAWKRUSH, 5 }
+		}
+	},
+	[SKID.TR_RHYTHMSHOOTING] = {
+		"TR_RHYTHMSHOOTING",
+		SkillName = "Rhythm Shooting",
+		MaxLv = 5,
+		SpAmount = { 66, 72, 78, 84, 90 },
+		bSeperateLv = true,
+		AttackRange  = { 9, 9, 9, 9, 9 }
+	},
+	[SKID.TR_ROSEBLOSSOM] = {
+		"TR_ROSEBLOSSOM",
+		SkillName = "Rose Blossom",
+		MaxLv = 5,
+		SpAmount = { 105, 110, 115, 120, 125 },
+		bSeperateLv = true,
+		AttackRange  = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.TR_RHYTHMSHOOTING, 3 }
+		}
+	},
+	[SKID.TR_MYSTIC_SYMPHONY] = {
+		"TR_MYSTIC_SYMPHONY",
+		SkillName = "Mystic Symphony",
+		MaxLv = 1,
+		SpAmount = { 250 },
+		ApAmount = { 125 },
+		bSeperateLv = true,
+		AttackRange  = { 1 },
+		_NeedSkillList = {
+			{ SKID.TR_METALIC_FURY, 1 },
+			{ SKID.TR_ROSEBLOSSOM, 5 }
+		}
+	},
