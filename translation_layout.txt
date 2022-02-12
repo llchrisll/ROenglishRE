@@ -9,6 +9,12 @@ Lua Translation
 	^777777 = Ghost, Undead, Holy, Shadow and Neutral = iteminfo
 	^009999 = Ghost, Undead, Holy, Shadow and Neutral = skillinfo
   
+	Google Translation of Elements:
+	fury = Fire
+	cancer = Shadow
+	castle = Holy
+	immortality = Undead
+	
 	Misc
 	^CC6600 = Status (STR,AGI,...)/Base Level
 	^0000FF = Numbers
@@ -122,6 +128,21 @@ Item Description
 	"Increases SP Recovery Rate by %.",
 	"Attack Range: x cells",
 	
+	> 4th Classes:
+	"POW +",
+	"STA +",
+	"WIS +",
+	"SPL +",
+	"CON +",
+	"CRT +",
+	"P.ATK +",
+	"S.MATK +",
+	"H.PLUS +",
+	"C.RATE +",
+	"RES +",
+	"MRES +",
+	
+	- Damage Descriptions:
 	"Inflict % more damage on ^0033CC<Monster>^000000.",
 	
 	"Increases Magical Damage with ^<Element>^000000 element by %.",
@@ -154,20 +175,6 @@ Item Description
 	^0033CC = Specific Recovery Item
 	^990099Recovery Items^000000
 	"^0000CCEffect:^000000", > Used at buff/heal items
-	
-	> 4th Classes:
-	"POW +",
-	"STA +",
-	"WIS +",
-	"SPL +",
-	"CON +",
-	"CRT +",
-	"P.ATK +",
-	"S.MATK +",
-	"H.PLUS +",
-	"C.RATE +",
-	"RES +",
-	"MRES +",
 	
 	"<STAT> +1 multiplied with total skill level of ^0033CC<Class>^000000's exclusive/related skills:",
 	"^009900<Skill List> and <Last Skill>^000000",
@@ -207,7 +214,7 @@ Item Description
 	
 	"Physical attacks have a certain chance to auto cast Level X ^009900<Skill>^000000. (If you learned a higher Level, it will auto cast that Level instead.)",
 
-	- Basic Equipment Codings:
+	- Equipment Combination:
 	"When equipped with ^990099<Equipment>^000000:",
 	"When equipped with 2 types of ^990099<Class> Shadow^000000, ^990099<Class> Shadow^000000 or ^990099<Class> Shadow^000000 Equipment:",
 	"When equipped by ^0033CC<Base Class>^000000 classes:",
@@ -217,13 +224,11 @@ Item Description
 	
 	"^663399Indestructible in battle^000000",
 	
-	- Basic Card Compounding:
+	- Compounding/Enchantment:
 	"When compounded on ^990099<Equipment>^000000:",
-	
-	- Basic Enchantment
 	"When enchanted with ^990099<Equipment>^000000:",
 	
-	- Refine Codings:
+	- Refine:
 	"^000088Cannot be refined normally.^000000",
 	
 	"^0000FFFor each Refine Level^000000:",
@@ -238,7 +243,7 @@ Item Description
 	"^0000FFRefine Level^000000 of equipped ^990099<Equipment Type>^000000 is ^0000FF+7 or higher^000000:",
 	"^0000FFRefine Level^000000 of ^990099<Equipment>^000000 is ^0000FF+7 or higher^000000:",
 	
-	- Refine Codings in combination
+	> Refine Combinations:
 	"^0000FFTotal Refine Level^000000 of ^990099<Equipment>^000000, ^990099<Equipment>^000000 and ^990099<Equipment>^000000 is ^0000FF+27 or higher^000000:",
 	"^0000FFTotal Refine Level of entire set^000000 is at least ^0000FF+14^000000:",
 	"^0000FFFor each Refine Level^000000 of ^0000FFentire set^000000:",
@@ -263,7 +268,7 @@ Item Description
 	"^ff0000This item can only be sold to NPCs.",
 	"^ff0000This item will not be used in future events.^000000",
 	
-Equipment Info:
+Equipment Info Layout:
 			"_______________________",
 			"^0000CCType:^000000 ",
 			"^0000CCAttack:^000000 ",
@@ -285,24 +290,11 @@ Shadow Thump Box:
 	"<List>",
 	"_______________________",
 	"^ff0000The Refine Level of the materials does not affect the result.^000000",
-	
+
 Boxes:
 	"[Obtainable Items]",
 	"[Target Items]",
 	
-Unidentified Item Display Names when certain Resource Name is given:
-	리본 = Ribbon
-	머리띠 = Hairband
-	캡 / 햇 = Hat
-	글래스 = Glasses
-	마스크 = Mask
-	헬름 = Helmet
-	가드 = Shield
-	슈즈 = Shoes
-	후드 = Garment
-	클립 = Accessory
-	바스타드소드 = Sword
-	코튼셔츠 = Clothing
 	
 WoE/PvP:
 	"*Effects in WoE TE area",
@@ -344,12 +336,37 @@ Exchange NPC Locations:
 	"^32CD32This item can't receive additional enchantment from Piercing Brosnan.^000000",
 	
 Shadow Equipment:
-	Armor: "A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
-	Weapon: "A pair of gloves that can draw the wearer's potential ability.",
-	Pendant: "A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
-	Earring: "A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
-	Shield: "A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
-	Shoes: "A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
+	> Armor: 
+	"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
+	
+	> Weapon: 
+	"A pair of gloves that can draw the wearer's potential ability.",
+	
+	> Pendant: 
+	"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+	
+	> Earring: 
+	"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+	
+	> Shield: 
+	"A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
+	
+	> Shoes: 
+	"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
+
+Unidentified Item Display Names when certain Resource Name is given:
+	리본 = Ribbon
+	머리띠 = Hairband
+	캡 / 햇 = Hat
+	글래스 = Glasses
+	마스크 = Mask
+	헬름 = Helmet
+	가드 = Shield
+	슈즈 = Shoes
+	후드 = Garment
+	클립 = Accessory
+	바스타드소드 = Sword
+	코튼셔츠 = Clothing
 
 Enchant Stones:
 	Item Display Names:
