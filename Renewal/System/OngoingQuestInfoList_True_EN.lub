@@ -43,14 +43,14 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[106] = {
-		Title = "Find The Heaviest Things in Midgard",
+		Title = "Find The Heaviest Things in Midgarts",
 		Description = {
-			"Look for the book in the Criatura Academy that describes the heaviest things in Rune Midgard"
+			"Look for the book in the Criatura Academy that describes the heaviest things in Rune-Midgarts"
 		},
 		Summary = ""
 	},
 	[107] = {
-		Title = "The Heaviest Things in Midgard",
+		Title = "The Heaviest Things in Midgarts",
 		Description = {
 			"You almost got smashed by the book but you survived. Bring it back to the Professor."
 		},
@@ -276,79 +276,89 @@ QuestInfoList = {
 		Summary = "Hunt 20 Chung e"
 	},
 	[1109] = {
-		Title = "Lope and Euridi - Survivors of the forest fog",
+		Title = "Lope and Euridi - Survivors of the Fog Forest",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Find the Mora Village Inn and ask about the whereabouts of Lope."
+			"Meet <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI>, a traveler at the Mora Village Inn, and ask about Lope's whereabouts."
 		},
-		Summary = ""
+		Summary = "Talk to Pitt and ask where Lope is."
 	},
 	[1110] = {
 		Title = "Lope and Euridi - Victims of the fog",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You found someone named Pitt who says that Lope should be alive somewhere but not sure where. Go back to Euridi and tell her what you've discovered."
+			"You found someone named Pitt who says that Lope should be alive somewhere but not sure where. Go back to <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> and tell her what you've discovered."
 		},
 		Summary = "Go back to Euridi"
 	},
 	[1111] = {
-		Title = "Lope and Euridi - The forest fog",
+		Title = "Lope and Euridi - The Fog Forest",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Look for ^0000FFLope's Clues^000000 in the forest and bring them to Pitt. If you gather 30 it should be enough."
+			"Look for ^0000FFLope's Clues^000000 in the <NAVI>[Hazy Forest]<INFO>bif_fild01,158,340,0,101,0</INFO></NAVI> and bring them to <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI>. If you gather 30 it should be enough."
 		},
-		Summary = "Gather 30 Lope's Clue"
+		Summary = "Enter the Hazy Forest and gather 30 Lope's Clue"
 	},
 	[1112] = {
 		Title = "Lope and Euridi - Labyrinth",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Pitt isn't helping much. You should bring Lope's Clues over to Euridi and see if she can do something with them."
+			"Pitt isn't helping much. You should bring Lope's Clues over to <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> and see if she can do something with them."
 		},
 		Summary = "Bring Lope's Clue to Euridi"
 	},
 	[1113] = {
-		Title = "Lope and Euridi - Promise torn",
+		Title = "Lope and Euridi - A broken Promise",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"After piecing the clues together, Pitt had to have something to do with what happened to Lope..."
+			"After piecing the clues together, <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI> had to have something to do with what happened to Lope."
 		},
-		Summary = ""
+		Summary = "Go to Pitt and interrogate him"
 	},
 	[1114] = {
-		Title = "Lope and Euridi - The cost of sacrificing",
+		Title = "Lope and Euridi - The Price of Sacrifice",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Pitt has given you Lope's Ring and confessed to what he did. You should tell Euridi what happened."
+			"Pitt has given you Lope's Ring and confessed to what he did. You should tell <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> what happened."
 		},
 		Summary = "Go back to Euridi"
 	},
 	[1115] = {
 		Title = "Lope and Euridi - Song of the Abyss",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"As Euridi sings a song for Lope, Euridi's friend said that she heard of a suspicious man near the entrance to the forest."
+			"As Euridi sings a song for Lope, Euridi's friend said that she heard of a <NAVI>[Suspicious Man]<INFO>bif_fild01,132,338,0,101,0</INFO></NAVI> near the entrance to the Hazy Forest."
 		},
-		Summary = ""
+		Summary = "Find the Suspicious Man"
 	},
 	[1116] = {
 		Title = "Lope and Euridi - Song of the Dead",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You have found Lope but he tells you to tell Euridi that he has turned to dust. He can no longer be with her in the way that they hoped."
+			"You have found Lope but he tells you to tell <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> that he has turned to dust. He can no longer be with her in the way that they hoped."
 		},
-		Summary = ""
+		Summary = "Deliver Lope's last words to Euridi"
 	},
 	[1117] = {
-		Title = "Lope and Euridi - Promise of eternity",
+		Title = "Lope and Euridi - Promise of Eternity",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Euridi naturally took the news about Lope pretty hard as you give her Lope's Ring..."
+			"I hope this isn't the end... Let's go to <NAVI>[Euridi's Friend]<INFO>mora,115,68,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Talk with Euridi's Friend"
 	},
 	[1118] = {
 		Title = "Knights of the Neighborhood",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Collect 30 Lope's Clue and return to the Order of the Knights Head."
+			"Collect 30 ^0000FFLope's Clues^000000 in the <NAVI>[Hazy Forest]<INFO>bif_fild01,158,340,0,101,0</INFO></NAVI> and return to the <NAVI>[Knights of the Neighborhood Head]<INFO>mora,114,163,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[1119] = {
 		Title = "Knights of the Neighborhood (Standby)",
 		Description = {
-			"You have finished a job for the Knights of the Neighborhood Boss. Wait for the timer to expire before trying to help him again."
+			"You have finished a job for the Knights of the Neighborhood Head. Wait for the timer to expire before trying to help him again."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -1060,109 +1070,124 @@ QuestInfoList = {
 		Summary = "Talk with \"Quercus\", Raccoon Hurray Team Member in Prontera square"
 	},
 	[1214] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Find Professor Worm's portrait by investigating the bookshelves on the 4th floor of Bifrost Tower."
+			"Find Professor Worm's portrait by investigating the bookshelves on the 4th floor of Bifrost Tower. The bookshelves seem to be on both <NAVI>[this side]<INFO>ecl_tdun04,21,41,0,101,0</INFO></NAVI> and <NAVI>[that side]<INFO>ecl_tdun04,37,21,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Investigate the bookshelves on the 4th floor of Bifrost Tower"
 	},
 	[1215] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Professor Worm's portrait was found. Take it to Professor Worm."
+			"Professor Worm's portrait was found. Take it to <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Professor Worm on the 4th floor of Bifrost Tower"
+		Summary = "Talk with <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI> on the 4th floor of Bifrost Tower"
 	},
 	[1216] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Obtain Petal from the land of blooming flowers, collect 20 Star Shape Mushroom, and talk with Professor Worm."
+			"You need to hunt the petals from the flowered land, collect 20 <ITEM>[Star Shape Mushroom]<INFO>6542</INFO></ITEM>, and talk with <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Talk with Professor Worm on the 4th floor of Bifrost Tower"
 	},
 	[1217] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Investigate Professor Worm's records on walls of Bifrost Tower."
+			"Talk with <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI> on the 4th floor of Bifrost Tower after investigating records on 5 walls. You have to look closely at the map."
 		},
-		Summary = "Talk with Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls"
+		Summary = "Investigate Professor Worm's records on walls of Bifrost Tower."
 	},
 	[1218] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Talk with Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
 		},
 		Summary = "Read the first record"
 	},
 	[1219] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Talk with Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
 		},
 		Summary = "Read the second record"
 	},
 	[1220] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Talk with Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
 		},
 		Summary = "Read the third record"
 	},
 	[1221] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Talk with Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
 		},
 		Summary = "Read the fourth record"
 	},
 	[1222] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Talk with Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
 		},
 		Summary = "Read the fifth record"
 	},
 	[1223] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Find Diary Frog No. 3 on the 3rd floor of Bifrost Tower."
+			"Find <NAVI>[Diary Frog No. 3]<INFO>ecl_tdun03,21,69,0,101,0</INFO></NAVI> on the 3rd floor of Bifrost Tower."
 		},
-		Summary = "Talk with Diary Frog No. 3 on the 3rd floor of Bifrost Tower"
+		Summary = "Talk with Diary Frog No. 3"
 	},
 	[1224] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Find Diary Frog No. 6 on the 1st floor of Bifrost Tower."
+			"Find <NAVI>[Diary Frog No. 6]<INFO>ecl_tdun01,23,79,0,101,0</INFO></NAVI> on the 1st floor of Bifrost Tower."
 		},
-		Summary = "Talk with Diary Frog No. 6 on the 1st floor of Bifrost Tower"
+		Summary = "Talk with Diary Frog No. 6"
 	},
 	[1225] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Defeat 15 Lichterns(blue) on the 1st floor of Bifrost Tower."
+			"Defeat 15 Lichterns (Blue) on the 1st floor of Bifrost Tower and report to <NAVI>[Diary Frog No. 6]<INFO>ecl_tdun01,23,79,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Diary Frog No. 6 on the 1st floor of Bifrost Tower"
+		Summary = "Talk with Diary Frog No. 6 after subjugation"
 	},
 	[1226] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Find Diary Frog No. 30 near Bifrost Tower."
+			"Find <NAVI>[Diary Frog No. 30]<INFO>ecl_fild01,173,95,0,101,0</INFO></NAVI> outside of Bifrost Tower."
 		},
-		Summary = "Talk with Diary Frog No. 30 near Biforst Tower"
+		Summary = "Talk with Diary Frog No. 30"
 	},
 	[1227] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Obtain Petal from the land of blooming flowers, collect 10 Star Shape Mushroom."
+			"You need to hunt the Petals from the flowered land, collect 10 <ITEM>[Star Shape Mushroom]<INFO>6542</INFO></ITEM> and bring them to <NAVI>[Diary Frog No. 30]<INFO>ecl_fild01,173,95,0,101,0</INFO></NAVI>."
 		},
-		Summary = "talk with Diary Frog No. 3 near Bifrost Tower"
+		Summary = "Talk with Diary Frog No. 30"
 	},
 	[1228] = {
-		Title = "Getting back Professor Worm's memory",
+		Title = "Finding Professor Worm's Memory",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Final report to Professor Worm."
+			"You must return to <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI> in the Bifrost Tower."
 		},
-		Summary = "Talk with Professor Worm on the 4th floor of Bifrost Tower"
+		Summary = "Talk with Professor Worm"
 	},
 	[1229] = {
 		Title = "Swordsman training",
@@ -1442,87 +1467,99 @@ QuestInfoList = {
 	},
 	[1264] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Collect 15 Burning Feathers from Fire Condors."
+			"Collect 15 Burning Feathers from Fire Condors and bring them to <NAVI>[Base Investigator]<INFO>moro_vol,131,103,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Base Investigator"
+		Summary = "Collect 15 Burning Feathers"
 	},
 	[1265] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Find a scout somewhere in the Flame Basin."
+			"Find a <NAVI>[Scout]<INFO>moro_vol,234,301,0,101,0</INFO></NAVI> somewhere in the Flame Basin."
 		},
-		Summary = "Talk with the scout"
+		Summary = "Talk with the Scout"
 	},
 	[1266] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Collect 20 Patrol Journal from Fire Sandman."
+			"Retrieve 20 Patrol Journal from Fire Sandman and bring them to <NAVI>[Scout]<INFO>moro_vol,234,301,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with the scout"
+		Summary = "Retrieve 20 Patrol Journal"
 	},
 	[1267] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Report to Base Investigator with news about the scout."
+			"Report to <NAVI>[Base Investigator]<INFO>moro_vol,131,103,0,101,0</INFO></NAVI> with news about the Scout."
 		},
 		Summary = "Talk with Base Investigator"
 	},
 	[1268] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Hunt 20 Fire Sandman."
+			"Let's stop monster breeding. Hunt 20 Fire Sandman and report back to <NAVI>[Base Investigator]<INFO>moro_vol,131,103,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Base Investigator"
+		Summary = "Hunt 20 Fire Sandman"
 	},
 	[1269] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Hunt 20 Fire Frilldoras."
+			"Let's stop monster breeding. Hunt 20 Fire Frilldoras and report back to <NAVI>[Base Investigator]<INFO>moro_vol,131,103,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Base Investigator"
+		Summary = "Hunt 20 Fire Frilldoras"
 	},
 	[1270] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"See if the Doom Prayers are really blessed. Collect 40 Blessed Stones from Fire Golems."
+			"See if the Doom Prayers are really blessed. Collect 40 Blessed Stones from Fire Golems and bring them to <NAVI>[Doom Prayers Leader]<INFO>moro_vol,91,197,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Doom Prayers Leader"
+		Summary = "Collect 40 Blessed Stones"
 	},
 	[1271] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"No miracle happened."
+			"In the end, nothing happened."
 		},
-		Summary = "Talk with Doom Prayers Leader"
+		Summary = ""
 	},
 	[1272] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"See if the Doom Prayers are really blessed. Collect 30 Monster Blood from Fire Sandman and Fire Frilldora."
+			"See if the Doom Prayers are really blessed. Collect 30 Monster Blood from Fire Sandman and Fire Frilldora and bring them to <NAVI>[Doom Prayers Leader]<INFO>moro_vol,91,197,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Doom Prayers Leader"
+		Summary = "Collect 30 Monster Blood"
 	},
 	[1273] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"The leader had diarrhea and couldn't levitate himself. Talk with Doom Prayers Second-in-command."
+			"The leader had diarrhea and couldn't levitate himself. Talk with <NAVI>[Doom Prayers Second-in-command]<INFO>moro_vol,95,195,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Talk with Doom Prayers Second-in-command"
 	},
 	[1274] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Collect 30 Fire Golem Teeth and 30 Fire Frilldora Frills for the Doom Prayers."
+			"Collect 30 Fire Golem Teeth and 30 Fire Frilldora Frills for the Doom Prayers and return to <NAVI>[Doom Prayers Second-in-command]<INFO>moro_vol,95,195,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Doom Prayers Second-in-command"
+		Summary = "Collect 30 Fire Golem Teeth and Fire Frilldora Frills"
 	},
 	[1275] = {
 		Title = "Flame Basin and Doom Prayers",
+		IconName = "ico_ep.bmp",
 		Description = {
 			"Something special did happen, though it scared everyone who witnessed it."
 		},
-		Summary = "Talk with Doom Prayers Leader"
+		Summary = ""
 	},
 	[1276] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
@@ -1564,105 +1601,105 @@ QuestInfoList = {
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.2. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1282] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.5. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1283] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.12. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1284] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.20. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1285] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.25. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1286] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.1. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1287] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.15. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1288] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.7. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1289] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.17. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1290] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.24. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1291] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.3. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1292] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.10. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1293] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.11. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1294] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.19. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1295] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
 		Description = {
 			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.23. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
 		},
-		Summary = "find Raccoon Hooray family"
+		Summary = "Find Raccoon Hooray family"
 	},
 	[1296] = {
 		Title = "Merry Christmas, Raccoon Hooray Team!",
@@ -1674,7 +1711,7 @@ QuestInfoList = {
 	[1297] = {
 		Title = "Flame Basin and Doom Prayers",
 		Description = {
-			"Meet Doom Prayers Leader to the northwest of the Base."
+			"Meet <NAVI>[Doom Prayers Leader]<INFO>moro_vol,91,197,0,101,0</INFO></NAVI> to the northwest of the Base."
 		},
 		Summary = "Talk with Doom Prayers Leader"
 	},
@@ -2744,21 +2781,21 @@ QuestInfoList = {
 		Summary = "Talk to the Mets"
 	},
 	[1450] = {
-		Title = "For Midgard",
+		Title = "For Midgarts",
 		Description = {
 			"I decided to stop Serine. Let's talk to Serine again after the preparations are in full bloom."
 		},
 		Summary = "Talk to Serine"
 	},
 	[1451] = {
-		Title = "For Midgard",
+		Title = "For Midgarts",
 		Description = {
 			"Let's take Serine who drinks the witch's potion and return to Niflheim to report to the witch."
 		},
 		Summary = "Support Serine"
 	},
 	[1452] = {
-		Title = "For Midgard",
+		Title = "For Midgarts",
 		Description = {
 			"Let's look at Serine's condition before leaving Niflheim."
 		},
@@ -2800,14 +2837,14 @@ QuestInfoList = {
 		Summary = "Talk to the Witch"
 	},
 	[1458] = {
-		Title = "For Midgard",
+		Title = "For Midgarts",
 		Description = {
 			"Let's take down the Dark Road that Serine summoned."
 		},
 		Summary = "Dark Road Kiell"
 	},
 	[1459] = {
-		Title = "For Midgard",
+		Title = "For Midgarts",
 		Description = {
 			"Let's take Serine back to Niflheim."
 		},
@@ -3143,14 +3180,14 @@ QuestInfoList = {
 		Summary = "Talk to Serine"
 	},
 	[1507] = {
-		Title = "For Midgard",
+		Title = "For Midgarts",
 		Description = {
 			"Serine summoned the Gearko Dark Road. Let's defeat the summoned monsters."
 		},
 		Summary = "Kiell summoned monsters"
 	},
 	[1508] = {
-		Title = "For Midgard",
+		Title = "For Midgarts",
 		Description = {
 			"All the monsters Serine summoned down. Let's talk to Serine."
 		},
@@ -3601,46 +3638,52 @@ QuestInfoList = {
 		Summary = "Bring 1 Holy Water to Professor Aebecee"
 	},
 	[2063] = {
-		Title = "The Crow of the Fate - 1",
+		Title = "The Crow of the Fate",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"I accept Benjamin's request to bring the book \"The Crow of the Fate\" from the Prontera Library."
+			"I accept Benjamin's request to bring the book \"The Crow of the Fate\" from the <NAVI>[Prontera Library]<INFO>prt_in,179,92,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Library Curator Guys"
+		Summary = "Visit the Prontera Library"
 	},
 	[2064] = {
-		Title = "The Crow of the Fate - 2",
+		Title = "The Crow of the Fate",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You can't find the book in Prontera Library. Head to the Juno Library and see if you can find it there."
+			"You can't find the book in Prontera Library. Head to the <NAVI>[Juno Library]<INFO>yuno,333,210,0,101,0</INFO></NAVI> and see if you can find it there."
 		},
-		Summary = "Juno Library"
+		Summary = "Head to the Yuno Library"
 	},
 	[2065] = {
-		Title = "The Crow of the Fate - 3",
+		Title = "The Crow of the Fate",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"The book was telling the exact scene that I saw in my dream. I want to read news articles about fires."
+			"The book was telling the exact scene that I saw in my dream. I decided to look for <NAVI>[news articles about fires]<INFO>yuno_in04,117,102,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Find a news article about fires"
 	},
 	[2066] = {
-		Title = "The Crow of the Fate - 4",
+		Title = "The Crow of the Fate",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"I discovered the fire on the laboratory actually happened. I have to find the Cave village."
+			"I discovered the fire on the laboratory actually happened. I have to find the <NAVI>[Cave]<INFO>cave,82,97,0,101,0</INFO></NAVI> where they had escaped."
 		},
-		Summary = "Cave village in Schwaltzvalt field"
+		Summary = "Find a Cave near Yuno"
 	},
 	[2067] = {
-		Title = "The Crow of the Fate - 5",
+		Title = "The Crow of the Fate",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Zid told me I'd better wake up from the dream and move on with my real life. Frustrated by the conversation with Zid, I have decided to go back to Morocc and forget everything."
+			"Zid told me I'd better wake up from the dream and move on with my real life. Frustrated by the conversation with Zid, I have decided to go back to <NAVI>[Morroc]<INFO>moc_ruins,137,70,0,101,0</INFO></NAVI> and forget everything."
 		},
-		Summary = "Benjamin in Morocc"
+		Summary = "Talk to Benjamin"
 	},
 	[2068] = {
-		Title = "The Crow of the Fate - 6",
+		Title = "The Crow of the Fate",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"I decided to read <The Trace of the Fate> as Benjamin suggested."
+			"Following Benjamin's advice, I decided to return to the <NAVI>[Yuno Library]<INFO>yuno_in04,111,57,0,101,0</INFO></NAVI> and read <The Trace of the Fate>."
 		},
-		Summary = "Juno Library"
+		Summary = "Go to Yuno Library"
 	},
 	[2069] = {
 		Title = "Tierra Gorge Battle",
@@ -3657,109 +3700,109 @@ QuestInfoList = {
 		Summary = "Standby for Flavius Battle until the time limit passes"
 	},
 	[2071] = {
-		Title = "Cursed Property",
+		Title = "Cursed Legacy",
 		Description = {
-			"Buender Hikeman misunderstands as he pleases and begins to cry for his past."
+			"Einbech's old man, <NAVI>[Buender Hikeman]<INFO>einbech,165,105,0,101,0</INFO></NAVI> misunderstands as he pleases and begins to cry about his past."
 		},
-		Summary = "Continue to listen to Buender Hikeman's story"
+		Summary = "Talk to Buender Hikeman"
 	},
 	[2072] = {
-		Title = "Cursed Property",
+		Title = "Cursed Legacy",
 		Description = {
-			"You run away from him while Buender Hikeman cries for a name, \"Shinokas\" and collapses."
+			"You run away from him while Buender Hikeman cries for a name, <NAVI>[Shinokas]<INFO>ein_in01,231,163,0,101,0</INFO></NAVI> and collapses."
 		},
-		Summary = "Find where Shinokas is"
+		Summary = "Find Shinokas"
 	},
 	[2073] = {
-		Title = "Cursed Property",
+		Title = "Cursed Legacy",
 		Description = {
-			"Shinokas tell you that he will confess the truth of the mine tunnel collapse."
+			"Einbroch's <NAVI>[Shinokas]<INFO>ein_in01,231,163,0,101,0</INFO></NAVI> saied he would confess the truth of the mine tunnel collapse."
 		},
-		Summary = "Continue to listen to Shinokas's story"
+		Summary = "Talk to Shinokas"
 	},
 	[2074] = {
-		Title = "Cursed Property",
+		Title = "Cursed Legacy",
 		Description = {
-			"Shinokas asks you to go to the house of Kapellthaines, one of the richest man in town, and search for a unique ore."
+			"Shinokas asks you to go to the <NAVI>[House of Kapellthaines]<INFO>ein_in01,32,133,0,101,0</INFO></NAVI>, one of the richest man in town, to investigate whether there were any unusual minerals, and then return to <NAVI>[him]<INFO>ein_in01,231,163,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Infiltrate the house of Kapellthaines"
 	},
 	[2075] = {
-		Title = "Cursed Property",
+		Title = "Cursed Legacy",
 		Description = {
-			"Shinokas asks you to search a factory, which seems suspicious, for the ore."
+			"Shinokas said that the Einbroch Factory was suspicious, and this time he went to the <NAVI>[Factory]<INFO>ein_in01,49,216,0,101,0</INFO></NAVI> and asked to help him and investigate the minerals."
 		},
-		Summary = "Search a factory for the ore"
+		Summary = "Visit the factory"
 	},
 	[2076] = {
-		Title = "Cursed Property",
+		Title = "Cursed Legacy",
 		Description = {
-			"Shinokas asks you to search the Einbroch Labatory for the ore."
+			"Shinokas told us to infiltrate <NAVI>[Einbroch Labratory]<INFO>ein_in01,254,35,0,101,0</INFO></NAVI> and investigate whether there are minerals."
 		},
-		Summary = "Infiltrate the Einbroch Labatory"
+		Summary = "Infiltrate the Einbroch Labratory"
 	},
 	[2077] = {
-		Title = "Cursed Property",
+		Title = "Cursed Legacy",
 		Description = {
-			"A druken man confesses that the ore found in Einbech is the piece of Ymir's heart."
+			"A druken man confesses that the mineral found in Einbech is the piece of Ymir's heart. Let <NAVI>[Shinokas]<INFO>ein_in01,231,163,0,101,0</INFO></NAVI> know what we found out."
 		},
 		Summary = "Return to Shinokas"
 	},
 	[2078] = {
-		Title = "Cursed Property",
+		Title = "Cursed Legacy",
 		Description = {
-			"The ore is identified but Shinokas was already assaulted by suspicious guys. He leaves a messages. \"They... wer....\" and dies."
+			"The ore is identified but Shinokas was already assaulted by suspicious guys. He leaves a messages. \"They... are in.... Li\" and dies. Let's go back to <NAVI>[Buender Hikeman]<INFO>einbech,165,105,0,101,0</INFO></NAVI>." 
 		},
 		Summary = "Return to Buender Hikeman"
 	},
 	[2079] = {
-		Title = "The past went wrong",
+		Title = "A misplaced past",
 		Description = {
-			"Kain Himere, the airship crew, asks you to deliver the lost thing to a customer who stays in Einbroch hotel."
+			"Kain Himere, the airship crew, asks you to deliver the lost thing to a customer who stays in <NAVI>[Einbroch Hotel]<INFO>ein_in01,227,279,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Deliver the lost thing to Einbroch hotel"
+		Summary = "Visit the Einbroch Hotel"
 	},
 	[2080] = {
-		Title = "The past went wrong",
+		Title = "A misplaced past",
 		Description = {
-			"Elle Cherno, who you meet in the hotel, tells you to go the her house behind the hotel and see her mother."
+			"Elle Cherno, who you meet in the hotel, tells you to go the her house behind the hotel and see <NAVI>[her mother]<INFO>ein_in01,125,99,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Meet Tarsha Cherno"
 	},
 	[2081] = {
-		Title = "The past went wrong",
+		Title = "A misplaced past",
 		Description = {
-			"Tarsha Cherno says that her missing father was a miner. You promise her that you will find her father and leave their home."
+			"Tarsha Cherno says that her missing father was a miner. You promise her that you will find her father at <NAVI>[the place you guessed at]<INFO>airplane,47,61,0,101,0</INFO></NAVI> and leave their home."
 		},
 		Summary = "Find a person who seems Tarsha Cherno's father"
 	},
 	[2082] = {
-		Title = "The past went wrong",
+		Title = "A misplaced past",
 		Description = {
-			"You need an evidence to prove that Tarsha and Kain are family. Kain Himere tells you that the diary of her wife will be helpful."
+			"You need an evidence to prove that Tarsha and Kain are family. Kain Himere tells you that the diary of her wife, which he had buried in Einbrech <NAVI>[under the tree]<INFO>einbech.gat,40,100,0,101,0</INFO></NAVI> will be helpful."
 		},
 		Summary = "Check the diary of Tarsha's mother"
 	},
 	[2083] = {
-		Title = "The past went wrong",
+		Title = "A misplaced past",
 		Description = {
-			"After checking her mother's diary, you take it to her."
+			"After checking her mother's diary, you took it and headed to <NAVI>[Tarsha's House]<INFO>ein_in01,125,99,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Talk with Tarsha Cherno"
 	},
 	[2084] = {
-		Title = "The past went wrong",
+		Title = "A misplaced past",
 		Description = {
-			"Tarsha Cherno thanks you and let you use the repair machine for free and asks you to see her daughter again."
+			"Tarsha Cherno thanks you and let you use the repair machine for free and asks you to see her daughter, <NAVI>[Elle]<INFO>ein_in01,261,241,0,101,0</INFO></NAVI>, again."
 		},
 		Summary = "Meet Elle Cherno"
 	},
 	[2085] = {
-		Title = "The past went wrong",
+		Title = "A misplaced past",
 		Description = {
-			"You get the picture mail which Elle Cherno prepared for her grandfather."
+			"You get the picture mail which Elle Cherno prepared for her <NAVI>[grandfather]<INFO>airplane,47,61,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Return to Kain Hemere"
+		Summary = "Return to Kain Himere"
 	},
 	[2086] = {
 		Title = "The Enterprise",
@@ -3967,7 +4010,7 @@ QuestInfoList = {
 	[2128] = {
 		Title = "Thor Volcano base camp",
 		Description = {
-			"You witnessed people carrying boxes with the stamp of the Schwaltzvalt Republic on them. These must be the military supplies for the camp. Return to Sahedi and inform him of the current volcano's status."
+			"You witnessed people carrying boxes with the stamp of the Schwarzwald Republic on them. These must be the military supplies for the camp. Return to Sahedi and inform him of the current volcano's status."
 		},
 		Summary = "Sahedi"
 	},
@@ -4085,150 +4128,175 @@ QuestInfoList = {
 	},
 	[2147] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Rumis Block, a zoologist, wants to give up the study since he is afraid of the monsters in the Ash Vacuum. Defeat 1 Nepethenes and bring him 1 Strong Vine to show him that they're not so intimidating."
+			"<NAVI>[Rumis Block]<INFO>mid_camp,188,254,0,101,0</INFO></NAVI>, a zoologist, wants to give up the study since he is afraid of the monsters in the Ash Vacuum.",
+			"Defeat 1 Nepethenes in Manuk Field through <NAVI>[Guard]<INFO>mid_camp,336,171,0,101,0</INFO></NAVI> and bring him 1 <ITEM>[Strong Vine]<INFO>6041</INFO></ITEM> to show him that they're not so intimidating."
 		},
-		Summary = "1 Strong Vine"
+		Summary = "Retrieve a Strong Vine from Manuk Field and deliver it to Rumis"
 	},
 	[2148] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Rumis needs you to help him make his specimen tools by bringing him 1 Empty Bottle, 5 Holy Water and 30 Sticky Mucus."
+			"<NAVI>[Rumis]<INFO>mid_camp,188,254,0,101,0</INFO></NAVI> needs you to help him make his specimen tools by bringing him 1 <ITEM>[Empty Bottle]<INFO>713</INFO></ITEM>, 5 <ITEM>[Holy Water]<INFO>523</INFO></ITEM> and 30 <ITEM>[Sticky Mucus]<INFO>938</INFO></ITEM>."
 		},
 		Summary = "Bring the required materials"
 	},
 	[2149] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Rumis asks you to take the Nepenthes Specimen to his brother, Terris, who is at the east end of the camp."
+			"Rumis asks you to take the Nepenthes Specimen to his brother, <NAVI>[Terris]<INFO>mid_camp,240,270,0,101,0</INFO></NAVI>, who is at the east end of the camp."
 		},
 		Summary = "Talk with Botanist Terris"
 	},
 	[2150] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Terris asks you to talk with girls across the bridge to the left."
+			"<NAVI>[Terris]<INFO>mid_camp,240,270,0,101,0</INFO></NAVI> asks you to talk with girls <NAVI>[across the bridge to the left]<INFO>spl_fild02,375,143,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Defeat 30 Pinguicula"
 	},
 	[2151] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Terris asks you to defeat the monsters that are destroying his special environmental meters."
+			"<NAVI>[Terris]<INFO>mid_camp,240,270,0,101,0</INFO></NAVI> asks you to defeat the monsters that are destroying his special environmental meters."
 		},
 		Summary = "Defeat 10 Cornus"
 	},
 	[2152] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Terris asks you to bring the rotting plant stem to the environmental purifier next to the western bridge. It is supposed to look like a mushroom shaped building."
+			"Terris asks you to bring the rotting plant stem to the <NAVI>[environmental purifier]<INFO>mid_camp,49,154,0,101,0</INFO></NAVI> next to the western bridge."
 		},
-		Summary = ""
+		Summary = "Speak with Terris at the Mushroom-shaped Environmental Purifier."
 	},
 	[2153] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Terris wants you to go to Rumis and tell him about his accomplishment."
+			"Terris wants you to go to <NAVI>[Rumis]<INFO>mid_camp,188,254,0,101,0</INFO></NAVI> and tell him about his accomplishment."
 		},
 		Summary = "Talk with Rumis"
 	},
 	[2154] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Rumis wants you to escort him while he investigates a new type of monster over the eastern bridge."
+			"Rumis wants you to escort him while he investigates a new type of monster in <NAVI>[Manuk Field]<INFO>man_fild01,92,230,101,0</INFO></NAVI> over the eastern bridge."
 		},
 		Summary = "Find Rumis over the bridge"
 	},
 	[2155] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Rumis asks you to gather 20 Horn of Hillslion while he is studying it."
+			"<NAVI>[Rumis]<INFO>man_fild01,92,230,101,0</INFO></NAVI> asks you to gather 5 <ITEM>[Horn of Hillslion]<INFO>6032</INFO></ITEM> while he is studying it."
 		},
 		Summary = "Bring the required materials"
 	},
 	[2156] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Lumis want to talk with you in the alliance camp."
+			"Lumis want to talk with you in the <NAVI>[Alliance Camp]<INFO>mid_camp,188,254,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk with Lumis"
+		Summary = "Talk to Lumis"
 	},
 	[2157] = {
 		Title = "Attitude to the New World",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Lumis wants you to check if a monster with tricorn haton its head is hotile or not."
+			"Lumis asked to gather information on whether the creature, the owner of the unusual hat, living in <NAVI>[the continent after the right bridge]<INFO>man_fild02,39,261,0,101,0</INFO></NAVI> is a militant opponent."
 		},
 		Summary = "Defeat 10 Tatacho"
 	},
 	[2158] = {
 		Title = "Finding a Fairy",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You found a small fairy. You should report to the alliance that you've found a new creature."
+			"You found a small fairy. You should report to the <NAVI>[alliance]<INFO>mid_camp,212,237,0,101,0</INFO></NAVI> that you've found a new creature."
 		},
-		Summary = "Talk with the guard captain of Midgard Alliance"
+		Summary = "Talk with the guard captain of Midgarts Alliance"
 	},
 	[2159] = {
 		Title = "Finding a Tree Giant",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You found a tree giant. You should report to the alliance that you've found a new creature."
+			"You found a tree giant. You should report to the <NAVI>[alliance]<INFO>mid_camp,212,237,0,101,0</INFO></NAVI> that you've found a new creature."
 		},
-		Summary = "Talk with the guard captain of Midgard Alliance"
+		Summary = "Talk with the guard captain of Midgarts Alliance"
 	},
 	[2179] = {
 		Title = "Dr. Lifeguard's request",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Dr. Lifeguard asked you to bring back 10 Rough Minerals from the Mt. Mjolnir area."
+			"<NAVI>[Dr. Lifeguard]<INFO>man_in01,372,221,0,101,0</INFO></NAVI> wants the ore of Midgarts, and he said that it can be found in <NAVI>[Mt. Mjolnir]<INFO>mjolnir_01,375,256,0,101,0</INFO></NAVI> of the Rune-Midgarts Kingdom through a searcher."
 		},
-		Summary = ""
+		Summary = "Bring 10 Rough Mineral"
 	},
 	[2180] = {
 		Title = "Dr. Lifeguard's request",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Dr. Lifeguard asked you to bring back 5 Rough Minerals from The Abyss Lake area."
+			"<NAVI>[Dr. Lifeguard]<INFO>man_in01,372,221,0,101,0</INFO></NAVI> wants the ore of Midgarts, and he said that it can be found in <NAVI>[The Abyss Lake]<INFO>hu_fild05,261,339,0,101,0</INFO></NAVI> in Schwarzwald through a searcher."
 		},
-		Summary = ""
+		Summary = "Bring 5 Rough Mineral"
 	},
 	[2181] = {
 		Title = "Dr. Lifeguard's request",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Dr. Lifeguard asked you to bring back 5 Rough Minerals from area outside Thor Volcano."
+			"<NAVI>[Dr. Lifeguard]<INFO>man_in01,372,221,0,101,0</INFO></NAVI> wants the ore of Midgarts, and he said that it can be found in <NAVI>[Thor Volcano]<INFO>ve_fild03,173,115,0,101,0</INFO></NAVI> in Arunafeltz through a searcher.."
 		},
-		Summary = ""
+		Summary = "Bring 5 Rough Mineral"
 	},
 	[2182] = {
-		Title = "Rough Minerals",
+		Title = "Dr. Lifeguard's request - Standby",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Dr. Lifeguard does not have anymore requests for Rough Mineral at this time. Return after the timer has expired to complete more requests."
+			"<NAVI>[Dr. Lifeguard]<INFO>man_in01,372,221,0,101,0</INFO></NAVI> does not have anymore requests for Rough Mineral at this time. Return after the timer has expired to complete more requests."
 		},
-		Summary = ""
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
 	},
 	[2183] = {
-		Title = "Flower of Alfheim",
+		Title = "Spirit of Alfheim",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Find a Flower of Alfheim blooming on a purifier and bring it back to Grenouille."
+			"<NAVI>[Grenouille]<INFO>spl_in01,30,324,0,101,0</INFO></NAVI>, a research scientist in Splendide, asked me to get a Flower of Alfheim from [Flower Lee] and make the flowers bloom through an environmental purifier.",
+			"Environmental purifiers seem to be everywhere in <NAVI>[Splendide]<INFO>splendide,160 264,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Deliver the flowers of Alfheim to Grenouille"
 	},
 	[2184] = {
-		Title = "Flower of Alfheim",
+		Title = "Spirit of Alfheim",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You have brought the Flower of Alfheim, continue your conversation with Grenouille and see if he is done extracting the liquid with the distiller."
+			"You have brought the Flower of Alfheim, continue your conversation with <NAVI>[Grenouille]<INFO>spl_in01,30,324,0,101,0</INFO></NAVI> and see if he is done extracting the liquid with the distiller."
 		},
-		Summary = ""
+		Summary = "Waiting for Grenouille to make Spirit of Alfheim"
 	},
 	[2185] = {
 		Title = "Spirit of Alfheim",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You received 5 Spirit of Alfheim. Bring them to the Exhausted Lapine soldiers and return to Grenouille."
+			"You received 5 Spirit of Alfheim. Bring them to the Exhausted Lapine soldiers all over <NAVI>[Splendie Village]<INFO>splendide,199,147,0,101,0</INFO></NAVI> and return to Grenouille."
 		},
-		Summary = ""
+		Summary = "Deliver Spirit of Alfheim to 5 Exhausted Lapine soldiers"
 	},
 	[2186] = {
-		Title = "Helping Grenouille",
+		Title = "Spirit of Alfheim - Standby",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You have completed helping Grenouille for today. Come back after the timer has expired to take on another quest."
+			"You have completed helping <NAVI>[Grenouille]<INFO>spl_in01,30,324,0,101,0</INFO></NAVI> for today. Come back after the timer has expired to take on another quest."
 		},
-		Summary = ""
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
 	},
 	[2187] = {
 		Title = "Job Change to Archbishop",
@@ -5639,7 +5707,7 @@ QuestInfoList = {
 	[3054] = {
 		Title = "Resurrection of Satan Morocc - 5",
 		Description = {
-			"Satan Morocc was finally driven out of Rune-Midgards and disappeared through the dimensional gap. You can see the fragments floating in the gap."
+			"Satan Morocc was finally driven out of Rune-Midgarts and disappeared through the dimensional gap. You can see the fragments floating in the gap."
 		},
 		Summary = ""
 	},
@@ -5826,72 +5894,107 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[3085] = {
-		Title = "Call from the commander",
+		Title = "Report to the Continent - Commander's Call",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Abidal, a staff officer, has someting to tell you. The commander of the expedition seems to have an important mission for me..."
+			"Abidal, a staff officer, has someting to tell you. The commander of the expedition seems to have an important mission for me...",
+			"  ",
+			"Let's go to <NAVI>[Staff Officer Abidal]<INFO>mid_campin,94,118,0,101,0</INFO></NAVI> and hear what's going on."
 		},
 		Summary = ""
 	},
 	[3086] = {
-		Title = "Commander's Duty",
+		Title = "Report to the Continent - Commander's Mission",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"He wants you to deliver the expedition report to the 3 countries of Rune Midgard. You need to confirm the mission from the commander."
+			"He wants you to deliver the expedition report to the 3 countries of Rune-Midgarts. You need to confirm the mission from the commander.",
+			"  ",
+			"Let's hear the details of the mission from Commander-in-Chief <NAVI>[Hibba Agip]<INFO>mid_campin,90,121,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[3087] = {
-		Title = "Report to Rune Midgard",
+		Title = "Report to the Continent - Commander's Mission",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You take the delivery mission. You need to talk with a messenger in the dimensional gap and prepare the delivery of the reports."
+			"I was tasked to deliver <ITEM>[Expedition Report]<INFO>11012</INFO></ITEM> to the heads of the three countries, Rune-Midgarts, Arunafeltz and Schwarzwald.",
+			"  ",
+			"Before departing, let the <NAVI>[ Expedition Messenger]<INFO>mid_camp,206,286,0,101,0</INFO></NAVI> in the Dimension Rift announce the departure."
 		},
 		Summary = ""
 	},
 	[3088] = {
-		Title = "Report to the continent - Accident!",
+		Title = "Report to the Continent - Accident!",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You are assaulted around the dimensional gap and lose the report. You'd better return to the commander and explain to him what happened."
+			"You were assaulted around the Dimensional Rift and lost the <ITEM>[Expedition Report]<INFO>11012</INFO></ITEM>.",
+			" ",
+			"You'd better return to Commander-in-Chief <NAVI>[Hibba Agip]<INFO>mid_campin,90,121,0,101,0</INFO></NAVI> and explain to him what happened."
 		},
 		Summary = ""
 	},
 	[3089] = {
-		Title = "Report to the continent - How to restore",
+		Title = "Report to the Continent - How to restore",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"The commander orders you to restore the report together with Abidal."
+			"The commander orders you to restore the report together with Abidal.",
+			" ",
+			"Let's listen to <NAVI>[Staff Officer Abidal]<INFO>mid_campin,94,118,0,101,0</INFO></NAVI> for more details."
 		},
 		Summary = ""
 	},
 	[3090] = {
-		Title = "Report to the continent - Location of reports",
+		Title = "Report to the Continent - Location of the reports",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Try to find the reports scattered around Ash Vacuum. It is possible that the monsters here have taken them. Get some information from the scouts around here."
+			"Try to find the reports scattered around Ash Vacuum. It is possible that the monsters here have taken them. Get some information from the scouts around here.",
+			"Manuk: <NAVI>[Expedition Scout]<INFO>man_fild01,315,95,0,101,0</INFO></NAVI>, <NAVI>[Expedition Scout]<INFO>man_fild03,202,251,0,101,0</INFO></NAVI>",
+			"Splendide: <NAVI>[Expedition Scout]<INFO>spl_fild02,295,368,0,101,0</INFO></NAVI>, <NAVI>[Expedition Scout]<INFO>spl_fild03,172,71,0,101,0</INFO></NAVI>",
+			" ",
+			"If you found 10 or more <ITEM>[Part of a Report]<INFO>6040</INFO></ITEM> during your search, take it to <NAVI>[Staff Officer Abidal]<INFO>mid_campin,94,118,0,101,0</INFO></NAVI> and try to restore it."
 		},
 		Summary = ""
 	},
 	[3091] = {
-		Title = "Report to the continent - Location of reports",
+		Title = "Report to the Continent - The Result of the search",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Try to find the reports scattered around Ash Vacuum. It is possible that the monsters here have taken them. Get some information from the scouts around here."
+			"I was informed of the results of this search by the expeditionary searchers.",
+			" ",
+			"Let's wait for a while until the next result arrives."
 		},
-		Summary = ""
+		Summary = "Reset after 5 minutes",
+		CoolTimeQuest = 1
 	},
 	[3092] = {
-		Title = "Report to the continent - Success to restore!",
+		Title = "Report to the Continent - Recovery Success!",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"Finally you restored the draft of the report with Abidal. You should go to the commander to report."
+			"Finally you restored the <ITEM>[Expedition Report]<INFO>11012</INFO></ITEM> with Abidal.",
+			" ",
+			"You should go to the Commander-in-Chief <NAVI>[Hibba Agip]<INFO>mid_campin,90,121,0,101,0</INFO></NAVI> to report."
 		},
 		Summary = ""
 	},
 	[3093] = {
-		Title = "Report to the continent, report to the continent",
+		Title = "Report to the Continent - Report to the Continent",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You should deliver 3 reports to 3 countries. The recievers are Laur in Prontera, Nuria in Rachel and Gerhart in the Schwaltzval Republict."
+			"You should deliver the <ITEM>[Expedition Report]<INFO>11012</INFO></ITEM> to 3 countries.",
+			" ",
+			"Deliver the report to <NAVI>[Laur]<INFO>prt_cas,108,265,0,101,0</INFO></NAVI> of Rune Midgarts,",
+			"<NAVI>[Nuria]<INFO>ra_temple,122,174,0,101,0</INFO></NAVI> of the Arunafeltz and",
+			"<NAVI>[Gerhart]<INFO>lhz_in01,110,174,0,101,0</INFO></NAVI> of the Schwarzwald Republic."
 		},
 		Summary = ""
 	},
 	[3094] = {
-		Title = "Report to the continent - Return to the expedition",
+		Title = "Report to the Continent - Return to the expedition",
+		IconName = "ico_ep.bmp",
 		Description = {
-			"You finished delivering the reports. Return to the commander and report."
+			"You finished delivering the report to the officials in all three countries. Return to the commander and report.",
+			" ",
+			"Now, go back to the expedition and report the completion of the mission to the Commander-in-Chief <NAVI>[Hibba Agip]<INFO>mid_campin,90,121,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
@@ -6221,7 +6324,7 @@ QuestInfoList = {
 	[3207] = {
 		Title = "Job Change to Rune Knight",
 		Description = {
-			"Talk with the Lapine Sage Serpeone who is currently in the Rune Midgard's Camp in Ash Vacuum."
+			"Talk with the Lapine Sage Serpeone who is currently in the Rune-Midgarts's Camp in Ash Vacuum."
 		},
 		Summary = ""
 	},
@@ -6703,7 +6806,7 @@ QuestInfoList = {
 		Title = "Delicious Popcorn in June",
 		IconName = "ico_ev.bmp",
 		Description = { 
-			"Popcorn Master's popcorn is Midgard's best."
+			"Popcorn Master's popcorn is Midgarts's best."
 		},
 		Summary = ""
 	},
@@ -17328,14 +17431,14 @@ QuestInfoList = {
 	[7233] = {
 		Title = "Advanced Training at Ash Vacuum",
 		Description = {
-			"Since you are a third class job, you should be able to fight the monsters at Ash Vacuum pretty easily. Find <NAVI>Margaret<INFO>mid_camp,212,229,0,101,0</INFO></NAVI> at the Midgard Expedition Camp."
+			"Since you are a third class job, you should be able to fight the monsters at Ash Vacuum pretty easily. Find <NAVI>Margaret<INFO>mid_camp,212,229,0,101,0</INFO></NAVI> at the Midgarts Expedition Camp."
 		},
-		Summary = "Find Margaret at the Midgard Expedition Camp"
+		Summary = "Find Margaret at the Midgarts Expedition Camp"
 	},
 	[7234] = {
 		Title = "Margaret's favor",
 		Description = {
-			"Margaret asked you to find the Dispatched Instructors <NAVI>Meeru<INFO>man_fild01,43,234,0,101,0</INFO></NAVI> and <NAVI>Mine<INFO>spl_fild02,377,149,0,101,0</INFO></NAVI>. They're located at the fields just West and East of the Midgard Expedition Camp."
+			"Margaret asked you to find the Dispatched Instructors <NAVI>Meeru<INFO>man_fild01,43,234,0,101,0</INFO></NAVI> and <NAVI>Mine<INFO>spl_fild02,377,149,0,101,0</INFO></NAVI>. They're located at the fields just West and East of the Midgarts Expedition Camp."
 		},
 		Summary = "Find Meeru and Mine and complete their quests and return to Margaret"
 	},
@@ -19956,7 +20059,7 @@ QuestInfoList = {
 	[7571] = {
 		Title = "Tower Expedition",
 		Description = {
-			"The tower was built by a demon tribe headed by one named Thanatos during a war between gods and demons. It was activated by Satan Morocc in an attempt to re-enter Rune Midgard"
+			"The tower was built by a demon tribe headed by one named Thanatos during a war between gods and demons. It was activated by Satan Morocc in an attempt to re-enter Rune-Midgarts"
 		},
 		Summary = ""
 	},
@@ -20588,7 +20691,7 @@ QuestInfoList = {
 	[7671] = {
 		Title = "Find my Lost lamb",
 		Description = {
-			"Use the ^0000FFHunting Rope^000000 on to ^0000FFLost Lambs^000000 wandering Rune Midgard."
+			"Use the ^0000FFHunting Rope^000000 on to ^0000FFLost Lambs^000000 wandering Rune-Midgarts."
 		},
 		Summary = "Retrieve 5 lost lambs"
 	},
@@ -20816,7 +20919,7 @@ QuestInfoList = {
 	[7711] = {
 		Title = "Beginning",
 		Description = {
-			"Yo Ho! I am a fabulous Doram from Pa~sta! I've climbed Laviol mountain, came to Lasagna port. And I'm going to take over the new continent Midgard!"
+			"Yo Ho! I am a fabulous Doram from Pa~sta! I've climbed Laviol mountain, came to Lasagna port. And I'm going to take over the new continent Midgarts!"
 		},
 		Summary = "Talk with Ajena"
 	},
@@ -23103,7 +23206,7 @@ QuestInfoList = {
 	[8132] = {
 		Title = "The mother of lord in Amatsu",
 		Description = {
-			"You, who hail from Rune-Midgard, may be able to cure my mother's disease. I will reward you well if you succeed.. My mother is living in a house outside of the palace. Come to me when you finish your treatment."
+			"You, who hail from Rune-Midgarts, may be able to cure my mother's disease. I will reward you well if you succeed.. My mother is living in a house outside of the palace. Come to me when you finish your treatment."
 		},
 		Summary = "Find the treatment to cure the mother of lord"
 	},
@@ -23558,7 +23661,7 @@ QuestInfoList = {
 	[8197] = {
 		Title = "Document Delivery",
 		Description = {
-			"Ok, now, please deliver the file to Hue and Hansenne. Hue's in charge of Schwartzvalt documents and Hansenne's in charge of Arunafeltz'. You should go see Hue at Schwartzvalt's office, otherwise, he'd be whining about it."
+			"Ok, now, please deliver the file to Hue and Hansenne. Hue's in charge of Schwarzwald documents and Hansenne's in charge of Arunafeltz'. You should go see Hue at Schwarzwald's office, otherwise, he'd be whining about it."
 		},
 		Summary = "Deliver the documents to Hue and Hansenne and return to Ryosen"
 	},
@@ -23593,7 +23696,7 @@ QuestInfoList = {
 	[8202] = {
 		Title = "Document Restoration",
 		Description = {
-			"Schwartzwalt people have some talent in restoring things like this... Why don't you ask Hue to restore this? He'd scream so hard and the windows might break."
+			"Schwarzwald people have some talent in restoring things like this... Why don't you ask Hue to restore this? He'd scream so hard and the windows might break."
 		},
 		Summary = ""
 	},
@@ -23642,7 +23745,7 @@ QuestInfoList = {
 	[8209] = {
 		Title = "Hue's Report",
 		Description = {
-			"Here, this is the Rune-Midgard's report I took with me when everything went messy in the meeting room.. Could you please give this to Ryosen?"
+			"Here, this is the Rune-Midgarts's report I took with me when everything went messy in the meeting room.. Could you please give this to Ryosen?"
 		},
 		Summary = ""
 	},
@@ -23915,7 +24018,7 @@ QuestInfoList = {
 	[8248] = {
 		Title = "Research progress",
 		Description = {
-			"Just how are we going to put together these tremendous data and make it into a portable translator... Can you ask the opinion of the Mechanic Engineer from Schwartzwalt?"
+			"Just how are we going to put together these tremendous data and make it into a portable translator... Can you ask the opinion of the Mechanic Engineer from Schwarzwald?"
 		},
 		Summary = ""
 	},
@@ -23929,7 +24032,7 @@ QuestInfoList = {
 	[8250] = {
 		Title = "Storage Gem",
 		Description = {
-			"Outside of Ash-Vacuum, there are ^0000ffconsiderably mysterious stones not found in the Midgard^000000. Can you bring me one of them?"
+			"Outside of Ash-Vacuum, there are ^0000ffconsiderably mysterious stones not found in the Midgarts^000000. Can you bring me one of them?"
 		},
 		Summary = "Find an Unidentified Mineral and bring it back to Magician Whisper"
 	},
@@ -23943,7 +24046,7 @@ QuestInfoList = {
 	[8252] = {
 		Title = "Handworked jewels",
 		Description = {
-			"This is the last request. Please bring this worked jewel to to the Mechanic Engineer from Schwartzwalt."
+			"This is the last request. Please bring this worked jewel to to the Mechanic Engineer from Schwarzwald."
 		},
 		Summary = ""
 	},
@@ -25123,20 +25226,20 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[8541] = {
-		Title = "No content",
+		Title = "Nothing to See",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>Nilem<INFO>glast_01,191,273,0,101,0</INFO></NAVI> asks you to hunt 20 contaminated raidricks and 20 contaminated raidric archers and check their contents."
+			"<NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 20 Hunt Contaminated Raydrics and 20 Contaminated Raydric Archers to gather more information."
 		},
-		Summary = "Contaminated Raidrick, Decontaminated Raidrick Archer"
+		Summary = "Hunt 20 Contaminated Raydrics and 20 Contaminated Raydric Archers."
 	},
 	[8542] = {
-		Title = "Standby",
+		Title = "Nothing to See - Wait",
 		IconName = "ico_dq.bmp",
-		Description = {
-			"This quest is a daily quest, and can be performed by receiving <NAVI>Nilem<INFO>glast_01,191,273,0,101,0</INFO></NAVI> when the waiting time expires."
+		Description = { 
+			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Resets at 04:00",
+		Summary = "Reset at 04:00.",
 		CoolTimeQuest = 1
 	},
 	[8543] = {
@@ -25148,20 +25251,20 @@ QuestInfoList = {
 		Summary = "Contaminated Raidrick, Decontaminated Raidrick Archer"
 	},
 	[8544] = {
-		Title = "High freezing point",
+		Title = "High Freezing Point",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>Nilem<INFO>glast_01,191,273,0,101,0</INFO></NAVI> asks you to kill 5 frozen gargoyles and 5 Prison Breakers and see the change."
+			"<NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 5 Frozen Gargoyles and 5 Prison Breakers to gather more information."
 		},
-		Summary = "Frozen Gargoyle, Prison Breaker Kill"
+		Summary = "Hunt 5 Frozen Gargoyles and 5 Prison Breakers."
 	},
 	[8545] = {
-		Title = "High freezing point (Standby)",
+		Title = "High Freezing Point - Wait",
 		IconName = "ico_dq.bmp",
-		Description = {
-			"This quest is a daily quest, and can be performed by receiving <NAVI>Nilem<INFO>glast_01,191,273,0,101,0</INFO></NAVI> when the waiting time expires."
+		Description = { 
+			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Resets at 04:00",
+		Summary = "Reset at 04:00.",
 		CoolTimeQuest = 1
 	},
 	[8546] = {
@@ -25173,20 +25276,20 @@ QuestInfoList = {
 		Summary = "Frozen Gargoyle, Prison Breaker Kill"
 	},
 	[8547] = {
-		Title = "A mirror-like thing",
+		Title = "A Mirror",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>Nilem<INFO>glast_01,191,273,0,101,0</INFO></NAVI> asks you to kill 10 Ice Ghosts and 10 Flame Ghosts and see them change."
+			"<NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 10 Ice Ghosts and 10 Flame Ghosts to gather more information."
 		},
-		Summary = "Ice Ghost, Flame Ghost Kill"
+		Summary = "Hunt 10 Ice Ghosts and 10 Flame Ghosts."
 	},
 	[8548] = {
-		Title = "Mirror (Standby)",
+		Title = "A Mirror - Wait",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and can be performed by receiving <NAVI>Nilem<INFO>glast_01,191,273,0,101,0</INFO></NAVI> when the waiting time expires."
+			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Resets at 04:00",
+		Summary = "Reset at 04:00.",
 		CoolTimeQuest = 1
 	},
 	[8549] = {
@@ -27947,7 +28050,7 @@ QuestInfoList = {
 	[9428] = {
 		Title = "Protect Wild Animals",
 		Description = {
-			"Find the wild animals that got caught in traps then collect the traps! Traps can be easily found around Rune Midgard field, collect and bring them to Wild Life Manager."
+			"Find the wild animals that got caught in traps then collect the traps! Traps can be easily found around Rune-Midgarts field, collect and bring them to Wild Life Manager."
 		},
 		Summary = "Rescue wild animals and collect traps"
 	},
@@ -28685,7 +28788,7 @@ QuestInfoList = {
 		Title = "Onward to the Other World",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Talk with ^009900<NAVI>Sikaiz<INFO>lhz_in01,201,152,0,101,0</INFO></NAVI>^000000 to register for United Midgard Alliance at the Rekenber Corporation Headquarters in Lighthalzen."
+			"Talk with ^009900<NAVI>Sikaiz<INFO>lhz_in01,201,152,0,101,0</INFO></NAVI>^000000 to register for United Midgarts Alliance at the Rekenber Corporation Headquarters in Lighthalzen."
 		},
 		Summary = "Talk with Sikaiz",
 		NpcSpr = "4_M_LGTGUARD2",
@@ -28697,7 +28800,7 @@ QuestInfoList = {
 		Title = "Onward to the Other World",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You've listened to the statement of ^009900<NAVI>Sikaiz<INFO>lhz_in01,201,152,0,101,0</INFO></NAVI>^000000, the commander-in-chief of the United Midgard Alliance."
+			"You've listened to the statement of ^009900<NAVI>Sikaiz<INFO>lhz_in01,201,152,0,101,0</INFO></NAVI>^000000, the commander-in-chief of the United Midgarts Alliance."
 		},
 		Summary = "Talk with Sikaiz",
 		NpcSpr = "4_M_LGTGUARD2",
@@ -28745,7 +28848,7 @@ QuestInfoList = {
 		Title = "Onward to the Other World",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You've got to know about the United Midgard Alliance."
+			"You've got to know about the United Midgarts Alliance."
 		},
 		Summary = "Continue the conversation",
 		NpcSpr = "4_M_LGTGUARD2",
@@ -28782,7 +28885,7 @@ QuestInfoList = {
 		Title = "Onward to the Other World",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Register to be a member of the United Midgard Alliance."
+			"Register to be a member of the United Midgarts Alliance."
 		},
 		Summary = "",
 		NpcSpr = "4_M_LGTGUARD2",
@@ -28818,7 +28921,7 @@ QuestInfoList = {
 		Title = "Onward to the Other World",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Talk with ^009900<NAVI>Munkenro<INFO>moc_fild22b,230,197,0,101,0</INFO></NAVI>^000000, the second-in-command of the United Midgard Troops."
+			"Talk with ^009900<NAVI>Munkenro<INFO>moc_fild22b,230,197,0,101,0</INFO></NAVI>^000000, the second-in-command of the United Midgarts Troops."
 		},
 		Summary = "",
 		NpcSpr = "4_M_RUSMAN1",
@@ -31228,7 +31331,7 @@ QuestInfoList = {
 	[11266] = {
 		Title = "Delicious Watermelon Contest",
 		Description = {
-			"If you look closely at the watermelon, it will be found anywhere in the midgard, so you can meet it without difficulty."
+			"If you look closely at the watermelon, it will be found anywhere in the Midgarts, so you can meet it without difficulty."
 		},
 		Summary = "Look for watermelon and come back."
 	},
@@ -31331,7 +31434,7 @@ QuestInfoList = {
 		Description = {
 			"If the trade secret leaks, it's difficult, so I can't teach you how to keep the watermelon itself. If you bring the watermelon, I'll walk the magic."
 		},
-		Summary = "Let's get 30 watermelons, a summer specialty of the Midgard continent."
+		Summary = "Let's get 30 watermelons, a summer specialty of the Midgarts continent."
 	},
 	[11282] = {
 		Title = "Delicious Watermelon Contest",
@@ -32717,7 +32820,7 @@ QuestInfoList = {
 		Title = "Jakk and Jakk's cat",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"Seems like Jakk's kitty went to Midgard through the stem of Yggdrasil. It probably went through Umbala. Let's investigate."
+			"Seems like Jakk's kitty went to Midgarts through the stem of Yggdrasil. It probably went through Umbala. Let's investigate."
 		},
 		Summary = "Investigation on the northern entrance of Umbala"
 	},
@@ -35038,7 +35141,7 @@ QuestInfoList = {
 		Title = "Fine Gift Samples",
 		Description = {
 			"The pub owner said he wants to give a gift to all his regular Sapha customers.",
-			"But doesn't know what to give. If you see any interesting gifts in Midgard, can bring back 5 of them?",
+			"But doesn't know what to give. If you see any interesting gifts in Midgarts, can bring back 5 of them?",
 			"Collect 5 Bouquets, report to Transport Dept. 1 Manager within one day."
 		},
 		Summary = "Collect 5 Bouquets"
@@ -35046,7 +35149,7 @@ QuestInfoList = {
 	[12139] = {
 		Title = "Respect for Taste!",
 		Description = {
-			"The high minister is looking for the Midgard product, Witherless Roses these days.",
+			"The high minister is looking for the Midgarts product, Witherless Roses these days.",
 			"Not sure if it's a good gift but .... So... I know this is difficult to ask for but please bring me 1 Witherless Rose. This is just between you and me.",
 			"Collect 1 Witherless Rose, report to Transport Dept. 1 Manager within one day."
 		},
@@ -35055,7 +35158,7 @@ QuestInfoList = {
 	[12140] = {
 		Title = "Courtesy for Regulars",
 		Description = {
-			"A request from the pub owner. He says he can't use disposable leaf plates for regular customers. He is asking for 15 solid, white chinas from Midgard.",
+			"A request from the pub owner. He says he can't use disposable leaf plates for regular customers. He is asking for 15 solid, white chinas from Midgarts.",
 			"Collect 15 Chinas, report to Transport Dept. 1 Manager within one day."
 		},
 		Summary = "Collect 15 Chinas"
@@ -35063,7 +35166,7 @@ QuestInfoList = {
 	[12141] = {
 		Title = "Special Package",
 		Description = {
-			"I have a personal request. I heard there is a round transparent handicraft in Midgard.",
+			"I have a personal request. I heard there is a round transparent handicraft in Midgarts.",
 			"I think they are called Glass Beads. We have similar manufactured items here but nothing compared to the elaborate sphere there. Please get me 10 of them.",
 			"Collect 10 Glass Beads, report to Transport Dept. 1 Manager within one day."
 		},
@@ -35072,7 +35175,7 @@ QuestInfoList = {
 	[12142] = {
 		Title = "Dangerous Request",
 		Description = {
-			"Hmm... I don't know how to start. The high minister is requesting for puppets from Midgard.",
+			"Hmm... I don't know how to start. The high minister is requesting for puppets from Midgarts.",
 			"I don't know what it is but since the high minister is asking for it, it must be used for a very important purpose. Please bring 15 of them.",
 			"Collect 15 Puppets, report to Transport Dept. 1 Manager within one day."
 		},
@@ -35081,7 +35184,7 @@ QuestInfoList = {
 	[12143] = {
 		Title = "Strange Trend",
 		Description = {
-			"I heard there is a trend among many of my colleagues here about a musical accessory made from a Bill of Birds from Midgard.",
+			"I heard there is a trend among many of my colleagues here about a musical accessory made from a Bill of Birds from Midgarts.",
 			"I'm thinking of distributing them within the Operations building. Can you buy and bring back 50 of them?",
 			"Collect 50 Bill of Birds, report to Transport Dept. 1 Manager within one day."
 		},
@@ -35108,7 +35211,7 @@ QuestInfoList = {
 	[12146] = {
 		Title = "Filling in Cracks",
 		Description = {
-			"I think the most useful Midgard item is Scells.",
+			"I think the most useful Midgarts item is Scells.",
 			"Use Scells to fill any crack or holes in a building and then mix and plaster grinded Garlet to it and the building is maintained quick and simple. Can you bring back 30 of them?",
 			"Collect 30 Scells, report to Transport Dept. 1 Manager within one day."
 		},
@@ -35136,7 +35239,7 @@ QuestInfoList = {
 		Title = "Swordmanship Practice",
 		Description = {
 			"The pub owner wants some apple to learn how to cook well.",
-			"But I never heard of any adventurers from Midgard who were fond of his food. Anyway he says that he will try, so get 100 apples for him.",
+			"But I never heard of any adventurers from Midgarts who were fond of his food. Anyway he says that he will try, so get 100 apples for him.",
 			"Collect 100 Apples, report to Transport Dept. 2 Manager within one day."
 		},
 		Summary = "Collect 100 Apples"
@@ -35163,7 +35266,7 @@ QuestInfoList = {
 		Title = "Tastes like home cooking",
 		Description = {
 			"The pub owner has another request... He misses potatos which he used to eat when he was young.",
-			"He wants 50 sweet potatos. By chance if you visit Midgard, please try to get them.",
+			"He wants 50 sweet potatos. By chance if you visit Midgarts, please try to get them.",
 			"Collect 50 Potatos, report to Transport Dept. 2 Manager within one day."
 		},
 		Summary = "Collect 50 Potatos"
@@ -35189,7 +35292,7 @@ QuestInfoList = {
 	[12155] = {
 		Title = "Gift with heart",
 		Description = {
-			"Few days ago, I saw the pub owner frustrated with all broken ladles... I felt sorry for him so I want you to get 20 black ladles which can be purchased in Midgard.",
+			"Few days ago, I saw the pub owner frustrated with all broken ladles... I felt sorry for him so I want you to get 20 black ladles which can be purchased in Midgarts.",
 			"Collect 20 Black Ladles, report to Transport Dept. 2 Manager within one day."
 		},
 		Summary = "Collect 20 Black Ladles"
@@ -35197,8 +35300,8 @@ QuestInfoList = {
 	[12156] = {
 		Title = "Respect personal appetite!",
 		Description = {
-			"The high minister wanted mirrors made from Midgard crystal.",
-			"There are many Manukan mirrors but he seems to prefer the Midgard ones. I am actually a bit worried but there must be a reason for our \"wise\" high minister.",
+			"The high minister wanted mirrors made from Midgarts crystal.",
+			"There are many Manukan mirrors but he seems to prefer the Midgarts ones. I am actually a bit worried but there must be a reason for our \"wise\" high minister.",
 			"Collect 5 Crystal Mirrors, report to Transport Dept. 2 Manager within one day."
 		},
 		Summary = "Collect 5 Crystal Mirrors"
@@ -35277,14 +35380,14 @@ QuestInfoList = {
 	[12166] = {
 		Title = "Tree Root Doc.",
 		Description = {
-			"Humans are using this for firewood or construction material. Found commonly in the woods of Midgard."
+			"Humans are using this for firewood or construction material. Found commonly in the woods of Midgarts."
 		},
 		Summary = "Close to pay_fild03 144 95"
 	},
 	[12167] = {
 		Title = "Reptile Tongue Doc.",
 		Description = {
-			"Tongue of a monster living in the desert terrain of Midgard. Often used as medicine after drying."
+			"Tongue of a monster living in the desert terrain of Midgarts. Often used as medicine after drying."
 		},
 		Summary = "Close to prt_fild09 371 255"
 	},
@@ -35298,7 +35401,7 @@ QuestInfoList = {
 	[12169] = {
 		Title = "Stem Doc.",
 		Description = {
-			"There is nothing like Midgard plants in Manuk. These plants are used for food and medicine and some are even poisonous."
+			"There is nothing like Midgarts plants in Manuk. These plants are used for food and medicine and some are even poisonous."
 		},
 		Summary = "Close to pay_fild02 177 108"
 	},
@@ -35326,7 +35429,7 @@ QuestInfoList = {
 	[12173] = {
 		Title = "Jellopy Doc.",
 		Description = {
-			"Unknown substance in Manuk regions but found throughout Midgard. Research required to see possibilities on using it for construction material."
+			"Unknown substance in Manuk regions but found throughout Midgarts. Research required to see possibilities on using it for construction material."
 		},
 		Summary = "Close to prt_fild08 299 332"
 	},
@@ -35347,7 +35450,7 @@ QuestInfoList = {
 	[12176] = {
 		Title = "Gill Doc.",
 		Description = {
-			"There are Midgard creatures that live in the sea and breathe through gills. Further research on their ecology will be useful."
+			"There are Midgarts creatures that live in the sea and breathe through gills. Further research on their ecology will be useful."
 		},
 		Summary = "Close to iz_dun03 155 165"
 	},
@@ -35361,7 +35464,7 @@ QuestInfoList = {
 	[12178] = {
 		Title = "Fluff Doc.",
 		Description = {
-			"Many of Midgard creatures are covered with soft hair. Hair can be used as great cold protection. Further research required."
+			"Many of Midgarts creatures are covered with soft hair. Hair can be used as great cold protection. Further research required."
 		},
 		Summary = "Close to prt_fild06 182 290"
 	},
@@ -35375,7 +35478,7 @@ QuestInfoList = {
 	[12180] = {
 		Title = "Feather of Birds Doc.",
 		Description = {
-			"Bird feather located throughout Midgard. The feathers aren't great for cold protection but can be used as decorative accessories or tools for writing."
+			"Bird feather located throughout Midgarts. The feathers aren't great for cold protection but can be used as decorative accessories or tools for writing."
 		},
 		Summary = "Close to moc_fild07 201 360"
 	},
@@ -35389,14 +35492,14 @@ QuestInfoList = {
 	[12182] = {
 		Title = "Sticky Webfoot Doc.",
 		Description = {
-			"Strange body structure found from Midgard amphibians. Evolved to better adapt to ocean life."
+			"Strange body structure found from Midgarts amphibians. Evolved to better adapt to ocean life."
 		},
 		Summary = "Close to prt_fild04 315 245"
 	},
 	[12183] = {
 		Title = "Animal Skin Doc.",
 		Description = {
-			"Leather from a mammal. Very warm and soft and can be used in various ways. Processed in Midgard and valuable."
+			"Leather from a mammal. Very warm and soft and can be used in various ways. Processed in Midgarts and valuable."
 		},
 		Summary = "Close to mjolnir_08 108 99"
 	},
@@ -35410,7 +35513,7 @@ QuestInfoList = {
 	[12185] = {
 		Title = "Mushroom Spore Doc.",
 		Description = {
-			"Spores from a mushroom found throughout Midgard. Looks like it can be cultivated here with a little research."
+			"Spores from a mushroom found throughout Midgarts. Looks like it can be cultivated here with a little research."
 		},
 		Summary = "Close to pay_fild08 188 153"
 	},
@@ -35431,7 +35534,7 @@ QuestInfoList = {
 	[12188] = {
 		Title = "Powder of Butterfly Doc.",
 		Description = {
-			"Powder from the winged insects from Midgard. Some humans use it for makeup or medicine."
+			"Powder from the winged insects from Midgarts. Some humans use it for makeup or medicine."
 		},
 		Summary = "Close to gef_fild05 111 96"
 	},
@@ -35515,7 +35618,7 @@ QuestInfoList = {
 	[12200] = {
 		Title = "Sticky Mucus Doc.",
 		Description = {
-			"Sticky liquid with a bit of viscosity left. Can be used as key material for construction and currently is used for some Manuk architecture style. Commonly found throughout Midgard."
+			"Sticky liquid with a bit of viscosity left. Can be used as key material for construction and currently is used for some Manuk architecture style. Commonly found throughout Midgarts."
 		},
 		Summary = "Close to prt_fild02 102 97"
 	},
@@ -35592,7 +35695,7 @@ QuestInfoList = {
 	[12211] = {
 		Title = "Feather Doc.",
 		Description = {
-			"Warm hair as soft as downy hair. Must be used for cold protection. Collectable throughout Midgard."
+			"Warm hair as soft as downy hair. Must be used for cold protection. Collectable throughout Midgarts."
 		},
 		Summary = "Close to prt_fild02 142 116"
 	},
@@ -35620,7 +35723,7 @@ QuestInfoList = {
 	[12215] = {
 		Title = "Stone Heart Doc.",
 		Description = {
-			"They say a huge stone in a dead area in Midgard moves by itself. The heart of the huge stone would be a rare research subject."
+			"They say a huge stone in a dead area in Midgarts moves by itself. The heart of the huge stone would be a rare research subject."
 		},
 		Summary = "Close to cmd_fild08 324 163"
 	},
@@ -35812,7 +35915,7 @@ QuestInfoList = {
 	[12243] = {
 		Title = "Information on missing person Tazar",
 		Description = {
-			"Age 32. Comes from Midgard. Has been missing for 3 months since he went to the Maze of the Hazy Forest in order to collect the native plants. Survival not likely."
+			"Age 32. Comes from Midgarts. Has been missing for 3 months since he went to the Maze of the Hazy Forest in order to collect the native plants. Survival not likely."
 		},
 		Summary = "Search the Fog Maze Forest around 13, 10"
 	},
@@ -36106,7 +36209,7 @@ QuestInfoList = {
 	[12284] = {
 		Title = "A cat merchant's source of information",
 		Description = {
-			"Among cat merchants, there is a cat that is supposed to know a lot about Midgard research on rifts. Look for ^000099Midgard Post^000000 known for its activity."
+			"Among cat merchants, there is a cat that is supposed to know a lot about Midgarts research on rifts. Look for ^000099Midgarts Post^000000 known for its activity."
 		},
 		Summary = "A cat merchant's source of information"
 	},
@@ -36713,9 +36816,9 @@ QuestInfoList = {
 	[12370] = {
 		Title = "A member of the Union",
 		Description = {
-			"From now on, I am hunting as a member of the Midgard City Alliance. When hunting, I can get a token of the Union with a certain probability."
+			"From now on, I am hunting as a member of the Midgarts City Alliance. When hunting, I can get a token of the Union with a certain probability."
 		},
-		Summary = "Part of the Midgard Alliance"
+		Summary = "Part of the Midgarts Alliance"
 	},
 	[12371] = {
 		Title = "End of investment today",
@@ -37582,7 +37685,7 @@ QuestInfoList = {
 	[13000] = {
 		Title = "RWC 2011Card Gathering",
 		Description = {
-			"Defeat the Gold Porings that are randomly around Rune Midgard and collect enough Blue Cards to spell out \"RWC 2011\""
+			"Defeat the Gold Porings that are randomly around Rune-Midgarts and collect enough Blue Cards to spell out \"RWC 2011\""
 		},
 		Summary = ""
 	},
@@ -37619,7 +37722,7 @@ QuestInfoList = {
 	[13005] = {
 		Title = "Arclouse Request",
 		Description = {
-			"Do you know there are beans used as food here in Rune Midgard? When an Arclouse rolls, it resembles a bean."
+			"Do you know there are beans used as food here in Rune-Midgarts? When an Arclouse rolls, it resembles a bean."
 		},
 		Summary = "Hunt 22 Arclouse and return to Gelkah"
 	},
@@ -41792,7 +41895,7 @@ QuestInfoList = {
 	[14504] = {
 		Title = "In Search of Helmut",
 		Description = {
-			"Would you persuade Helmut and bring him to me? He would be at the Schwaltzvalt Border Garrison."
+			"Would you persuade Helmut and bring him to me? He would be at the Schwarzwald Border Garrison."
 		},
 		Summary = "In Search of Helmut"
 	},
@@ -45169,7 +45272,7 @@ QuestInfoList = {
 	[16081] = {
 		Title = "Serin's Ambitions",
 		Description = {
-			"Serin told you that Kirkena is trying to summon Dark Lord in to Rune Midgard. You must find a way to stop this from happening."
+			"Serin told you that Kirkena is trying to summon Dark Lord in to Rune-Midgarts. You must find a way to stop this from happening."
 		},
 		Summary = ""
 	},
@@ -45190,7 +45293,7 @@ QuestInfoList = {
 	[16084] = {
 		Title = "The Sign",
 		Description = {
-			"Metz says that The Sign can be used to enter Valhalla but that you should first see Engel Howard who is the only person in Rune Midgard that knows how to handle it."
+			"Metz says that The Sign can be used to enter Valhalla but that you should first see Engel Howard who is the only person in Rune-Midgarts that knows how to handle it."
 		},
 		Summary = "Engel Howard"
 	},
@@ -45552,7 +45655,7 @@ QuestInfoList = {
 	[16137] = {
 		Title = "Kiel Hyre Academy",
 		Description = {
-			"Investigate the hut near the Schwartzvalt guard camp just east of the Kiel Hyre Academy."
+			"Investigate the hut near the Schwarzwald guard camp just east of the Kiel Hyre Academy."
 		},
 		Summary = ""
 	},
@@ -46363,7 +46466,7 @@ QuestInfoList = {
 	[16345] = {
 		Title = "Delicious popcorn of June",
 		Description = {
-			"Popcorn Master's popcorn is the best midgard."
+			"Popcorn Master's popcorn is the best Midgarts."
 		},
 		Summary = ""
 	},
@@ -48367,7 +48470,7 @@ QuestInfoList = {
 		Title = "머리 몸 팔 다리",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"<NAVI>[몸이 있는 곳]<INFO>ba_2whs02,31,50,0,101,0</INFO></NAVI>이 제일 가까우니까 그쪽 먼저 가면 되곘다. 빠르게 갖다 줘. 나 무서워."
+			"<NAVI>[몸이 있는 곳]<INFO>ba_2whs02,31,50,0,101,0</INFO></NAVI>이 제일 가까우니까 그쪽 먼저 가면 되곘�? 빠르게 갖다 줘. 나 무서워."
 		},
 		Summary = "몸을 찾으러" 
 	},
@@ -49660,7 +49763,7 @@ QuestInfoList = {
 	[18011] = {
 		Title = "Bodyguard work",
 		Description = {
-			"Hianna will lend you her Megaphone for 500,000 zeny if you act as bodyguard to her Dancers. Find the Dancers and escort them to the Schwaltzvalt Republic."
+			"Hianna will lend you her Megaphone for 500,000 zeny if you act as bodyguard to her Dancers. Find the Dancers and escort them to the Schwarzwald Republic."
 		},
 		Summary = "Hianna's Dancers"
 	},
@@ -56050,7 +56153,7 @@ QuestInfoList = {
 	[21741] = {
 		Title = "The Poisonous Worm (Standby)",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgard Alliance Garrison Quest orders are possible."
+			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgarts Alliance Garrison Quest orders are possible."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -56094,7 +56197,7 @@ QuestInfoList = {
 	[21747] = {
 		Title = "Shell by appearance (Standby)",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgard Alliance Garrison Quest orders are possible."
+			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgarts Alliance Garrison Quest orders are possible."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -56116,7 +56219,7 @@ QuestInfoList = {
 	[21750] = {
 		Title = "Standby",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgard Alliance Garrison Quest orders are possible."
+			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgarts Alliance Garrison Quest orders are possible."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -56138,7 +56241,7 @@ QuestInfoList = {
 	[21753] = {
 		Title = "Standby",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgard Alliance Garrison Quest orders are possible."
+			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgarts Alliance Garrison Quest orders are possible."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -56160,7 +56263,7 @@ QuestInfoList = {
 	[21756] = {
 		Title = "Standby the Deer Horn",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgard Alliance Garrison Quest orders are possible."
+			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgarts Alliance Garrison Quest orders are possible."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -56182,7 +56285,7 @@ QuestInfoList = {
 	[21759] = {
 		Title = "Stuck by the Razorhorn (Standby)",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgard Alliance Garrison Quest orders are possible."
+			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgarts Alliance Garrison Quest orders are possible."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -56204,7 +56307,7 @@ QuestInfoList = {
 	[21762] = {
 		Title = "Morroc's Harassment (Standby)",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgard Alliance Garrison Quest orders are possible."
+			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgarts Alliance Garrison Quest orders are possible."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -56226,7 +56329,7 @@ QuestInfoList = {
 	[21765] = {
 		Title = "Morroc's Farm (Standby)",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgard Alliance Garrison Quest orders are possible."
+			"This is a daily quest, you can retake the quest after the timer expires. Through <NAVI>Theodore<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> on the Paradise Bulletin Board or Midgarts Alliance Garrison Quest orders are possible."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -61972,21 +62075,21 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[62117] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Hunt down 15 mobsters in Lighthalzen and report back to the Commerce Guild Rep"
 		},
 		Summary = ""
 	},
 	[62117] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Hunt down 15 mobsters in Lighthalzen and report back to the Commerce Guild Rep"
 		},
 		Summary = ""
 	},
 	[62118] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Find Tesco in Einbroch and speak to him."
 		},
@@ -62273,9 +62376,9 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[62238] = {
-		Title = "Midgardian Mercenary timer",
+		Title = "Midgartsian Mercenary timer",
 		Description = {
-			"You can recruit a Midgardian Mercenary again in 3 hours"
+			"You can recruit a Midgartsian Mercenary again in 3 hours"
 		},
 		Summary = ""
 	},
@@ -64327,28 +64430,28 @@ QuestInfoList = {
 	[62599] = {
 		Title = "Bounty Board Cornus",
 		Description = {
-			"Hunt 150 Cornus monsters and return to the Bounty Board at the Rune Midgards Alliance Camp"
+			"Hunt 150 Cornus monsters and return to the Bounty Board at the Rune-Midgarts Alliance Camp"
 		},
 		Summary = ""
 	},
 	[62600] = {
 		Title = "Bounty Board Naga",
 		Description = {
-			"Hunt 150 Naga monsters and return to the Bounty Board at the Rune Midgards Alliance Camp"
+			"Hunt 150 Naga monsters and return to the Bounty Board at the Rune-Midgarts Alliance Camp"
 		},
 		Summary = ""
 	},
 	[62601] = {
 		Title = "Bounty Board Pinguicula",
 		Description = {
-			"Hunt 150 Pinguicula monsters and return to the Bounty Board at the Rune Midgards Alliance Camp"
+			"Hunt 150 Pinguicula monsters and return to the Bounty Board at the Rune-Midgarts Alliance Camp"
 		},
 		Summary = ""
 	},
 	[62602] = {
 		Title = "Bounty Board Luciola Vespa",
 		Description = {
-			"Hunt 150 Luciola Vespa monsters and return to the Bounty Board at the Rune Midgards Alliance Camp"
+			"Hunt 150 Luciola Vespa monsters and return to the Bounty Board at the Rune-Midgarts Alliance Camp"
 		},
 		Summary = ""
 	},
@@ -65741,21 +65844,21 @@ QuestInfoList = {
 	[62806] = {
 		Title = "Bounty Board Pinguicula",
 		Description = {
-			"Hunt 150 Pinguicula monsters and return to the Bounty Board at the Rune Midgards Alliance Camp"
+			"Hunt 150 Pinguicula monsters and return to the Bounty Board at the Rune-Midgarts Alliance Camp"
 		},
 		Summary = ""
 	},
 	[62807] = {
 		Title = "Bounty Board Dark Pinguicula",
 		Description = {
-			"Hunt 150 Dark Pinguicula monsters and return to the Bounty Board at the Rune Midgard Alliance Camp"
+			"Hunt 150 Dark Pinguicula monsters and return to the Bounty Board at the Rune-Midgarts Alliance Camp"
 		},
 		Summary = ""
 	},
 	[62808] = {
 		Title = "Bounty Board Nepenthes",
 		Description = {
-			"Hunt 150 Nepenthes monsters and return to the Bounty Board at the Rune Midgard Alliance Camp"
+			"Hunt 150 Nepenthes monsters and return to the Bounty Board at the Rune-Midgarts Alliance Camp"
 		},
 		Summary = ""
 	},
@@ -67579,506 +67682,506 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[70101] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Go and check in at Lighthalzen's Hotel"
 		},
 		Summary = ""
 	},
 	[70102] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Go and take a nap upstairs while you wait for the Expo to begin. The room is upstairs and down a long hallway."
 		},
 		Summary = ""
 	},
 	[70103] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the Expo Receptionist to see what happened with the dream."
 		},
 		Summary = ""
 	},
 	[70104] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the Anniversary Tram Guide in the southern section of Lighthalzen and take the Tour in the Expo Fairground."
 		},
 		Summary = ""
 	},
 	[70105] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Continue to the Automated Tour guide near the Machine Building where the Technology Exhibit is taking place."
 		},
 		Summary = ""
 	},
 	[70106] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Check out the next Automated tour guide in front of the Rare Gem Exhibit to the south."
 		},
 		Summary = ""
 	},
 	[70107] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"The automated tour continues at the Bazaar to the South of Old Morocc Castle."
 		},
 		Summary = ""
 	},
 	[70108] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Travel to the Culturetorium leg of the tour to the Northwest."
 		},
 		Summary = ""
 	},
 	[70109] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Seek out the Eden Expo Representative near the Bar."
 		},
 		Summary = ""
 	},
 	[70110] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the Commerce Guild Rep at the Bazaar."
 		},
 		Summary = ""
 	},
 	[70111] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the Commerce Guild Rep at the Bazaar."
 		},
 		Summary = ""
 	},
 	[70112] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Find more evidence to get the Commerce Guild Rep to confess."
 		},
 		Summary = ""
 	},
 	[70113] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Find more evidence of harassment."
 		},
 		Summary = ""
 	},
 	[70114] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"You need to find all the evidence of harassment. Talk with the Commerce Guild Rep when you have three pieces of evidence."
 		},
 		Summary = ""
 	},
 	[70116] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the Commerce Guild Rep Again"
 		},
 		Summary = ""
 	},
 	[70118] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Travel to Lighthalzen's slums and confront the Mobster Monsieur."
 		},
 		Summary = ""
 	},
 	[70119] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Tell the Commerce Guild Rep that you've defeated the Mob."
 		},
 		Summary = ""
 	},
 	[70120] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Report the Commerce Guild's change of heart to the Expo Representative."
 		},
 		Summary = ""
 	},
 	[70121] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Let Frau Beau know when you are ready to pick up a class quest."
 		},
 		Summary = ""
 	},
 	[70122] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Class quest: speak to the indicated Expo attendee or representative."
 		},
 		Summary = ""
 	},
 	[70123] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Investigate the castle, find a surviving guard"
 		},
 		Summary = ""
 	},
 	[70124] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Try to find a locked door where Mort and the others disappeared."
 		},
 		Summary = ""
 	},
 	[70125] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Go and return to the Injured Guard"
 		},
 		Summary = ""
 	},
 	[70126] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Bring 1 rope, 10 Hinale Leaflets and 3 Explosive Powders to the Injured Guard"
 		},
 		Summary = ""
 	},
 	[70127] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Set the explosive at the Locked Door."
 		},
 		Summary = ""
 	},
 	[70128] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the Injured Guard again."
 		},
 		Summary = ""
 	},
 	[70129] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Try to find the Master Key in Mort's Office in the East Wing of the Castle."
 		},
 		Summary = ""
 	},
 	[70130] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Report the invasion to the Expo Representative Frau Beau."
 		},
 		Summary = ""
 	},
 	[70131] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the Technology Rep at the Expo by the Machine Building."
 		},
 		Summary = ""
 	},
 	[70132] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Bring the Technology Rep 20 mole whiskers and 5 rusty screws"
 		},
 		Summary = ""
 	},
 	[70133] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the Head Gemologist at the Rare Gem exhibit"
 		},
 		Summary = ""
 	},
 	[70134] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Bring the Head Gemologist 1 ruby, 1 sapphire and 1 emerald"
 		},
 		Summary = ""
 	},
 	[70135] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Get a lens from the Culturetorium"
 		},
 		Summary = ""
 	},
 	[70136] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Talk with the camera seller at the Bazaar"
 		},
 		Summary = ""
 	},
 	[70137] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Go and take the lens to the Culture Rep"
 		},
 		Summary = ""
 	},
 	[70138] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Bring the device to the Expo Representative"
 		},
 		Summary = ""
 	},
 	[70139] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			""
 		},
 		Summary = ""
 	},
 	[70140] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Use the Astral Rejector device on the Cultist Lieutenant"
 		},
 		Summary = ""
 	},
 	[70141] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"Gather a party and enter the Castle's dungeon"
 		},
 		Summary = ""
 	},
 	[70142] = {
-		Title = "Rune Midgard Exposition",
+		Title = "Rune-Midgarts Exposition",
 		Description = {
 			"You can re-enter the Cultist Basement after the timer has expired."
 		},
 		Summary = ""
 	},
 	[70143] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Continue your conversation with Tesco."
 		},
 		Summary = ""
 	},
 	[70144] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Talk with Tesco's Assistant out in Einbroch"
 		},
 		Summary = ""
 	},
 	[70145] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Continue your conversation with Tesco's assistant."
 		},
 		Summary = ""
 	},
 	[70146] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Bring 30 Large Jellopy, 20 Iron Ore and 5 Iron to Tesco's Assistant."
 		},
 		Summary = ""
 	},
 	[70147] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"The battery is charged so speak to Tesco's Assistant."
 		},
 		Summary = ""
 	},
 	[70148] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Take the battery to the Control Panel to the southwest area of Einbroch."
 		},
 		Summary = ""
 	},
 	[70149] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"You have collected the battery now bring it back to Tesco's Assistant."
 		},
 		Summary = ""
 	},
 	[70150] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Bring the battery to Tesco."
 		},
 		Summary = ""
 	},
 	[70151] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Talk with Tesco's courier at the western area of Einbroch."
 		},
 		Summary = ""
 	},
 	[70152] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Search for the Flag Beacon 1 at Lighthalzen Field 2"
 		},
 		Summary = ""
 	},
 	[70153] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Search for the Flag Beacon 2 at Lighthalzen Field 2"
 		},
 		Summary = ""
 	},
 	[70154] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Search for the Flag Beacon 3 at Lighthalzen Field 2"
 		},
 		Summary = ""
 	},
 	[70155] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Search for the Flag Beacon 4 at Lighthalzen Field 2"
 		},
 		Summary = ""
 	},
 	[70156] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
-			"Go back to the Expo Engineer at the Rune Midgard Exposition grounds."
+			"Go back to the Expo Engineer at the Rune-Midgarts Exposition grounds."
 		},
 		Summary = ""
 	},
 	[70157] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
-			"Return to Frau Beau at the Rune Midgard Exposition."
+			"Return to Frau Beau at the Rune-Midgarts Exposition."
 		},
 		Summary = ""
 	},
 	[70158] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Find the terrible director that Madame West is complaining about near the center castle."
 		},
 		Summary = ""
 	},
 	[70159] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Search for Spellman's cinematographer Kuro Akirasawa."
 		},
 		Summary = ""
 	},
 	[70160] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Find Samuel Jack Ellson and convince him to come back to the movie shoot."
 		},
 		Summary = ""
 	},
 	[70161] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Bring 3 Holy Waters to Sam J Ellson to help him protect himself during the filming."
 		},
 		Summary = ""
 	},
 	[70162] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Now that he feels safe, find Adime Pamidonna here at the exposition."
 		},
 		Summary = ""
 	},
 	[70163] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Find and examine the stunt explosives from the film crew."
 		},
 		Summary = ""
 	},
 	[70164] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Ok, it's not exactly the safest but it won't defeat anyone... go back to Adime Pamidonna and reassure her..."
 		},
 		Summary = ""
 	},
 	[70165] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Find Cage Whickerman and convince him to go back to the filming."
 		},
 		Summary = ""
 	},
 	[70166] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Bring 10 Apples to Cage Whickerman so he can charge his creative abilities."
 		},
 		Summary = ""
 	},
 	[70167] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Now that he's feeling better, go and tell Kuro Akirasawa that his cast is ready to film."
 		},
 		Summary = ""
 	},
 	[70168] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Find the Spider in Comodo so you can \"steal\" the gems."
 		},
 		Summary = ""
 	},
 	[70169] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Find the Secret safe of Mister Von Drebbin..."
 		},
 		Summary = ""
 	},
 	[70170] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Go back to The Spider and tell him that the safe is too difficult to open on your own."
 		},
 		Summary = ""
 	},
 	[70171] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Find the Master Locksmith at Comodo Field 2."
 		},
 		Summary = ""
 	},
 	[70172] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"Now that you have what you need the Spider will help you crack the safe."
 		},
 		Summary = ""
 	},
 	[70173] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
 			"You have successfully opened the safe. Regroup with The Spider at Comodo."
 		},
 		Summary = ""
 	},
 	[70174] = {
-		Title = "Rune Midgard Exposition: Class quest",
+		Title = "Rune-Midgarts Exposition: Class quest",
 		Description = {
-			"Go back to the Gem Collector at the Rune Midgard Exposition."
+			"Go back to the Gem Collector at the Rune-Midgarts Exposition."
 		},
 		Summary = ""
 	},
