@@ -1,4 +1,151 @@
 mapTbl = {
+	["icecastle.rsw"] = {
+		displayName = "Isgard Ice Castle",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Isgard",
+			mainTitle = "Ice Castle"
+		},
+		backgroundBmp = "village"
+	},
+	["icas_in.rsw"] = {
+		displayName = "Inside the Ice Castle",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside the Ice Castle"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["jor_tail.rsw"] = {
+		displayName = "Frozen Tail",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Frozen Tail"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_back1.rsw"] = {
+		displayName = "Frozen Scale Hill",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Frozen Scale Hill"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_back2.rsw"] = {
+		displayName = "Frozen Scale Plains",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Frozen Scale Plains"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_back3.rsw"] = {
+		displayName = "Frozen Scale Glacier",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Frozen Scale Glacier"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_nest.rsw"] = {
+		displayName = "Snake's Nest",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Rgan Hideout",
+			mainTitle = "Snake's Nest"
+		},
+		backgroundBmp = "noname"
+	},
+	["jor_dun01.rsw"] = {
+		displayName = "Snake God's Warmth 1st Floor",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Snake God's Warmth 1st Floor"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["jor_dun02.rsw"] = {
+		displayName = "Snake God's Warmth 2nd Floor",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Snake God's Warmth 2nd Floor"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["jor_dun03.rsw"] = {
+		displayName = "Inside the Snake's Nest",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside the Snake's Nest"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["jor_ab01.rsw"] = {
+		displayName = "Abandoned Pit 1st Floor",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Abandoned Pit 1st Floor"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["jor_ab02.rsw"] = {
+		displayName = "Abandoned Pit 2nd Floor",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Abandoned Pit 2nd Floor"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["jor_que.rsw"] = {
+		displayName = "Abandoned Snake God's Warmth",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Abandoned Snake God's Warmth"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["air_if.rsw"] = {
+		displayName = "Inside the Aircraft Ifho",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside the Aircraft Ifho"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@iwp.rsw"] = {
+		displayName = "Frozen Scale Hill",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Frozen Scale Hill"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["1@jorchs.rsw"] = {
+		displayName = "Confused Snake's Nest",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Confused Snake's Nest"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@jorlab.rsw"] = {
+		displayName = "Bagot Lab",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Bagot Lab"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@whl.rsw"] = {
+		displayName = "Inside Unprocessed Wile (1)",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Aircraft Collection No.3",
+			mainTitle = "Inside Unprocessed Wile (1)"
+		},
+		backgroundBmp = "noname"
+	},
 	["rag_fes.rsw"] = {
 		displayName = "RAG-FES Exhibition Hall",
 		notifyEnter = true,
@@ -191,11 +338,11 @@ mapTbl = {
 		backgroundBmp = "dungeon_s2"
 	},
 	["1@mjo1.rsw"] = {
-		displayName = "Mjolnir Mountains - Unfair Crash Site",
+		displayName = "Mjolnir Mountains - Airplane Crash Site",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Mjolnir Mountains",
-			mainTitle = "Unfair Crash Site"
+			mainTitle = "Airplane Crash Site"
 		},
 		backgroundBmp = "field_s2"
 	},
@@ -231,7 +378,7 @@ mapTbl = {
 		signName = {
 			mainTitle = "Dragon's Trail"		},		backgroundBmp = "field2_s2"	},	["1@4win.rsw"] = {		displayName = "Luluca Deep Forest",		notifyEnter = true,
 		signName = {
-			mainTitle = "Luluca Deep Forest"		},		backgroundBmp = "field2_s2"	},	["1@4tro.rsw"] = {		displayName = "Kvashir's Ship",		notifyEnter = true,		signName = {			mainTitle = "Kvashir's Ship"		},		backgroundBmp = "field2_s2"	},	["job4_tro.rsw"] = {		displayName = "Empty Kvashir's Ship",		notifyEnter = true,		signName = {			mainTitle = "Empty Kvashir's Ship"		},		backgroundBmp = "field2_s2"	},	["1@4inq.rsw"] = {		displayName = "Monastery Basement",		notifyEnter = true,		signName = {			mainTitle = "Monastery Basement"		},		backgroundBmp = "field2_s2"	},	["job4_bio.rsw"] = {		displayName = "Secret Garden",		notifyEnter = true,		signName = {			mainTitle = "Secret Garden"		},		backgroundBmp = "field2_s2"	},	["1@4mst.rsw"] = {		displayName = "Euperos Central VT",		notifyEnter = true,		signName = {			mainTitle = "Euperos Central VT"		},		backgroundBmp = "field2_s2"	},	["1@4cdn.rsw"] = {		displayName = "Cave of the Last Ordeal Vision",		notifyEnter = true,		signName = {			mainTitle = "Cave of the Last Ordeal Vision"		},		backgroundBmp = "field2_s2"	},	["1@4igd.rsw"] = {		displayName = "The Battlefield of Justice",		notifyEnter = true,		signName = {			mainTitle = "The Battlefield of Justice"		},		backgroundBmp = "field2_s2"	},	["1@4mag.rsw"] = {		displayName = "Magic Fountain",		notifyEnter = true,		signName = {			mainTitle = "Magic Fountain"		},		backgroundBmp = "field2_s2"	},	["job4_mag.rsw"] = {		displayName = "Magic Fountain",		notifyEnter = true,		signName = {			mainTitle = "Magic Fountain"		},		backgroundBmp = "field2_s2"	},	["tra_fild.rsw"] = {		displayName = "Training ground outside of Prontera",		notifyEnter = true,		signName = {			mainTitle = "Training ground outside of Prontera"		},		backgroundBmp = "field_s2"	},	["iz_d04_i.rsw"] = {		displayName = "Deep Sea Cave",		notifyEnter = true, 
+			mainTitle = "Luluca Deep Forest"		},		backgroundBmp = "field2_s2"	},	["1@4tro.rsw"] = {		displayName = "Kvashir's Ship",		notifyEnter = true,		signName = {			mainTitle = "Kvashir's Ship"		},		backgroundBmp = "field2_s2"	},	["job4_tro.rsw"] = {		displayName = "Empty Kvashir's Ship",		notifyEnter = true,		signName = {			mainTitle = "Empty Kvashir's Ship"		},		backgroundBmp = "field2_s2"	},	["1@4inq.rsw"] = {		displayName = "Monastery Basement",		notifyEnter = true,		signName = {			mainTitle = "Monastery Basement"		},		backgroundBmp = "field2_s2"	},	["job4_bio.rsw"] = {		displayName = "Secret Garden",		notifyEnter = true,		signName = {			mainTitle = "Secret Garden"		},		backgroundBmp = "field2_s2"	},	["1@4mst.rsw"] = {		displayName = "Euperos Central VT",		notifyEnter = true,		signName = {			mainTitle = "Euperos Central VT"		},		backgroundBmp = "field2_s2"	},	["1@4cdn.rsw"] = {		displayName = "Cave of the Last Ordeal Vision",		notifyEnter = true,		signName = {			mainTitle = "Cave of the Last Ordeal Vision"		},		backgroundBmp = "field2_s2"	},	["1@4igd.rsw"] = {		displayName = "The Battlefield of Justice",		notifyEnter = true,		signName = {			mainTitle = "The Battlefield of Justice"		},		backgroundBmp = "field2_s2"	},	["1@4mag.rsw"] = {		displayName = "Magic Fountain",		notifyEnter = true,		signName = {			mainTitle = "Magic Fountain"		},		backgroundBmp = "field2_s2"	},	["job4_mag.rsw"] = {		displayName = "Magic Fountain",		notifyEnter = true,		signName = {			mainTitle = "Magic Fountain"		},		backgroundBmp = "field2_s2"	},	["tra_fild.rsw"] = {		displayName = "Prontera Outer Training Grounds",		notifyEnter = true,		signName = {			mainTitle = "Prontera Outer Training Grounds"		},		backgroundBmp = "field_s2"	},	["iz_d04_i.rsw"] = {		displayName = "Deep Sea Cave",		notifyEnter = true, 
 		signName = {			mainTitle = "Deep Sea Cave"		},		backgroundBmp = "dungeon"	},
 	["iz_d05_i.rsw"] = {		displayName = "Deep Sea Cave",		notifyEnter = true, 
 		signName = {			mainTitle = "Deep Sea Cave"		},		backgroundBmp = "dungeon"	},
@@ -338,14 +485,14 @@ mapTbl = {
 		signName = {			subTitle = "Illusion",			mainTitle = "Luanda, the North Cave"		},		backgroundBmp = "dungeon"	},
 	["ein_d02_i.rsw"] = {		displayName = "Nasarin Empire",		notifyEnter = true, 
 		signName = {			subTitle = "Illusion",			mainTitle = "Nasarin Empire"		},		backgroundBmp = "dungeon"	},
-	["vis_h01.rsw"] = {		displayName = "Welcome Corridor F1",		notifyEnter = true, 
-		signName = {			mainTitle = "Welcome Corridor F1"		},		backgroundBmp = "dungeon_s2"	},
-	["vis_h02.rsw"] = {		displayName = "Welcome Corridor F2",		notifyEnter = true, 
-		signName = {			mainTitle = "Welcome Corridor F2"		},		backgroundBmp = "dungeon_s2"	},
-	["vis_h03.rsw"] = {		displayName = "Welcome Corridor F3",		notifyEnter = true, 
-		signName = {			mainTitle = "Welcome Corridor F3"		},		backgroundBmp = "dungeon_s2"	},
-	["vis_h04.rsw"] = {		displayName = "Welcome Corridor F4",		notifyEnter = true, 
-		signName = {			mainTitle = "Welcome Corridor F4"		},		backgroundBmp = "dungeon_s2"	},
+	["vis_h01.rsw"] = {		displayName = "Investigation Corridor F1",		notifyEnter = true, 
+		signName = {			mainTitle = "Investigation Corridor F1"		},		backgroundBmp = "dungeon_s2"	},
+	["vis_h02.rsw"] = {		displayName = "Investigation Corridor F2",		notifyEnter = true, 
+		signName = {			mainTitle = "Investigation Corridor F2"		},		backgroundBmp = "dungeon_s2"	},
+	["vis_h03.rsw"] = {		displayName = "Investigation Corridor F3",		notifyEnter = true, 
+		signName = {			mainTitle = "Investigation Corridor F3"		},		backgroundBmp = "dungeon_s2"	},
+	["vis_h04.rsw"] = {		displayName = "Investigation Corridor F4",		notifyEnter = true, 
+		signName = {			mainTitle = "Investigation Corridor F4"		},		backgroundBmp = "dungeon_s2"	},
 	["2@gl_kh.rsw"] = {		displayName = "Old Glastheim Chivalry F2",		notifyEnter = true, 
 		signName = {			subTitle = "Old Glastheim",			mainTitle = "Chivalry F2"		},		backgroundBmp = "dungeon"	},
 	["1@gl_kh.rsw"] = {		displayName = "Old Glastheim Chivalry F2",		notifyEnter = true, 

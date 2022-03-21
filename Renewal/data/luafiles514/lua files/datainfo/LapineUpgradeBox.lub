@@ -1,5 +1,171 @@
 tblLapineUpgradeBox = {
 	targets = {
+		True_GemShadow_Up = {
+			ItemID = 101308,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_TrueGem_Pendant", 24678 },
+				{ "S_TrueGem_Earring", 24677 },
+				{ "S_TrueGem_Shoes", 24676 },
+				{ "S_TrueGem_Armor", 24675 }
+			},
+			NeedSource_String = "True Gemstone Shadow Equipment"
+		},
+		EXPShadow_Up = {
+			ItemID = 101309,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_EXP_Shield", 24683 }
+			},
+			NeedSource_String = "Experience Shadow Equipment"
+		},
+		MagicalShadow_Up = {
+			ItemID = 101310,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_Clever_Shield", 24737 },
+				{ "S_Clever_Weapon", 24736 }
+			},
+			NeedSource_String = "Clever Shadow Equipment"
+		},
+		InfinityShadow_Up = {
+			ItemID = 101311,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_Infinity_Shield", 24733 },
+				{ "S_Infinity_Weapon", 24386 }
+			},
+			NeedSource_String = "Infinity Shadow Equipment"
+		},
+		R_Bearers_Shadow_Up = {
+			ItemID = 101260,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_R_Bearers_Armor", 24764 },
+				{ "S_R_Bearers_Shoes", 24763 },
+				{ "S_R_Bearers_Earring", 24766 },
+				{ "S_R_Bearers_Pendant", 24765 }
+			},
+			NeedSource_String = "Lord Bearer's Shadow Equipment"
+		},
+		M_Blitz_Shadow_Up = {
+			ItemID = 101261,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_Mega_Blitz_Shield", 24767 },
+				{ "S_Mega_Blitz_Weapon", 24768 }
+			},
+			NeedSource_String = "Mega Blitz Shadow Equipment"
+		},
+		Absorb_Shadow_Up = {
+			ItemID = 101262,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_Absorb_Shield", 24685 },
+				{ "S_Absorb_Weapon", 24686 }
+			},
+			NeedSource_String = "Absorb Shadow Equipment"
+		},
+		Mammoth_Shadow_Up = {
+			ItemID = 101264,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_M_Mammoth_Armor", 24679 },
+				{ "S_M_Mammoth_Shoes", 24680 },
+				{ "S_M_Mammoth_Earring", 24681 },
+				{ "S_M_Mammoth_Pendant", 24682 }
+			},
+			NeedSource_String = "Maximum Mammoth Shadow Equipment"
+		},
+		FullPenest_Shadow_Up = {
+			ItemID = 101177,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_FullPene_Earring", 24661 },
+				{ "S_FullPene_Pendant", 24662 },
+				{ "S_FullPene_Armor", 24663 },
+				{ "S_FullPene_Shoes", 24664 },
+				{ "S_FullTemp_Earring", 24665 },
+				{ "S_FullTemp_Shoes", 24666 },
+				{ "S_FullTemp_Armor", 24667 },
+				{ "S_FullTemp_Pendant", 24668 }
+			},
+			NeedSource_String = "Full Penetration, Tempest Shadow Equipment"
+		},
+		Reload_Shadow_Up = {
+			ItemID = 101178,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_S_Reload_Shield", 24746 }
+			},
+			NeedSource_String = "Seperate Reload Shadow Shield"
+		},
+		SpellCaster_Shadow_Up = {
+			ItemID = 101179,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_SpellCaster_Armor", 24747 },
+				{ "S_SpellCaster_Shoes", 24748 },
+				{ "S_SpellCaster_Earring", 24749 },
+				{ "S_SpellCaster_Pendant", 24750 }
+			},
+			NeedSource_String = "Spell Caster Shadow Equipment"
+		},
+		Ex_Status_Shadow_Up = {
+			ItemID = 101180,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "S_P_Power_Weapon", 24751 },
+				{ "S_P_Power_Shield", 24752 },
+				{ "S_M_Spell_Weapon", 24753 },
+				{ "S_M_Spell_Shield", 24754 },
+				{ "S_Concentration_Weapon", 24755 },
+				{ "S_Concentration_Shield", 24756 },
+				{ "S_Wisdom_Weapon", 24757 },
+				{ "S_Wisdom_Shield", 24758 },
+				{ "S_Stamina_Weapon", 24759 },
+				{ "S_Stamina_Shield", 24760 },
+				{ "S_Creative_Weapon", 24761 },
+				{ "S_Creative_Shield", 24762 }
+			},
+			NeedSource_String = "Trait Status Shadow Equipment"
+		},
 		Lens_Craft_Stone = {
 			ItemID = 100823,
 			NeedRefineMin = 0,
@@ -42,7 +208,17 @@ tblLapineUpgradeBox = {
 				{ "Oriental_Sword_LT", 600023 },
 				{ "Dragonic_Slayer_LT", 600024},
 				{ "Shiver_Katar_K_LT", 610033 },
-				{ "Blade_Katar_LT", 610034 }
+				{ "Blade_Katar_LT", 610034 },
+				{ "Humma_Clear_LT", 650024 },
+				{ "Fog_Dew_Sword_LT", 510060 },
+				{ "Crimson_Rose_LT", 800013 },
+				{ "Master_Soul_Rifle_LT", 810009 },
+				{ "Demon_S_Shot_LT", 820007 },
+				{ "The_Black_Gatling_LT", 830012 },
+				{ "Golden_L_Launcher_LT", 840008 },
+				{ "MeawFoxtail_LT", 550067 },
+				{ "OneSkyOneSun_LT", 540048 },
+				{ "SoulWeight_LT", 550068 }
 			},
 			NeedSource_String = "Hero's Weapon-LT"
 		},
@@ -77,7 +253,17 @@ tblLapineUpgradeBox = {
 				{ "Oriental_Sword_LT", 600023 },
 				{ "Dragonic_Slayer_LT", 600024},
 				{ "Shiver_Katar_K_LT", 610033 },
-				{ "Blade_Katar_LT", 610034 }
+				{ "Blade_Katar_LT", 610034 },
+				{ "Humma_Clear_LT", 650024 },
+				{ "Fog_Dew_Sword_LT", 510060 },
+				{ "Crimson_Rose_LT", 800013 },
+				{ "Master_Soul_Rifle_LT", 810009 },
+				{ "Demon_S_Shot_LT", 820007 },
+				{ "The_Black_Gatling_LT", 830012 },
+				{ "Golden_L_Launcher_LT", 840008 },
+				{ "MeawFoxtail_LT", 550067 },
+				{ "OneSkyOneSun_LT", 540048 },
+				{ "SoulWeight_LT", 550068 }
 			},
 			NeedSource_String = "Hero's Weapon-LT"
 		},
@@ -482,6 +668,7 @@ tblLapineUpgradeBox = {
 		MD_Airboat_Random = {
 			ItemID = 100476,
 			NeedRefineMin = 0,
+			NeedRefineMax = 20,
 			NeedOptionNumMin = 0,
 			NotSocketEnchantItem = true,
 			TargetItems = {
@@ -786,6 +973,7 @@ tblLapineUpgradeBox = {
 		Egir_Power_Box = {
 			ItemID = 100466,
 			NeedRefineMin = 0,
+			NeedRefineMax = 20,
 			NeedOptionNumMin = 0,
 			NotSocketEnchantItem = false, 
 			TargetItems = {
@@ -803,6 +991,7 @@ tblLapineUpgradeBox = {
 		Egir_Magic_Box = {
 			ItemID = 100467,
 			NeedRefineMin = 0,
+			NeedRefineMax = 20,
 			NeedOptionNumMin = 0,
 			NotSocketEnchantItem = false,
 			TargetItems = {
@@ -1872,7 +2061,13 @@ tblLapineUpgradeBox = {
 				{ "Brionac_IL", 630006 },
 				{ "Zephyrus_IL", 630007 },
 				{ "Electronic_Guitar_IL", 570008 },
-				{ "Electric_Eel_IL", 580008 }
+				{ "Electric_Eel_IL", 580008  },
+				{ "Doom_Slayer_IL", 620010 },
+				{ "Excalibur_IL", 500030 },
+				{ "Ancient_Dagger_IL", 510034 },
+				{ "Gelerdria_IL", 530015 },
+				{ "Thorn_Staff_IL", 550030 },
+				{ "Dea_Staff_IL", 550031 }
 			},
 			NeedSource_String = "Level 4 Illusion Weapons"
 		},
@@ -1912,7 +2107,14 @@ tblLapineUpgradeBox = {
 				{ "Brionac_IL", 630006 },
 				{ "Zephyrus_IL", 630007 },
 				{ "Electronic_Guitar_IL", 570008 },
-				{ "Electric_Eel_IL", 580008 }
+				{ "Electric_Eel_IL", 580008 },
+				{ "Electric_Eel_IL", 580008  },
+				{ "Doom_Slayer_IL", 620010 },
+				{ "Excalibur_IL", 500030 },
+				{ "Ancient_Dagger_IL", 510034 },
+				{ "Gelerdria_IL", 530015 },
+				{ "Thorn_Staff_IL", 550030 },
+				{ "Dea_Staff_IL", 550031 }
 			},
 			NeedSource_String = "Level 4 Illusion Weapons"
 		},
@@ -3111,7 +3313,30 @@ tblLapineUpgradeBox = {
 				{ "S_Clever_Weapon", 24736 },
 				{ "S_Clever_Shield", 24737 },
 				{ "S_CriticalHit_Weapon", 24738 },
-				{ "S_KingbirdAnc_Weapon", 24745 }
+				{ "S_KingbirdAnc_Weapon", 24745 },
+				{ "S_P_Power_Weapon", 24751 },
+				{ "S_P_Power_Shield", 24752 },
+				{ "S_M_Spell_Weapon", 24753 },
+				{ "S_M_Spell_Shield", 24754 },
+				{ "S_Concentration_Weapon", 24755 },
+				{ "S_Concentration_Shield", 24756 },
+				{ "S_Wisdom_Weapon", 24757 },
+				{ "S_Wisdom_Shield", 24758 },
+				{ "S_Stamina_Weapon", 24759 },
+				{ "S_Stamina_Shield", 24760 },
+				{ "S_Creative_Weapon", 24761 },
+				{ "S_Creative_Shield", 24762 },
+				{ "S_S_Reload_Shield", 24746 },
+				{ "S_SpellCaster_Armor", 24747 },
+				{ "S_SpellCaster_Shoes", 24748 },
+				{ "S_SpellCaster_Earring", 24749 },
+				{ "S_SpellCaster_Pendant", 24750 },
+				{ "S_R_Bearers_Shoes", 24763 },
+				{ "S_R_Bearers_Armor", 24764 },
+				{ "S_R_Bearers_Pendant", 24765 },
+				{ "S_R_Bearers_Earring", 24766 },
+				{ "S_Mega_Blitz_Shield", 24767 },
+				{ "S_Mega_Blitz_Weapon", 24768 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -3798,14 +4023,37 @@ tblLapineUpgradeBox = {
 				{ "S_Clever_Weapon", 24736 },
 				{ "S_Clever_Shield", 24737 },
 				{ "S_CriticalHit_Weapon", 24738 },
-				{ "S_KingbirdAnc_Weapon", 24745 }
+				{ "S_KingbirdAnc_Weapon", 24745 },
+				{ "S_P_Power_Weapon", 24751 },
+				{ "S_P_Power_Shield", 24752 },
+				{ "S_M_Spell_Weapon", 24753 },
+				{ "S_M_Spell_Shield", 24754 },
+				{ "S_Concentration_Weapon", 24755 },
+				{ "S_Concentration_Shield", 24756 },
+				{ "S_Wisdom_Weapon", 24757 },
+				{ "S_Wisdom_Shield", 24758 },
+				{ "S_Stamina_Weapon", 24759 },
+				{ "S_Stamina_Shield", 24760 },
+				{ "S_Creative_Weapon", 24761 },
+				{ "S_Creative_Shield", 24762 },
+				{ "S_S_Reload_Shield", 24746 },
+				{ "S_SpellCaster_Armor", 24747 },
+				{ "S_SpellCaster_Shoes", 24748 },
+				{ "S_SpellCaster_Earring", 24749 },
+				{ "S_SpellCaster_Pendant", 24750 },
+				{ "S_R_Bearers_Shoes", 24763 },
+				{ "S_R_Bearers_Armor", 24764 },
+				{ "S_R_Bearers_Pendant", 24765 },
+				{ "S_R_Bearers_Earring", 24766 },
+				{ "S_Mega_Blitz_Shield", 24767 },
+				{ "S_Mega_Blitz_Weapon", 24768 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
 		Shadow_Random_Mix = {
 			ItemID = 23720,
 			NeedRefineMin = 7,
-			NeedRefineMax = 20,
+			NeedRefineMax = 10,
 			NeedOptionNumMin = 0,
 			NotSocketEnchantItem = true, 
 			TargetItems = {
@@ -4395,7 +4643,30 @@ tblLapineUpgradeBox = {
 				{ "S_Clever_Weapon", 24736 },
 				{ "S_Clever_Shield", 24737 },
 				{ "S_CriticalHit_Weapon", 24738 },
-				{ "S_KingbirdAnc_Weapon", 24745 }
+				{ "S_KingbirdAnc_Weapon", 24745 },
+				{ "S_P_Power_Weapon", 24751 },
+				{ "S_P_Power_Shield", 24752 },
+				{ "S_M_Spell_Weapon", 24753 },
+				{ "S_M_Spell_Shield", 24754 },
+				{ "S_Concentration_Weapon", 24755 },
+				{ "S_Concentration_Shield", 24756 },
+				{ "S_Wisdom_Weapon", 24757 },
+				{ "S_Wisdom_Shield", 24758 },
+				{ "S_Stamina_Weapon", 24759 },
+				{ "S_Stamina_Shield", 24760 },
+				{ "S_Creative_Weapon", 24761 },
+				{ "S_Creative_Shield", 24762 },
+				{ "S_S_Reload_Shield", 24746 },
+				{ "S_SpellCaster_Armor", 24747 },
+				{ "S_SpellCaster_Shoes", 24748 },
+				{ "S_SpellCaster_Earring", 24749 },
+				{ "S_SpellCaster_Pendant", 24750 },
+				{ "S_R_Bearers_Shoes", 24763 },
+				{ "S_R_Bearers_Armor", 24764 },
+				{ "S_R_Bearers_Pendant", 24765 },
+				{ "S_R_Bearers_Earring", 24766 },
+				{ "S_Mega_Blitz_Shield", 24767 },
+				{ "S_Mega_Blitz_Weapon", 24768 }
 			},
 			NeedSource_String = "+7 Shadow Equipment"
 		},
@@ -5633,6 +5904,58 @@ tblLapineUpgradeBox = {
 				{ "Morrigane_Manyeau_IL", 480054 }
 			},
 			NeedSource_String = "Illusion of Underwater Equipment"
+		}, 
+		Snow_F_Refine = {
+			ItemID = 101187,
+			NeedRefineMin = 0,
+			NeedRefineMax = 8,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = false,
+			TargetItems = {
+				{ "Snowflower_Armor", 450206 },
+				{ "Snowflower_Robe", 450207 },
+				{ "Snowflower_Manteau", 480159 },
+				{ "Snowflower_Muffler", 480160 },
+				{ "Snowflower_Boots", 470115 },
+				{ "Snowflower_Shoes", 470116 }
+			},
+			NeedSource_String = "Snow Flower Armor"
+		},
+		Glacier_W_Refine = {
+			ItemID = 101188,
+			NeedRefineMin = 0,
+			NeedRefineMax = 8,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = false,
+			TargetItems = {
+				{ "Glacier_Launcher", 840009 },
+				{ "Glacier_Gatling", 830013 },
+				{ "Glacier_Shotgun", 820008 },
+				{ "Glacier_Rifle", 810010 },
+				{ "Glacier_Revolver", 800014 },
+				{ "Glacier_Humma", 650025 },
+				{ "Glacier_Whip", 580030 },
+				{ "Glacier_Violin", 570029 },
+				{ "Glacier_Foxtail", 550070 },
+				{ "Glacier_Wand", 550069 },
+				{ "Glacier_Staff", 640033 },
+				{ "Glacier_Katar", 610037 },
+				{ "Glacier_Book", 540049 },
+				{ "Glacier_Knuckle", 560032 },
+				{ "Glacier_Bow", 700052 },
+				{ "Glacier_B_Knife", 510062 },
+				{ "Glacier_R_Knife", 510061 },
+				{ "Glacier_Mace", 590038 },
+				{ "Glacier_M_Mace", 590039 },
+				{ "Glacier_Axe", 520017 },
+				{ "Glacier_T_Axe", 620017 },
+				{ "Glacier_Spear", 530025 },
+				{ "Glacier_Lance", 630018 },
+				{ "Glacier_B_Sword", 500050 },
+				{ "Glacier_Sword", 500049 },
+				{ "Glacier_T_Sword", 600027 }
+			},
+			NeedSource_String = "Glacier Weapons"
 		}
 	},
 	serverMain = function()

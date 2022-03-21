@@ -8324,5 +8324,13 @@ SKILL_INFO_LIST = {
 	[SKID.GD_ITEMEMERGENCYCALL] = {
 		"GD_ITEMEMERGENCYCALL",
 		SkillName = "Item Emergency Call",
-	}
+	},
+	[SKID.MC_CARTDECORATE] = {
+		"MC_CARTDECORATE",
+		SkillName = "Change Cart 2",
+		MaxLv = 1,
+		SpAmount = { 40 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
 }
