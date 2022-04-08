@@ -10,6 +10,7 @@ AddCustomLua = function()
   LUA.addLoaders("Lua Files\\DataInfo\\SpriteRobeName_F",["lua files\\cls\\spriterobename_f"],true)
   LUA.addLoaders("Lua Files\\DataInfo\\WeaponTable_F",["lua files\\cls\\weapontable_f"],true)
   LUA.addLoaders("Lua Files\\transparentItem\\transparentItem_f",["lua files\\cls\\transparentitem_f"],true)
+  LUA.addLoaders("Lua Files\\SignBoardList_F",["lua files\\cls\\signboardlist_f"])
   
   LUA.addLoaders("Lua Files\\DataInfo\\accName",["lua files\\cls\\accname"])
   LUA.addLoaders("Lua Files\\DataInfo\\AccessoryId",["lua files\\cls\\accessoryid"])
@@ -35,5 +36,6 @@ AddCustomLua = function()
   LUA.addLoaders("Lua Files\\Navigation\\Navi_LinkDistance_krpri",["lua files\\cls\\navi_linkdistance"])
   LUA.addLoaders("Lua Files\\Navigation\\Navi_NpcDistance_krpri",["lua files\\cls\\navi_npcdistance"])
   LUA.addLoaders("Lua Files\\Navigation\\Navi_Scroll_krpri",["lua files\\cls\\navi_scroll"])
+  LUA.addLoaders("Lua Files\\SignBoardList",["lua files\\cls\\signboardlist"])
   return true;
 };

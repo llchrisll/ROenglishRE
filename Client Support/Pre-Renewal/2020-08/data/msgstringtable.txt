@@ -296,16 +296,16 @@ Only the Party Leader can change this setting.#
 Toggle Item Amount.#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
 You cannot trade more than 10 types of items per trade.#
-You are underaged.#
+You are not old enough to use this server.#
 Please enter the deletion password.#
 E-mail Address (Case Sensitive).#
 Character Deletion has failed because you have entered an incorrect e-mail address.#
-Enter Second Serial Cord of your Social Security number.#
-Character Deletion has failed because you have entered an incorrect SSN.#
+Enter your account password.#
+The character was not deleted because the password was wrong.#
 You can't sell more than 15 types of Items at one time.#
 You are underaged and cannot join this server.#
-HP and SP natural regeneration are disabled because your carried weight is over 50% of the Weight Limit.#
-You can't use Skills or Attack while your carried weight is over 90% of your Weight Limit.#
+HP and SP natural regeneration are disabled because your Weight is over 50% of the Weight Limit.#
+Attacks and skills cannot be used when your Weight is over 90%.#
 Your HP/SP are now being restored naturally.#
 Attack and Skills are now available.#
 Your Game's Exe File is not the latest version.#
@@ -348,39 +348,39 @@ Entire Guild List#
 Whispering List#
 Open Whispering Window#
 How to Open Whispering List: Press [Alt] + [H]#
-Open Whispering List Automatically#
+Automatically open Whispering List#
 Delete#
 Close since next#
 Last Log-in Time#
 Last Log-in IP#
 Friend Setup#
-Are you sure that you want to delete?#
+Are you sure that you want to delete it?#
 Are you sure that you want to leave?#
 Register as a Friend#
 Open 1:1 Chat between Friends#
 Open 1:1 Chat#
 Open 1:1 Chat between Strangers#
 Alarm when recieve a 1:1 Chat#
-Are you sure that you want to expel?#
-%s has withdrawn from the guild.#
-Secession Reason: %s#
+Are you sure that you want to expel him/her?#
+%s has left the guild.#
+Withdrawal Reason: %s#
 You have failed to disband the guild.#
 Disband Reason: %s#
-This ID has been removed.#
+This account has been deleted.#
 Price: #
-%s has been expelled from our guild.#
+%s has been expelled from the guild.#
 Expulsion Reason: %s#
 You can't put this item on.#
 You can't modify Party Setup.#
-Guild has been Created.#
+Guild has been created.#
 You are already in a Guild.#
 That Guild Name already exists.#
  Guild has sent you an invitation. Would you like to join this Guild?#
 He/She is already in a Guild.#
-Offer Rejected#
-Offer Accepted#
-Your Guild is Full.#
-Send (%s) a Guild invitation#
+You have refused the guild invitation.#
+You have accepted the guild invitation.#
+Your Guild is full.#
+Send (%s) a Guild Invitation#
 You haven't learned enough skills for aligning.#
 Aligning completed.#
 You already spent your point for today.#
@@ -391,13 +391,13 @@ Align with a Good Point#
 Align with a Bad Point#
 Request a deal with (%s)#
 Ask (%s) to join your party#
- Guild is asking you to agree to an Alliance with them. Do you accept?#
-This Guild is already your Ally.#
-You reject the offer#
-You accept the offer#
-They have too many Alliances.#
+ Guild is asking for an Alliance with them. Do you accept?#
+Your Guild is already in an Alliance with this Guild.#
+You rejected the Alliance Request.#
+You accepted the Alliance Request.#
+Other Guild has too many Alliances.#
 You have too many Alliances.#
-Set this guild as an Alliance#
+Send an Guild Alliance Request#
 Guild was successfully disbanded.#
 You have failed to disband the guild due to your incorrect SSN.#
 You have failed to disband the guild because there are guildsmen still present.#
@@ -409,7 +409,7 @@ Name#
 Level#
 HP#
 Size#
-Type#
+Race#
 MDEF#
 Element#
 Neutral#
@@ -423,22 +423,22 @@ Shadow#
 Ghost#
 Undead#
 You can't create items yet.#
-Item List you can craft#
+Manufacturing List#
  Create#
-'s materials#
+'s required materials#
  item creation failed.#
  item created successfully.#
 Failed to create %s.#
 Successfully created %s.#
-You are not the required lvl.#
-Too high lvl for this job.#
+You don't have the the required level.#
+You level is too high for this job.#
 Not the suitable job for this type of work.#
 Record a message in the Talkie Box#
 Please type a message for the Talkie Box#
 Send to Guild#
-You didn't pay for this ID. Would you like to pay for it now?#
-Server is jammed due to overpopulation. Please try again after few minutes.#
-Server still recognizes your last log-in. Please try again after a few minutes.#
+You didn't pay for this account. Would you like to pay for it now?#
+Server is jammed due to overpopulation. Please try again later.#
+Server still recognizes your last log-in. Please try again after about 30 seconds.#
 Release Falcon#
 Dismount#
 Small#
@@ -453,9 +453,9 @@ You are prohibited to log in until %s.#
 's Ice #
 's Wind #
 's Earth #
-211.239.161.246#
+127.0.0.1#
 6900#
-http://www.ragnarok.co.kr#
+https://rathena.org/board/#
 Kill %s#
 Very Strong #
 Very Very Strong #
@@ -465,21 +465,21 @@ Attack Speed is increased.#
 Attack Speed is reduced.#
 Weapon Damage is improved.#
 Weapon Damage is reduced.#
-Cast Delay is reduced.#
-Cast Delay has returned to normal.#
-Weapon is temporarily enchanted with Poison.#
-Weapon is temporarily enchanted with Holy property.#
+Casting Delay is reduced.#
+Casting Delay has returned to normal.#
+Weapon is temporarily enchanted with Poison element.#
+Weapon is temporarily enchanted with Holy element.#
 Weapon has changed back to normal.#
-Armor has been enchanted with the Holy property.#
+Armor is temporarily enchanted with the Holy element.#
 Armor has changed back to normal.#
 Barrier formed.#
 Barrier canceled.#
-Weapon Perfection Initiated.#
-Weapon perfection Canceled.#
-Power-Thrust Initiated.#
-Power-Thrust Canceled.#
-Maximize-Power Initiated.#
-Maximize-Power Canceled.#
+Weapon Perfection initiated.#
+Weapon Perfection canceled.#
+Power-Thrust initiated.#
+Power-Thrust canceled.#
+Maximize-Power initiated.#
+Maximize-Power canceled.#
 [New Server]#
 (%d players)#
 (On the maintenance)#
@@ -521,7 +521,7 @@ Number of Members#
 Ranking#
 Item Appraisal#
 Insert Card#
-Please enter the reason of Secession.#
+Please enter the reason of Withdrawal.#
 Please enter the reason of Expulsion.#
 Please close Shop.#
 Skill #
@@ -529,7 +529,7 @@ Item Name#
 https://pay.ragnarok.co.kr (Billing Web)#
 IP capacity of this Internet Cafe is full. Would you like to pay the personal base?#
 You are out of available paid playing time. Game will be shut down automatically.#
-Name is too long. Please enter a name no greater than 23 english characters.#
+Name is too long. Please enter a name up to 23 english characters.#
 deleted#
 You paid with the personal regular base.#
 You paid with the personal regular base. Available time is xx hrs xx mins xx secs.#
@@ -540,7 +540,7 @@ You paid with the Time Limit for Internet Cafe. Available time is xx hrs xx mins
 You are free for the test of Internet Cafe version .#
 You are free for the Internet Cafe version.#
 You paid on the Time Limit Website.#
-Emotion icon List#
+Emoji List#
 /emo#
 /!#
 /?#
@@ -603,7 +603,7 @@ Are you sure that you want to feed your pet?#
 Only the numbers (0~9) are available.#
 You cannot sell unidentified items.#
 Item at 0 Zeny exists. Do you wish to continue?#
-[New Emotion List]#
+[New Emoji List]#
 N/A#
 N/A#
 Character in the same account already joined.#
@@ -685,10 +685,10 @@ You may change your pet's name only once. Your pet's name will be changed to ^00
 /font#
 Your guild lacks the funds to pay for this venture.#
 Your guild zeny limit prevents you from performing this action.#
-Simplified effects have been activated.#
-Simplified effects have been deactivated.#
+Effect Simplification On#
+Effect Simplification Off#
 Required Fee#
-If you wish to drop an item, you must first open your Item Window (alt+e).#
+If you wish to drop an item, you must first open your Item Window (ALT+E).#
 Internet Cafe Time Plan has been ended. Would you like to continue the game with your personal play time?#
 #
 #
@@ -3006,14 +3006,14 @@ You can not do it while opening chat room#
 Party members are not connected.#
 You need %d arrow(s) to use the skill.#
 Align items#
-To discard item, please close equipment swap window.#
+To discard item, please close the Swap Equipment window.#
 There is no item to replace.#
 Deleted character#
 %y.%m.%d#
 Access date: %s#
 You can not use bank while refining. Bank has been closed.#
 You can not use bank while refining.#
-This item has been set for equipment swap.#
+This item has been set for Swap Equipment.#
 Human#
 Swordman, Mage, Merchant, Acolyte, Thief, Archer, Expanded Classes#
 Doram#
@@ -3038,7 +3038,7 @@ https://member.gnjoy.com.tw/mRO_SecPwd.aspx#
 The selected emblem isn't available, try placing it in 'emblem' folder then try again#
 New Ragnarok Online#
 Please obtain permission first from other user that appears in screenshot or chat room#
-Unable to swap equipment#
+Unable to swap equipment.#
 Loading the player's name#
 The message contains unrecognizable character#
 Purchase failed#
@@ -3141,8 +3141,8 @@ Move#
 Rotate#
 Party leader role must be appointed to other party member before leaving the party#
 Stop watching the replay?#
-Equipment have been placed on equipment swap window#
-Equipment have been removed from equipment swap window#
+ have been placed on the Swap Equipment window.#
+ have been removed from the Swap Equipment window.#
 In the last row#
 %.1f%% (Basic 100%% + Bonus%.1f%%+ %s Server%.1f%% )#
 Ctrl#
@@ -3354,7 +3354,7 @@ You can not use items.#
 Can not move to the same map.#
 It is impossible to move when your character KO'ed#
 Character Creation#
-Adventurer agent registration#
+Registration in Adventurer Agency#
 Stop recruiting#
 Adventurer Agency Settings#
 Note#
@@ -3366,13 +3366,13 @@ Paradise#
 Other#
 Search#
 Reset#
-Party Registration#
+Registration for Party#
 Purpose#
-* You may be punished for use for purposes that violate operating rules such as abusive or current transactions.#
+* Please respect the rules of the server.#
 Register#
 Contains words that cannot be used.#
-Join Party#
-1:1 Conversation#
+Join#
+PM#
 Party recruitment suspended#
 Edit#
 Entire#
@@ -3413,10 +3413,10 @@ Save ID#
 Password#
 ID#
 Sign Up#
-Party Leader#
+Leader#
 You don't meet the required level to join the party.#
-Failed to register Adventurer's Agency.#
-Registered to Adventurer's Agency.#
+Failed to register for the Adventurer's Agency.#
+Registered for the Adventurer's Agency.#
 Enter search details#
 Tank#
 %.1f%% (+ %s server %.1f%%)#
@@ -3486,7 +3486,7 @@ Force close part time shop notification email#
 Hello. Operation team.\r\nThose part-time job booths were confirmed to be inconsistent with the operation policy and were forcibly terminated.\r\nIf you would like more information, please contact us.\r\n thank you#
 You can't enter value more than 50%.#
 Sent a request to join the party.#
-You can not register party at an adventurer's office#
+You can not register a party at an Adventurer's Agency.#
 Accept#
 Refuse#
 Healer#
@@ -3494,7 +3494,7 @@ The character could not be found.#
 Close shop#
 Unable to find applicable party.#
 You can not join the party because your job level is low.#
-The current requestor is in an area where you can not join the party.#
+The current requestor is in an area where it's not possible to join the party.#
 Party number exceeded.#
 %s party leader has approved you to join the party.#
 %s party leader has rejected you from joining the party.#
@@ -3504,7 +3504,7 @@ Party number exceeded.#
 Since you can not receive party request, %s's party invitation has been rejected.#
 Adventurer's Agency List#
 Request to join the party#
-If you are not a party leader, you can not register party at the adventurer's office.#
+If you are not a party leader, you can not register party at the Adventurer's Agency.#
 You can not stop the party recruitment.#
 Support#
 Zoom Out#
@@ -3514,9 +3514,9 @@ Zoom Out is turned (Off)#
 /zoom#
 Adventurer's Agency#
 You can not request to join, if you are a party leader.#
-Registering adventurer's agent. Please wait.#
+Registering at the Adventurer's Agency. Please wait.#
 You can no longer choose a job.#
-The user can't receive invitation.#
+Block party request from this player.#
 After a few moments, please re-open.#
 This function is not available for %d minutes during WoE.#
 /viewclear#
@@ -3595,20 +3595,20 @@ Would you like to retrieve the attachment of the selected email?#
 Would you like to retrieve all attached items in the [%s] mailbox?#
 Skill Bar 2#
 Change Skill Bar#
-¡ç#
-¡è#
-¡æ#
-¡é#
-¢Ç#
-¡ç#
+¢®c#
+¢®e#
+¢®©¡#
+¢®e#
+¡ËC#
+¢®c#
 This window cannot be closed while loading.#
 There is no Magic Spellbook available.#
-Items that are used for movement cannot be exchanged.#
+Items used during movement cannot be exchanged.#
 I purchased a free pass#
 While using the free pass, no related items are consumed.#
 Apply#
 Stop#
-Rights for Free Movement#
+Free Movement#
 %d hours, %s %d#
 Using Free Pass#
 Trait Status#
@@ -3630,22 +3630,22 @@ AP#
 Go to destination#
 Commercial/Defense Check#
 Would you like to move to "%s" Management Territory?\n%d Zeny will be consumed with every move.\n(%d Zeny will be consumed during WoE times.)#
-\nManagement Territory: "%s"\n	\nDefense: %d / %d\nCommerciality: %d / %d#
+\nManagement Territory: "%s"\n	\nDefense: %d / %d\nCommercial: %d / %d#
 This feature is not available in WoE territory.#
-A character who has not mastered the Basic Skill skill.#
-Ragnarok:Zero cannot be used for the connected IP.\nPlease contact the customer center or homepage.#
+This character has not acquired Basic Skills skill.#
+The connected IP cannot be used for Ragnarok:Zero.\nPlease contact the customer center or homepage.#
 Mounting/Dismounting#
 Import#
 Get the item information registered in the previous stall.#
-Login is restricted due to server issue.#
+Login is restricted due to server issues.#
 Message#
 You can play only with +18 or higher.#
 We don't recommend playing over 3 hours.#
-There is not enough AP.#
+You don't have enough AP.#
 It cannot be combined due to it's high refine level.#
 The refine level is higher than required for the combination.#
-The card is inserted or enchanted.#
-¡Ä#
+A card is inserted or it's enchanted.#
+¢®A#
 Z#
 Total : %s Zeny#
 Limited Account Sales Registration Window#
@@ -3654,18 +3654,18 @@ Item DB Number#
 Number of Sale#
 Sale Start Time#
 End of Sale#
-Account only#
+Account Limited#
 Sales Period: %02d/%02d %02d:%02d#
 Available per account#
 Limit: %d each#
 >> ItemName: %s / Quantity: %d / Sales Period: %d month:%d day:%d hour:%d minutes ~ %d month:%d day:%d hour:%d minutes#
 Sold Out#
-[%s] is currently in an area that cannot be summoned. #
-~ %02d/%02d %02d:%02d#
+[%s] is currently in a non-summonable area.#
+~ %d month/%d day %d:%d#
 No more products can be added#
-Items that are being equipped cannot be exchanged. Please try after dismounting.#
+Equipped items cannot be exchanged. Please try after unequipping it.#
 You cannot go to the character selection window while using the guild warehouse.#
-Item tag is already used.#
+It cannot be used because it contains an Item Tag.#
 Monster#
 Unknown#
 Undead#
@@ -3723,6 +3723,7 @@ Change Material#
 Alphabetical Sort#
 - [%s] %d ~%d production#
 Success %d%%#
+Item tags can only tag items you own.#
 ATK and P.ATK has been increased.#
 The Powerful Faith effect has been canceled.#
 HP and Res has been increased.#

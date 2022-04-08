@@ -1,57 +1,96 @@
 tblLapineDdukddakBox = {
 	sources = {
-		True_GemShadow_Up = {
-			ItemID = 101308,
+		Bs_Item_M_S_52 = {
+			ItemID = 101340,
+			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 10,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "S_TrueGem_Pendant", 24678 },
-				{ "S_TrueGem_Earring", 24677 },
-				{ "S_TrueGem_Shoes", 24676 },
-				{ "S_TrueGem_Armor", 24675 }
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "Zelunium", 150, 25731 }
 			},
-			NeedSource_String = "True Gemstone Shadow Equipment"
+			NeedSource_String = "Zelunium"
 		},
-		EXPShadow_Up = {
-			ItemID = 101309,
+		Bs_Item_M_S_53 = {
+			ItemID = 101341,
+			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 10,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "S_EXP_Shoes", 24684 },
-				{ "S_EXP_Shield", 24683 }
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "Shadowdecon", 150, 25729 }
 			},
-			NeedSource_String = "Experience Shadow Equipment"
+			NeedSource_String = "Shadowdecon"
 		},
-		MagicalShadow_Up = {
-			ItemID = 101310,
+		Bs_Item_M_S_54 = {
+			ItemID = 101342,
+			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 10,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "S_Clever_Shield", 24737 },
-				{ "S_Clever_Weapon", 24736 }
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "Zelunium", 200, 25731 },
+				{ "Shadowdecon", 200, 25729 }
 			},
-			NeedSource_String = "Clever Shadow Equipment"
+			NeedSource_String = "Zelunium, Shadowdecon"
 		},
-		InfinityShadow_Up = {
-			ItemID = 101311,
+		Bs_Item_M_S_55 = {
+			ItemID = 101343,
+			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 10,
-			NeedOptionNumMin = 0,
-			NotSocketEnchantItem = true,
-			TargetItems = {
-				{ "S_Infinity_Shield", 24733 },
-				{ "S_Infinity_Weapon", 24386 }
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "Zelunium", 200, 25731 },
+				{ "Shadowdecon", 200, 25729 }
 			},
-			NeedSource_String = "Infinity Shadow Equipment"
+			NeedSource_String = "Zelunium, Shadowdecon"
+		},
+		Bs_Item_M_S_56 = {
+			ItemID = 101344,
+			NeedCount = 4,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "강력한영혼의정수", 1, 25375 },
+				{ "M_Dimension_Essence", 1, 7925 },
+				{ "Zelunium", 150, 25731 },
+				{ "Shadowdecon", 150, 25729 }
+			},
+			NeedSource_String = "Essence of Powerful Soul, Essence of Powerful Dimension, Zelunium, Shadowdecon"
+		},
+		Bs_Item_M_S_57 = {
+			ItemID = 101345,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "호랑이의가죽", 50, 1029 },
+				{ "Zelunium", 250, 25731 }
+			},
+			NeedSource_String = "Tiger Skin, Zelunium"
+		},
+		Bs_Item_M_S_58 = {
+			ItemID = 101346,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "암흑의의지_", 30, 7566 },
+				{ "Zelunium", 250, 25731 }
+			},
+			NeedSource_String = "Will of Red Darkness, Zelunium"
+		},
+		Bs_Item_M_S_59 = {
+			ItemID = 101347,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "로키의속삭임", 30, 7019 },
+				{ "Zelunium", 250, 25731 }
+			},
+			NeedSource_String = "Loki's Whispers, Zelunium"
 		},
 		R_BearersShadow_Mix = {
-			ItemID = 101257, NeedCount = 6,
+			ItemID = 101257,
+			NeedCount = 6,
 			NeedRefineMin = 7,
 			NeedRefineMax = 10,
 			SourceItems = {
@@ -68,7 +107,8 @@ tblLapineDdukddakBox = {
 			NeedSource_String = "Bearer's Shadow Equipment"
 		},
 		M_BlitzShadow_Mix = {
-			ItemID = 101258, NeedCount = 6,
+			ItemID = 101258,
+			NeedCount = 6,
 			NeedRefineMin = 7,
 			NeedRefineMax = 10,
 			SourceItems = {
@@ -82,7 +122,8 @@ tblLapineDdukddakBox = {
 			NeedSource_String = "Blitz Shadow Equipment"
 		},
 		ReloadShadow_Mix = {
-			ItemID = 101181, NeedCount = 3,
+			ItemID = 101181,
+			NeedCount = 3,
 			NeedRefineMin = 9,
 			NeedRefineMax = 10,
 			SourceItems = {
@@ -94,7 +135,8 @@ tblLapineDdukddakBox = {
 			NeedSource_String = "Reload Shadow Equipment"
 		},
 		SpellCasterShadow_Mix = {
-			ItemID = 101182, NeedCount = 6,
+			ItemID = 101182,
+			NeedCount = 6,
 			NeedRefineMin = 7,
 			NeedRefineMax = 10,
 			SourceItems = {
@@ -197,15 +239,15 @@ tblLapineDdukddakBox = {
 			NeedRefineMin = 7,
 			NeedRefineMax = 10,
 			SourceItems = {
-				{ "S_AutoSpell_Shoes", 1, 24724 }, 
-				{ "S_AutoSpell_Armor", 1, 24723 }, 
-				{ "S_AutoSpell_Weapon", 1, 24725 }, 
-				{ "S_AutoSpell_Shield", 1, 24722 }, 
-				{ "S_AutoSpell_Earring", 1, 24727 }, 
+				{ "S_AutoSpell_Shoes", 1, 24724 },
+				{ "S_AutoSpell_Armor", 1, 24723 },
+				{ "S_AutoSpell_Weapon", 1, 24725 },
+				{ "S_AutoSpell_Shield", 1, 24722 },
+				{ "S_AutoSpell_Earring", 1, 24727 },
 				{ "S_AutoSpell_Pendant", 1, 24726 }
 			},
 			NeedSource_String = "Auto Spell Shadow Equipment"
-		}, 
+		},
 		AbsorbShadow_Mix = {
 			ItemID = 100691,
 			NeedCount = 5,
@@ -215,34 +257,34 @@ tblLapineDdukddakBox = {
 				{ "스피리츄얼웨폰S", 1, 24078 },
 				{ "스피리츄얼이어링S", 1, 24079 },
 				{ "스피리츄얼펜던트S", 1, 24080 },
-				{ "스피리츄얼웨폰S2", 1, 24324 }, 
-				{ "매리셔스아머S", 1, 24081 }, 
-				{ "매리셔스슈즈S", 1, 24082 }, 
-				{ "매리셔스쉴드S", 1, 24083 }, 
+				{ "스피리츄얼웨폰S2", 1, 24324 },
+				{ "매리셔스아머S", 1, 24081 },
+				{ "매리셔스슈즈S", 1, 24082 },
+				{ "매리셔스쉴드S", 1, 24083 },
 				{ "매리셔스아머S2", 1, 24325 }
 			},
 			NeedSource_String = "Spiritual, Malicious Shadow Equipment"
-		}, 
+		},
 		EXPShadow_Mix = {
 			ItemID = 100661,
 			NeedCount = 5,
 			NeedRefineMin = 7,
 			NeedRefineMax = 10,
 			SourceItems = {
-				{ "비기너슈즈S", 1, 24210 }, 
-				{ "비기너쉴드S", 1, 24211 }, 
-				{ "루키슈즈S", 1, 24212 }, 
-				{ "루키쉴드S", 1, 24213 }, 
-				{ "어드벤스드슈즈S", 1, 24214 }, 
-				{ "어드벤스드쉴드S", 1, 24215 }, 
-				{ "익스퍼트슈즈S", 1, 24208 }, 
+				{ "비기너슈즈S", 1, 24210 },
+				{ "비기너쉴드S", 1, 24211 },
+				{ "루키슈즈S", 1, 24212 },
+				{ "루키쉴드S", 1, 24213 },
+				{ "어드벤스드슈즈S", 1, 24214 },
+				{ "어드벤스드쉴드S", 1, 24215 },
+				{ "익스퍼트슈즈S", 1, 24208 },
 				{ "익스퍼트쉴드S", 1, 24209 }
 			},
 			NeedSource_String = "Experience Shadow Equipment"
 		},
-		True_GemShadow_Mix = {			ItemID = 100620,			NeedCount = 6,			NeedRefineMin = 7,			NeedRefineMax = 10, 
-			SourceItems = {				{ "젬스톤슈즈S", 1, 24085 },				{ "젬스톤쉴드S", 1, 24086 },				{ "젬스톤웨폰S", 1, 24087 },				{ "젬스톤이어링S", 1, 24088 },				{ "젬스톤펜던트S", 1, 24089 },				{ "젬스톤아머S", 1, 24084 },				{ "젬스톤웨폰S2", 1, 24335 },				{ "젬스톤쉴드S2", 1, 24336 },				{ "젬스톤이어링S2", 1, 24322 }			},			NeedSource_String = "Gemstone Shadow Equipment"		},		Mammoth_Mix = {			ItemID = 100621,			NeedCount = 6,			NeedRefineMin = 7,			NeedRefineMax = 10, 
-			SourceItems = {				{ "S_Mammoth_Armor", 1, 24669 },				{ "S_Mammoth_Shoes", 1, 24670 },				{ "S_Mammoth_Pendant", 1, 24671 },				{ "S_Mammoth_Earring", 1, 24672 },				{ "S_Mammoth_Weapon", 1, 24673 },				{ "S_Mammoth_Shield", 1, 24674 }			},			NeedSource_String = "Mammoth Shadow Equipment"		},		Shadow_Mix_Recipe2 = {			ItemID = 100600,			NeedCount = 3,			NeedRefineMin = 0,			NeedRefineMax = 20, 
+		True_GemShadow_Mix = {			ItemID = 100620,			NeedCount = 6,			NeedRefineMin = 7,			NeedRefineMax = 10,
+			SourceItems = {				{ "젬스톤슈즈S", 1, 24085 },				{ "젬스톤쉴드S", 1, 24086 },				{ "젬스톤웨폰S", 1, 24087 },				{ "젬스톤이어링S", 1, 24088 },				{ "젬스톤펜던트S", 1, 24089 },				{ "젬스톤아머S", 1, 24084 },				{ "젬스톤웨폰S2", 1, 24335 },				{ "젬스톤쉴드S2", 1, 24336 },				{ "젬스톤이어링S2", 1, 24322 }			},			NeedSource_String = "Gemstone Shadow Equipment"		},		Mammoth_Mix = {			ItemID = 100621,			NeedCount = 6,			NeedRefineMin = 7,			NeedRefineMax = 10,
+			SourceItems = {				{ "S_Mammoth_Armor", 1, 24669 },				{ "S_Mammoth_Shoes", 1, 24670 },				{ "S_Mammoth_Pendant", 1, 24671 },				{ "S_Mammoth_Earring", 1, 24672 },				{ "S_Mammoth_Weapon", 1, 24673 },				{ "S_Mammoth_Shield", 1, 24674 }			},			NeedSource_String = "Mammoth Shadow Equipment"		},		Shadow_Mix_Recipe2 = {			ItemID = 100600,			NeedCount = 3,			NeedRefineMin = 0,			NeedRefineMax = 20,
 			SourceItems = {				{ "피지컬이어링S", 1, 24018 },				{ "피지컬웨폰S", 1, 24019 },				{ "피지컬펜던트S", 1, 24020 },				{ "매지컬이어링S", 1, 24021 },				{ "매지컬웨폰S", 1, 24022 },				{ "매지컬펜던트S", 1, 24023 },				{ "브리즈아머S", 1, 24024 },				{ "챔피언슈즈S", 1, 24025 },				{ "아테나쉴드S", 1, 24026 },				{ "이뮨드아머S", 1, 24027 },				{ "하드아머S", 1, 24028 },				{ "에이션트아머S", 1, 24029 },				{ "크리티컬아머S", 1, 24030 },				{ "킹버드웨폰S", 1, 24031 },				{ "크리히트웨폰S", 1, 24032 },				{ "힐링웨폰S", 1, 24033 },				{ "럭키웨폰S", 1, 24034 },				{ "파워이어링S", 1, 24035 },				{ "인트펜던트S", 1, 24036 },				{ "덱스터러스아머S", 1, 24037 },				{ "바이탈슈즈S", 1, 24038 },				{ "어틀레틱쉴드S", 1, 24039 },				{ "럭키아머S", 1, 24040 },				{ "파워펜던트S", 1, 24041 },				{ "인트이어링S", 1, 24042 },				{ "덱스터러스웨폰S", 1, 24043 },				{ "바이탈쉴드S", 1, 24044 },				{ "어틀레틱슈즈S", 1, 24045 },				{ "레지스트스펠파워펜던트S", 1, 24046 },				{ "래피드펜던트S", 1, 24047 },				{ "캐스터펜던트S", 1, 24048 },				{ "하드이어링S", 1, 24049 },				{ "와이즈이어링S", 1, 24050 },				{ "아테나이어링S", 1, 24051 },				{ "크레이니얼쉴드S", 1, 24052 },				{ "세이프가드쉴드S", 1, 24053 },				{ "브루털쉴드S", 1, 24054 },				{ "가간츄어쉴드S", 1, 24055 },				{ "호머즈쉴드S", 1, 24056 },				{ "드라군쉴드S", 1, 24057 },				{ "사타닉쉴드S", 1, 24058 },				{ "프레임가드쉴드S", 1, 24059 },				{ "레퀴엠쉴드S", 1, 24060 },				{ "카디쉴드S", 1, 24061 },				{ "블러디슈즈S", 1, 24062 },				{ "리버레이션슈즈S", 1, 24063 },				{ "케미컬슈즈S", 1, 24064 },				{ "클래머러스슈즈S", 1, 24065 },				{ "인섹티사이드슈즈S", 1, 24066 },				{ "피셔슈즈S", 1, 24067 },				{ "세라핌슈즈S", 1, 24068 },				{ "비홀더슈즈S", 1, 24069 },				{ "디바인슈즈S", 1, 24070 },				{ "드라군슈즈S", 1, 24071 },				{ "빅아머S", 1, 24072 },				{ "미디움아머S", 1, 24073 },				{ "스몰아머S", 1, 24074 },				{ "빅웨폰S", 1, 24075 },				{ "미디움웨폰S", 1, 24076 },				{ "스몰웨폰S", 1, 24077 },				{ "스피리츄얼웨폰S", 1, 24078 },				{ "스피리츄얼이어링S", 1, 24079 },				{ "스피리츄얼펜던트S", 1, 24080 },				{ "매리셔스아머S", 1, 24081 },				{ "매리셔스슈즈S", 1, 24082 },				{ "매리셔스쉴드S", 1, 24083 },				{ "젬스톤아머S", 1, 24084 },				{ "젬스톤슈즈S", 1, 24085 },				{ "젬스톤쉴드S", 1, 24086 },				{ "젬스톤웨폰S", 1, 24087 },				{ "젬스톤이어링S", 1, 24088 },				{ "젬스톤펜던트S", 1, 24089 },				{ "스테빌리티쉴드S", 1, 24090 },				{ "플라스터러즈아머S", 1, 24091 },				{ "플라스터러즈슈즈S", 1, 24092 },				{ "인솜니악아머S", 1, 24093 },				{ "인솜니악슈즈S", 1, 24094 },				{ "피어리스아머S", 1, 24095 },				{ "피어리스슈즈S", 1, 24096 },				{ "애듀레이트아머S", 1, 24097 },				{ "애듀레이트슈즈S", 1, 24098 },				{ "언프리징웨폰S", 1, 24099 },				{ "언프리징이어링S", 1, 24100 },				{ "언프리징펜던트S", 1, 24101 },				{ "바이탈리티이어링S", 1, 24102 },				{ "바이탈리티펜던트S", 1, 24103 },				{ "뉴트럴웨폰S", 1, 24104 },				{ "뉴트럴이어링S", 1, 24105 },				{ "뉴트럴펜던트S", 1, 24106 },				{ "언커즈이어링S", 1, 24107 },				{ "언커즈펜던트S", 1, 24108 },				{ "캐스터이어링S", 1, 24109 },				{ "캐스터웨폰S", 1, 24110 },				{ "스펠플로우슈즈S", 1, 24111 },				{ "스펠플로우아머S", 1, 24112 },				{ "스펠플로우쉴드S", 1, 24113 },				{ "그리드아머S", 1, 24114 },				{ "그리드슈즈S", 1, 24115 },				{ "그리드쉴드S", 1, 24116 },				{ "그리드웨폰S", 1, 24117 },				{ "그리드이어링S", 1, 24118 },				{ "그리드펜던트S", 1, 24119 },				{ "힐아머S", 1, 24120 },				{ "힐슈즈S", 1, 24121 },				{ "힐쉴드S", 1, 24122 },				{ "힐웨폰S", 1, 24123 },				{ "힐이어링S", 1, 24124 },				{ "힐펜던트S", 1, 24125 },				{ "하이딩아머S", 1, 24126 },				{ "하이딩슈즈S", 1, 24127 },				{ "하이딩쉴드S", 1, 24128 },				{ "하이딩웨폰S", 1, 24129 },				{ "하이딩이어링S", 1, 24130 },				{ "하이딩펜던트S", 1, 24131 },				{ "클로킹아머S", 1, 24132 },				{ "클로킹슈즈S", 1, 24133 },				{ "클로킹쉴드S", 1, 24134 },				{ "클로킹웨폰S", 1, 24135 },				{ "클로킹이어링S", 1, 24136 },				{ "클로킹펜던트S", 1, 24137 },				{ "텔레포트아머S", 1, 24138 },				{ "텔레포트슈즈S", 1, 24139 },				{ "텔레포트쉴드S", 1, 24140 },				{ "텔레포트웨폰S", 1, 24141 },				{ "텔레포트이어링S", 1, 24142 },				{ "텔레포트펜던트S", 1, 24143 },				{ "스틸아머S", 1, 24144 },				{ "스틸슈즈S", 1, 24145 },				{ "스틸쉴드S", 1, 24146 },				{ "스틸웨폰S", 1, 24147 },				{ "스틸이어링S", 1, 24148 },				{ "스틸펜던트S", 1, 24149 },				{ "인피니티이어링S", 1, 24150 },				{ "인피니티펜던트S", 1, 24151 },				{ "솔리드웨폰S", 1, 24152 },				{ "솔리드이어링S", 1, 24153 },				{ "임모털아머S", 1, 24154 },				{ "임모털펜던트S", 1, 24155 },				{ "액서큐서너웨폰S", 1, 24156 },				{ "엑소시스트웨폰S", 1, 24157 },				{ "헌팅웨폰S", 1, 24158 },				{ "인섹트넷웨폰S", 1, 24159 },				{ "피싱웨폰S", 1, 24160 },				{ "드래곤킬러웨폰S", 1, 24161 },				{ "커럽트웨폰S", 1, 24162 },				{ "바이브레이션웨폰S", 1, 24163 },				{ "홀리워터웨폰S", 1, 24164 },				{ "시저스웨폰S", 1, 24165 },				{ "페니트레이션이어링S", 1, 24166 },				{ "페니트레이션펜던트S", 1, 24167 },				{ "템페스트이어링S", 1, 24168 },				{ "템페스트펜던트S", 1, 24169 },				{ "매직액서큐서너웨폰S", 1, 24170 },				{ "매직엑소시스트웨폰S", 1, 24171 },				{ "매직헌팅웨폰S", 1, 24172 },				{ "매직인섹트넷웨폰S", 1, 24173 },				{ "매직피싱웨폰S", 1, 24174 },				{ "매직드래곤킬러웨폰S", 1, 24175 },				{ "매직커럽트웨폰S", 1, 24176 },				{ "매직바이브레이션웨폰S", 1, 24177 },				{ "매직홀리워터웨폰S", 1, 24178 },				{ "매직시저스웨폰S", 1, 24179 },				{ "베어러즈아머S", 1, 24180 },				{ "베어러즈슈즈S", 1, 24181 },				{ "베어러즈쉴드S", 1, 24182 },				{ "베어러즈웨폰S", 1, 24183 },				{ "베어러즈이어링S", 1, 24184 },				{ "베어러즈펜던트S", 1, 24185 },				{ "베이시스아머S", 1, 24186 },				{ "핼로우드아머S", 1, 24187 },				{ "사하릭아머S", 1, 24188 },				{ "언더니스아머S", 1, 24189 },				{ "플레임아머S", 1, 24190 },				{ "윈디아머S", 1, 24191 },				{ "인베넘아머S", 1, 24192 },				{ "댐드아머S", 1, 24193 },				{ "가이스트아머S", 1, 24194 },				{ "디바인아머S", 1, 24195 },				{ "헤이스티슈즈S", 1, 24196 },				{ "헤이스티아머S", 1, 24197 },				{ "베이시스쉴드S", 1, 24198 },				{ "핼로우드쉴드S", 1, 24199 },				{ "사하릭쉴드S", 1, 24200 },				{ "언더니스쉴드S", 1, 24201 },				{ "플레임쉴드S", 1, 24202 },				{ "윈디쉴드S", 1, 24203 },				{ "인베넘쉴드S", 1, 24204 },				{ "댐드쉴드S", 1, 24205 },				{ "가이스트쉴드S", 1, 24206 },				{ "디바인쉴드S", 1, 24207 },				{ "익스퍼트슈즈S", 1, 24208 },				{ "익스퍼트쉴드S", 1, 24209 },				{ "비기너슈즈S", 1, 24210 },				{ "비기너쉴드S", 1, 24211 },				{ "루키슈즈S", 1, 24212 },				{ "루키쉴드S", 1, 24213 },				{ "어드벤스드슈즈S", 1, 24214 },				{ "어드벤스드쉴드S", 1, 24215 },				{ "어택아머S", 1, 24216 },				{ "블리츠이어링S", 1, 24217 },				{ "블리츠펜던트S", 1, 24218 },				{ "콜드볼트아머S", 1, 24219 },				{ "화이어볼트아머S", 1, 24220 },				{ "라이트닝볼트아머S", 1, 24221 },				{ "어스스파이크아머S", 1, 24222 },				{ "인핸스포스웨폰S", 1, 24223 },				{ "포스웨폰S", 1, 24224 },				{ "포스이어링S", 1, 24225 },				{ "포스펜던트S", 1, 24226 },				{ "인핸스스피릿웨폰S", 1, 24227 },				{ "스피릿웨폰S", 1, 24228 },				{ "스피릿이어링S", 1, 24229 },				{ "스피릿펜던트S", 1, 24230 },				{ "블리츠슈즈S", 1, 24231 },				{ "블리츠쉴드S", 1, 24232 },				{ "익시드웨폰S", 1, 24233 },				{ "타이탄이어링S", 1, 24234 },				{ "타이탄펜던트S", 1, 24235 },				{ "보운드이어링S", 1, 24236 },				{ "보운드펜던트S", 1, 24237 },				{ "기간틱이어링S", 1, 24238 },				{ "기간틱펜던트S", 1, 24239 },				{ "캐스터슈즈S", 1, 24240 },				{ "캐스터쉴드S", 1, 24241 },				{ "캐스터아머S", 1, 24242 },				{ "리로드슈즈S", 1, 24243 },				{ "리로드쉴드S", 1, 24244 },				{ "리로드아머S", 1, 24245 },				{ "소드맨이어링S", 1, 24246 },				{ "머천트이어링S", 1, 24247 },				{ "어콜라이트이어링S", 1, 24248 },				{ "매지션이어링S", 1, 24249 },				{ "소드맨펜던트S", 1, 24250 },				{ "머천트펜던트S", 1, 24251 },				{ "어콜라이트펜던트S", 1, 24252 },				{ "씨프펜던트S", 1, 24253 },				{ "매지션펜던트S", 1, 24254 },				{ "아처펜던트S", 1, 24255 },				{ "나이트슈즈S", 1, 24256 },				{ "크루세이더슈즈S", 1, 24257 },				{ "블랙스미스슈즈S", 1, 24258 },				{ "알케미스트슈즈S", 1, 24259 },				{ "프리스트슈즈S", 1, 24260 },				{ "몽크슈즈S", 1, 24261 },				{ "어쌔신슈즈S", 1, 24262 },				{ "로그슈즈S", 1, 24263 },				{ "위저드슈즈S", 1, 24264 },				{ "세이지슈즈S", 1, 24265 },				{ "헌터슈즈S", 1, 24266 },				{ "바드슈즈S", 1, 24267 },				{ "댄서슈즈S", 1, 24268 },				{ "나이트아머S", 1, 24269 },				{ "크루세이더아머S", 1, 24270 },				{ "블랙스미스아머S", 1, 24271 },				{ "알케미스트아머S", 1, 24272 },				{ "프리스트아머S", 1, 24273 },				{ "몽크아머S", 1, 24274 },				{ "어쌔신아머S", 1, 24275 },				{ "로그아머S", 1, 24276 },				{ "위저드아머S", 1, 24277 },				{ "세이지아머S", 1, 24278 },				{ "헌터아머S", 1, 24279 },				{ "바드아머S", 1, 24280 },				{ "댄서아머S", 1, 24281 },				{ "슈퍼노비스웨폰S", 1, 24282 },				{ "건슬링거웨폰S", 1, 24283 },				{ "태권웨폰S", 1, 24284 },				{ "닌자웨폰S", 1, 24285 },				{ "도람매지컬웨폰S", 1, 24286 },				{ "도람피지컬웨폰S", 1, 24287 },				{ "룬나이트웨폰S", 1, 24288 },				{ "로얄가드웨폰S", 1, 24289 },				{ "미케닉웨폰S", 1, 24290 },				{ "제네릭웨폰S", 1, 24291 },				{ "아크비숍웨폰S", 1, 24292 },				{ "수라웨폰S", 1, 24293 },				{ "길로틴크로스웨폰S", 1, 24294 },				{ "쉐도우체이서웨폰S", 1, 24295 },				{ "워록웨폰S", 1, 24296 },				{ "소서러웨폰S", 1, 24297 },				{ "레인져웨폰S", 1, 24298 },				{ "민스트럴웨폰S", 1, 24299 },				{ "원더러웨폰S", 1, 24300 },				{ "룬나이트쉴드S", 1, 24301 },				{ "로얄가드쉴드S", 1, 24302 },				{ "미케닉쉴드S", 1, 24303 },				{ "제네릭쉴드S", 1, 24304 },				{ "아크비숍쉴드S", 1, 24305 },				{ "수라쉴드S", 1, 24306 },				{ "길로틴크로스쉴드S", 1, 24307 },				{ "쉐도우체이서쉴드S", 1, 24308 },				{ "워록쉴드S", 1, 24309 },				{ "소서러쉴드S", 1, 24310 },				{ "레인져쉴드S", 1, 24311 },				{ "민스트럴쉴드S", 1, 24312 },				{ "원더러쉴드S", 1, 24313 },				{ "닌자쉴드S", 1, 24314 },				{ "태권쉴드S", 1, 24315 },				{ "도람피지컬쉴드S", 1, 24316 },				{ "도람매지컬쉴드S", 1, 24317 },				{ "슈퍼노비스쉴드S", 1, 24318 },				{ "건슬링거쉴드S", 1, 24319 },				{ "씨프이어링S", 1, 28391 },				{ "아처이어링S", 1, 28392 },				{ "헤이스티슈즈S2", 1, 24320 },				{ "베어러즈펜던트S2", 1, 24321 },				{ "젬스톤이어링S2", 1, 24322 },				{ "스펠플로우쉴드S2", 1, 24323 },				{ "스피리츄얼웨폰S2", 1, 24324 },				{ "매리셔스아머S2", 1, 24325 },				{ "사이그룬아머S", 1, 24326 },				{ "사이그룬쉴드S", 1, 24327 },				{ "포스액서듀얼웨폰S2", 1, 24328 },				{ "스피릿매직듀얼웨폰S2", 1, 24329 },				{ "캐스터아머S2", 1, 24330 },				{ "리로드아머S2", 1, 24331 },				{ "크리티컬쉴드S", 1, 24332 },				{ "크리티컬슈즈S", 1, 24333 },				{ "매직컴포즈아머S", 1, 24334 },				{ "젬스톤웨폰S2", 1, 24335 },				{ "젬스톤쉴드S2", 1, 24336 },				{ "베어러즈아머S2", 1, 24337 },				{ "베어러즈슈즈S2", 1, 24338 },				{ "올마이티이어링S", 1, 24339 },				{ "올마이티펜던트S", 1, 24340 },				{ "템페스트쉴드S", 1, 24345 },				{ "템페스트슈즈S", 1, 24346 },				{ "매직액서홀리아머S", 1, 24347 },				{ "매직엑소커럽트아머S", 1, 24348 },				{ "매직드래곤바이브아머S", 1, 24349 },				{ "매직시저스헌팅아머S", 1, 24350 },				{ "매직피싱인섹트아머S", 1, 24351 },				{ "플라스터러즈아머S2", 1, 24352 },				{ "인솜니악슈즈S2", 1, 24353 },				{ "피어리스아머S2", 1, 24354 },				{ "애듀레이트슈즈S2", 1, 24355 },				{ "언프리징웨폰S2", 1, 24356 },				{ "바이탈리티이어링S2", 1, 24357 },				{ "뉴트럴웨폰S2", 1, 24358 },				{ "언커즈펜던트S2", 1, 24359 },				{ "텐션웨폰S", 1, 24360 },				{ "텐션이어링S", 1, 24361 },				{ "텐션펜던트S", 1, 24362 },				{ "엘레강트웨폰S", 1, 24363 },				{ "엘레강트이어링S", 1, 24364 },				{ "엘레강트펜던트S", 1, 24365 },				{ "힐링쉴드S", 1, 24366 },				{ "힐링슈즈S", 1, 24367 },				{ "리스토어이어링S", 1, 24368 },				{ "리스토어펜던트S", 1, 24369 },				{ "모탈블로우웨폰S", 1, 24370 },				{ "모탈블로우이어링S", 1, 24371 },				{ "모탈블로우펜던트S", 1, 24372 },				{ "페니트레이션슈즈S", 1, 24373 },				{ "페니트레이션쉴드S", 1, 24374 },				{ "액서홀리아머S", 1, 24375 },				{ "엑소커럽트아머S", 1, 24376 },				{ "드래곤바이브아머S", 1, 24377 },				{ "시저스헌팅아머S", 1, 24378 },				{ "피싱인섹트아머S", 1, 24379 },				{ "Sentimental_Weapone_S", 1, 24380 },				{ "Sentimental_Earring_S", 1, 24381 },				{ "Sentimental_Pendant_S", 1, 24382 },				{ "Enchanting_Weapone_S", 1, 24383 },				{ "Enchanting_Earring_S", 1, 24384 },				{ "Enchanting_Pendant_S", 1, 24385 },				{ "S_Infinity_Weapon", 1, 24386 },				{ "S_Physical_Shoes", 1, 24393 },				{ "S_Physical_Shield", 1, 24394 },				{ "S_Physical_Armor", 1, 24395 },				{ "S_Magical_Shoes", 1, 24396 },				{ "S_Magical_Shield", 1, 24397 },				{ "S_Magical_Armor", 1, 24398 },				{ "S_ImmunedAthena_Shield", 1, 24399 },				{ "S_HardChamption_Shoes", 1, 24400 },				{ "S_KingbirdAncient_Armor", 1, 24401 },				{ "S_CriticalHit_Armor", 1, 15280 },				{ "S_Rebellion_Armor", 1, 24402 },				{ "S_Kagerou_Armor", 1, 24403 },				{ "S_Oboro_Armor", 1, 24404 },				{ "S_Rebellion_Shoes", 1, 24405 },				{ "S_Kagerou_Shoes", 1, 24406 },				{ "S_Oboro_Shoes", 1, 24407 },				{ "S_DoramPhysical_Armor", 1, 24408 },				{ "S_DoramPhysical_Shoes", 1, 24409 },				{ "S_DoramMagical_Armor", 1, 24410 },				{ "S_DoramMagical_Shoes", 1, 24411 },				{ "S_Star_Emperor_Armor", 1, 24412 },				{ "S_Star_Emperor_Shoes", 1, 24413 },				{ "S_Soul_Reaper_Armor", 1, 24414 },				{ "S_Soul_Reaper_Shoes", 1, 24415 },				{ "S_Tempest_Weapon", 1, 24423 },				{ "S_Tempest_Armor", 1, 24424 },				{ "S_PerfectSize_Weapon", 1, 24425 },				{ "S_PerfectSize_Armor", 1, 24426 },				{ "S_M_Exo_Co_Weapon", 1, 24427 },				{ "S_M_Viv_Dr_Weapon", 1, 24428 },				{ "S_M_Sci_Hu_Weapon", 1, 24429 },				{ "S_M_Fis_In_Weapon", 1, 24430 },				{ "S_M_Exe_Ho_Weapon", 1, 24431 },				{ "S_Penetration_Weapon", 1, 24432 },				{ "S_Penetration_Armor", 1, 24433 },				{ "S_Exe_Ho_Weapon", 1, 24434 },				{ "S_Fis_In_Weapon", 1, 24435 },				{ "S_Sci_Hu_Weapon", 1, 24436 },				{ "S_Viv_Dr_Weapon", 1, 24437 },				{ "S_Exo_Co_Weapon", 1, 24438 },				{ "S_Hasty_Weapon", 1, 24439 },				{ "S_Sonic_Armor", 1, 24440 },				{ "S_Sonic_Shield", 1, 24441 },				{ "S_Sonic_Shoes", 1, 24442 },				{ "S_Ignition_Weapon", 1, 24443 },				{ "S_Ignition_Pendant", 1, 24444 },				{ "S_Ignition_Earing", 1, 24445 },				{ "S_W_Breath_Armor", 1, 24446 },				{ "S_W_Breath_Shield", 1, 24447 },				{ "S_W_Breath_Shoes", 1, 24448 },				{ "S_F_Breath_Weapon", 1, 24449 },				{ "S_F_Breath_Pendant", 1, 24450 },				{ "S_F_Breath_Earing", 1, 24451 },				{ "S_Cluster_Armor", 1, 24452 },				{ "S_Cluster_Shield", 1, 24453 },				{ "S_Cluster_Shoes", 1, 24454 },				{ "S_Aimed_Weapon", 1, 24455 },				{ "S_Aimed_Pendant", 1, 24456 },				{ "S_Aimed_Earing", 1, 24457 },				{ "S_Arrow_Armor", 1, 24458 },				{ "S_Arrow_Shield", 1, 24459 },				{ "S_Arrow_Shoes", 1, 24460 },				{ "S_Shooting_Weapon", 1, 24461 },				{ "S_Shooting_Pendant", 1, 24462 },				{ "S_Shooting_Earing", 1, 24463 },				{ "S_Tornado_Armor", 1, 24464 },				{ "S_Tornado_Shield", 1, 24465 },				{ "S_Tornado_Shoes", 1, 24466 },				{ "S_Boomerang_Weapon", 1, 24467 },				{ "S_Boomerang_Pendant", 1, 24468 },				{ "S_Boomerang_Earing", 1, 24469 },				{ "S_Vulcan_Armor", 1, 24470 },				{ "S_Vulcan_Shield", 1, 24471 },				{ "S_Vulcan_Shoes", 1, 24472 },				{ "S_Arms_Weapon", 1, 24473 },				{ "S_Arms_Pendant", 1, 24474 },				{ "S_Arms_Earing", 1, 24475 },				{ "S_Rampage_Armor", 1, 24476 },				{ "S_Rampage_Shield", 1, 24477 },				{ "S_Rampage_Shoes", 1, 24478 },				{ "S_Skynetblow_Weapon", 1, 24479 },				{ "S_Skynetblow_Pendant", 1, 24480 },				{ "S_Skynetblow_Earing", 1, 24481 },				{ "S_Knucklearrow_Armor", 1, 24482 },				{ "S_Knucklearrow_Shield", 1, 24483 },				{ "S_Knucklearrow_Shoes", 1, 24484 },				{ "S_TigerCannon_Weapon", 1, 24485 },				{ "S_Tigercannon_Pendant", 1, 24486 },				{ "S_Tigercannon_Earing", 1, 24487 },				{ "S_Duplelight_Armor", 1, 24488 },				{ "S_Duplelight_Shield", 1, 24489 },				{ "S_Duplelight_Shoes", 1, 24490 },				{ "S_Adoramus_Weapon", 1, 24491 },				{ "S_Adoramus_Pendant", 1, 24492 },				{ "S_Adoramus_Earing", 1, 24493 },				{ "S_Judex_Armor", 1, 24494 },				{ "S_Judex_Shield", 1, 24495 },				{ "S_Judex_Shoes", 1, 24496 },				{ "S_Magnus_Weapon", 1, 24497 },				{ "S_Magnus_Pendant", 1, 24498 },				{ "S_Magnus_Earing", 1, 24499 },				{ "S_Rainstorm_Armor", 1, 24500 },				{ "S_Rainstorm_Shield", 1, 24501 },				{ "S_Rainstorm_Shoes", 1, 24502 },				{ "S_Arrowvulcan_Weapon", 1, 24503 },				{ "S_Arrowvulcan_Pendant", 1, 24504 },				{ "S_Arrowvulcan_Earing", 1, 24505 },				{ "S_Metalic_Armor", 1, 24506 },				{ "S_Metalic_Shield", 1, 24507 },				{ "S_Metalic_Shoes", 1, 24508 },				{ "S_Reverberation_Weapon", 1, 24509 },				{ "S_Reverberation_Pendant", 1, 24510 },				{ "S_Reverberation_Earing", 1, 24511 },				{ "S_Triangle_Armor", 1, 24524 },				{ "S_Triangle_Shield", 1, 24525 },				{ "S_Triangle_Shoes", 1, 24526 },				{ "S_Shadowspell_Weapon", 1, 24527 },				{ "S_Shadowspell_Pendant", 1, 24528 },				{ "S_Shadowspell_Earing", 1, 24529 },				{ "S_Menace_Armor", 1, 24530 },				{ "S_Menace_Shield", 1, 24531 },				{ "S_Menace_Shoes", 1, 24532 },				{ "S_Paint_Weapon", 1, 24533 },				{ "S_Paint_Pendant", 1, 24534 },				{ "S_Paint_Earing", 1, 24535 },				{ "S_Rolling_Armor", 1, 24536 },				{ "S_Rolling_Shield", 1, 24537 },				{ "S_Rolling_Shoes", 1, 24538 },				{ "S_Katar_Weapon", 1, 24539 },				{ "S_Katar_Pendant", 1, 24540 },				{ "S_Katar_Earing", 1, 24541 },				{ "S_Slash_Armor", 1, 24542 },				{ "S_Slash_Shield", 1, 24543 },				{ "S_Slash_Shoes", 1, 24544 },				{ "S_Ripper_Weapon", 1, 24545 },				{ "S_Ripper_Pendant", 1, 24546 },				{ "S_Ripper_Earing", 1, 24547 },				{ "S_Dust_Armor", 1, 24548 },				{ "S_Dust_Shield", 1, 24549 },				{ "S_Dust_Shoes", 1, 24550 },				{ "S_Grave_Weapon", 1, 24551 },				{ "S_Grave_Pendant", 1, 24552 },				{ "S_Grave_Earing", 1, 24553 },				{ "S_Psychic_Armor", 1, 24554 },				{ "S_Psychic_Shield", 1, 24555 },				{ "S_Psychic_Shoes", 1, 24556 },				{ "S_Varetyr_Weapon", 1, 24557 },				{ "S_Varetyr_Pendant", 1, 24558 },				{ "S_Varetyr_Earing", 1, 24559 },				{ "S_Jack_Armor", 1, 24512 },				{ "S_Jack_Shield", 1, 24513 },				{ "S_Jack_Shoes", 1, 24514 },				{ "S_Strain_Weapon", 1, 24515 },				{ "S_Strain_Pendant", 1, 24516 },				{ "S_Strain_Earing", 1, 24517 },				{ "S_Crimson_Armor", 1, 24518 },				{ "S_Crimson_Shield", 1, 24519 },				{ "S_Crimson_Shoes", 1, 24520 },				{ "S_Chain_Weapon", 1, 24521 },				{ "S_Chain_Pendant", 1, 24522 },				{ "S_Chain_Earing", 1, 24523 },				{ "S_Cart_Tornado_Armor", 1, 24560 },				{ "S_Cart_Tornado_Shield", 1, 24561 },				{ "S_Cart_Tornado_Shoes", 1, 24562 },				{ "S_Cannon_Cart_Weapon", 1, 24563 },				{ "S_Cannon_Cart_Pendant", 1, 24564 },				{ "S_Cannon_Cart_Earing", 1, 24565 },				{ "S_Spore_Bomb_Armor", 1, 24566 },				{ "S_Spore_Bomb_Shield", 1, 24567 },				{ "S_Spore_Bomb_Shoes", 1, 24568 },				{ "S_Crazy_Weapon", 1, 24569 },				{ "S_Crazy_Pendant", 1, 24570 },				{ "S_Crazy_Earing", 1, 24571 },				{ "S_Brand_Armor", 1, 24572 },				{ "S_Brand_Shield", 1, 24573 },				{ "S_Brand_Shoes", 1, 24574 },				{ "S_Chain_Press_Weapon", 1, 24575 },				{ "S_Chain_Press_Pendant", 1, 24576 },				{ "S_Chain_Press_Earing", 1, 24577 },				{ "S_Banish_Cannon_Armor", 1, 24578 },				{ "S_Banish_Cannon_Shield", 1, 24579 },				{ "S_Banish_Cannon_Shoes", 1, 24580 },				{ "S_Genesis_Weapon", 1, 24581 },				{ "S_Genesis_Pendant", 1, 24582 },				{ "S_Genesis_Earing", 1, 24583 },				{ "S_Tail_Dragon_Weapon", 1, 24601 },				{ "S_Tail_Dragon_Shield", 1, 24602 },				{ "S_Tail_Dragon_Armor", 1, 24603 },				{ "S_Flare_Dance_Earing", 1, 24604 },				{ "S_Flare_Dance_Pendant", 1, 24605 },				{ "S_Flare_Dance_Shoes", 1, 24606 },				{ "S_God_Hammer_Weapon", 1, 24607 },				{ "S_God_Hammer_Shield", 1, 24608 },				{ "S_God_Hammer_Armor", 1, 24609 },				{ "S_Shatter_Buster_Earing", 1, 24610 },				{ "S_Shatter_B_Pendant", 1, 24611 },				{ "S_Shatter_Buster_Shoes", 1, 24612 },				{ "S_Trip_Weapon", 1, 24613 },				{ "S_Trip_Shield", 1, 24614 },				{ "S_Trip_Armor", 1, 24615 },				{ "S_Super_Magic_Shield", 1, 24616 },				{ "S_Super_Magic_Armor", 1, 24617 },				{ "S_Super_Magic_Shoes", 1, 24618 },				{ "S_Super_Power_Weapon", 1, 24619 },				{ "S_Super_Power_Pendant", 1, 24620 },				{ "S_Super_Power_Earing", 1, 24621 },				{ "S_Kunai_Weapon", 1, 24622 },				{ "S_Kunai_Shield", 1, 24623 },				{ "S_Kunai_Armor", 1, 24624 },				{ "S_Syuriken_Earing", 1, 24625 },				{ "S_Syuriken_Pendant", 1, 24626 },				{ "S_Syuriken_Shoes", 1, 24627 },				{ "S_Kamaenraku_Weapon", 1, 24628 },				{ "S_Kamaenraku_Shield", 1, 24629 },				{ "S_Kamaenraku_Armor", 1, 24630 },				{ "S_Huusouka_Earing", 1, 24631 },				{ "S_Huusouka_Pendant", 1, 24632 },				{ "S_Huusouka_Shoes", 1, 24633 },				{ "S_Pickyrush_Weapon", 1, 24634 },				{ "S_Pickyrush_Shield", 1, 24635 },				{ "S_Pickyrush_Armor", 1, 24636 },				{ "S_SavageRabbit_Earing", 1, 24637 },				{ "S_SavageRabbit_Pendant", 1, 24638 },				{ "S_SavageRabbit_Shoes", 1, 24639 },				{ "S_Catnip_Weapon", 1, 24640 },				{ "S_Catnip_Shield", 1, 24641 },				{ "S_Catnip_Armor", 1, 24642 },				{ "S_Silvervine_Earing", 1, 24643 },				{ "S_Silvervine_Pendant", 1, 24644 },				{ "S_Silvervine_Shoes", 1, 24645 },				{ "S_Sunshine_Weapon", 1, 24646 },				{ "S_Sunshine_Shield", 1, 24647 },				{ "S_Sunshine_Armor", 1, 24648 },				{ "S_Moonlight_Earring", 1, 24649 },				{ "S_Moonlight_Pendant", 1, 24650 },				{ "S_Moonlight_Shoes", 1, 24651 },				{ "S_Stardust_Weapon", 1, 24652 },				{ "S_Stardust_Shield", 1, 24653 },				{ "S_Stardust_Armor", 1, 24654 },				{ "S_S_Weapon", 1, 24655 },				{ "S_S_Shield", 1, 24656 },				{ "S_S_Armor", 1, 24657 },				{ "S_Evilcurse_Earring", 1, 24658 },				{ "S_Evilcurse_Pendant", 1, 24659 },				{ "S_Evilcurse_Shoes", 1, 24660 },				{ "S_FullPene_Shoes", 1, 24664 },				{ "S_FullPene_Armor", 1, 24663 },				{ "S_FullPene_Pendant", 1, 24662 },				{ "S_FullPene_Earring", 1, 24661 },				{ "올레이스슈즈S", 1, 24341 },				{ "올레이스쉴드S", 1, 24342 },				{ "블리츠웨폰S", 1, 24343 },				{ "블리츠아머S", 1, 24344 },				{ "S_FullTemp_Earring", 1, 24665 },				{ "S_FullTemp_Pendant", 1, 24668 },				{ "S_FullTemp_Armor", 1, 24667 },				{ "S_FullTemp_Shoes", 1, 24666 },				{ "S_Mammoth_Armor", 1, 24669 },				{ "S_Mammoth_Shoes", 1, 24670 },				{ "S_Mammoth_Pendant", 1, 24671 },				{ "S_Mammoth_Earring", 1, 24672 },				{ "S_Mammoth_Weapon", 1, 24673 },				{ "S_Mammoth_Shield", 1, 24674 },				{ "S_TrueGem_Armor", 1, 24675 },				{ "S_TrueGem_Shoes", 1, 24676 },				{ "S_TrueGem_Earring", 1, 24677 },				{ "S_TrueGem_Pendant", 1, 24678 },				{ "S_M_Mammoth_Armor", 1, 24679 },				{ "S_M_Mammoth_Shoes", 1, 24680 },				{ "S_M_Mammoth_Earring", 1, 24681 },				{ "S_M_Mammoth_Pendant", 1, 24682 },
 				{ "S_EXP_Shield", 1, 24683 },
 				{ "S_Absorb_Shield", 1, 24685 },
@@ -287,47 +329,47 @@ tblLapineDdukddakBox = {
 				{ "S_R_Bearers_Pendant", 1, 24765 },
 				{ "S_R_Bearers_Earring", 1, 24766 },
 				{ "S_Mega_Blitz_Shield", 1, 24767 },
-				{ "S_Mega_Blitz_Weapon", 1, 24768 }			},			NeedSource_String = "Shadow Equipment"		},		Illusion_Module_Mix = {			ItemID = 100601,			NeedCount = 5,			NeedRefineMin = 0,			NeedRefineMax = 0, 
-			SourceItems = {				{ "EP17_1_EVT03", 1, 25670 },				{ "EP17_1_EVT04", 1, 25671 },				{ "EP17_1_EVT05", 1, 25672 },				{ "EP17_1_EVT06", 1, 25673 },				{ "EP17_1_EVT07", 1, 25674 },				{ "EP17_1_EVT08", 1, 25675 },				{ "EP17_1_EVT09", 1, 25676 },				{ "EP17_1_EVT10", 1, 25677 },				{ "EP17_1_EVT11", 1, 25678 },				{ "EP17_1_EVT12", 1, 25679 },				{ "EP17_1_EVT13", 1, 25680 },				{ "EP17_1_EVT14", 1, 25681 },				{ "EP17_1_EVT15", 1, 25682 },				{ "EP17_1_EVT16", 1, 25683 },				{ "EP17_1_EVT17", 1, 25684 },				{ "EP17_1_EVT18", 1, 25685 },				{ "EP17_1_EVT19", 1, 25686 },				{ "EP17_1_EVT20", 1, 25687 },				{ "EP17_1_EVT21", 1, 25688 },				{ "EP17_1_EVT22", 1, 25689 },				{ "EP17_1_EVT23", 1, 25690 },				{ "EP17_1_EVT24", 1, 25691 },				{ "EP17_1_EVT25", 1, 25692 },				{ "EP17_1_EVT26", 1, 25693 },				{ "EP17_1_EVT27", 1, 25694 },				{ "EP17_1_EVT28", 1, 25695 },				{ "EP17_1_EVT29", 1, 25696 },				{ "EP17_1_EVT30", 1, 25697 },				{ "EP17_1_EVT31", 1, 25698 },				{ "EP17_1_EVT32", 1, 25699 },				{ "EP17_1_EVT33", 1, 25700 },				{ "EP17_1_EVT34", 1, 25701 },				{ "EP17_1_EVT35", 1, 25702 },				{ "EP17_1_EVT36", 1, 25703 },				{ "EP17_1_EVT37", 1, 25704 },				{ "EP17_1_EVT38", 1, 25705 }			},			NeedSource_String = "Modification Module"		},		FullTempShadow_Mix = {			ItemID = 100596,			NeedCount = 10,			NeedRefineMin = 7,			NeedRefineMax = 10, 
-			SourceItems = {				{ "템페스트슈즈S", 1, 24346 },				{ "템페스트쉴드S", 1, 24345 },				{ "매직액서홀리아머S", 1, 24347 },				{ "매직엑소커럽트아머S", 1, 24348 },				{ "매직드래곤바이브아머S", 1, 24349 },				{ "매직시저스헌팅아머S", 1, 24350 },				{ "매직피싱인섹트아머S", 1, 24351 },				{ "템페스트이어링S", 1, 24168 },				{ "템페스트펜던트S", 1, 24169 },				{ "매직액서큐서너웨폰S", 1, 24170 },				{ "매직엑소시스트웨폰S", 1, 24171 },				{ "매직헌팅웨폰S", 1, 24172 },				{ "매직인섹트넷웨폰S", 1, 24173 },				{ "매직피싱웨폰S", 1, 24174 },				{ "매직드래곤킬러웨폰S", 1, 24175 },				{ "매직커럽트웨폰S", 1, 24176 },				{ "매직바이브레이션웨폰S", 1, 24177 },				{ "매직홀리워터웨폰S", 1, 24178 },				{ "매직시저스웨폰S", 1, 24179 },				{ "스피릿매직듀얼웨폰S2", 1, 24329 },				{ "S_Tempest_Weapon", 1, 24423 },				{ "S_Tempest_Armor", 1, 24424 },				{ "S_M_Exe_Ho_Weapon", 1, 24431 },				{ "S_M_Fis_In_Weapon", 1, 24430 },				{ "S_M_Sci_Hu_Weapon", 1, 24429 },				{ "S_M_Viv_Dr_Weapon", 1, 24428 },				{ "S_M_Exo_Co_Weapon", 1, 24427 }			},			NeedSource_String = "+7 Tempest Shadow Equipment"		},		Automatic_Module_Mix = {			ItemID = 100602,			NeedCount = 5,			NeedRefineMin = 0,			NeedRefineMax = 0, 
+				{ "S_Mega_Blitz_Weapon", 1, 24768 }			},			NeedSource_String = "Shadow Equipment"		},		Illusion_Module_Mix = {			ItemID = 100601,			NeedCount = 5,			NeedRefineMin = 0,			NeedRefineMax = 0,
+			SourceItems = {				{ "EP17_1_EVT03", 1, 25670 },				{ "EP17_1_EVT04", 1, 25671 },				{ "EP17_1_EVT05", 1, 25672 },				{ "EP17_1_EVT06", 1, 25673 },				{ "EP17_1_EVT07", 1, 25674 },				{ "EP17_1_EVT08", 1, 25675 },				{ "EP17_1_EVT09", 1, 25676 },				{ "EP17_1_EVT10", 1, 25677 },				{ "EP17_1_EVT11", 1, 25678 },				{ "EP17_1_EVT12", 1, 25679 },				{ "EP17_1_EVT13", 1, 25680 },				{ "EP17_1_EVT14", 1, 25681 },				{ "EP17_1_EVT15", 1, 25682 },				{ "EP17_1_EVT16", 1, 25683 },				{ "EP17_1_EVT17", 1, 25684 },				{ "EP17_1_EVT18", 1, 25685 },				{ "EP17_1_EVT19", 1, 25686 },				{ "EP17_1_EVT20", 1, 25687 },				{ "EP17_1_EVT21", 1, 25688 },				{ "EP17_1_EVT22", 1, 25689 },				{ "EP17_1_EVT23", 1, 25690 },				{ "EP17_1_EVT24", 1, 25691 },				{ "EP17_1_EVT25", 1, 25692 },				{ "EP17_1_EVT26", 1, 25693 },				{ "EP17_1_EVT27", 1, 25694 },				{ "EP17_1_EVT28", 1, 25695 },				{ "EP17_1_EVT29", 1, 25696 },				{ "EP17_1_EVT30", 1, 25697 },				{ "EP17_1_EVT31", 1, 25698 },				{ "EP17_1_EVT32", 1, 25699 },				{ "EP17_1_EVT33", 1, 25700 },				{ "EP17_1_EVT34", 1, 25701 },				{ "EP17_1_EVT35", 1, 25702 },				{ "EP17_1_EVT36", 1, 25703 },				{ "EP17_1_EVT37", 1, 25704 },				{ "EP17_1_EVT38", 1, 25705 }			},			NeedSource_String = "Modification Module"		},		FullTempShadow_Mix = {			ItemID = 100596,			NeedCount = 10,			NeedRefineMin = 7,			NeedRefineMax = 10,
+			SourceItems = {				{ "템페스트슈즈S", 1, 24346 },				{ "템페스트쉴드S", 1, 24345 },				{ "매직액서홀리아머S", 1, 24347 },				{ "매직엑소커럽트아머S", 1, 24348 },				{ "매직드래곤바이브아머S", 1, 24349 },				{ "매직시저스헌팅아머S", 1, 24350 },				{ "매직피싱인섹트아머S", 1, 24351 },				{ "템페스트이어링S", 1, 24168 },				{ "템페스트펜던트S", 1, 24169 },				{ "매직액서큐서너웨폰S", 1, 24170 },				{ "매직엑소시스트웨폰S", 1, 24171 },				{ "매직헌팅웨폰S", 1, 24172 },				{ "매직인섹트넷웨폰S", 1, 24173 },				{ "매직피싱웨폰S", 1, 24174 },				{ "매직드래곤킬러웨폰S", 1, 24175 },				{ "매직커럽트웨폰S", 1, 24176 },				{ "매직바이브레이션웨폰S", 1, 24177 },				{ "매직홀리워터웨폰S", 1, 24178 },				{ "매직시저스웨폰S", 1, 24179 },				{ "스피릿매직듀얼웨폰S2", 1, 24329 },				{ "S_Tempest_Weapon", 1, 24423 },				{ "S_Tempest_Armor", 1, 24424 },				{ "S_M_Exe_Ho_Weapon", 1, 24431 },				{ "S_M_Fis_In_Weapon", 1, 24430 },				{ "S_M_Sci_Hu_Weapon", 1, 24429 },				{ "S_M_Viv_Dr_Weapon", 1, 24428 },				{ "S_M_Exo_Co_Weapon", 1, 24427 }			},			NeedSource_String = "+7 Tempest Shadow Equipment"		},		Automatic_Module_Mix = {			ItemID = 100602,			NeedCount = 5,			NeedRefineMin = 0,			NeedRefineMax = 0,
 			SourceItems = {				{ "EP17_2_NO1", 1, 1000105 },				{ "EP17_2_NO2", 1, 1000106 },				{ "EP17_2_NO3", 1, 1000107 },				{ "EP17_2_NO4", 1, 1000108 },				{ "EP17_2_NO5", 1, 1000109 },				{ "EP17_2_NO6", 1, 1000110 },				{ "EP17_2_NO7", 1, 1000111 },				{ "EP17_2_NO8", 1, 1000112 },				{ "EP17_2_RA1", 1, 1000113 },				{ "EP17_2_RA2", 1, 1000114 },				{ "EP17_2_RA3", 1, 1000115 },				{ "EP17_2_RA4", 1, 1000116 },				{ "EP17_2_RA5", 1, 1000117 },				{ "EP17_2_RA6", 1, 1000118 },				{ "EP17_2_RA7", 1, 1000119 },				{ "EP17_2_RA8", 1, 1000120 },				{ "EP17_2_RA9", 1, 1000121 },				{ "EP17_2_RA10", 1, 1000122 },				{ "EP17_2_RA11", 1, 1000123 },				{ "EP17_2_RA12", 1, 1000124 },				{ "EP17_2_RA13", 1, 1000125 },				{ "EP17_2_RA14", 1, 1000126 },				{ "EP17_2_RA15", 1, 1000127 },				{ "EP17_2_RA16", 1, 1000128 },				{ "EP17_2_RA17", 1, 1000129 },				{ "EP17_2_RA18", 1, 1000130 },				{ "EP17_2_RA19", 1, 1000131 },				{ "EP17_2_RA20", 1, 1000132 },				{ "EP17_2_UQ1", 1, 1000133 },				{ "EP17_2_UQ2", 1, 1000134 },				{ "EP17_2_UQ3", 1, 1000135 },				{ "EP17_2_UQ4", 1, 1000136 },				{ "EP17_2_UQ5", 1, 1000137 },				{ "EP17_2_UQ6", 1, 1000138 },				{ "EP17_2_UQ7", 1, 1000139 },				{ "EP17_2_UQ8", 1, 1000140 },				{ "EP17_2_UQ9", 1, 1000141 },				{ "EP17_2_UQ10", 1, 1000142 },				{ "EP17_2_UQ11", 1, 1000143 },				{ "EP17_2_LE1", 1, 1000144 },				{ "EP17_2_LE2", 1, 1000145 },				{ "EP17_2_LE3", 1, 1000146 },				{ "EP17_2_LE4", 1, 1000147 },				{ "EP17_2_LE5", 1, 1000148 },				{ "EP17_2_LE6", 1, 1000149 },				{ "EP17_2_EP1", 1, 1000152 },				{ "EP17_2_EP2", 1, 1000153 },				{ "EP17_2_EP3", 1, 1000154 },				{ "EP17_2_EP4", 1, 1000155 },				{ "EP17_2_EP5", 1, 1000156 },				{ "EP17_2_EP6", 1, 1000157 },				{ "EP17_2_EP7", 1, 1000158 },				{ "EP17_2_EP8", 1, 1000159 },				{ "EP17_2_EP9", 1, 1000160 },				{ "EP17_2_EP10", 1, 1000161 },				{ "EP17_2_EP11", 1, 1000162 },				{ "EP17_2_EP12", 1, 1000163 },				{ "EP17_2_EP13", 1, 1000164 },				{ "EP17_2_EP14", 1, 1000165 },				{ "EP17_2_EP15", 1, 1000166 },				{ "EP17_2_EP16", 1, 1000167 },				{ "EP17_2_EP17", 1, 1000168 },				{ "EP17_2_EP18", 1, 1000169 },				{ "EP17_2_EP19", 1, 1000170 },				{ "EP17_2_EP20", 1, 1000171 },				{ "EP17_2_EP21", 1, 1000172 },				{ "EP17_2_EP22", 1, 1000173 },				{ "EP17_2_EP23", 1, 1000174 },				{ "EP17_2_EP24", 1, 1000175 },				{ "EP17_2_EP25", 1, 1000176 },				{ "EP17_2_EP26", 1, 1000177 },				{ "EP17_2_EP27", 1, 1000178 },				{ "EP17_2_EP28", 1, 1000179 },				{ "EP17_2_EP29", 1, 1000180 },				{ "EP17_2_EP30", 1, 1000181 },				{ "EP17_2_EP31", 1, 1000182 },				{ "EP17_2_EP32", 1, 1000183 },				{ "EP17_2_EP33", 1, 1000184 },				{ "EP17_2_EP34", 1, 1000185 },				{ "EP17_2_EP35", 1, 1000186 },				{ "EP17_2_EP36", 1, 1000187 },				{ "EP17_2_EP37", 1, 1000188 },				{ "EP17_2_EP38", 1, 1000189 },				{ "EP17_2_EP39", 1, 1000190 },				{ "EP17_2_EP40", 1, 1000191 },				{ "EP17_2_EP41", 1, 1000192 },				{ "EP17_2_EP42", 1, 1000193 },				{ "EP17_2_EP43", 1, 1000194 },				{ "EP17_2_EP44", 1, 1000195 },				{ "EP17_2_EP45", 1, 1000196 },				{ "EP17_2_EP46", 1, 1000197 },				{ "EP17_2_EP47", 1, 1000198 },				{ "EP17_2_EP48", 1, 1000199 },				{ "EP17_2_EP49", 1, 1000200 },				{ "EP17_2_EP50", 1, 1000201 },				{ "EP17_2_EP51", 1, 1000202 },				{ "EP17_2_RA21", 1, 1000207 },				{ "EP17_2_UQ12", 1, 1000208 }			},			NeedSource_String = "Automatic Modification Module"
 		},
 		FullPeneShadow_Mix = {
 			ItemID = 100572,
 			NeedCount = 10,
 			NeedRefineMin = 7,
-			NeedRefineMax = 10, 
+			NeedRefineMax = 10,
 			SourceItems = {
-				{ "페니트레이션슈즈S", 1, 24373 }, 
-				{ "페니트레이션쉴드S", 1, 24374 }, 
-				{ "액서홀리아머S", 1, 24375 }, 
-				{ "엑소커럽트아머S", 1, 24376 }, 
-				{ "드래곤바이브아머S", 1, 24377 }, 
-				{ "시저스헌팅아머S", 1, 24378 }, 
-				{ "피싱인섹트아머S", 1, 24379 }, 
-				{ "페니트레이션이어링S", 1, 24166 }, 
-				{ "페니트레이션펜던트S", 1, 24167 }, 
-				{ "액서큐서너웨폰S", 1, 24156 }, 
-				{ "엑소시스트웨폰S", 1, 24157 }, 
-				{ "헌팅웨폰S", 1, 24158 }, 
-				{ "인섹트넷웨폰S", 1, 24159 }, 
-				{ "피싱웨폰S", 1, 24160 }, 
-				{ "드래곤킬러웨폰S", 1, 24161 }, 
-				{ "커럽트웨폰S", 1, 24162 }, 
-				{ "바이브레이션웨폰S", 1, 24163 }, 
-				{ "홀리워터웨폰S", 1, 24164 }, 
-				{ "시저스웨폰S", 1, 24165 }, 
-				{ "포스액서듀얼웨폰S2", 1, 24328 }, 
-				{ "S_Penetration_Weapon", 1, 24432 }, 
-				{ "S_Penetration_Armor", 1, 24433 }, 
-				{ "S_Exe_Ho_Weapon", 1, 24434 }, 
-				{ "S_Fis_In_Weapon", 1, 24435 }, 
-				{ "S_Sci_Hu_Weapon", 1, 24436 }, 
-				{ "S_Viv_Dr_Weapon", 1, 24437 }, 
+				{ "페니트레이션슈즈S", 1, 24373 },
+				{ "페니트레이션쉴드S", 1, 24374 },
+				{ "액서홀리아머S", 1, 24375 },
+				{ "엑소커럽트아머S", 1, 24376 },
+				{ "드래곤바이브아머S", 1, 24377 },
+				{ "시저스헌팅아머S", 1, 24378 },
+				{ "피싱인섹트아머S", 1, 24379 },
+				{ "페니트레이션이어링S", 1, 24166 },
+				{ "페니트레이션펜던트S", 1, 24167 },
+				{ "액서큐서너웨폰S", 1, 24156 },
+				{ "엑소시스트웨폰S", 1, 24157 },
+				{ "헌팅웨폰S", 1, 24158 },
+				{ "인섹트넷웨폰S", 1, 24159 },
+				{ "피싱웨폰S", 1, 24160 },
+				{ "드래곤킬러웨폰S", 1, 24161 },
+				{ "커럽트웨폰S", 1, 24162 },
+				{ "바이브레이션웨폰S", 1, 24163 },
+				{ "홀리워터웨폰S", 1, 24164 },
+				{ "시저스웨폰S", 1, 24165 },
+				{ "포스액서듀얼웨폰S2", 1, 24328 },
+				{ "S_Penetration_Weapon", 1, 24432 },
+				{ "S_Penetration_Armor", 1, 24433 },
+				{ "S_Exe_Ho_Weapon", 1, 24434 },
+				{ "S_Fis_In_Weapon", 1, 24435 },
+				{ "S_Sci_Hu_Weapon", 1, 24436 },
+				{ "S_Viv_Dr_Weapon", 1, 24437 },
 				{ "S_Exo_Co_Weapon", 1, 24438 }
 			},
 			NeedSource_String = "+7 Penetration-type Shadow Equipment"
-		}, 
+		},
 		PendantStoneForWork = {
 			ItemID = 100579,
 			NeedCount = 1,
@@ -344,9 +386,9 @@ tblLapineDdukddakBox = {
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
-				{ "에기르헬름K", 1, 19026 }, 
-				{ "에기르아머K", 1, 15138 }, 
-				{ "에기르슈즈K", 1, 22059 }, 
+				{ "에기르헬름K", 1, 19026 },
+				{ "에기르아머K", 1, 15138 },
+				{ "에기르슈즈K", 1, 22059 },
 				{ "에기르망토K", 1, 20756 }
 			},
 			NeedSource_String = "Sea God Egil's Armor"
@@ -370,7 +412,7 @@ tblLapineDdukddakBox = {
 				{ "SoulWeight", 1, 26154 }
 			},
 			NeedSource_String = "Spirit Pendulum"
-		}, 
+		},
 		Crimson_Rose_Cube = {
 			ItemID = 100404,
 			NeedCount = 1,
@@ -380,7 +422,7 @@ tblLapineDdukddakBox = {
 				{ "Crimson_Rose", 1, 32302 }
 			},
 			NeedSource_String = "Crimson Rose"
-		}, 
+		},
 		Master_Soul_Rifle_Cube = {
 			ItemID = 100405,
 			NeedCount = 1,
@@ -425,7 +467,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100399,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "MeawFoxtail", 1, 26155 }
 			},
@@ -435,7 +477,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100400,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Fog_Dew_Sword", 1, 28764 }
 			},
@@ -445,7 +487,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100401,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Humma_Clear", 1, 13345 }
 			},
@@ -455,7 +497,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100388,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Iron_Nail_K", 1, 1847 }
 			},
@@ -465,7 +507,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100390,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Ray_Knuckle", 1, 560002 }
 			},
@@ -475,7 +517,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100393,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Undine_Spear_K", 1, 32018 }
 			},
@@ -485,7 +527,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100394,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Light_Blade", 1, 500003 }
 			},
@@ -495,7 +537,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100395,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Iron_Staff", 1, 2048 }
 			},
@@ -505,7 +547,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100396,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Blue_Crystal_Staff", 1, 640004 }
 			},
@@ -515,7 +557,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100397,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Demon_Hunting_Bible_K", 1, 28630 }
 			},
@@ -525,7 +567,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100398,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Saint_Hall", 1, 590003 }
 			},
@@ -535,7 +577,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100433,
 			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 0, 
+			NeedRefineMax = 0,
 			SourceItems = {
 				{ "C_Pretty_Bear_WH", 1, 31799 },
 				{ "C_FortunetellinSealed", 1, 31735 },
@@ -565,7 +607,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100376,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Royal_Bow_K", 1, 18164 }
 			},
@@ -575,7 +617,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100377,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Scalet_Dragon_L_Bow", 1, 700003 }
 			},
@@ -585,7 +627,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100378,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shadow_Staff_K", 1, 26118 }
 			},
@@ -595,7 +637,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100379,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Freezing_Rod", 1, 550007 }
 			},
@@ -605,7 +647,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100381,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 9, 
+			NeedRefineMax = 9,
 			SourceItems = {
 				{ "진홍의너클", 1, 1839 },
 				{ "진홍의대거", 1, 28705 },
@@ -631,7 +673,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100382,
 			NeedCount = 1,
 			NeedRefineMin = 10,
-			NeedRefineMax = 10, 
+			NeedRefineMax = 10,
 			SourceItems = {
 				{ "진홍의너클", 1, 1839 },
 				{ "진홍의대거", 1, 28705 },
@@ -657,7 +699,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100383,
 			NeedCount = 1,
 			NeedRefineMin = 11,
-			NeedRefineMax = 11, 
+			NeedRefineMax = 11,
 			SourceItems = {
 				{ "진홍의너클", 1, 1839 },
 				{ "진홍의대거", 1, 28705 },
@@ -683,7 +725,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100384,
 			NeedCount = 1,
 			NeedRefineMin = 12,
-			NeedRefineMax = 12, 
+			NeedRefineMax = 12,
 			SourceItems = {
 				{ "진홍의너클", 1, 1839 },
 				{ "진홍의대거", 1, 28705 },
@@ -709,7 +751,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100385,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 9, 
+			NeedRefineMax = 9,
 			SourceItems = {
 				{ "타노스의검", 1, 13441 },
 				{ "타노스의너클", 1, 1836 },
@@ -749,7 +791,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100386,
 			NeedCount = 1,
 			NeedRefineMin = 10,
-			NeedRefineMax = 10, 
+			NeedRefineMax = 10,
 			SourceItems = {
 				{ "타노스의검", 1, 13441 },
 				{ "타노스의너클", 1, 1836 },
@@ -789,7 +831,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100387,
 			NeedCount = 1,
 			NeedRefineMin = 11,
-			NeedRefineMax = 11, 
+			NeedRefineMax = 11,
 			SourceItems = {
 				{ "타노스의검", 1, 13441 },
 				{ "타노스의너클", 1, 1836 },
@@ -829,7 +871,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100360,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Avenger", 1, 28130 }
 			},
@@ -839,7 +881,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100361,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Meteor_Striker", 1, 590002 }
 			},
@@ -849,7 +891,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100362,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Magic_Sword", 1, 28744 }
 			},
@@ -859,7 +901,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100363,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Fatalist", 1, 510006 }
 			},
@@ -869,7 +911,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100327,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Sword_Of_Bluefire", 1, 13485 }
 			},
@@ -879,7 +921,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100328,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Slate_Sword", 1, 500004 }
 			},
@@ -889,7 +931,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100329,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Narcis_Bow", 1, 18170 }
 			},
@@ -899,7 +941,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100330,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Trumpet_Shell_K", 1, 570002 }
 			},
@@ -909,7 +951,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100331,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Barb_Wire_K", 1, 580002 }
 			},
@@ -919,7 +961,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100273,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Ancient_Hero_Boots", 1, 22171 }
 			},
@@ -929,7 +971,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100274,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Oriental_Sword", 1, 21038 }
 			},
@@ -939,7 +981,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100275,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Dragonic_Slayer", 1, 600004 }
 			},
@@ -949,7 +991,7 @@ tblLapineDdukddakBox = {
 			ItemID = 100276,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shiver_Katar_K", 1, 28039 }
 			},
@@ -959,94 +1001,94 @@ tblLapineDdukddakBox = {
 			ItemID = 100277,
 			NeedCount = 1,
 			NeedRefineMin = 9,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Blade_Katar", 1, 610003 }
 			},
 			NeedSource_String = "Blade Katar" 
 		},
-		["Skill_Sha_M_S_Weapon"] = {
+		Skill_Sha_M_S_Weapon = {
 			ItemID = 100151,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 50, 25731 },				{ "Shadowdecon", 50, 25729 }			},
 			NeedSource_String = "Shadowdecon, Zelunium"
 		},
-		["Skill_Sha_M_S_Shield"] = {
+		Skill_Sha_M_S_Shield = {
 			ItemID = 100209,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 50, 25731 },				{ "Shadowdecon", 50, 25729 }			},
 			NeedSource_String = "Shadowdecon, Zelunium"
 		},
-		["Skill_Sha_M_S_Pendant"] = {
+		Skill_Sha_M_S_Pendant = {
 			ItemID = 100210,
 			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shadowdecon", 50, 25729 }			},
 			NeedSource_String = "Shadowdecon"
 		},
-		["Skill_Sha_M_S_Earing"] = {
+		Skill_Sha_M_S_Earing = {
 			ItemID = 100211,
 			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shadowdecon", 50, 25729 }			},
 			NeedSource_String = "Shadowdecon"
 		},
-		["Skill_Sha_M_S_Shoes"] = {
+		Skill_Sha_M_S_Shoes = {
 			ItemID = 100212,
 			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 50, 25731 }			},
 			NeedSource_String = "Zelunium"
 		},
-		["Skill_Sha_M_S_Armor"] = {
+		Skill_Sha_M_S_Armor = {
 			ItemID = 100213,
 			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 50, 25731 }			},
 			NeedSource_String = "Zelunium"
 		},
-		["EnchantStone_Recipe_4m"] = {
+		EnchantStone_Recipe_4m = {
 			ItemID = 100060,
 			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "C흰토끼의귀", 1, 31139 },				{ "C_Autumn_Headband", 1, 31606 },				{ "C토끼뿅모자", 1, 31249 },				{ "C주황색할로윈모자", 1, 20174 },				{ "C뱀파이어헤어밴드", 1, 20098 },				{ "C검은마녀의모자", 1, 20395 },				{ "C디아볼릭헤드폰", 1, 20175 },				{ "C_Poporing_Muffler", 1, 31586 },				{ "C_Princess_Ribbon_Crown", 1, 31565 },				{ "C_LunaticMuffler", 1, 31693 },				{ "C눈토끼니트모자", 1, 19990 },				{ "C_Snow_Bear_Food", 1, 31440 },				{ "C_CatCoffeeCup_TW", 1, 31481 },				{ "C_Cat_Ears_Punkish", 1, 31382 },				{ "C_HeartOfCat_TW", 1, 31624 },				{ "C트윈마가레트", 1, 20486 },				{ "C블랙래빗보넷", 1, 20257 },				{ "C_Kishu_Inu", 1, 31600 },				{ "C_Panda_Rabbit", 1, 31512 },				{ "C_Fox", 1, 31614 },				{ "C_Full_BloomCherry_Tree", 1, 20519 }			},
 			NeedSource_String = "Monster Costumes of April"
 		},
-		["Piercing_Mix"] = {
+		Piercing_Mix = {
 			ItemID = 100053,
 			NeedCount = 2,
 			NeedRefineMin = 7,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "액서큐서너웨폰S", 1, 24156 },				{ "엑소시스트웨폰S", 1, 24157 },				{ "헌팅웨폰S", 1, 24158 },				{ "인섹트넷웨폰S", 1, 24159 },				{ "피싱웨폰S", 1, 24160 },				{ "드래곤킬러웨폰S", 1, 24161 },				{ "커럽트웨폰S", 1, 24162 },				{ "바이브레이션웨폰S", 1, 24163 },				{ "홀리워터웨폰S", 1, 24164 },				{ "시저스웨폰S", 1, 24165 }			},
 			NeedSource_String = "+7 Pierced Shadow Equipment"
 		},
-		["Hasty_Mix"] = {
+		Hasty_Mix = {
 			ItemID = 100058,
 			NeedCount = 2,
 			NeedRefineMin = 7,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "헤이스티슈즈S2", 1, 24320 },				{ "헤이스티아머S", 1, 24197 },				{ "헤이스티슈즈S", 1, 24196 }			},
 			NeedSource_String = "+7 Hasty Shadow Equipment"
 		},
-		["PerfectSize_Mix"] = {
+		PerfectSize_Mix = {
 			ItemID = 100010,
 			NeedCount = 3,
 			NeedRefineMin = 7,			NeedRefineMax = 20,			SourceItems = {
@@ -1055,10 +1097,10 @@ tblLapineDdukddakBox = {
 				{ "스몰웨폰S", 1, 24077 },
 				{ "빅아머S", 1, 24072 },
 				{ "미디움아머S", 1, 24073 },
-				{ "스몰아머S", 1, 24074  }			},
+				{ "스몰아머S", 1, 24074 }			},
 			NeedSource_String = "+7 Perfect Size Shadow Equipment"
 		},
-		["MagicPiercing_Mix"] = {
+		MagicPiercing_Mix = {
 			ItemID = 100011,
 			NeedCount = 2,
 			NeedRefineMin = 7,			NeedRefineMax = 20,			SourceItems = {
@@ -1071,25 +1113,25 @@ tblLapineDdukddakBox = {
 				{ "매직커럽트웨폰S", 1, 24176 },
 				{ "매직바이브레이션웨폰S", 1, 24177 },
 				{ "매직홀리워터웨폰S", 1, 24178 },
-				{ "매직시저스웨폰S", 1, 24179  }			},
+				{ "매직시저스웨폰S", 1, 24179 }			},
 			NeedSource_String = "+7 Magic Piercing Shadow Equipment"
 		},
-		["IDTest_Special"] = {
+		IDTest_Special = {
 			ItemID = 100000,
 			NeedCount = 3,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "젤로피", 1, 909 },
 				{ "솜털", 1, 914 },
 				{ "단단한껍질", 1, 935 }			},
 			NeedSource_String = "Jellopi, Fluffy, Hard Shell"
 		},
-		["EnchantStone_Recipe_9m"] = {
+		EnchantStone_Recipe_9m = {
 			ItemID = 23967,
 			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "C체인퍼펫", 1, 19960 },
 				{ "C늘어진아르지오프", 1, 19959 },
@@ -1113,667 +1155,667 @@ tblLapineDdukddakBox = {
 				{ "C토끼뿅모자", 1, 31249 }			},
 			NeedSource_String = "Flower Costumes in September"
 		},
-		["Bs_Item_M_S_2"] = {
+		Bs_Item_M_S_2 = {
 			ItemID = 23818,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
 				{ "Token_of_OrcGeneral", 150, 25508 }			},
 			NeedSource_String = "Orc General's Token, Zelunium"
 		},
-		["Bs_Item_M_S_8"] = {
+		Bs_Item_M_S_8 = {
 			ItemID = 23819,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
 				{ "발할라의꽃", 150, 7510 }			},
 			NeedSource_String = "Valhala's Flower, Zelunium"
 		},
-		["Bs_Item_M_S_10"] = {
+		Bs_Item_M_S_10 = {
 			ItemID = 23820,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
-				{ "부서진왕관", 150, 7754  }			},
+				{ "부서진왕관", 150, 7754 }			},
 			NeedSource_String = "Broken Crown, Zelunium"
 		},
-		["Bs_Item_M_S_11"] = {
+		Bs_Item_M_S_11 = {
 			ItemID = 23821,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
 				{ "어머니의악몽", 150, 7020 }			},
 			NeedSource_String = "Mother's Nightmare, Zelunium"
 		},
-		["Bs_Item_M_S_34"] = {
+		Bs_Item_M_S_34 = {
 			ItemID = 23822,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
 				{ "해골갑옷조각", 150, 7450 }			},
 			NeedSource_String = "Skeletal Armor Piece, Zelunium"
 		},
-		["Bs_Item_M_S_41"] = {
+		Bs_Item_M_S_41 = {
 			ItemID = 23823,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
 				{ "어머니의악몽", 150, 7020 }			},
 			NeedSource_String = "Mother's Nightmare, Zelunium"
 		},
-		["Bs_Item_M_S_42"] = {
+		Bs_Item_M_S_42 = {
 			ItemID = 23824,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
 				{ "빛나는창날", 50, 7109 }			},
 			NeedSource_String = "Shining Spear Edge, Zelunium"
 		},
-		["Bs_Item_M_S_43"] = {
+		Bs_Item_M_S_43 = {
 			ItemID = 23825,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
 				{ "오시리스인형", 30, 751 }			},
 			NeedSource_String = "Osiris Doll, Zelunium"
 		},
-		["Bs_Item_M_S_44"] = {
+		Bs_Item_M_S_44 = {
 			ItemID = 23826,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 10, 25731 },
 				{ "가름의이빨", 120, 7036 }			},
 			NeedSource_String = "Fang of Hatii, Zelunium"
 		},
-		["Bs_Sha_M_S_1"] = {
+		Bs_Sha_M_S_1 = {
 			ItemID = 23827,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "회중시계", 50, 7513 }			},
 			NeedSource_String = "Pocket Watch, Shadowdecon"
 		},
-		["Bs_Sha_M_S_17"] = {
+		Bs_Sha_M_S_17 = {
 			ItemID = 23828,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "오시리스인형", 10, 751 }			},
 			NeedSource_String = "Osiris Doll, Shadowdecon"
 		},
-		["Bs_Sha_M_S_18"] = {
+		Bs_Sha_M_S_18 = {
 			ItemID = 23829,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "바포메트인형", 10, 750 }			},
 			NeedSource_String = "Baphomet Doll, Shadowdecon"
 		},
-		["Bs_Sha_M_S_19"] = {
+		Bs_Sha_M_S_19 = {
 			ItemID = 23830,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shadowdecon", 10, 25729 },
 				{ "빛나는창날", 50, 7109 }			},
 			NeedSource_String = "Shining Spear Edge, Shadowdecon"
 		},
-		["Bs_Sha_M_S_20"] = {
+		Bs_Sha_M_S_20 = {
 			ItemID = 23831,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Shadowdecon", 10, 25729 },
-				{ "로키의속삭임", 50, 7019  }			},
+				{ "로키의속삭임", 50, 7019 }			},
 			NeedSource_String = "Shining Spear Edge, Shadowdecon"
 		},
-		["Bs_Item_M_S_4"] = {
+		Bs_Item_M_S_4 = {
 			ItemID = 23832,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "바포메트인형", 30, 750  }			},
+				{ "바포메트인형", 30, 750 }			},
 			NeedSource_String = "Baphomet Doll, Zelunium"
 		},
-		["Bs_Item_M_S_6"] = {
+		Bs_Item_M_S_6 = {
 			ItemID = 23833,
 			NeedCount = 2,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "호랑이의발바닥", 150, 1030  }			},
+				{ "호랑이의발바닥", 150, 1030 }			},
 			NeedSource_String = "Tiger's Footskin, Zelunium"
 		},
-		["Bs_Item_M_S_7"] = {
+		Bs_Item_M_S_7 = {
 			ItemID = 23834,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "White_Snake_Tear", 150, 25622  }			},
+				{ "White_Snake_Tear", 150, 25622 }			},
 			NeedSource_String = "White Snake's Tear, Zelunium"
 		},
-		["Bs_Item_M_S_12"] = {
+		Bs_Item_M_S_12 = {
 			ItemID = 23835,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "원석", 150, 7300  }			},
+				{ "원석", 150, 7300 }			},
 			NeedSource_String = "Gemstone, Zelunium"
 		},
-		["Bs_Item_M_S_13"] = {
+		Bs_Item_M_S_13 = {
 			ItemID = 23836,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "어린나뭇가지", 150, 7018  }			},
+				{ "어린나뭇가지", 150, 7018 }			},
 			NeedSource_String = "Young Twig, Zelunium"
 		},
-		["Bs_Item_M_S_15"] = {
+		Bs_Item_M_S_15 = {
 			ItemID = 23837,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "태극패", 150, 7169  }			},
+				{ "태극패", 150, 7169 }			},
 			NeedSource_String = "Taeguk Plate, Zelunium"
 		},
-		["Bs_Item_M_S_28"] = {
+		Bs_Item_M_S_28 = {
 			ItemID = 23838,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "얼음비늘", 150, 7562  }			},
+				{ "얼음비늘", 150, 7562 }			},
 			NeedSource_String = "Ice Scale, Zelunium"
 		},
-		["Bs_Item_M_S_29"] = {
+		Bs_Item_M_S_29 = {
 			ItemID = 23839,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "원석", 150, 7300  }			},
+				{ "원석", 150, 7300 }			},
 			NeedSource_String = "Gemstone, Zelunium"
 		},
-		["Bs_Item_M_S_31"] = {
+		Bs_Item_M_S_31 = {
 			ItemID = 23840,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "검붉은비늘조각", 150, 6091  }			},
+				{ "검붉은비늘조각", 150, 6091 }			},
 			NeedSource_String = "Dark Red Scale Piece, Zelunium"
 		},
-		["Bs_Item_M_S_32"] = {
+		Bs_Item_M_S_32 = {
 			ItemID = 23841,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "어머니의악몽", 150, 7020  }			},
+				{ "어머니의악몽", 150, 7020 }			},
 			NeedSource_String = "Mother's Nightmare, Zelunium"
 		},
-		["Bs_Item_M_S_33"] = {
+		Bs_Item_M_S_33 = {
 			ItemID = 23842,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "부서진왕관", 150, 7754  }			},
+				{ "부서진왕관", 150, 7754 }			},
 			NeedSource_String = "Broken Crown, Zelunium"
 		},
-		["Bs_Item_M_S_36"] = {
+		Bs_Item_M_S_36 = {
 			ItemID = 23843,
 			NeedCount = 2,
 			NeedRefineMin = 0,
 			NeedRefineMax = 20,
 			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "호랑이의발바닥", 150, 1030  }			},
+				{ "호랑이의발바닥", 150, 1030 }			},
 			NeedSource_String = "Tiger's Footskin, Zelunium"
 		},
-		["Bs_Item_M_S_37"] = {
+		Bs_Item_M_S_37 = {
 			ItemID = 23844,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "로키의속삭임", 150, 7019  }			},
+				{ "로키의속삭임", 150, 7019 }			},
 			NeedSource_String = "Loki's Whispers, Zelunium"
 		},
-		["Bs_Item_M_S_38"] = {
+		Bs_Item_M_S_38 = {
 			ItemID = 23845,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "회중시계", 150, 7513  }			},
+				{ "회중시계", 150, 7513 }			},
 			NeedSource_String = "Pocket Watch, Zelunium"
 		},
-		["Bs_Item_M_S_39"] = {
+		Bs_Item_M_S_39 = {
 			ItemID = 23846,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "투탄카멘마스크", 150, 7114  }			},
+				{ "투탄카멘마스크", 150, 7114 }			},
 			NeedSource_String = "Mask of Tutankhamen, Zelunium"
 		},
-		["Bs_Item_M_S_40"] = {
+		Bs_Item_M_S_40 = {
 			ItemID = 23847,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "깨진파라오상징", 150, 7113  }			},
+				{ "깨진파라오상징", 150, 7113 }			},
 			NeedSource_String = "Broken Pharaoh Emblem, Zelunium"
 		},
-		["Bs_Item_M_S_45"] = {
+		Bs_Item_M_S_45 = {
 			ItemID = 23848,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "검붉은비늘조각", 150, 6091  }			},
+				{ "검붉은비늘조각", 150, 6091 }			},
 			NeedSource_String = "Dark Red Scale Piece, Zelunium"
 		},
-		["Bs_Item_M_S_46"] = {
+		Bs_Item_M_S_46 = {
 			ItemID = 23849,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "화룡의비늘조각", 150, 7451  }			},
+				{ "화룡의비늘조각", 150, 7451 }			},
 			NeedSource_String = "Fire Dragon Scale, Zelunium"
 		},
-		["Bs_Item_M_S_47"] = {
+		Bs_Item_M_S_47 = {
 			ItemID = 23850,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "Konts_Letter", 150, 25629  }			},
+				{ "Konts_Letter", 150, 25629 }			},
 			NeedSource_String = "Knot Letter, Zelunium"
 		},
-		["Bs_Item_M_S_48"] = {
+		Bs_Item_M_S_48 = {
 			ItemID = 23851,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "오시리스인형", 30, 751  }			},
+				{ "오시리스인형", 30, 751 }			},
 			NeedSource_String = "Osiris Doll, Zelunium"
 		},
-		["Bs_Item_M_S_49"] = {
+		Bs_Item_M_S_49 = {
 			ItemID = 23852,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "Token_of_OrcGeneral", 150, 25508  }			},
+				{ "Token_of_OrcGeneral", 150, 25508 }			},
 			NeedSource_String = "Orc Lord's Token, Zelunium"
 		},
-		["Bs_Item_M_S_50"] = {
+		Bs_Item_M_S_50 = {
 			ItemID = 23853,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "어린나뭇가지", 150, 7018  }			},
+				{ "어린나뭇가지", 150, 7018 }			},
 			NeedSource_String = "Young Twig, Zelunium"
 		},
-		["Bs_Item_M_S_51"] = {
+		Bs_Item_M_S_51 = {
 			ItemID = 23894,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 20, 25731 },
-				{ "여왕의날개조각", 150, 6326  }			},
+				{ "여왕의날개조각", 150, 6326 }			},
 			NeedSource_String = "Piece of Queen's Wing, Zelunium"
 		},
-		["Bs_Sha_M_S_2"] = {
+		Bs_Sha_M_S_2 = {
 			ItemID = 23854,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "화룡의비늘조각", 50, 7451  }			},
+				{ "화룡의비늘조각", 50, 7451 }			},
 			NeedSource_String = "Fire Dragon Scale, Shadowdecon"
 		},
-		["Bs_Sha_M_S_5"] = {
+		Bs_Sha_M_S_5 = {
 			ItemID = 23855,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "여왕의날개조각", 50, 6326  }			},
+				{ "여왕의날개조각", 50, 6326 }			},
 			NeedSource_String = "Piece of Queen's Wing, Shadowdecon"
 		},
-		["Bs_Sha_M_S_6"] = {
+		Bs_Sha_M_S_6 = {
 			ItemID = 23856,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "호랑이의발바닥", 50, 1030  }			},
+				{ "호랑이의발바닥", 50, 1030 }			},
 			NeedSource_String = "Tiger's Footskin, Shadowdecon"
 		},
-		["Bs_Sha_M_S_7"] = {
+		Bs_Sha_M_S_7 = {
 			ItemID = 23857,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "깨진방패조각", 50, 7108  }			},
+				{ "깨진방패조각", 50, 7108 }			},
 			NeedSource_String = "Broken Shield Piece, Shadowdecon"
 		},
-		["Bs_Sha_M_S_8"] = {
+		Bs_Sha_M_S_8 = {
 			ItemID = 23858,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "암흑의의지_", 50, 7566  }			},
+				{ "암흑의의지_", 50, 7566 }			},
 			NeedSource_String = "Will of Red Darkness, Shadowdecon"
 		},
-		["Bs_Sha_M_S_13"] = {
+		Bs_Sha_M_S_13 = {
 			ItemID = 23859,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "오크용자의증표", 50, 968  }			},
+				{ "오크용자의증표", 50, 968 }			},
 			NeedSource_String = "Orc Hero's Token, Shadowdecon"
 		},
-		["Bs_Sha_M_S_15"] = {
+		Bs_Sha_M_S_15 = {
 			ItemID = 23860,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "Token_of_OrcGeneral", 50, 25508  }			},
+				{ "Token_of_OrcGeneral", 50, 25508 }			},
 			NeedSource_String = "Orc Lord's Token, Shadowdecon"
 		},
-		["Bs_Sha_M_S_16"] = {
+		Bs_Sha_M_S_16 = {
 			ItemID = 23861,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "어머니의악몽", 50, 7020  }			},
+				{ "어머니의악몽", 50, 7020 }			},
 			NeedSource_String = "Mother's Nightmare, Shadowdecon"
 		},
-		["Bs_Sha_M_S_23"] = {
+		Bs_Sha_M_S_23 = {
 			ItemID = 23862,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 20, 25729 },
-				{ "부러진뿔", 50, 6649  }			},
+				{ "부러진뿔", 50, 6649 }			},
 			NeedSource_String = "Broken Horn, Shadowdecon"
 		},
-		["Bs_Item_M_S_5"] = {
+		Bs_Item_M_S_5 = {
 			ItemID = 23863,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 25, 25731 },
-				{ "오시리스인형", 30, 751  }			},
+				{ "오시리스인형", 30, 751 }			},
 			NeedSource_String = "Osiris Doll, Zelunium"
 		},
-		["Bs_Item_M_S_9"] = {
+		Bs_Item_M_S_9 = {
 			ItemID = 23864,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 25, 25731 },
-				{ "발할라의꽃", 150, 7510  }			},
+				{ "발할라의꽃", 150, 7510 }			},
 			NeedSource_String = "Valhala's Flower, Zelunium"
 		},
-		["Bs_Item_M_S_14"] = {
+		Bs_Item_M_S_14 = {
 			ItemID = 23865,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 25, 25731 },
-				{ "검붉은비늘조각", 150, 6091  }			},
+				{ "검붉은비늘조각", 150, 6091 }			},
 			NeedSource_String = "Dark Red Scale Piece, Zelunium"
 		},
-		["Bs_Item_M_S_16"] = {
+		Bs_Item_M_S_16 = {
 			ItemID = 23866,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 25, 25731 },
-				{ "암흑의의지_", 150, 7566  }			},
+				{ "암흑의의지_", 150, 7566 }			},
 			NeedSource_String = "Will of Red Darkness, Zelunium"
 		},
-		["Bs_Item_M_S_17"] = {
+		Bs_Item_M_S_17 = {
 			ItemID = 23867,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 25, 25731 },
-				{ "어머니의악몽", 150, 7020  }			},
+				{ "어머니의악몽", 150, 7020 }			},
 			NeedSource_String = "Mother's Nightmare, Zelunium"
 		},
-		["Bs_Item_M_S_19"] = {
+		Bs_Item_M_S_19 = {
 			ItemID = 23868,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 25, 25731 },
-				{ "얼음비늘", 150, 7562  }			},
+				{ "얼음비늘", 150, 7562 }			},
 			NeedSource_String = "얼음비늘, Zelunium"
 		},
-		["Bs_Item_M_S_27"] = {
+		Bs_Item_M_S_27 = {
 			ItemID = 23869,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 25, 25731 },
-				{ "부서진왕관", 150, 7754  }			},
+				{ "부서진왕관", 150, 7754 }			},
 			NeedSource_String = "Broken Crown, Zelunium"
 		},
-		["Bs_Item_M_S_35"] = {
+		Bs_Item_M_S_35 = {
 			ItemID = 23870,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 25, 25731 },
-				{ "암흑의의지_", 150, 7566  }			},
+				{ "암흑의의지_", 150, 7566 }			},
 			NeedSource_String = "Will of Red Darkness, Zelunium"
 		},
-		["Bs_Sha_M_S_9"] = {
+		Bs_Sha_M_S_9 = {
 			ItemID = 23871,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 25, 25729 },
-				{ "어린나뭇가지", 50, 7018  }			},
+				{ "어린나뭇가지", 50, 7018 }			},
 			NeedSource_String = "Young Twig, Shadowdecon"
 		},
-		["Bs_Sha_M_S_10"] = {
+		Bs_Sha_M_S_10 = {
 			ItemID = 23872,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 25, 25729 },
-				{ "호랑이의발바닥", 50, 1030  }			},
+				{ "호랑이의발바닥", 50, 1030 }			},
 			NeedSource_String = "Tiger's Footskin, Shadowdecon"
 		},
-		["Bs_Sha_M_S_11"] = {
+		Bs_Sha_M_S_11 = {
 			ItemID = 23873,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 25, 25729 },
-				{ "암흑의의지_", 50, 7566  }			},
+				{ "암흑의의지_", 50, 7566 }			},
 			NeedSource_String = "Will of Red Darkness, Shadowdecon"
 		},
-		["Bs_Sha_M_S_21"] = {
+		Bs_Sha_M_S_21 = {
 			ItemID = 23874,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 25, 25729 },
-				{ "빛나는창날", 10, 7109  }			},
+				{ "빛나는창날", 10, 7109 }			},
 			NeedSource_String = "Shining Spear Edge, Shadowdecon"
 		},
-		["Bs_Sha_M_S_22"] = {
+		Bs_Sha_M_S_22 = {
 			ItemID = 23875,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 25, 25729 },
-				{ "가름의이빨", 50, 7036  }			},
+				{ "가름의이빨", 50, 7036 }			},
 			NeedSource_String = "Fang of Hatii, Shadowdecon"
 		},
-		["Bs_Item_M_S_1"] = {
+		Bs_Item_M_S_1 = {
 			ItemID = 23876,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "발할라의꽃", 300, 7510  }			},
+				{ "발할라의꽃", 300, 7510 }			},
 			NeedSource_String = "Valhala's Flower, Zelunium"
 		},
-		["Bs_Item_M_S_3"] = {
+		Bs_Item_M_S_3 = {
 			ItemID = 23877,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "부서진왕관", 150, 7754  }			},
+				{ "부서진왕관", 150, 7754 }			},
 			NeedSource_String = "Broken Crown, Zelunium"
 		},
-		["Bs_Item_M_S_18"] = {
+		Bs_Item_M_S_18 = {
 			ItemID = 23879,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "로제타스톤", 150, 7211  }			},
+				{ "로제타스톤", 150, 7211 }			},
 			NeedSource_String = "Rosetta Stone Piece, Zelunium"
 		},
-		["Bs_Item_M_S_20"] = {
+		Bs_Item_M_S_20 = {
 			ItemID = 23880,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "로키의속삭임", 200, 7019  }			},
+				{ "로키의속삭임", 200, 7019 }			},
 			NeedSource_String = "Loki's Whispers, Zelunium"
 		},
-		["Bs_Item_M_S_21"] = {
+		Bs_Item_M_S_21 = {
 			ItemID = 23881,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "부러진뿔", 150, 6649  }			},
+				{ "부러진뿔", 150, 6649 }			},
 			NeedSource_String = "Broken Horn, Zelunium"
 		},
-		["Bs_Item_M_S_22"] = {
+		Bs_Item_M_S_22 = {
 			ItemID = 23882,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "태극패", 150, 7169  }			},
+				{ "태극패", 150, 7169 }			},
 			NeedSource_String = "Taeguk Plate, Zelunium"
 		},
-		["Bs_Item_M_S_23"] = {
+		Bs_Item_M_S_23 = {
 			ItemID = 23883,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "가름의이빨", 150, 7036  }			},
+				{ "가름의이빨", 150, 7036 }			},
 			NeedSource_String = "Fang of Hatii, Zelunium"
 		},
-		["Bs_Item_M_S_24"] = {
+		Bs_Item_M_S_24 = {
 			ItemID = 23884,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "원석", 150, 7300  }			},
+				{ "원석", 150, 7300 }			},
 			NeedSource_String = "Gemstone, Zelunium"
 		},
-		["Bs_Item_M_S_25"] = {
+		Bs_Item_M_S_25 = {
 			ItemID = 23885,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "어린나뭇가지", 150, 7018  }			},
+				{ "어린나뭇가지", 150, 7018 }			},
 			NeedSource_String = "Young Twig, Zelunium"
 		},
-		["Bs_Item_M_S_26"] = {
+		Bs_Item_M_S_26 = {
 			ItemID = 23886,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "깨진방패조각", 150, 7108  }			},
+				{ "깨진방패조각", 150, 7108 }			},
 			NeedSource_String = "Broken Shield Piece, Zelunium"
 		},
-		["Bs_Item_M_S_30"] = {
+		Bs_Item_M_S_30 = {
 			ItemID = 23887,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Zelunium", 30, 25731 },
-				{ "빛나는창날", 50, 7109  }			},
+				{ "빛나는창날", 50, 7109 }			},
 			NeedSource_String = "Shining Spear Edge, Zelunium"
 		},
-		["Bs_Sha_M_S_3"] = {
+		Bs_Sha_M_S_3 = {
 			ItemID = 23888,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 30, 25729 },
-				{ "해골갑옷조각", 50, 7450  }			},
+				{ "해골갑옷조각", 50, 7450 }			},
 			NeedSource_String = "Skeletal Armor Piece, Shadowdecon"
 		},
-		["Bs_Sha_M_S_4"] = {
+		Bs_Sha_M_S_4 = {
 			ItemID = 23889,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 30, 25729 },
-				{ "Konts_Letter", 50, 25629  }			},
+				{ "Konts_Letter", 50, 25629 }			},
 			NeedSource_String = "Knot Letter, Shadowdecon"
 		},
-		["Bs_Sha_M_S_12"] = {
+		Bs_Sha_M_S_12 = {
 			ItemID = 23890,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 30, 25729 },
-				{ "태극패", 50, 7169  }			},
+				{ "태극패", 50, 7169 }			},
 			NeedSource_String = "Taeguk Plate, Shadowdecon"
 		},
-		["Bs_Sha_M_S_14"] = {
+		Bs_Sha_M_S_14 = {
 			ItemID = 23891,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 30, 25729 },
-				{ "로키의속삭임", 50, 7019  }			},
+				{ "로키의속삭임", 50, 7019 }			},
 			NeedSource_String = "Loki's Whispers, Shadowdecon"
 		},
-		["Bs_Sha_M_S_24"] = {
+		Bs_Sha_M_S_24 = {
 			ItemID = 23892,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 25, 25729 },
-				{ "회중시계", 150, 7513  }			},
+				{ "회중시계", 150, 7513 }			},
 			NeedSource_String = "Pocket Watch, Shadowdecon"
 		},
-		["Bs_Sha_M_S_25"] = {
+		Bs_Sha_M_S_25 = {
 			ItemID = 23893,
 			NeedCount = 2,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "Shadowdecon", 25, 25729 },
-				{ "원석", 150, 7300  }			},
+				{ "원석", 150, 7300 }			},
 			NeedSource_String = "Gemstone, Shadowdecon"
 		},
-		["PhysicalMagical_Mix"] = {
+		PhysicalMagical_Mix = {
 			ItemID = 23665,
 			NeedCount = 3,
 			NeedRefineMin = 7,			NeedRefineMax = 20,			SourceItems = {
@@ -1782,58 +1824,58 @@ tblLapineDdukddakBox = {
 				{ "피지컬펜던트S", 1, 24020 },
 				{ "매지컬웨폰S", 1, 24022 },
 				{ "매지컬이어링S", 1, 24021 },
-				{ "매지컬펜던트S", 1, 24023  }			},
+				{ "매지컬펜던트S", 1, 24023 }			},
 			NeedSource_String = "Physical and Magical Shadow Equipment"
 		},
-		["ImmunedAthena_Mix"] = {
+		ImmunedAthena_Mix = {
 			ItemID = 23666,
 			NeedCount = 2,
 			NeedRefineMin = 7,			NeedRefineMax = 20,			SourceItems = {
 				{ "이뮨드아머S", 1, 24027 },
 				{ "아테나쉴드S", 1, 24026 },
-				{ "아테나이어링S", 1, 24051  }			},
+				{ "아테나이어링S", 1, 24051 }			},
 			NeedSource_String = "Immune and Athena Shadow Equipment"
 		},
-		["HardChamption_Mix"] = {
+		HardChamption_Mix = {
 			ItemID = 23667,
 			NeedCount = 2,
 			NeedRefineMin = 7,			NeedRefineMax = 20,			SourceItems = {
 				{ "하드아머S", 1, 24028 },
 				{ "하드이어링S", 1, 24049 },
-				{ "챔피언슈즈S", 1, 24025  }			},
+				{ "챔피언슈즈S", 1, 24025 }			},
 			NeedSource_String = "Hard Champion Shadow Equipment"
 		},
-		["KingbirdAncient_Mix"] = {
+		KingbirdAncient_Mix = {
 			ItemID = 23668,
 			NeedCount = 2,
 			NeedRefineMin = 7,			NeedRefineMax = 20,			SourceItems = {
 				{ "킹버드웨폰S", 1, 24031 },
-				{ "에이션트아머S", 1, 24029  }			},
+				{ "에이션트아머S", 1, 24029 }			},
 			NeedSource_String = "Kingbird and Ancient Shadow Equipment"
 		},
-		["CriticalHit_Mix"] = {
+		CriticalHit_Mix = {
 			ItemID = 23669,
 			NeedCount = 2,
 			NeedRefineMin = 7,			NeedRefineMax = 20,			SourceItems = {
 				{ "크리티컬슈즈S", 1, 24333 },
 				{ "크리티컬쉴드S", 1, 24332 },
 				{ "크리히트웨폰S", 1, 24032 },
-				{ "크리티컬아머S", 1, 24030  }			},
+				{ "크리티컬아머S", 1, 24030 }			},
 			NeedSource_String = "Critical Hit Shadow Equipment"
 		},
-		["Silver_Statue"] = {
+		Silver_Statue = {
 			ItemID = 23545,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "Bloody_Knight_Shield", 1, 28942  }			},
+				{ "Bloody_Knight_Shield", 1, 28942 }			},
 			NeedSource_String = "Cursed Knight's Shield"
 		},
-		["InfinityShadow_Mix"] = {
+		InfinityShadow_Mix = {
 			ItemID = 23474,
 			NeedCount = 2,
 			NeedRefineMin = 7,			NeedRefineMax = 20,			SourceItems = {
 				{ "인피니티이어링S", 1, 24150 },
-				{ "인피니티펜던트S", 1, 24151  }			},
+				{ "인피니티펜던트S", 1, 24151 }			},
 			NeedSource_String = "+7 Infinity Shadow Equipment"
 		},
 		["스테빌리티S변환상자"] = {
@@ -1857,42 +1899,42 @@ tblLapineDdukddakBox = {
 				{ "뉴트럴이어링S", 1, 24105 },
 				{ "뉴트럴펜던트S", 1, 24106 },
 				{ "언커즈이어링S", 1, 24107 },
-				{ "언커즈펜던트S", 1, 24108  }			},
+				{ "언커즈펜던트S", 1, 24108 }			},
 			NeedSource_String = "+5 Abnormal Shadow Equipment"
 		},
 		["부스터증폭기"] = {
 			ItemID = 23308,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "매지컬부스터K", 1, 19241  }			},
+				{ "매지컬부스터K", 1, 19241 }			},
 			NeedSource_String = "Magical Booster"
 		},
 		["마법고양이손"] = {
 			ItemID = 23311,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "고양이레이스머리띠K", 1, 19242  }			},
+				{ "고양이레이스머리띠K", 1, 19242 }			},
 			NeedSource_String = "Cat Headdress"
 		},
 		["사탕축복스크롤_물리"] = {
 			ItemID = 23289,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "안토니오가방_물리", 1, 20842  }			},
+				{ "안토니오가방_물리", 1, 20842 }			},
 			NeedSource_String = "Candy Pouch Bag (Physical)"
 		},
 		["사탕축복스크롤_원거리"] = {
 			ItemID = 23290,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "안토니오가방_원거리", 1, 20843  }			},
+				{ "안토니오가방_원거리", 1, 20843 }			},
 			NeedSource_String = "Candy Pouch Bag (Ranged)"
 		},
 		["사탕축복스크롤_마법"] = {
 			ItemID = 23291,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "안토니오가방_마법", 1, 20844  }			},
+				{ "안토니오가방_마법", 1, 20844 }			},
 			NeedSource_String = "Candy Pouch Bag (Magical)"
 		},
 		["레이스S변환상자"] = {
@@ -1916,7 +1958,7 @@ tblLapineDdukddakBox = {
 				{ "클래머러스슈즈S", 1, 24065 },
 				{ "케미컬슈즈S", 1, 24064 },
 				{ "블러디슈즈S", 1, 24062 },
-				{ "드라군슈즈S", 1, 24071  }			},
+				{ "드라군슈즈S", 1, 24071 }			},
 			NeedSource_String = "+7 Race Shadow Equipment"
 		},
 		["컴포즈S변환상자"] = {
@@ -1926,7 +1968,7 @@ tblLapineDdukddakBox = {
 				{ "콜드볼트아머S", 1, 24219 },
 				{ "화이어볼트아머S", 1, 24220 },
 				{ "라이트닝볼트아머S", 1, 24221 },
-				{ "어스스파이크아머S", 1, 24222  }			},
+				{ "어스스파이크아머S", 1, 24222 }			},
 			NeedSource_String = "+7 Bolt Shadow Equipment"
 		},
 		["베어러즈S변환상자"] = {
@@ -1938,7 +1980,7 @@ tblLapineDdukddakBox = {
 				{ "베어러즈쉴드S", 1, 24182 },
 				{ "베어러즈이어링S", 1, 24184 },
 				{ "베어러즈웨폰S", 1, 24183 },
-				{ "베어러즈펜던트S", 1, 24185  }			},
+				{ "베어러즈펜던트S", 1, 24185 }			},
 			NeedSource_String = "+7 Bearer's Shadow Equipment"
 		},
 		["젬스톤S변환상자"] = {
@@ -1950,7 +1992,7 @@ tblLapineDdukddakBox = {
 				{ "젬스톤슈즈S", 1, 24085 },
 				{ "젬스톤쉴드S", 1, 24086 },
 				{ "젬스톤이어링S", 1, 24088 },
-				{ "젬스톤웨폰S", 1, 24087  }			},
+				{ "젬스톤웨폰S", 1, 24087 }			},
 			NeedSource_String = "+7 Gemstone Shadow Equipment"
 		},
 		["스테이터스S변환상자"] = {
@@ -1968,7 +2010,7 @@ tblLapineDdukddakBox = {
 				{ "인트이어링S", 1, 24042 },
 				{ "덱스터러스웨폰S", 1, 24043 },
 				{ "바이탈쉴드S", 1, 24044 },
-				{ "어틀레틱슈즈S", 1, 24045  }			},
+				{ "어틀레틱슈즈S", 1, 24045 }			},
 			NeedSource_String = "+7 Status Shadow Equipment"
 		},
 		["직업S변환상자_웨폰"] = {
@@ -1993,7 +2035,7 @@ tblLapineDdukddakBox = {
 				{ "소서러웨폰S", 1, 24297 },
 				{ "레인져웨폰S", 1, 24298 },
 				{ "민스트럴웨폰S", 1, 24299 },
-				{ "원더러웨폰S", 1, 24300  }			},
+				{ "원더러웨폰S", 1, 24300 }			},
 			NeedSource_String = "+7 Class Weapon Shadow Equipment"
 		},
 		["직업S변환상자_아머"] = {
@@ -2019,7 +2061,7 @@ tblLapineDdukddakBox = {
 				{ "S_DoramPhysical_Armor", 1, 24408 },
 				{ "S_DoramMagical_Armor", 1, 24410 },
 				{ "S_Star_Emperor_Armor", 1, 24412 },
-				{ "S_Soul_Reaper_Armor", 1, 24414  }			},
+				{ "S_Soul_Reaper_Armor", 1, 24414 }			},
 			NeedSource_String = "+7 Class Armor Shadow Equipment"
 		},
 		["직업S변환상자_슈즈"] = {
@@ -2045,7 +2087,7 @@ tblLapineDdukddakBox = {
 				{ "S_DoramPhysical_Shoes", 1, 24409 },
 				{ "S_DoramMagical_Shoes", 1, 24411 },
 				{ "S_Star_Emperor_Shoes", 1, 24413 },
-				{ "S_Soul_Reaper_Shoes", 1, 24415  }			},
+				{ "S_Soul_Reaper_Shoes", 1, 24415 }			},
 			NeedSource_String = "+7 Class Shoes Shadow Equipment"
 		},
 		["직업S변환상자_쉴드"] = {
@@ -2070,7 +2112,7 @@ tblLapineDdukddakBox = {
 				{ "도람피지컬쉴드S", 1, 24316 },
 				{ "도람매지컬쉴드S", 1, 24317 },
 				{ "슈퍼노비스쉴드S", 1, 24318 },
-				{ "건슬링거쉴드S", 1, 24319  }			},
+				{ "건슬링거쉴드S", 1, 24319 }			},
 			NeedSource_String = "+7 Class Shield Shadow Equipment"
 		},
 		["직업S변환상자_펜던트"] = {
@@ -2082,7 +2124,7 @@ tblLapineDdukddakBox = {
 				{ "어콜라이트펜던트S", 1, 24252 },
 				{ "씨프펜던트S", 1, 24253 },
 				{ "매지션펜던트S", 1, 24254 },
-				{ "아처펜던트S", 1, 24255  }			},
+				{ "아처펜던트S", 1, 24255 }			},
 			NeedSource_String = "+7 Class Pendant Shadow Equipment"
 		},
 		["직업S변환상자_이어링"] = {
@@ -2094,7 +2136,7 @@ tblLapineDdukddakBox = {
 				{ "어콜라이트이어링S", 1, 24248 },
 				{ "매지션이어링S", 1, 24249 },
 				{ "씨프이어링S", 1, 28391 },
-				{ "아처이어링S", 1, 28392  }			},
+				{ "아처이어링S", 1, 28392 }			},
 			NeedSource_String = "+7 Class Earring Shadow Equipment"
 		},
 		["타락천사날개초기화권"] = {
@@ -2102,7 +2144,7 @@ tblLapineDdukddakBox = {
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
 				{ "K타락천사의날개", 1, 20835 },
-				{ "타락천사의날개", 1, 2589  }			},
+				{ "타락천사의날개", 1, 2589 }			},
 			NeedSource_String = "Fallen Angel Wings"
 		},
 		["쉐도우뚝딱상자"] = {
@@ -2425,10 +2467,6 @@ tblLapineDdukddakBox = {
 				{ "스피릿매직듀얼웨폰S2", 1, 24329 },
 				{ "캐스터아머S2", 1, 24330 },
 				{ "리로드아머S2", 1, 24331 },
-				{ "포스액서듀얼웨폰S2", 1, 24328 },
-				{ "스피릿매직듀얼웨폰S2", 1, 24329 },
-				{ "캐스터아머S2", 1, 24330 },
-				{ "리로드아머S2", 1, 24331 },
 				{ "크리티컬쉴드S", 1, 24332 },
 				{ "크리티컬슈즈S", 1, 24333 },
 				{ "매직컴포즈아머S", 1, 24334 },
@@ -2685,7 +2723,7 @@ tblLapineDdukddakBox = {
 				{ "S_Super_Magic_Shoes", 1, 24618 },
 				{ "S_Super_Power_Weapon", 1, 24619 },
 				{ "S_Super_Power_Pendant", 1, 24620 },
-				{ "S_Super_Power_Earing", 1, 24621 }, 
+				{ "S_Super_Power_Earing", 1, 24621 },
 				{ "S_Kunai_Weapon", 1, 24622 },
 				{ "S_Kunai_Shield", 1, 24623 },
 				{ "S_Kunai_Armor", 1, 24624 },
@@ -2801,21 +2839,21 @@ tblLapineDdukddakBox = {
 			ItemID = 23100,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "늘어진건슬링거", 1, 19157  }			},
+				{ "늘어진건슬링거", 1, 19157 }			},
 			NeedSource_String = "Drooping Rebel"
 		},
 		["선풍기개조키트"] = {
 			ItemID = 23170,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "해달선풍기", 1, 28439  }			},
+				{ "해달선풍기", 1, 28439 }			},
 			NeedSource_String = "Sea-Otter Mini Fan"
 		},
 		["제복수선키트"] = {
 			ItemID = 23175,
 			NeedCount = 1,
 			NeedRefineMin = 0,			NeedRefineMax = 20,			SourceItems = {
-				{ "카프라제복", 1, 15186  }			},
+				{ "카프라제복", 1, 15186 }			},
 			NeedSource_String = "Kafra Costume"
 		},
 		["의상스톤뚝딱상자"] = {
@@ -3038,10 +3076,10 @@ tblLapineDdukddakBox = {
 				{ "WanderMinsStone_Top2", 1, 1000305 },
 				{ "WanderMinsStone_Middle2", 1, 1000306 },
 				{ "WanderMinsStone_Bottom2", 1, 1000307 },
-				{ "Range_Stone_Top", 1, 1000375 }, 
-				{ "Range_Stone_Bottom", 1, 1000376 }, 
-				{ "Melee_Stone_Top", 1, 1000377 }, 
-				{ "Melee_Stone_Middle", 1, 1000378 }, 
+				{ "Range_Stone_Top", 1, 1000375 },
+				{ "Range_Stone_Bottom", 1, 1000376 },
+				{ "Melee_Stone_Top", 1, 1000377 },
+				{ "Melee_Stone_Middle", 1, 1000378 },
 				{ "Melee_Stone_Bottom", 1, 1000379 },
 				{ "ASPDStone_Robe_D", 1, 1000520 },
 				{ "CastStone_Robe_D", 1, 1000522 },
@@ -3062,10 +3100,10 @@ tblLapineDdukddakBox = {
 				{ "WarlockStone_Bottom3", 1, 1000615 },
 				{ "RoyalguardStone_Top3", 1, 1000616 },
 				{ "RoyalguardStone_Middle3", 1, 1000617 },
-				{ "RoyalguardStone_Bottom3", 1, 1000618 }, 
+				{ "RoyalguardStone_Bottom3", 1, 1000618 },
 				{ "WanderMinsStone_Top3", 1, 1000666 },
-				{ "WanderMinsStone_Middle3", 1, 1000667}, 
-				{ "WanderMinsStone_Bottom3", 1, 1000668}, 
+				{ "WanderMinsStone_Middle3", 1, 1000667 },
+				{ "WanderMinsStone_Bottom3", 1, 1000668 },
 				{ "GeneticStone_Top3", 1, 1000669 },
 				{ "GeneticStone_Middle3", 1, 1000670 },
 				{ "GeneticStone_Bottom3", 1, 1000671 },
@@ -3382,14 +3420,15 @@ tblLapineDdukddakBox = {
 				{ "스캣레톤이동장", 1, 9101 },
 				{ "미야비인형알", 1, 9048 },
 				{ "리프캣알", 1, 9041 },
-				{ "Dark_Priest_Egg", 1, 9128 }			},
+				{ "Dark_Priest_Egg", 1, 9128 },
+				{ "Farmiliar_Egg", 1, 9138 }			},
 			NeedSource_String = "Pet Egg"
 		},
 		["냥다래의상뚝딱상자"] = {
 			ItemID = 23154,
 			NeedCount = 1,
 			NeedRefineMin = 0,
-			NeedRefineMax = 20, 
+			NeedRefineMax = 20,
 			SourceItems = {
 				{ "C토끼귀모자", 1, 19876 },
 				{ "C선장모자", 1, 19654 },
@@ -3530,7 +3569,6 @@ tblLapineDdukddakBox = {
 				{ "C파란나비날개", 1, 20511 },
 				{ "C검은고양이", 1, 31186 },
 				{ "C흑과백의유혹", 1, 20449 },
-				{ "C졸린고양이모자", 1, 20263 },
 				{ "C할퀴는고양이", 1, 20195 },
 				{ "C_Thanatos_Sword", 1, 20514 },
 				{ "C따뜻한고양이머플러", 1, 31300 },
@@ -3602,6 +3640,7 @@ tblLapineDdukddakBox = {
 				{ "C블랙래빗보넷", 1, 20257 },
 				{ "C_Smiling_Eyes", 1, 31699 },
 				{ "C_WingOfHeart", 1, 20572 },
+				{ "C졸린고양이모자", 1, 20263 },
 				{ "C_Kishu_Inu", 1, 31600 },
 				{ "C_Panda_Rabbit", 1, 31512 },
 				{ "C_Full_BloomCherry_Tree", 1, 20519 },
@@ -3649,35 +3688,35 @@ tblLapineDdukddakBox = {
 				{ "C늘어진구미호", 1, 19802 },
 				{ "C_Sakura_Wing", 1, 20599 },
 				{ "C보고있어", 1, 31176 },
-				{ "C울프마스커레이드", 1, 31179 }, 
-				{ "C_Mike_Stand", 1, 31930 }, 
-				{ "C_Baby_Polar_Bear", 1, 31923 }, 
-				{ "C_Runaway_Accelerator", 1, 31849 }, 
-				{ "C_Half_Rim_Glasses", 1, 31931 }, 
-				{ "C_GiantCatBag_JP_BL", 1, 20598 }, 
-				{ "C_Romance_Rose_TW", 1, 400073 }, 
-				{ "C_Disapear_Time_TW", 1, 400074 }, 
-				{ "C_Magic_Heir_TW", 1, 410005 }, 
-				{ "C_Blink_Eyes_Sakura", 1, 31934 }, 
-				{ "C_Angola_Intention", 1, 31815 }, 
-				{ "C_Stall_Of_Dominions", 1, 31566 }, 
-				{ "C_Flowery_Vision_TH", 1, 31497 }, 
-				{ "C_Frill_Collar", 1, 31916 }, 
-				{ "C_Rose_Gothic_Bonnet", 1, 31848 }, 
-				{ "C_LittleGarden", 1, 31911 }, 
-				{ "C_Blinking_Eyes_RD", 1, 31716 }, 
-				{ "C_P_Ulysses_Feather", 1, 20603 }, 
-				{ "C_DancingButterfly_TW", 1, 31618 }, 
-				{ "C_Blue_Pencil_In_Mouth", 1, 31927 }, 
-				{ "C_Nut_Donut_In_Mouth", 1, 31936 }, 
-				{ "C_Leaf_Umbrella", 1, 20605 }, 
-				{ "C크라통왕관_태국", 1, 31143 }, 
-				{ "C_Unicorn_Ornament", 1, 31937 }, 
+				{ "C울프마스커레이드", 1, 31179 },
+				{ "C_Mike_Stand", 1, 31930 },
+				{ "C_Baby_Polar_Bear", 1, 31923 },
+				{ "C_Runaway_Accelerator", 1, 31849 },
+				{ "C_Half_Rim_Glasses", 1, 31931 },
+				{ "C_GiantCatBag_JP_BL", 1, 20598 },
+				{ "C_Romance_Rose_TW", 1, 400073 },
+				{ "C_Disapear_Time_TW", 1, 400074 },
+				{ "C_Magic_Heir_TW", 1, 410005 },
+				{ "C_Blink_Eyes_Sakura", 1, 31934 },
+				{ "C_Angola_Intention", 1, 31815 },
+				{ "C_Stall_Of_Dominions", 1, 31566 },
+				{ "C_Flowery_Vision_TH", 1, 31497 },
+				{ "C_Frill_Collar", 1, 31916 },
+				{ "C_Rose_Gothic_Bonnet", 1, 31848 },
+				{ "C_LittleGarden", 1, 31911 },
+				{ "C_Blinking_Eyes_RD", 1, 31716 },
+				{ "C_P_Ulysses_Feather", 1, 20603 },
+				{ "C_DancingButterfly_TW", 1, 31618 },
+				{ "C_Blue_Pencil_In_Mouth", 1, 31927 },
+				{ "C_Nut_Donut_In_Mouth", 1, 31936 },
+				{ "C_Leaf_Umbrella", 1, 20605 },
+				{ "C크라통왕관_태국", 1, 31143 },
+				{ "C_Unicorn_Ornament", 1, 31937 },
 				{ "C_Frog_Hood", 1, 31943 },
 				{ "C루드후드", 1, 20173 },
 				{ "C_Blessings_Of_Soul", 1, 20522 },
 				{ "C_Gossip_Raven", 1, 31380 },
-				{ "C할로윈모자", 1, 19910 }, 
+				{ "C할로윈모자", 1, 19910 },
 				{ "C_Blessed_Veil", 1, 20604 },
 				{ "C이프리트의눈", 1, 20221 },
 				{ "C다크니스아이즈", 1, 19877 },
@@ -3698,9 +3737,6 @@ tblLapineDdukddakBox = {
 				{ "C러브대디", 1, 31323 },
 				{ "C벚꽃화관", 1, 19768 },
 				{ "C앵화난만의비녀", 1, 19806 },
-				{ "C_Cons_Of_Earth", 1, 31885 },
-				{ "C_Cons_Of_Wind", 1, 31803 },
-				{ "C_Cons_Of_Darkness", 1, 420010 },
 				{ "C_Boitata_Hat_J", 1, 15889 },
 				{ "C_Jioia_TW", 1, 31480 },
 				{ "C_Baldr_Wing_TW", 1, 20607 },
@@ -3709,13 +3745,13 @@ tblLapineDdukddakBox = {
 				{ "C_Sting_Silk_Ribbon", 1, 31448 },
 				{ "C_Adventure_Cat_Bag", 1, 480110 },
 				{ "C플라워섬머햇", 1, 20339 },
-				{ "C_Cherry_Ribbon", 1, 410063},
+				{ "C_Cherry_Ribbon", 1, 410063 },
 				{ "C_Feather_Stola", 1, 420071 },
-				{ "C_Samba_Carnival", 1, 480122},
+				{ "C_Samba_Carnival", 1, 480122 },
 				{ "C_Whale_Cap", 1, 400163 },
 				{ "C_Sailor_Collar_WH", 1, 420044 },
 				{ "C_Giant_Shark", 1, 480126 },
-				{ "C_Triple_Ice_Cream", 1, 480129 }, 
+				{ "C_Triple_Ice_Cream", 1, 480129 },
 				{ "C포장리본", 1, 31200 },
 				{ "C_Bear_Head", 1, 440010 },
 				{ "C유치원생의모자", 1, 20281 },
@@ -3735,7 +3771,15 @@ tblLapineDdukddakBox = {
 				{ "C핑크파자마모자", 1, 19867 },
 				{ "C_L_RibbonMuff_Black", 1, 31453 },
 				{ "C검은고양이귀베레모", 1, 20191 },
-				{ "C눈물", 1, 20335 }			},
+				{ "C눈물", 1, 20335 },
+				{ "C바니헤드드레스", 1, 20031 },
+				{ "C_Cat_Ear_Red_Hat_TW", 1, 400204 },
+				{ "C하트리본머리띠", 1, 20021 },
+				{ "C_Fluffy_Rabbit_Cape", 1, 400225 },
+				{ "C_Heart_Stick_Choco", 1, 480167 },
+				{ "C_Chocolate_Bomb", 1, 420108 },
+				{ "C_Charm_Of_Flame_Heart", 1, 420109 },
+				{ "C_Gothic_Heart_Wing_V", 1, 400254 }			},
 			NeedSource_String = "Monster Costumes"
 		},
 		Ice_F_Stone_Box2 = {

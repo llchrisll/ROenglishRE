@@ -1,3 +1,7 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file only works if used in combination with the `Custom Lua Support`
+
 function ReqWeaponName(index)
 	if WeaponNameTable == nil then
 		return ""
@@ -23,9 +27,11 @@ function ReqWeaponNameByClassNum(classNum)
 	if NameMsg ~= nil then
 		return NameMsg
 	end
-	local NameMsg = WeaponNameTable_CLS[classNum]
-	if NameMsg ~= nil then
-		return NameMsg
+	if WeaponNameTable_CLS ~= nil then
+		local NameMsg = WeaponNameTable_CLS[classNum]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
 	end
 	return ""
 end
@@ -38,9 +44,11 @@ function GetRealWeaponId(weaponId)
 	if id ~= nil then
 		return id
 	end
-	local id = Expansion_Weapon_IDs_CLS[weaponId]
-	if id ~= nil then
-		return id
+	if Expansion_Weapon_IDs_CLS ~= nil then
+		local id = Expansion_Weapon_IDs_CLS[weaponId]
+		if id ~= nil then
+			return id
+		end
 	end
 	return weaponId
 end
@@ -53,12 +61,11 @@ function ReqWeaponHitWaveName(index)
 	if NameMsg ~= nil then
 		return NameMsg
 	end
-	if WeaponHitWaveNameTable_CLS == nil then
-		return ""
-	end
-	local NameMsg = WeaponHitWaveNameTable_CLS[index]
-	if NameMsg ~= nil then
-		return NameMsg
+	if WeaponHitWaveNameTable_CLS ~= nil then
+		local NameMsg = WeaponHitWaveNameTable_CLS[index]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
 	end
 	return ""
 end
@@ -69,9 +76,11 @@ function IsItemUsingArrow ( type )
 			return true
 		end
 	end
-	for k, val in ipairs( BowTypeList_CLS ) do
-		if ( type == val ) then
-			return true
+	if BowTypeList_CLS ~= nil then
+		for k, val in ipairs( BowTypeList_CLS ) do
+			if ( type == val ) then
+				return true
+			end
 		end
 	end
 	return false
