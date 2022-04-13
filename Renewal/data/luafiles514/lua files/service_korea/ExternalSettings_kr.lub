@@ -95,3 +95,18 @@ function GetTableBoolValueForC(tableName, keyName)
 		return boolValue
 	end
 end
+
+-- Old client compatibility [Secret]
+Url = { TwitterUrl = "http://" .. AssistAddr }
+AccountLinkedUserDataUrl = {
+	Save = "http://" .. AssistAddr .. "/userconfig/save",
+	Load = "http://" .. AssistAddr .. "/userconfig/load"
+}
+TwitterDataUrl = {
+	Auth = "http://" .. AssistAddr .. "/twitter/user-auth",
+	Upload = "http://" .. AssistAddr .. "/twitter/upload"
+}
+EmblemDataUrl = {
+	Upload = "http://" .. AssistAddr .. "/emblem/upload",
+	Download = "http://" .. AssistAddr .. "/emblem/download"
+}
