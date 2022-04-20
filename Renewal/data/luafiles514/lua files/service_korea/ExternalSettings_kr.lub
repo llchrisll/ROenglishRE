@@ -18,6 +18,24 @@ MaxLevelTable = {
 }
 MakeableRace = { Doram = true }
 AssistAddr = "0.0.0.0:3000"
+-----------------------------------------
+-- Old client compatibility [Secret]
+-- (Just change the "AssistAddr" to your IP)
+-----------------------------------------
+Url = { TwitterUrl = 'http://'..AssistAddr }
+AccountLinkedUserDataUrl = {
+	Save = 'http://'..AssistAddr..'/userconfig/save',
+	Load = 'http://'..AssistAddr..'/userconfig/load'
+}
+TwitterDataUrl = {
+	Auth = 'http://'..AssistAddr..'/twitter/user-auth',
+	Upload = 'http://'..AssistAddr..'/twitter/upload'
+}
+EmblemDataUrl = {
+	Upload = 'http://'..AssistAddr..'/emblem/upload',
+	Download = 'http://'..AssistAddr..'/emblem/download'
+}
+-----------------------------------------
 LEVELAURA = {}
 LEVELAURA.EF_NONE = -1
 LEVELAURA.EF_LEVEL99 = 200

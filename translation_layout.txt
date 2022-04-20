@@ -197,16 +197,16 @@ Item Description
 	"Decreases ^009900<Skill>^000000 skill cooldown by second.",
 	"Decreases ^009900<Skill>^000000 skill cooldown by %.",
 	
-	"Decreases SP Consumption of all skills by .",
+	"Decreases SP Consumption by .",
 	"Decreases SP Consumption of ^009900<Skill>^000000 by .",
 	
-	"Decreases After Skill Delay of all skills by %.",
+	"Decreases After Skill Delay by  %.",
 	"Decreases After Skill Delay of ^009900<Skill>^000000 by %.",
 	
-	"Decreases Variable Casting Time of all skills by %.",
+	"Decreases Variable Casting Time by %.",
 	"Decreases Variable Casting Time of ^009900<Skill>^000000 by %.",
 	
-	"Decreases Fixed Casting Time of all skills by %.",
+	"Decreases Fixed Casting Time by %.",
 	"Decreases Fixed Casting Time of ^009900<Skill>^000000 by %.",
 	
 	"For the highest Level of either ^009900<Skill>^000000, ^009900<Skill>^000000 or ^009900<Skill>^000000,",
@@ -227,6 +227,7 @@ Item Description
 	- Compounding/Enchantment:
 	"When compounded on ^990099<Equipment>^000000:",
 	"When enchanted with ^990099<Equipment>^000000:",
+	"When ^990099Pet ^000000 is active:",
 	
 	- Refine:
 	"^000088Cannot be refined normally.^000000",
@@ -279,6 +280,8 @@ Equipment Info Layout:
 			"^0000CCArmor Level:^000000 ",
 			"^0000CCWeapon Level:^000000 ",
 			"^0000CCRefineable:^000000 No", > Only used when the item is NOT refinable
+			"^0000CCEnchantable:^000000 Yes",
+			"Enchanter: <NAVI>^0033CCJumping Enchant Specialist^000000<INFO>prontera,151,187,0,100,0,0</INFO></NAVI>^000000.",
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level X",
@@ -309,29 +312,29 @@ WoE/PvP:
 	"Physical attacks have a certain chance to increase ATK by 200 for 3 seconds.",
 
 Exchange NPC Locations:
-	"<NAVI>^0033CCDesigner Heidam^000000<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI> can exchange it with Costume Enchant Stone Box 5.",
+	"<NAVI>[Designer Heidam]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI> can exchange it with Costume Enchant Stone Box 5.",
 		
 	"X can be obtained from",
-	"<NAVI>^4D4DFF[Cat Salesman Nyarom]^000000<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>^000000,",
+	"<NAVI>[Cat Salesman Nyarom]<INFO>itemmall,41,50,0,100,0,0</INFO></NAVI>,",
 	"by using Silvervine Cat Fruit or Zeny.",
 	
 	"<NAVI>[Richard]<INFO>malangdo,220,160,0,101,0</INFO></NAVI>",
-	"<NAVI>^4D4DFF[Jeeky]<INFO>itemmall,31,70,0,100,0,0</INFO></NAVI>^000000.",
-	"<NAVI>^4D4DFFCentro^000000<INFO>prontera,166,300,0,100,0,0</INFO></NAVI>^000000",
-	"<NAVI>^4D4DFFYves^000000<INFO>malangdo,152,136,0,100,0,0</INFO></NAVI>^000000",
-	"<NAVI>^4D4DFFRS26-1^000000<INFO>sp_cor,98,136,0,100,0,0</INFO></NAVI>^000000",
+	"<NAVI>[Jeeky]<INFO>itemmall,31,70,0,100,0,0</INFO></NAVI>.",
+	"<NAVI>[Centro]<INFO>prontera,166,300,0,100,0,0</INFO></NAVI>",
+	"<NAVI>[Yves]<INFO>malangdo,152,136,0,100,0,0</INFO></NAVI>",
+	"<NAVI>[RS26-1]<INFO>sp_cor,98,136,0,100,0,0</INFO></NAVI>",
 	
-	"<NAVI>^0033CCLace La Zard^000000<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
-	"<NAVI>^0033CCAver De Dosh^000000<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
-	"<NAVI>^0033CCGregio Grumani^000000<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>",
-	"<NAVI>^4D4DFFNyan Time^000000<INFO>malangdo,208,163,0,100,0,0</INFO></NAVI>^000000",
-	"<NAVI>^4D4DFFNyan Time^000000<INFO>moc_para01,26,174,0,100,0,0</INFO></NAVI>^000000",
-	"<NAVI>^0033CCProntera Family Relations Guide^000000<INFO>prt_in,285,171,0,100,0,0</INFO></NAVI>^000000",
-	"<NAVI>^0033CCLasagna Independent Helper^000000<INFO>lasagna,100,200,0,100,0,0</INFO></NAVI>^000000",
-	"<NAVI>^0033CCBeginner's Weapon Manager^000000<INFO>prontera,157,191,0,100,0,0</INFO></NAVI>^000000",
-	"Take it to <NAVI>^0033CCEquipment Support Manager^000000<INFO>prontera,157,279,0,100,0,0</INFO></NAVI>^000000.",
-	"Take it to <NAVI>^4D4DFFCentro^000000<INFO>prontera,148,282,0,100,0,0</INFO></NAVI>^000000 and exchange it for one of the items below:",
-	"Go to <NAVI>^4D4DFFSpecial Equipment Researcher^000000<INFO>rgsr_in,136,171,0,100,0,0</INFO></NAVI> to upgrade your helmet.",
+	"<NAVI>[Lace La Zard]<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>",
+	"<NAVI>[Aver De Dosh]<INFO>mal_in01,23,113,0,100,0,0</INFO></NAVI>",
+	"<NAVI>[Gregio Grumani]<INFO>mal_in01,24,121,0,100,0,0</INFO></NAVI>",
+	"<NAVI>[Nyan Time]<INFO>malangdo,208,163,0,100,0,0</INFO></NAVI>]",
+	"<NAVI>[Nyan Time]<INFO>moc_para01,26,174,0,100,0,0</INFO></NAVI>]",
+	"<NAVI>[Prontera Family Relations Guide]<INFO>prt_in,285,171,0,100,0,0</INFO></NAVI>",
+	"<NAVI>[Lasagna Independent Helper]<INFO>lasagna,100,200,0,100,0,0</INFO></NAVI>",
+	"<NAVI>[Beginner's Weapon Manager]<INFO>prontera,157,191,0,100,0,0</INFO></NAVI>",
+	"Take it to <NAVI>[Equipment Support Manager^000000<INFO>prontera,157,279,0,100,0,0</INFO></NAVI>.",
+	"Take it to <NAVI>[Centro]<INFO>prontera,148,282,0,100,0,0</INFO></NAVI> and exchange it for one of the items below:",
+	"Go to <NAVI>[Special Equipment Researcher]<INFO>rgsr_in,136,171,0,100,0,0</INFO></NAVI> to upgrade your helmet.",
 	
 	"^32CD32This item can't receive additional enchantment from Piercing Brosnan.^000000",
 	
@@ -388,8 +391,8 @@ Grade Options:
 	"If enchanted ^990099Armor^000000's Grade is ^CC3D3DD^000000:",
 	"<Bonus> for each Grade of the enchanted Weapon."
 	
-	"^CC3D3D[Additional Options by Grade]^000000",
-	"^CC3D3D[Additional Options by Grade of equipped <Equipment>]^000000",
+	"^CC3D3D[Bonus by Grade]^000000",
+	"^CC3D3D[Bonus by <Equipment> Grade]^000000",
 	"[Grade D]: Effect",
 
 	Refine Level:
