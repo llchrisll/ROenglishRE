@@ -5250,7 +5250,7 @@ StateIconList[EFST_IDs.EFST_SOULUNITY] = {
 		{ "Soul Bound", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "HP Recovery every 3 seconds" },
-		{ "on yourself an party." }
+		{ "on yourself and party." }
 	}
 }
 StateIconList[EFST_IDs.EFST_SOULSHADOW] = {
@@ -5603,7 +5603,7 @@ StateIconList[EFST_IDs.EFST_FLOWER_LEAF2] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Increase Dodge and Attack Speed, decreases Variable Casting Time", COLOR_TITLE_BUFF }, 
+		{ "Increases Speed", COLOR_TITLE_BUFF }, 
 		{ "%s", COLOR_TIME },
 		{ "Increase FLEE and Perfect Dodge" },
 		{ "Increase Attack Speed" },
@@ -5780,8 +5780,7 @@ StateIconList[EFST_IDs.EFST_LKCONCENTRATION] = {
 	descript = {
 		{ "Concentration", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases HIT and ATK" },
-		{ "Decreases DEF" }
+		{ "Increases HIT and ATK" },{ "Decreases DEF" }
 	}
 }
 StateIconList[EFST_IDs.EFST_DARKCROW] = {
@@ -7217,5 +7216,68 @@ StateIconList[EFST_IDs.EFST_NIGHTMARE] = {
 		{ "Nightmare", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
 		{ "Nightmare Mark" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_SPEED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increases Movement Speed", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Movement Speed" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_ASPD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increases Attack Speed", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Attack Speed" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_MHP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increases Max HP", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Max HP" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_MSP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increases Max SP", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases MaxSP" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_HIT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increases HIT", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases HIT" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_DEF] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increases DEF", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases DEF" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_MDEF] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Increases MDEF", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases MDEF" }
 	}
 }

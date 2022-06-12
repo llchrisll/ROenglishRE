@@ -509,11 +509,11 @@ Table[5].Slot[1]:AddPerfectEnchant("Wolf_Orb_A_Delay_4", 10000000, { "Ep18_Ameth
 
 Table[6] = CreateEnchantInfo()
 Table[6]:SetSlotOrder(0)
-Table[6]:AddTargetItem("Cherryblossom_Fan")
+Table[6]:AddTargetItem("ÀÔ¿¡¹«´Âº¢²É°¡Áö")
 Table[6]:SetCondition(0, 0)
 Table[6]:ApproveRandomOption(true)
 Table[6]:SetReset(true, 100000, 10000, { "Small_Spray_Of_Flowers", 5} )
-Table[6]:SetCaution("2021 Spring Flower Event Item Enchantment\nSuccess Chance: 100%\nReset Chance: 100%, will not be destroyed on failure")
+Table[6]:SetCaution("2022 Spring Flower Event Item Enchantment\nSuccess Chance: 100%\nReset Chance: 100%, will not be destroyed on failure")
 Table[6].Slot[0]:SetRequire(10000, { "Small_Spray_Of_Flowers", 5} )
 Table[6].Slot[0]:SetSuccessRate(100000)
 Table[6].Slot[0]:SetGradeBonus(1, 0)

@@ -1,5 +1,25 @@
 tblLapineDdukddakBox = {
 	sources = {
+		Freedom_Stick_Cube = {
+			ItemID = 101482,
+			NeedCount = 1,
+			NeedRefineMin = 9,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "Freedom_Stick", 1, 550080 }
+			},
+			NeedSource_String = "Freedom Stick"
+		},
+		Blessed_Knife_Cube = {
+			ItemID = 101483,
+			NeedCount = 1,
+			NeedRefineMin = 9,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "Blessed_Knife", 1, 510070 }
+			},
+			NeedSource_String = "Blessed Knife"
+		},
 		Bs_Item_M_S_52 = {
 			ItemID = 101340,
 			NeedCount = 1,
@@ -53,7 +73,7 @@ tblLapineDdukddakBox = {
 				{ "Zelunium", 150, 25731 },
 				{ "Shadowdecon", 150, 25729 }
 			},
-			NeedSource_String = "Essence of Powerful Soul, Essence of Powerful Dimension, Zelunium, Shadowdecon"
+			NeedSource_String = "Powerful Soul Essence, Powerful Dimension Essence, Zelunium, Shadowdecon"
 		},
 		Bs_Item_M_S_57 = {
 			ItemID = 101345,
@@ -3122,7 +3142,18 @@ tblLapineDdukddakBox = {
 				{ "RangerStone_Bottom3", 1, 1000862 },
 				{ "ShadowchasStone_Top3", 1, 1000863 },
 				{ "ShadowchasStone_Middle3", 1, 1000864 },
-				{ "ShadowchasStone_Bottom3", 1, 1000865 }
+				{ "ShadowchasStone_Bottom3", 1, 1000865 }, 
+				{ "SmatkStone_Robe", 1, 1000922 }, 
+				{ "SplStone_Robe_D", 1, 1000921 },
+				{ "SuraStone_Top3", 1, 1000968 },
+				{ "SuraStone_Middle3", 1, 1000969 },
+				{ "SuraStone_Bottom3", 1, 1000970 },
+				{ "MechanicStone_Top3", 1, 1000971 },
+				{ "MechanicStone_Middle3", 1, 1000972 },
+				{ "MechanicStone_Bottom3", 1, 1000973 },
+				{ "GuillcrossStone_Top3", 1, 1000974 },
+				{ "GuillcrossStone_Middle3", 1, 1000975 },
+				{ "GuillcrossStone_Bottom3", 1, 1000976 }
 			},
 			NeedSource_String = "Costume Enchant Stone"
 		},
@@ -3779,7 +3810,11 @@ tblLapineDdukddakBox = {
 				{ "C_Heart_Stick_Choco", 1, 480167 },
 				{ "C_Chocolate_Bomb", 1, 420108 },
 				{ "C_Charm_Of_Flame_Heart", 1, 420109 },
-				{ "C_Gothic_Heart_Wing_V", 1, 400254 }			},
+				{ "C_Gothic_Heart_Wing_V", 1, 400254 }, 
+				{ "C_Spoon_Fork_Set", 1, 480152 },
+				{ "C_Rhythm_Hairband", 1, 15882 },
+				{ "C_Blue_Frill_Ribbon", 1, 31451 },
+				{ "C_Carrot_In_Mouth_J", 1, 420081 }			},
 			NeedSource_String = "Monster Costumes"
 		},
 		Ice_F_Stone_Box2 = {

@@ -1348,7 +1348,16 @@ ItemDBNameTbl = {
 	Phantom_Cap = 400044,
 	Ignis_CapK = 400022,
 	Clock_Casket_RD = 400021,
-	["공격후딜레이4"] = 4881
+	["공격후딜레이4"] = 4881,
+	Helm_Of_Faith_Hammer = 101389,
+	Clock_Tower_W_Hammer = 101390,
+	["입에무는벚꽃가지"] = 18677,
+	Freedom_Stick_LT = 550082,
+	Blessed_Knife_LT = 510072,
+	Up_Freedom_Stick = 550081,
+	Up_Blessed_Knife = 510071,
+	Freedom_Stick = 550080,
+	Blessed_Knife = 510070
 }
 ItemDB_To_ItemID = function(in_ItemDB)
 	if ItemDBNameTbl[in_ItemDB] == nil then
