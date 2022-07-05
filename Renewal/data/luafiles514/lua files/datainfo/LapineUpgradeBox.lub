@@ -1,5 +1,17 @@
 tblLapineUpgradeBox = {
 	targets = {
+		AllMighty_Up = {
+			ItemID = 101564,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "올마이티펜던트S", 24340 },
+				{ "올마이티이어링S", 24339 }
+			},
+			NeedSource_String = "Almighty Shadow Equipment"
+		},
 		MajorAutoSpell_Up = {
 			ItemID = 101359,
 			NeedRefineMin = 0,

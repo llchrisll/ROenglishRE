@@ -1108,6 +1108,11 @@ EFST_IDs = {
 	EFST_VR_HIT = 1429,
 	EFST_VR_DEF = 1430,
 	EFST_VR_MDEF = 1431,
+	EFST_VR_BOOK001 = 1432,
+	EFST_VR_BOOK002 = 1433,
+	EFST_VR_BOOK003 = 1434,
+	EFST_VR_BOOK004 = 1435,
+	EFST_REUSE_LIMIT_VR_BOOK = 1436,
 	__newindex = function()
 	error("unknown state")
 end

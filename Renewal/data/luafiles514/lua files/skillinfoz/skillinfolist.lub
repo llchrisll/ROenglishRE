@@ -802,7 +802,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MER_MAGNIFICAT] = {
 		"MER_MAGNIFICAT",
-		SkillName = "Blessing of Mana",
+		SkillName = "Magnificat",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = false,
@@ -1537,7 +1537,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MER_QUICKEN] = {
 		"MER_QUICKEN",
-		SkillName = "Weapon Quicken",
+		SkillName = "Two-Hand Quicken",
 		MaxLv = 10,
 		SpAmount = { 14, 18, 22, 26, 30, 34, 38, 42, 46, 50 },
 		bSeperateLv = false,
@@ -3919,7 +3919,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_KAFRACONTRACT] = {
 		"GD_KAFRACONTRACT",
-		SkillName = "Contract with Kafra",
+		SkillName = "Kafra Contract",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -4168,17 +4168,6 @@ SKILL_INFO_LIST = {
 			}
 		}
 	},
-	[SKID.KN_RIDING] = {
-		"KN_RIDING",
-		SkillName = "Riding",
-		MaxLv = 1,
-		SpAmount = { 0 },
-		bSeperateLv = false,
-		AttackRange = { 1 },
-		_NeedSkillList = {
-			{ SKID.SM_ENDURE, 1 }
-		}
-	},
 	[SKID.KN_CHARGEATK] = {
 		"KN_CHARGEATK",
 		SkillName = "Charge Attack",
@@ -4193,7 +4182,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Shrink",
 		MaxLv = 1,
 		Type = "Quest",
-		SpAmount = { 15 },
+		SpAmount = { 100 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
 	},
@@ -4211,7 +4200,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Venom Knife",
 		MaxLv = 1,
 		Type = "Quest",
-		SpAmount = { 15 },
+		SpAmount = { 35 },
 		bSeperateLv = false,
 		AttackRange = { 9 }
 	},
@@ -4220,7 +4209,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Close Confine",
 		MaxLv = 1,
 		Type = "Quest",
-		SpAmount = { 25 },
+		SpAmount = { 40 },
 		bSeperateLv = false,
 		AttackRange = { 2 }
 	},
@@ -4229,25 +4218,16 @@ SKILL_INFO_LIST = {
 		SkillName = "Sight Blaster",
 		MaxLv = 1,
 		Type = "Quest",
-		SpAmount = { 40 },
+		SpAmount = { 80 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
-	},
-	[SKID.SA_ELEMENTWATER] = {
-		"SA_ELEMENTWATER",
-		SkillName = "Elemental Change (Water)",
-		MaxLv = 1,
-		Type = "Quest",
-		SpAmount = { 30 },
-		bSeperateLv = false,
-		AttackRange = { 9 }
 	},
 	[SKID.HT_PHANTASMIC] = {
 		"HT_PHANTASMIC",
 		SkillName = "Phantasmic Arrow",
 		MaxLv = 1,
 		Type = "Quest",
-		SpAmount = { 10 },
+		SpAmount = { 50 },
 		bSeperateLv = false,
 		AttackRange = { 9 }
 	},
@@ -4256,7 +4236,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Pang Voice",
 		MaxLv = 1,
 		Type = "Quest",
-		SpAmount = { 20 },
+		SpAmount = { 40 },
 		bSeperateLv = false,
 		AttackRange = { 9 }
 	},
@@ -4265,7 +4245,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Charming Wink",
 		MaxLv = 1,
 		Type = "Quest",
-		SpAmount = { 20 },
+		SpAmount = { 40 },
 		bSeperateLv = false,
 		AttackRange = { 9 }
 	},
@@ -4278,21 +4258,41 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1 }
 	},
+	[SKID.PR_REDEMPTIO] = {
+		"PR_REDEMPTIO",
+		SkillName = "Redemptio",
+		MaxLv = 1,
+		Type = "Quest",
+		SpAmount = { 800 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.MO_BALKYOUNG] = {
+		"MO_BALKYOUNG",
+		SkillName = "Excruciating Palm",
+		MaxLv = 1,
+		Type = "Quest",
+		SpAmount = { 40 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.KN_RIDING] = {
+		"KN_RIDING",
+		SkillName = "Riding",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SM_ENDURE, 1 }
+		}
+	},
 	[SKID.BS_GREED] = {
 		"BS_GREED",
 		SkillName = "Greed",
 		MaxLv = 1,
 		Type = "Quest",
 		SpAmount = { 10 },
-		bSeperateLv = false,
-		AttackRange = { 1 }
-	},
-	[SKID.PR_REDEMPTIO] = {
-		"PR_REDEMPTIO",
-		SkillName = "Redemptio",
-		MaxLv = 1,
-		Type = "Quest",
-		SpAmount = { 400 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
 	},
@@ -4304,15 +4304,6 @@ SKILL_INFO_LIST = {
 		SpAmount = { 40 },
 		bSeperateLv = false,
 		AttackRange = { 9 }
-	},
-	[SKID.MO_BALKYOUNG] = {
-		"MO_BALKYOUNG",
-		SkillName = "Excruciating Palm",
-		MaxLv = 1,
-		Type = "Quest",
-		SpAmount = { 20 },
-		bSeperateLv = false,
-		AttackRange = { 1 }
 	},
 	[SKID.SA_ELEMENTGROUND] = {
 		"SA_ELEMENTGROUND",
@@ -4335,6 +4326,15 @@ SKILL_INFO_LIST = {
 	[SKID.SA_ELEMENTWIND] = {
 		"SA_ELEMENTWIND",
 		SkillName = "Elemental Change (Wind)",
+		MaxLv = 1,
+		Type = "Quest",
+		SpAmount = { 30 },
+		bSeperateLv = false,
+		AttackRange = { 9 }
+	},
+	[SKID.SA_ELEMENTWATER] = {
+		"SA_ELEMENTWATER",
+		SkillName = "Elemental Change (Water)",
 		MaxLv = 1,
 		Type = "Quest",
 		SpAmount = { 30 },
@@ -7037,7 +7037,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_ITEMEMERGENCYCALL] = {
 		"GD_ITEMEMERGENCYCALL",
-		SkillName = "Emergency Call",
+		SkillName = "Item Emergency Call",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -10408,7 +10408,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HP_MEDITATIO] = {
 		"HP_MEDITATIO",
-		SkillName = "Meditation",
+		SkillName = "Meditatio",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -11215,7 +11215,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RK_DRAGONBREATH_WATER] = {
 		"RK_DRAGONBREATH_WATER",
-		SkillName = "Dragon Breath Water",
+		SkillName = "Dragon Breath - Water",
 		MaxLv = 10,
 		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
 		bSeperateLv = true,
@@ -13167,6 +13167,18 @@ SKILL_INFO_LIST = {
 			{ SKID.DK_HACKANDSLASHER, 5 }
 		}
 	},
+	[SKID.DK_DRAGONIC_BREATH] = {
+		"DK_DRAGONIC_BREATH",
+		SkillName = "Dragonic Breath",
+		MaxLv = 10,
+		SpAmount = { 61, 64, 67, 70, 73, 76, 79, 82, 85, 88 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.RK_DRAGONBREATH, 10 },
+			{ SKID.RK_DRAGONBREATH_WATER, 10 }
+		}
+	},
 	[SKID.AG_DEADLY_PROJECTION] = {
 		"AG_DEADLY_PROJECTION",
 		SkillName = "Deadly Projection",
@@ -14159,6 +14171,69 @@ SKILL_INFO_LIST = {
 			{ SKID.BO_WOODEN_FAIRY, 3 }
 		}
 	},
+	[SKID.NPC_BO_THROWROCK] = {
+		"NPC_BO_THROWROCK",
+		SkillName = "Throw Rock",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = true,
+		AttackRange = { 1 }
+	},
+	[SKID.NPC_BO_WOODEN_ATTACK] = {
+		"NPC_BO_WOODEN_ATTACK",
+		SkillName = "Wooden Attack",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = true,
+		AttackRange = { 1 }
+	},
+	[SKID.NPC_BO_HELL_HOWLING] = {
+		"NPC_BO_HELL_HOWLING",
+		SkillName = "Hell Howling",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = true,
+		AttackRange = { 1 }
+	},
+	[SKID.NPC_BO_HELL_DUSTY] = {
+		"NPC_BO_HELL_DUSTY",
+		SkillName = "Hell Tree Powder",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = true,
+		AttackRange = { 1 }
+	},
+	[SKID.NPC_BO_FAIRY_DUSTY] = {
+		"NPC_BO_FAIRY_DUSTY",
+		SkillName = "Fairy Tree Powder",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = true,
+		AttackRange = { 1 }
+	},
+	[SKID.BO_EXPLOSIVE_POWDER] = {
+		"BO_EXPLOSIVE_POWDER",
+		SkillName = "Explosive Powder",
+		MaxLv = 5,
+		SpAmount = { 58, 62, 66, 70, 74 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.BO_BIONICS_M, 3 }
+		}
+	},
+	[SKID.BO_MAYHEMIC_THORNS] = {
+		"BO_MAYHEMIC_THORNS",
+		SkillName = "Mayhemic Thorns",
+		MaxLv = 10,
+		SpAmount = { 68, 70, 72, 74, 76, 78, 80, 82, 84, 86 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.BO_BIONICS_M, 5 },
+			{ SKID.BO_EXPLOSIVE_POWDER, 3 }
+		}
+	},
 	[SKID.WH_ADVANCED_TRAP] = {
 		"WH_ADVANCED_TRAP",
 		SkillName = "Advanced Trap",
@@ -14280,17 +14355,6 @@ SKILL_INFO_LIST = {
 			{ SKID.WH_DEEPBLINDTRAP, 1 }
 		}
 	},
-	[SKID.WH_CRESCIVE_BOLT] = {
-		"WH_CRESCIVE_BOLT",
-		SkillName = "Cresive Bolt",
-		MaxLv = 10,
-		SpAmount = { 55, 60, 65, 70, 75, 80, 85, 90, 95, 100 },
-		bSeperateLv = true,
-		AttackRange  = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
-		_NeedSkillList = {
-			{ SKID.RA_AIMEDBOLT, 5 }
-		}
-	},
 	[SKID.WH_FLAMETRAP] = {
 		"WH_FLAMETRAP",
 		SkillName = "Flame Trap",
@@ -14300,6 +14364,17 @@ SKILL_INFO_LIST = {
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.WH_SOLIDTRAP, 1 }
+		}
+	},
+	[SKID.WH_CRESCIVE_BOLT] = {
+		"WH_CRESCIVE_BOLT",
+		SkillName = "Cresive Bolt",
+		MaxLv = 10,
+		SpAmount = { 55, 60, 65, 70, 75, 80, 85, 90, 95, 100 },
+		bSeperateLv = true,
+		AttackRange  = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.RA_AIMEDBOLT, 5 }
 		}
 	},
 	[SKID.TR_STAGE_MANNER] = {
@@ -14560,7 +14635,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_ABYSS_STRIKE] = {
 		"ABC_ABYSS_STRIKE",
-		SkillName = "Abyss Strike",
+		SkillName = "Omega Abyss Strike",
 		MaxLv = 10,
 		SpAmount = { 150, 150, 150, 150, 150, 150, 150, 150, 150, 150 },
 		ApAmount = { 150, 150, 150, 150, 150, 150, 150, 150, 150, 150 },
@@ -14770,6 +14845,39 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		bSeperateLv = true,
 		AttackRange  = { 1 }
+	},
+	[SKID.MT_SPARK_BLASTER] = {
+		"MT_SPARK_BLASTER",
+		SkillName = "Spark Blaster",
+		MaxLv = 10,
+		SpAmount = { 48, 52, 56, 60, 64, 68, 72, 76, 80, 84 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.MT_M_MACHINE, 1 }
+		}
+	},
+	[SKID.MT_TRIPLE_LASER] = {
+		"MT_TRIPLE_LASER",
+		SkillName = "Triple Laser",
+		MaxLv = 5,
+		SpAmount = { 40, 45, 50, 55, 60 },
+		bSeperateLv = true,
+		AttackRange = { 11, 11, 11, 11, 11 },
+		_NeedSkillList = {
+			{ SKID.MT_SPARK_BLASTER, 5 }
+		}
+	},
+	[SKID.MT_MIGHTY_SMASH] = {
+		"MT_MIGHTY_SMASH",
+		SkillName = "Mighty Smash",
+		MaxLv = 10,
+		SpAmount = { 51, 54, 57, 60, 63, 66, 69, 72, 75, 78 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.MT_AXE_STOMP, 3 }
+		}
 	},
 	[SKID.EM_MAGIC_BOOK_M] = {
 		"EM_MAGIC_BOOK_M",

@@ -25,9 +25,9 @@ Lua Translation
 
 Skill Description
 
-	^0000FF = Skill Names + Status (Hiding,...)
-	^990099 = Item Names + Skill Requirements (Spirit Spheres,...)
-	^0033CC = Race/Class/Size/Elementals/Machines
+	^0000FF = Skill Names + Status (Hiding,...)/Elementals/Machines/Creatures
+	^990099 = Item Names + Skill Requirements (Spirit Spheres, Mounts,...)
+	^00A100 = Race/Class/Size
 	
 	"Max Level:
 	
@@ -36,8 +36,8 @@ Skill Description
 	"4^CC3399Requirement: Heal 2^000000",
 
 	"Skill Form: ^6666CCPassive^000000",
-	"Skill Form: ^339966Active^000000",
-	"Skill Form: ^339966Active (Toggle)^000000",
+	"Skill Form: ^3F0099Active^000000",
+	"Skill Form: ^3F0099Active (Toggle)^000000",
 	
 	"Type: ^339900Supportive^000000",
 	"Type: ^339900Recovery^000000",
@@ -91,10 +91,24 @@ Skill Description
 	"based on the caster's ^CC6600Critical^777777 chance.",
 	
 	- 4th Classes:
-	"Skill Form: ^339966Active(AP)^000000",
+	"Skill Form: ^3F0099Active(AP)^000000",
 	"Recover: ^0054FF AP^000000",
 	"Cost: ^FF0000 AP^000000",
 	
+	- Level Descriptions with modifiers:
+	
+	> Race if it doesn't fit in one line:
+	"[Lv 1]: ^777777ATK 950%,",
+	"^0033CCDemi-Human/Angel^777777: ATK 1400%^000000",
+	
+	> Race if it fit one line:
+	"[Lv 1]: ^777777ATK 1750%/2000% (^0033CCPlant/Insect^000000)^000000",
+	
+	> Skill/Effects:
+	"[Lv 1]: ^777777MATK 320+(Mastery Lv x5)%",
+	"^0000FFHoly Shield^777777: MATK 450+(Mastery Lv x10)%",
+	
+	> Damage Types:
 
 Item Description
 

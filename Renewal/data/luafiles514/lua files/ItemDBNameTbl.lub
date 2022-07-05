@@ -1357,7 +1357,9 @@ ItemDBNameTbl = {
 	Up_Freedom_Stick = 550081,
 	Up_Blessed_Knife = 510071,
 	Freedom_Stick = 550080,
-	Blessed_Knife = 510070
+	Blessed_Knife = 510070,
+	C_Flame_Bird = 31690,
+	["입에무는치즈과자"] = 18698
 }
 ItemDB_To_ItemID = function(in_ItemDB)
 	if ItemDBNameTbl[in_ItemDB] == nil then
