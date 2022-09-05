@@ -162,7 +162,19 @@ HatEFID = {
 	HAT_EF_C_Released_Ground = 161,
 	HAT_EF_C_Samba_Carnival = 162,
 	HAT_EF_POISON_MASTER = 163,
-	HAT_EF_C_Swirling_Flame = 164
+	HAT_EF_C_Swirling_Flame = 164,
+	HAT_EF_C_2021RTC_Headset_1_TW = 165,
+	HAT_EF_C_2021RTC_Headset_2_TW = 166,
+	HAT_EF_C_2021RTC_Headset_3_TW = 167,
+	HAT_EF_SUBJECT_AURA_WHITE_ALPHA = 168,
+	HAT_EF_GC_DARKCROW = 169,
+	HAT_EF_DIABOLUS_RING = 170,
+	HAT_EF_Magiccircle_Blue_TW = 171,
+	HAT_EF_C_Disapear_Time_TW_2 = 172,
+	HAT_EF_C_Melody_Wing = 173,
+	HAT_EF_C_Spot_Light = 174,
+	HAT_EF_C_Astra_Blessing = 175,
+	HAT_EF_efst_C_20th_Anniversary_Hat = 176
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -176,7 +188,6 @@ hatEffectTable = {
 		resourceFileName = "efst_mermaid_loging\\bubblebubble.str",
 		hatEffectPos = 0,
 		hatEffectPosX = 0,
-		effectsizeAdjustment = 0,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
 	},
@@ -418,7 +429,7 @@ hatEffectTable = {
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
 	},
-	[HatEFID.HAT_Digital_Space] = { hatEffectID = 1240 },
+	[HatEFID.HAT_EF_Digital_Space] = { hatEffectID = 1240 },
 	[HatEFID.HAT_EF_Sleipnir] = { hatEffectID = 1241 },
 	[HatEFID.HAT_EF_C_Maple_Which_Falls_Rd] = {
 		resourceFileName = "efst_C_Maple_Which_Falls_Rd\\C_Maple_Which_Falls_Rd.str",
@@ -685,10 +696,9 @@ hatEffectTable = {
 		resourceFileName = "EFST_Kyel_hyre_Ulti_TW\\tentaKaiser.str",
 		hatEffectPos = -16,
 		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
 		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true,
-		isIgnoreRiding = false,
-		isRenderBeforeCharacter = true
+		isAdjustSizeWhenShrinkState = true
 	},
 	[HatEFID.HAT_EF_C_Master] = {
 		resourceFileName = "efst_C_Master\\13123123.str",
@@ -714,8 +724,9 @@ hatEffectTable = {
 	},
 	[HatEFID.HAT_EF_C_2021RTC_Headset_TW] = {
 		resourceFileName = "C_2021RTC_Headset_TW\\hd.str",
-		hatEffectPos = 0,
+		hatEffectPos = -8,
 		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true,
 		isIgnoreRiding = true
@@ -749,6 +760,82 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_C_Swirling_Flame] = {
 		resourceFileName = "C_Swirling_Flame\\vortexf2.str",
 		hatEffectPos = -10,
+		hatEffectPosX = 0,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	}, 
+	[HatEFID.HAT_EF_C_2021RTC_Headset_1_TW] = {
+		resourceFileName = "C_2021RTC_Headset_1_TW\\hd.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isIgnoreRiding = true
+	},
+	[HatEFID.HAT_EF_C_2021RTC_Headset_2_TW] = {
+		resourceFileName = "C_2021RTC_Headset_2_TW\\hd.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isIgnoreRiding = true
+	},
+	[HatEFID.HAT_EF_C_2021RTC_Headset_3_TW] = {
+		resourceFileName = "C_2021RTC_Headset_3_TW\\hd.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isIgnoreRiding = true
+	},
+	[HatEFID.HAT_EF_SUBJECT_AURA_WHITE_ALPHA] = { hatEffectID = 2370 },
+	[HatEFID.HAT_EF_GC_DARKCROW] = { hatEffectID = 1184 },
+	[HatEFID.HAT_EF_DIABOLUS_RING] = { hatEffectID = 2309 },
+	[HatEFID.HAT_EF_Magiccircle_Blue_TW] = {
+		resourceFileName = "efst_magiccircle_Blue_TW\\bluemc.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Disapear_Time_TW_2] = {
+		resourceFileName = "efst_C_Disapear_Time_TW\\cdhs.str",
+		hatEffectPos = -13,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Melody_Wing] = {
+		resourceFileName = "C_Melody_Wing\\notetama.str",
+		hatEffectPos = -8,
+		hatEffectPosX = 1,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Spot_Light] = {
+		resourceFileName = "C_Spot_Light\\Spotlight.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Astra_Blessing] = {
+		resourceFileName = "efst_C_Astra_Blessing\\astra.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_efst_C_20th_Anniversary_Hat] = {
+		resourceFileName = "efst_C_20th_Anniversary_Hat\\20th_f.str",
+		hatEffectPos = -6,
 		hatEffectPosX = 0,
 		isIgnoreRiding = true,
 		isAdjustPositionWhenShrinkState = true,
@@ -797,7 +884,10 @@ effectHatItemTable = {
 	20990,
 	480097,
 	400149,
-	480131
+	480131,
+	31957,
+	480203,
+	480205
 }
 
 function GetHatEfResName(index)

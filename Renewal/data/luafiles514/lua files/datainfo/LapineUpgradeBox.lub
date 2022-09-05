@@ -83,7 +83,8 @@ tblLapineUpgradeBox = {
 			NeedOptionNumMin = 0,
 			NotSocketEnchantItem = true,
 			TargetItems = {
-				{ "S_EXP_Shield", 24683 }
+				{ "S_EXP_Shield", 24683 },
+				{ "S_EXP_Weapon", 24770 }
 			},
 			NeedSource_String = "Experience Shadow Equipment"
 		},
@@ -1047,10 +1048,11 @@ tblLapineUpgradeBox = {
 				{ "에기르아머K", 15138 },
 				{ "에기르슈즈K", 22059 },
 				{ "에기르망토K", 20756 },
-				{ "Egirnion_Helm", 400097 },
 				{ "Egirnion_Armor", 450164 },
+				{ "Egirnion_Shoes", 470070 },
 				{ "Egirnion_Manteau", 480083 },
-				{ "Egirnion_Shoes", 470070 }
+				{ "Egirnion_Helm", 400097 },
+				{ "Egirnion_Gardiansword", 490235 }
 			},
 			NeedSource_String = "Sea God Egil's Armor"
 		},
@@ -1065,10 +1067,11 @@ tblLapineUpgradeBox = {
 				{ "에기르아머K", 15138 },
 				{ "에기르슈즈K", 22059 },
 				{ "에기르망토K", 20756 },
-				{ "Egirnion_Helm", 400097 },
 				{ "Egirnion_Armor", 450164 },
+				{ "Egirnion_Shoes", 470070 },
 				{ "Egirnion_Manteau", 480083 },
-				{ "Egirnion_Shoes", 470070 }
+				{ "Egirnion_Helm", 400097 },
+				{ "Egirnion_Gardiansword", 490235 }
 			},
 			NeedSource_String = "Sea God Egil's Armor"
 		},
@@ -3442,7 +3445,8 @@ tblLapineUpgradeBox = {
 				{ "S_R_Bearers_Pendant", 24765 },
 				{ "S_R_Bearers_Earring", 24766 },
 				{ "S_Mega_Blitz_Shield", 24767 },
-				{ "S_Mega_Blitz_Weapon", 24768 }
+				{ "S_Mega_Blitz_Weapon", 24768 },
+				{ "S_EXP_Weapon", 24770 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -4152,7 +4156,8 @@ tblLapineUpgradeBox = {
 				{ "S_R_Bearers_Pendant", 24765 },
 				{ "S_R_Bearers_Earring", 24766 },
 				{ "S_Mega_Blitz_Shield", 24767 },
-				{ "S_Mega_Blitz_Weapon", 24768 }
+				{ "S_Mega_Blitz_Weapon", 24768 },
+				{ "S_EXP_Weapon", 24770 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -4772,7 +4777,8 @@ tblLapineUpgradeBox = {
 				{ "S_R_Bearers_Pendant", 24765 },
 				{ "S_R_Bearers_Earring", 24766 },
 				{ "S_Mega_Blitz_Shield", 24767 },
-				{ "S_Mega_Blitz_Weapon", 24768 }
+				{ "S_Mega_Blitz_Weapon", 24768 },
+				{ "S_EXP_Weapon", 24770 }
 			},
 			NeedSource_String = "+7 Shadow Equipment"
 		},
@@ -5724,7 +5730,9 @@ tblLapineUpgradeBox = {
 				{ "ES_B_Staff", 550052 },
 				{ "EC_B_Staff", 550053 },
 				{ "SP_B_Saber", 500042 },
-				{ "SI_B_Saber", 500043 }
+				{ "SI_B_Saber", 500043 },
+				{ "SN_B_Dagger", 510069 },
+				{ "SN_B_Wand", 550079 }
 			},
 			NeedSource_String = "Boosting Weapons"
 		},
@@ -6063,6 +6071,22 @@ tblLapineUpgradeBox = {
 				{ "Glacier_T_Sword", 600027 }
 			},
 			NeedSource_String = "Glacier Weapons"
+		},
+		E_Auto_Up = {
+			ItemID = 101455,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = false,
+			TargetItems = {
+				{ "E_Auto_Armor_A", 450218 },
+				{ "E_Auto_Armor_B", 450219 },
+				{ "E_Auto_Engine_A", 480185 },
+				{ "E_Auto_Engine_B", 480186 },
+				{ "E_Auto_Leg_A", 470125 },
+				{ "E_Auto_Leg_B", 470126 }
+			},
+			NeedSource_String = "Automatic (Bound) Equipment"
 		}
 	},
 	serverMain = function()
