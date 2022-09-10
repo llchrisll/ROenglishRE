@@ -271,7 +271,8 @@ packageitemsetbox = {
 	{101729, 1, 101726, 1, 0, 0, 0},
 	{0, -1, 0, 0, 0, 0, 0}
 }
-querypackageitemboxname = function(Index)
+
+function querypackageitemboxname(Index)
 	if packageitemboxName[Index] == nil then
 		return nil, nil, nil
 	end
@@ -282,7 +283,5 @@ function querychoicepackageitemlist(Index)
 	if packageitemsetbox[Index] == nil then
 		return nil, nil, nil, nil, nil, nil, nil, nil, nil
 	end
-	return packageitemsetbox[Index][1], packageitemsetbox[Index][2], packageitemsetbox[Index][3], packageitemsetbox[Index])[4], packageitemsetbox[Index][5], packageitemsetbox[Index][6], packageitemsetbox[Index][7], packageitemsetbox[Index][8], packageitemsetbox[Index][9]
+	return packageitemsetbox[Index][1], packageitemsetbox[Index][2], packageitemsetbox[Index][3], packageitemsetbox[Index][4], packageitemsetbox[Index][5], packageitemsetbox[Index][6], packageitemsetbox[Index][7], packageitemsetbox[Index][8], packageitemsetbox[Index][9]
 end
-
-
