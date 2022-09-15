@@ -1,0 +1,12 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file only works if used in combination with the `Custom Lua Support`
+
+EnumVAR_CLS = {
+	-- Percental Vars should be between VAR_PERC_START and VAR_PERC_END
+	-- So increase the ID's of these two as required.
+	-- ID, Value (Value depends on type of the Random Option like Element/Race/Size)
+	VAR_PERC_START = { 232, 0 },
+	VAR_PERC_END = { 233, 0 },
+	EnumVAR_CLS_LAST = { 234, 0 }
+}

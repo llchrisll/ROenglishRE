@@ -1,0 +1,34 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file only works if used in combination with the
+-- `System/Sign_Data_EN.lub` (Translated Strings) which comes with this project
+-- and the `Custom Lua Support`
+
+dofile("System/Sign_Data_EN.lub")
+
+local MAPNAME = 1
+local CELLX = 2
+local CELLY = 3
+local HEIGHT = 4
+local ICONID = 5
+local FILEPATH = 6
+local CONTENTS = 7
+local CHARCOLOR = 8
+function GetSignBoardListTable(idx)
+	if( SignBoardData ~= nil) then
+		if( SignBoardData[SignBoardList[idx][CONTENTS]] ~= nil) then
+			return SignBoardList[idx][MAPNAME], SignBoardList[idx][CELLX], SignBoardList[idx][CELLY], SignBoardList[idx][HEIGHT], SignBoardList[idx][ICONID], SignBoardList[idx][FILEPATH], SignBoardData[SignBoardList[idx][CONTENTS]], SignBoardList[idx][CHARCOLOR]
+		else
+			if( SignBoardList_CLS ~= nil) then
+				if( idx >= #SignBoardList ) then
+					local cIdx = idx - #SignBoardList
+					cIdx = cIdx + 1
+					if( SignBoardList_CLS[cIdx] ~= nil) then
+						return SignBoardList_CLS[cIdx][MAPNAME], SignBoardList_CLS[cIdx][CELLX], SignBoardList_CLS[cIdx][CELLY], SignBoardList_CLS[cIdx][HEIGHT], SignBoardList_CLS[cIdx][ICONID], SignBoardList_CLS[cIdx][FILEPATH], SignBoardList_CLS[cIdx][CONTENTS], SignBoardList_CLS[cIdx][CHARCOLOR]
+					end
+				end
+			end
+		end
+	end
+	return SignBoardList[idx][MAPNAME], SignBoardList[idx][CELLX], SignBoardList[idx][CELLY], SignBoardList[idx][HEIGHT], SignBoardList[idx][ICONID], SignBoardList[idx][FILEPATH], SignBoardList[idx][CONTENTS], SignBoardList[idx][CHARCOLOR]
+end

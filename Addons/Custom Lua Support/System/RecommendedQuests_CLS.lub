@@ -1,0 +1,43 @@
+RecommendedQuestInfoList_CLS = {}
+RecommendedQuestInfoList_CLS = {
+--[[ Quest Info Format:
+	[0] = { -- Quest ID of the List - does not represent any ID of the quest database
+		Title = "",
+		IconName = "ico_gq.bmp", -- Icon BMP Name
+		Summary = "",
+		NpcSpr = "4_F_01", -- NPC Sprite Name
+		NpcNavi = "iz_ac01", -- Map Name
+		NpcPosX = 102, -- X Coordinate
+		NpcPosY = 44, -- Y Coordinate
+		BgName = "reco_01.bmp", -- Background BMP Name
+		QuestInfo1 = { -- Following are boxes for text (Maximum amount of lines depends on 'BgName' - visually)
+			""
+		},
+		QuestInfo2 = {
+			""
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+]]
+	[10] = { -- Quest ID of the List - does not represent any ID of the quest database
+		Title = "Custom Recommened Quest Test",
+		IconName = "ico_gq.bmp", -- Icon BMP Name
+		Summary = "",
+		NpcSpr = "4_F_01", -- NPC Sprite Name
+		NpcNavi = "prontera", -- Map Name
+		NpcPosX = 150, -- X Coordinate
+		NpcPosY = 184, -- Y Coordinate
+		BgName = "reco_01.bmp", -- Background BMP Name
+		QuestInfo1 = { -- Following are boxes for text (Maximum amount of lines depends on 'BgName' - visually)
+			"Testing Custom Recommended Quests Edit"
+		},
+		QuestInfo2 = {
+			"Bugs included!"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+}
