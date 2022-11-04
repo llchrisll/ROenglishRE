@@ -1,5 +1,13 @@
 function GetOngoingQuestInfoByID(questID)
-	return GetOngoingSimpleView(questID), QuestInfoList[questID].Title, QuestInfoList[questID].IconName, QuestInfoList[questID].Summary, QuestInfoList[questID].NpcSpr, QuestInfoList[questID].NpcNavi, QuestInfoList[questID].RewardEXP, QuestInfoList[questID].RewardJEXP, QuestInfoList[questID].NpcPosX, QuestInfoList[questID].NpcPosY
+	return GetOngoingSimpleView(questID), QuestInfoList[questID].Title, QuestInfoList[questID].IconName, QuestInfoList[questID].Summary, QuestInfoList[questID].NpcSpr, QuestInfoList[questID].NpcNavi, QuestInfoList[questID].RewardEXP, QuestInfoList[questID].RewardJEXP, QuestInfoList[questID].NpcPosX, QuestInfoList[questID].NpcPosY, GetCoolTimeQuest(questID)
+end
+
+function GetCoolTimeQuest(questID)
+	local desc = QuestInfoList[questID].CoolTimeQuest
+	if desc == nil then
+		return 0
+	end
+	return desc
 end
 
 function GetOngoingDescription(questID)
