@@ -1,3 +1,10 @@
+-- Original translation works of zackdreaver
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/zackdreaver/ROenglishRE
+-- Last updated: 20221108
+-- ToDo: Use `(Standby)` instead of `-Standby` for cooldown quests, will be done when I sync all of them.
+
 QuestInfoList = {}
 QuestInfoList = {
 	[1] = {
@@ -22545,10 +22552,10 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[7850] = {
-		Title = "Cat on Bullet",
+		Title = "Cat on a Bullet",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"The member of the Rebellion I met in Einbech said that his group is using an Einbroch store as a base to cover its area of operations that's gotten bigger as of late. I should find the <NAVI>[Cat on Bullet]<INFO>einbroch,302,329,0,101,0</INFO></NAVI> in Einbroch."
+			"The member of the Rebellion I met in Einbech said that his group is using an Einbroch store as a base to cover its area of operations that's gotten bigger as of late. I should find the <NAVI>[Cat on a Bullet]<INFO>einbroch,302,329,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Talk to Tes at the Cat"
 	},
@@ -22625,7 +22632,7 @@ QuestInfoList = {
 		Title = "Report to Tes",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Elena Volkova asked me to go back to the Cat on Bullet and let <NAVI>[Tess]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI> know the situation beyond the wall is not normal. From what she says, it's a dump."
+			"Elena Volkova asked me to go back to the Cat on a Bullet and let <NAVI>[Tess]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI> know the situation beyond the wall is not normal. From what she says, it's a dump."
 		},
 		Summary = "Report to Tes"
 	},
@@ -22633,7 +22640,7 @@ QuestInfoList = {
 		Title = "Unexpected Guest",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"<NAVI>[Tes]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI> at the Cat on Bullet took me to a secret room in the back to discuss some urgent matter."
+			"<NAVI>[Tes]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI> at the Cat on a Bullet took me to a secret room in the back to discuss some urgent matter."
 		},
 		Summary = "Talk to Tes in the Secret Room"
 	},
@@ -22678,10 +22685,10 @@ QuestInfoList = {
 		Summary = "Talk to Rebellion Member"
 	},
 	[7866] = {
-		Title = "To the Cat on Bullet",
+		Title = "To the Cat on a Bullet",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"I should go back to the Cat on Bullet and report to <NAVI>[Tes]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI> about what happened at the Lab."
+			"I should go back to the Cat on a Bullet and report to <NAVI>[Tes]<INFO>pub_cat,93,105,0,101,0</INFO></NAVI> about what happened at the Lab."
 		},
 		Summary = "Talk to Tes",
 		RewardEXP = "1000000",
@@ -28021,12 +28028,12 @@ QuestInfoList = {
 	[8806] = {
 		Title = "I grew a plant",
 		Description = {
-			"How did you finish one in six seconds? It is checked when you complete the plant practice in the fantasy series once."
+			"How did you finish one in six seconds? It is checked when you complete the plant practice in the Fantasy Book once."
 		},
 		Summary = ""
 	},
 	[8807] = {
-		Title = "Fantasy Series: Plant Practices (Standby)",
+		Title = "Fantasy Book: Plant Practices (Standby)",
 		IconName = "ico_vr.bmp",
 		Description = {
 			"This quest is a daily quest, and when the waiting time expires, you can receive it again from <NAVI>[the book]<INFO>prt_elib,59,53,0,101,0</INFO></NAVI> again."
@@ -28117,7 +28124,7 @@ QuestInfoList = {
 		Title = "Nelem's Poring Study",
 		IconName = "ico_vr.bmp",
 		Description = {
-			"The author of <NAVI>[Fantasy Series 007-Growing Angellings]<INFO>prt_elib,54,37,0,101,0</INFO></NAVI> is Nelem!",
+			"The author of <NAVI>[Fantasy Book 007-Growing Angellings]<INFO>prt_elib,54,37,0,101,0</INFO></NAVI> is Nelem!",
 			"It is said that Nelem wrote a book so that the ecology of the Poring can be observed right next to it based on the research results so far... ?"
 		},
 		Summary = "Read Growing Angellings"
@@ -28721,7 +28728,7 @@ QuestInfoList = {
 		Description = {
 			"^0000FFSuspicious Explorer^000000 says: ^404040I want you to Kiell 30 Slopo, Sedora, and Doprehanari each. ^000000"
 		},
-		Summary = "Let's Kiell 30 Sropo, Sedora, and Doprehanari on the 6th floor of Izurud Dungeon!"
+		Summary = "Let's Kiell 30 Sropo, Sedora, and Doprehanari on the 6th floor of Izlude Dungeon!"
 	},
 	[9181] = {
 		Title = "Izlude Dungeon Anomaly (3)",
@@ -28782,7 +28789,7 @@ QuestInfoList = {
 		Summary = "Let's meet 3 PR agents located in different villages"
 	},
 	[9190] = {
-		Title = "9th anniversary of the world's birth <Izurud Promotion>",
+		Title = "9th anniversary of the world's birth <Izlude Promotion>",
 		Description = {
 			"Completed publicity in ^006400 town."
 		},
@@ -50410,18 +50417,18 @@ QuestInfoList = {
 		Summary = "Report to Dr. Khon"
 	},
 	[16164] = {
-		Title = "Guide to Korodo",
+		Title = "Guide to Comodo",
 		Description = {
 			"The Comodo helper <NAVI>Pakiha<INFO>comodo,264,123,0,101,0</INFO></NAVI> was informed about Comodo. Let's check the signpost for Comodo and leave for Comodo."
 		},
-		Summary = "Check the signpost for Korodo"
+		Summary = "Check the signpost for Comodo"
 	},
 	[16165] = {
 		Title = "Volcano Island Comodo!",
 		Description = {
 			"I was guided by Comodo helper Pakiha about Comodo. Let's visit Comodo with Pakiha."
 		},
-		Summary = "Visit Korodo"
+		Summary = "Visit Comodo"
 	},
 	[16166] = {
 		Title = "Volcano Island Comodo!-Wait",
@@ -50497,6 +50504,111 @@ QuestInfoList = {
 		},
 		Summary = "Revisit after 50 minutes"
 	},
+	[16185] = {
+		Title = "Salle's Special Dragon Beard Noodles",
+		Description = {
+			"Comodo's chef <NAVI>[Guksunsu]<INFO>comodo,103,205,0,101,0</INFO></NAVI> says that the special dragon beard noodles are the representative dish of Comodo."
+		},
+		Summary = "Talk to Guksunsu"
+	},
+	[16186] = {
+		Title = "Dumplings with direct fire breath",
+		Description = {
+			"Comodo's chef <NAVI>[Mantue Tara]<INFO>comodo,108,205,0,101,0</INFO></NAVI> says that breath dumplings are the only dish that represents Comodo."
+		},
+		Summary = "Talk to Mantue"
+	},
+	[16187] = {
+		Title = "Comodo Original Sea Dragon Cooking Competition",
+		Description = {
+			"Let's talk with the old <NAVI>[Komobi]<INFO>comodo,105,208,0,101,0</INFO></NAVI> of Comodo who has a solution to their fight."
+		},
+		Summary = "Talk to Komobi"
+	},
+	[16188] = {
+		Title = "Ingredients for Beard Noodles",
+		Description = {
+			"Comodo's chef <NAVI>[Guksunsu]<INFO>comodo,103,205,0,101,0</INFO></NAVI> seems to need the help of an adventurer to complete the Beard Noodles."
+		},
+		Summary = "Talk to Guksunsu"
+	},
+	[16189] = {
+		Title = "Secret of Breath Dumplings",
+		Description = {
+			"Comodo's chef <NAVI>[Mantue Tara]<INFO>comodo,108,205,0,101,0</INFO></NAVI> seems to need the help of an adventurer to complete the Breath Dumplings."
+		},
+		Summary = "Talk to Mantue"
+	},
+	[16190] = {
+		Title = "Adventurer I need your help",
+		Description = {
+			"Bring 2 <ITEM>[Nipper]<INFO>960</INFO></ITEM> that can be obtained from either <NAVI>[Vadon]<INFO>VADON,0,0,3,-222,1</INFO></NAVI> or <NAVI>[Crab]<INFO>CRAB,0,0,3,-222,1</INFO></NAVI>, the essential ingredient for Dragon Beard noodles, and bring them to Comodo's chef <NAVI>[Guksunsu]<INFO>comodo,103,205,0,101,0</INFO></NAVI>."
+		},
+		Summary = "2 Claws for Guksunsu"
+	},
+	[16191] = {
+		Title = "Only adventurers can save you",
+		Description = {
+			"Bring 2 <ITEM>[Green Herb]<INFO>511</INFO></ITEM>, that can be obtained from either <NAVI>[Green Plant]<INFO>GREEN_PLANT,0,0,3,-222,1</INFO></NAVI> or <NAVI>[Fabre]<INFO>FABRE,0,0,3,-222,1</INFO></NAVI>, the essential ingredient for Breath Dumplings, and bring them to Comodo's chef <NAVI>[Mantue Tara]<INFO>comodo,108,205,0,101,0</INFO></NAVI>."
+		},
+		Summary = "2 Green Herbs for Mantue"
+	},
+	[16192] = {
+		Title = "Cooking Competition begins",
+		Description = {
+			"Let's both go to Komodo's old man <NAVI>[Komobi]<INFO>comodo,105,208,0,101,0</INFO></NAVI> and let him know that the cooking is done."
+		},
+		Summary = "Talk to Komobi"
+	},
+	[16193] = {
+		Title = "Food Delivery",
+		Description = {
+			"Let's deliver two people's dishes to <NAVI>[tourists at the Comodo Beach]<INFO>comodo,94,217,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Food Delivery to Yuuji"
+	},
+	[16194] = {
+		Title = "Food Delivery",
+		Description = {
+			"Let's deliver two people's dishes to <NAVI>[tourists at the Comodo Beach]<INFO>comodo,93,207,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Food Delivery to Polite Ha"
+	},
+	[16195] = {
+		Title = "Food Delivery",
+		Description = {
+			"Let's deliver two people's dishes to <NAVI>[tourists at the Comodo Beach]<INFO>comodo,137,172,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Food Delivery to Loruta"
+	},
+	[16196] = {
+		Title = "Food Tasting",
+		Description = {
+			"Now that we've delievered all the dishes, let's go back to Comodo's old man <NAVI>[Komobi]<INFO>comodo,105,208,0,101,0</INFO></NAVI> and taste it ourself."
+		},
+		Summary = "Talk to Komobi"
+	},
+	[16197] = {
+		Title = "Assessment Gathering",
+		Description = {
+			"Let's hear their impressions of their cuisine from <NAVI>[tourists at the Comodo Beach]<INFO>comodo,94,217,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Yuuji"
+	},
+	[16198] = {
+		Title = "Assessment Gathering",
+		Description = {
+			"Let's hear their impressions of their cuisine from <NAVI>[tourists at the Comodo Beach]<INFO>comodo,93,207,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Polite Ha"
+	},
+	[16199] = {
+		Title = "Assessment Gathering",
+		Description = {
+			"Let's hear their impressions of their cuisine from <NAVI>[tourists at the Comodo Beach]<INFO>comodo,137,172,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Loruta"
+	},
 	[16200] = {
 		Title = "Limberg's Request",
 		Description = {
@@ -50539,6 +50651,41 @@ QuestInfoList = {
 		},
 		Summary = ""
 	},
+	[16206] = {
+		Title = "Play Hide and Seek with children",
+		Description = {
+			"Let's find the <NAVI>[children]<INFO>comodo,186,173,0,101,0</INFO></NAVI> of the Prontera Orphanage who have been hiding here and there in Comodo, saying they are playing Hide and Seek."
+		},
+		Summary = "Finding Judy"
+	},
+	[16207] = {
+		Title = "Play Hide and Seek with children",
+		Description = {
+			"Let's find the <NAVI>[children]<INFO>comodo,214,223,0,101,0</INFO></NAVI> of the Prontera Orphanage who have been hiding here and there in Comodo, saying they are playing Hide and Seek."
+		},
+		Summary = "Find Cordelia"
+	},
+	[16208] = {
+		Title = "Play Hide and Seek with children",
+		Description = {
+			"Let's find the <NAVI>[children]<INFO>comodo,109,146,0,101,0</INFO></NAVI> of the Prontera Orphanage who have been hiding here and there in Comodo, saying they are playing Hide and Seek."
+		},
+		Summary = "Find Jane"
+	},
+	[16209] = {
+		Title = "Play Hide and Seek with children",
+		Description = {
+			"Let's find the <NAVI>[children]<INFO>comodo,147,334,0,101,0</INFO></NAVI> of the Prontera Orphanage who have been hiding here and there in Comodo, saying they are playing Hide and Seek."
+		},
+		Summary = "Find Heath"
+	},
+	[16210] = {
+		Title = "Report it to the teacher",
+		Description = {
+			"I found them all and sent them back to the teacher waiting at Comodo Beach. Let's go back to the <NAVI>[teacher ]<INFO>comodo,217,147,0,101,0</INFO></NAVI> to check."
+		},
+		Summary = "Talk to Irisov"
+	},
 	[16215] = {
 		Title = "Dream and Shadow",
 		Description = {
@@ -50554,7 +50701,7 @@ QuestInfoList = {
 		Summary = "Dimensional crack exploration"
 	},
 	[16217] = {
-		Title = "break and relaxation",
+		Title = "Break and Relaxation",
 		Description = {
 			"This is a daily quest, you can retake the quest after the timer expires. Via <NAVI>Loreche<INFO>dali02.gat,108,94,0,101,0</INFO></NAVI> Quest orders are possible."
 		},
@@ -50569,9 +50716,26 @@ QuestInfoList = {
 		Summary = "Talk to Eugenie"
 	},
 	[16219] = {
-		Title = "kindness and grace",
+		Title = "Kindness and Grace",
 		Description = { "" },
 		Summary = ""
+	},
+	[16220] = {
+		Title = "Save My Wife",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Savita]<INFO>einbech,97,167,0,101,0</INFO></NAVI> wants to repay the adventurer who helped save her wife. Get 20 Large Jellopy, 5 Coal, and 20 Jubilee."
+		},
+		Summary = "Mineral Collection"
+	},
+	[16221] = {
+		Title = "Save Your Life",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive it again through Einbech's <NAVI>[Savita]<INFO>einbech,97,167,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
 	},
 	[16222] = {
 		Title = "Royal Hunting Competition",
@@ -50813,14 +50977,14 @@ QuestInfoList = {
 	[16273] = {
 		Title = "Sweet Cookie Egg Ingredients",
 		Description = {
-			"Meet <NAVI>Farmer Sheran<INFO>izlude.gat,164,148,0,101,0</INFO></NAVI> waiting in Izurud and get a bag of almonds <NAVI>Gillian<INFO>yuno_in03.gat,173 Let's go back to, 1709,0,101,0</INFO></NAVI>."
+			"Meet <NAVI>Farmer Sheran<INFO>izlude.gat,164,148,0,101,0</INFO></NAVI> waiting in Izlude and get a bag of almonds. Let's go back to <NAVI>Gillian<INFO>yuno_in03.gat,173,170,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Talk to Sheran"
 	},
 	[16274] = {
 		Title = "Chocolate Egg Ingredients",
 		Description = {
-			"Meeting <NAVI>Patissier Ion<INFO>prontera.gat,268,156,0,101,0</INFO></NAVI> waiting at Prontera to get a piece of chocolate <NAVI>Gillian<INFO>yuno_in03.gat,Let's go back to 173,170,0,101,0</INFO></NAVI>."
+			"Meeting <NAVI>Patissier Ion<INFO>prontera.gat,268,156,0,101,0</INFO></NAVI> waiting at Prontera to get a piece of chocolate. Let's go back to <NAVI>Gillian<INFO>yuno_in03.gat,173,170,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Talk to Ian"
 	},
@@ -50835,7 +50999,7 @@ QuestInfoList = {
 	[16276] = {
 		Title = "Sweet Cookie Egg Ingredients",
 		Description = {
-			"Meet <NAVI>Farmer Sheran<INFO>izlude.gat,164,148,0,101,0</INFO></NAVI> waiting in Izurud and get a bag of almonds. <NAVI>Gillian<INFO>yuno_in03.gat,173,170 Let's go back to, 0,101,0</INFO></NAVI>."
+			"Meet <NAVI>Farmer Sheran<INFO>izlude.gat,164,148,0,101,0</INFO></NAVI> waiting in Izlude and get a bag of almonds. <NAVI>Gillian<INFO>yuno_in03.gat,173,170 Let's go back to, 0,101,0</INFO></NAVI>."
 		},
 		Summary = "Talk to Sheran"
 	},
@@ -50939,28 +51103,28 @@ QuestInfoList = {
 		Summary = "Complete stamp notebook"
 	},
 	[16332] = {
-		Title = "One Komodo Dojo",
+		Title = "One Comodo Dojo",
 		Description = {
 			"I stamped a left foot on the stamp notebook."
 		},
 		Summary = "Bump your left foot!"
 	},
 	[16333] = {
-		Title = "One Komodo Dojo",
+		Title = "One Comodo Dojo",
 		Description = {
 			"I stamped a left hand stamp on the stamp notebook."
 		},
 		Summary = "Bump your left hand!"
 	},
 	[16334] = {
-		Title = "One Komodo Dojo",
+		Title = "One Comodo Dojo",
 		Description = {
 			"I stamped one right foot on the stamp notebook."
 		},
 		Summary = "Bump your right foot!"
 	},
 	[16335] = {
-		Title = "One Komodo Dojo",
+		Title = "One Comodo Dojo",
 		Description = {
 			"I stamped one right hand stamp on the stamp notebook."
 		},
@@ -50983,20 +51147,20 @@ QuestInfoList = {
 	[16338] = {
 		Title = "Golden Corn of June (Standby)",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Quest orders are available through Komodo's <NAVI>Dr. Khon<INFO>comodo,159,196,0,101,0</INFO></NAVI>."
+			"This is a daily quest, you can retake the quest after the timer expires. Quest orders are available through Comodo's <NAVI>Dr. Khon<INFO>comodo,159,196,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16339] = {
-		Title = "Korodo, the volcanic island of June",
+		Title = "Comodo, the volcanic island of June",
 		Description = {
 			"With the guidance of the Comodo Assistant <NAVI>Pakiha<INFO>comodo,264,123,0,101,0</INFO></NAVI>, let's mix up the already-distant monsters in Comodo."
 		},
 		Summary = "Exploration of Comodo"
 	},
 	[16340] = {
-		Title = "Korodo, the volcanic island of June",
+		Title = "Comodo, the volcanic island of June",
 		Description = {
 			"With the guidance of the Comodo Assistant <NAVI>Pakiha<INFO>comodo,264,123,0,101,0</INFO></NAVI>, let's mix up the already-distant monsters in Comodo."
 		},
@@ -51005,7 +51169,7 @@ QuestInfoList = {
 	[16341] = {
 		Title = "Corrodo Island of June (Standby)",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Quest orders are available through Komodo's <NAVI>Pakiha<INFO>comodo,264,123,0,101,0</INFO></NAVI>."
+			"This is a daily quest, you can retake the quest after the timer expires. Quest orders are available through Comodo's <NAVI>Pakiha<INFO>comodo,264,123,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -51027,7 +51191,7 @@ QuestInfoList = {
 	[16344] = {
 		Title = "Healthy Herb of June (Standby)",
 		Description = {
-			"This is a daily quest, you can retake the quest after the timer expires. Quest orders are available through Komodo's <NAVI>Yerba<INFO>comodo,226,188,0,101,0</INFO></NAVI>."
+			"This is a daily quest, you can retake the quest after the timer expires. Quest orders are available through Comodo's <NAVI>Yerba<INFO>comodo,226,188,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -51479,6 +51643,20 @@ QuestInfoList = {
 			{ItemID = 25786, ItemNum = 3}
 		}
 	},
+	[16401] = {
+		Title = "Ingredients for Cooking Utensils",
+		Description = {
+			"<NAVI>[Aine Klein]<INFO>einbroch,215,180,0,101,0</INFO></NAVI> says that if you bring 30 Jubilee and 4 Large Jellopy, the ingredients for cooking utensils, they will exchange it for 1 Coal."
+		},
+		Summary = "30 Jubilee, 4 Large Jellopi"
+	},
+	[16402] = {
+		Title = "Cursed Legacy",
+		Description = {
+			"The scientist at the institute was angry that the warden was just idling around in the <NAVI>[Airplane]<INFO>airplane,31,77,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk with the foreman"
+	},
 	[16404] = {
 		Title = "Happy Egg Exploration",
 		IconName = "ico_ev.bmp",
@@ -51550,7 +51728,7 @@ QuestInfoList = {
 		Title = "Happy Almond Delivery",
 		IconName = "ico_ev.bmp",
 		Description = {
-			"I received a bag of almonds from Mr. Sheran, an Izurud farmer. Take the chocolate and return to <NAVI>Gillian<INFO>yuno.gat, 142,163,0,101,0</INFO></NAVI>."
+			"I received a bag of almonds from Mr. Sheran, an Izlude farmer. Take the chocolate and return to <NAVI>Gillian<INFO>yuno.gat, 142,163,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Almond delivery"
 	},
@@ -51888,275 +52066,458 @@ QuestInfoList = {
 		Summary = "Go with instructions"
 	},
 	[16454] = {
-		Title = "인퀴지터의 길",
+		Title = "Inquisitor's Path",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"프론테라 여관에 묵기로 했다. 여관 2층의 <NAVI>[두 번째 방]<INFO>prt_in,246,104,0,101,0</INFO></NAVI>을 이용하자."
+			"We decided to stay at the Prontera Inn. Use the <NAVI>[Second Room]<INFO>prt_in,246,104,0,101,0</INFO></NAVI> on the second floor of the inn."
 		},
-		Summary = "여관 투숙"
+		Summary = "Stay in the Inn"
 	},
 	[16455] = {
-		Title = "간절함의 시험",
+		Title = "Test of Perseverance",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"세량이라는 이름의 소녀를 만났다. 소녀의 권유대로 성 카피톨리나 수도원으로 가는 길목에서 <NAVI>[에인하르]<INFO>prt_fild03,360,272,0,101,0</INFO></NAVI>를 만나자."
+			"I met a girl named Seryang. Let's meet <NAVI>[Einhar]<INFO>prt_fild03,360,272,0,101,0</INFO></NAVI> on the way to St. Capitolina Abbey as per the girl's suggestion."
 		},
-		Summary = "에인하르 만나기"
+		Summary = "Meet Einhar"
 	},
 	[16456] = {
-		Title = "실천의 시험",
+		Title = "Test of Practice",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"간절함의 시험을 통과했다. 실천의 시험을 치르기 위해 성 카피톨리나 수도원 <NAVI>[안쪽]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>으로 들어가자."
+			"Passed the Test of Perseverance. <NAVI>[Enter]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI> the St. Capitolina Abbey to take the test of practice."
 		},
-		Summary = "수도원 입장"
+		Summary = "Entrance to the monastery"
 	},
 	[16457] = {
-		Title = "인퀴지터의 길",
+		Title = "Inquisitor's Path",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"인퀴지터가 되기 위한 시험을 치르기로 했다. 홀로 수도원 지하결계에 들어가 흉악한 괴물을 무찌르고 <NAVI>[에인하르]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>에게 돌아오자.",
-			"니드 - 에흐",
-			" |\t결계\t|",
-			"우윈 - 시겔"
+			"I decided to take the exam to become an Inquisitor. I have to enter the Abbey's underground barrier alone, defeat the monstrous monster, and return to <NAVI>[Einhar]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>.",
+			"Ned - Aihe",
+			" |\tBarrier\t|",
+			"Scott - Yuyuan"
 		},
 		Summary = ""
 	},
 	[16458] = {
-		Title = "인퀴지터의 길",
+		Title = "Inquisitor's Path",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"인퀴지터가 되기 위한 시험을 치르기로 했다. 홀로 수도원 지하결계에 다시 들어가 흉악한 괴물을 무찌르고 <NAVI>[에인하르]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>에게 돌아오자.",
-			"니드 - 에흐",
-			" |\t결계\t|",
-			"우윈 - 시겔"
+			"I decided to take the exam to become an Inquisitor. I have to enter the Abbey's underground barrier alone again, defeat the monstrous monster, and return to <NAVI>[Einhar]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>.",
+			"Ned - Aihe",
+			" |\tBarrier\t|",
+			"Scott - Yuyuan"
 		},
 		Summary = ""
 	},
 	[16459] = {
-		Title = "인퀴지터의 길",
+		Title = "Inquisitor's Path",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"인퀴지터가 되기 위한 시험을 치르기로 했다. 홀로 수도원 지하결계에 한 번 더 들어가 흉악한 괴물을 무찌르고 <NAVI>[에인하르]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>에게 돌아오자.",
-			"니드 - 에흐",
-			" |\t결계\t|",
-			"우윈 - 시겔"
+			"I decided to take the exam to become an Inquisitor. I have to enter the Abbey's underground barrier alone again, defeat the monstrous monster, and return to <NAVI>[Einhar]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>.",
+			"Ned - Aihe",
+			" |\tBarrier\t|",
+			"Scott - Yuyuan"
 		},
 		Summary = ""
 	},
 	[16460] = {
-		Title = "인퀴지터로 전직",
+		Title = "Job Change to Inquisitor",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"드디어 인퀴지터로 전직한다. 몸과 마음을 정결하게 하고 <NAVI>[에인하르]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>에게 가 그의 말을 듣자."
+			"Finally, I can become an Inquisitor. Purify my body and mind, and listen to  <NAVI>[Einhar]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>."
 		},
-		Summary = "인퀴지터로 전직"
+		Summary = "Job Change to Inquisitor"
+	},
+	[16461] = {
+		Title = "Tomb of Remorse",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Princess Tiara]<INFO>dali,124,88,0,101,0</INFO></NAVI>of an unfamiliar kingdom seems to have something she wants to ask an adventurer."
+		},
+		Summary = "Talk to Princess Tiara"
+	},
+	[16462] = {
+		Title = "Tomb of Remorse",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"To hear more about the princess, let's follow <NAVI>[her]<INFO>dali,79,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Princess Tiara"
+	},
+	[16463] = {
+		Title = "Tomb of Remorse",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"After hearing the story of the <NAVI>[Princess]<INFO>dali02,78,116,0,101,0</INFO></NAVI> let's head to the Tomb of Remorse."
+		},
+		Summary = "Talk to Princess Tiara"
+	},
+	[16464] = {
+		Title = "Tomb of Remorse",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Princess Tiara]<INFO>dali02,78,116,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16465] = {
+		Title = "Broken Bond",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Marquess]<INFO>dali02,78,112,0,101,0</INFO></NAVI> is now hoping that the magical swordsman Sakray, who has not left a trace of her relationship with the princess, will be released from the palace."
+		},
+		Summary = ""
+	},
+	[16466] = {
+		Title = "Broken Bond-Standby",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Marquess]<INFO>dali02,78,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16467] = {
+		Title = "Shedding Tears",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Marquess]<INFO>dali02,78,112,0,101,0</INFO></NAVI>, in accordance with the princess's orders, is hoping that the princess who is attacking her will be put to sleep."
+		},
+		Summary = ""
+	},
+	[16468] = {
+		Title = "Shedding Tears-Standby",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Marquess]<INFO>dali02,78,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16469] = {
+		Title = "Fragmented Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Marquess]<INFO>dali02,78,112,0,101,0</INFO></NAVI> wants to know the full story of the incident, and is hoping to collect 3 pieces of Memory."
+		},
+		Summary = ""
+	},
+	[16470] = {
+		Title = "(Standby) Fragmented Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Marquess]<INFO>dali02,78,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16471] = {
+		Title = "Fragmented Past",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Marquess]<INFO>dali02,78,112,0,101,0</INFO></NAVI> wants to collect 10 Fragment of the Past so that the fact that they exist is not forgotten."
+		},
+		Summary = ""
+	},
+	[16472] = {
+		Title = "(Standby) Fragmented Past",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Marquess]<INFO>dali02,78,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16473] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16474] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16475] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16476] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16477] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16478] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16479] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16480] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16481] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
+	},
+	[16482] = {
+		Title = "Fragment of Memory",
+		IconName = "ico_dq.bmp",
+		Description = {
+			""
+		},
+		Summary = ""
 	},
 	[16521] = {
-		Title = "폐기실험체 유기장 루두스 4층",
+		Title = "Rudus 4th Floor, Experiment Waste Disposal",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"율마는 폐기실험장 루두스 4층에 대한 정보를 알려주었다. <NAVI>[파이언]<INFO>sp_rudus3,380,42,0,101,0</INFO></NAVI>에게 찾아가 직접 루두스 4층에 방문해 보자."
+			"Yulma gave information about the 4th floor of Rudus, the Experiment Waste Disposal. Go to <NAVI>[Paion]<INFO>sp_rudus3,380,42,0,101,0</INFO></NAVI> and visit the 4th floor of Rudus yourself."
 		},
-		Summary = "파이언과 대화"
+		Summary = "Talk to Paion"
 	},
 	[16522] = {
-		Title = "폐기실험체 유기장 루두스 4층",
+		Title = "Rudus 4th Floor, Experiment Waste Disposal",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"파이언과 대화해 루두스 4층을 탐사해 보았다. <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>에게로 돌아가자."
+			"I talked to Paion and explored the 4th floor of Ludus. Let's go back to <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
 		},
-		Summary = "율마와 대화"
+		Summary = "Talk to Yulma"
 	},
 	[16523] = {
-		Title = "심연의 고독 (Standby)",
+		Title = "(Standby) Abyssal Solitude",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16524] = {
-		Title = "심연의 고독",
+		Title = "Abyssal Solitude",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"돌로리안과 플라가리온, 데드레를 각각 10마리씩 사냥하고 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>에게 돌아와 보고하자."
+			"On the 4th floor of Rudus, where you can talk to <NAVI>[Paion]<INFO>sp_rudus3,380,42,0,101,0</INFO></NAVI>, hunt 10 Dolorian, Plagarion and Deadre each and report back to <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[16525] = {
-		Title = "변형과 발전 (Standby)",
+		Title = "(Standby) Transformation and Evolution",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16526] = {
-		Title = "변형과 발전",
+		Title = "Transformation and Evolution",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"자이언트 카푸트와 베네디를 각각 15마리씩 사냥하고 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>에게 돌아와 보고하자."
+			"On the 4th floor of Rudus, where you can talk to <NAVI>[Paion]<INFO>sp_rudus3,380,42,0,101,0</INFO></NAVI>, hunt 15 Giant Caput and Venedi each and report back to <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[16527] = {
-		Title = "데이터 백업 (Standby)",
+		Title = "(Standby) Data Backup",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16528] = {
-		Title = "데이터 백업",
+		Title = "Data Backup",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"매일 칩의 유지보수가 필요하다. 비밀의 날개 <NAVI>[연구원]<INFO>sp_rudus4,192,204,0,101,0</INFO></NAVI>에게 찾아가 보자."
+			"Daily maintenance of the chip is required. Let's go to the Secret Wings <NAVI>[Researcher]<INFO>sp_rudus4,192,204,0,101,0</INFO></NAVI>에게 찾아가 보자."
 		},
-		Summary = "연구원과 대화"
+		Summary = "Talk with the Researcher"
 	},
 	[16529] = {
-		Title = "버려진 연구소 아미키티아",
+		Title = "Abandoned Lab Amicitia",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"총알 탄 고양이에 있던 리벨리온들에게 버려진 연구소 아미키티아에 대한 정보를 얻었다."
+			"I got information about the Abandoned Lab Amicitia by the rebellions in the Cat on a Bullet."
 		},
 		Summary = ""
 	},
 	[16530] = {
-		Title = "땅과 불 (Standby)",
+		Title = "(Standby) Earth and Fire",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16531] = {
-		Title = "땅과 불",
+		Title = "Earth and Fire",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"변이 키메라 아미티아와 변이 키메라 필리아를 각각 15마리씩 사냥하고 리벨리온 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>에게 보고하자."
+			"Hunt 15 Mutant Chimera Amitera and Mutant Chimera Fillia on the 1st floor of the Abandoned Lab Amicitia that can be accessed through <NAVI>[Lana]<INFO>ein_fild08,158,96,0,101,0</INFO></NAVI> and report back to Rebellion <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[16532] = {
-		Title = "물과 바람 (Standby)",
+		Title = "(Standby) Water and Wind",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16533] = {
-		Title = "물과 바람",
+		Title = "Water and Wind",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"변이 키메라 리투스와 변이 키메라 바닐아쿠스를 각각 15마리씩 사냥하고 리벨리온 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>에게 보고하자."
+			"Hunt 15 Mutant Chimera Litus and Mutant Chimera Vaniaqus on the 1st floor of the Abandoned Lab Amicitia that can be accessed through <NAVI>[Lana]<INFO>ein_fild08,158,96,0,101,0</INFO></NAVI> and report back to Rebellion <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[16534] = {
-		Title = "베르너의 흔적 (Standby)",
+		Title = "(Standby) Werner's Trail",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16535] = {
-		Title = "베르너의 흔적",
-		IconName = "ico_dq.bmp",
-		Description = { "" },
-		Summary = "버려진 연구소 아미키티아 1층에서 베르너의 흔적을 찾아 리벨리온 <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>에게 가져오자."
-	},
-	[16536] = {
-		Title = "모방과 진짜 (Standby)",
+		Title = "Werner's Trail",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[거베나]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>."
+			"Find the trail of Werner on the 1st floor of the Abandoned Lab Amicitia that can be accessed <NAVI>[Lana]<INFO>ein_fild08,158,96,0,101,0</INFO></NAVI> and report back to Rebellion <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Ansuriya"
+	},
+	[16536] = {
+		Title = "(Standby) Imitation and Reality",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Gerbena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16537] = {
-		Title = "모방과 진짜",
+		Title = "Imitation and Reality",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"변이 키메라 나페오와 변이 키메라 갈렌시스를 각각 15마리씩 사냥하고 리벨리온 <NAVI>[거베나]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>에게 보고하자."
+			"Hunt 15 Mutant Chimera Napeo and Mutant Chimera Galensis on the 2nd floor of the Abandoned Lab Amicitia that can be accessed through <NAVI>[Lana]<INFO>ein_fild08,158,96,0,101,0</INFO></NAVI> and report back to Rebellion <NAVI>[Gerbena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[16538] = {
-		Title = "자연스러운 변화 (Standby)",
+		Title = "(Standby) Natural Change",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 아인브로크의 <NAVI>[거베나]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Gerbena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI> in Einbroch."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
 	},
 	[16539] = {
-		Title = "자연스러운 변화",
+		Title = "Natural Change",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"변이 키메라 라바이터와 변이 키메라 풀고르를 각각 15마리씩 사냥하고 리벨리온 <NAVI>[거베나]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>에게 보고하자."
+			"Hunt 15 Mutant Chimera Lavaeter and Mutant Chimera Fulgor on the 2nd floor of the Abandoned Lab Amicitia that can be accessed through <NAVI>[Lana]<INFO>ein_fild08,158,96,0,101,0</INFO></NAVI> and report back to Rebellion <NAVI>[Gerbena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>."
 		},
 		Summary = ""
 	},
 	[16540] = {
-		Title = "데이터 백업",
+		Title = "Data Backup",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"칩의 유지보수를 완료했다. <NAVI>[율마]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>에게 돌아가 보자."
+			"The maintenance of the chip has been completed. Let's go back to <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>."
 		},
-		Summary = "율마와 대화"
+		Summary = "Talk to Yulma"
 	},
 	[16541] = {
-		Title = "베르너의 흔적",
+		Title = "Werner's Trail",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"베르너의 흔적을 찾았다. <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>에게 돌아가 보자."
+			"I found the trail of Werner. Let's go back to <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
-		Summary = "안수리야와 대화"
+		Summary = "Talk to Ansuriya"
 	},
 	[16542] = {
-		Title = "베르너의 흔적",
+		Title = "Werner's Trail",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"베르너의 흔적을 찾았다. <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>에게 돌아가 보자."
+			"I found the trail of Werner. Let's go back to <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
-		Summary = "안수리야와 대화"
+		Summary = "Talk to Ansuriya"
 	},
 	[16543] = {
-		Title = "베르너의 흔적",
+		Title = "Werner's Trail",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"베르너의 흔적을 찾았다. <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>에게 돌아가 보자."
+			"I found the trail of Werner. Let's go back to <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
-		Summary = "안수리야와 대화"
+		Summary = "Talk to Ansuriya"
 	},
 	[16544] = {
-		Title = "베르너의 흔적",
+		Title = "Werner's Trail",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"베르너의 흔적을 찾았다. <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>에게 돌아가 보자."
+			"I found the trail of Werner. Let's go back to <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
-		Summary = "안수리야와 대화"
+		Summary = "Talk to Ansuriya"
 	},
 	[16545] = {
-		Title = "베르너의 흔적",
+		Title = "Werner's Trail",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"베르너의 흔적을 찾았다. <NAVI>[안수리야]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>에게 돌아가 보자."
+			"I found the trail of Werner. Let's go back to <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>."
 		},
-		Summary = "안수리야와 대화"
+		Summary = "Talk to Ansuriya"
 	},
 	[16546] = {
         Title = "Farm Worker",
@@ -52167,10 +52528,1292 @@ QuestInfoList = {
         Summary = ""
     },
 	[16547] = {
-		Title = "유노 몬스터 학회",
+		Title = "Yuno Monster Society",
 		IconName = "ico_nq.bmp",
 		Description = { "" },
 		Summary = ""
+	},
+	[16548] = {
+		Title = "Clearing Firewind Kites",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Ahir]<INFO>wolfvill,147,97,0,101,0</INFO></NAVI>, who could not sleep all night, said that he would do well without the sound of a Firewind Kite, and he asks you to hunt 30 Firewind Kites."
+		},
+		Summary = "",
+		NpcSpr = "4_M_DST_CHILD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "147",
+		NpcPosY = "97"
+	},
+	[16549] = {
+		Title = "Clearing Firewind Kites",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Ahir]<INFO>wolfvill,147,97,0,101,0</INFO></NAVI> says that if the adventurer hunts 30 Firewind Kites again, he will be able to sleep comfortably tonight."
+		},
+		Summary = "",
+		NpcSpr = "4_M_DST_CHILD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "147",
+		NpcPosY = "97"
+	},
+	[16550] = {
+		Title = "(Standby) Clearing Firewind Kites",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Ahir]<INFO>wolfvill,147,97,0,101,0</INFO></NAVI> in the Gray Wolf Village."
+		},
+		Summary = "Resets at 04:00",
+		NpcSpr = "4_M_DST_CHILD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "147",
+		NpcPosY = "97",
+		CoolTimeQuest = 1
+	},
+	[16551] = {
+		Title = "Dina's Story",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Go to <NAVI>[Dinar]<INFO>wolfvill,106,224,0,101,0</INFO></NAVI> with the notebook Gudra gave you and write down the amazing story Dina tells you."
+		},
+		Summary = "Talk to Dina",
+		NpcSpr = "4_F_DST_CHILD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "106",
+		NpcPosY = "224"
+	},
+	[16552] = {
+		Title = "Amira's Story",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Go to <NAVI>[Amira]<INFO>wolfvill,180,204,0,101,0</INFO></NAVI> with the notebook Gudra gave you and write down the stories of the mysterious gods that Amira tells you."
+		},
+		Summary = "Talk to Amira",
+		NpcSpr = "4_F_DESERT",
+		NpcNavi = "wolfvill",
+		NpcPosX = "180",
+		NpcPosY = "204"
+	},
+	[16553] = {
+		Title = "Grandmother Shanina's Story",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Go to Grandmother <NAVI>[Shanina]<INFO>wolfvill,154,184,0,101,0</INFO></NAVI> with the notebook Gudra gave her and write down the old story that Grandmother Shanina tells you."
+		},
+		Summary = "Talk to Shanina",
+		NpcSpr = "4_F_DST_GRAND",
+		NpcNavi = "wolfvill",
+		NpcPosX = "154",
+		NpcPosY = "184"
+	},
+	[16554] = {
+		Title = "Collecting Folklore",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I gathered all the stories today. Let's go back to <NAVI>[Gudra]<INFO>wolfvill,61,170,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Gudra",
+		NpcSpr = "4_F_SHABBY",
+		NpcNavi = "wolfvill",
+		NpcPosX = "61",
+		NpcPosY = "170"
+	},
+	[16555] = {
+		Title = "Dina's Story",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Go to <NAVI>[Dinar]<INFO>wolfvill,106,224,0,101,0</INFO></NAVI> with the notebook Gudra gave you and write down the amazing story Dina tells you."
+		},
+		Summary = "디나르와 대화",
+		NpcSpr = "4_F_DST_CHILD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "106",
+		NpcPosY = "224"
+	},
+	[16556] = {
+		Title = "Amira's Story",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Go to <NAVI>[Amira]<INFO>wolfvill,180,204,0,101,0</INFO></NAVI> with the notebook Gudra gave you and write down the stories of the mysterious gods that Amira tells you."
+		},
+		Summary = "Talk to Amira",
+		NpcSpr = "4_F_DESERT",
+		NpcNavi = "wolfvill",
+		NpcPosX = "180",
+		NpcPosY = "204"
+	},
+	[16557] = {
+		Title = "Grandmother Shanina's Story",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Go to Grandmother <NAVI>[Shanina]<INFO>wolfvill,154,184,0,101,0</INFO></NAVI> with the notebook Gudra gave her and write down the old story that Grandmother Shanina tells you."
+		},
+		Summary = "Talk to Shanina",
+		NpcSpr = "4_F_DST_GRAND",
+		NpcNavi = "wolfvill",
+		NpcPosX = "154",
+		NpcPosY = "184"
+	},
+	[16558] = {
+		Title = "Collecting Folklore",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I gathered all the stories today. Let's go back to <NAVI>[Gudra]<INFO>wolfvill,61,170,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Gudra",
+		NpcSpr = "4_F_SHABBY",
+		NpcNavi = "wolfvill",
+		NpcPosX = "61",
+		NpcPosY = "170"
+	},
+	[16559] = {
+		Title = "(Standby) Collecting Folklore",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. You can receive quest orders through <NAVI>[Gudra]<INFO>wolfvill,61,170,0,101,0</INFO></NAVI> in the Gray Wolf Village."
+		},
+		Summary = "Resets at 04:00",
+		NpcSpr = "4_F_SHABBY",
+		NpcNavi = "wolfvill",
+		NpcPosX = "61",
+		NpcPosY = "170",
+		CoolTimeQuest = 1
+	},
+	[16560] = {
+		Title = "Ahab's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Near the lake, I see young people murmuring about someone. Let's hear the story of <NAVI>[Kayar]<INFO>wolfvill,83,109,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Kayar",
+		NpcSpr = "4W_M_03",
+		NpcNavi = "wolfvill",
+		NpcPosX = "83",
+		NpcPosY = "109"
+	},
+	[16561] = {
+		Title = "Ahab's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The only people who can help them are adventurers, so let's hear from <NAVI>[Desel]<INFO>wolfvill,87,109,0,101,0</INFO></NAVI> for the reason."
+		},
+		Summary = "Talk to Desel",
+		NpcSpr = "4_M_DESERT",
+		NpcNavi = "wolfvill",
+		NpcPosX = "87",
+		NpcPosY = "109"
+	},
+	[16562] = {
+		Title = "Ahab's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I was asked to meet with the person they were talking to. Let's meet <NAVI>[Ahab]<INFO>wolfvill,127,155,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Ahab",
+		NpcSpr = "4_M_MIDDLE1",
+		NpcNavi = "wolfvill",
+		NpcPosX = "127",
+		NpcPosY = "155"
+	},
+	[16563] = {
+		Title = "Ahab's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I was forced to take over the errands. Let's go to Rachel's <NAVI>[Shop Keeper]<INFO>rachel,135,64,0,101,0</INFO></NAVI> and buy a bottle of cucumber sauce."
+		},
+		Summary = "Talk to the Shop Keeper",
+		NpcSpr = "4_M_RACHMAN2",
+		NpcNavi = "rachel",
+		NpcPosX = "135",
+		NpcPosY = "64"
+	},
+	[16564] = {
+		Title = "Ahab's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I safely purchased the cucumber sauce. With my money.... Return to <NAVI>[Ahab]<INFO>wolfvill,127,155,0,101,0</INFO></NAVI> and complete the errand."
+		},
+		Summary = "Talk to Ahab",
+		NpcSpr = "4_M_MIDDLE1",
+		NpcNavi = "wolfvill",
+		NpcPosX = "127",
+		NpcPosY = "155"
+	},
+	[16565] = {
+		Title = "Ahab's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's talk to <NAVI>[Ahab]<INFO>wolfvill,127,155,0,101,0</INFO></NAVI> after he is done eating."
+		},
+		Summary = "Talk to Ahab",
+		NpcSpr = "4_M_MIDDLE1",
+		NpcNavi = "wolfvill",
+		NpcPosX = "127",
+		NpcPosY = "155"
+	},
+	[16566] = {
+		Title = "Ahab's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Ahab says he will change his mind, and he asks others to share it with him. Let <NAVI>[Zlan]<INFO>wolfvill,85,111,0,101,0</INFO></NAVI>, Kayar, Desel know about Ahab's determination."
+		},
+		Summary = "",
+		NpcSpr = "4_M_RACHMAN1",
+		NpcNavi = "wolfvill",
+		NpcPosX = "85",
+		NpcPosY = "111"
+	},
+	[16567] = {
+		Title = "Conference of the Gray Wolf Forest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The gray wolf forest conference will soon begin. Let's go to the gathering place with <NAVI>[Suad]<INFO>wolfvill,144,151,0,101,0</INFO></NAVI> and attend the conference."
+		},
+		Summary = "Talk to Suad",
+		NpcSpr = "4_EP18_SUAD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "144",
+		NpcPosY = "151"
+	},
+	[16568] = {
+		Title = "One's Opinion",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I heard a lot of opinions and was advised to come. Let's listen to the opinion of the <NAVI>[Radical Young Man]<INFO>wolfvill,145,146,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to the Radical Young Man",
+		NpcSpr = "4_EP18_GW_MAN01",
+		NpcNavi = "wolfvill",
+		NpcPosX = "145",
+		NpcPosY = "146"
+	},
+	[16569] = {
+		Title = "One's Opinion",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I heard a lot of opinions and was advised to come. Let's listen to the opinion the <NAVI>[Native Old Man]<INFO>wolfvill,139,148,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to a Native Old Man",
+		NpcSpr = "4_EP18_GW_OLD01",
+		NpcNavi = "wolfvill",
+		NpcPosX = "139",
+		NpcPosY = "148"
+	},
+	[16570] = {
+		Title = "One's Opinion",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I heard a lot of opinions and was advised to come. Let's listen to the opinion of the <NAVI>[Radical Old Man]<INFO>wolfvill,150,147,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to the Radical Old Man",
+		NpcSpr = "4_M_MIDDLE",
+		NpcNavi = "wolfvill",
+		NpcPosX = "150",
+		NpcPosY = "147"
+	},
+	[16571] = {
+		Title = "One's Opinion",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I heard a lot of opinions and was advised to come. Let's listen to the opinion of the <NAVI>[Skeptical Young Man]<INFO>wolfvill,152,145,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to the Skeptical Young Man",
+		NpcSpr = "4_M_RACHMAN1",
+		NpcNavi = "wolfvill",
+		NpcPosX = "152",
+		NpcPosY = "145"
+	},
+	[16572] = {
+		Title = "Conference of the Gray Wolf Forest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I think I've heard enough opinions from the people of Gray Wolf Forest. Let's go back to <NAVI>[Suad]<INFO>wolfvill,144,151,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Suad",
+		NpcSpr = "4_EP18_SUAD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "144",
+		NpcPosY = "151"
+	},
+	[16573] = {
+		Title = "Source of the Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"After the meeting, <NAVI>[Miriam]<INFO>wolfvill,148,151,0,101,0</INFO></NAVI> quietly called the adventurers and friends. What's going on?"
+		},
+		Summary = "Talk to Miriam",
+		NpcSpr = "4_EP18_MIRIAM",
+		NpcNavi = "wolfvill",
+		NpcPosX = "148",
+		NpcPosY = "151"
+	},
+	[16574] = {
+		Title = "Source of the Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Together with Maram, let's go to the armed <NAVI>[Radical Man]<INFO>wolfvill,143,145,0,101,0</INFO></NAVI> and dig up the source of the weapon."
+		},
+		Summary = "Talk to the Radical Man",
+		NpcSpr = "4_M_RASWORD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "143",
+		NpcPosY = "145"
+	},
+	[16575] = {
+		Title = "Source of the Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"To find out where the weapon came from, you'll need to get the code from <NAVI>[Bearded Jack]<INFO>rachel,75,44,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Bearded Jack",
+		NpcSpr = "4_M_MIDDLE1",
+		NpcNavi = "rachel",
+		NpcPosX = "75",
+		NpcPosY = "44"
+	},
+	[16576] = {
+		Title = "Source of the Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Bearded Jack introduced the adventurers and Maram to the Weapon Dealer <NAVI>[Dandelion]<INFO>veins,293,282,0,101,0</INFO></NAVI> of Veins."
+		},
+		Summary = "Talk to Dandelion",
+		NpcSpr = "4_M_DESERT",
+		NpcNavi = "veins",
+		NpcPosX = "293",
+		NpcPosY = "282"
+	},
+	[16577] = {
+		Title = "Source of the Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Maram guided the adventurer saying that he knew the shortcut to the <NAVI>[Thor Military Base]<INFO>que_thr,133,53,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Tangent to Maram",
+		NpcSpr = "4_EP18_MARAM",
+		NpcNavi = "que_thr",
+		NpcPosX = "133",
+		NpcPosY = "53"
+	},
+	[16578] = {
+		Title = "Source of the Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I met an unexpected person inside the <NAVI>[Thor Military Base]<INFO>que_thr,133,53,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Miriam",
+		NpcSpr = "4_EP18_MIRIAM"
+	},
+	[16579] = {
+		Title = "Source of the Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Talk to Maram at <NAVI>[Thor Military Base]<INFO>que_thr,133,53,0,101,0</INFO></NAVI> and talk about the clues you got."
+		},
+		Summary = "Talk to Maram",
+		NpcSpr = "4_EP18_MARAM"
+	},
+	[16580] = {
+		Title = "Source of the Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's quickly deliver the facts we found out at Thor's Military Base to <NAVI>[Suad]<INFO>wolfvill,140,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Suad",
+		NpcSpr = "4_EP18_SUAD",
+		NpcNavi = "wolfvill",
+		NpcPosX = "140",
+		NpcPosY = "112"
+	},
+	[16581] = {
+		Title = "Helping the Children",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Kar]<INFO>rachel,37,41,0,101,0</INFO></NAVI> widened his eyes at Naiman's words that he had no money."
+		},
+		Summary = "Talk to Kar",
+		NpcSpr = "4_M_RACHMAN1",
+		NpcNavi = "rachel",
+		NpcPosX = "37",
+		NpcPosY = "41"
+	},
+	[16582] = {
+		Title = "Helping the Children",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Lucy]<INFO>rachel,40,45,0,101,0</INFO></NAVI> frowned upon seeing only her anger and anger at her age."
+		},
+		Summary = "Talk to Lucy",
+		NpcSpr = "4_M_DST_CHILD",
+		NpcNavi = "rachel",
+		NpcPosX = "40",
+		NpcPosY = "45"
+	},
+	[16583] = {
+		Title = "Helping the Children",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Why on earth did <NAVI>[Naiman]<INFO>rachel,36,45,0,101,0</INFO></NAVI> make these children his friends? Let's ask ourselves."
+		},
+		Summary = "Talk to Naiman",
+		NpcSpr = "4_F_DST_CHILD",
+		NpcNavi = "rachel",
+		NpcPosX = "36",
+		NpcPosY = "45"
+	},
+	[16584] = {
+		Title = "Price of Labor",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Amodipine wants help so she can get her overdue paycheck. Talk to <NAVI>[Dahil]<INFO>rachel,136,95,0,101,0</INFO></NAVI>, Amodipine's employer."
+		},
+		Summary = "Talk to Dahil",
+		NpcSpr = "4_M_RACHMAN2",
+		NpcNavi = "rachel",
+		NpcPosX = "136",
+		NpcPosY = "95"
+	},
+	[16585] = {
+		Title = "Price of Labor",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Dahil was very upset, but listened anyway. Let's go to <NAVI>[Amodipine]<INFO>rachel,181,51,0,101,0</INFO></NAVI> and tell him the news."
+		},
+		Summary = "Talk to Amodipine",
+		NpcSpr = "4_M_MIDDLE",
+		NpcNavi = "rachel",
+		NpcPosX = "181",
+		NpcPosY = "51"
+	},
+	[16586] = {
+		Title = "Path of Missionary Work",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I was given a mission to spread Odin's words to all continents. After completing the mission, report to <NAVI>[Missionary Rosetta]<INFO>prontera,226,329,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Rosetta after completing the mission"
+	},
+	[16587] = {
+		Title = "Umbala Missionary Work",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's hear what trouble happened to <NAVI>[Tite]<INFO>umbala,127,140,0,101,0</INFO></NAVI>, who came to Umbala to preach Odin's words."
+		},
+		Summary = "Talk to Tite after completing the mission"
+	},
+	[16588] = {
+		Title = "Einbroch Missionary Work",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's hear what trouble happened to <NAVI>[Suan]<INFO>einbroch,178,148,0,101,0</INFO></NAVI>, who came to Einbroch to preach Odin's words."
+		},
+		Summary = "Talk to Suan after completing the mission"
+	},
+	[16589] = {
+		Title = "The Banquet of the Dead, the Attraction of the Living",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's find <NAVI>[John]<INFO>nif_dun01,101,246,0,101,0</INFO></NAVI> who has flowed into the banquet hall by the Banquet of the Dead and bring him back."
+		},
+		Summary = "Talk to John"
+	},
+	[16590] = {
+		Title = "The Banquet of the Dead, the Attraction of the Living",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's find <NAVI>[Maria]<INFO>nif_dun01,213,148,0,101,0</INFO></NAVI> who has flowed into the banquet hall by the Banquet of the Dead and bring her back."
+		},
+		Summary = "Talk to Maria"
+	},
+	[16591] = {
+		Title = "The Banquet of the Dead, the Attraction of the Living",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's find <NAVI>[Blue]<INFO>nif_dun01,160,183,0,101,0</INFO></NAVI> who has flowed into the banquet hall by the Banquet of the Dead and bring him back."
+		},
+		Summary = "Talk to Blue"
+	},
+	[16592] = {
+		Title = "The Banquet of the Dead, the Festival Night is over",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"To prevent the living from being dragged into the Banquet of the Dead any longer, let's send off 100 dead people wandering around <NAVI>[the banquet hall of the dead]<INFO>nif_dun01,145,85,0,101,0</INFO></NAVI>."
+		},
+		Summary = ""
+	},
+	[16593] = {
+		Title = "Naughty Hide and Seek, Adults' Frustration",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Find the mischievous <NAVI>[Las]<INFO>ein_dun03,148,221,0,101,0</INFO></NAVI> who hid on the 3rd floor of the Einbech Mine and return with them to the house."
+		},
+		Summary = "Talk to Las"
+	},
+	[16594] = {
+		Title = "Naughty Hide and Seek, Adults' Frustration",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Find the mischievous <NAVI>[Minas]<INFO>ein_dun03,38,152,0,101,0</INFO></NAVI> who hid on the 3rd floor of the Einbech Mine and return with them to the house."
+		},
+		Summary = "Talk to Minas"
+	},
+	[16595] = {
+		Title = "Naughty Hide and Seek, Adults' Frustration",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Find the mischievous <NAVI>[Tiris]<INFO>ein_dun03,234,20,0,101,0</INFO></NAVI> who hid on the 3rd floor of the Einbech Mine and return with them to the house."
+		},
+		Summary = "Talk to Tiris"
+	},
+	[16596] = {
+		Title = "Naughty Hide and Seek, beckoning to save",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's hunt 100 individuals on the 3rd floor of the Einbech Mine to avoid harm to the naughty people hiding in <NAVI>[Einbech Mine 3rd Floor]<INFO>ein_dun03,268,279,0,101,0</INFO></NAVI>."
+		},
+		Summary = ""
+	},
+	[16597] = {
+		Title = "Return to Prontera Cathedral",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You have completed your mission in Umbala. Let him go back to <NAVI>[Missionary Rosetta]<INFO>prontera,226,329,0,101,0</INFO></NAVI> in Prontera."
+		},
+		Summary = "Talk to Rosetta"
+	},
+	[16598] = {
+		Title = "Return to Prontera Cathedral",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You have completed your mission in Einbroch. Let him go back to <NAVI>[Missionary Rosetta]<INFO>prontera,226,329,0,101,0</INFO></NAVI> in Prontera."
+		},
+		Summary = "Talk to Rosetta"
+	},
+	[16599] = {
+		Title = "Return safely after completing the mission",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Found all three people possessed by the Banquet of the Dead. After sending off 100 dead people from the Banquet Hall of the Dead, report back to <NAVI>[Tite]<INFO>umbala,127,140,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Tite"
+	},
+	[16600] = {
+		Title = "Return safely after completing the mission",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Found every children on the 3rd floor of the Einbech Mine. After hunting 100 individuals on the 3rd floor of the Einbech Mine, report back to <NAVI>[Suan]<INFO>einbroch,178,148,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Suan"
+	},
+	[16601] = {
+		Title = "Job Change to Night Watch",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"To be informed about the Night Watch, let's listen to <NAVI>[Ilya]<INFO>einbroch,315,322,0,101,0</INFO></NAVI>'s story."
+		},
+		Summary = "Talk to Ilya"
+	},
+	[16602] = {
+		Title = "Job Change to Night Watch",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"To take the Night Watch exam, talk to <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI> who is waiting in front of Clana Nemieri."
+		},
+		Summary = "Talk to Elena"
+	},
+	[16603] = {
+		Title = "Job Change to Night Watch",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Talk to <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI> to enter the room for the Night Watch Advancement Exam and take it."
+		},
+		Summary = "Night Watch Advancement Exam"
+	},
+	[16604] = {
+		Title = "Job Change to Night Watch",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Finally, it is the moment of result. Talk to <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI> and proceed with the job change process."
+		},
+		Summary = "Talk to Elena"
+	},
+	[16605] = {
+		Title = "Job Change to Arch Bishop",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Let's go on a pilgrimage to the <NAVI>[Hvergelmir's Fountain]<INFO>yggdrasil01,220,47,0,101,0</INFO></NAVI> and pray according to the order."
+		},
+		Summary = "Pilgrimage"
+	},
+	[16606] = {
+		Title = "Job Change to Arch Bishop",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I went on a pilgrimage to the Holy Land and finished my prayers. Let's go back to <NAVI>[Father Dayan]<INFO>umbala,139,227,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Father Dayan"
+	},
+	[16607] = {
+		Title = "Job Change to Arch Bishop",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I went to a place I didn't know about. Let's talk with <NAVI>[Valkyrie]<INFO>job3_arch01,29,34,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Valkyrie"
+	},
+	[16608] = {
+		Title = "Job Change to Blacksmith",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I lived thanks to you. Please pass this receipt to <NAVI>[Geschupenschte]<INFO>ein_in01,201,27,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Receipt Delivery"
+	},
+	[16609] = {
+		Title = "Punishment for Choco!",
+		Description = {
+			"During the choco slicing, not even a single wild rose should be harmed. After completing the mission, report to <NAVI>[Myu]<INFO>um_fild04,201,200,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Defeat 100 Choco"
+	},
+	[16610] = {
+		Title = "Punishment for Choco!",
+		Description = {
+			"During the choco slicing, not even a single wild rose should be harmed. After completing the mission, report to <NAVI>[Myu]<INFO>um_fild04,201,200,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Wild Roses are prohibited"
+	},
+	[16611] = {
+		Title = "Letter Errands",
+		Description = {
+			"Giving material about the monsters attacking the Airship, Pelok asked his brother, the Airship Captain <NAVI>[Ferlock]<INFO>airplane,236,163,0,101,0</INFO></NAVI>, to deliver a letter."
+		},
+		Summary = "Talk to Ferlock"
+	},
+	[16612] = {
+		Title = "Airship Tour",
+		Description = {
+			"Now that we're done, let's take a look inside the domestic airship. It would be nice to talk to some <NAVI>[sailors]<INFO>airplane,236,63,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Hallen"
+	},
+	[16613] = {
+		Title = "Airship Tour",
+		Description = {
+			"Taking a breath, let's take a look inside the domestic airship. It would be nice to talk to some <NAVI>[sailors]<INFO>airplane,47,61,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Kain"
+	},
+	[16614] = {
+		Title = "The Principle of Injustice",
+		Description = {
+			"I heard from Captain Ferlock about the principle of how airships float. Let's go back to <NAVI>[Hallen]<INFO>airplane.gat,236,63,0,101,0</INFO></NAVI>, the flight attendant on the domestic airship, and let him know."
+		},
+		Summary = "Talk to Hallen"
+	},
+	[16615] = {
+		Title = "The Secret of Injustice",
+		Description = {
+			"Let's search thoroughly <NAVI>[in]<INFO>ein_in01,264,17,0,101,0</INFO></NAVI> the Einbroch Lab."
+		},
+		Summary = "Find the password"
+	},
+	[16616] = {
+		Title = "The Secret of Injustice",
+		Description = {
+			"Let's search thoroughly <NAVI>[in]<INFO>ein_in01,261,35,0,101,0</INFO></NAVI> the Einbroch Lab."
+		},
+		Summary = "Enter the password on the device"
+	},
+	[16617] = {
+		Title = "A misplaced past",
+		Description = {
+			"Is Kain happy? Let's ask about the well-being of <NAVI>[Kain Himere]<INFO>airplane,47,61,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Kain"
+	},
+	[16618] = {
+		Title = "Goodbye to an old friend",
+		Description = {
+			"Cain is curious about the well-being of a miner friend he knew in Einbech. If you need to go to Einbech, look for <NAVI>[Buender Hikeman]<INFO>einbech,165,105,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Buender Hikeman"
+	},
+	[16619] = {
+		Title = "Crow of Fate",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"There was a slight delay in front of the Yuno library. Let's go to <NAVI>[Library Shelf]<INFO>yuno_in04,100,5,0,101,0</INFO></NAVI> and find a book."
+		},
+		Summary = "Go to the library shelf"
+	},
+	[16620] = {
+		Title = "Crow of Fate",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"A strange illusion seen in <NAVI>[Yuno Library Shelf]<INFO>yuno_in04,100,5,0,101,0</INFO></NAVI>. I'll have to avoid anywhere in this place where there's a fire. Let's go to the end of the hallway."
+		},
+		Summary = "First Evacuation"
+	},
+	[16621] = {
+		Title = "Crow of Fate",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Where is this? I saw something in an unfamiliar place and my consciousness returned to <NAVI>[Yuno Library Shelf]<INFO>yuno_in04,100,5,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Strange Experience"
+	},
+	[16622] = {
+		Title = "Crow of Fate",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"When I told him that I knew Eva, I was guided to <NAVI>[inside the cave]<INFO>cave,22,186,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Enter the cave near Yuno"
+	},
+	[16623] = {
+		Title = "Crow of Fate",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The book <NAVI>[Traces of Destiny]<INFO>yuno_in04,168,121,0,101,0</INFO></NAVI> is said to be located on the left bookshelf of the library above Yuno Library."
+		},
+		Summary = "Go to the library shelf"
+	},
+	[16624] = {
+		Title = "Crow of Fate",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I saw another strange vision. Return the memo to the <NAVI>[author]<INFO>yuno_in04,169,123,0,101,0</INFO></NAVI> you met at the Yuno Library."
+		},
+		Summary = "Talk to the author"
+	},
+	[16625] = {
+		Title = "Crow of Fate",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I solved the question. Shall I deliver the items I don't need to Benjamin at <NAVI>[Morroc]<INFO>moc_ruins,137,70,0,101,0</INFO></NAVI>?"
+		},
+		Summary = "Talk to Benjamin"
+	},
+	[16626] = {
+		Title = "Messenger - Ark's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Found traces of a fight in a field near Splendide. The trail continues to the <NAVI>[north]<INFO>spl_fild01,341,109,0,101,0</INFO></NAVI>. Let's keep looking."
+		},
+		Summary = "Find traces of Terra."
+	},
+	[16627] = {
+		Title = "Messenger - Ark's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The traces of the fight that took place in the field near Splendide are continuing <NAVI>[toward the root of a giant tree]<INFO>spl_fild01,375,109,0,101,0</INFO></NAVI>. Let's keep looking."
+		},
+		Summary = "Find traces of Terra."
+	},
+	[16628] = {
+		Title = "Messenger - Ark's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In a field near Splendide, I fell through the roots of a huge tree, following Terra's trail. Let's go <NAVI>[inside]<INFO>nyd_dun01,60,222,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Find traces of Terra."
+	},
+	[16629] = {
+		Title = "Messenger - Whereabouts of Terra",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Find more <NAVI>[Yggdrasil Fruit]<INFO>spl_fild01,312,77,0,101,0</INFO></NAVI> in the field near Splendide."
+		},
+		Summary = "Collect Yggdrasil Fruit"
+	},
+	[16630] = {
+		Title = "Messenger - Whereabouts of Terra",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Find more <NAVI>[Yggdrasil Fruit]<INFO>spl_fild01,331,28,0,101,0</INFO></NAVI> in the field near Splendide."
+		},
+		Summary = "Collect Yggdrasil Fruit"
+	},
+	[16631] = {
+		Title = "Messenger - Whereabouts of Terra",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's go into the <NAVI>[Manuk Prison]<INFO>man_in01,17,128,0,101,0</INFO></NAVI> and find out which Laphine is imprisoned."
+		},
+		Summary = "Talk to Snorren in the prison"
+	},
+	[16632] = {
+		Title = "Messenger - Proof of Truth",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Deliver Terra's story to <NAVI>[Luik]<INFO>man_in01,19,126,0,101,0</INFO></NAVI> in Manuk Village."
+		},
+		Summary = "Talk to Luik"
+	},
+	[16633] = {
+		Title = "To Lighthalzen",
+		Description = {
+			"I met Lumin in Einbroch. Having heard that going to Lighthalzen would be a good experience, let's go to <NAVI>[Lighthalzen]<INFO>lhz_airport,138,28,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Lighthalzen"
+	},
+	[16634] = {
+		Title = "Einbroch",
+		Description = {
+			"He informed Buender Hikeman of Sinokas' death. His mood subsided a bit and he wanted to sit down and get some air. Let's go to <NAVI>[Einbroch]<INFO>einbroch,231,250,0,101,0</INFO></NAVI> by train."
+		},
+		Summary = "Go to Einbroch"
+	},
+	[16635] = {
+		Title = "Factory survey completed",
+		Description = {
+			"I looked at every nook and cranny of the factory, but somehow it only solved the factory's problems... There seems to be no clue about minerals. Let's go back to <NAVI>[Sinokas]<INFO>ein_in01,231,163,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Sinokas"
+	},
+	[16636] = {
+		Title = "Finding Clues - Jungkea's Lab",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"While no one was there, let's go into the <NAVI>[Jungkea's Lab]<INFO>jor_nest,51,152,0,101,0</INFO></NAVI> inside the Snake's Nest and explore."
+		},
+		Summary = "Explore Jungkea's Lab"
+	},
+	[16637] = {
+		Title = "Finding Clues - Baggot's Lab",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"While no one was there, let's go into the <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> in the Snake's nest while no one is there."
+		},
+		Summary = "Explore Baggot's Lab"
+	},
+	[16638] = {
+		Title = "Finding Clues - Rgan Guard",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's explore the surroundings of the <NAVI>[Rgan Guards]<INFO>jor_nest,177,176,0,101,0</INFO></NAVI> in the Snake's Nest while no one is there."
+		},
+		Summary = "Explore around the Rgan Guards"
+	},
+	[16639] = {
+		Title = "Jungkea's Lab",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the Snake's Nest, in Jungkea's lab, search the <NAVI>[Pile of Papers]<INFO>jor_nest,19,142,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Explore the pile of papers"
+	},
+	[16640] = {
+		Title = "Jungkea's Lab",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the Snake's Nest, in Jungkea's lab, search the <NAVI>[Pile of Papers]<INFO>jor_nest,21,195,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Explore the pile of papers"
+	},
+	[16641] = {
+		Title = "Baggot's Lab",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the Snake's Nest, in <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, let's go through the piles of papers."
+		},
+		Summary = "Explore the pile of papers"
+	},
+	[16642] = {
+		Title = "Baggot's Lab",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the Snake's Nest, in <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, let's go through the piles of papers."
+		},
+		Summary = "Explore the pile of papers"
+	},
+	[16643] = {
+		Title = "Rgan Guard",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Inside the Snake's Nest, there are documents that appear to be <NAVI>[books]<INFO>jor_nest,181,173,0,101,0</INFO></NAVI> around the Rgan Guards. Let's take a look."
+		},
+		Summary = "Explore the pile of papers"
+	},
+	[16644] = {
+		Title = "Rgan Guard",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's sneak peek into the conversations of the <NAVI>[Rgan Guard]<INFO>jor_nest,173,177,0,101,0</INFO></NAVI> in the Snake's Nest."
+		},
+		Summary = "Listen to the Guard's Conversation"
+	},
+	[16645] = {
+		Title = "Share the clues",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I gathered some clues. Let's go back to <NAVI>[Reiji]<INFO>jor_nest,127,207,0,101,0</INFO></NAVI> who has been transformed into a Rgan in the Snake's Nest and share the clues and opinions we have gathered."
+		},
+		Summary = "Talk to Reiji"
+	},
+	[16646] = {
+		Title = "Whispering Silently",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the snake's nest, go to Jungkea's lab and talk to <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> to build intimacy."
+		},
+		Summary = "Talk to Jungkea"
+	},
+	[16647] = {
+		Title = "Whispering Silently",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It seems that Jungkea wants to eat something sweet. Let's go back to the <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> and find a place to get sweets."
+		},
+		Summary = "Talk to the adventurer"
+	},
+	[16648] = {
+		Title = "Whispering Silently",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Inside the snake's nest, go to Jungkea's lab and deliver the ice candy to <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Jungkea"
+	},
+	[16649] = {
+		Title = "Whispering Silently",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Obtain 1 Ice Cookie from <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> or 10 <ITEM>[Rgan's Low Grade Magic Core]<INFO>1000707</INFO></ITEM> and bring them to <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> waiting in the snake's nest."
+		},
+		Summary = "Grant Jungkea's request"
+	},
+	[16650] = {
+		Title = "Whispering Silently",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Obtain 1 Ice Cookie from <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> or 10 <ITEM>[Rgan's Low Grade Magic Core]<INFO>1000707</INFO></ITEM> and bring them to <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> waiting in the snake's nest."
+		},
+		Summary = "Grant Jungkea's request again"
+	},
+	[16651] = {
+		Title = "Whispering Silently",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the Snake's Nest, in Jungkea's lab, show <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> the ledger you brought from the Rgan Guards."
+		},
+		Summary = "Talk to Jungkea"
+	},
+	[16652] = {
+		Title = "Whispering Silently",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Inside the Snake's Nest, Baggot appeared in Jungkea's laboratory. Let's do it well so that we don't get caught trying to convince <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Jungkea"
+	},
+	[16653] = {
+		Title = "Accumulating Doubts",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Return to the Ice Castle and exchange achievements with <NAVI>[Reiji]<INFO>icas_in,245,197,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Reiji"
+	},
+	[16654] = {
+		Title = "Accumulating Doubts",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's keep talking with Reiji and <NAVI>[Miriam]<INFO>icas_in,249,199,0,101,0</INFO></NAVI> at the Ice Castle."
+		},
+		Summary = "Talk to Miriam"
+	},
+	[16655] = {
+		Title = "Intermittent difference",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I decided to get things done faster. In the Snake's Nest, go to <NAVI>[Jungkea's Lab]<INFO>jor_nest,19,190,0,101,0</INFO></NAVI> and convince Jungkea."
+		},
+		Summary = "Visit Jungkea's lab"
+	},
+	[16656] = {
+		Title = "Intermittent difference",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Inside the Snake's Nest Jungkea's lab, liquid is pouring around the unseen box. Let's find the <NAVI>[courage]<INFO>jor_nest,20,194,0,101,0</INFO></NAVI> to move on."
+		},
+		Summary = "Obtain the Jungkea's Test Tube"
+	},
+	[16657] = {
+		Title = "Intermittent difference",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Inside the Snake's Nest Jungkea's laboratory, a small amount of liquid was transferred to an empty test tube around the <NAVI>[box]<INFO>jor_nest,19,190,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Red Liquid Test Tube"
+	},
+	[16658] = {
+		Title = "Intermittent difference",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"While trying to sneak out from the snake's nest Jungkea's laboratory, I was caught by a strange <NAVI>[Rgan]<INFO>jor_nest,24,185,0,101,0</INFO></NAVI>. It has something to say, so let's hear it."
+		},
+		Summary = "Talk to the Rgan"
+	},
+	[16659] = {
+		Title = "Intermittent difference",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It is said that Jungkea is waiting in the <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> in the Snake's Nest."
+		},
+		Summary = "Talk to Jungkea"
+	},
+	[16660] = {
+		Title = "Intermittent difference",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the Snake's Nest, talk to Jungkea in <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Jungkea"
+	},
+	[16661] = {
+		Title = "Intermittent difference",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Take Jung Kea, who has lost her mind by turning into a monster, and go back to the village and talk to <NAVI>[Horr]<INFO>icecastle,27,126,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Return to Town"
+	},
+	[16662] = {
+		Title = "Simulation Battle",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"If you talk to <NAVI>[Aroon]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> waiting in front of the Snake's Nest, Baggot's lab, you can battle Jungkea, a simulation created based on Jungkea's virtual data."
+		},
+		Summary = "Talk to the adventurer"
+	},
+	[16663] = {
+		Title = "(Standby) Simulation Battle",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After defeating the Simulation Jungkea, take a rest for the day or so. After getting enough rest, you can return to the Snake Nest's <NAVI>[Aroon]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> waiting in front of Baggot's lab to fight again."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16664] = {
+		Title = "Elena Volkova, the Great Flame - First Reading",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I started reading \'Elena Volkova, the Great Flame\' of the <NAVI>[Fantasy Book]<INFO>prt_elib,54,53,0,101,0</INFO></NAVI> for the first time. Read all and meet the Table of Contents Fairy Ink."
+		},
+		Summary = "Complete the first reading of the Fantasy Book"
+	},
+	[16665] = {
+		Title = "(Standby) Elena Volkova, the Great Flame",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"\'Elena Volkova, the Great Flame\' of the <NAVI>[Fantasy Book]<INFO>prt_elib,54,53,0,101,0</INFO></NAVI> can only be read once a day. Let's wait a little longer."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16666] = {
+		Title = "Elena Volkova, the Great Flame",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I started reading \'Elena Volkova, the Great Flame\' of the <NAVI>[Fantasy Book]<INFO>prt_elib,54,53,0,101,0</INFO></NAVI> for the first time. Read all and meet the Table of Contents Fairy Ink."
+		},
+		Summary = "Complete the first book of the Fantasy Book"
+	},
+	[16667] = {
+		Title = "Raw Rice - First Reading",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I started reading \'Raw Rice\' of the <NAVI>[Fantasy Book]<INFO>prt_elib,59,45,0,101,0</INFO></NAVI> for the first time. Read all and meet the Table of Contents Fairy Ink."
+		},
+		Summary = "Complete the first reading of the Fantasy Book"
+	},
+	[16668] = {
+		Title = "(Standby) Raw Rice",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"\'Raw Rice\' of the <NAVI>[Fantasy Book]<INFO>prt_elib,59,45,0,101,0</INFO></NAVI> can only be read once a day. Let's wait a little longer."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16669] = {
+		Title = "Raw Rice - Ink in the Book",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I started reading \'Raw Rice\' of the Fantasy Book. Let's talk with <NAVI>[Ink]<INFO>vr_bob,293,202,0,101,0</INFO></NAVI> in the Fantasy Book."
+		},
+		Summary = "Talk with Ink"
+	},
+	[16670] = {
+		Title = "Raw Rice - Seyren Windsor Strange Midday",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"<NAVI>[Seyren Windsor]<INFO>vr_bob,296,200,0,101,0</INFO></NAVI> of the Fantasy Book is watching from his side."
+		},
+		Summary = "Talk to Seyren Windsor"
+	},
+	[16671] = {
+		Title = "Raw Rice - Two people on the beach",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Let's meet <NAVI>[Margaretha Sorin]<INFO>vr_bob,146,293,0,101,0</INFO></NAVI> and Kathryne Keyron at the beach in the Fantasy Book and ask for the lunch menu."
+		},
+		Summary = "Talk to Margaretha Sorin"
+	},
+	[16672] = {
+		Title = "Raw Rice - Margaretha Sorin",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Ask <NAVI>[Margaretha Sorin]<INFO>vr_bob,146,293,0,101,0</INFO></NAVI> a question at the beach in the Fantasy Book."
+		},
+		Summary = "Talk to Margaretha Sorin."
+	},
+	[16673] = {
+		Title = "Raw Rice - Kathryne Keyron",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Ask <NAVI>[Kathryne Keyron]<INFO>vr_bob,149,290,0,101,0</INFO></NAVI> a question at the beach in the Fantasy Book."
+		},
+		Summary = "Talk to Kathryne Keyron"
+	},
+	[16674] = {
+		Title = "Raw Rice - Lunch Menu",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Deliver your wishes to <NAVI>[Seyren Windsor]<INFO>vr_bob,144,289,0,101,0</INFO></NAVI> who appears on the beach in the Fantasy Book."
+		},
+		Summary = "Talk to Seyren Windsor"
+	},
+	[16675] = {
+		Title = "Raw Rice - Bet Hunt",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"We decided to directly procure fresh lunch ingredients from the beach in the Fantasy Book. Let's go to <NAVI>[Kathryne Keyron]<INFO>vr_bob,149,290,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Kathryne Keyron"
+	},
+	[16676] = {
+		Title = "Raw Rice - Catching Crabs and Clams",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Hunt five crabs and ten clams on the beach in the Fantasy Book and go to <NAVI>[Kathryne Keyron]<INFO>vr_bob,149,290,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Kathryne Keyron"
+	},
+	[16677] = {
+		Title = "Raw Rice - Match the hunting time",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"After hunting on the beach in the Fantasy Book for the first time, it might be a good thing if you go to <NAVI>[Kathryne Keyron]<INFO>vr_bob,149,290,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Kathryne Keyron"
+	},
+	[16678] = {
+		Title = "Raw Rice - Bet Result",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I won a bet with Kathryne Keyron in the Fantasy Series. Could something good happen?"
+		},
+		Summary = "Bet won"
+	},
+	[16679] = {
+		Title = "Raw Rice - Prepare for lunch",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Deliver the caught seafood to <NAVI>[Seyren Windsor]<INFO>vr_bob,295,209,0,101,0</INFO></NAVI>, who is preparing lunch at the dormitory in the Fantasy Book."
+		},
+		Summary = "Talk to Seyren Windsor"
+	},
+	[16680] = {
+		Title = "Raw Rice - Grilled Crab",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"She was assigned a mission by Seyren Windsor in the Fantasy Book. Let's grill crabs with Margaretha Sorin in the <NAVI>[oven]<INFO>vr_bob,290,209,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Cooking in the Fire Pit"
+	},
+	[16681] = {
+		Title = "Raw Rice - Crab Delivery",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Bring the well-roasted crabs and shelled crab meat to <NAVI>[Seyren Windsor]<INFO>vr_bob,295,209,0,101,0</INFO></NAVI> in the Fantasy Book."
+		},
+		Summary = "Talk to Seyren Windsor"
+	},
+	[16682] = {
+		Title = "Raw Rice - Condiment Delivery",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Another mission was assigned to me by Seyren Windsor in the Fantasy Book. Bring tomato paste and paprika powder from <NAVI>[Cupboard]<INFO>vr_bob,302,210,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Look at the Cupboard"
+	},
+	[16683] = {
+		Title = "Raw Rice - Is this seasoning?",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I took the spices out of the cupboard."
+		},
+		Summary = "Get the seasoning"
+	},
+	[16684] = {
+		Title = "Raw Rice - Is this seasoning?",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I took the spices out of the cupboard."
+		},
+		Summary = "Get the seasoning"
+	},
+	[16685] = {
+		Title = "Raw Rice - Is this seasoning?",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I took the spices out of the cupboard."
+		},
+		Summary = "Get the seasoning"
+	},
+	[16686] = {
+		Title = "Raw Rice - Is this seasoning?",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I took the spices out of the cupboard."
+		},
+		Summary = "Get the seasoning"
+	},
+	[16687] = {
+		Title = "Raw Rice - Cooking Completion",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Excellent crab bisque soup is ready. Take it to an outdoor table and join <NAVI>[Kathryne Keyron]<INFO>vr_bob,291,195,0,101,0</INFO></NAVI>, Margaretha Sorin and Seyren Windsor."
+		},
+		Summary = "Talk to Kathryne Keyron"
+	},
+	[16688] = {
+		Title = "Raw Rice - Finished Meal",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"The meal ended satisfactorily. <NAVI>[Margaretha Sorin]<INFO>vr_bob,294,196,0,101,0</INFO></NAVI> volunteered to clean up the mess."
+		},
+		Summary = "Talk to Margaretha Sorin"
+	},
+	[16689] = {
+		Title = "Raw Rice - The End of the Story",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"After dinner, it's time to wrap up the short story. Speak with <NAVI>[Seyren Windsor]<INFO>vr_bob,290,198,0,101,0</INFO></NAVI> to prepare to close the book."
+		},
+		Summary = "Talk to Seyren Windsor"
+	},
+	[16690] = {
+		Title = "Raw Rice - Complete",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I finished reading. Talk to <NAVI>[Ink]<INFO>vr_bob,293,202,0,101,0</INFO></NAVI> to receive a reward and close the book."
+		},
+		Summary = "Talk with Ink"
 	},
 	-- Note: These quests from iRO are different from kRO's (They're used on Cat Pub quests)
 	[17000] = {
@@ -54725,7 +56368,7 @@ QuestInfoList = {
 		Title = "그림자의 호출",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"어쌔신길드 베인스 지부에서 만난 루민은 길드에서 선별한 실력자가 필요한 일이 있다며 베인스 동쪽의 안가에서 베르카셀을 만나라고 한다. 최소한의 실력 검증을 위해 '베인스 동쪽 어귀의 안가'까지는 알아서 찾아갈 것."
+			"어쌔신길드 베인스 지부에서 만난 루민은 길드에서 선별한 실력자가 필John 일이 있다며 베인스 동쪽의 안가에서 베르카셀을 만나라고 한다. 최소한의 실력 검증을 위해 '베인스 동쪽 어귀의 안가'까지는 알아서 찾아갈 것."
 		},
 		Summary = "베르카셀과 대화"
 	},
@@ -55036,7 +56679,7 @@ QuestInfoList = {
 		Title = "꽃이 피어난 대지 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55053,7 +56696,7 @@ QuestInfoList = {
 		Title = "대욕장 메디타티오 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55070,7 +56713,7 @@ QuestInfoList = {
 		Title = "Library 기억의 회랑 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55087,7 +56730,7 @@ QuestInfoList = {
 		Title = "하수처리장 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55104,7 +56747,7 @@ QuestInfoList = {
 		Title = "제 1 마력발전소 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55121,7 +56764,7 @@ QuestInfoList = {
 		Title = "용의 둥지 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55138,7 +56781,7 @@ QuestInfoList = {
 		Title = "비프로스트 탑 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55155,7 +56798,7 @@ QuestInfoList = {
 		Title = "용의 둥지 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55172,7 +56815,7 @@ QuestInfoList = {
 		Title = "프론테라 지하감옥 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55189,7 +56832,7 @@ QuestInfoList = {
 		Title = "침공당한 프론테라 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55206,7 +56849,7 @@ QuestInfoList = {
 		Title = "락 릿지 광산 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55223,7 +56866,7 @@ QuestInfoList = {
 		Title = "2층 회랑 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55240,7 +56883,7 @@ QuestInfoList = {
 		Title = "지하 벙커 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55257,7 +56900,7 @@ QuestInfoList = {
 		Title = "실험동-OPTATIO (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55274,7 +56917,7 @@ QuestInfoList = {
 		Title = "뒤틀린 시간의 시계탑 2층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55291,7 +56934,7 @@ QuestInfoList = {
 		Title = "사육장 로스트밸리 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55308,7 +56951,7 @@ QuestInfoList = {
 		Title = "뒤틀린 시간의 시계탑 3층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55325,7 +56968,7 @@ QuestInfoList = {
 		Title = "오즈협곡과 이다평원 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55342,7 +56985,7 @@ QuestInfoList = {
 		Title = "폐기실험체 유기장 루두스 2층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55359,7 +57002,7 @@ QuestInfoList = {
 		Title = "유페로스 동쪽폐허 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55376,7 +57019,7 @@ QuestInfoList = {
 		Title = "베루스 시티 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55393,7 +57036,7 @@ QuestInfoList = {
 		Title = "저장고 타르타로스 상층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55410,7 +57053,7 @@ QuestInfoList = {
 		Title = "Oz Labyrinth 1st Floor (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55427,7 +57070,7 @@ QuestInfoList = {
 		Title = "폐기실험체 유기장 루두스 3층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55444,7 +57087,7 @@ QuestInfoList = {
 		Title = "유노 노그로드 3층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55461,7 +57104,7 @@ QuestInfoList = {
 		Title = "저장고 타르타로스 하층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55478,7 +57121,7 @@ QuestInfoList = {
 		Title = "글래스트헤임 어비스 1층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55495,7 +57138,7 @@ QuestInfoList = {
 		Title = "회색늑대의 숲 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55512,7 +57155,7 @@ QuestInfoList = {
 		Title = "회색늑대의 숲 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55529,7 +57172,7 @@ QuestInfoList = {
 		Title = "아인베흐 광산 3층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55546,7 +57189,7 @@ QuestInfoList = {
 		Title = "고대 오딘 신전 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55563,7 +57206,7 @@ QuestInfoList = {
 		Title = "휘겔 어비스 호수 지하 동굴 4층 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -55580,7 +57223,7 @@ QuestInfoList = {
 		Title = "제 2 마력발전소 (Standby)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판을 통해 퀘스트 수주가 가능합니다."
+			"This quest is a daily quest, and you can receive it again when the waiting time expires. 낙원단 상급의뢰게시판."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -57240,7 +58883,7 @@ QuestInfoList = {
 		Summary = "1 field shovel"
 	},
 	[21205] = {
-		Title = "I can't sleep.",
+		Title = "Clearing Firewind Kites.",
 		Description = {
 			"Lumin's request to live in the Thieves Guild. Guild members are uncomfortable because of the beret and minus that live in the basement of the guild. Let's get rid of the beret and minus."
 		},
@@ -58639,7 +60282,7 @@ QuestInfoList = {
 	[21402] = {
 		Title = "Cosecera",
 		Description = {
-			"Let's ask Serabi on the southern coast of Komodo about Kocerasera."
+			"Let's ask Serabi on the southern coast of Comodo about Kocerasera."
 		},
 		Summary = "Talk to Serrabi"
 	},
@@ -59004,7 +60647,7 @@ QuestInfoList = {
 	[21507] = {
 		Title = "Hunting Boss Muka",
 		Description = {
-			"Hunt a boss Muka in a field southwest of Izurud and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
+			"Hunt a boss Muka in a field southwest of Izlude and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Defeat 1 Boss Muka"
 	},
@@ -59094,7 +60737,7 @@ QuestInfoList = {
 	[21519] = {
 		Title = "Hunting White Lotus",
 		Description = {
-			"Hunt a white lotus in the southwestern field of Izurud, and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
+			"Hunt a white lotus in the southwestern field of Izlude, and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Destroy 1 floating white lotus"
 	},
@@ -59199,7 +60842,7 @@ QuestInfoList = {
 	[21533] = {
 		Title = "Quick Perseal Hunt",
 		Description = {
-			"Hunt a quick perseal in a field southeast of Komodo, and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
+			"Hunt a quick perseal in a field southeast of Comodo, and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Quick 1 perseal"
 	},
@@ -59229,7 +60872,7 @@ QuestInfoList = {
 	[21537] = {
 		Title = "Hard Alligator Hunting",
 		Description = {
-			"Hunt a sturdy alligator in the eastern field of Komodo, and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
+			"Hunt a sturdy alligator in the eastern field of Comodo, and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Defeat 1 strong alligator"
 	},
@@ -59259,7 +60902,7 @@ QuestInfoList = {
 	[21541] = {
 		Title = "Quick Dryad Hunting",
 		Description = {
-			"Hunt a quick dryad in the northwest field of Komodo, and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
+			"Hunt a quick dryad in the northwest field of Comodo, and report it to the faithful <NAVI>Sogil<INFO>moc_para01,18,35,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Quick 1 Dryad"
 	},
@@ -59835,11 +61478,11 @@ QuestInfoList = {
 		Summary = "Two Margareta Sorin"
 	},
 	[21619] = {
-		Title = "Siren Windsor",
+		Title = "Seyren Windsor",
 		Description = {
-			"From <NAVI>Biological Research Lab<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI>, rest for Siren Windsor"
+			"From <NAVI>Biological Research Lab<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI>, rest for Seyren Windsor"
 		},
-		Summary = "2 Siren Windsor"
+		Summary = "2 Seyren Windsor"
 	},
 	[21620] = {
 		Title = "Saren Windsor (Standby)",
@@ -59850,11 +61493,11 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[21621] = {
-		Title = "Again Siren Windsor",
+		Title = "Again Seyren Windsor",
 		Description = {
-			"From <NAVI>Biological Research Lab<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI>, rest for Siren Windsor"
+			"From <NAVI>Biological Research Lab<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI>, rest for Seyren Windsor"
 		},
-		Summary = "2 Siren Windsor"
+		Summary = "2 Seyren Windsor"
 	},
 	[21622] = {
 		Title = "Eremes Gail",
@@ -61631,7 +63274,7 @@ QuestInfoList = {
 	[21909] = {
 		Title = "What you can do with jellopy",
 		Description = {
-			"The archer <NAVI>Malbron<INFO>izlude,115,103,0,101,0</INFO></NAVI> I met at Izurud wants to get 3 'jellopy' as a material to use in the skill of splitting the arrow. 'Jelophy' can be obtained through 'Foring'."
+			"The archer <NAVI>Malbron<INFO>izlude,115,103,0,101,0</INFO></NAVI> I met at Izlude wants to get 3 'jellopy' as a material to use in the skill of splitting the arrow. 'Jelophy' can be obtained through 'Foring'."
 		},
 		Summary = "Deliver 3 Jellopy to Malbron"
 	},
