@@ -1,5 +1,6 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
 tblLapineUpgradeBox = {
@@ -6100,14 +6101,14 @@ tblLapineUpgradeBox = {
 				return false, msg
 			end
 		end
-		for ScrollItemID, info in pairs(tblLapineUpgradeBox_CLS.targets) do
-			result, msg = registerLapineUpgradeBoxTargetInfo(info.TargetItems, info.NotSocketEnchantItem, info.NeedOptionNumMin, info.NeedRefineMin, ScrollItemID)
+		for ScrollItemID, info in pairs(tblLapineUpgradeBox.results) do
+			result, msg = registerLapineUpgradeBoxResultInfo(info.FailureItems, info.RefineProbability, info.RandomOptionCode, info.SuccessRate, ScrollItemID)
 			if not result then
 				return false, msg
 			end
 		end
-		for ScrollItemID, info in pairs(tblLapineUpgradeBox.results) do
-			result, msg = registerLapineUpgradeBoxResultInfo(info.FailureItems, info.RefineProbability, info.RandomOptionCode, info.SuccessRate, ScrollItemID)
+		for ScrollItemID, info in pairs(tblLapineUpgradeBox_CLS.targets) do
+			result, msg = registerLapineUpgradeBoxTargetInfo(info.TargetItems, info.NotSocketEnchantItem, info.NeedOptionNumMin, info.NeedRefineMin, ScrollItemID)
 			if not result then
 				return false, msg
 			end
@@ -6141,24 +6142,10 @@ tblLapineUpgradeBox = {
 		if nil ~= box then
 			return box.NeedRefineMin
 		end
-		if tblLapineUpgradeBox_CLS.targets == nil then
-			return 0
-		end
-		local box = tblLapineUpgradeBox_CLS.get_lapine_box(in_box_id)
-		if nil ~= box then
-			return box.NeedRefineMin
-		end
 		return 0
 	end,
 	get_max_need_refine = function(in_box_id)
 		local box = tblLapineUpgradeBox.get_lapine_box(in_box_id)
-		if nil ~= box and box.NeedRefineMax ~= nil then
-			return box.NeedRefineMax
-		end
-		if tblLapineUpgradeBox_CLS.targets == nil then
-			return 20
-		end
-		local box = tblLapineUpgradeBox_CLS.get_lapine_box(in_box_id)
 		if nil ~= box and box.NeedRefineMax ~= nil then
 			return box.NeedRefineMax
 		end
@@ -6169,13 +6156,6 @@ tblLapineUpgradeBox = {
 		if nil ~= box then
 			return box.NeedOptionNumMin
 		end
-		if tblLapineUpgradeBox_CLS.targets == nil then
-			return 0
-		end
-		local box = tblLapineUpgradeBox_CLS.get_lapine_box(in_box_id)
-		if nil ~= box then
-			return box.NeedOptionNumMin
-		end
 		return 0
 	end,
 	get_need_source_string = function(in_box_id)
@@ -6183,26 +6163,10 @@ tblLapineUpgradeBox = {
 		if nil ~= box then
 			return box.NeedSource_String
 		end
-		if tblLapineUpgradeBox_CLS.targets == nil then
-			return 0
-		end
-		local box = tblLapineUpgradeBox_CLS.get_lapine_box(in_box_id)
-		if nil ~= box then
-			return box.NeedSource_String
-		end
 		return 0
 	end,
 	set_resource_item_list = function(in_box_id)
 		local box = tblLapineUpgradeBox.get_lapine_box(in_box_id)
-		if nil ~= box then
-			for k, v in pairs(box.TargetItems) do
-				add_ingredient_lapine_upgrade_box(v[2])
-			end
-		end
-		if tblLapineUpgradeBox_CLS.targets == nil then
-			return nil
-		end
-		local box = tblLapineUpgradeBox_CLS.get_lapine_box(in_box_id)
 		if nil ~= box then
 			for k, v in pairs(box.TargetItems) do
 				add_ingredient_lapine_upgrade_box(v[2])

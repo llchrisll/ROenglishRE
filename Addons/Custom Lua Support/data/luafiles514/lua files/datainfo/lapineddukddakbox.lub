@@ -1,5 +1,6 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
 tblLapineDdukddakBox = {
@@ -5216,24 +5217,10 @@ tblLapineDdukddakBox = {
 		if nil ~= box then
 			return box.NeedCount
 		end
-		if tblLapineDdukddakBox_CLS.sources == nil then
-			return 0
-		end
-		local box = tblLapineDdukddakBox_CLS.get_lapine_box(in_box_id)
-		if nil ~= box then
-			return box.NeedCount
-		end
 		return 0
 	end,
 	get_min_need_refine = function(in_box_id)
 		local box = tblLapineDdukddakBox.get_lapine_box(in_box_id)
-		if nil ~= box then
-			return box.NeedRefineMin
-		end
-		if tblLapineDdukddakBox_CLS.sources == nil then
-			return 0
-		end
-		local box = tblLapineDdukddakBox_CLS.get_lapine_box(in_box_id)
 		if nil ~= box then
 			return box.NeedRefineMin
 		end
@@ -5244,13 +5231,6 @@ tblLapineDdukddakBox = {
 		if nil ~= box and box.NeedRefineMax ~= nil then
 			return box.NeedRefineMax
 		end
-		if tblLapineDdukddakBox_CLS.sources == nil then
-			return 20
-		end
-		local box = tblLapineDdukddakBox_CLS.get_lapine_box(in_box_id)
-		if nil ~= box and box.NeedRefineMax ~= nil then
-			return box.NeedRefineMax
-		end
 		return 20
 	end,
 	get_need_source_string = function(in_box_id)
@@ -5258,26 +5238,10 @@ tblLapineDdukddakBox = {
 		if nil ~= box then
 			return box.NeedSource_String
 		end
-		if tblLapineDdukddakBox_CLS.sources == nil then
-			return 0
-		end
-		local box = tblLapineDdukddakBox_CLS.get_lapine_box(in_box_id)
-		if nil ~= box then
-			return box.NeedSource_String
-		end
 		return 0
 	end,
 	set_resource_item_list = function(in_box_id)
 		local box = tblLapineDdukddakBox.get_lapine_box(in_box_id)
-		if nil ~= box then
-			for k, v in pairs(box.SourceItems) do
-				add_ingredient(v[3], v[2])
-			end
-		end
-		if tblLapineDdukddakBox_CLS.sources == nil then
-			return nil
-		end
-		local box = tblLapineDdukddakBox_CLS.get_lapine_box(in_box_id)
 		if nil ~= box then
 			for k, v in pairs(box.SourceItems) do
 				add_ingredient(v[3], v[2])

@@ -1,5 +1,6 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
 tblLapineDdukddakBox_CLS = {
@@ -11,7 +12,7 @@ tblLapineDdukddakBox_CLS = {
 			NeedRefineMin -- Required minimum Refine Level of each
 			NeedRefineMax -- Required maximum Refine Level of each
 			SourceItems = { -- List of possible materials
-				{ "Either File Name, Item DB Entry or just a item name for overview", <Min amount per exchange>, <Item ID> }
+				{ "Item Name for Overview", <Min amount per exchange>, <Item ID> }
 			},
 			NeedSource_String -- "Text Display of required items"
 		}
@@ -22,9 +23,7 @@ tblLapineDdukddakBox_CLS = {
 			NeedRefineMin = 7,
 			NeedRefineMax = 10,
 			SourceItems = {
-				{ "SimpleItemDisplay", 1, 35000 },
-				{ "SimpleItemDisplay", 1, 35001 },
-				{ "SimpleItemDisplay", 1, 35002 }
+				{ "OverviewName", 1, 35000 }
 			},
 			NeedSource_String = "Test Text"
 		}

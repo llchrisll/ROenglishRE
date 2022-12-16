@@ -1,5 +1,6 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
 tblLapineUpgradeBox_CLS = {
@@ -10,9 +11,9 @@ tblLapineUpgradeBox_CLS = {
 			NeedRefineMin -- Required minimum Refine Level of each
 			NeedRefineMax -- Required maximum Refine Level of each
 			NeedOptionNumMin = 0, -- Required amount of Random Options
-			NotSocketEnchantItem = false, -- Needs to be enchanted or not
+			NotSocketEnchantItem = false, -- Enchantments/Cards allowed? true = no, false = yes
 			TargetItems = { -- List of possible items
-				{ "Either File Name, Item DB Entry or just a item name for overview", <Item ID> }
+				{ "Item Name for Overview", <Item ID> }
 			},
 			NeedSource_String -- "Text Display of possible items"
 		}
@@ -24,7 +25,7 @@ tblLapineUpgradeBox_CLS = {
 			NeedOptionNumMin = 0,
 			NotSocketEnchantItem = false,
 			TargetItems = {
-				{ "SimpleItemDisplay", 35000 }
+				{ "OverviewName", 35000 }
 			},
 			NeedSource_String = "Test Text"
 		}
