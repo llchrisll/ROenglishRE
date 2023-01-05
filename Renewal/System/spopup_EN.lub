@@ -1,0 +1,38 @@
+SPUI_IDS = {
+	SPU_CHAT = 0,
+	SPU_FLOATING = 1,
+	SPU_FLOATING_CHAT = 2
+}
+popuptbl = {
+	[1] = {
+		uitype = SPUI_IDS.SPU_CHAT,
+		textcolor = 16763904,
+		Description = {
+			"This is an area where PVP rules exclusive to Herosria Siege are applied.",
+			"The power of some skills and items may be adjusted, or functions and uses may be limited."
+		}
+	},
+	[2] = {
+		uitype = SPUI_IDS.SPU_FLOATING_CHAT,
+		textcolor = 16763904,
+		Description = {
+			"This is an area where PVP rules exclusive to Herosria Siege are applied.",
+			"The power of some skills and items may be adjusted, or functions and uses may be limited."
+		}
+	}
+}
+function main()
+	for ppID,PPDESC in pairs(popuptbl) do
+		result = AddMsg(ppID, PPDESC.uitype, PPDESC.textcolor)
+		if not result then
+			return false, msg
+		end
+		for k,v in pairs(PPDESC.Description) do
+			result = AddDesc(ppID, v)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	return true, "good"
+end

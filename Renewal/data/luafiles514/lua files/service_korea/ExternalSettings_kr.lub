@@ -17,10 +17,11 @@ MaxLevelTable = {
 	JobLevelDoram = 60
 }
 MakeableRace = { Doram = true }
+-- Change the "AssistAddr" to your IP
 AssistAddr = "0.0.0.0:3000"
 -----------------------------------------
 -- Old client compatibility [Secret]
--- (Just change the "AssistAddr" to your IP)
+-- DON'T TOUCH ANYTHING BELOW
 -----------------------------------------
 Url = { TwitterUrl = 'http://'..AssistAddr }
 AccountLinkedUserDataUrl = {

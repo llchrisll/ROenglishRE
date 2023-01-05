@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/zackdreaver/ROenglishRE
--- Last updated: 20221108
+-- Last updated: 20230105
 -- ToDo: Globalize `[Standby]` instead of anything else for cooldown quests, will be done when I sync all of them.
 
 QuestInfoList = {}
@@ -15665,7 +15665,7 @@ QuestInfoList = {
 			"Do not overwork. When you're done with one task, get plenty of rest!",
 			" ",
 			"If you want to do the next job after the waiting time,",
-			"go to <NAVI>[President Mezai]<INFO>rachel,70,135,0,101,0</INFO></NAVI>을 찾아가보자."
+			"go to <NAVI>[President Mezai]<INFO>rachel,70,135,0,101,0</INFO></NAVI>을 찾아가보me."
 		},
 		Summary = "Resets at 04:00"
 	},
@@ -16012,7 +16012,7 @@ QuestInfoList = {
 		Description = {
 			"Together with the Eagle Patrol.",
 			"Finished patrolling Frozen Scale Hill.",
-			"If you want to participate in the patrol tomorrow, go to the <NAVI>[Guard Captain]<INFO>icecastle,23,115,0,101,0</INFO></NAVI>을 찾아가자."
+			"If you want to participate in the patrol tomorrow, go to the <NAVI>[Guard Captain]<INFO>icecastle,23,115,0,101,0</INFO></NAVI>을 찾아가me."
 		},
 		Summary = "Resets at 04:00"
 	},
@@ -52374,7 +52374,7 @@ QuestInfoList = {
 		Title = "Data Backup",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Daily maintenance of the chip is required. Let's go to the Secret Wings <NAVI>[Researcher]<INFO>sp_rudus4,192,204,0,101,0</INFO></NAVI>에게 찾아가 보자."
+			"Daily maintenance of the chip is required. Let's go to the Secret Wings <NAVI>[Researcher]<INFO>sp_rudus4,192,204,0,101,0</INFO></NAVI>에게 찾아가 보me."
 		},
 		Summary = "Talk with the Researcher"
 	},
@@ -53373,20 +53373,20 @@ QuestInfoList = {
 		Summary = "Talk to Sinokas"
 	},
 	[16636] = {
-		Title = "Finding Clues - Jungkea's Lab",
+		Title = "Finding Clues - Juncea's Lab",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"While no one was there, let's go into the <NAVI>[Jungkea's Lab]<INFO>jor_nest,51,152,0,101,0</INFO></NAVI> inside the Snake's Nest and explore."
+			"While no one was there, let's go into the <NAVI>[Juncea's Lab]<INFO>jor_nest,51,152,0,101,0</INFO></NAVI> inside the Snake's Nest and explore."
 		},
-		Summary = "Explore Jungkea's Lab"
+		Summary = "Explore Juncea's Lab"
 	},
 	[16637] = {
-		Title = "Finding Clues - Baggot's Lab",
+		Title = "Finding Clues - Bagot's Lab",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"While no one was there, let's go into the <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> in the Snake's nest while no one is there."
+			"While no one was there, let's go into the <NAVI>[Bagot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> in the Snake's nest while no one is there."
 		},
-		Summary = "Explore Baggot's Lab"
+		Summary = "Explore Bagot's Lab"
 	},
 	[16638] = {
 		Title = "Finding Clues - Rgan Guard",
@@ -53397,34 +53397,34 @@ QuestInfoList = {
 		Summary = "Explore around the Rgan Guards"
 	},
 	[16639] = {
-		Title = "Jungkea's Lab",
+		Title = "Juncea's Lab",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"In the Snake's Nest, in Jungkea's lab, search the <NAVI>[Pile of Papers]<INFO>jor_nest,19,142,0,101,0</INFO></NAVI>."
+			"In the Snake's Nest, in Juncea's lab, search the <NAVI>[Pile of Papers]<INFO>jor_nest,19,142,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Explore the pile of papers"
 	},
 	[16640] = {
-		Title = "Jungkea's Lab",
+		Title = "Juncea's Lab",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"In the Snake's Nest, in Jungkea's lab, search the <NAVI>[Pile of Papers]<INFO>jor_nest,21,195,0,101,0</INFO></NAVI>."
+			"In the Snake's Nest, in Juncea's lab, search the <NAVI>[Pile of Papers]<INFO>jor_nest,21,195,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Explore the pile of papers"
 	},
 	[16641] = {
-		Title = "Baggot's Lab",
+		Title = "Bagot's Lab",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"In the Snake's Nest, in <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, let's go through the piles of papers."
+			"In the Snake's Nest, in <NAVI>[Bagot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, let's go through the piles of papers."
 		},
 		Summary = "Explore the pile of papers"
 	},
 	[16642] = {
-		Title = "Baggot's Lab",
+		Title = "Bagot's Lab",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"In the Snake's Nest, in <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, let's go through the piles of papers."
+			"In the Snake's Nest, in <NAVI>[Bagot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, let's go through the piles of papers."
 		},
 		Summary = "Explore the pile of papers"
 	},
@@ -53456,15 +53456,15 @@ QuestInfoList = {
 		Title = "Whispering Silently",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"In the snake's nest, go to Jungkea's lab and talk to <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> to build intimacy."
+			"In the snake's nest, go to Juncea's lab and talk to <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> to build intimacy."
 		},
-		Summary = "Talk to Jungkea"
+		Summary = "Talk to Juncea"
 	},
 	[16647] = {
 		Title = "Whispering Silently",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"It seems that Jungkea wants to eat something sweet. Let's go back to the <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> and find a place to get sweets."
+			"It seems that Juncea wants to eat something sweet. Let's go back to the <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> and find a place to get sweets."
 		},
 		Summary = "Talk to the adventurer"
 	},
@@ -53472,41 +53472,41 @@ QuestInfoList = {
 		Title = "Whispering Silently",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Inside the snake's nest, go to Jungkea's lab and deliver the ice candy to <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>."
+			"Inside the snake's nest, go to Juncea's lab and deliver the ice candy to <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk to Jungkea"
+		Summary = "Talk to Juncea"
 	},
 	[16649] = {
 		Title = "Whispering Silently",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Obtain 1 Ice Cookie from <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> or 10 <ITEM>[Rgan's Low Grade Magic Core]<INFO>1000707</INFO></ITEM> and bring them to <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> waiting in the snake's nest."
+			"Obtain 1 Ice Cookie from <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> or 10 <ITEM>[Rgan's Low Grade Magic Core]<INFO>1000707</INFO></ITEM> and bring them to <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> waiting in the snake's nest."
 		},
-		Summary = "Grant Jungkea's request"
+		Summary = "Grant Juncea's request"
 	},
 	[16650] = {
 		Title = "Whispering Silently",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Obtain 1 Ice Cookie from <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> or 10 <ITEM>[Rgan's Low Grade Magic Core]<INFO>1000707</INFO></ITEM> and bring them to <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> waiting in the snake's nest."
+			"Obtain 1 Ice Cookie from <NAVI>[Ice Castle]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> or 10 <ITEM>[Rgan's Low Grade Magic Core]<INFO>1000707</INFO></ITEM> and bring them to <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> waiting in the snake's nest."
 		},
-		Summary = "Grant Jungkea's request again"
+		Summary = "Grant Juncea's request again"
 	},
 	[16651] = {
 		Title = "Whispering Silently",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"In the Snake's Nest, in Jungkea's lab, show <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> the ledger you brought from the Rgan Guards."
+			"In the Snake's Nest, in Juncea's lab, show <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> the ledger you brought from the Rgan Guards."
 		},
-		Summary = "Talk to Jungkea"
+		Summary = "Talk to Juncea"
 	},
 	[16652] = {
 		Title = "Whispering Silently",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Inside the Snake's Nest, Baggot appeared in Jungkea's laboratory. Let's do it well so that we don't get caught trying to convince <NAVI>[Jungkea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>."
+			"Inside the Snake's Nest, Bagot appeared in Juncea's laboratory. Let's do it well so that we don't get caught trying to convince <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk to Jungkea"
+		Summary = "Talk to Juncea"
 	},
 	[16653] = {
 		Title = "Accumulating Doubts",
@@ -53528,23 +53528,23 @@ QuestInfoList = {
 		Title = "Intermittent difference",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"I decided to get things done faster. In the Snake's Nest, go to <NAVI>[Jungkea's Lab]<INFO>jor_nest,19,190,0,101,0</INFO></NAVI> and convince Jungkea."
+			"I decided to get things done faster. In the Snake's Nest, go to <NAVI>[Juncea's Lab]<INFO>jor_nest,19,190,0,101,0</INFO></NAVI> and convince Juncea."
 		},
-		Summary = "Visit Jungkea's lab"
+		Summary = "Visit Juncea's lab"
 	},
 	[16656] = {
 		Title = "Intermittent difference",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Inside the Snake's Nest Jungkea's lab, liquid is pouring around the unseen box. Let's find the <NAVI>[courage]<INFO>jor_nest,20,194,0,101,0</INFO></NAVI> to move on."
+			"Inside the Snake's Nest Juncea's lab, liquid is pouring around the unseen box. Let's find the <NAVI>[courage]<INFO>jor_nest,20,194,0,101,0</INFO></NAVI> to move on."
 		},
-		Summary = "Obtain the Jungkea's Test Tube"
+		Summary = "Obtain the Juncea's Test Tube"
 	},
 	[16657] = {
 		Title = "Intermittent difference",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Inside the Snake's Nest Jungkea's laboratory, a small amount of liquid was transferred to an empty test tube around the <NAVI>[box]<INFO>jor_nest,19,190,0,101,0</INFO></NAVI>."
+			"Inside the Snake's Nest Juncea's laboratory, a small amount of liquid was transferred to an empty test tube around the <NAVI>[box]<INFO>jor_nest,19,190,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Red Liquid Test Tube"
 	},
@@ -53552,7 +53552,7 @@ QuestInfoList = {
 		Title = "Intermittent difference",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"While trying to sneak out from the snake's nest Jungkea's laboratory, I was caught by a strange <NAVI>[Rgan]<INFO>jor_nest,24,185,0,101,0</INFO></NAVI>. It has something to say, so let's hear it."
+			"While trying to sneak out from the snake's nest Juncea's laboratory, I was caught by a strange <NAVI>[Rgan]<INFO>jor_nest,24,185,0,101,0</INFO></NAVI>. It has something to say, so let's hear it."
 		},
 		Summary = "Talk to the Rgan"
 	},
@@ -53560,17 +53560,17 @@ QuestInfoList = {
 		Title = "Intermittent difference",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"It is said that Jungkea is waiting in the <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> in the Snake's Nest."
+			"It is said that Juncea is waiting in the <NAVI>[Bagot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> in the Snake's Nest."
 		},
-		Summary = "Talk to Jungkea"
+		Summary = "Talk to Juncea"
 	},
 	[16660] = {
 		Title = "Intermittent difference",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"In the Snake's Nest, talk to Jungkea in <NAVI>[Baggot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>."
+			"In the Snake's Nest, talk to Juncea in <NAVI>[Bagot's Lab]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk to Jungkea"
+		Summary = "Talk to Juncea"
 	},
 	[16661] = {
 		Title = "Intermittent difference",
@@ -53584,7 +53584,7 @@ QuestInfoList = {
 		Title = "Simulation Battle",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"If you talk to <NAVI>[Aroon]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> waiting in front of the Snake's Nest, Baggot's lab, you can battle Jungkea, a simulation created based on Jungkea's virtual data."
+			"If you talk to <NAVI>[Aroon]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> waiting in front of the Snake's Nest, Bagot's lab, you can battle Juncea, a simulation created based on Juncea's virtual data."
 		},
 		Summary = "Talk to the adventurer"
 	},
@@ -53592,7 +53592,7 @@ QuestInfoList = {
 		Title = "[Standby] Simulation Battle",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"After defeating the Simulation Jungkea, take a rest for the day or so. After getting enough rest, you can return to the Snake Nest's <NAVI>[Aroon]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> waiting in front of Baggot's lab to fight again."
+			"After defeating the Simulation Juncea, take a rest for the day or so. After getting enough rest, you can return to the Snake Nest's <NAVI>[Aroon]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI> waiting in front of Bagot's lab to fight again."
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
@@ -54122,7 +54122,7 @@ QuestInfoList = {
 		}
 	},
 	[17035] = {
-		Title = "Pending: To Rudus",
+		Title = "[Standby] To Rudus",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"I'll see you again after dawn. You did a great job. - <NAVI>[Aas]<INFO>sp_cor,135,147,0,101,0</INFO></NAVI>"
@@ -54139,7 +54139,7 @@ QuestInfoList = {
 		Summary = "Apple picking"
 	},
 	[17037] = {
-		Title = "Wait: Replace attribute",
+		Title = "[Standby] Replace attribute",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"You can replace the attribute granted to the Guardian Robe of Free Time once a day. <NAVI>Properter of Attributes<INFO>prontera,154,279,0,101,0</INFO></NAVI>"
@@ -54154,6 +54154,606 @@ QuestInfoList = {
 			"Let's take a look a certain Hugel <NAVI>[house]<INFO>hu_in01,289,249,0,101,0</INFO></NAVI>, which is very popular these days. Are you an adventurer? The house is in front of the church and the airship."
 		},
 		Summary = "Schultzman's House"
+	},
+	[17039] = {
+		Title = "Persuasion to Return",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"We need <NAVI>[Jake]<INFO>hugel,78,139,0,101,0</INFO></NAVI>, who was tending the garden. He's probably in the town square of Hugel at this time."
+		},
+		Summary = "Go to Jake"
+	},
+	[17040] = {
+		Title = "Persuasion to Return",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Suki]<INFO>hu_in01,255,117,0,101,0</INFO></NAVI> was cleaning and doing laundry. I heard he has a job at the Hugel Inn, but I don't know if he'll be there yet."
+		},
+		Summary = "Dear Suki"
+	},
+	[17041] = {
+		Title = "Persuasion to Return",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Herring]<INFO>hu_in01,368,109,0,101,0</INFO></NAVI>. This person is essential for roof repairs. This guy should be at Hugel's tavern."
+		},
+		Summary = "Go to Herring"
+	},
+	[17042] = {
+		Title = "Persuasion failed.",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Persuasion failed. Return to the mansion in Hugel and report the situation to <NAVI>[Mesidor]<INFO>hu_in01,289,249,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Mesidor"
+	},
+	[17043] = {
+		Title = "Suspicious Mark",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The ladder <NAVI>[mark]<INFO>hugel,168,165,0,101,0</INFO></NAVI> outside the mansion in Hugel looks very suspicious. You'd better do some research."
+		},
+		Summary = "Investigate outside the mansion"
+	},
+	[17044] = {
+		Title = "Last Resort",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to the Hugel <NAVI>[Cathedral]<INFO>hu_in01,153,232,0,101,0</INFO></NAVI> opposite the mansion and ask for an exorcist to be sent. As soon as possible."
+		},
+		Summary = "Recruitment of exorcists"
+	},
+	[17045] = {
+		Title = "A priest was recruited",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's go back to Hugel's Shultzman <NAVI>[Mansion]<INFO>hu_in01,289,249,0,101,0</INFO></NAVI> with the priest who will inspect the mansion."
+		},
+		Summary = "To the Schultzman Mansion"
+	},
+	[17046] = {
+		Title = "Work at the Mansion",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to and hear from Mr. <NAVI>[Jake]<INFO>hugel,78,139,0,101,0</INFO></NAVI> in the town square of Hugel what you have seen and heard in the mansion."
+		},
+		Summary = "Go to Jake"
+	},
+	[17047] = {
+		Title = "Work at the Mansion",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to and hear from Mr. <NAVI>[Suki]<INFO>hu_in01,255,117,0,101,0</INFO></NAVI> at the Hugel Inn what you have seen and heard in the mansion."
+		},
+		Summary = "Go to Suki"
+	},
+	[17048] = {
+		Title = "Work at the Mansion",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to and hear from <NAVI>[Keith]<INFO>hu_in01,368,109,0,101,0</INFO></NAVI> at the Hugel Tavern what you have seen and heard in the mansion."
+		},
+		Summary = "Go to Keith"
+	},
+	[17049] = {
+		Title = "Heard all the Stories",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I've heard all the stories worth hearing. Go back to the Schultzman <NAVI>[Mansion]<INFO>hu_in01,355,253,0,101,0</INFO></NAVI> in Hugel and talk to Rosa."
+		},
+		Summary = "Go to the Schultzman Mansion"
+	},
+	[17050] = {
+		Title = "Mansion Investigation",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Examine the scratched wall."
+		},
+		Summary = "Scratched Wall"
+	},
+	[17051] = {
+		Title = "Mansion Investigation",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Examine the sticky floor."
+		},
+		Summary = "Sticky Floor"
+	},
+	[17052] = {
+		Title = "Mansion Investigation",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Examine the hairballs."
+		},
+		Summary = "Hairball"
+	},
+	[17053] = {
+		Title = "Mansion Investigation",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Examine the hole in the ceiling."
+		},
+		Summary = "Ceiling Hole"
+	},
+	[17054] = {
+		Title = "Mansion Investigation",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Lastly, it would be good to take a look at the <NAVI>[window]<INFO>hu_in01,384,255,0,101,0</INFO></NAVI> of the Hugel's Schultzman's mansion."
+		},
+		Summary = "Window Survey"
+	},
+	[17055] = {
+		Title = "Investigation done!",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I checked every suspicious looking place. Let's talk with Mr. <NAVI>[Mesidor]<INFO>hu_in01,289,249,0,101,0</INFO></NAVI> and Mrs. Rosa at the Hugel Schultzman Mansion."
+		},
+		Summary = "First floor of the Schultzman Mansion"
+	},
+	[17056] = {
+		Title = "Out of the Mansion",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The kids hanging out outside are suspicious! For details, just catch those <NAVI>[kids]<INFO>hugel,168,165,0,101,0</INFO></NAVI> and ask them! You'll still be in Hugel!"
+		},
+		Summary = "Investigate the suspicious children"
+	},
+	[17059] = {
+		Title = "Hugel's Pride",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to Hugel's proud <NAVI>[Tool Shop]<INFO>hu_in01,217,385,0,101,0</INFO></NAVI>. I mean \'six bells\'. They sell a lot of delicious things there."
+		},
+		Summary = "Go to the Tool Shop"
+	},
+	[17060] = {
+		Title = "I have something to tell you",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go find <NAVI>[Jet]<INFO>hu_in01,268,94,0,101,0</INFO></NAVI> who is staying at the Hugel Inn. I don't know what it is, but it seems urgent."
+		},
+		Summary = "Inn's Jet"
+	},
+	[17061] = {
+		Title = "I don't want to see you",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I'll have to go to Hugel <NAVI>[Tool Shop]<INFO>hu_in01,217,385,0,101,0</INFO></NAVI> to say goodbye to her."
+		},
+		Summary = "Go to the Tool Shop"
+	},
+	[17062] = {
+		Title = "Test for Employment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Ask for some eggs from <NAVI>[Silica]<INFO>hu_fild06,209,217,0,101,0</INFO></NAVI>'s house south of Hugel. If I said it was different, I would probably give it to you."
+		},
+		Summary = "Eggs from Silica"
+	},
+	[17063] = {
+		Title = "Test for Employment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Please get me some cheese from <NAVI>[Corona]<INFO>hugel,61,103,0,101,0</INFO></NAVI>'s house in Hugel. If I asked for it, she would give it to you."
+		},
+		Summary = "Cheese from Corona"
+	},
+	[17064] = {
+		Title = "Everything is ready",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I met both Mr. Silica and Mr. Corona and got the ingredients. Go back to <NAVI>[Jet]<INFO>hu_in01,246,300,0,101,0</INFO></NAVI> on the 2nd floor of the Hugel Tool Shop."
+		},
+		Summary = "Go to the Tool Shop"
+	},
+	[17065] = {
+		Title = "Efforts for new tastes",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"For a new taste that can't be found anywhere else, we hired <NAVI>[Shide]<INFO>hugel,83,97,0,101,0</INFO></NAVI> from Hugel. You can visit and see the progress."
+		},
+		Summary = "Go to Shide"
+	},
+	[17066] = {
+		Title = "Efforts for new tastes",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Hugel's <NAVI>[Siret]<INFO>hu_in01,15,372,0,101,0</INFO></NAVI> said that a comfortable environment is the best for inspiration, so I think he'll be at his own house. You can visit and see the progress."
+		},
+		Summary = "Go to Siret"
+	},
+	[17068] = {
+		Title = "Report of three people",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Now that I've met all three of them, I should go back to Mrs. <NAVI>[Martha]<INFO>hu_in01,217,385,0,101,0</INFO></NAVI> at the Hugel Tool Shop and report back."
+		},
+		Summary = "Go to Martha"
+	},
+	[17069] = {
+		Title = "Exploring new Ingredients",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Gather <NAVI>[Mox Mushrooms]<INFO>hu_fild06,168,356,0,101,0</INFO></NAVI> from the field near Hugel and bring them to me. You must bring flowers with you when you go."
+		},
+		Summary = "Gather Mox Mushrooms"
+	},
+	[17070] = {
+		Title = "Exploring new Ingredients",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Gather <NAVI>[Mox Mushrooms]<INFO>hu_fild06,194,341,0,101,0</INFO></NAVI> from the field near Hugel and bring them to me. You must bring flowers with you when you go."
+		},
+		Summary = "Gather Mox Mushrooms"
+	},
+	[17071] = {
+		Title = "Exploring new Ingredients",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Gather <NAVI>[Mox Mushrooms]<INFO>hu_fild06,198,339,0,101,0</INFO></NAVI> from the field near Hugel and bring them to me. You must bring flowers with you when you go."
+		},
+		Summary = "Gather Mox Mushrooms"
+	},
+	[17072] = {
+		Title = "Exploring new Ingredients",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Gather <NAVI>[Mox Mushrooms]<INFO>hu_fild06,158,326,0,101,0</INFO></NAVI> from the field near Hugel and bring them to me. You must bring flowers with you when you go."
+		},
+		Summary = "Gather Mox Mushrooms"
+	},
+	[17073] = {
+		Title = "Exploring new Ingredients",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Gather <NAVI>[Mox Mushrooms]<INFO>hu_fild06,121,293,0,101,0</INFO></NAVI> from the field near Hugel and bring them to me. You must bring flowers with you when you go."
+		},
+		Summary = "Gather Mox Mushrooms"
+	},
+	[17074] = {
+		Title = "Exploring new Ingredients",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Bring me the Mokes Egg Shell from the Mokes Worm's <NAVI>[Habitat]<INFO>hu_fild06,164,224,0,101,0</INFO></NAVI> outside Hugel Village. You have to be especially careful with mox bugs."
+		},
+		Summary = "Harvesting Mosque Eggshells"
+	},
+	[17075] = {
+		Title = "Exploring new Ingredients",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Bring me the Mokes Egg Shell from the Mokes Worm's <NAVI>[Habitat]<INFO>hu_fild06,147,111,0,101,0</INFO></NAVI> outside Hugel Village. You have to be especially careful with mox bugs."
+		},
+		Summary = "Harvesting Mosque Eggshells"
+	},
+	[17076] = {
+		Title = "Exploring new Ingredients",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Bring me the Mokes Egg Shell from the Mokes Worm's <NAVI>[Habitat]<INFO>hu_fild06,235,243,0,101,0</INFO></NAVI> outside Hugel Village. You have to be especially careful with mox bugs."
+		},
+		Summary = "Harvesting Mosque Eggshells"
+	},
+	[17077] = {
+		Title = "Shide's request completed",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Now that you have obtained all the requested items, return to Mr. <NAVI>[Shide]<INFO>hugel,83,97,0,101,0</INFO></NAVI> of Hugel and deliver them."
+		},
+		Summary = "Go to Shide"
+	},
+	[17079] = {
+		Title = "To the Perfect Taste",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Please come and hear from <NAVI>[Hawk]<INFO>hugel,87,139,0,101,0</INFO></NAVI> a famous gourmet in Hugel."
+		},
+		Summary = "Go to Hawk"
+	},
+	[17080] = {
+		Title = "Apple for Dessert",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"This tastes like an apple would go well with dessert. So, I would like 5 apples, please. Also bring a knife to cut the apples. - Hugel, <NAVI>[Hawk]<INFO>hugel,87,139,0,101,0</INFO></NAVI>"
+		},
+		Summary = "5 Apples, 1 Knife"
+	},
+	[17081] = {
+		Title = "To the Perfect Taste",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go find <NAVI>[Rayoma]<INFO>hugel,84,125,0,101,0</INFO></NAVI> in Hugel. He is the friend who knows me best. You will be able to judge it soberly."
+		},
+		Summary = "Go to Rayoma"
+	},
+	[17082] = {
+		Title = "Eradication! That.",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Catch the thief in my <NAVI>[warehouse]<INFO>hu_in01,40,381,0,101,0</INFO></NAVI> in Hugel. About three. - <NAVI>[Rayoma]<INFO>hugel,84,125,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Go to Rayoma's house"
+	},
+	[17083] = {
+		Title = "To the Perfect Taste",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Meet <NAVI>[Erjan]<INFO>hugel,102,161,0,101,0</INFO></NAVI>, who only eats high-end food. He is a difficult person to deal with, but he is a necessary person for me who pursues luxurious taste. You are in Hugel."
+		},
+		Summary = "Go to Erjan"
+	},
+	[17084] = {
+		Title = "Eating food with your eyes",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Unless I decorate with 10 green herbs, I have no intention of eating this colorful and delicious food. - Hugel, <NAVI>[Erjan]<INFO>hugel,102,161,0,101,0</INFO></NAVI>"
+		},
+		Summary = "10x Green Herb"
+	},
+	[17085] = {
+		Title = "My score is",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I met the taste evaluation team and heard their impressions of skewered dishes. Go back to Mr. <NAVI>[Siret]<INFO>hu_in01,15,372,0,101,0</INFO></NAVI> of Hugel and give it to him."
+		},
+		Summary = "Go to Siret"
+	},
+	[17093] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"We are recruiting a large number of volunteer adventurers to explore the Temple of Odin! This is the sound of looking for an adventurer. Hurry and go to the <NAVI>[Excavation Team Office]<INFO>hu_in01,18,94,0,101,0</INFO></NAVI> located in Hugel."
+		},
+		Summary = "Go to the Excavation Team Office"
+	},
+	[17094] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you want to take on the job, first visit the Odin <NAVI>[Temple]<INFO>odin_tem01,112,143,0,101,0</INFO></NAVI>. After that, let's talk again. - <NAVI>[Alex]<INFO>hu_in01,19,161,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Go to the Odin Temple"
+	},
+	[17095] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Visit the Temple of Odin! Let's go back to the <NAVI>[Excavation Team Office]<INFO>hu_in01,19,161,0,101,0</INFO></NAVI> in Hugel."
+		},
+		Summary = "Go to the Excavation Team Office"
+	},
+	[17096] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to Odin <NAVI>[Temple]<INFO>odin_tem01,112,143,0,101,0</INFO></NAVI> and get 5 Runes of Darkness. - <NAVI>[Alex]<INFO>hu_in01,19,161,0,101,0</INFO></NAVI>"
+		},
+		Summary = "5x Runes of Darkness"
+	},
+	[17097] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Visit the Temple of Odin! Get 5 Runes of Darkness and go back to Hugel's <NAVI>[Excavation Team Office]<INFO>hu_in01,19,161,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Excavation Team Office"
+	},
+	[17098] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Receiving the Rune of Darkness, Alex muttered something about a white-haired <NAVI>[woman]<INFO>hu_in01,14,11,0,101,0</INFO></NAVI> in another room in Hugel's Excavation Team."
+		},
+		Summary = "Visit Laura"
+	},
+	[17099] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"First, go to the Odin <NAVI>[Temple]<INFO>odin_tem01,112,143,0,101,0</INFO></NAVI> and look around the island. I went there with the feeling that I came here to worship. - <NAVI>[Laura]<INFO>hu_in01,14,11,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Go to the Odin Temple"
+	},
+	[17100] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Visit the Temple of Odin! Let's go back to the <NAVI>[Excavation Team Office]<INFO>hu_in01,14,11,0,101,0</INFO></NAVI> located in Hugel."
+		},
+		Summary = "Go to the Excavation Team Office"
+	},
+	[17101] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Ggreat. Now go to Odin <NAVI>[Temple]<INFO>odin_tem01,112,143,0,101,0</INFO></NAVI> and collect 5 Runes of Darkness. - <NAVI>[Laura]<INFO>hu_in01,14,11,0,101,0</INFO></NAVI>"
+		},
+		Summary = "5x Runes of Darkness"
+	},
+	[17102] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Visit the Temple of Odin! Take 5 Runes of Darkness and go back to Hugel's <NAVI>[Excavation Team Office]<INFO>hu_in01,14,11,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Excavation Team Office"
+	},
+	[17103] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The first mission is over. Could there be more help? Let's ask Laura, an Excavation Member in Hugel. - <NAVI>[Laura]<INFO>hu_in01,14,11,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Go to Laura"
+	},
+	[17104] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Laura seems to be very concerned about the brother and sister of the Crossing Room who are doing the same investigation. Go back to Laura after overhearing <NAVI>[Alex]<INFO>hu_in01,15,105,0,101,0</INFO></NAVI>'s conversation in the office of Hugel's Excavation Team."
+		},
+		Summary = "Eavesdrop on Conversation"
+	},
+	[17105] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Brothers and sisters Alex and Julian had a serious talk. Let's go back to <NAVI>[Laura]<INFO>hu_in01,14,11,0,101,0</INFO></NAVI> at the office of Hugel's Excavation Team and talk about her brother and sister's conversation."
+		},
+		Summary = "Go to Laura"
+	},
+	[17106] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"As Laura requested, investigate what is on the inner island of the <NAVI>[Odin Temple]<INFO>odin_tem03,266,302,0,101,0</INFO></NAVI>, which consists of two islands."
+		},
+		Summary = "Investigate the Temple of Odin"
+	},
+	[17107] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I fell into a strange place. Find the exit and look around carefully."
+		},
+		Summary = "Explore surroundings"
+	},
+	[17108] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"There is nothing left of this place anymore. Let's go back the way we came."
+		},
+		Summary = "Let's go back"
+	},
+	[17109] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"There seems to be nothing more to see here. Go back to Hugel's <NAVI>[Excavation Team Office]<INFO>hu_in01,158,85,0,101,0</INFO></NAVI> and report the situation."
+		},
+		Summary = "Go to the Excavation Team Office"
+	},
+	[17110] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The two are busy fighting. Let's ask <NAVI>[Ash]<INFO>hu_in01,162,85,0,101,0</INFO></NAVI> at the Excavation Team Office who sighs deeply about the next thing."
+		},
+		Summary = "Go to Ash"
+	},
+	[17111] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Please deliver the file to my <NAVI>[colleague]<INFO>hugel,91,152,0,101,0</INFO></NAVI> on the side of Hugel's Square."
+		},
+		Summary = "Go to Hugel Square"
+	},
+	[17120] = {
+		Title = "Hello?",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The <NAVI>[person]<INFO>yuno,111,156,0,101,0</INFO></NAVI> talking to himself in the middle of Yuno seems to be deep in thought."
+		},
+		Summary = "Person talking to himself"
+	},
+	[17121] = {
+		Title = "Find someone",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Can you really get the news from Thierry? I left somewhere on an internal airship. If you're an <NAVI>[involved person]<INFO>airplane,47,76,0,101,0</INFO></NAVI> in the airship, you might know."
+		},
+		Summary = "Schwarzwald Airship"
+	},
+	[17122] = {
+		Title = "Rider List Management",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you are the first-class <NAVI>[navigator]<INFO>airplane,234,160,0,101,0</INFO></NAVI> of the domestic airships, you might know. I'm sure you know because you manage the passenger list."
+		},
+		Summary = "Go to informal officials"
+	},
+	[17123] = {
+		Title = "Destination is found",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Thierry... The destination is Hugel. Let's tell <NAVI>[Yukran]<INFO>yuno,111,156,0,101,0</INFO></NAVI> of Yuno the story we heard from the one-liner."
+		},
+		Summary = "Inform Yukran"
+	},
+	[17124] = {
+		Title = "Someone to know",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go find <NAVI>[Yukran]<INFO>hugel,57,207,0,101,0</INFO></NAVI> brother in Hugel and ask him if Thierry came to visit. Please."
+		},
+		Summary = "Go to Hugel's Yukran"
+	},
+	[17125] = {
+		Title = "Are you that person?",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The suspicious person is said to be in Hugel <NAVI>[near the airport]<INFO>hugel,198,157,0,101,0</INFO></NAVI>. I will follow soon."
+		},
+		Summary = "Near the airport"
+	},
+	[17126] = {
+		Title = "What's going on there?",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It is said that Thierry went to the <NAVI>[Odin Temple]<INFO>odin_tem01,129,127,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Odin Temple"
+	},
+	[17127] = {
+		Title = "Are you that person?",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The young man left alone is suspicious. Could it be that it's not Thierry?"
+		},
+		Summary = "Talk to young man"
+	},
+	[17128] = {
+		Title = "Thierry's Choice",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Thierry says he won't go back. Let's go to the <NAVI>[pier]<INFO>odin_tem01,111,144,0,101,0</INFO></NAVI> of Odin's Temple to get on the boat."
+		},
+		Summary = "Let's go back by boat"
+	},
+	[17129] = {
+		Title = "Now is not the time for this",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Guy Thierry... I guess I'll have to deal with it at this point. <NAVI>[Thierry]<INFO>odin_tem01,130,134,0,101,0</INFO></NAVI>, who is alone in Odin's temple, is in danger!"
+		},
+		Summary = "Inform Thierry"
+	},
+	[17130] = {
+		Title = "Ready to Escape",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"5 Runes of Darkness, please. I'll be hiding here, so please come here to the Temple of Odin when the ingredients are ready. - <NAVI>[Thierry]<INFO>odin_tem01,130,134,0,101,0</INFO></NAVI>"
+		},
+		Summary = "5x Runes of Darkness"
+	},
+	[17131] = {
+		Title = "Escape from the Temple of Odin",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Thierry said he was going to Juno without looking back. I must have gone to see <NAVI>[Yukran]<INFO>yuno,111,156,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Yukran"
+	},
+	[17132] = {
+		Title = "Back to Hugel",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Please tell <NAVI>[Yukran]<INFO>hugel,57,207,0,101,0</INFO></NAVI> brother that he's okay, who is worried about us in Hugel."
+		},
+		Summary = "Go to Yukran"
 	},
 	[17137] = {
 		Title = "Creating Snowflakes",
@@ -54204,7 +54804,7 @@ QuestInfoList = {
 		Summary = "10 snowflakes, 1 carrot"
 	},
 	[17143] = {
-		Title = "Wait: Cold is still left",
+		Title = "[Standby] Cold is still left",
 		IconName = "ico_ev.bmp",
 		Description = {
 			"I still have the magical snowflake effect. Please find it again after dawn. <NAVI>Marine<INFO>aldebaran, 172,162,0,101,0</INFO></NAVI>"
@@ -54221,7 +54821,7 @@ QuestInfoList = {
 		Summary = "10 warm cotton"
 	},
 	[17145] = {
-		Title = "Wait: Cotton is packing",
+		Title = "[Standby] Cotton is packing",
 		IconName = "ico_ev.bmp",
 		Description = {
 			"Some cotton is packing now. I think it will be over at dawn. Please find it again after dawn! <NAVI>Cotyie<INFO>aldebaran, 124,238,0,101,0</INFO></NAVI>"
@@ -54334,6 +54934,3816 @@ QuestInfoList = {
 		},
 		Summary = "Resets at 04:00",
 		CoolTimeQuest = 1
+	},
+	[17161] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Mr. <NAVI>[Heriko]<INFO>hu_in01,256,40,0,101,0</INFO></NAVI> of the Hugel Inn asked to talk with him for a while."
+		},
+		Summary = "Talk to Heriko"
+	},
+	[17162] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Mr. <NAVI>[Heriko]<INFO>hu_in01,256,40,0,101,0</INFO></NAVI> of the Hugel Inn seems to be choosing a horse for a while.Llet's talk again."
+		},
+		Summary = "Talk to Heriko"
+	},
+	[17163] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to <NAVI>[Lighthalzen]<INFO>lhz_in03,39,44,0,101,0</INFO></NAVI> and meet the reporter who wrote the article about the mercenary rebellion and hear about the whereabouts of the materials."
+		},
+		Summary = "Go to Lighthalzen"
+	},
+	[17164] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"A cup of Tropical Sokrat and Vermilion the Beach sold at the tavern in <NAVI>[Morroc]<INFO>morocc,82,91,0,101,0</INFO></NAVI>... <NAVI>[Enquero Carson]<INFO>lhz_in03,39,44,0,101,0</INFO></NAVI>"
+		},
+		Summary = "1 cocktail each"
+	},
+	[17165] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you drop off at <NAVI>[Hugel]<INFO>hu_in01,310,380,0,101,0</INFO></NAVI>, there must be a descendant of Mr. Windchill Troni, right? Maybe they moved away."
+		},
+		Summary = "Back to Hugel"
+	},
+	[17166] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You said you came all the way to Hugel to look at the <NAVI>[2nd floor bookshelf]<INFO>hu_in01,314,312,0,101,0</INFO></NAVI>? It's just books that don't matter, so..."
+		},
+		Summary = "Bookshelf Investigation"
+	},
+	[17167] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Return to Mr. <NAVI>[Heriko]<INFO>hu_in01,256,40,0,101,0</INFO></NAVI> at the Hugel Inn and report the investigation."
+		},
+		Summary = "Go to Heriko"
+	},
+	[17168] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Mr. <NAVI>[Heriko]<INFO>hu_in01,256,40,0,101,0</INFO></NAVI> of the Hugel Inn seems to need some time to organize his thoughts on the incredible facts."
+		},
+		Summary = "Talk to Heriko"
+	},
+	[17169] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Would you like to infiltrate Regenschirm in the basement of <NAVI>[Rekenber Headquarters]<INFO>lhz_in01,213,131,0,101,0</INFO></NAVI>, find their research materials, and bring them to me?"
+		},
+		Summary = "Infiltrate Regenschirm"
+	},
+	[17170] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Take the data obtained from the research lab to Mr. <NAVI>[Heriko]<INFO>hu_in01,256,40,0,101,0</INFO></NAVI> at the Hugel Inn."
+		},
+		Summary = "Go to Heriko"
+	},
+	[17171] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"There should be a <NAVI>[Core Facility]<INFO>lhz_dun02,245,222,0,101,0</INFO></NAVI> on the second floor of the Biological Labratory. Take the minesweeper and take it... out."
+		},
+		Summary = "Go to the Biological Labratory"
+	},
+	[17172] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The device was completely blown up. Report back to Mr. <NAVI>[Heriko]<INFO>hu_in01,256,40,0,101,0</INFO></NAVI> at the Hugel Inn."
+		},
+		Summary = "Go to Heriko"
+	},
+	[17173] = {
+		Title = "Mercenary Rebellion and Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I'll leave the rest of the work to <NAVI>[the person]<INFO>yuno_pre,69,10,0,101,0</INFO></NAVI> in Yuno. Please take this document with you."
+		},
+		Summary = "Go To Yuno's Oval Office"
+	},
+	[17176] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Mr. Morriphen said that he gets things from the <NAVI>[Blacksmith's]<INFO>ein_in01,16,36,0,101,0</INFO></NAVI> in Einbroke. I don't think I'll be able to relax until I get a confirmation from Morriphen about the delivery deadline."
+		},
+		Summary = "Einbroch's Forge"
+	},
+	[17177] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Could you go to <NAVI>[my house]<INFO>hu_in01,326,383,0,101,0</INFO></NAVI> in Hugel and get some medicine from Syria, my wife?"
+		},
+		Summary = "Hugel's Syria"
+	},
+	[17178] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"On the way to the house in Hugel, tell <NAVI>[Mr. Graham the Entrepreneur]<INFO>hugel,192,172,0,101,0</INFO></NAVI> that he will deliver the goods on time."
+		},
+		Summary = "Morriphen's Message"
+	},
+	[17179] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I always got the medicine from a person named Dono in <NAVI>[Lighthalzen]<INFO>lighthalzen,88,79,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Lighthalzen's Dono"
+	},
+	[17180] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The things you need to get are 1 Alcohol, 1 Blue Herb, and 5 Cyfar. - Lighthalzen, <NAVI>[Dono]<INFO>lighthalzen,88,79,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Ingredients of Medicine"
+	},
+	[17181] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It seems that something is lacking in making medicine. Get ^ff0000red plant stem powder^000000 from a person named <NAVI>[Makkie]<INFO>lhz_in03,190,28,0,101,0</INFO></NAVI> who is at the slum bar in Lighthalzen."
+		},
+		Summary = "To a pub in a slum"
+	},
+	[17182] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I received red plant stem powder. Let's go back to Lighthalzen's <NAVI>[Dono]<INFO>lighthalzen,88,79,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Back to Dono"
+	},
+	[17183] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Take this medicine and go to <NAVI>[Morriphen]<INFO>ein_in01,16,36,0,101,0</INFO></NAVI> in Einbroch. If you don't hurry, you might die."
+		},
+		Summary = "Go to Morriphen"
+	},
+	[17184] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Syria]<INFO>hu_in01,326,383,0,101,0</INFO></NAVI> in Hugel is also dangerous if you don't take this medicine. Please deliver this medicine to Syria. Please!"
+		},
+		Summary = "To Hugel's Syria"
+	},
+	[17185] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Fortunately, Mr. Syria's condition improved. Let's go back to <NAVI>[Morriphen]<INFO>ein_in01,16,36,0,101,0</INFO></NAVI> in Einbroch and reassure him."
+		},
+		Summary = "Go to Morriphen"
+	},
+	[17186] = {
+		Title = "Bioresearcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Mr. <NAVI>[Morriphen]<INFO>ein_in01,16,36,0,101,0</INFO></NAVI> of Einbroch seemed to be searching for his past memories for a while. Let's hear the story again in a moment."
+		},
+		Summary = "Morriphen's Story"
+	},
+	[17187] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I just need to see how my father is and whether he has taken his medicine well. It should be easy to find the <NAVI>[house]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI> in Hugel. I beg you."
+		},
+		Summary = "Go to Ellen's house"
+	},
+	[17188] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Bring <NAVI>[Forsteel]<INFO>lighthalzen,117,101,0,101,0</INFO></NAVI> from Lighthalzen. If you don't want to come, bring it."
+		},
+		Summary = "Pick up the Forsteel"
+	},
+	[17189] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Take 1 White Potion as an emergency medicine and go to <NAVI>[Father]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI> in Hugel first. I'll be there soon too."
+		},
+		Summary = "Back to Alan"
+	},
+	[17190] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Hey, could you bring me some medicine? Please. I think I will die even if you came to help me, right? - <NAVI>[Ellen]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Take care of Alan"
+	},
+	[17191] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It's hard to talk loudly, so come closer. Even you came to help me, right? - <NAVI>[Ellen]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI>"
+		},
+		Summary = "A little closer"
+	},
+	[17192] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Search the <NAVI>[drawer]<INFO>hu_in01,326,376,0,101,0</INFO></NAVI> across from me and bring me Endurance. As soon as possible. Quickly!! I came to Hugel, but I'm sorry I made you do this."
+		},
+		Summary = "Quickly search the drawers"
+	},
+	[17193] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Ohh, that's the drug, bear with it! Come on, bring it <NAVI>[to me]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI>! I came to Hugel, but I'm sorry I made you do this."
+		},
+		Summary = "Give Ellen some medicine"
+	},
+	[17194] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It's hard to talk loudly, so come closer. I took a long walk to Hugel, I'm sorry. - <NAVI>[Ellen]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI>"
+		},
+		Summary = "A little closer"
+	},
+	[17195] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Search the <NAVI>[drawer]<INFO>hu_in01,326,376,0,101,0</INFO></NAVI> across from me and bring me Endurance. As soon as possible. Quickly!! I came to Hugel, but I'm sorry I made you do this."
+		},
+		Summary = "Quickly search the drawers"
+	},
+	[17196] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Ohh, that's the drug, bear with it! Come on, bring it to me! In Hugel, they help each other like this! - <NAVI>[Ellen]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Give Ellen some medicine"
+	},
+	[17197] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I guess I'll live for a while now. Thanks. I need to catch my breath for a bit before I go find the Forsteel. I came to Hugel, but I couldn't even talk much. - <NAVI>[Ellen]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Take a look at Ellen"
+	},
+	[17198] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Posteel friend, don't go and stay for a while. I came all the way to Hugel... I have something to give you... - <NAVI>[Ellen]<INFO>hu_in01,327,319,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Go to Ellen"
+	},
+	[17199] = {
+		Title = "Nursing Ellen",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you look inside that <NAVI>[drawer]<INFO>hu_in01,326,376,0,101,0</INFO></NAVI> earlier, there are things like this, so if you have something useful, take it. This is the essence of Hugel."
+		},
+		Summary = "Search the drawers"
+	},
+	[17201] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I got a call from Prontera <NAVI>[Royal Palace]<INFO>prt_cas,76,310,0,101,0</INFO></NAVI>. I think you should hurry up and go."
+		},
+		Summary = "Go to the Palace"
+	},
+	[17202] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The person from the Prontera Royal Palace is looking for you urgently. Let's go in together. - <NAVI>[Ditmar]<INFO>prt_cas,76,310,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Inside the Palace"
+	},
+	[17203] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The rest of the story is done <NAVI>[outside]<INFO>prt_cas,76,310,0,101,0</INFO></NAVI>. Because there are many ears to hear in the Royal Palace of Prontera."
+		},
+		Summary = "Speak with Ditmar"
+	},
+	[17204] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Keep thinking about it and come find me. I will be waiting for you at the Prontera Royal Palace. - <NAVI>[Ditmar]<INFO>prt_cas,76,310,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Decide after thinking"
+	},
+	[17205] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I will always be on standby, so please do your best to help me with the investigation. Then you'd better go to Prontera <NAVI>[Cathedral]<INFO>prt_church,185,106,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Cathedral"
+	},
+	[17206] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you look closely in that closet, you'll find a <NAVI>[switch]<INFO>prt_church,177,111,0,101,0</INFO></NAVI>. Come through it. If you don't see the switch, tell me, Priest of Prontera Cathedral."
+		},
+		Summary = "Under the Prontera Cathedral"
+	},
+	[17207] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Please start with the <NAVI>[first]<INFO>prt_church,177,111,0,101,0</INFO></NAVI> prince on the far left who is <NAVI>[there]<INFO>prt_church,19,109,0,101,0</INFO></NAVI> in Prontera Cathedral. When you leave, talk to Father Viscus."
+		},
+		Summary = "Check out the first prince"
+	},
+	[17208] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It's time to examine the <NAVI>[second]<INFO>prt_church,177,111,0,101,0</INFO></NAVI> prince <NAVI>[there]<INFO>prt_church,21,109,0,101,0</INFO></NAVI> in Prontera Cathedral."
+		},
+		Summary = "Check out the second prince"
+	},
+	[17209] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Finally, look at the <NAVI>[third]<INFO>prt_church,177,111,0,101,0</INFO></NAVI> prince <NAVI>[there]<INFO>prt_church,24,109,0,101,0</INFO></NAVI> in Prontera Cathedral."
+		},
+		Summary = "Check out the third prince"
+	},
+	[17210] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"This is really shocking. Let's go to Prontera <NAVI>[Cathedral]<INFO>prt_church,185,106,0,101,0</INFO></NAVI> and talk. When you leave, go through Father Viscus."
+		},
+		Summary = "Go to the Cathedral"
+	},
+	[17211] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Visit Morroc's <NAVI>[Assassin Guild]<INFO>moc_fild16,201,295,0,101,0</INFO></NAVI> right now, try them out, and let me know their reactions."
+		},
+		Summary = "Visit the Assassin's Guild"
+	},
+	[17212] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"There is an Assassin's <NAVI>[Secret Tavern]<INFO>morocc,45,106,0,101,0</INFO></NAVI> near 7 o'clock in Morroc. Find Marzana there."
+		},
+		Summary = "Marzana of the Secret Tavern"
+	},
+	[17213] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I heard information about poison. Hurry up and report back to <NAVI>[Father Bamph]<INFO>prt_church,185,106,0,101,0</INFO></NAVI> at the Prontera Cathedral."
+		},
+		Summary = "Go to Father Bamph"
+	},
+	[17214] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's go to the grave with Yellow Gemstones and three Green Potions. This time, you can enter through the <NAVI>[switch]<INFO>prt_church,177,111,0,101,0</INFO></NAVI> in the Prontera Cathedral."
+		},
+		Summary = "Go to the basement of the Cathedral"
+	},
+	[17215] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When the potion was poured on the corpse of the third prince lying <NAVI>[there]<INFO>prt_church,177,111,0,101,0</INFO></NAVI> in the Prontera Cathedral, a surprising result was obtained. Let's pour it on the body of the <NAVI>[second]<INFO>prt_church,21,109,0,101,0</INFO></NAVI> prince."
+		},
+		Summary = "Check out the second prince"
+	},
+	[17216] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"A similar change occurred when the potion was poured on the body of the second prince lying <NAVI>[there]<INFO>prt_church,177,111,0,101,0</INFO></NAVI> in Prontera Cathedral. Let's pour it on the body of the <NAVI>[first]<INFO>prt_church,19,109,0,101,0</INFO></NAVI> prince."
+		},
+		Summary = "Check out the first prince"
+	},
+	[17217] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"He poured the potion on the body of the first prince, but there was no response. Let's discuss it with <NAVI>[Father Bamph]<INFO>prt_church,16,114,0,101,0</INFO></NAVI> of the Prontera Cathedral."
+		},
+		Summary = "Go to Father Bamph"
+	},
+	[17218] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"My heart doesn't calm down. Let's go up to Prontera <NAVI>[Cathedral]<INFO>prt_church,185,106,0,101,0</INFO></NAVI> for now. Tell Father Viscus you're going up."
+		},
+		Summary = "Go to the Cathedral"
+	},
+	[17219] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"While I'm writing the report, can you tell Miss <NAVI>[Bonnie]<INFO>mjolnir_01,316,268,0,101,0</INFO></NAVI> in the area north of the Mjolnir Mountains that she can take the burden off her mind?"
+		},
+		Summary = "Go to Bonnie Imblia"
+	},
+	[17220] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I got important information from Bonnie Imblia. Give it to <NAVI>[Father Bamph]<INFO>prt_church,185,106,0,101,0</INFO></NAVI> of the Prontera Cathedral."
+		},
+		Summary = "Go to Father Bamph"
+	},
+	[17221] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Please deliver this letter to <NAVI>[him]<INFO>prt_cas,76,310,0,101,0</INFO></NAVI> in the Royal Palace of Prontera. Thank you."
+		},
+		Summary = "Go to the entrance of the Palace"
+	},
+	[17222] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Then, let's go inside the Prontera Palace and post a letter. - <NAVI>[Ditmar]<INFO>prt_cas,76,310,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Go inside the Palace"
+	},
+	[17223] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's leave <NAVI>[the entrance]<INFO>prt_cas,76,310,0,101,0</INFO></NAVI> of the Royal Palace of Prontera and finish the story."
+		},
+		Summary = "Leave the entrance of the Palace"
+	},
+	[17224] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Please also send the news to <NAVI>[Karomov]<INFO>yuno,311,195,0,101,0</INFO></NAVI> in Yuno. It's been a huge help, so you can take your hands off it now."
+		},
+		Summary = "Go zo the historian of Yuno"
+	},
+	[17225] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to Rekenber, find a person named <NAVI>[Kajien]<INFO>lhz_in01,174,258,0,101,0</INFO></NAVI> on the 2nd floor and tell him that Ethan sent it."
+		},
+		Summary = "Meet Kajien"
+	},
+	[17226] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you go to Einbroch, there is a <NAVI>[Research Institute]<INFO>einbroch,55,52,0,101,0</INFO></NAVI> affiliated with us. You can check with Garins, the researcher there, to make sure you received the goods. Don't forget to keep secrets."
+		},
+		Summary = "Go to the Research Institute"
+	},
+	[17227] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"They say that Garins is not here. Report back to <NAVI>[Kajien]<INFO>lhz_in01,174,258,0,101,0</INFO></NAVI> on the 2nd floor of Rekenber."
+		},
+		Summary = "Go to Kajien"
+	},
+	[17228] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The lab says they can't meet anyone for security reasons. Report back to <NAVI>[Kajien]<INFO>lhz_in01,174,258,0,101,0</INFO></NAVI> on the 2nd floor of Rekenber."
+		},
+		Summary = "Go to Kajien"
+	},
+	[17229] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You just need to take an overseas airship. I'll tell you more when you go and meet <NAVI>[Ryojien]<INFO>airplane_01,96,48,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Ryojien"
+	},
+	[17230] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you arrive in Izlude, get off and find <NAVI>[Scamp]<INFO>izlude,172,73,0,101,0</INFO></NAVI>, inform him that his luggage has arrived, and get him to sign the pick-up form."
+		},
+		Summary = "Go to Scamp in Izlude"
+	},
+	[17231] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Now that you have signed the takeover form, give it to <NAVI>[Ryojien]<INFO>airplane_01,96,48,0,101,0</INFO></NAVI> of the Overseas Airship. I wish you well next time."
+		},
+		Summary = "Go to Ryojien"
+	},
+	[17232] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"As soon as you arrive in Lighthalzen, go and report to Rekenber's <NAVI>[brother]<INFO>lhz_in01,174,258,0,101,0</INFO></NAVI>. He will be on the second floor."
+		},
+		Summary = "Go to Kajien"
+	},
+	[17233] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Ride the Overseas Airship and join <NAVI>[Ryojien]<INFO>airplane_01,96,48,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Ryojien"
+	},
+	[17234] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You must protect these items from the <NAVI>[stranger]<INFO>airplane_01,96,53,0,101,0</INFO></NAVI> appearing in the airship! Did you know? If something goes wrong, it's all our responsibility!"
+		},
+		Summary = "Talk to the stranger"
+	},
+	[17235] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Ryojien]<INFO>airplane_01,96,48,0,101,0</INFO></NAVI> appeared after defeating the stranger who appeared on the overseas airship and said that he would inspect the cargo."
+		},
+		Summary = "Talk to Ryojien"
+	},
+	[17236] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you arrive in Izlude, meet <NAVI>[Scamp]<INFO>izlude,172,73,0,101,0</INFO></NAVI>, hand over the goods, and get the receipt signed."
+		},
+		Summary = "Go to Scamp in Izlude"
+	},
+	[17237] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Since everything seems to have been unloaded, take the receipt and go to <NAVI>[Ryojien]<INFO>airplane_01,96,48,0,101,0</INFO></NAVI> who will be in the airship. Good job this time too."
+		},
+		Summary = "Go to Ryojien"
+	},
+	[17238] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I'll finish cleaning up, so when you get to Lighthalzen, adventurer, go to my <NAVI>[brother]<INFO>lhz_in01,174,258,0,101,0</INFO></NAVI> on the 2nd floor of Rekenber."
+		},
+		Summary = "Go to Kajien"
+	},
+	[17239] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Meet <NAVI>[Ryojien]<INFO>airplane_01,96,48,0,101,0</INFO></NAVI> on an overseas airship."
+		},
+		Summary = "Go to Ryojien"
+	},
+	[17240] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Strangers]<INFO>airplane_01,96,53,0,101,0</INFO></NAVI> appear again on the overseas airship and are aiming for cargo. Let's have a conversation."
+		},
+		Summary = "Talk to the stranger"
+	},
+	[17241] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you're curious about what you're carrying, why don't you check the <NAVI>[cargo]<INFO>airplane_01,98,46,0,101,0</INFO></NAVI> loaded on the overseas airship?"
+		},
+		Summary = "Check the cargo"
+	},
+	[17242] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Ryojien]<INFO>airplane_01,96,48,0,101,0</INFO></NAVI> said that he was going to check the cargo loaded on the overseas airship."
+		},
+		Summary = "Talk to Ryojien"
+	},
+	[17243] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When the airship arrives in Izlude, hand over the goods to Mr. <NAVI>[Scamp]<INFO>izlude,172,73,0,101,0</INFO></NAVI> and sign the receipt."
+		},
+		Summary = "Go to Scamp in Izlude"
+	},
+	[17244] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Now, since you signed the takeover form, take it to <NAVI>[Ryojien]<INFO>airplane_01,96,48,0,101,0</INFO></NAVI> on the Overseas Airship."
+		},
+		Summary = "Go to Ryojien"
+	},
+	[17245] = {
+		Title = "Brothers of Rekenber",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you arrive in Lichtarzen, report to my <NAVI>[brother]<INFO>lhz_in01,174,258,0,101,0</INFO></NAVI> in Rekenber and go quickly to rest."
+		},
+		Summary = "Go to Kajien"
+	},
+	[17246] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Strange noises are heard inside the building. Let's quickly leave this place and return to the <NAVI>[village]<INFO>lighthalzen,299,228,0,101,0</INFO></NAVI> of Lighthalzen."
+		},
+		Summary = "Let's go back to village"
+	},
+	[17247] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The voice seems to be leading somewhere in the <NAVI>[village]<INFO>lighthalzen,344,278,0,101,0</INFO></NAVI> of Lighthalzen. Let's follow the voice."
+		},
+		Summary = "Where the Voice Leads 1"
+	},
+	[17248] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The voice seems to be leading somewhere in the <NAVI>[village]<INFO>lhz_in03,178,22,0,101,0</INFO></NAVI> of Lighthalzen. Let's follow the voice."
+		},
+		Summary = "Where the Voice Leads 2"
+	},
+	[17249] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The voice seems to be leading somewhere in the <NAVI>[village]<INFO>lighthalzen,299,228,0,101,0</INFO></NAVI> of Lighthalzen. Let's follow the voice."
+		},
+		Summary = "Where the Voice Leads"
+	},
+	[17250] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The voice seems to be leading somewhere in the <NAVI>[village]<INFO>lighthalzen,364,315,0,101,0</INFO></NAVI> of Lighthalzen. Let's follow the voice."
+		},
+		Summary = "Where the Voice Leads 3"
+	},
+	[17251] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It seems that the village is cursed. Go to the <NAVI>[elder]<INFO>lighthalzen,346,263,0,101,0</INFO></NAVI> in Lighthalzen and ask what happened to the village."
+		},
+		Summary = "Go to the Elder"
+	},
+	[17252] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Those attached to you all point to <NAVI>[Rekenber]<INFO>lhz_in01,113,150,0,101,0</INFO></NAVI>. So, if you go there, you will know something."
+		},
+		Summary = "Rekenber"
+	},
+	[17253] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"There definitely seems to be something here. First of all, let's ask about the company at Rekenber's <NAVI>[information]<INFO>lhz_in01,114,181,0,101,0</INFO></NAVI> desk."
+		},
+		Summary = "Contact Information Desk"
+	},
+	[17254] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"To learn more about Rekenber, ask the <NAVI>[concierge]<INFO>lhz_in01,27,247,0,101,0</INFO></NAVI> in the library for guidance."
+		},
+		Summary = "Go to the library"
+	},
+	[17255] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"This is a bit lacking."
+		},
+		Summary = "Other inquiries"
+	},
+	[17256] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You can look at the Rekenber <NAVI>[Guidebook]<INFO>lhz_in01,25,248,0,101,0</INFO></NAVI> on the bookshelf to the left of the Rekenber Library."
+		},
+		Summary = "Check the bookshelf"
+	},
+	[17257] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When I finished reading the book about Rekenber, I suddenly felt the power of the spirit leading me. Let's go in the <NAVI>[direction]<INFO>lhz_in01,28,226,0,101,0</INFO></NAVI> where the soul leads."
+		},
+		Summary = "To the direction the soul leads"
+	},
+	[17258] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I heard the voice of the person doing the research. If you go to Rekenber's <NAVI>[Research Institute]<INFO>lhz_in01,202,128,0,101,0</INFO></NAVI>, you'll learn something..."
+		},
+		Summary = "Go to the Lab"
+	},
+	[17259] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's investigate <NAVI>[another place]<INFO>lhz_in01,46,116,0,101,0</INFO></NAVI> in Rekenber further as the soul leads."
+		},
+		Summary = "Go to where the soul leads"
+	},
+	[17260] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[This person]<INFO>lhz_in01,273,121,0,101,0</INFO></NAVI> at Rekenber Lab seems to know something. I'll try to dig a little more."
+		},
+		Summary = "Talk with Borsev"
+	},
+	[17261] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"A glass bead would be appropriate. Get me a glass marble right now. Just bring one. I will continue to be in Rekenber's laboratory. - <NAVI>[Borsev]<INFO>lhz_in01,273,121,0,101,0</INFO></NAVI>"
+		},
+		Summary = "1 Glass Marble"
+	},
+	[17262] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"After the conversation with Borsev, you feel another spirit leading you to <NAVI>[another place]<INFO>lhz_in01,282,166,0,101,0</INFO></NAVI> in Rekenber."
+		},
+		Summary = "Go to where the soul leads"
+	},
+	[17263] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It seems to belong to someone from the slums of Lighthalzen, so take it to the <NAVI>[elder]<INFO>lighthalzen,346,263,0,101,0</INFO></NAVI> of Lighthalzen and ask about the owner."
+		},
+		Summary = "Go to the elder of the slums"
+	},
+	[17264] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go, prepare 5 Holy Water and 1 Bouquet, and come back here, to Lighthalzen. I'll break the curse with that. - <NAVI>[Elder]<INFO>lighthalzen,346,263,0,101,0</INFO></NAVI>"
+		},
+		Summary = "5x Holy Water, 1x Bouquet"
+	},
+	[17265] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[The child]<INFO>lighthalzen,315,322,0,101,0</INFO></NAVI> lives in the house above the Lighthalzen Tool Shop. But he's a weak kid, so please don't give me a big shock."
+		},
+		Summary = "Go to the owner of the pendant"
+	},
+	[17266] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The <NAVI>[girl]<INFO>lhz_in03,32,162,0,101,0</INFO></NAVI> living in Lighthalzen seems to be in great shock, unable to come to terms with her brother's death. Let's go back and talk."
+		},
+		Summary = "Visit again"
+	},
+	[17267] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I handed the pendant to the girl safely. Now that I think I've done my job, I'm going to go <NAVI>[outside]<INFO>lighthalzen,319,321,0,101,0</INFO></NAVI> and get some fresh air while walking around the Lighthalzen."
+		},
+		Summary = "Go outside"
+	},
+	[17268] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"There are so many suspicious things about Rekenber. Do corporate powerhouses know about this? I'll take the evidence and go to <NAVI>[Rekenber]<INFO>lhz_in01,286,226,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Back to Rekenber"
+	},
+	[17269] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The <NAVI>[secretary]<INFO>lhz_in01,286,226,0,101,0</INFO></NAVI> of Rekenber Company seems to be trying to finish the conversation quickly. Let's ask something different this time."
+		},
+		Summary = "A slightly different question"
+	},
+	[17270] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Rekenber's <NAVI>[secretary]<INFO>lhz_in01,286,226,0,101,0</INFO></NAVI> doesn't want to go into detail about the lab. Let's ask about Borsev this time."
+		},
+		Summary = "Key Question"
+	},
+	[17271] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"We need evidence to convince the Reckenberg Company's <NAVI>[secretary]<INFO>lhz_in01,286,226,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Prisoner's Bracelet"
+	},
+	[17272] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Rekenber's <NAVI>[secretary]<INFO>lhz_in01,286,226,0,101,0</INFO></NAVI> said he would send an audit team to investigate. You will hear the results when you come back."
+		},
+		Summary = "Check the result"
+	},
+	[17273] = {
+		Title = "Enterprise",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I've heard about Borsev's research and its disposal, but somehow I'm not sure. Let's go back to Borsev's <NAVI>[Lab]<INFO>lhz_in01,43,117,0,101,0</INFO></NAVI>in Rekenber."
+		},
+		Summary = "Go to Borsev's Lab"
+	},
+	[17274] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Enter the lab and bring proof of the creatures. If it was a test subject, it would have been stuffed with something like a prisoner's bracelet to distinguish it. If there are things like researcher records, please. That'll be enough for 10 at a time. I'm here in Lighthalzen. - <NAVI>[Galstein]<INFO>lighthalzen,179,170,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Evidence of Unidentified Creatures"
+	},
+	[17275] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you were trying to control that many people, you'd need something <NAVI>[powerful]<INFO>lhz_dun02,261,278,0,101,0</INFO></NAVI>. Usually important things are placed on the 2nd floor or higher, so visit the 2nd floor of the Biological Lab."
+		},
+		Summary = "Securing the medium experiment"
+	},
+	[17276] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Evidence obtained from destroyed device. Let him go back to <NAVI>[Galstein]<INFO>lighthalzen,179,170,0,101,0</INFO></NAVI> in Lighthalzen."
+		},
+		Summary = "Go to Galstein"
+	},
+	[17277] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go through the door south of Yuno and you'll find our agent. His name is <NAVI>[Gushar]<INFO>yuno_fild04,165,245,0,101,0</INFO></NAVI>. When you meet them, show them your Crew Member ID and tell them the password."
+		},
+		Summary = "Bird Watcher"
+	},
+	[17278] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to Yuno's presidential residence and show the <NAVI>[secretary]<INFO>yuno_pre,69,20,0,101,0</INFO></NAVI> the certificate, and he will guide you."
+		},
+		Summary = "Go to the presidential residence"
+	},
+	[17279] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Ask the <NAVI>[guard]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI> at Yuno's presidential residence when the guests are expected to arrive."
+		},
+		Summary = "Wait for a while"
+	},
+	[17280] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Welcome to the Presidential Residence in Yuno. Come in now. - <NAVI>[Guard]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI>"
+		},
+		Summary = "President Interview"
+	},
+	[17281] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Yuno's <NAVI>[President]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI> asked if I was ready before starting the mission."
+		},
+		Summary = "President's Care"
+	},
+	[17282] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you go to Yuno's <NAVI>[Hesnil]<INFO>yuno_pre,69,20,0,101,0</INFO></NAVI>, he'll take care of things for you."
+		},
+		Summary = "Mission Start"
+	},
+	[17283] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I heard a suspicious conversation, but I don't know who said what. Go to Yuno's <NAVI>[Secretary]<INFO>yuno_pre,69,20,0,101,0</INFO></NAVI> and get the prepared items."
+		},
+		Summary = "Go to the Secretary"
+	},
+	[17284] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to Kafra's headquarters in Aldebaran and meet with <NAVI>[Venice]<INFO>aldeba_in,155,240,0,101,0</INFO></NAVI> for guidance."
+		},
+		Summary = "Aldebaran Kafra Headquarters"
+	},
+	[17285] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The agent's name is <NAVI>[Zarzia]<INFO>lhz_fild02,224,220,0,101,0</INFO></NAVI>. The last contact was lost in the Grim Reaper's Valley between Lighthalzen and Einbroch. Please help in the search."
+		},
+		Summary = "Search Request"
+	},
+	[17286] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Okay... take this... to Mr. <NAVI>[Venice]<INFO>aldeba_in,155,240,0,101,0</INFO></NAVI> in Aldebaran, Kuluk."
+		},
+		Summary = "Delivery of Documents"
+	},
+	[17287] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Aldebaran's <NAVI>[Venice]<INFO>aldeba_in,155,240,0,101,0</INFO></NAVI> is reading the documents I handed over. Let's wait a minute."
+		},
+		Summary = "Wait for a while"
+	},
+	[17288] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to Yuno and give these documents to <NAVI>[President]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go back to the President"
+	},
+	[17289] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Arriving at Yuno, I handed over the documents to the <NAVI>[President]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI>. Let's wait a minute."
+		},
+		Summary = "Wait for a while"
+	},
+	[17290] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you go to the field in the northern part of Lighthalzen, you can meet the <NAVI>[Informant]<INFO>lhz_fild01,66,219,0,101,0</INFO></NAVI>, so go and meet him."
+		},
+		Summary = "Go To the northern field of Lighthalzen"
+	},
+	[17291] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you go inside Rekenber in Lighthalzen, look for a person named <NAVI>[Lastin]<INFO>lhz_in01,93,45,0,101,0</INFO></NAVI>. He will give you details. We need information from Shinokas."
+		},
+		Summary = "Infiltrate the company"
+	},
+	[17292] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"With the pass I gave you, you can use Rekenber's <NAVI>[Document Storage Room]<INFO>lhz_in01,191,31,0,101,0</INFO></NAVI> for 3 minutes. Please find the material you need."
+		},
+		Summary = "Go to the Document Storage Room"
+	},
+	[17293] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"- The contents are stored in the <NAVI>[Zone 3-2]<INFO>lhz_in01,183,45,0,101,0</INFO></NAVI> of the Rekenber Document Storage Room. -"
+		},
+		Summary = "Zone 3-2"
+	},
+	[17294] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"- The contents are stored in the <NAVI>[Zone 1-5]<INFO>lhz_in01,183,40,0,101,0</INFO></NAVI> of the Rekenber Document Storage Room. -"
+		},
+		Summary = "Zone 1-5 "
+	},
+	[17295] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"- The contents are stored in the <NAVI>[Zone 1-7]<INFO>lhz_in01,174,55,0,101,0</INFO></NAVI> of the Rekenber Document Storage Room. -"
+		},
+		Summary = "Zone 1-7"
+	},
+	[17296] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"- The contents are stored in the <NAVI>[Zone 6-1]<INFO>lhz_in01,177,55,0,101,0</INFO></NAVI> of the Rekenber Document Storage Room. -"
+		},
+		Summary = "Zone 6-1"
+	},
+	[17297] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"- The contents are stored in the <NAVI>[Zone 3-3]<INFO>lhz_in01,183,48,0,101,0</INFO></NAVI> of the Rekenber Document Storage Room. -"
+		},
+		Summary = "Zone 3-3"
+	},
+	[17298] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I got the material I was looking for. Let him go back to Mr. <NAVI>[Lastin]<INFO>lhz_in01,93,45,0,101,0</INFO></NAVI> who will be in Rekenber somewhere."
+		},
+		Summary = "Dear Lastin"
+	},
+	[17299] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Take that data and return to <NAVI>[Esna]<INFO>lhz_fild01,66,219,0,101,0</INFO></NAVI> in the Lighthalzen Field."
+		},
+		Summary = "Go to Esna"
+	},
+	[17300] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"That data is our priority, so go to Yuno and take it to <NAVI>[President]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI> first."
+		},
+		Summary = "Delivery of Documents"
+	},
+	[17301] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Get additional information from <NAVI>[Esna]<INFO>lhz_fild01,66,219,0,101,0</INFO></NAVI> in the Lighthalzen Field."
+		},
+		Summary = "Go to Esna"
+	},
+	[17302] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"This is the final resource. Go to Juno and deliver it to the <NAVI>[President]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the President"
+	},
+	[17303] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to Mr. <NAVI>[Esna]<INFO>lhz_fild01,66,219,0,101,0</INFO></NAVI> in Lighthalzen Field and listen to everything he knows."
+		},
+		Summary = "Go to Esna"
+	},
+	[17304] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Go to Yuno right now and deliver the papers to <NAVI>[President]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the President"
+	},
+	[17305] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[President]<INFO>yuno_pre,69,17,0,101,0</INFO></NAVI> seems to be organizing his thoughts for a while at Yuno's official residence. Let's talk again in a minute."
+		},
+		Summary = "Wait for a while"
+	},
+	[17306] = {
+		Title = "The President",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Tell <NAVI>[Galstein]<INFO>lighthalzen,179,170,0,101,0</INFO></NAVI> in Lighthalzen that the secret wings can no longer be maintained."
+		},
+		Summary = "Galstein에게"
+	},
+	[17307] = {
+		Title = "Gatekeeper of Lasagna Cave",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Go find <NAVI>[Festival Director]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI> and leave quickly for Lasagna Cave!"
+		},
+		Summary = "Go to the Festival Director"
+	},
+	[17308] = {
+		Title = "Start of Festival",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring 1 each of the ingredients for making delicious noodles: Thin Noodles, Ribbon Noodles, Smooth Noodles and Pork Potatos. - <NAVI>[Festival Director]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>"
+		},
+		Summary = "Pork Potatos, Noodle Ingredients"
+	},
+	[17309] = {
+		Title = "Noodle Rolls",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"If you come to the Noodle Festival, you must try the noodles. If you visit <NAVI>[Noodle Maker Orcho]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>, you can taste the best noodles."
+		},
+		Summary = "Noodle Maker Orcho"
+	},
+	[17310] = {
+		Title = "Watermelon Dessert",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Do you remember cool and sweet desserts in the hot summer? If you go see <NAVI>[Agent Rami]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>, he will guide you through the event where you can get watermelon pudding."
+		},
+		Summary = "Agent Rami"
+	},
+	[17311] = {
+		Title = "Bad Noodle Hunt",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Have you ever heard of bad noodles? Go see <NAVI>[Agent Domi]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI> and get guidance on hunting bad noodles."
+		},
+		Summary = "Agent Domi"
+	},
+	[17312] = {
+		Title = "Delicacy Noodles",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"If you are interested in another lasagna noodle, I recommend <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>. You will definitely not be disappointed."
+		},
+		Summary = "Noodle Expert Nike"
+	},
+	[17313] = {
+		Title = "Ingredients for Noodles",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring <NAVI>[me]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI> 5 Thin Noodles from a small whirlpool, 5 Ribbon Noodles from a fancy star, 5 Smooth Noodles from a rocking tail, and 3 Pork Potatoes."
+		},
+		Summary = "Pork Potatos, Noodle Ingredients"
+	},
+	[17314] = {
+		Title = "[Standby] Noodle of the Day",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's event is being prepared. You can visit <NAVI>[Noodle Maker Orcho]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI> again after dawn."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17315] = {
+		Title = "Watermelon Fan",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Break ripe watermelons buried in the watermelon field to find promotional fans! You can collect 10 of them and bring them to <NAVI>[Agent Rami]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "10 promotional fans"
+	},
+	[17316] = {
+		Title = "[Standby] Watermelon Fan",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's event is over. You can participate again if you come to <NAVI>[Agent Rami]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI> after dawn."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17317] = {
+		Title = "Bad Noodle Hunt",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Kill 10 Bad Noodles and bring 10 Tough Noodles to <NAVI>[me]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Though Noodles x10"
+	},
+	[17318] = {
+		Title = "[Standby] Bad Noodle Hunt",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You must have put a lot of effort into catching the strong bad noodles, but please take a break today and enjoy the festival again after dawn! - <NAVI>[Agent Domi]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17319] = {
+		Title = "How to tell the same friend",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Can't you find out how to get to Lasagna Cave from my <NAVI>[friend]<INFO>lasagna,150,98,0,101,0,</INFO></NAVI> who lives next door?"
+		},
+		Summary = "Go to Chipotle"
+	},
+	[17320] = {
+		Title = "Advise an Expert",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Instead of asking me like this, how about asking a <NAVI>[fisherman]<INFO>lasagna,213,254,0,101,0,</INFO></NAVI> who is not afraid of water?"
+		},
+		Summary = "Go to the Fisherman"
+	},
+	[17321] = {
+		Title = "There is no other way",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Fishermen also say that there is no special method. Let's go back and talk to Mr. <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Go to Nike"
+	},
+	[17322] = {
+		Title = "Now!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I think I can go now! Come on! To <NAVI>[Lasagna Cave]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>!!"
+		},
+		Summary = "Lasagna Cave"
+	},
+	[17323] = {
+		Title = "I can't either",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"One fish tail, one ink, one smooth noodle, one pork potato, please! - <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>"
+		},
+		Summary = "Ingredients for Noodles"
+	},
+	[17324] = {
+		Title = "Please tell me this",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Adventurer, please pass this on to my <NAVI>[younger brother]<INFO>lasagna,83,189,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Go to Po"
+	},
+	[17325] = {
+		Title = "No matter whose hand it is",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Now that we've finished eating, let's go talk to <NAVI>[brother]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Go to Nike"
+	},
+	[17326] = {
+		Title = "Ingredients for Delicacy Noodles",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Thank you as always. Then, I would like 1 Fish Tail, Ink, Pork Potato, and 5 Smooth Noodles please. - <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>"
+		},
+		Summary = "Pork Potatoes, Various Ingredients"
+	},
+	[17327] = {
+		Title = "[Standby] Delicacy Noodles",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"It's been a while since you participated in an event, right? The rule is once a day, so I can't do it even now, so I'll take a break and come back, okay? - <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17328] = {
+		Title = "Coupon: Noodle Event Completed",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"How was today's noodles? If you have completed all the events, go to the <NAVI>[Coupon Receptionist]<INFO>lasagna,83,206,0,101,0,</INFO></NAVI> and stamp the coupon!"
+		},
+		Summary = "Check out the Noodle Maker Orcho"
+	},
+	[17329] = {
+		Title = "Coupon: Watermelon Dessert Completed",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You have completed the watermelon breaking event. If you have completed all 4 events, go to <NAVI>[Coupon Receptionist]<INFO>lasagna,83,206,0,101,0,</INFO></NAVI> and stamp the coupon!!"
+		},
+		Summary = "Confirmation of progress with Agent Rami"
+	},
+	[17330] = {
+		Title = "Coupon: Bad Noodles Done",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You caught all the bad noodles. If you have completed all 4 events, go to <NAVI>[Coupon Receptionist]<INFO>lasagna,83,206,0,101,0,</INFO></NAVI> and stamp the coupon."
+		},
+		Summary = "Confirmation of progress with Agent Domi"
+	},
+	[17331] = {
+		Title = "Coupon: Delicacy Noodles completed",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You had a delicacy noodle experience. If you have completed all 4 events <NAVI>[Coupon Receptionist]<INFO>malangdo,141,155,0,101,0,</INFO></NAVI> and stamp the coupon."
+		},
+		Summary = "Noodle Expert Nike Check"
+	},
+	[17332] = {
+		Title = "Coupon: Hat Exchange",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I gave you a hat. Enjoy the happy festivities!"
+		},
+		Summary = "Check Hat Exchange"
+	},
+	[17333] = {
+		Title = "Mansion Guest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It seems that there was a problem while sharing the guest list through the network in the mansion. Let's check with the <NAVI>[Mansion Manager Alpha]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Mansion Manager Alpha"
+	},
+	[17334] = {
+		Title = "Repeater Check: Restaurant",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It would be better to go to the nearest <NAVI>[restaurant]<INFO>ba_maison,146,109,0,101,0</INFO></NAVI>. Report the failure to the automaton near the broken repeater and it will take care of it."
+		},
+		Summary = "Go to the Restaurant"
+	},
+	[17335] = {
+		Title = "Repeater Parts",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"After dealing with the broken beta, bring me only one automaton communication chip. I need to fix the repeater right away. - <NAVI>[Tasty]<INFO>ba_maison,146,109,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Part 1"
+	},
+	[17336] = {
+		Title = "Repeater Check: Pavilion",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The <NAVI>[Pavilion]<INFO>ba_maison,334,143,0,101,0</INFO></NAVI> is along this road. Don't touch the broken repeater and talk to the nearby automatons."
+		},
+		Summary = "Go to Pavilion"
+	},
+	[17337] = {
+		Title = "Repeater Check: Central Garden",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"To access the <NAVI>[Central Garden]<INFO>ba_maison,245,206,0,101,0</INFO></NAVI> of the mansion, go straight up from the pavilion and turn left."
+		},
+		Summary = "Go to the Central Garden"
+	},
+	[17338] = {
+		Title = "Repeater verification complete",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"After checking the broken repeater, the trouble was reported to the automaton. Report back to <NAVI>[Mansion Manager Alpha]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Mansion Manager Alpha"
+	},
+	[17339] = {
+		Title = "Supply of Spare Parts",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I was asked to bring spare parts."
+		},
+		Summary = "Parts Supply"
+	},
+	[17340] = {
+		Title = "Supply of Spare Parts",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Deal with the broken betas and bring me 10 parts for the repeater. That's the equivalent of a daily reserve. - <NAVI>[Mansion Manager Alpha]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>"
+		},
+		Summary = "10 Parts"
+	},
+	[17341] = {
+		Title = "[Standby] No Signal",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"If circumstances allow, I would like to ask you again after dawn tomorrow. Get some rest. - <NAVI>[Mansion Manager Alpha]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17342] = {
+		Title = "I don't like it",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Then may I ask you a favor. Please take care of about 5 Broken Cleaning Robots. So, I hope you enjoy the game. - <NAVI>[Chirp]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"
+		},
+		Summary = "5x Broken Cleaning Robot"
+	},
+	[17343] = {
+		Title = "I'm scared...",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Go down the <NAVI>[stairs]<INFO>ba_2whs01,276,290,0,101,0</INFO></NAVI> and check the conditions underground before coming."
+		},
+		Summary = "Underground situation check"
+	},
+	[17344] = {
+		Title = "I don't have a key",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The door leading to the stairs is firmly locked with a padlock. I need to get the key from <NAVI>[Twit]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Twit"
+	},
+	[17345] = {
+		Title = "Staircase Key 1",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[The world spinning]<INFO>ba_2whs01,110,218,0,101,0</INFO></NAVI>. He said all the truth lies under it."
+		},
+		Summary = "Find an Emergency Key"
+	},
+	[17346] = {
+		Title = "Staircase Key 2",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"He said that in <NAVI>[a place]<INFO>ba_2whs01,14,282,0,101,0</INFO></NAVI> where even breath freezes, everything will remain as it is without ever changing."
+		},
+		Summary = "Find an Emergency Key"
+	},
+	[17347] = {
+		Title = "Staircase Key 3",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"He said that all air must flow. He also said that a huge amount of energy is used there. I can't even guess where <NAVI>[that place]<INFO>ba_2whs01,222,257,0,101,0</INFO></NAVI> is."
+		},
+		Summary = "Find an Emergency Key"
+	},
+	[17348] = {
+		Title = "Secure the Key",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Now that you've found all the emergency keys, let's go open the <NAVI>[locked door]<INFO>ba_2whs01,276,290,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the door for the stairwell"
+	},
+	[17349] = {
+		Title = "The door is open",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The door to the basement opened. Let's go down and check <NAVI>[where the sound comes from]<INFO>ba_2whs02,37,312,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go underground"
+	},
+	[17350] = {
+		Title = "Head Body Arms Legs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Where the body is]<INFO>ba_2whs02,31,50,0,101,0</INFO></NAVI> is the closest, so it's okay to go there first. Get it fast. I'm scared."
+		},
+		Summary = "Go find the Body"
+	},
+	[17351] = {
+		Title = "Head Body Arms Legs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Now that I've found the body, I'll go find the <NAVI>[arm]<INFO>ba_2whs02,129,82,0,101,0</INFO></NAVI> next."
+		},
+		Summary = "Go find an Arm"
+	},
+	[17352] = {
+		Title = "Head Body Arms Legs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Now that I've found the arm, I'll go find the <NAVI>[leg]<INFO>ba_2whs02,239,124,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go find a Leg"
+	},
+	[17353] = {
+		Title = "Head Body Arms Legs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Now that you've found something useful with your body, arms, and legs, let's go back to the <NAVI>[head]<INFO>ba_2whs02,37,312,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go find the Head"
+	},
+	[17354] = {
+		Title = "Head Body Arms Legs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Assembled into a nice shape."
+		},
+		Summary = "Assembly completed"
+	},
+	[17355] = {
+		Title = "Head Body Arms Legs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Assembled into a nice shape."
+		},
+		Summary = "Assembly completed"
+	},
+	[17356] = {
+		Title = "Head Body Arms Legs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Assembled into a nice shape."
+		},
+		Summary = "Assembly completed"
+	},
+	[17357] = {
+		Title = "Head Body Arms Legs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Assembled into a nice shape."
+		},
+		Summary = "Assembly completed"
+	},
+	[17358] = {
+		Title = "Underground Status Check completed",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"This is enough to protect me! You said you had to go up and report to the other <NAVI>[automatic dolls]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>, right? Come on."
+		},
+		Summary = "Go to Twit"
+	},
+	[17359] = {
+		Title = "First Warehouse Floor Cleanup",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"You really like fighting. Then, please take care of the 20 Heart Hunter Skirmishers on the ground floor. - <NAVI>[Chirp]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"
+		},
+		Summary = "20x Heart Hunter Skirmisher"
+	},
+	[17360] = {
+		Title = "[Standby] First Warehouse Floor Cleanup",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"It is confirmed that the population has decreased. I can start my work now. thank you Please visit us again after dawn. - <NAVI>[Chirp]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17361] = {
+		Title = "Underground Warehouse Cleanup",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"You really like fighting. Then, please take care of the 20 Broken Warehouse Managers in the basement. - <NAVI>[Chirp]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"
+		},
+		Summary = "20x Broken Warehouse Managers"
+	},
+	[17362] = {
+		Title = "[Standby] Underground Warehouse Cleanup",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"It is confirmed that the population has decreased. I can start my work now. thank you Please visit us again after dawn. - <NAVI>[Chirp]<INFO>ba_2whs01,150,51,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17363] = {
+		Title = "Explore the Bathhouse",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"As soon as you enter <NAVI>[inside]<INFO>ba_bath,165,43,0,101,0</INFO></NAVI> the bathhouse, you'll start exploring."
+		},
+		Summary = "Go into the Bathhouse"
+	},
+	[17364] = {
+		Title = "Boiler Shutdown Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Adventurer, please go to the <NAVI>[Boiler Room]<INFO>ba_bath,286,68,0,101,0</INFO></NAVI> and request to turn off the boiler. I'll follow you soon."
+		},
+		Summary = "Go to the Boiler Room"
+	},
+	[17365] = {
+		Title = "Has it been stopped already?",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The boiler is said to have already stopped working. Let's report back to <NAVI>[Rookie]<INFO>ba_bath,270,94,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Rookie"
+	},
+	[17366] = {
+		Title = "So suddenly?",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It is said that if you step on the wrong drain while cleaning, it will fall into the lake instead of the sewage treatment plant, so there might be something. Take a look at <NAVI>[그곳]<INFO>ba_bath,165,43,0,101,0</INFO></NAVI> and come back."
+		},
+		Summary = "Explore the Lake"
+	},
+	[17367] = {
+		Title = "Take Countermeasures",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Whatever it is, I need to sort it out before I fall into a bigger mess. Adventurer, go to the <NAVI>[Resting Room]<INFO>ba_bath,203,58,0,101,0</INFO></NAVI> too."
+		},
+		Summary = "Go to the Resting Room"
+	},
+	[17368] = {
+		Title = "Trap Installation 1",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Adventurer, install this in the <NAVI>[corner]<INFO>ba_bath,55,55,0,101,0</INFO></NAVI> of the bathhouse. All you have to do is put it in place and secure it so it doesn't shake."
+		},
+		Summary = "Go to the designated place"
+	},
+	[17369] = {
+		Title = "Trap Installation 2",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"When the trap was fixed, cold air flowed out. Let's go to the next <NAVI>[place]<INFO>ba_bath,306,121,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the next place"
+	},
+	[17370] = {
+		Title = "Trap Installation 3",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I fixed the trap at the place Rookie told me about. Let's go to the next <NAVI>[place]<INFO>ba_bath,21,276,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the next place"
+	},
+	[17371] = {
+		Title = "Trap Installation 4",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Place the trap in the marked place and secure it firmly. Let's go to the next <NAVI>[place]<INFO>ba_bath,155,305,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the next place"
+	},
+	[17372] = {
+		Title = "Trap Installation completed",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Have you installed all the traps? This one has already started. Hurry up and move to the <NAVI>[Operation Site]<INFO>ba_bath,286,298,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Operation Site"
+	},
+	[17373] = {
+		Title = "Let's talk anyway",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The unknown <NAVI>[person]<INFO>ba_bath,286,298,0,101,0</INFO></NAVI> in the form of a monster seemed to be choosing what to say. Try talking again."
+		},
+		Summary = "Talk to the monster"
+	},
+	[17374] = {
+		Title = "Why did you do that?",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It looks like Rookie will start a full-fledged conversation with the  <NAVI>[monster]<INFO>ba_bath,286,298,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Monster"
+	},
+	[17375] = {
+		Title = "Boiler's Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Please take care of 20 Beta Cleaner and bring me 5 Broken Automatic Doll Parts. - <NAVI>[Boiler]<INFO>ba_bath,286,68,0,101,0</INFO></NAVI>"
+		},
+		Summary = "I heard the Boiler's Request"
+	},
+	[17376] = {
+		Title = "Help With Hard Work",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Please take care of 20 Beta Cleaner and bring me 5 Broken Automatic Doll Parts. - <NAVI>[Boiler]<INFO>ba_bath,286,68,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Deal with Broken Automata"
+	},
+	[17377] = {
+		Title = "[Standby] Help With Hard Work",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Take a break for today, I'll be grateful if you come back after dawn. - <NAVI>[Boiler]<INFO>ba_bath,286,68,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17378] = {
+		Title = "Sweeping Request",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Please hunt 15 Boiled Water Marcs and 15 Boiled Water Piranhas. Everything has to be dealt with in this. - <NAVI>[Sweep]<INFO>ba_bath,288,68,0,101,0</INFO></NAVI>"
+		},
+		Summary = "I heard the Sweeping Request."
+	},
+	[17379] = {
+		Title = "Bathhouse Cleanup",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Please hunt 15 Boiled Water Marcs and 15 Boiled Water Piranhas. Everything has to be dealt with in this. - <NAVI>[Sweep]<INFO>ba_bath,288,68,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Hunt 30 Fish-type monsters"
+	},
+	[17380] = {
+		Title = "[Standby] Bathhouse Cleanup",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"It would be nice to come back after dawn. The fish will be overflowing even then. - <NAVI>[Sweep]<INFO>ba_bath,288,68,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17381] = {
+		Title = "Join the Group",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Those of you who came earlier are currently staying at the <NAVI>[tea house]<INFO>ba_in01,206,106,0,101,0</INFO></NAVI>so please take a look around and have a chat with them."
+		},
+		Summary = "Go to the tea house"
+	},
+	[17382] = {
+		Title = "Make a Snow Bouquet",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Want to make a snow bouquet? Then, take 10x <ITEM>[Magical Snow Flower]<INFO>25425</INFO></ITEM> from the pupil and come back <NAVI>[here]<INFO>aldebaran,174,164,0,101,0</INFO></NAVI>."
+		},
+		Summary = "10x Magical Snow Flower"
+	},
+	[17383] = {
+		Title = "Make a Snow Bouquet",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The Snow Bouquet Making event will be handled by <NAVI>[Illusion Snow Magician]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI> from now on. Visit us if you are interested."
+		},
+		Summary = "Go to the Illusion Snow Magician"
+	},
+	[17384] = {
+		Title = "Heartwarming Winter Days",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"White snow in snowless regions and warm cotton clothes in cold regions! If you want to help warm up the winter, visit <NAVI>[Cotti]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI> and Woolsie."
+		},
+		Summary = "Go to Cotti"
+	},
+	[17385] = {
+		Title = "Festive Card Exchange",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Did you find a special card in your gift box? Then take it to <NAVI>[Twinkle]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI> and Bling. You will receive a special gift."
+		},
+		Summary = "Go to Twinkle"
+	},
+	[17386] = {
+		Title = "Interaction with visitors",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"How about enjoying the festival with the other <NAVI>[visitors]<INFO>aldebaran,162,127,0,101,0</INFO></NAVI> who came to the Snow Festival?"
+		},
+		Summary = "Go to the Clock Tower"
+	},
+	[17387] = {
+		Title = "Make a Snow Bouquet",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You need 10x <ITEM>[Magical Snow Flower]<INFO>25425</INFO></ITEM> to make a Snow Bouquet. The snowmen also want carrots to decorate their noses, so don't forget a <ITEM>[Carrot]<INFO>515</INFO></ITEM>. - <NAVI>[Marin]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI>"
+		},
+		Summary = "10x Magical Snow Flower, 1x Carrot"
+	},
+	[17388] = {
+		Title = "[Standby] The cold remains",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The effect of Magical Snow Flower still remains. Please come back after dawn. - <NAVI>[Marin]<INFO>aldebaran,172,162,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17389] = {
+		Title = "Heartwarming Winter Days",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Snow for children who can't see! Warm cotton clothes for children in cold regions! Please donate 10 <ITEM>[Warm Cotton]<INFO>25426</INFO></ITEM> to <NAVI>[us]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "10x Warm Cotton"
+	},
+	[17390] = {
+		Title = "[Standby] Cotton is being packed",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Som is packing now. I think the packing will end around dawn, but please come back after dawn! - <NAVI>[Cotti]<INFO>aldebaran,124,238,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17391] = {
+		Title = "Festive Card Exchange",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Adventurer's lucky word is DECEMBER!! Open the Snow Flower Card Envelope from your gift box. You just need to collect the D.E.C.E.M.B.E.R word cards in it. There are 8 sheets in total. - <NAVI>[Twinkle]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "COLLECT DECEMBER CARDS"
+	},
+	[17392] = {
+		Title = "Festive Card Exchange",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Adventurer's lucky word is SNOW!! Open the Snow Flower Card Envelope from your gift box. You just need to collect the S.N.O.W word cards in it. It's a total of 4 sheets. - <NAVI>[Twinkle]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "COLLECT SNOW CARDS"
+	},
+	[17393] = {
+		Title = "Festive Card Exchange",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The adventurer's lucky word is FESTIVAL!! Open the Snow Flower Card Envelope from your gift box. You just need to collect the F.E.S.T.I.V.A.L word cards in it. There are 8 sheets in total. - <NAVI>[Twinkle]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "COLLECT FESTIVAL CARDS"
+	},
+	[17394] = {
+		Title = "Festive Card Exchange",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Adventurer's lucky word is WHITE!! Open the Snow Flower Card Envelope from your gift box. You just need to collect the W.H.I.T.E word cards in it and bring them. There are 5 sheets in total. - <NAVI>[Twinkle]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "COLLECT WHITE CARDS"
+	},
+	[17395] = {
+		Title = "[Standby] Card exchange once a day",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Word card exchange is once a day. Did you know? So come back after dawn! - <NAVI>[Twinkle]<INFO>aldebaran,217,212,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17396] = {
+		Title = "Stop Time",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Soothe the crying <NAVI>[Sparkle]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI> and listen to her story."
+		},
+		Summary = "Talk to Sparkle"
+	},
+	[17397] = {
+		Title = "Stop Time",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring me 3x Sweet Potato, 3x Milk and the Blue Card L, O, V, and E one of each! - <NAVI>[Sparkle]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Preparing Winter Snack of Love"
+	},
+	[17398] = {
+		Title = "Stop Time",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Right! Come on, let's bring these lovely snacks to the <NAVI>[Villain]<INFO>aldebaran,242,118,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Winter Snacks for Villains 1"
+	},
+	[17399] = {
+		Title = "Stop Time",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Come on, let's bring these snacks to the next <NAVI>[Villain]<INFO>aldebaran,36,78,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Winter Snacks for Villains 2"
+	},
+	[17400] = {
+		Title = "Stop Time",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's go to the last <NAVI>[Villain]<INFO>aldebaran,138,181,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Winter Snacks for Villains 3"
+	},
+	[17401] = {
+		Title = "Stop Time",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Now let’s go back to the Clock Tower and stop the <NAVI>[Villain Boss]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI>  from executing their plan!"
+		},
+		Summary = "Go to the Clock Tower"
+	},
+	[17402] = {
+		Title = "Need Attention",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I thought even the villains would like a winter snack. Grab 3 Sweet Potatoes and 5 of your gift boxes and bring me 3 Snow Flower Card Envelopes! - <NAVI>[Sparkle]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Gift for Villains"
+	},
+	[17403] = {
+		Title = "[Standby] Need Attention",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I thought winter snacks and affectionate cards would work. Get some rest now and help again after dawn. - <NAVI>[Sparkle]<INFO>aldebaran,159,127,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17408] = {
+		Title = "Thanatos Tower Mercenary Contract",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The Thanatos Tower mercenary contract with Reken Versa has been completed."
+		},
+		Summary = "Contract completed"
+	},
+	[17409] = {
+		Title = "Holding the Red Key",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you hold the Red Key, it trembles faintly and you feel a weak force. Let's go to where the force <NAVI>[leads]<INFO>tha_t03,70,70,0,101,0</INFO></NAVI> to."
+		},
+		Summary = "Where the power leads to"
+	},
+	[17410] = {
+		Title = "Holding the Yellow Key",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you hold the Yellow Key, it trembles faintly and you feel a weak force. Let's go to where the force <NAVI>[leads]<INFO>tha_t04,199,199,0,101,0</INFO></NAVI> to."
+		},
+		Summary = "Where the power leads to"
+	},
+	[17411] = {
+		Title = "Holding the Blue Key",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you hold the Blue Key, it trembles faintly and you feel a weak force. Let's go to where the force <NAVI>[leads]<INFO>tha_t05,62,184,0,101,0</INFO></NAVI> to."
+		},
+		Summary = "Where the power leads to"
+	},
+	[17412] = {
+		Title = "Holding the Green Key",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you hold the Green Key, it trembles faintly and you feel a weak force. Let's go to where the force <NAVI>[leads]<INFO>tha_t06,221,230,0,101,0</INFO></NAVI> to."
+		},
+		Summary = "Where the power leads to"
+	},
+	[17413] = {
+		Title = "Holding the Black Key",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"When you hold the Black Key, it trembles faintly and you feel a weak force. Let's go to where the force <NAVI>[leads]<INFO>tha_t06,200,181,0,101,0</INFO></NAVI> to."
+		},
+		Summary = "Where the power leads to"
+	},
+	[17414] = {
+		Title = "Secrets of the Thanatos Tower",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Show the obtained notebook to <NAVI>[Bled Conceed]<INFO>tha_t02,231,161,0,101,0</INFO></NAVI>에게 보여주me."
+		},
+		Summary = "Go to Bled Conceed"
+	},
+	[17415] = {
+		Title = "Request accepted",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"You have accepted Solis' request."
+		},
+		Summary = "Request accepted"
+	},
+	[17416] = {
+		Title = "Monsters on the 9th floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"On the 9th floor of Thanatos Tower, fight 20 Crow Dukes and 20 Crow Barons each. If you bring 10 Fragment of Misery, we'll give you an extra reward. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = "10x Fragment of Misery"
+	},
+	[17417] = {
+		Title = "Monsters on the 10th floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"On the 10th floor of Thanatos Tower, you have to deal with 15 each of Void Mimic, Book of Death, and Eldest. If you bring 10 Fragments of Despair, I'll give you an extra reward. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = "10x Fragment of Despair"
+	},
+	[17418] = {
+		Title = "Monsters on the 11th floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"On the 11th floor of Thanatos Tower, you can deal with 15 Empathizer and 15 Happiness Giver each. If you bring 10 Fragment of Hatred, I'll give you an extra bonus. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = "10x Fragment of Hatred"
+	},
+	[17419] = {
+		Title = "Monsters on the 11th floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"On the 11th floor of Thanatos Tower, you have to deal with 15 of each of Pray Giver and Smile Giver. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = ""
+	},
+	[17420] = {
+		Title = "Monsters on the 12th floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"On the 12th floor of Thanatos Tower, you have to deal with 10 of each of Anger of Thanatos and Horror of Thanatos. If you bring 10 Fragment of Agony, I'll give you an extra reward. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = "10x Fragment of Agony"
+	},
+	[17421] = {
+		Title = "Monsters on the 12th floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"On the 12th floor of Thanatos Tower, you have to deal with 10 each of Regret of Thanatos and Resentment of Thanatos. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = ""
+	},
+	[17422] = {
+		Title = "[Standby] Thanatos Tower 9th Floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"We need to organize the materials, so please come back after dawn. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17423] = {
+		Title = "[Standby] Thanatos Tower 10th Floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"We need to organize the materials, so please come back after dawn. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17424] = {
+		Title = "[Standby] Thanatos Tower 11th Floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"We need to organize the materials, so please come back after dawn. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17425] = {
+		Title = "[Standby] Thanatos Tower 12th Floor",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"We need to organize the materials, so please come back after dawn. - <NAVI>[Solis]<INFO>tha_t01,161,78,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17450] = {
+		Title = "4th Job Advancement: New Performance Hall",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Let's go to <NAVI>[North of the Odin Temple]<INFO>odin_tem03,193,301,0,101,0</INFO></NAVI> where there is a new performance hall."
+		},
+		Summary = "Go to the Odin Temple"
+	},
+	[17451] = {
+		Title = "4th Job Advancement: Piece of Inspiration 1",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Go near <NAVI>[Audumla Grassland]<INFO>ra_fild05,50,308,0,101,0</INFO></NAVI>. The wind caressing the earth must have inspired the people of old."
+		},
+		Summary = "Piece of Inspiration 1"
+	},
+	[17452] = {
+		Title = "4th Job Advancement: Piece of Inspiration 1",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I need to catch wind elemental monsters of level 105 or higher and fill the <NAVI>[crystal]<INFO>ra_fild05,50,308,0,101,0</INFO></NAVI> with wind energy."
+		},
+		Summary = "Piece of Inspiration 1"
+	},
+	[17453] = {
+		Title = "4th Job Advancement: Piece of Inspiration 2",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"When I held the crystal in my hand, I felt the sound of the <NAVI>[earth]<INFO>lasa_dun02,180,172,0,101,0</INFO></NAVI> enveloping my body."
+		},
+		Summary = "Piece of Inspiration 2"
+	},
+	[17454] = {
+		Title = "4th Job Advancement: Piece of Inspiration 2",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I need to catch earth elemenal monsters of level 130 or higher and fill the <NAVI>[crystal]<INFO>lasa_dun02,180,172,0,101,0</INFO></NAVI> with the energy of the earth."
+		},
+		Summary = "Piece of Inspiration 2"
+	},
+	[17455] = {
+		Title = "4th Job Advancement: Piece of Inspiration 3",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"When I hold the crystal in my hand, I feel the voice of <NAVI>[heaven]<INFO>tha_t11,13,84,0,101,0</INFO></NAVI> enveloping my body."
+		},
+		Summary = "Piece of Inspiration 3"
+	},
+	[17456] = {
+		Title = "4th Job Advancement: Piece of Inspiration 3",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I need to catch angel-type monsters of level 180 or higher and fill the <NAVI>[crystal]<INFO>tha_t11,13,84,0,101,0</INFO></NAVI> with angelic energy."
+		},
+		Summary = "Piece of Inspiration 3"
+	},
+	[17457] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"The moving piece should be heading towards <NAVI>[Lutie]<INFO>xmas,82,146,0,101,0</INFO></NAVI>. People in cold places are especially well-developed as artists."
+		},
+		Summary = "Touching Piece 1"
+	},
+	[17458] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"A hot heart keeps rising from a while ago, right? I think the other piece is on the <NAVI>[Morroc]<INFO>morocc,100,31,0,101,0</INFO></NAVI> side."
+		},
+		Summary = "Touching Piece 2"
+	},
+	[17459] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I hear a sound that sounds like a ringing in an oyster. This, right? Maybe there are other pieces in the <NAVI>[Einbech Mine]<INFO>ein_dun01,43,271,0,101,0</INFO></NAVI>?"
+		},
+		Summary = "Touching Piece 3"
+	},
+	[17460] = {
+		Title = "4th Job Advancement: Defragmentation completed",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Now that you've collected all the pieces, go report back to the <NAVI>[Historian]<INFO>odin_tem03,193,301,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Historian"
+	},
+	[17461] = {
+		Title = "4th Job Advancement: New Performance Hall",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Let's go to <NAVI>[North of the Odin Temple]<INFO>odin_tem03,193,301,0,101,0</INFO></NAVI> where there is a new performance hall."
+		},
+		Summary = "Go to the Odin Temple"
+	},
+	[17462] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Go to <NAVI>[Realm of the Dead]<INFO>niflheim,331,267,0,101,0</INFO></NAVI>. Fear and pity for the dead give people various inspirations."
+		},
+		Summary = "Piece of Inspiration 1"
+	},
+	[17463] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I need to catch shadow elemental monsters of level 105 or higher and fill the <NAVI>[crystal]<INFO>niflheim,331,267,0,101,0</INFO></NAVI> with the energy of shadow."
+		},
+		Summary = "Piece of Inspiration 1"
+	},
+	[17464] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"When I hold the crystal in my hand, I feel a <NAVI>[burning]<INFO>thor_v01,281,233,0,101,0</INFO></NAVI> energy enveloping my body."
+		},
+		Summary = "Piece of Inspiration 2"
+	},
+	[17465] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I need to catch fire elemental monsters of level 130 or higher and fill the <NAVI>[crystal]<INFO>thor_v01,281,233,0,101,0</INFO></NAVI> with fire energy."
+		},
+		Summary = "Piece of Inspiration 2"
+	},
+	[17466] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"When I hold the crystal in my hand, I feel a <NAVI>[mysterious]<INFO>abyss_03,107,114,0,101,0</INFO></NAVI> energy enveloping my body."
+		},
+		Summary = "Piece of Inspiration 3"
+	},
+	[17467] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I need to catch dragon-type monsters of level 180 or higher and fill the <NAVI>[crystal]<INFO>abyss_03,107,114,0,101,0</INFO></NAVI> with dragon energy."
+		},
+		Summary = "Piece of Inspiration 3"
+	},
+	[17468] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Go to the largest <NAVI>[church]<INFO>prt_church,94,116,0,101,0</INFO></NAVI>. It could have been because he heard the song of a person who praised God loudly."
+		},
+		Summary = "Piece of Inspiration 1"
+	},
+	[17469] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"The sound of the waves... it suddenly comes to mind. Go to <NAVI>[Comodo Beach]<INFO>cmd_fild02,47,85,0,101,0</INFO></NAVI>. I don't know, but I think that's where adventurers are drawn."
+		},
+		Summary = "Piece of Inspiration 2"
+	},
+	[17470] = {
+		Title = "4th Job Advancement: Defragmentation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Where you got your first job. I think you can get the answer from <NAVI>[there]<INFO>payon,62,157,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Piece of Inspiration 3"
+	},
+	[17471] = {
+		Title = "4th Job Advancement: Defragmentation completed",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Now that you've collected all the pieces, go report back to the <NAVI>[Historian]<INFO>odin_tem03,193,301,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Historian"
+	},
+	[17472] = {
+		Title = "4th Job Advancement: Venue?",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Have you been to the new performance hall? Oops... For now, go down to the <NAVI>[basement]<INFO>job4_tro,51,47,0,101,0</INFO></NAVI>. More details will be shared there."
+		},
+		Summary = "Go Underground"
+	},
+	[17473] = {
+		Title = "4th Job Advancement: Detailed Explanation",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I don't know much about the technical stuff, so talk to <NAVI>[Heren]<INFO>job4_tro,53,50,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to the Historian"
+	},
+	[17474] = {
+		Title = "4th Job Advancement: Ritual Procedure",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Place your hand when the spring of the guardian water is activated. If it's not activated, tell <NAVI>[me]<INFO>job4_tro,53,50,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Guardian's Spring"
+	},
+	[17475] = {
+		Title = "4th Job Advancement: Kvasir's Cube",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Drive out all the voids and fill the 12 altars with pieces of inspiration and touching pieces. - <NAVI>[Heren]<INFO>job4_tro,53,50,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Recovery Ritual"
+	},
+	[17499] = {
+		Title = "4th Job Change Notification Email sent",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"We have sent a email to those who are eligible for the 4th job change."
+		},
+		Summary = "Email sent"
+	},
+	[17500] = {
+		Title = "Hat Presentation completed",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"A Snow Flower Festival commemorative hat was presented."
+		},
+		Summary = ""
+	},
+	[17501] = {
+		Title = "Snow Flower complete",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I finished weaving the snow bouquet."
+		},
+		Summary = ""
+	},
+	[17502] = {
+		Title = "Heartwarming Winter Days are over",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We finished donating Warm Cotton."
+		},
+		Summary = ""
+	},
+	[17503] = {
+		Title = "Festival Card complete",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The Festival Card has been exchanged."
+		},
+		Summary = ""
+	},
+	[17504] = {
+		Title = "Clinic Construction",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Adventurer, let me ask you a favor. A state-of-the-art clinic is essential here. Please convince <NAVI>[the elders]<INFO>wolfvill,176,111,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Persuading the elders"
+	},
+	[17505] = {
+		Title = "Clinic Construction",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"As for the clinic, we'll go and talk to <NAVI>[him]<INFO>wolfvill,171,253,0,101,0</INFO></NAVI> one more time later, so you'd better stay out of this."
+		},
+		Summary = "Persuasion failed"
+	},
+	[17506] = {
+		Title = "Clinic Construction",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Almost anything can be found <NAVI>[here]<INFO>wolfvill,171,253,0,101,0</INFO></NAVI>, but not just steel. A little please. Only about 3..."
+		},
+		Summary = "3 Steel"
+	},
+	[17507] = {
+		Title = "Clinic Construction",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's watch <NAVI>[Ezekiel]<INFO>wolfvill,171,253,0,101,0</INFO></NAVI> heal."
+		},
+		Summary = "Course of Treatment"
+	},
+	[17508] = {
+		Title = "Shortage of Materials",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Please give me 1 Steel and 10 Very Unusual Crystal. Very Unusual Crystal can be randomly obtained from Gray Wolves. - <NAVI>[Ezekiel]<INFO>wolfvill,171,253,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Building Material"
+	},
+	[17509] = {
+		Title = "[Standby] Shortage of Materials",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Adventurer, you've worked hard. Take a break today and see you again after dawn! - <NAVI>[Ezekiel]<INFO>wolfvill,171,253,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17510] = {
+		Title = "Training Grey Wolves",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"All you have to do is check whether <NAVI>[Aisha]<INFO>wolfvill,99,178,0,101,0</INFO></NAVI> picked up a real wolf cub or a puppy that looks like a wolf."
+		},
+		Summary = "Go to Aisha"
+	},
+	[17511] = {
+		Title = "Training Grey Wolves",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"As long as there is meat, <NAVI>[Boksil's]<INFO>wolfvill,100,177,0,101,0</INFO></NAVI> training is no problem. One is enough."
+		},
+		Summary = "Bring 1 Meat to Boksil"
+	},
+	[17512] = {
+		Title = "Training Grey Wolves",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's go show <NAVI>[Scania]<INFO>wolfvill,117,119,0,101,0</INFO></NAVI> that Boksil is ready to live as a member of this village!"
+		},
+		Summary = "Go to Scania"
+	},
+	[17513] = {
+		Title = "An Unexpected Shepherd",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Boksil likes to graze in the <NAVI>[Forest]<INFO>gw_fild01,138,106,0,101,0</INFO></NAVI>. Watch over them while they graze."
+		},
+		Summary = "Go to the Forest"
+	},
+	[17514] = {
+		Title = "An Unexpected Shepherd",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Defeat Ashrings while <NAVI>[Boksil's]<INFO>gw_fild01,138,106,0,101,0</INFO></NAVI> is grazing."
+		},
+		Summary = "20x Ashrings"
+	},
+	[17515] = {
+		Title = "An Unexpected Shepherd",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After grazing, Boksil must have returned to <NAVI>[Scania]<INFO>wolfvill,117,119,0,101,0</INFO></NAVI>. Let's go and report back."
+		},
+		Summary = "Go to Scania"
+	},
+	[17516] = {
+		Title = "[Standby] An Unexpected Shepherd",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Adventurer, you've worked hard. Then again tomorrow, please! - <NAVI>[Scania]<INFO>wolfvill,117,119,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17517] = {
+		Title = "Rebel",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It's an upper raid. I'll have to meet those <NAVI>[guys]<INFO>wolfvill,131,257,0,101,0</INFO></NAVI> first."
+		},
+		Summary = "Fact Check"
+	},
+	[17518] = {
+		Title = "Rebel",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Despite the relatively light disposition, <NAVI>[Wolves]<INFO>wolfvill,131,257,0,101,0</INFO></NAVI> seem to have a lot of complaints."
+		},
+		Summary = "People which rebel"
+	},
+	[17519] = {
+		Title = "Rebel",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Well, since it's been decided, let's hurry up. Tell them to gather in front of Rachel's <NAVI>[Temple]<INFO>rachel,169,245,0,101,0</INFO></NAVI> for a demonstration."
+		},
+		Summary = "Protest stop!"
+	},
+	[17520] = {
+		Title = "Wolf in Sheep's Wool",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Join the protest at the <NAVI>[Temple]<INFO>rachel,169,245,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Temple"
+	},
+	[17521] = {
+		Title = "When you need to talk",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"If you've gotten around to it, move quickly. Everyone is moving to <NAVI>[safe]<INFO>rachel,116,200,0,101,0</INFO></NAVI> places."
+		},
+		Summary = "Let's dodge quickly"
+	},
+	[17522] = {
+		Title = "Renegade Cleaning",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"The main force that infiltrated the temple has escaped, but please clean up the temple guards who have gone over to the Heart Hunter! - <NAVI>[Priestess]<INFO>rachel,169,245,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Wipe out the Renegade"
+	},
+	[17523] = {
+		Title = "Sanctuary Cleansing",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"The remnants of the Heart Hunters that haunt the Heart Vault remain, which is a headache. Please join us in the sweeping operation! - <NAVI>[Priestess]<INFO>rachel,169,245,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Heart Hunter Remnant Clearance"
+	},
+	[17524] = {
+		Title = "Renegade Cleaning",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Finished the sweeping operation of the defecting guards. Let's report back to the <NAVI>[Priestess]<INFO>rachel,169,245,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Report to the Priestess"
+	},
+	[17525] = {
+		Title = "When you need to talk",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Miriam said she had someone to accompany her, and asked to meet them separately in the Oz's Labyrinth. There is a place where the Oz's Labyrinth is revealed outside the cliff. Let's wait at the <NAVI>[meeting place]<INFO>oz_dun01,223,116,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the meeting place"
+	},
+	[17526] = {
+		Title = "Sanctuary Cleansing",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"The operation to clear the Heart Hunters in the archives has been completed. Let's report back to the <NAVI>[Priestess]<INFO>rachel,169,245,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Report to the Priestess"
+	},
+	[17527] = {
+		Title = "[Standby] Sweep Operation",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Thank you for your cooperation, adventurer. Take a break today and ask for your cooperation again tomorrow! - <NAVI>[Priestess]<INFO>rachel,169,245,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17528] = {
+		Title = "Basic Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Meet the managers who will continue to provide equipment in the future. First, it would be a good idea to meet <NAVI>[Thorn]<INFO>moc_para01,110,87,0,101,0,</INFO></NAVI>, the manager in charge of armor."
+		},
+		Summary = "Manager Thorn"
+	},
+	[17529] = {
+		Title = "Basic Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Next, meet <NAVI>[Michael]<INFO>moc_para01,110,83,0,101,0,</INFO></NAVI>, who is in charge of advanced weapons."
+		},
+		Summary = "Manager Michael"
+	},
+	[17530] = {
+		Title = "Basic Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Now it's your turn to get the equipment you can use now. Come on, go to <NAVI>[BK]<INFO>moc_para01,110,79,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Manager BK"
+	},
+	[17531] = {
+		Title = "Basic Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You can go to <NAVI>[Ur]<INFO>moc_para01,23,31,0,101,0,</INFO></NAVI> and tell him that you have received your the basic equipment."
+		},
+		Summary = "Report to Instructor Ur"
+	},
+	[17532] = {
+		Title = "Shadow Paradise Equipment provided",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you want to receive additional equipment, talk to <NAVI>[Boya]<INFO>moc_para01,25,31,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Consult Instructor Boya"
+	},
+	[17533] = {
+		Title = "Shadow Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you need shadow gear, see the manager <NAVI>[Emil]<INFO>moc_para01,110,91,0,101,0,</INFO></NAVI> in the armory."
+		},
+		Summary = "Manager Emil"
+	},
+	[17534] = {
+		Title = "Shadow Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Report to <NAVI>[Boya]<INFO>moc_para01,25,31,0,101,0,</INFO></NAVI> that you received your Shadow equipment. It is difficult if payment records are not reported."
+		},
+		Summary = "Report to Instructor Boya"
+	},
+	[17535] = {
+		Title = "Basic Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you don't have any useful basic equipment, talk to the instructor named <NAVI>[Ur]<INFO>moc_para01,23,31,0,101,0,</INFO></NAVI> next to you about basic equipment."
+		},
+		Summary = "Consult Instructor Ur"
+	},
+	[17536] = {
+		Title = "Advanced Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you bring 15 Elastic Band and 3 Blue Hair to <NAVI>[Thorn]<INFO>moc_para01,110,87,0,101,0,</INFO></NAVI>, you can receive Advanced Armor."
+		},
+		Summary = "Material for Armor"
+	},
+	[17537] = {
+		Title = "Advanced Paradise Equipment",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"If you bring 15 Old Pick to <NAVI>[Michael]<INFO>moc_para01,110,83,0,101,0,</INFO></NAVI>, he will give you an Advanced Weapon."
+		},
+		Summary = "Material for Weapon"
+	},
+	[17538] = {
+		Title = "Sky Emperor: Are you calling me?",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"If you think you have better and superior abilities than others, come to <NAVI>[me]<INFO>mjolnir_03,280,252,0,101,0,</INFO></NAVI> and spread your will!"
+		},
+		Summary = "Where the sign guides you to"
+	},
+	[17539] = {
+		Title = "Sky Emperor: First Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"If you come to help others, I will help you too. There is a <NAVI>[person]<INFO>veins,238,110,0,101,0,</INFO></NAVI> who has made a wish for me, so I can go there."
+		},
+		Summary = "Where you might need help"
+	},
+	[17540] = {
+		Title = "Sky Emperor: First Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Please save me as quickly as possible. <NAVI>[I]<INFO>veins,238,110,0,101,0,</INFO></NAVI> will stay here. You need 3 Sticky Poisons, 20 Maneater Blossoms and 3 Maneater Roots."
+		},
+		Summary = "Find the medicine"
+	},
+	[17541] = {
+		Title = "Sky Emperor: Second Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I've heard that some kind of ghost is appearing in the <NAVI>[mine]<INFO>einbech,156,243,0,101,0,</INFO></NAVI> of Einbech. It seemed like he was looking for someone to deal with it."
+		},
+		Summary = "Einbech"
+	},
+	[17542] = {
+		Title = "Sky Emperor: Second Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Just get rid of 10 White Minerals. As long as I can work right now, that's enough. <NAVI>[We]<INFO>einbech,156,243,0,101,0,</INFO></NAVI> will do our best to do the rest."
+		},
+		Summary = "Extermination of Ghosts"
+	},
+	[17543] = {
+		Title = "Sky Emperor: Third Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Go find <NAVI>[M]<INFO>morocc,237,73,0,101,0,</INFO></NAVI> in Morocc. I couldn't ask what was going on, but it looked very troubling."
+		},
+		Summary = "Morroc"
+	},
+	[17544] = {
+		Title = "Sky Emperor: Third Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"We've tracked the sandstorm flow and marked a few suspicious places, so please focus on those areas.",
+			"<NAVI>[Marked Place]<INFO>moc_fild12,232,228,0,101,0,</INFO></NAVI>",
+			"<NAVI>[Marked Place]<INFO>moc_fild12,234,59,0,101,0,</INFO></NAVI>",
+			"<NAVI>[Marked Place]<INFO>moc_fild18,125,222,0,101,0,</INFO></NAVI>",
+			"<NAVI>[Marked Place]<INFO>moc_fild18,314,192,0,101,0,</INFO></NAVI>",
+			"<NAVI>[Marked Place]<INFO>moc_fild17,219,258,0,101,0,</INFO></NAVI>"
+		},
+		Summary = "Finding a Needle in the Desert"
+	},
+	[17545] = {
+		Title = "Sky Emperor: Third Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I finally found a needle in the desert. Let's report back to <NAVI>[M]<INFO>morocc,237,73,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Go to M"
+	},
+	[17546] = {
+		Title = "Sky Emperor: Fourth Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"One last one... Let's help that <NAVI>[person]<INFO>payon,215,201,0,101,0,</INFO></NAVI> we saw in Payon."
+		},
+		Summary = "Go to Payon"
+	},
+	[17547] = {
+		Title = "Sky Emperor: Fourth Good Business",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Come on, guide me to <NAVI>[the place]<INFO>mjolnir_03,280,252,0,101,0,</INFO></NAVI>. You'd better hurry. I don't have much time."
+		},
+		Summary = "Go to the Galaxy"
+	},
+	[17548] = {
+		Title = "Sky Emperor: Adventurer's Turn",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Go to <NAVI>[Eunha]<INFO>mjolnir_03,280,252,0,101,0,</INFO></NAVI>'s residence and receive the help Eunha promised."
+		},
+		Summary = "Promised Help"
+	},
+	[17549] = {
+		Title = "Soul Ascetic: An Unexpected Encounter",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"I met <NAVI>[Banyak]<INFO>payon,197,122,0,101,0,</INFO></NAVI> by chance at Payon's Inn. Ask him how he's been."
+		},
+		Summary = "Talk to Banyak"
+	},
+	[17550] = {
+		Title = "Soul Ascetic: Help",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Here, in the inn, there is a <NAVI>[picture]<INFO>payon_in01,187,90,0,101,0,</INFO></NAVI> with a peak drawn on it. You can set an example in front of them and ask for help."
+		},
+		Summary = "Landscape Painting"
+	},
+	[17551] = {
+		Title = "Soul Ascetic: Take the Lead",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Take the lead. Because <NAVI>[Banyak]<INFO>payon,197,122,0,101,0,</INFO></NAVI> owes a debt to that friend. I'll have to listen to the story first."
+		},
+		Summary = "Go to Banyak"
+	},
+	[17552] = {
+		Title = "Soul Ascetic: Severe Training",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"All <NAVI>[I]<INFO>payon,197,122,0,101,0,</INFO></NAVI> can do is teach, and what you learn from the master is entirely up to the student."
+		},
+		Summary = "Let's finish training"
+	},
+	[17553] = {
+		Title = "Curse of the Geoborg House",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Morroc's <NAVI>[Rodafrian]<INFO>morocc_in,45,126,0,101,0</INFO></NAVI> must be waiting for the lyrics. Let's stop by for a while and then go."
+		},
+		Summary = "Go to Rodafrian"
+	},
+	[17554] = {
+		Title = "Find the owner of a lost property",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"There is a <NAVI>[Duck Doll]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI> near the fishing spot in the south. If the owner doesn't come to pick it up, bring it to the Lost and Found Center."
+		},
+		Summary = "Duck Doll"
+	},
+	[17555] = {
+		Title = "Ingredients for Noodles",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring <NAVI>[me]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI> 5 Elongated Noodles from the MD Octopus, 5 Ribbon Noodles from the Dandy Stars, 5 Smooth Noodles from the Swing Tail and 1 Pork Potato."
+		},
+		Summary = "Pork Potato, Noodle Ingredients"
+	},
+	[17556] = {
+		Title = "Coupon: Complete Codename",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I helped the Duck Dolls. Now that you've completed all 4 events, go to the <NAVI>[Coupon Receptionist]<INFO>malangdo,141,155,0,101,0,</INFO></NAVI> and stamp the coupon."
+		},
+		Summary = "Confirm with Kungdeok"
+	},
+	[17557] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"There were so many of my people <NAVI>[there]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>! Among them, there must be people like me who have opened their eyes. Bring those to me."
+		},
+		Summary = "Lasagna Cave"
+	},
+	[17558] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I hear a <NAVI>[Duck Doll]<INFO>lasa_sea,74,202,0,101,0,</INFO></NAVI> sound somewhere in the burrow. Let's find out."
+		},
+		Summary = "Find a Duck Doll"
+	},
+	[17559] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I hear a <NAVI>[Duck Doll]<INFO>lasa_sea,135,70,0,101,0,</INFO></NAVI> sound somewhere in the burrow. Let's find out."
+		},
+		Summary = "Find a Duck Doll"
+	},
+	[17560] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I hear a <NAVI>[Duck Doll]<INFO>lasa_sea,18,51,0,101,0,</INFO></NAVI> sound somewhere in the burrow. Let's find out."
+		},
+		Summary = "Find a Duck Doll"
+	},
+	[17561] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I hear a <NAVI>[Duck Doll]<INFO>lasa_sea,197,67,0,101,0,</INFO></NAVI> sound somewhere in the burrow. Let's find out."
+		},
+		Summary = "Find a Duck Doll"
+	},
+	[17562] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Now that you've found all the Duck Dolls, go back to <NAVI>[Kungdeok]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Find a Duck Doll"
+	},
+	[17563] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I'm sorry. Wait a minute. Everyone is not good at naming, so <NAVI>[I]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI> have to supervise."
+		},
+		Summary = "Confused Naming"
+	},
+	[17564] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Kungdeok]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI> requested a conversation. There seems to be a plan to prevent world domination."
+		},
+		Summary = "Talk to Kungdeok"
+	},
+	[17565] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"If you rob a Dandy Star or a duck doll like me, you can get a star button?! Just bring 20 to <NAVI>[me]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "20x Is it a star button?!"
+	},
+	[17566] = {
+		Title = "[Standby] Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"It looks like he's still busy trying to find the star button. I think it's still enough. Let's take a little break and come back again. - <NAVI>[Kungdeok]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17567] = {
+		Title = "Codename! Is it a star button?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"If you rob a Dandy Star or a duck doll like me, you can get a star button?! Just bring 20 to <NAVI>[me]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "20x Is it a star button?!"
+	},
+	[17568] = {
+		Title = "Sky Emperor: Where indicated",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"You have completed your search at the indicated location."
+		},
+		Summary = "Search ended"
+	},
+	[17569] = {
+		Title = "Sky Emperor: Where indicated",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"You have completed your search at the indicated location."
+		},
+		Summary = "Search ended"
+	},
+	[17570] = {
+		Title = "Sky Emperor: Where indicated",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"You have completed your search at the indicated location."
+		},
+		Summary = "Search ended"
+	},
+	[17571] = {
+		Title = "Sky Emperor: Where indicated",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"You have completed your search at the indicated location."
+		},
+		Summary = "Search ended"
+	},
+	[17572] = {
+		Title = "Are you looking for me?",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It seems like it will take a long time, so why don't you come to see other business? Coincidentally, <NAVI>[Loam]<INFO>prt_church,107,99,0,101,0</INFO></NAVI> of the Prontera Cathedral said he has something to tell you."
+		},
+		Summary = "Go to Priest Loam"
+	},
+	[17573] = {
+		Title = "I recommended you",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"How about going to Yuno's <NAVI>[Monster Museum]<INFO>yuno_in03,20,55,0,101,0</INFO></NAVI>? Shouldn't adventurers know a lot about monster information?"
+		},
+		Summary = "Go to the Monster Museum"
+	},
+	[17574] = {
+		Title = "Sky Rare Monster",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You just need to go to the Overseas Flight <NAVI>[Aircraft]<INFO>airplane_01,238,154,0,101,0</INFO></NAVI> and retrieve the scattered report. You have to be careful of the attack of flying monsters."
+		},
+		Summary = "Airborne"
+	},
+	[17575] = {
+		Title = "Identity of the Ghost",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I'm going to go report my work here to <NAVI>[Andrea]<INFO>lhz_airport,138,28,0,101,0</INFO></NAVI> at Lighthalzen Airport."
+		},
+		Summary = "Go to Andrea"
+	},
+	[17576] = {
+		Title = "Rural Village Hugel",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Please confirm the safety of our people dispatched to Hugel. His name is <NAVI>[Eiji]<INFO>hugel,93,150,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Eiji in Hugel"
+	},
+	[17577] = {
+		Title = "Send my regards",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Send my regards to Mr. <NAVI>[Heriko]<INFO>hu_in01,256,40,0,101,0</INFO></NAVI> at the Inn of Hugel instead of me."
+		},
+		Summary = "Go to Heriko"
+	},
+	[17578] = {
+		Title = "Analysis Time",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Wuhari]<INFO>eclage,282,255,0,101,0,</INFO></NAVI> received the research paper. However, it is said that it is so complex that it takes time to analyze it. Wait at Eclage and talk to him again in a while."
+		},
+		Summary = "Talk to Wuhari"
+	},
+	[17579] = {
+		Title = "Information Collection Complete",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I don't think we'll get any more information from the safaris. Report back to <NAVI>[Shay]<INFO>dic_in01,245,119,0,101,0,</INFO></NAVI> at El Dicastes Bar."
+		},
+		Summary = "Talk to Shay"
+	},
+	[17580] = {
+		Title = "After Hint",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Ahat, who kept hinting at El Dicastes' office, tells me to follow <NAVI>[Cheshire's]<INFO>dic_in01,294,276,0,101,0,</INFO></NAVI> instructions from now on. Let's talk to Cheshire."
+		},
+		Summary = "Talk to Cheshire"
+	},
+	[17581] = {
+		Title = "Cheshire's Call Ends",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"When we return to El Dicastes and show Cheshire the evidence of the removal of the traces, Cheshire is very pleased. Let's talk to <NAVI>[Ahat]<INFO>dic_in01,300,280,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Talk to Ahat"
+	},
+	[17582] = {
+		Title = "For reporting",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"For the time being, it would be better to continue going to and from El Dicastes, following Cheshire's instructions, and making him believe that he is caught in a suggestion. We've finished our business here, so let's go <NAVI>[outside]<INFO>dic_in01,138,188,0,101,0,</INFO></NAVI>."
+		},
+		Summary = "Move outside"
+	},
+	[17583] = {
+		Title = "After thinking",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[HesLanta]<INFO>dic_in01,158,188,0,101,0,</INFO></NAVI>, who saw the evidence presented by the adventurer somewhere in El Dicastes, seemed to organize her thoughts for a while during the conversation."
+		},
+		Summary = "Talk to HesLanta"
+	},
+	[17584] = {
+		Title = "Come closer",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Surprisingly, the famous minister of El Dicastes was a human, not a Sapha. <NAVI>[Ahat]<INFO>dic_in01,300,280,0,101,0,</INFO></NAVI> came closer and asked for a conversation."
+		},
+		Summary = "Talk to Ahat"
+	},
+	[17585] = {
+		Title = "Manuk's Emissary",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It is said that the <NAVI>[Investigation Team Member]<INFO>mid_campin,93,114,0,101,0,</INFO></NAVI> who was dispatched to Manuk returned to the Union Garrison with Manuk's envoy. Wouldn't it be nice to meet them once?"
+		},
+		Summary = "Go inside"
+	},
+	[17586] = {
+		Title = "Sapha's Invitation",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Surprisingly, the <NAVI>[Vehanus]<INFO>mid_campin,110,120,0,101,0,</INFO></NAVI> staying within the combined garrison was a Sapha from El Dicastes, the capital of Sapha. Ravail of Sapha opened the capital to humans and formally invited them. When you're ready, let's hear what you need to do."
+		},
+		Summary = "Talk to Vehanus"
+	},
+	[17587] = {
+		Title = "Inspector Doha",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The Inspector <NAVI>[Doha]<INFO>mid_campin,168,170,0,101,0,</INFO></NAVI>, who is staying within the Confederate Garrison, started talking about the report incident and eyewitnesses."
+		},
+		Summary = "Talk to Doha"
+	},
+	[17588] = {
+		Title = "BK's Cooperation",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[BK]<INFO>dic_fild01,231,174,0,101,0,</INFO></NAVI> from the top of Cat Hand at the foot of Kamidal Mountain says that he will give you the information only if you give him a Sapha Certification. Until you get enough information, give more Sapha Certification and get more information."
+		},
+		Summary = "Talk to BK"
+	},
+	[17589] = {
+		Title = "Pretending to be Insinuating",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the office of El Dicastes, <NAVI>[Ahat]<INFO>dic_in01,300,280,0,101,0,</INFO></NAVI> kept suggesting. I think I might be able to get some information if I talk to him pretending to be suggestive."
+		},
+		Summary = "Talk to Ahat"
+	},
+	[17590] = {
+		Title = "Leno's Letter",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Leno asked you to come quickly to <NAVI>[Geffen]<INFO>geffen,40,140,0,101,0</INFO></NAVI>, claiming that you have obtained a clue related to the goddess follower."
+		},
+		Summary = "Go to Geffen"
+	},
+	[17591] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I looked where I thought there might be something, but it was futile. I'll have to take a closer look at the other <NAVI>[traces]<INFO>odin_tem03,288,271,0,101,0</INFO></NAVI> at the Odin Temple."
+		},
+		Summary = "Investigate the Odin Temple"
+	},
+	[17592] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I looked around the suspicious place, but I couldn't find anything. I need to find the <NAVI>[traces]<INFO>odin_tem03,283,241,0,101,0</INFO></NAVI> at the Odin Temple."
+		},
+		Summary = "Investigate the Odin Temple"
+	},
+	[17593] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I looked at the stone floor of the temple, but it was only hard. I'll have to take a closer look at the other <NAVI>[traces]<INFO>odin_tem03,179,275,0,101,0</INFO></NAVI> at the Odin Temple."
+		},
+		Summary = "Investigate the Odin Temple"
+	},
+	[17594] = {
+		Title = "Odin Temple Excavation Team",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"There was nothing on the red wet ground either. I'll have to take a closer look at the other <NAVI>[traces]<INFO>odin_tem03,320,264,0,101,0</INFO></NAVI> at the Odin Temple."
+		},
+		Summary = "Investigate the Odin Temple"
+	},
+	[17595] = {
+		Title = "Children outside the Mansion",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I had a conversation with the suspicious children who were hanging out outside the mansion."
+		},
+		Summary = "Talk with the children"
+	},
+	[17596] = {
+		Title = "Snowman Making Contest",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"It's a snow festival without snow, but it's sad when the snowman falls out. Go to the Snowman <NAVI>[Contest]<INFO>aldebaran,122,112,0,101,0</INFO></NAVI>, go to it. What kind of snowman did everyone make?"
+		},
+		Summary = "Go to the venue"
+	},
+	[17597] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Sally said she went to the center of <NAVI>[venue]<INFO>aldebaran,179,159,0,101,0</INFO></NAVI>, so it should be easy to find."
+		},
+		Summary = "Find Sally"
+	},
+	[17598] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"If you look a little further, you'll know how to do it, so tell <NAVI>[Krem]<INFO>aldebaran,122,112,0,101,0</INFO></NAVI> that you'll be there soon."
+		},
+		Summary = "Go to Krem"
+	},
+	[17599] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You will need 5 blocks of clean snow to recreate the snowman. Can you deliver them near <NAVI>[Lutie]<INFO>xmas_fild01,128,123,0,101,0</INFO></NAVI>?"
+		},
+		Summary = "Clean Snow"
+	},
+	[17600] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Got a chunk of clean snow. Let's move to the next <NAVI>[location]<INFO>xmas_fild01,141,166,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Clean Snow"
+	},
+	[17601] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"It would be nice if it had such clean snow. Let's find another <NAVI>[place]<INFO>xmas_fild01,169,214,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Clean Snow"
+	},
+	[17602] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"It's worth digging the snow hard. Let's go find more clean <NAVI>[snow]<INFO>xmas_fild01,59,219,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Clean Snow"
+	},
+	[17603] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Now there is only one last loaf left! Let's find a place where clean <NAVI>[snow]<INFO>xmas_fild01,119,52,0,101,0</INFO></NAVI> has accumulated."
+		},
+		Summary = "Clean Snow"
+	},
+	[17604] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Now that you have obtained all the clean snow, take 10 Magical Snowflakes and return to <NAVI>[Krem]<INFO>aldebaran,122,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Magical Snow Flower"
+	},
+	[17605] = {
+		Title = "[Standby] Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Thanks to you, I was able to make a snowman. I need to do repairs, so I would appreciate it if you could come back after the early hours of the morning! - <NAVI>[Krem]<INFO>aldebaran,122,112,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17606] = {
+		Title = "Best Snowman",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Now that you have obtained all the clear eyes, take 10 Magical Snowflakes and return to <NAVI>[Krem]<INFO>aldebaran,122,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Magical Snow Flower"
+	},
+	[17607] = {
+		Title = "Biosphere",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We have sent you a request for help with the artificial habitat within Varmundt Mansion."
+		},
+		Summary = "Guidance completed"
+	},
+	[17608] = {
+		Title = "Biosphere - Severe Cold",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Biosphere Severe Cold - After killing 100 monsters in the cold, tell <NAVI>[me]<INFO>ba_in01,309,44,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hunt 100 monsters"
+	},
+	[17609] = {
+		Title = "Biosphere - Fire",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Biosphere Fire - After killing 100 monsters in the flames, tell <NAVI>[me]<INFO>ba_in01,309,44,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hunt 100 monsters"
+	},
+	[17610] = {
+		Title = "Biosphere - Grassland",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Biosphere Grassland - After killing 100 monsters in the grassland, tell <NAVI>[me]<INFO>ba_in01,309,44,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hunt 100 monsters"
+	},
+	[17611] = {
+		Title = "Biosphere - Death",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Biosphere Death - After killing 100 monsters in death, tell <NAVI>[me]<INFO>ba_in01,309,44,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hunt 100 monsters"
+	},
+	[17612] = {
+		Title = "[Standby] Biosphere - Severe Cold",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The cold environment seems to be able to be entered and cleaned up with this. Please come back after some time. - <NAVI>[Betari]<INFO>ba_in01,309,44,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17613] = {
+		Title = "[Standby] Biosphere - Fire",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The fire environment seems to be able to be entered and cleaned up with this. Please come back after some time. - <NAVI>[Betari]<INFO>ba_in01,309,44,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17614] = {
+		Title = "[Standby] Biosphere - Grassland",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The grassland environment seems to be able to be entered and cleaned up with this. Please come back after some time. - <NAVI>[Betari]<INFO>ba_in01,309,44,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17615] = {
+		Title = "[Standby] Biosphere - Death",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The dead environment seems to be able to be entered and cleaned up with this. Please come back after some time. - <NAVI>[Betari]<INFO>ba_in01,309,44,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17616] = {
+		Title = "Identity of Sound",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I'll have to investigate the identity of the ghost's voice and the connection between the bracelet. The source of the bracelet is probably Lighthalzen's closed <NAVI>[Research Institute]<INFO>lhz_dun01,150,274,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to that place"
+	},
+	[17617] = {
+		Title = "Tradition Guide",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"You have reached a transferable level. Visit Yuno's <NAVI>[Sage Castle]<INFO>yuno_in02,88,164,0,101,0</INFO></NAVI> right now and start a new life beyond the limits."
+		},
+		Summary = "Yuno Sage Castle"
+	},
+	[17618] = {
+		Title = "Job Change Notification Email sent",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"We have sent a transfer information email to those who can change to the next higher level expansion job."
+		},
+		Summary = "Email sent"
+	},
+	[17619] = {
+		Title = "Reiji's Plan",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Decided to infiltrate Rgan's <NAVI>[base]<INFO>jor_back3,98,318,0,101,0</INFO></NAVI> using the Rgan Transformation Scroll. Don't forget to bring the Transformation Scroll."
+		},
+		Summary = "Go to the home of Rgan"
+	},
+	[17620] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"When you enter the Snake's <NAVI>[Nest]<INFO>jor_dun02,263,170,0,101,0</INFO></NAVI>, pretend to be a newly born Rgan."
+		},
+		Summary = "Pretend to be a Baby Rgan"
+	},
+	[17621] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"You are not meant to be in a place like this. I'll take you to the <NAVI>[upper]<INFO>jor_nest,184,49,0,101,0</INFO></NAVI>nest. You should follow well."
+		},
+		Summary = "Go to the upper level"
+	},
+	[17622] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"On the way to receive blessing baptism from Rasgand, I will first show you the advanced <NAVI>[Egg Hatchery]<INFO>jor_nest,196,202,0,101,0</INFO></NAVI> in the nest."
+		},
+		Summary = "Go to Advanced Egg Hatchery"
+	},
+	[17623] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"On the way you will pass an outsider's <NAVI>[residence]<INFO>jor_nest,115,187,0,101,0</INFO></NAVI> in the nest. I'll tell you where it is, so make sure you don't enter by mistake."
+		},
+		Summary = "Abode of an outsider"
+	},
+	[17624] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Now, I really have to go and receive a baptism of blessings from Rasgand. Let's go <NAVI>[higher]<INFO>jor_nest,53,244,0,101,0</INFO></NAVI> up  the nest."
+		},
+		Summary = "Rasgand's Abode"
+	},
+	[17625] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"If you have nowhere else to go, why don't you go to the Illusion lab in the nest? Get a health checkup from <NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Juncea"
+	},
+	[17626] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Did you rest? So, now let's do our thing. Are you unfamiliar with the Snake's Nest? Come a little closer to <NAVI>[me]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> for a checkup."
+		},
+		Summary = "Talk to Juncea"
+	},
+	[17627] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"You can use the <NAVI>[Egg]<INFO>jor_dun02,263,170,0,101,0</INFO></NAVI> you came out of. Bring me the eggshell of a high-ranking Rgan. I'll have to study that egg and the magic remaining in it. You said you were born from the Snake God's Warmth, right?"
+		},
+		Summary = "Go to where I was born"
+	},
+	[17628] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It seems that the higher grade eggs are classified separately. Go to <NAVI>[Snake's Nest]<INFO>jor_nest,23,58,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to Advanced Egg Hatchery"
+	},
+	[17629] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"You have safely obtained the Eggshell of Senior Rgan. Return to <NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> in the Snake's Nest and show her the eggshell."
+		},
+		Summary = "Talk to Juncea"
+	},
+	[17630] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Bagot appeared in dwelling place in the Snake's Nest. Let's hear the purpose of <NAVI>[Bagot]<INFO>jor_nest,26,142,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Bagot"
+	},
+	[17631] = {
+		Title = "Snake's Nest Infiltration",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> is very angry at Bagot's unilateral notification who appeared in the Snake's Nest. For what?"
+		},
+		Summary = "Talk to Juncea"
+	},
+	[17632] = {
+		Title = "Infiltration Interim Report",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Nothing more to hear from Juncea. For now, I'll go <NAVI>[outside]<INFO>jor_nest,87,164,0,101,0</INFO></NAVI> the Snake's Nest and talk with Reiji."
+		},
+		Summary = "Go outside"
+	},
+	[17633] = {
+		Title = "Infiltration Interim Report",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"For now, let's go check the <NAVI>[Airship]<INFO>jor_nest,24,252,0,101,0</INFO></NAVI>, which is inside the Snake's Nest. I need to figure out the number of guards and their location."
+		},
+		Summary = "Check the Airship"
+	},
+	[17634] = {
+		Title = "Infiltration Interim Report",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Now that we know the location of the airship, let's go back and come up with a countermeasure. Now, should we go to the <NAVI>[Snake God's Warmth]<INFO>jor_dun02,153,239,0,101,0</INFO></NAVI> and save the party?"
+		},
+		Summary = "Rescuing a group of people in a lower area"
+	},
+	[17635] = {
+		Title = "Infiltration Interim Report",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Didn't you say that you would take the <NAVI>[priests]<INFO>jor_dun02,150,269,0,101,0</INFO></NAVI> who were in labor were taken from the Snake God's Warmth? Come on, take me."
+		},
+		Summary = "Go inside"
+	},
+	[17636] = {
+		Title = "Infiltration Interim Report",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I have a lot to do. Let's hurry back to the <NAVI>[Ice Castle]<INFO>icas_in,34,189,0,101,0</INFO></NAVI> and come up with a countermeasure."
+		},
+		Summary = "Go to the Ice Castle"
+	},
+	[17637] = {
+		Title = "Aircraft Destruction Operation",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"They have to neutralize the <NAVI>[Airship]<INFO>jor_nest,22,254,0,101,0</INFO></NAVI> in the Snake's Nest to get them tied up. I'll have to take a closer look."
+		},
+		Summary = "Go to the Airship"
+	},
+	[17638] = {
+		Title = "Vulnerability Investigation",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's go back to <NAVI>[Snake's Nest]<INFO>jor_nest,127,207,0,101,0</INFO></NAVI> and examine the vulnerability in more detail."
+		},
+		Summary = "Go back to the Snake's Nest"
+	},
+	[17639] = {
+		Title = "Accompany Reconnaissance Report",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I am also on my way to the Ice Castle, so I will accompany you. I'm done eating by now, so I'll be at the <NAVI>[restaurant]<INFO>icas_in,34,189,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Ice Castle Restaurant"
+	},
+	[17640] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"What is the Rgan you are carrying? My <NAVI>[house]<INFO>icas_in,247,116,0,101,0</INFO></NAVI> in the Ice Castle is close here, so let's go there."
+		},
+		Summary = "Go to Horr's House"
+	},
+	[17641] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I will make an antidote, so come to the <NAVI>[Ice Castle]<INFO>icas_in,247,116,0,101,0</INFO></NAVI> with only 20 Rgan's Low-Grade Magic Core."
+		},
+		Summary = "20x Rgan's Low-Grade Magic Core"
+	},
+	[17642] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Juncea]<INFO>icas_in,243,117,0,101,0</INFO></NAVI> wakes up in the Ice Castle, in the house of Horr, and seems to be worried. If this is the case, I think I'm almost convinced."
+		},
+		Summary = "Persuade Juncea"
+	},
+	[17643] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Aurelie]<INFO>icas_in,249,113,0,101,0</INFO></NAVI> appeared at Horr's house in the Ice Castle to deliver the news himself. Could it be something big?"
+		},
+		Summary = "Talk to Aurelie"
+	},
+	[17644] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"There was a report from the reconnaissance team that the movements of the Rgans were suspicious. I think it's the right time for us to move. You'd better go to the <NAVI>[Snake's Nest]<INFO>jor_que,271,88,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go to the Snake's Nest"
+	},
+	[17645] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Divide the staff and figure out the <NAVI>[Snake God's Warmth]<INFO>jor_que,144,253,0,101,0</INFO></NAVI> side. Because there might be some remaining high-ranking Rgans."
+		},
+		Summary = "Investigate the Snake's Nest"
+	},
+	[17646] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"There are only traces of rapid movement here. Wouldn't there be someone who <NAVI>[who]<INFO>jor_que,131,148,0,101,0</INFO></NAVI> the situation somewhere in the Snake God's Warmth?"
+		},
+		Summary = "Someone who knows the situation"
+	},
+	[17647] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Nobles.. all of you... Gather... Not us... Upper <NAVI>[Nest]<INFO>jor_que,32,37,0,101,0</INFO></NAVI>... So come on... Honorables too."
+		},
+		Summary = "Go to the upper level"
+	},
+	[17648] = {
+		Title = "Confused Snake's Nest",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"You mean you have to break through the wall blocking the <NAVI>[entrance]<INFO>jor_que,32,37,0,101,0</INFO></NAVI> of the nest and defeat Rgan on the other side to meet Rasgand?"
+		},
+		Summary = "Enter the Snake's Nest"
+	},
+	[17649] = {
+		Title = "Those who have disappeared",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"This door can't be opened no matter how hard you try, so the only thing you can do is set up a watcher and watch. Let's go back to the <NAVI>[Ice Castle]<INFO>icas_in,34,189,0,101,0</INFO></NAVI> for now."
+		},
+		Summary = "Go to the Ice Castle"
+	},
+	[17650] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Thank you for your willingness to help. Instead of wasting time here, let's go out <NAVI>[outside]<INFO>icecastle,27,126,0,101,0</INFO></NAVI> the Ice Castle and discuss the search method."
+		},
+		Summary = "Go outside"
+	},
+	[17651] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back2,222,123,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Plains. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17652] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back2,49,175,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Plains. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17653] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back2,309,99,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Plains. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17654] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back2,113,235,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Plains. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17655] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back2,279,307,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Plains. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17656] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back3,152,359,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Glacier. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17657] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back3,328,277,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Glacier. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17658] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back3,128,138,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Glacier. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17659] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back3,264,133,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Glacier. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17660] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Bury this super-powerful antennae in a <NAVI>[place]<INFO>jor_back3,46,324,0,101,0</INFO></NAVI> where Rgans might appear in the Frozen Scale Glacier. It's already marked, so it should be easy to find."
+		},
+		Summary = "Bury antennae at the marked place"
+	},
+	[17661] = {
+		Title = "Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Buried all the super strong antennas in the designated places. Let's report back to Mr. <NAVI>[Horr]<INFO>icecastle,27,126,0,101,0</INFO></NAVI> in the Ice Castle."
+		},
+		Summary = "Report to Horr"
+	},
+	[17662] = {
+		Title = "[Standby] Find a hiding place on the ground",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After dawn, the battery will be discharged, so you can come back here to the Ice Castle and replace it. Just rest for today. - <NAVI>[Horr]<INFO>icecastle,27,126,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17663] = {
+		Title = "The Lady of Gold Spoon wants to live quietly",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"<NAVI>[Fantasy Series-001]<INFO>prt_elib,54,61,0,101,0</INFO></NAVI> Experiencing \'The Lady of Gold Spoon wants to live quietly\'!"
+		},
+		Summary = "VR Experience"
+	},
+	[17664] = {
+		Title = "The Lady of Gold Spoon wants to live quietly",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"<NAVI>[Fantasy Series-001]<INFO>prt_elib,54,61,0,101,0</INFO></NAVI> Experiencing \'The Lady of Gold Spoon wants to live quietly\'!"
+		},
+		Summary = "VR Experience"
+	},
+	[17665] = {
+		Title = "[Standby] The Lady of Gold Spoon wants to live quietly ",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"After dawn, <NAVI>[Fantasy Series-001]<INFO>prt_elib,51,61,0,101,0</INFO></NAVI> \'The Lady of Gold Spoon wants to live quietly\' is available for re-reading, so please find it again."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17669] = {
+		Title = "Medal awarded",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received a splendid medal from the King."
+		},
+		Summary = "Medal awarded"
+	},
+	[17670] = {
+		Title = "Commander Dialogue complete",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I had a fruitful conversation with the commander."
+		},
+		Summary = "Commander Dialogue complete"
+	},
+	[17671] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I decided to bring things from this world for people beyond the dimension."
+		},
+		Summary = "Souvenir of this World"
+	},
+	[17672] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Get 10 Jellopies and bring them to <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI> ."
+		},
+		Summary = "10x Jellopies"
+	},
+	[17673] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Get 3 Squid Ink and bring them to <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI> ."
+		},
+		Summary = "3x Squid Ink"
+	},
+	[17674] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Get 3 Maneater Blossom and bring them to <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI> ."
+		},
+		Summary = "3x Maneater Blossom"
+	},
+	[17675] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Get 1 Orc Hero's Token and bring them to <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI> ."
+		},
+		Summary = "1x Orc Hero's Token"
+	},
+	[17676] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Get 1 Rough Oridecon and bring them to <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI>."
+		},
+		Summary = "1x Rough Oridecon"
+	},
+	[17677] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Get 1 Green Live and bring them to <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI>."
+		},
+		Summary = "1x Green Live"
+	},
+	[17678] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Get 1 Witch Starsand and bring them to <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI>."
+		},
+		Summary = "1x Witch Starsand"
+	},
+	[17679] = {
+		Title = "Souvenir of this World",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Get 1 Blue Gemstone and bring them to <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI>."
+		},
+		Summary = "1x Blue Gemstone"
+	},
+	[17680] = {
+		Title = "[Standby] Souvenir of this World ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After dawn, you can go to the <NAVI>[Mandragora]<INFO>memohall,75,116,0,101,0</INFO></NAVI> in <NAVI>[Dimensional Guardian Memorial]<INFO>memohall,75,116,0,101,0</INFO></NAVI> and accept the souvenir collection request again."
+		},
+		Summary = "Resets at 04:00",
+		CoolTimeQuest = 1
+	},
+	[17681] = {
+		Title = "Thank you gifts from people from all walks of life",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received thank-you gifts from people from all walks of life."
+		},
+		Summary = "Thank you gifts from people from all walks of life"
+	},
+	[17682] = {
+		Title = "Thank you gifts from people from all walks of life",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received thank-you gifts from people from all walks of life."
+		},
+		Summary = "Thank you gifts from people from all walks of life"
+	},
+	[17683] = {
+		Title = "Thank you gifts from people from all walks of life",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received thank-you gifts from people from all walks of life."
+		},
+		Summary = "Thank you gifts from people from all walks of life"
+	},
+	[17684] = {
+		Title = "Thank you gifts from people from all walks of life",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received thank-you gifts from people from all walks of life."
+		},
+		Summary = "Thank you gifts from people from all walks of life"
+	},
+	[17685] = {
+		Title = "Thank you gifts from people from all walks of life",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received thank-you gifts from people from all walks of life."
+		},
+		Summary = "Thank you gifts from people from all walks of life"
+	},
+	[17686] = {
+		Title = "Thank you gifts from people from all walks of life",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received thank-you gifts from people from all walks of life."
+		},
+		Summary = "Thank you gifts from people from all walks of life"
+	},
+	[17687] = {
+		Title = "Thank you gifts from people from all walks of life",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received thank-you gifts from people from all walks of life."
+		},
+		Summary = "Thank you gifts from people from all walks of life"
+	},
+	[17688] = {
+		Title = "Thank you gifts from people from all walks of life",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received thank-you gifts from people from all walks of life."
+		},
+		Summary = "Thank you gifts from people from all walks of life"
+	},
+	[17689] = {
+		Title = "Commander's Return",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Received a gift from the commander."
+		},
+		Summary = "Commander's Return"
 	},
 	[18000] = {
         Title = "Ready to enter",
@@ -55045,7 +59455,7 @@ QuestInfoList = {
 		Title = "Investigation of the High Priest's Villa",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"We decided to investigate High Priest Amal's villa to find the whereabouts of Baggot and Hearthunter. If possible, disrupt Baggot and High Priest Amal's plans."
+			"We decided to investigate High Priest Amal's villa to find the whereabouts of Bagot and Hearthunter. If possible, disrupt Bagot and High Priest Amal's plans."
 		},
 		Summary = "Investigation of the High Priest's Villa"
 	},
