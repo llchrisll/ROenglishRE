@@ -5,6 +5,238 @@
 -- Last updated: 20221108
 
 mapTbl = {
+	["ra_pol01.rsw"] = {
+		displayName = "Power Twisted Plains",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Power Twisted Plains"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["mjo_wst01.rsw"] = {
+		displayName = "Mjolnir Underground Cave",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Mjolnir Underground Cave"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["1@lvcb.rsw"] = {
+		displayName = "Damp Sewer",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-xxx",
+			mainTitle = "Damp Sewer"
+		},
+		backgroundBmp = "noname"
+	},
+	["bl_venom.rsw"] = {
+		displayName = "Biosphere Specimen Environment - Venom",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Specimen Environment - Venom"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["bl_temple.rsw"] = {
+		displayName = "Biosphere Specimen Environment - Temple",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Specimen Environment - Temple"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["bl_soul.rsw"] = {
+		displayName = "Biosphere Specimen Environment - Soul",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Specimen Environment - Soul"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["1@vrclo.rsw"] = {
+		displayName = "Fantasy Series - Mirror Monastery",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-005",
+			mainTitle = "Mirror Monastery"
+		},
+		backgroundBmp = "noname"
+	},
+	["2@vrclo.rsw"] = {
+		displayName = "Fantasy Series - All those moments",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-005",
+			mainTitle = "All those moments"
+		},
+		backgroundBmp = "noname"
+	},
+	["1@vrhha.rsw"] = {
+		displayName = "Fantasy Series - Heart Hunter Training Center",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-008",
+			mainTitle = "Heart Hunter Training Center"
+		},
+		backgroundBmp = "noname"
+	},
+	["1@vrac1.rsw"] = {
+		displayName = "Fantasy Series - Academy 1st Floor",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series",
+			mainTitle = "Critura Academy 1st Floor"
+		},
+		backgroundBmp = "village"
+	},
+	["1@vrac2.rsw"] = {
+		displayName = "Fantasy Series - Academy 2nd Floor",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series",
+			mainTitle = "Critura Academy 2nd Floor"
+		},
+		backgroundBmp = "village"
+	},
+	["hero_lb.rsw"] = {
+		displayName = "Herosria Garden of Beginnings",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Garden of Beginnings"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_out1.rsw"] = {
+		displayName = "Herosria Silvarium",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Silvarium"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_out2.rsw"] = {
+		displayName = "Herosria Lacusarium",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Lacusarium"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_out3.rsw"] = {
+		displayName = "Herosria Bastitarium",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Bastitarium"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_out4.rsw"] = {
+		displayName = "Herosria Labinarium",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Labinarium"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_ent1.rsw"] = {
+		displayName = "Herosria 1st Hero's Gateway",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "1st Hero's Gateway"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_ent2.rsw"] = {
+		displayName = "Herosria 2nd Hero's Gateway",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "2nd Hero's Gateway"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_ent3.rsw"] = {
+		displayName = "Herosria 3rd Hero's Gateway",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "3rd Hero's Gateway"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_in1.rsw"] = {
+		displayName = "Herosria Spring Garden",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Spring Garden"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_in2.rsw"] = {
+		displayName = "Herosria Summer Garden",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Summer Garden"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_in3.rsw"] = {
+		displayName = "Herosria Fall Garden",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Fall Garden"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_in4.rsw"] = {
+		displayName = "Herosria Winter Garden",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Herosria",
+			mainTitle = "Winter Garden"
+		},
+		backgroundBmp = "siege"
+	},
+	["herosria.rsw"] = {
+		displayName = "Sanctuary Herosria Jewel Room",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Sanctuary Herosria",
+			mainTitle = "Jewel Room"
+		},
+		backgroundBmp = "siege"
+	},
+	["hero_dun1.rsw"] = {
+		displayName = "Sanctuary Herosria PvP Dungeon",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Sanctuary Herosria",
+			mainTitle = "PvP Dungeon"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["hero_tra.rsw"] = {
+		displayName = "Sanctuary Herosria Training Grounds",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Sanctuary Herosria",
+			mainTitle = "Training Grounds"
+		},
+		backgroundBmp = "noname_s2"
+	},
 	["vr_bob.rsw"] = {
 		displayName = "Fantasy Series - Today's Table",
 		notifyEnter = true,

@@ -1,5 +1,286 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20220905
+
 tblLapineDdukddakBox = {
 	sources = {
+		Mocadas_Slabs1 = {
+			ItemID = 102040{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs2 = {
+			ItemID = 102041{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs3 = {
+			ItemID = 102042{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs4 = {
+			ItemID = 102043{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs5 = {
+			ItemID = 102044{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs6 = {
+			ItemID = 102045{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs7 = {
+			ItemID = 102046{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs8 = {
+			ItemID = 102047{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs9 = {
+			ItemID = 102048{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs10 = {
+			ItemID = 102049{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs11 = {
+			ItemID = 102050{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs12 = {
+			ItemID = 102051{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs13 = {
+			ItemID = 102052{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs14 = {
+			ItemID = 102053{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs15 = {
+			ItemID = 102054{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs16 = {
+			ItemID = 102055{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs17 = {
+			ItemID = 102056{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 50, 1001201 },
+				{ "Mocadas_Water", 50, 1001202 },
+				{ "Crystal_Of_Pollution", 50, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs18 = {
+			ItemID = 102057{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 50, 1001201 },
+				{ "Mocadas_Water", 50, 1001202 },
+				{ "Crystal_Of_Pollution", 50, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs19 = {
+			ItemID = 102058{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs20 = {
+			ItemID = 102059{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs21 = {
+			ItemID = 102060{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs22 = {
+			ItemID = 102061{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
+		Mocadas_Slabs23 = {
+			ItemID = 102062{
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{ "Mocadas_Gold", 100, 1001201 },
+				{ "Mocadas_Water", 100, 1001202 },
+				{ "Crystal_Of_Pollution", 100, 1001200 }
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		}, 
 		D_Gw_Extractor = {
 			ItemID = 101639,
 			NeedCount = 3,
@@ -3219,7 +3500,21 @@ tblLapineDdukddakBox = {
 				{ "ReaperStone_Bottom3", 1, 1001052 },
 				{ "M_PATKStone_Robe", 1, 1001053 },
 				{ "R_PATKStone_Robe", 1, 1001054 },
-				{ "POWStone_Robe_D", 1, 1001055 }
+				{ "POWStone_Robe_D", 1, 1001055 }, 
+				{ "KagerouStone_Top3", 1, 1001159 },
+				{ "KagerouStone_Middle3", 1, 1001160 },
+				{ "KagerouStone_Bottom3", 1, 1001161 },
+				{ "OboroStone_Top3", 1, 1001162 },
+				{ "OboroStone_Middle3", 1, 1001163 },
+				{ "OboroStone_Bottom3", 1, 1001164 },
+				{ "DoramStone_Top3", 1, 1001165 },
+				{ "DoramStone_Middle3", 1, 1001166 },
+				{ "DoramStone_Bottom3", 1, 1001167 },
+				{ "DefenseStone_Top", 1, 1001168 },
+				{ "DefenseStone_Middle", 1, 1001169 },
+				{ "DefenseStone_Bottom", 1, 1001170 },
+				{ "ResistDefStone_Robe", 1, 1001171 },
+				{ "StaminaWISStone_Robe_D", 1, 1001172 }
 			},
 			NeedSource_String = "Costume Enchant Stone"
 		},
@@ -3896,7 +4191,23 @@ tblLapineDdukddakBox = {
 				{ "C오러쿼츠의왕관", 1, 19985 },
 				{ "C화이트로즈프린세스", 1, 31046 },
 				{ "C핑크클로버", 1, 20259 },
-				{ "C_Astra_Blessing", 1, 480205 }			},
+				{ "C_Astra_Blessing", 1, 480205 }, 
+				{ "C료스엘프", 1, 20099 },
+				{ "C아버지사랑", 1, 20079 },
+				{ "C검붉은색리본", 1, 31302 },
+				{ "C_Poring_Basket", 1, 480108 },
+				{ "C펌킨요리사모자", 1, 20394 },
+				{ "C악마의하수인", 1, 5912 },
+				{ "C_Ghost_Bat_J", 1, 420078 },
+				{ "C_Diabolic_Rock_Guitar", 1, 480169 },
+				{ "C_Soccer_Ball", 1, 410218 },
+				{ "C_White_Tiger_Glass", 1, 430005 },
+				{ "C_Drooping_Omega", 1, 400278 },
+				{ "C_Omega_Golf_Bag", 1, 410144 },
+				{ "C_Balloon_Hat_Classical", 1, 400355 },
+				{ "C_American_S_hair", 1, 31514 },
+				{ "C_H_Knight_Cloak", 1, 420047 },
+				{ "C_Chrismas_Tree", 1, 20545 }			},
 			NeedSource_String = "Monster Costumes"
 		},
 		Ice_F_Stone_Box2 = {

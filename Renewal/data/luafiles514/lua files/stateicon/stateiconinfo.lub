@@ -7329,3 +7329,87 @@ StateIconList[EFST_IDs.EFST_VR_BOOK004] = {
 		{ "Skill casting cannot be interrupted." }
 	}
 }
+StateIconList[EFST_IDs.EFST_VR_BOOK005] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Main Character Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "ASPD +3" },
+		{ "Perfect Hit +10%" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_BOOK008] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Main Character Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Physical and Magical Damage against enemies of Demi-Human race by 7%." },
+		{ "Decreases damage taken from enemies of Demi-Human race enemies by 7%." }
+	}
+}
+StateIconList[EFST_IDs.EFST_VR_BOOK009] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Main Character Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "DEF +400, MDEF +100" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ALL_T_STAT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosria Purple Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases all trait stats" }
+	}
+}
+StateIconList[EFST_IDs.EFST_P_ATK_PLUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosria Red Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases P.ATK" }
+	}
+}
+StateIconList[EFST_IDs.EFST_S_MATK_PLUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosria Blue Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases S.MATK" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_RATE_PLUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosria Yellow Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases C.Rate" }
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PLUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosria White Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases RES and MRES" }
+	}
+}
+StateIconList[EFST_IDs.EFST_PVP_DUN_BUFF] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosria Protection of Castle Lord", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Physical and Magical Damage" },
+		{ "against Herosria dungeon monsters." }
+	}
+}
