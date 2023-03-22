@@ -1,8 +1,21 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230321
+
 TB_Layer_Priority = {
 	Default_Mid = 100,
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_Serpent_Crystal] = { Default = 304},
+		[ACCESSORY_IDs.ACCESSORY_VIP_Hair_2023] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_White_Serpent_Hair] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Valkyrie_Hair] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Tent] = { Default = 403, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_Black_Rabbit] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_Lunatic_Hanging_Ear_BL] = { Default = 304 },
 		[ACCESSORY_IDs.ACCESSORY_Larva_Yellow_Mini] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_C_Starry_Long_Wave] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Flower_L_Knitting] = { Default = 143, Direction = {} },

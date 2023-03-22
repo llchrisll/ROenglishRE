@@ -1,3 +1,9 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230321
+
 -- 2012/03/09 Change 'Staff' name to 'Kafra Employee'
 -- 2012/03/26 Correct coordinate to prevent navigation error, add moscovia Armor Dealer
 -- 2012/04/12 Added missing Mora Guide
@@ -158,7 +164,7 @@ mapNPCInfoTable = {
 		{ name = [=[Guide]=], X = 162, Y = 317, TYPE = 4, },
 		{ name = [=[Weapon Dealer]=], X = 215, Y = 212, TYPE = 1, },
 		{ name = [=[Smith]=], X = 255, Y = 109, TYPE = 3, },
-		{ name = [=[Inn]=], X = 260, Y = 201, TYPE = 5, },
+		{ name = [=[Inn]=], X = 255, Y = 199, TYPE = 5, },
 	},
 -- ---------------------------------------------------------------------------- 
 	einbech = {
@@ -207,7 +213,7 @@ mapNPCInfoTable = {
 		{ name = [=[Guide]=], X = 189, Y = 101, TYPE = 4, },
 		{ name = [=[Tool Dealer]=], X = 230, Y = 165, TYPE = 0, },
 		{ name = [=[Weapon Dealer]=], X = 149, Y = 180, TYPE = 1, },
-		{ name = [=[Inn]=], X = 131, Y = 280, TYPE = 5, },
+		{ name = [=[Inn]=], X = 112, Y = 278, TYPE = 5, },
 	},
 -- ---------------------------------------------------------------------------- 
 	brasilis  = {

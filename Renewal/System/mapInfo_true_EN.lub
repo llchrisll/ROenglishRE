@@ -5,6 +5,168 @@
 -- Last updated: 20221108
 
 mapTbl = {
+	["jor_twig.rsw"] = {
+		displayName = "Isgard Sanctuary Twig's Nest",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Isgard Sanctuary",
+			mainTitle = "Twig's Nest"
+		},
+		backgroundBmp = "village"
+	},
+	["icas_in2.rsw"] = {
+		displayName = "Inside the Ice Castle",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside the Ice Castle"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["jor_back4.rsw"] = {
+		displayName = "Frozen Scale Beach",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Frozen Scale Beach"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_back5.rsw"] = {
+		displayName = "Ancient Ice Canyon East",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Ancient Ice Canyon East"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_back6.rsw"] = {
+		displayName = "Ancient Ice Canyon West",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Ancient Ice Canyon West"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_twice.rsw"] = {
+		displayName = "Drift Ice Zone",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Drift Ice Zone"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_sanct.rsw"] = {
+		displayName = "Sacred Root",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Rgan Hideout",
+			mainTitle = "Sacred Root"
+		},
+		backgroundBmp = "noname"
+	},
+	["jor_root1.rsw"] = {
+		displayName = "Snake God's Root 1F",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Snake God's Root 1F"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["jor_root2.rsw"] = {
+		displayName = "Snake God's Root 2F",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Snake God's Root 2F"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["jor_root3.rsw"] = {
+		displayName = "Deep Root Cave",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Deep Root Cave"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["jor_maze.rsw"] = {
+		displayName = "Snake Labyrinth",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Snake Labyrinth"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["jor_safty1.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Safe Place"
+		},
+		backgroundBmp = "field2_s1"
+	},
+	["jor_safty2.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Safe Place"
+		},
+		backgroundBmp = "dungeon_s1"
+	},
+	["1@twsd.rsw"] = {
+		displayName = "Drift Ice Zone",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Drift Ice Zone"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@slug.rsw"] = {
+		displayName = "Sticky Sea",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Sticky Sea"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@20cn1.rsw"] = {
+		displayName = "Canyon Exploration",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Canyon Exploration"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@20cn2.rsw"] = {
+		displayName = "Canyon Exploration",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Canyon Exploration"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@twas.rsw"] = {
+		displayName = "Separated Sanctuary",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Separated Sanctuary"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@twbs.rsw"] = {
+		displayName = "Separated Sanctuary",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Separated Sanctuary"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@twig.rsw"] = {
+		displayName = "Twig's Nest",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Twig's Nest"
+		},
+		backgroundBmp = "noname_s2"
+	},
 	["ra_pol01.rsw"] = {
 		displayName = "Power Twisted Plains",
 		notifyEnter = true,
@@ -1151,11 +1313,11 @@ mapTbl = {
 		backgroundBmp = "field2_s2"
 	},
 	["abyss_04.rsw"] = {
-		displayName = "Hugel Abyss Lake Underground Cave 4F",
+		displayName = "Abyss Lake Underground Cave 4F",
 		notifyEnter = true, 
 		signName = {
-			subTitle = "Hugel Abyss Lake",
-			mainTitle = "Abyss Cave 4F"
+			subTitle = "Abyss Lake",
+			mainTitle = "Underground Cave 4F"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -3336,10 +3498,10 @@ mapTbl = {
 		backgroundBmp = "village"
 	},
 	["spl_fild01.rsw"] = {
-		displayName = "Splendid Field",
+		displayName = "Splendide Field",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Splendid Field"
+			mainTitle = "Splendide Field"
 		},
 		backgroundBmp = "field_s2"
 	},
@@ -4467,7 +4629,7 @@ mapTbl = {
 		backgroundBmp = "noname_s2"
 	},
 	["abyss_01.rsw"] = {
-		displayName = "Abyss Lakes Underground Cave 1F",
+		displayName = "Abyss Lake Underground Cave 1F",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Abyss Lake",
@@ -4476,7 +4638,7 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["abyss_02.rsw"] = {
-		displayName = "Abyss Lakes Underground Cave 2F",
+		displayName = "Abyss Lake Underground Cave 2F",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Abyss Lake",
@@ -4485,7 +4647,7 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["abyss_03.rsw"] = {
-		displayName = "Abyss Lakes Underground Cave 3F",
+		displayName = "Abyss Lake Underground Cave 3F",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Abyss Lake",
@@ -6909,7 +7071,7 @@ mapTbl = {
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Payon Archer Village",
-			mainTitle = "Payon Cave F"
+			mainTitle = "Payon Cave F2"
 		},
 		backgroundBmp = "dungeon"
 	},

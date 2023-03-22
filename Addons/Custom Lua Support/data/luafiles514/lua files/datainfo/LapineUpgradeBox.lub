@@ -1,10 +1,51 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
+-- Last updated: 20230321
 
 tblLapineUpgradeBox = {
 	targets = {
+		Loki_Advice = {
+			ItemID = 102277,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Heart_Ace_Melee", 420210 }
+			},
+			NeedSource_String = "Ace of Hearts in Mouth (Melee Physical)"
+		},
+		Loki_Coin = {
+			ItemID = 102278,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Gambler_Seal_KR_", 410233 }
+			},
+			NeedSource_String = "Gambler's Seal (1)"
+		},
+		Glacier_Armor_9Refine = {
+			ItemID = 102227,
+			NeedRefineMin = 0,
+			NeedRefineMax = 8,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = false,
+			TargetItems = {
+				{ "Glacier_Armor", 450264 },
+				{ "Glacier_Robe", 450265 },
+				{ "Glacier_Manteau", 450266 },
+				{ "Glacier_Muffler", 450267 },
+				{ "Glacier_Boots", 470196 },
+				{ "Glacier_Shoes", 450268 },
+				{ "Glacier_Guard", 460040 }
+			},
+			NeedSource_String = "Glacier Armor"
+		},
 		AllMighty_Up = {
 			ItemID = 101564,
 			NeedRefineMin = 0,
