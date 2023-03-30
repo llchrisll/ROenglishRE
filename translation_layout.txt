@@ -209,6 +209,8 @@ Item Description
 	"Nullifies Gemstone Requirement of certain skills.",
 	"Nullifies Weapon Size Penalty.",
 	
+	"Increases damage of ^009900<Skill>^000000 by %."
+	
 	"Decreases ^009900<Skill>^000000 skill cooldown by seconds.",
 	"Decreases ^009900<Skill>^000000 skill cooldown by second.",
 	"Decreases ^009900<Skill>^000000 skill cooldown by %.",
@@ -237,6 +239,7 @@ Item Description
 	"When equipped by ^0033CC<Certain Class>^000000:",
 	"When equipped as ^990099Accessory Right^000000:", -> Accessory (1)
 	"When equipped as ^990099Accessory Left^000000:", -> Accessory (2)
+	"If ^990099Weapon^000000 type is a ^990099Two-Handed Sword, Two-Handed Spear, Two-Handed Staff, Two-Handed Axe, Katar, Bow, Huuma Shuriken^000000 or any ^990099Firearm^000000 class weapon:",
 	
 	"^663399Indestructible in battle^000000",
 	
@@ -410,15 +413,22 @@ Enchant Stones:
 
 Grade Options:
 	"If ^990099<Weapon>^000000's Grade is ^CC3D3DC^000000 or higher:",
+	"If the ^990099<Equipment>^000000's Grade is ^CC3D3DC^000000 or higher:",
 	"If enchanted ^990099Armor^000000's Grade is ^CC3D3DD^000000:",
+	"If enchanted ^990099Equipment^000000's Grade is ^CC3D3DD^000000 or higher:",
 	"<Bonus> for each Grade of the enchanted Weapon."
+	"Depending on the Grade of the enchanted ^990099<Equipment>^000000:",
 	
 	"^CC3D3D[Bonus by Grade]^000000",
 	"^CC3D3D[Bonus by <Equipment> Grade]^000000",
+	"^CC3D3D[Bonus by Equipment's Grade]^000000",
 	"[Grade D]: Effect",
 
 	Refine Level:
 	<Effect> per ^0000FF2 Refine Levels^000000
+	
+	Stats:
+	<Effect> per ^0000FF15^000000 base ^CC6600INT^000000
 
 Equipped Effect:
 	"^006400Since it is an equipped effect, it still will be displayed even when the effect (/effect) is turned off.^000000",
