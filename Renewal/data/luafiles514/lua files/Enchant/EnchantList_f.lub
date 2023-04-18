@@ -1,0 +1,423 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230408
+
+Table = {}
+LoadFailed = false
+GlobalTargetItemTbl = {}
+table.find = LubFunction
+
+table.find = function(in_table, in_value)
+	if type(in_table) ~= "table" then
+		return nil
+	end
+	for k,v in pairs(in_table) do
+		if v == in_value then
+			return k
+		end
+	end
+	return nil
+end
+
+CreateEnchantInfo = function()
+	local EnchantInfo = {}
+	EnchantInfo.Slot = {}
+	EnchantInfo.SetFailed = function(self, in_funcName, in_errMsg)
+		local EnchantNum = table.find(Table, self)
+		MessageBox("Table[ " .. EnchantNum .. " ]:" .. in_funcName .. " : " .. in_errMsg)
+		LoadFailed = true
+	end
+	EnchantInfo.SetSlotOrder = function(self, ...)
+		if #arg < 1 or MAX_SLOT_NUM < #arg then
+			self:SetFailed("SetSlotOrder", "The number of arguments must be between 1 and " .. MAX_SLOT_NUM .. ".")
+		end
+		self.SlotOrder = {}
+		for i,v in ipairs(arg) do
+			if type(v) ~= "number" then
+				self:SetFailed("SetSlotOrder", i .. " The first value must be a number.")
+			elseif v < 0 or MAX_SLOT_NUM - 1 < v then
+				self:SetFailed("SetSlotOrder", i .. " The first value must be between 0 and " .. MAX_SLOT_NUM - 1 .. ".")
+			end
+			table.insert(self.SlotOrder, v)
+		end
+		for k,slotNum in pairs(self.SlotOrder) do
+			self.Slot[slotNum] = CreateSlotInfo()
+		end
+	end
+	EnchantInfo.AddTargetItem = function(self, in_targetItem)
+		if self.SlotOrder == nil then
+			self:SetFailed("AddTargetItem", "The function SetSlotOrder must be called first.")
+		end
+		if type(in_targetItem) ~= "string" then
+			self:SetFailed("AddTargetItem", "The value must be a string.")
+		end
+		if table.find(GlobalTargetItemTbl, in_targetItem) ~= nil then
+			self:SetFailed("AddTargetItem", "[ " .. in_targetItem .. " ] is a duplicate target item.")
+		else
+			table.insert(GlobalTargetItemTbl, in_targetItem)
+		end
+		local slotCount = C_GetSlotCount(in_targetItem)
+		if slotCount > 0 then
+			for k,slotNum in pairs(EnchantInfo.SlotOrder) do
+				if slotNum < slotCount then
+					EnchantInfo:SetFailed("AddTargetItem", "You cannot enchant a slot on [ " .. in_targetItem .. " ]. Please check the number of slots for the item.")
+				end
+			end
+		end
+		if not self.TargetItemTbl then
+			self.TargetItemTbl = {}
+		end
+		table.insert(self.TargetItemTbl, in_targetItem)
+	end
+	EnchantInfo.SetCondition = function(self, in_minRefine, in_minGrade)
+		if type(in_minRefine) ~= "number" then
+			self:SetFailed("SetCondition", "The first value [minimum refine level] must be a number.")
+		else
+			if type(in_minGrade) ~= "number" then
+				self:SetFailed("SetCondition", "The second value [minimum grade] must be a number.")
+			end
+		end
+		if in_minRefine < 0 or MAX_REFINE_LEVEL < in_minRefine then
+			self:SetFailed("SetCondition", "The first value [minimum refine level] must be between 0 and " .. MAX_REFINE_LEVEL .. ".")
+		elseif in_minGrade < 0 or MAX_GRADE_LEVEL < in_minGrade then
+			self:SetFailed("SetCondition", "The second value [minimum grade] must be between 0 and " .. MAX_GRADE_LEVEL .. ".")
+		end
+		local tbl = {MinRefine = in_minRefine, MinGrade = in_minGrade}
+		self.Condition = tbl
+	end
+	EnchantInfo.ApproveRandomOption = function(self, in_check)
+		if type(in_check) ~= "boolean" then
+			self:SetFailed("ApproveRandomOption", "The argument must be true or false.")
+		end
+		self.bApproveRandomOpt = in_check
+	end
+	EnchantInfo.SetReset = function(self, in_bReset, in_Rate, in_Zeny, ...)
+		if type(in_bReset) ~= "boolean" then
+			self:SetFailed("SetReset", "The first value must be true or false.")
+		elseif type(in_Rate) ~= "number" then
+			self:SetFailed("SetReset", "The second value must be a number.")
+		elseif type(in_Zeny) ~= "number" then
+			self:SetFailed("SetReset", "The third value must be a number.")
+		end
+		if in_Rate < 0 or in_Rate > 100000 then
+			self:SetFailed("SetReset", "The second value must be between 0 and 100000.")
+		end
+		if type(in_Zeny) ~= "number" then
+			self:SetFailed("SetReset", "The third value must be a number.")
+		elseif in_Zeny < 0 then
+			self:SetFailed("SetReset", "The third value must be greater than zero.")
+		end
+		if MAX_MATERIAL_NUM < #arg then
+			self:SetFailed("SetReset", "The amount of ingredients must be " .. MAX_MATERIAL_NUM .. " or less.")
+		end
+		local tempMatTbl = {}
+		for i,matInfo in ipairs(arg) do
+			if type(matInfo) ~= "table" then
+				self:SetFailed("SetReset", "Materials must be written in tabular form.")
+			elseif type(matInfo[1]) ~= "string" then
+				self:SetFailed("SetReset", "Invalid ingredients list.")
+			elseif type(matInfo[2]) ~= "number" then
+				self:SetFailed("SetReset", "Invalid ingredients list.")
+			end
+			tempMatTbl[matInfo[1]] = matInfo[2]
+		end
+		local tbl = { bReset = in_bReset, Rate = in_Rate, Zeny = in_Zeny, MatTbl = tempMatTbl }
+		self.Reset = tbl
+	end
+	EnchantInfo.SetCaution = function(self, in_msg)
+		if type(in_msg) ~= "string" then
+			self:SetFailed("SetCaution", "The value must be a string.")
+		end
+		self.CautionMsg = in_msg
+	end
+	return EnchantInfo
+end
+
+CreateSlotInfo = function()
+	local SlotInfo = {}
+	SlotInfo.PerfectECTbl = {}
+	SlotInfo.UpgradeECTbl = {}
+	SlotInfo.GetEnchantNum = function(self)
+		for EnchantNum,EnchantInfo in pairs(Table) do
+			local SlotNum = table.find(EnchantInfo.Slot, self)
+			if SlotNum ~= nil then
+				return EnchantNum, SlotNum
+			end
+		end
+		return nil
+	end
+	SlotInfo.SetFailed = function(self, in_funcName, in_errMsg)
+		local EnchantNum, SlotNum = self:GetEnchantNum()
+		MessageBox("Table[ " .. EnchantNum .. " ].Slot[ " .. SlotNum .. " ]:" .. in_funcName .. " : " .. in_errMsg)
+		LoadFailed = true
+	end
+	SlotInfo.SetRequire = function(self, in_Zeny, ...)
+		if type(in_Zeny) ~= "number" then
+			self:SetFailed("SetRequire", "The first value must be a number.")
+		elseif in_Zeny < 0 then
+			self:SetFailed("SetRequire", "The first value must be greater than 0.")
+		end
+		if MAX_MATERIAL_NUM < #arg then
+			self:SetFailed("SetRequire", "The amount of ingredients must be " .. MAX_MATERIAL_NUM .. " or less.")
+		end
+		local tempMatTbl = {}
+		for i,matInfo in ipairs(arg) do
+			if type(matInfo) ~= "table" then
+				self:SetFailed("SetRequire", "Materials must be written in tabular form.")
+			elseif type(matInfo[1]) ~= "string" then
+				self:SetFailed("SetRequire", "Invalid ingredients list.")
+			elseif type(matInfo[2]) ~= "number" then
+				self:SetFailed("SetRequire", "Invalid ingredients list.")
+			end
+			tempMatTbl[matInfo[1]] = matInfo[2]
+		end
+		if not self.RequireTbl then
+			self.RequireTbl = {}
+		end
+		self.RequireTbl.Zeny = in_Zeny
+		self.RequireTbl.MatTbl = tempMatTbl
+	end
+	SlotInfo.SetSuccessRate = function(self, in_successRate)
+		if type(in_successRate) ~= "number" then
+			self:SetFailed("SetSuccessRate", "Values must be numeric.")
+		elseif in_successRate < 0 or in_successRate > 100000 then
+			self:SetFailed("SetSuccessRate", "The value must be between 0 and 100000.")
+		end
+		self.SuccessRate = in_successRate
+	end
+	SlotInfo.SetGradeBonus = function(self, in_Grade, in_bonusRate)
+		if type(in_Grade) ~= "number" then
+			self:SetFailed("SetGradeBonus", "The first value must be a number.")
+		elseif type(in_bonusRate) ~= "number" then
+			self:SetFailed("SetGradeBonus", "The second value must be number.")
+		end
+		if in_Grade < 0 or MAX_GRADE_LEVEL < in_Grade then
+			self:SetFailed("SetGradeBonus", "The first value must be between 0 and " .. MAX_GRADE_LEVEL .. ".")
+		elseif in_bonusRate < 0 or in_bonusRate > 100000 then
+			self:SetFailed("SetGradeBonus", "The second value must be between 0 and 100000.")
+		end
+		if not self.GradeBonusTbl then
+			self.GradeBonusTbl = {}
+		end
+		self.GradeBonusTbl[in_Grade] = in_bonusRate
+	end
+	SlotInfo.SetEnchant = function(self, in_Grade, in_ItemDB, in_Rate)
+		if type(in_Grade) ~= "number" then
+			self:SetFailed("SetEnchant", "The first value must be a number.")
+		elseif type(in_ItemDB) ~= "string" then
+			self:SetFailed("SetEnchant", "The second value must be a string.")
+		elseif type(in_Rate) ~= "number" then
+			self:SetFailed("SetEnchant", "The third value must be a number.")
+		end
+		if in_Grade < 0 or MAX_GRADE_LEVEL < in_Grade then
+			self:SetFailed("SetEnchant", "The first value must be between 0 and " .. MAX_GRADE_LEVEL .. ".")
+		elseif in_Rate < 0 or in_Rate > 100000 then
+			self:SetFailed("SetEnchant", "The third value must be between 0 and 100000.")
+		end
+		if not self.EnchantRateTbl then
+			self.EnchantRateTbl = {}
+		end
+		if not self.EnchantRateTbl[in_Grade] then
+			self.EnchantRateTbl[in_Grade] = {}
+		end
+		self.EnchantRateTbl[in_Grade][in_ItemDB] = in_Rate
+	end
+	SlotInfo.AddPerfectEnchant = function(self, in_ItemDB, in_Zeny, ...)
+		if type(in_ItemDB) ~= "string" then
+			self:SetFailed("AddPerfectEnchant", "The first value must be a string.")
+		elseif type(in_Zeny) ~= "number" then
+			self:SetFailed("AddPerfectEnchant", "The second value must be a number.")
+		end
+		if in_Zeny < 0 then
+			self:SetFailed("AddPerfectEnchant", "The second value must be greater than zero.")
+		end
+		if MAX_MATERIAL_NUM < #arg then
+			self:SetFailed("AddPerfectEnchant", "The amount of ingredients must be " .. MAX_MATERIAL_NUM .. " or less.")
+		end
+		local tempMatTbl = {}
+		for i,matInfo in ipairs(arg) do
+			if type(matInfo) ~= "table" then
+				self:SetFailed("AddPerfectEnchant", "Materials must be written in tabular form.")
+			elseif type(matInfo[1]) ~= "string" then
+				self:SetFailed("AddPerfectEnchant", "Invalid ingredients list.")
+			elseif type(matInfo[2]) ~= "number" then
+				self:SetFailed("AddPerfectEnchant", "Invalid ingredients list.")
+			end
+			tempMatTbl[matInfo[1]] = matInfo[2]
+		end
+		local tbl = { Zeny = in_Zeny, MatTbl = tempMatTbl }
+		self.PerfectECTbl[in_ItemDB] = tbl
+	end
+	SlotInfo.AddUpgradeEnchant = function(self, in_ItemDB, in_ResultItemDB, in_Zeny, ...)
+		if type(in_ItemDB) ~= "string" then
+			self:SetFailed("AddUpgradeEnchant", "The first value must be a string.")
+		elseif type(in_ResultItemDB) ~= "string" then
+			self:SetFailed("AddUpgradeEnchant", "The second value must be a string.")
+		elseif type(in_Zeny) ~= "number" then
+			self:SetFailed("AddUpgradeEnchant", "The third value must be a number.")
+		end
+		if in_Zeny < 0 then
+			self:SetFailed("AddUpgradeEnchant", "The third value must be greater than zero.")
+		end
+		if MAX_MATERIAL_NUM < #arg then
+			self:SetFailed("AddUpgradeEnchant", "The amount of ingredients must be " .. MAX_MATERIAL_NUM .. " or less.")
+		end
+		local tempMatTbl = {}
+		for i,matInfo in ipairs(arg) do
+			if type(matInfo) ~= "table" then
+				self:SetFailed("AddPerfectEnchant", "Materials must be written in tabular form.")
+			elseif type(matInfo[1]) ~= "string" then
+				self:SetFailed("AddPerfectEnchant", "Invalid ingredients list.")
+			elseif type(matInfo[2]) ~= "number" then
+				self:SetFailed("AddPerfectEnchant", "Invalid ingredients list.")
+			end
+			tempMatTbl[matInfo[1]] = matInfo[2]
+		end
+		local tbl = { ResultItemDB = in_ResultItemDB, Zeny = in_Zeny, MatTbl = tempMatTbl }
+		if self.UpgradeECTbl[in_ItemDB] ~= nil then
+			self:SetFailed("AddPerfectEnchant", "[ " .. in_ItemDB .. " ]'s information is duplicated.")
+		end
+		self.UpgradeECTbl[in_ItemDB] = tbl
+	end
+	return SlotInfo
+end
+
+CheckFile = function()
+	for EnchantNum,EnchantInfo in pairs(Table) do
+		if EnchantInfo.SlotOrder == nil then
+			EnchantInfo:SetFailed("SetSlotOrder", "Slot table information does not exist.")
+		end
+		if EnchantInfo.TargetItemTbl == nil then
+			EnchantInfo:SetFailed("AddTargetItem", "Target item information does not exist.")
+		end
+		if EnchantInfo.Condition == nil then
+			EnchantInfo:SetFailed("SetCondition", "Condition information does not exist.")
+		end
+		if EnchantInfo.bApproveRandomOpt == nil then
+			EnchantInfo:SetFailed("ApproveRandomOption", "Random Option information does not exist.")
+		end
+		if EnchantInfo.Reset == nil then
+			EnchantInfo:SetFailed("SetReset", "Reset information does not exist.")
+		end
+		if EnchantInfo.CautionMsg == nil then
+			EnchantInfo:SetFailed("SetCaution", "Caution message does not exist.")
+		end
+		for slotNum,slotInfo in pairs(EnchantInfo.Slot) do
+			if slotInfo.RequireTbl ~= nil or slotInfo.SuccessRate ~= nil or slotInfo.GradeBonusTbl ~= nil or slotInfo.EnchantRateTbl ~= nil then
+				if slotInfo.RequireTbl == nil then
+					slotInfo:SetFailed("SetRequire", "Material information for random enchantment does not exist.")
+				end
+				if slotInfo.SuccessRate == nil then
+					slotInfo:SetFailed("SetSuccessRate", "Enchantment Success information does not exist.")
+				end
+				if slotInfo.GradeBonusTbl == nil then
+					slotInfo:SetFailed("SetGradeBonus", "Success bonus information by grade does not exist.")
+				end
+				if slotInfo.EnchantRateTbl == nil then
+					slotInfo:SetFailed("SetEnchant", "Random enchantment information does not exist.")
+				end
+				for grade,gradeBonus in pairs(slotInfo.GradeBonusTbl) do
+					if slotInfo.SuccessRate + gradeBonus > 100000 then
+						slotInfo:SetFailed("SetGradeBonus", "The value of SuccessRate+SetGradeBonus( " .. grade .. " ) cannot exceed 100000.")
+					end
+				end
+				for grade,rateTbl in pairs(slotInfo.EnchantRateTbl) do
+					local totalRate = 0
+					for itemDB,rate in pairs(rateTbl) do
+						totalRate = totalRate + rate
+					end
+					if totalRate ~= 100000 then
+						slotInfo:SetFailed("SetEnchant","The sum of the probabilities of the " .. grade .. " grade is not 100000.")
+					end
+				end
+			end
+		end
+	end
+	if LoadFailed == true then
+		return false, "The EnchantList.lua file was not created correctly."
+	end
+	return true, "good"
+end
+
+GetEnchantInfo = function(in_EnchantNum)
+	local EnchantInfo = Table[in_EnchantNum]
+	if EnchantInfo == nil then
+		return false, in_EnchantNum .. " : I couldn't find the enchantment information."
+	end
+	result, msg = C_SetSlotOrder(in_EnchantNum, EnchantInfo.SlotOrder)
+	if not result then
+		return false, msg
+	end
+	for k,TargetItemDB in ipairs(EnchantInfo.TargetItemTbl) do
+		result, msg = C_AddTargetItem(in_EnchantNum, TargetItemDB)
+		if not result then
+			return false, msg
+		end
+	end
+	result, msg = C_SetCondition(in_EnchantNum, EnchantInfo.Condition.MinRefine, EnchantInfo.Condition.MinGrade)
+	if not result then
+		return false, msg
+	end
+	result, msg = C_ApproveRandomOption(in_EnchantNum, EnchantInfo.bApproveRandomOpt)
+	if not result then
+		return false, msg
+	end
+	result, msg = C_SetReset(in_EnchantNum, EnchantInfo.Reset.bReset, EnchantInfo.Reset.Rate, EnchantInfo.Reset.Zeny, EnchantInfo.Reset.MatTbl)
+	if not result then
+		return false, msg
+	end
+	if IS_CLIENT == true then
+		result, msg = C_SetCaution(in_EnchantNum, EnchantInfo.CautionMsg)
+		if not result then
+			return false, msg
+		end
+		for slotNum,slotInfo in pairs(EnchantInfo.Slot) do
+			if slotInfo.RequireTbl ~= nil and slotInfo.SuccessRate ~= nil and slotInfo.GradeBonusTbl ~= nil and slotInfo.EnchantRateTbl ~= nil then
+				result, msg = C_SetRequire(in_EnchantNum, slotNum, slotInfo.RequireTbl.Zeny, slotInfo.RequireTbl.MatTbl)
+				if not result then
+					return false, msg
+				end
+				result, msg = C_SetSuccessRate(in_EnchantNum, slotNum, slotInfo.SuccessRate)
+				if not result then
+					return false, msg
+				end
+				result, msg = C_SetGradeBonus(in_EnchantNum, slotNum, slotInfo.GradeBonusTbl)
+				if not result then
+					return false, msg
+				end
+				for grade, rateTbl in pairs(slotInfo.EnchantRateTbl) do
+					result, msg = C_SetEnchant(in_EnchantNum, slotNum, grade, rateTbl)
+					if not result then
+						return false, msg
+					end
+				end
+			end
+			for ItemDB,perfectECTInfo in pairs(slotInfo.PerfectECTbl) do
+				result, msg = C_AddPerfectEnchant(in_EnchantNum, slotNum, ItemDB, perfectECTInfo.Zeny, perfectECTInfo.MatTbl)
+				if not result then
+					return false, msg
+				end
+			end
+			for ItemDB,upgradeECTInfo in pairs(slotInfo.UpgradeECTbl) do
+				result, msg = C_AddUpgradeEnchant(in_EnchantNum, slotNum, ItemDB, upgradeECTInfo.ResultItemDB, upgradeECTInfo.Zeny, upgradeECTInfo.MatTbl)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+	end
+	return true, "good"
+end
+
+LoadAllData = function()
+	for EnchantNum,EnchantInfo in pairs(Table) do
+		result, msg = GetEnchantInfo(EnchantNum)
+		if not result then
+			return false, msg
+		end
+	end
+	return true, "good"
+end
+
