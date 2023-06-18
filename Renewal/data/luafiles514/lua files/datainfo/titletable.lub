@@ -55,8 +55,11 @@ title_tbl = {
 }
 
 GetTitleString = function(titleID)
-	if title_tbl[titleID] ~= nil then
-		return title_tbl[titleID]
-	end
-	return ""
+    if title_tbl[titleID] ~= nil then
+        return title_tbl[titleID]
+    end
+    if title_tbl_CLS[titleID] ~= nil then
+        return title_tbl_CLS[titleID]
+    end
+    return ""
 end
