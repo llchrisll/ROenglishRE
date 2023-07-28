@@ -15,6 +15,13 @@ local FILEPATH = 6
 local CONTENTS = 7
 local CHARCOLOR = 8
 function GetSignBoardListTable(idx)
+	if( SignBoardIgnore ~= nil) then
+		for i, v in pairs(SignBoardIgnore) do
+			if (v[MAPNAME] == SignBoardList[idx][MAPNAME] and v[CELLX] == SignBoardList[idx][CELLX] and v[CELLY] == SignBoardList[idx][CELLY]) then
+				return 0
+			end
+		end
+	end
 	if( SignBoardData ~= nil) then
 		if( SignBoardData[SignBoardList[idx][CONTENTS]] ~= nil) then
 			return SignBoardList[idx][MAPNAME], SignBoardList[idx][CELLX], SignBoardList[idx][CELLY], SignBoardList[idx][HEIGHT], SignBoardList[idx][ICONID], SignBoardList[idx][FILEPATH], SignBoardData[SignBoardList[idx][CONTENTS]], SignBoardList[idx][CHARCOLOR]

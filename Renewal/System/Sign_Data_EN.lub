@@ -65,3 +65,14 @@ SignBoardData = {
 	["  표본 환경 - 맹독"] = "  Specimen Environment - Venom",
 	["  표본 환경 - 영혼"] = "  Specimen Environment - Soul",
 }
+
+SignBoardIgnore = {
+	-- With this you can disable certain signboards by just declaring the Map and Coordinates
+	-- { "map", x, y },
+}
+
+-- Custom Signboards
+-- Uncommend the following 'dofile' line to read a different signboardlist outside of the CLS (Custom Lua Support)
+-- Note: The CLS for Signboards will still work even without this file.
+--
+-- dofile("System/Sign_Data_CLS.lua")

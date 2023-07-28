@@ -4,15 +4,22 @@
 -- `System/Sign_Data_EN.lub` (Translated Strings) which comes with this project
 -- and the `Custom Lua Support`
 
+-- Format:
+-- { "map", x, y, Height, Icon ID, "Path", "Content", "Char Color" },
+--
+-- Icon ID:
+-- IT_BMP > Only displays the bmp 
+-- IT_SIGNBOARD > Displays the text and image in a box
+-- IT_SPRITE > Not sure, even kRO doesn't use it at the moment
+--
+-- Path: File Path of the .bmp file (Note: "유저인터페이스" can be skipped)
+--       Example: "유저인터페이스\\item\\suffragium.bmp" or "item\\suffragium.bmp"
+-- Content: What should be written in your signboard
+-- Char Color: I'm unsure myself, but default used by kRO is: "#0x00FFFFFF"
+
 IT_NONE = 0
 IT_BMP = 1
 IT_SPRITE = 2
 IT_SIGNBOARD = 3
 SignBoardList_CLS = {
-	-- Background Display:
-	-- IT_BMP > Only displays the bmp 
-	-- IT_SIGNBOARD > Displays the text and image in a box
-	-- IT_SPRITE > Not sure, even kRO doesn't use it at the moment
-	-- Note: "유저인터페이스" can be skipped if you want
-	-- { "mapname", x, y, 0, IT_BMP, "유저인터페이스\\<folder>\\<file>.bmp", "Display Text", "#0x00<color>" },
 }
