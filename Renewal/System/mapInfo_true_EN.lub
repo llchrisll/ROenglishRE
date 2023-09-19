@@ -5,6 +5,15 @@
 -- Last updated: 20230418
 
 mapTbl = {
+	["bl_depth1.rsw"] = {
+		displayName = "Biosphere Depth 1st Floor",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Depth 1st Floor"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["jor_twig.rsw"] = {
 		displayName = "Isgard Sanctuary Twig's Nest",
 		notifyEnter = true,
@@ -2655,7 +2664,7 @@ mapTbl = {
 		displayName = "Prontera Field",
 		notifyEnter = true, 
 		signName = {
-			subTitle = "South Field of Prontera"
+			mainTitle = "South Field of Prontera"
 		},
 		backgroundBmp = "field_s2"
 	},
@@ -5006,7 +5015,7 @@ mapTbl = {
 		displayName = "Einbroch Field",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "#Einbroch Field"
+			mainTitle = "Einbroch Field"
 		},
 		backgroundBmp = "field_s2"
 	},

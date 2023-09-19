@@ -25,6 +25,46 @@ popuptbl = {
 			"This is an area where PVP rules exclusive to Herosria Siege are applied.",
 			"The power of some skills and items may be adjusted, or functions and uses may be limited."
 		}
+	}, 
+	[3] = {
+		uitype = SPUI_IDS.SPU_FLOATING_CHAT,
+		textcolor = 16763904,
+		Description = {
+			"This is the Biosphere area.",
+			"Monsters evolve in the sample environment and receive less damage."
+		}
+	},
+	[4] = {
+		uitype = SPUI_IDS.SPU_FLOATING_CHAT,
+		textcolor = 16763904,
+		Description = {
+			"This area is affected by the Magic Swordsman Thanatos.",
+			"Teleport is not available on this map."
+		}
+	},
+	[5] = {
+		uitype = SPUI_IDS.SPU_FLOATING_CHAT,
+		textcolor = 16763904,
+		Description = {
+			"Teleport cannot be used due to the unknown power of the Tatami Labyrinth."
+		}
+	},
+	[6] = {
+		uitype = SPUI_IDS.SPU_FLOATING_CHAT,
+		textcolor = 16763904,
+		Description = {
+			"Entered the Tomb of the Dead.",
+			"All skills and items related to teleportation are prohibited."
+		}
+	},
+	[7] = {
+		uitype = SPUI_IDS.SPU_FLOATING_CHAT,
+		textcolor = 16763904,
+		Description = {
+			"You have entered the depths of the Biosphere.",
+			"Teleportation-related skills and items are prohibited.",
+			"Some movement related skills are prohibited."
+		}
 	}
 }
 function main()

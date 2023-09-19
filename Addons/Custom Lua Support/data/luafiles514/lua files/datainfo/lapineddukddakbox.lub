@@ -7,6 +7,50 @@
 
 tblLapineDdukddakBox = {
 	sources = {
+		Bs_Item_M_S_60 = {
+			ItemID = 102295,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "EP20_D_Scale", 30, 1001251 },
+				{ "Zelunium", 250, 25731 }
+			},
+			NeedSource_String = "Scale of the Snake God	, Zelunium"
+		},
+		Bs_Item_M_S_61 = {
+			ItemID = 102308,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "¾ÏÈæÀÇÀÇÁö_", 30, 7566 },
+				{ "Zelunium", 250, 25731}
+			},
+			NeedSource_String = "Will of Red Darkness, Zelunium"
+		},
+		Bs_Item_M_S_62 = {
+			ItemID = 102310,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "EP19_Luminant", 30, 1000833 },
+				{ "Zelunium", 250, 25731 }
+			},
+			NeedSource_String = "Mysterious Luminant, Zelunium"
+		},
+		Bs_Item_M_S_63 = {
+			ItemID = 102311,
+			NeedCount = 2,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			SourceItems = {
+				{ "EP19_D_P_Stone", 30, 1001033 },
+				{ "Zelunium", 250, 25731 }
+			},
+			NeedSource_String = "Miasmal Spell, Zelunium"
+		},
 		Mocadas_Slabs1 = {
 			ItemID = 102040,
 			NeedCount = 3,

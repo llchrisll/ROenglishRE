@@ -6,6 +6,62 @@
 
 tblLapineUpgradeBox = {
 	targets = {
+		Fan_Upgrade_Kit_EX = {
+			ItemID = 102344,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "SeeOtter_Fan_LT", 490374 },
+				{ "FurSeal_Fan_LT", 490375 }
+			},
+			NeedSource_String = "Sea Otter Mini Fan-LT, Fur Seal Mini Fan-LT"
+		},
+		Loki_Coin_3 = {
+			ItemID = 102343,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Gambler_Seal_KR_", 410233 }
+			},
+			NeedSource_String = "Gambler's Seal(1)"
+		},
+		Loki_Advice_3 = {
+			ItemID = 102342,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Diamond_Ace_Range", 420220 }
+			},
+			NeedSource_String = "Ace of Diamonds in Mouth (Long Ranged Physical)"
+		},
+		Loki_Coin_2 = {
+			ItemID = 100487,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Gambler_Seal_KR_", 410233 }
+			},
+			NeedSource_String = "Gambler's Seal(1)"
+		},
+		Loki_Advice_2 = {
+			ItemID = 100488,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Spade_Ace_Melee", 420213 }
+			},
+			NeedSource_String = "Ace of Spades in Mouth (Magical)"
+		},
 		Loki_Advice = {
 			ItemID = 102277,
 			NeedRefineMin = 0,

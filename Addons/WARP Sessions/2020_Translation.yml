@@ -1,69 +1,96 @@
-from: "E:/Ragnarok Project/rAthena/Client/Ragexe/2020/2020-04-01bRagexe.exe"
-to: "E:/Ragnarok Project/rAthena/Client/Ragexe/2020/2020-04-01bRagexe_patched.exe"
+from: "D:/Ragnarok Project/Client/Ragexe/2022/2022-04-06_Ragexe_1648707856.exe"
+to: "C:/Gravity/Ragnarok/ROTP 2021-11-03.exe"
 inputs:
-    $newTipBox:
-        data: '53797374656d2f746970626f785f454e2e6c756200'
-        display: "System/tipbox_EN.lub"
-    
-    $dataINI:
-        data: '444154412e494e4900'
-        display: "DATA.INI"
-    
-    $newAchieveList:
-        data: '73797374656d5c616368696576656d656e745f6c6973745f454e2e6c756200'
-        display: "system\\achievement_list_EN.lub"
-    
-    $newTownInfo:
-        data: '53797374656d2f546f776e696e666f5f454e2e6c756200'
-        display: "System/Towninfo_EN.lub"
-    
-    $newOngQInfoList:
-        data: '73797374656d5c4f6e676f696e675175657374496e666f4c6973745f547275655f454e00'
-        display: "system\\OngoingQuestInfoList_True_EN"
-    
-    $showFailures:
-        data: ''
-        display: "true"
-    
-    $copyNCDdll:
-        data: ''
-        display: "true"
-    
-    $newItemInfo:
-        data: '53797374656d2f6974656d696e666f5f454e2e6c756100'
-        display: "System/iteminfo_EN.lua"
-    
-    $newMapInfo:
-        data: '73797374656d5c6d6170496e666f5f747275655f454e2e6c756200'
-        display: "system\\mapInfo_true_EN.lub"
-    
-    $newCheckAtt:
-        data: '53797374656d2f436865636b417474656e64616e63655f454e2e6c756200'
-        display: "System/CheckAttendance_EN.lub"
+    $newPetEvoCln:
+        data: '73797374656d5c50657445766f6c7574696f6e436c6e5f747275655f452e6c756200'
+        display: "system\\PetEvolutionCln_true_E.lub"
+        type: 10
     
     $translationFile:
         data: ''
         display: "Inputs/Translations_EN.yml"
+        type: 10
     
-    $newRcmdQInfoList:
-        data: '73797374656d5c5265636f6d6d656e6465645175657374496e666f4c6973745f547275655f454e00'
-        display: "system\\RecommendedQuestInfoList_True_EN"
+    $newTownInfo:
+        data: '53797374656d2f546f776e696e666f5f454e2e6c756200'
+        display: "System/Towninfo_EN.lub"
+        type: 10
+    
+    $newMapInfo:
+        data: '73797374656d5c6d6170496e666f5f747275655f454e2e6c756200'
+        display: "system\\mapInfo_true_EN.lub"
+        type: 10
+    
+    $newTipBox:
+        data: '53797374656d2f746970626f785f454e2e6c756200'
+        display: "System/tipbox_EN.lub"
+        type: 10
+    
+    $newAchieveList:
+        data: '73797374656d5c616368696576656d656e745f6c6973745f454e2e6c756200'
+        display: "system\\achievement_list_EN.lub"
+        type: 10
     
     $newPrivAirplane:
         data: '53797374656d5c50726976617465416972706c616e655f545f454e2e6c756200'
         display: "System\\PrivateAirplane_T_EN.lub"
+        type: 10
     
-    $newPetEvoCln:
-        data: '73797374656d5c50657445766f6c7574696f6e436c6e5f747275655f452e6c756200'
-        display: "system\\PetEvolutionCln_true_E.lub"
+    $newOngQInfoList:
+        data: '73797374656d5c4f6e676f696e675175657374496e666f4c6973745f547275655f454e00'
+        display: "system\\OngoingQuestInfoList_True_EN"
+        type: 10
+    
+    $showFailures:
+        data: ''
+        display: "true"
+        type: 10
+    
+    $newMonSizeEffect:
+        data: '53797374656d5c6d6f6e737465725f73697a655f6566666563745f454e2e6c756200'
+        display: "System\\monster_size_effect_EN.lub"
+        type: 10
+    
+    $newCheckAtt:
+        data: '53797374656d2f436865636b417474656e64616e63655f454e2e6c756200'
+        display: "System/CheckAttendance_EN.lub"
+        type: 10
+    
+    $newItemInfo:
+        data: '53797374656d2f6974656d696e666f5f454e2e6c756100'
+        display: "System/iteminfo_EN.lua"
+        type: 10
+    
+    $newRcmdQInfoList:
+        data: '73797374656d5c5265636f6d6d656e6465645175657374496e666f4c6973745f547275655f454e00'
+        display: "system\\RecommendedQuestInfoList_True_EN"
+        type: 10
+    
+    $dataINI:
+        data: '444154412e494e4900'
+        display: "DATA.INI"
+        type: 10
+    
+    $copyNCDdll:
+        data: ''
+        display: "true"
+        type: 10
     
 patches:
+    - EnableWho
+    - EnableShowName
     - MediumCamAngle
-    - RestoreIcon
-    - GRFsFromIni
     - UseOldLogin
+    - AlwaysAscii
+    - CallKoreaClientInfo
+    - PlainTextDesc
+    - HideBuildInfo
+    - TranslateClient
+    - NoGGuard
+    - MsgStrings
     - CustomItemInfoLub
     - CustomAchieveLub
+    - CustomMonSizeEffLub
     - CustomTownInfoLub
     - CustomPetEvoClnLub
     - CustomTipboxLub
@@ -72,25 +99,21 @@ patches:
     - CustomMapInfoLub
     - CustomOngQuestInfoLub
     - CustomRcmdQuestInfoLub
-    - NoGravityAds
-    - NoGravityLogo
-    - MsgStrings
-    - No1and1Arg
-    - EnableWho
-    - EnableShowName
+    - GRFsFromIni
+    - NoFilenameCheck
     - EnableSysMenu
-    - NoCDefender
-    - TranslateClient
-    - TranslateTaekwon
+    - No1and1Arg
+    - RestoreIcon
+    - EnableDnsSupport
+    - NoNagle
+    - NoHardCodedAddr
+    - SendClientFlags
+    - OpenToServiceSelect
     - GuildBrackets
     - FixChatAt
     - NoHourly
     - NoSerialDisplay
     - NoHelpMsg
-    - AlwaysAscii
-    - EnableDnsSupport
-    - CallKoreaClientInfo
-    - PlainTextDesc
-    - HideBuildInfo
-    - NoNagle
-    - NoHardCodedAddr
+    - NoGravityAds
+    - NoGravityLogo
+    - FixLatestNCWin
