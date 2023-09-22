@@ -5,11 +5,6 @@
 -- This file only works if used in combination with the `Custom Lua Support`
 -- Last updated: 20230321
 
--- Personal Custom Lua Support
-require "System/LuaFiles514/clua_f";
-CLuaInit(12)
---------------------------------
-
 function ReqWeaponName(index)
 	if WeaponNameTable == nil then
 		return ""

@@ -2,8 +2,9 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230418
+-- Last updated: 20230919
 -- ToDo: Globalize `[Standby]` instead of anything else for cooldown quests, will be done when I sync all of them.
+-- Note: If you want to add custom quests, do it before the table 'QuestInfoList_iRO', otherwise they won't be read.
 
 QuestInfoList = {}
 QuestInfoList = {
@@ -28384,6 +28385,189 @@ QuestInfoList = {
 		},
 		Summary = "Talk to Nelem"
 	},
+	[8839] = {
+		Title = "Reluctantly pretending to help",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Sacred Roots here and there are in need of \"capable messengers who have just returned from reconnaissance'. Without even knowing who they really are.",
+			"* <NAVI>[Gomiagand]<INFO>jor_sanct,215,84,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Halseybygand]<INFO>jor_sanct,190,128,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Pamochegan]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Nasioramigand]<INFO>jor_sanct,271,156,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Eryligand]<INFO>jor_sanct,101,138,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Helping Rgan's in trouble"
+	},
+	[8840] = {
+		Title = "Rgan's Trust",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Strangely, it became a popular body among top-notch Rgans. There were only those who were stubborn and had strange personalities. I think I can talk to <NAVI>[Sarekgandh]<INFO>jor_sanct,157,171,0,101,0</INFO></NAVI> now."
+		},
+		Summary = "Talk to Sarekgandh"
+	},
+	[8841] = {
+		Title = "But think about it",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Sacred Root's <NAVI>[Gomiagand]<INFO>jor_sanct,215,84,0,101,0</INFO></NAVI> seems to have a lot to say, but it's not easy because his direct subordinate, Gamiravagandha, keeps arguing."
+		},
+		Summary = "Talk to Gomiagand"
+	},
+	[8842] = {
+		Title = "You are very angry",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Sacred Root's <NAVI>[Halseybygand]<INFO>jor_sanct,190,128,0,101,0</INFO></NAVI> asks you to bring 30x <ITEM>[Copo's Feathers]<INFO>1001246</INFO></ITEM>."
+		},
+		Summary = "Deliver 30 Copo's Feathers"
+	},
+	[8843] = {
+		Title = "Silent Answer",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Pamochegan of the Sacred Root asks you to get 20x <ITEM>[Large Gray Feather]<INFO>1001244</INFO></ITEM>.",
+			"Leaving <NAVI>[Doriri Logand]<INFO>jor_sanct,258,117,0,101,0</INFO></NAVI> alone, who was assigned as his direct subordinate... !"
+		},
+		Summary = "After delivering the items, talk to Doriri Logand"
+	},
+	[8844] = {
+		Title = "[Standby] Example of Silent Answer",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and when the waiting time expires, you can receive it again from <NAVI>[Pamochegan]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8845] = {
+		Title = "Example of Silent Answer",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Pamochegan]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI> asks you to get 20x <ITEM>[Large Gray Feather]<INFO>1001244</INFO></ITEM>. ...But whose orders are these? Doriri Logand?"
+		},
+		Summary = "Deliver 20 Large Gray Feathers"
+	},
+	[8846] = {
+		Title = "I came all the way here",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Work is not assigned to intermediate Rgans who have followed their Sacred Roots. Each should be assigned a task to do.",
+			"* <NAVI>[Puddle]<INFO>jor_sanct,48,159,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Tower]<INFO>jor_sanct,95,152,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Garbage]<INFO>jor_root2,12,172,0,101,0</INFO></NAVI>",
+			"* <NAVI>[A mountain of junk]<INFO>jor_root2,242,124,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Warehouse]<INFO>jor_root2,149,125,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Intermediate Rgan Job Search"
+	},
+	[8847] = {
+		Title = "Nasioramigand's Work",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I found something to do for Nasioramigand."
+		},
+		Summary = "Intermediate Rgan Job Search"
+	},
+	[8848] = {
+		Title = "Numkasaigargand's Work",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I found something to do for Numkasaigargand."
+		},
+		Summary = "Intermediate Rgan Job Search"
+	},
+	[8849] = {
+		Title = "Onnacharamelgand's Work",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I found something to do for Onnacharamelgand."
+		},
+		Summary = "Intermediate Rgan Job Search"
+	},
+	[8850] = {
+		Title = "Jagdagumigand's Work",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I found something to do for Jagdagumigand."
+		},
+		Summary = "Intermediate Rgan Job Search"
+	},
+	[8851] = {
+		Title = "Clejainamogand's Work",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I found something to do for Clejainamogand."
+		},
+		Summary = "Intermediate Rgan Job Search"
+	},
+	[8852] = {
+		Title = "[Standby] I've come this far",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can receive it again from <NAVI>[Nasioramigand]<INFO>jor_sanct,271,156,0,101,0</INFO></NAVI> when the waiting time expires."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8853] = {
+		Title = "I've come this far",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Work is not assigned to intermediate Rgans who have followed their Sacred Roots. You have to give each one a task to do."
+		},
+		Summary = "Intermediate Rgan Job Search"
+	},
+	[8854] = {
+		Title = "나는 아마도 도시락",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Eryligand]<INFO>jor_sanct,101,138,0,101,0</INFO></NAVI>는 설마 이 이야기를 모두에게 한 걸까?"
+		},
+		Summary = "Eryligand와 대화"
+	},
+	[8855] = {
+		Title = "말랑말랑 별미 수집",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"조랴라의 사촌 또료료가 어린이집에 합류했다.",
+			"천사달팽이 20마리와 눈토끼달팽이 20마리를 처치하고,",
+			"<ITEM>[말랑말랑 형광 세포(짭짤)]<INFO>1001232</INFO></ITEM> 10개,",
+			"<ITEM>[말랑말랑 형광 세포(달달)]<INFO>1001233</INFO></ITEM> 10개를 <NAVI>[또료료]<INFO>icas_in,243,66,0,101,0</INFO></NAVI>에게 가져다 주면 된다."
+		},
+		Summary = "아이템 조달"
+	},
+	[8856] = {
+		Title = "[Standby] 말랑말랑 별미 수집",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"해당 퀘스트는 일일 퀘스트로, 대기시간 만료시 <NAVI>[또료료]<INFO>icas_in,243,66,0,101,0</INFO></NAVI>에게 다시 받아 수행할 수 있습니다."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8857] = {
+		Title = "짭짤한 맛과 달달한 맛",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"천사달팽이 20마리와 눈토끼달팽이 20마리를 처치하고,",
+			"<ITEM>[말랑말랑 형광 세포(짭짤)]<INFO>1001232</INFO></ITEM> 10개, <ITEM>[말랑말랑 형광 세포(달달)]<INFO>1001233</INFO></ITEM> 10개를",
+			"<NAVI>[또료료]<INFO>icas_in,243,66,0,101,0</INFO></NAVI>에게 가져다 주면 된다."
+		},
+		Summary = "아이템 조달"
+	},
+	[8858] = {
+		Title = "짭짤한 맛과 달달한 맛과 신맛",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"천사달팽이 20마리와 눈토끼달팽이 20마리, 그리고 멜리베달팽이 20마리를 처치하고,",
+			"<ITEM>[말랑말랑 형광 세포(짭짤)]<INFO>1001232</INFO></ITEM> 10개,",
+			"<ITEM>[말랑말랑 형광 세포(달달)]<INFO>1001233</INFO></ITEM> 10개,",
+			"<ITEM>[말랑말랑 형광 세포(새콤)]<INFO>1001231</INFO></ITEM> 10개를",
+			"<NAVI>[또료료]<INFO>icas_in,243,66,0,101,0</INFO></NAVI>에게 가져다 주면 된다."
+		},
+		Summary = "아이템 조달"
+	},
 	[9000] = {
 		Title = "Job Change to Knight",
 		Description = {
@@ -39178,7 +39362,7 @@ QuestInfoList = {
 		Title = "Filling in Cracks",
 		Description = {
 			"I think the most useful Midgarts item is Scells.",
-			"Use Scells to fill any crack or holes in a building and then mix and plaster ground Garlet to it and the building is maintained quick and simple. Can you bring back 30 of them?",
+			"Use Scells to fill any crack or holes in a building and then mix and plaster grinded Garlet to it and the building is maintained quick and simple. Can you bring back 30 of them?",
 			"Collect 30 Scells, report to Transport Dept. 1 Manager within one day."
 		},
 		Summary = "Collect 30 Scells"
@@ -100127,5 +100311,5 @@ QuestInfoList_iRO = {
 			"Wait for the timer before purchasing another raffle ticket"
 		},
 		Summary = ""
-	}
+	},
 }
