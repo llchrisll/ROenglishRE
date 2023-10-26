@@ -3,13 +3,21 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20230321
+-- Last updated: 20231021
 
 TB_Layer_Priority = {
 	Default_Mid = 100,
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_C_Adventurer_Pope_Mini] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Flying_Tilby] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Cinnamon] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Spinning_Skulls] = { Default = 304 },
+		[ACCESSORY_IDs.ACCESSORY_C_Starry_Ribbon_Twin] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Skia_Two_Side_Up] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Somtam] = { Default = 401, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Ocean_Color_Long] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Bird_Cage_Candle_Hold] = { Default = 301, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_RabbitFamilyBalloon] = { Default = 301, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Bouquet_Valletta] = { Default = 304 },
@@ -434,9 +442,6 @@ TB_Layer_Priority = {
 
 function GetLayerPriority(direction, layer, acc_id)
 	local Items_List = TB_Layer_Priority.Items_List
-	if TB_Layer_Priority_CLS ~= nil then
-		local Items_List2 = TB_Layer_Priority_CLS.Items_List
-	end
 	if nil ~= Items_List then
 		local Item_Tb = Items_List[acc_id]
 		if nil ~= Item_Tb then
@@ -445,6 +450,20 @@ function GetLayerPriority(direction, layer, acc_id)
 			end
 			if Item_Tb.Default ~= nil then
 				return Item_Tb.Default
+			end
+		end
+	end
+	if TB_Layer_Priority_CLS ~= nil then
+		local Items_List = TB_Layer_Priority_CLS.Items_List
+		if nil ~= Items_List then
+			local Item_Tb = Items_List[acc_id]
+			if nil ~= Item_Tb then
+				if nil ~= Item_Tb.Direction and nil ~= Item_Tb.Direction[direction] then
+					return Item_Tb.Direction[direction]
+				end
+				if Item_Tb.Default ~= nil then
+					return Item_Tb.Default
+				end
 			end
 		end
 	end

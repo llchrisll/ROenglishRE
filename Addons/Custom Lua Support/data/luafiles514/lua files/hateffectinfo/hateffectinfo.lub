@@ -3,7 +3,7 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20230321
+-- Last updated: 20231021
 
 HatEFID = {
 	HAT_EF_Blossom_Fluttering = 1,
@@ -193,7 +193,34 @@ HatEFID = {
 	HAT_EF_C_Dark_Lord_Cloak = 185,
 	HAT_EF_c_sakura_fubuki = 186,
 	HAT_EF_C_Dark_Lord_Manteau = 187,
-	HAT_EF_decoration_of_music = 188
+	HAT_EF_decoration_of_music = 188,
+	HAT_EF_2023RTC_S_Robe1 = 189,
+	HAT_EF_2023RTC_S_Robe2 = 190,
+	HAT_EF_2023RTC_S_Robe3 = 191,
+	HAT_EF_C_Consecrate_F_Aureola = 192,
+	HAT_EF_C_Bulb_Wreath = 193,
+	HAT_EF_MD_Hol_Barrier1 = 194,
+	HAT_EF_MD_Hol_Barrier2 = 195,
+	HAT_EF_MD_Hol_Barrier3 = 196,
+	HAT_EF_MD_Hol_Barrier4 = 197,
+	HAT_EF_MD_Hol_Barrier5 = 198,
+	HAT_EF_MD_Hol_Barrier6 = 199,
+	HAT_EF_MD_Hol_Barrier7 = 200,
+	HAT_EF_MD_Hol_Barrier8 = 201,
+	HAT_EF_MD_Hol_Barrier9 = 202,
+	HAT_EF_MD_Hol_Barrier10 = 203,
+	HAT_EF_MD_Hol_Barrier11 = 204,
+	HAT_EF_MD_Hol_Barrier12 = 205,
+	HAT_EF_MD_Hol_Barrier13 = 206,
+	HAT_EF_MD_Hol_Barrier14 = 207,
+	HAT_EF_MD_Hol_Barrier15 = 208,
+	HAT_EF_MD_Hol_Barrier16 = 209,
+	HAT_EF_MD_Hol_Barrier17 = 210,
+	HAT_EF_MD_Hol_Barrier18 = 211,
+	HAT_EF_MD_Hol_Barrier19 = 212,
+	HAT_EF_MD_Hol_Barrier20 = 213,
+	HAT_EF_C_Fluttering_Haze = 214,
+	HAT_EF_efst_cinnamon = 215
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -884,6 +911,7 @@ hatEffectTable = {
 		resourceFileName = "efst_20th_Scarf_J\\singa.str",
 		hatEffectPos = 0,
 		hatEffectPosX = 0,
+		isIgnoreRiding = false,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
 	}, 
@@ -959,6 +987,198 @@ hatEffectTable = {
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_2023RTC_S_Robe1] = {
+		resourceFileName = "2023RTC_S_Robe1\\gold1.str",
+		hatEffectPos = -13,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_2023RTC_S_Robe2] = {
+		resourceFileName = "2023RTC_S_Robe2\\Silverlightning.str",
+		hatEffectPos = -13,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_2023RTC_S_Robe3] = {
+		resourceFileName = "2023RTC_S_Robe3\\bronz.str",
+		hatEffectPos = -13,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Consecrate_F_Aureola] = {
+		resourceFileName = "efst_C_Consecrate_F_Aureola\\ConsecrateAureola.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Bulb_Wreath] = {
+		resourceFileName = "efst_C_Bulb_Wreath\\TFireworks.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier1] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\1mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier2] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\2mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier3] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\3mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier4] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\4mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier5] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\5mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier6] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\6mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier7] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\7mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier8] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\8mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier9] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\9mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier10] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\10mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier11] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\11mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier12] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\12mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier13] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\13mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier14] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\14mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier15] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\15mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier16] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\16mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier17] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\17mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier18] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\18mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier19] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\19mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_MD_Hol_Barrier20] = {
+		resourceFileName = "efst_MD_Hol_Barrier\\20mon.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Fluttering_Haze] = {
+		resourceFileName = "efst_C_Fluttering_Haze\\skaura33.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_efst_cinnamon] = {
+		resourceFileName = "efst_cinnamon\\san.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
 	}
 }
 effectHatItemTable = {
@@ -1007,6 +1227,7 @@ effectHatItemTable = {
 	31957,
 	480203,
 	480205,
+	420165,
 	480286,
 	420195,
 	420165,
@@ -1057,7 +1278,9 @@ effectHatItemTable = {
 	420142,
 	440008,
 	480092,
-	480296
+	480296,
+	400475,
+	420242
 }
 
 function GetHatEfResName(index)

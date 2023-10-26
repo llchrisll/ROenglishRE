@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230321
+-- Last updated: 20231021
 
 SPUI_IDS = {
 	SPU_CHAT = 0,
@@ -62,6 +62,15 @@ popuptbl = {
 		textcolor = 16763904,
 		Description = {
 			"You have entered the depths of the Biosphere.",
+			"Teleportation-related skills and items are prohibited.",
+			"Some movement related skills are prohibited."
+		}
+	},
+	[8] = {
+		uitype = SPUI_IDS.SPU_FLOATING_CHAT,
+		textcolor = 16763904,
+		Description = {
+			"You have entered a forgotten Realm of Time.",
 			"Teleportation-related skills and items are prohibited.",
 			"Some movement related skills are prohibited."
 		}

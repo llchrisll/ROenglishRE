@@ -2,9 +2,154 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230919
+-- Last updated: 20231021
 
 SKILL_INFO_LIST = {
+	[SKID.NPC_TARGET_MARKER] = {
+		"NPC_TARGET_MARKER",
+		SkillName = "Target Marker",
+		MaxLv = 7,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 3, y = 3 },
+			[2] = { x = 7, y = 7 },
+			[3] = { x = 11, y = 11 },
+			[4] = { x = 15, y = 15 },
+			[5] = { x = 19, y = 19 },
+			[6] = { x = 21, y = 21 },
+			[7] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_AIMED_SHOWER] = {
+		"NPC_AIMED_SHOWER",
+		SkillName = "Aimed Shower",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 27, y = 27 },
+			[2] = { x = 27, y = 27 },
+			[3] = { x = 27, y = 27 },
+			[4] = { x = 27, y = 27 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_BLAZING_ERUPTION] = {
+		"NPC_BLAZING_ERUPTION",
+		SkillName = "Blazing Eruption",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 27, y = 27 },
+			[2] = { x = 27, y = 27 },
+			[3] = { x = 27, y = 27 },
+			[4] = { x = 27, y = 27 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_BLOCK_SEAL] = {
+		"NPC_BLOCK_SEAL",
+		SkillName = "Seal",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 27, y = 27 },
+			[2] = { x = 27, y = 27 },
+			[3] = { x = 27, y = 27 },
+			[4] = { x = 27, y = 27 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_BLOCK_EXPLOSION] = {
+		"NPC_BLOCK_EXPLOSION",
+		SkillName = "Seal Explosion",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 27, y = 27 },
+			[2] = { x = 27, y = 27 },
+			[3] = { x = 27, y = 27 },
+			[4] = { x = 27, y = 27 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_FROST_FIELD] = {
+		"NPC_FROST_FIELD",
+		SkillName = "Frost Field",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 27, y = 27 },
+			[2] = { x = 27, y = 27 },
+			[3] = { x = 27, y = 27 },
+			[4] = { x = 27, y = 27 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_LIGHTNING_JUDGEMENT] = {
+		"NPC_LIGHTNING_JUDGEMENT",
+		SkillName = "Lightning Judgment",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 27, y = 27 },
+			[2] = { x = 27, y = 27 },
+			[3] = { x = 27, y = 27 },
+			[4] = { x = 27, y = 27 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
+	},
+	[SKID.NPC_RESET_EFST] = {
+		"NPC_RESET_EFST",
+		SkillName = "Effect Off",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
 	[SKID.NPC_GROUNDDRIVE] = {
 		"NPC_GROUNDDRIVE",
 		SkillName = "Ground Drive",

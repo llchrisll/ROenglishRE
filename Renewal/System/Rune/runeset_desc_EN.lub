@@ -1,0 +1,121 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20231005
+
+Runesystemtbl_tag = {
+	[RUNETAGIDTBL.EPISODE17] = "EP17",
+	[RUNETAGIDTBL.EVT] = "EVT"
+}
+RuneSettbl_desc = {
+	[RUNETAGIDTBL.EPISODE17] = {
+		[RUNESETIDTBL.Rt_Ep17_Doubt] = {
+			RuneSetDisplayName = "Mysterious Accessory",
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels:", "ATK +2, MATK +2."},
+				[4] = {"Increases Damage against monsters", "of every size by 1%.", "ATK +10, MATK +10."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Auto] = {
+			RuneSetDisplayName = "Automatic Armor",
+			RuneSetDescription = {
+				[2] = {"DEF +100, MDEF +25,", "For each 3 Refine Levels: MaxHP +1%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Secret] = {
+			RuneSetDisplayName = "Secret Facility", 
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels: Increases Damage against monsters", "of Poison element by 2%."},
+				[3] = {"Increases Attack Speed (Decreases After Attack Delay by 4%)."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Mutant] = {
+			RuneSetDisplayName = "Mutant", 
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels:","Decreases Variable Casting Time by 1%."},
+				[3] = {"Increases Magical Damage with Neutral element by 3%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Miguel] = {
+			RuneSetDisplayName = "Secret", 
+			RuneSetDescription = {
+				[2] = {"Increases Critical Damage by 3%.", "For each 5 refine level: Increases Critical Damage by additional 2%."},
+				[3] = {"Increases Critical Damage by 8%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Overload] = {
+			RuneSetDisplayName = "Magic Addiction", 
+			RuneSetDescription = {
+				[2] = {"MATK +15", "For each 5 Refine Levels: MATK +3."},
+				[3] = {"Increases Magical Damage with every element by 1%."},
+				[4] = {"Increases Magical Damage with every element by additional 4%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Bath] = {
+			RuneSetDisplayName = "Bathroom Maintenance", 
+			RuneSetDescription = {
+				[2] = {"For each 5 Refine Levels: Increases Damage against monsters", "of Brute race by 1%.", "For each 5 Refine Levels: Increases Damage against monsters", "of Fish race by 1%."},
+				[3] = {"Increases Damage against monsters", "of Brute race by 2%.", "Increases Damage against monsters", "of Fish race by 2%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Garden] = {
+			RuneSetDisplayName = "Gardening", 
+			RuneSetDescription = {
+				[2] = {"For each 5 Refine Levels: Increases Damage against monsters", "of Plant race by 1%.", "For each 5 Refine Levels: Increases Damage against monsters", "of Insect race by 1%."},
+				[4] = {"Increases Damage against monsters", "of Plant race by 2%.", "Increases Damage against monsters", "of Insect race by 3%."},
+				[6] = {"Decreases damage taken from enemies", "of every element by 3%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Green] = {
+			RuneSetDisplayName = "Greenhouse Management", 
+			RuneSetDescription = {
+				[2] = {"For each 5 Refine Levels: Increases Damage against monsters", "of Formless race by 1%.", "For each 5 Refine Levels: Increases Damage against monsters", "of Demi-Human race by 1%."},
+				[3] = {"Increases Damage against monsters", "of Formless race by 2%.", "Increases Damage against monsters", "of Demi-Human race by 3%."},
+				[5] = {"ATK +7%, MATK +7%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Malfun] = {
+			RuneSetDisplayName = "Why it's broken", 
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels: Increases Physical Damage", "against monsters of Large size by 1%."},
+				[3] = {"Increases Ranged Physical Damage by 2%."},
+				[4] = {"Increases Ranged Physical Damage by additional 5%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Wing] = {
+			RuneSetDisplayName = "Wing", 
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels: ATK +3, MATK +3,", "For each 5 Refine Levels: MaxHP +1%, MaxSP + 1%."},
+				[4] = {"MaxHP +1%, MaxSP +1%,", "ATK +15, MATK +15."},
+				[5] = {"MaxHP +3%, MaxSP +3%,", "ATK +45, MATK +45."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Harmful] = {
+			RuneSetDisplayName = "Symptoms of Poisoning", 
+			RuneSetDescription = {
+				[2] = {"For each 5 Refine Levels: Increases Damage against", "monsters of Shadow element by 1%."},
+				[4] = {"Increases Damage against", "monsters of Shadow element by additional 3%."},
+				[5] = {"Refine Levels +15:", "Physical attacks have a 2% chance to", "absorb 2% of the damage dealt as HP."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep17_Boss] = {
+			RuneSetDisplayName = "Strongest", 
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels: Increases Damage against", "monsters of Demi-Human race by 1%."},
+				[4] = {"Increases Damage against", "monsters of Demi-Human race by additional 2%."},
+				[6] = {"Refine Levels +15:", "Physical attacks have a 1% chance to", "absorb 1% of the damage dealt as SP."}
+			}
+		}
+	},
+	[RUNETAGIDTBL.EVT] = {
+		[RUNESETIDTBL.Rt_21th_Event] = {
+			RuneSetDisplayName = "21st Anniversary Celebration", 
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels:", "ATK +1, MATK +1."},
+				[4] = {"ATK +10, MATK +10."}
+			}
+		}
+	}
+}
+

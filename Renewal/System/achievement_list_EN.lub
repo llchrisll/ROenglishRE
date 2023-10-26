@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230823
+-- Last updated: 20231021
 
 achievement_tbl = {
 	[110000] = {
@@ -3422,6 +3422,22 @@ achievement_tbl = {
 		reward = { item = 617 },
 		score = 50
 	},
+	[129021] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Glast Heim Challenge Mode",
+		content = {
+			summary = "Completed the Glast Heim Challenge Mode.",
+			details = "Complete the Memorial Dungeon to the end"
+		},
+		resource = {
+			[1] = { text = "Amount of successful challenges", count = 100 }
+		},
+		reward = { title = 1045 },
+		score = 10
+	},
 	[130000] = {
 		UI_Type = 0,
 		group = "CHATTING",
@@ -5000,12 +5016,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 6,
 		minor = 0,
-		title = "Complete first introduction challange",
+		title = "Complete first introduction challenge",
 		content = {
-			summary = "Complete first introduction challange.",
-			details = "Complete first introduction challange."
+			summary = "Complete first introduction challenge.",
+			details = "Complete first introduction challenge."
 		},
-		resource = { [1] = { text = "Complete first introduction challange" } },
+		resource = { [1] = { text = "Complete first introduction challenge" } },
 		reward = {},
 		score = 10
 	},

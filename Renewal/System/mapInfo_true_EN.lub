@@ -2,9 +2,92 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230919
+-- Last updated: 20231021
 
 mapTbl = {
+	["1@vrpop.rsw"] = {
+		displayName = "Fantasy Series - Rainbow Road",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-012",
+			mainTitle = "Rainbow Road"
+		},
+		backgroundBmp = "field"
+	},
+	["2@vrpop.rsw"] = {
+		displayName = "Fantasy Series - Rainbow Road",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-012",
+			mainTitle = "Rainbow Road"
+		},
+		backgroundBmp = "field"
+	},
+	["3@vrpop.rsw"] = {
+		displayName = "Fantasy Series - Rainbow Lake",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-012",
+			mainTitle = "Rainbow Lake"
+		},
+		backgroundBmp = "field"
+	},
+	["1@ba_go.rsw"] = {
+		displayName = "Garden of Time - Hall of Life",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Garden of Time",
+			mainTitle = "Hall of Life"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["1@f_lake.rsw"] = {
+		displayName = "Garden of Time - Lake of Fire",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Garden of Time",
+			mainTitle = "Lake of Fire"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["t_garden.rsw"] = {
+		displayName = "Garden of Time",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Garden of Time"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["for_dun01.rsw"] = {
+		displayName = "Garden of Time - Forgotten Time Zone 1",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Garden of Time",
+			mainTitle = "잊혀진 시간 1 구역"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["for_dun02.rsw"] = {
+		displayName = "Garden of Time - Forgotten Time Zone 2",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Garden of Time",
+			mainTitle = "Forgotten Time Zone 2"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["x_prt_evt.rsw"] = {
+		displayName = "Prontera Beyond Dimension",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Beyond the Dimension",
+			mainTitle = "Prontera Night Market"
+		},
+		backgroundBmp = "village"
+	},
+	["x_prt_in.rsw"] = {
+		displayName = "Inside Prontera Beyond Dimension"
+	},
 	["bl_depth1.rsw"] = {
 		displayName = "Biosphere Depth 1st Floor",
 		notifyEnter = true,

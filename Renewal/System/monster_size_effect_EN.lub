@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230321
+-- Last updated: 20231021
 
 EFFECT = {}
 EFFECT["EF_NONE"] = -1
@@ -1137,6 +1137,9 @@ EFFECT["EF_NPC_GATE_GREEN_S"] = 2386
 EFFECT["EF_NPC_GATE_PURPLE_S"] = 2387
 EFFECT["EF_NPC_GATE_RED_S"] = 2388
 EFFECT["EF_NPC_GATE_SKYBLUE"] = 2389
+EFFECT["EF_RECT_UP_ORANGE"] = 2401
+EFFECT["EF_GLOW_ORANGE"] = 2402
+
 tbl = {
 	[2603] = { MonsterSize = 1.2, MonsterEff = { EFFECT.EF_BOTTOM_DE } },
 	[2604] = { MonsterSize = 1.2, MonsterEff = { EFFECT.EF_GREEN99_5 } },
@@ -1752,7 +1755,53 @@ tbl = {
 	[21942] = { MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_UNDEAD } },
 	[21943] = { MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_NOTHING } },
 	[21950] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
-	[21955] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 }	}
+	[21955] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 }	},
+	[21996] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
+	[21980] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
+	[22004] = {	MonsterSize = 1.2, MonsterEff = { EFFECT.MAGIC_CIRCLE_DRAGON } },
+	[22005] = {	MonsterSize = 1.2, MonsterEff = { EFFECT.MAGIC_CIRCLE_DEVIL } },
+	[22140] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_FISH, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22142] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_INSECT, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22146] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_ANGEL, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22147] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_ANIMAL, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22148] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_ANGEL, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22149] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_ANGEL, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22150] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_FISH, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22143] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_ANIMAL, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22144] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_HUMAN, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22152] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_PLANT, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22153] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_INSECT, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22154] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_ANGEL, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22141] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_UNDEAD, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22151] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_UNDEAD, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22145] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_NOTHING, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22155] = {	MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_PLANT, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22183] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_GLOW_ORANGE } },
+	[22184] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_RECT_UP_ORANGE } },
+	[22230] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE2 } },
+	[22229] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE1 } },
+	[22228] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE1 } },
+	[22231] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_BLACK_BUBBLE3 } },
+	[22206] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE2 } },
+	[22205] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE1 } },
+	[22204] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE1 } },
+	[22207] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_BLACK_BUBBLE3 } },
+	[22226] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE2 } },
+	[22225] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE1 } },
+	[22224] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE1 } },
+	[22227] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_BLACK_BUBBLE3 } },
+	[22202] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE2 } },
+	[22201] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE1 } },
+	[22200] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_BLACK_BUBBLE1 } },
+	[22203] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_BLACK_BUBBLE3 } },
+	[22199] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
+	[22215] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
+	[22211] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
+	[22235] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
+	[22239] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
+	[22223] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
+	[22195] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
+	[22219] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } }
 }
 
 function main()

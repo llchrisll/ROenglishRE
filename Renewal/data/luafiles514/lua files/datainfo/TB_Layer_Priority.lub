@@ -2,13 +2,21 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230919
+-- Last updated: 20231021
 
 TB_Layer_Priority = {
 	Default_Mid = 100,
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_C_Adventurer_Pope_Mini] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Flying_Tilby] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Cinnamon] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Spinning_Skulls] = { Default = 304 },
+		[ACCESSORY_IDs.ACCESSORY_C_Starry_Ribbon_Twin] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Skia_Two_Side_Up] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Somtam] = { Default = 401, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Ocean_Color_Long] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Bird_Cage_Candle_Hold] = { Default = 301, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_RabbitFamilyBalloon] = { Default = 301, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Bouquet_Valletta] = { Default = 304 },

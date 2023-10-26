@@ -3,7 +3,7 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20230321
+-- Last updated: 20231021
 
 tblLapineDdukddakBox = {
 	sources = {
@@ -1480,7 +1480,15 @@ tblLapineDdukddakBox = {
 				{ "S_HN_Armor", 1, 24868 },
 				{ "S_HN_Shoes", 1, 24869 },
 				{ "S_HN_Earring", 1, 24870 },
-				{ "S_HN_Pendant", 1, 24871 }
+				{ "S_HN_Pendant", 1, 24871 },
+				{ "S_Full_Power_Armor", 1, 24872 }, 
+				{ "S_Full_Power_Shoes", 1, 24873 }, 
+				{ "S_Full_Rate_Armor", 1, 24874 }, 
+				{ "S_Full_Rate_Shoes", 1, 24875 }, 
+				{ "S_Focusing_Pendant", 1, 24876 }, 
+				{ "S_Focusing_Earring", 1, 24877 }, 
+				{ "S_Stout_Pendant", 1, 24878 }, 
+				{ "S_Stout_Earring", 1, 24879 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -4813,7 +4821,21 @@ tblLapineDdukddakBox = {
 				{ "DefenseStone_Middle", 1, 1001169 },
 				{ "DefenseStone_Bottom", 1, 1001170 },
 				{ "ResistDefStone_Robe", 1, 1001171 },
-				{ "StaminaWISStone_Robe_D", 1, 1001172 }
+				{ "StaminaWISStone_Robe_D", 1, 1001172 },
+				{ "ShinkiroStone_Robe", 1, 1001322 },
+				{ "ShiranuiStone_Robe", 1, 1001323 },
+				{ "ShaCrossStone_Robe", 1, 1001324 },
+				{ "CardinalStone_Robe", 1, 1001325 },
+				{ "SuNoviceStone_Top", 1, 1001327 },
+				{ "SuNoviceStone_Middle", 1, 1001328 },
+				{ "SuNoviceStone_Bottom", 1, 1001329 },
+				{ "SuNoviceStone_Robe", 1, 1001326 },
+				{ "SkyEmperorStone_Robe", 1, 1001419 },
+				{ "ElementalStone_Robe", 1, 1001420 },
+				{ "MeisterStone_Robe", 1, 1001421 },
+				{ "AbysschaserStone_Robe", 1, 1001487 },
+				{ "TRTRStone_Robe", 1, 1001488 },
+				{ "HNoviceStone_Robe", 1, 1001489 }
 			},
 			NeedSource_String = "Costume Enchant Stone"
 		},
@@ -5520,7 +5542,39 @@ tblLapineDdukddakBox = {
 				{ "C성자의리본모자", 1, 19894 },
 				{ "C_BirthDay_Balloon_TW", 1, 410082 },
 				{ "C허니팬케익", 1, 20256 },
-				{ "C_Big_B_Rabbit", 1, 20618 }
+				{ "C_Big_B_Rabbit", 1, 20618 },
+				{ "C_Cookie_PinkRibbon", 1, 420209 },
+				{ "C_Jumbo_Rabbit", 1, 410219 },
+				{ "C로얄래빗크라운", 1, 31201 },
+				{ "C_MCircle_Wonderland", 1, 480298 },
+				{ "C_Geisha_Make", 1, 31615 },
+				{ "C_Onihime_Camellia", 1, 420015 },
+				{ "C사쿠라머리띠", 1, 20437 },
+				{ "C_Sakura_Fes_TW", 1, 480052 },
+				{ "C_RabbitFamilyBalloon", 1, 31814 },
+				{ "C_Red_Bread_Hat", 1, 31914 },
+				{ "C_Bouquet_Valletta", 1, 410156 },
+				{ "C_Wedding_Ribbon", 1, 480187 },
+				{ "C_Bird_Cage_Candle_Hold", 1, 410236 },
+				{ "C해피섬머선바이저", 1, 31051 },
+				{ "C_Friendly_White_Fox", 1, 420192 },
+				{ "C_Key_To_Happiness", 1, 480311 },
+				{ "C유니콘헬름", 1, 20443 },
+				{ "C피묻은사안봉인의붕대", 1, 31122 },
+				{ "C_Diabolic_Lapel", 1, 31381 },
+				{ "C_Labrys", 1, 480316 },
+				{ "C초원의바람", 1, 20048 },
+				{ "C_Blink_Eyes_Frozen", 1, 410220 },
+				{ "C_Charm_Of_Mistic_Froze", 1, 420103 },
+				{ "C_Surf_Board_Poring", 1, 480335 },
+				{ "C화려한하이캡", 1, 19868 },
+				{ "C_Brother_Keen_Eye", 1, 410245 },
+				{ "C강아지풀", 1, 20193 },
+				{ "C_Rifle", 1, 480337 },
+				{ "C_Horo_Ears_WH", 1, 400496 },
+				{ "C_Fluttering_Haze", 1, 420242 },
+				{ "C고양이입", 1, 31251 },
+				{ "C_Ninetail_Tail_WH", 1, 480362 }
 			},
 			NeedSource_String = "Monster Costumes"
 		},

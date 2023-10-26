@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230321
+-- Last updated: 20231021
 
 PetNameTable = {
 	[jobtbl.JT_PORING] = "poring",
@@ -119,6 +119,10 @@ PetNameTable = {
 	[jobtbl.JT_WILD_ROSE3] = "WILD_ROSE3",
 	[jobtbl.JT_BLUEMOON_LOLI_RURI2] = "BLUEMOON_LOLI_RURI2",
 	[jobtbl.JT_FARMILIAR] = "FARMILIAR",
+	[jobtbl.JT_EP20_COPO] = "ep20_copo",
+	[jobtbl.JT_EP20_ICEWIND1] = "ep20_icewind1",
+	[jobtbl.JT_EP20_ICEWIND2] = "ep20_icewind2",
+	[jobtbl.JT_DARK_LORD2] = "DARK_LORD2",
 	-- Non-kRO
 	[jobtbl.JT_POURING] = "pouring",
 	[jobtbl.JT_MALE_PORING] = "male_poring",
@@ -261,6 +265,7 @@ PetIllustNameTable = {
 	[jobtbl.JT_EP20_COPO] = "pet_ep20_copo.bmp",
 	[jobtbl.JT_EP20_ICEWIND1] = "pet_ep20_icewind1.bmp",
 	[jobtbl.JT_EP20_ICEWIND2] = "pet_ep20_icewind2.bmp",
+	[jobtbl.JT_DARK_LORD2] = "DARK_LORD2",
 	-- Non-kRO
 	[jobtbl.JT_POURING] = "pet_pouring.bmp",
 	[jobtbl.JT_PAD_RUBYLIT] = "pet_RUBYLIT.bmp",
@@ -397,6 +402,7 @@ PetIllustNameTable_Eng = {
 	[jobtbl.JT_EP20_COPO] = "pet_ep20_copo.bmp",
 	[jobtbl.JT_EP20_ICEWIND1] = "pet_ep20_icewind1.bmp",
 	[jobtbl.JT_EP20_ICEWIND2] = "pet_ep20_icewind2.bmp",
+	[jobtbl.JT_DARK_LORD2] = "pet_DARK_LORD2.bmp",
 	-- Non-kRO
 	[jobtbl.JT_POURING] = "pet_pouring.bmp",
 	[jobtbl.JT_PAD_RUBYLIT] = "pet_RUBYLIT.bmp",
@@ -672,6 +678,7 @@ PetStringTable = {
 	[jobtbl.JT_EP20_COPO] = "Copo",
 	[jobtbl.JT_EP20_ICEWIND1] = "Gray Icewind",
 	[jobtbl.JT_EP20_ICEWIND2] = "Icewind",
+	[jobtbl.JT_DARK_LORD2] = "다크 로드",
 	-- Non-kRO
 	[jobtbl.JT_POURING] = "Pouring",
 	[jobtbl.JT_MALE_PORING] = "Gentleman Poring",
@@ -810,6 +817,7 @@ PetEggItemID_PetJobID = {
 	[9145] = jobtbl.JT_EP20_COPO,
 	[9146] = jobtbl.JT_EP20_ICEWIND1,
 	[9147] = jobtbl.JT_EP20_ICEWIND2,
+	[9148] = jobtbl.JT_DARK_LORD2,
 	-- Non-kRO
 	[9114] = jobtbl.JT_POURING,
 	[9074] = jobtbl.JT_PAD_RUBYLIT,
@@ -949,6 +957,7 @@ PetFoodTable = {
 	[jobtbl.JT_EP20_COPO] = 537,
 	[jobtbl.JT_EP20_ICEWIND1] = 537,
 	[jobtbl.JT_EP20_ICEWIND2] = 537,
+	[jobtbl.JT_DARK_LORD2] = 25377,
 	-- Non-kRO
 	[jobtbl.JT_POURING] = 512,
 	[jobtbl.JT_PAD_RUBYLIT] = 537,

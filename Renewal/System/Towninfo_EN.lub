@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230321
+-- Last updated: 20231021
 
 -- 2012/03/09 Change 'Staff' name to 'Kafra Employee'
 -- 2012/03/26 Correct coordinate to prevent navigation error, add moscovia Armor Dealer
@@ -17,6 +17,7 @@
 -- type 4 = Guide
 -- type 5 = Inn
 -- type 6 = Kafra Employee
+-- type 7 = Styling Shop
 -- For additional type support, please contact the programmer team if there any resource issues
 
 mapNPCInfoTable = {
@@ -404,15 +405,20 @@ mapNPCInfoTable = {
 		{ name = [=[Belgund Lab]=], X = 186, Y = 222, TYPE = 0 },
 		{ name = [=[Guide]=], X = 59, Y = 123, TYPE = 4 },
 		{ name = [=[Feather Bed and Breakfast]=], X = 64, Y = 224, TYPE = 5 }
+	},
+	wolfvill = {
+		{ name = [=[Stores and Warehouses]=], X = 167, Y = 135, TYPE = 0 }
 	}
 }
 
---function
-
 function main()
-	for mapName ,info in pairs( mapNPCInfoTable ) do
-		for k ,v in pairs( info ) do result , msg = AddTownInfo( mapName , v.name , v.X , v.Y , v.TYPE ) if( not result ) then return false , msg ; end
+	for mapName,info in pairs(mapNPCInfoTable) do
+		for k,v in pairs(info) do
+			result, msg = AddTownInfo(mapName, v.name, v.X, v.Y, v.TYPE )
+			if not result then
+				return false, msg
+			end
 		end
 	end
-	return true, "good";
+	return true, "good"
 end
