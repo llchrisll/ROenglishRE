@@ -348,7 +348,7 @@ tbl_AgitInfo = {
 	}
 }
 
-main = function()
+function main()
 	local ret = true
 	local msg = "success"
 	for k, v in pairs(tbl_AgitInfo) do
