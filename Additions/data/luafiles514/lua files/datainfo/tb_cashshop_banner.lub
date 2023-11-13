@@ -1,0 +1,34 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230321
+
+tb_cashshop_banner = {
+	[1] = {
+		"rAbanner.bmp",
+		"https://rathena.org/"
+	},
+	[2] = {
+		"rAbanner.bmp",
+		"https://rathena.org/"
+	},
+	[3] = {
+		"rAbanner.bmp",
+		"https://rathena.org/" 
+	},
+	[4] = {
+		"rAbanner.bmp",
+		"https://rathena.org/" 
+	},
+	[5] = {
+		"rAbanner.bmp",
+		"https://rathena.org/" 
+	}
+}
+
+function set_cashshop_banner()
+	for key, value in ipairs(tb_cashshop_banner) do
+		add_cashshop_banner(value[1], value[2])
+	end
+end
