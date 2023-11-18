@@ -9,20 +9,21 @@ pause
 :ModeMenu
 cls
 echo =================================================================
-echo Modes
+echo Server Mode
+echo =================================================================
 echo [1] Renewal
 echo [2] Pre-Renewal
-echo.
+echo [3] Exit
+echo =================================================================
 set /p mode="Please select the mode:"
-if %mode%==1 (
-	set "type=Renewal"
-) else if %mode%==2 (
-	set "type=Pre-Renewal"
-) else goto ModeMenu
+if %mode%==1 set type=Renewal
+if %mode%==2 set type=Pre-Renewal
+if %mode%==3 exit
 :DateMenu
 cls
 echo =================================================================
 echo Client Dates
+echo =================================================================
 echo [1] 2012-04-10 (Pre-Re only)
 echo [2] 2015-05-13
 echo [3] 2015-10-29 (Project Base)
@@ -40,7 +41,7 @@ echo [13] 2022-04-06
 ::echo [15] 2023-06
 ::echo [16] 2023-07
 ::echo [17] 2023-10
-echo.
+echo =================================================================
 set /p date="Please select the Client Date:"
 if %date%==1 if %mode%==2 ( set client=2012-04-10 ) else ( goto DateMenu )
 if %date%==2 set client=2015-05-13
@@ -62,14 +63,18 @@ if %date%==13 set client=2022-04-06
 )
 if "%client%"=="" exit
 cls
-echo ======
-echo Mode: %type%
+echo =================================================================
+echo Server Mode: %type%
 echo Client Date: %client%
-echo ===
-set /p check="Correct? (Y/N)"
+echo =================================================================
+set /p check="Proceed? (Y/N)"
 if /i "%check%" NEQ "Y" goto ModeMenu
 if exist Client\ rmdir /S /Q Client\
 xcopy "..\Translation\%type%" ".\Client" /E /H /C /I /Y
+REM Files for older Clients than the Projects Base Version
+if %date%==1 call :CopyFD 2012-04-10 %type%
+if %date%==2 call :CopyFD 2015-05-13 %type%
+REM If it's the same as the project version, skip the Loop below
 if %date%==3 goto EOF
 set "x=5"
 :DateLoop
@@ -92,12 +97,12 @@ if %x% LEQ %date% (
 	goto DateLoop
 )
 REM Ending DateLoop
+:EOF
 if exist ..\Translation\Compatibility\%client%\%type%\ (
 	xcopy "..\Translation\Compatibility\%client%\%type%\" ".\Client\" /E /H /C /I /Y
 ) else (
 	xcopy "..\Translation\Compatibility\%client%\" ".\Client\" /E /H /C /I /Y
 )
-:EOF
 pause
 exit
 

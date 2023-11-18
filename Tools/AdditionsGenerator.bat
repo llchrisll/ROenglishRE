@@ -2,18 +2,18 @@
 echo =================================================================
 echo Welcome to the Additions Generator!
 echo This will help you to copy over the files you want and need based on the choice you make.
-echo It will loop itself until you either close the program or choose to exit it by typing any number higher than available.
+echo It will loop itself until you close the program or choose Exit.
 echo =================================================================
 pause
 :AdditionsMenu
 cls
-echo ===============
+echo =================================================================
 echo [1] Data Folder
 echo [2] data\luafiles514
 echo [3] System Folder
 echo [4] Legacy Maps
 echo [5] Exit
-echo ===============
+echo =================================================================
 set /p type="Now choose:"
 if %type%==1 goto DataMenu
 if %type%==2 goto DataLua
