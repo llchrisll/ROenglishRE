@@ -1,8 +1,15 @@
 @echo off
+echo =================================================================
+echo Welcome to the Client Generator!
+echo This will help you to copy over the files you want and need based on the choice you make.
+echo Also everytime after you confirmed your choice, any existing Client folder in the
+echo same folder as this will be deleted without asking.
+echo =================================================================
+pause
 :ModeMenu
 cls
+echo =================================================================
 echo Modes
-echo ======
 echo [1] Renewal
 echo [2] Pre-Renewal
 echo.
@@ -14,8 +21,8 @@ if %mode%==1 (
 ) else goto ModeMenu
 :DateMenu
 cls
+echo =================================================================
 echo Client Dates
-echo ======
 echo [1] 2012-04-10 (Pre-Re only)
 echo [2] 2015-05-13
 echo [3] 2015-10-29 (Project Base)

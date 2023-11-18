@@ -4191,70 +4191,6 @@ StateIconList[EFST_IDs.EFST_CHERRY_BLOSSOM_CAKE] = {
 		{ "Reduces damage taken from monster of all sizes" }
 	}
 }
-StateIconList[EFST_IDs.EFST_HELM_VERKANA] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Verkana Runestone", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "Reduces physical and magical attacks by 50%" },
-		{ "Activate Level 1 Millenium Shield when attacked by melee attacks" }
-	}
-}
-StateIconList[EFST_IDs.EFST_HELM_RHYDO] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Rhydo Runestone", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "Cannot be knocked back" }
-	}
-}
-StateIconList[EFST_IDs.EFST_HELM_TURISUS] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Turisus Runestone", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "STR +30, INT -30" }
-	}
-}
-StateIconList[EFST_IDs.EFST_HELM_HAGALAS] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Hagalas Runestone", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "Reflects 10% damage from melee attacks" }
-	}
-}
-StateIconList[EFST_IDs.EFST_HELM_ISIA] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Isia Runestone", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "Restore 500 HP every 10 seconds" }
-	}
-}
-StateIconList[EFST_IDs.EFST_HELM_ASIR] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Asir Runestone", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "ATK +10, ASPD + 10%" }
-	}
-}
-StateIconList[EFST_IDs.EFST_HELM_URJ] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
-		{ "Ur's Runestone", COLOR_TITLE_BUFF },
-		{ "%s", COLOR_TIME },
-		{ "Restore 40 SP every 10 seconds" }
-	}
-}
 StateIconList[EFST_IDs.EFST_PERIOD_RECEIVEITEM] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 1,
@@ -7182,7 +7118,7 @@ StateIconList[EFST_IDs.EFST_HELM_VERKANA] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Verkana Amplifier", COLOR_TITLE_BUFF },
+		{ "Verkana Runestone", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Adds chance to activate Millenium Shield" },
 		{ "When attacked by Physical or Magical attack" }
@@ -7192,7 +7128,7 @@ StateIconList[EFST_IDs.EFST_HELM_RHYDO] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Rhydo Amplifier", COLOR_TITLE_BUFF },
+		{ "Rhydo Runestone", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Cannot be knocked back" }
 	}
@@ -7201,7 +7137,7 @@ StateIconList[EFST_IDs.EFST_HELM_TURISUS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Turisus Amplifier", COLOR_TITLE_BUFF },
+		{ "Turisus Runestone", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases STR" },
 		{ "Decreases INT" }
@@ -7211,7 +7147,7 @@ StateIconList[EFST_IDs.EFST_HELM_HAGALAS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Hagalas Amplifier", COLOR_TITLE_BUFF },
+		{ "Hagalas Runestone", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Reflect physical attack" }
 	}
@@ -7220,7 +7156,7 @@ StateIconList[EFST_IDs.EFST_HELM_ISIA] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Isia Amplifier", COLOR_TITLE_BUFF },
+		{ "Isia Runestone", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Recover certain amount of HP" }
 	}
@@ -7229,7 +7165,7 @@ StateIconList[EFST_IDs.EFST_HELM_ASIR] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Asir Amplifier", COLOR_TITLE_BUFF },
+		{ "Asir Runestone", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases ATK, ASPD" }
 	}
@@ -7238,7 +7174,7 @@ StateIconList[EFST_IDs.EFST_HELM_URJ] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Urj Amplifier", COLOR_TITLE_BUFF },
+		{ "Urj Runestone", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Recover certain amount of SP" }
 	}
