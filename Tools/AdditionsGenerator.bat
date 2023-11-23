@@ -365,7 +365,7 @@ exit
 	echo =================================================================
 	echo [0] Back to previous Menu
 	echo [1] All in One Package %omaps[0]%
-	echo [2] Airship Maps %omaps[1]%
+	echo [2] Airport Maps (Einbroch, Lighthalzen, Yuno) %omaps[1]%
 	echo [3] gefenia01.rsw %omaps[2]%
 	echo [4] tur_d03_i.rsw %omaps[3]%
 	echo [5] aldeg_cas01.rsw %omaps[4]%
@@ -394,6 +394,7 @@ exit
 	echo [28] poring_c01 %omaps[27]%
 	echo [29] poring_c02 %omaps[28]%
 	echo [30] sch_lab %omaps[29]%
+	echo [31] airplane %omaps[30]%
 	echo =================================================================
 	set /p map="Choose which maps you want to copy:"
 	if %map%==0 (
@@ -503,6 +504,7 @@ exit
 		xcopy "..\Additions\data\sch_lab.gat" ".\Client\data\sch_lab.gat" /E /H /C /I /Y
 		xcopy "..\Additions\data\sch_lab.gnd" ".\Client\data\sch_lab.gnd" /E /H /C /I /Y
 		xcopy "..\Additions\data\sch_lab.rsw" ".\Client\data\sch_lab.rsw" /E /H /C /I /Y
+		xcopy "..\Additions\data\airplane.rsw" ".\Client\data\airplane.rsw" /E /H /C /I /Y
 		set omaps[0]=Copied
 	)
 	if %map%==2 (
@@ -695,6 +697,10 @@ exit
 		xcopy "..\Additions\data\sch_lab.rsw" ".\Client\data\sch_lab.rsw" /E /H /C /I /Y
 		xcopy "..\Additions\data\texture\유저인터페이스\map\sch_lab.bmp" ".\Client\data\texture\유저인터페이스\map\sch_lab.bmp" /E /H /C /I /Y
 		set omaps[29]=Copied
+	)
+	if %map%==31 (
+		xcopy "..\Additions\data\airplane.rsw" ".\Client\data\airplane.rsw" /E /H /C /I /Y
+		set omaps[30]=Copied
 	)
 	pause
 	goto DataMaps
