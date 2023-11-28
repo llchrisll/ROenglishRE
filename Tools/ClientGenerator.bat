@@ -70,7 +70,10 @@ echo =================================================================
 set /p check="Proceed? (Y/N)"
 if /i "%check%" NEQ "Y" goto ModeMenu
 if exist Client\ rmdir /S /Q Client\
-xcopy "..\Translation\%type%" ".\Client" /E /H /C /I /Y
+REM Renewal is base for the project
+xcopy "..\Translation\Renewal" ".\Client" /E /H /C /I /Y
+REM If Pre-Renewal also overwrite existing files from Pre-Renewal
+if %mode%==2 xcopy "..\Translation\Pre-Renewal" ".\Client" /E /H /C /I /Y
 REM Files for older Clients than the Projects Base Version
 if %date%==1 call :CopyFD 2012-04-10 %type%
 if %date%==2 call :CopyFD 2015-05-13 %type%
@@ -78,7 +81,7 @@ REM If it's the same as the project version, skip the Loop below
 if %date%==3 goto EOF
 set "x=5"
 :DateLoop
-REM Starting DateLoop
+REM Files for newer Clients than Base Version
 if %x% LEQ %date% (
 	if %x% EQU 5 call :CopyFD 2017-06-14 %type%
 	if %x% EQU 6 call :CopyFD 2017-12-13 %type%
@@ -96,7 +99,6 @@ if %x% LEQ %date% (
 	set /a "x+=1"
 	goto DateLoop
 )
-REM Ending DateLoop
 :EOF
 if exist ..\Translation\Compatibility\%client%\%type%\ (
 	xcopy "..\Translation\Compatibility\%client%\%type%\" ".\Client\" /E /H /C /I /Y
