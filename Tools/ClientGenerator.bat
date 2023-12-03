@@ -15,7 +15,7 @@ echo [1] Renewal
 echo [2] Pre-Renewal
 echo [3] Exit
 echo =================================================================
-set /p mode="Please select the mode:"
+set /p mode="Please select the mode: "
 if %mode%==1 set type=Renewal
 if %mode%==2 set type=Pre-Renewal
 if %mode%==3 exit
@@ -42,7 +42,7 @@ echo [13] 2022-04-06
 ::echo [16] 2023-07
 ::echo [17] 2023-10
 echo =================================================================
-set /p date="Please select the Client Date:"
+set /p date="Please select the Client Date: "
 if %date%==1 if %mode%==2 ( set client=2012-04-10 ) else ( goto DateMenu )
 if %date%==2 set client=2015-05-13
 if %date%==3 set client=2015-10-29
@@ -67,7 +67,8 @@ echo =================================================================
 echo Server Mode: %type%
 echo Client Date: %client%
 echo =================================================================
-set /p check="Proceed? (Y/N)"
+set /p check="Proceed?(Y/n): "
+if not defined check set "check=Y"
 if /i "%check%" NEQ "Y" goto ModeMenu
 if exist Client\ rmdir /S /Q Client\
 REM Renewal is base for the project
