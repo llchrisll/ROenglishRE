@@ -1,7 +1,13 @@
 @echo off
 echo =================================================================
 echo Welcome to the Custom Lua Support Generator!
-echo This will help you to copy over the files you want and need based on the choice you make.
+echo.
+echo The Custom Lua Support (or CLS) was created to assist you further
+echo in adding your custom entries to seperate files, split from the
+echo original files, so it's easier to update the translation files.
+echo.
+echo This will help you to copy over the files you want and need based 
+echo on the choice you make.
 echo It will loop itself until you close the program or choose Exit.
 echo =================================================================
 pause
@@ -60,7 +66,8 @@ if %type% equ 1 (
     xcopy "%sourceDataPath%\cls\lapineddukddakbox.lub" "%destinationDataPath%\cls\lapineddukddakbox.lub"* /E /H /C /I /Y
     xcopy "%sourceDataPath%\cls\lapineupgradebox.lub" "%destinationDataPath%\cls\lapineupgradebox.lub"* /E /H /C /I /Y
 ) else if %type% equ 7 (
-    xcopy "%sourceDataPath%\navigation\" "%destinationDataPath%\navigation\"* /E /H /C /I /Y
+    xcopy "%sourceDataPath%\navigation\navi_f_krpri.lub" "%destinationDataPath%\navigation\navi_f_krpri.lub"* /E /H /C /I /Y
+    xcopy "%sourceDataPath%\navigation\navi_f_krsak.lub" "%destinationDataPath%\navigation\navi_f_krsak.lub"* /E /H /C /I /Y
     xcopy "%sourceDataPath%\cls\navi_link.lub" "%destinationDataPath%\cls\navi_link.lub"* /E /H /C /I /Y
     xcopy "%sourceDataPath%\cls\navi_linkdistance.lub" "%destinationDataPath%\cls\navi_linkdistance.lub"* /E /H /C /I /Y
     xcopy "%sourceDataPath%\cls\navi_map.lub" "%destinationDataPath%\cls\navi_map.lub"* /E /H /C /I /Y
@@ -71,7 +78,8 @@ if %type% equ 1 (
     xcopy "%sourceDataPath%\cls\navi_scroll.lub" "%destinationDataPath%\cls\navi_scroll.lub"* /E /H /C /I /Y
 ) else if %type% equ 8 (
     xcopy "%sourceDataPath%\cls\questinfo_f.lub" "%destinationDataPath%\cls\questinfo_f.lub"* /E /H /C /I /Y
-    xcopy "%sourceSystemPath%\" "%destinationSystemPath%\"* /E /H /C /I /Y
+    xcopy "%sourceSystemPath%\OngoingQuests_CLS.lub" "%destinationSystemPath%\OngoingQuests_CLS.lub"* /E /H /C /I /Y
+    xcopy "%sourceSystemPath%\RecommendedQuests_CLS.lub" "%destinationSystemPath%\RecommendedQuests_CLS.lub"* /E /H /C /I /Y
 ) else if %type% equ 9 (
     xcopy "%sourceDataPath%\cls\signboardlist.lub" "%destinationDataPath%\cls\signboardlist.lub"* /E /H /C /I /Y
     xcopy "%sourceDataPath%\cls\signboardlist_f.lub" "%destinationDataPath%\cls\signboardlist_f.lub"* /E /H /C /I /Y
