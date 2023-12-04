@@ -103,14 +103,15 @@ if %type% equ 1 (
 )
 
 if %type% lss 14 (
-    set cls[%type%]= [ Copied ]
-
+    
     if %type% equ 1 (
         for /L %%i in (2,1,13) do (
             set cls[%%i]= [ Copied ]
         )
-    )
-
+    ) else (
+		set cls[%type%]= [ Copied ]
+	)
+	
     pause
     goto CLSMenu
 )
