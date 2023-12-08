@@ -237,9 +237,7 @@ if %lua% equ 1 (
 	set /p sys="Now choose: "
 	if %sys% equ 0 goto AdditionsMenu
 	if %sys% equ 1 (
-		:: xcopy "%sourceSystemPath%\" "%destinationSystemPath%\"* /H /C /I /Y  Disabled because also copies "Rune" folder
-		robocopy "%sourceSystemPath%" "%destinationSystemPath%" /E /XF * /XD * /NFL /NDL
-
+		xcopy "%sourceSystemPath%\" "%destinationSystemPath%\"* /H /C /I /Y 
 	) else if %sys% equ 2 (
 		xcopy "%sourceSystemPath%\ChangeMaterial_EN.lub" "%destinationSystemPath%\ChangeMaterial_EN.lub"* /H /C /I /Y
 	) else if %sys% equ 3 (
