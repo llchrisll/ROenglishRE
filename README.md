@@ -1,9 +1,4 @@
 # Ragnarok Online Translation Project  
-Branch: reorganize
-- I still need to research a few files to give proper compatibility for them
-- Need to recheck every file so I'm 100% I didn't make any mistake.
-- Guide will be updated once I have the layout completed and thought of a proper way to explain it all.
-
 ![ROTPbySapito_mask](https://github.com/llchrisll/ROenglishRE/assets/5730576/81cdf381-e3d5-4a88-95ff-4019a26b5977)
 [ROenglishRE](https://rathena.org/board/topic/102689-ragnarok-english-translation-project/) is an unofficial english translation (Fan translation) project for Korea Ragnarok Online Renewal that focused on translating items, skills and textures, while it also includes items from other official servers like jRO.  
 This project also supports pre-renewal by overwriting the content of the Renewal folder with the Pre-Renewal one.  
