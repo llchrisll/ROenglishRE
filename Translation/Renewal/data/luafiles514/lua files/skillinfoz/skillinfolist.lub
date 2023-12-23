@@ -13285,7 +13285,7 @@ SKILL_INFO_LIST = {
 		"DK_MADNESS_CRUSHER",
 		SkillName = "Madness Crusher",
 		MaxLv = 5,
-		SpAmount = { 36, 44, 52, 60, 68 },
+		SpAmount = { 27, 34, 41, 48, 55 },
 		bSeperateLv = true,
 		AttackRange  = { 7, 7, 7, 7, 7 },
 		_NeedSkillList = {
@@ -13310,7 +13310,7 @@ SKILL_INFO_LIST = {
 		"DK_STORMSLASH",
 		SkillName = "Storm Slash",
 		MaxLv = 5,
-		SpAmount = { 40, 45, 50, 55, 60 },
+		SpAmount = { 35, 40, 45, 50, 55 },
 		bSeperateLv = true,
 		AttackRange  = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
@@ -13345,7 +13345,7 @@ SKILL_INFO_LIST = {
 		"AG_DESTRUCTIVE_HURRICANE",
 		SkillName = "Destructive Hurricane",
 		MaxLv = 5,
-		SpAmount = { 108, 114, 120, 126, 132 },
+		SpAmount = { 170, 174, 178, 182, 186 },
 		bSeperateLv = true,
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -13356,7 +13356,7 @@ SKILL_INFO_LIST = {
 		"AG_RAIN_OF_CRYSTAL",
 		SkillName = "Rain of Crystal",
 		MaxLv = 5,
-		SpAmount = { 84, 88, 92, 96, 100 },
+		SpAmount = { 85, 95, 105, 115, 125 },
 		bSeperateLv = true,
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -13424,12 +13424,20 @@ SKILL_INFO_LIST = {
 		"AG_CRYSTAL_IMPACT",
 		SkillName = "Crystal Impact",
 		MaxLv = 5,
-		SpAmount = { 100, 108, 116, 124, 132 },
+		SpAmount = { 170, 174, 178, 182, 186 },
 		bSeperateLv = true,
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.AG_RAIN_OF_CRYSTAL, 3 }
 		}
+	},
+	[SKID.AG_CRYSTAL_IMPACT_ATK] = {
+		"AG_CRYSTAL_IMPACT_ATK",
+		SkillName = "Crystal Impact",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.AG_TORNADO_STORM] = {
 		"AG_TORNADO_STORM",
@@ -13484,7 +13492,7 @@ SKILL_INFO_LIST = {
 		"AG_ROCK_DOWN",
 		SkillName = "Rock Down",
 		MaxLv = 5,
-		SpAmount = { 68, 74, 80, 86, 92 },
+		SpAmount = { 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
 		AttackRange  = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -13495,7 +13503,7 @@ SKILL_INFO_LIST = {
 		"AG_STORM_CANNON",
 		SkillName = "Storm Cannon",
 		MaxLv = 5,
-		SpAmount = { 78, 82, 86, 90, 94 },
+		SpAmount = { 76, 79, 82, 85, 88 },
 		bSeperateLv = true,
 		AttackRange  = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -13506,7 +13514,7 @@ SKILL_INFO_LIST = {
 		"AG_CRIMSON_ARROW",
 		SkillName = "Crimson Arrow",
 		MaxLv = 5,
-		SpAmount = { 86, 88, 90, 92, 94 },
+		SpAmount = { 74, 78, 82, 86, 90 },
 		bSeperateLv = true,
 		AttackRange  = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -13517,7 +13525,7 @@ SKILL_INFO_LIST = {
 		"AG_FROZEN_SLASH",
 		SkillName = "Frozen Slash",
 		MaxLv = 5,
-		SpAmount = { 84, 87, 90, 93, 96 },
+		SpAmount = { 103, 106, 109, 112, 115 },
 		bSeperateLv = true,
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -13678,7 +13686,7 @@ SKILL_INFO_LIST = {
 		"IQ_EXPOSION_BLASTER",
 		SkillName = "Explosion Blaster",
 		MaxLv = 5,
-		SpAmount = { 70, 75, 80, 85, 90 },
+		SpAmount = { 105, 110, 115, 120, 125 },
 		bSeperateLv = true,
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -13839,7 +13847,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
-		AttackRange  = { 1, 1, 1, 1, 1 },
+		AttackRange  = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.IG_SHIELD_MASTERY, 5 },
 			{ SKID.IG_ATTACK_STANCE, 2 }
@@ -13851,7 +13859,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 38, 41, 44, 47, 50, 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
-		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange  = { 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 },
 		_NeedSkillList = {
 			{ SKID.IG_ATTACK_STANCE, 3 }
 		}
@@ -14048,7 +14056,7 @@ SKILL_INFO_LIST = {
 		"CD_ARBITRIUM",
 		SkillName = "Arbitrium",
 		MaxLv = 10,
-		SpAmount = { 94, 96, 98, 100, 102, 104, 106, 108, 110, 112 },
+		SpAmount = { 107, 109, 111, 113, 115, 117, 119, 121, 123, 125 },
 		bSeperateLv = true,
 		AttackRange  = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -14366,7 +14374,7 @@ SKILL_INFO_LIST = {
 		"BO_EXPLOSIVE_POWDER",
 		SkillName = "Explosive Powder",
 		MaxLv = 5,
-		SpAmount = { 58, 62, 66, 70, 74 },
+		SpAmount = { 69, 76, 83, 90, 97 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -14466,7 +14474,7 @@ SKILL_INFO_LIST = {
 		"WH_GALESTORM",
 		SkillName = "Gale Storm",
 		MaxLv = 10,
-		SpAmount = { 64, 68, 72, 76, 80, 84, 88, 92, 96, 100 },
+		SpAmount = { 93, 96, 99, 102, 105, 108, 111, 114, 117, 120 },
 		bSeperateLv = true,
 		AttackRange  = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -14728,7 +14736,7 @@ SKILL_INFO_LIST = {
 		"ABC_ABYSS_DAGGER",
 		SkillName = "Abyss Dagger",
 		MaxLv = 5,
-		SpAmount = { 40, 45, 50, 55, 60 },
+		SpAmount = { 60, 64, 68, 72, 76 },
 		bSeperateLv = true,
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -14801,7 +14809,7 @@ SKILL_INFO_LIST = {
 		"ABC_DEFT_STAB",
 		SkillName = "Deft Stab",
 		MaxLv = 10,
-		SpAmount = { 35, 38, 41, 44, 47, 50, 53, 56, 59, 62 },
+		SpAmount = { 45, 48, 51, 54, 57, 60, 63, 66, 69, 72 },
 		bSeperateLv = true,
 		AttackRange  = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
@@ -14825,7 +14833,7 @@ SKILL_INFO_LIST = {
 		"ABC_FRENZY_SHOT",
 		SkillName = "Frenzy Shot",
 		MaxLv = 10,
-		SpAmount = { 37, 39, 41, 43, 45, 47, 49, 51, 53, 55 },
+		SpAmount = { 47, 49, 51, 53, 55, 57, 59, 61, 63, 65 },
 		bSeperateLv = true,
 		AttackRange  = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -14837,7 +14845,7 @@ SKILL_INFO_LIST = {
 		"MT_AXE_STOMP",
 		SkillName = "Axe Stomp",
 		MaxLv = 5,
-		SpAmount = { 46, 53, 60, 67, 74 },
+		SpAmount = { 45, 55, 65, 75, 85 },
 		bSeperateLv = true,
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15023,7 +15031,7 @@ SKILL_INFO_LIST = {
 		"MT_MIGHTY_SMASH",
 		SkillName = "Mighty Smash",
 		MaxLv = 10,
-		SpAmount = { 51, 54, 57, 60, 63, 66, 69, 72, 75, 78 },
+		SpAmount = { 68, 71, 74, 77, 80, 83, 86, 89, 92, 95 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15595,7 +15603,7 @@ SKILL_INFO_LIST = {
 		"SKE_TWINKLING_GALAXY",
 		SkillName = "Twinkling Galaxy",
 		MaxLv = 5,
-		SpAmount = { 84, 84, 84, 84, 84 },
+		SpAmount = { 124, 124, 124, 124, 124 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15618,7 +15626,7 @@ SKILL_INFO_LIST = {
 		"SKE_STAR_CANNON",
 		SkillName = "Star Cannon",
 		MaxLv = 5,
-		SpAmount = { 51, 54, 57, 60, 63 },
+		SpAmount = { 90, 95, 100, 105, 110 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15631,7 +15639,7 @@ SKILL_INFO_LIST = {
 		SkillName = "All in the Sky",
 		MaxLv = 10,
 		SpAmount = { 85, 85, 85, 85, 85, 85, 85, 85, 85, 85 },
-		ApAmount = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
+		ApAmount = { 70, 70, 70, 70, 70, 70, 70, 70, 70, 70 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15766,7 +15774,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 54, 58, 62, 66, 70 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.SOA_TALISMAN_OF_SOUL_STEALING, 1 }
 		}
@@ -15775,7 +15783,7 @@ SKILL_INFO_LIST = {
 		"SOA_TALISMAN_OF_WHITE_TIGER",
 		SkillName = "Talisman of White Tiger",
 		MaxLv = 5,
-		SpAmount = { 80, 83, 86, 89, 92 },
+		SpAmount = { 110, 112, 114, 116, 118 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15823,7 +15831,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Circle of Directions and Elementals",
 		MaxLv = 5,
 		SpAmount = { 120, 140, 160, 180, 200 },
-		ApAmount = { 25, 25, 25, 25, 25 },
+		ApAmount = { 35, 35, 35, 35, 35 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15872,7 +15880,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 7,
 		SpAmount = { 42, 44, 46, 48, 50, 52, 54 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 1 }
 		}
@@ -15881,9 +15889,9 @@ SKILL_INFO_LIST = {
 		"SH_HOWLING_OF_CHUL_HO",
 		SkillName = "Howling of Chulho",
 		MaxLv = 7,
-		SpAmount = { 68, 68, 68, 68, 68, 68, 68 },
+		SpAmount = { 72, 72, 72, 72, 72, 72, 72 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 3 },
 			{ SKID.SH_CHUL_HO_SONIC_CLAW, 3 }
@@ -15893,7 +15901,7 @@ SKILL_INFO_LIST = {
 		"SH_HOGOGONG_STRIKE",
 		SkillName = "Hogogong Strike",
 		MaxLv = 7,
-		SpAmount = { 54, 57, 60, 63, 66, 69, 72 },
+		SpAmount = { 67, 70, 73, 76, 79, 82, 85 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15998,9 +16006,9 @@ SKILL_INFO_LIST = {
 		"SH_HYUN_ROK_CANNON",
 		SkillName = "Hyunrok Cannon",
 		MaxLv = 7,
-		SpAmount = { 56, 59, 62, 65, 68, 71, 74 },
+		SpAmount = { 47, 50, 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 5 },
 			{ SKID.SH_HYUN_ROKS_BREEZE, 3 }
@@ -16073,7 +16081,7 @@ SKILL_INFO_LIST = {
 		"NW_THE_VIGILANTE_AT_NIGHT",
 		SkillName = "The Vigilante at Night",
 		MaxLv = 5,
-		SpAmount = { 49, 53, 57, 61, 65 },
+		SpAmount = { 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -16312,7 +16320,7 @@ SKILL_INFO_LIST = {
 		"HN_HELLS_DRIVE",
 		SkillName = "Hell's Drive",
 		MaxLv = 10,
-		SpAmount = { 71, 74, 77, 80, 83, 86, 89, 92, 95, 98 },
+		SpAmount = { 88, 91, 94, 97, 100, 103, 106, 109, 112, 115 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -16323,7 +16331,7 @@ SKILL_INFO_LIST = {
 		"HN_GROUND_GRAVITATION",
 		SkillName = "Ground Gravitation",
 		MaxLv = 10,
-		SpAmount = { 55, 60, 65, 70, 75, 80, 85, 90, 95, 100 },
+		SpAmount = { 93, 96, 99, 102, 105, 108, 111, 114, 117, 120 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -16426,7 +16434,7 @@ SKILL_INFO_LIST = {
 		"SS_KAGENOMAI",
 		SkillName = "Shadow Dance",
 		MaxLv = 10,
-		SpAmount = { 38, 41, 44, 47, 50, 53, 56, 59, 62, 65 },
+		SpAmount = { 37, 42, 47, 52, 57, 62, 67, 72, 77, 82 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -16439,7 +16447,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 36, 39, 42, 45, 48, 51, 54, 57, 60, 63 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
 			{ SKID.SS_KAGENOMAI, 5 }
 		}
@@ -16461,7 +16469,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 29, 33, 37, 41, 45, 49, 53, 57, 61, 65 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SS_FUUMASHOUAKU, 5 }
 		}
@@ -16503,15 +16511,15 @@ SKILL_INFO_LIST = {
 		"SS_SEKIENHOU",
 		SkillName = "Red Flame Cannon",
 		MaxLv = 10,
-		SpAmount = { 65, 68, 71, 74, 77, 80, 83, 86, 89, 92 },
+		SpAmount = { 53, 56, 59, 62, 65, 68, 71, 74, 77, 80 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.SS_REIKETSUHOU] = {
 		"SS_REIKETSUHOU",
 		SkillName = "Cold Blooded Cannon",
 		MaxLv = 10,
-		SpAmount = { 52, 56, 60, 64, 68, 72, 76, 80, 84, 88 },
+		SpAmount = { 58, 60, 62, 64, 66, 68, 70, 72, 74, 76 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
@@ -16519,17 +16527,17 @@ SKILL_INFO_LIST = {
 		"SS_RAIDENPOU",
 		SkillName = "Thundering Cannon",
 		MaxLv = 10,
-		SpAmount = { 47, 52, 57, 62, 67, 72, 77, 82, 87, 92 },
+		SpAmount = { 53, 56, 59, 62, 65, 68, 71, 74, 77, 80 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.SS_KINRYUUHOU] = {
 		"SS_KINRYUUHOU",
 		SkillName = "Golden Dragon Cannon",
 		MaxLv = 10,
-		SpAmount = { 52, 56, 60, 64, 68, 72, 76, 80, 84, 88 },
+		SpAmount = { 47, 49, 51, 53, 55, 57, 59, 61, 63, 65 },
 		bSeperateLv = true,
-		AttackRange = { 13, 13, 13, 13, 13, 13, 13, 13, 13, 13 }
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
 	[SKID.SS_ANTENPOU] = {
 		"SS_ANTENPOU",
