@@ -3,10 +3,32 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20231021
+-- Last updated: 20240127
 
 tblLapineUpgradeBox = {
 	targets = {
+		Loki_Coin_4 = {
+			ItemID = 102676,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Gambler_Seal_KR_", 410233 }
+			},
+			NeedSource_String = "Gambler's Seal(1)"
+		},
+		Loki_Advice_4 = {
+			ItemID = 102677,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{ "Clover_Ace_Defense", 420269 }
+			},
+			NeedSource_String = "Ace of Clovers in Mouth (Defense)"
+		},
 		Fan_Upgrade_Kit_EX = {
 			ItemID = 102344,
 			NeedRefineMin = 0,
@@ -3630,7 +3652,13 @@ tblLapineUpgradeBox = {
 				{ "S_Focusing_Pendant", 24876 },
 				{ "S_Focusing_Earring", 24877 },
 				{ "S_Stout_Pendant", 24878 },
-				{ "S_Stout_Earring", 24879 }
+				{ "S_Stout_Earring", 24879 },
+				{ "S_Full_Spell_Armor", 24883 },
+				{ "S_Full_Spell_Shoes", 24884 },
+				{ "S_Centering_Pendant", 24885 },
+				{ "S_Centering_Earring", 24886 },
+				{ "S_Witty_Pendant", 24887 },
+				{ "S_Witty_Earring", 24888 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -4423,7 +4451,13 @@ tblLapineUpgradeBox = {
 				{ "S_Focusing_Pendant", 24876 },
 				{ "S_Focusing_Earring", 24877 },
 				{ "S_Stout_Pendant", 24878 },
-				{ "S_Stout_Earring", 24879 }
+				{ "S_Stout_Earring", 24879 },
+				{ "S_Full_Spell_Armor", 24883 },
+				{ "S_Full_Spell_Shoes", 24884 },
+				{ "S_Centering_Pendant", 24885 },
+				{ "S_Centering_Earring", 24886 },
+				{ "S_Witty_Pendant", 24887 },
+				{ "S_Witty_Earring", 24888 }
 			},
 			NeedSource_String = "Shadow Equipment"
 		},

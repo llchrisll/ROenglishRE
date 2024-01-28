@@ -3,7 +3,7 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20231021
+-- Last updated: 20240127
 
 HatEFID = {
 	HAT_EF_Blossom_Fluttering = 1,
@@ -220,7 +220,17 @@ HatEFID = {
 	HAT_EF_MD_Hol_Barrier19 = 212,
 	HAT_EF_MD_Hol_Barrier20 = 213,
 	HAT_EF_C_Fluttering_Haze = 214,
-	HAT_EF_efst_cinnamon = 215
+	HAT_EF_efst_cinnamon = 215,
+	HAT_EF_Autumn_Full_Moon = 216,
+	HAT_EF_Niflheim_Night_Sky = 217,
+	HAT_EF_C_ROS2023_Cape_1 = 218,
+	HAT_EF_black_thunder = 219,
+	HAT_EF_C_ROS2023_Cape_2 = 220,
+	HAT_EF_C_15th_Nov_Helmet = 221,
+	HAT_EF_Cosmic_Connection = 222,
+	HAT_EF_C_Baby_Gloom = 223,
+	HAT_EF_WinterNightBells = 224,
+	HAT_EF_NightSkyOfRutie = 225
 }
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -1179,6 +1189,91 @@ hatEffectTable = {
 		isRenderBeforeCharacter = true,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_Autumn_Full_Moon] = {
+		resourceFileName = "efst_Autumn_Full_Moon\\han.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_Niflheim_Night_Sky] = {
+		resourceFileName = "efst_Niflheim_Night_Sky\\halloween.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_ROS2023_Cape_1] = {
+		resourceFileName = "efst_C_ROS2023_Cape_1\\ros2023_1st.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_black_thunder] = {
+		resourceFileName = "efst_black_thunder\\ros2023_f.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_ROS2023_Cape_2] = {
+		resourceFileName = "efst_C_ROS2023_Cape_2\\ros2023_2nd.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_15th_Nov_Helmet] = {
+		resourceFileName = "efst_C_15th_Nov_Helmet\\tai.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true}, 
+	[HatEFID.HAT_EF_Cosmic_Connection] = {
+		resourceFileName = "efst_Cosmic_Connection\\strbright.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Baby_Gloom] = {
+		resourceFileName = "efst_C_Baby_Gloom\\gloom.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Baby_Gloom] = {
+		resourceFileName = "efst_C_Baby_Gloom\\gloom.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_WinterNightBells] = {
+		resourceFileName = "efst_WinterNightBells\\christmasx4.str",
+		hatEffectPos = -5,
+		hatEffectPosX = -0.5,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_NightSkyOfRutie] = {
+		resourceFileName = "efst_NightSkyOfRutie\\christmasx3.str",
+		hatEffectPos = -11,
+		hatEffectPosX = -0.3,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
 	}
 }
 effectHatItemTable = {
@@ -1280,7 +1375,13 @@ effectHatItemTable = {
 	480092,
 	480296,
 	400475,
-	420242
+	420242,
+	420234,
+	420270,
+	420271,
+	410287,
+	410295,
+	420304
 }
 
 function GetHatEfResName(index)

@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20231016
+-- Last updated: 20240127
 
 Operation = { ADD = 0, ONE = 1, MAX = 2, DRAIN_ADD = 3 }
 ValueOption = { MIN = 0, MAX = 1, DIV = 2, FLOAT = 3 }
@@ -2415,7 +2415,7 @@ EquipmentPropertiesOrder = {
 				val = { [2] = Operation.ADD },
 				sym = SymbolPreset.DecWord,
 				sep = { [1] = "GetSkillName" },
-				valOpt = { [ValueOption.DIV] = 1000, [ValueOption.FLOAT] = 1 }
+				valOpt = { [ValueOption.DIV] = 1000, [ValueOption.FLOAT] = 2 }
 			},
 			[6] = {
 				name = "{val}%#{sym} Damage of {sep}",
@@ -2609,7 +2609,7 @@ ADSkill = {
 	[2516] = 2418,
 	[2055] = 2054,
 	[5202] = 5201,
-	[5383] = 5316,
+	[5317] = 5316,
 	[5274] = 0,
 	[5354] = 0,
 	[5382] = 0,
@@ -2622,5 +2622,10 @@ ADSkill = {
 	[8441] = 0,
 	[5226] = 0,
 	[5236] = 0,
-	[2056] = 0
+	[2056] = 0,
+	[5389] = 0,
+	[5390] = 0,
+	[5391] = 0,
+	[5392] = 0,
+	[5393] = 0
 }
