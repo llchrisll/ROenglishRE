@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230926
+-- Last updated: 20240217
 -- ToDo: Globalize `[Standby]` instead of anything else for cooldown quests, will be done when I sync all of them.
 
 QuestInfoList = {}
@@ -38339,6 +38339,347 @@ QuestInfoList = {
 		Summary = "Reset at 04:00",
 		CoolTimeQuest = 1
 	},
+	[11915] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Sulgidam, the special guest of this year's Malangdo Octopus Festival, has disappeared. Let's ask around <NAVI>[People Nearby]<INFO>malangdo,159,125,0,101,0</INFO></NAVI> to find out where Sulgidam went."
+        },
+        Summary = "Find Sulgidam"
+    },
+    [11916] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Godong, who came to watch the Malangdo Octopus Festival, couldn't find Sulgidam. Let's ask <NAVI>[Other People]<INFO>malangdo,189,136,0,101,0</INFO></NAVI> about Sulgidam's whereabouts."
+        },
+        Summary = "Find Sulgidam"
+    },
+    [11917] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Jakal, who visited the Octopus Festival, also couldn't find Sulgidam. Let's ask <NAVI>[Festival Observer Kid]<INFO>malangdo,208,126,0,101,0</INFO></NAVI> about Sulgidam."
+        },
+        Summary = "Find Sulgidam"
+    },
+    [11918] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Mia informed us about Sulgidam while visiting the Malangdo Octopus Festival. Let's collect information from <NAVI>[People with Sulgidam]<INFO>malangdo,229,134,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Find Sulgidam"
+    },
+    [11919] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Hukimja, Sulgidam's aide who visited the Malangdo Octopus Festival, asked us to investigate <NAVI>[Beach]<INFO>malangdo,210,106,0,101,0</INFO></NAVI> after hearing that Sulgidam had disappeared."
+        },
+        Summary = "Beach Inspection"
+    },
+    [11920] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "The boatman who took the guests to the Malangdo Octopus Festival said he took Sulgidam to Payon. Let's inform <NAVI>[Moon's Messenger, Hukimja]<INFO>malangdo,229,134,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Hukimja"
+    },
+    [11921] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Hukimja, after hearing that Sulgidam went to Payon, asked for guidance to Payon. Let's find <NAVI>[Someone Who Knows About Rice Cakes]<INFO>payon,220,112,0,101,0</INFO></NAVI> in Payon."
+        },
+        Summary = "To Payon"
+    },
+    [11922] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "We need ingredients to make rice cake for Sulgidam. Kill [Leak Escapee's Leg 10], [Chewy Rice Cake 10], [Peco Peco's Egg 2], and collect [Fresh Octopus Leg 10], [Chewy Rice Cake 5], [Grilled Octopus 1], then return to <NAVI>[Hwil]<INFO>payon,220,112,0,101,0</INFO></NAVI> in Payon."
+        },
+        Summary = "Collect Rice Cake Ingredients"
+    },
+    [11923] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "We need ingredients to make even more delicious rice cake. Bring 10 pieces of scattered rice flour from all over the area and return to <NAVI>[Hwil]<INFO>payon,220,112,0,101,0</INFO></NAVI> in Payon."
+        },
+        Summary = "Defeat Rice Flour?"
+    },
+    [11924] = {
+        Title = "Everyone's Happy Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Sulgidam's outing is over. Let's go back to <NAVI>[Malangdo]<INFO>malangdo,161,139,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Report to Octopus Festival Agent"
+    },
+    [11925] = {
+        Title = "[Standby] Make Chewy Dough",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "You've made chewy dough. You can only make one chewy dough a day, so try again tomorrow."
+        },
+        Summary = "04:00 Reset",
+        CoolTimeQuest = 1
+    },
+    [11926] = {
+        Title = "Make Chewy Dough",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Bring 10 pieces of scattered rice flour from all over the area and return to <NAVI>[Sulgi HG]<INFO>malangdo,165,141,0,101,0</INFO></NAVI> in Malangdo."
+        },
+        Summary = "Defeat Rice Flour?"
+    },
+    [11927] = {
+        Title = "Make Sulgi's Rice Cake",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "We need ingredients to make Sulgi's rice cake. Kill [Leak Escapee's Leg 10], [Chewy Rice Cake 10], [Peco Peco's Egg 2], and collect [Fresh Octopus Leg 10], [Chewy Rice Cake 5], [Grilled Octopus 1], [Chewy Dough 3], then return to <NAVI>[Sulgi HG]<INFO>malangdo,165,141,0,101,0</INFO></NAVI> in Malangdo."
+        },
+        Summary = "Collect Rice Cake Ingredients"
+    },
+    [11928] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Awin's delivery person asked for a box delivery. Let's deliver it to <NAVI>[Frederike]<INFO>icas_in,35,121,0,101,0</INFO></NAVI> near Icesen."
+        },
+        Summary = "To Frederike"
+    },
+    [11929] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It's mealtime for Koko near Icesen! Let's send them home to <NAVI>[Koko]<INFO>icas_in,32,116,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Koko"
+    },
+    [11930] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It's mealtime for Koko near Icesen! Let's send them home to <NAVI>[Koko]<INFO>icas_in,30,120,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Koko"
+    },
+    [11931] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It's mealtime for Koko near Icesen! Let's send them home to <NAVI>[Koko]<INFO>icas_in,36,117,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Koko"
+    },
+    [11932] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It's mealtime for Koko near Icesen! Let's send them back home to <NAVI>[Koko]<INFO>icas_in,28,119,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Koko"
+    },
+    [11933] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It seems Chachako left his little brother Kapopo behind. To take Kapopo back home, let's go to <NAVI>[Outside Frederike's House]<INFO>icecastle,65,213,0,101,0</INFO></NAVI> in Icesen."
+        },
+        Summary = "Outside the House"
+    },
+    [11934] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It seems Chachako left his little brother Kapopo behind. To take Kapopo back home, let's go to <NAVI>[Kapopo's House Below Frederike's House]<INFO>icecastle,65,159,0,101,0</INFO></NAVI>."
+        },
+        Summary = "To Kapopo's House"
+    },
+    [11935] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We safely brought Chachako back home. Let's return to <NAVI>[Frederike's House]<INFO>icecastle,65,213,0,101,0</INFO></NAVI> in Icesen."
+        },
+        Summary = "To Frederike's House"
+    },
+    [11936] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Rorohyu, who was going home, seems to have disappeared. Let's take a walk around <NAVI>[Icesen Surroundings]<INFO>icecastle,109,241,0,101,0</INFO></NAVI> and look for Rorohyu."
+        },
+        Summary = "Find Rorohyu"
+    },
+    [11937] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We couldn't find any information about Rorohyu. Let's go inside <NAVI>[Icesen]<INFO>icas_in,113,38,0,101,0</INFO></NAVI> to get information about Rorohyu."
+        },
+        Summary = "To Icesen"
+    },
+    [11938] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We couldn't find any information about Rorohyu. Let's go to the entrance of Icesen and meet the guards at <NAVI>[Village Entrance]<INFO>icecastle,24,130,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to the Guards"
+    },
+    [11939] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "The Awin guard says Rorohyu is sightseeing at the entrance of the Icesen village. Let's talk to Rorohyu and take him home."
+        },
+        Summary = "Talk to Rorohyu"
+    },
+    [11940] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Rorohyu seems to have left the Icesen village entrance and gone outside, leaving behind a fluffy thread at the entrance. Let's go out and look for Rorohyu."
+        },
+        Summary = "Outside the Village"
+    },
+    [11941] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Let's look for Rorohyu at <NAVI>[Rorohyu]<INFO>jor_back1,310,245,0,101,0</INFO></NAVI> in the Frozen Scale Hill."
+        },
+        Summary = "Find Rorohyu"
+    },
+    [11942] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Let's look for Rorohyu at <NAVI>[Rorohyu]<INFO>jor_back2,8,242,0,101,0</INFO></NAVI> in the Frozen Scale Plateau."
+        },
+        Summary = "Find Rorohyu"
+    },
+    [11943] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Let's look for Rorohyu at <NAVI>[Rorohyu]<INFO>jor_back3,95,324,0,101,0</INFO></NAVI> in the Frozen Scale Glacier."
+        },
+        Summary = "Find Rorohyu"
+    },
+    [11944] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Let's look for Rorohyu at <NAVI>[Rorohyu]<INFO>jor_back4,101,265,0,101,0</INFO></NAVI> in the Frozen Scale Beach."
+        },
+        Summary = "Find Rorohyu"
+    },
+    [11945] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We found Koko on the Frozen Scale Beach, and it seems like Rorohyu went into a pit. Let's go in and look for Rorohyu at <NAVI>[Pit]<INFO>jor_back4,101,265,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Find Rorohyu"
+    },
+    [11946] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We found Rorohyu, but it appears Rorohyu's friend was captured by a monster. Let's defeat the boss monster in the Sticky Sea and rescue Rorohyu's friend."
+        },
+        Summary = "Rescue the Kokopos"
+    },
+    [11947] = {
+        Title = "Koko's Secret Base",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We successfully rescued Rorohyu and Rorohyu's friend. Let's go back to <NAVI>[Lalaha]<INFO>icecastle,67,218,0,101,0</INFO></NAVI> in Icesen, where Rorohyu is waiting."
+        },
+        Summary = "Talk to Lalaha"
+    },
+    [11948] = {
+        Title = "Escargo!",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Lalaha says there are Kokopos going into the Sticky Sea. She asks us to get rid of the monsters in the Sticky Sea. Let's talk to the <NAVI>[Koko]<INFO>jor_back4,101,265,0,101,0</INFO></NAVI> at the entrance of the Sticky Sea and go into the Sticky Sea."
+        },
+        Summary = "Talk to Koko"
+    },
+    [11949] = {
+        Title = "Escargo!",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "In the Sticky Sea, defeat the corrupted angel snail that's bothering the Kokopos and rescue them."
+        },
+        Summary = "Defeat the Corrupted Angel Snail"
+    },
+    [11950] = {
+        Title = "[Standby] Escargo!",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "The Sticky Sea has been cleaned. Let's take a break today."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [11951] = {
+        Title = "It's Dangerous!",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Lalaha still thinks there are Kokopos going into the Sticky Sea. She asks us to scold the lost Kokopos at the Sticky Sea and send them back. Let's talk to <NAVI>[Koko]<INFO>jor_back4,101,265,0,101,0</INFO></NAVI> at the entrance of the Sticky Sea and enter it. After completing the quest, return to <NAVI>[Lalaha]<INFO>icecastle,67,218,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Send Back the Kokopos"
+    },
+    [11952] = {
+        Title = "[Standby] It's Dangerous!",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "The Kokopos have been sent back. Let's take a break today."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [11953] = {
+        Title = "I Hope They Reconcile (1)",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Lalaha hopes that Icewinds living in the ancient Ice Canyon will calm down even if it's for the children. Let's go to the <NAVI>[Eastern Part of the Ancient Ice Canyon]<INFO>jor_back5,263,49,0,101,0</INFO></NAVI> and scold about 10 Ashen Icewinds and come back."
+        },
+        Summary = "Scold the Ashen Icewinds"
+    },
+    [11954] = {
+        Title = "[Standby] I Hope They Reconcile (1)",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "The Ashen Icewinds have been scolded. Let's take a break today."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [11955] = {
+        Title = "I Hope They Reconcile (2)",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Lalaha hopes that Icewinds living in the ancient Ice Canyon will calm down even if it's for the children. Let's go to the <NAVI>[Western Part of the Ancient Ice Canyon]<INFO>jor_back6,324,150,0,101,0</INFO></NAVI> and scold about 10 Icewinds and come back."
+        },
+        Summary = "Scold the Icewinds"
+    },
+    [11956] = {
+        Title = "[Standby] I Hope They Reconcile (2)",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "The Icewinds have been scolded. Let's take a break today."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
 	[12000] = {
 		Title = "An old friend",
 		Description = {
@@ -42432,6 +42773,40 @@ QuestInfoList = {
 		Summary = "Reset at 04:00",
 		CoolTimeQuest = 1
 	},
+	[12588] = {
+        Title = "[Standby] The Immortal",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "After dawn, you can communicate with <NAVI>The Branch of the World Tree<INFO>prt_elib,60,37,0,101,0</INFO></NAVI> again."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [12589] = {
+        Title = "[Standby] The Immortal (Advanced)",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "After 3 days, you can communicate with <NAVI>The Branch of the World Tree<INFO>prt_elib,60,37,0,101,0</INFO></NAVI> again."
+        },
+        Summary = "Resets at Dawn after 3 Days",
+        CoolTimeQuest = 1
+    },
+    [12590] = {
+        Title = "The Story of the Immortal",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Is it impossible to kill Lasgand? Then what should we do? Is there no way?"
+        },
+        Summary = "EP20 MD"
+    },
+    [12591] = {
+        Title = "Neutralizing the Immortal",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It's said that killing Lasgand is impossible, but it seems like we can somehow make him powerless for a while."
+        },
+        Summary = "Neutralizing Lasgand"
+    },
 	[13000] = {
 		Title = "RWC 2011Card Gathering",
 		Description = {
@@ -54450,6 +54825,789 @@ QuestInfoList = {
 		},
 		Summary = "Talk with Ink"
 	},
+	[16691] = {
+        Title = "Expand Exploration Range",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Let's go investigate the unexplored area of the <NAVI>[Ancient Ice Canyon]<INFO>jor_back5,350,75,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Explore the Ancient Ice Canyon"
+    },
+    [16692] = {
+        Title = "The Natives of the Ancient Ice Canyon",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We were attacked by the ancient Icewinds in the Ancient Ice Canyon. Let's take refuge for now in <NAVI>[a safe place]<INFO>jor_back5,350,75,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Take Refuge in a Safe Place"
+    },
+    [16693] = {
+        Title = "Exploration of the Ancient Ice Canyon",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We found suspicious installations and traces that seem to belong to Le'gan in the Ancient Ice Canyon. Let's further investigate the <NAVI>[surroundings]<INFO>jor_back5,353,357,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Explore the Ancient Ice Canyon"
+    },
+    [16694] = {
+        Title = "Evidence and Return",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We acquired a suspicious device. Let's return to <NAVI>[Icesen]<INFO>icas_in,262,202,0,101,0</INFO></NAVI> to examine the device."
+        },
+        Summary = "Return to Icesen"
+    },
+    [16695] = {
+        Title = "Suspicious Signs",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Horror seems to have something to say to the adventurer. He says he'll be waiting in the <NAVI>[corner]<INFO>icas_in,259,219,0,101,0</INFO></NAVI> of the Icesen adventurer's lodging."
+        },
+        Summary = "Talk to Horror"
+    },
+    [16696] = {
+        Title = "Military Camp Investigation",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Let's conduct an investigation to see if there are any suspicious signs in the <NAVI>[military camp]<INFO>icas_in,113,41,0,101,0</INFO></NAVI> in Icesen."
+        },
+        Summary = "Military Camp Investigation"
+    },
+    [16697] = {
+        Title = "Lodge Investigation",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Let's conduct an investigation to see if there are any suspicious signs in the <NAVI>[lodge]<INFO>icas_in,92,113,0,101,0</INFO></NAVI> in Icesen."
+        },
+        Summary = "Lodge Investigation"
+    },
+    [16698] = {
+        Title = "Back Alley Exploration",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Investigate for any suspicious signs in the <NAVI>[Back Alley]<INFO>icecastle,209,243,0,101,0</INFO></NAVI> of Ice Castle."
+        },
+        Summary = "Back Alley Investigation"
+    },
+    [16699] = {
+        Title = "Suspicious Signs?",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Were there any suspicious signs? Since the investigation in the designated area is complete, let's return to <NAVI>[Horror]<INFO>icas_in,259,219,0,101,0</INFO></NAVI> at Ice Castle Adventurer's Lodge."
+        },
+        Summary = "Talk to Horror"
+    },
+    [16700] = {
+        Title = "Identity of the Suspicious Device",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "<NAVI>[Velgund]<INFO>icas_in,260,205,0,101,0</INFO></NAVI> has discovered the identity of the suspicious device. Let's hear the details at the Ice Castle Adventurer's Lodge."
+        },
+        Summary = "Talk to Velgund"
+    },
+    [16701] = {
+        Title = "Canyon Exploration",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Lehar is preparing for a canyon exploration at <NAVI>[Front of Ice Castle]<INFO>icecastle,201,171,0,101,0</INFO></NAVI>. After the preparations are complete, let's head to the castle front."
+        },
+        Summary = "Talk to Lehar"
+    },
+    [16702] = {
+        Title = "Return to Ice Castle",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Many things have happened. Return to <NAVI>[Ice Castle]<INFO>icas_in,259,200,0,101,0</INFO></NAVI> to inform Miriam and the adventurer of our safe return."
+        },
+        Summary = "Talk to Miriam"
+    },
+    [16703] = {
+        Title = "Recent Events",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "At the <NAVI>[Adventurer's Lodge]<INFO>icas_in,263,200,0,101,0</INFO></NAVI> in Ice Castle, let's talk about the events witnessed during the escape and make plans for the future."
+        },
+        Summary = "Talk to Rage"
+    },
+    [16704] = {
+        Title = "Era of Cold War and Espionage",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We have decided to transform into high-level Lecans and infiltrate the gaps among the Lecans. Let's start the spy operation from <NAVI>[Front of Snake's Nest]<INFO>jor_nest,36,274,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Gather at Front of Snake's Nest Door"
+    },
+    [16705] = {
+        Title = "[Standby] Making Happy Eggs",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Zilian]<INFO>yuno,142,163,0,101,0</INFO></NAVI> in Yuno."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16706] = {
+        Title = "Making Happy Eggs",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Get guidance from <NAVI>[Vetinar]<INFO>yuno,140,167,0,101,0</INFO></NAVI> and <NAVI>[Wistad]<INFO>yuno,146,166,0,101,0</INFO></NAVI> in Yuno to make happy eggs."
+        },
+        Summary = "Talk to Vetinar and Wistad"
+    },
+    [16707] = {
+        Title = "Melting Happy Chocolate",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Begin the process of melting chocolate at the <NAVI>[Bonfire]<INFO>yuno,142,167,0,101,0</INFO></NAVI> in Yuno Square."
+        },
+        Summary = "Work at the Bonfire"
+    },
+    [16708] = {
+        Title = "Completion of Melting Happy Chocolate",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "The chocolate melting process is complete. Let's report to <NAVI>[Vetinar]<INFO>yuno,140,167,0,101,0</INFO></NAVI> in Yuno Square."
+        },
+        Summary = "Talk to Vetinar"
+    },
+    [16709] = {
+        Title = "Crushing Happy Almonds",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Go to <NAVI>[Wistad]<INFO>yuno,146,166,0,101,0</INFO></NAVI> in Yuno Square and start crushing almonds."
+        },
+        Summary = "Talk to Wistad"
+    },
+    [16710] = {
+        Title = "Completion of Making Happy Eggs",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Today's egg-making process is complete. Return to <NAVI>[Zilian]<INFO>yuno,142,163,0,101,0</INFO></NAVI> in Yuno Square to report."
+        },
+        Summary = "Talk to Zilian"
+    },
+    [16711] = {
+        Title = "[Standby] Happy Hide and Seek",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Serum]<INFO>yuno,150,155,0,101,0</INFO></NAVI> in Yuno."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16712] = {
+        Title = "Happy Hide and Seek",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Cubpets are hiding all over Yuno. Let's go find them. Maybe <NAVI>[Serum]<INFO>yuno,150,155,0,101,0</INFO></NAVI> can provide hints?"
+        },
+        Summary = "Hide and Seek Game"
+    },
+    [16713] = {
+        Title = "Find the Happy Poring",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Find the hidden Poring in Yuno and return."
+        },
+        Summary = "Find the Poring"
+    },
+    [16714] = {
+        Title = "Completion of Happy Hide and Seek",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "You found the Cubpet hiding somewhere in Yuno. Let's return to <NAVI>[Serum]<INFO>yuno,150,155,0,101,0</INFO></NAVI> with the Cubpet."
+        },
+        Summary = "Talk to Serum"
+    },
+    [16715] = {
+        Title = "Find the Happy Baby Desert Wolf",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Find the hidden baby Desert Wolf in Yuno and return."
+        },
+        Summary = "Find the Baby Desert Wolf"
+    },
+    [16716] = {
+        Title = "Completion of Happy Hide and Seek",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "You found the Cubpet hiding somewhere in Yuno. Let's return to <NAVI>[Serum]<INFO>yuno,150,155,0,101,0</INFO></NAVI> with the Cubpet."
+        },
+        Summary = "Talk to Serum"
+    },
+    [16717] = {
+        Title = "Find the Happy Deviruchi",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Find the hidden Deviruchi in Yuno and return."
+        },
+        Summary = "Find the Deviruchi"
+    },
+    [16718] = {
+        Title = "Completion of Happy Hide and Seek",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "You found the Cubpet hiding somewhere in Yuno. Let's return to <NAVI>[Serum]<INFO>yuno,150,155,0,101,0</INFO></NAVI> with the Cubpet."
+        },
+        Summary = "Talk to Serum"
+    },
+    [16719] = {
+        Title = "Find the Happy Lunatic",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Find the hidden Lunatic in Yuno and return."
+        },
+        Summary = "Find the Lunatic"
+    },
+    [16720] = {
+        Title = "Completion of Happy Hide and Seek",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "You found the Cubpet hiding somewhere in Yuno. Let's return to <NAVI>[Serum]<INFO>yuno,150,155,0,101,0</INFO></NAVI> with the Cubpet."
+        },
+        Summary = "Talk to Serum"
+    },
+    [16721] = {
+        Title = "Find the Happy Pecopeco",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Find the hidden Pecopeco in Yuno and return."
+        },
+        Summary = "Find the Pecopeco"
+    },
+    [16722] = {
+        Title = "Happy Hide and Seek Complete",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "You found the Cubpet hidden somewhere in Yuno. Let's return to <NAVI>[Serum]<INFO>yuno,150,155,0,101,0</INFO></NAVI> with the Cubpet."
+        },
+        Summary = "Talk to Serum"
+    },
+    [16734] = {
+        Title = "Barmunt's Biospere Deep Guide",
+        IconName = "ico_nq.bmp",
+        Description = {
+            "Received guidance on the newly discovered depths of Barmunt's Biospere from <NAVI>[Deep Research Administrator]<INFO>ba_in01,292,104,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Deep Guide"
+    },
+    [16735] = {
+        Title = "Deep 1st Floor Specimen Research",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "After defeating 300 monsters on the deep 1st floor of the Biospere, regardless of the type, report to <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = ""
+    },
+    [16736] = {
+        Title = "[Standby] Deep 1st Floor Specimen Research",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16737] = {
+        Title = "Deep 1st Floor Specimen Advanced Research",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "After defeating 2000 monsters on the deep 1st floor of the Biospere, regardless of the type, report to <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = ""
+    },
+    [16738] = {
+        Title = "[Standby] Deep 1st Floor Specimen Advanced Research",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a weekly quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Monday Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16739] = {
+        Title = "Deep 1st Floor Fire Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 50 each of <NAVI>[Deep Lava Toad]<INFO>BIO_LAVA_TOAD,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Fire Frilldora]<INFO>BIO_FIRE_FRILLDORA,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biospere, and collect 15 <ITEM>[Deep Fire Specimen]<INFO>1001330</INFO></ITEM>. Then, bring them to <NAVI>[Fire Specimen Research Administrator]<INFO>ba_in01,286,114,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "15 Deep Fire Specimens"
+    },
+    [16740] = {
+        Title = "[Standby] Deep 1st Floor Fire Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16741] = {
+        Title = "Deep 1st Floor Fire Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 80 each of <NAVI>[Deep Lava Toad]<INFO>BIO_LAVA_TOAD,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Fire Frilldora]<INFO>BIO_FIRE_FRILLDORA,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biospere, and collect 20 <ITEM>[Deep Fire Specimen]<INFO>1001330</INFO></ITEM>. Then, bring them to <NAVI>[Fire Specimen Research Administrator]<INFO>ba_in01,286,114,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "20 Deep Fire Specimens"
+    },
+    [16742] = {
+        Title = "[Standby] Deep 1st Floor Fire Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16743] = {
+        Title = "Deep 1st Floor Ice Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 50 each of <NAVI>[Deep Anolian]<INFO>BIO_ANOLIAN,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Kapha]<INFO>BIO_KAPHA,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biospere, and collect 15 <ITEM>[Deep Ice Specimen]<INFO>1001332</INFO></ITEM>. Then, bring them to <NAVI>[Ice Specimen Research Administrator]<INFO>ba_in01,286,116,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "15 Deep Ice Specimens"
+    },
+    [16744] = {
+        Title = "[Standby] Deep 1st Floor Ice Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16745] = {
+        Title = "Deep 1st Floor Ice Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 80 each of <NAVI>[Deep Anolian]<INFO>BIO_ANOLIAN,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Kapha]<INFO>BIO_KAPHA,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biospere, and collect 20 <ITEM>[Deep Ice Specimen]<INFO>1001332</INFO></ITEM>. Then, bring them to <NAVI>[Ice Specimen Research Administrator]<INFO>ba_in01,286,116,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "20 Deep Ice Specimens"
+    },
+    [16746] = {
+        Title = "[Standby] Deep 1st Floor Ice Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16747] = {
+        Title = "Deep 1st Floor Earth Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 50 each of <NAVI>[Deep Sting]<INFO>BIO_STING,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Wood Goblin]<INFO>BIO_WOOD_GOBLIN,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biospere, and collect 15 <ITEM>[Deep Earth Specimen]<INFO>1001331</INFO></ITEM>. Then, bring them to <NAVI>[Earth Specimen Research Administrator]<INFO>ba_in01,286,118,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "15 Deep Earth Specimens"
+    },
+    [16748] = {
+        Title = "[Standby] Deep 1st Floor Earth Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16749] = {
+        Title = "Deep 1st Floor Earth Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 80 each of <NAVI>[Deep Sting]<INFO>BIO_STING,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Wood Goblin]<INFO>BIO_WOOD_GOBLIN,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biospere, and collect 20 <ITEM>[Deep Earth Specimen]<INFO>1001331</INFO></ITEM>. Then, bring them to <NAVI>[Earth Specimen Research Administrator]<INFO>ba_in01,286,118,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "20 Deep Earth Specimens"
+    },
+    [16750] = {
+        Title = "[Standby] Deep 1st Floor Earth Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16751] = {
+        Title = "Deep 1st Floor Storm Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 50 each of <NAVI>[Deep Dragon Tail]<INFO>BIO_DRAGON_TAIL,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Little Fattum]<INFO>BIO_LITTLE_FATUM,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biospere, and collect 15 <ITEM>[Deep Storm Specimen]<INFO>1001333</INFO></ITEM>. Then, bring them to <NAVI>[Storm Specimen Research Administrator]<INFO>ba_in01,286,120,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "15 Deep Storm Specimens"
+    },
+    [16752] = {
+        Title = "[Standby] Deep 1st Floor Storm Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16753] = {
+        Title = "Deep 1st Floor Storm Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 80 each of <NAVI>[Deep Dragon Tail]<INFO>BIO_DRAGON_TAIL,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Little Fattum]<INFO>BIO_LITTLE_FATUM,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 20 <ITEM>[Deep Storm Specimen]<INFO>1001333</INFO></ITEM>. Then, bring them to <NAVI>[Storm Specimen Research Administrator]<INFO>ba_in01,286,120,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "20 Deep Storm Specimens"
+    },
+    [16754] = {
+        Title = "[Standby] Deep 1st Floor Storm Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16755] = {
+        Title = "Deep 1st Floor Purification Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 50 each of <NAVI>[Deep Holy Frus]<INFO>BIO_HOLY_FRUS,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Holy Skogul]<INFO>BIO_HOLY_SKOGUL,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 15 <ITEM>[Deep Purification Specimen]<INFO>1001335</INFO></ITEM>. Then, bring them to <NAVI>[Purification Specimen Research Administrator]<INFO>ba_in01,283,114,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "15 Deep Purification Specimens"
+    },
+    [16756] = {
+        Title = "[Standby] Deep 1st Floor Purification Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16757] = {
+        Title = "Deep 1st Floor Purification Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 80 each of <NAVI>[Deep Holy Frus]<INFO>BIO_HOLY_FRUS,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Holy Skogul]<INFO>BIO_HOLY_SKOGUL,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 20 <ITEM>[Deep Purification Specimen]<INFO>1001335</INFO></ITEM>. Then, bring them to <NAVI>[Purification Specimen Research Administrator]<INFO>ba_in01,283,114,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "20 Deep Purification Specimens"
+    },
+    [16758] = {
+        Title = "[Standby] Deep 1st Floor Purification Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16759] = {
+        Title = "Deep 1st Floor Corruption Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 50 each of <NAVI>[Deep Archer Skeleton]<INFO>BIO_SKEL_ARCHER,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Soldier Skeleton]<INFO>BIO_SKEL_SOLDIER,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 15 <ITEM>[Deep Corruption Specimen]<INFO>1001336</INFO></ITEM>. Then, bring them to <NAVI>[Corruption Specimen Research Administrator]<INFO>ba_in01,283,116,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "15 Deep Corruption Specimens"
+    },
+    [16760] = {
+        Title = "[Standby] Deep 1st Floor Corruption Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16761] = {
+        Title = "Deep 1st Floor Corruption Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 80 each of <NAVI>[Deep Archer Skeleton]<INFO>BIO_SKEL_ARCHER,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Soldier Skeleton]<INFO>BIO_SKEL_SOLDIER,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 20 <ITEM>[Deep Corruption Specimen]<INFO>1001336</INFO></ITEM>. Then, bring them to <NAVI>[Corruption Specimen Research Administrator]<INFO>ba_in01,283,116,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "20 Deep Corruption Specimens"
+    },
+    [16762] = {
+        Title = "[Standby] Deep 1st Floor Corruption Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16763] = {
+        Title = "Deep 1st Floor Soul Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 50 each of <NAVI>[Deep Empathizer]<INFO>BIO_EMPATHIZER,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Pray Giver]<INFO>BIO_PRAY_GIVER,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 15 <ITEM>[Deep Soul Specimen]<INFO>1001334</INFO></ITEM>. Then, bring them to <NAVI>[Soul Specimen Research Administrator]<INFO>ba_in01,283,118,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "15 Deep Soul Specimens"
+    },
+    [16764] = {
+        Title = "[Standby] Deep 1st Floor Soul Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16765] = {
+        Title = "Deep 1st Floor Soul Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 80 each of <NAVI>[Deep Empathizer]<INFO>BIO_EMPATHIZER,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Pray Giver]<INFO>BIO_PRAY_GIVER,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 20 <ITEM>[Deep Soul Specimen]<INFO>1001334</INFO></ITEM>. Then, bring them to <NAVI>[Soul Specimen Research Administrator]<INFO>ba_in01,283,118,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "20 Deep Soul Specimens"
+    },
+    [16766] = {
+        Title = "[Standby] Deep 1st Floor Soul Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16767] = {
+        Title = "Deep 1st Floor Venom Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 50 each of <NAVI>[Deep Pinguicula Dark]<INFO>BIO_PINGUICULA_D,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Pom Spider]<INFO>BIO_POM_SPIDER,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 15 <ITEM>[Deep Venom Specimen]<INFO>1001337</INFO></ITEM>. Then, bring them to <NAVI>[Venom Specimen Research Administrator]<INFO>ba_in01,283,120,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "15 Deep Venom Specimens"
+    },
+    [16768] = {
+        Title = "[Standby] Deep 1st Floor Venom Specimen Research I",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16769] = {
+        Title = "Deep 1st Floor Venom Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Defeat 80 each of <NAVI>[Deep Pinguicula Dark]<INFO>BIO_PINGUICULA_D,0,0,3,-222,1</INFO></NAVI> and <NAVI>[Deep Pom Spider]<INFO>BIO_POM_SPIDER,0,0,3,-222,1</INFO></NAVI> on the deep 1st floor of the Biosphere, and collect 20 <ITEM>[Deep Venom Specimen]<INFO>1001337</INFO></ITEM>. Then, bring them to <NAVI>[Venom Specimen Research Administrator]<INFO>ba_in01,283,120,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "20 Deep Venom Specimens"
+    },
+    [16770] = {
+        Title = "[Standby] Deep 1st Floor Venom Specimen Research II",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be received again upon cooldown. You can accept the quest from <NAVI>[Deep 1st Floor Research Administrator]<INFO>ba_in01,286,104,0,101,0</INFO></NAVI> inside Barmunt's Mansion."
+        },
+        Summary = "Resets at 4 AM",
+        CoolTimeQuest = 1
+    },
+    [16771] = {
+        Title = "Achievement of In-depth 1st Floor Research",
+        IconName = "ico_nq.bmp",
+        Description = {
+            "Achieved significant research results in the Barumt Biosphere's in-depth 1st floor."
+        },
+        Summary = "Achievement of In-depth 1st Floor Research"
+    },
+    [16772] = {
+        Title = "Hot People of Popcorn Festival!",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Bring 20 <ITEM>[Eagle Beads]<INFO>25341</INFO></ITEM> to <NAVI>[Aru Hia]<INFO>comodo.gat,204,143,0,101,0</INFO></NAVI> to receive fabulous Popcorn Festival attire."
+        },
+        Summary = "Collect 20 Eagle Beads"
+    },
+	[16778] = {
+		Title = "Biosphere Abyss Depth Guidance",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI>Let's go get guidance about the newly discovered Depth abyss in the Varmundt Biosphere."
+		},
+		Summary = "Depth Abyss Guidance"
+	},
+	[16779] = {
+		Title = "Depth Abyss Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After catching 450 monsters of any kind in the Biosphere Abyss Depth, report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16780] = {
+		Title = "[Standby] Depth Abyss Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16781] = {
+		Title = "Depth Abyss Demi-Human Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Duneayr]<INFO>BIO_DUNEYRR,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16782] = {
+		Title = "[Standby] Depth Abyss Demi-Human Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16783] = {
+		Title = "Depth Abyss Brute Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Naga]<INFO>BIO_NAGA,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16784] = {
+		Title = "[Standby] Depth Abyss Brute Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16785] = {
+		Title = "Depth Abyss Plant Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Ancient Tree]<INFO>BIO_ANCIENT_TREE,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16786] = {
+		Title = "[Standby] Depth Abyss Plant Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16787] = {
+		Title = "Depth Abyss Fish Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Dollocaris]<INFO>BIO_DOLLOCARIS,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16788] = {
+		Title = "[Standby] Depth Abyss Fish Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16789] = {
+		Title = "Depth Abyss Demon Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Ice Gargoyle]<INFO>BIO_ICE_GARGOYLE,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16790] = {
+		Title = "[Standby] Depth Abyss Demon Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16791] = {
+		Title = "Depth Abyss Undead Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Flame Ghost]<INFO>BIO_FLAME_GHOST,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16792] = {
+		Title = "[Standby] Depth Abyss Undead Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16793] = {
+		Title = "Depth Abyss Dragon Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Acidus]<INFO>BIO_ACIDUS_,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16794] = {
+		Title = "[Standby] Depth Abyss Dragon Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16795] = {
+		Title = "Depth Abyss Angel Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Morocc's Manifestation]<INFO>BIO_MOROCC_1,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16796] = {
+		Title = "[Standby] Depth Abyss Angel Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16797] = {
+		Title = "Depth Abyss Formless Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Salamander]<INFO>BIO_SALAMANDER,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16798] = {
+		Title = "[Standby] Depth Abyss Formless Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16799] = {
+		Title = "Depth Abyss Insect Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Hunt 25 <NAVI>[Abyss Moskillo]<INFO>BIO_MOSKILLO,0,0,3,-222,1</INFO></NAVI> in the Biosphere Abyss Depth and report to the <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> at Varmundt Mansion Chess Garden."
+		},
+		Summary = ""
+	},
+	[16800] = {
+		Title = "[Standby] Depth Abyss Insect Sample Research",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Research Request Manager]<INFO>ba_chess,25,13,0,101,0</INFO></NAVI> inside Varmundt Mansion."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
 	-- Note: These quests from iRO are different from kRO's (They're used on Cat Pub quests)
 	[17000] = {
 		Title = "Meet with Father Bamph",
@@ -59405,6 +60563,336 @@ QuestInfoList = {
 		},
 		Summary = "Commander's Return"
 	},
+	[17690] = {
+        Title = "A New Exploration Site",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Gather at the inner part of <NAVI>[Ice Castle]<INFO>icas_in,262,202,0,101,0</INFO></NAVI> to discuss a new exploration site."
+        },
+        Summary = "To the Ice Castle"
+    },
+    [17691] = {
+        Title = "Infiltrating the Lair of Lergan",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "The previously sealed door of <NAVI>[Lair of the Serpent]<INFO>jor_nest,36,274,0,101,0</INFO></NAVI> has been opened. Now, it's just a matter of entering while transformed into Lergan using a transformation scroll."
+        },
+        Summary = "The Door Is Open"
+    },
+    [17692] = {
+        Title = "Infiltrating the Lair of Lergan",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "After transforming into Lergan using a transformation scroll, entered the opened Lair of the Serpent's <NAVI>[Beyond]<INFO>jor_root1,32,34,0,101,0</INFO></NAVI>. Let's investigate thoroughly."
+        },
+        Summary = "To the Roots of the Serpent"
+    },
+    [17693] = {
+        Title = "Infiltrating the Lair of Lergan",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Identified some unusual Lergan who appear human. First, let's deal with these creatures and then search for the <NAVI>[Companions]<INFO>jor_root2,239,243,0,101,0</INFO></NAVI> in the roots of the serpent."
+        },
+        Summary = "Handling Lergan Shamans"
+    },
+    [17694] = {
+        Title = "Infiltrating the Lair of Lergan",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Leize went ahead to explore the interior. Let's wait for Leize in the <NAVI>[Sanctuary]<INFO>jor_root2,239,243,0,101,0</INFO></NAVI> within the roots of the serpent."
+        },
+        Summary = "Aiding Leize the Resolver"
+    },
+    [17695] = {
+        Title = "Infiltrating the Lair of Lergan",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Leize suggested disguising as Lergan bishops and infiltrating the <NAVI>[Sanctuary]<INFO>jor_root2,239,243,0,101,0</INFO></NAVI> within the roots of the serpent. Is this Leize's plan?"
+        },
+        Summary = "Leize's Stratagem?"
+    },
+    [17696] = {
+        Title = "Sacred and Divine",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "The party decided to use the appearance of Leize, disguised as a top-tier Lergan, to enter the <NAVI>[Sacred Roots]<INFO>jor_sanct,162,86,0,101,0</INFO></NAVI>."
+        },
+        Summary = "To the Sacred Roots"
+    },
+    [17697] = {
+        Title = "Sacred and Divine",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "When arriving at the Sacred Roots, top-tier <NAVI>[Lergan]<INFO>jor_sanct,162,86,0,101,0</INFO></NAVI> individuals stood in line, seeking assistance. Let's help them wholeheartedly."
+        },
+        Summary = "Assisting Lergan's Tasks 1"
+    },
+    [17698] = {
+        Title = "Sacred and Divine",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Go out to <NAVI>[Lair of the Serpent]<INFO>jor_root2,26,271,0,101,0</INFO></NAVI> and gather three snakeberries, which our <NAVI>[Bishops]<INFO>jor_sanct,162,86,0,101,0</INFO></NAVI> enjoy."
+        },
+        Summary = "Collect 3 Snakeberries"
+    },
+    [17699] = {
+        Title = "Sacred and Divine",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We obtained some information about the Sacred Roots from the top-tier Lergan. Let's get more information from other top-tier <NAVI>[Lergan]<INFO>jor_sanct,185,128,0,101,0</INFO></NAVI> individuals in the Sacred Roots."
+        },
+        Summary = "Assisting Lergan's Tasks 2"
+    },
+    [17700] = {
+        Title = "Sacred and Divine",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We learned about the Magic Absorption Device and the Awin Transformation Device from a top-tier Lergan. Let's seek more information from other top-tier <NAVI>[Lergan]<INFO>jor_sanct,42,105,0,101,0</INFO></NAVI> individuals in the Sacred Roots."
+        },
+        Summary = "Assisting Lergan's Tasks 3"
+    },
+    [17701] = {
+        Title = "Earning Lergan's Trust",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "To acquire more information, we need to gain Lergan's trust. Let's assist Lergan individuals in need, including <NAVI>[Pamoshgand]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI>, at the Sacred Roots."
+        },
+        Summary = "Assisting Lergan's Tasks 4"
+    },
+    [17702] = {
+        Title = "Heading Towards the End of the Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Saergand, known as Lasgand's right hand, will quietly approach adventurers in front of the <NAVI>[Door]<INFO>jor_sanct,22,283,0,101,0</INFO></NAVI> leading to the Serpent's Maze."
+        },
+        Summary = "To the Serpent's Maze"
+    },
+    [17703] = {
+        Title = "Heading Towards the End of the Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "There are parasites living in the Serpent's Maze beyond this door. It seems like some cleaning is needed. Before that person arrives, deal with three of them and return to <NAVI>[Sacred Roots]<INFO>jor_sanct,22,283,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Cleaning the Serpent's Maze"
+    },
+    [17704] = {
+        Title = "Heading Towards the End of the Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Saregand, known as Lasgand's right hand, said he is going to meet Lasgand. Let's investigate Saergand's <NAVI>[Traces]<INFO>jor_maze,15,47,0,101,0</INFO></NAVI> within the Serpent's Maze."
+        },
+        Summary = "Finding Saergand's Traces 1"
+    },
+    [17705] = {
+        Title = "Heading Towards the End of the Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Saergand's traces are sporadically present. It seems like a more thorough search of <NAVI>[Serpent's Maze]<INFO>jor_maze,17,153,0,101,0</INFO></NAVI> is necessary."
+        },
+        Summary = "Finding Saergand's Traces 2"
+    },
+    [17706] = {
+        Title = "Heading Towards the End of the Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "After parting ways with the party, you are left alone. Investigate <NAVI>[Serpent's Maze]<INFO>jor_maze,140,71,0,101,0</INFO></NAVI> for Saergand's traces."
+        },
+        Summary = "Finding Saergand's Traces 3"
+    },
+    [17707] = {
+        Title = "Unexpected Reunion",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "There is a suspicious <NAVI>[Device]<INFO>jor_maze,140,71,0,101,0</INFO></NAVI> in the Serpent's Maze. The only person who could have created such a device is Bagot. Investigating the device may provide clues."
+        },
+        Summary = "Investigating the Suspicious Device"
+    },
+    [17708] = {
+        Title = "Unexpected Reunion",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "During a confrontation with Lasgand, a white cat suddenly appeared and sent Lasgand's group flying, including the adventurer <NAVI>[Party]<INFO>jor_back1,365,226,0,101,0</INFO></NAVI>, to the frozen Scaled Hill."
+        },
+        Summary = "The Power of the White Cat"
+    },
+    [17709] = {
+        Title = "Report on Infiltration",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Return to <NAVI>[Ice Castle]<INFO>icas_in,226,255,0,101,0</INFO></NAVI> and report the information about 'that place' and Lasgand."
+        },
+        Summary = "To the Ice Castle"
+    },
+    [17710] = {
+        Title = "Cleaning the Serpent's Maze",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "It's all about cleaning today! Eliminate 10 Yormungand Guardians of each color in the Serpent's Maze and then return to <NAVI>[Sacred Roots]<INFO>jor_sanct,22,283,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Dealing with Yormungand Guardians"
+    },
+    [17711] = {
+        Title = "[Standby] Cleaning the Serpent's Maze",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "After the dawn passes, go to the <NAVI>[Supervisor]<INFO>jor_sanct,22,283,0,101,0</INFO></NAVI> in the Sacred Roots to receive new cleaning tasks."
+        },
+        Summary = "4 AM Reset",
+        CoolTimeQuest = 1
+    },
+    [17712] = {
+        Title = "A New Beginning",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It's said that the top-tier Lergan we captured earlier is causing trouble. Let's go to the Ice Castle following <NAVI>[Awin Soldier]<INFO>icecastle,46,164,0,101,0</INFO></NAVI> asking for help."
+        },
+        Summary = "To the Ice Castle"
+    },
+    [17713] = {
+        Title = "A New Beginning",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "<NAVI>[Horr]<INFO>icas_in2,31,116,0,101,0</INFO></NAVI> is in a dilemma because of Nadyagand's demands for keeping him imprisoned in the Ice Castle."
+        },
+        Summary = "Distinguished Guest"
+    },
+    [17714] = {
+        Title = "A New Beginning",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "To make Nadyagand, who is imprisoned in the Ice Castle, talk, we need to bring the snakeberries he demands. Let's go to <NAVI>[Snake God's Roots]<INFO>jor_root2,25,21,0,101,0</INFO></NAVI> and gather 10 snakeberries."
+        },
+        Summary = "Collect 10 Snakeberries"
+    },
+    [17715] = {
+        Title = "A New Beginning",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We've obtained the snakeberries, but the top-tier Lergan knows nothing. Just when he was about to give in to the idea of sitting in the Ice Castle, <NAVI>[Leize]<INFO>icas_in2,32,120,0,101,0</INFO></NAVI> appeared. Let's seek advice from Leize."
+        },
+        Summary = "Conversation with Leize"
+    },
+    [17716] = {
+        Title = "A New Beginning",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Leize easily persuaded Nadyagand to work without any intentions of playing or eating. How? Let's ask <NAVI>[Leize]<INFO>icas_in2,32,120,0,101,0</INFO></NAVI> for the details when visiting the Ice Castle."
+        },
+        Summary = "Conversation with Leize"
+    },
+    [17717] = {
+        Title = "[Standby] Taste of Leisure",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Unintentionally, we've decided to bring some snacks to <NAVI>[Nadyagand]<INFO>icas_in2,30,121,0,101,0</INFO></NAVI> who is working hard. Let's return to the Ice Castle after dawn."
+        },
+        Summary = "4 AM Reset",
+        CoolTimeQuest = 1
+    },
+    [17718] = {
+        Title = "Taste of Leisure",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Let's gather 10 snakeberries from <NAVI>[Snake God's Roots]<INFO>jor_root2,25,21,0,101,0</INFO></NAVI> for <NAVI>[Nadyagand]<INFO>icas_in2,30,121,0,101,0</INFO></NAVI>, who is working diligently in the Ice Castle."
+        },
+        Summary = "Collect 10 Snakeberries"
+    },
+    [17719] = {
+        Title = "Sacred and Divine",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Deliver snakeberries to the Lergan <NAVI>[Bishop]<INFO>jor_sanct,162,86,0,101,0</INFO></NAVI> in the Sacred Roots."
+        },
+        Summary = "Deliver Snakeberries"
+    },
+    [17720] = {
+        Title = "Taste of Leisure",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "We've collected all the snakeberries. Let's deliver them to <NAVI>[Nadyagand]<INFO>icas_in2,30,121,0,101,0</INFO></NAVI> in the Ice Castle."
+        },
+        Summary = "To Nadyagand"
+    },
+    [17721] = {
+        Title = "Taste of Leisure",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "We've collected all the snakeberries. Let's deliver them to <NAVI>[Nadyagand]<INFO>icas_in2,30,121,0,101,0</INFO></NAVI> in the Ice Castle."
+        },
+        Summary = "To Nadyagand"
+    },
+    [17725] = {
+        Title = "They've Appeared! What's This?!",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Hurry, let's go to <NAVI>[Razanya's Guild]<INFO>lasagna,111,214,0,101,0</INFO></NAVI> and seek help!"
+        },
+        Summary = "To Razanya's Guild"
+    },
+    [17726] = {
+        Title = "They've Appeared! What's This?!",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "<NAVI>[Nyailgul]<INFO>lasa_sea,28,142,0,101,0,</INFO></NAVI> has requested to find a missing person inside Nyailgul."
+        },
+        Summary = "Nyailgul's Missing Person"
+    },
+    [17727] = {
+        Title = "They've Appeared! What's This?!",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Inside Nyailgul, something <NAVI>[Strange]<INFO>lasa_sea,197,67,0,101,0,</INFO></NAVI> has appeared! Let's go together to investigate!"
+        },
+        Summary = "Inside Nyailgul"
+    },
+    [17728] = {
+        Title = "They've Appeared! What's This?!",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Please bring 10 thin and long noodles in place of <NAVI>[That]<INFO>lasa_sea,197,67,0,101,0,</INFO></NAVI>'s hair."
+        },
+        Summary = "10 Thin and Long Noodles"
+    },
+    [17729] = {
+        Title = "They've Appeared! What's This?!",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Let's return to <NAVI>[Razanya]<INFO>lasagna,111,214,0,101,0,</INFO></NAVI> with the coil while the party is waiting."
+        },
+        Summary = "Safe Return"
+    },
+    [17730] = {
+        Title = "Fishing Preparation",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Let's gather 10 thin and long noodles for <NAVI>[Razanya's Pasta Festival]<INFO>lasagna,111,214,0,101,0,</INFO></NAVI> commemorative hat."
+        },
+        Summary = "10 Thin and Long Noodles"
+    },
+    [17731] = {
+        Title = "[Standby] Fishing Preparation",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Thank you for your hard work. After dawn, please visit <NAVI>[Razanya]<INFO>lasagna,111,214,0,101,0,</INFO></NAVI> again and offer assistance."
+        },
+        Summary = "4 AM Reset",
+        CoolTimeQuest = 1
+    },
+    [17732] = {
+        Title = "They've Appeared! What's Completed",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "They've Appeared! What's Completed"
+        }
+    },
+    [17733] = {
+        Title = "Interact with Spectators",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Once again, many people have come to the Pasta Festival this year. How about interacting with other <NAVI>[Spectators]<INFO>lasagna,196,137,0,101,0,</INFO></NAVI> and engaging in conversation?"
+        },
+        Summary = "Meet the Spectators"
+    },
 	[18000] = {
         Title = "Ready to enter",
         IconName = "ico_ep.bmp",
@@ -61244,6 +62732,193 @@ QuestInfoList = {
 		Summary = "Reset at 04:00 on Saturday",
 		CoolTimeQuest = 1
 	},
+	[18218] = {
+        Title = "It's Tess",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Please come to the front of <NAVI>[Vernier Research Institute Entrance]<INFO>que_swat,145,57,0,101,0</INFO></NAVI>. I have important matters to discuss with you."
+        },
+        Summary = "Conversation with Tess"
+    },
+    [18219] = {
+        Title = "Checking In",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "The series of events has come to a close. Curious about how <NAVI>[Nihill]<INFO>prt_cas_q,21,39,0,101,0</INFO></NAVI> is doing now. Let's go to the Prontera Castle and find out!"
+        },
+        Summary = "Conversation with Nihill"
+    },
+    [18220] = {
+        Title = "To the Ice Castle",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We've received the assistance of Lord Naya. Let's return to the Ice Castle and check in with <NAVI>[Leon]<INFO>icas_in,111,228,0,101,0</INFO></NAVI> and our comrades."
+        },
+        Summary = "Conversation with Leon"
+    },
+    [18221] = {
+        Title = "Finding Lehrar...!",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "We've decided to find Lehrar at the first floor of the Snake's Roots. Let's investigate the <NAVI>[Marker]<INFO>jor_root1,32,75,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Investigate the Marker"
+    },
+    [18222] = {
+        Title = "Investigation, Investigation, Investigation",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "After investigating the mark left in the Snake's Roots, Lehrar suggested exchanging information at the Sacred Roots. There are a total of three marked locations."
+        },
+        Summary = "Investigate 3 Marks"
+    },
+    [18223] = {
+        Title = "Lehrar's Mark 1",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "One of Lehrar's <NAVI>[marks]<INFO>jor_root1,69,128,0,101,0</INFO></NAVI> left in the Snake's Roots 1st floor. There's a long path leading inside. Let's check if there's Bagoth's laboratory inside."
+        },
+        Summary = "Investigate the Mark"
+    },
+    [18224] = {
+        Title = "Lehrar's Mark 2",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "One of Lehrar's <NAVI>[marks]<INFO>jor_root1,35,211,0,101,0</INFO></NAVI> left in the Snake's Roots 1st floor. There's a long path leading inside. Let's check if there's Bagoth's laboratory inside."
+        },
+        Summary = "Investigate the Mark"
+    },
+    [18225] = {
+        Title = "Lehrar's Mark 3",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "One of Lehrar's <NAVI>[marks]<INFO>jor_root1,254,66,0,101,0</INFO></NAVI> left in the Snake's Roots 1st floor. There's a long path leading inside. Let's check if there's Bagoth's laboratory inside."
+        },
+        Summary = "Investigate the Mark"
+    },
+    [18226] = {
+        Title = "It's Just a Hoax. The Next Location.",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Even after investigating all the marks left in the Snake's Roots 1st floor, we couldn't find the entrance to Bagoth's laboratory. Let's meet Lehrar and Miriam at the <NAVI>[Sacred Roots]<INFO>jor_sanct,133,86,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Investigate the Marks"
+    },
+    [18227] = {
+        Title = "Investigating the Sacred Roots",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Lehrar and Miriam have decided to investigate the interior of the Sacred Roots together. Let's go to the central area and talk to <NAVI>[Bishop Lergan]<INFO>jor_sanct,150,207,0,101,0</INFO></NAVI> to gather information."
+        },
+        Summary = "Conversation with the Bishop"
+    },
+    [18228] = {
+        Title = "Nyar's Call",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Lured by a massive vibration, we arrived at the Small Twig Nest. The <NAVI>[White Cat]<INFO>jor_twig,187,198,0,101,0</INFO></NAVI> in the Small Twig Nest seems to have something to say. It looks urgent."
+        },
+        Summary = "Conversation with the White Cat"
+    },
+    [18229] = {
+        Title = "Step on the Cats' Backs and Run!",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Another massive vibration has occurred. It seems something is happening inside the Small Twig Nest <NAVI>[Inner Area]<INFO>jor_twig,180,123,0,101,0</INFO></NAVI>. Let's go and check it out!"
+        },
+        Summary = "Conversation with the White Cat"
+    },
+    [18230] = {
+        Title = "Was Everyone Here?",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Bagoth and Lasgand, who we've been looking for, have somehow infiltrated the Small Twig Nest. We need to help <NAVI>[Nyar]<INFO>jor_twig,142,153,0,101,0</INFO></NAVI> and Leon, who are facing off against Lasgand."
+        },
+        Summary = "Conversation with the White Cat"
+    },
+    [18231] = {
+        Title = "So, What Happened?",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Lasgand, who infiltrated the Small Twig Nest, disappeared with <NAVI>[Nyar]<INFO>jor_twig,142,153,0,101,0</INFO></NAVI>'s doppelganger. Let's ask <NAVI>[Leon]<INFO>jor_twig,138,157,0,101,0</INFO></NAVI> about Lasgand's whereabouts."
+        },
+        Summary = "Conversation with Leon"
+    },
+    [18232] = {
+        Title = "Separated Sanctuary",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Before Lasgand could steal the power of the World Tree and the Nest, he was isolated in a different dimension. Nyar, who forcibly separated Lasgand, seems to be struggling to maintain the barrier. Let's go to the 'Separated Sanctuary' through <NAVI>[Orelli]<INFO>jor_twig,138,152,0,101,0</INFO></NAVI> and stop Lasgand."
+        },
+        Summary = "Neutralize Lasgand"
+    },
+    [18233] = {
+        Title = "The Undying One",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Lasgand, who absorbed the power of Imir's Heart Shard, was an opponent we couldn't defeat. However, now that we have the tainted Imir's Heart Shard, let's return to <NAVI>[Ice Castle]<INFO>icecastle,158,204,0,101,0</INFO></NAVI>. Chichiring knows the location of <NAVI>[Boclinde]<INFO>icecastle,75,126,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Conversation with Boclinde"
+    },
+    [18234] = {
+        Title = "Awin's Awin Worry",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "A request from Ice Castle's <NAVI>[Chichiring]<INFO>icecastle,75,126,0,101,0</INFO></NAVI>. In order to ensure the safety of the ancient Ice Winds, you must defeat the monsters in the Deep Roots Cave."
+        },
+        Summary = "Defeat Deep Roots Cave Monsters"
+    },
+    [18235] = {
+        Title = "[Standby] Awin's Awin Worry",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be accepted again after the cooldown period expires. You can receive the quest from <NAVI>[Chichiring]<INFO>icecastle,75,126,0,101,0</INFO></NAVI> in Ice Castle."
+        },
+        Summary = "04:00 Reset",
+        CoolTimeQuest = 1
+    },
+    [18236] = {
+        Title = "Boclinde's Extermination Operation 1",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Icegard's <NAVI>[Boclinde]<INFO>icas_in2,253,118,0,101,0</INFO></NAVI> wants to exterminate the monsters coming out of the 1st floor of the Snake's Roots. Let's go wild with them!"
+        },
+        Summary = "Defeat 1st Floor Lergan of Snake Roots"
+    },
+    [18237] = {
+        Title = "[Standby] Boclinde's Extermination Operation 1",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be accepted again after the cooldown period expires. You can receive the quest from <NAVI>[Boclinde]<INFO>icas_in2,253,118,0,101,0</INFO></NAVI> in Icegard."
+        },
+        Summary = "04:00 Reset",
+        CoolTimeQuest = 1
+    },
+    [18238] = {
+        Title = "Boclinde's Extermination Operation 2",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "Icegard's <NAVI>[Boclinde]<INFO>icas_in2,253,118,0,101,0</INFO></NAVI> wants to exterminate the monsters coming out of the 2nd floor of the Snake's Roots. Let's go wild with them!"
+        },
+        Summary = "Defeat 2nd Floor Lergan of Snake Roots"
+    },
+    [18239] = {
+        Title = "[Standby] Boclinde's Extermination Operation 2",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "This quest is a daily quest and can be accepted again after the cooldown period expires. You can receive the quest from <NAVI>[Boclinde]<INFO>icas_in2,253,118,0,101,0</INFO></NAVI> in Icegard."
+        },
+        Summary = "04:00 Reset",
+        CoolTimeQuest = 1
+    },
+    [18240] = {
+        Title = "To Ice Castle",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Talk to Nyar."
+        },
+        Summary = "Conversation with Nyar"
+    },
 	[19000] = {
 		Title = "Blooming Flower Land",
 		IconName = "ico_dq.bmp",
@@ -62330,6 +64005,825 @@ QuestInfoList = {
 		},
 		Summary = ""
 	},
+	 [19116] = {
+        Title = "Pisrik's Research (1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "If you supply me with the materials I need right now, I'll teach you what I can make in return. The materials I need right now are...",
+            "¢º<ITEM>[Yellow Gemstone]<INFO>715</INFO></ITEM> x 5,",
+            "¢º<ITEM>[Empty Potion Bottle]<INFO>1093</INFO></ITEM> x 4,",
+            "¢º<ITEM>[Heart of Mermaid]<INFO>950</INFO></ITEM> x 10,",
+            "¢º<ITEM>[Powder of Butterfly Wing]<INFO>1057</INFO></ITEM> x 10",
+            "   ",
+            "Once you have all the materials, take them to <NAVI>[Pisrik]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_M_ALCHE_D",
+        NpcNavi = "yuno_in04",
+        NpcPosX = "33",
+        NpcPosY = "108"
+    },
+    [19117] = {
+        Title = "Pisrik's Research (2-1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I need about 20 <ITEM>[Carnivorous Plant's Seed]<INFO>1032</INFO></ITEM> to experiment with my theory. Could you help me with this as well?",
+            "   ",
+            "Once you have all the materials, take them to <NAVI>[Pisrik]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>."
+        },
+        Summary = "20 Carnivorous Plant's Seeds",
+        NpcSpr = "4_M_ALCHE_D",
+        NpcNavi = "yuno_in04",
+        NpcPosX = "33",
+        NpcPosY = "108"
+    },
+    [19118] = {
+        Title = "Pisrik's Research (2-2)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "My experiment doesn't seem to be going well as expected. Could you get me just one more <ITEM>[Carnivorous Plant's Seed]<INFO>1032</INFO></ITEM>? I'd appreciate it.",
+            "   ",
+            "Once you have all the materials, take them to <NAVI>[Pisrik]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>."
+        },
+        Summary = "1 Carnivorous Plant's Seed",
+        NpcSpr = "4_M_ALCHE_D",
+        NpcNavi = "yuno_in04",
+        NpcPosX = "33",
+        NpcPosY = "108"
+    },
+    [19119] = {
+        Title = "Pisrik's Research (3)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Um... I'm sorry, but could you get me a pair of glasses that look like the ones I've been wearing? I can't see anything in front of me, so I can't move. I'd be really grateful if you could help me with this.",
+            "   ",
+            "Get <ITEM>[Sphinx Glasses]<INFO>2243</INFO></ITEM> and take them to <NAVI>[Pisrik]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>.",
+            "^FF0000¡Ø Please be careful not to have other Sphinx Glasses in your inventory in use.^000000"
+        },
+        Summary = "1 Sphinx Glasses",
+        NpcSpr = "4_M_ALCHE_D",
+        NpcNavi = "yuno_in04",
+        NpcPosX = "33",
+        NpcPosY = "108"
+    },
+    [19120] = {
+        Title = "Bard's Song (1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I'm concerned about the words of a timid young man who liked the <ITEM>[Tropical Sograt]<INFO>12112</INFO></ITEM> he met in Prontera. A bard's curse... Should I start from the <NAVI>[Morroc Tavern]<INFO>morocc_in,179,65,0,101,0</INFO></NAVI>?"
+        },
+        Summary = "Information Gathering"
+    },
+    [19121] = {
+        Title = "Bard's Song (1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Bard <NAVI>[Raiot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI> met at the Morroc Tavern claims not to be a friend of the bard and doesn't want to talk to me. A young bard crying in Geffen? What could he mean?",
+            "  ",
+            "¡Ø You must clear the <NAVI>[Bard's Song Quest]<INFO>geffen,132,38,0,101,0</INFO></NAVI> in Geffen."
+        },
+        Summary = "",
+        NpcSpr = "2_M_BARD_ORIENT",
+        NpcNavi = "morocc_in",
+        NpcPosX = "169",
+        NpcPosY = "72"
+    },
+    [19122] = {
+        Title = "Bard's Song (2)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Raiot... Is he not going to tell me easily?",
+            "Is there a place where I can go through the tree branches? Niflheim?",
+            "Should I get five eggs from Ihire in Niflheim?",
+            "  ",
+            "Find Ihire in Niflheim and get 5 <ITEM>[Eggs]<INFO>574</INFO></ITEM> to bring to <NAVI>[Raiot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI>.",
+            "  ",
+            "¢ºIhire's Spawning Locations",
+            "<NAVI>[Location]<INFO>niflheim,239,70,0,101,0</INFO></NAVI>/<NAVI>[Location]<INFO>niflheim,185,205,0,101,0</INFO></NAVI>/<NAVI>[Location]<INFO>niflheim,85,203,0,101,0</INFO></NAVI>/<NAVI>[Location]<INFO>niflheim,149,81,0,101,0</INFO></NAVI>/<NAVI>[Location]<INFO>niflheim,209,144,0,101,0</INFO></NAVI>",
+            "^FF0000¡Ø In the City of the Dead, there is no way out.^000000"
+        },
+        Summary = "5 Ihire's Eggs",
+        NpcSpr = "2_M_BARD_ORIENT",
+        NpcNavi = "morocc_in",
+        NpcPosX = "169",
+        NpcPosY = "72"
+    },
+    [19123] = {
+        Title = "Bard's Song (2)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Strange?! I thought I got five eggs from Ihire? If you want to learn the skill, bring me one <ITEM>[Ihire Doll]<INFO>7277</INFO></ITEM>?",
+            "  ",
+            "Get 1 <ITEM>[Ihire Doll]<INFO>7277</INFO></ITEM> and bring it to <NAVI>[Raiot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI>."
+        },
+        Summary = "1 Ihire Doll",
+        NpcSpr = "2_M_BARD_ORIENT",
+        NpcNavi = "morocc_in",
+        NpcPosX = "169",
+        NpcPosY = "72"
+    },
+    [19124] = {
+        Title = "Unfading News (1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Geffen's Ford Leslie is worried because a worker who went to work in Britoria hasn't sent any news.",
+            "  ",
+            "¢ºGo to [Britoria] and look for a knight named ^0000FFSlarti^191240."
+        },
+        Summary = "Find Knight Slarti",
+        NpcSpr = "4_M_CRU",
+        NpcNavi = "gef_fild13",
+        NpcPosX = "297",
+        NpcPosY = "242"
+    },
+    [19125] = {
+        Title = "Unfading News (2)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Injured <NAVI>[Slarti]<INFO>gef_fild13,297,242,0,101,0</INFO></NAVI> is unable to regain his composure. To help him regain consciousness...",
+            "  ",
+            "¢ºGet 1 <ITEM>[Red Potion]<INFO>909</INFO></ITEM>."
+        },
+        Summary = "Give a Red Potion to Slarti",
+        NpcSpr = "4_M_CRU",
+        NpcNavi = "gef_fild13",
+        NpcPosX = "297",
+        NpcPosY = "242"
+    },
+    [19126] = {
+        Title = "Unfading News (3)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Slarti tried to take the report and a request for the knight's departure from him, but was attacked by goblin poison. Without an antidote, the wounds won't heal.",
+            "  ",
+            "¢ºBring the antidote ingredients to <NAVI>[Ford]<INFO>geffen,110,117,0,101,0</INFO></NAVI> in Geffen."
+        },
+        Summary = "To Ford...",
+        NpcSpr = "4_M_CRU_OLD",
+        NpcNavi = "geffen",
+        NpcPosX = "110",
+        NpcPosY = "117"
+    },
+    [19127] = {
+        Title = "Unfading News (4)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "The goblin poison won't heal without an antidote. Priest <NAVI>[Arthur]<INFO>prt_church,87,125,0,101,0</INFO></NAVI> in Prontera can make the antidote.",
+            "  ",
+            "¢ºGo to <NAVI>[Arthur]<INFO>prt_church,87,125,0,101,0</INFO></NAVI> in Prontera to get the remedy."
+        },
+        Summary = "To Arthur...",
+        NpcSpr = "4_M_SAGE_C",
+        NpcNavi = "prt_church",
+        NpcPosX = "87",
+        NpcPosY = "125"
+    },
+    [19128] = {
+        Title = "Unfading News (5)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "<NAVI>[Arthur]<INFO>prt_church,87,125,0,101,0</INFO></NAVI> in Prontera needs ingredients for the goblin poison antidote. He provided the ingredients. Get the ingredients.",
+            "  ",
+            "¢ºIngredients for the remedy:",
+            "<ITEM>[Grapes]<INFO>514</INFO></ITEM> x 1, <ITEM>[Unripe Apple]<INFO>619</INFO></ITEM> x 1, <ITEM>[Empty Bottle]<INFO>713</INFO></ITEM> x 3,",
+            "<ITEM>[Jellopy]<INFO>909</INFO></ITEM> x 5, <ITEM>[Squishy Liquid]<INFO>938</INFO></ITEM> x 20,",
+            "<ITEM>[Coal]<INFO>1003</INFO></ITEM> x 1, <ITEM>[Sapha]<INFO>7053</INFO></ITEM> x 3"
+        },
+        Summary = "Remedy Ingredients",
+        NpcSpr = "4_M_SAGE_C",
+        NpcNavi = "prt_church",
+        NpcPosX = "87",
+        NpcPosY = "125"
+    },
+    [19129] = {
+        Title = "Unfading News (6)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "<NAVI>[Arthur]<INFO>prt_church,87,125,0,101,0</INFO></NAVI> in Prontera is making a goblin poison antidote.",
+            "  ",
+            "¢ºCheck if the remedy is ready."
+        },
+        Summary = "Check the Remedy",
+        NpcSpr = "4_M_SAGE_C",
+        NpcNavi = "prt_church",
+        NpcPosX = "87",
+        NpcPosY = "125"
+    },
+    [19130] = {
+        Title = "Unfading News (7)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "The goblin poison antidote is complete.",
+            "  ",
+            "¢ºTake the antidote to <NAVI>[Slarti]<INFO>gef_fild13,297,242,0,101,0</INFO></NAVI> before the remedy loses its efficacy."
+        },
+        Summary = "To Britoria...",
+        NpcSpr = "4_M_CRU",
+        NpcNavi = "gef_fild13",
+        NpcPosX = "297",
+        NpcPosY = "242"
+    },
+    [19131] = {
+        Title = "Unfading News (7)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Did I arrive too late?",
+            "The remedy given to Slarti had no effect.",
+            "  ",
+            "¢ºAsk <NAVI>[Arthur]<INFO>prt_church,87,125,0,101,0</INFO></NAVI> to make the remedy again."
+        },
+        Summary = "To Arthur...",
+        NpcSpr = "4_M_SAGE_C",
+        NpcNavi = "prt_church",
+        NpcPosX = "87",
+        NpcPosY = "125"
+    },
+    [19132] = {
+        Title = "Ethics of Life (1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I tried talking to Kelassus, the authority on the ethics of life in Hoomaclues, but he ignored me. They say he doesn't usually talk to anyone... Maybe?",
+            "  ",
+            "¢ºKeep talking to <NAVI>[Kelassus]<INFO>lhz_in01,224,140,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "1_M_LIBRARYMASTER",
+        NpcNavi = "lhz_in01",
+        NpcPosX = "224",
+        NpcPosY = "140"
+    },
+    [19133] = {
+        Title = "Ethics of Life (2)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "To inherit the knowledge of Hoomaclues from Kelassus, it seems that I need to learn about Hoomaclues first.",
+            "  ",
+            "¢ºAsk <NAVI>[Scratched]<INFO>lhz_in01,225,122,0,101,0</INFO></NAVI> about Hoomaclues."
+        },
+        Summary = "",
+        NpcSpr = "4_M_SAGE_A",
+        NpcNavi = "lhz_in01",
+        NpcPosX = "225",
+        NpcPosY = "122"
+    },
+    [19134] = {
+        Title = "Ethics of Life (3)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Scratched introduced me to Keshibian, who knows a lot about Call Hoomaclues.",
+            "  ",
+            "¢ºAsk <NAVI>[Keshibian]<INFO>lhz_in01,204,138,0,101,0</INFO></NAVI> about Call Hoomaclues."
+        },
+        Summary = "",
+        NpcSpr = "4_M_ALCHE_C",
+        NpcNavi = "lhz_in01",
+        NpcPosX = "204",
+        NpcPosY = "138"
+    },
+    [19135] = {
+        Title = "Ethics of Life (4)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Keshibian introduced me to Bruncher, who knows a lot about FF0000Resurrection Hoomaclues^000000 skill.",
+            "   ",
+            "¢ºAsk <NAVI>[Bruncher]<INFO>lhz_in02,278,273,0,101,0</INFO></NAVI> about Resurrection Hoomaclues."
+        },
+        Summary = "",
+        NpcSpr = "4_M_SEAMAN",
+        NpcNavi = "lhz_in02",
+        NpcPosX = "278",
+        NpcPosY = "273"
+    },
+    [19136] = {
+        Title = "Ethics of Life (5)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I learned about the Hoomaclues skills: Hoomaclues Rest, Call Hoomaclues, and Resurrection Hoomaclues.",
+            "   ",
+            "¢ºAsk <NAVI>[Kelassus]<INFO>lhz_in01,224,140,0,101,0</INFO></NAVI> to teach you about Ethics of Life."
+        },
+        Summary = "",
+        NpcSpr = "1_M_LIBRARYMASTER",
+        NpcNavi = "lhz_in01",
+        NpcPosX = "224",
+        NpcPosY = "140"
+    },
+    [19137] = {
+        Title = "Ethics of Life (6)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Hoomaclues is one life, and to break Kellassus's stubbornness that humans shouldn't play around, what should I do?",
+            "   ",
+            "¢ºShould I even meet <NAVI>[Kellassus's Family]<INFO>lhz_in03,106,34,0,101,0</INFO></NAVI>?"
+        },
+        Summary = "",
+        NpcSpr = "4_M_KID1",
+        NpcNavi = "lhz_in03",
+        NpcPosX = "106",
+        NpcPosY = "34"
+    },
+    [19138] = {
+        Title = "Ethics of Life (7)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "After meeting Kellassus's son, I thought of a way to change his mind.",
+            "   ",
+            "¢ºTry talking to <NAVI>[Kellassus]<INFO>lhz_in01,224,140,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "1_M_LIBRARYMASTER",
+        NpcNavi = "lhz_in01",
+        NpcPosX = "224",
+        NpcPosY = "140"
+    },
+    [19139] = {
+        Title = "Ethics of Life (8)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Kellassus seems to be deep in thought after hearing me.",
+            "   ",
+            "¢ºKeep talking to <NAVI>[Kellassus]<INFO>lhz_in01,224,140,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "1_M_LIBRARYMASTER",
+        NpcNavi = "lhz_in01",
+        NpcPosX = "224",
+        NpcPosY = "140"
+    },
+    [19140] = {
+        Title = "Ethics of Life (9)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Kellassus seems to have finished sorting out his thoughts.",
+            "   ",
+            "¢ºLearn Ethics of Life from <NAVI>[Kellassus]<INFO>lhz_in01,224,140,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "1_M_LIBRARYMASTER",
+        NpcNavi = "lhz_in01",
+        NpcPosX = "224",
+        NpcPosY = "140"
+    },
+    [19141] = {
+        Title = "Charge Attack (1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Knight Esophe of Prontera's 7th Knight Division suggests observing their training if you want to know the truth about the division.",
+            "   ",
+            "¢ºObserve [Knight Training]<INFO>prontera,69,351,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Observe Knight Training"
+    },
+    [19142] = {
+        Title = "Charge Attack (2)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I observed the training of the Knight Division, as Esophe suggested.",
+            "   ",
+            "¢ºReturn to <NAVI>[Esophe]<INFO>prt_in,85,99,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_M_JOB_KNIGHT2",
+        NpcNavi = "prt_in",
+        NpcPosX = "85",
+        NpcPosY = "99"
+    },
+    [19143] = {
+        Title = "Charge Attack (3)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Esophe seems to have lost all his passion and enthusiasm. He mentioned something about hearing about Esophe's early days during the observation. I need to collect some items like 5 Candy and 3 Witherless Roses for a beginner knight. Should I pick them up?",
+            "   ",
+            "¢ºCollect 5 <ITEM>[Candy]<INFO>530</INFO></ITEM> and 3 <ITEM>[Witherless Roses]<INFO>748</INFO></ITEM> and take them to <NAVI>[Esophe]<INFO>prt_in,85,99,0,101,0</INFO></NAVI>."
+        },
+        Summary = "For the discouraged knight",
+        NpcSpr = "4_M_JOB_KNIGHT2",
+        NpcNavi = "prt_in",
+        NpcPosX = "85",
+        NpcPosY = "99"
+    },
+    [19144] = {
+        Title = "Charge Attack (4)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Esophe says he will pass on the skills he developed after his research.",
+            "   ",
+            "¢ºLearn the skill from <NAVI>[Esophe]<INFO>prt_in,85,99,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_M_JOB_KNIGHT2",
+        NpcNavi = "prt_in",
+        NpcPosX = "85",
+        NpcPosY = "99"
+    },
+    [19145] = {
+        Title = "Monk's Technique (1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Monks created the skill called Rendition by putting all their might into it. Do you know how to use Rendition? If you want to use it, you should go to <NAVI>[A Fool Monk]<INFO>prt_monk,270,198,0,101,0</INFO></NAVI>.",
+            "   ",
+            "¢ºVisit <NAVI>[A Fool Monk]<INFO>prt_monk,270,198,0,101,0</INFO></NAVI> who can perform Rendition."
+        },
+        Summary = "",
+        NpcSpr = "4_M_MONK",
+        NpcNavi = "prt_monk",
+        NpcPosX = "270",
+        NpcPosY = "198"
+    },
+    [19146] = {
+        Title = "Monk's Technique (2)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "If you want to do something, you should let go of your desires. Perhaps...?",
+            "   ",
+            "¢ºDispose of all items related to desires and visit <NAVI>[Monk-in-Training]<INFO>prt_monk,270,198,0,101,0</INFO></NAVI>.",
+            "^FF0000¡ØThis quest can only be completed after reducing your carry weight to 0.^000000"
+        },
+        Summary = "",
+        NpcSpr = "4_M_MONK",
+        NpcNavi = "prt_monk",
+        NpcPosX = "270",
+        NpcPosY = "198"
+    },
+    [19147] = {
+        Title = "Monk's Technique (3)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I learned Rendition. Now, can I also learn Rendition?",
+            "   ",
+            "¢ºVisit <NAVI>[Master Monk]<INFO>monk_test,316,69,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_M_CHNMONK",
+        NpcNavi = "monk_test",
+        NpcPosX = "316",
+        NpcPosY = "69"
+    },
+    [19148] = {
+        Title = "Monk's Technique (4)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Prove that you can use your strength correctly.",
+            "   ",
+            "¢ºCollect 20 <ITEM>[Plant Stems]<INFO>905</INFO></ITEM> and 3 <ITEM>[Sprouts]<INFO>711</INFO></ITEM>",
+            "¢ºVisit <NAVI>[Master Monk]<INFO>monk_test,316,69,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_M_CHNMONK",
+        NpcNavi = "monk_test",
+        NpcPosX = "316",
+        NpcPosY = "69"
+    },
+    [19149] = {
+        Title = "Monk's Technique (5)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "You have proven your qualification to use strength correctly.",
+            "   ",
+            "¢ºLearn Rendition from <NAVI>[Master Monk]<INFO>monk_test,316,69,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_M_CHNMONK",
+        NpcNavi = "monk_test",
+        NpcPosX = "316",
+        NpcPosY = "69"
+    },
+    [19150] = {
+        Title = "Sacrifice",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Do you know the skill 'Redemptio'? Redemptio is a sacrifice skill, which means that you will become incapacitated in battle instead of saving your party members. Please don't forget that point.",
+            "   ",
+            "¢ºLearn the Resurrection skill at level 1 or higher, collect 20 <ITEM>[Blue Gemstone]<INFO>717</INFO></ITEM>, and 30 <ITEM>[Holy Water]<INFO>523</INFO></ITEM>",
+            "¢ºWith the ingredients, visit <NAVI>[Linus Nun]<INFO>prt_church,111,112,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "1_F_PRIEST",
+        NpcNavi = "prt_church",
+        NpcPosX = "111",
+        NpcPosY = "112"
+    },
+    [19151] = {
+        Title = "Greedy Forging (1)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Once you bring the materials, I'll prepare the ambitious ^FF0000Greedy Forging^000000 skill for you.",
+            "¢º1 <ITEM>[Steel Hammer]<INFO>613</INFO></ITEM>",
+            "¢º1 <ITEM>[Detrimindextrose]<INFO>971</INFO></ITEM>",
+            "¢º1 <ITEM>[Steel]<INFO>999</INFO></ITEM>",
+            "¢º5 <ITEM>[Coal]<INFO>1003</INFO></ITEM>",
+            "¢º500 Zeny",
+            "   ",
+            "After obtaining all the materials, take them to <NAVI>[Archie]<INFO>geffen,178,72,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Materials for learning the skill",
+        NpcSpr = "4_F_JOB_BLACKSMITH",
+        NpcNavi = "geffen",
+        NpcPosX = "178",
+        NpcPosY = "72"
+    },
+    [19152] = {
+        Title = "Greedy Forging (2)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I'll create the test materials for the skill. Please wait for a moment.",
+            "   ",
+            "After waiting for a while, talk to <NAVI>[Archie]<INFO>geffen,178,72,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Please wait for a moment.",
+        NpcSpr = "4_F_JOB_BLACKSMITH",
+        NpcNavi = "geffen",
+        NpcPosX = "178",
+        NpcPosY = "72"
+    },
+    [19153] = {
+        Title = "Greedy Forging (3)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "Give me one more chance; I can really do it well!",
+            "¢º1 <ITEM>[Steel]<INFO>999</INFO></ITEM>",
+            "¢º3 <ITEM>[Coal]<INFO>1003</INFO></ITEM>",
+            "   ",
+            "After obtaining all the materials, take them to <NAVI>[Archie]<INFO>geffen,178,72,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_F_JOB_BLACKSMITH",
+        NpcNavi = "geffen",
+        NpcPosX = "178",
+        NpcPosY = "72"
+    },
+    [19154] = {
+        Title = "Greedy Forging (4)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "This time, I'll do it really well. Please wait for a moment.",
+            "   ",
+            "After waiting for a while, talk to <NAVI>[Archie]<INFO>geffen,178,72,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Please wait for a moment.",
+        NpcSpr = "4_F_JOB_BLACKSMITH",
+        NpcNavi = "geffen",
+        NpcPosX = "178",
+        NpcPosY = "72"
+    },
+    [19155] = {
+        Title = "Greedy Forging (5)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I think you'll need to bring a new steel hammer now.",
+            "¢º1 <ITEM>[Steel Hammer]<INFO>613</INFO></ITEM>",
+            "   ",
+            "After obtaining a new steel hammer, take it to <NAVI>[Archie]<INFO>geffen,178,72,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_F_JOB_BLACKSMITH",
+        NpcNavi = "geffen",
+        NpcPosX = "178",
+        NpcPosY = "72"
+    },
+    [19156] = {
+        Title = "Greedy Forging (6)",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "I'm going to teach you very, very soon. Please wait a little longer.",
+            "   ",
+            "After waiting for a while, talk to <NAVI>[Archie]<INFO>geffen,178,72,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Please wait for a moment.",
+        NpcSpr = "4_F_JOB_BLACKSMITH",
+        NpcNavi = "geffen",
+        NpcPosX = "178",
+        NpcPosY = "72"
+    },
+    [19157] = {
+        Title = "Greed",
+        IconName = "ico_jq.bmp",
+        Description = {
+            "From now on, you need to",
+            "fill your inventory to the maximum weight limit where you cannot carry items with a total weight of 500, regardless of the number and type of items like collection items, weapons, recovery potions, etc.",
+            "   ",
+            "After meeting the condition, talk to <NAVI>[Goodday]<INFO>geffen,172,52,0,101,0</INFO></NAVI>."
+        },
+        Summary = "",
+        NpcSpr = "4_M_DWARF",
+        NpcNavi = "geffen",
+        NpcPosX = "172",
+        NpcPosY = "52"
+    },
+    [19158] = {
+        Title = "More Professional Than Any Awin",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It seems that the Eagle Patrol has a spy experienced in espionage. Let's go find <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI> in the Eagle Patrol's barracks and have a chat."
+        },
+        Summary = "Talk to Orlito Joveng",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62"
+    },
+    [19159] = {
+        Title = "Briefing",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Listen to the briefing given by <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Listen to the briefing",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62"
+    },
+    [19160] = {
+        Title = "Spy Countermeasure Meeting",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "I suddenly ended up attending the meeting. Let's talk to <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI> to participate in the Eagle Patrol's spy countermeasure meeting."
+        },
+        Summary = "Attend the meeting",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62"
+    },
+    [19161] = {
+        Title = "Mission Explanation",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Listen to the explanation given by <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Listen to the explanation",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62"
+    },
+    [19162] = {
+        Title = "Today's Watchword",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "According to the Eagle Patrol regulations, I received today's watchword from Orlito Joveng. It seems that verbally received watchwords will expire at 04:00.",
+            "¡Ø If you forget the watchword, you can listen to it again by talking to <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Expiration at 04:00",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62",
+        CoolTimeQuest = 1
+    },
+    [19163] = {
+        Title = "[Standby] Spy Search",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "I found the spy hidden in the Ice Castle and received a reward from <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI>. Since I'm not the only one searching for spies in the Ice Castle, it's a relief for today."
+        },
+        Summary = "Resets at 04:00",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62",
+        CoolTimeQuest = 1
+    },
+    [19164] = {
+        Title = "Spy Search Success",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "I found the spy hidden in the Ice Castle with my excellent tracking skills. Let's go to receive the reward from <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Orlito Joveng",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62"
+    },
+    [19165] = {
+        Title = "[Standby] Retrieve Espionage Info",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "I received intelligence information collected by dispatched members and received a reward from <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO>."
+        },
+        Summary = "Resets at 04:00",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62",
+        CoolTimeQuest = 1
+    },
+    [19166] = {
+        Title = "Completion of Espionage Info Retrieval",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "I received intelligence information from members dispatched to the Lukan Area. Let's take the received intelligence information to <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Orlito Joveng",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62"
+    },
+    [19167] = {
+        Title = "Failure in Retrieving Espionage Info",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "I failed to receive intelligence information from the members dispatched to the Lukan Area. Let's report it to <NAVI>[Orlito Joveng]<INFO>icas_in,100,62,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Orlito Joveng",
+        NpcSpr = "EP19_NPC_IWIN_SR",
+        NpcNavi = "icas_in",
+        NpcPosX = "100",
+        NpcPosY = "62"
+    },
+    [19168] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_nest,171,84,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19169] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_back5,296,149,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19170] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_twice,76,100,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19171] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_maze,253,267,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19172] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_root1,39,93,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19173] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_root2,19,44,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19174] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_twig,192,211,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19175] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_sanct,120,86,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19176] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_root3,347,147,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
+    [19177] = {
+        Title = "Meeting Place for Contact",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've heard about the meeting place for the Awin faction members who were sent to the Lukan area by Orito Jo Battalion.",
+            "Go to <NAVI>[Meeting Place for Contact]<INFO>jor_back6,353,260,0,101,0</INFO></NAVI> and provide the secret code to obtain information."
+        },
+        Summary = ""
+    },
 	[19200] = {
 		Title = "RPS with Troy",
 		Description = {
@@ -70020,6 +72514,235 @@ QuestInfoList = {
 		},
 		Summary = "Talk to Ink"
 	},
+	 [23086] = {
+        Title = "Meeting with MacGregor",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Had a conversation with MacGregor."
+        },
+        Summary = ""
+    },
+    [23087] = {
+        Title = "Rabbits are Crafty",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "The farmer <NAVI>[MacGregor]<INFO>prt_fild08,164,367,0,101,0</INFO></NAVI> at the south gate of Prontera has some King Carrots to sell, but they were stolen by Black Rabbit Porings wandering in the field. Hunt 5 Black Rabbit Porings and bring back 3 King Carrots."
+        },
+        Summary = "Hunt 5 Black Rabbit Porings"
+    },
+    [23088] = {
+        Title = "[Standby] Carrots are Precious",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "You helped MacGregor recover the King Carrots. If you want to help again, come back tomorrow."
+        },
+        Summary = "Resets at 04:00",
+        CoolTimeQuest = 1
+    },
+    [23089] = {
+        Title = "Carrots are Precious",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "The farmer <NAVI>[MacGregor]<INFO>prt_fild08,164,367,0,101,0</INFO></NAVI> at the south gate of Prontera still needs 3 King Carrots today. You can obtain King Carrots by hunting Black Rabbit Porings."
+        },
+        Summary = "3 King Carrots"
+    },
+    [23090] = {
+        Title = "Market Research Disguised as Warm Happiness",
+        IconName = "ico_ev.bmp",
+        Description = {
+            "Grown-ups are walking around carrying sweets together. Seems a bit unrefined, isn't it? There is a concern that this might be influenced by matured cocoa beans. Deliver the Sweetz menu to five guests: <NAVI>[Krien]<INFO>prontera,210,321,0,101,0</INFO></NAVI>, <NAVI>[Lasis]<INFO>prontera,103,308,0,101,0</INFO></NAVI>, <NAVI>[Eltsan]<INFO>prontera,100,183,0,101,0</INFO></NAVI>, <NAVI>[Ant]<INFO>prontera,271,339,0,101,0</INFO></NAVI>, and <NAVI>[Chae]<INFO>prontera,269,55,0,101,0</INFO></NAVI>. Observe their reactions."
+        },
+        Summary = "Deliver the Sweetz menu to each guest"
+    },
+    [23091] = {
+        Title = "Hello! I'm VIP Black Premium!",
+        Description = {
+            "Hello! I'm VIP Black Premium, here for top-notch service for our generous guests! Nice to meet you~~~>.<"
+        },
+        Summary = "Hello! >w<)/"
+    },
+    [23100] = {
+        Title = "Ancient Deep Sea",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "In the confrontation situation with Lasgand, it's possible that Yormungand saved us. To find the place where you met the White Cat, visit <NAVI>[Diving Awin]<INFO>icecastle,141,212,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Talk to Diving Awin"
+    },
+    [23101] = {
+        Title = "No Matter How Deep, I Can Find It 1",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Diving Awin from the Ice Castle suggests that he needs a high-calorie meal to swim to the Frozen Zone. Hunt 5 Ice Angoos nearby and bring 3 Frozen Beetle Shells."
+        },
+        Summary = "3 Frozen Beetle Shells"
+    },
+    [23102] = {
+        Title = "No Matter How Deep, I Can Find It 2",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Diving Awin from the Ice Castle suggests that he needs a protective suit made of shining seaweed to swim to the Frozen Zone. Collect 5 Luminous Seaweeds nearby and bring 3 Luminous Seaweed Stems."
+        },
+        Summary = "3 Luminous Seaweed Stems"
+    },
+    [23103] = {
+        Title = "Hidden in the Ice",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "You've arrived at the Frozen Zone. It's a different place from where you met the White Cat... Check with <NAVI>[Kokoro]<INFO>jor_twice,235,111,0,101,0</INFO></NAVI> what's going on here. If you get lost on your way to the Frozen Zone, find <NAVI>[Diving Awin]<INFO>icecastle,141,212,0,101,0</INFO></NAVI> in the Ice Castle."
+        },
+        Summary = "Talk to Kokoro",
+        NpcSpr = "4_EP19_IWIN",
+        NpcNavi = "icecastle",
+        NpcPosX = "141",
+        NpcPosY = "212"
+    },
+    [23104] = {
+        Title = "Hidden in the Ice",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "You've arrived at the Frozen Zone. Now you just need to find the spot where you met the White Cat. There's no plan, but you decided to move anyway. Let's go wherever your feet take you. If you leave the Frozen Zone, <NAVI>[Diving Awin]<INFO>icecastle,141,212,0,101,0</INFO></NAVI> will take you back."
+        },
+        Summary = "Find the White Cat",
+        NpcSpr = "4_EP19_IWIN",
+        NpcNavi = "icecastle",
+        NpcPosX = "141",
+        NpcPosY = "212"
+    },
+    [23105] = {
+        Title = "Hidden in the Ice",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Where on earth is this...? It seems like you're wandering around without a plan, but this is the only way to find the White Cat. Keep exploring the <NAVI>[Frozen Zone]<INFO>jor_twice,158,243,0,101,0</INFO></NAVI>. If you leave the Frozen Zone, <NAVI>[Diving Awin]<INFO>icecastle,141,212,0,101,0</INFO></NAVI> will take you back."
+        },
+        Summary = "Find the White Cat again",
+        NpcSpr = "4_EP19_IWIN",
+        NpcNavi = "icecastle",
+        NpcPosX = "141",
+        NpcPosY = "212"
+    },
+    [23106] = {
+        Title = "A Nest of Small Branches",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "You found a spot where you can sense the magic of Yormungand and met a cat. However, the cat led Leo and Aureli away. Let's follow them with <NAVI>[Lehar]<INFO>jor_twice,235,111,0,101,0</INFO></NAVI> in the Icy Zone.\nIf you've left the Icy Zone, <NAVI>[Diving Awin]<INFO>icecastle,141,212,0,101,0</INFO></NAVI> in the Ice Castle will take you back."
+        },
+        Summary = "Find Leo and Aureli",
+        NpcSpr = "4_EP19_IWIN",
+        NpcNavi = "icecastle",
+        NpcPosX = "141",
+        NpcPosY = "212"
+    },
+    [23107] = {
+        Title = "A Nest of Small Branches",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Leo seems to have too much on his mind after arriving at the Nest of Small Branches. Let's give him some time to sort his thoughts and then try talking to him."
+        },
+        Summary = "Talk to Leo"
+    },
+    [23108] = {
+        Title = "Across the Iceberg and the Frozen Sea",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "You received an explanation about the Sanctum from Leo and Aureli. Return to the <NAVI>[Icy Zone]<INFO>jor_twice,161,243,0,101,0</INFO></NAVI> and share the information about the Nest of Small Branches with your companions.\nIf you've left the Icy Zone, <NAVI>[Diving Awin]<INFO>icecastle,141,212,0,101,0</INFO></NAVI> in the Ice Castle will take you back."
+        },
+        Summary = "Talk to Aureli",
+        NpcSpr = "4_EP19_IWIN",
+        NpcNavi = "icecastle",
+        NpcPosX = "141",
+        NpcPosY = "212"
+    },
+    [23109] = {
+        Title = "Across the Iceberg and the Frozen Sea",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "You received an explanation about the Sanctum from Aureli. It seems like the followers of Yormungand in the Icy Zone are trying to absorb Yormungand's magic. Defeat 5 Yormungand Cult Ritualists nearby and return to <NAVI>[Aureli]<INFO>jor_twice,161,243,0,101,0</INFO></NAVI> in the Icy Zone.\nIf you've left the Icy Zone, <NAVI>[Diving Awin]<INFO>icecastle,141,212,0,101,0</INFO></NAVI> in the Ice Castle will take you back."
+        },
+        Summary = "Defeat 5 Yormungand Cult Ritualists",
+        NpcSpr = "4_EP19_IWIN",
+        NpcNavi = "icecastle",
+        NpcPosX = "141",
+        NpcPosY = "212"
+    },
+    [23110] = {
+        Title = "[Standby] Pulling Out Yormungand's Roots",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "It seems like you've done enough for today. If the threat is too great, it might backfire, so if you want to clear out the Yormungand Cult Ritualists in the Icy Zone, wait until tomorrow."
+        },
+        Summary = "Resets at 04:00",
+        CoolTimeQuest = 1
+    },
+    [23111] = {
+        Title = "Pulling Out Yormungand's Roots",
+        IconName = "ico_dq.bmp",
+        Description = {
+            "You've received a request from <NAVI>[Kokoro]<INFO>jor_twice,235,111,0,101,0</INFO></NAVI>. Let's confront the Yormungand Cult Ritualists wandering in the Icy Zone.\nIf you've left the Icy Zone, <NAVI>[Diving Awin]<INFO>icecastle,141,212,0,101,0</INFO></NAVI> in the Ice Castle will take you back."
+        },
+        Summary = "Defeat 15 Yormungand Cult Ritualists",
+        NpcSpr = "4_EP19_IWIN",
+        NpcNavi = "icecastle",
+        NpcPosX = "141",
+        NpcPosY = "212"
+    },
+    [23112] = {
+        Title = "The Serpent's Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "You've decided to infiltrate the Serpent's Maze. Let's find <NAVI>[Lehar]<INFO>jor_maze,142,73,0,101,0</INFO></NAVI> inside the Maze."
+        },
+        Summary = "Talk to Lehar"
+    },
+    [23113] = {
+        Title = "Gathering Rumors Among Yormungands 1",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Listen to the conversations among the Yormungand followers inside the Serpent's Maze at <NAVI>[Yormungand]<INFO>jor_maze,52,238,0,101,0</INFO></NAVI>."
+        },
+        Summary = ""
+    },
+    [23114] = {
+        Title = "Gathering Rumors Among Yormungands 2",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Listen to the conversations among the Yormungand followers inside the Serpent's Maze at <NAVI>[Yormungand]<INFO>jor_maze,154,244,0,101,0</INFO></NAVI>."
+        },
+        Summary = ""
+    },
+    [23115] = {
+        Title = "Gathering Rumors Among Yormungands 3",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "Listen to the conversations among the Yormungand followers inside the Serpent's Maze at <NAVI>[Yormungand]<INFO>jor_maze,281,191,0,101,0</INFO></NAVI>."
+        },
+        Summary = ""
+    },
+    [23116] = {
+        Title = "The Cat at the End of the Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "The Serpent's Maze feels even more mysterious than before. What could have happened in the meantime? Let's gather rumors among the Yormungand followers."
+        },
+        Summary = "Gather rumors inside the Serpent's Maze"
+    },
+    [23117] = {
+        Title = "The Cat at the End of the Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "It seems like you've gathered enough rumors among the Yormungand followers in the Serpent's Maze. Return to the <NAVI>[Meeting Place]<INFO>jor_maze,150,33,0,101,0</INFO></NAVI> within the Maze."
+        },
+        Summary = "Talk to Miriam"
+    },
+    [23118] = {
+        Title = "The Cat at the End of the Maze",
+        IconName = "ico_ep.bmp",
+        Description = {
+            "You've shared the rumors collected by your group inside the Serpent's Maze. Now, let's go further inside the <NAVI>[Inside the Maze]<INFO>jor_maze,197,35,0,101,0</INFO></NAVI>."
+        },
+        Summary = "Go further inside the Serpent's Maze"
+    },
 	[40000] = {
 		Title = "Lighthalzen Pickpocket",
 		Description = {
