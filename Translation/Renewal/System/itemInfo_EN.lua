@@ -10,6 +10,18 @@ require("System/LuaFiles514/itemInfo_f")
 -- Load the translation files
 dofile("System/LuaFiles514/itemInfo.lua") 
 
+-- Additional Configs
+-- Display origin server based on translation file's ServerName argument
+-- 0 = disable/1 = in Item Name/2 = top of description/3 = bottom of description
+DispayOrigin = 1
+
+-- Show ItemID at bottom
+-- 0 = disable/1 = top of description/2 = bottom of description
+DisplayItemID = 2
+
+-- Display Divine-Pride.net Link bottom of description (true/false)
+DisplayDatabase = false
+
 -- Now as a simple example.
 -- I am simply going to change name of Red Potion to Crimson Potion. 
 -- But you can add anything in the same way.
