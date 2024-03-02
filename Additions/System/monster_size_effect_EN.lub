@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20231021
+-- Last updated: 20240126
 
 EFFECT = {}
 EFFECT["EF_NONE"] = -1
@@ -1801,7 +1801,17 @@ tbl = {
 	[22239] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
 	[22223] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
 	[22195] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } },
-	[22219] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } }
+	[22219] = {	MonsterSize = 1.4, MonsterEff = { EFFECT.EF_NONE } }, 
+	[22258] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22254] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22255] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22252] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22257] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22256] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22259] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22261] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22253] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
+	[22260] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } }
 }
 
 function main()

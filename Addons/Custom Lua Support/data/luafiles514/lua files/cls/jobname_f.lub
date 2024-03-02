@@ -1,12 +1,13 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
+-- Last updated: 20230710
 
 function ReqJobName(jobID)
 	if JobNameTable[jobID] ~= nil then
 		return JobNameTable[jobID]
 	end
-	if JobNameTable_CLS[jobID] ~= nil then
+	if JobNameTable_CLS ~= nil and JobNameTable_CLS[jobID] ~= nil then
 		return JobNameTable_CLS[jobID]
 	end
 	return ""
@@ -18,9 +19,11 @@ function GetJobString(jobID)
 			return k
 		end
 	end
-	for k, v in pairs(jobtbl_CLS) do
-		if v == jobID then
-			return k
+	if jobtbl_CLS ~= nil then
+		for k, v in pairs(jobtbl_CLS) do
+			if v == jobID then
+				return k
+			end
 		end
 	end
 	return ""
@@ -32,7 +35,7 @@ function GetPetIllustName(jobID)
 	if PetIllustNameTable[jobID] ~= nil then
 		fileName = PetIllustNameTable[jobID]
 	end
-	if PetIllustNameTable_CLS[jobID] ~= nil then
+	if PetIllustNameTable_CLS ~= nil and PetIllustNameTable_CLS[jobID] ~= nil then
 		fileName = PetIllustNameTable_CLS[jobID]
 	end
 	return filePath .. fileName
@@ -45,7 +48,7 @@ function GetPetIllustName_V2(jobID, in_bResEnglishName)
 		if PetIllustNameTable_Eng[jobID] ~= nil then
 			fileName = PetIllustNameTable_Eng[jobID]
 		end
-		if PetIllustNameTable_Eng_CLS[jobID] ~= nil then
+		if PetIllustNameTable_Eng_CLS ~= nil and PetIllustNameTable_Eng_CLS[jobID] ~= nil then
 			fileName = PetIllustNameTable_Eng_CLS[jobID]
 		end
 	else
@@ -60,7 +63,7 @@ function GetPetIllustName_V3(jobID)
 	if PetIllustNameTable_Eng[jobID] ~= nil then
 		fileName = PetIllustNameTable_Eng[jobID]
 	end
-	if PetIllustNameTable_Eng_CLS[jobID] ~= nil then
+	if PetIllustNameTable_Eng_CLS ~= nil and PetIllustNameTable_Eng_CLS[jobID] ~= nil then
 		fileName = PetIllustNameTable_Eng_CLS[jobID]
 	end
 	return filePath .. fileName
@@ -72,7 +75,7 @@ function GetPetAccActName(accID)
 	if PetAccActNameTable[accID] ~= nil then
 		fileName = PetAccActNameTable[accID]
 	end
-	if PetAccActNameTable_CLS[accID] ~= nil then
+	if PetAccActNameTable_CLS ~= nil and PetAccActNameTable_CLS[accID] ~= nil then
 		fileName = PetAccActNameTable_CLS[accID]
 	end
 	return filePath .. fileName
@@ -85,7 +88,7 @@ function GetPetAccActName_V2(accID, in_bResEnglishName)
 		if PetAccActNameTable_Eng[accID] ~= nil then
 			fileName = PetAccActNameTable_Eng[accID]
 		end
-		if PetAccActNameTable_Eng_CLS[accID] ~= nil then
+		if PetAccActNameTable_Eng_CLS ~= nil and PetAccActNameTable_Eng_CLS[accID] ~= nil then
 			fileName = PetAccActNameTable_Eng_CLS[accID]
 		end
 	else
@@ -98,7 +101,7 @@ function IsPetAccessory(accID)
 	if accID > PetAccIDs.ACC_FIRST and accID < PetAccIDs.ACC_LAST then
 		return true
 	end
-	if accID > PetAccIDs_CLS.ACC_FIRST and accID < PetAccIDs_CLS.ACC_LAST then
+	if PetAccIDs_CLS ~= nil and accID > PetAccIDs_CLS.ACC_FIRST and accID < PetAccIDs_CLS.ACC_LAST then
 		return true
 	end
 	return false
@@ -109,7 +112,7 @@ function GetPetName(jobID)
 	if PetNameTable[jobID] ~= nil then
 		petName = PetNameTable[jobID]
 	end
-	if PetNameTable_CLS[jobID] ~= nil then
+	if PetNameTable_CLS ~= nil and PetNameTable_CLS[jobID] ~= nil then
 		petName = PetNameTable_CLS[jobID]
 	end
 	return petName
@@ -119,7 +122,7 @@ function GetPetString(jobID)
 	if PetStringTable[jobID] ~= nil then
 		return PetStringTable[jobID]
 	end
-	if PetStringTable_CLS[jobID] ~= nil then
+	if PetStringTable_CLS ~= nil and PetStringTable_CLS[jobID] ~= nil then
 		return PetStringTable_CLS[jobID]
 	end
 	return ""
@@ -129,7 +132,7 @@ function GetPetJTID_by_PetEggITID(petEggITID)
 	if PetEggItemID_PetJobID[petEggITID] ~= nil then
 		return PetEggItemID_PetJobID[petEggITID]
 	end
-	if PetEggItemID_PetJobID_CLS[petEggITID] ~= nil then
+	if PetEggItemID_PetJobID_CLS ~= nil and PetEggItemID_PetJobID_CLS[petEggITID] ~= nil then
 		return PetEggItemID_PetJobID_CLS[petEggITID]
 	end
 	return -1
@@ -139,7 +142,7 @@ function GetPetFood(jobID)
 	if PetFoodTable[jobID] ~= nil then
 		return PetFoodTable[jobID]
 	end
-	if PetFoodTable_CLS[jobID] ~= nil then
+	if PetFoodTable_CLS ~= nil and PetFoodTable_CLS[jobID] ~= nil then
 		return PetFoodTable_CLS[jobID]
 	end
 	return -1

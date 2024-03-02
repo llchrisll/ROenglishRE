@@ -2,9 +2,18 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20231021
+-- Last updated: 20240127
 
 mapTbl = {
+	["bl_depth2.rsw"] = {
+		displayName = "Biosphere Depth - Abyss",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Varmundt's Biosphere",
+			mainTitle = "Depth - Abyss"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["1@vrpop.rsw"] = {
 		displayName = "Fantasy Series - Rainbow Road",
 		notifyEnter = true,
@@ -1339,10 +1348,10 @@ mapTbl = {
 		backgroundBmp = "dungeon_s2"
 	},
 	["ba_chess.rsw"] = {
-		displayName = "Checkmate",
+		displayName = "Chess Garden",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Checkmate"
+			mainTitle = "Chess Garden"
 		},
 		backgroundBmp = "dungeon_s2"
 	},

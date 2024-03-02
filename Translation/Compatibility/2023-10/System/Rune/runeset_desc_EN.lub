@@ -2,10 +2,11 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20231005
+-- Last updated: 20240126
 
 Runesystemtbl_tag = {
 	[RUNETAGIDTBL.EPISODE17] = "EP17",
+	[RUNETAGIDTBL.EPISODE18] = "EP18",
 	[RUNETAGIDTBL.EVT] = "EVT"
 }
 RuneSettbl_desc = {
@@ -105,6 +106,72 @@ RuneSettbl_desc = {
 				[2] = {"For each 3 Refine Levels: Increases Damage against", "monsters of Demi-Human race by 1%."},
 				[4] = {"Increases Damage against", "monsters of Demi-Human race by additional 2%."},
 				[6] = {"Refine Levels +15:", "Physical attacks have a 1% chance to", "absorb 1% of the damage dealt as SP."}
+			}
+		}
+	},
+	[RUNETAGIDTBL.EPISODE18] = {
+		[RUNESETIDTBL.Rt_Ep18_Armor] = {
+			RuneSetDisplayName = "Gray Wolf",
+			RuneSetDescription = {
+				[2] = {"Increases Damage against monsters", "from Episode 18 by 10%.", "For each 3 Refine Levels:", "Increases Damage against monsters", "from Episode 18 by additional 1%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep18_Melee] = {
+			RuneSetDisplayName = "False Warrior",
+			RuneSetDescription = {
+				[2] = {"For each 5 Refine Levels:", "Increases Melee Physical Damage by 1%."},
+				[3] = {"Increases Melee Physical Damage by additional 3%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep18_Magic] = {
+			RuneSetDisplayName = "False Magician",
+			RuneSetDescription = {
+				[2] = {"For each 5 Refine Levels:", "Increases Magical Damage with every element by 1%."},
+				[3] = {"Increases Magical Damage with every element by additional 2%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep18_Range] = {
+			RuneSetDisplayName = "False Shooter",
+			RuneSetDescription = {
+				[2] = {"For each 5 Refine Levels:", "Increases Ranged Physical Damage by 1%."},
+				[3] = {"Increases Ranged Physical Damage by additional 3%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep18_Field] = {
+			RuneSetDisplayName = "Gray Forest",
+			RuneSetDescription = {
+				[2] = {"Increases Critical Damage by 2%."},
+				[3] = {"Critical +3", "For each 3 Refine Levels:", "Critical +1"},
+				[4] = {"Increases Critical Damage by additional 3%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep18_Lava] = {
+			RuneSetDisplayName = "Lava Field",
+			RuneSetDescription = {
+				[2] = {"Increases Magical Damage with Shadow element by 3%."},
+				[3] = {"Increases Magical Damage with Earth element by 3%.", "For each 3 Refine Levels:", "Increases Magical Damage with Fire element by 2%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep18_Total] = {
+			RuneSetDisplayName = "Gray Wilderness",
+			RuneSetDescription = {
+				[2] = {"ATK +10, MATK +10.", "For each 3 Refine Levels:", "ATK +3, MATK +3."},
+				[4] = {"For each 3 Refine Levels:", "Decreases Variable Casting Time by 1%.", "Increases Attack Speed (Decreases After Attack Delay by 1%)."},
+				[6] = {"MaxHP +2%, MaxSP +2%.", "For each 3 Refine Levels:", "MaxHP +1%, MaxSP +1%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep18_Fang] = {
+			RuneSetDisplayName = "Burning Fangs",
+			RuneSetDescription = {
+				[2] = {"When attacked, there is a 2% chance", "to recover 200 SP every second 4 times."},
+				[3] = {"When using a skill, SP Consumption is decreased by an additional 5%.", "For each 3 Refine Levels:", "When using a skill, SP Consumption is decreased by an additional 2%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep18_Demi] = {
+			RuneSetDisplayName = "Demigod",
+			RuneSetDescription = {
+				[2] = {"Increases Damage against", "monsters of Boss class by 10%."},
+				[3] = {"Increases Damage against", "monsters of Boss class by additional 15%.", "For each 3 Refine Levels:", "Increases Damage against", "monsters of Boss class by additional 3%."}
 			}
 		}
 	},
