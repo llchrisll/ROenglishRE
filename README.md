@@ -7,10 +7,10 @@ The priority of item translation goes like this:
 1. kRO  
 2. jRO  
 3. iRO  
-4. bRO  
-5. idRO  
-6. GGHRO  
-7. twRO  
+4. idRO  
+5. bRO  
+6. twRO  
+7. GGHRO  
 8. phRO and cRO if there is still something left
 
 Note: This project should be considered as educational purposes only, any commercial or illegal use by people or group aren't author's responsibilities.  
@@ -19,7 +19,12 @@ You can also join the Discord Server for feedback, requests or even support:
 [RO Translation Project - Discord](https://discord.gg/sagbPhH)
 ___
 #### My Setup
-* Basic Clients: 2015-10-29aRagexe, 2018-06-20eRagexeRE, 2020-04-01bRagexe, 2020-09-02bRagexeRE, 2022-04-06 Ragexe  
+* Basic Clients:
+  * 2015-10-29aRagexe  
+  * 2018-06-20eRagexeRE  
+  * 2020-04-01bRagexe  
+  * 2020-09-02bRagexeRE  
+  * 2022-04-06 Ragexe  
 * rAthena Emulator  
 * Windows 10 Pro  
 * kRO Official Client  

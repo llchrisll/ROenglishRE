@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20231021
+-- Last updated: 20240126
 
 -- 2012/03/09 Change 'Staff' name to 'Kafra Employee'
 -- 2012/03/26 Correct coordinate to prevent navigation error, add moscovia Armor Dealer
@@ -408,6 +408,12 @@ mapNPCInfoTable = {
 	},
 	wolfvill = {
 		{ name = [=[Stores and Warehouses]=], X = 167, Y = 135, TYPE = 0 }
+	}, 
+	ba_maison = {
+		{ name = [=[Guide]=], X = 193, Y = 69, TYPE = 4 },
+		{ name = [=[Guide]=], X = 193, Y = 133, TYPE = 4 },
+		{ name = [=[Guide]=], X = 73, Y = 169, TYPE = 4 },
+		{ name = [=[Guide]=], X = 297, Y = 200, TYPE = 4 }
 	}
 }
 
