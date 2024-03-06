@@ -8,7 +8,7 @@
 require("System/LuaFiles514/itemInfo_f")
 
 -- Load the translation files
-dofile("System/LuaFiles514/itemInfo.lua")
+dofile("System/LuaFiles514/itemInfo.lua") 
 
 -- Additional Configs
 -- Display origin server based on translation file's ServerName argument
