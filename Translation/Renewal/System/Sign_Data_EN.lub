@@ -4,7 +4,7 @@
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file also only works if used in combination with the edited
 -- `data/luafiles514/lua files/signboardlist_f.lub`, which comes with this project!
--- Last updated: 20230109
+-- Last updated: 20240316
 
 SignBoardData = {
 	["입력안하셨습니다"] = "Cannot enter",
@@ -65,6 +65,9 @@ SignBoardData = {
 	["  표본 환경 - 맹독"] = "  Specimen Environment - Venom",
 	["  표본 환경 - 영혼"] = "  Specimen Environment - Soul",
 	["  미용 쿠폰,코스튬 변경 티켓"] = "  Beauty Coupon, Costume Change Ticket",
+	["  일루시온 패스"] = "  Illusion Pass",
+	["  현자의 유산 패스"] = "  Sage's Legacy Pass",
+	["  기도의 방향 패스"] = "  Direction of Prayer Pass",
 }
 
 SignBoardIgnore = {
@@ -74,6 +77,7 @@ SignBoardIgnore = {
 
 -- Custom Signboards
 -- Uncommend the following 'dofile' line to read a different signboardlist outside of the CLS (Custom Lua Support)
--- Note: The CLS for Signboards will still work even without this file.
+-- Note: The CLS for Signboards will still work even without this file and 
+--       will not work together with it.
 
--- dofile("System/Sign_Data_CLS.lub")
+--dofile("System/Sign_Data_CLS.lub")

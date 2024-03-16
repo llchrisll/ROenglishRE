@@ -2,9 +2,18 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240127
+-- Last updated: 20240316
 
 mapTbl = {
+	["1@vrsn.rsw"] = {
+		displayName = "Dr. Eggman's Secret Base",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series - Sonic",
+			mainTitle = "Dr. Eggman's Secret Base"
+		},
+		backgroundBmp = "noname"
+	},
 	["bl_depth2.rsw"] = {
 		displayName = "Biosphere Depth - Abyss",
 		notifyEnter = true,

@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240127
+-- Last updated: 20240316
 
 ReformInfo = {
 	[1] = {
@@ -21389,8 +21389,370 @@ ReformInfo = {
 			"<B>Combination Result</B>",
 			"1) Refine Level: Deleted",
 			"2) Random Options: Deleted",
-			"3) Cards: Deleted"}
-}
+			"3) Cards: Deleted"
+		}
+	}, 
+	[1166] = {
+		BaseItem = "StormBow_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "StormBow_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1167] = {
+		BaseItem = "TornadoBow_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "TornadoBow_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1168] = {
+		BaseItem = "SaintBook_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "SaintBook_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1169] = {
+		BaseItem = "SaintWand_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "SaintWand_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1170] = {
+		BaseItem = "SunBook_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "SunBook_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1171] = {
+		BaseItem = "MoonBook_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "MoonBook_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1172] = {
+		BaseItem = "FuriousCirclet_WH",
+		Material = { HD_Ethernium = 10, Enriched_Ethernium = 20 },
+		ResultItem = "FuriousCirclet_WH",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1173] = {
+		BaseItem = "FuriousCirclet_CD",
+		Material = { HD_Ethernium = 10, Enriched_Ethernium = 20 },
+		ResultItem = "FuriousCirclet_CD",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1174] = {
+		BaseItem = "FuriousCirclet_SKE",
+		Material = { HD_Ethernium = 10, Enriched_Ethernium = 20 },
+		ResultItem = "FuriousCirclet_SKE",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1175] = {
+		BaseItem = "FuriousBoots",
+		Material = { HD_Ethernium = 10, Enriched_Ethernium = 20 },
+		ResultItem = "FuriousBoots",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1176] = {
+		BaseItem = "Slayer_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "Slayer_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1177] = {
+		BaseItem = "Trident_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "Trident_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1178] = {
+		BaseItem = "Demonius_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "Demonius_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1179] = {
+		BaseItem = "Demonsword_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "Demonsword_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1180] = {
+		BaseItem = "Foxtail_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "Foxtail_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1181] = {
+		BaseItem = "Setaria_Furious",
+		Material = { HD_Etherdeocon = 10, Enriched_Etherdeocon = 20 },
+		ResultItem = "Setaria_Furious",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1182] = {
+		BaseItem = "FuriousCirclet_DK",
+		Material = { HD_Ethernium = 10, Enriched_Ethernium = 20 },
+		ResultItem = "FuriousCirclet_DK",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1183] = {
+		BaseItem = "FuriousCirclet_ABC",
+		Material = { HD_Ethernium = 10, Enriched_Ethernium = 20 },
+		ResultItem = "FuriousCirclet_ABC",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1184] = {
+		BaseItem = "FuriousCirclet_SH",
+		Material = { HD_Ethernium = 10, Enriched_Ethernium = 20 },
+		ResultItem = "FuriousCirclet_SH",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	}
 }
 ReformItemList = {
 	IDTest_Special = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 },
@@ -21477,5 +21839,6 @@ ReformItemList = {
 	FateSin_Boots_Hammer = { 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1142, 1143, 1144, 1145, 1146, 1147, 1138, 1139, 1140 },
 	R_Ep17_Box = { 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087, 1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1099, 1100 },
 	Season_H_Upgrade = { 1048, 1049, 1050, 1051 },
-	Dimen_W_Refine = { 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1141 }
+	Dimen_W_Refine = { 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1141 },
+	Refine_Furious = { 1166, 1167, 1168, 1169, 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184 }
 }

@@ -3,13 +3,14 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20240127
+-- Last updated: 20240316
 
 TB_Layer_Priority = {
 	Default_Mid = 100,
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_VIP_Hair_2024] = {Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Silky_Long_BL] = {Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_FluffyWing] = {Default = 403, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Adventurer_Pope_Mini] = { Default = 304, isIgnoreRiding = true },
@@ -77,6 +78,9 @@ TB_Layer_Priority = {
 		[ACCESSORY_IDs.ACCESSORY_C_ElenaVolkova_Mini] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_C_Elumina_Mini] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_C_Berner_Mini] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Sonic_Mini] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Tails_Mini] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_C_Super_Sonic_Mini] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_Prayer_Cherry_Blossom] = { Default = 304, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Twinkle_Twin] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Happy_Lunatic_Hanging_Ear] = { Default = 161, Direction = {} },
