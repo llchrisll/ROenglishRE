@@ -18,7 +18,7 @@ pause
 
 set "sourceDataPath=..\Addons\Custom Lua Support\data\luafiles514\lua files"
 set "sourceSystemPath=..\Addons\Custom Lua Support\System"
-set "destinationDataPath=.\Client\data"
+set "destinationDataPath=.\Client\data\luafiles514\lua files"
 set "destinationSystemPath=.\Client\System"
 
 :CLSMenu
@@ -46,7 +46,7 @@ if %type% lss 14 (
 )
 
 if %type% equ 1 (
-    xcopy "..\Addons\Custom Lua Support\" ".\Client\" /H /C /I /Y
+    xcopy "..\Addons\Custom Lua Support\*" ".\Client\" /s /e /y
 ) else if %type% equ 2 (
     xcopy "%sourceDataPath%\cls\accessoryid.lub" "%destinationDataPath%\cls\accessoryid.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\accname.lub" "%destinationDataPath%\cls\accname.lub"* /H /C /I /Y
@@ -115,7 +115,6 @@ if %type% lss 14 (
     ) else (
 		set cls[%type%]= [ Copied ]
 	)
-	
-    pause
+
     goto CLSMenu
 )
