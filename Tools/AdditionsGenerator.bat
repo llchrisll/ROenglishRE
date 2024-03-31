@@ -303,6 +303,7 @@ if %lua% equ 1 (
 	echo [29] poring_c02 %omaps[29]%
 	echo [30] sch_lab %omaps[30]%
 	echo [31] airplane %omaps[31]%
+	echo [32] payon %omaps[32]%
 	echo =================================================================
 	set /p map="Choose which maps you want to copy: "
 	if %map% equ 0 (
@@ -412,6 +413,10 @@ if %lua% equ 1 (
 		xcopy "%sourceDataPath%\sch_lab.gnd" "%destinationDataPath%\sch_lab.gnd"* /H /C /I /Y
 		xcopy "%sourceDataPath%\sch_lab.rsw" "%destinationDataPath%\sch_lab.rsw"* /H /C /I /Y
 		xcopy "%sourceDataPath%\airplane.rsw" "%destinationDataPath%\airplane.rsw"* /H /C /I /Y
+		xcopy "%sourceDataPath%\payon.gat" "%destinationDataPath%\payon.gat"* /H /C /I /Y
+		xcopy "%sourceDataPath%\payon.gnd" "%destinationDataPath%\payon.gnd"* /H /C /I /Y
+		xcopy "%sourceDataPath%\payon.rsw" "%destinationDataPath%\payon.rsw"* /H /C /I /Y
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\payon.bmp" "%destinationDataPath%\texture\유저인터페이스\map\payon.bmp"* /H /C /I /Y
 	) else if %map% equ 2 (
 		xcopy "%sourceDataPath%\einbroch.gat" "%destinationDataPath%\einbroch.gat"* /H /C /I /Y
 		xcopy "%sourceDataPath%\einbroch.gnd" "%destinationDataPath%\einbroch.gnd"* /H /C /I /Y
@@ -547,9 +552,14 @@ if %lua% equ 1 (
 		xcopy "%sourceDataPath%\texture\유저인터페이스\map\sch_lab.bmp" "%destinationDataPath%\texture\유저인터페이스\map\sch_lab.bmp"* /H /C /I /Y
 	) else if %map% equ 31 (
 		xcopy "%sourceDataPath%\airplane.rsw" "%destinationDataPath%\airplane.rsw"* /H /C /I /Y
+	) else if %map% equ 32 (
+		xcopy "%sourceDataPath%\payon.gat" "%destinationDataPath%\payon.gat"* /H /C /I /Y
+		xcopy "%sourceDataPath%\payon.gnd" "%destinationDataPath%\payon.gnd"* /H /C /I /Y
+		xcopy "%sourceDataPath%\payon.rsw" "%destinationDataPath%\payon.rsw"* /H /C /I /Y
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\payon.bmp" "%destinationDataPath%\texture\유저인터페이스\map\payon.bmp"* /H /C /I /Y
 	)
     if %map% equ 1 (
-        for /L %%i in (1,1,31) do (
+        for /L %%i in (1,1,32) do (
             set omaps[%%i]= [ Copied ]
         )
     ) else (
