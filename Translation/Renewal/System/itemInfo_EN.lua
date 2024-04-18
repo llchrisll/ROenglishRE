@@ -28,16 +28,11 @@ DisplayDatabase = false
 -- Format is same as the original one, just the table name is different
 
 tbl_custom = {
-	[501] = {
+	--[[ Template
+		[501] = {
 		unidentifiedDisplayName = "Crimson Potion",
 		unidentifiedResourceName = "說除ん暮",
-		unidentifiedDescriptionName = {
-			"A potion made from",
-			"grinded Red Herbs that",
-			"restores ^000088about 45 HP^000000.",
-			"^ffffff_^000000",
-			"Weight: ^7777777^000000"
-		},
+		unidentifiedDescriptionName = { "" },
 		identifiedDisplayName = "Crimson Potion",
 		identifiedResourceName = "說除ん暮",
 		identifiedDescriptionName = {
@@ -51,8 +46,12 @@ tbl_custom = {
 		slotCount = 0,
 		ClassNum = 0
 	},
+	]]
 }
 function itemInfoMerge(src, state)
+	if src == nil then
+		return
+	end
 	for ItemID,DESC in pairs(src) do
 		if state == false then
 			if not tbl[ItemID] then

@@ -1,0 +1,235 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20240418
+
+GetHatEfResName = function(index)
+	if hatEffectTable == nil then
+		return ""
+	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.resourceFileName ~= nil then
+		return hatEfTbl.resourceFileName
+	end
+	return ""
+end
+
+GetHatEfPos = function(index)
+	if hatEffectTable == nil then
+		return 0
+	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.hatEffectPos ~= nil then
+		return hatEfTbl.hatEffectPos
+	end
+	return 0
+end
+
+GetHatEfPosX = function(index)
+	if hatEffectTable == nil then
+		return 0
+	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.hatEffectPosX ~= nil then
+		return hatEfTbl.hatEffectPosX
+	end
+	return 0
+end
+
+GetHatEffectID = function(index)
+	if hatEffectTable == nil then
+		return -1
+	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.hatEffectID ~= nil then
+		return hatEfTbl.hatEffectID
+	end
+	return -1
+end
+
+IsEffectHatItem = function(itemID)
+	for k,v in pairs(effectHatItemTable) do
+		if v == itemID then
+			return true
+		end
+	end
+	return false
+end
+
+IsRenderBeforeCharacter = function(index)
+	if hatEffectTable == nil then
+		return false
+	end
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.hatEffectPos ~= nil then
+		return hatEfTbl.isRenderBeforeCharacter
+	end
+	return false
+end
+
+IsIgnoredRidingState = function(index)
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.isIgnoreRiding ~= nil then
+		return hatEfTbl.isIgnoreRiding
+	end
+	return false
+end
+
+IsAdjustPositionWhenShrinkState = function(index)
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.isAdjustPositionWhenShrinkState ~= nil then
+		return hatEfTbl.isAdjustPositionWhenShrinkState
+	end
+	return false
+end
+
+IsAdjustSizeWhenShrinkState = function(index)
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl ~= nil and hatEfTbl.isAdjustSizeWhenShrinkState ~= nil then
+		return hatEfTbl.isAdjustSizeWhenShrinkState
+	end
+	return false
+end
+
+IsAttachedToHead = function(index)
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl == nil then
+		return false
+	end
+	if hatEfTbl.isAttachedHead == nil then
+		return false
+	end
+	return hatEfTbl.isAttachedHead
+end
+
+IsIgnoredRidingState_Include_AttachedToHead = function(index)
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl == nil then
+		return false
+	end
+	if hatEfTbl.isAttachedHead ~= nil and hatEfTbl.isAttachedHead == true then
+		return true
+	end
+	if hatEfTbl.isIgnoreRiding == nil then
+		return false
+	end
+	return hatEfTbl.isIgnoreRiding
+end
+
+GetIsEffectPair = function(index)
+	local hatEfTbl = hatEffectTable[index]
+	if hatEfTbl == nil then
+		return false
+	end
+	if hatEfTbl.isEffectPair == nil then
+		return false
+	end
+	return hatEfTbl.isEffectPair
+end
+
+GetEffectType = function(EffectID)
+	if hatEffectTable[EffectID] ~= nil then
+		if (hatEffectTable[EffectID]).isEffectPair == true then
+			return 2
+		end
+		if (hatEffectTable[EffectID]).resourceFileName ~= nil then
+			return 0
+		end
+		if (hatEffectTable[EffectID]).hatEffectID ~= nil then
+			return 1
+		end
+	end
+	if FootPrintEffectTable[EffectID] ~= nil then
+		return (FootPrintEffectTable[EffectID]).Type
+	end
+	return -1
+end
+
+GetFootprintPngFile = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.PngFile_Left ~= nil and EffectInfo.PngFile_Right ~= nil then
+		return "Effect\\" .. EffectInfo.PngFile_Left, "Effect\\" .. EffectInfo.PngFile_Right
+	end
+	return "", ""
+end
+
+GetFootprintPngScale = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.Scale ~= nil then
+		return EffectInfo.Scale
+	end
+	return 5
+end
+
+GetFootprintPngAplha = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.Aplha ~= nil then
+		return EffectInfo.Aplha
+	end
+	return 250
+end
+
+GetFootprintPngDuration = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.Duration ~= nil then
+		return EffectInfo.Duration
+	end
+	return 10
+end
+
+GetFootprintStrFileBottom = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.StrFile_Bottom_Left ~= nil and EffectInfo.StrFile_Bottom_Right ~= nil then
+		return EffectInfo.StrFile_Bottom_Left, EffectInfo.StrFile_Bottom_Right
+	end
+	return "", ""
+end
+
+GetFootprintStrFileTop = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.StrFile_Top_Left ~= nil and EffectInfo.StrFile_Top_Right ~= nil then
+		return EffectInfo.StrFile_Top_Left, EffectInfo.StrFile_Top_Right
+	end
+	return "", ""
+end
+
+GetFootprintStrScale = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.Scale_Bottom ~= nil and EffectInfo.Scale_Top ~= nil then
+		return EffectInfo.Scale_Bottom, EffectInfo.Scale_Top
+	end
+	return 0.05, 0.05
+end
+
+GetFootprintStrTopHeight = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.Height_Top ~= nil then
+		return EffectInfo.Height_Top
+	end
+	return 0
+end
+
+GetFootprintStride = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.Stride ~= nil then
+		return EffectInfo.Stride
+	end
+	return 50
+end
+
+GetFootprintStrGap = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.Gap ~= nil then
+		return EffectInfo.Gap
+	end
+	return 2
+end
+
+IsFootprintStrAdjustAngle = function(EffectID)
+	local EffectInfo = FootPrintEffectTable[EffectID]
+	if EffectInfo ~= nil and EffectInfo.IsAdjustAngle ~= nil then
+		return EffectInfo.IsAdjustAngle
+	end
+	return false
+end

@@ -140,7 +140,7 @@ exit
 	echo [14] Weapons %lua_c[14]%
 	echo [15] World Map %lua_c[15]%
 	echo [16] effecttool\forcerendereffect.lub %lua_c[16]%
-	echo [17] Hateffectinfo %lua_c[17]%
+	echo [17] Hateffectinfo [2024-04-17 and newer only] %lua_c[17]%
 	echo [18] skilleffectinfo %lua_c[18]%
 	echo [19] skillinfoz %lua_c[19]%
 	echo [20] stateicon %lua_c[20]%
