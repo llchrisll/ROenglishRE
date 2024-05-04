@@ -1,0 +1,449 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20240504
+
+main = function()
+	result = InsertIntro(GuideIntro.MainMenuIndex, GuideIntro.TitleText, GuideIntro.NewsImage, GuideIntro.MainMenuTitle)
+	if not result then
+		return false, msg
+	end
+	for ContentsIdx,ContentsInfo in pairs(GuideIntro.Contents) do
+		result = InsertIntroContents(ContentsIdx, ContentsInfo.Name, ContentsInfo.Desc)
+		if not result then
+			return false, msg
+		end
+	end
+	result = InsertEpisode(GuideEpisode.MainMenuIndex, GuideEpisode.TitleText, GuideEpisode.MainMenuTitle)
+	if not result then
+		return false, msg
+	end
+	for SubMenuIdx,SubMenuInfo in pairs(GuideEpisode.SubMenu) do
+		result = InsertEpisodeSubMenu(SubMenuIdx, SubMenuInfo.SubMenuMinLevel, SubMenuInfo.SubMenuMaxLevel, SubMenuInfo.SubMenuCompleteQuestID, SubMenuInfo.SubMenuTitle)
+		if not result then
+			return false, msg
+		end
+	end
+	for ContentsIdx,ContentsInfo in pairs(GuideEpisode.Contents) do
+		result = InsertEpisodeContents(ContentsIdx, ContentsInfo.SubMenu, ContentsInfo.RequireMinLevel, ContentsInfo.RequireMaxLevel, ContentsInfo.QuestID, ContentsInfo.CompleteType, ContentsInfo.Mapinfo, ContentsInfo.Prerequisite)
+		if not result then
+			return false, msg
+		end
+		for RewardIdx,Reward in pairs(ContentsInfo.Reward) do
+			result = InsertEpisodeReward(ContentsIdx, Reward)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	result = InsertMonster(GuideMonster.MainMenuIndex, GuideMonster.TitleText, GuideMonster.MainMenuTitle)
+	if not result then
+		return false, msg
+	end
+	for ContentsIdx,ContentsInfo in pairs(GuideMonster.Contents) do
+		result = InsertMonsterContents(ContentsIdx, ContentsInfo.RequireMinLevel, ContentsInfo.RequireMaxLevel)
+		if not result then
+			return false, msg
+		end
+		for RewardIdx,Reward in pairs(ContentsInfo.Reward) do
+			result = InsertMonsterReward(ContentsIdx, Reward)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	result = InsertQuest(GuideQuest.MainMenuIndex, GuideQuest.TitleText, GuideQuest.MainMenuTitle)
+	if not result then
+		return false, msg
+	end
+	for SubMenuIdx,SubMenuInfo in pairs(GuideQuest.SubMenu) do
+		result = InsertQuestSubMenu(SubMenuIdx, SubMenuInfo.SubMenuMinLevel, SubMenuInfo.SubMenuMaxLevel, SubMenuInfo.SubMenuTitle)
+		if not result then
+			return false, msg
+		end
+	end
+	for ContentsIdx,ContentsInfo in pairs(GuideQuest.Contents) do
+		result = InsertQuestContents(ContentsIdx, ContentsInfo.SubMenu, ContentsInfo.RequireMinLevel, ContentsInfo.RequireMaxLevel, ContentsInfo.CompleteType, ContentsInfo.Mapinfo, ContentsInfo.Prerequisite)
+		if not result then
+			return false, msg
+		end
+		for RewardIdx,Reward in pairs(ContentsInfo.Reward) do
+			result = InsertQuestReward(ContentsIdx, Reward)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	result = InsertDungeon(GuideDungeon.MainMenuIndex, GuideDungeon.TitleText, GuideDungeon.MainMenuTitle)
+	if not result then
+		return false, msg
+	end
+	for SubMenuIdx,SubMenuInfo in pairs(GuideDungeon.SubMenu) do
+		result = InsertDungeonSubMenu(SubMenuIdx, SubMenuInfo.SubMenuMinLevel, SubMenuInfo.SubMenuMaxLevel, SubMenuInfo.SubMenuTitle)
+		if not result then
+			return false, msg
+		end
+	end
+	for ContentsIdx,ContentsInfo in pairs(GuideDungeon.Contents) do
+		result = InsertDungeonContents(ContentsIdx, ContentsInfo.SubMenu, ContentsInfo.RequireMinLevel, ContentsInfo.RequireMaxLevel, ContentsInfo.CompleteType, ContentsInfo.Mapinfo, ContentsInfo.Prerequisite)
+		if not result then
+			return false, msg
+		end
+		for RewardIdx,Reward in pairs(ContentsInfo.Reward) do
+			result = InsertDungeonReward(ContentsIdx, Reward)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	result = InsertWeapon(GuideWeapon.MainMenuIndex, GuideWeapon.TitleText, GuideWeapon.MainMenuTitle)
+	if not result then
+		return false, msg
+	end
+	for SubMenuIdx,SubMenuInfo in pairs(GuideWeapon.SubMenu) do
+		result = InsertWeaponSubMenu(SubMenuIdx, SubMenuInfo.SubMenuMinLevel, SubMenuInfo.SubMenuMaxLevel, SubMenuInfo.SubMenuTitle)
+		if not result then
+			return false, msg
+		end
+	end
+	for ContentsIdx,ContentsInfo in pairs(GuideWeapon.Contents) do
+		result = InsertWeaponContents(ContentsIdx, ContentsInfo.SubMenu, ContentsInfo.RequireMinLevel, ContentsInfo.RequireMaxLevel, ContentsInfo.Refining, ContentsInfo.Enchant, ContentsInfo.GradeEnchant, ContentsInfo.Mapinfo)
+		if not result then
+			return false, msg
+		end
+		for ObtainGuideIdx,Obtain in pairs(ContentsInfo.ObtainGuide) do
+			result = InsertWeaponObtainGuide(ContentsIdx, Obtain)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	result = InsertArmor(GuideArmor.MainMenuIndex, GuideArmor.TitleText, GuideArmor.MainMenuTitle)
+	if not result then
+		return false, msg
+	end
+	for SubMenuIdx,SubMenuInfo in pairs(GuideArmor.SubMenu) do
+		result = InsertArmorSubMenu(SubMenuIdx, SubMenuInfo.SubMenuMinLevel, SubMenuInfo.SubMenuMaxLevel, SubMenuInfo.SubMenuTitle)
+		if not result then
+			return false, msg
+		end
+	end
+	for ContentsIdx,ContentsInfo in pairs(GuideArmor.Contents) do
+		result = InsertArmorContents(ContentsIdx, ContentsInfo.SubMenu, ContentsInfo.RequireMinLevel, ContentsInfo.RequireMaxLevel, ContentsInfo.Refining, ContentsInfo.Enchant, ContentsInfo.GradeEnchant, ContentsInfo.Mapinfo)
+		if not result then
+			return false, msg
+		end
+		for ObtainGuideIdx,Obtain in pairs(ContentsInfo.ObtainGuide) do
+			result = InsertArmorObtainGuide(ContentsIdx, Obtain)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	return true, "good"
+end
+
+GuideIntro = {
+	Contents = {}
+}
+
+GuideIntro.AddContents = function(self, in_index, in_name, in_desc)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_name) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a string.")
+	elseif type(in_desc) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a string.")
+	end
+	local tbl = {
+		Name = in_name, Desc = in_desc
+	}
+	self.Contents[in_index] = tbl
+end
+
+GuideEpisode = {
+	SubMenu = {}, Contents = {}
+}
+
+GuideEpisode.AddSubMenu = function(self, in_index, in_title, in_minLevel, in_maxLevel, in_questID)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_title) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a string.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	elseif type(in_questID) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 5th value must be a number.")
+	end
+	local tbl = {
+		SubMenuTitle = in_title, SubMenuMinLevel = in_minLevel, SubMenuMaxLevel = in_maxLevel, SubMenuCompleteQuestID = in_questID
+	}
+	self.SubMenu[in_index] = tbl
+end
+
+GuideEpisode.AddContents = function(self, in_index, in_subMenu, in_questID, in_minLevel, in_maxLevel, in_completeType, in_mapInfo, in_prerequisite, ...)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_subMenu) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a number.")
+	elseif type(in_questID) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 5th value must be a number.")
+	elseif type(in_completeType) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 6th value must be a number.")
+	elseif type(in_mapInfo) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 7th value must be a string.")
+	elseif type(in_prerequisite) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 8th value must be a string.")
+	end
+	for i,v in ipairs(arg) do
+		if type(v) ~= "string" then
+			MessageBox("AddSubMenu[" .. in_index .. "]: The " .. 8 + i .. "th value must be a string.")
+		end
+	end
+	local tbl = {
+		SubMenu = in_subMenu, QuestID = in_questID, RequireMinLevel = in_minLevel, RequireMaxLevel = in_maxLevel, CompleteType = in_completeType, Mapinfo = in_mapInfo, Prerequisite = in_prerequisite, Reward = {}
+	}
+	for i,v in ipairs(arg) do
+		tbl.Reward[i] = v
+	end
+	self.Contents[in_index] = tbl
+end
+
+GuideMonster = {
+	Contents = {}
+}
+
+GuideMonster.AddContents = function(self, in_index, in_minLevel, in_maxLevel, ...)
+	if type(in_index) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a string.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	end
+	for i,v in ipairs(arg) do
+		if type(v) ~= "string" then
+			MessageBox("AddSubMenu[" .. in_index .. "]: The " .. 3 + i .. "th value must be a string.")
+		end
+	end
+	local tbl = {
+		RequireMinLevel = in_minLevel, RequireMaxLevel = in_maxLevel, Reward = {}
+	}
+	for i,v in ipairs(arg) do
+		tbl.Reward)[i] = v
+	end
+	self.Contents[in_index] = tbl
+end
+
+GuideQuest = {
+	SubMenu = {}, Contents = {}
+}
+
+GuideQuest.AddSubMenu = function(self, in_index, in_title, in_minLevel, in_maxLevel)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_title) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a string.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	end
+	local tbl = {
+		SubMenuTitle = in_title, SubMenuMinLevel = in_minLevel, SubMenuMaxLevel = in_maxLevel
+	}
+	self.SubMenu[in_index] = tbl
+end
+
+GuideQuest.AddContents = function(self, in_index, in_subMenu, in_minLevel, in_maxLevel, in_completeType, in_mapInfo, in_prerequisite, ...)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_subMenu) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a number.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	elseif type(in_completeType) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 5th value must be a number.")
+	elseif type(in_mapInfo) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 6th value must be a string.")
+	elseif type(in_prerequisite) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 7th value must be a string.")
+	end
+	for i,v in ipairs(arg) do
+		if type(v) ~= "string" then
+			MessageBox("AddSubMenu[" .. in_index .. "]: The " .. 7 + i .. "th value must be a string.")
+		end
+	end
+	local tbl = {
+		SubMenu = in_subMenu, RequireMinLevel = in_minLevel, RequireMaxLevel = in_maxLevel, CompleteType = in_completeType, Mapinfo = in_mapInfo, Prerequisite = in_prerequisite, Reward = {}
+	}
+	for i,v in ipairs(arg) do
+		tbl.Reward[i] = v
+	end
+	self.Contents[in_index] = tbl
+end
+
+GuideDungeon = {
+	SubMenu = {}, Contents = {}
+}
+
+GuideDungeon.AddSubMenu = function(self, in_index, in_title, in_minLevel, in_maxLevel)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_title) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a string.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	end
+	local tbl = {
+		SubMenuTitle = in_title, SubMenuMinLevel = in_minLevel, SubMenuMaxLevel = in_maxLevel
+	}
+	self.SubMenu[in_index] = tbl
+end
+
+GuideDungeon.AddContents = function(self, in_index, in_subMenu, in_minLevel, in_maxLevel, in_completeType, in_mapInfo, in_prerequisite, ...)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_subMenu) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a number.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	elseif type(in_completeType) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 5th value must be a number.")
+	elseif type(in_mapInfo) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 6th value must be a string.")
+	elseif type(in_prerequisite) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 7th value must be a string.")
+	end
+	for i,v in ipairs(arg) do
+		if type(v) ~= "string" then
+			MessageBox("AddSubMenu[" .. in_index .. "]: The " .. 7 + i .. "th value must be a string.")
+		end
+	end
+	local tbl = {
+		SubMenu = in_subMenu, RequireMinLevel = in_minLevel, RequireMaxLevel = in_maxLevel, CompleteType = in_completeType, Mapinfo = in_mapInfo, Prerequisite = in_prerequisite, Reward = {}
+	}
+	for i,v in ipairs(arg) do
+		tbl.Reward[i] = v
+	end
+	self.Contents[in_index] = tbl
+end
+
+GuideWeapon = {
+	SubMenu = {}, Contents = {}
+}
+
+GuideWeapon.AddSubMenu = function(self, in_index, in_title, in_minLevel, in_maxLevel)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_title) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a string.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	end
+	local tbl = {
+		SubMenuTitle = in_title, SubMenuMinLevel = in_minLevel, SubMenuMaxLevel = in_maxLevel
+	}
+	self.SubMenu[in_index] = tbl
+end
+
+GuideWeapon.AddContents = function(self, in_index, in_subMenu, in_minLevel, in_maxLevel, in_refining, in_enchant, in_gradeenchant, in_mapInfo, ...)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_subMenu) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a number.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	elseif type(in_refining) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 5th value must be a number.")
+	elseif type(in_enchant) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 6th value must be a number.")
+	elseif type(in_gradeenchant) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 7th value must be a number.")
+	elseif type(in_mapInfo) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 8th value must be a string.")
+	end
+	for i,v in ipairs(arg) do
+		if type(v) ~= "string" then
+			MessageBox("AddSubMenu[" .. in_index .. "]: The " .. 8 + i .. "th value must be a string.")
+		end
+	end
+	local tbl = {
+		SubMenu = in_subMenu, RequireMinLevel = in_minLevel, RequireMaxLevel = in_maxLevel, Refining = in_refining, Enchant = in_enchant, GradeEnchant = in_gradeenchant, Mapinfo = in_mapInfo, ObtainGuide = {}
+	}
+	for i,v in ipairs(arg) do
+		tbl.ObtainGuide[i] = v
+	end
+	self.Contents[in_index] = tbl
+end
+
+GuideArmor = { 
+	SubMenu = {}, Contents = {}
+}
+
+GuideArmor.AddSubMenu = function(self, in_index, in_title, in_minLevel, in_maxLevel)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_title) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a string.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	end
+	local tbl = {
+		SubMenuTitle = in_title, SubMenuMinLevel = in_minLevel, SubMenuMaxLevel = in_maxLevel
+	}
+	self.SubMenu[in_index] = tbl
+end
+
+GuideArmor.AddContents = function(self, in_index, in_subMenu, in_minLevel, in_maxLevel, in_refining, in_enchant, in_gradeenchant, in_mapInfo, ...)
+	if type(in_index) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The first value must be a number.")
+	elseif type(in_subMenu) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The second value must be a number.")
+	elseif type(in_minLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The third value must be a number.")
+	elseif type(in_maxLevel) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 4th value must be a number.")
+	elseif type(in_refining) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 5th value must be a number.")
+	elseif type(in_enchant) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 6th value must be a number.")
+	elseif type(in_gradeenchant) ~= "number" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 7th value must be a number.")
+	elseif type(in_mapInfo) ~= "string" then
+		MessageBox("AddSubMenu[" .. in_index .. "]: The 8th value must be a string.")
+	end
+	for i,v in ipairs(arg) do
+		if type(v) ~= "string" then
+			MessageBox("AddSubMenu[" .. in_index .. "]: " .. 8 + i .. "th value must be a string.")
+		end
+	end
+	local tbl = { 
+		SubMenu = in_subMenu, RequireMinLevel = in_minLevel, RequireMaxLevel = in_maxLevel, Refining = in_refining, Enchant = in_enchant, GradeEnchant = in_gradeenchant, Mapinfo = in_mapInfo, ObtainGuide = {} 
+	}
+	for i,v in ipairs(arg) do
+		tbl.ObtainGuide[i] = v
+	end
+	self.Contents[in_index] = tbl
+end
+
+

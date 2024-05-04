@@ -203,6 +203,7 @@ exit
 		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\efstids.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\efstids.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconinfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconinfo.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub"* /H /C /I /Y
 	) else if %lua% equ 21 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub" "%destinationDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub"* /H /C /I /Y
 	) else if %lua% equ 22 (

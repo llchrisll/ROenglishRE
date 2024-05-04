@@ -1,0 +1,18 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20240504
+
+GuideIntro.TitleText = "Adventure Guide"
+GuideIntro.MainMenuIndex = 0
+GuideIntro.MainMenuTitle = "Introduction"
+
+GuideIntro.NewsImage = "유저인터페이스\\AdventureGuide\\"
+GuideIntro:AddContents(0, "Episode", "You can check information about episode quests that can be completed.")
+GuideIntro:AddContents(1, "Monster", "We recommend a hunting ground with monsters appropriate for your level.")
+GuideIntro:AddContents(2, "Quest", "You can check the quest appropriate for your level.")
+GuideIntro:AddContents(3, "Dungeon", "You can check dungeons and rewards appropriate for your level.")
+GuideIntro:AddContents(4, "Weapon", "We recommend a weapon appropriate for your level.")
+GuideIntro:AddContents(5, "Armor", "We recommend armor appropriate for your level.")
+
