@@ -1,0 +1,61 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20240504
+
+QuestIconTooltipTable = {
+	["ico_ep.bmp"] = "EPISODE QUEST",
+	["ico_dq.bmp"] = "DAILY QUEST",
+	["ico_lq.bmp"] = "LOCAL QUEST",
+	["ico_jq.bmp"] = "JOB QUEST",
+	["ico_gq.bmp"] = "GUIDE QUEST",
+	["ico_ev.bmp"] = "EVENT QUEST",
+	["ico_mq.bmp"] = "MAIN QUEST",
+	["ico_vr.bmp"] = "VR_BOOKS"
+}
+IDs = {
+	ALL = 0,
+	ETC_QUEST = 1,
+	NORMAL_QUEST = 2,
+	SUB_QUEST = 3,
+	DAILY_QUEST = 4,
+	EVENT_QUEST = 5
+}
+QuestFilterTable = {
+	[IDs.ALL] = {
+		Tooltip = "All Quests"
+	},
+	[IDs.NORMAL_QUEST] = {
+		Tooltip = "Episodes, Guides, Localizing Quests",
+		QuestIcons = { "ico_ep.bmp", "ico_gq.bmp", "ico_lq.bmp" }
+	},
+	[IDs.SUB_QUEST] = {
+		Tooltip = "Sub Quests",
+		QuestIcons = { "ico_sub.bmp" }
+	},
+	[IDs.DAILY_QUEST] = {
+		Tooltip = "Daily Quests",
+		QuestIcons = { "ico_dq.bmp" }
+	},
+	[IDs.EVENT_QUEST] = {
+		Tooltip = "Event Quests",
+		QuestIcons = { "ico_ev.bmp" }
+	},
+	[IDs.ETC_QUEST] = {
+		Tooltip = "Other Quests"
+	}
+}
+function LoadQuestIconTooltip()
+	for IconName,Tooltip in pairs(QuestIconTooltipTable) do
+		AddQuestIconTooltip(IconName, Tooltip)
+	end
+end
+
+function LoadQuestFilterInfo()
+	for ID,Info in pairs(QuestFilterTable) do
+		AddQuestFilterInfo(ID, Info.Tooltip, Info.QuestIcons)
+	end
+end
+
+

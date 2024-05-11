@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240126
+-- Last updated: 20240505
 
 EFFECT = {}
 EFFECT["EF_NONE"] = -1
@@ -1811,7 +1811,11 @@ tbl = {
 	[22259] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
 	[22261] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
 	[22253] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
-	[22260] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } }
+	[22260] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } }, 
+	[22363] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 }	},
+	[22364] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
+	[22362] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
+	[22374] = { MonsterSize = 1.2, MonsterEff = { EFFECT.MAGIC_CIRCLE_DRAGON } }
 }
 
 function main()

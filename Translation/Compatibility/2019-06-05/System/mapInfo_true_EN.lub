@@ -2,9 +2,167 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240316
+-- Last updated: 20240505
 
 mapTbl = {
+	["jor_crk.rsw"] = {
+		displayName = "Scale Island",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Issgard",
+			mainTitle = "Scale Island"
+		},
+		backgroundBmp = "noname"
+	},
+	["jor_crk_p.rsw"] = {
+		displayName = "Scale Island",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Scale Island"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["jor_mbase.rsw"] = {
+		displayName = "Geoborg Base Lunaforma",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Geoborg Base",
+			mainTitle = "Lunaforma"
+		},
+		backgroundBmp = "village"
+	},
+	["mbase_in.rsw"] = {
+		displayName = "Inside Lunaforma",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside Lunaforma"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["jor_albe.rsw"] = {
+		displayName = "Fishing Village Alberta",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fishing Village",
+			mainTitle = "Alberta"
+		},
+		backgroundBmp = "village"
+	},
+	["jalbe_in.rsw"] = {
+		displayName = "Inside the Fishing Village Alberta",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside the Fishing Village Alberta"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["jor_base.rsw"] = {
+		displayName = "Jormgand Cult Village Jornville",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Jormgand Cult Village",
+			mainTitle = "Jornville"
+		},
+		backgroundBmp = "field"
+	},
+	["jor_raise2.rsw"] = {
+		displayName = "Southern Rising Land",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Southern Rising Land"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_raise1.rsw"] = {
+		displayName = "Northern Rising Land",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Northern Rising Land"
+		},
+		backgroundBmp = "field2_s2"
+	},
+	["jor_tmple1.rsw"] = {
+		displayName = "Jormungand Church Temple Gimle 1st Floor",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Jormungand Church Temple",
+			mainTitle = "1st Floor"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["jor_tmple2.rsw"] = {
+		displayName = "Jormungand Church Temple 2nd Floor",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Jormungand Church Temple",
+			mainTitle = "2nd Floor"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["1@wtgs.rsw"] = {
+		displayName = "Unidentified Ghost Ship",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Unidentified Ghost Ship"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["1@mdtem.rsw"] = {
+		displayName = "Shrine of the Serene Order",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Shrine of the Serene Order"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["2@mdtem.rsw"] = {
+		displayName = "Silent Prayer Room",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Silent Prayer Room"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["1@twbs2.rsw"] = {
+		displayName = "Separate Sanctuary",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Separate Sanctuary"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@ep21a.rsw"] = {
+		displayName = "Secret Altar",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Secret Altar"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@ep21b.rsw"] = {
+		displayName = "Snake's Resting Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Snake's Resting Place"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["luna_sf1.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["luna_sf2.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
 	["1@vrsn.rsw"] = {
 		displayName = "Dr. Eggman's Secret Base",
 		notifyEnter = true,
@@ -116,10 +274,10 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["jor_twig.rsw"] = {
-		displayName = "Isgard Sanctuary Twig's Nest",
+		displayName = "Issgard Sanctuary Twig's Nest",
 		notifyEnter = true,
 		signName = {
-			subTitle = "Isgard Sanctuary",
+			subTitle = "Issgard Sanctuary",
 			mainTitle = "Twig's Nest"
 		},
 		backgroundBmp = "village"
@@ -579,10 +737,10 @@ mapTbl = {
 		backgroundBmp = "noname"
 	},
 	["icecastle.rsw"] = {
-		displayName = "Isgard Ice Castle",
+		displayName = "Issgard Ice Castle",
 		notifyEnter = true,
 		signName = {
-			subTitle = "Isgard",
+			subTitle = "Issgard",
 			mainTitle = "Ice Castle"
 		},
 		backgroundBmp = "village"
