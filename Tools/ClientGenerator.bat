@@ -35,13 +35,14 @@ echo [8] 2020-09-02
 echo [9] 2021-10-28
 echo [10] 2022-03-30
 echo [11] 2022-04-06
-echo [12] 2023-03
-echo [13] 2023-06
-echo [14] 2023-07
-echo [15] 2023-09-20
-echo [16] 2023-10
-echo [17] 2024-04-03
-echo [18] 2024-05-02
+echo [12] 2022-06-02
+echo [13] 2023-03
+echo [14] 2023-06
+echo [15] 2023-07
+echo [16] 2023-09-20
+echo [17] 2023-10
+echo [18] 2024-04-03
+echo [19] 2024-05-02
 echo =================================================================
 set /p date="Please select the Client Date: "
 if %date%==1 if %mode%==2 ( set client=2012-04-10 ) else ( goto DateMenu )
@@ -55,13 +56,14 @@ if %date%==8 set client=2020-09-02
 if %date%==9 set client=2021-10-28
 if %date%==10 set client=2022-03-30
 if %date%==11 set client=2022-04-06
-if %date%==12 set client=2023-03
-if %date%==13 set client=2023-06
-if %date%==14 set client=2023-07
-if %date%==15 set client=2023-09-20
-if %date%==16 set client=2023-10
-if %date%==17 set client=2024-04-03
-if %date%==18 set client=2024-05-02
+if %date%==12 set client=2022-06-02
+if %date%==13 set client=2023-03
+if %date%==14 set client=2023-06
+if %date%==15 set client=2023-07
+if %date%==16 set client=2023-09-20
+if %date%==17 set client=2023-10
+if %date%==18 set client=2024-04-03
+if %date%==19 set client=2024-05-02
 )
 if "%client%"=="" exit
 cls
@@ -94,12 +96,13 @@ if %x% LEQ %date% (
 	if %x% EQU 10 call :CopyFD 2021-10-28 %type%
 	if %x% EQU 11 call :CopyFD 2022-03-30 %type%
 	if %x% EQU 12 call :CopyFD 2022-04-06 %type%
-	if %x% EQU 13 call :CopyFD 2023-03 %type%
-	if %x% EQU 14 call :CopyFD 2023-06 %type%
-	if %x% EQU 15 call :CopyFD 2023-07 %type%
-	if %x% EQU 16 call :CopyFD 2023-09-20 %type%
-	if %x% EQU 17 call :CopyFD 2023-10 %type%
-	if %x% EQU 18 call :CopyFD 2024-04-03 %type%
+	if %x% EQU 13 call :CopyFD 2022-06-02 %type%
+	if %x% EQU 14 call :CopyFD 2023-03 %type%
+	if %x% EQU 15 call :CopyFD 2023-06 %type%
+	if %x% EQU 16 call :CopyFD 2023-07 %type%
+	if %x% EQU 17 call :CopyFD 2023-09-20 %type%
+	if %x% EQU 18 call :CopyFD 2023-10 %type%
+	if %x% EQU 19 call :CopyFD 2024-04-03 %type%
 	set /a "x+=1"
 	goto DateLoop
 )

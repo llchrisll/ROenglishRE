@@ -4,16 +4,20 @@
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- Credits to Neo-Mind for original code.
 
--- Load the split function files
+-- Load the splited function file
 require("System/LuaFiles514/itemInfo_f")
 
--- Load the translation files
-dofile("System/LuaFiles514/itemInfo.lua") 
+-- Load the translation file
+dofile("System/LuaFiles514/itemInfo.lua")
+
+-- Load the additional files
+-- Example: (Yes you could add kRO itemInfo itself, but prepare for lua errors)
+--dofile("System/itemInfo_true.lub")
 
 -- Additional Configs
--- Display origin server based on translation file's ServerName argument
--- 0 = disable/1 = in Item Name/2 = top of description/3 = bottom of description
-DispayOrigin = 1
+-- Display origin server based on translation file's Server argument
+-- 0 = disable/1 = top of description/2 = bottom of description
+DisplayOrigin = 1
 
 -- Show ItemID at bottom
 -- 0 = disable/1 = top of description/2 = bottom of description
@@ -22,32 +26,55 @@ DisplayItemID = 2
 -- Display Divine-Pride.net Link bottom of description (true/false)
 DisplayDatabase = false
 
--- Now as a simple example.
--- I am simply going to change name of Red Potion to Crimson Potion. 
--- But you can add anything in the same way.
--- Format is same as the original one, just the table name is different
+-- Server Name for your custom items
+ServerName = 'ExampleRO'
 
+-- Define the colour in which the Server Name should be shown (affects official, if enabled, and custom items)
+-- Format: '^<RRGGBB>'
+-- '' = same color as "Server: " (blue)
+-- '^FFFFFF' = white
+ServerColour = ''
+
+-- Table for Custom Items
 tbl_custom = {
 	--[[ Template
-		[501] = {
-		unidentifiedDisplayName = "Crimson Potion",
-		unidentifiedResourceName = "說除ん暮",
+	[ID] = {
+		unidentifiedDisplayName = "Unknown Item",
+		unidentifiedResourceName = "",
 		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Crimson Potion",
-		identifiedResourceName = "說除ん暮",
+		identifiedDisplayName = "Item",
+		identifiedResourceName = "",
 		identifiedDescriptionName = {
-			"^000088HP Recovery Item^000000",
-			"A potion made from",
-			"grinded Red Herbs that",
-			"restores ^000088about 45 HP^000000.",
-			"^ffffff_^000000",
-			"Weight: ^7777777^000000"
+			"Line 1",
+			"Line 2"
 		},
 		slotCount = 0,
-		ClassNum = 0
+		ClassNum = 0,
+		costume = false
 	},
 	]]
 }
+
+-- Table for Official Overrides
+tbl_override = {
+	--[[ Template
+	[ID] = {
+		unidentifiedDisplayName = "Unknown Item",
+		unidentifiedResourceName = "",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Item",
+		identifiedResourceName = "",
+		identifiedDescriptionName = {
+			"Line 1",
+			"Line 2"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	]]
+}
+
 function itemInfoMerge(src, state)
 	if src == nil then
 		return
@@ -61,11 +88,19 @@ function itemInfoMerge(src, state)
 		else
 			tbl[ItemID] = DESC
 		end
+		if src == tbl_custom then
+			if ServerName ~= nil and tbl[ItemID].Server == nil then
+				tbl[ItemID].Server = ServerName
+			end
+		end
 	end
 	return
 end
 
--- src = table to merge into tbl
--- state = overwrite existing entries (true) or not (false)
-itemInfoMerge(tbl_custom, true) -- add custom items (including official overrides)
---itemInfoMerge(tbl_, false) -- additional table
+-- itemInfoMerge(src, state, serv)
+-- @src = table for merge into tbl
+-- @state = overwrite existing entries (true) or not (false)
+
+itemInfoMerge(tbl_override, true) -- official overrides
+itemInfoMerge(tbl_custom, false) -- custom items
+--itemInfoMerge(tbl, false) -- original kRO iteminfo
