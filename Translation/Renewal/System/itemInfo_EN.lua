@@ -16,15 +16,26 @@ dofile("System/LuaFiles514/itemInfo.lua")
 
 -- Additional Configs
 -- Display origin server based on translation file's Server argument
--- 0 = disable/1 = top of description/2 = bottom of description
+-- 0 = disable/1 = in Item Name/2 = top of description/3 = bottom of description
 DisplayOrigin = 1
+-- Defines how the item id will be shown in item name, doesn't take effect in other settings
+TagStart = '['
+TagEnd = ']'
 
 -- Show ItemID at bottom
 -- 0 = disable/1 = top of description/2 = bottom of description
 DisplayItemID = 2
 
--- Display Divine-Pride.net Link bottom of description (true/false)
-DisplayDatabase = false
+-- Display a database link at bottom of description (true/false)
+-- The item id will be automically parsed at the end of 'DbUrl/CustomDbUrl',
+-- example: 'https://www.divine-pride.net/database/item/512'
+DisplayDatabase = true
+DbURL = 'https://www.divine-pride.net/database/item/'
+DbDisplay = 'Divine-Pride.net'
+-- Database link for custom items, like fluxcp
+-- example: 'http://127.0.0.1/?module=item&action=view&id=512'
+CustomDbUrl = 'http://127.0.0.1/?module=item&action=view&id='
+CustomDbDisplay = 'Database'
 
 -- Server Name for your custom items
 ServerName = 'ExampleRO'
@@ -92,12 +103,15 @@ function itemInfoMerge(src, state)
 			if ServerName ~= nil and tbl[ItemID].Server == nil then
 				tbl[ItemID].Server = ServerName
 			end
+			if DisplayDatabase == true then
+				tbl[ItemID].CustomDB = true
+			end
 		end
 	end
 	return
 end
 
--- itemInfoMerge(src, state, serv)
+-- itemInfoMerge(src, state)
 -- @src = table for merge into tbl
 -- @state = overwrite existing entries (true) or not (false)
 
