@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240505
+-- Last updated: 20240613
 
 RobeNameTable = {
 	[SPRITE_ROBE_IDs.ROBE_WINGS] = "천사날개",
@@ -206,8 +206,26 @@ RobeNameTable = {
 	[SPRITE_ROBE_IDs.ROBE_C_Big_Usagi_Bag] = "C_Big_Usagi_Bag",
 	[SPRITE_ROBE_IDs.ROBE_C_Big_Piske_Bag] = "C_Big_Piske_Bag",
 	[SPRITE_ROBE_IDs.ROBE_SantaTeddyBear] = "SantaTeddyBear",
-	[SPRITE_ROBE_IDs.ROBE_C_Leticia] = "C_Leticia",
-	[SPRITE_ROBE_IDs.ROBE_GreatDevilWing2] = "GreatDevilWing2"
+	[SPRITE_ROBE_IDs.ROBE_C_Leticia_Wing] = "C_Leticia_Wing",
+	[SPRITE_ROBE_IDs.ROBE_GreatDevilWing2] = "GreatDevilWing2",
+	[SPRITE_ROBE_IDs.ROBE_S_G_Manteau_LT_TW] = "S_G_Manteau_LT_TW",
+	[SPRITE_ROBE_IDs.ROBE_C_Rabbit_Tail] = "C_Rabbit_Tail",
+	[SPRITE_ROBE_IDs.ROBE_C_Cyber_Sword] = "C_Cyber_Sword",
+	[SPRITE_ROBE_IDs.ROBE_C_Cyber_Rifle] = "C_Cyber_Rifle",
+	[SPRITE_ROBE_IDs.ROBE_C_Defense_Shield] = "C_Defense_Shield",
+	[SPRITE_ROBE_IDs.ROBE_C_Power_Cable] = "C_Power_Cable",
+	[SPRITE_ROBE_IDs.ROBE_C_Unicorn_Fan_trav] = "C_Unicorn_Fan_trav",
+	[SPRITE_ROBE_IDs.ROBE_C_Cat_Donut_TW] = "C_Cat_Donut_TW",
+	[SPRITE_ROBE_IDs.ROBE_C_Sakura_Rod] = "C_Sakura_Rod",
+	[SPRITE_ROBE_IDs.ROBE_C_Sweet_Flower_Garden] = "C_Sweet_Flower_Garden",
+	[SPRITE_ROBE_IDs.ROBE_C_Glass_Rose_Garden] = "C_Glass_Rose_Garden",
+	[SPRITE_ROBE_IDs.ROBE_C_Twin_Edge] = "C_Twin_Edge",
+	[SPRITE_ROBE_IDs.ROBE_C_Baphomet_Scythe] = "C_Baphomet_Scythe",
+	[SPRITE_ROBE_IDs.ROBE_C_Hemel_Sword] = "C_Hemel_Sword",
+	[SPRITE_ROBE_IDs.ROBE_C_Big_Treasure_Chest] = "C_Big_Treasure_Chest",
+	[SPRITE_ROBE_IDs.ROBE_Guardian_Of_Abyss] = "Guardian_Of_Abyss",
+	[SPRITE_ROBE_IDs.ROBE_C_CLB_SS_LT] = "C_CLB_SS_LT",
+	[SPRITE_ROBE_IDs.ROBE_C_Honey_Dipper] = "C_Honey_Dipper"
 }
 RobeNameTable_Eng = {
 	[SPRITE_ROBE_IDs.ROBE_WINGS] = "ANGEL_WINGS",
@@ -411,8 +429,26 @@ RobeNameTable_Eng = {
 	[SPRITE_ROBE_IDs.ROBE_C_Big_Usagi_Bag] = "C_Big_Usagi_Bag",
 	[SPRITE_ROBE_IDs.ROBE_C_Big_Piske_Bag] = "C_Big_Piske_Bag",
 	[SPRITE_ROBE_IDs.ROBE_SantaTeddyBear] = "SantaTeddyBear",
-	[SPRITE_ROBE_IDs.ROBE_C_Leticia] = "C_Leticia",
-	[SPRITE_ROBE_IDs.ROBE_GreatDevilWing2] = "GreatDevilWing2"
+	[SPRITE_ROBE_IDs.ROBE_C_Leticia_Wing] = "C_Leticia_Wing",
+	[SPRITE_ROBE_IDs.ROBE_GreatDevilWing2] = "GreatDevilWing2",
+	[SPRITE_ROBE_IDs.ROBE_S_G_Manteau_LT_TW] = "S_G_Manteau_LT_TW",
+	[SPRITE_ROBE_IDs.ROBE_C_Rabbit_Tail] = "C_Rabbit_Tail",
+	[SPRITE_ROBE_IDs.ROBE_C_Cyber_Sword] = "C_Cyber_Sword",
+	[SPRITE_ROBE_IDs.ROBE_C_Cyber_Rifle] = "C_Cyber_Rifle",
+	[SPRITE_ROBE_IDs.ROBE_C_Defense_Shield] = "C_Defense_Shield",
+	[SPRITE_ROBE_IDs.ROBE_C_Power_Cable] = "C_Power_Cable",
+	[SPRITE_ROBE_IDs.ROBE_C_Unicorn_Fan_trav] = "C_Unicorn_Fan_trav",
+	[SPRITE_ROBE_IDs.ROBE_C_Cat_Donut_TW] = "C_Cat_Donut_TW",
+	[SPRITE_ROBE_IDs.ROBE_C_Sakura_Rod] = "C_Sakura_Rod",
+	[SPRITE_ROBE_IDs.ROBE_C_Sweet_Flower_Garden] = "C_Sweet_Flower_Garden",
+	[SPRITE_ROBE_IDs.ROBE_C_Glass_Rose_Garden] = "C_Glass_Rose_Garden",
+	[SPRITE_ROBE_IDs.ROBE_C_Twin_Edge] = "C_Twin_Edge",
+	[SPRITE_ROBE_IDs.ROBE_C_Baphomet_Scythe] = "C_Baphomet_Scythe",
+	[SPRITE_ROBE_IDs.ROBE_C_Hemel_Sword] = "C_Hemel_Sword",
+	[SPRITE_ROBE_IDs.ROBE_C_Big_Treasure_Chest] = "C_Big_Treasure_Chest",
+	[SPRITE_ROBE_IDs.ROBE_Guardian_Of_Abyss] = "Guardian_Of_Abyss",
+	[SPRITE_ROBE_IDs.ROBE_C_CLB_SS_LT] = "C_CLB_SS_LT",
+	[SPRITE_ROBE_IDs.ROBE_C_Honey_Dipper] = "C_Honey_Dipper"
 }
 RobeTopLayer = {
 	SPRITE_ROBE_IDs.ROBE_BAG_OF_ADVENTURER,
@@ -521,5 +557,16 @@ RobeTopLayer = {
 	SPRITE_ROBE_IDs.ROBE_C_Rata_Tail,
 	SPRITE_ROBE_IDs.ROBE_C_Cat_Doll_WH,
 	SPRITE_ROBE_IDs.ROBE_SantaTeddyBear,
-	SPRITE_ROBE_IDs.ROBE_C_HDP_Scythe
+	SPRITE_ROBE_IDs.ROBE_C_Leticia_Wing,
+	SPRITE_ROBE_IDs.ROBE_C_Rabbit_Tail,
+	SPRITE_ROBE_IDs.ROBE_C_Cat_Donut_TW,
+	SPRITE_ROBE_IDs.ROBE_C_Cyber_Sword,
+	SPRITE_ROBE_IDs.ROBE_C_Cyber_Rifle,
+	SPRITE_ROBE_IDs.ROBE_C_Defense_Shield,
+	SPRITE_ROBE_IDs.ROBE_C_Power_Cable,
+	SPRITE_ROBE_IDs.ROBE_C_HDP_Scythe,
+	SPRITE_ROBE_IDs.ROBE_C_Sakura_Rod,
+	SPRITE_ROBE_IDs.ROBE_C_Sweet_Flower_Garden,
+	SPRITE_ROBE_IDs.ROBE_C_Glass_Rose_Garden
 }
+RobeActNameTable = {}

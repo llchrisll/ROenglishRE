@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240505
+-- Last updated: 20240613
 
 -- 2012/03/09 Change 'Staff' name to 'Kafra Employee'
 -- 2012/03/26 Correct coordinate to prevent navigation error, add moscovia Armor Dealer
@@ -429,6 +429,19 @@ mapNPCInfoTable = {
 		{ name = [=[Nyar's Warehouse]=], X = 62, Y = 150, TYPE = 6 },
 		{ name = [=[Inn]=], X = 72, Y = 138, TYPE = 5 },
 		{ name = [=[Tool Dealer]=], X = 118, Y = 150, TYPE = 0 }
+	},
+-- -----------------------------------------------------------------------------
+	prt_mk = {
+		{ name = [=[Convenience Service]=], X = 162, Y = 153, TYPE = 6 }, 
+		{ name = [=[Convenience Service]=], X = 172, Y = 24, TYPE = 6 }, 
+		{ name = [=[Convenience Service]=], X = 295, Y = 171, TYPE = 6 }, 
+		{ name = [=[Convenience Service]=], X = 28, Y = 154, TYPE = 6 }, 
+		{ name = [=[Convenience Service]=], X = 152, Y = 299, TYPE = 6 }, 
+		{ name = [=[Guide]=], X = 252, Y = 300, TYPE = 4 }, 
+		{ name = [=[Guide]=], X = 299, Y = 91, TYPE = 4 }, 
+		{ name = [=[Guide]=], X = 71, Y = 20, TYPE = 4 }, 
+		{ name = [=[Guide]=], X = 24, Y = 256, TYPE = 4 }, 
+		{ name = [=[Guide]=], X = 161, Y = 171, TYPE = 4 }
 	}
 -- -----------------------------------------------------------------------------
 }

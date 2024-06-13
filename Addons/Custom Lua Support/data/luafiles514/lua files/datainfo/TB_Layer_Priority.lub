@@ -3,13 +3,14 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20240505
+-- Last updated: 20240613
 
 TB_Layer_Priority = {
 	Default_Mid = 100,
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_C_Desert_Wolf_B] = { Default = 304, isIgnoreRiding = true }, 
 		[ACCESSORY_IDs.ACCESSORY_C_Temari_Candy_Hair] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Meer_Hair] = {Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Demi_Freyja_Hair] = { Default = 143, Direction = {} },
