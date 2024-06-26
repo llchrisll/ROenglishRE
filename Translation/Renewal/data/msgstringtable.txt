@@ -149,8 +149,8 @@ You are the MVP, but you can't take the reward because you are over your weight 
 There is no such character name or the user is offline.#
  doesn't want to receive your messages.#
  is not in the mood to talk with anyone.#
-Killed/Disconnected User.#
-Kill has failed.#
+Kick/Disconnected User.#
+Kick has failed.#
 You got %s (%d).#
 [Alt] + [=]: Fix the interval error between letters.#
 [F10]: To toggle Chat Window size; [Alt] + [F10]: Toggle Chat Window On or Off#
@@ -504,8 +504,8 @@ Please wait 10 seconds before trying to log out.#
 Position#
 Job#
 Note#
-Devotion#
-Tax Point#
+Tax#
+Contribution#
 Leave Guild#
 Expel#
 Rank#
@@ -589,7 +589,7 @@ Please avoid opening a chatroom while vending.#
 ea#
 You have knocked down %s.#
 You have been knocked down by %s.#
-Pet food '%s' is not available.#
+Pet food [%s] is not available.#
 Feed Pet#
 Performance#
 Return to Egg#
@@ -1211,7 +1211,7 @@ You can feel hatred from your pet for neglecting to feed it.#
 [%s]'s Points: %d Points#
 Unselected Characters will be deleted. Continue?#
 You cannot select more than 8.#
-Do you want to change your name to '%s'?#
+Do you want to change your name to [%s]?#
 Character Name has been changed successfully.#
 You have failed to change this character's name.#
 You can purchase only one kind of item at a time.#
@@ -1222,8 +1222,8 @@ Another user is using this character name, so please select another one.#
 The party member was not summoned because you are not the party leader.#
 There is no party member to summon in the current map.#
 You cannot find any trace of a Boss Monster in this area.#
-Boss Monster, '%s' will appear in %02d hour(s) and %02d minute(s).#
-The location of Boss Monster, '%s', will be displayed on your Mini-Map.#
+Boss Monster, %s will appear in %02d hour(s) and %02d minute(s).#
+The location of Boss Monster, [%s], will be displayed on your Mini-Map.#
 Do you want to open ^990099%s^000000? Once opened, the contents cannot be moved to other locations aside from the Kafra Storage. The item effect isn't doubled, even if the same items are used more than once.#
 The Purchase has failed because the NPC does not exist.#
 The Purchase has failed because the Kafra Shop System is not working correctly.#
@@ -1250,16 +1250,16 @@ Critical Attack has returned to normal.#
 You will receive 1.5 times more EXP from hunting monsters for the next 30 minutes.#
 This character will not receive any EXP penalty if ko'ed within the next 30 minutes.#
 Regular item drops from monsters will be doubled for the next 30 minutes.#
-Boss Monster Map Information for the next 10 minutes.#
+Boss Monster Map Information is revealed for the next 10 minutes.#
 Do you really want to purchase this item? %d points will be deducted from your total Kafra Credit Points.#
  You do not have enough Kafra Credit Points.#
  ^ff0000Expiration Date: %s^000000#
- The '%s' item will disappear in %d minutes.#
- '%s' item will be deleted from the Inventory in 1 minute.#
-  '%s' item has been deleted from the Inventory.#
+ The [%s] item will disappear in %d minutes.#
+ [%s] item will be deleted from the Inventory in 1 minute.#
+ [%s] item has been deleted from the Inventory.#
 Input Number#
 %m/%d %H:%M#
-Boss Monster '%s' will appear within 1 minute.#
+Boss Monster [%s] will appear within 1 minute.#
 Mercenary Soldier Skill List#
 Do you agree to cast the magic spell that consumes 1 Black Gemstone and 1,000,000 Zeny?#
 [Point] You have gained %d Collector Rank Points; you now have a total of %d Collector Rank Points.#
@@ -1268,7 +1268,7 @@ The mercenary contract has expired.#
 The mercenary has died.#
 You have released the mercenary.#
 The mercenary has run away.#
- The '%s' item will disappear in %d seconds.#
+The [%s] item will disappear in %d seconds.#
 IP Bonus: EXP/JEXP %d%%, Death Penalty %d%%, Item Drop %d%%#
 Symbols in Character Names are forbidden.#
 Mercenary will follow custom AI.#
@@ -1317,11 +1317,11 @@ Please stop playing the game, and take a break. Exp and other features will be r
 Please stop playing the game since you'll need to rest. Exp and other features will be fixed to 0%%.#
 Quest List#
 RO Shop#
-Memorial Dungeon, '%s' is booked.#
-Failed to book Memorial Dungeon, '%s'.#
-Memorial Dungeon, '%s' is already booked.#
-Memorial Dungeon, '%s' is created.\n Please enter in 5 minutes.#
-Failed to create Memorial Dungeon, '%s'.\n Please try again.#
+Memorial Dungeon, [%s] is booked.#
+Failed to book Memorial Dungeon, [%s].#
+Memorial Dungeon, [%s] is already booked.#
+Memorial Dungeon, [%s] is created.\n Please enter in 5 minutes.#
+Failed to create Memorial Dungeon, [%s].\n Please try again.#
 The character blocked the party invitation.#
 Block all party invitations.#
 Allow all party invitations.#
@@ -1359,7 +1359,7 @@ This character's equipment information is not open to the public.#
 Equipment information not open to the public.#
 Equipment information open to the public.#
 Check %s's Equipment Info#
-'%s's Equipment#
+[%s]s Equipment#
 Show Equip#
 This service is only available for premium users.#
 Free Trial users can only hold up to 50,000 zeny.#
@@ -1487,7 +1487,7 @@ Audio Settings#
 Press a key to assign. Pressing 'ESC' will remove the assigned key.#
 Unable to specify a single key.#
 Unable to specify the key assigned.#
-Duplicated with ['%s']. Do you still want to change?#
+Duplicated with [[%s]]. Do you still want to change?#
 Initialization is stored in the shortcut key settings. Do you want to initialized?#
 Skill Bar#
 Interface#
@@ -1550,7 +1550,7 @@ Do you really want to go back to your savepoint?#
 Search Message for Party Members#
 Message option is off the search party members.#
 10 seconds delay of party support is in effect#
-Party leader is '%s'.#
+Party leader is [%s].#
 Unable to enter due to system error.#
 Cannot wait to enter the number of excess.#
 Has already been applied.#
@@ -1574,7 +1574,7 @@ Please secure some room in the inventory#
 Material doesn't exist#
 Successful#
 failed#
-all materals are gone due to failure#
+All materials are gone duo failure#
 Not very long to change the name of the specified tab.#
 Cannot add more.#
 Authentication failed.#
@@ -1866,7 +1866,7 @@ Available only on the dragon.#
 Unable to proceed due to exceeding capacity.#
 Real name has not been verified. Go to name verification site.#
 Please select slot you are going to save.#
-Congratulation %s,  Acquired '%s' !#
+Congratulation %s,  Acquired [%s] !#
 Unable to use in gloomy state#
 Purchased products has exceeded the total price.#
 Cannot join a party in this map.#
@@ -2314,9 +2314,9 @@ You have reached your goal#
 Please go to indicated direction.#
 The goal has been reached#
 Navigation >: %s#
-Navigation >: Talk to '%s'#
-Navigation >: Please move to '%s' map#
-Navigation >: Then select '%s'#
+Navigation >: Talk to [%s]#
+Navigation >: Please move to [%s] map#
+Navigation >: Then select [%s]#
 Navigation >: Please move to the Airship#
 Navigation >: Use the Warp Portal to move to the next area.#
 Item: #
@@ -3102,7 +3102,7 @@ Refund amount: %d Zeny\r\nRefund reason: Server failed to draw lottery#
 Add small party window#
 Remove small party window#
 Lottery drawing is over, please verify if you've won the prize.#
-%d month %d day#
+Deletable on: %02d/%02d#
 Until next level#
 Complete#
 Incomplete#
@@ -3279,7 +3279,7 @@ Modified file is found. Please restart the game.#
 %s can't be used in this map.#
 Auto \nFeeding#
 You can't feed Homunculus while the RODEX window is open.#
-Homunculus has been fed. '%s' - %d remaining#
+Homunculus has been fed. [%s] - %d remaining#
 Homunculus automatic feeding is ON#
 Homunculus automatic feeding is OFF#
 Homunculus receives \n10% of master's experience.#
@@ -3347,7 +3347,7 @@ Create#
 Hair Style#
 Hair Color#
 Check availability#
-%d hour %d min %d sec#
+%02d:%02d:%02d#
 MOTP Input time exceeded. Please log in again from the beginning.#
 Return#
 You can not use items.#

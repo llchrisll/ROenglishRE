@@ -3,6 +3,7 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- Credits to Neo-Mind for original code.
+-- For further information, please visit https://llchrisll.github.io/ROTPDocs/guides/customs/#multi-iteminfo-support.
 
 -- Load the splited function file
 require("System/LuaFiles514/itemInfo_f")
@@ -18,33 +19,42 @@ dofile("System/LuaFiles514/itemInfo.lua")
 -- Display origin server based on translation file's Server argument
 -- 0 = disable/1 = in Item Name/2 = top of description/3 = bottom of description
 DisplayOrigin = 1
+
 -- Defines how the item id will be shown in item name, doesn't take effect in other settings
 TagStart = '['
 TagEnd = ']'
+
+-- Server Name for your custom items
+ServerName = 'ExampleRO'
+
+-- Define the colour in which the Server Name should be shown (affects official)
+-- Format: '^<RRGGBB>'
+-- '' = same color as "Server: " (^0000CC = blue)
+-- '^FFFFFF' = white
+ServerColour = '^FF0000'
+
+-- Define the colour in which the custom Server Name should be shown (custom items)
+-- Format: '^<RRGGBB>'
+-- '' = same color as "Server: " (^0000CC = blue)
+-- '^FFFFFF' = white
+CServerColour = '^00FF00'
 
 -- Show ItemID at bottom
 -- 0 = disable/1 = top of description/2 = bottom of description
 DisplayItemID = 2
 
 -- Display a database link at bottom of description (true/false)
--- The item id will be automically parsed at the end of 'DbUrl/CustomDbUrl',
+-- The item id will be automically parsed at the end of 'DbUrl',
 -- example: 'https://www.divine-pride.net/database/item/512'
 DisplayDatabase = true
 DbURL = 'https://www.divine-pride.net/database/item/'
 DbDisplay = 'Divine-Pride.net'
+
 -- Database link for custom items, like fluxcp
+-- The item id will be automically parsed at the end of 'CustomDbUrl',
 -- example: 'http://127.0.0.1/?module=item&action=view&id=512'
 CustomDbUrl = 'http://127.0.0.1/?module=item&action=view&id='
 CustomDbDisplay = 'Database'
-
--- Server Name for your custom items
-ServerName = 'ExampleRO'
-
--- Define the colour in which the Server Name should be shown (affects official, if enabled, and custom items)
--- Format: '^<RRGGBB>'
--- '' = same color as "Server: " (blue)
--- '^FFFFFF' = white
-ServerColour = ''
 
 -- Table for Custom Items
 tbl_custom = {

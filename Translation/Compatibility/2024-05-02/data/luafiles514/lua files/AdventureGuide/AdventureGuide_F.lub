@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240504
+-- Last updated: 20240619
 
 main = function()
 	result = InsertIntro(GuideIntro.MainMenuIndex, GuideIntro.TitleText, GuideIntro.NewsImage, GuideIntro.MainMenuTitle)
@@ -237,7 +237,7 @@ GuideMonster.AddContents = function(self, in_index, in_minLevel, in_maxLevel, ..
 		RequireMinLevel = in_minLevel, RequireMaxLevel = in_maxLevel, Reward = {}
 	}
 	for i,v in ipairs(arg) do
-		tbl.Reward)[i] = v
+		tbl.Reward[i] = v
 	end
 	self.Contents[in_index] = tbl
 end

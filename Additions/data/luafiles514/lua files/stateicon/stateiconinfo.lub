@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240316
+-- Last updated: 20240624
 
 COLOR_TITLE_BUFF = { 155, 202, 155 }
 COLOR_TITLE_DEBUFF = { 250, 100, 100 }
@@ -3225,7 +3225,7 @@ StateIconList[EFST_IDs.EFST_CHILL] = {
 }
 StateIconList[EFST_IDs.EFST_BURNT] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 6,
+	posTimeLimitStr = 5,
 	descript = {
 		{ "Burn", COLOR_TITLE_DEBUFF },
 		{ "Increases damage against Fire element monster" },
@@ -7111,6 +7111,66 @@ StateIconList[EFST_IDs.EFST_CONTENTS_21] = {
 		{ "%s", COLOR_TIME },
 		{ "All normal stats +15" },
 		{ "All trait stats +10" }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_15] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Summer Feast Noodles", COLOR_TITLE_BUFF}, 
+		{ "%s", COLOR_TIME}, 
+		{ "Increases Damage against monsters" },
+		{ "of every element." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_16] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grilled whole squid with herbs", COLOR_TITLE_BUFF},
+		{ "%s", COLOR_TIME},
+		{ "Increases Damage against monsters" },
+		{ "of every size." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_17] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Sweet Watermelon Pudding", COLOR_TITLE_BUFF},
+		{ "%s", COLOR_TIME},
+		{ "Increases Physical Damage." },
+		{ "Increases Magical Damage with every element." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_18] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Cool Watermelon Juice", COLOR_TITLE_BUFF},
+		{ "%s", COLOR_TIME},
+		{ "Increases ATK %." },
+		{ "Increases MATK %." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_19] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Cool Red Bean Shaved Ice", COLOR_TITLE_BUFF},
+		{ "%s", COLOR_TIME},
+		{ "Increases MaxHP %." },
+		{ "Increases MaxSP %." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_20] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Gourmet Butter Popcorn", COLOR_TITLE_BUFF},
+		{ "%s", COLOR_TIME},
+		{ "Decreases Variable Casting Time." },
+		{ "Increases ASPD." }
 	}
 }
 -- non-kRO entries

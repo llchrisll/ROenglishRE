@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240613
+-- Last updated: 20240624
 
 ItemDBNameTbl = {
 	["ÈëºûÀÇÁ¶°¢"] = 6672,
@@ -4118,7 +4118,18 @@ ItemDBNameTbl = {
 	Rp_Ep19_Hallu = 1263067,
 	Rp_Ep19_Lesser = 1263068,
 	Rp_Ep19_Middle = 1263069,
-	Rp_Ep19_Upper = 1263070
+	Rp_Ep19_Upper = 1263070,
+	FuriousCirclet_TR = 400673,
+	FuriousCirclet_BO = 400674,
+	FuriousCirclet_HN = 400675,
+	Lapier_Furious = 500101,
+	SharpSword_Furious = 500102,
+	WhiteSword_Furious = 500103,
+	Stick_Furious = 550148,
+	MetalVilolin_Furious = 570072,
+	Harp_Furious = 570073,
+	MetalWhip_Furious = 580072,
+	Whip_Furious = 580073
 }
 ItemDB_To_ItemID = function(in_ItemDB)
 	if ItemDBNameTbl[in_ItemDB] == nil then

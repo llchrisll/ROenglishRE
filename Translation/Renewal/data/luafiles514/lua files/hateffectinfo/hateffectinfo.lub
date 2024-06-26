@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240127
+-- Last updated: 20240624
 
 HatEFID = {
 	HAT_EF_Blossom_Fluttering = 1,
@@ -964,8 +964,8 @@ hatEffectTable = {
 	},
 	[HatEFID.HAT_EF_C_Dark_Lord_Manteau] = {
 		resourceFileName = "C_Dark_Lord_Manteau\\darklordcloak02.str",
-		hatEffectPos = 0,
-		hatEffectPosX = 0,
+		hatEffectPos = -11,
+		hatEffectPosX = -0.5,
 		isRenderBeforeCharacter = true,
 		isIgnoreRiding = true,
 		isAdjustPositionWhenShrinkState = true,

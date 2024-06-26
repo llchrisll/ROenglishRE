@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230321
+-- Last updated: 20240624
 
 worldtable_main = {
 	{ 1, "tha_t01.rsw", 552, 5, 646, 45, WORLD_MSGID.MSI_1_THA_T01, "110" },
@@ -129,13 +129,14 @@ worldtable_main = {
 	{ 29, "abbey01.rsw", 115, 775, 210, 815, WORLD_MSGID.MSI_29_ABBEY01, "130" },
 	{ 29, "abbey02.rsw", 115, 775, 210, 815, WORLD_MSGID.MSI_29_ABBEY02, "125" },
 	{ 29, "abbey03.rsw", 115, 775, 210, 815, WORLD_MSGID.MSI_29_ABBEY03, "130" },
-	{ 30, "prt_maze01.rsw", 960, 585, 1050, 625, WORLD_MSGID.MSI_30_PRT_MAZE01, "60" },
-	{ 30, "prt_maze02.rsw", 960, 585, 1050, 625, WORLD_MSGID.MSI_30_PRT_MAZE02, "70" },
-	{ 30, "prt_maze03.rsw", 960, 585, 1050, 625, WORLD_MSGID.MSI_30_PRT_MAZE03, "80" },
+	{ 30, "prt_maze01.rsw", 960, 460, 1050, 493, WORLD_MSGID.MSI_30_PRT_MAZE01, "60" },
+	{ 30, "prt_maze02.rsw", 960, 460, 1050, 493, WORLD_MSGID.MSI_30_PRT_MAZE02, "70" },
+	{ 30, "prt_maze03.rsw", 960, 460, 1050, 493, WORLD_MSGID.MSI_30_PRT_MAZE03, "80" },
 	{ 43, "mal_dun01.rsw", 1133, 510, 1242, 550, WORLD_MSGID.MSI_43_MAL_DUN01, "90" },
 	{ 45, "odin_past.rsw", 1146, 109, 1236, 145, WORLD_MSGID.MSI_45_ODIN_PAST, "180" },
 	{ 46, "oz_dun01.rsw", 53, 232, 130, 268, WORLD_MSGID.MSI_46_OZ_DUN01, "170" },
 	{ 46, "oz_dun02.rsw", 53, 232, 130, 268, WORLD_MSGID.MSI_46_OZ_DUN02, "200" },
+	{ 47, "prt_mk.rsw", 942, 589, 1002, 610, WORLD_MSGID.MSI_47_PRONTERA_MARKET_STREET, "" },
 	{ 100, "hugel.rsw", 871, 0, 927, 57, WORLD_MSGID.MSI_100_HUGEL, "" },
 	{ 100, "hu_fild01.rsw", 695, 0, 752, 57, WORLD_MSGID.MSI_100_HU_FILD01, "90" },
 	{ 100, "hu_fild02.rsw", 753, 0, 811, 57, WORLD_MSGID.MSI_100_HU_FILD02, "90" },
@@ -313,7 +314,8 @@ worldtable_main_Dun = {
 	{ 30, 837, 531, 857, 551, WORLD_MSGID.MSI_DUN30, "60~80" },
 	{ 43, 1178, 599, 1198, 619, WORLD_MSGID.MSI_DUN43, "90" },
 	{ 45, 1083, 136, 1103, 156, WORLD_MSGID.MSI_DUN45, "180" },
-	{ 46, 97, 321, 117, 341, WORLD_MSGID.MSI_DUN46, "170~200" }
+	{ 46, 97, 321, 117, 341, WORLD_MSGID.MSI_DUN46, "170~200" },
+	{ 47, 836, 605, 846, 615, WORLD_MSGID.MSI_DUN47_MARKET, "" }
 }
 worldtable_dimensions = {
 	{ 1, "ecl_tdun01.rsw", 242, 354, 332, 388, WORLD_MSGID.MSI_1_ECL_TDUN01, "145" },
