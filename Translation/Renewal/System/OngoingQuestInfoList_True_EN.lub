@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240217
+-- Last updated: 20240713
 -- ToDo: Globalize `[Standby]` instead of anything else for cooldown quests, will be done when I sync all of them.
 
 QuestInfoList = {}
@@ -42807,6 +42807,375 @@ QuestInfoList = {
         },
         Summary = "Neutralizing Lasgand"
     },
+	[12592] = {
+		Title = "Garden of Time",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"After passing through the twisted dimension gap, I found myself in the Garden of Time..."
+		},
+		Summary = "Discover the Garden of Time"
+	},
+	[12593] = {
+		Title = "Helping Leticia",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Leticia has declared that she will clear the Garden of Time of any areas that might pose a threat to her, and Oscar has asked her to help her as she will be working alone. Let's go see <NAVI>[Leticia]<INFO>t_garden,118,92,0,101,0</INFO></NAVI> and see if there's anything we can do to help her.."
+		},
+		Summary = "Helping Leticia"
+	},
+	[12594] = {
+		Title = "Watch Rigel",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Rigel is trying to build a prison to imprison dimensional criminals. Oscar has asked me to check Rigel's work. Let's visit <NAVI>[Rigel]<INFO>t_garden,165,215,0,101,0</INFO></NAVI> and check her work.."
+		},
+		Summary = "Visit Rigel"
+	},
+	[12595] = {
+		Title = "Western Barrier",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Leticia sensed a force pushing her from her unfamiliar dimension into the Garden of Time. She must create an entrance to it and make it a controllable place. Let's create a passage through the <NAVI>[time barrier]<INFO>t_garden,82,92,0,101,0</INFO></NAVI> to an unfamiliar dimension..."
+		},
+		Summary = "Craft the Western Barrier"
+	},
+	[12596] = {
+		Title = "Eastern Barrier",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Leticia sensed a force pushing her from her unfamiliar dimension into the Garden of Time. She must create an entrance to it and make it a controllable place. Let's create a passage through the <NAVI>[time barrier]<INFO>t_garden,149,92,0,101,0</INFO></NAVI> to an unfamiliar dimension..."
+		},
+		Summary = "Craft the Eastern Barrier"
+	},
+	[12597] = {
+		Title = "Entry and Exit List Registration",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Rigel is trying to create a huge prison in the twisted space beneath the Garden of Time. In order to enter and exit the prison, you must register with the <NAVI>[prison guidebook]<INFO>t_garden,165,232,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Obtain access to the prison"
+	},
+	[12598] = {
+		Title = "[Standby] Water",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I accepted Diluvio's request. Even if you complete a request, you cannot receive additional requests until the waiting state passes. Also, if the request cannot be completed and the waiting state passes, the request will be processed as a failure."
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12599] = {
+		Title = "[Standby] Earth",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I accepted Terremotus' request. Even if you complete a request, you cannot receive additional requests until the waiting state passes. Also, if the request cannot be completed and the waiting state passes, the request will be processed as a failure."
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12600] = {
+		Title = "[Standby] Deadly Poison",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I accepted Serpens' request. Even if you complete a request, you cannot receive additional requests until the waiting state passes. Also, if the request cannot be completed and the waiting state passes, the request will be processed as a failure."
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12601] = {
+		Title = "[Standby] Wind",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I accepted Procella's request. Even if you complete a request, you cannot receive additional requests until the waiting state passes. Also, if the request cannot be completed and the waiting state passes, the request will be processed as a failure."
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12602] = {
+		Title = "[Standby] Fire",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I accepted Ardor's request. Even if you complete a request, you cannot receive additional requests until the waiting state passes. Also, if the request cannot be completed and the waiting state passes, the request will be processed as a failure."
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12610] = {
+		Title = "Cleaning complete!",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You can't let uninvited bugs run wild in your beautiful garden. You successfully completed today’s cleaning."
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12611] = {
+		Title = "Interview completed",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Were you satisfied with your interview with the guard today? Thanks to you, I'll definitely get a key. If you have time tomorrow, please stop by."
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12612] = {
+		Title = "Reward recieved",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"You defeated the best prisoner in the dimension and received the reward, right? Regardless, you can always enter the prison, but you will not receive any additional compensation until the reward record disappears, so be careful when using the key."
+		},
+		Summary = "Reset at 04 AM on Monday",
+		CoolTimeQuest = 1
+	},
+	[12613] = {
+		Title = "Spring's Divine Beast",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"For some reason, the Divine Beasts who were protecting the Constellation of Life still recognize dimensional criminals as the Constellation of Life and try to protect them. You must subdue them and steal the key to the Hall of Life."
+		},
+		Summary = "Subdue Floral Pegasus"
+	},
+	[12614] = {
+		Title = "Summer's Divine Beast",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"For some reason, the Divine Beasts who were protecting the Constellation of Life still recognize dimensional criminals as the Constellation of Life and try to protect them. You must subdue them and steal the key to the Hall of Life."
+		},
+		Summary = "Subdue Coral Marine"
+	},
+	[12615] = {
+		Title = "Autumn's Divine Beast",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"For some reason, the Divine Beasts who were protecting the Constellation of Life still recognize dimensional criminals as the Constellation of Life and try to protect them. You must subdue them and steal the key to the Hall of Life."
+		},
+		Summary = "Subdue Maple Tree"
+	},
+	[12616] = {
+		Title = "Winter's Divine Beast",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"For some reason, the Divine Beasts who were protecting the Constellation of Life still recognize dimensional criminals as the Constellation of Life and try to protect them. You must subdue them and steal the key to the Hall of Life."
+		},
+		Summary = "Subdue Monarch Pinguin"
+	},
+	[12617] = {
+		Title = "Dimensional Criminal Correction",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Correction of criminals."
+		},
+		Summary = "Neutralize dimensional criminals"
+	},
+	[12618] = {
+		Title = "Face to face with Oscar",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's check to see if Oscar, who is standing at the <NAVI>[mansion entrance]<INFO>t_garden,117,140,0,101,0</INFO></NAVI>, needs any help."
+		},
+		Summary = "Go to Oscar standing in front of the mansion"
+	},
+	[12619] = {
+		Title = "Take a break",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"It is recommended to enter the dimensional prison only once per hour. Take a break and come back when you have time. Don't forget the keys..."
+		},
+		Summary = "Reset after 1 hour",
+		CoolTimeQuest = 1
+	},
+	[12620] = {
+		Title = "Meeting with Spirits",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Let's meet the spirits gathered in <NAVI>[northwest of the square]<INFO>t_garden,106,118,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Go listen to the spirits' grievances"
+	},
+	[12621] = {
+		Title = "Terremotus Request 1",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Blue Earth Spirits and 50 Mutant Blue Earth Spirits located in Forgotten Memories Area 1. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Small Blue Earth Spirit/Mutant Blue Earth Spirit"
+	},
+	[12622] = {
+		Title = "Terremotus Request 2",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Blue Earth Spirits and 50 Giant Blue Earth Spirits located in Forgotten Memories Area 1. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Blue Earth Spirit/Giant Blue Earth Spirit"
+	},
+	[12623] = {
+		Title = "Terremotus Request 3",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Solid Earth Spirits and 50 Mutant Solid Earth Spirits located in Forgotten Memories Area 2. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Small Solid Earth Spirit/Mutant Solid Earth Spirit"
+	},
+	[12624] = {
+		Title = "Terremotus Request 4",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Solid Earth Spirits and 50 Giant Solid Earth Spirits located in Forgotten Memories Area 2. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Solid Earth Spirit/Giant Solid Earth Spirit"
+	},
+	[12625] = {
+		Title = "Ardor's Instructions 1",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Blue Flame Spirits and 50 Mutant Blue Flame Spirits located in Forgotten Memories Area 1. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Small Blue Flame Spirit/Mutant Blue Flame Spirit"
+	},
+	[12626] = {
+		Title = "Ardor's Instructions 2",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Blue Flame Spirits and 50 Giant Blue Flame Spirits located in Forgotten Memories Area 1. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Blue Flame Spirit/Giant Blue Flame Spirit"
+	},
+	[12627] = {
+		Title = "Ardor's Instructions 3",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Blue Flame Spirits and 50 Mutant Blue Flame Spirits located in Forgotten Memories Area 2. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Small Red Flame Spirit/Mutant Red Flame Spirit"
+	},
+	[12628] = {
+		Title = "Ardor's Instructions 4",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Blue Flame Spirits and 50 Giant Blue Flame Spirits located in Forgotten Memories Area 2. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Red Flame Spirit/Giant Blue Flame Spirit"
+	},
+	[12629] = {
+		Title = "Procella's Request 1",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Strong Wind Spirits and 50 Mutant Strong Wind Spirits located in Forgotten Memories Area 1. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Small Strong Wind Spirit/Mutant Strong Wind Spirit"
+	},
+	[12630] = {
+		Title = "Procella's Request 2",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Strong Wind Spirits and 50 Giant Strong Wind Spirits located in Forgotten Memories Area 1. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Strong Wind Spirit/Giant Strong Wind Spirit"
+	},
+	[12631] = {
+		Title = "Procella's Request 3",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Dry Wind Spirits and 50 Mutant Dry Wind Spirits located in Forgotten Memories Area 2. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Small Dry Wind Spirit/Mutant Dry Wind Spirit"
+	},
+	[12632] = {
+		Title = "Procella's Request 4",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Dry Wind Spirits and 50 Giant Dry Wind Spirits located in Forgotten Memories Area 2. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Dry Wind Spirit/Giant Dry Wind Spirit"
+	},
+	[12633] = {
+		Title = "Diluvio's Request 1",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Cold Water Spirits and 50 Mutant Cold Water Spirits located in Forgotten Memories Area 1. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Small Cold Water Spirit/Mutant Cold Water Spirit"
+	},
+	[12634] = {
+		Title = "Diluvio's Request 2",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Cold Water Spirits and 50 Giant Cold Water Spirits located in Forgotten Memories Area 1. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Cold Water Spirit/Giant Cold Water Spirit"
+	},
+	[12635] = {
+		Title = "Diluvio's Request 3",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Hot Water Spirits and 50 Mutant Hot Water Spirits located in Forgotten Memories Area 2. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Small Hot Water Spirit/Mutant Hot Water Spirit"
+	},
+	[12636] = {
+		Title = "Diluvio's Request 4",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 50 Small Hot Water Spirits and 50 Mutant Hot Water Spirits located in Forgotten Memories Area 2. After completing the request, I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Hot Water Spirit/Giant Hot Water Spirit"
+	},
+	[12637] = {
+		Title = "Serpen's Request 1",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 150 contaminated spirits, which are rapidly increasing in Forgotten Memories Area 1, regardless of their type. I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Forgotten Memories, Area 1, Defeat Contaminated Spirits"
+	},
+	[12638] = {
+		Title = "Serpen's Request 2",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"I received a request to kill 150 contaminated spirits, which are rapidly increasing in Forgotten Memories Area 2, regardless of their type. I think you can report it to the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Forgotten Memories, Area 2, Defeat Contaminated Spirits"
+	},
+	[12639] = {
+		Title = "Serpen's Request 3",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After obtaining 10 Wrath of Polluted Agni, I was asked to seal them inside the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>. Let’s go around each area of forgotten memories and search for them."
+		},
+		Summary = "Obtain 10 Wrath of Polluted Agni"
+	},
+	[12640] = {
+		Title = "Serpen's Request 4",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After obtaining 10 Wrath of Polluted Aqua, I was asked to seal them inside the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>. Let’s go around each area of forgotten memories and search for them."
+		},
+		Summary = "Obtain 10 Wrath of Polluted Aqua"
+	},
+	[12641] = {
+		Title = "Serpen's Request 5",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After obtaining 10 Wrath of Polluted Ventus, I was asked to seal them inside the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>. Let’s go around each area of forgotten memories and search for them."
+		},
+		Summary = "Obtain 10 Wrath of Polluted Ventus"
+	},
+	[12642] = {
+		Title = "Serpen's Request 6",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After obtaining 10 Wrath of Polluted Tera, I was asked to seal them inside the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>. Let’s go around each area of forgotten memories and search for them."
+		},
+		Summary = "Obtain 10 Wrath of Polluted Tera"
+	},
+	[12643] = {
+		Title = "Serpen's Request 7",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"After obtaining 10 Wrath of Polluted Spirit, I was asked to seal them inside the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>. Let’s go around each area of forgotten memories and search for them."
+		},
+		Summary = "Obtain 20 Wrath of Polluted Spirit"
+	},
 	[13000] = {
 		Title = "RWC 2011Card Gathering",
 		Description = {
