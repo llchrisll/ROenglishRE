@@ -1,5 +1,7 @@
-# Ragnarok Online Translation Project  
-![ROTPbySapito_mask](https://github.com/llchrisll/ROenglishRE/assets/5730576/81cdf381-e3d5-4a88-95ff-4019a26b5977)
+# Ragnarok Online Translation Project
+Read the [Documentation](https://llchrisll.github.io/ROTPDocs), which helps you to setup this project.  
+Join the [RO Translation Project - Discord](https://discord.gg/sagbPhH) Discord Server for feedback, requests or even further support.  
+___
 [ROenglishRE](https://rathena.org/board/topic/102689-ragnarok-english-translation-project/) is an unofficial english translation (Fan translation) project for Korea Ragnarok Online Renewal that focused on translating items, skills and textures, while it also includes items from other official servers like jRO.  
 This project also supports pre-renewal by overwriting the content of the Renewal folder with the Pre-Renewal one.  
 
@@ -13,10 +15,37 @@ The priority of item translation goes like this:
 7. GGHRO  
 8. phRO and cRO if there is still something left
 
-Note: This project should be considered as educational purposes only, any commercial or illegal use by people or group aren't author's responsibilities.  
+To support the item translations further, I also make a merged grf when I have to time for it,  
+which consists every sprite of item/npc/mob sprite and texture files missing in the kRO data.grf.  
+[official_data.grf](https://www.mediafire.com/file/qas1fgic28zs9qx/official_data.rar/file)
 
-You can also join the Discord Server for feedback, requests or even support:  
-[RO Translation Project - Discord](https://discord.gg/sagbPhH)
+<details>
+<summary>official_data folders</summary>
+
+* sprite   
+  * 몬스터
+  * 로브
+  * 아이템
+  * 악세사리
+  * 방패
+  * 인간족
+  * 이팩트
+  * npc
+
+* texture
+  * 유저인터페이스
+    * cardbmp
+    * collection
+    * illust
+    * item
+ 
+   * effect
+ 
+</details>
+
+___
+Note: This project should be considered as educational purposes only, any commercial or illegal use by people or group aren't author's responsibilities.  
+![ROTPbySapito_mask](https://github.com/llchrisll/ROenglishRE/assets/5730576/81cdf381-e3d5-4a88-95ff-4019a26b5977)
 ___
 #### My Setup
 * Basic Clients:
@@ -37,8 +66,3 @@ ___
   * twRO  
   * phRO  
   * cRO  
-___
-## Client Sprite Collection
-I also added an repo for official sprite files, like items:  
-[ROResourceCollection](https://github.com/llchrisll/ROResourceCollection)
-___
