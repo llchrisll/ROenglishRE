@@ -305,6 +305,7 @@ if %lua% equ 1 (
 	echo [30] sch_lab %omaps[30]%
 	echo [31] airplane %omaps[31]%
 	echo [32] payon %omaps[32]%
+	echo [33] ra_temple %omaps[33]%
 	echo =================================================================
 	set /p map="Choose which maps you want to copy: "
 	if %map% equ 0 (
@@ -418,6 +419,9 @@ if %lua% equ 1 (
 		xcopy "%sourceDataPath%\payon.gnd" "%destinationDataPath%\payon.gnd"* /H /C /I /Y
 		xcopy "%sourceDataPath%\payon.rsw" "%destinationDataPath%\payon.rsw"* /H /C /I /Y
 		xcopy "%sourceDataPath%\texture\유저인터페이스\map\payon.bmp" "%destinationDataPath%\texture\유저인터페이스\map\payon.bmp"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.gat" "%destinationDataPath%\ra_temple.gat"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.gnd" "%destinationDataPath%\ra_temple.gnd"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.rsw" "%destinationDataPath%\ra_temple.rsw"* /H /C /I /Y
 	) else if %map% equ 2 (
 		xcopy "%sourceDataPath%\einbroch.gat" "%destinationDataPath%\einbroch.gat"* /H /C /I /Y
 		xcopy "%sourceDataPath%\einbroch.gnd" "%destinationDataPath%\einbroch.gnd"* /H /C /I /Y
@@ -558,9 +562,13 @@ if %lua% equ 1 (
 		xcopy "%sourceDataPath%\payon.gnd" "%destinationDataPath%\payon.gnd"* /H /C /I /Y
 		xcopy "%sourceDataPath%\payon.rsw" "%destinationDataPath%\payon.rsw"* /H /C /I /Y
 		xcopy "%sourceDataPath%\texture\유저인터페이스\map\payon.bmp" "%destinationDataPath%\texture\유저인터페이스\map\payon.bmp"* /H /C /I /Y
+	) else if %map% equ 33 (
+		xcopy "%sourceDataPath%\ra_temple.gat" "%destinationDataPath%\ra_temple.gat"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.gnd" "%destinationDataPath%\ra_temple.gnd"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.rsw" "%destinationDataPath%\ra_temple.rsw"* /H /C /I /Y
 	)
     if %map% equ 1 (
-        for /L %%i in (1,1,32) do (
+        for /L %%i in (1,1,33) do (
             set omaps[%%i]= [ Copied ]
         )
     ) else (
