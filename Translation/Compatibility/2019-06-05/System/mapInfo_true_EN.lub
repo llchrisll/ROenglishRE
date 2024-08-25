@@ -2,9 +2,38 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240624
+-- Last updated: 20240817
 
 mapTbl = {
+	["nif_fild03.rsw"] = {
+		displayName = "Niflheim Pumpkin Farm",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Niflheim Pumpkin Farm"
+		},
+		backgroundBmp = "field2_s2"
+	}, 
+	["moc_akhet.rsw"] = {
+		displayName = "Ancient Temple Akhet",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Ancient Temple",
+			mainTitle = "Akhet"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["iz_in_a.rsw"] = {
+		displayName = "Inside Izlude"
+	},
+	["iz_in_b.rsw"] = {
+		displayName = "Inside Izlude"
+	},
+	["iz_in_c.rsw"] = {
+		displayName = "Inside Izlude"
+	},
+	["iz_in_d.rsw"] = {
+		displayName = "Inside Izlude"
+	},
 	["prt_mk.rsw"] = {
 		displayName = "Prontera Market Street",
 		notifyEnter = true,
@@ -247,7 +276,7 @@ mapTbl = {
 		notifyEnter = true,
 		signName = {
 			subTitle = "Garden of Time",
-			mainTitle = "잊혀진 시간 1 구역"
+			mainTitle = "Forgotten Time Zone 1"
 		},
 		backgroundBmp = "dungeon"
 	},

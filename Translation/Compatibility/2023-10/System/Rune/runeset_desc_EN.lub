@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240613
+-- Last updated: 20240817
 
 Runesystemtbl_tag = {
 	[RUNETAGIDTBL.EPISODE17] = "EP17",
@@ -253,6 +253,15 @@ RuneSettbl_desc = {
 			RuneSetDescription = {
 				[2] = {"For each 3 Refine Levels:", "ATK +1, MATK +1."},
 				[4] = {"ATK +10, MATK +10."}
+			}
+		}, 
+		[RUNESETIDTBL.Rt_22nd_Event] = {
+			RuneSetDisplayName = "21st Anniversary Celebration",
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels:", "ATK +1, MATK +1."},
+				[4] = {"ATK +10, MATK +10."},
+				[5] = {"For each 5 Refine Levels:", "Increases Attack Speed (decreases After Attack Delay by 1%).", "Decreases Variable Casting Time by 1%."},
+				[6] = {"MaxHP +1000, MaxSP +500.", "For each 5 Refine Levels:", "MaxHP +100, MaxSP +10."}
 			}
 		}
 	}

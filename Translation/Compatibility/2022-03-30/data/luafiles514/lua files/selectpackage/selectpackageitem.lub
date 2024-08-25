@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240316
+-- Last updated: 20240817
 
 packageitemboxName = {
 	{101060, 0, "Equipment Set"},
@@ -11,14 +11,14 @@ packageitemboxName = {
 	{101062, 0, "Novice Set"},
 	{101062, 1, "Test Set"},
 	{101062, 2, "123456789012345678901234567890"},
-	{101062, 3, "Set with many components"},
+	{101062, 3, "Set of many components"},
 	{101062, 4, "1 Piece Set"},
 	{101062, 5, "Long Display Name Set"},
-	{101062, 6, "It's a Costume, but it's random"},
+	{101062, 6, "It's a random Costume"},
 	{101062, 7, "Equipment, several"},
 	{101062, 8, "Term Consumables"},
-	{101062, 9, "Multiple piles of the same potion"},
-	{101062, 10, "Multiple piles of the same equipment"},
+	{101062, 9, "Multiple of the same potion"},
+	{101062, 10, "Multiple of the same equipment"},
 	{101062, 11, "8000 Weight Pile"},
 	{101470, 0, "STR Reduction Potion"},
 	{101470, 1, "AGI Reduction Potion"},
@@ -222,7 +222,23 @@ packageitemboxName = {
 	{102812, 0, "Shadow Earring"},
 	{102812, 1, "Shadow Pendant"},
 	{102949, 0, "Costume Super Sonic Minimi"},
-	{102949, 1, "Costume Chaos Emerald"},
+	{102949, 1, "Costume Chaos Emerald"}, 
+	{103260, 0, "Gold Paeonia"},
+	{103260, 1, "Red Paeonia"},
+	{103261, 0, "Fluffy Parasol"},
+	{103261, 1, "Fluffy Red Parasol"},
+	{103262, 0, "Blue Sunbed"},
+	{103262, 1, "Green Sunbed"},
+	{103263, 0, "Purple Star Footprint"},
+	{103263, 1, "Yellow Star Footprint"},
+	{103094, 0, "Costume Drooping Fei-Chai"},
+	{103094, 1, "Costume Walking Enjoy A-Ji"},
+	{103094, 2, "Costume Shiba Says Luke"},
+	{103094, 3, "Costume Good Luck Tai-Zi"},
+	{103318, 0, "Enriched Elunium"},
+	{103318, 1, "Enriched Oridecon"},
+	{103319, 0, "HD Elunium"},
+	{103319, 1, "HD Oridecon"},
 	{0, 0, "0"}
 }
 packageitemsetbox = {
@@ -508,6 +524,24 @@ packageitemsetbox = {
 	{102812, 1, 24340, 1, 0, 10, 0},
 	{102949, 0, 410263, 1, 0, 0, 0},
 	{102949, 1, 420303, 1, 0, 0, 0},
+	{103260, 0, 400692, 1, 0, 0, 0},
+	{103260, 1, 400693, 1, 0, 0, 0},
+	{103261, 0, 410351, 1, 0, 0, 0},
+	{103261, 1, 410352, 1, 0, 0, 0},
+	{103262, 0, 420349, 1, 0, 0, 0},
+	{103262, 1, 420350, 1, 0, 0, 0},
+	{103263, 0, 1001617, 1, 0, 0, 0},
+	{103263, 0, 480470, 1, 0, 0, 0},
+	{103263, 1, 1001650, 1, 0, 0, 0},
+	{103263, 1, 480470, 1, 0, 0, 0},
+	{103094, 0, 400664, 1, 0, 0, 0},
+	{103094, 1, 410326, 1, 0, 0, 0},
+	{103094, 2, 420338, 1, 0, 0, 0},
+	{103094, 3, 480445, 1, 0, 0, 0},
+	{103318, 0, 7619, 100, 0, 0, 0},
+	{103318, 1, 7620, 100, 0, 0, 0},
+	{103319, 0, 6241, 26, 0, 0, 0},
+	{103319, 1, 6240, 26, 0, 0, 0},
 	{0, -1, 0, 0, 0, 0, 0}
 }
 

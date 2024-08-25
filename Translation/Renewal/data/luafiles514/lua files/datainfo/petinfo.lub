@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240505
+-- Last updated: 20240817
 
 PetNameTable = {
 	[jobtbl.JT_PORING] = "poring",
@@ -125,6 +125,11 @@ PetNameTable = {
 	[jobtbl.JT_DARK_LORD2] = "DARK_LORD2",
 	[jobtbl.JT_VR_CHAO] = "VR_CHAO",
 	[jobtbl.JT_EP21_ICESEAHORSE] = "ep21_iceseahorse",
+	[jobtbl.JT_CLB_SS_FC] = "CLB_SS_FC",
+	[jobtbl.JT_CLB_SS_TZ] = "CLB_SS_TZ",
+	[jobtbl.JT_MISTRESS3] = "MISTRESS2",
+	[jobtbl.JT_GIANT_HONET2] = "GIANT_HONET",
+	[jobtbl.JT_HORNET] = "Hornet",
 	-- Non-kRO
 	[jobtbl.JT_POURING] = "pouring",
 	[jobtbl.JT_MALE_PORING] = "male_poring",
@@ -270,6 +275,11 @@ PetIllustNameTable = {
 	[jobtbl.JT_DARK_LORD2] = "pet_DARK_LORD2.bmp",
 	[jobtbl.JT_VR_CHAO] = "pet_VR_CHAO.bmp",
 	[jobtbl.JT_EP21_ICESEAHORSE] = "pet_ep21_iceseahorse.bmp",
+	[jobtbl.JT_CLB_SS_FC] = "pet_CLB_SS_FC.bmp",
+	[jobtbl.JT_CLB_SS_TZ] = "pet_CLB_SS_TZ.bmp",
+	[jobtbl.JT_MISTRESS3] = "Pet_MISTRESS2.bmp",
+	[jobtbl.JT_GIANT_HONET2] = "Pet_GIANT_HONET.bmp",
+	[jobtbl.JT_HORNET] = "Pet_HORNET.bmp",
 	-- Non-kRO
 	[jobtbl.JT_POURING] = "pet_pouring.bmp",
 	[jobtbl.JT_PAD_RUBYLIT] = "pet_RUBYLIT.bmp",
@@ -409,6 +419,11 @@ PetIllustNameTable_Eng = {
 	[jobtbl.JT_DARK_LORD2] = "pet_DARK_LORD2.bmp",
 	[jobtbl.JT_VR_CHAO] = "pet_VR_CHAO.bmp",
 	[jobtbl.JT_EP21_ICESEAHORSE] = "pet_ep21_iceseahorse.bmp",
+	[jobtbl.JT_CLB_SS_FC] = "pet_CLB_SS_FC.bmp",
+	[jobtbl.JT_CLB_SS_TZ] = "pet_CLB_SS_TZ.bmp",
+	[jobtbl.JT_MISTRESS3] = "Pet_MISTRESS2.bmp",
+	[jobtbl.JT_GIANT_HONET2] = "Pet_GIANT_HONET.bmp",
+	[jobtbl.JT_HORNET] = "Pet_HORNET.bmp",
 	-- Non-kRO
 	[jobtbl.JT_POURING] = "pet_pouring.bmp",
 	[jobtbl.JT_PAD_RUBYLIT] = "pet_RUBYLIT.bmp",
@@ -687,6 +702,11 @@ PetStringTable = {
 	[jobtbl.JT_DARK_LORD2] = "Dark Lord",
 	[jobtbl.JT_VR_CHAO] = "Chao",
 	[jobtbl.JT_EP21_ICESEAHORSE] = "Ice Seahorse",
+	[jobtbl.JT_CLB_SS_FC] = "Fei-Chai",
+	[jobtbl.JT_CLB_SS_TZ] = "Tai-Zi",
+	[jobtbl.JT_MISTRESS3] = "Mistress",
+	[jobtbl.JT_GIANT_HONET2] = "Giant Hornet",
+	[jobtbl.JT_HORNET] = "Hornet",
 	-- Non-kRO
 	[jobtbl.JT_POURING] = "Pouring",
 	[jobtbl.JT_MALE_PORING] = "Gentleman Poring",
@@ -828,6 +848,11 @@ PetEggItemID_PetJobID = {
 	[9148] = jobtbl.JT_DARK_LORD2,
 	[9156] = jobtbl.JT_VR_CHAO,
 	[9157] = jobtbl.JT_EP21_ICESEAHORSE,
+	[9183] = jobtbl.JT_CLB_SS_FC,
+	[9184] = jobtbl.JT_CLB_SS_TZ,
+	[9193] = jobtbl.JT_MISTRESS3,
+	[9192] = jobtbl.JT_GIANT_HONET2,
+	[9155] = jobtbl.JT_HORNET,
 	-- Non-kRO
 	[9114] = jobtbl.JT_POURING,
 	[9074] = jobtbl.JT_PAD_RUBYLIT,
@@ -970,6 +995,11 @@ PetFoodTable = {
 	[jobtbl.JT_DARK_LORD2] = 25377,
 	[jobtbl.JT_VR_CHAO] = 537,
 	[jobtbl.JT_EP21_ICESEAHORSE] = 537,
+	[jobtbl.JT_CLB_SS_FC] = 537,
+	[jobtbl.JT_CLB_SS_TZ] = 537,
+	[jobtbl.JT_MISTRESS3] = 25377,
+	[jobtbl.JT_GIANT_HONET2] = 537,
+	[jobtbl.JT_HORNET] = 6108,
 	-- Non-kRO
 	[jobtbl.JT_POURING] = 512,
 	[jobtbl.JT_PAD_RUBYLIT] = 537,

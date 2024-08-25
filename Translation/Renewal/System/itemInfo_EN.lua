@@ -15,17 +15,14 @@ dofile("System/LuaFiles514/itemInfo.lua")
 -- Example: (Yes you could add kRO itemInfo itself, but prepare for lua errors)
 --dofile("System/itemInfo_true.lub")
 
--- Additional Configs
+---------------- Additional Configs for translation file ----------------
 -- Display origin server based on translation file's Server argument
 -- 0 = disable/1 = in Item Name/2 = top of description/3 = bottom of description
-DisplayOrigin = 1
+DisplayServer = 1
 
 -- Defines how the item id will be shown in item name, doesn't take effect in other settings
-TagStart = '['
-TagEnd = ']'
-
--- Server Name for your custom items
-ServerName = 'ExampleRO'
+TagStart = '('
+TagEnd = ')'
 
 -- Define the colour in which the Server Name should be shown (affects official)
 -- Format: '^<RRGGBB>'
@@ -33,26 +30,39 @@ ServerName = 'ExampleRO'
 -- '^FFFFFF' = white
 ServerColour = '^FF0000'
 
+-- Show ItemID at bottom (affects custom items as well)
+-- 0 = disable/1 = top of description/2 = bottom of description
+DisplayItemID = 2
+
+-- Display a database link at bottom of description (true/false)
+-- The item id will be automically parsed at the end of 'DbUrl'
+-- example: 'https://www.divine-pride.net/database/item/512'
+DisplayDatabase = true
+DbURL = 'https://www.divine-pride.net/database/item/'
+DbDisplay = 'Divine-Pride.net'
+
+---------------- Additional Configs for custom items ----------------
+-- Display server name
+-- 0 = disable/1 = in Item Name/2 = top of description/3 = bottom of description
+DisplayCustomServer = 1
+
+-- Defines how the item id will be shown in item name, doesn't take effect in other settings
+CustomTagStart = '['
+CustomTagEnd = ']'
+
+-- Server Name for your custom items
+CServerName = 'ExampleRO'
+
 -- Define the colour in which the custom Server Name should be shown (custom items)
 -- Format: '^<RRGGBB>'
 -- '' = same color as "Server: " (^0000CC = blue)
 -- '^FFFFFF' = white
 CServerColour = '^00FF00'
 
--- Show ItemID at bottom
--- 0 = disable/1 = top of description/2 = bottom of description
-DisplayItemID = 2
-
--- Display a database link at bottom of description (true/false)
--- The item id will be automically parsed at the end of 'DbUrl',
--- example: 'https://www.divine-pride.net/database/item/512'
-DisplayDatabase = true
-DbURL = 'https://www.divine-pride.net/database/item/'
-DbDisplay = 'Divine-Pride.net'
-
--- Database link for custom items, like fluxcp
--- The item id will be automically parsed at the end of 'CustomDbUrl',
+-- Database link for custom items, like fluxcp (true/false)
+-- The item id will be automically parsed at the end of 'CustomDbUrl'
 -- example: 'http://127.0.0.1/?module=item&action=view&id=512'
+DisplayCustomDB = false
 CustomDbUrl = 'http://127.0.0.1/?module=item&action=view&id='
 CustomDbDisplay = 'Database'
 
@@ -110,12 +120,7 @@ function itemInfoMerge(src, state)
 			tbl[ItemID] = DESC
 		end
 		if src == tbl_custom then
-			if ServerName ~= nil and tbl[ItemID].Server == nil then
-				tbl[ItemID].Server = ServerName
-			end
-			if DisplayDatabase == true then
-				tbl[ItemID].CustomDB = true
-			end
+			tbl[ItemID].Custom = true
 		end
 	end
 	return

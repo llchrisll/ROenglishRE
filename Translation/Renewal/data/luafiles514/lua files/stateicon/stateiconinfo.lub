@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240624
+-- Last updated: 20240817
 
 COLOR_TITLE_BUFF = { 155, 202, 155 }
 COLOR_TITLE_DEBUFF = { 250, 100, 100 }
@@ -7181,5 +7181,106 @@ StateIconList[EFST_IDs.EFST_CONTENTS_20] = {
 		{ "%s", COLOR_TIME},
 		{ "Decreases Variable Casting Time." },
 		{ "Increases ASPD." }
+	}
+}
+StateIconList[EFST_IDs.EFST_MYSTERY_POWDER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Mystery Powder", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Dust Explosion available." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CHASING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Chasing", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Chasing." },
+		{ "Increases damage of Unlucky Rush." },
+		{ "Increases damage of Chain Reaction Shot's secondary damage." }
+	}
+}
+StateIconList[EFST_IDs.EFST_FIRE_CHARM_POWER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Four Colors Charm: Fire", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Red Flame Cannon." }
+	}
+}
+StateIconList[EFST_IDs.EFST_WATER_CHARM_POWER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Four Colors Charm: Water", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Cold Blooded Cannon." }
+	}
+}
+StateIconList[EFST_IDs.EFST_WIND_CHARM_POWER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Four Colors Charm: Wind", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Thundering Cannon." }
+	}
+}
+StateIconList[EFST_IDs.EFST_GROUND_CHARM_POWER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Four Colors Charm: Earth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Golden Dragon Cannon." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_22] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Commemorative Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "All Basic Stats +15" },
+		{ "All Trait Stats +15" },
+		{ "Increases Damage against enemies" },
+		{ "of every element by 12%." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_23] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dungeon Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage against monsters appearing in" },
+		{ "Varmundt's Biosphere: Depth 1st Floor" }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_24] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dungeon Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage against monsters appearing in" },
+		{ "Garden of Time - Forgotten Time Zone 1" },
+		{ "Garden of Time - Forgotten Time Zone 2" }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_25] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dungeon Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage against monsters appearing in" },
+		{ "(Excluding MVP Boss Monsters)" },
+		{ "Niflheim Pumpkin Farm" },
+		{ "Ancient Shrine Akhet" }
 	}
 }
