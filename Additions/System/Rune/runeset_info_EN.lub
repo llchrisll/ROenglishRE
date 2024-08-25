@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240613
+-- Last updated: 20240817
 
 GradeTable = {
 	[1] = {10000, 10000, 10000, 9000, 9000, 8000, 7000, 6000, 5000, 4000, 3000, 2000, 1000, 500, 100},
@@ -10,7 +10,8 @@ GradeTable = {
 	[3] = {100000, 100000, 100000, 90000, 90000, 90000, 80000, 80000, 80000, 70000, 70000, 70000, 60000, 60000, 50000},
 	[4] = {15000, 15000, 15000, 13500, 13500, 12000, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 150},
 	[5] = {15000, 15000, 15000, 13500, 13500, 12000, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 150},
-	[6] = {12000, 12000, 12000, 10500, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 750, 370, 70}
+	[6] = {12000, 12000, 12000, 10500, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 750, 370, 70},
+	[7] = {100000, 100000, 100000, 90000, 90000, 90000, 80000, 80000, 80000, 70000, 70000, 70000, 60000, 60000, 50000}
 }
 GradeTable_Fail = {
 	[1] = {4000, 4000, 4000, 3600, 3600, 3200, 2800, 2400, 2000, 1600, 1200, 800, 400, 200, 40},
@@ -18,7 +19,8 @@ GradeTable_Fail = {
 	[3] = {0, 0, 0, 2100, 2100, 2100, 2100, 2100, 2100, 2100, 2100, 2100, 2100, 2100, 2100},
 	[4] = {9000, 9000, 9000, 8100, 8100, 7200, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 90},
 	[5] = {9000, 9000, 9000, 8100, 8100, 7200, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 90},
-	[6] = {7200, 7200, 7200, 6300, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 450, 220, 40}
+	[6] = {7200, 7200, 7200, 6300, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 450, 220, 40},
+	[7] = {0, 0, 0, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200}
 }
 RuneSettbl_info = {
 	[RUNETAGIDTBL.EPISODE17] = {
@@ -272,6 +274,14 @@ RuneSettbl_info = {
 			RuneSet_UpGradeList = {80, 81, 82, 83, 84, 84, 86, 87, 88, 89, 90, 91, 92, 92, 94},
 			RuneSet_UpGrade_Percentage_table = 3,
 			RuneSet_UpGrade_Percentage_table_Fail = 3
+		}, 
+		[RUNESETIDTBL.Rt_22nd_Event] = {
+			RuneSetRes = "Rt_22nd_Event",
+			RuneSetActiveList = 195,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_21th_Poring, RUNEIDTBL.Rp_21th_Lunatic, RUNEIDTBL.Rp_21th_Fabre, RUNEIDTBL.Rp_22nd_Savage, RUNEIDTBL.Rp_22nd_Coco, RUNEIDTBL.Rp_21th_Food},
+			RuneSet_UpGradeList = {198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212},
+			RuneSet_UpGrade_Percentage_table = 7,
+			RuneSet_UpGrade_Percentage_table_Fail = 7
 		}
 	}
 }

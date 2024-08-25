@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240624
+-- Last updated: 20240817
 
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -1028,15 +1028,6 @@ hatEffectTable = {
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
 	},
-	[HatEFID.HAT_EF_C_Baby_Gloom] = {
-		resourceFileName = "efst_C_Baby_Gloom\\gloom.str",
-		hatEffectPos = -11,
-		hatEffectPosX = 0,
-		isRenderBeforeCharacter = true,
-		isIgnoreRiding = true,
-		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true
-	},
 	[HatEFID.HAT_EF_WinterNightBells] = {
 		resourceFileName = "efst_WinterNightBells\\christmasx4.str",
 		hatEffectPos = -5,
@@ -1049,6 +1040,73 @@ hatEffectTable = {
 		hatEffectPos = -11,
 		hatEffectPosX = -0.3,
 		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	}, 
+	[HatEFID.HAT_EF_RAINBOW_POISON_MASTER] = { hatEffectID = 2413 },
+	[HatEFID.HAT_EF_C_Ancient_Rune] = {
+		resourceFileName = "efst_C_Ancient_Rune\\sangorunic1.str",
+		hatEffectPos = 0,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Dragon_Green_Aura] = {
+		resourceFileName = "efst_C_Dragon_Green_Aura\\gryoumei.str",
+		hatEffectPos = -17,
+		hatEffectPosX = 0,
+		isIgnoreRiding = false,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Dragon_Red_Aura] = {
+		resourceFileName = "efst_C_Dragon_Red_Aura\\redyoumei.str",
+		hatEffectPos = -17,
+		hatEffectPosX = 0,
+		isIgnoreRiding = false,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Dragon_Yellow_Aura] = {
+		resourceFileName = "efst_C_Dragon_Yellow_Aura\\redyoumei2.str",
+		hatEffectPos = -17,
+		hatEffectPosX = 0,
+		isIgnoreRiding = false,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_Interdimensional_Rift] = {
+		resourceFileName = "efst_Interdimensional_Rift\\Blackhole.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isIgnoreRiding = false,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_CLB_SS_LL] = {
+		resourceFileName = "efst_C_CLB_SS_LL\\bbcat.str",
+		hatEffectPos = -9,
+		hatEffectPosX = 0,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_Vacation] = {
+		resourceFileName = "efst_C_Summer_Beach\\vacation.str",
+		hatEffectPos = -10,
+		hatEffectPosX = 0,
+		isIgnoreRiding = true,
+		isRenderBeforeCharacter = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_FH_Lostwing] = {
+		resourceFileName = "efst_C_FH_Lostwing\\fhlostwing.str",
+		hatEffectPos = -11,
+		hatEffectPosX = -0.5,
+		isRenderBeforeCharacter = true,
+		isIgnoreRiding = true,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
 	}

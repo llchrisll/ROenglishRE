@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230321
+-- Last updated: 20240817
 
 function main()
 	tbl = {
@@ -10,12 +10,12 @@ function main()
 			Material = {
 				{ 940, "메뚜기뒷다리", 4 },
 				{ 942, "원숭이꼬리", 4 }
-		}, 
-			Product = {
-				{  1045, "신관의가면", 1, 1000 }
-		},
-			RandomPermill = 1000
-		}, 
+			}, 
+				Product = {
+					{  1045, "신관의가면", 1, 1000 }
+			},
+				RandomPermill = 1000
+			}, 
 		{
 			Material = {
 				{ 738, "연필꽃이", 20 },
@@ -337,7 +337,7 @@ function main()
 				{ 965, "조개껍질", 10 }
 			},
 			Product = {
-				{ 963, "날카로운비늘", 3, 1000 }
+				{ 963, "날카로운비늘", 2, 1000 }
 			},
 			RandomPermill = 1000
 		},
@@ -625,7 +625,8 @@ function main()
 			Material = {
 				{ 7211, "로제타스톤", 4 },
 				{ 7510, "발할라의꽃", 4 },
-				{ 750, "바포메트인형", 4}},
+				{ 750, "바포메트인형", 4}
+			},
 			Product = {
 				{ 23817, "Bs_Making_S", 1, 800 }
 			},

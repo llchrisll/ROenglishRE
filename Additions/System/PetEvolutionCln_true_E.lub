@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20231021
+-- Last updated: 20240817
 
 function main()
   InsertEvolutionRecipeLGU(9001, 9069, 610, 10)
@@ -223,5 +223,16 @@ function main()
   InsertEvolutionRecipeLGU(9139, 9148, 4171, 10)
   InsertEvolutionRecipeLGU(9139, 9148, 25375, 30)
   InsertPetAutoFeeding(9148)
+  InsertEvolutionRecipeLGU(9155, 9192, 518, 80)
+  InsertEvolutionRecipeLGU(9155, 9192, 526, 50)
+  InsertEvolutionRecipeLGU(9155, 9192, 7121, 200)
+  InsertEvolutionRecipeLGU(9155, 9192, 7163, 300)
+  InsertEvolutionRecipeLGU(9155, 9192, 4019, 10)
+  InsertPetAutoFeeding(9192)
+  InsertEvolutionRecipeLGU(9192, 9193, 4180, 10)
+  InsertEvolutionRecipeLGU(9192, 9193, 4079, 10)
+  InsertEvolutionRecipeLGU(9192, 9193, 4117, 10)
+  InsertEvolutionRecipeLGU(9192, 9193, 25375, 30)
+  InsertPetAutoFeeding(9193)
   return true, "success"
 end

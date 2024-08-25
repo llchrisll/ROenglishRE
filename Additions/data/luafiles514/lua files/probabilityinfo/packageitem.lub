@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240624
+-- Last updated: 20240817
 
 tbl = {
 	[603] = {
@@ -192,7 +192,7 @@ tbl = {
 		{id = 1002, prob = 6, name = "철광석", group = 6},
 		{id = 1003, prob = 6, name = "석탄", group = 6},
 		{id = 1004, prob = 6, name = "충절의 증거", group = 6},
-		{id = 1005, prob = 6, name = "대장장이의 망치", group = 6},
+		{id = 1005, prob = 6, name = "장인의 망치", group = 6},
 		{id = 1006, prob = 6, name = "오래된 마법서", group = 6},
 		{id = 1007, prob = 6, name = "혜안", group = 6},
 		{id = 1008, prob = 6, name = "비정한 마음", group = 6},
@@ -12839,12 +12839,6 @@ tbl = {
 	},
 	[22825] = {
 		{id = 7000, prob = 1, name = "냥다래 마일리지 쿠폰", group = 0},
-		{id = 31532, prob = 50, name = "의상 레드 바렛", group = 6},
-		{id = 31626, prob = 50, name = "의상 부유하는 날개", group = 6},
-		{id = 31552, prob = 50, name = "의상 블루 리본", group = 6},
-		{id = 31315, prob = 50, name = "의상 천사의 스톨", group = 6},
-		{id = 19895, prob = 50, name = "의상 나이트 캡", group = 6},
-		{id = 15905, prob = 50, name = "의상 지크프리트의 투구", group = 6},
 		{id = 420181, prob = 50, name = "의상 에이스 슈핀네", group = 6},
 		{id = 410212, prob = 50, name = "의상 리틀 어비스 드래곤", group = 6},
 		{id = 31137, prob = 50, name = "의상 파랑새의 장미장식", group = 6},
@@ -12858,7 +12852,13 @@ tbl = {
 		{id = 19930, prob = 50, name = "의상 천사의 미니실크햇", group = 6},
 		{id = 400406, prob = 50, name = "의상 디저트의 포로", group = 6},
 		{id = 31686, prob = 50, name = "의상 새끼 데저트 울프", group = 6},
-		{id = 420088, prob = 50, name = "의상 하트 천사", group = 6}
+		{id = 420088, prob = 50, name = "의상 하트 천사", group = 6},
+		{id = 400604, prob = 50, name = "의상 검정 리본 베레모", group = 6},
+		{id = 410312, prob = 50, name = "의상 클로버 헤어핀", group = 6},
+		{id = 20192, prob = 50, name = "의상 푸른 강아지 풀", group = 6},
+		{id = 19772, prob = 50, name = "의상 꿀벌모자", group = 6},
+		{id = 20108, prob = 50, name = "의상 블라인드 글라스", group = 6},
+		{id = 400176, prob = 50, name = "의상 파르페 햇", group = 6}
 	},
 	[22826] = {
 		{id = 6740, prob = 50, name = "회복스톤(상단)", group = 1},
@@ -18465,25 +18465,55 @@ tbl = {
 		{id = 7925, prob = 9, name = "강력한 차원의 정수", group = 6},
 		{id = 100751, prob = 83, name = "제련 보장권 봉투", group = 6},
 		{id = 102226, prob = 9, name = "봉인된 보스 카드첩", group = 6},
-		{id = 19242, prob = 10, name = "새끼 고양이 헤드드레스 [1]", group = 6},
-		{id = 19118, prob = 10, name = "포링 선글래스+ [1]", group = 6},
-		{id = 460020, prob = 10, name = "매드바니-LT [1]", group = 6},
-		{id = 102733, prob = 10, name = "입에 문 에이스 카드 선택상자", group = 6},
-		{id = 410232, prob = 10, name = "갬블러의 씰", group = 6},
-		{id = 25041, prob = 20, name = "영혼의 뚫어뻥", group = 6},
-		{id = 570072, prob = 50, name = "퓨리어스 메탈 바이올린 [2]", group = 6},
-		{id = 580072, prob = 50, name = "퓨리어스 메탈 휩 [2]", group = 6},
-		{id = 570073, prob = 50, name = "진노의 하프 [2]", group = 6},
-		{id = 580073, prob = 50, name = "진노의 채찍 [2]", group = 6},
-		{id = 500101, prob = 50, name = "퓨리어스 레이피어 [2]", group = 6},
-		{id = 500102, prob = 50, name = "진노의 샤프소드 [2]", group = 6},
-		{id = 550148, prob = 50, name = "퓨리어스 스틱 [2]", group = 6},
-		{id = 500103, prob = 50, name = "진노의 백검 [2]", group = 6},
-		{id = 400673, prob = 50, name = "진노의 관(트루바두르&트루베르) [1]", group = 6},
-		{id = 400674, prob = 50, name = "진노의 관(바이올로) [1]", group = 6},
-		{id = 400675, prob = 50, name = "진노의 관(하이퍼 노비스) [1]", group = 6},
-		{id = 470265, prob = 50, name = "진노의 부츠 [1]", group = 6},
-		{id = 102900, prob = 50, name = "진노 향상석", group = 6},
+		{id = 1001809, prob = 30, name = "진노의 무기 쿠폰", group = 6},
+		{id = 1001810, prob = 30, name = "진노의 관 쿠폰", group = 6},
+		{id = 470265, prob = 30, name = "진노의 부츠 [1]", group = 6},
+		{id = 102900, prob = 30, name = "진노 향상석", group = 6},
+		{id = 530060, prob = 10, name = "타임 갭 가디언 스피어 [2]", group = 6},
+		{id = 640054, prob = 10, name = "타임 갭 아크 스태프 [2]", group = 6},
+		{id = 800042, prob = 10, name = "타임 갭 나이트 리볼버 [2]", group = 6},
+		{id = 103308, prob = 10, name = "타임 갭 제련망치", group = 6},
+		{id = 24906, prob = 20, name = "이터널 크로스 이어링 쉐도우", group = 6},
+		{id = 24907, prob = 20, name = "이터널 크로스 펜던트 쉐도우", group = 6},
+		{id = 24908, prob = 20, name = "세비지 아머 쉐도우", group = 6},
+		{id = 24909, prob = 20, name = "세비지 슈즈 쉐도우", group = 6},
+		{id = 24910, prob = 20, name = "가일 이어링 쉐도우", group = 6},
+		{id = 24911, prob = 20, name = "가일 펜던트 쉐도우", group = 6},
+		{id = 24912, prob = 20, name = "크레시브 아머 쉐도우", group = 6},
+		{id = 24913, prob = 20, name = "크레시브 슈즈 쉐도우", group = 6},
+		{id = 24914, prob = 20, name = "적뢰포 이어링 쉐도우", group = 6},
+		{id = 24915, prob = 20, name = "적뢰포 펜던트 쉐도우", group = 6},
+		{id = 24916, prob = 20, name = "금혈포 아머 쉐도우", group = 6},
+		{id = 24917, prob = 20, name = "금혈포 슈즈 쉐도우", group = 6},
+		{id = 1000854, prob = 10, name = "쉐도우 교환 티켓", group = 6},
+		{id = 24746, prob = 10, name = "세퍼레이트 리로드 쉴드 쉐도우", group = 6},
+		{id = 24770, prob = 10, name = "익스피리언스 웨폰 쉐도우", group = 6},
+		{id = 24683, prob = 10, name = "익스피리언스 쉴드 쉐도우", group = 6},
+		{id = 24768, prob = 10, name = "메가 블리츠 웨폰 쉐도우", group = 6},
+		{id = 24767, prob = 10, name = "메가 블리츠 쉴드 쉐도우", group = 6},
+		{id = 24663, prob = 10, name = "풀 페니트레이션 아머 쉐도우", group = 6},
+		{id = 24664, prob = 10, name = "풀 페니트레이션 슈즈 쉐도우", group = 6},
+		{id = 24662, prob = 10, name = "풀 페니트레이션 펜던트 쉐도우", group = 6},
+		{id = 24661, prob = 10, name = "풀 페니트레이션 이어링 쉐도우", group = 6},
+		{id = 24667, prob = 10, name = "풀 템페스트 아머 쉐도우", group = 6},
+		{id = 24666, prob = 10, name = "풀 템페스트 슈즈 쉐도우", group = 6},
+		{id = 24668, prob = 10, name = "풀 템페스트 펜던트 쉐도우", group = 6},
+		{id = 24665, prob = 10, name = "풀 템페스트 이어링 쉐도우", group = 6},
+		{id = 24872, prob = 15, name = "풀 파워 아머 쉐도우", group = 6},
+		{id = 24873, prob = 15, name = "풀 파워 슈즈 쉐도우", group = 6},
+		{id = 24883, prob = 15, name = "풀 스펠 아머 쉐도우", group = 6},
+		{id = 24884, prob = 15, name = "풀 스펠 슈즈 쉐도우", group = 6},
+		{id = 24874, prob = 15, name = "풀 레이트 아머 쉐도우", group = 6},
+		{id = 24875, prob = 15, name = "풀 레이트 슈즈 쉐도우", group = 6},
+		{id = 24876, prob = 20, name = "포커싱 펜던트 쉐도우", group = 6},
+		{id = 24877, prob = 20, name = "포커싱 이어링 쉐도우", group = 6},
+		{id = 24878, prob = 20, name = "스타우트 펜던트 쉐도우", group = 6},
+		{id = 24879, prob = 20, name = "스타우트 이어링 쉐도우", group = 6},
+		{id = 24885, prob = 20, name = "센터링 펜던트 쉐도우", group = 6},
+		{id = 24886, prob = 20, name = "센터링 이어링 쉐도우", group = 6},
+		{id = 24887, prob = 20, name = "위티 펜던트 쉐도우", group = 6},
+		{id = 24888, prob = 20, name = "위티 이어링 쉐도우", group = 6},
+		{id = 103316, prob = 50, name = "특성 스테이터스 쉐도우 큐브", group = 6},
 		{id = 24792, prob = 20, name = "마스터 웨폰 쉐도우", group = 6},
 		{id = 24793, prob = 20, name = "마스터 쉴드 쉐도우", group = 6},
 		{id = 101047, prob = 30, name = "대장장이의 축복 3개 상자", group = 6},
@@ -18493,12 +18523,11 @@ tbl = {
 		{id = 102541, prob = 100, name = "M.슈즈 쉐도우 상자", group = 6},
 		{id = 102542, prob = 100, name = "M.펜던트 쉐도우 상자", group = 6},
 		{id = 102543, prob = 100, name = "M.이어링 쉐도우 상자", group = 6},
-		{id = 101666, prob = 343, name = "특별한 쉐도우 마법서 상자", group = 6},
-		{id = 6635, prob = 345, name = "대장장이의 축복", group = 6},
-		{id = 1001253, prob = 345, name = "쉐도우 에센스", group = 6},
-		{id = 23436, prob = 345, name = "홀그렌의 쉐도우 제련망치", group = 6},
-		{id = 102734, prob = 100, name = "로키의 동전 선택상자", group = 6},
-		{id = 102735, prob = 100, name = "로키의 조언 선택상자", group = 6},
+		{id = 101666, prob = 352, name = "특별한 쉐도우 마법서 상자", group = 6},
+		{id = 6635, prob = 352, name = "대장장이의 축복", group = 6},
+		{id = 1001253, prob = 352, name = "쉐도우 에센스", group = 6},
+		{id = 23436, prob = 352, name = "홀그렌의 쉐도우 제련망치", group = 6},
+		{id = 101180, prob = 50, name = "특성 스테이터스 쉐도우 마법서", group = 6},
 		{id = 100690, prob = 150, name = "매터리얼 쉐도우큐브 II", group = 6},
 		{id = 100198, prob = 300, name = "스킬 쉐도우 큐브", group = 6},
 		{id = 100709, prob = 300, name = "올 쉐도우 큐브", group = 6},
@@ -24938,7 +24967,7 @@ tbl = {
 		{id = 25305, prob = 40, name = "크리티컬 스톤(하단)", group = 6}
 	},
 	[102450] = {
-		{id = 100906, prob = 10, name = "[비매품]21주년 올인원 포션 3개", group = 0},
+		{id = 100906, prob = 10, name = "[비매품]22주년 올인원 포션 3개", group = 0},
 		{id = 101238, prob = 10, name = "[비매품]카프라 버프(7일)", group = 0}
 	},
 	[102451] = {
@@ -29276,6 +29305,146 @@ tbl = {
 		{id = 25304, prob = 40, name = "크리티컬 스톤(상단)", group = 6},
 		{id = 25305, prob = 40, name = "크리티컬 스톤(하단)", group = 6}
 	},
+	[103106] = {
+		{id = 14533, prob = 0, name = "[비매품]상급 전투교범 5개", group = 0}, 
+		{id = 6316, prob = 0, name = "[비매품]지크프리드의 증표 5개", group = 0}, 
+		{id = 23177, prob = 0, name = "[비매품]카프라 명함 10개", group = 0}, 
+		{id = 25464, prob = 0, name = "월드 이동권 10개", group = 0}
+	}, 
+	[103107] = {
+		{id = 100087, prob = 0, name = "[비매품]탑승용 고삐 30일 상자", group = 0}, 
+		{id = 23899, prob = 0, name = "[비매품]올마이티 10개", group = 0}, 
+		{id = 23582, prob = 0, name = "[비매품] 무한 파리의 날개 7일상자 3개", group = 0}, 
+		{id = 100934, prob = 0, name = "[비매품]버프스크롤 상자 3개", group = 0}
+	}, 
+	[103108] = {
+		{id = 9587, prob = 0, name = "[비매품] 삼명수 풀세트 20세트 상자 2개", group = 0}, 
+		{id = 23012, prob = 0, name = "[비매품]소형 마나수 20개", group = 0}, 
+		{id = 100333, prob = 0, name = "[비매품]인피니티 드링크 10개", group = 0}, 
+		{id = 23898, prob = 0, name = "[비매품]파워 부스터 10개", group = 0}
+	}, 
+	[103109] = {
+		{id = 102454, prob = 0, name = "[비매품]올인원 버프 포션 10개", group = 0}, 
+		{id = 102455, prob = 0, name = "[비매품]올인원 힐링 포션 10개", group = 0}, 
+		{id = 1000274, prob = 0, name = "[카츄아]마일리지 쿠폰 10개", group = 0}, 
+		{id = 7000, prob = 0, name = "냥다래 마일리지 쿠폰 10개", group = 0}
+	}, 
+	[103114] = {
+		{id = 480393, prob = 10, name = "의상 블루 문 로리루리의 초승달", group = 0}, 
+		{id = 440013, prob = 10, name = "의상 ROS 한국 1위 모자", group = 0}, 
+		{id = 23751, prob = 10, name = "[비매품]프리미엄 버프 상자", group = 0}, 
+		{id = 101238, prob = 10, name = "[비매품]카프라 버프(7일) 4개", group = 0}
+	}, 
+	[103115] = {
+		{id = 440014, prob = 10, name = "의상 ROS 한국 2위 모자", group = 0}, 
+		{id = 23751, prob = 10, name = "[비매품]프리미엄 버프 상자", group = 0}, 
+		{id = 101238, prob = 10, name = "[비매품]카프라 버프(7일) 4개", group = 0}
+	}, 
+	[103116] = {
+		{id = 440015, prob = 10, name = "의상 ROS 한국 3위 모자", group = 0}, 
+		{id = 23751, prob = 10, name = "[비매품]프리미엄 버프 상자", group = 0}, 
+		{id = 101238, prob = 10, name = "[비매품]카프라 버프(7일) 4개", group = 0}
+	}, 
+	[103117] = {
+		{id = 440016, prob = 10, name = "의상 ROS 한국 참가자 모자", group = 0}, 
+		{id = 23751, prob = 10, name = "[비매품]프리미엄 버프 상자", group = 0}, 
+		{id = 101238, prob = 10, name = "[비매품]카프라 버프(7일) 4개", group = 0}
+	}, 
+	[103118] = {
+		{id = 9587, prob = 10, name = "[비매품] 삼명수 풀세트 20세트 상자", group = 0}, 
+		{id = 9588, prob = 10, name = "[비매품] 빛나는 방어 스크롤 20개 상자", group = 0}, 
+		{id = 12263, prob = 10, name = "[비매품]전투 교범 2개", group = 0}
+	}, 
+	[103234] = {
+		{id = 1000523, prob = 1, name = "레인지 스톤(듀얼)", group = 6}, 
+		{id = 1000524, prob = 1, name = "밀리 스톤(듀얼)", group = 6}, 
+		{id = 1000527, prob = 1, name = "마법력 스톤(듀얼)", group = 6}, 
+		{id = 1000922, prob = 1, name = "스펠 매직 어택 스톤(걸칠것)", group = 6}, 
+		{id = 1001053, prob = 1, name = "밀리 피지컬 어택 스톤(걸칠것)", group = 6}, 
+		{id = 1001054, prob = 1, name = "레인지 피지컬 어택 스톤(걸칠것)", group = 6}, 
+		{id = 1001171, prob = 1, name = "레지스트 디펜스 스톤(걸칠것)", group = 6}, 
+		{id = 1001172, prob = 1, name = "스태미너 위즈덤 스톤(듀얼)", group = 6}, 
+		{id = 1001055, prob = 1, name = "파워 스톤(듀얼)", group = 6}, 
+		{id = 1000921, prob = 1, name = "스펠 스톤(듀얼)", group = 6}, 
+		{id = 1000856, prob = 1, name = "컨센트레이션 스톤(듀얼)", group = 6}, 
+		{id = 1000676, prob = 1, name = "크리에이티브 스톤(듀얼)", group = 6}, 
+		{id = 1001772, prob = 1, name = "강아지 발자국(걸칠것)", group = 6}, 
+		{id = 1001787, prob = 1, name = "아크메이지 스톤(걸칠것)", group = 6}, 
+		{id = 1001788, prob = 1, name = "윈드호크 스톤(걸칠것)", group = 6}, 
+		{id = 1001789, prob = 1, name = "영도사 스톤(걸칠것)", group = 6}, 
+		{id = 1000675, prob = 1, name = "리로드스톤(듀얼)", group = 6}, 
+		{id = 1000855, prob = 1, name = "크리티컬 스톤(듀얼)", group = 6}, 
+		{id = 25302, prob = 2, name = "더블어택 스톤(걸칠것)", group = 6}, 
+		{id = 25303, prob = 2, name = "크리티컬 스톤(걸칠것)", group = 6}, 
+		{id = 1000522, prob = 4, name = "변동캐스팅 스톤(듀얼)", group = 6}, 
+		{id = 1000525, prob = 4, name = "SP흡수스톤(듀얼)", group = 6}, 
+		{id = 1000526, prob = 8, name = "HP흡수스톤(듀얼)", group = 6}, 
+		{id = 1000520, prob = 8, name = "ASPD스톤(듀얼)", group = 6}, 
+		{id = 25306, prob = 8, name = "변동캐스팅 스톤(걸칠것)", group = 6}, 
+		{id = 1000613, prob = 8, name = "워록 스톤(상단)", group = 6}, 
+		{id = 1000614, prob = 8, name = "워록 스톤(중단)", group = 6}, 
+		{id = 1000615, prob = 8, name = "워록 스톤(하단)", group = 6}, 
+		{id = 1000860, prob = 8, name = "레인저 스톤(상단)", group = 6}, 
+		{id = 1000861, prob = 8, name = "레인저 스톤(중단)", group = 6}, 
+		{id = 1000862, prob = 8, name = "레인저 스톤(하단)", group = 6}, 
+		{id = 1001050, prob = 8, name = "소울리퍼 스톤(상단)", group = 6}, 
+		{id = 1001051, prob = 8, name = "소울리퍼 스톤(중단)", group = 6}, 
+		{id = 1001052, prob = 8, name = "소울리퍼 스톤(하단)", group = 6}, 
+		{id = 100465, prob = 17, name = "3차·확장 스톤(걸칠것) 상자", group = 6}, 
+		{id = 102333, prob = 17, name = "3차·확장 스톤III(걸칠것) 상자", group = 6}, 
+		{id = 1000528, prob = 20, name = "마법력 스톤(상단)", group = 6}, 
+		{id = 1000529, prob = 20, name = "마법력 스톤(중단)", group = 6}, 
+		{id = 1000530, prob = 20, name = "마법력 스톤(하단)", group = 6}, 
+		{id = 1000375, prob = 20, name = "레인지 스톤(상단)", group = 6}, 
+		{id = 25061, prob = 20, name = "레인지 스톤(중단)", group = 6}, 
+		{id = 1000376, prob = 20, name = "레인지 스톤(하단)", group = 6}, 
+		{id = 1000377, prob = 20, name = "밀리 스톤(상단)", group = 6}, 
+		{id = 1000378, prob = 20, name = "밀리 스톤(중단)", group = 6}, 
+		{id = 1000379, prob = 20, name = "밀리 스톤(하단)", group = 6}, 
+		{id = 1001168, prob = 20, name = "디펜스 스톤(상단)", group = 6}, 
+		{id = 1001169, prob = 20, name = "디펜스 스톤(중단)", group = 6}, 
+		{id = 1001170, prob = 20, name = "디펜스 스톤(하단)", group = 6}, 
+		{id = 25069, prob = 20, name = "리로드스톤(상단)", group = 6}, 
+		{id = 25070, prob = 20, name = "리로드스톤(중단)", group = 6}, 
+		{id = 25071, prob = 20, name = "리로드스톤(하단)", group = 6}, 
+		{id = 25141, prob = 20, name = "경험치 스톤(중단)", group = 6}, 
+		{id = 25015, prob = 20, name = "경험치 스톤(하단)", group = 6}, 
+		{id = 25171, prob = 20, name = "경험치 스톤(상단)", group = 6}, 
+		{id = 100496, prob = 40, name = "전승·확장 스톤(상단) 상자", group = 6}, 
+		{id = 100497, prob = 40, name = "전승·확장 스톤II(상단) 상자", group = 6}, 
+		{id = 100498, prob = 40, name = "전승·확장 스톤(중단) 상자", group = 6}, 
+		{id = 100499, prob = 40, name = "전승·확장 스톤II(중단) 상자", group = 6}, 
+		{id = 100500, prob = 40, name = "전승·확장 스톤(하단) 상자", group = 6}, 
+		{id = 100501, prob = 40, name = "전승·확장 스톤II(하단) 상자", group = 6}, 
+		{id = 25172, prob = 40, name = "변동캐스팅 스톤(상단)", group = 6}, 
+		{id = 25173, prob = 40, name = "변동캐스팅 스톤(중단)", group = 6}, 
+		{id = 25174, prob = 40, name = "변동캐스팅 스톤(하단)", group = 6}, 
+		{id = 25060, prob = 40, name = "크리티컬 스톤(중단)", group = 6}, 
+		{id = 25304, prob = 40, name = "크리티컬 스톤(상단)", group = 6}, 
+		{id = 25305, prob = 40, name = "크리티컬 스톤(하단)", group = 6}
+	}, 
+	[103278] = {
+		{id = 12018, prob = 10, name = "폭죽 11개", group = 0}, 
+		{id = 23047, prob = 10, name = "[비매품]티르의 축복 22개", group = 0}
+	}, 
+	[103314] = {
+		{id = 100906, prob = 10, name = "[비매품]22주년 올인원 포션 3개", group = 0}, 
+		{id = 101238, prob = 10, name = "[비매품]카프라 버프(7일)", group = 0}
+	}, 
+	[103316] = {
+		{id = 24751, prob = 10, name = "피지컬 파워 웨폰 쉐도우", group = 6}, 
+		{id = 24752, prob = 10, name = "피지컬 파워 쉴드 쉐도우", group = 6}, 
+		{id = 24753, prob = 10, name = "매지컬 스펠 웨폰 쉐도우", group = 6}, 
+		{id = 24754, prob = 10, name = "매지컬 스펠 쉴드 쉐도우", group = 6}, 
+		{id = 24755, prob = 10, name = "컨센트레이션 웨폰 쉐도우", group = 6}, 
+		{id = 24756, prob = 10, name = "컨센트레이션 쉴드 쉐도우", group = 6}, 
+		{id = 24757, prob = 10, name = "위즈덤 웨폰 쉐도우", group = 6}, 
+		{id = 24758, prob = 10, name = "위즈덤 쉴드 쉐도우", group = 6}, 
+		{id = 24759, prob = 10, name = "스태미나 웨폰 쉐도우", group = 6}, 
+		{id = 24760, prob = 10, name = "스태미나 쉴드 쉐도우", group = 6}, 
+		{id = 24761, prob = 10, name = "크리에이티브 웨폰 쉐도우", group = 6}, 
+		{id = 24762, prob = 10, name = "크리에이티브 쉴드 쉐도우", group = 6}
+	}, 
 	[200001] = {
 		{id = 25793, prob = 10, name = "인벤토리 확장 쿠폰 10개", group = 0}
 	},
@@ -30015,6 +30184,150 @@ tbl = {
 		{id = 102803, prob = 1, name = "포스 부스터 200개", group = 0},
 		{id = 23919, prob = 1, name = "카츄아의 비밀열쇠 30개", group = 0},
 		{id = 1000274, prob = 1, name = "[카츄아]마일리지 쿠폰 10개", group = 0}
+	}, 
+	[200425] = {
+		{id = 6909, prob = 1, name = "냥다래 열매 100개", group = 0}, 
+		{id = 7000, prob = 1, name = "냥다래 마일리지 쿠폰 12개", group = 0}, 
+		{id = 103063, prob = 1, name = "의상 인챈트 스톤 상자35 3개", group = 0}
+	}, 
+	[200426] = {
+		{id = 6909, prob = 1, name = "냥다래 열매 200개", group = 0}, 
+		{id = 7000, prob = 1, name = "냥다래 마일리지 쿠폰 25개", group = 0}, 
+		{id = 103063, prob = 1, name = "의상 인챈트 스톤 상자35 5개", group = 0}
+	}, 
+	[200427] = {
+		{id = 6909, prob = 1, name = "냥다래 열매 400개", group = 0}, 
+		{id = 7000, prob = 1, name = "냥다래 마일리지 쿠폰 50개", group = 0}, 
+		{id = 103063, prob = 1, name = "의상 인챈트 스톤 상자35 10개", group = 0}
+	}, 
+	[200434] = {
+		{id = 6909, prob = 1, name = "냥다래 열매 100개", group = 0}, 
+		{id = 103234, prob = 1, name = "의상 인챈트 스톤 상자36 2개", group = 0}, 
+		{id = 12264, prob = 1, name = "[비매품]풍선껌 3개", group = 0}
+	}, 
+	[200435] = {
+		{id = 6909, prob = 1, name = "냥다래 열매 200개", group = 0}, 
+		{id = 14533, prob = 1, name = "[비매품]상급 전투교범 2개", group = 0}, 
+		{id = 103234, prob = 1, name = "의상 인챈트 스톤 상자36 5개", group = 0}
+	}, 
+	[200436] = {
+		{id = 6909, prob = 1, name = "냥다래 열매 400개", group = 0}, 
+		{id = 12264, prob = 1, name = "[비매품]풍선껌 5개", group = 0}, 
+		{id = 14533, prob = 1, name = "[비매품]상급 전투교범 5개", group = 0}, 
+		{id = 103234, prob = 1, name = "의상 인챈트 스톤 상자36 10개", group = 0}
+	}, 
+	[200438] = {
+		{id = 102985, prob = 10, name = "스피드 부스터 50개", group = 0}, 
+		{id = 102803, prob = 10, name = "포스 부스터 50개", group = 0}, 
+		{id = 103260, prob = 10, name = "여름 의상 선택상자(피오니아)", group = 0}, 
+		{id = 103234, prob = 10, name = "의상 인챈트 스톤 상자36 3개", group = 0}
+	}, 
+	[200439] = {
+		{id = 23475, prob = 10, name = "인피니티 드링크 50개", group = 0}, 
+		{id = 14766, prob = 10, name = "파워 부스터 50개", group = 0}, 
+		{id = 103261, prob = 10, name = "여름 의상 선택상자(파라솔)", group = 0}, 
+		{id = 103234, prob = 10, name = "의상 인챈트 스톤 상자36 3개", group = 0}
+	}, 
+	[200440] = {
+		{id = 14534, prob = 10, name = "소형 생명수 200개", group = 0}, 
+		{id = 14535, prob = 10, name = "중형 생명수 200개", group = 0}, 
+		{id = 12832, prob = 10, name = "신묘한 생명수 200개", group = 0}, 
+		{id = 23203, prob = 10, name = "소형 마나수 50개", group = 0}, 
+		{id = 23204, prob = 10, name = "빛나는 방어 스크롤 300개", group = 0}, 
+		{id = 103262, prob = 10, name = "여름 의상 선택상자(선베드)", group = 0}, 
+		{id = 103234, prob = 10, name = "의상 인챈트 스톤 상자36 5개", group = 0}
+	}, 
+	[200441] = {
+		{id = 12883, prob = 10, name = "올마이티 100개", group = 0}, 
+		{id = 12684, prob = 10, name = "ASPD 강화 포션 50개", group = 0}, 
+		{id = 12796, prob = 10, name = "레드 부스터 100개", group = 0}, 
+		{id = 103263, prob = 10, name = "별 발자국 선택상자(여름 해변)", group = 0}, 
+		{id = 103234, prob = 10, name = "의상 인챈트 스톤 상자36 5개", group = 0}
+	}, 
+	[200442] = {
+		{id = 6225, prob = 1, name = "고밀도 카르늄 52개", group = 0}, 
+		{id = 14600, prob = 1, name = "멘탈 포션 12개", group = 0}, 
+		{id = 23919, prob = 1, name = "카츄아의 비밀열쇠 20개", group = 0}, 
+		{id = 6635, prob = 1, name = "대장장이의 축복 10개", group = 0}
+	}, 
+	[200443] = {
+		{id = 6226, prob = 1, name = "고밀도 브라디움 52개", group = 0}, 
+		{id = 14600, prob = 1, name = "멘탈 포션 12개", group = 0}, 
+		{id = 23919, prob = 1, name = "카츄아의 비밀열쇠 20개", group = 0}, 
+		{id = 6635, prob = 1, name = "대장장이의 축복 10개", group = 0}
+	}, 
+	[200445] = {
+		{id = 6909, prob = 10, name = "냥다래 열매 6개", group = 0}, 
+		{id = 23207, prob = 10, name = "프리미엄 정액 서비스 상자", group = 0}, 
+		{id = 100913, prob = 10, name = "카프라 버프(7일)", group = 0}, 
+		{id = 12208, prob = 10, name = "전투 교범 12개", group = 0}, 
+		{id = 14600, prob = 10, name = "멘탈 포션 8개", group = 0}, 
+		{id = 23919, prob = 10, name = "카츄아의 비밀열쇠 22개", group = 0}
+	}, 
+	[200446] = {
+		{id = 14534, prob = 10, name = "소형 생명수 200개", group = 0}, 
+		{id = 14535, prob = 10, name = "중형 생명수 200개", group = 0}, 
+		{id = 12832, prob = 10, name = "신묘한 생명수 200개", group = 0}, 
+		{id = 23919, prob = 10, name = "카츄아의 비밀열쇠 5개", group = 0}, 
+		{id = 6635, prob = 10, name = "대장장이의 축복 2개", group = 0}, 
+		{id = 103272, prob = 10, name = "[비매품]스피드 부스터 11개", group = 0}, 
+		{id = 103273, prob = 10, name = "[비매품]포스 부스터 11개", group = 0}, 
+		{id = 1000274, prob = 10, name = "[카츄아]마일리지 쿠폰 10개", group = 0}
+	}, 
+	[200447] = {
+		{id = 14534, prob = 1, name = "소형 생명수 200개", group = 0}, 
+		{id = 14535, prob = 1, name = "중형 생명수 200개", group = 0}, 
+		{id = 12832, prob = 1, name = "신묘한 생명수 200개", group = 0}, 
+		{id = 23919, prob = 1, name = "카츄아의 비밀열쇠 10개", group = 0}, 
+		{id = 6635, prob = 1, name = "대장장이의 축복 4개", group = 0}, 
+		{id = 1000274, prob = 1, name = "[카츄아]마일리지 쿠폰 20개", group = 0}, 
+		{id = 23475, prob = 1, name = "인피니티 드링크 33개", group = 0}, 
+		{id = 12883, prob = 1, name = "올마이티 33개", group = 0}, 
+		{id = 103272, prob = 1, name = "[비매품]스피드 부스터 22개", group = 0}, 
+		{id = 103273, prob = 1, name = "[비매품]포스 부스터 22개", group = 0}, 
+		{id = 14766, prob = 1, name = "파워 부스터 34개", group = 0}
+	}, 
+	[200448] = {
+		{id = 14534, prob = 10, name = "소형 생명수 200개", group = 0}, 
+		{id = 14535, prob = 10, name = "중형 생명수 200개", group = 0}, 
+		{id = 12832, prob = 10, name = "신묘한 생명수 200개", group = 0}, 
+		{id = 23919, prob = 10, name = "카츄아의 비밀열쇠 15개", group = 0}, 
+		{id = 6635, prob = 10, name = "대장장이의 축복 6개", group = 0}, 
+		{id = 1000274, prob = 10, name = "[카츄아]마일리지 쿠폰 30개", group = 0}, 
+		{id = 23475, prob = 10, name = "인피니티 드링크 33개", group = 0}, 
+		{id = 12883, prob = 10, name = "올마이티 33개", group = 0}, 
+		{id = 14766, prob = 10, name = "파워 부스터 34개", group = 0}, 
+		{id = 23203, prob = 10, name = "소형 마나수 50개", group = 0}, 
+		{id = 103272, prob = 10, name = "[비매품]스피드 부스터 33개", group = 0}, 
+		{id = 103273, prob = 10, name = "[비매품]포스 부스터 33개", group = 0}, 
+		{id = 23204, prob = 10, name = "빛나는 방어 스크롤 300개", group = 0}
+	}, 
+	[200449] = {
+		{id = 6909, prob = 1, name = "냥다래 열매 100개", group = 0}, 
+		{id = 103234, prob = 1, name = "의상 인챈트 스톤 상자36 2개", group = 0}, 
+		{id = 103094, prob = 1, name = "시바세이즈 의상 선택 상자", group = 0}
+	}, 
+	[200450] = {
+		{id = 103318, prob = 1, name = "농축 제련석 선택상자", group = 0}, 
+		{id = 23919, prob = 1, name = "카츄아의 비밀열쇠 10개", group = 0}, 
+		{id = 23436, prob = 1, name = "홀그렌의 쉐도우 제련망치 5개", group = 0}, 
+		{id = 103094, prob = 1, name = "시바세이즈 의상 선택 상자", group = 0}
+	}, 
+	[200451] = {
+		{id = 103319, prob = 1, name = "고농축 제련석 선택상자", group = 0}, 
+		{id = 23919, prob = 1, name = "카츄아의 비밀열쇠 10개", group = 0}, 
+		{id = 23436, prob = 1, name = "홀그렌의 쉐도우 제련망치 5개", group = 0}, 
+		{id = 103094, prob = 1, name = "시바세이즈 의상 선택 상자", group = 0}, 
+		{id = 14600, prob = 1, name = "멘탈 포션 6개", group = 0}
+	}, 
+	[200452] = {
+		{id = 6909, prob = 1, name = "냥다래 열매 6개", group = 0}, 
+		{id = 23207, prob = 1, name = "프리미엄 정액 서비스 상자", group = 0}, 
+		{id = 100913, prob = 1, name = "카프라 버프(7일) 2개", group = 0}, 
+		{id = 12208, prob = 1, name = "전투 교범 12개", group = 0}, 
+		{id = 14600, prob = 1, name = "멘탈 포션 8개", group = 0}, 
+		{id = 23919, prob = 1, name = "카츄아의 비밀열쇠 20개", group = 0}, 
+		{id = 103094, prob = 1, name = "시바세이즈 의상 선택 상자", group = 0}
 	}
 }
 function main()

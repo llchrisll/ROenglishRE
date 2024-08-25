@@ -2,16 +2,21 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240613
+-- Last updated: 20240817
 
 TB_Layer_Priority = {
 	Default_Mid = 100,
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_C_Blue_Sunbed] = { isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Green_Sunbed] = { isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Clover_Hairpin] = { Default = 304, Direction = {} }, 
+		[ACCESSORY_IDs.ACCESSORY_EvilEye_of_FalseGods] = { Default = 304, Direction = {} }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Randgris_Hair] = { Default = 143, Direction = {} }, 
 		[ACCESSORY_IDs.ACCESSORY_C_Desert_Wolf_B] = { Default = 304, isIgnoreRiding = true }, 
 		[ACCESSORY_IDs.ACCESSORY_C_Temari_Candy_Hair] = { Default = 143, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_C_Meer_Hair] = {Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Meer_Hair] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Demi_Freyja_Hair] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Serving_Rabbit] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_C_Consecrate_Aureola_M] = { Default = 304, Direction = { [1] = -100, [0] = -100, [7] = -100 } },
@@ -306,6 +311,7 @@ TB_Layer_Priority = {
 		[ACCESSORY_IDs.ACCESSORY_Black_Dragon_Style] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Pet_Popcorn_Box] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_C_P_blossom_Hairpin] = { Default = 304 },
+		[ACCESSORY_IDs.ACCESSORY_C_Candle_Set] = { Default = 303, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_White_Cat] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_C_Baby_Penguin] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_L_RibbonMuff_Red] = { Default = 303, Direction = {} },
