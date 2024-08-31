@@ -3,17 +3,17 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20230828
+-- Last updated: 20240831
 
-dofile("System/OngoingQuests_CLS.lub")
-dofile("System/RecommendedQuests_CLS.lub")
+dofile("System/OngoingQuests_C.lub")
+dofile("System/RecommendedQuests_C.lub")
 
 function GetOngoingQuestInfoByID(questID)
 	if QuestInfoList[questID] ~= nil then
 		return GetOngoingSimpleView(questID), QuestInfoList[questID].Title, QuestInfoList[questID].IconName, QuestInfoList[questID].Summary, QuestInfoList[questID].NpcSpr, QuestInfoList[questID].NpcNavi, QuestInfoList[questID].RewardEXP, QuestInfoList[questID].RewardJEXP, QuestInfoList[questID].NpcPosX, QuestInfoList[questID].NpcPosY, GetCoolTimeQuest(questID)
 	
-	elseif QuestInfoList_CLS[questID] ~= nil then
-		return GetOngoingSimpleView(questID), QuestInfoList_CLS[questID].Title, QuestInfoList_CLS[questID].IconName, QuestInfoList_CLS[questID].Summary, QuestInfoList_CLS[questID].NpcSpr, QuestInfoList_CLS[questID].NpcNavi, QuestInfoList_CLS[questID].RewardEXP, QuestInfoList_CLS[questID].RewardJEXP, QuestInfoList_CLS[questID].NpcPosX, QuestInfoList_CLS[questID].NpcPosY, GetCoolTimeQuest(questID)
+	elseif QuestInfoList_C[questID] ~= nil then
+		return GetOngoingSimpleView(questID), QuestInfoList_C[questID].Title, QuestInfoList_C[questID].IconName, QuestInfoList_C[questID].Summary, QuestInfoList_C[questID].NpcSpr, QuestInfoList_C[questID].NpcNavi, QuestInfoList_C[questID].RewardEXP, QuestInfoList_C[questID].RewardJEXP, QuestInfoList_C[questID].NpcPosX, QuestInfoList_C[questID].NpcPosY, GetCoolTimeQuest(questID)
 	end
 end
 
@@ -24,8 +24,8 @@ function GetCoolTimeQuest(questID)
 			return desc
 		end
 	end
-	if QuestInfoList_CLS[questID] ~= nil then
-		local desc = QuestInfoList_CLS[questID].CoolTimeQuest
+	if QuestInfoList_C[questID] ~= nil then
+		local desc = QuestInfoList_C[questID].CoolTimeQuest
 		if desc ~= nil then
 			return desc
 		end
@@ -43,8 +43,8 @@ function GetOngoingDescription(questID)
 			AddOngoingDescription(questID, v)
 		end
 	end
-	if QuestInfoList_CLS[questID] ~= nil then
-		local desc = QuestInfoList_CLS[questID].Description
+	if QuestInfoList_C[questID] ~= nil then
+		local desc = QuestInfoList_C[questID].Description
 		if nil == desc then
 			return
 		end
@@ -64,12 +64,12 @@ function GetOngoingRewardInfo(questID)
 			AddOngoingRewardInfo(questID, v.ItemID, v.ItemNum)
 		end
 	end
-	if QuestInfoList_CLS[questID] ~= nil then
-		local reward = QuestInfoList_CLS[questID].RewardItemList
+	if QuestInfoList_C[questID] ~= nil then
+		local reward = QuestInfoList_C[questID].RewardItemList
 		if nil == reward then
 			return
 		end
-		for k, v in pairs(QuestInfoList_CLS[questID].RewardItemList) do
+		for k, v in pairs(QuestInfoList_C[questID].RewardItemList) do
 			AddOngoingRewardInfo(questID, v.ItemID, v.ItemNum)
 		end
 	end
@@ -118,8 +118,8 @@ function RecommendedQuestInfoLoad()
 			end
 		end
 	end
-	if RecommendedQuestInfoList_CLS ~= nil then
-		for questID, table in pairs(RecommendedQuestInfoList_CLS) do
+	if RecommendedQuestInfoList_C ~= nil then
+		for questID, table in pairs(RecommendedQuestInfoList_C) do
 			if nil == table.Title then
 				table.Title = ""
 			end
