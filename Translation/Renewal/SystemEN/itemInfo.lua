@@ -6,10 +6,10 @@
 -- For further information, please visit https://llchrisll.github.io/ROTPDocs/guides/customs/#multi-iteminfo-support.
 
 -- Load the splited function file
-require("System/LuaFiles514/itemInfo_f")
+require("SystemEN/LuaFiles514/itemInfo_f")
 
 -- Load the translation file
-dofile("System/LuaFiles514/itemInfo.lua")
+dofile("SystemEN/LuaFiles514/itemInfo.lua")
 
 -- Load the additional files
 -- Example: (Yes you could add kRO itemInfo itself, but prepare for lua errors)

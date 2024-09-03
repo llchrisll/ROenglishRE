@@ -17,9 +17,7 @@ echo =================================================================
 pause
 
 set "sourceDataPath=..\Addons\Custom Lua Support\data\luafiles514\lua files"
-set "sourceSystemPath=..\Addons\Custom Lua Support\System"
 set "destinationDataPath=.\Client\data\luafiles514\lua files"
-set "destinationSystemPath=.\Client\System"
 
 :CLSMenu
 cls
@@ -31,17 +29,16 @@ echo [4] HatEffects %cls[4]%
 echo [5] NPC/Mob and Pets %cls[5]%
 echo [6] Lapine Boxes %cls[6]%
 echo [7] Navigation %cls[7]%
-echo [8] Quests %cls[8]%
-echo [9] Signboards %cls[9]%
-echo [10] Robes/Costume Garments %cls[10]%
-echo [11] Titles %cls[11]%
-echo [12] Weapons %cls[12]%
-echo [13] World Map %cls[13]%
-echo [14] Exit
+echo [8] Signboards %cls[8]%
+echo [9] Robes/Costume Garments %cls[9]%
+echo [10] Titles %cls[10]%
+echo [11] Weapons %cls[11]%
+echo [12] World Map %cls[12]%
+echo [13] Exit
 echo ===============
 set /p type="Now choose: "
 
-if %type% lss 14 (
+if %type% lss 13 (
     if exist "Client\data\luafiles514\lua files\cls" rmdir /Q /S "Client\data\luafiles514\lua files\cls\"
 )
 
@@ -81,35 +78,31 @@ if %type% equ 1 (
     xcopy "%sourceDataPath%\cls\navi_picknpc.lub" "%destinationDataPath%\cls\navi_picknpc.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\navi_scroll.lub" "%destinationDataPath%\cls\navi_scroll.lub"* /H /C /I /Y
 ) else if %type% equ 8 (
-    xcopy "%sourceDataPath%\cls\questinfo_f.lub" "%destinationDataPath%\cls\questinfo_f.lub"* /H /C /I /Y
-    xcopy "%sourceSystemPath%\OngoingQuests_CLS.lub" "%destinationSystemPath%\OngoingQuests_CLS.lub"* /H /C /I /Y
-    xcopy "%sourceSystemPath%\RecommendedQuests_CLS.lub" "%destinationSystemPath%\RecommendedQuests_CLS.lub"* /H /C /I /Y
-) else if %type% equ 9 (
     xcopy "%sourceDataPath%\cls\signboardlist.lub" "%destinationDataPath%\cls\signboardlist.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\signboardlist_f.lub" "%destinationDataPath%\cls\signboardlist_f.lub"* /H /C /I /Y
-) else if %type% equ 10 (
+) else if %type% equ 9 (
     xcopy "%sourceDataPath%\cls\spriterobeid.lub" "%destinationDataPath%\cls\spriterobeid.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\spriterobename.lub" "%destinationDataPath%\cls\spriterobename.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\spriterobename_f.lub" "%destinationDataPath%\cls\spriterobename_f.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\transparentitem.lub" "%destinationDataPath%\cls\transparentitem.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\transparentitem_f.lub" "%destinationDataPath%\cls\transparentitem_f.lub"* /H /C /I /Y
-) else if %type% equ 11 (
+) else if %type% equ 10 (
     xcopy "%sourceDataPath%\datainfo\titletable.lub" "%destinationDataPath%\datainfo\titletable.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\titletable.lub" "%destinationDataPath%\cls\titletable.lub"* /H /C /I /Y
-) else if %type% equ 12 (
+) else if %type% equ 11 (
     xcopy "%sourceDataPath%\cls\weapontable.lub" "%destinationDataPath%\cls\weapontable.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\weapontable_f.lub" "%destinationDataPath%\cls\weapontable_f.lub"* /H /C /I /Y
-) else if %type% equ 13 (
+) else if %type% equ 12 (
     xcopy "%sourceDataPath%\cls\worldviewdata_f.lub" "%destinationDataPath%\cls\worldviewdata_f.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\worldviewdata_language.lub" "%destinationDataPath%\cls\worldviewdata_language.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\worldviewdata_list.lub" "%destinationDataPath%\cls\worldviewdata_list.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\worldviewdata_table.lub" "%destinationDataPath%\cls\worldviewdata_table.lub"* /H /C /I /Y
 )
 
-if %type% lss 14 (
+if %type% lss 13 (
     
     if %type% equ 1 (
-        for /L %%i in (2,1,13) do (
+        for /L %%i in (2,1,12) do (
             set cls[%%i]= [ Copied ]
         )
     ) else (

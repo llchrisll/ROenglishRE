@@ -7,9 +7,9 @@ echo =================================================================
 pause
 chcp 1252
 set "sourceDataPath=..\Additions\data"
-set "sourceSystemPath=..\Additions\System"
+set "sourceSystemPath=..\Additions\SystemEN"
 set "destinationDataPath=.\Client\data"
-set "destinationSystemPath=.\Client\System"
+set "destinationSystemPath=.\Client\SystemEN"
 
 :AdditionsMenu
 cls
@@ -154,7 +154,7 @@ exit
 	) else if %lua% equ 2 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
-		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname_eng.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname_eng.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accnameg.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accnameg.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
 	) else if %lua% equ 3 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\changedirectorylist.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\changedirectorylist.lub"* /H /C /I /Y
@@ -227,12 +227,12 @@ if %lua% equ 1 (
 	echo =================================================================
 	echo [0] Back to previous Menu
 	echo [1] All in One Package  %sys_c[1]%
-	echo [2] ChangeMaterial_EN.lub %sys_c[2]%
-	echo [3] CheckAttendance_EN.lub %sys_c[3]%
-	echo [4] monster_size_effect_EN.lub (up to 2017-06-14) %sys_c[4]%
-	echo [5] monster_size_effect_EN.lub (2017-06-14 and newer) %sys_c[5]%
-	echo [6] PetEvolutionCln_true_E.lub %sys_c[6]%
-	echo [7] PrivateAirplane_T_EN.lub %sys_c[7]%
+	echo [2] ChangeMaterial.lub %sys_c[2]%
+	echo [3] CheckAttendance.lub %sys_c[3]%
+	echo [4] monster_size_effect.lub (up to 2017-06-14) %sys_c[4]%
+	echo [5] monster_size_effect.lub (2017-06-14 and newer) %sys_c[5]%
+	echo [6] PetEvolution.lub %sys_c[6]%
+	echo [7] PrivateAirplane_T.lub %sys_c[7]%
 	echo [8] Sign_Data_CLS.lub %sys_c[8]%
 	echo [9] OngoingQuests/RecommendedQuests_C.lub %sys_c[9]%
 	::echo [9] Rune Folder %sys_c[10]%
@@ -240,31 +240,31 @@ if %lua% equ 1 (
 	set /p sys="Now choose: "
 	if %sys% equ 0 goto AdditionsMenu
 	if %sys% equ 1 (
-		xcopy "%sourceSystemPath%\ChangeMaterial_EN.lub" "%destinationSystemPath%\ChangeMaterial_EN.lub"* /H /C /I /Y
-		xcopy "%sourceSystemPath%\CheckAttendance_EN.lub" "%destinationSystemPath%\CheckAttendance_EN.lub"* /H /C /I /Y
-		xcopy "%sourceSystemPath%\PetEvolutionCln_true_E.lub" "%destinationSystemPath%\PetEvolutionCln_true_E.lub"* /H /C /I /Y
-		xcopy "%sourceSystemPath%\PrivateAirplane_T_EN.lub" "%destinationSystemPath%\PrivateAirplane_T_EN.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PrivateAirplane_T.lub" "%destinationSystemPath%\PrivateAirplane_T.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\Sign_Data_CLS.lub" "%destinationSystemPath%\Sign_Data_CLS.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\OngoingQuests_C.lub" "%destinationSystemPath%\OngoingQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
 		echo Note: Duo some weird issues, I can't make a simple check + input:
 		echo Are you using an Client newer than 2017-06-14? Y/N
-		echo to copy the correct monster_size_effect_EN for your client.
+		echo to copy the correct monster_size_effect for your client.
 		echo Please copy it seperatly meanwhile. Maybe when I have some more time I will try again.
 		pause
 	) else if %sys% equ 2 (
-		xcopy "%sourceSystemPath%\ChangeMaterial_EN.lub" "%destinationSystemPath%\ChangeMaterial_EN.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
 	) else if %sys% equ 3 (
-		xcopy "%sourceSystemPath%\CheckAttendance_EN.lub" "%destinationSystemPath%\CheckAttendance_EN.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
 	) else if %sys% equ 4 (
-		xcopy "%sourceSystemPath%\monster_size_effect_EN 2015.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\monster_size_effect 2015.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 	) else if %sys% equ 5 (
-		xcopy "%sourceSystemPath%\monster_size_effect_EN.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 	) else if %sys% equ 6 (
-		xcopy "%sourceSystemPath%\PetEvolutionCln_true_E.lub" "%destinationSystemPath%\PetEvolutionCln_true_E.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
 	) else if %sys% equ 7 (
-		xcopy "%sourceSystemPath%\PrivateAirplane_T_EN.lub" "%destinationSystemPath%\PrivateAirplane_T_EN.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PrivateAirplane_T.lub" "%destinationSystemPath%\PrivateAirplane_T.lub"* /H /C /I /Y
 	) else if %sys% equ 8 (
 		xcopy "%sourceSystemPath%\Sign_Data_CLS.lub" "%destinationSystemPath%\Sign_Data_CLS.lub"* /H /C /I /Y
 	) else if %sys% equ 9 (
@@ -278,7 +278,7 @@ if %lua% equ 1 (
     if %sys% equ 1 (
         for /L %%i in (1,1,9) do (
             set sys_c[%%i]= [ Copied ]
-			:: Linked to monster_size_effect_EN and the fail of a simple check
+			:: Linked to monster_size_effect and the fail of a simple check
 			if %%i equ 4 set sys_c[%%i]=
 			if %%i equ 5 set sys_c[%%i]=
         )
