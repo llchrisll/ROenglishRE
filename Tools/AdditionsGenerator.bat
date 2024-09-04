@@ -232,8 +232,8 @@ if %lua% equ 1 (
 	echo [4] monster_size_effect.lub (up to 2017-06-14) %sys_c[4]%
 	echo [5] monster_size_effect.lub (2017-06-14 and newer) %sys_c[5]%
 	echo [6] PetEvolution.lub %sys_c[6]%
-	echo [7] PrivateAirplane_T.lub %sys_c[7]%
-	echo [8] Sign_Data_CLS.lub %sys_c[8]%
+	echo [7] PrivateAirplane.lub %sys_c[7]%
+	echo [8] Signboard_C.lub %sys_c[8]%
 	echo [9] OngoingQuests/RecommendedQuests_C.lub %sys_c[9]%
 	::echo [9] Rune Folder %sys_c[10]%
 	echo =================================================================
@@ -243,15 +243,15 @@ if %lua% equ 1 (
 		xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
-		xcopy "%sourceSystemPath%\PrivateAirplane_T.lub" "%destinationSystemPath%\PrivateAirplane_T.lub"* /H /C /I /Y
-		xcopy "%sourceSystemPath%\Sign_Data_CLS.lub" "%destinationSystemPath%\Sign_Data_CLS.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\Signboard_C.lub" "%destinationSystemPath%\Signboard_C.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\OngoingQuests_C.lub" "%destinationSystemPath%\OngoingQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
 		echo Note: Duo some weird issues, I can't make a simple check + input:
 		echo Are you using an Client newer than 2017-06-14? Y/N
 		echo to copy the correct monster_size_effect for your client.
-		echo Please copy it seperatly meanwhile. Maybe when I have some more time I will try again.
+		echo Please copy it separatly meanwhile. Maybe when I have some more time I will try again.
 		pause
 	) else if %sys% equ 2 (
 		xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
@@ -264,9 +264,9 @@ if %lua% equ 1 (
 	) else if %sys% equ 6 (
 		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
 	) else if %sys% equ 7 (
-		xcopy "%sourceSystemPath%\PrivateAirplane_T.lub" "%destinationSystemPath%\PrivateAirplane_T.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
 	) else if %sys% equ 8 (
-		xcopy "%sourceSystemPath%\Sign_Data_CLS.lub" "%destinationSystemPath%\Sign_Data_CLS.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\Signboard_C.lub" "%destinationSystemPath%\Signboard_C.lub"* /H /C /I /Y
 	) else if %sys% equ 9 (
 		xcopy "%sourceSystemPath%\OngoingQuests_C.lub" "%destinationSystemPath%\OngoingQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
