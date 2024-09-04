@@ -3,7 +3,7 @@
 -- This file only works if used in combination with the
 -- `System/Sign_Data_EN.lub` (Translated Strings) which comes with this project
 -- and the `Custom Lua Support`
--- Last updated: 20231006
+-- Last updated: 20240904
 
 -- Format:
 -- { "map", x, y, Height, Icon ID, "Path", "Content", "Char Color" },
@@ -30,10 +30,8 @@ function MergeSign(size)
 	local ct = size
 	for _, v in pairs(SignBoardList_CLS) do
 		ct = ct + 1
-		if(v ~= nil) then
-			if( SignBoardList[ct] == nil) then
-				SignBoardList[ct] = v
-			end
+		if( SignBoardList[ct] == nil) then
+			SignBoardList[ct] = v
 		end
 	end
 	return 1
