@@ -11,6 +11,9 @@ require("SystemEN/LuaFiles514/itemInfo_f")
 -- Load the translation file
 dofile("SystemEN/LuaFiles514/itemInfo.lua")
 
+-- Load the file for custom items and overrides
+-- dofile("SystemEN/itemInfo_C.lua")
+
 -- Load the additional files
 -- Example: (Yes you could add kRO itemInfo itself, but prepare for lua errors)
 --dofile("System/itemInfo_true.lub")
@@ -66,46 +69,6 @@ DisplayCustomDB = false
 CustomDbUrl = 'http://127.0.0.1/?module=item&action=view&id='
 CustomDbDisplay = 'Database'
 
--- Table for Custom Items
-tbl_custom = {
-	--[[ Template
-	[ID] = {
-		unidentifiedDisplayName = "Unknown Item",
-		unidentifiedResourceName = "",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Item",
-		identifiedResourceName = "",
-		identifiedDescriptionName = {
-			"Line 1",
-			"Line 2"
-		},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	]]
-}
-
--- Table for Official Overrides
-tbl_override = {
-	--[[ Template
-	[ID] = {
-		unidentifiedDisplayName = "Unknown Item",
-		unidentifiedResourceName = "",
-		unidentifiedDescriptionName = { "" },
-		identifiedDisplayName = "Item",
-		identifiedResourceName = "",
-		identifiedDescriptionName = {
-			"Line 1",
-			"Line 2"
-		},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	]]
-}
-
 function itemInfoMerge(src, state)
 	if src == nil then
 		return
@@ -114,8 +77,8 @@ function itemInfoMerge(src, state)
 		if state == false then
 			if not tbl[ItemID] then
 				tbl[ItemID] = {}
-				tbl[ItemID] = DESC
 			end
+			tbl[ItemID] = DESC
 		else
 			tbl[ItemID] = DESC
 		end
@@ -130,6 +93,6 @@ end
 -- @src = table for merge into tbl
 -- @state = overwrite existing entries (true) or not (false)
 
-itemInfoMerge(tbl_override, true) -- official overrides
-itemInfoMerge(tbl_custom, false) -- custom items
+--itemInfoMerge(tbl_override, true) -- official overrides
+--itemInfoMerge(tbl_custom, false) -- custom items
 --itemInfoMerge(tbl, false) -- original kRO iteminfo
