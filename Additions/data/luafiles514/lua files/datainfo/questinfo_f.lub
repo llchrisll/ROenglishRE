@@ -5,8 +5,8 @@
 -- This file only works if used in combination with the `Custom Lua Support`
 -- Last updated: 20240831
 
-dofile("System/OngoingQuests_C.lub")
-dofile("System/RecommendedQuests_C.lub")
+dofile("SystemEN/OngoingQuests_C.lub")
+dofile("SystemEN/RecommendedQuests_C.lub")
 
 function GetOngoingQuestInfoByID(questID)
 	if QuestInfoList[questID] ~= nil then
