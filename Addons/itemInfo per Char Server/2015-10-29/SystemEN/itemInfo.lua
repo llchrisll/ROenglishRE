@@ -5,11 +5,10 @@
 -- Credits to Neo-Mind for original code.
 
 -- Load the split function files
-require("System/LuaFiles514/itemInfo_f")
+require("SystemEN/LuaFiles514/itemInfo_f")
 
 -- Load the translation files
-dofile("System/LuaFiles514/itemInfo.lua")
-dofile("System/LuaFiles514/itemInfo_PRE.lua")
+dofile("SystemEN/LuaFiles514/itemInfo.lua")
 
 -- Additional Configs
 -- Display origin server based on translation file's ServerName argument

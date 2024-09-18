@@ -1,39 +1,19 @@
 from: "D:/Ragnarok Project/Client/Ragexe/2019/2019-06-05hRagexeRE.exe"
-to: "D:/Ragnarok Project/ROTP/ROTP 2022-04-06.exe"
+to: "D:/Ragnarok Project/ROTP/ROTP 2020-08-19.exe"
 inputs:
-    $newAchieveList:
-        data: '73797374656d656e5c616368696576656d656e74732e6c756200'
-        display: "systemen\\achievements.lub"
-        type: 10
-    
-    $newTipBox:
-        data: '53797374656d454e2f746970626f782e6c756200'
-        display: "SystemEN/tipbox.lub"
-        type: 10
-    
-    .choice:
-        data: ''
-        display: ""
-        type: 10
-    
-    $newMonSizeEffect:
-        data: '53797374656d2f6d6f6e737465725f73697a655f6566666563745f454e2e6c756200'
-        display: "System/monster_size_effect_EN.lub"
-        type: 10
-    
-    $newRcmdQInfoList:
-        data: '73797374656d656e5c5265636f6d6d656e64656451756573747300'
-        display: "systemen\\RecommendedQuests"
-        type: 10
-    
     $newCheckAtt:
-        data: '53797374656d2f436865636b417474656e64616e63655f454e2e6c756200'
-        display: "System/CheckAttendance_EN.lub"
+        data: '53797374656d454e2f436865636b417474656e64616e63652e6c756200'
+        display: "SystemEN/CheckAttendance.lub"
         type: 10
     
-    $newTownInfo:
-        data: '53797374656d454e2f546f776e696e666f2e6c756200'
-        display: "SystemEN/Towninfo.lub"
+    $newPetEvoCln:
+        data: '73797374656d656e5c50657445766f6c7574696f6e2e6c756200'
+        display: "systemen\\PetEvolution.lub"
+        type: 10
+    
+    $newItemInfo:
+        data: '53797374656d454e2f6974656d696e666f2e6c756100'
+        display: "SystemEN/iteminfo.lua"
         type: 10
     
     $translationFile:
@@ -46,24 +26,9 @@ inputs:
         display: "systemen\\mapInfo.lub"
         type: 10
     
-    $newPrivAirplane:
-        data: '53797374656d5c50726976617465416972706c616e655f545f454e2e6c756200'
-        display: "System\\PrivateAirplane_T_EN.lub"
-        type: 10
-    
-    $newOngQInfoList:
-        data: '73797374656d656e5c4f6e676f696e6751756573747300'
-        display: "systemen\\OngoingQuests"
-        type: 10
-    
     $showFailures:
         data: ''
         display: "true"
-        type: 10
-    
-    $newPetEvoCln:
-        data: '73797374656d5c50657445766f6c7574696f6e436c6e5f747275655f452e6c756200'
-        display: "system\\PetEvolutionCln_true_E.lub"
         type: 10
     
     $dataINI:
@@ -71,9 +36,44 @@ inputs:
         display: "DATA.INI"
         type: 10
     
-    $newItemInfo:
-        data: '53797374656d454e2f6974656d696e666f2e6c756100'
-        display: "SystemEN/iteminfo.lua"
+    $newTownInfo:
+        data: '53797374656d454e2f546f776e696e666f2e6c756200'
+        display: "SystemEN/Towninfo.lub"
+        type: 10
+    
+    .choice:
+        data: ''
+        display: ""
+        type: 10
+    
+    $newTipBox:
+        data: '53797374656d454e2f746970626f782e6c756200'
+        display: "SystemEN/tipbox.lub"
+        type: 10
+    
+    $newPrivAirplane:
+        data: '53797374656d454e5c50726976617465416972706c616e652e6c756200'
+        display: "SystemEN\\PrivateAirplane.lub"
+        type: 10
+    
+    $newAchieveList:
+        data: '73797374656d656e5c616368696576656d656e74732e6c756200'
+        display: "systemen\\achievements.lub"
+        type: 10
+    
+    $newMonSizeEffect:
+        data: '53797374656d454e2f6d6f6e737465725f73697a655f6566666563742e6c756200'
+        display: "SystemEN/monster_size_effect.lub"
+        type: 10
+    
+    $newOngQInfoList:
+        data: '73797374656d656e5c4f6e676f696e6751756573747300'
+        display: "systemen\\OngoingQuests"
+        type: 10
+    
+    $newRcmdQInfoList:
+        data: '73797374656d656e5c5265636f6d6d656e64656451756573747300'
+        display: "systemen\\RecommendedQuests"
         type: 10
     
 patches:
