@@ -3,79 +3,86 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20240904
+-- Last updated: 20241005
 
 dofile("SystemEN/OngoingQuests_C.lub")
 dofile("SystemEN/RecommendedQuests_C.lub")
 
+------ Additional config for Custom Quests ------
+-- Allows entries in OngoingQuests_C.lub and RecommendedQuests_C.lub to overwrite official entries: true/false
+OnGoingOverwrite = false
+RecommendedOverwrite = false
+-------------------------------------------------
+-- QuestInfoMerge(src, target, state)
+-- @src = table to merge
+-- @target = table to merge into
+-- @state = overwrites official quests, see config above
+function QuestInfoMerge(src, target, state)
+	if src ~= nil then
+		for k,v in pairs(src) do
+			if state == false then
+				if not target[k] then
+					target[k] = {}
+					target[k] = v
+				end
+			else
+				target[k] = v
+			end
+		end
+	end
+end
+-------------------------------------------------
+
 function GetOngoingQuestInfoByID(questID)
 	if QuestInfoList[questID] ~= nil then
 		return GetOngoingSimpleView(questID), QuestInfoList[questID].Title, QuestInfoList[questID].IconName, QuestInfoList[questID].Summary, QuestInfoList[questID].NpcSpr, QuestInfoList[questID].NpcNavi, QuestInfoList[questID].RewardEXP, QuestInfoList[questID].RewardJEXP, QuestInfoList[questID].NpcPosX, QuestInfoList[questID].NpcPosY, GetCoolTimeQuest(questID)
-	
-	elseif QuestInfoList_C[questID] ~= nil then
-		return GetOngoingSimpleView(questID), QuestInfoList_C[questID].Title, QuestInfoList_C[questID].IconName, QuestInfoList_C[questID].Summary, QuestInfoList_C[questID].NpcSpr, QuestInfoList_C[questID].NpcNavi, QuestInfoList_C[questID].RewardEXP, QuestInfoList_C[questID].RewardJEXP, QuestInfoList_C[questID].NpcPosX, QuestInfoList_C[questID].NpcPosY, GetCoolTimeQuest(questID)
+	else
+		return GetOngoingSimpleView(questID), 'Unknown Quest - ID: '..questID
 	end
 end
 
 function GetCoolTimeQuest(questID)
-	if QuestInfoList[questID] ~= nil then
-		local desc = QuestInfoList[questID].CoolTimeQuest
-		if desc ~= nil then
-			return desc
-		end
+	local desc = QuestInfoList[questID].CoolTimeQuest
+	if desc == nil then
+		return 0
 	end
-	if QuestInfoList_C[questID] ~= nil then
-		local desc = QuestInfoList_C[questID].CoolTimeQuest
-		if desc ~= nil then
-			return desc
-		end
-	end
-	return 0
+	return desc
 end
 
 function GetOngoingDescription(questID)
-	if QuestInfoList[questID] ~= nil then
-		local desc = QuestInfoList[questID].Description
-		if nil == desc then
-			return
-		end
-		for k, v in pairs(desc) do
-			AddOngoingDescription(questID, v)
-		end
+	if QuestInfoList[questID] == nil then
+		return AddOngoingDescription(questID,'Missing Quest Entry')
 	end
-	if QuestInfoList_C[questID] ~= nil then
-		local desc = QuestInfoList_C[questID].Description
-		if nil == desc then
-			return
-		end
-		for k, v in pairs(desc) do
-			AddOngoingDescription(questID, v)
-		end
+	local desc = QuestInfoList[questID].Description
+	if nil == desc then
+		return
+	end
+	for k, v in pairs(desc) do
+		AddOngoingDescription(questID, v)
 	end
 end
 
 function GetOngoingRewardInfo(questID)
-	if QuestInfoList[questID] ~= nil then
-		local reward = QuestInfoList[questID].RewardItemList
-		if nil == reward then
-			return
-		end
-		for k, v in pairs(QuestInfoList[questID].RewardItemList) do
-			AddOngoingRewardInfo(questID, v.ItemID, v.ItemNum)
-		end
+	if QuestInfoList[questID] == nil then
+		return
 	end
-	if QuestInfoList_C[questID] ~= nil then
-		local reward = QuestInfoList_C[questID].RewardItemList
-		if nil == reward then
-			return
-		end
-		for k, v in pairs(QuestInfoList_C[questID].RewardItemList) do
-			AddOngoingRewardInfo(questID, v.ItemID, v.ItemNum)
-		end
+	local reward = QuestInfoList[questID].RewardItemList
+	if nil == reward then
+		return
+	end
+	for k, v in pairs(QuestInfoList[questID].RewardItemList) do
+		AddOngoingRewardInfo(questID, v.ItemID, v.ItemNum)
 	end
 end
 
 function RecommendedQuestInfoLoad()
+	if QuestInfoList_C ~= nil then
+		QuestInfoMerge(QuestInfoList_C,QuestInfoList,OnGoingOverwrite)
+	end
+	if RecommendedQuests_C ~= nil then
+		QuestInfoMerge(RecommendedQuests_C,RecommendedQuestInfoList,RecommendedOverwrite)
+	end
+	-----------------------------------------------------------
 	for questID, table in pairs(RecommendedQuestInfoList) do
 		if nil == table.Title then
 			table.Title = ""
@@ -115,50 +122,6 @@ function RecommendedQuestInfoLoad()
 		if nil ~= table.QuestInfo3 then
 			for k, v in pairs(table.QuestInfo3) do
 				AddRecommendedQuestInfo(questID, 2, v)
-			end
-		end
-	end
-	if RecommendedQuestInfoList_C ~= nil then
-		for questID, table in pairs(RecommendedQuestInfoList_C) do
-			if nil == table.Title then
-				table.Title = ""
-			end
-			if nil == table.IconName then
-				table.IconName = ""
-			end
-			if nil == table.Summary then
-				table.Summary = ""
-			end
-			if nil == table.BgName then
-				table.BgName = ""
-			end
-			if nil == table.NpcSpr then
-				table.NpcSpr = ""
-			end
-			if nil == table.NpcNavi then
-				table.NpcNavi = ""
-			end
-			if nil == table.NpcPosX then
-				table.NpcPosX = 0
-			end
-			if nil == table.NpcPosY then
-				table.NpcPosY = 0
-			end
-			InsertRecommededQuestInfo(questID, table.Title, table.IconName, table.Summary, table.BgName, table.NpcSpr, table.NpcNavi, table.NpcPosX, table.NpcPosY)
-			if nil ~= table.QuestInfo1 then
-				for k, v in pairs(table.QuestInfo1) do
-					AddRecommendedQuestInfo(questID, 0, v)
-				end
-			end
-			if nil ~= table.QuestInfo2 then
-				for k, v in pairs(table.QuestInfo2) do
-					AddRecommendedQuestInfo(questID, 1, v)
-				end
-			end
-			if nil ~= table.QuestInfo3 then
-				for k, v in pairs(table.QuestInfo3) do
-					AddRecommendedQuestInfo(questID, 2, v)
-				end
 			end
 		end
 	end

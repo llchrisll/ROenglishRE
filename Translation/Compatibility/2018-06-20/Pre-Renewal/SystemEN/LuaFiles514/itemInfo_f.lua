@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240824
+-- Last updated: 20241005
 
 function main()
 	for ItemID, DESC in pairs(tbl) do
@@ -49,10 +49,16 @@ function main()
 			elseif DisplayCustomServer == 3 and DESC.Custom == true then
 				AddItemIdentifiedDesc(ItemID, "^0000CCServer: "..CServerColour..CServerName.."^000000")
 			end
-			if DisplayDatabase == true and DESC.Custom == nil then
-				AddItemIdentifiedDesc(ItemID, "<URL>"..DbDisplay.."<INFO>"..DbURL..ItemID.."</INFO></URL>")
-			elseif DisplayCustomDB == true and DESC.Custom == true then
-				AddItemIdentifiedDesc(ItemID, "<URL>"..CustomDbDisplay.."<INFO>"..CustomDbUrl..ItemID.."</INFO></URL>")
+			if DisplayDatabase == true or DisplayCustomDB == true then
+				if DisplayDatabase == true and DESC.Custom == nil then
+					local Database = ItemDatabase["Divine-Pride"]
+					if DESC.Server ~= nil and ItemDatabase[DESC.Server] ~= nil then
+						Database = ItemDatabase[DESC.Server]
+					end
+					AddItemIdentifiedDesc(ItemID, "<URL>" .. Database.Name .. "<INFO>" .. Database.URL .. ItemID .. "</INFO></URL>")
+				elseif DisplayCustomDB == true and DESC.Custom == true then
+					AddItemIdentifiedDesc(ItemID, "<URL>" .. ItemDatabase["Custom"].Name .. "<INFO>" .. ItemDatabase["Custom"].URL .. ItemID .. "</INFO></URL>")
+				end
 			end
 		end
 		if nil ~= DESC.EffectID then

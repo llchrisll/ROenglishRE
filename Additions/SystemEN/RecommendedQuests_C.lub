@@ -4,8 +4,6 @@
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the edited `questinfo_f.lub`
 
-RecommendedQuestInfoList_C = {}
-RecommendedQuestInfoList_C = {
 --[[ Quest Info Format:
 	[0] = { -- Quest ID of the List - does not represent any ID of the quest database
 		Title = "",
@@ -27,6 +25,9 @@ RecommendedQuestInfoList_C = {
 		}
 	},
 ]]
+
+RecommendedQuests_C = {}
+RecommendedQuests_C = {
 	[10] = { -- Quest ID of the List - does not represent any ID of the quest database
 		Title = "Custom Recommened Quest Test",
 		IconName = "ico_gq.bmp", -- Icon BMP Name

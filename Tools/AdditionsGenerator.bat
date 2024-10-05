@@ -33,13 +33,15 @@ echo [1] Data Folder
 echo [2] data\luafiles514
 echo [3] System Folder
 echo [4] Legacy Maps
-echo [5] Exit
+echo [5] Legacy Minimaps
+echo [6] Exit
 echo =================================================================
 set /p type="Now choose: "
 if %type% equ 1 goto DataMenu
 if %type% equ 2 goto DataLua
 if %type% equ 3 goto SysLua
 if %type% equ 4 goto DataMaps
+if %type% equ 5 goto MiniMaps
 exit
 
 :DataMenu
@@ -67,8 +69,9 @@ exit
 	echo [17] viewpointtable.txt %datac[17]%
 	echo =================================================================
 	set /p data="Now choose: "
-	if %data% equ 0 goto AdditionsMenu
-	else if %data% equ 1 (
+	if %data% equ 0 (
+		goto AdditionsMenu
+	) else if %data% equ 1 (
 		xcopy "%sourceDataPath%\bookitemnametable.txt" "%destinationDataPath%\bookitemnametable.txt"* /H /C /Y
 		xcopy "%sourceDataPath%\buyingstoreitemlist.txt" "%destinationDataPath%\buyingstoreitemlist.txt"* /H /C /I /Y
 		xcopy "%sourceDataPath%\carditemnametable.txt" "%destinationDataPath%\carditemnametable.txt"* /H /C /I /Y
@@ -163,8 +166,9 @@ exit
 	echo [22] ItemDBNameTbl (2021-10-28 and newer) %lua_c[22]%
 	echo =================================================================
 	set /p lua="Now choose: "
-	if %lua% equ 0 goto AdditionsMenu
-	if %lua% equ 1 (
+	if %lua% equ 0 (
+		goto AdditionsMenu
+	) else if %lua% equ 1 (
 		xcopy "%sourceDataPath%\luafiles514\" "%destinationDataPath%\luafiles514\" /E /H /C /I /Y
 		if %date% lss 20240417 (
 			if exist "%destinationDataPath%\luafiles514\lua files\hateffectinfo\" rmdir /S /Q "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"
@@ -276,9 +280,12 @@ if %lua% equ 1 (
 	echo [9] Rune Folder (2023-08-02 and newer) %sys_c[9]%
 	echo =================================================================
 	set /p sys="Now choose: "
-	if %sys% equ 0 goto AdditionsMenu
-	if %sys% equ 1 (
-		xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
+	if %sys% equ 0 (
+		goto AdditionsMenu
+	) else if %sys% equ 1 (
+		if %date% geq 20221207 (
+			xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
+		)
 		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
@@ -290,6 +297,9 @@ if %lua% equ 1 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
 		) else (
 			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
+		)
+		if %date% geq 20230802 (
+			xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y
 		)
 	) else if %sys% equ 2 (
 		if %date% geq 20221207 (
@@ -330,7 +340,7 @@ if %lua% equ 1 (
         for /L %%i in (1,1,9) do (
             set sys_c[%%i]=[ Copied ]
 			if %%i equ 2 (
-				if %date% lss 20170614 set sys_c[%%i]=
+				if %date% lss 20221207 set sys_c[%%i]=
 			)
 			if %%i equ 9 (
 				if %date% lss 20230802 set sys_c[%%i]=
@@ -385,8 +395,9 @@ if %lua% equ 1 (
 	echo [34] spl_fild01 %omaps[34]%
 	echo =================================================================
 	set /p map="Choose which maps you want to copy: "
-	if %map% equ 0 goto AdditionsMenu
-	else if %map% equ 1 (
+	if %map% equ 0 (
+		goto AdditionsMenu
+	) else if %map% equ 1 (
 		xcopy "%sourceDataPath%\einbroch.gat" "%destinationDataPath%\einbroch.gat"* /H /C /I /Y
 		xcopy "%sourceDataPath%\einbroch.gnd" "%destinationDataPath%\einbroch.gnd"* /H /C /I /Y
 		xcopy "%sourceDataPath%\einbroch.rsw" "%destinationDataPath%\einbroch.rsw"* /H /C /I /Y
@@ -654,4 +665,70 @@ if %lua% equ 1 (
 		set omaps[%map%]=[ Copied ]
 	)
 	goto DataMaps
+	pause
+	
+:MiniMaps
+	cls
+	echo =================================================================
+	echo Legacy Minimaps
+	echo =================================================================
+	echo [0] Back to previous Menu
+	echo [1] All in One Package %mmaps[1]%
+	echo [2] ama_dun01 %mmaps[2]%
+	echo [3] ayo_dun01 %mmaps[3]%
+	echo [4] ice_dun04 %mmaps[4]%
+	echo [5] map2_int %mmaps[5]%
+	echo [6] new_zone02 %mmaps[6]%
+	echo [7] new_zone04 %mmaps[7]%
+	echo [8] ra_temsky %mmaps[8]%
+	echo [9] tha_t07 %mmaps[9]%
+	echo [10] tha_t08 %mmaps[10]%
+	echo [11] thana_boss %mmaps[11]%
+	echo [12] tur_dun05 %mmaps[12]%
+	echo [13] tur_dun06 %mmaps[13]%
+	echo [14] yggdrasil01 %mmaps[14]%
+	echo [15] yuno_in02 %mmaps[15]%
+	echo =================================================================
+	set /p bmap="Choose which minimaps you want to copy: "
+	if %bmap% equ 0 (
+		goto AdditionsMenu
+	) else if %bmap% equ 1 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\" "%destinationDataPath%\texture\유저인터페이스\map\"* /H /C /I /Y
+	) else if %bmap% equ 2 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\ama_dun01.bmp" "%destinationDataPath%\texture\유저인터페이스\map\ama_dun01.bmp"* /H /C /I /Y
+	) else if %bmap% equ 3 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\ayo_dun01.bmp" "%destinationDataPath%\texture\유저인터페이스\map\ayo_dun01.bmp"* /H /C /I /Y
+	) else if %bmap% equ 4 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\ice_dun04.bmp" "%destinationDataPath%\texture\유저인터페이스\map\ice_dun04.bmp"* /H /C /I /Y
+	) else if %bmap% equ 5 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\map2_int.bmp" "%destinationDataPath%\texture\유저인터페이스\map\map2_int.bmp"* /H /C /I /Y
+	) else if %bmap% equ 6 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\new_zone02.bmp" "%destinationDataPath%\texture\유저인터페이스\map\new_zone02.bmp"* /H /C /I /Y
+	) else if %bmap% equ 7 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\new_zone04.bmp" "%destinationDataPath%\texture\유저인터페이스\map\new_zone04.bmp"* /H /C /I /Y
+	) else if %bmap% equ 8 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\ra_temsky.bmp" "%destinationDataPath%\texture\유저인터페이스\map\ra_temsky.bmp"* /H /C /I /Y
+	) else if %bmap% equ 9 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\tha_t07.bmp" "%destinationDataPath%\texture\유저인터페이스\map\tha_t07.bmp"* /H /C /I /Y
+	) else if %bmap% equ 10 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\tha_t08.bmp" "%destinationDataPath%\texture\유저인터페이스\map\tha_t08.bmp"* /H /C /I /Y
+	) else if %bmap% equ 11 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\thana_boss.bmp" "%destinationDataPath%\texture\유저인터페이스\map\thana_boss.bmp"* /H /C /I /Y
+	) else if %bmap% equ 12 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\tur_dun05.bmp" "%destinationDataPath%\texture\유저인터페이스\map\tur_dun05.bmp"* /H /C /I /Y
+	) else if %bmap% equ 13 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\tur_dun06.bmp" "%destinationDataPath%\texture\유저인터페이스\map\tur_dun06.bmp"* /H /C /I /Y
+	) else if %bmap% equ 14 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\yggdrasil01.bmp" "%destinationDataPath%\texture\유저인터페이스\map\yggdrasil01.bmp"* /H /C /I /Y
+	) else if %bmap% equ 15 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\yuno_in02.bmp" "%destinationDataPath%\texture\유저인터페이스\map\yuno_in02.bmp"* /H /C /I /Y
+	)
+    if %bmap% equ 1 (
+        for /L %%i in (1,1,15) do (
+            set mmaps[%%i]=[ Copied ]
+        )
+    ) else (
+		set mmaps[%bmap%]=[ Copied ]
+	)
+	goto MiniMaps
 	pause

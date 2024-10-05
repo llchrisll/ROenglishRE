@@ -38,11 +38,7 @@ ServerColour = '^FF0000'
 DisplayItemID = 2
 
 -- Display a database link at bottom of description (true/false)
--- The item id will be automically parsed at the end of 'DbUrl'
--- example: 'https://www.divine-pride.net/database/item/512'
 DisplayDatabase = true
-DbURL = 'https://www.divine-pride.net/database/item/'
-DbDisplay = 'Divine-Pride.net'
 
 ---------------- Additional Configs for custom items ----------------
 -- Display server name
@@ -63,12 +59,24 @@ CServerName = 'ExampleRO'
 CServerColour = '^00FF00'
 
 -- Database link for custom items, like fluxcp (true/false)
--- The item id will be automically parsed at the end of 'CustomDbUrl'
--- example: 'http://127.0.0.1/?module=item&action=view&id=512'
 DisplayCustomDB = false
-CustomDbUrl = 'http://127.0.0.1/?module=item&action=view&id='
-CustomDbDisplay = 'Database'
 
+----- Table for Database Links -------------------
+ItemDatabase = {
+	["Divine-Pride"] = {
+		Name = "Divine-Pride.net",
+		URL = "https://www.divine-pride.net/database/item/"
+	},
+	["iRO"] = {
+		Name = "iRO Wiki",
+		URL = "https://db.irowiki.org/db/item-info/"
+	},
+	["Custom"] = {
+		Name = "Database",
+		URL = "http://127.0.0.1/?module=item&action=view&id="
+	}
+}
+---------------- Don't touch the functions below unless you know what you are doing ----------------
 function itemInfoMerge(src, state)
 	if src == nil then
 		return
@@ -77,8 +85,8 @@ function itemInfoMerge(src, state)
 		if state == false then
 			if not tbl[ItemID] then
 				tbl[ItemID] = {}
+				tbl[ItemID] = DESC
 			end
-			tbl[ItemID] = DESC
 		else
 			tbl[ItemID] = DESC
 		end
