@@ -3,18 +3,20 @@
 -- This file only works if used in combination with the `Custom Lua Support`
 
 function querytransparentiteminfo(Index)
+	if transparentItemlist_CLS ~= nil and CLSTransp == nil then
+		CLSTransp = MergeTransparent(#transparentItemlist)
+	end
 	if transparentItemlist[Index] ~= nil then
 		return transparentItemlist[Index][1], transparentItemlist[Index][2], transparentItemlist[Index][3], transparentItemlist[Index][4]
-	else
-		if transparentItemlist_CLS == nil then
-			return nil, nil, nil, nil
-		end
-		if( Index >= #transparentItemlist ) then
-			local cIndex = Index - #transparentItemlist
-			if transparentItemlist_CLS[cIndex] ~= nil then
-				return transparentItemlist_CLS[cIndex][1], transparentItemlist_CLS[cIndex][2], transparentItemlist_CLS[cIndex][3], transparentItemlist_CLS[cIndex][4]
-			end
-		end
 	end
 	return nil, nil, nil, nil
+end
+
+function MergeTransparent(size)
+	local ct = size
+	for _, v in pairs(transparentItemlist_CLS) do
+		transparentItemlist[ct] = v
+		ct = ct + 1
+	end
+	return 1
 end
