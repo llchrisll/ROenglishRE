@@ -403,7 +403,7 @@ You have failed to disband the guild due to your incorrect SSN.#
 You have failed to disband the guild because there are guildsmen still present.#
 Set this guild as an Antagonist#
 Choose Hair Color#
-You need an Emperium to create a Guild#
+You need an Emperium to create a Guild.#
 Monster Info#
 Name#
 Level#
@@ -1395,7 +1395,7 @@ An user of this server cannot connect to free server#
 Your password has expired. Please log in again#
 3rdJob#
 This skill can't be used on that target.#
-You can't use skill because you have exceeded the Ancilla possession limit#
+You can't use the skill because you have exceeded the Ancilla item limit.#
 [Holy Water] is required.#
 [Ancilla] is required.#
 Cannot be duplicated within a certain distance.#
@@ -1416,7 +1416,7 @@ There is no summoned sphere or you do not have enough sphere.#
 There is no imitation skills available.#
 You can't reuse this skill#
 Skill can't be used in this state#
-You have exceeded the maximum amount of possession of another item.#
+You have exceeded the maximum amount of the same item.#
 No administrative privileges. Must first run the program with administrator privileges.#
 nProtect KeyCrypt not the same. Please restart the program and the computer first.#
 Currently in Windows XP Compatibility Mode. The program now removes Compatibility Mode. Please restart the program.#
@@ -2513,8 +2513,8 @@ Please enter the time#
 Please enter the Item DB Name#
 Item ID lookup failed. Please try again later#
 >> ItemName : %s / Price : %dc / Quantity : %d / TimeOfSale : %dMonth:%dDay:%dHour:%dMinute ~ %dMonth:%dDay:%dHour:%dMinute#
-Registration successful#
-Registration failure. Please try again later.#
+Registration Successful#
+Registration failed. Please try again later.#
 Item has already been registered. Please try again later.#
 Failed to remove this item. Please try again later.#
 %s item has been removed.#
@@ -2522,7 +2522,7 @@ Special#
 Update quantity of limited sale items#
 Sales closed#
 item count should be renewed#
-Item stock is low. You can only buy %d items.#
+Item stock is limited. You can only buy %d items.#
 %s Items are on sale#
 %s time-out or sale of the items sold has been shut down due to the limited sales #
 /limitedsale#
@@ -2691,7 +2691,7 @@ Can't join a Guild in this area.#
 Can't leave a Guild in this area.#
 Can't expel Guild member in this area.#
 Can't change a Guild title in this area#
-Please empty at least 5 amount of possession in item window.#
+Please make sure you have space for at least 5 items in your inventory.#
 E X P : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
 DROP  : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
 DEATH : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
@@ -2976,8 +2976,8 @@ Success#
 Return#
 With Mr/Miss#
 The Homunculus's name will be changed to^0000ff^0000ff %s^000000^000000, Are you sure?#
-You can be called by Calling Skills (Emergency Call,...). (/call)#
-You cannot be called by Calling Skills (Emergency Call,...). (/call)#
+You can be \"called\" with various skills (Emergency Call,...). (/call)#
+You cannot be \"called\" with various skills (Emergency Call,...). (/call)#
 Display Call messages#
 This character is currently opening a shop and can't be deleted#
 The same vend shop NPC has been set up#
@@ -3649,16 +3649,16 @@ A card is inserted or it's enchanted.#
 Z#
 Total : %s Zeny#
 Limited Account Sales Registration Window#
-Item DB Name#
-Item DB Number#
-Number of Sale#
-Sale Start Time#
-End of Sale#
+Item Name#
+Item ID#
+Item Quantity#
+Sale Start Date#
+Sale End Date#
 Account Limited#
 Sales Period: %02d/%02d %02d:%02d#
-Available per account#
-Limit: %d each#
->> ItemName: %s / Quantity: %d / Sales Period: %d month:%d day:%d hour:%d minutes ~ %d month:%d day:%d hour:%d minutes#
+Available#
+Limit: %d#
+>> ItemName: %s\nQuantity: %d\nSales Period: %02d/%02d - %02d:%02d ~ %02d/%02d - %02d:%02d#
 Sold Out#
 [%s] is currently in a non-summonable area.#
 ~ %d month/%d day %d:%d#
