@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240817
+-- Last updated: 20241027
 
 ReformInfo = {
 	[1] = {
@@ -23852,6 +23852,989 @@ ReformInfo = {
 			"2) Cards: Transfered",
 			"3) Grade Rating: Transfered"
 		}
+	},
+	[1276] = {
+		BaseItem = "Time_Gap_MT_Axe",
+		Material = { ["대장장이의축복"] = 12, Time_D_Ma_Rune = 2 },
+		ResultItem = "Time_Gap_MT_Axe",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1277] = {
+		BaseItem = "Time_Gap_TR_Ribbon",
+		Material = { ["대장장이의축복"] = 12, Time_D_Ma_Rune = 2 },
+		ResultItem = "Time_Gap_TR_Ribbon",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1278] = {
+		BaseItem = "Time_Gap_TR_Vilolin",
+		Material = { ["대장장이의축복"] = 12, Time_D_Ma_Rune = 2 },
+		ResultItem = "Time_Gap_TR_Vilolin",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1279] = {
+		BaseItem = "Time_Gap_HN_Staff",
+		Material = { ["대장장이의축복"] = 12, Time_D_Ma_Rune = 2 },
+		ResultItem = "Time_Gap_HN_Staff",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1280] = {
+		BaseItem = "S_DK_SS_Earring",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_DK_SS_Earring",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1281] = {
+		BaseItem = "S_DK_SS_Pendant",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_DK_SS_Pendant",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1282] = {
+		BaseItem = "S_DK_HS_Armor",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_DK_HS_Armor",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1283] = {
+		BaseItem = "S_DK_HS_Shoes",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_DK_HS_Shoes",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1284] = {
+		BaseItem = "S_TR_RW_Earring",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_TR_RW_Earring",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1285] = {
+		BaseItem = "S_TR_RW_Pendant",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_TR_RW_Pendant",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1286] = {
+		BaseItem = "S_TR_MF_Armor",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_TR_MF_Armor",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1287] = {
+		BaseItem = "S_TR_MF_Shoes",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_TR_MF_Shoes",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1288] = {
+		BaseItem = "S_NW_SO_Earring",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_NW_SO_Earring",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1289] = {
+		BaseItem = "S_NW_SO_Pendant",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_NW_SO_Pendant",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1290] = {
+		BaseItem = "S_NW_WB_Armor",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_NW_WB_Armor",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1291] = {
+		BaseItem = "S_NW_WB_Shoes",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_NW_WB_Shoes",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1310] = {
+		BaseItem = "Time_Gap_BO_Blade",
+		Material = { ["대장장이의축복"] = 12, Time_D_Ma_Rune = 2 },
+		ResultItem = "Time_Gap_BO_Blade",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1311] = {
+		BaseItem = "Time_Gap_SHC_Dagger1",
+		Material = { ["대장장이의축복"] = 12, Time_D_Ma_Rune = 2 },
+		ResultItem = "Time_Gap_SHC_Dagger1",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1312] = {
+		BaseItem = "Time_Gap_SHC_Dagger2",
+		Material = { ["대장장이의축복"] = 12, Time_D_Ma_Rune = 2 },
+		ResultItem = "Time_Gap_SHC_Dagger2",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1313] = {
+		BaseItem = "Time_Gap_SOA_Rod",
+		Material = { ["대장장이의축복"] = 12, Time_D_Ma_Rune = 2 },
+		ResultItem = "Time_Gap_SOA_Rod",
+		NeedRefineMin = 9,
+		NeedRefineMax = 11,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Cards: Transfered",
+			"3) Grade Rating: Transfered"
+		}
+	},
+	[1314] = {
+		BaseItem = "S_MT_MS_Earring",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_MT_MS_Earring",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1315] = {
+		BaseItem = "S_MT_MS_Pendant",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_MT_MS_Pendant",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1316] = {
+		BaseItem = "S_MT_PR_Armor",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_MT_PR_Armor",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1317] = {
+		BaseItem = "S_MT_PR_Shoes",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_MT_PR_Shoes",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1318] = {
+		BaseItem = "S_BO_EP_Earring",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_BO_EP_Earring",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1319] = {
+		BaseItem = "S_BO_EP_Pendant",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_BO_EP_Pendant",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1320] = {
+		BaseItem = "S_BO_MD_Armor",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_BO_MD_Armor",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1321] = {
+		BaseItem = "S_BO_MD_Shoes",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_BO_MD_Shoes",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1322] = {
+		BaseItem = "S_HN_VJ_Earring",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_HN_VJ_Earring",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1323] = {
+		BaseItem = "S_HN_VJ_Pendant",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_HN_VJ_Pendant",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1324] = {
+		BaseItem = "S_HN_TB_Armor",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_HN_TB_Armor",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1325] = {
+		BaseItem = "S_HN_TB_Shoes",
+		Material = { S_Enchant_Essence = 2 },
+		ResultItem = "S_HN_TB_Shoes",
+		NeedRefineMin = 0,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "NSU",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Cards: Transfered",
+			"3) Random Options: 1~2 types granted",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1292] = {
+		BaseItem = "Yorscalp_Armor",
+		Material = { Zelunium = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 100 },
+		ResultItem = "Yorscalp_Armor",
+		NeedRefineMin = 10,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1293] = {
+		BaseItem = "Yorscalp_Robe",
+		Material = { Zelunium = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 100 },
+		ResultItem = "Yorscalp_Robe",
+		NeedRefineMin = 10,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1294] = {
+		BaseItem = "Yorscalp_Manteau",
+		Material = { Zelunium = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 100 },
+		ResultItem = "Yorscalp_Manteau",
+		NeedRefineMin = 10,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1295] = {
+		BaseItem = "Yorscalp_Muffler",
+		Material = { Zelunium = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 100 },
+		ResultItem = "Yorscalp_Muffler",
+		NeedRefineMin = 10,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1296] = {
+		BaseItem = "Yorscalp_Boots",
+		Material = { Zelunium = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 100 },
+		ResultItem = "Yorscalp_Boots",
+		NeedRefineMin = 10,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1297] = {
+		BaseItem = "Yorscalp_Shoes",
+		Material = { Zelunium = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 100 },
+		ResultItem = "Yorscalp_Shoes",
+		NeedRefineMin = 10,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1298] = {
+		BaseItem = "Yorscalp_P_Circlet",
+		Material = { Zelunium = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 100 },
+		ResultItem = "Yorscalp_P_Circlet",
+		NeedRefineMin = 10,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1299] = {
+		BaseItem = "Yorscalp_M_Circlet",
+		Material = { Zelunium = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 100 },
+		ResultItem = "Yorscalp_M_Circlet",
+		NeedRefineMin = 10,
+		NeedRefineMax = 10,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1300] = {
+		BaseItem = "Gaebolg_Armor",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Armor",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1301] = {
+		BaseItem = "Gaebolg_Robe",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Robe",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1302] = {
+		BaseItem = "Gaebolg_Manteau",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Manteau",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1303] = {
+		BaseItem = "Gaebolg_Muffler",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Muffler",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1304] = {
+		BaseItem = "Gaebolg_Boots",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Boots",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1305] = {
+		BaseItem = "Gaebolg_Shoes",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Shoes",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: Transfered",
+			"2) Random Options: Transfered",
+			"3) Cards: Transfered",
+			"4) Grade Rating: Transfered"
+		}
+	},
+	[1306] = {
+		BaseItem = "Gaebolg_Earring",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Earring",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Random Options: Transfered",
+			"2) Cards: Transfered"
+		}
+	},
+	[1307] = {
+		BaseItem = "Gaebolg_Glove",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Glove",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Random Options: Transfered",
+			"2) Cards: Transfered"
+		}
+	},
+	[1308] = {
+		BaseItem = "Gaebolg_Ring",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Ring",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Random Options: Transfered",
+			"2) Cards: Transfered"
+		}
+	},
+	[1309] = {
+		BaseItem = "Gaebolg_Necklace",
+		Material = { Ep21_Wigner_Ticket = 200, Yorscalp_Serpent = 10, Yorscalp_Symbol = 50, Yorscalp_Spirit = 200 },
+		ResultItem = "Yorscalp_Necklace",
+		NeedRefineMin = 0,
+		NeedRefineMax = 20,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 0,
+		RandomOptionCode = "",
+		PreserveSocketItem = true,
+		PreserveGrade = true,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Random Options: Transfered",
+			"2) Cards: Transfered"}
 	}
 }
 ReformItemList = {
@@ -23944,6 +24927,8 @@ ReformItemList = {
 	Gaebolg_A_Hammer_1 = { 1148, 1149, 1150, 1151, 1152, 1153 },
 	Gaebolg_A_Hammer_2 = { 1154, 1155, 1156, 1157, 1158, 1159 },
 	Gaebolg_A_Hammer_3 = { 1160, 1161, 1162, 1163, 1164, 1165 },
-	Reform_4th_Skill_Shadow = { 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272 },
-	Time_Gap_Refine_Hammer = { 1273, 1274, 1275 }
+	Reform_4th_Skill_Shadow = { 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291, 1314, 1315, 1316, 1317, 1318, 1319, 1320, 1321, 1322, 1323, 1324, 1325 },
+	Time_Gap_Refine_Hammer = { 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1310, 1311, 1312, 1313 },
+	Yorscalp_Refin_Hammer = { 1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299 },
+	Yorscalp_Scroll_A = { 1300, 1301, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309 }
 }

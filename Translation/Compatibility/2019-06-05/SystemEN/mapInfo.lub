@@ -2,9 +2,27 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240817
+-- Last updated: 20241027
 
 mapTbl = {
+	["jor_sklf1.rsw"] = {
+		displayName = "Jormungand Cult Shrine 1st Floor",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Annex of the Jormungand Cult Shrine",
+			mainTitle = "Yorscalp 1st Floor"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["jor_sklf2.rsw"] = {
+		displayName = "Jormungand Cult Shrine 2nd Floor",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Annex of the Jormungand Cult Shrine",
+			mainTitle = "Yorscalp 2nd Floor"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["nif_fild03.rsw"] = {
 		displayName = "Niflheim Pumpkin Farm",
 		notifyEnter = true,
