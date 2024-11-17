@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240316
+-- Last updated: 20240817
 
 SKILL_INFO_LIST = {
 	[SKID.NPC_TARGET_MARKER] = {
@@ -15884,7 +15884,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 7,
 		SpAmount = { 32, 37, 42, 47, 52, 57, 62 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 3 },
 			{ SKID.SH_CHUL_HO_SONIC_CLAW, 3 }
@@ -16583,6 +16583,373 @@ SKILL_INFO_LIST = {
 			{ SKID.SS_RAIDENPOU, 5 },
 			{ SKID.SS_KINRYUUHOU, 5 },
 			{ SKID.SS_ANTENPOU, 5 }
+		}
+	},
+	[SKID.All_EVENT_20TH_ANNIVERSARY] = {
+		"All_EVENT_20TH_ANNIVERSARY",
+		SkillName = "RO 20th Anniversary Firecracker",
+		MaxLv = 1,
+		SpAmount = { 1 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.IG_RADIANT_SPEAR] = {
+		"IG_RADIANT_SPEAR",
+		SkillName = "Radiant Spear",
+		MaxLv = 10,
+		SpAmount = { 67, 69, 71, 73, 75, 77, 79, 81, 83, 85 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.IG_OVERSLASH, 3 },
+			{ SKID.IG_SHIELD_SHOOTING, 3 }
+		}
+	},
+	[SKID.IG_IMPERIAL_CROSS] = {
+		"IG_IMPERIAL_CROSS",
+		SkillName = "Imperial Cross",
+		MaxLv = 5,
+		SpAmount = { 49, 53, 57, 61, 65 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.IG_OVERSLASH, 5 }
+		}
+	},
+	[SKID.MT_RUSH_STRIKE] = {
+		"MT_RUSH_STRIKE",
+		SkillName = "Rush Strike",
+		MaxLv = 5,
+		SpAmount = { 85, 80, 75, 70, 65 },
+		bSeperateLv = false,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.MT_RUSH_QUAKE, 5 }
+		}
+	},
+	[SKID.MT_POWERFUL_SWING] = {
+		"MT_POWERFUL_SWING",
+		SkillName = "Powerful Swing",
+		MaxLv = 5,
+		SpAmount = { 62, 64, 66, 68, 70 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.MT_RUSH_STRIKE, 3 }
+		}
+	},
+	[SKID.MT_ENERGY_CANNONADE] = {
+		"MT_ENERGY_CANNONADE",
+		SkillName = "Energy Cannonade",
+		MaxLv = 5,
+		SpAmount = { 58, 64, 70, 76, 82 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.MT_TRIPLE_LASER, 3 }
+		}
+	},
+	[SKID.BO_MYSTERY_POWDER] = {
+		"BO_MYSTERY_POWDER",
+		SkillName = "Mystery Powder",
+		MaxLv = 5,
+		SpAmount = { 82, 82, 82, 82, 82 },
+		bSeperateLv = false,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.BO_EXPLOSIVE_POWDER, 5 }
+		}
+	},
+	[SKID.BO_DUST_EXPLOSION] = {
+		"BO_DUST_EXPLOSION",
+		SkillName = "Dust Explosion",
+		MaxLv = 5,
+		SpAmount = { 64, 67, 70, 73, 76 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.BO_MYSTERY_POWDER, 3 }
+		}
+	},
+	[SKID.SHC_CROSS_SLASH] = {
+		"SHC_CROSS_SLASH",
+		SkillName = "Cross Slash",
+		MaxLv = 5,
+		SpAmount = { 58, 63, 68, 73, 78 },
+		bSeperateLv = false,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.GC_WEAPONBLOCKING, 3 },
+			{ SKID.SHC_DANCING_KNIFE, 3 }
+		}
+	},
+	[SKID.ABC_HIT_AND_SLIDING] = {
+		"ABC_HIT_AND_SLIDING",
+		SkillName = "Hit And Sliding",
+		MaxLv = 5,
+		SpAmount = { 43, 46, 49, 52, 55 },
+		bSeperateLv = false,
+		AttackRange = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.ABC_DAGGER_AND_BOW_M, 3 }
+		}
+	},
+	[SKID.ABC_CHASING_BREAK] = {
+		"ABC_CHASING_BREAK",
+		SkillName = "Chasing Break",
+		MaxLv = 5,
+		SpAmount = { 62, 66, 70, 74, 78 },
+		bSeperateLv = false,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.ABC_HIT_AND_SLIDING, 3 }
+		}
+	},
+	[SKID.ABC_CHASING_SHOT] = {
+		"ABC_CHASING_SHOT",
+		SkillName = "Chasing Shot",
+		MaxLv = 5,
+		SpAmount = { 85, 90, 95, 100, 105 },
+		bSeperateLv = false,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.ABC_HIT_AND_SLIDING, 3 }
+		}
+	},
+	[SKID.TR_RHYTHMICAL_WAVE] = {
+		"TR_RHYTHMICAL_WAVE",
+		SkillName = "Rhythmical Wave",
+		MaxLv = 5,
+		SpAmount = { 78, 84, 90, 96, 102 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.TR_METALIC_FURY, 3 }
+		}
+	},
+	[SKID.SS_FOUR_CHARM] = {
+		"SS_FOUR_CHARM",
+		SkillName = "Four Colors Charm",
+		MaxLv = 1,
+		SpAmount = { 90 },
+		ApAmount = { 20 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.KO_KAIHOU, 1 },
+			{ SKID.SS_SHINKIROU, 1 }
+		}
+	},
+	[SKID.NW_WILD_SHOT] = {
+		"NW_WILD_SHOT",
+		SkillName = "Wild Shot",
+		MaxLv = 5,
+		SpAmount = { 60, 63, 66, 69, 72 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.NW_ONLY_ONE_BULLET, 3 },
+			{ SKID.NW_SPIRAL_SHOOTING, 3 },
+			{ SKID.NW_MAGAZINE_FOR_ONE, 3 }
+		}
+	},
+	[SKID.NW_MIDNIGHT_FALLEN] = {
+		"NW_MIDNIGHT_FALLEN",
+		SkillName = "Midnight Fallen",
+		MaxLv = 5,
+		SpAmount = { 50, 55, 60, 65, 70 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.NW_THE_VIGILANTE_AT_NIGHT, 3 },
+			{ SKID.NW_MAGAZINE_FOR_ONE, 3 },
+			{ SKID.NW_WILD_FIRE, 3 }
+		}
+	}, 
+	[SKID.DK_DRAGONIC_PIERCE] = {
+		"DK_DRAGONIC_PIERCE",
+		SkillName = "Dragonic Pierce",
+		MaxLv = 5,
+		SpAmount = { 45, 50, 55, 60, 65 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.DK_HACKANDSLASHER, 7 }
+		}
+	},
+	[SKID.IG_IMPERIAL_PRESSURE] = {
+		"IG_IMPERIAL_PRESSURE",
+		SkillName = "Imperial Pressure",
+		MaxLv = 5,
+		SpAmount = { 89, 93, 97, 101, 105 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.IG_SPEAR_SWORD_M, 7 },
+			{ SKID.IG_GUARD_STANCE, 3 }
+		}
+	},
+	[SKID.ABC_ABYSS_FLAME] = {
+		"ABC_ABYSS_FLAME",
+		SkillName = "Abyss Flame",
+		MaxLv = 5,
+		SpAmount = { 82, 86, 90, 94, 98 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.ABC_MAGIC_SWORD_M, 5 },
+			{ SKID.ABC_FROM_THE_ABYSS, 3 }
+		}
+	},
+	[SKID.ABC_ABYSS_FLAME_ATK] = {
+		"ABC_ABYSS_FLAME_ATK",
+		SkillName = "Abyss Flame",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1}
+	}
+	, 
+	[SKID.AG_ENERGY_CONVERSION] = {
+		"AG_ENERGY_CONVERSION",
+		SkillName = "Energy Conversion",
+		MaxLv = 5,
+		SpAmount = { 10, 10, 10, 10, 10 },
+		ApAmount = { 22, 19, 16, 13, 10 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.WL_RECOGNIZEDSPELL, 2 },
+			{ SKID.AG_CLIMAX, 1 }
+		}
+	},
+	[SKID.EM_PSYCHIC_STREAM] = {
+		"EM_PSYCHIC_STREAM",
+		SkillName = "Psychic Stream",
+		MaxLv = 5,
+		SpAmount = { 77, 84, 91, 98, 105 },
+		ApAmount = { 5, 5, 5, 5, 5 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.EM_MAGIC_BOOK_M, 5 },
+			{ SKID.EM_DIAMOND_STORM, 3 },
+			{ SKID.EM_CONFLAGRATION, 3 },
+			{ SKID.EM_LIGHTNING_LAND, 3 },
+			{ SKID.EM_TERRA_DRIVE, 3 },
+			{ SKID.EM_VENOM_SWAMP, 3 }
+		}
+	},
+	[SKID.CD_DIVINUS_FLOS] = {
+		"CD_DIVINUS_FLOS",
+		SkillName = "Divinus Flos",
+		MaxLv = 5,
+		SpAmount = { 99, 103, 107, 111, 115 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.AB_ADORAMUS, 5 },
+			{ SKID.CD_FRAMEN, 5 }
+		}
+	},
+	[SKID.IQ_BLAZING_FLAME_BLAST] = {
+		"IQ_BLAZING_FLAME_BLAST",
+		SkillName = "Blazing Flame Blast",
+		MaxLv = 5,
+		SpAmount = { 54, 58, 62, 66, 70 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.IQ_MASSIVE_F_BLASTER, 7 }
+		}
+	},
+	[SKID.WH_WILD_WALK] = {
+		"WH_WILD_WALK",
+		SkillName = "Wild Walk",
+		MaxLv = 5,
+		SpAmount = { 63, 66, 69, 72, 75 },
+		ApAmount = { 5, 5, 5, 5, 5 },
+		bSeperateLv = false,
+		AttackRange = { 11, 11, 11, 11, 11 },
+		_NeedSkillList = {
+			{ SKID.WH_NATUREFRIENDLY, 3 },
+			{ SKID.WH_HAWKRUSH, 3 }
+		}
+	},
+	[SKID.SKE_SKY_SUN] = {
+		"SKE_SKY_SUN",
+		SkillName = "Sky Sun",
+		MaxLv = 5,
+		SpAmount = { 72, 76, 80, 84, 88 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SKE_NOON_BLAST, 3 },
+			{ SKID.SKE_SUNSET_BLAST, 3 },
+			{ SKID.SKE_ENCHANTING_SKY, 7 }
+		}
+	},
+	[SKID.SKE_SKY_MOON] = {
+		"SKE_SKY_MOON",
+		SkillName = "Sky Moon",
+		MaxLv = 5,
+		SpAmount = { 56, 59, 62, 65, 68 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.SKE_MIDNIGHT_KICK, 3 },
+			{ SKID.SKE_DAWN_BREAK, 3 },
+			{ SKID.SKE_ENCHANTING_SKY, 7 }
+		}
+	},
+	[SKID.SKE_STAR_LIGHT_KICK] = {
+		"SKE_STAR_LIGHT_KICK",
+		SkillName = "Star Light Kick",
+		MaxLv = 5,
+		SpAmount = { 52, 57, 62, 67, 72 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.SKE_STAR_BURST, 3 },
+			{ SKID.SKE_STAR_CANNON, 3 },
+			{ SKID.SKE_ENCHANTING_SKY, 7 }
+		}
+	},
+	[SKID.HN_OVERCOMING_CRISIS] = {
+		"HN_OVERCOMING_CRISIS",
+		SkillName = "Overcoming Crisis",
+		MaxLv = 5,
+		SpAmount = { 70, 73, 76, 79, 82 },
+		ApAmount = { 50, 50, 50, 50, 50 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.HN_SELFSTUDY_TATICS, 5 },
+			{ SKID.HN_SELFSTUDY_SOCERY, 5 }
+		}
+	},
+	[SKID.SH_CHUL_HO_BATTERING] = {
+		"SH_CHUL_HO_BATTERING",
+		SkillName = "Chulho Battering",
+		MaxLv = 7,
+		SpAmount = { 64, 66, 68, 70, 72, 74, 76 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 7 },
+			{ SKID.SH_CHUL_HO_SONIC_CLAW, 5 }
+		}
+	},
+	[SKID.SH_HYUN_ROK_SPIRIT_POWER] = {
+		"SH_HYUN_ROK_SPIRIT_POWER",
+		SkillName = "Hyunrok Spirit Power",
+		MaxLv = 7,
+		SpAmount = { 70, 73, 76, 79, 82, 85, 88 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 7 },
+			{ SKID.SH_HYUN_ROKS_BREEZE, 5 }
 		}
 	}
 }
