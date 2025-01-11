@@ -1,10 +1,26 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
+require('SystemEN/LuaFiles514/rotp_f')
+
 function ReqRobSprName(index)
-	if RobeNameTable_CLS ~= nil and CLSRobes == nil then
-		CLSRobes = MergeRobes(#RobeNameTable)
+	if CLSRobes == nil then
+		if SPRITE_ROBE_IDs_CLS ~= nil then
+			F_LuaTableMerge(SPRITE_ROBE_IDs_CLS,SPRITE_ROBE_IDs)
+		end
+		if RobeNameTable_CLS ~= nil then
+			F_LuaTableMerge(RobeNameTable_CLS,RobeNameTable)
+		end
+		if RobeNameTable_Eng_CLS ~= nil then
+			F_LuaTableMerge(RobeNameTable_Eng_CLS,RobeNameTable_Eng)
+		end
+		if RobeTopLayer_CLS ~= nil then
+			F_LuaTableMerge(RobeTopLayer_CLS,RobeTopLayer)
+		end
+		CLSRobes = 1
 	end
 	if RobeNameTable[index] == nil then
 		return ""
@@ -38,23 +54,5 @@ function IsTopLayer(RobeID)
 			return true
 		end
 	end
-	for i,v in ipairs(RobeTopLayer_CLS) do
-		if v == RobeID then
-			return true
-		end
-	end
 	return false
-end
-
-function MergeRobes(size)
-	local ct = size
-	for _, v in pairs(RobeNameTable_CLS) do
-		ct = ct + 1
-		if(v ~= nil) then
-			if( RobeNameTable[ct] == nil) then
-				RobeNameTable[ct] = v
-			end
-		end
-	end
-	return 1
 end

@@ -1,14 +1,53 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20230710
+
+require('SystemEN/LuaFiles514/rotp_f')
 
 function ReqJobName(jobID)
+	if CLSJobs == nil then
+		if jobtbl_CLS ~= nil then
+			F_LuaTableMerge(jobtbl_CLS,jobtbl)
+		end
+		if JobNameTable_CLS ~= nil then
+			F_LuaTableMerge(JobNameTable_CLS,JobNameTable)
+		end
+		if JTtbl_CLS ~= nil then
+			F_LuaTableInsert(JTtbl_CLS,JTtbl)
+		end
+		if PetNameTable_CLS ~= nil then
+			F_LuaTableMerge(PetNameTable_CLS,PetNameTable)
+		end
+		if PetIllustNameTable_CLS ~= nil then
+			F_LuaTableMerge(PetIllustNameTable_CLS,PetIllustNameTable)
+		end
+		if PetIllustNameTable_Eng_CLS ~= nil then
+			F_LuaTableMerge(PetIllustNameTable_Eng_CLS,PetIllustNameTable_Eng)
+		end
+		if PetAccIDs_CLS ~= nil then
+			F_LuaTableInsert(PetAccIDs_CLS,PetAccIDs)
+		end
+		if PetAccActNameTable_CLS ~= nil then
+			F_LuaTableMerge(PetAccActNameTable_CLS,PetAccActNameTable)
+		end
+		if PetAccActNameTable_Eng_CLS ~= nil then
+			F_LuaTableMerge(PetAccActNameTable_Eng_CLS,PetAccActNameTable_Eng)
+		end
+		if PetStringTable_CLS ~= nil then
+			F_LuaTableMerge(PetStringTable_CLS,PetStringTable)
+		end
+		if PetEggItemID_PetJobID_CLS ~= nil then
+			F_LuaTableMerge(PetEggItemID_PetJobID_CLS,PetEggItemID_PetJobID)
+		end
+		if PetFoodTable_CLS ~= nil then
+			F_LuaTableMerge(PetFoodTable_CLS,PetFoodTable)
+		end
+		CLSJobs = 1
+	end
 	if JobNameTable[jobID] ~= nil then
 		return JobNameTable[jobID]
-	end
-	if JobNameTable_CLS ~= nil and JobNameTable_CLS[jobID] ~= nil then
-		return JobNameTable_CLS[jobID]
 	end
 	return ""
 end
@@ -17,13 +56,6 @@ function GetJobString(jobID)
 	for k, v in pairs(jobtbl) do
 		if v == jobID then
 			return k
-		end
-	end
-	if jobtbl_CLS ~= nil then
-		for k, v in pairs(jobtbl_CLS) do
-			if v == jobID then
-				return k
-			end
 		end
 	end
 	return ""
@@ -35,9 +67,6 @@ function GetPetIllustName(jobID)
 	if PetIllustNameTable[jobID] ~= nil then
 		fileName = PetIllustNameTable[jobID]
 	end
-	if PetIllustNameTable_CLS ~= nil and PetIllustNameTable_CLS[jobID] ~= nil then
-		fileName = PetIllustNameTable_CLS[jobID]
-	end
 	return filePath .. fileName
 end
 
@@ -47,9 +76,6 @@ function GetPetIllustName_V2(jobID, in_bResEnglishName)
 	if in_bResEnglishName == true then
 		if PetIllustNameTable_Eng[jobID] ~= nil then
 			fileName = PetIllustNameTable_Eng[jobID]
-		end
-		if PetIllustNameTable_Eng_CLS ~= nil and PetIllustNameTable_Eng_CLS[jobID] ~= nil then
-			fileName = PetIllustNameTable_Eng_CLS[jobID]
 		end
 	else
 		return GetPetIllustName(jobID)
@@ -63,9 +89,6 @@ function GetPetIllustName_V3(jobID)
 	if PetIllustNameTable_Eng[jobID] ~= nil then
 		fileName = PetIllustNameTable_Eng[jobID]
 	end
-	if PetIllustNameTable_Eng_CLS ~= nil and PetIllustNameTable_Eng_CLS[jobID] ~= nil then
-		fileName = PetIllustNameTable_Eng_CLS[jobID]
-	end
 	return filePath .. fileName
 end
 
@@ -74,9 +97,6 @@ function GetPetAccActName(accID)
 	local fileName = "chocho_¹æµ¶¸é.act"
 	if PetAccActNameTable[accID] ~= nil then
 		fileName = PetAccActNameTable[accID]
-	end
-	if PetAccActNameTable_CLS ~= nil and PetAccActNameTable_CLS[accID] ~= nil then
-		fileName = PetAccActNameTable_CLS[accID]
 	end
 	return filePath .. fileName
 end
@@ -88,9 +108,6 @@ function GetPetAccActName_V2(accID, in_bResEnglishName)
 		if PetAccActNameTable_Eng[accID] ~= nil then
 			fileName = PetAccActNameTable_Eng[accID]
 		end
-		if PetAccActNameTable_Eng_CLS ~= nil and PetAccActNameTable_Eng_CLS[accID] ~= nil then
-			fileName = PetAccActNameTable_Eng_CLS[accID]
-		end
 	else
 		return GetPetAccActName(accID)
 	end
@@ -101,9 +118,6 @@ function IsPetAccessory(accID)
 	if accID > PetAccIDs.ACC_FIRST and accID < PetAccIDs.ACC_LAST then
 		return true
 	end
-	if PetAccIDs_CLS ~= nil and accID > PetAccIDs_CLS.ACC_FIRST and accID < PetAccIDs_CLS.ACC_LAST then
-		return true
-	end
 	return false
 end
 
@@ -112,18 +126,12 @@ function GetPetName(jobID)
 	if PetNameTable[jobID] ~= nil then
 		petName = PetNameTable[jobID]
 	end
-	if PetNameTable_CLS ~= nil and PetNameTable_CLS[jobID] ~= nil then
-		petName = PetNameTable_CLS[jobID]
-	end
 	return petName
 end
 
 function GetPetString(jobID)
 	if PetStringTable[jobID] ~= nil then
 		return PetStringTable[jobID]
-	end
-	if PetStringTable_CLS ~= nil and PetStringTable_CLS[jobID] ~= nil then
-		return PetStringTable_CLS[jobID]
 	end
 	return ""
 end
@@ -132,18 +140,12 @@ function GetPetJTID_by_PetEggITID(petEggITID)
 	if PetEggItemID_PetJobID[petEggITID] ~= nil then
 		return PetEggItemID_PetJobID[petEggITID]
 	end
-	if PetEggItemID_PetJobID_CLS ~= nil and PetEggItemID_PetJobID_CLS[petEggITID] ~= nil then
-		return PetEggItemID_PetJobID_CLS[petEggITID]
-	end
 	return -1
 end
 
 function GetPetFood(jobID)
 	if PetFoodTable[jobID] ~= nil then
 		return PetFoodTable[jobID]
-	end
-	if PetFoodTable_CLS ~= nil and PetFoodTable_CLS[jobID] ~= nil then
-		return PetFoodTable_CLS[jobID]
 	end
 	return -1
 end

@@ -1,9 +1,8 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
--- This file only works if used in combination with the
--- `System/Sign_Data_EN.lub` (Translated Strings) which comes with this project
--- and the `Custom Lua Support`
--- Last updated: 20240904
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- This file only works if used in combination with the `Custom Lua Support`
 
 dofile("SystemEN/Sign_Data.lub")
 
@@ -16,9 +15,11 @@ local FILEPATH = 6
 local CONTENTS = 7
 local CHARCOLOR = 8
 
+require('SystemEN/LuaFiles514/rotp_f')
+
 function GetSignBoardListTable(idx)
-	if (SignBoardList_CLS ~= nil and CLSSign == nil) then
-		CLSSign = MergeSign(#SignBoardList)
+	if SignBoardList_CLS ~= nil and CLSSign == nil then
+		CLSSign = F_LuaTableInsert(SignBoardList_CLS,SignBoardList)
 	end
 	if( SignBoardIgnore ~= nil) then
 		for i, v in pairs(SignBoardIgnore) do

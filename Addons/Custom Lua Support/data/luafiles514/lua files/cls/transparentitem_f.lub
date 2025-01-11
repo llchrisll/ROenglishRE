@@ -1,22 +1,17 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
+require('SystemEN/LuaFiles514/rotp_f')
+
 function querytransparentiteminfo(Index)
-	if transparentItemlist_CLS ~= nil and CLSTransp == nil then
-		CLSTransp = MergeTransparent(#transparentItemlist)
+	if transparentItemlist_CLS ~= nil and CLSTrans == nil then
+		CLSTrans = F_LuaTableInsert(transparentItemlist_CLS,transparentItemlist)
 	end
 	if transparentItemlist[Index] ~= nil then
 		return transparentItemlist[Index][1], transparentItemlist[Index][2], transparentItemlist[Index][3], transparentItemlist[Index][4]
 	end
 	return nil, nil, nil, nil
-end
-
-function MergeTransparent(size)
-	local ct = size
-	for _, v in pairs(transparentItemlist_CLS) do
-		transparentItemlist[ct] = v
-		ct = ct + 1
-	end
-	return 1
 end

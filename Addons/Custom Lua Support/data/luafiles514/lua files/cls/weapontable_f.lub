@@ -1,20 +1,36 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
+require('SystemEN/LuaFiles514/rotp_f')
+
 function ReqWeaponName(index)
+	if CLS == nil then
+		if Weapon_IDs_CLS ~= nil then
+			F_LuaTableMerge(Weapon_IDs_CLS,Weapon_IDs)
+		end
+		if WeaponNameTable_CLS ~= nil then
+			F_LuaTableMerge(WeaponNameTable_CLS,WeaponNameTable)
+		end
+		if Expansion_Weapon_IDs_CLS ~= nil then
+			F_LuaTableMerge(Expansion_Weapon_IDs_CLS,Expansion_Weapon_IDs)
+		end
+		if WeaponHitWaveNameTable_CLS ~= nil then
+			F_LuaTableMerge(WeaponHitWaveNameTable_CLS,WeaponHitWaveNameTable)
+		end
+		if BowTypeList_CLS ~= nil then
+			F_LuaTableMerge(BowTypeList_CLS,BowTypeList)
+		end
+		CLS = 1
+	end
 	if WeaponNameTable == nil then
 		return ""
 	end
 	local NameMsg = WeaponNameTable[index]
 	if NameMsg ~= nil then
 		return NameMsg
-	end
-	if WeaponNameTable_CLS ~= nil then
-		local NameMsg = WeaponNameTable_CLS[index]
-		if NameMsg ~= nil then
-			return NameMsg
-		end
 	end
 	return ""
 end
@@ -27,12 +43,6 @@ function ReqWeaponNameByClassNum(classNum)
 	if NameMsg ~= nil then
 		return NameMsg
 	end
-	if WeaponNameTable_CLS ~= nil then
-		local NameMsg = WeaponNameTable_CLS[classNum]
-		if NameMsg ~= nil then
-			return NameMsg
-		end
-	end
 	return ""
 end
 
@@ -43,12 +53,6 @@ function GetRealWeaponId(weaponId)
 	local id = Expansion_Weapon_IDs[weaponId]
 	if id ~= nil then
 		return id
-	end
-	if Expansion_Weapon_IDs_CLS ~= nil then
-		local id = Expansion_Weapon_IDs_CLS[weaponId]
-		if id ~= nil then
-			return id
-		end
 	end
 	return weaponId
 end
@@ -61,12 +65,6 @@ function ReqWeaponHitWaveName(index)
 	if NameMsg ~= nil then
 		return NameMsg
 	end
-	if WeaponHitWaveNameTable_CLS ~= nil then
-		local NameMsg = WeaponHitWaveNameTable_CLS[index]
-		if NameMsg ~= nil then
-			return NameMsg
-		end
-	end
 	return ""
 end
 
@@ -74,13 +72,6 @@ function IsItemUsingArrow ( type )
 	for k, val in ipairs( BowTypeList ) do
 		if ( type == val ) then
 			return true
-		end
-	end
-	if BowTypeList_CLS ~= nil then
-		for k, val in ipairs( BowTypeList_CLS ) do
-			if ( type == val ) then
-				return true
-			end
 		end
 	end
 	return false
