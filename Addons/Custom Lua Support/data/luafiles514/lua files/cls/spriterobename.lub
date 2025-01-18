@@ -1,5 +1,7 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
 RobeNameTable_CLS = {
@@ -16,3 +18,9 @@ RobeTopLayer_CLS = {
 	-- Not sure what this should do....
 	-- SPRITE_ROBE_IDs_CLS.ROBE_,
 }
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableMerge(RobeNameTable_CLS,RobeNameTable)
+F_LuaTableMerge(RobeNameTable_Eng_CLS,RobeNameTable_Eng)
+F_LuaTableMerge(RobeTopLayer_CLS,RobeTopLayer)
+--------------------------------------------------------------

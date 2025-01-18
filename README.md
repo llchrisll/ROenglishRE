@@ -17,7 +17,7 @@ The priority of item translation goes like this:
 
 To support the item translations further, I also make a merged grf when I have to time for it,  
 which consists every sprite of item/npc/mob sprite and texture files missing in the kRO data.grf.  
-[official_data.grf](https://www.mediafire.com/file/qas1fgic28zs9qx/official_data.rar/file)
+[official_data.grf](https://www.mediafire.com/file/o0mfywht1rpqhkc/official_data.grf/file)
 
 <details>
 <summary>official_data folders</summary>

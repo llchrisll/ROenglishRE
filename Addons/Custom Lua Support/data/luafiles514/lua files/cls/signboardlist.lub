@@ -1,9 +1,10 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the
--- `System/Sign_Data_EN.lub` (Translated Strings) which comes with this project
+-- `SystemEN/Sign_Data.lub` (Translated Strings) which comes with this project
 -- and the `Custom Lua Support`
--- Last updated: 20240904
 
 -- Format:
 -- { "map", x, y, Height, Icon ID, "Path", "Content", "Char Color" },
@@ -23,16 +24,8 @@ IT_BMP = 1
 IT_SPRITE = 2
 IT_SIGNBOARD = 3
 SignBoardList_CLS = {
-	
 }
-
-function MergeSign(size)
-	local ct = size
-	for _, v in pairs(SignBoardList_CLS) do
-		ct = ct + 1
-		if( SignBoardList[ct] == nil) then
-			SignBoardList[ct] = v
-		end
-	end
-	return 1
-end
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableInsert(SignBoardList_CLS,SignBoardList)
+--------------------------------------------------------------

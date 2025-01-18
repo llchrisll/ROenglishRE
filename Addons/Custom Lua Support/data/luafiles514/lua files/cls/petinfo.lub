@@ -1,9 +1,11 @@
 -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
 PetNameTable_CLS = {
-	-- Mob File Name (same as jobname_CLS.lub)
+	-- Pet File Name (same structure as jobname.lub)
 	-- [jobtbl_CLS.JT_] = "<mob file name>"
 }
 PetIllustNameTable_CLS = {
@@ -16,8 +18,8 @@ PetIllustNameTable_Eng_CLS = {
 }
 PetAccIDs_CLS = {
 	-- View ID of the Pet Accessory
-	-- ACC_ = 0, Max ID 10046 - I'm not sure what happens if you increase this ID
-	ACC_FIRST = 10047, -- Last official ID is 10046 so far
+	-- ACC_ = 0
+	-- Note: Increase ACC_LAST as required and place your entries before it!
 	ACC_LAST = 10100
 }
 PetAccActNameTable_CLS = {
@@ -40,3 +42,15 @@ PetFoodTable_CLS = {
 	-- Item ID for Pet Food for the respective Pet
 	-- [jobtbl_CLS.JT_] = 531
 }
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableMerge(PetNameTable_CLS,PetNameTable)
+F_LuaTableMerge(PetIllustNameTable_CLS,PetIllustNameTable)
+F_LuaTableMerge(PetIllustNameTable_Eng_CLS,PetIllustNameTable_Eng)
+F_LuaTableInsert(PetAccIDs_CLS,PetAccIDs)
+F_LuaTableMerge(PetAccActNameTable_CLS,PetAccActNameTable)
+F_LuaTableMerge(PetAccActNameTable_Eng_CLS,PetAccActNameTable_Eng)
+F_LuaTableMerge(PetStringTable_CLS,PetStringTable)
+F_LuaTableMerge(PetEggItemID_PetJobID_CLS,PetEggItemID_PetJobID)
+F_LuaTableMerge(PetFoodTable_CLS,PetFoodTable)
+--------------------------------------------------------------

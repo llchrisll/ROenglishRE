@@ -2,13 +2,20 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240831
+-- Last updated: 20241027
 
 TB_Layer_Priority = {
 	Default_Mid = 100,
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_C_Eternal_Rose] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Kitchen_Car] = { Default = 403, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_Wisdom_Core_Headphones] = { Default = 304 }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Fluffy_Bakery] = { Default = 401, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Traditors_Low_Tail] = { Default = 143, Direction = {} }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Braids_Wave] = { Default = 143, Direction = {} }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Signon_Loop] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Blue_Sunbed] = { isIgnoreRiding = true }, 
 		[ACCESSORY_IDs.ACCESSORY_C_Green_Sunbed] = { isIgnoreRiding = true }, 
 		[ACCESSORY_IDs.ACCESSORY_C_Clover_Hairpin] = { Default = 304, Direction = {} }, 

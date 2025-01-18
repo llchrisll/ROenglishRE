@@ -11,12 +11,19 @@ require("SystemEN/LuaFiles514/itemInfo_f")
 -- Load the translation file
 dofile("SystemEN/LuaFiles514/itemInfo.lua")
 
--- Load the file for custom items and overrides
--- dofile("SystemEN/itemInfo_C.lua")
+-- Load additional files, like custom items, overrides and others
+-- New tables needs unique names, to import them you need to copy a "itemInfoMerge"
+-- line at the end and adjust it accordingly.
 
--- Load the additional files
--- Example: (Yes you could add kRO itemInfo itself, but prepare for lua errors)
---dofile("System/itemInfo_true.lub")
+-- Place all files in the "SystemEN" folder, the rest will be automatically added.
+ImportFiles = {
+	"itemInfo_C.lua", -- custom items
+}
+-- Just define the table postfix, 'tbl_' will be automatically added
+-- Note: The "tbl_override" is handled separately at the end.
+ImportTables = {
+	"custom",
+}
 
 ---------------- Additional Configs for translation file ----------------
 -- Display origin server based on translation file's Server argument
@@ -76,31 +83,20 @@ ItemDatabase = {
 		URL = "http://127.0.0.1/?module=item&action=view&id="
 	}
 }
----------------- Don't touch the functions below unless you know what you are doing ----------------
-function itemInfoMerge(src, state)
-	if src == nil then
-		return
-	end
-	for ItemID,DESC in pairs(src) do
-		if state == false then
-			if not tbl[ItemID] then
-				tbl[ItemID] = {}
-				tbl[ItemID] = DESC
-			end
-		else
-			tbl[ItemID] = DESC
-		end
-		if src == tbl_custom then
-			tbl[ItemID].Custom = true
-		end
-	end
-	return
+
+---------------- DON'T TOUCH THE LINES BELOW unless you know what you are doing ----------------
+require('SystemEN/LuaFiles514/rotp_f')
+
+-- Loop through each file in the "ImportFiles" table and load them
+for _, v in ipairs(ImportFiles) do
+	dofile('SystemEN/'..v)
 end
 
--- itemInfoMerge(src, state)
--- @src = table for merge into tbl
--- @state = overwrite existing entries (true) or not (false)
+-- Loop through each table in the "ImportTables" table
+-- and merge them into the main table "tbl" 
+for _, v in ipairs(ImportTables) do
+	F_itemInfoMerge(_G['tbl_'..v], false)
+end
 
---itemInfoMerge(tbl_override, true) -- official overrides
---itemInfoMerge(tbl_custom, false) -- custom items
---itemInfoMerge(tbl, false) -- original kRO iteminfo
+F_itemInfoMerge(tbl_override, true) -- official overrides
+---------------------------------------------------

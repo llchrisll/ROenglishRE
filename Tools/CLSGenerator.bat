@@ -28,17 +28,15 @@ echo [3] Random Options %cls[3]%
 echo [4] HatEffects %cls[4]%
 echo [5] NPC/Mob and Pets %cls[5]%
 echo [6] Lapine Boxes %cls[6]%
-echo [7] Navigation %cls[7]%
-echo [8] Signboards %cls[8]%
-echo [9] Robes/Costume Garments %cls[9]%
-echo [10] Titles %cls[10]%
-echo [11] Weapons %cls[11]%
-echo [12] World Map %cls[12]%
-echo [13] Exit
+echo [7] Signboards %cls[8]%
+echo [8] Robes/Costume Garments %cls[9]%
+echo [9] Weapons %cls[11]%
+echo [10] World Map %cls[12]%
+echo [11] Exit
 echo ===============
 set /p type="Now choose: "
 
-if %type% lss 13 (
+if %type% lss 11 (
     if exist "Client\data\luafiles514\lua files\cls" rmdir /Q /S "Client\data\luafiles514\lua files\cls\"
 )
 
@@ -67,42 +65,28 @@ if %type% equ 1 (
     xcopy "%sourceDataPath%\cls\lapineddukddakbox.lub" "%destinationDataPath%\cls\lapineddukddakbox.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\lapineupgradebox.lub" "%destinationDataPath%\cls\lapineupgradebox.lub"* /H /C /I /Y
 ) else if %type% equ 7 (
-    xcopy "%sourceDataPath%\navigation\navi_f_krpri.lub" "%destinationDataPath%\navigation\navi_f_krpri.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\navigation\navi_f_krsak.lub" "%destinationDataPath%\navigation\navi_f_krsak.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\navi_link.lub" "%destinationDataPath%\cls\navi_link.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\navi_linkdistance.lub" "%destinationDataPath%\cls\navi_linkdistance.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\navi_map.lub" "%destinationDataPath%\cls\navi_map.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\navi_mob.lub" "%destinationDataPath%\cls\navi_mob.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\navi_npc.lub" "%destinationDataPath%\cls\navi_npc.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\navi_npcdistance.lub" "%destinationDataPath%\cls\navi_npcdistance.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\navi_picknpc.lub" "%destinationDataPath%\cls\navi_picknpc.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\navi_scroll.lub" "%destinationDataPath%\cls\navi_scroll.lub"* /H /C /I /Y
-) else if %type% equ 8 (
     xcopy "%sourceDataPath%\cls\signboardlist.lub" "%destinationDataPath%\cls\signboardlist.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\signboardlist_f.lub" "%destinationDataPath%\cls\signboardlist_f.lub"* /H /C /I /Y
-) else if %type% equ 9 (
+) else if %type% equ 8 (
     xcopy "%sourceDataPath%\cls\spriterobeid.lub" "%destinationDataPath%\cls\spriterobeid.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\spriterobename.lub" "%destinationDataPath%\cls\spriterobename.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\spriterobename_f.lub" "%destinationDataPath%\cls\spriterobename_f.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\transparentitem.lub" "%destinationDataPath%\cls\transparentitem.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\transparentitem_f.lub" "%destinationDataPath%\cls\transparentitem_f.lub"* /H /C /I /Y
-) else if %type% equ 10 (
-    xcopy "%sourceDataPath%\datainfo\titletable.lub" "%destinationDataPath%\datainfo\titletable.lub"* /H /C /I /Y
-    xcopy "%sourceDataPath%\cls\titletable.lub" "%destinationDataPath%\cls\titletable.lub"* /H /C /I /Y
-) else if %type% equ 11 (
+) else if %type% equ 9 (
     xcopy "%sourceDataPath%\cls\weapontable.lub" "%destinationDataPath%\cls\weapontable.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\weapontable_f.lub" "%destinationDataPath%\cls\weapontable_f.lub"* /H /C /I /Y
-) else if %type% equ 12 (
+) else if %type% equ 10 (
     xcopy "%sourceDataPath%\cls\worldviewdata_f.lub" "%destinationDataPath%\cls\worldviewdata_f.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\worldviewdata_language.lub" "%destinationDataPath%\cls\worldviewdata_language.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\worldviewdata_list.lub" "%destinationDataPath%\cls\worldviewdata_list.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\worldviewdata_table.lub" "%destinationDataPath%\cls\worldviewdata_table.lub"* /H /C /I /Y
 )
 
-if %type% lss 13 (
+if %type% lss 11 (
     
     if %type% equ 1 (
-        for /L %%i in (2,1,12) do (
+        for /L %%i in (2,1,10) do (
             set cls[%%i]= [ Copied ]
         )
     ) else (
@@ -111,3 +95,4 @@ if %type% lss 13 (
 
     goto CLSMenu
 )
+exit

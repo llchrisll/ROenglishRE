@@ -44,6 +44,7 @@ echo [17] 2023-09-20
 echo [18] 2024-04-03
 echo [19] 2024-05-02
 echo [20] 2024-08-07
+echo [21] 2024-10-16
 echo =================================================================
 set /p date="Please select the Client Date: "
 if %date%==1 if %mode%==2 ( set client=2012-04-10 ) else ( goto DateMenu )
@@ -66,6 +67,7 @@ if %date%==17 set client=2023-09-20
 if %date%==18 set client=2024-04-03
 if %date%==19 set client=2024-05-02
 if %date%==20 set client=2024-08-07
+if %date%==21 set client=2024-10-16
 if "%client%"=="" exit
 cls
 echo =================================================================
@@ -105,6 +107,7 @@ if %x% LEQ %date% (
 	if %x% EQU 18 call :CopyFD 2023-09-20 %type%
 	if %x% EQU 19 call :CopyFD 2024-04-03 %type%
 	if %x% EQU 20 call :CopyFD 2024-05-02 %type%
+	if %x% EQU 21 call :CopyFD 2024-08-07 %type%
 	set /a "x+=1"
 	goto DateLoop
 )

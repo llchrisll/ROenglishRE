@@ -1,0 +1,822 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+
+tbl = {
+	[1] = {
+		Title = "Tip Box",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00001",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can open the tip box by clicking /tip, Alt+D, or the Tipbox icon.\\nThe tip box provides useful information for playing games.\\nIf you want to get more information, please enter a search term in the ^3b488cSearch window^000000.\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[2] = {
+		Title = "Help: Command List",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00002",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can view useful commands used in Ragnarok by typing /h.\\nCommands marked with / can be used by entering them in the^3b488cchat window^000000.\n\nª <TIPBOX>Command List<INFO>83</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[3] = {
+		Title = "Character: HP",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00003",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Indicates the character's health.\\n^ff0000When HP reaches 0, your character won't be able to participate in battle. ^000000Please be careful because ^ff0000experience penalty^000000 may accure on certain locations.\\nPress Alt + END to toggle HP/SP meter ON/OFF.\nª <TIPBOX>Character: SP<INFO>4</INFO></TIPBOX>\nª <TIPBOX>Auto Recovery<INFO>12</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}, 
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 60, DistX = 0, DistY = 0, MoveTime = 0 },
+			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[4] = {
+		Title = "Character: SP",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00003",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Indicates the character's mental power.\\nCertain skills will ^3b488cconsume SP^000000. ^000000Please be careful because^ff0000 when SP reaches 0, your character won't be able to cast a skill^000000.\\nPress Alt+END to toggle HP/SP meter ON/OFF.\nª <TIPBOX>Character: HP<INFO>3</INFO></TIPBOX>\nª <TIPBOX>Auto Recovery<INFO>12</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}, 
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 },
+			{ EffectNum = 0, Twinkle = 1, StartX = 120, StartY = 305, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[5] = {
+		Title = "Character: Level Up",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00005",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can level up by hunting monsters or completing quests to gain experience.\\nWhen you increase your Base Level by gaining EXP, you can get ^3b488cStatus Points^000000, which determines your character's basic abilities.\\nWhen you increase your Job Level by gaining Job EXP, you can get ^3b488cSkill Points^000000, with which can raise your character's skills or learn new ones.\nª <TIPBOX>Battle: EXP<INFO>16</INFO></TIPBOX>\nª <TIPBOX>Character: Status<INFO>6</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 10, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[6] = {
+		Title = "Stats: STR(Strength)#Stats",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It directly affects the character's ^3b488cMelee Physical Attack Power^000000 and increases basic attack damage.\\nIn addition, ^3b488cWeight^000000 increases, allowing you to carry more items.\nª <TIPBOX>Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\nª <TIPBOX>Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\nª <TIPBOX>Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\nª <TIPBOX>Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\nª <TIPBOX>Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[7] = {
+		Title = "Stats: AGI(Agility)#Stats",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It directly affects the character's speed, increasing ^3b488cAttack Speed^000000 and ^3b488cDodge Rate^000000.\\nAlso affects ^3b488cPhysical Defense^000000.\nª <TIPBOX>Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\nª <TIPBOX>Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\nª <TIPBOX>Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\nª <TIPBOX>Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\nª <TIPBOX>Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 223, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[8] = {
+		Title = "Stats: VIT(Vitality)#Stats",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It directly affects the character's health, increasing ^3b488cMax HP^000000.\\nIt also increases ^3b488cPhysical Defense^000000 and ^3b488cMagical Defense^000000, and also affects ^3b488cHP Auto Recovery^000000.\nª <TIPBOX>Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\nª <TIPBOX>Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\nª <TIPBOX>Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\nª <TIPBOX>Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\nª <TIPBOX>Stats: LUK<INFO>11</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 236, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[9] = {
+		Title = "Stats: INT(Intelligence)#Stats",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It directly affects the character's ^3b488cMagic Attack Power^000000 and increases ^3b488cMagic Damage^000000.\\nAlso, ^3b488cshortens Casting Time^000000, increases ^3b488cMagic Defense^000000, and increases ^3b488cMaximum SP^000000, allowing you to use more magic.\nª <TIPBOX>Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\nª <TIPBOX>Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\nª <TIPBOX>Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\nª <TIPBOX>Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\nª <TIPBOX>Status: LUK<INFO>11</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[10] = {
+		Title = "Stats: DEX(Dexterity)#Stats",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It directly affects the character's ^3b488cRanged Physical Attack Power^000000, increasing ^3b488cRanged Attack Damage^000000.\\nIn addition, ^3b488cAccuracy^000000 increases the chance of success of the attacks, shortens ^3b488cCasting Time^000000 and increases ^3b488cMagical Attack Damage^000000.\nª <TIPBOX>Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\nª <TIPBOX>Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\nª <TIPBOX>Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\nª <TIPBOX>Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\nª <TIPBOX>Stats: LUK<INFO>11</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[11] = {
+		Title = "Stats: LUK(Luck)#Stats",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It directly affects the character's ^3b488cCritical Hit Rate^000000, increasing the chance of inflicting ^3b488cCritical Damage^000000 to monsters.\\nAlso, it affects ^3b488cAccuracy, Doge Rate, Physical Attack Power, Magic Attack Power^000000, etc., but ^ff0000efficiency is lower than other stats, so be careful when investing points.^000000\nª <TIPBOX>Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\nª <TIPBOX>Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\nª <TIPBOX>Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\nª <TIPBOX>Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\nª <TIPBOX>Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n\n< TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 276, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[12] = {
+		Title = "Auto Recovery",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Standing still in place without taking any action restores the player's ^3b488cHP and SP^000000 little by little. Recovers twice as much while sitting.\\n^ff0000If Weight exceeds 70%, recovery stops.^000000\nª <TIPBOX>Character: Weight<INFO>13</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[13] = {
+		Title = "Character: Weight",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Shows the weight the character can carry and the weight of the item currently held.\\nYou can carry items equal to the weight, and if the weight of ^ff0000items exceeds the limit, you can no longer collect items.\\nIf the Weight is 70% or higher, HP and SP will not automatically recover anymore. Also, above 90%, players cannot attack or use skills.^000000\n\nª <TIPBOX>Expansion of Weight Limit<INFO>2002</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 185, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[14] = {
+		Title = "Battle: Attack",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"When you move the mouse cursor over the monster, the cursor changes to a sword shape.\\nAt this time, ^3b488cclick^000000 to attack the monster.\nª <TIPBOX>Lock-on Mode: Auto Attack<INFO>15</INFO></TIPBOX>\nª <TIPBOX>Battle: EXP<INFO>16</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[15] = {
+		Title = "Lock-On Mode: Auto Attack",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"If you attack a monster while holding down the CTRL key, you will ^3b488cautomatically attack^000000 until you kill the monster. It can be canceled by clicking anywhere else.\\nAlso, if you type ^3b488c/noctrl, it will automatically attack without pressing CTRL.\\nIf you do not want auto-attack anymore, you can turn it off by using /noctrl again.^000000\nª <TIPBOX>Battle: Attack<INFO>14</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[16] = {
+		Title = "Battle: Experience",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00016",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can get ^3b488cExperience^000000 by hunting monsters.\\nThe experience gained from monsters is proportional to the damage dealt to the monster, but even if the same damage is dealt, the first person to attack the monster will receive more experience.\nª <TIPBOX>Battle: Attack<INFO>14</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[17] = {
+		Title = "Item",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00017",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Items that have fallen on the floor can be picked up by hovering the mouse over the item and clicking ^3b488cleft click^000000.\\nThe items you pick up will be placed in your ^3b488cInventory^000000.\nª <TIPBOX>Inventory: Item<INFO>64</INFO></TIPBOX>\nª <TIPBOX>Item Appraisal<INFO>18</INFO></TIPBOX>\nª <TIPBOX>Card<INFO>92</INFO></TIPBOX>\nª <TIPBOX>Headgear Crafting<INFO>9167</INFO></TIPBOX>\nª <TIPBOX>Mysterious Combination Book<INFO>136</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 150, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[18] = {
+		Title = "Item Appraisal#Item Appraisal,Unidentified,Magnifier,Check",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00018",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Equipment items obtained from monster are displayed as ^ff0000Unknown item^000000. You can identify this item by using ª <ITEM>Magnifier<INFO>611 Magnifier</INFO></ITEM> that can be bought from Tool Dealer or by using the Identify skill of the Merchant classes.\nIf you have a Magnifier, Ctrl + Right-click an unidentified item to quickly rate the item without going through a separate process.\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 100, StartY = 88, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[19] = {
+		Title = "Chat: Dialog",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00019",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can activate the chat window with the Enter key. Write what you want to say and press the Enter key again to send the conversation.\nª <TIPBOX>Chat: Chat Room<INFO>20</INFO></TIPBOX>\nª <TIPBOX>Chat: Whisper<INFO>21</INFO></TIPBOX>\nª <TIPBOX>Chat: Party<INFO>22</INFO></TIPBOX>\nª <TIPBOX>Chat: Guild<INFO>23</INFO></TIPBOX>\nª <TIPBOX>Chat: Alliance Guild<INFO>134</INFO></TIPBOX>\nª <TIPBOX>Chat: Chat Window<INFO>25</INFO></TIPBOX>\nª <TIPBOX>Chat: Show Content<INFO>26</INFO></TIPBOX>\nª <TIPBOX>Block<INFO>28</INFO></TIPBOX>\nª <TIPBOX>Emotion<INFO>27</INFO></TIPBOX>\nª <TIPBOX>Chat: Save Dialog<INFO>24</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 280, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[20] = {
+		Title = "Chat: Chat Room",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00020",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/chat can open a window to create a ^3b488cChat Room^000000. You can also leave a chat room with the /q command.\nª <TIPBOX>Chat: Dialog<INFO>19</INFO></TIPBOX>\nª <TIPBOX>Chat: Save Dialog<INFO>24</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[21] = {
+		Title = "Chat: Whisper",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00021",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can whisper to a character by entering the character's name in the text box on the left of the chat window.\n^3b488cALT+H^000000 to open the ^3b488cWhisper List^000000 window to see who you are whispering to.\nª <TIPBOX>Block<INFO>28</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[22] = {
+		Title = "Chat: Party",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00022",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Conversation with party members can be done with % or CTRL+ENTER.\\nIn addition, if you press ^3b488cBlue Circle^000000 on the right side of the chat window, you can set ^3b488creceiving group^000000.\nª <TIPBOX>Chat: Guild<INFO>23</INFO></TIPBOX>\nª <TIPBOX>Party System<INFO>29</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[23] = {
+		Title = "Chat: Guild",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00023",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Conversation with guild members can be done with /gc or $ or ALT+ENTER.\\nAlso, if you press ^3b488cBlue Circle^000000 on the right side of chat window, you can set ^3b488creceiving group^000000.\nª <TIPBOX>Chat: Alliance Guild<INFO>134</INFO></TIPBOX>\nª <TIPBOX>Chat: Party<INFO>22</INFO></TIPBOX>\nª <TIPBOX>Guild System<INFO>30</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[24] = {
+		Title = "Chat: Save Dialog",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00024",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/savechat to save the chat to a file.\nConversations are saved in the Chat folder in the folder where Ragnarok is installed.\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[25] = {
+		Title = "Chat: Chat Window",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00025",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can resize the chat window with ^3b488cF10^000000 key.\\nPress ALT+F10 to turn the chat window on/off.\nª <TIPBOX>Chat: Show Content<INFO>26</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 150, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[26] = {
+		Title = "Chat: Show Content",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00026",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Entering /notalkmsg in the chat window will not display the chat contents in the chat window, which can be turned On/Off as you like.\\nIf you enter /notalkmsg2, chat contents including the guild are not displayed in the chat window, which also can be turned On/Off as you like.\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[27] = {
+		Title = "Emotion",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00027",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Press ALT+L or type /emotes to see a list of available ^3b488cEmotes^000000.\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[28] = {
+		Title = "Block",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00028",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/ex [Character Name] blocks the character or whisper, etc. If you want to cancel it, you can cancel it with /in [Character Name].\\nYou can also block or unblock all conversations and whispers with the  /exall and /inall commands.\\nIf you want to check the list of blocked characters, you can view the list with /ex.\\n^ff0000(Y/N) is not asked, so choose carefully.^000000\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[29] = {
+		Title = "Party System",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00029",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can create a party with /organize [Party Name].\\nYou can leave the party with /leave.",
+			"If you form a party and become a party leader, you can right-click other characters and select 'Invite to Party' menu or invite them to the party with /invite [Character Name].\\nIf you want to expel a party member, ^000000where you are the leader^3b488c with /expel [Character Name].\\n^ff0000(Y/N) is not asked, so choose carefully.^000000\nª <TIPBOX>Chat: Party<INFO>22</INFO></TIPBOX>\nª <TIPBOX>Adventure Agency<INFO>70</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[30] = {
+		Title = "Guild System#Siege, Emperium",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00030",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Using /guild [Guild Name], you can create a guild, but one emperium is consumed.\nYou can view the information of the guild you belong to by pressing ALT+G.\n^ff0000The guild master can disband a guild. If you enter /breakguild [Guild Name] when there is no guild member other than the guild master left, the guild will be disbanded.\n§ (Y/N) will not be asked, so please choose carefully.\n'Emperium', the material for creating a guild, can be obtained from monsters or purchased from Guild Office Staff.^000000\nIf you form an alliance with another guild, you can fight together in WoE and use Alliance Chat.\nª <TIPBOX>Chat: Guild<INFO>23</INFO></TIPBOX>\nª <TIPBOX>Chat: Alliance Guild<INFO>134</INFO></TIPBOX>\nª <TIPBOX>Guild: Position<INFO>31</INFO></TIPBOX>\nª <TIPBOX>Guild: Emblem<INFO>68</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[31] = {
+		Title = "Guild: Position",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can set the position of guild members in the position setting field of the guild information window. The Guild position can control the granting of various rights or the experience required for the guild's growth.\nª <TIPBOX>Guild System<INFO>30</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[32] = {
+		Title = "Game Option Window",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can open the Game Options Window by pressing ESC.\nª <TIPBOX>Game Option: Game Settings<INFO>33</INFO></TIPBOX>\nª <TIPBOX>Game Option: BM/Shortcut<INFO>41</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[33] = {
+		Title = "Game Option: Game Settings",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Here you can control various options to make your gameplay better.\nª <TIPBOX>Game Settings: Map Name Display<INFO>69</INFO></TIPBOX>\nª <TIPBOX>Game Settings: Advanced Settings<INFO>40</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[40] = {
+		Title = "Game Settings: Advanced Settings",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Here you can adjust the game graphics.\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[41] = {
+		Title = "Game Option: BM/Shortcut",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Here you can change your Hotkey Setup.\nª <TIPBOX>Hotkey: Macro<INFO>42</INFO></TIPBOX>\nª <TIPBOX>Hotkey: Skill Bar<INFO>43</INFO></TIPBOX>\nª <TIPBOX>Hotkey: Battle Mode<INFO>44</INFO></TIPBOX>\nª <TIPBOX>Hotkey: F1~F12<INFO>45</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[42] = {
+		Title = "Hotkey: Macro",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"You can edit the macro list with ALT+M. Each macro corresponds to ALT+1 ~ 0.\nª <TIPBOX>Game Option: BM/Shortcut<INFO>41</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[43] = {
+		Title = "Hotkey: Skill Bar",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"By registering frequently used skills or items in the skill bar (F12), you can use them easily by double-clicking the slot with the mouse or pressing the hotkey.\\nThe first skill bar basically corresponds to the F1~F9 keys and in the Game Options, you can change the corresponding hotkeys in the Hotkey Settings. The hotkeys for the Skill Bars 2~4 can only be used in Battle Mode.\\nYou can select a skill or item on the skill bar with the mouse and drag it into the box.\nª <TIPBOX>Game Option: Hotkey<INFO>41</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[44] = {
+		Title = "Hotkey: Battle Mode",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Battle Mode locks the chat feature so you can use the Hotkey registered in the Skill bar on your keyboard. You can turn it on /off with /bm.\\n^ff0000 In Battle Mode, the chat is locked by default, but you can press the Enter key to activate the chat window.^000000\nª <TIPBOX>Game Options: BM/Shortcut<INFO>41</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[45] = {
+		Title = "Hotkey: F1~F12",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"F1 ~ F9: You can use the skills registered in the Skill bar.\\nF10: You can adjust the size of the chat window.\\nF11: Close all windows, leaving only basic information window and dialog window.\\nF12: You can open and close the Skill Bar.\nª <TIPBOX>Game Options: BM/Shortcut<INFO>41</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1000] = {
+		Title = "Tipbox: Info",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"With the Tipbox you might find answers to your questions.\\nTips that are not on the list can also be found by searching, and new tips are continuously updated.\nª <TIPBOX>Character<INFO>1001</INFO></TIPBOX>\nª <TIPBOX>Gameplay<INFO>1002</INFO></TIPBOX>\nª <TIPBOX>Communication<INFO>1003</INFO></TIPBOX>\nª <TIPBOX>The World of Ragnarok<INFO>4000</INFO></TIPBOX>"
+		}
+	},
+	[1001] = {
+		Title = "Character",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ª <TIPBOX>Character: Level Up<INFO>5</INFO></TIPBOX>\nª <TIPBOX>Character: HP and SP<INFO>3</INFO></TIPBOX>\nª <TIPBOX>Character: Status<INFO>89</INFO></TIPBOX>\nª <TIPBOX>Character: Trait Status<INFO>96</INFO></TIPBOX>\nª <TIPBOX>Character: Job<INFO>9031</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1002] = {
+		Title = "Gameplay",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ª <TIPBOX>Battle<INFO>14</INFO></TIPBOX>\nª <TIPBOX>Quest<INFO>4100</INFO></TIPBOX>\nª <TIPBOX>Item<INFO>17</INFO></TIPBOX>\nª <TIPBOX>Game Option Window<INFO>32</INFO></TIPBOX>\nª <TIPBOX>Command List<INFO>83</INFO></TIPBOX>\nª <TIPBOX>Clothing Effect Removal<INFO>46</INFO></TIPBOX>\nª <TIPBOX>Rune Tablet<INFO>133</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1003] = {
+		Title = "Communication",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {	"ª <TIPBOX>Chat<INFO>19</INFO></TIPBOX>\nª <TIPBOX>Party<INFO>29</INFO></TIPBOX>\nª <TIPBOX>Guild<INFO>30</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4000] = {
+		Title = "The World of Ragnarok",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"The stage of adventure in the world of Ragnarok is largely the continent of Midgard, a land centered on humans,\na land beyond the dimension where fairies and giants exist and localization of unknown areas discovered by explorers.\n\nª <TIPBOX>Midgard Continent<INFO>4001</INFO></TIPBOX>\nª <TIPBOX>Land beyond the Dimension<INFO>4002</INFO></TIPBOX>\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n\nª <TIPBOX>World Map<INFO>900</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4001] = {
+		Title = "Midgard Continent",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Midgard is the center of life and the main continent of humans who have survived\nafter the crusade where the gods, demons, and humans fought for each other's beliefs.\nThere are three countries that are the main axis along the southeast coast of the Midgard Continent.\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\nª <TIPBOX>Schwartzvald Republic<INFO>4040</INFO></TIPBOX>\nª <TIPBOX>Arunafeltz Kingdom<INFO>4050</INFO></TIPBOX>\n\nª <TIPBOX>Malangdo<INFO>4031</INFO></TIPBOX>\nª <TIPBOX>Lutie<INFO>4014</INFO></TIPBOX>\n\n§ ^663399Midgard region dungeon^000000\nª <TIPBOX>Shortcuts<INFO>6151</INFO></TIPBOX>\n\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4002] = {
+		Title = "Land beyond the Dimension",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"The weakend demon lord Morroc created a huge rift in the dimension to hide himself. Adventurers who jump into the dimensional rift to track down Morroc meet a new world there. The expedition, which named the unknown world as \'Ash-Vacuum\', must pursue the traces of the demon king while unraveling the story of an unfamiliar land.\nª <NAVI>[Cat Paw Agent]<INFO>moc_para01,44,19,0,101,0</INFO></NAVI> can bring you to it.\n\nª <TIPBOX>Dimensional Rift<INFO>4021</INFO></TIPBOX>\nª <TIPBOX>Three Kingdoms Expedition Camp<INFO>4015</INFO></TIPBOX>\nª <TIPBOX>Laphine Outpost,  Splendide<INFO>4016</INFO></TIPBOX>\nª <TIPBOX>Sapha Mining City, Manuk<INFO>4017</INFO></TIPBOX>\nª <TIPBOX>The Capital of Sapha, El Dicastes<INFO>4018</INFO></TIPBOX>\nª <TIPBOX>The Capital of Laphine, Eclage<INFO>4019</INFO></TIPBOX>\nª <TIPBOX>Travelers' Resting Place, Mora Village<INFO>4020</INFO></TIPBOX>\n\nª <TIPBOX>The World of Ragnarok<INFO>4000</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4003] = {
+		Title = "Localizing Region",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"An unknown area discovered by a sailor who was drifting one day. Shocked by their different cultures, the Midgardians, both you and I, go on an expedition.\n\nª <TIPBOX>Region: Louyang<INFO>4027</INFO></TIPBOX>\nª <TIPBOX>Region: Amatsu<INFO>4028</INFO></TIPBOX>\nª <TIPBOX>Region: Kunlun<INFO>4029</INFO></TIPBOX>\nª <TIPBOX>Region: Port Malaya<INFO>4022</INFO></TIPBOX>\nª <TIPBOX>Region: Brasilis<INFO>4023</INFO></TIPBOX>\nª <TIPBOX>Region: Ayothaya<INFO>4024</INFO></TIPBOX>\nª <TIPBOX>Region: Moscovia<INFO>4025</INFO></TIPBOX>\nª <TIPBOX>Region: Dewata<INFO>4026</INFO></TIPBOX>\nª <TIPBOX>Region: Rock Ridge<INFO>4030</INFO></TIPBOX>\n\nª <TIPBOX>The World of Ragnarok<INFO>4000</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4004] = {
+		Title = "Rune Midgards Kingdom",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04004",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A nation founded by heroes who participated in the crusade.\nIt is a monarchy system centered on seven families that inherit the genealogy of heroes, and it encompasses the southern region based on the Mjolnir Mountains.\nIn preparation for the monsters that threaten the people of the kingdom, they encourage and support the training of adventurers.\n\nª <TIPBOX>Royal Capital Prontera<INFO>4005</INFO></TIPBOX>\nª <TIPBOX>Magic City Geffen<INFO>4006</INFO></TIPBOX>\nª <TIPBOX>Desert City Morroc<INFO>4007</INFO></TIPBOX>\nª <TIPBOX>Mountain City Payon<INFO>4008</INFO></TIPBOX>\nª <TIPBOX>Port City Alberta<INFO>4009</INFO></TIPBOX>\nª <TIPBOX>Border City Aldebaran<INFO>4010</INFO></TIPBOX>\nª <TIPBOX>Resort City Comodo<INFO>4011</INFO></TIPBOX>\nª <TIPBOX>Tribal Village Umbala<INFO>4012</INFO></TIPBOX>\nª <TIPBOX>Satellite City Izlude<INFO>4013</INFO></TIPBOX>\n\nª <TIPBOX>Midgard Continent<INFO>4001</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4005] = {
+		Title = "Royal Capital Prontera",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04005",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is the center of the Rune-Midgards Kingdom and is the capital of the Royal Palace.\nBecause it has a wide field with its back to the Mjolnir Mountains, it has less damage from monsters compared to other areas and is peaceful.\nThere is a cathedral that enshrines the god Odin and the Temple Knights, so many people who dream of becoming priests or knights gather.\nª <NAVI>[Prontera Cathedral]<INFO>prontera,235,315,0,101,0</INFO></NAVI>\nª <NAVI>[Crusader's Office]<INFO> prt_cas,248,102,0,101,0</INFO></NAVI>\nª <NAVI>[Knights of Prontera]<INFO>prontera,49,342,0,101,0</INFO></NAVI>\nª <NAVI>[St. Capitoline Abbey]<INFO>prt_monk,180,205,0,101,0</INFO></NAVI>\nª <NAVI>[Shadow Workshop]<INFO>prontera,268,108, 0,101,0</INFO></NAVI>\nª <NAVI>[Nenkaras Inn 1st Branch]<INFO>prt_in,240,136,0,101,0</INFO></NAVI>\nª <NAVI>[Nenkaras Inn 2nd Branch]<INFO>prt_in,67,135,0,101,0</INFO></NAVI>\nª <NAVI>[Blacksmith]<INFO>prt_in,60,70, 0,101,0</INFO></NAVI>\nª <NAVI>[Tool Dealer]<INFO>prt_in,129,72,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4006] = {
+		Title = "Magic City Geffen",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A city of wizards located beyond the swamps west of Prontera. There is a large tower, the Geffen Tower, in the center, and rumor has it that it was the site of the legendary city of Geffenia in the past. They often host wizards' festivals, like the Geffen Magic Tournament.\nª <NAVI>[Magician's Guild]<INFO>geffen_in,164,124,0,101,0</INFO></NAVI>\nª <NAVI>[Geffen Tower]<INFO> gef_tower,111,27,0,101,0</INFO></NAVI>\nª <NAVI>[Geffen Observatory]<INFO>gef_fild07,179,242,0,101,0</INFO></NAVI>\nª <NAVI>[Inn Ifrit]<INFO>geffen_in,70,56,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4007] = {
+		Title = "Desert City Morroc",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04007",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A city in the desert formed around an oasis. It is said that the surrounding area became a desert due to the influence of the Morroc being sealed in the past. Along with the culture unique to the desert city that has developed around the oasis, there are mysterious buildings built in ancient times, defensive fortresses, and ant dens, which are threats to the desert.\nª <NAVI>[Mirage Inn 1st Branch]<INFO>morocc_in,141,138,0,101,0</INFO></NAVI>\nª <NAVI>[Mirage Inn 2nd Branch]<INFO>morocc_in,82,94,0,101,0</INFO></NAVI>\nª <NAVI>[Blacksmith]<INFO>morocc_in,68,35,0,101,0</INFO></NAVI>\nª <NAVI>[Thieves Guild]<INFO>moc_prydb1,39,126,0,101,0</INFO></NAVI>\nª <NAVI>[Assassin's Guild]<INFO>moc_fild16,206,290,0,101,0</INFO></NAVI>\nª <NAVI>[Pyramid]<INFO>moc_ruins,64,162,0,101,0</INFO></NAVI>\nª <NAVI>[Sphinx]<INFO>moc_fild19,105,100,0,101,0</INFO></NAVI>\nª <NAVI>[Fort Darmain]<INFO>cmd_fild08,98,129,0,101,0</INFO></NAVI>\nª <NAVI>[Ant Hell]<INFO>cmd_fild08,326,351,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4008] = {
+		Title = "Mountain City Payon",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04008",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A city nestled in the mountains southeast of Rune-Midgards. It has formed a fairly independent culture due to its long cut off from the outside due to complex mountains and forests. There are many stories about receiving the protection of the four holy beasts or the divine beasts. There are many excellent marksmen and hunters and there is an abandoned house in the northern cave.\nª <NAVI>[Moonlight Inn]<INFO>payon_in01,136,61,0,101,0</INFO></NAVI>\nª <NAVI>[Blacksmith]<INFO>payon,144,173,0,101,0</INFO></NAVI>\nª <NAVI>[Archers Guild]<INFO>payon_in02,64,71,0,101,0</INFO></NAVI>\nª <NAVI>[Payon Buddha]<INFO>pay_arche,137,31,0,101,0</INFO></NAVI>\nª <NAVI>[Abandoned Village]<INFO>pay_dun03,155,147,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View tip list<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4009] = {
+		Title = "Port City Alberta",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04009",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is a city with a port connected to all waterways of Midgard, and is also called a commercial city because the merchant guild is located there. It is a gathering place for those who enjoy exploring the unknown through waterways and those who read the flow of money.\nª <NAVI>[Merchant's Guild]<INFO>alberta_in,56,43,0,101,0</INFO></NAVI>\nª <NAVI>[Tool Store]<INFO>alberta_in,183,90,0,101,0</INFO></NAVI>\nª <NAVI>[Blacksmith]<INFO>alberta_in,23,59,0,101,0</INFO></NAVI>\nª <NAVI>[Fisherman Inn]<INFO>alberta_in,23,142,0,101,0</INFO></NAVI>\n\nFrom the port city of Alberta, you can travel to several areas by boat.\nª <NAVI>[Ferry Service]<INFO>alberta,189,151,0,101,0</INFO></NAVI>\nª <NAVI>[To Sunken Ship]<INFO>alberta,195,151,0,101,0</INFO></NAVI>\nª <NAVI>[To Amatsu]<INFO>alberta,246,74,0,101,0</INFO></NAVI>\nª <NAVI>[To Ayothaya]<INFO>alberta,246,40,0,101,0</INFO></NAVI>\nª <NAVI>[To Ayothaya]<INFO>alberta,246 ,29,0,101,0</INFO></NAVI>\nª <NAVI>[To Brasilis]<INFO>alberta,246,82,0,101,0</INFO></NAVI>\nª <NAVI>[To Port Malaya]<INFO>alberta,196,202,0,101,0</INFO></NAVI>\nª <NAVI>[To Kunlun]<INFO>alberta,246, 62,0,101,0</INFO></NAVI>\nª <NAVI>[To Dewata]<INFO>alberta,212,202,0,101,0</INFO></NAVI>\nª <NAVI>[To Moscovia]<INFO>alberta,246,51,0,101,0</INFO></NAVI>\nª <NAVI>[To Rock Ridge]<INFO>alberta,240,103,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4010] = {
+		Title = "Border City Aldebaran",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04010",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is located in the northern part of the Mjolnir Mountains, just below the border of Schwartzvald. It is a beautiful city with canals stretching in all directions with a huge clock tower in the center. There is a border checkpoint to the north.\nª <NAVI>[Alchemist's Guild]<INFO>alde_alche,27,182,0,101,0</INFO></NAVI>\nª <NAVI>[Kafra Service Headquarters]<INFO>aldeba_in,147,231,0,101,0</INFO></NAVI>\nª <NAVI>[Tavern]<INFO>aldeba_in,157,186,0,101,0</INFO></NAVI>\nª <NAVI>[Clock Tower]<INFO>aldebaran,139,132,0,101,0</INFO></NAVI>\nª <NAVI>[Irion Inn]<INFO>aldeba_in,94,44,0,101,0</INFO></NAVI>\nª <NAVI>[Tool Dealer]<INFO>aldeba_in,94,56,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4011] = {
+		Title = "Resort City Comodo",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04011",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A mysterious village nestled in a cave formed below the southwestern coast. Many tourists come here for the purpose of recreation, so many local products have been developed. It is said to be an attractive place for explorers as it has wetlands, jungles and secret caves nearby.\nª <NAVI>[Camping Village]<INFO>comodo,209,308,0,101,0</INFO></NAVI>\nª <NAVI>[Casino]<INFO>comodo,140,111,0,101,0</INFO></NAVI>\nª <NAVI>[East Cave Mao]<INFO>comodo,327,175,0,101,0</INFO></NAVI>\nª <NAVI>[West Cave Karu]<INFO>comodo,28,215,0,101,0</INFO></NAVI>\nª <NAVI>[North Cave Ruande]<INFO>comodo,176,355,0,101,0</INFO></NAVI>\nª <NAVI>[Hula Dance Stage]<INFO>comodo,189,163,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4012] = {
+		Title = "Tribal Village Umbala",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A small tribal village in the jungle north of Comodo. It is a village of tribes living far away from civilization and adhering to the original way of life. There is a story about the roots of Yggdrasil, the world tree. We do not know the official language of the continent, so be careful.\nª <NAVI>[Chief's House]<INFO>umbala,68,251,0,101,0</INFO></NAVI>\nª <NAVI>[Shaman's House]<INFO>umbala,219,188,0,101,0</INFO></NAVI>\nª <NAVI>[Bungee Jump]<INFO>umbala,138,198,0,101,0</INFO></NAVI>\nª <NAVI>[Fountain of Hvergelmir]<INFO>umbala,107,284,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4013] = {
+		Title = "Satellite City Izlude",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04013",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A small town on the east coast of Prontera. It is a satellite city formed to support the capital, Prontera. There is the Criatura Academy and the Swordsman Guild, a support organization for nurturing adventurers, and it also serves as a small port.\nª <NAVI>[Swordsman's Guild]<INFO>izlude_in,74,172</INFO></NAVI>\n\n\nª <TIPBOX>Rune-Midgards Kingdom<INFO>4004</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4014] = {
+		Title = "Lutie",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Farther north of the Mjolnir Mountains lies a small town that makes toys in a barren environment covered in icy ice.\nThere must be something wrong with the little toy factory that is trying to make children laugh. Listen to the stories of adventurers who came to Aldebaran to seek for help.\nª <NAVI>[Toy Factory]<INFO>xmas,143,312,0,101,0</INFO></NAVI>\nª <NAVI>[Santa's House]<INFO>xmas,149,237,0,101,0</INFO></NAVI>\nª <NAVI>[Church]<INFO>xmas,104,287,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Midgard Continent<INFO>4001</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4015] = {
+		Title = "Ash-Vacuum, Three Kingdroms Expedition Camp#Another World",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04015",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"In order to destroy the beautiful desert city of Morroc, tear the dimension and track the fled demon king Morroc, the Three Kingdoms Union built a camp for the expedition in the world beyond the dimensional rift. Even people who meet for the first time in a strange environment Your adventure continues there.\n\nª <TIPBOX>Land beyond the Dimension<INFO>4002</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4016] = {
+		Title = "Laphine Outpost, Splendide",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04016",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"The outpost of the Laphines who went on an expedition to Jotunheim to protect the World Tree. With radiant pride, Laphines seeks to soften the icy land and save the rotting roots of the World Tree.\nª <NAVI>[Cat Paw Agent]<INFO>spl_fild02,25,211,0,101,0</INFO></NAVI>\nª <NAVI>[Field Command]<INFO> spl_in01,110,22,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Land beyond the Dimension<INFO>4002</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4017] = {
+		Title = "Sapha Mining City, Manuk",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04017",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A mining town that mines and refines Bradium, an important ore for Sapha. Because it is mined near the root of the World Tree, it is pointed out as the cause of the weakening of the World Tree and is being checked by the Laphines. The colorful minerals dotted around the achromatic streets create a strange sight.\nª <NAVI>[Cat Paw Agent]<INFO>man_fild02,132,47,0,101,0</INFO></NAVI>\nª <NAVI>[Operation Administration]<INFO>manuk,306,142,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Land beyond the Dimension<INFO>4002</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4021] = {
+		Title = "Dimensional Rift",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A gap found in the dimensional crack. It is a place that transcends time and space, and you can go wherever the dimensional rift is connected. You can also travel through the top of the Cat Paw Agent in Paradise.\nª <NAVI>[Sograt Desert Dimension Rift]<INFO>moc_fild22b,225,200,0,101,0</INFO></NAVI>\nª <NAVI>[Cat Paw Agent]<INFO>moc_para01,44,19,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Land beyond the Dimension<INFO>4002</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4022] = {
+		Title = "Region: Port Malaya",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04022",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Port Malaya, where myths and legends coexist with civilization.\nThose who do not easily open their hearts to outsiders seem to have their own circumstances that cannot be said. Open the hearts of the residents and listen to their stories.\n\nYou can move there from Alberta.\nª <NAVI>[To Port Malaya]<INFO>alberta,196,202,0,101,0</INFO></NAVI>\nª <NAVI>[Hospital]<INFO>malaya,50,75,0,101,0</INFO></NAVI>\nª <NAVI>[Park]<INFO>malaya,280,329,0,101,0</INFO></NAVI>\nª <NAVI>[Port]<INFO>malaya,276,55,0,101,0</INFO></NAVI>\nª <NAVI>[Baryo Mahiwaga]<INFO>ma_fild01,250,213,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4023] = {
+		Title = "Region: Brasilis",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04023",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"An ancient tome found at the Rune-Midgards Library had a chart of the road to Brasilis. A place with a forest as hot as a desert and as thick as a payon. Why not join us on the road to Brasilis? Brasilis has reconnected waterways.\n\nYou can move there from Alberta.\nª <NAVI>[To Brasilis]<INFO>alberta,246,82,0,101,0</INFO></NAVI>\nª <NAVI>[Jungle Cable]<INFO>brasilis,308,335,0,101,0</INFO></NAVI>\nª <NAVI>[Art Museum]<INFO>brasilis,137,167,0,101,0</INFO></NAVI>\nª <NAVI>[Monument to Veras]<INFO>brasilis,195,222,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4024] = {
+		Title = "Region: Ayothaya",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04024",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Ayothaya is a place where people who live in harmony with nature and have deep beliefs unique to the region.\nAll parts of Ayothaya are carefully decorated with gold and emeralds as if to show people's piety.\nWelcome to Ayothaya, where temples and picturesque houses built on the water, fish market selling goods on board,\ndelicious cuisine.\n\nYou can move there from Alberta.\nª <NAVI>[To Ayothaya]<INFO>alberta,246,29,0,101,0</INFO></NAVI>\nª <NAVI>[Temple]<INFO>ayothaya,208,280,0,101,0</INFO></NAVI>\nª <NAVI>[Fishing Ground]<INFO>ayothaya,255,99,0,101,0</INFO></NAVI>\nª <NAVI>[Tavern]<INFO>ayothaya,229,72,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4025] = {
+		Title = "Region: Moscovia",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04025",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A place where you can feel a different exotic atmosphere, Moscovia.\nIf you're curious about the witch's story, the evil dragon, and the song of the whale, get on the boat heading to Moscovia right now!\n\nYou can move there from Alberta.\nª <NAVI>[To Moscovia]<INFO>alberta,246,51,0,101,0</INFO></NAVI>\nª <NAVI>[Royal Palace]<INFO>moscovia,255,140,0,101,0</INFO></NAVI>\nª <NAVI>[Chapel]<INFO>moscovia,253,179,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4026] = {
+		Title = "Region: Dewata",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04026",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"\'Dewata\', an island with a beautiful shining beach.\nThe Devata residents and the Jati tribe have opposing cultures of civilization and non-civilization,\nserving the god Barong and protecting the natural environment beautifully in their own way.\n\nYou can move there from Alberta.\nª <NAVI>[To Dewata]<INFO>alberta,212,202,0,101,0</INFO></NAVI>\nª <NAVI>[Krakatoa Volcano]<INFO>dewata,235,56,0,101,0</INFO></NAVI>\nª <NAVI>[Restaurant]<INFO>dewata,146,109,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4027] = {
+		Title = "Region: Louyang",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04027",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Louyang, with a long history, has maintained peace for a long time with each clan and official, centering on the supreme commander Bailong, who fended off the great monster invasion. In the meantime, there has been a strong rejection of foreigners in order to preserve their culture, but recently, for some reason, they have begun to accept foreign adventurers informally.\n\nObservation decks where you can enjoy the superb view of Louyang Fortress are installed inside and outside the village and you can visit the Royal Tombs where the kings sleep.\n\nYou can move there from Alberta.\nª <NAVI>[To Louyang]<INFO>alberta,246,40,0,101,0</INFO></NAVI>\nª <NAVI>[The Crown Prince]<INFO>louyang,217,244,0,101,0</INFO></NAVI>\nª <NAVI>[Royal Tomb]<INFO>louyang,42,276,0,101,0</INFO></NAVI>\nª <NAVI>[Hospital]<INFO>louyang,258,94,0,101,0</INFO></NAVI>\nª <NAVI>[Observatory]<INFO>louyang,138,243,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO> 1000</INFO></TIPBOX>"
+		}
+	},
+	[4028] = {
+		Title = "Region: Amatsu",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04028",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"The quiet cherry blossom village of Amatsu, who found out about each other's existence with Rune Midgard by chance, has finally opened its waterways after five years of thorough preparation.\nThe beautiful blue roof of Himezi Castle's castle tower can be seen on the east side of the lake to the east, from anywhere in town full of art, culture and the scent of cherry blossoms.\nA visit to Amatsu, a mysterious town where gods and people coexist, a large cherry tree hill with many legends, and a shrine outside the town dedicated to various gods may lead to a mysterious connection that no one knows about.\n\nYou can move there from Alberta.\nª <NAVI>[To Amatsu]<INFO>alberta,246,74,0,101,0</INFO></NAVI>\nª <NAVI>[Himezi Castle]<INFO>amatsu,85,235,0,101,0</INFO></NAVI>\nª <NAVI>[Cherry Hill]<INFO>amatsu,264,197,0,101,0</INFO></NAVI>\nª <NAVI>[Temple]<INFO>ama_fild01,174,330,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4029] = {
+		Title = "Region: Kunlun",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04029",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Kunlun, the island of the Gods, arrived along the sea route discovered by Alberta merchants after hard work.\nThe masters of Kunlun, who lived quietly together and practiced the unknown power of magic, did not like the gathering of foreigners to the island, but they could not stop the adventurers and merchants from embarking on the ships bound for Kunlun in pursuit of new adventures and money.\n\nYou can move there from Alberta.\nª <NAVI>[To Kunlun]<INFO>alberta,246,62,0,101,0</INFO></NAVI>\nª <NAVI>[Prontera Model]<INFO>gon_fild01,240,228,0,101,0</INFO></NAVI>\nª <NAVI>[Comodo Model]<INFO>gon_fild01,119,246,0,101,0</INFO></NAVI>\nª <NAVI>[Glastheim Model]<INFO>gon_fild01,175,339,0,101,0</INFO></NAVI>\nª <NAVI>[Temple of the Western Queen]<INFO>gon_dun01,153,48,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4030] = {
+		Title = "Region: Rock Ridge",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04030",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is a village formed by people gathering to mine \'purple ore\' discovered in the New World. People who gather with a dream of making money form a cooperative relationship with the native Cactus, but they are often looted by a group called the small bandits. Any adventurers to solve the sheriff's problem together?\n\nYou can move there from Alberta.\nª <NAVI>[To Rock Ridge]<INFO>alberta,240,103,0,101,0</INFO></NAVI>\nª <NAVI>[Sherrif's Office]<INFO>harboro1,241,218,0,000,0</INFO></NAVI>\nª <NAVI>[Store]<INFO>harboro1,312,193,0,000,0</INFO></NAVI>\nª <NAVI>[Inn]<INFO>harboro1,156,215,0,000,0</INFO></NAVI>\n\nª <TIPBOX>Localizing Region<INFO>4003</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4031] = {
+		Title = "A lifelong cat island, Malangdo",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04031",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"The island was named Malangdo because the surface of the island is soft. Originally, it was an uninhabited island, but the ship of the leader of the Cat Paw Agents crash-landed on the island while it was drifting and started living on the island, so it was called Malangdo.\nMeet the products and services unique to Malangdo!\n\nYou can move there from Izlude and Alberta.\nIzlude\nª <NAVI>[To Malangdo]<INFO>izlude,182,218,0,101,0</INFO></NAVI>\nAlberta\nª <NAVI>[To Malangdo] <INFO>alberta,200,151,0,101,0</INFO></NAVI>\nª <NAVI>[Captain's Office]<INFO>mal_in02,27,60,0,101,0</INFO></NAVI>\nª <NAVI>[Meeting Room]<INFO>mal_in02,170,62,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Midgard Continent<INFO>4001</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4040] = {
+		Title = "Schwartzvald Republic",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04040",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A country north of Myornil whose capital is the city of the wise men, Juno. It adopts a republic with a president and a parliament, and it is a country with a developed industry due to the huge Rekenber Corporation.\n\nª <TIPBOX>The City of the Wise, Yuno<INFO>4041</INFO></TIPBOX>\nª <TIPBOX>The Resort Town, Hugel<INFO>4042</INFO></TIPBOX>\nª <TIPBOX>Industrial City, Einbroch<INFO>4043</INFO></TIPBOX>\nª <TIPBOX>Coal Mine Village, Einbech<INFO>4044</INFO></TIPBOX>\nª <TIPBOX>Enterprise City, Lighthalzen<INFO>4045</INFO></TIPBOX>\n\nª <TIPBOX>Midgard Continent<INFO>4001</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4041] = {
+		Title = "The City of the Wise, Yuno",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04041",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is the capital of Schwartzvald and is also called the city of the wise because of its Sage Castle and Schweicherbil Academy. It is made up of four floating islands and attracts many who seek knowledge.\nª <NAVI>[Tool Dealer]<INFO>yuno,194,140,0,000,0</INFO></NAVI>\nª <NAVI>[Blacksmith]<INFO>yuno,120,137,0,000,0</INFO></NAVI>\nª <NAVI>[Airship Platform]<INFO>yuno,53,210,0,000,0</INFO></NAVI>\nª <NAVI>[Government Building]<INFO>yuno,157,317,0,000,0</INFO></NAVI>\nª <NAVI>[Sage Castle]<INFO>yuno,90,318,0,000,0</INFO></NAVI>\nª <NAVI>[Yuno Library]<INFO>yuno,338,203,0,000,0</INFO></NAVI>\nª <NAVI>[Schweicherbil Magic Academy]<INFO>yuno,323,280,0,000,0</INFO></NAVI>\nª <NAVI>[Shadow Workshop]<INFO>yuno,275,67,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Schwartzvald Republic<INFO>4040</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4042] = {
+		Title = "The Resort Town, Hugel#Abyss Deep Lake Odin Temple",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04042",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Hugel, a small and quiet country town located in the northern part of Schwartzvald. As the new sky road opened, many people began to flock in search of adventure and relaxation.\nEnjoy the challenge of adventure and the peacefulness of the countryside at Hugel, a mysterious place with the ancient ruins of the Temple of Odin and the Abyss Lake where dragons sleep.\nª <NAVI>[Hunter's Guild]<INFO>hugel,209,224,0,101,0</INFO></NAVI>\nª <NAVI>[Weapon Dealer]<INFO>hugel,88,167,0,101,0</INFO></NAVI>\nª <NAVI>[Tool Dealer]<INFO>hugel,92,163,0,101,0</INFO></NAVI>\nª <NAVI>[Inn]<INFO>hugel,101,77,0,101,0</INFO></NAVI>\nª <NAVI>[Airship Platform]<INFO>hugel,178,146,0,101,0</INFO></NAVI>\nª <NAVI>[Village Hall]<INFO>hugel,58,206,0,101,0</INFO></NAVI>\nª <NAVI>[Church]<INFO>hugel,159,113,0,101,0</INFO></NAVI>\nª <NAVI>[Tavern]<INFO>hugel,126,65,0,101,0</INFO></NAVI>\nª <NAVI>[Festival Supplies]<INFO>hugel,95,103,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Hugel Monster Racing<INFO>137</INFO></TIPBOX>\n\nª <TIPBOX>Schwartzvald Republic<INFO>4040</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4043] = {
+		Title = "Industrial City, Einbroch",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04043",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"An industrial city lined with machine factories that work non-stop. Perhaps that's why the soot emitted from the factory is thick. It is a planned industrial city created to operate factories by directly refining minerals produced in Einbech.\nª <NAVI>[Airport]<INFO>einbroch,64,204,0,000,0</INFO></NAVI>\nª <NAVI>[Factory]<INFO>einbroch,129,79,0,000,0</INFO></NAVI>\nª <NAVI>[Square]<INFO>einbroch,254,199,0,000,0</INFO></NAVI>\nª <NAVI>[Hotel Einz Essen]<INFO>einbroch,254,199,0,000,0</INFO></NAVI>\nª <NAVI>[Train Station]<INFO>einbroch,232,272,0,000,0</INFO></NAVI>\nª <NAVI>[Weapon Dealer]<INFO>einbroch,216,211,0,000,0</INFO></NAVI>\nª <NAVI>[Lab]<INFO>einbroch,55,52,0,000,0</INFO></NAVI>\nª <NAVI>[Memorial Tower]<INFO>einbroch,178,173,0,000,0</INFO></NAVI>\n\nª <TIPBOX>Schwartzvald Republic<INFO>4040</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4044] = {
+		Title = "Coal Mine Village, Einbech",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04044",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is a small coal mining town made up of people who flocked to develop coal mines. Minerals collected here are delivered to the Einbroch factory by freight train.\nª <NAVI>[Tavern]<INFO>einbech,157,106,0,000,0</INFO></NAVI>\nª <NAVI>[Train Station]<INFO>einbech,39,215,0,000,0</INFO></NAVI>\nª <NAVI>[Tool Dealer]<INFO>einbech,177,133,0,000,0</INFO></NAVI>\nª <NAVI>[Mine]<INFO>einbech,137,248,0,000,0</INFO></NAVI>\n\nª <TIPBOX>Schwartzvald Republic<INFO>4040</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4045] = {
+		Title = "Enterprise City, Lighthalzen",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04045",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"This is where the headquarters of Rekenber Corporation is located, and the city has developed systematically under the influence of corporations. It is also called the City of Light and Darkness due to the large difference between the place where a lot of the wealthy live and the slum dwelling in the relatively isolated outskirts.\nª <NAVI>[Hotel Royal Dragon]<INFO>lighthalzen,159,133,0,000,0</INFO></NAVI>\nª <NAVI>[Bank]<INFO>lighthalzen,203,257,0,000,0</INFO></NAVI>\nª <NAVI>[Airport]<INFO>lighthalzen,262,75,0,000,0</INFO></NAVI>\nª <NAVI>[General Store]<INFO>lighthalzen,199,164,000,0,0</INFO></NAVI>\nª <NAVI>[Rekenber Headquarters]<INFO>lighthalzen,101,243,0,000,0</INFO></NAVI>\nª <NAVI>[Shadow Workshop]<INFO>lighthalzen,41,56,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Schwartzvald Republic<INFO>4040</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4050] = {
+		Title = "Arunafeltz Kingdom",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04050",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"It is a religious state of unity that worships the goddess Freya. He has a bad relationship with Rune-Midgards, whose god is Odin, because of a religious conflict after the previous Crusade. Arunafelz was founded by immigrants who were religiously persecuted at the time. In the capital Rachel, there is a huge temple, Sesilmir.\n\nª <TIPBOX>Saint Rachel<INFO>4051</INFO></TIPBOX>\nª <TIPBOX>Canyon Village, Veins<INFO>4052</INFO></TIPBOX>\nª <TIPBOX>Nameless Island<INFO>4053</INFO></TIPBOX>\n\nª <TIPBOX>Midgard Continent<INFO>4001</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4051] = {
+		Title = "Saint Rachel",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04051",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"The capital of Arunafeltz, a huge religious state centered on believers in Freya.\nThe residence of the believers spreads beneath Sesilmir, a huge temple where the Pope's dwelling and gods are worshiped.\nª <NAVI>[Hotel]<INFO>rachel,115,144,0,101,0</INFO></NAVI>\nª <NAVI>[Weapon Dealer]<INFO>rachel,42,82,0,101,0</INFO></NAVI>\nª <NAVI>[Airport]<INFO>ra_fild12,291,207,0,101,0</INFO></NAVI>\nª <NAVI>[Sesilmir Temple]<INFO>rachel,150,243,0,101,0</INFO></NAVI>\nª <NAVI>[Priest Zed's Mansion]<INFO>rachel,98,238,0,101,0</INFO></NAVI>\nª <NAVI>[Shadow Workshop]<INFO>rachel,180,119,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Arunafeltz Kingdom<INFO>4050</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4052] = {
+		Title = "Canyon Village, Veins",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04052",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A village nestled among steep gorges near the Thor Volcano. The surrounding ore is the main source of livelihood, and the houses built between the canyons demonstrate the uniqueness of the area.\nª <NAVI>[Temple]<INFO>veins,197,256,0,101,0</INFO></NAVI>\nª <NAVI>[Tavern]<INFO>veins,150,215,0,101,0</INFO></NAVI>\nª <NAVI>[Geological Institute]<INFO>ve_in,351,250,0,101,0</INFO></NAVI>\n\nª <TIPBOX>Arunafeltz Kingdom<INFO>4050</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4053] = {
+		Title = "Nameless Island",
+		Search = 1,
+		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip04053",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"A small island floating alone in the sea south of Veins. The inhabitants of the island built a monastery and wished for goodbye, but the island became a place for atonement. Now, the name of the island has been forgotten and the penitents have finally fallen into madness. Will the cries of the monastery heard every night reach God?\n\nª <TIPBOX>Arunafeltz Kingdom<INFO>4050</INFO></TIPBOX>\n§ <TIPBOX>View Tip List<INFO>1000</INFO></TIPBOX>"
+		}
+	}
+}
+
+function main()
+	for DocumentNum, INFO in pairs(tbl) do
+		result, msg = AddTip(DocumentNum, INFO.Title, INFO.Search, INFO.Image)
+		if not result then
+			return false, msg
+		end
+		result, msg = AddImgcoord(DocumentNum, INFO.Imgcoord.Position, INFO.Imgcoord.Size)
+		if not result then
+			return false, msg
+		end
+		if not INFO.PageEX then
+			result, msg = AddPageEx(DocumentNum, -1, 0, 0, 0, 0, 0, 0, 0)
+			if not result then
+				return false, msg
+			end
+		else
+			for k, v in pairs(INFO.PageEX) do
+				result, msg = AddPageEx(DocumentNum, v.EffectNum, v.Twinkle, v.StartX, v.StartY, v.DistX, v.DistY, v.MoveTime)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		for k, v in pairs(INFO.Page) do
+			result, msg = AddPage(DocumentNum, v)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	return true, "good"
+end

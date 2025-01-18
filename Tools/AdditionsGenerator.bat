@@ -169,9 +169,12 @@ exit
 	if %lua% equ 0 (
 		goto AdditionsMenu
 	) else if %lua% equ 1 (
-		xcopy "%sourceDataPath%\luafiles514\" "%destinationDataPath%\luafiles514\" /E /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\" "%destinationDataPath%\luafiles514\"* /E /H /C /I /Y
 		if %date% lss 20240417 (
+			:: Remove new hateffectinfo files if Client is older than 2024-04-17,
 			if exist "%destinationDataPath%\luafiles514\lua files\hateffectinfo\" rmdir /S /Q "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"
+			:: then copy default files over again from Translation folder
+			xcopy "..\Translation\Renewal\data\luafiles514\lua files\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
 		)
 		if %date% lss 20211028 (
 			if exist "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" del /S /Q "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"
@@ -294,9 +297,9 @@ if %lua% equ 1 (
 		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
 		if %date% leq 20170614 (
-			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
+			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		) else (
-			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
+			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		)
 		if %date% geq 20230802 (
 			xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y

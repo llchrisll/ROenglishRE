@@ -3,14 +3,14 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the 
--- `System/Sign_Data_EN.lub` (Translated Strings) which comes with this project
+-- `SystemEN/Sign_Data.lub` (Translated Strings) which comes with this project
 -- Last updated: 20240904
 
 dofile("SystemEN/Sign_Data.lub")
 
 -- Custom Signboards
 -- Uncommend the following 'dofile' line to read a different signboardlist outside of the CLS (Custom Lua Support)
--- Note: The CLS for Signboards will still work even without this file and 
+-- Note: The CLS for Signboards will still work even without the file below but 
 --       will not work together with it.
 --dofile("SystemEN/Signboard_C.lub")
 

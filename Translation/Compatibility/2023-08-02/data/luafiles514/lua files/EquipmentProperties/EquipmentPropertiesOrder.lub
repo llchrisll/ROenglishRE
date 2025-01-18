@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240127
+-- Last updated: 20241027
 
 Operation = { ADD = 0, ONE = 1, MAX = 2, DRAIN_ADD = 3 }
 ValueOption = { MIN = 0, MAX = 1, DIV = 2, FLOAT = 3 }
@@ -96,9 +96,9 @@ ValuePreset = { ExtParam = { [3] = Operation.ADD } }
 SymbolPreset = {
 	IncSign = { "+", "-" },
 	DecSign = { "-", "+" },
-	IncWord = { "Increases", "Decreases" },
-	DecWord = { "Decreases", "Increases" },
-	SkillWord = { "Possible", "Clear" },
+	IncWord = { "Increased", "Decreased" },
+	DecWord = { "Decreased", "Increased" },
+	SkillWord = { "Enables", "Clear" },
 	ApplyWord = { "", " Clear" },
 	OnlyDecSign = { "", "-" }
 }
@@ -386,21 +386,21 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.VAR_MDEFPOWER[1]
 			},
 			[17] = {
-				name = "{val}%#Variable Casting Time {sym}",
+				name = "{val}%#{sym} Variable Casting Time",
 				func = { "SubSpellCastTime", "AddSpellCastTime" },
 				val = { [1] = Operation.ADD },
 				sym = SymbolPreset.DecWord,
 				rndOpt = EnumVAR.DEC_SPELL_CAST_TIME[1]
 			},
 			[18] = {
-				name = "{val}%#After Skill Delay {sym}",
+				name = "{val}%#{sym} After Skill Delay",
 				func = { "SubSpellDelay", "AddSpellDelay" },
 				val = { [1] = Operation.ADD },
 				sym = SymbolPreset.DecWord,
 				rndOpt = EnumVAR.DEC_SPELL_DELAY_TIME[1]
 			},
 			[19] = {
-				name = "{val}Second#{sep}Fixed Casting Time {sym}",
+				name = "{val}s#{sym} {sep}Fixed Casting Time",
 				func = { "SubSFCTEquipAmount", "AddSFCTEquipAmount" },
 				val = { [1] = Operation.ADD },
 				sym = SymbolPreset.DecWord,
@@ -408,7 +408,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 1000, [ValueOption.FLOAT] = 1 }
 			},
 			[20] = {
-				name = "{val}%#{sep}Fixed Casting Time {sym}",
+				name = "{val}%#{sym} {sep}Fixed Casting Time",
 				func = { "SubSFCTEquipPermill" },
 				val = { [1] = Operation.MAX },
 				sym = SymbolPreset.DecWord,
@@ -2410,7 +2410,7 @@ EquipmentPropertiesOrder = {
 				sep = { [1] = "GetSkillName" }
 			},
 			[5] = {
-				name = "{val}초#{sym} After Skill Delay of {sep}",
+				name = "{val}s#{sym} After Skill Delay of {sep}",
 				func = { "SubSkillDelay", "AddSkillDelay" },
 				val = { [2] = Operation.ADD },
 				sym = SymbolPreset.DecWord,
@@ -2426,7 +2426,7 @@ EquipmentPropertiesOrder = {
 				sep = { [2] = "GetAddDamageSkillName" }
 			},
 			[7] = {
-				name = "{val}Lv#{sym} use of {sep}",
+				name = "Lvl {val}#{sym} the use of {sep}",
 				func = { "EnableSkill" },
 				val = { [2] = Operation.MAX },
 				sym = SymbolPreset.SkillWord,
@@ -2627,5 +2627,6 @@ ADSkill = {
 	[5390] = 0,
 	[5391] = 0,
 	[5392] = 0,
-	[5393] = 0
+	[5393] = 0,
+	[6522] = 0
 }
