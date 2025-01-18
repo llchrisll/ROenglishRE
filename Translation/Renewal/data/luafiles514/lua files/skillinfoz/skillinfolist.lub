@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240817
+-- Last updated: 20250118
 
 SKILL_INFO_LIST = {
 	[SKID.NPC_TARGET_MARKER] = {
@@ -15871,9 +15871,9 @@ SKILL_INFO_LIST = {
 		"SH_CHUL_HO_SONIC_CLAW",
 		SkillName = "Chulho Sonic Claw",
 		MaxLv = 7,
-		SpAmount = { 24, 27, 30, 33, 36, 39, 42 },
+		SpAmount = { 42, 44, 46, 48, 50, 52, 54 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 1 }
 		}
@@ -15882,7 +15882,7 @@ SKILL_INFO_LIST = {
 		"SH_HOWLING_OF_CHUL_HO",
 		SkillName = "Howling of Chulho",
 		MaxLv = 7,
-		SpAmount = { 32, 37, 42, 47, 52, 57, 62 },
+		SpAmount = { 72, 72, 72, 72, 72, 72, 72 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15894,7 +15894,7 @@ SKILL_INFO_LIST = {
 		"SH_HOGOGONG_STRIKE",
 		SkillName = "Hogogong Strike",
 		MaxLv = 7,
-		SpAmount = { 50, 53, 56, 59, 62, 65, 68 },
+		SpAmount = { 54, 57, 60, 63, 66, 69, 72 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15987,7 +15987,7 @@ SKILL_INFO_LIST = {
 		"SH_HYUN_ROKS_BREEZE",
 		SkillName = "Hyunrok Breeze",
 		MaxLv = 7,
-		SpAmount = { 56, 62, 68, 74, 80, 86, 92 },
+		SpAmount = { 58, 64, 70, 76, 82, 88, 94 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15999,9 +15999,9 @@ SKILL_INFO_LIST = {
 		"SH_HYUN_ROK_CANNON",
 		SkillName = "Hyunrok Cannon",
 		MaxLv = 7,
-		SpAmount = { 44, 47, 50, 53, 56, 59, 62 },
+		SpAmount = { 47, 50, 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 5 },
 			{ SKID.SH_HYUN_ROKS_BREEZE, 3 }

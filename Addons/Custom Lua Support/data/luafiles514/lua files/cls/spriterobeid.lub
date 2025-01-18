@@ -7,3 +7,7 @@
 SPRITE_ROBE_IDs_CLS = {
 	-- ROBE_ = 1,
 }
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableMerge(SPRITE_ROBE_IDs_CLS,SPRITE_ROBE_IDs)
+--------------------------------------------------------------

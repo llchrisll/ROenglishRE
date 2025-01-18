@@ -10,3 +10,7 @@ transparentItemlist_CLS = {
 	-- Note: Add your entries before the "{ 0, 0, 0, 0 }", this is important!
 	{ 0, 0, 0, 0 }
 }
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableInsert(transparentItemlist_CLS,transparentItemlist)
+--------------------------------------------------------------

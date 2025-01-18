@@ -7,3 +7,7 @@
 World_List_CLS = {
 	-- { "Display Name", "<Table Name for Field Maps>", "<Table Name for Dungeon Maps", "<image>.jpg" },
 }
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableMerge(World_List_CLS,World_List)
+--------------------------------------------------------------

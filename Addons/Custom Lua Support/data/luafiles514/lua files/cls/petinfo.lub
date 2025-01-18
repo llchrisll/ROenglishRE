@@ -42,3 +42,15 @@ PetFoodTable_CLS = {
 	-- Item ID for Pet Food for the respective Pet
 	-- [jobtbl_CLS.JT_] = 531
 }
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableMerge(PetNameTable_CLS,PetNameTable)
+F_LuaTableMerge(PetIllustNameTable_CLS,PetIllustNameTable)
+F_LuaTableMerge(PetIllustNameTable_Eng_CLS,PetIllustNameTable_Eng)
+F_LuaTableInsert(PetAccIDs_CLS,PetAccIDs)
+F_LuaTableMerge(PetAccActNameTable_CLS,PetAccActNameTable)
+F_LuaTableMerge(PetAccActNameTable_Eng_CLS,PetAccActNameTable_Eng)
+F_LuaTableMerge(PetStringTable_CLS,PetStringTable)
+F_LuaTableMerge(PetEggItemID_PetJobID_CLS,PetEggItemID_PetJobID)
+F_LuaTableMerge(PetFoodTable_CLS,PetFoodTable)
+--------------------------------------------------------------

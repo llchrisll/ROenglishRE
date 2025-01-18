@@ -7,3 +7,7 @@
 ShadowFactorTable_CLS = {
 	-- [jobtbl_CLS.JT_] = 0,
 }
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableMerge(ShadowFactorTable_CLS,ShadowFactorTable)
+--------------------------------------------------------------
