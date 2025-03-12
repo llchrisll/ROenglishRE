@@ -28,10 +28,10 @@ echo [3] Random Options %cls[3]%
 echo [4] HatEffects %cls[4]%
 echo [5] NPC/Mob and Pets %cls[5]%
 echo [6] Lapine Boxes %cls[6]%
-echo [7] Signboards %cls[8]%
-echo [8] Robes/Costume Garments %cls[9]%
-echo [9] Weapons %cls[11]%
-echo [10] World Map %cls[12]%
+echo [7] Signboards %cls[7]%
+echo [8] Robes/Costume Garments %cls[8]%
+echo [9] Weapons %cls[9]%
+echo [10] World Map %cls[10]%
 echo [11] Exit
 echo ===============
 set /p type="Now choose: "

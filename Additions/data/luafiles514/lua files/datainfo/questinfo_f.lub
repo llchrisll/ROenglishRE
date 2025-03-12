@@ -5,32 +5,9 @@
 -- This file only works if used in combination with the `Custom Lua Support`
 -- Last updated: 20241005
 
+require('SystemEN/LuaFiles514/rotp_f')
 dofile("SystemEN/OngoingQuests_C.lub")
 dofile("SystemEN/RecommendedQuests_C.lub")
-
------- Additional config for Custom Quests ------
--- Allows entries in OngoingQuests_C.lub and RecommendedQuests_C.lub to overwrite official entries: true/false
-OnGoingOverwrite = false
-RecommendedOverwrite = false
--------------------------------------------------
--- QuestInfoMerge(src, target, state)
--- @src = table to merge
--- @target = table to merge into
--- @state = overwrites official quests, see config above
-function QuestInfoMerge(src, target, state)
-	if src ~= nil then
-		for k,v in pairs(src) do
-			if state == false then
-				if not target[k] then
-					target[k] = {}
-					target[k] = v
-				end
-			else
-				target[k] = v
-			end
-		end
-	end
-end
 -------------------------------------------------
 
 function GetOngoingQuestInfoByID(questID)
@@ -77,10 +54,10 @@ end
 
 function RecommendedQuestInfoLoad()
 	if QuestInfoList_C ~= nil then
-		QuestInfoMerge(QuestInfoList_C,QuestInfoList,OnGoingOverwrite)
+		F_LuaTableMerge(QuestInfoList_C,QuestInfoList)
 	end
 	if RecommendedQuests_C ~= nil then
-		QuestInfoMerge(RecommendedQuests_C,RecommendedQuestInfoList,RecommendedOverwrite)
+		F_LuaTableMerge(RecommendedQuests_C,RecommendedQuestInfoList)
 	end
 	-----------------------------------------------------------
 	for questID, table in pairs(RecommendedQuestInfoList) do

@@ -59,7 +59,7 @@ function F_itemInfoMerge(src, state)
 		else
 			tbl[ItemID] = DESC
 		end
-		if src == tbl_custom then
+		if src == tbl_custom or tbl_override then
 			tbl[ItemID].Custom = true
 		end
 	end

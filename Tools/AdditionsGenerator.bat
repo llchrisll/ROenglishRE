@@ -396,6 +396,7 @@ if %lua% equ 1 (
 	echo [32] payon %omaps[32]%
 	echo [33] ra_temple %omaps[33]%
 	echo [34] spl_fild01 %omaps[34]%
+	echo [35] aldebaran %omaps[35]%
 	echo =================================================================
 	set /p map="Choose which maps you want to copy: "
 	if %map% equ 0 (
@@ -659,9 +660,11 @@ if %lua% equ 1 (
 		xcopy "%sourceDataPath%\ra_temple.rsw" "%destinationDataPath%\ra_temple.rsw"* /H /C /I /Y
 	) else if %map% equ 34 (
 		xcopy "%sourceDataPath%\spl_fild01.rsw" "%destinationDataPath%\spl_fild01.rsw"* /H /C /I /Y
+	) else if %map% equ 35 (
+		xcopy "%sourceDataPath%\aldebaran.rsw" "%destinationDataPath%\aldebaran.rsw"* /H /C /I /Y
 	)
     if %map% equ 1 (
-        for /L %%i in (1,1,34) do (
+        for /L %%i in (1,1,35) do (
             set omaps[%%i]=[ Copied ]
         )
     ) else (

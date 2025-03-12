@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250118
+-- Last updated: 20250125
 
 SKILL_INFO_LIST = {
 	[SKID.NPC_TARGET_MARKER] = {
@@ -15526,7 +15526,7 @@ SKILL_INFO_LIST = {
 		"SKE_RISING_SUN",
 		SkillName = "Rising Sun",
 		MaxLv = 5,
-		SpAmount = { 25, 25, 25, 25, 25 },
+		SpAmount = { 60, 60, 60, 60, 60 },
 		bSeperateLv = true,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
@@ -15537,7 +15537,7 @@ SKILL_INFO_LIST = {
 		"SKE_NOON_BLAST",
 		SkillName = "Noon Blast",
 		MaxLv = 5,
-		SpAmount = { 24, 28, 32, 36, 40 },
+		SpAmount = { 49, 53, 57, 61, 65 },
 		bSeperateLv = true,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
@@ -15549,7 +15549,7 @@ SKILL_INFO_LIST = {
 		"SKE_SUNSET_BLAST",
 		SkillName = "Sunset Blast",
 		MaxLv = 5,
-		SpAmount = { 28, 30, 32, 34, 36 },
+		SpAmount = { 46, 50, 54, 58, 62 },
 		bSeperateLv = true,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
@@ -15561,7 +15561,7 @@ SKILL_INFO_LIST = {
 		"SKE_RISING_MOON",
 		SkillName = "Rising Moon",
 		MaxLv = 5,
-		SpAmount = { 35, 35, 35, 35, 35 },
+		SpAmount = { 64, 64, 64, 64, 64 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15572,7 +15572,7 @@ SKILL_INFO_LIST = {
 		"SKE_MIDNIGHT_KICK",
 		SkillName = "Midnight Kick",
 		MaxLv = 5,
-		SpAmount = { 36, 40, 44, 48, 52 },
+		SpAmount = { 60, 62, 64, 66, 68 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15584,7 +15584,7 @@ SKILL_INFO_LIST = {
 		"SKE_DAWN_BREAK",
 		SkillName = "Dawn Break",
 		MaxLv = 5,
-		SpAmount = { 34, 37, 40, 43, 46 },
+		SpAmount = { 56, 58, 60, 62, 64 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15596,7 +15596,7 @@ SKILL_INFO_LIST = {
 		"SKE_TWINKLING_GALAXY",
 		SkillName = "Twinkling Galaxy",
 		MaxLv = 5,
-		SpAmount = { 30, 30, 30, 30, 30 },
+		SpAmount = { 124, 124, 124, 124, 124 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15607,7 +15607,7 @@ SKILL_INFO_LIST = {
 		"SKE_STAR_BURST",
 		SkillName = "Star Burst",
 		MaxLv = 5,
-		SpAmount = { 41, 45, 49, 53, 57 },
+		SpAmount = { 54, 56, 58, 60, 62 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15619,7 +15619,7 @@ SKILL_INFO_LIST = {
 		"SKE_STAR_CANNON",
 		SkillName = "Star Cannon",
 		MaxLv = 5,
-		SpAmount = { 29, 33, 37, 41, 45 },
+		SpAmount = { 90, 95, 100, 105, 110 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15631,8 +15631,8 @@ SKILL_INFO_LIST = {
 		"SKE_ALL_IN_THE_SKY",
 		SkillName = "All in the Sky",
 		MaxLv = 10,
-		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
-		ApAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
+		SpAmount = { 85, 85, 85, 85, 85, 85, 85, 85, 85, 85 },
+		ApAmount = { 70, 70, 70, 70, 70, 70, 70, 70, 70, 70 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15706,7 +15706,7 @@ SKILL_INFO_LIST = {
 		"SOA_SOUL_GATHERING",
 		SkillName = "Soul Gathering",
 		MaxLv = 5,
-		SpAmount = { 80, 85, 90, 95, 100 },
+		SpAmount = { 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15753,7 +15753,7 @@ SKILL_INFO_LIST = {
 		"SOA_EXORCISM_OF_MALICIOUS_SOUL",
 		SkillName = "Exorcism of Malicious Soul",
 		MaxLv = 5,
-		SpAmount = { 60, 75, 90, 105, 120 },
+		SpAmount = { 70, 80, 90, 100, 110 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -15765,9 +15765,9 @@ SKILL_INFO_LIST = {
 		"SOA_TALISMAN_OF_BLUE_DRAGON",
 		SkillName = "Talisman of Blue Dragon",
 		MaxLv = 5,
-		SpAmount = { 42, 47, 52, 57, 62 },
+		SpAmount = { 54, 58, 62, 66, 70 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.SOA_TALISMAN_OF_SOUL_STEALING, 1 }
 		}
@@ -15776,7 +15776,7 @@ SKILL_INFO_LIST = {
 		"SOA_TALISMAN_OF_WHITE_TIGER",
 		SkillName = "Talisman of White Tiger",
 		MaxLv = 5,
-		SpAmount = { 66, 69, 72, 75, 78 },
+		SpAmount = { 110, 112, 114, 116, 118 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15787,7 +15787,7 @@ SKILL_INFO_LIST = {
 		"SOA_TALISMAN_OF_RED_PHOENIX",
 		SkillName = "Talisman of Red Phoenix",
 		MaxLv = 5,
-		SpAmount = { 65, 75, 85, 95, 105 },
+		SpAmount = { 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15798,7 +15798,7 @@ SKILL_INFO_LIST = {
 		"SOA_TALISMAN_OF_BLACK_TORTOISE",
 		SkillName = "Talisman of Black Tortoise",
 		MaxLv = 5,
-		SpAmount = { 67, 79, 91, 103, 115 },
+		SpAmount = { 72, 77, 82, 87, 92 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15809,7 +15809,7 @@ SKILL_INFO_LIST = {
 		"SOA_TALISMAN_OF_FOUR_BEARING_GOD",
 		SkillName = "Talisman of Four Bearing God",
 		MaxLv = 5,
-		SpAmount = { 70, 86, 102, 118, 134 },
+		SpAmount = { 86, 88, 90, 92, 94 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -15823,8 +15823,8 @@ SKILL_INFO_LIST = {
 		"SOA_CIRCLE_OF_DIRECTIONS_AND_ELEMENTALS",
 		SkillName = "Circle of Directions and Elementals",
 		MaxLv = 5,
-		SpAmount = { 90, 105, 120, 135, 150 },
-		ApAmount = { 150, 150, 150, 150, 150 },
+		SpAmount = { 120, 140, 160, 180, 200 },
+		ApAmount = { 35, 35, 35, 35, 35 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
