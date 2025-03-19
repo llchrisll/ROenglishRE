@@ -22,14 +22,14 @@ if not defined sub (
 		goto EOF
 	)
 	echo Uncompressed File: %file%%ext%
-	luac.exe -o %file%.lub %file%%ext%
+	./bin/luac.exe -o %file%.lub %file%%ext%
 ) else (
 	if not exist %sub%\%file%%ext% (
 		echo File not found, exiting...
 		goto EOF
 	)
 	echo Uncompressed File: %sub%\%file%%ext%
-	luac.exe -o %file%.lub %sub%\%file%%ext%
+	./bin/luac.exe -o %file%.lub %sub%\%file%%ext%
 )
 echo Compressed File: %file%.lub
 :EOF:
