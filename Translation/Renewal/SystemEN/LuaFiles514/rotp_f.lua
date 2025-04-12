@@ -10,7 +10,7 @@
 	@param source table
 	@param dest table
 ]]
-function F_LuaTableMerge(source,dest,state)
+function F_LuaTableMerge(source,dest)
 	if source == nil or dest == nil then
 		return 0
 	end
@@ -28,9 +28,6 @@ end
 ]]
 function F_LuaTableInsert(source,dest)
 	if source == nil or dest == nil then
-		if dest == nil then
-			error(dest..' table not loaded')
-		end
 		return 0
 	end
 	local ct = #dest
@@ -59,7 +56,7 @@ function F_itemInfoMerge(src, state)
 		else
 			tbl[ItemID] = DESC
 		end
-		if src == tbl_custom or tbl_override then
+		if src == tbl_custom or src == tbl_override then
 			tbl[ItemID].Custom = true
 		end
 	end

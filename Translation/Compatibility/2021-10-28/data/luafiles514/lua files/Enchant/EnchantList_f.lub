@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20231021
+-- Last updated: 20250409
 
 Table = {}
 LoadFailed = false
@@ -69,29 +69,6 @@ CreateEnchantInfo = function()
 			self.TargetItemTbl = {}
 		end
 		table.insert(self.TargetItemTbl, in_targetItem)
-	end
-	EnchantInfo.AddTargetItem_Duplicate = function(self, in_targetItem)
-		if self.SlotOrder == nil then
-			self:SetFailed("AddTargetItem", "The SetSlotOrder function must be called first.")
-		end
-		if type(in_targetItem) ~= "string" then
-			self:SetFailed("AddTargetItem", "The value must be a string.")
-		end
-		local slotCount = C_GetSlotCount(in_targetItem)
-		if slotCount > 0 then
-			for k,slotNum in pairs(EnchantInfo.SlotOrder) do
-				if slotNum < slotCount then
-					EnchantInfo:SetFailed("AddTargetItem", "[ " .. in_targetItem .. " ] Enchantment cannot be performed on an activated slot. Please check the number of slots for the item.")
-				end
-			end
-		end
-		if not self.TargetItemTbl then
-			self.TargetItemTbl = {}
-			if table.find(self.TargetItemTbl, in_targetItem) ~= nil then
-				self:SetFailed("AddTargetItem_Duplicate", "The item [ " .. in_targetItem .. " ] is already in the same table.")
-			end
-			table.insert(self.TargetItemTbl, in_targetItem)
-		end
 	end
 	EnchantInfo.SetCondition = function(self, in_minRefine, in_minGrade)
 		if type(in_minRefine) ~= "number" then
@@ -161,7 +138,6 @@ CreateSlotInfo = function()
 	local SlotInfo = {}
 	SlotInfo.PerfectECTbl = {}
 	SlotInfo.UpgradeECTbl = {}
-	SlotInfo.UpgradeNewVer = nil
 	SlotInfo.GetEnchantNum = function(self)
 		for EnchantNum,EnchantInfo in pairs(Table) do
 			local SlotNum = table.find(EnchantInfo.Slot, self)
@@ -274,9 +250,6 @@ CreateSlotInfo = function()
 		self.PerfectECTbl[in_ItemDB] = tbl
 	end
 	SlotInfo.AddUpgradeEnchant = function(self, in_ItemDB, in_ResultItemDB, in_Zeny, ...)
-		if self.UpgradeNewVer ~= nil and self.UpgradeNewVer == true then
-			self:SetFailed("AddUpgradeEnchant", "It cannot be used together with AddPerfectUpgradeEnchant in the same slot.")
-		end
 		if type(in_ItemDB) ~= "string" then
 			self:SetFailed("AddUpgradeEnchant", "The first value must be a string.")
 		elseif type(in_ResultItemDB) ~= "string" then
@@ -305,106 +278,7 @@ CreateSlotInfo = function()
 		if self.UpgradeECTbl[in_ItemDB] ~= nil then
 			self:SetFailed("AddPerfectEnchant", "[ " .. in_ItemDB .. " ]'s information is duplicated.")
 		end
-		self.UpgradeNewVer = false
 		self.UpgradeECTbl[in_ItemDB] = tbl
-	end
-	SlotInfo.SetRandomUpgradeRequire = function(self, in_ItemDB, in_Zeny, ...)
-		if type(in_ItemDB) ~= "string" then
-			self:SetFailed("SetRandomUpgradeRequire", "The first value must be a string.")
-		elseif type(in_Zeny) ~= "number" then
-			self:SetFailed("SetRandomUpgradeRequire", "The second value must be a number.")
-		end
-		if in_Zeny < 0 then
-			self:SetFailed("SetRandomUpgradeRequire", "The second value must be greater than 0.")
-		end
-		if MAX_MATERIAL_NUM < #arg then
-			self:SetFailed("SetRandomUpgradeRequire", "The amount of ingredients must be " .. MAX_MATERIAL_NUM .. " or less.")
-		end
-		local tempMatTbl = {}
-		for i,matInfo in ipairs(arg) do
-			if type(matInfo) ~= "table" then
-				self:SetFailed("SetRequire", "Materials must be written in tabular format.")
-			elseif type(matInfo[1]) ~= "string" then
-				self:SetFailed("SetRequire", "Invalid ingredients list.")
-			elseif type(matInfo[2]) ~= "number" then
-				self:SetFailed("SetRequire", "Invalid ingredients list.")
-			end
-			tempMatTbl[matInfo[1]] = matInfo[2]
-		end
-		if not self.RandomUpgradeECTbl then
-			self.RandomUpgradeECTbl = {}
-		end
-		if not self.RandomUpgradeECTbl[in_ItemDB] then
-			self.RandomUpgradeECTbl[in_ItemDB] = {}
-		end
-		if self.RandomUpgradeECTbl[in_ItemDB].RequireTbl ~= nil then
-			self:SetFailed("SetRandomUpgradeRequire", "There is duplicate information in [ " .. in_ItemDB .. " ].")
-		end
-		local tbl = {Zeny = in_Zeny, MatTbl = tempMatTbl}
-		self.RandomUpgradeECTbl[in_ItemDB].RequireTbl = tbl
-	end
-	SlotInfo.AddRandomUpgradeEnchant = function(self, in_ItemDB, in_ResultItemDB, in_Rate)
-		if self.UpgradeNewVer ~= nil and self.UpgradeNewVer == false then
-			self:SetFailed("AddPerfectUpgradeEnchant", "It cannot be used together with AddUpgradeEnchant in the same slot.")
-		end
-		if type(in_ItemDB) ~= "string" then
-			self:SetFailed("AddRandomUpgradeEnchant", "The first value must be a string.")
-		elseif type(in_ResultItemDB) ~= "string" then
-			self:SetFailed("AddRandomUpgradeEnchant", "The second value must be a string.")
-		elseif type(in_Rate) ~= "number" then
-			self:SetFailed("AddRandomUpgradeEnchant", "The third value must be a number.")
-		end
-		if in_Rate < 0 or in_Rate > 100000 then
-			self:SetFailed("AddRandomUpgradeEnchant", "The third value must be between 0 and 100000.")
-		end
-		if self.RandomUpgradeECTbl == nil or self.RandomUpgradeECTbl[in_ItemDB] == nil or self.RandomUpgradeECTbl[in_ItemDB].RequireTbl == nil then
-			self:SetFailed("AddRandomUpgradeEnchant", "The SetRandomUpgradeRequire function must be called first.")
-		end
-		if not self.RandomUpgradeECTbl[in_ItemDB].ResultTbl then
-			self.RandomUpgradeECTbl[in_ItemDB].ResultTbl = {}
-		end
-		if self.RandomUpgradeECTbl[in_ItemDB].ResultTbl[in_ResultItemDB] ~= nil then
-			self:SetFailed("AddRandomUpgradeEnchant", "There is duplicate information in [ " .. in_ItemDB .. " ][ " .. in_ResultItemDB .. " ].")
-		end
-		self.UpgradeNewVer = true
-		self.RandomUpgradeECTbl[in_ItemDB].ResultTbl[in_ResultItemDB] = in_Rate
-	end
-	SlotInfo.AddPerfectUpgradeEnchant = function(self, in_ItemDB, in_ResultItemDB, in_Zeny, ...)
-		if type(in_ItemDB) ~= "string" then
-			self:SetFailed("AddPerfectUpgradeEnchant", "The first value must be a string.")
-		elseif type(in_ResultItemDB) ~= "string" then
-			self:SetFailed("AddPerfectUpgradeEnchant", "The third value must be a string.")
-		elseif type(in_Zeny) ~= "number" then
-			self:SetFailed("AddPerfectUpgradeEnchant", "The third value must be a number.")
-		end
-		if in_Zeny < 0 then
-			self:SetFailed("AddPerfectUpgradeEnchant", "The third value must be greater than 0.")
-		end
-		if MAX_MATERIAL_NUM < #arg then
-			self:SetFailed("AddPerfectUpgradeEnchant", "The amount of ingredients must be " .. MAX_MATERIAL_NUM .. " or less.")
-		end
-		local tempMatTbl = {}
-		for i,matInfo in ipairs(arg) do
-			if type(matInfo) ~= "table" then
-				self:SetFailed("AddPerfectUpgradeEnchant", "Materials must be written in tabular form.")
-			elseif type(matInfo[1]) ~= "string" then
-				self:SetFailed("AddPerfectUpgradeEnchant", "Invalid ingredients list.")
-			elseif type(matInfo[2]) ~= "number" then
-				self:SetFailed("AddPerfectUpgradeEnchant", "Invalid ingredients list.")
-			end
-			tempMatTbl[matInfo[1]] = matInfo[2]
-		end
-		if not self.PerfectUpgradeECTbl then
-			self.PerfectUpgradeECTbl = {}
-		end
-		if not self.PerfectUpgradeECTbl[in_ItemDB] then
-			self.PerfectUpgradeECTbl[in_ItemDB] = {}
-		end
-		if self.PerfectUpgradeECTbl[in_ItemDB][in_ResultItemDB] ~= nil then
-			self:SetFailed("AddPerfectUpgradeEnchant", "There is duplicate information in [ " .. in_ItemDB .. " ][ " .. in_ResultItemDB .. " ].")
-		end
-		local tbl = {Zeny = in_Zeny, MatTbl = tempMatTbl}
-		self.PerfectUpgradeECTbl[in_ItemDB][in_ResultItemDB] = tbl
 	end
 	return SlotInfo
 end
@@ -455,24 +329,6 @@ function CheckFile()
 					end
 					if totalRate ~= 100000 then
 						slotInfo:SetFailed("SetEnchant","The sum of the probabilities of the " .. grade .. " grade is not 100000.")
-					end
-				end
-			end
-			if slotInfo.RandomUpgradeECTbl ~= nil then
-				for ItemDB,RandomUpgradeECTInfo in pairs(slotInfo.RandomUpgradeECTbl) do
-					if RandomUpgradeECTInfo.RequireTbl == nil then
-						slotInfo:SetFailed("SetRandomUpgradeRequire", "[ " .. ItemDB .. " ] Material information for random upgrade enchantment does not exist.")
-					end
-					if RandomUpgradeECTInfo.ResultTbl == nil then
-						slotInfo:SetFailed("AddRandomUpgradeEnchant", "[ " .. ItemDB .. " ] Random upgrade enchantment information does not exist.")
-					else
-						local TotalRate = 0
-						for ResultItemDB,Rate in pairs(RandomUpgradeECTInfo.ResultTbl) do
-							TotalRate = TotalRate + Rate
-						end
-						if TotalRate ~= 100000 then
-							slotInfo:SetFailed("AddRandomUpgradeEnchant", "[ " .. ItemDB .. " ] The total probability of random upgrade enchantments is not 100000.")
-						end
 					end
 				end
 			end
@@ -549,33 +405,6 @@ GetEnchantInfo = function(in_EnchantNum)
 					return false, msg
 				end
 			end
-			-- Disabled because you need a client newer than 2022-04-06 to support it [llchrisll]
-			--[[ 
-			if slotInfo.RandomUpgradeECTbl ~= nil then
-				for ItemDB,RandomUpgradeECTInfo in pairs(slotInfo.RandomUpgradeECTbl) do
-					result = C_SetRandomUpgradeRequire(in_EnchantNum, slotNum, ItemDB, RandomUpgradeECTInfo.RequireTbl.Zeny, RandomUpgradeECTInfo.RequireTbl.MatTbl)
-					if not result then
-						return false, msg
-					end
-					for ResultItemDB,Rate in pairs(RandomUpgradeECTInfo.ResultTbl) do
-						result = C_AddRandomUpgradeEnchant(in_EnchantNum, slotNum, ItemDB, ResultItemDB, Rate)
-						if not result then
-							return false, msg
-						end
-					end
-				end
-			end
-			if slotInfo.PerfectUpgradeECTbl ~= nil then
-				for ItemDB,PerfectUpgradeECTInfo in pairs(slotInfo.PerfectUpgradeECTbl) do
-					for ResultItemDB,Require in pairs(PerfectUpgradeECTInfo) do
-						result = C_AddPerfectUpgradeEnchant(in_EnchantNum, slotNum, ItemDB, ResultItemDB, Require.Zeny, Require.MatTbl)
-						if not result then
-							return false, msg
-						end
-					end
-				end
-			end
-			]]
 		end
 	end
 	return true, "good"
@@ -590,4 +419,3 @@ LoadAllData = function()
 	end
 	return true, "good"
 end
-
