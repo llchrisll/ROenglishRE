@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250412
+-- Last updated: 20250426
 
 tbl = {
 	[603] = {
@@ -12846,12 +12846,6 @@ tbl = {
 	},
 	[22825] = {
 		{ id = 7000, prob = 1, name = "Event Stone Coin", group = 0 },
-		{ id = 410290, prob = 37, name = "Costume Jellyfish", group = 6 },
-		{ id = 400459, prob = 37, name = "Costume Navy Officer Hat", group = 6 },
-		{ id = 31124, prob = 37, name = "Costume Ribbon Chief Hat", group = 6 },
-		{ id = 410364, prob = 37, name = "Costume Wisdomcore Headphones", group = 6 },
-		{ id = 410328, prob = 37, name = "Costume Fluffy Bakery", group = 6 },
-		{ id = 20014, prob = 37, name = "Costume Lincoln Hat", group = 6 },
 		{ id = 31121, prob = 37, name = "Costume Bat Stole", group = 6 },
 		{ id = 19925, prob = 37, name = "Costume Monocle", group = 6 },
 		{ id = 410353, prob = 37, name = "Costume Phen\'s Eyes", group = 6 },
@@ -12863,10 +12857,16 @@ tbl = {
 		{ id = 400356, prob = 37, name = "Costume Ignis Cap (Blue)", group = 6 },
 		{ id = 420359, prob = 37, name = "Costume Catbell", group = 6 },
 		{ id = 31734, prob = 37, name = "Costume Citrus Ribbon", group = 6 },
-		{ id = 400684, prob = 111, name = "Costume Jerboa\'s Headband", group = 6 },
-		{ id = 420054, prob = 111, name = "Costume Smoky Muffler", group = 6 },
-		{ id = 31250, prob = 111, name = "Costume Wonderful Beast Ears", group = 6 },
-		{ id = 480486, prob = 38, name = "Costume Shiba Inu Tail", group = 6 }
+		{ id = 400684, prob = 37, name = "Costume Jerboa\'s Headband", group = 6 },
+		{ id = 420054, prob = 37, name = "Costume Smoky Muffler", group = 6 },
+		{ id = 31250, prob = 37, name = "Costume Wonderful Beast Ears", group = 6 },
+		{ id = 400703, prob = 37, name = "Costume Rope Marine Cap", group = 6 },
+		{ id = 19929, prob = 37, name = "Costume Classical Ribbon", group = 6 },
+		{ id = 410122, prob = 37, name = "Costume Blinking Pink Eyes", group = 6 },
+		{ id = 410108, prob = 111, name = "Costume: Black Shiba Inu", group = 6 },
+		{ id = 400634, prob = 111, name = "Costume Ghost Whisper", group = 6 },
+		{ id = 420435, prob = 111, name = "Costume Strawberry Donut in Mouth", group = 6 },
+		{ id = 480432, prob = 38, name = "Costume Glass Rose Garden", group = 6 }
 	},
 	[22826] = {
 		{ id = 6740, prob = 50, name = "Stone Recovery(Upper)", group = 1 },
@@ -18521,28 +18521,54 @@ tbl = {
 		{ id = 7925, prob = 9, name = "Powerful Dimensional Essence", group = 6 },
 		{ id = 100751, prob = 83, name = "Refinement Certificate Envelope", group = 6 },
 		{ id = 102226, prob = 9, name = "Sealed Boss Card Album", group = 6 },
-		{ id = 102733, prob = 10, name = "Ace Card in Mouth Selection Box", group = 6 },
-		{ id = 410232, prob = 10, name = "Gambler\'s Seal", group = 6 },
-		{ id = 25041, prob = 20, name = "Soul Plunger", group = 6 },
-		{ id = 19118, prob = 10, name = "Poring Sunglasses+", group = 6 },
-		{ id = 410079, prob = 10, name = "Deep Blue Sunglasses", group = 6 },
+		{ id = 460020, prob = 10, name = "Mad Bunny-LT", group = 6 },
+		{ id = 480124, prob = 30, name = "Convertible Physical Wing", group = 6 },
+		{ id = 480125, prob = 30, name = "Convertible Magical Wing", group = 6 },
+		{ id = 480197, prob = 30, name = "Convertible Critical Wing", group = 6 },
+		{ id = 450405, prob = 30, name = "Convertible Physical Armor", group = 6 },
+		{ id = 450406, prob = 30, name = "Convertible Magical Armor", group = 6 },
+		{ id = 450407, prob = 30, name = "Convertible Critical Armor", group = 6 },
+		{ id = 1001809, prob = 30, name = "Furious Weapon Coupon", group = 6 },
+		{ id = 1001810, prob = 30, name = "Furious Crown Coupon", group = 6 },
 		{ id = 102900, prob = 30, name = "Furious Refine Stone", group = 6 },
 		{ id = 103991, prob = 30, name = "Time Gap Weapon Box", group = 6 },
 		{ id = 103308, prob = 10, name = "Time Gap Refine Hammer", group = 6 },
-		{ id = 24669, prob = 15, name = "Mammoth Shadow Armor", group = 6 },
-		{ id = 24670, prob = 15, name = "Mammoth Shadow Shoes", group = 6 },
-		{ id = 24671, prob = 15, name = "Mammoth Shadow Pendant", group = 6 },
-		{ id = 24672, prob = 15, name = "Mammoth Shadow Earring", group = 6 },
-		{ id = 24673, prob = 15, name = "Mammoth Shadow Weapon", group = 6 },
-		{ id = 24674, prob = 15, name = "Mammoth Shadow Shield", group = 6 },
-		{ id = 100621, prob = 8, name = "Maximum Mammonth Shadow Thump Box", group = 6 },
-		{ id = 24180, prob = 15, name = "Bearer\'s Shadow Armor", group = 6 },
-		{ id = 24181, prob = 15, name = "Bearer\'s Shadow Shoes", group = 6 },
-		{ id = 24185, prob = 15, name = "Bearer\'s Shadow Pendant", group = 6 },
-		{ id = 24184, prob = 15, name = "Bearer\'s Shadow Earring", group = 6 },
-		{ id = 24183, prob = 15, name = "Bearer\'s Shadow Weapon", group = 6 },
-		{ id = 24182, prob = 15, name = "Bearer\'s Shadow Shield", group = 6 },
-		{ id = 101257, prob = 8, name = "Lord Bearer\'s Shadow Thump Box", group = 6 },
+		{ id = 1270005, prob = 20, name = "Sword Master Shadow Armor", group = 6 },
+		{ id = 1270006, prob = 20, name = "Sword Master Shadow Shoes", group = 6 },
+		{ id = 1270007, prob = 20, name = "Sword Master Shadow Earring", group = 6 },
+		{ id = 1270008, prob = 20, name = "Sword Master Shadow Pendant", group = 6 },
+		{ id = 1270009, prob = 20, name = "Bow Master Shadow Armor", group = 6 },
+		{ id = 1270010, prob = 20, name = "Bow Master Shadow Shoes", group = 6 },
+		{ id = 1270011, prob = 20, name = "Bow Master Shadow Earring", group = 6 },
+		{ id = 1270012, prob = 20, name = "Bow Master Shadow Pendant", group = 6 },
+		{ id = 1270013, prob = 20, name = "Fatal Master Shadow Armor", group = 6 },
+		{ id = 1270014, prob = 20, name = "Fatal Master Shadow Shoes", group = 6 },
+		{ id = 1270015, prob = 20, name = "Fatal Master Shadow Earring", group = 6 },
+		{ id = 1270016, prob = 20, name = "Fatal Master Shadow Pendant", group = 6 },
+		{ id = 1270023, prob = 20, name = "Dragonic Spear Shadow Earring", group = 6 },
+		{ id = 1270024, prob = 20, name = "Dragonic Spear Shadow Pendant", group = 6 },
+		{ id = 1270025, prob = 20, name = "Madness Breath Shadow Armor", group = 6 },
+		{ id = 1270026, prob = 20, name = "Madness Breath Shadow Shoes", group = 6 },
+		{ id = 1270027, prob = 20, name = "Acidified Shadow Earring", group = 6 },
+		{ id = 1270028, prob = 20, name = "Acidified Shadow Pendant", group = 6 },
+		{ id = 1270029, prob = 20, name = "Thorns Shadow Armor", group = 6 },
+		{ id = 1270030, prob = 20, name = "Thorns Shadow Shoes", group = 6 },
+		{ id = 1270031, prob = 20, name = "Hyunrok Cannon Shadow Earring", group = 6 },
+		{ id = 1270032, prob = 20, name = "Hyunrok Cannon Shadow Pendant", group = 6 },
+		{ id = 1270033, prob = 20, name = "Leaf Spirit Shadow Armor", group = 6 },
+		{ id = 1270034, prob = 20, name = "Leaf Spirit Shadow Shoes", group = 6 },
+		{ id = 24906, prob = 20, name = "Eternal Cross Shadow Earring", group = 6 },
+		{ id = 24907, prob = 20, name = "Eternal Cross Shadow Pendant", group = 6 },
+		{ id = 24908, prob = 20, name = "Savage Shadow Armor", group = 6 },
+		{ id = 24909, prob = 20, name = "Savage Shadow Shoes", group = 6 },
+		{ id = 24922, prob = 20, name = "Rhythmical Shadow Earring", group = 6 },
+		{ id = 24923, prob = 20, name = "Rhythmical Shadow Pendant", group = 6 },
+		{ id = 24924, prob = 20, name = "Metallic Fury Shadow Armor", group = 6 },
+		{ id = 24925, prob = 20, name = "Metallic Fury Shadow Shoes", group = 6 },
+		{ id = 24944, prob = 20, name = "Vulcan Jack Shadow Earring", group = 6 },
+		{ id = 24945, prob = 20, name = "Vulcan Jack Shadow Pendant", group = 6 },
+		{ id = 24946, prob = 20, name = "Thunder Buster Shadow Armor", group = 6 },
+		{ id = 24947, prob = 20, name = "Thunder Buster Cannon Shadow Shoes", group = 6 },
 		{ id = 24792, prob = 20, name = "Master Shadow Weapon", group = 6 },
 		{ id = 24793, prob = 20, name = "Master Shadow Shield", group = 6 },
 		{ id = 101047, prob = 30, name = "Blacksmith\'s Blessing Box (3) 3x 상자", group = 6 },
@@ -18552,14 +18578,10 @@ tbl = {
 		{ id = 102541, prob = 100, name = "M. Shadow Shoes Box", group = 6 },
 		{ id = 102542, prob = 100, name = "M. Shadow Pendant Box", group = 6 },
 		{ id = 102543, prob = 100, name = "M. Shadow Earring Box", group = 6 },
-		{ id = 101666, prob = 443, name = "Special Shadow Spellbook Box", group = 6 },
-		{ id = 6635, prob = 443, name = "Blacksmith\'s Blessing", group = 6 },
-		{ id = 1001253, prob = 443, name = "Shadow Essence", group = 6 },
-		{ id = 23436, prob = 443, name = "Hollgrehenn\'s Shadow Refine Hammer", group = 6 },
-		{ id = 102734, prob = 100, name = "Loki\'s Coin Selection Box", group = 6 },
-		{ id = 102735, prob = 100, name = "Loki\'s Advice Selection Box", group = 6 },
-		{ id = 100690, prob = 150, name = "Material Shadow Cube II", group = 6 },
-		{ id = 100198, prob = 300, name = "Skill Shadow Cube", group = 6 },
+		{ id = 101666, prob = 427, name = "Special Shadow Spellbook Box", group = 6 },
+		{ id = 6635, prob = 427, name = "Blacksmith\'s Blessing", group = 6 },
+		{ id = 1001253, prob = 427, name = "Shadow Essence", group = 6 },
+		{ id = 23436, prob = 427, name = "Hollgrehenn\'s Shadow Refine Hammer", group = 6 },
 		{ id = 100709, prob = 300, name = "All Shadow Cube", group = 6 },
 		{ id = 101565, prob = 300, name = "Shadow Spellbook Selection Box", group = 6 },
 		{ id = 100214, prob = 400, name = "Shadowdecon Gemstone Box", group = 6 },
@@ -24720,46 +24742,46 @@ tbl = {
 		{ id = 102193, prob = 10, name = "Costume Enchant Stone Box 30 10x", group = 0 }
 	},
 	[102317] = {
-		{ id = 1001290, prob = 320, name = "심층의 화염 에너지 3개", group = 6 },
-		{ id = 1001291, prob = 320, name = "심층의 대지 에너지 3개", group = 6 },
-		{ id = 1001292, prob = 320, name = "심층의 냉기 에너지 3개", group = 6 },
-		{ id = 1001293, prob = 320, name = "심층의 폭풍 에너지 3개", group = 6 },
-		{ id = 1001294, prob = 320, name = "심층의 영혼 에너지 3개", group = 6 },
-		{ id = 1001295, prob = 320, name = "심층의 정화 에너지 3개", group = 6 },
-		{ id = 1001296, prob = 320, name = "심층의 타락 에너지 3개", group = 6 },
-		{ id = 1001297, prob = 320, name = "심층의 맹독 에너지 3개", group = 6 },
-		{ id = 1001290, prob = 270, name = "심층의 화염 에너지 5개", group = 6 },
-		{ id = 1001291, prob = 270, name = "심층의 대지 에너지 5개", group = 6 },
-		{ id = 1001292, prob = 270, name = "심층의 냉기 에너지 5개", group = 6 },
-		{ id = 1001293, prob = 270, name = "심층의 폭풍 에너지 5개", group = 6 },
-		{ id = 1001294, prob = 270, name = "심층의 영혼 에너지 5개", group = 6 },
-		{ id = 1001295, prob = 270, name = "심층의 정화 에너지 5개", group = 6 },
-		{ id = 1001296, prob = 270, name = "심층의 타락 에너지 5개", group = 6 },
-		{ id = 1001297, prob = 270, name = "심층의 맹독 에너지 5개", group = 6 },
-		{ id = 1001290, prob = 225, name = "심층의 화염 에너지 7개", group = 6 },
-		{ id = 1001291, prob = 225, name = "심층의 대지 에너지 7개", group = 6 },
-		{ id = 1001292, prob = 225, name = "심층의 냉기 에너지 7개", group = 6 },
-		{ id = 1001293, prob = 225, name = "심층의 폭풍 에너지 7개", group = 6 },
-		{ id = 1001294, prob = 225, name = "심층의 영혼 에너지 7개", group = 6 },
-		{ id = 1001295, prob = 225, name = "심층의 정화 에너지 7개", group = 6 },
-		{ id = 1001296, prob = 225, name = "심층의 타락 에너지 7개", group = 6 },
-		{ id = 1001297, prob = 225, name = "심층의 맹독 에너지 7개", group = 6 },
-		{ id = 1001298, prob = 175, name = "심층의 화염 결정체", group = 6 },
-		{ id = 1001299, prob = 175, name = "심층의 대지 결정체", group = 6 },
-		{ id = 1001300, prob = 175, name = "심층의 냉기 결정체", group = 6 },
-		{ id = 1001301, prob = 175, name = "심층의 폭풍 결정체", group = 6 },
-		{ id = 1001302, prob = 175, name = "심층의 영혼 결정체", group = 6 },
-		{ id = 1001303, prob = 175, name = "심층의 정화 결정체", group = 6 },
-		{ id = 1001304, prob = 175, name = "심층의 타락 결정체", group = 6 },
-		{ id = 1001305, prob = 175, name = "심층의 맹독 결정체", group = 6 },
-		{ id = 1001298, prob = 80, name = "심층의 화염 결정체 2개", group = 6 },
-		{ id = 1001299, prob = 80, name = "심층의 대지 결정체 2개", group = 6 },
-		{ id = 1001300, prob = 80, name = "심층의 냉기 결정체 2개", group = 6 },
-		{ id = 1001301, prob = 80, name = "심층의 폭풍 결정체 2개", group = 6 },
-		{ id = 1001302, prob = 80, name = "심층의 영혼 결정체 2개", group = 6 },
-		{ id = 1001303, prob = 80, name = "심층의 정화 결정체 2개", group = 6 },
-		{ id = 1001304, prob = 80, name = "심층의 타락 결정체 2개", group = 6 },
-		{ id = 1001305, prob = 80, name = "심층의 맹독 결정체 2개", group = 6 },
+		{ id = 1001290, prob = 320, name = "Deep Flame Energy 3x", group = 6 },
+		{ id = 1001291, prob = 320, name = "Deep Earth Energy 3x", group = 6 },
+		{ id = 1001292, prob = 320, name = "Deep Cold Energy 3x", group = 6 },
+		{ id = 1001293, prob = 320, name = "Deep Storm Energy 3x", group = 6 },
+		{ id = 1001294, prob = 320, name = "Deep Soul Energy 3x", group = 6 },
+		{ id = 1001295, prob = 320, name = "Deep Purification Energy 3x", group = 6 },
+		{ id = 1001296, prob = 320, name = "Deep Corruption Energy 3x", group = 6 },
+		{ id = 1001297, prob = 320, name = "Deep Poison Energy 3x", group = 6 },
+		{ id = 1001290, prob = 270, name = "Deep Flame Energy 5x", group = 6 },
+		{ id = 1001291, prob = 270, name = "Deep Earth Energy 5x", group = 6 },
+		{ id = 1001292, prob = 270, name = "Deep Cold Energy 5x", group = 6 },
+		{ id = 1001293, prob = 270, name = "Deep Storm Energy 5x", group = 6 },
+		{ id = 1001294, prob = 270, name = "Deep Soul Energy 5x", group = 6 },
+		{ id = 1001295, prob = 270, name = "Deep Purification Energy 5x", group = 6 },
+		{ id = 1001296, prob = 270, name = "Deep Corruption Energy 5x", group = 6 },
+		{ id = 1001297, prob = 270, name = "Deep Poison Energy 5x", group = 6 },
+		{ id = 1001290, prob = 225, name = "Deep Flame Energy 7x", group = 6 },
+		{ id = 1001291, prob = 225, name = "Deep Earth Energy 7x", group = 6 },
+		{ id = 1001292, prob = 225, name = "Deep Cold Energy 7x", group = 6 },
+		{ id = 1001293, prob = 225, name = "Deep Storm Energy 7x", group = 6 },
+		{ id = 1001294, prob = 225, name = "Deep Soul Energy 7x", group = 6 },
+		{ id = 1001295, prob = 225, name = "Deep Purification Energy 7x", group = 6 },
+		{ id = 1001296, prob = 225, name = "Deep Corruption Energy 7x", group = 6 },
+		{ id = 1001297, prob = 225, name = "Deep Poison Energy 7x", group = 6 },
+		{ id = 1001298, prob = 175, name = "Deep Flame Crystal", group = 6 },
+		{ id = 1001299, prob = 175, name = "Deep Earth Crystal", group = 6 },
+		{ id = 1001300, prob = 175, name = "Deep Cold Crystal", group = 6 },
+		{ id = 1001301, prob = 175, name = "Deep Storm Crystal", group = 6 },
+		{ id = 1001302, prob = 175, name = "Deep Soul Crystal", group = 6 },
+		{ id = 1001303, prob = 175, name = "Deep Purification Crystal", group = 6 },
+		{ id = 1001304, prob = 175, name = "Deep Corruption Crystal", group = 6 },
+		{ id = 1001305, prob = 175, name = "Deep Poison Crystal", group = 6 },
+		{ id = 1001298, prob = 80, name = "Deep Flame Crystal 2x", group = 6 },
+		{ id = 1001299, prob = 80, name = "Deep Earth Crystal 2x", group = 6 },
+		{ id = 1001300, prob = 80, name = "Deep Cold Crystal 2x", group = 6 },
+		{ id = 1001301, prob = 80, name = "Deep Storm Crystal 2x", group = 6 },
+		{ id = 1001302, prob = 80, name = "Deep Soul Crystal 2x", group = 6 },
+		{ id = 1001303, prob = 80, name = "Deep Purification Crystal 2x", group = 6 },
+		{ id = 1001304, prob = 80, name = "Deep Corruption Crystal 2x", group = 6 },
+		{ id = 1001305, prob = 80, name = "Deep Poison Crystal 2x", group = 6 },
 		{ id = 1000636, prob = 60, name = "Glade Rune Fragment 3x", group = 6 },
 		{ id = 1000637, prob = 60, name = "Fire Rune Fragment 3x", group = 6 },
 		{ id = 1000638, prob = 60, name = "Ice Rune Fragment 3x", group = 6 },
@@ -24802,30 +24824,30 @@ tbl = {
 		{ id = 1001183, prob = 13, name = "Temple Essence", group = 6 },
 		{ id = 1001184, prob = 13, name = "Venom Essence", group = 6 },
 		{ id = 1001185, prob = 13, name = "Soul Essence", group = 6 },
-		{ id = 1001306, prob = 15, name = "심층 화염의 룬", group = 6 },
-		{ id = 1001307, prob = 15, name = "심층 대지의 룬", group = 6 },
-		{ id = 1001308, prob = 15, name = "심층 냉기의 룬", group = 6 },
-		{ id = 1001309, prob = 15, name = "심층 폭풍의 룬", group = 6 },
-		{ id = 1001310, prob = 15, name = "심층 영혼의 룬", group = 6 },
-		{ id = 1001311, prob = 15, name = "심층 정화의 룬", group = 6 },
-		{ id = 1001312, prob = 15, name = "심층 타락의 룬", group = 6 },
-		{ id = 1001313, prob = 15, name = "심층 맹독의 룬", group = 6 },
-		{ id = 1001306, prob = 8, name = "심층 화염의 룬 2개", group = 6 },
-		{ id = 1001307, prob = 8, name = "심층 대지의 룬 2개", group = 6 },
-		{ id = 1001308, prob = 8, name = "심층 냉기의 룬 2개", group = 6 },
-		{ id = 1001309, prob = 8, name = "심층 폭풍의 룬 2개", group = 6 },
-		{ id = 1001310, prob = 8, name = "심층 영혼의 룬 2개", group = 6 },
-		{ id = 1001311, prob = 8, name = "심층 정화의 룬 2개", group = 6 },
-		{ id = 1001312, prob = 8, name = "심층 타락의 룬 2개", group = 6 },
-		{ id = 1001313, prob = 8, name = "심층 맹독의 룬 2개", group = 6 },
-		{ id = 1001314, prob = 10, name = "심층 화염의 정수", group = 6 },
-		{ id = 1001315, prob = 10, name = "심층 대지의 정수", group = 6 },
-		{ id = 1001316, prob = 10, name = "심층 냉기의 정수", group = 6 },
-		{ id = 1001317, prob = 10, name = "심층 폭풍의 정수", group = 6 },
-		{ id = 1001318, prob = 10, name = "심층 영혼의 정수", group = 6 },
-		{ id = 1001319, prob = 10, name = "심층 정화의 정수", group = 6 },
-		{ id = 1001320, prob = 10, name = "심층 타락의 정수", group = 6 },
-		{ id = 1001321, prob = 10, name = "심층 맹독의 정수", group = 6 }
+		{ id = 1001306, prob = 15, name = "Deep Flame Rune", group = 6 },
+		{ id = 1001307, prob = 15, name = "Deep Earth Rune", group = 6 },
+		{ id = 1001308, prob = 15, name = "Deep Cold Rune", group = 6 },
+		{ id = 1001309, prob = 15, name = "Deep Storm Rune", group = 6 },
+		{ id = 1001310, prob = 15, name = "Deep Soul Rune", group = 6 },
+		{ id = 1001311, prob = 15, name = "Deep Purification Rune", group = 6 },
+		{ id = 1001312, prob = 15, name = "Deep Corruption Rune", group = 6 },
+		{ id = 1001313, prob = 15, name = "Deep Poison Rune", group = 6 },
+		{ id = 1001306, prob = 8, name = "Deep Flame Rune 2x", group = 6 },
+		{ id = 1001307, prob = 8, name = "Deep Earth Rune 2x", group = 6 },
+		{ id = 1001308, prob = 8, name = "Deep Cold Rune 2x", group = 6 },
+		{ id = 1001309, prob = 8, name = "Deep Storm Rune 2x", group = 6 },
+		{ id = 1001310, prob = 8, name = "Deep Soul Rune 2x", group = 6 },
+		{ id = 1001311, prob = 8, name = "Deep Purification Rune 2x", group = 6 },
+		{ id = 1001312, prob = 8, name = "Deep Corruption Rune 2x", group = 6 },
+		{ id = 1001313, prob = 8, name = "Deep Poison Rune 2x", group = 6 },
+		{ id = 1001314, prob = 10, name = "Deep Flame Essence", group = 6 },
+		{ id = 1001315, prob = 10, name = "Deep Earth Essence", group = 6 },
+		{ id = 1001316, prob = 10, name = "Deep Cold Essence", group = 6 },
+		{ id = 1001317, prob = 10, name = "Deep Storm Essence", group = 6 },
+		{ id = 1001318, prob = 10, name = "Deep Soul Essence", group = 6 },
+		{ id = 1001319, prob = 10, name = "Deep Purification Essence", group = 6 },
+		{ id = 1001320, prob = 10, name = "Deep Corruption Essence", group = 6 },
+		{ id = 1001321, prob = 10, name = "Deep Poison Essence", group = 6 }
 	},
 	[102332] = {
 		{ id = 1000523, prob = 1, name = "Ranged Stone(Dual)", group = 6 },
@@ -24834,10 +24856,10 @@ tbl = {
 		{ id = 1000922, prob = 1, name = "Special Magic Attack Stone(Garment)", group = 6 },
 		{ id = 1001053, prob = 1, name = "Melee Physical Attack Stone(Garment)", group = 6 },
 		{ id = 1001054, prob = 1, name = "Range Physical Attack Stone(Garment)", group = 6 },
-		{ id = 1001322, prob = 1, name = "신키로 스톤(걸칠것)", group = 6 },
-		{ id = 1001323, prob = 1, name = "시라누이 스톤(걸칠것)", group = 6 },
-		{ id = 1001324, prob = 1, name = "쉐도우크로스 스톤(걸칠것)", group = 6 },
-		{ id = 1001325, prob = 1, name = "카디날 스톤(걸칠것)", group = 6 },
+		{ id = 1001322, prob = 1, name = "Shinkiro Stone(Garment)", group = 6 },
+		{ id = 1001323, prob = 1, name = "Shiranui Stone(Garment)", group = 6 },
+		{ id = 1001324, prob = 1, name = "Shadow Cross Stone(Garment)", group = 6 },
+		{ id = 1001325, prob = 1, name = "Cardinal Stone(Garment)", group = 6 },
 		{ id = 1000675, prob = 1, name = "Reload Stone(Dual)", group = 6 },
 		{ id = 1000855, prob = 1, name = "Critical Stone(Dual)", group = 6 },
 		{ id = 25303, prob = 2, name = "Critical Stone(Garment)", group = 6 },
@@ -24855,10 +24877,10 @@ tbl = {
 		{ id = 1000857, prob = 8, name = "Archbishop Stone(Upper)", group = 6 },
 		{ id = 1000858, prob = 8, name = "Archbishop Stone(Mid)", group = 6 },
 		{ id = 1000859, prob = 8, name = "Archbishop Stone(Lower)", group = 6 },
-		{ id = 1001327, prob = 15, name = "슈퍼노비스 스톤(상단)", group = 6 },
-		{ id = 1001328, prob = 15, name = "슈퍼노비스 스톤(중단)", group = 6 },
-		{ id = 1001329, prob = 15, name = "슈퍼노비스 스톤(하단)", group = 6 },
-		{ id = 1001326, prob = 15, name = "슈퍼노비스 스톤(걸칠것)", group = 6 },
+		{ id = 1001327, prob = 15, name = "Super Novice Stone(Upper)", group = 6 },
+		{ id = 1001328, prob = 15, name = "Super Novice Stone(Mid)", group = 6 },
+		{ id = 1001329, prob = 15, name = "Super Novice Stone(Lower)", group = 6 },
+		{ id = 1001326, prob = 15, name = "Super Novice Stone(Garment)", group = 6 },
 		{ id = 100465, prob = 19, name = "Class Enchant Stone Box I (Garment)", group = 6 },
 		{ id = 102333, prob = 19, name = "Class Enchant Stone Box III (Garment)", group = 6 },
 		{ id = 1000528, prob = 20, name = "Magic Power Stone(Upper)", group = 6 },
@@ -24904,7 +24926,7 @@ tbl = {
 		{ id = 1000019, prob = 10, name = "Archbishop Stone II(Garment)", group = 6 },
 		{ id = 25842, prob = 10, name = "Soul Reaper Stone(Garment)", group = 6 },
 		{ id = 25849, prob = 10, name = "Star Emperor Stone(Garment)", group = 6 },
-		{ id = 1001326, prob = 10, name = "슈퍼노비스 스톤(걸칠것)", group = 6 }
+		{ id = 1001326, prob = 10, name = "Super Novice Stone(Garment)", group = 6 }
 	},
 	[102337] = {
 		{ id = 19612, prob = 1, name = "Costume Note Headphone", group = 0 },
@@ -24928,35 +24950,35 @@ tbl = {
 		{ id = 480201, prob = 1, name = "Costume Guardian Angel Wings", group = 6 },
 		{ id = 480202, prob = 1, name = "Costume Guardian Butterfly Wings", group = 6 },
 		{ id = 25376, prob = 1, name = "Cuppet Coin 50x", group = 6 },
-		{ id = 1100009, prob = 25, name = "남국식 통돼지구이 덮밥 3개", group = 6 },
-		{ id = 1100013, prob = 25, name = "남국식 돼지 머릿고기 5개", group = 6 },
-		{ id = 1100015, prob = 25, name = "직화 수상한 꼬치 7개", group = 6 },
+		{ id = 1100009, prob = 25, name = "Southern Pork Rice Bowl 3x", group = 6 },
+		{ id = 1100013, prob = 25, name = "Southern Korean Pork Head 5x", group = 6 },
+		{ id = 1100015, prob = 25, name = "Grilled Suspicious Skewers 7x", group = 6 },
 		{ id = 102419, prob = 5, name = "Special Melody Card", group = 6 },
-		{ id = 1001376, prob = 5, name = "바르문트 솜인형", group = 6 },
-		{ id = 1100009, prob = 56, name = "남국식 통돼지구이 덮밥", group = 6 },
-		{ id = 1100013, prob = 56, name = "남국식 돼지 머릿고기 2개", group = 6 },
-		{ id = 1100015, prob = 56, name = "직화 수상한 꼬치 3개", group = 6 },
+		{ id = 1001376, prob = 5, name = "Varmundt Cotton Doll", group = 6 },
+		{ id = 1100009, prob = 56, name = "Southern Pork Rice Bowl", group = 6 },
+		{ id = 1100013, prob = 56, name = "Southern Korean Pork Head 2x", group = 6 },
+		{ id = 1100015, prob = 56, name = "Grilled Suspicious Skewers 3x", group = 6 },
 		{ id = 25376, prob = 10, name = "Cuppet Coin 30x", group = 6 },
-		{ id = 1100010, prob = 70, name = "포링 콤부차 20개", group = 6 },
-		{ id = 1100011, prob = 70, name = "몬스터빵 20개", group = 6 },
-		{ id = 1100012, prob = 70, name = "금단의 몬스터빵 20개", group = 6 },
-		{ id = 1100010, prob = 140, name = "포링 콤부차 10개", group = 6 },
-		{ id = 1100011, prob = 140, name = "몬스터빵 10개", group = 6 },
-		{ id = 1100012, prob = 140, name = "금단의 몬스터빵 10개", group = 6 },
+		{ id = 1100010, prob = 70, name = "Poring Kombucha 20x", group = 6 },
+		{ id = 1100011, prob = 70, name = "Monster Bread 20x", group = 6 },
+		{ id = 1100012, prob = 70, name = "Forbidden Monster Bread 20x", group = 6 },
+		{ id = 1100010, prob = 140, name = "Poring Kombucha 10x", group = 6 },
+		{ id = 1100011, prob = 140, name = "Monster Bread 10x", group = 6 },
+		{ id = 1100012, prob = 140, name = "Forbidden Monster Bread 10x", group = 6 },
 		{ id = 25376, prob = 50, name = "Cuppet Coin 20x", group = 6 },
-		{ id = 1100016, prob = 250, name = "야시장 빙수 30개", group = 6 },
-		{ id = 1100017, prob = 250, name = "야시장 아이스크림 30개", group = 6 },
-		{ id = 1100018, prob = 250, name = "야시장 솜사탕 30개", group = 6 },
-		{ id = 1100016, prob = 500, name = "야시장 빙수 15개", group = 6 },
-		{ id = 1100017, prob = 500, name = "야시장 아이스크림 15개", group = 6 },
-		{ id = 1100018, prob = 500, name = "야시장 솜사탕 15개", group = 6 },
+		{ id = 1100016, prob = 250, name = "Night Market Bingsu 30x", group = 6 },
+		{ id = 1100017, prob = 250, name = "Night Market Ice Cream 30x", group = 6 },
+		{ id = 1100018, prob = 250, name = "Night Market Cotton Candy 30x", group = 6 },
+		{ id = 1100016, prob = 500, name = "Night Market Bingsu 15x", group = 6 },
+		{ id = 1100017, prob = 500, name = "Night Market Ice Cream 15x", group = 6 },
+		{ id = 1100018, prob = 500, name = "Night Market Cotton Candy 15x", group = 6 },
 		{ id = 25376, prob = 100, name = "Cuppet Coin 10x", group = 6 },
-		{ id = 1100014, prob = 700, name = "직화 생선구이 50개", group = 6 },
-		{ id = 1100019, prob = 700, name = "직화 채소꼬치 50개", group = 6 },
-		{ id = 1100020, prob = 700, name = "직화 수제 소시지 50개", group = 6 },
-		{ id = 1100014, prob = 1400, name = "직화 생선구이 25개", group = 6 },
-		{ id = 1100019, prob = 1400, name = "직화 채소꼬치 25개", group = 6 },
-		{ id = 1100020, prob = 1400, name = "직화 수제 소시지 25개", group = 6 },
+		{ id = 1100014, prob = 700, name = "Grilled Fish 50x", group = 6 },
+		{ id = 1100019, prob = 700, name = "Grilled Vegetable Skewers 50x", group = 6 },
+		{ id = 1100020, prob = 700, name = "Grilled Handmade Sausage 50x", group = 6 },
+		{ id = 1100014, prob = 1400, name = "Grilled Fish 25x", group = 6 },
+		{ id = 1100019, prob = 1400, name = "Grilled Vegetable Skewers 25x", group = 6 },
+		{ id = 1100020, prob = 1400, name = "Grilled Handmade Sausage 25x", group = 6 },
 		{ id = 25376, prob = 400, name = "Cuppet Coin 5x", group = 6 }
 	},
 	[102441] = {
@@ -24973,9 +24995,9 @@ tbl = {
 		{ id = 1000856, prob = 1, name = "Concentration Stone(Dual)", group = 6 },
 		{ id = 1000676, prob = 1, name = "Creative Stone(Dual)", group = 6 },
 		{ id = 1000521, prob = 1, name = "Minor Casting Stone(Dual)", group = 6 },
-		{ id = 1001419, prob = 1, name = "천제 스톤(걸칠것)", group = 6 },
-		{ id = 1001421, prob = 1, name = "마이스터 스톤(걸칠것)", group = 6 },
-		{ id = 1001420, prob = 1, name = "엘레멘탈 마스터 스톤(걸칠것)", group = 6 },
+		{ id = 1001419, prob = 1, name = "Sky Emperor Stone(Garment)", group = 6 },
+		{ id = 1001421, prob = 1, name = "Meister Stone(Garment)", group = 6 },
+		{ id = 1001420, prob = 1, name = "Elemental Master Stone(Garment)", group = 6 },
 		{ id = 1000675, prob = 1, name = "Reload Stone(Dual)", group = 6 },
 		{ id = 1000855, prob = 1, name = "Critical Stone(Dual)", group = 6 },
 		{ id = 25302, prob = 2, name = "Double Attack Stone(Garment)", group = 6 },
@@ -25028,7 +25050,7 @@ tbl = {
 		{ id = 25305, prob = 40, name = "Critical Stone(Lower)", group = 6 }
 	},
 	[102450] = {
-		{ id = 100906, prob = 10, name = "[NotForSale] All in One Buff Potion 3x", group = 0 },
+		{ id = 100906, prob = 10, name = "[NotForSale] 22nd Anniversary All in One Buff Potion 3x", group = 0 },
 		{ id = 101238, prob = 10, name = "[NotForSale] Kafra Buff(7 Days)", group = 0 }
 	},
 	[102451] = {
@@ -25455,9 +25477,9 @@ tbl = {
 		{ id = 1000813, prob = 40, name = "Shining Snow Flower Heartstone 2x", group = 6 }
 	},
 	[102550] = {
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 3개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 5개", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 3x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 5x", group = 6 },
 		{ id = 15388, prob = 120, name = "+7 King Schmidt\'s Suit", group = 6 },
 		{ id = 15388, prob = 100, name = "+8 King Schmidt\'s Suit", group = 6 },
 		{ id = 15388, prob = 80, name = "+9 King Schmidt\'s Suit", group = 6 },
@@ -25506,10 +25528,10 @@ tbl = {
 		{ id = 25739, prob = 400, name = "Curse Eroded Crystal 25x", group = 6 }
 	},
 	[102551] = {
-		{ id = 1001478, prob = 500, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 500, name = "퓨어 다이아몬드 5개", group = 6 },
-		{ id = 1001478, prob = 500, name = "퓨어 다이아몬드 6개", group = 6 },
-		{ id = 1001478, prob = 500, name = "퓨어 다이아몬드 7개", group = 6 },
+		{ id = 1001478, prob = 500, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 500, name = "Pure Diamond 5x", group = 6 },
+		{ id = 1001478, prob = 500, name = "Pure Diamond 6x", group = 6 },
+		{ id = 1001478, prob = 500, name = "Pure Diamond 7x", group = 6 },
 		{ id = 15388, prob = 150, name = "+9 King Schmidt\'s Suit", group = 6 },
 		{ id = 15388, prob = 100, name = "+10 King Schmidt\'s Suit", group = 6 },
 		{ id = 15388, prob = 50, name = "+11 King Schmidt\'s Suit", group = 6 },
@@ -25552,11 +25574,11 @@ tbl = {
 		{ id = 25740, prob = 500, name = "Curse Eroded Gemstone 25x", group = 6 }
 	},
 	[102552] = {
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 5개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 6개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 7개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 8개", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 5x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 6x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 7x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 8x", group = 6 },
 		{ id = 21055, prob = 95, name = "+9 Guardian Knight Claymore", group = 6 },
 		{ id = 32027, prob = 95, name = "+9 Guardian Knight Spear", group = 6 },
 		{ id = 32353, prob = 95, name = "+9 Guardian Knight Jewel Sword", group = 6 },
@@ -25646,11 +25668,11 @@ tbl = {
 		{ id = 25866, prob = 301, name = "Temporal Spell 15x", group = 6 }
 	},
 	[102553] = {
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 8개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 9개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 10개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 11개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 12개", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 8x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 9x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 10x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 11x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 12x", group = 6 },
 		{ id = 21055, prob = 75, name = "+9 Guardian Knight Claymore", group = 6 },
 		{ id = 32027, prob = 75, name = "+9 Guardian Knight Spear", group = 6 },
 		{ id = 32353, prob = 75, name = "+9 Guardian Knight Jewel Sword", group = 6 },
@@ -25740,9 +25762,9 @@ tbl = {
 		{ id = 25866, prob = 301, name = "Temporal Spell 20x", group = 6 }
 	},
 	[102554] = {
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 3개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 5개", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 3x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 5x", group = 6 },
 		{ id = 22006, prob = 120, name = "+7 Temporal STR Boots", group = 6 },
 		{ id = 22010, prob = 120, name = "+7 Temporal AGI Boots", group = 6 },
 		{ id = 22007, prob = 120, name = "+7 Temporal VIT Boots", group = 6 },
@@ -25813,10 +25835,10 @@ tbl = {
 		{ id = 6608, prob = 120, name = "Coagulated Spell 25x", group = 6 }
 	},
 	[102555] = {
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 5개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 6개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 7개", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 5x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 6x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 7x", group = 6 },
 		{ id = 22006, prob = 130, name = "+9 Temporal STR Boots", group = 6 },
 		{ id = 22010, prob = 130, name = "+9 Temporal AGI Boots", group = 6 },
 		{ id = 22007, prob = 130, name = "+9 Temporal VIT Boots", group = 6 },
@@ -25892,9 +25914,9 @@ tbl = {
 		{ id = 6755, prob = 55, name = "Contaminated Magic 15x", group = 6 }
 	},
 	[102556] = {
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 3개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 5개", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 3x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 5x", group = 6 },
 		{ id = 15376, prob = 155, name = "+9 Illusion Armor Type A", group = 6 },
 		{ id = 15377, prob = 155, name = "+9 Illusion Armor Type B", group = 6 },
 		{ id = 22196, prob = 155, name = "+9 Illusion Leg Type A", group = 6 },
@@ -25939,9 +25961,9 @@ tbl = {
 		{ id = 25669, prob = 100, name = "Unknown Parts 20x", group = 6 }
 	},
 	[102557] = {
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 3개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 5개", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 3x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 5x", group = 6 },
 		{ id = 1862, prob = 90, name = "+9 Burning Knuckle-OS", group = 6 },
 		{ id = 13493, prob = 90, name = "+9 Cannon Rapier-OS", group = 6 },
 		{ id = 16088, prob = 90, name = "+9 Saphir Mace-OS", group = 6 },
@@ -26015,9 +26037,9 @@ tbl = {
 		{ id = 25669, prob = 190, name = "Unknown Parts 20x", group = 6 }
 	},
 	[102558] = {
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 3개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 5개", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 3x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 5x", group = 6 },
 		{ id = 450127, prob = 155, name = "+7 Automatic Armor Type A", group = 6 },
 		{ id = 450128, prob = 155, name = "+7 Automatic Armor Type B", group = 6 },
 		{ id = 470022, prob = 155, name = "+7 Automatic Leg Type A", group = 6 },
@@ -26057,9 +26079,9 @@ tbl = {
 		{ id = 1000103, prob = 400, name = "Varmeal Ticket 20x", group = 6 }
 	},
 	[102559] = {
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 3개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 5개", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 3x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 5x", group = 6 },
 		{ id = 500007, prob = 30, name = "+7 Hypocrisy Machine", group = 6 },
 		{ id = 550008, prob = 30, name = "+7 Greed Wand", group = 6 },
 		{ id = 540004, prob = 30, name = "+7 Sloth Text", group = 6 },
@@ -26207,10 +26229,10 @@ tbl = {
 		{ id = 1000103, prob = 300, name = "Varmeal Ticket 20x", group = 6 }
 	},
 	[102560] = {
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 5개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 6개", group = 6 },
-		{ id = 1001478, prob = 1000, name = "퓨어 다이아몬드 7개", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 5x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 6x", group = 6 },
+		{ id = 1001478, prob = 1000, name = "Pure Diamond 7x", group = 6 },
 		{ id = 500007, prob = 32, name = "+7 Hypocrisy Machine", group = 6 },
 		{ id = 550008, prob = 32, name = "+7 Greed Wand", group = 6 },
 		{ id = 540004, prob = 32, name = "+7 Sloth Text", group = 6 },
@@ -26387,11 +26409,11 @@ tbl = {
 		{ id = 1000103, prob = 300, name = "Varmeal Ticket 25x", group = 6 }
 	},
 	[102561] = {
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 3개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 4개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 5개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 6개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 7개", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 3x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 4x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 5x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 6x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 7x", group = 6 },
 		{ id = 500007, prob = 40, name = "+9 Hypocrisy Machine", group = 6 },
 		{ id = 550008, prob = 40, name = "+9 Greed Wand", group = 6 },
 		{ id = 540004, prob = 40, name = "+9 Sloth Text", group = 6 },
@@ -26504,11 +26526,11 @@ tbl = {
 		{ id = 1000103, prob = 300, name = "Varmeal Ticket 35x", group = 6 }
 	},
 	[102562] = {
-		{ id = 1001478, prob = 800, name = "퓨어 다이아몬드 8개", group = 6 },
-		{ id = 1001478, prob = 800, name = "퓨어 다이아몬드 9개", group = 6 },
-		{ id = 1001478, prob = 800, name = "퓨어 다이아몬드 10개", group = 6 },
-		{ id = 1001478, prob = 800, name = "퓨어 다이아몬드 11개", group = 6 },
-		{ id = 1001478, prob = 800, name = "퓨어 다이아몬드 12개", group = 6 },
+		{ id = 1001478, prob = 800, name = "Pure Diamond 8x", group = 6 },
+		{ id = 1001478, prob = 800, name = "Pure Diamond 9x", group = 6 },
+		{ id = 1001478, prob = 800, name = "Pure Diamond 10x", group = 6 },
+		{ id = 1001478, prob = 800, name = "Pure Diamond 11x", group = 6 },
+		{ id = 1001478, prob = 800, name = "Pure Diamond 12x", group = 6 },
 		{ id = 500025, prob = 20, name = "+7 Adulter Fides Guardian Sword", group = 6 },
 		{ id = 500026, prob = 20, name = "+7 Adulter Fides Rapier", group = 6 },
 		{ id = 510032, prob = 20, name = "+7 Adulter Fides Dagger", group = 6 },
@@ -27019,11 +27041,11 @@ tbl = {
 		{ id = 1000405, prob = 100, name = "Amethyst Fragment 53x", group = 6 }
 	},
 	[102563] = {
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 6개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 7개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 8개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 9개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 10개", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 6x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 7x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 8x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 9x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 10x", group = 6 },
 		{ id = 500049, prob = 45, name = "+7 Glacier Sword", group = 6 },
 		{ id = 500050, prob = 45, name = "+7 Glacier Basic Sword", group = 6 },
 		{ id = 510061, prob = 45, name = "+7 Glacier Rogue Knife", group = 6 },
@@ -27176,11 +27198,11 @@ tbl = {
 		{ id = 1000814, prob = 150, name = "Brilliant Snow Flower Manastone 5x", group = 6 }
 	},
 	[102564] = {
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 4개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 5개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 6개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 7개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 8개", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 4x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 5x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 6x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 7x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 8x", group = 6 },
 		{ id = 450206, prob = 100, name = "+7 Snow Flower Armor", group = 6 },
 		{ id = 450207, prob = 100, name = "+7 Snow Flower Robe", group = 6 },
 		{ id = 470115, prob = 100, name = "+7 Snow Flower Boots", group = 6 },
@@ -27257,10 +27279,10 @@ tbl = {
 		{ id = 1001036, prob = 100, name = "Brilliant Snowflake Manastone Extract 5x", group = 6 }
 	},
 	[102565] = {
-		{ id = 1001479, prob = 1000, name = "블랙 다이아몬드 7개", group = 6 },
-		{ id = 1001479, prob = 1000, name = "블랙 다이아몬드 8개", group = 6 },
-		{ id = 1001479, prob = 1000, name = "블랙 다이아몬드 9개", group = 6 },
-		{ id = 1001479, prob = 1000, name = "블랙 다이아몬드 10개", group = 6 },
+		{ id = 1001479, prob = 1000, name = "Black Diamond 7x", group = 6 },
+		{ id = 1001479, prob = 1000, name = "Black Diamond 8x", group = 6 },
+		{ id = 1001479, prob = 1000, name = "Black Diamond 9x", group = 6 },
+		{ id = 1001479, prob = 1000, name = "Black Diamond 10x", group = 6 },
 		{ id = 500049, prob = 25, name = "+9 Glacier Sword", group = 6 },
 		{ id = 500050, prob = 25, name = "+9 Glacier Basic Sword", group = 6 },
 		{ id = 510061, prob = 25, name = "+9 Glacier Rogue Knife", group = 6 },
@@ -27492,9 +27514,9 @@ tbl = {
 		{ id = 1001036, prob = 50, name = "Brilliant Snowflake Manastone Extract 7x", group = 6 }
 	},
 	[102566] = {
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 3개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 4개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 5개", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 3x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 4x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 5x", group = 6 },
 		{ id = 450264, prob = 100, name = "+7 Glacier Armor", group = 6 },
 		{ id = 450265, prob = 100, name = "+7 Glacier Robe", group = 6 },
 		{ id = 470196, prob = 100, name = "+7 Glacier Boots", group = 6 },
@@ -27557,10 +27579,10 @@ tbl = {
 		{ id = 1001036, prob = 150, name = "Brilliant Snowflake Manastone Extract 5x", group = 6 }
 	},
 	[102567] = {
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 4개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 5개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 6개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 7개", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 4x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 5x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 6x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 7x", group = 6 },
 		{ id = 450264, prob = 120, name = "+7 Glacier Armor", group = 6 },
 		{ id = 450265, prob = 120, name = "+7 Glacier Robe", group = 6 },
 		{ id = 470196, prob = 120, name = "+7 Glacier Boots", group = 6 },
@@ -27642,11 +27664,11 @@ tbl = {
 		{ id = 1001036, prob = 100, name = "Brilliant Snowflake Manastone Extract 6x", group = 6 }
 	},
 	[102568] = {
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 7개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 8개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 9개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 10개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 11개", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 7x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 8x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 9x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 10x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 11x", group = 6 },
 		{ id = 450264, prob = 80, name = "+9 Glacier Armor", group = 6 },
 		{ id = 450265, prob = 80, name = "+9 Glacier Robe", group = 6 },
 		{ id = 470196, prob = 80, name = "+9 Glacier Boots", group = 6 },
@@ -27717,9 +27739,9 @@ tbl = {
 		{ id = 1001036, prob = 150, name = "Brilliant Snowflake Manastone Extract 9x", group = 6 }
 	},
 	[102569] = {
-		{ id = 1001478, prob = 1300, name = "퓨어 다이아몬드 3개", group = 6 },
-		{ id = 1001478, prob = 1300, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 1300, name = "퓨어 다이아몬드 5개", group = 6 },
+		{ id = 1001478, prob = 1300, name = "Pure Diamond 3x", group = 6 },
+		{ id = 1001478, prob = 1300, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 1300, name = "Pure Diamond 5x", group = 6 },
 		{ id = 450179, prob = 300, name = "+7 Celine\'s Dress", group = 6 },
 		{ id = 450179, prob = 150, name = "+8 Celine\'s Dress", group = 6 },
 		{ id = 450179, prob = 50, name = "+9 Celine\'s Dress", group = 6 },
@@ -27753,10 +27775,10 @@ tbl = {
 		{ id = 7642, prob = 200, name = "Bloody Coin 45x", group = 6 }
 	},
 	[102570] = {
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 5개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 6개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 7개", group = 6 },
-		{ id = 1001480, prob = 500, name = "골든 다이아몬드 8개", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 5x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 6x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 7x", group = 6 },
+		{ id = 1001480, prob = 500, name = "Golden Diamond 8x", group = 6 },
 		{ id = 460013, prob = 25, name = "+7 Poenitentia Aegis", group = 6 },
 		{ id = 500019, prob = 25, name = "+7 Poenitentia Gladius", group = 6 },
 		{ id = 500020, prob = 25, name = "+7 Poenitentia Ligula", group = 6 },
@@ -27971,11 +27993,11 @@ tbl = {
 		{ id = 100486, prob = 99, name = "Condensed Sakrai\'s Regret 4x", group = 6 }
 	},
 	[102571] = {
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 3개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 4개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 5개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 6개", group = 6 },
-		{ id = 1001478, prob = 600, name = "퓨어 다이아몬드 7개", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 3x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 4x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 5x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 6x", group = 6 },
+		{ id = 1001478, prob = 600, name = "Pure Diamond 7x", group = 6 },
 		{ id = 21051, prob = 30, name = "+9 Volar", group = 6 },
 		{ id = 21052, prob = 30, name = "+9 Vernan", group = 6 },
 		{ id = 32023, prob = 30, name = "+9 Argen Blanco", group = 6 },
@@ -28216,11 +28238,11 @@ tbl = {
 		{ id = 25786, prob = 320, name = "Somatology Research Document 40x", group = 6 }
 	},
 	[102572] = {
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 4개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 5개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 6개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 7개", group = 6 },
-		{ id = 1001479, prob = 800, name = "블랙 다이아몬드 8개", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 4x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 5x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 6x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 7x", group = 6 },
+		{ id = 1001479, prob = 800, name = "Black Diamond 8x", group = 6 },
 		{ id = 490044, prob = 100, name = "Sinful Ruby Ring", group = 6 },
 		{ id = 490046, prob = 100, name = "Sinful Emerald Ring", group = 6 },
 		{ id = 490048, prob = 100, name = "Sinful Topaz Ring", group = 6 },
@@ -28263,10 +28285,10 @@ tbl = {
 		{ id = 1000263, prob = 150, name = "Fragment of Fate 17x", group = 6 }
 	},
 	[102573] = {
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 5개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 6개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 7개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 8개", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 5x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 6x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 7x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 8x", group = 6 },
 		{ id = 470071, prob = 120, name = "+9 Boots of Unknown Power", group = 6 },
 		{ id = 470072, prob = 120, name = "+9 Boots of Unknown Dexterity", group = 6 },
 		{ id = 470073, prob = 120, name = "+9 Boots of Unknown Life", group = 6 },
@@ -28325,9 +28347,9 @@ tbl = {
 		{ id = 1000856, prob = 1, name = "Concentration Stone(Dual)", group = 6 },
 		{ id = 1000676, prob = 1, name = "Creative Stone(Dual)", group = 6 },
 		{ id = 1000521, prob = 1, name = "Minor Casting Stone(Dual)", group = 6 },
-		{ id = 1001487, prob = 1, name = "어비스체이서 스톤(걸칠것)", group = 6 },
-		{ id = 1001488, prob = 1, name = "트루바두르&트루베르 스톤(걸칠것)", group = 6 },
-		{ id = 1001489, prob = 1, name = "하이퍼노비스 스톤(걸칠것)", group = 6 },
+		{ id = 1001487, prob = 1, name = "Abyss Chaser Stone(Garment)", group = 6 },
+		{ id = 1001488, prob = 1, name = "Troubadour & Trouvere Stone(Garment)", group = 6 },
+		{ id = 1001489, prob = 1, name = "Hyper Novice Stone(Garment)", group = 6 },
 		{ id = 1000675, prob = 1, name = "Reload Stone(Dual)", group = 6 },
 		{ id = 1000855, prob = 1, name = "Critical Stone(Dual)", group = 6 },
 		{ id = 25302, prob = 2, name = "Double Attack Stone(Garment)", group = 6 },
@@ -28343,9 +28365,9 @@ tbl = {
 		{ id = 1000666, prob = 8, name = "Wanderer Minstrel Stone(Upper)", group = 6 },
 		{ id = 1000667, prob = 8, name = "Wanderer Minstrel Stone(Mid)", group = 6 },
 		{ id = 1000668, prob = 8, name = "Wanderer Minstrel Stone(Lower)", group = 6 },
-		{ id = 1001327, prob = 8, name = "슈퍼노비스 스톤(상단)", group = 6 },
-		{ id = 1001328, prob = 8, name = "슈퍼노비스 스톤(중단)", group = 6 },
-		{ id = 1001329, prob = 8, name = "슈퍼노비스 스톤(하단)", group = 6 },
+		{ id = 1001327, prob = 8, name = "Super Novice Stone(Upper)", group = 6 },
+		{ id = 1001328, prob = 8, name = "Super Novice Stone(Mid)", group = 6 },
+		{ id = 1001329, prob = 8, name = "Super Novice Stone(Lower)", group = 6 },
 		{ id = 100465, prob = 17, name = "Class Enchant Stone Box I (Garment)", group = 6 },
 		{ id = 102333, prob = 17, name = "Class Enchant Stone Box III (Garment)", group = 6 },
 		{ id = 1000528, prob = 20, name = "Magic Power Stone(Upper)", group = 6 },
@@ -28457,7 +28479,7 @@ tbl = {
 		{ id = 6963, prob = 200, name = "HP Absorbtion Stone(Garment)", group = 1 },
 		{ id = 6964, prob = 200, name = "SP Restoration Stone(Garment)", group = 1 },
 		{ id = 6908, prob = 200, name = "ASPD Stone(Garment)", group = 1 },
-		{ id = 1001326, prob = 200, name = "슈퍼노비스 스톤(걸칠것)", group = 1 },
+		{ id = 1001326, prob = 200, name = "Super Novice Stone(Garment)", group = 1 },
 		{ id = 25226, prob = 910, name = "Water Field Effect(Lower)", group = 2 },
 		{ id = 25137, prob = 909, name = "Green Flare Effect(Lower)", group = 2 },
 		{ id = 25224, prob = 909, name = "White Body Effect(Mid)", group = 2 },
@@ -28487,7 +28509,7 @@ tbl = {
 		{ id = 1001159, prob = 106, name = "Kagerou Stone(Upper)", group = 6 },
 		{ id = 1001162, prob = 106, name = "Oboro Stone(Upper)", group = 6 },
 		{ id = 1001165, prob = 106, name = "Summoner Stone(Upper)", group = 6 },
-		{ id = 1001327, prob = 106, name = "슈퍼노비스 스톤(상단)", group = 6 },
+		{ id = 1001327, prob = 106, name = "Super Novice Stone(Upper)", group = 6 },
 		{ id = 1000528, prob = 200, name = "Magic Power Stone(Upper)", group = 6 },
 		{ id = 1000375, prob = 200, name = "Ranged Stone(Upper)", group = 6 },
 		{ id = 1000377, prob = 200, name = "Melee Stone(Upper)", group = 6 },
@@ -28587,7 +28609,7 @@ tbl = {
 		{ id = 6963, prob = 200, name = "HP Absorbtion Stone(Garment)", group = 1 },
 		{ id = 6964, prob = 200, name = "SP Restoration Stone(Garment)", group = 1 },
 		{ id = 6908, prob = 200, name = "ASPD Stone(Garment)", group = 1 },
-		{ id = 1001326, prob = 200, name = "슈퍼노비스 스톤(걸칠것)", group = 1 },
+		{ id = 1001326, prob = 200, name = "Super Novice Stone(Garment)", group = 1 },
 		{ id = 25226, prob = 910, name = "Water Field Effect(Lower)", group = 2 },
 		{ id = 25137, prob = 909, name = "Green Flare Effect(Lower)", group = 2 },
 		{ id = 25224, prob = 909, name = "White Body Effect(Mid)", group = 2 },
@@ -28617,7 +28639,7 @@ tbl = {
 		{ id = 1001160, prob = 106, name = "Kagerou Stone(Mid)", group = 6 },
 		{ id = 1001163, prob = 106, name = "Oboro Stone(Mid)", group = 6 },
 		{ id = 1001166, prob = 106, name = "Summoner Stone(Mid)", group = 6 },
-		{ id = 1001328, prob = 106, name = "슈퍼노비스 스톤(중단)", group = 6 },
+		{ id = 1001328, prob = 106, name = "Super Novice Stone(Mid)", group = 6 },
 		{ id = 1000529, prob = 210, name = "Magic Power Stone(Mid)", group = 6 },
 		{ id = 1000378, prob = 210, name = "Melee Stone(Mid)", group = 6 },
 		{ id = 1000298, prob = 210, name = "Lord Knight Stone II(Mid)", group = 6 },
@@ -28715,7 +28737,7 @@ tbl = {
 		{ id = 6963, prob = 200, name = "HP Absorbtion Stone(Garment)", group = 1 },
 		{ id = 6964, prob = 200, name = "SP Restoration Stone(Garment)", group = 1 },
 		{ id = 6908, prob = 200, name = "ASPD Stone(Garment)", group = 1 },
-		{ id = 1001326, prob = 200, name = "슈퍼노비스 스톤(걸칠것)", group = 1 },
+		{ id = 1001326, prob = 200, name = "Super Novice Stone(Garment)", group = 1 },
 		{ id = 25226, prob = 910, name = "Water Field Effect(Lower)", group = 2 },
 		{ id = 25137, prob = 909, name = "Green Flare Effect(Lower)", group = 2 },
 		{ id = 25224, prob = 909, name = "White Body Effect(Mid)", group = 2 },
@@ -28745,7 +28767,7 @@ tbl = {
 		{ id = 1001161, prob = 106, name = "Kagerou Stone(Lower)", group = 6 },
 		{ id = 1001164, prob = 106, name = "Oboro Stone(Lower)", group = 6 },
 		{ id = 1001167, prob = 106, name = "Summoner Stone(Lower)", group = 6 },
-		{ id = 1001329, prob = 106, name = "슈퍼노비스 스톤(하단)", group = 6 },
+		{ id = 1001329, prob = 106, name = "Super Novice Stone(Lower)", group = 6 },
 		{ id = 1000530, prob = 216, name = "Magic Power Stone(Lower)", group = 6 },
 		{ id = 1000376, prob = 216, name = "Ranged Stone(Lower)", group = 6 },
 		{ id = 1000379, prob = 216, name = "Melee Stone(Lower)", group = 6 },
@@ -28785,8 +28807,8 @@ tbl = {
 		{ id = 1001170, prob = 217, name = "Defense Stone(Lower)", group = 6 }
 	},
 	[102638] = {
-		{ id = 1001474, prob = 5000, name = "링 8개", group = 0 },
-		{ id = 1001549, prob = 5000, name = "소닉 뱃지 8개", group = 0 }
+		{ id = 1001474, prob = 5000, name = "Ring 8x", group = 0 },
+		{ id = 1001549, prob = 5000, name = "Sonic Badge 8x", group = 0 }
 	},
 	[102701] = {
 		{ id = 23952, prob = 1, name = "Silit Pong Box", group = 6 },
@@ -28862,21 +28884,21 @@ tbl = {
 		{ id = 25464, prob = 500, name = "World Tour Ticket 5x", group = 6 }
 	},
 	[102716] = {
-		{ id = 1001306, prob = 1250, name = "심층 화염의 룬 10개", group = 6 },
-		{ id = 1001307, prob = 1250, name = "심층 대지의 룬 10개", group = 6 },
-		{ id = 1001308, prob = 1250, name = "심층 냉기의 룬 10개", group = 6 },
-		{ id = 1001309, prob = 1250, name = "심층 폭풍의 룬 10개", group = 6 },
-		{ id = 1001310, prob = 1250, name = "심층 영혼의 룬 10개", group = 6 },
-		{ id = 1001311, prob = 1250, name = "심층 정화의 룬 10개", group = 6 },
-		{ id = 1001312, prob = 1250, name = "심층 타락의 룬 10개", group = 6 },
-		{ id = 1001313, prob = 1250, name = "심층 맹독의 룬 10개", group = 6 }
+		{ id = 1001306, prob = 1250, name = "Deep Flame Rune 10x", group = 6 },
+		{ id = 1001307, prob = 1250, name = "Deep Earth Rune 10x", group = 6 },
+		{ id = 1001308, prob = 1250, name = "Deep Cold Rune 10x", group = 6 },
+		{ id = 1001309, prob = 1250, name = "Deep Storm Rune 10x", group = 6 },
+		{ id = 1001310, prob = 1250, name = "Deep Soul Rune 10x", group = 6 },
+		{ id = 1001311, prob = 1250, name = "Deep Purification Rune 10x", group = 6 },
+		{ id = 1001312, prob = 1250, name = "Deep Corruption Rune 10x", group = 6 },
+		{ id = 1001313, prob = 1250, name = "Deep Poison Rune 10x", group = 6 }
 	},
 	[102717] = {
 		{ id = 1001555, prob = 500, name = "Abyss Magic Rune 30x", group = 0 },
 		{ id = 1001556, prob = 500, name = "Time-Dimension Magic Rune 10x", group = 0 }
 	},
 	[102738] = {
-		{ id = 1001480, prob = 10, name = "골든 다이아몬드 15개", group = 0 }
+		{ id = 1001480, prob = 10, name = "Golden Diamond 15x", group = 0 }
 	},
 	[102740] = {
 		{ id = 1000103, prob = 10, name = "Varmeal Ticket 20x", group = 0 },
@@ -28909,7 +28931,7 @@ tbl = {
 		{ id = 100081, prob = 10, name = "[NotForSale] Advanced Combat Manual", group = 0 }
 	},
 	[102750] = {
-		{ id = 1001479, prob = 1000, name = "블랙 다이아몬드 3개", group = 0 }
+		{ id = 1001479, prob = 1000, name = "Black Diamond 3x", group = 0 }
 	},
 	[102767] = {
 		{ id = 27306, prob = 162, name = "Bellare Card", group = 6 },
@@ -28982,21 +29004,21 @@ tbl = {
 		{ id = 102780, prob = 200, name = "Inverse Scale Glutinous Rice Cake 5x", group = 0 }
 	},
 	[102797] = {
-		{ id = 1001474, prob = 5000, name = "링 8개", group = 0 },
-		{ id = 1001549, prob = 5000, name = "소닉 뱃지 8개", group = 0 },
+		{ id = 1001474, prob = 5000, name = "Ring 8x", group = 0 },
+		{ id = 1001549, prob = 5000, name = "Sonic Badge 8x", group = 0 },
 		{ id = 410263, prob = 0, name = "Costume Super Sonic Mini-Me", group = 0 }
 	},
 	[102798] = {
-		{ id = 1001474, prob = 5000, name = "링 8개", group = 0 },
-		{ id = 1001549, prob = 5000, name = "소닉 뱃지 8개", group = 0 },
+		{ id = 1001474, prob = 5000, name = "Ring 8x", group = 0 },
+		{ id = 1001549, prob = 5000, name = "Sonic Badge 8x", group = 0 },
 		{ id = 420303, prob = 0, name = "Costume Chaos Emerald", group = 0 }
 	},
 	[102806] = {
-		{ id = 1001480, prob = 50, name = "골든 다이아몬드 3개", group = 6 },
-		{ id = 1001480, prob = 20, name = "골든 다이아몬드 4개", group = 6 },
-		{ id = 1001480, prob = 15, name = "골든 다이아몬드 5개", group = 6 },
-		{ id = 1001480, prob = 10, name = "골든 다이아몬드 6개", group = 6 },
-		{ id = 1001480, prob = 5, name = "골든 다이아몬드 7개", group = 6 }
+		{ id = 1001480, prob = 50, name = "Golden Diamond 3x", group = 6 },
+		{ id = 1001480, prob = 20, name = "Golden Diamond 4x", group = 6 },
+		{ id = 1001480, prob = 15, name = "Golden Diamond 5x", group = 6 },
+		{ id = 1001480, prob = 10, name = "Golden Diamond 6x", group = 6 },
+		{ id = 1001480, prob = 5, name = "Golden Diamond 7x", group = 6 }
 	},
 	[102813] = {
 		{ id = 27319, prob = 909, name = "R48-85-BESTIA Card", group = 6 },
@@ -29025,9 +29047,9 @@ tbl = {
 		{ id = 1000856, prob = 1, name = "Concentration Stone(Dual)", group = 6 },
 		{ id = 1000676, prob = 1, name = "Creative Stone(Dual)", group = 6 },
 		{ id = 1000521, prob = 1, name = "Minor Casting Stone(Dual)", group = 6 },
-		{ id = 1001604, prob = 1, name = "드래곤나이트 스톤(걸칠것)", group = 6 },
-		{ id = 1001603, prob = 1, name = "임페리얼가드 스톤(걸칠것)", group = 6 },
-		{ id = 1001605, prob = 1, name = "나이트워치 스톤(걸칠것)", group = 6 },
+		{ id = 1001604, prob = 1, name = "Dragon Knight Stone(Garment)", group = 6 },
+		{ id = 1001603, prob = 1, name = "Imperial Guard Stone(Garment)", group = 6 },
+		{ id = 1001605, prob = 1, name = "Night Watch Stone(Garment)", group = 6 },
 		{ id = 1000675, prob = 1, name = "Reload Stone(Dual)", group = 6 },
 		{ id = 1000855, prob = 1, name = "Critical Stone(Dual)", group = 6 },
 		{ id = 25302, prob = 2, name = "Double Attack Stone(Garment)", group = 6 },
@@ -29084,11 +29106,11 @@ tbl = {
 		{ id = 400605, prob = 1, name = "Costume Birthday Cake Cap", group = 0 }
 	},
 	[102947] = {
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 6개", group = 6 },
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 7개", group = 6 },
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 8개", group = 6 },
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 9개", group = 6 },
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 10개", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 6x", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 7x", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 8x", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 9x", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 10x", group = 6 },
 		{ id = 450350, prob = 150, name = "+9 Gaebolg Armor", group = 6 },
 		{ id = 450351, prob = 150, name = "+9 Gaebolg Robe", group = 6 },
 		{ id = 470260, prob = 150, name = "+9 Gaebolg Boots", group = 6 },
@@ -29111,58 +29133,58 @@ tbl = {
 		{ id = 490507, prob = 60, name = "Gaebolg Ring", group = 6 },
 		{ id = 490509, prob = 60, name = "Gaebolg Earring", group = 6 },
 		{ id = 490510, prob = 60, name = "Gaebolg Necklace", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 11개", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 12개", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 13개", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 14개", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 15개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 6개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 7개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 8개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 9개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 10개", group = 6 },
-		{ id = 1001655, prob = 20, name = "찬란한 청록빛 마석 2개", group = 6 },
-		{ id = 1001655, prob = 20, name = "찬란한 청록빛 마석 3개", group = 6 },
-		{ id = 1001655, prob = 20, name = "찬란한 청록빛 마석 4개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 11개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 12개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 13개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 14개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 15개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 6개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 7개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 8개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 9개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 10개", group = 6 },
-		{ id = 1001658, prob = 20, name = "찬란한 노을빛 마석 2개", group = 6 },
-		{ id = 1001658, prob = 20, name = "찬란한 노을빛 마석 3개", group = 6 },
-		{ id = 1001658, prob = 20, name = "찬란한 노을빛 마석 4개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 11개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 12개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 13개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 14개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 15개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 6개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 7개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 8개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 9개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 10개", group = 6 },
-		{ id = 1001661, prob = 20, name = "찬란한 심홍빛 마석 2개", group = 6 },
-		{ id = 1001661, prob = 20, name = "찬란한 심홍빛 마석 3개", group = 6 },
-		{ id = 1001661, prob = 20, name = "찬란한 심홍빛 마석 4개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 11개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 12개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 13개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 14개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 15개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 6개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 7개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 8개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 9개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 10개", group = 6 },
-		{ id = 1001664, prob = 20, name = "찬란한 청람빛 마석 2개", group = 6 },
-		{ id = 1001664, prob = 20, name = "찬란한 청람빛 마석 3개", group = 6 },
-		{ id = 1001664, prob = 20, name = "찬란한 청람빛 마석 4개", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 11x", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 12x", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 13x", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 14x", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 15x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 6x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 7x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 8x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 9x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 10x", group = 6 },
+		{ id = 1001655, prob = 20, name = "Brilliant Turquoise Magic Stone 2x", group = 6 },
+		{ id = 1001655, prob = 20, name = "Brilliant Turquoise Magic Stone 3x", group = 6 },
+		{ id = 1001655, prob = 20, name = "Brilliant Turquoise Magic Stone 4x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 11x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 12x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 13x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 14x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 15x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 6x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 7x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 8x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 9x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 10x", group = 6 },
+		{ id = 1001658, prob = 20, name = "Brilliant Sunset Magic Stone 2x", group = 6 },
+		{ id = 1001658, prob = 20, name = "Brilliant Sunset Magic Stone 3x", group = 6 },
+		{ id = 1001658, prob = 20, name = "Brilliant Sunset Magic Stone 4x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 11x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 12x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 13x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 14x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 15x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 6x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 7x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 8x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 9x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 10x", group = 6 },
+		{ id = 1001661, prob = 20, name = "Brilliant Crimson Magic Stone 2x", group = 6 },
+		{ id = 1001661, prob = 20, name = "Brilliant Crimson Magic Stone 3x", group = 6 },
+		{ id = 1001661, prob = 20, name = "Brilliant Crimson Magic Stone 4x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 11x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 12x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 13x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 14x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 15x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 6x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 7x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 8x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 9x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 10x", group = 6 },
+		{ id = 1001664, prob = 20, name = "Brilliant Blue Magic Stone 2x", group = 6 },
+		{ id = 1001664, prob = 20, name = "Brilliant Blue Magic Stone 3x", group = 6 },
+		{ id = 1001664, prob = 20, name = "Brilliant Blue Magic Stone 4x", group = 6 },
 		{ id = 1001037, prob = 60, name = "Glacia Extract 21x", group = 6 },
 		{ id = 1001037, prob = 60, name = "Glacia Extract 22x", group = 6 },
 		{ id = 1001037, prob = 60, name = "Glacia Extract 23x", group = 6 },
@@ -29180,11 +29202,11 @@ tbl = {
 		{ id = 1001036, prob = 60, name = "Brilliant Snowflake Manastone Extract 12x", group = 6 }
 	},
 	[102948] = {
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 6개", group = 6 },
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 7개", group = 6 },
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 8개", group = 6 },
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 9개", group = 6 },
-		{ id = 1001480, prob = 800, name = "골든 다이아몬드 10개", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 6x", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 7x", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 8x", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 9x", group = 6 },
+		{ id = 1001480, prob = 800, name = "Golden Diamond 10x", group = 6 },
 		{ id = 450350, prob = 150, name = "+9 Gaebolg Armor", group = 6 },
 		{ id = 450351, prob = 150, name = "+9 Gaebolg Robe", group = 6 },
 		{ id = 470260, prob = 150, name = "+9 Gaebolg Boots", group = 6 },
@@ -29207,58 +29229,58 @@ tbl = {
 		{ id = 490507, prob = 60, name = "Gaebolg Ring", group = 6 },
 		{ id = 490509, prob = 60, name = "Gaebolg Earring", group = 6 },
 		{ id = 490510, prob = 60, name = "Gaebolg Necklace", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 11개", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 12개", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 13개", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 14개", group = 6 },
-		{ id = 1001653, prob = 100, name = "청록빛 마석 15개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 6개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 7개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 8개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 9개", group = 6 },
-		{ id = 1001654, prob = 50, name = "빛나는 청록빛 마석 10개", group = 6 },
-		{ id = 1001655, prob = 20, name = "찬란한 청록빛 마석 2개", group = 6 },
-		{ id = 1001655, prob = 20, name = "찬란한 청록빛 마석 3개", group = 6 },
-		{ id = 1001655, prob = 20, name = "찬란한 청록빛 마석 4개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 11개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 12개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 13개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 14개", group = 6 },
-		{ id = 1001656, prob = 100, name = "노을빛 마석 15개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 6개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 7개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 8개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 9개", group = 6 },
-		{ id = 1001657, prob = 50, name = "빛나는 노을빛 마석 10개", group = 6 },
-		{ id = 1001658, prob = 20, name = "찬란한 노을빛 마석 2개", group = 6 },
-		{ id = 1001658, prob = 20, name = "찬란한 노을빛 마석 3개", group = 6 },
-		{ id = 1001658, prob = 20, name = "찬란한 노을빛 마석 4개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 11개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 12개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 13개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 14개", group = 6 },
-		{ id = 1001659, prob = 100, name = "심홍빛 마석 15개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 6개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 7개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 8개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 9개", group = 6 },
-		{ id = 1001660, prob = 50, name = "빛나는 심홍빛 마석 10개", group = 6 },
-		{ id = 1001661, prob = 20, name = "찬란한 심홍빛 마석 2개", group = 6 },
-		{ id = 1001661, prob = 20, name = "찬란한 심홍빛 마석 3개", group = 6 },
-		{ id = 1001661, prob = 20, name = "찬란한 심홍빛 마석 4개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 11개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 12개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 13개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 14개", group = 6 },
-		{ id = 1001662, prob = 100, name = "청람빛 마석 15개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 6개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 7개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 8개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 9개", group = 6 },
-		{ id = 1001663, prob = 50, name = "빛나는 청람빛 마석 10개", group = 6 },
-		{ id = 1001664, prob = 20, name = "찬란한 청람빛 마석 2개", group = 6 },
-		{ id = 1001664, prob = 20, name = "찬란한 청람빛 마석 3개", group = 6 },
-		{ id = 1001664, prob = 20, name = "찬란한 청람빛 마석 4개", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 11x", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 12x", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 13x", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 14x", group = 6 },
+		{ id = 1001653, prob = 100, name = "Turquoise Magic Stone 15x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 6x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 7x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 8x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 9x", group = 6 },
+		{ id = 1001654, prob = 50, name = "Shining Turquoise Magic Stone 10x", group = 6 },
+		{ id = 1001655, prob = 20, name = "Brilliant Turquoise Magic Stone 2x", group = 6 },
+		{ id = 1001655, prob = 20, name = "Brilliant Turquoise Magic Stone 3x", group = 6 },
+		{ id = 1001655, prob = 20, name = "Brilliant Turquoise Magic Stone 4x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 11x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 12x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 13x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 14x", group = 6 },
+		{ id = 1001656, prob = 100, name = "Sunset Magic Stone 15x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 6x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 7x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 8x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 9x", group = 6 },
+		{ id = 1001657, prob = 50, name = "Shining Sunset Magic Stone 10x", group = 6 },
+		{ id = 1001658, prob = 20, name = "Brilliant Sunset Magic Stone 2x", group = 6 },
+		{ id = 1001658, prob = 20, name = "Brilliant Sunset Magic Stone 3x", group = 6 },
+		{ id = 1001658, prob = 20, name = "Brilliant Sunset Magic Stone 4x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 11x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 12x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 13x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 14x", group = 6 },
+		{ id = 1001659, prob = 100, name = "Crimson Magic Stone 15x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 6x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 7x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 8x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 9x", group = 6 },
+		{ id = 1001660, prob = 50, name = "Shining Crimson Magic Stone 10x", group = 6 },
+		{ id = 1001661, prob = 20, name = "Brilliant Crimson Magic Stone 2x", group = 6 },
+		{ id = 1001661, prob = 20, name = "Brilliant Crimson Magic Stone 3x", group = 6 },
+		{ id = 1001661, prob = 20, name = "Brilliant Crimson Magic Stone 4x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 11x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 12x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 13x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 14x", group = 6 },
+		{ id = 1001662, prob = 100, name = "Blue Magic Stone 15x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 6x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 7x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 8x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 9x", group = 6 },
+		{ id = 1001663, prob = 50, name = "Shining Blue Magic Stone 10x", group = 6 },
+		{ id = 1001664, prob = 20, name = "Brilliant Blue Magic Stone 2x", group = 6 },
+		{ id = 1001664, prob = 20, name = "Brilliant Blue Magic Stone 3x", group = 6 },
+		{ id = 1001664, prob = 20, name = "Brilliant Blue Magic Stone 4x", group = 6 },
 		{ id = 1001037, prob = 60, name = "Glacia Extract 21x", group = 6 },
 		{ id = 1001037, prob = 60, name = "Glacia Extract 22x", group = 6 },
 		{ id = 1001037, prob = 60, name = "Glacia Extract 23x", group = 6 },
@@ -29311,10 +29333,10 @@ tbl = {
 		{ id = 1000921, prob = 1, name = "Spell Stone(Dual)", group = 6 },
 		{ id = 1000856, prob = 1, name = "Concentration Stone(Dual)", group = 6 },
 		{ id = 1000676, prob = 1, name = "Creative Stone(Dual)", group = 6 },
-		{ id = 1001615, prob = 1, name = "발자국 이펙트(걸칠것)", group = 6 },
-		{ id = 1001737, prob = 1, name = "바이올로 스톤(걸칠것)", group = 6 },
-		{ id = 1001738, prob = 1, name = "인퀴지터 스톤(걸칠것)", group = 6 },
-		{ id = 1001739, prob = 1, name = "혼령사 스톤(걸칠것)", group = 6 },
+		{ id = 1001615, prob = 1, name = "Footprint Effect(Garment)", group = 6 },
+		{ id = 1001737, prob = 1, name = "Biolo Stone(Garment)", group = 6 },
+		{ id = 1001738, prob = 1, name = "Inquisitor Stone(Garment)", group = 6 },
+		{ id = 1001739, prob = 1, name = "Spirit Handler Stone(Garment)", group = 6 },
 		{ id = 1000675, prob = 1, name = "Reload Stone(Dual)", group = 6 },
 		{ id = 1000855, prob = 1, name = "Critical Stone(Dual)", group = 6 },
 		{ id = 25302, prob = 2, name = "Double Attack Stone(Garment)", group = 6 },
@@ -29429,10 +29451,10 @@ tbl = {
 		{ id = 1000921, prob = 1, name = "Spell Stone(Dual)", group = 6 },
 		{ id = 1000856, prob = 1, name = "Concentration Stone(Dual)", group = 6 },
 		{ id = 1000676, prob = 1, name = "Creative Stone(Dual)", group = 6 },
-		{ id = 1001772, prob = 1, name = "강아지 발자국(걸칠것)", group = 6 },
-		{ id = 1001787, prob = 1, name = "아크메이지 스톤(걸칠것)", group = 6 },
-		{ id = 1001788, prob = 1, name = "윈드호크 스톤(걸칠것)", group = 6 },
-		{ id = 1001789, prob = 1, name = "영도사 스톤(걸칠것)", group = 6 },
+		{ id = 1001772, prob = 1, name = "Puppy Footprint Effect(Garment)", group = 6 },
+		{ id = 1001787, prob = 1, name = "Arch Mage Stone(Garment)", group = 6 },
+		{ id = 1001788, prob = 1, name = "Windhawk Stone(Garment)", group = 6 },
+		{ id = 1001789, prob = 1, name = "Soul Ascetic Stone(Garment)", group = 6 },
 		{ id = 1000675, prob = 1, name = "Reload Stone(Dual)", group = 6 },
 		{ id = 1000855, prob = 1, name = "Critical Stone(Dual)", group = 6 },
 		{ id = 25302, prob = 2, name = "Double Attack Stone(Garment)", group = 6 },
@@ -29489,7 +29511,7 @@ tbl = {
 		{ id = 23047, prob = 10, name = "[NotForSale] Tyr\'s Blessing 22x", group = 0 }
 	},
 	[103314] = {
-		{ id = 100906, prob = 10, name = "[NotForSale] All in One Buff Potion 3x", group = 0 },
+		{ id = 100906, prob = 10, name = "[NotForSale] 22nd Anniversary All in One Buff Potion 3x", group = 0 },
 		{ id = 101238, prob = 10, name = "[NotForSale] Kafra Buff(7 Days)", group = 0 }
 	},
 	[103316] = {
@@ -29519,7 +29541,7 @@ tbl = {
 	},
 	[103340] = {
 		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103347] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
@@ -29527,7 +29549,7 @@ tbl = {
 	},
 	[103348] = {
 		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103349] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
@@ -29537,7 +29559,7 @@ tbl = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 300x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 2x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
 	},
 	[103351] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 },
@@ -29545,7 +29567,7 @@ tbl = {
 	},
 	[103352] = {
 		{ id = 1001282, prob = 150, name = "Imperfect Rune 150x", group = 0 },
-		{ id = 1001478, prob = 2, name = "퓨어 다이아몬드 2개", group = 0 }
+		{ id = 1001478, prob = 2, name = "Pure Diamond 2x", group = 0 }
 	},
 	[103353] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
@@ -29555,11 +29577,11 @@ tbl = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 500x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 3x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
 	},
 	[103355] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 100x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 3개", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 3x", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album", group = 0 }
 	},
 	[103356] = {
@@ -29570,12 +29592,12 @@ tbl = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 350x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 2x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
 	},
 	[103358] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 100x", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 2개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
 	},
 	[103359] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 105x", group = 0 },
@@ -29583,7 +29605,7 @@ tbl = {
 	},
 	[103360] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 2개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
 	},
 	[103361] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 105x", group = 0 },
@@ -29593,16 +29615,16 @@ tbl = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 600x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 4x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
 	},
 	[103364] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 200x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 2개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
 	},
 	[103365] = {
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 2개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
 	},
 	[103366] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 105x", group = 0 },
@@ -29612,16 +29634,16 @@ tbl = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 350x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 2x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
 	},
 	[103368] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 2개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
 	},
 	[103369] = {
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 2개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
 	},
 	[103370] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
@@ -29632,12 +29654,12 @@ tbl = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 }
 	},
 	[103372] = {
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 },
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 80x", group = 0 }
 	},
 	[103373] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103374] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 180x", group = 0 },
@@ -29649,11 +29671,11 @@ tbl = {
 	},
 	[103376] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 80x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103377] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103378] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 210x", group = 0 },
@@ -29662,20 +29684,20 @@ tbl = {
 	[103379] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 800x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune 8x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드 5개", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond 5x", group = 0 },
 		{ id = 102813, prob = 1, name = "Episode 17-18 Boss Card Book 2x", group = 0 }
 	},
 	[103381] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 300x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 3x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
 	},
 	[103383] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 500x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 5x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드 5개", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond 5x", group = 0 }
 	},
 	[103385] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
@@ -29685,11 +29707,11 @@ tbl = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 250x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 2x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
 	},
 	[103387] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 3개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 3x", group = 0 }
 	},
 	[103437] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
@@ -29697,7 +29719,7 @@ tbl = {
 	},
 	[103438] = {
 		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103439] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
@@ -29705,11 +29727,11 @@ tbl = {
 	},
 	[103440] = {
 		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103441] = {
 		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103442] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
@@ -29721,7 +29743,7 @@ tbl = {
 	},
 	[103444] = {
 		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103445] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
@@ -29730,11 +29752,11 @@ tbl = {
 	[103446] = {
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103447] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103449] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
@@ -29742,10 +29764,10 @@ tbl = {
 	},
 	[103450] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103451] = {
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 },
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 80x", group = 0 }
 	},
 	[103452] = {
@@ -29755,16 +29777,16 @@ tbl = {
 	[103453] = {
 		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing 2x", group = 0 },
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 3개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 3x", group = 0 }
 	},
 	[103454] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 100x", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 2x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103455] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
 	},
 	[103456] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
@@ -29773,7 +29795,7 @@ tbl = {
 	[103457] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 450x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드 3개", group = 0 }
+		{ id = 1001480, prob = 1, name = "Golden Diamond 3x", group = 0 }
 	},
 	[103458] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
@@ -29782,14 +29804,14 @@ tbl = {
 	[103459] = {
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 500x", group = 0 },
 		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
-		{ id = 1001480, prob = 1, name = "골든 다이아몬드 5개", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond 5x", group = 0 },
 		{ id = 102813, prob = 1, name = "Episode 17-18 Boss Card Book", group = 0 }
 	},
 	[103460] = {
 		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
 		{ id = 1001282, prob = 1, name = "Imperfect Rune 200x", group = 0 },
 		{ id = 102767, prob = 1, name = "Episode 17-18 Card Album 2x", group = 0 },
-		{ id = 1001478, prob = 1, name = "퓨어 다이아몬드 5개", group = 0 }
+		{ id = 1001478, prob = 1, name = "Pure Diamond 5x", group = 0 }
 	},
 	[103461] = {
 		{ id = 103320, prob = 1, name = "[NotForSale] Character Slot Expansion Card", group = 0 },
@@ -29800,24 +29822,24 @@ tbl = {
 		{ id = 1001258, prob = 1, name = "Premium Black Coin 15x", group = 0 }
 	},
 	[103512] = {
-		{ id = 1001837, prob = 556, name = "트리스 카드 파편", group = 6 },
-		{ id = 1001838, prob = 556, name = "탄 카드 파편", group = 6 },
-		{ id = 1001839, prob = 556, name = "빌헬름 뢰겐부르그 카드 파편", group = 6 },
-		{ id = 1001840, prob = 556, name = "라인하르트 뢰겐부르그 카드 파편", group = 6 },
-		{ id = 1001841, prob = 556, name = "아이반 위그너 카드 파편", group = 6 },
-		{ id = 1001842, prob = 556, name = "라라이라 나자르 위그너 카드 파편", group = 6 },
-		{ id = 1001843, prob = 556, name = "리하르트 리하르트 카드 파편", group = 6 },
-		{ id = 1001844, prob = 556, name = "라우라 발다리스 카드 파편", group = 6 },
-		{ id = 1001845, prob = 556, name = "오렐리 프티 카드 파편", group = 6 },
-		{ id = 1001846, prob = 556, name = "일제 엘 하이네 카드 파편", group = 6 },
-		{ id = 1001847, prob = 555, name = "에페스토 발터 메가스 카드 파편", group = 6 },
-		{ id = 1001848, prob = 555, name = "마리스텔라 발터 카드 파편", group = 6 },
-		{ id = 1001849, prob = 555, name = "요한 카드 파편", group = 6 },
-		{ id = 1001850, prob = 555, name = "귄터 카드 파편", group = 6 },
-		{ id = 1001851, prob = 555, name = "갈라시아 네리우스 카드 파편", group = 6 },
-		{ id = 1001852, prob = 555, name = "이아나 카드 파편", group = 6 },
-		{ id = 1001853, prob = 555, name = "리 카드 파편", group = 6 },
-		{ id = 1001854, prob = 555, name = "나도요 카드 파편", group = 6 }
+		{ id = 1001837, prob = 556, name = "Tris Card Fragment", group = 6 },
+		{ id = 1001838, prob = 556, name = "Tan Card Fragment", group = 6 },
+		{ id = 1001839, prob = 556, name = "Wilheim Lugenburg Card Fragment", group = 6 },
+		{ id = 1001840, prob = 556, name = "Reinhardt Lugenburg Card Fragment", group = 6 },
+		{ id = 1001841, prob = 556, name = "Ivan Wigner Card Fragment", group = 6 },
+		{ id = 1001842, prob = 556, name = "Lalaila Nazar Wigner Card Fragment", group = 6 },
+		{ id = 1001843, prob = 556, name = "Richard Richard Card Fragment", group = 6 },
+		{ id = 1001844, prob = 556, name = "Laura Valdaris Card Fragment", group = 6 },
+		{ id = 1001845, prob = 556, name = "Aurelie Petit Card Fragment", group = 6 },
+		{ id = 1001846, prob = 556, name = "Ilse El Heine Card Fragment", group = 6 },
+		{ id = 1001847, prob = 555, name = "Epesto Walther Megas Card Fragment", group = 6 },
+		{ id = 1001848, prob = 555, name = "Maristella Walther Card Fragment", group = 6 },
+		{ id = 1001849, prob = 555, name = "Yohan Card Fragment", group = 6 },
+		{ id = 1001850, prob = 555, name = "Gunter Card Fragment", group = 6 },
+		{ id = 1001851, prob = 555, name = "Galaxia Nerius Card", group = 6 },
+		{ id = 1001852, prob = 555, name = "Iana Card Fragment", group = 6 },
+		{ id = 1001853, prob = 555, name = "Lee Card Fragment", group = 6 },
+		{ id = 1001854, prob = 555, name = "Nadoyo Card Fragment", group = 6 }
 	},
 	[103524] = {
 		{ id = 420376, prob = 10, name = "Costume Traditor\'s Low Tail", group = 0 },
@@ -29830,45 +29852,45 @@ tbl = {
 		{ id = 440018, prob = 10, name = "Costume Helm of Galaxia", group = 0 }
 	},
 	[103537] = {
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 12개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 13개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 14개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 15개", group = 6 },
-		{ id = 1001480, prob = 1000, name = "골든 다이아몬드 16개", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 12x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 13x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 14x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 15x", group = 6 },
+		{ id = 1001480, prob = 1000, name = "Golden Diamond 16x", group = 6 },
 		{ id = 103523, prob = 50, name = "Encroached Fruit 3x", group = 6 },
 		{ id = 103523, prob = 100, name = "Encroached Fruit 2x", group = 6 },
 		{ id = 103523, prob = 200, name = "Encroached Fruit", group = 6 },
-		{ id = 1001834, prob = 90, name = "타락한 뱀의 형상 3개", group = 6 },
-		{ id = 1001834, prob = 80, name = "타락한 뱀의 형상 4개", group = 6 },
-		{ id = 1001834, prob = 70, name = "타락한 뱀의 형상 5개", group = 6 },
-		{ id = 1001834, prob = 60, name = "타락한 뱀의 형상 6개", group = 6 },
-		{ id = 1001834, prob = 50, name = "타락한 뱀의 형상 7개", group = 6 },
-		{ id = 1001835, prob = 200, name = "저주의 상징 11개", group = 6 },
-		{ id = 1001835, prob = 200, name = "저주의 상징 12개", group = 6 },
-		{ id = 1001835, prob = 200, name = "저주의 상징 13개", group = 6 },
-		{ id = 1001835, prob = 180, name = "저주의 상징 14개", group = 6 },
-		{ id = 1001835, prob = 180, name = "저주의 상징 15개", group = 6 },
-		{ id = 1001835, prob = 160, name = "저주의 상징 16개", group = 6 },
-		{ id = 1001835, prob = 160, name = "저주의 상징 17개", group = 6 },
-		{ id = 1001836, prob = 200, name = "요르스칼프의 정신 33개", group = 6 },
-		{ id = 1001836, prob = 200, name = "요르스칼프의 정신 34개", group = 6 },
-		{ id = 1001836, prob = 200, name = "요르스칼프의 정신 35개", group = 6 },
-		{ id = 1001836, prob = 180, name = "요르스칼프의 정신 36개", group = 6 },
-		{ id = 1001836, prob = 180, name = "요르스칼프의 정신 37개", group = 6 },
-		{ id = 1001836, prob = 180, name = "요르스칼프의 정신 38개", group = 6 },
-		{ id = 1001836, prob = 160, name = "요르스칼프의 정신 39개", group = 6 },
-		{ id = 1001836, prob = 160, name = "요르스칼프의 정신 40개", group = 6 },
-		{ id = 1001836, prob = 100, name = "요르스칼프의 정신 41개", group = 6 },
-		{ id = 1001836, prob = 100, name = "요르스칼프의 정신 42개", group = 6 },
+		{ id = 1001834, prob = 90, name = "Shape of Fallen Serpent 3x", group = 6 },
+		{ id = 1001834, prob = 80, name = "Shape of Fallen Serpent 4x", group = 6 },
+		{ id = 1001834, prob = 70, name = "Shape of Fallen Serpent 5x", group = 6 },
+		{ id = 1001834, prob = 60, name = "Shape of Fallen Serpent 6x", group = 6 },
+		{ id = 1001834, prob = 50, name = "Shape of Fallen Serpent 7x", group = 6 },
+		{ id = 1001835, prob = 200, name = "Symbol of Curse 11x", group = 6 },
+		{ id = 1001835, prob = 200, name = "Symbol of Curse 12x", group = 6 },
+		{ id = 1001835, prob = 200, name = "Symbol of Curse 13x", group = 6 },
+		{ id = 1001835, prob = 180, name = "Symbol of Curse 14x", group = 6 },
+		{ id = 1001835, prob = 180, name = "Symbol of Curse 15x", group = 6 },
+		{ id = 1001835, prob = 160, name = "Symbol of Curse 16x", group = 6 },
+		{ id = 1001835, prob = 160, name = "Symbol of Curse 17x", group = 6 },
+		{ id = 1001836, prob = 200, name = "Spirit of Yorscalp 33x", group = 6 },
+		{ id = 1001836, prob = 200, name = "Spirit of Yorscalp 34x", group = 6 },
+		{ id = 1001836, prob = 200, name = "Spirit of Yorscalp 35x", group = 6 },
+		{ id = 1001836, prob = 180, name = "Spirit of Yorscalp 36x", group = 6 },
+		{ id = 1001836, prob = 180, name = "Spirit of Yorscalp 37x", group = 6 },
+		{ id = 1001836, prob = 180, name = "Spirit of Yorscalp 38x", group = 6 },
+		{ id = 1001836, prob = 160, name = "Spirit of Yorscalp 39x", group = 6 },
+		{ id = 1001836, prob = 160, name = "Spirit of Yorscalp 40x", group = 6 },
+		{ id = 1001836, prob = 100, name = "Spirit of Yorscalp 41x", group = 6 },
+		{ id = 1001836, prob = 100, name = "Spirit of Yorscalp 42x", group = 6 },
 		{ id = 103501, prob = 150, name = "Yorscalp 1st Floor Movement Scale 100x", group = 6 },
 		{ id = 103501, prob = 100, name = "Yorscalp 1st Floor Movement Scale 200x", group = 6 },
 		{ id = 103502, prob = 150, name = "Yorscalp 2nd Floor Movement Scale 100x", group = 6 },
 		{ id = 103502, prob = 100, name = "Yorscalp 2nd Floor Movement Scale 200x", group = 6 },
-		{ id = 1001618, prob = 200, name = "위그너 상단 교환증 41개", group = 6 },
-		{ id = 1001618, prob = 180, name = "위그너 상단 교환증 42개", group = 6 },
-		{ id = 1001618, prob = 160, name = "위그너 상단 교환증 43개", group = 6 },
-		{ id = 1001618, prob = 160, name = "위그너 상단 교환증 44개", group = 6 },
-		{ id = 1001618, prob = 160, name = "위그너 상단 교환증 45개", group = 6 }
+		{ id = 1001618, prob = 200, name = "Wigner Premium Exchange Ticket 41x", group = 6 },
+		{ id = 1001618, prob = 180, name = "Wigner Premium Exchange Ticket 42x", group = 6 },
+		{ id = 1001618, prob = 160, name = "Wigner Premium Exchange Ticket 43x", group = 6 },
+		{ id = 1001618, prob = 160, name = "Wigner Premium Exchange Ticket 44x", group = 6 },
+		{ id = 1001618, prob = 160, name = "Wigner Premium Exchange Ticket 45x", group = 6 }
 	},
 	[103582] = {
 		{ id = 510165, prob = 20, name = "Time Gap Shadow Dagger (A)", group = 0 },
@@ -29887,26 +29909,26 @@ tbl = {
 		{ id = 1000921, prob = 10, name = "Spell Stone(Dual)", group = 6 },
 		{ id = 1000856, prob = 10, name = "Concentration Stone(Dual)", group = 6 },
 		{ id = 1000676, prob = 10, name = "Creative Stone(Dual)", group = 6 },
-		{ id = 1001651, prob = 10, name = "빨간별 발자국(걸칠것)", group = 6 },
-		{ id = 1001322, prob = 10, name = "신키로 스톤(걸칠것)", group = 6 },
-		{ id = 1001323, prob = 10, name = "시라누이 스톤(걸칠것)", group = 6 },
-		{ id = 1001324, prob = 10, name = "쉐도우크로스 스톤(걸칠것)", group = 6 },
-		{ id = 1001325, prob = 10, name = "카디날 스톤(걸칠것)", group = 6 },
-		{ id = 1001419, prob = 10, name = "천제 스톤(걸칠것)", group = 6 },
-		{ id = 1001421, prob = 10, name = "마이스터 스톤(걸칠것)", group = 6 },
-		{ id = 1001420, prob = 10, name = "엘레멘탈 마스터 스톤(걸칠것)", group = 6 },
-		{ id = 1001487, prob = 10, name = "어비스체이서 스톤(걸칠것)", group = 6 },
-		{ id = 1001488, prob = 10, name = "트루바두르&트루베르 스톤(걸칠것)", group = 6 },
-		{ id = 1001489, prob = 10, name = "하이퍼노비스 스톤(걸칠것)", group = 6 },
-		{ id = 1001604, prob = 10, name = "드래곤나이트 스톤(걸칠것)", group = 6 },
-		{ id = 1001603, prob = 10, name = "임페리얼가드 스톤(걸칠것)", group = 6 },
-		{ id = 1001605, prob = 10, name = "나이트워치 스톤(걸칠것)", group = 6 },
-		{ id = 1001737, prob = 10, name = "바이올로 스톤(걸칠것)", group = 6 },
-		{ id = 1001738, prob = 10, name = "인퀴지터 스톤(걸칠것)", group = 6 },
-		{ id = 1001739, prob = 10, name = "혼령사 스톤(걸칠것)", group = 6 },
-		{ id = 1001787, prob = 10, name = "아크메이지 스톤(걸칠것)", group = 6 },
-		{ id = 1001788, prob = 10, name = "윈드호크 스톤(걸칠것)", group = 6 },
-		{ id = 1001789, prob = 10, name = "영도사 스톤(걸칠것)", group = 6 },
+		{ id = 1001651, prob = 10, name = "Red Star Footprint(Garment)", group = 6 },
+		{ id = 1001322, prob = 10, name = "Shinkiro Stone(Garment)", group = 6 },
+		{ id = 1001323, prob = 10, name = "Shiranui Stone(Garment)", group = 6 },
+		{ id = 1001324, prob = 10, name = "Shadow Cross Stone(Garment)", group = 6 },
+		{ id = 1001325, prob = 10, name = "Cardinal Stone(Garment)", group = 6 },
+		{ id = 1001419, prob = 10, name = "Sky Emperor Stone(Garment)", group = 6 },
+		{ id = 1001421, prob = 10, name = "Meister Stone(Garment)", group = 6 },
+		{ id = 1001420, prob = 10, name = "Elemental Master Stone(Garment)", group = 6 },
+		{ id = 1001487, prob = 10, name = "Abyss Chaser Stone(Garment)", group = 6 },
+		{ id = 1001488, prob = 10, name = "Troubadour & Trouvere Stone(Garment)", group = 6 },
+		{ id = 1001489, prob = 10, name = "Hyper Novice Stone(Garment)", group = 6 },
+		{ id = 1001604, prob = 10, name = "Dragon Knight Stone(Garment)", group = 6 },
+		{ id = 1001603, prob = 10, name = "Imperial Guard Stone(Garment)", group = 6 },
+		{ id = 1001605, prob = 10, name = "Night Watch Stone(Garment)", group = 6 },
+		{ id = 1001737, prob = 10, name = "Biolo Stone(Garment)", group = 6 },
+		{ id = 1001738, prob = 10, name = "Inquisitor Stone(Garment)", group = 6 },
+		{ id = 1001739, prob = 10, name = "Spirit Handler Stone(Garment)", group = 6 },
+		{ id = 1001787, prob = 10, name = "Arch Mage Stone(Garment)", group = 6 },
+		{ id = 1001788, prob = 10, name = "Windhawk Stone(Garment)", group = 6 },
+		{ id = 1001789, prob = 10, name = "Soul Ascetic Stone(Garment)", group = 6 },
 		{ id = 1000675, prob = 10, name = "Reload Stone(Dual)", group = 6 },
 		{ id = 1000855, prob = 10, name = "Critical Stone(Dual)", group = 6 },
 		{ id = 25302, prob = 20, name = "Double Attack Stone(Garment)", group = 6 },
@@ -30010,7 +30032,7 @@ tbl = {
 		{ id = 1001159, prob = 10, name = "Kagerou Stone(Upper)", group = 6 },
 		{ id = 1001162, prob = 10, name = "Oboro Stone(Upper)", group = 6 },
 		{ id = 1001044, prob = 10, name = "Star Emperor Stone(Upper)", group = 6 },
-		{ id = 1001327, prob = 10, name = "슈퍼노비스 스톤(상단)", group = 6 },
+		{ id = 1001327, prob = 10, name = "Super Novice Stone(Upper)", group = 6 },
 		{ id = 1001047, prob = 10, name = "Rebellion Stone(Upper)", group = 6 },
 		{ id = 1001165, prob = 10, name = "Summoner Stone(Upper)", group = 6 },
 		{ id = 1001050, prob = 10, name = "Soul Reaper Stone(Upper)", group = 6 }
@@ -30019,7 +30041,7 @@ tbl = {
 		{ id = 1001160, prob = 10, name = "Kagerou Stone(Mid)", group = 6 },
 		{ id = 1001163, prob = 10, name = "Oboro Stone(Mid)", group = 6 },
 		{ id = 1001045, prob = 10, name = "Star Emperor Stone(Mid)", group = 6 },
-		{ id = 1001328, prob = 10, name = "슈퍼노비스 스톤(중단)", group = 6 },
+		{ id = 1001328, prob = 10, name = "Super Novice Stone(Mid)", group = 6 },
 		{ id = 1001048, prob = 10, name = "Rebellion Stone(Mid)", group = 6 },
 		{ id = 1001166, prob = 10, name = "Summoner Stone(Mid)", group = 6 },
 		{ id = 1001051, prob = 10, name = "Soul Reaper Stone(Mid)", group = 6 }
@@ -30028,7 +30050,7 @@ tbl = {
 		{ id = 1001161, prob = 10, name = "Kagerou Stone(Lower)", group = 6 },
 		{ id = 1001164, prob = 10, name = "Oboro Stone(Lower)", group = 6 },
 		{ id = 1001046, prob = 10, name = "Star Emperor Stone(Lower)", group = 6 },
-		{ id = 1001329, prob = 10, name = "슈퍼노비스 스톤(하단)", group = 6 },
+		{ id = 1001329, prob = 10, name = "Super Novice Stone(Lower)", group = 6 },
 		{ id = 1001049, prob = 10, name = "Rebellion Stone(Lower)", group = 6 },
 		{ id = 1001167, prob = 10, name = "Summoner Stone(Lower)", group = 6 },
 		{ id = 1001052, prob = 10, name = "Soul Reaper Stone(Lower)", group = 6 }
@@ -30107,7 +30129,7 @@ tbl = {
 		{ id = 22206, prob = 100, name = "+9 Regia Hunting Boots", group = 0 }
 	},
 	[103675] = {
-		{ id = 1001865, prob = 10, name = "신비한 열매 5개", group = 0 }
+		{ id = 1001865, prob = 10, name = "Mysterious Fruit 5x", group = 0 }
 	},
 	[103871] = {
 		{ id = 24246, prob = 10, name = "Swordman Shadow Earring", group = 6 },
@@ -30476,16 +30498,16 @@ tbl = {
 		{ id = 1001053, prob = 11, name = "Melee Physical Attack Stone(Garment)", group = 6 },
 		{ id = 1001054, prob = 11, name = "Range Physical Attack Stone(Garment)", group = 6 },
 		{ id = 1001171, prob = 11, name = "Resist Defense Stone(Garment)", group = 6 },
-		{ id = 1001938, prob = 11, name = "크리티컬 레이트 스톤(걸칠것)", group = 6 },
+		{ id = 1001938, prob = 11, name = "Critical Rate Stone(Garment)", group = 6 },
 		{ id = 1001172, prob = 10, name = "Stamina Wisdom Stone(Dual)", group = 6 },
 		{ id = 1001055, prob = 10, name = "Power Stone(Dual)", group = 6 },
 		{ id = 1000921, prob = 10, name = "Spell Stone(Dual)", group = 6 },
 		{ id = 1000856, prob = 10, name = "Concentration Stone(Dual)", group = 6 },
 		{ id = 1000676, prob = 10, name = "Creative Stone(Dual)", group = 6 },
-		{ id = 1001907, prob = 10, name = "만두 발자국(걸칠것)", group = 6 },
-		{ id = 1001948, prob = 10, name = "드래곤나이트 스톤II(걸칠것)", group = 6 },
-		{ id = 1001949, prob = 10, name = "트루바두르&트루베르 스톤II(걸칠것)", group = 6 },
-		{ id = 1001950, prob = 10, name = "혼령사 스톤II(걸칠것)", group = 6 },
+		{ id = 1001907, prob = 10, name = "Dumpling Footprint Effect(Garment)", group = 6 },
+		{ id = 1001948, prob = 10, name = "Dragon Knight Stone II(Garment)", group = 6 },
+		{ id = 1001949, prob = 10, name = "Troubadour & Trouvere Stone II(Garment)", group = 6 },
+		{ id = 1001950, prob = 10, name = "Spirit Handler Stone II(Garment)", group = 6 },
 		{ id = 1000675, prob = 10, name = "Reload Stone(Dual)", group = 6 },
 		{ id = 1000855, prob = 10, name = "Critical Stone(Dual)", group = 6 },
 		{ id = 25302, prob = 20, name = "Double Attack Stone(Garment)", group = 6 },
@@ -30495,15 +30517,15 @@ tbl = {
 		{ id = 1000526, prob = 80, name = "HP Absorbtion Stone(Dual)", group = 6 },
 		{ id = 1000520, prob = 80, name = "ASPD Stone(Dual)", group = 6 },
 		{ id = 25306, prob = 80, name = "Variable Casting Stone(Garment)", group = 6 },
-		{ id = 1001939, prob = 80, name = "룬나이트 스톤II(상단)", group = 6 },
-		{ id = 1001940, prob = 80, name = "룬나이트 스톤II(중단)", group = 6 },
-		{ id = 1001941, prob = 80, name = "룬나이트 스톤II(하단)", group = 6 },
-		{ id = 1001942, prob = 80, name = "원더민스 스톤II(상단)", group = 6 },
-		{ id = 1001943, prob = 80, name = "원더민스 스톤II(중단)", group = 6 },
-		{ id = 1001944, prob = 80, name = "원더민스 스톤II(하단)", group = 6 },
-		{ id = 1001945, prob = 80, name = "소환사 스톤II(상단)", group = 6 },
-		{ id = 1001946, prob = 80, name = "소환사 스톤II(중단)", group = 6 },
-		{ id = 1001947, prob = 80, name = "소환사 스톤II(하단)", group = 6 },
+		{ id = 1001939, prob = 80, name = "Rune Knight Stone II(Upper)", group = 6 },
+		{ id = 1001940, prob = 80, name = "Rune Knight Stone II(Mid)", group = 6 },
+		{ id = 1001941, prob = 80, name = "Rune Knight Stone II(Lower)", group = 6 },
+		{ id = 1001942, prob = 80, name = "Wanderer Minstrel Stone II(Upper)", group = 6 },
+		{ id = 1001943, prob = 80, name = "Wanderer Minstrel Stone II(Mid)", group = 6 },
+		{ id = 1001944, prob = 80, name = "Wanderer Minstrel Stone II(Lower)", group = 6 },
+		{ id = 1001945, prob = 80, name = "Summoner Stone II(Upper)", group = 6 },
+		{ id = 1001946, prob = 80, name = "Summoner Stone II(Mid)", group = 6 },
+		{ id = 1001947, prob = 80, name = "Summoner Stone II(Lower)", group = 6 },
 		{ id = 100465, prob = 160, name = "Class Enchant Stone Box I (Garment)", group = 6 },
 		{ id = 102333, prob = 160, name = "Class Enchant Stone Box III (Garment)", group = 6 },
 		{ id = 1000528, prob = 200, name = "Magic Power Stone(Upper)", group = 6 },
@@ -30557,6 +30579,405 @@ tbl = {
 		{ id = 700108, prob = 10, name = "Time Gap Wind Bow", group = 6 },
 		{ id = 103891, prob = 10, name = "Time Gap Kurojin Box", group = 6 },
 		{ id = 540096, prob = 10, name = "Time Gap Elemental Spell Book", group = 6 }
+	},
+	[104002] = {
+		{ id = 1001999, prob = 1400, name = "Blue Illusion Stone Fragment 26x", group = 6 },
+		{ id = 1001999, prob = 1300, name = "Blue Illusion Stone Fragment 27x", group = 6 },
+		{ id = 1001999, prob = 1200, name = "Blue Illusion Stone Fragment 28x", group = 6 },
+		{ id = 1001999, prob = 1100, name = "Blue Illusion Stone Fragment 29x", group = 6 },
+		{ id = 1001999, prob = 1000, name = "Blue Illusion Stone Fragment 30x", group = 6 },
+		{ id = 1001999, prob = 850, name = "Blue Illusion Stone Fragment 31x", group = 6 },
+		{ id = 1001999, prob = 750, name = "Blue Illusion Stone Fragment 32x", group = 6 },
+		{ id = 1001999, prob = 650, name = "Blue Illusion Stone Fragment 33x", group = 6 },
+		{ id = 1001999, prob = 550, name = "Blue Illusion Stone Fragment 34x", group = 6 },
+		{ id = 1001999, prob = 450, name = "Blue Illusion Stone Fragment 35x", group = 6 },
+		{ id = 1001999, prob = 350, name = "Blue Illusion Stone Fragment 36x", group = 6 },
+		{ id = 1001999, prob = 250, name = "Blue Illusion Stone Fragment 37x", group = 6 },
+		{ id = 1001999, prob = 150, name = "Blue Illusion Stone Fragment 38x", group = 6 }
+	},
+	[104003] = {
+		{ id = 1002000, prob = 1400, name = "Sunset Illusion Stone Fragment 26x", group = 6 },
+		{ id = 1002000, prob = 1300, name = "Sunset Illusion Stone Fragment 27x", group = 6 },
+		{ id = 1002000, prob = 1200, name = "Sunset Illusion Stone Fragment 28x", group = 6 },
+		{ id = 1002000, prob = 1100, name = "Sunset Illusion Stone Fragment 29x", group = 6 },
+		{ id = 1002000, prob = 1000, name = "Sunset Illusion Stone Fragment 30x", group = 6 },
+		{ id = 1002000, prob = 850, name = "Sunset Illusion Stone Fragment 31x", group = 6 },
+		{ id = 1002000, prob = 750, name = "Sunset Illusion Stone Fragment 32x", group = 6 },
+		{ id = 1002000, prob = 650, name = "Sunset Illusion Stone Fragment 33x", group = 6 },
+		{ id = 1002000, prob = 550, name = "Sunset Illusion Stone Fragment 34x", group = 6 },
+		{ id = 1002000, prob = 450, name = "Sunset Illusion Stone Fragment 35x", group = 6 },
+		{ id = 1002000, prob = 350, name = "Sunset Illusion Stone Fragment 36x", group = 6 },
+		{ id = 1002000, prob = 250, name = "Sunset Illusion Stone Fragment 37x", group = 6 },
+		{ id = 1002000, prob = 150, name = "Sunset Illusion Stone Fragment 38x", group = 6 }
+	},
+	[104004] = {
+		{ id = 1002001, prob = 1400, name = "Turquoise Illusion Stone Fragment 26x", group = 6 },
+		{ id = 1002001, prob = 1300, name = "Turquoise Illusion Stone Fragment 27x", group = 6 },
+		{ id = 1002001, prob = 1200, name = "Turquoise Illusion Stone Fragment 28x", group = 6 },
+		{ id = 1002001, prob = 1100, name = "Turquoise Illusion Stone Fragment 29x", group = 6 },
+		{ id = 1002001, prob = 1000, name = "Turquoise Illusion Stone Fragment 30x", group = 6 },
+		{ id = 1002001, prob = 850, name = "Turquoise Illusion Stone Fragment 31x", group = 6 },
+		{ id = 1002001, prob = 750, name = "Turquoise Illusion Stone Fragment 32x", group = 6 },
+		{ id = 1002001, prob = 650, name = "Turquoise Illusion Stone Fragment 33x", group = 6 },
+		{ id = 1002001, prob = 550, name = "Turquoise Illusion Stone Fragment 34x", group = 6 },
+		{ id = 1002001, prob = 450, name = "Turquoise Illusion Stone Fragment 35x", group = 6 },
+		{ id = 1002001, prob = 350, name = "Turquoise Illusion Stone Fragment 36x", group = 6 },
+		{ id = 1002001, prob = 250, name = "Turquoise Illusion Stone Fragment 37x", group = 6 },
+		{ id = 1002001, prob = 150, name = "Turquoise Illusion Stone Fragment 38x", group = 6 }
+	},
+	[104005] = {
+		{ id = 1002002, prob = 1400, name = "Pitch Black Illusion Stone Fragment 26x", group = 6 },
+		{ id = 1002002, prob = 1300, name = "Pitch Black Illusion Stone Fragment 27x", group = 6 },
+		{ id = 1002002, prob = 1200, name = "Pitch Black Illusion Stone Fragment 28x", group = 6 },
+		{ id = 1002002, prob = 1100, name = "Pitch Black Illusion Stone Fragment 29x", group = 6 },
+		{ id = 1002002, prob = 1000, name = "Pitch Black Illusion Stone Fragment 30x", group = 6 },
+		{ id = 1002002, prob = 850, name = "Pitch Black Illusion Stone Fragment 31x", group = 6 },
+		{ id = 1002002, prob = 750, name = "Pitch Black Illusion Stone Fragment 32x", group = 6 },
+		{ id = 1002002, prob = 650, name = "Pitch Black Illusion Stone Fragment 33x", group = 6 },
+		{ id = 1002002, prob = 550, name = "Pitch Black Illusion Stone Fragment 34x", group = 6 },
+		{ id = 1002002, prob = 450, name = "Pitch Black Illusion Stone Fragment 35x", group = 6 },
+		{ id = 1002002, prob = 350, name = "Pitch Black Illusion Stone Fragment 36x", group = 6 },
+		{ id = 1002002, prob = 250, name = "Pitch Black Illusion Stone Fragment 37x", group = 6 },
+		{ id = 1002002, prob = 150, name = "Pitch Black Illusion Stone Fragment 38x", group = 6 }
+	},
+	[104006] = {
+		{ id = 1001972, prob = 100, name = "Root Gold Coin 20x", group = 0 },
+		{ id = 1001996, prob = 100, name = "Mana Ring 10x", group = 0 },
+		{ id = 104002, prob = 100, name = "Blue Fragment Box", group = 0 }
+	},
+	[104007] = {
+		{ id = 1001972, prob = 100, name = "Root Gold Coin 40x", group = 0 },
+		{ id = 1001996, prob = 100, name = "Mana Ring 20x", group = 0 },
+		{ id = 104002, prob = 100, name = "Blue Fragment Box", group = 0 },
+		{ id = 104003, prob = 100, name = "Sunset Fragment Box", group = 0 }
+	},
+	[104008] = {
+		{ id = 1001972, prob = 100, name = "Root Gold Coin 60x", group = 0 },
+		{ id = 1001996, prob = 100, name = "Mana Ring 30x", group = 0 },
+		{ id = 104002, prob = 100, name = "Blue Fragment Box", group = 0 },
+		{ id = 104003, prob = 100, name = "Sunset Fragment Box", group = 0 },
+		{ id = 104004, prob = 100, name = "Cyan Fragment Box", group = 0 }
+	},
+	[104009] = {
+		{ id = 1001972, prob = 100, name = "Root Gold Coin 100x", group = 0 },
+		{ id = 1001996, prob = 100, name = "Mana Ring 50x", group = 0 },
+		{ id = 104002, prob = 100, name = "Blue Fragment Box", group = 0 },
+		{ id = 104003, prob = 100, name = "Sunset Fragment Box", group = 0 },
+		{ id = 104004, prob = 100, name = "Cyan Fragment Box", group = 0 },
+		{ id = 104005, prob = 100, name = "Pitch Black Fragment Box", group = 0 }
+	},
+	[104174] = {
+		{ id = 103052, prob = 10, name = "[NotForSale] Kafra Buff (3 Days)", group = 0 },
+		{ id = 23751, prob = 10, name = "[NotForSale] Premium Buff Box", group = 0 },
+		{ id = 104419, prob = 10, name = "Hanmac Masitta Burger 10x", group = 0 },
+		{ id = 104420, prob = 10, name = "Pocket Chicken Onion Cream 10x", group = 0 },
+		{ id = 104421, prob = 10, name = "Hanmac Double Burger 5x", group = 0 }
+	},
+	[104175] = {
+		{ id = 103054, prob = 10, name = "[NotForSale] Kafra Buff (5 Days)", group = 0 },
+		{ id = 23751, prob = 10, name = "[NotForSale] Premium Buff Box", group = 0 },
+		{ id = 104419, prob = 10, name = "Hanmac Masitta Burger 20x", group = 0 },
+		{ id = 104420, prob = 10, name = "Pocket Chicken Onion Cream 20x", group = 0 },
+		{ id = 104421, prob = 10, name = "Hanmac Double Burger 10x", group = 0 }
+	},
+	[104205] = {
+		{ id = 23207, prob = 1, name = "Premium Ration Service Box", group = 0 }
+	},
+	[104386] = {
+		{ id = 104239, prob = 2500, name = "Purple Lucky Card", group = 6 },
+		{ id = 104238, prob = 2500, name = "Pink Lucky Card", group = 6 },
+		{ id = 104237, prob = 2500, name = "Green Lucky Card", group = 6 },
+		{ id = 104236, prob = 2500, name = "Anyway, Lucky Card", group = 6 }
+	},
+	[104451] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 60x", group = 0 }
+	},
+	[104452] = {
+		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
+	},
+	[104453] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 60x", group = 0 }
+	},
+	[104454] = {
+		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
+	},
+	[104455] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 }
+	},
+	[104456] = {
+		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
+	},
+	[104457] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 80x", group = 0 }
+	},
+	[104458] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond 5x", group = 0 }
+	},
+	[104459] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 }
+	},
+	[104460] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 250x", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond 5x", group = 0 }
+	},
+	[104461] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 }
+	},
+	[104462] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
+	},
+	[104463] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 }
+	},
+	[104464] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 }
+	},
+	[104465] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
+	},
+	[104466] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 80x", group = 0 }
+	},
+	[104467] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 }
+	},
+	[104468] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 100x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
+	},
+	[104469] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 }
+	},
+	[104470] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 },
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 }
+	},
+	[104471] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 }
+	},
+	[104472] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond 3x", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
+		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 }
+	},
+	[104473] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 100x", group = 0 }
+	},
+	[104474] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 90x", group = 0 }
+	},
+	[104475] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
+		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 }
+	},
+	[104476] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 100x", group = 0 }
+	},
+	[104477] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 70x", group = 0 }
+	},
+	[104478] = {
+		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
+	},
+	[104479] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 }
+	},
+	[104480] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 250x", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond 5x", group = 0 }
+	},
+	[104481] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
+	},
+	[104482] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 }
+	},
+	[104483] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 200x", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond 5x", group = 0 }
+	},
+	[104484] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 70x", group = 0 }
+	},
+	[104485] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
+	},
+	[104486] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 80x", group = 0 }
+	},
+	[104487] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 110x", group = 0 }
+	},
+	[104488] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune 2x", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 220x", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond 5x", group = 0 }
+	},
+	[104489] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 150x", group = 0 },
+		{ id = 1001480, prob = 1, name = "Golden Diamond", group = 0 }
+	},
+	[104490] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 70x", group = 0 }
+	},
+	[104491] = {
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 }
+	},
+	[104492] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 70x", group = 0 }
+	},
+	[104493] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 },
+		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 }
+	},
+	[104494] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 70x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
+	},
+	[104495] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 100x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
+	},
+	[104496] = {
+		{ id = 1001283, prob = 1, name = "Perfect Rune", group = 0 },
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 70x", group = 0 }
+	},
+	[104497] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 120x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 },
+		{ id = 6635, prob = 1, name = "Blacksmith\'s Blessing", group = 0 }
+	},
+	[104498] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 70x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond", group = 0 }
+	},
+	[104499] = {
+		{ id = 1001282, prob = 1, name = "Imperfect Rune 100x", group = 0 },
+		{ id = 1001478, prob = 1, name = "Pure Diamond 2x", group = 0 }
+	},
+	[104501] = {
+		{ id = 25062, prob = 5, name = "Greed Stone(Lower)", group = 6 },
+		{ id = 1000523, prob = 10, name = "Ranged Stone(Dual)", group = 6 },
+		{ id = 1000524, prob = 10, name = "Melee Stone(Dual)", group = 6 },
+		{ id = 1000527, prob = 10, name = "Magic Power Stone(Dual)", group = 6 },
+		{ id = 1000922, prob = 11, name = "Special Magic Attack Stone(Garment)", group = 6 },
+		{ id = 1001053, prob = 11, name = "Melee Physical Attack Stone(Garment)", group = 6 },
+		{ id = 1001054, prob = 11, name = "Range Physical Attack Stone(Garment)", group = 6 },
+		{ id = 1001171, prob = 11, name = "Resist Defense Stone(Garment)", group = 6 },
+		{ id = 1001938, prob = 11, name = "Critical Rate Stone(Garment)", group = 6 },
+		{ id = 1001172, prob = 10, name = "Stamina Wisdom Stone(Dual)", group = 6 },
+		{ id = 1001055, prob = 10, name = "Power Stone(Dual)", group = 6 },
+		{ id = 1000921, prob = 10, name = "Spell Stone(Dual)", group = 6 },
+		{ id = 1000856, prob = 10, name = "Concentration Stone(Dual)", group = 6 },
+		{ id = 1000676, prob = 10, name = "Creative Stone(Dual)", group = 6 },
+		{ id = 1002108, prob = 10, name = "Blue Butterfly Footprint(Garment)", group = 6 },
+		{ id = 1002099, prob = 10, name = "Shadow Cross Stone II(Garment)", group = 6 },
+		{ id = 1002103, prob = 10, name = "Inquisitor Stone II(Garment)", group = 6 },
+		{ id = 1002107, prob = 10, name = "Soul Ascetic Stone II(Garment)", group = 6 },
+		{ id = 1000675, prob = 10, name = "Reload Stone(Dual)", group = 6 },
+		{ id = 1000855, prob = 10, name = "Critical Stone(Dual)", group = 6 },
+		{ id = 25302, prob = 20, name = "Double Attack Stone(Garment)", group = 6 },
+		{ id = 25303, prob = 20, name = "Critical Stone(Garment)", group = 6 },
+		{ id = 1000522, prob = 40, name = "Variable Casting Stone(Dual)", group = 6 },
+		{ id = 1000525, prob = 40, name = "SP Absorbtion Stone(Dual)", group = 6 },
+		{ id = 1000526, prob = 80, name = "HP Absorbtion Stone(Dual)", group = 6 },
+		{ id = 1000520, prob = 80, name = "ASPD Stone(Dual)", group = 6 },
+		{ id = 25306, prob = 80, name = "Variable Casting Stone(Garment)", group = 6 },
+		{ id = 1002096, prob = 80, name = "Guillotine Cross Stone II(Upper)", group = 6 },
+		{ id = 1002097, prob = 80, name = "Guillotine Cross Stone II(Mid)", group = 6 },
+		{ id = 1002098, prob = 80, name = "Guillotine Cross Stone II(Lower)", group = 6 },
+		{ id = 1002100, prob = 80, name = "Sura Stone II(Upper)", group = 6 },
+		{ id = 1002101, prob = 80, name = "Sura Stone II(Mid)", group = 6 },
+		{ id = 1002102, prob = 80, name = "Sura Stone II(Lower)", group = 6 },
+		{ id = 1002104, prob = 80, name = "Soul Reaper Stone II(Upper)", group = 6 },
+		{ id = 1002105, prob = 80, name = "Soul Reaper Stone II(Mid)", group = 6 },
+		{ id = 1002106, prob = 80, name = "Soul Reaper Stone II(Lower)", group = 6 },
+		{ id = 100465, prob = 160, name = "Class Enchant Stone Box I (Garment)", group = 6 },
+		{ id = 102333, prob = 160, name = "Class Enchant Stone Box III (Garment)", group = 6 },
+		{ id = 1000528, prob = 200, name = "Magic Power Stone(Upper)", group = 6 },
+		{ id = 1000529, prob = 200, name = "Magic Power Stone(Mid)", group = 6 },
+		{ id = 1000530, prob = 200, name = "Magic Power Stone(Lower)", group = 6 },
+		{ id = 1000375, prob = 200, name = "Ranged Stone(Upper)", group = 6 },
+		{ id = 25061, prob = 200, name = "Range Stone(Mid)", group = 6 },
+		{ id = 1000376, prob = 200, name = "Ranged Stone(Lower)", group = 6 },
+		{ id = 1000377, prob = 200, name = "Melee Stone(Upper)", group = 6 },
+		{ id = 1000378, prob = 200, name = "Melee Stone(Mid)", group = 6 },
+		{ id = 1000379, prob = 200, name = "Melee Stone(Lower)", group = 6 },
+		{ id = 1001168, prob = 200, name = "Defense Stone(Upper)", group = 6 },
+		{ id = 1001169, prob = 200, name = "Defense Stone(Mid)", group = 6 },
+		{ id = 1001170, prob = 200, name = "Defense Stone(Lower)", group = 6 },
+		{ id = 25069, prob = 200, name = "Reload Stone(Upper)", group = 6 },
+		{ id = 25070, prob = 200, name = "Reload Stone(Mid)", group = 6 },
+		{ id = 25071, prob = 200, name = "Reload Stone(Lower)", group = 6 },
+		{ id = 25141, prob = 200, name = "Exp Stone(Mid)", group = 6 },
+		{ id = 25015, prob = 200, name = "Experience Stone(Lower)", group = 6 },
+		{ id = 25171, prob = 200, name = "Experience Stone(Upper)", group = 6 },
+		{ id = 100496, prob = 400, name = "Class Stone(Upper) Box", group = 6 },
+		{ id = 100497, prob = 400, name = "Class Stone 2 (Upper) Box", group = 6 },
+		{ id = 100498, prob = 400, name = "Class Stone(Mid) Box", group = 6 },
+		{ id = 100499, prob = 400, name = "Class Stone 2 (Mid) Box", group = 6 },
+		{ id = 100500, prob = 400, name = "Class Stone(Lower) Box", group = 6 },
+		{ id = 100501, prob = 400, name = "Class Stone 2 (Lower) Box", group = 6 },
+		{ id = 25172, prob = 400, name = "Variable Cast Stone(Upper)", group = 6 },
+		{ id = 25173, prob = 400, name = "Variable Cast Stone(Mid)", group = 6 },
+		{ id = 25174, prob = 400, name = "Variable Cast Stone(Lower)", group = 6 },
+		{ id = 25060, prob = 400, name = "Critical Stone(Mid)", group = 6 },
+		{ id = 25304, prob = 400, name = "Critical Stone(Upper)", group = 6 },
+		{ id = 25305, prob = 400, name = "Critical Stone(Lower)", group = 6 }
+	},
+	[104537] = {
+		{ id = 103052, prob = 10, name = "[NotForSale] Kafra Buff (3 Days)", group = 0 },
+		{ id = 23751, prob = 10, name = "[NotForSale] Premium Buff Box", group = 0 },
+		{ id = 104419, prob = 10, name = "Hanmac Masitta Burger 10x", group = 0 },
+		{ id = 104420, prob = 10, name = "Pocket Chicken Onion Cream 10x", group = 0 },
+		{ id = 104421, prob = 10, name = "Hanmac Double Burger 5x", group = 0 }
+	},
+	[104538] = {
+		{ id = 103054, prob = 10, name = "[NotForSale] Kafra Buff (5 Days)", group = 0 },
+		{ id = 23751, prob = 10, name = "[NotForSale] Premium Buff Box", group = 0 },
+		{ id = 104419, prob = 10, name = "Hanmac Masitta Burger 20x", group = 0 },
+		{ id = 104420, prob = 10, name = "Pocket Chicken Onion Cream 20x", group = 0 },
+		{ id = 104421, prob = 10, name = "Hanmac Double Burger 10x", group = 0 }
 	},
 	[200001] = {
 		{ id = 25793, prob = 10, name = "Inventory Expansion Voucher 10x", group = 0 }
@@ -31209,17 +31630,17 @@ tbl = {
 		{ id = 101538, prob = 10, name = "Booster Box", group = 0 }
 	},
 	[200377] = {
-		{ id = 1001474, prob = 5000, name = "링 8개", group = 0 },
-		{ id = 1001549, prob = 5000, name = "소닉 뱃지 8개", group = 0 }
+		{ id = 1001474, prob = 5000, name = "Ring 8x", group = 0 },
+		{ id = 1001549, prob = 5000, name = "Sonic Badge 8x", group = 0 }
 	},
 	[200378] = {
-		{ id = 1001474, prob = 5000, name = "링 8개", group = 0 },
-		{ id = 1001549, prob = 5000, name = "소닉 뱃지 8개", group = 0 },
+		{ id = 1001474, prob = 5000, name = "Ring 8x", group = 0 },
+		{ id = 1001549, prob = 5000, name = "Sonic Badge 8x", group = 0 },
 		{ id = 410263, prob = 0, name = "Costume Super Sonic Mini-Me", group = 0 }
 	},
 	[200379] = {
-		{ id = 1001474, prob = 5000, name = "링 8개", group = 0 },
-		{ id = 1001549, prob = 5000, name = "소닉 뱃지 8개", group = 0 },
+		{ id = 1001474, prob = 5000, name = "Ring 8x", group = 0 },
+		{ id = 1001549, prob = 5000, name = "Sonic Badge 8x", group = 0 },
 		{ id = 420303, prob = 0, name = "Costume Chaos Emerald", group = 0 }
 	},
 	[200385] = {
@@ -31777,6 +32198,63 @@ tbl = {
 		{ id = 12264, prob = 1, name = "[NotForSale] Bubble Gum 5x", group = 0 },
 		{ id = 14533, prob = 1, name = "[NotForSale] Advanced Battle Manual 5x", group = 0 },
 		{ id = 103909, prob = 1, name = "Costume Enchant Stone Box 38 10x", group = 0 }
+	},
+	[200595] = {
+		{ id = 6909, prob = 1, name = "Nyangvine 100x", group = 0 },
+		{ id = 7000, prob = 1, name = "Event Stone Coin 12x", group = 0 },
+		{ id = 103909, prob = 1, name = "Costume Enchant Stone Box 38 3x", group = 0 }
+	},
+	[200596] = {
+		{ id = 6909, prob = 1, name = "Nyangvine 200x", group = 0 },
+		{ id = 7000, prob = 1, name = "Event Stone Coin 25x", group = 0 },
+		{ id = 103909, prob = 1, name = "Costume Enchant Stone Box 38 5x", group = 0 }
+	},
+	[200597] = {
+		{ id = 6909, prob = 1, name = "Nyangvine 400x", group = 0 },
+		{ id = 7000, prob = 1, name = "Event Stone Coin 50x", group = 0 },
+		{ id = 103909, prob = 1, name = "Costume Enchant Stone Box 38 10x", group = 0 }
+	},
+	[200614] = {
+		{ id = 6241, prob = 1, name = "HD Elunium 52x", group = 0 },
+		{ id = 14600, prob = 1, name = "Mental Potion 12x", group = 0 },
+		{ id = 23919, prob = 1, name = "Kachua\'s Secret Key 20x", group = 0 },
+		{ id = 23436, prob = 1, name = "Hollgrehenn\'s Shadow Refine Hammer 8x", group = 0 },
+		{ id = 1001253, prob = 1, name = "Shadow Essence 5x", group = 0 }
+	},
+	[200615] = {
+		{ id = 6240, prob = 1, name = "HD Oridecon 52x", group = 0 },
+		{ id = 14600, prob = 1, name = "Mental Potion 12x", group = 0 },
+		{ id = 23919, prob = 1, name = "Kachua\'s Secret Key 20x", group = 0 },
+		{ id = 23436, prob = 1, name = "Hollgrehenn\'s Shadow Refine Hammer 8x", group = 0 },
+		{ id = 1001253, prob = 1, name = "Shadow Essence 5x", group = 0 }
+	},
+	[200616] = {
+		{ id = 7619, prob = 1, name = "Enriched Elunium 200x", group = 0 },
+		{ id = 23919, prob = 1, name = "Kachua\'s Secret Key 20x", group = 0 },
+		{ id = 23436, prob = 1, name = "Hollgrehenn\'s Shadow Refine Hammer 8x", group = 0 },
+		{ id = 1001253, prob = 1, name = "Shadow Essence 5x", group = 0 }
+	},
+	[200617] = {
+		{ id = 7620, prob = 1, name = "Enriched Oridecon 200x", group = 0 },
+		{ id = 23919, prob = 1, name = "Kachua\'s Secret Key 20x", group = 0 },
+		{ id = 23436, prob = 1, name = "Hollgrehenn\'s Shadow Refine Hammer 8x", group = 0 },
+		{ id = 1001253, prob = 1, name = "Shadow Essence 5x", group = 0 }
+	},
+	[200621] = {
+		{ id = 6909, prob = 1, name = "Nyangvine 100x", group = 0 },
+		{ id = 104501, prob = 1, name = "Costume Enchant Stone Box 39 2x", group = 0 },
+		{ id = 12264, prob = 1, name = "[NotForSale] Bubble Gum 3x", group = 0 }
+	},
+	[200622] = {
+		{ id = 6909, prob = 1, name = "Nyangvine 200x", group = 0 },
+		{ id = 14533, prob = 1, name = "[NotForSale] Advanced Battle Manual 2x", group = 0 },
+		{ id = 104501, prob = 1, name = "Costume Enchant Stone Box 39 5x", group = 0 }
+	},
+	[200623] = {
+		{ id = 6909, prob = 1, name = "Nyangvine 400x", group = 0 },
+		{ id = 12264, prob = 1, name = "[NotForSale] Bubble Gum 5x", group = 0 },
+		{ id = 14533, prob = 1, name = "[NotForSale] Advanced Battle Manual 5x", group = 0 },
+		{ id = 104501, prob = 1, name = "Costume Enchant Stone Box 39 10x", group = 0 }
 	},
 }
 function main()

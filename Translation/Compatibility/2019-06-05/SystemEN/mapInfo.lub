@@ -2,9 +2,207 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20241027
+-- Last updated: 20250416
 
 mapTbl = {
+	["ygg_roots.rsw"] = {
+		displayName = "Twisted Dark Land",
+		notifyEnter = true,
+		signName = {
+			subTitle = "North of Midgard",
+			mainTitle = "Twisted Dark Land"
+		},
+		backgroundBmp = "noname"
+	},
+	["ygg_edge.rsw"] = {
+		displayName = "Water Lily Village",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Edge of the World Tree",
+			mainTitle = "Water Lily Village"
+		},
+		backgroundBmp = "village"
+	},
+	["ygg_fruit.rsw"] = {
+		displayName = "Inside Mulpuri",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside Mulpuri"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["mu_fild01.rsw"] = {
+		displayName = "Outside the Bolund Valley",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Muspelheim",
+			mainTitle = "Outside the Bolund Valley"
+		},
+		backgroundBmp = "field2"
+	},
+	["ch1_sf01.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch1_sf02.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch1_sf03.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["uknw_ruin.rsw"] = {
+		displayName = "Distorted Brimir 1st Floor",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Unknown Dimension",
+			mainTitle = "Distorted Brimir 1st Floor"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["uknw_ruin2.rsw"] = {
+		displayName = "Distorted Brimir 2Ãþ",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Unknown Dimension",
+			mainTitle = "Distorted Brimir 2Ãþ"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["hem_fild.rsw"] = {
+		displayName = "Destroyed Geffen Field",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "Destroyed Geffen Field"
+		},
+		backgroundBmp = "field2"
+	},
+	["hem_dun01.rsw"] = {
+		displayName = "Destroyed Verus",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "Destroyed Verus"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["hem_dun02.rsw"] = {
+		displayName = "Destroyed Valkyrie Realm",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "Destroyed Valkyrie Realm"
+		},
+		backgroundBmp = "field2"
+	},
+	["1@ch1a.rsw"] = {
+		displayName = "Ominous Dark Whisper",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "Ominous Dark Whisper"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["1@ch1b.rsw"] = {
+		displayName = "Recreated Dark Whisper",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "Recreated Dark Whisper"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ch1_geffen.rsw"] = {
+		displayName = "Collapsed Geffen",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "Collapsed Geffen"
+		},
+		backgroundBmp = "village"
+	},
+	["ch1_gef_in.rsw"] = {
+		displayName = "Inside Collapsed Geffen",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside Collapsed Geffen"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["ch1_dw.rsw"] = {
+		displayName = "Dark Whisper",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "Dark Whisper"
+		},
+		backgroundBmp = "noname"
+	},
+	["ch1_vrgef1.rsw"] = {
+		displayName = "Recreated Geffen Interior",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Recreated Geffen Interior"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch1_vrgef2.rsw"] = {
+		displayName = "Recreated Geffen",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Recreated Geffen"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch1_que01.rsw"] = {
+		displayName = "Collapsed Geffen Basement",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Collapsed Geffen Basement"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch1_gfn01.rsw"] = {
+		displayName = "East of the Encroached Geffenia",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "East of the Encroached Geffenia"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ch1_gfn03.rsw"] = {
+		displayName = "West of the Encroached Geffenia",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World",
+			mainTitle = "West of the Encroached Geffenia"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["cmd_bhole.rsw"] = {
+		displayName = "Unknown Blue Hole",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Unknown Blue Hole"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["jor_sklf1.rsw"] = {
 		displayName = "Jormungand Cult Shrine 1st Floor",
 		notifyEnter = true,
@@ -137,19 +335,19 @@ mapTbl = {
 		backgroundBmp = "field2_s2"
 	},
 	["jor_tmple1.rsw"] = {
-		displayName = "Jormungand Church Temple Gimle 1st Floor",
+		displayName = "Jormungand Cult Temple Gimleh 1st Floor",
 		notifyEnter = true,
 		signName = {
-			subTitle = "Jormungand Church Temple",
+			subTitle = "Jormungand Cult Temple Gimleh",
 			mainTitle = "1st Floor"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["jor_tmple2.rsw"] = {
-		displayName = "Jormungand Church Temple 2nd Floor",
+		displayName = "Jormungand Cult Temple Gimleh 2nd Floor",
 		notifyEnter = true,
 		signName = {
-			subTitle = "Jormungand Church Temple",
+			subTitle = "Jormungand Cult Temple Gimleh",
 			mainTitle = "2nd Floor"
 		},
 		backgroundBmp = "dungeon"
@@ -195,6 +393,14 @@ mapTbl = {
 		backgroundBmp = "noname_s2"
 	},
 	["1@ep21b.rsw"] = {
+		displayName = "Snake's Resting Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Snake's Resting Place"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["1@ep21c.rsw"] = {
 		displayName = "Snake's Resting Place",
 		notifyEnter = true,
 		signName = {
@@ -774,11 +980,11 @@ mapTbl = {
 		backgroundBmp = "village"
 	},
 	["1@vrev.rsw"] = {
-		displayName = "Fantasy Series-Amykitia's Secret Lab",
+		displayName = "Fantasy Series-Amicitia's Secret Lab",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Fantasy Series-003",
-			mainTitle = "Amykitia's Secret Lab"
+			mainTitle = "Amicitia's Secret Lab"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -8703,41 +8909,38 @@ mapTbl = {
 	["pvp_2vs2.rsw"] = {
 		displayName = "PvP : Event Coliseum",
 		notifyEnter = true, 
-			signName = {
-			
+		signName = {
 			mainTitle = "PvP Event Coliseum"
 		},
 		backgroundBmp = "noname_s2"
 	}
 }
 main = function()
-  for name,info in pairs(mapTbl) do
-    displayName = "Unknown Place"
-    if info.displayName ~= nil then
-      displayName = info.displayName
-    end
-    notify_enter = false
-    if info.notifyEnter ~= nil then
-      notify_enter = info.notifyEnter
-    end
-    result = AddMapDisplayName(name, displayName, notify_enter)
-    if info.signName ~= nil then
-      subTitle = ""
-      if (info.signName).subTitle ~= nil then
-        subTitle = (info.signName).subTitle
-      end
-      mainTitle = ""
-      if (info.signName).mainTitle ~= nil then
-        mainTitle = (info.signName).mainTitle
-      end
-      result = AddMapSignName(name, subTitle,
+	for name,info in pairs(mapTbl) do
+		displayName = "Unknown Place"
+		if info.displayName ~= nil then
+			displayName = info.displayName
+		end
+		notify_enter = false
+		if info.notifyEnter ~= nil then
+			notify_enter = info.notifyEnter
+		end
+		result = AddMapDisplayName(name, displayName, notify_enter)
+		if info.signName ~= nil then
+			subTitle = ""
+			if (info.signName).subTitle ~= nil then
+				subTitle = (info.signName).subTitle
+			end
+			mainTitle = ""
+			if (info.signName).mainTitle ~= nil then
+				mainTitle = (info.signName).mainTitle
+			end
+			result = AddMapSignName(name, subTitle,
 			mainTitle)
-    end
-    if info.backgroundBmp ~= nil then
-      result = AddMapBackgroundBmp(name, info.backgroundBmp)
-    end
-  end
-  return result, msg
+		end
+		if info.backgroundBmp ~= nil then
+			result = AddMapBackgroundBmp(name, info.backgroundBmp)
+		end
+	end
+	return result, msg
 end
-
-

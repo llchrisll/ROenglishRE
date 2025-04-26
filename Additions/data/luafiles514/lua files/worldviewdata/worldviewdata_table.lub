@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250404
+-- Last updated: 20250416
 
 worldtable_main = {
 	{ 1, "tha_t01.rsw", 552, 5, 646, 45, WORLD_MSGID.MSI_1_THA_T01, "110" },
@@ -412,11 +412,25 @@ worldtable_Crack_of_Dimension1_Dun = {}
 worldtable_north = {
 	{ 1, "xmas_dun01.rsw", 873, 872, 1000, 906, WORLD_MSGID.MSI_1_XMAS_DUN01, "35" },
 	{ 1, "xmas_dun02.rsw", 873, 872, 1000, 906, WORLD_MSGID.MSI_1_XMAS_DUN02, "40" },
-	{ 100, "xmas_fild01.rsw", 795, 963, 854, 1018, WORLD_MSGID.MSI_100_XMAS_FILD01, "37" },
-	{ 100, "xmas.rsw", 795, 904, 854, 963, WORLD_MSGID.MSI_100_XMAS, "" }
+	{ 100, "xmas_fild01.rsw", 795, 974, 854, 1022, WORLD_MSGID.MSI_100_XMAS_FILD01, "37" },
+	{ 100, "xmas.rsw", 795, 904, 854, 974, WORLD_MSGID.MSI_100_XMAS, "" },
+	{ 101, "ygg_roots.rsw", 535, 497, 595, 555, WORLD_MSGID.MSI_101_YGG_ROOTS, "" }
 }
 worldtable_north_Dun = {
 	{ 1, 818, 909, 838, 929, WORLD_MSGID.MSI_DUN44, "35~40" }
+}
+WorldMap_Pw02 = {
+	{ 1, "hem_dun01.rsw", 158, 468, 293, 502, WORLD_MSGID.MSI_1_HEM_DUN01, "200" }, 
+	{ 2, "ch1_gfn01.rsw", 525, 243, 660, 277, WORLD_MSGID.MSI_1_CH1_GFN01, "260" }, 
+	{ 3, "ch1_gfn03.rsw", 345, 243, 480, 277, WORLD_MSGID.MSI_1_CH1_GFN03, "260" }, 
+	{ 100, "ch1_geffen.rsw", 315, 370, 419, 472, WORLD_MSGID.MSI_100_CH1_GEFFEN, "" }, 
+	{ 100, "hem_fild.rsw", 421, 370, 524, 472, WORLD_MSGID.MSI_100_HEM_FILD, "200" }, 
+	{ 100, "hem_dun02.rsw", 527, 370, 630, 472, WORLD_MSGID.MSI_100_HEM_DUN02, "230" }
+}
+WorldMap_Pw02_Dun = {
+	{ 1, 364, 444, 384, 464, WORLD_MSGID.MSI_DUN47, "213~215" }, 
+	{ 2, 484, 389, 504, 409, WORLD_MSGID.MSI_DUN48, "273~278" }, 
+	{ 3, 453, 379, 473, 399, WORLD_MSGID.MSI_DUN49, "273~278" }
 }
 worldtable_Doram = {
 	{ 1, "lasa_dun01.rsw", 985, 680, 1060, 720, WORLD_MSGID.MSI_1_LASA_DUN01, "15" },

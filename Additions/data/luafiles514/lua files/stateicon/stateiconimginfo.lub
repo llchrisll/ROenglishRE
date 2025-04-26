@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20241027
+-- Last updated: 20250416
 
 PRIORITY_GOLD = 0
 PRIORITY_RED = 1
@@ -11,15 +11,14 @@ PRIORITY_GREEN = 3
 PRIORITY_WHITE = 4
 StateIconImgList = {
 	[PRIORITY_GOLD] = {
-		[EFST_IDs.EFST_SWORDCLAN] = "SWORDCLAN.tga",
-		[EFST_IDs.EFST_ARCWANDCLAN] = "ARCWANDCLAN.tga",
-		[EFST_IDs.EFST_GOLDENMACECLAN] = "GOLDENMACECLAN.tga",
-		[EFST_IDs.EFST_CROSSBOWCLAN] = "CROSSBOWCLAN.tga",
+		[EFST_IDs.EFST_SWORDCLAN] = "SWORDCLAN.TGA",
+		[EFST_IDs.EFST_ARCWANDCLAN] = "ARCWANDCLAN.TGA",
+		[EFST_IDs.EFST_GOLDENMACECLAN] = "GOLDENMACECLAN.TGA",
+		[EFST_IDs.EFST_CROSSBOWCLAN] = "CROSSBOWCLAN.TGA",
 		[EFST_IDs.EFST_JUMPINGCLAN] = "eldicastes.tga",
 		[EFST_IDs.EFST_ESSENCE_OF_TIME] = "EssenceOfTime.tga"
-	},
-	[PRIORITY_RED] = {
-		[EFST_IDs.EFST_HANDICAPSTATE_NORECOVER] = "NORECOVER.TGA",
+	}, 
+	[PRIORITY_RED] = {[EFST_IDs.EFST_HANDICAPSTATE_NORECOVER] = "NORECOVER.TGA",
 		[EFST_IDs.EFST_EXTREMITYFIST] = "EXTREMITYFIST.TGA",
 		[EFST_IDs.EFST_GM_BATTLE] = "ICON02.TGA",
 		[EFST_IDs.EFST_GM_BATTLE2] = "ICON02.TGA",
@@ -283,13 +282,27 @@ StateIconImgList = {
 		[EFST_IDs.EFST_CONTENTS_27] = "bath_foam_c.TGA",
 		[EFST_IDs.EFST_CONTENTS_28] = "bath_foam_b.TGA",
 		[EFST_IDs.EFST_CONTENTS_29] = "icon08.TGA",
-		[EFST_IDs.EFST_CONTENTS_30] = "bath_foam_a.TGA"
+		[EFST_IDs.EFST_CONTENTS_30] = "bath_foam_a.TGA",
+		[EFST_IDs.EFST_CONTENTS_31] = "gogi.TGA",
+		[EFST_IDs.EFST_CONTENTS_32] = "bath_foam_c.TGA",
+		[EFST_IDs.EFST_CONTENTS_33] = "mvpcard_orclord.TGA",
+		[EFST_IDs.EFST_CONTENTS_34] = "eldicastes.TGA",
+		[EFST_IDs.EFST_CONTENTS_35] = "mvpcard_taogunka.TGA",
+		[EFST_IDs.EFST_CONTENTS_37] = "EFST_CONTENTS_37.TGA",
+		[EFST_IDs.EFST_CONTENTS_38] = "EFST_CONTENTS_38.TGA",
+		[EFST_IDs.EFST_C_BUFF_3] = "Resist_Elemental_Water.tga",
+		[EFST_IDs.EFST_C_BUFF_4] = "Resist_Elemental_Wind.tga",
+		[EFST_IDs.EFST_C_BUFF_5] = "Resist_Elemental_Saint.tga",
+		[EFST_IDs.EFST_C_BUFF_6] = "Resist_Elemental_Poison.tga",
+		[EFST_IDs.EFST_C_BUFF_7] = "all_odins_power.tga",
+		[EFST_IDs.EFST_C_BUFF_8] = "ÅÂÃ»´Ü.tga",
+		[EFST_IDs.EFST_C_BUFF_9] = "gogi.tga"
 	},
 	[PRIORITY_GREEN] = {
-		[EFST_IDs.EFST_SET_NUM_DEF] = "SETDEF.tga",
-		[EFST_IDs.EFST_SET_PER_DEF] = "SETDEF.tga",
-		[EFST_IDs.EFST_SET_NUM_MDEF] = "SETMDEF.tga",
-		[EFST_IDs.EFST_SET_PER_MDEF] = "SETMDEF.tga"
+		[EFST_IDs.EFST_SET_NUM_DEF] = "SETDEF.TGA",
+		[EFST_IDs.EFST_SET_PER_DEF] = "SETDEF.TGA",
+		[EFST_IDs.EFST_SET_NUM_MDEF] = "SETMDEF.TGA",
+		[EFST_IDs.EFST_SET_PER_MDEF] = "SETMDEF.TGA"
 	},
 	[PRIORITY_WHITE] = {
 		[EFST_IDs.EFST_ZANGETSU] = "ZANGETSU.TGA",

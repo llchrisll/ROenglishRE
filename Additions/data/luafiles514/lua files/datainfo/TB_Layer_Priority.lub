@@ -2,13 +2,33 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20241027
+-- Last updated: 20250416
 
 TB_Layer_Priority = {
 	Default_Mid = 100,
 	Default_Top = 200,
 	Default_Bottom = 300,
 	Items_List = {
+		[ACCESSORY_IDs.ACCESSORY_C_B_Shiba_Inu_TW] = { Default = 304, isIgnoreRiding = true },
+		[ACCESSORY_IDs.ACCESSORY_CitrusRibbon] = { Default = 301, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Chewy_Low_Twin] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_Bear_Candy_Cart] = { Default = 304, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Angel_Berry_Wig] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Angel_Berry_Wig_N] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Kitchen_Car2] = { Default = 403, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_Wonderful_Beast_Ear] = { Default = 304 }, 
+		[ACCESSORY_IDs.ACCESSORY_VIP_Hair_2025] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Straight_Long_RD] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Cat_Whisper_Cloth] = { Default = 53 }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Snow_Rabbit_Wig] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Ribbon_Braid_Hair] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Cat_Straight_Long_WH] = { Default = 143, Direction = {} },
+		[ACCESSORY_IDs.ACCESSORY_C_Kotatsu] = { Default = 403, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Ragdoll] = { Default = 404, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Great_Pyrenees] = { Default = 404, isIgnoreRiding = true }, 
+		[ACCESSORY_IDs.ACCESSORY_Mob_Scarf] = { Default = 103 }, 
+		[ACCESSORY_IDs.ACCESSORY_Grisly_Soul] = { Default = 304 }, 
+		[ACCESSORY_IDs.ACCESSORY_C_Dreaming_Rose_Long] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Eternal_Rose] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Kitchen_Car] = { Default = 403, isIgnoreRiding = true }, 
 		[ACCESSORY_IDs.ACCESSORY_Wisdom_Core_Headphones] = { Default = 304 }, 
@@ -46,7 +66,7 @@ TB_Layer_Priority = {
 		[ACCESSORY_IDs.ACCESSORY_RabbitFamilyBalloon] = { Default = 301, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_C_Bouquet_Valletta] = { Default = 304 },
 		[ACCESSORY_IDs.ACCESSORY_C_Twinkle_Wave] = { Default = 143, Direction = {} },
-		[ACCESSORY_IDs.ACCESSORY_C_ROROGO] = { Default = 304, isIgnoreRiding = true},
+		[ACCESSORY_IDs.ACCESSORY_C_ROROGO] = { Default = 304, isIgnoreRiding = true },
 		[ACCESSORY_IDs.ACCESSORY_C_Traveller_Oil_Lantern] = { Default = 304, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_Chocolat_Rabbit_Hair] = { Default = 143, Direction = {} },
 		[ACCESSORY_IDs.ACCESSORY_BELL_PIGEON] = { Default = 301, Direction = {} },

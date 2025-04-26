@@ -2,13 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240817
-
--- 2012/03/09 Change 'Staff' name to 'Kafra Employee'
--- 2012/03/26 Correct coordinate to prevent navigation error, add moscovia Armor Dealer
--- 2012/04/12 Added missing Mora Guide
--- 2014/02/19 Added Lutie Kafra
--- 2015/07/13 Added Lasagna
+-- Last updated: 20250416
 
 -- type 0 = Tool Dealer
 -- type 1 = Weapon Dealer
@@ -18,7 +12,6 @@
 -- type 5 = Inn
 -- type 6 = Kafra Employee
 -- type 7 = Styling Shop
--- For additional type support, please contact the programmer team if there any resource issues
 
 mapNPCInfoTable = {
 	prontera = {
@@ -442,8 +435,12 @@ mapNPCInfoTable = {
 		{ name = [=[Smith]=], X = 53, Y = 23, TYPE = 0 },
 		{ name = [=[Smith]=], X = 27, Y = 275, TYPE = 0 },
 		{ name = [=[Smith]=], X = 272, Y = 299, TYPE = 0 }
-	}
+	},
 -- -----------------------------------------------------------------------------
+	ygg_edge = {
+		{ name = [=[Fruit Shop]=], X = 141, Y = 209, TYPE = 0 },
+		{ name = [=[Guide]=], X = 167, Y = 182, TYPE = 4 }
+	}
 }
 
 function main()

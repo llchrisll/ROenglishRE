@@ -1,0 +1,70 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20250416
+
+RuneSettbl_Reward = {
+	[RUNETAGIDTBL.EPISODE17] = {
+		[RUNESETIDTBL.Rt_Ep17_Doubt] = {103335, 1001282, 103339, 1001282, 0, 0, 103340},
+		[RUNESETIDTBL.Rt_Ep17_Auto] = {103347, 1001282, 0, 0, 0, 0, 103348},
+		[RUNESETIDTBL.Rt_Ep17_Secret] = {103349, 1001282, 1001282, 0, 0, 0, 103350},
+		[RUNESETIDTBL.Rt_Ep17_Mutant] = {103351, 1001282, 1001282, 0, 0, 0, 103352},
+		[RUNESETIDTBL.Rt_Ep17_Miguel] = {103353, 103355, 1001283, 0, 0, 0, 103354},
+		[RUNESETIDTBL.Rt_Ep17_Overload] = {103356, 1001282, 103358, 1001282, 0, 0, 103357},
+		[RUNESETIDTBL.Rt_Ep17_Bath] = {103359, 1001282, 1001282, 0, 0, 0, 103360},
+		[RUNESETIDTBL.Rt_Ep17_Garden] = {103361, 1001282, 103364, 1001282, 103365, 1001282, 103362},
+		[RUNESETIDTBL.Rt_Ep17_Green] = {103366, 103368, 1001282, 103369, 1001282, 0, 103367},
+		[RUNESETIDTBL.Rt_Ep17_Malfun] = {103385, 1001282, 103387, 1001282, 0, 0, 103386},
+		[RUNESETIDTBL.Rt_Ep17_Wing] = {103370, 103372, 1001282, 103373, 1001282, 0, 103371},
+		[RUNESETIDTBL.Rt_Ep17_Harmful] = {103374, 103376, 1001282, 103377, 1001282, 0, 103375},
+		[RUNESETIDTBL.Rt_Ep17_Boss] = {103378, 1001282, 103381, 1001283, 103383, 1001283, 103379}
+	},
+	[RUNETAGIDTBL.EPISODE18] = {
+		[RUNESETIDTBL.Rt_Ep18_Armor] = {103437, 1001282, 0, 0, 0, 0, 103438},
+		[RUNESETIDTBL.Rt_Ep18_Melee] = {103439, 1001282, 1001282, 0, 0, 0, 103441},
+		[RUNESETIDTBL.Rt_Ep18_Magic] = {103442, 1001282, 1001282, 0, 0, 0, 103440},
+		[RUNESETIDTBL.Rt_Ep18_Range] = {103443, 1001282, 1001282, 0, 0, 0, 103444},
+		[RUNESETIDTBL.Rt_Ep18_Field] = {103445, 1001282, 103447, 1001282, 0, 0, 103446},
+		[RUNESETIDTBL.Rt_Ep18_Lava] = {103449, 103451, 1001282, 0, 0, 0, 103450},
+		[RUNESETIDTBL.Rt_Ep18_Total] = {103452, 1001282, 103454, 1001282, 1001282, 103455, 103453},
+		[RUNESETIDTBL.Rt_Ep18_Fang] = {103456, 1001283, 1001282, 0, 0, 0, 103457},
+		[RUNESETIDTBL.Rt_Ep18_Demi] = {103458, 103460, 1001283, 0, 0, 0, 103459}
+	},
+	[RUNETAGIDTBL.EPISODE19] = {
+		[RUNESETIDTBL.Rt_Ep19_SnowFlower] = {104451, 1001282, 0, 0, 0, 0, 104452},
+		[RUNESETIDTBL.Rt_Ep19_Glacier] = {104453, 1001282, 104455, 1001282, 104456, 1001282, 104454},
+		[RUNESETIDTBL.Rt_Ep19_Ulrali] = {104457, 1001283, 0, 0, 0, 0, 104458},
+		[RUNESETIDTBL.Rt_Ep19_Juncea] = {104459, 1001283, 0, 0, 0, 0, 104460},
+		[RUNESETIDTBL.Rt_Ep19_snowfield] = {104461, 104463, 1001282, 0, 0, 0, 104462},
+		[RUNESETIDTBL.Rt_Ep19_Family] = {104464, 104466, 1001282, 0, 0, 0, 104465},
+		[RUNESETIDTBL.Rt_Ep19_Irritation] = {104467, 1001282, 1001282, 0, 0, 0, 104468},
+		[RUNESETIDTBL.Rt_Ep19_Basement] = {104469, 1001282, 1001282, 0, 0, 0, 104470},
+		[RUNESETIDTBL.Rt_Ep19_Rgan] = {104471, 104473, 6635, 0, 0, 0, 104472},
+		[RUNESETIDTBL.Rt_Ep19_Rabre] = {104474, 1001282, 104476, 6635, 0, 0, 104475}
+	},
+	[RUNETAGIDTBL.EPISODE20] = {
+		[RUNESETIDTBL.Rt_Ep20_Glacier] = {104477, 1001282, 1001282, 0, 0, 0, 104478},
+		[RUNESETIDTBL.Rt_Ep20_Sanctuary] = {104479, 104481, 1001283, 0, 0, 0, 104480},
+		[RUNESETIDTBL.Rt_Ep20_Predator] = {104482, 1001283, 0, 0, 0, 0, 104483},
+		[RUNESETIDTBL.Rt_Ep20_Guardian] = {104484, 1001282, 104486, 0, 0, 0, 104485},
+		[RUNESETIDTBL.Rt_Ep20_Sangel] = {104487, 104489, 1001283, 0, 0, 0, 104488},
+		[RUNESETIDTBL.Rt_Ep20_Day] = {104490, 1001282, 1001478, 0, 0, 0, 104491},
+		[RUNESETIDTBL.Rt_Ep20_Retire] = {104492, 104494, 6635, 104495, 0, 0, 104493},
+		[RUNESETIDTBL.Rt_Ep20_Roots] = {104496, 1001283, 104498, 6635, 104499, 0, 104497}
+	},
+	[RUNETAGIDTBL.EVT] = {}
+}
+function main_runeset_reward()
+	for TagID,TagData in pairs(RuneSettbl_Reward) do
+		for RuneSetID,RuneData in pairs(TagData) do
+			result = AddRuneSetReward(TagID, RuneSetID, RuneData[1], RuneData[2], RuneData[3], RuneData[4], RuneData[5], RuneData[6], RuneData[7])
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	return true, "good"
+end
+
+
