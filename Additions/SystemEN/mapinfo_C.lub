@@ -1,0 +1,24 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+
+--[[ Template
+	-- Available default files for "backgroundBmp" field:
+	-- dungeon, field2, field, noname, siege, village
+	["map.rsw"] = {
+		displayName = "/where Map Display",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Sign - Sub Text",
+			mainTitle = "Sign - Head Text"
+		},
+		backgroundBmp = "background bmp file"
+	},
+]]
+mapTbl_C = {
+}
+----------- DON'T TOUCH THE LINES BELOW -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableMerge(mapTbl_C,mapTbl,false)
+---------------------------------------------------

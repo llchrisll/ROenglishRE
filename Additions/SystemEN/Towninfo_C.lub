@@ -1,0 +1,26 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+
+-- type 0 = Tool Dealer
+-- type 1 = Weapon Dealer
+-- type 2 = Armor Dealer
+-- type 3 = Smith
+-- type 4 = Guide
+-- type 5 = Inn
+-- type 6 = Kafra Employee
+-- type 7 = Styling Shop
+
+--[[ Template
+	map = {
+		{ name = "[=[Display]=]", X = 135, Y = 263, TYPE = 1 }
+	},
+]]
+mapNPCInfoTable_C = {
+}
+
+----------- DON'T TOUCH THE LINES BELOW -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_LuaTableMerge(mapNPCInfoTable_C,mapNPCInfoTable,false)
+---------------------------------------------------

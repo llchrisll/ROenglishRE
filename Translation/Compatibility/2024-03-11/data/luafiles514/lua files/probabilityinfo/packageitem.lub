@@ -2,7 +2,10 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250426
+-- Last updated: 20250430
+
+-- Displays the respective Item Icon via ^i[<ID>] before the item name (true/false)
+iIcon = false
 
 tbl = {
 	[603] = {
@@ -32260,7 +32263,11 @@ tbl = {
 function main()
 	for packageID,package in pairs(tbl) do
 		for serialnumber,box in pairs(package) do
-			result = InsertPackage(packageID, box.group, box.id, box.name, box.prob)
+			if iIcon == true then
+				result = InsertPackage(packageID, box.group, box.id, '^i['..box.id..'] '..box.name, box.prob)
+			else
+				result = InsertPackage(packageID, box.group, box.id, box.name, box.prob)
+			end
 			if not result then
 				return false, msg
 			end

@@ -8928,19 +8928,24 @@ main = function()
 		result = AddMapDisplayName(name, displayName, notify_enter)
 		if info.signName ~= nil then
 			subTitle = ""
-			if (info.signName).subTitle ~= nil then
-				subTitle = (info.signName).subTitle
+			if info.signName.subTitle ~= nil then
+				subTitle = info.signName.subTitle
 			end
 			mainTitle = ""
-			if (info.signName).mainTitle ~= nil then
-				mainTitle = (info.signName).mainTitle
+			if info.signName.mainTitle ~= nil then
+				mainTitle = info.signName.mainTitle
 			end
-			result = AddMapSignName(name, subTitle,
-			mainTitle)
+			result = AddMapSignName(name, subTitle, mainTitle)
 		end
 		if info.backgroundBmp ~= nil then
 			result = AddMapBackgroundBmp(name, info.backgroundBmp)
 		end
 	end
 	return result, msg
+end
+
+-- Custom mapInfo
+if io.open("SystemEN/mapinfo_C.lub", "r") ~= nil then
+	io.close()
+	dofile("SystemEN/mapinfo_C.lub")
 end
