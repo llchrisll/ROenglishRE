@@ -14,7 +14,7 @@ set "destinationDataPath=.\Client\data"
 set "destinationSystemPath=.\Client\SystemEN"
 cls
 echo =================================================================
-echo First, type the Client Date you are using, that way I will only copy the files,
+echo First, type the Client Date you are using, that way it will only copy the files,
 echo your client supports!
 echo =================================================================
 echo Example: 20220406 for 2022-04-06
@@ -281,6 +281,8 @@ if %lua% equ 1 (
 	echo [7] Signboard_C.lub %sys_c[7]%
 	echo [8] OngoingQuests/RecommendedQuests_C.lub %sys_c[8]%
 	echo [9] Rune Folder (2023-08-02 and newer) %sys_c[9]%
+	echo [10] Towninfo_C.lub %sys_c[10]%
+	echo [11] mapInfo_C.lub (2019-06-05 and newer) %sys_c[11]% 
 	echo =================================================================
 	set /p sys="Now choose: "
 	if %sys% equ 0 (
@@ -303,6 +305,10 @@ if %lua% equ 1 (
 		)
 		if %date% geq 20230802 (
 			xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y
+		)
+		xcopy "%sourceSystemPath%\Towninfo_C.lub" "%destinationSystemPath%\Towninfo_C.lub"* /H /C /I /Y
+		if %date% geq 20190605 (
+			xcopy "%sourceSystemPath%\mapinfo_C.lub" "%destinationSystemPath%\mapinfo_C.lub"* /H /C /I /Y
 		)
 	) else if %sys% equ 2 (
 		if %date% geq 20221207 (
@@ -338,15 +344,28 @@ if %lua% equ 1 (
 			pause
 			goto SysLua
 		)
+	) else if %sys% equ 10 (
+		xcopy "%sourceSystemPath%\Towninfo_C.lub" "%destinationSystemPath%\Towninfo_C.lub"* /H /C /I /Y
+	) else if %sys% equ 11 (
+		if %date% geq 20190605 (
+			xcopy "%sourceSystemPath%\mapinfo_C.lub" "%destinationSystemPath%\mapinfo_C.lub"* /H /C /I /Y
+		) else (
+			echo This file is only supported by 2019-06-05 clients or newer!
+			pause
+			goto SysLua
+		)
 	)
     if %sys% equ 1 (
-        for /L %%i in (1,1,9) do (
+        for /L %%i in (1,1,11) do (
             set sys_c[%%i]=[ Copied ]
 			if %%i equ 2 (
 				if %date% lss 20221207 set sys_c[%%i]=
 			)
 			if %%i equ 9 (
 				if %date% lss 20230802 set sys_c[%%i]=
+			)
+			if %%i equ 11 (
+				if %date% lss 20190605 set sys_c[%%i]=
 			)
         )
     ) else (
