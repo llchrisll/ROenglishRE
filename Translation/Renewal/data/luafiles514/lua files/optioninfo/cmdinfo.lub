@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230919
+-- Last updated: 20250416
 
 CmdOnOffOderList = {
 	"/notrade",
@@ -41,7 +41,9 @@ CmdOnOffOderList = {
 	"/minimap",
 	"/mineffect",
 	"/mable",
-	"/zoom"
+	"/zoom",
+	"/emblem",
+	"/showshop"
 }
 CmdHelpList = {
 	["/battlemode"] = MsgStrID.MSI_BATTLEMODE,
@@ -81,6 +83,7 @@ CmdHelpList = {
 	["/quake"] = MsgStrID.MSI_QUAKE_EFFECT_ONOFF,
 	["/mable"] = MsgStrID.MSI_SPRITEMABLE_ONOFF,
 	["/zoom"] = MsgStrID.MSI_EXPAND_SIGHT,
+	["/call"] = MsgStrID.MSI_CALL_COMMAND_ONOFF,
 	["/hi"] = MsgStrID.MSI_HI,
 	["/blacksmith"] = MsgStrID.MSI_BLACKSMITH,
 	["/alchemist"] = MsgStrID.MSI_ALCHEMIST,

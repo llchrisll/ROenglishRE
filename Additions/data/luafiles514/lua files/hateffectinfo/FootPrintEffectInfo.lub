@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240817
+-- Last updated: 20250416
 
 local PNG = 3
 local STR = 4
@@ -21,6 +21,16 @@ FootPrintEffectTable = {
 		Scale_Bottom = 0.05,
 		Scale_Top = 0.05,
 		Height_Top = 9
+	},
+	[HatEFID.FOOTPRINT_EF_purplestar] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_purplestar\\footprint_bottom_purplestar\\footprint_bottom_purple.str",
+		StrFile_Bottom_Right = "footprint_purplestar\\footprint_bottom_purplestar\\footprint_bottom_purple.str",
+		StrFile_Top_Left = "footprint_purplestar\\footprint_purplestar\\footprint_purple.str",
+		StrFile_Top_Right = "footprint_purplestar\\footprint_purplestar\\footprint_purple.str",
+		Scale_Bottom = 0.06,
+		Scale_Top = 0.15,
+		Height_Top = 0
 	},
 	[HatEFID.FOOTPRINT_EF_yellowstar] = {
 		Type = STR,
@@ -63,5 +73,82 @@ FootPrintEffectTable = {
 		Stride = 35,
 		Gap = 2,
 		IsAdjustAngle = true
+	}, 
+	[HatEFID.FOOTPRINT_EF_dumpling] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_dumpling\\footprint_bottom_dumpling\\footprint_dumpling_bottom.str",
+		StrFile_Bottom_Right = "footprint_dumpling\\footprint_bottom_dumpling\\footprint_dumpling_bottom.str",
+		StrFile_Top_Left = "footprint_dumpling\\footprint_dumpling\\footprint_dumpling.str",
+		StrFile_Top_Right = "footprint_dumpling\\footprint_dumpling\\footprint_dumpling.str",
+		Scale_Bottom = 0.04,
+		Scale_Top = 0.11
+	},
+	[HatEFID.FOOTPRINT_EF_panda_basic] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_panda\\footprint_panda_bottom_basic\\footprint_bottom_panda_basic.str",
+		StrFile_Bottom_Right = "footprint_panda\\footprint_panda_bottom_basic\\footprint_bottom_panda_basic.str",
+		StrFile_Top_Left = "footprint_panda\\footprint_panda\\footprint_panda.str",
+		StrFile_Top_Right = "footprint_panda\\footprint_panda\\footprint_panda.str",
+		Scale_Bottom = 0.04,
+		Scale_Top = 0.11,
+		IsAdjustAngle = true
+	},
+	[HatEFID.FOOTPRINT_EF_panda_color] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_panda\\footprint_panda_bottom_color\\footprint_panda_bottom_color.str",
+		StrFile_Bottom_Right = "footprint_panda\\footprint_panda_bottom_color\\footprint_panda_bottom_color.str",
+		StrFile_Top_Left = "footprint_panda\\footprint_panda\\footprint_panda.str",
+		StrFile_Top_Right = "footprint_panda\\footprint_panda\\footprint_panda.str",
+		Scale_Bottom = 0.04,
+		Scale_Top = 0.11,
+		IsAdjustAngle = true
+	},
+	[HatEFID.FOOTPRINT_EF_blossom] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_blossom\\footprint_blossom_bottom\\footprint_blossom_bottom.str",
+		StrFile_Bottom_Right = "footprint_blossom\\footprint_blossom_bottom\\footprint_blossom_bottom.str",
+		StrFile_Top_Left = "footprint_blossom\\footprint_blossom\\footprint_blossom.str",
+		StrFile_Top_Right = "footprint_blossom\\footprint_blossom\\footprint_blossom.str",
+		Scale_Bottom = 0.04,
+		Scale_Top = 0.11
+	},
+	[HatEFID.FOOTPRINT_EF_bud] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_bud\\footprint_bud\\footprint_bud.str",
+		StrFile_Top_Right = "footprint_bud\\footprint_bud\\footprint_bud.str",
+		Scale_Bottom = 0.04,
+		Scale_Top = 0.11
+	},
+	[HatEFID.FOOTPRINT_EF_butterfly_blue] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_butterfly\\footprint_butterfly_blue\\footprint_butterfly_blue.str",
+		StrFile_Top_Right = "footprint_butterfly\\footprint_butterfly_blue\\footprint_butterfly_blue.str",
+		Scale_Bottom = 0.04,
+		Scale_Top = 0.11,
+		Height_Top = 1
+	},
+	[HatEFID.FOOTPRINT_EF_butterfly_purple] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_butterfly\\footprint_butterfly_purple\\footprint_butterfly_purple.str",
+		StrFile_Top_Right = "footprint_butterfly\\footprint_butterfly_purple\\footprint_butterfly_purple.str",
+		Scale_Bottom = 0.04,
+		Scale_Top = 0.11,
+		Height_Top = 1
+	},
+	[HatEFID.FOOTPRINT_EF_butterfly_yellow] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_butterfly\\footprint_butterfly_yellow\\footprint_butterfly_yellow.str",
+		StrFile_Top_Right = "footprint_butterfly\\footprint_butterfly_yellow\\footprint_butterfly_yellow.str",
+		Scale_Bottom = 0.04,
+		Scale_Top = 0.11,
+		Height_Top = 1
 	}
 }

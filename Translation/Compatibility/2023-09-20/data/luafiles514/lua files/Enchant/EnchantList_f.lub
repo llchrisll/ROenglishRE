@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240518
+-- Last updated: 20250409
 
 Table = {}
 LoadFailed = false
@@ -87,9 +87,10 @@ CreateEnchantInfo = function()
 		end
 		if not self.TargetItemTbl then
 			self.TargetItemTbl = {}
-			if table.find(self.TargetItemTbl, in_targetItem) ~= nil then
-				self:SetFailed("AddTargetItem_Duplicate", "The item [ " .. in_targetItem .. " ] is already in the same table.")
-			end
+		end
+		if table.find(self.TargetItemTbl, in_targetItem) ~= nil then
+			self:SetFailed("AddTargetItem_Duplicate", "The item [ " .. in_targetItem .. " ] is already in the same table.")
+		else
 			table.insert(self.TargetItemTbl, in_targetItem)
 		end
 	end
@@ -457,21 +458,21 @@ function CheckFile()
 						slotInfo:SetFailed("SetEnchant","The sum of the probabilities of the " .. grade .. " grade is not 100000.")
 					end
 				end
-			end
-			if slotInfo.RandomUpgradeECTbl ~= nil then
-				for ItemDB,RandomUpgradeECTInfo in pairs(slotInfo.RandomUpgradeECTbl) do
-					if RandomUpgradeECTInfo.RequireTbl == nil then
-						slotInfo:SetFailed("SetRandomUpgradeRequire", "[ " .. ItemDB .. " ] Material information for random upgrade enchantment does not exist.")
-					end
-					if RandomUpgradeECTInfo.ResultTbl == nil then
-						slotInfo:SetFailed("AddRandomUpgradeEnchant", "[ " .. ItemDB .. " ] Random upgrade enchantment information does not exist.")
-					else
-						local TotalRate = 0
-						for ResultItemDB,Rate in pairs(RandomUpgradeECTInfo.ResultTbl) do
-							TotalRate = TotalRate + Rate
+				if slotInfo.RandomUpgradeECTbl ~= nil then
+					for ItemDB,RandomUpgradeECTInfo in pairs(slotInfo.RandomUpgradeECTbl) do
+						if RandomUpgradeECTInfo.RequireTbl == nil then
+							slotInfo:SetFailed("SetRandomUpgradeRequire", "[ " .. ItemDB .. " ] Material information for random upgrade enchantment does not exist.")
 						end
-						if TotalRate ~= 100000 then
-							slotInfo:SetFailed("AddRandomUpgradeEnchant", "[ " .. ItemDB .. " ] The total probability of random upgrade enchantments is not 100000.")
+						if RandomUpgradeECTInfo.ResultTbl == nil then
+							slotInfo:SetFailed("AddRandomUpgradeEnchant", "[ " .. ItemDB .. " ] Random upgrade enchantment information does not exist.")
+						else
+							local TotalRate = 0
+							for ResultItemDB,Rate in pairs(RandomUpgradeECTInfo.ResultTbl) do
+								TotalRate = TotalRate + Rate
+							end
+							if TotalRate ~= 100000 then
+								slotInfo:SetFailed("AddRandomUpgradeEnchant", "[ " .. ItemDB .. " ] The total probability of random upgrade enchantments is not 100000.")
+							end
 						end
 					end
 				end
@@ -587,4 +588,3 @@ LoadAllData = function()
 	end
 	return true, "good"
 end
-

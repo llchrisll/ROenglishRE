@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20241027
+-- Last updated: 20250416
 
 EFFECT = {}
 EFFECT["EF_NONE"] = -1
@@ -1755,7 +1755,7 @@ tbl = {
 	[21942] = { MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_UNDEAD } },
 	[21943] = { MonsterSize = 1, MonsterEff = { EFFECT.MAGIC_CIRCLE_NOTHING } },
 	[21950] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
-	[21955] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 }	},
+	[21955] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6  } },
 	[21996] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
 	[21980] = {	MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
 	[22004] = {	MonsterSize = 1.2, MonsterEff = { EFFECT.MAGIC_CIRCLE_DRAGON } },
@@ -1812,7 +1812,7 @@ tbl = {
 	[22261] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
 	[22253] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
 	[22260] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_BLUE_WAVE2, EFFECT.EF_BLACK_BUBBLE2 } },
-	[22363] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 }	},
+	[22363] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6  } },
 	[22364] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
 	[22362] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
 	[22374] = { MonsterSize = 1.2, MonsterEff = { EFFECT.MAGIC_CIRCLE_DRAGON } },
@@ -1828,8 +1828,24 @@ tbl = {
 	[22394] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
 	[22404] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
 	[22421] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
-	[22422] = { MonsterSize = 1, MonsterEff = {EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
-	[22411] = { MonsterSize = 1.5, MonsterEff = { EFFECT.MAGIC_CIRCLE_NOTHING } }
+	[22422] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
+	[22411] = { MonsterSize = 1.5, MonsterEff = { EFFECT.MAGIC_CIRCLE_NOTHING } },
+	[22433] = { MonsterSize = 1.3, MonsterEff = { EFFECT.EF_GUMGANG } },
+	[22439] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } }, 
+	[22440] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } }, 
+	[22441] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } }, 
+	[22442] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } }, 
+	[22438] = { MonsterSize = 1, 	MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } }, 
+	[22488] = { MonsterSize = 1.1, 	MonsterEff = { EFFECT.EF_NONE } }, 
+	[22481] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } },
+	[22487] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } },
+	[22479] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } },
+	[22483] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } },
+	[22485] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } },
+	[22477] = { MonsterSize = 1.3, 	MonsterEff = { EFFECT.EF_GUMGANG } },
+	[22489] = { MonsterSize = 1.4, 	MonsterEff = { EFFECT.EF_GUMGANG } },
+	[22495] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 } },
+	[22494] = { MonsterSize = 1, MonsterEff = { EFFECT.EF_GREEN99_3, EFFECT.EF_GREEN99_5, EFFECT.EF_GREEN99_6 }	}
 }
 
 function main()

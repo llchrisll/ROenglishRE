@@ -1931,8 +1931,8 @@ Objects can be used only near the wall.#
 %s : Level %d %s party to obtain level.#
 While boarding reins is not available for items.#
 This skill requires 1%% experience.#
-E X P : #
-Drop  : #
+Experience: #
+Drop Rates: #
 Death Penalty: #
 %d%% (Internet cafe %d%% + TPLUS %d%% + Premium %d%% + %s Server %d%%)#
 Amount of party members to cast the skill Chorus SP is low.#
@@ -2614,9 +2614,9 @@ Please claim all attachments before deleting your mail.#
 You cannot send any more zeny.#
 Fee: %s Zeny#
 The recipient's name does not exist.#
-E X P : %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
-DROP  : %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
-DEATH : %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
+Experience: %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
+Drop Rates: %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
+Death Penalty: %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
 You can accumulate points of Internet cafe Gold up to %d points maximum.#
 This function cannot be used in this server.#
 Imposible to use in server.#
@@ -2692,9 +2692,9 @@ Can't leave a Guild in this area.#
 Can't expel Guild member in this area.#
 Can't change a Guild title in this area#
 Please make sure you have space for at least 5 items in your inventory.#
-E X P : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
-DROP  : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
-DEATH : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
+Experience: %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
+Drop Rates: %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
+Death Penalty: %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
 The number of items that can be attached is exceeded.#
 Notify when item purchased#
 Unable to attach the items.#
@@ -2807,9 +2807,9 @@ Screen shake ON#
 Screen shake OFF#
 Illegal program detected.#
 Send a mail#
-E X P : %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
-DROP  : %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
-DEATH : %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
+Experience: %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
+Drop Rates: %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
+Death Penalty: %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
 Name with this tag cannot be used.#
 Style Shop#
 No Coupons. Please visit the Cash Shop to buy one.#
@@ -2890,9 +2890,9 @@ Range#
 You use the left mouse button to specify the role#
 You use the left mouse button to specify the range#
 Not a valid range, please press Enter#
-E X P : %.1f%% ( basic %.1f%% %s %.1f%%)#
-DROP  : %.1f%% ( basic %.1f%% %s %.1f%%)#
-DEATH : %.1f%% ( basic %.1f%% %s %.1f%%)#
+Experience: %.1f%% ( basic %.1f%% %s %.1f%%)#
+Drop Rates: %.1f%% ( basic %.1f%% %s %.1f%%)#
+Death Penalty: %.1f%% ( basic %.1f%% %s %.1f%%)#
 The character name will be changed: %s #
 Synthesis of the required materials#
 Insufficient synthesis materials#
@@ -2905,11 +2905,11 @@ Please enter the text on the graph#
 Please enter your 6 identification number.#
 Identification number.#
 It's not a 6 identification number. Please try again#
-The message has been deleted#
+The mail has been deleted.#
 Please select the area where the private airship will move#
-E X P : %d%% ( basic 100.0%% %s %d%%)#
-DROP  : %d%% ( basic 100.0%% %s %d%%)#
-DEATH : %d%% ( basic 100.0%% %s %d%%)#
+Experience: %d%% ( basic 100.0%% %s %d%%)#
+Drop Rates: %d%% ( basic 100.0%% %s %d%%)#
+Death Penalty: %d%% ( basic 100.0%% %s %d%%)#
 Move to the destination#
 The [%s] is not present, the default AI will be used instead.#
 %.1f%% ( Basic 100.0%% + Premium %.1f%% + %s %.1f%%)#
@@ -2973,11 +2973,11 @@ Upgrade success!#
 Upgrade failed!#
 Back#
 Success#
-Return#
+Clear#
 With Mr/Miss#
-The Homunculus's name will be changed to^0000ff^0000ff %s^000000^000000, Are you sure?#
-You can be \"called\" with various skills (Emergency Call,...). (/call)#
-You cannot be \"called\" with various skills (Emergency Call,...). (/call)#
+Are you sure you want to change your Homunculus's name to ^0000ff%s^000000?#
+You can be "called" with various skills (Emergency Call,...). (/call)#
+You cannot be "called" with various skills (Emergency Call,...). (/call)#
 Display Call messages#
 This character is currently opening a shop and can't be deleted#
 The same vend shop NPC has been set up#
@@ -3219,7 +3219,7 @@ Click on the location to share it in a chat room#
 Share mode -> use it when searching#
 %lld Base Experience obtained#
 '%lld' Base Experience#
-^b- Street vending fee description^/b: will be set according to item price, with certain percentage of fee.^b> Fee rate^/b The proportion of fee described as follows: 0 z ~ 10,000 z = Fee rate : ^1567fe0%^000000, 10,001 z ~ 100,000 z = Fee rate : ^1567fe2%^000000, 100,001 z ~ 1,000,000 z = Fee rate : ^1567fe4%^000000, 1,000,001 z ~ 10,000,000 z = Fee rate : ^1567fe6%^000000, 10,000,001 z ~ 100,000,000 z = Fee rate : ^1567fe8%^000000, more than 100,000,001 z = Fee rate : ^1567fe10%^000000#
+^b- Stall Fee Information^/b\nA certain percentage fee is charged depending on the peak price of the stall.\n^b- Stall Opening Restrictions^/b\nIf the character's Zeny and the total price of the items for sale are more than 2,147,483,647 Zeny, you cannot open a stall.\n#
 Total amount : #
 ~ When selling items, total amount of zeny received #
 ~ When buying items, total amount of zeny reduced #
@@ -3533,9 +3533,9 @@ Contains skill (%s) that can't be learned.#
 /frame#
 After Weapon Blocking is triggered, possible skills are available for use for limited duration.#
 The username or password is incorrect.#
-E X P : %.1f%% ( basic 100.0%% %s %.1f%%)#
-DROP  : %.1f%% ( basic 100.0%% %s %.1f%%)#
-DEATH : %.1f%% ( basic 100.0%% %s %.1f%%)#
+Experience: %.1f%% ( basic 100.0%% %s %.1f%%)#
+Drop Rates: %.1f%% ( basic 100.0%% %s %.1f%%)#
+Death Penalty: %.1f%% ( basic 100.0%% %s %.1f%%)#
 Available in English or Russian only.#
 you must have an AccessTicket to login#
 Loading Guild Storage.#
@@ -3586,13 +3586,13 @@ If it exceeds %d it can no longer be installed.#
 Destination#
 Please try again in a few minutes.#
 This file cannot be registered.#
-Delete Selection#
-Delete all#
+Delete#
+Delete All#
 Are you sure you want to delete all mails in the [%s] mailbox?#
-Retrieve selected#
-Retrieve all#
-Would you like to retrieve the attachment of the selected email?#
-Would you like to retrieve all attached items in the [%s] mailbox?#
+Claim#
+Claim All#
+Would you like to claim the attachment of the selected email?#
+Would you like to claim all attachments in the [%s] mailbox?#
 Hotkey Bar 2#
 Switch Hotkey Bar#
 ¢®c#
@@ -3807,9 +3807,9 @@ The rage of the wind flows into the caster's body.#
 The Calamity Gale effect has been canceled.#
 Your weakness and appearance are revealed by the wind.#
 The Wind Sign effect has been canceled.#
-E X P : %.1f%% ( basic 100.0%% %s %.1f%%)#
-DROP  : %.1f%% ( basic 100.0%% %s %.1f%%)#
-DEATH : %.1f%% ( basic 100.0%% %s %.1f%%)#
+Experience: %.1f%% ( basic 100.0%% %s %.1f%%)#
+Drop Rates: %.1f%% ( basic 100.0%% %s %.1f%%)#
+Death Penalty: %.1f%% ( basic 100.0%% %s %.1f%%)#
 S.MATK increased.#
 The Spell Enchanting effect has been canceled.#
 The From the Abyss effect has been canceled.#
@@ -3923,9 +3923,9 @@ Add to simple quest window#
 Deleted from simple quest window#
 Quest Help#
 1. Combo Box + Search Box: Quest Sorting, Search Function#
-- ALL: View all received quests#
+#
 - Quest Type: NORMAL / MAIN / EPISODE / DAILY / LOCAL / JOB / GUIDE / EVENT are sorted by quest.#
-- Search can adjusted in the quest list sorted by Combo Box.#
+#
 2. Navigation UI#
 - Open Navigation UI:#
 Menu Icon > Navigation Icon (Shortcut Key: N)#

@@ -2,12 +2,13 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240817
+-- Last updated: 20250416
 
 Runesystemtbl_tag = {
 	[RUNETAGIDTBL.EPISODE17] = "EP17",
 	[RUNETAGIDTBL.EPISODE18] = "EP18",
 	[RUNETAGIDTBL.EPISODE19] = "EP19",
+	[RUNETAGIDTBL.EPISODE20] = "EP20",
 	[RUNETAGIDTBL.EVT] = "EVT"
 }
 RuneSettbl_desc = {
@@ -247,6 +248,64 @@ RuneSettbl_desc = {
 			}
 		}
 	},
+	[RUNETAGIDTBL.EPISODE20] = {
+		[RUNESETIDTBL.Rt_Ep20_Glacier] = {
+			RuneSetDisplayName = "Glacier",
+			RuneSetDescription = {
+				[2] = {"For each 3 Refine Levels:", "Increases Damage against monsters", "from Episode 20 by 1%."},
+				[3] = {"Increases Damage against monsters", "from Episode 20 by 7%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep20_Sanctuary] = {
+			RuneSetDisplayName = "Holy Land Cleaning",
+			RuneSetDescription = {
+				[2] = {"MaxHP +2%, POW, CON +3.", "For each 5 Refine Levels:", "MaxHP +1%, MaxSP +1%."},
+				[3] = {"MaxHP +5%, POW, CON +5.", "For each 3 Refine Levels:", "MaxHP + 1%, POW, CON +1."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep20_Predator] = {
+			RuneSetDisplayName = "Predator",
+			RuneSetDescription = {
+				[2] = {"P.ATK +20,", "Decreases resistance against attacks of every element by 15%.", "For each 3 Refine Levels:", "Increases resistance against attacks of every element by 2%.", "Increases Physical Damage by 4%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep20_Guardian] = {
+			RuneSetDisplayName = "Guardian",
+			RuneSetDescription = {
+				[2] = {"Decreases Variable Casting Time by 7%., P.ATK +2.", "For each 5 Refine Levels:", "Decreases Variable Casting Time by additional 1%."},
+				[3] = {"Increases Physical Damage by 4%.", "Decreases SP Consumption by 4%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep20_Sangel] = {
+			RuneSetDisplayName = "Angel Snail",
+			RuneSetDescription = {
+				[2] = {"MaxHP + 2%, SPL, CON +3.", "For each 5 Refine Levels:", "MaxHP + 1%, MaxSP + 1%."},
+				[3] = {"MaxHP + 5%, SPL, CON +5.", "For each 3 Refine Levels:", "MaxHP + 1%, SPL, CON +1."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep20_Day] = {
+			RuneSetDisplayName = "Glacier's Daily Life",
+			RuneSetDescription = {
+				[2] = {"Decreases Variable Casting Time by 7%. S.MATK + 2.", "For each 5 Refine Levels:", "Decreases Variable Casting Time by additional 1%."},
+				[3] = {"Increases Magical Damage with Fire, Wind, Holy and Neutral element by 5%.", "Decreases SP Consumption by 4%."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep20_Retire] = {
+			RuneSetDisplayName = "Global",
+			RuneSetDescription = {
+				[2] = {"Critical +3, Increases Critical Damage by 3%."},
+				[4] = {"Critical +5, Increases Critical Damage by additional 10%.", "C.RATE +3."}
+			}
+		},
+		[RUNESETIDTBL.Rt_Ep20_Roots] = {
+			RuneSetDisplayName = "Root",
+			RuneSetDescription = {
+				[2] = {"Increases Physical Damage by 4%.", "Increases Magical Damage with every element by 3%.},
+				[4] = {"RES +15, MRES +15.", "For each 3 Refine Levels:", "RES +3, MRES +3."},
+				[5] = {"Decreases After Skill Delay by 5%.", "For each 3 Refine Levels:", "Decreases After Skill Delay by additional 1%."}
+			}
+		}
+	},
 	[RUNETAGIDTBL.EVT] = {
 		[RUNESETIDTBL.Rt_21th_Event] = {
 			RuneSetDisplayName = "21st Anniversary Celebration", 
@@ -262,6 +321,24 @@ RuneSettbl_desc = {
 				[4] = {"ATK +10, MATK +10."},
 				[5] = {"For each 5 Refine Levels:", "Increases Attack Speed (decreases After Attack Delay by 1%).", "Decreases Variable Casting Time by 1%."},
 				[6] = {"MaxHP +1000, MaxSP +500.", "For each 5 Refine Levels:", "MaxHP +100, MaxSP +10."}
+			}
+		},
+		[RUNESETIDTBL.Rt_IfritA_Event] = {
+			RuneSetDisplayName = "Hot Passion", 
+			RuneSetDescription = {
+				[2] = {"ATK +10.", "For each 3 Refine Levels:", "ATK +1."},
+				[3] = {"Increases experience gained from defeating monsters by 3%."},
+				[4] = {"Decreases SP Consumption by 2%."},
+				[6] = {"All Stats +2.", "For each 5 Refine Levels:", "All Stats +1."}
+			}
+		}, 
+		[RUNESETIDTBL.Rt_IfritB_Event] = {
+			RuneSetDisplayName = "Hot Momentum", 
+			RuneSetDescription = {
+				[2] = {"MATK +10.", "For each 3 Refine Levels:", "MATK +1."}, 
+				[3] = {"Increases experience gained from defeating monsters by 3%."}, 
+				[4] = {"Decreases SP Consumption by 2%."}, 
+				[6] = {"All Stats +2.", "For each 5 Refine Levels:", "All Stats +1."}
 			}
 		}
 	}

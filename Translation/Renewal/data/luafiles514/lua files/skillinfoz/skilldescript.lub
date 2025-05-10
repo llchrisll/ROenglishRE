@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250125
+-- Last updated: 20250324
 
 SKILL_DESCRIPT = {
 	[SKID.NV_BASIC] = {
@@ -16292,7 +16292,7 @@ SKILL_DESCRIPT = {
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Gains ability to control",
 		"spirits.",
-		"MaxHP +1000, MaxSP +100.^000000",
+		"MaxHP +1000, MaxSP +100.",
 		"This skill allows caster to control the",
 		"Spirit of Sea, the Spirit of Earth and",
 		"the Spirit of life.^000000"
@@ -23933,6 +23933,59 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Empowers the skills that",
 		"borrow the power from ^990099Kisul^777777 through perfect",
 		"communion with the ^990099Mystical Creature Kisul^777777.^000000"
+	},
+	[SKID.SH_KI_SUL_WATER_SPRAYING] = {
+		"Kisul Water Spraying",
+		"Max Level: 7",
+		"^CC3399Requirement: Mystical Creature Mastery 1^000000",
+		"Skill Form: ^3F0099Active^000000",
+		"Type: ^339900Recovery^000000",
+		"Target: ^6666CCCaster and Party Members^000000",
+		"AP Recovery: ^0054FF1^000000",
+		"Description: ^777777Sprays a water cannon",
+		"containing the healing power of Kisul",
+		"to recover HP of yourself and",
+		"surrounding party members.",
+		"The amount recovered additionally increases",
+		"according to the ^0000FFMystical Creature Mastery^777777 skill",
+		"level, the caster's ^CC6600Base Level^777777 and ^CC6600CRT^777777.",
+		"If ^0000FFCommune With Kisul^777777 has been learned,",
+		"it increases AoE and the healing amount.^000000",
+		"[Lv 1] : ^777777Recovers 500+(^0000FFMastery^777777 Lv x100) HP",
+		"AoE: 7x7 cells",
+		"^0000FFCommune With Chulho^777777:",
+		"Recovers 750+(^0000FFMastery^777777 Lv x150) HP,",
+		"AoE: 11x11 cells^000000",
+		"[Lv 2] : ^777777Recovers 1000+(^0000FFMastery^777777 Lv x100) HP,",
+		"AoE: 7x7 cells",
+		"^0000FFCommune With Chulho^777777:",
+		"Recovers 1500+(^0000FFMastery^777777 Lv x150) HP,",
+		"AoE: 11x11 cells^000000",
+		"[Lv 3] : ^777777Recovers 1500+(^0000FFMastery^777777 Lv x100) HP,",
+		"AoE: 9x9 cells",
+		"^0000FFCommune With Chulho^777777:",
+		"Recovers 2250+(^0000FFMastery^777777 Lv x150) HP,",
+		"AoE: 13x13 cells^000000",
+		"[Lv 4] : ^777777Recovers 2000+(^0000FFMastery^777777 Lv x100) HP,",
+		"AoE: 9x9 cells",
+		"^0000FFCommune With Chulho^777777:",
+		"Recovers 3000+(^0000FFMastery^777777 Lv x150) HP,",
+		"AoE: 13x13 cells^000000",
+		"[Lv 5] : ^777777Recovers 2500+(^0000FFMastery^777777 Lv x100) HP,",
+		"AoE: 11x11 cells",
+		"^0000FFCommune With Chulho^777777:",
+		"Recovers 3750+(^0000FFMastery^777777 Lv x150) HP,",
+		"AoE: 15x15 cells^000000",
+		"[Lv 6] : ^777777Recovers 3000+(^0000FFMastery^777777 Lv x100) HP,",
+		"AoE: 11x11 cells",
+		"^0000FFCommune With Chulho^777777:",
+		"Recovers 4500+(^0000FFMastery^777777 Lv x150) HP,",
+		"AoE: 15x15 cells^000000",
+		"[Lv 7] : ^777777Recovers 3500+(^0000FFMastery^777777 Lv x100) HP,",
+		"AoE: 13x13 cells",
+		"^0000FFCommune With Chulho^777777:",
+		"Recovers 5250+(^0000FFMastery^777777 Lv x150) HP,",
+		"AoE: 17x17 cells^000000"
 	},
 	[SKID.SH_MARINE_FESTIVAL_OF_KI_SUL] = {
 		"Marine Festival of Kisul",
