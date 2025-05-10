@@ -62,8 +62,7 @@ CLSMenu() {
                 item_failed=false
                 copy_file "$sourceDataPath/cls/accessoryid.lub" "$destinationDataPath/cls/accessoryid.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/accname.lub" "$destinationDataPath/cls/accname.lub" || item_failed=true
-                copy_file "$sourceDataPath/cls/accname_f.lub" "$destinationDataPath/cls/accname_f.lub" || item_failed=true
-                copy_file "$sourceDataPath/datainfo/TB_Layer_Priority.lub" "$destinationDataPath/datainfo/TB_Layer_Priority.lub" || item_failed=true
+                copy_file "$sourceDataPath/cls/tb_layer_priority.lub" "$destinationDataPath/cls/tb_layer_priority.lub" || item_failed=true
                 copy_status=$([[ "$item_failed" = true ]] && echo 1 || echo 0)
                 choice_successful=true
                 ;;
@@ -77,7 +76,6 @@ CLSMenu() {
                 ;;
             4) # HatEffects
                 item_failed=false
-                copy_file "$sourceDataPath/hateffectinfo/hateffectinfo.lub" "$destinationDataPath/hateffectinfo/hateffectinfo.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/hateffectinfo.lub" "$destinationDataPath/cls/hateffectinfo.lub" || item_failed=true
                 copy_status=$([[ "$item_failed" = true ]] && echo 1 || echo 0)
                 choice_successful=true
@@ -85,7 +83,6 @@ CLSMenu() {
             5) # NPC/Mob and Pets
                 item_failed=false
                 copy_file "$sourceDataPath/cls/jobname.lub" "$destinationDataPath/cls/jobname.lub" || item_failed=true
-                copy_file "$sourceDataPath/cls/jobname_f.lub" "$destinationDataPath/cls/jobname_f.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/npcidentity.lub" "$destinationDataPath/cls/npcidentity.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/petinfo.lub" "$destinationDataPath/cls/petinfo.lub" || item_failed=true
                 copy_status=$([[ "$item_failed" = true ]] && echo 1 || echo 0)
@@ -93,8 +90,6 @@ CLSMenu() {
                 ;;
             6) # Lapine Boxes
                 item_failed=false
-                copy_file "$sourceDataPath/datainfo/lapineddukddakbox.lub" "$destinationDataPath/datainfo/lapineddukddakbox.lub" || item_failed=true
-                copy_file "$sourceDataPath/datainfo/LapineUpgradeBox.lub" "$destinationDataPath/datainfo/LapineUpgradeBox.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/lapineddukddakbox.lub" "$destinationDataPath/cls/lapineddukddakbox.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/lapineupgradebox.lub" "$destinationDataPath/cls/lapineupgradebox.lub" || item_failed=true
                 copy_status=$([[ "$item_failed" = true ]] && echo 1 || echo 0)
@@ -103,7 +98,6 @@ CLSMenu() {
             7) # Signboards
                 item_failed=false
                 copy_file "$sourceDataPath/cls/signboardlist.lub" "$destinationDataPath/cls/signboardlist.lub" || item_failed=true
-                copy_file "$sourceDataPath/cls/signboardlist_f.lub" "$destinationDataPath/cls/signboardlist_f.lub" || item_failed=true
                 copy_status=$([[ "$item_failed" = true ]] && echo 1 || echo 0)
                 choice_successful=true
                 ;;
@@ -111,22 +105,18 @@ CLSMenu() {
                 item_failed=false
                 copy_file "$sourceDataPath/cls/spriterobeid.lub" "$destinationDataPath/cls/spriterobeid.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/spriterobename.lub" "$destinationDataPath/cls/spriterobename.lub" || item_failed=true
-                copy_file "$sourceDataPath/cls/spriterobename_f.lub" "$destinationDataPath/cls/spriterobename_f.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/transparentitem.lub" "$destinationDataPath/cls/transparentitem.lub" || item_failed=true
-                copy_file "$sourceDataPath/cls/transparentitem_f.lub" "$destinationDataPath/cls/transparentitem_f.lub" || item_failed=true
                 copy_status=$([[ "$item_failed" = true ]] && echo 1 || echo 0)
                 choice_successful=true
                 ;;
             9) # Weapons
                 item_failed=false
                 copy_file "$sourceDataPath/cls/weapontable.lub" "$destinationDataPath/cls/weapontable.lub" || item_failed=true
-                copy_file "$sourceDataPath/cls/weapontable_f.lub" "$destinationDataPath/cls/weapontable_f.lub" || item_failed=true
                 copy_status=$([[ "$item_failed" = true ]] && echo 1 || echo 0)
                 choice_successful=true
                 ;;
             10) # World Map
                 item_failed=false
-                copy_file "$sourceDataPath/cls/worldviewdata_f.lub" "$destinationDataPath/cls/worldviewdata_f.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/worldviewdata_language.lub" "$destinationDataPath/cls/worldviewdata_language.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/worldviewdata_list.lub" "$destinationDataPath/cls/worldviewdata_list.lub" || item_failed=true
                 copy_file "$sourceDataPath/cls/worldviewdata_table.lub" "$destinationDataPath/cls/worldviewdata_table.lub" || item_failed=true
