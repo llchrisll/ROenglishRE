@@ -1,0 +1,61 @@
+function _get_dresslist(sex, job, index)
+	if 0 == sex then
+		if nil == _DressList_f[job] then
+			return nil, nil
+		end
+		if nil == _DressList_f[job][index] then
+			return nil, nil
+		end
+		return _DressList_f[job][index][1], _DressList_f[job][index][2]
+	else
+		if nil == _DressList_m[job] then
+			return nil, nil
+		end
+		if nil == _DressList_m[job][index] then
+			return nil, nil
+		end
+		return _DressList_m[job][index][1], _DressList_m[job][index][2]
+	end
+end
+
+function _get_Headstylelist(sex, index)
+	if 0 == sex then
+		if nil == _DressHeadstyleList_f[index] then
+			return nil, nil
+		end
+		return _DressHeadstyleList_f[index][1], _DressHeadstyleList_f[index][2]
+	else
+		if nil == _DressHeadstyleList_m[index] then
+			return nil, nil
+		end
+		return _DressHeadstyleList_m[index][1], _DressHeadstyleList_m[index][2]
+	end
+end
+
+function _get_DressHeadPaletteList(sex, index)
+	if 0 == sex then
+		if nil == _DressHeadPaletteList_f[index] then
+			return nil, nil
+		end
+		return _DressHeadPaletteList_f[index][1], _DressHeadPaletteList_f[index][2]
+	else
+		if nil == _DressHeadPaletteList_m[index] then
+			return nil, nil
+		end
+		return _DressHeadPaletteList_m[index][1], _DressHeadPaletteList_m[index][2]
+	end
+end
+
+function _get_DressBodyPaletteList(sex, index)
+	if 0 == sex then
+		if nil == _DressBodyPaletteList_f[index] then
+			return nil, nil
+		end
+		return _DressBodyPaletteList_f[index][1], _DressBodyPaletteList_f[index][2]
+	else
+		if nil == _DressBodyPaletteList_m[index] then
+			return nil, nil
+		end
+		return _DressBodyPaletteList_m[index][1], _DressBodyPaletteList_m[index][2]
+	end
+end
