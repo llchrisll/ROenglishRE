@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20241005
+-- Last updated: 20250515
 
 function main()
 	for ItemID, DESC in pairs(tbl) do
@@ -16,10 +16,22 @@ function main()
 		if not result == true then
 			return false, msg
 		end
-		for k, v in pairs(DESC.unidentifiedDescriptionName) do
-			result, msg = AddItemUnidentifiedDesc(ItemID, v)
-			if not result == true then
-				return false, msg
+		-- This exists only for ChangeMaterial.lub file, since Gravity decided to use the unidentifiedDescriptionName
+		-- for items, where the player does not have the required amount or none at all.
+		-- Thanks to Optimus for the report ;)
+		if DESC.unidentifiedDescriptionName[1] == "" then
+			for k, v in pairs(DESC.identifiedDescriptionName) do
+				result, msg = AddItemUnidentifiedDesc(ItemID, v)
+				if not result == true then
+					return false, msg
+				end
+			end
+		else 
+			for k, v in pairs(DESC.unidentifiedDescriptionName) do
+				result, msg = AddItemUnidentifiedDesc(ItemID, v)
+				if not result == true then
+					return false, msg
+				end
 			end
 		end
 		if (DisplayServer == 2 and DESC.Server ~= nil) or (DisplayCustomServer == 2 and DESC.Custom == true) or DisplayItemID == 1 then

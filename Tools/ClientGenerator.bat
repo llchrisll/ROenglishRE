@@ -38,15 +38,16 @@ echo [11] 2022-04-06
 echo [12] 2022-06-02
 echo [13] 2022-08-31
 echo [14] 2022-09-28
-echo [15] 2023-01-18
-echo [16] 2023-08-02
-echo [17] 2023-09-20
-echo [18] 2024-03-11
-echo [19] 2024-04-03
-echo [20] 2024-05-02
-echo [21] 2024-08-07
-echo [22] 2024-10-16
-echo [23] 2025-01-22
+echo [15] 2022-12-07
+echo [16] 2023-01-18
+echo [17] 2023-08-02
+echo [18] 2023-09-20
+echo [19] 2024-03-11
+echo [20] 2024-04-03
+echo [21] 2024-05-02
+echo [22] 2024-08-07
+echo [23] 2024-10-16
+echo [24] 2025-01-22
 echo =================================================================
 set /p date="Please select the Client Date: "
 if %date%==1 if %mode%==2 ( set client=2012-04-10 ) else ( goto DateMenu )
@@ -63,15 +64,16 @@ if %date%==11 set client=2022-04-06
 if %date%==12 set client=2022-06-02
 if %date%==13 set client=2022-08-31
 if %date%==14 set client=2022-09-28
-if %date%==15 set client=2023-01-18
-if %date%==16 set client=2023-08-02
-if %date%==17 set client=2023-09-20
-if %date%==18 set client=2024-03-11
-if %date%==19 set client=2024-04-03
-if %date%==20 set client=2024-05-02
-if %date%==21 set client=2024-08-07
-if %date%==22 set client=2024-10-16
-if %date%==23 set client=2025-01-22
+if %date%==15 set client=2022-12-07
+if %date%==16 set client=2023-01-18
+if %date%==17 set client=2023-08-02
+if %date%==18 set client=2023-09-20
+if %date%==19 set client=2024-03-11
+if %date%==20 set client=2024-04-03
+if %date%==21 set client=2024-05-02
+if %date%==22 set client=2024-08-07
+if %date%==23 set client=2024-10-16
+if %date%==24 set client=2025-01-22
 if "%client%"=="" exit
 cls
 echo =================================================================
@@ -106,14 +108,15 @@ if %x% LEQ %date% (
 	if %x% EQU 13 call :CopyFD 2022-06-02 %type%
 	if %x% EQU 14 call :CopyFD 2022-08-31 %type%
 	if %x% EQU 15 call :CopyFD 2022-09-28 %type%
-	if %x% EQU 16 call :CopyFD 2023-01-18 %type%
-	if %x% EQU 17 call :CopyFD 2023-08-02 %type%
-	if %x% EQU 18 call :CopyFD 2023-09-20 %type%
-	if %x% EQU 19 call :CopyFD 2024-03-11 %type%
-	if %x% EQU 20 call :CopyFD 2024-04-03 %type%
-	if %x% EQU 21 call :CopyFD 2024-05-02 %type%
-	if %x% EQU 22 call :CopyFD 2024-08-07 %type%
-	if %x% EQU 23 call :CopyFD 2024-10-16 %type%
+	if %x% EQU 16 call :CopyFD 2022-12-07 %type%
+	if %x% EQU 17 call :CopyFD 2023-01-18 %type%
+	if %x% EQU 18 call :CopyFD 2023-08-02 %type%
+	if %x% EQU 19 call :CopyFD 2023-09-20 %type%
+	if %x% EQU 20 call :CopyFD 2024-03-11 %type%
+	if %x% EQU 21 call :CopyFD 2024-04-03 %type%
+	if %x% EQU 22 call :CopyFD 2024-05-02 %type%
+	if %x% EQU 23 call :CopyFD 2024-08-07 %type%
+	if %x% EQU 24 call :CopyFD 2024-10-16 %type%
 	set /a "x+=1"
 	goto DateLoop
 )
