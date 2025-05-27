@@ -830,7 +830,7 @@ echo "Welcome to the Additions Generator!"
 echo "This will help you to copy over the files you want and need based on the choice you make."
 echo "It will loop itself until you close the program or choose Exit."
 echo "================================================================="
-echo "Note: This should only be used after you run the ClientGenerator.bat!"
+echo "Note: This should only be used after you run the ClientGenerator.sh!"
 echo "================================================================="
 pause_script
 
