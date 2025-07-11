@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250125
+-- Last updated: 20250711
 
 SKILL_INFO_LIST = {
 	[SKID.NPC_TARGET_MARKER] = {
@@ -7633,8 +7633,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1 }
 	},
-	[SKID.MH_SONIC_CRAW] = {
-		"MH_SONIC_CRAW",
+	[SKID.MH_SONIC_CLAW] = {
+		"MH_SONIC_CLAW",
 		SkillName = "Sonic Claw",
 		MaxLv = 5,
 		SpAmount = { 20, 25, 30, 35, 40 },
@@ -9579,8 +9579,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9 }
 	},
-	[SKID.BA_FROSTJOKE] = {
-		"BA_FROSTJOKE",
+	[SKID.BA_FROSTJOKER] = {
+		"BA_FROSTJOKER",
 		SkillName = "Frost Joke",
 		MaxLv = 5,
 		SpAmount = { 12, 14, 16, 18, 20 },
@@ -13250,7 +13250,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_TWOHANDDEF] = {
 		"DK_TWOHANDDEF",
-		SkillName = "Two Hand Defender",
+		SkillName = "Two Handed Defense",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -16808,8 +16808,7 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1}
-	}
-	, 
+	},
 	[SKID.AG_ENERGY_CONVERSION] = {
 		"AG_ENERGY_CONVERSION",
 		SkillName = "Energy Conversion",
