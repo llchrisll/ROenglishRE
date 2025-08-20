@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Credits to Neo-Mind for original code.
+-- Credits to Neo-Mind for the code it was originally based on.
 -- For further information, please visit https://llchrisll.github.io/ROTPDocs/guides/customs/#multi-iteminfo-support.
 
 -- Load the splited function file
@@ -11,9 +11,8 @@ require("SystemEN/LuaFiles514/itemInfo_f")
 -- Load the translation file
 dofile("SystemEN/LuaFiles514/itemInfo.lua")
 
--- Load additional files, like custom items, overrides and others
--- New tables needs unique names, to import them you need to copy a "itemInfoMerge"
--- line at the end and adjust it accordingly.
+------------------------------- Load additional files -------------------------------
+----------------------- like custom items, overrides and others ---------------------
 
 -- Place all files in the "SystemEN" folder, the rest will be automatically added.
 ImportFiles = {
@@ -46,6 +45,9 @@ DisplayItemID = 2
 
 -- Display a database link at bottom of description (true/false)
 DisplayDatabase = true
+
+-- Remove the Weight lines for all items (true/false)
+RemoveWeight = false
 
 ---------------- Additional Configs for custom items ----------------
 -- Display server name

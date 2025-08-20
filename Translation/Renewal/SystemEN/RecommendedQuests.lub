@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230321
+-- Last updated: 20250813
 
 RecommendedQuestInfoList = {}
 RecommendedQuestInfoList = {
@@ -23,6 +23,256 @@ RecommendedQuestInfoList = {
 			"$$Novice$$ welcome!!",
 			"Beginner%%Support%%Bread!!Bread!!",
 			"&*Free*& consult OK!!"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[69] = {
+		Title = "Chapter 1: Song of the World Tree",
+		IconName = "ico_ep.bmp",
+		Summary = "~ Prelude ~",
+		BgName = "reco_69.bmp",
+		QuestInfo1 = {
+			"Hello? How are you? You look so healthy.",
+			"If you see me, you are the chosen adventurer!",
+			"Are you interested in the end of the world?"
+		},
+		QuestInfo2 = {
+			"Requirements",
+			"^3275f0Base Level 200 or higher^000000"
+		},
+		QuestInfo3 = {
+			"Start Point",
+			"<NAVI>[Prontera Field]<INFO>prt_fild05,353,252,0,101,0</INFO></NAVI>",
+			"<NAVI>[Payon Fild]<INFO>pay_fild01,308,341,0,101,0</INFO></NAVI>"
+		}
+	},
+	[70] = {
+		Title = "Episode 21: The Age of Heroes",
+		IconName = "ico_ep.bmp",
+		Summary = "Remember...",
+		BgName = "reco_70.bmp",
+		QuestInfo1 = {
+			"A small scale island near Issgard,",
+			"where a small crack appears, transports the adventurers back in time.",
+			"<NAVI>[Join]<INFO>jor_tail,233,41,0,101,0</INFO></NAVI> Nyar as he journeys to the past, a time of turbulent times, where heroes fought for a crucial mission to defeat Lasgand!"
+		},
+		QuestInfo2 = {
+			"Requirements",
+			"^3275f0Episode 20^000000 completed",
+			"^3275f0Base Level 230 or higher^000000"
+		},
+		QuestInfo3 = {
+			"",
+			"                  casting",
+			"               casting",
+			"                casting"
+		}
+	},
+	[71] = {
+		Title = "Garden of Time",
+		IconName = "ico_sc.bmp",
+		Summary = "The new owner of the forgotten space",
+		BgName = "reco_71.bmp",
+		QuestInfo1 = {
+			"Oscar!",
+			"I can't just get rid of this <NAVI>[Portal]<INFO>xmas_fild01,155,245,0,101,0</INFO></NAVI>!",
+			"I can't even fathom how many years Oscar has lived here, can I?",
+			"But I still can't stand the sight of him snoozing on the cold ground.",
+			"Let's take this abandoned garden for ourselves!",
+			"Do you see the pictures of the mansion I sent you?",
+			"They're a little dark, but I like them!",
+			"Please respond quickly!",
+			"",
+			"   - Leticia"
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^3275f0Base Level 250 or higher^000000"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[72] = {
+		Title = "A new discovery! Rune Tablets!",
+		IconName = "ico_sc.bmp",
+		Summary = "Varmundt's new technology?!",
+		BgName = "reco_72.bmp",
+		QuestInfo1 = {
+			"The cards piled up in the warehouse have been transformed!",
+			"Bring new life to Varmundt's new technology-intensive Rune Tablet...!",
+			"Find <NAVI>[Rune Stone]<INFO>prontera,161,192,0,101,0</INFO></NAVI> and check it out right now!"
+		},
+		QuestInfo2 = {
+			"Rune Tablets,",
+			"they're really good..."
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[73] = {
+		Title = "Episode 20: The Immortal",
+		IconName = "ico_ep.bmp",
+		Summary = "Let's go to the Ancient Ice Canyon!",
+		BgName = "reco_73.bmp",
+		QuestInfo1 = {
+			"Key figures of the Jormungand Cult have abandoned the Serpent's Nest and retreated deeper into the depths.",
+			"To find Bagot and Lasgand and thwart their sinister ambitions,",
+			"the group of adventurers journey to a new region they've never explored before, encountering unfamiliar creatures.",
+			"Meow"
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^3275f0Episode 19^000000 completed",
+			"^3275f0Base Level 215 or higher^000000"
+		},
+		QuestInfo3 = {
+			"^ee1073Meow^000000",
+			"^ee1073Meow^000000",
+			"^ee1073Meow^000000"
+		}
+	},
+	[74] = {
+		Title = "Fantasy Series",
+		IconName = "ico_vr.bmp",
+		Summary = "Meet me at the library east of Prontera.",
+		BgName = "reco_74.bmp",
+		QuestInfo1 = {
+			"A new concept in storybooks, where you can interact with characters in a virtual space and progress through the story!",
+			"Just in time, ^3169ceProntera East Library is undergoing a major expansion!^000000",
+			"Visit <NAVI>[Prontera East Library]<INFO>prt_elib,18,46,0,101,0</INFO></NAVI> right now!"
+		},
+		QuestInfo2 = {
+			"Shocking!",
+			"And a",
+			"^3275f0huge twist!!!!^000000"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[75] = {
+		Title = "Episode 19: Land of Snow Flowers",
+		IconName = "ico_ep.bmp",
+		Summary = "The frozen land beyond the northern sea.",
+		BgName = "reco_75.bmp",
+		QuestInfo1 = {
+			"The land beyond the northern sea where the legend of ^3169ceJormungand^000000 is told.",
+			"Will the ambitions of­ ^3169ceBagot^000000, who ran away with the piece of Ymir's heart, be stopped? What secrets is the ^3169ceJormungand Cult^000000 hiding?",
+			"The airship, filled with anxiety, is now departing for ^3169ceIssgard^000000."
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^3275f0Episode 18^000000 completed",
+			"^3275f0Base Level 200 or higher^000000"
+		},
+		QuestInfo3 = {
+			"^ee1073Bagot^000000",
+			"Right. Right. Right.",
+			"   I'm going to meet you."
+		}
+	},
+	[76] = {
+		Title = "You can do it too! Change your job right now!!",
+		IconName = "ico_jq.bmp",
+		Summary = "You can also do extended jobs!",
+		BgName = "reco_76.bmp",
+		QuestInfo1 = {
+			"<NAVI>[Rebellion to Nightwatch]<INFO>einbroch,313,324,0,101,0</INFO></NAVI>",
+			"<NAVI>[Star Emperor to Sky Emperor]<INFO>payon,213,202,0,101,0</INFO></NAVI>",
+			"<NAVI>[Soul Reaper to Soul Ascetic]<INFO>payon,197,119,0,101,0</INFO></NAVI>",
+			"<NAVI>[Kagerou, Oboro to Shinkiro, Shiranui]<INFO>amatsu,82,118,0,101,0</INFO></NAVI>",
+			"<NAVI>[Summoner to Spirit Handler]<INFO>payon,165,116,0,101,0</INFO></NAVI>",
+			"<NAVI>[Super Novice to Hyper Novice]<INFO>aldebaran,110,70,0,101,0</INFO></NAVI>"
+		},
+		QuestInfo2 = {
+			"Base Level 200",
+			"Job Level 70",
+			"(Summoner Job Level 60)"
+		},
+		QuestInfo3 = {
+			"^ff0000¤ For more detailed information, please check with the NPC for each job.^000000"
+		}
+	},
+	[77] = {
+		Title = "Varmundt's Biosphere",
+		IconName = "ico_sc.bmp",
+		Summary = "I would like to ask for your assistance.",
+		BgName = "reco_77.bmp",
+		NpcSpr = "4_EP17_BASIC_B",
+		QuestInfo1 = {
+			"Aren't you curious about the artificial habitat that Master Varmundt created within­ the <NAVI>[mansion]<INFO>ba_in01,252,353,0,101,0</INFO></NAVI>?",
+			"We desperately need your help to defeat the monsters that have grown strangely strong after being isolated from the outside world for so long."
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"Base Level 240 or higher"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[78] = {
+		Title = "Sunken Tower",
+		IconName = "ico_sc.bmp",
+		Summary = "Uninvited guests in erosion zones",
+		BgName = "reco_78.bmp",
+		NpcSpr = "4_4JOB_LETICIA",
+		NpcNavi = "alberta",
+		NpcPosX = "213",
+		NpcPosY = "71",
+		QuestInfo1 = {
+			"^003355Someone has to do it^000000",
+			"°Unwelcome beings are emerging from beneath the eroded ruins of the sunken Endless Tower!",
+			"You may not gain much wealth, but it will be a good experience... no, it could be a good experience. You, who seem to be putting in some effort, are no exception, right?"
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^990000Base Level 40 or higher^000000"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[79] = {
+		Title = "Illusion of Twins",
+		IconName = "ico_sc.bmp",
+		Summary = "Four adventurers with identical appearances. Is this an illusion created by someone?",
+		BgName = "reco_79.bmp",
+		QuestInfo1 = {
+			"Somewhere in the Ant Hell Dungeon, someone said they saw an adventurer who looked just like them...",
+			"I wonder what happened, no one else has ever seen it.",
+			"Go to <NAVI>[Ant Hell]<INFO>anthell02,177,190,0,101,0</INFO></NAVI> and find out what's going on!"
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^990000Base Level 160 or higher^000000"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[80] = {
+		Title = "Episode 18: Direction of Prayer",
+		IconName = "ico_ep.bmp",
+		Summary = "What's going on in Rachel?",
+		BgName = "reco_80.bmp",
+		NpcSpr = "4_EP17_TABLET",
+		NpcNavi = "ba_in01",
+		NpcPosX = "26",
+		NpcPosY = "266",
+		QuestInfo1 = {
+			"The signal analysis of the unfair situation that had been going on for a while is finally over!",
+			"It seems that the remnants of Illusion are up to something in Rachel, the capital of the religious nation of Arunafeltz.",
+			"Ellie decides to go to Rachel herself with the adventurers."
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^990000Episode 17.2^000000 completed",
+			"^990000Base Level 170 or higher^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
@@ -139,8 +389,8 @@ RecommendedQuestInfoList = {
 		NpcPosY = 285,
 		BgName = "reco_86.bmp", 
 		QuestInfo1 = {
-			"One side of Kor in the special border area. The sewer pipe, supposedly the only passage, was finally opened.",
-			"Rebelion's crew decided to enter the sewer line to track Ilulion."
+			"One side of Cor in the special border area. The sewer pipe, supposedly the only passage, was finally opened.",
+			"Rebelion's crew decided to enter the sewer line to track Illusion."
 		},
 		QuestInfo2 = {
 			"Requirements",
@@ -326,3 +576,6 @@ RecommendedQuestInfoList = {
 		}
 	}
 }
+
+-- Custom Recommended Quests
+dofile('SystemEN/RecommendedQuests_C.lub')
