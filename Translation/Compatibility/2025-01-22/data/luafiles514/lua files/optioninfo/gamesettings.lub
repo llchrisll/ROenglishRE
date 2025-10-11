@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250122
+-- Last updated: 20251008
 
 OptionTbl = {
 	[1] = {
@@ -605,5 +605,15 @@ OptionTbl = {
 		Type = EXE,
 		Title = "/taekwon",
 		TipBoxID = 193,
-		Description = "Shows the top 10 Taekwons in the server." }
+		Description = "Shows the top 10 Taekwons in the server."
+	},
+	[63] = {
+		ID = TT_PETINFO_ALERT_ONOFF,
+		Tab = CONTROL,
+		Type = ONOFF,
+		Title = "Pet Information Window",
+		Default = true,
+		TipBoxID = 50,
+		Description = "When the intimacy is low, the pet information window will automatically open."
+	}
 }

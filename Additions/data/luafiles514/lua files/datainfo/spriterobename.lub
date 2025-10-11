@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20251008
 
 RobeNameTable = {
 	[SPRITE_ROBE_IDs.ROBE_WINGS] = "천사날개",
@@ -269,10 +269,24 @@ RobeNameTable = {
 	[SPRITE_ROBE_IDs.ROBE_C_Resurrection_Bow] = "C_Resurrection_Bow",
 	[SPRITE_ROBE_IDs.ROBE_C_CLB_HM_Noni] = "C_CLB_HM_Noni",
 	[SPRITE_ROBE_IDs.ROBE_C_I_Samurai_Sword] = "C_I_Samurai_Sword",
-	[SPRITE_ROBE_IDs.ROBE_C_3color_dumplings_P] = "C_3color_dumplings_P"
+	[SPRITE_ROBE_IDs.ROBE_C_3color_dumplings_P] = "C_3color_dumplings_P",
+	[SPRITE_ROBE_IDs.ROBE_Glutton_Cerberus] = "Glutton_Cerberus",
+	[SPRITE_ROBE_IDs.ROBE_C_CLB_DT_TS_Wing] = "C_CLB_DT_TS_Wing",
+	[SPRITE_ROBE_IDs.ROBE_Giant_Mad_Bunny_TW_LT] = "Giant_Mad_Bunny_TW_LT",
+	[SPRITE_ROBE_IDs.ROBE_C_Starrysky_Fountainpen] = "C_Starrysky_Fountainpen",
+	[SPRITE_ROBE_IDs.ROBE_C_S_Beelzebub_Wing] = "C_S_Beelzebub_Wing",
+	[SPRITE_ROBE_IDs.ROBE_C_Pitaya_V_Bag] = "C_Pitaya_V_Bag",
+	[SPRITE_ROBE_IDs.ROBE_C_Dimensional_Sword] = "C_Dimensional_Sword",
+	[SPRITE_ROBE_IDs.ROBE_C_Immortal_H_Spear] = "C_Immortal_H_Spear",
+	[SPRITE_ROBE_IDs.ROBE_C_Immortal_H_Spear_J] = "C_Immortal_H_Spear_J",
+	[SPRITE_ROBE_IDs.ROBE_C_Qualifier_1st] = "C_Qualifier_1st",
+	[SPRITE_ROBE_IDs.ROBE_C_Qualifier_2nd] = "C_Qualifier_2nd",
+	[SPRITE_ROBE_IDs.ROBE_C_Qualifier_3rd] = "C_Qualifier_3rd",
+	[SPRITE_ROBE_IDs.ROBE_C_Melon_Cream_Soda] = "C_Melon_Cream_Soda",
+	[SPRITE_ROBE_IDs.ROBE_C_Sorcerer_Cape] = "C_Sorcerer_Cape",
+	[SPRITE_ROBE_IDs.ROBE_Huse_Luk_R_Wing_LT] = "Huse_Luk_R_Wing_LT"
 }
-RobeNameTable_Eng = {
-	[SPRITE_ROBE_IDs.ROBE_WINGS] = "ANGEL_WINGS",
+RobeNameTable_Eng = {[SPRITE_ROBE_IDs.ROBE_WINGS] = "ANGEL_WINGS",
 	[SPRITE_ROBE_IDs.ROBE_BAG_OF_ADVENTURER] = "BAG_OF_ADVENTURER",
 	[SPRITE_ROBE_IDs.ROBE_WINGS_OF_FALLEN_ANGEL] = "WINGS_OF_FALLEN_ANGEL",
 	[SPRITE_ROBE_IDs.ROBE_AMISTR_BAG] = "AMISTR_BAG",
@@ -536,7 +550,22 @@ RobeNameTable_Eng = {
 	[SPRITE_ROBE_IDs.ROBE_C_Resurrection_Bow] = "C_Resurrection_Bow",
 	[SPRITE_ROBE_IDs.ROBE_C_CLB_HM_Noni] = "C_CLB_HM_Noni",
 	[SPRITE_ROBE_IDs.ROBE_C_I_Samurai_Sword] = "C_I_Samurai_Sword",
-	[SPRITE_ROBE_IDs.ROBE_C_3color_dumplings_P] = "C_3color_dumplings_P"
+	[SPRITE_ROBE_IDs.ROBE_C_3color_dumplings_P] = "C_3color_dumplings_P",
+	[SPRITE_ROBE_IDs.ROBE_Glutton_Cerberus] = "Glutton_Cerberus",
+	[SPRITE_ROBE_IDs.ROBE_C_CLB_DT_TS_Wing] = "C_CLB_DT_TS_Wing",
+	[SPRITE_ROBE_IDs.ROBE_Giant_Mad_Bunny_TW_LT] = "Giant_Mad_Bunny_TW_LT",
+	[SPRITE_ROBE_IDs.ROBE_C_Starrysky_Fountainpen] = "C_Starrysky_Fountainpen",
+	[SPRITE_ROBE_IDs.ROBE_C_S_Beelzebub_Wing] = "C_S_Beelzebub_Wing",
+	[SPRITE_ROBE_IDs.ROBE_C_Pitaya_V_Bag] = "C_Pitaya_V_Bag",
+	[SPRITE_ROBE_IDs.ROBE_C_Dimensional_Sword] = "C_Dimensional_Sword",
+	[SPRITE_ROBE_IDs.ROBE_C_Immortal_H_Spear] = "C_Immortal_H_Spear",
+	[SPRITE_ROBE_IDs.ROBE_C_Immortal_H_Spear_J] = "C_Immortal_H_Spear_J",
+	[SPRITE_ROBE_IDs.ROBE_C_Qualifier_1st] = "C_Qualifier_1st",
+	[SPRITE_ROBE_IDs.ROBE_C_Qualifier_2nd] = "C_Qualifier_2nd",
+	[SPRITE_ROBE_IDs.ROBE_C_Qualifier_3rd] = "C_Qualifier_3rd",
+	[SPRITE_ROBE_IDs.ROBE_C_Melon_Cream_Soda] = "C_Melon_Cream_Soda",
+	[SPRITE_ROBE_IDs.ROBE_C_Sorcerer_Cape] = "C_Sorcerer_Cape",
+	[SPRITE_ROBE_IDs.ROBE_Huse_Luk_R_Wing_LT] = "Huse_Luk_R_Wing_LT"
 }
 RobeTopLayer = {
 	SPRITE_ROBE_IDs.ROBE_BAG_OF_ADVENTURER,
@@ -699,5 +728,18 @@ RobeTopLayer = {
 	SPRITE_ROBE_IDs.ROBE_C_Resurrection_Bow,
 	SPRITE_ROBE_IDs.ROBE_C_CLB_HM_Noni,
 	SPRITE_ROBE_IDs.ROBE_C_I_Samurai_Sword,
-	SPRITE_ROBE_IDs.ROBE_C_3color_dumplings_P
+	SPRITE_ROBE_IDs.ROBE_C_3color_dumplings_P,
+	SPRITE_ROBE_IDs.ROBE_Glutton_Cerberus,
+	SPRITE_ROBE_IDs.ROBE_Giant_Mad_Bunny_TW_LT,
+	SPRITE_ROBE_IDs.ROBE_C_Starrysky_Fountainpen,
+	SPRITE_ROBE_IDs.ROBE_C_S_Beelzebub_Wing,
+	SPRITE_ROBE_IDs.ROBE_C_Pitaya_V_Bag,
+	SPRITE_ROBE_IDs.ROBE_C_Dimensional_Sword,
+	SPRITE_ROBE_IDs.ROBE_C_Immortal_H_Spear,
+	SPRITE_ROBE_IDs.ROBE_C_Immortal_H_Spear_J,
+	SPRITE_ROBE_IDs.ROBE_C_Qualifier_1st,
+	SPRITE_ROBE_IDs.ROBE_C_Qualifier_2nd,
+	SPRITE_ROBE_IDs.ROBE_C_Qualifier_3rd,
+	SPRITE_ROBE_IDs.ROBE_C_Melon_Cream_Soda,
+	SPRITE_ROBE_IDs.ROBE_Huse_Luk_R_Wing_LT
 }

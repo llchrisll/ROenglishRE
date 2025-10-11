@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20251008
 
 PRIORITY_GOLD = 0
 PRIORITY_RED = 1
@@ -17,8 +17,9 @@ StateIconImgList = {
 		[EFST_IDs.EFST_CROSSBOWCLAN] = "CROSSBOWCLAN.TGA",
 		[EFST_IDs.EFST_JUMPINGCLAN] = "eldicastes.tga",
 		[EFST_IDs.EFST_ESSENCE_OF_TIME] = "EssenceOfTime.tga"
-	}, 
-	[PRIORITY_RED] = {[EFST_IDs.EFST_HANDICAPSTATE_NORECOVER] = "NORECOVER.TGA",
+	},
+	[PRIORITY_RED] = {
+		[EFST_IDs.EFST_HANDICAPSTATE_NORECOVER] = "NORECOVER.TGA",
 		[EFST_IDs.EFST_EXTREMITYFIST] = "EXTREMITYFIST.TGA",
 		[EFST_IDs.EFST_GM_BATTLE] = "ICON02.TGA",
 		[EFST_IDs.EFST_GM_BATTLE2] = "ICON02.TGA",
@@ -105,7 +106,8 @@ StateIconImgList = {
 		[EFST_IDs.EFST_TARGET_MARKER] = "크림즌마커.tga",
 		[EFST_IDs.EFST_BLOCK_SEAL] = "REBOUND.TGA",
 		[EFST_IDs.EFST_FROST_STORM] = "EFST_MISTYFROST.tga",
-		[EFST_IDs.EFST_GROGGY] = "BD_Stun.tga"
+		[EFST_IDs.EFST_GROGGY] = "BD_Stun.tga",
+		[EFST_IDs.EFST_BLOCK] = "EFST_NIGHTMARE.tga"
 	},
 	[PRIORITY_BLUE] = {
 		[EFST_IDs.EFST_ATTHASTE_CASH] = "ASPDCASH.TGA",
@@ -296,7 +298,9 @@ StateIconImgList = {
 		[EFST_IDs.EFST_C_BUFF_6] = "Resist_Elemental_Poison.tga",
 		[EFST_IDs.EFST_C_BUFF_7] = "all_odins_power.tga",
 		[EFST_IDs.EFST_C_BUFF_8] = "태청단.tga",
-		[EFST_IDs.EFST_C_BUFF_9] = "gogi.tga"
+		[EFST_IDs.EFST_C_BUFF_9] = "gogi.tga",
+		[EFST_IDs.EFST_CONTENTS_42] = "EFST_CONTENTS_42.TGA",
+		[EFST_IDs.EFST_CONTENTS_44] = "EFST_CONTENTS_44.TGA"
 	},
 	[PRIORITY_GREEN] = {
 		[EFST_IDs.EFST_SET_NUM_DEF] = "SETDEF.TGA",

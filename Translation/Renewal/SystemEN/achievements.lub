@@ -3460,6 +3460,22 @@ achievement_tbl = {
 		reward = { title = 1034 },
 		score = 10
 	},
+	[130005] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 4,
+		minor = 0,
+		title = "The One Who Made Kings",
+		content = {
+			summary = "The king I created",
+			details = "Restore the glory of Terra Gloria and crown its protagonists."
+		},
+		resource = {
+			[1] = { text = "Attend the coronation ceremony of the new king of Rune-Midgards" }
+		},
+		reward = { title = 1046 },
+		score = 10
+	},
 	[170000] = {
 		UI_Type = 0,
 		group = "HEAR",
@@ -3641,7 +3657,7 @@ achievement_tbl = {
 		title = "Warrior (2)",
 		content = {
 			summary = "Job change to transcendent 2-2 classes",
-			details = "Paladin, Creator, Stalker, Proffesor, Champion, Clown or Gypsi."
+			details = "Paladin, Creator, Stalker, Professor, Champion, Clown or Gypsy."
 		},
 		resource = { [1] = { text = "Job change to transcendent 2-2 classes" } },
 		reward = { buff = 12 },
@@ -3711,7 +3727,7 @@ achievement_tbl = {
 		title = "The way of exceptional character",
 		content = {
 			summary = "Job change to expanded classes",
-			details = "Taekwondo, Gunslinger, Super Novice or Ninja."
+			details = "Taekwon, Gunslinger, Super Novice or Ninja."
 		},
 		resource = { [1] = { text = "Job change to expanded classes" } },
 		reward = { buff = 12 },

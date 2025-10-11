@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20251008
 
 Operation = { ADD = 0, ONE = 1, MAX = 2, DRAIN_ADD = 3 }
 ValueOption = { MIN = 0, MAX = 1, DIV = 2, FLOAT = 3 }
@@ -402,18 +402,19 @@ EquipmentPropertiesOrder = {
 			[19] = {
 				name = "{val}s#{sym} {sep}Fixed Casting Time",
 				func = { "SubSFCTEquipAmount", "AddSFCTEquipAmount" },
-				val = { [1] = Operation.ADD },
+				val = { [2] = Operation.ADD },
 				sym = SymbolPreset.DecWord,
-				sep = { [2] = "GetSkillGroup" },
+				sep = { [3] = "GetSkillGroup" },
 				valOpt = { [ValueOption.DIV] = 1000, [ValueOption.FLOAT] = 1 }
 			},
 			[20] = {
 				name = "{val}%#{sym} {sep}Fixed Casting Time",
 				func = { "SubSFCTEquipPermill" },
-				val = { [1] = Operation.MAX },
+				val = { [2] = Operation.MAX },
 				sym = SymbolPreset.DecWord,
-				sep = { [2] = "GetSkillGroup" },
-				valOpt = { [ValueOption.DIV] = 10 }
+				sep = { [3] = "GetSkillGroup" },
+				valOpt = { [ValueOption.DIV] = 10 },
+				uniq2 = 1
 			}
 		}
 	},
@@ -672,6 +673,22 @@ EquipmentPropertiesOrder = {
 				cond = { [1] = Unit.Target },
 				val = { [2] = Operation.ADD },
 				sym = SymbolPreset.IncSign
+			}, 
+			[32] = {
+				name = "{sym}{val}%#Hit Physical Damage",
+				func = { "AddDamage_HIT", "SubDamage_HIT" },
+				val = { [2] = Operation.ADD },
+				cond = { [1] = Unit.Target },
+				sym = SymbolPreset.IncSign,
+				rndOpt = EnumVAR.DAMAGE_HIT_TARGET[1]
+			},
+			[33] = {
+				name = "{sym}{val}%#Hit Physical Damage recieved",
+				func = { "SubDamage_HIT", "AddDamage_HIT" },
+				val = { [2] = Operation.ADD },
+				cond = { [1] = Unit.User },
+				sym = SymbolPreset.DecSign,
+				rndOpt = EnumVAR.DAMAGE_HIT_USER[1]
 			}
 		}
 	},

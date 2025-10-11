@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250711
+-- Last updated: 20251008
 
 SKILL_INFO_LIST = {
 	[SKID.NPC_TARGET_MARKER] = {
@@ -1387,6 +1387,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.TK_SPTIME] = {
@@ -1395,6 +1396,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.TK_POWER] = {
@@ -1403,6 +1405,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.TK_SEVENWIND] = {
@@ -1525,6 +1528,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SG_HATE, 1 }
@@ -1536,6 +1540,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SG_HATE, 2 }
@@ -1547,6 +1552,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SG_HATE, 3 }
@@ -1558,6 +1564,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SG_FEEL, 1 },
@@ -1570,6 +1577,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SG_FEEL, 2 },
@@ -1582,6 +1590,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SG_FEEL, 3 },
@@ -1594,6 +1603,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_DEVELOPMENT] = {
@@ -1602,6 +1612,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.SG_FRIEND] = {
@@ -1610,6 +1621,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.SG_KNOWLEDGE] = {
@@ -1618,6 +1630,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SG_FUSION] = {
@@ -1891,6 +1904,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 7,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.TK_SPTIME, 1 }
@@ -2049,6 +2063,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.PR_MACEMASTERY, 10 },
@@ -2399,6 +2414,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.AL_CRUCIS] = {
@@ -2418,6 +2434,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.NJ_SYURIKEN] = {
@@ -2540,6 +2557,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.NJ_KOUENKA] = {
@@ -2921,6 +2939,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.AM_TWILIGHT4] = {
@@ -3041,6 +3060,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MC_INCCARRY, 3 }
@@ -3172,6 +3192,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MC_DISCOUNT, 3 }
@@ -3303,6 +3324,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MC_INCCARRY, 5 }
@@ -3907,6 +3929,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.NPC_HELLPOWER] = {
@@ -3923,6 +3946,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GM_SANDMAN] = {
@@ -3987,6 +4011,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.AC_OWL, 3 }
@@ -4074,6 +4099,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.SM_TWOHAND] = {
@@ -4082,6 +4108,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SM_SWORD, 1 }
@@ -4093,6 +4120,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MA_LANDMINE] = {
@@ -4125,6 +4153,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.EL_WIND_SLASH] = {
@@ -4191,6 +4220,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_GUARDRESEARCH] = {
@@ -4199,6 +4229,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.KN_PIERCE] = {
@@ -4344,6 +4375,7 @@ SKILL_INFO_LIST = {
 		Type = "Quest",
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.AS_VENOMKNIFE] = {
@@ -4407,6 +4439,7 @@ SKILL_INFO_LIST = {
 		Type = "Quest",
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.PR_REDEMPTIO] = {
@@ -4433,6 +4466,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SM_ENDURE, 1 }
@@ -4498,6 +4532,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.KN_CAVALIERMASTERY] = {
@@ -4506,6 +4541,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.KN_RIDING, 1 }
@@ -4544,6 +4580,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.EL_WATER_SCREEN] = {
@@ -4644,6 +4681,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.PR_SANCTUARY] = {
@@ -4707,6 +4745,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.NC_FLAMELAUNCHER] = {
@@ -5070,6 +5109,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SO_EL_CONTROL, 3 }
@@ -5092,6 +5132,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.GN_THORNS_TRAP] = {
@@ -5144,6 +5185,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.AB_SECRAMENT] = {
@@ -5388,6 +5430,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HFLI_SPEED] = {
@@ -5436,6 +5479,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_GLORYGUILD] = {
@@ -5471,6 +5515,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_IRON, 1 }
@@ -5498,6 +5543,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_ENCHANTEDSTONE, 1 }
@@ -5517,6 +5563,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.EL_TYPOON_MIS_ATK] = {
@@ -5533,6 +5580,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_DAGGER, 1 }
@@ -5544,6 +5592,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_SWORD, 1 }
@@ -5555,6 +5604,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_SWORD, 2 }
@@ -5566,6 +5616,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_KNUCKLE, 1 }
@@ -5577,6 +5628,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_DAGGER, 1 }
@@ -5588,6 +5640,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_DAGGER, 2 }
@@ -5599,6 +5652,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.BS_FINDINGORE] = {
@@ -5607,6 +5661,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.BS_HILTBINDING, 1 },
@@ -5619,6 +5674,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.BS_HILTBINDING, 1 }
@@ -5641,6 +5697,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.BS_HAMMERFALL] = {
@@ -5657,6 +5714,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.BS_ADRENALINE] = {
@@ -5923,6 +5981,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.RK_CRUSHSTRIKE] = {
@@ -5939,6 +5998,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.RK_VITALITYACTIVATION] = {
@@ -5985,6 +6045,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GC_ANTIDOTE] = {
@@ -6015,6 +6076,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.HT_BEASTBANE, 1 }
@@ -6107,6 +6169,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.HT_BLITZBEAT, 5 }
@@ -6215,6 +6278,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.EL_ROCK_CRUSHER] = {
@@ -6231,6 +6295,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.AS_RIGHT, 2 }
@@ -6242,6 +6307,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.AS_CLOAKING] = {
@@ -6295,6 +6361,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.WL_HELLINFERNO] = {
@@ -6347,6 +6414,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.AS_VENOMDUST] = {
@@ -6385,6 +6453,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.HT_CLAYMORETRAP, 1 },
@@ -6462,6 +6531,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.NC_AXETORNADO] = {
@@ -6512,6 +6582,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SM_MOVINGRECOVERY] = {
@@ -6521,6 +6592,7 @@ SKILL_INFO_LIST = {
 		Type = "Quest",
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.SC_FEINTBOMB] = {
@@ -6563,6 +6635,7 @@ SKILL_INFO_LIST = {
 		Type = "Quest",
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.LG_MOONSLASHER] = {
@@ -6815,6 +6888,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MG_ENERGYCOAT] = {
@@ -6864,6 +6938,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.EL_ZEPHYR] = {
@@ -6944,6 +7019,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.MG_SAFETYWALL] = {
@@ -7028,6 +7104,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.TF_STEAL, 1 }
@@ -7061,6 +7138,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.TF_HIDING, 1 }
@@ -7181,6 +7259,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.RG_STRIPSHIELD, 3 }
@@ -7208,6 +7287,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.RG_GANGSTER, 1 }
@@ -7243,6 +7323,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.RG_INTIMIDATE, 5 }
@@ -7265,6 +7346,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.AM_AXEMASTERY] = {
@@ -7273,6 +7355,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GD_GUARDUP] = {
@@ -7281,6 +7364,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1 }
 	},
 	[SKID.GD_APPROVAL] = {
@@ -7289,6 +7373,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.MER_INCAGI] = {
@@ -7305,6 +7390,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MER_BLESSING] = {
@@ -7691,6 +7777,7 @@ SKILL_INFO_LIST = {
 		Type = "Quest",
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.MH_POISON_MIST] = {
@@ -7723,6 +7810,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SA_CREATECON] = {
@@ -7799,6 +7887,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.EL_CURSED_SOIL] = {
@@ -7823,6 +7912,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.HLIF_AVOID] = {
@@ -7911,6 +8001,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GN_HELLS_PLANT] = {
@@ -8015,6 +8106,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.CR_TRUST] = {
@@ -8023,6 +8115,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.EL_WATER_SCREW_ATK] = {
@@ -8280,6 +8373,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 9,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MG_STONECURSE] = {
@@ -8365,6 +8459,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.AL_DEMONBANE, 10 },
@@ -8389,6 +8484,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MO_BLADESTOP, 2 }
@@ -8459,6 +8555,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MO_DODGE, 5 }
@@ -8491,6 +8588,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MO_IRONHAND, 5 },
@@ -8702,6 +8800,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.WM_SONG_OF_MANA] = {
@@ -8799,6 +8898,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SA_CASTCANCEL, 1 }
@@ -8935,6 +9035,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SA_ADVANCEDBOOK, 9 }
@@ -9244,6 +9345,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SA_INSTANTDEATH] = {
@@ -9524,6 +9626,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.LG_PIETY] = {
@@ -9579,9 +9682,21 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9 }
 	},
+	-- Legacy (pre 2025-06-18 update)
+	[SKID.BA_FROSTJOKE] = {
+		"BA_FROSTJOKE",
+		SkillName = "Frost Joker",
+		MaxLv = 5,
+		SpAmount = { 12, 14, 16, 18, 20 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.BD_ENCORE, 1 }
+		}
+	},
 	[SKID.BA_FROSTJOKER] = {
 		"BA_FROSTJOKER",
-		SkillName = "Frost Joke",
+		SkillName = "Frost Joker",
 		MaxLv = 5,
 		SpAmount = { 12, 14, 16, 18, 20 },
 		bSeperateLv = true,
@@ -9686,6 +9801,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SC_MAELSTROM] = {
@@ -9975,6 +10091,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.ITM_TOMAHAWK] = {
@@ -10047,6 +10164,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 4,
 		SpAmount = { 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.NC_MADOLICENCE, 4 }
@@ -10147,6 +10265,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.RA_WUGMASTERY, 1 }
@@ -10202,6 +10321,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.RA_FEARBREEZE] = {
@@ -10298,6 +10418,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		NeedSkillList = { [JOBID.JT_CRUSADER] = {
 				{ SKID.AL_CURE, 1 }
@@ -10563,6 +10684,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MG_SRECOVERY, 5 },
@@ -10587,6 +10709,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MG_SRECOVERY, 5 },
@@ -10661,6 +10784,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.AL_DP, 3 }
@@ -10746,6 +10870,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.KN_CAVALIERMASTERY, 1 }
@@ -10794,6 +10919,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.PF_SOULCHANGE] = {
@@ -10843,6 +10969,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.TF_DOUBLE, 5 },
@@ -10998,6 +11125,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.KO_LEFT] = {
@@ -11006,6 +11134,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.KO_JYUMONJIKIRI] = {
@@ -11559,6 +11688,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.GM_WIDE_RESURRECTION] = {
@@ -11599,6 +11729,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 }
 	},
 	[SKID.SU_BITE] = {
@@ -11662,6 +11793,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SU_LOPE, 3 }
@@ -11805,6 +11937,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SU_TUNAPARTY, 3 }
@@ -11816,6 +11949,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SU_CN_POWDERING, 3 }
@@ -11827,6 +11961,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SU_LUNATICCARROTBEAT, 3 }
@@ -11926,6 +12061,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = {},
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = {},
 		_NeedSkillList = {
 			{ SKID.SU_SVG_SPIRIT, 5 }
@@ -11948,6 +12084,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = {},
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = {},
 		_NeedSkillList = {
 			{ SKID.SU_NYANGGRASS, 5 }
@@ -11970,6 +12107,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = {},
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = {},
 		_NeedSkillList = {
 			{ SKID.SU_SHRIMPARTY, 5 }
@@ -12085,6 +12223,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GS_SNAKEEYE] = {
@@ -12093,6 +12232,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GS_TRACKING] = {
@@ -12212,6 +12352,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.GS_SINGLEACTION, 1 }
@@ -12642,6 +12783,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SG_DEVIL, 10 }
@@ -12876,6 +13018,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SP_SOULCOLLECT, 1 }
@@ -12903,6 +13046,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {}
 	},
@@ -12921,6 +13065,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {}
 	},
@@ -13254,6 +13399,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.DK_HACKANDSLASHER] = {
@@ -13530,6 +13676,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.IQ_POWERFUL_FAITH] = {
@@ -13560,6 +13707,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.IQ_OLEUM_SANCTUM] = {
@@ -13763,6 +13911,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.IG_SPEAR_SWORD_M] = {
@@ -13771,6 +13920,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.IG_ATTACK_STANCE] = {
@@ -13897,6 +14047,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SHC_ETERNAL_SLASH] = {
@@ -14019,6 +14170,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.CD_ARGUTUS_VITA] = {
@@ -14075,6 +14227,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.CD_EFFLIGO] = {
@@ -14194,6 +14347,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.BO_THE_WHOLE_PROTECTION] = {
@@ -14392,6 +14546,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.RA_RESEARCHTRAP, 3 }
@@ -14414,6 +14569,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.WH_HAWKRUSH] = {
@@ -14535,6 +14691,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.TR_RETROSPECTION] = {
@@ -14699,6 +14856,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.ABC_MAGIC_SWORD_M] = {
@@ -14707,6 +14865,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SC_REPRODUCE, 5 },
@@ -14859,7 +15018,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_M_MACHINE] = {
 		"MT_M_MACHINE",
-		SkillName = "Machine Mastery",
+		SkillName = "Manufacture Machine",
 		MaxLv = 5,
 		SpAmount = { 30, 40, 50, 60, 70 },
 		bSeperateLv = true,
@@ -14867,7 +15026,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_A_MACHINE] = {
 		"MT_A_MACHINE",
-		SkillName = "Manfacture Machine A",
+		SkillName = "Activation Attack Machine",
 		MaxLv = 5,
 		SpAmount = { 43, 46, 49, 52, 55 },
 		bSeperateLv = true,
@@ -14879,7 +15038,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_D_MACHINE] = {
 		"MT_D_MACHINE",
-		SkillName = "Manufacture Machine D",
+		SkillName = "Activation Defense Machine",
 		MaxLv = 5,
 		SpAmount = { 43, 46, 49, 52, 55 },
 		bSeperateLv = true,
@@ -14890,10 +15049,11 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_TWOAXEDEF] = {
 		"MT_TWOAXEDEF",
-		SkillName = "Two Hand Axe Defense",
+		SkillName = "Two-Handed Axe Defending",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MT_ABR_M] = {
@@ -14902,6 +15062,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.MT_M_MACHINE, 1 }
@@ -15037,6 +15198,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.EM_SPELL_ENCHANTING] = {
@@ -15134,6 +15296,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange  = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SO_EL_SYMPATHY, 1 }
@@ -15400,6 +15563,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_TWISTER_CUTTER] = {
@@ -15424,6 +15588,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_BLAZING_AND_FURIOUS] = {
@@ -15448,6 +15613,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_TOXIN_OF_MANDARA] = {
@@ -15472,6 +15638,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MH_GLANZEN_SPIES] = {
@@ -15504,6 +15671,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SKE_SKY_MASTERY] = {
@@ -15512,6 +15680,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SKE_WAR_BOOK_MASTERY] = {
@@ -15520,6 +15689,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SKE_RISING_SUN] = {
@@ -15659,6 +15829,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SOA_SOUL_MASTERY] = {
@@ -15667,6 +15838,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SOA_TALISMAN_OF_PROTECTION] = {
@@ -15854,6 +16026,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.SH_COMMUNE_WITH_CHUL_HO] = {
@@ -15861,6 +16034,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Commune With Chulho",
 		MaxLv = 1,
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 7 },
@@ -15907,6 +16081,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Commune With Kisul",
 		MaxLv = 1,
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 7 },
@@ -15966,6 +16141,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Commune With Hyunrok",
 		MaxLv = 1,
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1 },
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 7 },
@@ -16038,6 +16214,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.NW_GRENADE_MASTERY] = {
@@ -16046,6 +16223,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.NW_INTENSIVE_AIM] = {
@@ -16222,6 +16400,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.HN_SELFSTUDY_SOCERY] = {
@@ -16230,6 +16409,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
+		IsPassive = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.HN_DOUBLEBOWLINGBASH] = {

@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240831
+-- Last updated: 20251008
 
 PetNameTable = {
 	[jobtbl.JT_PORING] = "poring",
@@ -129,7 +129,12 @@ PetNameTable = {
 	[jobtbl.JT_CLB_SS_TZ] = "CLB_SS_TZ",
 	[jobtbl.JT_MISTRESS3] = "MISTRESS2",
 	[jobtbl.JT_GIANT_HONET2] = "GIANT_HONET",
-	[jobtbl.JT_HORNET] = "Hornet"
+	[jobtbl.JT_HORNET] = "Hornet",
+	[jobtbl.JT_CLOCK] = "Clock",
+	[jobtbl.JT_C_TOWER_MANAGER2] = "C_Tower_Manager",
+	[jobtbl.JT_SKEGGIOLD] = "SKEGGIOLD",
+	[jobtbl.JT_ANGELGOLT3] = "ANGELGOLT",
+	[jobtbl.JT_TIMEHOLDER3] = "TIMEHOLDER2"
 }
 PetIllustNameTable = {
 	[jobtbl.JT_BAPHOMET_] = "Æê_¹ÙÆ÷¸ÞÆ®.bmp",
@@ -268,7 +273,12 @@ PetIllustNameTable = {
 	[jobtbl.JT_CLB_SS_TZ] = "pet_CLB_SS_TZ.bmp",
 	[jobtbl.JT_MISTRESS3] = "Pet_MISTRESS2.bmp",
 	[jobtbl.JT_GIANT_HONET2] = "Pet_GIANT_HONET.bmp",
-	[jobtbl.JT_HORNET] = "Pet_HORNET.bmp"
+	[jobtbl.JT_HORNET] = "Pet_HORNET.bmp",
+	[jobtbl.JT_CLOCK] = "Pet_Clock.bmp",
+	[jobtbl.JT_C_TOWER_MANAGER2] = "Pet_C_Tower_Manager.bmp",
+	[jobtbl.JT_SKEGGIOLD] = "Pet_SKEGGIOLD.bmp",
+	[jobtbl.JT_ANGELGOLT3] = "Pet_ANGELGOLT.bmp",
+	[jobtbl.JT_TIMEHOLDER3] = "pet_TIMEHOLDER2.bmp"
 }
 PetIllustNameTable_Eng = {
 	[jobtbl.JT_BAPHOMET_] = "PET_BAPHOMET.bmp",
@@ -403,7 +413,12 @@ PetIllustNameTable_Eng = {
 	[jobtbl.JT_CLB_SS_TZ] = "pet_CLB_SS_TZ.bmp",
 	[jobtbl.JT_MISTRESS3] = "Pet_MISTRESS2.bmp",
 	[jobtbl.JT_GIANT_HONET2] = "Pet_GIANT_HONET.bmp",
-	[jobtbl.JT_HORNET] = "Pet_HORNET.bmp"
+	[jobtbl.JT_HORNET] = "Pet_HORNET.bmp",
+	[jobtbl.JT_CLOCK] = "Pet_Clock.bmp",
+	[jobtbl.JT_C_TOWER_MANAGER2] = "Pet_C_Tower_Manager.bmp",
+	[jobtbl.JT_SKEGGIOLD] = "Pet_SKEGGIOLD.bmp",
+	[jobtbl.JT_ANGELGOLT3] = "Pet_ANGELGOLT.bmp",
+	[jobtbl.JT_TIMEHOLDER3] = "pet_TIMEHOLDER2.bmp"
 }
 PetAccIDs = {
 	ACC_FIRST = 10000,
@@ -677,7 +692,12 @@ PetStringTable = {
 	[jobtbl.JT_CLB_SS_TZ] = "Tai-Zi",
 	[jobtbl.JT_MISTRESS3] = "Mistress",
 	[jobtbl.JT_GIANT_HONET2] = "Giant Hornet",
-	[jobtbl.JT_HORNET] = "Hornet"
+	[jobtbl.JT_HORNET] = "Hornet",
+	[jobtbl.JT_CLOCK] = "Clock",
+	[jobtbl.JT_C_TOWER_MANAGER2] = "Clock Tower Manager	",
+	[jobtbl.JT_SKEGGIOLD] = "Skeggiold",
+	[jobtbl.JT_ANGELGOLT3] = "Angelgolt",
+	[jobtbl.JT_TIMEHOLDER3] = "Timeholder"
 }
 PetEggItemID_PetJobID = {
 	[9001] = jobtbl.JT_PORING,
@@ -812,7 +832,12 @@ PetEggItemID_PetJobID = {
 	[9184] = jobtbl.JT_CLB_SS_TZ,
 	[9193] = jobtbl.JT_MISTRESS3,
 	[9192] = jobtbl.JT_GIANT_HONET2,
-	[9155] = jobtbl.JT_HORNET
+	[9155] = jobtbl.JT_HORNET,
+	[9190] = jobtbl.JT_CLOCK,
+	[9169] = jobtbl.JT_C_TOWER_MANAGER2,
+	[9187] = jobtbl.JT_SKEGGIOLD,
+	[9170] = jobtbl.JT_ANGELGOLT3,
+	[9171] = jobtbl.JT_TIMEHOLDER3
 }
 PetFoodTable = {
 	[jobtbl.JT_PORING] = 531,
@@ -948,5 +973,10 @@ PetFoodTable = {
 	[jobtbl.JT_CLB_SS_TZ] = 537,
 	[jobtbl.JT_MISTRESS3] = 25377,
 	[jobtbl.JT_GIANT_HONET2] = 537,
-	[jobtbl.JT_HORNET] = 6108
+	[jobtbl.JT_HORNET] = 6108,
+	[jobtbl.JT_SKEGGIOLD] = 6105,
+	[jobtbl.JT_ANGELGOLT3] = 537,
+	[jobtbl.JT_CLOCK] = 6111,
+	[jobtbl.JT_C_TOWER_MANAGER2] = 537,
+	[jobtbl.JT_TIMEHOLDER3] = 25377
 }

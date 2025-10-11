@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20251008
 
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -1107,7 +1107,7 @@ hatEffectTable = {
 	},
 	[HatEFID.HAT_EF_C_Auspicloud] = {
 		resourceFileName = "C_Auspicloud\\sucloud.str",
-		hatEffectPos = 0,
+		hatEffectPos = -11,
 		hatEffectPosX = 0,
 		isIgnoreRiding = true,
 		isAdjustPositionWhenShrinkState = true,
@@ -1162,10 +1162,11 @@ hatEffectTable = {
 	},
 	[HatEFID.HAT_EF_C_MgSgPh_Potarl] = {
 		resourceFileName = "efst_c_mysgph_portal\\potal.str",
-		hatEffectPos = 0,
+		hatEffectPos = -11,
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_C_Iguazu_Falls] = {
 		resourceFileName = "efst_C_Iguazu_Falls\\Waterfall.str",
@@ -1178,6 +1179,46 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_hanmac_munch] = {
 		resourceFileName = "efst_hanmac_munch\\munch.str",
 		hatEffectPos = -8,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Over_Cloud] = {
+		resourceFileName = "efst_C_Over_Cloud\\drgbgeffect.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Aurora_On_Clouds] = {
+		resourceFileName = "efst_C_Aurora_On_Clouds\\drgauroraeffect.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_ROS_RedSpirit] = {
+		resourceFileName = "efst_ROS_RedSpirit\\kiaura1.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_ROS_BlueSpirit] = {
+		resourceFileName = "efst_ROS_BlueSpirit\\kiaura2.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_Divine_Sky_Invite] = {
+		resourceFileName = "efst_Divine_Sky_Invite\\Midgard2.str",
+		hatEffectPos = -11,
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true,

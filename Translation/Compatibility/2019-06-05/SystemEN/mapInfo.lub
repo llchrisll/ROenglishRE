@@ -2,9 +2,207 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20251008
 
 mapTbl = {
+	["ch1fild1.rsw"] = {
+		displayName = "Twisted Dark Land - 1 Erosion",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Northern Midgard",
+			mainTitle = "Twisted Dark Land - 1 Erosion"
+		},
+		backgroundBmp = "noname"
+	},
+	["ch1zero1.rsw"] = {
+		displayName = "Zerocell Sector, Abandoned Research Institute in the Second World - Lux",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World, Abandoned Research Institute",
+			mainTitle = "Zerocell Sector - Lux"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ch1zero2.rsw"] = {
+		displayName = "Zerocell Sector, Abandoned Research Institute in the Second World - Nox",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World, Abandoned Research Institute",
+			mainTitle = "Zerocell Sector - Nox"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ch1zero3.rsw"] = {
+		displayName = "Zerocell Sector, Abandoned Research Institute in the Second World - Vita",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World, Abandoned Research Institute",
+			mainTitle = "Zerocell Sector - Vita"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ch1zero4.rsw"] = {
+		displayName = "Zerocell Sector, Abandoned Research Institute in the Second World - Arc",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Second World, Abandoned Research Institute",
+			mainTitle = "Zerocell Sector - Arc"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["starhall.rsw"] = {
+		displayName = "Hall of Stars",
+		notifyEnter = true,
+		signName = {
+			subTitle = "ROS Memorial Hall",
+			mainTitle = "Hall of Stars"
+		},
+		backgroundBmp = "village"
+	},
+	["25ros03_01.rsw"] = {
+		displayName = "Arena Nightmare Toy Factory",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Nightmare Toy Factory"
+		},
+		backgroundBmp = "noname"
+	},
+	["2025arena1.rsw"] = {
+		displayName = "Arena Forgotten GlastHeim",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Forgotten GlastHeim"
+		},
+		backgroundBmp = "noname"
+	},
+	["2025arena2.rsw"] = {
+		displayName = "Arena NiflHeim, Banquet hall for the dead",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Banquet hall for the dead"
+		},
+		backgroundBmp = "noname"
+	},
+	["2025arena3.rsw"] = {
+		displayName = "Arena Nightfall of Brazilis",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Nightfall of Brazilis"
+		},
+		backgroundBmp = "noname"
+	},
+	["2025arena4.rsw"] = {
+		displayName = "Arena Sunset of Ayothaya",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Sunset of Ayothaya"
+		},
+		backgroundBmp = "noname"
+	},
+	["2025arena5.rsw"] = {
+		displayName = "Arena Somatology Laboratory",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Somatology Laboratory"
+		},
+		backgroundBmp = "noname"
+	},
+	["vr_cas.rsw"] = {
+		displayName = "Fantasy Series - Lilium Palace",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-001",
+			mainTitle = "Lilium Palace"
+		},
+		backgroundBmp = "village"
+	},
+	["vr_gen.rsw"] = {
+		displayName = "Fantasy Series - Generic Research Institute",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-004",
+			mainTitle = "Generic Research Institute"
+		},
+		backgroundBmp = "noname"
+	},
+	["vr_clo1.rsw"] = {
+		displayName = "Fantasy Series - Mirror Monastery",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-005",
+			mainTitle = "Mirror Monastery"
+		},
+		backgroundBmp = "noname"
+	},
+	["vr_clo2.rsw"] = {
+		displayName = "Fantasy Series - All Those Moments",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-005",
+			mainTitle = "All Those Moments"
+		},
+		backgroundBmp = "noname"
+	},
+	["vr_po.rsw"] = {
+		displayName = "Fantasy Series - Poringtera",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-007",
+			mainTitle = "Poringtera"
+		},
+		backgroundBmp = "noname"
+	},
+	["vr_pop1.rsw"] = {
+		displayName = "Fantasy Series - Rainbow Road",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-012",
+			mainTitle = "Rainbow Road"
+		},
+		backgroundBmp = "field"
+	},
+	["vr_pop2.rsw"] = {
+		displayName = "Fantasy Series - Rainbow Road",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-012",
+			mainTitle = "Rainbow Road"
+		},
+		backgroundBmp = "field"
+	},
+	["vr_pop3.rsw"] = {
+		displayName = "Fantasy Series - Rainbow Lake",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Fantasy Series-012",
+			mainTitle = "Rainbow Lake"
+		},
+		backgroundBmp = "field"
+	},
+	["httyd_01.rsw"] = {
+		displayName = "The Serene Abyss Lake",
+		notifyEnter = true,
+		signName = {
+			subTitle = "How to Train Your Dragon",
+			mainTitle = "The Serene Abyss Lake"
+		},
+		backgroundBmp = "field_s2"
+	},
+	["httyd_02.rsw"] = {
+		displayName = "The Serene Abyss Lake Underground Cave",
+		notifyEnter = true,
+		signName = {
+			subTitle = "How to Train Your Dragon",
+			mainTitle = "The Serene Abyss Lake Underground Cave"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["ygg_roots.rsw"] = {
 		displayName = "Twisted Dark Land",
 		notifyEnter = true,
@@ -178,20 +376,20 @@ mapTbl = {
 		backgroundBmp = "noname_s2"
 	},
 	["ch1_gfn01.rsw"] = {
-		displayName = "East of the Encroached Geffenia",
+		displayName = "Devoured Geffenia - East",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Second World",
-			mainTitle = "East of the Encroached Geffenia"
+			mainTitle = "Devoured Geffenia - East"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["ch1_gfn03.rsw"] = {
-		displayName = "West of the Encroached Geffenia",
+		displayName = "Devoured Geffenia - West",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Second World",
-			mainTitle = "West of the Encroached Geffenia"
+			mainTitle = "Devoured Geffenia - West"
 		},
 		backgroundBmp = "dungeon"
 	},

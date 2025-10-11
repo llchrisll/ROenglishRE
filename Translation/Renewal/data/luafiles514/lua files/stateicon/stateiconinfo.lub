@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20251008
 
 COLOR_TITLE_BUFF = { 155, 202, 155 }
 COLOR_TITLE_DEBUFF = { 250, 100, 100 }
@@ -7503,5 +7503,35 @@ StateIconList[EFST_IDs.EFST_C_BUFF_9] = {
 		{ "All Basic Stats +15" },
 		{ "All Trait Stats +10" },
 		{ "%s", COLOR_TIME }
+	}
+}
+StateIconList[EFST_IDs.EFST_BLOCK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2, 
+	descript = {
+		{ "Blocked", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "No Experience gained from monsters." },
+		{ "No Items are dropped from monsters." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_42] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dimensional Magic Resistance(Level 3)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Granted resistance to the dimensional" },
+		{ "magic of the Zero Cell Zone." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_44] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dimensional Magic Resistance(Level 4)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Granted resistance to the powerful" },
+		{ "dimensional magic of the Zero Cell Zone." }
 	}
 }
