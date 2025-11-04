@@ -606,5 +606,14 @@ OptionTbl = {
 		Title = "/taekwon",
 		TipBoxID = 193,
 		Description = "Shows the top 10 Taekwons in the server."
+	},
+	[63] = {
+		ID = TT_PETINFO_ALERT_ONOFF,
+		Tab = CONTROL,
+		Type = ONOFF,
+		Title = "Pet Information Window",
+		Default = true,
+		TipBoxID = 50,
+		Description = "When the intimacy is low, the pet information window will automatically open."
 	}
 }
