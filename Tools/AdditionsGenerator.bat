@@ -162,6 +162,7 @@ exit
 	echo [18] skillinfoz %lua_c[18]%
 	echo [19] stateicon %lua_c[19]%
 	echo [20] stylingshop %lua_c[20]%
+	echo [21] EquipmentProperties.lub (2023-08-02 and newer) %lua_c[21]%
 	echo =================================================================
 	set /p lua="Now choose: "
 	if %lua% equ 0 (
@@ -230,15 +231,25 @@ exit
 		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub"* /H /C /I /Y
 	) else if %lua% equ 20 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub" "%destinationDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub"* /H /C /I /Y
+	) else if %lua% equ 21 (
+		if %date% geq 20230802 if %date% lss 20250901 (
+			xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
+		) else if %date% geq 20250901 (
+			xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties 202509.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
+		) else (
+			echo The file for EquipmentProperties are only supported by 2023-08-02 clients or newer!
+			pause
+			goto DataLua
+		)
 	)
 if %lua% equ 1 (
-    for /L %%i in (1,1,22) do (
+    for /L %%i in (1,1,21) do (
         set lua_c[%%i]=[ Copied ]
-		if %%i equ 17 (
+		if %%i equ 16 (
 			if %date% lss 20240417 set lua_c[%%i]=
 		)
-		if %%i equ 22 (
-			if %date% lss 20211028 set lua_c[%%i]=
+		if %%i equ 21 (
+			if %date% lss 20230802 set lua_c[%%i]=
 		)
     )
 ) else (
