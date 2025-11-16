@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20251008
+-- Last updated: 20251116
 
 SKILL_INFO_LIST = {
 	[SKID.NPC_TARGET_MARKER] = {
@@ -9681,18 +9681,6 @@ SKILL_INFO_LIST = {
 		SpAmount = { 70, 100 },
 		bSeperateLv = false,
 		AttackRange = { 9, 9 }
-	},
-	-- Legacy (pre 2025-06-18 update)
-	[SKID.BA_FROSTJOKE] = {
-		"BA_FROSTJOKE",
-		SkillName = "Frost Joker",
-		MaxLv = 5,
-		SpAmount = { 12, 14, 16, 18, 20 },
-		bSeperateLv = true,
-		AttackRange = {},
-		_NeedSkillList = {
-			{ SKID.BD_ENCORE, 1 }
-		}
 	},
 	[SKID.BA_FROSTJOKER] = {
 		"BA_FROSTJOKER",
