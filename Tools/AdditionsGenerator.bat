@@ -21,14 +21,14 @@ echo Note: Default is 2022-04-06 (20220406)!
 echo =================================================================
 echo Example: 20220406 for 2022-04-06
 echo =================================================================
-set /p date="Client Date (YYYYMMDD): "
+set /p cdate="Client Date (YYYYMMDD): "
 if not defined date (
 	set date=20220406
 )
 :AdditionsMenu
 cls
 echo =================================================================
-echo Client Date: %date%
+echo Client Date: %cdate%
 echo =================================================================
 echo [1] Data Folder
 echo [2] data\luafiles514
@@ -156,7 +156,7 @@ exit
 	if %lua% equ 0 (
 		goto AdditionsMenu
 	) else if %lua% equ 1 (
-		if %date% lss 20250802 (
+		if %cdate% lss 20250802 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
 			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
 			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
@@ -196,48 +196,48 @@ exit
 		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconinfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconinfo.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\stylingshop\" "%destinationDataPath%\luafiles514\stylingshop\"* /E /H /C /I /Y
-		if %date% geq 20211028 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20211028 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
 			)
 		)
-		if %date% geq 20230802 (
+		if %cdate% geq 20230802 (
 			xcopy "%sourceDataPath%\luafiles514\CashEmotion\" "%destinationDataPath%\luafiles514\CashEmotion\"* /E /H /C /I /Y
-			if %date% lss 20250901 (
+			if %cdate% lss 20250901 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties 202509.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
 			)
 		)
-		if %date% geq 20240311 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20240311 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
 			)
 		)
-		if %date% geq 20240417 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20240417 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
 			)
 			xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\HatEffect_F.lub" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\HatEffect_F.lub"* /H /C /I /Y
 		)
-		if %date% geq 20240502 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20240502 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
 			)
 		)
-		if %date% geq 20250618 (
+		if %cdate% geq 20250618 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\skillinfoz\skilldelaylist.lub" "%destinationDataPath%\luafiles514\lua files\skillinfoz\skilldelaylist.lub"* /H /C /I /Y
 		)
 	) else if %lua% equ 2 (
-		if %date% lss 20250802 (
+		if %cdate% lss 20250802 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
 			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
 			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
@@ -262,7 +262,7 @@ exit
 	) else if %lua% equ 9 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\shadowtable.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\shadowtable.lub"* /H /C /I /Y
 	) else if %lua% equ 10 (
-		if %date% lss 20250802 (
+		if %cdate% lss 20250802 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub"* /H /C /I /Y
 			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobename.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobename.lub"* /H /C /I /Y
 			xcopy "%sourceDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub" "%destinationDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub"* /H /C /I /Y
@@ -279,7 +279,7 @@ exit
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\weapontable.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\weapontable.lub"* /H /C /I /Y
 	) else if %lua% equ 14 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_info.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_info.lub"* /H /C /I /Y
-		if %date% lss 20250802 (
+		if %cdate% lss 20250802 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub"* /H /C /I /Y
 		) else (
 			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\worldviewdata\worldviewdata_table.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub"* /H /C /I /Y
@@ -287,8 +287,8 @@ exit
 	) else if %lua% equ 15 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\effecttool\forcerendereffect.lub" "%destinationDataPath%\luafiles514\lua files\effecttool\forcerendereffect.lub"* /H /C /I /Y
 	) else if %lua% equ 16 (
-		if %date% geq 20240417 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20240417 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
@@ -305,11 +305,11 @@ exit
 	) else if %lua% equ 18 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\skillinfoz\jobinheritlist.lub" "%destinationDataPath%\luafiles514\lua files\skillinfoz\jobinheritlist.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\skillinfoz\skillid.lub" "%destinationDataPath%\luafiles514\lua files\skillinfoz\skillid.lub"* /H /C /I /Y
-		if %date% geq 20250618 (
+		if %cdate% geq 20250618 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\skillinfoz\skilldelaylist.lub" "%destinationDataPath%\luafiles514\lua files\skillinfoz\skilldelaylist.lub"* /H /C /I /Y
 		)
 	) else if %lua% equ 19 (
-		if %date% lss 20250802 (
+		if %cdate% lss 20250802 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\efstids.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\efstids.lub"* /H /C /I /Y
 			xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub"* /H /C /I /Y
 		) else (
@@ -320,8 +320,8 @@ exit
 	) else if %lua% equ 20 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub" "%destinationDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub"* /H /C /I /Y
 	) else if %lua% equ 21 (
-		if %date% geq 20211028 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20211028 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
@@ -332,8 +332,8 @@ exit
 			goto DataLua
 		)
 	) else if %lua% equ 22 (
-		if %date% geq 20230802 (
-			if %date% lss 20250901 (
+		if %cdate% geq 20230802 (
+			if %cdate% lss 20250901 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties 202509.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
@@ -344,7 +344,7 @@ exit
 			goto DataLua
 		)
 	) else if %lua% equ 23 (
-		if %date% geq 20230802 (
+		if %cdate% geq 20230802 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\CashEmotion\" "%destinationDataPath%\luafiles514\lua files\CashEmotion\"* /H /C /I /Y
 		) else (
 			echo The file for CashEmotion is only supported by 2023-08-02 clients or newer!
@@ -352,8 +352,8 @@ exit
 			goto DataLua
 		)
 	) else if %lua% equ 24 (
-		if %date% geq 20240311 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20240311 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
@@ -364,8 +364,8 @@ exit
 			goto DataLua
 		)
 	) else if %lua% equ 25 (
-		if %date% geq 20240502 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20240502 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceDataPath%\luafiles514\lua files\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
 			) else (
 				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
@@ -381,22 +381,22 @@ if %lua% equ 1 (
     for /L %%i in (1,1,25) do (
         set lua_c[%%i]=[ Copied ]
 		if %%i equ 16 (
-			if %date% lss 20240417 set lua_c[%%i]=
+			if %cdate% lss 20240417 set lua_c[%%i]=
 		)
 		if %%i equ 21 (
-			if %date% lss 20211028 set lua_c[%%i]=
+			if %cdate% lss 20211028 set lua_c[%%i]=
 		)
 		if %%i equ 22 (
-			if %date% lss 20230802 set lua_c[%%i]=
+			if %cdate% lss 20230802 set lua_c[%%i]=
 		)
 		if %%i equ 23 (
-			if %date% lss 20230802 set lua_c[%%i]=
+			if %cdate% lss 20230802 set lua_c[%%i]=
 		)
 		if %%i equ 24 (
-			if %date% lss 20240311 set lua_c[%%i]=
+			if %cdate% lss 20240311 set lua_c[%%i]=
 		)
 		if %%i equ 25 (
-			if %date% lss 20240502 set lua_c[%%i]=
+			if %cdate% lss 20240502 set lua_c[%%i]=
 		)
     )
 ) else (
@@ -428,7 +428,7 @@ if %lua% equ 1 (
 	if %sys% equ 0 (
 		goto AdditionsMenu
 	) else if %sys% equ 1 (
-		if %date% geq 20221207 (
+		if %cdate% geq 20221207 (
 			xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
 		)
 		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
@@ -438,27 +438,27 @@ if %lua% equ 1 (
 		xcopy "%sourceSystemPath%\OngoingQuests_C.lub" "%destinationSystemPath%\OngoingQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
-		if %date% leq 20170614 (
+		if %cdate% leq 20170614 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		) else (
 			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		)
 		xcopy "%sourceSystemPath%\Towninfo_C.lub" "%destinationSystemPath%\Towninfo_C.lub"* /H /C /I /Y
-		if %date% geq 20190605 (
+		if %cdate% geq 20190605 (
 			xcopy "%sourceSystemPath%\mapinfo_C.lub" "%destinationSystemPath%\mapinfo_C.lub"* /H /C /I /Y
 		)
-		if %date% geq 20230802 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20230802 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y
 			) else (
 				xcopy "%sourceSystemPath%\Rune 20250802\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y
 			)
-			if %date% lss 20241016 (
+			if %cdate% lss 20241016 (
 				if exist "%destinationSystemPath%\Rune\set_reward.lub" del /S /Q "%destinationSystemPath%\Rune\set_reward.lub"
 			)
 		)
 	) else if %sys% equ 2 (
-		if %date% geq 20221207 (
+		if %cdate% geq 20221207 (
 			xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
 		) else (
 			echo This file is only supported by 2022-12-07 clients or newer!
@@ -468,7 +468,7 @@ if %lua% equ 1 (
 	) else if %sys% equ 3 (
 		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
 	) else if %sys% equ 4 (
-		if %date% leq 20170614 (
+		if %cdate% leq 20170614 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		) else (
 			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
@@ -484,7 +484,7 @@ if %lua% equ 1 (
 		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
 	) else if %sys% equ 9 (
-		if %date% geq 20190605 (
+		if %cdate% geq 20190605 (
 			xcopy "%sourceSystemPath%\mapinfo_C.lub" "%destinationSystemPath%\mapinfo_C.lub"* /H /C /I /Y
 		) else (
 			echo This file is only supported by 2019-06-05 clients or newer!
@@ -494,13 +494,13 @@ if %lua% equ 1 (
 	) else if %sys% equ 10 (
 		xcopy "%sourceSystemPath%\Towninfo_C.lub" "%destinationSystemPath%\Towninfo_C.lub"* /H /C /I /Y
 	) else if %sys% equ 11 (
-		if %date% geq 20230802 (
-			if %date% lss 20250802 (
+		if %cdate% geq 20230802 (
+			if %cdate% lss 20250802 (
 				xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\" /E /H /C /I /Y
 			) else (
 				xcopy "%sourceSystemPath%\Rune 20250802\" "%destinationSystemPath%\Rune\" /E /H /C /I /Y
 			)
-			if %date% lss 20241016 (
+			if %cdate% lss 20241016 (
 				if exist "%destinationSystemPath%\Rune\set_reward.lub" del /S /Q "%destinationSystemPath%\Rune\set_reward.lub"
 				echo set_reward.lub was removed because it requires 2024-10-16 clients and newer!
 				pause
@@ -515,13 +515,13 @@ if %lua% equ 1 (
         for /L %%i in (1,1,11) do (
             set sys_c[%%i]=[ Copied ]
 			if %%i equ 2 (
-				if %date% lss 20221207 set sys_c[%%i]=
+				if %cdate% lss 20221207 set sys_c[%%i]=
 			)
 			if %%i equ 9 (
-				if %date% lss 20190605 set sys_c[%%i]=
+				if %cdate% lss 20190605 set sys_c[%%i]=
 			)
 			if %%i equ 11 (
-				if %date% lss 20230802 set sys_c[%%i]=
+				if %cdate% lss 20230802 set sys_c[%%i]=
 			)
         )
     ) else (
