@@ -1,0 +1,32 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230321
+
+ItemsToDrawOnAura = {
+	ACCESSORY_IDs.ACCESSORY_Blessing_Sky_Lantern,
+	ACCESSORY_IDs.ACCESSORY_C_Baby_Penguin,
+	ACCESSORY_IDs.ACCESSORY_C_Shiba_Inu,
+	ACCESSORY_IDs.ACCESSORY_C_Black_Cat,
+	ACCESSORY_IDs.ACCESSORY_White_Cat,
+	ACCESSORY_IDs.ACCESSORY_Elephangel_TH,
+	ACCESSORY_IDs.ACCESSORY_C_Cons_Of_Water,
+	ACCESSORY_IDs.ACCESSORY_Flying_Drone,
+	ACCESSORY_IDs.ACCESSORY_C_FallenAngelWingEar,
+	ACCESSORY_IDs.ACCESSORY_Subject_Aura_Red
+}
+
+function GetItemSpriteNumberToDrawOnAura(Index)
+	if ItemsToDrawOnAura[Index] == nil then
+		return 0
+	end
+	return ItemsToDrawOnAura[Index]
+end
+
+function GetItemListSizeToDrawOnAura()
+	if ItemsToDrawOnAura == nil then
+		return 0
+	end
+	return #ItemsToDrawOnAura
+end
