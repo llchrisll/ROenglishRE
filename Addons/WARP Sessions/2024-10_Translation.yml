@@ -1,0 +1,171 @@
+from: "D:/Ragnarok Project/Client/Ragexe/2025/2025-06-04/2025-06-04_Ragexe_1748494356_clientinfo.xml.exe"
+to: "D:/Ragnarok Project/ROTP/ROTP 2025-06-04.exe"
+inputs:
+    $newrunesetinfo:
+        data: '53797374656d454e5c52756e655c7365745f696e666f2e6c756200'
+        display: "SystemEN\\Rune\\set_info.lub"
+        type: 10
+    
+    $newrunesysid:
+        data: '53797374656d454e5c52756e655c73797374656d69642e6c756200'
+        display: "SystemEN\\Rune\\systemid.lub"
+        type: 10
+    
+    $newMapInfo:
+        data: '73797374656d656e5c6d6170496e666f2e6c756200'
+        display: "systemen\\mapInfo.lub"
+        type: 10
+    
+    $newRuneDesc:
+        data: '53797374656d454e5c52756e655c646573632e6c756200'
+        display: "SystemEN\\Rune\\desc.lub"
+        type: 10
+    
+    $newCheckAtt:
+        data: '53797374656d454e2f436865636b417474656e64616e63652e6c756200'
+        display: "SystemEN/CheckAttendance.lub"
+        type: 10
+    
+    $newrunerewInfo:
+        data: '53797374656d454e5c52756e655c7365745f7265776172642e6c756200'
+        display: "SystemEN\\Rune\\set_reward.lub"
+        type: 10
+    
+    $newOngQInfoList:
+        data: '73797374656d656e5c4f6e676f696e6751756573747300'
+        display: "systemen\\OngoingQuests"
+        type: 10
+    
+    $newRcmdQInfoList:
+        data: '73797374656d656e5c5265636f6d6d656e64656451756573747300'
+        display: "systemen\\RecommendedQuests"
+        type: 10
+    
+    $newMonSizeEffect:
+        data: '53797374656d454e2f6d6f6e737465725f73697a655f6566666563742e6c756200'
+        display: "SystemEN/monster_size_effect.lub"
+        type: 10
+    
+    $newitemDecom:
+        data: '53797374656d454e5c52756e655c6974656d4465636f6d2e6c756200'
+        display: "SystemEN\\Rune\\itemDecom.lub"
+        type: 10
+    
+    $newrunesysInfo:
+        data: '53797374656d454e5c52756e655c73797374656d496e666f00'
+        display: "SystemEN\\Rune\\systemInfo"
+        type: 10
+    
+    $newchangemat:
+        data: '53797374656d454e5c4368616e67654d6174657269616c2e6c756200'
+        display: "SystemEN\\ChangeMaterial.lub"
+        type: 10
+    
+    $newAchieveList:
+        data: '73797374656d656e5c616368696576656d656e74732e6c756200'
+        display: "systemen\\achievements.lub"
+        type: 10
+    
+    $newspopup:
+        data: '53797374656d454e5c73706f7075702e6c756200'
+        display: "SystemEN\\spopup.lub"
+        type: 10
+    
+    $newRuneSetDesc:
+        data: '53797374656d454e5c52756e655c7365745f646573632e6c756200'
+        display: "SystemEN\\Rune\\set_desc.lub"
+        type: 10
+    
+    $newTipBox:
+        data: '53797374656d454e2f746970626f782e6c756200'
+        display: "SystemEN/tipbox.lub"
+        type: 10
+    
+    $newPrivAirplane:
+        data: '53797374656d454e5c50726976617465416972706c616e652e6c756200'
+        display: "SystemEN\\PrivateAirplane.lub"
+        type: 10
+    
+    .choice:
+        data: ''
+        display: ""
+        type: 10
+    
+    $newTownInfo:
+        data: '53797374656d454e2f546f776e696e666f2e6c756200'
+        display: "SystemEN/Towninfo.lub"
+        type: 10
+    
+    $dataINI:
+        data: '444154412e494e4900'
+        display: "DATA.INI"
+        type: 10
+    
+    $showFailures:
+        data: ''
+        display: "true"
+        type: 10
+    
+    $newPetEvoCln:
+        data: '73797374656d656e5c50657445766f6c7574696f6e2e6c756200'
+        display: "systemen\\PetEvolution.lub"
+        type: 10
+    
+    $newruneinfo:
+        data: '53797374656d454e5c52756e655c696e666f2e6c756200'
+        display: "SystemEN\\Rune\\info.lub"
+        type: 10
+    
+    $newItemInfo:
+        data: '53797374656d454e2f6974656d696e666f2e6c756100'
+        display: "SystemEN/iteminfo.lua"
+        type: 10
+    
+    $translationFile:
+        data: ''
+        display: "Inputs/Translations_EN.yml"
+        type: 10
+    
+    $newruneSystable:
+        data: '53797374656d454e5c52756e655c53797374656d5f7461626c652e6c756200'
+        display: "SystemEN\\Rune\\System_table.lub"
+        type: 10
+    
+patches:
+    - EnableWho
+    - EnableShowName
+    - MediumCamAngle
+    - UseOldLogin
+    - AlwaysAscii
+    - CallKoreaClientInfo
+    - PlainTextDesc
+    - HideBuildInfo
+    - TranslateClient
+    - NoGGuard
+    - CustomItemInfoLub
+    - CustomAchieveLub
+    - CustomTownInfoLub
+    - CustomTipboxLub
+    - CustomMapInfoLub
+    - CustomOngQuestInfoLub
+    - CustomRcmdQuestInfoLub
+    - CustomspopupLub
+    - CustomChangeMatLub
+    - CustomRuneDescLub
+    - CustomRuneSetDescLub
+    - GRFsFromIni
+    - NoFilenameCheck
+    - EnableSysMenu
+    - No1and1Arg
+    - RestoreIcon
+    - EnableDnsSupport
+    - NoNagle
+    - SendClientFlags
+    - OpenToServiceSelect
+    - GuildBrackets
+    - FixChatAt
+    - NoHourly
+    - NoHelpMsg
+    - NoGravityAds
+    - NoGravityLogo
+    - FixLatestNCWin

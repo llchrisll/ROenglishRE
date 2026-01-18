@@ -1,4 +1,6 @@
 @echo off
+setlocal EnableDelayedExpansion
+
 echo =================================================================
 echo Welcome to the Client Generator!
 echo This will help you to copy over the files you want and need based on the choice you make.
@@ -6,6 +8,7 @@ echo Also everytime after you confirmed your choice, any existing Client folder 
 echo same folder as this will be deleted without asking.
 echo =================================================================
 pause
+
 :ModeMenu
 cls
 echo =================================================================
@@ -19,6 +22,7 @@ set /p mode="Please select the mode: "
 if %mode%==1 set type=Renewal
 if %mode%==2 set type=Pre-Renewal
 if %mode%==3 exit
+
 :DateMenu
 cls
 echo =================================================================
@@ -52,6 +56,7 @@ echo [25] 2025-08-02 (requirement for GRF v3 (0x300))
 echo [26] 2025-09-02
 echo =================================================================
 set /p cdate="Please select the Client Date: "
+
 if %cdate%==1 if %mode%==2 ( set client=2012-04-10 ) else ( goto DateMenu )
 if %cdate%==2 set client=2015-05-13
 if %cdate%==3 set client=2015-10-29
@@ -78,7 +83,9 @@ if %cdate%==23 set client=2024-10-16
 if %cdate%==24 set client=2025-01-22
 if %cdate%==25 set client=2025-08-02
 if %cdate%==26 set client=2025-09-02
+
 if "%client%"=="" exit
+
 cls
 echo =================================================================
 echo Server Mode: %type%
@@ -87,61 +94,63 @@ echo =================================================================
 set /p check="Proceed?(Y/N): "
 if not defined check set "check=Y"
 if /i "%check%" NEQ "Y" goto ModeMenu
+
 if exist Client\ rmdir /S /Q Client\
-REM Renewal is base for the project
+
 xcopy "..\Translation\Renewal" ".\Client" /E /H /C /I /Y
-REM If Pre-Renewal also overwrite existing files from Pre-Renewal
 if %mode%==2 xcopy "..\Translation\Pre-Renewal" ".\Client" /E /H /C /I /Y
-REM Files for older Clients than the Projects Base Version
+
 if %cdate%==1 call :CopyFD 2012-04-10 %type%
 if %cdate%==2 call :CopyFD 2015-05-13 %type%
-REM If it's the same as the project version, skip the Loop below
 if %cdate%==3 goto EOF
+
 set "x=5"
 :DateLoop
-REM Files for newer Clients than Base Version
-if %x% LEQ %cdate% (
-	if %x% EQU 5 call :CopyFD 2017-06-14 %type%
-	if %x% EQU 6 call :CopyFD 2017-12-13 %type%
-	if %x% EQU 7 call :CopyFD 2018-06-20 %type%
-	if %x% EQU 8 call :CopyFD 2019-06-05 %type%
-	if %x% EQU 9 call :CopyFD 2020-09-02 %type%
-	if %x% EQU 10 call :CopyFD 2021-10-28 %type%
-	if %x% EQU 11 call :CopyFD 2022-03-30 %type%
-	if %x% EQU 12 call :CopyFD 2022-04-06 %type%
-	if %x% EQU 13 call :CopyFD 2022-06-02 %type%
-	if %x% EQU 14 call :CopyFD 2022-08-31 %type%
-	if %x% EQU 15 call :CopyFD 2022-09-28 %type%
-	if %x% EQU 16 call :CopyFD 2022-12-07 %type%
-	if %x% EQU 17 call :CopyFD 2023-01-18 %type%
-	if %x% EQU 18 call :CopyFD 2023-08-02 %type%
-	if %x% EQU 19 call :CopyFD 2023-09-20 %type%
-	if %x% EQU 20 call :CopyFD 2024-03-11 %type%
-	if %x% EQU 21 call :CopyFD 2024-04-03 %type%
-	if %x% EQU 22 call :CopyFD 2024-05-02 %type%
-	if %x% EQU 23 call :CopyFD 2024-08-07 %type%
-	if %x% EQU 24 call :CopyFD 2024-10-16 %type%
-	if %x% EQU 25 call :CopyFD 2025-01-22 %type%
-	if %x% EQU 26 call :CopyFD 2025-08-02 %type%
-	set /a "x+=1"
-	goto DateLoop
+if !x! LEQ %cdate% (
+    if !x! EQU 5  call :CopyFD 2017-06-14 %type%
+    if !x! EQU 6  call :CopyFD 2017-12-13 %type%
+    if !x! EQU 7  call :CopyFD 2018-06-20 %type%
+    if !x! EQU 8  call :CopyFD 2019-06-05 %type%
+    if !x! EQU 9  call :CopyFD 2020-09-02 %type%
+    if !x! EQU 10 call :CopyFD 2021-10-28 %type%
+    if !x! EQU 11 call :CopyFD 2022-03-30 %type%
+    if !x! EQU 12 call :CopyFD 2022-04-06 %type%
+    if !x! EQU 13 call :CopyFD 2022-06-02 %type%
+    if !x! EQU 14 call :CopyFD 2022-08-31 %type%
+    if !x! EQU 15 call :CopyFD 2022-09-28 %type%
+    if !x! EQU 16 call :CopyFD 2022-12-07 %type%
+    if !x! EQU 17 call :CopyFD 2023-01-18 %type%
+    if !x! EQU 18 call :CopyFD 2023-08-02 %type%
+    if !x! EQU 19 call :CopyFD 2023-09-20 %type%
+    if !x! EQU 20 call :CopyFD 2024-03-11 %type%
+    if !x! EQU 21 call :CopyFD 2024-04-03 %type%
+    if !x! EQU 22 call :CopyFD 2024-05-02 %type%
+    if !x! EQU 23 call :CopyFD 2024-08-07 %type%
+    if !x! EQU 24 call :CopyFD 2024-10-16 %type%
+    if !x! EQU 25 call :CopyFD 2025-01-22 %type%
+    if !x! EQU 26 call :CopyFD 2025-08-02 %type%
+
+    set /a x+=1
+    goto DateLoop
 )
-if exist ..\Translation\Compatibility\%client%\%type%\ (
-	xcopy "..\Translation\Compatibility\%client%\%type%\" ".\Client\" /E /H /C /I /Y
+
+if exist "..\Translation\Compatibility\%client%\%type%\" (
+    xcopy "..\Translation\Compatibility\%client%\%type%\" ".\Client\" /E /H /C /I /Y
 ) else (
-	xcopy "..\Translation\Compatibility\%client%\" ".\Client\" /E /H /C /I /Y
+    xcopy "..\Translation\Compatibility\%client%\" ".\Client\" /E /H /C /I /Y
 )
-REM Removes legacy hateffectinfo files used by older clients only, with 2024-04-17 new files are required
-if %cdate% geq 19 (
-	if exist ".\Client\data\luafiles514\lua files\hateffectinfo\" rmdir /S /Q ".\Client\data\luafiles514\lua files\hateffectinfo\"
+
+if %cdate% GEQ 19 (
+    if exist ".\Client\data\luafiles514\lua files\hateffectinfo\" rmdir /S /Q ".\Client\data\luafiles514\lua files\hateffectinfo\"
 )
+
 :EOF
 pause
 exit
 
 :CopyFD
-if exist ..\Translation\Compatibility\%1\%2\ (
-	xcopy "..\Translation\Compatibility\%1\%2\" ".\Client\" /E /H /C /I /Y
+if exist "..\Translation\Compatibility\%1\%2\" (
+    xcopy "..\Translation\Compatibility\%1\%2\" ".\Client\" /E /H /C /I /Y
 ) else (
-	xcopy "..\Translation\Compatibility\%1\" ".\Client\" /E /H /C /I /Y
+    xcopy "..\Translation\Compatibility\%1\" ".\Client\" /E /H /C /I /Y
 )
