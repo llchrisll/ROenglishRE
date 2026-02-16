@@ -97,7 +97,7 @@ end
 -- Loop through each table in the "ImportTables" table
 -- and merge them into the main table "tbl" 
 for _, v in ipairs(ImportTables) do
-	F_itemInfoMerge(_G['tbl_'..v], false)
+	F_itemInfoMerge(_G['tbl_'..v])
 end
 
 F_itemInfoMerge(tbl_override, true) -- official overrides
