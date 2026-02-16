@@ -4,9 +4,30 @@
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the `Custom Lua Support`
 
-NameTable_VAR_CLS = {
-	-- [EnumVAR_CLS.VAR_[1]] = "<Text to Display"
-	[EnumVAR_CLS.VAR_PERC_START[1]] = "Percentage Start",
-	[EnumVAR_CLS.VAR_PERC_END[1]] = "Percentage End",
-	[EnumVAR_CLS.EnumVAR_CLS_LAST[1]] = "Custom END"
+EnumVAR_CLS = {
+	-- Percental Vars should be between VAR_PERC_START and VAR_PERC_END
+	-- So increase the ID's of these two as required.
+	-- ID, Value (Value might just be only required on Aegis)
+	-- Note: Add your entries before the "EnumVAR_LAST" 
+	-- and adjust the values as required, this is important!
+	-- Also as your first ID use 255.
+	VAR_PERC_START = { 256, 0 },
+	VAR_PERC_END = { 258, 0 },
+	EnumVAR_LAST = { 259, 0 }
 }
+
+----------- DON'T TOUCH LINES MARKED LIKE THIS AT ALL  -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_ROTP(EnumVAR_CLS,EnumVAR)
+--------------------------------------------------------------
+
+NameTable_VAR_CLS = {
+	-- [EnumVAR.VAR_[1]] = "<Text to Display"
+	[EnumVAR.VAR_PERC_START[1]] = "Percentage Start",
+	[EnumVAR.VAR_PERC_END[1]] = "Percentage End",
+	[EnumVAR.EnumVAR_LAST[1]] = "END"
+}
+
+--------------------------------------------------------------
+F_ROTP(NameTable_VAR_CLS,NameTable_VAR)
+--------------------------------------------------------------

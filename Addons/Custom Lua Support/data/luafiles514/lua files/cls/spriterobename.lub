@@ -20,7 +20,7 @@ RobeTopLayer_CLS = {
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
 require('SystemEN/LuaFiles514/rotp_f')
-F_LuaTableMerge(RobeNameTable_CLS,RobeNameTable)
-F_LuaTableMerge(RobeNameTable_Eng_CLS,RobeNameTable_Eng)
-F_LuaTableMerge(RobeTopLayer_CLS,RobeTopLayer)
+F_ROTP(RobeNameTable_CLS,RobeNameTable)
+F_ROTP(RobeNameTable_Eng_CLS,RobeNameTable_Eng)
+F_ROTP(RobeTopLayer_CLS,RobeTopLayer)
 --------------------------------------------------------------

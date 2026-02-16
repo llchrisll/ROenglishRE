@@ -5,13 +5,11 @@
 -- This file only works if used in combination with the `Custom Lua Support`
 
 TB_Layer_Priority_CLS = {
-	Items_List = {
-		-- I don't know exactly, what the all these flags (Default, Direction, etc) do
-		-- [ACCESSORY_IDs_CLS.ACCESSORY_] = { Default = 304, isIgnoreRiding = true }, 
-		-- [ACCESSORY_IDs_CLS.ACCESSORY_] = { Default = 143, Direction = {} },
-	}
+	-- I don't know exactly, what the all these flags (Default, Direction, etc) do
+	-- [ACCESSORY_IDs_CLS.ACCESSORY_] = { Default = 304, isIgnoreRiding = true }, 
+	-- [ACCESSORY_IDs_CLS.ACCESSORY_] = { Default = 143, Direction = {} },
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
 require('SystemEN/LuaFiles514/rotp_f')
-F_LuaTableMerge(TB_Layer_Priority_CLS.Items_List,TB_Layer_Priority.Items_List)
+F_ROTP(TB_Layer_Priority_CLS,TB_Layer_Priority.Items_List)
 --------------------------------------------------------------

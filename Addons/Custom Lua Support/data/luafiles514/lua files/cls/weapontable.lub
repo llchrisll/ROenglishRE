@@ -33,9 +33,9 @@ BowTypeList_CLS = {
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
 require('SystemEN/LuaFiles514/rotp_f')
-F_LuaTableMerge(Weapon_IDs_CLS,Weapon_IDs)
-F_LuaTableMerge(WeaponNameTable_CLS,WeaponNameTable)
-F_LuaTableMerge(Expansion_Weapon_IDs_CLS,Expansion_Weapon_IDs)
-F_LuaTableMerge(WeaponHitWaveNameTable_CLS,WeaponHitWaveNameTable)
-F_LuaTableMerge(BowTypeList_CLS,BowTypeList)
+F_ROTP(Weapon_IDs_CLS,Weapon_IDs)
+F_ROTP(WeaponNameTable_CLS,WeaponNameTable)
+F_ROTP(Expansion_Weapon_IDs_CLS,Expansion_Weapon_IDs)
+F_ROTP(WeaponHitWaveNameTable_CLS,WeaponHitWaveNameTable)
+F_ROTP(BowTypeList_CLS,BowTypeList)
 --------------------------------------------------------------

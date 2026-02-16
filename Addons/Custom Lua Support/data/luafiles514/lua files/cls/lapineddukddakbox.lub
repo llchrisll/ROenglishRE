@@ -5,32 +5,30 @@
 -- This file only works if used in combination with the `Custom Lua Support`
 
 tblLapineDdukddakBox_CLS = {
-	sources = {
-		--[[ Note: Following comments might be not correct!
-		CustomDukBox = { -- Item Name in Database or just in lua file
-			ItemID -- Item ID of Box
-			NeedCount -- Required amount of materials listed in 'SourceItems'
-			NeedRefineMin -- Required minimum Refine Level of each
-			NeedRefineMax -- Required maximum Refine Level of each
-			SourceItems = { -- List of possible materials
-				{ "Item Name for Overview", <Min amount per exchange>, <Item ID> }
-			},
-			NeedSource_String -- "Text Display of required items"
-		}
-		]]
-		CustomDukBox = {
-			ItemID = 360000,
-			NeedCount = 1,
-			NeedRefineMin = 7,
-			NeedRefineMax = 10,
-			SourceItems = {
-				{ "OverviewName", 1, 35000 }
-			},
-			NeedSource_String = "Test Text"
-		}
+	--[[ Note: Following comments might be not correct!
+	CustomDukBox = { -- Item Name in Database or just in lua file
+		ItemID -- Item ID of Box
+		NeedCount -- Required amount of materials listed in 'SourceItems'
+		NeedRefineMin -- Required minimum Refine Level of each
+		NeedRefineMax -- Required maximum Refine Level of each
+		SourceItems = { -- List of possible materials
+			{ "Item Name for Overview", <Min amount per exchange>, <Item ID> }
+		},
+		NeedSource_String -- "Text Display of required items"
+	}
+	]]
+	CustomDukBox = {
+		ItemID = 360000,
+		NeedCount = 1,
+		NeedRefineMin = 7,
+		NeedRefineMax = 10,
+		SourceItems = {
+			{ "OverviewName", 1, 35000 }
+		},
+		NeedSource_String = "Test Text"
 	}
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
 require('SystemEN/LuaFiles514/rotp_f')
-F_LuaTableMerge(tblLapineDdukddakBox_CLS.sources,tblLapineDdukddakBox.sources)
+F_ROTP(tblLapineDdukddakBox_CLS,tblLapineDdukddakBox.sources,nil,true)
 --------------------------------------------------------------

@@ -25,7 +25,7 @@ effectHatItemTable_CLS = {
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
 require('SystemEN/LuaFiles514/rotp_f')
-F_LuaTableMerge(HatEFID_CLS,HatEFID)
-F_LuaTableMerge(hatEffectTable_CLS,hatEffectTable)
-F_LuaTableMerge(effectHatItemTable_CLS,effectHatItemTable)
+F_ROTP(HatEFID_CLS,HatEFID)
+F_ROTP(hatEffectTable_CLS,hatEffectTable,nil,true)
+F_ROTP(effectHatItemTable_CLS,effectHatItemTable)
 --------------------------------------------------------------

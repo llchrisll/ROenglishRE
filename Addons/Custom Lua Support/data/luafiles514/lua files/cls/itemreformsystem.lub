@@ -1,0 +1,42 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- This file only works if used in combination with the `Custom Lua Support`
+
+ReformInfo_CLS = {
+	--[[ Example:
+	[2000] = {
+		BaseItem = "TestItem1",
+		Material = {},
+		ResultItem = "TestItem2",
+		NeedRefineMin = 0,
+		NeedRefineMax = 0,
+		NeedOptionNumMin = 0,
+		IsEmptySocket = false,
+		ChangeRefineValue = 1,
+		RandomOptionCode = "",
+		PreserveSocketItem = false,
+		PreserveGrade = false,
+		InformationString = {
+			"<B>Combination Result</B>",
+			"1) Refine Level: ^4D4DFF+1^000000",
+			"2) Random Options: 2",
+			"3) Cards: Not transfered",
+			"4) Grade Rating: Not transfered"
+		}
+	}
+	RandomOptionCode: Usually they use a certain value, but that only is effective for AEGIS itself.
+	                  So feel free to leave it at ""
+	]]
+}
+ReformItemList_CLS = {
+	-- This table points boxes to their respective Items, also requires entry in itemdbnametbl.lub
+	-- TestBox = { 2000 },
+}
+
+-----------     DON'T TOUCH THESE LINES AT ALL     -----------
+require('SystemEN/LuaFiles514/rotp_f')
+F_ROTP(ReformInfo_CLS,ReformInfo,1)
+F_ROTP(ReformItemList_CLS,ReformItemList)
+--------------------------------------------------------------

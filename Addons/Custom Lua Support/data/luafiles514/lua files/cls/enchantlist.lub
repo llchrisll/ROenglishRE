@@ -1,0 +1,31 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- This file only works if used in combination with the `Custom Lua Support`
+
+--[[
+General Info:
+<chance> max is 100000 (100%)
+All of the fields below have to be present!
+
+	Table[<ID>] = CreateEnchantInfo() is important and the ID should match with the one you have in your item_enchant.yml
+	SetSlotOrder(3 ,2, 1, 0): Defines the order in which the enchants will be applied, can be all or just one
+	AddTargetItem("<ITEM>"): Defines the item which are enchantable, entries must exist in itemdbnametbl.lub
+	SetCondition(0, 0): Defines the min refine level and min grade
+	ApproveRandomOption(true): Not sure what this does, kRO doesn't really use anything else.
+	SetReset(true or false, <chance>, <Zeny>): Defines if Reset is possible, the chance and the cost.
+	SetCaution(""): Contains the text displayed in the UI, \n is used for new line.
+	.Slot[<X>]: Defines the slot on which the enchantment info will be applied.
+	SetSuccessRate(1000000): The total SuccessRate can't be below 0 and higher than 100000, especially if you use SetGradeBonus as well.
+	SetGradeBonus(1,0): Defines how much bonus various grades give.
+	SetEnchant(0, "<ITEM>", <chance>): 0 = grade; Defines which Enchantment can be applied to which chance.
+	
+	These fields must be defined for each .Slot[] separatly.
+	
+	.Slot[<X>]:AddPerfectEnchant(<ITEM>, Zeny, ...): Defines the PerfectEnchants for the last slot in most cases.
+	But for these the grade will be ignored, but can contain multiple item requirements:
+	
+	AddPerfectEnchant("Wolf_Orb_R_Reject_3", 10000000, {"Ep18_Amethyst_Fragment", 2500} )
+	The "Wolf_Orb_R_Reject_3" enchantment can be applied for a price of 10m Zeny and 2500x "Ep18_Amethyst_Fragment"
+]]
