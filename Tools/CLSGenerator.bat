@@ -32,11 +32,12 @@ echo [7] Signboards %cls[7]%
 echo [8] Robes/Costume Garments %cls[8]%
 echo [9] Weapons %cls[9]%
 echo [10] World Map %cls[10]%
-echo [11] Exit
+echo [11] Skill Infoz %cls[11]%
+echo [12] Exit
 echo ===============
 set /p type="Now choose: "
 
-if %type% lss 11 (
+if %type% lss 12 (
     if exist "Client\data\luafiles514\lua files\cls" rmdir /Q /S "Client\data\luafiles514\lua files\cls\"
 )
 
@@ -47,7 +48,6 @@ if %type% equ 1 (
     xcopy "%sourceDataPath%\cls\accname.lub" "%destinationDataPath%\cls\accname.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\tb_layer_priority.lub" "%destinationDataPath%\cls\tb_layer_priority.lub"* /H /C /I /Y
 ) else if %type% equ 3 (
-    xcopy "%sourceDataPath%\cls\enumvar.lub" "%destinationDataPath%\cls\enumvar.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\randomoption.lub" "%destinationDataPath%\cls\randomoption.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\addrandomoption_f.lub" "%destinationDataPath%\cls\addrandomoption_f.lub"* /H /C /I /Y
 ) else if %type% equ 4 (
@@ -71,12 +71,17 @@ if %type% equ 1 (
     xcopy "%sourceDataPath%\cls\worldviewdata_language.lub" "%destinationDataPath%\cls\worldviewdata_language.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\worldviewdata_list.lub" "%destinationDataPath%\cls\worldviewdata_list.lub"* /H /C /I /Y
     xcopy "%sourceDataPath%\cls\worldviewdata_table.lub" "%destinationDataPath%\cls\worldviewdata_table.lub"* /H /C /I /Y
+) else if %type% equ 11 (
+    xcopy "%sourceDataPath%\cls\skillid.lub" "%destinationDataPath%\cls\skillid.lub"* /H /C /I /Y
+    xcopy "%sourceDataPath%\cls\skilldescript.lub" "%destinationDataPath%\cls\skilldescript.lub"* /H /C /I /Y
+    xcopy "%sourceDataPath%\cls\skillinfolist.lub" "%destinationDataPath%\cls\skillinfolist.lub"* /H /C /I /Y
+    xcopy "%sourceDataPath%\cls\skilltreeview.lub" "%destinationDataPath%\cls\skilltreeview.lub"* /H /C /I /Y
 )
 
-if %type% lss 11 (
+if %type% lss 12 (
     
     if %type% equ 1 (
-        for /L %%i in (2,1,10) do (
+        for /L %%i in (2,1,11) do (
             set cls[%%i]= [ Copied ]
         )
     ) else (

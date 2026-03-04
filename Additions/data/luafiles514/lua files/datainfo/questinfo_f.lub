@@ -54,10 +54,10 @@ end
 
 function RecommendedQuestInfoLoad()
 	if QuestInfoList_C ~= nil then
-		F_LuaTableMerge(QuestInfoList_C,QuestInfoList)
+		F_ROTP(QuestInfoList_C,QuestInfoList)
 	end
 	if RecommendedQuests_C ~= nil then
-		F_LuaTableMerge(RecommendedQuests_C,RecommendedQuestInfoList)
+		F_ROTP(RecommendedQuests_C,RecommendedQuestInfoList)
 	end
 	-----------------------------------------------------------
 	for questID, table in pairs(RecommendedQuestInfoList) do

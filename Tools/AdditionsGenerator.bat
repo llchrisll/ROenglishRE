@@ -156,27 +156,15 @@ exit
 	if %lua% equ 0 (
 		goto AdditionsMenu
 	) else if %lua% equ 1 (
-		if %cdate% lss 20250802 (
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobename.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobename.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub" "%destinationDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\efstids.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\efstids.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub"* /H /C /I /Y
-		) else (
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\spriterobeid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\spriterobename.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobename.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\transparentItem\transparentItem.lub" "%destinationDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\stateicon\efstids.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\efstids.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\stateicon\stateiconimginfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\worldviewdata\worldviewdata_table.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub"* /H /C /I /Y
-		)
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobename.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobename.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub" "%destinationDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\efstids.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\efstids.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname_eng.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname_eng.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\changedirectorylist.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\changedirectorylist.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\DrawItemOnAura.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\DrawItemOnAura.lub"* /H /C /I /Y
@@ -197,55 +185,29 @@ exit
 		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\stylingshop\" "%destinationDataPath%\luafiles514\stylingshop\"* /E /H /C /I /Y
 		if %cdate% geq 20211028 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
 		)
 		if %cdate% geq 20230802 (
 			xcopy "%sourceDataPath%\luafiles514\CashEmotion\" "%destinationDataPath%\luafiles514\CashEmotion\"* /E /H /C /I /Y
-			if %cdate% lss 20250901 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties 202509.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
 		)
 		if %cdate% geq 20240311 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
 		)
 		if %cdate% geq 20240417 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
 			xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\HatEffect_F.lub" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\HatEffect_F.lub"* /H /C /I /Y
 		)
 		if %cdate% geq 20240502 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
 		)
 		if %cdate% geq 20250618 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\skillinfoz\skilldelaylist.lub" "%destinationDataPath%\luafiles514\lua files\skillinfoz\skilldelaylist.lub"* /H /C /I /Y
 		)
 	) else if %lua% equ 2 (
-		if %cdate% lss 20250802 (
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
-		) else (
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
-		)
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_layer_priority.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname_eng.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname_eng.lub"* /H /C /I /Y
 	) else if %lua% equ 3 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\changedirectorylist.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\changedirectorylist.lub"* /H /C /I /Y
@@ -262,15 +224,9 @@ exit
 	) else if %lua% equ 9 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\shadowtable.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\shadowtable.lub"* /H /C /I /Y
 	) else if %lua% equ 10 (
-		if %cdate% lss 20250802 (
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobename.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobename.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub" "%destinationDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub"* /H /C /I /Y
-		) else (
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\spriterobeid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\datainfo\spriterobename.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobename.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\transparentItem\transparentItem.lub" "%destinationDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub"* /H /C /I /Y
-		)
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobeid.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\spriterobename.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\spriterobename.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub" "%destinationDataPath%\luafiles514\lua files\transparentItem\transparentItem.lub"* /H /C /I /Y
 	) else if %lua% equ 11 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\tb_cashshop_banner.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\tb_cashshop_banner.lub"* /H /C /I /Y
 	) else if %lua% equ 12 (
@@ -279,20 +235,12 @@ exit
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\weapontable.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\weapontable.lub"* /H /C /I /Y
 	) else if %lua% equ 14 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_info.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_info.lub"* /H /C /I /Y
-		if %cdate% lss 20250802 (
 			xcopy "%sourceDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub"* /H /C /I /Y
-		) else (
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\worldviewdata\worldviewdata_table.lub" "%destinationDataPath%\luafiles514\lua files\worldviewdata\worldviewdata_table.lub"* /H /C /I /Y
-		)
 	) else if %lua% equ 15 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\effecttool\forcerendereffect.lub" "%destinationDataPath%\luafiles514\lua files\effecttool\forcerendereffect.lub"* /H /C /I /Y
 	) else if %lua% equ 16 (
 		if %cdate% geq 20240417 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"* /H /C /I /Y
 		) else (
 			echo The files for the new hateffectinfo are only supported by 2024-04-17 clients or newer!
 			pause
@@ -309,23 +257,14 @@ exit
 			xcopy "%sourceDataPath%\luafiles514\lua files\skillinfoz\skilldelaylist.lub" "%destinationDataPath%\luafiles514\lua files\skillinfoz\skilldelaylist.lub"* /H /C /I /Y
 		)
 	) else if %lua% equ 19 (
-		if %cdate% lss 20250802 (
-			xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\efstids.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\efstids.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub"* /H /C /I /Y
-		) else (
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\stateicon\efstids.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\efstids.lub"* /H /C /I /Y
-			xcopy "%sourceDataPath%\luafiles514\lua files 20250802\stateicon\stateiconimginfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub"* /H /C /I /Y
-		)
+		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\efstids.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\efstids.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconimginfo.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\stateicon\stateiconinfo_f.lub"* /H /C /I /Y
 	) else if %lua% equ 20 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub" "%destinationDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub"* /H /C /I /Y
 	) else if %lua% equ 21 (
 		if %cdate% geq 20211028 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
 		) else (
 			echo The file for ItemDBNameTbl is only supported by 2021-10-28 clients or newer!
 			pause
@@ -333,11 +272,7 @@ exit
 		)
 	) else if %lua% equ 22 (
 		if %cdate% geq 20230802 (
-			if %cdate% lss 20250901 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties 202509.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub" "%destinationDataPath%\luafiles514\lua files\EquipmentProperties\EquipmentProperties.lub"* /H /C /I /Y
 		) else (
 			echo The file for EquipmentProperties is only supported by 2023-08-02 clients or newer!
 			pause
@@ -353,11 +288,7 @@ exit
 		)
 	) else if %lua% equ 24 (
 		if %cdate% geq 20240311 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub" "%destinationDataPath%\luafiles514\lua files\probabilityinfo\simplecashshopscript.lub"* /H /C /I /Y
 		) else (
 			echo The files for probabilityinfo are only supported by 2024-03-11 clients or newer!
 			pause
@@ -365,11 +296,7 @@ exit
 		)
 	) else if %lua% equ 25 (
 		if %cdate% geq 20240502 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceDataPath%\luafiles514\lua files\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
-			) else (
-				xcopy "%sourceDataPath%\luafiles514\lua files 20250802\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
-			)
+			xcopy "%sourceDataPath%\luafiles514\lua files\AdventureGuide\" "%destinationDataPath%\luafiles514\lua files\AdventureGuide\"* /H /C /I /Y
 		) else (
 			echo The file for AdventureGuide is only supported by 2024-05-02 clients or newer!
 			pause
@@ -448,11 +375,7 @@ if %lua% equ 1 (
 			xcopy "%sourceSystemPath%\mapinfo_C.lub" "%destinationSystemPath%\mapinfo_C.lub"* /H /C /I /Y
 		)
 		if %cdate% geq 20230802 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y
-			) else (
-				xcopy "%sourceSystemPath%\Rune 20250802\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y
-			)
+			xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y
 			if %cdate% lss 20241016 (
 				if exist "%destinationSystemPath%\Rune\set_reward.lub" del /S /Q "%destinationSystemPath%\Rune\set_reward.lub"
 			)
@@ -495,11 +418,7 @@ if %lua% equ 1 (
 		xcopy "%sourceSystemPath%\Towninfo_C.lub" "%destinationSystemPath%\Towninfo_C.lub"* /H /C /I /Y
 	) else if %sys% equ 11 (
 		if %cdate% geq 20230802 (
-			if %cdate% lss 20250802 (
-				xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\" /E /H /C /I /Y
-			) else (
-				xcopy "%sourceSystemPath%\Rune 20250802\" "%destinationSystemPath%\Rune\" /E /H /C /I /Y
-			)
+			xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\" /E /H /C /I /Y
 			if %cdate% lss 20241016 (
 				if exist "%destinationSystemPath%\Rune\set_reward.lub" del /S /Q "%destinationSystemPath%\Rune\set_reward.lub"
 				echo set_reward.lub was removed because it requires 2024-10-16 clients and newer!

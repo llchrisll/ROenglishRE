@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240713
+-- Last updated: 20260304
 -- ToDo: Globalize `[Standby]` instead of anything else for cooldown quests, will be done when I sync all of them.
 
 QuestInfoList = {}
@@ -16315,7 +16315,7 @@ QuestInfoList = {
 			"we retrieved the food of the wild animals that someone had left behind.",
 			"It's relatively simple and the pay isn't bad.",
 			"Let's visit <NAVI>[Supplier Officer Gorir]<INFO>icecastle,97,177,0,101,0</INFO></NAVI> again tomorrow.",
-			"-",
+			"",
 			"» If you are inside the Memorial Dungeon, the directions may not be smooth."
 		},
 		Summary = "Reset at 04:00",
@@ -16337,7 +16337,7 @@ QuestInfoList = {
 		Description = {
 			"Retrieved food from wild animals that someone had left behind.",
 			"Report to <NAVI>[Supplier Officer Gorir]<INFO>icecastle,97,177,0,101,0</INFO></NAVI>.",
-			"-",
+			"",
 			"» If you are inside the Memorial Dungeon, the directions may not be smooth."
 		},
 		Summary = ""
@@ -16368,7 +16368,7 @@ QuestInfoList = {
 			"<NAVI>[Private Horilyu]<INFO>icas_in,34,56,0,101,0</INFO></NAVI> seems to need",
 			"warm feathers to withstand the cold. Bring me",
 			"10 feathers of one type from the list below.",
-			"-",
+			"",
 			"<ITEM>[Round Feather]<INFO>6393</INFO></ITEM>",
 			"<ITEM>[Soft Feather]<INFO>7063</INFO></ITEM>",
 			"<ITEM>[Burning Feather]<INFO>6691</INFO></ITEM>",
@@ -16388,7 +16388,7 @@ QuestInfoList = {
 			"While on patrol, I met a mysterious young man,",
 			"but he disappeared immediately. You said you were going in",
 			"the direction of <NAVI>[Frozen Scale Plains]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>? Let's visit when the time comes.",
-			"-",
+			"",
 			"» If you are inside the Memorial Dungeon, the directions may not be smooth."
 		},
 		Summary = ""
@@ -16536,6 +16536,14 @@ QuestInfoList = {
 		NpcNavi = "jor_back2",
 		NpcPosX = "250",
 		NpcPosY = "30"
+	},
+	[5996] = {
+		Title = "Devil's Special Meal",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The <NAVI>[Devil of the Box]<INFO>c_tower1,243,202,0,101,0</INFO></NAVI> demands a special meal about once a week. It said that the souls of 3000 monsters in the <NAVI>[Clock Tower Unknown Basement]<INFO>clock_01,84,44,0,101,0</INFO></NAVI> are sufficient for a special meal."
+		},
+		Summary = "Clock Tower Unknown Basement Monster 3000"
 	},
 	[6000] = {
 		Title = "Job Change to Taekwon",
@@ -21693,14 +21701,14 @@ QuestInfoList = {
 	[7699] = {
 		Title = "To the Past",
 		Description = {
-			"You have been asked to visit the Past Memories of the Royal Family with Nillem by connecting the gaps in the dimension. Where is Nillem?"
+			"You have been asked to visit the Past Memories of the Royal Family with Nilem by connecting the gaps in the dimension. Where is Nilem?"
 		},
-		Summary = "Talk to Nillem"
+		Summary = "Talk to Nilem"
 	},
 	[7700] = {
 		Title = "Once More!",
 		Description = {
-			"Move once more through the gap in the dimension which Nillem has twisted by force. What happened in the Ritual Room in the past?"
+			"Move once more through the gap in the dimension which Nilem has twisted by force. What happened in the Ritual Room in the past?"
 		},
 		Summary = "To the Ritual Room"
 	},
@@ -21714,7 +21722,7 @@ QuestInfoList = {
 	[7702] = {
 		Title = "Prontera at the Time",
 		Description = {
-			"Prontera has been attacked by the Undead before, and it is taking place right now. You have decided to go out there after a persistent persuasion by Nillem."
+			"Prontera has been attacked by the Undead before, and it is taking place right now. You have decided to go out there after a persistent persuasion by Nilem."
 		},
 		Summary = "To the Outside"
 	},
@@ -21740,9 +21748,9 @@ QuestInfoList = {
 		Summary = "Ritual Room in the Past"
 	},
 	[7706] = {
-		Title = "Nillem Is Not Almighty",
+		Title = "Nilem Is Not Almighty",
 		Description = {
-			"Multiple connection is a difficult thing even for Nillem. I think there is a certain limit to connect to the Ritual Room. Let's wait for Nillem's recovery."
+			"Multiple connection is a difficult thing even for Nilem. I think there is a certain limit to connect to the Ritual Room. Let's wait for Nilem's recovery."
 		},
 		Summary = "Reset at 04:00",
 		CoolTimeQuest = 1
@@ -26295,7 +26303,7 @@ QuestInfoList = {
 		Title = "Nothing to See",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 20 Hunt Contaminated Raydrics and 20 Contaminated Raydric Archers to gather more information."
+			"<NAVI>[Mage Nilem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 20 Hunt Contaminated Raydrics and 20 Contaminated Raydric Archers to gather more information."
 		},
 		Summary = "Hunt 20 Contaminated Raydrics and 20 Contaminated Raydric Archers."
 	},
@@ -26303,7 +26311,7 @@ QuestInfoList = {
 		Title = "Nothing to See - Wait",
 		IconName = "ico_dq.bmp",
 		Description = { 
-			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
+			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nilem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Reset at 04:00",
 		CoolTimeQuest = 1
@@ -26320,7 +26328,7 @@ QuestInfoList = {
 		Title = "High Freezing Point",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 5 Frozen Gargoyles and 5 Prison Breakers to gather more information."
+			"<NAVI>[Mage Nilem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 5 Frozen Gargoyles and 5 Prison Breakers to gather more information."
 		},
 		Summary = "Hunt 5 Frozen Gargoyles and 5 Prison Breakers."
 	},
@@ -26328,7 +26336,7 @@ QuestInfoList = {
 		Title = "High Freezing Point - Wait",
 		IconName = "ico_dq.bmp",
 		Description = { 
-			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
+			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nilem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Reset at 04:00",
 		CoolTimeQuest = 1
@@ -26345,7 +26353,7 @@ QuestInfoList = {
 		Title = "A Mirror",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 10 Ice Ghosts and 10 Flame Ghosts to gather more information."
+			"<NAVI>[Mage Nilem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI> asked you to hunt 10 Ice Ghosts and 10 Flame Ghosts to gather more information."
 		},
 		Summary = "Hunt 10 Ice Ghosts and 10 Flame Ghosts."
 	},
@@ -26353,7 +26361,7 @@ QuestInfoList = {
 		Title = "A Mirror - Wait",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nillem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
+			"This is a daily quest, you can take it again tomorrow when the timer expires. Speak with <NAVI>[Mage Nilem]<INFO>glast_01,190,273,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Reset at 04:00",
 		CoolTimeQuest = 1
@@ -28388,10 +28396,10 @@ QuestInfoList = {
 		Title = "Reluctantly pretending to help",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Sacred Roots here and there are in need of \"capable messengers who have just returned from reconnaissance'. Without even knowing who they really are.",
+			"Sacred Roots here and there are in need of \"capable messengers\" who have just returned from reconnaissance. Without even knowing who they really are.",
 			"* <NAVI>[Gomiagand]<INFO>jor_sanct,215,84,0,101,0</INFO></NAVI>",
 			"* <NAVI>[Halseybygand]<INFO>jor_sanct,190,128,0,101,0</INFO></NAVI>",
-			"* <NAVI>[Pamochegan]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Pamosugand]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI>",
 			"* <NAVI>[Nasioramigand]<INFO>jor_sanct,271,156,0,101,0</INFO></NAVI>",
 			"* <NAVI>[Eryligand]<INFO>jor_sanct,101,138,0,101,0</INFO></NAVI>"
 		},
@@ -28425,16 +28433,16 @@ QuestInfoList = {
 		Title = "Silent Answer",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Pamochegan of the Sacred Root asks you to get 20x <ITEM>[Large Gray Feather]<INFO>1001244</INFO></ITEM>.",
-			"Leaving <NAVI>[Doriri Logand]<INFO>jor_sanct,258,117,0,101,0</INFO></NAVI> alone, who was assigned as his direct subordinate... !"
+			"Pamosugand of the Sacred Root asks you to get 20x <ITEM>[Large Gray Feather]<INFO>1001244</INFO></ITEM>.",
+			"Leaving <NAVI>[Doririrogand]<INFO>jor_sanct,258,117,0,101,0</INFO></NAVI> alone, who was assigned as his direct subordinate... !"
 		},
-		Summary = "After delivering the items, talk to Doriri Logand"
+		Summary = "After delivering the items, talk to Doririrogand"
 	},
 	[8844] = {
 		Title = "[Standby] Example of Silent Answer",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"This quest is a daily quest, and when the waiting time expires, you can receive it again from <NAVI>[Pamochegan]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI>."
+			"This quest is a daily quest, and when the waiting time expires, you can receive it again from <NAVI>[Pamosugand]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Reset at 04:00",
 		CoolTimeQuest = 1
@@ -28443,7 +28451,7 @@ QuestInfoList = {
 		Title = "Example of Silent Answer",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"<NAVI>[Pamochegan]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI> asks you to get 20x <ITEM>[Large Gray Feather]<INFO>1001244</INFO></ITEM>. ...But whose orders are these? Doriri Logand?"
+			"<NAVI>[Pamosugand]<INFO>jor_sanct,257,115,0,101,0</INFO></NAVI> asks you to get 20x <ITEM>[Large Gray Feather]<INFO>1001244</INFO></ITEM>. ...But whose orders are these? Doririrogand?"
 		},
 		Summary = "Deliver 20 Large Gray Feathers"
 	},
@@ -28565,6 +28573,991 @@ QuestInfoList = {
 			"10x <ITEM>[Soft Fluorescent Cells(Sour)]<INFO>1001231</INFO></ITEM> to <NAVI>[Toryoryo]<INFO>icas_in,243,66,0,101,0</INFO></NAVI>."
 		},
 		Summary = "Gather Materials"
+	},
+	[8859] = {
+		Title = "Recover 5 trapped items",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Recover 5 trapped items."
+		},
+		Summary = "Speak with Erwin"
+	},
+	[8860] = {
+		Title = "Dr. Eggman's Secret Base",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"An adventurer encounters Sonic, who suddenly falls into a corner of the library. Together with Sonic and Tails, they must defeat Dr. Eggman and retrieve the Chaos Emeralds!"
+		},
+		Summary = "Defeat Dr. Eggman"
+	},
+	[8861] = {
+		Title = "[Standby] Dr. Eggman's Secret Base",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"This quest is a daily quest. When the standby time expires, you can read the <NAVI>[book]<INFO>prt_elib,40,35,0,101,0</INFO></NAVI> again.",
+			"For Dr. Eggman's Secret Base, you can read the <NAVI>[book]<INFO>prt_elib,40,35,0,101,0</INFO></NAVI> once a day by giving the <ITEM>[Sonic Badge]<INFO>1001549</INFO></ITEM> to <NAVI>[Tails]<INFO>prt_elib,40,39,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8862] = {
+		Title = "Why are they here?",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Animal Rescue"
+		},
+		Summary = "Animal Rescue"
+	},
+	[8863] = {
+		Title = "Inside the base...",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I didn't know what dangers awaited me, but I decided to explore the base with Sonic and Tails."
+		},
+		Summary = "Explore the base"
+	},
+	[8864] = {
+		Title = "Talk to Chao",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Let's talk to Chao and the others."
+		},
+		Summary = "Talk to Chao"
+	},
+	[8865] = {
+		Title = "Chao's Answer",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I talked to Chao."
+		},
+		Summary = ""
+	},
+	[8866] = {
+		Title = "Chao's Answer",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I talked to Chao."
+		},
+		Summary = ""
+	},
+	[8867] = {
+		Title = "Chao's Answer",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I talked to Chao."
+		},
+		Summary = ""
+	},
+	[8868] = {
+		Title = "Chao's Answer",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I talked to Chao."
+		},
+		Summary = ""
+	},
+	[8869] = {
+		Title = "Talk to Sonic",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Chao seem fine. Let's talk to Sonic."
+		},
+		Summary = "Talk to Sonic"
+	},
+	[8870] = {
+		Title = "The adventure is over",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"The adventure with Sonic, Tails, and Knuckles will be unforgettable! But... I feel like <NAVI>[someone]<INFO>prt_elib,45,51,0,101,0</INFO></NAVI> is calling me."
+		},
+		Summary = "Talk to the librarian."
+	},
+	[8871] = {
+		Title = "New Book",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"A <NAVI>[New Book]<INFO>prt_elib,40,35,0,101,0</INFO></NAVI> has been placed in the East Prontera Library for a limited time."
+		},
+		Summary = "Talk to Sonic"
+	},
+	[8872] = {
+		Title = "Inside the base...",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"If Eggman has a brainwashed animal friend, destroy the attached brainwashing device. But what if he doesn't have an animal friend...?"
+		},
+		Summary = "Moving through the passage"
+	},
+	[8873] = {
+		Title = "Defeat Metal Sonic!",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Metal Sonic, blocking the path, is targeting adventurers for some reason. Defeat Metal Sonic and advance to the next section!"
+		},
+		Summary = "Defeat Metal Sonic"
+	},
+	[8874] = {
+		Title = "Inside the base...",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"What awaits after defeating Metal Sonic?"
+		},
+		Summary = "Moving through the passage"
+	},
+	[8875] = {
+		Title = "Defeat Knuckles!",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Didn't Sonic say earlier that Knuckles was his comrade?"
+		},
+		Summary = "Defeat Knuckles"
+	},
+	[8876] = {
+		Title = "Inside the base...",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"If Eggman has a brainwashed animal friend, destroy the attached brainwashing device."
+		},
+		Summary = "Moving through the passage"
+	},
+	[8877] = {
+		Title = "Inside the base...",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"If Eggman has a brainwashed animal friend, destroy the attached brainwashing device. If he doesn't have an animal friend..."
+		},
+		Summary = "Moving through the passage"
+	},
+	[8878] = {
+		Title = "Defeat Eggman!",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Defeat Dr. Eggman and retrieve the Chaos Emeralds!"
+		},
+		Summary = "Defeat Eggman"
+	},
+	[8879] = {
+		Title = "Don't Run!",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Find the Runaway Dr. Eggman!"
+		},
+		Summary = "Moving through the passage"
+	},
+	[8880] = {
+		Title = "Defeat Eggman!",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Defeat Dr. Eggman and retrieve the Chaos Emeralds!"
+		},
+		Summary = "Defeat Eggman"
+	},
+	[8881] = {
+		Title = "[Standby] Re-reading the Book",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"This quest is a daily quest. When the waiting time expires, you will be able to read <NAVI>[the book]<INFO>prt_elib,40,35,0,101,0</INFO></NAVI> again."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8882] = {
+		Title = "Ivan Wigner's Pleasant Missionary Life",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I was planning to speak with Ivan Wigner at Lunaforma, but both he and Lehar are busy. Let's help <NAVI>[Lehar]<INFO>jor_mbase,214,316,0,101,0</INFO></NAVI> prepare the food."
+		},
+		Summary = "Talk with Lehar"
+	},
+	[8883] = {
+		Title = "Lehar's Rewarding Relief Work (1)",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Lunaforma's shelter has been expanded to provide meals using available ingredients, and it turns out that <NAVI>[Lehar]<INFO>jor_mbase,214,316,0,101,0</INFO></NAVI> possesses a hidden talent for perfectly cooking cauldron rice!"
+		},
+		Summary = "Talk with Lehar"
+	},
+	[8884] = {
+		Title = "Lehar's Rewarding Relief Work (2)",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Thankfully, the Lunaforma shelter is operating smoothly without any major issues. After the meal distribution, I decided to have a meal with <NAVI>[Lehar]<INFO>jor_mbase,214,316,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk with Lehar"
+	},
+	[8885] = {
+		Title = "He's robbing the whole house!",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Lehar]<INFO>jor_mbase,214,316,0,101,0</INFO></NAVI> heard that Ivan had poured a considerable amount of money from the Wigner Group into building a shelter in Lunaforma."
+		},
+		Summary = "Talk with Lehar"
+	},
+	[8886] = {
+		Title = "Lehar's Rewarding Relief Work (3)",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The food distribution at the Lunaforma shelter is complete. Now, let's take a breather and have a meal with <NAVI>[Ivan]<INFO>jor_mbase,189,282,0,101,0</INFO></NAVI> and Lehar."
+		},
+		Summary = "Talk with Ivan"
+	},
+	[8887] = {
+		Title = "People who saw the ghost ship (1)",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Talk to <NAVI>[Lyric]<INFO>jor_mbase,185,311,0,101,0</INFO></NAVI> in Lunaforma.."
+		},
+		Summary = "Talk with Lyric"
+	},
+	[8888] = {
+		Title = "People who saw the ghost ship (2)",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Talk to <NAVI>[Lyric]<INFO>jor_mbase,185,311,0,101,0</INFO></NAVI> in Lunaforma."
+		},
+		Summary = "Talk with Lyric"
+	},
+	[8889] = {
+		Title = "Ivan's Scheme",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Lyric's story wasn't helpful, but it confirmed the existence of the ghost ship. Let's hear <NAVI>[Ivan]<INFO>jor_mbase,233,277,0,101,0</INFO></NAVI>'s story."
+		},
+		Summary = "Talk with Ivan"
+	},
+	[8890] = {
+		Title = "Ivan's Errand",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Meet <NAVI>[Lalira Wigner]<INFO>jalbe_in,56,138,0,101,0</INFO></NAVI> at the top of Wigner in Alberta."
+		},
+		Summary = "Talk to Lalira Wigner­"
+	},
+	[8891] = {
+		Title = "Ivan's Old Folly",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"At the top of Alberta's Wigner, Lara told Ivan <NAVI>[where]<INFO>jalbe_in,73,187,0,101,0</INFO></NAVI> the item he had requested was."
+		},
+		Summary = "Finding the Chest"
+	},
+	[8892] = {
+		Title = "With the Unclaimed Weapon",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Then, it's time to return the weapon to its rightful owner. Return to Lunaforma and speak with <NAVI>[Ivan]<INFO>jor_mbase,233,277,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk with Ivan"
+	},
+	[8893] = {
+		Title = "Infiltrating the Cult",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Now, let's regroup and head north to the Rising Lands. It's time to <NAVI>[infiltrate]<INFO>jor_raise1,323,71,0,101,0</INFO></NAVI> the cult."
+		},
+		Summary = "Infiltrating the Cult"
+	},
+	[8894] = {
+		Title = "The recipient of the letter",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Laraira Wigner, at the top of Wigner, asked you to deliver a letter to <NAVI>[Captain Walter]<INFO>jalbe_in,68,46,0,101,0</INFO></NAVI>. Could it be an important letter?"
+		},
+		Summary = "Talk with Maristella Walter"
+	},
+	[8895] = {
+		Title = "Undignified Inter-Floor Noise (Brief)",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> of Niflheim dislikes noise. If you have time, she'll ask you to clear out around 300 noisy dead creatures in the <NAVI>[Collapsed Opera House]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Kill 300 monsters Niflheim Dungeon F2"
+	},
+	[8896] = {
+		Title = "[Standby] Undignified Inter-Floor Noise (Brief)",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest. When the waiting time expires, you can receive it again from <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8897] = {
+		Title = "Undignified Inter-Floor Noise (Brief)",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"<NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> of Niflheim dislikes noise. If you have time, she'll ask you to clear out around 300 noisy dead creatures in the <NAVI>[Collapsed Opera House]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Kill 300 monsters on the 2nd floor of the Niflheim Dungeon"
+	},
+	[8898] = {
+		Title = "Undignified Inter-Floor Noise (Long)",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> of Niflheim dislikes noise. If you have time, she'll ask you to clear out around 1500 noisy dead creatures in the <NAVI>[Collapsed Opera House]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Kill 1500 monsters Niflheim Dungeon F2"
+	},
+	[8899] = {
+		Title = "[Standby] Undignified Inter-Floor Noise (Long)",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"This quest is a weekly quest, with a waiting time of 4:00 PM on Fridays. You can then pick it up again from <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00 on Friday",
+		CoolTimeQuest = 1
+	},
+	[8900] = {
+		Title = "Undignified Inter-Floor Noise (Long)",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"<NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> of Niflheim dislikes noise. If you have time, she'll ask you to clear out around 1500 noisy dead creatures in the <NAVI>[Collapsed Opera House]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Kill 1500 monsters Niflheim Dungeon F2"
+	},
+	[8901] = {
+		Title = "Where are you going for Chuseok?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Welcome to the Payon Holiday Food Experience Festival! A variety of experiences and prizes await you. Visit <NAVI>[Lanai]<INFO>payon,217,109,0,101,0</INFO></NAVI> at the Payon Front Yard Experience Center."
+		},
+		Summary = "Talk with Lanai"
+	},
+	[8902] = {
+		Title = "Songpyeon Making Experience",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Lanai]<INFO>payon,217,109,0,101,0</INFO></NAVI> offers a songpyeon making experience if you defeat 10 Resurrected Pines and bring them 10x <ITEM>[Pine Needles]<INFO>1001827</INFO></ITEM>, 2x <ITEM>[Bag of Grain]<INFO>577</INFO></ITEM>, 1x <ITEM>[Honey]<INFO>518</INFO></ITEM>."
+		},
+		Summary = "Slay Resurrected Pines and obtain Items"
+	},
+	[8903] = {
+		Title = "Talk to Birun",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Lanai told me that­ <NAVI>[Birun]<INFO>payon_in01,193,37,0,101,0</INFO></NAVI> would be waiting for me inside the first floor of the Payon Inn building."
+		},
+		Summary = "Talk to Birun­"
+	},
+	[8904] = {
+		Title = "Making Holiday Food (1)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring 10 <ITEM>[Potato]<INFO>516</INFO></ITEM> and 1 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM> to <NAVI>[Birun]<INFO>payon_in01,193,37,0,101,0</INFO></NAVI> in Payon."
+		},
+		Summary = "Procuring Items"
+	},
+	[8905] = {
+		Title = "[Standby] Making Holiday Food",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's experience is over! Tomorrow, let's make yakgwa with <NAVI>[Jisoo]<INFO>payon,199,128,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8906] = {
+		Title = "Making Holiday Food (2)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Jisoo]<INFO>payon,199,128,0,101,0</INFO></NAVI> is in charge of making yakgwa at the holiday food experience festival. I wondered why yakgwa was so sweet and delicious, and upon seeing the ingredients, it seems to be the case. All you need are 2 <ITEM>[Bag of Grain]<INFO>577</INFO></ITEM>, 3 <ITEM>[Honey]<INFO>518</INFO></ITEM> and 5 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM>."
+		},
+		Summary = "Procuring Items"
+	},
+	[8907] = {
+		Title = "[Standby] Making Holiday Food ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's experience is over! Tomorrow, let's make bluefish stew with <NAVI>[Naite]<INFO>payon,230,111,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8908] = {
+		Title = "Making Holiday Food (3)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Naite]<INFO>payon,230,111,0,101,0</INFO></NAVI> is in charge of preparing the fish for the holiday food experience festival. The CEO says he needs bluefish instead of whitefish because he prefers bluefish. Still, it's delicious. All you need is 3 <ITEM>[Fish Tail]<INFO>1023</INFO></ITEM> and 2 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM>."
+		},
+		Summary = "Procuring Items"
+	},
+	[8909] = {
+		Title = "A commemorative hat for not returning home",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After completing all three food-making experiences, come to the event headquarters! You'll receive a special souvenir from <NAVI>[Lanai]<INFO>payon,217,109,0,101,0</INFO></NAVI>! However, this only applies to those who bring their own <ITEM>[Self-made Songpyeon]<INFO>103463</INFO></ITEM>..."
+		},
+		Summary = "Bring the Self-made Songpyeon to Lanai"
+	},
+	[8910] = {
+		Title = "Making Sweet Potato Pancakes",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring 10 <ITEM>[Potato]<INFO>516</INFO></ITEM> and 1 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM> to <NAVI>[Birun]<INFO>payon_in01,193,37,0,101,0</INFO></NAVI> in Payon."
+		},
+		Summary = "Procuring Items"
+	},
+	[8911] = {
+		Title = "Making Yakgwa",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Jisoo]<INFO>payon,199,128,0,101,0</INFO></NAVI> is in charge of making yakgwa at the holiday food experience festival. I wondered why yakgwa was so sweet and delicious, and upon seeing the ingredients, it seems to be the case. All you need are 2 <ITEM>[Bag of Grain]<INFO>577</INFO></ITEM>, 3 <ITEM>[Honey]<INFO>518</INFO></ITEM> and 5 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM>."
+		},
+		Summary = "Procuring Items"
+	},
+	[8912] = {
+		Title = "Making Jeonyu Fish",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Naite]<INFO>payon,230,111,0,101,0</INFO></NAVI> is in charge of preparing the fish for the holiday food experience festival. The CEO says he needs bluefish instead of whitefish because he prefers bluefish. Still, it's delicious. All you need is 3 <ITEM>[Fish Tail]<INFO>1023</INFO></ITEM> and 2 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM>."
+		},
+		Summary = "Procuring Items"
+	},
+	[8913] = {
+		Title = "[Standby] Making Holiday Food",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's experience has ended!",
+			"Please visit the experience corner again tomorrow. Only one experience per day is allowed.",
+			"* <NAVI>[Birun]<INFO>payon_in01,193,37,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Jisoo]<INFO>payon,199,128,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Naite]<INFO>payon,230,111,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8914] = {
+		Title = "An Unexpected Timeline",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I thought nothing would change within a fixed timeline, but I received a new request. Nilem's comment that this meant the present would no longer change played a role.",
+			"Let's deliver a letter to <NAVI>[Lalira Wigner]<INFO>jalbe_in,56,138,0,101,0</INFO></NAVI> in Alberta."
+		},
+		Summary = "Talk to Lalira Wigner­"
+	},
+	[8915] = {
+		Title = "Nazar's Eye",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Lalira looks genuinely surprised to receive the letter, but suggests we talk in her office.",
+			"Speak with <NAVI>[Lalira Wigner]<INFO>jalbe_in,71,174,0,101,0</INFO></NAVI> in the office at the Wigner Headquarters in Alberta."
+		},
+		Summary = "Talk to Lalira Wigner­"
+	},
+	[8916] = {
+		Title = "Returning",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Lalira has decided not to accompany you to Lunaforma.",
+			"You must convey Lalira's choice to <NAVI>[Ivan]<INFO>jor_mbase,332,148,0,101,0</INFO></NAVI>, who will be waiting at Lunaforma."
+		},
+		Summary = "Talk with Ivan"
+	},
+	[8917] = {
+		Title = "Where are you going for Chuseok?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Welcome to the Payon Holiday Food Experience Festival! A variety of experiences and prizes await you. Visit <NAVI>[Lanai]<INFO>payon,217,109,0,101,0</INFO></NAVI>  at the Payon Front Yard Experience Center."
+		},
+		Summary = "Talk with Lanai"
+	},
+	[8918] = {
+		Title = "Songpyeon Making Experience",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Lanai]<INFO>payon,217,109,0,101,0</INFO></NAVI> offers a songpyeon making experience if you defeat 10 Resurrected Pines and bring them 10x <ITEM>[Pine Needles]<INFO>1001827</INFO></ITEM>, 2x <ITEM>[Bag of Grain]<INFO>577</INFO></ITEM>, 1x <ITEM>[Honey]<INFO>518</INFO></ITEM>."
+		},
+		Summary = "Slay Resurrected Pines and obtain Items"
+	},
+	[8919] = {
+		Title = "Talk to Birun­",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Lanai told me that­ <NAVI>[Birun]<INFO>payon_in01,193,37,0,101,0</INFO></NAVI> would be waiting for me inside the first floor of the Payon Inn building."
+		},
+		Summary = "Talk to Birun­"
+	},
+	[8920] = {
+		Title = "Making Holiday Food (1)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring 10 <ITEM>[Potato]<INFO>516</INFO></ITEM> and 1 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM> to <NAVI>[Birun]<INFO>payon_in01,193,37,0,101,0</INFO></NAVI> in Payon."
+		},
+		Summary = "Procuring Items"
+	},
+	[8921] = {
+		Title = "[Standby] Making Holiday Food",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's experience is over! Tomorrow, let's make yulan with <NAVI>[Jisoo]<INFO>payon,199,128,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8922] = {
+		Title = "Making Holiday Food (2)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Jisoo]<INFO>payon,199,128,0,101,0</INFO></NAVI> is in charge of making yulan at the holiday food experience festival. I wondered why yakgwa was so sweet and delicious, and upon seeing the ingredients, it seems to be the case. All you need are 2 <ITEM>[Bag of Grain]<INFO>577</INFO></ITEM>, 3 <ITEM>[Honey]<INFO>518</INFO></ITEM> and 2 <ITEM>[Yellow Spice]<INFO>7452</INFO></ITEM>."
+		},
+		Summary = "Procuring Items"
+	},
+	[8923] = {
+		Title = "[Standby] Making Holiday Food",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's experience is over! Tomorrow, let's make bluefish stew with <NAVI>[Naite]<INFO>payon,230,111,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8924] = {
+		Title = "Making Holiday Food (3)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Naite]<INFO>payon,230,111,0,101,0</INFO></NAVI> is in charge of preparing the fish for the holiday food experience festival. The CEO says he needs bluefish instead of whitefish because he prefers bluefish. Still, it's delicious. All you need is 3 <ITEM>[Fish Tail]<INFO>1023</INFO></ITEM> and 2 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM>."
+		},
+		Summary = "Procuring Items"
+	},
+	[8925] = {
+		Title = "A commemorative hat for not returning home",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After completing all three food-making experiences, come to the event headquarters! You'll receive a special souvenir from <NAVI>[Lanai]<INFO>payon,217,109,0,101,0</INFO></NAVI>! However, this only applies to those who bring their own <ITEM>[Self-made Songpyeon]<INFO>103463</INFO></ITEM>..."
+		},
+		Summary = "Bring the Self-made Songpyeon to Lanai"
+	},
+	[8926] = {
+		Title = "Making Sweet Potato Pancakes",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Bring 10 <ITEM>[Potato]<INFO>516</INFO></ITEM> and 1 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM> to <NAVI>[Birun]<INFO>payon_in01,193,37,0,101,0</INFO></NAVI> in Payon."
+		},
+		Summary = "Procuring Items"
+	},
+	[8927] = {
+		Title = "Making Yulan",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Jisoo]<INFO>payon,199,128,0,101,0</INFO></NAVI> is in charge of making Yulan at the holiday food experience festival. What is Yulan? It's a traditional snack made from chestnuts. You'll need 2 <ITEM>[Bag of Grain]<INFO>577</INFO></ITEM>, 3 <ITEM>[Honey]<INFO>518</INFO></ITEM> and 2 <ITEM>[Yellow Spice]<INFO>7452</INFO></ITEM>."
+		},
+		Summary = "Procuring Items"
+	},
+	[8928] = {
+		Title = "Making Jeonyu Fish",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon's <NAVI>[Naite]<INFO>payon,230,111,0,101,0</INFO></NAVI> is in charge of preparing the fish for the holiday food experience festival. The CEO says he needs bluefish instead of whitefish because he prefers bluefish. Still, it's delicious. All you need is 3 <ITEM>[Fish Tail]<INFO>1023</INFO></ITEM> and 2 <ITEM>[Cooking Oil]<INFO>7457</INFO></ITEM>."
+		},
+		Summary = "Procuring Items"
+	},
+	[8929] = {
+		Title = "[Standby] Making Holiday Food",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's experience has ended!",
+			"Please visit the experience corner again tomorrow. Only one experience per day is allowed.",
+			"* <NAVI>[Birun]<INFO>payon_in01,193,37,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Jisoo]<INFO>payon,199,128,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Naite]<INFO>payon,230,111,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8930] = {
+		Title = "Third Test!",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Now, only the third round of the Ranger practical test remains. Let’s cheer up a little more!"
+		},
+		Summary = "Talk to Freeze"
+	},
+	[8931] = {
+		Title = "The third test begins!",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"Deactivate the egg bomb by moving only the wolf hey-yo!"
+		},
+		Summary = "Deactivate the Egg Bomb"
+	},
+	[8938] = {
+		Title = "Talk to Poe",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I talked to Poe, who appeared in Prontera."
+		},
+		Summary = "Talk to Poe"
+	},
+	[8939] = {
+		Title = "[Standby] Defeat Louyang Castle Mandulings",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's homework is complete. Let's apply for training again tomorrow with <NAVI>[Poe]<INFO>prontera,158,224,0,101,0</INFO></NAVI> in Prontera."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8940] = {
+		Title = "Defeat Louyang Castle Mandulings",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Defeat the Mandulings and Mi Gao in [Louyang Castle Field] and report to <NAVI>[Poe]<INFO>lou_fild01,232,90,0,101,0</INFO></NAVI>, who has come to inspect your training."
+		},
+		Summary = "Defeat the Monsters"
+	},
+	[8941] = {
+		Title = "[Standby] Defeat Hugel Field Mandulings",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's homework is complete. Let's apply for training again tomorrow with <NAVI>[Poe]<INFO>prontera,158,224,0,101,0</INFO></NAVI> in Prontera."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8942] = {
+		Title = "Defeat Hugel Field Mandulings",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Defeat the Mandulings and Novus in [Hugel Field] and report to <NAVI>[Poe]<INFO>hu_fild04,291,366,0,101,0</INFO></NAVI>, who has come to inspect your training."
+		},
+		Summary = "Defeat the Monsters"
+	},
+	[8943] = {
+		Title = "[Standby] Defeat Portus Luna Mandulings",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's homework is complete. Let's apply for training again tomorrow with <NAVI>[Poe]<INFO>prontera,158,224,0,101,0</INFO></NAVI> in Prontera."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8944] = {
+		Title = "Defeat the Portus Luna Mandulings (1)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Slay the Kobold Archers and Mandulings in [Portus Luna] and report to <NAVI>[Poe]<INFO>ra_fild06,277,43,0,101,0</INFO></NAVI>, who has come to inspect your training."
+		},
+		Summary = "Defeat the Monsters"
+	},
+	[8945] = {
+		Title = "Defeat the Portus Luna Mandulings (2)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Slay the Kobold and Mandulings in [Portus Luna] and report to <NAVI>[Poe]<INFO>ra_fild06,277,43,0,101,0</INFO></NAVI>, who has come to inspect your training."
+		},
+		Summary = "Defeat the Monsters"
+	},
+	[8946] = {
+		Title = "[Standby] Defeat Glast Heim Mandulings",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's homework is complete. Let's apply for training again tomorrow with <NAVI>[Poe]<INFO>prontera,158,224,0,101,0</INFO></NAVI> in Prontera."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8947] = {
+		Title = "Defeat Glast Heim Mandulings",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Defeat the Gargoyles and Mandulings in [Glastheim] and report to <NAVI>[Poe]<INFO>glast_01,370,308,0,101,0</INFO></NAVI>, who has come to inspect your training."
+		},
+		Summary = "Defeat the Monsters"
+	},
+	[8949] = {
+		Title = "Talk to Zen",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I was appointed an honorary disciple of the Jade Palace by Poe, whom I met in Prontera. It seems <NAVI>[Zen]<INFO>prontera,156,226,0,101,0</INFO></NAVI>, the Dragon Warrior, also has some work to do."
+		},
+		Summary = "Talk to Zen"
+	},
+	[8950] = {
+		Title = "Training with Shifu",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I was appointed an honorary disciple of the Jade Palace by Po, whom I met in Prontera. By the way, <NAVI>[Shifu]<INFO>prontera,153,224,0,101,0</INFO></NAVI> is also helping me with my training...?"
+		},
+		Summary = "Talk to Shifu"
+	},
+	[8951] = {
+		Title = "Shifu's Special Training (lv90-150)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Shifu]<INFO>prontera,153,224,0,101,0</INFO></NAVI> of Prontera has proposed a special training program: defeat 100 monsters level 90 or higher. As an honorary disciple of the Jade Palace, let's finish it quickly!"
+		},
+		Summary = "Kill 100 Monsters"
+	},
+	[8952] = {
+		Title = "Shifu's Special Training (lv151-200)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Shifu]<INFO>prontera,153,224,0,101,0</INFO></NAVI> of Prontera has proposed a special training program: defeat 100 monsters level 151 or higher. As an honorary disciple of the Jade Palace, let's finish it quickly!"
+		},
+		Summary = "Kill 100 Monsters"
+	},
+	[8953] = {
+		Title = "Shifu's Special Training (lv201-)",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Shifu]<INFO>prontera,153,224,0,101,0</INFO></NAVI> of Prontera has proposed a special training program: defeat 151 monsters level 201 or higher. As an honorary disciple of the Jade Palace, let's finish it quickly!"
+		},
+		Summary = "Kill 100 Monsters"
+	},
+	[8954] = {
+		Title = "[Standby] Shifu's Special Training  ",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's special training is over. Let's apply for training again tomorrow with <NAVI>[Shifu]<INFO>prontera,153,224,0,101,0</INFO></NAVI> in Prontera."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8955] = {
+		Title = "To Brimir",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The <NAVI>[Advance Party]<INFO>uknw_ruin,256,238,0,101,0</INFO></NAVI> has already departed for Brimir to explore. Let's follow them and talk to them."
+		},
+		Summary = "Talk to Ellis and Maura"
+	},
+	[8956] = {
+		Title = "Gray Valkyrie",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"First, it would be a good idea to talk to the <NAVI>[residents]<INFO>uknw_ruin,275,235,0,101,0</INFO></NAVI> of Brimir."
+		},
+		Summary = "Talk with Work"
+	},
+	[8957] = {
+		Title = "A Land Without Divinity",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's hear what <NAVI>[Ellis]<INFO>uknw_ruin,275,235,0,101,0</INFO></NAVI>, a priest among Brimir's advance party, thinks about what Ill said."
+		},
+		Summary = "Talk to Ellis"
+	},
+	[8958] = {
+		Title = "Only Valkyrie",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Other residents]<INFO>uknw_ruin,275,235,0,101,0</INFO></NAVI> of Brimir want to talk."
+		},
+		Summary = "Talk with the Spirit"
+	},
+	[8959] = {
+		Title = "Exploring Brimir",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I decided to speak with the three Valkyrie prisoners in Brimir and ask them for their opinions on the place.",
+			"* <NAVI>[Brimir Residents]<INFO>uknw_ruin,149,150,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Brimir Residents]<INFO>uknw_ruin,252,59,0,101,0</INFO></NAVI>",
+			"* <NAVI>[Brimir Residents]<INFO>uknw_ruin,93,174,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Interviewing Brimir Residents"
+	},
+	[8960] = {
+		Title = "God's Love",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Some in Brimir believe that God imprisoned those he loved in Brimir."
+		},
+		Summary = "Interviewing Brimir Residents (1)"
+	},
+	[8961] = {
+		Title = "A Disconnected World",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Some in Brimir believe that being blocked from feeling the presence of God is proof of their belonging to God."
+		},
+		Summary = "Interviewing Brimir Residents (2)"
+	},
+	[8962] = {
+		Title = "The Flow of Time",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Some people in Brimir are counting the passage of time. However, it's a mess, sometimes counting the same number twice."
+		},
+		Summary = "Interviewing Brimir Residents (3)"
+	},
+	[8963] = {
+		Title = "To the Square",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"<NAVI>[Work]<INFO>uknw_ruin,160,160,0,101,0</INFO></NAVI>, who was waiting in Brimir's Square, might know if there's a way to break the chains around my ankles."
+		},
+		Summary = "Talk with Work"
+	},
+	[8964] = {
+		Title = "If you want it",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Brimir's <NAVI>[Work]<INFO>uknw_ruin,160,160,0,101,0</INFO></NAVI> asks you to destroy 10 Shadow Guardians and collect the 5 Broken Petals that scatter into the air."
+		},
+		Summary = "Recover 5 Broken Petals"
+	},
+	[8965] = {
+		Title = "Before the Flowers Bloom (1)",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I've figured out how to free the Valkyrie prisoners scattered throughout Brimir. We must free those chained. First, let's find <NAVI>[Lee]<INFO>uknw_ruin,149,150,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Lee"
+	},
+	[8966] = {
+		Title = "Before the Flowers Bloom (2)",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's talk to <NAVI>[Sam]<INFO>uknw_ruin,252,59,0,101,0</INFO></NAVI> in Brimir."
+		},
+		Summary = "Talk with Sam"
+	},
+	[8967] = {
+		Title = "Before the Flowers Bloom (3)",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's talk to <NAVI>[Sawa]<INFO>uknw_ruin,93,174,0,101,0</INFO></NAVI> in Brimir."
+		},
+		Summary = "Talk with Sawa"
+	},
+	[8968] = {
+		Title = "Colorful Flowers",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"After releasing the chains, the Valkyries were no longer in their original form, but instead turned gray. Let's return to <NAVI>[Work]<INFO>uknw_ruin,160,160,0,101,0</INFO></NAVI> in Brimir."
+		},
+		Summary = "ÀÏ°ú ´ëÈ­"
+	},
+	[8969] = {
+		Title = "Back to Waterfall Village",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It seems there's nothing more to learn from Brimir for now. Report to <NAVI>[Sasha]<INFO>ygg_fruit,80,122,0,101,0</INFO></NAVI> in Waterfall Village."
+		},
+		Summary = "Talk to Shasha"
+	},
+	[8970] = {
+		Title = "Formal Grave",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Brimir's <NAVI>[Lee]<INFO>uknw_ruin,149,150,0,101,0</INFO></NAVI> asks you to destroy 50 Tulips and 50 Calendulas and bring him 20 Gray Petals to mourn them."
+		},
+		Summary = "Recover 20 Gray Petals"
+	},
+	[8971] = {
+		Title = "[Standby] Formal Grave",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest. When the waiting time expires, you can receive it again from <NAVI>[Lee]<INFO>uknw_ruin,149,150,0,101,0</INFO></NAVI> and complete it."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8972] = {
+		Title = "Formal Grave",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Brimir's <NAVI>[Lee]<INFO>uknw_ruin,149,150,0,101,0</INFO></NAVI> asks you to destroy 50 Tulips and 50 Calendulas and bring him 20 Gray Petals to mourn them."
+		},
+		Summary = "Recover 20 Gray Petals"
+	},
+	[8973] = {
+		Title = "Even if the dimension is destroyed, a cat is a cat.",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Brimir's <NAVI>[Sam]<INFO>uknw_ruin,252,59,0,101,0</INFO></NAVI> asks you to kill 20 Nyaz, who keep coming to scratch your face."
+		},
+		Summary = "Slaying monsters"
+	},
+	[8974] = {
+		Title = "[Standby] Even if the dimension is destroyed, a cat is a cat.",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest. When the waiting time expires, you can receive it again from <NAVI>[»ï]<INFO>uknw_ruin,252,59,0,101,0</INFO></NAVI> and complete it."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8975] = {
+		Title = "Even if the dimension is destroyed, a cat is a cat.",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Brimir's <NAVI>[Sam]<INFO>uknw_ruin,252,59,0,101,0</INFO></NAVI> asks you to kill 20 Nyaz, who keep coming to scratch your face."
+		},
+		Summary = "Slaying monsters"
+	},
+	[8976] = {
+		Title = "In fact, they too...",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Brimir's <NAVI>[Sawa]<INFO>uknw_ruin,93,174,0,101,0</INFO></NAVI> asks you to destroy 10 Shadow Guardians."
+		},
+		Summary = "Defeat monsters"
+	},
+	[8977] = {
+		Title = "[Standby] In fact, they too...",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"This quest is a daily quest. When the waiting time expires, you can receive it again from <NAVI>[Sawa]<INFO>uknw_ruin,93,174,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[8978] = {
+		Title = "In fact, they too...",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Brimir's <NAVI>[Sawa]<INFO>uknw_ruin,93,174,0,101,0</INFO></NAVI> asks you to destroy 10 Shadow Guardians."
+		},
+		Summary = "Defeat monsters"
+	},
+	[8979] = {
+		Title = "Ellis's Ears",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Even the smallest sound carries the power of the gods."
+		},
+		Summary = "Talk with the First Prisoner"
+	},
+	[8980] = {
+		Title = "Parent Registration",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Registered as Gularing's parent."
+		},
+		Summary = "The mother of the newbie"
+	},
+	[8981] = {
+		Title = "Parent Registration",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Registered as Gularing's parent."
+		},
+		Summary = "The father of the newbie"
+	},
+	[8982] = {
+		Title = "Dedering!",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"Dedering taught me the secrets of the world."
+		},
+		Summary = "Conversation with Dedering completed"
+	},
+	[8983] = {
+		Title = "Nana~Ring!",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I learned from NanaRing how to become a Devilling."
+		},
+		Summary = "Conversation with Nana~Ring completed"
+	},
+	[8984] = {
+		Title = "I will brighten your future",
+		IconName = "ico_vr.bmp",
+		Description = {
+			"I found a suspicious staircase. What could be <NAVI>[up there]<INFO>vr_po,165,303,0,101,0</INFO></NAVI>?"
+		},
+		Summary = "Conversation with Brighter completed"
 	},
 	[9000] = {
 		Title = "Job Change to Knight",
@@ -30921,14 +31914,14 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[10023] = {
-		Title = "Eigen Ahrum and Ernst -Former-",
+		Title = "Eigen Ahrum and Ernst -Former",
 		Description = {
 			"Let's put a special focus on the conversation between Eigen Ahrum and Ernst."
 		},
 		Summary = ""
 	},
 	[10024] = {
-		Title = "Eigen Ahrum and Ernst -Latter-",
+		Title = "Eigen Ahrum and Ernst -Latter",
 		Description = {
 			"Let's make sure to remember the last conversation of the two princes."
 		},
@@ -36220,6 +37213,13 @@ QuestInfoList = {
 		},
 		Summary = "Talk to Lasis"
 	},
+	[11619] = {
+		Title = "Blackmail",
+		Description = {
+			"Turtle"
+		},
+		Summary = "Shell"
+	},
 	[11620] = {
 		Title = "Straggler in the Sewer",
 		IconName = "ico_ep.bmp",
@@ -38680,6 +39680,342 @@ QuestInfoList = {
         Summary = "Resets at 4 AM",
         CoolTimeQuest = 1
     },
+	[11957] = {
+		Title = "Welcome, Rammir!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Payon Sunrise Festival staff member Gat tells us to meet Rammir, who will soon arrive in Payon Forest. Let's go to <NAVI>[Payon Forest]<INFO>pay_fild01,183,307,0,101,0</INFO></NAVI> and find Rammir."
+		},
+		Summary = "Let's find Rammir outside Payon Village."
+	},
+	[11958] = {
+		Title = "Welcome, Rammir!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"It seems Rammir hasn't arrived yet. Let's stand in <NAVI>[a safe location]<INFO>pay_fild01,180,302,0,101,0</INFO></NAVI> and wait for Rammir."
+		},
+		Summary = "To a safe location"
+	},
+	[11959] = {
+		Title = "Welcome, Rammir!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's return to Payon and report to <NAVI>[Sunrise Festival Staff]<INFO>payon,202,105,0,101,0</INFO></NAVI>."
+		},
+		Summary = "I met Rammir in Payon."
+	},
+	[11960] = {
+		Title = "Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Rammir seems upset about losing his scales. Let's find something <NAVI>[to cheer him up]<INFO>payon,246,97,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Rammir will be happy."
+	},
+	[11961] = {
+		Title = "Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I got the green herb from the green grass. Let's return to <NAVI>[Rammir]<INFO>payon,210,121,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Return to Rammir"
+	},
+	[11962] = {
+		Title = "Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Ask in Payon <NAVI>[the excited festival guests]<INFO>payon,195,105,0,101,0</INFO></NAVI>, if they have seen Rammir's dragon scales."
+		},
+		Summary = "Talk to the excited festival guests­"
+	},
+	[11963] = {
+		Title = "Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Ask in Payon <NAVI>[the festival guests]<INFO>payon,209,90,0,101,0</INFO></NAVI>, if they have seen Rammir's dragon scales."
+		},
+		Summary = "Talk to the festival guests­"
+	},
+	[11964] = {
+		Title = "Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Ask in Payon <NAVI>[the onlooker]<INFO>pay_fild01,176,306,0,101,0</INFO></NAVI>, if they have seen Rammir's dragon scales."
+		},
+		Summary = "Talk to the onlooker"
+	},
+	[11965] = {
+		Title = "Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"It seems the Porings ate Rammir's dragon scales. Let's report this to <NAVI>[Rammir]<INFO>payon,210,121,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Rammir"
+	},
+	[11966] = {
+		Title = "Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's catch about 10 Porings that have turned into Dragonlings after eating <NAVI>[Rammir]<INFO>payon,210,121,0,101,0</INFO></NAVI>'s dragon scales."
+		},
+		Summary = "Catch 10 Dragonlings"
+	},
+	[11967] = {
+		Title = "Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"It seems dangerous to leave the dragon scales alone. Collect dragon scales in the fields around Payon to obtain at least 10 Rammir's Dragon Scales, then return to <NAVI>[Rammir]<INFO>payon,210,121,0,101,0</INFO></NAVI>."
+		},
+		Summary = "10 Rammir's Dragon Scales"
+	},
+	[11968] = {
+		Title = "[Standby] Should I give you blue scales or red scales?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I helped <NAVI>[Rammir]<INFO>payon,210,121,0,101,0</INFO></NAVI> find Yongrin. Come back after 4:00 AM."
+		},
+		Summary = "Resets at 4 AM­",
+		CoolTimeQuest = 1
+	},
+	[11969] = {
+		Title = "Scale Thieves Become Cattle Thieves",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Hair Elster]<INFO>payon,208,108,0,101,0</INFO></NAVI> seems concerned about the Imoogi targeting Rammir. Let's kill about 10 Imoogi around Payon Field and return."
+		},
+		Summary = "Kill 10 Imoogi"
+	},
+	[11970] = {
+		Title = "[Standby] Scale Thieves Become Cattle Thieves",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I helped <NAVI>[Hair Elster]<INFO>payon,208,108,0,101,0</INFO></NAVI> defeat the Imoogi. Come back after 4:00 AM."
+		},
+		Summary = "Resets at 4 AM­",
+		CoolTimeQuest = 1
+	},
+	[11971] = {
+		Title = "Enjoy your meal!!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Seolgi]<INFO>payon,217,112,0,101,0</INFO></NAVI> seems preoccupied with preparing the festival food. He seems to be running low on ingredients, so let's hunt about 10 Bigfoots in the field southeast of Payon and bring him 10 Bear's Footskin."
+		},
+		Summary = "10 Bear's Footskin"
+	},
+	[11972] = {
+		Title = "Enjoy your meal!!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Seolgi]<INFO>payon,217,112,0,101,0</INFO></NAVI> seems preoccupied with preparing the festival food. He seems to be running low on ingredients, so let's hunt about 10 wolves in the field southwest of Payon and bring him 10 Wolf Claws."
+		},
+		Summary = "10 Wolf Claw"
+	},
+	[11973] = {
+		Title = "Enjoy your meal!!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Seolgi]<INFO>payon,217,112,0,101,0</INFO></NAVI> seems preoccupied with preparing the festival food. He seems to be struggling with the lack of ingredients, so let's hunt three Drainlears on the second floor of Payon Cave and get 2 Wing of Red Bat."
+		},
+		Summary = "2 Wing of Red Bat"
+	},
+	[11974] = {
+		Title = "[Standby] Enjoy your meal!!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I brought ingredients for <NAVI>[Seolgi]<INFO>payon,217,112,0,101,0</INFO></NAVI>. Come back after 4:00 AM."
+		},
+		Summary = "Resets at 4 AM­",
+		CoolTimeQuest = 1
+	},
+	[11975] = {
+		Title = "Delicious Tteokguk Today",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Hyul]<INFO>payon,223,109,0,101,0</INFO></NAVI> has asked us to gather ingredients for Tteokguk again this year. Catch 2 Pecopeco eggs, and hunt Matjalal or Akari near Payon to obtain five Chewy Rice Cake and 2 Matjalal."
+		},
+		Summary = "Gathering Ingredients"
+	},
+	[11976] = {
+		Title = "[Standby] Delicious Tteokguk Today",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I brought the Tteokguk ingredients for <NAVI>[Hyul]<INFO>payon,223,109,0,101,0</INFO></NAVI>. Let's come back after 4:00 AM."
+		},
+		Summary = "Resets at 4 AM­",
+		CoolTimeQuest = 1
+	},
+	[11977] = {
+		Title = "Mr. McPie's Research",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"-"
+		},
+		Summary = "-"
+	},
+	[11978] = {
+		Title = "Mr. McPie's Research 1",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, catch about 20 Petite from the Geffen West Field."
+		},
+		Summary = ""
+	},
+	[11979] = {
+		Title = "Mr. McPie's Research 1",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, let's capture about 20 Deleters from the second floor of Nogg Road."
+		},
+		Summary = ""
+	},
+	[11980] = {
+		Title = "Mr. McPie's Research 1",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, let's catch about 20 Plaga from the second floor of Rudus."
+		},
+		Summary = ""
+	},
+	[11981] = {
+		Title = "Mr. McPie's Research 1",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, catch about 20 Ice Straws from the Issgard Fields."
+		},
+		Summary = ""
+	},
+	[11982] = {
+		Title = "[Standby]  Mr. McPie's Research 1",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI>'s Research 1 has been completed. Come back after 4:00 AM."
+		},
+		Summary = "Resets at 4 AM­",
+		CoolTimeQuest = 1
+	},
+	[11983] = {
+		Title = "Mr. McPie's Research 2",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, let's catch about 20 Ground Petites from the Geffen West North Field."
+		},
+		Summary = ""
+	},
+	[11984] = {
+		Title = "Mr. McPie's Research 2",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, let's hunt about 20 Ground Deleters on the second floor of Nogg Road."
+		},
+		Summary = ""
+	},
+	[11985] = {
+		Title = "Mr. McPie's Research 2",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, let's capture about 20 Mutant Plaga from the third floor of Rudus."
+		},
+		Summary = ""
+	},
+	[11986] = {
+		Title = "Mr. McPie's Research 2",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, let's capture about 20 Unfrost Flowers from the Issgard Fields."
+		},
+		Summary = ""
+	},
+	[11987] = {
+		Title = "[Standby]  Mr. McPie's Research 2",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI>'s Research 2 has been completed. Come back after 4:00 AM."
+		},
+		Summary = "Resets at 4 AM­",
+		CoolTimeQuest = 1
+	},
+	[11988] = {
+		Title = "Mr. McPie's Research 3",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, capture about 20 Yellow Novus from the southwest field of Hugel."
+		},
+		Summary = ""
+	},
+	[11989] = {
+		Title = "Mr. McPie's Research 3",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, capture about 20 Yellow Acidus from the 2nd and 3rd floors of Abyss Lake."
+		},
+		Summary = ""
+	},
+	[11990] = {
+		Title = "Mr. McPie's Research 3",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, capture about 20 Purple Ferus from the 4th floor of Abyss Lake."
+		},
+		Summary = ""
+	},
+	[11991] = {
+		Title = "Mr. McPie's Research 3",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, hunt about 20 Junior Rgan from the Issgard Snake God's Warmth Dungeon."
+		},
+		Summary = ""
+	},
+	[11992] = {
+		Title = "[Standby] Mr. McPie's Research 3",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI>'s Research 3 has been completed. Come back after 4:00 AM."
+		},
+		Summary = "Resets at 4 AM­",
+		CoolTimeQuest = 1
+	},
+	[11993] = {
+		Title = "Mr. McPie's Research 4",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, capture about 20 Red Novus from the southwest field of Hugel."
+		},
+		Summary = ""
+	},
+	[11994] = {
+		Title = "Mr. McPie's Research 4",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, capture about 20 Blue Acidus from the 2nd and 3rd floors of Abyss Lake."
+		},
+		Summary = ""
+	},
+	[11995] = {
+		Title = "Mr. McPie's Research 4",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI> in his research, let's capture about 20 Ferus from the fourth floor of Abyss Lake."
+		},
+		Summary = ""
+	},
+	[11996] = {
+		Title = "Mr. McPie's Research 4",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"To assist <NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI>  in his research, hunt about 20 Intermediate Rgan from the Isgard Snake God's Warmth Dungeon."
+		},
+		Summary = ""
+	},
+	[11997] = {
+		Title = "[Standby] Mr. McPie's Research 4",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"<NAVI>[Mr. McPie]<INFO>payon,218,121,0,101,0</INFO></NAVI>'s Research 4 has been completed. Come back after 4:00 AM."
+		},
+		Summary = "Resets at 4 AM­",
+		CoolTimeQuest = 1
+	},
 	[12000] = {
 		Title = "An old friend",
 		Description = {
@@ -43175,6 +44511,173 @@ QuestInfoList = {
 			"After obtaining 10 Wrath of Polluted Spirit, I was asked to seal them inside the <NAVI>[Spirit Complaint Terminal]<INFO>t_garden,124,122,0,101,0</INFO></NAVI>. Let’s go around each area of forgotten memories and search for them."
 		},
 		Summary = "Obtain 20 Wrath of Polluted Spirit"
+	},
+	[12644] = {
+		Title = "King Poring Coupon",
+		Description = {
+			"After defeating King Poring, visit the <NAVI>[Vegetable Enhancer]<INFO>prt_fild05,173,238,0,101,0</INFO></NAVI>. If you have <ITEM>[Poring Village Carrot]<INFO>19239</INFO></ITEM> or <ITEM>[Poring Village Leek]<INFO>19238</INFO></ITEM>, you can present this token to ^0000ffenhance your vegetables for free­^000000."
+		},
+		Summary = "This voucher allows you to enhance vegetables for free."
+	},
+	[12645] = {
+		Title = "Defeat the Corrupted Orc Hero",
+		Description = {
+			"Gullok's spirit desperately desires that you slay the Corrupted Orc Hero. Grant him his wish and help him find peace of mind."
+		},
+		Summary = "This is a request from Gullok."
+	},
+	[12646] = {
+		Title = "The Final Battle",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"The Final Battle"
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12647] = {
+		Title = "Memory Repetition",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"It seems the time of the final battle repeats itself, slightly changing every day. If I return the next day, the same day will repeat itself.",
+			"Let's witness the final battle again in the cult's temple, in an unknown location hidden behind a <NAVI>[decorative door]<INFO>jor_raise1,128,326,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 4 AM",
+		CoolTimeQuest = 1
+	},
+	[12648] = {
+		Title = "Memories of Chaos",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Some of the recurring moments can be incredibly intense. These days don't come often. Let's check back in 3 days.",
+			"Let's witness the final battle again in the cult's temple, in an unknown location hidden behind a <NAVI>[decorative door]<INFO>jor_raise1,128,326,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Resets at 4 AM in 3 days",
+		CoolTimeQuest = 1
+	},
+	[12649] = {
+		Title = "Final Battle (Easy)",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Defeat the Eroded Tan in the recurring final days and prevent the flow of history from being distorted.",
+			"^0000ffNyar's will will infuse the adventurer with strength. The rewards will be reduced to make the battle easier.^000000"
+		},
+		Summary = "Defeat the Eroded Tan"
+	},
+	[12650] = {
+		Title = "Final Battle (Normal)",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Defeat the Eroded Tan in the recurring final days and prevent the flow of history from being distorted."
+		},
+		Summary = "Defeat the Eroded Tan"
+	},
+	[12651] = {
+		Title = "Final Battle (Hard)",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Defeat the Eroded Tan in the recurring final days and prevent the flow of history from being distorted.",
+			"^ff0000The giant snake's power has been greatly enhanced. The more difficult the battle, the greater the reward.^000000"
+		},
+		Summary = "Defeat the Eroded Tan"
+	},
+	[12652] = {
+		Title = "Final Battle 1",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Final Battle 1"
+		},
+		Summary = "1"
+	},
+	[12653] = {
+		Title = "Final Battle 2",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Final Battle 3"
+		},
+		Summary = "1"
+	},
+	[12654] = {
+		Title = "Final Battle 3",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Final Battle 3"
+		},
+		Summary = "1"
+	},
+	[12655] = {
+		Title = "Final Battle 4",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Final Battle 4"
+		},
+		Summary = "1"
+	},
+	[12656] = {
+		Title = "Final Battle",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"We cannot even begin to imagine what battle awaits us beyond the gloomy, massive gate before us. Let us go and witness the battle for humanity's survival.",
+			"Let's witness the final battle again in the cult's temple, in an unknown location hidden behind a <NAVI>[decorative door]<INFO>jor_raise1,128,326,0,101,0</INFO></NAVI>."
+		},
+		Summary = "A Hand in the Flow of History"
+	},
+	[12660] = {
+		Title = "The Wizard Professor's Call",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"The Wizard Professor has something to say about the Dark Whisper, so let's head to the <NAVI>[former entrance]<INFO>hem_dun01,208,246,0,101,0</INFO></NAVI> to the Sky Fortress."
+		},
+		Summary = "The Dark Whisper's Reappearance"
+	},
+	[12661] = {
+		Title = "[Standby] Enter the recreated Dark Whisper",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"According to the professor, the energy required to recreate the Dark Whisper is limited to once every three days. Let's try again in three days."
+		},
+		Summary = "Resets after 3 days",
+		CoolTimeQuest = 1
+	},
+	[12662] = {
+		Title = "Finding Clues",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"Who is the powerful being that snatched Himmelmez away immediately after defeating her? To uncover even the smallest clues, we need to replay the battle over and over again."
+		},
+		Summary = "Defeating the Immortal Lord"
+	},
+	[12663] = {
+		Title = "Destroy the Sky Fortress",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"We must destroy Dark Whisper, the source of the infection. Go to the <NAVI>[Sky Fortress Entrance]<INFO>hem_dun01,208,246,0,101,0</INFO></NAVI> and find a collaborator."
+		},
+		Summary = "Infiltrate the Sky Fortress"
+	},
+	[12664] = {
+		Title = "Battle of Dark Whisper",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"To completely conquer Dark Whisper, you'll need to defeat Himelmez. If you've fallen out of line, rejoin Est at the <NAVI>[Sky Fortress Entrance]<INFO>hem_dun01,208,246,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Defeating the Immortal Lord"
+	},
+	[12665] = {
+		Title = "Return to the Village",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"We defeated Himmelmez, but the ending left a bitter aftertaste. Let's return to the <NAVI>[village]<INFO>ygg_edge,167,136,0,101,0</INFO></NAVI> and discuss this."
+		},
+		Summary = "A Questionable Ending"
+	},
+	[12666] = {
+		Title = "Infiltrating the Disgusting Place",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Talk to Est at the <NAVI>[Sky Fortress Entrance]<INFO>hem_dun01,208,246,0,101,0</INFO></NAVI> to infiltrate the Sky Fortress."
+		},
+		Summary = "Infiltrate the Sky Fortress"
 	},
 	[13000] = {
 		Title = "RWC 2011Card Gathering",
@@ -55782,6 +57285,24 @@ QuestInfoList = {
         },
         Summary = "Collect 20 Eagle Beads"
     },
+	[16776] = {
+		Title = "[Standby] Night Market Goldfishing",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest from Goldfish Sister in the Prontera Night Market."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16777] = {
+		Title = "[Standby] Night Market Fortune",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the waiting period expires. You can accept the quest from the astrologer at the Prontera Night Market."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
 	[16778] = {
 		Title = "Biosphere Abyss Depth Guidance",
 		IconName = "ico_nq.bmp",
@@ -55976,6 +57497,1318 @@ QuestInfoList = {
 		},
 		Summary = "Reset at 04:00",
 		CoolTimeQuest = 1
+	},
+	[16801] = {
+		Title = "Abyss Researcher",
+		IconName = "ico_nq.bmp",
+		Description = {
+			"I have studied the Biosphere Depth Abyss in depth."
+		},
+		Summary = ""
+	},
+	[16802] = {
+		Title = "Transporting Small Luggage",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"You're responsible for returning luggage to its proper location at Alberta Port. Find Walter Fleetman in Alberta <NAVI>[near the market]<INFO>jor_albe.gat,148,235,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Walter Fleetman"
+	},
+	[16803] = {
+		Title = "Transporting Small Luggage",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"You're responsible for returning the luggage at Alberta Port to its proper location. Find Walter Fleetman in Alberta Walter's <NAVI>[Upper Warehouse]<INFO>jalbe_in.gat,22,63,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Walter Fleetman"
+	},
+	[16804] = {
+		Title = "Transporting Small Luggage",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"All of Alberta's luggage has been returned to its proper place. Return to <NAVI>[John]<INFO>jor_albe.gat,239,115,0,101,0</INFO></NAVI> at Alberta Beach and report your completion."
+		},
+		Summary = "Talk to John"
+	},
+	[16805] = {
+		Title = "Refusing Chores",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I complained to John in Alberta that I couldn't do such trivial things. He told me to get some rest, but is that okay? Should I talk to <NAVI>[John]<INFO>jor_albe.gat,239,115,0,101,0</INFO></NAVI> again?"
+		},
+		Summary = "Talk to John"
+	},
+	[16806] = {
+		Title = "Thorough Port Cleaning",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The dirt around the Port of Alberta needs to be cleaned. Keep your eyes peeled for <NAVI>[messy spots]<INFO>jor_albe.gat,151,210,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Cleaning the Dirt"
+	},
+	[16807] = {
+		Title = "Thorough Port Cleaning",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The dirt around the Port of Alberta needs to be cleaned. Keep your eyes peeled for <NAVI>[messy spots]<INFO>jor_albe.gat,211,136,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Cleaning the Dirt"
+	},
+	[16808] = {
+		Title = "Thorough Port Cleaning",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The dirt around the Port of Alberta needs to be cleaned. Keep your eyes peeled for <NAVI>[messy spots]<INFO>jor_albe.gat,167,139,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Cleaning the Dirt"
+	},
+	[16809] = {
+		Title = "Thorough Port Cleaning",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The dirt around the Port of Alberta needs to be cleaned. Keep your eyes peeled for <NAVI>[messy spots]<INFO>jor_albe.gat,190,175,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Cleaning the Dirt"
+	},
+	[16810] = {
+		Title = "Thorough Port Cleaning",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The area around Alberta Harbor now looks a bit cleaner. Return to <NAVI>[John]<INFO>jor_albe.gat,239,115,0,101,0</INFO></NAVI> at Alberta Beach and report the cleaning."
+		},
+		Summary = "Talk to John"
+	},
+	[16811] = {
+		Title = "Visit Walter's Upper Building",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The next task in Alberta appears to be found inside the Walter's Upper Building. Let's go to the <NAVI>[room opposite the warehouse]<INFO>jalbe_in.gat,67,95,0,101,0</INFO></NAVI> in the Upper Building."
+		},
+		Summary = "Talk with Iana Operta"
+	},
+	[16812] = {
+		Title = "A Strange Letter",
+		IconName = "ico_ep.bmp",
+		Description = {
+			" received an errand from Iana in the upper building of Walter to deliver letters to various parts of Alberta. Take the letters and visit <NAVI>[Pallieria Edel]<INFO>jalbe_in.gat,126,54,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk with Pallieria Edel"
+	},
+	[16813] = {
+		Title = "A Strange Letter",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I received an errand from Iana in the upper building of Walter to deliver letters to various parts of Alberta. Take the letters and visit <NAVI>[Hunter Sanguine]<INFO>jalbe_in.gat,29,28,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Hunter Sanguin"
+	},
+	[16814] = {
+		Title = "A Strange Letter",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I've sent letters to two locations in Alberta and received responses. Return to <NAVI>[Iana Operta]<INFO>jalbe_in.gat,67,95,0,101,0</INFO></NAVI> in the upper building of Walter."
+		},
+		Summary = "Talk with Iana Operta"
+	},
+	[16815] = {
+		Title = "News from Lunaforma",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I've heard why you had to run errands in Alberta. It's time to return to Lunaforma, where you've been given a new mission and where the escapees from the cult have arrived. Let's go and hear­ <NAVI>[Ivan Wigner]<INFO>jor_mbase.gat,233,277,0,101,0</INFO></NAVI>'s story."
+		},
+		Summary = "Talk to Ivan Wigner"
+	},
+	[16816] = {
+		Title = "Unidentified Ghost Ship",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It seems we can finally uncover the identity of the mysterious ghost ship floating the sea. Join Maristella, who is waiting for you at Alberta <NAVI>[Port]<INFO>jor_albe.gat,191,186,0,101,0</INFO></NAVI>, and board the ghost ship."
+		},
+		Summary = "Talk to Maristella Walter"
+	},
+	[16817] = {
+		Title = "The Ghost Ship's Identity",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"You've learned the identity of the drifting ghost ship. With the longing in your heart now buried, return to Alberta <NAVI>[Port]<INFO>jor_albe.gat,191,186,0,101,0</INFO></NAVI> with Maristella."
+		},
+		Summary = "Talk to Maristella Walter"
+	},
+	[16818] = {
+		Title = "Return to Lunaforma",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It seems we've pretty much finished what we can do in Alberta. Now, let's return to <NAVI>[Triss]<INFO>mbase_in.gat,92,123,0,101,0</INFO></NAVI> in Lunaforma."
+		},
+		Summary = "Talk to Triss"
+	},
+	[16819] = {
+		Title = "Message from the Wizard",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"While talking to Maristella at Alberta Port, the <NAVI>[Wigner Merchant]<INFO>jor_albe.gat,192,189,0,101,0</INFO></NAVI> suddenly found himself waiting behind her."
+		},
+		Summary = "Talk with the Wigner Merchant"
+	},
+	[16820] = {
+		Title = "Alberta's Honest Worker",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Alberta's Ephesus Walter Megas tells you to go to Alberta <NAVI>[Beach]<INFO>jor_albe.gat,239,115,0,101,0</INFO></NAVI> and look for work. Let's find someone who can give you work."
+		},
+		Summary = "Talk to John"
+	},
+	[16821] = {
+		Title = "Remaining Questions",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"We've confirmed the last sighting of the old Walter, and it's said its magical power is still being detected. Let's try boarding it again with the help of <NAVI>[Nilem]<INFO>jor_albe.gat,195,179,0,101,0</INFO></NAVI>, who is staying in Alberta."
+		},
+		Summary = "Talk with Nilem"
+	},
+	[16822] = {
+		Title = "Remaining Questions",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Reboarding the Old Walter, the mystery remains. The captain's loss of Eiji is also puzzling. Let's return to Alberta and speak with <NAVI>[Nilem]<INFO>jor_albe.gat,195,179,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk with Nilem"
+	},
+	[16823] = {
+		Title = "[Standby] Old Walter's Memory Fragment",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Thanks to the adventurers and Maristella, there are currently no traces of the Old Walter. Let's take a short break until <NAVI>[Nilem]<INFO>jor_albe.gat,195,179,0,101,0</INFO></NAVI>, waiting in Alberta, can observe again."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16824] = {
+		Title = "Old Walter's Memory Fragment",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Let's scatter the Old Walter's Memory Fragment once more and return to <NAVI>[Nilem]<INFO>jor_albe.gat,195,179,0,101,0</INFO></NAVI>, who awaits us in Alberta."
+		},
+		Summary = "Exploring Old Walter's Memory Fragment"
+	},
+	[16825] = {
+		Title = "Remaining Questions",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Let's investigate the strangeness here and bring down the captain who lost his mind."
+		},
+		Summary = ""
+	},
+	[16826] = {
+		Title = "Old Walter's Memory Fragment",
+		IconName = "ico_dq.bmp",
+		Description = {
+			"Let's stop the ghost ship's captain and disperse the magic power trapped within this ship."
+		},
+		Summary = ""
+	},
+	[16827] = {
+		Title = "Introduction to the Rekenber Historical Research Society",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I received a brief introduction to the academic festival. Let's stop by the <NAVI>[Rekenber Historical Research Society Booth]<INFO>yuno.gat,139,204,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Historical Research Society Booth"
+	},
+	[16828] = {
+		Title = "Introduction to the Loveleang Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Loveleang Booth]<INFO>yuno.gat,175,204,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Loveleang Booth"
+	},
+	[16829] = {
+		Title = "Introduction to the Cat Gamers Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Cat Gamers Booth]<INFO>yuno.gat,196,188,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Cat Gamers Booth"
+	},
+	[16830] = {
+		Title = "Introduction to the Kafra Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Kafra Booth]<INFO>yuno.gat,176,155,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Kafra Booth"
+	},
+	[16831] = {
+		Title = "Introduction to the Zonda Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Zonda Booth]<INFO>yuno.gat,139,154,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Zonda Booth"
+	},
+	[16832] = {
+		Title = "Introduction to the Schweicherbil Magical College Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Schweicherbil Magical College Booth]<INFO>yuno.gat,341,258,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the  Magical College Booth"
+	},
+	[16833] = {
+		Title = "Introduction to the Monster Museum Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Monster Museum Booth]<INFO>yuno.gat,283,285,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Monster Museum Booth"
+	},
+	[16834] = {
+		Title = "Introduction to the Yuno Monster Society Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Monster Society Booth]<INFO>yuno.gat,128,197,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Yuno Monster Society Booth"
+	},
+	[16835] = {
+		Title = "Introduction to the Prontera Library Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Prontera Library Booth]<INFO>yuno.gat,368,164,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Prontera Library Booth"
+	},
+	[16836] = {
+		Title = "Introduction to the Yuno Library Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Yuno Library Booth]<INFO>yuno.gat,355,164,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visit the Yuno Library Booth"
+	},
+	[16837] = {
+		Title = "Introduction to the Paradise Booth",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We received a brief introduction to the academic festival. Let's stop by the <NAVI>[Paradise Booth]<INFO>yuno.gat,201,176,0,101,0</INFO></NAVI>"
+		},
+		Summary = "Visit the Paradise Booth"
+	},
+	[16838] = {
+		Title = "[Standby] Knowing History Understands the Future",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Rekenber History Research Association Chairman]<INFO>yuno.gat,139,204,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16839] = {
+		Title = "Knowing History Understands the Future",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Take the quiz about the Geoborg family curse at the <NAVI>[Rekenber History Research Association Chairman]<INFO>yuno.gat,139,204,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Take the Quiz"
+	},
+	[16840] = {
+		Title = "[Standby] Sweet Cookie, Lovely Lovely",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Lovely Lovely Promotional Agent]<INFO>yuno.gat,175,204,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16841] = {
+		Title = "Sweet Cookie, Lovely Lovely",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Cookie making is taking place at the <NAVI>[Loveleang Booth]<INFO>yuno.gat,175,204,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Cookie Making Experience"
+	},
+	[16842] = {
+		Title = "Let's Make Sweet Cookie Dough",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's program at the <NAVI>[Loveleang Booth]<INFO>yuno.gat,175,204,0,101,0</INFO></NAVI> is cookie dough. Let's make some amazing cookies."
+		},
+		Summary = "Cookie Dough"
+	},
+	[16843] = {
+		Title = "Let's try out some sweet cookie shapes",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's program at the <NAVI>[Loveleang Booth]<INFO>yuno.gat,175,204,0,101,0</INFO></NAVI> is cookie shaping. Let's try out some amazing cookies."
+		},
+		Summary = "Cookie Shaping"
+	},
+	[16844] = {
+		Title = "Let's bake some sweet cookies",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Today's program at the <NAVI>[Loveleang Booth]<INFO>yuno.gat,175,204,0,101,0</INFO></NAVI> is cookie baking. Let's bake some amazing cookies."
+		},
+		Summary = "Cookie Baking"
+	},
+	[16845] = {
+		Title = "[Standby] We are Nyangnyang Ludens",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Cat Master]<INFO>yuno.gat,196,188,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16846] = {
+		Title = "We are Nyangnyang Ludens",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Experience the game at the <NAVI>[Cat Gamers Booth]<INFO>yuno.gat,196,188,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Competing with players."
+	},
+	[16847] = {
+		Title = "Today, it's a game of rock-paper-scissors!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I'm going to play a game of rock-paper-scissors with <NAVI>[Rock-paper-scissors Player]<INFO>yuno.gat,185,186,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Rock-paper-scissors match"
+	},
+	[16848] = {
+		Title = "Today, it's a game of Kongnyangkong!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Facing off with a <NAVI>[Kongnyangkong Player]<INFO>yuno.gat,185,179,0,101,0</INFO></NAVI> at Kongnyangkong."
+		},
+		Summary = "Kongnyangkong Showdown"
+	},
+	[16849] = {
+		Title = "Today is a really really really good game!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I'm going to have a really really really good match with <NAVI>[player]<INFO>yuno.gat,190,189,0,101,0</INFO></NAVI>."
+		},
+		Summary = "A really really good match"
+	},
+	[16850] = {
+		Title = "[Standby] The Unique Kafra Experience",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Kafra Staff]<INFO>yuno.gat,176,155,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16851] = {
+		Title = "The Unique Kafra Experience",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I had the opportunity to rescue an unconscious adventurer at the <NAVI>[Kafra Booth]<INFO>yuno.gat,176,155,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Rescue the Adventurer"
+	},
+	[16852] = {
+		Title = "Fainted Adventurer Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"There's an adventurer lying unconscious in the <NAVI>[field]<INFO>yuno_fild01.gat,119,343,0,101,0</INFO></NAVI> near Yuno. Rescue him!"
+		},
+		Summary = "Rescue the fainted adventurer"
+	},
+	[16853] = {
+		Title = "Fainted Adventurer Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"There's an adventurer lying unconscious in the <NAVI>[field]<INFO>yuno_fild03.gat,320,204,0,101,0</INFO></NAVI> near Yuno. Rescue him!"
+		},
+		Summary = "Rescue the fainted adventurer"
+	},
+	[16854] = {
+		Title = "Fainted Adventurer Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"There's an adventurer lying unconscious in the <NAVI>[field]<INFO>yuno_fild08.gat,206,317,0,101,0</INFO></NAVI> near Yuno. Rescue him!"
+		},
+		Summary = "Rescue the fainted adventurer"
+	},
+	[16855] = {
+		Title = "Rescue complete! Return!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The fallen adventurer has been safely rescued and returned. Let's return to the <NAVI>[Kafra Booth]<INFO>yuno.gat,176,155,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Kafra Booth"
+	},
+	[16856] = {
+		Title = "Rescue complete! Return!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The fallen adventurer has been safely rescued and returned. Let's return to the <NAVI>[Kafra Booth]<INFO>yuno.gat,176,155,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Kafra Booth"
+	},
+	[16857] = {
+		Title = "Rescue complete! Return!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The fallen adventurer has been safely rescued and returned. Let's return to the <NAVI>[Kafra Booth]<INFO>yuno.gat,176,155,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Kafra Booth"
+	},
+	[16858] = {
+		Title = "[Standby] The Real Thing! The Unique Zonda Experience",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Zonda Staff]<INFO>yuno.gat,139,154,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16859] = {
+		Title = "The Real Thing! The Unique Zonda Experience",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I got to experience rescuing a fainted adventurer at the <NAVI>[Zonda Staff]<INFO>yuno.gat,139,154,0,101,0</INFO></NAVI>."
+		},
+		Summary = ""
+	},
+	[16860] = {
+		Title = "Fainted Adventurer Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"There's an adventurer lying unconscious in the <NAVI>[field]<INFO>yuno_fild11.gat,37,346,0,101,0</INFO></NAVI> near Yuno. Rescue him!"
+		},
+		Summary = "Rescue the fainted adventurer"
+	},
+	[16861] = {
+		Title = "Fainted Adventurer Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"There's an adventurer lying unconscious in the <NAVI>[field]<INFO>yuno_fild02.gat,159,235,0,101,0</INFO></NAVI> near Yuno. Rescue him!"
+		},
+		Summary = "Rescue the fainted adventurer"
+	},
+	[16862] = {
+		Title = "Fainted Adventurer Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"There's an adventurer lying unconscious in the <NAVI>[field]<INFO>yuno_fild09.gat,63,108,0,101,0</INFO></NAVI> near Yuno. Rescue him!"
+		},
+		Summary = "Rescue the fainted adventurer"
+	},
+	[16863] = {
+		Title = "Rescue complete! Return!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"he fallen adventurer has been safely rescued and returned. Let's return to the <NAVI>[Zonda Staff]<INFO>yuno.gat,139,154,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Zonda Booth"
+	},
+	[16864] = {
+		Title = "Rescue complete! Return!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"he fallen adventurer has been safely rescued and returned. Let's return to the <NAVI>[Zonda Staff]<INFO>yuno.gat,139,154,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Zonda Booth"
+	},
+	[16865] = {
+		Title = "Rescue complete! Return!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"he fallen adventurer has been safely rescued and returned. Let's return to the <NAVI>[Zonda Staff]<INFO>yuno.gat,139,154,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Zonda Booth"
+	},
+	[16866] = {
+		Title = "[Standby] Schweicherbil Magic Treasure Hunt",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Schweicherbil Magical College Booth]<INFO>yuno.gat,341,258,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16867] = {
+		Title = "Schweicherbil Magic Treasure Hunt",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I participated in a treasure hunt hosted by <NAVI>[Schweicherbil Magical College Booth]<INFO>yuno.gat,341,258,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Participating in the Treasure Hunt"
+	},
+	[16868] = {
+		Title = "Mysterious Phrase",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The phrase reads: \'Where three islands meet. A place where you can enjoy a tranquil view from the uppermost island.\' Could this be the uppermost island, closest to the center where the three islands meet?"
+		},
+		Summary = "Treasure Hunt"
+	},
+	[16869] = {
+		Title = "Mysterious Phrase",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The phrase reads: \'It's darkest under the lamp. Where was the beautiful bluebird?\' Could it be in the nearest building?"
+		},
+		Summary = "Treasure Hunt"
+	},
+	[16870] = {
+		Title = "Mysterious Phrase",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The phrase reads: \'When hiding a tree, go to the forest. So, what about hiding a piece of paper? Look at the end of the right wing of the first room.' Perhaps the best place to hide a piece of paper is the library?"
+		},
+		Summary = "Treasure Hunt"
+	},
+	[16871] = {
+		Title = "Treasure Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You've found a treasure note! Return to the <NAVI>[Schweicherbil Magical College Booth]<INFO>yuno.gat,341,258,0,101,0</INFO></NAVI> and they'll exchange it for a prize."
+		},
+		Summary = "Return to the Magic College Booth"
+	},
+	[16872] = {
+		Title = "Treasure Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You've found a treasure note! Return to the <NAVI>[Schweicherbil Magical College Booth]<INFO>yuno.gat,341,258,0,101,0</INFO></NAVI> and they'll exchange it for a prize."
+		},
+		Summary = "Return to the Magic College Booth"
+	},
+	[16873] = {
+		Title = "Treasure Found!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You've found a treasure note! Return to the <NAVI>[Schweicherbil Magical College Booth]<INFO>yuno.gat,341,258,0,101,0</INFO></NAVI> and they'll exchange it for a prize."
+		},
+		Summary = "Return to the Magic College Booth"
+	},
+	[16874] = {
+		Title = "[Standby] Exciting Monster Quiz",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Monster Museum Staff]<INFO>yuno.gat,283,285,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16875] = {
+		Title = "Exciting Monster Quiz",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I took the Monster Quiz at the <NAVI>[Monster Museum Booth]<INFO>yuno.gat,283,285,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Take the Quiz"
+	},
+	[16876] = {
+		Title = "This Andre is so suspicious!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"According to the information provided by the Monster Museum, <NAVI>[Suspicious Andre]<INFO>yuno.gat,363,221,0,101,0</INFO></NAVI> is ... here!"
+		},
+		Summary = "Suspicious Andre Observation"
+	},
+	[16877] = {
+		Title = "That Andre is suspicious!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"According to the information provided by the Monster Museum, <NAVI>[Suspicious Andre]<INFO>yuno.gat,247,178,0,101,0</INFO></NAVI> is ... here!"
+		},
+		Summary = "Suspicious Andre Observation"
+	},
+	[16878] = {
+		Title = "That Andre is suspicious!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"According to the information provided by the Monster Museum, <NAVI>[Suspicious Andre]<INFO>yuno.gat,235,108,0,101,0</INFO></NAVI> is ... here!"
+		},
+		Summary = "Suspicious Andre Observation"
+	},
+	[16879] = {
+		Title = "Which Andre is so suspicious?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"According to the information provided by the Monster Museum, <NAVI>[Suspicious Andre]<INFO>yuno.gat,193,231,0,101,0</INFO></NAVI> is ... here!"
+		},
+		Summary = "Suspicious Andre Observation"
+	},
+	[16880] = {
+		Title = "This is the identity of the suspicious Andre?!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We've observed all the suspicious Andres at the data location. They're suspicious, after all! Let's return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,128,197,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Monster Museum Booth"
+	},
+	[16881] = {
+		Title = "[Standby] Stop Smart Andre's plot!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Monster Society Booth]<INFO>yuno.gat,128,197,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16882] = {
+		Title = "Stop Smart Andre's plot!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Smart Andre's plot must be uncovered. After capturing ten Smart Andre, return to the  <NAVI>[Monster Society Booth]<INFO>yuno.gat,128,197,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16883] = {
+		Title = "[Standby] Monster Research Mission",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16884] = {
+		Title = "Hunting Formless Monsters Level 100~149",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 formless monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16885] = {
+		Title = "Hunting Formless Monsters Level 150~199",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 formless monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16886] = {
+		Title = "Hunting Formless Monsters Level 200+",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 formless monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16887] = {
+		Title = "Hunting Undead Monsters Level 100~149",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 undead monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16888] = {
+		Title = "Hunting Undead Monsters Level 150~199",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 undead monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16889] = {
+		Title = "Hunting Undead Monsters Level 200+",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 undead monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16890] = {
+		Title = "Hunting Large Monsters Level 100~149",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 large monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16891] = {
+		Title = "Hunting Large Monsters Level 150~199",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 large monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16892] = {
+		Title = "Hunting Large Monsters Level 200+",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"After hunting 100 large monsters appropriate for your level, return to the <NAVI>[Monster Society Booth]<INFO>yuno.gat,133,199,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = ""
+	},
+	[16893] = {
+		Title = "[Standby] Fantastic Fantasy Series Quiz",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Prontera Library Staff]<INFO>yuno.gat,368,164,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16894] = {
+		Title = "Fantastic Fantasy Series Quiz",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I participated in a quiz program related to the Fantasy Series at the <NAVI>[Prontera Library Booth]<INFO>yuno.gat,368,164,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Take the Quiz"
+	},
+	[16895] = {
+		Title = "[Standby] Yuno Library Overdue Book Relief Event",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Yuno Library Staff]<INFO>yuno.gat,355,164,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16896] = {
+		Title = "Yuno Library Overdue Book Relief Event",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I participated in the overdue book relief event held at the <NAVI>[Yuno Library Booth]<INFO>yuno.gat,355,164,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Overdue Book Relief Event"
+	},
+	[16897] = {
+		Title = "Got you, overdue book!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I've pinpointed the location of a<NAVI>[overdue book]<INFO>yuno.gat,236,147,0,101,0</INFO></NAVI>. Let's go catch him... oh, no, let's go get the book back!"
+		},
+		Summary = "Tracking overdue book"
+	},
+	[16898] = {
+		Title = "Got you, overdue book!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I've pinpointed the location of a <NAVI>[overdue book]<INFO>yuno.gat,181,79,0,101,0</INFO></NAVI>. Let's go catch him... oh, no, let's go get the book back!"
+		},
+		Summary = "Tracking overdue book"
+	},
+	[16899] = {
+		Title = "Got you, overdue book!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I've pinpointed the location of a <NAVI>[overdue book]<INFO>yuno.gat,89,109,0,101,0</INFO></NAVI>. Let's go catch him... oh, no, let's go get the book back!"
+		},
+		Summary = "Tracking overdue book"
+	},
+	[16900] = {
+		Title = "Ring out the victory bell!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We safely received our overdue books. We also received a promise to return books faithfully in the future. Let's proudly return to the <NAVI>[Yuno Library Booth]<INFO>yuno.gat,355,164,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Return to the Yuno Library Booth"
+	},
+	[16901] = {
+		Title = "Ring out the victory bell!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We safely received our overdue books. We also received a promise to return books faithfully in the future. Let's proudly return to the <NAVI>[Yuno Library Booth]<INFO>yuno.gat,355,164,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Return to the Yuno Library Booth"
+	},
+	[16902] = {
+		Title = "Ring out the victory bell!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"We safely received our overdue books. We also received a promise to return books faithfully in the future. Let's proudly return to the <NAVI>[Yuno Library Booth]<INFO>yuno.gat,355,164,0,101,0</INFO></NAVI>!"
+		},
+		Summary = "Return to the Yuno Library Booth"
+	},
+	[16903] = {
+		Title = "[Standby] Paradise Group Mentor & Mentee Matchmaking Ceremony",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be re-acquired and completed after the cooldown expires. You can accept the quest through <NAVI>[Paradise Group Member]<INFO>yuno.gat,201,176,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16904] = {
+		Title = "Paradise Group Mentor & Mentee Matchmaking Ceremony",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I attended the mentor & mentee matchmaking ceremony hosted by the <NAVI>[Paradise Group Booth]<INFO>yuno.gat,201,176,0,101,0</INFO></NAVI> as a mentor."
+		},
+		Summary = "Participating in Mentor Event"
+	},
+	[16905] = {
+		Title = "Consulting with a Mentee in Trouble",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The mentee seeking counseling is described as a <NAVI>[newbie adventurer]<INFO>yuno.gat,198,163,0,101,0</INFO></NAVI>. What concerns does he have?"
+		},
+		Summary = "Finding a Mentee"
+	},
+	[16906] = {
+		Title = "Consulting with a Mentee in Trouble",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The mentee seeking counseling is described as a <NAVI>[aspiring adventurer]<INFO>yuno.gat,190,158,0,101,0</INFO></NAVI>. What concerns does he have?"
+		},
+		Summary = "Finding a Mentee"
+	},
+	[16907] = {
+		Title = "Consulting with a Mentee in Trouble",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"The mentee seeking counseling is described as a <NAVI>[adventurer stuck in mannerism]<INFO>yuno.gat,194,166,0,101,0</INFO></NAVI>. What concerns does he have?"
+		},
+		Summary = "Finding a Mentee"
+	},
+	[16908] = {
+		Title = "Feeling a little better?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I gave my mentee a sincere consultation. Did it help? Let's return to the <NAVI>[Paradise Group Booth]<INFO>yuno.gat,201,176,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Paradise Booth"
+	},
+	[16909] = {
+		Title = "Feeling a little better?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I gave my mentee a sincere consultation. Did it help? Let's return to the <NAVI>[Paradise Group Booth]<INFO>yuno.gat,201,176,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Paradise Booth"
+	},
+	[16910] = {
+		Title = "Feeling a little better?",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I gave my mentee a sincere consultation. Did it help? Let's return to the <NAVI>[Paradise Group Booth]<INFO>yuno.gat,201,176,0,101,0</INFO></NAVI> and report."
+		},
+		Summary = "Return to the Paradise Booth"
+	},
+	[16911] = {
+		Title = "Monster Hunt Notification",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"You can complete monster hunting quests."
+		},
+		Summary = "Quest Completion"
+	},
+	[16912] = {
+		Title = "Examining Patients in the Clinic",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I decided to meet patients in person. Let's visit <NAVI>[a patient with a severe cough]<INFO>ch1_gef_in,109,37,0,101,0</INFO></NAVI> in the Neumann clinic in the Destroyed Geffen."
+		},
+		Summary = "Visiting a Patient with a Severe Cough"
+	},
+	[16913] = {
+		Title = "Examining Patients in the Clinic",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I decided to meet patients in person. Let's visit <NAVI>[Patients Who Want to Wash]<INFO>ch1_gef_in,102,33,0,101,0</INFO></NAVI> in the Neumann clinic in the Destroyed Geffen."
+		},
+		Summary = "Visiting Patients Who Want to Wash"
+	},
+	[16914] = {
+		Title = "Examining Patients in the Clinic",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I decided to meet patients in person. Let's visit <NAVI>[a patient who has lost weight]<INFO>ch1_gef_in,65,112,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Visiting a Patient Who Has Lost Weight"
+	},
+	[16915] = {
+		Title = "Examining Patients in the Clinic",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I decided to meet patients in person. Let's visit <NAVI>[young patients]<INFO>ch1_gef_in,106,106,0,101,0</INFO></NAVI> in the Destroyed Geffen Neumann clinic."
+		},
+		Summary = "Visiting Young Patients"
+	},
+	[16916] = {
+		Title = "Examining Patients in the Clinic",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I decided to meet patients in person. Let's visit <NAVI>[elderly patient]<INFO>ch1_gef_in,105,104,0,101,0</INFO></NAVI> is worried about in the Destroyed Geffen Neumann clinic."
+		},
+		Summary = "Visiting Elderly Patients"
+	},
+	[16917] = {
+		Title = "About Søren Syndrome",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It seems we've gathered some information from the patients. Let's go to the Destroyed Geffen Neumann clinic and discuss it with <NAVI>[Einhar]<INFO>ch1_gef_in,75,58,0,101,0</INFO></NAVI> and Gregor."
+		},
+		Summary = "Talk with Einhar"
+	},
+	[16918] = {
+		Title = "Warm Towel",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Patients who need to wash often ask for at least a wet towel. Let's ask the <NAVI>[Clinic Volunteer]<INFO>ch1_gef_in,115,40,0,101,0</INFO></NAVI> at the Destroyed Geffen Neumann clinic."
+		},
+		Summary = "Talk to the Clinic Volunteer"
+	},
+	[16919] = {
+		Title = "Warm Towel",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"At the Destroyed Geffen Neumann clinic, I received a warm towel from a clinic volunteer. Let's give it to <NAVI>[the patient who wants a wash]<INFO>ch1_gef_in,102,33,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to a Patient Who Wants a Wash"
+	},
+	[16920] = {
+		Title = "Request for additional food",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"A patient who has lost a lot of weight is still hungry. At the Destroyed Geffen Neumann clinic, ask the­ <NAVI>[clinic food volunteer]<INFO>ch1_gef_in,113,102,0,101,0</INFO></NAVI> for food."
+		},
+		Summary = "Talk to the clinic food volunteer"
+	},
+	[16921] = {
+		Title = "Additional Meals",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The clinic's food service volunteer happily provided meals. Bring food to <NAVI>[a patient who has lost weight]<INFO>ch1_gef_in,66,112,0,101,0</INFO></NAVI> in the Destroyed Geffen Neumann's clinic."
+		},
+		Summary = "Talking to a patient who has lost weight"
+	},
+	[16922] = {
+		Title = "Report the patient\'s symptoms",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Apparently, this symptom is not a good thing.... Let's report changes in the patient's symptoms to <NAVI>[Dr. Neumann]<INFO>ch1_gef_in,81,74,0,101,0</INFO></NAVI> at the Destroyed Geffen Neumann clinic."
+		},
+		Summary = "Talk to Dr. Neumann"
+	},
+	[16923] = {
+		Title = "Sweet snacks seen in dreams",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"For young patients, clinic meals are not suitable for young patients. At the Destroyed Geffen Neumann clinic, ask <NAVI>[Clinic Food Volunteer]<INFO>ch1_gef_in,113,102,0,101,0</INFO></NAVI> if he has anything sweet."
+		},
+		Summary = "Talk to the clinic food service volunteer"
+	},
+	[16924] = {
+		Title = "sweet snack of reality",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Let's give <NAVI>[the young patient]<INFO>ch1_gef_in,106,106,0,101,0</INFO></NAVI> the sweets that the clinic distribution volunteer did his best to make at the Destroyed Geffen Neumann clinic."
+		},
+		Summary = "Talking to a Young Patient"
+	},
+	[16925] = {
+		Title = "Visit to a clergy clinic",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"We also visited a treatment center managed by priests from the Destroyed Geffen to investigate. Let's talk to <NAVI>[Gregor]<INFO>ch1_gef_in,29,174,0,101,0</INFO></NAVI>, who is talking to a patient who appears to be introverted."
+		},
+		Summary = "Talk to Gregor"
+	},
+	[16926] = {
+		Title = "Visit to the Wizard's Infirmary",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"We also visited a treatment center managed by the fallen wizards of Geffen to investigate. Let's talk to <NAVI>[Einhar]<INFO>ch1_gef_in,70,170,0,101,0</INFO></NAVI>, who is talking to a patient who looks disapproving."
+		},
+		Summary = "Talk to Einhar"
+	},
+	[16927] = {
+		Title = "Research clues",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"After exploring here and there, I returned to the village hall of Destroyed Geffen. <NAVI>[Gregor]<INFO>ch1_gef_in,179,193,0,101,0</INFO></NAVI> looks a little happy, saying that he can now demonstrate his specialty in his main job."
+		},
+		Summary = "Talk to Gregor"
+	},
+	[16928] = {
+		Title = "Patient Blood Collection",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"If you are infected with Søren syndrome in the Destroyed Geffen and want to be treated at Dr. Neumann's clinic and obtain a blood sample from the patient, you will probably need permission from <NAVI>[Dr. Neumann]<INFO>ch1_gef_in,81,74,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Talk to Dr. Neumann"
+	},
+	[16929] = {
+		Title = "Blood Collection from an Uninfected Person",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"To obtain a blood sample from a healthy person who has not been infected with Søren syndrome from the Destroyed Geffen, let's first go around the <NAVI>[streets]<INFO>ch1_geffen,180,147,0,101,0</INFO></NAVI>.... I have to be careful not to be misunderstood as spreading religion or selling something."
+		},
+		Summary = "Talk to Ayre"
+	},
+	[16930] = {
+		Title = "Blood Collection from the Recovered",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I heard that <NAVI>[Mr. Dafan]<INFO>ch1_gef_in,75,143,0,101,0</INFO></NAVI>, who lives in the destroyed town of Geffen, suffered from Søren syndrome and recovered. Let's ask to collect a blood sample."
+		},
+		Summary = "Talk to Dapan"
+	},
+	[16931] = {
+		Title = "Patient Blood Transfer",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Blood samples were collected from patients in Neumann's clinic. Let's return to the <NAVI>[Town Hall]<INFO>ch1_gef_in.gat,182,191,0,101,0</INFO></NAVI> of Destroyed Geffen."
+		},
+		Summary = "Report at the Town Hall"
+	},
+	[16932] = {
+		Title = "Blood Transfer from an Uninfected Person",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Blood samples were taken from healthy people who were not infected with Søren syndrome. Let's return to the <NAVI>[Town Hall]<INFO>ch1_gef_in.gat,182,191,0,101,0</INFO></NAVI> of Destroyed Geffen."
+		},
+		Summary = "Report at the Town Hall"
+	},
+	[16933] = {
+		Title = "Blood Transfer from the Recovered",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Blood samples were taken from people who had recovered from Søren syndrome. Let's return to the <NAVI>[Town Hall]<INFO>ch1_gef_in.gat,182,191,0,101,0</INFO></NAVI> of Destroyed Geffen."
+		},
+		Summary = "Report at the Town Hall"
+	},
+	[16934] = {
+		Title = "Conclusion of the Study",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Several blood samples were collected and studied from the village hall of Destroyed Geffen. <NAVI>[Gregor]<INFO>ch1_gef_in,179,193,0,101,0</INFO></NAVI> seems to have figured something out."
+		},
+		Summary = "Talk to Gregor"
+	},
+	[16935] = {
+		Title = "Patient Blood Collection",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Permission was obtained to take blood samples from the Destroyed Geffen Neumann clinic. Go to <NAVI>[the patient in treatment]<INFO>ch1_gef_in,79,73,0,101,0</INFO></NAVI> and use the blood collection kit."
+		},
+		Summary = "Talk to the Patient in Treatment"
+	},
+	[16936] = {
+		Title = "What Doctor Neumann Doesn't Know",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"We must inform Professor Neumann of the research results as soon as possible. It would be a good idea to go to <NAVI>[Dr. Neumann's home]<INFO>ch1_geffen,176,66,0,101,0</INFO></NAVI> in the Destroyed Geffen."
+		},
+		Summary = "Visit to Neumann's home"
+	},
+	[16937] = {
+		Title = "What Doctor Neumann is Hiding",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"What does that suspicious conversation mean? They broke into the home of Mr. Neumann in Destroyed Geffen. <NAVI>[Gregor]<INFO>ch1_gef_in,111,169,0,101,0</INFO></NAVI> seems to have discovered something."
+		},
+		Summary = "Talk to Gregor"
+	},
+	[16938] = {
+		Title = "What else is Dr. Neumann hiding?",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"It feels even more strange.... Inside the home of Professor Neumann in Destroyed Geffen, <NAVI>[Einhar]<INFO>ch1_gef_in,144,171,0,101,0</INFO></NAVI> seems to have become accustomed to home invasions."
+		},
+		Summary = "Talk to Einhar"
+	},
+	[16939] = {
+		Title = "Go to the clinic",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Einhard says he will return to Ash Village with what he found at Dr. Neumann's house. Let's go back to <NAVI>[clinic]<INFO>ch1_geffen,167,173,0,101,0</INFO></NAVI> of Geffen, which collapsed with Gregor."
+		},
+		Summary = "Talk to the ex-wife"
+	},
+	[16940] = {
+		Title = "An open door that was always locked",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"There is a door in Dr. Neumann's clinic in Destroyed Geffen that was always locked. I see the door slightly open.... It's somehow strange.Let's go in and take a look at <NAVI>[inside]<INFO>ch1_gef_in,26,70,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Check inside the clinic door at 9 o'clock"
+	},
+	[16941] = {
+		Title = "Eavesdropping Techniques",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In Dr. Neumann's clinic in Destroyed Geffen, sounds of fighting are heard from inside the always locked door. Let’s go down the <NAVI>[staircase]<INFO>ch1_gef_in,26,34,0,101,0</INFO></NAVI> and eavesdrop carefully."
+		},
+		Summary = "Hiding on the Staircase"
+	},
+	[16942] = {
+		Title = "Urgent Rescue",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Something strange is happening in the basement of Dr. Neumann's clinic in Destroyed Geffen. We have to quickly chase after the two men <NAVI>[through the door]<INFO>ch1_gef_in,29,22,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Enter inside the door"
+	},
+	[16943] = {
+		Title = "Urgent Rescue",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Einhar opened a <NAVI>[portal]<INFO>ch1_gef_in,29,29,0,101,0</INFO></NAVI>, which leads back to Ash Village, in the basement of Professor Neumann's clinic in the Destroyed Geffen. Let’s go back to Ash Village."
+		},
+		Summary = "Use the portal"
+	},
+	[16944] = {
+		Title = "Urgent Rescue",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Einhar recommended calming down and tracking down with his colleagues. Let's go back to Ash Village and find the <NAVI>[ex-wife]<INFO>ygg_fruit,40,72,0,101,0</INFO></NAVI> and Gregor."
+		},
+		Summary = "Talk to the ex-wife"
+	},
+	[16945] = {
+		Title = "Urgent Rescue",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The ex-wife, Gregoire, and I returned to the destroyed basement of Geffen's Dr. Neumann's clinic. Now is the time to head to the real <NAVI>[clinic basement]<INFO>ch1_gef_in,29,22,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Enter the portal"
+	},
+	[16946] = {
+		Title = "Uneasy Traces",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"An unexpected scene unfolds in the basement of Dr. Neumann's clinic in Destroyed Geffen. <NAVI>[Gregor]<INFO>ch1_que01,141,114,0,101,0</INFO></NAVI> seems to have found some traces left by Einhar."
+		},
+		Summary = "Talk to Gregor"
+	},
+	[16947] = {
+		Title = "Ominous Signs",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"The basement of Dr. Neumann's clinic in Destroyed Geffen was full of monsters. Meanwhile, the <NAVI>[ex-wife]<INFO>ch1_que01,126,57,0,101,0</INFO></NAVI> felt a new presence."
+		},
+		Summary = "Talk to the ex-wife"
+	},
+	[16948] = {
+		Title = "Uneasy Traces",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"Everyone wandering around the basement of Dr. Neumann's clinic in Destroyed Geffen became increasingly impatient. The <NAVI>[ex-wife]<INFO>ch1_que01,51,46,0,101,0</INFO></NAVI> calmly found traces of Einhar."
+		},
+		Summary = "Talk to the ex-wife"
+	},
+	[16949] = {
+		Title = "What was at the end of the trail?",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"In the basement of Dr. Neumann's clinic in Destroyed Geffen, we finally find <NAVI>[Einhar]<INFO>ch1_que01,67,128,0,101,0</INFO></NAVI> who was tracking people, but he looks devastated."
+		},
+		Summary = "Talk to Einhar"
+	},
+	[16950] = {
+		Title = "Finding a better solution",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I found what I was looking for in this basement.Let's go back to Dr. Neumann's clinic in Destroyed Geffen and tell <NAVI>[Maxim]<INFO>ch1_gef_in,69,33,0,101,0</INFO></NAVI> what we saw down here."
+		},
+		Summary = "Talk to Maxim"
+	},
+	[16951] = {
+		Title = "To Ash Village",
+		IconName = "ico_ep.bmp",
+		Description = {
+			"I may have found a clue in the diary I left behind. Let’s go back to <NAVI>[Professor Telcos]<INFO>ygg_edge,209,209,0,101,0</INFO></NAVI> in Ash Village and check the progress."
+		},
+		Summary = "Talk to Professor Telcos"
+	},
+	[16952] = {
+		Title = "Red Key",
+		Description = {
+			"Obtained the red key. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16953] = {
+		Title = "Small Hand Knife",
+		Description = {
+			"Acquired a small hand knife. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16954] = {
+		Title = "Axe",
+		Description = {
+			"Acquired an axe. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16955] = {
+		Title = "Yellow Key",
+		Description = {
+			"Obtained the yellow key. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16956] = {
+		Title = "Black Key",
+		Description = {
+			"Obtained the black key. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16957] = {
+		Title = "Short Rod",
+		Description = {
+			"Got a short pole. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16958] = {
+		Title = "Short Pole",
+		Description = {
+			"Got a short pole. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16959] = {
+		Title = "Long Rod",
+		Description = {
+			"Obtained a long Rod. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16960] = {
+		Title = "Cube Model",
+		Description = {
+			"A cubic model was obtained. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16961] = {
+		Title = "Rusty Key",
+		Description = {
+			"Obtained the rusty key. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16962] = {
+		Title = "Green Key",
+		Description = {
+			"Obtained the green key. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16963] = {
+		Title = "Polygonal Model",
+		Description = {
+			"A polygonal model was obtained. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
+	},
+	[16964] = {
+		Title = "Oval Model",
+		Description = {
+			"An oval model was obtained. Could it be used somewhere?"
+		},
+		Summary = "Investigation"
 	},
 	-- Note: These quests from iRO are different from kRO's (They're used on Cat Pub quests)
 	[17000] = {
@@ -61738,7 +64571,7 @@ QuestInfoList = {
 		Title = "Abyss Glastheim Attack",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Let's attack the Abyss Glastheim. You can explore the Abyss Glastheim through <NAVI>[Nillem]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>. Report completion to Lime using a booster call."
+			"Let's attack the Abyss Glastheim. You can explore the Abyss Glastheim through <NAVI>[Nilem]<INFO>glast_01,191,273,0,101,0</INFO></NAVI>. Report completion to Lime using a booster call."
 		},
 		Summary = "",
 		NpcSpr = "4_M_JOB_WIZARD",
@@ -65493,7 +68326,7 @@ QuestInfoList = {
 		Description = {
 			"Have you visited the exhibition hall? There are various events that you can participate in.",
 			"A challenge every day",
-			"Heh heh heh heh-",
+			"Heh heh heh heh",
 			"Wish you success"
 		},
 		Summary = "Daily, heh heh heh-, wishing for success"

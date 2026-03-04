@@ -4,7 +4,8 @@
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the edited `questinfo_f.lub`
 
---[[ Quest Info Format:
+RecommendedQuests_C = {
+	--[[ Quest Info Format:
 	[0] = { -- Quest ID of the List - does not represent any ID of the quest database
 		Title = "",
 		IconName = "ico_gq.bmp", -- Icon BMP Name
@@ -24,20 +25,19 @@
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
-]]
-
-RecommendedQuests_C = {
-	[10] = { -- Quest ID of the List - does not represent any ID of the quest database
-		Title = "Custom Recommened Quest Test",
-		IconName = "ico_gq.bmp", -- Icon BMP Name
+	]]
+	-------- Start of custom entries: -----------
+	[10] = {
+		Title = "Custom Recommended Quest Test",
+		IconName = "ico_gq.bmp",
 		Summary = "",
-		NpcSpr = "4_F_01", -- NPC Sprite Name
-		NpcNavi = "prontera", -- Map Name
-		NpcPosX = 150, -- X Coordinate
-		NpcPosY = 184, -- Y Coordinate
-		BgName = "reco_01.bmp", -- Background BMP Name
-		QuestInfo1 = { -- Following are boxes for text (Maximum amount of lines depends on 'BgName' - visually)
-			"Testing Custom Recommended Quests Edit"
+		NpcSpr = "4_F_01",
+		NpcNavi = "prontera",
+		NpcPosX = 150,
+		NpcPosY = 184,
+		BgName = "reco_01.bmp",
+		QuestInfo1 = {
+			"Testing Custom Recommended Quests"
 		},
 		QuestInfo2 = {
 			"Bugs included!"

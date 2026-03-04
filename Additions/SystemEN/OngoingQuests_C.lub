@@ -4,7 +4,8 @@
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the edited `questinfo_f.lub`
 
---[[ Quest Info Format:
+QuestInfoList_C = {
+	--[[ Quest Info Format:
 	[<ID>] = {
 		Title = "",
 		Description = {
@@ -12,6 +13,7 @@
 		},
 		Summary = "", -- If you don't need any arguments below, remove the , in this line
 		-- Optional values:
+		CoolTimeQuest = 1, -- Shows the Quest in a separate tab (if supported by the client)
 		NpcSpr = "<NPC_Sprite>",
 		NpcNavi = "<MapName>",
 		RewardEXP = "0",
@@ -23,15 +25,13 @@
 			{ ItemID = 0, ItemNum = 1 },
 			{ ItemID = 0, ItemNum = 1 }
 		}
-		-- End of Quest Info
 	},
-]]
-
-QuestInfoList_C = {
+	]]
+	-------- Start of custom entries: -----------
 	[2] = {
 		Title = "Custom OnGoing Quests Test",
 		Description = {
-			"Blub"
+			"Testing Custom OnGoing Quests"
 		},
 		Summary = "Does it work?"
 	},
