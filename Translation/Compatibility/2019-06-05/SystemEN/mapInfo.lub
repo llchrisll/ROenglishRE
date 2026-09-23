@@ -2,9 +2,208 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260322
+-- Last updated: 20260812
 
 mapTbl = {
+	["2026arena1.rsw"] = {
+		displayName = "Arena Valkyrie Temple",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Valkyrie Temple"
+		},
+		backgroundBmp = "noname"
+	},
+	["2026arena2.rsw"] = {
+		displayName = "Arena Nogg Road",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Nogg Road"
+		},
+		backgroundBmp = "noname"
+	},
+	["2026arena3.rsw"] = {
+		displayName = "Arena Ice Cave",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Ice Cave"
+		},
+		backgroundBmp = "noname"
+	},
+	["2026arena4.rsw"] = {
+		displayName = "Arena Sacred Sessrumnir",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Arena",
+			mainTitle = "Sacred Sessrumnir"
+		},
+		backgroundBmp = "noname"
+	},
+	["ab_death1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Death",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Death"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ab_soul1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Soul",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Soul"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ab_temple1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Temple",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Temple"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["1@pbs.rsw"] = {
+		displayName = "Baby Shark's Playground",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Pinkfong Baby Shark",
+			mainTitle = "Baby Shark's Playground"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["pbse.rsw"] = {
+		displayName = "Baby Shark's Playground",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Pinkfong Baby Shark",
+			mainTitle = "Baby Shark's Playground"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["yuno_lib.rsw"] = {
+		displayName = "Yuno Library Annex",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Yuno Library Annex"
+		},
+		backgroundBmp = "village_s1"
+	},
+	["vr_zrr01.rsw"] = {
+		displayName = "VR Yuno - Issgard Production Contest",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Issgard Production Contest"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["vr_zrr02.rsw"] = {
+		displayName = "VR Yuno - Frozen Food Warehouse",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Issgard Production Contest",
+			mainTitle = "Frozen Food Warehouse"
+		},
+		backgroundBmp = "field"
+	},
+	["vr_zrr03.rsw"] = {
+		displayName = "VR Yuno - Frozen Treasure Vault",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Issgard Production Contest",
+			mainTitle = "Frozen Treasure Vault"
+		},
+		backgroundBmp = "field"
+	},
+	["vr_hero00.rsw"] = {
+		displayName = "VR Yuno - Demon Castle",
+		notifyEnter = true,
+		signName = {
+			subTitle = "How to Survive in the Demon King's Castle",
+			mainTitle = "Demon Castle"
+		},
+		backgroundBmp = "noname"
+	},
+	["vr_hero01.rsw"] = {
+		displayName = "VR Yuno - Demon Castle F1",
+		notifyEnter = true,
+		signName = {
+			subTitle = "How to Survive in the Demon King's Castle",
+			mainTitle = "Demon Castle F1"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["vr_hero02.rsw"] = {
+		displayName = "VR Yuno - Demon Castle F2",
+		notifyEnter = true,
+		signName = {
+			subTitle = "How to Survive in the Demon King's Castle",
+			mainTitle = "Demon Castle F2"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["vr_hero03.rsw"] = {
+		displayName = "VR Yuno - Demon Castle F3",
+		notifyEnter = true,
+		signName = {
+			subTitle = "How to Survive in the Demon King's Castle",
+			mainTitle = "Demon Castle F3"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ab_venom1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Venom",
+		notifyEnter = true,
+		signName = { 
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Venom"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ab_ice1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Extreme Cold",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Extreme Cold"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ba_void.rsw"] = {
+		displayName = "Eroded Area Inside Varmundt's Mansion"
+	},
+	["ab_lava1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Volcano",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Volcano"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ab_ground1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Earth",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Earth"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["clb_kuma.rsw"] = {
+		displayName = "Kumamoto Experience Farm",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Kumamon",
+			mainTitle = "Kumamoto Experience Farm"
+		},
+		backgroundBmp = "village"
+	},
 	["1@ch2a.rsw"] = {
 		displayName = "Nirhold",
 		notifyEnter = true,
@@ -63,19 +262,19 @@ mapTbl = {
 		backgroundBmp = "noname_s2"
 	},
 	["kin_in01.rsw"] = {
-		displayName = "Inside Yongjirak",
+		displayName = "Inside Kindlebrook",
 		notifyEnter = true,
 		signName = {
-			mainTitle = "Inside Yongjirak"
+			mainTitle = "Inside Kindlebrook"
 		},
 		backgroundBmp = "village_s2"
 	},
 	["kindlbrk.rsw"] = {
-		displayName = "Yongjirak",
+		displayName = "Kindlebrook",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Muspelheim Harban's Village",
-			mainTitle = "Yongjirak"
+			mainTitle = "Kindlebrook"
 		},
 		backgroundBmp = "village"
 	},
@@ -98,11 +297,11 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["mu_fild02.rsw"] = {
-		displayName = "Volund Plain",
+		displayName = "Volund Plains",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Muspelheim",
-			mainTitle = "Volund Plain"
+			mainTitle = "Volund Plains"
 		},
 		backgroundBmp = "field2"
 	},

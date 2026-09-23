@@ -4,16 +4,15 @@
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file also only works if used in combination with the edited
 -- `data/luafiles514/lua files/signboardlist_f.lub`, which comes with this project!
--- Last updated: 20260805
+-- Last updated: 20260808
 
 -- General Setting to disable Signboards
 -- false = no, true = yes
 DisableSignboards = false
 
--- Custom Signboards
--- Note: The CLS for Signboards will still work even without the file below but 
---       will not work together with it, meanining it will only read one file at once.
-CustomSignboard = false
+-- Replace official entries with custom entries
+-- This will ignore entries from the official table and only display custom entries
+ReplaceOfficials = false
 
 SignBoardData = {
 	["입력안하셨습니다"] = "Cannot enter",
@@ -83,9 +82,3 @@ SignBoardIgnore = {
 	-- With this you can disable certain signboards by just declaring the Map and Coordinates
 	-- { "map", x, y },
 }
-
--- Custom Signboards
-if CustomSignboard == true and io.open("SystemEN/Signboard_C.lub", "r") ~= nil then
-	io.close()
-	dofile("SystemEN/Signboard_C.lub")
-end
