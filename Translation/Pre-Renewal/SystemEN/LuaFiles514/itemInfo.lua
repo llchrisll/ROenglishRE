@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/zackdreaver/ROenglishRE
--- Last updated: 20240220
+-- Last updated: 20261007
 
 tbl = {
 	[501] = {
@@ -16408,7 +16408,7 @@ tbl = {
 			"Element:^777777 Undead^000000",
 			"Weapon Level:^009900 3^000000",
 			"Level Requirement:^009900 70^000000",
-			"Jobs:^6666CC Trascendent Mage and Acolyte Classes^000000"
+			"Jobs:^6666CC Transcendent Mage and Acolyte Classes^000000"
 		},
 		slotCount = 2,
 		ClassNum = 10,
@@ -16454,7 +16454,7 @@ tbl = {
 			"Weight:^009900 50^000000",
 			"Weapon Level:^009900 3^000000",
 			"Level Requirement:^009900 70^000000",
-			"Jobs:^6666CC Trascendent Mage and Acolyte Classes^000000"
+			"Jobs:^6666CC Transcendent Mage and Acolyte Classes^000000"
 		},
 		slotCount = 0,
 		ClassNum = 10,
@@ -20357,7 +20357,7 @@ tbl = {
 			"Physical Attack Strength to ^6666CCDemihuman^000000 monsters +95%.",
 			"Ignore 20% of Physical Defense of ^6666CCDemihuman^000000 monsters.",
 			"***Additional Weapon Refining Level Option***",
-			"+6 Upgrade : Ignore Demihuman physical defense +5%, ^FF0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)",
+			"+6 Upgrade : Ignore Demihuman physical defense +5%.",
 			"+9 Upgrade : When using [Arrow Vulcan], has a chance of casting Lv. 5 [Tarot Card of Fate].",
 			"Class:^6666CC Musical Instrument^000000",
 			"Attack:^CC0000 50^000000",
@@ -29787,7 +29787,7 @@ tbl = {
 			"Increase 2% physical damage to ^FF0000Fire^000000 elemental monsters.",
 			"Class:^6666CC Garment^000000",
 			"Defense:^0000FF 4^000000",
-			"Weight:^009900 70^000000",
+			"Weight:^009900 50^000000",
 			"Level Requirement:^009900 70^000000",
 			"Jobs:^6666CC All Transcendent Jobs except Novice^000000"
 		},
@@ -42439,7 +42439,7 @@ tbl = {
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
 			"MaxHP +100%",
-			"Reduce physical and magical defense by 50%.",
+			"Reduce physical and magical defense by 50.",
 			"Class:^6666CC Card^000000",
 			"Compound on:^00CC33 Armor^000000",
 			"Weight:^009900 1^000000"
