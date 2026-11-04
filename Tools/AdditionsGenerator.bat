@@ -370,7 +370,7 @@ if %lua% equ 1 (
 		xcopy "%sourceSystemPath%\OngoingQuests_C.lub" "%destinationSystemPath%\OngoingQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
-		if %cdate% geq 20170614 (
+		if %cdate% leq 20170614 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		) else if %cdate% geq 20260715 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20260715.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
@@ -398,7 +398,7 @@ if %lua% equ 1 (
 	) else if %sys% equ 3 (
 		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
 	) else if %sys% equ 4 (
-		if %cdate% geq 20170614 (
+		if %cdate% leq 20170614 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		) else if %cdate% geq 20260715 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20260715.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
