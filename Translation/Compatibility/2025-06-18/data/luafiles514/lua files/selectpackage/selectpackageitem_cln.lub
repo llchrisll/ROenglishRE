@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260407
+-- Last updated: 20261021
 
 SelectPackageItemData = {
 	TabNameTbl = {
@@ -467,1402 +467,626 @@ SelectPackageItemData = {
 			[3] = "Icicle Acid Bottle",
 			[4] = "Advanced Glistening Coat",
 			[5] = "Advanced Plant Bottle"
+		},
+		[106476] = {
+			[0] = "Physical Armor",
+			[1] = "Magical Armor"
+		},
+		[106643] = {
+			[0] = "Device Capsules",
+			[1] = "ABR Capsules"
+		},
+		[107728] = {
+			[0] = "Costume Tatsi's Anchor",
+			[1] = "Costume Guerrero's Spear"
+		},
+		[107729] = {
+			[0] = "Costume Guerrero Hair",
+			[1] = "Costume Hanom Hair"
+		},
+		[107730] = {
+			[0] = "Costume Sirena Hairband",
+			[1] = "Costume Guerrero Hairpin"
+		},
+		[107731] = {
+			[0] = "Costume Hanom's Blinking Eyes",
+			[1] = "Costume Tatsi's Helmet"
+		},
+		[107732] = {
+			[0] = "Costume Blue Hole Bubble",
+			[1] = "Costume Diosa's Staff"
+		},
+		[106849] = {
+			[0] = "Costume Himelmez's Wig(Blue)",
+			[1] = "Costume Himelmez's Wig(Yellow)",
+			[2] = "Costume Himelmez's Wig(White)",
+			[3] = "Costume Himelmez's Wig(Light Purple)",
+			[4] = "Costume Himelmez's Wig(Pink)",
+			[5] = "Costume Himelmez's Wig(Blue Green)",
+			[6] = "Costume Himelmez's Wig(Black)",
+			[7] = "Costume Himelmez's Wig(Brown)"
+		},
+		[107316] = {
+			[0] = "Costume Baby Shark Bag",
+			[1] = "Costume Mommy Shark Bag",
+			[2] = "Costume Daddy Shark Bag",
+			[3] = "Costume Grandma Shark Bag",
+			[4] = "Costume Grandpa Shark Bag"
+		},
+		[107317] = {
+			[0] = "Costume Baby Shark Hood",
+			[1] = "Costume Mommy Shark Hood",
+			[2] = "Costume Daddy Shark Hood",
+			[3] = "Costume Grandma Shark Hood",
+			[4] = "Costume Grandpa Shark Hood"
+		},
+		[107318] = {
+			[0] = "Costume Pilot Fish",
+			[1] = "Costume Baby Shark Minimi"
+		},
+		[108035] = {
+			[0] = "Shaman's Hat",
+			[1] = "Costume Hat",
+			[2] = "Costume Veil"
+		},
+		[108038] = {
+			[0] = "Costume Sword",
+			[1] = "Bright Moon Footprint (Garment)",
+			[2] = "Moon Rabbit Footprint (Garment)"
+		},
+		[108197] = {
+			[0] = "Costume Long Haired Cat Ears",
+			[1] = "Costume Short Cat Ears"
+		},
+		[108198] = {
+			[0] = "Costume Purple Witch Hat with Ears",
+			[1] = "Costume Wanderer Grim Reaper"
+		},
+		[108199] = {
+			[0] = "Costume Fallen Heaven Lost Wing",
+			[1] = "Red Moon Footprint (Garment)"
 		}
 	},
 	PackageTbl = {
 		[101060] = {
-			[0] = {
-				[0] = { item = 28144, cnt = 1, hour = 0, refine = 7, randomOption = true, grade = 1, type = 9 },
-				[1] = { item = 600039, cnt = 1, hour = 0, refine = 5, randomOption = true, grade = 2, type = 9 },
-				[2] = { item = 610052, cnt = 1, hour = 0, refine = 3, randomOption = true, grade = 3, type = 9 },
-				[3] = { item = 630025, cnt = 1, hour = 24, refine = 0, randomOption = true, grade = 4, type = 9 }
-
-			},
-			[1] = {
-				[0] = { item = 640045, cnt = 1, hour = 0, refine = 0, randomOption = true, grade = 1, type = 9 },
-				[1] = { item = 650039, cnt = 1, hour = 0, refine = 0, randomOption = true, grade = 2, type = 9 },
-				[2] = { item = 700074, cnt = 1, hour = 0, refine = 0, randomOption = true, grade = 3, type = 8 },
-				[3] = { item = 800033, cnt = 1, hour = 0, refine = 0, randomOption = true, grade = 4, type = 15 }
-
-			},
-			[2] = {
-				[0] = { item = 810033, cnt = 1, hour = 3, refine = 0, randomOption = false, grade = 1, type = 15 },
-				[1] = { item = 820027, cnt = 1, hour = 5, refine = 0, randomOption = false, grade = 2, type = 15 },
-				[2] = { item = 500071, cnt = 1, hour = 7, refine = 0, randomOption = false, grade = 3, type = 5 },
-				[3] = { item = 510100, cnt = 1, hour = 9, refine = 0, randomOption = false, grade = 4, type = 5 },
-				[4] = { item = 743, cnt = 2, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 28144, cnt = 1, hour = 0, refine = 7, randomOption = true, grade = 1, type = 9 }, [1] = {item = 600039, cnt = 1, hour = 0, refine = 5, randomOption = true, grade = 2, type = 9 }, [2] = {item = 610052, cnt = 1, hour = 0, refine = 3, randomOption = true, grade = 3, type = 9 }, [3] = {item = 630025, cnt = 1, hour = 24, refine = 0, randomOption = true, grade = 4, type = 9} },
+			[1] = { [0] = {item = 640045, cnt = 1, hour = 0, refine = 0, randomOption = true, grade = 1, type = 9 }, [1] = {item = 650039, cnt = 1, hour = 0, refine = 0, randomOption = true, grade = 2, type = 9 }, [2] = {item = 700074, cnt = 1, hour = 0, refine = 0, randomOption = true, grade = 3, type = 8 }, [3] = {item = 800033, cnt = 1, hour = 0, refine = 0, randomOption = true, grade = 4, type = 15} },
+			[2] = { [0] = {item = 810033, cnt = 1, hour = 3, refine = 0, randomOption = false, grade = 1, type = 15 }, [1] = {item = 820027, cnt = 1, hour = 5, refine = 0, randomOption = false, grade = 2, type = 15 }, [2] = {item = 500071, cnt = 1, hour = 7, refine = 0, randomOption = false, grade = 3, type = 5 }, [3] = {item = 510100, cnt = 1, hour = 9, refine = 0, randomOption = false, grade = 4, type = 5 }, [4] = {item = 743, cnt = 2, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
 		},
 		[101062] = {
-			[0] = {
-				[0] = { item = 400360, cnt = 1, hour = 0, refine = 1, randomOption = true, grade = 1, type = 4 },
-				[1] = { item = 410209, cnt = 1, hour = 0, refine = 3, randomOption = true, grade = 2, type = 4 },
-				[2] = { item = 420179, cnt = 1, hour = 0, refine = 5, randomOption = false, grade = 3, type = 4 },
-				[3] = { item = 450250, cnt = 1, hour = 0, refine = 7, randomOption = true, grade = 4, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 460049, cnt = 1, hour = 0, refine = 9, randomOption = true, grade = 1, type = 4 },
-				[1] = { item = 470179, cnt = 1, hour = 0, refine = 12, randomOption = true, grade = 2, type = 4 },
-				[2] = { item = 480250, cnt = 1, hour = 0, refine = 15, randomOption = false, grade = 3, type = 4 },
-				[3] = { item = 490287, cnt = 1, hour = 0, refine = 20, randomOption = false, grade = 4, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400360, cnt = 1, hour = 0, refine = 1, randomOption = true, grade = 1, type = 4 }, [1] = {item = 410209, cnt = 1, hour = 0, refine = 3, randomOption = true, grade = 2, type = 4 }, [2] = {item = 420179, cnt = 1, hour = 0, refine = 5, randomOption = false, grade = 3, type = 4 }, [3] = {item = 450250, cnt = 1, hour = 0, refine = 7, randomOption = true, grade = 4, type = 4} },
+			[1] = { [0] = {item = 460049, cnt = 1, hour = 0, refine = 9, randomOption = true, grade = 1, type = 4 }, [1] = {item = 470179, cnt = 1, hour = 0, refine = 12, randomOption = true, grade = 2, type = 4 }, [2] = {item = 480250, cnt = 1, hour = 0, refine = 15, randomOption = false, grade = 3, type = 4 }, [3] = {item = 490287, cnt = 1, hour = 0, refine = 20, randomOption = false, grade = 4, type = 4} }
 		},
 		[101423] = {
-			[0] = {
-				[0] = { item = 450001, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 480000, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[2] = { item = 470000, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[3] = { item = 490004, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[4] = { item = 100043, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 450004, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 480003, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[2] = { item = 470003, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[3] = { item = 490007, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[4] = { item = 100043, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 450002, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 480001, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[2] = { item = 470001, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[3] = { item = 490005, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[4] = { item = 100043, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 450003, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 480002, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[2] = { item = 470002, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[3] = { item = 490006, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[4] = { item = 100043, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 450001, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 480000, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [2] = {item = 470000, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [3] = {item = 490004, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [4] = {item = 100043, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 450004, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 480003, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [2] = {item = 470003, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [3] = {item = 490007, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [4] = {item = 100043, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 450002, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 480001, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [2] = {item = 470001, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [3] = {item = 490005, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [4] = {item = 100043, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 450003, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 480002, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [2] = {item = 470002, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [3] = {item = 490006, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [4] = {item = 100043, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101453] = {
-			[0] = {
-				[0] = { item = 25723, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 },
-				[1] = { item = 25669, cnt = 18, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[1] = {
-				[0] = { item = 1000103, cnt = 20, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[2] = {
-				[0] = { item = 1000405, cnt = 20, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[3] = {
-				[0] = { item = 1000608, cnt = 20, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 25723, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }, [1] = {item = 25669, cnt = 18, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[1] = { [0] = {item = 1000103, cnt = 20, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[2] = { [0] = {item = 1000405, cnt = 20, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[3] = { [0] = {item = 1000608, cnt = 20, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
 		},
 		[101454] = {
-			[0] = {
-				[0] = { item = 21005, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[1] = {
-				[0] = { item = 1493, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[2] = {
-				[0] = { item = 16023, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[3] = {
-				[0] = { item = 1398, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[4] = {
-				[0] = { item = 13079, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[5] = {
-				[0] = { item = 1588, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[6] = {
-				[0] = { item = 2018, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[7] = {
-				[0] = { item = 1296, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[8] = {
-				[0] = { item = 18116, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 8 }
-
-			},
-			[9] = {
-				[0] = { item = 13125, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 15 }
-
-			},
-			[10] = {
-				[0] = { item = 26111, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 5 }
-
-			}
+			[0] = { [0] = {item = 21005, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9} },
+			[1] = { [0] = {item = 1493, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9} },
+			[2] = { [0] = {item = 16023, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 5} },
+			[3] = { [0] = {item = 1398, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9} },
+			[4] = { [0] = {item = 13079, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 5} },
+			[5] = { [0] = {item = 1588, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 5} },
+			[6] = { [0] = {item = 2018, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9} },
+			[7] = { [0] = {item = 1296, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 9} },
+			[8] = { [0] = {item = 18116, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 8} },
+			[9] = { [0] = {item = 13125, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 15} },
+			[10] = { [0] = {item = 26111, cnt = 1, hour = 0, refine = 7, randomOption = false, grade = 0, type = 5} }
 		},
 		[101456] = {
-			[0] = {
-				[0] = { item = 410018, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 410019, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 410020, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 410018, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 410019, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 410020, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[101457] = {
-			[0] = {
-				[0] = { item = 420153, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420154, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 420155, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420153, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420154, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 420155, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[101458] = {
-			[0] = {
-				[0] = { item = 440003, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 14 }
-
-			},
-			[1] = {
-				[0] = { item = 440006, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 14 }
-
-			},
-			[2] = {
-				[0] = { item = 440007, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 14 }
-
-			},
-			[3] = {
-				[0] = { item = 440009, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 14 }
-
-			}
+			[0] = { [0] = {item = 440003, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 14} },
+			[1] = { [0] = {item = 440006, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 14} },
+			[2] = { [0] = {item = 440007, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 14} },
+			[3] = { [0] = {item = 440009, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 14} }
 		},
 		[101459] = {
-			[0] = {
-				[0] = { item = 20595, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 20575, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 20615, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 20616, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 20595, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 20575, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 20615, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 20616, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[101470] = {
-			[0] = {
-				[0] = { item = 22702, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 22703, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 22704, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 22705, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[4] = {
-				[0] = { item = 22706, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[5] = {
-				[0] = { item = 22707, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[6] = {
-				[0] = { item = 22702, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 },
-				[1] = { item = 22703, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 },
-				[2] = { item = 22704, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 },
-				[3] = { item = 22705, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 },
-				[4] = { item = 22706, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 },
-				[5] = { item = 22707, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 22702, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 22703, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 22704, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 22705, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[4] = { [0] = {item = 22706, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[5] = { [0] = {item = 22707, cnt = 6, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[6] = { [0] = {item = 22702, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }, [1] = {item = 22703, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }, [2] = {item = 22704, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }, [3] = {item = 22705, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }, [4] = {item = 22706, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }, [5] = {item = 22707, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101471] = {
-			[0] = {
-				[0] = { item = 7135, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[1] = {
-				[0] = { item = 7136, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[2] = {
-				[0] = { item = 7137, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[3] = {
-				[0] = { item = 7139, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[4] = {
-				[0] = { item = 7138, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 7135, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[1] = { [0] = {item = 7136, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[2] = { [0] = {item = 7137, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[3] = { [0] = {item = 7139, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[4] = { [0] = {item = 7138, cnt = 50, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
 		},
 		[101542] = {
-			[0] = {
-				[0] = { item = 101543, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101544, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 101545, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 101546, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101543, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101544, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 101545, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 101546, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101547] = {
-			[0] = {
-				[0] = { item = 101548, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101549, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 101550, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 101551, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101548, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101549, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 101550, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 101551, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101552] = {
-			[0] = {
-				[0] = { item = 101553, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101554, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101553, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101554, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101555] = {
-			[0] = {
-				[0] = { item = 101556, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101557, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101556, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101557, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101563] = {
-			[0] = {
-				[0] = { item = 400022, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400044, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 400049, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 400021, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[4] = {
-				[0] = { item = 400054, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[5] = {
-				[0] = { item = 400059, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[6] = {
-				[0] = { item = 400061, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400022, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 400044, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 400049, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 400021, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[4] = { [0] = {item = 400054, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[5] = { [0] = {item = 400059, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[6] = { [0] = {item = 400061, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[101565] = {
-			[0] = {
-				[0] = { item = 100205, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 100206, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 100207, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 100208, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 100205, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 100206, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 100207, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 100208, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101654] = {
-			[0] = {
-				[0] = { item = 101655, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101656, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101655, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101656, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101657] = {
-			[0] = {
-				[0] = { item = 101658, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101659, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 101660, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 101661, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101658, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101659, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 101660, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 101661, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101662] = {
-			[0] = {
-				[0] = { item = 101663, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101664, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101663, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101664, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101727] = {
-			[0] = {
-				[0] = { item = 101717, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101718, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 101719, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 101720, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101717, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101718, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 101719, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 101720, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101728] = {
-			[0] = {
-				[0] = { item = 101721, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101722, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 101723, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 101724, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101721, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101722, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 101723, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 101724, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101729] = {
-			[0] = {
-				[0] = { item = 101725, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101726, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101725, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101726, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101801] = {
-			[0] = {
-				[0] = { item = 101802, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101803, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 101804, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 101805, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101802, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101803, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 101804, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 101805, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101806] = {
-			[0] = {
-				[0] = { item = 101807, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101808, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101807, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101808, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101856] = {
-			[0] = {
-				[0] = { item = 101858, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101859, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 101860, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 101861, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101858, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101859, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 101860, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 101861, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101862] = {
-			[0] = {
-				[0] = { item = 101863, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101864, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101863, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101864, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101919] = {
-			[0] = {
-				[0] = { item = 101920, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101921, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101920, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101921, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[101922] = {
-			[0] = {
-				[0] = { item = 101923, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 101924, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 101923, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 101924, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102084] = {
-			[0] = {
-				[0] = { item = 400391, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400392, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 400393, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 400394, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[4] = {
-				[0] = { item = 400395, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400391, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 400392, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 400393, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 400394, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[4] = { [0] = {item = 400395, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[102213] = {
-			[0] = {
-				[0] = { item = 100819, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 100820, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 100834, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 100918, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[4] = {
-				[0] = { item = 100939, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[5] = {
-				[0] = { item = 101190, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 100819, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 100820, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 100834, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 100918, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[4] = { [0] = {item = 100939, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[5] = { [0] = {item = 101190, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102214] = {
-			[0] = {
-				[0] = { item = 100821, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 100822, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 100835, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 100917, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[4] = {
-				[0] = { item = 100938, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[5] = {
-				[0] = { item = 101189, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 100821, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 100822, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 100835, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 100917, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[4] = { [0] = {item = 100938, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[5] = { [0] = {item = 101189, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102215] = {
-			[0] = {
-				[0] = { item = 100355, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 100270, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 100269, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 100355, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 100270, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 100269, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102216] = {
-			[0] = {
-				[0] = { item = 100684, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 100436, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 100354, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 100322, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[4] = {
-				[0] = { item = 100321, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[5] = {
-				[0] = { item = 100268, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 100684, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 100436, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 100354, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 100322, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[4] = { [0] = {item = 100321, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[5] = { [0] = {item = 100268, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102217] = {
-			[0] = {
-				[0] = { item = 18164, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 8 }
-
-			},
-			[1] = {
-				[0] = { item = 26118, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[2] = {
-				[0] = { item = 1847, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[3] = {
-				[0] = { item = 640004, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[4] = {
-				[0] = { item = 550007, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[5] = {
-				[0] = { item = 22171, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 18164, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 8} },
+			[1] = { [0] = {item = 26118, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[2] = { [0] = {item = 1847, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[3] = { [0] = {item = 640004, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9} },
+			[4] = { [0] = {item = 550007, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[5] = { [0] = {item = 22171, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 4} }
 		},
 		[102218] = {
-			[0] = {
-				[0] = { item = 13485, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[1] = {
-				[0] = { item = 2048, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[2] = {
-				[0] = { item = 21038, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[3] = {
-				[0] = { item = 28764, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[4] = {
-				[0] = { item = 28763, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[5] = {
-				[0] = { item = 13345, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9 }
-
-			}
+			[0] = { [0] = {item = 13485, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[1] = { [0] = {item = 2048, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9} },
+			[2] = { [0] = {item = 21038, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9} },
+			[3] = { [0] = {item = 28764, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[4] = { [0] = {item = 28763, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[5] = { [0] = {item = 13345, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9} }
 		},
 		[102219] = {
-			[0] = {
-				[0] = { item = 18170, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 8 }
-
-			},
-			[1] = {
-				[0] = { item = 28744, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[2] = {
-				[0] = { item = 28130, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[3] = {
-				[0] = { item = 32018, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[4] = {
-				[0] = { item = 28630, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[5] = {
-				[0] = { item = 28039, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9 }
-
-			}
+			[0] = { [0] = {item = 18170, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 8} },
+			[1] = { [0] = {item = 28744, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[2] = { [0] = {item = 28130, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9} },
+			[3] = { [0] = {item = 32018, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[4] = { [0] = {item = 28630, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[5] = { [0] = {item = 28039, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9} }
 		},
 		[102220] = {
-			[0] = {
-				[0] = { item = 28631, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[1] = {
-				[0] = { item = 26154, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[2] = {
-				[0] = { item = 26155, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[3] = {
-				[0] = { item = 550080, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[4] = {
-				[0] = { item = 510070, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			}
+			[0] = { [0] = {item = 28631, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[1] = { [0] = {item = 26154, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[2] = { [0] = {item = 26155, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[3] = { [0] = {item = 550080, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[4] = { [0] = {item = 510070, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} }
 		},
 		[102221] = {
-			[0] = {
-				[0] = { item = 600004, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[1] = {
-				[0] = { item = 500003, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[2] = {
-				[0] = { item = 500004, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[3] = {
-				[0] = { item = 570002, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[4] = {
-				[0] = { item = 580002, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[5] = {
-				[0] = { item = 590002, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			}
+			[0] = { [0] = {item = 600004, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9} },
+			[1] = { [0] = {item = 500003, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[2] = { [0] = {item = 500004, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[3] = { [0] = {item = 570002, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[4] = { [0] = {item = 580002, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[5] = { [0] = {item = 590002, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} }
 		},
 		[102222] = {
-			[0] = {
-				[0] = { item = 590003, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[1] = {
-				[0] = { item = 560002, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[2] = {
-				[0] = { item = 610003, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9 }
-
-			},
-			[3] = {
-				[0] = { item = 510006, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5 }
-
-			},
-			[4] = {
-				[0] = { item = 700003, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 8 }
-
-			}
+			[0] = { [0] = {item = 590003, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[1] = { [0] = {item = 560002, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[2] = { [0] = {item = 610003, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 9} },
+			[3] = { [0] = {item = 510006, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 5} },
+			[4] = { [0] = {item = 700003, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 8} }
 		},
 		[102223] = {
-			[0] = {
-				[0] = { item = 32302, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15 }
-
-			},
-			[1] = {
-				[0] = { item = 28255, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15 }
-
-			},
-			[2] = {
-				[0] = { item = 28256, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15 }
-
-			},
-			[3] = {
-				[0] = { item = 28257, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15 }
-
-			},
-			[4] = {
-				[0] = { item = 28258, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15 }
-
-			}
+			[0] = { [0] = {item = 32302, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15} },
+			[1] = { [0] = {item = 28255, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15} },
+			[2] = { [0] = {item = 28256, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15} },
+			[3] = { [0] = {item = 28257, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15} },
+			[4] = { [0] = {item = 28258, cnt = 1, hour = 0, refine = 11, randomOption = false, grade = 0, type = 15} }
 		},
 		[102306] = {
-			[0] = {
-				[0] = { item = 480297, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 102193, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 400432, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 102193, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 410231, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 102193, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 420208, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 102193, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 480297, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 102193, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 400432, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 102193, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 410231, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 102193, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 420208, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 102193, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102338] = {
-			[0] = {
-				[0] = { item = 19612, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11 }
-
-			},
-			[1] = {
-				[0] = { item = 19871, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 20492, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 19612, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11} },
+			[1] = { [0] = {item = 19871, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 20492, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[102467] = {
-			[0] = {
-				[0] = { item = 420224, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 102441, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 480320, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 102441, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 400462, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 102441, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 420224, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 102441, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 480320, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 102441, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 400462, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 102441, cnt = 3, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102631] = {
-			[0] = {
-				[0] = { item = 410268, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 410267, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 480243, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 480244, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 410268, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 410267, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 480243, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 480244, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[102732] = {
-			[0] = {
-				[0] = { item = 400105, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400106, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 400107, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400105, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 400106, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 400107, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[102733] = {
-			[0] = {
-				[0] = { item = 420210, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420213, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 420220, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 420269, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420210, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420213, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 420220, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 420269, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[102734] = {
-			[0] = {
-				[0] = { item = 102278, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 100487, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 102343, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 102676, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 102278, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 100487, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 102343, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 102676, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102735] = {
-			[0] = {
-				[0] = { item = 102277, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 100488, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 102342, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[3] = {
-				[0] = { item = 102677, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 102277, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 100488, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 102342, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[3] = { [0] = {item = 102677, cnt = 10, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[102771] = {
-			[0] = {
-				[0] = { item = 400585, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 410295, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 480405, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400585, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 410295, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 480405, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[102812] = {
-			[0] = {
-				[0] = { item = 24339, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 24340, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 24339, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 24340, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 0, type = 4} }
 		},
 		[102949] = {
-			[0] = {
-				[0] = { item = 410263, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420303, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 410263, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420303, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103094] = {
-			[0] = {
-				[0] = { item = 400664, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 410326, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 420338, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 480445, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400664, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 410326, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 420338, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 480445, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103260] = {
-			[0] = {
-				[0] = { item = 400692, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400693, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400692, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 400693, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103261] = {
-			[0] = {
-				[0] = { item = 410351, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 410352, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 410351, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 410352, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103262] = {
-			[0] = {
-				[0] = { item = 420349, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420350, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420349, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420350, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103263] = {
-			[0] = {
-				[0] = { item = 1001617, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 },
-				[1] = { item = 480470, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 1001650, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 },
-				[1] = { item = 480470, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 1001617, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }, [1] = {item = 480470, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 1001650, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }, [1] = {item = 480470, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103318] = {
-			[0] = {
-				[0] = { item = 7619, cnt = 100, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[1] = {
-				[0] = { item = 7620, cnt = 100, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 7619, cnt = 100, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[1] = { [0] = {item = 7620, cnt = 100, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
 		},
 		[103319] = {
-			[0] = {
-				[0] = { item = 6241, cnt = 26, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[1] = {
-				[0] = { item = 6240, cnt = 26, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 6241, cnt = 26, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[1] = { [0] = {item = 6240, cnt = 26, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
 		},
 		[103597] = {
-			[0] = {
-				[0] = { item = 20452, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 20212, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 20032, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 20452, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 20212, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 20032, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103898] = {
-			[0] = {
-				[0] = { item = 400749, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400760, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400749, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 400760, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103899] = {
-			[0] = {
-				[0] = { item = 410385, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 480523, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 410385, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 480523, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103900] = {
-			[0] = {
-				[0] = { item = 420430, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420429, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420430, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420429, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103903] = {
-			[0] = {
-				[0] = { item = 400745, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 480517, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400745, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 480517, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103904] = {
-			[0] = {
-				[0] = { item = 400747, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400746, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400747, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 400746, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103905] = {
-			[0] = {
-				[0] = { item = 420423, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420424, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420423, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420424, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[103906] = {
-			[0] = {
-				[0] = { item = 1001908, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[1] = {
-				[0] = { item = 1001909, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 1001908, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[1] = { [0] = {item = 1001909, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
 		},
 		[104714] = {
-			[0] = {
-				[0] = { item = 410440, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400913, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 480596, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 410440, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 400913, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 480596, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[104715] = {
-			[0] = {
-				[0] = { item = 480595, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 1002239, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[2] = {
-				[0] = { item = 1002240, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 480595, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 1002239, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[2] = { [0] = {item = 1002240, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
 		},
 		[104716] = {
-			[0] = {
-				[0] = { item = 420511, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420512, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420511, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420512, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[105356] = {
-			[0] = {
-				[0] = { item = 400919, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 105059, cnt = 5, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[1] = {
-				[0] = { item = 400803, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 105059, cnt = 5, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			},
-			[2] = {
-				[0] = { item = 410399, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 },
-				[1] = { item = 105059, cnt = 5, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2 }
-
-			}
+			[0] = { [0] = {item = 400919, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 105059, cnt = 5, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[1] = { [0] = {item = 400803, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 105059, cnt = 5, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} },
+			[2] = { [0] = {item = 410399, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [1] = {item = 105059, cnt = 5, hour = 0, refine = 0, randomOption = false, grade = 0, type = 2} }
 		},
 		[105526] = {
-			[0] = {
-				[0] = { item = 401000, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 410474, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 401000, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 410474, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[105527] = {
-			[0] = {
-				[0] = { item = 401001, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420575, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 401001, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420575, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[105528] = {
-			[0] = {
-				[0] = { item = 420576, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 480632, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420576, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 480632, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[105830] = {
-			[0] = {
-				[0] = { item = 400391, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400392, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 400393, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 400394, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4 }
-
-			},
-			[4] = {
-				[0] = { item = 400395, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400391, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4} },
+			[1] = { [0] = {item = 400392, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4} },
+			[2] = { [0] = {item = 400393, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4} },
+			[3] = { [0] = {item = 400394, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4} },
+			[4] = { [0] = {item = 400395, cnt = 1, hour = 0, refine = 12, randomOption = false, grade = 4, type = 4} }
 		},
 		[105831] = {
-			[0] = {
-				[0] = { item = 400391, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 400392, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 400393, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 400394, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4 }
-
-			},
-			[4] = {
-				[0] = { item = 400395, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400391, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4} },
+			[1] = { [0] = {item = 400392, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4} },
+			[2] = { [0] = {item = 400393, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4} },
+			[3] = { [0] = {item = 400394, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4} },
+			[4] = { [0] = {item = 400395, cnt = 1, hour = 0, refine = 10, randomOption = false, grade = 2, type = 4} }
 		},
 		[105927] = {
-			[0] = {
-				[0] = { item = 400757, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420426, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 400757, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420426, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[105928] = {
-			[0] = {
-				[0] = { item = 420570, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420571, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420570, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420571, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[105929] = {
-			[0] = {
-				[0] = { item = 420515, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420514, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420515, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420514, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[106299] = {
-			[0] = {
-				[0] = { item = 480273, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 480274, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[2] = {
-				[0] = { item = 480271, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[3] = {
-				[0] = { item = 480272, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 480273, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 480274, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 480271, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 480272, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[106300] = {
-			[0] = {
-				[0] = { item = 430026, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11 }
-
-			},
-			[1] = {
-				[0] = { item = 430027, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11 }
-
-			},
-			[2] = {
-				[0] = { item = 430028, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11 }
-
-			},
-			[3] = {
-				[0] = { item = 430029, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11 }
-
-			},
-			[4] = {
-				[0] = { item = 430030, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11 }
-
-			},
-			[5] = {
-				[0] = { item = 430025, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11 }
-
-			}
+			[0] = { [0] = {item = 430026, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11} },
+			[1] = { [0] = {item = 430027, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11} },
+			[2] = { [0] = {item = 430028, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11} },
+			[3] = { [0] = {item = 430029, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11} },
+			[4] = { [0] = {item = 430030, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11} },
+			[5] = { [0] = {item = 430025, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11} }
 		},
 		[106301] = {
-			[0] = {
-				[0] = { item = 420731, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 1002642, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 420731, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 1002642, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
 		},
 		[106302] = {
-			[0] = {
-				[0] = { item = 420730, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			},
-			[1] = {
-				[0] = { item = 420729, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }
-
-			}
+			[0] = { [0] = {item = 420730, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420729, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
 		},
 		[106498] = {
-			[0] = {
-				[0] = { item = 1000276, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[1] = {
-				[0] = { item = 1000278, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[2] = {
-				[0] = { item = 1000277, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[3] = {
-				[0] = { item = 1000279, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[4] = {
-				[0] = { item = 1000280, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			},
-			[5] = {
-				[0] = { item = 1000281, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3 }
-
-			}
+			[0] = { [0] = {item = 1000276, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[1] = { [0] = {item = 1000278, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[2] = { [0] = {item = 1000277, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[3] = { [0] = {item = 1000279, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[4] = { [0] = {item = 1000280, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[5] = { [0] = {item = 1000281, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
+		},
+		[106476] = {
+			[0] = { [0] = {item = 450531, cnt = 1, hour = 0, refine = 9, randomOption = false, grade = 0, type = 4 }, [1] = {item = 480751, cnt = 1, hour = 0, refine = 9, randomOption = false, grade = 0, type = 4 }, [2] = {item = 470420, cnt = 1, hour = 0, refine = 9, randomOption = false, grade = 0, type = 4 }, [3] = {item = 490931, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [4] = {item = 490930, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 450532, cnt = 1, hour = 0, refine = 9, randomOption = false, grade = 0, type = 4 }, [1] = {item = 480752, cnt = 1, hour = 0, refine = 9, randomOption = false, grade = 0, type = 4 }, [2] = {item = 470421, cnt = 1, hour = 0, refine = 9, randomOption = false, grade = 0, type = 4 }, [3] = {item = 490933, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4 }, [4] = {item = 490932, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		},
+		[106643] = {
+			[0] = { [0] = {item = 1000289, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} },
+			[1] = { [0] = {item = 1000290, cnt = 30, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3} }
+		},
+		[107728] = {
+			[0] = { [0] = {item = 480873, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 480874, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		},
+		[107729] = {
+			[0] = { [0] = {item = 420896, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 420897, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		},
+		[107730] = {
+			[0] = { [0] = {item = 401456, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 401457, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		},
+		[107731] = {
+			[0] = { [0] = {item = 410675, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 430044, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 11} }
+		},
+		[107732] = {
+			[0] = { [0] = {item = 410677, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 410676, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		},
+		[106849] = {
+			[0] = { [0] = {item = 31874, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 31875, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 31876, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 31877, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[4] = { [0] = {item = 31878, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[5] = { [0] = {item = 31879, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[6] = { [0] = {item = 31880, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[7] = { [0] = {item = 31881, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		},
+		[107316] = {
+			[0] = { [0] = {item = 480818, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 480819, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 480820, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 480821, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[4] = { [0] = {item = 480822, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		},
+		[107317] = {
+			[0] = { [0] = {item = 401372, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 401373, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[2] = { [0] = {item = 401374, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[3] = { [0] = {item = 401375, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[4] = { [0] = {item = 401376, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		},
+		[107318] = {
+			[0] = { [0] = {item = 410636, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} },
+			[1] = { [0] = {item = 410637, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4} }
+		}, 
+		[108035] = {
+			[0] = { [0] = {item = 401513, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}},
+			[1] = { [0] = {item = 401514, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}},
+			[2] = { [0] = {item = 401515, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}}
+		},
+		[108038] = {
+			[0] = { [0] = {item = 480919, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}},
+			[1] = { [0] = {item = 1003180, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3}},
+			[2] = { [0] = {item = 1003181, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3}}
+		},
+		[108197] = {
+			[0] = { [0] = {item = 31511, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}},
+			[1] = { [0] = {item = 31510, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}}
+		},
+		[108198] = {
+			[0] = { [0] = {item = 400370, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}},
+			[1] = { [0] = {item = 410242, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}}
+		},
+		[108199] = {
+			[0] = {[0] = {item = 480458, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 4}},
+			[1] = {[0] = {item = 1003278, cnt = 1, hour = 0, refine = 0, randomOption = false, grade = 0, type = 3}}
 		}
 	}
 }

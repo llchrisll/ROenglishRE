@@ -2,10 +2,40 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260322
+-- Last updated: 20261021
 
 tblLapineUpgradeBox = {
 	targets = {
+		["26_5_BottomHat_UP"] = {
+			ItemID = 107026,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{"26_5_BottomHat1", 420799},
+				{"26_5_BottomHat2", 420800},
+				{"26_5_BottomHat3", 420801},
+				{"26_5_BottomHat4", 420802}
+			},
+			NeedSource_String = "Mermaid Rose"
+		},
+		["26_4_Robe_Up"] = {
+			ItemID = 106844,
+			NeedRefineMin = 0,
+			NeedRefineMax = 20,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{"Manteau_Of_Excution", 480669},
+				{"Muffler_Of_Sharpshooter", 480670},
+				{"Manteau_Of_Fighter", 480671},
+				{"Manteau_Of_Champion", 480672},
+				{"Muffler_Of_Scholar", 480673},
+				{"Manteau_Of_Mage", 480674}
+			},
+			NeedSource_String = "6 types of Star Manteaus"
+		},
 		["26_3_MidHat_UP"] = {
 			ItemID = 106502,
 			NeedRefineMin = 0,
@@ -3706,7 +3736,7 @@ tblLapineUpgradeBox = {
 				{"S_SS_SR_Earring", 24914},
 				{"S_SS_SR_Pendant", 24915},
 				{"S_SS_KR_Armor", 24916},
-				{"S_SS_KR_Shoes", 24917}, 
+				{"S_SS_KR_Shoes", 24917},
 				{"S_DK_SS_Earring", 24918},
 				{"S_DK_SS_Pendant", 24919},
 				{"S_DK_HS_Armor", 24920},
@@ -3730,7 +3760,7 @@ tblLapineUpgradeBox = {
 				{"S_HN_VJ_Earring", 24944},
 				{"S_HN_VJ_Pendant", 24945},
 				{"S_HN_TB_Armor", 24946},
-				{"S_HN_TB_Shoes", 24947}, 
+				{"S_HN_TB_Shoes", 24947},
 				{"S_IG_OC_Earring", 24948},
 				{"S_IG_OC_Pendant", 24949},
 				{"S_IG_RF_Armor", 24950},
@@ -3802,7 +3832,7 @@ tblLapineUpgradeBox = {
 				{"S_SU_HRC_Earring", 1270031},
 				{"S_SU_HRC_Pendant", 1270032},
 				{"S_SU_BSP_Armor", 1270033},
-				{"S_SU_BSP_Shoes", 1270034}, 
+				{"S_SU_BSP_Shoes", 1270034},
 				{"S_MT_TL_Earring", 1270035},
 				{"S_MT_TL_Pendant", 1270036},
 				{"S_MT_SC_Armor", 1270037},
@@ -3862,19 +3892,43 @@ tblLapineUpgradeBox = {
 				{"S_NW_MS_Earring", 1270138},
 				{"S_NW_MS_Pendant", 1270139},
 				{"S_NW_NF_Armor", 1270140},
-				{"S_NW_NF_Shoes", 1270141}, 
-				{"S_AT_APF_Armor", 1270175}, 
-				{"S_AT_APF_Shoes", 1270176}, 
-				{"S_AT_PSP_Earring", 1270177}, 
-				{"S_AT_PSP_Pendant", 1270178}, 
-				{"S_AT_SNO_Armor", 1270179}, 
-				{"S_AT_SNO_Shoes", 1270180}, 
-				{"S_AT_TPA_Earring", 1270181}, 
-				{"S_AT_TPA_Pendant", 1270182}, 
-				{"S_AT_Armor", 1270183}, 
-				{"S_AT_Shoes", 1270184}, 
-				{"S_AT_Earring", 1270185}, 
-				{"S_AT_Pendant", 1270186}
+				{"S_NW_NF_Shoes", 1270141},
+				{"S_AT_APF_Armor", 1270175},
+				{"S_AT_APF_Shoes", 1270176},
+				{"S_AT_PSP_Earring", 1270177},
+				{"S_AT_PSP_Pendant", 1270178},
+				{"S_AT_SNO_Armor", 1270179},
+				{"S_AT_SNO_Shoes", 1270180},
+				{"S_AT_TPA_Earring", 1270181},
+				{"S_AT_TPA_Pendant", 1270182},
+				{"S_AT_Armor", 1270183},
+				{"S_AT_Shoes", 1270184},
+				{"S_AT_Earring", 1270185},
+				{"S_AT_Pendant", 1270186},
+				{"S_EarthFlare_Weapon", 1270200},
+				{"S_EarthFlare_Shield", 1270201},
+				{"S_M_EarthFlare_Weapon", 1270202},
+				{"S_M_EarthFlare_Shield", 1270203},
+				{"S_PoisonWater_Weapon", 1270230},
+				{"S_PoisonWater_Shield", 1270231},
+				{"S_M_PoisonWater_Weapon", 1270232},
+				{"S_M_PoisonWater_Shield", 1270233},
+				{"S_HolyUndead_Weapon", 1270234},
+				{"S_HolyUndead_Shield", 1270235},
+				{"S_M_HolyUndead_Weapon", 1270236},
+				{"S_M_HolyUndead_Shield", 1270237},
+				{"S_DarkSpirit_Weapon", 1270238},
+				{"S_DarkSpirit_Shield", 1270239},
+				{"S_M_DarkSpirit_Weapon", 1270240},
+				{"S_M_DarkSpirit_Shield", 1270241},
+				{"S_UnknownWind_Weapon", 1270242},
+				{"S_UnknownWind_Shield", 1270243},
+				{"S_M_UnknownWind_Weapon", 1270244},
+				{"S_M_UnknownWind_Shield", 1270245},
+				{"S_Speed_Master_Armor", 1270281},
+				{"S_Speed_Master_Shoes", 1270282},
+				{"S_Speed_Master_Earring", 1270283},
+				{"S_Speed_Master_Pendant", 1270284}
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -4685,7 +4739,7 @@ tblLapineUpgradeBox = {
 				{"S_SS_SR_Earring", 24914},
 				{"S_SS_SR_Pendant", 24915},
 				{"S_SS_KR_Armor", 24916},
-				{"S_SS_KR_Shoes", 24917}, 
+				{"S_SS_KR_Shoes", 24917},
 				{"S_DK_SS_Earring", 24918},
 				{"S_DK_SS_Pendant", 24919},
 				{"S_DK_HS_Armor", 24920},
@@ -4781,7 +4835,7 @@ tblLapineUpgradeBox = {
 				{"S_SU_HRC_Earring", 1270031},
 				{"S_SU_HRC_Pendant", 1270032},
 				{"S_SU_BSP_Armor", 1270033},
-				{"S_SU_BSP_Shoes", 1270034}, 
+				{"S_SU_BSP_Shoes", 1270034},
 				{"S_MT_TL_Earring", 1270035},
 				{"S_MT_TL_Pendant", 1270036},
 				{"S_MT_SC_Armor", 1270037},
@@ -4842,18 +4896,42 @@ tblLapineUpgradeBox = {
 				{"S_NW_MS_Pendant", 1270139},
 				{"S_NW_NF_Armor", 1270140},
 				{"S_NW_NF_Shoes", 1270141},
-				{"S_AT_APF_Armor", 1270175}, 
-				{"S_AT_APF_Shoes", 1270176}, 
-				{"S_AT_PSP_Earring", 1270177}, 
-				{"S_AT_PSP_Pendant", 1270178}, 
-				{"S_AT_SNO_Armor", 1270179}, 
-				{"S_AT_SNO_Shoes", 1270180}, 
-				{"S_AT_TPA_Earring", 1270181}, 
-				{"S_AT_TPA_Pendant", 1270182}, 
-				{"S_AT_Armor", 1270183}, 
-				{"S_AT_Shoes", 1270184}, 
-				{"S_AT_Earring", 1270185}, 
-				{"S_AT_Pendant", 1270186}
+				{"S_AT_APF_Armor", 1270175},
+				{"S_AT_APF_Shoes", 1270176},
+				{"S_AT_PSP_Earring", 1270177},
+				{"S_AT_PSP_Pendant", 1270178},
+				{"S_AT_SNO_Armor", 1270179},
+				{"S_AT_SNO_Shoes", 1270180},
+				{"S_AT_TPA_Earring", 1270181},
+				{"S_AT_TPA_Pendant", 1270182},
+				{"S_AT_Armor", 1270183},
+				{"S_AT_Shoes", 1270184},
+				{"S_AT_Earring", 1270185},
+				{"S_AT_Pendant", 1270186},
+				{"S_EarthFlare_Weapon", 1270200},
+				{"S_EarthFlare_Shield", 1270201},
+				{"S_M_EarthFlare_Weapon", 1270202},
+				{"S_M_EarthFlare_Shield", 1270203},
+				{"S_PoisonWater_Weapon", 1270230},
+				{"S_PoisonWater_Shield", 1270231},
+				{"S_M_PoisonWater_Weapon", 1270232},
+				{"S_M_PoisonWater_Shield", 1270233},
+				{"S_HolyUndead_Weapon", 1270234},
+				{"S_HolyUndead_Shield", 1270235},
+				{"S_M_HolyUndead_Weapon", 1270236},
+				{"S_M_HolyUndead_Shield", 1270237},
+				{"S_DarkSpirit_Weapon", 1270238},
+				{"S_DarkSpirit_Shield", 1270239},
+				{"S_M_DarkSpirit_Weapon", 1270240},
+				{"S_M_DarkSpirit_Shield", 1270241},
+				{"S_UnknownWind_Weapon", 1270242},
+				{"S_UnknownWind_Shield", 1270243},
+				{"S_M_UnknownWind_Weapon", 1270244},
+				{"S_M_UnknownWind_Shield", 1270245},
+				{"S_Speed_Master_Armor", 1270281},
+				{"S_Speed_Master_Shoes", 1270282},
+				{"S_Speed_Master_Earring", 1270283},
+				{"S_Speed_Master_Pendant", 1270284}
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -5649,9 +5727,9 @@ tblLapineUpgradeBox = {
 				{"Imperial_Attack_Boots", 470018},
 				{"Imperial_Magic_Boots", 470019},
 				{"Imperial_Attack_Manteau", 480016},
-				{"Imperial_Magic_Manteau", 480017}, 
-				{"Imperial_Slash_Suit", 450475}, 
-				{"Imperial_Sharpen_Suit", 450476}, 
+				{"Imperial_Magic_Manteau", 480017},
+				{"Imperial_Slash_Suit", 450475},
+				{"Imperial_Sharpen_Suit", 450476},
 				{"Imperial_Nature_Robe", 450477}
 			},
 			NeedSource_String = "Imperial Armors"
@@ -5702,9 +5780,9 @@ tblLapineUpgradeBox = {
 				{"Grace_Attack_Boots", 470020},
 				{"Grace_Magic_Boots", 470021},
 				{"Grace_Attack_Manteau", 480018},
-				{"Grace_Magic_Manteau", 480019}, 
-				{"Grace_Slash_Suit", 450478}, 
-				{"Grace_Sharpen_Suit", 450479}, 
+				{"Grace_Magic_Manteau", 480019},
+				{"Grace_Slash_Suit", 450478},
+				{"Grace_Sharpen_Suit", 450479},
 				{"Grace_Nature_Robe", 450480}
 			},
 			NeedSource_String = "Grace Armors"
@@ -5775,9 +5853,9 @@ tblLapineUpgradeBox = {
 				{"Imperial_Knuckle_Suit", 450062},
 				{"Imperial_Tiger_Suit", 450063},
 				{"Imperial_Snovice_Suit", 450123},
-				{"Imperial_Snovice_Robe", 450124}, 
-				{"Imperial_Slash_Suit", 450475}, 
-				{"Imperial_Sharpen_Suit", 450476}, 
+				{"Imperial_Snovice_Robe", 450124},
+				{"Imperial_Slash_Suit", 450475},
+				{"Imperial_Sharpen_Suit", 450476},
 				{"Imperial_Nature_Robe", 450477}
 			},
 			NeedSource_String = "Imperial Armors"
@@ -5824,9 +5902,9 @@ tblLapineUpgradeBox = {
 				{"Imperial_Knuckle_Suit", 450062},
 				{"Imperial_Tiger_Suit", 450063},
 				{"Imperial_Snovice_Suit", 450123},
-				{"Imperial_Snovice_Robe", 450124}, 
-				{"Imperial_Slash_Suit", 450475}, 
-				{"Imperial_Sharpen_Suit", 450476}, 
+				{"Imperial_Snovice_Robe", 450124},
+				{"Imperial_Slash_Suit", 450475},
+				{"Imperial_Sharpen_Suit", 450476},
 				{"Imperial_Nature_Robe", 450477}
 			},
 			NeedSource_String = "Imperial Armors"
@@ -5897,9 +5975,9 @@ tblLapineUpgradeBox = {
 				{"Grace_Knuckle_Suit", 450096},
 				{"Grace_Tiger_Suit", 450097},
 				{"Grace_Snovice_Suit", 450125},
-				{"Grace_Snovice_Robe", 450126}, 
-				{"Grace_Slash_Suit", 450478}, 
-				{"Grace_Sharpen_Suit", 450479}, 
+				{"Grace_Snovice_Robe", 450126},
+				{"Grace_Slash_Suit", 450478},
+				{"Grace_Sharpen_Suit", 450479},
 				{"Grace_Nature_Robe", 450480}
 			},
 			NeedSource_String = "Grace Armors"
@@ -5946,9 +6024,9 @@ tblLapineUpgradeBox = {
 				{"Grace_Knuckle_Suit", 450096},
 				{"Grace_Tiger_Suit", 450097},
 				{"Grace_Snovice_Suit", 450125},
-				{"Grace_Snovice_Robe", 450126}, 
-				{"Grace_Slash_Suit", 450478}, 
-				{"Grace_Sharpen_Suit", 450479}, 
+				{"Grace_Snovice_Robe", 450126},
+				{"Grace_Slash_Suit", 450478},
+				{"Grace_Sharpen_Suit", 450479},
 				{"Grace_Nature_Robe", 450480}
 			},
 			NeedSource_String = "Grace Armors"
@@ -6006,7 +6084,7 @@ tblLapineUpgradeBox = {
 				{"Ein_1HLUTE", 32110},
 				{"Ein_1HSWORD", 32352},
 				{"Ein_1HGUN", 32303},
-				{"Ein_1H_Foxtail", 550006}, 
+				{"Ein_1H_Foxtail", 550006},
 				{"Ein_AXE", 520046}
 			},
 			NeedSource_String = "Magical Modification Permit"
@@ -6457,7 +6535,7 @@ tblLapineUpgradeBox = {
 				{"SP_B_Saber", 500042},
 				{"SI_B_Saber", 500043},
 				{"SN_B_Dagger", 510069},
-				{"SN_B_Wand", 550079}, 
+				{"SN_B_Wand", 550079},
 				{"SC_B_Axe", 620064},
 				{"NP_B_Dagger", 510200}
 			},
@@ -6796,7 +6874,7 @@ tblLapineUpgradeBox = {
 				{"Glacier_B_Sword", 500050},
 				{"Glacier_Sword", 500049},
 				{"Glacier_T_Sword", 600027},
-				{"Glacier_N_Knife", 510190}, 
+				{"Glacier_N_Knife", 510190},
 				{"Glacier_N_Axe", 620056}
 			},
 			NeedSource_String = "Glacier Weapons"
@@ -6816,6 +6894,938 @@ tblLapineUpgradeBox = {
 				{"E_Auto_Leg_B", 470126}
 			},
 			NeedSource_String = "Automatic (Bound) Equipment"
+		}
+	}, 
+	results = {
+		["26_5_BottomHat_UP"] = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "BH5",
+			FailureItems = {}
+		},
+		["26_4_Robe_Up"] = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "CM4",
+			FailureItems = {}
+		},
+		["26_3_MidHat_UP"] = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "MH3",
+			FailureItems = {}
+		},
+		Loki_Coin_4 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LC4",
+			FailureItems = {}
+		},
+		Loki_Advice_4 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LA4",
+			FailureItems = {}
+		},
+		Fan_Upgrade_Kit_EX = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "FAN",
+			FailureItems = {}
+		},
+		Loki_Advice_3 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LA3",
+			FailureItems = {}
+		},
+		Loki_Coin_3 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LC3",
+			FailureItems = {}
+		},
+		Loki_Coin_2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LC2",
+			FailureItems = {}
+		},
+		Loki_Advice_2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LA2",
+			FailureItems = {}
+		},
+		Loki_Advice = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LA",
+			FailureItems = {}
+		},
+		Loki_Coin = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LC",
+			FailureItems = {}
+		},
+		Glacier_Armor_9Refine = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		AllMighty_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		MajorAutoSpell_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		Hasty_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		PhysicalShadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		PerfectSize_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		True_GemShadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		EXPShadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		MagicalShadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		InfinityShadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		R_Bearers_Shadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		M_Blitz_Shadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		Absorb_Shadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		Mammoth_Shadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		FullPenest_Shadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		Reload_Shadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		SpellCaster_Shadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		Ex_Status_Shadow_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "NSU",
+			FailureItems = {}
+		},
+		Lens_Craft_Stone = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "DBS",
+			FailureItems = {}
+		},
+		Hero_LT_Refine_Melee = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LTB",
+			FailureItems = {}
+		},
+		Hero_LT_Refine_Magic = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LTW",
+			FailureItems = {}
+		},
+		Booster_RandomOpt_M = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "AHW",
+			FailureItems = {}
+		},
+		Booster_RandomOpt_P = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "AHB",
+			FailureItems = {}
+		},
+		Twins_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Twins_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		EXP_Overclocker = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EXP",
+			FailureItems = {}
+		},
+		Bio_Helm_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Pontifex_Courage = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ENA",
+			FailureItems = {}
+		},
+		Pontifex_Wisdom = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ENB",
+			FailureItems = {}
+		},
+		Pontifex_Tenacity = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ESA",
+			FailureItems = {}
+		},
+		Pontifex_Belief = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ESB",
+			FailureItems = {}
+		},
+		GrayWolf_7_Ticket = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		GrayWolf_9_Ticket = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		MD_Airboat_Random = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ABE",
+			FailureItems = {}
+		},
+		Sakray_Fury = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "REM_MELEE3",
+			FailureItems = {}
+		},
+		Sakray_Fury2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "REM_MELEE4",
+			FailureItems = {}
+		},
+		Sakray_Regret = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "REM_MAGIC3",
+			FailureItems = {}
+		},
+		Sakray_Regret2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "REM_MAGIC4",
+			FailureItems = {}
+		},
+		True_Hunting_9Refine = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		True_Hunting_Opt_A = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "TRA",
+			FailureItems = {}
+		},
+		True_Hunting_Opt_B = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "TRB",
+			FailureItems = {}
+		},
+		MD_Geffen_Rarmor = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GNA",
+			FailureItems = {}
+		},
+		MD_Geffen_Rhood = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GNH",
+			FailureItems = {}
+		},
+		MD_Geffen_Racc = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GNR",
+			FailureItems = {}
+		},
+		MD_Geffen_Rsheild = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GNS",
+			FailureItems = {}
+		},
+		Dark_Stone = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "MF",
+			FailureItems = {}
+		},
+		Egir_Power_Box = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EGA",
+			FailureItems = {}
+		},
+		Egir_Magic_Box = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EGM",
+			FailureItems = {}
+		},
+		Overclocker = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "BP",
+			FailureItems = {}
+		},
+		Circlet_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Great_Hero_Bravery = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GHB",
+			FailureItems = {}
+		},
+		Great_Hero_Wisdom = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GHW",
+			FailureItems = {}
+		},
+		Auto_Armor_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Bio_Weapon_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		OS_Weapon_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Racecap_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Temporal_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Geffen_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Old_Refine_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Refine_Hero_Weapon = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Refine_Hero_Boots = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Class_Sha_R_M_Melee = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "CME",
+			FailureItems = {}
+		},
+		Class_Sha_R_M_Magic = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "CMA",
+			FailureItems = {}
+		},
+		Skill_Sha_R_M_Melee = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "SME",
+			FailureItems = {}
+		},
+		Skill_Sha_R_M_Magic = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "SMA",
+			FailureItems = {}
+		},
+		ILL_Piece_A = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ILLA",
+			FailureItems = {}
+		},
+		ILL_Piece_B = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ILLB",
+			FailureItems = {}
+		},
+		Ancient_Hero_Bravery = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "AHB",
+			FailureItems = {}
+		},
+		Ancient_Hero_Wisdom = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "AHW",
+			FailureItems = {}
+		},
+		Joy_Of_Victory = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "VWE",
+			FailureItems = {}
+		},
+		Gemstone_Of_Time = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "TOG",
+			FailureItems = {}
+		},
+		Time_Unseal_Key = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "TOK",
+			FailureItems = {}
+		},
+		Magma_Essence = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "LAV2",
+			FailureItems = {}
+		},
+		EP17_1_SPC05 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "17WA",
+			FailureItems = {}
+		},
+		EP17_1_SPC06 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "17WB",
+			FailureItems = {}
+		},
+		EP17_1_SPC07 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "17WC",
+			FailureItems = {}
+		},
+		EP17_1_SPC08 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "17MA",
+			FailureItems = {}
+		},
+		EP17_1_SPC09 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "17MB",
+			FailureItems = {}
+		},
+		EP17_1_SPC10 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "17MC",
+			FailureItems = {}
+		},
+		Charleston_Parts_W = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "CW1",
+			FailureItems = {}
+		},
+		Charleston_Parts_R = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "CW2",
+			FailureItems = {}
+		},
+		Gray_Charcoal_Range = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "TW3",
+			FailureItems = {}
+		},
+		Gray_Charcoal_Melee = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "TW1",
+			FailureItems = {}
+		},
+		Gray_Charcoal_Magic = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "TW2",
+			FailureItems = {}
+		},
+		Geffen_Magic_Scroll2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "MF",
+			FailureItems = {}
+		},
+		Geffen_Magic_Scroll = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GMT1",
+			FailureItems = {}
+		},
+		Cursed_Blood = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "BKS",
+			FailureItems = {}
+		},
+		Gold_Statue = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "SKS",
+			FailureItems = {}
+		},
+		Shadow_Refine_Hammer = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 8, 16, 32, 64, 32, 16, 8, 4, 2, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Shadow_9_Refine_Hammer = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Shadow_Random_Mix = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "SR",
+			FailureItems = {}
+		},
+		Boost_Up_1 = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Boost_Up_2 = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Metal_Rifine_Ticket = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Noblesse_Rifine_Ticket = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Imperial_Rifine_Ticket = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Grace_Rifine_Ticket = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Imperial_Convert1 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "IMP1",
+			FailureItems = {}
+		},
+		Imperial_Convert2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "IMP2",
+			FailureItems = {}
+		},
+		Imperial_Convert3 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "IMP3",
+			FailureItems = {}
+		},
+		Imperial_Convert4 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "IMP4",
+			FailureItems = {}
+		},
+		Grace_Convert1 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GRA1",
+			FailureItems = {}
+		},
+		Grace_Convert2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GRA2",
+			FailureItems = {}
+		},
+		Grace_Convert3 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GRA3",
+			FailureItems = {}
+		},
+		Grace_Convert4 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "GRA4",
+			FailureItems = {}
+		},
+		Ein_Ddbox = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EIN1",
+			FailureItems = {}
+		},
+		Ein_Ddbox2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EIN2",
+			FailureItems = {}
+		},
+		Abyss_Ddbox = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ABY1",
+			FailureItems = {}
+		},
+		Abyss_Ddbox2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ABY2",
+			FailureItems = {}
+		},
+		Abyss_Ddbox3 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ABH1",
+			FailureItems = {}
+		},
+		Abyss_Ddbox4 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "ABS1",
+			FailureItems = {}
+		},
+		Auto_Imp_Melee_1 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EP_ME1",
+			FailureItems = {}
+		},
+		Auto_Imp_Melee_2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EP_ME2",
+			FailureItems = {}
+		},
+		Auto_Imp_Melee_3 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EP_ME3",
+			FailureItems = {}
+		},
+		Auto_Imp_Magic_1 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EP_MA1",
+			FailureItems = {}
+		},
+		Auto_Imp_Magic_2 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EP_MA2",
+			FailureItems = {}
+		},
+		Auto_Imp_Magic_3 = {
+			SuccessRate = 10000,
+			RefineProbability = {},
+			RandomOptionCode = "EP_MA3",
+			FailureItems = {}
+		},
+		Illu_Enhance_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Auto_Enhance_Cube = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Metal_7_Ticket = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Booster_W_Up_1 = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Booster_W_Up_2 = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Booster_W_Up_3 = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		E_ILL_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Frozen_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Moonlight_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Moonlight_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Vampire_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Vampire_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Frozen_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Turtle_Is_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Turtle_Is_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Teddy_Bear_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Teddy_Bear_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Luanda_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Luanda_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Labyrinth_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Teddy_Labyrinth_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Underwater_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 650, 220, 100, 30},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		S_Underwater_Box_IL = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 650, 285, 50, 15},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Snow_F_Refine = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		Glacier_W_Refine = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
+		},
+		E_Auto_Up = {
+			SuccessRate = 10000,
+			RefineProbability = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+			RandomOptionCode = "",
+			FailureItems = {}
 		}
 	},
 	serverMain = function()

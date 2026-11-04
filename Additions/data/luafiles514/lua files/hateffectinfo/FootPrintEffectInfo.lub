@@ -2,10 +2,11 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260322
+-- Last updated: 20261021
 
 local PNG = 3
 local STR = 4
+local UGC = 5
 FootPrintEffectTable = {
 	[HatEFID.FOOTPRINT_EF_BASE] = {
 		Type = PNG,
@@ -211,7 +212,7 @@ FootPrintEffectTable = {
 		IsAdjustAngle = true
 	},
 	[HatEFID.FOOTPRINT_EF_feather] = {
-		Type = STR = 4,
+		Type = STR,
 		StrFile_Bottom_Left = "",
 		StrFile_Bottom_Right = "",
 		StrFile_Top_Left = "footprint_feather\\footprint_feather\\footprint_feather.str",
@@ -220,14 +221,14 @@ FootPrintEffectTable = {
 		Scale_Top = 0.11
 	},
 	[HatEFID.FOOTPRINT_EF_BASIC] = {
-		Type = STR = 4,
+		Type = STR,
 		StrFile_Bottom_Left = "footprint_basic_bottom\\footprint_basic_bottom.str",
 		StrFile_Bottom_Right = "footprint_basic_bottom\\footprint_basic_bottom.str",
 		StrFile_Top_Left = "footprint_basic\\footprint_basic.str",
 		StrFile_Top_Right = "footprint_basic\\footprint_basic.str"
 	},
 	[HatEFID.FOOTPRINT_EF_divine_blue] = {
-		Type = STR = 4,
+		Type = STR,
 		StrFile_Bottom_Left = "footprint_divine_blue\\footprint_divine_blue_bottom\\footprint_divine_blue_bottom.str",
 		StrFile_Bottom_Right = "footprint_divine_blue\\footprint_divine_blue_bottom\\footprint_divine_blue_bottom.str",
 		StrFile_Top_Left = "footprint_divine_blue\\footprint_divine_blue\\footprint_divine_blue.str",
@@ -237,7 +238,7 @@ FootPrintEffectTable = {
 		IsAdjustAngle = true
 	},
 	[HatEFID.FOOTPRINT_EF_bluestar] = {
-		Type = STR = 4,
+		Type = STR,
 		StrFile_Bottom_Left = "footprint_bluestar\\footprint_bottom_bluestar\\footprint_bottom_blue.str",
 		StrFile_Bottom_Right = "footprint_bluestar\\footprint_bottom_bluestar\\footprint_bottom_blue.str",
 		StrFile_Top_Left = "footprint_bluestar\\footprint_bluestar\\footprint_blue.str",
@@ -246,12 +247,114 @@ FootPrintEffectTable = {
 		Scale_Top = 0.15
 	},
 	[HatEFID.FOOTPRINT_EF_phoenix] = {
-		Type = STR = 4,
+		Type = STR,
 		StrFile_Bottom_Left = "footprint_phoenix\\footprint_bottom_phoenix\\footprint_bottom_phoenix.str",
 		StrFile_Bottom_Right = "footprint_phoenix\\footprint_bottom_phoenix\\footprint_bottom_phoenix.str",
 		StrFile_Top_Left = "footprint_phoenix\\footprint_phoenix\\footprint_phoenix.str",
 		StrFile_Top_Right = "footprint_phoenix\\footprint_phoenix\\footprint_phoenix.str",
 		Scale_Bottom = 0.04,
 		Scale_Top = 0.11
+	},
+	[HatEFID.FOOTPRINT_EF_flower_garden] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_flower_garden\\footprint_flower_garden_left\\footprint_flower_garden_left.str",
+		StrFile_Top_Right = "footprint_flower_garden\\footprint_flower_garden_right\\footprint_flower_garden_right.str",
+		Scale_Top = 0.2,
+		Stride = 60,
+		Gap = 0
+	},
+	[HatEFID.FOOTPRINT_EF_footprint_fox] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_fox\\footprint_fox\\footprint_fox.str",
+		StrFile_Top_Right = "footprint_fox\\footprint_fox\\footprint_fox.str",
+		Scale_Top = 0,
+		Gap = 0.25,
+		IsAdjustAngle = true
+	},
+	[HatEFID.FOOTPRINT_EF_footprint_mushroom] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_mushroom\\footprint_mushroom_left\\footprint_mushroom_left.str",
+		StrFile_Top_Right = "footprint_mushroom\\footprint_mushroom_right\\footprint_mushroom_right.str",
+		Scale_Top = 0.2,
+		Stride = 60,
+		Gap = 0
+	},
+	[HatEFID.FOOTPRINT_EF_MOON_YELLOW] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_moon_yellow\\footprint_moon_yellow_bottom\\footprint_moon_yellow_bottom.str",
+		StrFile_Bottom_Right = "footprint_moon_yellow\\footprint_moon_yellow_bottom\\footprint_moon_yellow_bottom.str",
+		StrFile_Top_Left = "footprint_moon_yellow\\footprint_moon_yellow\\footprint_moon_yellow.str",
+		StrFile_Top_Right = "footprint_moon_yellow\\footprint_moon_yellow\\footprint_moon_yellow.str",
+		Scale_Bottom = 0.05,
+		Scale_Top = 0.05,
+		Height_Top = 0,
+		Stride = 50,
+		Gap = 0
+	},
+	[HatEFID.FOOTPRINT_EF_MOON_RABBIT] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_moon_rabbit\\footprint_moon_rabbit_left\\footprint_moon_rabbit_left.str",
+		StrFile_Top_Right = "footprint_moon_rabbit\\footprint_moon_rabbit_right\\footprint_moon_rabbit_right.str",
+		Stride = 120,
+		Gap = 0
+	},
+	[HatEFID.FOOTPRINT_EF_shield_kite] = {
+		Type = STR,
+		StrFile_Bottom_Left = "",
+		StrFile_Bottom_Right = "",
+		StrFile_Top_Left = "footprint_shield_kite\\footprint_shield_kite.str",
+		StrFile_Top_Right = "footprint_shield_kite\\footprint_shield_kite.str",
+		Stride = 80,
+		Gap = 2
+	},
+	[HatEFID.FOOTPRINT_EF_sns_hate] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_sns_hate\\footprint_sns_hate_bottom\\footprint_sns_hate_bottom.str",
+		StrFile_Bottom_Right = "footprint_sns_hate\\footprint_sns_hate_bottom\\footprint_sns_hate_bottom.str",
+		StrFile_Top_Left = "footprint_sns_hate\\footprint_sns_hate\\footprint_sns_hate.str",
+		StrFile_Top_Right = "footprint_sns_hate\\footprint_sns_hate\\footprint_sns_hate.str",
+		Scale_Bottom = 0.07,
+		Scale_Top = 0.07, IsAdjustAngle = true
+	},
+	[HatEFID.FOOTPRINT_EF_sns_like] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_sns_like\\footprint_sns_like_bottom\\footprint_sns_like_bottom.str",
+		StrFile_Bottom_Right = "footprint_sns_like\\footprint_sns_like_bottom\\footprint_sns_like_bottom.str",
+		StrFile_Top_Left = "footprint_sns_like\\footprint_sns_like\\footprint_sns_like.str",
+		StrFile_Top_Right = "footprint_sns_like\\footprint_sns_like\\footprint_sns_like.str",
+		Scale_Bottom = 0.07,
+		Scale_Top = 0.07, IsAdjustAngle = true
+	},
+	[HatEFID.FOOTPRINT_EF_MOON_BLUE] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_moon_blue\\footprint_moon_blue_bottom\\footprint_moon_blue_bottom.str",
+		StrFile_Bottom_Right = "footprint_moon_blue\\footprint_moon_blue_bottom\\footprint_moon_blue_bottom.str",
+		StrFile_Top_Left = "footprint_moon_blue\\footprint_moon_blue\\footprint_moon_blue.str",
+		StrFile_Top_Right = "footprint_moon_blue\\footprint_moon_blue\\footprint_moon_blue.str",
+		Gap = 0
+	},
+	[HatEFID.FOOTPRINT_EF_MOON_RED] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_moon_red\\footprint_moon_red_bottom\\footprint_moon_red_bottom.str",
+		StrFile_Bottom_Right = "footprint_moon_red\\footprint_moon_red_bottom\\footprint_moon_red_bottom.str",
+		StrFile_Top_Left = "footprint_moon_red\\footprint_moon_red\\footprint_moon_red.str",
+		StrFile_Top_Right = "footprint_moon_red\\footprint_moon_red\\footprint_moon_red.str",
+		Gap = 0
+	},
+	[HatEFID.FOOTPRINT_EF_MOON_PURPLE] = {
+		Type = STR,
+		StrFile_Bottom_Left = "footprint_moon_purple\\footprint_moon_purple_bottom\\footprint_moon_purple_bottom.str",
+		StrFile_Bottom_Right = "footprint_moon_purple\\footprint_moon_purple_bottom\\footprint_moon_purple_bottom.str",
+		StrFile_Top_Left = "footprint_moon_purple\\footprint_moon_purple\\footprint_moon_purple.str",
+		StrFile_Top_Right = "footprint_moon_purple\\footprint_moon_purple\\footprint_moon_purple.str",
+		Gap = 0
 	}
 }

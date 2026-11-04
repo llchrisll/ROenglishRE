@@ -4,7 +4,7 @@
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the 
 -- `SystemEN/Sign_Data.lub` (Translated Strings) which comes with this project
--- Last updated: 20260805
+-- Last updated: 20260808
 
 require('SystemEN/LuaFiles514/rotp_f')
 dofile("SystemEN/Sign_Data.lub")
@@ -22,10 +22,11 @@ function GetSignBoardListTable(idx)
 	if DisableSignboards == true then
 		return 0
 	end
-	if SignBoardList_C ~= nil then
-		if CSign == nil then
-			F_ROTP(SignBoardList_C,SignBoardList,1)
-			CSign = 1
+	if SignBoardList_CLS ~= nil then
+		if ReplaceOfficials == true then
+			if idx <= (#SignBoardList - #SignBoardList_CLS) then
+				return 0
+			end
 		end
 	end
 	if( SignBoardIgnore ~= nil) then

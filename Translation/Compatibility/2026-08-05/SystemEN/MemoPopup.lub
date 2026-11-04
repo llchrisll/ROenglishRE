@@ -1,0 +1,29 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20260812
+
+MemoPopupTbl = {
+	DESC_MOVE_SPEED = {
+		"1) Does not stack with other movement speed increase effects.",
+		"2) If a stronger movement speed increase effect, the stronger effect takes priority.",
+		"3) Movement Speed increases from mounts (including Boarding Halter) do stack.",
+		"4) If the maximum movement speed alllowed by the game system has been reached, additional movement speed increase effects may not be applied."
+	},
+	DESC_MOVE_SPEED2 = {
+		"1) Does stack with other movement speed increase effects.",
+		"2) Movement Speed increases from mounts (including Boarding Halter) do not stack.",
+		"3) If the maximum movement speed alllowed by the game system has been reached, additional movement speed increase effects may not be applied."
+	},
+	DESC_MOVE_SPEED3 = {
+		"1) It does not stack with other movement speed increase effects.",
+		"2) If the maximum movement speed alllowed by the game system has been reached, additional movement speed increase effects may not be applied."
+	},
+	DESC_MOVE_SPEED4 = {
+		"1) It does not stack with other movement speed increase effects.",
+		"2) Movement Speed increases from mounts (including Boarding Halter) do not stack.",
+		"3) If the maximum movement speed alllowed by the game system has been reached, additional movement speed increase effects may not be applied."
+	}
+}
+

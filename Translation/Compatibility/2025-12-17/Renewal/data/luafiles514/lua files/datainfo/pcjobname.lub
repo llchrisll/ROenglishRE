@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260322
+-- Last updated: 20261021
 
 PCJobNameTable = {
 	[JOBID.JT_NOVICE] = "Novice",
@@ -148,6 +148,7 @@ PCJobNameTable = {
 	[JOBID.JT_GUNSLINGER_B] = "Baby Gunslinger",
 	[JOBID.JT_SUPERNOVICE_B] = "Super Baby",
 	[JOBID.JT_DO_SUMMONER_B] = "Baby Summoner",
+	[JOBID.JT_DRUID_B] = "Baby Druid",
 	[JOBID.JT_STAR_B] = "Baby Star Gladiator",
 	[JOBID.JT_STAR2_B] = "Baby Star Gladiator",
 	[JOBID.JT_LINKER_B] = "Baby Soul Linker",
@@ -158,6 +159,7 @@ PCJobNameTable = {
 	[JOBID.JT_OBORO_B] = "Baby Oboro",
 	[JOBID.JT_REBELLION_B] = "Baby Rebellion",
 	[JOBID.JT_SUPERNOVICE2_B] = "Baby Super Novice",
+	[JOBID.JT_KARNOS_B] = "Baby Karnos",
 	[JOBID.JT_RUNE_KNIGHT_2ND] = "Rune Knight 2ND",
 	[JOBID.JT_MECHANIC_2ND] = "Mechanic 2ND",
 	[JOBID.JT_GUILLOTINE_CROSS_2ND] = "Guillotine Cross 2ND",
@@ -172,6 +174,7 @@ PCJobNameTable = {
 	[JOBID.JT_MINSTREL_2ND] = "Minstrel 2ND",
 	[JOBID.JT_WANDERER_2ND] = "Wanderer 2ND"
 }
+
 ReqPCJobName = function(JobID)
 	if PCJobNameTable[JobID] == nil then
 		return ""

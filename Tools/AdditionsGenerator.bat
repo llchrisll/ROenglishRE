@@ -350,6 +350,7 @@ if %lua% equ 1 (
 	echo [9] mapInfo_C.lub (2019-06-05 and newer) %sys_c[9]% 
 	echo [10] Towninfo_C.lub %sys_c[10]%
 	echo [11] Rune Folder (2023-08-02 and newer) %sys_c[11]%
+	echo [12] QuestEraseList.lub (2026-05-20 and newer) %sys_c[12]%
 	echo =================================================================
 	set /p sys="Now choose: "
 	if %sys% equ 0 (
@@ -360,13 +361,19 @@ if %lua% equ 1 (
 		)
 		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
-		xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
+		if %cdate% geq 20260520 (
+			xcopy "%sourceSystemPath%\PrivateAirplane 20260520.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
+		) else (
+			xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
+		)
 		xcopy "%sourceSystemPath%\Signboard_C.lub" "%destinationSystemPath%\Signboard_C.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\OngoingQuests_C.lub" "%destinationSystemPath%\OngoingQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
-		if %cdate% leq 20170614 (
+		if %cdate% geq 20170614 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
+		) else if %cdate% geq 20260715 (
+			xcopy "%sourceSystemPath%\monster_size_effect 20260715.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		) else (
 			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		)
@@ -391,15 +398,21 @@ if %lua% equ 1 (
 	) else if %sys% equ 3 (
 		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
 	) else if %sys% equ 4 (
-		if %cdate% leq 20170614 (
+		if %cdate% geq 20170614 (
 			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
+		) else if %cdate% geq 20260715 (
+			xcopy "%sourceSystemPath%\monster_size_effect 20260715.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		) else (
 			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
 		)
 	) else if %sys% equ 5 (
 		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
 	) else if %sys% equ 6 (
-		xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
+		if %cdate% geq 20260520 (
+			xcopy "%sourceSystemPath%\PrivateAirplane 20260520.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
+		) else (
+			xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
+		)
 	) else if %sys% equ 7 (
 		xcopy "%sourceSystemPath%\Signboard_C.lub" "%destinationSystemPath%\Signboard_C.lub"* /H /C /I /Y
 	) else if %sys% equ 8 (
@@ -429,9 +442,17 @@ if %lua% equ 1 (
 			pause
 			goto SysLua
 		)
+	) else if %sys% equ 12 (
+		if %cdate% geq 20260520 (
+			xcopy "%sourceSystemPath%\QuestEraseList.lub" "%destinationSystemPath%\QuestEraseList.lub"* /H /C /I /Y
+		) else (
+			echo This file is only supported by 2026-05-20 clients or newer!
+			pause
+			goto SysLua
+		)
 	)
     if %sys% equ 1 (
-        for /L %%i in (1,1,11) do (
+        for /L %%i in (1,1,12) do (
             set sys_c[%%i]=[ Copied ]
 			if %%i equ 2 (
 				if %cdate% lss 20221207 set sys_c[%%i]=
@@ -441,6 +462,9 @@ if %lua% equ 1 (
 			)
 			if %%i equ 11 (
 				if %cdate% lss 20230802 set sys_c[%%i]=
+			)
+			if %%i equ 12 (
+				if %cdate% lss 20260520 set sys_c[%%i]=
 			)
         )
     ) else (

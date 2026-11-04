@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20251008
+-- Last updated: 20260812
 
 PetNameTable = {
 	[jobtbl.JT_PORING] = "poring",
@@ -134,7 +134,13 @@ PetNameTable = {
 	[jobtbl.JT_C_TOWER_MANAGER2] = "C_Tower_Manager",
 	[jobtbl.JT_SKEGGIOLD] = "SKEGGIOLD",
 	[jobtbl.JT_ANGELGOLT3] = "ANGELGOLT",
-	[jobtbl.JT_TIMEHOLDER3] = "TIMEHOLDER2"
+	[jobtbl.JT_TIMEHOLDER3] = "TIMEHOLDER2",
+	[jobtbl.JT_HYLOZOIST] = "HYLOZOIST",
+	[jobtbl.JT_XM_HYLOZOIST2] = "XM_HYLOZOIST2",
+	[jobtbl.JT_XM_MARIONETTE2] = "XM_MARIONETTE2",
+	[jobtbl.JT_DISGUISE] = "DISGUISE",
+	[jobtbl.JT_CH2_LOGIDOGI] = "CH2_LOGIDOGI",
+	[jobtbl.JT_XM_CELINE_KIMI3] = "XM_CELINE_KIMI3"
 }
 PetIllustNameTable = {
 	[jobtbl.JT_BAPHOMET_] = "Æê_¹ÙÆ÷¸ÞÆ®.bmp",
@@ -278,7 +284,13 @@ PetIllustNameTable = {
 	[jobtbl.JT_C_TOWER_MANAGER2] = "Pet_C_Tower_Manager.bmp",
 	[jobtbl.JT_SKEGGIOLD] = "Pet_SKEGGIOLD.bmp",
 	[jobtbl.JT_ANGELGOLT3] = "Pet_ANGELGOLT.bmp",
-	[jobtbl.JT_TIMEHOLDER3] = "pet_TIMEHOLDER2.bmp"
+	[jobtbl.JT_TIMEHOLDER3] = "pet_TIMEHOLDER2.bmp",
+	[jobtbl.JT_HYLOZOIST] = "pet_HYLOZOIST.bmp",
+	[jobtbl.JT_XM_HYLOZOIST2] = "pet_XM_HYLOZOIST2.bmp",
+	[jobtbl.JT_XM_MARIONETTE2] = "pet_XM_MARIONETTE2.bmp",
+	[jobtbl.JT_DISGUISE] = "pet_DISGUISE.bmp",
+	[jobtbl.JT_CH2_LOGIDOGI] = "pet_CH2_LOGIDOGI.bmp",
+	[jobtbl.JT_XM_CELINE_KIMI3] = "Pet_XM_CELINE_KIMI3.bmp"
 }
 PetIllustNameTable_Eng = {
 	[jobtbl.JT_BAPHOMET_] = "PET_BAPHOMET.bmp",
@@ -418,7 +430,13 @@ PetIllustNameTable_Eng = {
 	[jobtbl.JT_C_TOWER_MANAGER2] = "Pet_C_Tower_Manager.bmp",
 	[jobtbl.JT_SKEGGIOLD] = "Pet_SKEGGIOLD.bmp",
 	[jobtbl.JT_ANGELGOLT3] = "Pet_ANGELGOLT.bmp",
-	[jobtbl.JT_TIMEHOLDER3] = "pet_TIMEHOLDER2.bmp"
+	[jobtbl.JT_TIMEHOLDER3] = "pet_TIMEHOLDER2.bmp",
+	[jobtbl.JT_HYLOZOIST] = "pet_HYLOZOIST.bmp",
+	[jobtbl.JT_XM_HYLOZOIST2] = "pet_XM_HYLOZOIST2.bmp",
+	[jobtbl.JT_XM_MARIONETTE2] = "pet_XM_MARIONETTE2.bmp",
+	[jobtbl.JT_DISGUISE] = "pet_DISGUISE.bmp",
+	[jobtbl.JT_CH2_LOGIDOGI] = "pet_CH2_LOGIDOGI.bmp",
+	[jobtbl.JT_XM_CELINE_KIMI3] = "Pet_XM_CELINE_KIMI3.bmp"
 }
 PetAccIDs = {
 	ACC_FIRST = 10000,
@@ -694,10 +712,16 @@ PetStringTable = {
 	[jobtbl.JT_GIANT_HONET2] = "Giant Hornet",
 	[jobtbl.JT_HORNET] = "Hornet",
 	[jobtbl.JT_CLOCK] = "Clock",
-	[jobtbl.JT_C_TOWER_MANAGER2] = "Clock Tower Manager	",
+	[jobtbl.JT_C_TOWER_MANAGER2] = "Clock Tower Manager",
 	[jobtbl.JT_SKEGGIOLD] = "Skeggiold",
 	[jobtbl.JT_ANGELGOLT3] = "Angelgolt",
-	[jobtbl.JT_TIMEHOLDER3] = "Timeholder"
+	[jobtbl.JT_TIMEHOLDER3] = "Timeholder",
+	[jobtbl.JT_HYLOZOIST] = "Heirozoist",
+	[jobtbl.JT_XM_HYLOZOIST2] = "Malicious Baby Ghost",
+	[jobtbl.JT_XM_MARIONETTE2] = "Dancing Marionette",
+	[jobtbl.JT_DISGUISE] = "Disguise",
+	[jobtbl.JT_CH2_LOGIDOGI] = "Logidogi",
+	[jobtbl.JT_XM_CELINE_KIMI3] = "Celine Kimi"
 }
 PetEggItemID_PetJobID = {
 	[9001] = jobtbl.JT_PORING,
@@ -837,7 +861,13 @@ PetEggItemID_PetJobID = {
 	[9169] = jobtbl.JT_C_TOWER_MANAGER2,
 	[9187] = jobtbl.JT_SKEGGIOLD,
 	[9170] = jobtbl.JT_ANGELGOLT3,
-	[9171] = jobtbl.JT_TIMEHOLDER3
+	[9171] = jobtbl.JT_TIMEHOLDER3,
+	[9178] = jobtbl.JT_XM_MARIONETTE2,
+	[9179] = jobtbl.JT_HYLOZOIST,
+	[9180] = jobtbl.JT_XM_HYLOZOIST2,
+	[9181] = jobtbl.JT_DISGUISE,
+	[9182] = jobtbl.JT_CH2_LOGIDOGI,
+	[9195] = jobtbl.JT_XM_CELINE_KIMI3
 }
 PetFoodTable = {
 	[jobtbl.JT_PORING] = 531,
@@ -978,5 +1008,11 @@ PetFoodTable = {
 	[jobtbl.JT_ANGELGOLT3] = 537,
 	[jobtbl.JT_CLOCK] = 6111,
 	[jobtbl.JT_C_TOWER_MANAGER2] = 537,
-	[jobtbl.JT_TIMEHOLDER3] = 25377
+	[jobtbl.JT_TIMEHOLDER3] = 25377,
+	[jobtbl.JT_XM_MARIONETTE2] = 537,
+	[jobtbl.JT_HYLOZOIST] = 25233,
+	[jobtbl.JT_XM_HYLOZOIST2] = 537,
+	[jobtbl.JT_DISGUISE] = 6100,
+	[jobtbl.JT_CH2_LOGIDOGI] = 537,
+	[jobtbl.JT_XM_CELINE_KIMI3] = 25377
 }

@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260322
+-- Last updated: 20261021
 
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -565,7 +565,6 @@ hatEffectTable = {
 		resourceFileName = "C_Helm_Of_Ra\\HelmOfSun3.str",
 		hatEffectPos = -12,
 		hatEffectPosX = 0,
-		isIgnoreRiding = true,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true
 	},
@@ -701,7 +700,8 @@ hatEffectTable = {
 		hatEffectPos = -4,
 		hatEffectPosX = 0,
 		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_SERPENT_SHADOW] = { hatEffectID = 2394 },
 	[HatEFID.HAT_EF_C_1st_Evt_Hat_MSP] = {
@@ -1260,11 +1260,12 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_C_S_Beelzebub_Wing] = { hatEffectID = 2458 },
 	[HatEFID.HAT_EF_Solid_State_Recognition] = {
 		resourceFileName = "Solid_State_Recognition\\mdenv.str",
-		hatEffectPos = -6,
+		hatEffectPos = -12,
 		hatEffectPosX = 0,
 		isIgnoreRiding = true,
 		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_C_Cursed_Serpent] = {
 		resourceFileName = "efst_C_Cursed_Serpent\\encro.str",
@@ -1291,5 +1292,170 @@ hatEffectTable = {
 		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_C_EYE_OF_NECROMANCER] = { hatEffectID = 2482 },
-	[HatEFID.HAT_EF_C_JAOW_PIRUN] = { hatEffectID = 2483 }
+	[HatEFID.HAT_EF_C_JAOW_PIRUN] = { hatEffectID = 2483 }, 
+	[HatEFID.HAT_EF_C_Angel_Gift] = {
+		resourceFileName = "efst_C_Angel_Gift\\hikariri.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Sunset_Shrine] = {
+		resourceFileName = "efst_C_Sunset_Shrine\\watarun.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Hill_Shrine] = {
+		resourceFileName = "efst_C_Hill_Shrine\\borobudur.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Fairy_Hotair_Balloon] = {
+		resourceFileName = "efst_C_Fairy_Hotair_Balloon\\katpatuka.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Light_Tower] = {
+		resourceFileName = "efst_C_Light_Tower\\eiffel.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Jubilee_ClockTower] = {
+		resourceFileName = "efst_C_Jubilee_ClockTower\\bigben.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_26_Dano_Dragon_TW] = {
+		resourceFileName = "efst_C_26_Dano_Dragon_TW\\blyoumei.str",
+		hatEffectPos = -17,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Kiwis_Peak] = {
+		resourceFileName = "efst_C_Kiwis_Peak\\aoraki1.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Liberty_Fort] = {
+		resourceFileName = "efst_C_Liberty_Fort\\santiago.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Peace_Gate] = {
+		resourceFileName = "efst_C_Peace_Gate\\holstentor.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Sandstone_Monolith] = {
+		resourceFileName = "efst_C_Sandstone_Monolith\\uluru1.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Twin_Peaks] = {
+		resourceFileName = "efst_C_Twin_Peaks\\Petronas.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Qualifier26_1st] = {
+		resourceFileName = "efst_ROS_2026_1ST\\MC1_3.str",
+		hatEffectPos = -10,
+		hatEffectPosX = -0.5, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Qualifier26_2nd] = {
+		resourceFileName = "efst_ROS_2026_2ND\\MC1_2.str",
+		hatEffectPos = -10,
+		hatEffectPosX = -0.5, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Qualifier26_3rd] = {
+		resourceFileName = "efst_ROS_2026_3RD\\MC1_1.str",
+		hatEffectPos = -10,
+		hatEffectPosX = -0.5, isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Thoughts_Window] = {
+		resourceFileName = "efst_C_Thoughts_Window\\ctw.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Black_Thunder_BL] = {
+		resourceFileName = "C_BLACK_THUNDER_BL\\bLightningb.str",
+		hatEffectPos = -11,
+		hatEffectPosX = -1,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_BLACK_THUNDER_AW] = {
+		resourceFileName = "C_BLACK_THUNDER_AW\\bLightningr.str",
+		hatEffectPos = -11,
+		hatEffectPosX = -1,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_SNS_Deviruchi] = {
+		resourceFileName = "efst_SNS_Deviruchi\\DeviruchiX.str",
+		hatEffectPos = -9,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_SNS_Poring] = {
+		resourceFileName = "efst_SNS_Poring\\PporingX.str",
+		hatEffectPos = -9,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_S_THANATOS_WING] = { hatEffectID = 2511 },
+	[HatEFID.HAT_EF_C_MSP_Potarl] = {
+		resourceFileName = "efst_c_mysgph_portal\\potal.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Grand_Canyon] = {
+		resourceFileName = "efst_C_Grand_Canyon\\GrandCanyon.str",
+		hatEffectPos = -8,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	}
 }

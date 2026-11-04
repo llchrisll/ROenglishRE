@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20230919
+-- Last updated: 20261021
 
 ForceRenderEffect = {
 	35,
@@ -121,9 +121,39 @@ ForceRenderEffect = {
 	1619
 }
 
+ForceRenderEffectByName = {
+	"npc_betelgeuse_blue",
+	"npc_betelgeuse_green",
+	"npc_betelgeuse_purple",
+	"npc_betelgeuse_red",
+	"npc_betelgeuse_white",
+	"npc_betelgeuse_yellow",
+	"npc_vortex_blue",
+	"npc_vortex_green",
+	"npc_vortex_purple",
+	"npc_vortex_red",
+	"npc_vortex_white",
+	"npc_vortex_yellow",
+	"glitch_S",
+	"glitch_S_bottom",
+	"glitch_M",
+	"glitch_M_bottom",
+	"glitch_L",
+	"glitch_L_bottom"
+}
+
 function IsForceRenderEffect(in_effectID)
 	for k, v in ipairs(ForceRenderEffect) do
 		if v == in_effectID then
+			return true
+		end
+	end
+	return false
+end
+
+function IsForceRenderEffectByName(in_effectName)
+	for k,v in ipairs(ForceRenderEffectByName) do
+		if string.lower(v) == string.lower(in_effectName) then
 			return true
 		end
 	end

@@ -55,6 +55,9 @@ echo [24] 2025-01-22
 echo [25] 2025-06-18
 echo [26] 2025-09-02
 echo [27] 2025-12-17
+echo [28] 2026-04-01
+echo [29] 2026-08-19
+echo [30] 2026-10-21
 echo =================================================================
 set /p cdate="Please select the Client Date: "
 
@@ -85,6 +88,10 @@ if %cdate%==24 set client=2025-01-22
 if %cdate%==25 set client=2025-06-18
 if %cdate%==26 set client=2025-09-02
 if %cdate%==27 set client=2025-12-17
+if %cdate%==28 set client=2026-04-01
+if %cdate%==29 set client=2026-08-05
+if %cdate%==30 set client=2026-08-19
+if %cdate%==31 set client=2026-10-21
 
 if "%client%"=="" exit
 
@@ -132,6 +139,10 @@ if !x! LEQ %cdate% (
     if !x! EQU 25 call :CopyFD 2025-01-22 %type%
     if !x! EQU 26 call :CopyFD 2025-06-18 %type%
     if !x! EQU 27 call :CopyFD 2025-09-02 %type%
+    if !x! EQU 28 call :CopyFD 2025-12-17 %type%
+    if !x! EQU 29 call :CopyFD 2026-04-01 %type%
+    if !x! EQU 30 call :CopyFD 2026-08-05 %type%
+    if !x! EQU 31 call :CopyFD 2026-08-19 %type%
 
     set /a x+=1
     goto DateLoop

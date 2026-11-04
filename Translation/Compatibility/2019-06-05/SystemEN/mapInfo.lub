@@ -2,9 +2,95 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260812
+-- Last updated: 20261021
 
 mapTbl = {
+	["ab_factory1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Factory",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Factory"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ab_jungle1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Jungle",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Jungle"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ab_valley1.rsw"] = {
+		displayName = "Alternate Dimension Biosphere - Valley",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Alternate Dimension Biosphere",
+			mainTitle = "Sample Environment - Valley"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["pay_mk.rsw"] = {
+		displayName = "Payon Market Street",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Payon Market Street"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["vr_prtg.rsw"] = {
+		displayName = "VR Yuno - Valkyrie Realm",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Razrygz Mock Siege",
+			mainTitle = "Valkyrie Realm"
+		},
+		backgroundBmp = "siege"
+	},
+	["vr_prtg03.rsw"] = {
+		displayName = "VR Yuno - Razrygz",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Razrygz Mock Siege",
+			mainTitle = "Razrygz"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["vr_prtd03.rsw"] = {
+		displayName = "VR Yuno - Guild Underground Dungeon",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Razrygz Mock Siege",
+			mainTitle = "Guild Underground Dungeon"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["4@ch_t.rsw"] = {
+		displayName = "Throne of the Black Flame Dragon",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Throne of the Black Flame Dragon"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["5@ch_t.rsw"] = {
+		displayName = "Invitation of the Black Flame Dragon",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Invitation of the Black Flame Dragon"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["6@ch_t.rsw"] = {
+		displayName = "Invitation of the Black Flame Dragon",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Invitation of the Black Flame Dragon"
+		},
+		backgroundBmp = "noname_s2"
+	},
 	["2026arena1.rsw"] = {
 		displayName = "Arena Valkyrie Temple",
 		notifyEnter = true,
@@ -474,11 +560,11 @@ mapTbl = {
 		backgroundBmp = "noname"
 	},
 	["2025arena2.rsw"] = {
-		displayName = "Arena NiflHeim, Banquet hall for the dead",
+		displayName = "Arena NiflHeim, Banquet Hall of the Dead",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Arena",
-			mainTitle = "Banquet hall for the dead"
+			mainTitle = "Banquet Hall of the Dead"
 		},
 		backgroundBmp = "noname"
 	},
@@ -1867,11 +1953,11 @@ mapTbl = {
 		backgroundBmp = "noname"
 	},
 	["ant_d02_i.rsw"] = {
-		displayName = "Garden of Awareness",
+		displayName = "Garden of Perception",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Illusion",
-			mainTitle = "Garden of Awareness"
+			mainTitle = "Garden of Perception"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -2059,11 +2145,11 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["nif_dun01.rsw"] = {
-		displayName = "Dead Man's Banquet Hall",
+		displayName = "Banquet Hall of the Dead",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Niflheim Dungeon - 1st Floor",
-			mainTitle = "Dead Man's Banquet Hall"
+			mainTitle = "Banquet Hall of the Dead"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -2345,19 +2431,19 @@ mapTbl = {
 		backgroundBmp = "dungeon_s2"
 	},
 	["ba_lost.rsw"] = {
-		displayName = "Lost Farm Valley",
+		displayName = "Farm Lost Valley",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Lost Farm Valley"
+			mainTitle = "Farm Lost Valley"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["ba_lib.rsw"] = {
-		displayName = "Library Memory Corridor",
+		displayName = "Library's Corridor of Memories",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Library",
-			mainTitle = "Memory Corridor"
+			mainTitle = "Corridor of Memories"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -2632,11 +2718,11 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["ein_d02_i.rsw"] = {
-		displayName = "Nasarin Empire",
+		displayName = "Nasarian Empire",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Illusion",
-			mainTitle = "Nasarin Empire"
+			mainTitle = "Nasarian Empire"
 		},
 		backgroundBmp = "dungeon"
 	},
