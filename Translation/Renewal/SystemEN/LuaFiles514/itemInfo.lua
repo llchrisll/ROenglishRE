@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20261106
+-- Last updated: 20261107
 
 tbl = {
 	[0] = {
@@ -13474,7 +13474,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Merchant, Assassin and Druid classes""
+			"Novice, Swordsman, Merchant, Assassin and druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -19355,7 +19355,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Novice, Swordsman, Acolyte, Merchant and Druid classes""
+			"Novice, Swordsman, Acolyte, Merchant and druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
