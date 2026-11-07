@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240824
+-- Last updated: 20261108
 
 function main()
 	for ItemID, DESC in pairs(tbl) do
@@ -59,6 +59,12 @@ function main()
 				elseif DisplayCustomDB == true and DESC.Custom == true then
 					AddItemIdentifiedDesc(ItemID, "<URL>" .. ItemDatabase["Custom"].Name .. "<INFO>" .. ItemDatabase["Custom"].URL .. ItemID .. "</INFO></URL>")
 				end
+			end
+		end
+		if DESC.costume ~= nil then
+			result, msg = AddItemIsCostume(ItemID, DESC.costume)
+			if not(result) then
+				return false, msg
 			end
 		end
 	end
