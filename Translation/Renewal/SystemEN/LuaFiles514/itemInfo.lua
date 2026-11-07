@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20261007
+-- Last updated: 20261106
 
 tbl = {
 	[0] = {
@@ -10638,7 +10638,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 1,
@@ -10659,7 +10659,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 1,
@@ -10680,7 +10680,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -10701,7 +10701,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 1,
@@ -10722,7 +10722,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 1,
@@ -10743,7 +10743,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -10764,7 +10764,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 31,
@@ -10785,7 +10785,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 31,
@@ -10806,7 +10806,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 31,
@@ -10828,7 +10828,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 1,
@@ -10850,7 +10850,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 1,
@@ -10872,7 +10872,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -10894,7 +10894,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 1,
@@ -10916,7 +10916,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 1,
@@ -10938,7 +10938,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -10960,7 +10960,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 32,
@@ -10982,7 +10982,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 32,
@@ -11004,7 +11004,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 12",
-			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes"
+			"Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 32,
@@ -13176,7 +13176,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Novice, Swordsman, Merchant and Thief classes"
+			"Novice, Swordsman, Merchant, Thief and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 6,
@@ -13198,7 +13198,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Novice, Swordsman, Merchant and Thief classes"
+			"Novice, Swordsman, Merchant, Thief and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 6,
@@ -13220,7 +13220,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Novice, Swordsman, Merchant and Thief classes"
+			"Novice, Swordsman, Merchant, Thief and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -13242,7 +13242,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Novice, Swordsman, Merchant and Assassin"
+			"Novice, Swordsman, Merchant, Assassin and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -13270,7 +13270,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -13319,7 +13319,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Swordsman, Merchant and Thief classes"
+			"Swordsman, Merchant, Thief and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -13354,7 +13354,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Novice, Swordsman, Merchant and Assassin"
+			"Novice, Swordsman, Merchant, Assassin and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 6,
@@ -13390,7 +13390,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -13451,7 +13451,7 @@ tbl = {
 			"^0000CCRefineable:^000000 No",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Merchant and Assassin"
+			"Novice, Swordsman, Merchant, Assassin and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -13474,7 +13474,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Merchant and Assassin"
+			"Novice, Swordsman, Merchant, Assassin and Druid classes""
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -13619,7 +13619,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Novice, Swordsman, Merchant and Thief classes"
+			"Novice, Swordsman, Merchant, Thief and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -14229,7 +14229,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 7,
@@ -14251,7 +14251,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 7,
@@ -14273,7 +14273,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14295,7 +14295,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 16",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 58,
@@ -14317,7 +14317,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 16",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 58,
@@ -14339,7 +14339,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 16",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 58,
@@ -14361,7 +14361,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 30",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 59,
@@ -14383,7 +14383,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 30",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 59,
@@ -14405,7 +14405,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 30",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 59,
@@ -14427,7 +14427,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 30",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -14449,7 +14449,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 30",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 7,
@@ -14471,7 +14471,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 30",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14499,7 +14499,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 60,
@@ -14527,7 +14527,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14556,7 +14556,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14585,7 +14585,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 61,
@@ -14614,7 +14614,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14641,7 +14641,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14669,7 +14669,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14702,7 +14702,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14735,7 +14735,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -14771,7 +14771,7 @@ tbl = {
 			"^0000CCRefineable:^000000 No",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 61,
@@ -14799,7 +14799,7 @@ tbl = {
 			"^0000CCRefineable:^000000 No",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 60,
@@ -14825,7 +14825,7 @@ tbl = {
 			"^0000CCRefineable:^000000 No",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14946,7 +14946,7 @@ tbl = {
 			"^0000CCRefineable:^000000 No",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -14976,7 +14976,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -15006,7 +15006,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -15031,7 +15031,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 3",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 7,
@@ -15066,7 +15066,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -15176,7 +15176,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 4",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -15234,7 +15234,7 @@ tbl = {
 			"^0000CCRefineable:^000000 No",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -15287,7 +15287,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 60",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -15373,7 +15373,7 @@ tbl = {
 			"^0000CCEnchantable:^000000 Yes",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -15396,7 +15396,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 95",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -15425,7 +15425,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 95",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -15481,7 +15481,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -15509,7 +15509,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 7,
@@ -18219,7 +18219,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 2",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 8,
@@ -18241,7 +18241,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 2",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 8,
@@ -18263,7 +18263,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 2",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -18285,7 +18285,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 2",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 62,
@@ -18307,7 +18307,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 2",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 62,
@@ -18329,7 +18329,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 2",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 62,
@@ -18351,7 +18351,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 8,
@@ -18373,7 +18373,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 8,
@@ -18395,7 +18395,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 8,
@@ -18417,7 +18417,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 8,
@@ -18439,7 +18439,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 8,
@@ -18461,7 +18461,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 8,
@@ -18483,7 +18483,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 27",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -18505,7 +18505,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 27",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 8,
@@ -18527,7 +18527,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 27",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 8,
@@ -18549,7 +18549,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 27",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 63,
@@ -18571,7 +18571,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 27",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 63,
@@ -18593,7 +18593,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 27",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 63,
@@ -18615,7 +18615,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 64,
@@ -18637,7 +18637,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 64,
@@ -18659,7 +18659,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 14",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 64,
@@ -18907,7 +18907,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 95",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -19033,7 +19033,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 44",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -19057,7 +19057,7 @@ tbl = {
 			"^0000CCRefineable:^000000 No",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -19237,7 +19237,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Novice, Swordsman, Merchant, Acolyte"
+			"Novice, Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -19268,7 +19268,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Novice, Swordsman, Merchant, Acolyte"
+			"Novice, Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -19320,7 +19320,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 2",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 62,
@@ -19355,7 +19355,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes""
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -33993,7 +33993,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 3,
@@ -37543,7 +37543,7 @@ tbl = {
 			"<NAVI>Apprentice Craftsman<INFO>prontera,165,60,0,100,0,0</INFO></NAVI>",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -37564,7 +37564,7 @@ tbl = {
 			"^0000CCArmor Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 0,
@@ -42093,7 +42093,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -47701,7 +47701,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 50",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -74540,7 +74540,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 70",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 103,
@@ -77569,7 +77569,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 50",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 213,
@@ -78041,7 +78041,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 70",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 103,
@@ -157026,7 +157026,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"All classes except Acolyte Class"
+			"All classes except Acolyte"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -157052,7 +157052,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 60",
-			"All classes except Acolyte Class"
+			"All classes except Acolyte"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -157485,7 +157485,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 70",
-			"All classes except Acolyte Class"
+			"All classes except Acolyte"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -157938,7 +157938,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -157971,7 +157971,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -158050,7 +158050,7 @@ tbl = {
 			"<NAVI>Almond J<INFO>izlude,108,139,0,100,0,0</INFO></NAVI>",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 1,
@@ -158074,7 +158074,7 @@ tbl = {
 			"<NAVI>Almond J<INFO>izlude,108,139,0,100,0,0</INFO></NAVI>",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 1,
@@ -158104,7 +158104,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 80",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -158315,7 +158315,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 38,
@@ -158340,7 +158340,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 26",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -158365,7 +158365,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -158389,7 +158389,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -158596,7 +158596,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 60",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -158744,7 +158744,7 @@ tbl = {
 			"^0000CCEnchantable:^000000 Yes",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -158770,7 +158770,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 95",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -158947,7 +158947,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -159079,7 +159079,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Ninja, Soul Linker"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 1,
@@ -159307,7 +159307,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Super Novice; 3rd classes of Swordsman, Magician, Archer, Merchant, Thief; Soul Reaper, Kagerou and Oboro"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief; Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 33,
@@ -159375,7 +159375,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"All classes except Acolyte Class"
+			"All classes except Acolyte"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -159437,7 +159437,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -192264,7 +192264,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -200864,7 +200864,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 26",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -200887,7 +200887,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -200911,7 +200911,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Merchant and Acolyte"
+			"Novice, Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -200939,7 +200939,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 95",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -201057,7 +201057,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 60",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -201082,7 +201082,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 8,
@@ -201113,7 +201113,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 50",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -201206,7 +201206,7 @@ tbl = {
 			"^0000CCEnchantable:^000000 Yes",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -201232,7 +201232,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 95",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -201260,7 +201260,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 95",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -201320,7 +201320,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -201375,7 +201375,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -201411,7 +201411,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman, Acolyte and Merchant"
+			"Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -201441,7 +201441,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Novice, Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -201711,7 +201711,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Novice, Swordsman, Merchant and Acolyte"
+			"Novice, Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 98,
@@ -201767,7 +201767,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 160",
-			"Novice, Swordsman, Merchant and Acolyte"
+			"Novice, Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -202008,7 +202008,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordsman, Merchant and Acolyte"
+			"Novice, Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -202230,7 +202230,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Super Novice; 3rd classes of Swordsman, Acolyte and Merchant"
+			"Novice, Swordsman, Merchant, Priest and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 8,
@@ -202439,7 +202439,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Super Novice; 3rd classes of Swordsman, Merchant and Acolyte"
+			"Swordsman, Novice, Priest, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 8,
@@ -247010,7 +247010,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 103,
@@ -247958,7 +247958,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 70",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 103,
@@ -288816,7 +288816,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 40",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -301440,7 +301440,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -301476,7 +301476,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -301511,7 +301511,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -301545,7 +301545,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -301581,7 +301581,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -301617,7 +301617,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -301652,7 +301652,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 1,
 		ClassNum = 0,
@@ -301688,7 +301688,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 1,
 		ClassNum = 0,
@@ -301723,7 +301723,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 1,
 		ClassNum = 0,
@@ -301757,7 +301757,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 1,
 		ClassNum = 0,
@@ -301793,7 +301793,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 1,
 		ClassNum = 0,
@@ -301829,7 +301829,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Rebel, Kagerou, Oboro, Star Emperor and Soul Reaper"
+			"Rebellion, Kagerou, Oboro, Star Emperor, Soul Reaper and Karnos classes"
 		},
 		slotCount = 1,
 		ClassNum = 0,
@@ -374007,7 +374007,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 120",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -374113,7 +374113,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -374169,7 +374169,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 160",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -374260,7 +374260,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -374358,7 +374358,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Swordsman and Merchant"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 7,
@@ -386633,7 +386633,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Swordsman, Archer, Novice, Ninja, Thief, Magician, Merchant and Soul Linker"
+			"Swordsman, Archer, Novice, Ninja, Thief, Magician, Merchant, Soul Linker and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -386724,7 +386724,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 160",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Ninja and Soul Linker"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -386993,7 +386993,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 100",
-			"Super Novice, Soul Linker, Ninja; 3rd classes of Swordsman, Magician, Archer, Merchant and Thief"
+			"Novice, Swordsman, Archer, Thief, Magician, Merchant, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -387216,7 +387216,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 99",
-			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja"
+			"Novice, Swordsman, Magician, Archer, Merchant, Thief, Soul Linker, Ninja and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 1,
@@ -543589,7 +543589,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 120",
-			"Swordsman and Merchant classes"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 0,
@@ -577252,7 +577252,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 10",
-			"Novice, Swordsman, Archer, Thief, Mage, Merchant, Ninja and Soul Linker classes"
+			"Novice, Swordsman, Archer, Thief, Mage, Merchant, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 31,
@@ -578712,7 +578712,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja and Soul Linker classes"
+			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 31,
@@ -578735,7 +578735,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 2",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja and Soul Linker classes"
+			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 31,
@@ -578758,7 +578758,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja and Soul Linker classes"
+			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 31,
@@ -578781,7 +578781,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 4",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja and Soul Linker classes"
+			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 31,
@@ -578804,7 +578804,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 5",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja and Soul Linker classes"
+			"Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 31,
@@ -579067,7 +579067,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 260",
-			"Novice, Swordsman, Archer, Thief, Mage, Merchant, Ninja and Soul Linker classes"
+			"Novice, Swordsman, Archer, Thief, Mage, Merchant, Ninja, Soul Linker and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 31,
@@ -579832,7 +579832,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Swordsman and Merchant classes"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 6,
@@ -579859,7 +579859,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Swordman and Merchant classes"
+			"Swordman, Merchant and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 6,
@@ -579912,7 +579912,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant, Assassin classes"
+			"Novice, Swordman, Merchant, Assassin and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 6,
@@ -579935,7 +579935,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 2",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant, Assassin classes"
+			"Novice, Swordman, Merchant, Assassin and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 6,
@@ -579958,7 +579958,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant, Assassin classes"
+			"Novice, Swordman, Merchant, Assassin and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 6,
@@ -579981,7 +579981,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 4",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant, Assassin classes"
+			"Novice, Swordman, Merchant, Assassin and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 6,
@@ -580004,7 +580004,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 5",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant, Assassin classes"
+			"Novice, Swordman, Merchant, Assassin and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 6,
@@ -596253,7 +596253,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 10",
-			"Swordsman, Merchant and Acolyte classes"
+			"Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 62,
@@ -596589,7 +596589,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Swordsman, Merchant and Acolyte classes"
+			"Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 62,
@@ -596765,7 +596765,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Acolyte and Merchant classes"
+			"Novice, Swordman, Acolyte, Merchant and Druid classes"
 		},
 		slotCount = 0,
 		ClassNum = 8,
@@ -596792,7 +596792,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Swordman, Merchant and Acolyte classes"
+			"Swordman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 1,
 		ClassNum = 62,
@@ -596983,7 +596983,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant and Acolyte classes"
+			"Novice, Swordman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 62,
@@ -597006,7 +597006,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 2",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant and Acolyte classes"
+			"Novice, Swordman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 62,
@@ -597029,7 +597029,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant and Acolyte classes"
+			"Novice, Swordman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 62,
@@ -597052,7 +597052,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 4",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant and Acolyte classes"
+			"Novice, Swordman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 62,
@@ -597075,7 +597075,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 5",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Novice, Swordman, Merchant and Acolyte classes"
+			"Novice, Swordman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 62,
@@ -597306,7 +597306,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 260",
-			"Novice, Swordsman, Merchant and Acolyte classes"
+			"Novice, Swordsman, Merchant, Acolyte and Druid classes"
 		},
 		slotCount = 2,
 		ClassNum = 62,
@@ -601200,7 +601200,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 1",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordman and Merchant classes"
+			"Swordman, Merchant and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 7,
@@ -601223,7 +601223,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 2",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordman and Merchant classes"
+			"Swordman, Merchant and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 7,
@@ -601246,7 +601246,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 3",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordman and Merchant classes"
+			"Swordman, Merchant and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 7,
@@ -601269,7 +601269,7 @@ tbl = {
 			"^0000CCWeapon Level:^000000 4",
 			"_______________________",
 			"^0000CCRequirement:^000000",
-			"Swordman and Merchant classes"
+			"Swordman, Merchant and Druid classes"
 		},
 		slotCount = 4,
 		ClassNum = 7,
@@ -601354,7 +601354,7 @@ tbl = {
 			"_______________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 260",
-			"Swordsman and Merchant classes"
+			"Swordsman, Merchant and Druid classes"
 		},
 		slotCount = 3,
 		ClassNum = 7,
